@@ -22,3 +22,5 @@ P10/P11 cam örtüler, P12 girişte dört kanat, P15/P17 okuma alanı boşluğu 
 ## 21:30 UTC yerel geçiş düzeltmesi
 
 R02 v003 sahnesi ve güncel GLB/kesitler hazır. 021/026/032 + 102/PDF2016 incelemesi eski tam yükseklikli camı ve üç kaba duvarın yerel taşmasını ortaya çıkardı. İki başarısız bütün-sahne kontrolünden sonra 15 yerel ışın testi geçti. Karşı oda/çatı birleşimi açık.
+
+- 2026-10-08 21:30 UTC — `53a312f` origin/main push başarılı. R02 v003 geçit düzeltmesi, bütün görünür meshleri kapsayan yerel açıklık testi ve güncel kesit/GLB aktarımı kaydedildi.
