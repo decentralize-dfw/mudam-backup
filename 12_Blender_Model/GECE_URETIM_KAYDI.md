@@ -44,3 +44,5 @@ Okuma alanının eğimli taş tavanı, 24 kollu armatürü, PDF103 oda duvarlar�
 
 ## 23:43 UTC civarı — R11/R12
 Doğu uç cam cephe adayı, çatıya bağlı taş alın duvarı ve açık pavyon bağlantısı üretildi. Üst çatı şeridi açık belirsizlik. Batıdaki 108 cam panel düzleştirildi; maksimum köşe düzeltmesi 5,102 mm, çerçeveler korundu. Yeniden açma ve geometri kontrolleri geçti. Pavyon cam çatı detaylarına devam ediliyor.
+
+- 2026-10-08 23:47:08 UTC — `7f4449f` origin/main push başarılı. R08/R09 okuma mekânı, R10 doğu spiral, R11 uç cam ve R12 düz batı cam adayları; kaynak/varsayım kayıtları, kontroller, renderlar ve 11,04 MB güncel GLB kaydedildi. HEAD ve origin/main eşleşti. Bu ara kayıttan sonra R13 pavyon kare cam kule/çatı panelizasyonu üretimi aktif olarak sürüyor.
