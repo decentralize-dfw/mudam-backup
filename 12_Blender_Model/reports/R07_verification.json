@@ -1,0 +1,473 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R07_MERDIVEN_BOSLUGU_v001.blend",
+  "failures": [],
+  "evaluated_solids": [
+    {
+      "name": "R07_STAIRWELL_STONE_NORTH",
+      "volume": 40.30889235348946,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R07_STAIRWELL_STONE_WEST",
+      "volume": 40.41093811248808,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    }
+  ],
+  "wall_approach_rays": [
+    {
+      "wall": "R07_STAIRWELL_STONE_NORTH",
+      "fraction": 0.1,
+      "z": -4.326293513971772,
+      "hits": [
+        [
+          0.35000017370492165,
+          "R07_STAIRWELL_STONE_NORTH"
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "wall": "R07_STAIRWELL_STONE_NORTH",
+      "fraction": 0.1,
+      "z": 1.5,
+      "hits": [
+        [
+          0.35000017370492165,
+          "R07_STAIRWELL_STONE_NORTH"
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "wall": "R07_STAIRWELL_STONE_NORTH",
+      "fraction": 0.1,
+      "z": 8.838274398242033,
+      "hits": [
+        [
+          0.35000017370492165,
+          "R07_STAIRWELL_STONE_NORTH"
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "wall": "R07_STAIRWELL_STONE_NORTH",
+      "fraction": 0.3,
+      "z": -4.326293513971772,
+      "hits": [
+        [
+          0.35000017370492165,
+          "R07_STAIRWELL_STONE_NORTH"
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "wall": "R07_STAIRWELL_STONE_NORTH",
+      "fraction": 0.3,
+      "z": 1.5,
+      "hits": [
+        [
+          0.35000017370492165,
+          "R07_STAIRWELL_STONE_NORTH"
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "wall": "R07_STAIRWELL_STONE_NORTH",
+      "fraction": 0.3,
+      "z": 7.477669001962486,
+      "hits": [
+        [
+          0.34999982246326306,
+          "R07_STAIRWELL_STONE_NORTH"
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "wall": "R07_STAIRWELL_STONE_NORTH",
+      "fraction": 0.5,
+      "z": -4.326293513971772,
+      "hits": [
+        [
+          0.35000017370492165,
+          "R07_STAIRWELL_STONE_NORTH"
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "wall": "R07_STAIRWELL_STONE_NORTH",
+      "fraction": 0.5,
+      "z": 1.5,
+      "hits": [
+        [
+          0.35000049833705027,
+          "R07_STAIRWELL_STONE_NORTH"
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "wall": "R07_STAIRWELL_STONE_NORTH",
+      "fraction": 0.5,
+      "z": 6.117063605682942,
+      "hits": [
+        [
+          0.35000049833705027,
+          "R07_STAIRWELL_STONE_NORTH"
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "wall": "R07_STAIRWELL_STONE_NORTH",
+      "fraction": 0.7,
+      "z": -4.326293513971772,
+      "hits": [
+        [
+          0.35000049833705027,
+          "R07_STAIRWELL_STONE_NORTH"
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "wall": "R07_STAIRWELL_STONE_NORTH",
+      "fraction": 0.7,
+      "z": 1.5,
+      "hits": [
+        [
+          0.35000049833705027,
+          "R07_STAIRWELL_STONE_NORTH"
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "wall": "R07_STAIRWELL_STONE_NORTH",
+      "fraction": 0.7,
+      "z": 4.756458209403397,
+      "hits": [
+        [
+          0.35000049833705027,
+          "R07_STAIRWELL_STONE_NORTH"
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "wall": "R07_STAIRWELL_STONE_NORTH",
+      "fraction": 0.9,
+      "z": -4.326293513971772,
+      "hits": [
+        [
+          0.35000049833705027,
+          "R07_STAIRWELL_STONE_NORTH"
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "wall": "R07_STAIRWELL_STONE_NORTH",
+      "fraction": 0.9,
+      "z": 1.5,
+      "hits": [
+        [
+          0.35000049833705027,
+          "R07_STAIRWELL_STONE_NORTH"
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "wall": "R07_STAIRWELL_STONE_NORTH",
+      "fraction": 0.9,
+      "z": 3.395852813123853,
+      "hits": [
+        [
+          0.35000049833705027,
+          "R07_STAIRWELL_STONE_NORTH"
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "wall": "R07_STAIRWELL_STONE_WEST",
+      "fraction": 0.1,
+      "z": -4.326293513971772,
+      "hits": [
+        [
+          0.34999984907249193,
+          "R07_STAIRWELL_STONE_WEST"
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "wall": "R07_STAIRWELL_STONE_WEST",
+      "fraction": 0.1,
+      "z": 1.5,
+      "hits": [
+        [
+          0.3499991465881706,
+          "R07_STAIRWELL_STONE_WEST"
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "wall": "R07_STAIRWELL_STONE_WEST",
+      "fraction": 0.1,
+      "z": 3.3958528131238532,
+      "hits": [
+        [
+          0.34999984907249193,
+          "R07_STAIRWELL_STONE_WEST"
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "wall": "R07_STAIRWELL_STONE_WEST",
+      "fraction": 0.3,
+      "z": -4.326293513971772,
+      "hits": [
+        [
+          0.35000049833705027,
+          "R07_STAIRWELL_STONE_WEST"
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "wall": "R07_STAIRWELL_STONE_WEST",
+      "fraction": 0.3,
+      "z": 1.5,
+      "hits": [
+        [
+          0.35000049833705027,
+          "R07_STAIRWELL_STONE_WEST"
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "wall": "R07_STAIRWELL_STONE_WEST",
+      "fraction": 0.3,
+      "z": 4.756458209403397,
+      "hits": [
+        [
+          0.35000049833705027,
+          "R07_STAIRWELL_STONE_WEST"
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "wall": "R07_STAIRWELL_STONE_WEST",
+      "fraction": 0.5,
+      "z": -4.326293513971772,
+      "hits": [
+        [
+          0.34999984907249193,
+          "R07_STAIRWELL_STONE_WEST"
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "wall": "R07_STAIRWELL_STONE_WEST",
+      "fraction": 0.5,
+      "z": 1.5,
+      "hits": [
+        [
+          0.34999984907249193,
+          "R07_STAIRWELL_STONE_WEST"
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "wall": "R07_STAIRWELL_STONE_WEST",
+      "fraction": 0.5,
+      "z": 6.117063605682942,
+      "hits": [
+        [
+          0.34999984907249193,
+          "R07_STAIRWELL_STONE_WEST"
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "wall": "R07_STAIRWELL_STONE_WEST",
+      "fraction": 0.7,
+      "z": -4.326293513971772,
+      "hits": [
+        [
+          0.3499994712212519,
+          "R07_STAIRWELL_STONE_WEST"
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "wall": "R07_STAIRWELL_STONE_WEST",
+      "fraction": 0.7,
+      "z": 1.5,
+      "hits": [
+        [
+          0.3499991465881706,
+          "R07_STAIRWELL_STONE_WEST"
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "wall": "R07_STAIRWELL_STONE_WEST",
+      "fraction": 0.7,
+      "z": 7.477669001962487,
+      "hits": [
+        [
+          0.3499994712212519,
+          "R07_STAIRWELL_STONE_WEST"
+        ],
+        [
+          0.37772681338168906,
+          "P11_WEST_0_00_04_FRAME_3"
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "wall": "R07_STAIRWELL_STONE_WEST",
+      "fraction": 0.9,
+      "z": -4.326293513971772,
+      "hits": [
+        [
+          0.3499991465881706,
+          "R07_STAIRWELL_STONE_WEST"
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "wall": "R07_STAIRWELL_STONE_WEST",
+      "fraction": 0.9,
+      "z": 1.5,
+      "hits": [
+        [
+          0.3499991465881706,
+          "R07_STAIRWELL_STONE_WEST"
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "wall": "R07_STAIRWELL_STONE_WEST",
+      "fraction": 0.9,
+      "z": 8.838274398242033,
+      "hits": [
+        [
+          0.3499991465881706,
+          "R07_STAIRWELL_STONE_WEST"
+        ],
+        [
+          0.35602844631236585,
+          "P11_WEST_0_00_05_FRAME_3"
+        ]
+      ],
+      "passed": true
+    }
+  ],
+  "miter_shared_vertices": [
+    [
+      -13.03169059753418,
+      12.095230102539062,
+      -5.326293468475342
+    ],
+    [
+      -13.45567512512207,
+      12.110638618469238,
+      -5.326293468475342
+    ],
+    [
+      -13.03169059753418,
+      12.095230102539062,
+      2.9155502319335938
+    ],
+    [
+      -13.45567512512207,
+      12.110638618469238,
+      2.9155502319335938
+    ]
+  ],
+  "basement_floor_edge_observations": [
+    {
+      "wall": "R07_STAIRWELL_STONE_NORTH",
+      "fraction": 0.1,
+      "offset_inside_m": 0.2,
+      "has_lower_floor": true
+    },
+    {
+      "wall": "R07_STAIRWELL_STONE_NORTH",
+      "fraction": 0.3,
+      "offset_inside_m": 0.2,
+      "has_lower_floor": true
+    },
+    {
+      "wall": "R07_STAIRWELL_STONE_NORTH",
+      "fraction": 0.5,
+      "offset_inside_m": 0.2,
+      "has_lower_floor": true
+    },
+    {
+      "wall": "R07_STAIRWELL_STONE_NORTH",
+      "fraction": 0.7,
+      "offset_inside_m": 0.2,
+      "has_lower_floor": true
+    },
+    {
+      "wall": "R07_STAIRWELL_STONE_NORTH",
+      "fraction": 0.9,
+      "offset_inside_m": 0.2,
+      "has_lower_floor": true
+    },
+    {
+      "wall": "R07_STAIRWELL_STONE_WEST",
+      "fraction": 0.1,
+      "offset_inside_m": 0.2,
+      "has_lower_floor": true
+    },
+    {
+      "wall": "R07_STAIRWELL_STONE_WEST",
+      "fraction": 0.3,
+      "offset_inside_m": 0.2,
+      "has_lower_floor": true
+    },
+    {
+      "wall": "R07_STAIRWELL_STONE_WEST",
+      "fraction": 0.5,
+      "offset_inside_m": 0.2,
+      "has_lower_floor": true
+    },
+    {
+      "wall": "R07_STAIRWELL_STONE_WEST",
+      "fraction": 0.7,
+      "offset_inside_m": 0.2,
+      "has_lower_floor": true
+    },
+    {
+      "wall": "R07_STAIRWELL_STONE_WEST",
+      "fraction": 0.9,
+      "offset_inside_m": 0.2,
+      "has_lower_floor": true
+    }
+  ],
+  "construction_acceptance": false
+}

@@ -1,0 +1,56 @@
+{
+  "id": "GH_UP_COMPLETE_FLIGHT_CANDIDATE",
+  "base_scene": "MUDAM_R03_MERDIVEN_CAM_DONUSU_v003.blend",
+  "source_ids": [
+    "021",
+    "022",
+    "023",
+    "024",
+    "025",
+    "026",
+    "101",
+    "102",
+    "103",
+    "PDF2016_page5"
+  ],
+  "start_sum_canonical": 1000.0,
+  "landing_sum_canonical": 1102.0,
+  "landing_end_sum_canonical": 1115.0,
+  "main_risers_candidate": 28,
+  "guard_panels_candidate": 8,
+  "wall_bezier_canonical": [
+    [
+      466.5406,
+      474.5405
+    ],
+    [
+      472.446,
+      505.5556
+    ],
+    [
+      488.6738,
+      533.4674
+    ],
+    [
+      514.24,
+      551.0208
+    ]
+  ],
+  "wall_extension": "Tangent extrapolation beyond PDF curved-wall endpoint; hidden upper connection hypothesis, not traced source",
+  "front_wall_difference_canonical": 5.0,
+  "tread_inset_from_glass_m": 0.126,
+  "back_wall_thickness_m": 0.25,
+  "recess_head_above_upper_floor_m": 3.4,
+  "front_wall_display_depth_m": 0.24,
+  "landing_display_depth_m": 0.2,
+  "assumptions": [
+    "28 main risers plus the three observed podium risers is a geometric candidate, not a count read from photographs or the visitor plan.",
+    "The 102/103 taper near the upper floor is treated as a possible masking/schematic limit. The candidate continues the back curve tangentially behind that limit instead of making zero-width treads. This interpretation is unverified.",
+    "The upper bridge floor receives a local candidate stair aperture; its departure from the printed visitor outline remains visible in plan QA.",
+    "The upper level remains the conditional 101 section estimate. No claim of surveyed rise, compliance or structural design is made.",
+    "The photographed stone side and stair recess are modeled as finish envelopes. Hidden reinforcement and substrate are unknown.",
+    "The wall-side stone grip is observed in 023/024 but its full profile is still unresolved and not substituted with a metal rail."
+  ],
+  "recess_start_sum_canonical": 941.0811,
+  "upper_landing_exit_height_m": 2.4
+}

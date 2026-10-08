@@ -4,7 +4,7 @@
 
 ## Güncel teslim
 
-[MUDAM_R03_MERDIVEN_CAM_DONUSU_v003.blend](scenes/MUDAM_R03_MERDIVEN_CAM_DONUSU_v003.blend) giriş, çatı ve merdiven çalışmalarını birlikte içerir. [Görsel inceleme](URETIM.html) · [Üretim raporu](reports/P07_P09_URETIM_RAPORU.md).
+[MUDAM_R07_MERDIVEN_BOSLUGU_v001.blend](scenes/MUDAM_R07_MERDIVEN_BOSLUGU_v001.blend) giriş, çatı ve merdiven çalışmalarını birlikte içerir. [Görsel inceleme](URETIM.html) · [Üretim raporu](reports/P07_P09_URETIM_RAPORU.md).
 
 | Paket | Durum | Somut çıktı / açık konu |
 | --- | --- | --- |
@@ -57,3 +57,8 @@ Ana kabuk henüz bütün bina düzeyinde kabul edilmedi. OSM uyum RMS'si yaklaş
 R03 v003: 022/023 kaynaklı kıvrımlı cam dönüş, yuvarlak küpeşte, taban kanalı, gömme taş alan ve armatür adayı eklendi. Üç başlangıç basamağının küçük sınır kesişimleri onarıldı; kaynak nesneler korundu. 20 kapalı hacim, 65 destek örneği, 12 girinti ışını ve 15 geçit ışını kontrolü geçti. Güncel GLB 7.33 MB, 3595 mesh ve 69812 üçgen.
 
 Tam üst kol, üst sahanlık, eğimli korkuluk devamı ve bütün detay ölçülerinin kesinleştirilmesi açık. [R03 kaynak / varsayım / kontrol raporu](reports/R03_MERDIVEN_DONUS_RAPORU.md).
+
+## R04 / R05 — Grand Hall merdivenleri
+Üst kol R04 v003 ve alt kol R05 v004 çalışma adayları eklendi. Alt katta 114/055 fotoğraflarıyla kıvrımlı döşeme uzantısı ve üçgen köşe boşluğu düzeltildi; bütün yerel dolaşım kontrolleri yeniden geçti. Gerçek rıht sayıları, kesit kalınlıkları ve detay ölçüleri açık. [R04 raporu](reports/R04_UST_MERDIVEN_RAPORU.md) · [R05 raporu](reports/R05_ALT_MERDIVEN_RAPORU.md).
+
+R06 alt fuaye tavanı ve R07 merdiven arkası düz taş duvarları eklendi; yeni sahnede iki merdiven ve önceki açıklık kontrolleri tekrar geçti. [R06](reports/R06_ALT_FUAYE_RAPORU.md) · [R07](reports/R07_MERDIVEN_BOSLUGU_RAPORU.md).

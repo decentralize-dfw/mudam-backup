@@ -1,0 +1,107 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R07_MERDIVEN_BOSLUGU_v001.blend",
+  "base_scene": "12_Blender_Model/scenes/MUDAM_R06_ALT_FUAYE_v002.blend",
+  "closed_objects": [
+    "R07_STAIRWELL_STONE_NORTH",
+    "R07_STAIRWELL_STONE_WEST"
+  ],
+  "hidden_superseded_objects": [
+    "P06_NORTH_BASE_W",
+    "P06_NORTH_STONE_GABLE_WEST"
+  ],
+  "wall_definitions": [
+    {
+      "name": "R07_STAIRWELL_STONE_NORTH",
+      "footprint_canonical": [
+        [
+          592,
+          334
+        ],
+        [
+          688,
+          334
+        ],
+        [
+          690.5253226696603,
+          331.4746773303397
+        ],
+        [
+          592,
+          331.4746773303397
+        ]
+      ],
+      "top_heights": [
+        9.718577096381804,
+        2.9155501149840806,
+        2.9155501149840806,
+        9.718577096381804
+      ],
+      "inner_edge_canonical": [
+        [
+          592,
+          334
+        ],
+        [
+          688,
+          334
+        ]
+      ],
+      "bottom": -5.326293513971772
+    },
+    {
+      "name": "R07_STAIRWELL_STONE_WEST",
+      "footprint_canonical": [
+        [
+          688,
+          334
+        ],
+        [
+          688,
+          430
+        ],
+        [
+          690.5253226696603,
+          430
+        ],
+        [
+          690.5253226696603,
+          331.4746773303397
+        ]
+      ],
+      "top_heights": [
+        2.9155501149840806,
+        9.718577096381804,
+        9.718577096381804,
+        2.9155501149840806
+      ],
+      "inner_edge_canonical": [
+        [
+          688,
+          334
+        ],
+        [
+          688,
+          430
+        ]
+      ],
+      "bottom": -5.326293513971772
+    }
+  ],
+  "display_thickness_m": 0.3,
+  "conditional_corner_roof_z": 2.9155501149840806,
+  "conditional_side_roof_z": 9.718577096381804,
+  "source_ids": [
+    "114",
+    "045",
+    "051",
+    "055",
+    "102",
+    "104",
+    "087",
+    "119"
+  ],
+  "wall_topology_observed": true,
+  "wall_dimensions_measured": false,
+  "lower_floor_edge_registration_accepted": false,
+  "construction_acceptance": false
+}

@@ -1,0 +1,78 @@
+{
+  "sources": [
+    {
+      "id": "045",
+      "path": "04_Ic_Mekan/Grand_Hall/045_Grand_Hall_genel_gorunum_WikiArquitectura.jpg",
+      "sha256": "679fc7a30562695f57eab672ffd77e9edec297514b65c7dbbdbb62c006d3b3b4",
+      "source_url": "https://es.wikiarquitectura.com/edificio/museo-de-arte-moderno-grand-duc-jean-mudam/",
+      "credit": "WikiArquitectura; sayfadaki fotoğraf serisi Haziran 2019",
+      "source_date": "unknown; do not infer from download date",
+      "modified": false
+    },
+    {
+      "id": "051",
+      "path": "04_Ic_Mekan/Merdivenler_ve_Dolasim/051_Merdiven_ve_katlar_arasi_dolasim_WikiArquitectura.jpg",
+      "sha256": "102d7c8bfa88eb766ea7481a19493a77df6f9c3422e375ba82381fca153adcc0",
+      "source_url": "https://es.wikiarquitectura.com/edificio/museo-de-arte-moderno-grand-duc-jean-mudam/",
+      "credit": "WikiArquitectura; sayfadaki fotoğraf serisi Haziran 2019",
+      "source_date": "unknown; do not infer from download date",
+      "modified": false
+    },
+    {
+      "id": "055",
+      "path": "04_Ic_Mekan/Merdivenler_ve_Dolasim/055_Merdiven_ve_katlar_arasi_dolasim_WikiArquitectura.jpg",
+      "sha256": "d7f4f05fde3673a08285b617661c67c64d1c01477ac5a390795bb8b555402b5e",
+      "source_url": "https://es.wikiarquitectura.com/edificio/museo-de-arte-moderno-grand-duc-jean-mudam/",
+      "credit": "WikiArquitectura; sayfadaki fotoğraf serisi Haziran 2019",
+      "source_date": "unknown; do not infer from download date",
+      "modified": false
+    },
+    {
+      "id": "087",
+      "path": "05_Dis_Mekan/Giris_ve_Yaklasim/087_Yaklasim_koprusu_ve_cam_cati_ArchEyes.jpg",
+      "sha256": "3d4547c7f0fb344d335b7a312b187e1cdae1a4c0dc4f1ea3b5992f712d76070c",
+      "source_url": "https://archeyes.com/the-mudam-by-i-m-pei-where-old-meets-new/",
+      "credit": "© Michael Nguyen / ArchEyes",
+      "source_date": "unknown; do not infer from download date",
+      "modified": false
+    },
+    {
+      "id": "102",
+      "path": "01_Kat_Planlari/Resmi_Kat_Semalari/102_Resmi_kat_semasi_zemin_0_Mudam.jpeg",
+      "sha256": "f4d1d1992e1e2d664d5bf5fddd6aedd760edb2931f398e52b5e13316acec2407",
+      "source_url": "https://www.mudam.com/fr/floor-plans",
+      "credit": "Mudam Luxembourg; kullanıcı tarafından verilen doğrudan bağlantı",
+      "source_date": "unknown; do not infer from download date",
+      "modified": false
+    },
+    {
+      "id": "104",
+      "path": "01_Kat_Planlari/Resmi_Kat_Semalari/104_Resmi_kat_semasi_alt_eksi_1_Mudam.jpeg",
+      "sha256": "985eaa1ee16f67ce3bf64e549e7427c37561d74441017a6595c72fae5faf56de",
+      "source_url": "https://www.mudam.com/fr/floor-plans",
+      "credit": "Mudam Luxembourg; kullanıcı tarafından verilen doğrudan bağlantı",
+      "source_date": "unknown; do not infer from download date",
+      "modified": false
+    },
+    {
+      "id": "114",
+      "path": "04_Ic_Mekan/Grand_Hall/114_Grand_Hall_isik_ve_cam_cati_Mudam.webp",
+      "sha256": "b81231193e6aaa0944265724b16d903abaf12d2800534b7816d196bee1817f26",
+      "source_url": "https://www.mudam.com/visit/architecture",
+      "credit": "Mudam Luxembourg; sayfadaki fotoğraf kredisine bakınız",
+      "source_date": "unknown; do not infer from download date",
+      "modified": false
+    },
+    {
+      "id": "119",
+      "path": "05_Dis_Mekan/Cepheler/119_Cam_cati_cepheden_gorunum_Mudam.webp",
+      "sha256": "58debe32215f4c92615f96569bd1e9a4dffd4d35ffeb96ec2d630553a42a96b1",
+      "source_url": "https://www.mudam.com/visit/architecture",
+      "credit": "© Rémi Villaggi / Mudam Luxembourg",
+      "source_date": "unknown; do not infer from download date",
+      "modified": false
+    }
+  ],
+  "inherited_roof_geometry": "config/entry_package.json",
+  "inherited_roof_height_is_conditional": true
+}

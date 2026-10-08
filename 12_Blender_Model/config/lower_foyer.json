@@ -1,0 +1,38 @@
+{
+  "base_scene": "12_Blender_Model/scenes/MUDAM_R05_ALT_MERDIVEN_v004.blend",
+  "source_ids": [
+    "051",
+    "052",
+    "054",
+    "055",
+    "102",
+    "104",
+    "114"
+  ],
+  "height_source_url": "https://lcb.lu/en/partners/122?favorite=show",
+  "height_source_local_record": "reports/P02_P04_KESIT_VE_KOT_ETUDU.md",
+  "published_clear_height_m": 4.67,
+  "conditional_lower_datum_m": -5.326293513971772,
+  "ceiling_underside_m": -0.6562935139717725,
+  "ceiling_top_m": -0.2,
+  "finish_volume_thickness_m": 0.4562935139717725,
+  "source_footprint_104_object": "P05_ZONE_LM1_GALLERIES_FOYER",
+  "source_ground_footprint_object": "P05_FLOOR_L00_GH",
+  "opening_from": "R05 v004 / 102 corner and PDF218 peninsula",
+  "full_foyer_ceiling_complete": false,
+  "lighting_positions_verified": false,
+  "construction_acceptance": false,
+  "numerical_cleanup": {
+    "merge_tolerance_m": 1e-05,
+    "vertices_removed": 2,
+    "volume_change_m3": 0.0
+  },
+  "file": "12_Blender_Model/scenes/MUDAM_R06_ALT_FUAYE_v002.blend",
+  "closed_objects": [
+    "R06_FOYER_CEILING_AND_CURVED_FASCIA"
+  ],
+  "cutters": [
+    "R06_BASEMENT_FOOTPRINT_CLIP"
+  ],
+  "prior_scene": "12_Blender_Model/scenes/MUDAM_R05_ALT_MERDIVEN_v004.blend"
+}

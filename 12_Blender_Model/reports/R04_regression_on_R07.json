@@ -1,0 +1,2876 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R07_MERDIVEN_BOSLUGU_v001.blend",
+  "failures": [],
+  "evaluated_solids": [
+    {
+      "name": "R04_TREAD_ENVELOPE_01",
+      "volume": 0.14981648583664708,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R04_TREAD_ENVELOPE_02",
+      "volume": 0.306605857745724,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R04_TREAD_ENVELOPE_03",
+      "volume": 0.4692116071898802,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R04_TREAD_ENVELOPE_04",
+      "volume": 0.6364824282776764,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R04_TREAD_ENVELOPE_05",
+      "volume": 0.8072706711065631,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R04_TREAD_ENVELOPE_06",
+      "volume": 0.9804283424098958,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R04_TREAD_ENVELOPE_07",
+      "volume": 1.1547992329621088,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R04_TREAD_ENVELOPE_08",
+      "volume": 1.3292339785292384,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R04_TREAD_ENVELOPE_09",
+      "volume": 1.5025621882051183,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R04_TREAD_ENVELOPE_10",
+      "volume": 1.6736134699631222,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R04_TREAD_ENVELOPE_11",
+      "volume": 1.8412001451423485,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R04_TREAD_ENVELOPE_12",
+      "volume": 2.0041237167096924,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R04_TREAD_ENVELOPE_13",
+      "volume": 2.1611574559943527,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R04_TREAD_ENVELOPE_14",
+      "volume": 2.3110682094291306,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R04_TREAD_ENVELOPE_15",
+      "volume": 2.452603564294428,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R04_TREAD_ENVELOPE_16",
+      "volume": 2.5844570120455685,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R04_TREAD_ENVELOPE_17",
+      "volume": 2.7053280853864194,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R04_TREAD_ENVELOPE_18",
+      "volume": 2.814368915104893,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R04_TREAD_ENVELOPE_19",
+      "volume": 2.915140484501613,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R04_TREAD_ENVELOPE_20",
+      "volume": 3.010033798119153,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R04_TREAD_ENVELOPE_21",
+      "volume": 3.0990786823751293,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R04_TREAD_ENVELOPE_22",
+      "volume": 3.182269659674418,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R04_TREAD_ENVELOPE_23",
+      "volume": 3.25959340506774,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R04_TREAD_ENVELOPE_24",
+      "volume": 3.331073672735137,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R04_TREAD_ENVELOPE_25",
+      "volume": 3.396698493143539,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R04_TREAD_ENVELOPE_26",
+      "volume": 3.456470502125896,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R04_TREAD_ENVELOPE_27",
+      "volume": 3.51038986894433,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R04_TREAD_ENVELOPE_28",
+      "volume": 11.901074125008492,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R04_STONE_SIDE_ENVELOPE",
+      "volume": 7.914539808940077,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R04_RECESS_BACK_00",
+      "volume": 0.5668277054752959,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R04_RECESS_BACK_01",
+      "volume": 0.5606922841662012,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R04_RECESS_BACK_02",
+      "volume": 0.5548682582618056,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R04_RECESS_BACK_03",
+      "volume": 0.5493274627354285,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R04_RECESS_BACK_04",
+      "volume": 0.544057345601086,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R04_RECESS_BACK_05",
+      "volume": 0.5390450956320993,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R04_RECESS_BACK_06",
+      "volume": 0.5342718563614319,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R04_RECESS_BACK_07",
+      "volume": 0.529733881333355,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R04_RECESS_BACK_08",
+      "volume": 0.5254094555394158,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R04_RECESS_BACK_09",
+      "volume": 0.5212955196386062,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R04_RECESS_BACK_10",
+      "volume": 0.517383029336953,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R04_RECESS_BACK_11",
+      "volume": 0.5136618996028925,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R04_RECESS_BACK_12",
+      "volume": 0.510128239469152,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R04_RECESS_BACK_13",
+      "volume": 0.5067667263273261,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R04_RECESS_BACK_14",
+      "volume": 0.5035830629467082,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R04_RECESS_BACK_15",
+      "volume": 0.5005647412947969,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R04_RECESS_BACK_16",
+      "volume": 0.497706688152018,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R04_RECESS_BACK_17",
+      "volume": 0.4950119680501377,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R04_RECESS_BACK_18",
+      "volume": 0.49246873705967076,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R04_RECESS_BACK_19",
+      "volume": 0.4900789833769785,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R04_RECESS_BACK_20",
+      "volume": 0.48783592935888187,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R04_RECESS_BACK_21",
+      "volume": 0.48574058390138575,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R04_RECESS_BACK_22",
+      "volume": 0.4837895243359309,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R04_RECESS_BACK_23",
+      "volume": 0.4819859434313525,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R04_RECESS_BACK_24",
+      "volume": 0.4803196550727993,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R04_RECESS_BACK_25",
+      "volume": 0.47879705175454923,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R04_RECESS_BACK_26",
+      "volume": 0.47741412963627106,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R04_RECESS_BACK_27",
+      "volume": 0.47616974063246253,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R04_RECESS_BACK_28",
+      "volume": 0.4750700211971157,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R04_RECESS_BACK_29",
+      "volume": 0.47410502671290367,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R04_RECESS_BACK_30",
+      "volume": 0.4732861473417245,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R04_RECESS_BACK_31",
+      "volume": 0.4726052367396658,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R04_RECESS_BACK_32",
+      "volume": 0.4720705164415495,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R04_RECESS_BACK_33",
+      "volume": 0.47167859830179104,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R04_RECESS_BACK_34",
+      "volume": 0.47143219649697343,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R04_RECESS_BACK_35",
+      "volume": 0.4713350980520179,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R04_RECESS_BACK_36",
+      "volume": 0.4713853080859849,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R04_RECESS_BACK_37",
+      "volume": 0.47158916598567124,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R04_RECESS_BACK_38",
+      "volume": 0.4719519094739031,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R04_RECESS_BACK_39",
+      "volume": 0.47246719261442216,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R04_RECESS_BACK_40",
+      "volume": 0.47314283457579265,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R04_RECESS_BACK_41",
+      "volume": 0.4739845316637066,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R04_RECESS_BACK_42",
+      "volume": 0.4749968912588596,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R04_RECESS_BACK_43",
+      "volume": 0.47617897615612037,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R04_RECESS_BACK_44",
+      "volume": 0.47753733698386114,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R04_RECESS_BACK_45",
+      "volume": 0.4790058079288313,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R04_RECESS_BACK_46",
+      "volume": 0.4794022334853505,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R04_RECESS_BACK_47",
+      "volume": 0.4794033490757368,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R04_RECESS_BACK_48",
+      "volume": 0.479401401306518,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R04_RECESS_BACK_49",
+      "volume": 0.47940334907603877,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R04_RECESS_BACK_50",
+      "volume": 0.479403349075735,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R04_RECESS_BACK_51",
+      "volume": 0.47940445725981995,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R04_RECESS_BACK_52",
+      "volume": 0.4794061364297839,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R04_RECESS_BACK_53",
+      "volume": 0.4794022334851995,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R04_RECESS_BACK_54",
+      "volume": 0.4794033490757368,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R04_RECESS_BACK_55",
+      "volume": 0.47940334907603877,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R04_RECESS_BACK_56",
+      "volume": 0.479403349075735,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R04_RECESS_BACK_57",
+      "volume": 0.4794033490757368,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R04_RECESS_BACK_58",
+      "volume": 0.4794033490757368,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R04_RECESS_BACK_59",
+      "volume": 0.479403349075735,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R04_RECESS_BACK_60",
+      "volume": 0.47940223348519595,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R04_RECESS_BACK_61",
+      "volume": 0.4794033490758878,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R04_RECESS_BACK_62",
+      "volume": 0.4794033490757368,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R04_RECESS_BACK_63",
+      "volume": 0.4794033490757368,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R04_RECESS_JAMB_FOOT",
+      "volume": 1.7131495156451102,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R04_RECESS_TOP_BELOW_LANDING",
+      "volume": 2.3759602790714496,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R04_RECESS_TOP_LINTEL",
+      "volume": 0.48897405601482546,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R04_RECESS_HEAD",
+      "volume": 11.166201576067484,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R04_GLASS_00",
+      "volume": 0.012212664474313684,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R04_GLASS_BASE_00",
+      "volume": 0.0006894781922310023,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R04_GLASS_01",
+      "volume": 0.01732833854625948,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R04_GLASS_BASE_01",
+      "volume": 0.000976783193812003,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R04_GLASS_02",
+      "volume": 0.01732936975921895,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R04_GLASS_BASE_02",
+      "volume": 0.0009767838002767149,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R04_GLASS_03",
+      "volume": 0.017328337019891116,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R04_GLASS_BASE_03",
+      "volume": 0.0009767838002822382,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R04_GLASS_04",
+      "volume": 0.01732831256101086,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R04_GLASS_BASE_04",
+      "volume": 0.000976761759999556,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R04_GLASS_05",
+      "volume": 0.017328337019882234,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R04_GLASS_BASE_05",
+      "volume": 0.0009767617600104639,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R04_GLASS_06",
+      "volume": 0.017328339055069364,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R04_GLASS_BASE_06",
+      "volume": 0.0009767813744136489,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R04_GLASS_07",
+      "volume": 0.01733040137323627,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R04_GLASS_BASE_07",
+      "volume": 0.0009767862156066232,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R04_GLASS_08",
+      "volume": 0.017328346001433736,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R04_GLASS_BASE_08",
+      "volume": 0.0009767901876142349,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R04_HANDRAIL_FOOT",
+      "volume": 0.001171717661649768,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R04_HANDRAIL_SLOPE",
+      "volume": 0.01491366400995342,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "P05_FLOOR_LP1_BRIDGE",
+      "volume": 26.27086830244141,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    }
+  ],
+  "walk_support_headroom": [
+    {
+      "tread": "R04_TREAD_ENVELOPE_01",
+      "width_fraction": 0.2,
+      "support": [
+        {
+          "name": "R04_TREAD_ENVELOPE_01",
+          "distance": 0.02999997160861788,
+          "point": [
+            18.962886810302734,
+            9.242012023925781,
+            0.6363955140113831
+          ]
+        }
+      ],
+      "headroom_hits": [],
+      "passed": true
+    },
+    {
+      "tread": "R04_TREAD_ENVELOPE_01",
+      "width_fraction": 0.5,
+      "support": [
+        {
+          "name": "R04_TREAD_ENVELOPE_01",
+          "distance": 0.02999997160861788,
+          "point": [
+            18.058086395263672,
+            9.274893760681152,
+            0.6363955140113831
+          ]
+        }
+      ],
+      "headroom_hits": [],
+      "passed": true
+    },
+    {
+      "tread": "R04_TREAD_ENVELOPE_01",
+      "width_fraction": 0.8,
+      "support": [
+        {
+          "name": "R04_TREAD_ENVELOPE_01",
+          "distance": 0.02999997160861788,
+          "point": [
+            17.153287887573242,
+            9.307775497436523,
+            0.6363955140113831
+          ]
+        }
+      ],
+      "headroom_hits": [],
+      "passed": true
+    },
+    {
+      "tread": "R04_TREAD_ENVELOPE_02",
+      "width_fraction": 0.2,
+      "support": [
+        {
+          "name": "R04_TREAD_ENVELOPE_02",
+          "distance": 0.02999997160861788,
+          "point": [
+            19.03057098388672,
+            9.55710220336914,
+            0.7927910685539246
+          ]
+        }
+      ],
+      "headroom_hits": [],
+      "passed": true
+    },
+    {
+      "tread": "R04_TREAD_ENVELOPE_02",
+      "width_fraction": 0.5,
+      "support": [
+        {
+          "name": "R04_TREAD_ENVELOPE_02",
+          "distance": 0.02999997160861788,
+          "point": [
+            18.104713439941406,
+            9.590749740600586,
+            0.7927910685539246
+          ]
+        }
+      ],
+      "headroom_hits": [],
+      "passed": true
+    },
+    {
+      "tread": "R04_TREAD_ENVELOPE_02",
+      "width_fraction": 0.8,
+      "support": [
+        {
+          "name": "R04_TREAD_ENVELOPE_02",
+          "distance": 0.02999997160861788,
+          "point": [
+            17.178852081298828,
+            9.624396324157715,
+            0.7927910685539246
+          ]
+        }
+      ],
+      "headroom_hits": [],
+      "passed": true
+    },
+    {
+      "tread": "R04_TREAD_ENVELOPE_03",
+      "width_fraction": 0.2,
+      "support": [
+        {
+          "name": "R04_TREAD_ENVELOPE_03",
+          "distance": 0.02999997160861788,
+          "point": [
+            19.092050552368164,
+            9.872418403625488,
+            0.9491865634918213
+          ]
+        }
+      ],
+      "headroom_hits": [],
+      "passed": true
+    },
+    {
+      "tread": "R04_TREAD_ENVELOPE_03",
+      "width_fraction": 0.5,
+      "support": [
+        {
+          "name": "R04_TREAD_ENVELOPE_03",
+          "distance": 0.02999997160861788,
+          "point": [
+            18.147457122802734,
+            9.906745910644531,
+            0.9491865634918213
+          ]
+        }
+      ],
+      "headroom_hits": [],
+      "passed": true
+    },
+    {
+      "tread": "R04_TREAD_ENVELOPE_03",
+      "width_fraction": 0.8,
+      "support": [
+        {
+          "name": "R04_TREAD_ENVELOPE_03",
+          "distance": 0.02999997160861788,
+          "point": [
+            17.202865600585938,
+            9.94107437133789,
+            0.9491865634918213
+          ]
+        }
+      ],
+      "headroom_hits": [],
+      "passed": true
+    },
+    {
+      "tread": "R04_TREAD_ENVELOPE_04",
+      "width_fraction": 0.2,
+      "support": [
+        {
+          "name": "R04_TREAD_ENVELOPE_04",
+          "distance": 0.02999997160861788,
+          "point": [
+            19.147340774536133,
+            10.187959671020508,
+            1.1055821180343628
+          ]
+        }
+      ],
+      "headroom_hits": [],
+      "passed": true
+    },
+    {
+      "tread": "R04_TREAD_ENVELOPE_04",
+      "width_fraction": 0.5,
+      "support": [
+        {
+          "name": "R04_TREAD_ENVELOPE_04",
+          "distance": 0.02999997160861788,
+          "point": [
+            18.186336517333984,
+            10.222883224487305,
+            1.1055821180343628
+          ]
+        }
+      ],
+      "headroom_hits": [],
+      "passed": true
+    },
+    {
+      "tread": "R04_TREAD_ENVELOPE_04",
+      "width_fraction": 0.8,
+      "support": [
+        {
+          "name": "R04_TREAD_ENVELOPE_04",
+          "distance": 0.02999997160861788,
+          "point": [
+            17.225332260131836,
+            10.257807731628418,
+            1.1055821180343628
+          ]
+        }
+      ],
+      "headroom_hits": [],
+      "passed": true
+    },
+    {
+      "tread": "R04_TREAD_ENVELOPE_05",
+      "width_fraction": 0.2,
+      "support": [
+        {
+          "name": "R04_TREAD_ENVELOPE_05",
+          "distance": 0.02999997160861788,
+          "point": [
+            19.196456909179688,
+            10.503724098205566,
+            1.2619776725769043
+          ]
+        }
+      ],
+      "headroom_hits": [],
+      "passed": true
+    },
+    {
+      "tread": "R04_TREAD_ENVELOPE_05",
+      "width_fraction": 0.5,
+      "support": [
+        {
+          "name": "R04_TREAD_ENVELOPE_05",
+          "distance": 0.02999997160861788,
+          "point": [
+            18.221355438232422,
+            10.53916072845459,
+            1.2619776725769043
+          ]
+        }
+      ],
+      "headroom_hits": [],
+      "passed": true
+    },
+    {
+      "tread": "R04_TREAD_ENVELOPE_05",
+      "width_fraction": 0.8,
+      "support": [
+        {
+          "name": "R04_TREAD_ENVELOPE_05",
+          "distance": 0.02999997160861788,
+          "point": [
+            17.246253967285156,
+            10.574597358703613,
+            1.2619776725769043
+          ]
+        }
+      ],
+      "headroom_hits": [],
+      "passed": true
+    },
+    {
+      "tread": "R04_TREAD_ENVELOPE_06",
+      "width_fraction": 0.2,
+      "support": [
+        {
+          "name": "R04_TREAD_ENVELOPE_06",
+          "distance": 0.02999997160861788,
+          "point": [
+            19.239397048950195,
+            10.819713592529297,
+            1.4183732271194458
+          ]
+        }
+      ],
+      "headroom_hits": [],
+      "passed": true
+    },
+    {
+      "tread": "R04_TREAD_ENVELOPE_06",
+      "width_fraction": 0.5,
+      "support": [
+        {
+          "name": "R04_TREAD_ENVELOPE_06",
+          "distance": 0.02999997160861788,
+          "point": [
+            18.25251579284668,
+            10.855579376220703,
+            1.4183732271194458
+          ]
+        }
+      ],
+      "headroom_hits": [],
+      "passed": true
+    },
+    {
+      "tread": "R04_TREAD_ENVELOPE_06",
+      "width_fraction": 0.8,
+      "support": [
+        {
+          "name": "R04_TREAD_ENVELOPE_06",
+          "distance": 0.02999997160861788,
+          "point": [
+            17.265634536743164,
+            10.891444206237793,
+            1.4183732271194458
+          ]
+        }
+      ],
+      "headroom_hits": [],
+      "passed": true
+    },
+    {
+      "tread": "R04_TREAD_ENVELOPE_07",
+      "width_fraction": 0.2,
+      "support": [
+        {
+          "name": "R04_TREAD_ENVELOPE_07",
+          "distance": 0.02999997160861788,
+          "point": [
+            19.27616310119629,
+            11.1359281539917,
+            1.5747686624526978
+          ]
+        }
+      ],
+      "headroom_hits": [],
+      "passed": true
+    },
+    {
+      "tread": "R04_TREAD_ENVELOPE_07",
+      "width_fraction": 0.5,
+      "support": [
+        {
+          "name": "R04_TREAD_ENVELOPE_07",
+          "distance": 0.02999997160861788,
+          "point": [
+            18.279815673828125,
+            11.172136306762695,
+            1.5747686624526978
+          ]
+        }
+      ],
+      "headroom_hits": [],
+      "passed": true
+    },
+    {
+      "tread": "R04_TREAD_ENVELOPE_07",
+      "width_fraction": 0.8,
+      "support": [
+        {
+          "name": "R04_TREAD_ENVELOPE_07",
+          "distance": 0.02999997160861788,
+          "point": [
+            17.28346824645996,
+            11.208345413208008,
+            1.5747686624526978
+          ]
+        }
+      ],
+      "headroom_hits": [],
+      "passed": true
+    },
+    {
+      "tread": "R04_TREAD_ENVELOPE_08",
+      "width_fraction": 0.2,
+      "support": [
+        {
+          "name": "R04_TREAD_ENVELOPE_08",
+          "distance": 0.02999997160861788,
+          "point": [
+            19.306737899780273,
+            11.452366828918457,
+            1.7311642169952393
+          ]
+        }
+      ],
+      "headroom_hits": [],
+      "passed": true
+    },
+    {
+      "tread": "R04_TREAD_ENVELOPE_08",
+      "width_fraction": 0.5,
+      "support": [
+        {
+          "name": "R04_TREAD_ENVELOPE_08",
+          "distance": 0.02999997160861788,
+          "point": [
+            18.303247451782227,
+            11.488835334777832,
+            1.7311642169952393
+          ]
+        }
+      ],
+      "headroom_hits": [],
+      "passed": true
+    },
+    {
+      "tread": "R04_TREAD_ENVELOPE_08",
+      "width_fraction": 0.8,
+      "support": [
+        {
+          "name": "R04_TREAD_ENVELOPE_08",
+          "distance": 0.02999997160861788,
+          "point": [
+            17.29975700378418,
+            11.525303840637207,
+            1.7311642169952393
+          ]
+        }
+      ],
+      "headroom_hits": [],
+      "passed": true
+    },
+    {
+      "tread": "R04_TREAD_ENVELOPE_09",
+      "width_fraction": 0.2,
+      "support": [
+        {
+          "name": "R04_TREAD_ENVELOPE_09",
+          "distance": 0.02999997160861788,
+          "point": [
+            19.33110237121582,
+            11.769031524658203,
+            1.8875597715377808
+          ]
+        }
+      ],
+      "headroom_hits": [],
+      "passed": true
+    },
+    {
+      "tread": "R04_TREAD_ENVELOPE_09",
+      "width_fraction": 0.5,
+      "support": [
+        {
+          "name": "R04_TREAD_ENVELOPE_09",
+          "distance": 0.02999997160861788,
+          "point": [
+            18.322795867919922,
+            11.805675506591797,
+            1.8875597715377808
+          ]
+        }
+      ],
+      "headroom_hits": [],
+      "passed": true
+    },
+    {
+      "tread": "R04_TREAD_ENVELOPE_09",
+      "width_fraction": 0.8,
+      "support": [
+        {
+          "name": "R04_TREAD_ENVELOPE_09",
+          "distance": 0.02999997160861788,
+          "point": [
+            17.314491271972656,
+            11.84231948852539,
+            1.8875597715377808
+          ]
+        }
+      ],
+      "headroom_hits": [],
+      "passed": true
+    },
+    {
+      "tread": "R04_TREAD_ENVELOPE_10",
+      "width_fraction": 0.2,
+      "support": [
+        {
+          "name": "R04_TREAD_ENVELOPE_10",
+          "distance": 0.02999997160861788,
+          "point": [
+            19.34922981262207,
+            12.08592414855957,
+            2.0439553260803223
+          ]
+        }
+      ],
+      "headroom_hits": [],
+      "passed": true
+    },
+    {
+      "tread": "R04_TREAD_ENVELOPE_10",
+      "width_fraction": 0.5,
+      "support": [
+        {
+          "name": "R04_TREAD_ENVELOPE_10",
+          "distance": 0.02999997160861788,
+          "point": [
+            18.33844757080078,
+            12.12265682220459,
+            2.0439553260803223
+          ]
+        }
+      ],
+      "headroom_hits": [],
+      "passed": true
+    },
+    {
+      "tread": "R04_TREAD_ENVELOPE_10",
+      "width_fraction": 0.8,
+      "support": [
+        {
+          "name": "R04_TREAD_ENVELOPE_10",
+          "distance": 0.02999997160861788,
+          "point": [
+            17.327667236328125,
+            12.159390449523926,
+            2.0439553260803223
+          ]
+        }
+      ],
+      "headroom_hits": [],
+      "passed": true
+    },
+    {
+      "tread": "R04_TREAD_ENVELOPE_11",
+      "width_fraction": 0.2,
+      "support": [
+        {
+          "name": "R04_TREAD_ENVELOPE_11",
+          "distance": 0.02999997160861788,
+          "point": [
+            19.361080169677734,
+            12.403043746948242,
+            2.200350761413574
+          ]
+        }
+      ],
+      "headroom_hits": [],
+      "passed": true
+    },
+    {
+      "tread": "R04_TREAD_ENVELOPE_11",
+      "width_fraction": 0.5,
+      "support": [
+        {
+          "name": "R04_TREAD_ENVELOPE_11",
+          "distance": 0.02999997160861788,
+          "point": [
+            18.350177764892578,
+            12.439781188964844,
+            2.200350761413574
+          ]
+        }
+      ],
+      "headroom_hits": [],
+      "passed": true
+    },
+    {
+      "tread": "R04_TREAD_ENVELOPE_11",
+      "width_fraction": 0.8,
+      "support": [
+        {
+          "name": "R04_TREAD_ENVELOPE_11",
+          "distance": 0.02999997160861788,
+          "point": [
+            17.33927345275879,
+            12.476517677307129,
+            2.200350761413574
+          ]
+        }
+      ],
+      "headroom_hits": [],
+      "passed": true
+    },
+    {
+      "tread": "R04_TREAD_ENVELOPE_12",
+      "width_fraction": 0.2,
+      "support": [
+        {
+          "name": "R04_TREAD_ENVELOPE_12",
+          "distance": 0.02999997160861788,
+          "point": [
+            19.366613388061523,
+            12.720392227172852,
+            2.3567464351654053
+          ]
+        }
+      ],
+      "headroom_hits": [],
+      "passed": true
+    },
+    {
+      "tread": "R04_TREAD_ENVELOPE_12",
+      "width_fraction": 0.5,
+      "support": [
+        {
+          "name": "R04_TREAD_ENVELOPE_12",
+          "distance": 0.02999997160861788,
+          "point": [
+            18.357955932617188,
+            12.757047653198242,
+            2.3567464351654053
+          ]
+        }
+      ],
+      "headroom_hits": [],
+      "passed": true
+    },
+    {
+      "tread": "R04_TREAD_ENVELOPE_12",
+      "width_fraction": 0.8,
+      "support": [
+        {
+          "name": "R04_TREAD_ENVELOPE_12",
+          "distance": 0.02999997160861788,
+          "point": [
+            17.349300384521484,
+            12.793704986572266,
+            2.3567464351654053
+          ]
+        }
+      ],
+      "headroom_hits": [],
+      "passed": true
+    },
+    {
+      "tread": "R04_TREAD_ENVELOPE_13",
+      "width_fraction": 0.2,
+      "support": [
+        {
+          "name": "R04_TREAD_ENVELOPE_13",
+          "distance": 0.02999997160861788,
+          "point": [
+            19.365774154663086,
+            13.037972450256348,
+            2.5131418704986572
+          ]
+        }
+      ],
+      "headroom_hits": [],
+      "passed": true
+    },
+    {
+      "tread": "R04_TREAD_ENVELOPE_13",
+      "width_fraction": 0.5,
+      "support": [
+        {
+          "name": "R04_TREAD_ENVELOPE_13",
+          "distance": 0.02999997160861788,
+          "point": [
+            18.36175537109375,
+            13.074460983276367,
+            2.5131418704986572
+          ]
+        }
+      ],
+      "headroom_hits": [],
+      "passed": true
+    },
+    {
+      "tread": "R04_TREAD_ENVELOPE_13",
+      "width_fraction": 0.8,
+      "support": [
+        {
+          "name": "R04_TREAD_ENVELOPE_13",
+          "distance": 0.02999997160861788,
+          "point": [
+            17.35773468017578,
+            13.11094856262207,
+            2.5131418704986572
+          ]
+        }
+      ],
+      "headroom_hits": [],
+      "passed": true
+    },
+    {
+      "tread": "R04_TREAD_ENVELOPE_14",
+      "width_fraction": 0.2,
+      "support": [
+        {
+          "name": "R04_TREAD_ENVELOPE_14",
+          "distance": 0.02999997160861788,
+          "point": [
+            19.358505249023438,
+            13.35578727722168,
+            2.669537305831909
+          ]
+        }
+      ],
+      "headroom_hits": [],
+      "passed": true
+    },
+    {
+      "tread": "R04_TREAD_ENVELOPE_14",
+      "width_fraction": 0.5,
+      "support": [
+        {
+          "name": "R04_TREAD_ENVELOPE_14",
+          "distance": 0.02999997160861788,
+          "point": [
+            18.36153221130371,
+            13.39201831817627,
+            2.669537305831909
+          ]
+        }
+      ],
+      "headroom_hits": [],
+      "passed": true
+    },
+    {
+      "tread": "R04_TREAD_ENVELOPE_14",
+      "width_fraction": 0.8,
+      "support": [
+        {
+          "name": "R04_TREAD_ENVELOPE_14",
+          "distance": 0.02999997160861788,
+          "point": [
+            17.364561080932617,
+            13.428250312805176,
+            2.669537305831909
+          ]
+        }
+      ],
+      "headroom_hits": [],
+      "passed": true
+    },
+    {
+      "tread": "R04_TREAD_ENVELOPE_15",
+      "width_fraction": 0.2,
+      "support": [
+        {
+          "name": "R04_TREAD_ENVELOPE_15",
+          "distance": 0.02999997160861788,
+          "point": [
+            19.34473419189453,
+            13.673837661743164,
+            2.8259329795837402
+          ]
+        }
+      ],
+      "headroom_hits": [],
+      "passed": true
+    },
+    {
+      "tread": "R04_TREAD_ENVELOPE_15",
+      "width_fraction": 0.5,
+      "support": [
+        {
+          "name": "R04_TREAD_ENVELOPE_15",
+          "distance": 0.02999997160861788,
+          "point": [
+            18.357250213623047,
+            13.709724426269531,
+            2.8259329795837402
+          ]
+        }
+      ],
+      "headroom_hits": [],
+      "passed": true
+    },
+    {
+      "tread": "R04_TREAD_ENVELOPE_15",
+      "width_fraction": 0.8,
+      "support": [
+        {
+          "name": "R04_TREAD_ENVELOPE_15",
+          "distance": 0.02999997160861788,
+          "point": [
+            17.369762420654297,
+            13.745611190795898,
+            2.8259329795837402
+          ]
+        }
+      ],
+      "headroom_hits": [],
+      "passed": true
+    },
+    {
+      "tread": "R04_TREAD_ENVELOPE_16",
+      "width_fraction": 0.2,
+      "support": [
+        {
+          "name": "R04_TREAD_ENVELOPE_16",
+          "distance": 0.02999997160861788,
+          "point": [
+            19.324390411376953,
+            13.992127418518066,
+            2.982328414916992
+          ]
+        }
+      ],
+      "headroom_hits": [],
+      "passed": true
+    },
+    {
+      "tread": "R04_TREAD_ENVELOPE_16",
+      "width_fraction": 0.5,
+      "support": [
+        {
+          "name": "R04_TREAD_ENVELOPE_16",
+          "distance": 0.02999997160861788,
+          "point": [
+            18.348854064941406,
+            14.027580261230469,
+            2.982328414916992
+          ]
+        }
+      ],
+      "headroom_hits": [],
+      "passed": true
+    },
+    {
+      "tread": "R04_TREAD_ENVELOPE_16",
+      "width_fraction": 0.8,
+      "support": [
+        {
+          "name": "R04_TREAD_ENVELOPE_16",
+          "distance": 0.02999997160861788,
+          "point": [
+            17.373319625854492,
+            14.063032150268555,
+            2.982328414916992
+          ]
+        }
+      ],
+      "headroom_hits": [],
+      "passed": true
+    },
+    {
+      "tread": "R04_TREAD_ENVELOPE_17",
+      "width_fraction": 0.2,
+      "support": [
+        {
+          "name": "R04_TREAD_ENVELOPE_17",
+          "distance": 0.02999997160861788,
+          "point": [
+            19.29738426208496,
+            14.310659408569336,
+            3.1387240886688232
+          ]
+        }
+      ],
+      "headroom_hits": [],
+      "passed": true
+    },
+    {
+      "tread": "R04_TREAD_ENVELOPE_17",
+      "width_fraction": 0.5,
+      "support": [
+        {
+          "name": "R04_TREAD_ENVELOPE_17",
+          "distance": 0.02999997160861788,
+          "point": [
+            18.3362979888916,
+            14.345586776733398,
+            3.1387240886688232
+          ]
+        }
+      ],
+      "headroom_hits": [],
+      "passed": true
+    },
+    {
+      "tread": "R04_TREAD_ENVELOPE_17",
+      "width_fraction": 0.8,
+      "support": [
+        {
+          "name": "R04_TREAD_ENVELOPE_17",
+          "distance": 0.02999997160861788,
+          "point": [
+            17.375211715698242,
+            14.380514144897461,
+            3.1387240886688232
+          ]
+        }
+      ],
+      "headroom_hits": [],
+      "passed": true
+    },
+    {
+      "tread": "R04_TREAD_ENVELOPE_18",
+      "width_fraction": 0.2,
+      "support": [
+        {
+          "name": "R04_TREAD_ENVELOPE_18",
+          "distance": 0.02999997160861788,
+          "point": [
+            19.264522552490234,
+            14.629404067993164,
+            3.295119524002075
+          ]
+        }
+      ],
+      "headroom_hits": [],
+      "passed": true
+    },
+    {
+      "tread": "R04_TREAD_ENVELOPE_18",
+      "width_fraction": 0.5,
+      "support": [
+        {
+          "name": "R04_TREAD_ENVELOPE_18",
+          "distance": 0.02999997160861788,
+          "point": [
+            18.32008171081543,
+            14.663725852966309,
+            3.295119524002075
+          ]
+        }
+      ],
+      "headroom_hits": [],
+      "passed": true
+    },
+    {
+      "tread": "R04_TREAD_ENVELOPE_18",
+      "width_fraction": 0.8,
+      "support": [
+        {
+          "name": "R04_TREAD_ENVELOPE_18",
+          "distance": 0.02999997160861788,
+          "point": [
+            17.375640869140625,
+            14.698047637939453,
+            3.295119524002075
+          ]
+        }
+      ],
+      "headroom_hits": [],
+      "passed": true
+    },
+    {
+      "tread": "R04_TREAD_ENVELOPE_19",
+      "width_fraction": 0.2,
+      "support": [
+        {
+          "name": "R04_TREAD_ENVELOPE_19",
+          "distance": 0.02999997160861788,
+          "point": [
+            19.229032516479492,
+            14.948243141174316,
+            3.451514959335327
+          ]
+        }
+      ],
+      "headroom_hits": [],
+      "passed": true
+    },
+    {
+      "tread": "R04_TREAD_ENVELOPE_19",
+      "width_fraction": 0.5,
+      "support": [
+        {
+          "name": "R04_TREAD_ENVELOPE_19",
+          "distance": 0.02999997160861788,
+          "point": [
+            18.302221298217773,
+            14.981925010681152,
+            3.451514959335327
+          ]
+        }
+      ],
+      "headroom_hits": [],
+      "passed": true
+    },
+    {
+      "tread": "R04_TREAD_ENVELOPE_19",
+      "width_fraction": 0.8,
+      "support": [
+        {
+          "name": "R04_TREAD_ENVELOPE_19",
+          "distance": 0.02999997160861788,
+          "point": [
+            17.375411987304688,
+            15.015605926513672,
+            3.451514959335327
+          ]
+        }
+      ],
+      "headroom_hits": [],
+      "passed": true
+    },
+    {
+      "tread": "R04_TREAD_ENVELOPE_20",
+      "width_fraction": 0.2,
+      "support": [
+        {
+          "name": "R04_TREAD_ENVELOPE_20",
+          "distance": 0.02999997160861788,
+          "point": [
+            19.193410873413086,
+            15.267087936401367,
+            3.607910633087158
+          ]
+        }
+      ],
+      "headroom_hits": [],
+      "passed": true
+    },
+    {
+      "tread": "R04_TREAD_ENVELOPE_20",
+      "width_fraction": 0.5,
+      "support": [
+        {
+          "name": "R04_TREAD_ENVELOPE_20",
+          "distance": 0.02999997160861788,
+          "point": [
+            18.28428077697754,
+            15.300127029418945,
+            3.607910633087158
+          ]
+        }
+      ],
+      "headroom_hits": [],
+      "passed": true
+    },
+    {
+      "tread": "R04_TREAD_ENVELOPE_20",
+      "width_fraction": 0.8,
+      "support": [
+        {
+          "name": "R04_TREAD_ENVELOPE_20",
+          "distance": 0.02999997160861788,
+          "point": [
+            17.375150680541992,
+            15.333166122436523,
+            3.607910633087158
+          ]
+        }
+      ],
+      "headroom_hits": [],
+      "passed": true
+    },
+    {
+      "tread": "R04_TREAD_ENVELOPE_21",
+      "width_fraction": 0.2,
+      "support": [
+        {
+          "name": "R04_TREAD_ENVELOPE_21",
+          "distance": 0.02999997160861788,
+          "point": [
+            19.157791137695312,
+            15.585933685302734,
+            3.76430606842041
+          ]
+        }
+      ],
+      "headroom_hits": [],
+      "passed": true
+    },
+    {
+      "tread": "R04_TREAD_ENVELOPE_21",
+      "width_fraction": 0.5,
+      "support": [
+        {
+          "name": "R04_TREAD_ENVELOPE_21",
+          "distance": 0.02999997160861788,
+          "point": [
+            18.266338348388672,
+            15.618330001831055,
+            3.76430606842041
+          ]
+        }
+      ],
+      "headroom_hits": [],
+      "passed": true
+    },
+    {
+      "tread": "R04_TREAD_ENVELOPE_21",
+      "width_fraction": 0.8,
+      "support": [
+        {
+          "name": "R04_TREAD_ENVELOPE_21",
+          "distance": 0.02999997160861788,
+          "point": [
+            17.374889373779297,
+            15.650726318359375,
+            3.76430606842041
+          ]
+        }
+      ],
+      "headroom_hits": [],
+      "passed": true
+    },
+    {
+      "tread": "R04_TREAD_ENVELOPE_22",
+      "width_fraction": 0.2,
+      "support": [
+        {
+          "name": "R04_TREAD_ENVELOPE_22",
+          "distance": 0.02999997160861788,
+          "point": [
+            19.12217140197754,
+            15.904777526855469,
+            3.920701503753662
+          ]
+        }
+      ],
+      "headroom_hits": [],
+      "passed": true
+    },
+    {
+      "tread": "R04_TREAD_ENVELOPE_22",
+      "width_fraction": 0.5,
+      "support": [
+        {
+          "name": "R04_TREAD_ENVELOPE_22",
+          "distance": 0.02999997160861788,
+          "point": [
+            18.24839973449707,
+            15.936531066894531,
+            3.920701503753662
+          ]
+        }
+      ],
+      "headroom_hits": [],
+      "passed": true
+    },
+    {
+      "tread": "R04_TREAD_ENVELOPE_22",
+      "width_fraction": 0.8,
+      "support": [
+        {
+          "name": "R04_TREAD_ENVELOPE_22",
+          "distance": 0.02999997160861788,
+          "point": [
+            17.3746280670166,
+            15.96828556060791,
+            3.920701503753662
+          ]
+        }
+      ],
+      "headroom_hits": [],
+      "passed": true
+    },
+    {
+      "tread": "R04_TREAD_ENVELOPE_23",
+      "width_fraction": 0.2,
+      "support": [
+        {
+          "name": "R04_TREAD_ENVELOPE_23",
+          "distance": 0.03000021025930424,
+          "point": [
+            19.086549758911133,
+            16.223621368408203,
+            4.077096939086914
+          ]
+        }
+      ],
+      "headroom_hits": [],
+      "passed": true
+    },
+    {
+      "tread": "R04_TREAD_ENVELOPE_23",
+      "width_fraction": 0.5,
+      "support": [
+        {
+          "name": "R04_TREAD_ENVELOPE_23",
+          "distance": 0.03000021025930424,
+          "point": [
+            18.230457305908203,
+            16.25473403930664,
+            4.077096939086914
+          ]
+        }
+      ],
+      "headroom_hits": [],
+      "passed": true
+    },
+    {
+      "tread": "R04_TREAD_ENVELOPE_23",
+      "width_fraction": 0.8,
+      "support": [
+        {
+          "name": "R04_TREAD_ENVELOPE_23",
+          "distance": 0.03000021025930424,
+          "point": [
+            17.374366760253906,
+            16.285846710205078,
+            4.077096939086914
+          ]
+        }
+      ],
+      "headroom_hits": [],
+      "passed": true
+    },
+    {
+      "tread": "R04_TREAD_ENVELOPE_24",
+      "width_fraction": 0.2,
+      "support": [
+        {
+          "name": "R04_TREAD_ENVELOPE_24",
+          "distance": 0.03000021025930424,
+          "point": [
+            19.05093002319336,
+            16.54246711730957,
+            4.233492851257324
+          ]
+        }
+      ],
+      "headroom_hits": [],
+      "passed": true
+    },
+    {
+      "tread": "R04_TREAD_ENVELOPE_24",
+      "width_fraction": 0.5,
+      "support": [
+        {
+          "name": "R04_TREAD_ENVELOPE_24",
+          "distance": 0.03000021025930424,
+          "point": [
+            18.21251678466797,
+            16.57293701171875,
+            4.233492851257324
+          ]
+        }
+      ],
+      "headroom_hits": [],
+      "passed": true
+    },
+    {
+      "tread": "R04_TREAD_ENVELOPE_24",
+      "width_fraction": 0.8,
+      "support": [
+        {
+          "name": "R04_TREAD_ENVELOPE_24",
+          "distance": 0.03000021025930424,
+          "point": [
+            17.37410545349121,
+            16.603404998779297,
+            4.233492851257324
+          ]
+        }
+      ],
+      "headroom_hits": [],
+      "passed": true
+    },
+    {
+      "tread": "R04_TREAD_ENVELOPE_25",
+      "width_fraction": 0.2,
+      "support": [
+        {
+          "name": "R04_TREAD_ENVELOPE_25",
+          "distance": 0.03000021025930424,
+          "point": [
+            19.015308380126953,
+            16.861310958862305,
+            4.389888286590576
+          ]
+        }
+      ],
+      "headroom_hits": [],
+      "passed": true
+    },
+    {
+      "tread": "R04_TREAD_ENVELOPE_25",
+      "width_fraction": 0.5,
+      "support": [
+        {
+          "name": "R04_TREAD_ENVELOPE_25",
+          "distance": 0.03000021025930424,
+          "point": [
+            18.194576263427734,
+            16.891138076782227,
+            4.389888286590576
+          ]
+        }
+      ],
+      "headroom_hits": [],
+      "passed": true
+    },
+    {
+      "tread": "R04_TREAD_ENVELOPE_25",
+      "width_fraction": 0.8,
+      "support": [
+        {
+          "name": "R04_TREAD_ENVELOPE_25",
+          "distance": 0.03000021025930424,
+          "point": [
+            17.373844146728516,
+            16.92096519470215,
+            4.389888286590576
+          ]
+        }
+      ],
+      "headroom_hits": [],
+      "passed": true
+    },
+    {
+      "tread": "R04_TREAD_ENVELOPE_26",
+      "width_fraction": 0.2,
+      "support": [
+        {
+          "name": "R04_TREAD_ENVELOPE_26",
+          "distance": 0.03000021025930424,
+          "point": [
+            18.979690551757812,
+            17.180156707763672,
+            4.546283721923828
+          ]
+        }
+      ],
+      "headroom_hits": [],
+      "passed": true
+    },
+    {
+      "tread": "R04_TREAD_ENVELOPE_26",
+      "width_fraction": 0.5,
+      "support": [
+        {
+          "name": "R04_TREAD_ENVELOPE_26",
+          "distance": 0.03000021025930424,
+          "point": [
+            18.1766357421875,
+            17.209339141845703,
+            4.546283721923828
+          ]
+        }
+      ],
+      "headroom_hits": [],
+      "passed": true
+    },
+    {
+      "tread": "R04_TREAD_ENVELOPE_26",
+      "width_fraction": 0.8,
+      "support": [
+        {
+          "name": "R04_TREAD_ENVELOPE_26",
+          "distance": 0.03000021025930424,
+          "point": [
+            17.37358283996582,
+            17.238523483276367,
+            4.546283721923828
+          ]
+        }
+      ],
+      "headroom_hits": [],
+      "passed": true
+    },
+    {
+      "tread": "R04_TREAD_ENVELOPE_27",
+      "width_fraction": 0.2,
+      "support": [
+        {
+          "name": "R04_TREAD_ENVELOPE_27",
+          "distance": 0.03000021025930424,
+          "point": [
+            18.944068908691406,
+            17.499000549316406,
+            4.70267915725708
+          ]
+        }
+      ],
+      "headroom_hits": [],
+      "passed": true
+    },
+    {
+      "tread": "R04_TREAD_ENVELOPE_27",
+      "width_fraction": 0.5,
+      "support": [
+        {
+          "name": "R04_TREAD_ENVELOPE_27",
+          "distance": 0.03000021025930424,
+          "point": [
+            18.158695220947266,
+            17.527542114257812,
+            4.70267915725708
+          ]
+        }
+      ],
+      "headroom_hits": [],
+      "passed": true
+    },
+    {
+      "tread": "R04_TREAD_ENVELOPE_27",
+      "width_fraction": 0.8,
+      "support": [
+        {
+          "name": "R04_TREAD_ENVELOPE_27",
+          "distance": 0.03000021025930424,
+          "point": [
+            17.373321533203125,
+            17.55608367919922,
+            4.70267915725708
+          ]
+        }
+      ],
+      "headroom_hits": [],
+      "passed": true
+    },
+    {
+      "tread": "R04_TREAD_ENVELOPE_28",
+      "width_fraction": 0.2,
+      "support": [
+        {
+          "name": "R04_TREAD_ENVELOPE_28",
+          "distance": 0.03000021025930424,
+          "point": [
+            18.864971160888672,
+            18.20702362060547,
+            4.859074592590332
+          ]
+        }
+      ],
+      "headroom_hits": [],
+      "passed": true
+    },
+    {
+      "tread": "R04_TREAD_ENVELOPE_28",
+      "width_fraction": 0.5,
+      "support": [
+        {
+          "name": "R04_TREAD_ENVELOPE_28",
+          "distance": 0.03000021025930424,
+          "point": [
+            18.11885643005371,
+            18.23413848876953,
+            4.859074592590332
+          ]
+        }
+      ],
+      "headroom_hits": [],
+      "passed": true
+    },
+    {
+      "tread": "R04_TREAD_ENVELOPE_28",
+      "width_fraction": 0.8,
+      "support": [
+        {
+          "name": "R04_TREAD_ENVELOPE_28",
+          "distance": 0.03000021025930424,
+          "point": [
+            17.37274169921875,
+            18.261253356933594,
+            4.859074592590332
+          ]
+        }
+      ],
+      "headroom_hits": [],
+      "passed": true
+    }
+  ],
+  "between_tread_eye_rays": [
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    []
+  ],
+  "upper_exit_hits": [],
+  "return_rail_join_error_m": 4.266626874965019e-06,
+  "portal_regression": [
+    {
+      "t": 0.2,
+      "z": 1.2,
+      "hits": []
+    },
+    {
+      "t": 0.2,
+      "z": 3.75,
+      "hits": []
+    },
+    {
+      "t": 0.2,
+      "z": 3.96,
+      "hits": [
+        {
+          "name": "P07_GH_EAST_PORTAL_CROSS_BEAM",
+          "distance": 0.310000166306528,
+          "point": [
+            15.19616413116455,
+            1.6234794855117798,
+            3.9600000381469727
+          ]
+        }
+      ]
+    },
+    {
+      "t": 0.2,
+      "z": 4.32,
+      "hits": []
+    },
+    {
+      "t": 0.2,
+      "z": 9.518577096381804,
+      "hits": []
+    },
+    {
+      "t": 0.5,
+      "z": 1.2,
+      "hits": []
+    },
+    {
+      "t": 0.5,
+      "z": 3.75,
+      "hits": []
+    },
+    {
+      "t": 0.5,
+      "z": 3.96,
+      "hits": [
+        {
+          "name": "P07_GH_EAST_PORTAL_CROSS_BEAM",
+          "distance": 0.3100000881956344,
+          "point": [
+            15.968446731567383,
+            2.543104648590088,
+            3.9600000381469727
+          ]
+        }
+      ]
+    },
+    {
+      "t": 0.5,
+      "z": 4.32,
+      "hits": []
+    },
+    {
+      "t": 0.5,
+      "z": 9.518577096381804,
+      "hits": []
+    },
+    {
+      "t": 0.8,
+      "z": 1.2,
+      "hits": []
+    },
+    {
+      "t": 0.8,
+      "z": 3.75,
+      "hits": []
+    },
+    {
+      "t": 0.8,
+      "z": 3.96,
+      "hits": [
+        {
+          "name": "P07_GH_EAST_PORTAL_CROSS_BEAM",
+          "distance": 0.3100003946305655,
+          "point": [
+            16.74073028564453,
+            3.4627299308776855,
+            3.9600000381469727
+          ]
+        }
+      ]
+    },
+    {
+      "t": 0.8,
+      "z": 4.32,
+      "hits": []
+    },
+    {
+      "t": 0.8,
+      "z": 9.518577096381804,
+      "hits": []
+    }
+  ],
+  "recess_regression": [
+    {
+      "radius": 0,
+      "angle": 0,
+      "hits": [
+        {
+          "name": "R03_UPLIGHT_GLASS_LENS",
+          "distance": 1.5900000043185252,
+          "point": [
+            17.010543823242188,
+            8.397671699523926,
+            0.4099999666213989
+          ]
+        },
+        {
+          "name": "R03_PODIUM_3_WITH_RECESS",
+          "distance": 1.619999969270494,
+          "point": [
+            17.010543823242188,
+            8.397671699523926,
+            0.3799999952316284
+          ]
+        },
+        {
+          "name": "R03_PODIUM_2_REPAIRED",
+          "distance": 1.6800000986598758,
+          "point": [
+            17.010543823242188,
+            8.397671699523926,
+            0.31999993324279785
+          ]
+        },
+        {
+          "name": "R03_PODIUM_1_REPAIRED",
+          "distance": 1.8399998948885017,
+          "point": [
+            17.010543823242188,
+            8.397671699523926,
+            0.16000008583068848
+          ]
+        },
+        {
+          "name": "P05_FLOOR_L00_GH",
+          "distance": 2.0,
+          "point": [
+            17.010543823242188,
+            8.397671699523926,
+            0.0
+          ]
+        }
+      ],
+      "passed": true
+    },
+    {
+      "radius": 0,
+      "angle": 1.5707963267948966,
+      "hits": [
+        {
+          "name": "R03_UPLIGHT_GLASS_LENS",
+          "distance": 1.5900000043185252,
+          "point": [
+            17.010543823242188,
+            8.397671699523926,
+            0.4099999666213989
+          ]
+        },
+        {
+          "name": "R03_PODIUM_3_WITH_RECESS",
+          "distance": 1.619999969270494,
+          "point": [
+            17.010543823242188,
+            8.397671699523926,
+            0.3799999952316284
+          ]
+        },
+        {
+          "name": "R03_PODIUM_2_REPAIRED",
+          "distance": 1.6800000986598758,
+          "point": [
+            17.010543823242188,
+            8.397671699523926,
+            0.31999993324279785
+          ]
+        },
+        {
+          "name": "R03_PODIUM_1_REPAIRED",
+          "distance": 1.8399998948885017,
+          "point": [
+            17.010543823242188,
+            8.397671699523926,
+            0.16000008583068848
+          ]
+        },
+        {
+          "name": "P05_FLOOR_L00_GH",
+          "distance": 2.0,
+          "point": [
+            17.010543823242188,
+            8.397671699523926,
+            0.0
+          ]
+        }
+      ],
+      "passed": true
+    },
+    {
+      "radius": 0,
+      "angle": 3.141592653589793,
+      "hits": [
+        {
+          "name": "R03_UPLIGHT_GLASS_LENS",
+          "distance": 1.5900000043185252,
+          "point": [
+            17.010543823242188,
+            8.397671699523926,
+            0.4099999666213989
+          ]
+        },
+        {
+          "name": "R03_PODIUM_3_WITH_RECESS",
+          "distance": 1.619999969270494,
+          "point": [
+            17.010543823242188,
+            8.397671699523926,
+            0.3799999952316284
+          ]
+        },
+        {
+          "name": "R03_PODIUM_2_REPAIRED",
+          "distance": 1.6800000986598758,
+          "point": [
+            17.010543823242188,
+            8.397671699523926,
+            0.31999993324279785
+          ]
+        },
+        {
+          "name": "R03_PODIUM_1_REPAIRED",
+          "distance": 1.8399998948885017,
+          "point": [
+            17.010543823242188,
+            8.397671699523926,
+            0.16000008583068848
+          ]
+        },
+        {
+          "name": "P05_FLOOR_L00_GH",
+          "distance": 2.0,
+          "point": [
+            17.010543823242188,
+            8.397671699523926,
+            0.0
+          ]
+        }
+      ],
+      "passed": true
+    },
+    {
+      "radius": 0,
+      "angle": 4.71238898038469,
+      "hits": [
+        {
+          "name": "R03_UPLIGHT_GLASS_LENS",
+          "distance": 1.5900000043185252,
+          "point": [
+            17.010543823242188,
+            8.397671699523926,
+            0.4099999666213989
+          ]
+        },
+        {
+          "name": "R03_PODIUM_3_WITH_RECESS",
+          "distance": 1.619999969270494,
+          "point": [
+            17.010543823242188,
+            8.397671699523926,
+            0.3799999952316284
+          ]
+        },
+        {
+          "name": "R03_PODIUM_2_REPAIRED",
+          "distance": 1.6800000986598758,
+          "point": [
+            17.010543823242188,
+            8.397671699523926,
+            0.31999993324279785
+          ]
+        },
+        {
+          "name": "R03_PODIUM_1_REPAIRED",
+          "distance": 1.8399998948885017,
+          "point": [
+            17.010543823242188,
+            8.397671699523926,
+            0.16000008583068848
+          ]
+        },
+        {
+          "name": "P05_FLOOR_L00_GH",
+          "distance": 2.0,
+          "point": [
+            17.010543823242188,
+            8.397671699523926,
+            0.0
+          ]
+        }
+      ],
+      "passed": true
+    },
+    {
+      "radius": 0.3,
+      "angle": 0,
+      "hits": [
+        {
+          "name": "R03_RECESSED_STONE_DISH",
+          "distance": 1.5699999294159503,
+          "point": [
+            16.71074104309082,
+            8.408565521240234,
+            0.43000006675720215
+          ]
+        },
+        {
+          "name": "R03_PODIUM_3_WITH_RECESS",
+          "distance": 1.619999969270494,
+          "point": [
+            16.71074104309082,
+            8.408565521240234,
+            0.3799999952316284
+          ]
+        },
+        {
+          "name": "R03_PODIUM_2_REPAIRED",
+          "distance": 1.6800000986598758,
+          "point": [
+            16.71074104309082,
+            8.408565521240234,
+            0.31999993324279785
+          ]
+        },
+        {
+          "name": "R03_PODIUM_1_REPAIRED",
+          "distance": 1.8400000244638193,
+          "point": [
+            16.71074104309082,
+            8.408565521240234,
+            0.15999996662139893
+          ]
+        },
+        {
+          "name": "P05_FLOOR_L00_GH",
+          "distance": 2.0,
+          "point": [
+            16.71074104309082,
+            8.408565521240234,
+            0.0
+          ]
+        }
+      ],
+      "passed": true
+    },
+    {
+      "radius": 0.3,
+      "angle": 1.5707963267948966,
+      "hits": [
+        {
+          "name": "R03_RECESSED_STONE_DISH",
+          "distance": 1.5699999294159503,
+          "point": [
+            17.021438598632812,
+            8.697473526000977,
+            0.43000006675720215
+          ]
+        },
+        {
+          "name": "R03_PODIUM_3_WITH_RECESS",
+          "distance": 1.619999969270494,
+          "point": [
+            17.021438598632812,
+            8.697473526000977,
+            0.3799999952316284
+          ]
+        },
+        {
+          "name": "R03_PODIUM_2_REPAIRED",
+          "distance": 1.6800000986598758,
+          "point": [
+            17.021438598632812,
+            8.697473526000977,
+            0.31999993324279785
+          ]
+        },
+        {
+          "name": "R03_PODIUM_1_REPAIRED",
+          "distance": 1.8400000244638193,
+          "point": [
+            17.021438598632812,
+            8.697473526000977,
+            0.15999996662139893
+          ]
+        },
+        {
+          "name": "P05_FLOOR_L00_GH",
+          "distance": 2.0,
+          "point": [
+            17.021438598632812,
+            8.697473526000977,
+            0.0
+          ]
+        }
+      ],
+      "passed": true
+    },
+    {
+      "radius": 0.3,
+      "angle": 3.141592653589793,
+      "hits": [
+        {
+          "name": "R03_RECESSED_STONE_DISH",
+          "distance": 1.5699999294159503,
+          "point": [
+            17.310346603393555,
+            8.386777877807617,
+            0.43000006675720215
+          ]
+        },
+        {
+          "name": "R03_PODIUM_3_WITH_RECESS",
+          "distance": 1.6199998956845096,
+          "point": [
+            17.310346603393555,
+            8.386777877807617,
+            0.38000011444091797
+          ]
+        },
+        {
+          "name": "R03_PODIUM_2_REPAIRED",
+          "distance": 1.6800001696177806,
+          "point": [
+            17.310346603393555,
+            8.386777877807617,
+            0.3199998140335083
+          ]
+        },
+        {
+          "name": "R03_PODIUM_1_REPAIRED",
+          "distance": 1.8400000244638193,
+          "point": [
+            17.310346603393555,
+            8.386777877807617,
+            0.15999996662139893
+          ]
+        },
+        {
+          "name": "P05_FLOOR_L00_GH",
+          "distance": 2.0,
+          "point": [
+            17.310346603393555,
+            8.386777877807617,
+            0.0
+          ]
+        }
+      ],
+      "passed": true
+    },
+    {
+      "radius": 0.3,
+      "angle": 4.71238898038469,
+      "hits": [
+        {
+          "name": "R03_RECESSED_STONE_DISH",
+          "distance": 1.5700000812749173,
+          "point": [
+            16.999649047851562,
+            8.097869873046875,
+            0.4299999475479126
+          ]
+        },
+        {
+          "name": "R03_PODIUM_3_WITH_RECESS",
+          "distance": 1.6199998956845096,
+          "point": [
+            16.999649047851562,
+            8.097869873046875,
+            0.38000011444091797
+          ]
+        },
+        {
+          "name": "R03_PODIUM_2_REPAIRED",
+          "distance": 1.6800001696177806,
+          "point": [
+            16.999649047851562,
+            8.097869873046875,
+            0.3199998140335083
+          ]
+        },
+        {
+          "name": "R03_PODIUM_1_REPAIRED",
+          "distance": 1.8400000244638193,
+          "point": [
+            16.999649047851562,
+            8.097869873046875,
+            0.15999996662139893
+          ]
+        },
+        {
+          "name": "P05_FLOOR_L00_GH",
+          "distance": 2.0,
+          "point": [
+            16.999649047851562,
+            8.097869873046875,
+            0.0
+          ]
+        }
+      ],
+      "passed": true
+    },
+    {
+      "radius": 0.57,
+      "angle": 0,
+      "hits": [
+        {
+          "name": "R03_PODIUM_3_WITH_RECESS",
+          "distance": 1.519999846157267,
+          "point": [
+            16.440919876098633,
+            8.41836929321289,
+            0.4800001382827759
+          ]
+        },
+        {
+          "name": "R03_PODIUM_2_REPAIRED",
+          "distance": 1.6800000986598758,
+          "point": [
+            16.440919876098633,
+            8.41836929321289,
+            0.31999993324279785
+          ]
+        },
+        {
+          "name": "R03_PODIUM_1_REPAIRED",
+          "distance": 1.8400000244638193,
+          "point": [
+            16.440919876098633,
+            8.41836929321289,
+            0.15999996662139893
+          ]
+        },
+        {
+          "name": "P05_FLOOR_L00_GH",
+          "distance": 2.0,
+          "point": [
+            16.440919876098633,
+            8.41836929321289,
+            0.0
+          ]
+        }
+      ],
+      "passed": true
+    },
+    {
+      "radius": 0.57,
+      "angle": 1.5707963267948966,
+      "hits": [
+        {
+          "name": "R03_PODIUM_3_WITH_RECESS",
+          "distance": 1.5200000030116032,
+          "point": [
+            17.031246185302734,
+            8.96729564666748,
+            0.48000001907348633
+          ]
+        },
+        {
+          "name": "R03_PODIUM_2_REPAIRED",
+          "distance": 1.6800000986598758,
+          "point": [
+            17.031246185302734,
+            8.96729564666748,
+            0.31999993324279785
+          ]
+        },
+        {
+          "name": "R03_PODIUM_1_REPAIRED",
+          "distance": 1.8400001540391278,
+          "point": [
+            17.031246185302734,
+            8.96729564666748,
+            0.15999984741210938
+          ]
+        },
+        {
+          "name": "P05_FLOOR_L00_GH",
+          "distance": 2.0,
+          "point": [
+            17.031246185302734,
+            8.96729564666748,
+            0.0
+          ]
+        }
+      ],
+      "passed": true
+    },
+    {
+      "radius": 0.57,
+      "angle": 3.141592653589793,
+      "hits": [
+        {
+          "name": "R03_PODIUM_3_WITH_RECESS",
+          "distance": 1.520000081438765,
+          "point": [
+            17.580167770385742,
+            8.376974105834961,
+            0.4799998998641968
+          ]
+        },
+        {
+          "name": "R03_PODIUM_2_REPAIRED",
+          "distance": 1.6800000986598758,
+          "point": [
+            17.580167770385742,
+            8.376974105834961,
+            0.31999993324279785
+          ]
+        },
+        {
+          "name": "R03_PODIUM_1_REPAIRED",
+          "distance": 1.8400000244638193,
+          "point": [
+            17.580167770385742,
+            8.376974105834961,
+            0.15999996662139893
+          ]
+        },
+        {
+          "name": "P05_FLOOR_L00_GH",
+          "distance": 2.0,
+          "point": [
+            17.580167770385742,
+            8.376974105834961,
+            0.0
+          ]
+        }
+      ],
+      "passed": true
+    },
+    {
+      "radius": 0.57,
+      "angle": 4.71238898038469,
+      "hits": [
+        {
+          "name": "R03_PODIUM_3_WITH_RECESS",
+          "distance": 1.520000238293077,
+          "point": [
+            16.98984146118164,
+            7.828047752380371,
+            0.4799997806549072
+          ]
+        },
+        {
+          "name": "R03_PODIUM_2_REPAIRED",
+          "distance": 1.6799999567440573,
+          "point": [
+            16.98984146118164,
+            7.828047752380371,
+            0.3200000524520874
+          ]
+        },
+        {
+          "name": "R03_PODIUM_1_REPAIRED",
+          "distance": 1.8400000244638193,
+          "point": [
+            16.98984146118164,
+            7.828047752380371,
+            0.15999996662139893
+          ]
+        },
+        {
+          "name": "P05_FLOOR_L00_GH",
+          "distance": 2.0,
+          "point": [
+            16.98984146118164,
+            7.828047752380371,
+            0.0
+          ]
+        }
+      ],
+      "passed": true
+    }
+  ],
+  "main_risers_candidate": 28,
+  "metric_riser_count_verified": false,
+  "upper_plan_interpretation_verified": false,
+  "construction_acceptance": false
+}
