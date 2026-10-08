@@ -33,3 +33,5 @@ R03 v003: cam dönüş/küpeşte/kanal ve gömme armatür adayı üretildi. Üç
 
 ## 22:45 UTC civarı — R04/R05/R06 üretimi
 Üst merdiven tam kol adayı, aşağı merdiven ve alt fuaye tavanı üretildi. R05 v003 sayısal olarak geçse de 114/055 fotoğraflarıyla karşılaştırmada yanlış boşluk topolojisi bulundu: v004 merkezi kıvrımlı döşeme uzantısını koruyor. R06 v002 kayıtlı alt kat sınırıyla tavanı kesiyor. Yerel destek/açıklık/baş mesafesi kontrolleri ve GLB aktarımı geçti. Bunlar ölçülmüş uygulama projeleri değil, varsayımları yazılmış bölgesel adaylar. Saatlik ara push hazırlanıyor; sonrasında üretim devam eder.
+
+- 2026-10-08 22:49:20 UTC — `57791c2` origin/main push başarılı. R04 üst kol, R05 düzeltilmiş alt merdiven/zemin uzantısı, R06 tavan ve R07 taş köşe duvarları; yeniden açma kontrolleri, kaynak/varsayım kayıtları, kesitler ve 9,09 MB GLB kaydedildi. HEAD ve origin/main eşleşti. Üretim okuma alanı tavanı ile devam ediyor.
