@@ -18,9 +18,9 @@ HTML dosyalarını depoyu indirdikten sonra tarayıcıda açabilirsiniz. Alterna
 
 `00_Kaynaklar` kaynak envanteri ve toplama betiklerini; `01`–`08` plan, kesit, peyzaj, iç/dış mekân ve belge arşivini; `09_Onizlemeler` görsel katalog paftalarını içerir. `10_Olcekli_Plan_ve_Fotograf_Analizi` ölçekli çıktılar ve 105 fotoğrafın analizidir. `11_Blender_Modelleme_Plani` üretim planı, 23 iş paketi ve 35 başlangıç parametresidir.
 
-Henüz Blender modeli üretilmedi. Planlar ölçülmüş uygulama projesi değildir; OSM eşleştirme farkları ve fotoğraf konumu tahminleri ilgili raporlarda açıklanır.
+Blender üretimi P05 ana kabuk etüdüne ilerledi. [Görsel inceleme](12_Blender_Model/URETIM.html) · [İş durumu ve güncel dosyalar](12_Blender_Model/URETIM_DURUMU.md). Üç kat, ana cephe ve çatı kütleleri, pavyon ve geçit düzenlenebilir nesnelerdir. Açıklıklar, ana çatı alt yüzeyleri ve detaylar sürüyor. Planlar ölçülmüş uygulama projesi değildir; OSM eşleştirme farkları ve fotoğraf konumu tahminleri ilgili raporlarda açıklanır.
 
-8 Ekim 2026 denetiminde 105 fotoğraf tek tek incelendi, 42 kayıtta atama/açıklama revizyonu yapıldı. Güncel durum: 35 konum/yön hipotezi, 45 aday bölge, 25 harita noktası olmayan görüntü. Doğrulanmış metrik kamera pozu yoktur. `12_Blender_Model` başlangıç betiklerini içerir; yanlış referanslarla ilerlememesi için üretim, `config/reference_gate.json` tarafından durdurulmuştur. Taslak yükseklikler ve geometri henüz onaylı değildir.
+8 Ekim 2026 denetiminde 105 fotoğraf tek tek incelendi, 42 kayıtta atama/açıklama revizyonu yapıldı. Güncel durum: 35 konum/yön hipotezi, 45 aday bölge, 25 harita noktası olmayan görüntü. Doğrulanmış metrik kamera pozu yoktur. `12_Blender_Model` içindeki yeni P03/P04 betikleriyle üretim sürüyor. Eski `build_mudam.py`, şema çizgi kalınlıklarını duvar kabul ettiği ve çözülmemiş çatı/pencere varsayımları içerdiği için kapalı tutuluyor. Yeni etüt kotları da doğrulanmış ölçü değildir.
 
 ## Kaynaklar ve krediler
 

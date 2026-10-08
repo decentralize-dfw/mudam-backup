@@ -1,0 +1,267 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_P06_CATI_KONTROL_v002.blend",
+  "objects_added": 27,
+  "superseded_objects": [
+    "P05_MAIN_CAP_0",
+    "P05_MAIN_CAP_1",
+    "P05_MAIN_CAP_2",
+    "P05_MAIN_CAP_3",
+    "P05_MAIN_CAP_4",
+    "P05_MAIN_CAP_5",
+    "P05_MAIN_CAP_6",
+    "P05_MAIN_CAP_7",
+    "P05_MAIN_LANTERN_0",
+    "P05_MAIN_LANTERN_1",
+    "P05_MAIN_LANTERN_2",
+    "P05_MAIN_LANTERN_3",
+    "P05_MAIN_LANTERN_4",
+    "P05_MAIN_LANTERN_5",
+    "P05_MAIN_LANTERN_6",
+    "P05_MAIN_LANTERN_7",
+    "P05_MAIN_RING",
+    "P05_MAIN_RING.001",
+    "P05_MAIN_RING.002",
+    "P05_MAIN_ROOF_0",
+    "P05_MAIN_ROOF_1",
+    "P05_MAIN_ROOF_2",
+    "P05_MAIN_ROOF_3",
+    "P05_MAIN_ROOF_4",
+    "P05_MAIN_ROOF_5",
+    "P05_MAIN_ROOF_6",
+    "P05_MAIN_ROOF_7"
+  ],
+  "blender_projection_max_error_px": 0.010315663690503126,
+  "verified_metric_cameras": 0,
+  "conditional_cameras": 1,
+  "photo119": {
+    "camera_parameters": [
+      11.113641019943353,
+      -130.81219470747138,
+      11.20944897817904,
+      -0.08712435058293184,
+      0.1420103723205728,
+      0.0030746099855173212,
+      7.491428241642335
+    ],
+    "camera_basis_rows": [
+      [
+        0.9962402302918661,
+        0.08658025014532007,
+        0.0030436545111275455
+      ],
+      [
+        0.009252421488523534,
+        -0.14126357569088105,
+        0.9899287827311748
+      ],
+      [
+        -0.08613823915432688,
+        0.98617871730625,
+        0.14153353414506212
+      ]
+    ],
+    "focal_px": 1792.6105453932284,
+    "fit_rmse_px": 8.563571057429783,
+    "holdout_rmse_px": 6.0342714320728845,
+    "points": [
+      {
+        "id": "A_apex",
+        "observed_px": [
+          803,
+          365
+        ],
+        "role": "fit",
+        "model_local_xyz": [
+          0.0,
+          0.0,
+          30.369217404225022
+        ],
+        "projected_px": [
+          804.2184420323471,
+          371.7983580258255
+        ],
+        "error_px": 6.9066832006033225
+      },
+      {
+        "id": "B_cap_left",
+        "observed_px": [
+          776,
+          385
+        ],
+        "role": "fit",
+        "model_local_xyz": [
+          -2.3759340032405025,
+          -2.019543902754427,
+          28.50034248704194
+        ],
+        "projected_px": [
+          769.3230644463038,
+          393.4926766242655
+        ],
+        "error_px": 10.803102546609423
+      },
+      {
+        "id": "C_cap_right",
+        "observed_px": [
+          830,
+          385
+        ],
+        "role": "fit",
+        "model_local_xyz": [
+          2.3759340032405025,
+          -2.019543902754427,
+          28.50034248704194
+        ],
+        "projected_px": [
+          834.3987510094488,
+          392.93924507323334
+        ],
+        "error_px": 9.076377183435397
+      },
+      {
+        "id": "D_high_eave_left",
+        "observed_px": [
+          630,
+          552
+        ],
+        "role": "fit",
+        "model_local_xyz": [
+          -13.424027118308839,
+          2.019543902754427,
+          17.66086796738009
+        ],
+        "projected_px": [
+          627.1201616535488,
+          545.5957220312073
+        ],
+        "error_px": 7.02198299650848
+      },
+      {
+        "id": "E_high_eave_right",
+        "observed_px": [
+          980,
+          552
+        ],
+        "role": "fit",
+        "model_local_xyz": [
+          13.424027118308839,
+          2.019543902754427,
+          17.66086796738009
+        ],
+        "projected_px": [
+          988.1206655756099,
+          545.1751036563152
+        ],
+        "error_px": 10.607752801274088
+      },
+      {
+        "id": "F_low_eave_left",
+        "observed_px": [
+          623,
+          600
+        ],
+        "role": "fit",
+        "model_local_xyz": [
+          -13.424027118308839,
+          -2.019543902754427,
+          13.923118133013933
+        ],
+        "projected_px": [
+          616.0989444277402,
+          594.7870284383189
+        ],
+        "error_px": 8.648678541506442
+      },
+      {
+        "id": "G_low_eave_right",
+        "observed_px": [
+          987,
+          600
+        ],
+        "role": "fit",
+        "model_local_xyz": [
+          13.424027118308839,
+          -2.019543902754427,
+          13.923118133013933
+        ],
+        "projected_px": [
+          989.7053980640635,
+          595.2458606823152
+        ],
+        "error_px": 5.470010908306771
+      },
+      {
+        "id": "H_high_shoulder_left",
+        "observed_px": [
+          777,
+          447
+        ],
+        "role": "holdout",
+        "model_local_xyz": [
+          -2.3759340032405025,
+          2.019543902754427,
+          24.85603639853494
+        ],
+        "projected_px": [
+          774.6432001707607,
+          448.9233739017452
+        ],
+        "error_px": 3.04201785021342
+      },
+      {
+        "id": "I_high_shoulder_right",
+        "observed_px": [
+          831,
+          447
+        ],
+        "role": "holdout",
+        "model_local_xyz": [
+          2.3759340032405025,
+          2.019543902754427,
+          24.85603639853494
+        ],
+        "projected_px": [
+          838.0472040922114,
+          448.55402206906575
+        ],
+        "error_px": 7.216513708739416
+      },
+      {
+        "id": "J_low_shoulder_left",
+        "observed_px": [
+          777,
+          493
+        ],
+        "role": "holdout",
+        "model_local_xyz": [
+          -2.3759340032405025,
+          -2.019543902754427,
+          21.118286564168784
+        ],
+        "projected_px": [
+          768.7648737329781,
+          494.72292468818137
+        ],
+        "error_px": 8.413428202281079
+      },
+      {
+        "id": "K_low_shoulder_right",
+        "observed_px": [
+          831,
+          493
+        ],
+        "role": "holdout",
+        "model_local_xyz": [
+          2.3759340032405025,
+          -2.019543902754427,
+          21.118286564168784
+        ],
+        "projected_px": [
+          834.3651742255612,
+          494.4858036448208
+        ],
+        "error_px": 3.678588049693
+      }
+    ]
+  }
+}

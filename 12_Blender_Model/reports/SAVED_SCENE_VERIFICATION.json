@@ -1,0 +1,29 @@
+{
+  "status": "pass",
+  "fresh_process": true,
+  "results": [
+    {
+      "file": "MUDAM_P03_REFERANS_v002.blend",
+      "objects": 90,
+      "packed_images": 14,
+      "coordinate_error_m": 0.0,
+      "unit_scale": 1,
+      "unresolved_production_collections_empty": true
+    },
+    {
+      "file": "MUDAM_P04_KOT_ETUDU_v002.blend",
+      "objects": 121,
+      "packed_images": 15,
+      "coordinate_error_m": 0.0,
+      "unit_scale": 1,
+      "unresolved_production_collections_empty": true,
+      "pavilion_max_join_gap_m": 0.0,
+      "pavilion_faces": 32,
+      "draft_levels": {
+        "LM1": -5.326293513971772,
+        "LP1": 4.859074784676003,
+        "PAV_LM1": -3.8311935802253103
+      }
+    }
+  ]
+}

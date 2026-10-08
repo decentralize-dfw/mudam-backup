@@ -1,0 +1,213 @@
+{
+  "checks": [
+    {
+      "name": "Dogu_cam_salon_ucu",
+      "canonical": [
+        289.5,
+        161.50000000000006
+      ],
+      "local_xy": [
+        4.198253175592981,
+        -36.52770970482379
+      ],
+      "osm_local_xy": [
+        3.851783206919208,
+        -37.381185409612954
+      ],
+      "numerical_transfer_error_m": 0.0,
+      "source_osm_residual_m": 0.9211200887279365,
+      "role": "fit"
+    },
+    {
+      "name": "Grand_Hall_dogu_kosesi",
+      "canonical": [
+        462.4346312880504,
+        336.0975024414571
+      ],
+      "local_xy": [
+        5.398076206445694,
+        -7.358663808554411
+      ],
+      "osm_local_xy": [
+        4.254408132983372,
+        -6.083320281468332
+      ],
+      "numerical_transfer_error_m": 0.0,
+      "source_osm_residual_m": 1.7130317493664209,
+      "role": "fit"
+    },
+    {
+      "name": "Grand_Hall_bati_kosesi",
+      "canonical": [
+        685.9022897749704,
+        336.0975024414571
+      ],
+      "local_xy": [
+        -12.679517608426977,
+        12.08241419494152
+      ],
+      "osm_local_xy": [
+        -11.727758846303914,
+        11.066431771963835
+      ],
+      "numerical_transfer_error_m": 0.0,
+      "source_osm_residual_m": 1.3921440389117912,
+      "role": "fit"
+    },
+    {
+      "name": "Bati_cam_salon_ucu",
+      "canonical": [
+        862.5000000000001,
+        162.90093918174836
+      ],
+      "local_xy": [
+        -42.033159271173645,
+        13.43506066314876
+      ],
+      "osm_local_xy": [
+        -42.47631145257037,
+        12.503849023021758
+      ],
+      "numerical_transfer_error_m": 0.0,
+      "source_osm_residual_m": 1.0312802599607445,
+      "role": "fit"
+    },
+    {
+      "name": "Bati_kanat_dirsek",
+      "canonical": [
+        862.5000000000001,
+        262.55017973279047
+      ],
+      "local_xy": [
+        -33.363946590863634,
+        21.496265165507793
+      ],
+      "osm_local_xy": [
+        -32.751891259569675,
+        21.918408597819507
+      ],
+      "numerical_transfer_error_m": 0.0,
+      "source_osm_residual_m": 0.7435165136089934,
+      "role": "fit"
+    },
+    {
+      "name": "Bati_merdiven_dis_kose",
+      "canonical": [
+        939.2460676958881,
+        339.2962474286783
+      ],
+      "local_xy": [
+        -32.89568173955195,
+        34.38139828387648
+      ],
+      "osm_local_xy": [
+        -32.07503363135038,
+        34.5715446351096
+      ],
+      "numerical_transfer_error_m": 0.0,
+      "source_osm_residual_m": 0.8423888368099863,
+      "role": "fit"
+    },
+    {
+      "name": "Bati_merdiven_ic_kose",
+      "canonical": [
+        862.5000000000001,
+        416.04628379080356
+      ],
+      "local_xy": [
+        -20.010203357960563,
+        33.91345448046923
+      ],
+      "osm_local_xy": [
+        -19.8121067887987,
+        34.48330382630229
+      ],
+      "numerical_transfer_error_m": 0.0,
+      "source_osm_residual_m": 0.6032996997016246,
+      "role": "fit"
+    },
+    {
+      "name": "Bati_galeri_dis_kose",
+      "canonical": [
+        862.5000000000001,
+        534.6816236208367
+      ],
+      "local_xy": [
+        -9.689251721079927,
+        43.51055457163602
+      ],
+      "osm_local_xy": [
+        -10.613216539029963,
+        43.583950825966895
+      ],
+      "numerical_transfer_error_m": 0.0,
+      "source_osm_residual_m": 0.9268753934371362,
+      "role": "fit"
+    },
+    {
+      "name": "Dogu_galeri_dis_kose",
+      "canonical": [
+        289.5,
+        534.6816236208367
+      ],
+      "local_xy": [
+        36.66403862112202,
+        -6.338885708712041
+      ],
+      "osm_local_xy": [
+        36.93873877672013,
+        -6.069088357500732
+      ],
+      "numerical_transfer_error_m": 0.0,
+      "source_osm_residual_m": 0.38503348712321805,
+      "role": "fit"
+    },
+    {
+      "name": "Giris_dogu_dis_kose",
+      "canonical": [
+        478.70219419452695,
+        723.3361418746236
+      ],
+      "local_xy": [
+        37.77080633555306,
+        25.382547345012426
+      ],
+      "osm_local_xy": [
+        37.49522693583276,
+        23.76467559672892
+      ],
+      "numerical_transfer_error_m": 0.0,
+      "source_osm_residual_m": 1.6411742745498197,
+      "role": "check"
+    },
+    {
+      "name": "Giris_bati_dis_kose",
+      "canonical": [
+        674.7344629833567,
+        721.6177093938956
+      ],
+      "local_xy": [
+        21.763121223950293,
+        42.2978071635589
+      ],
+      "osm_local_xy": [
+        19.6571396891959,
+        42.699214863590896
+      ],
+      "numerical_transfer_error_m": 0.0,
+      "source_osm_residual_m": 2.1438951388469167,
+      "role": "check"
+    }
+  ],
+  "basis_x": [
+    -0.08089579467196018,
+    0.08699727710336447
+  ],
+  "basis_image_y": [
+    0.08699727797647938,
+    0.08089579455554485
+  ],
+  "blender_y": "north positive; atlas y must be negated",
+  "max_numeric_error_m": 0.0,
+  "survey_accuracy_claim": false
+}

@@ -1,0 +1,226 @@
+{
+  "version": 1,
+  "source": "101",
+  "ground_y_px": 436,
+  "section_m_per_px": 0.09344374585915391,
+  "span_checks": [
+    {
+      "name": "Pavilion outer width",
+      "section": [
+        1074,
+        1238
+      ],
+      "plan": [
+        42,
+        171
+      ],
+      "m_per_section_px": 0.09344374585915391
+    },
+    {
+      "name": "Main roof outer width",
+      "section": [
+        410,
+        695
+      ],
+      "plan": [
+        462,
+        688
+      ],
+      "m_per_section_px": 0.09420369907585151
+    },
+    {
+      "name": "Pavilion link",
+      "section": [
+        919,
+        1074
+      ],
+      "plan": [
+        171,
+        289
+      ],
+      "m_per_section_px": 0.09043877818786429
+    }
+  ],
+  "conditional_assumptions": [
+    "Section image uses the same vertical and horizontal scale.",
+    "Candidate horizontal correspondences refer to comparable projected widths.",
+    "Spiral-stair doorway bottom near y=384 is an upper finish candidate; main-stair landing is obscured and stair-count verification pending.",
+    "2016 vector and current visitor diagrams represent compatible permanent geometry."
+  ],
+  "uncertainty_note": "Intervals only express span disagreement and +/-2px picking sensitivity. They are NOT statistical confidence intervals and exclude OSM/source/date/projection errors.",
+  "section_cut_line_in_plan": null,
+  "section_original_date": null,
+  "as_built_verified": false,
+  "parameters": [
+    {
+      "id": "Z_LP1_FINISH",
+      "draft_value": 4.859074784676003,
+      "min": 4.341061353017486,
+      "max": 5.275407148247685,
+      "section_y_px": 384,
+      "status": "conditional_section_estimate",
+      "source_ids": [
+        "101",
+        "102"
+      ],
+      "value": null
+    },
+    {
+      "id": "Z_LM1_FINISH",
+      "draft_value": -5.326293513971772,
+      "min": -5.746425643626942,
+      "max": -4.793255243956807,
+      "section_y_px": 493,
+      "status": "conditional_section_estimate",
+      "source_ids": [
+        "101",
+        "102"
+      ],
+      "value": null
+    },
+    {
+      "id": "Z_TECH_FINISH",
+      "draft_value": -10.652587027943545,
+      "min": -11.116036490950478,
+      "max": -9.948265600665072,
+      "section_y_px": 550,
+      "status": "conditional_section_estimate",
+      "source_ids": [
+        "101",
+        "102"
+      ],
+      "value": null
+    },
+    {
+      "id": "Z_ROOF_MAIN_BASE",
+      "draft_value": 13.923118133013933,
+      "min": 13.113622837240323,
+      "max": 14.41316595860528,
+      "section_y_px": 287,
+      "status": "conditional_section_estimate",
+      "source_ids": [
+        "101",
+        "102"
+      ],
+      "value": null
+    },
+    {
+      "id": "Z_ROOF_MAIN_APEX",
+      "draft_value": 30.369217404225022,
+      "min": 29.03084779830444,
+      "max": 30.993016995955145,
+      "section_y_px": 111,
+      "status": "conditional_section_estimate",
+      "source_ids": [
+        "101",
+        "102"
+      ],
+      "value": null
+    },
+    {
+      "id": "Z_PAV_FINISH",
+      "draft_value": 0.0,
+      "min": -0.37681479630340603,
+      "max": 0.37681479630340603,
+      "section_y_px": 436,
+      "status": "conditional_section_estimate",
+      "source_ids": [
+        "101",
+        "102"
+      ],
+      "value": null
+    },
+    {
+      "id": "Z_PAV_LM1_FINISH",
+      "draft_value": -3.8311935802253103,
+      "min": -4.239166458413318,
+      "max": -3.3462347929509786,
+      "section_y_px": 477,
+      "status": "conditional_section_estimate",
+      "source_ids": [
+        "101",
+        "102"
+      ],
+      "value": null
+    },
+    {
+      "id": "Z_PAV_WALL_TOP",
+      "draft_value": 5.419737259830927,
+      "min": 4.883694022144672,
+      "max": 5.840629342702793,
+      "section_y_px": 378,
+      "status": "conditional_section_estimate",
+      "source_ids": [
+        "101",
+        "102"
+      ],
+      "value": null
+    },
+    {
+      "id": "Z_PAV_SHOULDER",
+      "draft_value": 9.064043348337929,
+      "min": 8.410806371471379,
+      "max": 9.514573606661003,
+      "section_y_px": 339,
+      "status": "conditional_section_estimate",
+      "source_ids": [
+        "101",
+        "102"
+      ],
+      "value": null
+    },
+    {
+      "id": "Z_PAV_LANTERN_TOP",
+      "draft_value": 12.801793182704085,
+      "min": 12.028357498985951,
+      "max": 13.282721569695063,
+      "section_y_px": 299,
+      "status": "conditional_section_estimate",
+      "source_ids": [
+        "101",
+        "102"
+      ],
+      "value": null
+    },
+    {
+      "id": "Z_PAV_APEX",
+      "draft_value": 14.57722435402801,
+      "min": 13.746694284555373,
+      "max": 15.072591852136242,
+      "section_y_px": 280,
+      "status": "conditional_section_estimate",
+      "source_ids": [
+        "101",
+        "102"
+      ],
+      "value": null
+    },
+    {
+      "id": "Z_LINK_CEILING",
+      "draft_value": 4.204968563661926,
+      "min": 3.707989905702436,
+      "max": 4.615981254716724,
+      "section_y_px": 391,
+      "status": "conditional_section_estimate",
+      "source_ids": [
+        "101",
+        "102"
+      ],
+      "value": null
+    }
+  ],
+  "external_crosscheck": {
+    "url": "https://lcb.lu/en/partners/122?favorite=show",
+    "accessed": "2026-10-08",
+    "published_ceiling_heights_m": {
+      "Grand Hall": 33,
+      "Foyer": 4.67,
+      "Passerelle": 6
+    },
+    "use": "Context only; room ceiling heights are not floor elevations. 33m does not establish roof-apex datum."
+  },
+  "excluded_elements": [
+    "Central coloured pavilion in section: permanent/temporary identity unresolved.",
+    "Construction thicknesses, step counts, rails, glazing and steel sections are unmeasured."
+  ]
+}

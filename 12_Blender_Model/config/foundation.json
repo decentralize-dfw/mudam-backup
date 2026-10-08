@@ -1,0 +1,511 @@
+{
+  "version": "v001",
+  "calibration": {
+    "crs": "EPSG:32632",
+    "reference": "OSM way 9042342",
+    "reference_url": "https://www.openstreetmap.org/way/9042342",
+    "method": "4-parameter similarity with y-axis reflection; no anisotropic scaling or local warping",
+    "pdf_to_utm_matrix": [
+      [
+        -0.32104840901626464,
+        0.3452631598338485,
+        293464.35677094804
+      ],
+      [
+        0.3452631598338485,
+        0.32104840901626464,
+        5499723.954281934
+      ]
+    ],
+    "canonical_to_pdf_scale": 0.2519738219895287,
+    "canonical_to_pdf_offset": [
+      287.74397853403144,
+      192.8688277486911
+    ],
+    "meters_per_pdf_point": 0.4714644530294181,
+    "meters_per_canonical_pixel": 0.11879670016202512,
+    "fit_rmse_m": 1.0229749132948152,
+    "holdout_rmse_m": 1.9091541799728442,
+    "controls": [
+      {
+        "name": "Dogu_cam_salon_ucu",
+        "pdf_xy": [
+          360.6904,
+          233.5626
+        ],
+        "osm_vertex": 13,
+        "osm_node_id": "66550403",
+        "role": "fit",
+        "residual_m": 0.9211200887279365,
+        "utm": [
+          293428.8517832069,
+          5499922.61881459
+        ]
+      },
+      {
+        "name": "Grand_Hall_dogu_kosesi",
+        "pdf_xy": [
+          404.2654,
+          277.5566
+        ],
+        "osm_vertex": 14,
+        "osm_node_id": "66550404",
+        "role": "fit",
+        "residual_m": 1.7130317493664209,
+        "utm": [
+          293429.254408133,
+          5499953.9166797185
+        ]
+      },
+      {
+        "name": "Grand_Hall_bati_kosesi",
+        "pdf_xy": [
+          460.5734,
+          277.5566
+        ],
+        "osm_vertex": 15,
+        "osm_node_id": "662559828",
+        "role": "fit",
+        "residual_m": 1.3921440389117912,
+        "utm": [
+          293413.2722411537,
+          5499971.066431772
+        ]
+      },
+      {
+        "name": "Bati_cam_salon_ucu",
+        "pdf_xy": [
+          505.0714,
+          233.9156
+        ],
+        "osm_vertex": 19,
+        "osm_node_id": "66550408",
+        "role": "fit",
+        "residual_m": 1.0312802599607445,
+        "utm": [
+          293382.52368854743,
+          5499972.503849023
+        ]
+      },
+      {
+        "name": "Bati_kanat_dirsek",
+        "pdf_xy": [
+          505.0714,
+          259.0246
+        ],
+        "osm_vertex": 20,
+        "osm_node_id": "634300970",
+        "role": "fit",
+        "residual_m": 0.7435165136089934,
+        "utm": [
+          293392.24810874043,
+          5499981.918408598
+        ]
+      },
+      {
+        "name": "Bati_merdiven_dis_kose",
+        "pdf_xy": [
+          524.4094,
+          278.3626
+        ],
+        "osm_vertex": 21,
+        "osm_node_id": "634300958",
+        "role": "fit",
+        "residual_m": 0.8423888368099863,
+        "utm": [
+          293392.92496636865,
+          5499994.571544635
+        ]
+      },
+      {
+        "name": "Bati_merdiven_ic_kose",
+        "pdf_xy": [
+          505.0714,
+          297.7016
+        ],
+        "osm_vertex": 22,
+        "osm_node_id": "634300939",
+        "role": "fit",
+        "residual_m": 0.6032996997016246,
+        "utm": [
+          293405.1878932112,
+          5499994.483303826
+        ]
+      },
+      {
+        "name": "Bati_galeri_dis_kose",
+        "pdf_xy": [
+          505.0714,
+          327.5946
+        ],
+        "osm_vertex": 23,
+        "osm_node_id": "66550399",
+        "role": "fit",
+        "residual_m": 0.9268753934371362,
+        "utm": [
+          293414.38678346097,
+          5500003.583950826
+        ]
+      },
+      {
+        "name": "Dogu_galeri_dis_kose",
+        "pdf_xy": [
+          360.6904,
+          327.5946
+        ],
+        "osm_vertex": 1,
+        "osm_node_id": "7095302080",
+        "role": "fit",
+        "residual_m": 0.38503348712321805,
+        "utm": [
+          293461.9387387767,
+          5499953.9309116425
+        ]
+      },
+      {
+        "name": "Giris_dogu_dis_kose",
+        "pdf_xy": [
+          408.3644,
+          375.1306
+        ],
+        "osm_vertex": 0,
+        "osm_node_id": "7095302062",
+        "role": "check",
+        "residual_m": 1.6411742745498197,
+        "utm": [
+          293462.49522693583,
+          5499983.764675597
+        ]
+      },
+      {
+        "name": "Giris_bati_dis_kose",
+        "pdf_xy": [
+          457.7594,
+          374.6976
+        ],
+        "osm_vertex": 24,
+        "osm_node_id": "7095302057",
+        "role": "check",
+        "residual_m": 2.1438951388469167,
+        "utm": [
+          293444.6571396892,
+          5500002.699214864
+        ]
+      }
+    ],
+    "caveat": "Residuals measure agreement with OSM, not surveying accuracy. OSM and diagram simplification remain unquantified. No surveyed control or photogrammetric camera solution.",
+    "upper_registration": {
+      "source_to_canonical": [
+        1,
+        0.5,
+        -1
+      ],
+      "method": "2026-10-08 correction: exterior tip pixels checked in both original JPEGs; previous +32px vertical shift removed; residual raster uncertainty about 1px"
+    },
+    "basement_registration": {
+      "source_to_canonical": [
+        1.1083172147001934,
+        -3.0957446808510554,
+        -1.4226305609284395
+      ],
+      "method": "Uniform scale + translation of common exterior tips; no distortion"
+    }
+  },
+  "polygons": {
+    "PAV": [
+      [
+        42,
+        264
+      ],
+      [
+        92,
+        215
+      ],
+      [
+        122,
+        215
+      ],
+      [
+        171,
+        264
+      ],
+      [
+        171,
+        294
+      ],
+      [
+        122,
+        344
+      ],
+      [
+        92,
+        344
+      ],
+      [
+        42,
+        294
+      ]
+    ],
+    "LINK": [
+      [
+        171,
+        264
+      ],
+      [
+        289,
+        264
+      ],
+      [
+        289,
+        294
+      ],
+      [
+        171,
+        294
+      ]
+    ],
+    "GH": [
+      [
+        462,
+        334
+      ],
+      [
+        688,
+        334
+      ],
+      [
+        688,
+        463
+      ],
+      [
+        594,
+        555
+      ],
+      [
+        465,
+        555
+      ],
+      [
+        462,
+        438
+      ]
+    ],
+    "ENT": [
+      [
+        465,
+        555
+      ],
+      [
+        689,
+        555
+      ],
+      [
+        689,
+        710
+      ],
+      [
+        617,
+        710
+      ],
+      [
+        595,
+        690
+      ],
+      [
+        557,
+        690
+      ],
+      [
+        537,
+        710
+      ],
+      [
+        465,
+        710
+      ]
+    ],
+    "EAST_GARDEN": [
+      [
+        289,
+        161
+      ],
+      [
+        462,
+        334
+      ],
+      [
+        462,
+        438
+      ],
+      [
+        289,
+        265
+      ]
+    ],
+    "WEST_CAFE": [
+      [
+        688.0,
+        334.0
+      ],
+      [
+        691.62109375,
+        326.8076171875
+      ],
+      [
+        695.359375,
+        319.73046875
+      ],
+      [
+        699.21484375,
+        312.7685546875
+      ],
+      [
+        703.1875,
+        305.921875
+      ],
+      [
+        707.27734375,
+        299.1904296875
+      ],
+      [
+        711.484375,
+        292.57421875
+      ],
+      [
+        715.80859375,
+        286.0732421875
+      ],
+      [
+        720.25,
+        279.6875
+      ],
+      [
+        724.80859375,
+        273.4169921875
+      ],
+      [
+        729.484375,
+        267.26171875
+      ],
+      [
+        734.27734375,
+        261.2216796875
+      ],
+      [
+        739.1875,
+        255.296875
+      ],
+      [
+        744.21484375,
+        249.4873046875
+      ],
+      [
+        749.359375,
+        243.79296875
+      ],
+      [
+        754.62109375,
+        238.2138671875
+      ],
+      [
+        760.0,
+        232.75
+      ],
+      [
+        765.49609375,
+        227.4013671875
+      ],
+      [
+        771.109375,
+        222.16796875
+      ],
+      [
+        776.83984375,
+        217.0498046875
+      ],
+      [
+        782.6875,
+        212.046875
+      ],
+      [
+        788.65234375,
+        207.1591796875
+      ],
+      [
+        794.734375,
+        202.38671875
+      ],
+      [
+        800.93359375,
+        197.7294921875
+      ],
+      [
+        807.25,
+        193.1875
+      ],
+      [
+        813.68359375,
+        188.7607421875
+      ],
+      [
+        820.234375,
+        184.44921875
+      ],
+      [
+        826.90234375,
+        180.2529296875
+      ],
+      [
+        833.6875,
+        176.171875
+      ],
+      [
+        840.58984375,
+        172.2060546875
+      ],
+      [
+        847.609375,
+        168.35546875
+      ],
+      [
+        854.74609375,
+        164.6201171875
+      ],
+      [
+        862.0,
+        161.0
+      ],
+      [
+        862,
+        258
+      ],
+      [
+        688,
+        432
+      ]
+    ]
+  },
+  "measured_levels": {
+    "LM1": null,
+    "L00": 0,
+    "LP1": null
+  },
+  "display_offsets": {
+    "LM1": -12,
+    "L00": 0,
+    "LP1": 12
+  },
+  "display_offsets_note": "Exploded diagram spacing ONLY. Not building elevations. Architectural meshes remain at local Z=0 in their floor parent.",
+  "source_trace_note": "Visitor diagram contours and 2016 vector ink are reference geometry, never wall thickness.",
+  "photo_ids": [
+    "021",
+    "043",
+    "049",
+    "051",
+    "055",
+    "066",
+    "067",
+    "097",
+    "115"
+  ]
+}

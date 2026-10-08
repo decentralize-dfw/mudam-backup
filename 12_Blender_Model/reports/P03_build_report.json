@@ -1,0 +1,23 @@
+{
+  "blender_version": "4.2.0",
+  "objects": 90,
+  "packed_images": 14,
+  "source_count": 118,
+  "max_float_coordinate_error_m": 0.0,
+  "unit_scale": 1.0,
+  "negative_object_scales": [],
+  "floor_levels_measured": {
+    "LM1": null,
+    "L00": 0,
+    "LP1": null
+  },
+  "architectural_height_geometry_generated": false,
+  "file": "12_Blender_Model\\scenes\\MUDAM_P03_REFERANS_v002.blend",
+  "renders": [
+    "P03_00_exploded_reference.png",
+    "P03_LM1_source_overlay.png",
+    "P03_L00_source_overlay.png",
+    "P03_LP1_source_overlay.png"
+  ],
+  "objects_in_render_session": 105
+}

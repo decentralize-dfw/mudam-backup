@@ -1,0 +1,36 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_P09_MERDIVEN_v004.blend",
+  "podium_meshes": [
+    "P09_PODIUM_1",
+    "P09_PODIUM_2",
+    "P09_PODIUM_3"
+  ],
+  "observed_risers": 3,
+  "draft_rise_m": 0.16,
+  "top_z": 0.48,
+  "corrected_path": [
+    [
+      14.623431083513424,
+      7.475733597762883,
+      0
+    ],
+    [
+      16.38935908791609,
+      7.495614559389651,
+      0.48
+    ],
+    [
+      17.90019217855297,
+      16.6870231712237,
+      4.859074784676003
+    ]
+  ],
+  "full_flight_modeled": false,
+  "gh_down_unchanged": true,
+  "sources": [
+    "PDF2016_page5",
+    "021",
+    "022",
+    "023"
+  ]
+}

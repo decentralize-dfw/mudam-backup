@@ -3,6 +3,20 @@
   "photo_visual_audit_complete": true,
   "photos_reviewed": 105,
   "verified_camera_poses": 0,
+  "reference_foundation_enabled": true,
   "production_geometry_enabled": false,
-  "reason": "Reference audit found stair, floor and direction errors. Visual audit complete; reconcile the draft builder with reviewed stair identities and resolve or explicitly bound its provisional heights/geometry before enabling production. See 10_Olcekli_Plan_ve_Fotograf_Analizi/06_Tek_Tek_Denetim/FOTOGRAF_DENETIMI.md."
+  "reason": "P00/P03 reference foundation is authorized and enabled. Legacy build_mudam.py remains disabled: unverified heights, line-width walls and incorrect window/roof assumptions must not be reused. P04 studies may use clearly separated draft parameters.",
+  "conditional_vertical_study_enabled": true,
+  "next_unresolved_tasks": [
+    "P02",
+    "P04"
+  ],
+  "current_regional_studies": [
+    "P06",
+    "P07",
+    "P08",
+    "P09"
+  ],
+  "global_shell_accepted": false,
+  "routine_user_approval_required": false
 }

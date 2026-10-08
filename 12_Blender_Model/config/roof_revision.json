@@ -1,0 +1,116 @@
+{
+  "version": 1,
+  "status": "conditional_topology_study_not_accepted",
+  "sources": [
+    "102",
+    "101",
+    "119",
+    "116",
+    "026"
+  ],
+  "outer_canonical": [
+    [
+      558,
+      334
+    ],
+    [
+      592,
+      334
+    ],
+    [
+      688,
+      430
+    ],
+    [
+      688,
+      464
+    ],
+    [
+      592,
+      560
+    ],
+    [
+      558,
+      560
+    ],
+    [
+      462,
+      464
+    ],
+    [
+      462,
+      430
+    ]
+  ],
+  "inner_canonical": [
+    [
+      558,
+      427
+    ],
+    [
+      592,
+      427
+    ],
+    [
+      595,
+      430
+    ],
+    [
+      595,
+      464
+    ],
+    [
+      592,
+      467
+    ],
+    [
+      558,
+      467
+    ],
+    [
+      555,
+      464
+    ],
+    [
+      555,
+      430
+    ]
+  ],
+  "eave_z": [
+    13.923118133013933,
+    13.923118133013933,
+    13.923118133013933,
+    17.66086796738009,
+    17.66086796738009,
+    17.66086796738009,
+    17.66086796738009,
+    13.923118133013933
+  ],
+  "shoulder_z": [
+    21.118286564168784,
+    21.118286564168784,
+    21.118286564168784,
+    24.85603639853494,
+    24.85603639853494,
+    24.85603639853494,
+    24.85603639853494,
+    21.118286564168784
+  ],
+  "lantern_top_z": 28.50034248704194,
+  "apex_z": 30.369217404225022,
+  "section_picks": {
+    "low_eave_y": 287,
+    "high_eave_y": 247,
+    "low_shoulder_y": 210,
+    "high_shoulder_y": 170,
+    "lantern_top_y": 131,
+    "apex_y": 111
+  },
+  "assumptions": [
+    "102 floor silhouette constrains outer extent; roof edge is not independently surveyed.",
+    "34 canonical pixel corner strip is a visual hypothesis, not a plan dimension.",
+    "Inner footprint is a chamfered square candidate with 40 canonical pixel total width.",
+    "High half assigned toward entrance from photo 116; low half faces photo 119.",
+    "No roof skin thickness, structural profile or panel grid inferred."
+  ]
+}

@@ -1,0 +1,518 @@
+{
+  "source_photo": "119",
+  "source_path": "05_Dis_Mekan/Cepheler/119_Cam_cati_cepheden_gorunum_Mudam.webp",
+  "image_size": [
+    1600,
+    754
+  ],
+  "principal_point_px": [
+    800,
+    377
+  ],
+  "camera_status": "conditional_diagnostic_not_metric_pose",
+  "landmark_selection": "Manual pixel picks, approximately 3 px reading tolerance; correspondence uncertainty additional.",
+  "method": "Fixed geometry, 7 camera parameters, perspective pinhole, NumPy damped least squares, 9 starts. Geometry unchanged by optimization.",
+  "limits": [
+    "Unknown crop/intrinsics/lens distortion; principal point fixed to image centre.",
+    "4 holdouts are withheld shoulder landmarks on the SAME photograph, not independent photographs.",
+    "Absolute scale inherited from OSM/section; image fitting does not validate metres.",
+    "Outer silhouette points partly occlude each other; correspondence is a hypothesis.",
+    "A low residual does not prove unique camera or complete building accuracy."
+  ],
+  "candidates": {
+    "legacy": {
+      "camera_parameters": [
+        0.27778084130018377,
+        -35.00000000672396,
+        38.6227602725768,
+        -0.013593279903372021,
+        -0.2606876644087588,
+        -0.0080995801322056,
+        6.2837528654682755
+      ],
+      "camera_basis_rows": [
+        [
+          0.9999031909128602,
+          0.01150500448438199,
+          -0.007825833763535734
+        ],
+        [
+          0.004595365585656822,
+          0.25782287234688556,
+          0.9661812713512591
+        ],
+        [
+          -0.013133598799046152,
+          0.9661236987915242,
+          -0.2577450430482996
+        ]
+      ],
+      "focal_px": 535.7956645156322,
+      "fit_rmse_px": 12.107908456203676,
+      "holdout_rmse_px": 39.223792675250586,
+      "points": [
+        {
+          "id": "A_apex",
+          "observed_px": [
+            803,
+            365
+          ],
+          "role": "fit",
+          "model_local_xyz": [
+            0.0,
+            0.0,
+            30.369217404225022
+          ],
+          "projected_px": [
+            802.8248415363585,
+            361.37707929232374
+          ],
+          "error_px": 3.6271524563346795
+        },
+        {
+          "id": "B_cap_left",
+          "observed_px": [
+            776,
+            385
+          ],
+          "role": "fit",
+          "model_local_xyz": [
+            -2.4163248812955946,
+            -0.21383406029164656,
+            28.50034248704194
+          ],
+          "projected_px": [
+            767.271624446178,
+            389.17554425366956
+          ],
+          "error_px": 9.675727860110122
+        },
+        {
+          "id": "C_cap_right",
+          "observed_px": [
+            830,
+            385
+          ],
+          "role": "fit",
+          "model_local_xyz": [
+            2.4163248812955946,
+            -0.21383406029164656,
+            28.50034248704194
+          ],
+          "projected_px": [
+            838.7576968253651,
+            388.8680982897821
+          ],
+          "error_px": 9.57389356868066
+        },
+        {
+          "id": "D_high_eave_left",
+          "observed_px": [
+            630,
+            552
+          ],
+          "role": "fit",
+          "model_local_xyz": [
+            -13.424027118308839,
+            1.1879670016202513,
+            13.923118133013933
+          ],
+          "projected_px": [
+            631.0209952338962,
+            565.4234707215307
+          ],
+          "error_px": 13.462243404404482
+        },
+        {
+          "id": "E_high_eave_right",
+          "observed_px": [
+            980,
+            552
+          ],
+          "role": "fit",
+          "model_local_xyz": [
+            13.424027118308839,
+            1.1879670016202513,
+            13.923118133013933
+          ],
+          "projected_px": [
+            979.0682268089819,
+            565.4316260111015
+          ],
+          "error_px": 13.463906512658104
+        },
+        {
+          "id": "F_low_eave_left",
+          "observed_px": [
+            623,
+            600
+          ],
+          "role": "fit",
+          "model_local_xyz": [
+            -13.424027118308839,
+            -1.1879670016202513,
+            13.923118133013933
+          ],
+          "projected_px": [
+            620.7557616766346,
+            584.823485933999
+          ],
+          "error_px": 15.341550927060412
+        },
+        {
+          "id": "G_low_eave_right",
+          "observed_px": [
+            987,
+            600
+          ],
+          "role": "fit",
+          "model_local_xyz": [
+            13.424027118308839,
+            -1.1879670016202513,
+            13.923118133013933
+          ],
+          "projected_px": [
+            989.2687878641385,
+            585.0081559380859
+          ],
+          "error_px": 15.162545523401112
+        },
+        {
+          "id": "H_high_shoulder_left",
+          "observed_px": [
+            777,
+            447
+          ],
+          "role": "holdout",
+          "model_local_xyz": [
+            -2.4163248812955946,
+            0.21383406029164656,
+            24.85603639853494
+          ],
+          "projected_px": [
+            768.9251872593295,
+            437.3351583037696
+          ],
+          "error_px": 12.594116317157308
+        },
+        {
+          "id": "I_high_shoulder_right",
+          "observed_px": [
+            831,
+            447
+          ],
+          "role": "holdout",
+          "model_local_xyz": [
+            2.4163248812955946,
+            0.21383406029164656,
+            24.85603639853494
+          ],
+          "projected_px": [
+            837.8386502268436,
+            437.1202111317597
+          ],
+          "error_px": 12.015713254156543
+        },
+        {
+          "id": "J_low_shoulder_left",
+          "observed_px": [
+            777,
+            493
+          ],
+          "role": "holdout",
+          "model_local_xyz": [
+            -2.4163248812955946,
+            -0.21383406029164656,
+            24.85603639853494
+          ],
+          "projected_px": [
+            768.5090755424559,
+            439.59394589158984
+          ],
+          "error_px": 54.076819558607134
+        },
+        {
+          "id": "K_low_shoulder_right",
+          "observed_px": [
+            831,
+            493
+          ],
+          "role": "holdout",
+          "model_local_xyz": [
+            2.4163248812955946,
+            -0.21383406029164656,
+            24.85603639853494
+          ],
+          "projected_px": [
+            838.1887340435344,
+            439.38046805701174
+          ],
+          "error_px": 54.09928005929292
+        }
+      ]
+    },
+    "revised": {
+      "camera_parameters": [
+        11.113641019943353,
+        -130.81219470747138,
+        11.20944897817904,
+        -0.08712435058293184,
+        0.1420103723205728,
+        0.0030746099855173212,
+        7.491428241642335
+      ],
+      "camera_basis_rows": [
+        [
+          0.9962402302918661,
+          0.08658025014532007,
+          0.0030436545111275455
+        ],
+        [
+          0.009252421488523534,
+          -0.14126357569088105,
+          0.9899287827311748
+        ],
+        [
+          -0.08613823915432688,
+          0.98617871730625,
+          0.14153353414506212
+        ]
+      ],
+      "focal_px": 1792.6105453932284,
+      "fit_rmse_px": 8.563571057429783,
+      "holdout_rmse_px": 6.0342714320728845,
+      "points": [
+        {
+          "id": "A_apex",
+          "observed_px": [
+            803,
+            365
+          ],
+          "role": "fit",
+          "model_local_xyz": [
+            0.0,
+            0.0,
+            30.369217404225022
+          ],
+          "projected_px": [
+            804.2184420323471,
+            371.7983580258255
+          ],
+          "error_px": 6.9066832006033225
+        },
+        {
+          "id": "B_cap_left",
+          "observed_px": [
+            776,
+            385
+          ],
+          "role": "fit",
+          "model_local_xyz": [
+            -2.3759340032405025,
+            -2.019543902754427,
+            28.50034248704194
+          ],
+          "projected_px": [
+            769.3230644463038,
+            393.4926766242655
+          ],
+          "error_px": 10.803102546609423
+        },
+        {
+          "id": "C_cap_right",
+          "observed_px": [
+            830,
+            385
+          ],
+          "role": "fit",
+          "model_local_xyz": [
+            2.3759340032405025,
+            -2.019543902754427,
+            28.50034248704194
+          ],
+          "projected_px": [
+            834.3987510094488,
+            392.93924507323334
+          ],
+          "error_px": 9.076377183435397
+        },
+        {
+          "id": "D_high_eave_left",
+          "observed_px": [
+            630,
+            552
+          ],
+          "role": "fit",
+          "model_local_xyz": [
+            -13.424027118308839,
+            2.019543902754427,
+            17.66086796738009
+          ],
+          "projected_px": [
+            627.1201616535488,
+            545.5957220312073
+          ],
+          "error_px": 7.02198299650848
+        },
+        {
+          "id": "E_high_eave_right",
+          "observed_px": [
+            980,
+            552
+          ],
+          "role": "fit",
+          "model_local_xyz": [
+            13.424027118308839,
+            2.019543902754427,
+            17.66086796738009
+          ],
+          "projected_px": [
+            988.1206655756099,
+            545.1751036563152
+          ],
+          "error_px": 10.607752801274088
+        },
+        {
+          "id": "F_low_eave_left",
+          "observed_px": [
+            623,
+            600
+          ],
+          "role": "fit",
+          "model_local_xyz": [
+            -13.424027118308839,
+            -2.019543902754427,
+            13.923118133013933
+          ],
+          "projected_px": [
+            616.0989444277402,
+            594.7870284383189
+          ],
+          "error_px": 8.648678541506442
+        },
+        {
+          "id": "G_low_eave_right",
+          "observed_px": [
+            987,
+            600
+          ],
+          "role": "fit",
+          "model_local_xyz": [
+            13.424027118308839,
+            -2.019543902754427,
+            13.923118133013933
+          ],
+          "projected_px": [
+            989.7053980640635,
+            595.2458606823152
+          ],
+          "error_px": 5.470010908306771
+        },
+        {
+          "id": "H_high_shoulder_left",
+          "observed_px": [
+            777,
+            447
+          ],
+          "role": "holdout",
+          "model_local_xyz": [
+            -2.3759340032405025,
+            2.019543902754427,
+            24.85603639853494
+          ],
+          "projected_px": [
+            774.6432001707607,
+            448.9233739017452
+          ],
+          "error_px": 3.04201785021342
+        },
+        {
+          "id": "I_high_shoulder_right",
+          "observed_px": [
+            831,
+            447
+          ],
+          "role": "holdout",
+          "model_local_xyz": [
+            2.3759340032405025,
+            2.019543902754427,
+            24.85603639853494
+          ],
+          "projected_px": [
+            838.0472040922114,
+            448.55402206906575
+          ],
+          "error_px": 7.216513708739416
+        },
+        {
+          "id": "J_low_shoulder_left",
+          "observed_px": [
+            777,
+            493
+          ],
+          "role": "holdout",
+          "model_local_xyz": [
+            -2.3759340032405025,
+            -2.019543902754427,
+            21.118286564168784
+          ],
+          "projected_px": [
+            768.7648737329781,
+            494.72292468818137
+          ],
+          "error_px": 8.413428202281079
+        },
+        {
+          "id": "K_low_shoulder_right",
+          "observed_px": [
+            831,
+            493
+          ],
+          "role": "holdout",
+          "model_local_xyz": [
+            2.3759340032405025,
+            -2.019543902754427,
+            21.118286564168784
+          ],
+          "projected_px": [
+            834.3651742255612,
+            494.4858036448208
+          ],
+          "error_px": 3.678588049693
+        }
+      ]
+    }
+  },
+  "cross_system_checks": [
+    {
+      "id": "west_high_wall_tip",
+      "role": "not_used_in_camera_fit",
+      "observed_px": [
+        181,
+        559
+      ],
+      "projected_px": [
+        227.6298749706658,
+        587.5364608306387
+      ],
+      "error_px": 54.66877387063389,
+      "correspondence": "Candidate outer high stone wall tip; height/location correspondence still unresolved"
+    },
+    {
+      "id": "east_high_wall_tip",
+      "role": "not_used_in_camera_fit",
+      "observed_px": [
+        1424,
+        554
+      ],
+      "projected_px": [
+        1343.0335719505856,
+        588.7275580529182
+      ],
+      "error_px": 88.09974891791576,
+      "correspondence": "Candidate outer high stone wall tip; height/location correspondence still unresolved"
+    }
+  ],
+  "acceptance": "NOT_ACCEPTED: wing checks disagree; camera and whole shell remain conditional.",
+  "legacy_fit_limitation": "Best legacy fit hits the 35 m minimum distance search bound; comparison is diagnostic, not an unconstrained global optimum claim."
+}

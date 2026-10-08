@@ -1,0 +1,28 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_P04_KOT_ETUDU_v002.blend",
+  "stage": "P04 in progress",
+  "production_model_complete": false,
+  "editable_meshes": [
+    "P04_PAV_WALL_ENVELOPE",
+    "P04_PAV_ROOF_SLOPE",
+    "P04_PAV_LANTERN",
+    "P04_PAV_CAP"
+  ],
+  "packed_images": 15,
+  "draft_levels": {
+    "Z_LP1_FINISH": 4.859074784676003,
+    "Z_LM1_FINISH": -5.326293513971772,
+    "Z_TECH_FINISH": -10.652587027943545,
+    "Z_ROOF_MAIN_BASE": 13.923118133013933,
+    "Z_ROOF_MAIN_APEX": 30.369217404225022,
+    "Z_PAV_FINISH": 0.0,
+    "Z_PAV_LM1_FINISH": -3.8311935802253103,
+    "Z_PAV_WALL_TOP": 5.419737259830927,
+    "Z_PAV_SHOULDER": 9.064043348337929,
+    "Z_PAV_LANTERN_TOP": 12.801793182704085,
+    "Z_PAV_APEX": 14.57722435402801,
+    "Z_LINK_CEILING": 4.204968563661926
+  },
+  "source_cut_line_verified": false,
+  "main_stair_riser_chain_verified": false
+}

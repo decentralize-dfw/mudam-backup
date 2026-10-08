@@ -99,11 +99,11 @@
       "id": "Z_LP1_FINISH",
       "property": "Üst kat bitmiş kotu",
       "value": null,
-      "draft_value": null,
+      "draft_value": 4.859074784676003,
       "unit": "m",
-      "min": null,
-      "max": null,
-      "status": "unresolved",
+      "min": 4.341061353017486,
+      "max": 5.275407148247685,
+      "status": "conditional_section_estimate",
       "source_ids": [
         "102",
         "103",
@@ -114,19 +114,19 @@
         "stairs",
         "openings"
       ],
-      "method": null,
+      "method": "101 section proportional study; vertical_study.json",
       "recheck_trigger": "Yeni ölçülü kaynak veya çoklu görünüş uyuşmazlığı",
-      "notes": ""
+      "notes": "Intervals only express span disagreement and +/-2px picking sensitivity. They are NOT statistical confidence intervals and exclude OSM/source/date/projection errors."
     },
     {
       "id": "Z_LM1_FINISH",
       "property": "Alt kat bitmiş kotu",
       "value": null,
-      "draft_value": null,
+      "draft_value": -5.326293513971772,
       "unit": "m",
-      "min": null,
-      "max": null,
-      "status": "unresolved",
+      "min": -5.746425643626942,
+      "max": -4.793255243956807,
+      "status": "conditional_section_estimate",
       "source_ids": [
         "104",
         "101",
@@ -137,28 +137,28 @@
         "stairs",
         "openings"
       ],
-      "method": null,
+      "method": "101 section proportional study; vertical_study.json",
       "recheck_trigger": "Yeni ölçülü kaynak veya çoklu görünüş uyuşmazlığı",
-      "notes": ""
+      "notes": "Intervals only express span disagreement and +/-2px picking sensitivity. They are NOT statistical confidence intervals and exclude OSM/source/date/projection errors."
     },
     {
       "id": "Z_TECH_FINISH",
       "property": "Teknik alt hacim kotu",
       "value": null,
-      "draft_value": null,
+      "draft_value": -10.652587027943545,
       "unit": "m",
-      "min": null,
-      "max": null,
-      "status": "unresolved",
+      "min": -11.116036490950478,
+      "max": -9.948265600665072,
+      "status": "conditional_section_estimate",
       "source_ids": [
         "101"
       ],
       "dependencies": [
         "technical_proxy"
       ],
-      "method": null,
+      "method": "101 section proportional study; vertical_study.json",
       "recheck_trigger": "Yeni ölçülü kaynak veya çoklu görünüş uyuşmazlığı",
-      "notes": ""
+      "notes": "Intervals only express span disagreement and +/-2px picking sensitivity. They are NOT statistical confidence intervals and exclude OSM/source/date/projection errors."
     },
     {
       "id": "SLAB_L00",
@@ -223,11 +223,11 @@
       "id": "Z_ROOF_MAIN_BASE",
       "property": "Ana cam örtü oturma kotu",
       "value": null,
-      "draft_value": null,
+      "draft_value": 13.923118133013933,
       "unit": "m",
-      "min": null,
-      "max": null,
-      "status": "unresolved",
+      "min": 13.113622837240323,
+      "max": 14.41316595860528,
+      "status": "conditional_section_estimate",
       "source_ids": [
         "101",
         "026",
@@ -236,19 +236,19 @@
       "dependencies": [
         "roof_main"
       ],
-      "method": null,
+      "method": "101 section proportional study; vertical_study.json",
       "recheck_trigger": "Yeni ölçülü kaynak veya çoklu görünüş uyuşmazlığı",
-      "notes": ""
+      "notes": "Intervals only express span disagreement and +/-2px picking sensitivity. They are NOT statistical confidence intervals and exclude OSM/source/date/projection errors."
     },
     {
       "id": "Z_ROOF_MAIN_APEX",
       "property": "Ana cam örtü tepe kotu",
       "value": null,
-      "draft_value": null,
+      "draft_value": 30.369217404225022,
       "unit": "m",
-      "min": null,
-      "max": null,
-      "status": "unresolved",
+      "min": 29.03084779830444,
+      "max": 30.993016995955145,
+      "status": "conditional_section_estimate",
       "source_ids": [
         "101",
         "087",
@@ -257,9 +257,9 @@
       "dependencies": [
         "roof_main"
       ],
-      "method": null,
+      "method": "101 section proportional study; vertical_study.json",
       "recheck_trigger": "Yeni ölçülü kaynak veya çoklu görünüş uyuşmazlığı",
-      "notes": ""
+      "notes": "Intervals only express span disagreement and +/-2px picking sensitivity. They are NOT statistical confidence intervals and exclude OSM/source/date/projection errors."
     },
     {
       "id": "Z_ROOF_EAST_BASE",
@@ -304,13 +304,12 @@
       "id": "Z_PAV_FINISH",
       "property": "Pavyon bitmiş döşeme kotu",
       "value": null,
-      "draft_value": null,
+      "draft_value": 0.0,
       "unit": "m",
-      "min": null,
-      "max": null,
-      "status": "unresolved",
+      "min": -0.37681479630340603,
+      "max": 0.37681479630340603,
+      "status": "conditional_section_estimate",
       "source_ids": [
-        "066",
         "067",
         "101"
       ],
@@ -318,19 +317,19 @@
         "pavilion",
         "link"
       ],
-      "method": null,
+      "method": "101 section proportional study; vertical_study.json",
       "recheck_trigger": "Yeni ölçülü kaynak veya çoklu görünüş uyuşmazlığı",
-      "notes": ""
+      "notes": "Intervals only express span disagreement and +/-2px picking sensitivity. They are NOT statistical confidence intervals and exclude OSM/source/date/projection errors. 066 is a separate stepped glass stair; not the flat pavilion link."
     },
     {
       "id": "Z_PAV_APEX",
       "property": "Pavyon tepe kotu",
       "value": null,
-      "draft_value": null,
+      "draft_value": 14.57722435402801,
       "unit": "m",
-      "min": null,
-      "max": null,
-      "status": "unresolved",
+      "min": 13.746694284555373,
+      "max": 15.072591852136242,
+      "status": "conditional_section_estimate",
       "source_ids": [
         "089",
         "101"
@@ -338,9 +337,9 @@
       "dependencies": [
         "roof_pavilion"
       ],
-      "method": null,
+      "method": "101 section proportional study; vertical_study.json",
       "recheck_trigger": "Yeni ölçülü kaynak veya çoklu görünüş uyuşmazlığı",
-      "notes": ""
+      "notes": "Intervals only express span disagreement and +/-2px picking sensitivity. They are NOT statistical confidence intervals and exclude OSM/source/date/projection errors."
     },
     {
       "id": "WALL_CONCRETE_EXT",
@@ -679,7 +678,6 @@
       "max": null,
       "status": "unresolved",
       "source_ids": [
-        "066",
         "067"
       ],
       "dependencies": [
@@ -687,7 +685,7 @@
       ],
       "method": null,
       "recheck_trigger": "Yeni ölçülü kaynak veya çoklu görünüş uyuşmazlığı",
-      "notes": ""
+      "notes": " 066 is a separate stepped glass stair; not the flat pavilion link. 066 is a separate stepped glass stair; not the flat pavilion link."
     },
     {
       "id": "TERRAIN_MOAT_BOTTOM",

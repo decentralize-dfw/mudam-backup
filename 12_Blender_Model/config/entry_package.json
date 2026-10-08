@@ -1,0 +1,244 @@
+{
+  "version": 1,
+  "status": "regional_parametric_study_not_construction",
+  "scope": "Entry canopy, three facade bays, lower Grand Hall glazing. No global shell acceptance.",
+  "sources": [
+    "102",
+    "PDF2016",
+    "101",
+    "008",
+    "011",
+    "013",
+    "026",
+    "087",
+    "093",
+    "116",
+    "119"
+  ],
+  "entry": {
+    "roof_triangle": [
+      [
+        478.7,
+        723.3
+      ],
+      [
+        575,
+        816
+      ],
+      [
+        674.7,
+        721.6
+      ]
+    ],
+    "roof_top_z": 12.723118133013934,
+    "parapet_top_z": 13.923118133013933,
+    "soffit_z": 11.523118133013933,
+    "column_side_m": 1.2,
+    "wall_depth_m": 0.45,
+    "pier_width_m": 0.45,
+    "glass_bottom_z": 0.18,
+    "transom_bottom_z": 4.1,
+    "transom_height_m": 0.42,
+    "glass_head_z": 10.323118133013933,
+    "frame_width_m": 0.07,
+    "frame_depth_m": 0.1,
+    "glass_thickness_m": 0.02,
+    "vestibule_width_m": 2.3,
+    "vestibule_depth_m": 2.2,
+    "vestibule_height_m": 2.75,
+    "chain": [
+      [
+        478.7,
+        723.3
+      ],
+      [
+        488.9,
+        712.8
+      ],
+      [
+        538,
+        712.8
+      ],
+      [
+        562.6,
+        688.1
+      ],
+      [
+        589,
+        688.1
+      ],
+      [
+        613.9,
+        712.8
+      ],
+      [
+        665.1,
+        712.8
+      ],
+      [
+        674.7,
+        721.6
+      ]
+    ],
+    "provenance": {
+      "roof_triangle": "102 faint canopy outline, supported by 008/011/116; six-point camera test in P06_camera_fit_116.json.",
+      "roof_top_z": "Existing P05 roof deck at H-1.2; conditional section scale.",
+      "soffit_z": "116 opening/top proportion candidate; not measured.",
+      "column_side_m": "011 confirms square corner support; 1.2 m is an explicit unmeasured placeholder.",
+      "wall_depth_m": "Visual envelope parameter, NOT a measured concrete structural thickness.",
+      "glazing_heights": "013/008 proportions; conditional heights, not construction dimensions.",
+      "frames_and_glass": "Replaceable visualization dimensions, not measured member sections or glass specification.",
+      "vestibule": "008/013 confirm projecting glazed revolving-door assembly; revolving mechanism/leaves intentionally unresolved."
+    }
+  },
+  "lower_roof": {
+    "band_bottom_z": 9.718577096381804,
+    "low_eave_z": 2.9155501149840806,
+    "band_readings": [
+      {
+        "photo": "087",
+        "canonical_xy": [
+          688,
+          430
+        ],
+        "observed_px": [
+          752,
+          581
+        ],
+        "draft_z": 9.571438125150944,
+        "residual_x_px": -2.016598134757146
+      },
+      {
+        "photo": "087",
+        "canonical_xy": [
+          462,
+          430
+        ],
+        "observed_px": [
+          1178,
+          581
+        ],
+        "draft_z": 9.463779523512617,
+        "residual_x_px": 5.049280072377769
+      },
+      {
+        "photo": "119",
+        "canonical_xy": [
+          688,
+          430
+        ],
+        "observed_px": [
+          620,
+          650
+        ],
+        "draft_z": 9.984798214397138,
+        "residual_x_px": -7.18410581141427
+      },
+      {
+        "photo": "119",
+        "canonical_xy": [
+          462,
+          430
+        ],
+        "observed_px": [
+          988,
+          650
+        ],
+        "draft_z": 9.854292522466519,
+        "residual_x_px": 9.957600748205323
+      }
+    ],
+    "low_eave_readings": [
+      {
+        "photo": "087",
+        "canonical_xy": [
+          688,
+          334
+        ],
+        "observed_px": [
+          728,
+          695
+        ],
+        "draft_z": 2.985784298779162,
+        "residual_x_px": -6.228087722842133
+      },
+      {
+        "photo": "087",
+        "canonical_xy": [
+          462,
+          334
+        ],
+        "observed_px": [
+          1208,
+          695
+        ],
+        "draft_z": 2.845315931188999,
+        "residual_x_px": 12.533734805950644
+      }
+    ],
+    "method": "Conditional camera ray at fixed plan XY; solve Z to observed image Y. X residual retained, no image warp.",
+    "uncertainty": "Camera/plan/source systematic error unquantified. Low eave uses only 087; requires another view. Not an independent metric validation."
+  },
+  "unresolved": [
+    "Concrete structure vs stone build-up not resolved; modeled entry solids are envelope volumes.",
+    "Exact pillar/beam cross-sections, window heads and frame sections remain hypotheses.",
+    "Revolving leaves, seals, drive and fixings not modeled.",
+    "Side-hall roof endpoint mapping and curved roof elevation require further checks."
+  ],
+  "reading_lantern": {
+    "center_canonical": [
+      575,
+      642
+    ],
+    "outer_radius_canonical": 23,
+    "inner_radius_canonical": 15,
+    "curb_top": 13.550515815692783,
+    "shoulder": 14.931198591439571,
+    "lantern_top": 17.4874563119442,
+    "apex": 18.726529176543693,
+    "readings": [
+      {
+        "id": "curb_top",
+        "photo": "116",
+        "observed_px": [
+          1319,
+          716
+        ],
+        "draft_z": 13.550515815692783,
+        "residual_x_px": -1.4798030088625183
+      },
+      {
+        "id": "shoulder",
+        "photo": "116",
+        "observed_px": [
+          1319,
+          694
+        ],
+        "draft_z": 14.931198591439571,
+        "residual_x_px": -0.7885097513701567
+      },
+      {
+        "id": "lantern_top",
+        "photo": "116",
+        "observed_px": [
+          1319,
+          653
+        ],
+        "draft_z": 17.4874563119442,
+        "residual_x_px": 0.4998095012290378
+      },
+      {
+        "id": "apex",
+        "photo": "116",
+        "observed_px": [
+          1319,
+          633
+        ],
+        "draft_z": 18.726529176543693,
+        "residual_x_px": 1.1282579171311227
+      }
+    ],
+    "source": "103 documentation space centre and central opening; 116 built lantern. Z fitted after camera; not an independent height check.",
+    "uncertainty": "Eight-sided form candidate; exact profile, curb and section widths unresolved. Dimensions remain D."
+  }
+}

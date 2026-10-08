@@ -17,11 +17,11 @@ Başlangıç kararı: önce ortak koordinat ve düşey geometri, sonra bina kabu
 
 ## Başlangıç verisi ve güven düzeyi
 
-117 kaynak dosyası, 105 fotoğraf, üç resmî kat şeması, iki kesit görseli ve 2016 PDF'sinden çıkarılan iki vektör kat şeması mevcut. Fotoğraf konumu çalışmasında 63 nokta ve yön tahmini, 33 aday bölge, 9 çözülemeyen kayıt var. Bunlar modelin karşılaştırma adaylarıdır; kalibre edilmiş kamera çözümleri değildir.
+İlk envanterde 117 kaynak dosyası ve 105 fotoğraf mevcut. Üretim manifestine ayrıca yerel 2016 PDF'si `PDF2016` kimliğiyle eklendi (toplam 118 kaynak). Üç resmî kat şeması, iki kesit görseli ve PDF'den iki vektör kat şeması kullanılıyor. 8 Ekim tek tek denetiminden sonra 35 konum/yön hipotezi, 45 aday bölge, 25 harita noktası olmayan kayıt var. Bunlar karşılaştırma adaylarıdır; kalibre edilmiş kamera çözümleri değildir.
 
 0, +1 ve −1 planları OSM bina izine ortak ölçekle oturtuldu. Dokuz eşleştirmede RMS fark 1,023 m; çözümden ayrılmış iki köşede 1,909 m. Bu, kaynaklar arası uyumdur; saha doğruluğu değildir. Milimetrelik detay üretmek, bina ölçülerinin milimetre doğruluğunda bilindiğini göstermez.
 
-4000 piksel planlar daha fazla çizim bilgisi içermiyor. 2016 vektör çizgileri çözünürlükten bağımsızdır, fakat ziyaretçi/sergi şeması niteliği taşır; duvar kalınlıkları ve uygulama detayları için tek başına yeterli değildir. Kesit 101 henüz yatay ve düşey ölçüye kalibre edilmedi. İçindeki renkli ve tarihsel öğeler kalıcı binaya otomatik aktarılmayacak.
+4000 piksel planlar daha fazla çizim bilgisi içermiyor. 2016 vektör çizgileri çözünürlükten bağımsızdır, fakat ziyaretçi/sergi şeması niteliği taşır; duvar kalınlıkları ve uygulama detayları için tek başına yeterli değildir. Kesit 101 için koşullu oran/kot etüdü üretildi; kesit izi, tarih ve merdiven kot zinciri çözülmedi. Renkli merkez öğesi kalıcı binaya aktarılmadı. [Üretim durumu](../12_Blender_Model/URETIM_DURUMU.md).
 
 Üst kat için doğrulanmış iç fotoğraf ataması yok. Ana çatı yüksekliği, kat kotları, döşeme kalınlıkları, kapı ölçüleri ve profil kesitleri bilinmiyor. Bu eksikler bütün çalışmayı durdurmaz; etkilenen elemanın ayrıntılı üretimini sınırlar.
 

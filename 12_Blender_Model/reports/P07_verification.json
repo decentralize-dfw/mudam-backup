@@ -1,0 +1,40 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_P07_GIRIS_v002.blend",
+  "mesh_objects_checked": 164,
+  "closed_solids_checked": 67,
+  "all_solids_manifold_and_positive": true,
+  "zero_area_meshes": [],
+  "opening_ids": [
+    "ENT-01-L00",
+    "ENT-01-LP1",
+    "ENT-02-L00",
+    "ENT-02-LP1",
+    "ENT-03-L00",
+    "ENT-03-LP1"
+  ],
+  "door_checks": [
+    {
+      "id": "ENT-02-L00",
+      "height_samples": [
+        0.15,
+        1.4,
+        2.5
+      ],
+      "hits": [],
+      "clear": true,
+      "revolving_leaves_absent": true
+    }
+  ],
+  "three_photos_packed": true,
+  "camera_projection_errors_px": {
+    "119": 0.007049824763379229,
+    "087": 0.008331354720937743,
+    "116": 0.007904995306069116
+  },
+  "survey_accuracy_claim": false,
+  "construction_acceptance": false,
+  "notes": [
+    "Entry envelope thicknesses and optical settings are visualization hypotheses.",
+    "No global shell or structural approval; stairs and many facade openings still pending."
+  ]
+}

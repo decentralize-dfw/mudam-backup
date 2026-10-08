@@ -1,6 +1,6 @@
 # Mudam Blender üretim şartnamesi
 
-Bu şartname yazılım sürümünden bağımsız sahne sözleşmesidir. Kullanılacak Blender sürümündeki modifier, malzeme ve dışa aktarma davranışları ilk üretim oturumunda küçük bir örnekte doğrulanır. Ana `.blend` dosyası henüz oluşturulmadı.
+Bu şartname yazılım sürümünden bağımsız sahne sözleşmesidir. İlk üretim Blender 4.2.0 ile başladı; P03 referans sahnesi ve P04 kot etüdü oluşturuldu. [Güncel dosyalar ve kontroller](../12_Blender_Model/URETIM_DURUMU.md). Modifier, fiziksel malzeme ve dışa aktarma davranışları ilgili aşamalarda ayrıca doğrulanacak.
 
 ## Koordinat ve birim sözleşmesi
 

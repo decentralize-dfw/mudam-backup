@@ -1,0 +1,176 @@
+[
+  {
+    "id": "ENT-01-L00",
+    "bay": 1,
+    "level": "L00",
+    "type": "fixed_glazed_opening",
+    "plan_segment": [
+      [
+        538,
+        712.8
+      ],
+      [
+        562.6,
+        688.1
+      ]
+    ],
+    "draft_clear_width_m": 3.691304766229651,
+    "draft_bottom_z": 0.18,
+    "draft_head_z": 4.1,
+    "sources": [
+      "PDF2016",
+      "102",
+      "008",
+      "013"
+    ],
+    "confidence_xy": "C plan registration",
+    "confidence_z": "D photo proportion",
+    "confidence_detail": "U unmeasured",
+    "status": "pilot_only"
+  },
+  {
+    "id": "ENT-01-LP1",
+    "bay": 1,
+    "level": "LP1",
+    "type": "fixed_glazed_opening",
+    "plan_segment": [
+      [
+        538,
+        712.8
+      ],
+      [
+        562.6,
+        688.1
+      ]
+    ],
+    "draft_clear_width_m": 3.691304766229651,
+    "draft_bottom_z": 4.52,
+    "draft_head_z": 10.323118133013933,
+    "sources": [
+      "PDF2016",
+      "102",
+      "008",
+      "013"
+    ],
+    "confidence_xy": "C plan registration",
+    "confidence_z": "D photo proportion",
+    "confidence_detail": "U unmeasured",
+    "status": "pilot_only"
+  },
+  {
+    "id": "ENT-02-L00",
+    "bay": 2,
+    "level": "L00",
+    "type": "revolving_door_with_fixed_surround",
+    "plan_segment": [
+      [
+        562.6,
+        688.1
+      ],
+      [
+        589,
+        688.1
+      ]
+    ],
+    "draft_clear_width_m": 2.68623288427746,
+    "draft_bottom_z": 0.18,
+    "draft_head_z": 4.1,
+    "sources": [
+      "PDF2016",
+      "102",
+      "008",
+      "013"
+    ],
+    "confidence_xy": "C plan registration",
+    "confidence_z": "D photo proportion",
+    "confidence_detail": "U unmeasured",
+    "status": "pilot_only"
+  },
+  {
+    "id": "ENT-02-LP1",
+    "bay": 2,
+    "level": "LP1",
+    "type": "fixed_glazed_opening",
+    "plan_segment": [
+      [
+        562.6,
+        688.1
+      ],
+      [
+        589,
+        688.1
+      ]
+    ],
+    "draft_clear_width_m": 2.68623288427746,
+    "draft_bottom_z": 4.52,
+    "draft_head_z": 10.323118133013933,
+    "sources": [
+      "PDF2016",
+      "102",
+      "008",
+      "013"
+    ],
+    "confidence_xy": "C plan registration",
+    "confidence_z": "D photo proportion",
+    "confidence_detail": "U unmeasured",
+    "status": "pilot_only"
+  },
+  {
+    "id": "ENT-03-L00",
+    "bay": 3,
+    "level": "L00",
+    "type": "fixed_glazed_opening",
+    "plan_segment": [
+      [
+        589,
+        688.1
+      ],
+      [
+        613.9,
+        712.8
+      ]
+    ],
+    "draft_clear_width_m": 3.716530704068047,
+    "draft_bottom_z": 0.18,
+    "draft_head_z": 4.1,
+    "sources": [
+      "PDF2016",
+      "102",
+      "008",
+      "013"
+    ],
+    "confidence_xy": "C plan registration",
+    "confidence_z": "D photo proportion",
+    "confidence_detail": "U unmeasured",
+    "status": "pilot_only"
+  },
+  {
+    "id": "ENT-03-LP1",
+    "bay": 3,
+    "level": "LP1",
+    "type": "fixed_glazed_opening",
+    "plan_segment": [
+      [
+        589,
+        688.1
+      ],
+      [
+        613.9,
+        712.8
+      ]
+    ],
+    "draft_clear_width_m": 3.716530704068047,
+    "draft_bottom_z": 4.52,
+    "draft_head_z": 10.323118133013933,
+    "sources": [
+      "PDF2016",
+      "102",
+      "008",
+      "013"
+    ],
+    "confidence_xy": "C plan registration",
+    "confidence_z": "D photo proportion",
+    "confidence_detail": "U unmeasured",
+    "status": "pilot_only"
+  }
+]

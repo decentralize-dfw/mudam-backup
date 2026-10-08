@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "date": "2026-10-08",
-  "state": "planning_only",
+  "state": "production_started",
   "policy": "Bağımlılık tamamlanması teknik kontrolü ifade eder, ayrıca kullanıcı izni gerektirmez. Kaynak eksikliği etkilenen sistemde temsilî teslim olarak açıkça kaydedilebilir; tam doğrulama sayılmaz.",
   "tasks": [
     {
@@ -10,8 +10,13 @@
       "depends_on": [],
       "deliverable": "Blender sürümü, donanım, kaynak kimliği ve tarih listesi",
       "acceptance": "Kaynakların tamamı dosyaya çözülür; orijinaller korunur",
-      "status": "not_started",
-      "open_issues": []
+      "status": "complete",
+      "open_issues": [],
+      "artifacts": [
+        "12_Blender_Model/references/source_manifest.json",
+        "12_Blender_Model/reports/P00_environment.json"
+      ],
+      "updated": "2026-10-08"
     },
     {
       "id": "P01",
@@ -21,8 +26,15 @@
       ],
       "deliverable": "+1 fotoğraf ve ışıklık kanıt listesi",
       "acceptance": "Katı doğrulanmış görüntüler veya açık eksik listesi",
-      "status": "not_started",
-      "open_issues": []
+      "status": "complete_with_documented_gaps",
+      "open_issues": [
+        "UG02/UG03 üst galeri iç ışıklık biçimini destekliyor; çözünürlükleri 150x100. UC01/UC02 yapım kesit biçimini destekliyor. Kesin kanat/kamera ve panel ölçüleri açık."
+      ],
+      "artifacts": [
+        "12_Blender_Model/reports/P01_UST_KAT_KANIT_DURUMU.md",
+        "12_Blender_Model/references/upper_gallery_2007/manifest.json"
+      ],
+      "updated": "2026-10-08"
     },
     {
       "id": "P02",
@@ -32,8 +44,14 @@
       ],
       "deliverable": "101 kesitinin plan izi ve mevcut bina uyum raporu",
       "acceptance": "Ortak köşeler eşleşir; belirsiz/eski öğeler ayrılır",
-      "status": "not_started",
-      "open_issues": []
+      "status": "in_progress",
+      "open_issues": [
+        "101 kesitinin tarihi ve plan kesit izi çözülmedi."
+      ],
+      "artifacts": [
+        "12_Blender_Model/reports/P02_P04_KESIT_VE_KOT_ETUDU.md"
+      ],
+      "updated": "2026-10-08"
     },
     {
       "id": "P03",
@@ -43,8 +61,13 @@
       ],
       "deliverable": "Üç kat, OSM ve kontrol köşeleri",
       "acceptance": "İki nokta ve yön testi; atlas Y işareti doğru",
-      "status": "not_started",
-      "open_issues": []
+      "status": "complete",
+      "open_issues": [],
+      "artifacts": [
+        "12_Blender_Model/scenes/MUDAM_P03_REFERANS_v002.blend",
+        "12_Blender_Model/reports/SAVED_SCENE_VERIFICATION.json"
+      ],
+      "updated": "2026-10-08"
     },
     {
       "id": "P04",
@@ -55,8 +78,17 @@
       ],
       "deliverable": "Kot tablosu, aralıklar, kesitler",
       "acceptance": "Kat ve merdiven zinciri tutarlı; bilinmeyenler görünür",
-      "status": "not_started",
-      "open_issues": []
+      "status": "in_progress",
+      "open_issues": [
+        "Kotlar koşullu kesit oranından türetilmiş etüt değerleri.",
+        "Ana/alt merdiven rıht ve sahanlık zinciri henüz doğrulanmadı.",
+        "P02 tamamlanmadan yalnız bağımsız oran/hacim etüdü yapıldı; üretim geçişi kabul edilmedi."
+      ],
+      "artifacts": [
+        "12_Blender_Model/scenes/MUDAM_P04_KOT_ETUDU_v002.blend",
+        "12_Blender_Model/config/vertical_study.json"
+      ],
+      "updated": "2026-10-08"
     },
     {
       "id": "P05",
@@ -66,8 +98,19 @@
       ],
       "deliverable": "Kabuk, çatı, pavyon ve ana boşluklar",
       "acceptance": "Plan, kesit, silüet birlikte tutarlı",
-      "status": "not_started",
-      "open_issues": []
+      "status": "in_progress",
+      "open_issues": [
+        "Üçgen giriş saçağı ve ana örtü altı revize edildi. Yan salon uç birleşimleri, cephe açıklıkları, üst galeri ışıklık sayısı ve alt kabuk sürüyor."
+      ],
+      "updated": "2026-10-08",
+      "artifacts": [
+        "12_Blender_Model/scenes/MUDAM_P05_KABUK_v002.blend",
+        "12_Blender_Model/reports/P05_KABUK_KONTROLU.md",
+        "12_Blender_Model/reports/P05_verification.json",
+        "12_Blender_Model/scenes/MUDAM_P09_MERDIVEN_v004.blend",
+        "12_Blender_Model/reports/P07_P09_URETIM_RAPORU.md"
+      ],
+      "dependency_mode": "regional_study_only_no_global_acceptance"
     },
     {
       "id": "P06",
@@ -77,8 +120,21 @@
       ],
       "deliverable": "İç/dış kameralar ve artık raporu",
       "acceptance": "Panoramalar ayrılmış; kontrol görüntüleri çözüme katılmamış",
-      "status": "not_started",
-      "open_issues": []
+      "status": "in_progress",
+      "open_issues": [
+        "087/119/116 için üç koşullu kamera. 116 karşı görünüşte kontrol RMS 10,05 px. İç kamera ve tam metrik doğrulama açık."
+      ],
+      "updated": "2026-10-08",
+      "execution_scope": "Conditional P05 diagnostic; dependent detailing acceptance remains open.",
+      "artifacts": [
+        "12_Blender_Model/scenes/MUDAM_P06_CATI_KONTROL_v002.blend",
+        "12_Blender_Model/reports/P06_CAMERA_ROOF_REVIEW.md",
+        "12_Blender_Model/reports/P06_camera_fit_119.json",
+        "12_Blender_Model/reports/P06_verification.json",
+        "12_Blender_Model/scenes/MUDAM_P09_MERDIVEN_v004.blend",
+        "12_Blender_Model/reports/P07_P09_URETIM_RAPORU.md"
+      ],
+      "dependency_mode": "regional_study_only_no_global_acceptance"
     },
     {
       "id": "P07",
@@ -89,8 +145,16 @@
       ],
       "deliverable": "Katlara bağlı yapı gövdeleri",
       "acceptance": "Açıklık ve boşluklar sürekli; taşıyıcı ile kaplama ayrı",
-      "status": "not_started",
-      "open_issues": []
+      "status": "in_progress",
+      "open_issues": [
+        "Giriş bölgesinde 67 kapalı hacimli pilot; duvar/döşeme/başlıklar ayrı. Bütün bina ve taşıyıcı/kaplama ayrımı tamamlanmadı."
+      ],
+      "updated": "2026-10-08",
+      "dependency_mode": "regional_study_only_no_global_acceptance",
+      "artifacts": [
+        "12_Blender_Model/scenes/MUDAM_P09_MERDIVEN_v004.blend",
+        "12_Blender_Model/reports/P07_P09_URETIM_RAPORU.md"
+      ]
     },
     {
       "id": "P08",
@@ -100,8 +164,16 @@
       ],
       "deliverable": "Eleman kimlikleri, aileleri ve oda bağlantıları",
       "acceptance": "Bütün plan açıklıkları sayılmış; ölçü güveni ayrı",
-      "status": "not_started",
-      "open_issues": []
+      "status": "in_progress",
+      "open_issues": [
+        "Girişte 6 açıklık kimliği üretildi. Bütün katların kapı/pencere envanteri henüz tamamlanmadı."
+      ],
+      "updated": "2026-10-08",
+      "dependency_mode": "regional_study_only_no_global_acceptance",
+      "artifacts": [
+        "12_Blender_Model/scenes/MUDAM_P09_MERDIVEN_v004.blend",
+        "12_Blender_Model/reports/P07_P09_URETIM_RAPORU.md"
+      ]
     },
     {
       "id": "P09",
@@ -111,8 +183,16 @@
       ],
       "deliverable": "Ana, alt ve doğu spiral aileleri",
       "acceptance": "Rıht toplamı kot farkını kapatır; alt yüzey referansla tutarlı",
-      "status": "not_started",
-      "open_issues": []
+      "status": "in_progress",
+      "open_issues": [
+        "Üst merdivenin yönü düzeltildi; 3 gözlenen başlangıç basamağı modellendi. Tam kol/rıht zinciri, sahanlıklar ve GH_DOWN geometrisi açık."
+      ],
+      "updated": "2026-10-08",
+      "dependency_mode": "regional_study_only_no_global_acceptance",
+      "artifacts": [
+        "12_Blender_Model/scenes/MUDAM_P09_MERDIVEN_v004.blend",
+        "12_Blender_Model/reports/P07_P09_URETIM_RAPORU.md"
+      ]
     },
     {
       "id": "P10",
@@ -270,5 +350,15 @@
       "status": "not_started",
       "open_issues": []
     }
-  ]
+  ],
+  "current_tasks": [
+    "P02",
+    "P04",
+    "P05",
+    "P06",
+    "P07",
+    "P08",
+    "P09"
+  ],
+  "latest_scene": "12_Blender_Model/scenes/MUDAM_P09_MERDIVEN_v004.blend"
 }

@@ -14,7 +14,7 @@ En pahalı hata, küçük detay eksikliği değil, kat kotu veya ana çatı geom
 | P1 | Ziyaretçi şemasında hangi çizgi gerçek duvar yüzüdür? | Vektör kaynak, fotoğraf sövesi, farklı katlarda süreklilik | Kalınlıklar ve oda boyutları |
 | P1 | Batı eğrisel çatı hangi yüzeyle tarif edilir? | Dış 093, plan, farklı açı ve kesit | Çatı eğrisi ve panel örgüsü |
 | P1 | Cam/çelik ana ve ikincil modül sayıları nedir? | Dikleştirilmiş cephe görünüşleri, yakın bağlantı fotoğrafı | Profil ve panel aileleri |
-| P1 | Pavyonun geçit ve alt kat kotları nedir? | 066/067, plan104, kesit ve dış fotoğraflar | Pavyon ve bağlantı |
+| P1 | Pavyonun geçit ve alt kat kotları nedir? | 067/089/116, plan104, kesit; 066 ayrı basamaklı cam merdiven | Pavyon ve bağlantı |
 | P1 | Kapı/pencere tip ve örnek sayıları nedir? | Kat bazında açıklık sayımı ve görsel eşleştirme | Eleman listesi |
 | P1 | Taş plaka ve derz modülleri nedir? | Aynı düzlemde ölçüye bağlanan cephe, köşe fotoğrafı | Taş örgüsü |
 | P2 | Küpeşte kesiti, cam kenarı ve tutucu ölçüleri nedir? | Yüksek çözünürlüklü yakın çekim | Yakın detay |

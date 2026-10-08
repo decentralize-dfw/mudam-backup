@@ -52,7 +52,26 @@
         "026"
       ],
       "identity_status": "user_corrected_and_visually_cross_checked",
-      "geometry_status": "Exact flight, landing and upper-floor endpoint unresolved"
+      "geometry_status": "Three observed podium steps extracted; old P05 path direction reversed and superseded. Full flight riser count and detailed levels unresolved.",
+      "direction_correction": {
+        "bottom_canonical": [
+          501,
+          478
+        ],
+        "podium_canonical": [
+          491,
+          489
+        ],
+        "upper_landing_canonical": [
+          539,
+          551
+        ],
+        "connection": [
+          "L00",
+          "LP1"
+        ],
+        "basis": "022: three broad curved steps at lower end. 102/PDF2016 map those steps at the bulbous end. Narrow flight proceeds toward bridge at canonical y~555."
+      }
     },
     {
       "id": "STAIR_EAST_SPIRAL",

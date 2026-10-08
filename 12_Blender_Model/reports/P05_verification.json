@@ -1,0 +1,17 @@
+{
+  "status": "pass",
+  "file": "12_Blender_Model/scenes/MUDAM_P05_KABUK_v002.blend",
+  "fresh_process": true,
+  "unit_scale": 1,
+  "mesh_objects": 310,
+  "degenerate_faces": [],
+  "packed_images": 20,
+  "ground_volume_before_m3": 128.27416711906636,
+  "ground_volume_after_m3": 117.63331578705382,
+  "down_stair_void_removed_volume_m3": 10.640851332012545,
+  "down_void_raycast_clear": true,
+  "adjacent_floor_raycast_hit": true,
+  "pavilion_link_bay_open": true,
+  "architectural_accuracy_verified": false,
+  "photographic_camera_match_verified": false
+}

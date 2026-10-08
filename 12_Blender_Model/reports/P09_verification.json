@@ -1,0 +1,35 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_P09_MERDIVEN_v004.blend",
+  "podium_checks": [
+    {
+      "id": "P09_PODIUM_1",
+      "nonmanifold_edges": 0,
+      "volume_m3": 5.417732073810345,
+      "z_min": 0.0,
+      "z_max": 0.1599999964237213,
+      "pdf_path_index": 138
+    },
+    {
+      "id": "P09_PODIUM_2",
+      "nonmanifold_edges": 0,
+      "volume_m3": 3.930003121602418,
+      "z_min": 0.1599999964237213,
+      "z_max": 0.3199999928474426,
+      "pdf_path_index": 137
+    },
+    {
+      "id": "P09_PODIUM_3",
+      "nonmanifold_edges": 0,
+      "volume_m3": 2.5919341499932296,
+      "z_min": 0.3199999928474426,
+      "z_max": 0.47999998927116394,
+      "pdf_path_index": 136
+    }
+  ],
+  "gh_up_corrected": true,
+  "gh_down_still_descends": true,
+  "podium_source_images_packed": true,
+  "entry_openings_preserved": 6,
+  "full_flight_modeled": false,
+  "construction_acceptance": false
+}
