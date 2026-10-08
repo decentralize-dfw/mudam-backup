@@ -1,8 +1,9 @@
 """P21 checkpoint export of visible current geometry, preserving element IDs."""
 from pathlib import Path
-import bpy,json
+import bpy,json,sys
 from mathutils import Vector
-R=Path(__file__).resolve().parents[2];B=R/'12_Blender_Model';r=json.loads((B/'reports/P19_build_report.json').read_text());q=json.loads((B/'reports/P19_verification.json').read_text());assert q['file']==r['file'] and not q['failures']
+R=Path(__file__).resolve().parents[2];B=R/'12_Blender_Model';sys.path.insert(0,str(B/'scripts'));from release_utils import verified_current_scene
+r=verified_current_scene()
 bpy.ops.wm.open_mainfile(filepath=str(R/r['file']));deps=bpy.context.evaluated_depsgraph_get();bpy.ops.object.select_all(action='DESELECT');selected=[];bounds=[]
 for ob in bpy.context.scene.objects:
  if ob.type!='MESH' or ob.hide_render or not ob.visible_get():continue

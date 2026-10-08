@@ -1,6 +1,6 @@
 # Gece üretimine devam
 
-8 Ekim 2026, 23:15 Europe/Paris civarı ara durum. Son sahneyi her zaman `../11_Blender_Modelleme_Plani/is_paketleri.json` içindeki `latest_scene` alanından oku. Şu an P19 v001. Tam müze bitmedi; sabah hedefi tam doğrulama iddiasına dönüşmemeli.
+8 Ekim 2026, 23:15 Europe/Paris civarı ara durum. Son sahneyi her zaman `../11_Blender_Modelleme_Plani/is_paketleri.json` içindeki `latest_scene` alanından oku. Şu an R02 v003 (P19 üzerine yerel Grand Hall geçit düzeltmesi). Tam müze bitmedi; sabah hedefi tam doğrulama iddiasına dönüşmemeli.
 
 ## Kaydedilen işler
 
@@ -29,3 +29,7 @@ P19'dan sonra yeni geometri eklenirse, eski paket oluşturucularını tekrar ça
 Önceki başarısız veya geçersiz denemeler yerel `scenes/archive/local_trials_20261008/` içinde korunur, Git dışında. Güncel kontrol dosyaları, kaynak kimlikleri ve yayımlanan sahneler Git'te tutulur.
 
 Saatlik otomasyon aktif. Her gerçek push sonrası UTC ve commit kaydını `GECE_URETIM_KAYDI.md` içine ekle; başarısız push'ı başarı gibi kaydetme. Force push yok. Rutin modelleme adımları için kullanıcı onayı bekleme. Bilinmeyen ölçüleri koşullu parametre olarak tut; tüm bina tamamlanmadan P22'yi kapatma.
+
+R02 v003: 026/032 ile doğu geçidindeki tam boy cam kaldırıldı. PDF2016/102 geçiş uçları çatı şeridi hipotezinden farklı; eski üç duvarın yalnız geçide taşan parçaları kırpıldı. Bütün görünür meshler üzerinde 15 yerel ışın kontrolü geçti. Ayrıntılar `reports/R02_GH_GECISI_RAPORU.md`. R02 v001/v002 bütün-sahne ışın testinde kaldı ve yerel arşivde tutuluyor. Çatı birleşimi ve karşı odanın tam görüş/dolaşım hattı çözülmedi.
+
+`release_utils.verified_current_scene()` görev listesinin son sahnesi için aynı dosyaya ait başarılı yeniden açma raporu arar. P20/P21 artık bu ortak seçiciyi kullanır. `publish_current_checkpoint.py` son doğrulanmış R02 raporu varsa onu seçer. Yeni paket eklenince yeni raporun seçimini de güncelle.

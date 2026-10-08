@@ -9,3 +9,5 @@ P20: modelin değerlendirilmiş ve görünür meshlerinden yatay kesit çizgiler
 P21: güncel görünür model glTF 2.0 / metre / Y-yukarı düzeninde GLB olarak dışa aktarıldı. 3573 mesh düğümü, 53260 üçgen, yaklaşık 6,6 MB. Blender dışındaki doğrulama, dosya başlığı, gömülü tampon, bütün nesne kimlikleri ve dünya sınırlarının eksen dönüşümünü denetledi. Sınır farkı 0,0 m. Bu, aktarım tutarlılığıdır; binanın gerçek ölçü doğruluğunu kanıtlamaz.
 
 GLB'de genel gökyüzü ışığı yer almaz; cam görünümü görüntüleyicinin transmission desteğine bağlıdır. Hedef motor optimizasyonu, kesit/kat arayüzünün tüm binaya uygulanması ve son mimari doğrulama açık. Ana düzenlenebilir dosya Blender sahnesidir.
+
+R02 güncellemesi: aynı araçlar yeni birleşik sahneye yeniden uygulandı. L00 115 nesne / 1010 kesit parçası; LP1 211 / 1846. Güncel GLB 3578 mesh / 53300 üçgen / 6609192 bayt. Kimlik ve dünya sınırı aktarım denetimi yeniden geçti. Önceki P19 GLB sürümlü olarak korunur.

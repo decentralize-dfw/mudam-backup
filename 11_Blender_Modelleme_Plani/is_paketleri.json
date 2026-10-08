@@ -147,13 +147,13 @@
       "acceptance": "Açıklık ve boşluklar sürekli; taşıyıcı ile kaplama ayrı",
       "status": "in_progress",
       "open_issues": [
-        "Giriş bölgesinde 67 kapalı hacimli pilot; duvar/döşeme/başlıklar ayrı. Bütün bina ve taşıyıcı/kaplama ayrımı tamamlanmadı."
+        "032/026 ile doğu geçidi açık kuruldu, eski duvar taşmaları yerel kırpıldı. Bütün kabuk, merdiven oyuğu ve çatı birleşimi açık."
       ],
       "updated": "2026-10-08",
       "dependency_mode": "regional_study_only_no_global_acceptance",
       "artifacts": [
-        "12_Blender_Model/scenes/MUDAM_P09_MERDIVEN_v004.blend",
-        "12_Blender_Model/reports/P07_P09_URETIM_RAPORU.md"
+        "12_Blender_Model/scenes/MUDAM_R02_GH_GECISI_v003.blend",
+        "12_Blender_Model/reports/R02_GH_GECISI_RAPORU.md"
       ]
     },
     {
@@ -290,7 +290,7 @@
       "updated": "2026-10-08",
       "dependency_mode": "regional_checkpoint_no_global_acceptance",
       "artifacts": [
-        "12_Blender_Model/scenes/MUDAM_P19_MALZEME_ISIK_v001.blend",
+        "12_Blender_Model/scenes/MUDAM_R02_GH_GECISI_v003.blend",
         "12_Blender_Model/reports/P19_P21_ONIZLEME_RAPORU.md"
       ]
     },
@@ -325,7 +325,7 @@
       "updated": "2026-10-08",
       "dependency_mode": "regional_checkpoint_no_global_acceptance",
       "artifacts": [
-        "12_Blender_Model/scenes/MUDAM_P19_MALZEME_ISIK_v001.blend",
+        "12_Blender_Model/scenes/MUDAM_R02_GH_GECISI_v003.blend",
         "12_Blender_Model/reports/P19_P21_ONIZLEME_RAPORU.md"
       ]
     },
@@ -359,7 +359,7 @@
       "updated": "2026-10-08",
       "dependency_mode": "regional_checkpoint_no_global_acceptance",
       "artifacts": [
-        "12_Blender_Model/scenes/MUDAM_P19_MALZEME_ISIK_v001.blend",
+        "12_Blender_Model/scenes/MUDAM_R02_GH_GECISI_v003.blend",
         "12_Blender_Model/reports/P19_P21_ONIZLEME_RAPORU.md"
       ]
     },
@@ -380,7 +380,7 @@
       "updated": "2026-10-08",
       "dependency_mode": "regional_checkpoint_no_global_acceptance",
       "artifacts": [
-        "12_Blender_Model/scenes/MUDAM_P19_MALZEME_ISIK_v001.blend",
+        "12_Blender_Model/scenes/MUDAM_R02_GH_GECISI_v003.blend",
         "12_Blender_Model/reports/P19_P21_ONIZLEME_RAPORU.md"
       ]
     },
@@ -394,12 +394,12 @@
       "acceptance": "Birim/eksen/malzeme geri yüklemede doğru; performans ölçülmüş",
       "status": "in_progress",
       "open_issues": [
-        "3573 mesh / 53260 üçgen GLB aktarımı denetlendi; hedef motor ve sadeleştirme açık."
+        "3578 mesh / 53300 üçgen GLB aktarımı denetlendi; hedef motor ve sadeleştirme açık."
       ],
       "updated": "2026-10-08",
       "dependency_mode": "regional_checkpoint_no_global_acceptance",
       "artifacts": [
-        "12_Blender_Model/scenes/MUDAM_P19_MALZEME_ISIK_v001.blend",
+        "12_Blender_Model/scenes/MUDAM_R02_GH_GECISI_v003.blend",
         "12_Blender_Model/reports/P19_P21_ONIZLEME_RAPORU.md"
       ]
     },
@@ -432,5 +432,5 @@
     "P20",
     "P21"
   ],
-  "latest_scene": "12_Blender_Model/scenes/MUDAM_P19_MALZEME_ISIK_v001.blend"
+  "latest_scene": "12_Blender_Model/scenes/MUDAM_R02_GH_GECISI_v003.blend"
 }

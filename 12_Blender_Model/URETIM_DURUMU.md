@@ -4,7 +4,7 @@
 
 ## Güncel teslim
 
-[MUDAM_P19_MALZEME_ISIK_v001.blend](scenes/MUDAM_P19_MALZEME_ISIK_v001.blend) giriş, çatı ve merdiven çalışmalarını birlikte içerir. [Görsel inceleme](URETIM.html) · [Üretim raporu](reports/P07_P09_URETIM_RAPORU.md).
+[MUDAM_R02_GH_GECISI_v003.blend](scenes/MUDAM_R02_GH_GECISI_v003.blend) giriş, çatı ve merdiven çalışmalarını birlikte içerir. [Görsel inceleme](URETIM.html) · [Üretim raporu](reports/P07_P09_URETIM_RAPORU.md).
 
 | Paket | Durum | Somut çıktı / açık konu |
 | --- | --- | --- |
@@ -49,3 +49,5 @@ Ana kabuk henüz bütün bina düzeyinde kabul edilmedi. OSM uyum RMS'si yaklaş
 [Giriş detay raporu](reports/P12_GIRIS_DETAY_RAPORU.md): kapı mekanizması kesinleşmedi; görünen düz cam kanatlar ve donanımlar ayrı üretildi. Rutin onay beklenmez.
 
 [Model-plan kesit kontrolü](PLAN_KONTROL.html) · [Okuma alanı raporu](reports/P15_P17_OKUMA_BOSLUGU_RAPORU.md) · [Malzeme / dışa aktarma raporu](reports/P19_P21_ONIZLEME_RAPORU.md).
+
+[R02 Grand Hall geçit düzeltmesi](reports/R02_GH_GECISI_RAPORU.md): kesintisiz eski cam kaldırıldı, geçide taşan üç etüt duvarı yerel kırpıldı. 15 ışın testi bütün görünür meshleri kapsar; tam oda ve çatı birleşimi kabulü açık.

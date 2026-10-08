@@ -1,8 +1,9 @@
 """P20 non-destructive horizontal mesh sections in the calibrated plan frame."""
 from pathlib import Path
-import bpy,json,math
+import bpy,json,math,sys
 from mathutils import Vector,Matrix
-R=Path(__file__).resolve().parents[2];B=R/'12_Blender_Model';release=json.loads((B/'reports/P19_build_report.json').read_text());C=json.loads((B/'config/foundation.json').read_text())['calibration'];Z={p['id']:p['draft_value'] for p in json.loads((B/'config/vertical_study.json').read_text())['parameters']}
+R=Path(__file__).resolve().parents[2];B=R/'12_Blender_Model';sys.path.insert(0,str(B/'scripts'));from release_utils import verified_current_scene
+release=verified_current_scene();C=json.loads((B/'config/foundation.json').read_text())['calibration'];Z={p['id']:p['draft_value'] for p in json.loads((B/'config/vertical_study.json').read_text())['parameters']}
 bpy.ops.wm.open_mainfile(filepath=str(R/release['file']));deps=bpy.context.evaluated_depsgraph_get();M=C['pdf_to_utm_matrix'];inv=Matrix([row[:2] for row in M]).inverted();k=C['canonical_to_pdf_scale'];off=C['canonical_to_pdf_offset']
 # Python double precision inverse avoids float32 cancellation on the UTM northing.
 det=M[0][0]*M[1][1]-M[0][1]*M[1][0]

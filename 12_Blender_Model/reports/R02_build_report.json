@@ -1,0 +1,36 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R02_GH_GECISI_v003.blend",
+  "base_scene": "MUDAM_P19_MALZEME_ISIK_v001.blend",
+  "closed_objects": [
+    "P07_GH_EAST_PORTAL_JAMB_N",
+    "P07_GH_EAST_PORTAL_JAMB_S",
+    "P07_GH_EAST_PORTAL_CROSS_BEAM"
+  ],
+  "hidden_superseded": [
+    "P05_MAIN_ATRIUM_BASE_6",
+    "P05_EAST_HIGH",
+    "P05_MAIN_ATRIUM_BASE_5",
+    "P05_GALLERY_HALL_EAST2"
+  ],
+  "portal_endpoints": [
+    [
+      14.535809516906738,
+      1.1325838565826416,
+      0.0
+    ],
+    [
+      17.110084533691406,
+      4.198000431060791,
+      0.0
+    ]
+  ],
+  "normal": [
+    -0.7657878994941711,
+    0.6430932283401489,
+    0.0
+  ],
+  "ground_clear": 3.8,
+  "beam_top": 4.12,
+  "upper_head": 9.718577096381804,
+  "construction_acceptance": false
+}

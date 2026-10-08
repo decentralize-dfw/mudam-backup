@@ -1,0 +1,43 @@
+{
+  "base_scene": "MUDAM_P19_MALZEME_ISIK_v001.blend",
+  "source_ids": [
+    "021",
+    "026",
+    "032",
+    "102",
+    "103",
+    "PDF2016"
+  ],
+  "opening_id": "GH-EAST-L00-PORTAL",
+  "edge_canonical": [
+    [
+      462.4,
+      441.1
+    ],
+    [
+      466.5406,
+      474.5405
+    ]
+  ],
+  "ground_clear_height_m": 3.8,
+  "cross_beam_height_m": 0.32,
+  "wall_display_depth_m": 0.38,
+  "jamb_display_width_m": 0.18,
+  "upper_clear_head_m": 9.718577096381804,
+  "superseded": [
+    "P05_MAIN_ATRIUM_BASE_6"
+  ],
+  "limits": [
+    "032 and 026 show a ground-level passage and a taller unglazed opening above a narrow cross beam. The old continuous glass enclosure is unsupported and is removed.",
+    "Plan opening endpoints use the side-hall corner [462.4,441.1] and stair-wall start [466.5406,474.5405] from PDF2016/102. They differ from the earlier roof-strip endpoints; do not move the floor passage to force agreement with that roof hypothesis.",
+    "3.8 m lower clear opening and 0.32 m beam are conditional photo-proportion candidates; upper head inherits the adjacent side-hall roof band. No metric interior camera is established.",
+    "Only the east portal next to GH_UP is revised. Opposite portal, stair recess and gallery boundaries remain separate unresolved work.",
+    "Old schematic wall portions crossing the plan-defined portal corridor are locally trimmed. Remaining wall/recess geometry and overhead roof-strip alignment still require reconciliation."
+  ],
+  "clearance_trim_targets": [
+    "P05_EAST_HIGH",
+    "P05_MAIN_ATRIUM_BASE_5",
+    "P05_GALLERY_HALL_EAST2"
+  ],
+  "portal_clearance_depth_m": 1.3
+}
