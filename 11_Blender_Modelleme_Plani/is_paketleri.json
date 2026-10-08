@@ -202,8 +202,16 @@
       ],
       "deliverable": "Çatı yüzeyi, ana/ikincil sistem ve paneller",
       "acceptance": "Silüet, bölüntü ve oturmalar çoklu görünüşte tutarlı",
-      "status": "not_started",
-      "open_issues": []
+      "status": "in_progress",
+      "open_issues": [
+        "Ana örtüde 359 ayrı panel; tüm profil ölçüleri ve bazı modül sayıları koşullu. İç gergi/gölgeleme ve birleşimler açık."
+      ],
+      "updated": "2026-10-08",
+      "dependency_mode": "regional_study_only_no_global_acceptance",
+      "artifacts": [
+        "12_Blender_Model/scenes/MUDAM_P11_YAN_ORTULER_v004.blend",
+        "12_Blender_Model/reports/P10_P11_CATI_RAPORU.md"
+      ]
     },
     {
       "id": "P11",
@@ -213,8 +221,16 @@
       ],
       "deliverable": "Doğu, batı, pavyon, bağlantı alt sistemleri",
       "acceptance": "Aynalama varsayımı yok; kenar panelleri çözülmüş",
-      "status": "not_started",
-      "open_issues": []
+      "status": "in_progress",
+      "open_issues": [
+        "435 yan/alt örtü ve geçit paneli; opak alt kuşak düzeltildi. Batı camında ~20 mm düzlemsellik sapması, pavyon ve birleşimler açık."
+      ],
+      "updated": "2026-10-08",
+      "dependency_mode": "regional_study_only_no_global_acceptance",
+      "artifacts": [
+        "12_Blender_Model/scenes/MUDAM_P11_YAN_ORTULER_v004.blend",
+        "12_Blender_Model/reports/P10_P11_CATI_RAPORU.md"
+      ]
     },
     {
       "id": "P12",
@@ -226,8 +242,16 @@
       ],
       "deliverable": "Giriş kapısı, ana korkuluk, galeri penceresi",
       "acceptance": "Yakın görünüş ve kesit; parametre değişiminde bağlantılar korunur",
-      "status": "not_started",
-      "open_issues": []
+      "status": "in_progress",
+      "open_issues": [
+        "014 ile girişte iki sıra / dört düz cam kanat adayı. Mekanizma, ana korkuluk ve galeri penceresi örneği açık."
+      ],
+      "updated": "2026-10-08",
+      "dependency_mode": "regional_study_only_no_global_acceptance",
+      "artifacts": [
+        "12_Blender_Model/scenes/MUDAM_P12_GIRIS_DETAY_v003.blend",
+        "12_Blender_Model/reports/P12_GIRIS_DETAY_RAPORU.md"
+      ]
     },
     {
       "id": "P13",
@@ -259,8 +283,16 @@
       ],
       "deliverable": "Cam panel, küpeşte, görünen bağlantılar",
       "acceptance": "Eğri ve kot merdivene bağlı; varsayılan tutucular etiketli",
-      "status": "not_started",
-      "open_issues": []
+      "status": "in_progress",
+      "open_issues": [
+        "Okuma boşluğu cam korkuluk pilotu üretildi; ana merdiven korkulukları ve kesin bağlantılar açık."
+      ],
+      "updated": "2026-10-08",
+      "dependency_mode": "regional_checkpoint_no_global_acceptance",
+      "artifacts": [
+        "12_Blender_Model/scenes/MUDAM_P19_MALZEME_ISIK_v001.blend",
+        "12_Blender_Model/reports/P19_P21_ONIZLEME_RAPORU.md"
+      ]
     },
     {
       "id": "P16",
@@ -286,8 +318,16 @@
       ],
       "deliverable": "Üst galeriler, dolaşım ve ışıklıklar",
       "acceptance": "Kanıtlı ayrıntılar ile temsilî bölgeler açıkça ayrılmış",
-      "status": "not_started",
-      "open_issues": []
+      "status": "in_progress",
+      "open_issues": [
+        "Okuma alanı döşeme boşluğu üretildi; eğimli taş tavan, avize, üst galeri içleri açık."
+      ],
+      "updated": "2026-10-08",
+      "dependency_mode": "regional_checkpoint_no_global_acceptance",
+      "artifacts": [
+        "12_Blender_Model/scenes/MUDAM_P19_MALZEME_ISIK_v001.blend",
+        "12_Blender_Model/reports/P19_P21_ONIZLEME_RAPORU.md"
+      ]
     },
     {
       "id": "P18",
@@ -312,8 +352,16 @@
       ],
       "deliverable": "Malzeme kütüphanesi ve nötr/gündüz/gece kontrolleri",
       "acceptance": "Doku ölçeği tutarlı; cam ve yansıma farklı açılarda testli",
-      "status": "not_started",
-      "open_issues": []
+      "status": "in_progress",
+      "open_issues": [
+        "Şeffaf cam, koyu metal ve genel gündüz önizlemesi; yüzeye özgü taş ve ışık kalibrasyonu açık."
+      ],
+      "updated": "2026-10-08",
+      "dependency_mode": "regional_checkpoint_no_global_acceptance",
+      "artifacts": [
+        "12_Blender_Model/scenes/MUDAM_P19_MALZEME_ISIK_v001.blend",
+        "12_Blender_Model/reports/P19_P21_ONIZLEME_RAPORU.md"
+      ]
     },
     {
       "id": "P20",
@@ -325,8 +373,16 @@
       ],
       "deliverable": "Görünürlük grupları ve kesit durumları",
       "acceptance": "Tüm kat ve kesit testleri; kapı boşlukları kapanmıyor",
-      "status": "not_started",
-      "open_issues": []
+      "status": "in_progress",
+      "open_issues": [
+        "L00 ve LP1 yatay mesh kesitleri plan üstünde incelenebilir; tam kat ayırma ve canlı kesit açık."
+      ],
+      "updated": "2026-10-08",
+      "dependency_mode": "regional_checkpoint_no_global_acceptance",
+      "artifacts": [
+        "12_Blender_Model/scenes/MUDAM_P19_MALZEME_ISIK_v001.blend",
+        "12_Blender_Model/reports/P19_P21_ONIZLEME_RAPORU.md"
+      ]
     },
     {
       "id": "P21",
@@ -336,8 +392,16 @@
       ],
       "deliverable": "Ana model ve hedef ortam türevi",
       "acceptance": "Birim/eksen/malzeme geri yüklemede doğru; performans ölçülmüş",
-      "status": "not_started",
-      "open_issues": []
+      "status": "in_progress",
+      "open_issues": [
+        "3573 mesh / 53260 üçgen GLB aktarımı denetlendi; hedef motor ve sadeleştirme açık."
+      ],
+      "updated": "2026-10-08",
+      "dependency_mode": "regional_checkpoint_no_global_acceptance",
+      "artifacts": [
+        "12_Blender_Model/scenes/MUDAM_P19_MALZEME_ISIK_v001.blend",
+        "12_Blender_Model/reports/P19_P21_ONIZLEME_RAPORU.md"
+      ]
     },
     {
       "id": "P22",
@@ -358,7 +422,15 @@
     "P06",
     "P07",
     "P08",
-    "P09"
+    "P09",
+    "P10",
+    "P11",
+    "P12",
+    "P15",
+    "P17",
+    "P19",
+    "P20",
+    "P21"
   ],
-  "latest_scene": "12_Blender_Model/scenes/MUDAM_P09_MERDIVEN_v004.blend"
+  "latest_scene": "12_Blender_Model/scenes/MUDAM_P19_MALZEME_ISIK_v001.blend"
 }

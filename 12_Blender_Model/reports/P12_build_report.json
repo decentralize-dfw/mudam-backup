@@ -1,0 +1,169 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_P12_GIRIS_DETAY_v003.blend",
+  "leaf_rows": [
+    {
+      "id": "OUTER",
+      "distance_from_facade_m": 2.2,
+      "pose_degrees": [
+        25,
+        0
+      ],
+      "handle_z_range_m": [
+        0.48,
+        3.2
+      ]
+    },
+    {
+      "id": "INNER",
+      "distance_from_facade_m": 0,
+      "pose_degrees": [
+        0,
+        -20
+      ],
+      "handle_z_range_m": [
+        0.18,
+        3.3
+      ]
+    }
+  ],
+  "closed_objects": [
+    "P12_CORNER_POST_-1_BACK",
+    "P12_GLASS_FIXING_-1_BACK_0",
+    "P12_GLASS_FIXING_-1_BACK_1",
+    "P12_GLASS_FIXING_-1_BACK_2",
+    "P12_CORNER_POST_-1_FRONT",
+    "P12_GLASS_FIXING_-1_FRONT_0",
+    "P12_GLASS_FIXING_-1_FRONT_1",
+    "P12_GLASS_FIXING_-1_FRONT_2",
+    "P12_CORNER_POST_1_BACK",
+    "P12_GLASS_FIXING_1_BACK_0",
+    "P12_GLASS_FIXING_1_BACK_1",
+    "P12_GLASS_FIXING_1_BACK_2",
+    "P12_CORNER_POST_1_FRONT",
+    "P12_GLASS_FIXING_1_FRONT_0",
+    "P12_GLASS_FIXING_1_FRONT_1",
+    "P12_GLASS_FIXING_1_FRONT_2",
+    "P12_LEAF_OUTER_-1_GLASS",
+    "P12_LEAF_OUTER_-1_BOTTOM",
+    "P12_LEAF_OUTER_-1_TOP",
+    "P12_LEAF_OUTER_-1_HANDLE_-1",
+    "P12_LEAF_OUTER_-1_HANDLE_FIX_-1_0",
+    "P12_LEAF_OUTER_-1_HANDLE_FIX_-1_1",
+    "P12_LEAF_OUTER_-1_HANDLE_1",
+    "P12_LEAF_OUTER_-1_HANDLE_FIX_1_0",
+    "P12_LEAF_OUTER_-1_HANDLE_FIX_1_1",
+    "P12_LEAF_OUTER_1_GLASS",
+    "P12_LEAF_OUTER_1_BOTTOM",
+    "P12_LEAF_OUTER_1_TOP",
+    "P12_LEAF_OUTER_1_HANDLE_-1",
+    "P12_LEAF_OUTER_1_HANDLE_FIX_-1_0",
+    "P12_LEAF_OUTER_1_HANDLE_FIX_-1_1",
+    "P12_LEAF_OUTER_1_HANDLE_1",
+    "P12_LEAF_OUTER_1_HANDLE_FIX_1_0",
+    "P12_LEAF_OUTER_1_HANDLE_FIX_1_1",
+    "P12_LEAF_INNER_-1_GLASS",
+    "P12_LEAF_INNER_-1_BOTTOM",
+    "P12_LEAF_INNER_-1_TOP",
+    "P12_LEAF_INNER_-1_HANDLE_-1",
+    "P12_LEAF_INNER_-1_HANDLE_FIX_-1_0",
+    "P12_LEAF_INNER_-1_HANDLE_FIX_-1_1",
+    "P12_LEAF_INNER_-1_HANDLE_1",
+    "P12_LEAF_INNER_-1_HANDLE_FIX_1_0",
+    "P12_LEAF_INNER_-1_HANDLE_FIX_1_1",
+    "P12_LEAF_INNER_1_GLASS",
+    "P12_LEAF_INNER_1_BOTTOM",
+    "P12_LEAF_INNER_1_TOP",
+    "P12_LEAF_INNER_1_HANDLE_-1",
+    "P12_LEAF_INNER_1_HANDLE_FIX_-1_0",
+    "P12_LEAF_INNER_1_HANDLE_FIX_-1_1",
+    "P12_LEAF_INNER_1_HANDLE_1",
+    "P12_LEAF_INNER_1_HANDLE_FIX_1_0",
+    "P12_LEAF_INNER_1_HANDLE_FIX_1_1",
+    "P12_FRONT_HEADER"
+  ],
+  "hidden_superseded": [
+    "P08_VESTIBULE_FRONT_HEAD",
+    "P08_VESTIBULE_POST_LEFT_0",
+    "P08_VESTIBULE_POST_LEFT_1",
+    "P08_VESTIBULE_POST_RIGHT_0",
+    "P08_VESTIBULE_POST_RIGHT_1"
+  ],
+  "leaf_families": [
+    {
+      "row": "OUTER",
+      "pivot": "P12_LEAF_PIVOT_OUTER_-1",
+      "objects": [
+        "P12_LEAF_OUTER_-1_BOTTOM",
+        "P12_LEAF_OUTER_-1_GLASS",
+        "P12_LEAF_OUTER_-1_HANDLE_-1",
+        "P12_LEAF_OUTER_-1_HANDLE_1",
+        "P12_LEAF_OUTER_-1_HANDLE_FIX_-1_0",
+        "P12_LEAF_OUTER_-1_HANDLE_FIX_-1_1",
+        "P12_LEAF_OUTER_-1_HANDLE_FIX_1_0",
+        "P12_LEAF_OUTER_-1_HANDLE_FIX_1_1",
+        "P12_LEAF_OUTER_-1_TOP"
+      ],
+      "angle_deg": 25,
+      "width_m": 1.091,
+      "height_m": 3.445
+    },
+    {
+      "row": "OUTER",
+      "pivot": "P12_LEAF_PIVOT_OUTER_1",
+      "objects": [
+        "P12_LEAF_OUTER_1_BOTTOM",
+        "P12_LEAF_OUTER_1_GLASS",
+        "P12_LEAF_OUTER_1_HANDLE_-1",
+        "P12_LEAF_OUTER_1_HANDLE_1",
+        "P12_LEAF_OUTER_1_HANDLE_FIX_-1_0",
+        "P12_LEAF_OUTER_1_HANDLE_FIX_-1_1",
+        "P12_LEAF_OUTER_1_HANDLE_FIX_1_0",
+        "P12_LEAF_OUTER_1_HANDLE_FIX_1_1",
+        "P12_LEAF_OUTER_1_TOP"
+      ],
+      "angle_deg": 0,
+      "width_m": 1.091,
+      "height_m": 3.445
+    },
+    {
+      "row": "INNER",
+      "pivot": "P12_LEAF_PIVOT_INNER_-1",
+      "objects": [
+        "P12_LEAF_INNER_-1_BOTTOM",
+        "P12_LEAF_INNER_-1_GLASS",
+        "P12_LEAF_INNER_-1_HANDLE_-1",
+        "P12_LEAF_INNER_-1_HANDLE_1",
+        "P12_LEAF_INNER_-1_HANDLE_FIX_-1_0",
+        "P12_LEAF_INNER_-1_HANDLE_FIX_-1_1",
+        "P12_LEAF_INNER_-1_HANDLE_FIX_1_0",
+        "P12_LEAF_INNER_-1_HANDLE_FIX_1_1",
+        "P12_LEAF_INNER_-1_TOP"
+      ],
+      "angle_deg": 0,
+      "width_m": 1.091,
+      "height_m": 3.445
+    },
+    {
+      "row": "INNER",
+      "pivot": "P12_LEAF_PIVOT_INNER_1",
+      "objects": [
+        "P12_LEAF_INNER_1_BOTTOM",
+        "P12_LEAF_INNER_1_GLASS",
+        "P12_LEAF_INNER_1_HANDLE_-1",
+        "P12_LEAF_INNER_1_HANDLE_1",
+        "P12_LEAF_INNER_1_HANDLE_FIX_-1_0",
+        "P12_LEAF_INNER_1_HANDLE_FIX_-1_1",
+        "P12_LEAF_INNER_1_HANDLE_FIX_1_0",
+        "P12_LEAF_INNER_1_HANDLE_FIX_1_1",
+        "P12_LEAF_INNER_1_TOP"
+      ],
+      "angle_deg": -20,
+      "width_m": 1.091,
+      "height_m": 3.445
+    }
+  ],
+  "opening_id": "ENT-02-L00",
+  "mechanism_verified": false,
+  "revolving_classification_withdrawn": true,
+  "construction_acceptance": false
+}

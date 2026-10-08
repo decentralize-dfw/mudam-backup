@@ -1,0 +1,32 @@
+{
+  "status": "conditional_surface_and_frame_reconstruction",
+  "base_scene": "MUDAM_P10_CAM_CATI_v002.blend",
+  "source_ids": ["093", "034", "036", "067", "087", "119", "102", "101"],
+  "east_columns": 20,
+  "east_slope_rows": 6,
+  "west_columns": 18,
+  "west_slope_rows": 6,
+  "lower_band_columns": 12,
+  "lower_band_rows": 3,
+  "link_bays": 8,
+  "glass_thickness_m": 0.018,
+  "frame_width_m": 0.075,
+  "frame_depth_m": 0.14,
+  "frame_lift_m": 0.025,
+  "strut_drop_m": 0.42,
+  "strut_diameter_m": 0.085,
+  "rod_diameter_m": 0.012,
+  "observations": [
+    "093 exterior and 034 interior show opaque stone below the low roof edge; the earlier all-glass low band is replaced with an opaque envelope. Its inherited height remains conditional.",
+    "093 supports six rows down the curved west roof and separate glass/framing layers.",
+    "034/036 show dropped internal nodes, struts and tension rods beneath the east glazed roof. Exact hardware geometry and full network topology remain unresolved.",
+    "067 shows full-height side glazing, closely repeated rectangular roof portals and crossed rods in the link roof; its end door must remain separately editable."
+  ],
+  "limits": [
+    "East/west total column counts and link bay count are visual candidates pending complete rectified-image counting.",
+    "East and west surfaces use separate existing source contours; west height curve remains conditional.",
+    "Warped west quadrilaterals are triangulated for visualization; deviations are reported. They are not a flat glass fabrication solution.",
+    "All member sizes, node drops and glazing thicknesses are provisional visualization values.",
+    "Node rods form a representative visible layer. No fabrication hardware or structural analysis is claimed."
+  ]
+}

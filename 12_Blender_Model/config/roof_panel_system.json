@@ -1,0 +1,31 @@
+{
+  "status": "conditional_panel_reconstruction",
+  "source_ids": ["119", "087", "029", "036", "102", "101"],
+  "base_scene": "MUDAM_P09_MERDIVEN_v004.blend",
+  "geometry_scope": "Main eight roof facets, lantern and cap. Separate glass and surface frames; no inferred structural certification.",
+  "observations": [
+    "119 front central lantern shows three columns and six vertical rows between low shoulder and lantern top.",
+    "119 front narrow sloping strip shows three columns; six slope rows is a visual candidate including the lower foreshortened end.",
+    "029 shows rectangular roof modules clipped at triangular facet boundaries, a clear central strip, internal tension members and sunshade layers.",
+    "036 shows separate glazing-edge framing, recessed struts, cable/rod members and joints. Its exact facet assignment is not verified; its detailed joint must not be copied throughout the main roof as confirmed."
+  ],
+  "main_wide_columns": 12,
+  "main_slope_rows": 6,
+  "main_strip_columns": 3,
+  "lantern_module_height_m": 1.23,
+  "cap_rows": 1,
+  "glass_thickness_m": 0.018,
+  "glass_inset_m": 0.012,
+  "secondary_face_width_m": 0.065,
+  "secondary_depth_m": 0.11,
+  "frame_cap_above_glass_m": 0.025,
+  "perimeter_face_width_m": 0.12,
+  "perimeter_depth_m": 0.22,
+  "limits": [
+    "Wide facet 12-by-6 grid is an explicit visual reconstruction candidate; clipped edge panels make the final panel count different from 72.",
+    "Back/side counts are provisional transfers; they have not been independently counted in every facet.",
+    "All profile sizes, glass thickness and gaskets are visualization parameters, not measured construction specifications.",
+    "This package does not yet reconstruct the internal tension structure, shading devices or fabrication joints.",
+    "Main supporting silhouette remains the existing conditional section/photo solution."
+  ]
+}

@@ -61,7 +61,7 @@
     "id": "ENT-02-L00",
     "bay": 2,
     "level": "L00",
-    "type": "revolving_door_with_fixed_surround",
+    "type": "glazed_vestibule_flat_leaf_candidate",
     "plan_segment": [
       [
         562.6,
@@ -84,7 +84,10 @@
     "confidence_xy": "C plan registration",
     "confidence_z": "D photo proportion",
     "confidence_detail": "U unmeasured",
-    "status": "pilot_only"
+    "status": "pilot_only",
+    "mechanism_verified": false,
+    "superseded_type": "revolving_door_with_fixed_surround",
+    "type_note": "013/014 yakın çekimlerinde iki sıra düz kanat görünür; döner mekanizma tanımı kesinleşmediği için geri çekildi. P12 üst kot düzeltmesi config/entry_door_detail.json içinde."
   },
   {
     "id": "ENT-02-LP1",

@@ -11,4 +11,8 @@ Kullanıcı 8 Ekim 2026 akşamı modelleme bitene kadar devam edilmesini, saatte
 
 ## Push kayıtları
 
-İlk gece kontrol noktası hazırlanıyor; başarılı push sonrasında commit kimliği ve UTC zamanı eklenecek.
+- 2026-10-08 20:30 UTC — `a4d806a` origin/main push başarılı. P03-P09 sahneleri, kaynaklar, betikler ve kontroller kaydedildi.
+
+## 21:15 UTC ara üretimi
+
+P10/P11 cam örtüler, P12 girişte dört kanat, P15/P17 okuma alanı boşluğu ve korkuluk, P19 saydam cam/gündüz ışığı üretildi. P20 model-plan kesit sayfası ve P21 GLB aktarımı hazır. Güncel birleşik sahne `scenes/MUDAM_P19_MALZEME_ISIK_v001.blend`; kontroller raporlarda. Tam bina henüz bitmedi. Sonraki iş sırası `DEVAM_NOTLARI.md` içinde. Bu kayıt push öncesi üretim durumudur.

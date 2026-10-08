@@ -77,3 +77,13 @@ markup='''<!doctype html><html lang="tr"><head><meta charset="utf-8"><meta name=
 # No old builder gate is loosened; only current scoped work is recorded.
 gate_path=B/'config/reference_gate.json';gate=json.loads(gate_path.read_text(encoding='utf8'));gate['current_regional_studies']=['P06','P07','P08','P09'];gate['global_shell_accepted']=False;gate['routine_user_approval_required']=False;gate_path.write_text(json.dumps(gate,indent=2,ensure_ascii=False)+'\n',encoding='utf8')
 print('Published',latest)
+if (B/'reports/P11_verification.json').exists():
+ from publish_roof_review import publish
+ publish()
+if (B/'reports/P12_verification.json').exists():
+ from publish_entry_detail_review import publish
+ publish()
+
+if (B/"reports/P21_verification.json").exists():
+ from publish_current_checkpoint import publish
+ publish()

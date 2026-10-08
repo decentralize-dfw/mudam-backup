@@ -1,0 +1,133 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_P17_OKUMA_BOSLUGU_v002.blend",
+  "closed_objects": [
+    "P17_READING_FLOOR",
+    "P17_LP1_DIAMOND_VOID",
+    "P17_ROOF_APERTURE_CANDIDATE",
+    "P15_READING_BASE_0",
+    "P15_READING_RAIL_0",
+    "P15_READING_GLASS_0_0",
+    "P15_READING_GLASS_0_1",
+    "P15_READING_BASE_1",
+    "P15_READING_RAIL_1",
+    "P15_READING_GLASS_1_0",
+    "P15_READING_GLASS_1_1",
+    "P15_READING_BASE_2",
+    "P15_READING_RAIL_2",
+    "P15_READING_GLASS_2_0",
+    "P15_READING_GLASS_2_1",
+    "P15_READING_BASE_3",
+    "P15_READING_RAIL_3",
+    "P15_READING_GLASS_3_0",
+    "P15_READING_GLASS_3_1",
+    "P17_READING_SLOPE_0",
+    "P17_READING_LANTERN_0",
+    "P17_READING_CAP_0",
+    "P17_READING_SLOPE_1",
+    "P17_READING_LANTERN_1",
+    "P17_READING_CAP_1",
+    "P17_READING_SLOPE_2",
+    "P17_READING_LANTERN_2",
+    "P17_READING_CAP_2",
+    "P17_READING_SLOPE_3",
+    "P17_READING_LANTERN_3",
+    "P17_READING_CAP_3",
+    "P17_READING_SLOPE_4",
+    "P17_READING_LANTERN_4",
+    "P17_READING_CAP_4",
+    "P17_READING_SLOPE_5",
+    "P17_READING_LANTERN_5",
+    "P17_READING_CAP_5",
+    "P17_READING_SLOPE_6",
+    "P17_READING_LANTERN_6",
+    "P17_READING_CAP_6",
+    "P17_READING_SLOPE_7",
+    "P17_READING_LANTERN_7",
+    "P17_READING_CAP_7"
+  ],
+  "cutters": [
+    "P17_LP1_DIAMOND_VOID",
+    "P17_ROOF_APERTURE_CANDIDATE"
+  ],
+  "roof_boolean_targets": [
+    "P05_MAIN_ROOF_DECK",
+    "P06_READING_CURB"
+  ],
+  "replaced": [
+    "P06_READING_SLOPE_0",
+    "P06_READING_LANTERN_0",
+    "P06_READING_CAP_0",
+    "P06_READING_SLOPE_1",
+    "P06_READING_LANTERN_1",
+    "P06_READING_CAP_1",
+    "P06_READING_SLOPE_2",
+    "P06_READING_LANTERN_2",
+    "P06_READING_CAP_2",
+    "P06_READING_SLOPE_3",
+    "P06_READING_LANTERN_3",
+    "P06_READING_CAP_3",
+    "P06_READING_SLOPE_4",
+    "P06_READING_LANTERN_4",
+    "P06_READING_CAP_4",
+    "P06_READING_SLOPE_5",
+    "P06_READING_LANTERN_5",
+    "P06_READING_CAP_5",
+    "P06_READING_SLOPE_6",
+    "P06_READING_LANTERN_6",
+    "P06_READING_CAP_6",
+    "P06_READING_SLOPE_7",
+    "P06_READING_LANTERN_7",
+    "P06_READING_CAP_7"
+  ],
+  "floor_z": 4.859074784676003,
+  "center_world": [
+    22.904695510864258,
+    27.180442810058594,
+    0.0
+  ],
+  "floor_void_world": [
+    [
+      21.512739181518555,
+      25.886110305786133,
+      0.0
+    ],
+    [
+      21.610363006591797,
+      28.572399139404297,
+      0.0
+    ],
+    [
+      24.29665184020996,
+      28.474775314331055,
+      0.0
+    ],
+    [
+      24.19902801513672,
+      25.78848648071289,
+      0.0
+    ]
+  ],
+  "roof_void_world": [
+    [
+      21.68673324584961,
+      26.047901153564453,
+      0.0
+    ],
+    [
+      21.772153854370117,
+      28.398405075073242,
+      0.0
+    ],
+    [
+      24.122657775878906,
+      28.312984466552734,
+      0.0
+    ],
+    [
+      24.0372371673584,
+      25.962480545043945,
+      0.0
+    ]
+  ],
+  "construction_acceptance": false
+}

@@ -88,7 +88,7 @@
       "wall_depth_m": "Visual envelope parameter, NOT a measured concrete structural thickness.",
       "glazing_heights": "013/008 proportions; conditional heights, not construction dimensions.",
       "frames_and_glass": "Replaceable visualization dimensions, not measured member sections or glass specification.",
-      "vestibule": "008/013 confirm projecting glazed revolving-door assembly; revolving mechanism/leaves intentionally unresolved."
+      "vestibule": "008/013/014 confirm projecting rectangular glazed vestibule and two sets of flat leaves; exact balanced operating mechanism unresolved. Previous revolving-door claim withdrawn."
     }
   },
   "lower_roof": {
@@ -182,7 +182,7 @@
   "unresolved": [
     "Concrete structure vs stone build-up not resolved; modeled entry solids are envelope volumes.",
     "Exact pillar/beam cross-sections, window heads and frame sections remain hypotheses.",
-    "Revolving leaves, seals, drive and fixings not modeled.",
+    "Flat leaf candidates and visible hardware added in P12; balancing arms, seals and drive remain unverified.",
     "Side-hall roof endpoint mapping and curved roof elevation require further checks."
   ],
   "reading_lantern": {

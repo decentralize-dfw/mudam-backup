@@ -1,0 +1,17 @@
+"""Publish inspectable source overlays, with actual section Z and model object IDs."""
+from pathlib import Path
+from PIL import Image
+import json,html
+R=Path(__file__).resolve().parents[2];B=R/'12_Blender_Model';r=json.loads((B/'reports/P20_sections.json').read_text());sections=[]
+for level in r['levels']:
+ source=next((R/'01_Kat_Planlari').rglob(level['source']+'_*'));target=B/'references'/f"P20_plan_{level['source']}.png";im=Image.open(source).convert('RGB');im.save(target);w,h=im.size;lines=[]
+ for o in r['objects']:
+  if o['level']!=level['id']:continue
+  group='glass' if o['glass'] else 'solid';segments=''.join(f'<path d="M {a[0]:.4f} {a[1]:.4f} L {b[0]:.4f} {b[1]:.4f}"/>' for a,b in o['segments'])
+  lines.append(f'<g class="{group}"><title>{html.escape(o["name"])}</title>{segments}</g>')
+ overlay=f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {w} {h}" fill="none" stroke-width=".9"><g stroke="#de4416">'+''.join(lines)+'</g></svg>'
+ # Standalone overlay preserves transparent background and source coordinates.
+ (B/'renders/qa'/f"P20_{level['id']}_section.svg").write_text(overlay.replace('class="glass"','class="glass" stroke="#008a9a"'),encoding='utf8')
+ sections.append(f'''<section><h2>{level['id']} / kaynak {level['source']}</h2><p>Kesit Z = {level['z']:.3f} m; kat üstünden {level['above_floor']:.2f} m. {r['counts'][level['id']]['objects']} nesne kesiliyor. Turuncu: opak yüzey; turkuaz: cam. Çizgi üzerine gelince nesne kimliği görünür.</p><div class="tools"><label>Model çizgisi <input class="opacity" type="range" min="0" max="100" value="85"></label><label><input class="glass-toggle" type="checkbox" checked> Cam</label><label><input class="solid-toggle" type="checkbox" checked> Opak</label></div><div class="plan"><img src="references/{target.name}" alt="Özgün kat planı {level['source']}">{overlay}</div></section>''')
+markup='''<!doctype html><html lang="tr"><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Mudam / model-plan kesit kontrolü</title><style>body{margin:0;background:#10191d;color:#e8eeee;font:16px/1.6 system-ui}main{max-width:1300px;margin:auto;padding:24px}section{background:#1a282e;padding:18px;margin:22px 0}a{color:#8ddacb}.tools{display:flex;gap:24px;flex-wrap:wrap;margin:16px 0}.plan{position:relative;background:white}.plan img{width:100%;display:block}.plan svg{position:absolute;inset:0;width:100%;height:100%;opacity:.85}.glass{stroke:#008a9a}.solid{stroke:#de4416}path{pointer-events:stroke}.note{border-left:3px solid #f9c46b;padding:14px}h1{margin:0}</style><main><h1>Model ile planı aynı koordinatta karşılaştır</h1><p><a href="URETIM.html">Üretim incelemesine dön</a> · <a href="reports/P20_sections.json">Kesit verisi ve nesne kimlikleri</a></p><p class="note">Bu çizgiler kaydedilmiş Blender geometrisinden çıkarılır. Eksik model öğeleri planda görünebilir; üst üste gelmesi tek başına gerçek bina ölçülerini doğrulamaz. Planı modele uydurmak için yerel esnetme yapılmadı. +1 kesiti korkuluğu görebilmek için döşemeden 0,90 m yukarıdadır.</p>'''+''.join(sections)+'''</main><script>document.querySelectorAll('section').forEach(s=>{const svg=s.querySelector('svg');s.querySelector('.opacity').oninput=e=>svg.style.opacity=e.target.value/100;['glass','solid'].forEach(c=>s.querySelector('.'+c+'-toggle').onchange=e=>svg.querySelectorAll('.'+c).forEach(g=>g.style.display=e.target.checked?'':'none'));});</script></html>'''
+(B/'PLAN_KONTROL.html').write_text(markup,encoding='utf8');print('P20 section review published',r['scene'])

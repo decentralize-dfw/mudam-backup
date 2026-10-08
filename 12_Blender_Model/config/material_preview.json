@@ -1,0 +1,13 @@
+{
+  "base_scene": "MUDAM_P17_OKUMA_BOSLUGU_v002.blend",
+  "sources": ["007", "008", "013", "014", "015", "016", "029", "036", "093"],
+  "glass": {"base_color": [0.96,0.985,0.98], "transmission": 1.0, "roughness": 0.025, "ior": 1.52},
+  "dark_metal": {"base_color": [0.12,0.145,0.14], "metallic": 0.8, "roughness": 0.26},
+  "daylight": {"sun_elevation_rad": 0.65, "sun_rotation_rad": 2.1, "world_strength": 0.3, "exposure": -0.6},
+  "limits": [
+    "Clear glass and dark metal appearance supported by reference photographs; no manufacturer or spectral specification is available.",
+    "Surface tint, IOR, roughness and sky orientation are visualization parameters; this is not a calibrated light or thermal simulation.",
+    "Stone stays a neutral envelope material until face-specific stone type and coursing are traced. Do not impose one granite material across limestone and gray paving.",
+    "The legacy unpanelized roof skins remain study materials; changing color does not validate their geometry."
+  ]
+}

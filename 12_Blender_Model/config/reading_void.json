@@ -1,0 +1,24 @@
+{
+  "base_scene": "MUDAM_P12_GIRIS_DETAY_v003.blend",
+  "source_ids": ["103", "015", "016", "116"],
+  "center_canonical": [575, 642],
+  "floor_outline_canonical": [[560,604],[591,604],[614,625],[614,655],[593,676],[559,676],[537,655],[537,625]],
+  "floor_void_half_diagonal_canonical": 16,
+  "roof_aperture_half_diagonal_canonical": 14,
+  "floor_display_thickness_m": 0.2,
+  "railing_height_m": 1.05,
+  "railing_offset_from_void_m": 0.04,
+  "railing_glass_thickness_m": 0.016,
+  "railing_panels_per_side": 2,
+  "railing_glass_gap_m": 0.008,
+  "top_rail_diameter_m": 0.035,
+  "bottom_channel_width_m": 0.045,
+  "bottom_channel_height_m": 0.06,
+  "limits": [
+    "103 central diamond is an upper-floor void, not a measured roof aperture. Floor outline is a manual trace of the visitor diagram, not measured construction geometry.",
+    "015/016 support transparent guards, a dark top rail, a concealed bottom fixing and daylight from above. Rail height, thicknesses and glass seam positions remain visualization parameters.",
+    "The roof aperture is a separate candidate fitting inside the existing conditional lantern. Its 14-pixel half diagonal is NOT measured from the upper-floor void or a photograph.",
+    "The inclined stone ceiling, chandelier, corner splices, seals and fixing specification are not reconstructed by this pilot.",
+    "External eight-sided lantern remains an unresolved earlier hypothesis; changing floor geometry does not verify it."
+  ]
+}

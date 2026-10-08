@@ -1,0 +1,19 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_P19_MALZEME_ISIK_v001.blend",
+  "mesh_objects_unchanged": 3810,
+  "failures": [],
+  "glass_checks": [
+    {
+      "name": "P10_GLASS_PREVIEW",
+      "transmission": 1.0,
+      "roughness": 0.02500000037252903
+    },
+    {
+      "name": "P08_GLAZING_PREVIEW_NOT_SPECIFICATION",
+      "transmission": 1.0,
+      "roughness": 0.02500000037252903
+    }
+  ],
+  "renders_exist": true,
+  "construction_acceptance": false
+}

@@ -1,0 +1,131 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_P17_OKUMA_BOSLUGU_v002.blend",
+  "evaluated_closed_solids_checked": 45,
+  "failures": [],
+  "clear_vertical_rays": [
+    {
+      "object": "P17_READING_FLOOR",
+      "offset": [
+        0,
+        0
+      ],
+      "blocked": false
+    },
+    {
+      "object": "P17_READING_FLOOR",
+      "offset": [
+        0.1,
+        0
+      ],
+      "blocked": false
+    },
+    {
+      "object": "P17_READING_FLOOR",
+      "offset": [
+        -0.1,
+        0
+      ],
+      "blocked": false
+    },
+    {
+      "object": "P17_READING_FLOOR",
+      "offset": [
+        0,
+        0.1
+      ],
+      "blocked": false
+    },
+    {
+      "object": "P17_READING_FLOOR",
+      "offset": [
+        0,
+        -0.1
+      ],
+      "blocked": false
+    },
+    {
+      "object": "P05_MAIN_ROOF_DECK",
+      "offset": [
+        0,
+        0
+      ],
+      "blocked": false
+    },
+    {
+      "object": "P05_MAIN_ROOF_DECK",
+      "offset": [
+        0.1,
+        0
+      ],
+      "blocked": false
+    },
+    {
+      "object": "P05_MAIN_ROOF_DECK",
+      "offset": [
+        -0.1,
+        0
+      ],
+      "blocked": false
+    },
+    {
+      "object": "P05_MAIN_ROOF_DECK",
+      "offset": [
+        0,
+        0.1
+      ],
+      "blocked": false
+    },
+    {
+      "object": "P05_MAIN_ROOF_DECK",
+      "offset": [
+        0,
+        -0.1
+      ],
+      "blocked": false
+    },
+    {
+      "object": "P06_READING_CURB",
+      "offset": [
+        0,
+        0
+      ],
+      "blocked": false
+    },
+    {
+      "object": "P06_READING_CURB",
+      "offset": [
+        0.1,
+        0
+      ],
+      "blocked": false
+    },
+    {
+      "object": "P06_READING_CURB",
+      "offset": [
+        -0.1,
+        0
+      ],
+      "blocked": false
+    },
+    {
+      "object": "P06_READING_CURB",
+      "offset": [
+        0,
+        0.1
+      ],
+      "blocked": false
+    },
+    {
+      "object": "P06_READING_CURB",
+      "offset": [
+        0,
+        -0.1
+      ],
+      "blocked": false
+    }
+  ],
+  "outside_floor_preserved": true,
+  "earlier_entry_roof_preserved": true,
+  "sloping_stone_ceiling_built": false,
+  "construction_acceptance": false
+}

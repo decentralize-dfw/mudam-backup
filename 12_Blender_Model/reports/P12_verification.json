@@ -1,0 +1,92 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_P12_GIRIS_DETAY_v003.blend",
+  "closed_solids_checked": 59,
+  "failures": [],
+  "leaf_pose_checks": [
+    {
+      "pivot": "P12_LEAF_PIVOT_OUTER_-1",
+      "tests": [
+        {
+          "angle": 0,
+          "z_min": 0.03500000014901161,
+          "z_max": 3.4800000190734863
+        },
+        {
+          "angle": 45,
+          "z_min": 0.03500000014901161,
+          "z_max": 3.4800000190734863
+        },
+        {
+          "angle": 90,
+          "z_min": 0.03500000014901161,
+          "z_max": 3.4800000190734863
+        }
+      ]
+    },
+    {
+      "pivot": "P12_LEAF_PIVOT_OUTER_1",
+      "tests": [
+        {
+          "angle": 0,
+          "z_min": 0.03500000014901161,
+          "z_max": 3.4800000190734863
+        },
+        {
+          "angle": 45,
+          "z_min": 0.03500000014901161,
+          "z_max": 3.4800000190734863
+        },
+        {
+          "angle": 90,
+          "z_min": 0.03500000014901161,
+          "z_max": 3.4800000190734863
+        }
+      ]
+    },
+    {
+      "pivot": "P12_LEAF_PIVOT_INNER_-1",
+      "tests": [
+        {
+          "angle": 0,
+          "z_min": 0.03500000014901161,
+          "z_max": 3.4800000190734863
+        },
+        {
+          "angle": 45,
+          "z_min": 0.03500000014901161,
+          "z_max": 3.4800000190734863
+        },
+        {
+          "angle": 90,
+          "z_min": 0.03500000014901161,
+          "z_max": 3.4800000190734863
+        }
+      ]
+    },
+    {
+      "pivot": "P12_LEAF_PIVOT_INNER_1",
+      "tests": [
+        {
+          "angle": 0,
+          "z_min": 0.03500000014901161,
+          "z_max": 3.4800000190734863
+        },
+        {
+          "angle": 45,
+          "z_min": 0.03500000014901161,
+          "z_max": 3.4800000190734863
+        },
+        {
+          "angle": 90,
+          "z_min": 0.03500000014901161,
+          "z_max": 3.4800000190734863
+        }
+      ]
+    }
+  ],
+  "vestibule_roof_z": 4.1,
+  "leaf_header_z": 3.6,
+  "earlier_roof_and_podium_preserved": true,
+  "mechanism_verified": false,
+  "construction_acceptance": false
+}

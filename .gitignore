@@ -12,3 +12,10 @@ venv/
 Thumbs.db
 Desktop.ini
 .DS_Store
+
+# Regenerable Blender console logs
+12_Blender_Model/reports/*_build.log
+12_Blender_Model/reports/*_verify.log
+
+# Superseded local trials, retained on disk; only verified checkpoints are published
+12_Blender_Model/scenes/archive/local_trials_20261008/

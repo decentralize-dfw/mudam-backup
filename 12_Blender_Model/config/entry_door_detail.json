@@ -1,0 +1,68 @@
+{
+  "base_scene": "MUDAM_P11_YAN_ORTULER_v004.blend",
+  "opening_id": "ENT-02-L00",
+  "source_ids": [
+    "008",
+    "013",
+    "014",
+    "102"
+  ],
+  "classification": "glazed_vestibule_with_flat_operable_leaves",
+  "mechanism_verified": false,
+  "previous_revolving_label": "withdrawn_unverified",
+  "visible_leaf_candidate_count": 4,
+  "pose_degrees": [
+    25,
+    0
+  ],
+  "vestibule_roof_z_m": 4.1,
+  "leaf_header_z_m": 3.6,
+  "leaf_head_clearance_m": 0.12,
+  "leaf_foot_clearance_m": 0.035,
+  "leaf_center_gap_m": 0.018,
+  "leaf_edge_profile_m": 0.035,
+  "leaf_glass_thickness_m": 0.014,
+  "corner_post_diameter_m": 0.055,
+  "handle_diameter_m": 0.025,
+  "handle_z_range_m": [
+    0.48,
+    1.75
+  ],
+  "handle_standoff_m": 0.065,
+  "fixing_diameter_m": 0.022,
+  "limits": [
+    "008/013 place the vestibule roof close to the lower facade transom; the former 2.75 m vestibule was proportionally too short. Roof 4.1 m and leaf header 3.6 m are revised photo-proportion candidates, not surveyed dimensions.",
+    "013 shows a rectangular glass vestibule, flat operable leaves, top metal pieces, vertical handles and point fixings. It does not establish a cylindrical revolving drum.",
+    "Two side-pivot leaves are an editable kinematic candidate; exact balancing arms and pivot axes are unverified.",
+    "Leaf angles are a review pose; they do not claim the precise photo pose or an automated system.",
+    "All hardware sizes are visualization parameters inherited from the conditional entry envelope.",
+    "014 interior view confirms two successive sets of flat operable glass leaves. Four editable side-pivot candidates represent these; balanced-door arms and exact axes remain unresolved.",
+    "014 shows largely frameless vertical glass edges and top/bottom metal members. The prior invented continuous vertical edge profiles are removed."
+  ],
+  "leaf_rows": [
+    {
+      "id": "OUTER",
+      "distance_from_facade_m": 2.2,
+      "pose_degrees": [
+        25,
+        0
+      ],
+      "handle_z_range_m": [
+        0.48,
+        3.2
+      ]
+    },
+    {
+      "id": "INNER",
+      "distance_from_facade_m": 0,
+      "pose_degrees": [
+        0,
+        -20
+      ],
+      "handle_z_range_m": [
+        0.18,
+        3.3
+      ]
+    }
+  ]
+}
