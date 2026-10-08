@@ -28,3 +28,5 @@ R02 v003 sahnesi ve güncel GLB/kesitler hazır. 021/026/032 + 102/PDF2016 incel
 ## 21:50 UTC üst merdiven ayağı
 
 R03 v003: cam dönüş/küpeşte/kanal ve gömme armatür adayı üretildi. Üç basamak kapanışının küçük kendini kesme kusuru giderildi. 20 kapalı hacim, 65 destek, 12 girinti ve 15 geçit ışını kontrolü geçti; önceki 3819 ham mesh ve dönüşüm korundu. İki detay görünümü, plan karşılaştırması, güncel kesitler ve 7.33 MB GLB hazır. Tam kol ve metrik detay ölçüleri açık. Bu paragraf push öncesi üretim durumudur.
+
+- 2026-10-08 21:51:13 UTC — `dd705f9` origin/main push başarılı. R03 v003 üst merdiven cam dönüş detayı, üç basamağın sınır onarımı, yeniden açma/görsel kontrolleri, güncel plan kesitleri ve GLB kaydedildi. Push sonrası HEAD ve origin/main eşleşti.
