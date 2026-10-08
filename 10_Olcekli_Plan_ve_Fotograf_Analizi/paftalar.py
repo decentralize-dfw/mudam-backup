@@ -12,6 +12,7 @@ plans={l:uri(B/'01_Planlar'/f'kat_{l}_harita_katmani.png') for l in ['0','1','-1
 def lines(s,x,y,width=86,size=17):
     return ''.join(f'<text x="{x}" y="{y+i*(size+7)}" font-size="{size}">{html.escape(t)}</text>' for i,t in enumerate(textwrap.wrap(s,width)))
 for p in D['photos']:
+    if len(sys.argv)>1 and p['id'] not in sys.argv[1:]:continue
     level=p['level'] if p['level'] in plans else '0'
     x,y=p['x_m'],p['y_m'];r=p['radius_m'] or 0
     xmin,ymin,xmax,ymax=-90,-100,90,80
@@ -32,14 +33,18 @@ for p in D['photos']:
     content+=f'<path d="M{xmin+10} {ymin+extent-10} h20" stroke="black" stroke-width=".6"/><text x="{xmin+10}" y="{ymin+extent-13}" font-size="3.5">20 m</text><text x="{xmin+extent-28}" y="{ymin+9}" font-size="3.5">N (UTM) ↑</text>'
     quality={'estimate':'TAHMİNİ KONUM + YÖN','region':'YALNIZCA ADAY BÖLGE','unresolved':'KONUM ÇÖZÜLEMEDİ'}[p['quality']]
     heading=f'≈ {p["heading_deg"]}° ±{p["angle_uncertainty_deg"]}° (gerçek kuzeyden)' if p['heading_deg'] is not None else 'Yön belirlenemedi'
-    note=f'Kat/alan: {p["level"]} | {heading} | Aday yarıçap: {r} m' if x is not None else 'Bu fotoğraf için haritada kamera noktası üretilmedi.'
+    note=f'Kat/alan: {p["level"]} | {heading} | Aday yarıçap: {r} m' if x is not None else 'Bu fotoğrafın kamera noktası denetimde doğrulanamadı; haritada gösterilmiyor.'
+    note+=' | Kamera/ölçü onayı: YOK'
     svg=f'<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="1040" viewBox="0 0 1500 1040"><rect width="1500" height="1040" fill="white"/><g font-family="Arial" fill="#18373b"><text x="30" y="43" font-size="27">MUDAM / FOTOĞRAF {p["id"]} / {quality}</text>'+lines(p['area'],30,75,120,20)
     mapsvg=f'<svg xmlns="http://www.w3.org/2000/svg" width="1300" height="1300" viewBox="{xmin} {ymin} {extent} {extent}"><rect x="{xmin}" y="{ymin}" width="{extent}" height="{extent}" fill="#f4f3ed"/>{content}</svg>'
     mapdoc=pymupdf.open(stream=mapsvg.encode(),filetype='svg')
     mapuri='data:image/png;base64,'+base64.b64encode(mapdoc[0].get_pixmap().tobytes('png')).decode()
     svg+=f'<image href="{mapuri}" x="55" y="100" width="650" height="650"/><image href="{uri(B.parent/p["path"])}" x="755" y="100" width="715" height="650" preserveAspectRatio="xMidYMid meet"/>'
     svg+=lines(note,30,787,130,19)+lines(p['evidence'],30,825,145,18)+lines('Düşey bakış: '+p['pitch']+'. Daire ve fan görsel yorum aralığıdır; ölçüm doğruluğu veya objektif görüş açısı değildir.',30,900,155,16)+lines('Plan: Mudam | Harita: © OpenStreetMap contributors / ODbL | Fotoğraf: '+p['credit'],30,964,160,15)+lines('Harita eşleştirme RMS: 1,02 m; ayrılmış kontrol RMS: 1,91 m. Pafta haritasında ölçek çubuğunu kullanın.',30,1010,160,15)+'</g></svg>'
-    (B/'05_Fotograf_Paftalari'/f'foto_{p["id"]}.svg').write_text(svg,encoding='utf-8')
+    destination=B/'05_Fotograf_Paftalari'/f'foto_{p["id"]}.svg'
+    temporary=destination.with_suffix('.svg.tmp')
+    temporary.write_text(svg,encoding='utf-8')
+    temporary.replace(destination)
     if p['id'] in ['021','071','087','122']:
         doc=pymupdf.open(stream=svg.encode(),filetype='svg');doc[0].get_pixmap().save(B/'04_Onizlemeler'/f'foto_{p["id"]}.png')
-print('105 fotoğraf paftası hazır')
+print('İstenen fotoğraf paftaları hazır')

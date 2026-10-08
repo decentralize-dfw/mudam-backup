@@ -29,8 +29,8 @@ for level,ident in [('0','102'),('1','103'),('-1','104')]:
     uri=data_uri(ROOT/byid[ident]['path'])
     if level=='0':inner=f'<image href="{uri}" width="1108" height="960"/>'
     elif level=='1':
-        inner=f'<g transform="translate(-.5 32)"><image href="{uri}" width="1108" height="960"/></g>'
-        C['upper_registration']=dict(source_to_canonical=[1,-.5,32],method='Translation of common exterior tips; no distortion')
+        inner=f'<g transform="translate(.5 -1)"><image href="{uri}" width="1108" height="960"/></g>'
+        C['upper_registration']=dict(source_to_canonical=[1,.5,-1],method='2026-10-08 correction: exterior tip pixels checked in both original JPEGs; previous +32px vertical shift removed; residual raster uncertainty about 1px')
     else:
         s=573/517;dx=289.5-264*s;dy=161.5-147*s
         inner=f'<g transform="translate({dx} {dy}) scale({s})"><image href="{uri}" width="1000" height="866"/></g>'
@@ -108,7 +108,7 @@ for x in photos:
     geo.append(dict(type='Feature',geometry=geometry,properties=properties));results.append(d)
 save_json(BASE/'03_Fotograf_Konumlari/fotograf_konumlari.json',results)
 save_json(BASE/'03_Fotograf_Konumlari/fotograf_konumlari.geojson',dict(type='FeatureCollection',features=geo))
-cols=['id','level','quality','geometry_role','area','easting_m','northing_m','longitude','latitude','heading_deg','angle_uncertainty_deg','radius_m','pitch','evidence','capture_time','camera_model','focal_length_mm','panorama_metadata','gps_coordinates_present','fov_deg','fov_note','path','source']
+cols=['id','level','quality','geometry_role','area','stair_system','review_status','review_decision','camera_pose_verified','metric_geometry_approved','level_status','model_use','review_basis','easting_m','northing_m','longitude','latitude','heading_deg','angle_uncertainty_deg','radius_m','pitch','evidence','capture_time','camera_model','focal_length_mm','panorama_metadata','gps_coordinates_present','fov_deg','fov_note','path','source']
 with (BASE/'03_Fotograf_Konumlari/fotograf_konumlari.csv').open('w',encoding='utf-8-sig',newline='') as f:
     writer=csv.DictWriter(f,fieldnames=cols,extrasaction='ignore');writer.writeheader();writer.writerows(results)
 

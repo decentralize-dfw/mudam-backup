@@ -1,0 +1,4431 @@
+[
+  {
+    "id": "001",
+    "review_date": "2026-10-08",
+    "review_status": "visually_reviewed",
+    "inspection": "Individual image reviewed in 6-image sheets; ambiguous critical details enlarged. Plans 102/103/104 and section 101 also inspected.",
+    "observed_features": "Solda sekizgen pavyon, sağda derin nişli galeri cephesi, önde meydan ve korkuluk görülüyor; giriş portali kadrajda yok.",
+    "crosscheck_ids": [
+      "002",
+      "003",
+      "088",
+      "102"
+    ],
+    "decision": "Giriş saçağına dayanan önceki gerekçe hatalı; kamera noktası kaldırıldı.",
+    "source_path": "05_Dis_Mekan/Cepheler/001_Tas_cephe_ve_cam_pavyon_WikiArquitectura.jpg",
+    "source_url": "https://es.wikiarquitectura.com/edificio/museo-de-arte-moderno-grand-duc-jean-mudam/",
+    "source_sha256": "eeca47a9e7153c3aa5278132dd11586f863f807ae0c2b2a62969d74c3dc488ad",
+    "previous_assignment": {
+      "level": "dis",
+      "area": "Giriş meydanı",
+      "xy": [
+        825,
+        890
+      ],
+      "target": [
+        570,
+        675
+      ],
+      "quality": "estimate",
+      "radius_m": 12,
+      "angle_uncertainty_deg": 30,
+      "stair_system": null,
+      "evidence": "Giriş saçağı, taş kütle, çan biçimli cam üst yapı ve meydan mobilyaları aynı kadrajda."
+    },
+    "overrides": {
+      "xy": null,
+      "target": null,
+      "quality": "unresolved",
+      "radius_m": null,
+      "angle_uncertainty_deg": null,
+      "area": "Pavyon ve nişli galeri / meydan tarafından"
+    },
+    "current_level": "dis",
+    "current_quality": "unresolved",
+    "level_status": "visual_inference_not_surveyed",
+    "camera_pose_verified": false,
+    "metric_geometry_approved": false,
+    "model_use": "Visible form, material appearance and explicitly identified spatial relationships only; no inferred metric dimensions or camera constraints.",
+    "unresolved": "Camera XYZ, yaw/pitch/roll, lens/distortion and construction dimensions remain unsolved."
+  },
+  {
+    "id": "002",
+    "review_date": "2026-10-08",
+    "review_status": "visually_reviewed",
+    "inspection": "Individual image reviewed in 6-image sheets; ambiguous critical details enlarged. Plans 102/103/104 and section 101 also inspected.",
+    "observed_features": "Pavyonun taş kaidesi, cam feneri ve sağdaki nişli cephe; altta tarihi duvar ve çim hendek.",
+    "crosscheck_ids": [
+      "003",
+      "088",
+      "102"
+    ],
+    "decision": "Cephe/pavyon ilişkisi tutarlı; kamera uzaklığı yalnızca hipotez.",
+    "source_path": "05_Dis_Mekan/Cepheler/002_Tas_cephe_ve_cam_pavyon_WikiArquitectura.jpg",
+    "source_url": "https://es.wikiarquitectura.com/edificio/museo-de-arte-moderno-grand-duc-jean-mudam/",
+    "source_sha256": "d5e56893789a9290bd5434cb8dfd14d4e462a3acb330167f47736ed53e127357",
+    "previous_assignment": {
+      "level": "dis",
+      "area": "Doğu cephesi / pavyon",
+      "xy": [
+        190,
+        545
+      ],
+      "target": [
+        115,
+        280
+      ],
+      "quality": "estimate",
+      "radius_m": 8,
+      "angle_uncertainty_deg": 20,
+      "stair_system": null,
+      "evidence": "Sekizgen pavyon solda; taş galerinin geri çekilmiş pencereleri sağda. Tarihi hendek ön planda."
+    },
+    "overrides": {},
+    "current_level": "dis",
+    "current_quality": "estimate",
+    "level_status": "visual_inference_not_surveyed",
+    "camera_pose_verified": false,
+    "metric_geometry_approved": false,
+    "model_use": "Visible form, material appearance and explicitly identified spatial relationships only; no inferred metric dimensions or camera constraints.",
+    "unresolved": "Camera XYZ, yaw/pitch/roll, lens/distortion and construction dimensions remain unsolved."
+  },
+  {
+    "id": "003",
+    "review_date": "2026-10-08",
+    "review_status": "visually_reviewed",
+    "inspection": "Individual image reviewed in 6-image sheets; ambiguous critical details enlarged. Plans 102/103/104 and section 101 also inspected.",
+    "observed_features": "Derin eğimli pencere yanakları, alt kot küçük pencereleri ve pavyonun bağlantısı birlikte okunuyor.",
+    "crosscheck_ids": [
+      "002",
+      "004",
+      "088",
+      "102"
+    ],
+    "decision": "Cephe ailesi tutarlı; açıklık ölçüleri perspektiften doğrudan alınamaz.",
+    "source_path": "05_Dis_Mekan/Cepheler/003_Tas_cephe_ve_cam_pavyon_WikiArquitectura.jpg",
+    "source_url": "https://es.wikiarquitectura.com/edificio/museo-de-arte-moderno-grand-duc-jean-mudam/",
+    "source_sha256": "d6ba721e5207c1e56712e3a097eb926f3790cb6eadda0ce844a6a48e49c58a55",
+    "previous_assignment": {
+      "level": "dis",
+      "area": "Doğu galeri cephesi",
+      "xy": [
+        175,
+        505
+      ],
+      "target": [
+        295,
+        365
+      ],
+      "quality": "estimate",
+      "radius_m": 8,
+      "angle_uncertainty_deg": 20,
+      "stair_system": null,
+      "evidence": "Pavyon, galeri yan duvarı ve eğimli pencere boşlukları birlikte görülüyor."
+    },
+    "overrides": {},
+    "current_level": "dis",
+    "current_quality": "estimate",
+    "level_status": "visual_inference_not_surveyed",
+    "camera_pose_verified": false,
+    "metric_geometry_approved": false,
+    "model_use": "Visible form, material appearance and explicitly identified spatial relationships only; no inferred metric dimensions or camera constraints.",
+    "unresolved": "Camera XYZ, yaw/pitch/roll, lens/distortion and construction dimensions remain unsolved."
+  },
+  {
+    "id": "004",
+    "review_date": "2026-10-08",
+    "review_status": "visually_reviewed",
+    "inspection": "Individual image reviewed in 6-image sheets; ambiguous critical details enlarged. Plans 102/103/104 and section 101 also inspected.",
+    "observed_features": "Dört pencere bölgesi, alt kattaki küçük açıklıklar ve ön tarihi duvar görülüyor.",
+    "crosscheck_ids": [
+      "003",
+      "088",
+      "100"
+    ],
+    "decision": "Üst ve alt cephe açıklıkları ayrı elemanlar; kamera hipotezi korunuyor.",
+    "source_path": "05_Dis_Mekan/Cepheler/004_Tas_cephe_ve_cam_pavyon_WikiArquitectura.jpg",
+    "source_url": "https://es.wikiarquitectura.com/edificio/museo-de-arte-moderno-grand-duc-jean-mudam/",
+    "source_sha256": "da6a7a25af60c49b8e770b7ee1ae2273a06b4d02e837676bbeed5c32c2e5edd7",
+    "previous_assignment": {
+      "level": "dis",
+      "area": "Doğu galeri cephesi",
+      "xy": [
+        150,
+        455
+      ],
+      "target": [
+        291,
+        415
+      ],
+      "quality": "estimate",
+      "radius_m": 10,
+      "angle_uncertainty_deg": 25,
+      "stair_system": null,
+      "evidence": "Aynı pencere dizisi ve tarihi duvar; fotoğraf 003 ile mekânsal ilişki."
+    },
+    "overrides": {},
+    "current_level": "dis",
+    "current_quality": "estimate",
+    "level_status": "visual_inference_not_surveyed",
+    "camera_pose_verified": false,
+    "metric_geometry_approved": false,
+    "model_use": "Visible form, material appearance and explicitly identified spatial relationships only; no inferred metric dimensions or camera constraints.",
+    "unresolved": "Camera XYZ, yaw/pitch/roll, lens/distortion and construction dimensions remain unsolved."
+  },
+  {
+    "id": "005",
+    "review_date": "2026-10-08",
+    "review_status": "visually_reviewed",
+    "inspection": "Individual image reviewed in 6-image sheets; ambiguous critical details enlarged. Plans 102/103/104 and section 101 also inspected.",
+    "observed_features": "Taş köşe, niş üstündeki eğimli yüzey ve geride cam bağlantının bir parçası görülüyor.",
+    "crosscheck_ids": [
+      "003",
+      "004"
+    ],
+    "decision": "Dar kadraj tek bir köşeyi kesinleştirmiyor; yön kaldırılıp aday bölgeye indirildi.",
+    "source_path": "05_Dis_Mekan/Cepheler/005_Tas_cephe_ve_cam_pavyon_WikiArquitectura.jpg",
+    "source_url": "https://es.wikiarquitectura.com/edificio/museo-de-arte-moderno-grand-duc-jean-mudam/",
+    "source_sha256": "c59b8df4be651e9ca5b759b3ff5937cdfa05c9437b11aa068de8c93d5437feaf",
+    "previous_assignment": {
+      "level": "dis",
+      "area": "Doğu cephe köşesi",
+      "xy": [
+        238,
+        575
+      ],
+      "target": [
+        291,
+        470
+      ],
+      "quality": "estimate",
+      "radius_m": 12,
+      "angle_uncertainty_deg": 35,
+      "stair_system": null,
+      "evidence": "Taş kütlenin köşesi ve alt seviyedeki gömülü pencere. Görüş alanı sınırlı."
+    },
+    "overrides": {
+      "target": null,
+      "quality": "region",
+      "angle_uncertainty_deg": null
+    },
+    "current_level": "dis",
+    "current_quality": "region",
+    "level_status": "visual_inference_not_surveyed",
+    "camera_pose_verified": false,
+    "metric_geometry_approved": false,
+    "model_use": "Visible form, material appearance and explicitly identified spatial relationships only; no inferred metric dimensions or camera constraints.",
+    "unresolved": "Camera XYZ, yaw/pitch/roll, lens/distortion and construction dimensions remain unsolved."
+  },
+  {
+    "id": "006",
+    "review_date": "2026-10-08",
+    "review_status": "visually_reviewed",
+    "inspection": "Individual image reviewed in 6-image sheets; ambiguous critical details enlarged. Plans 102/103/104 and section 101 also inspected.",
+    "observed_features": "Giriş köprüsü, dikdörtgen taş portal ve tek büyük dış ayak yan açıdan görülüyor.",
+    "crosscheck_ids": [
+      "008",
+      "009",
+      "013",
+      "102"
+    ],
+    "decision": "Giriş kimliği tutarlı; portal kalınlığı ve kamera mesafesi çözülmedi.",
+    "source_path": "05_Dis_Mekan/Cepheler/006_Tas_cephe_ve_cam_pavyon_WikiArquitectura.jpg",
+    "source_url": "https://es.wikiarquitectura.com/edificio/museo-de-arte-moderno-grand-duc-jean-mudam/",
+    "source_sha256": "f427186fe02930c1c5ad1f4295be8b11b0d69d2ed064b103921b2f0cdc6a69d3",
+    "previous_assignment": {
+      "level": "dis",
+      "area": "Giriş saçağı",
+      "xy": [
+        720,
+        770
+      ],
+      "target": [
+        575,
+        710
+      ],
+      "quality": "estimate",
+      "radius_m": 10,
+      "angle_uncertainty_deg": 25,
+      "stair_system": null,
+      "evidence": "Dikdörtgen giriş açıklığı, giriş köprüsü ve avluya bakan yan açıklık."
+    },
+    "overrides": {},
+    "current_level": "dis",
+    "current_quality": "estimate",
+    "level_status": "visual_inference_not_surveyed",
+    "camera_pose_verified": false,
+    "metric_geometry_approved": false,
+    "model_use": "Visible form, material appearance and explicitly identified spatial relationships only; no inferred metric dimensions or camera constraints.",
+    "unresolved": "Camera XYZ, yaw/pitch/roll, lens/distortion and construction dimensions remain unsolved."
+  },
+  {
+    "id": "007",
+    "review_date": "2026-10-08",
+    "review_status": "visually_reviewed",
+    "inspection": "Individual image reviewed in 6-image sheets; ambiguous critical details enlarged. Plans 102/103/104 and section 101 also inspected.",
+    "observed_features": "Gri, pahlanmış parapet üstü açık renk taş duvara dayanıyor; arkada hendek var.",
+    "crosscheck_ids": [
+      "006",
+      "008"
+    ],
+    "decision": "Birleşim detayı kullanılabilir; tam çekim noktası bilinmiyor.",
+    "source_path": "07_Yapi_Detaylari/Tas_ve_Beton/007_Tas_kaplama_kose_detayi_WikiArquitectura.jpg",
+    "source_url": "https://es.wikiarquitectura.com/edificio/museo-de-arte-moderno-grand-duc-jean-mudam/",
+    "source_sha256": "edc2654527ed1e1dc682e2e49b01b9e4b89c8d21e3441ec58022b9fee62d7111",
+    "previous_assignment": {
+      "level": "dis",
+      "area": "Giriş köprüsü parapeti",
+      "xy": [
+        720,
+        770
+      ],
+      "target": null,
+      "quality": "region",
+      "radius_m": 15,
+      "angle_uncertainty_deg": null,
+      "stair_system": null,
+      "evidence": "Yalnızca taş parapet birleşimi; camera noktası ve azimut tekil olarak çözülemiyor."
+    },
+    "overrides": {},
+    "current_level": "dis",
+    "current_quality": "region",
+    "level_status": "visual_inference_not_surveyed",
+    "camera_pose_verified": false,
+    "metric_geometry_approved": false,
+    "model_use": "Visible form, material appearance and explicitly identified spatial relationships only; no inferred metric dimensions or camera constraints.",
+    "unresolved": "Camera XYZ, yaw/pitch/roll, lens/distortion and construction dimensions remain unsolved."
+  },
+  {
+    "id": "008",
+    "review_date": "2026-10-08",
+    "review_status": "visually_reviewed",
+    "inspection": "Individual image reviewed in 6-image sheets; ambiguous critical details enlarged. Plans 102/103/104 and section 101 also inspected.",
+    "observed_features": "Köprü korkuluğu kapıya doğru uzanıyor; portalın iki açıklığı ve döner kapı seçiliyor.",
+    "crosscheck_ids": [
+      "009",
+      "013",
+      "102"
+    ],
+    "decision": "Girişe doğru bakış tutarlı; sayısal poz doğrulanmış değil.",
+    "source_path": "05_Dis_Mekan/Giris_ve_Yaklasim/008_Giris_koprusu_ve_sacak_WikiArquitectura.jpg",
+    "source_url": "https://es.wikiarquitectura.com/edificio/museo-de-arte-moderno-grand-duc-jean-mudam/",
+    "source_sha256": "d0dab60dc784e1e28d53363bc15f3759c1d5ad14c34276d292931fe7230c6d2f",
+    "previous_assignment": {
+      "level": "dis",
+      "area": "Giriş köprüsü",
+      "xy": [
+        655,
+        855
+      ],
+      "target": [
+        575,
+        690
+      ],
+      "quality": "estimate",
+      "radius_m": 7,
+      "angle_uncertainty_deg": 20,
+      "stair_system": null,
+      "evidence": "Köprü korkuluğu, taş portal ve cam giriş kapısı aynı perspektif ekseninde."
+    },
+    "overrides": {},
+    "current_level": "dis",
+    "current_quality": "estimate",
+    "level_status": "visual_inference_not_surveyed",
+    "camera_pose_verified": false,
+    "metric_geometry_approved": false,
+    "model_use": "Visible form, material appearance and explicitly identified spatial relationships only; no inferred metric dimensions or camera constraints.",
+    "unresolved": "Camera XYZ, yaw/pitch/roll, lens/distortion and construction dimensions remain unsolved."
+  },
+  {
+    "id": "009",
+    "review_date": "2026-10-08",
+    "review_status": "visually_reviewed",
+    "inspection": "Individual image reviewed in 6-image sheets; ambiguous critical details enlarged. Plans 102/103/104 and section 101 also inspected.",
+    "observed_features": "Giriş portali, köprü ve döner kapı yaklaşık karşıdan görülüyor.",
+    "crosscheck_ids": [
+      "008",
+      "013",
+      "102"
+    ],
+    "decision": "Giriş aksı hipotezi makul; lens ve kamera uzaklığı bilinmiyor.",
+    "source_path": "05_Dis_Mekan/Giris_ve_Yaklasim/009_Giris_koprusu_ve_sacak_WikiArquitectura.jpg",
+    "source_url": "https://es.wikiarquitectura.com/edificio/museo-de-arte-moderno-grand-duc-jean-mudam/",
+    "source_sha256": "6988e6ad98fea8a84a6876dafd93859e7d5d1374fa1ebfec224737771961e36f",
+    "previous_assignment": {
+      "level": "dis",
+      "area": "Giriş aksı",
+      "xy": [
+        578,
+        900
+      ],
+      "target": [
+        576,
+        680
+      ],
+      "quality": "estimate",
+      "radius_m": 9,
+      "angle_uncertainty_deg": 15,
+      "stair_system": null,
+      "evidence": "Önden giriş portali ve köprü simetrisi, yaklaşık merkez aksı destekliyor."
+    },
+    "overrides": {},
+    "current_level": "dis",
+    "current_quality": "estimate",
+    "level_status": "visual_inference_not_surveyed",
+    "camera_pose_verified": false,
+    "metric_geometry_approved": false,
+    "model_use": "Visible form, material appearance and explicitly identified spatial relationships only; no inferred metric dimensions or camera constraints.",
+    "unresolved": "Camera XYZ, yaw/pitch/roll, lens/distortion and construction dimensions remain unsolved."
+  },
+  {
+    "id": "010",
+    "review_date": "2026-10-08",
+    "review_status": "visually_reviewed",
+    "inspection": "Individual image reviewed in 6-image sheets; ambiguous critical details enlarged. Plans 102/103/104 and section 101 also inspected.",
+    "observed_features": "Giriş solda kadraj dışında devam ediyor; sağ taş cephede iki sade dikdörtgen açıklık var.",
+    "crosscheck_ids": [
+      "001",
+      "009",
+      "116"
+    ],
+    "decision": "Bu cepheyi 003'teki derin nişli cepheyle tek aile olarak birleştirmeyin.",
+    "source_path": "05_Dis_Mekan/Giris_ve_Yaklasim/010_Giris_koprusu_ve_sacak_WikiArquitectura.jpg",
+    "source_url": "https://es.wikiarquitectura.com/edificio/museo-de-arte-moderno-grand-duc-jean-mudam/",
+    "source_sha256": "9d1797099b090958cc4c7a7ab75713025cb58885072f9ab823227446b6a6e64c",
+    "previous_assignment": {
+      "level": "dis",
+      "area": "Giriş meydanı yan yaklaşım",
+      "xy": [
+        860,
+        880
+      ],
+      "target": [
+        580,
+        660
+      ],
+      "quality": "estimate",
+      "radius_m": 15,
+      "angle_uncertainty_deg": 30,
+      "stair_system": null,
+      "evidence": "Geniş meydan, taş ön cephe, giriş kenarı ve oturma elemanları."
+    },
+    "overrides": {},
+    "current_level": "dis",
+    "current_quality": "estimate",
+    "level_status": "visual_inference_not_surveyed",
+    "camera_pose_verified": false,
+    "metric_geometry_approved": false,
+    "model_use": "Visible form, material appearance and explicitly identified spatial relationships only; no inferred metric dimensions or camera constraints.",
+    "unresolved": "Camera XYZ, yaw/pitch/roll, lens/distortion and construction dimensions remain unsolved."
+  },
+  {
+    "id": "011",
+    "review_date": "2026-10-08",
+    "review_status": "visually_reviewed",
+    "inspection": "Individual image reviewed in 6-image sheets; ambiguous critical details enlarged. Plans 102/103/104 and section 101 also inspected.",
+    "observed_features": "Portal ayağının arkasında yüksek ofis yapıları ve köprü korkuluğu var.",
+    "crosscheck_ids": [
+      "008",
+      "012",
+      "013"
+    ],
+    "decision": "012 ile aynı azimut varsayımı desteklenmiyor; sayısal yön kaldırıldı.",
+    "source_path": "05_Dis_Mekan/Giris_ve_Yaklasim/011_Giris_koprusu_ve_sacak_WikiArquitectura.jpg",
+    "source_url": "https://es.wikiarquitectura.com/edificio/museo-de-arte-moderno-grand-duc-jean-mudam/",
+    "source_sha256": "2d36c345a549bf9c6eba3941c59ebefef33c03096818209ce59a6054df29e60a",
+    "previous_assignment": {
+      "level": "dis",
+      "area": "Saçak altından meydana bakış",
+      "xy": [
+        625,
+        755
+      ],
+      "target": [
+        800,
+        895
+      ],
+      "quality": "estimate",
+      "radius_m": 8,
+      "angle_uncertainty_deg": 30,
+      "stair_system": null,
+      "evidence": "Saçak kolonunun gerisinden meydana ve yüksek yapılara dış bakış."
+    },
+    "overrides": {
+      "target": null,
+      "quality": "region",
+      "angle_uncertainty_deg": null
+    },
+    "current_level": "dis",
+    "current_quality": "region",
+    "level_status": "visual_inference_not_surveyed",
+    "camera_pose_verified": false,
+    "metric_geometry_approved": false,
+    "model_use": "Visible form, material appearance and explicitly identified spatial relationships only; no inferred metric dimensions or camera constraints.",
+    "unresolved": "Camera XYZ, yaw/pitch/roll, lens/distortion and construction dimensions remain unsolved."
+  },
+  {
+    "id": "012",
+    "review_date": "2026-10-08",
+    "review_status": "visually_reviewed",
+    "inspection": "Individual image reviewed in 6-image sheets; ambiguous critical details enlarged. Plans 102/103/104 and section 101 also inspected.",
+    "observed_features": "Portalın dış kenarı, diğer yüzü ve ağaçlık meydan görülüyor; 011'deki arka plan yok.",
+    "crosscheck_ids": [
+      "006",
+      "011"
+    ],
+    "decision": "011 ile farklı bakış; yalnız portal çevresi aday bölgesi korundu.",
+    "source_path": "05_Dis_Mekan/Giris_ve_Yaklasim/012_Giris_koprusu_ve_sacak_WikiArquitectura.jpg",
+    "source_url": "https://es.wikiarquitectura.com/edificio/museo-de-arte-moderno-grand-duc-jean-mudam/",
+    "source_sha256": "a4ba09a3f7d84377180a177817d7886557c61c1033866bce1a2f3fa329c4cf71",
+    "previous_assignment": {
+      "level": "dis",
+      "area": "Saçak altı",
+      "xy": [
+        645,
+        742
+      ],
+      "target": [
+        770,
+        890
+      ],
+      "quality": "estimate",
+      "radius_m": 9,
+      "angle_uncertainty_deg": 35,
+      "stair_system": null,
+      "evidence": "Saçak kolonunun farklı açısı; dış peyzaj görünüşü. Yaklaşık eşleşme."
+    },
+    "overrides": {
+      "target": null,
+      "quality": "region",
+      "angle_uncertainty_deg": null
+    },
+    "current_level": "dis",
+    "current_quality": "region",
+    "level_status": "visual_inference_not_surveyed",
+    "camera_pose_verified": false,
+    "metric_geometry_approved": false,
+    "model_use": "Visible form, material appearance and explicitly identified spatial relationships only; no inferred metric dimensions or camera constraints.",
+    "unresolved": "Camera XYZ, yaw/pitch/roll, lens/distortion and construction dimensions remain unsolved."
+  },
+  {
+    "id": "013",
+    "review_date": "2026-10-08",
+    "review_status": "visually_reviewed",
+    "inspection": "Individual image reviewed in 6-image sheets; ambiguous critical details enlarged. Plans 102/103/104 and section 101 also inspected.",
+    "observed_features": "Döner kapı, yan sabit camlar ve üst pencereden radyal iç armatür görülüyor.",
+    "crosscheck_ids": [
+      "014",
+      "015",
+      "016"
+    ],
+    "decision": "Giriş ve iç tavan detayı arasındaki görsel eşleşme güçlü.",
+    "source_path": "05_Dis_Mekan/Giris_ve_Yaklasim/013_Giris_koprusu_ve_sacak_WikiArquitectura.jpg",
+    "source_url": "https://es.wikiarquitectura.com/edificio/museo-de-arte-moderno-grand-duc-jean-mudam/",
+    "source_sha256": "e4c1d3433ff9a4756d4b873b4000bd2bb483469cb62007f2eb392ae498a6931c",
+    "previous_assignment": {
+      "level": "dis",
+      "area": "Giriş kapısı önü",
+      "xy": [
+        596,
+        718
+      ],
+      "target": [
+        575,
+        662
+      ],
+      "quality": "estimate",
+      "radius_m": 4,
+      "angle_uncertainty_deg": 20,
+      "stair_system": null,
+      "evidence": "Taş portal içindeki cam kapı ve giriş duvarı yakın görünüşü."
+    },
+    "overrides": {},
+    "current_level": "dis",
+    "current_quality": "estimate",
+    "level_status": "visual_inference_not_surveyed",
+    "camera_pose_verified": false,
+    "metric_geometry_approved": false,
+    "model_use": "Visible form, material appearance and explicitly identified spatial relationships only; no inferred metric dimensions or camera constraints.",
+    "unresolved": "Camera XYZ, yaw/pitch/roll, lens/distortion and construction dimensions remain unsolved."
+  },
+  {
+    "id": "014",
+    "review_date": "2026-10-08",
+    "review_status": "visually_reviewed",
+    "inspection": "Individual image reviewed in 6-image sheets; ambiguous critical details enlarged. Plans 102/103/104 and section 101 also inspected.",
+    "observed_features": "Döner kapı içeriden görülüyor; dışarıda köprü ve yüksek bina var.",
+    "crosscheck_ids": [
+      "008",
+      "013"
+    ],
+    "decision": "İçeriden giriş meydanına bakış tutarlı.",
+    "source_path": "04_Ic_Mekan/Giris_ve_Dolasim/014_Giris_cam_kapisi_WikiArquitectura.jpg",
+    "source_url": "https://es.wikiarquitectura.com/edificio/museo-de-arte-moderno-grand-duc-jean-mudam/",
+    "source_sha256": "bdf3e4bbdca4d3b3cb0f6cd21468d9a5797353fb569caf1033b968e138bac021",
+    "previous_assignment": {
+      "level": "0",
+      "area": "Giriş vestibülü",
+      "xy": [
+        578,
+        660
+      ],
+      "target": [
+        579,
+        736
+      ],
+      "quality": "estimate",
+      "radius_m": 4,
+      "angle_uncertainty_deg": 20,
+      "stair_system": null,
+      "evidence": "İçeriden dışarı döner kapı, köprü ve meydan görünüşü."
+    },
+    "overrides": {},
+    "current_level": "0",
+    "current_quality": "estimate",
+    "level_status": "visual_inference_not_surveyed",
+    "camera_pose_verified": false,
+    "metric_geometry_approved": false,
+    "model_use": "Visible form, material appearance and explicitly identified spatial relationships only; no inferred metric dimensions or camera constraints.",
+    "unresolved": "Camera XYZ, yaw/pitch/roll, lens/distortion and construction dimensions remain unsolved."
+  },
+  {
+    "id": "015",
+    "review_date": "2026-10-08",
+    "review_status": "visually_reviewed",
+    "inspection": "Individual image reviewed in 6-image sheets; ambiguous critical details enlarged. Plans 102/103/104 and section 101 also inspected.",
+    "observed_features": "Radyal armatür, çokgen taş tavan ve üst seviyede cam korkuluk görülüyor.",
+    "crosscheck_ids": [
+      "013",
+      "016",
+      "103"
+    ],
+    "decision": "Vestibül tavanı eşleşiyor; görünen üst kat korkuluğu kameranın üst katta olduğunu göstermez.",
+    "source_path": "07_Yapi_Detaylari/Aydinlatma/015_Giris_tavan_ve_aydinlatma_WikiArquitectura.jpg",
+    "source_url": "https://es.wikiarquitectura.com/edificio/museo-de-arte-moderno-grand-duc-jean-mudam/",
+    "source_sha256": "b59093560272b29f5073e53e302c6798cfe275a411c7a18611217e3c31948291",
+    "previous_assignment": {
+      "level": "0",
+      "area": "Giriş vestibülü tavanı",
+      "xy": [
+        575,
+        640
+      ],
+      "target": null,
+      "quality": "region",
+      "radius_m": 5,
+      "angle_uncertainty_deg": null,
+      "stair_system": null,
+      "evidence": "Çokgen giriş tavanındaki radyal armatür; tam yukarı bakışta plan azimutu anlamlı değil."
+    },
+    "overrides": {},
+    "current_level": "0",
+    "current_quality": "region",
+    "level_status": "visual_inference_not_surveyed",
+    "camera_pose_verified": false,
+    "metric_geometry_approved": false,
+    "model_use": "Visible form, material appearance and explicitly identified spatial relationships only; no inferred metric dimensions or camera constraints.",
+    "unresolved": "Camera XYZ, yaw/pitch/roll, lens/distortion and construction dimensions remain unsolved."
+  },
+  {
+    "id": "016",
+    "review_date": "2026-10-08",
+    "review_status": "visually_reviewed",
+    "inspection": "Individual image reviewed in 6-image sheets; ambiguous critical details enlarged. Plans 102/103/104 and section 101 also inspected.",
+    "observed_features": "Armatürün tam alttan radyal düzeni ve çokgen tavan boşluğu görülüyor.",
+    "crosscheck_ids": [
+      "013",
+      "015",
+      "103"
+    ],
+    "decision": "Yukarı bakış; plan azimutu verilmemeli, boyut çıkarılmamalı.",
+    "source_path": "07_Yapi_Detaylari/Aydinlatma/016_Giris_tavan_ve_aydinlatma_WikiArquitectura.jpg",
+    "source_url": "https://es.wikiarquitectura.com/edificio/museo-de-arte-moderno-grand-duc-jean-mudam/",
+    "source_sha256": "e324ed67206ee6155c68708e89587e616756201f3a59e771ed3c024d80edd263",
+    "previous_assignment": {
+      "level": "0",
+      "area": "Giriş vestibülü tavanı",
+      "xy": [
+        575,
+        640
+      ],
+      "target": null,
+      "quality": "region",
+      "radius_m": 5,
+      "angle_uncertainty_deg": null,
+      "stair_system": null,
+      "evidence": "Çokgen giriş tavanındaki radyal armatür; tam yukarı bakışta plan azimutu anlamlı değil."
+    },
+    "overrides": {},
+    "current_level": "0",
+    "current_quality": "region",
+    "level_status": "visual_inference_not_surveyed",
+    "camera_pose_verified": false,
+    "metric_geometry_approved": false,
+    "model_use": "Visible form, material appearance and explicitly identified spatial relationships only; no inferred metric dimensions or camera constraints.",
+    "unresolved": "Camera XYZ, yaw/pitch/roll, lens/distortion and construction dimensions remain unsolved."
+  },
+  {
+    "id": "017",
+    "review_date": "2026-10-08",
+    "review_status": "visually_reviewed",
+    "inspection": "Individual image reviewed in 6-image sheets; ambiguous critical details enlarged. Plans 102/103/104 and section 101 also inspected.",
+    "observed_features": "Kavisli taş duvarda asansör yönlendirmesi, derin niş ve sağda galeri geçişi var.",
+    "crosscheck_ids": [
+      "077",
+      "102"
+    ],
+    "decision": "Genel galeri eşiği yerine Grand Hall/asansör çevresi adayı; önceki nokta ve yön değiştirildi.",
+    "source_path": "04_Ic_Mekan/Giris_ve_Dolasim/017_Tas_duvar_ve_dogal_isik_WikiArquitectura.jpg",
+    "source_url": "https://es.wikiarquitectura.com/edificio/museo-de-arte-moderno-grand-duc-jean-mudam/",
+    "source_sha256": "5260d080141098cbc5d01577c03a3d4f1f853a028b24e4ad27ee37e79f37a0ba",
+    "previous_assignment": {
+      "level": "0",
+      "area": "Grand Hall ile galeri arasındaki eşik",
+      "xy": [
+        465,
+        568
+      ],
+      "target": [
+        428,
+        535
+      ],
+      "quality": "estimate",
+      "radius_m": 9,
+      "angle_uncertainty_deg": 40,
+      "stair_system": null,
+      "evidence": "Taş duvar, yan mekân açıklığı ve çatıdan düşen gölgeler. Eşik eşleşmesi olası."
+    },
+    "overrides": {
+      "target": null,
+      "quality": "region",
+      "angle_uncertainty_deg": null,
+      "xy": [
+        649,
+        529
+      ],
+      "area": "Grand Hall / asansör ve galeri geçişi adayı",
+      "radius_m": 8
+    },
+    "current_level": "0",
+    "current_quality": "region",
+    "level_status": "visual_inference_not_surveyed",
+    "camera_pose_verified": false,
+    "metric_geometry_approved": false,
+    "model_use": "Visible form, material appearance and explicitly identified spatial relationships only; no inferred metric dimensions or camera constraints.",
+    "unresolved": "Camera XYZ, yaw/pitch/roll, lens/distortion and construction dimensions remain unsolved."
+  },
+  {
+    "id": "018",
+    "review_date": "2026-10-08",
+    "review_status": "visually_reviewed",
+    "inspection": "Individual image reviewed in 6-image sheets; ambiguous critical details enlarged. Plans 102/103/104 and section 101 also inspected.",
+    "observed_features": "Destekçi isimleri taşıyan saydam plaka dört bağlantıyla taş duvara takılmış.",
+    "crosscheck_ids": [
+      "102"
+    ],
+    "decision": "Plaka detayı biliniyor; duvarın ve katın kimliği belirlenemiyor.",
+    "source_path": "07_Yapi_Detaylari/Yonlendirme/018_Bilgi_ve_yonlendirme_panosu_WikiArquitectura.jpg",
+    "source_url": "https://es.wikiarquitectura.com/edificio/museo-de-arte-moderno-grand-duc-jean-mudam/",
+    "source_sha256": "8041d0edb7470bb09d181c265637ad2e8c6b68d3d92a5e4bae7cc836e443b6b7",
+    "previous_assignment": {
+      "level": "belirsiz",
+      "area": "İsim plakası / iç duvar",
+      "xy": null,
+      "target": null,
+      "quality": "unresolved",
+      "radius_m": null,
+      "angle_uncertainty_deg": null,
+      "stair_system": null,
+      "evidence": "Plaka ve taş kaplama tek başına hangi duvarda çekildiğini belirlemeye yetmiyor."
+    },
+    "overrides": {},
+    "current_level": "belirsiz",
+    "current_quality": "unresolved",
+    "level_status": "unresolved",
+    "camera_pose_verified": false,
+    "metric_geometry_approved": false,
+    "model_use": "Visible form, material appearance and explicitly identified spatial relationships only; no inferred metric dimensions or camera constraints.",
+    "unresolved": "Camera XYZ, yaw/pitch/roll, lens/distortion and construction dimensions remain unsolved."
+  },
+  {
+    "id": "019",
+    "review_date": "2026-10-08",
+    "review_status": "visually_reviewed",
+    "inspection": "Individual image reviewed in 6-image sheets; ambiguous critical details enlarged. Plans 102/103/104 and section 101 also inspected.",
+    "observed_features": "Kavisli taş yüzey, keskin birleşen taş kiriş/saçak altı ve gölge görülüyor; basamak yok.",
+    "crosscheck_ids": [
+      "017",
+      "021"
+    ],
+    "decision": "Yukarı çıkan merdiven kimliği yeterince kanıtlı değil; merdiven ataması ve konum kaldırıldı.",
+    "source_path": "04_Ic_Mekan/Giris_ve_Dolasim/019_Tas_duvar_ve_dogal_isik_WikiArquitectura.jpg",
+    "source_url": "https://es.wikiarquitectura.com/edificio/museo-de-arte-moderno-grand-duc-jean-mudam/",
+    "source_sha256": "6e9ab43be1276b431e126ab6d626bee40f56256661cc0be9d721c7ca411c1df5",
+    "previous_assignment": {
+      "level": "0",
+      "area": "Ana merdiven yakınındaki taş yüzey",
+      "xy": [
+        509,
+        480
+      ],
+      "target": null,
+      "quality": "region",
+      "radius_m": 7,
+      "angle_uncertainty_deg": null,
+      "stair_system": "STAIR_GH_UP_0_TO_PLUS1",
+      "evidence": "Kavisli taş yüzey ve merdiven ilişkisi; yakın kadrajda kamera yönü çözülemiyor."
+    },
+    "overrides": {
+      "xy": null,
+      "target": null,
+      "quality": "unresolved",
+      "radius_m": null,
+      "angle_uncertainty_deg": null,
+      "area": "Kavisli taş duvar / üst birleşim",
+      "level": "belirsiz",
+      "stair_system": null
+    },
+    "current_level": "belirsiz",
+    "current_quality": "unresolved",
+    "level_status": "unresolved",
+    "camera_pose_verified": false,
+    "metric_geometry_approved": false,
+    "model_use": "Visible form, material appearance and explicitly identified spatial relationships only; no inferred metric dimensions or camera constraints.",
+    "unresolved": "Camera XYZ, yaw/pitch/roll, lens/distortion and construction dimensions remain unsolved."
+  },
+  {
+    "id": "020",
+    "review_date": "2026-10-08",
+    "review_status": "visually_reviewed",
+    "inspection": "Individual image reviewed in 6-image sheets; ambiguous critical details enlarged. Plans 102/103/104 and section 101 also inspected.",
+    "observed_features": "Taş duvarda işlenmiş plan ve sergi yönlendirme yazıları var; çevre kadraj dışında.",
+    "crosscheck_ids": [
+      "102"
+    ],
+    "decision": "Pano içeriği konumunu kanıtlamıyor; önceki hol noktası kaldırıldı.",
+    "source_path": "07_Yapi_Detaylari/Yonlendirme/020_Bilgi_ve_yonlendirme_panosu_WikiArquitectura.jpg",
+    "source_url": "https://es.wikiarquitectura.com/edificio/museo-de-arte-moderno-grand-duc-jean-mudam/",
+    "source_sha256": "d255c2bfc252dfd45cb2e65447fd3fcb5b64c8322dcfde7e31fc7a3b89522fa3",
+    "previous_assignment": {
+      "level": "0",
+      "area": "Yönlendirme panosu / giriş-ana hol çevresi",
+      "xy": [
+        575,
+        590
+      ],
+      "target": null,
+      "quality": "region",
+      "radius_m": 15,
+      "angle_uncertainty_deg": null,
+      "stair_system": null,
+      "evidence": "Duvara işlenmiş kat şeması görülüyor; pano konumu için bağımsız referans yok."
+    },
+    "overrides": {
+      "xy": null,
+      "target": null,
+      "quality": "unresolved",
+      "radius_m": null,
+      "angle_uncertainty_deg": null,
+      "area": "Duvara işlenmiş plan ve yönlendirme",
+      "level": "belirsiz"
+    },
+    "current_level": "belirsiz",
+    "current_quality": "unresolved",
+    "level_status": "unresolved",
+    "camera_pose_verified": false,
+    "metric_geometry_approved": false,
+    "model_use": "Visible form, material appearance and explicitly identified spatial relationships only; no inferred metric dimensions or camera constraints.",
+    "unresolved": "Camera XYZ, yaw/pitch/roll, lens/distortion and construction dimensions remain unsolved."
+  },
+  {
+    "id": "021",
+    "review_date": "2026-10-08",
+    "review_status": "visually_reviewed",
+    "inspection": "Individual image reviewed in 6-image sheets; ambiguous critical details enlarged. Plans 102/103/104 and section 101 also inspected.",
+    "observed_features": "Geniş merdiven sağ alttan sol üst galeriye yükseliyor; alt başlangıç ve cam korkuluk net.",
+    "crosscheck_ids": [
+      "022",
+      "025",
+      "026",
+      "102",
+      "103"
+    ],
+    "decision": "0→+1 geniş merdiven ailesi doğrulanıyor; metrik kamera ve basamak ölçüsü henüz yok.",
+    "source_path": "04_Ic_Mekan/Merdivenler_ve_Dolasim/021_Merdiven_ve_katlar_arasi_dolasim_WikiArquitectura.jpg",
+    "source_url": "https://es.wikiarquitectura.com/edificio/museo-de-arte-moderno-grand-duc-jean-mudam/",
+    "source_sha256": "d2c94905b6f2e364a0f5915703b1aef40895d5540d5654043c87af99f895f2b5",
+    "previous_assignment": {
+      "level": "0",
+      "area": "Grand Hall / ana merdiven",
+      "xy": [
+        632,
+        517
+      ],
+      "target": [
+        468,
+        443
+      ],
+      "quality": "estimate",
+      "radius_m": 6,
+      "angle_uncertainty_deg": 20,
+      "stair_system": "STAIR_GH_UP_0_TO_PLUS1",
+      "evidence": "Ana merdivenin geniş kolu, cam korkuluğu ve çatı ilişkisi belirgin."
+    },
+    "overrides": {},
+    "current_level": "0",
+    "current_quality": "estimate",
+    "level_status": "visual_inference_not_surveyed",
+    "camera_pose_verified": false,
+    "metric_geometry_approved": false,
+    "model_use": "Visible form, material appearance and explicitly identified spatial relationships only; no inferred metric dimensions or camera constraints.",
+    "unresolved": "Camera XYZ, yaw/pitch/roll, lens/distortion and construction dimensions remain unsolved."
+  },
+  {
+    "id": "022",
+    "review_date": "2026-10-08",
+    "review_status": "visually_reviewed",
+    "inspection": "Individual image reviewed in 6-image sheets; ambiguous critical details enlarged. Plans 102/103/104 and section 101 also inspected.",
+    "observed_features": "Geniş alt sahanlık basamakları ve kıvrılarak başlayan cam korkuluk görülüyor.",
+    "crosscheck_ids": [
+      "021",
+      "023"
+    ],
+    "decision": "Yukarı çıkan merdivenin alt başlangıcı; aşağı iniş merdiveniyle karıştırılmamalı.",
+    "source_path": "04_Ic_Mekan/Merdivenler_ve_Dolasim/022_Merdiven_ve_katlar_arasi_dolasim_WikiArquitectura.jpg",
+    "source_url": "https://es.wikiarquitectura.com/edificio/museo-de-arte-moderno-grand-duc-jean-mudam/",
+    "source_sha256": "69a23cca6cce2ccd2f8bff3a8f3c8a957cc0ec7ace69321ae093603e3fa2b8ba",
+    "previous_assignment": {
+      "level": "0",
+      "area": "Ana merdiven alt sahanlığı",
+      "xy": [
+        605,
+        482
+      ],
+      "target": [
+        470,
+        436
+      ],
+      "quality": "estimate",
+      "radius_m": 5,
+      "angle_uncertainty_deg": 20,
+      "stair_system": "STAIR_GH_UP_0_TO_PLUS1",
+      "evidence": "Geniş basamaklar, taş parapet ve cam korkuluk aynı yönde."
+    },
+    "overrides": {},
+    "current_level": "0",
+    "current_quality": "estimate",
+    "level_status": "visual_inference_not_surveyed",
+    "camera_pose_verified": false,
+    "metric_geometry_approved": false,
+    "model_use": "Visible form, material appearance and explicitly identified spatial relationships only; no inferred metric dimensions or camera constraints.",
+    "unresolved": "Camera XYZ, yaw/pitch/roll, lens/distortion and construction dimensions remain unsolved."
+  },
+  {
+    "id": "023",
+    "review_date": "2026-10-08",
+    "review_status": "visually_reviewed",
+    "inspection": "Individual image reviewed in 6-image sheets; ambiguous critical details enlarged. Plans 102/103/104 and section 101 also inspected.",
+    "observed_features": "Cam korkuluğun yuvarlak bitişi içinde zemine gömülü ışık; arkada yukarı çıkan basamaklar var.",
+    "crosscheck_ids": [
+      "021",
+      "022",
+      "024"
+    ],
+    "decision": "Alt başlangıç detayı; eski 'üstten boşluğa bakış' açıklaması kaldırıldı.",
+    "source_path": "04_Ic_Mekan/Merdivenler_ve_Dolasim/023_Merdiven_ve_katlar_arasi_dolasim_WikiArquitectura.jpg",
+    "source_url": "https://es.wikiarquitectura.com/edificio/museo-de-arte-moderno-grand-duc-jean-mudam/",
+    "source_sha256": "917aafd627f85d45bd9e22b3adde838345f68982c8a85968e214fb644234bed0",
+    "previous_assignment": {
+      "level": "0",
+      "area": "Ana merdiven boşluğu",
+      "xy": [
+        514,
+        527
+      ],
+      "target": [
+        462,
+        486
+      ],
+      "quality": "estimate",
+      "radius_m": 5,
+      "angle_uncertainty_deg": 30,
+      "stair_system": "STAIR_GH_UP_0_TO_PLUS1",
+      "evidence": "Silindirik cam korkuluk ve büyük merdivenin kıvrımı. Zemin katta üstten bakış."
+    },
+    "overrides": {
+      "area": "0→+1 merdiveninin alt başlangıç korkuluğu",
+      "pitch": "yakın detay; hafif aşağı"
+    },
+    "current_level": "0",
+    "current_quality": "estimate",
+    "level_status": "visual_inference_not_surveyed",
+    "camera_pose_verified": false,
+    "metric_geometry_approved": false,
+    "model_use": "Visible form, material appearance and explicitly identified spatial relationships only; no inferred metric dimensions or camera constraints.",
+    "unresolved": "Camera XYZ, yaw/pitch/roll, lens/distortion and construction dimensions remain unsolved."
+  },
+  {
+    "id": "024",
+    "review_date": "2026-10-08",
+    "review_status": "visually_reviewed",
+    "inspection": "Individual image reviewed in 6-image sheets; ambiguous critical details enlarged. Plans 102/103/104 and section 101 also inspected.",
+    "observed_features": "Küpeşte dirseği, duvar üzerindeki taş tutamak ve kavisli camın kenarı yakın planda.",
+    "crosscheck_ids": [
+      "022",
+      "023"
+    ],
+    "decision": "Aynı merdiven ailesi olası; tam basamak/kamera noktası bilinmiyor.",
+    "source_path": "07_Yapi_Detaylari/Korkuluk_ve_Kupeste/024_Cam_korkuluk_ve_metal_kupeste_WikiArquitectura.jpg",
+    "source_url": "https://es.wikiarquitectura.com/edificio/museo-de-arte-moderno-grand-duc-jean-mudam/",
+    "source_sha256": "44b4d7560930b3ea242fccd6d738353350a72b5d0ee3e6f03fb1ca016e9ea303",
+    "previous_assignment": {
+      "level": "0",
+      "area": "Ana merdiven küpeştesi",
+      "xy": [
+        494,
+        503
+      ],
+      "target": null,
+      "quality": "region",
+      "radius_m": 6,
+      "angle_uncertainty_deg": null,
+      "stair_system": "STAIR_GH_UP_0_TO_PLUS1",
+      "evidence": "Metal küpeşte yakın planı; camera azimutu için yeterli sabit mekân göstergesi yok."
+    },
+    "overrides": {},
+    "current_level": "0",
+    "current_quality": "region",
+    "level_status": "visual_inference_not_surveyed",
+    "camera_pose_verified": false,
+    "metric_geometry_approved": false,
+    "model_use": "Visible form, material appearance and explicitly identified spatial relationships only; no inferred metric dimensions or camera constraints.",
+    "unresolved": "Camera XYZ, yaw/pitch/roll, lens/distortion and construction dimensions remain unsolved."
+  },
+  {
+    "id": "025",
+    "review_date": "2026-10-08",
+    "review_status": "visually_reviewed",
+    "inspection": "Individual image reviewed in 6-image sheets; ambiguous critical details enlarged. Plans 102/103/104 and section 101 also inspected.",
+    "observed_features": "Geniş merdiven, üst galeri açıklığı, ana cam çatı ve geçici yeşil eser aynı kadrajda.",
+    "crosscheck_ids": [
+      "021",
+      "026",
+      "103"
+    ],
+    "decision": "Düşey mekân ilişkisi kullanılabilir; panorama varsa tek perspektif kalibrasyonu uygulanamaz.",
+    "source_path": "04_Ic_Mekan/Grand_Hall/025_Grand_Hall_genel_gorunum_WikiArquitectura.jpg",
+    "source_url": "https://es.wikiarquitectura.com/edificio/museo-de-arte-moderno-grand-duc-jean-mudam/",
+    "source_sha256": "0435e2a4c015d54e98c088e4ae04f1a2f7094df24671cda0ff675ad189bdbab7",
+    "previous_assignment": {
+      "level": "0",
+      "area": "Grand Hall",
+      "xy": [
+        650,
+        383
+      ],
+      "target": [
+        480,
+        449
+      ],
+      "quality": "estimate",
+      "radius_m": 8,
+      "angle_uncertainty_deg": 30,
+      "stair_system": "STAIR_GH_UP_0_TO_PLUS1",
+      "evidence": "Ana merdiven, taş üst galeri duvarı ve piramidal çatı görülüyor; birleşik panorama."
+    },
+    "overrides": {},
+    "current_level": "0",
+    "current_quality": "estimate",
+    "level_status": "visual_inference_not_surveyed",
+    "camera_pose_verified": false,
+    "metric_geometry_approved": false,
+    "model_use": "Visible form, material appearance and explicitly identified spatial relationships only; no inferred metric dimensions or camera constraints.",
+    "unresolved": "Camera XYZ, yaw/pitch/roll, lens/distortion and construction dimensions remain unsolved."
+  },
+  {
+    "id": "026",
+    "review_date": "2026-10-08",
+    "review_status": "visually_reviewed",
+    "inspection": "Individual image reviewed in 6-image sheets; ambiguous critical details enlarged. Plans 102/103/104 and section 101 also inspected.",
+    "observed_features": "Geniş merdiven solda; aşağı inişin bulunduğu üçgen cam yüzey sağda; eser ortada.",
+    "crosscheck_ids": [
+      "021",
+      "045",
+      "049",
+      "102"
+    ],
+    "decision": "İki farklı merdiven çevresini ayıran ortak hol referansı.",
+    "source_path": "04_Ic_Mekan/Grand_Hall/026_Grand_Hall_genel_gorunum_WikiArquitectura.jpg",
+    "source_url": "https://es.wikiarquitectura.com/edificio/museo-de-arte-moderno-grand-duc-jean-mudam/",
+    "source_sha256": "6293c8918dc238518c67a659d4e2b656e7df40aad983efe83accb892fc9666f2",
+    "previous_assignment": {
+      "level": "0",
+      "area": "Grand Hall",
+      "xy": [
+        603,
+        351
+      ],
+      "target": [
+        466,
+        451
+      ],
+      "quality": "estimate",
+      "radius_m": 7,
+      "angle_uncertainty_deg": 25,
+      "stair_system": "STAIR_GH_UP_0_TO_PLUS1",
+      "evidence": "Geniş merdiven ve alt boşluk, ana holün karşı tarafından görülüyor."
+    },
+    "overrides": {},
+    "current_level": "0",
+    "current_quality": "estimate",
+    "level_status": "visual_inference_not_surveyed",
+    "camera_pose_verified": false,
+    "metric_geometry_approved": false,
+    "model_use": "Visible form, material appearance and explicitly identified spatial relationships only; no inferred metric dimensions or camera constraints.",
+    "unresolved": "Camera XYZ, yaw/pitch/roll, lens/distortion and construction dimensions remain unsolved."
+  },
+  {
+    "id": "027",
+    "review_date": "2026-10-08",
+    "review_status": "visually_reviewed",
+    "inspection": "Individual image reviewed in 6-image sheets; ambiguous critical details enlarged. Plans 102/103/104 and section 101 also inspected.",
+    "observed_features": "İki üçgen güneş kırıcı yüzeyin arasında yüksek düşey cam şerit ve ana armatür var.",
+    "crosscheck_ids": [
+      "028",
+      "029",
+      "087",
+      "119"
+    ],
+    "decision": "Merkez cam örtü ilişkisi tutarlı; görünen çatı kotu kamera kotu değildir.",
+    "source_path": "04_Ic_Mekan/Grand_Hall/027_Grand_Hall_genel_gorunum_WikiArquitectura.jpg",
+    "source_url": "https://es.wikiarquitectura.com/edificio/museo-de-arte-moderno-grand-duc-jean-mudam/",
+    "source_sha256": "7f27f20881e871198f343e3106d012461ce9d38a05be031820d4dc8eab5c9af4",
+    "previous_assignment": {
+      "level": "0",
+      "area": "Grand Hall cam yüzeyi",
+      "xy": [
+        515,
+        490
+      ],
+      "target": [
+        594,
+        329
+      ],
+      "quality": "estimate",
+      "radius_m": 8,
+      "angle_uncertainty_deg": 30,
+      "stair_system": null,
+      "evidence": "Ana holün yüksek cam yüzeyi, köşe çizgisi ve galeri duvarı."
+    },
+    "overrides": {},
+    "current_level": "0",
+    "current_quality": "estimate",
+    "level_status": "visual_inference_not_surveyed",
+    "camera_pose_verified": false,
+    "metric_geometry_approved": false,
+    "model_use": "Visible form, material appearance and explicitly identified spatial relationships only; no inferred metric dimensions or camera constraints.",
+    "unresolved": "Camera XYZ, yaw/pitch/roll, lens/distortion and construction dimensions remain unsolved."
+  },
+  {
+    "id": "028",
+    "review_date": "2026-10-08",
+    "review_status": "visually_reviewed",
+    "inspection": "Individual image reviewed in 6-image sheets; ambiguous critical details enlarged. Plans 102/103/104 and section 101 also inspected.",
+    "observed_features": "Ana armatüre tam yukarı bakışta dört cam yüzey ve yatay lameller okunuyor.",
+    "crosscheck_ids": [
+      "027",
+      "029"
+    ],
+    "decision": "Çatı modül düzeni referansı; azimut ve kamera kotu çözülmedi.",
+    "source_path": "07_Yapi_Detaylari/Cam_Cati_ve_Struktur/028_Cam_cati_celik_tasiyici_ve_birlesim_WikiArquitectura.jpg",
+    "source_url": "https://es.wikiarquitectura.com/edificio/museo-de-arte-moderno-grand-duc-jean-mudam/",
+    "source_sha256": "dd7463181dc2ea677746f45d6acf6bb93394ddd8696c1821d7c534c9c9853541",
+    "previous_assignment": {
+      "level": "0",
+      "area": "Grand Hall çatı izdüşümü",
+      "xy": [
+        574,
+        409
+      ],
+      "target": null,
+      "quality": "region",
+      "radius_m": 11,
+      "angle_uncertainty_deg": null,
+      "stair_system": null,
+      "evidence": "Piramidal çatı ve tepe açıklığı; tavana bakıştan tekil zemindeki nokta belirlenemiyor."
+    },
+    "overrides": {},
+    "current_level": "0",
+    "current_quality": "region",
+    "level_status": "visual_inference_not_surveyed",
+    "camera_pose_verified": false,
+    "metric_geometry_approved": false,
+    "model_use": "Visible form, material appearance and explicitly identified spatial relationships only; no inferred metric dimensions or camera constraints.",
+    "unresolved": "Camera XYZ, yaw/pitch/roll, lens/distortion and construction dimensions remain unsolved."
+  },
+  {
+    "id": "029",
+    "review_date": "2026-10-08",
+    "review_status": "visually_reviewed",
+    "inspection": "Individual image reviewed in 6-image sheets; ambiguous critical details enlarged. Plans 102/103/104 and section 101 also inspected.",
+    "observed_features": "Çatı feneri, eğik yüzeyler ve kablo sistemi alttan görülüyor.",
+    "crosscheck_ids": [
+      "027",
+      "028"
+    ],
+    "decision": "Çatı bileşenleri referansı; tek fotoğraftan tepe yüksekliği alınamaz.",
+    "source_path": "07_Yapi_Detaylari/Cam_Cati_ve_Struktur/029_Cam_cati_celik_tasiyici_ve_birlesim_WikiArquitectura.jpg",
+    "source_url": "https://es.wikiarquitectura.com/edificio/museo-de-arte-moderno-grand-duc-jean-mudam/",
+    "source_sha256": "95c96d026767c4ce54e13dc3900dcaf1352d7e3e3e6bcd3ee494a97a40531b64",
+    "previous_assignment": {
+      "level": "0",
+      "area": "Grand Hall çatı izdüşümü",
+      "xy": [
+        574,
+        409
+      ],
+      "target": null,
+      "quality": "region",
+      "radius_m": 11,
+      "angle_uncertainty_deg": null,
+      "stair_system": null,
+      "evidence": "Piramidal çatı ve tepe açıklığı; tavana bakıştan tekil zemindeki nokta belirlenemiyor."
+    },
+    "overrides": {},
+    "current_level": "0",
+    "current_quality": "region",
+    "level_status": "visual_inference_not_surveyed",
+    "camera_pose_verified": false,
+    "metric_geometry_approved": false,
+    "model_use": "Visible form, material appearance and explicitly identified spatial relationships only; no inferred metric dimensions or camera constraints.",
+    "unresolved": "Camera XYZ, yaw/pitch/roll, lens/distortion and construction dimensions remain unsolved."
+  },
+  {
+    "id": "030",
+    "review_date": "2026-10-08",
+    "review_status": "visually_reviewed",
+    "inspection": "Individual image reviewed in 6-image sheets; ambiguous critical details enlarged. Plans 102/103/104 and section 101 also inspected.",
+    "observed_features": "Üçgen cam yüzeyin alt köşesi, yatay lameller ve taş birleşimi yakın planda.",
+    "crosscheck_ids": [
+      "027",
+      "049",
+      "114"
+    ],
+    "decision": "Benzer üçgen yüzeyler var; hangi köşe olduğu kesin değil, merkez hol aday alanına alındı.",
+    "source_path": "07_Yapi_Detaylari/Cam_Cati_ve_Struktur/030_Cam_cati_celik_tasiyici_ve_birlesim_WikiArquitectura.jpg",
+    "source_url": "https://es.wikiarquitectura.com/edificio/museo-de-arte-moderno-grand-duc-jean-mudam/",
+    "source_sha256": "ef9a28ab64ae193164c033dc456a1a7582b698fa176d642a5a32797741987a26",
+    "previous_assignment": {
+      "level": "0",
+      "area": "Cam örtü / güneş kırıcı bölgesi",
+      "xy": [
+        714,
+        358
+      ],
+      "target": null,
+      "quality": "region",
+      "radius_m": 13,
+      "angle_uncertainty_deg": null,
+      "stair_system": null,
+      "evidence": "Üçgen çatı kenarı ve yatay güneş kırıcılar; alternatif kanat ihtimali var."
+    },
+    "overrides": {
+      "target": null,
+      "quality": "region",
+      "angle_uncertainty_deg": null,
+      "xy": [
+        575,
+        425
+      ],
+      "area": "Grand Hall / üçgen cam köşe detayı",
+      "radius_m": 18
+    },
+    "current_level": "0",
+    "current_quality": "region",
+    "level_status": "visual_inference_not_surveyed",
+    "camera_pose_verified": false,
+    "metric_geometry_approved": false,
+    "model_use": "Visible form, material appearance and explicitly identified spatial relationships only; no inferred metric dimensions or camera constraints.",
+    "unresolved": "Camera XYZ, yaw/pitch/roll, lens/distortion and construction dimensions remain unsolved."
+  },
+  {
+    "id": "031",
+    "review_date": "2026-10-08",
+    "review_status": "visually_reviewed",
+    "inspection": "Individual image reviewed in 6-image sheets; ambiguous critical details enlarged. Plans 102/103/104 and section 101 also inspected.",
+    "observed_features": "Geniş merdivenin alt basamakları solda; üçgen cam ve uzun düşey açıklık sağda.",
+    "crosscheck_ids": [
+      "021",
+      "026",
+      "110"
+    ],
+    "decision": "Hol eşleşiyor fakat önceki kamera-yön çifti güvenilir değil; yön kaldırıldı.",
+    "source_path": "04_Ic_Mekan/Grand_Hall/031_Grand_Hall_genel_gorunum_WikiArquitectura.jpg",
+    "source_url": "https://es.wikiarquitectura.com/edificio/museo-de-arte-moderno-grand-duc-jean-mudam/",
+    "source_sha256": "595508d196b655cbd1ae7d61eceb68bdbf9e1168b2b31202469e39eabb04fa73",
+    "previous_assignment": {
+      "level": "0",
+      "area": "Grand Hall",
+      "xy": [
+        519,
+        469
+      ],
+      "target": [
+        633,
+        337
+      ],
+      "quality": "estimate",
+      "radius_m": 8,
+      "angle_uncertainty_deg": 30,
+      "stair_system": null,
+      "evidence": "Taş duvar, cam çatı ve ana holün ışık düzeni."
+    },
+    "overrides": {
+      "target": null,
+      "quality": "region",
+      "angle_uncertainty_deg": null,
+      "xy": [
+        575,
+        440
+      ],
+      "radius_m": 15
+    },
+    "current_level": "0",
+    "current_quality": "region",
+    "level_status": "visual_inference_not_surveyed",
+    "camera_pose_verified": false,
+    "metric_geometry_approved": false,
+    "model_use": "Visible form, material appearance and explicitly identified spatial relationships only; no inferred metric dimensions or camera constraints.",
+    "unresolved": "Camera XYZ, yaw/pitch/roll, lens/distortion and construction dimensions remain unsolved."
+  },
+  {
+    "id": "032",
+    "review_date": "2026-10-08",
+    "review_status": "visually_reviewed",
+    "inspection": "Individual image reviewed in 6-image sheets; ambiguous critical details enlarged. Plans 102/103/104 and section 101 also inspected.",
+    "observed_features": "Kısa eşik basamaklarının arkasında Jardin des Sculptures ve spiral merdiven görülüyor.",
+    "crosscheck_ids": [
+      "034",
+      "041",
+      "102"
+    ],
+    "decision": "Önceki doğuya/iniş merdivenine yön ataması hatalı; geçiş bölgesine taşındı, azimut kaldırıldı.",
+    "source_path": "04_Ic_Mekan/Merdivenler_ve_Dolasim/032_Merdiven_ve_katlar_arasi_dolasim_WikiArquitectura.jpg",
+    "source_url": "https://es.wikiarquitectura.com/edificio/museo-de-arte-moderno-grand-duc-jean-mudam/",
+    "source_sha256": "c7b6ad264f3ef2c263df09843b955cb15b296eb6ee672dffc9f49a74fad4727f",
+    "previous_assignment": {
+      "level": "0",
+      "area": "Grand Hall yan dolaşım",
+      "xy": [
+        557,
+        425
+      ],
+      "target": [
+        697,
+        353
+      ],
+      "quality": "estimate",
+      "radius_m": 9,
+      "angle_uncertainty_deg": 40,
+      "stair_system": null,
+      "evidence": "Basamaklar ve üçgen yan açıklık; dar perspektif."
+    },
+    "overrides": {
+      "target": null,
+      "quality": "region",
+      "angle_uncertainty_deg": null,
+      "xy": [
+        454,
+        419
+      ],
+      "area": "Grand Hall → Jardin des Sculptures geçişi",
+      "radius_m": 8
+    },
+    "current_level": "0",
+    "current_quality": "region",
+    "level_status": "visual_inference_not_surveyed",
+    "camera_pose_verified": false,
+    "metric_geometry_approved": false,
+    "model_use": "Visible form, material appearance and explicitly identified spatial relationships only; no inferred metric dimensions or camera constraints.",
+    "unresolved": "Camera XYZ, yaw/pitch/roll, lens/distortion and construction dimensions remain unsolved."
+  },
+  {
+    "id": "033",
+    "review_date": "2026-10-08",
+    "review_status": "visually_reviewed",
+    "inspection": "Individual image reviewed in 6-image sheets; ambiguous critical details enlarged. Plans 102/103/104 and section 101 also inspected.",
+    "observed_features": "Dal biçimli eser ön planda, taş açıklıklar ve Grand Hall tarafındaki geçiş geride.",
+    "crosscheck_ids": [
+      "032",
+      "034",
+      "041"
+    ],
+    "decision": "034 ile aynı hacimde ters bakış olası; eski kesin yön yerine heykel bahçesi aday bölgesi.",
+    "source_path": "04_Ic_Mekan/Cam_Ortulu_Salonlar/033_Cam_ortulu_sergi_salonu_WikiArquitectura.jpg",
+    "source_url": "https://es.wikiarquitectura.com/edificio/museo-de-arte-moderno-grand-duc-jean-mudam/",
+    "source_sha256": "e791baaab4dc753e8c8ffdb82f7d1ea8c40a2fca36127dfe26a5e822c6976d18",
+    "previous_assignment": {
+      "level": "0",
+      "area": "Heykel bahçesi / doğu cam salon",
+      "xy": [
+        506,
+        394
+      ],
+      "target": [
+        347,
+        299
+      ],
+      "quality": "estimate",
+      "radius_m": 7,
+      "angle_uncertainty_deg": 25,
+      "stair_system": null,
+      "evidence": "Ağaç dallı enstalasyon, doğu cam yüzeyi ve taş duvar aynı kadrajda."
+    },
+    "overrides": {
+      "target": null,
+      "quality": "region",
+      "angle_uncertainty_deg": null,
+      "xy": [
+        380,
+        345
+      ],
+      "area": "Jardin des Sculptures / Grand Hall yönü",
+      "radius_m": 12
+    },
+    "current_level": "0",
+    "current_quality": "region",
+    "level_status": "visual_inference_not_surveyed",
+    "camera_pose_verified": false,
+    "metric_geometry_approved": false,
+    "model_use": "Visible form, material appearance and explicitly identified spatial relationships only; no inferred metric dimensions or camera constraints.",
+    "unresolved": "Camera XYZ, yaw/pitch/roll, lens/distortion and construction dimensions remain unsolved."
+  },
+  {
+    "id": "034",
+    "review_date": "2026-10-08",
+    "review_status": "visually_reviewed",
+    "inspection": "Individual image reviewed in 6-image sheets; ambiguous critical details enlarged. Plans 102/103/104 and section 101 also inspected.",
+    "observed_features": "Uzun eğik cam çatı, taş duvar, dal eseri ve uzakta spiral merdiven görülüyor.",
+    "crosscheck_ids": [
+      "033",
+      "035",
+      "041",
+      "102"
+    ],
+    "decision": "Jardin des Sculptures kimliği güçlü; spiral merdivene doğru bakış hipotezi makul.",
+    "source_path": "04_Ic_Mekan/Cam_Ortulu_Salonlar/034_Cam_ortulu_sergi_salonu_WikiArquitectura.jpg",
+    "source_url": "https://es.wikiarquitectura.com/edificio/museo-de-arte-moderno-grand-duc-jean-mudam/",
+    "source_sha256": "00397640c685b95a8a9442dfa254e47a8e778286f871934957626e945a74c773",
+    "previous_assignment": {
+      "level": "0",
+      "area": "Heykel bahçesi / doğu cam salon",
+      "xy": [
+        489,
+        375
+      ],
+      "target": [
+        344,
+        273
+      ],
+      "quality": "estimate",
+      "radius_m": 7,
+      "angle_uncertainty_deg": 25,
+      "stair_system": null,
+      "evidence": "Düz eğimli cam örtü ve uzun taş duvar; 033 ve 041 ile aynı salon."
+    },
+    "overrides": {},
+    "current_level": "0",
+    "current_quality": "estimate",
+    "level_status": "visual_inference_not_surveyed",
+    "camera_pose_verified": false,
+    "metric_geometry_approved": false,
+    "model_use": "Visible form, material appearance and explicitly identified spatial relationships only; no inferred metric dimensions or camera constraints.",
+    "unresolved": "Camera XYZ, yaw/pitch/roll, lens/distortion and construction dimensions remain unsolved."
+  },
+  {
+    "id": "035",
+    "review_date": "2026-10-08",
+    "review_status": "visually_reviewed",
+    "inspection": "Individual image reviewed in 6-image sheets; ambiguous critical details enlarged. Plans 102/103/104 and section 101 also inspected.",
+    "observed_features": "Eğik cam çatı altında çapraz çubuklar, gergiler ve kısa basınç elemanları görülüyor.",
+    "crosscheck_ids": [
+      "034",
+      "036",
+      "037"
+    ],
+    "decision": "Heykel bahçesi çatı taşıyıcı ailesi; eleman kesitleri ölçülmedi.",
+    "source_path": "07_Yapi_Detaylari/Cam_Cati_ve_Struktur/035_Cam_cati_celik_tasiyici_ve_birlesim_WikiArquitectura.jpg",
+    "source_url": "https://es.wikiarquitectura.com/edificio/museo-de-arte-moderno-grand-duc-jean-mudam/",
+    "source_sha256": "e99cac7ef4a744a7283559adb136626ed7178ecaf3573048951798a520c38389",
+    "previous_assignment": {
+      "level": "0",
+      "area": "Doğu cam salon çatı sistemi",
+      "xy": [
+        365,
+        294
+      ],
+      "target": null,
+      "quality": "region",
+      "radius_m": 13,
+      "angle_uncertainty_deg": null,
+      "stair_system": null,
+      "evidence": "Kablolar ve cam çatı birleşimleri, 034/041 salonuyla ilişkili. Tekrarlı modüller nedeniyle nokta/azimut tekil değil."
+    },
+    "overrides": {},
+    "current_level": "0",
+    "current_quality": "region",
+    "level_status": "visual_inference_not_surveyed",
+    "camera_pose_verified": false,
+    "metric_geometry_approved": false,
+    "model_use": "Visible form, material appearance and explicitly identified spatial relationships only; no inferred metric dimensions or camera constraints.",
+    "unresolved": "Camera XYZ, yaw/pitch/roll, lens/distortion and construction dimensions remain unsolved."
+  },
+  {
+    "id": "036",
+    "review_date": "2026-10-08",
+    "review_status": "visually_reviewed",
+    "inspection": "Individual image reviewed in 6-image sheets; ambiguous critical details enlarged. Plans 102/103/104 and section 101 also inspected.",
+    "observed_features": "Cam modüller, alttaki taş duvar ve dıştaki ağaçlar birlikte görülüyor.",
+    "crosscheck_ids": [
+      "034",
+      "035"
+    ],
+    "decision": "Aynı eğik cam yüzey; detay referansı olarak kullanılabilir.",
+    "source_path": "07_Yapi_Detaylari/Cam_Cati_ve_Struktur/036_Cam_cati_celik_tasiyici_ve_birlesim_WikiArquitectura.jpg",
+    "source_url": "https://es.wikiarquitectura.com/edificio/museo-de-arte-moderno-grand-duc-jean-mudam/",
+    "source_sha256": "8fe8be6415e442f550e10b1c91eb742fdb09cad54c1ce4f0513a24f970df8ded",
+    "previous_assignment": {
+      "level": "0",
+      "area": "Doğu cam salon çatı sistemi",
+      "xy": [
+        365,
+        294
+      ],
+      "target": null,
+      "quality": "region",
+      "radius_m": 13,
+      "angle_uncertainty_deg": null,
+      "stair_system": null,
+      "evidence": "Kablolar ve cam çatı birleşimleri, 034/041 salonuyla ilişkili. Tekrarlı modüller nedeniyle nokta/azimut tekil değil."
+    },
+    "overrides": {},
+    "current_level": "0",
+    "current_quality": "region",
+    "level_status": "visual_inference_not_surveyed",
+    "camera_pose_verified": false,
+    "metric_geometry_approved": false,
+    "model_use": "Visible form, material appearance and explicitly identified spatial relationships only; no inferred metric dimensions or camera constraints.",
+    "unresolved": "Camera XYZ, yaw/pitch/roll, lens/distortion and construction dimensions remain unsolved."
+  },
+  {
+    "id": "037",
+    "review_date": "2026-10-08",
+    "review_status": "visually_reviewed",
+    "inspection": "Individual image reviewed in 6-image sheets; ambiguous critical details enlarged. Plans 102/103/104 and section 101 also inspected.",
+    "observed_features": "Kalın burulmuş/halat görünümlü eleman, uç bağlantı ve ince gergiler yakın planda.",
+    "crosscheck_ids": [
+      "035",
+      "038",
+      "040"
+    ],
+    "decision": "Bağlantı topolojisi okunuyor; çap ve malzeme alaşımı fotoğraftan kesinleşmez.",
+    "source_path": "07_Yapi_Detaylari/Cam_Cati_ve_Struktur/037_Cam_cati_celik_tasiyici_ve_birlesim_WikiArquitectura.jpg",
+    "source_url": "https://es.wikiarquitectura.com/edificio/museo-de-arte-moderno-grand-duc-jean-mudam/",
+    "source_sha256": "6c541238b3a0a09a6d0a504473e24df30c4069574fe7ef75cc5f5a236be3adbd",
+    "previous_assignment": {
+      "level": "0",
+      "area": "Doğu cam salon çatı sistemi",
+      "xy": [
+        365,
+        294
+      ],
+      "target": null,
+      "quality": "region",
+      "radius_m": 13,
+      "angle_uncertainty_deg": null,
+      "stair_system": null,
+      "evidence": "Kablolar ve cam çatı birleşimleri, 034/041 salonuyla ilişkili. Tekrarlı modüller nedeniyle nokta/azimut tekil değil."
+    },
+    "overrides": {},
+    "current_level": "0",
+    "current_quality": "region",
+    "level_status": "visual_inference_not_surveyed",
+    "camera_pose_verified": false,
+    "metric_geometry_approved": false,
+    "model_use": "Visible form, material appearance and explicitly identified spatial relationships only; no inferred metric dimensions or camera constraints.",
+    "unresolved": "Camera XYZ, yaw/pitch/roll, lens/distortion and construction dimensions remain unsolved."
+  },
+  {
+    "id": "038",
+    "review_date": "2026-10-08",
+    "review_status": "visually_reviewed",
+    "inspection": "Individual image reviewed in 6-image sheets; ambiguous critical details enlarged. Plans 102/103/104 and section 101 also inspected.",
+    "observed_features": "Çatal uçlu bağlantı, uzun metal eleman ve ince gergilerin birleşimi görülüyor.",
+    "crosscheck_ids": [
+      "037",
+      "039",
+      "040"
+    ],
+    "decision": "Bağlantı ailesi eşleşiyor; tam panel konumu bilinmiyor.",
+    "source_path": "07_Yapi_Detaylari/Cam_Cati_ve_Struktur/038_Cam_cati_celik_tasiyici_ve_birlesim_WikiArquitectura.jpg",
+    "source_url": "https://es.wikiarquitectura.com/edificio/museo-de-arte-moderno-grand-duc-jean-mudam/",
+    "source_sha256": "1cb48b4fc40fe48479c1d2dbeed685eb49140a936824a74c784b00100e8847f6",
+    "previous_assignment": {
+      "level": "0",
+      "area": "Doğu cam salon çatı sistemi",
+      "xy": [
+        365,
+        294
+      ],
+      "target": null,
+      "quality": "region",
+      "radius_m": 13,
+      "angle_uncertainty_deg": null,
+      "stair_system": null,
+      "evidence": "Kablolar ve cam çatı birleşimleri, 034/041 salonuyla ilişkili. Tekrarlı modüller nedeniyle nokta/azimut tekil değil."
+    },
+    "overrides": {},
+    "current_level": "0",
+    "current_quality": "region",
+    "level_status": "visual_inference_not_surveyed",
+    "camera_pose_verified": false,
+    "metric_geometry_approved": false,
+    "model_use": "Visible form, material appearance and explicitly identified spatial relationships only; no inferred metric dimensions or camera constraints.",
+    "unresolved": "Camera XYZ, yaw/pitch/roll, lens/distortion and construction dimensions remain unsolved."
+  },
+  {
+    "id": "039",
+    "review_date": "2026-10-08",
+    "review_status": "visually_reviewed",
+    "inspection": "Individual image reviewed in 6-image sheets; ambiguous critical details enlarged. Plans 102/103/104 and section 101 also inspected.",
+    "observed_features": "Çapraz gergiler ve çatallı birleşim, cam ızgarasına bağlanıyor.",
+    "crosscheck_ids": [
+      "037",
+      "038"
+    ],
+    "decision": "Tekrarlanan düğüm; plan üzerindeki bir modüle kesin atanamaz.",
+    "source_path": "07_Yapi_Detaylari/Cam_Cati_ve_Struktur/039_Cam_cati_celik_tasiyici_ve_birlesim_WikiArquitectura.jpg",
+    "source_url": "https://es.wikiarquitectura.com/edificio/museo-de-arte-moderno-grand-duc-jean-mudam/",
+    "source_sha256": "6f6bb5c91a4407bfe36ba1978e861087a40a5865ac5a9a0979cdbb18d222adfd",
+    "previous_assignment": {
+      "level": "0",
+      "area": "Doğu cam salon çatı sistemi",
+      "xy": [
+        365,
+        294
+      ],
+      "target": null,
+      "quality": "region",
+      "radius_m": 13,
+      "angle_uncertainty_deg": null,
+      "stair_system": null,
+      "evidence": "Kablolar ve cam çatı birleşimleri, 034/041 salonuyla ilişkili. Tekrarlı modüller nedeniyle nokta/azimut tekil değil."
+    },
+    "overrides": {},
+    "current_level": "0",
+    "current_quality": "region",
+    "level_status": "visual_inference_not_surveyed",
+    "camera_pose_verified": false,
+    "metric_geometry_approved": false,
+    "model_use": "Visible form, material appearance and explicitly identified spatial relationships only; no inferred metric dimensions or camera constraints.",
+    "unresolved": "Camera XYZ, yaw/pitch/roll, lens/distortion and construction dimensions remain unsolved."
+  },
+  {
+    "id": "040",
+    "review_date": "2026-10-08",
+    "review_status": "visually_reviewed",
+    "inspection": "Individual image reviewed in 6-image sheets; ambiguous critical details enlarged. Plans 102/103/104 and section 101 also inspected.",
+    "observed_features": "Yuvarlak mafsal benzeri birleşim, pim/vida ve komşu silindirik eleman görülüyor.",
+    "crosscheck_ids": [
+      "037",
+      "038"
+    ],
+    "decision": "Yakın detay kullanılabilir; statik işlev ve ölçüler ayrıca çözülmeli.",
+    "source_path": "07_Yapi_Detaylari/Cam_Cati_ve_Struktur/040_Cam_cati_celik_tasiyici_ve_birlesim_WikiArquitectura.jpg",
+    "source_url": "https://es.wikiarquitectura.com/edificio/museo-de-arte-moderno-grand-duc-jean-mudam/",
+    "source_sha256": "f96c9451480d1109d6dd5b8c0bc3821afde6d4774b6d76c65f34bb6b8ef1e533",
+    "previous_assignment": {
+      "level": "0",
+      "area": "Doğu cam salon çatı sistemi",
+      "xy": [
+        365,
+        294
+      ],
+      "target": null,
+      "quality": "region",
+      "radius_m": 13,
+      "angle_uncertainty_deg": null,
+      "stair_system": null,
+      "evidence": "Kablolar ve cam çatı birleşimleri, 034/041 salonuyla ilişkili. Tekrarlı modüller nedeniyle nokta/azimut tekil değil."
+    },
+    "overrides": {},
+    "current_level": "0",
+    "current_quality": "region",
+    "level_status": "visual_inference_not_surveyed",
+    "camera_pose_verified": false,
+    "metric_geometry_approved": false,
+    "model_use": "Visible form, material appearance and explicitly identified spatial relationships only; no inferred metric dimensions or camera constraints.",
+    "unresolved": "Camera XYZ, yaw/pitch/roll, lens/distortion and construction dimensions remain unsolved."
+  },
+  {
+    "id": "041",
+    "review_date": "2026-10-08",
+    "review_status": "visually_reviewed",
+    "inspection": "Individual image reviewed in 6-image sheets; ambiguous critical details enlarged. Plans 102/103/104 and section 101 also inspected.",
+    "observed_features": "Silindirik merkezli dar spiral merdiven zeminden üst galeriye yükseliyor.",
+    "crosscheck_ids": [
+      "034",
+      "042",
+      "043",
+      "102",
+      "103"
+    ],
+    "decision": "Grand Hall'deki iki merdivenden ayrı doğu spiral sistemi.",
+    "source_path": "04_Ic_Mekan/Merdivenler_ve_Dolasim/041_Merdiven_ve_katlar_arasi_dolasim_WikiArquitectura.jpg",
+    "source_url": "https://es.wikiarquitectura.com/edificio/museo-de-arte-moderno-grand-duc-jean-mudam/",
+    "source_sha256": "eb102896fe9b32133db45c92d8687be78d7bac8a451e68e8135bda54d30f989d",
+    "previous_assignment": {
+      "level": "0",
+      "area": "Doğu cam salon spiral merdiveni",
+      "xy": [
+        416,
+        367
+      ],
+      "target": [
+        316,
+        328
+      ],
+      "quality": "estimate",
+      "radius_m": 5,
+      "angle_uncertainty_deg": 20,
+      "stair_system": "STAIR_EAST_SPIRAL",
+      "evidence": "Tek kollu spiral merdiven, silindirik çekirdek ve tam boy cam duvar ayırt edici."
+    },
+    "overrides": {},
+    "current_level": "0",
+    "current_quality": "estimate",
+    "level_status": "visual_inference_not_surveyed",
+    "camera_pose_verified": false,
+    "metric_geometry_approved": false,
+    "model_use": "Visible form, material appearance and explicitly identified spatial relationships only; no inferred metric dimensions or camera constraints.",
+    "unresolved": "Camera XYZ, yaw/pitch/roll, lens/distortion and construction dimensions remain unsolved."
+  },
+  {
+    "id": "042",
+    "review_date": "2026-10-08",
+    "review_status": "visually_reviewed",
+    "inspection": "Individual image reviewed in 6-image sheets; ambiguous critical details enlarged. Plans 102/103/104 and section 101 also inspected.",
+    "observed_features": "Merkez silindir, yükselen kama basamaklar ve üst kolun basamaklı alt yüzeyi görülüyor.",
+    "crosscheck_ids": [
+      "041",
+      "043"
+    ],
+    "decision": "Spiral merdiven üzerinde/başlangıcında; kesin kamera kotu yok, ara seviye olarak ayrıldı.",
+    "source_path": "04_Ic_Mekan/Merdivenler_ve_Dolasim/042_Merdiven_ve_katlar_arasi_dolasim_WikiArquitectura.jpg",
+    "source_url": "https://es.wikiarquitectura.com/edificio/museo-de-arte-moderno-grand-duc-jean-mudam/",
+    "source_sha256": "1c4c598dcf9477201cce64fb75d845f4237c82736e2db7aee62727666ec06385",
+    "previous_assignment": {
+      "level": "0",
+      "area": "Spiral merdiven altı",
+      "xy": [
+        356,
+        362
+      ],
+      "target": [
+        316,
+        328
+      ],
+      "quality": "estimate",
+      "radius_m": 5,
+      "angle_uncertainty_deg": 30,
+      "stair_system": "STAIR_EAST_SPIRAL",
+      "evidence": "Spiral basamak alt yüzeyi ve taş silindir, 041 ile örtüşüyor."
+    },
+    "overrides": {
+      "level": "ara"
+    },
+    "current_level": "ara",
+    "current_quality": "estimate",
+    "level_status": "unresolved",
+    "camera_pose_verified": false,
+    "metric_geometry_approved": false,
+    "model_use": "Visible form, material appearance and explicitly identified spatial relationships only; no inferred metric dimensions or camera constraints.",
+    "unresolved": "Camera XYZ, yaw/pitch/roll, lens/distortion and construction dimensions remain unsolved."
+  },
+  {
+    "id": "043",
+    "review_date": "2026-10-08",
+    "review_status": "visually_reviewed",
+    "inspection": "Individual image reviewed in 6-image sheets; ambiguous critical details enlarged. Plans 102/103/104 and section 101 also inspected.",
+    "observed_features": "Üst sahanlık taşı ön planda, biten merkez silindir ve aşağıdaki eserler görülüyor.",
+    "crosscheck_ids": [
+      "033",
+      "041",
+      "103"
+    ],
+    "decision": "Zemin kat ataması yanlış; +1 üst sahanlık adayı güçlü, tam kamera kotu ölçülmedi.",
+    "source_path": "07_Yapi_Detaylari/Korkuluk_ve_Kupeste/043_Cam_korkuluk_ve_metal_kupeste_WikiArquitectura.jpg",
+    "source_url": "https://es.wikiarquitectura.com/edificio/museo-de-arte-moderno-grand-duc-jean-mudam/",
+    "source_sha256": "aee58b9cee732ef9ddb3c6bf75a992bba1fbd5e59c51ced9bfd8a6067a7c0ce3",
+    "previous_assignment": {
+      "level": "0",
+      "area": "Doğu spiral merdiven küpeştesi",
+      "xy": [
+        330,
+        340
+      ],
+      "target": null,
+      "quality": "region",
+      "radius_m": 5,
+      "angle_uncertainty_deg": null,
+      "stair_system": "STAIR_EAST_SPIRAL",
+      "evidence": "Silindirik çekirdeğe bağlanan küpeşte; hangi yandaki basamakta çekildiği çözülemiyor."
+    },
+    "overrides": {
+      "level": "1",
+      "area": "Doğu spiral merdiveni / üst sahanlık",
+      "pitch": "üst sahanlıktan aşağı"
+    },
+    "current_level": "1",
+    "current_quality": "region",
+    "level_status": "visual_inference_not_surveyed",
+    "camera_pose_verified": false,
+    "metric_geometry_approved": false,
+    "model_use": "Visible form, material appearance and explicitly identified spatial relationships only; no inferred metric dimensions or camera constraints.",
+    "unresolved": "Camera XYZ, yaw/pitch/roll, lens/distortion and construction dimensions remain unsolved."
+  },
+  {
+    "id": "044",
+    "review_date": "2026-10-08",
+    "review_status": "visually_reviewed",
+    "inspection": "Individual image reviewed in 6-image sheets; ambiguous critical details enlarged. Plans 102/103/104 and section 101 also inspected.",
+    "observed_features": "Silindire bağlanan küpeşte ve aşağıdaki kama basamaklar yakın planda.",
+    "crosscheck_ids": [
+      "042",
+      "043"
+    ],
+    "decision": "Spiral merdiven detayı; 0 kat varsayımı kaldırıldı, hangi basamak bilinmiyor.",
+    "source_path": "07_Yapi_Detaylari/Korkuluk_ve_Kupeste/044_Cam_korkuluk_ve_metal_kupeste_WikiArquitectura.jpg",
+    "source_url": "https://es.wikiarquitectura.com/edificio/museo-de-arte-moderno-grand-duc-jean-mudam/",
+    "source_sha256": "a526a7d0e36ebc11f18036b734bf82670c56e6d52428801d52429a05a5720ff5",
+    "previous_assignment": {
+      "level": "0",
+      "area": "Doğu spiral merdiven küpeştesi",
+      "xy": [
+        330,
+        340
+      ],
+      "target": null,
+      "quality": "region",
+      "radius_m": 5,
+      "angle_uncertainty_deg": null,
+      "stair_system": "STAIR_EAST_SPIRAL",
+      "evidence": "Silindirik çekirdeğe bağlanan küpeşte; hangi yandaki basamakta çekildiği çözülemiyor."
+    },
+    "overrides": {
+      "level": "ara"
+    },
+    "current_level": "ara",
+    "current_quality": "region",
+    "level_status": "unresolved",
+    "camera_pose_verified": false,
+    "metric_geometry_approved": false,
+    "model_use": "Visible form, material appearance and explicitly identified spatial relationships only; no inferred metric dimensions or camera constraints.",
+    "unresolved": "Camera XYZ, yaw/pitch/roll, lens/distortion and construction dimensions remain unsolved."
+  },
+  {
+    "id": "045",
+    "review_date": "2026-10-08",
+    "review_status": "visually_reviewed",
+    "inspection": "Individual image reviewed in 6-image sheets; ambiguous critical details enlarged. Plans 102/103/104 and section 101 also inspected.",
+    "observed_features": "Yeşil eser arkasında üçgen lamelli camın altında iniş boşluğu korkuluğu görülüyor.",
+    "crosscheck_ids": [
+      "026",
+      "049",
+      "114"
+    ],
+    "decision": "0→−1 iniş çevresi; öndeki eser kalıcı mimari eleman değil.",
+    "source_path": "04_Ic_Mekan/Grand_Hall/045_Grand_Hall_genel_gorunum_WikiArquitectura.jpg",
+    "source_url": "https://es.wikiarquitectura.com/edificio/museo-de-arte-moderno-grand-duc-jean-mudam/",
+    "source_sha256": "679fc7a30562695f57eab672ffd77e9edec297514b65c7dbbdbb62c006d3b3b4",
+    "previous_assignment": {
+      "level": "0",
+      "area": "Grand Hall / aşağı inen yarım daire merdiven",
+      "xy": [
+        565,
+        454
+      ],
+      "target": [
+        638,
+        383
+      ],
+      "quality": "estimate",
+      "radius_m": 7,
+      "angle_uncertainty_deg": 30,
+      "stair_system": "STAIR_GH_DOWN_0_TO_MINUS1",
+      "evidence": "Öndeki ana hol döşemesi ve eserin arkasındaki cam korkuluk, aşağı iniş boşluğunu gösteriyor. Yukarı çıkan geniş merdivenden farklı sistem; 046–050 ve kullanıcının plan düzeltmesiyle yeniden eşleştirildi."
+    },
+    "overrides": {},
+    "current_level": "0",
+    "current_quality": "estimate",
+    "level_status": "visual_inference_not_surveyed",
+    "camera_pose_verified": false,
+    "metric_geometry_approved": false,
+    "model_use": "Visible form, material appearance and explicitly identified spatial relationships only; no inferred metric dimensions or camera constraints.",
+    "unresolved": "Camera XYZ, yaw/pitch/roll, lens/distortion and construction dimensions remain unsolved."
+  },
+  {
+    "id": "046",
+    "review_date": "2026-10-08",
+    "review_status": "visually_reviewed",
+    "inspection": "Individual image reviewed in 6-image sheets; ambiguous critical details enlarged. Plans 102/103/104 and section 101 also inspected.",
+    "observed_features": "Cam korkuluk boyunca aşağı giden basamaklar; duvarda Galeries/Auditorium ve Mudam Café yazıları var.",
+    "crosscheck_ids": [
+      "047",
+      "048",
+      "049"
+    ],
+    "decision": "Aşağı inişin üst kenarı; yönlendirme yazısı mekân eşleşmesini destekliyor.",
+    "source_path": "07_Yapi_Detaylari/Korkuluk_ve_Kupeste/046_Cam_korkuluk_ve_metal_kupeste_WikiArquitectura.jpg",
+    "source_url": "https://es.wikiarquitectura.com/edificio/museo-de-arte-moderno-grand-duc-jean-mudam/",
+    "source_sha256": "7281926dadcc1f88f500dec9092de564b6fbe0b1fd4ba799798d2ee7c6a1677e",
+    "previous_assignment": {
+      "level": "0",
+      "area": "Aşağı inen merdiven / düz korkuluk birleşimi",
+      "xy": [
+        618,
+        387
+      ],
+      "target": null,
+      "quality": "region",
+      "radius_m": 5,
+      "angle_uncertainty_deg": null,
+      "stair_system": "STAIR_GH_DOWN_0_TO_MINUS1",
+      "evidence": "Alt kata yönelen basamak, düz korkuluk ve duvardaki Galeries Auditorium / Mudam Café yazısı 046 içinde okunuyor. 047 aynı köşe birleşiminin detayı. Haritadaki soldaki yarım daireye taşındı; kamera noktası kesin değil."
+    },
+    "overrides": {},
+    "current_level": "0",
+    "current_quality": "region",
+    "level_status": "visual_inference_not_surveyed",
+    "camera_pose_verified": false,
+    "metric_geometry_approved": false,
+    "model_use": "Visible form, material appearance and explicitly identified spatial relationships only; no inferred metric dimensions or camera constraints.",
+    "unresolved": "Camera XYZ, yaw/pitch/roll, lens/distortion and construction dimensions remain unsolved."
+  },
+  {
+    "id": "047",
+    "review_date": "2026-10-08",
+    "review_status": "visually_reviewed",
+    "inspection": "Individual image reviewed in 6-image sheets; ambiguous critical details enlarged. Plans 102/103/104 and section 101 also inspected.",
+    "observed_features": "046'daki cam korkuluğun düz-kavisli birleşimi ve alttaki basamak görünür.",
+    "crosscheck_ids": [
+      "046",
+      "048"
+    ],
+    "decision": "İniş merdiveni korkuluk detayı; nokta/yön tekilleşmiyor.",
+    "source_path": "07_Yapi_Detaylari/Korkuluk_ve_Kupeste/047_Cam_korkuluk_ve_metal_kupeste_WikiArquitectura.jpg",
+    "source_url": "https://es.wikiarquitectura.com/edificio/museo-de-arte-moderno-grand-duc-jean-mudam/",
+    "source_sha256": "49e8bb1239d04a936bb7372aa3b6373e0506133d8454e93f51db2bf0c66e9612",
+    "previous_assignment": {
+      "level": "0",
+      "area": "Aşağı inen merdiven / düz korkuluk birleşimi",
+      "xy": [
+        618,
+        387
+      ],
+      "target": null,
+      "quality": "region",
+      "radius_m": 5,
+      "angle_uncertainty_deg": null,
+      "stair_system": "STAIR_GH_DOWN_0_TO_MINUS1",
+      "evidence": "Alt kata yönelen basamak, düz korkuluk ve duvardaki Galeries Auditorium / Mudam Café yazısı 046 içinde okunuyor. 047 aynı köşe birleşiminin detayı. Haritadaki soldaki yarım daireye taşındı; kamera noktası kesin değil."
+    },
+    "overrides": {},
+    "current_level": "0",
+    "current_quality": "region",
+    "level_status": "visual_inference_not_surveyed",
+    "camera_pose_verified": false,
+    "metric_geometry_approved": false,
+    "model_use": "Visible form, material appearance and explicitly identified spatial relationships only; no inferred metric dimensions or camera constraints.",
+    "unresolved": "Camera XYZ, yaw/pitch/roll, lens/distortion and construction dimensions remain unsolved."
+  },
+  {
+    "id": "048",
+    "review_date": "2026-10-08",
+    "review_status": "visually_reviewed",
+    "inspection": "Individual image reviewed in 6-image sheets; ambiguous critical details enlarged. Plans 102/103/104 and section 101 also inspected.",
+    "observed_features": "Düz camın kavisli cama bağlandığı uç ve geride üçgen güneş kırıcı var.",
+    "crosscheck_ids": [
+      "046",
+      "049",
+      "114"
+    ],
+    "decision": "İniş boşluğunun üst çevresi; geniş çıkış merdiveni detayı değil.",
+    "source_path": "07_Yapi_Detaylari/Korkuluk_ve_Kupeste/048_Cam_korkuluk_ve_metal_kupeste_WikiArquitectura.jpg",
+    "source_url": "https://es.wikiarquitectura.com/edificio/museo-de-arte-moderno-grand-duc-jean-mudam/",
+    "source_sha256": "63d0ae47e673742c14db1d1990da85cf4db74bd31ed1623c8c0388f369c0e4b7",
+    "previous_assignment": {
+      "level": "0",
+      "area": "Aşağı inen merdiven / eğrisel korkuluk birleşimi",
+      "xy": [
+        630,
+        391
+      ],
+      "target": null,
+      "quality": "region",
+      "radius_m": 5,
+      "angle_uncertainty_deg": null,
+      "stair_system": "STAIR_GH_DOWN_0_TO_MINUS1",
+      "evidence": "Düz cam panelden eğrisel korkuluğa geçiş ve üstte güneş kırıcı cam üçgen görülüyor; 049 ile aynı aşağı iniş boşluğu. Yakın kadraj tekil kamera veya azimut çözmüyor."
+    },
+    "overrides": {},
+    "current_level": "0",
+    "current_quality": "region",
+    "level_status": "visual_inference_not_surveyed",
+    "camera_pose_verified": false,
+    "metric_geometry_approved": false,
+    "model_use": "Visible form, material appearance and explicitly identified spatial relationships only; no inferred metric dimensions or camera constraints.",
+    "unresolved": "Camera XYZ, yaw/pitch/roll, lens/distortion and construction dimensions remain unsolved."
+  },
+  {
+    "id": "049",
+    "review_date": "2026-10-08",
+    "review_status": "visually_reviewed",
+    "inspection": "Individual image reviewed in 6-image sheets; ambiguous critical details enlarged. Plans 102/103/104 and section 101 also inspected.",
+    "observed_features": "Zemin kat kenarından korkuluklar aşağı kıvrılıyor; üstte üçgen lamelli cam var.",
+    "crosscheck_ids": [
+      "045",
+      "046",
+      "050",
+      "114"
+    ],
+    "decision": "Kullanıcı düzeltmesi doğrulandı: 0→−1 yarım daire merdiven.",
+    "source_path": "07_Yapi_Detaylari/Korkuluk_ve_Kupeste/049_Cam_korkuluk_ve_metal_kupeste_WikiArquitectura.jpg",
+    "source_url": "https://es.wikiarquitectura.com/edificio/museo-de-arte-moderno-grand-duc-jean-mudam/",
+    "source_sha256": "d39aa4b3dba46dce68828b42c1b92602234b213f897d24e9b4bdb41affc7c0df",
+    "previous_assignment": {
+      "level": "0",
+      "area": "Aşağı inen merdiven / üst sahanlık",
+      "xy": [
+        632,
+        384
+      ],
+      "target": null,
+      "quality": "region",
+      "radius_m": 5,
+      "angle_uncertainty_deg": null,
+      "stair_system": "STAIR_GH_DOWN_0_TO_MINUS1",
+      "evidence": "0 → −1 inişi: yatay döşeme kenarından aşağı kıvrılan iki küpeşte ve güneş kırıcı üçgen birlikte görülüyor. Kullanıcının işaretlediği haritadaki soldaki yarım daire. +1’e çıkan sağdaki merdiven değil; tam kamera noktası henüz çözülmedi."
+    },
+    "overrides": {},
+    "current_level": "0",
+    "current_quality": "region",
+    "level_status": "visual_inference_not_surveyed",
+    "camera_pose_verified": false,
+    "metric_geometry_approved": false,
+    "model_use": "Visible form, material appearance and explicitly identified spatial relationships only; no inferred metric dimensions or camera constraints.",
+    "unresolved": "Camera XYZ, yaw/pitch/roll, lens/distortion and construction dimensions remain unsolved."
+  },
+  {
+    "id": "050",
+    "review_date": "2026-10-08",
+    "review_status": "visually_reviewed",
+    "inspection": "Individual image reviewed in 6-image sheets; ambiguous critical details enlarged. Plans 102/103/104 and section 101 also inspected.",
+    "observed_features": "Aşağıdaki taş döşeme, kavisli basamaklar, iki cam korkuluk ve duvar eseri görülüyor.",
+    "crosscheck_ids": [
+      "049",
+      "051",
+      "053"
+    ],
+    "decision": "Aşağı inişe bakış; kamera üst kenarda veya basamakta olabilir, kat kesinleştirilmedi.",
+    "source_path": "04_Ic_Mekan/Merdivenler_ve_Dolasim/050_Merdiven_ve_katlar_arasi_dolasim_WikiArquitectura.jpg",
+    "source_url": "https://es.wikiarquitectura.com/edificio/museo-de-arte-moderno-grand-duc-jean-mudam/",
+    "source_sha256": "7c1c4105465c12adbceeb4fdbd3c499c1bbf411b1b6c207fbf716d44f4638edc",
+    "previous_assignment": {
+      "level": "0",
+      "area": "Aşağı inen merdiven / alt döşemeye bakış",
+      "xy": [
+        636,
+        391
+      ],
+      "target": [
+        655,
+        371
+      ],
+      "quality": "estimate",
+      "radius_m": 6,
+      "angle_uncertainty_deg": 35,
+      "stair_system": "STAIR_GH_DOWN_0_TO_MINUS1",
+      "evidence": "0 → −1 inişi: aşağıdaki döşeme ve 051’de de görülen duvar görseli, 049 ile aynı yarım daire merdiveni doğruluyor. Kullanıcı düzeltmesi sonrası iniş boşluğuna taşındı. Konum ve yatay yön hâlâ görsel tahmin."
+    },
+    "overrides": {
+      "level": "ara"
+    },
+    "current_level": "ara",
+    "current_quality": "estimate",
+    "level_status": "unresolved",
+    "camera_pose_verified": false,
+    "metric_geometry_approved": false,
+    "model_use": "Visible form, material appearance and explicitly identified spatial relationships only; no inferred metric dimensions or camera constraints.",
+    "unresolved": "Camera XYZ, yaw/pitch/roll, lens/distortion and construction dimensions remain unsolved."
+  },
+  {
+    "id": "051",
+    "review_date": "2026-10-08",
+    "review_status": "visually_reviewed",
+    "inspection": "Individual image reviewed in 6-image sheets; ambiguous critical details enlarged. Plans 102/103/104 and section 101 also inspected.",
+    "observed_features": "Yarım daire merdiven alt fuayeden 0'a yükseliyor; döşeme boşluğu, ince destek ve duvar eseri var.",
+    "crosscheck_ids": [
+      "050",
+      "052",
+      "055",
+      "115"
+    ],
+    "decision": "−1→0 bağlantısı; +1 merdiveni değil.",
+    "source_path": "04_Ic_Mekan/Merdivenler_ve_Dolasim/051_Merdiven_ve_katlar_arasi_dolasim_WikiArquitectura.jpg",
+    "source_url": "https://es.wikiarquitectura.com/edificio/museo-de-arte-moderno-grand-duc-jean-mudam/",
+    "source_sha256": "102d7c8bfa88eb766ea7481a19493a77df6f9c3422e375ba82381fca153adcc0",
+    "previous_assignment": {
+      "level": "-1",
+      "area": "Alt kat / yarım daire merdivenin altından yukarı",
+      "xy": [
+        618,
+        399
+      ],
+      "target": [
+        649,
+        374
+      ],
+      "quality": "estimate",
+      "radius_m": 7,
+      "angle_uncertainty_deg": 30,
+      "stair_system": "STAIR_GH_DOWN_0_TO_MINUS1",
+      "evidence": "050’de aşağı bakılan merdivenin alt görünüşü: aynı duvar görseli, eğrisel kol ve döşeme boşluğu. 0’a çıkar; +1’e çıkan geniş merdivenden ayrı. Alt kattaki kamera yeri yaklaşık."
+    },
+    "overrides": {},
+    "current_level": "-1",
+    "current_quality": "estimate",
+    "level_status": "visual_inference_not_surveyed",
+    "camera_pose_verified": false,
+    "metric_geometry_approved": false,
+    "model_use": "Visible form, material appearance and explicitly identified spatial relationships only; no inferred metric dimensions or camera constraints.",
+    "unresolved": "Camera XYZ, yaw/pitch/roll, lens/distortion and construction dimensions remain unsolved."
+  },
+  {
+    "id": "052",
+    "review_date": "2026-10-08",
+    "review_status": "visually_reviewed",
+    "inspection": "Individual image reviewed in 6-image sheets; ambiguous critical details enlarged. Plans 102/103/104 and section 101 also inspected.",
+    "observed_features": "Merdiven kolunun basamaklı alt yüzeyi, üst cam üçgen ve taş duvar birlikte görülüyor.",
+    "crosscheck_ids": [
+      "051",
+      "053",
+      "115"
+    ],
+    "decision": "Alt fuayeden iniş merdiveninin altı; merdiven kalınlığı perspektifle ölçülemez.",
+    "source_path": "04_Ic_Mekan/Merdivenler_ve_Dolasim/052_Merdiven_ve_katlar_arasi_dolasim_WikiArquitectura.jpg",
+    "source_url": "https://es.wikiarquitectura.com/edificio/museo-de-arte-moderno-grand-duc-jean-mudam/",
+    "source_sha256": "a378de29e4c37de8ad6fa5032903edc5ed8b7fee64de9308fb319d60a43ff7a0",
+    "previous_assignment": {
+      "level": "-1",
+      "area": "Alt kat / yarım daire merdivenin alt yüzeyi",
+      "xy": [
+        639,
+        382
+      ],
+      "target": null,
+      "quality": "region",
+      "radius_m": 7,
+      "angle_uncertainty_deg": null,
+      "stair_system": "STAIR_GH_DOWN_0_TO_MINUS1",
+      "evidence": "051 ile aynı basamak altı ve düşey destek ilişkisi; aşağı iniş merdiveninin izdüşümüne taşındı. Alt kat içindeki tam kamera yeri çözülemedi."
+    },
+    "overrides": {},
+    "current_level": "-1",
+    "current_quality": "region",
+    "level_status": "visual_inference_not_surveyed",
+    "camera_pose_verified": false,
+    "metric_geometry_approved": false,
+    "model_use": "Visible form, material appearance and explicitly identified spatial relationships only; no inferred metric dimensions or camera constraints.",
+    "unresolved": "Camera XYZ, yaw/pitch/roll, lens/distortion and construction dimensions remain unsolved."
+  },
+  {
+    "id": "053",
+    "review_date": "2026-10-08",
+    "review_status": "visually_reviewed",
+    "inspection": "Individual image reviewed in 6-image sheets; ambiguous critical details enlarged. Plans 102/103/104 and section 101 also inspected.",
+    "observed_features": "İnce düşey destek ön planda; geride aynı merdivenin tırtıklı alt yüzeyi var.",
+    "crosscheck_ids": [
+      "051",
+      "052"
+    ],
+    "decision": "0→−1 sistemiyle eşleşiyor; tam kamera noktası belirsiz.",
+    "source_path": "04_Ic_Mekan/Merdivenler_ve_Dolasim/053_Merdiven_ve_katlar_arasi_dolasim_WikiArquitectura.jpg",
+    "source_url": "https://es.wikiarquitectura.com/edificio/museo-de-arte-moderno-grand-duc-jean-mudam/",
+    "source_sha256": "6cb4d0bc4b5e3a713137c2deb7c42d85b11c3d5958cf17802cf56d4bda353772",
+    "previous_assignment": {
+      "level": "-1",
+      "area": "Alt kat / yarım daire merdivenin alt yüzeyi",
+      "xy": [
+        639,
+        382
+      ],
+      "target": null,
+      "quality": "region",
+      "radius_m": 7,
+      "angle_uncertainty_deg": null,
+      "stair_system": "STAIR_GH_DOWN_0_TO_MINUS1",
+      "evidence": "051 ile aynı basamak altı ve düşey destek ilişkisi; aşağı iniş merdiveninin izdüşümüne taşındı. Alt kat içindeki tam kamera yeri çözülemedi."
+    },
+    "overrides": {},
+    "current_level": "-1",
+    "current_quality": "region",
+    "level_status": "visual_inference_not_surveyed",
+    "camera_pose_verified": false,
+    "metric_geometry_approved": false,
+    "model_use": "Visible form, material appearance and explicitly identified spatial relationships only; no inferred metric dimensions or camera constraints.",
+    "unresolved": "Camera XYZ, yaw/pitch/roll, lens/distortion and construction dimensions remain unsolved."
+  },
+  {
+    "id": "054",
+    "review_date": "2026-10-08",
+    "review_status": "visually_reviewed",
+    "inspection": "Individual image reviewed in 6-image sheets; ambiguous critical details enlarged. Plans 102/103/104 and section 101 also inspected.",
+    "observed_features": "Önde alt fuaye boşluğu, karşıda 0 döşemesi ve insanlar; geniş çıkış merdiveni geride solda.",
+    "crosscheck_ids": [
+      "026",
+      "050",
+      "051"
+    ],
+    "decision": "Kamera ara basamakta olabilir; sabit −1 kamera kotu kaldırıldı.",
+    "source_path": "04_Ic_Mekan/Merdivenler_ve_Dolasim/054_Merdiven_ve_katlar_arasi_dolasim_WikiArquitectura.jpg",
+    "source_url": "https://es.wikiarquitectura.com/edificio/museo-de-arte-moderno-grand-duc-jean-mudam/",
+    "source_sha256": "df8253ff3cadda8524c7638aeaadb5c3f54f9e5cfb638cde5cc2350cf4ca3d61",
+    "previous_assignment": {
+      "level": "-1",
+      "area": "İniş merdiveninden Grand Hall ve karşıdaki çıkışa bakış",
+      "xy": [
+        650,
+        367
+      ],
+      "target": [
+        513,
+        484
+      ],
+      "quality": "estimate",
+      "radius_m": 9,
+      "angle_uncertainty_deg": 40,
+      "stair_system": "STAIR_GH_DOWN_0_TO_MINUS1",
+      "evidence": "Önde alt kat boşluğu, karşıda 0 kat döşemesi ve arkasında yukarı çıkan geniş merdiven okunuyor. İki merdiveni ayıran çapraz kontrol görüntüsü. Kamera 0/−1 arasındaki merdiven üzerinde olabilir; kesin kot çözülmedi."
+    },
+    "overrides": {
+      "level": "ara",
+      "target": null,
+      "quality": "region",
+      "angle_uncertainty_deg": null,
+      "radius_m": 9
+    },
+    "current_level": "ara",
+    "current_quality": "region",
+    "level_status": "unresolved",
+    "camera_pose_verified": false,
+    "metric_geometry_approved": false,
+    "model_use": "Visible form, material appearance and explicitly identified spatial relationships only; no inferred metric dimensions or camera constraints.",
+    "unresolved": "Camera XYZ, yaw/pitch/roll, lens/distortion and construction dimensions remain unsolved."
+  },
+  {
+    "id": "055",
+    "review_date": "2026-10-08",
+    "review_status": "visually_reviewed",
+    "inspection": "Individual image reviewed in 6-image sheets; ambiguous critical details enlarged. Plans 102/103/104 and section 101 also inspected.",
+    "observed_features": "Kavisli döşeme boşluğunun altı, üstte korkuluk, üçgen cam ve altta 050/051'deki duvar eseri var.",
+    "crosscheck_ids": [
+      "050",
+      "051",
+      "054",
+      "115"
+    ],
+    "decision": "Önceki 0→+1 merdiven ataması yanlış; −1'den iniş boşluğuna yukarı bakış.",
+    "source_path": "04_Ic_Mekan/Merdivenler_ve_Dolasim/055_Merdiven_ve_katlar_arasi_dolasim_WikiArquitectura.jpg",
+    "source_url": "https://es.wikiarquitectura.com/edificio/museo-de-arte-moderno-grand-duc-jean-mudam/",
+    "source_sha256": "d7f4f05fde3673a08285b617661c67c64d1c01477ac5a390795bb8b555402b5e",
+    "previous_assignment": {
+      "level": "0",
+      "area": "Grand Hall / ana merdiven altı",
+      "xy": [
+        552,
+        478
+      ],
+      "target": [
+        470,
+        448
+      ],
+      "quality": "estimate",
+      "radius_m": 7,
+      "angle_uncertainty_deg": 30,
+      "stair_system": "STAIR_GH_UP_0_TO_PLUS1",
+      "evidence": "Ana merdivenin kıvrımı ile yüksek piramidal cam çatı birlikte."
+    },
+    "overrides": {
+      "target": null,
+      "quality": "region",
+      "angle_uncertainty_deg": null,
+      "xy": [
+        625,
+        391
+      ],
+      "area": "Alt fuaye / iniş boşluğunun altından çatıya",
+      "level": "-1",
+      "radius_m": 9,
+      "stair_system": "STAIR_GH_DOWN_0_TO_MINUS1"
+    },
+    "current_level": "-1",
+    "current_quality": "region",
+    "level_status": "visual_inference_not_surveyed",
+    "camera_pose_verified": false,
+    "metric_geometry_approved": false,
+    "model_use": "Visible form, material appearance and explicitly identified spatial relationships only; no inferred metric dimensions or camera constraints.",
+    "unresolved": "Camera XYZ, yaw/pitch/roll, lens/distortion and construction dimensions remain unsolved."
+  },
+  {
+    "id": "056",
+    "review_date": "2026-10-08",
+    "review_status": "visually_reviewed",
+    "inspection": "Individual image reviewed in 6-image sheets; ambiguous critical details enlarged. Plans 102/103/104 and section 101 also inspected.",
+    "observed_features": "Taştan ahşap zemine geçilen sergi eşiği; uzak derin nişli pencerede hendek duvarı var.",
+    "crosscheck_ids": [
+      "057",
+      "061",
+      "062",
+      "102"
+    ],
+    "decision": "Zemin galeri ailesi olası; doğu kanadı ve tam eşik bağımsız doğrulanmadı, yön kaldırıldı.",
+    "source_path": "04_Ic_Mekan/Galeriler/056_Galeri_sergi_ve_pencere_WikiArquitectura.jpg",
+    "source_url": "https://es.wikiarquitectura.com/edificio/museo-de-arte-moderno-grand-duc-jean-mudam/",
+    "source_sha256": "782a62b80ce75f52279b6de1dcd430939b2393dbb1c9aaa650be438dec8083e4",
+    "previous_assignment": {
+      "level": "0",
+      "area": "Doğu galerisi giriş eşiği",
+      "xy": [
+        438,
+        414
+      ],
+      "target": [
+        303,
+        444
+      ],
+      "quality": "estimate",
+      "radius_m": 10,
+      "angle_uncertainty_deg": 35,
+      "stair_system": null,
+      "evidence": "Sergi giriş yazısı, ahşap döşeme ve hendek/yeşilliğe bakan gömülü pencere. Kanat eşleşmesi olası."
+    },
+    "overrides": {
+      "target": null,
+      "quality": "region",
+      "angle_uncertainty_deg": null,
+      "xy": [
+        388,
+        530
+      ],
+      "area": "Zemin galeri eşiği / doğu kanadı adayı",
+      "radius_m": 20
+    },
+    "current_level": "0",
+    "current_quality": "region",
+    "level_status": "visual_inference_not_surveyed",
+    "camera_pose_verified": false,
+    "metric_geometry_approved": false,
+    "model_use": "Visible form, material appearance and explicitly identified spatial relationships only; no inferred metric dimensions or camera constraints.",
+    "unresolved": "Camera XYZ, yaw/pitch/roll, lens/distortion and construction dimensions remain unsolved."
+  },
+  {
+    "id": "057",
+    "review_date": "2026-10-08",
+    "review_status": "visually_reviewed",
+    "inspection": "Individual image reviewed in 6-image sheets; ambiguous critical details enlarged. Plans 102/103/104 and section 101 also inspected.",
+    "observed_features": "Ahşap döşeme, kare kesitli düşey elemanlar ve sergi panoları var.",
+    "crosscheck_ids": [
+      "056",
+      "058"
+    ],
+    "decision": "Geçici panolardan kalıcı duvar planı çıkarılamaz; belirli oda/kamera ataması kaldırıldı.",
+    "source_path": "04_Ic_Mekan/Galeriler/057_Galeri_sergi_ve_pencere_WikiArquitectura.jpg",
+    "source_url": "https://es.wikiarquitectura.com/edificio/museo-de-arte-moderno-grand-duc-jean-mudam/",
+    "source_sha256": "a30b40b10d7405c06425f70d524d72255b258b7e2bb4dbaae059529f99ca4e23",
+    "previous_assignment": {
+      "level": "0",
+      "area": "Doğu galerisi",
+      "xy": [
+        410,
+        426
+      ],
+      "target": [
+        322,
+        477
+      ],
+      "quality": "estimate",
+      "radius_m": 12,
+      "angle_uncertainty_deg": 40,
+      "stair_system": null,
+      "evidence": "Ahşap döşeme, sergi panelleri ve gömülü pencere düzeni; 056 ile seri ilişkisi."
+    },
+    "overrides": {
+      "xy": null,
+      "target": null,
+      "quality": "unresolved",
+      "radius_m": null,
+      "angle_uncertainty_deg": null,
+      "area": "Galeri / kat ve kanat çözülemedi",
+      "level": "belirsiz"
+    },
+    "current_level": "belirsiz",
+    "current_quality": "unresolved",
+    "level_status": "unresolved",
+    "camera_pose_verified": false,
+    "metric_geometry_approved": false,
+    "model_use": "Visible form, material appearance and explicitly identified spatial relationships only; no inferred metric dimensions or camera constraints.",
+    "unresolved": "Camera XYZ, yaw/pitch/roll, lens/distortion and construction dimensions remain unsolved."
+  },
+  {
+    "id": "058",
+    "review_date": "2026-10-08",
+    "review_status": "visually_reviewed",
+    "inspection": "Individual image reviewed in 6-image sheets; ambiguous critical details enlarged. Plans 102/103/104 and section 101 also inspected.",
+    "observed_features": "Ahşap galeri döşemesi, sergi kolajları, oturma elemanı ve ray aydınlatma görülüyor.",
+    "crosscheck_ids": [
+      "057",
+      "060"
+    ],
+    "decision": "Dış referans yok; seri sırası tek başına katı ve doğu kanadını kanıtlamıyor.",
+    "source_path": "04_Ic_Mekan/Galeriler/058_Galeri_sergi_ve_pencere_WikiArquitectura.jpg",
+    "source_url": "https://es.wikiarquitectura.com/edificio/museo-de-arte-moderno-grand-duc-jean-mudam/",
+    "source_sha256": "271e465d95a516a296b52f1afdf46fb8687d8241fa793c3870cf0428c8703b7e",
+    "previous_assignment": {
+      "level": "0",
+      "area": "Doğu galerisi",
+      "xy": [
+        362,
+        501
+      ],
+      "target": [
+        410,
+        430
+      ],
+      "quality": "estimate",
+      "radius_m": 14,
+      "angle_uncertainty_deg": 45,
+      "stair_system": null,
+      "evidence": "Aynı sergi ve galeri içi ters açı; geçici paneller kamera çözümünü sınırlar."
+    },
+    "overrides": {
+      "xy": null,
+      "target": null,
+      "quality": "unresolved",
+      "radius_m": null,
+      "angle_uncertainty_deg": null,
+      "area": "Galeri / kat ve kanat çözülemedi",
+      "level": "belirsiz"
+    },
+    "current_level": "belirsiz",
+    "current_quality": "unresolved",
+    "level_status": "unresolved",
+    "camera_pose_verified": false,
+    "metric_geometry_approved": false,
+    "model_use": "Visible form, material appearance and explicitly identified spatial relationships only; no inferred metric dimensions or camera constraints.",
+    "unresolved": "Camera XYZ, yaw/pitch/roll, lens/distortion and construction dimensions remain unsolved."
+  },
+  {
+    "id": "059",
+    "review_date": "2026-10-08",
+    "review_status": "visually_reviewed",
+    "inspection": "Individual image reviewed in 6-image sheets; ambiguous critical details enlarged. Plans 102/103/104 and section 101 also inspected.",
+    "observed_features": "Taş duvar-tavan boyunca ince düşey metal/derz birleşimi görülüyor.",
+    "crosscheck_ids": [
+      "017"
+    ],
+    "decision": "Detay ailesi kullanılabilir; hangi duvar, derz işlevi ve kat belirsiz.",
+    "source_path": "07_Yapi_Detaylari/Tas_ve_Beton/059_Duvar_tavan_kapi_ve_malzeme_detayi_WikiArquitectura.jpg",
+    "source_url": "https://es.wikiarquitectura.com/edificio/museo-de-arte-moderno-grand-duc-jean-mudam/",
+    "source_sha256": "9b854f45dd59b1f217b4de0bc1cd52d2d4d2bca7c0fc01c53704ec80baf2fa6f",
+    "previous_assignment": {
+      "level": "belirsiz",
+      "area": "Taş duvar birleşimi",
+      "xy": null,
+      "target": null,
+      "quality": "unresolved",
+      "radius_m": null,
+      "angle_uncertainty_deg": null,
+      "stair_system": null,
+      "evidence": "Yalnızca taş yüzey ve düşey boşluk; farklı katlarda benzer detaylar var."
+    },
+    "overrides": {},
+    "current_level": "belirsiz",
+    "current_quality": "unresolved",
+    "level_status": "unresolved",
+    "camera_pose_verified": false,
+    "metric_geometry_approved": false,
+    "model_use": "Visible form, material appearance and explicitly identified spatial relationships only; no inferred metric dimensions or camera constraints.",
+    "unresolved": "Camera XYZ, yaw/pitch/roll, lens/distortion and construction dimensions remain unsolved."
+  },
+  {
+    "id": "060",
+    "review_date": "2026-10-08",
+    "review_status": "visually_reviewed",
+    "inspection": "Individual image reviewed in 6-image sheets; ambiguous critical details enlarged. Plans 102/103/104 and section 101 also inspected.",
+    "observed_features": "Düz tavan içindeki dar teknik/aydınlatma hattı ve sergi bölmesi üstü görülüyor.",
+    "crosscheck_ids": [
+      "057",
+      "058"
+    ],
+    "decision": "Galeri tavanı; kat ve kanat için yeterli ayırt edici kanıt yok.",
+    "source_path": "07_Yapi_Detaylari/Tas_ve_Beton/060_Duvar_tavan_kapi_ve_malzeme_detayi_WikiArquitectura.jpg",
+    "source_url": "https://es.wikiarquitectura.com/edificio/museo-de-arte-moderno-grand-duc-jean-mudam/",
+    "source_sha256": "afcc01e934995e67cd9ecac80e0bed6693360d5118f8508cbad159ef7073a31c",
+    "previous_assignment": {
+      "level": "0",
+      "area": "Galeri tavan kenarı",
+      "xy": [
+        388,
+        472
+      ],
+      "target": null,
+      "quality": "region",
+      "radius_m": 20,
+      "angle_uncertainty_deg": null,
+      "stair_system": null,
+      "evidence": "Galeri tavan detayı; kesin galeri kanadı ve fotoğraf noktası doğrulanamıyor."
+    },
+    "overrides": {
+      "xy": null,
+      "target": null,
+      "quality": "unresolved",
+      "radius_m": null,
+      "angle_uncertainty_deg": null,
+      "area": "Galeri / kat ve kanat çözülemedi",
+      "level": "belirsiz"
+    },
+    "current_level": "belirsiz",
+    "current_quality": "unresolved",
+    "level_status": "unresolved",
+    "camera_pose_verified": false,
+    "metric_geometry_approved": false,
+    "model_use": "Visible form, material appearance and explicitly identified spatial relationships only; no inferred metric dimensions or camera constraints.",
+    "unresolved": "Camera XYZ, yaw/pitch/roll, lens/distortion and construction dimensions remain unsolved."
+  },
+  {
+    "id": "061",
+    "review_date": "2026-10-08",
+    "review_status": "visually_reviewed",
+    "inspection": "Individual image reviewed in 6-image sheets; ambiguous critical details enlarged. Plans 102/103/104 and section 101 also inspected.",
+    "observed_features": "Ahşap zeminli galerinin derin taş nişli penceresi; karşıda tarihi duvar ve meydan ağaçları var.",
+    "crosscheck_ids": [
+      "062",
+      "063",
+      "003"
+    ],
+    "decision": "Pencere ailesi güçlü; önceki tam pencere ve azimut çözümsüz, aday bölgeye indirildi.",
+    "source_path": "04_Ic_Mekan/Galeriler/061_Galeri_sergi_ve_pencere_WikiArquitectura.jpg",
+    "source_url": "https://es.wikiarquitectura.com/edificio/museo-de-arte-moderno-grand-duc-jean-mudam/",
+    "source_sha256": "ad808eef83014eb9e746428531d1d1f0121741e9a23f8e27f3d0f0e3a0d99fd8",
+    "previous_assignment": {
+      "level": "0",
+      "area": "Doğu galeri penceresi",
+      "xy": [
+        351,
+        434
+      ],
+      "target": [
+        293,
+        436
+      ],
+      "quality": "estimate",
+      "radius_m": 9,
+      "angle_uncertainty_deg": 35,
+      "stair_system": null,
+      "evidence": "Gömülü pencere ve dış meydan/hendek ilişkisi; 056/062 ile ortak pencere ailesi."
+    },
+    "overrides": {
+      "target": null,
+      "quality": "region",
+      "angle_uncertainty_deg": null,
+      "xy": [
+        388,
+        613
+      ],
+      "area": "Girişe yakın nişli galeri pencereleri / aday alan",
+      "radius_m": 18
+    },
+    "current_level": "0",
+    "current_quality": "region",
+    "level_status": "visual_inference_not_surveyed",
+    "camera_pose_verified": false,
+    "metric_geometry_approved": false,
+    "model_use": "Visible form, material appearance and explicitly identified spatial relationships only; no inferred metric dimensions or camera constraints.",
+    "unresolved": "Camera XYZ, yaw/pitch/roll, lens/distortion and construction dimensions remain unsolved."
+  },
+  {
+    "id": "062",
+    "review_date": "2026-10-08",
+    "review_status": "visually_reviewed",
+    "inspection": "Individual image reviewed in 6-image sheets; ambiguous critical details enlarged. Plans 102/103/104 and section 101 also inspected.",
+    "observed_features": "İki derin pencere nişi, hendek ve giriş köprüsüne yakın dış çevre birlikte görülüyor.",
+    "crosscheck_ids": [
+      "061",
+      "063",
+      "004"
+    ],
+    "decision": "Pencerelerin girişe yakın cepheyle ilişkisi yeniden değerlendirildi; eski yön kaldırıldı.",
+    "source_path": "04_Ic_Mekan/Galeriler/062_Galeri_sergi_ve_pencere_WikiArquitectura.jpg",
+    "source_url": "https://es.wikiarquitectura.com/edificio/museo-de-arte-moderno-grand-duc-jean-mudam/",
+    "source_sha256": "2e4c396a010fc4efcb58e25d849a5a912dbbc1893c03073c162268111ceeb016",
+    "previous_assignment": {
+      "level": "0",
+      "area": "Doğu galerisi / dışarı bakış",
+      "xy": [
+        369,
+        442
+      ],
+      "target": [
+        290,
+        416
+      ],
+      "quality": "estimate",
+      "radius_m": 9,
+      "angle_uncertainty_deg": 30,
+      "stair_system": null,
+      "evidence": "İki derin pencere boşluğu ve dıştaki tarihi duvarların perspektifi."
+    },
+    "overrides": {
+      "target": null,
+      "quality": "region",
+      "angle_uncertainty_deg": null,
+      "xy": [
+        388,
+        613
+      ],
+      "area": "Girişe yakın nişli galeri pencereleri / aday alan",
+      "radius_m": 18
+    },
+    "current_level": "0",
+    "current_quality": "region",
+    "level_status": "visual_inference_not_surveyed",
+    "camera_pose_verified": false,
+    "metric_geometry_approved": false,
+    "model_use": "Visible form, material appearance and explicitly identified spatial relationships only; no inferred metric dimensions or camera constraints.",
+    "unresolved": "Camera XYZ, yaw/pitch/roll, lens/distortion and construction dimensions remain unsolved."
+  },
+  {
+    "id": "063",
+    "review_date": "2026-10-08",
+    "review_status": "visually_reviewed",
+    "inspection": "Individual image reviewed in 6-image sheets; ambiguous critical details enlarged. Plans 102/103/104 and section 101 also inspected.",
+    "observed_features": "Taş pencere nişinden giriş köprüsü, hendek ve 011'deki yüksek yapılar görülüyor.",
+    "crosscheck_ids": [
+      "011",
+      "062",
+      "102"
+    ],
+    "decision": "Önceki yan cephe konumu güvenilir değil; girişe yakın niş ailesi, kesin pencere bilinmiyor.",
+    "source_path": "03_Vaziyet_ve_Peyzaj/Tarihi_Duvarlar_ve_Cevre/063_Tarihi_duvarlar_park_ve_yaklasim_WikiArquitectura.jpg",
+    "source_url": "https://es.wikiarquitectura.com/edificio/museo-de-arte-moderno-grand-duc-jean-mudam/",
+    "source_sha256": "18f4811ff2e6968bf31ba759e3435d194855ccd3fc1e055d4d9de9e53970a5ec",
+    "previous_assignment": {
+      "level": "0",
+      "area": "Doğu cephede pencere nişi",
+      "xy": [
+        299,
+        419
+      ],
+      "target": [
+        196,
+        492
+      ],
+      "quality": "estimate",
+      "radius_m": 7,
+      "angle_uncertainty_deg": 35,
+      "stair_system": null,
+      "evidence": "Pencere nişi içinden köprü, hendek ve uzak yapılar."
+    },
+    "overrides": {
+      "target": null,
+      "quality": "region",
+      "angle_uncertainty_deg": null,
+      "xy": [
+        388,
+        613
+      ],
+      "area": "Girişe yakın nişli galeri pencereleri / aday alan",
+      "radius_m": 18
+    },
+    "current_level": "0",
+    "current_quality": "region",
+    "level_status": "visual_inference_not_surveyed",
+    "camera_pose_verified": false,
+    "metric_geometry_approved": false,
+    "model_use": "Visible form, material appearance and explicitly identified spatial relationships only; no inferred metric dimensions or camera constraints.",
+    "unresolved": "Camera XYZ, yaw/pitch/roll, lens/distortion and construction dimensions remain unsolved."
+  },
+  {
+    "id": "064",
+    "review_date": "2026-10-08",
+    "review_status": "visually_reviewed",
+    "inspection": "Individual image reviewed in 6-image sheets; ambiguous critical details enlarged. Plans 102/103/104 and section 101 also inspected.",
+    "observed_features": "Düşey cam doğrama, iç korkuluk, bir üçgen lamel yüzey ve dışta pavyon parçası görülüyor.",
+    "crosscheck_ids": [
+      "027",
+      "030",
+      "049"
+    ],
+    "decision": "Spiral merdiven yanına atama desteklenmiyor; Grand Hall cam çevresi adayı, yön yok.",
+    "source_path": "07_Yapi_Detaylari/Cam_Cati_ve_Struktur/064_Cam_cephe_dograma_detayi_WikiArquitectura.jpg",
+    "source_url": "https://es.wikiarquitectura.com/edificio/museo-de-arte-moderno-grand-duc-jean-mudam/",
+    "source_sha256": "56183b78ba1b23c24eb0bf1731bf81ded5720566899da74008fcf439ea7f802e",
+    "previous_assignment": {
+      "level": "0",
+      "area": "Pavyona yakın cam doğrama",
+      "xy": [
+        289,
+        320
+      ],
+      "target": null,
+      "quality": "region",
+      "radius_m": 14,
+      "angle_uncertainty_deg": null,
+      "stair_system": null,
+      "evidence": "Cam doğrama ve çimenli dış alan; benzer cephe modülleri nedeniyle tekil konum belirsiz."
+    },
+    "overrides": {
+      "target": null,
+      "quality": "region",
+      "angle_uncertainty_deg": null,
+      "xy": [
+        575,
+        385
+      ],
+      "area": "Grand Hall / pavyona bakan cam çevresi adayı",
+      "radius_m": 18
+    },
+    "current_level": "0",
+    "current_quality": "region",
+    "level_status": "visual_inference_not_surveyed",
+    "camera_pose_verified": false,
+    "metric_geometry_approved": false,
+    "model_use": "Visible form, material appearance and explicitly identified spatial relationships only; no inferred metric dimensions or camera constraints.",
+    "unresolved": "Camera XYZ, yaw/pitch/roll, lens/distortion and construction dimensions remain unsolved."
+  },
+  {
+    "id": "065",
+    "review_date": "2026-10-08",
+    "review_status": "visually_reviewed",
+    "inspection": "Individual image reviewed in 6-image sheets; ambiguous critical details enlarged. Plans 102/103/104 and section 101 also inspected.",
+    "observed_features": "Taş galeri duvarı solda, tarihi duvarlar ve meydan yapıları dışarıda görülüyor.",
+    "crosscheck_ids": [
+      "002",
+      "003",
+      "067"
+    ],
+    "decision": "Cam bağlantı çevresinden dış bakış olası; kesin kamera uzaklığı çözülmedi.",
+    "source_path": "03_Vaziyet_ve_Peyzaj/Tarihi_Duvarlar_ve_Cevre/065_Tarihi_duvarlar_park_ve_yaklasim_WikiArquitectura.jpg",
+    "source_url": "https://es.wikiarquitectura.com/edificio/museo-de-arte-moderno-grand-duc-jean-mudam/",
+    "source_sha256": "99eef99c21a91b2ac3f8cbba51e324729ce784824ab0167e147e73bd90565cee",
+    "previous_assignment": {
+      "level": "0",
+      "area": "Cam geçitten tarihi duvarlara bakış",
+      "xy": [
+        242,
+        278
+      ],
+      "target": [
+        240,
+        461
+      ],
+      "quality": "estimate",
+      "radius_m": 9,
+      "angle_uncertainty_deg": 30,
+      "stair_system": null,
+      "evidence": "Galeri yan duvarı, arkeolojik duvar izi ve meydan yönündeki yüksek yapılar."
+    },
+    "overrides": {},
+    "current_level": "0",
+    "current_quality": "estimate",
+    "level_status": "visual_inference_not_surveyed",
+    "camera_pose_verified": false,
+    "metric_geometry_approved": false,
+    "model_use": "Visible form, material appearance and explicitly identified spatial relationships only; no inferred metric dimensions or camera constraints.",
+    "unresolved": "Camera XYZ, yaw/pitch/roll, lens/distortion and construction dimensions remain unsolved."
+  },
+  {
+    "id": "066",
+    "review_date": "2026-10-08",
+    "review_status": "visually_reviewed",
+    "inspection": "Individual image reviewed in 6-image sheets; ambiguous critical details enlarged. Plans 102/103/104 and section 101 also inspected.",
+    "observed_features": "Taş duvara bitişik uzun düz merdiven kolu; diğer yan ve tavan cam, duvarda Galeries yazısı var.",
+    "crosscheck_ids": [
+      "067",
+      "097",
+      "102",
+      "103"
+    ],
+    "decision": "Düz pavyon köprüsü değil; 097'deki batı cam merdiven hacmiyle aday eşleşme, uç kotlar belirsiz.",
+    "source_path": "04_Ic_Mekan/Cam_Gecit/066_Cam_gecit_ve_pavyon_baglantisi_WikiArquitectura.jpg",
+    "source_url": "https://es.wikiarquitectura.com/edificio/museo-de-arte-moderno-grand-duc-jean-mudam/",
+    "source_sha256": "df52c5100b34ba3f770e723fe5a84a5e2bcbb72596b757bf092f54484a7ce648",
+    "previous_assignment": {
+      "level": "0",
+      "area": "Pavyon cam geçidi",
+      "xy": [
+        178,
+        279
+      ],
+      "target": [
+        286,
+        279
+      ],
+      "quality": "estimate",
+      "radius_m": 4,
+      "angle_uncertainty_deg": 20,
+      "stair_system": null,
+      "evidence": "Cam koridorun uzun ekseni ve kısa basamak dizisi; çekim yönü ana binaya doğru olası."
+    },
+    "overrides": {
+      "target": null,
+      "quality": "region",
+      "angle_uncertainty_deg": null,
+      "xy": [
+        893,
+        345
+      ],
+      "area": "Batı cam merdiven hacmi / 097 ile aday eşleşme",
+      "level": "ara",
+      "radius_m": 12,
+      "stair_system": "STAIR_WEST_GLAZED_CANDIDATE"
+    },
+    "current_level": "ara",
+    "current_quality": "region",
+    "level_status": "unresolved",
+    "camera_pose_verified": false,
+    "metric_geometry_approved": false,
+    "model_use": "Visible form, material appearance and explicitly identified spatial relationships only; no inferred metric dimensions or camera constraints.",
+    "unresolved": "Camera XYZ, yaw/pitch/roll, lens/distortion and construction dimensions remain unsolved."
+  },
+  {
+    "id": "067",
+    "review_date": "2026-10-08",
+    "review_status": "visually_reviewed",
+    "inspection": "Individual image reviewed in 6-image sheets; ambiguous critical details enlarged. Plans 102/103/104 and section 101 also inspected.",
+    "observed_features": "Düz taş zeminli cam koridorun sonunda pavyonun çokgen cam feneri görülüyor.",
+    "crosscheck_ids": [
+      "068",
+      "089",
+      "102"
+    ],
+    "decision": "Eski ana binaya bakış ters; bakış pavyona doğru düzeltildi.",
+    "source_path": "04_Ic_Mekan/Cam_Gecit/067_Cam_gecit_ve_pavyon_baglantisi_WikiArquitectura.jpg",
+    "source_url": "https://es.wikiarquitectura.com/edificio/museo-de-arte-moderno-grand-duc-jean-mudam/",
+    "source_sha256": "3a1d86786f2de9bbf569f98f032653346c3c3a059f11f6aef50ea5c64e638af7",
+    "previous_assignment": {
+      "level": "0",
+      "area": "Pavyon cam geçidi",
+      "xy": [
+        175,
+        283
+      ],
+      "target": [
+        299,
+        283
+      ],
+      "quality": "estimate",
+      "radius_m": 4,
+      "angle_uncertainty_deg": 15,
+      "stair_system": null,
+      "evidence": "Simetrik koridor ekseni, iki yandaki cam ve taş ana bina yüzeyi."
+    },
+    "overrides": {
+      "target": [
+        110,
+        280
+      ],
+      "area": "Cam bağlantıdan pavyona doğru bakış"
+    },
+    "current_level": "0",
+    "current_quality": "estimate",
+    "level_status": "visual_inference_not_surveyed",
+    "camera_pose_verified": false,
+    "metric_geometry_approved": false,
+    "model_use": "Visible form, material appearance and explicitly identified spatial relationships only; no inferred metric dimensions or camera constraints.",
+    "unresolved": "Camera XYZ, yaw/pitch/roll, lens/distortion and construction dimensions remain unsolved."
+  },
+  {
+    "id": "068",
+    "review_date": "2026-10-08",
+    "review_status": "visually_reviewed",
+    "inspection": "Individual image reviewed in 6-image sheets; ambiguous critical details enlarged. Plans 102/103/104 and section 101 also inspected.",
+    "observed_features": "Cam bağlantının yatay çatı ızgarası ve onun ötesinde pavyon feneri görülüyor.",
+    "crosscheck_ids": [
+      "067",
+      "089"
+    ],
+    "decision": "Pavyon bağlantısı çatı detayı; azimut ve kamera noktası kesin değil.",
+    "source_path": "07_Yapi_Detaylari/Cam_Cati_ve_Struktur/068_Cam_cati_celik_tasiyici_ve_birlesim_WikiArquitectura.jpg",
+    "source_url": "https://es.wikiarquitectura.com/edificio/museo-de-arte-moderno-grand-duc-jean-mudam/",
+    "source_sha256": "5da242167a1780542ab3faefceb187514e323546d0fab074462715f244566ba2",
+    "previous_assignment": {
+      "level": "0",
+      "area": "Cam geçit çatı birleşimi",
+      "xy": [
+        220,
+        280
+      ],
+      "target": null,
+      "quality": "region",
+      "radius_m": 7,
+      "angle_uncertainty_deg": null,
+      "stair_system": null,
+      "evidence": "Cam geçit çatısı ve gerideki cam üst yapı; yukarı yakın plan."
+    },
+    "overrides": {},
+    "current_level": "0",
+    "current_quality": "region",
+    "level_status": "visual_inference_not_surveyed",
+    "camera_pose_verified": false,
+    "metric_geometry_approved": false,
+    "model_use": "Visible form, material appearance and explicitly identified spatial relationships only; no inferred metric dimensions or camera constraints.",
+    "unresolved": "Camera XYZ, yaw/pitch/roll, lens/distortion and construction dimensions remain unsolved."
+  },
+  {
+    "id": "069",
+    "review_date": "2026-10-08",
+    "review_status": "visually_reviewed",
+    "inspection": "Individual image reviewed in 6-image sheets; ambiguous critical details enlarged. Plans 102/103/104 and section 101 also inspected.",
+    "observed_features": "Taş duvarda yüksek ahşap kapı kenarı, siyah menfez ve üçgen döşeme derzleri var.",
+    "crosscheck_ids": [
+      "070",
+      "071"
+    ],
+    "decision": "Oditoryum kapısı olduğu kanıtlanmıyor; yalnız dosya sırasına dayanan −1 ataması kaldırıldı.",
+    "source_path": "07_Yapi_Detaylari/Tas_ve_Beton/069_Duvar_tavan_kapi_ve_malzeme_detayi_WikiArquitectura.jpg",
+    "source_url": "https://es.wikiarquitectura.com/edificio/museo-de-arte-moderno-grand-duc-jean-mudam/",
+    "source_sha256": "f84de6d648075704f0bd0759eced7bbfcb37c8019c275f106fca4e222e74caa8",
+    "previous_assignment": {
+      "level": "-1",
+      "area": "Alt kat fuaye / oditoryum kapıları",
+      "xy": [
+        597,
+        454
+      ],
+      "target": null,
+      "quality": "region",
+      "radius_m": 18,
+      "angle_uncertainty_deg": null,
+      "stair_system": null,
+      "evidence": "Ahşap çift kanat kapı ve taş duvar; 071-076 serisiyle ilişkili aday bölge, kesin kapı değil."
+    },
+    "overrides": {
+      "xy": null,
+      "target": null,
+      "quality": "unresolved",
+      "radius_m": null,
+      "angle_uncertainty_deg": null,
+      "area": "Ahşap çift kanat kapı / oda ve kat belirsiz",
+      "level": "belirsiz"
+    },
+    "current_level": "belirsiz",
+    "current_quality": "unresolved",
+    "level_status": "unresolved",
+    "camera_pose_verified": false,
+    "metric_geometry_approved": false,
+    "model_use": "Visible form, material appearance and explicitly identified spatial relationships only; no inferred metric dimensions or camera constraints.",
+    "unresolved": "Camera XYZ, yaw/pitch/roll, lens/distortion and construction dimensions remain unsolved."
+  },
+  {
+    "id": "070",
+    "review_date": "2026-10-08",
+    "review_status": "visually_reviewed",
+    "inspection": "Individual image reviewed in 6-image sheets; ambiguous critical details enlarged. Plans 102/103/104 and section 101 also inspected.",
+    "observed_features": "Taş söve içinde çift kanat ahşap kapı; çevrede holün yalnız küçük bir kısmı var.",
+    "crosscheck_ids": [
+      "069",
+      "071"
+    ],
+    "decision": "Kapı ailesi okunuyor; oditoryum/kat kimliği kesin değil, harita noktası kaldırıldı.",
+    "source_path": "07_Yapi_Detaylari/Tas_ve_Beton/070_Duvar_tavan_kapi_ve_malzeme_detayi_WikiArquitectura.jpg",
+    "source_url": "https://es.wikiarquitectura.com/edificio/museo-de-arte-moderno-grand-duc-jean-mudam/",
+    "source_sha256": "12169df8e05276276d2494e4c3ed0cecc497f9d8c62f6f5de01f7cb2013a08b9",
+    "previous_assignment": {
+      "level": "-1",
+      "area": "Alt kat fuaye / oditoryum kapıları",
+      "xy": [
+        597,
+        454
+      ],
+      "target": null,
+      "quality": "region",
+      "radius_m": 18,
+      "angle_uncertainty_deg": null,
+      "stair_system": null,
+      "evidence": "Ahşap çift kanat kapı ve taş duvar; 071-076 serisiyle ilişkili aday bölge, kesin kapı değil."
+    },
+    "overrides": {
+      "xy": null,
+      "target": null,
+      "quality": "unresolved",
+      "radius_m": null,
+      "angle_uncertainty_deg": null,
+      "area": "Ahşap çift kanat kapı / oda ve kat belirsiz",
+      "level": "belirsiz"
+    },
+    "current_level": "belirsiz",
+    "current_quality": "unresolved",
+    "level_status": "unresolved",
+    "camera_pose_verified": false,
+    "metric_geometry_approved": false,
+    "model_use": "Visible form, material appearance and explicitly identified spatial relationships only; no inferred metric dimensions or camera constraints.",
+    "unresolved": "Camera XYZ, yaw/pitch/roll, lens/distortion and construction dimensions remain unsolved."
+  },
+  {
+    "id": "071",
+    "review_date": "2026-10-08",
+    "review_status": "visually_reviewed",
+    "inspection": "Individual image reviewed in 6-image sheets; ambiguous critical details enlarged. Plans 102/103/104 and section 101 also inspected.",
+    "observed_features": "Koltuk sıraları sahne/perdeye bakıyor; ahşap duvar ve kaset tavan birlikte görülüyor.",
+    "crosscheck_ids": [
+      "073",
+      "074",
+      "104"
+    ],
+    "decision": "Oditoryum kimliği ve −1 plan ilişkisi güçlü; sıra sayısı ve kamera mesafesi ölçülmedi.",
+    "source_path": "04_Ic_Mekan/Oditoryum/071_Oditoryum_ve_ahsap_duvarlar_WikiArquitectura.jpg",
+    "source_url": "https://es.wikiarquitectura.com/edificio/museo-de-arte-moderno-grand-duc-jean-mudam/",
+    "source_sha256": "5ef0cecc58dafed66ea18b16099a87078b6039a9a1cb063e708c6d1ff4f98cda",
+    "previous_assignment": {
+      "level": "-1",
+      "area": "Oditoryum arka sıralar",
+      "xy": [
+        618,
+        543
+      ],
+      "target": [
+        567,
+        461
+      ],
+      "quality": "estimate",
+      "radius_m": 6,
+      "angle_uncertainty_deg": 25,
+      "stair_system": null,
+      "evidence": "Oturma sıraları, sunum perdesi ve ahşap akustik duvarlar."
+    },
+    "overrides": {},
+    "current_level": "-1",
+    "current_quality": "estimate",
+    "level_status": "visual_inference_not_surveyed",
+    "camera_pose_verified": false,
+    "metric_geometry_approved": false,
+    "model_use": "Visible form, material appearance and explicitly identified spatial relationships only; no inferred metric dimensions or camera constraints.",
+    "unresolved": "Camera XYZ, yaw/pitch/roll, lens/distortion and construction dimensions remain unsolved."
+  },
+  {
+    "id": "072",
+    "review_date": "2026-10-08",
+    "review_status": "visually_reviewed",
+    "inspection": "Individual image reviewed in 6-image sheets; ambiguous critical details enlarged. Plans 102/103/104 and section 101 also inspected.",
+    "observed_features": "Delikli kare ızgaralı ahşap panel ve önünde koltuk sırtı var.",
+    "crosscheck_ids": [
+      "071",
+      "073",
+      "076"
+    ],
+    "decision": "Oditoryum panel ailesi; hangi duvar modülü olduğu kesin değil.",
+    "source_path": "04_Ic_Mekan/Oditoryum/072_Oditoryum_ve_ahsap_duvarlar_WikiArquitectura.jpg",
+    "source_url": "https://es.wikiarquitectura.com/edificio/museo-de-arte-moderno-grand-duc-jean-mudam/",
+    "source_sha256": "b699515cde78c4e386d8a5adfbb9da75377bcf1f66115d834ca98a9df8c0eebb",
+    "previous_assignment": {
+      "level": "-1",
+      "area": "Oditoryum yan duvarı",
+      "xy": [
+        610,
+        505
+      ],
+      "target": null,
+      "quality": "region",
+      "radius_m": 8,
+      "angle_uncertainty_deg": null,
+      "stair_system": null,
+      "evidence": "Delikli ahşap akustik kaplama; salon belirli, duvardaki tam nokta belirsiz."
+    },
+    "overrides": {},
+    "current_level": "-1",
+    "current_quality": "region",
+    "level_status": "visual_inference_not_surveyed",
+    "camera_pose_verified": false,
+    "metric_geometry_approved": false,
+    "model_use": "Visible form, material appearance and explicitly identified spatial relationships only; no inferred metric dimensions or camera constraints.",
+    "unresolved": "Camera XYZ, yaw/pitch/roll, lens/distortion and construction dimensions remain unsolved."
+  },
+  {
+    "id": "073",
+    "review_date": "2026-10-08",
+    "review_status": "visually_reviewed",
+    "inspection": "Individual image reviewed in 6-image sheets; ambiguous critical details enlarged. Plans 102/103/104 and section 101 also inspected.",
+    "observed_features": "Perde solda, sahne ve yan çıkış sağda; 071'in karşı çapraz görünüşü.",
+    "crosscheck_ids": [
+      "071",
+      "074",
+      "104"
+    ],
+    "decision": "Oditoryum ilişkisi tutarlı; fotoğraf kamerası hâlâ hipotez.",
+    "source_path": "04_Ic_Mekan/Oditoryum/073_Oditoryum_ve_ahsap_duvarlar_WikiArquitectura.jpg",
+    "source_url": "https://es.wikiarquitectura.com/edificio/museo-de-arte-moderno-grand-duc-jean-mudam/",
+    "source_sha256": "0bef39b731590c2ce4c9b155c9c2c4ecd6917c1e7cba1024b264813721b52dce",
+    "previous_assignment": {
+      "level": "-1",
+      "area": "Oditoryum arka sıralar",
+      "xy": [
+        546,
+        542
+      ],
+      "target": [
+        581,
+        461
+      ],
+      "quality": "estimate",
+      "radius_m": 6,
+      "angle_uncertainty_deg": 25,
+      "stair_system": null,
+      "evidence": "Perde ve koltuk sıralarına çapraz bakış, 071’in karşı tarafı olası."
+    },
+    "overrides": {},
+    "current_level": "-1",
+    "current_quality": "estimate",
+    "level_status": "visual_inference_not_surveyed",
+    "camera_pose_verified": false,
+    "metric_geometry_approved": false,
+    "model_use": "Visible form, material appearance and explicitly identified spatial relationships only; no inferred metric dimensions or camera constraints.",
+    "unresolved": "Camera XYZ, yaw/pitch/roll, lens/distortion and construction dimensions remain unsolved."
+  },
+  {
+    "id": "074",
+    "review_date": "2026-10-08",
+    "review_status": "visually_reviewed",
+    "inspection": "Individual image reviewed in 6-image sheets; ambiguous critical details enlarged. Plans 102/103/104 and section 101 also inspected.",
+    "observed_features": "Kaset tavanın eğimli iç yüzleri, menfez ve alt kenarda perde/çıkış görülüyor.",
+    "crosscheck_ids": [
+      "071",
+      "073",
+      "075"
+    ],
+    "decision": "Salon tavanı eşleşiyor; kaset yüksekliği ve boyutu ölçülmedi.",
+    "source_path": "07_Yapi_Detaylari/Tavan_ve_Akustik/074_Oditoryum_kaset_tavan_WikiArquitectura.jpg",
+    "source_url": "https://es.wikiarquitectura.com/edificio/museo-de-arte-moderno-grand-duc-jean-mudam/",
+    "source_sha256": "8edf5fb5c2df80d29261d70008a46ca4f12db0e2f9c905db93e69298bcc5b456",
+    "previous_assignment": {
+      "level": "-1",
+      "area": "Oditoryum tavanı",
+      "xy": [
+        580,
+        511
+      ],
+      "target": null,
+      "quality": "region",
+      "radius_m": 9,
+      "angle_uncertainty_deg": null,
+      "stair_system": null,
+      "evidence": "Kaset tavan modülleri; tekrarlanan geometri tekil kamera konumu vermiyor."
+    },
+    "overrides": {},
+    "current_level": "-1",
+    "current_quality": "region",
+    "level_status": "visual_inference_not_surveyed",
+    "camera_pose_verified": false,
+    "metric_geometry_approved": false,
+    "model_use": "Visible form, material appearance and explicitly identified spatial relationships only; no inferred metric dimensions or camera constraints.",
+    "unresolved": "Camera XYZ, yaw/pitch/roll, lens/distortion and construction dimensions remain unsolved."
+  },
+  {
+    "id": "075",
+    "review_date": "2026-10-08",
+    "review_status": "visually_reviewed",
+    "inspection": "Individual image reviewed in 6-image sheets; ambiguous critical details enlarged. Plans 102/103/104 and section 101 also inspected.",
+    "observed_features": "Dört kasetin birleşimi ve içlerindeki kare menfezler tam yukarıdan kadraja giriyor.",
+    "crosscheck_ids": [
+      "074"
+    ],
+    "decision": "Oditoryum tavan modülü; plan azimutu ve tekil modül bilinmiyor.",
+    "source_path": "07_Yapi_Detaylari/Tavan_ve_Akustik/075_Oditoryum_kaset_tavan_WikiArquitectura.jpg",
+    "source_url": "https://es.wikiarquitectura.com/edificio/museo-de-arte-moderno-grand-duc-jean-mudam/",
+    "source_sha256": "dc040b013388d76eb8d802e2de79606a735c37a095f5699e7d30c60f26fb7f66",
+    "previous_assignment": {
+      "level": "-1",
+      "area": "Oditoryum tavanı",
+      "xy": [
+        580,
+        511
+      ],
+      "target": null,
+      "quality": "region",
+      "radius_m": 9,
+      "angle_uncertainty_deg": null,
+      "stair_system": null,
+      "evidence": "Kaset tavan modülleri; tekrarlanan geometri tekil kamera konumu vermiyor."
+    },
+    "overrides": {},
+    "current_level": "-1",
+    "current_quality": "region",
+    "level_status": "visual_inference_not_surveyed",
+    "camera_pose_verified": false,
+    "metric_geometry_approved": false,
+    "model_use": "Visible form, material appearance and explicitly identified spatial relationships only; no inferred metric dimensions or camera constraints.",
+    "unresolved": "Camera XYZ, yaw/pitch/roll, lens/distortion and construction dimensions remain unsolved."
+  },
+  {
+    "id": "076",
+    "review_date": "2026-10-08",
+    "review_status": "visually_reviewed",
+    "inspection": "Individual image reviewed in 6-image sheets; ambiguous critical details enlarged. Plans 102/103/104 and section 101 also inspected.",
+    "observed_features": "Düz ve delikli ahşap paneller, gömme spotlar ve sahne/oturma kenarı görülüyor.",
+    "crosscheck_ids": [
+      "071",
+      "072",
+      "073"
+    ],
+    "decision": "Oditoryum kaplama detayı; tüm duvarlar aynı panelle kaplı varsayılmamalı.",
+    "source_path": "04_Ic_Mekan/Oditoryum/076_Oditoryum_ve_ahsap_duvarlar_WikiArquitectura.jpg",
+    "source_url": "https://es.wikiarquitectura.com/edificio/museo-de-arte-moderno-grand-duc-jean-mudam/",
+    "source_sha256": "7101713a13e2957861944f4e5d42a3576dc2f62a421c11c87373f1d7317248ba",
+    "previous_assignment": {
+      "level": "-1",
+      "area": "Oditoryum duvar detayı",
+      "xy": [
+        599,
+        513
+      ],
+      "target": null,
+      "quality": "region",
+      "radius_m": 9,
+      "angle_uncertainty_deg": null,
+      "stair_system": null,
+      "evidence": "Ahşap kaplama, akustik panel ve sıra korkuluğu."
+    },
+    "overrides": {},
+    "current_level": "-1",
+    "current_quality": "region",
+    "level_status": "visual_inference_not_surveyed",
+    "camera_pose_verified": false,
+    "metric_geometry_approved": false,
+    "model_use": "Visible form, material appearance and explicitly identified spatial relationships only; no inferred metric dimensions or camera constraints.",
+    "unresolved": "Camera XYZ, yaw/pitch/roll, lens/distortion and construction dimensions remain unsolved."
+  },
+  {
+    "id": "077",
+    "review_date": "2026-10-08",
+    "review_status": "visually_reviewed",
+    "inspection": "Individual image reviewed in 6-image sheets; ambiguous critical details enlarged. Plans 102/103/104 and section 101 also inspected.",
+    "observed_features": "Taş nişte metal asansör kapısı, çağrı elemanları ve levha görülüyor.",
+    "crosscheck_ids": [
+      "017",
+      "078",
+      "102",
+      "103",
+      "104"
+    ],
+    "decision": "Asansör ailesi belli; birden çok katta tekrarlandığından kat ataması yapılamaz.",
+    "source_path": "04_Ic_Mekan/Asansor_ve_Servis/077_Asansor_ve_erisim_WikiArquitectura.jpg",
+    "source_url": "https://es.wikiarquitectura.com/edificio/museo-de-arte-moderno-grand-duc-jean-mudam/",
+    "source_sha256": "b340072636ba2b551d2e3b6a336b6c15f1f9060adb92f5f36a0e68bd24f6da2c",
+    "previous_assignment": {
+      "level": "belirsiz",
+      "area": "Asansör ön holü",
+      "xy": null,
+      "target": null,
+      "quality": "unresolved",
+      "radius_m": null,
+      "angle_uncertainty_deg": null,
+      "stair_system": null,
+      "evidence": "Asansör cephesi aynı düşey çekirdeğin birden fazla katında tekrarlanabilir; katı doğrulayacak işaret yok."
+    },
+    "overrides": {},
+    "current_level": "belirsiz",
+    "current_quality": "unresolved",
+    "level_status": "unresolved",
+    "camera_pose_verified": false,
+    "metric_geometry_approved": false,
+    "model_use": "Visible form, material appearance and explicitly identified spatial relationships only; no inferred metric dimensions or camera constraints.",
+    "unresolved": "Camera XYZ, yaw/pitch/roll, lens/distortion and construction dimensions remain unsolved."
+  },
+  {
+    "id": "078",
+    "review_date": "2026-10-08",
+    "review_status": "visually_reviewed",
+    "inspection": "Individual image reviewed in 6-image sheets; ambiguous critical details enlarged. Plans 102/103/104 and section 101 also inspected.",
+    "observed_features": "Metal kabin içinde kontrol paneli, tutamak ve birleşim derzleri görülüyor.",
+    "crosscheck_ids": [
+      "077"
+    ],
+    "decision": "Kabin detayı kullanılabilir; görüntü katı veya dış yönü kanıtlamıyor.",
+    "source_path": "04_Ic_Mekan/Asansor_ve_Servis/078_Asansor_ve_erisim_WikiArquitectura.jpg",
+    "source_url": "https://es.wikiarquitectura.com/edificio/museo-de-arte-moderno-grand-duc-jean-mudam/",
+    "source_sha256": "b325908792931817c1912c7f02e22ec2e5b7b7f6a10f31d922859459c73a45ce",
+    "previous_assignment": {
+      "level": "belirsiz",
+      "area": "Asansör kabini",
+      "xy": null,
+      "target": null,
+      "quality": "unresolved",
+      "radius_m": null,
+      "angle_uncertainty_deg": null,
+      "stair_system": null,
+      "evidence": "Kabinin hangi katta durduğu ve fotoğraf doğrultusu dış referans olmadan belirlenemiyor."
+    },
+    "overrides": {},
+    "current_level": "belirsiz",
+    "current_quality": "unresolved",
+    "level_status": "unresolved",
+    "camera_pose_verified": false,
+    "metric_geometry_approved": false,
+    "model_use": "Visible form, material appearance and explicitly identified spatial relationships only; no inferred metric dimensions or camera constraints.",
+    "unresolved": "Camera XYZ, yaw/pitch/roll, lens/distortion and construction dimensions remain unsolved."
+  },
+  {
+    "id": "079",
+    "review_date": "2026-10-08",
+    "review_status": "visually_reviewed",
+    "inspection": "Individual image reviewed in 6-image sheets; ambiguous critical details enlarged. Plans 102/103/104 and section 101 also inspected.",
+    "observed_features": "Taş duvara gömülü ince siyah çizgili teknik ızgara var.",
+    "crosscheck_ids": [
+      "017",
+      "059"
+    ],
+    "decision": "Önceki radyatör adı fazla kesin; teknik ızgara olarak düzeltildi, işlev belirsiz.",
+    "source_path": "07_Yapi_Detaylari/Tas_ve_Beton/079_Duvar_tavan_kapi_ve_malzeme_detayi_WikiArquitectura.jpg",
+    "source_url": "https://es.wikiarquitectura.com/edificio/museo-de-arte-moderno-grand-duc-jean-mudam/",
+    "source_sha256": "b0a748454f456ca2657e4d4106c2c72ce4732c0bc9246fafac2060d71e7f543a",
+    "previous_assignment": {
+      "level": "belirsiz",
+      "area": "Teknik duvar / radyatör",
+      "xy": null,
+      "target": null,
+      "quality": "unresolved",
+      "radius_m": null,
+      "angle_uncertainty_deg": null,
+      "stair_system": null,
+      "evidence": "Yakın taş duvar ve teknik eleman; kat veya oda için yeterli benzersiz gösterge yok."
+    },
+    "overrides": {
+      "area": "Taş duvardaki teknik ızgara / işlev belirsiz"
+    },
+    "current_level": "belirsiz",
+    "current_quality": "unresolved",
+    "level_status": "unresolved",
+    "camera_pose_verified": false,
+    "metric_geometry_approved": false,
+    "model_use": "Visible form, material appearance and explicitly identified spatial relationships only; no inferred metric dimensions or camera constraints.",
+    "unresolved": "Camera XYZ, yaw/pitch/roll, lens/distortion and construction dimensions remain unsolved."
+  },
+  {
+    "id": "080",
+    "review_date": "2026-10-08",
+    "review_status": "visually_reviewed",
+    "inspection": "Individual image reviewed in 6-image sheets; ambiguous critical details enlarged. Plans 102/103/104 and section 101 also inspected.",
+    "observed_features": "Taş duvar üzerinde dairesel WC piktogramı görülüyor.",
+    "crosscheck_ids": [
+      "081",
+      "102"
+    ],
+    "decision": "İşaret ailesi; belirli WC veya kat tekilleşmiyor.",
+    "source_path": "07_Yapi_Detaylari/Yonlendirme/080_Tuvalet_yonlendirmesi_WikiArquitectura.jpg",
+    "source_url": "https://es.wikiarquitectura.com/edificio/museo-de-arte-moderno-grand-duc-jean-mudam/",
+    "source_sha256": "8b5810a82fa91949234f62c9afe1197198e51901cdb936fda3a06d50c1a54eae",
+    "previous_assignment": {
+      "level": "belirsiz",
+      "area": "Tuvalet / servis",
+      "xy": null,
+      "target": null,
+      "quality": "unresolved",
+      "radius_m": null,
+      "angle_uncertainty_deg": null,
+      "stair_system": null,
+      "evidence": "Tuvalet işareti ve lavabo; resmî şemada birden fazla olası servis konumu var."
+    },
+    "overrides": {},
+    "current_level": "belirsiz",
+    "current_quality": "unresolved",
+    "level_status": "unresolved",
+    "camera_pose_verified": false,
+    "metric_geometry_approved": false,
+    "model_use": "Visible form, material appearance and explicitly identified spatial relationships only; no inferred metric dimensions or camera constraints.",
+    "unresolved": "Camera XYZ, yaw/pitch/roll, lens/distortion and construction dimensions remain unsolved."
+  },
+  {
+    "id": "081",
+    "review_date": "2026-10-08",
+    "review_status": "visually_reviewed",
+    "inspection": "Individual image reviewed in 6-image sheets; ambiguous critical details enlarged. Plans 102/103/104 and section 101 also inspected.",
+    "observed_features": "Koyu taş yüzeyli lavabo hacmi, ayna, duvara asılı lavabolar ve kapılar var.",
+    "crosscheck_ids": [
+      "080"
+    ],
+    "decision": "WC malzeme/armatür referansı; hangi oda/kat olduğu bilinmiyor.",
+    "source_path": "04_Ic_Mekan/Asansor_ve_Servis/081_Tuvalet_lavabo_ve_servis_WikiArquitectura.jpg",
+    "source_url": "https://es.wikiarquitectura.com/edificio/museo-de-arte-moderno-grand-duc-jean-mudam/",
+    "source_sha256": "213521a9aed1fe9aa5f0bfe702d7754100ab9a99925a8cdd5f6a9198802558d4",
+    "previous_assignment": {
+      "level": "belirsiz",
+      "area": "Tuvalet / servis",
+      "xy": null,
+      "target": null,
+      "quality": "unresolved",
+      "radius_m": null,
+      "angle_uncertainty_deg": null,
+      "stair_system": null,
+      "evidence": "Tuvalet işareti ve lavabo; resmî şemada birden fazla olası servis konumu var."
+    },
+    "overrides": {},
+    "current_level": "belirsiz",
+    "current_quality": "unresolved",
+    "level_status": "unresolved",
+    "camera_pose_verified": false,
+    "metric_geometry_approved": false,
+    "model_use": "Visible form, material appearance and explicitly identified spatial relationships only; no inferred metric dimensions or camera constraints.",
+    "unresolved": "Camera XYZ, yaw/pitch/roll, lens/distortion and construction dimensions remain unsolved."
+  },
+  {
+    "id": "086",
+    "review_date": "2026-10-08",
+    "review_status": "visually_reviewed",
+    "inspection": "Individual image reviewed in 6-image sheets; ambiguous critical details enlarged. Plans 102/103/104 and section 101 also inspected.",
+    "observed_features": "Fort'un yuvarlak kulesi ve tarihi duvar önünde; Mudam cam çatısı geride.",
+    "crosscheck_ids": [
+      "087",
+      "092",
+      "108"
+    ],
+    "decision": "Fort tarafından bakış tutarlı; yerel kamera metriği çözülmedi.",
+    "source_path": "05_Dis_Mekan/Tarihi_Duvarlarla_Iliski/086_Muze_ve_tarihi_sur_duvarlari_ArchEyes.jpg",
+    "source_url": "https://archeyes.com/the-mudam-by-i-m-pei-where-old-meets-new/",
+    "source_sha256": "0e27102e2173953bbc8cc72fe3e95a220ff7f15d2542f5858c306367753c21eb",
+    "previous_assignment": {
+      "level": "dis",
+      "area": "Fort Thüngen yakınında dış yaklaşım",
+      "xy": [
+        600,
+        -105
+      ],
+      "target": [
+        566,
+        330
+      ],
+      "quality": "estimate",
+      "radius_m": 20,
+      "angle_uncertainty_deg": 25,
+      "stair_system": null,
+      "evidence": "Fort duvarı önde, Mudam cam üst yapısı geride. Tarihi duvarlar kamera bölgesini sınırlar."
+    },
+    "overrides": {},
+    "current_level": "dis",
+    "current_quality": "estimate",
+    "level_status": "visual_inference_not_surveyed",
+    "camera_pose_verified": false,
+    "metric_geometry_approved": false,
+    "model_use": "Visible form, material appearance and explicitly identified spatial relationships only; no inferred metric dimensions or camera constraints.",
+    "unresolved": "Camera XYZ, yaw/pitch/roll, lens/distortion and construction dimensions remain unsolved."
+  },
+  {
+    "id": "087",
+    "review_date": "2026-10-08",
+    "review_status": "visually_reviewed",
+    "inspection": "Individual image reviewed in 6-image sheets; ambiguous critical details enlarged. Plans 102/103/104 and section 101 also inspected.",
+    "observed_features": "Merkezi cam fener ve iki yan cam salon, öndeki Fort bağlantısı ekseninden görülüyor.",
+    "crosscheck_ids": [
+      "092",
+      "095",
+      "119"
+    ],
+    "decision": "Ana giriş kapısı değil; Fort yönündeki yaklaşım/çatı aksı.",
+    "source_path": "05_Dis_Mekan/Giris_ve_Yaklasim/087_Yaklasim_koprusu_ve_cam_cati_ArchEyes.jpg",
+    "source_url": "https://archeyes.com/the-mudam-by-i-m-pei-where-old-meets-new/",
+    "source_sha256": "3d4547c7f0fb344d335b7a312b187e1cdae1a4c0dc4f1ea3b5992f712d76070c",
+    "previous_assignment": {
+      "level": "dis",
+      "area": "Fort tarafındaki köprü / arka yaklaşım",
+      "xy": [
+        575,
+        10
+      ],
+      "target": [
+        575,
+        325
+      ],
+      "quality": "estimate",
+      "radius_m": 9,
+      "angle_uncertainty_deg": 15,
+      "stair_system": null,
+      "evidence": "Köprü aksından merkezi cam piramide ve iki yan cam salona simetrik bakış. Ana giriş kapısı değil."
+    },
+    "overrides": {},
+    "current_level": "dis",
+    "current_quality": "estimate",
+    "level_status": "visual_inference_not_surveyed",
+    "camera_pose_verified": false,
+    "metric_geometry_approved": false,
+    "model_use": "Visible form, material appearance and explicitly identified spatial relationships only; no inferred metric dimensions or camera constraints.",
+    "unresolved": "Camera XYZ, yaw/pitch/roll, lens/distortion and construction dimensions remain unsolved."
+  },
+  {
+    "id": "088",
+    "review_date": "2026-10-08",
+    "review_status": "visually_reviewed",
+    "inspection": "Individual image reviewed in 6-image sheets; ambiguous critical details enlarged. Plans 102/103/104 and section 101 also inspected.",
+    "observed_features": "Pavyon solda, düz bağlantı ortada, nişli galeri ve hendek sağda.",
+    "crosscheck_ids": [
+      "002",
+      "003",
+      "102"
+    ],
+    "decision": "Doğu/pavyon dış görünüş ailesi; boyutlar perspektifle doğrudan okunamaz.",
+    "source_path": "05_Dis_Mekan/Tarihi_Duvarlarla_Iliski/088_Muze_ve_tarihi_sur_duvarlari_ArchEyes.jpg",
+    "source_url": "https://archeyes.com/the-mudam-by-i-m-pei-where-old-meets-new/",
+    "source_sha256": "4f727fa83e84c9648dc0093aebda840ad22649f4483b113dcde0e9c2df33433f",
+    "previous_assignment": {
+      "level": "dis",
+      "area": "Doğu cephe / hendek",
+      "xy": [
+        175,
+        558
+      ],
+      "target": [
+        260,
+        370
+      ],
+      "quality": "estimate",
+      "radius_m": 12,
+      "angle_uncertainty_deg": 25,
+      "stair_system": null,
+      "evidence": "Pavyon solda, taş galeri sağda, tarihi hendek ve duvarlar önde."
+    },
+    "overrides": {},
+    "current_level": "dis",
+    "current_quality": "estimate",
+    "level_status": "visual_inference_not_surveyed",
+    "camera_pose_verified": false,
+    "metric_geometry_approved": false,
+    "model_use": "Visible form, material appearance and explicitly identified spatial relationships only; no inferred metric dimensions or camera constraints.",
+    "unresolved": "Camera XYZ, yaw/pitch/roll, lens/distortion and construction dimensions remain unsolved."
+  },
+  {
+    "id": "089",
+    "review_date": "2026-10-08",
+    "review_status": "visually_reviewed",
+    "inspection": "Individual image reviewed in 6-image sheets; ambiguous critical details enlarged. Plans 102/103/104 and section 101 also inspected.",
+    "observed_features": "Çokgen pavyon feneri ve taş kaide yakın görünüşte; ana çatıdan küçük ölçekli ayrı hacim.",
+    "crosscheck_ids": [
+      "002",
+      "067",
+      "088"
+    ],
+    "decision": "Pavyon kimliği net; dar kadrajda kamera mesafesi belirsiz, yön kaldırıldı.",
+    "source_path": "05_Dis_Mekan/Cepheler/089_Tas_cephe_ve_cam_cati_ArchEyes.jpg",
+    "source_url": "https://archeyes.com/the-mudam-by-i-m-pei-where-old-meets-new/",
+    "source_sha256": "23fa8a30c81c6ac4092e4dc4c39f0eae95e4ce901f0db47ccdc615ec7ebde46d",
+    "previous_assignment": {
+      "level": "dis",
+      "area": "Pavyon dış görünüşü",
+      "xy": [
+        85,
+        540
+      ],
+      "target": [
+        110,
+        281
+      ],
+      "quality": "estimate",
+      "radius_m": 16,
+      "angle_uncertainty_deg": 30,
+      "stair_system": null,
+      "evidence": "Sekizgen pavyon cam çan üstü ve taş kaide; yukarı tele kadraj."
+    },
+    "overrides": {
+      "target": null,
+      "quality": "region",
+      "angle_uncertainty_deg": null
+    },
+    "current_level": "dis",
+    "current_quality": "region",
+    "level_status": "visual_inference_not_surveyed",
+    "camera_pose_verified": false,
+    "metric_geometry_approved": false,
+    "model_use": "Visible form, material appearance and explicitly identified spatial relationships only; no inferred metric dimensions or camera constraints.",
+    "unresolved": "Camera XYZ, yaw/pitch/roll, lens/distortion and construction dimensions remain unsolved."
+  },
+  {
+    "id": "090",
+    "review_date": "2026-10-08",
+    "review_status": "visually_reviewed",
+    "inspection": "Individual image reviewed in 6-image sheets; ambiguous critical details enlarged. Plans 102/103/104 and section 101 also inspected.",
+    "observed_features": "Düz eğik cam çatı önde; daha küçük pavyon feneri sağ geride görülüyor.",
+    "crosscheck_ids": [
+      "034",
+      "088",
+      "089"
+    ],
+    "decision": "Eski merkez kule ve güneybatı yorumu güvenilir değil; kamera ataması kaldırıldı.",
+    "source_path": "05_Dis_Mekan/Cepheler/090_Tas_cephe_ve_cam_cati_ArchEyes.jpg",
+    "source_url": "https://archeyes.com/the-mudam-by-i-m-pei-where-old-meets-new/",
+    "source_sha256": "54aca248428600fe72c684889ee89b621868e0029f2c7d6442c7624f1ce39ec5",
+    "previous_assignment": {
+      "level": "dis",
+      "area": "Cam çatı güneybatı görünüşü",
+      "xy": [
+        668,
+        177
+      ],
+      "target": [
+        572,
+        353
+      ],
+      "quality": "estimate",
+      "radius_m": 18,
+      "angle_uncertainty_deg": 30,
+      "stair_system": null,
+      "evidence": "Eğimli cam kanat ile merkez çan üstü; tam mesafe fotoğraftan ölçülemiyor."
+    },
+    "overrides": {
+      "xy": null,
+      "target": null,
+      "quality": "unresolved",
+      "radius_m": null,
+      "angle_uncertainty_deg": null,
+      "area": "Düz eğik cam örtü ve geride pavyon feneri"
+    },
+    "current_level": "dis",
+    "current_quality": "unresolved",
+    "level_status": "visual_inference_not_surveyed",
+    "camera_pose_verified": false,
+    "metric_geometry_approved": false,
+    "model_use": "Visible form, material appearance and explicitly identified spatial relationships only; no inferred metric dimensions or camera constraints.",
+    "unresolved": "Camera XYZ, yaw/pitch/roll, lens/distortion and construction dimensions remain unsolved."
+  },
+  {
+    "id": "091",
+    "review_date": "2026-10-08",
+    "review_status": "visually_reviewed",
+    "inspection": "Individual image reviewed in 6-image sheets; ambiguous critical details enlarged. Plans 102/103/104 and section 101 also inspected.",
+    "observed_features": "Taş parapet üstünden cam fenerin üst kısmı görülüyor; giriş kapısı kadrajda yok.",
+    "crosscheck_ids": [
+      "089",
+      "100"
+    ],
+    "decision": "Kesin giriş cephesi ataması kanıtlanmıyor; dar kadraj nedeniyle konum kaldırıldı.",
+    "source_path": "05_Dis_Mekan/Cepheler/091_Tas_cephe_ve_cam_cati_ArchEyes.jpg",
+    "source_url": "https://archeyes.com/the-mudam-by-i-m-pei-where-old-meets-new/",
+    "source_sha256": "cacf5607f5bc1b5e0f823705ef08fcedd1bb71638f6600210d8b307e24e967e2",
+    "previous_assignment": {
+      "level": "dis",
+      "area": "Taş giriş cephesi üzerinden cam kule",
+      "xy": [
+        803,
+        852
+      ],
+      "target": [
+        570,
+        357
+      ],
+      "quality": "estimate",
+      "radius_m": 22,
+      "angle_uncertainty_deg": 40,
+      "stair_system": null,
+      "evidence": "Önde taş cephe, üstte merkez cam kule; dar kadraj ve uzaklık belirsiz."
+    },
+    "overrides": {
+      "xy": null,
+      "target": null,
+      "quality": "unresolved",
+      "radius_m": null,
+      "angle_uncertainty_deg": null,
+      "area": "Taş parapet üstünde cam fener / cephe belirsiz"
+    },
+    "current_level": "dis",
+    "current_quality": "unresolved",
+    "level_status": "visual_inference_not_surveyed",
+    "camera_pose_verified": false,
+    "metric_geometry_approved": false,
+    "model_use": "Visible form, material appearance and explicitly identified spatial relationships only; no inferred metric dimensions or camera constraints.",
+    "unresolved": "Camera XYZ, yaw/pitch/roll, lens/distortion and construction dimensions remain unsolved."
+  },
+  {
+    "id": "092",
+    "review_date": "2026-10-08",
+    "review_status": "visually_reviewed",
+    "inspection": "Individual image reviewed in 6-image sheets; ambiguous critical details enlarged. Plans 102/103/104 and section 101 also inspected.",
+    "observed_features": "Fort duvarı önünde merkezi cam piramit, yan örtü ve yüksek bina birlikte görülüyor.",
+    "crosscheck_ids": [
+      "086",
+      "087",
+      "119"
+    ],
+    "decision": "Fort tarafı kimliği tutarlı; metrik kamera hâlâ hipotez.",
+    "source_path": "05_Dis_Mekan/Cepheler/092_Tas_cephe_ve_cam_cati_ArchEyes.jpg",
+    "source_url": "https://archeyes.com/the-mudam-by-i-m-pei-where-old-meets-new/",
+    "source_sha256": "3e6f2522cea95594bdb5434ed7f6e210f33edce3a1c7f66aadf0df53f60dd0c0",
+    "previous_assignment": {
+      "level": "dis",
+      "area": "Fort tarafında cam cephe",
+      "xy": [
+        553,
+        -50
+      ],
+      "target": [
+        574,
+        370
+      ],
+      "quality": "estimate",
+      "radius_m": 16,
+      "angle_uncertainty_deg": 20,
+      "stair_system": null,
+      "evidence": "Merkez piramit, yan cam çatı ve tarihi duvar ilişkisi."
+    },
+    "overrides": {},
+    "current_level": "dis",
+    "current_quality": "estimate",
+    "level_status": "visual_inference_not_surveyed",
+    "camera_pose_verified": false,
+    "metric_geometry_approved": false,
+    "model_use": "Visible form, material appearance and explicitly identified spatial relationships only; no inferred metric dimensions or camera constraints.",
+    "unresolved": "Camera XYZ, yaw/pitch/roll, lens/distortion and construction dimensions remain unsolved."
+  },
+  {
+    "id": "093",
+    "review_date": "2026-10-08",
+    "review_status": "visually_reviewed",
+    "inspection": "Individual image reviewed in 6-image sheets; ambiguous critical details enlarged. Plans 102/103/104 and section 101 also inspected.",
+    "observed_features": "Eğrisel cam salon ana cam piramitle birleşiyor; yüzey ızgarası değişiyor.",
+    "crosscheck_ids": [
+      "087",
+      "119",
+      "102"
+    ],
+    "decision": "Batı/Mudam Café eğrisel çatı ailesi; panel sayısı bağımsız sayılmalı.",
+    "source_path": "05_Dis_Mekan/Cepheler/093_Tas_cephe_ve_cam_cati_ArchEyes.jpg",
+    "source_url": "https://archeyes.com/the-mudam-by-i-m-pei-where-old-meets-new/",
+    "source_sha256": "c5e4eae1fdae8bc664586f0ea2f14753c55bca1400bd3edd99f265a145d5e618",
+    "previous_assignment": {
+      "level": "dis",
+      "area": "Batı eğrisel cam salon dışı",
+      "xy": [
+        846,
+        134
+      ],
+      "target": [
+        714,
+        312
+      ],
+      "quality": "estimate",
+      "radius_m": 17,
+      "angle_uncertainty_deg": 30,
+      "stair_system": null,
+      "evidence": "Eğrisel cam örtü ve merkez kule bağlantısı. Kavisli kanatla eşleşiyor."
+    },
+    "overrides": {},
+    "current_level": "dis",
+    "current_quality": "estimate",
+    "level_status": "visual_inference_not_surveyed",
+    "camera_pose_verified": false,
+    "metric_geometry_approved": false,
+    "model_use": "Visible form, material appearance and explicitly identified spatial relationships only; no inferred metric dimensions or camera constraints.",
+    "unresolved": "Camera XYZ, yaw/pitch/roll, lens/distortion and construction dimensions remain unsolved."
+  },
+  {
+    "id": "094",
+    "review_date": "2026-10-08",
+    "review_status": "visually_reviewed",
+    "inspection": "Individual image reviewed in 6-image sheets; ambiguous critical details enlarged. Plans 102/103/104 and section 101 also inspected.",
+    "observed_features": "Kör taş hacim, düşey cam yarık ve altta tarihi duvar var; tekil cephe eşleşmesi yok.",
+    "crosscheck_ids": [
+      "099",
+      "102"
+    ],
+    "decision": "Batı galeri etiketi fazla kesin; cephe ve kamera konumu çözülemedi.",
+    "source_path": "05_Dis_Mekan/Cepheler/094_Tas_cephe_ve_cam_cati_ArchEyes.jpg",
+    "source_url": "https://archeyes.com/the-mudam-by-i-m-pei-where-old-meets-new/",
+    "source_sha256": "2accf36a931d83384daf9852bc6310d53ff62d258d76ccde1f7d2c1565b29a6a",
+    "previous_assignment": {
+      "level": "dis",
+      "area": "Batı taş galeri cephesi",
+      "xy": [
+        1010,
+        555
+      ],
+      "target": [
+        834,
+        460
+      ],
+      "quality": "estimate",
+      "radius_m": 20,
+      "angle_uncertainty_deg": 40,
+      "stair_system": null,
+      "evidence": "Kör taş yüzey, ince cam ek ve tarihi duvar. Alternatif yan açı mümkün."
+    },
+    "overrides": {
+      "xy": null,
+      "target": null,
+      "quality": "unresolved",
+      "radius_m": null,
+      "angle_uncertainty_deg": null,
+      "area": "Taş cephe ve düşey cam yarık / kanat belirsiz"
+    },
+    "current_level": "dis",
+    "current_quality": "unresolved",
+    "level_status": "visual_inference_not_surveyed",
+    "camera_pose_verified": false,
+    "metric_geometry_approved": false,
+    "model_use": "Visible form, material appearance and explicitly identified spatial relationships only; no inferred metric dimensions or camera constraints.",
+    "unresolved": "Camera XYZ, yaw/pitch/roll, lens/distortion and construction dimensions remain unsolved."
+  },
+  {
+    "id": "095",
+    "review_date": "2026-10-08",
+    "review_status": "visually_reviewed",
+    "inspection": "Individual image reviewed in 6-image sheets; ambiguous critical details enlarged. Plans 102/103/104 and section 101 also inspected.",
+    "observed_features": "Önde Fort bağlantısının parapeti, geride merkez cam fener ve düz eğik yan örtü var.",
+    "crosscheck_ids": [
+      "087",
+      "092"
+    ],
+    "decision": "Fort yönlü örtü ilişkisi tutarlı; tek fotoğraftan yükseklik çıkarılmamalı.",
+    "source_path": "05_Dis_Mekan/Cepheler/095_Tas_cephe_ve_cam_cati_ArchEyes.jpg",
+    "source_url": "https://archeyes.com/the-mudam-by-i-m-pei-where-old-meets-new/",
+    "source_sha256": "7a0484703a0cbd7a51ddece8c26cd82df36782e5e632e2d18832e5eccabf6f51",
+    "previous_assignment": {
+      "level": "dis",
+      "area": "Fort yönünden üst yapı",
+      "xy": [
+        691,
+        61
+      ],
+      "target": [
+        615,
+        352
+      ],
+      "quality": "estimate",
+      "radius_m": 20,
+      "angle_uncertainty_deg": 35,
+      "stair_system": null,
+      "evidence": "Merkez çan, eğimli cam ve ön parapet; uzaktan dar kadraj."
+    },
+    "overrides": {},
+    "current_level": "dis",
+    "current_quality": "estimate",
+    "level_status": "visual_inference_not_surveyed",
+    "camera_pose_verified": false,
+    "metric_geometry_approved": false,
+    "model_use": "Visible form, material appearance and explicitly identified spatial relationships only; no inferred metric dimensions or camera constraints.",
+    "unresolved": "Camera XYZ, yaw/pitch/roll, lens/distortion and construction dimensions remain unsolved."
+  },
+  {
+    "id": "097",
+    "review_date": "2026-10-08",
+    "review_status": "visually_reviewed",
+    "inspection": "Individual image reviewed in 6-image sheets; ambiguous critical details enlarged. Plans 102/103/104 and section 101 also inspected.",
+    "observed_features": "Taş cephe dışına taşan kırıklı cam hacmin alt/üst çizgileri basamak kollarıyla eğiliyor.",
+    "crosscheck_ids": [
+      "066",
+      "102",
+      "103"
+    ],
+    "decision": "Düz doğu bağlantısı yorumu yanlış; batı cam merdiven adayı, kamera konumu kaldırıldı.",
+    "source_path": "05_Dis_Mekan/Cepheler/097_Tas_cephe_ve_cam_cati_ArchEyes.jpg",
+    "source_url": "https://archeyes.com/the-mudam-by-i-m-pei-where-old-meets-new/",
+    "source_sha256": "fd75919c30d7568a0eb5c56488c2a1f4f00d3043218825a73a89427966995bd1",
+    "previous_assignment": {
+      "level": "dis",
+      "area": "Doğu cam salon / galeri birleşimi",
+      "xy": [
+        224,
+        128
+      ],
+      "target": [
+        350,
+        300
+      ],
+      "quality": "estimate",
+      "radius_m": 20,
+      "angle_uncertainty_deg": 40,
+      "stair_system": null,
+      "evidence": "Yatay cam geçiş ve taş galeri köşesi; eşleşme orta güvenli."
+    },
+    "overrides": {
+      "stair_system": "STAIR_WEST_GLAZED_CANDIDATE",
+      "xy": null,
+      "target": null,
+      "quality": "unresolved",
+      "radius_m": null,
+      "angle_uncertainty_deg": null,
+      "area": "Batı cam merdiven hacmi / dış görünüş adayı"
+    },
+    "current_level": "dis",
+    "current_quality": "unresolved",
+    "level_status": "visual_inference_not_surveyed",
+    "camera_pose_verified": false,
+    "metric_geometry_approved": false,
+    "model_use": "Visible form, material appearance and explicitly identified spatial relationships only; no inferred metric dimensions or camera constraints.",
+    "unresolved": "Camera XYZ, yaw/pitch/roll, lens/distortion and construction dimensions remain unsolved."
+  },
+  {
+    "id": "098",
+    "review_date": "2026-10-08",
+    "review_status": "visually_reviewed",
+    "inspection": "Individual image reviewed in 6-image sheets; ambiguous critical details enlarged. Plans 102/103/104 and section 101 also inspected.",
+    "observed_features": "Merkez cam piramidin önünde farklı yükseklikte taş alınlar görülüyor.",
+    "crosscheck_ids": [
+      "087",
+      "092"
+    ],
+    "decision": "Çatı-duvar ilişkisi kullanılabilir; kesin kamera ve taş yüzey sırası çözülmedi.",
+    "source_path": "05_Dis_Mekan/Cepheler/098_Tas_cephe_ve_cam_cati_ArchEyes.jpg",
+    "source_url": "https://archeyes.com/the-mudam-by-i-m-pei-where-old-meets-new/",
+    "source_sha256": "44fd059cf9f3d8881ea2db7755693690474400c46ea778e3e95c285d1168a2f7",
+    "previous_assignment": {
+      "level": "dis",
+      "area": "Cam çatı çevresindeki dış duvarlar",
+      "xy": [
+        590,
+        63
+      ],
+      "target": null,
+      "quality": "region",
+      "radius_m": 30,
+      "angle_uncertainty_deg": null,
+      "stair_system": null,
+      "evidence": "Taş parapet ve cam kule yakın planı; alternatif dış kamera noktaları elenemedi."
+    },
+    "overrides": {},
+    "current_level": "dis",
+    "current_quality": "region",
+    "level_status": "visual_inference_not_surveyed",
+    "camera_pose_verified": false,
+    "metric_geometry_approved": false,
+    "model_use": "Visible form, material appearance and explicitly identified spatial relationships only; no inferred metric dimensions or camera constraints.",
+    "unresolved": "Camera XYZ, yaw/pitch/roll, lens/distortion and construction dimensions remain unsolved."
+  },
+  {
+    "id": "099",
+    "review_date": "2026-10-08",
+    "review_status": "visually_reviewed",
+    "inspection": "Individual image reviewed in 6-image sheets; ambiguous critical details enlarged. Plans 102/103/104 and section 101 also inspected.",
+    "observed_features": "Düz cam pavyon bağlantısı taş hacimler arasından geçiyor; merkez çatı geride.",
+    "crosscheck_ids": [
+      "067",
+      "068",
+      "088"
+    ],
+    "decision": "Pavyon bağlantısı tutarlı; 097'deki eğimli cam merdivenden ayrı tutulmalı.",
+    "source_path": "05_Dis_Mekan/Cepheler/099_Tas_cephe_ve_cam_cati_ArchEyes.jpg",
+    "source_url": "https://archeyes.com/the-mudam-by-i-m-pei-where-old-meets-new/",
+    "source_sha256": "67d6caa9092a5994e827d4262f41eea6cca99db7dc64570c2d61196e549c4131",
+    "previous_assignment": {
+      "level": "dis",
+      "area": "Pavyon cam geçidine dışarıdan bakış",
+      "xy": [
+        207,
+        461
+      ],
+      "target": [
+        225,
+        281
+      ],
+      "quality": "estimate",
+      "radius_m": 15,
+      "angle_uncertainty_deg": 35,
+      "stair_system": null,
+      "evidence": "Cam bağlantı koridoru, taş duvar ve gerideki üst yapı."
+    },
+    "overrides": {},
+    "current_level": "dis",
+    "current_quality": "estimate",
+    "level_status": "visual_inference_not_surveyed",
+    "camera_pose_verified": false,
+    "metric_geometry_approved": false,
+    "model_use": "Visible form, material appearance and explicitly identified spatial relationships only; no inferred metric dimensions or camera constraints.",
+    "unresolved": "Camera XYZ, yaw/pitch/roll, lens/distortion and construction dimensions remain unsolved."
+  },
+  {
+    "id": "100",
+    "review_date": "2026-10-08",
+    "review_status": "visually_reviewed",
+    "inspection": "Individual image reviewed in 6-image sheets; ambiguous critical details enlarged. Plans 102/103/104 and section 101 also inspected.",
+    "observed_features": "Nişli galeri taş cephesi ve arkasında cam fener görülüyor.",
+    "crosscheck_ids": [
+      "003",
+      "004",
+      "088"
+    ],
+    "decision": "Cephe ailesi tutarlı; dar kadraj kesin çekim noktasını çözmez.",
+    "source_path": "05_Dis_Mekan/Cepheler/100_Tas_cephe_ve_cam_cati_ArchEyes.jpg",
+    "source_url": "https://archeyes.com/the-mudam-by-i-m-pei-where-old-meets-new/",
+    "source_sha256": "33a93b8d6d75067750fce17e371ff2dea8df544a13a78f7ab0b35b4c8183bac4",
+    "previous_assignment": {
+      "level": "dis",
+      "area": "Doğu galeri uzun cephesi",
+      "xy": [
+        144,
+        541
+      ],
+      "target": [
+        289,
+        427
+      ],
+      "quality": "estimate",
+      "radius_m": 15,
+      "angle_uncertainty_deg": 30,
+      "stair_system": null,
+      "evidence": "Gömülü üçgen pencere nişleri ve merkez kule, 003/088 ile aynı cephe."
+    },
+    "overrides": {},
+    "current_level": "dis",
+    "current_quality": "estimate",
+    "level_status": "visual_inference_not_surveyed",
+    "camera_pose_verified": false,
+    "metric_geometry_approved": false,
+    "model_use": "Visible form, material appearance and explicitly identified spatial relationships only; no inferred metric dimensions or camera constraints.",
+    "unresolved": "Camera XYZ, yaw/pitch/roll, lens/distortion and construction dimensions remain unsolved."
+  },
+  {
+    "id": "108",
+    "review_date": "2026-10-08",
+    "review_status": "visually_reviewed",
+    "inspection": "Individual image reviewed in 6-image sheets; ambiguous critical details enlarged. Plans 102/103/104 and section 101 also inspected.",
+    "observed_features": "Fort'un üç kulesi, Mudam ve arka yüksek yapılar uzak bir noktadan birlikte görülüyor.",
+    "crosscheck_ids": [
+      "086",
+      "092",
+      "119"
+    ],
+    "decision": "Uzak görüş noktası bilinmiyor; eski keyfî harita mesafesi kaldırıldı. Havadan çekim olduğu da kanıtlı değil.",
+    "source_path": "03_Vaziyet_ve_Peyzaj/Tarihi_Duvarlar_ve_Cevre/108_Kent_park_ve_muze_panorama_Mudam.webp",
+    "source_url": "https://www.mudam.com/visit/architecture",
+    "source_sha256": "8b8fb6773d8a95436163fe742fb95a2247138ac68a252a54bdffbd5976013727",
+    "previous_assignment": {
+      "level": "dis",
+      "area": "Park üzerinden uzak panorama",
+      "xy": [
+        570,
+        -1280
+      ],
+      "target": [
+        575,
+        330
+      ],
+      "quality": "estimate",
+      "radius_m": 75,
+      "angle_uncertainty_deg": 30,
+      "stair_system": null,
+      "evidence": "Fort üç kuleleri önde, Mudam geride ve yüksek iş yapıları arka planda. Kesin seyir noktası çözülemedi."
+    },
+    "overrides": {
+      "xy": null,
+      "target": null,
+      "quality": "unresolved",
+      "radius_m": null,
+      "angle_uncertainty_deg": null,
+      "area": "Fort ve Mudam uzak görünüşü / çekim noktası belirsiz"
+    },
+    "current_level": "dis",
+    "current_quality": "unresolved",
+    "level_status": "visual_inference_not_surveyed",
+    "camera_pose_verified": false,
+    "metric_geometry_approved": false,
+    "model_use": "Visible form, material appearance and explicitly identified spatial relationships only; no inferred metric dimensions or camera constraints.",
+    "unresolved": "Camera XYZ, yaw/pitch/roll, lens/distortion and construction dimensions remain unsolved."
+  },
+  {
+    "id": "109",
+    "review_date": "2026-10-08",
+    "review_status": "visually_reviewed",
+    "inspection": "Individual image reviewed in 6-image sheets; ambiguous critical details enlarged. Plans 102/103/104 and section 101 also inspected.",
+    "observed_features": "Yaprakların arkasında pavyon solda, cam bağlantı ortada, nişli galeri sağda görülüyor.",
+    "crosscheck_ids": [
+      "002",
+      "088",
+      "116"
+    ],
+    "decision": "Giriş cephesi yorumu yanlış; pavyon tarafı. Eski kamera/yön kaldırıldı.",
+    "source_path": "05_Dis_Mekan/Cepheler/109_Muze_ve_agaclar_Mudam.webp",
+    "source_url": "https://www.mudam.com/visit/architecture",
+    "source_sha256": "1d36b7366643a135aaddc83e29e74a1c9a5c521f30be340632377d0da433f334",
+    "previous_assignment": {
+      "level": "dis",
+      "area": "Ağaçlar arasından giriş cephesi",
+      "xy": [
+        818,
+        857
+      ],
+      "target": [
+        560,
+        380
+      ],
+      "quality": "estimate",
+      "radius_m": 30,
+      "angle_uncertainty_deg": 45,
+      "stair_system": null,
+      "evidence": "Taş giriş kütlesi ve merkez cam kule; bitkiler nedeniyle uzaklık/açı zayıf."
+    },
+    "overrides": {
+      "xy": null,
+      "target": null,
+      "quality": "unresolved",
+      "radius_m": null,
+      "angle_uncertainty_deg": null,
+      "area": "Pavyon ve nişli galeri / ağaçlar arkasından"
+    },
+    "current_level": "dis",
+    "current_quality": "unresolved",
+    "level_status": "visual_inference_not_surveyed",
+    "camera_pose_verified": false,
+    "metric_geometry_approved": false,
+    "model_use": "Visible form, material appearance and explicitly identified spatial relationships only; no inferred metric dimensions or camera constraints.",
+    "unresolved": "Camera XYZ, yaw/pitch/roll, lens/distortion and construction dimensions remain unsolved."
+  },
+  {
+    "id": "110",
+    "review_date": "2026-10-08",
+    "review_status": "visually_reviewed",
+    "inspection": "Individual image reviewed in 6-image sheets; ambiguous critical details enlarged. Plans 102/103/104 and section 101 also inspected.",
+    "observed_features": "Geniş merdiven tarafındaki taş üst yüzey, ana cam çatı köşesi ve gölgeler yakın planda.",
+    "crosscheck_ids": [
+      "021",
+      "026",
+      "031"
+    ],
+    "decision": "Hol kimliği tutarlı; dar kadraj nedeniyle kesin kamera yönü kaldırıldı.",
+    "source_path": "04_Ic_Mekan/Grand_Hall/110_Grand_Hall_isik_ve_cam_cati_Mudam.webp",
+    "source_url": "https://www.mudam.com/visit/architecture",
+    "source_sha256": "e427b5285ea03a24f852419a61050d809504047d6aea0340c1eb434ce00c596f",
+    "previous_assignment": {
+      "level": "0",
+      "area": "Grand Hall taş duvar ve çatı",
+      "xy": [
+        620,
+        452
+      ],
+      "target": [
+        483,
+        411
+      ],
+      "quality": "estimate",
+      "radius_m": 10,
+      "angle_uncertainty_deg": 35,
+      "stair_system": null,
+      "evidence": "Taş duvar, cam piramit köşesi ve düşen gölge; dar kadrajda nokta yaklaşık."
+    },
+    "overrides": {
+      "target": null,
+      "quality": "region",
+      "angle_uncertainty_deg": null
+    },
+    "current_level": "0",
+    "current_quality": "region",
+    "level_status": "visual_inference_not_surveyed",
+    "camera_pose_verified": false,
+    "metric_geometry_approved": false,
+    "model_use": "Visible form, material appearance and explicitly identified spatial relationships only; no inferred metric dimensions or camera constraints.",
+    "unresolved": "Camera XYZ, yaw/pitch/roll, lens/distortion and construction dimensions remain unsolved."
+  },
+  {
+    "id": "114",
+    "review_date": "2026-10-08",
+    "review_status": "visually_reviewed",
+    "inspection": "Individual image reviewed in 6-image sheets; ambiguous critical details enlarged. Plans 102/103/104 and section 101 also inspected.",
+    "observed_features": "Üçgen lamelli camın altında aşağı iniş boşluğu korkuluğu karşıdan görülüyor.",
+    "crosscheck_ids": [
+      "045",
+      "049",
+      "102"
+    ],
+    "decision": "Önceki merkez aks hedefi yerine iniş boşluğu tarafı; metrik yön henüz çözülmedi.",
+    "source_path": "04_Ic_Mekan/Grand_Hall/114_Grand_Hall_isik_ve_cam_cati_Mudam.webp",
+    "source_url": "https://www.mudam.com/visit/architecture",
+    "source_sha256": "b81231193e6aaa0944265724b16d903abaf12d2800534b7816d196bee1817f26",
+    "previous_assignment": {
+      "level": "0",
+      "area": "Grand Hall cam üçgeni",
+      "xy": [
+        572,
+        475
+      ],
+      "target": [
+        574,
+        323
+      ],
+      "quality": "estimate",
+      "radius_m": 8,
+      "angle_uncertainty_deg": 20,
+      "stair_system": null,
+      "evidence": "Ana cam üçgenin simetrik alt görünüşü, karşıdaki taş duvar ve parapet."
+    },
+    "overrides": {
+      "target": null,
+      "quality": "region",
+      "angle_uncertainty_deg": null,
+      "xy": [
+        591,
+        428
+      ],
+      "area": "Grand Hall / aşağı iniş üzerindeki üçgen cam",
+      "radius_m": 12,
+      "stair_system": "STAIR_GH_DOWN_0_TO_MINUS1"
+    },
+    "current_level": "0",
+    "current_quality": "region",
+    "level_status": "visual_inference_not_surveyed",
+    "camera_pose_verified": false,
+    "metric_geometry_approved": false,
+    "model_use": "Visible form, material appearance and explicitly identified spatial relationships only; no inferred metric dimensions or camera constraints.",
+    "unresolved": "Camera XYZ, yaw/pitch/roll, lens/distortion and construction dimensions remain unsolved."
+  },
+  {
+    "id": "115",
+    "review_date": "2026-10-08",
+    "review_status": "visually_reviewed",
+    "inspection": "Individual image reviewed in 6-image sheets; ambiguous critical details enlarged. Plans 102/103/104 and section 101 also inspected.",
+    "observed_features": "Alt fuayeden kavisli merdiven, eğrisel döşeme boşluğu ve ince düşey destek görülüyor.",
+    "crosscheck_ids": [
+      "051",
+      "052",
+      "055",
+      "104"
+    ],
+    "decision": "0→−1 merdiveninin alt görünüşü; +1 merdiveni değil.",
+    "source_path": "04_Ic_Mekan/Merdivenler_ve_Dolasim/115_Merdiven_ve_dogal_isik_Mudam.webp",
+    "source_url": "https://www.mudam.com/visit/architecture",
+    "source_sha256": "10ecd09df0ebcb6549a9052ebaa1310c8ca347f5f2bfdf2a56c51e22a0d375fe",
+    "previous_assignment": {
+      "level": "-1",
+      "area": "Alt kat / yarım daire merdiven",
+      "xy": [
+        621,
+        397
+      ],
+      "target": [
+        649,
+        374
+      ],
+      "quality": "estimate",
+      "radius_m": 7,
+      "angle_uncertainty_deg": 30,
+      "stair_system": "STAIR_GH_DOWN_0_TO_MINUS1",
+      "evidence": "Eğrisel döşeme boşluğu, beton merdiven ve destek 051 ile aynı 0 → −1 bağlantısı. Kullanıcı düzeltmesi sonrası doğru merdiven izdüşümüne taşındı; kamera koordinatı yaklaşık."
+    },
+    "overrides": {},
+    "current_level": "-1",
+    "current_quality": "estimate",
+    "level_status": "visual_inference_not_surveyed",
+    "camera_pose_verified": false,
+    "metric_geometry_approved": false,
+    "model_use": "Visible form, material appearance and explicitly identified spatial relationships only; no inferred metric dimensions or camera constraints.",
+    "unresolved": "Camera XYZ, yaw/pitch/roll, lens/distortion and construction dimensions remain unsolved."
+  },
+  {
+    "id": "116",
+    "review_date": "2026-10-08",
+    "review_status": "visually_reviewed",
+    "inspection": "Individual image reviewed in 6-image sheets; ambiguous critical details enlarged. Plans 102/103/104 and section 101 also inspected.",
+    "observed_features": "Yukarıdan giriş portali, pavyon, çatı ışıklıkları ve meydan görülüyor.",
+    "crosscheck_ids": [
+      "009",
+      "088",
+      "102"
+    ],
+    "decision": "Havadan/yüksekten görünüş; kamera XY/Z/lens çözülmedi, zemindeki nokta kaldırıldı.",
+    "source_path": "05_Dis_Mekan/Havadan_Gorunum/116_Muze_havadan_genel_gorunum_Mudam.webp",
+    "source_url": "https://www.mudam.com/visit/architecture",
+    "source_sha256": "784be291590f0a0a4769101276af543f08a4aae81e22037ea10653a30705f844",
+    "previous_assignment": {
+      "level": "dis",
+      "area": "Havadan giriş ve doğu cephe",
+      "xy": [
+        300,
+        1250
+      ],
+      "target": [
+        500,
+        465
+      ],
+      "quality": "estimate",
+      "radius_m": 50,
+      "angle_uncertainty_deg": 35,
+      "stair_system": null,
+      "evidence": "Bina üstten görülüyor; giriş, doğu cephe ve pavyon ortak referans. Yükseklik ve yatay mesafe çözülemedi."
+    },
+    "overrides": {
+      "xy": null,
+      "target": null,
+      "quality": "unresolved",
+      "radius_m": null,
+      "angle_uncertainty_deg": null,
+      "area": "Yüksekten giriş, pavyon ve çatı görünüşü"
+    },
+    "current_level": "dis",
+    "current_quality": "unresolved",
+    "level_status": "visual_inference_not_surveyed",
+    "camera_pose_verified": false,
+    "metric_geometry_approved": false,
+    "model_use": "Visible form, material appearance and explicitly identified spatial relationships only; no inferred metric dimensions or camera constraints.",
+    "unresolved": "Camera XYZ, yaw/pitch/roll, lens/distortion and construction dimensions remain unsolved."
+  },
+  {
+    "id": "119",
+    "review_date": "2026-10-08",
+    "review_status": "visually_reviewed",
+    "inspection": "Individual image reviewed in 6-image sheets; ambiguous critical details enlarged. Plans 102/103/104 and section 101 also inspected.",
+    "observed_features": "Merkez fener, solda kavisli örtü ve sağda düz eğik örtü karşıdan görülüyor.",
+    "crosscheck_ids": [
+      "087",
+      "093",
+      "102"
+    ],
+    "decision": "Fort yönlü görünüş ailesi; kırpılmış fotoğrafın kamera mesafesi belirsiz.",
+    "source_path": "05_Dis_Mekan/Cepheler/119_Cam_cati_cepheden_gorunum_Mudam.webp",
+    "source_url": "https://www.mudam.com/visit/architecture",
+    "source_sha256": "58debe32215f4c92615f96569bd1e9a4dffd4d35ffeb96ec2d630553a42a96b1",
+    "previous_assignment": {
+      "level": "dis",
+      "area": "Fort aksından cam üst yapı",
+      "xy": [
+        575,
+        8
+      ],
+      "target": [
+        575,
+        360
+      ],
+      "quality": "estimate",
+      "radius_m": 12,
+      "angle_uncertainty_deg": 20,
+      "stair_system": null,
+      "evidence": "Merkez cam çan ve iki yan cam örtünün yaklaşık simetrisi."
+    },
+    "overrides": {},
+    "current_level": "dis",
+    "current_quality": "estimate",
+    "level_status": "visual_inference_not_surveyed",
+    "camera_pose_verified": false,
+    "metric_geometry_approved": false,
+    "model_use": "Visible form, material appearance and explicitly identified spatial relationships only; no inferred metric dimensions or camera constraints.",
+    "unresolved": "Camera XYZ, yaw/pitch/roll, lens/distortion and construction dimensions remain unsolved."
+  },
+  {
+    "id": "122",
+    "review_date": "2026-10-08",
+    "review_status": "visually_reviewed",
+    "inspection": "Individual image reviewed in 6-image sheets; ambiguous critical details enlarged. Plans 102/103/104 and section 101 also inspected.",
+    "observed_features": "Eğimli çim yüzeyde iki izli taş yol ve yoğun ağaçlık var; bina görünmüyor.",
+    "crosscheck_ids": [
+      "082",
+      "096"
+    ],
+    "decision": "Peyzaj karakteri referansı; belirli patika/harita konumu doğrulanamadı.",
+    "source_path": "03_Vaziyet_ve_Peyzaj/Park_Drai_Eechelen/122_Park_peyzaj_yol_ve_bitkilendirme_MDP_GreatGardens.jpg",
+    "source_url": "https://www.greatgardensoftheworld.com/gardens/michel-desvigne/",
+    "source_sha256": "587b4de15cf2b772c8c654f1192a97a07d268ff6e8c748703497cf3ac0b2e95c",
+    "previous_assignment": {
+      "level": "belirsiz",
+      "area": "Parc Dräi Eechelen / peyzaj yolu",
+      "xy": null,
+      "target": null,
+      "quality": "unresolved",
+      "radius_m": null,
+      "angle_uncertainty_deg": null,
+      "stair_system": null,
+      "evidence": "Bitkilendirme ve eğimli çim yol dışında konumu tekilleştirecek bina/harita referansı yok."
+    },
+    "overrides": {},
+    "current_level": "belirsiz",
+    "current_quality": "unresolved",
+    "level_status": "unresolved",
+    "camera_pose_verified": false,
+    "metric_geometry_approved": false,
+    "model_use": "Visible form, material appearance and explicitly identified spatial relationships only; no inferred metric dimensions or camera constraints.",
+    "unresolved": "Camera XYZ, yaw/pitch/roll, lens/distortion and construction dimensions remain unsolved."
+  },
+  {
+    "id": "123",
+    "review_date": "2026-10-08",
+    "review_status": "visually_reviewed",
+    "inspection": "Individual image reviewed in 6-image sheets; ambiguous critical details enlarged. Plans 102/103/104 and section 101 also inspected.",
+    "observed_features": "Tarihi taş istinat köşesi, toprak yol ve sonbahar ağaçları görülüyor.",
+    "crosscheck_ids": [
+      "082",
+      "096"
+    ],
+    "decision": "Duvar malzemesi ve kot ilişkisi; tekil duvar konumu bilinmiyor.",
+    "source_path": "03_Vaziyet_ve_Peyzaj/Park_Drai_Eechelen/123_Park_peyzaj_yol_ve_bitkilendirme_MDP_GreatGardens.jpg",
+    "source_url": "https://www.greatgardensoftheworld.com/gardens/michel-desvigne/",
+    "source_sha256": "ba7c351fc3170a5ab599ee1a557fd31a77f1ef925cca67fd18dc9c477bfa8845",
+    "previous_assignment": {
+      "level": "belirsiz",
+      "area": "Parc Dräi Eechelen / tarihi duvar",
+      "xy": null,
+      "target": null,
+      "quality": "unresolved",
+      "radius_m": null,
+      "angle_uncertainty_deg": null,
+      "stair_system": null,
+      "evidence": "Tek tarihi duvar köşesi ve ağaçlar, arşivdeki vaziyet çizimiyle tekil eşleştirme için yeterli değil."
+    },
+    "overrides": {},
+    "current_level": "belirsiz",
+    "current_quality": "unresolved",
+    "level_status": "unresolved",
+    "camera_pose_verified": false,
+    "metric_geometry_approved": false,
+    "model_use": "Visible form, material appearance and explicitly identified spatial relationships only; no inferred metric dimensions or camera constraints.",
+    "unresolved": "Camera XYZ, yaw/pitch/roll, lens/distortion and construction dimensions remain unsolved."
+  },
+  {
+    "id": "124",
+    "review_date": "2026-10-08",
+    "review_status": "visually_reviewed",
+    "inspection": "Individual image reviewed in 6-image sheets; ambiguous critical details enlarged. Plans 102/103/104 and section 101 also inspected.",
+    "observed_features": "Meydan ağaçları, giriş köprüsü kenarı, tarihi duvar ve yüksek yapılar panoramik kadrajda.",
+    "crosscheck_ids": [
+      "011",
+      "063",
+      "108"
+    ],
+    "decision": "Meydan çevresi referansı; panorama/uzaklık nedeniyle kesin kamera noktası yok.",
+    "source_path": "03_Vaziyet_ve_Peyzaj/Park_Drai_Eechelen/124_Park_peyzaj_yol_ve_bitkilendirme_MDP_GreatGardens.jpg",
+    "source_url": "https://www.greatgardensoftheworld.com/gardens/michel-desvigne/",
+    "source_sha256": "219e5d8b970c701cdcbaf1dfcff4f9fd6401a2d369136f4eb0ac0b500628d381",
+    "previous_assignment": {
+      "level": "dis",
+      "area": "Doğu hendek kenarı / meydan ağaçları",
+      "xy": [
+        239,
+        416
+      ],
+      "target": [
+        144,
+        810
+      ],
+      "quality": "estimate",
+      "radius_m": 30,
+      "angle_uncertainty_deg": 40,
+      "stair_system": null,
+      "evidence": "Uzun hendek duvarı, meydan ağaçları ve yüksek iş yapıları aynı kadrajda; uzaktan panoramik görüş."
+    },
+    "overrides": {
+      "xy": null,
+      "target": null,
+      "quality": "unresolved",
+      "radius_m": null,
+      "angle_uncertainty_deg": null,
+      "area": "Meydan / köprü / tarihi duvar panoraması"
+    },
+    "current_level": "dis",
+    "current_quality": "unresolved",
+    "level_status": "visual_inference_not_surveyed",
+    "camera_pose_verified": false,
+    "metric_geometry_approved": false,
+    "model_use": "Visible form, material appearance and explicitly identified spatial relationships only; no inferred metric dimensions or camera constraints.",
+    "unresolved": "Camera XYZ, yaw/pitch/roll, lens/distortion and construction dimensions remain unsolved."
+  }
+]

@@ -1,0 +1,92 @@
+{
+  "coordinate_system": "canonical ground plan image 1108x960; XY approximate",
+  "review_date": "2026-10-08",
+  "basis": "User annotated map correction and renewed comparison of original staircase photographs",
+  "systems": [
+    {
+      "id": "STAIR_GH_DOWN_0_TO_MINUS1",
+      "connection": [
+        "0",
+        "-1"
+      ],
+      "canonical_center": [
+        638,
+        383
+      ],
+      "map_description": "North-up map: left semicircular stair",
+      "photo_ids": [
+        "045",
+        "046",
+        "047",
+        "048",
+        "049",
+        "050",
+        "051",
+        "052",
+        "053",
+        "054",
+        "115",
+        "055",
+        "114"
+      ],
+      "identity_status": "user_corrected_and_visually_cross_checked",
+      "geometry_status": "Exact start/end, radius, risers and vertical levels unresolved"
+    },
+    {
+      "id": "STAIR_GH_UP_0_TO_PLUS1",
+      "connection": [
+        "0",
+        "+1"
+      ],
+      "canonical_center": [
+        500,
+        500
+      ],
+      "map_description": "North-up map: right wide stair",
+      "photo_ids": [
+        "021",
+        "022",
+        "023",
+        "024",
+        "025",
+        "026"
+      ],
+      "identity_status": "user_corrected_and_visually_cross_checked",
+      "geometry_status": "Exact flight, landing and upper-floor endpoint unresolved"
+    },
+    {
+      "id": "STAIR_EAST_SPIRAL",
+      "connection": [
+        "0",
+        "+1"
+      ],
+      "canonical_center": [
+        308,
+        329
+      ],
+      "photo_ids": [
+        "041",
+        "042",
+        "043",
+        "044"
+      ],
+      "identity_status": "distinct cylinder and spiral observed; endpoint to be verified",
+      "geometry_status": "Not interchangeable with either Grand Hall staircase",
+      "camera_level_note": "043 upper landing candidate; 042 and 044 intermediate/unknown tread. Camera Z is not solved."
+    },
+    {
+      "id": "STAIR_WEST_GLAZED_CANDIDATE",
+      "photo_ids": [
+        "066",
+        "097"
+      ],
+      "canonical_center": [
+        893,
+        345
+      ],
+      "identity_status": "candidate match: glazed stair interior/exterior and west stair in diagrams",
+      "geometry_status": "Endpoints, flight counts and camera poses unresolved; not the flat pavilion bridge 067"
+    }
+  ],
+  "camera_note": "105-photo visual audit complete; 0 metric camera poses verified. 050/054 and 042/044/066 have unresolved intermediate capture heights."
+}

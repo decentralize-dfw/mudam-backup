@@ -39,7 +39,9 @@ Kontrol noktaları ve dönüşüm matrisi: kalibrasyon.json, kalibrasyon.py.
 
 Resmî zemin JPEG'inde ortak uçlar (289,5;161,5) ve (862,5;161,5) alındı.
 Ortak şemanın ölçeği: yaklaşık 0,118796700 metre/piksel.
-+1 şeması: aynı ölçek, ortak koordinata −0,5 / +32 piksel öteleme.
++1 şeması: aynı ölçek, ortak koordinata +0,5 / −1 piksel öteleme.
+8 Ekim 2026 üretim kontrolünde eski +32 piksel düşey kaydırma düzeltildi.
+İki özgün JPEG'in ortak dış uçları karşılaştırıldı; raster belirsizliği yaklaşık 1 piksel.
 −1 şeması: 573/517 tekdüze ölçek ve ortak köşelere öteleme.
 Üst ve alt katlarda bağımsız arazi kontrolü yoktur; ortak yapı konturu referanstır.
 2016 vektör planlar eski sergi düzenini, resmî JPEG'ler farklı bir tarihli
@@ -62,15 +64,19 @@ PNG/PGW/PRJ aynı klasörde tutulup QGIS'e yüklenebilir; CRS EPSG:32632 seçili
 GeoJSON koordinatları WGS84 boylam/enlem sırasındadır.
 Kuzey oku UTM grid kuzeyidir. Fotoğraf azimutları gerçek kuzeyden hesaplanır.
 
-FOTOĞRAF ANALİZİ
-105 fotoğrafın tümüne ayrı kayıt ve ayrı açıklamalı SVG paftası hazırlandı:
-63: mimari elemanlara göre tahmini çekim noktası ve yatay bakış yönü.
-33: yalnızca olası çekim bölgesi; bölge merkezi kamera noktası değildir.
-9: yeterli mekânsal kanıt yok; koordinat ve yön boş bırakıldı.
-Çözülemeyen kimlikler: 018, 059, 077, 078, 079, 080, 081, 122, 123.
-Üst kata güvenilir şekilde atanabilen fotoğraf bulunmadı; kat boş bırakılabilir.
-087 numaralı fotoğrafın arşivdeki genel giriş açıklaması analizde düzeltildi:
-tarihi kale tarafındaki arka yaklaşım/köprü ve merkezi cam örtü ilişkisi.
+FOTOĞRAF ANALİZİ — 8 EKİM 2026 TAM DENETİM
+105/105 fotoğraf ayrı ayrı yeniden incelendi; 42 kayıtta atama/açıklama revizyonu.
+35: konum ve yön hipotezi. 45: yalnız aday bölge. 25: harita noktası yok.
+Doğrulanmış metrik kamera pozu: 0. Fotoğrafın mimari elemanını tanımak,
+çekim noktasını veya elemanın kesin ölçülerini çözmek anlamına gelmez.
+043 doğu spiral merdiveninin +1 üst sahanlığı adayıdır; önceki 0 ataması düzeltildi.
+042/044/050/054/066 ara basamak/kamera kotu belirsiz olarak ayrıldı.
+055 iniş boşluğunun altından çekilmiştir; 0→+1 merdiven ailesinden çıkarıldı.
+066/097 basamaklı cam merdiven adayı, 067 düz pavyon bağlantısıdır.
+067'nin yönü ana binaya değil pavyona doğru düzeltildi.
+Tüm tekil gözlemler, kararlar, çapraz referanslar ve önceki değerler:
+06_Tek_Tek_Denetim/FOTOGRAF_DENETIMI.md ve fotograf_denetimi.json.
+Önceki kayıtlar denetim_oncesi_atlas.json içinde yalnız tarihçe amaçlı korunur.
 
 EXIF'te kullanılabilir GPS enlem/boylam yoktur. Bazı dosyalarda yalnızca GPS
 sürüm alanı bulunması, konum verisi bulunduğu anlamına gelmez. Bazı çekimlerde
@@ -82,6 +88,15 @@ güven aralığı veya doğrulanmış hata sınırı değildir. Azimutlar 5°'ye
 Koordinat dosyalarındaki ondalıklar dönüşüm hesap hassasiyetidir; saha hassasiyeti
 olarak kullanılmamalıdır. Benzer mekânlar ve kat belirsizlikleri kayıtlarda yazılıdır.
 
+8 EKİM 2026 MERDİVEN DÜZELTMESİ
+Kullanıcının plan işareti ve yeniden görsel karşılaştırma sonucunda ana holdeki
+iki merdivenin önceki eşleştirmesinin karıştığı tespit edildi. Harita kuzey yukarı
+görünümünde soldaki yarım daire 0 → −1, sağdaki geniş kol 0 → +1 bağlantısıdır.
+045–054 ve 115 kayıtları yeniden değerlendirildi. 046–050 aşağı iniş çevresi;
+051–053 ve 115 aynı merdivenin alt görünüşleridir. 054 iniş boşluğundan karşıdaki
+yukarı çıkışa bakar. Merdiven kimliği kesinleştirilmiş olsa da kamera koordinatı,
+azimut ve ara basamak kotu hâlâ görsel tahmindir. stair_system alanı eklendi.
+
 KULLANIM
 FOTOGRAF_ATLASI.html dosyasını tarayıcıda açın. Katı seçin, fotoğrafa veya
 işarete tıklayın; seçili fotoğrafın konumu, yönü ve dayanağı birlikte görünür.
@@ -90,5 +105,5 @@ Plan görünürlüğü ayarlanabilir; harita yakınlaştırılabilir ve sürükl
 Bu paftalarda harita ölçek çubuğunu kullanın; hepsi sabit 1:500 değildir.
 03_Fotograf_Konumlari: CSV, JSON ve GeoJSON; geometry_role alanını koruyun.
 quality=region olan noktalar aday bölge merkezidir. unresolved geometri=null.
-Kamera konumları demo kurulumuna başlangıç referansıdır; kesin eşleşme için
+Kamera konumları yalnız görsel hipotezdir ve model kısıtı olarak onaylı değildir; kesin eşleşme için
 ölçülü proje, sahada kontrol veya kalibre edilmiş fotogrametri gerekir.

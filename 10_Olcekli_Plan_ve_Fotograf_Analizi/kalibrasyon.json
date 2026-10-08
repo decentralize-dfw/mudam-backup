@@ -195,10 +195,10 @@
   "upper_registration": {
     "source_to_canonical": [
       1,
-      -0.5,
-      32
+      0.5,
+      -1
     ],
-    "method": "Translation of common exterior tips; no distortion"
+    "method": "2026-10-08 correction: exterior tip pixels checked in both original JPEGs; previous +32px vertical shift removed; residual raster uncertainty about 1px"
   },
   "basement_registration": {
     "source_to_canonical": [

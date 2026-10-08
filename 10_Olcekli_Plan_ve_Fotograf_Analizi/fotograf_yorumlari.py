@@ -43,12 +43,14 @@ put([35,36,37,38,39,40],'0',(365,294),None,'region','Doğu cam salon çatı sist
 put([41],'0',(416,367),(316,328),'estimate','Doğu cam salon spiral merdiveni',5,'Tek kollu spiral merdiven, silindirik çekirdek ve tam boy cam duvar ayırt edici.',angle=20)
 put([42],'0',(356,362),(316,328),'estimate','Spiral merdiven altı',5,'Spiral basamak alt yüzeyi ve taş silindir, 041 ile örtüşüyor.',pitch='yukarı',angle=30)
 put([43,44],'0',(330,340),None,'region','Doğu spiral merdiven küpeştesi',5,'Silindirik çekirdeğe bağlanan küpeşte; hangi yandaki basamakta çekildiği çözülemiyor.',pitch='detay')
-put([45],'0',(594,386),(510,492),'estimate','Grand Hall / alt kata açıklık',7,'Ana hol döşemesi, kıvrılan korkuluk ve alt kat boşluğu.',pitch='aşağı',angle=30)
-put([46,47,48,49],'0',(500,490),None,'region','Ana merdiven çevresi cam korkuluk',8,'Korkuluk ve merdiven boşluğu detayları; kesin basamak/kenar eşleşmesi yok.',pitch='aşağı / detay')
-put([50],'0',(491,464),(474,498),'estimate','Ana merdivenden alt kata bakış',6,'Kavisli merdiven kolu ve aşağıdaki döşeme; üst sahanlıktan çekilmiş.',pitch='aşağı',angle=35)
-put([51],'-1',(531,467),(475,481),'estimate','Alt kat ana merdiven',7,'Eliptik döşeme boşluğu, üstteki merdiven kolu ve beton basamak geometrisi.',pitch='yukarı',angle=30)
-put([52,53],'-1',(497,487),None,'region','Alt kat ana merdiven çevresi',8,'Merdivenin alt yüzeyi ve kolon; kat yorumu kesit/051 ilişkisine dayanıyor.',pitch='yukarı / detay')
-put([54],'-1',(575,476),(547,402),'estimate','Alt kattan Grand Hall boşluğu',9,'Üst kat köprüsünün arkasında cam çatı ve ana hol; düşey ilişki okunuyor.',pitch='yukarı',angle=40)
+put([45],'0',(565,454),(638,383),'estimate','Grand Hall / aşağı inen yarım daire merdiven',7,'Öndeki ana hol döşemesi ve eserin arkasındaki cam korkuluk, aşağı iniş boşluğunu gösteriyor. Yukarı çıkan geniş merdivenden farklı sistem; 046–050 ve kullanıcının plan düzeltmesiyle yeniden eşleştirildi.',pitch='hafif aşağı',angle=30)
+put([46,47],'0',(618,387),None,'region','Aşağı inen merdiven / düz korkuluk birleşimi',5,'Alt kata yönelen basamak, düz korkuluk ve duvardaki Galeries Auditorium / Mudam Café yazısı 046 içinde okunuyor. 047 aynı köşe birleşiminin detayı. Haritadaki soldaki yarım daireye taşındı; kamera noktası kesin değil.',pitch='aşağı / detay')
+put([48],'0',(630,391),None,'region','Aşağı inen merdiven / eğrisel korkuluk birleşimi',5,'Düz cam panelden eğrisel korkuluğa geçiş ve üstte güneş kırıcı cam üçgen görülüyor; 049 ile aynı aşağı iniş boşluğu. Yakın kadraj tekil kamera veya azimut çözmüyor.',pitch='aşağı / detay')
+put([49],'0',(632,384),None,'region','Aşağı inen merdiven / üst sahanlık',5,'0 → −1 inişi: yatay döşeme kenarından aşağı kıvrılan iki küpeşte ve güneş kırıcı üçgen birlikte görülüyor. Kullanıcının işaretlediği haritadaki soldaki yarım daire. +1’e çıkan sağdaki merdiven değil; tam kamera noktası henüz çözülmedi.',pitch='aşağı')
+put([50],'0',(636,391),(655,371),'estimate','Aşağı inen merdiven / alt döşemeye bakış',6,'0 → −1 inişi: aşağıdaki döşeme ve 051’de de görülen duvar görseli, 049 ile aynı yarım daire merdiveni doğruluyor. Kullanıcı düzeltmesi sonrası iniş boşluğuna taşındı. Konum ve yatay yön hâlâ görsel tahmin.',pitch='aşağı',angle=35)
+put([51],'-1',(618,399),(649,374),'estimate','Alt kat / yarım daire merdivenin altından yukarı',7,'050’de aşağı bakılan merdivenin alt görünüşü: aynı duvar görseli, eğrisel kol ve döşeme boşluğu. 0’a çıkar; +1’e çıkan geniş merdivenden ayrı. Alt kattaki kamera yeri yaklaşık.',pitch='yukarı',angle=30)
+put([52,53],'-1',(639,382),None,'region','Alt kat / yarım daire merdivenin alt yüzeyi',7,'051 ile aynı basamak altı ve düşey destek ilişkisi; aşağı iniş merdiveninin izdüşümüne taşındı. Alt kat içindeki tam kamera yeri çözülemedi.',pitch='yukarı / detay')
+put([54],'-1',(650,367),(513,484),'estimate','İniş merdiveninden Grand Hall ve karşıdaki çıkışa bakış',9,'Önde alt kat boşluğu, karşıda 0 kat döşemesi ve arkasında yukarı çıkan geniş merdiven okunuyor. İki merdiveni ayıran çapraz kontrol görüntüsü. Kamera 0/−1 arasındaki merdiven üzerinde olabilir; kesin kot çözülmedi.',pitch='yukarı; ara basamak olası',angle=40)
 put([55],'0',(552,478),(470,448),'estimate','Grand Hall / ana merdiven altı',7,'Ana merdivenin kıvrımı ile yüksek piramidal cam çatı birlikte.',pitch='yukarı',angle=30)
 put([56],'0',(438,414),(303,444),'estimate','Doğu galerisi giriş eşiği',10,'Sergi giriş yazısı, ahşap döşeme ve hendek/yeşilliğe bakan gömülü pencere. Kanat eşleşmesi olası.',angle=35)
 put([57],'0',(410,426),(322,477),'estimate','Doğu galerisi',12,'Ahşap döşeme, sergi panelleri ve gömülü pencere düzeni; 056 ile seri ilişkisi.',angle=40)
@@ -91,9 +93,33 @@ put([108],'dis',(570,-1280),(575,330),'estimate','Park üzerinden uzak panorama'
 put([109],'dis',(818,857),(560,380),'estimate','Ağaçlar arasından giriş cephesi',30,'Taş giriş kütlesi ve merkez cam kule; bitkiler nedeniyle uzaklık/açı zayıf.',pitch='yukarı',angle=45)
 put([110],'0',(620,452),(483,411),'estimate','Grand Hall taş duvar ve çatı',10,'Taş duvar, cam piramit köşesi ve düşen gölge; dar kadrajda nokta yaklaşık.',pitch='yukarı',angle=35)
 put([114],'0',(572,475),(574,323),'estimate','Grand Hall cam üçgeni',8,'Ana cam üçgenin simetrik alt görünüşü, karşıdaki taş duvar ve parapet.',pitch='yukarı',angle=20)
-put([115],'-1',(529,475),(475,481),'estimate','Alt kat ana merdiven',7,'Eliptik döşeme boşluğu ve beton merdiven, 051 ile aynı mimari öğe.',pitch='yukarı',angle=30)
+put([115],'-1',(621,397),(649,374),'estimate','Alt kat / yarım daire merdiven',7,'Eğrisel döşeme boşluğu, beton merdiven ve destek 051 ile aynı 0 → −1 bağlantısı. Kullanıcı düzeltmesi sonrası doğru merdiven izdüşümüne taşındı; kamera koordinatı yaklaşık.',pitch='yukarı',angle=30)
 put([116],'dis',(300,1250),(500,465),'estimate','Havadan giriş ve doğu cephe',50,'Bina üstten görülüyor; giriş, doğu cephe ve pavyon ortak referans. Yükseklik ve yatay mesafe çözülemedi.',pitch='aşağı; havadan',angle=35)
 put([119],'dis',(575,8),(575,360),'estimate','Fort aksından cam üst yapı',12,'Merkez cam çan ve iki yan cam örtünün yaklaşık simetrisi.',pitch='yukarı',angle=20)
 put([122],'belirsiz',None,None,'unresolved','Parc Dräi Eechelen / peyzaj yolu',None,'Bitkilendirme ve eğimli çim yol dışında konumu tekilleştirecek bina/harita referansı yok.')
 put([123],'belirsiz',None,None,'unresolved','Parc Dräi Eechelen / tarihi duvar',None,'Tek tarihi duvar köşesi ve ağaçlar, arşivdeki vaziyet çizimiyle tekil eşleştirme için yeterli değil.')
 put([124],'dis',(239,416),(144,810),'estimate','Doğu hendek kenarı / meydan ağaçları',30,'Uzun hendek duvarı, meydan ağaçları ve yüksek iş yapıları aynı kadrajda; uzaktan panoramik görüş.',angle=40)
+
+# Stair identity is independent of camera position. User correction + source image audit.
+for ident in ['045','046','047','048','049','050','051','052','053','054','115']:
+    D[ident]['stair_system']='STAIR_GH_DOWN_0_TO_MINUS1'
+    D[ident]['review_basis']='2026-10-08 user plan correction + renewed image comparison; camera remains approximate'
+for ident in ['019','021','022','023','024','025','026','055']:
+    D[ident]['stair_system']='STAIR_GH_UP_0_TO_PLUS1'
+for ident in ['041','042','043','044']:
+    D[ident]['stair_system']='STAIR_EAST_SPIRAL'
+
+# Reviewed overrides are authoritative. Earlier hypotheses stay above and in the
+# immutable pre-audit snapshot for traceability, never silently as accepted poses.
+import json
+from pathlib import Path
+_audit=json.loads((Path(__file__).resolve().parent/'06_Tek_Tek_Denetim/fotograf_denetimi.json').read_text(encoding='utf-8'))
+assert {r['id'] for r in _audit}==set(D)
+for review in _audit:
+    d=D[review['id']]
+    d.update(review['overrides'])
+    d['evidence']=review['observed_features']+' '+review['decision']
+    for field in ['review_status','review_date','camera_pose_verified','metric_geometry_approved','level_status','model_use','crosscheck_ids']:
+        d[field]=review[field]
+    d['review_decision']=review['decision']
+    d['review_basis']='2026-10-08 individual visual audit; see 06_Tek_Tek_Denetim/fotograf_denetimi.json'
