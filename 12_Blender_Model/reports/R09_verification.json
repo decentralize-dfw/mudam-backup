@@ -1,0 +1,489 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R09_OKUMA_MEKANI_v001.blend",
+  "failures": [],
+  "ceiling_verification": "R09_ceiling_verification.json",
+  "joined_floor_solid": {
+    "name": "P17_READING_FLOOR",
+    "volume": 12.904170687690783,
+    "nonmanifold": 0,
+    "zero_faces": 0
+  },
+  "portal_clearance_rays": [
+    {
+      "portal": "NORTH",
+      "fraction": 0.15,
+      "hits": [],
+      "passed": true
+    },
+    {
+      "portal": "NORTH",
+      "fraction": 0.5,
+      "hits": [],
+      "passed": true
+    },
+    {
+      "portal": "NORTH",
+      "fraction": 0.85,
+      "hits": [],
+      "passed": true
+    },
+    {
+      "portal": "EAST",
+      "fraction": 0.15,
+      "hits": [],
+      "passed": true
+    },
+    {
+      "portal": "EAST",
+      "fraction": 0.5,
+      "hits": [],
+      "passed": true
+    },
+    {
+      "portal": "EAST",
+      "fraction": 0.85,
+      "hits": [],
+      "passed": true
+    },
+    {
+      "portal": "WEST",
+      "fraction": 0.15,
+      "hits": [],
+      "passed": true
+    },
+    {
+      "portal": "WEST",
+      "fraction": 0.5,
+      "hits": [],
+      "passed": true
+    },
+    {
+      "portal": "WEST",
+      "fraction": 0.85,
+      "hits": [],
+      "passed": true
+    }
+  ],
+  "portal_floor_headroom": [
+    {
+      "portal": "NORTH",
+      "fraction": 0.15,
+      "offset_m": -0.65,
+      "support": [
+        {
+          "name": "P17_READING_FLOOR",
+          "distance": 0.03000021025930424
+        }
+      ],
+      "head": [],
+      "passed": true
+    },
+    {
+      "portal": "NORTH",
+      "fraction": 0.15,
+      "offset_m": 0,
+      "support": [
+        {
+          "name": "P17_READING_FLOOR",
+          "distance": 0.03000021025930424
+        }
+      ],
+      "head": [],
+      "passed": true
+    },
+    {
+      "portal": "NORTH",
+      "fraction": 0.15,
+      "offset_m": 0.65,
+      "support": [
+        {
+          "name": "P17_READING_FLOOR",
+          "distance": 0.03000021025930424
+        }
+      ],
+      "head": [],
+      "passed": true
+    },
+    {
+      "portal": "NORTH",
+      "fraction": 0.5,
+      "offset_m": -0.65,
+      "support": [
+        {
+          "name": "P17_READING_FLOOR",
+          "distance": 0.03000021025930424
+        }
+      ],
+      "head": [],
+      "passed": true
+    },
+    {
+      "portal": "NORTH",
+      "fraction": 0.5,
+      "offset_m": 0,
+      "support": [
+        {
+          "name": "P17_READING_FLOOR",
+          "distance": 0.03000021025930424
+        }
+      ],
+      "head": [],
+      "passed": true
+    },
+    {
+      "portal": "NORTH",
+      "fraction": 0.5,
+      "offset_m": 0.65,
+      "support": [
+        {
+          "name": "P17_READING_FLOOR",
+          "distance": 0.03000021025930424
+        }
+      ],
+      "head": [],
+      "passed": true
+    },
+    {
+      "portal": "NORTH",
+      "fraction": 0.85,
+      "offset_m": -0.65,
+      "support": [
+        {
+          "name": "P17_READING_FLOOR",
+          "distance": 0.03000021025930424
+        }
+      ],
+      "head": [],
+      "passed": true
+    },
+    {
+      "portal": "NORTH",
+      "fraction": 0.85,
+      "offset_m": 0,
+      "support": [
+        {
+          "name": "P17_READING_FLOOR",
+          "distance": 0.03000021025930424
+        }
+      ],
+      "head": [],
+      "passed": true
+    },
+    {
+      "portal": "NORTH",
+      "fraction": 0.85,
+      "offset_m": 0.65,
+      "support": [
+        {
+          "name": "P17_READING_FLOOR",
+          "distance": 0.03000021025930424
+        }
+      ],
+      "head": [],
+      "passed": true
+    },
+    {
+      "portal": "EAST",
+      "fraction": 0.15,
+      "offset_m": -0.65,
+      "support": [
+        {
+          "name": "P17_READING_FLOOR",
+          "distance": 0.03000021025930424
+        }
+      ],
+      "head": [],
+      "passed": true
+    },
+    {
+      "portal": "EAST",
+      "fraction": 0.15,
+      "offset_m": 0,
+      "support": [
+        {
+          "name": "P17_READING_FLOOR",
+          "distance": 0.03000021025930424
+        }
+      ],
+      "head": [],
+      "passed": true
+    },
+    {
+      "portal": "EAST",
+      "fraction": 0.15,
+      "offset_m": 0.65,
+      "support": [
+        {
+          "name": "P17_READING_FLOOR",
+          "distance": 0.03000021025930424
+        }
+      ],
+      "head": [],
+      "passed": true
+    },
+    {
+      "portal": "EAST",
+      "fraction": 0.5,
+      "offset_m": -0.65,
+      "support": [
+        {
+          "name": "P17_READING_FLOOR",
+          "distance": 0.03000021025930424
+        }
+      ],
+      "head": [],
+      "passed": true
+    },
+    {
+      "portal": "EAST",
+      "fraction": 0.5,
+      "offset_m": 0,
+      "support": [
+        {
+          "name": "P17_READING_FLOOR",
+          "distance": 0.03000021025930424
+        }
+      ],
+      "head": [],
+      "passed": true
+    },
+    {
+      "portal": "EAST",
+      "fraction": 0.5,
+      "offset_m": 0.65,
+      "support": [
+        {
+          "name": "P17_READING_FLOOR",
+          "distance": 0.03000021025930424
+        }
+      ],
+      "head": [],
+      "passed": true
+    },
+    {
+      "portal": "EAST",
+      "fraction": 0.85,
+      "offset_m": -0.65,
+      "support": [
+        {
+          "name": "P17_READING_FLOOR",
+          "distance": 0.03000021025930424
+        }
+      ],
+      "head": [],
+      "passed": true
+    },
+    {
+      "portal": "EAST",
+      "fraction": 0.85,
+      "offset_m": 0,
+      "support": [
+        {
+          "name": "P17_READING_FLOOR",
+          "distance": 0.03000021025930424
+        }
+      ],
+      "head": [],
+      "passed": true
+    },
+    {
+      "portal": "EAST",
+      "fraction": 0.85,
+      "offset_m": 0.65,
+      "support": [
+        {
+          "name": "P17_READING_FLOOR",
+          "distance": 0.03000021025930424
+        }
+      ],
+      "head": [],
+      "passed": true
+    },
+    {
+      "portal": "WEST",
+      "fraction": 0.15,
+      "offset_m": -0.65,
+      "support": [
+        {
+          "name": "P17_READING_FLOOR",
+          "distance": 0.03000021025930424
+        }
+      ],
+      "head": [],
+      "passed": true
+    },
+    {
+      "portal": "WEST",
+      "fraction": 0.15,
+      "offset_m": 0,
+      "support": [
+        {
+          "name": "P17_READING_FLOOR",
+          "distance": 0.03000021025930424
+        }
+      ],
+      "head": [],
+      "passed": true
+    },
+    {
+      "portal": "WEST",
+      "fraction": 0.15,
+      "offset_m": 0.65,
+      "support": [
+        {
+          "name": "P17_READING_FLOOR",
+          "distance": 0.03000021025930424
+        }
+      ],
+      "head": [],
+      "passed": true
+    },
+    {
+      "portal": "WEST",
+      "fraction": 0.5,
+      "offset_m": -0.65,
+      "support": [
+        {
+          "name": "P17_READING_FLOOR",
+          "distance": 0.03000021025930424
+        }
+      ],
+      "head": [],
+      "passed": true
+    },
+    {
+      "portal": "WEST",
+      "fraction": 0.5,
+      "offset_m": 0,
+      "support": [
+        {
+          "name": "P17_READING_FLOOR",
+          "distance": 0.03000021025930424
+        }
+      ],
+      "head": [],
+      "passed": true
+    },
+    {
+      "portal": "WEST",
+      "fraction": 0.5,
+      "offset_m": 0.65,
+      "support": [
+        {
+          "name": "P17_READING_FLOOR",
+          "distance": 0.03000021025930424
+        }
+      ],
+      "head": [],
+      "passed": true
+    },
+    {
+      "portal": "WEST",
+      "fraction": 0.85,
+      "offset_m": -0.65,
+      "support": [
+        {
+          "name": "P17_READING_FLOOR",
+          "distance": 0.03000021025930424
+        }
+      ],
+      "head": [],
+      "passed": true
+    },
+    {
+      "portal": "WEST",
+      "fraction": 0.85,
+      "offset_m": 0,
+      "support": [
+        {
+          "name": "P17_READING_FLOOR",
+          "distance": 0.03000021025930424
+        }
+      ],
+      "head": [],
+      "passed": true
+    },
+    {
+      "portal": "WEST",
+      "fraction": 0.85,
+      "offset_m": 0.65,
+      "support": [
+        {
+          "name": "P17_READING_FLOOR",
+          "distance": 0.03000021025930424
+        }
+      ],
+      "head": [],
+      "passed": true
+    }
+  ],
+  "wall_ceiling_seams": [
+    {
+      "corner": 0,
+      "walls": [
+        "R09_READING_WALL_0_A",
+        "R09_READING_WALL_7_FULL"
+      ],
+      "passed": true
+    },
+    {
+      "corner": 1,
+      "walls": [
+        "R09_READING_WALL_0_B",
+        "R09_READING_WALL_1_FULL"
+      ],
+      "passed": true
+    },
+    {
+      "corner": 2,
+      "walls": [
+        "R09_READING_WALL_1_FULL",
+        "R09_READING_WALL_2_A"
+      ],
+      "passed": true
+    },
+    {
+      "corner": 3,
+      "walls": [
+        "R09_READING_WALL_2_B",
+        "R09_READING_WALL_3_FULL"
+      ],
+      "passed": true
+    },
+    {
+      "corner": 4,
+      "walls": [
+        "R09_READING_WALL_3_FULL",
+        "R09_READING_WALL_4_FULL"
+      ],
+      "passed": true
+    },
+    {
+      "corner": 5,
+      "walls": [
+        "R09_READING_WALL_4_FULL",
+        "R09_READING_WALL_5_FULL"
+      ],
+      "passed": true
+    },
+    {
+      "corner": 6,
+      "walls": [
+        "R09_READING_WALL_5_FULL",
+        "R09_READING_WALL_6_A"
+      ],
+      "passed": true
+    },
+    {
+      "corner": 7,
+      "walls": [
+        "R09_READING_WALL_6_B",
+        "R09_READING_WALL_7_FULL"
+      ],
+      "passed": true
+    }
+  ],
+  "source_corner_max_offset_canonical": 0.8083390850154057,
+  "door_leaves_assigned": false,
+  "construction_acceptance": false
+}

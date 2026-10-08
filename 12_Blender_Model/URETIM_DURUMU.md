@@ -4,7 +4,7 @@
 
 ## Güncel teslim
 
-[MUDAM_R07_MERDIVEN_BOSLUGU_v001.blend](scenes/MUDAM_R07_MERDIVEN_BOSLUGU_v001.blend) giriş, çatı ve merdiven çalışmalarını birlikte içerir. [Görsel inceleme](URETIM.html) · [Üretim raporu](reports/P07_P09_URETIM_RAPORU.md).
+[MUDAM_R12_BATI_DUZ_CAM_v001.blend](scenes/MUDAM_R12_BATI_DUZ_CAM_v001.blend) giriş, çatı ve merdiven çalışmalarını birlikte içerir. [Görsel inceleme](URETIM.html) · [Üretim raporu](reports/P07_P09_URETIM_RAPORU.md).
 
 | Paket | Durum | Somut çıktı / açık konu |
 | --- | --- | --- |
@@ -62,3 +62,11 @@ Tam üst kol, üst sahanlık, eğimli korkuluk devamı ve bütün detay ölçül
 Üst kol R04 v003 ve alt kol R05 v004 çalışma adayları eklendi. Alt katta 114/055 fotoğraflarıyla kıvrımlı döşeme uzantısı ve üçgen köşe boşluğu düzeltildi; bütün yerel dolaşım kontrolleri yeniden geçti. Gerçek rıht sayıları, kesit kalınlıkları ve detay ölçüleri açık. [R04 raporu](reports/R04_UST_MERDIVEN_RAPORU.md) · [R05 raporu](reports/R05_ALT_MERDIVEN_RAPORU.md).
 
 R06 alt fuaye tavanı ve R07 merdiven arkası düz taş duvarları eklendi; yeni sahnede iki merdiven ve önceki açıklık kontrolleri tekrar geçti. [R06](reports/R06_ALT_FUAYE_RAPORU.md) · [R07](reports/R07_MERDIVEN_BOSLUGU_RAPORU.md).
+
+R08/R09: 015/016 ile 24 kollu armatür ve eğimli tavan; PDF103 ile oda iç çevresi, üç geçiş ve döşeme bağlantıları eklendi. Yeniden açma, açıklık/baş mesafesi ve günışığı kontrolleri geçti. [R08](reports/R08_OKUMA_TAVANI_RAPORU.md) · [R09](reports/R09_OKUMA_MEKANI_RAPORU.md). Doğu spiral merdiveni için kaynak uyuşmazlığı inceleniyor.
+
+## 23:35 UTC civarı — R10 doğu spiral
+041–044, 102/103 ve PDF sembolünden 34 rıht/540 derece koşullu aday üretildi. Yön, Boolean birleşimi ve bütün çevrede eski duvar engeli üç ayrı kontrolde düzeltilerek v004 kaydedildi. Baş mesafesi/destek/geçiş ve önceki üst merdiven kontrolleri geçti. Bahçe uç camı ve çatı birleşimi sıradaki iş; tam bina hâlâ sürüyor.
+
+## 23:43 UTC civarı — R11/R12
+Doğu uç cam cephe adayı, çatıya bağlı taş alın duvarı ve açık pavyon bağlantısı üretildi. Üst çatı şeridi açık belirsizlik. Batıdaki 108 cam panel düzleştirildi; maksimum köşe düzeltmesi 5,102 mm, çerçeveler korundu. Yeniden açma ve geometri kontrolleri geçti. Pavyon cam çatı detaylarına devam ediliyor.

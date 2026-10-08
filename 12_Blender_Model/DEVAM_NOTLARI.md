@@ -1,6 +1,6 @@
 # Gece üretimine devam
 
-8 Ekim 2026, 23:15 Europe/Paris civarı ara durum. Son sahneyi her zaman `../11_Blender_Modelleme_Plani/is_paketleri.json` içindeki `latest_scene` alanından oku. Şu an R07 v001: R06 üzerine 114/055 ile iki düz taş köşe duvarı. Tam müze bitmedi; sabah hedefi tam doğrulama iddiasına dönüşmemeli.
+8 Ekim 2026, 23:15 Europe/Paris civarı ara durum. Son sahneyi her zaman `../11_Blender_Modelleme_Plani/is_paketleri.json` içindeki `latest_scene` alanından oku. Şu an R12 v001: R10 spiral, R11 doğu uç cam/taş alın ve R12 düz batı camları. Doğu çatı şeridi hâlâ açık. Sıradaki iş pavyon cam panelizasyonu. Tam müze bitmedi; sabah hedefi tam doğrulama iddiasına dönüşmemeli.
 
 ## Kaydedilen işler
 
@@ -50,3 +50,13 @@ Tavan temiz yüksekliği 4,67 m koşullu alt kota uygulandı; alt yüz -0,656 m.
 
 ## R07 / merdiven boşluğu
 114/045 ve 051/055 ile iki düz taş duvar, mevcut P11 üçgen cam kenarlarına bağlı. R04/R05/R06 regresyonları geçti. 30 duvar yaklaşma ışını ve 10 alt döşeme örneği geçti; derz, kalınlık ve tam kenar kabulü açık. Sonraki öncelik okuma alanı eğimli tavanını 015/016,103,101 ile çözmek; ardından galeri içleri/diğer merdivenler.
+
+## R08 ve R09 hazırlığı
+R08 v002 yeniden açma/render, 141 hacim, 12 günışığı, 16 dolaşım ve 24 tel ucu kontrolünden geçti. 4202 önceki nesne karşılaştırıldı; yalnız iki izinli çatı kesicisi değişti. R09 config/reading_room.json, PDF103 iç oda konturunu ve üç geçişi çıkarır; source_item_endpoint_pairs kayıtlı. İlk uç seçimi 43/1 yerine 43/2 olmalıydı; model üretilmeden 20 piksel fit artığıyla yakalandı/düzeltildi. R09 henüz inşa edilmedi. Main son push 22:49 UTC, 57791c2 / kayıt commit 78cb893. Sonraki saatlik push yaklaşık23:49UTC; üretime ara vermeden devam et.
+
+## R09 üretildi / R10 araştırılıyor
+R09 v001 sahnesi, PDF103 oda iç çevresi (maks0.80834 px fit artığı), üç portal ve döşeme bağlantılarıyla üretildi. R09_verification, R09_ceiling_verification ve R09_inherited_verification geçti; R09 rapor/yayın/GLB tamamlanıyor. R10 doğu spiral kaynakları041042043044 açılıp görüldü; silindirik taş merkez, iç metal küpeşte, dış cam, kademeli alt yüz. Kritik kaynak farkı: PDF160/161 spiral merkezi kanonik329.39/326.59 iken resmî102 yaklaşık309.5/329.0; çevre duvarı da yaklaşık20px X farkına sahip. PDF yerel merdiven şeklini102ye merkeze göre rijit eşleştirip farkı kaydet; doğrudan20px yanlış yere kopyalama. references/R10_spiral_plan_0.png, R10_spiral_plan_1.png ve R10_official102/103.png hazır. Yeni spiral modeli henüz yok.
+
+R10 v004: tüm görünür çevreyle render eski R02_BEFORE duvar parçasını yakaladı; gizlenip korunarak düzeltildi. Üç bahçe görüş testi eklendi. Uç cam ve çatı boşluğu hâlâ çözülmedi; doğrudan fotoğraf034/041/033 ile karşılaştır.
+
+R11 uç cam: başlık9,719 m ve modüller aday; pavyon geçişi korunuyor. R12 108 batı camını düzleştirdi, sadece bu paneller değişti; çerçeve yuvası çözülmedi.

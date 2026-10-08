@@ -1,0 +1,1185 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R11_DOGU_UC_CAM_v001.blend",
+  "failures": [],
+  "evaluated_solids": [
+    {
+      "name": "R11_STONE_END",
+      "volume": 23.639041828906066,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R11_END_GLASS_000",
+      "volume": 0.01923682060398909,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R11_END_FRAME_000",
+      "volume": 0.020157417708133986,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R11_END_FRAME_001",
+      "volume": 0.006870326302592832,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R11_END_FRAME_002",
+      "volume": 0.020157417708134916,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R11_END_FRAME_003",
+      "volume": 0.006870326302592839,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R11_END_GLASS_001",
+      "volume": 0.037848745340526097,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R11_END_FRAME_004",
+      "volume": 0.01275556182040951,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R11_END_FRAME_005",
+      "volume": 0.020157417708134583,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R11_END_FRAME_006",
+      "volume": 0.012755561820410117,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R11_END_GLASS_002",
+      "volume": 0.037848761174328435,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R11_END_FRAME_007",
+      "volume": 0.012755566827174825,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R11_END_FRAME_008",
+      "volume": 0.02015741770813199,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R11_END_FRAME_009",
+      "volume": 0.012755566827172306,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R11_END_GLASS_003",
+      "volume": 0.03784872950676296,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R11_END_FRAME_010",
+      "volume": 0.012755561820407955,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R11_END_FRAME_011",
+      "volume": 0.020157674023606652,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R11_END_FRAME_012",
+      "volume": 0.012755561820409673,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R11_END_GLASS_004",
+      "volume": 0.03784874534052607,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R11_END_FRAME_013",
+      "volume": 0.012755571833937607,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R11_END_FRAME_014",
+      "volume": 0.020157674023607207,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R11_END_FRAME_015",
+      "volume": 0.01275557183393631,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R11_END_GLASS_005",
+      "volume": 0.013265844054193565,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R11_END_FRAME_016",
+      "volume": 0.01414512682427669,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R11_END_FRAME_017",
+      "volume": 0.006870326302592952,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R11_END_FRAME_018",
+      "volume": 0.014145126824277453,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R11_END_GLASS_006",
+      "volume": 0.02610075561190702,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R11_END_FRAME_019",
+      "volume": 0.012755561820409139,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R11_END_FRAME_020",
+      "volume": 0.014145126824277175,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R11_END_GLASS_007",
+      "volume": 0.026100766530979265,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R11_END_FRAME_021",
+      "volume": 0.01275556682717266,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R11_END_FRAME_022",
+      "volume": 0.014145126824276582,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R11_END_GLASS_008",
+      "volume": 0.02610074469279732,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R11_END_FRAME_023",
+      "volume": 0.012755561820409489,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R11_END_FRAME_024",
+      "volume": 0.01414530668932168,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R11_END_GLASS_009",
+      "volume": 0.026100755611907195,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R11_END_FRAME_025",
+      "volume": 0.012755571833936719,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R11_END_FRAME_026",
+      "volume": 0.014145306689323789,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R11_END_GLASS_010",
+      "volume": 0.010209083169356755,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R11_END_FRAME_027",
+      "volume": 0.006012311398613289,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R11_END_FRAME_028",
+      "volume": 0.012755506407252482,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R11_END_FRAME_029",
+      "volume": 0.0060123143849599575,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R11_END_FRAME_030",
+      "volume": 0.012755565575482353,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R11_END_GLASS_011",
+      "volume": 0.010209084036882012,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R11_END_FRAME_031",
+      "volume": 0.012755506407252575,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R11_END_FRAME_032",
+      "volume": 0.006012295272339908,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R11_END_FRAME_033",
+      "volume": 0.012755565575482297,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R11_END_GLASS_012",
+      "volume": 0.010209084036882005,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R11_END_FRAME_034",
+      "volume": 0.01275550515556619,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R11_END_FRAME_035",
+      "volume": 0.006012295272340207,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R11_END_FRAME_036",
+      "volume": 0.01275556432379073,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R11_END_GLASS_013",
+      "volume": 0.0043485141850804,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R11_END_FRAME_037",
+      "volume": 0.0058852132251818005,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R11_END_FRAME_038",
+      "volume": 0.006012295272339478,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R11_END_FRAME_039",
+      "volume": 0.005885240524580346,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R11_END_GLASS_014",
+      "volume": 0.005188818686131729,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R11_END_FRAME_040",
+      "volume": 0.006870294433756918,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R11_END_FRAME_041",
+      "volume": 0.006012295272339912,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R11_END_GLASS_015",
+      "volume": 0.010209081901447072,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R11_END_FRAME_042",
+      "volume": 0.01275550265219642,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R11_END_FRAME_043",
+      "volume": 0.0060122952723394504,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R11_END_GLASS_016",
+      "volume": 0.0102090861723374,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R11_END_FRAME_044",
+      "volume": 0.01275550765893596,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R11_END_FRAME_045",
+      "volume": 0.006012295272340928,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R11_END_GLASS_017",
+      "volume": 0.010209077630537133,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R11_END_FRAME_046",
+      "volume": 0.012755502652198679,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R11_END_FRAME_047",
+      "volume": 0.006012371722824428,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R11_END_GLASS_018",
+      "volume": 0.010209081901446912,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R11_END_FRAME_048",
+      "volume": 0.012755512665680074,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R11_END_FRAME_049",
+      "volume": 0.006012371722824428,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R11_END_GLASS_019",
+      "volume": 0.03784739885150086,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R11_END_FRAME_050",
+      "volume": 0.020157383601771314,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R11_END_FRAME_051",
+      "volume": 0.01275550640725226,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R11_END_FRAME_052",
+      "volume": 0.020157395616508318,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R11_END_GLASS_020",
+      "volume": 0.037847402067648604,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R11_END_FRAME_053",
+      "volume": 0.012755506407252242,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R11_END_FRAME_054",
+      "volume": 0.02015733153791253,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R11_END_GLASS_021",
+      "volume": 0.03784740206764856,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R11_END_FRAME_055",
+      "volume": 0.012755505155567523,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R11_END_FRAME_056",
+      "volume": 0.020157331537911976,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R11_END_GLASS_022",
+      "volume": 0.016120933490724382,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R11_END_FRAME_057",
+      "volume": 0.005885213225181662,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R11_END_FRAME_058",
+      "volume": 0.020157331537911754,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R11_END_GLASS_023",
+      "volume": 0.019236133854930743,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R11_END_FRAME_059",
+      "volume": 0.006870294433755461,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R11_END_FRAME_060",
+      "volume": 0.02015733153791255,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R11_END_GLASS_024",
+      "volume": 0.03784739415105129,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R11_END_FRAME_061",
+      "volume": 0.012755502652197197,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R11_END_FRAME_062",
+      "volume": 0.02015733153791266,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R11_END_GLASS_025",
+      "volume": 0.03784740998424581,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R11_END_FRAME_063",
+      "volume": 0.012755507658937841,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R11_END_FRAME_064",
+      "volume": 0.020157331537912437,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R11_END_GLASS_026",
+      "volume": 0.03784737831783205,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R11_END_FRAME_065",
+      "volume": 0.01275550265219657,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R11_END_FRAME_066",
+      "volume": 0.02015758785229116,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R11_END_GLASS_027",
+      "volume": 0.03784739415105149,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R11_END_FRAME_067",
+      "volume": 0.012755512665678242,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R11_END_FRAME_068",
+      "volume": 0.02015758785228968,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R11_END_GLASS_028",
+      "volume": 0.037847396840357574,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R11_END_FRAME_069",
+      "volume": 0.02015738457531544,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R11_END_FRAME_070",
+      "volume": 0.012755506407252135,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R11_END_FRAME_071",
+      "volume": 0.02015739458759474,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R11_END_GLASS_029",
+      "volume": 0.03784740005656196,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R11_END_FRAME_072",
+      "volume": 0.012755506407252357,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R11_END_FRAME_073",
+      "volume": 0.020157330509004888,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R11_END_GLASS_030",
+      "volume": 0.037847400056562036,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R11_END_FRAME_074",
+      "volume": 0.012755505155567337,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R11_END_FRAME_075",
+      "volume": 0.02015733050900481,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R11_END_GLASS_031",
+      "volume": 0.016120932634091985,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R11_END_FRAME_076",
+      "volume": 0.005885213225181136,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R11_END_FRAME_077",
+      "volume": 0.020157330509005127,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R11_END_GLASS_032",
+      "volume": 0.019236132832777204,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R11_END_FRAME_078",
+      "volume": 0.006870294433755975,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R11_END_FRAME_079",
+      "volume": 0.02015733050900511,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R11_END_GLASS_033",
+      "volume": 0.03784739213990816,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R11_END_FRAME_080",
+      "volume": 0.012755502652197076,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R11_END_FRAME_081",
+      "volume": 0.020157330509005072,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R11_END_GLASS_034",
+      "volume": 0.03784740797314472,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R11_END_FRAME_082",
+      "volume": 0.012755507658937928,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R11_END_FRAME_083",
+      "volume": 0.020157330509005183,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R11_END_GLASS_035",
+      "volume": 0.03784737630669305,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R11_END_FRAME_084",
+      "volume": 0.012755502652197413,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R11_END_FRAME_085",
+      "volume": 0.0201575868233694,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R11_END_GLASS_036",
+      "volume": 0.03784739213990819,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R11_END_FRAME_086",
+      "volume": 0.012755512665677982,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R11_END_FRAME_087",
+      "volume": 0.02015758682336825,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R11_END_GLASS_037",
+      "volume": 0.03784739885150089,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R11_END_FRAME_088",
+      "volume": 0.020157383601772428,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R11_END_FRAME_089",
+      "volume": 0.01275550640725238,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R11_END_FRAME_090",
+      "volume": 0.02015739561650698,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R11_END_GLASS_038",
+      "volume": 0.03784740206766633,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R11_END_FRAME_091",
+      "volume": 0.012755506407252381,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R11_END_FRAME_092",
+      "volume": 0.020157331537913877,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R11_END_GLASS_039",
+      "volume": 0.0378474020676664,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R11_END_FRAME_093",
+      "volume": 0.012755505155567004,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R11_END_FRAME_094",
+      "volume": 0.02015733153791351,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R11_END_GLASS_040",
+      "volume": 0.016120933490722487,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R11_END_FRAME_095",
+      "volume": 0.00588521322518145,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R11_END_FRAME_096",
+      "volume": 0.02015733153791391,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R11_END_GLASS_041",
+      "volume": 0.019236133854930722,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R11_END_FRAME_097",
+      "volume": 0.00687029443375628,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R11_END_FRAME_098",
+      "volume": 0.020157331537913867,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R11_END_GLASS_042",
+      "volume": 0.03784739415102998,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R11_END_FRAME_099",
+      "volume": 0.012755502652196722,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R11_END_FRAME_100",
+      "volume": 0.02015733153791431,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R11_END_GLASS_043",
+      "volume": 0.03784740998424932,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R11_END_FRAME_101",
+      "volume": 0.0127555076589374,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R11_END_FRAME_102",
+      "volume": 0.020157331537913898,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R11_END_GLASS_044",
+      "volume": 0.03784737831787119,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R11_END_FRAME_103",
+      "volume": 0.012755502652196625,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R11_END_FRAME_104",
+      "volume": 0.02015758785229066,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R11_END_GLASS_045",
+      "volume": 0.03784739415103013,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R11_END_FRAME_105",
+      "volume": 0.012755512665679904,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R11_END_FRAME_106",
+      "volume": 0.02015758785228966,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R11_LINK_THRESHOLD",
+      "volume": 0.0635072179001348,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    }
+  ],
+  "link_passage": [
+    {
+      "y": 269,
+      "z": 0.2,
+      "hits": []
+    },
+    {
+      "y": 269,
+      "z": 1.5,
+      "hits": []
+    },
+    {
+      "y": 269,
+      "z": 2.1,
+      "hits": []
+    },
+    {
+      "y": 279,
+      "z": 0.2,
+      "hits": []
+    },
+    {
+      "y": 279,
+      "z": 1.5,
+      "hits": []
+    },
+    {
+      "y": 279,
+      "z": 2.1,
+      "hits": []
+    },
+    {
+      "y": 289,
+      "z": 0.2,
+      "hits": []
+    },
+    {
+      "y": 289,
+      "z": 1.5,
+      "hits": []
+    },
+    {
+      "y": 289,
+      "z": 2.1,
+      "hits": []
+    }
+  ],
+  "shared_roof_wall_vertices": [
+    {
+      "y": 161.5,
+      "z": 2.9155501149840806,
+      "roof_error": 0.0,
+      "wall_error": 0.0
+    },
+    {
+      "y": 266.5,
+      "z": 9.718577096381804,
+      "roof_error": 0.0,
+      "wall_error": 0.0
+    }
+  ],
+  "glass_material": [
+    {
+      "name": "R11_END_GLASS_000",
+      "transmission": 1.0
+    },
+    {
+      "name": "R11_END_GLASS_001",
+      "transmission": 1.0
+    },
+    {
+      "name": "R11_END_GLASS_002",
+      "transmission": 1.0
+    },
+    {
+      "name": "R11_END_GLASS_003",
+      "transmission": 1.0
+    },
+    {
+      "name": "R11_END_GLASS_004",
+      "transmission": 1.0
+    },
+    {
+      "name": "R11_END_GLASS_005",
+      "transmission": 1.0
+    },
+    {
+      "name": "R11_END_GLASS_006",
+      "transmission": 1.0
+    },
+    {
+      "name": "R11_END_GLASS_007",
+      "transmission": 1.0
+    },
+    {
+      "name": "R11_END_GLASS_008",
+      "transmission": 1.0
+    },
+    {
+      "name": "R11_END_GLASS_009",
+      "transmission": 1.0
+    },
+    {
+      "name": "R11_END_GLASS_010",
+      "transmission": 1.0
+    },
+    {
+      "name": "R11_END_GLASS_011",
+      "transmission": 1.0
+    },
+    {
+      "name": "R11_END_GLASS_012",
+      "transmission": 1.0
+    },
+    {
+      "name": "R11_END_GLASS_013",
+      "transmission": 1.0
+    },
+    {
+      "name": "R11_END_GLASS_014",
+      "transmission": 1.0
+    },
+    {
+      "name": "R11_END_GLASS_015",
+      "transmission": 1.0
+    },
+    {
+      "name": "R11_END_GLASS_016",
+      "transmission": 1.0
+    },
+    {
+      "name": "R11_END_GLASS_017",
+      "transmission": 1.0
+    },
+    {
+      "name": "R11_END_GLASS_018",
+      "transmission": 1.0
+    },
+    {
+      "name": "R11_END_GLASS_019",
+      "transmission": 1.0
+    },
+    {
+      "name": "R11_END_GLASS_020",
+      "transmission": 1.0
+    },
+    {
+      "name": "R11_END_GLASS_021",
+      "transmission": 1.0
+    },
+    {
+      "name": "R11_END_GLASS_022",
+      "transmission": 1.0
+    },
+    {
+      "name": "R11_END_GLASS_023",
+      "transmission": 1.0
+    },
+    {
+      "name": "R11_END_GLASS_024",
+      "transmission": 1.0
+    },
+    {
+      "name": "R11_END_GLASS_025",
+      "transmission": 1.0
+    },
+    {
+      "name": "R11_END_GLASS_026",
+      "transmission": 1.0
+    },
+    {
+      "name": "R11_END_GLASS_027",
+      "transmission": 1.0
+    },
+    {
+      "name": "R11_END_GLASS_028",
+      "transmission": 1.0
+    },
+    {
+      "name": "R11_END_GLASS_029",
+      "transmission": 1.0
+    },
+    {
+      "name": "R11_END_GLASS_030",
+      "transmission": 1.0
+    },
+    {
+      "name": "R11_END_GLASS_031",
+      "transmission": 1.0
+    },
+    {
+      "name": "R11_END_GLASS_032",
+      "transmission": 1.0
+    },
+    {
+      "name": "R11_END_GLASS_033",
+      "transmission": 1.0
+    },
+    {
+      "name": "R11_END_GLASS_034",
+      "transmission": 1.0
+    },
+    {
+      "name": "R11_END_GLASS_035",
+      "transmission": 1.0
+    },
+    {
+      "name": "R11_END_GLASS_036",
+      "transmission": 1.0
+    },
+    {
+      "name": "R11_END_GLASS_037",
+      "transmission": 1.0
+    },
+    {
+      "name": "R11_END_GLASS_038",
+      "transmission": 1.0
+    },
+    {
+      "name": "R11_END_GLASS_039",
+      "transmission": 1.0
+    },
+    {
+      "name": "R11_END_GLASS_040",
+      "transmission": 1.0
+    },
+    {
+      "name": "R11_END_GLASS_041",
+      "transmission": 1.0
+    },
+    {
+      "name": "R11_END_GLASS_042",
+      "transmission": 1.0
+    },
+    {
+      "name": "R11_END_GLASS_043",
+      "transmission": 1.0
+    },
+    {
+      "name": "R11_END_GLASS_044",
+      "transmission": 1.0
+    },
+    {
+      "name": "R11_END_GLASS_045",
+      "transmission": 1.0
+    }
+  ],
+  "roof_strip_closed": false,
+  "construction_acceptance": false
+}

@@ -1,0 +1,152 @@
+{
+  "base_scene": "MUDAM_R09_OKUMA_MEKANI_v001.blend",
+  "source_ids": [
+    "041",
+    "042",
+    "043",
+    "044",
+    "102",
+    "103",
+    "PDF2016"
+  ],
+  "center_canonical": [
+    308.7785908352882,
+    328.6980982209977
+  ],
+  "pdf_circle_fits": [
+    {
+      "path": 160,
+      "center": [
+        329.39104324420276,
+        326.59020823588804
+      ],
+      "radius": 14.890608638707562,
+      "numerical_max_residual": 0.004113484442862969
+    },
+    {
+      "path": 161,
+      "center": [
+        329.39117640172714,
+        326.5902082358887
+      ],
+      "radius": 4.897441095893645,
+      "numerical_max_residual": 0.002207770898427164
+    }
+  ],
+  "pdf_to_official_local_translation": [
+    -20.612452408914578,
+    2.1078899851096367
+  ],
+  "local_registration_note": "The stair symbol and neighboring wall differ between visitor diagrams. Use official102 center and PDF circle shape only; do not move the full source plan or the building.",
+  "outer_radius_canonical": 14.890608638707562,
+  "core_radius_canonical": 4.897441095893645,
+  "inner_tread_clearance_m": 0.04,
+  "turn_degrees_candidate": -540,
+  "risers_candidate": 34,
+  "top_angle_deg_candidate": 180,
+  "upper_landing_end_angle_deg": 90,
+  "tread_display_thickness_m": 0.24,
+  "guard_height_m": 1.05,
+  "glass_thickness_m": 0.016,
+  "handrail_diameter_m": 0.042,
+  "core_inner_handrail_offset_m": 0.07,
+  "stone_edge_band_width_m": 0.065,
+  "stone_edge_band_depth_m": 0.22,
+  "glass_panels_candidate": 18,
+  "core_top_above_upper_m": 1.1,
+  "upper_landing_outline_canonical": [
+    [
+      289.5,
+      328.6981
+    ],
+    [
+      308.77859,
+      328.6981
+    ],
+    [
+      322.5,
+      332.5
+    ],
+    [
+      350.5,
+      360.5
+    ],
+    [
+      307.7,
+      414
+    ],
+    [
+      289.5,
+      431.2
+    ]
+  ],
+  "hypothesis_candidates": [
+    {
+      "turn_degrees": 360,
+      "risers": 34,
+      "rise": 0.14291396425517655,
+      "midradius_going": 0.22379135373639172,
+      "rise_per_full_turn": 4.859074784676003,
+      "nominal_overhead_clearance": 4.619074784676003
+    },
+    {
+      "turn_degrees": 450,
+      "risers": 34,
+      "rise": 0.14291396425517655,
+      "midradius_going": 0.27973919217048965,
+      "rise_per_full_turn": 3.8872598277408024,
+      "nominal_overhead_clearance": 3.647259827740802
+    },
+    {
+      "turn_degrees": 540,
+      "risers": 34,
+      "rise": 0.14291396425517655,
+      "midradius_going": 0.3356870306045876,
+      "rise_per_full_turn": 3.239383189784002,
+      "nominal_overhead_clearance": 2.9993831897840018
+    }
+  ],
+  "selected_hypothesis_reason": "041 shows a second exposed sweep roughly three metres above the first; 540 degrees gives about 3.24 m rise per turn. This is a visual ratio inference, not a calibrated camera solution.",
+  "assumptions": [
+    "The PDF stair icon has 12 divisions; they are not the real riser count.",
+    "540 degrees, 34 risers and the start/end angle are candidates. No measured end-point camera solution exists.",
+    "041/042 show a solid cylindrical central support, stepped underside, exterior glass guard and an inner metal rail.",
+    "043/044 show a round inner rail, round wall plate, short standoff and a top termination bending around the column. Their dimensions are not measured.",
+    "The upper landing corridor follows the official103 white circulation region; joining the earlier independent gallery floor requires local source comparison.",
+    "Column finish is represented as stone family; actual hidden structure and build-up are unknown.",
+    "Official103 diagonal room edge was sampled at x=324..350; dark pixels follow y=x+10..11. PDF upper icon attaches at a different angle, so angular end/top landing remains explicitly conditional.",
+    "A quarter-turn upper landing with a radial exit into the source white circulation triangle is a candidate; full-circle void below must remain open for spiral headroom.",
+    "Angular magnitude and exact start/end remain conditional, but v002 reverses the initial candidate to agree with the southwest upper landing and photo041 lower entry."
+  ],
+  "upper_landing_exit_angle_deg": 135,
+  "upper_landing_outer_guard_end_deg": 20,
+  "ground_garden_corrected_outline": [
+    [
+      289,
+      161
+    ],
+    [
+      462,
+      334
+    ],
+    [
+      462,
+      460.7
+    ],
+    [
+      349,
+      347.3
+    ],
+    [
+      289,
+      347.3
+    ]
+  ],
+  "source_backed_shell_corrections": [
+    "102 blue garden includes the spiral corner. P05 floor stopped on the roof projection diagonal and omitted this corner.",
+    "P05_EAST_HIGH is an opaque diagonal surface across a source-plan open floor; preserve hidden and remove from active shell.",
+    "P05_GALLERY_HALL_EAST0 is the ground wall at y347.3. Its upper continuation conflicts with 103 stair approach; keep only up to upper-floor level in this local span.",
+    "The upper room boundary diagonal follows official103 y=x+10..11 near x324..350. Its actual head/roof join remains a candidate."
+  ],
+  "handedness_basis": "041 lower entry faces the open garden while PDF upper stair symbol has southwest landing quarter. Canonical angle decreases during ascent: east lower entry to west upper end, then southwest landing. Positive-angle v001 failed this joint source comparison despite passing geometry tests."
+}

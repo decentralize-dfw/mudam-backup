@@ -1,0 +1,115 @@
+{
+  "base_scene": "MUDAM_R07_MERDIVEN_BOSLUGU_v001.blend",
+  "source_ids": [
+    "015",
+    "016",
+    "103",
+    "116"
+  ],
+  "center_canonical": [
+    575,
+    642
+  ],
+  "outer_canonical": [
+    [
+      559.9999999999999,
+      602.75
+    ],
+    [
+      591.2499999999999,
+      602.75
+    ],
+    [
+      612.8749999999999,
+      624.375
+    ],
+    [
+      612.8749999999999,
+      655.625
+    ],
+    [
+      591.2499999999999,
+      677.25
+    ],
+    [
+      559.9999999999999,
+      677.25
+    ],
+    [
+      538.3749999999999,
+      655.625
+    ],
+    [
+      538.3749999999999,
+      624.375
+    ]
+  ],
+  "roof_half_diagonal_canonical": 14,
+  "ceiling_lower_z": 7.559074784676003,
+  "ceiling_upper_z": 13.550515815692783,
+  "ceiling_display_thickness_m": 0.12,
+  "fixture_z": 8.359074784676004,
+  "fixture_arms_observed": 24,
+  "fixture_inner_radius_m": 0.44,
+  "fixture_outer_radius_m": 1.88,
+  "fixture_tube_diameter_m": 0.022,
+  "fixture_hub_depth_m": 0.1,
+  "fixture_terminal_length_m": 0.07,
+  "wire_diameter_m": 0.003,
+  "glass_thickness_m": 0.016,
+  "skylight_frame_width_m": 0.045,
+  "skylight_frame_depth_m": 0.065,
+  "assumptions": [
+    "015/016 establish inclined stone surfaces rising toward a square skylight. Eight-facet transition from the octagonal room trace is a candidate, not a surveyed ceiling outline.",
+    "103 floor outline is used as the provisional ceiling lower perimeter; ceiling/wall offset is unmeasured.",
+    "Lower ceiling at upper floor plus 2.70 m, top at inherited exterior curb height. Section 101 does not cut this room and does not directly verify these levels.",
+    "24 radial lighting arms are visually counted on 016. Tube length, diameter, disk radius, height and luminous output are unmeasured.",
+    "015 shows fine suspension wires and fork-like attachment points. Exact wire network and fixtures remain unresolved; this package preserves a simple radial candidate.",
+    "The current exterior octagonal lantern is inherited and still unverified; the square interior aperture does not confirm its exterior form.",
+    "A clear four-pane candidate and cross framing follow 016; exact layers and hardware remain unresolved.",
+    "Ceiling lower perimeter uses a least-squares orthogonal/chamfered octagon fitted to the manual floor trace. Maximum offset is recorded. This is an unmeasured ceiling outline, not a warped source plan; the actual P17 floor remains unchanged."
+  ],
+  "floor_outline_reference": [
+    [
+      560,
+      604
+    ],
+    [
+      591,
+      604
+    ],
+    [
+      614,
+      625
+    ],
+    [
+      614,
+      655
+    ],
+    [
+      593,
+      676
+    ],
+    [
+      559,
+      676
+    ],
+    [
+      537,
+      655
+    ],
+    [
+      537,
+      625
+    ]
+  ],
+  "ceiling_perimeter_fit_max_offset_canonical": 2.150581316760749,
+  "ceiling_perimeter_fit_parameters": {
+    "center": [
+      575.6249999999999,
+      640.0
+    ],
+    "short_half_span": 15.625000000000046,
+    "long_half_span": 37.250000000000036
+  }
+}

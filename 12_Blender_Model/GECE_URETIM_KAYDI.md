@@ -35,3 +35,12 @@ R03 v003: cam dönüş/küpeşte/kanal ve gömme armatür adayı üretildi. Üç
 Üst merdiven tam kol adayı, aşağı merdiven ve alt fuaye tavanı üretildi. R05 v003 sayısal olarak geçse de 114/055 fotoğraflarıyla karşılaştırmada yanlış boşluk topolojisi bulundu: v004 merkezi kıvrımlı döşeme uzantısını koruyor. R06 v002 kayıtlı alt kat sınırıyla tavanı kesiyor. Yerel destek/açıklık/baş mesafesi kontrolleri ve GLB aktarımı geçti. Bunlar ölçülmüş uygulama projeleri değil, varsayımları yazılmış bölgesel adaylar. Saatlik ara push hazırlanıyor; sonrasında üretim devam eder.
 
 - 2026-10-08 22:49:20 UTC — `57791c2` origin/main push başarılı. R04 üst kol, R05 düzeltilmiş alt merdiven/zemin uzantısı, R06 tavan ve R07 taş köşe duvarları; yeniden açma kontrolleri, kaynak/varsayım kayıtları, kesitler ve 9,09 MB GLB kaydedildi. HEAD ve origin/main eşleşti. Üretim okuma alanı tavanı ile devam ediyor.
+
+## 23:10 UTC civarı — R08/R09
+Okuma alanının eğimli taş tavanı, 24 kollu armatürü, PDF103 oda duvarları ve üç geçişi üretildi. Önceki bağımsız döşeme parçaları kaynak geçişleriyle birleştirildi. Kaydedilmiş sahnelerde geometri, ışıklık, tel uçları ve baş mesafeleri denetlendi; GLB 9,52 MB. Sonraki saatlik push için bekleyen doğrulanmış değişiklikler; üretim R10 doğu spiral kaynak incelemesiyle sürüyor.
+
+## 23:35 UTC civarı — R10 doğu spiral
+041–044, 102/103 ve PDF sembolünden 34 rıht/540 derece koşullu aday üretildi. Yön, Boolean birleşimi ve bütün çevrede eski duvar engeli üç ayrı kontrolde düzeltilerek v004 kaydedildi. Baş mesafesi/destek/geçiş ve önceki üst merdiven kontrolleri geçti. Bahçe uç camı ve çatı birleşimi sıradaki iş; tam bina hâlâ sürüyor.
+
+## 23:43 UTC civarı — R11/R12
+Doğu uç cam cephe adayı, çatıya bağlı taş alın duvarı ve açık pavyon bağlantısı üretildi. Üst çatı şeridi açık belirsizlik. Batıdaki 108 cam panel düzleştirildi; maksimum köşe düzeltmesi 5,102 mm, çerçeveler korundu. Yeniden açma ve geometri kontrolleri geçti. Pavyon cam çatı detaylarına devam ediliyor.

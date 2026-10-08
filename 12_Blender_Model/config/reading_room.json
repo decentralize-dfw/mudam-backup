@@ -1,0 +1,225 @@
+{
+  "base_scene": "MUDAM_R08_OKUMA_TAVANI_v002.blend",
+  "source_ids": [
+    "PDF2016",
+    "103",
+    "015",
+    "016"
+  ],
+  "source_pdf_path": "08_Belgeler/Mudam_Wim_Delvoye_2016_kat_semalari.pdf",
+  "source_pdf_sha256": "f2b04806918ac0ac6ac2e8cad98b3cdd143986b62fe102410aeca6b5aa101128",
+  "source_page_index": 4,
+  "source_drawing_path": 103,
+  "upper_pdf_y_offset": 251.865,
+  "source_inner_polygon": [
+    [
+      559.8995382892773,
+      605.817716495873
+    ],
+    [
+      592.5099893099004,
+      605.817716495873
+    ],
+    [
+      611.2936933931804,
+      624.3435686986874
+    ],
+    [
+      611.2936933931804,
+      657.5254359579376
+    ],
+    [
+      593.1847158604286,
+      677.0831801389425
+    ],
+    [
+      560.6337318540415,
+      677.0831801389425
+    ],
+    [
+      541.2943563627875,
+      657.3667765105868
+    ],
+    [
+      541.2308925838472,
+      624.6688811227976
+    ]
+  ],
+  "room_inner_polygon": [
+    [
+      560.037426671574,
+      605.8891738042219
+    ],
+    [
+      592.7977260900865,
+      605.8891738042219
+    ],
+    [
+      611.7417095215634,
+      624.8331572356988
+    ],
+    [
+      611.7417095215634,
+      657.5934566542112
+    ],
+    [
+      592.7977260900865,
+      676.5374400856881
+    ],
+    [
+      560.037426671574,
+      676.5374400856881
+    ],
+    [
+      541.0934432400971,
+      657.5934566542112
+    ],
+    [
+      541.0934432400971,
+      624.8331572356988
+    ]
+  ],
+  "fit_max_offset_canonical": 0.8083390850154057,
+  "fit_corner_offsets_canonical": [
+    0.15530406591224902,
+    0.29647698323527444,
+    0.6636379938371674,
+    0.45315037946889475,
+    0.669024131160819,
+    0.8083390850154057,
+    0.30290257572823653,
+    0.21419375193320825
+  ],
+  "fit_parameters": [
+    576.4175763808303,
+    641.213306944955,
+    16.38014970925624,
+    35.324133140733174
+  ],
+  "wall_display_thickness_m": 0.3,
+  "portal_head_above_upper_floor_m": 2.3,
+  "portals": [
+    {
+      "id": "NORTH",
+      "edge": 0,
+      "coordinate_axis": 0,
+      "source_range": [
+        566.9081679834004,
+        585.4934872004508
+      ],
+      "connector_polygon": [
+        [
+          566.908,
+          593.257
+        ],
+        [
+          585.493,
+          593.257
+        ],
+        [
+          585.493,
+          606.5
+        ],
+        [
+          566.908,
+          606.5
+        ]
+      ]
+    },
+    {
+      "id": "WEST",
+      "edge": 6,
+      "coordinate_axis": 1,
+      "source_range": [
+        632.3283778933052,
+        647.5800320047578
+      ],
+      "connector_polygon": [
+        [
+          528.753,
+          632.328
+        ],
+        [
+          542,
+          632.328
+        ],
+        [
+          542,
+          647.58
+        ],
+        [
+          528.753,
+          647.58
+        ]
+      ]
+    },
+    {
+      "id": "EAST",
+      "edge": 2,
+      "coordinate_axis": 1,
+      "source_range": [
+        632.3283778933052,
+        647.5800320047578
+      ],
+      "connector_polygon": [
+        [
+          610.5,
+          632.328
+        ],
+        [
+          623.763,
+          632.328
+        ],
+        [
+          623.763,
+          647.58
+        ],
+        [
+          610.5,
+          647.58
+        ]
+      ]
+    }
+  ],
+  "assumptions": [
+    "PDF103 inner contour is used as a room-boundary candidate; line thickness does not determine wall buildup.",
+    "An orthogonal 45-degree chamfered octagon is fitted to source corners, with every residual retained; source images and ground georeferencing remain unchanged.",
+    "Three opening widths/positions follow the source gaps. Door leaves and hardware are not placed because 015 alone does not resolve their plan assignment.",
+    "2.30 m portal head and 0.30 m display thickness are replaceable unmeasured candidates.",
+    "Three short upper-floor connections follow source passages to remove holes left between earlier independently modeled floor regions."
+  ],
+  "source_item_endpoint_pairs": [
+    [
+      31,
+      1
+    ],
+    [
+      66,
+      2
+    ],
+    [
+      65,
+      2
+    ],
+    [
+      43,
+      2
+    ],
+    [
+      42,
+      2
+    ],
+    [
+      42,
+      1
+    ],
+    [
+      41,
+      1
+    ],
+    [
+      32,
+      1
+    ]
+  ]
+}

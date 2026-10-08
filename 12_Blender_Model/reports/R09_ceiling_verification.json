@@ -1,0 +1,1069 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R09_OKUMA_MEKANI_v001.blend",
+  "failures": [],
+  "evaluated_solids": [
+    {
+      "name": "R08_CEILING_ANCHOR_00",
+      "volume": 5.758938530964989e-06,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R08_CEILING_ANCHOR_01",
+      "volume": 5.758938530997081e-06,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R08_CEILING_ANCHOR_02",
+      "volume": 5.758938530974313e-06,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R08_CEILING_ANCHOR_03",
+      "volume": 5.758938531118295e-06,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R08_CEILING_ANCHOR_04",
+      "volume": 5.7589385308956e-06,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R08_CEILING_ANCHOR_05",
+      "volume": 5.758938530960652e-06,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R08_CEILING_ANCHOR_06",
+      "volume": 5.758938530791083e-06,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R08_CEILING_ANCHOR_07",
+      "volume": 5.7589385312006944e-06,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R08_CEILING_ANCHOR_08",
+      "volume": 5.758938530830331e-06,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R08_CEILING_ANCHOR_09",
+      "volume": 5.758938530904057e-06,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R08_CEILING_ANCHOR_10",
+      "volume": 5.7589385308854085e-06,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R08_CEILING_ANCHOR_11",
+      "volume": 5.758938530940486e-06,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R08_CEILING_ANCHOR_12",
+      "volume": 5.758938531088371e-06,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R08_CEILING_ANCHOR_13",
+      "volume": 5.758938531070807e-06,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R08_CEILING_ANCHOR_14",
+      "volume": 5.758938530976915e-06,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R08_CEILING_ANCHOR_15",
+      "volume": 5.75893853110832e-06,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R08_CEILING_ANCHOR_16",
+      "volume": 5.7589385308663265e-06,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R08_CEILING_ANCHOR_17",
+      "volume": 5.7589385308596044e-06,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R08_CEILING_ANCHOR_18",
+      "volume": 5.7589385310157296e-06,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R08_CEILING_ANCHOR_19",
+      "volume": 5.758938530969759e-06,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R08_CEILING_ANCHOR_20",
+      "volume": 5.7589385310987794e-06,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R08_CEILING_ANCHOR_21",
+      "volume": 5.758938530863724e-06,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R08_CEILING_ANCHOR_22",
+      "volume": 5.7589385310293905e-06,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R08_CEILING_ANCHOR_23",
+      "volume": 5.758938530877819e-06,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R08_LIGHT_WIRE_00",
+      "volume": 1.2421775134375396e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R08_LIGHT_WIRE_01",
+      "volume": 1.3426264991817094e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R08_LIGHT_WIRE_02",
+      "volume": 1.2323212636045772e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R08_LIGHT_WIRE_03",
+      "volume": 1.1603145073329005e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R08_LIGHT_WIRE_04",
+      "volume": 1.2316601352377679e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R08_LIGHT_WIRE_05",
+      "volume": 1.1927397299256383e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R08_LIGHT_WIRE_06",
+      "volume": 1.1111376966262305e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R08_LIGHT_WIRE_07",
+      "volume": 1.1928112328238316e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R08_LIGHT_WIRE_08",
+      "volume": 1.1316474712051716e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R08_LIGHT_WIRE_09",
+      "volume": 1.0776882491549122e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R08_LIGHT_WIRE_10",
+      "volume": 1.1312653959077296e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R08_LIGHT_WIRE_11",
+      "volume": 1.1525444665282103e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R08_LIGHT_WIRE_12",
+      "volume": 1.0801191370850977e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R08_LIGHT_WIRE_13",
+      "volume": 1.152969655678071e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R08_LIGHT_WIRE_14",
+      "volume": 1.185709787735606e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R08_LIGHT_WIRE_15",
+      "volume": 1.1209910565064193e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R08_LIGHT_WIRE_16",
+      "volume": 1.185666819880117e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R08_LIGHT_WIRE_17",
+      "volume": 1.2993847587181202e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R08_LIGHT_WIRE_18",
+      "volume": 1.20221047799976e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R08_LIGHT_WIRE_19",
+      "volume": 1.299983545430955e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R08_LIGHT_WIRE_20",
+      "volume": 1.2914459946042345e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R08_LIGHT_WIRE_21",
+      "volume": 1.2136585276593947e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R08_LIGHT_WIRE_22",
+      "volume": 1.290820117722663e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R08_LIGHT_WIRE_23",
+      "volume": 1.3424150139582786e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R08_STONE_CEILING_0",
+      "volume": 0.6133556490575294,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R08_STONE_CEILING_1",
+      "volume": 1.1132700796081987,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R08_STONE_CEILING_2",
+      "volume": 0.630856222053235,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R08_STONE_CEILING_3",
+      "volume": 1.0693803034982912,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R08_STONE_CEILING_4",
+      "volume": 0.5697097040661658,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R08_STONE_CEILING_5",
+      "volume": 0.9902961371027841,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R08_STONE_CEILING_6",
+      "volume": 0.5522094309060912,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R08_STONE_CEILING_7",
+      "volume": 1.0341822794453557,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R09_READING_WALL_0_A",
+      "volume": 0.6822515104079216,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R09_READING_WALL_0_B",
+      "volume": 0.7252948924655103,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R09_READING_WALL_0_HEAD",
+      "volume": 0.2734052017865179,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R09_READING_WALL_1_FULL",
+      "volume": 2.678616601467917,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R09_READING_WALL_2_A",
+      "volume": 0.7442577246535578,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R09_READING_WALL_2_B",
+      "volume": 0.994312707733318,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R09_READING_WALL_2_HEAD",
+      "volume": 0.22436379369211523,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R09_READING_WALL_3_FULL",
+      "volume": 2.678618145404874,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R09_READING_WALL_4_FULL",
+      "volume": 3.253027651947484,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R09_READING_WALL_5_FULL",
+      "volume": 2.6786165453615567,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R09_READING_WALL_6_A",
+      "volume": 0.9943102519303739,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R09_READING_WALL_6_B",
+      "volume": 0.74425950874185,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R09_READING_WALL_6_HEAD",
+      "volume": 0.22436376567747018,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R09_READING_WALL_7_FULL",
+      "volume": 2.678616601467887,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "P05_MAIN_ROOF_DECK",
+      "volume": 162.92677147808814,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "P06_READING_CURB",
+      "volume": 11.060191599526407,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    }
+  ],
+  "ceiling_planarity": [
+    {
+      "name": "R08_STONE_CEILING_0",
+      "error_m": 1.9371509552001953e-07
+    },
+    {
+      "name": "R08_STONE_CEILING_1",
+      "error_m": 6.556510925292969e-07
+    },
+    {
+      "name": "R08_STONE_CEILING_2",
+      "error_m": 1.1920928955078125e-07
+    },
+    {
+      "name": "R08_STONE_CEILING_3",
+      "error_m": 8.195638656616211e-07
+    },
+    {
+      "name": "R08_STONE_CEILING_4",
+      "error_m": 1.1920928955078125e-07
+    },
+    {
+      "name": "R08_STONE_CEILING_5",
+      "error_m": 5.960464477539062e-07
+    },
+    {
+      "name": "R08_STONE_CEILING_6",
+      "error_m": 2.682209014892578e-07
+    },
+    {
+      "name": "R08_STONE_CEILING_7",
+      "error_m": 6.631016731262207e-07
+    }
+  ],
+  "open_daylight_rays": [
+    {
+      "point": [
+        22.211997985839844,
+        26.687828063964844,
+        5.059074878692627
+      ],
+      "hits": [],
+      "passed": true
+    },
+    {
+      "point": [
+        22.058494567871094,
+        27.100173950195312,
+        5.059074878692627
+      ],
+      "hits": [],
+      "passed": true
+    },
+    {
+      "point": [
+        22.131729125976562,
+        27.534029006958008,
+        5.059074878692627
+      ],
+      "hits": [],
+      "passed": true
+    },
+    {
+      "point": [
+        22.412080764770508,
+        27.873140335083008,
+        5.059074878692627
+      ],
+      "hits": [],
+      "passed": true
+    },
+    {
+      "point": [
+        22.824426651000977,
+        28.026643753051758,
+        5.059074878692627
+      ],
+      "hits": [],
+      "passed": true
+    },
+    {
+      "point": [
+        23.258281707763672,
+        27.95340919494629,
+        5.059074878692627
+      ],
+      "hits": [],
+      "passed": true
+    },
+    {
+      "point": [
+        23.597393035888672,
+        27.673057556152344,
+        5.059074878692627
+      ],
+      "hits": [],
+      "passed": true
+    },
+    {
+      "point": [
+        23.750896453857422,
+        27.260711669921875,
+        5.059074878692627
+      ],
+      "hits": [],
+      "passed": true
+    },
+    {
+      "point": [
+        23.677661895751953,
+        26.82685661315918,
+        5.059074878692627
+      ],
+      "hits": [],
+      "passed": true
+    },
+    {
+      "point": [
+        23.397310256958008,
+        26.48774528503418,
+        5.059074878692627
+      ],
+      "hits": [],
+      "passed": true
+    },
+    {
+      "point": [
+        22.98496437072754,
+        26.33424186706543,
+        5.059074878692627
+      ],
+      "hits": [],
+      "passed": true
+    },
+    {
+      "point": [
+        22.551109313964844,
+        26.4074764251709,
+        5.059074878692627
+      ],
+      "hits": [],
+      "passed": true
+    }
+  ],
+  "upper_walk_ring": [
+    {
+      "point": [
+        21.18202018737793,
+        26.23016357421875,
+        4.889074802398682
+      ],
+      "support": [
+        {
+          "name": "P17_READING_FLOOR",
+          "distance": 0.03000021025930424
+        }
+      ],
+      "head": [],
+      "passed": true
+    },
+    {
+      "point": [
+        21.156965255737305,
+        26.896474838256836,
+        4.889074802398682
+      ],
+      "support": [
+        {
+          "name": "P17_READING_FLOOR",
+          "distance": 0.03000021025930424
+        }
+      ],
+      "head": [],
+      "passed": true
+    },
+    {
+      "point": [
+        21.182188034057617,
+        27.59052276611328,
+        4.889074802398682
+      ],
+      "support": [
+        {
+          "name": "P17_READING_FLOOR",
+          "distance": 0.03000021025930424
+        }
+      ],
+      "head": [],
+      "passed": true
+    },
+    {
+      "point": [
+        21.25554084777832,
+        28.253259658813477,
+        4.889074802398682
+      ],
+      "support": [
+        {
+          "name": "P17_READING_FLOOR",
+          "distance": 0.03000021025930424
+        }
+      ],
+      "head": [],
+      "passed": true
+    },
+    {
+      "point": [
+        21.954416275024414,
+        28.903120040893555,
+        4.889074802398682
+      ],
+      "support": [
+        {
+          "name": "P17_READING_FLOOR",
+          "distance": 0.03000021025930424
+        }
+      ],
+      "head": [],
+      "passed": true
+    },
+    {
+      "point": [
+        22.620729446411133,
+        28.928173065185547,
+        4.889074802398682
+      ],
+      "support": [
+        {
+          "name": "P17_READING_FLOOR",
+          "distance": 0.03000021025930424
+        }
+      ],
+      "head": [],
+      "passed": true
+    },
+    {
+      "point": [
+        23.314777374267578,
+        28.9029483795166,
+        4.889074802398682
+      ],
+      "support": [
+        {
+          "name": "P17_READING_FLOOR",
+          "distance": 0.03000021025930424
+        }
+      ],
+      "head": [],
+      "passed": true
+    },
+    {
+      "point": [
+        23.977514266967773,
+        28.82959747314453,
+        4.889074802398682
+      ],
+      "support": [
+        {
+          "name": "P17_READING_FLOOR",
+          "distance": 0.03000021025930424
+        }
+      ],
+      "head": [],
+      "passed": true
+    },
+    {
+      "point": [
+        24.62737274169922,
+        28.130725860595703,
+        4.889074802398682
+      ],
+      "support": [
+        {
+          "name": "P17_READING_FLOOR",
+          "distance": 0.03000021025930424
+        }
+      ],
+      "head": [],
+      "passed": true
+    },
+    {
+      "point": [
+        24.65242576599121,
+        27.46441078186035,
+        4.889074802398682
+      ],
+      "support": [
+        {
+          "name": "P17_READING_FLOOR",
+          "distance": 0.03000021025930424
+        }
+      ],
+      "head": [],
+      "passed": true
+    },
+    {
+      "point": [
+        24.6272029876709,
+        26.770362854003906,
+        4.889074802398682
+      ],
+      "support": [
+        {
+          "name": "P17_READING_FLOOR",
+          "distance": 0.03000021025930424
+        }
+      ],
+      "head": [],
+      "passed": true
+    },
+    {
+      "point": [
+        24.553848266601562,
+        26.10762596130371,
+        4.889074802398682
+      ],
+      "support": [
+        {
+          "name": "P17_READING_FLOOR",
+          "distance": 0.03000021025930424
+        }
+      ],
+      "head": [],
+      "passed": true
+    },
+    {
+      "point": [
+        23.8549747467041,
+        25.457765579223633,
+        4.889074802398682
+      ],
+      "support": [
+        {
+          "name": "P17_READING_FLOOR",
+          "distance": 0.03000021025930424
+        }
+      ],
+      "head": [],
+      "passed": true
+    },
+    {
+      "point": [
+        23.188661575317383,
+        25.43271255493164,
+        4.889074802398682
+      ],
+      "support": [
+        {
+          "name": "P17_READING_FLOOR",
+          "distance": 0.03000021025930424
+        }
+      ],
+      "head": [],
+      "passed": true
+    },
+    {
+      "point": [
+        22.494613647460938,
+        25.457937240600586,
+        4.889074802398682
+      ],
+      "support": [
+        {
+          "name": "P17_READING_FLOOR",
+          "distance": 0.03000021025930424
+        }
+      ],
+      "head": [],
+      "passed": true
+    },
+    {
+      "point": [
+        21.831878662109375,
+        25.53129005432129,
+        4.889074802398682
+      ],
+      "support": [
+        {
+          "name": "P17_READING_FLOOR",
+          "distance": 0.03000021025930424
+        }
+      ],
+      "head": [],
+      "passed": true
+    }
+  ],
+  "ceiling_anchor_rays": [
+    {
+      "index": 0,
+      "hits": [
+        {
+          "name": "R08_STONE_CEILING_2",
+          "distance": 0.029999732956033025
+        }
+      ],
+      "passed": true
+    },
+    {
+      "index": 1,
+      "hits": [
+        {
+          "name": "R08_STONE_CEILING_2",
+          "distance": 0.029998779296875
+        }
+      ],
+      "passed": true
+    },
+    {
+      "index": 2,
+      "hits": [
+        {
+          "name": "R08_STONE_CEILING_3",
+          "distance": 0.029998779296875
+        }
+      ],
+      "passed": true
+    },
+    {
+      "index": 3,
+      "hits": [
+        {
+          "name": "R08_STONE_CEILING_3",
+          "distance": 0.029998779296875
+        }
+      ],
+      "passed": true
+    },
+    {
+      "index": 4,
+      "hits": [
+        {
+          "name": "R08_STONE_CEILING_3",
+          "distance": 0.029999732956033025
+        }
+      ],
+      "passed": true
+    },
+    {
+      "index": 5,
+      "hits": [
+        {
+          "name": "R08_STONE_CEILING_4",
+          "distance": 0.029999732956033025
+        }
+      ],
+      "passed": true
+    },
+    {
+      "index": 6,
+      "hits": [
+        {
+          "name": "R08_STONE_CEILING_4",
+          "distance": 0.029999732956033025
+        }
+      ],
+      "passed": true
+    },
+    {
+      "index": 7,
+      "hits": [
+        {
+          "name": "R08_STONE_CEILING_4",
+          "distance": 0.029999732956033025
+        }
+      ],
+      "passed": true
+    },
+    {
+      "index": 8,
+      "hits": [
+        {
+          "name": "R08_STONE_CEILING_5",
+          "distance": 0.029999732956033025
+        }
+      ],
+      "passed": true
+    },
+    {
+      "index": 9,
+      "hits": [
+        {
+          "name": "R08_STONE_CEILING_5",
+          "distance": 0.029998779296875
+        }
+      ],
+      "passed": true
+    },
+    {
+      "index": 10,
+      "hits": [
+        {
+          "name": "R08_STONE_CEILING_5",
+          "distance": 0.029998779296875
+        }
+      ],
+      "passed": true
+    },
+    {
+      "index": 11,
+      "hits": [
+        {
+          "name": "R08_STONE_CEILING_6",
+          "distance": 0.029999732956033025
+        }
+      ],
+      "passed": true
+    },
+    {
+      "index": 12,
+      "hits": [
+        {
+          "name": "R08_STONE_CEILING_6",
+          "distance": 0.029999732956033025
+        }
+      ],
+      "passed": true
+    },
+    {
+      "index": 13,
+      "hits": [
+        {
+          "name": "R08_STONE_CEILING_6",
+          "distance": 0.029999732956033025
+        }
+      ],
+      "passed": true
+    },
+    {
+      "index": 14,
+      "hits": [
+        {
+          "name": "R08_STONE_CEILING_7",
+          "distance": 0.029998779296875
+        }
+      ],
+      "passed": true
+    },
+    {
+      "index": 15,
+      "hits": [
+        {
+          "name": "R08_STONE_CEILING_7",
+          "distance": 0.029999732956033025
+        }
+      ],
+      "passed": true
+    },
+    {
+      "index": 16,
+      "hits": [
+        {
+          "name": "R08_STONE_CEILING_7",
+          "distance": 0.03000068658487622
+        }
+      ],
+      "passed": true
+    },
+    {
+      "index": 17,
+      "hits": [
+        {
+          "name": "R08_STONE_CEILING_0",
+          "distance": 0.029999732956033025
+        }
+      ],
+      "passed": true
+    },
+    {
+      "index": 18,
+      "hits": [
+        {
+          "name": "R08_STONE_CEILING_0",
+          "distance": 0.029999732956033025
+        }
+      ],
+      "passed": true
+    },
+    {
+      "index": 19,
+      "hits": [
+        {
+          "name": "R08_STONE_CEILING_0",
+          "distance": 0.029999732956033025
+        }
+      ],
+      "passed": true
+    },
+    {
+      "index": 20,
+      "hits": [
+        {
+          "name": "R08_STONE_CEILING_1",
+          "distance": 0.029999732956033025
+        }
+      ],
+      "passed": true
+    },
+    {
+      "index": 21,
+      "hits": [
+        {
+          "name": "R08_STONE_CEILING_1",
+          "distance": 0.03000068658487622
+        }
+      ],
+      "passed": true
+    },
+    {
+      "index": 22,
+      "hits": [
+        {
+          "name": "R08_STONE_CEILING_1",
+          "distance": 0.029999732956033025
+        }
+      ],
+      "passed": true
+    },
+    {
+      "index": 23,
+      "hits": [
+        {
+          "name": "R08_STONE_CEILING_2",
+          "distance": 0.029998779296875
+        }
+      ],
+      "passed": true
+    }
+  ],
+  "observed_arm_count": 24,
+  "fixture_dimensions_verified": false,
+  "construction_acceptance": false
+}

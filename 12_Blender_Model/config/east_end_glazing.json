@@ -1,0 +1,41 @@
+{
+  "base_scene": "MUDAM_R10_DOGU_SPIRAL_v004.blend",
+  "source_ids": [
+    "034",
+    "041",
+    "102",
+    "101",
+    "119"
+  ],
+  "end_plane_x": 289.5,
+  "stone_end_y": [
+    161.5,
+    266.5
+  ],
+  "glazed_slot_y": [
+    266.5,
+    347.3
+  ],
+  "link_passage_y": [
+    264,
+    294
+  ],
+  "slot_columns_candidate": 5,
+  "slot_rows_candidate": 8,
+  "frame_width_m": 0.075,
+  "frame_depth_m": 0.14,
+  "glass_thickness_m": 0.018,
+  "stone_display_thickness_m": 0.3,
+  "window_head_basis": "Existing P06/P11 high glazed roof edge 9.718577m, not measured window head. Head remains conditional.",
+  "observations": [
+    "034/041 show a tall framed glass slot behind the spiral and beside the triangular opaque end wall.",
+    "Existing P05 end wall retains the older 13.923/5.659m ends, while the revised roof uses 9.719/2.916m. This leaves an unsupported stone mismatch at the shared edge.",
+    "102 locates the link in the x289 external plane at y264..294. Retain passage below the existing link roof.",
+    "Window column/row counts cannot be established from cropped oblique photos; five by eight is a reversible visualization candidate."
+  ],
+  "open_issues": [
+    "The strip between the existing sloped roof and gallery wall has not been triangulated from calibrated photos. No invented closure is accepted.",
+    "Exact window mullion spacing, drainage, flashing and gaskets unresolved.",
+    "Flat or sloped roof continuation over the spiral requires further evidence."
+  ]
+}

@@ -1,0 +1,395 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R10_DOGU_SPIRAL_v004.blend",
+  "base_scene": "MUDAM_R09_OKUMA_MEKANI_v001.blend",
+  "closed_objects": [
+    "P05_FLOOR_L00_EAST_GARDEN",
+    "R10_CORE_BODY",
+    "R10_CORE_CAP",
+    "R10_GLASS_BASE_00",
+    "R10_GLASS_BASE_01",
+    "R10_GLASS_BASE_02",
+    "R10_GLASS_BASE_03",
+    "R10_GLASS_BASE_04",
+    "R10_GLASS_BASE_05",
+    "R10_GLASS_BASE_06",
+    "R10_GLASS_BASE_07",
+    "R10_GLASS_BASE_08",
+    "R10_GLASS_BASE_09",
+    "R10_GLASS_BASE_10",
+    "R10_GLASS_BASE_11",
+    "R10_GLASS_BASE_12",
+    "R10_GLASS_BASE_13",
+    "R10_GLASS_BASE_14",
+    "R10_GLASS_BASE_15",
+    "R10_GLASS_BASE_16",
+    "R10_GLASS_BASE_17",
+    "R10_INNER_RAIL_PLATE_00",
+    "R10_INNER_RAIL_PLATE_01",
+    "R10_INNER_RAIL_PLATE_02",
+    "R10_INNER_RAIL_PLATE_03",
+    "R10_INNER_RAIL_PLATE_04",
+    "R10_INNER_RAIL_PLATE_05",
+    "R10_INNER_RAIL_PLATE_06",
+    "R10_INNER_RAIL_PLATE_07",
+    "R10_INNER_RAIL_PLATE_08",
+    "R10_INNER_RAIL_PLATE_09",
+    "R10_INNER_RAIL_PLATE_10",
+    "R10_INNER_RAIL_PLATE_11",
+    "R10_INNER_RAIL_PLATE_12",
+    "R10_INNER_RAIL_STANDOFF_00",
+    "R10_INNER_RAIL_STANDOFF_01",
+    "R10_INNER_RAIL_STANDOFF_02",
+    "R10_INNER_RAIL_STANDOFF_03",
+    "R10_INNER_RAIL_STANDOFF_04",
+    "R10_INNER_RAIL_STANDOFF_05",
+    "R10_INNER_RAIL_STANDOFF_06",
+    "R10_INNER_RAIL_STANDOFF_07",
+    "R10_INNER_RAIL_STANDOFF_08",
+    "R10_INNER_RAIL_STANDOFF_09",
+    "R10_INNER_RAIL_STANDOFF_10",
+    "R10_INNER_RAIL_STANDOFF_11",
+    "R10_INNER_RAIL_STANDOFF_12",
+    "R10_INNER_ROUND_RAIL",
+    "R10_INNER_TOP_RETURN",
+    "R10_OUTER_GLASS_00",
+    "R10_OUTER_GLASS_01",
+    "R10_OUTER_GLASS_02",
+    "R10_OUTER_GLASS_03",
+    "R10_OUTER_GLASS_04",
+    "R10_OUTER_GLASS_05",
+    "R10_OUTER_GLASS_06",
+    "R10_OUTER_GLASS_07",
+    "R10_OUTER_GLASS_08",
+    "R10_OUTER_GLASS_09",
+    "R10_OUTER_GLASS_10",
+    "R10_OUTER_GLASS_11",
+    "R10_OUTER_GLASS_12",
+    "R10_OUTER_GLASS_13",
+    "R10_OUTER_GLASS_14",
+    "R10_OUTER_GLASS_15",
+    "R10_OUTER_GLASS_16",
+    "R10_OUTER_GLASS_17",
+    "R10_OUTER_ROUND_RAIL",
+    "R10_OUTER_TOP_RETURN",
+    "R10_STONE_OUTER_EDGE",
+    "R10_TOP_GLASS_RETURN",
+    "R10_TREAD_01",
+    "R10_TREAD_02",
+    "R10_TREAD_03",
+    "R10_TREAD_04",
+    "R10_TREAD_05",
+    "R10_TREAD_06",
+    "R10_TREAD_07",
+    "R10_TREAD_08",
+    "R10_TREAD_09",
+    "R10_TREAD_10",
+    "R10_TREAD_11",
+    "R10_TREAD_12",
+    "R10_TREAD_13",
+    "R10_TREAD_14",
+    "R10_TREAD_15",
+    "R10_TREAD_16",
+    "R10_TREAD_17",
+    "R10_TREAD_18",
+    "R10_TREAD_19",
+    "R10_TREAD_20",
+    "R10_TREAD_21",
+    "R10_TREAD_22",
+    "R10_TREAD_23",
+    "R10_TREAD_24",
+    "R10_TREAD_25",
+    "R10_TREAD_26",
+    "R10_TREAD_27",
+    "R10_TREAD_28",
+    "R10_TREAD_29",
+    "R10_TREAD_30",
+    "R10_TREAD_31",
+    "R10_TREAD_32",
+    "R10_TREAD_33",
+    "R10_UPPER_DIAGONAL_WALL"
+  ],
+  "surface_objects": [
+    "R10_GALLERY_GROUND_WALL"
+  ],
+  "changed_inherited_objects": [
+    "P05_EAST_HIGH",
+    "P05_EAST_HIGH_R02_ABOVE",
+    "P05_EAST_HIGH_R02_BEFORE",
+    "P05_FLOOR_L00_EAST_GARDEN",
+    "P05_FLOOR_LP1_E0",
+    "P05_GALLERY_HALL_EAST0"
+  ],
+  "hidden_superseded": [
+    "P05_EAST_HIGH",
+    "P05_EAST_HIGH_R02_BEFORE",
+    "P05_EAST_HIGH_R02_ABOVE",
+    "P05_GALLERY_HALL_EAST0"
+  ],
+  "cutters": [
+    "R10_UPPER_CIRCULATION_UNION",
+    "R10_UPPER_SPIRAL_VOID",
+    "R10_UPPER_QUARTER_LANDING"
+  ],
+  "changed_upper_floor": "P05_FLOOR_LP1_E0",
+  "changed_ground_floor": "P05_FLOOR_L00_EAST_GARDEN",
+  "center_world": [
+    17.18447494506836,
+    -21.324901580810547,
+    0.0
+  ],
+  "canonical_x_world": [
+    -0.6809509992599487,
+    0.7323290109634399,
+    0.0
+  ],
+  "canonical_y_world": [
+    0.7323209643363953,
+    0.6809595823287964,
+    0.0
+  ],
+  "outer_radius": 1.7689551696826034,
+  "inner_radius": 0.6217998414300571,
+  "core_radius": 0.581799841430057,
+  "steps": [
+    {
+      "name": "R10_TREAD_01",
+      "a": 12.566370614359172,
+      "b": 12.280771282214646,
+      "top": 0.14291396425517655,
+      "bottom": -0.09708603574482344
+    },
+    {
+      "name": "R10_TREAD_02",
+      "a": 12.280771282214646,
+      "b": 11.99517195007012,
+      "top": 0.2858279285103531,
+      "bottom": 0.04582792851035311
+    },
+    {
+      "name": "R10_TREAD_03",
+      "a": 11.99517195007012,
+      "b": 11.709572617925593,
+      "top": 0.42874189276552965,
+      "bottom": 0.18874189276552966
+    },
+    {
+      "name": "R10_TREAD_04",
+      "a": 11.709572617925593,
+      "b": 11.423973285781067,
+      "top": 0.5716558570207062,
+      "bottom": 0.3316558570207062
+    },
+    {
+      "name": "R10_TREAD_05",
+      "a": 11.423973285781067,
+      "b": 11.13837395363654,
+      "top": 0.7145698212758828,
+      "bottom": 0.47456982127588276
+    },
+    {
+      "name": "R10_TREAD_06",
+      "a": 11.13837395363654,
+      "b": 10.852774621492014,
+      "top": 0.8574837855310593,
+      "bottom": 0.6174837855310593
+    },
+    {
+      "name": "R10_TREAD_07",
+      "a": 10.852774621492014,
+      "b": 10.567175289347485,
+      "top": 1.0003977497862357,
+      "bottom": 0.7603977497862358
+    },
+    {
+      "name": "R10_TREAD_08",
+      "a": 10.567175289347485,
+      "b": 10.281575957202959,
+      "top": 1.1433117140414124,
+      "bottom": 0.9033117140414124
+    },
+    {
+      "name": "R10_TREAD_09",
+      "a": 10.281575957202959,
+      "b": 9.995976625058432,
+      "top": 1.286225678296589,
+      "bottom": 1.046225678296589
+    },
+    {
+      "name": "R10_TREAD_10",
+      "a": 9.995976625058432,
+      "b": 9.710377292913906,
+      "top": 1.4291396425517655,
+      "bottom": 1.1891396425517655
+    },
+    {
+      "name": "R10_TREAD_11",
+      "a": 9.710377292913906,
+      "b": 9.42477796076938,
+      "top": 1.572053606806942,
+      "bottom": 1.332053606806942
+    },
+    {
+      "name": "R10_TREAD_12",
+      "a": 9.42477796076938,
+      "b": 9.139178628624853,
+      "top": 1.7149675710621186,
+      "bottom": 1.4749675710621186
+    },
+    {
+      "name": "R10_TREAD_13",
+      "a": 9.139178628624853,
+      "b": 8.853579296480326,
+      "top": 1.8578815353172953,
+      "bottom": 1.6178815353172953
+    },
+    {
+      "name": "R10_TREAD_14",
+      "a": 8.853579296480326,
+      "b": 8.567979964335798,
+      "top": 2.0007954995724715,
+      "bottom": 1.7607954995724715
+    },
+    {
+      "name": "R10_TREAD_15",
+      "a": 8.567979964335798,
+      "b": 8.282380632191273,
+      "top": 2.143709463827648,
+      "bottom": 1.9037094638276482
+    },
+    {
+      "name": "R10_TREAD_16",
+      "a": 8.282380632191273,
+      "b": 7.996781300046746,
+      "top": 2.286623428082825,
+      "bottom": 2.0466234280828246
+    },
+    {
+      "name": "R10_TREAD_17",
+      "a": 7.996781300046746,
+      "b": 7.7111819679022195,
+      "top": 2.4295373923380015,
+      "bottom": 2.1895373923380017
+    },
+    {
+      "name": "R10_TREAD_18",
+      "a": 7.7111819679022195,
+      "b": 7.425582635757693,
+      "top": 2.572451356593178,
+      "bottom": 2.332451356593178
+    },
+    {
+      "name": "R10_TREAD_19",
+      "a": 7.425582635757693,
+      "b": 7.139983303613167,
+      "top": 2.7153653208483544,
+      "bottom": 2.475365320848354
+    },
+    {
+      "name": "R10_TREAD_20",
+      "a": 7.139983303613167,
+      "b": 6.85438397146864,
+      "top": 2.858279285103531,
+      "bottom": 2.6182792851035313
+    },
+    {
+      "name": "R10_TREAD_21",
+      "a": 6.85438397146864,
+      "b": 6.568784639324113,
+      "top": 3.0011932493587077,
+      "bottom": 2.7611932493587075
+    },
+    {
+      "name": "R10_TREAD_22",
+      "a": 6.568784639324113,
+      "b": 6.283185307179586,
+      "top": 3.144107213613884,
+      "bottom": 2.9041072136138837
+    },
+    {
+      "name": "R10_TREAD_23",
+      "a": 6.283185307179586,
+      "b": 5.99758597503506,
+      "top": 3.2870211778690606,
+      "bottom": 3.047021177869061
+    },
+    {
+      "name": "R10_TREAD_24",
+      "a": 5.99758597503506,
+      "b": 5.711986642890533,
+      "top": 3.4299351421242372,
+      "bottom": 3.189935142124237
+    },
+    {
+      "name": "R10_TREAD_25",
+      "a": 5.711986642890533,
+      "b": 5.426387310746007,
+      "top": 3.572849106379414,
+      "bottom": 3.332849106379414
+    },
+    {
+      "name": "R10_TREAD_26",
+      "a": 5.426387310746007,
+      "b": 5.14078797860148,
+      "top": 3.7157630706345905,
+      "bottom": 3.4757630706345903
+    },
+    {
+      "name": "R10_TREAD_27",
+      "a": 5.14078797860148,
+      "b": 4.855188646456953,
+      "top": 3.8586770348897668,
+      "bottom": 3.6186770348897666
+    },
+    {
+      "name": "R10_TREAD_28",
+      "a": 4.855188646456953,
+      "b": 4.5695893143124255,
+      "top": 4.001590999144943,
+      "bottom": 3.7615909991449428
+    },
+    {
+      "name": "R10_TREAD_29",
+      "a": 4.5695893143124255,
+      "b": 4.283989982167901,
+      "top": 4.14450496340012,
+      "bottom": 3.90450496340012
+    },
+    {
+      "name": "R10_TREAD_30",
+      "a": 4.283989982167901,
+      "b": 3.9983906500233726,
+      "top": 4.287418927655296,
+      "bottom": 4.047418927655296
+    },
+    {
+      "name": "R10_TREAD_31",
+      "a": 3.9983906500233726,
+      "b": 3.712791317878848,
+      "top": 4.430332891910473,
+      "bottom": 4.190332891910473
+    },
+    {
+      "name": "R10_TREAD_32",
+      "a": 3.712791317878848,
+      "b": 3.4271919857343196,
+      "top": 4.57324685616565,
+      "bottom": 4.333246856165649
+    },
+    {
+      "name": "R10_TREAD_33",
+      "a": 3.4271919857343196,
+      "b": 3.141592653589793,
+      "top": 4.716160820420826,
+      "bottom": 4.476160820420826
+    }
+  ],
+  "upper_z": 4.859074784676003,
+  "bottom_angle": 12.566370614359172,
+  "top_angle": 3.141592653589793,
+  "risers_candidate": 34,
+  "turn_degrees_candidate": -540,
+  "rise_m": 0.14291396425517655,
+  "direction_sign": -1,
+  "real_riser_count_verified": false,
+  "construction_acceptance": false
+}

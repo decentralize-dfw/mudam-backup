@@ -1,0 +1,8 @@
+"""Reopen R12 and measure glass planes, thickness, volume and displacement."""
+from pathlib import Path
+import bpy,bmesh,json,numpy as np
+R=Path(__file__).resolve().parents[2];B=R/'12_Blender_Model';r=json.loads((B/'reports/R12_build_report.json').read_text());bpy.ops.wm.open_mainfile(filepath=str(R/r['file']));rows=[];fail=[]
+for panel in r['panels']:
+ ob=bpy.data.objects[panel['name']];vs=np.array([list(v.co) for v in ob.data.vertices]);a=vs[:4];n=np.cross(a[1]-a[0],a[2]-a[0]);n/=np.linalg.norm(n);deviation=max(abs((a-a[0])@n));deltas=vs[4:]-a;thickness=abs(deltas@n);shear=np.linalg.norm(deltas-(deltas@n)[:,None]*n,axis=1);bm=bmesh.new();bm.from_mesh(ob.data);row=dict(name=ob.name,plane_error_m=float(deviation),thickness_error_m=float(max(abs(thickness-panel['thickness']))),shear_m=float(max(shear)),max_shift_m=float(max(np.linalg.norm(vs-np.array(panel['old_vertices']),axis=1))),volume=bm.calc_volume(signed=True),nonmanifold=sum(not e.is_manifold for e in bm.edges),zero_faces=sum(f.calc_area()<1e-10 for f in bm.faces));bm.free();rows.append(row)
+ if row['plane_error_m']>1e-5 or row['thickness_error_m']>1e-5 or row['shear_m']>1e-5 or row['max_shift_m']>.012 or row['volume']<=0 or row['nonmanifold'] or row['zero_faces']:fail.append(row)
+result=dict(file=r['file'],failures=fail,panels=rows,max_plane_error_m=max(x['plane_error_m'] for x in rows),max_thickness_error_m=max(x['thickness_error_m'] for x in rows),max_shift_m=max(x['max_shift_m'] for x in rows),frame_rebate_verified=False,construction_acceptance=False);(B/'reports/R12_verification.json').write_text(json.dumps(result,indent=2),encoding='utf8');print(json.dumps({k:v for k,v in result.items() if k!='panels'},indent=2));assert not fail,fail
