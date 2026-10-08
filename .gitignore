@@ -1,0 +1,14 @@
+# Local Python runtime dependencies and caches
+**/.deps/
+**/__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Local credentials and operating-system files
+.env
+.env.*
+!.env.example
+Thumbs.db
+Desktop.ini
+.DS_Store

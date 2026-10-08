@@ -1,0 +1,211 @@
+{
+  "crs": "EPSG:32632",
+  "reference": "OSM way 9042342",
+  "reference_url": "https://www.openstreetmap.org/way/9042342",
+  "method": "4-parameter similarity with y-axis reflection; no anisotropic scaling or local warping",
+  "pdf_to_utm_matrix": [
+    [
+      -0.32104840901626464,
+      0.3452631598338485,
+      293464.35677094804
+    ],
+    [
+      0.3452631598338485,
+      0.32104840901626464,
+      5499723.954281934
+    ]
+  ],
+  "canonical_to_pdf_scale": 0.2519738219895287,
+  "canonical_to_pdf_offset": [
+    287.74397853403144,
+    192.8688277486911
+  ],
+  "meters_per_pdf_point": 0.4714644530294181,
+  "meters_per_canonical_pixel": 0.11879670016202512,
+  "fit_rmse_m": 1.0229749132948152,
+  "holdout_rmse_m": 1.9091541799728442,
+  "controls": [
+    {
+      "name": "Dogu_cam_salon_ucu",
+      "pdf_xy": [
+        360.6904,
+        233.5626
+      ],
+      "osm_vertex": 13,
+      "osm_node_id": "66550403",
+      "role": "fit",
+      "residual_m": 0.9211200887279365,
+      "utm": [
+        293428.8517832069,
+        5499922.61881459
+      ]
+    },
+    {
+      "name": "Grand_Hall_dogu_kosesi",
+      "pdf_xy": [
+        404.2654,
+        277.5566
+      ],
+      "osm_vertex": 14,
+      "osm_node_id": "66550404",
+      "role": "fit",
+      "residual_m": 1.7130317493664209,
+      "utm": [
+        293429.254408133,
+        5499953.9166797185
+      ]
+    },
+    {
+      "name": "Grand_Hall_bati_kosesi",
+      "pdf_xy": [
+        460.5734,
+        277.5566
+      ],
+      "osm_vertex": 15,
+      "osm_node_id": "662559828",
+      "role": "fit",
+      "residual_m": 1.3921440389117912,
+      "utm": [
+        293413.2722411537,
+        5499971.066431772
+      ]
+    },
+    {
+      "name": "Bati_cam_salon_ucu",
+      "pdf_xy": [
+        505.0714,
+        233.9156
+      ],
+      "osm_vertex": 19,
+      "osm_node_id": "66550408",
+      "role": "fit",
+      "residual_m": 1.0312802599607445,
+      "utm": [
+        293382.52368854743,
+        5499972.503849023
+      ]
+    },
+    {
+      "name": "Bati_kanat_dirsek",
+      "pdf_xy": [
+        505.0714,
+        259.0246
+      ],
+      "osm_vertex": 20,
+      "osm_node_id": "634300970",
+      "role": "fit",
+      "residual_m": 0.7435165136089934,
+      "utm": [
+        293392.24810874043,
+        5499981.918408598
+      ]
+    },
+    {
+      "name": "Bati_merdiven_dis_kose",
+      "pdf_xy": [
+        524.4094,
+        278.3626
+      ],
+      "osm_vertex": 21,
+      "osm_node_id": "634300958",
+      "role": "fit",
+      "residual_m": 0.8423888368099863,
+      "utm": [
+        293392.92496636865,
+        5499994.571544635
+      ]
+    },
+    {
+      "name": "Bati_merdiven_ic_kose",
+      "pdf_xy": [
+        505.0714,
+        297.7016
+      ],
+      "osm_vertex": 22,
+      "osm_node_id": "634300939",
+      "role": "fit",
+      "residual_m": 0.6032996997016246,
+      "utm": [
+        293405.1878932112,
+        5499994.483303826
+      ]
+    },
+    {
+      "name": "Bati_galeri_dis_kose",
+      "pdf_xy": [
+        505.0714,
+        327.5946
+      ],
+      "osm_vertex": 23,
+      "osm_node_id": "66550399",
+      "role": "fit",
+      "residual_m": 0.9268753934371362,
+      "utm": [
+        293414.38678346097,
+        5500003.583950826
+      ]
+    },
+    {
+      "name": "Dogu_galeri_dis_kose",
+      "pdf_xy": [
+        360.6904,
+        327.5946
+      ],
+      "osm_vertex": 1,
+      "osm_node_id": "7095302080",
+      "role": "fit",
+      "residual_m": 0.38503348712321805,
+      "utm": [
+        293461.9387387767,
+        5499953.9309116425
+      ]
+    },
+    {
+      "name": "Giris_dogu_dis_kose",
+      "pdf_xy": [
+        408.3644,
+        375.1306
+      ],
+      "osm_vertex": 0,
+      "osm_node_id": "7095302062",
+      "role": "check",
+      "residual_m": 1.6411742745498197,
+      "utm": [
+        293462.49522693583,
+        5499983.764675597
+      ]
+    },
+    {
+      "name": "Giris_bati_dis_kose",
+      "pdf_xy": [
+        457.7594,
+        374.6976
+      ],
+      "osm_vertex": 24,
+      "osm_node_id": "7095302057",
+      "role": "check",
+      "residual_m": 2.1438951388469167,
+      "utm": [
+        293444.6571396892,
+        5500002.699214864
+      ]
+    }
+  ],
+  "caveat": "Residuals measure agreement with OSM, not surveying accuracy. OSM and diagram simplification remain unquantified. No surveyed control or photogrammetric camera solution.",
+  "upper_registration": {
+    "source_to_canonical": [
+      1,
+      -0.5,
+      32
+    ],
+    "method": "Translation of common exterior tips; no distortion"
+  },
+  "basement_registration": {
+    "source_to_canonical": [
+      1.1083172147001934,
+      -3.0957446808510554,
+      -1.4226305609284395
+    ],
+    "method": "Uniform scale + translation of common exterior tips; no distortion"
+  }
+}

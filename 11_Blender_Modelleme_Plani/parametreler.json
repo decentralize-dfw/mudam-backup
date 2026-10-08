@@ -1,0 +1,714 @@
+{
+  "schema_version": 1,
+  "units": "metres unless specified",
+  "crs": "EPSG:32632",
+  "atlas_to_blender": "X=x_m; Y=-y_m; Z=relative_finish_level",
+  "note": "Aile parametreleri başlangıç şablonudur; her farklı tip ve örnek ayrıca kayıt alır. Null bilinmeyendir. Genel yapım standardı gerçek bina ölçüsü yerine kullanılmaz.",
+  "calibration_reference": "../10_Olcekli_Plan_ve_Fotograf_Analizi/kalibrasyon.json",
+  "parameters": [
+    {
+      "id": "UNIT_SCALE",
+      "property": "Blender birimi başına metre",
+      "value": 1,
+      "draft_value": null,
+      "unit": "m",
+      "min": null,
+      "max": null,
+      "status": "project_convention",
+      "source_ids": [],
+      "dependencies": [],
+      "method": null,
+      "recheck_trigger": "Yeni ölçülü kaynak veya çoklu görünüş uyuşmazlığı",
+      "notes": ""
+    },
+    {
+      "id": "ORIGIN_E",
+      "property": "Yerel orijin doğu UTM",
+      "value": 293425,
+      "draft_value": null,
+      "unit": "m",
+      "min": null,
+      "max": null,
+      "status": "project_convention",
+      "source_ids": [
+        "kalibrasyon.json"
+      ],
+      "dependencies": [
+        "all_xy"
+      ],
+      "method": null,
+      "recheck_trigger": "Yeni ölçülü kaynak veya çoklu görünüş uyuşmazlığı",
+      "notes": ""
+    },
+    {
+      "id": "ORIGIN_N",
+      "property": "Yerel orijin kuzey UTM",
+      "value": 5499960,
+      "draft_value": null,
+      "unit": "m",
+      "min": null,
+      "max": null,
+      "status": "project_convention",
+      "source_ids": [
+        "kalibrasyon.json"
+      ],
+      "dependencies": [
+        "all_xy"
+      ],
+      "method": null,
+      "recheck_trigger": "Yeni ölçülü kaynak veya çoklu görünüş uyuşmazlığı",
+      "notes": ""
+    },
+    {
+      "id": "Z_L00_FINISH",
+      "property": "Zemin bitmiş döşeme göreli kotu",
+      "value": 0,
+      "draft_value": null,
+      "unit": "m",
+      "min": null,
+      "max": null,
+      "status": "project_convention",
+      "source_ids": [],
+      "dependencies": [
+        "all_z"
+      ],
+      "method": null,
+      "recheck_trigger": "Yeni ölçülü kaynak veya çoklu görünüş uyuşmazlığı",
+      "notes": ""
+    },
+    {
+      "id": "PLAN_M_PER_PX",
+      "property": "1108 piksel ortak plan ölçeği",
+      "value": 0.11879670016202512,
+      "draft_value": null,
+      "unit": "m/px",
+      "min": null,
+      "max": null,
+      "status": "map_fit_estimate",
+      "source_ids": [
+        "kalibrasyon.json"
+      ],
+      "dependencies": [
+        "all_xy"
+      ],
+      "method": null,
+      "recheck_trigger": "Yeni ölçülü kaynak veya çoklu görünüş uyuşmazlığı",
+      "notes": ""
+    },
+    {
+      "id": "Z_LP1_FINISH",
+      "property": "Üst kat bitmiş kotu",
+      "value": null,
+      "draft_value": null,
+      "unit": "m",
+      "min": null,
+      "max": null,
+      "status": "unresolved",
+      "source_ids": [
+        "102",
+        "103",
+        "101"
+      ],
+      "dependencies": [
+        "walls",
+        "stairs",
+        "openings"
+      ],
+      "method": null,
+      "recheck_trigger": "Yeni ölçülü kaynak veya çoklu görünüş uyuşmazlığı",
+      "notes": ""
+    },
+    {
+      "id": "Z_LM1_FINISH",
+      "property": "Alt kat bitmiş kotu",
+      "value": null,
+      "draft_value": null,
+      "unit": "m",
+      "min": null,
+      "max": null,
+      "status": "unresolved",
+      "source_ids": [
+        "104",
+        "101",
+        "051"
+      ],
+      "dependencies": [
+        "walls",
+        "stairs",
+        "openings"
+      ],
+      "method": null,
+      "recheck_trigger": "Yeni ölçülü kaynak veya çoklu görünüş uyuşmazlığı",
+      "notes": ""
+    },
+    {
+      "id": "Z_TECH_FINISH",
+      "property": "Teknik alt hacim kotu",
+      "value": null,
+      "draft_value": null,
+      "unit": "m",
+      "min": null,
+      "max": null,
+      "status": "unresolved",
+      "source_ids": [
+        "101"
+      ],
+      "dependencies": [
+        "technical_proxy"
+      ],
+      "method": null,
+      "recheck_trigger": "Yeni ölçülü kaynak veya çoklu görünüş uyuşmazlığı",
+      "notes": ""
+    },
+    {
+      "id": "SLAB_L00",
+      "property": "Zemin beton döşeme kalınlığı",
+      "value": null,
+      "draft_value": null,
+      "unit": "m",
+      "min": null,
+      "max": null,
+      "status": "unresolved",
+      "source_ids": [
+        "101"
+      ],
+      "dependencies": [
+        "slab_edges",
+        "stair_landings"
+      ],
+      "method": null,
+      "recheck_trigger": "Yeni ölçülü kaynak veya çoklu görünüş uyuşmazlığı",
+      "notes": ""
+    },
+    {
+      "id": "SLAB_LP1",
+      "property": "Üst beton döşeme kalınlığı",
+      "value": null,
+      "draft_value": null,
+      "unit": "m",
+      "min": null,
+      "max": null,
+      "status": "unresolved",
+      "source_ids": [
+        "101"
+      ],
+      "dependencies": [
+        "slab_edges",
+        "stair_landings"
+      ],
+      "method": null,
+      "recheck_trigger": "Yeni ölçülü kaynak veya çoklu görünüş uyuşmazlığı",
+      "notes": ""
+    },
+    {
+      "id": "SLAB_LM1",
+      "property": "Alt beton döşeme kalınlığı",
+      "value": null,
+      "draft_value": null,
+      "unit": "m",
+      "min": null,
+      "max": null,
+      "status": "unresolved",
+      "source_ids": [
+        "101"
+      ],
+      "dependencies": [
+        "slab_edges"
+      ],
+      "method": null,
+      "recheck_trigger": "Yeni ölçülü kaynak veya çoklu görünüş uyuşmazlığı",
+      "notes": ""
+    },
+    {
+      "id": "Z_ROOF_MAIN_BASE",
+      "property": "Ana cam örtü oturma kotu",
+      "value": null,
+      "draft_value": null,
+      "unit": "m",
+      "min": null,
+      "max": null,
+      "status": "unresolved",
+      "source_ids": [
+        "101",
+        "026",
+        "087"
+      ],
+      "dependencies": [
+        "roof_main"
+      ],
+      "method": null,
+      "recheck_trigger": "Yeni ölçülü kaynak veya çoklu görünüş uyuşmazlığı",
+      "notes": ""
+    },
+    {
+      "id": "Z_ROOF_MAIN_APEX",
+      "property": "Ana cam örtü tepe kotu",
+      "value": null,
+      "draft_value": null,
+      "unit": "m",
+      "min": null,
+      "max": null,
+      "status": "unresolved",
+      "source_ids": [
+        "101",
+        "087",
+        "119"
+      ],
+      "dependencies": [
+        "roof_main"
+      ],
+      "method": null,
+      "recheck_trigger": "Yeni ölçülü kaynak veya çoklu görünüş uyuşmazlığı",
+      "notes": ""
+    },
+    {
+      "id": "Z_ROOF_EAST_BASE",
+      "property": "Doğu örtü oturma kotu",
+      "value": null,
+      "draft_value": null,
+      "unit": "m",
+      "min": null,
+      "max": null,
+      "status": "unresolved",
+      "source_ids": [
+        "034",
+        "041"
+      ],
+      "dependencies": [
+        "roof_east"
+      ],
+      "method": null,
+      "recheck_trigger": "Yeni ölçülü kaynak veya çoklu görünüş uyuşmazlığı",
+      "notes": ""
+    },
+    {
+      "id": "Z_ROOF_WEST_BASE",
+      "property": "Batı örtü oturma kotu",
+      "value": null,
+      "draft_value": null,
+      "unit": "m",
+      "min": null,
+      "max": null,
+      "status": "unresolved",
+      "source_ids": [
+        "093"
+      ],
+      "dependencies": [
+        "roof_west"
+      ],
+      "method": null,
+      "recheck_trigger": "Yeni ölçülü kaynak veya çoklu görünüş uyuşmazlığı",
+      "notes": ""
+    },
+    {
+      "id": "Z_PAV_FINISH",
+      "property": "Pavyon bitmiş döşeme kotu",
+      "value": null,
+      "draft_value": null,
+      "unit": "m",
+      "min": null,
+      "max": null,
+      "status": "unresolved",
+      "source_ids": [
+        "066",
+        "067",
+        "101"
+      ],
+      "dependencies": [
+        "pavilion",
+        "link"
+      ],
+      "method": null,
+      "recheck_trigger": "Yeni ölçülü kaynak veya çoklu görünüş uyuşmazlığı",
+      "notes": ""
+    },
+    {
+      "id": "Z_PAV_APEX",
+      "property": "Pavyon tepe kotu",
+      "value": null,
+      "draft_value": null,
+      "unit": "m",
+      "min": null,
+      "max": null,
+      "status": "unresolved",
+      "source_ids": [
+        "089",
+        "101"
+      ],
+      "dependencies": [
+        "roof_pavilion"
+      ],
+      "method": null,
+      "recheck_trigger": "Yeni ölçülü kaynak veya çoklu görünüş uyuşmazlığı",
+      "notes": ""
+    },
+    {
+      "id": "WALL_CONCRETE_EXT",
+      "property": "Dış beton duvar ailesi kalınlığı",
+      "value": null,
+      "draft_value": null,
+      "unit": "m",
+      "min": null,
+      "max": null,
+      "status": "unresolved",
+      "source_ids": [
+        "101"
+      ],
+      "dependencies": [
+        "walls",
+        "openings"
+      ],
+      "method": null,
+      "recheck_trigger": "Yeni ölçülü kaynak veya çoklu görünüş uyuşmazlığı",
+      "notes": ""
+    },
+    {
+      "id": "WALL_CONCRETE_INT",
+      "property": "İç beton duvar ailesi kalınlığı",
+      "value": null,
+      "draft_value": null,
+      "unit": "m",
+      "min": null,
+      "max": null,
+      "status": "unresolved",
+      "source_ids": [
+        "101"
+      ],
+      "dependencies": [
+        "walls",
+        "openings"
+      ],
+      "method": null,
+      "recheck_trigger": "Yeni ölçülü kaynak veya çoklu görünüş uyuşmazlığı",
+      "notes": ""
+    },
+    {
+      "id": "STONE_THICKNESS",
+      "property": "Taş kaplama ailesi kalınlığı",
+      "value": null,
+      "draft_value": null,
+      "unit": "m",
+      "min": null,
+      "max": null,
+      "status": "unresolved",
+      "source_ids": [
+        "005",
+        "063"
+      ],
+      "dependencies": [
+        "stone",
+        "reveals"
+      ],
+      "method": null,
+      "recheck_trigger": "Yeni ölçülü kaynak veya çoklu görünüş uyuşmazlığı",
+      "notes": ""
+    },
+    {
+      "id": "STONE_COURSE",
+      "property": "Taş sıra modülü",
+      "value": null,
+      "draft_value": null,
+      "unit": "m",
+      "min": null,
+      "max": null,
+      "status": "unresolved",
+      "source_ids": [
+        "001",
+        "003",
+        "017"
+      ],
+      "dependencies": [
+        "stone_pattern"
+      ],
+      "method": null,
+      "recheck_trigger": "Yeni ölçülü kaynak veya çoklu görünüş uyuşmazlığı",
+      "notes": ""
+    },
+    {
+      "id": "STONE_JOINT",
+      "property": "Taş derz genişliği",
+      "value": null,
+      "draft_value": null,
+      "unit": "m",
+      "min": null,
+      "max": null,
+      "status": "unresolved",
+      "source_ids": [
+        "005",
+        "019"
+      ],
+      "dependencies": [
+        "stone_pattern"
+      ],
+      "method": null,
+      "recheck_trigger": "Yeni ölçülü kaynak veya çoklu görünüş uyuşmazlığı",
+      "notes": ""
+    },
+    {
+      "id": "DOOR_ENT_WIDTH",
+      "property": "Giriş kapı ailesi açıklık eni",
+      "value": null,
+      "draft_value": null,
+      "unit": "m",
+      "min": null,
+      "max": null,
+      "status": "unresolved",
+      "source_ids": [
+        "013",
+        "014"
+      ],
+      "dependencies": [
+        "entrance"
+      ],
+      "method": null,
+      "recheck_trigger": "Yeni ölçülü kaynak veya çoklu görünüş uyuşmazlığı",
+      "notes": ""
+    },
+    {
+      "id": "DOOR_ENT_HEIGHT",
+      "property": "Giriş kapı ailesi açıklık yüksekliği",
+      "value": null,
+      "draft_value": null,
+      "unit": "m",
+      "min": null,
+      "max": null,
+      "status": "unresolved",
+      "source_ids": [
+        "013",
+        "014"
+      ],
+      "dependencies": [
+        "entrance"
+      ],
+      "method": null,
+      "recheck_trigger": "Yeni ölçülü kaynak veya çoklu görünüş uyuşmazlığı",
+      "notes": ""
+    },
+    {
+      "id": "WINDOW_GAL_DEPTH",
+      "property": "Galeri pencere nişi derinliği",
+      "value": null,
+      "draft_value": null,
+      "unit": "m",
+      "min": null,
+      "max": null,
+      "status": "unresolved",
+      "source_ids": [
+        "061",
+        "062",
+        "063"
+      ],
+      "dependencies": [
+        "windows"
+      ],
+      "method": null,
+      "recheck_trigger": "Yeni ölçülü kaynak veya çoklu görünüş uyuşmazlığı",
+      "notes": ""
+    },
+    {
+      "id": "STEEL_MAIN_WIDTH",
+      "property": "Ana çatı profil dış eni",
+      "value": null,
+      "draft_value": null,
+      "unit": "m",
+      "min": null,
+      "max": null,
+      "status": "unresolved",
+      "source_ids": [
+        "035",
+        "036",
+        "090"
+      ],
+      "dependencies": [
+        "roof_main"
+      ],
+      "method": null,
+      "recheck_trigger": "Yeni ölçülü kaynak veya çoklu görünüş uyuşmazlığı",
+      "notes": ""
+    },
+    {
+      "id": "STEEL_SECONDARY_WIDTH",
+      "property": "İkincil çatı profil dış eni",
+      "value": null,
+      "draft_value": null,
+      "unit": "m",
+      "min": null,
+      "max": null,
+      "status": "unresolved",
+      "source_ids": [
+        "037",
+        "038"
+      ],
+      "dependencies": [
+        "roof_panels"
+      ],
+      "method": null,
+      "recheck_trigger": "Yeni ölçülü kaynak veya çoklu görünüş uyuşmazlığı",
+      "notes": ""
+    },
+    {
+      "id": "GLASS_THICKNESS",
+      "property": "Görünür camın gerçek kalınlığı",
+      "value": null,
+      "draft_value": null,
+      "unit": "m",
+      "min": null,
+      "max": null,
+      "status": "unresolved",
+      "source_ids": [
+        "039",
+        "040"
+      ],
+      "dependencies": [
+        "glazing"
+      ],
+      "method": null,
+      "recheck_trigger": "Yeni ölçülü kaynak veya çoklu görünüş uyuşmazlığı",
+      "notes": ""
+    },
+    {
+      "id": "RAIL_HEIGHT",
+      "property": "Korkuluk ailesi yüksekliği",
+      "value": null,
+      "draft_value": null,
+      "unit": "m",
+      "min": null,
+      "max": null,
+      "status": "unresolved",
+      "source_ids": [
+        "023",
+        "046",
+        "050"
+      ],
+      "dependencies": [
+        "railings"
+      ],
+      "method": null,
+      "recheck_trigger": "Yeni ölçülü kaynak veya çoklu görünüş uyuşmazlığı",
+      "notes": ""
+    },
+    {
+      "id": "HANDRAIL_DIAMETER",
+      "property": "Küpeşte ailesi kesit boyutu",
+      "value": null,
+      "draft_value": null,
+      "unit": "m",
+      "min": null,
+      "max": null,
+      "status": "unresolved",
+      "source_ids": [
+        "024",
+        "043",
+        "044"
+      ],
+      "dependencies": [
+        "railings"
+      ],
+      "method": null,
+      "recheck_trigger": "Yeni ölçülü kaynak veya çoklu görünüş uyuşmazlığı",
+      "notes": ""
+    },
+    {
+      "id": "STAIR_MAIN_RISE",
+      "property": "Ana merdiven rıhtı",
+      "value": null,
+      "draft_value": null,
+      "unit": "m",
+      "min": null,
+      "max": null,
+      "status": "unresolved",
+      "source_ids": [
+        "021",
+        "022"
+      ],
+      "dependencies": [
+        "stairs"
+      ],
+      "method": null,
+      "recheck_trigger": "Yeni ölçülü kaynak veya çoklu görünüş uyuşmazlığı",
+      "notes": ""
+    },
+    {
+      "id": "STAIR_MAIN_GOING",
+      "property": "Ana merdiven basamak derinliği",
+      "value": null,
+      "draft_value": null,
+      "unit": "m",
+      "min": null,
+      "max": null,
+      "status": "unresolved",
+      "source_ids": [
+        "021",
+        "022"
+      ],
+      "dependencies": [
+        "stairs"
+      ],
+      "method": null,
+      "recheck_trigger": "Yeni ölçülü kaynak veya çoklu görünüş uyuşmazlığı",
+      "notes": ""
+    },
+    {
+      "id": "STAIR_SPIRAL_RADIUS",
+      "property": "Doğu spiral dış yarıçapı",
+      "value": null,
+      "draft_value": null,
+      "unit": "m",
+      "min": null,
+      "max": null,
+      "status": "unresolved",
+      "source_ids": [
+        "041",
+        "042",
+        "102"
+      ],
+      "dependencies": [
+        "stairs_east"
+      ],
+      "method": null,
+      "recheck_trigger": "Yeni ölçülü kaynak veya çoklu görünüş uyuşmazlığı",
+      "notes": ""
+    },
+    {
+      "id": "LINK_FLOOR_SLOPE",
+      "property": "Cam geçit kot farkı",
+      "value": null,
+      "draft_value": null,
+      "unit": "m",
+      "min": null,
+      "max": null,
+      "status": "unresolved",
+      "source_ids": [
+        "066",
+        "067"
+      ],
+      "dependencies": [
+        "link"
+      ],
+      "method": null,
+      "recheck_trigger": "Yeni ölçülü kaynak veya çoklu görünüş uyuşmazlığı",
+      "notes": ""
+    },
+    {
+      "id": "TERRAIN_MOAT_BOTTOM",
+      "property": "Hendek taban göreli kotu",
+      "value": null,
+      "draft_value": null,
+      "unit": "m",
+      "min": null,
+      "max": null,
+      "status": "unresolved",
+      "source_ids": [
+        "002",
+        "088",
+        "124"
+      ],
+      "dependencies": [
+        "terrain"
+      ],
+      "method": null,
+      "recheck_trigger": "Yeni ölçülü kaynak veya çoklu görünüş uyuşmazlığı",
+      "notes": ""
+    }
+  ]
+}

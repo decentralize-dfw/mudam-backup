@@ -1,0 +1,274 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-08",
+  "state": "planning_only",
+  "policy": "Bağımlılık tamamlanması teknik kontrolü ifade eder, ayrıca kullanıcı izni gerektirmez. Kaynak eksikliği etkilenen sistemde temsilî teslim olarak açıkça kaydedilebilir; tam doğrulama sayılmaz.",
+  "tasks": [
+    {
+      "id": "P00",
+      "title": "Ortam ve kaynak manifesti",
+      "depends_on": [],
+      "deliverable": "Blender sürümü, donanım, kaynak kimliği ve tarih listesi",
+      "acceptance": "Kaynakların tamamı dosyaya çözülür; orijinaller korunur",
+      "status": "not_started",
+      "open_issues": []
+    },
+    {
+      "id": "P01",
+      "title": "Üst kat referans araştırması",
+      "depends_on": [
+        "P00"
+      ],
+      "deliverable": "+1 fotoğraf ve ışıklık kanıt listesi",
+      "acceptance": "Katı doğrulanmış görüntüler veya açık eksik listesi",
+      "status": "not_started",
+      "open_issues": []
+    },
+    {
+      "id": "P02",
+      "title": "Kesit tarihi ve izi",
+      "depends_on": [
+        "P00"
+      ],
+      "deliverable": "101 kesitinin plan izi ve mevcut bina uyum raporu",
+      "acceptance": "Ortak köşeler eşleşir; belirsiz/eski öğeler ayrılır",
+      "status": "not_started",
+      "open_issues": []
+    },
+    {
+      "id": "P03",
+      "title": "Yatay referans aktarımı",
+      "depends_on": [
+        "P00"
+      ],
+      "deliverable": "Üç kat, OSM ve kontrol köşeleri",
+      "acceptance": "İki nokta ve yön testi; atlas Y işareti doğru",
+      "status": "not_started",
+      "open_issues": []
+    },
+    {
+      "id": "P04",
+      "title": "Düşey ölçü çözümü",
+      "depends_on": [
+        "P02",
+        "P03"
+      ],
+      "deliverable": "Kot tablosu, aralıklar, kesitler",
+      "acceptance": "Kat ve merdiven zinciri tutarlı; bilinmeyenler görünür",
+      "status": "not_started",
+      "open_issues": []
+    },
+    {
+      "id": "P05",
+      "title": "Tüm bina sade geometrisi",
+      "depends_on": [
+        "P04"
+      ],
+      "deliverable": "Kabuk, çatı, pavyon ve ana boşluklar",
+      "acceptance": "Plan, kesit, silüet birlikte tutarlı",
+      "status": "not_started",
+      "open_issues": []
+    },
+    {
+      "id": "P06",
+      "title": "Kamera eşleştirme pilotu",
+      "depends_on": [
+        "P05"
+      ],
+      "deliverable": "İç/dış kameralar ve artık raporu",
+      "acceptance": "Panoramalar ayrılmış; kontrol görüntüleri çözüme katılmamış",
+      "status": "not_started",
+      "open_issues": []
+    },
+    {
+      "id": "P07",
+      "title": "Beton duvar ve döşemeler",
+      "depends_on": [
+        "P05",
+        "P06"
+      ],
+      "deliverable": "Katlara bağlı yapı gövdeleri",
+      "acceptance": "Açıklık ve boşluklar sürekli; taşıyıcı ile kaplama ayrı",
+      "status": "not_started",
+      "open_issues": []
+    },
+    {
+      "id": "P08",
+      "title": "Kapı pencere ve mekân listesi",
+      "depends_on": [
+        "P05"
+      ],
+      "deliverable": "Eleman kimlikleri, aileleri ve oda bağlantıları",
+      "acceptance": "Bütün plan açıklıkları sayılmış; ölçü güveni ayrı",
+      "status": "not_started",
+      "open_issues": []
+    },
+    {
+      "id": "P09",
+      "title": "Merdiven ve sahanlıklar",
+      "depends_on": [
+        "P07"
+      ],
+      "deliverable": "Ana, alt ve doğu spiral aileleri",
+      "acceptance": "Rıht toplamı kot farkını kapatır; alt yüzey referansla tutarlı",
+      "status": "not_started",
+      "open_issues": []
+    },
+    {
+      "id": "P10",
+      "title": "Ana cam örtü",
+      "depends_on": [
+        "P07"
+      ],
+      "deliverable": "Çatı yüzeyi, ana/ikincil sistem ve paneller",
+      "acceptance": "Silüet, bölüntü ve oturmalar çoklu görünüşte tutarlı",
+      "status": "not_started",
+      "open_issues": []
+    },
+    {
+      "id": "P11",
+      "title": "Yan salon ve pavyon örtüleri",
+      "depends_on": [
+        "P10"
+      ],
+      "deliverable": "Doğu, batı, pavyon, bağlantı alt sistemleri",
+      "acceptance": "Aynalama varsayımı yok; kenar panelleri çözülmüş",
+      "status": "not_started",
+      "open_issues": []
+    },
+    {
+      "id": "P12",
+      "title": "Üç örnek detay bölgesi",
+      "depends_on": [
+        "P08",
+        "P09",
+        "P10"
+      ],
+      "deliverable": "Giriş kapısı, ana korkuluk, galeri penceresi",
+      "acceptance": "Yakın görünüş ve kesit; parametre değişiminde bağlantılar korunur",
+      "status": "not_started",
+      "open_issues": []
+    },
+    {
+      "id": "P13",
+      "title": "Taş yüzeyler ve derzler",
+      "depends_on": [
+        "P12"
+      ],
+      "deliverable": "Dış/iç taş, söve, portal ve döşeme",
+      "acceptance": "Köşe dönüşü, fiziksel modül ve kesim sırası tutarlı",
+      "status": "not_started",
+      "open_issues": []
+    },
+    {
+      "id": "P14",
+      "title": "Bütün kapı ve pencereler",
+      "depends_on": [
+        "P12"
+      ],
+      "deliverable": "Tip kütüphanesi ve örnekler",
+      "acceptance": "Kapı boşluğu/kanadı ayrılmış; eşik, kasa ve söve tamam",
+      "status": "not_started",
+      "open_issues": []
+    },
+    {
+      "id": "P15",
+      "title": "Korkuluk ve metal birleşimler",
+      "depends_on": [
+        "P12"
+      ],
+      "deliverable": "Cam panel, küpeşte, görünen bağlantılar",
+      "acceptance": "Eğri ve kot merdivene bağlı; varsayılan tutucular etiketli",
+      "status": "not_started",
+      "open_issues": []
+    },
+    {
+      "id": "P16",
+      "title": "Zemin ve alt kat iç bitişleri",
+      "depends_on": [
+        "P13",
+        "P14",
+        "P15"
+      ],
+      "deliverable": "Galeri, fuaye, oditoryum ve servis görünür detayları",
+      "acceptance": "Tavan, döşeme, kapı ve sabit donanım kontrol edilmiş",
+      "status": "not_started",
+      "open_issues": []
+    },
+    {
+      "id": "P17",
+      "title": "Üst kat iç bitişleri",
+      "depends_on": [
+        "P01",
+        "P13",
+        "P14",
+        "P15"
+      ],
+      "deliverable": "Üst galeriler, dolaşım ve ışıklıklar",
+      "acceptance": "Kanıtlı ayrıntılar ile temsilî bölgeler açıkça ayrılmış",
+      "status": "not_started",
+      "open_issues": []
+    },
+    {
+      "id": "P18",
+      "title": "Arazi tarihî duvar ve peyzaj",
+      "depends_on": [
+        "P03",
+        "P05"
+      ],
+      "deliverable": "Yakın çevre ve bina oturuşu",
+      "acceptance": "Arazi kotunun güven düzeyi belli; bağlantılar havada değil",
+      "status": "not_started",
+      "open_issues": []
+    },
+    {
+      "id": "P19",
+      "title": "Malzeme ve ışık",
+      "depends_on": [
+        "P11",
+        "P16",
+        "P17",
+        "P18"
+      ],
+      "deliverable": "Malzeme kütüphanesi ve nötr/gündüz/gece kontrolleri",
+      "acceptance": "Doku ölçeği tutarlı; cam ve yansıma farklı açılarda testli",
+      "status": "not_started",
+      "open_issues": []
+    },
+    {
+      "id": "P20",
+      "title": "Kat ayırma ve kesit",
+      "depends_on": [
+        "P16",
+        "P17",
+        "P19"
+      ],
+      "deliverable": "Görünürlük grupları ve kesit durumları",
+      "acceptance": "Tüm kat ve kesit testleri; kapı boşlukları kapanmıyor",
+      "status": "not_started",
+      "open_issues": []
+    },
+    {
+      "id": "P21",
+      "title": "Hafif türev ve dışa aktarma",
+      "depends_on": [
+        "P20"
+      ],
+      "deliverable": "Ana model ve hedef ortam türevi",
+      "acceptance": "Birim/eksen/malzeme geri yüklemede doğru; performans ölçülmüş",
+      "status": "not_started",
+      "open_issues": []
+    },
+    {
+      "id": "P22",
+      "title": "Teslim doğrulaması",
+      "depends_on": [
+        "P21"
+      ],
+      "deliverable": "Sürümlü dosyalar, kontrol görüntüleri ve açık sorun raporu",
+      "acceptance": "Temiz oturumda açılır; kapsam ve belirsizlikler denetlenmiş",
+      "status": "not_started",
+      "open_issues": []
+    }
+  ]
+}

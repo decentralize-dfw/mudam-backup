@@ -1,0 +1,52 @@
+MUDAM MİMARİ ARAŞTIRMA ARŞİVİ
+Hazırlanma tarihi: 8 Ekim 2026
+
+Toplam: 117 kaynak dosyası; 114 görsel, 3 PDF.
+Boyut: 73.5 MiB.
+
+KLASÖRLER
+01_Kat_Planlari: 4 dosya
+02_Kesitler: 2 dosya
+03_Vaziyet_ve_Peyzaj: 8 dosya
+04_Ic_Mekan: 39 dosya
+05_Dis_Mekan: 29 dosya
+06_Perspektif_ve_Cizimler: 1 dosya
+07_Yapi_Detaylari: 31 dosya
+08_Belgeler: 3 dosya
+
+KULLANIM
+KATALOG.html: tüm görsellerin çevrimdışı küçük resim kataloğu; görsele tıklayarak kaynak dosyasını açabilirsiniz.
+00_Kaynaklar/dosya_envanteri.csv: her dosyanın kaynak sayfası, doğrudan bağlantısı, kredi, çözünürlük, etiket ve SHA-256 bilgisi.
+00_Kaynaklar/envanter.json: aynı bilgiler ve erişilemeyen kaynakların kayıtları.
+09_Onizlemeler: kategori bazında görsel kontrol paftaları.
+iletisim.md: kullanıcının sağladığı kişiler, e-postalar ve demo temas planı.
+
+ÇİZİMLER
+Resmî 0, +1 ve -1 kat şemaları ayrı dosyalardadır; ölçülendirme içermez.
+WikiArquitectura mimari kat paftası: 380 x 582 piksel; üç plan birlikte yayımlanmıştır. Ölçek ve ölçüler bu kopyadan güvenilir biçimde türetilemez.
+WikiArquitectura kesiti: 380 x 220 piksel. ArchEyes kesiti: 1250 x 852 piksel; daha ayrıntılı inceleme için tercih edilebilir.
+WikiArquitectura vaziyet paftası: 650 x 457 piksel. ArchEyes vaziyet/arazi profili: 1200 x 810 piksel.
+Dosyalar kaynak çözünürlüğünde tutuldu; yapay olarak büyütülmedi. Fotoğraflara göre yapılan sınıflandırmalar görsel yorumdur; belirsiz salonlara kesin mekân adı verilmedi.
+2016 Wim Delvoye PDF’si sergiye ait tarihsel kat şemaları içerir; güncel mimari proje seti değildir.
+
+KAYNAKLAR
+https://es.wikiarquitectura.com/edificio/museo-de-arte-moderno-grand-duc-jean-mudam/
+https://archeyes.com/the-mudam-by-i-m-pei-where-old-meets-new/
+https://www.mudam.com/visit/architecture
+https://www.mudam.com/resources/press
+https://www.greatgardensoftheworld.com/gardens/michel-desvigne/
+https://micheldesvignepaysagiste.com/fr/node/786
+https://fondskirchberg.public.lu
+
+ERİŞİM NOTLARI
+Kullanıcı tarafından verilen eski /fr/floor-plans sayfası 404 döndü; üç kat şemasının doğrudan CDN bağlantıları üzerinden dosyalar indirildi. 0 ve +1 için /_default_4/ yerine /images/ kullanıldı.
+MDP proje sayfasının indirilmesi 403 döndü. Park fotoğrafları Great Gardens üzerindeki Draï Eechelen bölümünden, © MDP kredisiyle alındı.
+Resmî mimarlık sayfasındaki bazı ek fotoğraflar bağlantı kesilmesi nedeniyle indirilemedi; eksik kayıtlar envanterde error olarak işaretlidir.
+Bu taramada ölçülü PDF uygulama paftası, DWG veya tam proje seti elde edilmedi. Arşiv erişilebilen kaynaklarla sınırlıdır.
+
+GÖRSEL KREDİLERİ
+WikiArquitectura fotoğraf serisi: WikiArquitectura, Haziran 2019 (kaynak sayfa atfı).
+ArchEyes fotoğrafları: © Michael Nguyen; çizimler: © I. M. Pei (kaynak atfı).
+Resmî fotoğraflar: Mudam Luxembourg; Christian Aschman, Kiyohiko Higashide, Rémi Villaggi.
+Park fotoğrafları: © MDP / Great Gardens of the World.
+İndirme, görseller için yeniden yayımlama veya ticari kullanım izni sağlamaz; kaynak/kredi bilgileri dosya bazında kaydedildi.

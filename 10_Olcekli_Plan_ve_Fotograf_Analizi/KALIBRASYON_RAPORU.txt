@@ -1,0 +1,94 @@
+MUDAM — ÖLÇEK, HARİTA VE FOTOĞRAF KONUMLARI
+Hazırlanma: 8 Ekim 2026
+
+SONUÇ VE DOĞRULUK
+0, +1 ve −1 katları oranları korunarak ortak metre ölçeğine getirildi ve
+OpenStreetMap bina izine hizalandı. Bu çalışma mevcut referansların geometrik
+eşleştirmesidir; ölçülü uygulama projesi veya doğrulanmış rölöve değildir.
+1:1 CAD koordinatları metre birimindedir. Bu birim seçimi, kaynak geometrinin
+gerçek yapıya birebir doğruluğunun kanıtı anlamına gelmez.
+
+KAYNAKLAR
+• Mudam 2016 Wim Delvoye PDF, sayfa 5: gerçek vektör kat 0 ve +1 çizimleri.
+  Yerel kaynak: ../08_Belgeler/Mudam_Wim_Delvoye_2016_kat_semalari.pdf
+• Mudam resmî ziyaretçi şemaları: 102 (0), 103 (+1), 104 (−1).
+  0 ve +1: 1108×960 piksel; −1: 1000×866 piksel.
+  https://www.mudam.com/fr/floor-plans
+• WikiArquitectura plan paftası 083: 380×582 piksel.
+  https://es.wikiarquitectura.com/edificio/museo-de-arte-moderno-grand-duc-jean-mudam/
+• ArchEyes kesit ve fotoğrafları:
+  https://archeyes.com/the-mudam-by-i-m-pei-where-old-meets-new/
+• OpenStreetMap bina izi, way 9042342:
+  https://www.openstreetmap.org/way/9042342
+  API verisi kaynak_veri/mudam_osm_dogu.osm içinde saklandı.
+  © OpenStreetMap contributors, ODbL. Harita verisi ölçülmüş proje değildir.
+• Tüm kaynak dosya URL'leri, krediler ve indirme durumu:
+  ../00_Kaynaklar/envanter.json
+
+HİZALAMA YÖNTEMİ
+Projeksiyon: WGS84 / UTM zone 32N, EPSG:32632. X doğu, Y kuzey, birim metre.
+2016 vektör zemin planındaki dokuz belirgin dış köşe, OSM köşeleriyle eşlendi.
+Tekdüze ölçek + dönme + öteleme kullanıldı; plan eksenleri ayrı ayrı gerilmedi.
+PDF'nin aşağı yönlü Y ekseni koordinat sistemine dönüştürüldü.
+İki giriş köşesi çözüme dahil edilmeden kontrol için ayrıldı.
+9 eşleştirme noktasında RMS artık: 1,023 m.
+2 ayrılmış kontrol noktasında RMS artık: 1,909 m (1,641 ve 2,144 m).
+Bu değerler iki kaynak arasındaki uyumdur. Mutlak konum doğruluğunu veya
+bağımsız saha ölçümünü ifade etmez; OSM'nin kendi hatası ayrıca bilinmiyor.
+Kontrol noktaları ve dönüşüm matrisi: kalibrasyon.json, kalibrasyon.py.
+
+Resmî zemin JPEG'inde ortak uçlar (289,5;161,5) ve (862,5;161,5) alındı.
+Ortak şemanın ölçeği: yaklaşık 0,118796700 metre/piksel.
++1 şeması: aynı ölçek, ortak koordinata −0,5 / +32 piksel öteleme.
+−1 şeması: 573/517 tekdüze ölçek ve ortak köşelere öteleme.
+Üst ve alt katlarda bağımsız arazi kontrolü yoktur; ortak yapı konturu referanstır.
+2016 vektör planlar eski sergi düzenini, resmî JPEG'ler farklı bir tarihli
+ziyaretçi şemasını içerir. Bölmelerin güncel durumu ayrıca doğrulanmalıdır.
+
+ÇÖZÜNÜRLÜK VE DOSYALAR
+01_Planlar: üç kat için 4000 piksel PNG, ortak koordinat SVG ve PGW/PRJ.
+PNG büyütme yeni mimari detay veya ölçü üretmez; örnekleme çözünürlüğünü artırır.
+0 ve +1 için ayrıca gerçek vektör kaynaktan 1:500 SVG ve 5000 piksel PNG bulunur.
+WikiArquitectura bileşik plan paftası 8 kat büyütüldü; farklı küçük çizimlerin
+ölçekleri doğrulanamadığından bu dosya özellikle 'olceksiz' adlandırıldı.
+Kesitler arşivde korundu; kot/ölçü kontrolü olmadığından metre ölçeği atanmadı.
+
+02_Harita: üç katın OSM eşleştirme SVG'leri ve fotoğraf işaretli SVG'leri.
+360×360 mm harita SVG'leri %100 baskıda nominal 1:500'dür. Sayfaya sığdırma
+ölçeği değiştirir. Ekrandaki büyüklük fiziksel baskı ölçeği değildir.
+DXF: OSM dış konturu ve tahmini kamera noktaları/yönleri; 1 çizim birimi 1 m.
+DXF bütün iç duvarları içeren bir uygulama çizimi değildir.
+PNG/PGW/PRJ aynı klasörde tutulup QGIS'e yüklenebilir; CRS EPSG:32632 seçilir.
+GeoJSON koordinatları WGS84 boylam/enlem sırasındadır.
+Kuzey oku UTM grid kuzeyidir. Fotoğraf azimutları gerçek kuzeyden hesaplanır.
+
+FOTOĞRAF ANALİZİ
+105 fotoğrafın tümüne ayrı kayıt ve ayrı açıklamalı SVG paftası hazırlandı:
+63: mimari elemanlara göre tahmini çekim noktası ve yatay bakış yönü.
+33: yalnızca olası çekim bölgesi; bölge merkezi kamera noktası değildir.
+9: yeterli mekânsal kanıt yok; koordinat ve yön boş bırakıldı.
+Çözülemeyen kimlikler: 018, 059, 077, 078, 079, 080, 081, 122, 123.
+Üst kata güvenilir şekilde atanabilen fotoğraf bulunmadı; kat boş bırakılabilir.
+087 numaralı fotoğrafın arşivdeki genel giriş açıklaması analizde düzeltildi:
+tarihi kale tarafındaki arka yaklaşım/köprü ve merkezi cam örtü ilişkisi.
+
+EXIF'te kullanılabilir GPS enlem/boylam yoktur. Bazı dosyalarda yalnızca GPS
+sürüm alanı bulunması, konum verisi bulunduğu anlamına gelmez. Bazı çekimlerde
+kamera, tarih ve odak uzaklığı mevcut; kırpma ve panorama dönüşümü bilinmiyor.
+Bu nedenle gerçek objektif görüş açısı ve sayısal düşey açı çözülmedi.
+Ok yatay bakış tahminidir; fan açısı görüş alanı değil yorum aralığıdır.
+Daire yarıçapları ve ± açı aralıkları görsel değerlendirmedir; istatistiksel
+güven aralığı veya doğrulanmış hata sınırı değildir. Azimutlar 5°'ye yuvarlandı.
+Koordinat dosyalarındaki ondalıklar dönüşüm hesap hassasiyetidir; saha hassasiyeti
+olarak kullanılmamalıdır. Benzer mekânlar ve kat belirsizlikleri kayıtlarda yazılıdır.
+
+KULLANIM
+FOTOGRAF_ATLASI.html dosyasını tarayıcıda açın. Katı seçin, fotoğrafa veya
+işarete tıklayın; seçili fotoğrafın konumu, yönü ve dayanağı birlikte görünür.
+Plan görünürlüğü ayarlanabilir; harita yakınlaştırılabilir ve sürüklenebilir.
+05_Fotograf_Paftalari: her fotoğrafın bağımsız, görselleri gömülü SVG paftası.
+Bu paftalarda harita ölçek çubuğunu kullanın; hepsi sabit 1:500 değildir.
+03_Fotograf_Konumlari: CSV, JSON ve GeoJSON; geometry_role alanını koruyun.
+quality=region olan noktalar aday bölge merkezidir. unresolved geometri=null.
+Kamera konumları demo kurulumuna başlangıç referansıdır; kesin eşleşme için
+ölçülü proje, sahada kontrol veya kalibre edilmiş fotogrametri gerekir.
