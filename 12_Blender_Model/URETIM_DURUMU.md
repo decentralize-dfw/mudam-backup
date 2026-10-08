@@ -4,7 +4,7 @@
 
 ## Güncel teslim
 
-[MUDAM_R02_GH_GECISI_v003.blend](scenes/MUDAM_R02_GH_GECISI_v003.blend) giriş, çatı ve merdiven çalışmalarını birlikte içerir. [Görsel inceleme](URETIM.html) · [Üretim raporu](reports/P07_P09_URETIM_RAPORU.md).
+[MUDAM_R03_MERDIVEN_CAM_DONUSU_v003.blend](scenes/MUDAM_R03_MERDIVEN_CAM_DONUSU_v003.blend) giriş, çatı ve merdiven çalışmalarını birlikte içerir. [Görsel inceleme](URETIM.html) · [Üretim raporu](reports/P07_P09_URETIM_RAPORU.md).
 
 | Paket | Durum | Somut çıktı / açık konu |
 | --- | --- | --- |
@@ -51,3 +51,9 @@ Ana kabuk henüz bütün bina düzeyinde kabul edilmedi. OSM uyum RMS'si yaklaş
 [Model-plan kesit kontrolü](PLAN_KONTROL.html) · [Okuma alanı raporu](reports/P15_P17_OKUMA_BOSLUGU_RAPORU.md) · [Malzeme / dışa aktarma raporu](reports/P19_P21_ONIZLEME_RAPORU.md).
 
 [R02 Grand Hall geçit düzeltmesi](reports/R02_GH_GECISI_RAPORU.md): kesintisiz eski cam kaldırıldı, geçide taşan üç etüt duvarı yerel kırpıldı. 15 ışın testi bütün görünür meshleri kapsar; tam oda ve çatı birleşimi kabulü açık.
+
+## R03 üst merdiven ayağı
+
+R03 v003: 022/023 kaynaklı kıvrımlı cam dönüş, yuvarlak küpeşte, taban kanalı, gömme taş alan ve armatür adayı eklendi. Üç başlangıç basamağının küçük sınır kesişimleri onarıldı; kaynak nesneler korundu. 20 kapalı hacim, 65 destek örneği, 12 girinti ışını ve 15 geçit ışını kontrolü geçti. Güncel GLB 7.33 MB, 3595 mesh ve 69812 üçgen.
+
+Tam üst kol, üst sahanlık, eğimli korkuluk devamı ve bütün detay ölçülerinin kesinleştirilmesi açık. [R03 kaynak / varsayım / kontrol raporu](reports/R03_MERDIVEN_DONUS_RAPORU.md).

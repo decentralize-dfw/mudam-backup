@@ -185,13 +185,13 @@
       "acceptance": "Rıht toplamı kot farkını kapatır; alt yüzey referansla tutarlı",
       "status": "in_progress",
       "open_issues": [
-        "Üst merdivenin yönü düzeltildi; 3 gözlenen başlangıç basamağı modellendi. Tam kol/rıht zinciri, sahanlıklar ve GH_DOWN geometrisi açık."
+        "Üç başlangıç basamağının küçük sınır kesişimleri düzeltildi. 022/023 ile kıvrımlı cam dönüş, küpeşte, kanal ve gömme armatür adayı üretildi. Tam kol, üst sahanlık, eğimli birleşim ve kesin ölçüler açık."
       ],
       "updated": "2026-10-08",
       "dependency_mode": "regional_study_only_no_global_acceptance",
       "artifacts": [
-        "12_Blender_Model/scenes/MUDAM_P09_MERDIVEN_v004.blend",
-        "12_Blender_Model/reports/P07_P09_URETIM_RAPORU.md"
+        "12_Blender_Model/scenes/MUDAM_R03_MERDIVEN_CAM_DONUSU_v003.blend",
+        "12_Blender_Model/reports/R03_MERDIVEN_DONUS_RAPORU.md"
       ]
     },
     {
@@ -285,13 +285,13 @@
       "acceptance": "Eğri ve kot merdivene bağlı; varsayılan tutucular etiketli",
       "status": "in_progress",
       "open_issues": [
-        "Okuma boşluğu cam korkuluk pilotu üretildi; ana merdiven korkulukları ve kesin bağlantılar açık."
+        "Üç başlangıç basamağının küçük sınır kesişimleri düzeltildi. 022/023 ile kıvrımlı cam dönüş, küpeşte, kanal ve gömme armatür adayı üretildi. Tam kol, üst sahanlık, eğimli birleşim ve kesin ölçüler açık."
       ],
       "updated": "2026-10-08",
       "dependency_mode": "regional_checkpoint_no_global_acceptance",
       "artifacts": [
-        "12_Blender_Model/scenes/MUDAM_R02_GH_GECISI_v003.blend",
-        "12_Blender_Model/reports/P19_P21_ONIZLEME_RAPORU.md"
+        "12_Blender_Model/scenes/MUDAM_R03_MERDIVEN_CAM_DONUSU_v003.blend",
+        "12_Blender_Model/reports/R03_MERDIVEN_DONUS_RAPORU.md"
       ]
     },
     {
@@ -325,7 +325,7 @@
       "updated": "2026-10-08",
       "dependency_mode": "regional_checkpoint_no_global_acceptance",
       "artifacts": [
-        "12_Blender_Model/scenes/MUDAM_R02_GH_GECISI_v003.blend",
+        "12_Blender_Model/scenes/MUDAM_R03_MERDIVEN_CAM_DONUSU_v003.blend",
         "12_Blender_Model/reports/P19_P21_ONIZLEME_RAPORU.md"
       ]
     },
@@ -359,7 +359,7 @@
       "updated": "2026-10-08",
       "dependency_mode": "regional_checkpoint_no_global_acceptance",
       "artifacts": [
-        "12_Blender_Model/scenes/MUDAM_R02_GH_GECISI_v003.blend",
+        "12_Blender_Model/scenes/MUDAM_R03_MERDIVEN_CAM_DONUSU_v003.blend",
         "12_Blender_Model/reports/P19_P21_ONIZLEME_RAPORU.md"
       ]
     },
@@ -380,7 +380,7 @@
       "updated": "2026-10-08",
       "dependency_mode": "regional_checkpoint_no_global_acceptance",
       "artifacts": [
-        "12_Blender_Model/scenes/MUDAM_R02_GH_GECISI_v003.blend",
+        "12_Blender_Model/scenes/MUDAM_R03_MERDIVEN_CAM_DONUSU_v003.blend",
         "12_Blender_Model/reports/P19_P21_ONIZLEME_RAPORU.md"
       ]
     },
@@ -394,12 +394,12 @@
       "acceptance": "Birim/eksen/malzeme geri yüklemede doğru; performans ölçülmüş",
       "status": "in_progress",
       "open_issues": [
-        "3578 mesh / 53300 üçgen GLB aktarımı denetlendi; hedef motor ve sadeleştirme açık."
+        "3595 mesh / 69812 üçgen GLB aktarımı denetlendi; hedef motor ve sadeleştirme açık."
       ],
       "updated": "2026-10-08",
       "dependency_mode": "regional_checkpoint_no_global_acceptance",
       "artifacts": [
-        "12_Blender_Model/scenes/MUDAM_R02_GH_GECISI_v003.blend",
+        "12_Blender_Model/scenes/MUDAM_R03_MERDIVEN_CAM_DONUSU_v003.blend",
         "12_Blender_Model/reports/P19_P21_ONIZLEME_RAPORU.md"
       ]
     },
@@ -432,5 +432,5 @@
     "P20",
     "P21"
   ],
-  "latest_scene": "12_Blender_Model/scenes/MUDAM_R02_GH_GECISI_v003.blend"
+  "latest_scene": "12_Blender_Model/scenes/MUDAM_R03_MERDIVEN_CAM_DONUSU_v003.blend"
 }

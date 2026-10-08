@@ -1,0 +1,45 @@
+{
+  "id": "GH_UP_FOOT_GLASS_RETURN",
+  "base_scene": "MUDAM_R02_GH_GECISI_v003.blend",
+  "source_ids": ["021", "022", "023", "102", "103", "PDF2016_page5", "101"],
+  "status": "photo_supported_component_with_unmeasured_placement",
+  "center_canonical": [493, 498],
+  "flight_direction_canonical": [1, 1],
+  "radius_m": 0.62,
+  "arc_degrees": 280,
+  "panel_count_candidate": 3,
+  "glass_thickness_m": 0.016,
+  "panel_joint_gap_m": 0.004,
+  "rail_height_above_podium_m": 1.05,
+  "top_rail_diameter_m": 0.045,
+  "channel_width_m": 0.038,
+  "channel_height_m": 0.024,
+  "channel_wall_m": 0.006,
+  "recess_radius_m": 0.55,
+  "recess_depth_m": 0.05,
+  "recess_bevel_width_m": 0.07,
+  "lamp_outer_radius_m": 0.18,
+  "lamp_lens_radius_m": 0.125,
+  "lens_depth_below_podium_m": 0.07,
+  "observations": [
+    "021 and 022 locate the glass return on the third broad podium step at the foot of the upward stair.",
+    "023 shows a nearly circular curved glass return, vertical pane seams, a rounded metallic top rail and dark bottom channel.",
+    "023 shows a recessed round stone floor zone containing a circular recessed uplight; this is not another stair or a solid newel.",
+    "The sloping rail continues upward from one end. The opposite terminal returns into the curled shape. The full three-dimensional transition is not resolved."
+  ],
+  "assumptions": [
+    "All numeric detail dimensions, pane count, arc sweep and canonical center are replaceable proportion hypotheses, not measurements.",
+    "Placement is constrained to the source-traced podium but is not metric-photo registered.",
+    "The near-circular return is approximated by a circular arc. The photograph may represent a non-circular scroll with varying radius.",
+    "Three separated panes illustrate observed seams; their exact number and division require further evidence.",
+    "A U-shaped base channel and recessed lamp envelope represent visible silhouettes only; no hidden fasteners, electrical or structural construction is inferred.",
+    "The return is modeled as an incomplete component; its inclined continuation and full flight remain open."
+  ],
+  "full_flight_analysis": {
+    "visitor_nosing_count_is_real_riser_count": false,
+    "upper_schematic_lines_taper": true,
+    "upper_landing_mask_or_physical_taper_resolved": false,
+    "section_upper_level_is_conditional": true,
+    "decision": "Do not turn the tapering visitor-plan lines into zero-width upper treads. Resolve the upper landing and stair recess before committing a full flight."
+  }
+}

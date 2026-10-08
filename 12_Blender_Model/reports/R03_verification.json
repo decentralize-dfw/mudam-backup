@@ -1,0 +1,537 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R03_MERDIVEN_CAM_DONUSU_v003.blend",
+  "failures": [],
+  "evaluated_solids": [
+    {
+      "name": "R03_RETURN_GLASS_1",
+      "volume": 0.01656155188702367,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R03_CHANNEL_OUTER_1",
+      "volume": 0.00014859031550905886,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R03_CHANNEL_INNER_1",
+      "volume": 0.00014111184499050093,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R03_CHANNEL_WEB_1",
+      "volume": 0.0002293493827226459,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R03_RETURN_GLASS_2",
+      "volume": 0.016561523739802304,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R03_CHANNEL_OUTER_2",
+      "volume": 0.00014858986921597217,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R03_CHANNEL_INNER_2",
+      "volume": 0.00014111209561837334,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R03_CHANNEL_WEB_2",
+      "volume": 0.00022934932280501514,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R03_RETURN_GLASS_3",
+      "volume": 0.01656139947638198,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R03_CHANNEL_OUTER_3",
+      "volume": 0.00014859027286829695,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R03_CHANNEL_INNER_3",
+      "volume": 0.00014111307037555478,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R03_CHANNEL_WEB_3",
+      "volume": 0.00022934887744999427,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R03_RETURN_ROUND_HANDRAIL",
+      "volume": 0.0047379080466691745,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R03_PODIUM_1_REPAIRED",
+      "volume": 5.41777281151005,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R03_PODIUM_2_REPAIRED",
+      "volume": 3.930065059784099,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R03_PODIUM_3_WITH_RECESS",
+      "volume": 2.4969962902885263,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R03_RECESSED_STONE_DISH",
+      "volume": 0.04818380324016699,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R03_UPLIGHT_DARK_TRIM",
+      "volume": 0.0007372770159747727,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R03_UPLIGHT_GLASS_LENS",
+      "volume": 0.0003924175596419444,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R03_UPLIGHT_VISIBLE_REVEAL",
+      "volume": 0.00015445442085370263,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    }
+  ],
+  "source_podium_support_samples": 65,
+  "source_podium_support_all_passed": true,
+  "recess_rays": [
+    {
+      "radius": 0,
+      "angle": 0,
+      "expected": "R03_UPLIGHT_GLASS_LENS",
+      "hits": [
+        {
+          "name": "R03_UPLIGHT_GLASS_LENS",
+          "z": 0.4099999666213989
+        },
+        {
+          "name": "R03_PODIUM_3_WITH_RECESS",
+          "z": 0.3799999952316284
+        },
+        {
+          "name": "R03_PODIUM_2_REPAIRED",
+          "z": 0.31999993324279785
+        },
+        {
+          "name": "R03_PODIUM_1_REPAIRED",
+          "z": 0.16000008583068848
+        },
+        {
+          "name": "P05_FLOOR_L00_GH",
+          "z": 0.0
+        }
+      ],
+      "passed": true
+    },
+    {
+      "radius": 0,
+      "angle": 1.5707963267948966,
+      "expected": "R03_UPLIGHT_GLASS_LENS",
+      "hits": [
+        {
+          "name": "R03_UPLIGHT_GLASS_LENS",
+          "z": 0.4099999666213989
+        },
+        {
+          "name": "R03_PODIUM_3_WITH_RECESS",
+          "z": 0.3799999952316284
+        },
+        {
+          "name": "R03_PODIUM_2_REPAIRED",
+          "z": 0.31999993324279785
+        },
+        {
+          "name": "R03_PODIUM_1_REPAIRED",
+          "z": 0.16000008583068848
+        },
+        {
+          "name": "P05_FLOOR_L00_GH",
+          "z": 0.0
+        }
+      ],
+      "passed": true
+    },
+    {
+      "radius": 0,
+      "angle": 3.141592653589793,
+      "expected": "R03_UPLIGHT_GLASS_LENS",
+      "hits": [
+        {
+          "name": "R03_UPLIGHT_GLASS_LENS",
+          "z": 0.4099999666213989
+        },
+        {
+          "name": "R03_PODIUM_3_WITH_RECESS",
+          "z": 0.3799999952316284
+        },
+        {
+          "name": "R03_PODIUM_2_REPAIRED",
+          "z": 0.31999993324279785
+        },
+        {
+          "name": "R03_PODIUM_1_REPAIRED",
+          "z": 0.16000008583068848
+        },
+        {
+          "name": "P05_FLOOR_L00_GH",
+          "z": 0.0
+        }
+      ],
+      "passed": true
+    },
+    {
+      "radius": 0,
+      "angle": 4.71238898038469,
+      "expected": "R03_UPLIGHT_GLASS_LENS",
+      "hits": [
+        {
+          "name": "R03_UPLIGHT_GLASS_LENS",
+          "z": 0.4099999666213989
+        },
+        {
+          "name": "R03_PODIUM_3_WITH_RECESS",
+          "z": 0.3799999952316284
+        },
+        {
+          "name": "R03_PODIUM_2_REPAIRED",
+          "z": 0.31999993324279785
+        },
+        {
+          "name": "R03_PODIUM_1_REPAIRED",
+          "z": 0.16000008583068848
+        },
+        {
+          "name": "P05_FLOOR_L00_GH",
+          "z": 0.0
+        }
+      ],
+      "passed": true
+    },
+    {
+      "radius": 0.3,
+      "angle": 0,
+      "expected": "R03_RECESSED_STONE_DISH",
+      "hits": [
+        {
+          "name": "R03_RECESSED_STONE_DISH",
+          "z": 0.43000006675720215
+        },
+        {
+          "name": "R03_PODIUM_3_WITH_RECESS",
+          "z": 0.3799999952316284
+        },
+        {
+          "name": "R03_PODIUM_2_REPAIRED",
+          "z": 0.31999993324279785
+        },
+        {
+          "name": "R03_PODIUM_1_REPAIRED",
+          "z": 0.15999996662139893
+        },
+        {
+          "name": "P05_FLOOR_L00_GH",
+          "z": 0.0
+        }
+      ],
+      "passed": true
+    },
+    {
+      "radius": 0.3,
+      "angle": 1.5707963267948966,
+      "expected": "R03_RECESSED_STONE_DISH",
+      "hits": [
+        {
+          "name": "R03_RECESSED_STONE_DISH",
+          "z": 0.43000006675720215
+        },
+        {
+          "name": "R03_PODIUM_3_WITH_RECESS",
+          "z": 0.3799999952316284
+        },
+        {
+          "name": "R03_PODIUM_2_REPAIRED",
+          "z": 0.31999993324279785
+        },
+        {
+          "name": "R03_PODIUM_1_REPAIRED",
+          "z": 0.15999996662139893
+        },
+        {
+          "name": "P05_FLOOR_L00_GH",
+          "z": 0.0
+        }
+      ],
+      "passed": true
+    },
+    {
+      "radius": 0.3,
+      "angle": 3.141592653589793,
+      "expected": "R03_RECESSED_STONE_DISH",
+      "hits": [
+        {
+          "name": "R03_RECESSED_STONE_DISH",
+          "z": 0.43000006675720215
+        },
+        {
+          "name": "R03_PODIUM_3_WITH_RECESS",
+          "z": 0.38000011444091797
+        },
+        {
+          "name": "R03_PODIUM_2_REPAIRED",
+          "z": 0.3199998140335083
+        },
+        {
+          "name": "R03_PODIUM_1_REPAIRED",
+          "z": 0.15999996662139893
+        },
+        {
+          "name": "P05_FLOOR_L00_GH",
+          "z": 0.0
+        }
+      ],
+      "passed": true
+    },
+    {
+      "radius": 0.3,
+      "angle": 4.71238898038469,
+      "expected": "R03_RECESSED_STONE_DISH",
+      "hits": [
+        {
+          "name": "R03_RECESSED_STONE_DISH",
+          "z": 0.4299999475479126
+        },
+        {
+          "name": "R03_PODIUM_3_WITH_RECESS",
+          "z": 0.38000011444091797
+        },
+        {
+          "name": "R03_PODIUM_2_REPAIRED",
+          "z": 0.3199998140335083
+        },
+        {
+          "name": "R03_PODIUM_1_REPAIRED",
+          "z": 0.15999996662139893
+        },
+        {
+          "name": "P05_FLOOR_L00_GH",
+          "z": 0.0
+        }
+      ],
+      "passed": true
+    },
+    {
+      "radius": 0.57,
+      "angle": 0,
+      "expected": "R03_PODIUM_3_WITH_RECESS",
+      "hits": [
+        {
+          "name": "R03_PODIUM_3_WITH_RECESS",
+          "z": 0.4800001382827759
+        },
+        {
+          "name": "R03_PODIUM_2_REPAIRED",
+          "z": 0.31999993324279785
+        },
+        {
+          "name": "R03_PODIUM_1_REPAIRED",
+          "z": 0.15999996662139893
+        },
+        {
+          "name": "P05_FLOOR_L00_GH",
+          "z": 0.0
+        }
+      ],
+      "passed": true
+    },
+    {
+      "radius": 0.57,
+      "angle": 1.5707963267948966,
+      "expected": "R03_PODIUM_3_WITH_RECESS",
+      "hits": [
+        {
+          "name": "R03_PODIUM_3_WITH_RECESS",
+          "z": 0.48000001907348633
+        },
+        {
+          "name": "R03_PODIUM_2_REPAIRED",
+          "z": 0.31999993324279785
+        },
+        {
+          "name": "R03_PODIUM_1_REPAIRED",
+          "z": 0.15999984741210938
+        },
+        {
+          "name": "P05_FLOOR_L00_GH",
+          "z": 1.1920928955078125e-07
+        }
+      ],
+      "passed": true
+    },
+    {
+      "radius": 0.57,
+      "angle": 3.141592653589793,
+      "expected": "R03_PODIUM_3_WITH_RECESS",
+      "hits": [
+        {
+          "name": "R03_PODIUM_3_WITH_RECESS",
+          "z": 0.4799998998641968
+        },
+        {
+          "name": "R03_PODIUM_2_REPAIRED",
+          "z": 0.31999993324279785
+        },
+        {
+          "name": "R03_PODIUM_1_REPAIRED",
+          "z": 0.15999996662139893
+        },
+        {
+          "name": "P05_FLOOR_L00_GH",
+          "z": 0.0
+        }
+      ],
+      "passed": true
+    },
+    {
+      "radius": 0.57,
+      "angle": 4.71238898038469,
+      "expected": "R03_PODIUM_3_WITH_RECESS",
+      "hits": [
+        {
+          "name": "R03_PODIUM_3_WITH_RECESS",
+          "z": 0.4799997806549072
+        },
+        {
+          "name": "R03_PODIUM_2_REPAIRED",
+          "z": 0.3200000524520874
+        },
+        {
+          "name": "R03_PODIUM_1_REPAIRED",
+          "z": 0.15999996662139893
+        },
+        {
+          "name": "P05_FLOOR_L00_GH",
+          "z": 0.0
+        }
+      ],
+      "passed": true
+    }
+  ],
+  "prior_meshes_unchanged": 3819,
+  "portal_regression_rays": [
+    {
+      "t": 0.2,
+      "z": 1.2,
+      "hits": []
+    },
+    {
+      "t": 0.2,
+      "z": 3.75,
+      "hits": []
+    },
+    {
+      "t": 0.2,
+      "z": 3.96,
+      "hits": [
+        "P07_GH_EAST_PORTAL_CROSS_BEAM"
+      ]
+    },
+    {
+      "t": 0.2,
+      "z": 4.32,
+      "hits": []
+    },
+    {
+      "t": 0.2,
+      "z": 9.518577096381804,
+      "hits": []
+    },
+    {
+      "t": 0.5,
+      "z": 1.2,
+      "hits": []
+    },
+    {
+      "t": 0.5,
+      "z": 3.75,
+      "hits": []
+    },
+    {
+      "t": 0.5,
+      "z": 3.96,
+      "hits": [
+        "P07_GH_EAST_PORTAL_CROSS_BEAM"
+      ]
+    },
+    {
+      "t": 0.5,
+      "z": 4.32,
+      "hits": []
+    },
+    {
+      "t": 0.5,
+      "z": 9.518577096381804,
+      "hits": []
+    },
+    {
+      "t": 0.8,
+      "z": 1.2,
+      "hits": []
+    },
+    {
+      "t": 0.8,
+      "z": 3.75,
+      "hits": []
+    },
+    {
+      "t": 0.8,
+      "z": 3.96,
+      "hits": [
+        "P07_GH_EAST_PORTAL_CROSS_BEAM"
+      ]
+    },
+    {
+      "t": 0.8,
+      "z": 4.32,
+      "hits": []
+    },
+    {
+      "t": 0.8,
+      "z": 9.518577096381804,
+      "hits": []
+    }
+  ],
+  "construction_acceptance": false,
+  "metric_photo_pose_verified": false,
+  "full_flight_modeled": false
+}

@@ -1,6 +1,6 @@
 # Gece üretimine devam
 
-8 Ekim 2026, 23:15 Europe/Paris civarı ara durum. Son sahneyi her zaman `../11_Blender_Modelleme_Plani/is_paketleri.json` içindeki `latest_scene` alanından oku. Şu an R02 v003 (P19 üzerine yerel Grand Hall geçit düzeltmesi). Tam müze bitmedi; sabah hedefi tam doğrulama iddiasına dönüşmemeli.
+8 Ekim 2026, 23:15 Europe/Paris civarı ara durum. Son sahneyi her zaman `../11_Blender_Modelleme_Plani/is_paketleri.json` içindeki `latest_scene` alanından oku. Şu an R03 v003 (R02 üzerine üst merdiven cam dönüş detayı ve basamak kapanış onarımı). Tam müze bitmedi; sabah hedefi tam doğrulama iddiasına dönüşmemeli.
 
 ## Kaydedilen işler
 
@@ -33,3 +33,9 @@ Saatlik otomasyon aktif. Her gerçek push sonrası UTC ve commit kaydını `GECE
 R02 v003: 026/032 ile doğu geçidindeki tam boy cam kaldırıldı. PDF2016/102 geçiş uçları çatı şeridi hipotezinden farklı; eski üç duvarın yalnız geçide taşan parçaları kırpıldı. Bütün görünür meshler üzerinde 15 yerel ışın kontrolü geçti. Ayrıntılar `reports/R02_GH_GECISI_RAPORU.md`. R02 v001/v002 bütün-sahne ışın testinde kaldı ve yerel arşivde tutuluyor. Çatı birleşimi ve karşı odanın tam görüş/dolaşım hattı çözülmedi.
 
 `release_utils.verified_current_scene()` görev listesinin son sahnesi için aynı dosyaya ait başarılı yeniden açma raporu arar. P20/P21 artık bu ortak seçiciyi kullanır. `publish_current_checkpoint.py` son doğrulanmış R02 raporu varsa onu seçer. Yeni paket eklenince yeni raporun seçimini de güncelle.
+
+R03 v003: 021/022/023 incelendi; kıvrımlı cam dönüş, yuvarlak küpeşte, taban kanalı, gömme taş alan ve armatür adayları üretildi. Tam kol hâlâ çözülmedi. Ziyaretçi planındaki üst uç daralmasını doğrudan sıfıra yaklaşan basamaklara dönüştürme. `reports/R03_MERDIVEN_DONUS_RAPORU.md` ve `config/stair_glass_return.json` belirsizlikleri açıklıyor.
+
+Üç P09 başlangıç konturunun duvar kapanışında küçük kendini kesen halkalar vardı; yalnız manifold/hacim testi yetmemiş. `stair_outline.py` küçük halkaları gerçek kesişimlerinde gideriyor. Eski P09 nesneleri korunup gizlendi; R03 kopyaları görünür. Yeni geometride 20 kapalı hacim, 65 destek örneği, 12 tüm-sahne girinti ışını ve 15 R02 geçit ışını geçti. R03 v001 kesme hatalı, v002 yalnız üçüncü basamağı düzeltiyordu; ikisi de yerel arşivde. Güncel dışa aktarım 7.33 MB / 3595 mesh / 69812 üçgen.
+
+Yayın seçicisi artık doğrulanmış R03 raporunu öncelikli seçiyor. Sonraki pakette yeni seçimi ekle. Kaynakları geometrik kabulden ayır: cam dönüşün yaklaşık dairesel biçimi, merkez noktası, 3 paneli ve tüm kesit ölçüleri koşullu; fotoğrafla metrik poz eşlemesi yapılmadı.
