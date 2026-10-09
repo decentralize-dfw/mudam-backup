@@ -177,3 +177,7 @@ R35 güncel sahne; R29–R35 bölgesel sahneler, kaynak/varsayım kayıtları ve
 
 
 2026-10-09T09:59:48.153715+00:00 — Saatlik hafif yayın düzeni kuruldu. Blender sahneleri ve GLB modelleri yerelde kalacak; yalnız pano, render, rapor ve üretim dosyaları gönderilecek. Mevcut saatlik otomasyon güncellendi; önceki model dosyaları yayımlanmış Git geçmişinde kalır.
+
+
+2026-10-09 10:01:18 UTC — a7254f4b9d8f04c62cf0abddbe15aee722b357a9 origin/main normal push doğrulandı. Pano, renderlar, raporlar ve üretim betikleri gönderildi; Blender/GLB modelleri yerelde tutuldu.
+
