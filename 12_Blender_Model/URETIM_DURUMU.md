@@ -324,3 +324,7 @@ Diğer dört merdivende 590 konum ve 21.240 yanal ışın geçti. WC, vestiyer v
 
 2026-10-09 14:18:53 UTC — 368595ab6731eb8ad1fc1d4decd584489e0c66dd origin/main normal push doğrulandı. Pano, renderlar, raporlar ve üretim betikleri gönderildi; Blender ve arşiv GLB dosyaları yerelde; tek güncel sıkıştırılmış web GLB gönderildi.
 
+
+
+2026-10-09 14:29:55 UTC — 879a076bf3f506bc42613a6b00159733d0f7b951 origin/main normal push doğrulandı. Pano, renderlar, raporlar ve üretim betikleri gönderildi; Blender ve arşiv GLB dosyaları yerelde; tek güncel sıkıştırılmış web GLB gönderildi.
+
