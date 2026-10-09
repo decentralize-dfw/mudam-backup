@@ -529,3 +529,7 @@ Güncel sahne kaynaklarla karşılaştırıldı; iki özgün dolaşım kontrolü
 
 
 Pavyon alt katının iki aydınlatılmış teşhis görüntüsü incelendi: görüntülenen ana sınırlar mevcut, yeni delik saptanmadı. 101 kesitindeki tarihî yapı birleşiminin bugünkü iç yüzeyi belirsiz; bu kısım tamamlandı sayılmadı. Geometri ve ilerleme yüzdesi değişmedi.
+
+
+2026-10-09 22:14:54 UTC — a94b15fa5302ff365d4c0079f8223c2ca7c4eee6 origin/main normal push doğrulandı. Pano, renderlar, raporlar ve üretim betikleri gönderildi; Blender ve arşiv GLB dosyaları yerelde; tek güncel sıkıştırılmış web GLB gönderildi.
+
