@@ -1,0 +1,18 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R116_SEKIZ_ISARET_KABUK_v007.blend",
+  "sample_counts": {
+    "R04": 262,
+    "R05": 627,
+    "R10": 627,
+    "R14": 170,
+    "R25": 346,
+    "R97": 148
+  },
+  "findings": [],
+  "construction_acceptance": false,
+  "limits": [
+    "2.1m is a review probe, not measured statutory compliance.",
+    "Confirmed tread interior samples only; boundary/rail areas and source geometry require separate checks."
+  ],
+  "failures": []
+}

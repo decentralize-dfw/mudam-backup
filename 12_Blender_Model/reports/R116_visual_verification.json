@@ -1,0 +1,71 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R116_SEKIZ_ISARET_KABUK_v007.blend",
+  "reviewed_images": [
+    {
+      "path": "12_Blender_Model/renders/qa/R116_after_SS1_exterior.png",
+      "sha256": "6a8b82b5d2927645dc29bff8470a3a39ae3366affa2839ca96adfc9b9e2bf1d4"
+    },
+    {
+      "path": "12_Blender_Model/renders/qa/R116_after_SS2_gallery.png",
+      "sha256": "ce49e2f478ca9fd0ce23aef0167f934971bae4bb926050c984cdcdcb647ee8d4"
+    },
+    {
+      "path": "12_Blender_Model/renders/qa/R116_after_SS2_reverse.png",
+      "sha256": "1c52961bf4e3f6fa246e6ab21631b7ea14fe1c726cdd8a724589c29ea1bb60c0"
+    },
+    {
+      "path": "12_Blender_Model/renders/qa/R116_after_SS3_jamb.png",
+      "sha256": "a4414162493c82a400819cc965b315ec364d1fa75182debff56f2ddc9ac45d35"
+    },
+    {
+      "path": "12_Blender_Model/renders/qa/R116_after_SS4_5_petite.png",
+      "sha256": "5dfc00920f483ae2c577511d99475d548a917b05bcd1363494aa78e03a08d2e9"
+    },
+    {
+      "path": "12_Blender_Model/renders/qa/R116_after_SS6_bridge.png",
+      "sha256": "d5616311265381370838c0affe3e65690bdb626199e9783ef8681cde3c09ea4f"
+    },
+    {
+      "path": "12_Blender_Model/renders/qa/R116_after_SS7_corner.png",
+      "sha256": "ea4142c32d7d42b6201fae9a367dbcda76115840fa7f539160a47e49330029bc"
+    },
+    {
+      "path": "12_Blender_Model/renders/qa/R116_after_SS8_lower.png",
+      "sha256": "98c6f4872fc329e59ef9f1dded6e32830984d8ac76c41e82ff7996428e8e4cd5"
+    },
+    {
+      "path": "12_Blender_Model/renders/qa/R116_before_SS1_exterior.png",
+      "sha256": "5ccf18269c2de88edbe8ec707e0f4bc29b07223a50169e22a00dced2d931e1e9"
+    },
+    {
+      "path": "12_Blender_Model/renders/qa/R116_before_SS2_gallery.png",
+      "sha256": "ae88a6d6e7e5d9d91b5fb311c63ae09960c94cf41a017544bd3b9fd52b9cc070"
+    },
+    {
+      "path": "12_Blender_Model/renders/qa/R116_before_SS2_reverse.png",
+      "sha256": "2bcd8d5d7bc6f370c4f3ec3eed2e5768879e08f61ad4c1e9321595efe4182c9b"
+    },
+    {
+      "path": "12_Blender_Model/renders/qa/R116_before_SS3_jamb.png",
+      "sha256": "5f6642486f96716f85b9d65087efd82b3bbdf4eaef75cd872850fd748826c0b8"
+    },
+    {
+      "path": "12_Blender_Model/renders/qa/R116_before_SS4_5_petite.png",
+      "sha256": "b740dd9c153a4e4dc0ee25b8e408f9264458012df88b7fddb2a84d9b12c94398"
+    },
+    {
+      "path": "12_Blender_Model/renders/qa/R116_before_SS6_bridge.png",
+      "sha256": "ed7f547690db2c3617e4496a157ecd42ddc61bf342af42fc669eb6d5ce2d2210"
+    },
+    {
+      "path": "12_Blender_Model/renders/qa/R116_before_SS7_corner.png",
+      "sha256": "40bc5710c996154cd575264aa3670c1294efe0d0dd66af74b987a3620a06558c"
+    },
+    {
+      "path": "12_Blender_Model/renders/qa/R116_before_SS8_lower.png",
+      "sha256": "46a19ef12c6f260d0adf9168c1a982c9e8a54c9245177df3cbf3d4c5b4735bd9"
+    }
+  ],
+  "failures": [],
+  "scope": "Visual inspection of local changed boundaries; full building and exact historic registration not accepted"
+}

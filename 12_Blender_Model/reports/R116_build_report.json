@@ -1,0 +1,290 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R116_SEKIZ_ISARET_KABUK_v007.blend",
+  "base_scene": "MUDAM_R115_PAVYON_KAPI_CAM_TUTUCULARI_v001.blend",
+  "closed_objects": [
+    "R116_PETITE_CAFE_BOUNDARY",
+    "R116_LOWER_FACADE_BACKING",
+    "R116_BRIDGE_NORTH_WEST",
+    "R116_BRIDGE_NORTH_EAST",
+    "R116_STAIR_PORTAL_JAMB_JOIN",
+    "R116_AUD_ENTRY_FLOOR_L",
+    "R116_AUD_ENTRY_FLOOR_R",
+    "R116_E_GALLERY_END_RETURN",
+    "R116_FOYER_E_LEFT",
+    "R116_FOYER_E_RIGHT",
+    "R116_FOYER_E_HEAD",
+    "R116_FOYER_E_CLOSED_LEAF",
+    "R116_FOYER_W_LEFT",
+    "R116_FOYER_W_RIGHT",
+    "R116_FOYER_W_HEAD",
+    "R116_FOYER_W_CLOSED_LEAF"
+  ],
+  "changed_inherited_objects": [
+    "P05_FLOOR_LP1_E0",
+    "R04_RECESS_TOP_BELOW_LANDING",
+    "R17_GROUND_FLOOR",
+    "R23_WEST_RETURN_FLOOR_0",
+    "R23_WEST_RETURN_FLOOR_1",
+    "R25_LOWER_PAVILION_FLOOR",
+    "R27_BAY_1_BLIND_BACK",
+    "R27_BAY_1_END_RETURN",
+    "R27_BAY_2_BASE",
+    "R27_BAY_2_PIER_BASE",
+    "R27_BAY_3_BLIND_BACK",
+    "R27_BAY_3_PIER_BASE",
+    "R27_BAY_4_BASE",
+    "R27_BAY_4_PIER_BASE",
+    "R27_BAY_5_BLIND_BACK",
+    "R27_BAY_5_PIER_BASE",
+    "R27_END_PIER",
+    "R28_E_CIRCULATION_FLOOR",
+    "R28_W_CIRCULATION_FLOOR",
+    "R54_WINDOW_01_BACK_HEAD",
+    "R54_WINDOW_02_BACK_HEAD",
+    "R54_WINDOW_03_BACK_HEAD",
+    "R54_WINDOW_04_BACK_HEAD",
+    "R54_WINDOW_05_BACK_HEAD",
+    "R73_E_CONTINUOUS_GALLERY_WALL",
+    "R87_ROOM_DOOR_HEAD",
+    "R87_ROOM_FRONT_LEFT",
+    "R87_ROOM_FRONT_RIGHT",
+    "R87_ROOM_SIDE"
+  ],
+  "operations": [
+    {
+      "name": "R87_ROOM_SIDE",
+      "operation": "supersede",
+      "issue": "SS4_1_2"
+    },
+    {
+      "name": "R87_ROOM_FRONT_LEFT",
+      "operation": "supersede",
+      "issue": "SS4_1_2"
+    },
+    {
+      "name": "R87_ROOM_FRONT_RIGHT",
+      "operation": "supersede",
+      "issue": "SS4_1_2"
+    },
+    {
+      "name": "R87_ROOM_DOOR_HEAD",
+      "operation": "supersede",
+      "issue": "SS4_1_2"
+    },
+    {
+      "name": "P05_FLOOR_LP1_E0",
+      "operation": "INTERSECT",
+      "issue": "SS1_1 floor exterior sliver",
+      "before_volume": 89.56896389385837,
+      "after_volume": 89.49672121211142
+    },
+    {
+      "name": "R17_GROUND_FLOOR",
+      "operation": "INTERSECT",
+      "issue": "SS1_3 slab concealed within stone",
+      "before_volume": 31.338611320804674,
+      "after_volume": 31.170325730851722
+    },
+    {
+      "name": "R25_LOWER_PAVILION_FLOOR",
+      "operation": "INTERSECT",
+      "issue": "SS1_3 slab concealed within stone",
+      "before_volume": 33.13793790409395,
+      "after_volume": 32.969651997646004
+    },
+    {
+      "name": "R27_BAY_1_END_RETURN",
+      "operation": "DIFFERENCE",
+      "issue": "SS1_2 retire crossed lower facade",
+      "before_volume": 9.26813653436804,
+      "after_volume": 6.226554993870501
+    },
+    {
+      "name": "R27_BAY_1_BLIND_BACK",
+      "operation": "DIFFERENCE",
+      "issue": "SS1_2 retire crossed lower facade",
+      "before_volume": 11.034779960420734,
+      "after_volume": 5.647357420342892
+    },
+    {
+      "name": "R27_BAY_2_PIER_BASE",
+      "operation": "DIFFERENCE",
+      "issue": "SS1_2 retire crossed lower facade",
+      "before_volume": 1.7786163161453408,
+      "after_volume": 0.8963094947231833
+    },
+    {
+      "name": "R27_BAY_2_BASE",
+      "operation": "DIFFERENCE",
+      "issue": "SS1_2 retire crossed lower facade",
+      "before_volume": 6.55267976865553,
+      "after_volume": 1.1652573515888236
+    },
+    {
+      "name": "R27_BAY_3_PIER_BASE",
+      "operation": "DIFFERENCE",
+      "issue": "SS1_2 retire crossed lower facade",
+      "before_volume": 1.793196133827349,
+      "after_volume": 0.9036567954878846
+    },
+    {
+      "name": "R27_BAY_3_BLIND_BACK",
+      "operation": "DIFFERENCE",
+      "issue": "SS1_2 retire crossed lower facade",
+      "before_volume": 10.73130039366098,
+      "after_volume": 5.644908065932015
+    },
+    {
+      "name": "R27_BAY_4_PIER_BASE",
+      "operation": "DIFFERENCE",
+      "issue": "SS1_2 retire crossed lower facade",
+      "before_volume": 1.6387498208327493,
+      "after_volume": 0.39755911542470523
+    },
+    {
+      "name": "R27_BAY_4_BASE",
+      "operation": "DIFFERENCE",
+      "issue": "SS1_2 retire crossed lower facade",
+      "before_volume": 5.911056765089068,
+      "after_volume": 1.1600809981129387
+    },
+    {
+      "name": "R27_BAY_5_PIER_BASE",
+      "operation": "DIFFERENCE",
+      "issue": "SS1_2 retire crossed lower facade",
+      "before_volume": 2.4493734363507835,
+      "after_volume": 0.9161776411036496
+    },
+    {
+      "name": "R27_BAY_5_BLIND_BACK",
+      "operation": "DIFFERENCE",
+      "issue": "SS1_2 retire crossed lower facade",
+      "before_volume": 10.00296615222016,
+      "after_volume": 5.639035412877656
+    },
+    {
+      "name": "R27_END_PIER",
+      "operation": "DIFFERENCE",
+      "issue": "SS1_2 retire crossed lower facade",
+      "before_volume": 95.850792371961,
+      "after_volume": 46.416619105085346
+    },
+    {
+      "name": "R54_WINDOW_01_BACK_HEAD",
+      "operation": "supersede",
+      "issue": "SS1_2 replaced by continuous lower backing head"
+    },
+    {
+      "name": "R54_WINDOW_02_BACK_HEAD",
+      "operation": "supersede",
+      "issue": "SS1_2 replaced by continuous lower backing head"
+    },
+    {
+      "name": "R54_WINDOW_03_BACK_HEAD",
+      "operation": "supersede",
+      "issue": "SS1_2 replaced by continuous lower backing head"
+    },
+    {
+      "name": "R54_WINDOW_04_BACK_HEAD",
+      "operation": "supersede",
+      "issue": "SS1_2 replaced by continuous lower backing head"
+    },
+    {
+      "name": "R54_WINDOW_05_BACK_HEAD",
+      "operation": "supersede",
+      "issue": "SS1_2 replaced by continuous lower backing head"
+    },
+    {
+      "name": "R28_E_CIRCULATION_FLOOR",
+      "operation": "DIFFERENCE",
+      "issue": "SS2 coplanar floor duplicate",
+      "before_volume": 13.241171192367869,
+      "after_volume": 13.0987757353994
+    },
+    {
+      "name": "R28_W_CIRCULATION_FLOOR",
+      "operation": "DIFFERENCE",
+      "issue": "SS2 coplanar floor duplicate",
+      "before_volume": 19.63714031776372,
+      "after_volume": 15.946374303545484
+    },
+    {
+      "name": "R23_WEST_RETURN_FLOOR_0",
+      "operation": "DIFFERENCE",
+      "issue": "SS5 coplanar floor duplicate",
+      "before_volume": 3.8033569237666716,
+      "after_volume": 3.749301842343938
+    },
+    {
+      "name": "R23_WEST_RETURN_FLOOR_1",
+      "operation": "DIFFERENCE",
+      "issue": "SS5 coplanar floor duplicate",
+      "before_volume": 1.2334451679760239,
+      "after_volume": 0.8815578897711638
+    },
+    {
+      "name": "R23_WEST_RETURN_FLOOR_0",
+      "operation": "DIFFERENCE",
+      "issue": "SS5 coplanar floor duplicate",
+      "before_volume": 3.749301842343938,
+      "after_volume": 3.749302030560776
+    },
+    {
+      "name": "R23_WEST_RETURN_FLOOR_1",
+      "operation": "DIFFERENCE",
+      "issue": "SS5 coplanar floor duplicate",
+      "before_volume": 0.8815578897711638,
+      "after_volume": 0.8815580669274659
+    },
+    {
+      "name": "R04_RECESS_TOP_BELOW_LANDING",
+      "operation": "lower backing top to bridge underside",
+      "issue": "SS6_3"
+    },
+    {
+      "name": "R73_E_CONTINUOUS_GALLERY_WALL",
+      "operation": "continue lower edge to existing beam top",
+      "issue": "SS2_SS7"
+    },
+    {
+      "name": "R116_AUD_ENTRY_FLOOR_L",
+      "operation": "DIFFERENCE",
+      "issue": "SS8 floor patch without overlaps",
+      "before_volume": 0.8425056628742251,
+      "after_volume": 0.27910174506344476
+    },
+    {
+      "name": "R116_AUD_ENTRY_FLOOR_L",
+      "operation": "DIFFERENCE",
+      "issue": "SS8 floor patch without overlaps",
+      "before_volume": 0.27910174506344476,
+      "after_volume": 0.195891295997346
+    },
+    {
+      "name": "R116_AUD_ENTRY_FLOOR_R",
+      "operation": "DIFFERENCE",
+      "issue": "SS8 floor patch without overlaps",
+      "before_volume": 0.9361176083576881,
+      "after_volume": 0.312039117516808
+    },
+    {
+      "name": "R116_AUD_ENTRY_FLOOR_R",
+      "operation": "DIFFERENCE",
+      "issue": "SS8 floor patch without overlaps",
+      "before_volume": 0.312039117516808,
+      "after_volume": 0.21842737615407715
+    },
+    {
+      "name": "R73_E_CONTINUOUS_GALLERY_WALL",
+      "operation": "align backing down to portal beam soffit, preserving passage plane",
+      "issue": "SS7"
+    }
+  ],
+  "construction_acceptance": false,
+  "visual_acceptance": true,
+  "limits": [
+    "Local eight-group correction checkpoint, not complete building or surveyed as-built acceptance.",
+    "Original heights, wall thicknesses and side room door dimensions remain candidates.",
+    "Historic/modern absolute registration and the first lower window corner placement remain unmeasured."
+  ]
+}

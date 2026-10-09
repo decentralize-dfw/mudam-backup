@@ -1,0 +1,393 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R115_PAVYON_KAPI_CAM_TUTUCULARI_v001.blend",
+  "failures": [],
+  "parts": 96,
+  "panes": 6,
+  "glass_contact_checks": [
+    {
+      "part": "R115_SIDE_LEFT_GLASS_SEAL_-1_BOTTOM",
+      "glass_overlap": true
+    },
+    {
+      "part": "R115_SIDE_LEFT_GLASS_SEAL_-1_TOP",
+      "glass_overlap": true
+    },
+    {
+      "part": "R115_SIDE_LEFT_GLASS_SEAL_-1_LEFT",
+      "glass_overlap": true
+    },
+    {
+      "part": "R115_SIDE_LEFT_GLASS_SEAL_-1_RIGHT",
+      "glass_overlap": true
+    },
+    {
+      "part": "R115_SIDE_LEFT_GLASS_BEAD_-1_BOTTOM",
+      "glass_overlap": true
+    },
+    {
+      "part": "R115_SIDE_LEFT_GLASS_BEAD_-1_TOP",
+      "glass_overlap": true
+    },
+    {
+      "part": "R115_SIDE_LEFT_GLASS_BEAD_-1_LEFT",
+      "glass_overlap": true
+    },
+    {
+      "part": "R115_SIDE_LEFT_GLASS_BEAD_-1_RIGHT",
+      "glass_overlap": true
+    },
+    {
+      "part": "R115_SIDE_LEFT_GLASS_SEAL_1_BOTTOM",
+      "glass_overlap": true
+    },
+    {
+      "part": "R115_SIDE_LEFT_GLASS_SEAL_1_TOP",
+      "glass_overlap": true
+    },
+    {
+      "part": "R115_SIDE_LEFT_GLASS_SEAL_1_LEFT",
+      "glass_overlap": true
+    },
+    {
+      "part": "R115_SIDE_LEFT_GLASS_SEAL_1_RIGHT",
+      "glass_overlap": true
+    },
+    {
+      "part": "R115_SIDE_LEFT_GLASS_BEAD_1_BOTTOM",
+      "glass_overlap": true
+    },
+    {
+      "part": "R115_SIDE_LEFT_GLASS_BEAD_1_TOP",
+      "glass_overlap": true
+    },
+    {
+      "part": "R115_SIDE_LEFT_GLASS_BEAD_1_LEFT",
+      "glass_overlap": true
+    },
+    {
+      "part": "R115_SIDE_LEFT_GLASS_BEAD_1_RIGHT",
+      "glass_overlap": true
+    },
+    {
+      "part": "R115_SIDE_RIGHT_GLASS_SEAL_-1_BOTTOM",
+      "glass_overlap": true
+    },
+    {
+      "part": "R115_SIDE_RIGHT_GLASS_SEAL_-1_TOP",
+      "glass_overlap": true
+    },
+    {
+      "part": "R115_SIDE_RIGHT_GLASS_SEAL_-1_LEFT",
+      "glass_overlap": true
+    },
+    {
+      "part": "R115_SIDE_RIGHT_GLASS_SEAL_-1_RIGHT",
+      "glass_overlap": true
+    },
+    {
+      "part": "R115_SIDE_RIGHT_GLASS_BEAD_-1_BOTTOM",
+      "glass_overlap": true
+    },
+    {
+      "part": "R115_SIDE_RIGHT_GLASS_BEAD_-1_TOP",
+      "glass_overlap": true
+    },
+    {
+      "part": "R115_SIDE_RIGHT_GLASS_BEAD_-1_LEFT",
+      "glass_overlap": true
+    },
+    {
+      "part": "R115_SIDE_RIGHT_GLASS_BEAD_-1_RIGHT",
+      "glass_overlap": true
+    },
+    {
+      "part": "R115_SIDE_RIGHT_GLASS_SEAL_1_BOTTOM",
+      "glass_overlap": true
+    },
+    {
+      "part": "R115_SIDE_RIGHT_GLASS_SEAL_1_TOP",
+      "glass_overlap": true
+    },
+    {
+      "part": "R115_SIDE_RIGHT_GLASS_SEAL_1_LEFT",
+      "glass_overlap": true
+    },
+    {
+      "part": "R115_SIDE_RIGHT_GLASS_SEAL_1_RIGHT",
+      "glass_overlap": true
+    },
+    {
+      "part": "R115_SIDE_RIGHT_GLASS_BEAD_1_BOTTOM",
+      "glass_overlap": true
+    },
+    {
+      "part": "R115_SIDE_RIGHT_GLASS_BEAD_1_TOP",
+      "glass_overlap": true
+    },
+    {
+      "part": "R115_SIDE_RIGHT_GLASS_BEAD_1_LEFT",
+      "glass_overlap": true
+    },
+    {
+      "part": "R115_SIDE_RIGHT_GLASS_BEAD_1_RIGHT",
+      "glass_overlap": true
+    },
+    {
+      "part": "R115_TRANSOM_LEFT_GLASS_SEAL_-1_BOTTOM",
+      "glass_overlap": true
+    },
+    {
+      "part": "R115_TRANSOM_LEFT_GLASS_SEAL_-1_TOP",
+      "glass_overlap": true
+    },
+    {
+      "part": "R115_TRANSOM_LEFT_GLASS_SEAL_-1_LEFT",
+      "glass_overlap": true
+    },
+    {
+      "part": "R115_TRANSOM_LEFT_GLASS_SEAL_-1_RIGHT",
+      "glass_overlap": true
+    },
+    {
+      "part": "R115_TRANSOM_LEFT_GLASS_BEAD_-1_BOTTOM",
+      "glass_overlap": true
+    },
+    {
+      "part": "R115_TRANSOM_LEFT_GLASS_BEAD_-1_TOP",
+      "glass_overlap": true
+    },
+    {
+      "part": "R115_TRANSOM_LEFT_GLASS_BEAD_-1_LEFT",
+      "glass_overlap": true
+    },
+    {
+      "part": "R115_TRANSOM_LEFT_GLASS_BEAD_-1_RIGHT",
+      "glass_overlap": true
+    },
+    {
+      "part": "R115_TRANSOM_LEFT_GLASS_SEAL_1_BOTTOM",
+      "glass_overlap": true
+    },
+    {
+      "part": "R115_TRANSOM_LEFT_GLASS_SEAL_1_TOP",
+      "glass_overlap": true
+    },
+    {
+      "part": "R115_TRANSOM_LEFT_GLASS_SEAL_1_LEFT",
+      "glass_overlap": true
+    },
+    {
+      "part": "R115_TRANSOM_LEFT_GLASS_SEAL_1_RIGHT",
+      "glass_overlap": true
+    },
+    {
+      "part": "R115_TRANSOM_LEFT_GLASS_BEAD_1_BOTTOM",
+      "glass_overlap": true
+    },
+    {
+      "part": "R115_TRANSOM_LEFT_GLASS_BEAD_1_TOP",
+      "glass_overlap": true
+    },
+    {
+      "part": "R115_TRANSOM_LEFT_GLASS_BEAD_1_LEFT",
+      "glass_overlap": true
+    },
+    {
+      "part": "R115_TRANSOM_LEFT_GLASS_BEAD_1_RIGHT",
+      "glass_overlap": true
+    },
+    {
+      "part": "R115_TRANSOM_RIGHT_GLASS_SEAL_-1_BOTTOM",
+      "glass_overlap": true
+    },
+    {
+      "part": "R115_TRANSOM_RIGHT_GLASS_SEAL_-1_TOP",
+      "glass_overlap": true
+    },
+    {
+      "part": "R115_TRANSOM_RIGHT_GLASS_SEAL_-1_LEFT",
+      "glass_overlap": true
+    },
+    {
+      "part": "R115_TRANSOM_RIGHT_GLASS_SEAL_-1_RIGHT",
+      "glass_overlap": true
+    },
+    {
+      "part": "R115_TRANSOM_RIGHT_GLASS_BEAD_-1_BOTTOM",
+      "glass_overlap": true
+    },
+    {
+      "part": "R115_TRANSOM_RIGHT_GLASS_BEAD_-1_TOP",
+      "glass_overlap": true
+    },
+    {
+      "part": "R115_TRANSOM_RIGHT_GLASS_BEAD_-1_LEFT",
+      "glass_overlap": true
+    },
+    {
+      "part": "R115_TRANSOM_RIGHT_GLASS_BEAD_-1_RIGHT",
+      "glass_overlap": true
+    },
+    {
+      "part": "R115_TRANSOM_RIGHT_GLASS_SEAL_1_BOTTOM",
+      "glass_overlap": true
+    },
+    {
+      "part": "R115_TRANSOM_RIGHT_GLASS_SEAL_1_TOP",
+      "glass_overlap": true
+    },
+    {
+      "part": "R115_TRANSOM_RIGHT_GLASS_SEAL_1_LEFT",
+      "glass_overlap": true
+    },
+    {
+      "part": "R115_TRANSOM_RIGHT_GLASS_SEAL_1_RIGHT",
+      "glass_overlap": true
+    },
+    {
+      "part": "R115_TRANSOM_RIGHT_GLASS_BEAD_1_BOTTOM",
+      "glass_overlap": true
+    },
+    {
+      "part": "R115_TRANSOM_RIGHT_GLASS_BEAD_1_TOP",
+      "glass_overlap": true
+    },
+    {
+      "part": "R115_TRANSOM_RIGHT_GLASS_BEAD_1_LEFT",
+      "glass_overlap": true
+    },
+    {
+      "part": "R115_TRANSOM_RIGHT_GLASS_BEAD_1_RIGHT",
+      "glass_overlap": true
+    },
+    {
+      "part": "R115_LEAF_LEFT_GLASS_SEAL_-1_BOTTOM",
+      "glass_overlap": true
+    },
+    {
+      "part": "R115_LEAF_LEFT_GLASS_SEAL_-1_TOP",
+      "glass_overlap": true
+    },
+    {
+      "part": "R115_LEAF_LEFT_GLASS_SEAL_-1_LEFT",
+      "glass_overlap": true
+    },
+    {
+      "part": "R115_LEAF_LEFT_GLASS_SEAL_-1_RIGHT",
+      "glass_overlap": true
+    },
+    {
+      "part": "R115_LEAF_LEFT_GLASS_BEAD_-1_BOTTOM",
+      "glass_overlap": true
+    },
+    {
+      "part": "R115_LEAF_LEFT_GLASS_BEAD_-1_TOP",
+      "glass_overlap": true
+    },
+    {
+      "part": "R115_LEAF_LEFT_GLASS_BEAD_-1_LEFT",
+      "glass_overlap": true
+    },
+    {
+      "part": "R115_LEAF_LEFT_GLASS_BEAD_-1_RIGHT",
+      "glass_overlap": true
+    },
+    {
+      "part": "R115_LEAF_LEFT_GLASS_SEAL_1_BOTTOM",
+      "glass_overlap": true
+    },
+    {
+      "part": "R115_LEAF_LEFT_GLASS_SEAL_1_TOP",
+      "glass_overlap": true
+    },
+    {
+      "part": "R115_LEAF_LEFT_GLASS_SEAL_1_LEFT",
+      "glass_overlap": true
+    },
+    {
+      "part": "R115_LEAF_LEFT_GLASS_SEAL_1_RIGHT",
+      "glass_overlap": true
+    },
+    {
+      "part": "R115_LEAF_LEFT_GLASS_BEAD_1_BOTTOM",
+      "glass_overlap": true
+    },
+    {
+      "part": "R115_LEAF_LEFT_GLASS_BEAD_1_TOP",
+      "glass_overlap": true
+    },
+    {
+      "part": "R115_LEAF_LEFT_GLASS_BEAD_1_LEFT",
+      "glass_overlap": true
+    },
+    {
+      "part": "R115_LEAF_LEFT_GLASS_BEAD_1_RIGHT",
+      "glass_overlap": true
+    },
+    {
+      "part": "R115_LEAF_RIGHT_GLASS_SEAL_-1_BOTTOM",
+      "glass_overlap": true
+    },
+    {
+      "part": "R115_LEAF_RIGHT_GLASS_SEAL_-1_TOP",
+      "glass_overlap": true
+    },
+    {
+      "part": "R115_LEAF_RIGHT_GLASS_SEAL_-1_LEFT",
+      "glass_overlap": true
+    },
+    {
+      "part": "R115_LEAF_RIGHT_GLASS_SEAL_-1_RIGHT",
+      "glass_overlap": true
+    },
+    {
+      "part": "R115_LEAF_RIGHT_GLASS_BEAD_-1_BOTTOM",
+      "glass_overlap": true
+    },
+    {
+      "part": "R115_LEAF_RIGHT_GLASS_BEAD_-1_TOP",
+      "glass_overlap": true
+    },
+    {
+      "part": "R115_LEAF_RIGHT_GLASS_BEAD_-1_LEFT",
+      "glass_overlap": true
+    },
+    {
+      "part": "R115_LEAF_RIGHT_GLASS_BEAD_-1_RIGHT",
+      "glass_overlap": true
+    },
+    {
+      "part": "R115_LEAF_RIGHT_GLASS_SEAL_1_BOTTOM",
+      "glass_overlap": true
+    },
+    {
+      "part": "R115_LEAF_RIGHT_GLASS_SEAL_1_TOP",
+      "glass_overlap": true
+    },
+    {
+      "part": "R115_LEAF_RIGHT_GLASS_SEAL_1_LEFT",
+      "glass_overlap": true
+    },
+    {
+      "part": "R115_LEAF_RIGHT_GLASS_SEAL_1_RIGHT",
+      "glass_overlap": true
+    },
+    {
+      "part": "R115_LEAF_RIGHT_GLASS_BEAD_1_BOTTOM",
+      "glass_overlap": true
+    },
+    {
+      "part": "R115_LEAF_RIGHT_GLASS_BEAD_1_TOP",
+      "glass_overlap": true
+    },
+    {
+      "part": "R115_LEAF_RIGHT_GLASS_BEAD_1_LEFT",
+      "glass_overlap": true
+    },
+    {
+      "part": "R115_LEAF_RIGHT_GLASS_BEAD_1_RIGHT",
+      "glass_overlap": true
+    }
+  ],
+  "construction_acceptance": false
+}

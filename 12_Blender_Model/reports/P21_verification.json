@@ -1,8 +1,8 @@
 {
-  "file": "12_Blender_Model/exports/MUDAM_R114_ALT_MERDIVEN_SAHANLIK_PERDESI_v001_preview.glb",
-  "size_bytes": 91200800,
-  "mesh_nodes": 8377,
-  "triangles": 2487914,
+  "file": "12_Blender_Model/exports/MUDAM_R116_SEKIZ_ISARET_KABUK_v007_preview.glb",
+  "size_bytes": 91380144,
+  "mesh_nodes": 8480,
+  "triangles": 2489342,
   "world_bounds_glTF": [
     [
       -42.61722946166992,
@@ -125,14 +125,14 @@
       "usage": "basecolor",
       "image": "R32_limestone_candidate_basecolor",
       "uv_attribute": "TEXCOORD_0",
-      "primitive_count": 95
+      "primitive_count": 90
     },
     {
       "material": "R32_LIMESTONE_APPEARANCE_CANDIDATE",
       "usage": "normal",
       "image": "R32_limestone_candidate_normal",
       "uv_attribute": "TEXCOORD_0",
-      "primitive_count": 95
+      "primitive_count": 90
     },
     {
       "material": "R32_WOOD_APPEARANCE_CANDIDATE",
