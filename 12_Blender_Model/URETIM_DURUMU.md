@@ -427,3 +427,7 @@ R101: Okuma odası–doğu servis odası bağlantısının planda çizili fakat 
 R102: Üst servis odası ve merdiven kuyusunda 14 duvarın 12 dış köşesi birleştirildi. Önceden açık olan 10 köşe probu kapandı; iç plan çizgileri ve açıklıklar korundu. Servis merdiveninin 110 kontrolü yeniden geçti.
 
 [Kontrol ve önce/sonra görselleri](reports/R102_KONTROL_RAPORU.md). Bütün bina kabulü yok. Diğer üst kat duvar/örtü birleşimleri ve katlar arası devamlılık kontrolü sürüyor; ölçülmemiş kalınlık ve kotlar aday.
+
+
+2026-10-09 18:22:34 UTC — 1fbcdd0e78043fa2c16d9fe9b5b43613851dce00 origin/main normal push doğrulandı. Pano, renderlar, raporlar ve üretim betikleri gönderildi; Blender ve arşiv GLB dosyaları yerelde; tek güncel sıkıştırılmış web GLB gönderildi.
+
