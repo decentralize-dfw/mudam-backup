@@ -19,11 +19,15 @@
 
 ## Yapılan denetimler
 
+- [x] R89 devam: üst galeri çatı–duvar çevresinde 9.558 yerel örnek kapalı; 71 ışıklık gökyüzü doğrultusu açık. Dört güncel iç render UG02/UG03 ile karşılaştırıldı; kesin profil kabulü açık.
+
 - [x] R87: 29 bölge, 97.080 sık zemin/örtü örneği ve 218.136 çok kotlu doğrultu. Tanımlı örneklerde eksik zemin/örtü veya dışarı kaçış yok.
 - [x] R88: batı merdivende 170 konum, 12.240 yanal doğrultu; bulgu yok.
 - [x] R88: son sahne yeniden açıldı; kapalı mesh ve önceki sahne farkı kontrol edildi, renderlar incelendi.
 
 ## Genel kabul için kalanlar
+
+- [x] R89 ek kontrol: ana cam çatı/fener/tepe yüzeylerinde 330.913, yan çatı kenarlarında 256.816 yerel örnek. Geçerli yüzey alanlarında açıklık yok. [Yöntem ve açık kapsam](R89_YEREL_CATI_KONTROLU.md).
 
 - [x] R89: dış cephe kat birleşimindeki eksik duvar devamı 101 kesitiyle değerlendirildi; 37 duvar ve 296 önce/sonra ışınla düzeltildi.
 - [x] R89: diğer dört merdiven sistemi 590 konum ve 21.240 yanal ışınla kontrol edildi.

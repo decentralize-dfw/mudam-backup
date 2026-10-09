@@ -1,0 +1,339 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R89_ALT_KAT_DOSEME_BIRLESIMI_v001.blend",
+  "edges": [
+    {
+      "edge": 0,
+      "samples": 324,
+      "missing_count": 0,
+      "missing": []
+    },
+    {
+      "edge": 1,
+      "samples": 1292,
+      "missing_count": 0,
+      "missing": []
+    },
+    {
+      "edge": 2,
+      "samples": 444,
+      "missing_count": 4,
+      "missing": [
+        {
+          "position": [
+            -4.346854209899902,
+            20.170963287353516,
+            13.744035720825195
+          ],
+          "drop_m": 0.6,
+          "fraction": 0.11261261261261261,
+          "below_low_eave": true,
+          "classification": "below_transition_domain"
+        },
+        {
+          "position": [
+            -4.320206165313721,
+            20.195741653442383,
+            13.777709007263184
+          ],
+          "drop_m": 0.6,
+          "fraction": 0.12162162162162163,
+          "below_low_eave": true,
+          "classification": "below_transition_domain"
+        },
+        {
+          "position": [
+            -4.293558597564697,
+            20.22052001953125,
+            13.811382293701172
+          ],
+          "drop_m": 0.6,
+          "fraction": 0.13063063063063063,
+          "below_low_eave": true,
+          "classification": "below_transition_domain"
+        },
+        {
+          "position": [
+            -4.266910552978516,
+            20.24530029296875,
+            13.845056533813477
+          ],
+          "drop_m": 0.6,
+          "fraction": 0.13963963963963963,
+          "below_low_eave": true,
+          "classification": "below_transition_domain"
+        }
+      ]
+    },
+    {
+      "edge": 3,
+      "samples": 1292,
+      "missing_count": 0,
+      "missing": []
+    },
+    {
+      "edge": 4,
+      "samples": 324,
+      "missing_count": 0,
+      "missing": []
+    },
+    {
+      "edge": 5,
+      "samples": 1292,
+      "missing_count": 0,
+      "missing": []
+    },
+    {
+      "edge": 6,
+      "samples": 444,
+      "missing_count": 21,
+      "missing": [
+        {
+          "position": [
+            14.015539169311523,
+            0.5839145183563232,
+            13.845056533813477
+          ],
+          "drop_m": 0.6,
+          "fraction": 0.8603603603603603,
+          "below_low_eave": true,
+          "classification": "below_transition_domain"
+        },
+        {
+          "position": [
+            13.9888916015625,
+            0.5591356754302979,
+            13.811382293701172
+          ],
+          "drop_m": 0.6,
+          "fraction": 0.8693693693693694,
+          "below_low_eave": true,
+          "classification": "below_transition_domain"
+        },
+        {
+          "position": [
+            13.962244033813477,
+            0.5343568325042725,
+            13.777709007263184
+          ],
+          "drop_m": 0.6,
+          "fraction": 0.8783783783783784,
+          "below_low_eave": true,
+          "classification": "below_transition_domain"
+        },
+        {
+          "position": [
+            13.935595512390137,
+            0.509577751159668,
+            13.744035720825195
+          ],
+          "drop_m": 0.6,
+          "fraction": 0.8873873873873874,
+          "below_low_eave": true,
+          "classification": "below_transition_domain"
+        },
+        {
+          "position": [
+            13.908947944641113,
+            0.4847989082336426,
+            13.710362434387207
+          ],
+          "drop_m": 0.6,
+          "fraction": 0.8963963963963963,
+          "below_low_eave": true,
+          "classification": "below_transition_domain"
+        },
+        {
+          "position": [
+            13.88230037689209,
+            0.4600200653076172,
+            13.676689147949219
+          ],
+          "drop_m": 0.6,
+          "fraction": 0.9054054054054054,
+          "below_low_eave": true,
+          "classification": "below_transition_domain"
+        },
+        {
+          "position": [
+            13.85565185546875,
+            0.4352412223815918,
+            13.64301586151123
+          ],
+          "drop_m": 0.6,
+          "fraction": 0.9144144144144144,
+          "below_low_eave": true,
+          "classification": "below_transition_domain"
+        },
+        {
+          "position": [
+            13.829004287719727,
+            0.4104623794555664,
+            13.609342575073242
+          ],
+          "drop_m": 0.6,
+          "fraction": 0.9234234234234234,
+          "below_low_eave": true,
+          "classification": "below_transition_domain"
+        },
+        {
+          "position": [
+            13.802356719970703,
+            0.385683536529541,
+            13.575668334960938
+          ],
+          "drop_m": 0.6,
+          "fraction": 0.9324324324324325,
+          "below_low_eave": true,
+          "classification": "below_transition_domain"
+        },
+        {
+          "position": [
+            13.77570915222168,
+            0.3609046936035156,
+            13.841996192932129
+          ],
+          "drop_m": 0.3,
+          "fraction": 0.9414414414414415,
+          "below_low_eave": true,
+          "classification": "below_transition_domain"
+        },
+        {
+          "position": [
+            13.77570915222168,
+            0.3609046936035156,
+            13.541996002197266
+          ],
+          "drop_m": 0.6,
+          "fraction": 0.9414414414414415,
+          "below_low_eave": true,
+          "classification": "below_transition_domain"
+        },
+        {
+          "position": [
+            13.74906063079834,
+            0.33612561225891113,
+            13.808321952819824
+          ],
+          "drop_m": 0.3,
+          "fraction": 0.9504504504504504,
+          "below_low_eave": true,
+          "classification": "below_transition_domain"
+        },
+        {
+          "position": [
+            13.74906063079834,
+            0.33612561225891113,
+            13.508321762084961
+          ],
+          "drop_m": 0.6,
+          "fraction": 0.9504504504504504,
+          "below_low_eave": true,
+          "classification": "below_transition_domain"
+        },
+        {
+          "position": [
+            13.722413063049316,
+            0.31134676933288574,
+            13.774648666381836
+          ],
+          "drop_m": 0.3,
+          "fraction": 0.9594594594594594,
+          "below_low_eave": true,
+          "classification": "below_transition_domain"
+        },
+        {
+          "position": [
+            13.722413063049316,
+            0.31134676933288574,
+            13.474648475646973
+          ],
+          "drop_m": 0.6,
+          "fraction": 0.9594594594594594,
+          "below_low_eave": true,
+          "classification": "below_transition_domain"
+        },
+        {
+          "position": [
+            13.695765495300293,
+            0.28656768798828125,
+            13.740975379943848
+          ],
+          "drop_m": 0.3,
+          "fraction": 0.9684684684684685,
+          "below_low_eave": true,
+          "classification": "below_transition_domain"
+        },
+        {
+          "position": [
+            13.695765495300293,
+            0.28656768798828125,
+            13.440975189208984
+          ],
+          "drop_m": 0.6,
+          "fraction": 0.9684684684684685,
+          "below_low_eave": true,
+          "classification": "below_transition_domain"
+        },
+        {
+          "position": [
+            13.669116973876953,
+            0.26178884506225586,
+            13.70730209350586
+          ],
+          "drop_m": 0.3,
+          "fraction": 0.9774774774774775,
+          "below_low_eave": true,
+          "classification": "below_transition_domain"
+        },
+        {
+          "position": [
+            13.669116973876953,
+            0.26178884506225586,
+            13.407301902770996
+          ],
+          "drop_m": 0.6,
+          "fraction": 0.9774774774774775,
+          "below_low_eave": true,
+          "classification": "below_transition_domain"
+        },
+        {
+          "position": [
+            13.64246940612793,
+            0.23701000213623047,
+            13.673628807067871
+          ],
+          "drop_m": 0.3,
+          "fraction": 0.9864864864864865,
+          "below_low_eave": true,
+          "classification": "below_transition_domain"
+        },
+        {
+          "position": [
+            13.64246940612793,
+            0.23701000213623047,
+            13.373628616333008
+          ],
+          "drop_m": 0.6,
+          "fraction": 0.9864864864864865,
+          "below_low_eave": true,
+          "classification": "below_transition_domain"
+        }
+      ]
+    },
+    {
+      "edge": 7,
+      "samples": 1292,
+      "missing_count": 0,
+      "missing": []
+    }
+  ],
+  "total_samples": 6704,
+  "missing_count": 25,
+  "construction_acceptance": false,
+  "transition_domain_missing": 0,
+  "limits": [
+    "Local eave diagnostic only; a displaced wall can be outside the 1.2m search band.",
+    "Sloping transition glazing ends at the low eave. Lower samples can lie in adjoining interior volume; no wall is required on this diagnostic plane.",
+    "Findings require source classification before any geometry repair."
+  ]
+}

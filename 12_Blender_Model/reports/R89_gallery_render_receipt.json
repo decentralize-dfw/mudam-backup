@@ -1,0 +1,64 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R89_ALT_KAT_DOSEME_BIRLESIMI_v001.blend",
+  "images": [
+    {
+      "image": "R89_east_gallery.png",
+      "eye_canonical": [
+        375,
+        580,
+        6.5
+      ],
+      "target_canonical": [
+        377,
+        420,
+        8.0
+      ],
+      "lens": 20
+    },
+    {
+      "image": "R89_west_gallery.png",
+      "eye_canonical": [
+        773,
+        580,
+        6.5
+      ],
+      "target_canonical": [
+        778,
+        430,
+        8.0
+      ],
+      "lens": 20
+    },
+    {
+      "image": "R89_east_clerestory.png",
+      "eye_canonical": [
+        345,
+        420,
+        6.5
+      ],
+      "target_canonical": [
+        399,
+        565,
+        10
+      ],
+      "lens": 22
+    },
+    {
+      "image": "R89_west_clerestory.png",
+      "eye_canonical": [
+        800,
+        424,
+        6.5
+      ],
+      "target_canonical": [
+        757,
+        567,
+        10
+      ],
+      "lens": 22
+    }
+  ],
+  "all_active_surroundings": true,
+  "metric_camera_match": false,
+  "roof_geometry_still_draft": true
+}

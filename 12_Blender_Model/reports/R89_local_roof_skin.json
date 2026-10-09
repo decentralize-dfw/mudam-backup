@@ -1,0 +1,164 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R89_ALT_KAT_DOSEME_BIRLESIMI_v001.blend",
+  "step_m": 0.05,
+  "ray_length_m": 0.6,
+  "faces": [
+    {
+      "face": "P06_MAIN_ROOF_FACE_0",
+      "samples": 24144,
+      "missing_count": 0,
+      "missing": []
+    },
+    {
+      "face": "P06_MAIN_LANTERN_0",
+      "samples": 13820,
+      "missing_count": 0,
+      "missing": []
+    },
+    {
+      "face": "P06_MAIN_CAP_0",
+      "samples": 3344,
+      "missing_count": 0,
+      "missing": []
+    },
+    {
+      "face": "P06_MAIN_ROOF_FACE_1",
+      "samples": 38769,
+      "missing_count": 0,
+      "missing": []
+    },
+    {
+      "face": "P06_MAIN_LANTERN_1",
+      "samples": 2752,
+      "missing_count": 0,
+      "missing": []
+    },
+    {
+      "face": "P06_MAIN_CAP_1",
+      "samples": 966,
+      "missing_count": 0,
+      "missing": []
+    },
+    {
+      "face": "P06_MAIN_ROOF_FACE_2",
+      "samples": 29964,
+      "missing_count": 0,
+      "missing": []
+    },
+    {
+      "face": "P06_MAIN_LANTERN_2",
+      "samples": 10555,
+      "missing_count": 0,
+      "missing": []
+    },
+    {
+      "face": "P06_MAIN_CAP_2",
+      "samples": 3344,
+      "missing_count": 0,
+      "missing": []
+    },
+    {
+      "face": "P06_MAIN_ROOF_FACE_3",
+      "samples": 38769,
+      "missing_count": 0,
+      "missing": []
+    },
+    {
+      "face": "P06_MAIN_LANTERN_3",
+      "samples": 1402,
+      "missing_count": 0,
+      "missing": []
+    },
+    {
+      "face": "P06_MAIN_CAP_3",
+      "samples": 966,
+      "missing_count": 0,
+      "missing": []
+    },
+    {
+      "face": "P06_MAIN_ROOF_FACE_4",
+      "samples": 24144,
+      "missing_count": 0,
+      "missing": []
+    },
+    {
+      "face": "P06_MAIN_LANTERN_4",
+      "samples": 7145,
+      "missing_count": 0,
+      "missing": []
+    },
+    {
+      "face": "P06_MAIN_CAP_4",
+      "samples": 3344,
+      "missing_count": 0,
+      "missing": []
+    },
+    {
+      "face": "P06_MAIN_ROOF_FACE_5",
+      "samples": 38769,
+      "missing_count": 0,
+      "missing": []
+    },
+    {
+      "face": "P06_MAIN_LANTERN_5",
+      "samples": 1402,
+      "missing_count": 0,
+      "missing": []
+    },
+    {
+      "face": "P06_MAIN_CAP_5",
+      "samples": 966,
+      "missing_count": 0,
+      "missing": []
+    },
+    {
+      "face": "P06_MAIN_ROOF_FACE_6",
+      "samples": 29964,
+      "missing_count": 0,
+      "missing": []
+    },
+    {
+      "face": "P06_MAIN_LANTERN_6",
+      "samples": 10553,
+      "missing_count": 0,
+      "missing": []
+    },
+    {
+      "face": "P06_MAIN_CAP_6",
+      "samples": 3344,
+      "missing_count": 0,
+      "missing": []
+    },
+    {
+      "face": "P06_MAIN_ROOF_FACE_7",
+      "samples": 38769,
+      "missing_count": 0,
+      "missing": []
+    },
+    {
+      "face": "P06_MAIN_LANTERN_7",
+      "samples": 2752,
+      "missing_count": 0,
+      "missing": []
+    },
+    {
+      "face": "P06_MAIN_CAP_7",
+      "samples": 966,
+      "missing_count": 0,
+      "missing": []
+    }
+  ],
+  "negative_control": {
+    "omitted_from_diagnostic_only": "P10_MAIN_ROOF_FACE_1_GLASS_02_05",
+    "baseline_hit": true,
+    "missing_detected": true,
+    "scene_changed": false
+  },
+  "total_samples": 330913,
+  "missing_count": 0,
+  "limits": [
+    "Only the main roof, lantern and cap reference domains are tested.",
+    "Local closure is not source silhouette acceptance or measurement certification.",
+    "No distant wall, shading layer or hidden reference sheet may mask a missing roof skin."
+  ]
+}

@@ -39,6 +39,10 @@ Yüzdeler yaklaşık iş kapsamı ilerlemesidir: her pakette beş eşit adım, t
 
 ## Kontrol sonuçları
 
+R89 üst galeri devam kontrolü: 9.558 çatı–duvar çevre örneğinde kaçış yok; 71 ışıklık kontrol doğrultusu açık. Dört yeni iç render kaynaklarla incelendi. [Renderlar ve sınırlar](reports/R89_YEREL_CATI_KONTROLU.md). Geometri sürümü ve yüzdeler değişmedi; eksik kaynaklı idari/teknik hacimler açık.
+
+R89 ek çatı kontrolü: 24 ana çatı/fener/tepe yüzeyinde 330.913 ve 228 yan çatı camının kenar bantlarında 256.816 geçerli yerel örnek incelendi; örtü kaybı bulunmadı. Saçak altındaki 25 aday, geçiş camının kot aralığının dışında; rastgele duvar eklenmedi. Sahne ve GLB değişmedi, ilerleme yüzdeleri artırılmadı. [Yerel çatı kontrolü ve sınırları](reports/R89_YEREL_CATI_KONTROLU.md).
+
 P07: 164 yeni mesh / 67 kapalı hacim kontrol edildi; sıfır alanlı yüz yok. Kapı geçişi üç yükseklikte açık. Üç kamera aktarımı 0,009 px altında. [P07 yeniden açma kontrolü](reports/P07_verification.json).
 
 P09: üç başlangıç basamağı, kot katmanları, yukarı/aşağı yönlerinin ayrılması ve paketli fotoğraflar yeni Blender sürecinde denetlendi. [P09 yeniden açma kontrolü](reports/P09_verification.json).
