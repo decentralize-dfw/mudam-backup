@@ -1,7 +1,7 @@
 {
-  "file": "12_Blender_Model/scenes/MUDAM_R87_KUCUK_BATI_GALERISI_KABUK_v003.blend",
+  "file": "12_Blender_Model/scenes/MUDAM_R89_ALT_KAT_DOSEME_BIRLESIMI_v001.blend",
   "grid_canonical_px": 2,
-  "total_samples": 97080,
+  "total_samples": 99632,
   "summaries": [
     {
       "region": "GH",
@@ -110,6 +110,38 @@
     {
       "region": "PETITE_WEST",
       "samples": 322,
+      "floor_missing": 0,
+      "cover_missing": 0,
+      "floor_below_expected": 0,
+      "side_escape_samples": 0
+    },
+    {
+      "region": "SERVICE_WC_E",
+      "samples": 714,
+      "floor_missing": 0,
+      "cover_missing": 0,
+      "floor_below_expected": 0,
+      "side_escape_samples": 0
+    },
+    {
+      "region": "SERVICE_WC_W",
+      "samples": 714,
+      "floor_missing": 0,
+      "cover_missing": 0,
+      "floor_below_expected": 0,
+      "side_escape_samples": 0
+    },
+    {
+      "region": "SERVICE_CLOAK",
+      "samples": 530,
+      "floor_missing": 0,
+      "cover_missing": 0,
+      "floor_below_expected": 0,
+      "side_escape_samples": 0
+    },
+    {
+      "region": "SERVICE_SHOP",
+      "samples": 594,
       "floor_missing": 0,
       "cover_missing": 0,
       "floor_below_expected": 0,
@@ -1017,6 +1049,102 @@
         [
           830.24,
           333.94
+        ]
+      ]
+    },
+    {
+      "id": "SERVICE_WC_E",
+      "level": "L00",
+      "z": 0,
+      "poly": [
+        [
+          470.9,
+          560.83
+        ],
+        [
+          555,
+          560.83
+        ],
+        [
+          555,
+          595.6
+        ],
+        [
+          470.9,
+          595.6
+        ]
+      ]
+    },
+    {
+      "id": "SERVICE_WC_W",
+      "level": "L00",
+      "z": 0,
+      "poly": [
+        [
+          594.28,
+          560.83
+        ],
+        [
+          680.44,
+          560.83
+        ],
+        [
+          680.44,
+          595.6
+        ],
+        [
+          594.28,
+          595.6
+        ]
+      ]
+    },
+    {
+      "id": "SERVICE_CLOAK",
+      "level": "L00",
+      "z": 0,
+      "poly": [
+        [
+          415.05,
+          619.27
+        ],
+        [
+          466.82,
+          619.27
+        ],
+        [
+          466.82,
+          672.35
+        ],
+        [
+          448.3,
+          672.35
+        ],
+        [
+          415.05,
+          639.1
+        ]
+      ]
+    },
+    {
+      "id": "SERVICE_SHOP",
+      "level": "L00",
+      "z": 0,
+      "poly": [
+        [
+          470.93,
+          657.78
+        ],
+        [
+          526.52,
+          657.78
+        ],
+        [
+          526.52,
+          703.22
+        ],
+        [
+          470.93,
+          703.22
         ]
       ]
     },

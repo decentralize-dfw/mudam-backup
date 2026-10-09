@@ -1,4 +1,4 @@
-# Birleşik bina kabuğu kontrolü — R88
+# Birleşik bina kabuğu kontrolü — R89
 
 Öncelik: bütün duvarlar, zeminler, üst örtüler ve bunların birleşimleri. Kapı/pencere ürün ayrıntılarına geçilmedi. Bir satırın tamamlanması, yalnız belirtilen kontrolün geçtiğini gösterir.
 
@@ -25,10 +25,17 @@
 
 ## Genel kabul için kalanlar
 
-- [ ] Dış cephe alt/üst kat çizgilerindeki ince bantların kesit ve fotoğrafa göre sınıflandırılması; boş birleşim varsa düzeltilmesi.
-- [ ] Diğer merdivenler ve dar kenarlarda bölge ızgarasının dışında kalan alanların kontrolü.
+- [x] R89: dış cephe kat birleşimindeki eksik duvar devamı 101 kesitiyle değerlendirildi; 37 duvar ve 296 önce/sonra ışınla düzeltildi.
+- [x] R89: diğer dört merdiven sistemi 590 konum ve 21.240 yanal ışınla kontrol edildi.
+- [x] R89: zemin WC, vestiyer ve dükkân 2.552 sık örnekte ayrıca kontrol edildi.
+- [ ] Diğer dar kenarlar, kaynak/kot uyumu ve kapsam dışı hacimler.
 - [ ] Planlarda görülen bütün mekânların kontrol kapsamına eşlenmesi; bilinmeyen teknik alanların ayrıca kaydı.
-- [ ] PDF2016 ile ziyaretçi planı arasındaki yerel farkların ve kat/çatı kotlarının ortak kaynak değerlendirmesi.
+- [ ] PDF 2016 ile ziyaretçi planı arasındaki yerel farkların ve kat/çatı kotlarının ortak kaynak değerlendirmesi.
 - [ ] Son duvar kalınlığı/çakışma ve çatı–duvar siluet kontrolü. Küçük batı hacminin kesin çatı eğimi açık.
 
 Kapalı mesh veya örnekleme testinin geçmesi gerçek binayla birebir ölçü uyumu anlamına gelmez. Sanat eserleri eklenmez. Kaynakta bulunmayan gizli katmanlar, taşıyıcılar ve teknik bölmeler uydurulmaz.
+
+
+İdari alanlar ve daha alt teknik katın kaynak/kapsam durumu: [Ek kapsam kontrolü](R89_EK_KAPSAM_KONTROLU.md). Bu alanlar doğrulanmış biçimde tamamlanmadan bütün bina tamamlandı denmez.
+
+R89 genişletilmiş son tarama:33 bölge,99.632 sık örnek ve 223752 çok kotlu ışın. Kayıt: `R89_enclosure_summary.json`.

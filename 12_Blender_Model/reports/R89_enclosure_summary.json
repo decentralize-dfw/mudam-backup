@@ -1,0 +1,273 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R89_ALT_KAT_DOSEME_BIRLESIMI_v001.blend",
+  "dense_samples": 99632,
+  "regions": [
+    {
+      "region": "GH",
+      "samples": 11334,
+      "floor_missing": 0,
+      "cover_missing": 0,
+      "floor_below_expected": 1256,
+      "side_escape_samples": 0
+    },
+    {
+      "region": "ENT",
+      "samples": 8340,
+      "floor_missing": 0,
+      "cover_missing": 0,
+      "floor_below_expected": 0,
+      "side_escape_samples": 0
+    },
+    {
+      "region": "EAST_GARDEN",
+      "samples": 4472,
+      "floor_missing": 0,
+      "cover_missing": 0,
+      "floor_below_expected": 0,
+      "side_escape_samples": 0
+    },
+    {
+      "region": "WEST_CAFE",
+      "samples": 5103,
+      "floor_missing": 0,
+      "cover_missing": 0,
+      "floor_below_expected": 0,
+      "side_escape_samples": 0
+    },
+    {
+      "region": "LINK",
+      "samples": 885,
+      "floor_missing": 0,
+      "cover_missing": 0,
+      "floor_below_expected": 0,
+      "side_escape_samples": 0
+    },
+    {
+      "region": "PAV",
+      "samples": 2920,
+      "floor_missing": 0,
+      "cover_missing": 0,
+      "floor_below_expected": 134,
+      "side_escape_samples": 0
+    },
+    {
+      "region": "GROUND_GALLERY_E",
+      "samples": 7120,
+      "floor_missing": 0,
+      "cover_missing": 0,
+      "floor_below_expected": 0,
+      "side_escape_samples": 0
+    },
+    {
+      "region": "GROUND_GALLERY_W",
+      "samples": 7095,
+      "floor_missing": 0,
+      "cover_missing": 0,
+      "floor_below_expected": 0,
+      "side_escape_samples": 0
+    },
+    {
+      "region": "UPPER_GALLERY_E",
+      "samples": 6984,
+      "floor_missing": 0,
+      "cover_missing": 0,
+      "floor_below_expected": 0,
+      "side_escape_samples": 0
+    },
+    {
+      "region": "UPPER_GALLERY_W",
+      "samples": 6891,
+      "floor_missing": 0,
+      "cover_missing": 0,
+      "floor_below_expected": 0,
+      "side_escape_samples": 0
+    },
+    {
+      "region": "LOWER_GALLERY_E",
+      "samples": 5442,
+      "floor_missing": 0,
+      "cover_missing": 0,
+      "floor_below_expected": 0,
+      "side_escape_samples": 0
+    },
+    {
+      "region": "LOWER_GALLERY_W",
+      "samples": 6367,
+      "floor_missing": 0,
+      "cover_missing": 0,
+      "floor_below_expected": 0,
+      "side_escape_samples": 0
+    },
+    {
+      "region": "LOWER_FOYER",
+      "samples": 6823,
+      "floor_missing": 0,
+      "cover_missing": 0,
+      "floor_below_expected": 0,
+      "side_escape_samples": 0
+    },
+    {
+      "region": "PETITE_WEST",
+      "samples": 322,
+      "floor_missing": 0,
+      "cover_missing": 0,
+      "floor_below_expected": 0,
+      "side_escape_samples": 0
+    },
+    {
+      "region": "SERVICE_WC_E",
+      "samples": 714,
+      "floor_missing": 0,
+      "cover_missing": 0,
+      "floor_below_expected": 0,
+      "side_escape_samples": 0
+    },
+    {
+      "region": "SERVICE_WC_W",
+      "samples": 714,
+      "floor_missing": 0,
+      "cover_missing": 0,
+      "floor_below_expected": 0,
+      "side_escape_samples": 0
+    },
+    {
+      "region": "SERVICE_CLOAK",
+      "samples": 530,
+      "floor_missing": 0,
+      "cover_missing": 0,
+      "floor_below_expected": 0,
+      "side_escape_samples": 0
+    },
+    {
+      "region": "SERVICE_SHOP",
+      "samples": 594,
+      "floor_missing": 0,
+      "cover_missing": 0,
+      "floor_below_expected": 0,
+      "side_escape_samples": 0
+    },
+    {
+      "region": "READING",
+      "samples": 1046,
+      "floor_missing": 0,
+      "cover_missing": 0,
+      "floor_below_expected": 128,
+      "side_escape_samples": 0
+    },
+    {
+      "region": "STUDIO",
+      "samples": 1242,
+      "floor_missing": 0,
+      "cover_missing": 0,
+      "floor_below_expected": 0,
+      "side_escape_samples": 0
+    },
+    {
+      "region": "UPPER_BRIDGE",
+      "samples": 2352,
+      "floor_missing": 0,
+      "cover_missing": 0,
+      "floor_below_expected": 32,
+      "side_escape_samples": 0
+    },
+    {
+      "region": "LIFT_LANDING",
+      "samples": 280,
+      "floor_missing": 0,
+      "cover_missing": 0,
+      "floor_below_expected": 0,
+      "side_escape_samples": 0
+    },
+    {
+      "region": "PAV_LOWER",
+      "samples": 2920,
+      "floor_missing": 0,
+      "cover_missing": 0,
+      "floor_below_expected": 0,
+      "side_escape_samples": 0
+    },
+    {
+      "region": "AUDITORIUM",
+      "samples": 3776,
+      "floor_missing": 0,
+      "cover_missing": 0,
+      "floor_below_expected": 2848,
+      "side_escape_samples": 0
+    },
+    {
+      "region": "WEST_ENTRY",
+      "samples": 195,
+      "floor_missing": 0,
+      "cover_missing": 0,
+      "floor_below_expected": 0,
+      "side_escape_samples": 0
+    },
+    {
+      "region": "WEST_TURN",
+      "samples": 72,
+      "floor_missing": 0,
+      "cover_missing": 0,
+      "floor_below_expected": 0,
+      "side_escape_samples": 0
+    },
+    {
+      "region": "WEST_UPPER_LANDING",
+      "samples": 138,
+      "floor_missing": 0,
+      "cover_missing": 0,
+      "floor_below_expected": 0,
+      "side_escape_samples": 0
+    },
+    {
+      "region": "PETITE_OUTER_L00",
+      "samples": 2079,
+      "floor_missing": 0,
+      "cover_missing": 0,
+      "floor_below_expected": 0,
+      "side_escape_samples": 0
+    },
+    {
+      "region": "PETITE_OUTER_LP1",
+      "samples": 2079,
+      "floor_missing": 0,
+      "cover_missing": 0,
+      "floor_below_expected": 0,
+      "side_escape_samples": 0
+    },
+    {
+      "region": "WEST_UPPER_RETURN_0",
+      "samples": 319,
+      "floor_missing": 0,
+      "cover_missing": 0,
+      "floor_below_expected": 0,
+      "side_escape_samples": 0
+    },
+    {
+      "region": "WEST_UPPER_RETURN_1",
+      "samples": 114,
+      "floor_missing": 0,
+      "cover_missing": 0,
+      "floor_below_expected": 0,
+      "side_escape_samples": 0
+    },
+    {
+      "region": "FOYER_SIDE_E",
+      "samples": 113,
+      "floor_missing": 0,
+      "cover_missing": 0,
+      "floor_below_expected": 0,
+      "side_escape_samples": 0
+    },
+    {
+      "region": "FOYER_SIDE_W",
+      "samples": 257,
+      "floor_missing": 0,
+      "cover_missing": 0,
+      "floor_below_expected": 0,
+      "side_escape_samples": 0
+    }
+  ],
+  "height_rays": 223752,
+  "height_findings": [],
+  "construction_acceptance": false
+}

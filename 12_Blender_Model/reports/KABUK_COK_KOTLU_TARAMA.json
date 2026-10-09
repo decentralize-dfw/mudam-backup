@@ -1,6 +1,6 @@
 {
-  "file": "12_Blender_Model/scenes/MUDAM_R87_KUCUK_BATI_GALERISI_KABUK_v003.blend",
-  "rays": 218136,
+  "file": "12_Blender_Model/scenes/MUDAM_R89_ALT_KAT_DOSEME_BIRLESIMI_v001.blend",
+  "rays": 223752,
   "summaries": [
     {
       "region": "GH",
@@ -70,6 +70,26 @@
     {
       "region": "PETITE_WEST",
       "rays": 648,
+      "escapes": 0
+    },
+    {
+      "region": "SERVICE_WC_E",
+      "rays": 1440,
+      "escapes": 0
+    },
+    {
+      "region": "SERVICE_WC_W",
+      "rays": 1584,
+      "escapes": 0
+    },
+    {
+      "region": "SERVICE_CLOAK",
+      "rays": 1080,
+      "escapes": 0
+    },
+    {
+      "region": "SERVICE_SHOP",
+      "rays": 1512,
       "escapes": 0
     },
     {

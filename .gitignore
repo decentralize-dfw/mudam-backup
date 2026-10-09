@@ -33,3 +33,6 @@ Desktop.ini
 12_Blender_Model/exports/*.glb.gz
 !12_Blender_Model/exports/current.glb.gz
 12_Blender_Model/exports/*.tmp
+
+# Local research downloads that are not accepted model sources
+12_Blender_Model/.local_source_cache/

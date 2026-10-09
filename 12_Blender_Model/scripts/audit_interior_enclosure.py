@@ -20,6 +20,7 @@ for n,p in L['rooms'].items():
  s,dx,dy=C['basement_registration']['source_to_canonical'];regions.append(dict(id='LOWER_GALLERY_'+n,level='LM1',z=Z['Z_LM1_FINISH'],poly=[[x*s+dx,y*s+dy] for x,y in p]))
 s,dx,dy=C['basement_registration']['source_to_canonical'];regions.append(dict(id='LOWER_FOYER',level='LM1',z=Z['Z_LM1_FINISH'],poly=[[x*s+dx,y*s+dy] for x,y in L['foyer_polygon']]))
 regions.append(dict(id='PETITE_WEST',level='LP1',z=Z['Z_LP1_FINISH'],poly=[[858.69,362.38],[881.93,339.14],[853.49,310.69],[830.24,333.94]]))
+for name,poly in json.loads((B/'config/ground_service_rooms.json').read_text())['ceiling_polygons'].items():regions.append(dict(id='SERVICE_'+name,level='L00',z=0,poly=poly))
 regions.append(dict(id='READING',level='LP1',z=Z['Z_LP1_FINISH'],poly=json.loads((B/'config/reading_room.json').read_text())['room_inner_polygon']))
 regions.append(dict(id='STUDIO',level='LP1',z=Z['Z_LP1_FINISH'],poly=json.loads((B/'config/upper_studio.json').read_text())['inner_polygon']))
 regions.append(dict(id='UPPER_BRIDGE',level='LP1',z=Z['Z_LP1_FINISH'],poly=[[465,555],[689,555],[689,598],[465,598]]))

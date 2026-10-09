@@ -1,0 +1,1678 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R89_ALT_KAT_DOSEME_BIRLESIMI_v001.blend",
+  "wall_checks": [
+    {
+      "name": "R29_E_BOUNDARY_00",
+      "checks": [
+        {
+          "angle": 0,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 45,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 90,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 135,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 180,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 225,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 270,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 315,
+          "before_closed": false,
+          "after_closed": true
+        }
+      ]
+    },
+    {
+      "name": "R29_E_BOUNDARY_02",
+      "checks": [
+        {
+          "angle": 0,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 45,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 90,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 135,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 180,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 225,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 270,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 315,
+          "before_closed": false,
+          "after_closed": true
+        }
+      ]
+    },
+    {
+      "name": "R29_E_BOUNDARY_03",
+      "checks": [
+        {
+          "angle": 0,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 45,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 90,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 135,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 180,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 225,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 270,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 315,
+          "before_closed": false,
+          "after_closed": true
+        }
+      ]
+    },
+    {
+      "name": "R29_W_BOUNDARY_00",
+      "checks": [
+        {
+          "angle": 0,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 45,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 90,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 135,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 180,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 225,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 270,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 315,
+          "before_closed": false,
+          "after_closed": true
+        }
+      ]
+    },
+    {
+      "name": "R29_W_BOUNDARY_01",
+      "checks": [
+        {
+          "angle": 0,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 45,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 90,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 135,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 180,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 225,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 270,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 315,
+          "before_closed": false,
+          "after_closed": true
+        }
+      ]
+    },
+    {
+      "name": "R29_W_BOUNDARY_02",
+      "checks": [
+        {
+          "angle": 0,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 45,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 90,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 135,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 180,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 225,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 270,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 315,
+          "before_closed": false,
+          "after_closed": true
+        }
+      ]
+    },
+    {
+      "name": "R29_W_BOUNDARY_03",
+      "checks": [
+        {
+          "angle": 0,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 45,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 90,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 135,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 180,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 225,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 270,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 315,
+          "before_closed": false,
+          "after_closed": true
+        }
+      ]
+    },
+    {
+      "name": "R29_W_BOUNDARY_04",
+      "checks": [
+        {
+          "angle": 0,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 45,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 90,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 135,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 180,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 225,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 270,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 315,
+          "before_closed": false,
+          "after_closed": true
+        }
+      ]
+    },
+    {
+      "name": "R29_W_BOUNDARY_05",
+      "checks": [
+        {
+          "angle": 0,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 45,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 90,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 135,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 180,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 225,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 270,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 315,
+          "before_closed": false,
+          "after_closed": true
+        }
+      ]
+    },
+    {
+      "name": "R29_W_BOUNDARY_06",
+      "checks": [
+        {
+          "angle": 0,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 45,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 90,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 135,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 180,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 225,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 270,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 315,
+          "before_closed": false,
+          "after_closed": true
+        }
+      ]
+    },
+    {
+      "name": "R29_W_BOUNDARY_07",
+      "checks": [
+        {
+          "angle": 0,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 45,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 90,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 135,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 180,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 225,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 270,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 315,
+          "before_closed": false,
+          "after_closed": true
+        }
+      ]
+    },
+    {
+      "name": "R29_W_BOUNDARY_08",
+      "checks": [
+        {
+          "angle": 0,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 45,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 90,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 135,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 180,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 225,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 270,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 315,
+          "before_closed": false,
+          "after_closed": true
+        }
+      ]
+    },
+    {
+      "name": "R29_W_BOUNDARY_09",
+      "checks": [
+        {
+          "angle": 0,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 45,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 90,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 135,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 180,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 225,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 270,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 315,
+          "before_closed": false,
+          "after_closed": true
+        }
+      ]
+    },
+    {
+      "name": "R29_W_BOUNDARY_10",
+      "checks": [
+        {
+          "angle": 0,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 45,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 90,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 135,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 180,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 225,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 270,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 315,
+          "before_closed": false,
+          "after_closed": true
+        }
+      ]
+    },
+    {
+      "name": "R29_W_BOUNDARY_11",
+      "checks": [
+        {
+          "angle": 0,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 45,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 90,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 135,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 180,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 225,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 270,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 315,
+          "before_closed": false,
+          "after_closed": true
+        }
+      ]
+    },
+    {
+      "name": "R29_W_BOUNDARY_12",
+      "checks": [
+        {
+          "angle": 0,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 45,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 90,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 135,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 180,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 225,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 270,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 315,
+          "before_closed": false,
+          "after_closed": true
+        }
+      ]
+    },
+    {
+      "name": "R29_W_BOUNDARY_13",
+      "checks": [
+        {
+          "angle": 0,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 45,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 90,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 135,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 180,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 225,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 270,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 315,
+          "before_closed": false,
+          "after_closed": true
+        }
+      ]
+    },
+    {
+      "name": "R29_W_BOUNDARY_14",
+      "checks": [
+        {
+          "angle": 0,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 45,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 90,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 135,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 180,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 225,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 270,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 315,
+          "before_closed": false,
+          "after_closed": true
+        }
+      ]
+    },
+    {
+      "name": "R29_W_BOUNDARY_15",
+      "checks": [
+        {
+          "angle": 0,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 45,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 90,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 135,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 180,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 225,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 270,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 315,
+          "before_closed": false,
+          "after_closed": true
+        }
+      ]
+    },
+    {
+      "name": "R29_W_BOUNDARY_16",
+      "checks": [
+        {
+          "angle": 0,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 45,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 90,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 135,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 180,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 225,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 270,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 315,
+          "before_closed": false,
+          "after_closed": true
+        }
+      ]
+    },
+    {
+      "name": "R29_W_BOUNDARY_17",
+      "checks": [
+        {
+          "angle": 0,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 45,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 90,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 135,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 180,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 225,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 270,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 315,
+          "before_closed": false,
+          "after_closed": true
+        }
+      ]
+    },
+    {
+      "name": "R29_W_BOUNDARY_18",
+      "checks": [
+        {
+          "angle": 0,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 45,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 90,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 135,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 180,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 225,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 270,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 315,
+          "before_closed": false,
+          "after_closed": true
+        }
+      ]
+    },
+    {
+      "name": "R29_W_BOUNDARY_19",
+      "checks": [
+        {
+          "angle": 0,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 45,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 90,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 135,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 180,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 225,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 270,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 315,
+          "before_closed": false,
+          "after_closed": true
+        }
+      ]
+    },
+    {
+      "name": "R29_W_BOUNDARY_20",
+      "checks": [
+        {
+          "angle": 0,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 45,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 90,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 135,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 180,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 225,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 270,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 315,
+          "before_closed": false,
+          "after_closed": true
+        }
+      ]
+    },
+    {
+      "name": "R29_W_BOUNDARY_21",
+      "checks": [
+        {
+          "angle": 0,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 45,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 90,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 135,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 180,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 225,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 270,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 315,
+          "before_closed": false,
+          "after_closed": true
+        }
+      ]
+    },
+    {
+      "name": "R29_W_BOUNDARY_22",
+      "checks": [
+        {
+          "angle": 0,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 45,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 90,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 135,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 180,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 225,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 270,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 315,
+          "before_closed": false,
+          "after_closed": true
+        }
+      ]
+    },
+    {
+      "name": "R29_W_BOUNDARY_23",
+      "checks": [
+        {
+          "angle": 0,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 45,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 90,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 135,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 180,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 225,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 270,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 315,
+          "before_closed": false,
+          "after_closed": true
+        }
+      ]
+    },
+    {
+      "name": "R29_W_BOUNDARY_24",
+      "checks": [
+        {
+          "angle": 0,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 45,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 90,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 135,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 180,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 225,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 270,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 315,
+          "before_closed": false,
+          "after_closed": true
+        }
+      ]
+    },
+    {
+      "name": "R29_W_BOUNDARY_25",
+      "checks": [
+        {
+          "angle": 0,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 45,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 90,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 135,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 180,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 225,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 270,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 315,
+          "before_closed": false,
+          "after_closed": true
+        }
+      ]
+    },
+    {
+      "name": "R29_W_BOUNDARY_26",
+      "checks": [
+        {
+          "angle": 0,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 45,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 90,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 135,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 180,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 225,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 270,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 315,
+          "before_closed": false,
+          "after_closed": true
+        }
+      ]
+    },
+    {
+      "name": "R29_W_BOUNDARY_27",
+      "checks": [
+        {
+          "angle": 0,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 45,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 90,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 135,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 180,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 225,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 270,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 315,
+          "before_closed": false,
+          "after_closed": true
+        }
+      ]
+    },
+    {
+      "name": "R29_W_BOUNDARY_28",
+      "checks": [
+        {
+          "angle": 0,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 45,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 90,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 135,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 180,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 225,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 270,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 315,
+          "before_closed": false,
+          "after_closed": true
+        }
+      ]
+    },
+    {
+      "name": "R29_W_BOUNDARY_29",
+      "checks": [
+        {
+          "angle": 0,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 45,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 90,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 135,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 180,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 225,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 270,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 315,
+          "before_closed": false,
+          "after_closed": true
+        }
+      ]
+    },
+    {
+      "name": "R29_W_BOUNDARY_30",
+      "checks": [
+        {
+          "angle": 0,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 45,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 90,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 135,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 180,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 225,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 270,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 315,
+          "before_closed": false,
+          "after_closed": true
+        }
+      ]
+    },
+    {
+      "name": "R29_W_BOUNDARY_31",
+      "checks": [
+        {
+          "angle": 0,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 45,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 90,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 135,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 180,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 225,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 270,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 315,
+          "before_closed": false,
+          "after_closed": true
+        }
+      ]
+    },
+    {
+      "name": "R29_W_BOUNDARY_32",
+      "checks": [
+        {
+          "angle": 0,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 45,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 90,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 135,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 180,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 225,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 270,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 315,
+          "before_closed": false,
+          "after_closed": true
+        }
+      ]
+    },
+    {
+      "name": "R29_W_BOUNDARY_33",
+      "checks": [
+        {
+          "angle": 0,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 45,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 90,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 135,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 180,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 225,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 270,
+          "before_closed": false,
+          "after_closed": true
+        },
+        {
+          "angle": 315,
+          "before_closed": false,
+          "after_closed": true
+        }
+      ]
+    }
+  ],
+  "failures": [],
+  "construction_acceptance": false,
+  "limits": [
+    "Section101 supports continuous perimeter wall/slab junction. Existing102/104 footprints and all below-ceiling geometry retained.",
+    "Conditional ground slab underside -0.2m is the join datum, not a surveyed detail.",
+    "Ceiling and clear height unchanged. No concealed plenum equipment or wall layers invented.",
+    "Source footprint mismatch between floors remains a separate plan registration issue."
+  ]
+}

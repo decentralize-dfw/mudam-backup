@@ -1066,5 +1066,22 @@
     "image": "R88_after_stair_inside.png",
     "description": "Merdiven basamaklarından bulunan sekiz cam kenarı kaçağı kapatıldı; 170 konum ve 12.240 yanal ışın taraması temiz.",
     "limits": "Yalnız panel kenar payı değişti. Merdiven ölçüsü, eğimi ve profil düzeni yeniden ölçülmüş sayılmaz."
+  },
+  {
+    "id": "R89",
+    "checks": [
+      "R89_verification.json",
+      "R89_inherited_verification.json",
+      "R89_global_audit.json"
+    ],
+    "tasks": [
+      "P07",
+      "P16"
+    ],
+    "report": "R89_KONTROL_RAPORU.md",
+    "title": "Alt galeri duvar–döşeme birleşimi / R89",
+    "image": "R89_overview_087.png",
+    "description": "Tavanda biten 37 çevre duvarı, zemin kat döşemesinin altına bağlandı. 296 önce/sonra ışın ve iki bina görünüşü kontrol edildi.",
+    "limits": "İç tavan kotu değişmedi; duvar/döşeme kesin kesiti ve kat planları arasındaki yerel farklar koşullu."
   }
 ]

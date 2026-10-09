@@ -1,7 +1,7 @@
 {
-  "file": "12_Blender_Model/scenes/MUDAM_R88_BATI_MERDIVEN_CAM_KENAR_v002.blend",
+  "file": "12_Blender_Model/scenes/MUDAM_R89_ALT_KAT_DOSEME_BIRLESIMI_v001.blend",
   "grid_canonical_px": 8,
-  "total_samples": 6060,
+  "total_samples": 6216,
   "summaries": [
     {
       "region": "GH",
@@ -110,6 +110,38 @@
     {
       "region": "PETITE_WEST",
       "samples": 18,
+      "floor_missing": 0,
+      "cover_missing": 0,
+      "floor_below_expected": 0,
+      "side_escape_samples": 0
+    },
+    {
+      "region": "SERVICE_WC_E",
+      "samples": 40,
+      "floor_missing": 0,
+      "cover_missing": 0,
+      "floor_below_expected": 0,
+      "side_escape_samples": 0
+    },
+    {
+      "region": "SERVICE_WC_W",
+      "samples": 44,
+      "floor_missing": 0,
+      "cover_missing": 0,
+      "floor_below_expected": 0,
+      "side_escape_samples": 0
+    },
+    {
+      "region": "SERVICE_CLOAK",
+      "samples": 30,
+      "floor_missing": 0,
+      "cover_missing": 0,
+      "floor_below_expected": 0,
+      "side_escape_samples": 0
+    },
+    {
+      "region": "SERVICE_SHOP",
+      "samples": 42,
       "floor_missing": 0,
       "cover_missing": 0,
       "floor_below_expected": 0,
@@ -93747,8 +93779,8 @@
       },
       "cover_hit": {
         "name": "R29_E_BOUNDARY_00",
-        "z": -0.6562933921813965,
-        "distance": 3.4700002670288086
+        "z": -0.20000004768371582,
+        "distance": 3.9262936115264893
       },
       "unclosed_side_directions": [],
       "floor_missing": false,
@@ -94115,8 +94147,8 @@
       },
       "cover_hit": {
         "name": "R29_E_BOUNDARY_00",
-        "z": -0.6562936305999756,
-        "distance": 3.4700000286102295
+        "z": -0.20000004768371582,
+        "distance": 3.9262936115264893
       },
       "unclosed_side_directions": [],
       "floor_missing": false,
@@ -94828,8 +94860,8 @@
       },
       "cover_hit": {
         "name": "R29_E_BOUNDARY_00",
-        "z": -0.6562933921813965,
-        "distance": 3.4700002670288086
+        "z": -0.19999980926513672,
+        "distance": 3.9262938499450684
       },
       "unclosed_side_directions": [],
       "floor_missing": false,
@@ -95196,8 +95228,8 @@
       },
       "cover_hit": {
         "name": "R29_E_BOUNDARY_00",
-        "z": -0.6562933921813965,
-        "distance": 3.4700002670288086
+        "z": -0.20000004768371582,
+        "distance": 3.9262936115264893
       },
       "unclosed_side_directions": [],
       "floor_missing": false,
@@ -95564,8 +95596,8 @@
       },
       "cover_hit": {
         "name": "R29_E_BOUNDARY_00",
-        "z": -0.6562931537628174,
-        "distance": 3.4700005054473877
+        "z": -0.19999957084655762,
+        "distance": 3.9262940883636475
       },
       "unclosed_side_directions": [],
       "floor_missing": false,
@@ -115484,6 +115516,3594 @@
         "name": "R87_OPAQUE_ROOF",
         "z": 13.72311782836914,
         "distance": 7.664042949676514
+      },
+      "unclosed_side_directions": [],
+      "floor_missing": false,
+      "cover_missing": false,
+      "floor_below_expected": false
+    },
+    {
+      "region": "SERVICE_WC_E",
+      "level": "L00",
+      "canonical": [
+        475,
+        565
+      ],
+      "floor_z": 0,
+      "floor_hit": {
+        "name": "P05_FLOOR_L00_ENT",
+        "z": -7.450580596923828e-09,
+        "distance": 0.05000000819563866
+      },
+      "cover_hit": {
+        "name": "R33_CEILING_WC_E",
+        "z": 4.349999904632568,
+        "distance": 3.1499998569488525
+      },
+      "unclosed_side_directions": [],
+      "floor_missing": false,
+      "cover_missing": false,
+      "floor_below_expected": false
+    },
+    {
+      "region": "SERVICE_WC_E",
+      "level": "L00",
+      "canonical": [
+        475,
+        573
+      ],
+      "floor_z": 0,
+      "floor_hit": {
+        "name": "P05_FLOOR_L00_ENT",
+        "z": 3.725290298461914e-09,
+        "distance": 0.04999999701976776
+      },
+      "cover_hit": {
+        "name": "R33_CEILING_WC_E",
+        "z": 4.350000381469727,
+        "distance": 3.1500000953674316
+      },
+      "unclosed_side_directions": [],
+      "floor_missing": false,
+      "cover_missing": false,
+      "floor_below_expected": false
+    },
+    {
+      "region": "SERVICE_WC_E",
+      "level": "L00",
+      "canonical": [
+        475,
+        581
+      ],
+      "floor_z": 0,
+      "floor_hit": {
+        "name": "P05_FLOOR_L00_ENT",
+        "z": 0.0,
+        "distance": 0.05000000074505806
+      },
+      "cover_hit": {
+        "name": "R33_CEILING_WC_E",
+        "z": 4.349999904632568,
+        "distance": 3.1499998569488525
+      },
+      "unclosed_side_directions": [],
+      "floor_missing": false,
+      "cover_missing": false,
+      "floor_below_expected": false
+    },
+    {
+      "region": "SERVICE_WC_E",
+      "level": "L00",
+      "canonical": [
+        475,
+        589
+      ],
+      "floor_z": 0,
+      "floor_hit": {
+        "name": "P05_FLOOR_L00_ENT",
+        "z": 0.0,
+        "distance": 0.05000000074505806
+      },
+      "cover_hit": {
+        "name": "R33_CEILING_WC_E",
+        "z": 4.349999904632568,
+        "distance": 3.1499998569488525
+      },
+      "unclosed_side_directions": [],
+      "floor_missing": false,
+      "cover_missing": false,
+      "floor_below_expected": false
+    },
+    {
+      "region": "SERVICE_WC_E",
+      "level": "L00",
+      "canonical": [
+        483,
+        565
+      ],
+      "floor_z": 0,
+      "floor_hit": {
+        "name": "P05_FLOOR_L00_ENT",
+        "z": 3.725290298461914e-09,
+        "distance": 0.04999999701976776
+      },
+      "cover_hit": {
+        "name": "R33_CEILING_WC_E",
+        "z": 4.349999904632568,
+        "distance": 3.1499998569488525
+      },
+      "unclosed_side_directions": [],
+      "floor_missing": false,
+      "cover_missing": false,
+      "floor_below_expected": false
+    },
+    {
+      "region": "SERVICE_WC_E",
+      "level": "L00",
+      "canonical": [
+        483,
+        573
+      ],
+      "floor_z": 0,
+      "floor_hit": {
+        "name": "P05_FLOOR_L00_ENT",
+        "z": 0.0,
+        "distance": 0.05000000074505806
+      },
+      "cover_hit": {
+        "name": "R33_CEILING_WC_E",
+        "z": 4.349999904632568,
+        "distance": 3.1499998569488525
+      },
+      "unclosed_side_directions": [],
+      "floor_missing": false,
+      "cover_missing": false,
+      "floor_below_expected": false
+    },
+    {
+      "region": "SERVICE_WC_E",
+      "level": "L00",
+      "canonical": [
+        483,
+        581
+      ],
+      "floor_z": 0,
+      "floor_hit": {
+        "name": "P05_FLOOR_L00_ENT",
+        "z": 0.0,
+        "distance": 0.05000000074505806
+      },
+      "cover_hit": {
+        "name": "R33_CEILING_WC_E",
+        "z": 4.349999904632568,
+        "distance": 3.1499998569488525
+      },
+      "unclosed_side_directions": [],
+      "floor_missing": false,
+      "cover_missing": false,
+      "floor_below_expected": false
+    },
+    {
+      "region": "SERVICE_WC_E",
+      "level": "L00",
+      "canonical": [
+        483,
+        589
+      ],
+      "floor_z": 0,
+      "floor_hit": {
+        "name": "P05_FLOOR_L00_ENT",
+        "z": -3.725290298461914e-09,
+        "distance": 0.05000000447034836
+      },
+      "cover_hit": {
+        "name": "R33_CEILING_WC_E",
+        "z": 4.349999904632568,
+        "distance": 3.1499998569488525
+      },
+      "unclosed_side_directions": [],
+      "floor_missing": false,
+      "cover_missing": false,
+      "floor_below_expected": false
+    },
+    {
+      "region": "SERVICE_WC_E",
+      "level": "L00",
+      "canonical": [
+        491,
+        565
+      ],
+      "floor_z": 0,
+      "floor_hit": {
+        "name": "P05_FLOOR_L00_ENT",
+        "z": -3.725290298461914e-09,
+        "distance": 0.05000000447034836
+      },
+      "cover_hit": {
+        "name": "R33_CEILING_WC_E",
+        "z": 4.350000381469727,
+        "distance": 3.1500000953674316
+      },
+      "unclosed_side_directions": [],
+      "floor_missing": false,
+      "cover_missing": false,
+      "floor_below_expected": false
+    },
+    {
+      "region": "SERVICE_WC_E",
+      "level": "L00",
+      "canonical": [
+        491,
+        573
+      ],
+      "floor_z": 0,
+      "floor_hit": {
+        "name": "P05_FLOOR_L00_ENT",
+        "z": 0.0,
+        "distance": 0.05000000074505806
+      },
+      "cover_hit": {
+        "name": "R33_CEILING_WC_E",
+        "z": 4.349999904632568,
+        "distance": 3.1499998569488525
+      },
+      "unclosed_side_directions": [],
+      "floor_missing": false,
+      "cover_missing": false,
+      "floor_below_expected": false
+    },
+    {
+      "region": "SERVICE_WC_E",
+      "level": "L00",
+      "canonical": [
+        491,
+        581
+      ],
+      "floor_z": 0,
+      "floor_hit": {
+        "name": "P05_FLOOR_L00_ENT",
+        "z": -3.725290298461914e-09,
+        "distance": 0.05000000447034836
+      },
+      "cover_hit": {
+        "name": "R33_CEILING_WC_E",
+        "z": 4.349999904632568,
+        "distance": 3.1499998569488525
+      },
+      "unclosed_side_directions": [],
+      "floor_missing": false,
+      "cover_missing": false,
+      "floor_below_expected": false
+    },
+    {
+      "region": "SERVICE_WC_E",
+      "level": "L00",
+      "canonical": [
+        491,
+        589
+      ],
+      "floor_z": 0,
+      "floor_hit": {
+        "name": "P05_FLOOR_L00_ENT",
+        "z": 3.725290298461914e-09,
+        "distance": 0.04999999701976776
+      },
+      "cover_hit": {
+        "name": "R33_CEILING_WC_E",
+        "z": 4.350000381469727,
+        "distance": 3.1500000953674316
+      },
+      "unclosed_side_directions": [],
+      "floor_missing": false,
+      "cover_missing": false,
+      "floor_below_expected": false
+    },
+    {
+      "region": "SERVICE_WC_E",
+      "level": "L00",
+      "canonical": [
+        499,
+        565
+      ],
+      "floor_z": 0,
+      "floor_hit": {
+        "name": "P05_FLOOR_L00_ENT",
+        "z": -3.725290298461914e-09,
+        "distance": 0.05000000447034836
+      },
+      "cover_hit": {
+        "name": "R33_CEILING_WC_E",
+        "z": 4.349999904632568,
+        "distance": 3.1499998569488525
+      },
+      "unclosed_side_directions": [],
+      "floor_missing": false,
+      "cover_missing": false,
+      "floor_below_expected": false
+    },
+    {
+      "region": "SERVICE_WC_E",
+      "level": "L00",
+      "canonical": [
+        499,
+        573
+      ],
+      "floor_z": 0,
+      "floor_hit": {
+        "name": "P05_FLOOR_L00_ENT",
+        "z": 0.0,
+        "distance": 0.05000000074505806
+      },
+      "cover_hit": {
+        "name": "R33_CEILING_WC_E",
+        "z": 4.349999904632568,
+        "distance": 3.1499998569488525
+      },
+      "unclosed_side_directions": [],
+      "floor_missing": false,
+      "cover_missing": false,
+      "floor_below_expected": false
+    },
+    {
+      "region": "SERVICE_WC_E",
+      "level": "L00",
+      "canonical": [
+        499,
+        581
+      ],
+      "floor_z": 0,
+      "floor_hit": {
+        "name": "P05_FLOOR_L00_ENT",
+        "z": 0.0,
+        "distance": 0.05000000074505806
+      },
+      "cover_hit": {
+        "name": "R33_CEILING_WC_E",
+        "z": 4.349999904632568,
+        "distance": 3.1499998569488525
+      },
+      "unclosed_side_directions": [],
+      "floor_missing": false,
+      "cover_missing": false,
+      "floor_below_expected": false
+    },
+    {
+      "region": "SERVICE_WC_E",
+      "level": "L00",
+      "canonical": [
+        499,
+        589
+      ],
+      "floor_z": 0,
+      "floor_hit": {
+        "name": "P05_FLOOR_L00_ENT",
+        "z": -3.725290298461914e-09,
+        "distance": 0.05000000447034836
+      },
+      "cover_hit": {
+        "name": "R33_CEILING_WC_E",
+        "z": 4.350000381469727,
+        "distance": 3.1500000953674316
+      },
+      "unclosed_side_directions": [],
+      "floor_missing": false,
+      "cover_missing": false,
+      "floor_below_expected": false
+    },
+    {
+      "region": "SERVICE_WC_E",
+      "level": "L00",
+      "canonical": [
+        507,
+        565
+      ],
+      "floor_z": 0,
+      "floor_hit": {
+        "name": "P05_FLOOR_L00_ENT",
+        "z": -3.725290298461914e-09,
+        "distance": 0.05000000447034836
+      },
+      "cover_hit": {
+        "name": "R33_CEILING_WC_E",
+        "z": 4.350000381469727,
+        "distance": 3.1500000953674316
+      },
+      "unclosed_side_directions": [],
+      "floor_missing": false,
+      "cover_missing": false,
+      "floor_below_expected": false
+    },
+    {
+      "region": "SERVICE_WC_E",
+      "level": "L00",
+      "canonical": [
+        507,
+        573
+      ],
+      "floor_z": 0,
+      "floor_hit": {
+        "name": "P05_FLOOR_L00_ENT",
+        "z": -3.725290298461914e-09,
+        "distance": 0.05000000447034836
+      },
+      "cover_hit": {
+        "name": "R33_CEILING_WC_E",
+        "z": 4.349999904632568,
+        "distance": 3.1499998569488525
+      },
+      "unclosed_side_directions": [],
+      "floor_missing": false,
+      "cover_missing": false,
+      "floor_below_expected": false
+    },
+    {
+      "region": "SERVICE_WC_E",
+      "level": "L00",
+      "canonical": [
+        507,
+        581
+      ],
+      "floor_z": 0,
+      "floor_hit": {
+        "name": "P05_FLOOR_L00_ENT",
+        "z": -3.725290298461914e-09,
+        "distance": 0.05000000447034836
+      },
+      "cover_hit": {
+        "name": "R33_CEILING_WC_E",
+        "z": 4.350000381469727,
+        "distance": 3.1500000953674316
+      },
+      "unclosed_side_directions": [],
+      "floor_missing": false,
+      "cover_missing": false,
+      "floor_below_expected": false
+    },
+    {
+      "region": "SERVICE_WC_E",
+      "level": "L00",
+      "canonical": [
+        507,
+        589
+      ],
+      "floor_z": 0,
+      "floor_hit": {
+        "name": "P05_FLOOR_L00_ENT",
+        "z": 7.450580596923828e-09,
+        "distance": 0.04999999329447746
+      },
+      "cover_hit": {
+        "name": "R33_CEILING_WC_E",
+        "z": 4.34999942779541,
+        "distance": 3.1499996185302734
+      },
+      "unclosed_side_directions": [],
+      "floor_missing": false,
+      "cover_missing": false,
+      "floor_below_expected": false
+    },
+    {
+      "region": "SERVICE_WC_E",
+      "level": "L00",
+      "canonical": [
+        515,
+        565
+      ],
+      "floor_z": 0,
+      "floor_hit": {
+        "name": "P05_FLOOR_L00_ENT",
+        "z": -3.725290298461914e-09,
+        "distance": 0.05000000447034836
+      },
+      "cover_hit": {
+        "name": "R33_CEILING_WC_E",
+        "z": 4.349999904632568,
+        "distance": 3.1499998569488525
+      },
+      "unclosed_side_directions": [],
+      "floor_missing": false,
+      "cover_missing": false,
+      "floor_below_expected": false
+    },
+    {
+      "region": "SERVICE_WC_E",
+      "level": "L00",
+      "canonical": [
+        515,
+        573
+      ],
+      "floor_z": 0,
+      "floor_hit": {
+        "name": "P05_FLOOR_L00_ENT",
+        "z": 0.0,
+        "distance": 0.05000000074505806
+      },
+      "cover_hit": {
+        "name": "R33_CEILING_WC_E",
+        "z": 4.349999904632568,
+        "distance": 3.1499998569488525
+      },
+      "unclosed_side_directions": [],
+      "floor_missing": false,
+      "cover_missing": false,
+      "floor_below_expected": false
+    },
+    {
+      "region": "SERVICE_WC_E",
+      "level": "L00",
+      "canonical": [
+        515,
+        581
+      ],
+      "floor_z": 0,
+      "floor_hit": {
+        "name": "P05_FLOOR_L00_ENT",
+        "z": 0.0,
+        "distance": 0.05000000074505806
+      },
+      "cover_hit": {
+        "name": "R33_CEILING_WC_E",
+        "z": 4.349999904632568,
+        "distance": 3.1499998569488525
+      },
+      "unclosed_side_directions": [],
+      "floor_missing": false,
+      "cover_missing": false,
+      "floor_below_expected": false
+    },
+    {
+      "region": "SERVICE_WC_E",
+      "level": "L00",
+      "canonical": [
+        515,
+        589
+      ],
+      "floor_z": 0,
+      "floor_hit": {
+        "name": "P05_FLOOR_L00_ENT",
+        "z": -3.725290298461914e-09,
+        "distance": 0.05000000447034836
+      },
+      "cover_hit": {
+        "name": "R33_CEILING_WC_E",
+        "z": 4.349999904632568,
+        "distance": 3.1499998569488525
+      },
+      "unclosed_side_directions": [],
+      "floor_missing": false,
+      "cover_missing": false,
+      "floor_below_expected": false
+    },
+    {
+      "region": "SERVICE_WC_E",
+      "level": "L00",
+      "canonical": [
+        523,
+        565
+      ],
+      "floor_z": 0,
+      "floor_hit": {
+        "name": "P05_FLOOR_L00_ENT",
+        "z": -3.725290298461914e-09,
+        "distance": 0.05000000447034836
+      },
+      "cover_hit": {
+        "name": "R33_CEILING_WC_E",
+        "z": 4.350000381469727,
+        "distance": 3.1500003337860107
+      },
+      "unclosed_side_directions": [],
+      "floor_missing": false,
+      "cover_missing": false,
+      "floor_below_expected": false
+    },
+    {
+      "region": "SERVICE_WC_E",
+      "level": "L00",
+      "canonical": [
+        523,
+        573
+      ],
+      "floor_z": 0,
+      "floor_hit": {
+        "name": "P05_FLOOR_L00_ENT",
+        "z": -3.725290298461914e-09,
+        "distance": 0.05000000447034836
+      },
+      "cover_hit": {
+        "name": "R33_CEILING_WC_E",
+        "z": 4.350000381469727,
+        "distance": 3.1500000953674316
+      },
+      "unclosed_side_directions": [],
+      "floor_missing": false,
+      "cover_missing": false,
+      "floor_below_expected": false
+    },
+    {
+      "region": "SERVICE_WC_E",
+      "level": "L00",
+      "canonical": [
+        523,
+        581
+      ],
+      "floor_z": 0,
+      "floor_hit": {
+        "name": "P05_FLOOR_L00_ENT",
+        "z": -3.725290298461914e-09,
+        "distance": 0.05000000447034836
+      },
+      "cover_hit": {
+        "name": "R33_CEILING_WC_E",
+        "z": 4.349999904632568,
+        "distance": 3.1499998569488525
+      },
+      "unclosed_side_directions": [],
+      "floor_missing": false,
+      "cover_missing": false,
+      "floor_below_expected": false
+    },
+    {
+      "region": "SERVICE_WC_E",
+      "level": "L00",
+      "canonical": [
+        523,
+        589
+      ],
+      "floor_z": 0,
+      "floor_hit": {
+        "name": "P05_FLOOR_L00_ENT",
+        "z": -3.725290298461914e-09,
+        "distance": 0.05000000447034836
+      },
+      "cover_hit": {
+        "name": "R33_CEILING_WC_E",
+        "z": 4.350000381469727,
+        "distance": 3.1500000953674316
+      },
+      "unclosed_side_directions": [],
+      "floor_missing": false,
+      "cover_missing": false,
+      "floor_below_expected": false
+    },
+    {
+      "region": "SERVICE_WC_E",
+      "level": "L00",
+      "canonical": [
+        531,
+        565
+      ],
+      "floor_z": 0,
+      "floor_hit": {
+        "name": "R45_STAIR_RECESS_CONTINUOUS",
+        "z": 0.0,
+        "distance": 0.05000000074505806
+      },
+      "cover_hit": {
+        "name": "R33_CEILING_WC_E",
+        "z": 4.349999904632568,
+        "distance": 3.1499998569488525
+      },
+      "unclosed_side_directions": [],
+      "floor_missing": false,
+      "cover_missing": false,
+      "floor_below_expected": false
+    },
+    {
+      "region": "SERVICE_WC_E",
+      "level": "L00",
+      "canonical": [
+        531,
+        573
+      ],
+      "floor_z": 0,
+      "floor_hit": {
+        "name": "P05_FLOOR_L00_ENT",
+        "z": -3.725290298461914e-09,
+        "distance": 0.05000000447034836
+      },
+      "cover_hit": {
+        "name": "R33_CEILING_WC_E",
+        "z": 4.349999904632568,
+        "distance": 3.1499998569488525
+      },
+      "unclosed_side_directions": [],
+      "floor_missing": false,
+      "cover_missing": false,
+      "floor_below_expected": false
+    },
+    {
+      "region": "SERVICE_WC_E",
+      "level": "L00",
+      "canonical": [
+        531,
+        581
+      ],
+      "floor_z": 0,
+      "floor_hit": {
+        "name": "P05_FLOOR_L00_ENT",
+        "z": -3.725290298461914e-09,
+        "distance": 0.05000000447034836
+      },
+      "cover_hit": {
+        "name": "R33_CEILING_WC_E",
+        "z": 4.349999904632568,
+        "distance": 3.1499998569488525
+      },
+      "unclosed_side_directions": [],
+      "floor_missing": false,
+      "cover_missing": false,
+      "floor_below_expected": false
+    },
+    {
+      "region": "SERVICE_WC_E",
+      "level": "L00",
+      "canonical": [
+        531,
+        589
+      ],
+      "floor_z": 0,
+      "floor_hit": {
+        "name": "P05_FLOOR_L00_ENT",
+        "z": -3.725290298461914e-09,
+        "distance": 0.05000000447034836
+      },
+      "cover_hit": {
+        "name": "R33_CEILING_WC_E",
+        "z": 4.350000381469727,
+        "distance": 3.1500000953674316
+      },
+      "unclosed_side_directions": [],
+      "floor_missing": false,
+      "cover_missing": false,
+      "floor_below_expected": false
+    },
+    {
+      "region": "SERVICE_WC_E",
+      "level": "L00",
+      "canonical": [
+        539,
+        565
+      ],
+      "floor_z": 0,
+      "floor_hit": {
+        "name": "P05_FLOOR_L00_ENT",
+        "z": -3.725290298461914e-09,
+        "distance": 0.05000000447034836
+      },
+      "cover_hit": {
+        "name": "R04_TREAD_ENVELOPE_28",
+        "z": 4.859074592590332,
+        "distance": 3.659074306488037
+      },
+      "unclosed_side_directions": [],
+      "floor_missing": false,
+      "cover_missing": false,
+      "floor_below_expected": false
+    },
+    {
+      "region": "SERVICE_WC_E",
+      "level": "L00",
+      "canonical": [
+        539,
+        573
+      ],
+      "floor_z": 0,
+      "floor_hit": {
+        "name": "P05_FLOOR_L00_ENT",
+        "z": -3.725290298461914e-09,
+        "distance": 0.05000000447034836
+      },
+      "cover_hit": {
+        "name": "R33_CEILING_WC_E",
+        "z": 4.349999904632568,
+        "distance": 3.1499998569488525
+      },
+      "unclosed_side_directions": [],
+      "floor_missing": false,
+      "cover_missing": false,
+      "floor_below_expected": false
+    },
+    {
+      "region": "SERVICE_WC_E",
+      "level": "L00",
+      "canonical": [
+        539,
+        581
+      ],
+      "floor_z": 0,
+      "floor_hit": {
+        "name": "P05_FLOOR_L00_ENT",
+        "z": 0.0,
+        "distance": 0.05000000074505806
+      },
+      "cover_hit": {
+        "name": "R33_CEILING_WC_E",
+        "z": 4.34999942779541,
+        "distance": 3.1499996185302734
+      },
+      "unclosed_side_directions": [],
+      "floor_missing": false,
+      "cover_missing": false,
+      "floor_below_expected": false
+    },
+    {
+      "region": "SERVICE_WC_E",
+      "level": "L00",
+      "canonical": [
+        539,
+        589
+      ],
+      "floor_z": 0,
+      "floor_hit": {
+        "name": "P05_FLOOR_L00_ENT",
+        "z": 3.725290298461914e-09,
+        "distance": 0.04999999701976776
+      },
+      "cover_hit": {
+        "name": "R33_CEILING_WC_E",
+        "z": 4.349999904632568,
+        "distance": 3.1499998569488525
+      },
+      "unclosed_side_directions": [],
+      "floor_missing": false,
+      "cover_missing": false,
+      "floor_below_expected": false
+    },
+    {
+      "region": "SERVICE_WC_E",
+      "level": "L00",
+      "canonical": [
+        547,
+        565
+      ],
+      "floor_z": 0,
+      "floor_hit": {
+        "name": "P05_FLOOR_L00_ENT",
+        "z": 0.0,
+        "distance": 0.05000000074505806
+      },
+      "cover_hit": {
+        "name": "R04_TREAD_ENVELOPE_28",
+        "z": 4.859074592590332,
+        "distance": 3.659074306488037
+      },
+      "unclosed_side_directions": [],
+      "floor_missing": false,
+      "cover_missing": false,
+      "floor_below_expected": false
+    },
+    {
+      "region": "SERVICE_WC_E",
+      "level": "L00",
+      "canonical": [
+        547,
+        573
+      ],
+      "floor_z": 0,
+      "floor_hit": {
+        "name": "P05_FLOOR_L00_ENT",
+        "z": -3.725290298461914e-09,
+        "distance": 0.05000000447034836
+      },
+      "cover_hit": {
+        "name": "R33_CEILING_WC_E",
+        "z": 4.349999904632568,
+        "distance": 3.1499998569488525
+      },
+      "unclosed_side_directions": [],
+      "floor_missing": false,
+      "cover_missing": false,
+      "floor_below_expected": false
+    },
+    {
+      "region": "SERVICE_WC_E",
+      "level": "L00",
+      "canonical": [
+        547,
+        581
+      ],
+      "floor_z": 0,
+      "floor_hit": {
+        "name": "P05_FLOOR_L00_ENT",
+        "z": -3.725290298461914e-09,
+        "distance": 0.05000000447034836
+      },
+      "cover_hit": {
+        "name": "R33_CEILING_WC_E",
+        "z": 4.349999904632568,
+        "distance": 3.1499998569488525
+      },
+      "unclosed_side_directions": [],
+      "floor_missing": false,
+      "cover_missing": false,
+      "floor_below_expected": false
+    },
+    {
+      "region": "SERVICE_WC_E",
+      "level": "L00",
+      "canonical": [
+        547,
+        589
+      ],
+      "floor_z": 0,
+      "floor_hit": {
+        "name": "P05_FLOOR_L00_ENT",
+        "z": -3.725290298461914e-09,
+        "distance": 0.05000000447034836
+      },
+      "cover_hit": {
+        "name": "R33_CEILING_WC_E",
+        "z": 4.349999904632568,
+        "distance": 3.1499998569488525
+      },
+      "unclosed_side_directions": [],
+      "floor_missing": false,
+      "cover_missing": false,
+      "floor_below_expected": false
+    },
+    {
+      "region": "SERVICE_WC_W",
+      "level": "L00",
+      "canonical": [
+        599,
+        565
+      ],
+      "floor_z": 0,
+      "floor_hit": {
+        "name": "P05_FLOOR_L00_ENT",
+        "z": -3.725290298461914e-09,
+        "distance": 0.05000000447034836
+      },
+      "cover_hit": {
+        "name": "R33_CEILING_WC_W",
+        "z": 4.349999904632568,
+        "distance": 3.1499998569488525
+      },
+      "unclosed_side_directions": [],
+      "floor_missing": false,
+      "cover_missing": false,
+      "floor_below_expected": false
+    },
+    {
+      "region": "SERVICE_WC_W",
+      "level": "L00",
+      "canonical": [
+        599,
+        573
+      ],
+      "floor_z": 0,
+      "floor_hit": {
+        "name": "P05_FLOOR_L00_ENT",
+        "z": -3.725290298461914e-09,
+        "distance": 0.05000000447034836
+      },
+      "cover_hit": {
+        "name": "R33_CEILING_WC_W",
+        "z": 4.349999904632568,
+        "distance": 3.1499998569488525
+      },
+      "unclosed_side_directions": [],
+      "floor_missing": false,
+      "cover_missing": false,
+      "floor_below_expected": false
+    },
+    {
+      "region": "SERVICE_WC_W",
+      "level": "L00",
+      "canonical": [
+        599,
+        581
+      ],
+      "floor_z": 0,
+      "floor_hit": {
+        "name": "P05_FLOOR_L00_ENT",
+        "z": -3.725290298461914e-09,
+        "distance": 0.05000000447034836
+      },
+      "cover_hit": {
+        "name": "R33_CEILING_WC_W",
+        "z": 4.350000381469727,
+        "distance": 3.1500000953674316
+      },
+      "unclosed_side_directions": [],
+      "floor_missing": false,
+      "cover_missing": false,
+      "floor_below_expected": false
+    },
+    {
+      "region": "SERVICE_WC_W",
+      "level": "L00",
+      "canonical": [
+        599,
+        589
+      ],
+      "floor_z": 0,
+      "floor_hit": {
+        "name": "P05_FLOOR_L00_ENT",
+        "z": -3.725290298461914e-09,
+        "distance": 0.05000000447034836
+      },
+      "cover_hit": {
+        "name": "R33_CEILING_WC_W",
+        "z": 4.350000381469727,
+        "distance": 3.1500000953674316
+      },
+      "unclosed_side_directions": [],
+      "floor_missing": false,
+      "cover_missing": false,
+      "floor_below_expected": false
+    },
+    {
+      "region": "SERVICE_WC_W",
+      "level": "L00",
+      "canonical": [
+        607,
+        565
+      ],
+      "floor_z": 0,
+      "floor_hit": {
+        "name": "P05_FLOOR_L00_ENT",
+        "z": -3.725290298461914e-09,
+        "distance": 0.05000000447034836
+      },
+      "cover_hit": {
+        "name": "R33_CEILING_WC_W",
+        "z": 4.349999904632568,
+        "distance": 3.1499998569488525
+      },
+      "unclosed_side_directions": [],
+      "floor_missing": false,
+      "cover_missing": false,
+      "floor_below_expected": false
+    },
+    {
+      "region": "SERVICE_WC_W",
+      "level": "L00",
+      "canonical": [
+        607,
+        573
+      ],
+      "floor_z": 0,
+      "floor_hit": {
+        "name": "P05_FLOOR_L00_ENT",
+        "z": -3.725290298461914e-09,
+        "distance": 0.05000000447034836
+      },
+      "cover_hit": {
+        "name": "R33_CEILING_WC_W",
+        "z": 4.349999904632568,
+        "distance": 3.1499998569488525
+      },
+      "unclosed_side_directions": [],
+      "floor_missing": false,
+      "cover_missing": false,
+      "floor_below_expected": false
+    },
+    {
+      "region": "SERVICE_WC_W",
+      "level": "L00",
+      "canonical": [
+        607,
+        581
+      ],
+      "floor_z": 0,
+      "floor_hit": {
+        "name": "P05_FLOOR_L00_ENT",
+        "z": -3.725290298461914e-09,
+        "distance": 0.05000000447034836
+      },
+      "cover_hit": {
+        "name": "R33_CEILING_WC_W",
+        "z": 4.349999904632568,
+        "distance": 3.1499998569488525
+      },
+      "unclosed_side_directions": [],
+      "floor_missing": false,
+      "cover_missing": false,
+      "floor_below_expected": false
+    },
+    {
+      "region": "SERVICE_WC_W",
+      "level": "L00",
+      "canonical": [
+        607,
+        589
+      ],
+      "floor_z": 0,
+      "floor_hit": {
+        "name": "P05_FLOOR_L00_ENT",
+        "z": -3.725290298461914e-09,
+        "distance": 0.05000000447034836
+      },
+      "cover_hit": {
+        "name": "R33_CEILING_WC_W",
+        "z": 4.349999904632568,
+        "distance": 3.1499998569488525
+      },
+      "unclosed_side_directions": [],
+      "floor_missing": false,
+      "cover_missing": false,
+      "floor_below_expected": false
+    },
+    {
+      "region": "SERVICE_WC_W",
+      "level": "L00",
+      "canonical": [
+        615,
+        565
+      ],
+      "floor_z": 0,
+      "floor_hit": {
+        "name": "P05_FLOOR_L00_ENT",
+        "z": -3.725290298461914e-09,
+        "distance": 0.05000000447034836
+      },
+      "cover_hit": {
+        "name": "R33_CEILING_WC_W",
+        "z": 4.349999904632568,
+        "distance": 3.1499998569488525
+      },
+      "unclosed_side_directions": [],
+      "floor_missing": false,
+      "cover_missing": false,
+      "floor_below_expected": false
+    },
+    {
+      "region": "SERVICE_WC_W",
+      "level": "L00",
+      "canonical": [
+        615,
+        573
+      ],
+      "floor_z": 0,
+      "floor_hit": {
+        "name": "P05_FLOOR_L00_ENT",
+        "z": -3.725290298461914e-09,
+        "distance": 0.05000000447034836
+      },
+      "cover_hit": {
+        "name": "R33_CEILING_WC_W",
+        "z": 4.350000381469727,
+        "distance": 3.1500000953674316
+      },
+      "unclosed_side_directions": [],
+      "floor_missing": false,
+      "cover_missing": false,
+      "floor_below_expected": false
+    },
+    {
+      "region": "SERVICE_WC_W",
+      "level": "L00",
+      "canonical": [
+        615,
+        581
+      ],
+      "floor_z": 0,
+      "floor_hit": {
+        "name": "P05_FLOOR_L00_ENT",
+        "z": 0.0,
+        "distance": 0.05000000074505806
+      },
+      "cover_hit": {
+        "name": "R33_CEILING_WC_W",
+        "z": 4.350000381469727,
+        "distance": 3.1500000953674316
+      },
+      "unclosed_side_directions": [],
+      "floor_missing": false,
+      "cover_missing": false,
+      "floor_below_expected": false
+    },
+    {
+      "region": "SERVICE_WC_W",
+      "level": "L00",
+      "canonical": [
+        615,
+        589
+      ],
+      "floor_z": 0,
+      "floor_hit": {
+        "name": "P05_FLOOR_L00_ENT",
+        "z": -3.725290298461914e-09,
+        "distance": 0.05000000447034836
+      },
+      "cover_hit": {
+        "name": "R33_CEILING_WC_W",
+        "z": 4.350000381469727,
+        "distance": 3.1500000953674316
+      },
+      "unclosed_side_directions": [],
+      "floor_missing": false,
+      "cover_missing": false,
+      "floor_below_expected": false
+    },
+    {
+      "region": "SERVICE_WC_W",
+      "level": "L00",
+      "canonical": [
+        623,
+        565
+      ],
+      "floor_z": 0,
+      "floor_hit": {
+        "name": "P05_FLOOR_L00_ENT",
+        "z": -3.725290298461914e-09,
+        "distance": 0.05000000447034836
+      },
+      "cover_hit": {
+        "name": "R33_CEILING_WC_W",
+        "z": 4.34999942779541,
+        "distance": 3.1499993801116943
+      },
+      "unclosed_side_directions": [],
+      "floor_missing": false,
+      "cover_missing": false,
+      "floor_below_expected": false
+    },
+    {
+      "region": "SERVICE_WC_W",
+      "level": "L00",
+      "canonical": [
+        623,
+        573
+      ],
+      "floor_z": 0,
+      "floor_hit": {
+        "name": "P05_FLOOR_L00_ENT",
+        "z": -3.725290298461914e-09,
+        "distance": 0.05000000447034836
+      },
+      "cover_hit": {
+        "name": "R33_CEILING_WC_W",
+        "z": 4.350000381469727,
+        "distance": 3.1500000953674316
+      },
+      "unclosed_side_directions": [],
+      "floor_missing": false,
+      "cover_missing": false,
+      "floor_below_expected": false
+    },
+    {
+      "region": "SERVICE_WC_W",
+      "level": "L00",
+      "canonical": [
+        623,
+        581
+      ],
+      "floor_z": 0,
+      "floor_hit": {
+        "name": "P05_FLOOR_L00_ENT",
+        "z": -3.725290298461914e-09,
+        "distance": 0.05000000447034836
+      },
+      "cover_hit": {
+        "name": "R33_CEILING_WC_W",
+        "z": 4.349999904632568,
+        "distance": 3.1499998569488525
+      },
+      "unclosed_side_directions": [],
+      "floor_missing": false,
+      "cover_missing": false,
+      "floor_below_expected": false
+    },
+    {
+      "region": "SERVICE_WC_W",
+      "level": "L00",
+      "canonical": [
+        623,
+        589
+      ],
+      "floor_z": 0,
+      "floor_hit": {
+        "name": "P05_FLOOR_L00_ENT",
+        "z": -3.725290298461914e-09,
+        "distance": 0.05000000447034836
+      },
+      "cover_hit": {
+        "name": "R33_CEILING_WC_W",
+        "z": 4.349999904632568,
+        "distance": 3.1499998569488525
+      },
+      "unclosed_side_directions": [],
+      "floor_missing": false,
+      "cover_missing": false,
+      "floor_below_expected": false
+    },
+    {
+      "region": "SERVICE_WC_W",
+      "level": "L00",
+      "canonical": [
+        631,
+        565
+      ],
+      "floor_z": 0,
+      "floor_hit": {
+        "name": "P05_FLOOR_L00_ENT",
+        "z": 0.0,
+        "distance": 0.05000000074505806
+      },
+      "cover_hit": {
+        "name": "R33_CEILING_WC_W",
+        "z": 4.349999904632568,
+        "distance": 3.1499998569488525
+      },
+      "unclosed_side_directions": [],
+      "floor_missing": false,
+      "cover_missing": false,
+      "floor_below_expected": false
+    },
+    {
+      "region": "SERVICE_WC_W",
+      "level": "L00",
+      "canonical": [
+        631,
+        573
+      ],
+      "floor_z": 0,
+      "floor_hit": {
+        "name": "P05_FLOOR_L00_ENT",
+        "z": -3.725290298461914e-09,
+        "distance": 0.05000000447034836
+      },
+      "cover_hit": {
+        "name": "R33_CEILING_WC_W",
+        "z": 4.349999904632568,
+        "distance": 3.1499998569488525
+      },
+      "unclosed_side_directions": [],
+      "floor_missing": false,
+      "cover_missing": false,
+      "floor_below_expected": false
+    },
+    {
+      "region": "SERVICE_WC_W",
+      "level": "L00",
+      "canonical": [
+        631,
+        581
+      ],
+      "floor_z": 0,
+      "floor_hit": {
+        "name": "P05_FLOOR_L00_ENT",
+        "z": 0.0,
+        "distance": 0.05000000074505806
+      },
+      "cover_hit": {
+        "name": "R33_CEILING_WC_W",
+        "z": 4.350000381469727,
+        "distance": 3.1500000953674316
+      },
+      "unclosed_side_directions": [],
+      "floor_missing": false,
+      "cover_missing": false,
+      "floor_below_expected": false
+    },
+    {
+      "region": "SERVICE_WC_W",
+      "level": "L00",
+      "canonical": [
+        631,
+        589
+      ],
+      "floor_z": 0,
+      "floor_hit": {
+        "name": "P05_FLOOR_L00_ENT",
+        "z": -3.725290298461914e-09,
+        "distance": 0.05000000447034836
+      },
+      "cover_hit": {
+        "name": "R33_CEILING_WC_W",
+        "z": 4.350000381469727,
+        "distance": 3.1500000953674316
+      },
+      "unclosed_side_directions": [],
+      "floor_missing": false,
+      "cover_missing": false,
+      "floor_below_expected": false
+    },
+    {
+      "region": "SERVICE_WC_W",
+      "level": "L00",
+      "canonical": [
+        639,
+        565
+      ],
+      "floor_z": 0,
+      "floor_hit": {
+        "name": "P05_FLOOR_L00_ENT",
+        "z": -3.725290298461914e-09,
+        "distance": 0.05000000447034836
+      },
+      "cover_hit": {
+        "name": "R33_CEILING_WC_W",
+        "z": 4.34999942779541,
+        "distance": 3.1499993801116943
+      },
+      "unclosed_side_directions": [],
+      "floor_missing": false,
+      "cover_missing": false,
+      "floor_below_expected": false
+    },
+    {
+      "region": "SERVICE_WC_W",
+      "level": "L00",
+      "canonical": [
+        639,
+        573
+      ],
+      "floor_z": 0,
+      "floor_hit": {
+        "name": "P05_FLOOR_L00_ENT",
+        "z": -3.725290298461914e-09,
+        "distance": 0.05000000447034836
+      },
+      "cover_hit": {
+        "name": "R33_CEILING_WC_W",
+        "z": 4.349999904632568,
+        "distance": 3.1499998569488525
+      },
+      "unclosed_side_directions": [],
+      "floor_missing": false,
+      "cover_missing": false,
+      "floor_below_expected": false
+    },
+    {
+      "region": "SERVICE_WC_W",
+      "level": "L00",
+      "canonical": [
+        639,
+        581
+      ],
+      "floor_z": 0,
+      "floor_hit": {
+        "name": "P05_FLOOR_L00_ENT",
+        "z": -3.725290298461914e-09,
+        "distance": 0.05000000447034836
+      },
+      "cover_hit": {
+        "name": "R33_CEILING_WC_W",
+        "z": 4.349999904632568,
+        "distance": 3.1499998569488525
+      },
+      "unclosed_side_directions": [],
+      "floor_missing": false,
+      "cover_missing": false,
+      "floor_below_expected": false
+    },
+    {
+      "region": "SERVICE_WC_W",
+      "level": "L00",
+      "canonical": [
+        639,
+        589
+      ],
+      "floor_z": 0,
+      "floor_hit": {
+        "name": "P05_FLOOR_L00_ENT",
+        "z": -3.725290298461914e-09,
+        "distance": 0.05000000447034836
+      },
+      "cover_hit": {
+        "name": "R33_CEILING_WC_W",
+        "z": 4.349999904632568,
+        "distance": 3.1499998569488525
+      },
+      "unclosed_side_directions": [],
+      "floor_missing": false,
+      "cover_missing": false,
+      "floor_below_expected": false
+    },
+    {
+      "region": "SERVICE_WC_W",
+      "level": "L00",
+      "canonical": [
+        647,
+        565
+      ],
+      "floor_z": 0,
+      "floor_hit": {
+        "name": "P05_FLOOR_L00_ENT",
+        "z": 0.0,
+        "distance": 0.05000000074505806
+      },
+      "cover_hit": {
+        "name": "R33_CEILING_WC_W",
+        "z": 4.349999904632568,
+        "distance": 3.1499998569488525
+      },
+      "unclosed_side_directions": [],
+      "floor_missing": false,
+      "cover_missing": false,
+      "floor_below_expected": false
+    },
+    {
+      "region": "SERVICE_WC_W",
+      "level": "L00",
+      "canonical": [
+        647,
+        573
+      ],
+      "floor_z": 0,
+      "floor_hit": {
+        "name": "P05_FLOOR_L00_ENT",
+        "z": -3.725290298461914e-09,
+        "distance": 0.05000000447034836
+      },
+      "cover_hit": {
+        "name": "R33_CEILING_WC_W",
+        "z": 4.349999904632568,
+        "distance": 3.1499998569488525
+      },
+      "unclosed_side_directions": [],
+      "floor_missing": false,
+      "cover_missing": false,
+      "floor_below_expected": false
+    },
+    {
+      "region": "SERVICE_WC_W",
+      "level": "L00",
+      "canonical": [
+        647,
+        581
+      ],
+      "floor_z": 0,
+      "floor_hit": {
+        "name": "P05_FLOOR_L00_ENT",
+        "z": -3.725290298461914e-09,
+        "distance": 0.05000000447034836
+      },
+      "cover_hit": {
+        "name": "R33_CEILING_WC_W",
+        "z": 4.349999904632568,
+        "distance": 3.1499998569488525
+      },
+      "unclosed_side_directions": [],
+      "floor_missing": false,
+      "cover_missing": false,
+      "floor_below_expected": false
+    },
+    {
+      "region": "SERVICE_WC_W",
+      "level": "L00",
+      "canonical": [
+        647,
+        589
+      ],
+      "floor_z": 0,
+      "floor_hit": {
+        "name": "P05_FLOOR_L00_ENT",
+        "z": -3.725290298461914e-09,
+        "distance": 0.05000000447034836
+      },
+      "cover_hit": {
+        "name": "R33_CEILING_WC_W",
+        "z": 4.350000381469727,
+        "distance": 3.1500000953674316
+      },
+      "unclosed_side_directions": [],
+      "floor_missing": false,
+      "cover_missing": false,
+      "floor_below_expected": false
+    },
+    {
+      "region": "SERVICE_WC_W",
+      "level": "L00",
+      "canonical": [
+        655,
+        565
+      ],
+      "floor_z": 0,
+      "floor_hit": {
+        "name": "P05_FLOOR_L00_ENT",
+        "z": -3.725290298461914e-09,
+        "distance": 0.05000000447034836
+      },
+      "cover_hit": {
+        "name": "R33_CEILING_WC_W",
+        "z": 4.349999904632568,
+        "distance": 3.1499998569488525
+      },
+      "unclosed_side_directions": [],
+      "floor_missing": false,
+      "cover_missing": false,
+      "floor_below_expected": false
+    },
+    {
+      "region": "SERVICE_WC_W",
+      "level": "L00",
+      "canonical": [
+        655,
+        573
+      ],
+      "floor_z": 0,
+      "floor_hit": {
+        "name": "P05_FLOOR_L00_ENT",
+        "z": -3.725290298461914e-09,
+        "distance": 0.05000000447034836
+      },
+      "cover_hit": {
+        "name": "R33_CEILING_WC_W",
+        "z": 4.349999904632568,
+        "distance": 3.1499998569488525
+      },
+      "unclosed_side_directions": [],
+      "floor_missing": false,
+      "cover_missing": false,
+      "floor_below_expected": false
+    },
+    {
+      "region": "SERVICE_WC_W",
+      "level": "L00",
+      "canonical": [
+        655,
+        581
+      ],
+      "floor_z": 0,
+      "floor_hit": {
+        "name": "P05_FLOOR_L00_ENT",
+        "z": -3.725290298461914e-09,
+        "distance": 0.05000000447034836
+      },
+      "cover_hit": {
+        "name": "R33_CEILING_WC_W",
+        "z": 4.350000381469727,
+        "distance": 3.1500003337860107
+      },
+      "unclosed_side_directions": [],
+      "floor_missing": false,
+      "cover_missing": false,
+      "floor_below_expected": false
+    },
+    {
+      "region": "SERVICE_WC_W",
+      "level": "L00",
+      "canonical": [
+        655,
+        589
+      ],
+      "floor_z": 0,
+      "floor_hit": {
+        "name": "P05_FLOOR_L00_ENT",
+        "z": -3.725290298461914e-09,
+        "distance": 0.05000000447034836
+      },
+      "cover_hit": {
+        "name": "R33_CEILING_WC_W",
+        "z": 4.349999904632568,
+        "distance": 3.1499998569488525
+      },
+      "unclosed_side_directions": [],
+      "floor_missing": false,
+      "cover_missing": false,
+      "floor_below_expected": false
+    },
+    {
+      "region": "SERVICE_WC_W",
+      "level": "L00",
+      "canonical": [
+        663,
+        565
+      ],
+      "floor_z": 0,
+      "floor_hit": {
+        "name": "P05_FLOOR_L00_ENT",
+        "z": 3.725290298461914e-09,
+        "distance": 0.04999999701976776
+      },
+      "cover_hit": {
+        "name": "R33_CEILING_WC_W",
+        "z": 4.349999904632568,
+        "distance": 3.1499998569488525
+      },
+      "unclosed_side_directions": [],
+      "floor_missing": false,
+      "cover_missing": false,
+      "floor_below_expected": false
+    },
+    {
+      "region": "SERVICE_WC_W",
+      "level": "L00",
+      "canonical": [
+        663,
+        573
+      ],
+      "floor_z": 0,
+      "floor_hit": {
+        "name": "P05_FLOOR_L00_ENT",
+        "z": -3.725290298461914e-09,
+        "distance": 0.05000000447034836
+      },
+      "cover_hit": {
+        "name": "R33_CEILING_WC_W",
+        "z": 4.349999904632568,
+        "distance": 3.1499998569488525
+      },
+      "unclosed_side_directions": [],
+      "floor_missing": false,
+      "cover_missing": false,
+      "floor_below_expected": false
+    },
+    {
+      "region": "SERVICE_WC_W",
+      "level": "L00",
+      "canonical": [
+        663,
+        581
+      ],
+      "floor_z": 0,
+      "floor_hit": {
+        "name": "P05_FLOOR_L00_ENT",
+        "z": -3.725290298461914e-09,
+        "distance": 0.05000000447034836
+      },
+      "cover_hit": {
+        "name": "R33_CEILING_WC_W",
+        "z": 4.349999904632568,
+        "distance": 3.1499998569488525
+      },
+      "unclosed_side_directions": [],
+      "floor_missing": false,
+      "cover_missing": false,
+      "floor_below_expected": false
+    },
+    {
+      "region": "SERVICE_WC_W",
+      "level": "L00",
+      "canonical": [
+        663,
+        589
+      ],
+      "floor_z": 0,
+      "floor_hit": {
+        "name": "P05_FLOOR_L00_ENT",
+        "z": 0.0,
+        "distance": 0.05000000074505806
+      },
+      "cover_hit": {
+        "name": "R33_CEILING_WC_W",
+        "z": 4.349999904632568,
+        "distance": 3.1499998569488525
+      },
+      "unclosed_side_directions": [],
+      "floor_missing": false,
+      "cover_missing": false,
+      "floor_below_expected": false
+    },
+    {
+      "region": "SERVICE_WC_W",
+      "level": "L00",
+      "canonical": [
+        671,
+        565
+      ],
+      "floor_z": 0,
+      "floor_hit": {
+        "name": "P05_FLOOR_L00_ENT",
+        "z": 0.0,
+        "distance": 0.05000000074505806
+      },
+      "cover_hit": {
+        "name": "R33_CEILING_WC_W",
+        "z": 4.34999942779541,
+        "distance": 3.1499996185302734
+      },
+      "unclosed_side_directions": [],
+      "floor_missing": false,
+      "cover_missing": false,
+      "floor_below_expected": false
+    },
+    {
+      "region": "SERVICE_WC_W",
+      "level": "L00",
+      "canonical": [
+        671,
+        573
+      ],
+      "floor_z": 0,
+      "floor_hit": {
+        "name": "P05_FLOOR_L00_ENT",
+        "z": -3.725290298461914e-09,
+        "distance": 0.05000000447034836
+      },
+      "cover_hit": {
+        "name": "R33_CEILING_WC_W",
+        "z": 4.349999904632568,
+        "distance": 3.1499998569488525
+      },
+      "unclosed_side_directions": [],
+      "floor_missing": false,
+      "cover_missing": false,
+      "floor_below_expected": false
+    },
+    {
+      "region": "SERVICE_WC_W",
+      "level": "L00",
+      "canonical": [
+        671,
+        581
+      ],
+      "floor_z": 0,
+      "floor_hit": {
+        "name": "P05_FLOOR_L00_ENT",
+        "z": -3.725290298461914e-09,
+        "distance": 0.05000000447034836
+      },
+      "cover_hit": {
+        "name": "R33_CEILING_WC_W",
+        "z": 4.349999904632568,
+        "distance": 3.1499998569488525
+      },
+      "unclosed_side_directions": [],
+      "floor_missing": false,
+      "cover_missing": false,
+      "floor_below_expected": false
+    },
+    {
+      "region": "SERVICE_WC_W",
+      "level": "L00",
+      "canonical": [
+        671,
+        589
+      ],
+      "floor_z": 0,
+      "floor_hit": {
+        "name": "P05_FLOOR_L00_ENT",
+        "z": -3.725290298461914e-09,
+        "distance": 0.05000000447034836
+      },
+      "cover_hit": {
+        "name": "R33_CEILING_WC_W",
+        "z": 4.34999942779541,
+        "distance": 3.1499996185302734
+      },
+      "unclosed_side_directions": [],
+      "floor_missing": false,
+      "cover_missing": false,
+      "floor_below_expected": false
+    },
+    {
+      "region": "SERVICE_WC_W",
+      "level": "L00",
+      "canonical": [
+        679,
+        565
+      ],
+      "floor_z": 0,
+      "floor_hit": {
+        "name": "P05_FLOOR_L00_ENT",
+        "z": 0.0,
+        "distance": 0.05000000074505806
+      },
+      "cover_hit": {
+        "name": "R33_CEILING_WC_W",
+        "z": 4.34999942779541,
+        "distance": 3.1499996185302734
+      },
+      "unclosed_side_directions": [],
+      "floor_missing": false,
+      "cover_missing": false,
+      "floor_below_expected": false
+    },
+    {
+      "region": "SERVICE_WC_W",
+      "level": "L00",
+      "canonical": [
+        679,
+        573
+      ],
+      "floor_z": 0,
+      "floor_hit": {
+        "name": "P05_FLOOR_L00_ENT",
+        "z": -3.725290298461914e-09,
+        "distance": 0.05000000447034836
+      },
+      "cover_hit": {
+        "name": "R33_CEILING_WC_W",
+        "z": 4.349999904632568,
+        "distance": 3.1499998569488525
+      },
+      "unclosed_side_directions": [],
+      "floor_missing": false,
+      "cover_missing": false,
+      "floor_below_expected": false
+    },
+    {
+      "region": "SERVICE_WC_W",
+      "level": "L00",
+      "canonical": [
+        679,
+        581
+      ],
+      "floor_z": 0,
+      "floor_hit": {
+        "name": "P05_FLOOR_L00_ENT",
+        "z": -7.450580596923828e-09,
+        "distance": 0.05000000819563866
+      },
+      "cover_hit": {
+        "name": "R33_CEILING_WC_W",
+        "z": 4.349999904632568,
+        "distance": 3.1499998569488525
+      },
+      "unclosed_side_directions": [],
+      "floor_missing": false,
+      "cover_missing": false,
+      "floor_below_expected": false
+    },
+    {
+      "region": "SERVICE_WC_W",
+      "level": "L00",
+      "canonical": [
+        679,
+        589
+      ],
+      "floor_z": 0,
+      "floor_hit": {
+        "name": "P05_FLOOR_L00_ENT",
+        "z": 0.0,
+        "distance": 0.05000000074505806
+      },
+      "cover_hit": {
+        "name": "R33_CEILING_WC_W",
+        "z": 4.350000381469727,
+        "distance": 3.1500003337860107
+      },
+      "unclosed_side_directions": [],
+      "floor_missing": false,
+      "cover_missing": false,
+      "floor_below_expected": false
+    },
+    {
+      "region": "SERVICE_CLOAK",
+      "level": "L00",
+      "canonical": [
+        420,
+        624
+      ],
+      "floor_z": 0,
+      "floor_hit": {
+        "name": "R33_FLOOR_CLOAK",
+        "z": 3.725290298461914e-09,
+        "distance": 0.04999999701976776
+      },
+      "cover_hit": {
+        "name": "R33_CEILING_CLOAK",
+        "z": 4.349999904632568,
+        "distance": 3.1499998569488525
+      },
+      "unclosed_side_directions": [],
+      "floor_missing": false,
+      "cover_missing": false,
+      "floor_below_expected": false
+    },
+    {
+      "region": "SERVICE_CLOAK",
+      "level": "L00",
+      "canonical": [
+        420,
+        632
+      ],
+      "floor_z": 0,
+      "floor_hit": {
+        "name": "R33_FLOOR_CLOAK",
+        "z": 3.725290298461914e-09,
+        "distance": 0.04999999701976776
+      },
+      "cover_hit": {
+        "name": "R33_CEILING_CLOAK",
+        "z": 4.349999904632568,
+        "distance": 3.1499998569488525
+      },
+      "unclosed_side_directions": [],
+      "floor_missing": false,
+      "cover_missing": false,
+      "floor_below_expected": false
+    },
+    {
+      "region": "SERVICE_CLOAK",
+      "level": "L00",
+      "canonical": [
+        420,
+        640
+      ],
+      "floor_z": 0,
+      "floor_hit": {
+        "name": "R33_FLOOR_CLOAK",
+        "z": 3.725290298461914e-09,
+        "distance": 0.04999999701976776
+      },
+      "cover_hit": {
+        "name": "R33_CEILING_CLOAK",
+        "z": 4.349999904632568,
+        "distance": 3.1499998569488525
+      },
+      "unclosed_side_directions": [],
+      "floor_missing": false,
+      "cover_missing": false,
+      "floor_below_expected": false
+    },
+    {
+      "region": "SERVICE_CLOAK",
+      "level": "L00",
+      "canonical": [
+        428,
+        624
+      ],
+      "floor_z": 0,
+      "floor_hit": {
+        "name": "R33_FLOOR_CLOAK",
+        "z": 3.725290298461914e-09,
+        "distance": 0.04999999701976776
+      },
+      "cover_hit": {
+        "name": "R33_CEILING_CLOAK",
+        "z": 4.349999904632568,
+        "distance": 3.1499998569488525
+      },
+      "unclosed_side_directions": [],
+      "floor_missing": false,
+      "cover_missing": false,
+      "floor_below_expected": false
+    },
+    {
+      "region": "SERVICE_CLOAK",
+      "level": "L00",
+      "canonical": [
+        428,
+        632
+      ],
+      "floor_z": 0,
+      "floor_hit": {
+        "name": "R33_FLOOR_CLOAK",
+        "z": -3.725290298461914e-09,
+        "distance": 0.05000000447034836
+      },
+      "cover_hit": {
+        "name": "R33_CEILING_CLOAK",
+        "z": 4.349999904632568,
+        "distance": 3.1499998569488525
+      },
+      "unclosed_side_directions": [],
+      "floor_missing": false,
+      "cover_missing": false,
+      "floor_below_expected": false
+    },
+    {
+      "region": "SERVICE_CLOAK",
+      "level": "L00",
+      "canonical": [
+        428,
+        640
+      ],
+      "floor_z": 0,
+      "floor_hit": {
+        "name": "R33_FLOOR_CLOAK",
+        "z": -3.725290298461914e-09,
+        "distance": 0.05000000447034836
+      },
+      "cover_hit": {
+        "name": "R33_CEILING_CLOAK",
+        "z": 4.349999904632568,
+        "distance": 3.1499998569488525
+      },
+      "unclosed_side_directions": [],
+      "floor_missing": false,
+      "cover_missing": false,
+      "floor_below_expected": false
+    },
+    {
+      "region": "SERVICE_CLOAK",
+      "level": "L00",
+      "canonical": [
+        428,
+        648
+      ],
+      "floor_z": 0,
+      "floor_hit": {
+        "name": "R33_FLOOR_CLOAK",
+        "z": 3.725290298461914e-09,
+        "distance": 0.04999999701976776
+      },
+      "cover_hit": {
+        "name": "R33_CEILING_CLOAK",
+        "z": 4.34999942779541,
+        "distance": 3.1499996185302734
+      },
+      "unclosed_side_directions": [],
+      "floor_missing": false,
+      "cover_missing": false,
+      "floor_below_expected": false
+    },
+    {
+      "region": "SERVICE_CLOAK",
+      "level": "L00",
+      "canonical": [
+        436,
+        624
+      ],
+      "floor_z": 0,
+      "floor_hit": {
+        "name": "R33_FLOOR_CLOAK",
+        "z": -3.725290298461914e-09,
+        "distance": 0.05000000447034836
+      },
+      "cover_hit": {
+        "name": "R33_CEILING_CLOAK",
+        "z": 4.350000381469727,
+        "distance": 3.1500000953674316
+      },
+      "unclosed_side_directions": [],
+      "floor_missing": false,
+      "cover_missing": false,
+      "floor_below_expected": false
+    },
+    {
+      "region": "SERVICE_CLOAK",
+      "level": "L00",
+      "canonical": [
+        436,
+        632
+      ],
+      "floor_z": 0,
+      "floor_hit": {
+        "name": "R33_FLOOR_CLOAK",
+        "z": 0.0,
+        "distance": 0.05000000074505806
+      },
+      "cover_hit": {
+        "name": "R33_CEILING_CLOAK",
+        "z": 4.349999904632568,
+        "distance": 3.1499998569488525
+      },
+      "unclosed_side_directions": [],
+      "floor_missing": false,
+      "cover_missing": false,
+      "floor_below_expected": false
+    },
+    {
+      "region": "SERVICE_CLOAK",
+      "level": "L00",
+      "canonical": [
+        436,
+        640
+      ],
+      "floor_z": 0,
+      "floor_hit": {
+        "name": "R33_FLOOR_CLOAK",
+        "z": 0.0,
+        "distance": 0.05000000074505806
+      },
+      "cover_hit": {
+        "name": "R33_CEILING_CLOAK",
+        "z": 4.349999904632568,
+        "distance": 3.1499998569488525
+      },
+      "unclosed_side_directions": [],
+      "floor_missing": false,
+      "cover_missing": false,
+      "floor_below_expected": false
+    },
+    {
+      "region": "SERVICE_CLOAK",
+      "level": "L00",
+      "canonical": [
+        436,
+        648
+      ],
+      "floor_z": 0,
+      "floor_hit": {
+        "name": "R33_FLOOR_CLOAK",
+        "z": -7.450580596923828e-09,
+        "distance": 0.05000000819563866
+      },
+      "cover_hit": {
+        "name": "R33_CEILING_CLOAK",
+        "z": 4.34999942779541,
+        "distance": 3.1499996185302734
+      },
+      "unclosed_side_directions": [],
+      "floor_missing": false,
+      "cover_missing": false,
+      "floor_below_expected": false
+    },
+    {
+      "region": "SERVICE_CLOAK",
+      "level": "L00",
+      "canonical": [
+        436,
+        656
+      ],
+      "floor_z": 0,
+      "floor_hit": {
+        "name": "R33_FLOOR_CLOAK",
+        "z": 0.0,
+        "distance": 0.05000000074505806
+      },
+      "cover_hit": {
+        "name": "R33_CEILING_CLOAK",
+        "z": 4.34999942779541,
+        "distance": 3.1499996185302734
+      },
+      "unclosed_side_directions": [],
+      "floor_missing": false,
+      "cover_missing": false,
+      "floor_below_expected": false
+    },
+    {
+      "region": "SERVICE_CLOAK",
+      "level": "L00",
+      "canonical": [
+        444,
+        624
+      ],
+      "floor_z": 0,
+      "floor_hit": {
+        "name": "R33_FLOOR_CLOAK",
+        "z": -3.725290298461914e-09,
+        "distance": 0.05000000447034836
+      },
+      "cover_hit": {
+        "name": "R33_CEILING_CLOAK",
+        "z": 4.349999904632568,
+        "distance": 3.1499998569488525
+      },
+      "unclosed_side_directions": [],
+      "floor_missing": false,
+      "cover_missing": false,
+      "floor_below_expected": false
+    },
+    {
+      "region": "SERVICE_CLOAK",
+      "level": "L00",
+      "canonical": [
+        444,
+        632
+      ],
+      "floor_z": 0,
+      "floor_hit": {
+        "name": "R33_FLOOR_CLOAK",
+        "z": 0.0,
+        "distance": 0.05000000074505806
+      },
+      "cover_hit": {
+        "name": "R33_CEILING_CLOAK",
+        "z": 4.349999904632568,
+        "distance": 3.1499998569488525
+      },
+      "unclosed_side_directions": [],
+      "floor_missing": false,
+      "cover_missing": false,
+      "floor_below_expected": false
+    },
+    {
+      "region": "SERVICE_CLOAK",
+      "level": "L00",
+      "canonical": [
+        444,
+        640
+      ],
+      "floor_z": 0,
+      "floor_hit": {
+        "name": "R33_FLOOR_CLOAK",
+        "z": -3.725290298461914e-09,
+        "distance": 0.05000000447034836
+      },
+      "cover_hit": {
+        "name": "R33_CEILING_CLOAK",
+        "z": 4.349999904632568,
+        "distance": 3.1499998569488525
+      },
+      "unclosed_side_directions": [],
+      "floor_missing": false,
+      "cover_missing": false,
+      "floor_below_expected": false
+    },
+    {
+      "region": "SERVICE_CLOAK",
+      "level": "L00",
+      "canonical": [
+        444,
+        648
+      ],
+      "floor_z": 0,
+      "floor_hit": {
+        "name": "R33_FLOOR_CLOAK",
+        "z": -3.725290298461914e-09,
+        "distance": 0.05000000447034836
+      },
+      "cover_hit": {
+        "name": "R33_CEILING_CLOAK",
+        "z": 4.349999904632568,
+        "distance": 3.1499998569488525
+      },
+      "unclosed_side_directions": [],
+      "floor_missing": false,
+      "cover_missing": false,
+      "floor_below_expected": false
+    },
+    {
+      "region": "SERVICE_CLOAK",
+      "level": "L00",
+      "canonical": [
+        444,
+        656
+      ],
+      "floor_z": 0,
+      "floor_hit": {
+        "name": "R33_FLOOR_CLOAK",
+        "z": -7.450580596923828e-09,
+        "distance": 0.05000000819563866
+      },
+      "cover_hit": {
+        "name": "R33_CEILING_CLOAK",
+        "z": 4.349999904632568,
+        "distance": 3.1499998569488525
+      },
+      "unclosed_side_directions": [],
+      "floor_missing": false,
+      "cover_missing": false,
+      "floor_below_expected": false
+    },
+    {
+      "region": "SERVICE_CLOAK",
+      "level": "L00",
+      "canonical": [
+        444,
+        664
+      ],
+      "floor_z": 0,
+      "floor_hit": {
+        "name": "R33_FLOOR_CLOAK",
+        "z": 0.0,
+        "distance": 0.05000000074505806
+      },
+      "cover_hit": {
+        "name": "R33_CEILING_CLOAK",
+        "z": 4.34999942779541,
+        "distance": 3.1499996185302734
+      },
+      "unclosed_side_directions": [],
+      "floor_missing": false,
+      "cover_missing": false,
+      "floor_below_expected": false
+    },
+    {
+      "region": "SERVICE_CLOAK",
+      "level": "L00",
+      "canonical": [
+        452,
+        624
+      ],
+      "floor_z": 0,
+      "floor_hit": {
+        "name": "R33_FLOOR_CLOAK",
+        "z": 3.725290298461914e-09,
+        "distance": 0.04999999701976776
+      },
+      "cover_hit": {
+        "name": "R33_CEILING_CLOAK",
+        "z": 4.349999904632568,
+        "distance": 3.1499998569488525
+      },
+      "unclosed_side_directions": [],
+      "floor_missing": false,
+      "cover_missing": false,
+      "floor_below_expected": false
+    },
+    {
+      "region": "SERVICE_CLOAK",
+      "level": "L00",
+      "canonical": [
+        452,
+        632
+      ],
+      "floor_z": 0,
+      "floor_hit": {
+        "name": "R33_FLOOR_CLOAK",
+        "z": -3.725290298461914e-09,
+        "distance": 0.05000000447034836
+      },
+      "cover_hit": {
+        "name": "R33_CEILING_CLOAK",
+        "z": 4.349999904632568,
+        "distance": 3.1499998569488525
+      },
+      "unclosed_side_directions": [],
+      "floor_missing": false,
+      "cover_missing": false,
+      "floor_below_expected": false
+    },
+    {
+      "region": "SERVICE_CLOAK",
+      "level": "L00",
+      "canonical": [
+        452,
+        640
+      ],
+      "floor_z": 0,
+      "floor_hit": {
+        "name": "R33_FLOOR_CLOAK",
+        "z": -7.450580596923828e-09,
+        "distance": 0.05000000819563866
+      },
+      "cover_hit": {
+        "name": "R33_CEILING_CLOAK",
+        "z": 4.349999904632568,
+        "distance": 3.1499998569488525
+      },
+      "unclosed_side_directions": [],
+      "floor_missing": false,
+      "cover_missing": false,
+      "floor_below_expected": false
+    },
+    {
+      "region": "SERVICE_CLOAK",
+      "level": "L00",
+      "canonical": [
+        452,
+        648
+      ],
+      "floor_z": 0,
+      "floor_hit": {
+        "name": "R33_FLOOR_CLOAK",
+        "z": -3.725290298461914e-09,
+        "distance": 0.05000000447034836
+      },
+      "cover_hit": {
+        "name": "R33_CEILING_CLOAK",
+        "z": 4.349999904632568,
+        "distance": 3.1499998569488525
+      },
+      "unclosed_side_directions": [],
+      "floor_missing": false,
+      "cover_missing": false,
+      "floor_below_expected": false
+    },
+    {
+      "region": "SERVICE_CLOAK",
+      "level": "L00",
+      "canonical": [
+        452,
+        656
+      ],
+      "floor_z": 0,
+      "floor_hit": {
+        "name": "R33_FLOOR_CLOAK",
+        "z": -3.725290298461914e-09,
+        "distance": 0.05000000447034836
+      },
+      "cover_hit": {
+        "name": "R33_CEILING_CLOAK",
+        "z": 4.349999904632568,
+        "distance": 3.1499998569488525
+      },
+      "unclosed_side_directions": [],
+      "floor_missing": false,
+      "cover_missing": false,
+      "floor_below_expected": false
+    },
+    {
+      "region": "SERVICE_CLOAK",
+      "level": "L00",
+      "canonical": [
+        452,
+        664
+      ],
+      "floor_z": 0,
+      "floor_hit": {
+        "name": "R33_FLOOR_CLOAK",
+        "z": 0.0,
+        "distance": 0.05000000074505806
+      },
+      "cover_hit": {
+        "name": "R33_CEILING_CLOAK",
+        "z": 4.349999904632568,
+        "distance": 3.1499998569488525
+      },
+      "unclosed_side_directions": [],
+      "floor_missing": false,
+      "cover_missing": false,
+      "floor_below_expected": false
+    },
+    {
+      "region": "SERVICE_CLOAK",
+      "level": "L00",
+      "canonical": [
+        460,
+        624
+      ],
+      "floor_z": 0,
+      "floor_hit": {
+        "name": "R33_FLOOR_CLOAK",
+        "z": -3.725290298461914e-09,
+        "distance": 0.05000000447034836
+      },
+      "cover_hit": {
+        "name": "R33_CEILING_CLOAK",
+        "z": 4.349999904632568,
+        "distance": 3.1499998569488525
+      },
+      "unclosed_side_directions": [],
+      "floor_missing": false,
+      "cover_missing": false,
+      "floor_below_expected": false
+    },
+    {
+      "region": "SERVICE_CLOAK",
+      "level": "L00",
+      "canonical": [
+        460,
+        632
+      ],
+      "floor_z": 0,
+      "floor_hit": {
+        "name": "R33_FLOOR_CLOAK",
+        "z": -3.725290298461914e-09,
+        "distance": 0.05000000447034836
+      },
+      "cover_hit": {
+        "name": "R33_CEILING_CLOAK",
+        "z": 4.349999904632568,
+        "distance": 3.1499998569488525
+      },
+      "unclosed_side_directions": [],
+      "floor_missing": false,
+      "cover_missing": false,
+      "floor_below_expected": false
+    },
+    {
+      "region": "SERVICE_CLOAK",
+      "level": "L00",
+      "canonical": [
+        460,
+        640
+      ],
+      "floor_z": 0,
+      "floor_hit": {
+        "name": "R33_FLOOR_CLOAK",
+        "z": -3.725290298461914e-09,
+        "distance": 0.05000000447034836
+      },
+      "cover_hit": {
+        "name": "R33_CEILING_CLOAK",
+        "z": 4.349999904632568,
+        "distance": 3.1499998569488525
+      },
+      "unclosed_side_directions": [],
+      "floor_missing": false,
+      "cover_missing": false,
+      "floor_below_expected": false
+    },
+    {
+      "region": "SERVICE_CLOAK",
+      "level": "L00",
+      "canonical": [
+        460,
+        648
+      ],
+      "floor_z": 0,
+      "floor_hit": {
+        "name": "R33_FLOOR_CLOAK",
+        "z": 0.0,
+        "distance": 0.05000000074505806
+      },
+      "cover_hit": {
+        "name": "R33_CEILING_CLOAK",
+        "z": 4.349999904632568,
+        "distance": 3.1499998569488525
+      },
+      "unclosed_side_directions": [],
+      "floor_missing": false,
+      "cover_missing": false,
+      "floor_below_expected": false
+    },
+    {
+      "region": "SERVICE_CLOAK",
+      "level": "L00",
+      "canonical": [
+        460,
+        656
+      ],
+      "floor_z": 0,
+      "floor_hit": {
+        "name": "R33_FLOOR_CLOAK",
+        "z": 0.0,
+        "distance": 0.05000000074505806
+      },
+      "cover_hit": {
+        "name": "R33_CEILING_CLOAK",
+        "z": 4.349999904632568,
+        "distance": 3.1499998569488525
+      },
+      "unclosed_side_directions": [],
+      "floor_missing": false,
+      "cover_missing": false,
+      "floor_below_expected": false
+    },
+    {
+      "region": "SERVICE_CLOAK",
+      "level": "L00",
+      "canonical": [
+        460,
+        664
+      ],
+      "floor_z": 0,
+      "floor_hit": {
+        "name": "R33_FLOOR_CLOAK",
+        "z": -3.725290298461914e-09,
+        "distance": 0.05000000447034836
+      },
+      "cover_hit": {
+        "name": "R33_CEILING_CLOAK",
+        "z": 4.349999904632568,
+        "distance": 3.1499998569488525
+      },
+      "unclosed_side_directions": [],
+      "floor_missing": false,
+      "cover_missing": false,
+      "floor_below_expected": false
+    },
+    {
+      "region": "SERVICE_SHOP",
+      "level": "L00",
+      "canonical": [
+        475,
+        662
+      ],
+      "floor_z": 0,
+      "floor_hit": {
+        "name": "P05_FLOOR_L00_ENT",
+        "z": 0.0,
+        "distance": 0.05000000074505806
+      },
+      "cover_hit": {
+        "name": "R33_CEILING_SHOP",
+        "z": 4.349999904632568,
+        "distance": 3.1499998569488525
+      },
+      "unclosed_side_directions": [],
+      "floor_missing": false,
+      "cover_missing": false,
+      "floor_below_expected": false
+    },
+    {
+      "region": "SERVICE_SHOP",
+      "level": "L00",
+      "canonical": [
+        475,
+        670
+      ],
+      "floor_z": 0,
+      "floor_hit": {
+        "name": "P05_FLOOR_L00_ENT",
+        "z": 0.0,
+        "distance": 0.05000000074505806
+      },
+      "cover_hit": {
+        "name": "R33_CEILING_SHOP",
+        "z": 4.34999942779541,
+        "distance": 3.1499996185302734
+      },
+      "unclosed_side_directions": [],
+      "floor_missing": false,
+      "cover_missing": false,
+      "floor_below_expected": false
+    },
+    {
+      "region": "SERVICE_SHOP",
+      "level": "L00",
+      "canonical": [
+        475,
+        678
+      ],
+      "floor_z": 0,
+      "floor_hit": {
+        "name": "P05_FLOOR_L00_ENT",
+        "z": -3.725290298461914e-09,
+        "distance": 0.05000000447034836
+      },
+      "cover_hit": {
+        "name": "R33_CEILING_SHOP",
+        "z": 4.349999904632568,
+        "distance": 3.1499998569488525
+      },
+      "unclosed_side_directions": [],
+      "floor_missing": false,
+      "cover_missing": false,
+      "floor_below_expected": false
+    },
+    {
+      "region": "SERVICE_SHOP",
+      "level": "L00",
+      "canonical": [
+        475,
+        686
+      ],
+      "floor_z": 0,
+      "floor_hit": {
+        "name": "P05_FLOOR_L00_ENT",
+        "z": 3.725290298461914e-09,
+        "distance": 0.04999999701976776
+      },
+      "cover_hit": {
+        "name": "R33_CEILING_SHOP",
+        "z": 4.350000381469727,
+        "distance": 3.1500000953674316
+      },
+      "unclosed_side_directions": [],
+      "floor_missing": false,
+      "cover_missing": false,
+      "floor_below_expected": false
+    },
+    {
+      "region": "SERVICE_SHOP",
+      "level": "L00",
+      "canonical": [
+        475,
+        694
+      ],
+      "floor_z": 0,
+      "floor_hit": {
+        "name": "P05_FLOOR_L00_ENT",
+        "z": -3.725290298461914e-09,
+        "distance": 0.05000000447034836
+      },
+      "cover_hit": {
+        "name": "R33_CEILING_SHOP",
+        "z": 4.349999904632568,
+        "distance": 3.1499998569488525
+      },
+      "unclosed_side_directions": [],
+      "floor_missing": false,
+      "cover_missing": false,
+      "floor_below_expected": false
+    },
+    {
+      "region": "SERVICE_SHOP",
+      "level": "L00",
+      "canonical": [
+        475,
+        702
+      ],
+      "floor_z": 0,
+      "floor_hit": {
+        "name": "P05_FLOOR_L00_ENT",
+        "z": 3.725290298461914e-09,
+        "distance": 0.04999999701976776
+      },
+      "cover_hit": {
+        "name": "R27_CONTINUOUS_HEAD",
+        "z": 3.450000047683716,
+        "distance": 2.25
+      },
+      "unclosed_side_directions": [],
+      "floor_missing": false,
+      "cover_missing": false,
+      "floor_below_expected": false
+    },
+    {
+      "region": "SERVICE_SHOP",
+      "level": "L00",
+      "canonical": [
+        483,
+        662
+      ],
+      "floor_z": 0,
+      "floor_hit": {
+        "name": "P05_FLOOR_L00_ENT",
+        "z": 0.0,
+        "distance": 0.05000000074505806
+      },
+      "cover_hit": {
+        "name": "R33_CEILING_SHOP",
+        "z": 4.349999904632568,
+        "distance": 3.1499998569488525
+      },
+      "unclosed_side_directions": [],
+      "floor_missing": false,
+      "cover_missing": false,
+      "floor_below_expected": false
+    },
+    {
+      "region": "SERVICE_SHOP",
+      "level": "L00",
+      "canonical": [
+        483,
+        670
+      ],
+      "floor_z": 0,
+      "floor_hit": {
+        "name": "P05_FLOOR_L00_ENT",
+        "z": 0.0,
+        "distance": 0.05000000074505806
+      },
+      "cover_hit": {
+        "name": "R33_CEILING_SHOP",
+        "z": 4.350000381469727,
+        "distance": 3.1500000953674316
+      },
+      "unclosed_side_directions": [],
+      "floor_missing": false,
+      "cover_missing": false,
+      "floor_below_expected": false
+    },
+    {
+      "region": "SERVICE_SHOP",
+      "level": "L00",
+      "canonical": [
+        483,
+        678
+      ],
+      "floor_z": 0,
+      "floor_hit": {
+        "name": "P05_FLOOR_L00_ENT",
+        "z": -3.725290298461914e-09,
+        "distance": 0.05000000447034836
+      },
+      "cover_hit": {
+        "name": "R33_CEILING_SHOP",
+        "z": 4.349999904632568,
+        "distance": 3.1499998569488525
+      },
+      "unclosed_side_directions": [],
+      "floor_missing": false,
+      "cover_missing": false,
+      "floor_below_expected": false
+    },
+    {
+      "region": "SERVICE_SHOP",
+      "level": "L00",
+      "canonical": [
+        483,
+        686
+      ],
+      "floor_z": 0,
+      "floor_hit": {
+        "name": "P05_FLOOR_L00_ENT",
+        "z": -3.725290298461914e-09,
+        "distance": 0.05000000447034836
+      },
+      "cover_hit": {
+        "name": "R33_CEILING_SHOP",
+        "z": 4.349999904632568,
+        "distance": 3.1499998569488525
+      },
+      "unclosed_side_directions": [],
+      "floor_missing": false,
+      "cover_missing": false,
+      "floor_below_expected": false
+    },
+    {
+      "region": "SERVICE_SHOP",
+      "level": "L00",
+      "canonical": [
+        483,
+        694
+      ],
+      "floor_z": 0,
+      "floor_hit": {
+        "name": "P05_FLOOR_L00_ENT",
+        "z": 0.0,
+        "distance": 0.05000000074505806
+      },
+      "cover_hit": {
+        "name": "R33_CEILING_SHOP",
+        "z": 4.349999904632568,
+        "distance": 3.1499998569488525
+      },
+      "unclosed_side_directions": [],
+      "floor_missing": false,
+      "cover_missing": false,
+      "floor_below_expected": false
+    },
+    {
+      "region": "SERVICE_SHOP",
+      "level": "L00",
+      "canonical": [
+        483,
+        702
+      ],
+      "floor_z": 0,
+      "floor_hit": {
+        "name": "P05_FLOOR_L00_ENT",
+        "z": -3.725290298461914e-09,
+        "distance": 0.05000000447034836
+      },
+      "cover_hit": {
+        "name": "R33_CEILING_SHOP",
+        "z": 4.349999904632568,
+        "distance": 3.1499998569488525
+      },
+      "unclosed_side_directions": [],
+      "floor_missing": false,
+      "cover_missing": false,
+      "floor_below_expected": false
+    },
+    {
+      "region": "SERVICE_SHOP",
+      "level": "L00",
+      "canonical": [
+        491,
+        662
+      ],
+      "floor_z": 0,
+      "floor_hit": {
+        "name": "P05_FLOOR_L00_ENT",
+        "z": -3.725290298461914e-09,
+        "distance": 0.05000000447034836
+      },
+      "cover_hit": {
+        "name": "R33_CEILING_SHOP",
+        "z": 4.349999904632568,
+        "distance": 3.1499998569488525
+      },
+      "unclosed_side_directions": [],
+      "floor_missing": false,
+      "cover_missing": false,
+      "floor_below_expected": false
+    },
+    {
+      "region": "SERVICE_SHOP",
+      "level": "L00",
+      "canonical": [
+        491,
+        670
+      ],
+      "floor_z": 0,
+      "floor_hit": {
+        "name": "P05_FLOOR_L00_ENT",
+        "z": -3.725290298461914e-09,
+        "distance": 0.05000000447034836
+      },
+      "cover_hit": {
+        "name": "R33_CEILING_SHOP",
+        "z": 4.349999904632568,
+        "distance": 3.1499998569488525
+      },
+      "unclosed_side_directions": [],
+      "floor_missing": false,
+      "cover_missing": false,
+      "floor_below_expected": false
+    },
+    {
+      "region": "SERVICE_SHOP",
+      "level": "L00",
+      "canonical": [
+        491,
+        678
+      ],
+      "floor_z": 0,
+      "floor_hit": {
+        "name": "P05_FLOOR_L00_ENT",
+        "z": -3.725290298461914e-09,
+        "distance": 0.05000000447034836
+      },
+      "cover_hit": {
+        "name": "R33_CEILING_SHOP",
+        "z": 4.34999942779541,
+        "distance": 3.1499996185302734
+      },
+      "unclosed_side_directions": [],
+      "floor_missing": false,
+      "cover_missing": false,
+      "floor_below_expected": false
+    },
+    {
+      "region": "SERVICE_SHOP",
+      "level": "L00",
+      "canonical": [
+        491,
+        686
+      ],
+      "floor_z": 0,
+      "floor_hit": {
+        "name": "P05_FLOOR_L00_ENT",
+        "z": -3.725290298461914e-09,
+        "distance": 0.05000000447034836
+      },
+      "cover_hit": {
+        "name": "R33_CEILING_SHOP",
+        "z": 4.34999942779541,
+        "distance": 3.1499996185302734
+      },
+      "unclosed_side_directions": [],
+      "floor_missing": false,
+      "cover_missing": false,
+      "floor_below_expected": false
+    },
+    {
+      "region": "SERVICE_SHOP",
+      "level": "L00",
+      "canonical": [
+        491,
+        694
+      ],
+      "floor_z": 0,
+      "floor_hit": {
+        "name": "P05_FLOOR_L00_ENT",
+        "z": 0.0,
+        "distance": 0.05000000074505806
+      },
+      "cover_hit": {
+        "name": "R33_CEILING_SHOP",
+        "z": 4.349999904632568,
+        "distance": 3.1499998569488525
+      },
+      "unclosed_side_directions": [],
+      "floor_missing": false,
+      "cover_missing": false,
+      "floor_below_expected": false
+    },
+    {
+      "region": "SERVICE_SHOP",
+      "level": "L00",
+      "canonical": [
+        491,
+        702
+      ],
+      "floor_z": 0,
+      "floor_hit": {
+        "name": "P05_FLOOR_L00_ENT",
+        "z": -3.725290298461914e-09,
+        "distance": 0.05000000447034836
+      },
+      "cover_hit": {
+        "name": "R33_CEILING_SHOP",
+        "z": 4.34999942779541,
+        "distance": 3.1499996185302734
+      },
+      "unclosed_side_directions": [],
+      "floor_missing": false,
+      "cover_missing": false,
+      "floor_below_expected": false
+    },
+    {
+      "region": "SERVICE_SHOP",
+      "level": "L00",
+      "canonical": [
+        499,
+        662
+      ],
+      "floor_z": 0,
+      "floor_hit": {
+        "name": "P05_FLOOR_L00_ENT",
+        "z": -3.725290298461914e-09,
+        "distance": 0.05000000447034836
+      },
+      "cover_hit": {
+        "name": "R33_CEILING_SHOP",
+        "z": 4.34999942779541,
+        "distance": 3.1499996185302734
+      },
+      "unclosed_side_directions": [],
+      "floor_missing": false,
+      "cover_missing": false,
+      "floor_below_expected": false
+    },
+    {
+      "region": "SERVICE_SHOP",
+      "level": "L00",
+      "canonical": [
+        499,
+        670
+      ],
+      "floor_z": 0,
+      "floor_hit": {
+        "name": "P05_FLOOR_L00_ENT",
+        "z": -3.725290298461914e-09,
+        "distance": 0.05000000447034836
+      },
+      "cover_hit": {
+        "name": "R33_CEILING_SHOP",
+        "z": 4.34999942779541,
+        "distance": 3.1499996185302734
+      },
+      "unclosed_side_directions": [],
+      "floor_missing": false,
+      "cover_missing": false,
+      "floor_below_expected": false
+    },
+    {
+      "region": "SERVICE_SHOP",
+      "level": "L00",
+      "canonical": [
+        499,
+        678
+      ],
+      "floor_z": 0,
+      "floor_hit": {
+        "name": "P05_FLOOR_L00_ENT",
+        "z": -3.725290298461914e-09,
+        "distance": 0.05000000447034836
+      },
+      "cover_hit": {
+        "name": "R33_CEILING_SHOP",
+        "z": 4.349999904632568,
+        "distance": 3.1499998569488525
+      },
+      "unclosed_side_directions": [],
+      "floor_missing": false,
+      "cover_missing": false,
+      "floor_below_expected": false
+    },
+    {
+      "region": "SERVICE_SHOP",
+      "level": "L00",
+      "canonical": [
+        499,
+        686
+      ],
+      "floor_z": 0,
+      "floor_hit": {
+        "name": "P05_FLOOR_L00_ENT",
+        "z": -3.725290298461914e-09,
+        "distance": 0.05000000447034836
+      },
+      "cover_hit": {
+        "name": "R33_CEILING_SHOP",
+        "z": 4.350000381469727,
+        "distance": 3.1500000953674316
+      },
+      "unclosed_side_directions": [],
+      "floor_missing": false,
+      "cover_missing": false,
+      "floor_below_expected": false
+    },
+    {
+      "region": "SERVICE_SHOP",
+      "level": "L00",
+      "canonical": [
+        499,
+        694
+      ],
+      "floor_z": 0,
+      "floor_hit": {
+        "name": "P05_FLOOR_L00_ENT",
+        "z": 0.0,
+        "distance": 0.05000000074505806
+      },
+      "cover_hit": {
+        "name": "R33_CEILING_SHOP",
+        "z": 4.34999942779541,
+        "distance": 3.1499996185302734
+      },
+      "unclosed_side_directions": [],
+      "floor_missing": false,
+      "cover_missing": false,
+      "floor_below_expected": false
+    },
+    {
+      "region": "SERVICE_SHOP",
+      "level": "L00",
+      "canonical": [
+        499,
+        702
+      ],
+      "floor_z": 0,
+      "floor_hit": {
+        "name": "P05_FLOOR_L00_ENT",
+        "z": -3.725290298461914e-09,
+        "distance": 0.05000000447034836
+      },
+      "cover_hit": {
+        "name": "R33_CEILING_SHOP",
+        "z": 4.349999904632568,
+        "distance": 3.1499998569488525
+      },
+      "unclosed_side_directions": [],
+      "floor_missing": false,
+      "cover_missing": false,
+      "floor_below_expected": false
+    },
+    {
+      "region": "SERVICE_SHOP",
+      "level": "L00",
+      "canonical": [
+        507,
+        662
+      ],
+      "floor_z": 0,
+      "floor_hit": {
+        "name": "P05_FLOOR_L00_ENT",
+        "z": 0.0,
+        "distance": 0.05000000074505806
+      },
+      "cover_hit": {
+        "name": "R33_CEILING_SHOP",
+        "z": 4.34999942779541,
+        "distance": 3.1499996185302734
+      },
+      "unclosed_side_directions": [],
+      "floor_missing": false,
+      "cover_missing": false,
+      "floor_below_expected": false
+    },
+    {
+      "region": "SERVICE_SHOP",
+      "level": "L00",
+      "canonical": [
+        507,
+        670
+      ],
+      "floor_z": 0,
+      "floor_hit": {
+        "name": "P05_FLOOR_L00_ENT",
+        "z": 0.0,
+        "distance": 0.05000000074505806
+      },
+      "cover_hit": {
+        "name": "R33_CEILING_SHOP",
+        "z": 4.34999942779541,
+        "distance": 3.1499996185302734
+      },
+      "unclosed_side_directions": [],
+      "floor_missing": false,
+      "cover_missing": false,
+      "floor_below_expected": false
+    },
+    {
+      "region": "SERVICE_SHOP",
+      "level": "L00",
+      "canonical": [
+        507,
+        678
+      ],
+      "floor_z": 0,
+      "floor_hit": {
+        "name": "P05_FLOOR_L00_ENT",
+        "z": 0.0,
+        "distance": 0.05000000074505806
+      },
+      "cover_hit": {
+        "name": "R33_CEILING_SHOP",
+        "z": 4.349999904632568,
+        "distance": 3.1499998569488525
+      },
+      "unclosed_side_directions": [],
+      "floor_missing": false,
+      "cover_missing": false,
+      "floor_below_expected": false
+    },
+    {
+      "region": "SERVICE_SHOP",
+      "level": "L00",
+      "canonical": [
+        507,
+        686
+      ],
+      "floor_z": 0,
+      "floor_hit": {
+        "name": "P05_FLOOR_L00_ENT",
+        "z": 0.0,
+        "distance": 0.05000000074505806
+      },
+      "cover_hit": {
+        "name": "R33_CEILING_SHOP",
+        "z": 4.34999942779541,
+        "distance": 3.1499996185302734
+      },
+      "unclosed_side_directions": [],
+      "floor_missing": false,
+      "cover_missing": false,
+      "floor_below_expected": false
+    },
+    {
+      "region": "SERVICE_SHOP",
+      "level": "L00",
+      "canonical": [
+        507,
+        694
+      ],
+      "floor_z": 0,
+      "floor_hit": {
+        "name": "P05_FLOOR_L00_ENT",
+        "z": 0.0,
+        "distance": 0.05000000074505806
+      },
+      "cover_hit": {
+        "name": "R33_CEILING_SHOP",
+        "z": 4.349999904632568,
+        "distance": 3.1499998569488525
+      },
+      "unclosed_side_directions": [],
+      "floor_missing": false,
+      "cover_missing": false,
+      "floor_below_expected": false
+    },
+    {
+      "region": "SERVICE_SHOP",
+      "level": "L00",
+      "canonical": [
+        507,
+        702
+      ],
+      "floor_z": 0,
+      "floor_hit": {
+        "name": "P05_FLOOR_L00_ENT",
+        "z": -3.725290298461914e-09,
+        "distance": 0.05000000447034836
+      },
+      "cover_hit": {
+        "name": "R33_CEILING_SHOP",
+        "z": 4.34999942779541,
+        "distance": 3.1499993801116943
+      },
+      "unclosed_side_directions": [],
+      "floor_missing": false,
+      "cover_missing": false,
+      "floor_below_expected": false
+    },
+    {
+      "region": "SERVICE_SHOP",
+      "level": "L00",
+      "canonical": [
+        515,
+        662
+      ],
+      "floor_z": 0,
+      "floor_hit": {
+        "name": "P05_FLOOR_L00_ENT",
+        "z": -7.450580596923828e-09,
+        "distance": 0.05000000819563866
+      },
+      "cover_hit": {
+        "name": "R33_CEILING_SHOP",
+        "z": 4.349999904632568,
+        "distance": 3.1499998569488525
+      },
+      "unclosed_side_directions": [],
+      "floor_missing": false,
+      "cover_missing": false,
+      "floor_below_expected": false
+    },
+    {
+      "region": "SERVICE_SHOP",
+      "level": "L00",
+      "canonical": [
+        515,
+        670
+      ],
+      "floor_z": 0,
+      "floor_hit": {
+        "name": "P05_FLOOR_L00_ENT",
+        "z": -3.725290298461914e-09,
+        "distance": 0.05000000447034836
+      },
+      "cover_hit": {
+        "name": "R33_CEILING_SHOP",
+        "z": 4.34999942779541,
+        "distance": 3.1499996185302734
+      },
+      "unclosed_side_directions": [],
+      "floor_missing": false,
+      "cover_missing": false,
+      "floor_below_expected": false
+    },
+    {
+      "region": "SERVICE_SHOP",
+      "level": "L00",
+      "canonical": [
+        515,
+        678
+      ],
+      "floor_z": 0,
+      "floor_hit": {
+        "name": "P05_FLOOR_L00_ENT",
+        "z": -3.725290298461914e-09,
+        "distance": 0.05000000447034836
+      },
+      "cover_hit": {
+        "name": "R33_CEILING_SHOP",
+        "z": 4.349999904632568,
+        "distance": 3.1499998569488525
+      },
+      "unclosed_side_directions": [],
+      "floor_missing": false,
+      "cover_missing": false,
+      "floor_below_expected": false
+    },
+    {
+      "region": "SERVICE_SHOP",
+      "level": "L00",
+      "canonical": [
+        515,
+        686
+      ],
+      "floor_z": 0,
+      "floor_hit": {
+        "name": "P05_FLOOR_L00_ENT",
+        "z": -3.725290298461914e-09,
+        "distance": 0.05000000447034836
+      },
+      "cover_hit": {
+        "name": "R33_CEILING_SHOP",
+        "z": 4.350000381469727,
+        "distance": 3.1500000953674316
+      },
+      "unclosed_side_directions": [],
+      "floor_missing": false,
+      "cover_missing": false,
+      "floor_below_expected": false
+    },
+    {
+      "region": "SERVICE_SHOP",
+      "level": "L00",
+      "canonical": [
+        515,
+        694
+      ],
+      "floor_z": 0,
+      "floor_hit": {
+        "name": "P05_FLOOR_L00_ENT",
+        "z": 0.0,
+        "distance": 0.05000000074505806
+      },
+      "cover_hit": {
+        "name": "R33_CEILING_SHOP",
+        "z": 4.349999904632568,
+        "distance": 3.1499998569488525
+      },
+      "unclosed_side_directions": [],
+      "floor_missing": false,
+      "cover_missing": false,
+      "floor_below_expected": false
+    },
+    {
+      "region": "SERVICE_SHOP",
+      "level": "L00",
+      "canonical": [
+        515,
+        702
+      ],
+      "floor_z": 0,
+      "floor_hit": {
+        "name": "P05_FLOOR_L00_ENT",
+        "z": -3.725290298461914e-09,
+        "distance": 0.05000000447034836
+      },
+      "cover_hit": {
+        "name": "R33_CEILING_SHOP",
+        "z": 4.349999904632568,
+        "distance": 3.1499998569488525
+      },
+      "unclosed_side_directions": [],
+      "floor_missing": false,
+      "cover_missing": false,
+      "floor_below_expected": false
+    },
+    {
+      "region": "SERVICE_SHOP",
+      "level": "L00",
+      "canonical": [
+        523,
+        662
+      ],
+      "floor_z": 0,
+      "floor_hit": {
+        "name": "P05_FLOOR_L00_ENT",
+        "z": -3.725290298461914e-09,
+        "distance": 0.05000000447034836
+      },
+      "cover_hit": {
+        "name": "R33_CEILING_SHOP",
+        "z": 4.34999942779541,
+        "distance": 3.1499993801116943
+      },
+      "unclosed_side_directions": [],
+      "floor_missing": false,
+      "cover_missing": false,
+      "floor_below_expected": false
+    },
+    {
+      "region": "SERVICE_SHOP",
+      "level": "L00",
+      "canonical": [
+        523,
+        670
+      ],
+      "floor_z": 0,
+      "floor_hit": {
+        "name": "P05_FLOOR_L00_ENT",
+        "z": -3.725290298461914e-09,
+        "distance": 0.05000000447034836
+      },
+      "cover_hit": {
+        "name": "R33_CEILING_SHOP",
+        "z": 4.349999904632568,
+        "distance": 3.1499998569488525
+      },
+      "unclosed_side_directions": [],
+      "floor_missing": false,
+      "cover_missing": false,
+      "floor_below_expected": false
+    },
+    {
+      "region": "SERVICE_SHOP",
+      "level": "L00",
+      "canonical": [
+        523,
+        678
+      ],
+      "floor_z": 0,
+      "floor_hit": {
+        "name": "P05_FLOOR_L00_ENT",
+        "z": -7.450580596923828e-09,
+        "distance": 0.05000000819563866
+      },
+      "cover_hit": {
+        "name": "R33_CEILING_SHOP",
+        "z": 4.350000381469727,
+        "distance": 3.1500000953674316
+      },
+      "unclosed_side_directions": [],
+      "floor_missing": false,
+      "cover_missing": false,
+      "floor_below_expected": false
+    },
+    {
+      "region": "SERVICE_SHOP",
+      "level": "L00",
+      "canonical": [
+        523,
+        686
+      ],
+      "floor_z": 0,
+      "floor_hit": {
+        "name": "P05_FLOOR_L00_ENT",
+        "z": -3.725290298461914e-09,
+        "distance": 0.05000000447034836
+      },
+      "cover_hit": {
+        "name": "R33_CEILING_SHOP",
+        "z": 4.349999904632568,
+        "distance": 3.1499998569488525
+      },
+      "unclosed_side_directions": [],
+      "floor_missing": false,
+      "cover_missing": false,
+      "floor_below_expected": false
+    },
+    {
+      "region": "SERVICE_SHOP",
+      "level": "L00",
+      "canonical": [
+        523,
+        694
+      ],
+      "floor_z": 0,
+      "floor_hit": {
+        "name": "P05_FLOOR_L00_ENT",
+        "z": -3.725290298461914e-09,
+        "distance": 0.05000000447034836
+      },
+      "cover_hit": {
+        "name": "R33_CEILING_SHOP",
+        "z": 4.349999904632568,
+        "distance": 3.1499998569488525
+      },
+      "unclosed_side_directions": [],
+      "floor_missing": false,
+      "cover_missing": false,
+      "floor_below_expected": false
+    },
+    {
+      "region": "SERVICE_SHOP",
+      "level": "L00",
+      "canonical": [
+        523,
+        702
+      ],
+      "floor_z": 0,
+      "floor_hit": {
+        "name": "P05_FLOOR_L00_ENT",
+        "z": 0.0,
+        "distance": 0.05000000074505806
+      },
+      "cover_hit": {
+        "name": "R33_CEILING_SHOP",
+        "z": 4.349999904632568,
+        "distance": 3.1499998569488525
       },
       "unclosed_side_directions": [],
       "floor_missing": false,
@@ -140398,6 +144018,102 @@
         [
           830.24,
           333.94
+        ]
+      ]
+    },
+    {
+      "id": "SERVICE_WC_E",
+      "level": "L00",
+      "z": 0,
+      "poly": [
+        [
+          470.9,
+          560.83
+        ],
+        [
+          555,
+          560.83
+        ],
+        [
+          555,
+          595.6
+        ],
+        [
+          470.9,
+          595.6
+        ]
+      ]
+    },
+    {
+      "id": "SERVICE_WC_W",
+      "level": "L00",
+      "z": 0,
+      "poly": [
+        [
+          594.28,
+          560.83
+        ],
+        [
+          680.44,
+          560.83
+        ],
+        [
+          680.44,
+          595.6
+        ],
+        [
+          594.28,
+          595.6
+        ]
+      ]
+    },
+    {
+      "id": "SERVICE_CLOAK",
+      "level": "L00",
+      "z": 0,
+      "poly": [
+        [
+          415.05,
+          619.27
+        ],
+        [
+          466.82,
+          619.27
+        ],
+        [
+          466.82,
+          672.35
+        ],
+        [
+          448.3,
+          672.35
+        ],
+        [
+          415.05,
+          639.1
+        ]
+      ]
+    },
+    {
+      "id": "SERVICE_SHOP",
+      "level": "L00",
+      "z": 0,
+      "poly": [
+        [
+          470.93,
+          657.78
+        ],
+        [
+          526.52,
+          657.78
+        ],
+        [
+          526.52,
+          703.22
+        ],
+        [
+          470.93,
+          703.22
         ]
       ]
     },

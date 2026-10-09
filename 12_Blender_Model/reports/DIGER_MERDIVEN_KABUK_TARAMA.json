@@ -1,0 +1,32 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R89_ALT_KAT_DOSEME_BIRLESIMI_v001.blend",
+  "samples": 590,
+  "side_rays": 21240,
+  "summary": [
+    {
+      "revision": "R04",
+      "samples": 140,
+      "findings": 0
+    },
+    {
+      "revision": "R05",
+      "samples": 165,
+      "findings": 0
+    },
+    {
+      "revision": "R10",
+      "samples": 165,
+      "findings": 0
+    },
+    {
+      "revision": "R25",
+      "samples": 120,
+      "findings": 0
+    }
+  ],
+  "findings": [],
+  "limits": [
+    "Geometric tread sample positions; source alignment and exact stair geometry remain separate.",
+    "Exterior escape rays require classification, not automatic filling of real circulation."
+  ]
+}

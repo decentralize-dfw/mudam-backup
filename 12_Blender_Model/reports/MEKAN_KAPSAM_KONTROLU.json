@@ -1,0 +1,228 @@
+{
+  "scene": "12_Blender_Model/scenes/MUDAM_R89_ALT_KAT_DOSEME_BIRLESIMI_v001.blend",
+  "source_public_regions": [
+    {
+      "id": "GH",
+      "level": "L00",
+      "coverage": "included in enclosure sampling",
+      "metric_acceptance": false
+    },
+    {
+      "id": "ENT",
+      "level": "L00",
+      "coverage": "included in enclosure sampling",
+      "metric_acceptance": false
+    },
+    {
+      "id": "EAST_GARDEN",
+      "level": "L00",
+      "coverage": "included in enclosure sampling",
+      "metric_acceptance": false
+    },
+    {
+      "id": "WEST_CAFE",
+      "level": "L00",
+      "coverage": "included in enclosure sampling",
+      "metric_acceptance": false
+    },
+    {
+      "id": "LINK",
+      "level": "L00",
+      "coverage": "included in enclosure sampling",
+      "metric_acceptance": false
+    },
+    {
+      "id": "PAV",
+      "level": "L00",
+      "coverage": "included in enclosure sampling",
+      "metric_acceptance": false
+    },
+    {
+      "id": "GROUND_GALLERY_E",
+      "level": "L00",
+      "coverage": "included in enclosure sampling",
+      "metric_acceptance": false
+    },
+    {
+      "id": "GROUND_GALLERY_W",
+      "level": "L00",
+      "coverage": "included in enclosure sampling",
+      "metric_acceptance": false
+    },
+    {
+      "id": "UPPER_GALLERY_E",
+      "level": "LP1",
+      "coverage": "included in enclosure sampling",
+      "metric_acceptance": false
+    },
+    {
+      "id": "UPPER_GALLERY_W",
+      "level": "LP1",
+      "coverage": "included in enclosure sampling",
+      "metric_acceptance": false
+    },
+    {
+      "id": "LOWER_GALLERY_E",
+      "level": "LM1",
+      "coverage": "included in enclosure sampling",
+      "metric_acceptance": false
+    },
+    {
+      "id": "LOWER_GALLERY_W",
+      "level": "LM1",
+      "coverage": "included in enclosure sampling",
+      "metric_acceptance": false
+    },
+    {
+      "id": "LOWER_FOYER",
+      "level": "LM1",
+      "coverage": "included in enclosure sampling",
+      "metric_acceptance": false
+    },
+    {
+      "id": "PETITE_WEST",
+      "level": "LP1",
+      "coverage": "included in enclosure sampling",
+      "metric_acceptance": false
+    },
+    {
+      "id": "SERVICE_WC_E",
+      "level": "L00",
+      "coverage": "included in enclosure sampling",
+      "metric_acceptance": false
+    },
+    {
+      "id": "SERVICE_WC_W",
+      "level": "L00",
+      "coverage": "included in enclosure sampling",
+      "metric_acceptance": false
+    },
+    {
+      "id": "SERVICE_CLOAK",
+      "level": "L00",
+      "coverage": "included in enclosure sampling",
+      "metric_acceptance": false
+    },
+    {
+      "id": "SERVICE_SHOP",
+      "level": "L00",
+      "coverage": "included in enclosure sampling",
+      "metric_acceptance": false
+    },
+    {
+      "id": "READING",
+      "level": "LP1",
+      "coverage": "included in enclosure sampling",
+      "metric_acceptance": false
+    },
+    {
+      "id": "STUDIO",
+      "level": "LP1",
+      "coverage": "included in enclosure sampling",
+      "metric_acceptance": false
+    },
+    {
+      "id": "UPPER_BRIDGE",
+      "level": "LP1",
+      "coverage": "included in enclosure sampling",
+      "metric_acceptance": false
+    },
+    {
+      "id": "LIFT_LANDING",
+      "level": "LP1",
+      "coverage": "included in enclosure sampling",
+      "metric_acceptance": false
+    },
+    {
+      "id": "PAV_LOWER",
+      "level": "PAV_LM1",
+      "coverage": "included in enclosure sampling",
+      "metric_acceptance": false
+    },
+    {
+      "id": "AUDITORIUM",
+      "level": "LM1",
+      "coverage": "included in enclosure sampling",
+      "metric_acceptance": false
+    },
+    {
+      "id": "WEST_ENTRY",
+      "level": "STEPS",
+      "coverage": "included in enclosure sampling",
+      "metric_acceptance": false
+    },
+    {
+      "id": "WEST_TURN",
+      "level": "STEPS",
+      "coverage": "included in enclosure sampling",
+      "metric_acceptance": false
+    },
+    {
+      "id": "WEST_UPPER_LANDING",
+      "level": "STEPS",
+      "coverage": "included in enclosure sampling",
+      "metric_acceptance": false
+    },
+    {
+      "id": "PETITE_OUTER_L00",
+      "level": "L00",
+      "coverage": "included in enclosure sampling",
+      "metric_acceptance": false
+    },
+    {
+      "id": "PETITE_OUTER_LP1",
+      "level": "LP1",
+      "coverage": "included in enclosure sampling",
+      "metric_acceptance": false
+    },
+    {
+      "id": "WEST_UPPER_RETURN_0",
+      "level": "LP1",
+      "coverage": "included in enclosure sampling",
+      "metric_acceptance": false
+    },
+    {
+      "id": "WEST_UPPER_RETURN_1",
+      "level": "LP1",
+      "coverage": "included in enclosure sampling",
+      "metric_acceptance": false
+    },
+    {
+      "id": "FOYER_SIDE_E",
+      "level": "LM1",
+      "coverage": "included in enclosure sampling",
+      "metric_acceptance": false
+    },
+    {
+      "id": "FOYER_SIDE_W",
+      "level": "LM1",
+      "coverage": "included in enclosure sampling",
+      "metric_acceptance": false
+    }
+  ],
+  "additional_stair_systems": [
+    "R04 Grand Hall up",
+    "R05 Grand Hall down",
+    "R10 east spiral",
+    "R14 west glass stair",
+    "R25 pavilion down"
+  ],
+  "public_service_scope": "WC E/W, cloakroom and shop separately covered by 2552 dense samples; no missing floor/cover or lateral escape.",
+  "excluded_or_unresolved": [
+    {
+      "area": "Basement offices / administration outside visitor blue areas",
+      "evidence": "083 architectural sheet, PCF project programme",
+      "status": "not a verified room layout; do not claim whole-building completion"
+    },
+    {
+      "area": "Second basement technical/storage level",
+      "evidence": "101 section; PCF identifies two below-grade levels",
+      "status": "not yet modeled as a verified level; no source floor plan or accepted full XY limits"
+    },
+    {
+      "area": "Exact wall/slab/roof assemblies",
+      "evidence": "schematic sections only",
+      "status": "conditional envelope thicknesses; no construction acceptance"
+    }
+  ]
+}
