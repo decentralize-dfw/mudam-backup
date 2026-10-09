@@ -4,7 +4,7 @@
 
 ## Güncel teslim
 
-[MUDAM_R28_ZEMIN_GALERI_GIRIS_v002.blend](scenes/MUDAM_R28_ZEMIN_GALERI_GIRIS_v002.blend) giriş, çatı ve merdiven çalışmalarını birlikte içerir. [Görsel inceleme](URETIM.html) · [Üretim raporu](reports/P07_P09_URETIM_RAPORU.md).
+[MUDAM_R35_HENDEK_CEVRE_ETUDU_v001.blend](scenes/MUDAM_R35_HENDEK_CEVRE_ETUDU_v001.blend) giriş, çatı ve merdiven çalışmalarını birlikte içerir. [Görsel inceleme](URETIM.html) · [Üretim raporu](reports/P07_P09_URETIM_RAPORU.md).
 
 | Paket | Durum | Somut çıktı / açık konu |
 | --- | --- | --- |
@@ -91,3 +91,8 @@ Push sonrasında üretim sürdü. 089 ile pavyon kulesinin sekizgen taslağı d�
 
 
 R23/R24 üst galerilerin duvar/geçişleri ve cam ışıklık adayları, R25 temsilî pavyon merdiveni/parapeti ve R26 doğu çatı bağlantısı eklendi. Her biri kendi kaynak, belirsizlik ve yeniden açma raporuna sahiptir. Tam bina doğrulaması yapılmadı.
+
+
+## 9 Ekim 02:48 UTC ara durum
+
+R35 güncel sahne; R29–R35 bölgesel sahneler, kaynak/varsayım kayıtları ve renderlarla kaydedildi. Güncel GLB ve plan kesitleri R35 ile eşleşiyor. Bina tamamlanmadı: [mimari açık konular](reports/architectural_open_issues.json) içinde cephe–galeri, üst geçit–çatı ve giriş tavanı çelişkileri ayrı izleniyor. Arazi henüz ilk hendek etüdü; ayrıntılı çevre ve nihai teslim açık.

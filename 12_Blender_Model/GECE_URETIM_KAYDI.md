@@ -71,3 +71,6 @@ Push sonrasında üretim sürdü. 089 ile pavyon kulesinin sekizgen taslağı d�
 2026-10-09 01:47:12 UTC — R21–R28 ara üretim: oditoryum panel/donanım; üst galeri odaları ve ışıklıklar; temsilî pavyon merdiveni; doğu çatı şeridi; koşullu cephe nişleri; zemin galeri açık girişleri. Yeni sahneler yeniden açıldı, yerel kontroller/renderlar ve R28 GLB/kesit aktarımı denetlendi. Tam bina tamamlanmadı; kalan oda/cephe/taş/ahşap/tesisat/arazi işleri sürüyor. Saatlik push hazırlanıyor.
 
 - 2026-10-09 01:48:52 UTC — `486371f` origin/main normal push başarılı (9c65124 → 486371f). R21–R28 kaynak/varsayım kayıtları ve doğrulanmış sahneler; güncel GLB 33.118.812 bayt, 6524 mesh. Tam bina tamamlanmadı. Alt galeri/fuaye üretimiyle devam ediliyor.
+
+
+2026-10-09 02:46 UTC — R29–R35 ara üretim: alt galeriler, üst asansör sahanlığı, Studio; taş/ahşap UV adayları; zemin servis sınırları ve ana geçit düzeltmesi; OSM giriş köprüleri ve ilk hendek etüdü. Sahne dosyaları yeniden açıldı, bölgesel kontroller ve renderlar incelendi. R27 pencere–galeri sınırı ve R26 çatı başlığı–R02 üst açıklık çelişkileri açık kaydedildi. Tam bina kabulü yok; saatlik kayıt sonrasında üretim sürüyor.

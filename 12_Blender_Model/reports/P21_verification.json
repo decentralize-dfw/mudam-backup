@@ -1,22 +1,74 @@
 {
-  "file": "12_Blender_Model/exports/MUDAM_R28_ZEMIN_GALERI_GIRIS_v002_preview.glb",
-  "size_bytes": 33118812,
-  "mesh_nodes": 6524,
-  "triangles": 750201,
+  "file": "12_Blender_Model/exports/MUDAM_R35_HENDEK_CEVRE_ETUDU_v001_preview.glb",
+  "size_bytes": 34416996,
+  "mesh_nodes": 6694,
+  "triangles": 754389,
   "world_bounds_glTF": [
     [
-      -42.26118087768555,
-      -5.5262932777404785,
-      -43.51204299926758
+      -42.32527542114258,
+      -5.7762932777404785,
+      -66.24008178710938
     ],
     [
-      38.19219970703125,
+      61.918479919433594,
       30.409473419189453,
       49.81273651123047
     ]
   ],
   "bounds_max_error_m": 0.0,
   "external_binary_dependency": false,
+  "embedded_images": [
+    {
+      "name": "R32_limestone_candidate_normal",
+      "embedded_bytes": 279819,
+      "mime": "image/png"
+    },
+    {
+      "name": "R32_limestone_candidate_basecolor",
+      "embedded_bytes": 298961,
+      "mime": "image/png"
+    },
+    {
+      "name": "R32_wood_candidate_normal",
+      "embedded_bytes": 81414,
+      "mime": "image/png"
+    },
+    {
+      "name": "R32_wood_candidate_basecolor",
+      "embedded_bytes": 167735,
+      "mime": "image/png"
+    }
+  ],
+  "texture_bindings": [
+    {
+      "material": "R32_LIMESTONE_APPEARANCE_CANDIDATE",
+      "usage": "basecolor",
+      "image": "R32_limestone_candidate_basecolor",
+      "uv_attribute": "TEXCOORD_0",
+      "primitive_count": 71
+    },
+    {
+      "material": "R32_LIMESTONE_APPEARANCE_CANDIDATE",
+      "usage": "normal",
+      "image": "R32_limestone_candidate_normal",
+      "uv_attribute": "TEXCOORD_0",
+      "primitive_count": 71
+    },
+    {
+      "material": "R32_WOOD_APPEARANCE_CANDIDATE",
+      "usage": "basecolor",
+      "image": "R32_wood_candidate_basecolor",
+      "uv_attribute": "TEXCOORD_0",
+      "primitive_count": 6
+    },
+    {
+      "material": "R32_WOOD_APPEARANCE_CANDIDATE",
+      "usage": "normal",
+      "image": "R32_wood_candidate_normal",
+      "uv_attribute": "TEXCOORD_0",
+      "primitive_count": 6
+    }
+  ],
   "failures": [],
   "construction_acceptance": false
 }

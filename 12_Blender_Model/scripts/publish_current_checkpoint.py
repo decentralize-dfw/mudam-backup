@@ -185,7 +185,10 @@ def publish():
   section='<section class="panel" id="pavilion-stair-progress"><h2>Pavyonun taş parapeti ve temsilî merdiveni / R25</h2><img src="renders/qa/R25_stair_top.png" alt="Pavyondaki taş parapet ve açıkça temsilî 24 rıhtlı merdiven adayı"><p>102/104, 101 ve resmî PA0119 fotoğrafı ile taş parapet, alt döşeme ve düzenlenebilir merdiven adayı üretildi. 38 kapalı nesne, 72 basamak örneği ve üst/alt geçişler denetlendi.</p><p>24 rıht, 360 derece dönüş, yön, iç çekirdek ve giriş konumları kesin kaynak bilgisi değildir. Bu bölüm temsilîdir; yeni kanıtla revizyona açık.</p><a href="reports/R25_PAVYON_MERDIVEN_RAPORU.md">Kaynak ve belirsizlikler</a> · <a href="renders/qa/R25_pavilion_inside.png">Oda görünümü</a></section>'
   s=re.sub(r'<section class="panel" id="pavilion-stair-progress">.*?</section>','',s,flags=re.S);s=s.replace('<section class="panel"><h2>Paket takibi</h2>',section+'<section class="panel"><h2>Paket takibi</h2>')
  for e in extensions:
-  if e['id'] not in r['file']:continue
+  candidate_path=B/'reports'/f"{e['id']}_build_report.json"
+  if not candidate_path.exists():continue
+  candidate=json.loads(candidate_path.read_text());checks=[json.loads((B/'reports'/n).read_text()) for n in e['checks']]
+  if not all(c['file']==candidate['file'] and not c['failures'] for c in checks):continue
   section=f'<section class="panel" id="checkpoint-{e["id"]}"><h2>{html.escape(e["title"])}</h2><img src="renders/qa/{e["image"]}" alt="{html.escape(e["title"])}"><p>{html.escape(e["description"])}</p><p>{html.escape(e["limits"])}</p><a href="reports/{e["report"]}">Kaynak ve kontrol raporu</a></section>'
   s=re.sub(r'<section class="panel" id="checkpoint-'+e['id']+r'">.*?</section>','',s,flags=re.S);s=s.replace('<section class="panel"><h2>Paket takibi</h2>',section+'<section class="panel"><h2>Paket takibi</h2>')
  s=re.sub(r'<section class="panel" id="reading-progress">.*?</section>','',s,flags=re.S);s=s.replace('<section class="panel"><h2>Paket takibi</h2>',block+'<section class="panel"><h2>Paket takibi</h2>');p.write_text(s,encoding='utf8')

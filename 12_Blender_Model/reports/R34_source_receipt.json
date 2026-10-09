@@ -1,0 +1,92 @@
+{
+  "sources": [
+    {
+      "id": "063",
+      "path": "03_Vaziyet_ve_Peyzaj/Tarihi_Duvarlar_ve_Cevre/063_Tarihi_duvarlar_park_ve_yaklasim_WikiArquitectura.jpg",
+      "sha256": "18f4811ff2e6968bf31ba759e3435d194855ccd3fc1e055d4d9de9e53970a5ec",
+      "source_url": "https://es.wikiarquitectura.com/edificio/museo-de-arte-moderno-grand-duc-jean-mudam/",
+      "credit": "WikiArquitectura; sayfadaki fotoğraf serisi Haziran 2019",
+      "source_date": "unknown; do not infer from download date",
+      "modified": false
+    },
+    {
+      "id": "065",
+      "path": "03_Vaziyet_ve_Peyzaj/Tarihi_Duvarlar_ve_Cevre/065_Tarihi_duvarlar_park_ve_yaklasim_WikiArquitectura.jpg",
+      "sha256": "99eef99c21a91b2ac3f8cbba51e324729ce784824ab0167e147e73bd90565cee",
+      "source_url": "https://es.wikiarquitectura.com/edificio/museo-de-arte-moderno-grand-duc-jean-mudam/",
+      "credit": "WikiArquitectura; sayfadaki fotoğraf serisi Haziran 2019",
+      "source_date": "unknown; do not infer from download date",
+      "modified": false
+    },
+    {
+      "id": "116",
+      "path": "05_Dis_Mekan/Havadan_Gorunum/116_Muze_havadan_genel_gorunum_Mudam.webp",
+      "sha256": "784be291590f0a0a4769101276af543f08a4aae81e22037ea10653a30705f844",
+      "source_url": "https://www.mudam.com/visit/architecture",
+      "credit": "© Christian Aschman / Mudam Luxembourg (resmî sayfa atfı)",
+      "source_date": "unknown; do not infer from download date",
+      "modified": false
+    }
+  ],
+  "osm_path": "10_Olcekli_Plan_ve_Fotograf_Analizi/kaynak_veri/osm_ways_utm.json",
+  "osm_sha256": "fb805c54850922d05d1a40130b77eec6654c54f2a0b89def5be0c3b3b58a70b0",
+  "ways": [
+    {
+      "id": "759551375",
+      "url": "https://www.openstreetmap.org/way/759551375",
+      "tags": {
+        "bridge:structure": "beam",
+        "layer": "1",
+        "man_made": "bridge"
+      }
+    },
+    {
+      "id": "759551376",
+      "url": "https://www.openstreetmap.org/way/759551376",
+      "tags": {
+        "bridge:structure": "beam",
+        "layer": "1",
+        "man_made": "bridge"
+      }
+    },
+    {
+      "id": "759554469",
+      "url": "https://www.openstreetmap.org/way/759554469",
+      "tags": {
+        "barrier": "wall",
+        "layer": "2",
+        "note": "layer 2 for over the bridge (itself being supposed over a land)"
+      }
+    },
+    {
+      "id": "759554470",
+      "url": "https://www.openstreetmap.org/way/759554470",
+      "tags": {
+        "barrier": "handrail",
+        "layer": "2",
+        "note": "layer 2 for over the bridge (itself being supposed over a land)"
+      }
+    },
+    {
+      "id": "759554471",
+      "url": "https://www.openstreetmap.org/way/759554471",
+      "tags": {
+        "barrier": "wall",
+        "layer": "2",
+        "note": "layer 2 for over the bridge (itself being supposed over a land)"
+      }
+    },
+    {
+      "id": "759554472",
+      "url": "https://www.openstreetmap.org/way/759554472",
+      "tags": {
+        "barrier": "handrail",
+        "layer": "2",
+        "note": "layer 2 for over the bridge (itself being supposed over a land)"
+      }
+    }
+  ],
+  "osm_attribution": "© OpenStreetMap contributors, ODbL",
+  "configuration": "config/site_bridges.json",
+  "construction_acceptance": false
+}

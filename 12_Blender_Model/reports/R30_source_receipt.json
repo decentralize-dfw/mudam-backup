@@ -1,0 +1,57 @@
+{
+  "sources": [
+    {
+      "id": "017",
+      "path": "04_Ic_Mekan/Giris_ve_Dolasim/017_Tas_duvar_ve_dogal_isik_WikiArquitectura.jpg",
+      "sha256": "5260d080141098cbc5d01577c03a3d4f1f853a028b24e4ad27ee37e79f37a0ba",
+      "source_url": "https://es.wikiarquitectura.com/edificio/museo-de-arte-moderno-grand-duc-jean-mudam/",
+      "credit": "WikiArquitectura; sayfadaki fotoğraf serisi Haziran 2019",
+      "source_date": "unknown; do not infer from download date",
+      "modified": false
+    },
+    {
+      "id": "077",
+      "path": "04_Ic_Mekan/Asansor_ve_Servis/077_Asansor_ve_erisim_WikiArquitectura.jpg",
+      "sha256": "b340072636ba2b551d2e3b6a336b6c15f1f9060adb92f5f36a0e68bd24f6da2c",
+      "source_url": "https://es.wikiarquitectura.com/edificio/museo-de-arte-moderno-grand-duc-jean-mudam/",
+      "credit": "WikiArquitectura; sayfadaki fotoğraf serisi Haziran 2019",
+      "source_date": "unknown; do not infer from download date",
+      "modified": false
+    },
+    {
+      "id": "078",
+      "path": "04_Ic_Mekan/Asansor_ve_Servis/078_Asansor_ve_erisim_WikiArquitectura.jpg",
+      "sha256": "b325908792931817c1912c7f02e22ec2e5b7b7f6a10f31d922859459c73a45ce",
+      "source_url": "https://es.wikiarquitectura.com/edificio/museo-de-arte-moderno-grand-duc-jean-mudam/",
+      "credit": "WikiArquitectura; sayfadaki fotoğraf serisi Haziran 2019",
+      "source_date": "unknown; do not infer from download date",
+      "modified": false
+    },
+    {
+      "id": "103",
+      "path": "01_Kat_Planlari/Resmi_Kat_Semalari/103_Resmi_kat_semasi_ust_arti_1_Mudam.jpeg",
+      "sha256": "bd94768b80070517fd9ff2fbcb120fc1ba35aa048de49f6a25cbf57ab9c353a2",
+      "source_url": "https://www.mudam.com/fr/floor-plans",
+      "credit": "Mudam Luxembourg; kullanıcı tarafından verilen doğrudan bağlantı",
+      "source_date": "unknown; do not infer from download date",
+      "modified": false
+    },
+    {
+      "id": "PDF2016",
+      "path": "08_Belgeler/Mudam_Wim_Delvoye_2016_kat_semalari.pdf",
+      "sha256": "f2b04806918ac0ac6ac2e8cad98b3cdd143986b62fe102410aeca6b5aa101128",
+      "source_url": null,
+      "credit": "Mudam, Wim Delvoye 2016 press kit, page 5; existing local calibration source",
+      "source_date": "2016",
+      "modified": false,
+      "provenance_gap": "Exact original download URL not retained in local inventory"
+    }
+  ],
+  "limits": [
+    "PDF103 gives upper landing and jamb footprint; source plan is a visitor/exhibition drawing.",
+    "077 shows four metal panels, recessed stone surround, round controls; photo floor is unresolved, family transfer is conditional.",
+    "No lower or ground door placed: 104 and 102 shaft/door extents do not resolve to one common footprint.",
+    "All heights, metal profiles and hardware sizes unmeasured; closed door is a static architectural candidate."
+  ],
+  "construction_acceptance": false
+}

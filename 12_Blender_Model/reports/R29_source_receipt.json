@@ -1,0 +1,66 @@
+{
+  "sources": [
+    {
+      "id": "051",
+      "path": "04_Ic_Mekan/Merdivenler_ve_Dolasim/051_Merdiven_ve_katlar_arasi_dolasim_WikiArquitectura.jpg",
+      "sha256": "102d7c8bfa88eb766ea7481a19493a77df6f9c3422e375ba82381fca153adcc0",
+      "source_url": "https://es.wikiarquitectura.com/edificio/museo-de-arte-moderno-grand-duc-jean-mudam/",
+      "credit": "WikiArquitectura; sayfadaki fotoğraf serisi Haziran 2019",
+      "source_date": "unknown; do not infer from download date",
+      "modified": false
+    },
+    {
+      "id": "052",
+      "path": "04_Ic_Mekan/Merdivenler_ve_Dolasim/052_Merdiven_ve_katlar_arasi_dolasim_WikiArquitectura.jpg",
+      "sha256": "a378de29e4c37de8ad6fa5032903edc5ed8b7fee64de9308fb319d60a43ff7a0",
+      "source_url": "https://es.wikiarquitectura.com/edificio/museo-de-arte-moderno-grand-duc-jean-mudam/",
+      "credit": "WikiArquitectura; sayfadaki fotoğraf serisi Haziran 2019",
+      "source_date": "unknown; do not infer from download date",
+      "modified": false
+    },
+    {
+      "id": "054",
+      "path": "04_Ic_Mekan/Merdivenler_ve_Dolasim/054_Merdiven_ve_katlar_arasi_dolasim_WikiArquitectura.jpg",
+      "sha256": "df8253ff3cadda8524c7638aeaadb5c3f54f9e5cfb638cde5cc2350cf4ca3d61",
+      "source_url": "https://es.wikiarquitectura.com/edificio/museo-de-arte-moderno-grand-duc-jean-mudam/",
+      "credit": "WikiArquitectura; sayfadaki fotoğraf serisi Haziran 2019",
+      "source_date": "unknown; do not infer from download date",
+      "modified": false
+    },
+    {
+      "id": "055",
+      "path": "04_Ic_Mekan/Merdivenler_ve_Dolasim/055_Merdiven_ve_katlar_arasi_dolasim_WikiArquitectura.jpg",
+      "sha256": "d7f4f05fde3673a08285b617661c67c64d1c01477ac5a390795bb8b555402b5e",
+      "source_url": "https://es.wikiarquitectura.com/edificio/museo-de-arte-moderno-grand-duc-jean-mudam/",
+      "credit": "WikiArquitectura; sayfadaki fotoğraf serisi Haziran 2019",
+      "source_date": "unknown; do not infer from download date",
+      "modified": false
+    },
+    {
+      "id": "101",
+      "path": "02_Kesitler/101_Mimari_kesit_ArchEyes.jpg",
+      "sha256": "399ce49f286dbbf4e7472e42a278bf236d55f58fdd297d3302f6037dbe5bfc20",
+      "source_url": "https://archeyes.com/the-mudam-by-i-m-pei-where-old-meets-new/",
+      "credit": "I. M. Pei (çizim; kaynak atfı)",
+      "source_date": "unknown; do not infer from download date",
+      "modified": false
+    },
+    {
+      "id": "104",
+      "path": "01_Kat_Planlari/Resmi_Kat_Semalari/104_Resmi_kat_semasi_alt_eksi_1_Mudam.jpeg",
+      "sha256": "985eaa1ee16f67ce3bf64e549e7427c37561d74441017a6595c72fae5faf56de",
+      "source_url": "https://www.mudam.com/fr/floor-plans",
+      "credit": "Mudam Luxembourg; kullanıcı tarafından verilen doğrudan bağlantı",
+      "source_date": "unknown; do not infer from download date",
+      "modified": false
+    }
+  ],
+  "limits": [
+    "104 supports basement gallery boundaries and foyer connections, not construction thickness.",
+    "4.67m applies to published foyer; extension into galleries is unmeasured and representative.",
+    "Generic white gallery finish/timber floor from building material families; no located basement interior photo confirms finish or lighting.",
+    "E source outer corner corrected from old approximate native y258 to visible y267; image alignment remains schematic.",
+    "Do not add temporary exhibition walls, art, technical services or unlocated doors."
+  ],
+  "construction_acceptance": false
+}

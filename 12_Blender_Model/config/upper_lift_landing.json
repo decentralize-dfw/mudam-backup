@@ -1,0 +1,51 @@
+{
+  "base_scene": "MUDAM_R29_ALT_GALERI_MEKAN_v001.blend",
+  "source_ids": [
+    "103",
+    "PDF2016",
+    "017",
+    "077",
+    "078"
+  ],
+  "shaft_inner_canonical": [
+    648.88,
+    500.93,
+    681.42,
+    529.52
+  ],
+  "door_span_canonical": [
+    657.08,
+    673.05
+  ],
+  "door_plane_y": 533.66,
+  "landing_polygon": [
+    [
+      644.74,
+      529.52
+    ],
+    [
+      685.56,
+      529.52
+    ],
+    [
+      685.56,
+      558.5
+    ],
+    [
+      644.74,
+      558.5
+    ]
+  ],
+  "door_clear_height_candidate_m": 2.4,
+  "landing_clear_height_candidate_m": 3.3,
+  "wall_display_thickness_m": 0.25,
+  "metal_thickness_m": 0.035,
+  "leaf_seam_m": 0.004,
+  "source_role": "Upper landing envelope and four-leaf metal door appearance candidate; no full shaft mechanical model.",
+  "limits": [
+    "PDF103 gives upper landing and jamb footprint; source plan is a visitor/exhibition drawing.",
+    "077 shows four metal panels, recessed stone surround, round controls; photo floor is unresolved, family transfer is conditional.",
+    "No lower or ground door placed: 104 and 102 shaft/door extents do not resolve to one common footprint.",
+    "All heights, metal profiles and hardware sizes unmeasured; closed door is a static architectural candidate."
+  ]
+}

@@ -21,5 +21,20 @@ def walk(i,parent):
 for node in g['scenes'][g.get('scene',0)]['nodes']:walk(node,np.eye(4))
 assert set(names)==set(r['selected_names']),(len(names),len(r['selected_names']),list(set(r['selected_names'])-set(names))[:10])
 actual=np.array([np.min(points,axis=0),np.max(points,axis=0)]);lo=r['blender_world_bounds']['min'];hi=r['blender_world_bounds']['max'];expected=np.array([[lo[0],lo[2],-hi[1]],[hi[0],hi[2],-lo[1]]]);error=float(np.max(np.abs(actual-expected)));assert error<.005,error
-result=dict(file=r['file'],size_bytes=len(data),mesh_nodes=len(names),triangles=triangles,world_bounds_glTF=actual.tolist(),bounds_max_error_m=error,external_binary_dependency=False,failures=[],construction_acceptance=False)
+# Image payloads and texture-coordinate bindings must survive Blender -> GLB.
+image_checks=[];texture_checks=[];bin_start=20+size+8
+for im in g.get('images',[]):
+ assert not im.get('uri') and im.get('mimeType')=='image/png' and 'bufferView' in im,im
+ view=g['bufferViews'][im['bufferView']];offset=bin_start+view.get('byteOffset',0);payload=data[offset:offset+view['byteLength']];assert payload[:8]==b'\x89PNG\r\n\x1a\n'
+ image_checks.append(dict(name=im.get('name'),embedded_bytes=len(payload),mime=im['mimeType']))
+for mi,m in enumerate(g.get('materials',[])):
+ if not m.get('name','').startswith('R32_'):continue
+ for usage,link in [('basecolor',m['pbrMetallicRoughness'].get('baseColorTexture')),('normal',m.get('normalTexture'))]:
+  assert link,m['name'];tex=g['textures'][link['index']];im=g['images'][tex['source']];assert usage in im['name']
+  uv='TEXCOORD_'+str(link.get('texCoord',0));count=0
+  for mesh in g['meshes']:
+   for primitive in mesh['primitives']:
+    if primitive.get('material')==mi:assert uv in primitive['attributes'];count+=1
+  assert count>0;texture_checks.append(dict(material=m['name'],usage=usage,image=im['name'],uv_attribute=uv,primitive_count=count))
+result=dict(file=r['file'],size_bytes=len(data),mesh_nodes=len(names),triangles=triangles,world_bounds_glTF=actual.tolist(),bounds_max_error_m=error,external_binary_dependency=False,embedded_images=image_checks,texture_bindings=texture_checks,failures=[],construction_acceptance=False)
 (B/'reports/P21_verification.json').write_text(json.dumps(result,indent=2),encoding='utf8');print(json.dumps(result,indent=2))

@@ -166,13 +166,13 @@
       "acceptance": "Bütün plan açıklıkları sayılmış; ölçü güveni ayrı",
       "status": "in_progress",
       "open_issues": [
-        "102 ve PDF2016 ile bağımsız giriş duvarları, dolaşım şeritleri, ahşap zemin ve düz tavan adayları üretildi. 36 geçiş ışını ve 72 destek/baş mesafesi örneği geçti. Tavan kotu ve yapı kalınlıkları koşullu. Galeri dış çevresi, cephe bağlantıları ve tesisat tamamlanmadı; renderdaki yardımcı ışıklar mimari armatür değildir."
+        "27 kapalı hacim ve altı dolaşım rotası kuruldu. Eski kaba yüzeyin kapattığı ana geçit açıldı; 18 ışın ve 78 destek/baş mesafesi örneği geçti. Tavan/kalınlık/bitirişler temsilî, oda donanımı açık. R04 çapraz kontrolünde eski R26 çatı başlığında tek üst açıklık kesişmesi kaydedildi; tam bina kabulü yok."
       ],
       "updated": "2026-10-08",
       "dependency_mode": "regional_study_only_no_global_acceptance",
       "artifacts": [
-        "12_Blender_Model/scenes/MUDAM_R28_ZEMIN_GALERI_GIRIS_v002.blend",
-        "12_Blender_Model/reports/R28_ZEMIN_GALERI_RAPORU.md"
+        "12_Blender_Model/scenes/MUDAM_R33_ZEMIN_SERVIS_MEKAN_v002.blend",
+        "12_Blender_Model/reports/R33_ZEMIN_SERVIS_RAPORU.md"
       ]
     },
     {
@@ -261,8 +261,14 @@
       ],
       "deliverable": "Dış/iç taş, söve, portal ve döşeme",
       "acceptance": "Köşe dönüşü, fiziksel modül ve kesim sırası tutarlı",
-      "status": "not_started",
-      "open_issues": []
+      "status": "in_progress",
+      "open_issues": [
+        "75 nesnede 248 yüz için UV ve dört paketli doku üretildi. 7139 nesnenin geometrisi değişmedi; iç cephede 20 yüz beyaz bitişe ayrıldı. Modül, renk ve döşeme yönü koşullu. Galeri pencerelerinin plan sınırıyla çelişkisi açık; R32 iç cephe renderı oda kabulü değildir."
+      ],
+      "artifacts": [
+        "12_Blender_Model/scenes/MUDAM_R32_TAS_AHSAP_YUZEY_v002.blend",
+        "12_Blender_Model/reports/R32_TAS_AHSAP_RAPORU.md"
+      ]
     },
     {
       "id": "P14",
@@ -296,7 +302,7 @@
       "updated": "2026-10-08",
       "dependency_mode": "regional_checkpoint_no_global_acceptance",
       "artifacts": [
-        "12_Blender_Model/scenes/MUDAM_R28_ZEMIN_GALERI_GIRIS_v002.blend",
+        "12_Blender_Model/scenes/MUDAM_R35_HENDEK_CEVRE_ETUDU_v001.blend",
         "12_Blender_Model/reports/P19_P21_ONIZLEME_RAPORU.md"
       ]
     },
@@ -312,11 +318,11 @@
       "acceptance": "Tavan, döşeme, kapı ve sabit donanım kontrol edilmiş",
       "status": "in_progress",
       "open_issues": [
-        "102 ve PDF2016 ile bağımsız giriş duvarları, dolaşım şeritleri, ahşap zemin ve düz tavan adayları üretildi. 36 geçiş ışını ve 72 destek/baş mesafesi örneği geçti. Tavan kotu ve yapı kalınlıkları koşullu. Galeri dış çevresi, cephe bağlantıları ve tesisat tamamlanmadı; renderdaki yardımcı ışıklar mimari armatür değildir."
+        "27 kapalı hacim ve altı dolaşım rotası kuruldu. Eski kaba yüzeyin kapattığı ana geçit açıldı; 18 ışın ve 78 destek/baş mesafesi örneği geçti. Tavan/kalınlık/bitirişler temsilî, oda donanımı açık. R04 çapraz kontrolünde eski R26 çatı başlığında tek üst açıklık kesişmesi kaydedildi; tam bina kabulü yok."
       ],
       "artifacts": [
-        "12_Blender_Model/scenes/MUDAM_R28_ZEMIN_GALERI_GIRIS_v002.blend",
-        "12_Blender_Model/reports/R28_ZEMIN_GALERI_RAPORU.md"
+        "12_Blender_Model/scenes/MUDAM_R33_ZEMIN_SERVIS_MEKAN_v002.blend",
+        "12_Blender_Model/reports/R33_ZEMIN_SERVIS_RAPORU.md"
       ]
     },
     {
@@ -337,7 +343,7 @@
       "updated": "2026-10-08",
       "dependency_mode": "regional_checkpoint_no_global_acceptance",
       "artifacts": [
-        "12_Blender_Model/scenes/MUDAM_R28_ZEMIN_GALERI_GIRIS_v002.blend",
+        "12_Blender_Model/scenes/MUDAM_R35_HENDEK_CEVRE_ETUDU_v001.blend",
         "12_Blender_Model/reports/P19_P21_ONIZLEME_RAPORU.md"
       ]
     },
@@ -350,8 +356,14 @@
       ],
       "deliverable": "Yakın çevre ve bina oturuşu",
       "acceptance": "Arazi kotunun güven düzeyi belli; bağlantılar havada değil",
-      "status": "not_started",
-      "open_issues": []
+      "status": "in_progress",
+      "open_issues": [
+        "OSM çizgileriyle 20 duvar parçası ve ilk hendek zemini kuruldu. 21 kapalı hacim ve 122 köprü rota örneği denetlendi. Arazi kotları, duvar kalınlığı ve düz zemin temsilîdir. Moloz taş, tarihî açıklıklar, diğer hendek kolları ve park bitirilmedi."
+      ],
+      "artifacts": [
+        "12_Blender_Model/scenes/MUDAM_R35_HENDEK_CEVRE_ETUDU_v001.blend",
+        "12_Blender_Model/reports/R35_HENDEK_CEVRE_RAPORU.md"
+      ]
     },
     {
       "id": "P19",
@@ -371,7 +383,7 @@
       "updated": "2026-10-08",
       "dependency_mode": "regional_checkpoint_no_global_acceptance",
       "artifacts": [
-        "12_Blender_Model/scenes/MUDAM_R28_ZEMIN_GALERI_GIRIS_v002.blend",
+        "12_Blender_Model/scenes/MUDAM_R35_HENDEK_CEVRE_ETUDU_v001.blend",
         "12_Blender_Model/reports/P19_P21_ONIZLEME_RAPORU.md"
       ]
     },
@@ -392,7 +404,7 @@
       "updated": "2026-10-08",
       "dependency_mode": "regional_checkpoint_no_global_acceptance",
       "artifacts": [
-        "12_Blender_Model/scenes/MUDAM_R28_ZEMIN_GALERI_GIRIS_v002.blend",
+        "12_Blender_Model/scenes/MUDAM_R35_HENDEK_CEVRE_ETUDU_v001.blend",
         "12_Blender_Model/reports/P19_P21_ONIZLEME_RAPORU.md"
       ]
     },
@@ -406,12 +418,12 @@
       "acceptance": "Birim/eksen/malzeme geri yüklemede doğru; performans ölçülmüş",
       "status": "in_progress",
       "open_issues": [
-        "6524 mesh / 750201 üçgen GLB aktarımı denetlendi; hedef motor ve sadeleştirme açık."
+        "6694 mesh / 754389 üçgen GLB aktarımı denetlendi; hedef motor ve sadeleştirme açık."
       ],
       "updated": "2026-10-08",
       "dependency_mode": "regional_checkpoint_no_global_acceptance",
       "artifacts": [
-        "12_Blender_Model/scenes/MUDAM_R28_ZEMIN_GALERI_GIRIS_v002.blend",
+        "12_Blender_Model/scenes/MUDAM_R35_HENDEK_CEVRE_ETUDU_v001.blend",
         "12_Blender_Model/reports/P19_P21_ONIZLEME_RAPORU.md"
       ]
     },
@@ -438,13 +450,15 @@
     "P10",
     "P11",
     "P12",
+    "P13",
     "P14",
     "P15",
     "P16",
     "P17",
+    "P18",
     "P19",
     "P20",
     "P21"
   ],
-  "latest_scene": "12_Blender_Model/scenes/MUDAM_R28_ZEMIN_GALERI_GIRIS_v002.blend"
+  "latest_scene": "12_Blender_Model/scenes/MUDAM_R35_HENDEK_CEVRE_ETUDU_v001.blend"
 }

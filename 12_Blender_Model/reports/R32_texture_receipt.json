@@ -1,0 +1,51 @@
+{
+  "texture_physical_repeat_m": [
+    3.2,
+    2.4
+  ],
+  "resolution": [
+    2048,
+    1536
+  ],
+  "stone_course_height_candidate_m": 0.4,
+  "stone_joint_candidate_m": 0.0018,
+  "wood_board_width_candidate_m": 0.15,
+  "wood_joint_candidate_m": 0.0011,
+  "seed": 3209,
+  "files": [
+    {
+      "path": "12_Blender_Model/textures/R32_limestone_candidate_basecolor.png",
+      "sha256": "6ba462d85d3e5b35df6df293cdaca4d6d52078dbbd092cc026c405a8b5033ad0"
+    },
+    {
+      "path": "12_Blender_Model/textures/R32_limestone_candidate_normal.png",
+      "sha256": "f7ed0cbc98895d43c9d5fd01ed6e1d428edb1458b918c99c7590abe1b1c93e60"
+    },
+    {
+      "path": "12_Blender_Model/textures/R32_wood_candidate_basecolor.png",
+      "sha256": "2a6347a824a9322b934a71df6a872e5166c235d36e3cef89235b8f49c6b7beed"
+    },
+    {
+      "path": "12_Blender_Model/textures/R32_wood_candidate_normal.png",
+      "sha256": "cab58be1474553de0628635ba6244e08bd96fbe22f6419d41d590477fa7f46a9"
+    }
+  ],
+  "source_ids": [
+    "003",
+    "004",
+    "017",
+    "056",
+    "061",
+    "062",
+    "069",
+    "070",
+    "077"
+  ],
+  "status": "procedural_appearance_candidates_not_scans",
+  "limits": [
+    "No source photograph was edited, resampled into a texture or treated as a calibrated swatch.",
+    "Module widths, joint depth, grain, colour and roughness are unmeasured editable candidates.",
+    "Surface textures do not replace structural or panel-joint geometry."
+  ],
+  "construction_acceptance": false
+}

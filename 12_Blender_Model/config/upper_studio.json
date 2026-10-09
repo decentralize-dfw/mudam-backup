@@ -1,0 +1,41 @@
+{
+  "base_scene": "MUDAM_R30_UST_ASANSOR_SAHANLIK_v001.blend",
+  "source_ids": [
+    "103",
+    "PDF2016",
+    "015",
+    "016"
+  ],
+  "inner_polygon": [
+    [
+      472.41,
+      605.63
+    ],
+    [
+      528.77,
+      605.63
+    ],
+    [
+      528.77,
+      698.33
+    ],
+    [
+      472.43,
+      698.33
+    ]
+  ],
+  "portal_range_y": [
+    632.3283778933052,
+    647.5800320047578
+  ],
+  "portal_end_x": 541.0934432400971,
+  "wall_thickness_candidate_m": 0.3,
+  "ceiling_z": 7.559074784676003,
+  "portal_head_candidate_m": 2.3,
+  "limits": [
+    "Studio perimeter and side passage from PDF103; 103 visitor plan labels Studio.",
+    "Ceiling continues the adjacent reading-room lower ceiling candidate; no located studio interior photograph.",
+    "White walls/stone floor are representative, not verified finish specification.",
+    "No unlocated windows, doors, furniture or teaching equipment invented."
+  ]
+}

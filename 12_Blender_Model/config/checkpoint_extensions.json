@@ -48,5 +48,116 @@
     "image": "R28_east_reverse.png",
     "description": "102 ve PDF2016 ile bağımsız giriş duvarları, dolaşım şeritleri, ahşap zemin ve düz tavan adayları üretildi. 36 geçiş ışını ve 72 destek/baş mesafesi örneği geçti.",
     "limits": "Tavan kotu ve yapı kalınlıkları koşullu. Galeri dış çevresi, cephe bağlantıları ve tesisat tamamlanmadı; renderdaki yardımcı ışıklar mimari armatür değildir."
+  },
+  {
+    "id": "R29",
+    "checks": [
+      "R29_verification.json",
+      "R29_inherited_verification.json",
+      "R05_regression_on_R29.json"
+    ],
+    "tasks": [
+      "P16"
+    ],
+    "report": "R29_ALT_GALERI_RAPORU.md",
+    "title": "Alt galerilerin sınırları / R29",
+    "image": "R29_foyer_to_west.png",
+    "description": "104 ile iki alt galeri, ayrı fuaye döşemesi ve iki açık bağlantı kuruldu. 44 kapalı hacim, galeri geçişleri ve alt merdiven desteği denetlendi.",
+    "limits": "Alt galeri tavan yüksekliği ve bitişleri temsilî; konumu doğrulanmış iç fotoğraf yok. Tesisat, sergi ve teknik alanlar açık."
+  },
+  {
+    "id": "R30",
+    "checks": [
+      "R30_verification.json",
+      "R30_inherited_verification.json"
+    ],
+    "tasks": [
+      "P12",
+      "P17"
+    ],
+    "report": "R30_UST_ASANSOR_RAPORU.md",
+    "title": "Üst asansör kapısı ve sahanlık / R30",
+    "image": "R30_door_detail.png",
+    "description": "Üst PDF söve aralığına dört panelli metal kapı ailesi ve taş sahanlık adayı eklendi. 20 kapalı hacim, yaklaşım ve destek kontrolleri geçti.",
+    "limits": "077 fotoğrafının katı bilinmiyor; kapı ailesi aktarımı ve bütün detay ölçüleri koşullu. Alt/zemin kat kapısı ve kesintisiz şaft geometrisi çözülmedi."
+  },
+  {
+    "id": "R31",
+    "checks": [
+      "R31_verification.json",
+      "R31_inherited_verification.json"
+    ],
+    "tasks": [
+      "P17"
+    ],
+    "report": "R31_UST_STUDIO_RAPORU.md",
+    "title": "Studio ve okuma odası bağlantısı / R31",
+    "image": "R31_studio_inside.png",
+    "description": "PDF iç sınırlarıyla Studio çevresi ve okuma odasına açılan yan geçit eklendi. 10 kapalı hacim, 9 geçiş ve 18 destek örneği kontrol edildi.",
+    "limits": "Studio iç fotoğrafı konumlandırılmadı; tavan, yüzey bitişleri ve ışık temsilî. Sabit donanım ve gerçek ayrıntılar açık."
+  },
+  {
+    "id": "R32",
+    "checks": [
+      "R32_verification.json",
+      "R32_inherited_verification.json"
+    ],
+    "tasks": [
+      "P13",
+      "P19"
+    ],
+    "report": "R32_TAS_AHSAP_RAPORU.md",
+    "title": "Taş derzi ve ahşap yüzey adayları / R32",
+    "image": "R32_lift_stone.png",
+    "description": "75 nesnede 248 yüz için UV ve dört paketli doku üretildi. 7139 nesnenin geometrisi değişmedi; iç cephede 20 yüz beyaz bitişe ayrıldı.",
+    "limits": "Modül, renk ve döşeme yönü koşullu. Galeri pencerelerinin plan sınırıyla çelişkisi açık; R32 iç cephe renderı oda kabulü değildir."
+  },
+  {
+    "id": "R33",
+    "checks": [
+      "R33_verification.json",
+      "R33_inherited_verification.json",
+      "R05_regression_on_R33.json",
+      "R10_regression_on_R33.json"
+    ],
+    "tasks": [
+      "P08",
+      "P16"
+    ],
+    "report": "R33_ZEMIN_SERVIS_RAPORU.md",
+    "title": "Giriş, vestiyer ve servis sınırları / R33",
+    "image": "R33_main_passage.png",
+    "description": "27 kapalı hacim ve altı dolaşım rotası kuruldu. Eski kaba yüzeyin kapattığı ana geçit açıldı; 18 ışın ve 78 destek/baş mesafesi örneği geçti.",
+    "limits": "Tavan/kalınlık/bitirişler temsilî, oda donanımı açık. R04 çapraz kontrolünde eski R26 çatı başlığında tek üst açıklık kesişmesi kaydedildi; tam bina kabulü yok."
+  },
+  {
+    "id": "R34",
+    "checks": [
+      "R34_verification.json",
+      "R34_inherited_verification.json"
+    ],
+    "tasks": [
+      "P18"
+    ],
+    "report": "R34_GIRIS_KOPRULERI_RAPORU.md",
+    "title": "İki giriş köprüsü ve kesintisiz döşeme / R34",
+    "image": "R34_bridge_oblique.png",
+    "description": "OSM köprüleri mevcut giriş döşemesine bağlandı. 50 kapalı hacim, 122 rota ve 90 ayak izi örneği; eski döşemenin 283 destek örneği doğrulandı.",
+    "limits": "Kot, kesit ve korkuluk ayrıntıları koşullu. Arazi, mesnet ve tarihî duvar çalışması sürüyor; köprü görünümü tam çevre teslimi değildir."
+  },
+  {
+    "id": "R35",
+    "checks": [
+      "R35_verification.json",
+      "R35_inherited_verification.json"
+    ],
+    "tasks": [
+      "P18"
+    ],
+    "report": "R35_HENDEK_CEVRE_RAPORU.md",
+    "title": "Hendek ve tarihî duvarların ilk çevre etüdü / R35",
+    "image": "R35_site_oblique.png",
+    "description": "OSM çizgileriyle 20 duvar parçası ve ilk hendek zemini kuruldu. 21 kapalı hacim ve 122 köprü rota örneği denetlendi.",
+    "limits": "Arazi kotları, duvar kalınlığı ve düz zemin temsilîdir. Moloz taş, tarihî açıklıklar, diğer hendek kolları ve park bitirilmedi."
   }
 ]

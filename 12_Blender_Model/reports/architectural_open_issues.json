@@ -1,0 +1,64 @@
+[
+  {
+    "id": "A01",
+    "status": "open",
+    "priority": "high",
+    "topic": "R27 front windows versus R28 gallery boundary",
+    "evidence": [
+      "R32_gallery_wall.png",
+      "R34_exterior.png",
+      "062",
+      "102",
+      "PDF2016"
+    ],
+    "detail": "Second candidate front window lies beyond source gallery polygon; 062 exact room/face unverified. Do not expand floor to fit a photograph without source identity."
+  },
+  {
+    "id": "A02",
+    "status": "open",
+    "priority": "high",
+    "topic": "R26 roof head versus R02 upper clear opening",
+    "evidence": [
+      "reports/R04_regression_on_R33.json",
+      "033",
+      "026"
+    ],
+    "detail": "One high ray at z=9.518577m intersects R26_WALL_HEAD_453.755. Stair tread/headroom tests passed, but upper portal/roof member coordination remains unresolved."
+  },
+  {
+    "id": "A03",
+    "status": "open",
+    "priority": "medium",
+    "topic": "Ground entrance ceiling continuity and finishes",
+    "evidence": [
+      "R33_main_passage.png",
+      "017",
+      "102",
+      "103"
+    ],
+    "detail": "Service room ceilings are regional candidates; gaps above lobby and stone-versus-white finish assignment remain open."
+  },
+  {
+    "id": "A04",
+    "status": "open",
+    "priority": "high",
+    "topic": "P18 terrain and bridge supports",
+    "evidence": [
+      "reports/R35_HENDEK_CEVRE_RAPORU.md",
+      "096",
+      "116"
+    ],
+    "detail": "First moat region only; heights unmeasured, park landings, other moat arms, historic apertures and structural supports unresolved."
+  },
+  {
+    "id": "A05",
+    "status": "open",
+    "priority": "high",
+    "topic": "Facade window head camera audit",
+    "evidence": [
+      "references/R35_116_front_camera_audit.png",
+      "reports/P06_camera_fit_116.json"
+    ],
+    "detail": "Manual 116 head readings suggest about z3.3-3.6m on conditional camera, whereas R27 head is4.35m. Needs archived landmark audit with uncertainty before geometry revision; no new measured height accepted."
+  }
+]

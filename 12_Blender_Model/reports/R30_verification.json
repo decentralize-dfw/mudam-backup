@@ -1,0 +1,303 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R30_UST_ASANSOR_SAHANLIK_v001.blend",
+  "failures": [],
+  "evaluated_solids": [
+    {
+      "name": "R30_LEFT_JAMB",
+      "volume": 2.4941813765166554,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R30_RIGHT_JAMB",
+      "volume": 2.5285403259485886,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R30_STONE_HEAD",
+      "volume": 0.8803317682710396,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R30_LANDING_WEST",
+      "volume": 2.4345036521942163,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R30_LANDING_EAST",
+      "volume": 2.43449767507164,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R30_LANDING_FLOOR",
+      "volume": 3.3389490312670604,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R30_LANDING_CEILING",
+      "volume": 3.3389490312670462,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R30_DOOR_LEAF_1",
+      "volume": 0.0367999656468031,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R30_DOOR_LEAF_2",
+      "volume": 0.03680013595880016,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R30_DOOR_LEAF_3",
+      "volume": 0.03680033280712036,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R30_DOOR_LEAF_4",
+      "volume": 0.036800332807064406,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R30_FRAME_L",
+      "volume": 0.009120063238579501,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R30_FRAME_R",
+      "volume": 0.009120083493723952,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R30_FRAME_HEAD",
+      "volume": 0.007209313676975859,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R30_THRESHOLD",
+      "volume": 0.013280338498478636,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R30_DOOR_BACKING",
+      "volume": 0.04553147500602725,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R30_CALL_PLATE",
+      "volume": 5.665332400420732e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R30_CALL_BUTTON",
+      "volume": 8.427991018331585e-06,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R30_INDICATOR_DISC_0",
+      "volume": 9.101800028226358e-06,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R30_INDICATOR_DISC_1",
+      "volume": 9.10180002823083e-06,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    }
+  ],
+  "passage_rays": [
+    {
+      "x": 650,
+      "h": 0.3,
+      "hits": []
+    },
+    {
+      "x": 650,
+      "h": 1.5,
+      "hits": []
+    },
+    {
+      "x": 650,
+      "h": 2.1,
+      "hits": []
+    },
+    {
+      "x": 665,
+      "h": 0.3,
+      "hits": []
+    },
+    {
+      "x": 665,
+      "h": 1.5,
+      "hits": []
+    },
+    {
+      "x": 665,
+      "h": 2.1,
+      "hits": []
+    },
+    {
+      "x": 680,
+      "h": 0.3,
+      "hits": []
+    },
+    {
+      "x": 680,
+      "h": 1.5,
+      "hits": []
+    },
+    {
+      "x": 680,
+      "h": 2.1,
+      "hits": []
+    }
+  ],
+  "support_head_samples": [
+    {
+      "x": 650,
+      "y": 537,
+      "support": [
+        "R30_LANDING_FLOOR"
+      ],
+      "head": []
+    },
+    {
+      "x": 650,
+      "y": 544,
+      "support": [
+        "R30_LANDING_FLOOR"
+      ],
+      "head": []
+    },
+    {
+      "x": 650,
+      "y": 552,
+      "support": [
+        "R30_LANDING_FLOOR"
+      ],
+      "head": []
+    },
+    {
+      "x": 650,
+      "y": 559,
+      "support": [
+        "P05_FLOOR_LP1_BRIDGE"
+      ],
+      "head": []
+    },
+    {
+      "x": 665,
+      "y": 537,
+      "support": [
+        "R30_LANDING_FLOOR"
+      ],
+      "head": []
+    },
+    {
+      "x": 665,
+      "y": 544,
+      "support": [
+        "R30_LANDING_FLOOR"
+      ],
+      "head": []
+    },
+    {
+      "x": 665,
+      "y": 552,
+      "support": [
+        "R30_LANDING_FLOOR"
+      ],
+      "head": []
+    },
+    {
+      "x": 665,
+      "y": 559,
+      "support": [
+        "P05_FLOOR_LP1_BRIDGE"
+      ],
+      "head": []
+    },
+    {
+      "x": 680,
+      "y": 537,
+      "support": [
+        "R30_LANDING_FLOOR"
+      ],
+      "head": []
+    },
+    {
+      "x": 680,
+      "y": 544,
+      "support": [
+        "R30_LANDING_FLOOR"
+      ],
+      "head": []
+    },
+    {
+      "x": 680,
+      "y": 552,
+      "support": [
+        "R30_LANDING_FLOOR"
+      ],
+      "head": []
+    },
+    {
+      "x": 680,
+      "y": 559,
+      "support": [
+        "P05_FLOOR_LP1_BRIDGE"
+      ],
+      "head": []
+    }
+  ],
+  "closed_leaf_checks": [
+    {
+      "leaf": "R30_DOOR_LEAF_1",
+      "hits": [
+        "R30_DOOR_LEAF_1",
+        "R30_DOOR_BACKING"
+      ]
+    },
+    {
+      "leaf": "R30_DOOR_LEAF_2",
+      "hits": [
+        "R30_DOOR_LEAF_2",
+        "R30_DOOR_BACKING"
+      ]
+    },
+    {
+      "leaf": "R30_DOOR_LEAF_3",
+      "hits": [
+        "R30_DOOR_LEAF_3",
+        "R30_DOOR_BACKING"
+      ]
+    },
+    {
+      "leaf": "R30_DOOR_LEAF_4",
+      "hits": [
+        "R30_DOOR_LEAF_4",
+        "R30_DOOR_BACKING"
+      ]
+    }
+  ],
+  "full_shaft_continuity_verified": false,
+  "construction_acceptance": false
+}

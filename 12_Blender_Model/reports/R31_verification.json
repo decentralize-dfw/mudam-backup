@@ -1,0 +1,266 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R31_UST_STUDIO_v001.blend",
+  "failures": [],
+  "evaluated_solids": [
+    {
+      "name": "R31_STUDIO_WALL_0",
+      "volume": 5.423265365860562,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R31_EAST_JAMB_A",
+      "volume": 2.5690627756447597,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R31_EAST_JAMB_B",
+      "volume": 4.8834369437907466,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R31_EAST_HEAD",
+      "volume": 0.21742151012341493,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R31_STUDIO_WALL_2",
+      "volume": 5.421339204445178,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R31_STUDIO_WALL_3",
+      "volume": 8.92008546451107,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R31_STUDIO_CEILING",
+      "volume": 13.269498010014438,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R31_PASSAGE_CEILING",
+      "volume": 1.061005889886536,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R31_PASSAGE_SIDE_N",
+      "volume": 1.0101462364240683,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R31_PASSAGE_SIDE_S",
+      "volume": 1.0101463040406409,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    }
+  ],
+  "passage_rays": [
+    {
+      "y": 635,
+      "h": 0.3,
+      "hits": []
+    },
+    {
+      "y": 635,
+      "h": 1.5,
+      "hits": []
+    },
+    {
+      "y": 635,
+      "h": 2.05,
+      "hits": []
+    },
+    {
+      "y": 640,
+      "h": 0.3,
+      "hits": []
+    },
+    {
+      "y": 640,
+      "h": 1.5,
+      "hits": []
+    },
+    {
+      "y": 640,
+      "h": 2.05,
+      "hits": []
+    },
+    {
+      "y": 645,
+      "h": 0.3,
+      "hits": []
+    },
+    {
+      "y": 645,
+      "h": 1.5,
+      "hits": []
+    },
+    {
+      "y": 645,
+      "h": 2.05,
+      "hits": []
+    }
+  ],
+  "support_head_samples": [
+    {
+      "x": 524,
+      "y": 635,
+      "support": [
+        "P05_FLOOR_LP1_STUDIO"
+      ],
+      "head": []
+    },
+    {
+      "x": 529,
+      "y": 635,
+      "support": [
+        "P05_FLOOR_LP1_STUDIO",
+        "P17_READING_FLOOR"
+      ],
+      "head": []
+    },
+    {
+      "x": 533,
+      "y": 635,
+      "support": [
+        "P05_FLOOR_LP1_STUDIO",
+        "P17_READING_FLOOR"
+      ],
+      "head": []
+    },
+    {
+      "x": 537,
+      "y": 635,
+      "support": [
+        "P17_READING_FLOOR"
+      ],
+      "head": []
+    },
+    {
+      "x": 541,
+      "y": 635,
+      "support": [
+        "P17_READING_FLOOR"
+      ],
+      "head": []
+    },
+    {
+      "x": 545,
+      "y": 635,
+      "support": [
+        "P17_READING_FLOOR"
+      ],
+      "head": []
+    },
+    {
+      "x": 524,
+      "y": 640,
+      "support": [
+        "P05_FLOOR_LP1_STUDIO"
+      ],
+      "head": []
+    },
+    {
+      "x": 529,
+      "y": 640,
+      "support": [
+        "P05_FLOOR_LP1_STUDIO",
+        "P17_READING_FLOOR"
+      ],
+      "head": []
+    },
+    {
+      "x": 533,
+      "y": 640,
+      "support": [
+        "P05_FLOOR_LP1_STUDIO",
+        "P17_READING_FLOOR"
+      ],
+      "head": []
+    },
+    {
+      "x": 537,
+      "y": 640,
+      "support": [
+        "P17_READING_FLOOR"
+      ],
+      "head": []
+    },
+    {
+      "x": 541,
+      "y": 640,
+      "support": [
+        "P17_READING_FLOOR"
+      ],
+      "head": []
+    },
+    {
+      "x": 545,
+      "y": 640,
+      "support": [
+        "P17_READING_FLOOR"
+      ],
+      "head": []
+    },
+    {
+      "x": 524,
+      "y": 645,
+      "support": [
+        "P05_FLOOR_LP1_STUDIO"
+      ],
+      "head": []
+    },
+    {
+      "x": 529,
+      "y": 645,
+      "support": [
+        "P05_FLOOR_LP1_STUDIO",
+        "P17_READING_FLOOR"
+      ],
+      "head": []
+    },
+    {
+      "x": 533,
+      "y": 645,
+      "support": [
+        "P05_FLOOR_LP1_STUDIO",
+        "P17_READING_FLOOR"
+      ],
+      "head": []
+    },
+    {
+      "x": 537,
+      "y": 645,
+      "support": [
+        "P17_READING_FLOOR"
+      ],
+      "head": []
+    },
+    {
+      "x": 541,
+      "y": 645,
+      "support": [
+        "P17_READING_FLOOR"
+      ],
+      "head": []
+    },
+    {
+      "x": 545,
+      "y": 645,
+      "support": [
+        "P17_READING_FLOOR"
+      ],
+      "head": []
+    }
+  ],
+  "construction_acceptance": false
+}

@@ -10,6 +10,7 @@ center=Vector(r['center_world']);ex=Vector(r['canonical_x_world']);ey=Vector(r['
 def end(rad):return math.acos((d-(cx-cy))*scale/(rad*math.sqrt(2)))-math.pi/4
 def point(t,rad,z):
  a=A+(end(rad)-A)*t;return center+(ex*math.cos(a)+ey*math.sin(a))*rad+up*z
+lower_support_names=args[2].split(',') if len(args)>2 else ['P05_ZONE_LM1_GALLERIES_FOYER']
 visible=[o.evaluated_get(deps) for o in bpy.context.scene.objects if o.type=='MESH' and o.visible_get() and not o.hide_render]
 def ray(origin,direction,distance,only=None):
  hits=[]
@@ -37,7 +38,7 @@ floor_support=[]
 for f in [.2,.5,.8]:
  rad=RI+(RO-RI)*f;a=end(rad);tangent=(-ex*math.sin(a)+ey*math.cos(a)).normalized();p=point(1,rad,.05)+tangent*.25;hits=ray(p,-up,.1,only=[r['changed_floor']]);ok=bool(hits) and abs(hits[0]['z'])<1e-4;floor_support.append(dict(kind='upper_exit',fraction=f,hits=hits,passed=ok))
  if not ok:fail.append(floor_support[-1])
- p=point(0,rad,LOW+.05)-(-ex*math.sin(A)+ey*math.cos(A))*.25;hits=ray(p,-up,.1,only=['P05_ZONE_LM1_GALLERIES_FOYER']);ok=bool(hits) and abs(hits[0]['z']-LOW)<1e-4;floor_support.append(dict(kind='lower_entry',fraction=f,hits=hits,passed=ok))
+ p=point(0,rad,LOW+.05)-(-ex*math.sin(A)+ey*math.cos(A))*.25;hits=ray(p,-up,.1,only=lower_support_names);ok=bool(hits) and abs(hits[0]['z']-LOW)<1e-4;floor_support.append(dict(kind='lower_entry',fraction=f,hits=hits,passed=ok))
  if not ok:fail.append(floor_support[-1])
 for j,coords in enumerate(r['ground_guard_support_points']):
  p=Vector(coords);p.z=.06;hits=ray(p,-up,.12,only=[r['changed_floor']]);ok=bool(hits) and abs(hits[0]['z'])<1e-4;floor_support.append(dict(kind='ground_guard',index=j,hits=hits,passed=ok))
@@ -61,5 +62,5 @@ for side,rad in [('INNER',RI),('OUTER',RO)]:
 assert bpy.data.objects[r['changed_floor']].modifiers['GH_down_void'].object.name=='R05_SOURCE_GROUND_OPENING'
 assert all(bpy.data.objects[n].hide_render for n in r['cutters'])
 assert abs(r['steps'][0]['top']-LOW-r['rise_m'])<1e-8 and abs(r['steps'][-1]['top']+r['rise_m'])<1e-8
-result=dict(file=r['file'],failures=fail,evaluated_solids=solids,walk_support_headroom=walk,stepped_underside_checks=underside,eye_path_rays=transitions,floor_support=floor_support,round_rail_checks=round_checks,risers_candidate=r['risers_candidate'],real_riser_count_verified=False,metric_photo_pose_verified=False,construction_acceptance=False)
+result=dict(lower_support_names=lower_support_names,file=r['file'],failures=fail,evaluated_solids=solids,walk_support_headroom=walk,stepped_underside_checks=underside,eye_path_rays=transitions,floor_support=floor_support,round_rail_checks=round_checks,risers_candidate=r['risers_candidate'],real_riser_count_verified=False,metric_photo_pose_verified=False,construction_acceptance=False)
 (B/'reports'/report_name).write_text(json.dumps(result,indent=2),encoding='utf8');print(json.dumps(result,indent=2));assert not fail,fail

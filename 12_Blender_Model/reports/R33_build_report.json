@@ -1,0 +1,38 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R33_ZEMIN_SERVIS_MEKAN_v002.blend",
+  "base_scene": "MUDAM_R32_TAS_AHSAP_YUZEY_v002.blend",
+  "closed_objects": [
+    "R33_WALL_WC_E_N",
+    "R33_WALL_WC_E_W",
+    "R33_WALL_WC_E_S",
+    "R33_WALL_WC_W_N",
+    "R33_WALL_WC_W_E",
+    "R33_WALL_WC_W_S",
+    "R33_WALL_CLOAK_N",
+    "R33_WALL_CLOAK_N_RETURN",
+    "R33_WALL_CLOAK_W",
+    "R33_WALL_CLOAK_SW",
+    "R33_WALL_CLOAK_S",
+    "R33_WALL_CLOAK_S_RETURN",
+    "R33_WALL_SHOP_W",
+    "R33_WALL_SHOP_S",
+    "R33_WALL_SHOP_E",
+    "R33_WALL_LOBBY_E_NIB",
+    "R33_WALL_LOBBY_W_NIB",
+    "R33_WALL_SERVICE_W_N",
+    "R33_WALL_SERVICE_W_E",
+    "R33_WALL_SERVICE_W_W",
+    "R33_WALL_GALLERY_E_S",
+    "R33_WALL_GALLERY_W_S",
+    "R33_CEILING_WC_E",
+    "R33_CEILING_WC_W",
+    "R33_CEILING_CLOAK",
+    "R33_CEILING_SHOP",
+    "R33_FLOOR_CLOAK"
+  ],
+  "changed_inherited_objects": [
+    "P05_MAIN_ATRIUM_BASE_4"
+  ],
+  "ceiling_z": 4.35,
+  "construction_acceptance": false
+}

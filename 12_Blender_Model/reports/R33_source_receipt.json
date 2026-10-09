@@ -1,0 +1,20 @@
+{
+  "sources": [
+    {
+      "id": "102",
+      "path": "01_Kat_Planlari/Resmi_Kat_Semalari/102_Resmi_kat_semasi_zemin_0_Mudam.jpeg",
+      "sha256": "f4d1d1992e1e2d664d5bf5fddd6aedd760edb2931f398e52b5e13316acec2407",
+      "source_url": "https://www.mudam.com/fr/floor-plans",
+      "credit": "Mudam Luxembourg; kullan\u0131c\u0131 taraf\u0131ndan verilen do\u011frudan ba\u011flant\u0131",
+      "source_date": "unknown; do not infer from download date",
+      "modified": false
+    }
+  ],
+  "pdf_path": "08_Belgeler/Mudam_Wim_Delvoye_2016_kat_semalari.pdf",
+  "pdf_sha256": "f2b04806918ac0ac6ac2e8cad98b3cdd143986b62fe102410aeca6b5aa101128",
+  "page_index": 4,
+  "path_index": 120,
+  "plan_check": "references/R33_service_plan_check.png",
+  "configuration": "config/ground_service_rooms.json",
+  "construction_acceptance": false
+}

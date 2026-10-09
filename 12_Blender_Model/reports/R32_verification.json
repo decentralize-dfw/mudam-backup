@@ -1,0 +1,49 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R32_TAS_AHSAP_YUZEY_v002.blend",
+  "failures": [],
+  "inherited_geometry_objects": 7139,
+  "geometry_or_visibility_changes": [],
+  "surface_objects": 75,
+  "mapped_faces": 248,
+  "white_interior_faces": 20,
+  "uv_projection_errors": [],
+  "packed_images": [
+    {
+      "name": "R32_limestone_candidate_basecolor.png",
+      "size": [
+        2048,
+        1536
+      ],
+      "packed": true,
+      "colour_space": "sRGB"
+    },
+    {
+      "name": "R32_limestone_candidate_normal.png",
+      "size": [
+        2048,
+        1536
+      ],
+      "packed": true,
+      "colour_space": "Non-Color"
+    },
+    {
+      "name": "R32_wood_candidate_basecolor.png",
+      "size": [
+        2048,
+        1536
+      ],
+      "packed": true,
+      "colour_space": "sRGB"
+    },
+    {
+      "name": "R32_wood_candidate_normal.png",
+      "size": [
+        2048,
+        1536
+      ],
+      "packed": true,
+      "colour_space": "Non-Color"
+    }
+  ],
+  "construction_acceptance": false
+}

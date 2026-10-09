@@ -1,0 +1,291 @@
+{
+  "base_scene": "MUDAM_R33_ZEMIN_SERVIS_MEKAN_v002.blend",
+  "osm_path": "10_Olcekli_Plan_ve_Fotograf_Analizi/kaynak_veri/osm_ways_utm.json",
+  "osm_sha256": "fb805c54850922d05d1a40130b77eec6654c54f2a0b89def5be0c3b3b58a70b0",
+  "ways": [
+    {
+      "id": "759551375",
+      "tags": {
+        "bridge:structure": "beam",
+        "layer": "1",
+        "man_made": "bridge"
+      },
+      "coordinates": [
+        [
+          6.1405514,
+          49.6172378
+        ],
+        [
+          6.140548,
+          49.6174495
+        ],
+        [
+          6.1404203,
+          49.6174486
+        ],
+        [
+          6.1402941,
+          49.6174478
+        ],
+        [
+          6.1402975,
+          49.6172361
+        ],
+        [
+          6.1405514,
+          49.6172378
+        ]
+      ],
+      "xy": [
+        [
+          293463.00100257783,
+          5500002.1904852325
+        ],
+        [
+          293463.650769423,
+          5500025.731350863
+        ],
+        [
+          293454.4245015676,
+          5500025.982211095
+        ],
+        [
+          293445.3069861104,
+          5500026.240080482
+        ],
+        [
+          293444.6571396892,
+          5500002.699214864
+        ],
+        [
+          293463.00100257783,
+          5500002.1904852325
+        ]
+      ],
+      "node_ids": [
+        "66550401",
+        "7095302058",
+        "634300493",
+        "6380924930",
+        "7095302057",
+        "66550401"
+      ]
+    },
+    {
+      "id": "759551376",
+      "tags": {
+        "bridge:structure": "beam",
+        "layer": "1",
+        "man_made": "bridge"
+      },
+      "coordinates": [
+        [
+          6.1405541,
+          49.6170721
+        ],
+        [
+          6.1408847,
+          49.6170743
+        ],
+        [
+          6.1408834,
+          49.6171567
+        ],
+        [
+          6.1408821,
+          49.61724
+        ],
+        [
+          6.1405514,
+          49.6172378
+        ],
+        [
+          6.1405541,
+          49.6170721
+        ]
+      ],
+      "xy": [
+        [
+          293462.49522693583,
+          5499983.764675597
+        ],
+        [
+          293486.3805631996,
+          5499983.100852122
+        ],
+        [
+          293486.6351181992,
+          5499992.263599744
+        ],
+        [
+          293486.8934797469,
+          5500001.526387008
+        ],
+        [
+          293463.00100257783,
+          5500002.1904852325
+        ],
+        [
+          293462.49522693583,
+          5499983.764675597
+        ]
+      ],
+      "node_ids": [
+        "7095302062",
+        "7095302061",
+        "634300477",
+        "7095302060",
+        "66550401",
+        "7095302062"
+      ]
+    },
+    {
+      "id": "759554469",
+      "tags": {
+        "barrier": "wall",
+        "layer": "2",
+        "note": "layer 2 for over the bridge (itself being supposed over a land)"
+      },
+      "coordinates": [
+        [
+          6.1402941,
+          49.6174478
+        ],
+        [
+          6.1402975,
+          49.6172361
+        ]
+      ],
+      "xy": [
+        [
+          293445.3069861104,
+          5500026.240080482
+        ],
+        [
+          293444.6571396892,
+          5500002.699214864
+        ]
+      ],
+      "node_ids": [
+        "6380924930",
+        "7095302057"
+      ]
+    },
+    {
+      "id": "759554470",
+      "tags": {
+        "barrier": "handrail",
+        "layer": "2",
+        "note": "layer 2 for over the bridge (itself being supposed over a land)"
+      },
+      "coordinates": [
+        [
+          6.1405514,
+          49.6172378
+        ],
+        [
+          6.140548,
+          49.6174495
+        ]
+      ],
+      "xy": [
+        [
+          293463.00100257783,
+          5500002.1904852325
+        ],
+        [
+          293463.650769423,
+          5500025.731350863
+        ]
+      ],
+      "node_ids": [
+        "66550401",
+        "7095302058"
+      ]
+    },
+    {
+      "id": "759554471",
+      "tags": {
+        "barrier": "wall",
+        "layer": "2",
+        "note": "layer 2 for over the bridge (itself being supposed over a land)"
+      },
+      "coordinates": [
+        [
+          6.1408847,
+          49.6170743
+        ],
+        [
+          6.1405541,
+          49.6170721
+        ]
+      ],
+      "xy": [
+        [
+          293486.3805631996,
+          5499983.100852122
+        ],
+        [
+          293462.49522693583,
+          5499983.764675597
+        ]
+      ],
+      "node_ids": [
+        "7095302061",
+        "7095302062"
+      ]
+    },
+    {
+      "id": "759554472",
+      "tags": {
+        "barrier": "handrail",
+        "layer": "2",
+        "note": "layer 2 for over the bridge (itself being supposed over a land)"
+      },
+      "coordinates": [
+        [
+          6.1408821,
+          49.61724
+        ],
+        [
+          6.1405514,
+          49.6172378
+        ]
+      ],
+      "xy": [
+        [
+          293486.8934797469,
+          5500001.526387008
+        ],
+        [
+          293463.00100257783,
+          5500002.1904852325
+        ]
+      ],
+      "node_ids": [
+        "7095302060",
+        "66550401"
+      ]
+    }
+  ],
+  "source_ids": [
+    "063",
+    "065",
+    "116",
+    "OSM"
+  ],
+  "floor_z": 0,
+  "deck_thickness_m": 0.4,
+  "parapet_height_m": 1.05,
+  "parapet_width_m": 0.35,
+  "handrail_height_m": 1.05,
+  "post_pitch_max_m": 1.25,
+  "post_width_m": 0.05,
+  "rail_radius_m": 0.025,
+  "limits": [
+    "Plan coordinates taken from archived OSM, same EPSG:32632 origin as building. No measured absolute elevations.",
+    "Deck level continues entrance zero as a candidate; bridge fall, thickness, support bearings and dimensions are unmeasured.",
+    "OSM solid wall versus handrail distinction supported by 063/116; member sections and two intermediate bars are conditional.",
+    "Only approach deck and edge protection in this phase; moat terrain, abutments and historic-wall heights remain open."
+  ]
+}

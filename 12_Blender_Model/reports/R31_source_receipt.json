@@ -1,0 +1,48 @@
+{
+  "sources": [
+    {
+      "id": "015",
+      "path": "07_Yapi_Detaylari/Aydinlatma/015_Giris_tavan_ve_aydinlatma_WikiArquitectura.jpg",
+      "sha256": "b59093560272b29f5073e53e302c6798cfe275a411c7a18611217e3c31948291",
+      "source_url": "https://es.wikiarquitectura.com/edificio/museo-de-arte-moderno-grand-duc-jean-mudam/",
+      "credit": "WikiArquitectura; sayfadaki fotoğraf serisi Haziran 2019",
+      "source_date": "unknown; do not infer from download date",
+      "modified": false
+    },
+    {
+      "id": "016",
+      "path": "07_Yapi_Detaylari/Aydinlatma/016_Giris_tavan_ve_aydinlatma_WikiArquitectura.jpg",
+      "sha256": "e324ed67206ee6155c68708e89587e616756201f3a59e771ed3c024d80edd263",
+      "source_url": "https://es.wikiarquitectura.com/edificio/museo-de-arte-moderno-grand-duc-jean-mudam/",
+      "credit": "WikiArquitectura; sayfadaki fotoğraf serisi Haziran 2019",
+      "source_date": "unknown; do not infer from download date",
+      "modified": false
+    },
+    {
+      "id": "103",
+      "path": "01_Kat_Planlari/Resmi_Kat_Semalari/103_Resmi_kat_semasi_ust_arti_1_Mudam.jpeg",
+      "sha256": "bd94768b80070517fd9ff2fbcb120fc1ba35aa048de49f6a25cbf57ab9c353a2",
+      "source_url": "https://www.mudam.com/fr/floor-plans",
+      "credit": "Mudam Luxembourg; kullanıcı tarafından verilen doğrudan bağlantı",
+      "source_date": "unknown; do not infer from download date",
+      "modified": false
+    },
+    {
+      "id": "PDF2016",
+      "path": "08_Belgeler/Mudam_Wim_Delvoye_2016_kat_semalari.pdf",
+      "sha256": "f2b04806918ac0ac6ac2e8cad98b3cdd143986b62fe102410aeca6b5aa101128",
+      "source_url": null,
+      "credit": "Mudam, Wim Delvoye 2016 press kit, page 5; existing local calibration source",
+      "source_date": "2016",
+      "modified": false,
+      "provenance_gap": "Exact original download URL not retained in local inventory"
+    }
+  ],
+  "limits": [
+    "Studio perimeter and side passage from PDF103; 103 visitor plan labels Studio.",
+    "Ceiling continues the adjacent reading-room lower ceiling candidate; no located studio interior photograph.",
+    "White walls/stone floor are representative, not verified finish specification.",
+    "No unlocated windows, doors, furniture or teaching equipment invented."
+  ],
+  "construction_acceptance": false
+}

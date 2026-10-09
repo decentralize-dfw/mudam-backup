@@ -1,0 +1,45 @@
+{
+  "base_scene": "MUDAM_R31_UST_STUDIO_v001.blend",
+  "source_ids": [
+    "003",
+    "004",
+    "017",
+    "056",
+    "061",
+    "062",
+    "069",
+    "070",
+    "077"
+  ],
+  "stone_prefixes": [
+    "P05_FRONT_",
+    "P05_GALLERY_HALL_",
+    "R07_STAIRWELL_",
+    "R09_READING_WALL_",
+    "R11_STONE",
+    "R17_",
+    "R27_",
+    "R28_E_HIGH",
+    "R28_W_HIGH",
+    "R29_E_FOYER_DIVIDER",
+    "R29_W_DIVIDER_END",
+    "R30_",
+    "R31_PASSAGE_SIDE_"
+  ],
+  "stone_material_name": "P05_NEUTRAL_ENVELOPE",
+  "wood_material_name": "R23_GALLERY_WOOD_FLOOR_CANDIDATE",
+  "repeat_m": [
+    3.2,
+    2.4
+  ],
+  "stone_roughness": 0.55,
+  "wood_roughness": 0.45,
+  "normal_strength": 0.3,
+  "limits": [
+    "Procedural modelling patterns, not source scans. No colour calibration or measured module spacing.",
+    "Only near-vertical faces of selected stone envelopes receive ashlar; floors, stairs, sloping roof finishes and curved parapets are excluded.",
+    "Wood plank direction follows each floor polygon principal axis as a modelling candidate, not a photo-verified layout.",
+    "No geometric displacement; all building vertices, object transforms and openings must remain identical.",
+    "R27 inward vertical faces use white gallery finish family from 061/062; exact photo-room placement remains unresolved. Exterior faces keep limestone."
+  ]
+}
