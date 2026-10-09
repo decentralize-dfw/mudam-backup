@@ -139,3 +139,6 @@ R35 güncel sahne; R29–R35 bölgesel sahneler, kaynak/varsayım kayıtları ve
 
 
 2026-10-09T08:50:57.210117+00:00 — R60 v002 giriş/kolon/saçak yüzeyleri; R61 v002 fotoğrafta görülen altı armatür ve yuvaları. 7.235 görünür mesh,102 yuva ışını kontrol edildi. Eşleme belirsizliği açık; model üretimi sürüyor.
+
+
+2026-10-09T08:56:21.447708+00:00 — 386951b5754ae3f75a4c0e79c132e45728ebf85f origin/main normal push doğrulandı; uzak main ve yerel HEAD aynı. R55–R61 sahneleri, renderlar ve kaynak kontrolleri gönderildi; R61 GLB84.707.696 bayt, tarayıcıda7.235 parça yüklendi. GitHub50MB tavsiye uyarısı verdi, aktarım başarılı ve dosyalar100MB sınırının altında. R62 döşeme örgüsü düzeltmesi sürüyor; üretim durmadı.
