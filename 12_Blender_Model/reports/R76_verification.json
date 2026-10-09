@@ -1,0 +1,146 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R76_MERDIVEN_DUVAR_UCLARI_v001.blend",
+  "solids": [
+    {
+      "name": "R10_UPPER_DIAGONAL_WALL",
+      "nonmanifold": 0,
+      "volume": 15.184155843742733,
+      "zero_faces": 0
+    },
+    {
+      "name": "R29_W_DIVIDER_END",
+      "nonmanifold": 0,
+      "volume": 0.576420774588216,
+      "zero_faces": 0
+    }
+  ],
+  "contacts": [
+    {
+      "a": "R29_W_DIVIDER_END",
+      "b": "R07_STAIRWELL_STONE_WEST",
+      "intersecting_triangles": 6,
+      "passed": true
+    },
+    {
+      "a": "R10_UPPER_DIAGONAL_WALL",
+      "b": "R73_E_CONTINUOUS_GALLERY_WALL",
+      "intersecting_triangles": 3,
+      "passed": true
+    }
+  ],
+  "source_portal_routes": [
+    {
+      "route": "E_STAIR",
+      "fraction": 0.1,
+      "height": 0.3,
+      "hits": [],
+      "passed": true
+    },
+    {
+      "route": "E_STAIR",
+      "fraction": 0.1,
+      "height": 1.5,
+      "hits": [],
+      "passed": true
+    },
+    {
+      "route": "E_STAIR",
+      "fraction": 0.1,
+      "height": 2.2,
+      "hits": [],
+      "passed": true
+    },
+    {
+      "route": "E_STAIR",
+      "fraction": 0.25,
+      "height": 0.3,
+      "hits": [],
+      "passed": true
+    },
+    {
+      "route": "E_STAIR",
+      "fraction": 0.25,
+      "height": 1.5,
+      "hits": [],
+      "passed": true
+    },
+    {
+      "route": "E_STAIR",
+      "fraction": 0.25,
+      "height": 2.2,
+      "hits": [],
+      "passed": true
+    },
+    {
+      "route": "E_STAIR",
+      "fraction": 0.5,
+      "height": 0.3,
+      "hits": [],
+      "passed": true
+    },
+    {
+      "route": "E_STAIR",
+      "fraction": 0.5,
+      "height": 1.5,
+      "hits": [],
+      "passed": true
+    },
+    {
+      "route": "E_STAIR",
+      "fraction": 0.5,
+      "height": 2.2,
+      "hits": [],
+      "passed": true
+    },
+    {
+      "route": "E_STAIR",
+      "fraction": 0.75,
+      "height": 0.3,
+      "hits": [],
+      "passed": true
+    },
+    {
+      "route": "E_STAIR",
+      "fraction": 0.75,
+      "height": 1.5,
+      "hits": [],
+      "passed": true
+    },
+    {
+      "route": "E_STAIR",
+      "fraction": 0.75,
+      "height": 2.2,
+      "hits": [],
+      "passed": true
+    },
+    {
+      "route": "E_STAIR",
+      "fraction": 0.9,
+      "height": 0.3,
+      "hits": [],
+      "passed": true
+    },
+    {
+      "route": "E_STAIR",
+      "fraction": 0.9,
+      "height": 1.5,
+      "hits": [],
+      "passed": true
+    },
+    {
+      "route": "E_STAIR",
+      "fraction": 0.9,
+      "height": 2.2,
+      "hits": [],
+      "passed": true
+    }
+  ],
+  "failures": [],
+  "construction_acceptance": false,
+  "limits": [
+    "Small source-registration discrepancies are reconciled to the already established adjoining wall; not new measured dimensions.",
+    "East diagonal end reaches existing source corner; its start and z extents remain fixed.",
+    "West stub width remains a candidate; thickness side corrected to match the adjoining stone wall.",
+    "Full staircase and roof/glass coordination remain later system checks."
+  ]
+}

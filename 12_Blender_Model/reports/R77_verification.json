@@ -1,0 +1,143 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R77_BATI_UC_DUVAR_BAGLANTISI_v001.blend",
+  "solids": [
+    {
+      "name": "P05_WEST_END",
+      "nonmanifold": 0,
+      "volume": 14.319901753788823,
+      "zero_faces": 0
+    },
+    {
+      "name": "P11_WEST_STONE_BASE_17",
+      "nonmanifold": 0,
+      "volume": 1.4508591816254803,
+      "zero_faces": 0
+    }
+  ],
+  "fixed_heights_and_unrelated_vertices": [
+    {
+      "name": "P05_WEST_END",
+      "unexpected_changes": []
+    },
+    {
+      "name": "P11_WEST_STONE_BASE_17",
+      "unexpected_changes": []
+    }
+  ],
+  "seam_area_rays": [
+    {
+      "fraction": 0.15,
+      "interior_of": "P05_WEST_END",
+      "before": [
+        "P11_WEST_STONE_BASE_17"
+      ],
+      "after": [
+        "P05_WEST_END",
+        "P11_WEST_STONE_BASE_17"
+      ],
+      "passed": true
+    },
+    {
+      "fraction": 0.15,
+      "interior_of": "P11_WEST_STONE_BASE_17",
+      "before": [
+        "P11_WEST_STONE_BASE_17"
+      ],
+      "after": [
+        "P05_WEST_END",
+        "P11_WEST_STONE_BASE_17"
+      ],
+      "passed": true
+    },
+    {
+      "fraction": 0.3,
+      "interior_of": "P05_WEST_END",
+      "before": [],
+      "after": [
+        "P05_WEST_END",
+        "P11_WEST_STONE_BASE_17"
+      ],
+      "passed": true
+    },
+    {
+      "fraction": 0.3,
+      "interior_of": "P11_WEST_STONE_BASE_17",
+      "before": [
+        "P11_WEST_STONE_BASE_17"
+      ],
+      "after": [
+        "P05_WEST_END",
+        "P11_WEST_STONE_BASE_17"
+      ],
+      "passed": true
+    },
+    {
+      "fraction": 0.5,
+      "interior_of": "P05_WEST_END",
+      "before": [],
+      "after": [
+        "P05_WEST_END",
+        "P11_WEST_STONE_BASE_17"
+      ],
+      "passed": true
+    },
+    {
+      "fraction": 0.5,
+      "interior_of": "P11_WEST_STONE_BASE_17",
+      "before": [],
+      "after": [
+        "P05_WEST_END",
+        "P11_WEST_STONE_BASE_17"
+      ],
+      "passed": true
+    },
+    {
+      "fraction": 0.7,
+      "interior_of": "P05_WEST_END",
+      "before": [],
+      "after": [
+        "P05_WEST_END",
+        "P11_WEST_STONE_BASE_17"
+      ],
+      "passed": true
+    },
+    {
+      "fraction": 0.7,
+      "interior_of": "P11_WEST_STONE_BASE_17",
+      "before": [],
+      "after": [
+        "P05_WEST_END",
+        "P11_WEST_STONE_BASE_17"
+      ],
+      "passed": true
+    },
+    {
+      "fraction": 0.85,
+      "interior_of": "P05_WEST_END",
+      "before": [],
+      "after": [
+        "P05_WEST_END",
+        "P11_WEST_STONE_BASE_17"
+      ],
+      "passed": true
+    },
+    {
+      "fraction": 0.85,
+      "interior_of": "P11_WEST_STONE_BASE_17",
+      "before": [],
+      "after": [
+        "P05_WEST_END",
+        "P11_WEST_STONE_BASE_17"
+      ],
+      "passed": true
+    }
+  ],
+  "previously_empty_samples": 7,
+  "failures": [],
+  "construction_acceptance": false,
+  "limits": [
+    "End face reaches existing canonical curve endpoint 862,161; no new survey measurement.",
+    "All heights retained. West roof/end-wall height and glass interface require the later dedicated roof stage.",
+    "Old thicknesses remain candidates; shared back faces mitered without changing the rest of the curve."
+  ]
+}

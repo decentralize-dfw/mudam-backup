@@ -1,0 +1,137 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R77_BATI_UC_DUVAR_BAGLANTISI_v001.blend",
+  "base_scene": "MUDAM_R76_MERDIVEN_DUVAR_UCLARI_v001.blend",
+  "closed_objects": [
+    "P05_WEST_END",
+    "P11_WEST_STONE_BASE_17"
+  ],
+  "changed_inherited_objects": [
+    "P05_WEST_END",
+    "P11_WEST_STONE_BASE_17"
+  ],
+  "before_world_vertices": {
+    "P05_WEST_END": [
+      [
+        -42.033241271972656,
+        13.434985160827637,
+        0.0
+      ],
+      [
+        -33.35961151123047,
+        21.500295639038086,
+        0.0
+      ],
+      [
+        -33.35961151123047,
+        21.500295639038086,
+        13.923118591308594
+      ],
+      [
+        -42.033241271972656,
+        13.434985160827637,
+        5.659074783325195
+      ],
+      [
+        -41.9515266418457,
+        13.34710693359375,
+        0.0
+      ],
+      [
+        -33.277896881103516,
+        21.412416458129883,
+        0.0
+      ],
+      [
+        -33.277896881103516,
+        21.412416458129883,
+        13.923118591308594
+      ],
+      [
+        -41.9515266418457,
+        13.34710693359375,
+        5.659074783325195
+      ]
+    ],
+    "P11_WEST_STONE_BASE_17": [
+      [
+        -40.608123779296875,
+        12.670610427856445,
+        0.0
+      ],
+      [
+        -42.15808868408203,
+        13.237784385681152,
+        0.0
+      ],
+      [
+        -42.15808868408203,
+        13.237784385681152,
+        2.9155502319335938
+      ],
+      [
+        -40.608123779296875,
+        12.670610427856445,
+        2.9155502319335938
+      ],
+      [
+        -40.71121597290039,
+        12.388879776000977,
+        0.0
+      ],
+      [
+        -42.26118087768555,
+        12.956053733825684,
+        0.0
+      ],
+      [
+        -42.26118087768555,
+        12.956053733825684,
+        2.9155502319335938
+      ],
+      [
+        -40.71121597290039,
+        12.388879776000977,
+        2.9155502319335938
+      ]
+    ]
+  },
+  "shared_front": [
+    -42.15808868408203,
+    13.237784385681152,
+    0.0
+  ],
+  "shared_back": [
+    -42.276737213134766,
+    12.961747169494629,
+    0.0
+  ],
+  "z_overlap": [
+    0,
+    2.9155502319335938
+  ],
+  "allowed_vertex_indices": {
+    "P05_WEST_END": [
+      0,
+      3,
+      4,
+      7
+    ],
+    "P11_WEST_STONE_BASE_17": [
+      5,
+      6
+    ]
+  },
+  "source_ids": [
+    "102",
+    "103",
+    "093",
+    "097"
+  ],
+  "front_endpoint_translation_m": 0.23339884650222503,
+  "construction_acceptance": false,
+  "limits": [
+    "End face reaches existing canonical curve endpoint 862,161; no new survey measurement.",
+    "All heights retained. West roof/end-wall height and glass interface require the later dedicated roof stage.",
+    "Old thicknesses remain candidates; shared back faces mitered without changing the rest of the curve."
+  ]
+}

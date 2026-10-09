@@ -1,0 +1,81 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R79_CATIDA_EKSIK_KOSELER_v001.blend",
+  "base_scene": "MUDAM_R78_ZEMIN_GALERI_DUVAR_GOVDELERI_v001.blend",
+  "closed_objects": [
+    "P05_MAIN_ROOF_DECK",
+    "R39_PUBLIC_CEILING_13"
+  ],
+  "changed_inherited_objects": [
+    "P05_MAIN_ROOF_DECK",
+    "R39_PUBLIC_CEILING_13"
+  ],
+  "new_hidden_cutter": "R79_ATRIUM_ROOF_OPENING",
+  "roof_opening_canonical": [
+    [
+      462,
+      334
+    ],
+    [
+      688,
+      334
+    ],
+    [
+      688,
+      464
+    ],
+    [
+      592,
+      560
+    ],
+    [
+      558,
+      560
+    ],
+    [
+      462,
+      464
+    ]
+  ],
+  "roof_opening_z": [
+    9.923118591308594,
+    14.923118591308594
+  ],
+  "restored_roof_regions": {
+    "E": [
+      [
+        462,
+        464
+      ],
+      [
+        558,
+        560
+      ],
+      [
+        462,
+        560
+      ]
+    ],
+    "W": [
+      [
+        688,
+        464
+      ],
+      [
+        688,
+        560
+      ],
+      [
+        592,
+        560
+      ]
+    ]
+  },
+  "reading_void_existing_cutter": "P17_LP1_DIAMOND_VOID",
+  "construction_acceptance": false,
+  "limits": [
+    "Existing roof deck elevation and thickness retained; neither new roof height nor glazing layout inferred.",
+    "116 shows opaque roof around raised atrium; south boundaries follow current P06 / R72 geometry.",
+    "015/016 show the genuine reading-room floor opening; R39 ceiling had incorrectly blocked it just below upper floor.",
+    "Other floor, wall and roof interface checks remain open."
+  ]
+}

@@ -27,9 +27,18 @@ Tamam işareti, yalnız karşısındaki kontrolün yapıldığını belirtir. Ha
 - [ ] Kullanıcı görsellerindeki yan salon duvar uçları ve alt birleşimler.
 - [ ] Kuzey merkez cam şeridinin eksik alt kapanışı (taş duvarla kapatılmayacak).
 
-- [x] R73: doğu/batı galeri gövdeleri; 540 yüzey ve 90 geçiş kontrolü.
+- [x] R73: doğu/batı galeri gövdeleri; 576 yüzey ve 90 geçiş kontrolü.
 - [x] R74: Studio dört köşesi; sekiz önce/sonra kontrolü ve plan karşılaştırması.
 
 ## Açık sınırlar
 
 Ziyaretçi planlarında bulunmayan teknik alan bölmeleri, duvar iç katmanları ve gizli taşıyıcı sistem uydurulmayacak. Bunların mevcut kaynaklarla doğrulanamaması ayrıca raporlanacak. Genel plan/kesit ölçek uyumu kullanıcının belirlediği sonraki aşamada tekrar değerlendirilecek.
+
+## R75–R76 yerel kontroller
+
+- [x] R75: oditoryum sahne arkası altı köşe ve 12 önce/sonra ışını; iki bağlam renderı.
+- [x] R76: doğu üst çapraz duvar ucu ve batı alt galeri dönüşü; iki yüzey teması ve 15 açık geçiş ışını.
+- [x] Envanter giriş dönüşleri, söveler ve pencere dönüşleriyle 242 kalıcı duvar adayına genişletildi; dört plan kesiti yenilendi.
+- [ ] Bağımsız görünen batı uç duvarı ve zemin galeri güney duvarının kaynak/bitiş yorumu.
+
+3451 konfigürasyon-sahne taraması ve 10 geçiş R74 üzerinde geçti; bu tarama kaynak yorumu ve kesin ölçü kabulü yerine geçmez.

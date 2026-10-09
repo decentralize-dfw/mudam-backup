@@ -1,0 +1,35 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R78_ZEMIN_GALERI_DUVAR_GOVDELERI_v001.blend",
+  "images": [
+    {
+      "image": "R78_after_west_ground.png",
+      "eye_canonical": [
+        727,
+        563,
+        1.65
+      ],
+      "target_canonical": [
+        786,
+        585,
+        1.8
+      ],
+      "lens": 23
+    },
+    {
+      "image": "R78_after_east_ground.png",
+      "eye_canonical": [
+        370,
+        490,
+        1.65
+      ],
+      "target_canonical": [
+        309,
+        487,
+        1.8
+      ],
+      "lens": 25
+    }
+  ],
+  "all_active_surroundings": true,
+  "metric_camera_match": false
+}

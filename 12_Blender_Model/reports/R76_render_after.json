@@ -1,0 +1,35 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R76_MERDIVEN_DUVAR_UCLARI_v001.blend",
+  "images": [
+    {
+      "image": "R76_after_east_stair.png",
+      "eye_canonical": [
+        400,
+        415,
+        8
+      ],
+      "target_canonical": [
+        350,
+        365,
+        7
+      ],
+      "lens": 25
+    },
+    {
+      "image": "R76_after_lower_return.png",
+      "eye_canonical": [
+        638,
+        405,
+        -3.6
+      ],
+      "target_canonical": [
+        688,
+        430,
+        -3.5
+      ],
+      "lens": 24
+    }
+  ],
+  "all_active_surroundings": true,
+  "metric_camera_match": false
+}

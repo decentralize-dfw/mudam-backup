@@ -1,0 +1,281 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R75_ODITORYUM_DUVAR_BIRLESIMLERI_v001.blend",
+  "solids": [
+    {
+      "name": "R19_STAGE_BACK_0",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "signed_volume": 0.8839943124174043
+    },
+    {
+      "name": "R19_STAGE_BACK_1",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "signed_volume": 0.27853294831812425
+    },
+    {
+      "name": "R19_STAGE_BACK_2",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "signed_volume": 2.57777709103561
+    },
+    {
+      "name": "R19_STAGE_BACK_3",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "signed_volume": 4.176364003527915
+    },
+    {
+      "name": "R19_STAGE_BACK_4",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "signed_volume": 2.4220701610100033
+    },
+    {
+      "name": "R19_STAGE_BACK_5",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "signed_volume": 0.5029583048588506
+    },
+    {
+      "name": "R19_STAGE_BACK_6",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "signed_volume": 0.8840087425714112
+    }
+  ],
+  "front_and_height_preservation": [
+    {
+      "name": "R19_STAGE_BACK_0",
+      "unchanged_vertices": 6,
+      "unexpected_changed_vertices": []
+    },
+    {
+      "name": "R19_STAGE_BACK_1",
+      "unchanged_vertices": 4,
+      "unexpected_changed_vertices": []
+    },
+    {
+      "name": "R19_STAGE_BACK_2",
+      "unchanged_vertices": 4,
+      "unexpected_changed_vertices": []
+    },
+    {
+      "name": "R19_STAGE_BACK_3",
+      "unchanged_vertices": 4,
+      "unexpected_changed_vertices": []
+    },
+    {
+      "name": "R19_STAGE_BACK_4",
+      "unchanged_vertices": 4,
+      "unexpected_changed_vertices": []
+    },
+    {
+      "name": "R19_STAGE_BACK_5",
+      "unchanged_vertices": 4,
+      "unexpected_changed_vertices": []
+    },
+    {
+      "name": "R19_STAGE_BACK_6",
+      "unchanged_vertices": 6,
+      "unexpected_changed_vertices": []
+    }
+  ],
+  "junction_rays": [
+    {
+      "level": "LM1",
+      "side": "AUDITORIUM",
+      "corner": 0,
+      "point": [
+        10.080401420593262,
+        8.673359870910645,
+        0.0
+      ],
+      "before_hits": [],
+      "after_hits": [
+        "R19_STAGE_BACK_0"
+      ],
+      "passed": true
+    },
+    {
+      "level": "LM1",
+      "side": "AUDITORIUM",
+      "corner": 0,
+      "point": [
+        9.98618221282959,
+        8.676783561706543,
+        0.0
+      ],
+      "before_hits": [],
+      "after_hits": [
+        "R19_STAGE_BACK_1"
+      ],
+      "passed": true
+    },
+    {
+      "level": "LM1",
+      "side": "AUDITORIUM",
+      "corner": 1,
+      "point": [
+        9.780272483825684,
+        8.898223876953125,
+        0.0
+      ],
+      "before_hits": [
+        "R19_STAGE_BACK_1",
+        "R19_STAGE_BACK_2"
+      ],
+      "after_hits": [
+        "R19_STAGE_BACK_2"
+      ],
+      "passed": true
+    },
+    {
+      "level": "LM1",
+      "side": "AUDITORIUM",
+      "corner": 1,
+      "point": [
+        9.82667350769043,
+        8.876998901367188,
+        0.0
+      ],
+      "before_hits": [
+        "R19_STAGE_BACK_1",
+        "R19_STAGE_BACK_2"
+      ],
+      "after_hits": [
+        "R19_STAGE_BACK_1"
+      ],
+      "passed": true
+    },
+    {
+      "level": "LM1",
+      "side": "AUDITORIUM",
+      "corner": 2,
+      "point": [
+        6.8494110107421875,
+        8.985198020935059,
+        0.0
+      ],
+      "before_hits": [],
+      "after_hits": [
+        "R19_STAGE_BACK_2"
+      ],
+      "passed": true
+    },
+    {
+      "level": "LM1",
+      "side": "AUDITORIUM",
+      "corner": 2,
+      "point": [
+        6.803010940551758,
+        9.00642204284668,
+        0.0
+      ],
+      "before_hits": [],
+      "after_hits": [
+        "R19_STAGE_BACK_3"
+      ],
+      "passed": true
+    },
+    {
+      "level": "LM1",
+      "side": "AUDITORIUM",
+      "corner": 3,
+      "point": [
+        3.535912275314331,
+        12.519938468933105,
+        0.0
+      ],
+      "before_hits": [],
+      "after_hits": [
+        "R19_STAGE_BACK_3"
+      ],
+      "passed": true
+    },
+    {
+      "level": "LM1",
+      "side": "AUDITORIUM",
+      "corner": 3,
+      "point": [
+        3.518419027328491,
+        12.572184562683105,
+        0.0
+      ],
+      "before_hits": [],
+      "after_hits": [
+        "R19_STAGE_BACK_4"
+      ],
+      "passed": true
+    },
+    {
+      "level": "LM1",
+      "side": "AUDITORIUM",
+      "corner": 4,
+      "point": [
+        3.805933713912964,
+        15.356603622436523,
+        0.0
+      ],
+      "before_hits": [
+        "R19_STAGE_BACK_4",
+        "R19_STAGE_BACK_5"
+      ],
+      "after_hits": [
+        "R19_STAGE_BACK_5"
+      ],
+      "passed": true
+    },
+    {
+      "level": "LM1",
+      "side": "AUDITORIUM",
+      "corner": 4,
+      "point": [
+        3.8234267234802246,
+        15.30435848236084,
+        0.0
+      ],
+      "before_hits": [
+        "R19_STAGE_BACK_4",
+        "R19_STAGE_BACK_5"
+      ],
+      "after_hits": [
+        "R19_STAGE_BACK_4"
+      ],
+      "passed": true
+    },
+    {
+      "level": "LM1",
+      "side": "AUDITORIUM",
+      "corner": 5,
+      "point": [
+        3.4399962425231934,
+        15.71670913696289,
+        0.0
+      ],
+      "before_hits": [],
+      "after_hits": [
+        "R19_STAGE_BACK_5"
+      ],
+      "passed": true
+    },
+    {
+      "level": "LM1",
+      "side": "AUDITORIUM",
+      "corner": 5,
+      "point": [
+        3.4434192180633545,
+        15.810928344726562,
+        0.0
+      ],
+      "before_hits": [],
+      "after_hits": [
+        "R19_STAGE_BACK_6"
+      ],
+      "passed": true
+    }
+  ],
+  "previously_open_samples": 8,
+  "failures": [],
+  "construction_acceptance": false
+}

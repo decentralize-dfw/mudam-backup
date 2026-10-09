@@ -1,0 +1,17 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R76_MERDIVEN_DUVAR_UCLARI_v001.blend",
+  "base_scene": "12_Blender_Model/scenes/MUDAM_R75_ODITORYUM_DUVAR_BIRLESIMLERI_v001.blend",
+  "inherited_objects_checked": 8506,
+  "changed_inherited_objects": [
+    "R10_UPPER_DIAGONAL_WALL",
+    "R29_W_DIVIDER_END"
+  ],
+  "allowed_changes": [
+    "R10_UPPER_DIAGONAL_WALL",
+    "R29_W_DIVIDER_END"
+  ],
+  "allowed_but_unchanged": [],
+  "new_objects": [],
+  "failures": [],
+  "construction_acceptance": false
+}

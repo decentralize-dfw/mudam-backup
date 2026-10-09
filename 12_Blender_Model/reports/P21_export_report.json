@@ -1,7 +1,7 @@
 {
-  "source_scene": "12_Blender_Model/scenes/MUDAM_R74_STUDIO_DUVAR_BIRLESIMLERI_v003.blend",
-  "file": "12_Blender_Model/exports/MUDAM_R74_STUDIO_DUVAR_BIRLESIMLERI_v003_preview.glb",
-  "selected_mesh_count": 7754,
+  "source_scene": "12_Blender_Model/scenes/MUDAM_R80_KUZEY_CAM_ALT_KAPANIS_v001.blend",
+  "file": "12_Blender_Model/exports/MUDAM_R80_KUZEY_CAM_ALT_KAPANIS_v001_preview.glb",
+  "selected_mesh_count": 7759,
   "selected_names": [
     "R37_GH_EAST_PORTAL_METAL_HEAD",
     "P05_FRONT_0",
@@ -2797,6 +2797,9 @@
     "P11_LINK_SIDE_2_06_00_FRAME_1",
     "P11_LINK_SIDE_2_07_00_FRAME_0",
     "P11_LINK_SIDE_2_07_00_FRAME_1",
+    "R80_NORTH_SILL_00",
+    "R80_NORTH_SILL_01",
+    "R80_NORTH_SILL_02",
     "P11_EAST_STRUT_1_1",
     "P11_EAST_ROD_1_1_0",
     "P11_EAST_ROD_1_1_1",
@@ -7756,7 +7759,9 @@
     "R72_HIGH_ATRIUM_WALL_3",
     "R72_HIGH_ATRIUM_WALL_5",
     "R73_E_CONTINUOUS_GALLERY_WALL",
-    "R73_W_CONTINUOUS_GALLERY_WALL"
+    "R73_W_CONTINUOUS_GALLERY_WALL",
+    "R78_E_GROUND_GALLERY_WALL_BODY",
+    "R78_W_GROUND_GALLERY_WALL_BODY"
   ],
   "blender_world_bounds": {
     "min": [

@@ -1,0 +1,92 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R78_ZEMIN_GALERI_DUVAR_GOVDELERI_v001.blend",
+  "base_scene": "MUDAM_R77_BATI_UC_DUVAR_BAGLANTISI_v001.blend",
+  "closed_objects": [
+    "R78_E_GROUND_GALLERY_WALL_BODY",
+    "R78_W_GROUND_GALLERY_WALL_BODY"
+  ],
+  "changed_inherited_objects": [],
+  "wall_bodies": [
+    {
+      "name": "R78_E_GROUND_GALLERY_WALL_BODY",
+      "canonical_polygon": [
+        [
+          290.51013751293084,
+          347.2823069081042
+        ],
+        [
+          309.00953748196923,
+          347.2823069081042
+        ],
+        [
+          309.00953748096947,
+          534.654996349675
+        ],
+        [
+          290.51013751293084,
+          534.654996349675
+        ]
+      ],
+      "z_range": [
+        0,
+        4.35
+      ]
+    },
+    {
+      "name": "R78_W_GROUND_GALLERY_WALL_BODY",
+      "canonical_polygon": [
+        [
+          842.1205409554461,
+          355.9736956570922
+        ],
+        [
+          842.1205409544011,
+          534.6549963500477
+        ],
+        [
+          817.0266720845289,
+          559.7448684491349
+        ],
+        [
+          795.0878250517906,
+          559.7448684486519
+        ],
+        [
+          795.0878250548456,
+          581.6837154833418
+        ],
+        [
+          757.651462322991,
+          619.1796663402843
+        ],
+        [
+          776.1815486962687,
+          619.1796663402843
+        ],
+        [
+          861.4898732991753,
+          534.2801747342698
+        ],
+        [
+          861.4898732991753,
+          355.9736956570922
+        ]
+      ],
+      "z_range": [
+        0,
+        4.35
+      ]
+    }
+  ],
+  "source_config": "ground_gallery_access.json",
+  "source_vector_paths": {
+    "W_gallery": 116,
+    "wall_ink": 0
+  },
+  "construction_acceptance": false,
+  "limits": [
+    "Existing PDF gallery inner boundaries and facade backs retained; wide core is source reconciliation, not measured wall build-up.",
+    "Only L00 opaque side boundaries; front east windows, all source entry portals, upper circulation and roof untouched.",
+    "No artwork or exhibition partitions added. Fixed gallery boundary supported by 2016 wall ink and visitor scheme."
+  ]
+}

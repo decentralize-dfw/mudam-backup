@@ -1,0 +1,19 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R79_CATIDA_EKSIK_KOSELER_v001.blend",
+  "base_scene": "12_Blender_Model/scenes/MUDAM_R78_ZEMIN_GALERI_DUVAR_GOVDELERI_v001.blend",
+  "inherited_objects_checked": 8508,
+  "changed_inherited_objects": [
+    "P05_MAIN_ROOF_DECK",
+    "R39_PUBLIC_CEILING_13"
+  ],
+  "allowed_changes": [
+    "P05_MAIN_ROOF_DECK",
+    "R39_PUBLIC_CEILING_13"
+  ],
+  "allowed_but_unchanged": [],
+  "new_objects": [
+    "R79_ATRIUM_ROOF_OPENING"
+  ],
+  "failures": [],
+  "construction_acceptance": false
+}

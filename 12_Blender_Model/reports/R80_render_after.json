@@ -1,0 +1,35 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R80_KUZEY_CAM_ALT_KAPANIS_v001.blend",
+  "images": [
+    {
+      "image": "R80_after_north_closure.png",
+      "eye_canonical": [
+        575,
+        170,
+        4
+      ],
+      "target_canonical": [
+        575,
+        334,
+        2
+      ],
+      "lens": 50
+    },
+    {
+      "image": "R80_after_north_context.png",
+      "eye_canonical": [
+        370,
+        -120,
+        8
+      ],
+      "target_canonical": [
+        565,
+        334,
+        2.5
+      ],
+      "lens": 45
+    }
+  ],
+  "all_active_surroundings": true,
+  "metric_camera_match": false
+}

@@ -1,0 +1,49 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R79_CATIDA_EKSIK_KOSELER_v001.blend",
+  "images": [
+    {
+      "image": "R79_after_east_corner.png",
+      "eye_canonical": [
+        360,
+        575,
+        28
+      ],
+      "target_canonical": [
+        490,
+        520,
+        12.5
+      ],
+      "lens": 45
+    },
+    {
+      "image": "R79_after_west_corner.png",
+      "eye_canonical": [
+        760,
+        630,
+        28
+      ],
+      "target_canonical": [
+        655,
+        530,
+        12.5
+      ],
+      "lens": 45
+    },
+    {
+      "image": "R79_after_reading_void.png",
+      "eye_canonical": [
+        575,
+        643,
+        1.65
+      ],
+      "target_canonical": [
+        575,
+        642,
+        10
+      ],
+      "lens": 18
+    }
+  ],
+  "all_active_surroundings": true,
+  "metric_camera_match": false
+}

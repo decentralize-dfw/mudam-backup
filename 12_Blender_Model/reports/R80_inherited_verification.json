@@ -1,0 +1,31 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R80_KUZEY_CAM_ALT_KAPANIS_v001.blend",
+  "base_scene": "12_Blender_Model/scenes/MUDAM_R79_CATIDA_EKSIK_KOSELER_v001.blend",
+  "inherited_objects_checked": 8509,
+  "changed_inherited_objects": [
+    "P11_GH_SLOT_00_00",
+    "P11_GH_SLOT_01_00",
+    "P11_GH_SLOT_02_00",
+    "P11_GH_SLOT_00_00_FRAME_1",
+    "P11_GH_SLOT_00_00_FRAME_3",
+    "P11_GH_SLOT_01_00_FRAME_1",
+    "P11_GH_SLOT_02_00_FRAME_1"
+  ],
+  "allowed_changes": [
+    "P11_GH_SLOT_00_00",
+    "P11_GH_SLOT_00_00_FRAME_1",
+    "P11_GH_SLOT_00_00_FRAME_3",
+    "P11_GH_SLOT_01_00",
+    "P11_GH_SLOT_01_00_FRAME_1",
+    "P11_GH_SLOT_02_00",
+    "P11_GH_SLOT_02_00_FRAME_1"
+  ],
+  "allowed_but_unchanged": [],
+  "new_objects": [
+    "R80_NORTH_SILL_00",
+    "R80_NORTH_SILL_01",
+    "R80_NORTH_SILL_02"
+  ],
+  "failures": [],
+  "construction_acceptance": false
+}

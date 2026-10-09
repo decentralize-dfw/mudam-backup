@@ -1,5 +1,5 @@
 {
-  "as_of_revision": "R74",
+  "as_of_revision": "R80",
   "basis": "Beş eşit iş adımı: tamam 20, kısmi 10, bekleyen 0 puan. Yaklaşık kapsam ilerlemesidir; ölçü doğruluğu veya harcanan süre oranı değildir. Yeni paket kabulünde ilgili adımlar yeniden değerlendirilir.",
   "tasks": {
     "P00": {
@@ -555,13 +555,10 @@
       ]
     }
   },
-  "last_reviewed_checkpoint": "R74",
-  "last_review_note": "Galeri ray/spot ailesi kısmen üretildi. Tam donatı ve fotometri eksik olduğundan P16/P19 adım yüzdeleri artırılmadı.",
+  "last_reviewed_checkpoint": "R79",
+  "last_review_note": "R75–R78 duvar bağlantıları ve galeri gövdeleri kontrol edildi. Kullanıcının son kararıyla bütün bina kabuğu birleşik öncelik.",
   "execution_order": [
-    "Tüm duvarlar",
-    "Zeminler ve döşemeler",
-    "Cam çatı geometrisi kontrolü",
-    "Cam çatı–duvar birleşimleri kontrolü",
+    "Bina kabuğu: tüm duvarlar, zeminler, çatılar ve birleşimler",
     "Merdivenler ve sahanlıklar",
     "Pencereler ve kapılar",
     "Korkuluklar",
@@ -570,6 +567,7 @@
     "Malzeme ve yüzey detayları",
     "Çevre düzenlemesi"
   ],
-  "current_priority": "Duvarlar: R71–R74 köşeler, Grand Hall ve galeri gövdeleri düzeltildi. Kalan niş, çekirdek, pavyon ve oditoryum kontrolleri sürüyor.",
-  "review_note": "R71/R72 yerel geometri kontrolleri; bütün duvarlara genel kabul verilmedi."
+  "current_priority": "Duvar–zemin–çatı birlikte: iç mekânlarda eksik alt/üst örtü ve kabuk açıklıkları kapatılıyor.",
+  "review_note": "Genel kabuk kabulü açık; yerel geçiş testleri bina tamamlandı anlamına gelmez.",
+  "last_reviewed_revision": "R80"
 }

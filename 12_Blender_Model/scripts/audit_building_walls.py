@@ -16,7 +16,7 @@ rows=[];sections=[];deps=bpy.context.evaluated_depsgraph_get();excluded=[]
 for ob in bpy.context.scene.objects:
  if ob.type!='MESH' or ob.hide_render or not ob.visible_get():continue
  kind=ob.get('element_type','');text=ob.name+' '+kind
- candidate=bool(re.search('WALL|FACADE|FRONT_|ATRIUM_BASE|UPSTAND|LINER|P05_WEST_END|STONE_BASE|STONE_SIDE_ENVELOPE|RECESS_(JAMB|HEAD|TOP)|CORE_(BODY|CAP)|STONE_CORE|NORTH_BASE|NORTH_STONE_GABLE|P07_GH_EAST_PORTAL|R30_(LEFT_JAMB|RIGHT_JAMB|STONE_HEAD)|R31_PASSAGE_SIDE|R19_(BOOTH_FRONT|FRONT_)|R52_BAY_2_INTERIOR_HEAD',text,re.I))
+ candidate=bool(re.search('WALL|FACADE|FRONT_|ATRIUM_BASE|UPSTAND|LINER|P05_WEST_END|P05_GALLERY_HALL|STONE_BASE|STONE_SIDE_ENVELOPE|RECESS_(JAMB|HEAD|TOP)|CORE_(BODY|CAP)|STONE_CORE|NORTH_BASE|NORTH_STONE_GABLE|P07_GH_EAST_PORTAL|P07_ENTRY_|P07_CORNER_SUPPORT_ENVELOPE|R52_BAY_[0-9]+_RETURN_|R30_(LEFT_JAMB|RIGHT_JAMB|STONE_HEAD)|R31_PASSAGE_SIDE|R19_(BOOTH_|FRONT_)|R52_BAY_2_INTERIOR_HEAD',text,re.I))
  if not candidate:continue
  if ob.get('level_id')=='SITE' or re.search('HISTORIC|MOAT|R35_WALL|R68_WALL|R54_WINDOW',text,re.I):excluded.append(ob.name);continue
  if ob.name=='P06_HIGH_EAVE_UPSTAND_4' or ob.name.startswith('R26_WALL_HEAD'):continue

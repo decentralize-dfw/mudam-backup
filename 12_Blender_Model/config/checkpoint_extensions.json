@@ -824,5 +824,108 @@
     "image": "R74_studio_plan.png",
     "description": "Beş duvar, dört köşe ve sekiz önce/sonra boşluk kontrolü.",
     "limits": "Mevcut kaynak sınırları korundu; kalınlık/kotlar koşullu. Genel duvar kabulü açık."
+  },
+  {
+    "id": "R75",
+    "checks": [
+      "R75_verification.json",
+      "R75_inherited_verification.json",
+      "R75_global_audit.json"
+    ],
+    "tasks": [
+      "P07",
+      "P16"
+    ],
+    "report": "R75_KONTROL_RAPORU.md",
+    "title": "Oditoryum sahne arkası köşeleri / R75",
+    "image": "R75_room_to_stage.png",
+    "description": "Yedi duvarın altı köşesi düzeltildi; 12 önce/sonra ışını, kapalı hacim ve bütün sahne denetimi geçti.",
+    "limits": "Kaynak planlara bağlı yerel düzeltme; kesin kalınlık ve kotlar koşullu. Genel duvar kabulü açık."
+  },
+  {
+    "id": "R76",
+    "checks": [
+      "R76_verification.json",
+      "R76_inherited_verification.json",
+      "R76_global_audit.json"
+    ],
+    "tasks": [
+      "P07",
+      "P16",
+      "P17"
+    ],
+    "report": "R76_KONTROL_RAPORU.md",
+    "title": "Merdiven çevresi duvar uçları / R76",
+    "image": "R76_after_east_stair.png",
+    "description": "İki duvar ucu komşu kaynak sınırına bağlandı; iki temas, 15 açık geçiş ışını ve bütün sahne denetimi geçti.",
+    "limits": "Kaynak planlara bağlı yerel düzeltme; kesin kalınlık ve kotlar koşullu. Genel duvar kabulü açık."
+  },
+  {
+    "id": "R77",
+    "checks": [
+      "R77_verification.json",
+      "R77_inherited_verification.json",
+      "R77_global_audit.json"
+    ],
+    "tasks": [
+      "P07"
+    ],
+    "report": "R77_KONTROL_RAPORU.md",
+    "title": "Batı uç duvarının cepheye bağlantısı / R77",
+    "image": "R77_after_west_end.png",
+    "description": "İki mevcut duvarın ortak ucu bağlandı; on iç yüzey örneği, sabit kot ve bütün sahne kontrolü geçti.",
+    "limits": "Plan eşlemesindeki uç farkı giderildi. Üst kot ve cam/çatı ilişkisi ayrı açık kontroldür."
+  },
+  {
+    "id": "R78",
+    "checks": [
+      "R78_verification.json",
+      "R78_inherited_verification.json",
+      "R78_global_audit.json",
+      "R28_regression_on_R78.json"
+    ],
+    "tasks": [
+      "P07"
+    ],
+    "report": "R78_KONTROL_RAPORU.md",
+    "title": "Zemin galerilerinin iç duvar sınırları / R78",
+    "image": "R78_after_west_ground.png",
+    "description": "Doğu düz iç yüzü ve batı kademeli cephe gövdesi; 126 sınır, 1226 oda içi ve 102 merdiven boşluk kontrolü geçti.",
+    "limits": "İç ve dış kaynak sınırları arasındaki gövde koşullu; ölçülmüş duvar kalınlığı değildir. Genel duvar kontrolü sürüyor."
+  },
+  {
+    "id": "R79",
+    "checks": [
+      "R79_verification.json",
+      "R79_inherited_verification.json",
+      "R79_global_audit.json"
+    ],
+    "tasks": [
+      "P07",
+      "P11",
+      "P17"
+    ],
+    "report": "R79_KONTROL_RAPORU.md",
+    "title": "Atrium çevresinde eksik çatı köşeleri / R79",
+    "image": "R79_after_east_corner.png",
+    "description": "Eski kare kesicinin sildiği iki çatı köşesi geri getirildi; 342 örtü ve 112 kuzey koruma örneği geçti.",
+    "limits": "Mevcut kotlar korundu; genel duvar–zemin–çatı kapanışı sürüyor. Gerçek okuma boşluğu korundu."
+  },
+  {
+    "id": "R80",
+    "checks": [
+      "R80_verification.json",
+      "R80_inherited_verification.json",
+      "R80_global_audit.json"
+    ],
+    "tasks": [
+      "P07",
+      "P12"
+    ],
+    "report": "R80_KONTROL_RAPORU.md",
+    "title": "Kuzey cam şeridin zemine kapanışı / R80",
+    "image": "R80_after_north_closure.png",
+    "description": "087/119 cephe fotoğraflarına göre alt cam sınırı zemine indirildi; 536 yatay kapanış örneği geçti.",
+    "limits": "Üst camlar ve mevcut yatay kayıt korundu. Alt panel bölüntüsü ve profil ölçüleri kesin değil; genel kabuk kontrolü açık."
   }
 ]

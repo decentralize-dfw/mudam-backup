@@ -4,21 +4,18 @@
 
 Amaç, Mudam'ın dışını ve içini birlikte açıklayan, yakın mesafede incelenebilen, katları ayrılabilen ve kesit alınabilen bir mimari model üretmektir. Duvar, açıklık, merdiven, taşıyıcı, kaplama ve birleşimler ayrı ve düzenlenebilir sistemler olarak kurulacaktır. Bu aşamada model üretilmedi; üretim yöntemi, iş paketleri, kanıt sınırları ve kabul ölçütleri hazırlandı.
 
-## Güncel üretim sırası — 9 Ekim 2026 kullanıcı kararı
+## Güncel üretim sırası — 9 Ekim 2026 son kullanıcı kararı
 
-1. Tüm duvarlar.
-2. Zeminler ve döşemeler.
-3. Cam çatı geometrisi kontrolü.
-4. Cam çatı–duvar birleşimleri kontrolü.
-5. Merdivenler ve sahanlıklar.
-6. Pencereler ve kapılar.
-7. Korkuluklar.
-8. Diğer kalıcı mimari elemanlar.
-9. Bütünleşik plan–kesit uyumu ve gerekli ölçek düzeltmeleri.
-10. Malzeme ve yüzey detayları.
-11. Çevre düzenlemesi.
+1. Bina kabuğu: tüm duvarlar, zeminler, çatılar ve birleşimler.
+2. Merdivenler ve sahanlıklar.
+3. Pencereler ve kapılar.
+4. Korkuluklar.
+5. Diğer kalıcı mimari elemanlar.
+6. Bütünleşik plan–kesit uyumu ve gerekli ölçek düzeltmeleri.
+7. Malzeme ve yüzey detayları.
+8. Çevre düzenlemesi.
 
-Bu sıra sonraki üretim kararlarında eski paket sırasının önüne geçer. Mevcut üretilmiş parçalar korunur; ilk iş bütün duvarların kat kat envanter ve geometri kontrolüdür. Duvarlardan önce yeni armatür, malzeme veya peyzaj detayı üretilmez. Her aşamada kaynak kontrolü sürer; bütün binanın plan–kesit uyumu geometrik elemanlar tamamlandıktan sonra ayrıca değerlendirilir. Gerekli düzeltme tek eksende veya genel ölçekleme olabilir; etkilenen eksen/sistem, referans, katsayı ve önce/sonra ölçüleri kaydedilir, bağlı açıklık ve birleşimler yeniden kontrol edilir. Kaynak çelişkisini gizlemek için zorla uyum sağlanmaz; özgün sürümler korunur.
+Öncelik, bütün iç mekânların duvar, zemin ve çatı/örtü sınırlarını plan, kesit ve fotoğrafa göre birlikte tamamlamaktır. Yanlış açık yüzey, eksik döşeme veya eksik üst örtü kalmadan kapı/pencere detayına geçilmez. Kaynakta gerçek açıklık olan yerler kendi sistemiyle çözülür. Sanat eseri ve sergi elemanı eklenmez. Yerel ölçü belirsizliği kaydedilir; gerçek geometri uydurulmaz.
 
 ## Çalışma belgeleri
 

@@ -1,0 +1,36 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R75_ODITORYUM_DUVAR_BIRLESIMLERI_v001.blend",
+  "pairs": [
+    {
+      "a": "R29_W_DIVIDER_END",
+      "b": "R07_STAIRWELL_STONE_WEST",
+      "vertex_surface_min_m": 0.07954856008291245,
+      "surface_intersections": 0
+    },
+    {
+      "a": "R29_W_BOUNDARY_00",
+      "b": "R07_STAIRWELL_STONE_NORTH",
+      "vertex_surface_min_m": 0.0,
+      "surface_intersections": 8
+    },
+    {
+      "a": "R10_UPPER_DIAGONAL_WALL",
+      "b": "R73_E_CONTINUOUS_GALLERY_WALL",
+      "vertex_surface_min_m": 0.055305883288383484,
+      "surface_intersections": 0
+    },
+    {
+      "a": "P07_GH_EAST_PORTAL_JAMB_S",
+      "b": "R04_RECESS_JAMB_FOOT",
+      "vertex_surface_min_m": 0.0,
+      "surface_intersections": 8
+    },
+    {
+      "a": "R04_RECESS_JAMB_FOOT",
+      "b": "P05_MAIN_ATRIUM_BASE_5_R02_BEFORE_R04_AFTER",
+      "vertex_surface_min_m": 4.76837158203125e-07,
+      "surface_intersections": 0
+    }
+  ],
+  "limits": "Vertex-to-surface distances and triangle intersections; not a proof of volumetric contact."
+}
