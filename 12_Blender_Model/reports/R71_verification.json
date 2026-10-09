@@ -1,0 +1,2046 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R71_GALERI_DUVAR_BIRLESIMLERI_v001.blend",
+  "solids": [
+    {
+      "name": "R23_E_0_WALL",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "signed_volume": 31.036551833577835
+    },
+    {
+      "name": "R23_E_1_JAMB_A",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "signed_volume": 6.358828028317305
+    },
+    {
+      "name": "R23_E_1_JAMB_B",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "signed_volume": 4.772128596160181
+    },
+    {
+      "name": "R23_E_2_WALL",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "signed_volume": 38.27740585841088
+    },
+    {
+      "name": "R23_E_3_JAMB_A",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "signed_volume": 25.232615831532012
+    },
+    {
+      "name": "R23_E_3_JAMB_B",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "signed_volume": 0.9205752606648474
+    },
+    {
+      "name": "R23_E_4_WALL",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "signed_volume": 16.428278423511138
+    },
+    {
+      "name": "R23_E_5_WALL",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "signed_volume": 40.96057849400919
+    },
+    {
+      "name": "R23_W_0_JAMB_A",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "signed_volume": 1.7510028977764698
+    },
+    {
+      "name": "R23_W_0_JAMB_B",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "signed_volume": 11.88498587930378
+    },
+    {
+      "name": "R23_W_1_WALL",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "signed_volume": 28.93733995189683
+    },
+    {
+      "name": "R23_W_2_WALL",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "signed_volume": 41.02349499630723
+    },
+    {
+      "name": "R23_W_3_WALL",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "signed_volume": 16.35627547504895
+    },
+    {
+      "name": "R23_W_4_JAMB_A",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "signed_volume": 0.7258029345973043
+    },
+    {
+      "name": "R23_W_4_JAMB_B",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "signed_volume": 24.911097714990866
+    },
+    {
+      "name": "R23_W_5_WALL",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "signed_volume": 37.420647250348786
+    },
+    {
+      "name": "R29_E_BOUNDARY_00",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "signed_volume": 34.32566391376051
+    },
+    {
+      "name": "R29_E_BOUNDARY_02",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "signed_volume": 32.80274198252927
+    },
+    {
+      "name": "R29_E_BOUNDARY_03",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "signed_volume": 18.862109348187317
+    },
+    {
+      "name": "R29_E_FOYER_DIVIDER",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "signed_volume": 13.895097117694931
+    },
+    {
+      "name": "R29_W_BOUNDARY_00",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "signed_volume": 1.1318416436712333
+    },
+    {
+      "name": "R29_W_BOUNDARY_01",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "signed_volume": 1.1257443105791616
+    },
+    {
+      "name": "R29_W_BOUNDARY_02",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "signed_volume": 1.1187157001599166
+    },
+    {
+      "name": "R29_W_BOUNDARY_03",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "signed_volume": 1.1121117405613337
+    },
+    {
+      "name": "R29_W_BOUNDARY_04",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "signed_volume": 1.1059426461694528
+    },
+    {
+      "name": "R29_W_BOUNDARY_05",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "signed_volume": 1.100246158214473
+    },
+    {
+      "name": "R29_W_BOUNDARY_06",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "signed_volume": 1.0950577464915003
+    },
+    {
+      "name": "R29_W_BOUNDARY_07",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "signed_volume": 1.0902897182142892
+    },
+    {
+      "name": "R29_W_BOUNDARY_08",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "signed_volume": 1.086021111767443
+    },
+    {
+      "name": "R29_W_BOUNDARY_09",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "signed_volume": 1.0822106653153174
+    },
+    {
+      "name": "R29_W_BOUNDARY_10",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "signed_volume": 1.0789876691768345
+    },
+    {
+      "name": "R29_W_BOUNDARY_11",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "signed_volume": 1.0761234832134488
+    },
+    {
+      "name": "R29_W_BOUNDARY_12",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "signed_volume": 1.0738558209315308
+    },
+    {
+      "name": "R29_W_BOUNDARY_13",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "signed_volume": 1.072066910450502
+    },
+    {
+      "name": "R29_W_BOUNDARY_14",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "signed_volume": 1.0707804258841147
+    },
+    {
+      "name": "R29_W_BOUNDARY_15",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "signed_volume": 1.0699800969164475
+    },
+    {
+      "name": "R29_W_BOUNDARY_16",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "signed_volume": 1.0697019817627744
+    },
+    {
+      "name": "R29_W_BOUNDARY_17",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "signed_volume": 1.069965670421901
+    },
+    {
+      "name": "R29_W_BOUNDARY_18",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "signed_volume": 1.0706866206613412
+    },
+    {
+      "name": "R29_W_BOUNDARY_19",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "signed_volume": 1.0719500643966757
+    },
+    {
+      "name": "R29_W_BOUNDARY_20",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "signed_volume": 1.0736654525138398
+    },
+    {
+      "name": "R29_W_BOUNDARY_21",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "signed_volume": 1.0759620386220057
+    },
+    {
+      "name": "R29_W_BOUNDARY_22",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "signed_volume": 1.0787239292013435
+    },
+    {
+      "name": "R29_W_BOUNDARY_23",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "signed_volume": 1.0819708999868567
+    },
+    {
+      "name": "R29_W_BOUNDARY_24",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "signed_volume": 1.0857004487005089
+    },
+    {
+      "name": "R29_W_BOUNDARY_25",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "signed_volume": 1.089912566949554
+    },
+    {
+      "name": "R29_W_BOUNDARY_26",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "signed_volume": 1.0946672811785767
+    },
+    {
+      "name": "R29_W_BOUNDARY_27",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "signed_volume": 1.0998434485035151
+    },
+    {
+      "name": "R29_W_BOUNDARY_28",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "signed_volume": 1.1055033997378771
+    },
+    {
+      "name": "R29_W_BOUNDARY_29",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "signed_volume": 1.111582175049513
+    },
+    {
+      "name": "R29_W_BOUNDARY_30",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "signed_volume": 1.1181680374386005
+    },
+    {
+      "name": "R29_W_BOUNDARY_31",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "signed_volume": 1.3564899855087376
+    },
+    {
+      "name": "R29_W_BOUNDARY_32",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "signed_volume": 17.50957421509417
+    },
+    {
+      "name": "R29_W_BOUNDARY_33",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "signed_volume": 34.40828614846325
+    }
+  ],
+  "front_and_height_preservation": [
+    {
+      "name": "R23_E_0_WALL",
+      "unchanged_vertices": 4,
+      "unexpected_changed_vertices": []
+    },
+    {
+      "name": "R23_E_1_JAMB_A",
+      "unchanged_vertices": 6,
+      "unexpected_changed_vertices": []
+    },
+    {
+      "name": "R23_E_1_JAMB_B",
+      "unchanged_vertices": 6,
+      "unexpected_changed_vertices": []
+    },
+    {
+      "name": "R23_E_2_WALL",
+      "unchanged_vertices": 4,
+      "unexpected_changed_vertices": []
+    },
+    {
+      "name": "R23_E_3_JAMB_A",
+      "unchanged_vertices": 6,
+      "unexpected_changed_vertices": []
+    },
+    {
+      "name": "R23_E_3_JAMB_B",
+      "unchanged_vertices": 6,
+      "unexpected_changed_vertices": []
+    },
+    {
+      "name": "R23_E_4_WALL",
+      "unchanged_vertices": 4,
+      "unexpected_changed_vertices": []
+    },
+    {
+      "name": "R23_E_5_WALL",
+      "unchanged_vertices": 4,
+      "unexpected_changed_vertices": []
+    },
+    {
+      "name": "R23_W_0_JAMB_A",
+      "unchanged_vertices": 6,
+      "unexpected_changed_vertices": []
+    },
+    {
+      "name": "R23_W_0_JAMB_B",
+      "unchanged_vertices": 6,
+      "unexpected_changed_vertices": []
+    },
+    {
+      "name": "R23_W_1_WALL",
+      "unchanged_vertices": 4,
+      "unexpected_changed_vertices": []
+    },
+    {
+      "name": "R23_W_2_WALL",
+      "unchanged_vertices": 4,
+      "unexpected_changed_vertices": []
+    },
+    {
+      "name": "R23_W_3_WALL",
+      "unchanged_vertices": 4,
+      "unexpected_changed_vertices": []
+    },
+    {
+      "name": "R23_W_4_JAMB_A",
+      "unchanged_vertices": 6,
+      "unexpected_changed_vertices": []
+    },
+    {
+      "name": "R23_W_4_JAMB_B",
+      "unchanged_vertices": 6,
+      "unexpected_changed_vertices": []
+    },
+    {
+      "name": "R23_W_5_WALL",
+      "unchanged_vertices": 4,
+      "unexpected_changed_vertices": []
+    },
+    {
+      "name": "R29_E_BOUNDARY_00",
+      "unchanged_vertices": 4,
+      "unexpected_changed_vertices": []
+    },
+    {
+      "name": "R29_E_BOUNDARY_02",
+      "unchanged_vertices": 6,
+      "unexpected_changed_vertices": []
+    },
+    {
+      "name": "R29_E_BOUNDARY_03",
+      "unchanged_vertices": 4,
+      "unexpected_changed_vertices": []
+    },
+    {
+      "name": "R29_E_FOYER_DIVIDER",
+      "unchanged_vertices": 6,
+      "unexpected_changed_vertices": []
+    },
+    {
+      "name": "R29_W_BOUNDARY_00",
+      "unchanged_vertices": 6,
+      "unexpected_changed_vertices": []
+    },
+    {
+      "name": "R29_W_BOUNDARY_01",
+      "unchanged_vertices": 4,
+      "unexpected_changed_vertices": []
+    },
+    {
+      "name": "R29_W_BOUNDARY_02",
+      "unchanged_vertices": 4,
+      "unexpected_changed_vertices": []
+    },
+    {
+      "name": "R29_W_BOUNDARY_03",
+      "unchanged_vertices": 4,
+      "unexpected_changed_vertices": []
+    },
+    {
+      "name": "R29_W_BOUNDARY_04",
+      "unchanged_vertices": 4,
+      "unexpected_changed_vertices": []
+    },
+    {
+      "name": "R29_W_BOUNDARY_05",
+      "unchanged_vertices": 4,
+      "unexpected_changed_vertices": []
+    },
+    {
+      "name": "R29_W_BOUNDARY_06",
+      "unchanged_vertices": 4,
+      "unexpected_changed_vertices": []
+    },
+    {
+      "name": "R29_W_BOUNDARY_07",
+      "unchanged_vertices": 4,
+      "unexpected_changed_vertices": []
+    },
+    {
+      "name": "R29_W_BOUNDARY_08",
+      "unchanged_vertices": 4,
+      "unexpected_changed_vertices": []
+    },
+    {
+      "name": "R29_W_BOUNDARY_09",
+      "unchanged_vertices": 4,
+      "unexpected_changed_vertices": []
+    },
+    {
+      "name": "R29_W_BOUNDARY_10",
+      "unchanged_vertices": 4,
+      "unexpected_changed_vertices": []
+    },
+    {
+      "name": "R29_W_BOUNDARY_11",
+      "unchanged_vertices": 4,
+      "unexpected_changed_vertices": []
+    },
+    {
+      "name": "R29_W_BOUNDARY_12",
+      "unchanged_vertices": 4,
+      "unexpected_changed_vertices": []
+    },
+    {
+      "name": "R29_W_BOUNDARY_13",
+      "unchanged_vertices": 4,
+      "unexpected_changed_vertices": []
+    },
+    {
+      "name": "R29_W_BOUNDARY_14",
+      "unchanged_vertices": 4,
+      "unexpected_changed_vertices": []
+    },
+    {
+      "name": "R29_W_BOUNDARY_15",
+      "unchanged_vertices": 4,
+      "unexpected_changed_vertices": []
+    },
+    {
+      "name": "R29_W_BOUNDARY_16",
+      "unchanged_vertices": 4,
+      "unexpected_changed_vertices": []
+    },
+    {
+      "name": "R29_W_BOUNDARY_17",
+      "unchanged_vertices": 4,
+      "unexpected_changed_vertices": []
+    },
+    {
+      "name": "R29_W_BOUNDARY_18",
+      "unchanged_vertices": 4,
+      "unexpected_changed_vertices": []
+    },
+    {
+      "name": "R29_W_BOUNDARY_19",
+      "unchanged_vertices": 4,
+      "unexpected_changed_vertices": []
+    },
+    {
+      "name": "R29_W_BOUNDARY_20",
+      "unchanged_vertices": 4,
+      "unexpected_changed_vertices": []
+    },
+    {
+      "name": "R29_W_BOUNDARY_21",
+      "unchanged_vertices": 4,
+      "unexpected_changed_vertices": []
+    },
+    {
+      "name": "R29_W_BOUNDARY_22",
+      "unchanged_vertices": 4,
+      "unexpected_changed_vertices": []
+    },
+    {
+      "name": "R29_W_BOUNDARY_23",
+      "unchanged_vertices": 4,
+      "unexpected_changed_vertices": []
+    },
+    {
+      "name": "R29_W_BOUNDARY_24",
+      "unchanged_vertices": 4,
+      "unexpected_changed_vertices": []
+    },
+    {
+      "name": "R29_W_BOUNDARY_25",
+      "unchanged_vertices": 4,
+      "unexpected_changed_vertices": []
+    },
+    {
+      "name": "R29_W_BOUNDARY_26",
+      "unchanged_vertices": 4,
+      "unexpected_changed_vertices": []
+    },
+    {
+      "name": "R29_W_BOUNDARY_27",
+      "unchanged_vertices": 4,
+      "unexpected_changed_vertices": []
+    },
+    {
+      "name": "R29_W_BOUNDARY_28",
+      "unchanged_vertices": 4,
+      "unexpected_changed_vertices": []
+    },
+    {
+      "name": "R29_W_BOUNDARY_29",
+      "unchanged_vertices": 4,
+      "unexpected_changed_vertices": []
+    },
+    {
+      "name": "R29_W_BOUNDARY_30",
+      "unchanged_vertices": 4,
+      "unexpected_changed_vertices": []
+    },
+    {
+      "name": "R29_W_BOUNDARY_31",
+      "unchanged_vertices": 4,
+      "unexpected_changed_vertices": []
+    },
+    {
+      "name": "R29_W_BOUNDARY_32",
+      "unchanged_vertices": 4,
+      "unexpected_changed_vertices": []
+    },
+    {
+      "name": "R29_W_BOUNDARY_33",
+      "unchanged_vertices": 6,
+      "unexpected_changed_vertices": []
+    }
+  ],
+  "junction_rays": [
+    {
+      "level": "LP1",
+      "side": "E",
+      "corner": 0,
+      "point": [
+        35.13926315307617,
+        -5.259341716766357,
+        0.0
+      ],
+      "before_hits": [],
+      "after_hits": [
+        "R23_E_5_WALL"
+      ],
+      "passed": true
+    },
+    {
+      "level": "LP1",
+      "side": "E",
+      "corner": 0,
+      "point": [
+        35.111873626708984,
+        -5.3181304931640625,
+        0.0
+      ],
+      "before_hits": [],
+      "after_hits": [
+        "R23_E_0_WALL"
+      ],
+      "passed": true
+    },
+    {
+      "level": "LP1",
+      "side": "E",
+      "corner": 1,
+      "point": [
+        24.748626708984375,
+        -14.688007354736328,
+        0.0
+      ],
+      "before_hits": [],
+      "after_hits": [
+        "R23_E_0_WALL"
+      ],
+      "passed": true
+    },
+    {
+      "level": "LP1",
+      "side": "E",
+      "corner": 1,
+      "point": [
+        24.68965721130371,
+        -14.709470748901367,
+        0.0
+      ],
+      "before_hits": [],
+      "after_hits": [
+        "R23_E_1_JAMB_A"
+      ],
+      "passed": true
+    },
+    {
+      "level": "LP1",
+      "side": "E",
+      "corner": 2,
+      "point": [
+        16.517719268798828,
+        -14.406725883483887,
+        0.0
+      ],
+      "before_hits": [],
+      "after_hits": [
+        "R23_E_1_JAMB_B"
+      ],
+      "passed": true
+    },
+    {
+      "level": "LP1",
+      "side": "E",
+      "corner": 2,
+      "point": [
+        16.43751335144043,
+        -14.320727348327637,
+        0.0
+      ],
+      "before_hits": [],
+      "after_hits": [
+        "R23_E_2_WALL"
+      ],
+      "passed": true
+    },
+    {
+      "level": "LP1",
+      "side": "E",
+      "corner": 3,
+      "point": [
+        16.999956130981445,
+        2.8843564987182617,
+        0.0
+      ],
+      "before_hits": [],
+      "after_hits": [
+        "R23_E_2_WALL"
+      ],
+      "passed": true
+    },
+    {
+      "level": "LP1",
+      "side": "E",
+      "corner": 3,
+      "point": [
+        17.026498794555664,
+        2.9426608085632324,
+        0.0
+      ],
+      "before_hits": [],
+      "after_hits": [
+        "R23_E_3_JAMB_A"
+      ],
+      "passed": true
+    },
+    {
+      "level": "LP1",
+      "side": "E",
+      "corner": 4,
+      "point": [
+        28.31703758239746,
+        13.4413480758667,
+        0.0
+      ],
+      "before_hits": [],
+      "after_hits": [
+        "R23_E_3_JAMB_B"
+      ],
+      "passed": true
+    },
+    {
+      "level": "LP1",
+      "side": "E",
+      "corner": 4,
+      "point": [
+        28.376327514648438,
+        13.463615417480469,
+        0.0
+      ],
+      "before_hits": [],
+      "after_hits": [
+        "R23_E_4_WALL"
+      ],
+      "passed": true
+    },
+    {
+      "level": "LP1",
+      "side": "E",
+      "corner": 5,
+      "point": [
+        35.72732162475586,
+        13.23917007446289,
+        0.0
+      ],
+      "before_hits": [],
+      "after_hits": [
+        "R23_E_4_WALL"
+      ],
+      "passed": true
+    },
+    {
+      "level": "LP1",
+      "side": "E",
+      "corner": 5,
+      "point": [
+        35.80805587768555,
+        13.152850151062012,
+        0.0
+      ],
+      "before_hits": [],
+      "after_hits": [
+        "R23_E_5_WALL"
+      ],
+      "passed": true
+    },
+    {
+      "level": "LP1",
+      "side": "W",
+      "corner": 0,
+      "point": [
+        -18.631505966186523,
+        24.01092529296875,
+        0.0
+      ],
+      "before_hits": [],
+      "after_hits": [
+        "R23_W_5_WALL"
+      ],
+      "passed": true
+    },
+    {
+      "level": "LP1",
+      "side": "W",
+      "corner": 0,
+      "point": [
+        -18.711441040039062,
+        24.09700584411621,
+        0.0
+      ],
+      "before_hits": [],
+      "after_hits": [
+        "R23_W_0_JAMB_A"
+      ],
+      "passed": true
+    },
+    {
+      "level": "LP1",
+      "side": "W",
+      "corner": 1,
+      "point": [
+        -18.41408348083496,
+        32.89311218261719,
+        0.0
+      ],
+      "before_hits": [],
+      "after_hits": [
+        "R23_W_0_JAMB_B"
+      ],
+      "passed": true
+    },
+    {
+      "level": "LP1",
+      "side": "W",
+      "corner": 1,
+      "point": [
+        -18.387693405151367,
+        32.9511833190918,
+        0.0
+      ],
+      "before_hits": [],
+      "after_hits": [
+        "R23_W_1_WALL"
+      ],
+      "passed": true
+    },
+    {
+      "level": "LP1",
+      "side": "W",
+      "corner": 2,
+      "point": [
+        -8.871797561645508,
+        41.84304428100586,
+        0.0
+      ],
+      "before_hits": [],
+      "after_hits": [
+        "R23_W_1_WALL"
+      ],
+      "passed": true
+    },
+    {
+      "level": "LP1",
+      "side": "W",
+      "corner": 2,
+      "point": [
+        -8.811697006225586,
+        41.86543273925781,
+        0.0
+      ],
+      "before_hits": [],
+      "after_hits": [
+        "R23_W_2_WALL"
+      ],
+      "passed": true
+    },
+    {
+      "level": "LP1",
+      "side": "W",
+      "corner": 3,
+      "point": [
+        9.627507209777832,
+        41.15569305419922,
+        0.0
+      ],
+      "before_hits": [],
+      "after_hits": [
+        "R23_W_2_WALL"
+      ],
+      "passed": true
+    },
+    {
+      "level": "LP1",
+      "side": "W",
+      "corner": 3,
+      "point": [
+        9.707555770874023,
+        41.06879425048828,
+        0.0
+      ],
+      "before_hits": [],
+      "after_hits": [
+        "R23_W_3_WALL"
+      ],
+      "passed": true
+    },
+    {
+      "level": "LP1",
+      "side": "W",
+      "corner": 4,
+      "point": [
+        9.389171600341797,
+        33.75371551513672,
+        0.0
+      ],
+      "before_hits": [],
+      "after_hits": [
+        "R23_W_3_WALL"
+      ],
+      "passed": true
+    },
+    {
+      "level": "LP1",
+      "side": "W",
+      "corner": 4,
+      "point": [
+        9.362665176391602,
+        33.696311950683594,
+        0.0
+      ],
+      "before_hits": [],
+      "after_hits": [
+        "R23_W_4_JAMB_A"
+      ],
+      "passed": true
+    },
+    {
+      "level": "LP1",
+      "side": "W",
+      "corner": 5,
+      "point": [
+        -1.7572702169418335,
+        23.35626220703125,
+        0.0
+      ],
+      "before_hits": [],
+      "after_hits": [
+        "R23_W_4_JAMB_B"
+      ],
+      "passed": true
+    },
+    {
+      "level": "LP1",
+      "side": "W",
+      "corner": 5,
+      "point": [
+        -1.817368984222412,
+        23.334022521972656,
+        0.0
+      ],
+      "before_hits": [],
+      "after_hits": [
+        "R23_W_5_WALL"
+      ],
+      "passed": true
+    },
+    {
+      "level": "LM1",
+      "side": "E",
+      "corner": 0,
+      "point": [
+        4.164414882659912,
+        -36.78675842285156,
+        0.0
+      ],
+      "before_hits": [],
+      "after_hits": [
+        "R29_E_BOUNDARY_03"
+      ],
+      "passed": true
+    },
+    {
+      "level": "LM1",
+      "side": "E",
+      "corner": 0,
+      "point": [
+        4.02439022064209,
+        -36.72270965576172,
+        0.0
+      ],
+      "before_hits": [],
+      "after_hits": [
+        "R29_E_BOUNDARY_00"
+      ],
+      "passed": true
+    },
+    {
+      "level": "LM1",
+      "side": "E",
+      "corner": 1,
+      "point": [
+        5.087881088256836,
+        -7.458871364593506,
+        0.0
+      ],
+      "before_hits": [],
+      "after_hits": [
+        "R29_E_BOUNDARY_00"
+      ],
+      "passed": true
+    },
+    {
+      "level": "LM1",
+      "side": "E",
+      "corner": 1,
+      "point": [
+        5.114413261413574,
+        -7.400871276855469,
+        0.0
+      ],
+      "before_hits": [],
+      "after_hits": [
+        "R29_E_FOYER_DIVIDER"
+      ],
+      "passed": true
+    },
+    {
+      "level": "LM1",
+      "side": "E",
+      "corner": 3,
+      "point": [
+        15.935397148132324,
+        -25.805007934570312,
+        0.0
+      ],
+      "before_hits": [],
+      "after_hits": [
+        "R29_E_BOUNDARY_02"
+      ],
+      "passed": true
+    },
+    {
+      "level": "LM1",
+      "side": "E",
+      "corner": 3,
+      "point": [
+        15.908811569213867,
+        -25.866050720214844,
+        0.0
+      ],
+      "before_hits": [],
+      "after_hits": [
+        "R29_E_BOUNDARY_03"
+      ],
+      "passed": true
+    },
+    {
+      "level": "LM1",
+      "side": "W",
+      "corner": 1,
+      "point": [
+        -13.831266403198242,
+        11.643074035644531,
+        0.0
+      ],
+      "before_hits": [],
+      "after_hits": [
+        "R29_W_BOUNDARY_00"
+      ],
+      "passed": true
+    },
+    {
+      "level": "LM1",
+      "side": "W",
+      "corner": 1,
+      "point": [
+        -13.832841873168945,
+        11.642631530761719,
+        0.0
+      ],
+      "before_hits": [],
+      "after_hits": [
+        "R29_W_BOUNDARY_01"
+      ],
+      "passed": true
+    },
+    {
+      "level": "LM1",
+      "side": "W",
+      "corner": 2,
+      "point": [
+        -14.762962341308594,
+        11.391550064086914,
+        0.0
+      ],
+      "before_hits": [],
+      "after_hits": [
+        "R29_W_BOUNDARY_01"
+      ],
+      "passed": true
+    },
+    {
+      "level": "LM1",
+      "side": "W",
+      "corner": 2,
+      "point": [
+        -14.764566421508789,
+        11.391134262084961,
+        0.0
+      ],
+      "before_hits": [],
+      "after_hits": [
+        "R29_W_BOUNDARY_02"
+      ],
+      "passed": true
+    },
+    {
+      "level": "LM1",
+      "side": "W",
+      "corner": 3,
+      "point": [
+        -15.693639755249023,
+        11.160052299499512,
+        0.0
+      ],
+      "before_hits": [],
+      "after_hits": [
+        "R29_W_BOUNDARY_02"
+      ],
+      "passed": true
+    },
+    {
+      "level": "LM1",
+      "side": "W",
+      "corner": 3,
+      "point": [
+        -15.695270538330078,
+        11.159663200378418,
+        0.0
+      ],
+      "before_hits": [],
+      "after_hits": [
+        "R29_W_BOUNDARY_03"
+      ],
+      "passed": true
+    },
+    {
+      "level": "LM1",
+      "side": "W",
+      "corner": 4,
+      "point": [
+        -16.62328338623047,
+        10.94858455657959,
+        0.0
+      ],
+      "before_hits": [],
+      "after_hits": [
+        "R29_W_BOUNDARY_03"
+      ],
+      "passed": true
+    },
+    {
+      "level": "LM1",
+      "side": "W",
+      "corner": 4,
+      "point": [
+        -16.62493896484375,
+        10.948225021362305,
+        0.0
+      ],
+      "before_hits": [],
+      "after_hits": [
+        "R29_W_BOUNDARY_04"
+      ],
+      "passed": true
+    },
+    {
+      "level": "LM1",
+      "side": "W",
+      "corner": 5,
+      "point": [
+        -17.551877975463867,
+        10.75715446472168,
+        0.0
+      ],
+      "before_hits": [],
+      "after_hits": [
+        "R29_W_BOUNDARY_04"
+      ],
+      "passed": true
+    },
+    {
+      "level": "LM1",
+      "side": "W",
+      "corner": 5,
+      "point": [
+        -17.55356216430664,
+        10.756826400756836,
+        0.0
+      ],
+      "before_hits": [],
+      "after_hits": [
+        "R29_W_BOUNDARY_05"
+      ],
+      "passed": true
+    },
+    {
+      "level": "LM1",
+      "side": "W",
+      "corner": 6,
+      "point": [
+        -18.479429244995117,
+        10.585761070251465,
+        0.0
+      ],
+      "before_hits": [],
+      "after_hits": [
+        "R29_W_BOUNDARY_05"
+      ],
+      "passed": true
+    },
+    {
+      "level": "LM1",
+      "side": "W",
+      "corner": 6,
+      "point": [
+        -18.481136322021484,
+        10.585463523864746,
+        0.0
+      ],
+      "before_hits": [],
+      "after_hits": [
+        "R29_W_BOUNDARY_06"
+      ],
+      "passed": true
+    },
+    {
+      "level": "LM1",
+      "side": "W",
+      "corner": 7,
+      "point": [
+        -19.40595817565918,
+        10.434405326843262,
+        0.0
+      ],
+      "before_hits": [],
+      "after_hits": [
+        "R29_W_BOUNDARY_06"
+      ],
+      "passed": true
+    },
+    {
+      "level": "LM1",
+      "side": "W",
+      "corner": 7,
+      "point": [
+        -19.407686233520508,
+        10.434141159057617,
+        0.0
+      ],
+      "before_hits": [],
+      "after_hits": [
+        "R29_W_BOUNDARY_07"
+      ],
+      "passed": true
+    },
+    {
+      "level": "LM1",
+      "side": "W",
+      "corner": 8,
+      "point": [
+        -20.33142852783203,
+        10.303092956542969,
+        0.0
+      ],
+      "before_hits": [],
+      "after_hits": [
+        "R29_W_BOUNDARY_07"
+      ],
+      "passed": true
+    },
+    {
+      "level": "LM1",
+      "side": "W",
+      "corner": 8,
+      "point": [
+        -20.333175659179688,
+        10.302864074707031,
+        0.0
+      ],
+      "before_hits": [],
+      "after_hits": [
+        "R29_W_BOUNDARY_08"
+      ],
+      "passed": true
+    },
+    {
+      "level": "LM1",
+      "side": "W",
+      "corner": 9,
+      "point": [
+        -21.255844116210938,
+        10.191827774047852,
+        0.0
+      ],
+      "before_hits": [],
+      "after_hits": [
+        "R29_W_BOUNDARY_08"
+      ],
+      "passed": true
+    },
+    {
+      "level": "LM1",
+      "side": "W",
+      "corner": 9,
+      "point": [
+        -21.257610321044922,
+        10.191634178161621,
+        0.0
+      ],
+      "before_hits": [],
+      "after_hits": [
+        "R29_W_BOUNDARY_09"
+      ],
+      "passed": true
+    },
+    {
+      "level": "LM1",
+      "side": "W",
+      "corner": 10,
+      "point": [
+        -22.179189682006836,
+        10.100610733032227,
+        0.0
+      ],
+      "before_hits": [],
+      "after_hits": [
+        "R29_W_BOUNDARY_09"
+      ],
+      "passed": true
+    },
+    {
+      "level": "LM1",
+      "side": "W",
+      "corner": 10,
+      "point": [
+        -22.18096923828125,
+        10.100455284118652,
+        0.0
+      ],
+      "before_hits": [],
+      "after_hits": [
+        "R29_W_BOUNDARY_10"
+      ],
+      "passed": true
+    },
+    {
+      "level": "LM1",
+      "side": "W",
+      "corner": 11,
+      "point": [
+        -23.10151481628418,
+        10.029441833496094,
+        0.0
+      ],
+      "before_hits": [],
+      "after_hits": [
+        "R29_W_BOUNDARY_10"
+      ],
+      "passed": true
+    },
+    {
+      "level": "LM1",
+      "side": "W",
+      "corner": 11,
+      "point": [
+        -23.103307723999023,
+        10.029322624206543,
+        0.0
+      ],
+      "before_hits": [],
+      "after_hits": [
+        "R29_W_BOUNDARY_11"
+      ],
+      "passed": true
+    },
+    {
+      "level": "LM1",
+      "side": "W",
+      "corner": 12,
+      "point": [
+        -24.022733688354492,
+        9.978324890136719,
+        0.0
+      ],
+      "before_hits": [],
+      "after_hits": [
+        "R29_W_BOUNDARY_11"
+      ],
+      "passed": true
+    },
+    {
+      "level": "LM1",
+      "side": "W",
+      "corner": 12,
+      "point": [
+        -24.024539947509766,
+        9.97824478149414,
+        0.0
+      ],
+      "before_hits": [],
+      "after_hits": [
+        "R29_W_BOUNDARY_12"
+      ],
+      "passed": true
+    },
+    {
+      "level": "LM1",
+      "side": "W",
+      "corner": 13,
+      "point": [
+        -24.942901611328125,
+        9.947261810302734,
+        0.0
+      ],
+      "before_hits": [],
+      "after_hits": [
+        "R29_W_BOUNDARY_12"
+      ],
+      "passed": true
+    },
+    {
+      "level": "LM1",
+      "side": "W",
+      "corner": 13,
+      "point": [
+        -24.94471549987793,
+        9.947220802307129,
+        0.0
+      ],
+      "before_hits": [],
+      "after_hits": [
+        "R29_W_BOUNDARY_13"
+      ],
+      "passed": true
+    },
+    {
+      "level": "LM1",
+      "side": "W",
+      "corner": 14,
+      "point": [
+        -25.86199951171875,
+        9.93625259399414,
+        0.0
+      ],
+      "before_hits": [],
+      "after_hits": [
+        "R29_W_BOUNDARY_13"
+      ],
+      "passed": true
+    },
+    {
+      "level": "LM1",
+      "side": "W",
+      "corner": 14,
+      "point": [
+        -25.863819122314453,
+        9.936250686645508,
+        0.0
+      ],
+      "before_hits": [],
+      "after_hits": [
+        "R29_W_BOUNDARY_14"
+      ],
+      "passed": true
+    },
+    {
+      "level": "LM1",
+      "side": "W",
+      "corner": 15,
+      "point": [
+        -26.780017852783203,
+        9.945298194885254,
+        0.0
+      ],
+      "before_hits": [],
+      "after_hits": [
+        "R29_W_BOUNDARY_14"
+      ],
+      "passed": true
+    },
+    {
+      "level": "LM1",
+      "side": "W",
+      "corner": 15,
+      "point": [
+        -26.781841278076172,
+        9.945335388183594,
+        0.0
+      ],
+      "before_hits": [],
+      "after_hits": [
+        "R29_W_BOUNDARY_15"
+      ],
+      "passed": true
+    },
+    {
+      "level": "LM1",
+      "side": "W",
+      "corner": 16,
+      "point": [
+        -27.696941375732422,
+        9.974398612976074,
+        0.0
+      ],
+      "before_hits": [],
+      "after_hits": [
+        "R29_W_BOUNDARY_15"
+      ],
+      "passed": true
+    },
+    {
+      "level": "LM1",
+      "side": "W",
+      "corner": 16,
+      "point": [
+        -27.698760986328125,
+        9.974475860595703,
+        0.0
+      ],
+      "before_hits": [],
+      "after_hits": [
+        "R29_W_BOUNDARY_16"
+      ],
+      "passed": true
+    },
+    {
+      "level": "LM1",
+      "side": "W",
+      "corner": 17,
+      "point": [
+        -28.612768173217773,
+        10.023554801940918,
+        0.0
+      ],
+      "before_hits": [],
+      "after_hits": [
+        "R29_W_BOUNDARY_16"
+      ],
+      "passed": true
+    },
+    {
+      "level": "LM1",
+      "side": "W",
+      "corner": 17,
+      "point": [
+        -28.61458969116211,
+        10.023673057556152,
+        0.0
+      ],
+      "before_hits": [],
+      "after_hits": [
+        "R29_W_BOUNDARY_17"
+      ],
+      "passed": true
+    },
+    {
+      "level": "LM1",
+      "side": "W",
+      "corner": 18,
+      "point": [
+        -29.527523040771484,
+        10.092767715454102,
+        0.0
+      ],
+      "before_hits": [],
+      "after_hits": [
+        "R29_W_BOUNDARY_17"
+      ],
+      "passed": true
+    },
+    {
+      "level": "LM1",
+      "side": "W",
+      "corner": 18,
+      "point": [
+        -29.529338836669922,
+        10.092925071716309,
+        0.0
+      ],
+      "before_hits": [],
+      "after_hits": [
+        "R29_W_BOUNDARY_18"
+      ],
+      "passed": true
+    },
+    {
+      "level": "LM1",
+      "side": "W",
+      "corner": 19,
+      "point": [
+        -30.441162109375,
+        10.18203353881836,
+        0.0
+      ],
+      "before_hits": [],
+      "after_hits": [
+        "R29_W_BOUNDARY_18"
+      ],
+      "passed": true
+    },
+    {
+      "level": "LM1",
+      "side": "W",
+      "corner": 19,
+      "point": [
+        -30.442974090576172,
+        10.182230949401855,
+        0.0
+      ],
+      "before_hits": [],
+      "after_hits": [
+        "R29_W_BOUNDARY_19"
+      ],
+      "passed": true
+    },
+    {
+      "level": "LM1",
+      "side": "W",
+      "corner": 20,
+      "point": [
+        -31.35370445251465,
+        10.29135513305664,
+        0.0
+      ],
+      "before_hits": [],
+      "after_hits": [
+        "R29_W_BOUNDARY_19"
+      ],
+      "passed": true
+    },
+    {
+      "level": "LM1",
+      "side": "W",
+      "corner": 20,
+      "point": [
+        -31.355504989624023,
+        10.291590690612793,
+        0.0
+      ],
+      "before_hits": [],
+      "after_hits": [
+        "R29_W_BOUNDARY_20"
+      ],
+      "passed": true
+    },
+    {
+      "level": "LM1",
+      "side": "W",
+      "corner": 21,
+      "point": [
+        -32.265113830566406,
+        10.42072582244873,
+        0.0
+      ],
+      "before_hits": [],
+      "after_hits": [
+        "R29_W_BOUNDARY_20"
+      ],
+      "passed": true
+    },
+    {
+      "level": "LM1",
+      "side": "W",
+      "corner": 21,
+      "point": [
+        -32.26689910888672,
+        10.420999526977539,
+        0.0
+      ],
+      "before_hits": [],
+      "after_hits": [
+        "R29_W_BOUNDARY_21"
+      ],
+      "passed": true
+    },
+    {
+      "level": "LM1",
+      "side": "W",
+      "corner": 22,
+      "point": [
+        -33.1754264831543,
+        10.570152282714844,
+        0.0
+      ],
+      "before_hits": [],
+      "after_hits": [
+        "R29_W_BOUNDARY_21"
+      ],
+      "passed": true
+    },
+    {
+      "level": "LM1",
+      "side": "W",
+      "corner": 22,
+      "point": [
+        -33.17720031738281,
+        10.570463180541992,
+        0.0
+      ],
+      "before_hits": [],
+      "after_hits": [
+        "R29_W_BOUNDARY_22"
+      ],
+      "passed": true
+    },
+    {
+      "level": "LM1",
+      "side": "W",
+      "corner": 23,
+      "point": [
+        -34.084625244140625,
+        10.739627838134766,
+        0.0
+      ],
+      "before_hits": [],
+      "after_hits": [
+        "R29_W_BOUNDARY_22"
+      ],
+      "passed": true
+    },
+    {
+      "level": "LM1",
+      "side": "W",
+      "corner": 23,
+      "point": [
+        -34.08638000488281,
+        10.739974975585938,
+        0.0
+      ],
+      "before_hits": [],
+      "after_hits": [
+        "R29_W_BOUNDARY_23"
+      ],
+      "passed": true
+    },
+    {
+      "level": "LM1",
+      "side": "W",
+      "corner": 24,
+      "point": [
+        -34.992698669433594,
+        10.92915153503418,
+        0.0
+      ],
+      "before_hits": [],
+      "after_hits": [
+        "R29_W_BOUNDARY_23"
+      ],
+      "passed": true
+    },
+    {
+      "level": "LM1",
+      "side": "W",
+      "corner": 24,
+      "point": [
+        -34.99443435668945,
+        10.929533004760742,
+        0.0
+      ],
+      "before_hits": [],
+      "after_hits": [
+        "R29_W_BOUNDARY_24"
+      ],
+      "passed": true
+    },
+    {
+      "level": "LM1",
+      "side": "W",
+      "corner": 25,
+      "point": [
+        -35.899627685546875,
+        11.138716697692871,
+        0.0
+      ],
+      "before_hits": [],
+      "after_hits": [
+        "R29_W_BOUNDARY_24"
+      ],
+      "passed": true
+    },
+    {
+      "level": "LM1",
+      "side": "W",
+      "corner": 25,
+      "point": [
+        -35.901344299316406,
+        11.139132499694824,
+        0.0
+      ],
+      "before_hits": [],
+      "after_hits": [
+        "R29_W_BOUNDARY_25"
+      ],
+      "passed": true
+    },
+    {
+      "level": "LM1",
+      "side": "W",
+      "corner": 26,
+      "point": [
+        -36.80541229248047,
+        11.36832332611084,
+        0.0
+      ],
+      "before_hits": [],
+      "after_hits": [
+        "R29_W_BOUNDARY_25"
+      ],
+      "passed": true
+    },
+    {
+      "level": "LM1",
+      "side": "W",
+      "corner": 26,
+      "point": [
+        -36.807106018066406,
+        11.368770599365234,
+        0.0
+      ],
+      "before_hits": [],
+      "after_hits": [
+        "R29_W_BOUNDARY_26"
+      ],
+      "passed": true
+    },
+    {
+      "level": "LM1",
+      "side": "W",
+      "corner": 27,
+      "point": [
+        -37.71009063720703,
+        11.617975234985352,
+        0.0
+      ],
+      "before_hits": [],
+      "after_hits": [
+        "R29_W_BOUNDARY_26"
+      ],
+      "passed": true
+    },
+    {
+      "level": "LM1",
+      "side": "W",
+      "corner": 27,
+      "point": [
+        -37.711753845214844,
+        11.618453979492188,
+        0.0
+      ],
+      "before_hits": [],
+      "after_hits": [
+        "R29_W_BOUNDARY_27"
+      ],
+      "passed": true
+    },
+    {
+      "level": "LM1",
+      "side": "W",
+      "corner": 28,
+      "point": [
+        -38.613616943359375,
+        11.887662887573242,
+        0.0
+      ],
+      "before_hits": [],
+      "after_hits": [
+        "R29_W_BOUNDARY_27"
+      ],
+      "passed": true
+    },
+    {
+      "level": "LM1",
+      "side": "W",
+      "corner": 28,
+      "point": [
+        -38.615257263183594,
+        11.88817024230957,
+        0.0
+      ],
+      "before_hits": [],
+      "after_hits": [
+        "R29_W_BOUNDARY_28"
+      ],
+      "passed": true
+    },
+    {
+      "level": "LM1",
+      "side": "W",
+      "corner": 29,
+      "point": [
+        -39.51600646972656,
+        12.177383422851562,
+        0.0
+      ],
+      "before_hits": [],
+      "after_hits": [
+        "R29_W_BOUNDARY_28"
+      ],
+      "passed": true
+    },
+    {
+      "level": "LM1",
+      "side": "W",
+      "corner": 29,
+      "point": [
+        -39.51762008666992,
+        12.177919387817383,
+        0.0
+      ],
+      "before_hits": [],
+      "after_hits": [
+        "R29_W_BOUNDARY_29"
+      ],
+      "passed": true
+    },
+    {
+      "level": "LM1",
+      "side": "W",
+      "corner": 30,
+      "point": [
+        -40.41722869873047,
+        12.487127304077148,
+        0.0
+      ],
+      "before_hits": [],
+      "after_hits": [
+        "R29_W_BOUNDARY_29"
+      ],
+      "passed": true
+    },
+    {
+      "level": "LM1",
+      "side": "W",
+      "corner": 30,
+      "point": [
+        -40.41880798339844,
+        12.487689018249512,
+        0.0
+      ],
+      "before_hits": [],
+      "after_hits": [
+        "R29_W_BOUNDARY_30"
+      ],
+      "passed": true
+    },
+    {
+      "level": "LM1",
+      "side": "W",
+      "corner": 31,
+      "point": [
+        -41.31730651855469,
+        12.816904067993164,
+        0.0
+      ],
+      "before_hits": [],
+      "after_hits": [
+        "R29_W_BOUNDARY_30"
+      ],
+      "passed": true
+    },
+    {
+      "level": "LM1",
+      "side": "W",
+      "corner": 31,
+      "point": [
+        -41.31885528564453,
+        12.817489624023438,
+        0.0
+      ],
+      "before_hits": [],
+      "after_hits": [
+        "R29_W_BOUNDARY_31"
+      ],
+      "passed": true
+    },
+    {
+      "level": "LM1",
+      "side": "W",
+      "corner": 32,
+      "point": [
+        -42.339324951171875,
+        13.214603424072266,
+        0.0
+      ],
+      "before_hits": [],
+      "after_hits": [
+        "R29_W_BOUNDARY_31"
+      ],
+      "passed": true
+    },
+    {
+      "level": "LM1",
+      "side": "W",
+      "corner": 32,
+      "point": [
+        -42.3658447265625,
+        13.353290557861328,
+        0.0
+      ],
+      "before_hits": [],
+      "after_hits": [
+        "R29_W_BOUNDARY_32"
+      ],
+      "passed": true
+    },
+    {
+      "level": "LM1",
+      "side": "W",
+      "corner": 33,
+      "point": [
+        -31.444149017333984,
+        23.509008407592773,
+        0.0
+      ],
+      "before_hits": [],
+      "after_hits": [
+        "R29_W_BOUNDARY_32"
+      ],
+      "passed": true
+    },
+    {
+      "level": "LM1",
+      "side": "W",
+      "corner": 33,
+      "point": [
+        -31.384374618530273,
+        23.531261444091797,
+        0.0
+      ],
+      "before_hits": [],
+      "after_hits": [
+        "R29_W_BOUNDARY_33"
+      ],
+      "passed": true
+    }
+  ],
+  "previously_open_samples": 96,
+  "failures": [],
+  "construction_acceptance": false
+}

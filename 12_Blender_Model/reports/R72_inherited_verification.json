@@ -1,0 +1,35 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R72_ATRIUM_DUVAR_SUREKLILIGI_v004.blend",
+  "base_scene": "12_Blender_Model/scenes/MUDAM_R71_GALERI_DUVAR_BIRLESIMLERI_v001.blend",
+  "inherited_objects_checked": 8500,
+  "changed_inherited_objects": [
+    "P05_MAIN_ATRIUM_BASE_3",
+    "P06_HIGH_EAVE_UPSTAND_3",
+    "P06_HIGH_EAVE_UPSTAND_4",
+    "P06_HIGH_EAVE_UPSTAND_5",
+    "P05_MAIN_ATRIUM_BASE_5_R02_ABOVE",
+    "P05_MAIN_ATRIUM_BASE_5_R02_BEFORE_R04_BEFORE",
+    "P05_MAIN_ATRIUM_BASE_5_R02_BEFORE_R04_AFTER",
+    "P05_MAIN_ATRIUM_BASE_5_R02_BEFORE_R04_ABOVE",
+    "R33_MAIN_PASSAGE_HIGH_REMAINDER"
+  ],
+  "allowed_changes": [
+    "P05_MAIN_ATRIUM_BASE_3",
+    "P05_MAIN_ATRIUM_BASE_5_R02_ABOVE",
+    "P05_MAIN_ATRIUM_BASE_5_R02_BEFORE_R04_ABOVE",
+    "P05_MAIN_ATRIUM_BASE_5_R02_BEFORE_R04_AFTER",
+    "P05_MAIN_ATRIUM_BASE_5_R02_BEFORE_R04_BEFORE",
+    "P06_HIGH_EAVE_UPSTAND_3",
+    "P06_HIGH_EAVE_UPSTAND_4",
+    "P06_HIGH_EAVE_UPSTAND_5",
+    "R33_MAIN_PASSAGE_HIGH_REMAINDER"
+  ],
+  "allowed_but_unchanged": [],
+  "new_objects": [
+    "R72_HIGH_ATRIUM_WALL_3",
+    "R72_HIGH_ATRIUM_WALL_5",
+    "R72_LOWER_FOYER_NORTH_WALL"
+  ],
+  "failures": [],
+  "construction_acceptance": false
+}

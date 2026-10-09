@@ -21,7 +21,7 @@ try {
     $mudamPython = Join-Path $env:USERPROFILE '.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe'
     & $mudamPython -X utf8 '12_Blender_Model/scripts/prepare_web_model.py'
     if ($LASTEXITCODE -ne 0) { throw 'Verified web model preparation failed.' }
-    $allowed = @('12_Blender_Model/exports/current.glb.gz','.gitignore','11_Blender_Modelleme_Plani/is_paketleri.json','12_Blender_Model/URETIM.html','12_Blender_Model/URETIM_DURUMU.html','12_Blender_Model/URETIM_DURUMU.md','12_Blender_Model/PLAN_KONTROL.html','12_Blender_Model/MODEL_INCELEME.html','12_Blender_Model/assets','12_Blender_Model/config','12_Blender_Model/reports','12_Blender_Model/renders','12_Blender_Model/references','12_Blender_Model/scripts','12_Blender_Model/textures')
+    $allowed = @('12_Blender_Model/exports/current.glb.gz','.gitignore','11_Blender_Modelleme_Plani/is_paketleri.json','11_Blender_Modelleme_Plani/00_MODELLEME_ANA_PLANI.md','12_Blender_Model/URETIM.html','12_Blender_Model/URETIM_DURUMU.html','12_Blender_Model/URETIM_DURUMU.md','12_Blender_Model/PLAN_KONTROL.html','12_Blender_Model/MODEL_INCELEME.html','12_Blender_Model/assets','12_Blender_Model/config','12_Blender_Model/reports','12_Blender_Model/renders','12_Blender_Model/references','12_Blender_Model/scripts','12_Blender_Model/textures')
     $modelPattern = '\.(blend\d*|glb|gltf|fbx|obj|stl|ply|usd[acz]?|abc|bin)(\.gz)?$'
     $webModel = '12_Blender_Model/exports/current.glb.gz'
     $paths = @(& git -c core.quotepath=false ls-files --modified --others --exclude-standard -- $allowed | Sort-Object -Unique | Where-Object { ($_ -notmatch $modelPattern -or $_ -eq $webModel) -and $_ -notmatch 'initial_dark\.jpg$' -and ($_ -notmatch '/R(\d+)_' -or [int]$Matches[1] -le $revision) })

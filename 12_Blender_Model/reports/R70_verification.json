@@ -1,0 +1,2118 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R70_GALERI_RAY_SPOT_v003.blend",
+  "solids": [
+    {
+      "name": "R70_TRACK_B_HEAD_01_BEZEL",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "volume": 0.00014424630355536664
+    },
+    {
+      "name": "R70_TRACK_B_HEAD_00_BEZEL",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "volume": 0.00014424629983507918
+    },
+    {
+      "name": "R70_TRACK_A_HEAD_00_BEZEL",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "volume": 0.00014424624802945017
+    },
+    {
+      "name": "R70_TRACK_A_HEAD_00_YOKE_-1",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "volume": 5.2799135563309785e-05
+    },
+    {
+      "name": "R70_TRACK_B_HEAD_03_PIVOT_PIN",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "volume": 4.3589214707283466e-05
+    },
+    {
+      "name": "R70_TRACK_B_HEAD_01_YOKE_-1",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "volume": 5.279913556329591e-05
+    },
+    {
+      "name": "R70_TRACK_B_HEAD_04_BEZEL",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "volume": 0.00014424477513307814
+    },
+    {
+      "name": "R70_TRACK_B_HEAD_03_BEZEL",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "volume": 0.00014424629960484283
+    },
+    {
+      "name": "R70_TRACK_A_HEAD_01_BACK_CAP",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "volume": 9.010616315820337e-05
+    },
+    {
+      "name": "R70_TRACK_A_BACK",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "volume": 0.0013720184618590814
+    },
+    {
+      "name": "R70_TRACK_B_HEAD_02_BODY",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "volume": 0.0005186065460056866
+    },
+    {
+      "name": "R70_TRACK_A_HEAD_02_STEM",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "volume": 1.662016480672736e-05
+    },
+    {
+      "name": "R70_TRACK_B_HEAD_03_STEM",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "volume": 1.6619552638496215e-05
+    },
+    {
+      "name": "R70_TRACK_B_HEAD_03_YOKE_-1",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "volume": 5.279913556321611e-05
+    },
+    {
+      "name": "R70_TRACK_B_HEAD_00_YOKE_TOP",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "volume": 9.183886667730535e-05
+    },
+    {
+      "name": "R70_TRACK_A_HEAD_02_ADAPTER",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "volume": 3.432221822211902e-05
+    },
+    {
+      "name": "R70_TRACK_B_HEAD_00_YOKE_-1",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "volume": 5.2798474471829615e-05
+    },
+    {
+      "name": "R70_TRACK_A_HEAD_02_BEZEL",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "volume": 0.00014424462291485812
+    },
+    {
+      "name": "R70_TRACK_B_HEAD_02_BACK_CAP",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "volume": 9.010633688192308e-05
+    },
+    {
+      "name": "R70_TRACK_B_HEAD_03_ADAPTER",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "volume": 3.432024964000746e-05
+    },
+    {
+      "name": "R70_TRACK_B_HEAD_01_PIVOT_PIN",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "volume": 4.3588890830083206e-05
+    },
+    {
+      "name": "R70_TRACK_B_HEAD_01_YOKE_+1",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "volume": 5.2799135563368765e-05
+    },
+    {
+      "name": "R70_TRACK_B_HEAD_02_ADAPTER",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "volume": 3.432052488620309e-05
+    },
+    {
+      "name": "R70_TRACK_B_HEAD_01_BODY",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "volume": 0.0005186065297731806
+    },
+    {
+      "name": "R70_TRACK_B_HEAD_04_STEM",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "volume": 1.6620066634746508e-05
+    },
+    {
+      "name": "R70_TRACK_A_HEAD_00_YOKE_+1",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "volume": 5.279913556321958e-05
+    },
+    {
+      "name": "R70_TRACK_A_HEAD_01_BEZEL",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "volume": 0.00014424630355519034
+    },
+    {
+      "name": "R70_TRACK_B_HEAD_00_STEM",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "volume": 1.661960590450967e-05
+    },
+    {
+      "name": "R70_TRACK_A_RAIL_0",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "volume": 0.001019237952901264
+    },
+    {
+      "name": "R70_TRACK_B_HEAD_04_YOKE_TOP",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "volume": 9.184640234612476e-05
+    },
+    {
+      "name": "R70_TRACK_B_HEAD_01_LENS",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "volume": 4.693014049801273e-05
+    },
+    {
+      "name": "R70_TRACK_B_HEAD_00_BACK_CAP",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "volume": 9.010637143065734e-05
+    },
+    {
+      "name": "R70_TRACK_A_HEAD_00_LENS",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "volume": 4.693114494320745e-05
+    },
+    {
+      "name": "R70_TRACK_B_BACK",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "volume": 0.0024945791754901747
+    },
+    {
+      "name": "R70_TRACK_B_HEAD_04_LENS",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "volume": 4.6932970009465455e-05
+    },
+    {
+      "name": "R70_TRACK_B_HEAD_02_LENS",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "volume": 4.693114494333414e-05
+    },
+    {
+      "name": "R70_TRACK_B_HEAD_01_BACK_CAP",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "volume": 9.010616315818749e-05
+    },
+    {
+      "name": "R70_TRACK_A_RAIL_1",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "volume": 0.0010192379528823903
+    },
+    {
+      "name": "R70_TRACK_B_RAIL_0",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "volume": 0.0018531600286959549
+    },
+    {
+      "name": "R70_TRACK_B_HEAD_04_ADAPTER",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "volume": 3.4322080638989234e-05
+    },
+    {
+      "name": "R70_TRACK_B_HEAD_03_YOKE_+1",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "volume": 5.2799135562109356e-05
+    },
+    {
+      "name": "R70_TRACK_A_HEAD_02_YOKE_+1",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "volume": 5.280214631575575e-05
+    },
+    {
+      "name": "R70_TRACK_B_HEAD_03_LENS",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "volume": 4.693056319112073e-05
+    },
+    {
+      "name": "R70_TRACK_B_HEAD_04_YOKE_-1",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "volume": 5.280282318927826e-05
+    },
+    {
+      "name": "R70_TRACK_B_HEAD_02_YOKE_TOP",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "volume": 9.183872918786884e-05
+    },
+    {
+      "name": "R70_TRACK_A_HEAD_00_ADAPTER",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "volume": 3.432052488657432e-05
+    },
+    {
+      "name": "R70_TRACK_A_HEAD_02_BODY",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "volume": 0.0005186301642561184
+    },
+    {
+      "name": "R70_TRACK_B_HEAD_00_PIVOT_PIN",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "volume": 4.358886766274919e-05
+    },
+    {
+      "name": "R70_TRACK_B_HEAD_01_YOKE_TOP",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "volume": 9.183872918753361e-05
+    },
+    {
+      "name": "R70_TRACK_B_HEAD_03_BODY",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "volume": 0.0005186091389140417
+    },
+    {
+      "name": "R70_TRACK_B_HEAD_01_ADAPTER",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "volume": 3.4320524886276814e-05
+    },
+    {
+      "name": "R70_TRACK_A_HEAD_02_PIVOT_PIN",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "volume": 4.358813361459728e-05
+    },
+    {
+      "name": "R70_TRACK_A_HEAD_01_ADAPTER",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "volume": 3.4320524886352274e-05
+    },
+    {
+      "name": "R70_TRACK_A_HEAD_01_STEM",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "volume": 1.6619633750153103e-05
+    },
+    {
+      "name": "R70_TRACK_A_HEAD_02_LENS",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "volume": 4.693246967708072e-05
+    },
+    {
+      "name": "R70_TRACK_B_RAIL_1",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "volume": 0.0018531600287337024
+    },
+    {
+      "name": "R70_TRACK_B_HEAD_00_LENS",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "volume": 4.6931269899503085e-05
+    },
+    {
+      "name": "R70_TRACK_B_HEAD_02_PIVOT_PIN",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "volume": 4.358875435449627e-05
+    },
+    {
+      "name": "R70_TRACK_A_HEAD_00_BACK_CAP",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "volume": 9.010633688199925e-05
+    },
+    {
+      "name": "R70_TRACK_B_HEAD_02_YOKE_-1",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "volume": 5.2799135563809385e-05
+    },
+    {
+      "name": "R70_TRACK_B_HEAD_02_STEM",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "volume": 1.6619633750045875e-05
+    },
+    {
+      "name": "R70_TRACK_B_HEAD_00_ADAPTER",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "volume": 3.4320502506124395e-05
+    },
+    {
+      "name": "R70_TRACK_A_HEAD_00_PIVOT_PIN",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "volume": 4.3588754354578535e-05
+    },
+    {
+      "name": "R70_TRACK_A_HEAD_00_STEM",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "volume": 1.6619633750091737e-05
+    },
+    {
+      "name": "R70_TRACK_A_HEAD_02_YOKE_-1",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "volume": 5.280226914483599e-05
+    },
+    {
+      "name": "R70_TRACK_B_HEAD_03_YOKE_TOP",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "volume": 9.18385336357028e-05
+    },
+    {
+      "name": "R70_TRACK_B_HEAD_02_BEZEL",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "volume": 0.00014424636648317378
+    },
+    {
+      "name": "R70_TRACK_B_HEAD_04_BACK_CAP",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "volume": 9.011585452239077e-05
+    },
+    {
+      "name": "R70_TRACK_B_HEAD_03_BACK_CAP",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "volume": 9.010518183692295e-05
+    },
+    {
+      "name": "R70_TRACK_A_HEAD_01_PIVOT_PIN",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "volume": 4.3588890830047183e-05
+    },
+    {
+      "name": "R70_TRACK_A_HEAD_00_BODY",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "volume": 0.0005186065518767199
+    },
+    {
+      "name": "R70_TRACK_A_HEAD_02_BACK_CAP",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "volume": 9.011607287284415e-05
+    },
+    {
+      "name": "R70_TRACK_A_HEAD_01_YOKE_+1",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "volume": 5.27991355633306e-05
+    },
+    {
+      "name": "R70_TRACK_B_HEAD_01_STEM",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "volume": 1.661963375005238e-05
+    },
+    {
+      "name": "R70_TRACK_B_HEAD_04_BODY",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "volume": 0.0005186333025880123
+    },
+    {
+      "name": "R70_TRACK_B_HEAD_00_BODY",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "volume": 0.0005186066078772715
+    },
+    {
+      "name": "R70_TRACK_A_HEAD_01_YOKE_-1",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "volume": 5.279913556396204e-05
+    },
+    {
+      "name": "R70_TRACK_B_HEAD_00_YOKE_+1",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "volume": 5.2798474471836554e-05
+    },
+    {
+      "name": "R70_TRACK_A_HEAD_01_LENS",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "volume": 4.693014049853879e-05
+    },
+    {
+      "name": "R70_TRACK_B_HEAD_04_YOKE_+1",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "volume": 5.2802823189236625e-05
+    },
+    {
+      "name": "R70_TRACK_A_HEAD_02_YOKE_TOP",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "volume": 9.184681408304883e-05
+    },
+    {
+      "name": "R70_TRACK_A_HEAD_01_YOKE_TOP",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "volume": 9.183872918779555e-05
+    },
+    {
+      "name": "R70_TRACK_B_HEAD_02_YOKE_+1",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "volume": 5.279913556321958e-05
+    },
+    {
+      "name": "R70_TRACK_A_HEAD_01_BODY",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "volume": 0.0005186065297731969
+    },
+    {
+      "name": "R70_TRACK_A_HEAD_00_YOKE_TOP",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "volume": 9.183872918787014e-05
+    },
+    {
+      "name": "R70_TRACK_B_HEAD_04_PIVOT_PIN",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "volume": 4.35885336844926e-05
+    }
+  ],
+  "rays": [
+    {
+      "track": "R70_TRACK_A",
+      "sample": 0,
+      "offset": -0.0175,
+      "passed": true
+    },
+    {
+      "track": "R70_TRACK_A",
+      "sample": 0,
+      "offset": 0,
+      "passed": true
+    },
+    {
+      "track": "R70_TRACK_A",
+      "sample": 0,
+      "offset": 0.0175,
+      "passed": true
+    },
+    {
+      "track": "R70_TRACK_A",
+      "sample": 1,
+      "offset": -0.0175,
+      "passed": true
+    },
+    {
+      "track": "R70_TRACK_A",
+      "sample": 1,
+      "offset": 0,
+      "passed": true
+    },
+    {
+      "track": "R70_TRACK_A",
+      "sample": 1,
+      "offset": 0.0175,
+      "passed": true
+    },
+    {
+      "track": "R70_TRACK_A",
+      "sample": 2,
+      "offset": -0.0175,
+      "passed": true
+    },
+    {
+      "track": "R70_TRACK_A",
+      "sample": 2,
+      "offset": 0,
+      "passed": true
+    },
+    {
+      "track": "R70_TRACK_A",
+      "sample": 2,
+      "offset": 0.0175,
+      "passed": true
+    },
+    {
+      "track": "R70_TRACK_A",
+      "sample": 3,
+      "offset": -0.0175,
+      "passed": true
+    },
+    {
+      "track": "R70_TRACK_A",
+      "sample": 3,
+      "offset": 0,
+      "passed": true
+    },
+    {
+      "track": "R70_TRACK_A",
+      "sample": 3,
+      "offset": 0.0175,
+      "passed": true
+    },
+    {
+      "track": "R70_TRACK_A",
+      "sample": 4,
+      "offset": -0.0175,
+      "passed": true
+    },
+    {
+      "track": "R70_TRACK_A",
+      "sample": 4,
+      "offset": 0,
+      "passed": true
+    },
+    {
+      "track": "R70_TRACK_A",
+      "sample": 4,
+      "offset": 0.0175,
+      "passed": true
+    },
+    {
+      "track": "R70_TRACK_A",
+      "sample": 5,
+      "offset": -0.0175,
+      "passed": true
+    },
+    {
+      "track": "R70_TRACK_A",
+      "sample": 5,
+      "offset": 0,
+      "passed": true
+    },
+    {
+      "track": "R70_TRACK_A",
+      "sample": 5,
+      "offset": 0.0175,
+      "passed": true
+    },
+    {
+      "track": "R70_TRACK_A",
+      "sample": 6,
+      "offset": -0.0175,
+      "passed": true
+    },
+    {
+      "track": "R70_TRACK_A",
+      "sample": 6,
+      "offset": 0,
+      "passed": true
+    },
+    {
+      "track": "R70_TRACK_A",
+      "sample": 6,
+      "offset": 0.0175,
+      "passed": true
+    },
+    {
+      "track": "R70_TRACK_A",
+      "sample": 7,
+      "offset": -0.0175,
+      "passed": true
+    },
+    {
+      "track": "R70_TRACK_A",
+      "sample": 7,
+      "offset": 0,
+      "passed": true
+    },
+    {
+      "track": "R70_TRACK_A",
+      "sample": 7,
+      "offset": 0.0175,
+      "passed": true
+    },
+    {
+      "track": "R70_TRACK_A",
+      "sample": 8,
+      "offset": -0.0175,
+      "passed": true
+    },
+    {
+      "track": "R70_TRACK_A",
+      "sample": 8,
+      "offset": 0,
+      "passed": true
+    },
+    {
+      "track": "R70_TRACK_A",
+      "sample": 8,
+      "offset": 0.0175,
+      "passed": true
+    },
+    {
+      "track": "R70_TRACK_A",
+      "sample": 9,
+      "offset": -0.0175,
+      "passed": true
+    },
+    {
+      "track": "R70_TRACK_A",
+      "sample": 9,
+      "offset": 0,
+      "passed": true
+    },
+    {
+      "track": "R70_TRACK_A",
+      "sample": 9,
+      "offset": 0.0175,
+      "passed": true
+    },
+    {
+      "track": "R70_TRACK_A",
+      "sample": 10,
+      "offset": -0.0175,
+      "passed": true
+    },
+    {
+      "track": "R70_TRACK_A",
+      "sample": 10,
+      "offset": 0,
+      "passed": true
+    },
+    {
+      "track": "R70_TRACK_A",
+      "sample": 10,
+      "offset": 0.0175,
+      "passed": true
+    },
+    {
+      "track": "R70_TRACK_A",
+      "sample": 11,
+      "offset": -0.0175,
+      "passed": true
+    },
+    {
+      "track": "R70_TRACK_A",
+      "sample": 11,
+      "offset": 0,
+      "passed": true
+    },
+    {
+      "track": "R70_TRACK_A",
+      "sample": 11,
+      "offset": 0.0175,
+      "passed": true
+    },
+    {
+      "track": "R70_TRACK_A",
+      "sample": 12,
+      "offset": -0.0175,
+      "passed": true
+    },
+    {
+      "track": "R70_TRACK_A",
+      "sample": 12,
+      "offset": 0,
+      "passed": true
+    },
+    {
+      "track": "R70_TRACK_A",
+      "sample": 12,
+      "offset": 0.0175,
+      "passed": true
+    },
+    {
+      "track": "R70_TRACK_A",
+      "sample": 13,
+      "offset": -0.0175,
+      "passed": true
+    },
+    {
+      "track": "R70_TRACK_A",
+      "sample": 13,
+      "offset": 0,
+      "passed": true
+    },
+    {
+      "track": "R70_TRACK_A",
+      "sample": 13,
+      "offset": 0.0175,
+      "passed": true
+    },
+    {
+      "track": "R70_TRACK_A",
+      "sample": 14,
+      "offset": -0.0175,
+      "passed": true
+    },
+    {
+      "track": "R70_TRACK_A",
+      "sample": 14,
+      "offset": 0,
+      "passed": true
+    },
+    {
+      "track": "R70_TRACK_A",
+      "sample": 14,
+      "offset": 0.0175,
+      "passed": true
+    },
+    {
+      "track": "R70_TRACK_A",
+      "sample": 15,
+      "offset": -0.0175,
+      "passed": true
+    },
+    {
+      "track": "R70_TRACK_A",
+      "sample": 15,
+      "offset": 0,
+      "passed": true
+    },
+    {
+      "track": "R70_TRACK_A",
+      "sample": 15,
+      "offset": 0.0175,
+      "passed": true
+    },
+    {
+      "track": "R70_TRACK_A",
+      "sample": 16,
+      "offset": -0.0175,
+      "passed": true
+    },
+    {
+      "track": "R70_TRACK_A",
+      "sample": 16,
+      "offset": 0,
+      "passed": true
+    },
+    {
+      "track": "R70_TRACK_A",
+      "sample": 16,
+      "offset": 0.0175,
+      "passed": true
+    },
+    {
+      "track": "R70_TRACK_A",
+      "sample": 17,
+      "offset": -0.0175,
+      "passed": true
+    },
+    {
+      "track": "R70_TRACK_A",
+      "sample": 17,
+      "offset": 0,
+      "passed": true
+    },
+    {
+      "track": "R70_TRACK_A",
+      "sample": 17,
+      "offset": 0.0175,
+      "passed": true
+    },
+    {
+      "track": "R70_TRACK_A",
+      "sample": 18,
+      "offset": -0.0175,
+      "passed": true
+    },
+    {
+      "track": "R70_TRACK_A",
+      "sample": 18,
+      "offset": 0,
+      "passed": true
+    },
+    {
+      "track": "R70_TRACK_A",
+      "sample": 18,
+      "offset": 0.0175,
+      "passed": true
+    },
+    {
+      "track": "R70_TRACK_A",
+      "sample": 19,
+      "offset": -0.0175,
+      "passed": true
+    },
+    {
+      "track": "R70_TRACK_A",
+      "sample": 19,
+      "offset": 0,
+      "passed": true
+    },
+    {
+      "track": "R70_TRACK_A",
+      "sample": 19,
+      "offset": 0.0175,
+      "passed": true
+    },
+    {
+      "track": "R70_TRACK_A",
+      "sample": 20,
+      "offset": -0.0175,
+      "passed": true
+    },
+    {
+      "track": "R70_TRACK_A",
+      "sample": 20,
+      "offset": 0,
+      "passed": true
+    },
+    {
+      "track": "R70_TRACK_A",
+      "sample": 20,
+      "offset": 0.0175,
+      "passed": true
+    },
+    {
+      "track": "R70_TRACK_A",
+      "sample": 21,
+      "offset": -0.0175,
+      "passed": true
+    },
+    {
+      "track": "R70_TRACK_A",
+      "sample": 21,
+      "offset": 0,
+      "passed": true
+    },
+    {
+      "track": "R70_TRACK_A",
+      "sample": 21,
+      "offset": 0.0175,
+      "passed": true
+    },
+    {
+      "track": "R70_TRACK_A",
+      "sample": 22,
+      "offset": -0.0175,
+      "passed": true
+    },
+    {
+      "track": "R70_TRACK_A",
+      "sample": 22,
+      "offset": 0,
+      "passed": true
+    },
+    {
+      "track": "R70_TRACK_A",
+      "sample": 22,
+      "offset": 0.0175,
+      "passed": true
+    },
+    {
+      "track": "R70_TRACK_A",
+      "sample": 23,
+      "offset": -0.0175,
+      "passed": true
+    },
+    {
+      "track": "R70_TRACK_A",
+      "sample": 23,
+      "offset": 0,
+      "passed": true
+    },
+    {
+      "track": "R70_TRACK_A",
+      "sample": 23,
+      "offset": 0.0175,
+      "passed": true
+    },
+    {
+      "track": "R70_TRACK_A",
+      "sample": 24,
+      "offset": -0.0175,
+      "passed": true
+    },
+    {
+      "track": "R70_TRACK_A",
+      "sample": 24,
+      "offset": 0,
+      "passed": true
+    },
+    {
+      "track": "R70_TRACK_A",
+      "sample": 24,
+      "offset": 0.0175,
+      "passed": true
+    },
+    {
+      "track": "R70_TRACK_A",
+      "sample": 25,
+      "offset": -0.0175,
+      "passed": true
+    },
+    {
+      "track": "R70_TRACK_A",
+      "sample": 25,
+      "offset": 0,
+      "passed": true
+    },
+    {
+      "track": "R70_TRACK_A",
+      "sample": 25,
+      "offset": 0.0175,
+      "passed": true
+    },
+    {
+      "track": "R70_TRACK_A",
+      "sample": 26,
+      "offset": -0.0175,
+      "passed": true
+    },
+    {
+      "track": "R70_TRACK_A",
+      "sample": 26,
+      "offset": 0,
+      "passed": true
+    },
+    {
+      "track": "R70_TRACK_A",
+      "sample": 26,
+      "offset": 0.0175,
+      "passed": true
+    },
+    {
+      "track": "R70_TRACK_A",
+      "sample": 27,
+      "offset": -0.0175,
+      "passed": true
+    },
+    {
+      "track": "R70_TRACK_A",
+      "sample": 27,
+      "offset": 0,
+      "passed": true
+    },
+    {
+      "track": "R70_TRACK_A",
+      "sample": 27,
+      "offset": 0.0175,
+      "passed": true
+    },
+    {
+      "track": "R70_TRACK_A",
+      "sample": 28,
+      "offset": -0.0175,
+      "passed": true
+    },
+    {
+      "track": "R70_TRACK_A",
+      "sample": 28,
+      "offset": 0,
+      "passed": true
+    },
+    {
+      "track": "R70_TRACK_A",
+      "sample": 28,
+      "offset": 0.0175,
+      "passed": true
+    },
+    {
+      "track": "R70_TRACK_A",
+      "sample": 29,
+      "offset": -0.0175,
+      "passed": true
+    },
+    {
+      "track": "R70_TRACK_A",
+      "sample": 29,
+      "offset": 0,
+      "passed": true
+    },
+    {
+      "track": "R70_TRACK_A",
+      "sample": 29,
+      "offset": 0.0175,
+      "passed": true
+    },
+    {
+      "track": "R70_TRACK_A",
+      "sample": 30,
+      "offset": -0.0175,
+      "passed": true
+    },
+    {
+      "track": "R70_TRACK_A",
+      "sample": 30,
+      "offset": 0,
+      "passed": true
+    },
+    {
+      "track": "R70_TRACK_A",
+      "sample": 30,
+      "offset": 0.0175,
+      "passed": true
+    },
+    {
+      "track": "R70_TRACK_B",
+      "sample": 0,
+      "offset": -0.0175,
+      "passed": true
+    },
+    {
+      "track": "R70_TRACK_B",
+      "sample": 0,
+      "offset": 0,
+      "passed": true
+    },
+    {
+      "track": "R70_TRACK_B",
+      "sample": 0,
+      "offset": 0.0175,
+      "passed": true
+    },
+    {
+      "track": "R70_TRACK_B",
+      "sample": 1,
+      "offset": -0.0175,
+      "passed": true
+    },
+    {
+      "track": "R70_TRACK_B",
+      "sample": 1,
+      "offset": 0,
+      "passed": true
+    },
+    {
+      "track": "R70_TRACK_B",
+      "sample": 1,
+      "offset": 0.0175,
+      "passed": true
+    },
+    {
+      "track": "R70_TRACK_B",
+      "sample": 2,
+      "offset": -0.0175,
+      "passed": true
+    },
+    {
+      "track": "R70_TRACK_B",
+      "sample": 2,
+      "offset": 0,
+      "passed": true
+    },
+    {
+      "track": "R70_TRACK_B",
+      "sample": 2,
+      "offset": 0.0175,
+      "passed": true
+    },
+    {
+      "track": "R70_TRACK_B",
+      "sample": 3,
+      "offset": -0.0175,
+      "passed": true
+    },
+    {
+      "track": "R70_TRACK_B",
+      "sample": 3,
+      "offset": 0,
+      "passed": true
+    },
+    {
+      "track": "R70_TRACK_B",
+      "sample": 3,
+      "offset": 0.0175,
+      "passed": true
+    },
+    {
+      "track": "R70_TRACK_B",
+      "sample": 4,
+      "offset": -0.0175,
+      "passed": true
+    },
+    {
+      "track": "R70_TRACK_B",
+      "sample": 4,
+      "offset": 0,
+      "passed": true
+    },
+    {
+      "track": "R70_TRACK_B",
+      "sample": 4,
+      "offset": 0.0175,
+      "passed": true
+    },
+    {
+      "track": "R70_TRACK_B",
+      "sample": 5,
+      "offset": -0.0175,
+      "passed": true
+    },
+    {
+      "track": "R70_TRACK_B",
+      "sample": 5,
+      "offset": 0,
+      "passed": true
+    },
+    {
+      "track": "R70_TRACK_B",
+      "sample": 5,
+      "offset": 0.0175,
+      "passed": true
+    },
+    {
+      "track": "R70_TRACK_B",
+      "sample": 6,
+      "offset": -0.0175,
+      "passed": true
+    },
+    {
+      "track": "R70_TRACK_B",
+      "sample": 6,
+      "offset": 0,
+      "passed": true
+    },
+    {
+      "track": "R70_TRACK_B",
+      "sample": 6,
+      "offset": 0.0175,
+      "passed": true
+    },
+    {
+      "track": "R70_TRACK_B",
+      "sample": 7,
+      "offset": -0.0175,
+      "passed": true
+    },
+    {
+      "track": "R70_TRACK_B",
+      "sample": 7,
+      "offset": 0,
+      "passed": true
+    },
+    {
+      "track": "R70_TRACK_B",
+      "sample": 7,
+      "offset": 0.0175,
+      "passed": true
+    },
+    {
+      "track": "R70_TRACK_B",
+      "sample": 8,
+      "offset": -0.0175,
+      "passed": true
+    },
+    {
+      "track": "R70_TRACK_B",
+      "sample": 8,
+      "offset": 0,
+      "passed": true
+    },
+    {
+      "track": "R70_TRACK_B",
+      "sample": 8,
+      "offset": 0.0175,
+      "passed": true
+    },
+    {
+      "track": "R70_TRACK_B",
+      "sample": 9,
+      "offset": -0.0175,
+      "passed": true
+    },
+    {
+      "track": "R70_TRACK_B",
+      "sample": 9,
+      "offset": 0,
+      "passed": true
+    },
+    {
+      "track": "R70_TRACK_B",
+      "sample": 9,
+      "offset": 0.0175,
+      "passed": true
+    },
+    {
+      "track": "R70_TRACK_B",
+      "sample": 10,
+      "offset": -0.0175,
+      "passed": true
+    },
+    {
+      "track": "R70_TRACK_B",
+      "sample": 10,
+      "offset": 0,
+      "passed": true
+    },
+    {
+      "track": "R70_TRACK_B",
+      "sample": 10,
+      "offset": 0.0175,
+      "passed": true
+    },
+    {
+      "track": "R70_TRACK_B",
+      "sample": 11,
+      "offset": -0.0175,
+      "passed": true
+    },
+    {
+      "track": "R70_TRACK_B",
+      "sample": 11,
+      "offset": 0,
+      "passed": true
+    },
+    {
+      "track": "R70_TRACK_B",
+      "sample": 11,
+      "offset": 0.0175,
+      "passed": true
+    },
+    {
+      "track": "R70_TRACK_B",
+      "sample": 12,
+      "offset": -0.0175,
+      "passed": true
+    },
+    {
+      "track": "R70_TRACK_B",
+      "sample": 12,
+      "offset": 0,
+      "passed": true
+    },
+    {
+      "track": "R70_TRACK_B",
+      "sample": 12,
+      "offset": 0.0175,
+      "passed": true
+    },
+    {
+      "track": "R70_TRACK_B",
+      "sample": 13,
+      "offset": -0.0175,
+      "passed": true
+    },
+    {
+      "track": "R70_TRACK_B",
+      "sample": 13,
+      "offset": 0,
+      "passed": true
+    },
+    {
+      "track": "R70_TRACK_B",
+      "sample": 13,
+      "offset": 0.0175,
+      "passed": true
+    },
+    {
+      "track": "R70_TRACK_B",
+      "sample": 14,
+      "offset": -0.0175,
+      "passed": true
+    },
+    {
+      "track": "R70_TRACK_B",
+      "sample": 14,
+      "offset": 0,
+      "passed": true
+    },
+    {
+      "track": "R70_TRACK_B",
+      "sample": 14,
+      "offset": 0.0175,
+      "passed": true
+    },
+    {
+      "track": "R70_TRACK_B",
+      "sample": 15,
+      "offset": -0.0175,
+      "passed": true
+    },
+    {
+      "track": "R70_TRACK_B",
+      "sample": 15,
+      "offset": 0,
+      "passed": true
+    },
+    {
+      "track": "R70_TRACK_B",
+      "sample": 15,
+      "offset": 0.0175,
+      "passed": true
+    },
+    {
+      "track": "R70_TRACK_B",
+      "sample": 16,
+      "offset": -0.0175,
+      "passed": true
+    },
+    {
+      "track": "R70_TRACK_B",
+      "sample": 16,
+      "offset": 0,
+      "passed": true
+    },
+    {
+      "track": "R70_TRACK_B",
+      "sample": 16,
+      "offset": 0.0175,
+      "passed": true
+    },
+    {
+      "track": "R70_TRACK_B",
+      "sample": 17,
+      "offset": -0.0175,
+      "passed": true
+    },
+    {
+      "track": "R70_TRACK_B",
+      "sample": 17,
+      "offset": 0,
+      "passed": true
+    },
+    {
+      "track": "R70_TRACK_B",
+      "sample": 17,
+      "offset": 0.0175,
+      "passed": true
+    },
+    {
+      "track": "R70_TRACK_B",
+      "sample": 18,
+      "offset": -0.0175,
+      "passed": true
+    },
+    {
+      "track": "R70_TRACK_B",
+      "sample": 18,
+      "offset": 0,
+      "passed": true
+    },
+    {
+      "track": "R70_TRACK_B",
+      "sample": 18,
+      "offset": 0.0175,
+      "passed": true
+    },
+    {
+      "track": "R70_TRACK_B",
+      "sample": 19,
+      "offset": -0.0175,
+      "passed": true
+    },
+    {
+      "track": "R70_TRACK_B",
+      "sample": 19,
+      "offset": 0,
+      "passed": true
+    },
+    {
+      "track": "R70_TRACK_B",
+      "sample": 19,
+      "offset": 0.0175,
+      "passed": true
+    },
+    {
+      "track": "R70_TRACK_B",
+      "sample": 20,
+      "offset": -0.0175,
+      "passed": true
+    },
+    {
+      "track": "R70_TRACK_B",
+      "sample": 20,
+      "offset": 0,
+      "passed": true
+    },
+    {
+      "track": "R70_TRACK_B",
+      "sample": 20,
+      "offset": 0.0175,
+      "passed": true
+    },
+    {
+      "track": "R70_TRACK_B",
+      "sample": 21,
+      "offset": -0.0175,
+      "passed": true
+    },
+    {
+      "track": "R70_TRACK_B",
+      "sample": 21,
+      "offset": 0,
+      "passed": true
+    },
+    {
+      "track": "R70_TRACK_B",
+      "sample": 21,
+      "offset": 0.0175,
+      "passed": true
+    },
+    {
+      "track": "R70_TRACK_B",
+      "sample": 22,
+      "offset": -0.0175,
+      "passed": true
+    },
+    {
+      "track": "R70_TRACK_B",
+      "sample": 22,
+      "offset": 0,
+      "passed": true
+    },
+    {
+      "track": "R70_TRACK_B",
+      "sample": 22,
+      "offset": 0.0175,
+      "passed": true
+    },
+    {
+      "track": "R70_TRACK_B",
+      "sample": 23,
+      "offset": -0.0175,
+      "passed": true
+    },
+    {
+      "track": "R70_TRACK_B",
+      "sample": 23,
+      "offset": 0,
+      "passed": true
+    },
+    {
+      "track": "R70_TRACK_B",
+      "sample": 23,
+      "offset": 0.0175,
+      "passed": true
+    },
+    {
+      "track": "R70_TRACK_B",
+      "sample": 24,
+      "offset": -0.0175,
+      "passed": true
+    },
+    {
+      "track": "R70_TRACK_B",
+      "sample": 24,
+      "offset": 0,
+      "passed": true
+    },
+    {
+      "track": "R70_TRACK_B",
+      "sample": 24,
+      "offset": 0.0175,
+      "passed": true
+    },
+    {
+      "track": "R70_TRACK_B",
+      "sample": 25,
+      "offset": -0.0175,
+      "passed": true
+    },
+    {
+      "track": "R70_TRACK_B",
+      "sample": 25,
+      "offset": 0,
+      "passed": true
+    },
+    {
+      "track": "R70_TRACK_B",
+      "sample": 25,
+      "offset": 0.0175,
+      "passed": true
+    },
+    {
+      "track": "R70_TRACK_B",
+      "sample": 26,
+      "offset": -0.0175,
+      "passed": true
+    },
+    {
+      "track": "R70_TRACK_B",
+      "sample": 26,
+      "offset": 0,
+      "passed": true
+    },
+    {
+      "track": "R70_TRACK_B",
+      "sample": 26,
+      "offset": 0.0175,
+      "passed": true
+    },
+    {
+      "track": "R70_TRACK_B",
+      "sample": 27,
+      "offset": -0.0175,
+      "passed": true
+    },
+    {
+      "track": "R70_TRACK_B",
+      "sample": 27,
+      "offset": 0,
+      "passed": true
+    },
+    {
+      "track": "R70_TRACK_B",
+      "sample": 27,
+      "offset": 0.0175,
+      "passed": true
+    },
+    {
+      "track": "R70_TRACK_B",
+      "sample": 28,
+      "offset": -0.0175,
+      "passed": true
+    },
+    {
+      "track": "R70_TRACK_B",
+      "sample": 28,
+      "offset": 0,
+      "passed": true
+    },
+    {
+      "track": "R70_TRACK_B",
+      "sample": 28,
+      "offset": 0.0175,
+      "passed": true
+    },
+    {
+      "track": "R70_TRACK_B",
+      "sample": 29,
+      "offset": -0.0175,
+      "passed": true
+    },
+    {
+      "track": "R70_TRACK_B",
+      "sample": 29,
+      "offset": 0,
+      "passed": true
+    },
+    {
+      "track": "R70_TRACK_B",
+      "sample": 29,
+      "offset": 0.0175,
+      "passed": true
+    },
+    {
+      "track": "R70_TRACK_B",
+      "sample": 30,
+      "offset": -0.0175,
+      "passed": true
+    },
+    {
+      "track": "R70_TRACK_B",
+      "sample": 30,
+      "offset": 0,
+      "passed": true
+    },
+    {
+      "track": "R70_TRACK_B",
+      "sample": 30,
+      "offset": 0.0175,
+      "passed": true
+    },
+    {
+      "fixture": "R70_TRACK_A_HEAD_00",
+      "front_ray_hit": [
+        0.21800027787685394,
+        "R70_TRACK_A_HEAD_00_LENS"
+      ],
+      "passed": true
+    },
+    {
+      "fixture": "R70_TRACK_A_HEAD_01",
+      "front_ray_hit": [
+        0.2180003523826599,
+        "R70_TRACK_A_HEAD_01_LENS"
+      ],
+      "passed": true
+    },
+    {
+      "fixture": "R70_TRACK_A_HEAD_02",
+      "front_ray_hit": [
+        0.21800024807453156,
+        "R70_TRACK_A_HEAD_02_LENS"
+      ],
+      "passed": true
+    },
+    {
+      "fixture": "R70_TRACK_B_HEAD_00",
+      "front_ray_hit": [
+        0.21800021827220917,
+        "R70_TRACK_B_HEAD_00_LENS"
+      ],
+      "passed": true
+    },
+    {
+      "fixture": "R70_TRACK_B_HEAD_01",
+      "front_ray_hit": [
+        0.2180003523826599,
+        "R70_TRACK_B_HEAD_01_LENS"
+      ],
+      "passed": true
+    },
+    {
+      "fixture": "R70_TRACK_B_HEAD_02",
+      "front_ray_hit": [
+        0.21800021827220917,
+        "R70_TRACK_B_HEAD_02_LENS"
+      ],
+      "passed": true
+    },
+    {
+      "fixture": "R70_TRACK_B_HEAD_03",
+      "front_ray_hit": [
+        0.2180003821849823,
+        "R70_TRACK_B_HEAD_03_LENS"
+      ],
+      "passed": true
+    },
+    {
+      "fixture": "R70_TRACK_B_HEAD_04",
+      "front_ray_hit": [
+        0.21800027787685394,
+        "R70_TRACK_B_HEAD_04_LENS"
+      ],
+      "passed": true
+    }
+  ],
+  "connections": [
+    {
+      "a": "R70_TRACK_A_HEAD_00_STEM",
+      "b": "R70_TRACK_A_HEAD_00_ADAPTER",
+      "passed": true
+    },
+    {
+      "a": "R70_TRACK_A_HEAD_00_STEM",
+      "b": "R70_TRACK_A_HEAD_00_YOKE_TOP",
+      "passed": true
+    },
+    {
+      "a": "R70_TRACK_A_HEAD_00_YOKE_+1",
+      "b": "R70_TRACK_A_HEAD_00_YOKE_TOP",
+      "passed": true
+    },
+    {
+      "a": "R70_TRACK_A_HEAD_00_YOKE_-1",
+      "b": "R70_TRACK_A_HEAD_00_YOKE_TOP",
+      "passed": true
+    },
+    {
+      "a": "R70_TRACK_A_HEAD_00_PIVOT_PIN",
+      "b": "R70_TRACK_A_HEAD_00_YOKE_+1",
+      "passed": true
+    },
+    {
+      "a": "R70_TRACK_A_HEAD_00_PIVOT_PIN",
+      "b": "R70_TRACK_A_HEAD_00_YOKE_-1",
+      "passed": true
+    },
+    {
+      "a": "R70_TRACK_A_HEAD_00_PIVOT_PIN",
+      "b": "R70_TRACK_A_HEAD_00_BODY",
+      "passed": true
+    },
+    {
+      "a": "R70_TRACK_A_HEAD_00_BACK_CAP",
+      "b": "R70_TRACK_A_HEAD_00_BODY",
+      "passed": true
+    },
+    {
+      "a": "R70_TRACK_A_HEAD_00_BEZEL",
+      "b": "R70_TRACK_A_HEAD_00_BODY",
+      "passed": true
+    },
+    {
+      "a": "R70_TRACK_A_HEAD_00_LENS",
+      "b": "R70_TRACK_A_HEAD_00_BEZEL",
+      "passed": true
+    },
+    {
+      "a": "R70_TRACK_A_HEAD_01_STEM",
+      "b": "R70_TRACK_A_HEAD_01_ADAPTER",
+      "passed": true
+    },
+    {
+      "a": "R70_TRACK_A_HEAD_01_STEM",
+      "b": "R70_TRACK_A_HEAD_01_YOKE_TOP",
+      "passed": true
+    },
+    {
+      "a": "R70_TRACK_A_HEAD_01_YOKE_+1",
+      "b": "R70_TRACK_A_HEAD_01_YOKE_TOP",
+      "passed": true
+    },
+    {
+      "a": "R70_TRACK_A_HEAD_01_YOKE_-1",
+      "b": "R70_TRACK_A_HEAD_01_YOKE_TOP",
+      "passed": true
+    },
+    {
+      "a": "R70_TRACK_A_HEAD_01_PIVOT_PIN",
+      "b": "R70_TRACK_A_HEAD_01_YOKE_+1",
+      "passed": true
+    },
+    {
+      "a": "R70_TRACK_A_HEAD_01_PIVOT_PIN",
+      "b": "R70_TRACK_A_HEAD_01_YOKE_-1",
+      "passed": true
+    },
+    {
+      "a": "R70_TRACK_A_HEAD_01_PIVOT_PIN",
+      "b": "R70_TRACK_A_HEAD_01_BODY",
+      "passed": true
+    },
+    {
+      "a": "R70_TRACK_A_HEAD_01_BACK_CAP",
+      "b": "R70_TRACK_A_HEAD_01_BODY",
+      "passed": true
+    },
+    {
+      "a": "R70_TRACK_A_HEAD_01_BEZEL",
+      "b": "R70_TRACK_A_HEAD_01_BODY",
+      "passed": true
+    },
+    {
+      "a": "R70_TRACK_A_HEAD_01_LENS",
+      "b": "R70_TRACK_A_HEAD_01_BEZEL",
+      "passed": true
+    },
+    {
+      "a": "R70_TRACK_A_HEAD_02_STEM",
+      "b": "R70_TRACK_A_HEAD_02_ADAPTER",
+      "passed": true
+    },
+    {
+      "a": "R70_TRACK_A_HEAD_02_STEM",
+      "b": "R70_TRACK_A_HEAD_02_YOKE_TOP",
+      "passed": true
+    },
+    {
+      "a": "R70_TRACK_A_HEAD_02_YOKE_+1",
+      "b": "R70_TRACK_A_HEAD_02_YOKE_TOP",
+      "passed": true
+    },
+    {
+      "a": "R70_TRACK_A_HEAD_02_YOKE_-1",
+      "b": "R70_TRACK_A_HEAD_02_YOKE_TOP",
+      "passed": true
+    },
+    {
+      "a": "R70_TRACK_A_HEAD_02_PIVOT_PIN",
+      "b": "R70_TRACK_A_HEAD_02_YOKE_+1",
+      "passed": true
+    },
+    {
+      "a": "R70_TRACK_A_HEAD_02_PIVOT_PIN",
+      "b": "R70_TRACK_A_HEAD_02_YOKE_-1",
+      "passed": true
+    },
+    {
+      "a": "R70_TRACK_A_HEAD_02_PIVOT_PIN",
+      "b": "R70_TRACK_A_HEAD_02_BODY",
+      "passed": true
+    },
+    {
+      "a": "R70_TRACK_A_HEAD_02_BACK_CAP",
+      "b": "R70_TRACK_A_HEAD_02_BODY",
+      "passed": true
+    },
+    {
+      "a": "R70_TRACK_A_HEAD_02_BEZEL",
+      "b": "R70_TRACK_A_HEAD_02_BODY",
+      "passed": true
+    },
+    {
+      "a": "R70_TRACK_A_HEAD_02_LENS",
+      "b": "R70_TRACK_A_HEAD_02_BEZEL",
+      "passed": true
+    },
+    {
+      "a": "R70_TRACK_B_HEAD_00_STEM",
+      "b": "R70_TRACK_B_HEAD_00_ADAPTER",
+      "passed": true
+    },
+    {
+      "a": "R70_TRACK_B_HEAD_00_STEM",
+      "b": "R70_TRACK_B_HEAD_00_YOKE_TOP",
+      "passed": true
+    },
+    {
+      "a": "R70_TRACK_B_HEAD_00_YOKE_+1",
+      "b": "R70_TRACK_B_HEAD_00_YOKE_TOP",
+      "passed": true
+    },
+    {
+      "a": "R70_TRACK_B_HEAD_00_YOKE_-1",
+      "b": "R70_TRACK_B_HEAD_00_YOKE_TOP",
+      "passed": true
+    },
+    {
+      "a": "R70_TRACK_B_HEAD_00_PIVOT_PIN",
+      "b": "R70_TRACK_B_HEAD_00_YOKE_+1",
+      "passed": true
+    },
+    {
+      "a": "R70_TRACK_B_HEAD_00_PIVOT_PIN",
+      "b": "R70_TRACK_B_HEAD_00_YOKE_-1",
+      "passed": true
+    },
+    {
+      "a": "R70_TRACK_B_HEAD_00_PIVOT_PIN",
+      "b": "R70_TRACK_B_HEAD_00_BODY",
+      "passed": true
+    },
+    {
+      "a": "R70_TRACK_B_HEAD_00_BACK_CAP",
+      "b": "R70_TRACK_B_HEAD_00_BODY",
+      "passed": true
+    },
+    {
+      "a": "R70_TRACK_B_HEAD_00_BEZEL",
+      "b": "R70_TRACK_B_HEAD_00_BODY",
+      "passed": true
+    },
+    {
+      "a": "R70_TRACK_B_HEAD_00_LENS",
+      "b": "R70_TRACK_B_HEAD_00_BEZEL",
+      "passed": true
+    },
+    {
+      "a": "R70_TRACK_B_HEAD_01_STEM",
+      "b": "R70_TRACK_B_HEAD_01_ADAPTER",
+      "passed": true
+    },
+    {
+      "a": "R70_TRACK_B_HEAD_01_STEM",
+      "b": "R70_TRACK_B_HEAD_01_YOKE_TOP",
+      "passed": true
+    },
+    {
+      "a": "R70_TRACK_B_HEAD_01_YOKE_+1",
+      "b": "R70_TRACK_B_HEAD_01_YOKE_TOP",
+      "passed": true
+    },
+    {
+      "a": "R70_TRACK_B_HEAD_01_YOKE_-1",
+      "b": "R70_TRACK_B_HEAD_01_YOKE_TOP",
+      "passed": true
+    },
+    {
+      "a": "R70_TRACK_B_HEAD_01_PIVOT_PIN",
+      "b": "R70_TRACK_B_HEAD_01_YOKE_+1",
+      "passed": true
+    },
+    {
+      "a": "R70_TRACK_B_HEAD_01_PIVOT_PIN",
+      "b": "R70_TRACK_B_HEAD_01_YOKE_-1",
+      "passed": true
+    },
+    {
+      "a": "R70_TRACK_B_HEAD_01_PIVOT_PIN",
+      "b": "R70_TRACK_B_HEAD_01_BODY",
+      "passed": true
+    },
+    {
+      "a": "R70_TRACK_B_HEAD_01_BACK_CAP",
+      "b": "R70_TRACK_B_HEAD_01_BODY",
+      "passed": true
+    },
+    {
+      "a": "R70_TRACK_B_HEAD_01_BEZEL",
+      "b": "R70_TRACK_B_HEAD_01_BODY",
+      "passed": true
+    },
+    {
+      "a": "R70_TRACK_B_HEAD_01_LENS",
+      "b": "R70_TRACK_B_HEAD_01_BEZEL",
+      "passed": true
+    },
+    {
+      "a": "R70_TRACK_B_HEAD_02_STEM",
+      "b": "R70_TRACK_B_HEAD_02_ADAPTER",
+      "passed": true
+    },
+    {
+      "a": "R70_TRACK_B_HEAD_02_STEM",
+      "b": "R70_TRACK_B_HEAD_02_YOKE_TOP",
+      "passed": true
+    },
+    {
+      "a": "R70_TRACK_B_HEAD_02_YOKE_+1",
+      "b": "R70_TRACK_B_HEAD_02_YOKE_TOP",
+      "passed": true
+    },
+    {
+      "a": "R70_TRACK_B_HEAD_02_YOKE_-1",
+      "b": "R70_TRACK_B_HEAD_02_YOKE_TOP",
+      "passed": true
+    },
+    {
+      "a": "R70_TRACK_B_HEAD_02_PIVOT_PIN",
+      "b": "R70_TRACK_B_HEAD_02_YOKE_+1",
+      "passed": true
+    },
+    {
+      "a": "R70_TRACK_B_HEAD_02_PIVOT_PIN",
+      "b": "R70_TRACK_B_HEAD_02_YOKE_-1",
+      "passed": true
+    },
+    {
+      "a": "R70_TRACK_B_HEAD_02_PIVOT_PIN",
+      "b": "R70_TRACK_B_HEAD_02_BODY",
+      "passed": true
+    },
+    {
+      "a": "R70_TRACK_B_HEAD_02_BACK_CAP",
+      "b": "R70_TRACK_B_HEAD_02_BODY",
+      "passed": true
+    },
+    {
+      "a": "R70_TRACK_B_HEAD_02_BEZEL",
+      "b": "R70_TRACK_B_HEAD_02_BODY",
+      "passed": true
+    },
+    {
+      "a": "R70_TRACK_B_HEAD_02_LENS",
+      "b": "R70_TRACK_B_HEAD_02_BEZEL",
+      "passed": true
+    },
+    {
+      "a": "R70_TRACK_B_HEAD_03_STEM",
+      "b": "R70_TRACK_B_HEAD_03_ADAPTER",
+      "passed": true
+    },
+    {
+      "a": "R70_TRACK_B_HEAD_03_STEM",
+      "b": "R70_TRACK_B_HEAD_03_YOKE_TOP",
+      "passed": true
+    },
+    {
+      "a": "R70_TRACK_B_HEAD_03_YOKE_+1",
+      "b": "R70_TRACK_B_HEAD_03_YOKE_TOP",
+      "passed": true
+    },
+    {
+      "a": "R70_TRACK_B_HEAD_03_YOKE_-1",
+      "b": "R70_TRACK_B_HEAD_03_YOKE_TOP",
+      "passed": true
+    },
+    {
+      "a": "R70_TRACK_B_HEAD_03_PIVOT_PIN",
+      "b": "R70_TRACK_B_HEAD_03_YOKE_+1",
+      "passed": true
+    },
+    {
+      "a": "R70_TRACK_B_HEAD_03_PIVOT_PIN",
+      "b": "R70_TRACK_B_HEAD_03_YOKE_-1",
+      "passed": true
+    },
+    {
+      "a": "R70_TRACK_B_HEAD_03_PIVOT_PIN",
+      "b": "R70_TRACK_B_HEAD_03_BODY",
+      "passed": true
+    },
+    {
+      "a": "R70_TRACK_B_HEAD_03_BACK_CAP",
+      "b": "R70_TRACK_B_HEAD_03_BODY",
+      "passed": true
+    },
+    {
+      "a": "R70_TRACK_B_HEAD_03_BEZEL",
+      "b": "R70_TRACK_B_HEAD_03_BODY",
+      "passed": true
+    },
+    {
+      "a": "R70_TRACK_B_HEAD_03_LENS",
+      "b": "R70_TRACK_B_HEAD_03_BEZEL",
+      "passed": true
+    },
+    {
+      "a": "R70_TRACK_B_HEAD_04_STEM",
+      "b": "R70_TRACK_B_HEAD_04_ADAPTER",
+      "passed": true
+    },
+    {
+      "a": "R70_TRACK_B_HEAD_04_STEM",
+      "b": "R70_TRACK_B_HEAD_04_YOKE_TOP",
+      "passed": true
+    },
+    {
+      "a": "R70_TRACK_B_HEAD_04_YOKE_+1",
+      "b": "R70_TRACK_B_HEAD_04_YOKE_TOP",
+      "passed": true
+    },
+    {
+      "a": "R70_TRACK_B_HEAD_04_YOKE_-1",
+      "b": "R70_TRACK_B_HEAD_04_YOKE_TOP",
+      "passed": true
+    },
+    {
+      "a": "R70_TRACK_B_HEAD_04_PIVOT_PIN",
+      "b": "R70_TRACK_B_HEAD_04_YOKE_+1",
+      "passed": true
+    },
+    {
+      "a": "R70_TRACK_B_HEAD_04_PIVOT_PIN",
+      "b": "R70_TRACK_B_HEAD_04_YOKE_-1",
+      "passed": true
+    },
+    {
+      "a": "R70_TRACK_B_HEAD_04_PIVOT_PIN",
+      "b": "R70_TRACK_B_HEAD_04_BODY",
+      "passed": true
+    },
+    {
+      "a": "R70_TRACK_B_HEAD_04_BACK_CAP",
+      "b": "R70_TRACK_B_HEAD_04_BODY",
+      "passed": true
+    },
+    {
+      "a": "R70_TRACK_B_HEAD_04_BEZEL",
+      "b": "R70_TRACK_B_HEAD_04_BODY",
+      "passed": true
+    },
+    {
+      "a": "R70_TRACK_B_HEAD_04_LENS",
+      "b": "R70_TRACK_B_HEAD_04_BEZEL",
+      "passed": true
+    }
+  ],
+  "nearby_inherited_objects": [
+    "P05_GALLERY_HALL_EAST2_R02_AFTER",
+    "R52_BAY_2_INTERIOR_HEAD",
+    "R52_GALLERY_FRONT_LINER_1"
+  ],
+  "inherited_collisions": [],
+  "height_range": [
+    3.955573320388794,
+    4.349999904632568
+  ],
+  "failures": [],
+  "construction_acceptance": false,
+  "limits": "Assembly and geometric tests do not validate fixture count, measured coordinates, electrical system or lighting performance."
+}

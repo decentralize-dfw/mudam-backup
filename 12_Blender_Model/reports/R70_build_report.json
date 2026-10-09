@@ -1,0 +1,417 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R70_GALERI_RAY_SPOT_v003.blend",
+  "base_scene": "MUDAM_R69_ALT_FUAYE_GOMME_ISIK_v001.blend",
+  "closed_objects": [
+    "R70_TRACK_A_BACK",
+    "R70_TRACK_A_RAIL_0",
+    "R70_TRACK_A_RAIL_1",
+    "R70_TRACK_A_HEAD_00_ADAPTER",
+    "R70_TRACK_A_HEAD_00_STEM",
+    "R70_TRACK_A_HEAD_00_YOKE_TOP",
+    "R70_TRACK_A_HEAD_00_YOKE_-1",
+    "R70_TRACK_A_HEAD_00_YOKE_+1",
+    "R70_TRACK_A_HEAD_00_PIVOT_PIN",
+    "R70_TRACK_A_HEAD_00_BODY",
+    "R70_TRACK_A_HEAD_00_BACK_CAP",
+    "R70_TRACK_A_HEAD_00_LENS",
+    "R70_TRACK_A_HEAD_00_BEZEL",
+    "R70_TRACK_A_HEAD_01_ADAPTER",
+    "R70_TRACK_A_HEAD_01_STEM",
+    "R70_TRACK_A_HEAD_01_YOKE_TOP",
+    "R70_TRACK_A_HEAD_01_YOKE_-1",
+    "R70_TRACK_A_HEAD_01_YOKE_+1",
+    "R70_TRACK_A_HEAD_01_PIVOT_PIN",
+    "R70_TRACK_A_HEAD_01_BODY",
+    "R70_TRACK_A_HEAD_01_BACK_CAP",
+    "R70_TRACK_A_HEAD_01_LENS",
+    "R70_TRACK_A_HEAD_01_BEZEL",
+    "R70_TRACK_A_HEAD_02_ADAPTER",
+    "R70_TRACK_A_HEAD_02_STEM",
+    "R70_TRACK_A_HEAD_02_YOKE_TOP",
+    "R70_TRACK_A_HEAD_02_YOKE_-1",
+    "R70_TRACK_A_HEAD_02_YOKE_+1",
+    "R70_TRACK_A_HEAD_02_PIVOT_PIN",
+    "R70_TRACK_A_HEAD_02_BODY",
+    "R70_TRACK_A_HEAD_02_BACK_CAP",
+    "R70_TRACK_A_HEAD_02_LENS",
+    "R70_TRACK_A_HEAD_02_BEZEL",
+    "R70_TRACK_B_BACK",
+    "R70_TRACK_B_RAIL_0",
+    "R70_TRACK_B_RAIL_1",
+    "R70_TRACK_B_HEAD_00_ADAPTER",
+    "R70_TRACK_B_HEAD_00_STEM",
+    "R70_TRACK_B_HEAD_00_YOKE_TOP",
+    "R70_TRACK_B_HEAD_00_YOKE_-1",
+    "R70_TRACK_B_HEAD_00_YOKE_+1",
+    "R70_TRACK_B_HEAD_00_PIVOT_PIN",
+    "R70_TRACK_B_HEAD_00_BODY",
+    "R70_TRACK_B_HEAD_00_BACK_CAP",
+    "R70_TRACK_B_HEAD_00_LENS",
+    "R70_TRACK_B_HEAD_00_BEZEL",
+    "R70_TRACK_B_HEAD_01_ADAPTER",
+    "R70_TRACK_B_HEAD_01_STEM",
+    "R70_TRACK_B_HEAD_01_YOKE_TOP",
+    "R70_TRACK_B_HEAD_01_YOKE_-1",
+    "R70_TRACK_B_HEAD_01_YOKE_+1",
+    "R70_TRACK_B_HEAD_01_PIVOT_PIN",
+    "R70_TRACK_B_HEAD_01_BODY",
+    "R70_TRACK_B_HEAD_01_BACK_CAP",
+    "R70_TRACK_B_HEAD_01_LENS",
+    "R70_TRACK_B_HEAD_01_BEZEL",
+    "R70_TRACK_B_HEAD_02_ADAPTER",
+    "R70_TRACK_B_HEAD_02_STEM",
+    "R70_TRACK_B_HEAD_02_YOKE_TOP",
+    "R70_TRACK_B_HEAD_02_YOKE_-1",
+    "R70_TRACK_B_HEAD_02_YOKE_+1",
+    "R70_TRACK_B_HEAD_02_PIVOT_PIN",
+    "R70_TRACK_B_HEAD_02_BODY",
+    "R70_TRACK_B_HEAD_02_BACK_CAP",
+    "R70_TRACK_B_HEAD_02_LENS",
+    "R70_TRACK_B_HEAD_02_BEZEL",
+    "R70_TRACK_B_HEAD_03_ADAPTER",
+    "R70_TRACK_B_HEAD_03_STEM",
+    "R70_TRACK_B_HEAD_03_YOKE_TOP",
+    "R70_TRACK_B_HEAD_03_YOKE_-1",
+    "R70_TRACK_B_HEAD_03_YOKE_+1",
+    "R70_TRACK_B_HEAD_03_PIVOT_PIN",
+    "R70_TRACK_B_HEAD_03_BODY",
+    "R70_TRACK_B_HEAD_03_BACK_CAP",
+    "R70_TRACK_B_HEAD_03_LENS",
+    "R70_TRACK_B_HEAD_03_BEZEL",
+    "R70_TRACK_B_HEAD_04_ADAPTER",
+    "R70_TRACK_B_HEAD_04_STEM",
+    "R70_TRACK_B_HEAD_04_YOKE_TOP",
+    "R70_TRACK_B_HEAD_04_YOKE_-1",
+    "R70_TRACK_B_HEAD_04_YOKE_+1",
+    "R70_TRACK_B_HEAD_04_PIVOT_PIN",
+    "R70_TRACK_B_HEAD_04_BODY",
+    "R70_TRACK_B_HEAD_04_BACK_CAP",
+    "R70_TRACK_B_HEAD_04_LENS",
+    "R70_TRACK_B_HEAD_04_BEZEL"
+  ],
+  "changed_inherited_objects": [],
+  "tracks": [
+    {
+      "id": "R70_TRACK_A",
+      "start": [
+        28.72212791442871,
+        -4.720613479614258,
+        0.0
+      ],
+      "end": [
+        33.506980895996094,
+        -0.27134454250335693,
+        0.0
+      ],
+      "back": "R70_TRACK_A_BACK",
+      "rails": [
+        "R70_TRACK_A_RAIL_0",
+        "R70_TRACK_A_RAIL_1"
+      ]
+    },
+    {
+      "id": "R70_TRACK_B",
+      "start": [
+        24.515546798706055,
+        -0.1967547982931137,
+        0.0
+      ],
+      "end": [
+        33.215274810791016,
+        7.892824649810791,
+        0.0
+      ],
+      "back": "R70_TRACK_B_BACK",
+      "rails": [
+        "R70_TRACK_B_RAIL_0",
+        "R70_TRACK_B_RAIL_1"
+      ]
+    }
+  ],
+  "fixtures": [
+    {
+      "id": "R70_TRACK_A_HEAD_00",
+      "track": "R70_TRACK_A",
+      "ceiling_point": [
+        29.58340072631836,
+        -3.9197449684143066,
+        4.349999904632568
+      ],
+      "pivot": [
+        29.58340072631836,
+        -3.9197449684143066,
+        4.114999771118164
+      ],
+      "axis": [
+        -0.250471293926239,
+        -0.23289896547794342,
+        -0.9396926164627075
+      ],
+      "lens": "R70_TRACK_A_HEAD_00_LENS",
+      "body": "R70_TRACK_A_HEAD_00_BODY",
+      "rim": "R70_TRACK_A_HEAD_00_BEZEL",
+      "parts": [
+        "R70_TRACK_A_HEAD_00_ADAPTER",
+        "R70_TRACK_A_HEAD_00_STEM",
+        "R70_TRACK_A_HEAD_00_YOKE_TOP",
+        "R70_TRACK_A_HEAD_00_YOKE_-1",
+        "R70_TRACK_A_HEAD_00_YOKE_+1",
+        "R70_TRACK_A_HEAD_00_PIVOT_PIN",
+        "R70_TRACK_A_HEAD_00_BODY",
+        "R70_TRACK_A_HEAD_00_BACK_CAP",
+        "R70_TRACK_A_HEAD_00_LENS",
+        "R70_TRACK_A_HEAD_00_BEZEL"
+      ]
+    },
+    {
+      "id": "R70_TRACK_A_HEAD_01",
+      "track": "R70_TRACK_A",
+      "ceiling_point": [
+        31.11455535888672,
+        -2.495979070663452,
+        4.349999904632568
+      ],
+      "pivot": [
+        31.11455535888672,
+        -2.495979070663452,
+        4.114999771118164
+      ],
+      "axis": [
+        0.250471293926239,
+        0.23289896547794342,
+        -0.9396926164627075
+      ],
+      "lens": "R70_TRACK_A_HEAD_01_LENS",
+      "body": "R70_TRACK_A_HEAD_01_BODY",
+      "rim": "R70_TRACK_A_HEAD_01_BEZEL",
+      "parts": [
+        "R70_TRACK_A_HEAD_01_ADAPTER",
+        "R70_TRACK_A_HEAD_01_STEM",
+        "R70_TRACK_A_HEAD_01_YOKE_TOP",
+        "R70_TRACK_A_HEAD_01_YOKE_-1",
+        "R70_TRACK_A_HEAD_01_YOKE_+1",
+        "R70_TRACK_A_HEAD_01_PIVOT_PIN",
+        "R70_TRACK_A_HEAD_01_BODY",
+        "R70_TRACK_A_HEAD_01_BACK_CAP",
+        "R70_TRACK_A_HEAD_01_LENS",
+        "R70_TRACK_A_HEAD_01_BEZEL"
+      ]
+    },
+    {
+      "id": "R70_TRACK_A_HEAD_02",
+      "track": "R70_TRACK_A",
+      "ceiling_point": [
+        32.64570617675781,
+        -1.0722129344940186,
+        4.349999904632568
+      ],
+      "pivot": [
+        32.64570617675781,
+        -1.0722129344940186,
+        4.114999771118164
+      ],
+      "axis": [
+        -0.250471293926239,
+        -0.23289896547794342,
+        -0.9396926164627075
+      ],
+      "lens": "R70_TRACK_A_HEAD_02_LENS",
+      "body": "R70_TRACK_A_HEAD_02_BODY",
+      "rim": "R70_TRACK_A_HEAD_02_BEZEL",
+      "parts": [
+        "R70_TRACK_A_HEAD_02_ADAPTER",
+        "R70_TRACK_A_HEAD_02_STEM",
+        "R70_TRACK_A_HEAD_02_YOKE_TOP",
+        "R70_TRACK_A_HEAD_02_YOKE_-1",
+        "R70_TRACK_A_HEAD_02_YOKE_+1",
+        "R70_TRACK_A_HEAD_02_PIVOT_PIN",
+        "R70_TRACK_A_HEAD_02_BODY",
+        "R70_TRACK_A_HEAD_02_BACK_CAP",
+        "R70_TRACK_A_HEAD_02_LENS",
+        "R70_TRACK_A_HEAD_02_BEZEL"
+      ]
+    },
+    {
+      "id": "R70_TRACK_B_HEAD_00",
+      "track": "R70_TRACK_B",
+      "ceiling_point": [
+        25.38551902770996,
+        0.6122033596038818,
+        4.349999904632568
+      ],
+      "pivot": [
+        25.38551902770996,
+        0.6122033596038818,
+        4.114999771118164
+      ],
+      "axis": [
+        -0.250471293926239,
+        -0.23289896547794342,
+        -0.9396926164627075
+      ],
+      "lens": "R70_TRACK_B_HEAD_00_LENS",
+      "body": "R70_TRACK_B_HEAD_00_BODY",
+      "rim": "R70_TRACK_B_HEAD_00_BEZEL",
+      "parts": [
+        "R70_TRACK_B_HEAD_00_ADAPTER",
+        "R70_TRACK_B_HEAD_00_STEM",
+        "R70_TRACK_B_HEAD_00_YOKE_TOP",
+        "R70_TRACK_B_HEAD_00_YOKE_-1",
+        "R70_TRACK_B_HEAD_00_YOKE_+1",
+        "R70_TRACK_B_HEAD_00_PIVOT_PIN",
+        "R70_TRACK_B_HEAD_00_BODY",
+        "R70_TRACK_B_HEAD_00_BACK_CAP",
+        "R70_TRACK_B_HEAD_00_LENS",
+        "R70_TRACK_B_HEAD_00_BEZEL"
+      ]
+    },
+    {
+      "id": "R70_TRACK_B_HEAD_01",
+      "track": "R70_TRACK_B",
+      "ceiling_point": [
+        27.125465393066406,
+        2.230118989944458,
+        4.349999904632568
+      ],
+      "pivot": [
+        27.125465393066406,
+        2.230118989944458,
+        4.114999771118164
+      ],
+      "axis": [
+        0.250471293926239,
+        0.23289896547794342,
+        -0.9396926164627075
+      ],
+      "lens": "R70_TRACK_B_HEAD_01_LENS",
+      "body": "R70_TRACK_B_HEAD_01_BODY",
+      "rim": "R70_TRACK_B_HEAD_01_BEZEL",
+      "parts": [
+        "R70_TRACK_B_HEAD_01_ADAPTER",
+        "R70_TRACK_B_HEAD_01_STEM",
+        "R70_TRACK_B_HEAD_01_YOKE_TOP",
+        "R70_TRACK_B_HEAD_01_YOKE_-1",
+        "R70_TRACK_B_HEAD_01_YOKE_+1",
+        "R70_TRACK_B_HEAD_01_PIVOT_PIN",
+        "R70_TRACK_B_HEAD_01_BODY",
+        "R70_TRACK_B_HEAD_01_BACK_CAP",
+        "R70_TRACK_B_HEAD_01_LENS",
+        "R70_TRACK_B_HEAD_01_BEZEL"
+      ]
+    },
+    {
+      "id": "R70_TRACK_B_HEAD_02",
+      "track": "R70_TRACK_B",
+      "ceiling_point": [
+        28.86540985107422,
+        3.8480348587036133,
+        4.349999904632568
+      ],
+      "pivot": [
+        28.86540985107422,
+        3.8480348587036133,
+        4.114999771118164
+      ],
+      "axis": [
+        -0.250471293926239,
+        -0.23289896547794342,
+        -0.9396926164627075
+      ],
+      "lens": "R70_TRACK_B_HEAD_02_LENS",
+      "body": "R70_TRACK_B_HEAD_02_BODY",
+      "rim": "R70_TRACK_B_HEAD_02_BEZEL",
+      "parts": [
+        "R70_TRACK_B_HEAD_02_ADAPTER",
+        "R70_TRACK_B_HEAD_02_STEM",
+        "R70_TRACK_B_HEAD_02_YOKE_TOP",
+        "R70_TRACK_B_HEAD_02_YOKE_-1",
+        "R70_TRACK_B_HEAD_02_YOKE_+1",
+        "R70_TRACK_B_HEAD_02_PIVOT_PIN",
+        "R70_TRACK_B_HEAD_02_BODY",
+        "R70_TRACK_B_HEAD_02_BACK_CAP",
+        "R70_TRACK_B_HEAD_02_LENS",
+        "R70_TRACK_B_HEAD_02_BEZEL"
+      ]
+    },
+    {
+      "id": "R70_TRACK_B_HEAD_03",
+      "track": "R70_TRACK_B",
+      "ceiling_point": [
+        30.605356216430664,
+        5.465950965881348,
+        4.349999904632568
+      ],
+      "pivot": [
+        30.605356216430664,
+        5.465950965881348,
+        4.114999771118164
+      ],
+      "axis": [
+        0.250471293926239,
+        0.23289896547794342,
+        -0.9396926164627075
+      ],
+      "lens": "R70_TRACK_B_HEAD_03_LENS",
+      "body": "R70_TRACK_B_HEAD_03_BODY",
+      "rim": "R70_TRACK_B_HEAD_03_BEZEL",
+      "parts": [
+        "R70_TRACK_B_HEAD_03_ADAPTER",
+        "R70_TRACK_B_HEAD_03_STEM",
+        "R70_TRACK_B_HEAD_03_YOKE_TOP",
+        "R70_TRACK_B_HEAD_03_YOKE_-1",
+        "R70_TRACK_B_HEAD_03_YOKE_+1",
+        "R70_TRACK_B_HEAD_03_PIVOT_PIN",
+        "R70_TRACK_B_HEAD_03_BODY",
+        "R70_TRACK_B_HEAD_03_BACK_CAP",
+        "R70_TRACK_B_HEAD_03_LENS",
+        "R70_TRACK_B_HEAD_03_BEZEL"
+      ]
+    },
+    {
+      "id": "R70_TRACK_B_HEAD_04",
+      "track": "R70_TRACK_B",
+      "ceiling_point": [
+        32.34530258178711,
+        7.083866596221924,
+        4.349999904632568
+      ],
+      "pivot": [
+        32.34530258178711,
+        7.083866596221924,
+        4.114999771118164
+      ],
+      "axis": [
+        -0.250471293926239,
+        -0.23289896547794342,
+        -0.9396926164627075
+      ],
+      "lens": "R70_TRACK_B_HEAD_04_LENS",
+      "body": "R70_TRACK_B_HEAD_04_BODY",
+      "rim": "R70_TRACK_B_HEAD_04_BEZEL",
+      "parts": [
+        "R70_TRACK_B_HEAD_04_ADAPTER",
+        "R70_TRACK_B_HEAD_04_STEM",
+        "R70_TRACK_B_HEAD_04_YOKE_TOP",
+        "R70_TRACK_B_HEAD_04_YOKE_-1",
+        "R70_TRACK_B_HEAD_04_YOKE_+1",
+        "R70_TRACK_B_HEAD_04_PIVOT_PIN",
+        "R70_TRACK_B_HEAD_04_BODY",
+        "R70_TRACK_B_HEAD_04_BACK_CAP",
+        "R70_TRACK_B_HEAD_04_LENS",
+        "R70_TRACK_B_HEAD_04_BEZEL"
+      ]
+    }
+  ],
+  "soffit_z": 4.35,
+  "canonical_x_world": [
+    -0.6809553503990173,
+    0.73232501745224,
+    0.0
+  ],
+  "canonical_y_world": [
+    0.7323290109634399,
+    0.6809509992599487,
+    0.0
+  ],
+  "construction_acceptance": false
+}

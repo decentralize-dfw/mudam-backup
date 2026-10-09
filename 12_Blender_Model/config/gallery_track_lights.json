@@ -1,0 +1,22 @@
+{
+  "base_scene": "MUDAM_R69_ALT_FUAYE_GOMME_ISIK_v001.blend",
+  "source_ids": ["056", "061", "062", "102", "101"],
+  "ceiling_z": 4.35,
+  "tracks": [
+    {"id": "A", "start": [345,495], "end": [345,550], "fixture_fractions": [0.18,0.50,0.82]},
+    {"id": "B", "start": [397,495], "end": [397,595], "fixture_fractions": [0.10,0.30,0.50,0.70,0.90]}
+  ],
+  "observations": [
+    "061 and 062 show narrow dark ceiling tracks with suspended, adjustable black spot fixtures near the gallery windows.",
+    "061 shows a round fixture housing and a fork-like suspension; 062 shows several independently aimed heads.",
+    "056 shows linear modules on parallel tracks, plus separate white ceiling heads. This different arrangement is not duplicated as a simultaneous permanent fixture schedule.",
+    "102 controls the gallery footprint and R52 window relationship. 101 does not resolve track height or product dimensions."
+  ],
+  "limits": [
+    "Two runs and eight heads are a partial editable arrangement, not a measured or complete lighting schedule.",
+    "Canonical coordinates are placement candidates under the R28 ceiling, not photo-calibrated coordinates.",
+    "4.35m soffit is inherited and conditional; 35mm track width, 120mm body diameter, bracket dimensions and 20 degree aim are unmeasured candidates.",
+    "Surface-mounted U-profile is a geometric candidate; actual recessed/mounted section and electrical product are unverified.",
+    "No calibrated luminous flux, beam distribution, wiring, artwork or temporary exhibition partition is asserted."
+  ]
+}

@@ -1,0 +1,187 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R74_STUDIO_DUVAR_BIRLESIMLERI_v003.blend",
+  "solids": [
+    {
+      "name": "R31_EAST_JAMB_A",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "signed_volume": 2.6905606208069077
+    },
+    {
+      "name": "R31_EAST_JAMB_B",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "signed_volume": 5.004941050647757
+    },
+    {
+      "name": "R31_STUDIO_WALL_0",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "signed_volume": 5.666295254274832
+    },
+    {
+      "name": "R31_STUDIO_WALL_2",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "signed_volume": 5.664302897012721
+    },
+    {
+      "name": "R31_STUDIO_WALL_3",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "signed_volume": 9.163074951751586
+    }
+  ],
+  "front_and_height_preservation": [
+    {
+      "name": "R31_EAST_JAMB_A",
+      "unchanged_vertices": 6,
+      "unexpected_changed_vertices": []
+    },
+    {
+      "name": "R31_EAST_JAMB_B",
+      "unchanged_vertices": 6,
+      "unexpected_changed_vertices": []
+    },
+    {
+      "name": "R31_STUDIO_WALL_0",
+      "unchanged_vertices": 4,
+      "unexpected_changed_vertices": []
+    },
+    {
+      "name": "R31_STUDIO_WALL_2",
+      "unchanged_vertices": 4,
+      "unexpected_changed_vertices": []
+    },
+    {
+      "name": "R31_STUDIO_WALL_3",
+      "unchanged_vertices": 4,
+      "unexpected_changed_vertices": []
+    }
+  ],
+  "junction_rays": [
+    {
+      "level": "LP1",
+      "side": "STUDIO",
+      "corner": 0,
+      "point": [
+        28.102697372436523,
+        15.098650932312012,
+        0.0
+      ],
+      "before_hits": [],
+      "after_hits": [
+        "R31_STUDIO_WALL_3"
+      ],
+      "passed": true
+    },
+    {
+      "level": "LP1",
+      "side": "STUDIO",
+      "corner": 0,
+      "point": [
+        27.961353302001953,
+        15.103771209716797,
+        0.0
+      ],
+      "before_hits": [],
+      "after_hits": [
+        "R31_STUDIO_WALL_0"
+      ],
+      "passed": true
+    },
+    {
+      "level": "LP1",
+      "side": "STUDIO",
+      "corner": 1,
+      "point": [
+        23.265857696533203,
+        20.153419494628906,
+        0.0
+      ],
+      "before_hits": [],
+      "after_hits": [
+        "R31_STUDIO_WALL_0"
+      ],
+      "passed": true
+    },
+    {
+      "level": "LP1",
+      "side": "STUDIO",
+      "corner": 1,
+      "point": [
+        23.270994186401367,
+        20.29474639892578,
+        0.0
+      ],
+      "before_hits": [],
+      "after_hits": [
+        "R31_EAST_JAMB_A"
+      ],
+      "passed": true
+    },
+    {
+      "level": "LP1",
+      "side": "STUDIO",
+      "corner": 2,
+      "point": [
+        31.482105255126953,
+        27.929977416992188,
+        0.0
+      ],
+      "before_hits": [],
+      "after_hits": [
+        "R31_EAST_JAMB_B"
+      ],
+      "passed": true
+    },
+    {
+      "level": "LP1",
+      "side": "STUDIO",
+      "corner": 2,
+      "point": [
+        31.62343406677246,
+        27.924842834472656,
+        0.0
+      ],
+      "before_hits": [],
+      "after_hits": [
+        "R31_STUDIO_WALL_2"
+      ],
+      "passed": true
+    },
+    {
+      "level": "LP1",
+      "side": "STUDIO",
+      "corner": 3,
+      "point": [
+        36.31727981567383,
+        22.876968383789062,
+        0.0
+      ],
+      "before_hits": [],
+      "after_hits": [
+        "R31_STUDIO_WALL_2"
+      ],
+      "passed": true
+    },
+    {
+      "level": "LP1",
+      "side": "STUDIO",
+      "corner": 3,
+      "point": [
+        36.31216049194336,
+        22.735654830932617,
+        0.0
+      ],
+      "before_hits": [],
+      "after_hits": [
+        "R31_STUDIO_WALL_3"
+      ],
+      "passed": true
+    }
+  ],
+  "previously_open_samples": 8,
+  "failures": [],
+  "construction_acceptance": false
+}

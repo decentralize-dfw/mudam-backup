@@ -1,11 +1,11 @@
 {
-  "file": "12_Blender_Model/exports/MUDAM_R69_ALT_FUAYE_GOMME_ISIK_v001_preview.glb",
-  "size_bytes": 89195432,
-  "mesh_nodes": 7669,
-  "triangles": 2456200,
+  "file": "12_Blender_Model/exports/MUDAM_R74_STUDIO_DUVAR_BIRLESIMLERI_v003_preview.glb",
+  "size_bytes": 89657412,
+  "mesh_nodes": 7754,
+  "triangles": 2466780,
   "world_bounds_glTF": [
     [
-      -42.32527542114258,
+      -42.61722946166992,
       -5.7762932777404785,
       -83.07286071777344
     ],
@@ -125,14 +125,14 @@
       "usage": "basecolor",
       "image": "R32_limestone_candidate_basecolor",
       "uv_attribute": "TEXCOORD_0",
-      "primitive_count": 97
+      "primitive_count": 95
     },
     {
       "material": "R32_LIMESTONE_APPEARANCE_CANDIDATE",
       "usage": "normal",
       "image": "R32_limestone_candidate_normal",
       "uv_attribute": "TEXCOORD_0",
-      "primitive_count": 97
+      "primitive_count": 95
     },
     {
       "material": "R32_WOOD_APPEARANCE_CANDIDATE",

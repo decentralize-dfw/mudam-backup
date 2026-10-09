@@ -158,25 +158,35 @@
         "Renk, derz, malzeme bileşimi ve çizgisel yüzey derinliği ölçülmedi; saçak kotu koşullu.",
         "Fotoğraf homografisi düşük güvenli: dışarıda bırakma hatası188,89px. Çap, profil, kot ve tam armatür sayısı doğrulanmadı.",
         "Sekiz göz devralındı; çap,kot,çatal ve ankraj ölçülmedi. Yapısal hesap değildir.",
-        "32 adet sekiz göze uygulanan tekrar adayı; çap, kot, ürün ve fotometri doğrulanmadı."
+        "32 adet sekiz göze uygulanan tekrar adayı; çap, kot, ürün ve fotometri doğrulanmadı.",
+        "Duvar ölçüleri koşullu; diğer duvarlar ve yan salon birleşimleri açık.",
+        "Mevcut kaynak sınırları korundu; kalınlık/kotlar koşullu. Genel duvar kabulü açık."
       ],
       "updated": "2026-10-08",
       "dependency_mode": "regional_study_only_no_global_acceptance",
       "artifacts": [
-        "12_Blender_Model/scenes/MUDAM_R66_GECIT_YAN_ARMATUR_v001.blend",
-        "12_Blender_Model/reports/R66_KONTROL_RAPORU.md",
+        "12_Blender_Model/scenes/MUDAM_R74_STUDIO_DUVAR_BIRLESIMLERI_v003.blend",
+        "12_Blender_Model/reports/R74_KONTROL_RAPORU.md",
         "12_Blender_Model/reports/R44_KONTROL_RAPORU.md",
         "12_Blender_Model/reports/R52_KONTROL_RAPORU.md",
         "12_Blender_Model/reports/R60_KONTROL_RAPORU.md",
         "12_Blender_Model/reports/R61_KONTROL_RAPORU.md",
-        "12_Blender_Model/reports/R65_KONTROL_RAPORU.md"
+        "12_Blender_Model/reports/R65_KONTROL_RAPORU.md",
+        "12_Blender_Model/reports/R66_KONTROL_RAPORU.md",
+        "12_Blender_Model/reports/R71_KONTROL_RAPORU.md",
+        "12_Blender_Model/reports/R72_KONTROL_RAPORU.md",
+        "12_Blender_Model/reports/R73_KONTROL_RAPORU.md"
       ],
       "completed_scope": [
         "Duvar/döşeme bölgesel kabukları kapalı; merdiven nişi ve galeri camlarıyla yerel kesimler koordine edildi.",
         "20 nesne ve175 yüzün malzeme/UV adayı;7.942 nesnenin hesaplanan geometrisi değişmedi.",
         "Altı yuva ve24 kapalı parça;102 ışın ve7235 görünür mesh kontrolü geçti.",
         "067/068 ile16 çapraz,240 parça;32 destek ve96 uç bağlantısı kontrolü geçti.",
-        "067/068 ile 130 yeni parça; 146 bağlantı ve 32 lens açıklığı kontrolü geçti. 7.634 görünür mesh."
+        "067/068 ile 130 yeni parça; 146 bağlantı ve 32 lens açıklığı kontrolü geçti. 7.634 görünür mesh.",
+        "54 duvarda 48 ortak köşe; 96 önce/sonra boşluk kontrolü geçti.",
+        "Alt cephe boşluğu ve iki üst duvar bağlantısı; 561 yüzey, 20 birleşim ve 210 çatı taşma kontrolü.",
+        "İki kesintisiz duvar gövdesi; 576 yüzey/sınır ve 90 geçiş testi.",
+        "Beş duvar, dört köşe ve sekiz önce/sonra boşluk kontrolü."
       ],
       "coverage_as_of": "R55"
     },
@@ -410,7 +420,7 @@
       "updated": "2026-10-08",
       "dependency_mode": "regional_checkpoint_no_global_acceptance",
       "artifacts": [
-        "12_Blender_Model/scenes/MUDAM_R69_ALT_FUAYE_GOMME_ISIK_v001.blend",
+        "12_Blender_Model/scenes/MUDAM_R74_STUDIO_DUVAR_BIRLESIMLERI_v003.blend",
         "12_Blender_Model/reports/P19_P21_ONIZLEME_RAPORU.md",
         "12_Blender_Model/reports/R34_GIRIS_KOPRULERI_RAPORU.md",
         "12_Blender_Model/reports/R48_KONTROL_RAPORU.md",
@@ -439,11 +449,13 @@
         "Boyut,ürün,işlev,delik deseni ve tam hareket mekanizması açık. Eski sabit alt profil hatası R64 kapsamına alındı.",
         "Geniş2,2m tarama sağ panele çarpar; hareketli kanatlar bu statik testten ayrı. Gerçek kapı mekanizması ve eşik ölçüsü açık.",
         "900mm hücre,1,2mm derz,yön ve desen aday; fotoğraf dizimi birebir izlenmedi.",
-        "Yedi konum ve180mm çap kısmi aday; tam yerleşim,ürün ve fotometri doğrulanmadı."
+        "Yedi konum ve180mm çap kısmi aday; tam yerleşim,ürün ve fotometri doğrulanmadı.",
+        "Sayı, konum, ürün kesiti ve20 derece yönlenme kısmi aday; tam aydınlatma planı ve fotometri açık.",
+        "Duvar ölçüleri koşullu; diğer duvarlar ve yan salon birleşimleri açık."
       ],
       "artifacts": [
-        "12_Blender_Model/scenes/MUDAM_R69_ALT_FUAYE_GOMME_ISIK_v001.blend",
-        "12_Blender_Model/reports/R69_KONTROL_RAPORU.md",
+        "12_Blender_Model/scenes/MUDAM_R72_ATRIUM_DUVAR_SUREKLILIGI_v004.blend",
+        "12_Blender_Model/reports/R72_KONTROL_RAPORU.md",
         "12_Blender_Model/reports/R19_R20_ODITORYUM_RAPORU.md",
         "12_Blender_Model/reports/R21_ODITORYUM_PANEL_RAPORU.md",
         "12_Blender_Model/reports/R22_ODITORYUM_DONATI_RAPORU.md",
@@ -454,7 +466,10 @@
         "12_Blender_Model/reports/R57_KONTROL_RAPORU.md",
         "12_Blender_Model/reports/R63_KONTROL_RAPORU.md",
         "12_Blender_Model/reports/R64_KONTROL_RAPORU.md",
-        "12_Blender_Model/reports/R67_KONTROL_RAPORU.md"
+        "12_Blender_Model/reports/R67_KONTROL_RAPORU.md",
+        "12_Blender_Model/reports/R69_KONTROL_RAPORU.md",
+        "12_Blender_Model/reports/R70_KONTROL_RAPORU.md",
+        "12_Blender_Model/reports/R71_KONTROL_RAPORU.md"
       ],
       "completed_scope": [
         "Giriş/vestiyer bölgesi, alt galeri/fuaye, oditoryum ve galeri taş/ahşap yüzey adayları üretildi.",
@@ -462,7 +477,10 @@
         "014 ile28 parça,4 destek ve mevcut kapı pozu kontrolü;7263 görünür mesh denetlendi.",
         "18–25cm yüksekteki hatalı tam boy profil kaldırıldı;2m statik geçişte189 ışın ve63 döşeme örneği geçti.",
         "067 ile iki üst yüzün taş görünümü işlendi. Bütün sahnede hesaplanan geometri aynı; UV ve doku kontrolleri geçti.",
-        "28 yeni parça ve yedi yuva;29 hacim,119 ışın ve genel geometri kontrolü geçti."
+        "28 yeni parça ve yedi yuva;29 hacim,119 ışın ve genel geometri kontrolü geçti.",
+        "İki ray, sekiz başlık ve86 kapalı parça;194 ışın/80 bağlantı ve genel geometri kontrolü geçti.",
+        "54 duvarda 48 ortak köşe; 96 önce/sonra boşluk kontrolü geçti.",
+        "Alt cephe boşluğu ve iki üst duvar bağlantısı; 561 yüzey, 20 birleşim ve 210 çatı taşma kontrolü."
       ],
       "coverage_as_of": "R55"
     },
@@ -479,21 +497,30 @@
       "acceptance": "Kanıtlı ayrıntılar ile temsilî bölgeler açıkça ayrılmış",
       "status": "in_progress",
       "open_issues": [
-        "Üst kat fotoğraflarının kanat kimlikleri, kesin ölçüler, sabit donatılar ve galeri aydınlatma detayları açık."
+        "Üst kat fotoğraflarının kanat kimlikleri, kesin ölçüler, sabit donatılar ve galeri aydınlatma detayları açık.",
+        "Duvar ölçüleri koşullu; diğer duvarlar ve yan salon birleşimleri açık.",
+        "Mevcut kaynak sınırları korundu; kalınlık/kotlar koşullu. Genel duvar kabulü açık."
       ],
       "updated": "2026-10-08",
       "dependency_mode": "regional_checkpoint_no_global_acceptance",
       "artifacts": [
-        "12_Blender_Model/scenes/MUDAM_R69_ALT_FUAYE_GOMME_ISIK_v001.blend",
-        "12_Blender_Model/reports/P19_P21_ONIZLEME_RAPORU.md",
+        "12_Blender_Model/scenes/MUDAM_R74_STUDIO_DUVAR_BIRLESIMLERI_v003.blend",
+        "12_Blender_Model/reports/R74_KONTROL_RAPORU.md",
         "12_Blender_Model/reports/R08_OKUMA_TAVANI_RAPORU.md",
         "12_Blender_Model/reports/R09_OKUMA_MEKANI_RAPORU.md",
         "12_Blender_Model/reports/R30_UST_ASANSOR_RAPORU.md",
         "12_Blender_Model/reports/R31_UST_STUDIO_RAPORU.md",
-        "12_Blender_Model/reports/R50_KONTROL_RAPORU.md"
+        "12_Blender_Model/reports/R50_KONTROL_RAPORU.md",
+        "12_Blender_Model/reports/R71_KONTROL_RAPORU.md",
+        "12_Blender_Model/reports/R72_KONTROL_RAPORU.md",
+        "12_Blender_Model/reports/R73_KONTROL_RAPORU.md"
       ],
       "completed_scope": [
-        "Okuma odası, eğimli tavan ve24 kollu ışık; iki üst galeri, Studio, asansör sahanlığı; Grand Hall20 silindir ışık işlendi."
+        "Okuma odası, eğimli tavan ve24 kollu ışık; iki üst galeri, Studio, asansör sahanlığı; Grand Hall20 silindir ışık işlendi.",
+        "54 duvarda 48 ortak köşe; 96 önce/sonra boşluk kontrolü geçti.",
+        "Alt cephe boşluğu ve iki üst duvar bağlantısı; 561 yüzey, 20 birleşim ve 210 çatı taşma kontrolü.",
+        "İki kesintisiz duvar gövdesi; 576 yüzey/sınır ve 90 geçiş testi.",
+        "Beş duvar, dört köşe ve sekiz önce/sonra boşluk kontrolü."
       ],
       "coverage_as_of": "R55"
     },
@@ -558,13 +585,14 @@
         "Örgü tipi fotoğraftan;200×50mm modül,derz,renk ve yön aday.",
         "32 adet sekiz göze uygulanan tekrar adayı; çap, kot, ürün ve fotometri doğrulanmadı.",
         "900mm hücre,1,2mm derz,yön ve desen aday; fotoğraf dizimi birebir izlenmedi.",
-        "Yedi konum ve180mm çap kısmi aday; tam yerleşim,ürün ve fotometri doğrulanmadı."
+        "Yedi konum ve180mm çap kısmi aday; tam yerleşim,ürün ve fotometri doğrulanmadı.",
+        "Sayı, konum, ürün kesiti ve20 derece yönlenme kısmi aday; tam aydınlatma planı ve fotometri açık."
       ],
       "updated": "2026-10-08",
       "dependency_mode": "regional_checkpoint_no_global_acceptance",
       "artifacts": [
-        "12_Blender_Model/scenes/MUDAM_R69_ALT_FUAYE_GOMME_ISIK_v001.blend",
-        "12_Blender_Model/reports/R69_KONTROL_RAPORU.md",
+        "12_Blender_Model/scenes/MUDAM_R74_STUDIO_DUVAR_BIRLESIMLERI_v003.blend",
+        "12_Blender_Model/reports/P19_P21_ONIZLEME_RAPORU.md",
         "12_Blender_Model/reports/R32_TAS_AHSAP_RAPORU.md",
         "12_Blender_Model/reports/R43_KONTROL_RAPORU.md",
         "12_Blender_Model/reports/R46_KONTROL_RAPORU.md",
@@ -578,7 +606,9 @@
         "12_Blender_Model/reports/R61_KONTROL_RAPORU.md",
         "12_Blender_Model/reports/R62_KONTROL_RAPORU.md",
         "12_Blender_Model/reports/R66_KONTROL_RAPORU.md",
-        "12_Blender_Model/reports/R67_KONTROL_RAPORU.md"
+        "12_Blender_Model/reports/R67_KONTROL_RAPORU.md",
+        "12_Blender_Model/reports/R69_KONTROL_RAPORU.md",
+        "12_Blender_Model/reports/R70_KONTROL_RAPORU.md"
       ],
       "completed_scope": [
         "Taş/ahşap/mineral, metal, cam ve çevre yüzey adayları; genel gün ışığı ve bölgesel aydınlatma geometrisi mevcut.",
@@ -589,7 +619,8 @@
         "013 yakın çekimiyle R59 şaşırtmalı örgüsü değiştirildi;17 yüz ve bütün sahnede geometri eşitliği kontrolü geçti.",
         "067/068 ile 130 yeni parça; 146 bağlantı ve 32 lens açıklığı kontrolü geçti. 7.634 görünür mesh.",
         "067 ile iki üst yüzün taş görünümü işlendi. Bütün sahnede hesaplanan geometri aynı; UV ve doku kontrolleri geçti.",
-        "28 yeni parça ve yedi yuva;29 hacim,119 ışın ve genel geometri kontrolü geçti."
+        "28 yeni parça ve yedi yuva;29 hacim,119 ışın ve genel geometri kontrolü geçti.",
+        "İki ray, sekiz başlık ve86 kapalı parça;194 ışın/80 bağlantı ve genel geometri kontrolü geçti."
       ],
       "coverage_as_of": "R55"
     },
@@ -624,12 +655,12 @@
       "acceptance": "Birim/eksen/malzeme geri yüklemede doğru; performans ölçülmüş",
       "status": "in_progress",
       "open_issues": [
-        "7669 mesh / 2456200 üçgen GLB aktarımı denetlendi; hedef motor ve sadeleştirme açık."
+        "7754 mesh / 2466780 üçgen GLB aktarımı denetlendi; hedef motor ve sadeleştirme açık."
       ],
       "updated": "2026-10-08",
       "dependency_mode": "regional_checkpoint_no_global_acceptance",
       "artifacts": [
-        "12_Blender_Model/scenes/MUDAM_R69_ALT_FUAYE_GOMME_ISIK_v001.blend",
+        "12_Blender_Model/scenes/MUDAM_R74_STUDIO_DUVAR_BIRLESIMLERI_v003.blend",
         "12_Blender_Model/reports/P19_P21_ONIZLEME_RAPORU.md"
       ]
     },
@@ -681,5 +712,67 @@
     "P21",
     "P22"
   ],
-  "latest_scene": "12_Blender_Model/scenes/MUDAM_R69_ALT_FUAYE_GOMME_ISIK_v001.blend"
+  "latest_scene": "12_Blender_Model/scenes/MUDAM_R74_STUDIO_DUVAR_BIRLESIMLERI_v003.blend",
+  "scope_constraints": {
+    "priority": "Bina ve kalıcı mimari sistemler",
+    "excluded": [
+      "Sanat eserleri, tablolar ve heykeller",
+      "Enstalasyonlar ve asılı eserler",
+      "Sergi panoları ve geçici sergi bölmeleri",
+      "Sergiye ait hareketli mobilyalar"
+    ],
+    "rule": "Bu öğeler ana veya ayrı modelde üretilmez. Referans fotoğraflarda görünmeleri modelleme gerekçesi değildir.",
+    "user_instruction_date": "2026-10-09"
+  },
+  "execution_order": {
+    "updated": "2026-10-09",
+    "current_stage": 1,
+    "stages": [
+      {
+        "order": 1,
+        "title": "Tüm duvarlar"
+      },
+      {
+        "order": 2,
+        "title": "Zeminler ve döşemeler"
+      },
+      {
+        "order": 3,
+        "title": "Cam çatı geometrisi kontrolü"
+      },
+      {
+        "order": 4,
+        "title": "Cam çatı–duvar birleşimleri kontrolü"
+      },
+      {
+        "order": 5,
+        "title": "Merdivenler ve sahanlıklar"
+      },
+      {
+        "order": 6,
+        "title": "Pencereler ve kapılar"
+      },
+      {
+        "order": 7,
+        "title": "Korkuluklar"
+      },
+      {
+        "order": 8,
+        "title": "Diğer kalıcı mimari elemanlar"
+      },
+      {
+        "order": 9,
+        "title": "Bütünleşik plan–kesit uyumu ve gerekli ölçek düzeltmeleri"
+      },
+      {
+        "order": 10,
+        "title": "Malzeme ve yüzey detayları"
+      },
+      {
+        "order": 11,
+        "title": "Çevre düzenlemesi"
+      }
+    ],
+    "policy": "Bu sıra sonraki üretim kararlarında eski paket sırasının önüne geçer. Mevcut üretilmiş parçalar korunur; ilk iş bütün duvarların kat kat envanter ve geometri kontrolüdür. Duvarlardan önce yeni armatür, malzeme veya peyzaj detayı üretilmez. Her aşamada kaynak kontrolü sürer; bütün binanın plan–kesit uyumu geometrik elemanlar tamamlandıktan sonra ayrıca değerlendirilir. Gerekli düzeltme tek eksende veya genel ölçekleme olabilir; etkilenen eksen/sistem, referans, katsayı ve önce/sonra ölçüleri kaydedilir, bağlı açıklık ve birleşimler yeniden kontrol edilir. Kaynak çelişkisini gizlemek için zorla uyum sağlanmaz; özgün sürümler korunur."
+  }
 }

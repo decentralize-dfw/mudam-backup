@@ -1,0 +1,35 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R71_GALERI_DUVAR_BIRLESIMLERI_v001.blend",
+  "images": [
+    {
+      "image": "R72_before_north.png",
+      "eye_canonical": [
+        370,
+        -120,
+        8
+      ],
+      "target_canonical": [
+        565,
+        334,
+        2.5
+      ],
+      "lens": 45
+    },
+    {
+      "image": "R72_before_high_walls.png",
+      "eye_canonical": [
+        210,
+        810,
+        37
+      ],
+      "target_canonical": [
+        560,
+        485,
+        13.5
+      ],
+      "lens": 55
+    }
+  ],
+  "all_active_surroundings": true,
+  "metric_camera_match": false
+}

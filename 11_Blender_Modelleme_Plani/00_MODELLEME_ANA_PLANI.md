@@ -4,7 +4,21 @@
 
 Amaç, Mudam'ın dışını ve içini birlikte açıklayan, yakın mesafede incelenebilen, katları ayrılabilen ve kesit alınabilen bir mimari model üretmektir. Duvar, açıklık, merdiven, taşıyıcı, kaplama ve birleşimler ayrı ve düzenlenebilir sistemler olarak kurulacaktır. Bu aşamada model üretilmedi; üretim yöntemi, iş paketleri, kanıt sınırları ve kabul ölçütleri hazırlandı.
 
-Başlangıç kararı: önce ortak koordinat ve düşey geometri, sonra bina kabuğu ve dolaşım, ardından sistemler ve birleşimler, en son malzeme ve sunum. Bütün yapı kapsamdadır. Giriş → Grand Hall → bir galeri hattı yalnızca yöntemi sınayacak ilk ayrıntılı örnek bölgedir; nihai kapsamı daraltmaz.
+## Güncel üretim sırası — 9 Ekim 2026 kullanıcı kararı
+
+1. Tüm duvarlar.
+2. Zeminler ve döşemeler.
+3. Cam çatı geometrisi kontrolü.
+4. Cam çatı–duvar birleşimleri kontrolü.
+5. Merdivenler ve sahanlıklar.
+6. Pencereler ve kapılar.
+7. Korkuluklar.
+8. Diğer kalıcı mimari elemanlar.
+9. Bütünleşik plan–kesit uyumu ve gerekli ölçek düzeltmeleri.
+10. Malzeme ve yüzey detayları.
+11. Çevre düzenlemesi.
+
+Bu sıra sonraki üretim kararlarında eski paket sırasının önüne geçer. Mevcut üretilmiş parçalar korunur; ilk iş bütün duvarların kat kat envanter ve geometri kontrolüdür. Duvarlardan önce yeni armatür, malzeme veya peyzaj detayı üretilmez. Her aşamada kaynak kontrolü sürer; bütün binanın plan–kesit uyumu geometrik elemanlar tamamlandıktan sonra ayrıca değerlendirilir. Gerekli düzeltme tek eksende veya genel ölçekleme olabilir; etkilenen eksen/sistem, referans, katsayı ve önce/sonra ölçüleri kaydedilir, bağlı açıklık ve birleşimler yeniden kontrol edilir. Kaynak çelişkisini gizlemek için zorla uyum sağlanmaz; özgün sürümler korunur.
 
 ## Çalışma belgeleri
 
@@ -56,7 +70,7 @@ Mekân adları ilk yerleşim adlarıdır; resmî plan etiketi ve yerel bölge ko
 
 ## Tarih ve kalıcı mimari
 
-Hedef, kalıcı mimariyi anlatan ana modeldir. 2016 sergi şeması, 2019 fotoğraf dizisi ve sonraki resmî fotoğraflar tek bir tarihli bina durumuymuş gibi birleştirilmeyecek. Kalıcı duvar, geçici sergi bölmesi, sanat eseri ve hareketli mobilya farklı koleksiyonlarda tutulacak.
+Hedef, kalıcı mimariyi anlatan ana modeldir. 2016 sergi şeması, 2019 fotoğraf dizisi ve sonraki resmî fotoğraflar tek bir tarihli bina durumuymuş gibi birleştirilmeyecek. Kullanıcının 9 Ekim 2026 kapsam kararı: yalnız bina ve kalıcı mimari sistemler üretilecek. Sanat eserleri, heykeller, tablolar, enstalasyonlar, sergi panoları, geçici sergi bölmeleri ve sergiye ait hareketli mobilyalar modele eklenmeyecek; ayrı veya isteğe bağlı sanat sahnesi de üretilmeyecek.
 
 Sergi panosu, tavandan asılı eser veya geçici renkli cam öğesi yapısal eleman kabul edilmez. Bir parçanın kalıcı olup olmadığı iki farklı tarihli kaynakta kontrol edilir. Tarihsel varyantlar ana geometriyi değiştirmeden açılıp kapanabilir. Tam bir '2026 mevcut durum' modeli, o tarihe ait saha/kurum referansı olmadan ileri sürülmeyecek.
 
@@ -108,7 +122,7 @@ Teslim: sistem ve mekân kapsam tablosu; tamamlanmamış öğelerin açık liste
 
 ### Aşama 7 Malzeme ve ışık
 
-Nötr ışık altında taş, beton, ahşap, metal ve cam örnekleri karşılaştırılır. Sonra gerçek yönelimli güneş ve iç aydınlatma eklenir. Fotoğrafın beyaz ayarı malzemenin rengi olarak kopyalanmaz. Sanat eserleri ve geçici mobilyalar ayrı isteğe bağlı sahnedir.
+Nötr ışık altında taş, beton, ahşap, metal ve cam örnekleri karşılaştırılır. Sonra gerçek yönelimli güneş ve iç aydınlatma eklenir. Fotoğrafın beyaz ayarı malzemenin rengi olarak kopyalanmaz. Sanat eserleri ve geçici sergi mobilyaları kapsam dışıdır; modellenmez.
 
 Teslim: malzeme kütüphanesi, UV kontrolleri, gündüz ve gece görüntüleri. Kabul: fiziksel doku boyutu tutarlı; camın arkasındaki mimari okunabilir; taş derzleri köşelerde devam eder; render hatasını saklamak için cam opaklaştırılmamıştır.
 

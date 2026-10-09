@@ -737,5 +737,92 @@
     "image": "R69_ceiling.png",
     "description": "28 yeni parça ve yedi yuva;29 hacim,119 ışın ve genel geometri kontrolü geçti.",
     "limits": "Yedi konum ve180mm çap kısmi aday; tam yerleşim,ürün ve fotometri doğrulanmadı."
+  },
+  {
+    "id": "R70",
+    "checks": [
+      "R70_verification.json",
+      "R70_inherited_verification.json",
+      "R70_global_audit.json"
+    ],
+    "tasks": [
+      "P16",
+      "P19"
+    ],
+    "report": "R70_KONTROL_RAPORU.md",
+    "title": "Galeride ray ve yönlendirilebilir spotlar / R70",
+    "image": "R70_track.png",
+    "description": "İki ray, sekiz başlık ve86 kapalı parça;194 ışın/80 bağlantı ve genel geometri kontrolü geçti.",
+    "limits": "Sayı, konum, ürün kesiti ve20 derece yönlenme kısmi aday; tam aydınlatma planı ve fotometri açık."
+  },
+  {
+    "id": "R71",
+    "checks": [
+      "R71_verification.json",
+      "R71_inherited_verification.json",
+      "R71_global_audit.json"
+    ],
+    "tasks": [
+      "P07",
+      "P16",
+      "P17"
+    ],
+    "report": "R71_KONTROL_RAPORU.md",
+    "title": "Galeri duvar köşeleri / R71",
+    "image": "R71_wall_joint.png",
+    "description": "54 duvarda 48 ortak köşe; 96 önce/sonra boşluk kontrolü geçti.",
+    "limits": "Duvar ölçüleri koşullu; diğer duvarlar ve yan salon birleşimleri açık."
+  },
+  {
+    "id": "R72",
+    "checks": [
+      "R72_verification.json",
+      "R72_inherited_verification.json",
+      "R72_global_audit.json"
+    ],
+    "tasks": [
+      "P07",
+      "P16",
+      "P17"
+    ],
+    "report": "R72_KONTROL_RAPORU.md",
+    "title": "Grand Hall duvar sürekliliği / R72",
+    "image": "R72_after_north.png",
+    "description": "Alt cephe boşluğu ve iki üst duvar bağlantısı; 561 yüzey, 20 birleşim ve 210 çatı taşma kontrolü.",
+    "limits": "Duvar ölçüleri koşullu; diğer duvarlar ve yan salon birleşimleri açık."
+  },
+  {
+    "id": "R73",
+    "checks": [
+      "R73_verification.json",
+      "R73_inherited_verification.json",
+      "R73_global_audit.json"
+    ],
+    "tasks": [
+      "P07",
+      "P17"
+    ],
+    "report": "R73_KONTROL_RAPORU.md",
+    "title": "Galeri duvar gövdeleri / R73",
+    "image": "R73_after_east_junction.png",
+    "description": "İki kesintisiz duvar gövdesi; 576 yüzey/sınır ve 90 geçiş testi.",
+    "limits": "Mevcut kaynak sınırları korundu; kalınlık/kotlar koşullu. Genel duvar kabulü açık."
+  },
+  {
+    "id": "R74",
+    "checks": [
+      "R74_verification.json",
+      "R74_inherited_verification.json",
+      "R74_global_audit.json"
+    ],
+    "tasks": [
+      "P07",
+      "P17"
+    ],
+    "report": "R74_KONTROL_RAPORU.md",
+    "title": "Studio köşe birleşimleri / R74",
+    "image": "R74_studio_plan.png",
+    "description": "Beş duvar, dört köşe ve sekiz önce/sonra boşluk kontrolü.",
+    "limits": "Mevcut kaynak sınırları korundu; kalınlık/kotlar koşullu. Genel duvar kabulü açık."
   }
 ]

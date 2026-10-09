@@ -1,0 +1,160 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R72_ATRIUM_DUVAR_SUREKLILIGI_v004.blend",
+  "base_scene": "MUDAM_R71_GALERI_DUVAR_BIRLESIMLERI_v001.blend",
+  "closed_objects": [
+    "R72_LOWER_FOYER_NORTH_WALL",
+    "R72_HIGH_ATRIUM_WALL_3",
+    "R72_HIGH_ATRIUM_WALL_5",
+    "P06_HIGH_EAVE_UPSTAND_3",
+    "P06_HIGH_EAVE_UPSTAND_5",
+    "P05_MAIN_ATRIUM_BASE_3",
+    "P05_MAIN_ATRIUM_BASE_5_R02_ABOVE",
+    "P05_MAIN_ATRIUM_BASE_5_R02_BEFORE_R04_BEFORE",
+    "P05_MAIN_ATRIUM_BASE_5_R02_BEFORE_R04_AFTER",
+    "P05_MAIN_ATRIUM_BASE_5_R02_BEFORE_R04_ABOVE",
+    "R33_MAIN_PASSAGE_HIGH_REMAINDER",
+    "P06_HIGH_EAVE_UPSTAND_4"
+  ],
+  "changed_inherited_objects": [
+    "P06_HIGH_EAVE_UPSTAND_3",
+    "P06_HIGH_EAVE_UPSTAND_5",
+    "P05_MAIN_ATRIUM_BASE_3",
+    "P05_MAIN_ATRIUM_BASE_5_R02_ABOVE",
+    "P05_MAIN_ATRIUM_BASE_5_R02_BEFORE_R04_BEFORE",
+    "P05_MAIN_ATRIUM_BASE_5_R02_BEFORE_R04_AFTER",
+    "P05_MAIN_ATRIUM_BASE_5_R02_BEFORE_R04_ABOVE",
+    "R33_MAIN_PASSAGE_HIGH_REMAINDER",
+    "P06_HIGH_EAVE_UPSTAND_4"
+  ],
+  "definitions": [
+    {
+      "name": "R72_LOWER_FOYER_NORTH_WALL",
+      "polygon_canonical": [
+        [
+          462,
+          335.2626613
+        ],
+        [
+          592,
+          335.2626613
+        ],
+        [
+          592,
+          331.4746773
+        ],
+        [
+          462,
+          331.4746773
+        ]
+      ],
+      "z0": -5.326293513971772,
+      "z1": 0,
+      "top_heights": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "R72_HIGH_ATRIUM_WALL_3",
+      "polygon_canonical": [
+        [
+          688,
+          457
+        ],
+        [
+          585,
+          560
+        ],
+        [
+          592,
+          560
+        ],
+        [
+          688,
+          464
+        ]
+      ],
+      "z0": 12.523118133013933,
+      "z1": 17.66086796738009,
+      "top_heights": [
+        16.891332626342773,
+        17.66086796738009,
+        17.66086796738009,
+        17.66086796738009
+      ]
+    },
+    {
+      "name": "R72_HIGH_ATRIUM_WALL_5",
+      "polygon_canonical": [
+        [
+          566.4285382275208,
+          560
+        ],
+        [
+          462,
+          455.57146177247927
+        ],
+        [
+          462,
+          464
+        ],
+        [
+          558,
+          560
+        ]
+      ],
+      "z0": 12.523118133013933,
+      "z1": 17.66086796738009,
+      "top_heights": [
+        17.66086796738009,
+        16.734285354614258,
+        17.66086769104004,
+        17.66086796738009
+      ]
+    }
+  ],
+  "trimmed_lower_walls": [
+    {
+      "name": "P05_MAIN_ATRIUM_BASE_3",
+      "changed_top_vertices": 4,
+      "top_z": 12.523118133013933
+    },
+    {
+      "name": "P05_MAIN_ATRIUM_BASE_5_R02_ABOVE",
+      "changed_top_vertices": 4,
+      "top_z": 12.523118133013933
+    },
+    {
+      "name": "P05_MAIN_ATRIUM_BASE_5_R02_BEFORE_R04_BEFORE",
+      "changed_top_vertices": 4,
+      "top_z": 12.523118133013933
+    },
+    {
+      "name": "P05_MAIN_ATRIUM_BASE_5_R02_BEFORE_R04_AFTER",
+      "changed_top_vertices": 4,
+      "top_z": 12.523118133013933
+    },
+    {
+      "name": "P05_MAIN_ATRIUM_BASE_5_R02_BEFORE_R04_ABOVE",
+      "changed_top_vertices": 4,
+      "top_z": 12.523118133013933
+    },
+    {
+      "name": "R33_MAIN_PASSAGE_HIGH_REMAINDER",
+      "changed_top_vertices": 4,
+      "top_z": 12.523118133013933
+    }
+  ],
+  "join_z": 12.523118133013933,
+  "old_join_z": 13.923118133013933,
+  "lower_z": -5.326293513971772,
+  "construction_acceptance": false,
+  "limits": [
+    "North basement wall follows 104 topology; unseen retaining assembly and precise thickness remain unknown.",
+    "High wall thickness bridges existing P05/P06 source-envelope discrepancy (about 0.588m); not an independently measured wall section.",
+    "Central strip remains glass. Window framing and complete roof-to-wall weathering remain subsequent tasks.",
+    "User-marked side-hall junctions and other wall systems remain under audit."
+  ]
+}

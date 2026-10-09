@@ -1,0 +1,25 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R73_GALERI_DUVAR_GOVDELERI_v004.blend",
+  "base_scene": "12_Blender_Model/scenes/MUDAM_R72_ATRIUM_DUVAR_SUREKLILIGI_v004.blend",
+  "inherited_objects_checked": 8503,
+  "changed_inherited_objects": [
+    "R23_E_2_WALL",
+    "R23_W_5_WALL",
+    "R28_E_HIGH_GALLERY_WALL",
+    "R28_W_HIGH_GALLERY_WALL"
+  ],
+  "allowed_changes": [
+    "R23_E_2_WALL",
+    "R23_W_5_WALL",
+    "R28_E_HIGH_GALLERY_WALL",
+    "R28_W_HIGH_GALLERY_WALL"
+  ],
+  "allowed_but_unchanged": [],
+  "new_objects": [
+    "R73_E_CONTINUOUS_GALLERY_WALL",
+    "R73_SOURCE_PORTAL_CUT",
+    "R73_W_CONTINUOUS_GALLERY_WALL"
+  ],
+  "failures": [],
+  "construction_acceptance": false
+}
