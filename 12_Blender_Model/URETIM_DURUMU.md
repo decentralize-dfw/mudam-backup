@@ -253,3 +253,7 @@ Yanlış kare kesicinin kaldırdığı iki atrium çevresi çatı parçası geri
 ## R80 — kuzey cam şeridin alt kapanışı
 
 087/119 ile zemine devam eden cam şeridin modeldeki alt açıklığı kapatıldı. 536 kapanış örneği, kapalı geometri ve değişiklik sınırı kontrolleri geçti; iki render incelendi. Genel kabuk kabulü açık. [Kontrol raporu](reports/R80_KONTROL_RAPORU.md).
+
+
+2026-10-09 12:26:54 UTC — 6a434d91685e7e28d9918a4b219bd04ffbcb0306 origin/main normal push doğrulandı. Pano, renderlar, raporlar ve üretim betikleri gönderildi; Blender ve arşiv GLB dosyaları yerelde; tek güncel sıkıştırılmış web GLB gönderildi.
+
