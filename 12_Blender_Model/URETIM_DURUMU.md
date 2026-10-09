@@ -415,3 +415,7 @@ R100: İki galeri tavanının dokuz plan noktası mevcut giriş duvarlarının i
 R101: Okuma odası–doğu servis odası bağlantısının planda çizili fakat eksik bırakılmış iki yan duvarı eklendi. 15 eksik duvar probu düzeldi; dokuz geçiş ve sekiz zemin/tavan kontrolü geçti. Diğer mevcut geometri değişmedi.
 
 [Kontrol ve önce/sonra görselleri](reports/R101_KONTROL_RAPORU.md). +1 Studio, asansör ve diğer katlar arası kabuk ilişkileri hâlâ inceleniyor. Geçit duvarının yüksekliği ve kalınlığı aday; bütün bina kabulü yok.
+
+
+2026-10-09 17:19:37 UTC — 476b2d557ca46ef08305132b4d781556b2070247 origin/main normal push doğrulandı. Pano, renderlar, raporlar ve üretim betikleri gönderildi; Blender ve arşiv GLB dosyaları yerelde; tek güncel sıkıştırılmış web GLB gönderildi.
+
