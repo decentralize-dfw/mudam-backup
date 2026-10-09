@@ -1292,5 +1292,23 @@
     "image": "R101_after_east_reading_link.png",
     "description": "Okuma odası–doğu servis odası bağlantısının planda çizili fakat eksik bırakılmış iki yan duvarı eklendi. 15 eksik duvar probu düzeldi; dokuz geçiş ve sekiz zemin/tavan kontrolü geçti. Diğer mevcut geometri değişmedi.",
     "limits": "+1 Studio, asansör ve diğer katlar arası kabuk ilişkileri hâlâ inceleniyor. Geçit duvarının yüksekliği ve kalınlığı aday; bütün bina kabulü yok."
+  },
+  {
+    "id": "R102",
+    "checks": [
+      "R102_verification.json",
+      "R102_global_audit.json",
+      "R102_inherited_verification.json",
+      "R102_service_stair_regression.json"
+    ],
+    "tasks": [
+      "P07",
+      "P17"
+    ],
+    "report": "R102_KONTROL_RAPORU.md",
+    "title": "Üst servis duvar köşeleri / R102",
+    "image": "R102_after_service_wall_corners.png",
+    "description": "Üst servis odası ve merdiven kuyusunda 14 duvarın 12 dış köşesi birleştirildi. Önceden açık olan 10 köşe probu kapandı; iç plan çizgileri ve açıklıklar korundu. Servis merdiveninin 110 kontrolü yeniden geçti.",
+    "limits": "Bütün bina kabulü yok. Diğer üst kat duvar/örtü birleşimleri ve katlar arası devamlılık kontrolü sürüyor; ölçülmemiş kalınlık ve kotlar aday."
   }
 ]

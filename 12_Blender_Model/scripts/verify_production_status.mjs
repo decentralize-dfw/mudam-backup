@@ -8,6 +8,6 @@ const context={URL,Date,console,location:{href:'http://localhost/12_Blender_Mode
 vm.runInNewContext(await readFile(new URL('assets/production-status.mjs',root),'utf8'),context);
 async function settled(){for(let i=0;i<100&&(!node('sync').textContent.startsWith('Son kontrol')||node('refresh').disabled);i++)await new Promise(r=>setTimeout(r,10));assert.equal(node('error').hidden,true);}
 const board=JSON.parse(await readFile(new URL('../11_Blender_Modelleme_Plani/is_paketleri.json',root),'utf8'));const revision=board.latest_scene.match(/_R(\d+)_/)[1];
-await settled();assert.match(node('revision').textContent,new RegExp('R'+revision));assert.match(node('updates').innerHTML,/R98/);assert.match(node('overall').textContent,/^%\d+/);const before=fetchCount;
+await settled();assert.match(node('revision').textContent,new RegExp('R'+revision));assert.match(node('updates').innerHTML,new RegExp('<time>R'+revision+'</time>'));assert.match(node('overall').textContent,/^%\d+/);const before=fetchCount;
 extra='\n\nR999: AUTO_REFRESH_REGRESSION_PROBE\n';interval();await settled();assert.ok(fetchCount>before);assert.match(node('updates').innerHTML,/AUTO_REFRESH_REGRESSION_PROBE/);
 console.log('Status: revision, undated checkpoint entries and 15-second automatic refresh passed; percentage '+node('overall').textContent);

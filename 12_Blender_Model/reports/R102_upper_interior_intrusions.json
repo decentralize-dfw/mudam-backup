@@ -1,0 +1,9 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R102_UST_SERVIS_DUVAR_KOSELERI_v001.blend",
+  "samples": 11178,
+  "findings": [],
+  "construction_acceptance": false,
+  "limits": [
+    "Interior sampling beyond400mm source boundary margin. Hits require source classification before any removal."
+  ]
+}

@@ -1,0 +1,568 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R102_UST_SERVIS_DUVAR_KOSELERI_v001.blend",
+  "solids": [
+    {
+      "name": "R96_DOCUMENTATION_EAST_WALL_0",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "signed_volume": 5.585184304011274
+    },
+    {
+      "name": "R96_DOCUMENTATION_EAST_WALL_1",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "signed_volume": 1.255191977703209
+    },
+    {
+      "name": "R96_DOCUMENTATION_EAST_WALL_2",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "signed_volume": 1.3795205709935203
+    },
+    {
+      "name": "R96_DOCUMENTATION_EAST_WALL_3",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "signed_volume": 5.176026239657505
+    },
+    {
+      "name": "R96_DOCUMENTATION_EAST_WALL_4",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "signed_volume": 4.911343986668101
+    },
+    {
+      "name": "R96_DOCUMENTATION_EAST_WALL_5",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "signed_volume": 1.425187243435289
+    },
+    {
+      "name": "R96_DOCUMENTATION_EAST_WALL_6",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "signed_volume": 1.4725883797365444
+    },
+    {
+      "name": "R96_SERVICE_STAIR_BOUNDARY_0",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "signed_volume": 4.972212242811324
+    },
+    {
+      "name": "R96_SERVICE_STAIR_BOUNDARY_1",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "signed_volume": 4.341324379814921
+    },
+    {
+      "name": "R96_SERVICE_STAIR_BOUNDARY_2",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "signed_volume": 4.341639265255523
+    },
+    {
+      "name": "R96_SERVICE_STAIR_BOUNDARY_3",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "signed_volume": 4.341256016745984
+    },
+    {
+      "name": "R96_SERVICE_STAIR_BOUNDARY_4",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "signed_volume": 4.34163163220373
+    },
+    {
+      "name": "R96_SERVICE_STAIR_BOUNDARY_5",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "signed_volume": 4.34125404770856
+    },
+    {
+      "name": "R96_SERVICE_STAIR_BOUNDARY_6",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "signed_volume": 4.924502151384402
+    }
+  ],
+  "front_and_height_preservation": [
+    {
+      "name": "R96_DOCUMENTATION_EAST_WALL_0",
+      "unchanged_vertices": 6,
+      "unexpected_changed_vertices": []
+    },
+    {
+      "name": "R96_DOCUMENTATION_EAST_WALL_1",
+      "unchanged_vertices": 4,
+      "unexpected_changed_vertices": []
+    },
+    {
+      "name": "R96_DOCUMENTATION_EAST_WALL_2",
+      "unchanged_vertices": 4,
+      "unexpected_changed_vertices": []
+    },
+    {
+      "name": "R96_DOCUMENTATION_EAST_WALL_3",
+      "unchanged_vertices": 4,
+      "unexpected_changed_vertices": []
+    },
+    {
+      "name": "R96_DOCUMENTATION_EAST_WALL_4",
+      "unchanged_vertices": 4,
+      "unexpected_changed_vertices": []
+    },
+    {
+      "name": "R96_DOCUMENTATION_EAST_WALL_5",
+      "unchanged_vertices": 4,
+      "unexpected_changed_vertices": []
+    },
+    {
+      "name": "R96_DOCUMENTATION_EAST_WALL_6",
+      "unchanged_vertices": 6,
+      "unexpected_changed_vertices": []
+    },
+    {
+      "name": "R96_SERVICE_STAIR_BOUNDARY_0",
+      "unchanged_vertices": 6,
+      "unexpected_changed_vertices": []
+    },
+    {
+      "name": "R96_SERVICE_STAIR_BOUNDARY_1",
+      "unchanged_vertices": 4,
+      "unexpected_changed_vertices": []
+    },
+    {
+      "name": "R96_SERVICE_STAIR_BOUNDARY_2",
+      "unchanged_vertices": 4,
+      "unexpected_changed_vertices": []
+    },
+    {
+      "name": "R96_SERVICE_STAIR_BOUNDARY_3",
+      "unchanged_vertices": 4,
+      "unexpected_changed_vertices": []
+    },
+    {
+      "name": "R96_SERVICE_STAIR_BOUNDARY_4",
+      "unchanged_vertices": 4,
+      "unexpected_changed_vertices": []
+    },
+    {
+      "name": "R96_SERVICE_STAIR_BOUNDARY_5",
+      "unchanged_vertices": 4,
+      "unexpected_changed_vertices": []
+    },
+    {
+      "name": "R96_SERVICE_STAIR_BOUNDARY_6",
+      "unchanged_vertices": 6,
+      "unexpected_changed_vertices": []
+    }
+  ],
+  "junction_rays": [
+    {
+      "level": "LP1",
+      "side": "DOCUMENTATION_EAST",
+      "corner": 1,
+      "point": [
+        10.9745512008667,
+        33.371788024902344,
+        0.0
+      ],
+      "before_hits": [],
+      "after_hits": [
+        "R96_DOCUMENTATION_EAST_WALL_0"
+      ],
+      "passed": true
+    },
+    {
+      "level": "LP1",
+      "side": "DOCUMENTATION_EAST",
+      "corner": 1,
+      "point": [
+        10.979686737060547,
+        33.51311492919922,
+        0.0
+      ],
+      "before_hits": [],
+      "after_hits": [
+        "R96_DOCUMENTATION_EAST_WALL_1"
+      ],
+      "passed": true
+    },
+    {
+      "level": "LP1",
+      "side": "DOCUMENTATION_EAST",
+      "corner": 2,
+      "point": [
+        12.166290283203125,
+        34.61649703979492,
+        0.0
+      ],
+      "before_hits": [
+        "R96_DOCUMENTATION_EAST_WALL_1",
+        "R96_DOCUMENTATION_EAST_WALL_2"
+      ],
+      "after_hits": [
+        "R96_DOCUMENTATION_EAST_WALL_2"
+      ],
+      "passed": true
+    },
+    {
+      "level": "LP1",
+      "side": "DOCUMENTATION_EAST",
+      "corner": 2,
+      "point": [
+        12.230754852294922,
+        34.443328857421875,
+        0.0
+      ],
+      "before_hits": [
+        "R96_DOCUMENTATION_EAST_WALL_1",
+        "R96_DOCUMENTATION_EAST_WALL_2"
+      ],
+      "after_hits": [
+        "R96_DOCUMENTATION_EAST_WALL_1"
+      ],
+      "passed": true
+    },
+    {
+      "level": "LP1",
+      "side": "DOCUMENTATION_EAST",
+      "corner": 3,
+      "point": [
+        10.458101272583008,
+        34.50775146484375,
+        0.0
+      ],
+      "before_hits": [],
+      "after_hits": [
+        "R96_DOCUMENTATION_EAST_WALL_2"
+      ],
+      "passed": true
+    },
+    {
+      "level": "LP1",
+      "side": "DOCUMENTATION_EAST",
+      "corner": 3,
+      "point": [
+        10.361799240112305,
+        34.6113166809082,
+        0.0
+      ],
+      "before_hits": [],
+      "after_hits": [
+        "R96_DOCUMENTATION_EAST_WALL_3"
+      ],
+      "passed": true
+    },
+    {
+      "level": "LP1",
+      "side": "DOCUMENTATION_EAST",
+      "corner": 4,
+      "point": [
+        10.590243339538574,
+        40.89732360839844,
+        0.0
+      ],
+      "before_hits": [],
+      "after_hits": [
+        "R96_DOCUMENTATION_EAST_WALL_3"
+      ],
+      "passed": true
+    },
+    {
+      "level": "LP1",
+      "side": "DOCUMENTATION_EAST",
+      "corner": 4,
+      "point": [
+        10.693822860717773,
+        40.99362564086914,
+        0.0
+      ],
+      "before_hits": [],
+      "after_hits": [
+        "R96_DOCUMENTATION_EAST_WALL_4"
+      ],
+      "passed": true
+    },
+    {
+      "level": "LP1",
+      "side": "DOCUMENTATION_EAST",
+      "corner": 5,
+      "point": [
+        16.653228759765625,
+        40.776180267333984,
+        0.0
+      ],
+      "before_hits": [],
+      "after_hits": [
+        "R96_DOCUMENTATION_EAST_WALL_4"
+      ],
+      "passed": true
+    },
+    {
+      "level": "LP1",
+      "side": "DOCUMENTATION_EAST",
+      "corner": 5,
+      "point": [
+        16.74951934814453,
+        40.6726188659668,
+        0.0
+      ],
+      "before_hits": [],
+      "after_hits": [
+        "R96_DOCUMENTATION_EAST_WALL_5"
+      ],
+      "passed": true
+    },
+    {
+      "level": "LP1",
+      "side": "DOCUMENTATION_EAST",
+      "corner": 6,
+      "point": [
+        16.688186645507812,
+        38.98497009277344,
+        0.0
+      ],
+      "before_hits": [],
+      "after_hits": [
+        "R96_DOCUMENTATION_EAST_WALL_5"
+      ],
+      "passed": true
+    },
+    {
+      "level": "LP1",
+      "side": "DOCUMENTATION_EAST",
+      "corner": 6,
+      "point": [
+        16.656299591064453,
+        38.915321350097656,
+        0.0
+      ],
+      "before_hits": [],
+      "after_hits": [
+        "R96_DOCUMENTATION_EAST_WALL_6"
+      ],
+      "passed": true
+    },
+    {
+      "level": "L00_LP1",
+      "side": "SERVICE_STAIR",
+      "corner": 1,
+      "point": [
+        20.758895874023438,
+        34.38871383666992,
+        0.0
+      ],
+      "before_hits": [
+        "R96_SERVICE_STAIR_BOUNDARY_0",
+        "R96_SERVICE_STAIR_BOUNDARY_1"
+      ],
+      "after_hits": [
+        "R96_SERVICE_STAIR_BOUNDARY_1"
+      ],
+      "passed": true
+    },
+    {
+      "level": "L00_LP1",
+      "side": "SERVICE_STAIR",
+      "corner": 1,
+      "point": [
+        20.687423706054688,
+        34.361385345458984,
+        0.0
+      ],
+      "before_hits": [
+        "R96_SERVICE_STAIR_BOUNDARY_0",
+        "R96_SERVICE_STAIR_BOUNDARY_1"
+      ],
+      "after_hits": [
+        "R96_SERVICE_STAIR_BOUNDARY_0"
+      ],
+      "passed": true
+    },
+    {
+      "level": "L00_LP1",
+      "side": "SERVICE_STAIR",
+      "corner": 2,
+      "point": [
+        22.10800552368164,
+        35.70568084716797,
+        0.0
+      ],
+      "before_hits": [
+        "R96_SERVICE_STAIR_BOUNDARY_1",
+        "R96_SERVICE_STAIR_BOUNDARY_2"
+      ],
+      "after_hits": [
+        "R96_SERVICE_STAIR_BOUNDARY_2"
+      ],
+      "passed": true
+    },
+    {
+      "level": "L00_LP1",
+      "side": "SERVICE_STAIR",
+      "corner": 2,
+      "point": [
+        22.07677459716797,
+        35.63581085205078,
+        0.0
+      ],
+      "before_hits": [
+        "R96_SERVICE_STAIR_BOUNDARY_1",
+        "R96_SERVICE_STAIR_BOUNDARY_2"
+      ],
+      "after_hits": [
+        "R96_SERVICE_STAIR_BOUNDARY_1"
+      ],
+      "passed": true
+    },
+    {
+      "level": "L00_LP1",
+      "side": "SERVICE_STAIR",
+      "corner": 3,
+      "point": [
+        22.130895614624023,
+        37.59101867675781,
+        0.0
+      ],
+      "before_hits": [
+        "R96_SERVICE_STAIR_BOUNDARY_2",
+        "R96_SERVICE_STAIR_BOUNDARY_3"
+      ],
+      "after_hits": [
+        "R96_SERVICE_STAIR_BOUNDARY_3"
+      ],
+      "passed": true
+    },
+    {
+      "level": "L00_LP1",
+      "side": "SERVICE_STAIR",
+      "corner": 3,
+      "point": [
+        22.158222198486328,
+        37.51952362060547,
+        0.0
+      ],
+      "before_hits": [
+        "R96_SERVICE_STAIR_BOUNDARY_2",
+        "R96_SERVICE_STAIR_BOUNDARY_3"
+      ],
+      "after_hits": [
+        "R96_SERVICE_STAIR_BOUNDARY_2"
+      ],
+      "passed": true
+    },
+    {
+      "level": "L00_LP1",
+      "side": "SERVICE_STAIR",
+      "corner": 4,
+      "point": [
+        20.813941955566406,
+        38.940086364746094,
+        0.0
+      ],
+      "before_hits": [
+        "R96_SERVICE_STAIR_BOUNDARY_3",
+        "R96_SERVICE_STAIR_BOUNDARY_4"
+      ],
+      "after_hits": [
+        "R96_SERVICE_STAIR_BOUNDARY_4"
+      ],
+      "passed": true
+    },
+    {
+      "level": "L00_LP1",
+      "side": "SERVICE_STAIR",
+      "corner": 4,
+      "point": [
+        20.883811950683594,
+        38.90885925292969,
+        0.0
+      ],
+      "before_hits": [
+        "R96_SERVICE_STAIR_BOUNDARY_3",
+        "R96_SERVICE_STAIR_BOUNDARY_4"
+      ],
+      "after_hits": [
+        "R96_SERVICE_STAIR_BOUNDARY_3"
+      ],
+      "passed": true
+    },
+    {
+      "level": "L00_LP1",
+      "side": "SERVICE_STAIR",
+      "corner": 5,
+      "point": [
+        18.928600311279297,
+        38.962982177734375,
+        0.0
+      ],
+      "before_hits": [
+        "R96_SERVICE_STAIR_BOUNDARY_4",
+        "R96_SERVICE_STAIR_BOUNDARY_5"
+      ],
+      "after_hits": [
+        "R96_SERVICE_STAIR_BOUNDARY_5"
+      ],
+      "passed": true
+    },
+    {
+      "level": "L00_LP1",
+      "side": "SERVICE_STAIR",
+      "corner": 5,
+      "point": [
+        19.000099182128906,
+        38.99030685424805,
+        0.0
+      ],
+      "before_hits": [
+        "R96_SERVICE_STAIR_BOUNDARY_4",
+        "R96_SERVICE_STAIR_BOUNDARY_5"
+      ],
+      "after_hits": [
+        "R96_SERVICE_STAIR_BOUNDARY_4"
+      ],
+      "passed": true
+    },
+    {
+      "level": "L00_LP1",
+      "side": "SERVICE_STAIR",
+      "corner": 6,
+      "point": [
+        17.579530715942383,
+        37.64602279663086,
+        0.0
+      ],
+      "before_hits": [
+        "R96_SERVICE_STAIR_BOUNDARY_5",
+        "R96_SERVICE_STAIR_BOUNDARY_6"
+      ],
+      "after_hits": [
+        "R96_SERVICE_STAIR_BOUNDARY_6"
+      ],
+      "passed": true
+    },
+    {
+      "level": "L00_LP1",
+      "side": "SERVICE_STAIR",
+      "corner": 6,
+      "point": [
+        17.610759735107422,
+        37.71588897705078,
+        0.0
+      ],
+      "before_hits": [
+        "R96_SERVICE_STAIR_BOUNDARY_5",
+        "R96_SERVICE_STAIR_BOUNDARY_6"
+      ],
+      "after_hits": [
+        "R96_SERVICE_STAIR_BOUNDARY_5"
+      ],
+      "passed": true
+    }
+  ],
+  "previously_open_samples": 10,
+  "failures": [],
+  "construction_acceptance": false
+}
