@@ -1,0 +1,1426 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R111_KAFE_GECIT_UST_ORTUSU_v002.blend",
+  "solid": {
+    "nonmanifold": 0,
+    "zero_faces": 0,
+    "volume": 17.40139728395958
+  },
+  "cover_checks": [
+    {
+      "uv": [
+        1123,
+        270
+      ],
+      "before": "R83_CAFE_BACK_WALL",
+      "after": "R111_W_GALLERY_APPROACH_SOFFIT"
+    },
+    {
+      "uv": [
+        1123,
+        277
+      ],
+      "before": "R83_CAFE_BACK_WALL",
+      "after": "R111_W_GALLERY_APPROACH_SOFFIT"
+    },
+    {
+      "uv": [
+        1123,
+        284
+      ],
+      "before": "R83_CAFE_BACK_WALL",
+      "after": "R111_W_GALLERY_APPROACH_SOFFIT"
+    },
+    {
+      "uv": [
+        1123,
+        291
+      ],
+      "before": "R83_CAFE_BACK_WALL",
+      "after": "R111_W_GALLERY_APPROACH_SOFFIT"
+    },
+    {
+      "uv": [
+        1123,
+        298
+      ],
+      "before": "R83_CAFE_BACK_WALL",
+      "after": "R111_W_GALLERY_APPROACH_SOFFIT"
+    },
+    {
+      "uv": [
+        1123,
+        305
+      ],
+      "before": "R83_CAFE_BACK_WALL",
+      "after": "R111_W_GALLERY_APPROACH_SOFFIT"
+    },
+    {
+      "uv": [
+        1123,
+        312
+      ],
+      "before": "R83_CAFE_BACK_WALL",
+      "after": "R111_W_GALLERY_APPROACH_SOFFIT"
+    },
+    {
+      "uv": [
+        1123,
+        319
+      ],
+      "before": "R83_CAFE_BACK_WALL",
+      "after": "R111_W_GALLERY_APPROACH_SOFFIT"
+    },
+    {
+      "uv": [
+        1123,
+        326
+      ],
+      "before": "R83_CAFE_BACK_WALL",
+      "after": "R111_W_GALLERY_APPROACH_SOFFIT"
+    },
+    {
+      "uv": [
+        1123,
+        333
+      ],
+      "before": "R83_CAFE_BACK_WALL",
+      "after": "R111_W_GALLERY_APPROACH_SOFFIT"
+    },
+    {
+      "uv": [
+        1123,
+        340
+      ],
+      "before": "R83_CAFE_BACK_WALL",
+      "after": "R111_W_GALLERY_APPROACH_SOFFIT"
+    },
+    {
+      "uv": [
+        1123,
+        347
+      ],
+      "before": "R83_CAFE_BACK_WALL",
+      "after": "R111_W_GALLERY_APPROACH_SOFFIT"
+    },
+    {
+      "uv": [
+        1123,
+        354
+      ],
+      "before": "R83_CAFE_BACK_WALL",
+      "after": "R111_W_GALLERY_APPROACH_SOFFIT"
+    },
+    {
+      "uv": [
+        1123,
+        361
+      ],
+      "before": "R83_CAFE_BACK_WALL",
+      "after": "R111_W_GALLERY_APPROACH_SOFFIT"
+    },
+    {
+      "uv": [
+        1123,
+        368
+      ],
+      "before": "R83_CAFE_BACK_WALL",
+      "after": "R111_W_GALLERY_APPROACH_SOFFIT"
+    },
+    {
+      "uv": [
+        1123,
+        375
+      ],
+      "before": "R83_CAFE_BACK_WALL",
+      "after": "R111_W_GALLERY_APPROACH_SOFFIT"
+    },
+    {
+      "uv": [
+        1123,
+        382
+      ],
+      "before": "R83_CAFE_BACK_WALL",
+      "after": "R111_W_GALLERY_APPROACH_SOFFIT"
+    },
+    {
+      "uv": [
+        1123,
+        389
+      ],
+      "before": "R83_CAFE_BACK_WALL",
+      "after": "R111_W_GALLERY_APPROACH_SOFFIT"
+    },
+    {
+      "uv": [
+        1123,
+        396
+      ],
+      "before": "R83_CAFE_BACK_WALL",
+      "after": "R111_W_GALLERY_APPROACH_SOFFIT"
+    },
+    {
+      "uv": [
+        1123,
+        403
+      ],
+      "before": "R83_CAFE_BACK_WALL",
+      "after": "R111_W_GALLERY_APPROACH_SOFFIT"
+    },
+    {
+      "uv": [
+        1123,
+        410
+      ],
+      "before": "R83_CAFE_BACK_WALL",
+      "after": "R111_W_GALLERY_APPROACH_SOFFIT"
+    },
+    {
+      "uv": [
+        1123,
+        417
+      ],
+      "before": "R83_CAFE_BACK_WALL",
+      "after": "R111_W_GALLERY_APPROACH_SOFFIT"
+    },
+    {
+      "uv": [
+        1123,
+        424
+      ],
+      "before": "R83_CAFE_BACK_WALL",
+      "after": "R111_W_GALLERY_APPROACH_SOFFIT"
+    },
+    {
+      "uv": [
+        1123,
+        431
+      ],
+      "before": "R83_CAFE_BACK_WALL",
+      "after": "R111_W_GALLERY_APPROACH_SOFFIT"
+    },
+    {
+      "uv": [
+        1123,
+        438
+      ],
+      "before": "R83_CAFE_BACK_WALL",
+      "after": "R111_W_GALLERY_APPROACH_SOFFIT"
+    },
+    {
+      "uv": [
+        1123,
+        445
+      ],
+      "before": "R83_CAFE_BACK_WALL",
+      "after": "R111_W_GALLERY_APPROACH_SOFFIT"
+    },
+    {
+      "uv": [
+        1123,
+        452
+      ],
+      "before": "R83_CAFE_BACK_WALL",
+      "after": "R111_W_GALLERY_APPROACH_SOFFIT"
+    },
+    {
+      "uv": [
+        1123,
+        459
+      ],
+      "before": "R83_CAFE_BACK_WALL",
+      "after": "R111_W_GALLERY_APPROACH_SOFFIT"
+    },
+    {
+      "uv": [
+        1123,
+        466
+      ],
+      "before": "R83_CAFE_BACK_WALL",
+      "after": "R111_W_GALLERY_APPROACH_SOFFIT"
+    },
+    {
+      "uv": [
+        1123,
+        473
+      ],
+      "before": "R83_CAFE_BACK_WALL",
+      "after": "R111_W_GALLERY_APPROACH_SOFFIT"
+    },
+    {
+      "uv": [
+        1123,
+        480
+      ],
+      "before": "R83_CAFE_BACK_WALL",
+      "after": "R111_W_GALLERY_APPROACH_SOFFIT"
+    },
+    {
+      "uv": [
+        1123,
+        487
+      ],
+      "before": "R83_CAFE_BACK_WALL",
+      "after": "R111_W_GALLERY_APPROACH_SOFFIT"
+    },
+    {
+      "uv": [
+        1123,
+        494
+      ],
+      "before": "R83_CAFE_BACK_WALL",
+      "after": "R111_W_GALLERY_APPROACH_SOFFIT"
+    },
+    {
+      "uv": [
+        1123,
+        501
+      ],
+      "before": "R83_CAFE_BACK_WALL",
+      "after": "R111_W_GALLERY_APPROACH_SOFFIT"
+    },
+    {
+      "uv": [
+        1123,
+        508
+      ],
+      "before": "R83_CAFE_BACK_WALL",
+      "after": "R111_W_GALLERY_APPROACH_SOFFIT"
+    },
+    {
+      "uv": [
+        1123,
+        515
+      ],
+      "before": "R83_CAFE_BACK_WALL",
+      "after": "R111_W_GALLERY_APPROACH_SOFFIT"
+    },
+    {
+      "uv": [
+        1123,
+        522
+      ],
+      "before": "R83_CAFE_BACK_WALL",
+      "after": "R111_W_GALLERY_APPROACH_SOFFIT"
+    },
+    {
+      "uv": [
+        1123,
+        529
+      ],
+      "before": "R83_CAFE_BACK_WALL",
+      "after": "R83_CAFE_BACK_WALL"
+    },
+    {
+      "uv": [
+        1123,
+        536
+      ],
+      "before": "R83_CAFE_BACK_WALL",
+      "after": "R111_W_GALLERY_APPROACH_SOFFIT"
+    },
+    {
+      "uv": [
+        1123,
+        543
+      ],
+      "before": "R83_CAFE_BACK_WALL",
+      "after": "R111_W_GALLERY_APPROACH_SOFFIT"
+    },
+    {
+      "uv": [
+        1123,
+        550
+      ],
+      "before": "R83_CAFE_BACK_WALL",
+      "after": "R83_CAFE_BACK_WALL"
+    },
+    {
+      "uv": [
+        1123,
+        557
+      ],
+      "before": "R83_CAFE_BACK_WALL",
+      "after": "R111_W_GALLERY_APPROACH_SOFFIT"
+    },
+    {
+      "uv": [
+        1123,
+        564
+      ],
+      "before": "R83_CAFE_BACK_WALL",
+      "after": "R111_W_GALLERY_APPROACH_SOFFIT"
+    },
+    {
+      "uv": [
+        1123,
+        571
+      ],
+      "before": "R83_CAFE_BACK_WALL",
+      "after": "R111_W_GALLERY_APPROACH_SOFFIT"
+    },
+    {
+      "uv": [
+        1130,
+        270
+      ],
+      "before": null,
+      "after": "R111_W_GALLERY_APPROACH_SOFFIT"
+    },
+    {
+      "uv": [
+        1130,
+        277
+      ],
+      "before": null,
+      "after": "R111_W_GALLERY_APPROACH_SOFFIT"
+    },
+    {
+      "uv": [
+        1130,
+        284
+      ],
+      "before": null,
+      "after": "R111_W_GALLERY_APPROACH_SOFFIT"
+    },
+    {
+      "uv": [
+        1130,
+        291
+      ],
+      "before": null,
+      "after": "R111_W_GALLERY_APPROACH_SOFFIT"
+    },
+    {
+      "uv": [
+        1130,
+        298
+      ],
+      "before": null,
+      "after": "R111_W_GALLERY_APPROACH_SOFFIT"
+    },
+    {
+      "uv": [
+        1130,
+        305
+      ],
+      "before": null,
+      "after": "R111_W_GALLERY_APPROACH_SOFFIT"
+    },
+    {
+      "uv": [
+        1130,
+        312
+      ],
+      "before": null,
+      "after": "R111_W_GALLERY_APPROACH_SOFFIT"
+    },
+    {
+      "uv": [
+        1130,
+        319
+      ],
+      "before": null,
+      "after": "R111_W_GALLERY_APPROACH_SOFFIT"
+    },
+    {
+      "uv": [
+        1130,
+        326
+      ],
+      "before": null,
+      "after": "R111_W_GALLERY_APPROACH_SOFFIT"
+    },
+    {
+      "uv": [
+        1130,
+        333
+      ],
+      "before": null,
+      "after": "R111_W_GALLERY_APPROACH_SOFFIT"
+    },
+    {
+      "uv": [
+        1130,
+        340
+      ],
+      "before": null,
+      "after": "R111_W_GALLERY_APPROACH_SOFFIT"
+    },
+    {
+      "uv": [
+        1130,
+        347
+      ],
+      "before": null,
+      "after": "R111_W_GALLERY_APPROACH_SOFFIT"
+    },
+    {
+      "uv": [
+        1130,
+        354
+      ],
+      "before": null,
+      "after": "R111_W_GALLERY_APPROACH_SOFFIT"
+    },
+    {
+      "uv": [
+        1130,
+        361
+      ],
+      "before": null,
+      "after": "R111_W_GALLERY_APPROACH_SOFFIT"
+    },
+    {
+      "uv": [
+        1130,
+        368
+      ],
+      "before": null,
+      "after": "R111_W_GALLERY_APPROACH_SOFFIT"
+    },
+    {
+      "uv": [
+        1130,
+        375
+      ],
+      "before": null,
+      "after": "R111_W_GALLERY_APPROACH_SOFFIT"
+    },
+    {
+      "uv": [
+        1130,
+        382
+      ],
+      "before": null,
+      "after": "R111_W_GALLERY_APPROACH_SOFFIT"
+    },
+    {
+      "uv": [
+        1130,
+        389
+      ],
+      "before": null,
+      "after": "R111_W_GALLERY_APPROACH_SOFFIT"
+    },
+    {
+      "uv": [
+        1130,
+        396
+      ],
+      "before": null,
+      "after": "R111_W_GALLERY_APPROACH_SOFFIT"
+    },
+    {
+      "uv": [
+        1130,
+        403
+      ],
+      "before": null,
+      "after": "R111_W_GALLERY_APPROACH_SOFFIT"
+    },
+    {
+      "uv": [
+        1130,
+        410
+      ],
+      "before": null,
+      "after": "R111_W_GALLERY_APPROACH_SOFFIT"
+    },
+    {
+      "uv": [
+        1130,
+        417
+      ],
+      "before": null,
+      "after": "R111_W_GALLERY_APPROACH_SOFFIT"
+    },
+    {
+      "uv": [
+        1130,
+        424
+      ],
+      "before": null,
+      "after": "R111_W_GALLERY_APPROACH_SOFFIT"
+    },
+    {
+      "uv": [
+        1130,
+        431
+      ],
+      "before": null,
+      "after": "R111_W_GALLERY_APPROACH_SOFFIT"
+    },
+    {
+      "uv": [
+        1130,
+        438
+      ],
+      "before": null,
+      "after": "R111_W_GALLERY_APPROACH_SOFFIT"
+    },
+    {
+      "uv": [
+        1130,
+        445
+      ],
+      "before": null,
+      "after": "R111_W_GALLERY_APPROACH_SOFFIT"
+    },
+    {
+      "uv": [
+        1130,
+        452
+      ],
+      "before": null,
+      "after": "R111_W_GALLERY_APPROACH_SOFFIT"
+    },
+    {
+      "uv": [
+        1130,
+        459
+      ],
+      "before": null,
+      "after": "R111_W_GALLERY_APPROACH_SOFFIT"
+    },
+    {
+      "uv": [
+        1130,
+        466
+      ],
+      "before": null,
+      "after": "R111_W_GALLERY_APPROACH_SOFFIT"
+    },
+    {
+      "uv": [
+        1130,
+        473
+      ],
+      "before": null,
+      "after": "R111_W_GALLERY_APPROACH_SOFFIT"
+    },
+    {
+      "uv": [
+        1130,
+        480
+      ],
+      "before": null,
+      "after": "R111_W_GALLERY_APPROACH_SOFFIT"
+    },
+    {
+      "uv": [
+        1130,
+        487
+      ],
+      "before": null,
+      "after": "R111_W_GALLERY_APPROACH_SOFFIT"
+    },
+    {
+      "uv": [
+        1130,
+        494
+      ],
+      "before": null,
+      "after": "R111_W_GALLERY_APPROACH_SOFFIT"
+    },
+    {
+      "uv": [
+        1130,
+        501
+      ],
+      "before": null,
+      "after": "R111_W_GALLERY_APPROACH_SOFFIT"
+    },
+    {
+      "uv": [
+        1130,
+        508
+      ],
+      "before": null,
+      "after": "R111_W_GALLERY_APPROACH_SOFFIT"
+    },
+    {
+      "uv": [
+        1130,
+        515
+      ],
+      "before": null,
+      "after": "R111_W_GALLERY_APPROACH_SOFFIT"
+    },
+    {
+      "uv": [
+        1130,
+        522
+      ],
+      "before": null,
+      "after": "R111_W_GALLERY_APPROACH_SOFFIT"
+    },
+    {
+      "uv": [
+        1130,
+        529
+      ],
+      "before": null,
+      "after": "R111_W_GALLERY_APPROACH_SOFFIT"
+    },
+    {
+      "uv": [
+        1130,
+        536
+      ],
+      "before": null,
+      "after": "R111_W_GALLERY_APPROACH_SOFFIT"
+    },
+    {
+      "uv": [
+        1130,
+        543
+      ],
+      "before": null,
+      "after": "R111_W_GALLERY_APPROACH_SOFFIT"
+    },
+    {
+      "uv": [
+        1130,
+        550
+      ],
+      "before": null,
+      "after": "R111_W_GALLERY_APPROACH_SOFFIT"
+    },
+    {
+      "uv": [
+        1130,
+        557
+      ],
+      "before": null,
+      "after": "R111_W_GALLERY_APPROACH_SOFFIT"
+    },
+    {
+      "uv": [
+        1130,
+        564
+      ],
+      "before": null,
+      "after": "R111_W_GALLERY_APPROACH_SOFFIT"
+    },
+    {
+      "uv": [
+        1130,
+        571
+      ],
+      "before": null,
+      "after": "R111_W_GALLERY_APPROACH_SOFFIT"
+    },
+    {
+      "uv": [
+        1140,
+        270
+      ],
+      "before": null,
+      "after": "R111_W_GALLERY_APPROACH_SOFFIT"
+    },
+    {
+      "uv": [
+        1140,
+        277
+      ],
+      "before": null,
+      "after": "R111_W_GALLERY_APPROACH_SOFFIT"
+    },
+    {
+      "uv": [
+        1140,
+        284
+      ],
+      "before": null,
+      "after": "R111_W_GALLERY_APPROACH_SOFFIT"
+    },
+    {
+      "uv": [
+        1140,
+        291
+      ],
+      "before": null,
+      "after": "R111_W_GALLERY_APPROACH_SOFFIT"
+    },
+    {
+      "uv": [
+        1140,
+        298
+      ],
+      "before": null,
+      "after": "R111_W_GALLERY_APPROACH_SOFFIT"
+    },
+    {
+      "uv": [
+        1140,
+        305
+      ],
+      "before": null,
+      "after": "R111_W_GALLERY_APPROACH_SOFFIT"
+    },
+    {
+      "uv": [
+        1140,
+        312
+      ],
+      "before": null,
+      "after": "R111_W_GALLERY_APPROACH_SOFFIT"
+    },
+    {
+      "uv": [
+        1140,
+        319
+      ],
+      "before": null,
+      "after": "R111_W_GALLERY_APPROACH_SOFFIT"
+    },
+    {
+      "uv": [
+        1140,
+        326
+      ],
+      "before": null,
+      "after": "R111_W_GALLERY_APPROACH_SOFFIT"
+    },
+    {
+      "uv": [
+        1140,
+        333
+      ],
+      "before": null,
+      "after": "R111_W_GALLERY_APPROACH_SOFFIT"
+    },
+    {
+      "uv": [
+        1140,
+        340
+      ],
+      "before": null,
+      "after": "R111_W_GALLERY_APPROACH_SOFFIT"
+    },
+    {
+      "uv": [
+        1140,
+        347
+      ],
+      "before": null,
+      "after": "R111_W_GALLERY_APPROACH_SOFFIT"
+    },
+    {
+      "uv": [
+        1140,
+        354
+      ],
+      "before": null,
+      "after": "R111_W_GALLERY_APPROACH_SOFFIT"
+    },
+    {
+      "uv": [
+        1140,
+        361
+      ],
+      "before": null,
+      "after": "R111_W_GALLERY_APPROACH_SOFFIT"
+    },
+    {
+      "uv": [
+        1140,
+        368
+      ],
+      "before": null,
+      "after": "R111_W_GALLERY_APPROACH_SOFFIT"
+    },
+    {
+      "uv": [
+        1140,
+        375
+      ],
+      "before": null,
+      "after": "R111_W_GALLERY_APPROACH_SOFFIT"
+    },
+    {
+      "uv": [
+        1140,
+        382
+      ],
+      "before": null,
+      "after": "R111_W_GALLERY_APPROACH_SOFFIT"
+    },
+    {
+      "uv": [
+        1140,
+        389
+      ],
+      "before": null,
+      "after": "R111_W_GALLERY_APPROACH_SOFFIT"
+    },
+    {
+      "uv": [
+        1140,
+        396
+      ],
+      "before": null,
+      "after": "R111_W_GALLERY_APPROACH_SOFFIT"
+    },
+    {
+      "uv": [
+        1140,
+        403
+      ],
+      "before": null,
+      "after": "R111_W_GALLERY_APPROACH_SOFFIT"
+    },
+    {
+      "uv": [
+        1140,
+        410
+      ],
+      "before": null,
+      "after": "R111_W_GALLERY_APPROACH_SOFFIT"
+    },
+    {
+      "uv": [
+        1140,
+        417
+      ],
+      "before": null,
+      "after": "R111_W_GALLERY_APPROACH_SOFFIT"
+    },
+    {
+      "uv": [
+        1140,
+        424
+      ],
+      "before": null,
+      "after": "R111_W_GALLERY_APPROACH_SOFFIT"
+    },
+    {
+      "uv": [
+        1140,
+        431
+      ],
+      "before": null,
+      "after": "R111_W_GALLERY_APPROACH_SOFFIT"
+    },
+    {
+      "uv": [
+        1140,
+        438
+      ],
+      "before": null,
+      "after": "R111_W_GALLERY_APPROACH_SOFFIT"
+    },
+    {
+      "uv": [
+        1140,
+        445
+      ],
+      "before": null,
+      "after": "R111_W_GALLERY_APPROACH_SOFFIT"
+    },
+    {
+      "uv": [
+        1140,
+        452
+      ],
+      "before": null,
+      "after": "R111_W_GALLERY_APPROACH_SOFFIT"
+    },
+    {
+      "uv": [
+        1140,
+        459
+      ],
+      "before": null,
+      "after": "R111_W_GALLERY_APPROACH_SOFFIT"
+    },
+    {
+      "uv": [
+        1140,
+        466
+      ],
+      "before": null,
+      "after": "R111_W_GALLERY_APPROACH_SOFFIT"
+    },
+    {
+      "uv": [
+        1140,
+        473
+      ],
+      "before": null,
+      "after": "R111_W_GALLERY_APPROACH_SOFFIT"
+    },
+    {
+      "uv": [
+        1140,
+        480
+      ],
+      "before": null,
+      "after": "R111_W_GALLERY_APPROACH_SOFFIT"
+    },
+    {
+      "uv": [
+        1140,
+        487
+      ],
+      "before": null,
+      "after": "R111_W_GALLERY_APPROACH_SOFFIT"
+    },
+    {
+      "uv": [
+        1140,
+        494
+      ],
+      "before": null,
+      "after": "R111_W_GALLERY_APPROACH_SOFFIT"
+    },
+    {
+      "uv": [
+        1140,
+        501
+      ],
+      "before": null,
+      "after": "R111_W_GALLERY_APPROACH_SOFFIT"
+    },
+    {
+      "uv": [
+        1140,
+        508
+      ],
+      "before": null,
+      "after": "R111_W_GALLERY_APPROACH_SOFFIT"
+    },
+    {
+      "uv": [
+        1140,
+        515
+      ],
+      "before": null,
+      "after": "R111_W_GALLERY_APPROACH_SOFFIT"
+    },
+    {
+      "uv": [
+        1140,
+        522
+      ],
+      "before": null,
+      "after": "R111_W_GALLERY_APPROACH_SOFFIT"
+    },
+    {
+      "uv": [
+        1140,
+        529
+      ],
+      "before": null,
+      "after": "R111_W_GALLERY_APPROACH_SOFFIT"
+    },
+    {
+      "uv": [
+        1140,
+        536
+      ],
+      "before": null,
+      "after": "R111_W_GALLERY_APPROACH_SOFFIT"
+    },
+    {
+      "uv": [
+        1140,
+        543
+      ],
+      "before": null,
+      "after": "R111_W_GALLERY_APPROACH_SOFFIT"
+    },
+    {
+      "uv": [
+        1140,
+        550
+      ],
+      "before": null,
+      "after": "R111_W_GALLERY_APPROACH_SOFFIT"
+    },
+    {
+      "uv": [
+        1140,
+        557
+      ],
+      "before": null,
+      "after": "R111_W_GALLERY_APPROACH_SOFFIT"
+    },
+    {
+      "uv": [
+        1140,
+        564
+      ],
+      "before": null,
+      "after": "R111_W_GALLERY_APPROACH_SOFFIT"
+    },
+    {
+      "uv": [
+        1140,
+        571
+      ],
+      "before": null,
+      "after": "R111_W_GALLERY_APPROACH_SOFFIT"
+    },
+    {
+      "uv": [
+        1150,
+        270
+      ],
+      "before": null,
+      "after": "R111_W_GALLERY_APPROACH_SOFFIT"
+    },
+    {
+      "uv": [
+        1150,
+        277
+      ],
+      "before": null,
+      "after": "R111_W_GALLERY_APPROACH_SOFFIT"
+    },
+    {
+      "uv": [
+        1150,
+        284
+      ],
+      "before": null,
+      "after": "R111_W_GALLERY_APPROACH_SOFFIT"
+    },
+    {
+      "uv": [
+        1150,
+        291
+      ],
+      "before": null,
+      "after": "R111_W_GALLERY_APPROACH_SOFFIT"
+    },
+    {
+      "uv": [
+        1150,
+        298
+      ],
+      "before": null,
+      "after": "R111_W_GALLERY_APPROACH_SOFFIT"
+    },
+    {
+      "uv": [
+        1150,
+        305
+      ],
+      "before": null,
+      "after": "R111_W_GALLERY_APPROACH_SOFFIT"
+    },
+    {
+      "uv": [
+        1150,
+        312
+      ],
+      "before": null,
+      "after": "R111_W_GALLERY_APPROACH_SOFFIT"
+    },
+    {
+      "uv": [
+        1150,
+        319
+      ],
+      "before": null,
+      "after": "R111_W_GALLERY_APPROACH_SOFFIT"
+    },
+    {
+      "uv": [
+        1150,
+        326
+      ],
+      "before": null,
+      "after": "R111_W_GALLERY_APPROACH_SOFFIT"
+    },
+    {
+      "uv": [
+        1150,
+        333
+      ],
+      "before": null,
+      "after": "R111_W_GALLERY_APPROACH_SOFFIT"
+    },
+    {
+      "uv": [
+        1150,
+        340
+      ],
+      "before": null,
+      "after": "R111_W_GALLERY_APPROACH_SOFFIT"
+    },
+    {
+      "uv": [
+        1150,
+        347
+      ],
+      "before": null,
+      "after": "R111_W_GALLERY_APPROACH_SOFFIT"
+    },
+    {
+      "uv": [
+        1150,
+        354
+      ],
+      "before": null,
+      "after": "R111_W_GALLERY_APPROACH_SOFFIT"
+    },
+    {
+      "uv": [
+        1150,
+        361
+      ],
+      "before": null,
+      "after": "R111_W_GALLERY_APPROACH_SOFFIT"
+    },
+    {
+      "uv": [
+        1150,
+        368
+      ],
+      "before": null,
+      "after": "R111_W_GALLERY_APPROACH_SOFFIT"
+    },
+    {
+      "uv": [
+        1150,
+        375
+      ],
+      "before": null,
+      "after": "R111_W_GALLERY_APPROACH_SOFFIT"
+    },
+    {
+      "uv": [
+        1150,
+        382
+      ],
+      "before": null,
+      "after": "R111_W_GALLERY_APPROACH_SOFFIT"
+    },
+    {
+      "uv": [
+        1150,
+        389
+      ],
+      "before": null,
+      "after": "R111_W_GALLERY_APPROACH_SOFFIT"
+    },
+    {
+      "uv": [
+        1150,
+        396
+      ],
+      "before": null,
+      "after": "R111_W_GALLERY_APPROACH_SOFFIT"
+    },
+    {
+      "uv": [
+        1150,
+        403
+      ],
+      "before": null,
+      "after": "R111_W_GALLERY_APPROACH_SOFFIT"
+    },
+    {
+      "uv": [
+        1150,
+        410
+      ],
+      "before": null,
+      "after": "R111_W_GALLERY_APPROACH_SOFFIT"
+    },
+    {
+      "uv": [
+        1150,
+        417
+      ],
+      "before": null,
+      "after": "R111_W_GALLERY_APPROACH_SOFFIT"
+    },
+    {
+      "uv": [
+        1150,
+        424
+      ],
+      "before": null,
+      "after": "R111_W_GALLERY_APPROACH_SOFFIT"
+    },
+    {
+      "uv": [
+        1150,
+        431
+      ],
+      "before": null,
+      "after": "R111_W_GALLERY_APPROACH_SOFFIT"
+    },
+    {
+      "uv": [
+        1150,
+        438
+      ],
+      "before": null,
+      "after": "R111_W_GALLERY_APPROACH_SOFFIT"
+    },
+    {
+      "uv": [
+        1150,
+        445
+      ],
+      "before": null,
+      "after": "R111_W_GALLERY_APPROACH_SOFFIT"
+    },
+    {
+      "uv": [
+        1150,
+        452
+      ],
+      "before": null,
+      "after": "R111_W_GALLERY_APPROACH_SOFFIT"
+    },
+    {
+      "uv": [
+        1150,
+        459
+      ],
+      "before": null,
+      "after": "R111_W_GALLERY_APPROACH_SOFFIT"
+    },
+    {
+      "uv": [
+        1150,
+        466
+      ],
+      "before": null,
+      "after": "R111_W_GALLERY_APPROACH_SOFFIT"
+    },
+    {
+      "uv": [
+        1150,
+        473
+      ],
+      "before": null,
+      "after": "R111_W_GALLERY_APPROACH_SOFFIT"
+    },
+    {
+      "uv": [
+        1150,
+        480
+      ],
+      "before": null,
+      "after": "R111_W_GALLERY_APPROACH_SOFFIT"
+    },
+    {
+      "uv": [
+        1150,
+        487
+      ],
+      "before": null,
+      "after": "R111_W_GALLERY_APPROACH_SOFFIT"
+    },
+    {
+      "uv": [
+        1150,
+        494
+      ],
+      "before": null,
+      "after": "R111_W_GALLERY_APPROACH_SOFFIT"
+    },
+    {
+      "uv": [
+        1150,
+        501
+      ],
+      "before": null,
+      "after": "R111_W_GALLERY_APPROACH_SOFFIT"
+    },
+    {
+      "uv": [
+        1150,
+        508
+      ],
+      "before": null,
+      "after": "R111_W_GALLERY_APPROACH_SOFFIT"
+    },
+    {
+      "uv": [
+        1150,
+        515
+      ],
+      "before": null,
+      "after": "R111_W_GALLERY_APPROACH_SOFFIT"
+    },
+    {
+      "uv": [
+        1150,
+        522
+      ],
+      "before": null,
+      "after": "R111_W_GALLERY_APPROACH_SOFFIT"
+    },
+    {
+      "uv": [
+        1150,
+        529
+      ],
+      "before": null,
+      "after": "R111_W_GALLERY_APPROACH_SOFFIT"
+    },
+    {
+      "uv": [
+        1150,
+        536
+      ],
+      "before": null,
+      "after": "R111_W_GALLERY_APPROACH_SOFFIT"
+    },
+    {
+      "uv": [
+        1150,
+        543
+      ],
+      "before": null,
+      "after": "R111_W_GALLERY_APPROACH_SOFFIT"
+    },
+    {
+      "uv": [
+        1150,
+        550
+      ],
+      "before": null,
+      "after": "R111_W_GALLERY_APPROACH_SOFFIT"
+    },
+    {
+      "uv": [
+        1150,
+        557
+      ],
+      "before": null,
+      "after": "R111_W_GALLERY_APPROACH_SOFFIT"
+    },
+    {
+      "uv": [
+        1150,
+        564
+      ],
+      "before": null,
+      "after": "R111_W_GALLERY_APPROACH_SOFFIT"
+    },
+    {
+      "uv": [
+        1150,
+        571
+      ],
+      "before": null,
+      "after": "R111_W_GALLERY_APPROACH_SOFFIT"
+    }
+  ],
+  "old_missing": 132,
+  "new_missing": 0,
+  "failures": [],
+  "construction_acceptance": false,
+  "limits": [
+    "Checks overhead continuity at the inherited gallery soffit datum; measured height and concealed construction are unknown.",
+    "Not whole-building acceptance."
+  ]
+}

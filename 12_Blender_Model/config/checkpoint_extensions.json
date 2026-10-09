@@ -1419,5 +1419,63 @@
     "image": "R109_after_service_stair_wall_corner.png",
     "description": "Servis merdiveni altındaki üç mevcut duvarın iki köşesi birleştirildi. Önceki dört boşluk örneği kapandı; mevcut kapı kesisi ve merdiven korundu. Sekiz köşe örneği, genel geometri ve merdiven geçiş kontrolleri geçti; önce/sonra görüntüleri incelendi.",
     "limits": "Bütün bina tamamlanmadı. Diğer kabuk birleşimleri, merdiven/kapı detayları ve bütünleşik kaynak kontrolü açık; ölçülmemiş kalınlık ve kotlar aday."
+  },
+  {
+    "id": "R111",
+    "checks": [
+      "R111_verification.json",
+      "R111_global_audit.json",
+      "R111_inherited_verification.json",
+      "R111_ground_routes.json"
+    ],
+    "tasks": [
+      "P05",
+      "P07",
+      "P16"
+    ],
+    "report": "R111_KONTROL_RAPORU.md",
+    "title": "Kafe geçidi eksik üst örtüsü / R111",
+    "image": "R111_marked_cafe_ground.png",
+    "description": "Kafe–batı galeri geçidinde eksik üst örtü oluşturuldu. Aynı kamera karşılaştırmasında yatay yarık kapandı; zemindeki açık geçit korunuyor. Yeniden açılan sahnede önceki 132 örtüsüz örnek kapandı; genel geometri ve galeri geçiş kontrolleri geçti.",
+    "limits": "Öncelik büyük kabuk sorunları. Doğu merdiveni–duvar birleşimi ve kalan büyük açıklıklar bitmeden köşe veya malzeme detayına geçilmez. Örtü kotu mevcut 4,35 m galeri tavanı adayıdır; ölçülmüş uygulama detayı değildir."
+  },
+  {
+    "id": "R112",
+    "checks": [
+      "R112_verification.json",
+      "R112_global_audit.json",
+      "R112_inherited_verification.json",
+      "R112_ground_routes.json"
+    ],
+    "tasks": [
+      "P05",
+      "P07",
+      "P16"
+    ],
+    "report": "R112_KONTROL_RAPORU.md",
+    "title": "Doğu galeri geçidi üst örtüsü / R112",
+    "image": "R112_marked_east_ground.png",
+    "description": "Doğu galeri girişinin eksik üst örtüsü oluşturuldu. Önceki 81 örtüsüz örnek kapandı; geçitler ve yüksek atrium açıklığı korundu. Aynı kamera görsel karşılaştırması, sahne farkı, geometri ve geçiş kontrolleri geçti; altı merdiven ailesi taramasında yeni baş mesafesi engeli bulunmadı.",
+    "limits": "Öncelik büyük kabuk sorunları. Kalan büyük duvar/zemin/çatı açıklıkları bitmeden köşe veya malzeme detayına geçilmez. Örtü kotu mevcut 4,35 m galeri tavanı adayıdır; ölçülmüş uygulama detayı değildir."
+  },
+  {
+    "id": "R113",
+    "checks": [
+      "R113_verification.json",
+      "R113_global_audit.json",
+      "R113_inherited_verification.json",
+      "R113_ground_routes.json",
+      "R113_service_routes.json"
+    ],
+    "tasks": [
+      "P05",
+      "P07",
+      "P16"
+    ],
+    "report": "R113_KONTROL_RAPORU.md",
+    "title": "Galeri–servis uzun duvarları / R113",
+    "image": "R113_after_west_service.png",
+    "description": "Zemin katın iki galerisinde servis alanına bakan eksik uzun duvarlar kaynak plan konturunda oluşturuldu. Önceki 360 eksik yüzey örneği kapandı. Galeri ve servis geçişleri, genel geometri ve sahne farkı kontrolleri geçti; iki aynı kamera önce/sonra görüntüsü incelendi.",
+    "limits": "Bütün bina ve kullanıcının tüm ekran görüntüleri henüz kabul edilmedi. Duvar kalınlığı mevcut kaynak konturları arasında uzlaştırılmış adaydır; kotlar ölçülmüş değildir. Öncelik kalan büyük kabuk sorunlarıdır."
   }
 ]

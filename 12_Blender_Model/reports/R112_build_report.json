@@ -1,0 +1,57 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R112_DOGU_GALERI_GECIT_ORTUSU_v001.blend",
+  "base_scene": "MUDAM_R111_KAFE_GECIT_UST_ORTUSU_v002.blend",
+  "closed_objects": [
+    "R112_E_GALLERY_APPROACH_SOFFIT"
+  ],
+  "changed_inherited_objects": [],
+  "polygon_canonical": [
+    [
+      349,
+      324
+    ],
+    [
+      441.816,
+      416.816
+    ],
+    [
+      441.816,
+      470.28
+    ],
+    [
+      433.8,
+      468.8
+    ],
+    [
+      433.8,
+      449.6
+    ],
+    [
+      376,
+      387.3
+    ],
+    [
+      359.3,
+      387.3
+    ],
+    [
+      359.3,
+      356.3
+    ],
+    [
+      349,
+      347.3
+    ]
+  ],
+  "z_range": [
+    4.35,
+    4.5
+  ],
+  "construction_acceptance": false,
+  "limits": [
+    "Ground gallery entry wall and its end routes remain unchanged.",
+    "Soffit datum inherits ground gallery ceiling; exact build-up and elevation remain conditional.",
+    "Spiral stair footprint and x greater than 444 high portal excluded.",
+    "This candidate must pass visual and circulation checks before becoming current."
+  ]
+}

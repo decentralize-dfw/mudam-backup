@@ -1,0 +1,81 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R113_GALERI_SERVIS_UZUN_DUVARLARI_v001.blend",
+  "base_scene": "MUDAM_R112_DOGU_GALERI_GECIT_ORTUSU_v001.blend",
+  "closed_objects": [
+    "R113_E_GALLERY_SERVICE_BOUNDARY",
+    "R113_W_GALLERY_SERVICE_BOUNDARY"
+  ],
+  "changed_inherited_objects": [],
+  "boundaries": [
+    {
+      "name": "R113_E_GALLERY_SERVICE_BOUNDARY",
+      "side": "E",
+      "inner_x": 462.7160244517361,
+      "outer_x": 470.9,
+      "y_range": [
+        554.9,
+        611.0042235830698
+      ],
+      "z_range": [
+        0,
+        4.35
+      ],
+      "polygon": [
+        [
+          462.7160244517361,
+          554.9
+        ],
+        [
+          470.9,
+          554.9
+        ],
+        [
+          470.9,
+          611.0042235830698
+        ],
+        [
+          462.7160244517361,
+          611.0042235830698
+        ]
+      ]
+    },
+    {
+      "name": "R113_W_GALLERY_SERVICE_BOUNDARY",
+      "side": "W",
+      "inner_x": 688.5887004884523,
+      "outer_x": 680.44,
+      "y_range": [
+        554.9,
+        619.1796663389179
+      ],
+      "z_range": [
+        0,
+        4.35
+      ],
+      "polygon": [
+        [
+          688.5887004884523,
+          554.9
+        ],
+        [
+          680.44,
+          554.9
+        ],
+        [
+          680.44,
+          619.1796663389179
+        ],
+        [
+          688.5887004884523,
+          619.1796663389179
+        ]
+      ]
+    }
+  ],
+  "construction_acceptance": false,
+  "limits": [
+    "Permanent uninterrupted gallery-service boundary drawn in102 and PDF2016; not temporary exhibition partitions.",
+    "WC and lobby doors on the service side remain unchanged.",
+    "Thickness is source-contour reconciliation; concealed construction and exact height remain unmeasured."
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R111_KAFE_GECIT_UST_ORTUSU_v002.blend",
+  "base_scene": "MUDAM_R109_SERVIS_MERDIVEN_ALTI_KOSELERI_v001.blend",
+  "closed_objects": [
+    "R111_W_GALLERY_APPROACH_SOFFIT"
+  ],
+  "changed_inherited_objects": [],
+  "polygon_canonical": [
+    [
+      687.8,
+      431.8
+    ],
+    [
+      849,
+      271
+    ],
+    [
+      869.305,
+      291.305
+    ],
+    [
+      806.305,
+      354.305
+    ],
+    [
+      798,
+      385.2
+    ],
+    [
+      785,
+      385.2
+    ],
+    [
+      717,
+      452
+    ],
+    [
+      717,
+      469
+    ],
+    [
+      687.8,
+      469
+    ]
+  ],
+  "z_range": [
+    4.35,
+    4.5
+  ],
+  "construction_acceptance": false,
+  "limits": [
+    "No reinstatement of the ground cafe diagonal wall removed by user.",
+    "Soffit datum inherits ground gallery ceiling; exact build-up and elevation remain conditional.",
+    "Spiral stair and eastern high portal not covered; separate source-based correction remains open.",
+    "This candidate must pass visual and circulation checks before becoming current."
+  ]
+}

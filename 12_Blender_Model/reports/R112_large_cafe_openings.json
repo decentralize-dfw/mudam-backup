@@ -1,0 +1,1659 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R112_DOGU_GALERI_GECIT_ORTUSU_v001.blend",
+  "rays": [
+    {
+      "pixel": [
+        960,
+        493
+      ],
+      "hits": [
+        {
+          "name": "R112_E_GALLERY_APPROACH_SOFFIT",
+          "point": [
+            17.088577270507812,
+            -13.218517303466797,
+            4.445723056793213
+          ],
+          "distance": 17.428049705634113
+        },
+        {
+          "name": "R112_E_GALLERY_APPROACH_SOFFIT",
+          "point": [
+            17.32233428955078,
+            -12.971331596374512,
+            4.5
+          ],
+          "distance": 17.77256274407709
+        },
+        {
+          "name": "P05_FLOOR_LP1_E0",
+          "point": [
+            18.00743293762207,
+            -12.246877670288086,
+            4.659074783325195
+          ],
+          "distance": 18.782264847082466
+        },
+        {
+          "name": "P05_FLOOR_LP1_E0",
+          "point": [
+            18.868785858154297,
+            -11.336044311523438,
+            4.859074592590332
+          ],
+          "distance": 20.051731725475225
+        },
+        {
+          "name": "R23_E_5_WALL",
+          "point": [
+            35.386192321777344,
+            6.130192756652832,
+            8.694291114807129
+          ],
+          "distance": 44.395171832570455
+        },
+        {
+          "name": "R27_CONTINUOUS_HEAD",
+          "point": [
+            35.502201080322266,
+            6.252865791320801,
+            8.721227645874023
+          ],
+          "distance": 44.56614693676475
+        },
+        {
+          "name": "R23_E_5_WALL",
+          "point": [
+            35.6463508605957,
+            6.405294418334961,
+            8.754697799682617
+          ],
+          "distance": 44.77859312429503
+        },
+        {
+          "name": "R27_CONTINUOUS_HEAD",
+          "point": [
+            37.16424560546875,
+            8.010380744934082,
+            9.10714054107666
+          ],
+          "distance": 47.015672505571196
+        }
+      ]
+    },
+    {
+      "pixel": [
+        972,
+        499
+      ],
+      "hits": [
+        {
+          "name": "R28_E_FLAT_CEILING",
+          "point": [
+            17.337379455566406,
+            -13.253340721130371,
+            4.349999904632568
+          ],
+          "distance": 17.55838583546257
+        },
+        {
+          "name": "R28_E_FLAT_CEILING",
+          "point": [
+            17.791221618652344,
+            -12.784626007080078,
+            4.44960880279541
+          ],
+          "distance": 18.21837687560133
+        },
+        {
+          "name": "P05_FLOOR_LP1_E0",
+          "point": [
+            18.745595932006836,
+            -11.798975944519043,
+            4.659074783325195
+          ],
+          "distance": 19.60625726604236
+        },
+        {
+          "name": "P05_FLOOR_LP1_E0",
+          "point": [
+            19.656841278076172,
+            -10.857869148254395,
+            4.859074592590332
+          ],
+          "distance": 20.93141782869321
+        },
+        {
+          "name": "R23_E_5_WALL",
+          "point": [
+            35.3581428527832,
+            5.357961654663086,
+            8.305191040039062
+          ],
+          "distance": 43.764721426306565
+        },
+        {
+          "name": "R27_CONTINUOUS_HEAD",
+          "point": [
+            35.47530746459961,
+            5.4789652824401855,
+            8.330906867980957
+          ],
+          "distance": 43.935105715722464
+        },
+        {
+          "name": "R23_E_5_WALL",
+          "point": [
+            35.61805725097656,
+            5.626392364501953,
+            8.362237930297852
+          ],
+          "distance": 44.14269608491606
+        },
+        {
+          "name": "R27_CONTINUOUS_HEAD",
+          "point": [
+            37.13587188720703,
+            7.193943500518799,
+            8.695367813110352
+          ],
+          "distance": 46.34994734974065
+        }
+      ]
+    },
+    {
+      "pixel": [
+        970,
+        488
+      ],
+      "hits": [
+        {
+          "name": "R73_E_CONTINUOUS_GALLERY_WALL",
+          "point": [
+            16.461307525634766,
+            -14.1215238571167,
+            4.34999942779541
+          ],
+          "distance": 16.34046606911959
+        },
+        {
+          "name": "R73_E_CONTINUOUS_GALLERY_WALL",
+          "point": [
+            16.61602020263672,
+            -13.961235046386719,
+            4.386612415313721
+          ],
+          "distance": 16.5662295766745
+        },
+        {
+          "name": "R28_E_FLAT_CEILING",
+          "point": [
+            17.095155715942383,
+            -13.46483325958252,
+            4.5
+          ],
+          "distance": 17.265401944061672
+        },
+        {
+          "name": "P05_FLOOR_LP1_E0",
+          "point": [
+            17.767349243164062,
+            -12.768416404724121,
+            4.659074783325195
+          ],
+          "distance": 18.246292077246167
+        },
+        {
+          "name": "P05_FLOOR_LP1_E0",
+          "point": [
+            18.612476348876953,
+            -11.89283275604248,
+            4.859074592590332
+          ],
+          "distance": 19.47953426673809
+        },
+        {
+          "name": "R23_E_5_WALL",
+          "point": [
+            35.361854553222656,
+            5.4601593017578125,
+            8.822826385498047
+          ],
+          "distance": 43.92087975307065
+        },
+        {
+          "name": "R27_CONTINUOUS_HEAD",
+          "point": [
+            35.47886657714844,
+            5.581391334533691,
+            8.850518226623535
+          ],
+          "distance": 44.09163037240157
+        },
+        {
+          "name": "R23_E_5_WALL",
+          "point": [
+            35.621803283691406,
+            5.729479789733887,
+            8.884345054626465
+          ],
+          "distance": 44.30020870736517
+        },
+        {
+          "name": "R27_CONTINUOUS_HEAD",
+          "point": [
+            37.139625549316406,
+            7.302003860473633,
+            9.243539810180664
+          ],
+          "distance": 46.51507680798647
+        }
+      ]
+    },
+    {
+      "pixel": [
+        800,
+        525
+      ],
+      "hits": [
+        {
+          "name": "R95_E_GROUND_GALLERY_ENTRY_WALL",
+          "point": [
+            15.956171035766602,
+            -9.755370140075684,
+            4.197936058044434
+          ],
+          "distance": 19.378887721681263
+        },
+        {
+          "name": "R73_E_CONTINUOUS_GALLERY_WALL",
+          "point": [
+            16.60710334777832,
+            -8.783327102661133,
+            4.349999904632568
+          ],
+          "distance": 20.558592080027957
+        },
+        {
+          "name": "R73_E_CONTINUOUS_GALLERY_WALL",
+          "point": [
+            16.79443359375,
+            -8.503584861755371,
+            4.393762111663818
+          ],
+          "distance": 20.898097765291272
+        },
+        {
+          "name": "R112_E_GALLERY_APPROACH_SOFFIT",
+          "point": [
+            17.036479949951172,
+            -8.142136573791504,
+            4.450305938720703
+          ],
+          "distance": 21.336763592947687
+        },
+        {
+          "name": "R28_E_FLAT_CEILING",
+          "point": [
+            17.08373260498047,
+            -8.071574211120605,
+            4.461344242095947
+          ],
+          "distance": 21.422402250895153
+        },
+        {
+          "name": "R28_E_FLAT_CEILING",
+          "point": [
+            17.249204635620117,
+            -7.8244733810424805,
+            4.5
+          ],
+          "distance": 21.72229211039356
+        },
+        {
+          "name": "P05_FLOOR_LP1_E0",
+          "point": [
+            17.93014907836914,
+            -6.807613372802734,
+            4.659074783325195
+          ],
+          "distance": 22.956387614505772
+        },
+        {
+          "name": "P05_FLOOR_LP1_E0",
+          "point": [
+            18.786279678344727,
+            -5.529147148132324,
+            4.859074592590332
+          ],
+          "distance": 24.507980292599814
+        },
+        {
+          "name": "R23_E_4_WALL",
+          "point": [
+            31.33275604248047,
+            13.206603050231934,
+            7.790045738220215
+          ],
+          "distance": 47.2463375064764
+        },
+        {
+          "name": "R23_E_4_WALL",
+          "point": [
+            31.49689292907715,
+            13.451708793640137,
+            7.8283891677856445
+          ],
+          "distance": 47.54380653551495
+        },
+        {
+          "name": "R27_CONTINUOUS_HEAD",
+          "point": [
+            35.985294342041016,
+            20.154273986816406,
+            8.876920700073242
+          ],
+          "distance": 55.67827573474187
+        },
+        {
+          "name": "R27_CONTINUOUS_HEAD",
+          "point": [
+            37.67388916015625,
+            22.675867080688477,
+            9.271392822265625
+          ],
+          "distance": 58.73856846401193
+        }
+      ]
+    },
+    {
+      "pixel": [
+        600,
+        547
+      ],
+      "hits": [
+        {
+          "name": "R112_E_GALLERY_APPROACH_SOFFIT",
+          "point": [
+            14.403564453125,
+            -2.5108604431152344,
+            4.34999942779541
+          ],
+          "distance": 25.08724092122612
+        },
+        {
+          "name": "R112_E_GALLERY_APPROACH_SOFFIT",
+          "point": [
+            14.516222953796387,
+            -2.224755048751831,
+            4.382662296295166
+          ],
+          "distance": 25.396458135924426
+        },
+        {
+          "name": "R73_E_CONTINUOUS_GALLERY_WALL",
+          "point": [
+            16.218421936035156,
+            2.0980961322784424,
+            4.876177787780762
+          ],
+          "distance": 30.068512075494244
+        },
+        {
+          "name": "R73_E_CONTINUOUS_GALLERY_WALL",
+          "point": [
+            16.238723754882812,
+            2.149655342102051,
+            4.882063865661621
+          ],
+          "distance": 30.12423597451221
+        },
+        {
+          "name": "P07_GH_EAST_PORTAL_JAMB_S",
+          "point": [
+            16.991840362548828,
+            4.062248229980469,
+            5.100413799285889
+          ],
+          "distance": 32.191328409899555
+        },
+        {
+          "name": "R04_RECESS_JAMB_FOOT",
+          "point": [
+            17.04620933532715,
+            4.200321674346924,
+            5.116176605224609
+          ],
+          "distance": 32.340555094058125
+        },
+        {
+          "name": "P07_GH_EAST_PORTAL_JAMB_S",
+          "point": [
+            17.0613956451416,
+            4.238889694213867,
+            5.120579719543457
+          ],
+          "distance": 32.382238838075075
+        },
+        {
+          "name": "R04_RECESS_JAMB_FOOT",
+          "point": [
+            17.116132736206055,
+            4.377899646759033,
+            5.136449813842773
+          ],
+          "distance": 32.53247674833162
+        },
+        {
+          "name": "R45_STAIR_RECESS_CONTINUOUS",
+          "point": [
+            20.000701904296875,
+            11.70346450805664,
+            5.9727678298950195
+          ],
+          "distance": 40.449803080038194
+        },
+        {
+          "name": "R45_STAIR_RECESS_CONTINUOUS",
+          "point": [
+            20.286718368530273,
+            12.429821968078613,
+            6.055691719055176
+          ],
+          "distance": 41.23483892471087
+        },
+        {
+          "name": "R31_STUDIO_WALL_0",
+          "point": [
+            23.268903732299805,
+            20.0032901763916,
+            6.920311450958252
+          ],
+          "distance": 49.42009350547451
+        },
+        {
+          "name": "R31_STUDIO_WALL_0",
+          "point": [
+            23.354610443115234,
+            20.220951080322266,
+            6.945160388946533
+          ],
+          "distance": 49.655335366892444
+        }
+      ]
+    },
+    {
+      "pixel": [
+        1035,
+        460
+      ],
+      "hits": [
+        {
+          "name": "R10_GALLERY_GROUND_WALL",
+          "point": [
+            15.48333740234375,
+            -16.42648696899414,
+            4.324254035949707
+          ],
+          "distance": 14.062710434080893
+        },
+        {
+          "name": "R10_GALLERY_GROUND_WALL",
+          "point": [
+            15.572110176086426,
+            -16.345735549926758,
+            4.347049236297607
+          ],
+          "distance": 14.184861631044637
+        },
+        {
+          "name": "R28_E_FLAT_CEILING",
+          "point": [
+            15.583600044250488,
+            -16.335283279418945,
+            4.349999904632568
+          ],
+          "distance": 14.200672101515675
+        },
+        {
+          "name": "R73_E_CONTINUOUS_GALLERY_WALL",
+          "point": [
+            15.597442626953125,
+            -16.322690963745117,
+            4.353554725646973
+          ],
+          "distance": 14.21972039233521
+        },
+        {
+          "name": "R73_E_CONTINUOUS_GALLERY_WALL",
+          "point": [
+            15.720602989196777,
+            -16.21065902709961,
+            4.3851799964904785
+          ],
+          "distance": 14.389189028258706
+        },
+        {
+          "name": "R28_E_FLAT_CEILING",
+          "point": [
+            16.16775894165039,
+            -15.803905487060547,
+            4.5
+          ],
+          "distance": 15.004478660178068
+        },
+        {
+          "name": "P05_FLOOR_LP1_E0",
+          "point": [
+            16.787261962890625,
+            -15.240377426147461,
+            4.659074783325195
+          ],
+          "distance": 15.856918159694663
+        },
+        {
+          "name": "P05_FLOOR_LP1_E0",
+          "point": [
+            16.947097778320312,
+            -15.094983100891113,
+            4.700117588043213
+          ],
+          "distance": 16.07685287974129
+        },
+        {
+          "name": "R23_E_1_JAMB_B",
+          "point": [
+            17.569223403930664,
+            -14.529070854187012,
+            4.859865188598633
+          ],
+          "distance": 16.932900089193318
+        },
+        {
+          "name": "R23_E_1_JAMB_B",
+          "point": [
+            17.833480834960938,
+            -14.288689613342285,
+            4.92772102355957
+          ],
+          "distance": 17.2965199228177
+        },
+        {
+          "name": "R23_E_5_WALL",
+          "point": [
+            35.21894836425781,
+            1.5258874893188477,
+            9.391912460327148
+          ],
+          "distance": 41.218986088305826
+        },
+        {
+          "name": "R27_CONTINUOUS_HEAD",
+          "point": [
+            35.34181594848633,
+            1.6376550197601318,
+            9.423462867736816
+          ],
+          "distance": 41.38805278016048
+        }
+      ]
+    }
+  ],
+  "objects": [
+    {
+      "name": "R10_GALLERY_GROUND_WALL",
+      "vertices": [
+        [
+          20.362346649169922,
+          -21.497270584106445,
+          0.0
+        ],
+        [
+          15.549047470092773,
+          -16.320932388305664,
+          0.0
+        ],
+        [
+          15.549047470092773,
+          -16.320932388305664,
+          4.859074592590332
+        ],
+        [
+          20.362346649169922,
+          -21.497270584106445,
+          4.859074592590332
+        ],
+        [
+          20.27446746826172,
+          -21.5789852142334,
+          0.0
+        ],
+        [
+          15.461169242858887,
+          -16.402647018432617,
+          0.0
+        ],
+        [
+          15.461169242858887,
+          -16.402647018432617,
+          4.859074592590332
+        ],
+        [
+          20.27446746826172,
+          -21.5789852142334,
+          4.859074592590332
+        ]
+      ],
+      "properties": {
+        "element_id": "R10_GALLERY_GROUND_WALL",
+        "element_type": "preserved_ground_wall_surface_below_upper_landing",
+        "zone_id": "EAST_SPIRAL",
+        "level_id": "L00_LP1",
+        "source_ids": "041,042,043,044,102,103,PDF2016",
+        "confidence_xy": "C official102 center and locally registered PDF circle",
+        "confidence_z": "D inherited floor levels",
+        "confidence_detail": "D 540-degree/34-riser candidate and detail dimensions",
+        "parameter_ids": "east_spiral.json",
+        "status": "conditional_east_spiral_candidate",
+        "assumption_note": "Distinct 041-044 spiral. Local PDF-to-official translation recorded; no whole-plan warp. Turn, risers and end angle unverified.",
+        "export_group": "R10_CANDIDATE",
+        "collision_role": "review_only",
+        "envelope_closure_revision": "R44",
+        "display_thickness_candidate_m": "0.12",
+        "closure_note": "Existing source face fixed; back surface unmeasured finish envelope, not concrete/structure specification."
+      }
+    },
+    {
+      "name": "R31_STUDIO_WALL_0",
+      "vertices": [
+        [
+          28.039705276489258,
+          15.313211441040039,
+          4.859074592590332
+        ],
+        [
+          23.480417251586914,
+          20.216379165649414,
+          4.859074592590332
+        ],
+        [
+          23.056432723999023,
+          20.231786727905273,
+          4.859074592590332
+        ],
+        [
+          28.024341583251953,
+          14.889179229736328,
+          4.859074592590332
+        ],
+        [
+          28.039705276489258,
+          15.313211441040039,
+          7.559074878692627
+        ],
+        [
+          23.480417251586914,
+          20.216379165649414,
+          7.559074878692627
+        ],
+        [
+          23.056432723999023,
+          20.231786727905273,
+          7.559074878692627
+        ],
+        [
+          28.024341583251953,
+          14.889179229736328,
+          7.559074878692627
+        ]
+      ],
+      "properties": {
+        "element_id": "R31_STUDIO_WALL_0",
+        "element_type": "studio_wall_envelope_candidate",
+        "level_id": "LP1",
+        "zone_id": "UPPER_STUDIO",
+        "source_ids": "103,PDF2016,015,016",
+        "confidence_xy": "C diagram topology; thickness conditional",
+        "confidence_z": "D candidate",
+        "confidence_detail": "D unmeasured",
+        "status": "representative_source_studio",
+        "assumption_note": "Studio ceiling inherited from reading-room candidate; interior photo not located.",
+        "wall_junction_revision": "R74 shared back-face miter; source-facing edge and openings unchanged"
+      }
+    },
+    {
+      "name": "P07_GH_EAST_PORTAL_JAMB_S",
+      "vertices": [
+        [
+          17.139827728271484,
+          3.9379711151123047,
+          0.0
+        ],
+        [
+          17.255584716796875,
+          4.075812816619873,
+          0.0
+        ],
+        [
+          16.96458625793457,
+          4.320188522338867,
+          0.0
+        ],
+        [
+          16.84882926940918,
+          4.182346343994141,
+          0.0
+        ],
+        [
+          17.139827728271484,
+          3.9379711151123047,
+          9.71857738494873
+        ],
+        [
+          17.255584716796875,
+          4.075812816619873,
+          9.71857738494873
+        ],
+        [
+          16.96458625793457,
+          4.320188522338867,
+          9.71857738494873
+        ],
+        [
+          16.84882926940918,
+          4.182346343994141,
+          9.71857738494873
+        ]
+      ],
+      "properties": {
+        "element_id": "P07_GH_EAST_PORTAL_JAMB_S",
+        "zone_id": "GH_EAST_PORTAL",
+        "level_id": "MULTI",
+        "opening_id": "GH-EAST-L00-PORTAL",
+        "element_type": "portal_stone_envelope",
+        "source_ids": "021,026,032,102,103,PDF2016",
+        "status": "conditional_visible_opening",
+        "confidence_xy": "C plan and revised roof endpoints",
+        "confidence_z": "D photo proportions",
+        "confidence_detail": "D unmeasured envelope",
+        "parameter_ids": "grand_hall_portal.json",
+        "assumption_note": "Open portal supported by 026/032; dimensions and structural substrate unverified.",
+        "mesh_reuse_revision": "R41",
+        "mesh_reuse_max_vertex_delta_m": "1.966049969490843e-06"
+      }
+    },
+    {
+      "name": "R45_STAIR_RECESS_CONTINUOUS",
+      "vertices": [],
+      "properties": {
+        "source_ids": "023,024,021,102,103,101",
+        "confidence_detail": "D candidate dimensions, photographed form",
+        "parameter_ids": "stair_stone_grip.json",
+        "assumption_note": "Recess shape observed in024; profile and full extent unmeasured",
+        "element_id": "R45_STAIR_RECESS_CONTINUOUS",
+        "front_chain_preserved_m": "2.132480599880018e-06",
+        "surface_appearance_revision": "R46",
+        "surface_appearance_limits": "Joint module, colour and grain are procedural candidates; no displacement",
+        "R98_note": "Upper extension beyond canonical y555.5 clipped above LP1 floor; source103 bridge remains a passage. Ground wall and stair treads preserved. Boundary follows visitor-plan topology, not survey precision."
+      }
+    },
+    {
+      "name": "R04_RECESS_JAMB_FOOT",
+      "vertices": [
+        [
+          17.110084533691406,
+          4.198000431060791,
+          0.0
+        ],
+        [
+          16.018787384033203,
+          4.237659931182861,
+          0.0
+        ],
+        [
+          16.025325775146484,
+          4.417541027069092,
+          0.0
+        ],
+        [
+          17.23724365234375,
+          4.373498439788818,
+          0.0
+        ],
+        [
+          17.110084533691406,
+          4.198000431060791,
+          8.259075164794922
+        ],
+        [
+          16.018787384033203,
+          4.237659931182861,
+          8.259075164794922
+        ],
+        [
+          16.025325775146484,
+          4.417541027069092,
+          8.259075164794922
+        ],
+        [
+          17.23724365234375,
+          4.373498439788818,
+          8.259075164794922
+        ]
+      ],
+      "properties": {
+        "element_id": "R04_RECESS_JAMB_FOOT",
+        "element_type": "recess_jamb_envelope",
+        "zone_id": "GH_UP",
+        "level_id": "MULTI",
+        "source_ids": "021,022,023,024,025,026,101,102,103,PDF2016_page5",
+        "source_date": "see source manifest",
+        "permanent_or_temporary": "candidate_permanent",
+        "confidence_xy": "C lower trace / D upper extension",
+        "confidence_z": "D conditional section level",
+        "confidence_detail": "D geometric hypothesis",
+        "confidence_material": "D neutral photo-family material",
+        "parameter_ids": "upper_stair_flight.json;stair_glass_return.json",
+        "assumption_note": "Complete-flight candidate. Riser count, upper tangent extension and opening dimensions are not measured. No structural or survey acceptance.",
+        "status": "conditional_complete_flight_candidate",
+        "visibility_group": "GH_UP",
+        "export_group": "R04_CANDIDATE",
+        "collision_role": "review_only",
+        "surface_appearance_revision": "R46",
+        "surface_appearance_limits": "Joint module, colour and grain are procedural candidates; no displacement"
+      }
+    },
+    {
+      "name": "R23_E_1_JAMB_B",
+      "vertices": [
+        [
+          18.63443374633789,
+          -14.31836223602295,
+          4.859074592590332
+        ],
+        [
+          16.606801986694336,
+          -14.243245124816895,
+          4.859074592590332
+        ],
+        [
+          16.34880256652832,
+          -14.483858108520508,
+          4.859074592590332
+        ],
+        [
+          18.625179290771484,
+          -14.568190574645996,
+          4.859074592590332
+        ],
+        [
+          18.63443374633789,
+          -14.31836223602295,
+          13.72311782836914
+        ],
+        [
+          16.606801986694336,
+          -14.243245124816895,
+          13.72311782836914
+        ],
+        [
+          16.34880256652832,
+          -14.483858108520508,
+          13.72311782836914
+        ],
+        [
+          18.625179290771484,
+          -14.568190574645996,
+          13.72311782836914
+        ]
+      ],
+      "properties": {
+        "element_id": "R23_E_1_JAMB_B",
+        "element_type": "upper_gallery_finish_wall_candidate",
+        "zone_id": "UPPER_GALLERIES",
+        "level_id": "LP1",
+        "source_ids": "103,PDF2016,UG02,UG03,UC01,UC02",
+        "confidence_xy": "C source polygon/gaps; D projection/jamb detail",
+        "confidence_z": "D section and architect description",
+        "confidence_detail": "D unmeasured",
+        "status": "conditional_upper_gallery_room",
+        "assumption_note": "Door gaps from PDF; heads and wall thickness candidates. Existing five-bay roof remains provisional.",
+        "wall_junction_revision": "R71 shared back-face miter; source-facing edge and openings unchanged"
+      }
+    },
+    {
+      "name": "R73_E_CONTINUOUS_GALLERY_WALL",
+      "vertices": [
+        [
+          15.549047470092773,
+          -16.320932388305664,
+          4.349999904632568
+        ],
+        [
+          15.668968200683594,
+          -16.32529067993164,
+          4.349999904632568
+        ],
+        [
+          16.606801986694336,
+          -14.243245124816895,
+          4.349999904632568
+        ],
+        [
+          17.1653995513916,
+          2.844233989715576,
+          4.349999904632568
+        ],
+        [
+          16.918933868408203,
+          2.9564340114593506,
+          4.349999904632568
+        ],
+        [
+          15.549047470092773,
+          -16.320932388305664,
+          13.923118591308594
+        ],
+        [
+          15.668968200683594,
+          -16.32529067993164,
+          13.923118591308594
+        ],
+        [
+          16.606801986694336,
+          -14.243245124816895,
+          13.923118591308594
+        ],
+        [
+          17.1653995513916,
+          2.844233989715576,
+          13.923118591308594
+        ],
+        [
+          16.918933868408203,
+          2.9564340114593506,
+          13.923118591308594
+        ],
+        [
+          16.240955352783203,
+          2.7181410789489746,
+          13.923118591308594
+        ],
+        [
+          16.21946144104004,
+          2.1267178058624268,
+          4.349999904632568
+        ],
+        [
+          16.91511344909668,
+          2.9550914764404297,
+          4.349999904632568
+        ],
+        [
+          16.240955352783203,
+          2.7181410789489746,
+          9.71857738494873
+        ],
+        [
+          16.91511344909668,
+          2.9550914764404297,
+          9.71857738494873
+        ],
+        [
+          16.21946144104004,
+          2.1267178058624268,
+          9.71857738494873
+        ]
+      ],
+      "properties": {
+        "element_id": "R73_E_CONTINUOUS_GALLERY_WALL",
+        "element_type": "continuous_gallery_wall_envelope_candidate",
+        "source_ids": "102,103,PDF2016,026,032,034,041,116",
+        "level_id": "MULTI",
+        "zone_id": "GALLERY_E",
+        "status": "conditional_inner_outer_source_envelope",
+        "assumption_note": "R73 joins existing room-side and hall-side boundaries; variable core width is model-derived, not surveyed structural thickness. No portal is inferred or closed."
+      }
+    },
+    {
+      "name": "R23_E_4_WALL",
+      "vertices": [
+        [
+          28.405460357666016,
+          13.295981407165527,
+          4.859074592590332
+        ],
+        [
+          35.63845443725586,
+          13.075139045715332,
+          4.859074592590332
+        ],
+        [
+          35.89741897583008,
+          13.31734848022461,
+          4.859074592590332
+        ],
+        [
+          28.31043243408203,
+          13.548999786376953,
+          4.859074592590332
+        ],
+        [
+          28.405460357666016,
+          13.295981407165527,
+          13.72311782836914
+        ],
+        [
+          35.63845443725586,
+          13.075139045715332,
+          13.72311782836914
+        ],
+        [
+          35.89741897583008,
+          13.31734848022461,
+          13.72311782836914
+        ],
+        [
+          28.31043243408203,
+          13.548999786376953,
+          13.72311782836914
+        ]
+      ],
+      "properties": {
+        "element_id": "R23_E_4_WALL",
+        "element_type": "upper_gallery_finish_wall_candidate",
+        "zone_id": "UPPER_GALLERIES",
+        "level_id": "LP1",
+        "source_ids": "103,PDF2016,UG02,UG03,UC01,UC02",
+        "confidence_xy": "C source polygon/gaps; D projection/jamb detail",
+        "confidence_z": "D section and architect description",
+        "confidence_detail": "D unmeasured",
+        "status": "conditional_upper_gallery_room",
+        "assumption_note": "Door gaps from PDF; heads and wall thickness candidates. Existing five-bay roof remains provisional.",
+        "wall_junction_revision": "R71 shared back-face miter; source-facing edge and openings unchanged"
+      }
+    },
+    {
+      "name": "R27_CONTINUOUS_HEAD",
+      "vertices": [
+        [
+          36.6656379699707,
+          -6.337399005889893,
+          3.450000047683716
+        ],
+        [
+          37.76784133911133,
+          25.37943458557129,
+          3.450000047683716
+        ],
+        [
+          36.16880798339844,
+          25.43500328063965,
+          3.450000047683716
+        ],
+        [
+          35.06660461425781,
+          -6.281830310821533,
+          3.450000047683716
+        ],
+        [
+          36.6656379699707,
+          -6.337399005889893,
+          13.923118591308594
+        ],
+        [
+          37.76784133911133,
+          25.37943458557129,
+          13.923118591308594
+        ],
+        [
+          36.16880798339844,
+          25.43500328063965,
+          13.923118591308594
+        ],
+        [
+          35.06660461425781,
+          -6.281830310821533,
+          13.923118591308594
+        ]
+      ],
+      "properties": {
+        "element_id": "R27_CONTINUOUS_HEAD",
+        "element_type": "stone_wall_envelope",
+        "zone_id": "EAST_GALLERY_FRONT",
+        "level_id": "L00",
+        "source_ids": "001,002,003,004,005,100,116,102,101,061,062",
+        "confidence_xy": "D conditional photo camera on C plan plane",
+        "confidence_z": "D photo-derived",
+        "confidence_detail": "D visual envelope",
+        "status": "conditional_not_surveyed",
+        "parameter_ids": "gallery_reveals_revised.json",
+        "assumption_note": "Head revised from conditional photo 116 rays. Deeper glazing trial rejected because it intersects PDF cloak wall; original XY depth preserved pending A01. Floor/room identity conflict A01 remains open; not metric survey.",
+        "surface_appearance_status": "Stone sides/sill and linear mineral underside candidate; not measured or material identification",
+        "surface_source_ids": "004,061,062,116",
+        "revision": "R36",
+        "head_z_candidate": "3.45",
+        "source_audit": "reports/R36_facade_camera_audit.json",
+        "surface_appearance_revision": "R53"
+      }
+    },
+    {
+      "name": "R112_E_GALLERY_APPROACH_SOFFIT",
+      "vertices": [
+        [
+          13.522010803222656,
+          -18.2058048248291,
+          4.349999904632568
+        ],
+        [
+          14.088326454162598,
+          -2.6226415634155273,
+          4.349999904632568
+        ],
+        [
+          18.73954963684082,
+          1.7023711204528809,
+          4.349999904632568
+        ],
+        [
+          19.259254455566406,
+          0.8852751851081848,
+          4.349999904632568
+        ],
+        [
+          17.588905334472656,
+          -0.6679240465164185,
+          4.349999904632568
+        ],
+        [
+          16.844751358032227,
+          -10.736174583435059,
+          4.349999904632568
+        ],
+        [
+          18.195711135864258,
+          -12.189029693603516,
+          4.349999904632568
+        ],
+        [
+          15.498796463012695,
+          -14.696799278259277,
+          4.349999904632568
+        ],
+        [
+          15.549047470092773,
+          -16.320932388305664,
+          4.349999904632568
+        ],
+        [
+          13.522010803222656,
+          -18.2058048248291,
+          4.5
+        ],
+        [
+          14.088326454162598,
+          -2.6226415634155273,
+          4.5
+        ],
+        [
+          18.73954963684082,
+          1.7023711204528809,
+          4.5
+        ],
+        [
+          19.259254455566406,
+          0.8852751851081848,
+          4.5
+        ],
+        [
+          17.588905334472656,
+          -0.6679240465164185,
+          4.5
+        ],
+        [
+          16.844751358032227,
+          -10.736174583435059,
+          4.5
+        ],
+        [
+          18.195711135864258,
+          -12.189029693603516,
+          4.5
+        ],
+        [
+          15.498796463012695,
+          -14.696799278259277,
+          4.5
+        ],
+        [
+          15.549047470092773,
+          -16.320932388305664,
+          4.5
+        ]
+      ],
+      "properties": {
+        "element_id": "R112_E_GALLERY_APPROACH_SOFFIT",
+        "element_type": "ground_passage_cover_candidate",
+        "zone_id": "EAST_GALLERY_APPROACH",
+        "level_id": "L00",
+        "source_ids": "102,PDF2016,026,033,034,user_SS5",
+        "status": "conditional_cover_pending_visual_acceptance",
+        "assumption_note": "Cover across existing approach footprint, joins candidate 4.35m gallery ceiling. Ground route remains open. Exact soffit elevation and concealed structure unmeasured; not a new upper accessible floor."
+      }
+    },
+    {
+      "name": "R28_E_FLAT_CEILING",
+      "vertices": [
+        [
+          35.08348083496094,
+          -4.643763065338135,
+          4.349999904632568
+        ],
+        [
+          18.782567977905273,
+          -19.80142593383789,
+          4.349999904632568
+        ],
+        [
+          15.553145408630371,
+          -16.328426361083984,
+          4.349999904632568
+        ],
+        [
+          15.49601936340332,
+          -14.66003131866455,
+          4.349999904632568
+        ],
+        [
+          18.157495498657227,
+          -12.485343933105469,
+          4.349999904632568
+        ],
+        [
+          16.835424423217773,
+          -11.063556671142578,
+          4.349999904632568
+        ],
+        [
+          17.703073501586914,
+          -0.6088311672210693,
+          4.349999904632568
+        ],
+        [
+          19.411436080932617,
+          0.9797157049179077,
+          4.349999904632568
+        ],
+        [
+          18.739484786987305,
+          1.7023470401763916,
+          4.349999904632568
+        ],
+        [
+          19.2923526763916,
+          2.6433892250061035,
+          4.349999904632568
+        ],
+        [
+          17.79314613342285,
+          4.212736129760742,
+          4.349999904632568
+        ],
+        [
+          29.29144859313965,
+          14.904614448547363,
+          4.349999904632568
+        ],
+        [
+          35.53488540649414,
+          8.190274238586426,
+          4.349999904632568
+        ],
+        [
+          35.356300354003906,
+          3.2672269344329834,
+          4.349999904632568
+        ],
+        [
+          33.44767761230469,
+          1.4924663305282593,
+          4.349999904632568
+        ],
+        [
+          35.22276306152344,
+          -0.41650131344795227,
+          4.349999904632568
+        ],
+        [
+          35.08348083496094,
+          -4.643763065338135,
+          4.5
+        ],
+        [
+          18.782567977905273,
+          -19.80142593383789,
+          4.5
+        ],
+        [
+          15.553145408630371,
+          -16.328426361083984,
+          4.5
+        ],
+        [
+          15.49601936340332,
+          -14.66003131866455,
+          4.5
+        ],
+        [
+          18.157495498657227,
+          -12.485343933105469,
+          4.5
+        ],
+        [
+          16.835424423217773,
+          -11.063556671142578,
+          4.5
+        ],
+        [
+          17.703073501586914,
+          -0.6088311672210693,
+          4.5
+        ],
+        [
+          19.411436080932617,
+          0.9797157049179077,
+          4.5
+        ],
+        [
+          18.739484786987305,
+          1.7023470401763916,
+          4.5
+        ],
+        [
+          19.2923526763916,
+          2.6433892250061035,
+          4.5
+        ],
+        [
+          17.79314613342285,
+          4.212736129760742,
+          4.5
+        ],
+        [
+          29.29144859313965,
+          14.904614448547363,
+          4.5
+        ],
+        [
+          35.53488540649414,
+          8.190274238586426,
+          4.5
+        ],
+        [
+          35.356300354003906,
+          3.2672269344329834,
+          4.5
+        ],
+        [
+          33.44767761230469,
+          1.4924663305282593,
+          4.5
+        ],
+        [
+          35.22276306152344,
+          -0.41650131344795227,
+          4.5
+        ]
+      ],
+      "properties": {
+        "element_id": "R28_E_FLAT_CEILING",
+        "element_type": "gallery_suspended_ceiling_candidate",
+        "level_id": "L00",
+        "zone_id": "GROUND_GALLERIES",
+        "source_ids": "102,101,056,061,062,PDF2016",
+        "confidence_xy": "C diagram topology; thickness conditional",
+        "confidence_z": "D candidate",
+        "confidence_detail": "D unmeasured",
+        "status": "conditional_source_ground_access",
+        "assumption_note": "Flat ceiling 4.35m is a candidate; exhibition partitions omitted.",
+        "R100_note": "Ceiling inner edge locally meets the corresponding source-traced gallery entry wall. Existing0/4.35m entry opening heights preserved. Small inconsistent traces reconciled; not surveyed."
+      }
+    },
+    {
+      "name": "R23_E_5_WALL",
+      "vertices": [
+        [
+          35.63845443725586,
+          13.075139045715332,
+          4.859074592590332
+        ],
+        [
+          34.97398376464844,
+          -5.218112945556641,
+          4.859074592590332
+        ],
+        [
+          35.21998596191406,
+          -5.332724094390869,
+          4.859074592590332
+        ],
+        [
+          35.89741897583008,
+          13.31734848022461,
+          4.859074592590332
+        ],
+        [
+          35.63845443725586,
+          13.075139045715332,
+          13.72311782836914
+        ],
+        [
+          34.97398376464844,
+          -5.218112945556641,
+          13.72311782836914
+        ],
+        [
+          35.21998596191406,
+          -5.332724094390869,
+          13.72311782836914
+        ],
+        [
+          35.89741897583008,
+          13.31734848022461,
+          13.72311782836914
+        ]
+      ],
+      "properties": {
+        "element_id": "R23_E_5_WALL",
+        "element_type": "upper_gallery_finish_wall_candidate",
+        "zone_id": "UPPER_GALLERIES",
+        "level_id": "LP1",
+        "source_ids": "103,PDF2016,UG02,UG03,UC01,UC02",
+        "confidence_xy": "C source polygon/gaps; D projection/jamb detail",
+        "confidence_z": "D section and architect description",
+        "confidence_detail": "D unmeasured",
+        "status": "conditional_upper_gallery_room",
+        "assumption_note": "Door gaps from PDF; heads and wall thickness candidates. Existing five-bay roof remains provisional.",
+        "wall_junction_revision": "R71 shared back-face miter; source-facing edge and openings unchanged"
+      }
+    },
+    {
+      "name": "P05_FLOOR_LP1_E0",
+      "vertices": [
+        [
+          34.97398376464844,
+          -5.218112945556641,
+          4.659074783325195
+        ],
+        [
+          24.661975860595703,
+          -14.54166316986084,
+          4.659074783325195
+        ],
+        [
+          16.606801986694336,
+          -14.243245124816895,
+          4.659074783325195
+        ],
+        [
+          17.1653995513916,
+          2.844233512878418,
+          4.659074783325195
+        ],
+        [
+          28.405460357666016,
+          13.295981407165527,
+          4.659074783325195
+        ],
+        [
+          35.63845443725586,
+          13.075139045715332,
+          4.659074783325195
+        ],
+        [
+          34.97398376464844,
+          -5.218112945556641,
+          4.859074592590332
+        ],
+        [
+          24.661975860595703,
+          -14.54166316986084,
+          4.859074592590332
+        ],
+        [
+          16.606801986694336,
+          -14.243245124816895,
+          4.859074592590332
+        ],
+        [
+          17.1653995513916,
+          2.844233512878418,
+          4.859074592590332
+        ],
+        [
+          28.405460357666016,
+          13.295981407165527,
+          4.859074592590332
+        ],
+        [
+          35.63845443725586,
+          13.075139045715332,
+          4.859074592590332
+        ]
+      ],
+      "properties": {
+        "element_id": "P05_FLOOR_LP1_E0",
+        "element_type": "schematic_envelope",
+        "zone_id": "E",
+        "level_id": "LP1",
+        "source_ids": "PDF2016",
+        "source_date": "see manifests",
+        "confidence_xy": "C registered source diagram",
+        "confidence_z": "D conditional section proportion",
+        "confidence_detail": "U not detailed",
+        "confidence_material": "U diagram colors only",
+        "status": "schematic_not_as_built",
+        "permanent_or_temporary": "candidate_permanent",
+        "parameter_ids": "vertical_study.json",
+        "assumption_note": "0.20m floor display thickness only; floor boundary and source role remain schematic.",
+        "export_group": "P05_STUDY_ONLY",
+        "collision_role": "none",
+        "surface_appearance_status": "R32 procedural candidate; module and colour unmeasured",
+        "surface_source_ids": "003,004,017,056,061,062,069,070,077"
+      }
+    },
+    {
+      "name": "R95_E_GROUND_GALLERY_ENTRY_WALL",
+      "vertices": [
+        [
+          18.739484786987305,
+          1.7023470401763916,
+          4.349999904632568
+        ],
+        [
+          16.749038696289062,
+          -0.14850172400474548,
+          4.349999904632568
+        ],
+        [
+          15.817996978759766,
+          -11.42956829071045,
+          4.349999904632568
+        ],
+        [
+          17.429332733154297,
+          -13.162437438964844,
+          4.349999904632568
+        ],
+        [
+          18.157495498657227,
+          -12.485343933105469,
+          4.349999904632568
+        ],
+        [
+          16.835424423217773,
+          -11.063556671142578,
+          4.349999904632568
+        ],
+        [
+          17.703073501586914,
+          -0.6088311672210693,
+          4.349999904632568
+        ],
+        [
+          19.411436080932617,
+          0.9797157049179077,
+          4.349999904632568
+        ],
+        [
+          18.739484786987305,
+          1.7023470401763916,
+          0.0
+        ],
+        [
+          16.749038696289062,
+          -0.14850172400474548,
+          0.0
+        ],
+        [
+          15.817996978759766,
+          -11.42956829071045,
+          0.0
+        ],
+        [
+          17.429332733154297,
+          -13.162437438964844,
+          0.0
+        ],
+        [
+          18.157495498657227,
+          -12.485343933105469,
+          0.0
+        ],
+        [
+          16.835424423217773,
+          -11.063556671142578,
+          0.0
+        ],
+        [
+          17.703073501586914,
+          -0.6088311672210693,
+          0.0
+        ],
+        [
+          19.411436080932617,
+          0.9797157049179077,
+          0.0
+        ]
+      ],
+      "properties": {
+        "element_id": "R95_E_GROUND_GALLERY_ENTRY_WALL",
+        "element_type": "ground_gallery_entry_wall",
+        "source_ids": "102,103,034,043,087,119,PDF2016,user_SS1_SS5",
+        "status": "conditional_source_boundary_repair",
+        "issue_id": "SS5",
+        "assumption_note": "Source boundary / user correction; inherited heights and profile dimensions remain unmeasured candidates."
+      }
+    }
+  ]
+}

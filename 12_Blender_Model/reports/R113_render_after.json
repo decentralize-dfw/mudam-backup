@@ -1,0 +1,35 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R113_GALERI_SERVIS_UZUN_DUVARLARI_v001.blend",
+  "images": [
+    {
+      "image": "R113_after_west_service.png",
+      "eye_canonical": [
+        745,
+        565,
+        1.65
+      ],
+      "target_canonical": [
+        688,
+        602,
+        2
+      ],
+      "lens": 23
+    },
+    {
+      "image": "R113_after_east_service.png",
+      "eye_canonical": [
+        410,
+        558,
+        1.65
+      ],
+      "target_canonical": [
+        463,
+        596,
+        2
+      ],
+      "lens": 23
+    }
+  ],
+  "all_active_surroundings": true,
+  "metric_camera_match": false
+}
