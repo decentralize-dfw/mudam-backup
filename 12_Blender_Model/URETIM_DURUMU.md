@@ -501,3 +501,7 @@ R113: Zemin katın iki galerisinde servis alanına bakan eksik uzun duvarlar kay
 Bütün bina ve kullanıcının tüm ekran görüntüleri henüz kabul edilmedi. Duvar kalınlığı mevcut kaynak konturları arasında uzlaştırılmış adaydır; kotlar ölçülmüş değildir. Öncelik kalan büyük kabuk sorunlarıdır.
 
 [Önce/sonra ve kapsam](reports/R113_KONTROL_RAPORU.md).
+
+
+2026-10-09 21:12:57 UTC — 98d844ca5706db1ae397ae959ac7fbceca518a04 origin/main normal push doğrulandı. Pano, renderlar, raporlar ve üretim betikleri gönderildi; Blender ve arşiv GLB dosyaları yerelde; tek güncel sıkıştırılmış web GLB gönderildi.
+
