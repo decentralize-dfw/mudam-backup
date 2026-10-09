@@ -1240,5 +1240,40 @@
     "image": "R98_after_front_cut.png",
     "description": "+1 kat köprüsüne taşan merdiven arka duvarı, üst başlık ve lento üç parçada kaynak plan sınırına çekildi. Aynı 118 yerel karşılaştırmada önceki 116 taşma yeni sahnede sıfır. Diğer işaretli bölgeler henüz tamamlanmadı.",
     "limits": "Asansör çevresi, Studio/servis odası dışındaki kat ilişkileri ve son iki galeri duvar–döşeme işareti açık. Bu paket yalnız köprüye taşan duvarı düzeltir."
+  },
+  {
+    "id": "R99",
+    "checks": [
+      "R99_verification.json",
+      "R99_global_audit.json",
+      "R99_inherited_verification.json"
+    ],
+    "tasks": [
+      "P07",
+      "P16"
+    ],
+    "report": "R99_KONTROL_RAPORU.md",
+    "title": "Batı galeri giriş sınırı / R99",
+    "image": "R99_after_west_entry_cut.png",
+    "description": "Batı galerinin planda çizili kısa giriş duvarı eklendi. Kuzey geçidini kapatan, üst odadan yanlış devam ettirilmiş R87 alt duvarı kaldırıldı. 15 duvar noktası ve iki girişte altı geçiş kontrolü geçti.",
+    "limits": "Merdiven yanı ikinci galeri işareti ile +1 Studio/servis/asansör çevresinin bütün kat ilişkileri açık; tüm ekran görüntüleri çözüldü denmedi."
+  },
+  {
+    "id": "R100",
+    "checks": [
+      "R100_verification.json",
+      "R100_global_audit.json",
+      "R100_inherited_verification.json",
+      "R100_R99_regression.json"
+    ],
+    "tasks": [
+      "P07",
+      "P16"
+    ],
+    "report": "R100_KONTROL_RAPORU.md",
+    "title": "Galeri tavan–duvar temasları / R100",
+    "image": "R100_after_east_ceiling_corner.png",
+    "description": "İki galeri tavanının dokuz plan noktası mevcut giriş duvarlarının iç yüzüne bağlandı. En büyük yerel uyumsuzluk 0,337 m idi; kontrol edilen 18 alt/üst köşe artık aynı sınırda. Batı galeri duvarı ve iki girişin geçiş kontrolleri yeniden geçti.",
+    "limits": "Bu yerel çizim uzlaştırması ölçülmüş imalat geometrisi değildir. Gerçek giriş boşlukları ve fotoğraf 026’daki yüksek merdiven yanı geçidi korunur. +1 Studio/servis/asansör çevresinin bütün kat ilişkileri ve diğer kabuk birleşimleri açık."
   }
 ]

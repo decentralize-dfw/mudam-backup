@@ -1,0 +1,234 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R100_GALERI_TAVAN_DUVAR_TEMASI_v001.blend",
+  "results": {
+    "before": [
+      {
+        "object": "R28_E_FLAT_CEILING",
+        "index": 4,
+        "error_m": 0.3035044674536267,
+        "passed": false
+      },
+      {
+        "object": "R28_E_FLAT_CEILING",
+        "index": 20,
+        "error_m": 0.3035044674536267,
+        "passed": false
+      },
+      {
+        "object": "R28_E_FLAT_CEILING",
+        "index": 5,
+        "error_m": 0.3373684158739443,
+        "passed": false
+      },
+      {
+        "object": "R28_E_FLAT_CEILING",
+        "index": 21,
+        "error_m": 0.3373684158739443,
+        "passed": false
+      },
+      {
+        "object": "R28_E_FLAT_CEILING",
+        "index": 6,
+        "error_m": 0.16473059281698674,
+        "passed": false
+      },
+      {
+        "object": "R28_E_FLAT_CEILING",
+        "index": 22,
+        "error_m": 0.16473059281698674,
+        "passed": false
+      },
+      {
+        "object": "R28_E_FLAT_CEILING",
+        "index": 7,
+        "error_m": 0.20317776961973844,
+        "passed": false
+      },
+      {
+        "object": "R28_E_FLAT_CEILING",
+        "index": 23,
+        "error_m": 0.20317776961973844,
+        "passed": false
+      },
+      {
+        "object": "R28_E_FLAT_CEILING",
+        "index": 8,
+        "error_m": 0.3197454137027689,
+        "passed": false
+      },
+      {
+        "object": "R28_E_FLAT_CEILING",
+        "index": 24,
+        "error_m": 0.3197454137027689,
+        "passed": false
+      },
+      {
+        "object": "R28_W_FLAT_CEILING",
+        "index": 3,
+        "error_m": 0.18363229367284914,
+        "passed": false
+      },
+      {
+        "object": "R28_W_FLAT_CEILING",
+        "index": 16,
+        "error_m": 0.18363229367284914,
+        "passed": false
+      },
+      {
+        "object": "R28_W_FLAT_CEILING",
+        "index": 4,
+        "error_m": 0.07461495428544755,
+        "passed": false
+      },
+      {
+        "object": "R28_W_FLAT_CEILING",
+        "index": 17,
+        "error_m": 0.07461495428544755,
+        "passed": false
+      },
+      {
+        "object": "R28_W_FLAT_CEILING",
+        "index": 5,
+        "error_m": 0.1629033322717869,
+        "passed": false
+      },
+      {
+        "object": "R28_W_FLAT_CEILING",
+        "index": 18,
+        "error_m": 0.1629033322717869,
+        "passed": false
+      },
+      {
+        "object": "R28_W_FLAT_CEILING",
+        "index": 6,
+        "error_m": 0.21721739763936046,
+        "passed": false
+      },
+      {
+        "object": "R28_W_FLAT_CEILING",
+        "index": 19,
+        "error_m": 0.21721739763936046,
+        "passed": false
+      }
+    ],
+    "after": [
+      {
+        "object": "R28_E_FLAT_CEILING",
+        "index": 4,
+        "error_m": 0.0,
+        "passed": true
+      },
+      {
+        "object": "R28_E_FLAT_CEILING",
+        "index": 20,
+        "error_m": 0.0,
+        "passed": true
+      },
+      {
+        "object": "R28_E_FLAT_CEILING",
+        "index": 5,
+        "error_m": 0.0,
+        "passed": true
+      },
+      {
+        "object": "R28_E_FLAT_CEILING",
+        "index": 21,
+        "error_m": 0.0,
+        "passed": true
+      },
+      {
+        "object": "R28_E_FLAT_CEILING",
+        "index": 6,
+        "error_m": 0.0,
+        "passed": true
+      },
+      {
+        "object": "R28_E_FLAT_CEILING",
+        "index": 22,
+        "error_m": 0.0,
+        "passed": true
+      },
+      {
+        "object": "R28_E_FLAT_CEILING",
+        "index": 7,
+        "error_m": 0.0,
+        "passed": true
+      },
+      {
+        "object": "R28_E_FLAT_CEILING",
+        "index": 23,
+        "error_m": 0.0,
+        "passed": true
+      },
+      {
+        "object": "R28_E_FLAT_CEILING",
+        "index": 8,
+        "error_m": 0.0,
+        "passed": true
+      },
+      {
+        "object": "R28_E_FLAT_CEILING",
+        "index": 24,
+        "error_m": 0.0,
+        "passed": true
+      },
+      {
+        "object": "R28_W_FLAT_CEILING",
+        "index": 3,
+        "error_m": 0.0,
+        "passed": true
+      },
+      {
+        "object": "R28_W_FLAT_CEILING",
+        "index": 16,
+        "error_m": 0.0,
+        "passed": true
+      },
+      {
+        "object": "R28_W_FLAT_CEILING",
+        "index": 4,
+        "error_m": 0.0,
+        "passed": true
+      },
+      {
+        "object": "R28_W_FLAT_CEILING",
+        "index": 17,
+        "error_m": 0.0,
+        "passed": true
+      },
+      {
+        "object": "R28_W_FLAT_CEILING",
+        "index": 5,
+        "error_m": 0.0,
+        "passed": true
+      },
+      {
+        "object": "R28_W_FLAT_CEILING",
+        "index": 18,
+        "error_m": 0.0,
+        "passed": true
+      },
+      {
+        "object": "R28_W_FLAT_CEILING",
+        "index": 6,
+        "error_m": 0.0,
+        "passed": true
+      },
+      {
+        "object": "R28_W_FLAT_CEILING",
+        "index": 19,
+        "error_m": 0.0,
+        "passed": true
+      }
+    ]
+  },
+  "before_max_m": 0.3373684158739443,
+  "after_max_m": 0.0,
+  "failures": [],
+  "construction_acceptance": false,
+  "limits": [
+    "Only existing ceiling-edge coordinates reconciled to existing source wall faces; ceiling height4.35m and thickness150mm stay conditional.",
+    "True passage ends and tall stair-side opening remain open. No invented wall closes the circulation route.",
+    "Upper-floor room relationships and roof/frame detailing not accepted by this local repair."
+  ]
+}

@@ -1,0 +1,164 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R100_GALERI_TAVAN_DUVAR_TEMASI_v001.blend",
+  "base_scene": "MUDAM_R99_BATI_GALERI_GIRIS_DUVARI_v002.blend",
+  "closed_objects": [
+    "R28_E_FLAT_CEILING",
+    "R28_W_FLAT_CEILING"
+  ],
+  "changed_inherited_objects": [
+    "R28_E_FLAT_CEILING",
+    "R28_W_FLAT_CEILING"
+  ],
+  "records": [
+    {
+      "object": "R28_E_FLAT_CEILING",
+      "old_xy": [
+        359.542571462676,
+        387.12774984152713
+      ],
+      "new_xy": [
+        357.6924327475189,
+        385.3659032920061
+      ],
+      "delta_m": 0.3035044674536267,
+      "vertices": [
+        4,
+        20
+      ]
+    },
+    {
+      "object": "R28_E_FLAT_CEILING",
+      "old_xy": [
+        376.262612704373,
+        387.12774984207385
+      ],
+      "new_xy": [
+        374.0353247373161,
+        385.3659032920061
+      ],
+      "delta_m": 0.3373684158739443,
+      "vertices": [
+        5,
+        21
+      ]
+    },
+    {
+      "object": "R28_E_FLAT_CEILING",
+      "old_xy": [
+        434.12571314832263,
+        449.4001295543451
+      ],
+      "new_xy": [
+        433.5098480464935,
+        450.6425178109482
+      ],
+      "delta_m": 0.16473059281698674,
+      "vertices": [
+        6,
+        22
+      ]
+    },
+    {
+      "object": "R28_E_FLAT_CEILING",
+      "old_xy": [
+        434.12571315108164,
+        468.6839136843691
+      ],
+      "new_xy": [
+        433.5098480464935,
+        470.27947060154656
+      ],
+      "delta_m": 0.20317776961973844,
+      "vertices": [
+        7,
+        23
+      ]
+    },
+    {
+      "object": "R28_E_FLAT_CEILING",
+      "old_xy": [
+        444.44814524046245,
+        470.8427721939444
+      ],
+      "new_xy": [
+        441.81621512868134,
+        470.27947060154656
+      ],
+      "delta_m": 0.3197454137027689,
+      "vertices": [
+        8,
+        24
+      ]
+    },
+    {
+      "object": "R28_W_FLAT_CEILING",
+      "old_xy": [
+        797.8858025771215,
+        385.024361580644
+      ],
+      "new_xy": [
+        799.305744074394,
+        384.413462151573
+      ],
+      "delta_m": 0.18363229367284914,
+      "vertices": [
+        3,
+        16
+      ]
+    },
+    {
+      "object": "R28_W_FLAT_CEILING",
+      "old_xy": [
+        785.0709637916083,
+        385.02436157786815
+      ],
+      "new_xy": [
+        785.2169062637171,
+        384.413462151573
+      ],
+      "delta_m": 0.07461495428544755,
+      "vertices": [
+        4,
+        17
+      ]
+    },
+    {
+      "object": "R28_W_FLAT_CEILING",
+      "old_xy": [
+        717.2782042209906,
+        451.96387244306436
+      ],
+      "new_xy": [
+        718.507633269421,
+        452.5712595659581
+      ],
+      "delta_m": 0.1629033322717869,
+      "vertices": [
+        5,
+        18
+      ]
+    },
+    {
+      "object": "R28_W_FLAT_CEILING",
+      "old_xy": [
+        717.2782042225464,
+        468.6839136853783
+      ],
+      "new_xy": [
+        718.507633269421,
+        470.037363551734
+      ],
+      "delta_m": 0.21721739763936046,
+      "vertices": [
+        6,
+        19
+      ]
+    }
+  ],
+  "construction_acceptance": false,
+  "limits": [
+    "Only existing ceiling-edge coordinates reconciled to existing source wall faces; ceiling height4.35m and thickness150mm stay conditional.",
+    "True passage ends and tall stair-side opening remain open. No invented wall closes the circulation route.",
+    "Upper-floor room relationships and roof/frame detailing not accepted by this local repair."
+  ]
+}

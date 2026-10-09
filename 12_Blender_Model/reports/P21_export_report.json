@@ -1,9 +1,10 @@
 {
-  "source_scene": "12_Blender_Model/scenes/MUDAM_R98_UST_KOPRU_DUVAR_SINIRI_v001.blend",
-  "file": "12_Blender_Model/exports/MUDAM_R98_UST_KOPRU_DUVAR_SINIRI_v001_preview.glb",
+  "source_scene": "12_Blender_Model/scenes/MUDAM_R100_GALERI_TAVAN_DUVAR_TEMASI_v001.blend",
+  "file": "12_Blender_Model/exports/MUDAM_R100_GALERI_TAVAN_DUVAR_TEMASI_v001_preview.glb",
   "selected_mesh_count": 8370,
   "selected_names": [
     "R37_GH_EAST_PORTAL_METAL_HEAD",
+    "R99_W_GROUND_GALLERY_ENTRY_WALL",
     "P05_FRONT_0",
     "P05_FRONT_9",
     "P05_FRONT_10",
@@ -7720,7 +7721,6 @@
     "R87_UPPER_FLOOR",
     "R87_OPAQUE_ROOF",
     "R87_RETURN_INNER_RETAINED",
-    "R87_VOLUME_FRONT_LOW",
     "R87_VOLUME_FRONT_HIGH",
     "R87_VOLUME_FRONT_END",
     "R87_ACCESS_HEAD",

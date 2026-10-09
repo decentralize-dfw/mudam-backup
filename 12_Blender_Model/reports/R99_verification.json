@@ -1,0 +1,227 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R99_BATI_GALERI_GIRIS_DUVARI_v002.blend",
+  "results": {
+    "before": [
+      {
+        "id": "source_wall",
+        "passed": false,
+        "hit": null
+      },
+      {
+        "id": "source_wall",
+        "passed": false,
+        "hit": null
+      },
+      {
+        "id": "source_wall",
+        "passed": false,
+        "hit": null
+      },
+      {
+        "id": "source_wall",
+        "passed": false,
+        "hit": null
+      },
+      {
+        "id": "source_wall",
+        "passed": false,
+        "hit": null
+      },
+      {
+        "id": "source_wall",
+        "passed": false,
+        "hit": null
+      },
+      {
+        "id": "source_wall",
+        "passed": false,
+        "hit": null
+      },
+      {
+        "id": "source_wall",
+        "passed": false,
+        "hit": null
+      },
+      {
+        "id": "source_wall",
+        "passed": false,
+        "hit": null
+      },
+      {
+        "id": "source_wall",
+        "passed": false,
+        "hit": null
+      },
+      {
+        "id": "source_wall",
+        "passed": false,
+        "hit": null
+      },
+      {
+        "id": "source_wall",
+        "passed": false,
+        "hit": null
+      },
+      {
+        "id": "source_wall",
+        "passed": false,
+        "hit": null
+      },
+      {
+        "id": "source_wall",
+        "passed": false,
+        "hit": null
+      },
+      {
+        "id": "source_wall",
+        "passed": false,
+        "hit": null
+      },
+      {
+        "id": "W_N",
+        "passed": false,
+        "hit": "R87_VOLUME_FRONT_LOW"
+      },
+      {
+        "id": "W_N",
+        "passed": false,
+        "hit": "R87_VOLUME_FRONT_LOW"
+      },
+      {
+        "id": "W_N",
+        "passed": false,
+        "hit": "R87_VOLUME_FRONT_LOW"
+      },
+      {
+        "id": "W_S",
+        "passed": true,
+        "hit": null
+      },
+      {
+        "id": "W_S",
+        "passed": true,
+        "hit": null
+      },
+      {
+        "id": "W_S",
+        "passed": true,
+        "hit": null
+      }
+    ],
+    "after": [
+      {
+        "id": "source_wall",
+        "passed": true,
+        "hit": "R99_W_GROUND_GALLERY_ENTRY_WALL"
+      },
+      {
+        "id": "source_wall",
+        "passed": true,
+        "hit": "R99_W_GROUND_GALLERY_ENTRY_WALL"
+      },
+      {
+        "id": "source_wall",
+        "passed": true,
+        "hit": "R99_W_GROUND_GALLERY_ENTRY_WALL"
+      },
+      {
+        "id": "source_wall",
+        "passed": true,
+        "hit": "R99_W_GROUND_GALLERY_ENTRY_WALL"
+      },
+      {
+        "id": "source_wall",
+        "passed": true,
+        "hit": "R99_W_GROUND_GALLERY_ENTRY_WALL"
+      },
+      {
+        "id": "source_wall",
+        "passed": true,
+        "hit": "R99_W_GROUND_GALLERY_ENTRY_WALL"
+      },
+      {
+        "id": "source_wall",
+        "passed": true,
+        "hit": "R99_W_GROUND_GALLERY_ENTRY_WALL"
+      },
+      {
+        "id": "source_wall",
+        "passed": true,
+        "hit": "R99_W_GROUND_GALLERY_ENTRY_WALL"
+      },
+      {
+        "id": "source_wall",
+        "passed": true,
+        "hit": "R99_W_GROUND_GALLERY_ENTRY_WALL"
+      },
+      {
+        "id": "source_wall",
+        "passed": true,
+        "hit": "R99_W_GROUND_GALLERY_ENTRY_WALL"
+      },
+      {
+        "id": "source_wall",
+        "passed": true,
+        "hit": "R99_W_GROUND_GALLERY_ENTRY_WALL"
+      },
+      {
+        "id": "source_wall",
+        "passed": true,
+        "hit": "R99_W_GROUND_GALLERY_ENTRY_WALL"
+      },
+      {
+        "id": "source_wall",
+        "passed": true,
+        "hit": "R99_W_GROUND_GALLERY_ENTRY_WALL"
+      },
+      {
+        "id": "source_wall",
+        "passed": true,
+        "hit": "R99_W_GROUND_GALLERY_ENTRY_WALL"
+      },
+      {
+        "id": "source_wall",
+        "passed": true,
+        "hit": "R99_W_GROUND_GALLERY_ENTRY_WALL"
+      },
+      {
+        "id": "W_N",
+        "passed": true,
+        "hit": null
+      },
+      {
+        "id": "W_N",
+        "passed": true,
+        "hit": null
+      },
+      {
+        "id": "W_N",
+        "passed": true,
+        "hit": null
+      },
+      {
+        "id": "W_S",
+        "passed": true,
+        "hit": null
+      },
+      {
+        "id": "W_S",
+        "passed": true,
+        "hit": null
+      },
+      {
+        "id": "W_S",
+        "passed": true,
+        "hit": null
+      }
+    ]
+  },
+  "before_missing_wall": 15,
+  "failures": [],
+  "construction_acceptance": false,
+  "limits": [
+    "Height and thickness inherited candidates; wall footprint appears in102 and2016, not a new invented room.",
+    "North and south source entry routes remain open; long cafe diagonal remains open at ground floor.",
+    "Second marked stair-side gallery junction and remaining upper-floor regions still require source/camera matched review."
+  ]
+}

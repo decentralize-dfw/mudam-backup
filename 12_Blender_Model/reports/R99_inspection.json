@@ -1,0 +1,306 @@
+[
+  {
+    "name": "P05_GALLERY_HALL_EAST0",
+    "hidden": true,
+    "lo": [
+      289.5000073503016,
+      347.29999793461496,
+      0.0
+    ],
+    "hi": [
+      349.0000048547713,
+      347.30000254995895,
+      13.923118591308594
+    ],
+    "status": "schematic_not_as_built",
+    "note": "Room boundary approximation from source diagram; opening locations not finalized."
+  },
+  {
+    "name": "P05_GALLERY_HALL_EAST1",
+    "hidden": true,
+    "lo": [
+      349.0000048547713,
+      347.30000254995895,
+      0.0
+    ],
+    "hi": [
+      462.40000220723596,
+      460.69999635357715,
+      13.923118591308594
+    ],
+    "status": "schematic_not_as_built",
+    "note": "Room boundary approximation from source diagram; opening locations not finalized."
+  },
+  {
+    "name": "P05_GALLERY_HALL_EAST2",
+    "hidden": true,
+    "lo": [
+      462.3999983808435,
+      460.69999635357715,
+      0.0
+    ],
+    "hi": [
+      462.40000220723596,
+      555.0000015009145,
+      13.923118591308594
+    ],
+    "status": "superseded_locally_trimmed_to_plan_passage",
+    "note": "Room boundary approximation from source diagram; opening locations not finalized."
+  },
+  {
+    "name": "P05_GALLERY_HALL_WEST0",
+    "hidden": false,
+    "lo": [
+      685.8999983328746,
+      468.7000054161374,
+      0.0
+    ],
+    "hi": [
+      686.9101386778317,
+      555.000004844508,
+      13.923118591308594
+    ],
+    "status": "schematic_not_as_built",
+    "note": "Room boundary approximation from source diagram; opening locations not finalized."
+  },
+  {
+    "name": "P05_GALLERY_HALL_WEST1",
+    "hidden": true,
+    "lo": [
+      685.9000050985777,
+      355.9999891622732,
+      0.0
+    ],
+    "hi": [
+      797.9999996283773,
+      468.7000054161374,
+      13.923118591308594
+    ],
+    "status": "schematic_not_as_built",
+    "note": "Room boundary approximation from source diagram; opening locations not finalized."
+  },
+  {
+    "name": "P05_GALLERY_HALL_WEST2",
+    "hidden": false,
+    "lo": [
+      797.9999921328273,
+      355.99998501897755,
+      0.0
+    ],
+    "hi": [
+      862.5000020330609,
+      357.01013884420684,
+      4.659074783325195
+    ],
+    "status": "schematic_not_as_built",
+    "note": "Room boundary approximation from source diagram; opening locations not finalized."
+  },
+  {
+    "name": "P05_GALLERY_HALL_WEST3",
+    "hidden": true,
+    "lo": [
+      862.5000020330609,
+      356.00000868157787,
+      0.0
+    ],
+    "hi": [
+      862.5000022398531,
+      415.99999281406605,
+      13.923118591308594
+    ],
+    "status": "schematic_not_as_built",
+    "note": "Room boundary approximation from source diagram; opening locations not finalized."
+  },
+  {
+    "name": "P05_GALLERY_HALL_EAST2_R02_AFTER",
+    "hidden": false,
+    "lo": [
+      461.389874097127,
+      475.22282538987776,
+      0.0
+    ],
+    "hi": [
+      462.4000032234643,
+      555.0000015009145,
+      13.923118591308594
+    ],
+    "status": "schematic_wall_locally_trimmed",
+    "note": "Old wall remains schematic. Only its intrusion into the plan/photo-supported passage corridor was removed."
+  },
+  {
+    "name": "P05_GALLERY_HALL_EAST2_R02_ABOVE",
+    "hidden": false,
+    "lo": [
+      461.38987645379115,
+      460.69999295797675,
+      9.71857738494873
+    ],
+    "hi": [
+      462.4000032234643,
+      475.2228287854784,
+      13.923118591308594
+    ],
+    "status": "schematic_wall_locally_trimmed",
+    "note": "Old wall remains schematic. Only its intrusion into the plan/photo-supported passage corridor was removed."
+  },
+  {
+    "name": "R04_RECESS_HEAD",
+    "hidden": false,
+    "lo": [
+      466.54059906232385,
+      468.04054638616293,
+      8.259075164794922
+    ],
+    "hi": [
+      559.9999989352604,
+      555.5000046261348,
+      8.509075164794922
+    ],
+    "status": "conditional_complete_flight_candidate",
+    "note": "Complete-flight candidate. Riser count, upper tangent extension and opening dimensions are not measured. No structural or survey acceptance."
+  },
+  {
+    "name": "R28_E_CIRCULATION_FLOOR",
+    "hidden": false,
+    "lo": [
+      349.0000027764852,
+      323.99999958244985,
+      -0.20000000298023224
+    ],
+    "hi": [
+      462.00000238573983,
+      479.0000040073567,
+      0.0
+    ],
+    "status": "conditional_source_ground_access",
+    "note": "Flat ceiling 4.35m is a candidate; exhibition partitions omitted."
+  },
+  {
+    "name": "R28_E_FLAT_CEILING",
+    "hidden": false,
+    "lo": [
+      309.00953979014497,
+      347.28230150702205,
+      4.349999904632568
+    ],
+    "hi": [
+      462.7160287365462,
+      611.0042297941485,
+      4.5
+    ],
+    "status": "conditional_source_ground_access",
+    "note": "Flat ceiling 4.35m is a candidate; exhibition partitions omitted."
+  },
+  {
+    "name": "R28_E_HIGH_GALLERY_WALL",
+    "hidden": true,
+    "lo": [
+      348.2857351717492,
+      347.30000254995895,
+      4.349999904632568
+    ],
+    "hi": [
+      462.40000220723596,
+      461.41426509070976,
+      13.923118591308594
+    ],
+    "status": "conditional_high_wall_above_open_ground_entrances",
+    "note": "Inherited high wall retained above candidate gallery ceiling; ground passage is open per plan."
+  },
+  {
+    "name": "R28_W_CIRCULATION_FLOOR",
+    "hidden": false,
+    "lo": [
+      687.7999951003263,
+      321.59999706613513,
+      -0.20000000298023224
+    ],
+    "hi": [
+      842.2999965778043,
+      468.99999951740057,
+      0.0
+    ],
+    "status": "conditional_source_ground_access",
+    "note": "Flat ceiling 4.35m is a candidate; exhibition partitions omitted."
+  },
+  {
+    "name": "R28_W_FLAT_CEILING",
+    "hidden": false,
+    "lo": [
+      688.588696523185,
+      355.8943740288549,
+      4.349999904632568
+    ],
+    "hi": [
+      842.1205423557395,
+      619.1796730594272,
+      4.5
+    ],
+    "status": "conditional_source_ground_access",
+    "note": "Flat ceiling 4.35m is a candidate; exhibition partitions omitted."
+  },
+  {
+    "name": "R28_W_HIGH_GALLERY_WALL",
+    "hidden": true,
+    "lo": [
+      685.9000050985777,
+      355.9999891622732,
+      4.349999904632568
+    ],
+    "hi": [
+      798.7161743233279,
+      469.4123661186205,
+      13.923118591308594
+    ],
+    "status": "conditional_high_wall_above_open_ground_entrances",
+    "note": "Inherited high wall retained above candidate gallery ceiling; ground passage is open per plan."
+  },
+  {
+    "name": "R83_CAFE_BACK_WALL",
+    "hidden": false,
+    "lo": [
+      687.9999981031102,
+      271.0000097674287,
+      4.349999904632568
+    ],
+    "hi": [
+      850.7856810840577,
+      433.7856799654711,
+      13.923118591308594
+    ],
+    "status": "conditional_source_enclosure",
+    "note": "Closes omitted envelope faces at existing boundaries; no roof geometry or measured dimensions inferred."
+  },
+  {
+    "name": "R83_CAFE_ENTRY_HEAD",
+    "hidden": false,
+    "lo": [
+      849.0000013123394,
+      257.4999955612373,
+      3.200000047683716
+    ],
+    "hi": [
+      864.2856807991842,
+      272.78568356267147,
+      13.923118591308594
+    ],
+    "status": "conditional_source_enclosure",
+    "note": "Closes omitted envelope faces at existing boundaries; no roof geometry or measured dimensions inferred."
+  },
+  {
+    "name": "R95_E_GROUND_GALLERY_ENTRY_WALL",
+    "hidden": false,
+    "lo": [
+      357.6924351948659,
+      376.99594776965876,
+      0.0
+    ],
+    "hi": [
+      441.81621827606523,
+      470.2794739610256,
+      4.349999904632568
+    ],
+    "status": "conditional_source_boundary_repair",
+    "note": "Source boundary / user correction; inherited heights and profile dimensions remain unmeasured candidates."
+  }
+]

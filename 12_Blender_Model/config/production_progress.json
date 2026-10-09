@@ -1,5 +1,5 @@
 {
-  "as_of_revision": "R98",
+  "as_of_revision": "R100",
   "basis": "Beş eşit iş adımı: tamam 20, kısmi 10, bekleyen 0 puan. Yaklaşık kapsam ilerlemesidir; ölçü doğruluğu veya harcanan süre oranı değildir. Yeni paket kabulünde ilgili adımlar yeniden değerlendirilir.",
   "tasks": {
     "P00": {
@@ -555,8 +555,8 @@
       ]
     }
   },
-  "last_reviewed_checkpoint": "R98",
-  "last_review_note": "+1 kat köprüsüne taşan merdiven arka duvarı, üst başlık ve lento üç parçada kaynak plan sınırına çekildi. Aynı 118 yerel karşılaştırmada önceki 116 taşma yeni sahnede sıfır. Diğer işaretli bölgeler henüz tamamlanmadı.",
+  "last_reviewed_checkpoint": "R100",
+  "last_review_note": "İki galeri tavanının dokuz plan noktası mevcut giriş duvarlarının iç yüzüne bağlandı. En büyük yerel uyumsuzluk 0,337 m idi; kontrol edilen 18 alt/üst köşe artık aynı sınırda. Batı galeri duvarı ve iki girişin geçiş kontrolleri yeniden geçti.",
   "execution_order": [
     "Bina kabuğu: tüm duvarlar, zeminler, çatılar ve birleşimler",
     "Merdivenler ve sahanlıklar",
@@ -567,7 +567,7 @@
     "Malzeme ve yüzey detayları",
     "Çevre düzenlemesi"
   ],
-  "current_priority": "Kullanıcının +1 kat işaretleri ve iki yeni galeri duvar–döşeme boşluğu. Bu bölgeler açık; kapı/malzeme detayına geçilmedi.",
-  "review_note": "+1 kat köprüsüne taşan merdiven arka duvarı, üst başlık ve lento üç parçada kaynak plan sınırına çekildi. Aynı 118 yerel karşılaştırmada önceki 116 taşma yeni sahnede sıfır. Diğer işaretli bölgeler henüz tamamlanmadı.",
-  "last_reviewed_revision": "R98"
+  "current_priority": "Bu yerel çizim uzlaştırması ölçülmüş imalat geometrisi değildir. Gerçek giriş boşlukları ve fotoğraf 026’daki yüksek merdiven yanı geçidi korunur. +1 Studio/servis/asansör çevresinin bütün kat ilişkileri ve diğer kabuk birleşimleri açık.",
+  "review_note": "İki galeri tavanının dokuz plan noktası mevcut giriş duvarlarının iç yüzüne bağlandı. En büyük yerel uyumsuzluk 0,337 m idi; kontrol edilen 18 alt/üst köşe artık aynı sınırda. Batı galeri duvarı ve iki girişin geçiş kontrolleri yeniden geçti.",
+  "last_reviewed_revision": "R100"
 }

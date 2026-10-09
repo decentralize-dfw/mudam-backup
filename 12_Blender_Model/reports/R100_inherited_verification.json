@@ -1,0 +1,17 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R100_GALERI_TAVAN_DUVAR_TEMASI_v001.blend",
+  "base_scene": "12_Blender_Model/scenes/MUDAM_R99_BATI_GALERI_GIRIS_DUVARI_v002.blend",
+  "inherited_objects_checked": 9227,
+  "changed_inherited_objects": [
+    "R28_E_FLAT_CEILING",
+    "R28_W_FLAT_CEILING"
+  ],
+  "allowed_changes": [
+    "R28_E_FLAT_CEILING",
+    "R28_W_FLAT_CEILING"
+  ],
+  "allowed_but_unchanged": [],
+  "new_objects": [],
+  "failures": [],
+  "construction_acceptance": false
+}

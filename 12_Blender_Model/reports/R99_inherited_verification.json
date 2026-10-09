@@ -1,0 +1,17 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R99_BATI_GALERI_GIRIS_DUVARI_v002.blend",
+  "base_scene": "12_Blender_Model/scenes/MUDAM_R98_UST_KOPRU_DUVAR_SINIRI_v001.blend",
+  "inherited_objects_checked": 9226,
+  "changed_inherited_objects": [
+    "R87_VOLUME_FRONT_LOW"
+  ],
+  "allowed_changes": [
+    "R87_VOLUME_FRONT_LOW"
+  ],
+  "allowed_but_unchanged": [],
+  "new_objects": [
+    "R99_W_GROUND_GALLERY_ENTRY_WALL"
+  ],
+  "failures": [],
+  "construction_acceptance": false
+}
