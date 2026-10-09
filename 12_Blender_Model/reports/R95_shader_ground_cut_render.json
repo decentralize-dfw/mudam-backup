@@ -1,0 +1,37 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R95_BES_ISARET_KABUK_DUZELTME_v001.blend",
+  "images": [
+    {
+      "image": "R95_shader_west_ground_cut.png",
+      "eye_canonical": [
+        610,
+        220,
+        24
+      ],
+      "target_canonical": [
+        750,
+        420,
+        0
+      ],
+      "lens": 40,
+      "section_z": 4.2
+    },
+    {
+      "image": "R95_shader_east_ground_cut.png",
+      "eye_canonical": [
+        490,
+        180,
+        27
+      ],
+      "target_canonical": [
+        395,
+        420,
+        0
+      ],
+      "lens": 40,
+      "section_z": 4.2
+    }
+  ],
+  "all_active_surroundings": true,
+  "metric_camera_match": false
+}

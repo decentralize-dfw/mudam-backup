@@ -1,0 +1,1452 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R95_BES_ISARET_KABUK_DUZELTME_v001.blend",
+  "failures": [],
+  "solids": [
+    {
+      "name": "R95_EAST_SEAM_0_A",
+      "nonmanifold": 0,
+      "volume": 0.0027397842765786856
+    },
+    {
+      "name": "R95_EAST_SEAM_0_A_EDGE_0",
+      "nonmanifold": 0,
+      "volume": 0.0026665557528725466
+    },
+    {
+      "name": "R95_EAST_SEAM_0_A_EDGE_1",
+      "nonmanifold": 0,
+      "volume": 0.024864344472485273
+    },
+    {
+      "name": "R95_EAST_SEAM_0_A_EDGE_2",
+      "nonmanifold": 0,
+      "volume": 0.02719760381738926
+    },
+    {
+      "name": "R95_EAST_SEAM_0_B",
+      "nonmanifold": 0,
+      "volume": 0.004465619347558708
+    },
+    {
+      "name": "R95_EAST_SEAM_0_B_EDGE_1",
+      "nonmanifold": 0,
+      "volume": 0.0045181257472361154
+    },
+    {
+      "name": "R95_EAST_SEAM_0_B_EDGE_2",
+      "nonmanifold": 0,
+      "volume": 0.023239056063482286
+    },
+    {
+      "name": "R95_EAST_SEAM_1_A",
+      "nonmanifold": 0,
+      "volume": 0.004480077862473786
+    },
+    {
+      "name": "R95_EAST_SEAM_1_A_EDGE_1",
+      "nonmanifold": 0,
+      "volume": 0.02486440832960566
+    },
+    {
+      "name": "R95_EAST_SEAM_1_A_EDGE_2",
+      "nonmanifold": 0,
+      "volume": 0.028891062494574217
+    },
+    {
+      "name": "R95_EAST_SEAM_1_B",
+      "nonmanifold": 0,
+      "volume": 0.006254585935655026
+    },
+    {
+      "name": "R95_EAST_SEAM_1_B_EDGE_1",
+      "nonmanifold": 0,
+      "volume": 0.006381093840692556
+    },
+    {
+      "name": "R95_EAST_SEAM_1_B_EDGE_2",
+      "nonmanifold": 0,
+      "volume": 0.023239162741368315
+    },
+    {
+      "name": "R95_EAST_SEAM_2_A",
+      "nonmanifold": 0,
+      "volume": 0.006264832193752623
+    },
+    {
+      "name": "R95_EAST_SEAM_2_A_EDGE_1",
+      "nonmanifold": 0,
+      "volume": 0.024864194063373146
+    },
+    {
+      "name": "R95_EAST_SEAM_2_A_EDGE_2",
+      "nonmanifold": 0,
+      "volume": 0.03060509231686437
+    },
+    {
+      "name": "R95_EAST_SEAM_2_B",
+      "nonmanifold": 0,
+      "volume": 0.00805688994454666
+    },
+    {
+      "name": "R95_EAST_SEAM_2_B_EDGE_1",
+      "nonmanifold": 0,
+      "volume": 0.008247714041233884
+    },
+    {
+      "name": "R95_EAST_SEAM_2_B_EDGE_2",
+      "nonmanifold": 0,
+      "volume": 0.02323900972261428
+    },
+    {
+      "name": "R95_EAST_SEAM_3_A",
+      "nonmanifold": 0,
+      "volume": 0.00806482045893829
+    },
+    {
+      "name": "R95_EAST_SEAM_3_A_EDGE_1",
+      "nonmanifold": 0,
+      "volume": 0.02486438694010342
+    },
+    {
+      "name": "R95_EAST_SEAM_3_A_EDGE_2",
+      "nonmanifold": 0,
+      "volume": 0.03233719292120618
+    },
+    {
+      "name": "R95_EAST_SEAM_3_B",
+      "nonmanifold": 0,
+      "volume": 0.00986492633573529
+    },
+    {
+      "name": "R95_EAST_SEAM_3_B_EDGE_1",
+      "nonmanifold": 0,
+      "volume": 0.010116025862335416
+    },
+    {
+      "name": "R95_EAST_SEAM_3_B_EDGE_2",
+      "nonmanifold": 0,
+      "volume": 0.023239155208036266
+    },
+    {
+      "name": "R95_EAST_SEAM_4_A",
+      "nonmanifold": 0,
+      "volume": 0.00987147856517745
+    },
+    {
+      "name": "R95_EAST_SEAM_4_A_EDGE_1",
+      "nonmanifold": 0,
+      "volume": 0.0248643720578964
+    },
+    {
+      "name": "R95_EAST_SEAM_4_A_EDGE_2",
+      "nonmanifold": 0,
+      "volume": 0.03408315428705803
+    },
+    {
+      "name": "R95_EAST_SEAM_4_B",
+      "nonmanifold": 0,
+      "volume": 0.011675986089044653
+    },
+    {
+      "name": "R95_EAST_SEAM_4_B_EDGE_1",
+      "nonmanifold": 0,
+      "volume": 0.011985038191943166
+    },
+    {
+      "name": "R95_EAST_SEAM_4_B_EDGE_2",
+      "nonmanifold": 0,
+      "volume": 0.02323911538169106
+    },
+    {
+      "name": "R95_EAST_SEAM_5_A",
+      "nonmanifold": 0,
+      "volume": 0.011681728580291192
+    },
+    {
+      "name": "R95_EAST_SEAM_5_A_EDGE_1",
+      "nonmanifold": 0,
+      "volume": 0.024864409642358087
+    },
+    {
+      "name": "R95_EAST_SEAM_5_A_EDGE_2",
+      "nonmanifold": 0,
+      "volume": 0.03584226106857791
+    },
+    {
+      "name": "R95_EAST_SEAM_5_B",
+      "nonmanifold": 0,
+      "volume": 0.013489454135069294
+    },
+    {
+      "name": "R95_EAST_SEAM_5_B_EDGE_1",
+      "nonmanifold": 0,
+      "volume": 0.013854656482971975
+    },
+    {
+      "name": "R95_EAST_SEAM_5_B_EDGE_2",
+      "nonmanifold": 0,
+      "volume": 0.023238743508240567
+    },
+    {
+      "name": "R95_EAST_RETURN_0_0",
+      "nonmanifold": 0,
+      "volume": 0.03066877097045663
+    },
+    {
+      "name": "R95_EAST_RETURN_0_0_EDGE_0",
+      "nonmanifold": 0,
+      "volume": 0.012764813161232014
+    },
+    {
+      "name": "R95_EAST_RETURN_0_0_EDGE_1",
+      "nonmanifold": 0,
+      "volume": 0.014715841302962926
+    },
+    {
+      "name": "R95_EAST_RETURN_0_0_EDGE_2",
+      "nonmanifold": 0,
+      "volume": 0.012764813161231348
+    },
+    {
+      "name": "R95_EAST_RETURN_0_0_EDGE_3",
+      "nonmanifold": 0,
+      "volume": 0.014715857955822045
+    },
+    {
+      "name": "R95_EAST_RETURN_0_1",
+      "nonmanifold": 0,
+      "volume": 0.03066879183934483
+    },
+    {
+      "name": "R95_EAST_RETURN_0_1_EDGE_1",
+      "nonmanifold": 0,
+      "volume": 0.014715851316510917
+    },
+    {
+      "name": "R95_EAST_RETURN_0_1_EDGE_2",
+      "nonmanifold": 0,
+      "volume": 0.012764813161230681
+    },
+    {
+      "name": "R95_EAST_RETURN_0_1_EDGE_3",
+      "nonmanifold": 0,
+      "volume": 0.014715864831365888
+    },
+    {
+      "name": "R95_EAST_RETURN_0_2",
+      "nonmanifold": 0,
+      "volume": 0.030668791839344303
+    },
+    {
+      "name": "R95_EAST_RETURN_0_2_EDGE_1",
+      "nonmanifold": 0,
+      "volume": 0.014715851316509841
+    },
+    {
+      "name": "R95_EAST_RETURN_0_2_EDGE_2",
+      "nonmanifold": 0,
+      "volume": 0.012764813161231382
+    },
+    {
+      "name": "R95_EAST_RETURN_0_2_EDGE_3",
+      "nonmanifold": 0,
+      "volume": 0.014715864831366068
+    },
+    {
+      "name": "R95_EAST_RETURN_1_0",
+      "nonmanifold": 0,
+      "volume": 0.030668790075034258
+    },
+    {
+      "name": "R95_EAST_RETURN_1_0_EDGE_0",
+      "nonmanifold": 0,
+      "volume": 0.012764813249747285
+    },
+    {
+      "name": "R95_EAST_RETURN_1_0_EDGE_1",
+      "nonmanifold": 0,
+      "volume": 0.014715841302960851
+    },
+    {
+      "name": "R95_EAST_RETURN_1_0_EDGE_2",
+      "nonmanifold": 0,
+      "volume": 0.012764813249747167
+    },
+    {
+      "name": "R95_EAST_RETURN_1_1",
+      "nonmanifold": 0,
+      "volume": 0.03066881094393223
+    },
+    {
+      "name": "R95_EAST_RETURN_1_1_EDGE_1",
+      "nonmanifold": 0,
+      "volume": 0.014715851316513762
+    },
+    {
+      "name": "R95_EAST_RETURN_1_1_EDGE_2",
+      "nonmanifold": 0,
+      "volume": 0.012764813249748465
+    },
+    {
+      "name": "R95_EAST_RETURN_1_2",
+      "nonmanifold": 0,
+      "volume": 0.030668810943932368
+    },
+    {
+      "name": "R95_EAST_RETURN_1_2_EDGE_1",
+      "nonmanifold": 0,
+      "volume": 0.014715851316508953
+    },
+    {
+      "name": "R95_EAST_RETURN_1_2_EDGE_2",
+      "nonmanifold": 0,
+      "volume": 0.012764813249744877
+    },
+    {
+      "name": "R95_EAST_RETURN_2_0",
+      "nonmanifold": 0,
+      "volume": 0.03066815058774694
+    },
+    {
+      "name": "R95_EAST_RETURN_2_0_EDGE_0",
+      "nonmanifold": 0,
+      "volume": 0.01276482011658514
+    },
+    {
+      "name": "R95_EAST_RETURN_2_0_EDGE_1",
+      "nonmanifold": 0,
+      "volume": 0.014715932244522022
+    },
+    {
+      "name": "R95_EAST_RETURN_2_0_EDGE_2",
+      "nonmanifold": 0,
+      "volume": 0.012764820116583898
+    },
+    {
+      "name": "R95_EAST_RETURN_2_1",
+      "nonmanifold": 0,
+      "volume": 0.03066817145621248
+    },
+    {
+      "name": "R95_EAST_RETURN_2_1_EDGE_1",
+      "nonmanifold": 0,
+      "volume": 0.01471594225813111
+    },
+    {
+      "name": "R95_EAST_RETURN_2_1_EDGE_2",
+      "nonmanifold": 0,
+      "volume": 0.01276482011658571
+    },
+    {
+      "name": "R95_EAST_RETURN_2_2",
+      "nonmanifold": 0,
+      "volume": 0.030668171456212465
+    },
+    {
+      "name": "R95_EAST_RETURN_2_2_EDGE_1",
+      "nonmanifold": 0,
+      "volume": 0.014715942258134218
+    },
+    {
+      "name": "R95_EAST_RETURN_2_2_EDGE_2",
+      "nonmanifold": 0,
+      "volume": 0.012764820116583898
+    },
+    {
+      "name": "R95_EAST_CORNER_0",
+      "nonmanifold": 0,
+      "volume": 0.0011987567188197074
+    },
+    {
+      "name": "R95_EAST_CORNER_0_EDGE_0",
+      "nonmanifold": 0,
+      "volume": 0.0004989492226570025
+    },
+    {
+      "name": "R95_EAST_CORNER_0_EDGE_2",
+      "nonmanifold": 0,
+      "volume": 0.0004989492226564057
+    },
+    {
+      "name": "R95_EAST_CORNER_0_EDGE_3",
+      "nonmanifold": 0,
+      "volume": 0.014715766504006189
+    },
+    {
+      "name": "R95_EAST_CORNER_1",
+      "nonmanifold": 0,
+      "volume": 0.0011987575345260987
+    },
+    {
+      "name": "R95_EAST_CORNER_1_EDGE_2",
+      "nonmanifold": 0,
+      "volume": 0.0004989492226564127
+    },
+    {
+      "name": "R95_EAST_CORNER_1_EDGE_3",
+      "nonmanifold": 0,
+      "volume": 0.014715776517505365
+    },
+    {
+      "name": "R95_EAST_CORNER_2",
+      "nonmanifold": 0,
+      "volume": 0.0011987575345260848
+    },
+    {
+      "name": "R95_EAST_CORNER_2_EDGE_2",
+      "nonmanifold": 0,
+      "volume": 0.0004989492226575992
+    },
+    {
+      "name": "R95_EAST_CORNER_2_EDGE_3",
+      "nonmanifold": 0,
+      "volume": 0.014715776517505254
+    },
+    {
+      "name": "R95_EAST_OUTER_END_ABOVE_GLASS",
+      "nonmanifold": 0,
+      "volume": 7.429857045130012
+    },
+    {
+      "name": "R95_E_GROUND_GALLERY_ENTRY_WALL",
+      "nonmanifold": 0,
+      "volume": 66.94158984004144
+    },
+    {
+      "name": "R83_CAFE_BACK_WALL",
+      "nonmanifold": 0,
+      "volume": 77.68209796848296
+    }
+  ],
+  "local_probes": [
+    {
+      "issue": "SS3",
+      "point": [
+        19.88101577758789,
+        -20.979637145996094,
+        9.838577270507812
+      ],
+      "normal": [
+        0.7323207259178162,
+        0.6809598803520203,
+        -0.0
+      ],
+      "expected": "closed",
+      "object": "R95_EAST_OUTER_END_ABOVE_GLASS",
+      "hit": true,
+      "passed": true
+    },
+    {
+      "issue": "SS3",
+      "point": [
+        19.88101577758789,
+        -20.979637145996094,
+        11.82084846496582
+      ],
+      "normal": [
+        0.7323207259178162,
+        0.6809598803520203,
+        -0.0
+      ],
+      "expected": "closed",
+      "object": "R95_EAST_OUTER_END_ABOVE_GLASS",
+      "hit": true,
+      "passed": true
+    },
+    {
+      "issue": "SS3",
+      "point": [
+        19.88101577758789,
+        -20.979637145996094,
+        13.803117752075195
+      ],
+      "normal": [
+        0.7323207259178162,
+        0.6809598803520203,
+        -0.0
+      ],
+      "expected": "closed",
+      "object": "R95_EAST_OUTER_END_ABOVE_GLASS",
+      "hit": true,
+      "passed": true
+    },
+    {
+      "issue": "SS3",
+      "point": [
+        18.91835594177246,
+        -19.944368362426758,
+        9.838577270507812
+      ],
+      "normal": [
+        0.7323207259178162,
+        0.6809598803520203,
+        -0.0
+      ],
+      "expected": "closed",
+      "object": "R95_EAST_OUTER_END_ABOVE_GLASS",
+      "hit": true,
+      "passed": true
+    },
+    {
+      "issue": "SS3",
+      "point": [
+        18.91835594177246,
+        -19.944368362426758,
+        11.82084846496582
+      ],
+      "normal": [
+        0.7323207259178162,
+        0.6809598803520203,
+        -0.0
+      ],
+      "expected": "closed",
+      "object": "R95_EAST_OUTER_END_ABOVE_GLASS",
+      "hit": true,
+      "passed": true
+    },
+    {
+      "issue": "SS3",
+      "point": [
+        18.91835594177246,
+        -19.944368362426758,
+        13.803117752075195
+      ],
+      "normal": [
+        0.7323207259178162,
+        0.6809598803520203,
+        -0.0
+      ],
+      "expected": "closed",
+      "object": "R95_EAST_OUTER_END_ABOVE_GLASS",
+      "hit": true,
+      "passed": true
+    },
+    {
+      "issue": "SS3",
+      "point": [
+        17.95569610595703,
+        -18.909101486206055,
+        9.838577270507812
+      ],
+      "normal": [
+        0.7323207259178162,
+        0.6809598803520203,
+        -0.0
+      ],
+      "expected": "closed",
+      "object": "R95_EAST_OUTER_END_ABOVE_GLASS",
+      "hit": true,
+      "passed": true
+    },
+    {
+      "issue": "SS3",
+      "point": [
+        17.95569610595703,
+        -18.909101486206055,
+        11.82084846496582
+      ],
+      "normal": [
+        0.7323207259178162,
+        0.6809598803520203,
+        -0.0
+      ],
+      "expected": "closed",
+      "object": "R95_EAST_OUTER_END_ABOVE_GLASS",
+      "hit": true,
+      "passed": true
+    },
+    {
+      "issue": "SS3",
+      "point": [
+        17.95569610595703,
+        -18.909101486206055,
+        13.803117752075195
+      ],
+      "normal": [
+        0.7323207259178162,
+        0.6809598803520203,
+        -0.0
+      ],
+      "expected": "closed",
+      "object": "R95_EAST_OUTER_END_ABOVE_GLASS",
+      "hit": true,
+      "passed": true
+    },
+    {
+      "issue": "SS3",
+      "point": [
+        16.9930362701416,
+        -17.87383270263672,
+        9.838577270507812
+      ],
+      "normal": [
+        0.7323207259178162,
+        0.6809598803520203,
+        -0.0
+      ],
+      "expected": "closed",
+      "object": "R95_EAST_OUTER_END_ABOVE_GLASS",
+      "hit": true,
+      "passed": true
+    },
+    {
+      "issue": "SS3",
+      "point": [
+        16.9930362701416,
+        -17.87383270263672,
+        11.82084846496582
+      ],
+      "normal": [
+        0.7323207259178162,
+        0.6809598803520203,
+        -0.0
+      ],
+      "expected": "closed",
+      "object": "R95_EAST_OUTER_END_ABOVE_GLASS",
+      "hit": true,
+      "passed": true
+    },
+    {
+      "issue": "SS3",
+      "point": [
+        16.9930362701416,
+        -17.87383270263672,
+        13.803117752075195
+      ],
+      "normal": [
+        0.7323207259178162,
+        0.6809598803520203,
+        -0.0
+      ],
+      "expected": "closed",
+      "object": "R95_EAST_OUTER_END_ABOVE_GLASS",
+      "hit": true,
+      "passed": true
+    },
+    {
+      "issue": "SS3",
+      "point": [
+        16.030378341674805,
+        -16.838565826416016,
+        9.838577270507812
+      ],
+      "normal": [
+        0.7323207259178162,
+        0.6809598803520203,
+        -0.0
+      ],
+      "expected": "closed",
+      "object": "R95_EAST_OUTER_END_ABOVE_GLASS",
+      "hit": true,
+      "passed": true
+    },
+    {
+      "issue": "SS3",
+      "point": [
+        16.030378341674805,
+        -16.838565826416016,
+        11.82084846496582
+      ],
+      "normal": [
+        0.7323207259178162,
+        0.6809598803520203,
+        -0.0
+      ],
+      "expected": "closed",
+      "object": "R95_EAST_OUTER_END_ABOVE_GLASS",
+      "hit": true,
+      "passed": true
+    },
+    {
+      "issue": "SS3",
+      "point": [
+        16.030378341674805,
+        -16.838565826416016,
+        13.803117752075195
+      ],
+      "normal": [
+        0.7323207259178162,
+        0.6809598803520203,
+        -0.0
+      ],
+      "expected": "closed",
+      "object": "R95_EAST_OUTER_END_ABOVE_GLASS",
+      "hit": true,
+      "passed": true
+    },
+    {
+      "issue": "SS5",
+      "point": [
+        16.60938262939453,
+        -1.8406614065170288,
+        0.30000001192092896
+      ],
+      "normal": [
+        -0.9966115355491638,
+        0.08225169777870178,
+        0.0
+      ],
+      "expected": "closed",
+      "object": "R95_E_GROUND_GALLERY_ENTRY_WALL",
+      "hit": true,
+      "passed": true
+    },
+    {
+      "issue": "SS5",
+      "point": [
+        16.60938262939453,
+        -1.8406614065170288,
+        1.649999976158142
+      ],
+      "normal": [
+        -0.9966115355491638,
+        0.08225169777870178,
+        0.0
+      ],
+      "expected": "closed",
+      "object": "R95_E_GROUND_GALLERY_ENTRY_WALL",
+      "hit": true,
+      "passed": true
+    },
+    {
+      "issue": "SS5",
+      "point": [
+        16.60938262939453,
+        -1.8406614065170288,
+        3.799999952316284
+      ],
+      "normal": [
+        -0.9966115355491638,
+        0.08225169777870178,
+        0.0
+      ],
+      "expected": "closed",
+      "object": "R95_E_GROUND_GALLERY_ENTRY_WALL",
+      "hit": true,
+      "passed": true
+    },
+    {
+      "issue": "SS5",
+      "point": [
+        16.423173904418945,
+        -4.096875190734863,
+        0.30000001192092896
+      ],
+      "normal": [
+        -0.9966115355491638,
+        0.08225169777870178,
+        0.0
+      ],
+      "expected": "closed",
+      "object": "R95_E_GROUND_GALLERY_ENTRY_WALL",
+      "hit": true,
+      "passed": true
+    },
+    {
+      "issue": "SS5",
+      "point": [
+        16.423173904418945,
+        -4.096875190734863,
+        1.649999976158142
+      ],
+      "normal": [
+        -0.9966115355491638,
+        0.08225169777870178,
+        0.0
+      ],
+      "expected": "closed",
+      "object": "R95_E_GROUND_GALLERY_ENTRY_WALL",
+      "hit": true,
+      "passed": true
+    },
+    {
+      "issue": "SS5",
+      "point": [
+        16.423173904418945,
+        -4.096875190734863,
+        3.799999952316284
+      ],
+      "normal": [
+        -0.9966115355491638,
+        0.08225169777870178,
+        0.0
+      ],
+      "expected": "closed",
+      "object": "R95_E_GROUND_GALLERY_ENTRY_WALL",
+      "hit": true,
+      "passed": true
+    },
+    {
+      "issue": "SS5",
+      "point": [
+        16.23696517944336,
+        -6.35308837890625,
+        0.30000001192092896
+      ],
+      "normal": [
+        -0.9966115355491638,
+        0.08225169777870178,
+        0.0
+      ],
+      "expected": "closed",
+      "object": "R95_E_GROUND_GALLERY_ENTRY_WALL",
+      "hit": true,
+      "passed": true
+    },
+    {
+      "issue": "SS5",
+      "point": [
+        16.23696517944336,
+        -6.35308837890625,
+        1.649999976158142
+      ],
+      "normal": [
+        -0.9966115355491638,
+        0.08225169777870178,
+        0.0
+      ],
+      "expected": "closed",
+      "object": "R95_E_GROUND_GALLERY_ENTRY_WALL",
+      "hit": true,
+      "passed": true
+    },
+    {
+      "issue": "SS5",
+      "point": [
+        16.23696517944336,
+        -6.35308837890625,
+        3.799999952316284
+      ],
+      "normal": [
+        -0.9966115355491638,
+        0.08225169777870178,
+        0.0
+      ],
+      "expected": "closed",
+      "object": "R95_E_GROUND_GALLERY_ENTRY_WALL",
+      "hit": true,
+      "passed": true
+    },
+    {
+      "issue": "SS5",
+      "point": [
+        16.050758361816406,
+        -8.609301567077637,
+        0.30000001192092896
+      ],
+      "normal": [
+        -0.9966115355491638,
+        0.08225169777870178,
+        0.0
+      ],
+      "expected": "closed",
+      "object": "R95_E_GROUND_GALLERY_ENTRY_WALL",
+      "hit": true,
+      "passed": true
+    },
+    {
+      "issue": "SS5",
+      "point": [
+        16.050758361816406,
+        -8.609301567077637,
+        1.649999976158142
+      ],
+      "normal": [
+        -0.9966115355491638,
+        0.08225169777870178,
+        0.0
+      ],
+      "expected": "closed",
+      "object": "R95_E_GROUND_GALLERY_ENTRY_WALL",
+      "hit": true,
+      "passed": true
+    },
+    {
+      "issue": "SS5",
+      "point": [
+        16.050758361816406,
+        -8.609301567077637,
+        3.799999952316284
+      ],
+      "normal": [
+        -0.9966115355491638,
+        0.08225169777870178,
+        0.0
+      ],
+      "expected": "closed",
+      "object": "R95_E_GROUND_GALLERY_ENTRY_WALL",
+      "hit": true,
+      "passed": true
+    },
+    {
+      "issue": "SS5",
+      "point": [
+        15.911100387573242,
+        -10.301462173461914,
+        0.30000001192092896
+      ],
+      "normal": [
+        -0.9966115355491638,
+        0.08225169777870178,
+        0.0
+      ],
+      "expected": "closed",
+      "object": "R95_E_GROUND_GALLERY_ENTRY_WALL",
+      "hit": true,
+      "passed": true
+    },
+    {
+      "issue": "SS5",
+      "point": [
+        15.911100387573242,
+        -10.301462173461914,
+        1.649999976158142
+      ],
+      "normal": [
+        -0.9966115355491638,
+        0.08225169777870178,
+        0.0
+      ],
+      "expected": "closed",
+      "object": "R95_E_GROUND_GALLERY_ENTRY_WALL",
+      "hit": true,
+      "passed": true
+    },
+    {
+      "issue": "SS5",
+      "point": [
+        15.911100387573242,
+        -10.301462173461914,
+        3.799999952316284
+      ],
+      "normal": [
+        -0.9966115355491638,
+        0.08225169777870178,
+        0.0
+      ],
+      "expected": "closed",
+      "object": "R95_E_GROUND_GALLERY_ENTRY_WALL",
+      "hit": true,
+      "passed": true
+    },
+    {
+      "issue": "SS5",
+      "point": [
+        16.965572357177734,
+        -9.49534797668457,
+        0.30000001192092896
+      ],
+      "normal": [
+        0.9965738654136658,
+        -0.0827067568898201,
+        0.0
+      ],
+      "expected": "closed",
+      "object": "R95_E_GROUND_GALLERY_ENTRY_WALL",
+      "hit": true,
+      "passed": true
+    },
+    {
+      "issue": "SS5",
+      "point": [
+        16.965572357177734,
+        -9.49534797668457,
+        1.649999976158142
+      ],
+      "normal": [
+        0.9965738654136658,
+        -0.0827067568898201,
+        0.0
+      ],
+      "expected": "closed",
+      "object": "R95_E_GROUND_GALLERY_ENTRY_WALL",
+      "hit": true,
+      "passed": true
+    },
+    {
+      "issue": "SS5",
+      "point": [
+        16.965572357177734,
+        -9.49534797668457,
+        3.799999952316284
+      ],
+      "normal": [
+        0.9965738654136658,
+        -0.0827067568898201,
+        0.0
+      ],
+      "expected": "closed",
+      "object": "R95_E_GROUND_GALLERY_ENTRY_WALL",
+      "hit": true,
+      "passed": true
+    },
+    {
+      "issue": "SS5",
+      "point": [
+        17.139101028442383,
+        -7.404402256011963,
+        0.30000001192092896
+      ],
+      "normal": [
+        0.9965738654136658,
+        -0.0827067568898201,
+        0.0
+      ],
+      "expected": "closed",
+      "object": "R95_E_GROUND_GALLERY_ENTRY_WALL",
+      "hit": true,
+      "passed": true
+    },
+    {
+      "issue": "SS5",
+      "point": [
+        17.139101028442383,
+        -7.404402256011963,
+        1.649999976158142
+      ],
+      "normal": [
+        0.9965738654136658,
+        -0.0827067568898201,
+        0.0
+      ],
+      "expected": "closed",
+      "object": "R95_E_GROUND_GALLERY_ENTRY_WALL",
+      "hit": true,
+      "passed": true
+    },
+    {
+      "issue": "SS5",
+      "point": [
+        17.139101028442383,
+        -7.404402256011963,
+        3.799999952316284
+      ],
+      "normal": [
+        0.9965738654136658,
+        -0.0827067568898201,
+        0.0
+      ],
+      "expected": "closed",
+      "object": "R95_E_GROUND_GALLERY_ENTRY_WALL",
+      "hit": true,
+      "passed": true
+    },
+    {
+      "issue": "SS5",
+      "point": [
+        17.312631607055664,
+        -5.313457489013672,
+        0.30000001192092896
+      ],
+      "normal": [
+        0.9965738654136658,
+        -0.0827067568898201,
+        0.0
+      ],
+      "expected": "closed",
+      "object": "R95_E_GROUND_GALLERY_ENTRY_WALL",
+      "hit": true,
+      "passed": true
+    },
+    {
+      "issue": "SS5",
+      "point": [
+        17.312631607055664,
+        -5.313457489013672,
+        1.649999976158142
+      ],
+      "normal": [
+        0.9965738654136658,
+        -0.0827067568898201,
+        0.0
+      ],
+      "expected": "closed",
+      "object": "R95_E_GROUND_GALLERY_ENTRY_WALL",
+      "hit": true,
+      "passed": true
+    },
+    {
+      "issue": "SS5",
+      "point": [
+        17.312631607055664,
+        -5.313457489013672,
+        3.799999952316284
+      ],
+      "normal": [
+        0.9965738654136658,
+        -0.0827067568898201,
+        0.0
+      ],
+      "expected": "closed",
+      "object": "R95_E_GROUND_GALLERY_ENTRY_WALL",
+      "hit": true,
+      "passed": true
+    },
+    {
+      "issue": "SS5",
+      "point": [
+        17.486162185668945,
+        -3.2225124835968018,
+        0.30000001192092896
+      ],
+      "normal": [
+        0.9965738654136658,
+        -0.0827067568898201,
+        0.0
+      ],
+      "expected": "closed",
+      "object": "R95_E_GROUND_GALLERY_ENTRY_WALL",
+      "hit": true,
+      "passed": true
+    },
+    {
+      "issue": "SS5",
+      "point": [
+        17.486162185668945,
+        -3.2225124835968018,
+        1.649999976158142
+      ],
+      "normal": [
+        0.9965738654136658,
+        -0.0827067568898201,
+        0.0
+      ],
+      "expected": "closed",
+      "object": "R95_E_GROUND_GALLERY_ENTRY_WALL",
+      "hit": true,
+      "passed": true
+    },
+    {
+      "issue": "SS5",
+      "point": [
+        17.486162185668945,
+        -3.2225124835968018,
+        3.799999952316284
+      ],
+      "normal": [
+        0.9965738654136658,
+        -0.0827067568898201,
+        0.0
+      ],
+      "expected": "closed",
+      "object": "R95_E_GROUND_GALLERY_ENTRY_WALL",
+      "hit": true,
+      "passed": true
+    },
+    {
+      "issue": "SS5",
+      "point": [
+        17.616308212280273,
+        -1.654304027557373,
+        0.30000001192092896
+      ],
+      "normal": [
+        0.9965738654136658,
+        -0.0827067568898201,
+        0.0
+      ],
+      "expected": "closed",
+      "object": "R95_E_GROUND_GALLERY_ENTRY_WALL",
+      "hit": true,
+      "passed": true
+    },
+    {
+      "issue": "SS5",
+      "point": [
+        17.616308212280273,
+        -1.654304027557373,
+        1.649999976158142
+      ],
+      "normal": [
+        0.9965738654136658,
+        -0.0827067568898201,
+        0.0
+      ],
+      "expected": "closed",
+      "object": "R95_E_GROUND_GALLERY_ENTRY_WALL",
+      "hit": true,
+      "passed": true
+    },
+    {
+      "issue": "SS5",
+      "point": [
+        17.616308212280273,
+        -1.654304027557373,
+        3.799999952316284
+      ],
+      "normal": [
+        0.9965738654136658,
+        -0.0827067568898201,
+        0.0
+      ],
+      "expected": "closed",
+      "object": "R95_E_GROUND_GALLERY_ENTRY_WALL",
+      "hit": true,
+      "passed": true
+    },
+    {
+      "issue": "SS4",
+      "point": [
+        -9.878536224365234,
+        20.218265533447266,
+        0.30000001192092896
+      ],
+      "normal": [
+        0.03631746023893356,
+        0.999340295791626,
+        -0.0
+      ],
+      "expected": "open",
+      "object": "R83_CAFE_BACK_WALL",
+      "hit": false,
+      "passed": true
+    },
+    {
+      "issue": "SS4",
+      "point": [
+        -9.878536224365234,
+        20.218265533447266,
+        1.649999976158142
+      ],
+      "normal": [
+        0.03631746023893356,
+        0.999340295791626,
+        -0.0
+      ],
+      "expected": "open",
+      "object": "R83_CAFE_BACK_WALL",
+      "hit": false,
+      "passed": true
+    },
+    {
+      "issue": "SS4",
+      "point": [
+        -9.878536224365234,
+        20.218265533447266,
+        3.799999952316284
+      ],
+      "normal": [
+        0.03631746023893356,
+        0.999340295791626,
+        -0.0
+      ],
+      "expected": "open",
+      "object": "R83_CAFE_BACK_WALL",
+      "hit": false,
+      "passed": true
+    },
+    {
+      "issue": "SS4",
+      "point": [
+        -13.236396789550781,
+        20.340295791625977,
+        0.30000001192092896
+      ],
+      "normal": [
+        0.03631746023893356,
+        0.999340295791626,
+        -0.0
+      ],
+      "expected": "open",
+      "object": "R83_CAFE_BACK_WALL",
+      "hit": false,
+      "passed": true
+    },
+    {
+      "issue": "SS4",
+      "point": [
+        -13.236396789550781,
+        20.340295791625977,
+        1.649999976158142
+      ],
+      "normal": [
+        0.03631746023893356,
+        0.999340295791626,
+        -0.0
+      ],
+      "expected": "open",
+      "object": "R83_CAFE_BACK_WALL",
+      "hit": false,
+      "passed": true
+    },
+    {
+      "issue": "SS4",
+      "point": [
+        -13.236396789550781,
+        20.340295791625977,
+        3.799999952316284
+      ],
+      "normal": [
+        0.03631746023893356,
+        0.999340295791626,
+        -0.0
+      ],
+      "expected": "open",
+      "object": "R83_CAFE_BACK_WALL",
+      "hit": false,
+      "passed": true
+    },
+    {
+      "issue": "SS4",
+      "point": [
+        -16.59425926208496,
+        20.462326049804688,
+        0.30000001192092896
+      ],
+      "normal": [
+        0.03631746023893356,
+        0.999340295791626,
+        -0.0
+      ],
+      "expected": "open",
+      "object": "R83_CAFE_BACK_WALL",
+      "hit": false,
+      "passed": true
+    },
+    {
+      "issue": "SS4",
+      "point": [
+        -16.59425926208496,
+        20.462326049804688,
+        1.649999976158142
+      ],
+      "normal": [
+        0.03631746023893356,
+        0.999340295791626,
+        -0.0
+      ],
+      "expected": "open",
+      "object": "R83_CAFE_BACK_WALL",
+      "hit": false,
+      "passed": true
+    },
+    {
+      "issue": "SS4",
+      "point": [
+        -16.59425926208496,
+        20.462326049804688,
+        3.799999952316284
+      ],
+      "normal": [
+        0.03631746023893356,
+        0.999340295791626,
+        -0.0
+      ],
+      "expected": "open",
+      "object": "R83_CAFE_BACK_WALL",
+      "hit": false,
+      "passed": true
+    },
+    {
+      "issue": "SS4",
+      "point": [
+        -19.952119827270508,
+        20.584354400634766,
+        0.30000001192092896
+      ],
+      "normal": [
+        0.03631746023893356,
+        0.999340295791626,
+        -0.0
+      ],
+      "expected": "open",
+      "object": "R83_CAFE_BACK_WALL",
+      "hit": false,
+      "passed": true
+    },
+    {
+      "issue": "SS4",
+      "point": [
+        -19.952119827270508,
+        20.584354400634766,
+        1.649999976158142
+      ],
+      "normal": [
+        0.03631746023893356,
+        0.999340295791626,
+        -0.0
+      ],
+      "expected": "open",
+      "object": "R83_CAFE_BACK_WALL",
+      "hit": false,
+      "passed": true
+    },
+    {
+      "issue": "SS4",
+      "point": [
+        -19.952119827270508,
+        20.584354400634766,
+        3.799999952316284
+      ],
+      "normal": [
+        0.03631746023893356,
+        0.999340295791626,
+        -0.0
+      ],
+      "expected": "open",
+      "object": "R83_CAFE_BACK_WALL",
+      "hit": false,
+      "passed": true
+    },
+    {
+      "issue": "SS4",
+      "point": [
+        -23.309982299804688,
+        20.706384658813477,
+        0.30000001192092896
+      ],
+      "normal": [
+        0.03631746023893356,
+        0.999340295791626,
+        -0.0
+      ],
+      "expected": "open",
+      "object": "R83_CAFE_BACK_WALL",
+      "hit": false,
+      "passed": true
+    },
+    {
+      "issue": "SS4",
+      "point": [
+        -23.309982299804688,
+        20.706384658813477,
+        1.649999976158142
+      ],
+      "normal": [
+        0.03631746023893356,
+        0.999340295791626,
+        -0.0
+      ],
+      "expected": "open",
+      "object": "R83_CAFE_BACK_WALL",
+      "hit": false,
+      "passed": true
+    },
+    {
+      "issue": "SS4",
+      "point": [
+        -23.309982299804688,
+        20.706384658813477,
+        3.799999952316284
+      ],
+      "normal": [
+        0.03631746023893356,
+        0.999340295791626,
+        -0.0
+      ],
+      "expected": "open",
+      "object": "R83_CAFE_BACK_WALL",
+      "hit": false,
+      "passed": true
+    }
+  ],
+  "glazing_samples": 8316,
+  "construction_acceptance": false,
+  "limits": [
+    "SS1/2 joins existing roof edges; glass modules and steel profiles are candidates, not fabrication details.",
+    "SS3 wall follows existing outer end footprint and begins above side-hall glass; upper stair circulation remains below.",
+    "SS4 removal is limited to the user-marked ground-storey cafe line; high support enclosure remains.",
+    "SS5 restores only the east source-plan wall incorrectly deleted with the west one. West detached wall remains absent.",
+    "All inherited height datums and the exact glazing/roof shape remain conditional."
+  ]
+}

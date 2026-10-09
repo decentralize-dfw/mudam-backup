@@ -1166,5 +1166,23 @@
     "image": "R94_marked_west_junction.png",
     "description": "İki eski mavi iç yüzey kaldırıldı; batı üst cam geçişi çerçevelendi, ara çatı örtüsü ve doğu üst duvar bağlantısı üretildi. Doğu merdiven yan duvarı bitişik cam örtü kotunda sonlandırıldı.",
     "limits": "Çatı ara örtüsü ve profil ölçüleri aday. Köşe profilleri, batı küçük çatı uç birleşimi ve ayrıntılı kaynak eşleştirmesi açık; tüm bina tamamlanmadı."
+  },
+  {
+    "id": "R95",
+    "checks": [
+      "R95_verification.json",
+      "R95_targeted_before_after.json",
+      "R95_global_audit.json",
+      "R95_inherited_verification.json"
+    ],
+    "tasks": [
+      "P07",
+      "P11"
+    ],
+    "report": "R95_KONTROL_RAPORU.md",
+    "title": "SS1–SS5 cam ve duvar düzeltmeleri / R95",
+    "image": "R95_marked_east_seam.png",
+    "description": "Sağ cam birleşimi ve dış uç kapatıldı; kafe zemin katındaki yanlış duvar kaldırıldı; doğu galeri giriş duvarı geri kuruldu. Önceki sahnedeki 75 başarısız yerel kontrol yeni sahnede geçti.",
+    "limits": "Sabit mimari geometri düzeltmesi. Kesin ölçüler, çatı imalat kesiti, profil ve malzeme kabulü açık; tüm bina tamamlandı sayılmadı."
   }
 ]

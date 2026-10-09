@@ -1,5 +1,5 @@
 {
-  "as_of_revision": "R94",
+  "as_of_revision": "R95",
   "basis": "Beş eşit iş adımı: tamam 20, kısmi 10, bekleyen 0 puan. Yaklaşık kapsam ilerlemesidir; ölçü doğruluğu veya harcanan süre oranı değildir. Yeni paket kabulünde ilgili adımlar yeniden değerlendirilir.",
   "tasks": {
     "P00": {
@@ -555,8 +555,8 @@
       ]
     }
   },
-  "last_reviewed_checkpoint": "R94",
-  "last_review_note": "R94: Üç işaretli görünüş üzerinde gerçek geometri düzeltildi. Mavi iç temsil yüzeyleri kaldırıldı; batı ara çatı örtüsü/üst cam bandı, doğu duvar bağlantısı ve taşan duvar kotu düzeltildi. Son sahne üç açıdan kontrol edildi. Kesin çatı kesiti, köşe profilleri ve batı küçük çatı uç birleşimi hâlâ açık.",
+  "last_reviewed_checkpoint": "R95",
+  "last_review_note": "R95: Kullanıcının SS1–SS5 işaretleri ayrı düzeltildi. Cam kenar şeridi/dönüşü ve dış uç duvarı eklendi; kafe zemin katındaki yanlış duvar uzantısı kaldırıldı; yanlışlıkla kaldırılmış doğu giriş duvarı geri kuruldu. Önce/sonra aynı 84 yerel kontrolde R94’ün 75 başarısızlığı R95’te sıfır. Dış görünüşler ve iki zemin kat kesit görünüşü incelendi.",
   "execution_order": [
     "Bina kabuğu: tüm duvarlar, zeminler, çatılar ve birleşimler",
     "Merdivenler ve sahanlıklar",
@@ -568,6 +568,6 @@
     "Çevre düzenlemesi"
   ],
   "current_priority": "Duvar–zemin–çatı birlikte: iç mekânlarda eksik alt/üst örtü ve kabuk açıklıkları kapatılıyor.",
-  "review_note": "R94: Üç işaretli görünüş üzerinde gerçek geometri düzeltildi. Mavi iç temsil yüzeyleri kaldırıldı; batı ara çatı örtüsü/üst cam bandı, doğu duvar bağlantısı ve taşan duvar kotu düzeltildi. Son sahne üç açıdan kontrol edildi. Kesin çatı kesiti, köşe profilleri ve batı küçük çatı uç birleşimi hâlâ açık.",
-  "last_reviewed_revision": "R94"
+  "review_note": "R95: Kullanıcının SS1–SS5 işaretleri ayrı düzeltildi. Cam kenar şeridi/dönüşü ve dış uç duvarı eklendi; kafe zemin katındaki yanlış duvar uzantısı kaldırıldı; yanlışlıkla kaldırılmış doğu giriş duvarı geri kuruldu. Önce/sonra aynı 84 yerel kontrolde R94’ün 75 başarısızlığı R95’te sıfır. Dış görünüşler ve iki zemin kat kesit görünüşü incelendi.",
+  "last_reviewed_revision": "R95"
 }

@@ -1,0 +1,44 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R95_BES_ISARET_KABUK_DUZELTME_v001.blend",
+  "issues": [
+    {
+      "id": "SS1_SS2",
+      "status": "geometry_corrected",
+      "change": "Eksik eğimli cam bağlantı şeridi, dik dönüş ve köşe birleşimi üretildi.",
+      "image": "R95_marked_east_seam.png",
+      "before_failed": 15,
+      "after_failed": 0
+    },
+    {
+      "id": "SS3",
+      "status": "geometry_corrected",
+      "change": "Yan cam örtü üzerinde dış uç duvarı kapatıldı; merdiven geçişi aşağıda korundu.",
+      "image": "R95_marked_east_end.png",
+      "before_failed": 15,
+      "after_failed": 0
+    },
+    {
+      "id": "SS4",
+      "status": "geometry_corrected",
+      "change": "Kafe arka duvarının yanlış zemin kat uzantısı kaldırıldı. Üst duvar korundu.",
+      "image": "R95_shader_west_ground_cut.png",
+      "before_failed": 15,
+      "after_failed": 0
+    },
+    {
+      "id": "SS5",
+      "status": "geometry_corrected",
+      "change": "R92 sırasında yanlış kaldırılan doğu galeri giriş duvarı kaynak plan iziyle geri kuruldu. Batı duvarı geri eklenmedi.",
+      "image": "R95_shader_east_ground_cut.png",
+      "before_failed": 30,
+      "after_failed": 0
+    }
+  ],
+  "limits": [
+    "SS1/2 joins existing roof edges; glass modules and steel profiles are candidates, not fabrication details.",
+    "SS3 wall follows existing outer end footprint and begins above side-hall glass; upper stair circulation remains below.",
+    "SS4 removal is limited to the user-marked ground-storey cafe line; high support enclosure remains.",
+    "SS5 restores only the east source-plan wall incorrectly deleted with the west one. West detached wall remains absent.",
+    "All inherited height datums and the exact glazing/roof shape remain conditional."
+  ]
+}

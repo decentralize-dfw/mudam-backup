@@ -1,0 +1,91 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R95_BES_ISARET_KABUK_DUZELTME_v001.blend",
+  "images": [
+    {
+      "image": "R95_marked_east_junction.png",
+      "eye_canonical": [
+        430,
+        150,
+        34
+      ],
+      "target_canonical": [
+        400,
+        435,
+        10
+      ],
+      "lens": 45
+    },
+    {
+      "image": "R95_marked_east_end.png",
+      "eye_canonical": [
+        130,
+        230,
+        23
+      ],
+      "target_canonical": [
+        325,
+        390,
+        10
+      ],
+      "lens": 45
+    },
+    {
+      "image": "R95_marked_west_junction.png",
+      "eye_canonical": [
+        780,
+        180,
+        34
+      ],
+      "target_canonical": [
+        750,
+        420,
+        10
+      ],
+      "lens": 45
+    },
+    {
+      "image": "R95_marked_east_seam.png",
+      "eye_canonical": [
+        520,
+        180,
+        23
+      ],
+      "target_canonical": [
+        462,
+        410,
+        9
+      ],
+      "lens": 45
+    },
+    {
+      "image": "R95_marked_east_ground.png",
+      "eye_canonical": [
+        465,
+        370,
+        2
+      ],
+      "target_canonical": [
+        405,
+        419,
+        1.8
+      ],
+      "lens": 22
+    },
+    {
+      "image": "R95_marked_cafe_ground.png",
+      "eye_canonical": [
+        710,
+        350,
+        2
+      ],
+      "target_canonical": [
+        770,
+        430,
+        1.7
+      ],
+      "lens": 24
+    }
+  ],
+  "all_active_surroundings": true,
+  "metric_camera_match": false
+}

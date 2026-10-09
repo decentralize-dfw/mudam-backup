@@ -1,0 +1,1877 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R95_BES_ISARET_KABUK_DUZELTME_v001.blend",
+  "results": {
+    "before": [
+      {
+        "issue": "SS3",
+        "expected": "closed",
+        "point": [
+          19.88101577758789,
+          -20.979637145996094,
+          9.838577270507812
+        ],
+        "hit": null,
+        "passed": false
+      },
+      {
+        "issue": "SS3",
+        "expected": "closed",
+        "point": [
+          19.88101577758789,
+          -20.979637145996094,
+          11.82084846496582
+        ],
+        "hit": null,
+        "passed": false
+      },
+      {
+        "issue": "SS3",
+        "expected": "closed",
+        "point": [
+          19.88101577758789,
+          -20.979637145996094,
+          13.803117752075195
+        ],
+        "hit": null,
+        "passed": false
+      },
+      {
+        "issue": "SS3",
+        "expected": "closed",
+        "point": [
+          18.91835594177246,
+          -19.944368362426758,
+          9.838577270507812
+        ],
+        "hit": null,
+        "passed": false
+      },
+      {
+        "issue": "SS3",
+        "expected": "closed",
+        "point": [
+          18.91835594177246,
+          -19.944368362426758,
+          11.82084846496582
+        ],
+        "hit": null,
+        "passed": false
+      },
+      {
+        "issue": "SS3",
+        "expected": "closed",
+        "point": [
+          18.91835594177246,
+          -19.944368362426758,
+          13.803117752075195
+        ],
+        "hit": null,
+        "passed": false
+      },
+      {
+        "issue": "SS3",
+        "expected": "closed",
+        "point": [
+          17.95569610595703,
+          -18.909101486206055,
+          9.838577270507812
+        ],
+        "hit": null,
+        "passed": false
+      },
+      {
+        "issue": "SS3",
+        "expected": "closed",
+        "point": [
+          17.95569610595703,
+          -18.909101486206055,
+          11.82084846496582
+        ],
+        "hit": null,
+        "passed": false
+      },
+      {
+        "issue": "SS3",
+        "expected": "closed",
+        "point": [
+          17.95569610595703,
+          -18.909101486206055,
+          13.803117752075195
+        ],
+        "hit": null,
+        "passed": false
+      },
+      {
+        "issue": "SS3",
+        "expected": "closed",
+        "point": [
+          16.9930362701416,
+          -17.87383270263672,
+          9.838577270507812
+        ],
+        "hit": null,
+        "passed": false
+      },
+      {
+        "issue": "SS3",
+        "expected": "closed",
+        "point": [
+          16.9930362701416,
+          -17.87383270263672,
+          11.82084846496582
+        ],
+        "hit": null,
+        "passed": false
+      },
+      {
+        "issue": "SS3",
+        "expected": "closed",
+        "point": [
+          16.9930362701416,
+          -17.87383270263672,
+          13.803117752075195
+        ],
+        "hit": null,
+        "passed": false
+      },
+      {
+        "issue": "SS3",
+        "expected": "closed",
+        "point": [
+          16.030378341674805,
+          -16.838565826416016,
+          9.838577270507812
+        ],
+        "hit": null,
+        "passed": false
+      },
+      {
+        "issue": "SS3",
+        "expected": "closed",
+        "point": [
+          16.030378341674805,
+          -16.838565826416016,
+          11.82084846496582
+        ],
+        "hit": null,
+        "passed": false
+      },
+      {
+        "issue": "SS3",
+        "expected": "closed",
+        "point": [
+          16.030378341674805,
+          -16.838565826416016,
+          13.803117752075195
+        ],
+        "hit": null,
+        "passed": false
+      },
+      {
+        "issue": "SS5",
+        "expected": "closed",
+        "point": [
+          16.60938262939453,
+          -1.8406614065170288,
+          0.30000001192092896
+        ],
+        "hit": null,
+        "passed": false
+      },
+      {
+        "issue": "SS5",
+        "expected": "closed",
+        "point": [
+          16.60938262939453,
+          -1.8406614065170288,
+          1.649999976158142
+        ],
+        "hit": null,
+        "passed": false
+      },
+      {
+        "issue": "SS5",
+        "expected": "closed",
+        "point": [
+          16.60938262939453,
+          -1.8406614065170288,
+          3.799999952316284
+        ],
+        "hit": null,
+        "passed": false
+      },
+      {
+        "issue": "SS5",
+        "expected": "closed",
+        "point": [
+          16.423173904418945,
+          -4.096875190734863,
+          0.30000001192092896
+        ],
+        "hit": null,
+        "passed": false
+      },
+      {
+        "issue": "SS5",
+        "expected": "closed",
+        "point": [
+          16.423173904418945,
+          -4.096875190734863,
+          1.649999976158142
+        ],
+        "hit": null,
+        "passed": false
+      },
+      {
+        "issue": "SS5",
+        "expected": "closed",
+        "point": [
+          16.423173904418945,
+          -4.096875190734863,
+          3.799999952316284
+        ],
+        "hit": null,
+        "passed": false
+      },
+      {
+        "issue": "SS5",
+        "expected": "closed",
+        "point": [
+          16.23696517944336,
+          -6.35308837890625,
+          0.30000001192092896
+        ],
+        "hit": null,
+        "passed": false
+      },
+      {
+        "issue": "SS5",
+        "expected": "closed",
+        "point": [
+          16.23696517944336,
+          -6.35308837890625,
+          1.649999976158142
+        ],
+        "hit": null,
+        "passed": false
+      },
+      {
+        "issue": "SS5",
+        "expected": "closed",
+        "point": [
+          16.23696517944336,
+          -6.35308837890625,
+          3.799999952316284
+        ],
+        "hit": null,
+        "passed": false
+      },
+      {
+        "issue": "SS5",
+        "expected": "closed",
+        "point": [
+          16.050758361816406,
+          -8.609301567077637,
+          0.30000001192092896
+        ],
+        "hit": null,
+        "passed": false
+      },
+      {
+        "issue": "SS5",
+        "expected": "closed",
+        "point": [
+          16.050758361816406,
+          -8.609301567077637,
+          1.649999976158142
+        ],
+        "hit": null,
+        "passed": false
+      },
+      {
+        "issue": "SS5",
+        "expected": "closed",
+        "point": [
+          16.050758361816406,
+          -8.609301567077637,
+          3.799999952316284
+        ],
+        "hit": null,
+        "passed": false
+      },
+      {
+        "issue": "SS5",
+        "expected": "closed",
+        "point": [
+          15.911100387573242,
+          -10.301462173461914,
+          0.30000001192092896
+        ],
+        "hit": null,
+        "passed": false
+      },
+      {
+        "issue": "SS5",
+        "expected": "closed",
+        "point": [
+          15.911100387573242,
+          -10.301462173461914,
+          1.649999976158142
+        ],
+        "hit": null,
+        "passed": false
+      },
+      {
+        "issue": "SS5",
+        "expected": "closed",
+        "point": [
+          15.911100387573242,
+          -10.301462173461914,
+          3.799999952316284
+        ],
+        "hit": null,
+        "passed": false
+      },
+      {
+        "issue": "SS5",
+        "expected": "closed",
+        "point": [
+          16.965572357177734,
+          -9.49534797668457,
+          0.30000001192092896
+        ],
+        "hit": null,
+        "passed": false
+      },
+      {
+        "issue": "SS5",
+        "expected": "closed",
+        "point": [
+          16.965572357177734,
+          -9.49534797668457,
+          1.649999976158142
+        ],
+        "hit": null,
+        "passed": false
+      },
+      {
+        "issue": "SS5",
+        "expected": "closed",
+        "point": [
+          16.965572357177734,
+          -9.49534797668457,
+          3.799999952316284
+        ],
+        "hit": null,
+        "passed": false
+      },
+      {
+        "issue": "SS5",
+        "expected": "closed",
+        "point": [
+          17.139101028442383,
+          -7.404402256011963,
+          0.30000001192092896
+        ],
+        "hit": null,
+        "passed": false
+      },
+      {
+        "issue": "SS5",
+        "expected": "closed",
+        "point": [
+          17.139101028442383,
+          -7.404402256011963,
+          1.649999976158142
+        ],
+        "hit": null,
+        "passed": false
+      },
+      {
+        "issue": "SS5",
+        "expected": "closed",
+        "point": [
+          17.139101028442383,
+          -7.404402256011963,
+          3.799999952316284
+        ],
+        "hit": null,
+        "passed": false
+      },
+      {
+        "issue": "SS5",
+        "expected": "closed",
+        "point": [
+          17.312631607055664,
+          -5.313457489013672,
+          0.30000001192092896
+        ],
+        "hit": null,
+        "passed": false
+      },
+      {
+        "issue": "SS5",
+        "expected": "closed",
+        "point": [
+          17.312631607055664,
+          -5.313457489013672,
+          1.649999976158142
+        ],
+        "hit": null,
+        "passed": false
+      },
+      {
+        "issue": "SS5",
+        "expected": "closed",
+        "point": [
+          17.312631607055664,
+          -5.313457489013672,
+          3.799999952316284
+        ],
+        "hit": null,
+        "passed": false
+      },
+      {
+        "issue": "SS5",
+        "expected": "closed",
+        "point": [
+          17.486162185668945,
+          -3.2225124835968018,
+          0.30000001192092896
+        ],
+        "hit": null,
+        "passed": false
+      },
+      {
+        "issue": "SS5",
+        "expected": "closed",
+        "point": [
+          17.486162185668945,
+          -3.2225124835968018,
+          1.649999976158142
+        ],
+        "hit": null,
+        "passed": false
+      },
+      {
+        "issue": "SS5",
+        "expected": "closed",
+        "point": [
+          17.486162185668945,
+          -3.2225124835968018,
+          3.799999952316284
+        ],
+        "hit": null,
+        "passed": false
+      },
+      {
+        "issue": "SS5",
+        "expected": "closed",
+        "point": [
+          17.616308212280273,
+          -1.654304027557373,
+          0.30000001192092896
+        ],
+        "hit": null,
+        "passed": false
+      },
+      {
+        "issue": "SS5",
+        "expected": "closed",
+        "point": [
+          17.616308212280273,
+          -1.654304027557373,
+          1.649999976158142
+        ],
+        "hit": null,
+        "passed": false
+      },
+      {
+        "issue": "SS5",
+        "expected": "closed",
+        "point": [
+          17.616308212280273,
+          -1.654304027557373,
+          3.799999952316284
+        ],
+        "hit": null,
+        "passed": false
+      },
+      {
+        "issue": "SS4",
+        "expected": "open",
+        "point": [
+          -9.878536224365234,
+          20.218265533447266,
+          0.30000001192092896
+        ],
+        "hit": "R83_CAFE_BACK_WALL",
+        "passed": false
+      },
+      {
+        "issue": "SS4",
+        "expected": "open",
+        "point": [
+          -9.878536224365234,
+          20.218265533447266,
+          1.649999976158142
+        ],
+        "hit": "R83_CAFE_BACK_WALL",
+        "passed": false
+      },
+      {
+        "issue": "SS4",
+        "expected": "open",
+        "point": [
+          -9.878536224365234,
+          20.218265533447266,
+          3.799999952316284
+        ],
+        "hit": "R83_CAFE_BACK_WALL",
+        "passed": false
+      },
+      {
+        "issue": "SS4",
+        "expected": "open",
+        "point": [
+          -13.236396789550781,
+          20.340295791625977,
+          0.30000001192092896
+        ],
+        "hit": "R83_CAFE_BACK_WALL",
+        "passed": false
+      },
+      {
+        "issue": "SS4",
+        "expected": "open",
+        "point": [
+          -13.236396789550781,
+          20.340295791625977,
+          1.649999976158142
+        ],
+        "hit": "R83_CAFE_BACK_WALL",
+        "passed": false
+      },
+      {
+        "issue": "SS4",
+        "expected": "open",
+        "point": [
+          -13.236396789550781,
+          20.340295791625977,
+          3.799999952316284
+        ],
+        "hit": "R83_CAFE_BACK_WALL",
+        "passed": false
+      },
+      {
+        "issue": "SS4",
+        "expected": "open",
+        "point": [
+          -16.59425926208496,
+          20.462326049804688,
+          0.30000001192092896
+        ],
+        "hit": "R83_CAFE_BACK_WALL",
+        "passed": false
+      },
+      {
+        "issue": "SS4",
+        "expected": "open",
+        "point": [
+          -16.59425926208496,
+          20.462326049804688,
+          1.649999976158142
+        ],
+        "hit": "R83_CAFE_BACK_WALL",
+        "passed": false
+      },
+      {
+        "issue": "SS4",
+        "expected": "open",
+        "point": [
+          -16.59425926208496,
+          20.462326049804688,
+          3.799999952316284
+        ],
+        "hit": "R83_CAFE_BACK_WALL",
+        "passed": false
+      },
+      {
+        "issue": "SS4",
+        "expected": "open",
+        "point": [
+          -19.952119827270508,
+          20.584354400634766,
+          0.30000001192092896
+        ],
+        "hit": "R83_CAFE_BACK_WALL",
+        "passed": false
+      },
+      {
+        "issue": "SS4",
+        "expected": "open",
+        "point": [
+          -19.952119827270508,
+          20.584354400634766,
+          1.649999976158142
+        ],
+        "hit": "R83_CAFE_BACK_WALL",
+        "passed": false
+      },
+      {
+        "issue": "SS4",
+        "expected": "open",
+        "point": [
+          -19.952119827270508,
+          20.584354400634766,
+          3.799999952316284
+        ],
+        "hit": "R83_CAFE_BACK_WALL",
+        "passed": false
+      },
+      {
+        "issue": "SS4",
+        "expected": "open",
+        "point": [
+          -23.309982299804688,
+          20.706384658813477,
+          0.30000001192092896
+        ],
+        "hit": "R83_CAFE_BACK_WALL",
+        "passed": false
+      },
+      {
+        "issue": "SS4",
+        "expected": "open",
+        "point": [
+          -23.309982299804688,
+          20.706384658813477,
+          1.649999976158142
+        ],
+        "hit": "R83_CAFE_BACK_WALL",
+        "passed": false
+      },
+      {
+        "issue": "SS4",
+        "expected": "open",
+        "point": [
+          -23.309982299804688,
+          20.706384658813477,
+          3.799999952316284
+        ],
+        "hit": "R83_CAFE_BACK_WALL",
+        "passed": false
+      },
+      {
+        "issue": "SS1_SS2",
+        "point": [
+          5.858467102050781,
+          -6.9578094482421875,
+          3.2934961318969727
+        ],
+        "expected": "closed",
+        "hit": "P11_EAST_19_05",
+        "passed": true
+      },
+      {
+        "issue": "SS1_SS2",
+        "point": [
+          6.272340774536133,
+          -6.59459114074707,
+          3.6714420318603516
+        ],
+        "expected": "closed",
+        "hit": "P11_EAST_19_05",
+        "passed": true
+      },
+      {
+        "issue": "SS1_SS2",
+        "point": [
+          7.337421417236328,
+          -5.582580089569092,
+          4.427334308624268
+        ],
+        "expected": "closed",
+        "hit": "P11_EAST_19_04",
+        "passed": true
+      },
+      {
+        "issue": "SS1_SS2",
+        "point": [
+          7.7077956199646,
+          -5.259810924530029,
+          4.805280685424805
+        ],
+        "expected": "closed",
+        "hit": "P11_GH_LOWER_EAST_04_04_FRAME_1",
+        "passed": true
+      },
+      {
+        "issue": "SS1_SS2",
+        "point": [
+          8.816374778747559,
+          -4.2073516845703125,
+          5.5611724853515625
+        ],
+        "expected": "closed",
+        "hit": "P11_EAST_19_03",
+        "passed": true
+      },
+      {
+        "issue": "SS1_SS2",
+        "point": [
+          9.143251419067383,
+          -3.925030469894409,
+          5.939118385314941
+        ],
+        "expected": "closed",
+        "hit": null,
+        "passed": false
+      },
+      {
+        "issue": "SS1_SS2",
+        "point": [
+          10.295329093933105,
+          -2.8321235179901123,
+          6.695010185241699
+        ],
+        "expected": "closed",
+        "hit": null,
+        "passed": false
+      },
+      {
+        "issue": "SS1_SS2",
+        "point": [
+          10.578706741333008,
+          -2.59024977684021,
+          7.07295560836792
+        ],
+        "expected": "closed",
+        "hit": null,
+        "passed": false
+      },
+      {
+        "issue": "SS1_SS2",
+        "point": [
+          11.774282455444336,
+          -1.456894874572754,
+          7.828847408294678
+        ],
+        "expected": "closed",
+        "hit": null,
+        "passed": false
+      },
+      {
+        "issue": "SS1_SS2",
+        "point": [
+          12.014162063598633,
+          -1.2554692029953003,
+          8.206793785095215
+        ],
+        "expected": "closed",
+        "hit": null,
+        "passed": false
+      },
+      {
+        "issue": "SS1_SS2",
+        "point": [
+          13.253236770629883,
+          -0.08166670799255371,
+          8.962684631347656
+        ],
+        "expected": "closed",
+        "hit": null,
+        "passed": false
+      },
+      {
+        "issue": "SS1_SS2",
+        "point": [
+          13.449617385864258,
+          0.07931141555309296,
+          9.340631484985352
+        ],
+        "expected": "closed",
+        "hit": null,
+        "passed": false
+      },
+      {
+        "issue": "SS1_SS2",
+        "point": [
+          14.015275955200195,
+          0.6485573053359985,
+          10.419334411621094
+        ],
+        "expected": "closed",
+        "hit": null,
+        "passed": false
+      },
+      {
+        "issue": "SS1_SS2",
+        "point": [
+          14.015275955200195,
+          0.6485573053359985,
+          11.82084846496582
+        ],
+        "expected": "closed",
+        "hit": null,
+        "passed": false
+      },
+      {
+        "issue": "SS1_SS2",
+        "point": [
+          14.015275955200195,
+          0.6485573053359985,
+          13.22236156463623
+        ],
+        "expected": "closed",
+        "hit": null,
+        "passed": false
+      },
+      {
+        "issue": "SS1_SS2",
+        "point": [
+          14.905548095703125,
+          1.4763909578323364,
+          10.419334411621094
+        ],
+        "expected": "closed",
+        "hit": null,
+        "passed": false
+      },
+      {
+        "issue": "SS1_SS2",
+        "point": [
+          14.905548095703125,
+          1.4763909578323364,
+          11.82084846496582
+        ],
+        "expected": "closed",
+        "hit": null,
+        "passed": false
+      },
+      {
+        "issue": "SS1_SS2",
+        "point": [
+          14.905548095703125,
+          1.4763909578323364,
+          13.22236156463623
+        ],
+        "expected": "closed",
+        "hit": null,
+        "passed": false
+      },
+      {
+        "issue": "SS1_SS2",
+        "point": [
+          15.795820236206055,
+          2.3042244911193848,
+          10.419334411621094
+        ],
+        "expected": "closed",
+        "hit": null,
+        "passed": false
+      },
+      {
+        "issue": "SS1_SS2",
+        "point": [
+          15.795820236206055,
+          2.3042244911193848,
+          11.82084846496582
+        ],
+        "expected": "closed",
+        "hit": null,
+        "passed": false
+      },
+      {
+        "issue": "SS1_SS2",
+        "point": [
+          15.795820236206055,
+          2.3042244911193848,
+          13.22236156463623
+        ],
+        "expected": "closed",
+        "hit": "R72_HIGH_ATRIUM_WALL_5",
+        "passed": true
+      },
+      {
+        "issue": "SS1_SS2",
+        "point": [
+          13.586318969726562,
+          0.2172410786151886,
+          10.419334411621094
+        ],
+        "expected": "closed",
+        "hit": "P11_GH_BAND_7_00_00_FRAME_3",
+        "passed": true
+      },
+      {
+        "issue": "SS1_SS2",
+        "point": [
+          13.586318969726562,
+          0.2172410786151886,
+          11.82084846496582
+        ],
+        "expected": "closed",
+        "hit": "P11_GH_BAND_7_00_01_FRAME_3",
+        "passed": true
+      },
+      {
+        "issue": "SS1_SS2",
+        "point": [
+          13.586318969726562,
+          0.2172410786151886,
+          13.22236156463623
+        ],
+        "expected": "closed",
+        "hit": "P11_GH_BAND_7_00_02_FRAME_3",
+        "passed": true
+      }
+    ],
+    "after": [
+      {
+        "issue": "SS3",
+        "expected": "closed",
+        "point": [
+          19.88101577758789,
+          -20.979637145996094,
+          9.838577270507812
+        ],
+        "hit": "R95_EAST_OUTER_END_ABOVE_GLASS",
+        "passed": true
+      },
+      {
+        "issue": "SS3",
+        "expected": "closed",
+        "point": [
+          19.88101577758789,
+          -20.979637145996094,
+          11.82084846496582
+        ],
+        "hit": "R95_EAST_OUTER_END_ABOVE_GLASS",
+        "passed": true
+      },
+      {
+        "issue": "SS3",
+        "expected": "closed",
+        "point": [
+          19.88101577758789,
+          -20.979637145996094,
+          13.803117752075195
+        ],
+        "hit": "R95_EAST_OUTER_END_ABOVE_GLASS",
+        "passed": true
+      },
+      {
+        "issue": "SS3",
+        "expected": "closed",
+        "point": [
+          18.91835594177246,
+          -19.944368362426758,
+          9.838577270507812
+        ],
+        "hit": "R95_EAST_OUTER_END_ABOVE_GLASS",
+        "passed": true
+      },
+      {
+        "issue": "SS3",
+        "expected": "closed",
+        "point": [
+          18.91835594177246,
+          -19.944368362426758,
+          11.82084846496582
+        ],
+        "hit": "R95_EAST_OUTER_END_ABOVE_GLASS",
+        "passed": true
+      },
+      {
+        "issue": "SS3",
+        "expected": "closed",
+        "point": [
+          18.91835594177246,
+          -19.944368362426758,
+          13.803117752075195
+        ],
+        "hit": "R95_EAST_OUTER_END_ABOVE_GLASS",
+        "passed": true
+      },
+      {
+        "issue": "SS3",
+        "expected": "closed",
+        "point": [
+          17.95569610595703,
+          -18.909101486206055,
+          9.838577270507812
+        ],
+        "hit": "R95_EAST_OUTER_END_ABOVE_GLASS",
+        "passed": true
+      },
+      {
+        "issue": "SS3",
+        "expected": "closed",
+        "point": [
+          17.95569610595703,
+          -18.909101486206055,
+          11.82084846496582
+        ],
+        "hit": "R95_EAST_OUTER_END_ABOVE_GLASS",
+        "passed": true
+      },
+      {
+        "issue": "SS3",
+        "expected": "closed",
+        "point": [
+          17.95569610595703,
+          -18.909101486206055,
+          13.803117752075195
+        ],
+        "hit": "R95_EAST_OUTER_END_ABOVE_GLASS",
+        "passed": true
+      },
+      {
+        "issue": "SS3",
+        "expected": "closed",
+        "point": [
+          16.9930362701416,
+          -17.87383270263672,
+          9.838577270507812
+        ],
+        "hit": "R95_EAST_OUTER_END_ABOVE_GLASS",
+        "passed": true
+      },
+      {
+        "issue": "SS3",
+        "expected": "closed",
+        "point": [
+          16.9930362701416,
+          -17.87383270263672,
+          11.82084846496582
+        ],
+        "hit": "R95_EAST_OUTER_END_ABOVE_GLASS",
+        "passed": true
+      },
+      {
+        "issue": "SS3",
+        "expected": "closed",
+        "point": [
+          16.9930362701416,
+          -17.87383270263672,
+          13.803117752075195
+        ],
+        "hit": "R95_EAST_OUTER_END_ABOVE_GLASS",
+        "passed": true
+      },
+      {
+        "issue": "SS3",
+        "expected": "closed",
+        "point": [
+          16.030378341674805,
+          -16.838565826416016,
+          9.838577270507812
+        ],
+        "hit": "R95_EAST_OUTER_END_ABOVE_GLASS",
+        "passed": true
+      },
+      {
+        "issue": "SS3",
+        "expected": "closed",
+        "point": [
+          16.030378341674805,
+          -16.838565826416016,
+          11.82084846496582
+        ],
+        "hit": "R95_EAST_OUTER_END_ABOVE_GLASS",
+        "passed": true
+      },
+      {
+        "issue": "SS3",
+        "expected": "closed",
+        "point": [
+          16.030378341674805,
+          -16.838565826416016,
+          13.803117752075195
+        ],
+        "hit": "R95_EAST_OUTER_END_ABOVE_GLASS",
+        "passed": true
+      },
+      {
+        "issue": "SS5",
+        "expected": "closed",
+        "point": [
+          16.60938262939453,
+          -1.8406614065170288,
+          0.30000001192092896
+        ],
+        "hit": "R95_E_GROUND_GALLERY_ENTRY_WALL",
+        "passed": true
+      },
+      {
+        "issue": "SS5",
+        "expected": "closed",
+        "point": [
+          16.60938262939453,
+          -1.8406614065170288,
+          1.649999976158142
+        ],
+        "hit": "R95_E_GROUND_GALLERY_ENTRY_WALL",
+        "passed": true
+      },
+      {
+        "issue": "SS5",
+        "expected": "closed",
+        "point": [
+          16.60938262939453,
+          -1.8406614065170288,
+          3.799999952316284
+        ],
+        "hit": "R95_E_GROUND_GALLERY_ENTRY_WALL",
+        "passed": true
+      },
+      {
+        "issue": "SS5",
+        "expected": "closed",
+        "point": [
+          16.423173904418945,
+          -4.096875190734863,
+          0.30000001192092896
+        ],
+        "hit": "R95_E_GROUND_GALLERY_ENTRY_WALL",
+        "passed": true
+      },
+      {
+        "issue": "SS5",
+        "expected": "closed",
+        "point": [
+          16.423173904418945,
+          -4.096875190734863,
+          1.649999976158142
+        ],
+        "hit": "R95_E_GROUND_GALLERY_ENTRY_WALL",
+        "passed": true
+      },
+      {
+        "issue": "SS5",
+        "expected": "closed",
+        "point": [
+          16.423173904418945,
+          -4.096875190734863,
+          3.799999952316284
+        ],
+        "hit": "R95_E_GROUND_GALLERY_ENTRY_WALL",
+        "passed": true
+      },
+      {
+        "issue": "SS5",
+        "expected": "closed",
+        "point": [
+          16.23696517944336,
+          -6.35308837890625,
+          0.30000001192092896
+        ],
+        "hit": "R95_E_GROUND_GALLERY_ENTRY_WALL",
+        "passed": true
+      },
+      {
+        "issue": "SS5",
+        "expected": "closed",
+        "point": [
+          16.23696517944336,
+          -6.35308837890625,
+          1.649999976158142
+        ],
+        "hit": "R95_E_GROUND_GALLERY_ENTRY_WALL",
+        "passed": true
+      },
+      {
+        "issue": "SS5",
+        "expected": "closed",
+        "point": [
+          16.23696517944336,
+          -6.35308837890625,
+          3.799999952316284
+        ],
+        "hit": "R95_E_GROUND_GALLERY_ENTRY_WALL",
+        "passed": true
+      },
+      {
+        "issue": "SS5",
+        "expected": "closed",
+        "point": [
+          16.050758361816406,
+          -8.609301567077637,
+          0.30000001192092896
+        ],
+        "hit": "R95_E_GROUND_GALLERY_ENTRY_WALL",
+        "passed": true
+      },
+      {
+        "issue": "SS5",
+        "expected": "closed",
+        "point": [
+          16.050758361816406,
+          -8.609301567077637,
+          1.649999976158142
+        ],
+        "hit": "R95_E_GROUND_GALLERY_ENTRY_WALL",
+        "passed": true
+      },
+      {
+        "issue": "SS5",
+        "expected": "closed",
+        "point": [
+          16.050758361816406,
+          -8.609301567077637,
+          3.799999952316284
+        ],
+        "hit": "R95_E_GROUND_GALLERY_ENTRY_WALL",
+        "passed": true
+      },
+      {
+        "issue": "SS5",
+        "expected": "closed",
+        "point": [
+          15.911100387573242,
+          -10.301462173461914,
+          0.30000001192092896
+        ],
+        "hit": "R95_E_GROUND_GALLERY_ENTRY_WALL",
+        "passed": true
+      },
+      {
+        "issue": "SS5",
+        "expected": "closed",
+        "point": [
+          15.911100387573242,
+          -10.301462173461914,
+          1.649999976158142
+        ],
+        "hit": "R95_E_GROUND_GALLERY_ENTRY_WALL",
+        "passed": true
+      },
+      {
+        "issue": "SS5",
+        "expected": "closed",
+        "point": [
+          15.911100387573242,
+          -10.301462173461914,
+          3.799999952316284
+        ],
+        "hit": "R95_E_GROUND_GALLERY_ENTRY_WALL",
+        "passed": true
+      },
+      {
+        "issue": "SS5",
+        "expected": "closed",
+        "point": [
+          16.965572357177734,
+          -9.49534797668457,
+          0.30000001192092896
+        ],
+        "hit": "R95_E_GROUND_GALLERY_ENTRY_WALL",
+        "passed": true
+      },
+      {
+        "issue": "SS5",
+        "expected": "closed",
+        "point": [
+          16.965572357177734,
+          -9.49534797668457,
+          1.649999976158142
+        ],
+        "hit": "R95_E_GROUND_GALLERY_ENTRY_WALL",
+        "passed": true
+      },
+      {
+        "issue": "SS5",
+        "expected": "closed",
+        "point": [
+          16.965572357177734,
+          -9.49534797668457,
+          3.799999952316284
+        ],
+        "hit": "R95_E_GROUND_GALLERY_ENTRY_WALL",
+        "passed": true
+      },
+      {
+        "issue": "SS5",
+        "expected": "closed",
+        "point": [
+          17.139101028442383,
+          -7.404402256011963,
+          0.30000001192092896
+        ],
+        "hit": "R95_E_GROUND_GALLERY_ENTRY_WALL",
+        "passed": true
+      },
+      {
+        "issue": "SS5",
+        "expected": "closed",
+        "point": [
+          17.139101028442383,
+          -7.404402256011963,
+          1.649999976158142
+        ],
+        "hit": "R95_E_GROUND_GALLERY_ENTRY_WALL",
+        "passed": true
+      },
+      {
+        "issue": "SS5",
+        "expected": "closed",
+        "point": [
+          17.139101028442383,
+          -7.404402256011963,
+          3.799999952316284
+        ],
+        "hit": "R95_E_GROUND_GALLERY_ENTRY_WALL",
+        "passed": true
+      },
+      {
+        "issue": "SS5",
+        "expected": "closed",
+        "point": [
+          17.312631607055664,
+          -5.313457489013672,
+          0.30000001192092896
+        ],
+        "hit": "R95_E_GROUND_GALLERY_ENTRY_WALL",
+        "passed": true
+      },
+      {
+        "issue": "SS5",
+        "expected": "closed",
+        "point": [
+          17.312631607055664,
+          -5.313457489013672,
+          1.649999976158142
+        ],
+        "hit": "R95_E_GROUND_GALLERY_ENTRY_WALL",
+        "passed": true
+      },
+      {
+        "issue": "SS5",
+        "expected": "closed",
+        "point": [
+          17.312631607055664,
+          -5.313457489013672,
+          3.799999952316284
+        ],
+        "hit": "R95_E_GROUND_GALLERY_ENTRY_WALL",
+        "passed": true
+      },
+      {
+        "issue": "SS5",
+        "expected": "closed",
+        "point": [
+          17.486162185668945,
+          -3.2225124835968018,
+          0.30000001192092896
+        ],
+        "hit": "R95_E_GROUND_GALLERY_ENTRY_WALL",
+        "passed": true
+      },
+      {
+        "issue": "SS5",
+        "expected": "closed",
+        "point": [
+          17.486162185668945,
+          -3.2225124835968018,
+          1.649999976158142
+        ],
+        "hit": "R95_E_GROUND_GALLERY_ENTRY_WALL",
+        "passed": true
+      },
+      {
+        "issue": "SS5",
+        "expected": "closed",
+        "point": [
+          17.486162185668945,
+          -3.2225124835968018,
+          3.799999952316284
+        ],
+        "hit": "R95_E_GROUND_GALLERY_ENTRY_WALL",
+        "passed": true
+      },
+      {
+        "issue": "SS5",
+        "expected": "closed",
+        "point": [
+          17.616308212280273,
+          -1.654304027557373,
+          0.30000001192092896
+        ],
+        "hit": "R95_E_GROUND_GALLERY_ENTRY_WALL",
+        "passed": true
+      },
+      {
+        "issue": "SS5",
+        "expected": "closed",
+        "point": [
+          17.616308212280273,
+          -1.654304027557373,
+          1.649999976158142
+        ],
+        "hit": "R95_E_GROUND_GALLERY_ENTRY_WALL",
+        "passed": true
+      },
+      {
+        "issue": "SS5",
+        "expected": "closed",
+        "point": [
+          17.616308212280273,
+          -1.654304027557373,
+          3.799999952316284
+        ],
+        "hit": "R95_E_GROUND_GALLERY_ENTRY_WALL",
+        "passed": true
+      },
+      {
+        "issue": "SS4",
+        "expected": "open",
+        "point": [
+          -9.878536224365234,
+          20.218265533447266,
+          0.30000001192092896
+        ],
+        "hit": null,
+        "passed": true
+      },
+      {
+        "issue": "SS4",
+        "expected": "open",
+        "point": [
+          -9.878536224365234,
+          20.218265533447266,
+          1.649999976158142
+        ],
+        "hit": null,
+        "passed": true
+      },
+      {
+        "issue": "SS4",
+        "expected": "open",
+        "point": [
+          -9.878536224365234,
+          20.218265533447266,
+          3.799999952316284
+        ],
+        "hit": null,
+        "passed": true
+      },
+      {
+        "issue": "SS4",
+        "expected": "open",
+        "point": [
+          -13.236396789550781,
+          20.340295791625977,
+          0.30000001192092896
+        ],
+        "hit": null,
+        "passed": true
+      },
+      {
+        "issue": "SS4",
+        "expected": "open",
+        "point": [
+          -13.236396789550781,
+          20.340295791625977,
+          1.649999976158142
+        ],
+        "hit": null,
+        "passed": true
+      },
+      {
+        "issue": "SS4",
+        "expected": "open",
+        "point": [
+          -13.236396789550781,
+          20.340295791625977,
+          3.799999952316284
+        ],
+        "hit": null,
+        "passed": true
+      },
+      {
+        "issue": "SS4",
+        "expected": "open",
+        "point": [
+          -16.59425926208496,
+          20.462326049804688,
+          0.30000001192092896
+        ],
+        "hit": null,
+        "passed": true
+      },
+      {
+        "issue": "SS4",
+        "expected": "open",
+        "point": [
+          -16.59425926208496,
+          20.462326049804688,
+          1.649999976158142
+        ],
+        "hit": null,
+        "passed": true
+      },
+      {
+        "issue": "SS4",
+        "expected": "open",
+        "point": [
+          -16.59425926208496,
+          20.462326049804688,
+          3.799999952316284
+        ],
+        "hit": null,
+        "passed": true
+      },
+      {
+        "issue": "SS4",
+        "expected": "open",
+        "point": [
+          -19.952119827270508,
+          20.584354400634766,
+          0.30000001192092896
+        ],
+        "hit": null,
+        "passed": true
+      },
+      {
+        "issue": "SS4",
+        "expected": "open",
+        "point": [
+          -19.952119827270508,
+          20.584354400634766,
+          1.649999976158142
+        ],
+        "hit": null,
+        "passed": true
+      },
+      {
+        "issue": "SS4",
+        "expected": "open",
+        "point": [
+          -19.952119827270508,
+          20.584354400634766,
+          3.799999952316284
+        ],
+        "hit": null,
+        "passed": true
+      },
+      {
+        "issue": "SS4",
+        "expected": "open",
+        "point": [
+          -23.309982299804688,
+          20.706384658813477,
+          0.30000001192092896
+        ],
+        "hit": null,
+        "passed": true
+      },
+      {
+        "issue": "SS4",
+        "expected": "open",
+        "point": [
+          -23.309982299804688,
+          20.706384658813477,
+          1.649999976158142
+        ],
+        "hit": null,
+        "passed": true
+      },
+      {
+        "issue": "SS4",
+        "expected": "open",
+        "point": [
+          -23.309982299804688,
+          20.706384658813477,
+          3.799999952316284
+        ],
+        "hit": null,
+        "passed": true
+      },
+      {
+        "issue": "SS1_SS2",
+        "point": [
+          5.858467102050781,
+          -6.9578094482421875,
+          3.2934961318969727
+        ],
+        "expected": "closed",
+        "hit": "P11_EAST_19_05",
+        "passed": true
+      },
+      {
+        "issue": "SS1_SS2",
+        "point": [
+          6.272340774536133,
+          -6.59459114074707,
+          3.6714420318603516
+        ],
+        "expected": "closed",
+        "hit": "P11_EAST_19_05",
+        "passed": true
+      },
+      {
+        "issue": "SS1_SS2",
+        "point": [
+          7.337421417236328,
+          -5.582580089569092,
+          4.427334308624268
+        ],
+        "expected": "closed",
+        "hit": "P11_EAST_19_04",
+        "passed": true
+      },
+      {
+        "issue": "SS1_SS2",
+        "point": [
+          7.7077956199646,
+          -5.259810924530029,
+          4.805280685424805
+        ],
+        "expected": "closed",
+        "hit": "P11_GH_LOWER_EAST_04_04_FRAME_1",
+        "passed": true
+      },
+      {
+        "issue": "SS1_SS2",
+        "point": [
+          8.816374778747559,
+          -4.2073516845703125,
+          5.5611724853515625
+        ],
+        "expected": "closed",
+        "hit": "P11_EAST_19_03",
+        "passed": true
+      },
+      {
+        "issue": "SS1_SS2",
+        "point": [
+          9.143251419067383,
+          -3.925030469894409,
+          5.939118385314941
+        ],
+        "expected": "closed",
+        "hit": "R95_EAST_SEAM_2_B",
+        "passed": true
+      },
+      {
+        "issue": "SS1_SS2",
+        "point": [
+          10.295329093933105,
+          -2.8321235179901123,
+          6.695010185241699
+        ],
+        "expected": "closed",
+        "hit": "R95_EAST_SEAM_3_A",
+        "passed": true
+      },
+      {
+        "issue": "SS1_SS2",
+        "point": [
+          10.578706741333008,
+          -2.59024977684021,
+          7.07295560836792
+        ],
+        "expected": "closed",
+        "hit": "R95_EAST_SEAM_3_B",
+        "passed": true
+      },
+      {
+        "issue": "SS1_SS2",
+        "point": [
+          11.774282455444336,
+          -1.456894874572754,
+          7.828847408294678
+        ],
+        "expected": "closed",
+        "hit": "R95_EAST_SEAM_4_A",
+        "passed": true
+      },
+      {
+        "issue": "SS1_SS2",
+        "point": [
+          12.014162063598633,
+          -1.2554692029953003,
+          8.206793785095215
+        ],
+        "expected": "closed",
+        "hit": "R95_EAST_SEAM_4_B",
+        "passed": true
+      },
+      {
+        "issue": "SS1_SS2",
+        "point": [
+          13.253236770629883,
+          -0.08166670799255371,
+          8.962684631347656
+        ],
+        "expected": "closed",
+        "hit": "R95_EAST_SEAM_5_A",
+        "passed": true
+      },
+      {
+        "issue": "SS1_SS2",
+        "point": [
+          13.449617385864258,
+          0.07931141555309296,
+          9.340631484985352
+        ],
+        "expected": "closed",
+        "hit": "R95_EAST_SEAM_5_B",
+        "passed": true
+      },
+      {
+        "issue": "SS1_SS2",
+        "point": [
+          14.015275955200195,
+          0.6485573053359985,
+          10.419334411621094
+        ],
+        "expected": "closed",
+        "hit": "R95_EAST_RETURN_0_0",
+        "passed": true
+      },
+      {
+        "issue": "SS1_SS2",
+        "point": [
+          14.015275955200195,
+          0.6485573053359985,
+          11.82084846496582
+        ],
+        "expected": "closed",
+        "hit": "R95_EAST_RETURN_0_1",
+        "passed": true
+      },
+      {
+        "issue": "SS1_SS2",
+        "point": [
+          14.015275955200195,
+          0.6485573053359985,
+          13.22236156463623
+        ],
+        "expected": "closed",
+        "hit": "R95_EAST_RETURN_0_2",
+        "passed": true
+      },
+      {
+        "issue": "SS1_SS2",
+        "point": [
+          14.905548095703125,
+          1.4763909578323364,
+          10.419334411621094
+        ],
+        "expected": "closed",
+        "hit": "R95_EAST_RETURN_1_0",
+        "passed": true
+      },
+      {
+        "issue": "SS1_SS2",
+        "point": [
+          14.905548095703125,
+          1.4763909578323364,
+          11.82084846496582
+        ],
+        "expected": "closed",
+        "hit": "R95_EAST_RETURN_1_1",
+        "passed": true
+      },
+      {
+        "issue": "SS1_SS2",
+        "point": [
+          14.905548095703125,
+          1.4763909578323364,
+          13.22236156463623
+        ],
+        "expected": "closed",
+        "hit": "R95_EAST_RETURN_1_2",
+        "passed": true
+      },
+      {
+        "issue": "SS1_SS2",
+        "point": [
+          15.795820236206055,
+          2.3042244911193848,
+          10.419334411621094
+        ],
+        "expected": "closed",
+        "hit": "R95_EAST_RETURN_2_0",
+        "passed": true
+      },
+      {
+        "issue": "SS1_SS2",
+        "point": [
+          15.795820236206055,
+          2.3042244911193848,
+          11.82084846496582
+        ],
+        "expected": "closed",
+        "hit": "R95_EAST_RETURN_2_1",
+        "passed": true
+      },
+      {
+        "issue": "SS1_SS2",
+        "point": [
+          15.795820236206055,
+          2.3042244911193848,
+          13.22236156463623
+        ],
+        "expected": "closed",
+        "hit": "R72_HIGH_ATRIUM_WALL_5",
+        "passed": true
+      },
+      {
+        "issue": "SS1_SS2",
+        "point": [
+          13.586318969726562,
+          0.2172410786151886,
+          10.419334411621094
+        ],
+        "expected": "closed",
+        "hit": "P11_GH_BAND_7_00_00_FRAME_3",
+        "passed": true
+      },
+      {
+        "issue": "SS1_SS2",
+        "point": [
+          13.586318969726562,
+          0.2172410786151886,
+          11.82084846496582
+        ],
+        "expected": "closed",
+        "hit": "R95_EAST_RETURN_0_1_EDGE_3",
+        "passed": true
+      },
+      {
+        "issue": "SS1_SS2",
+        "point": [
+          13.586318969726562,
+          0.2172410786151886,
+          13.22236156463623
+        ],
+        "expected": "closed",
+        "hit": "R95_EAST_RETURN_0_2_EDGE_3",
+        "passed": true
+      }
+    ]
+  },
+  "summary": {
+    "SS1_SS2": {
+      "before_failed": 15,
+      "after_failed": 0
+    },
+    "SS3": {
+      "before_failed": 15,
+      "after_failed": 0
+    },
+    "SS4": {
+      "before_failed": 15,
+      "after_failed": 0
+    },
+    "SS5": {
+      "before_failed": 30,
+      "after_failed": 0
+    }
+  },
+  "failures": [],
+  "construction_acceptance": false
+}
