@@ -1,0 +1,17 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R67_GECIT_TAS_DOSEME_v001.blend",
+  "base_scene": "12_Blender_Model/scenes/MUDAM_R66_GECIT_YAN_ARMATUR_v001.blend",
+  "inherited_objects_checked": 8372,
+  "changed_inherited_objects": [
+    "P05_LINK_FLOOR",
+    "R11_LINK_THRESHOLD"
+  ],
+  "allowed_changes": [
+    "P05_LINK_FLOOR",
+    "R11_LINK_THRESHOLD"
+  ],
+  "allowed_but_unchanged": [],
+  "new_objects": [],
+  "failures": [],
+  "construction_acceptance": false
+}

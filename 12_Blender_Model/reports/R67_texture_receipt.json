@@ -1,0 +1,32 @@
+{
+  "files": [
+    {
+      "path": "12_Blender_Model/textures/R67_diagonal_floor_candidate_basecolor.png",
+      "sha256": "2db52ed49e0cf6809380de9793279b33c539e0c37f3d36008de0006744bba5c8"
+    },
+    {
+      "path": "12_Blender_Model/textures/R67_diagonal_floor_candidate_normal.png",
+      "sha256": "6caa39228e6c287812a2072f88c34ef670996fd608570c06bfcedc26b23471bd"
+    }
+  ],
+  "resolution": [
+    2048,
+    2048
+  ],
+  "repeat_m": [
+    3.6,
+    3.6
+  ],
+  "candidate_cell_m": 0.9,
+  "joint_candidate_m": 0.0012,
+  "source_ids": [
+    "067"
+  ],
+  "scanned": false,
+  "construction_acceptance": false,
+  "limits": [
+    "067 supports pale stone and diagonal triangular joints.",
+    "Alternating square diagonals,900mm cells,1.2mm joints,colour and orientation are appearance candidates; exact source layout not traced.",
+    "No geometric displacement or measured product claim."
+  ]
+}

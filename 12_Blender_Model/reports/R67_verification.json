@@ -1,0 +1,41 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R67_GECIT_TAS_DOSEME_v001.blend",
+  "evaluated_geometry_objects_checked": 8372,
+  "geometry_identical": true,
+  "uv_checks": [
+    {
+      "name": "P05_LINK_FLOOR",
+      "faces": 1,
+      "max_uv_error": 0.0,
+      "min_uv_area": 3.8548447588362933
+    },
+    {
+      "name": "R11_LINK_THRESHOLD",
+      "faces": 1,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.024501574043824803
+    }
+  ],
+  "packed_images": [
+    {
+      "material": "R67_LINK_DIAGONAL_STONE_CANDIDATE",
+      "image": "R67_diagonal_floor_candidate_basecolor.png",
+      "packed": true,
+      "size": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "material": "R67_LINK_DIAGONAL_STONE_CANDIDATE",
+      "image": "R67_diagonal_floor_candidate_normal.png",
+      "packed": true,
+      "size": [
+        2048,
+        2048
+      ]
+    }
+  ],
+  "failures": [],
+  "construction_acceptance": false
+}

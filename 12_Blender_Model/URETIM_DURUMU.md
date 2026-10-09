@@ -1,30 +1,41 @@
 # Mudam - üretim durumu
 
+[Canlı üretim panosu](URETIM_DURUMU.html) — bu kayıt dosyasını 15 saniyede bir kontrol eder.
+
 9 Ekim 2026. Blender 4.2 / metre / EPSG:32632 yerel koordinatlar.
+
+Yüzdeler yaklaşık iş kapsamı ilerlemesidir: her pakette beş eşit adım, tamamlanan adım 20 ve kısmi adım 10 puan. Modelin ölçü doğruluğu ya da harcanan süre oranı değildir. [İlerleme adımları](config/production_progress.json).
 
 ## Güncel teslim
 
-[MUDAM_R61_SACAK_GOMME_ISIK_v002.blend](scenes/MUDAM_R61_SACAK_GOMME_ISIK_v002.blend) giriş, çatı ve merdiven çalışmalarını birlikte içerir. [Görsel inceleme](URETIM.html) · [Üretim raporu](reports/P07_P09_URETIM_RAPORU.md).
+[MUDAM_R68_PAVYON_HENDEK_KOLU_v001.blend](scenes/MUDAM_R68_PAVYON_HENDEK_KOLU_v001.blend) giriş, çatı ve merdiven çalışmalarını birlikte içerir. [Görsel inceleme](URETIM.html) · [Üretim raporu](reports/P07_P09_URETIM_RAPORU.md).
 
-| Paket | Durum | Somut çıktı / açık konu |
-| --- | --- | --- |
-| P00-P01 | Tamam / eksikler belgeli | Kaynak manifesti, üst kat kanıtları |
-| P02 | Sürüyor | Kesit tarihi ve izi açık |
-| P03 | Tamam | Plan/OSM koordinat aktarımı; ölçme doğruluğu değildir |
-| P04 | Sürüyor | Koşullu kat kotları; rıht zinciri açık |
-| P05 | Sürüyor | Kabuk ve örtü etütleri; giriş saçağı ve alt cam örtü revize |
-| P06 | Sürüyor | 087 / 119 / 116 koşullu kameraları; iç kamera açık |
-| P07 | Bölgesel pilot | Girişte ayrı kapalı duvar/saçak/döşeme hacimleri |
-| P08 | Bölgesel pilot | Girişte altı açıklık kimliği; cam/çerçeve ayrımı |
-| P09 | Kısmi üretim | Üç geniş başlangıç basamağı ve düzeltilmiş üst merdiven yönü |
-| P10-P11 | Bölgesel üretim | 794 ayrı cam panel, profiller, doğu gergi katmanı ve geçit; ayrıntılar koşullu |
-| P12 | Giriş pilotu | Düz kanatlar, donanımlar, giriş kutusu oran düzeltmesi; mekanizma belirsiz |
-| P13-P14, P16, P18 | Açık | Taş/derz, bütün açıklıklar, iç bitişler, arazi |
-| P15, P17 | Bölgesel pilot | Okuma alanı döşeme boşluğu, cam korkuluk ve çatı açıklığı |
-| P19 | Önizleme | Saydam cam ve genel gündüz ışığı; malzeme/ışık kalibrasyonu açık |
-| P20 | Kontrol aracı | L00/LP1 yatay kesitleri plan üzerinde |
-| P21 | Ara teslim | GLB aktarımı denetlendi; hedef motor optimizasyonu açık |
-| P22 | Açık | Nihai mimari teslim doğrulaması yapılmadı |
+| Paket | Durum | İlerleme | Somut çıktı / açık konu |
+| --- | --- | --- | --- |
+| P00 — Ortam ve kaynak manifesti | Tamam | %100 | Kaynakların tamamı dosyaya çözülür; orijinaller korunur |
+| P01 — Üst kat referans araştırması | Eksikler belgeli | %80 | Açık: UG02/UG03 üst galeri iç ışıklık biçimini destekliyor; çözünürlükleri 150x100. UC01/UC02 yapım kesit biçimini destekliyor. Kesin kanat/kamera ve panel ölçüleri açık. |
+| P02 — Kesit tarihi ve izi | Sürüyor | %30 | Açık: 101 kesitinin tarihi ve plan kesit izi çözülmedi. |
+| P03 — Yatay referans aktarımı | Tamam | %100 | İki nokta ve yön testi; atlas Y işareti doğru |
+| P04 — Düşey ölçü çözümü | Sürüyor | %70 | Üretilen: Ana/alt merdiven, doğu spiral, batı ve pavyon merdivenlerinin koşullu kot zincirleri kuruldu; bölgesel destek ve baş mesafesi kontrolleri mevcut.. Açık: 101 kesit tarihi/izi açık; kat kotları ve gerçek rıht adetleri ölçülmüş değildir. |
+| P05 — Tüm bina sade geometrisi | Sürüyor | %70 | Üretilen: Ana hacimler, üst galerilerin 6+4 ışıklık adayı, yan örtüler ve pavyon kuruldu.. Açık: Çevre arazi kolları, eksik cephe açıklıkları ve bütün yapı birleşimlerinin kaynak karşılaştırması sürüyor. |
+| P06 — Kamera eşleştirme pilotu | Sürüyor | %70 | Açık: 087/119/116 için üç koşullu kamera. 116 karşı görünüşte kontrol RMS 10,05 px. İç kamera ve tam metrik doğrulama açık. |
+| P07 — Beton duvar ve döşemeler | Sürüyor | %70 | Üretilen: Duvar/döşeme bölgesel kabukları kapalı; merdiven nişi ve galeri camlarıyla yerel kesimler koordine edildi. 20 nesne ve175 yüzün malzeme/UV adayı;7.942 nesnenin hesaplanan geometrisi değişmedi. Altı yuva ve24 kapalı parça;102 ışın ve7235 görünür mesh kontrolü geçti. 067/068 ile16 çapraz,240 parça;32 destek ve96 uç bağlantısı kontrolü geçti. 067/068 ile 130 yeni parça; 146 bağlantı ve 32 lens açıklığı kontrolü geçti. 7.634 görünür mesh.. Açık: Kalınlıklar ve gizli taşıyıcı sistem koşullu; bütün bina için yapı fiziği/çakışma kabulü yapılmadı. Renk, derz, malzeme bileşimi ve çizgisel yüzey derinliği ölçülmedi; saçak kotu koşullu. Fotoğraf homografisi düşük güvenli: dışarıda bırakma hatası188,89px. Çap, profil, kot ve tam armatür sayısı doğrulanmadı. Sekiz göz devralındı; çap,kot,çatal ve ankraj ölçülmedi. Yapısal hesap değildir. 32 adet sekiz göze uygulanan tekrar adayı; çap, kot, ürün ve fotometri doğrulanmadı. |
+| P08 — Kapı pencere ve mekân listesi | Sürüyor | %70 | Üretilen: Giriş kanatları, galeri geçişleri, oditoryum ve pavyon kapıları, asansör sahanlığı, galeri ve alt cephe cam adayları üretildi. 18–25cm yüksekteki hatalı tam boy profil kaldırıldı;2m statik geçişte189 ışın ve63 döşeme örneği geçti.. Açık: Bütün kapı/pencere listesi ve kaynak eşlemesi tamamlanmadı; servis alanları ve donanım kimlikleri açık. Geniş2,2m tarama sağ panele çarpar; hareketli kanatlar bu statik testten ayrı. Gerçek kapı mekanizması ve eşik ölçüsü açık. |
+| P09 — Merdiven ve sahanlıklar | Sürüyor | %80 | Üretilen: İki Grand Hall merdiveni, doğu spiral, batı kol ve pavyon merdiveni adayları; alt küpeşte sürekliliği işlendi.. Açık: Gerçek rıht adetleri/kesitler koşullu; pavyon alt bağlantı ve merkez çekirdek kaynakları yetersiz. |
+| P10 — Ana cam örtü | Sürüyor | %80 | Üretilen: Ana çatı panel/metal ağı, dört geniş yüzde 3816 gölgelik lameli, okuma fenerinin kare gövdesi üretildi. 067/068 ile16 çapraz,240 parça;32 destek ve96 uç bağlantısı kontrolü geçti.. Açık: Cam/profil kesitleri ve bağlantılar ölçülmedi; gizli gölgelik mekanizması doğrulanmadı. Sekiz göz devralındı; çap,kot,çatal ve ankraj ölçülmedi. Yapısal hesap değildir. |
+| P11 — Yan salon ve pavyon örtüleri | Sürüyor | %90 | Üretilen: Batı 108 düz cam, pavyon 108 cam/216 profil, doğu cam şeridi ve üst galerilerin 10 ışıklık adayı kuruldu.. Açık: Panel bölünmesi, tekrarlanan kabuk adedi, kesin başlık/kenar detayları koşullu. |
+| P12 — Üç örnek detay bölgesi | Sürüyor | %80 | Üretilen: Girişte dört düz cam kanat; kıvrımlı cam/küpeşte; galeri camının plan sınırı ve taş nişi örnekleri üretildi. 60 yeni parça ve iki döşemede sıfır kotuyla aynı biten yuva;441 destek örneği,52 kapı açısı ve204 yaklaşım kontrolü geçti. 014 ile28 parça,4 destek ve mevcut kapı pozu kontrolü;7263 görünür mesh denetlendi. 18–25cm yüksekteki hatalı tam boy profil kaldırıldı;2m statik geçişte189 ışın ve63 döşeme örneği geçti. 067/068 ile16 çapraz,240 parça;32 destek ve96 uç bağlantısı kontrolü geçti. 067/068 ile 130 yeni parça; 146 bağlantı ve 32 lens açıklığı kontrolü geçti. 7.634 görünür mesh.. Açık: Kapı mekanizması, doğrama ürünü ve bağlayıcı kesitlerin gerçek ölçüleri yok; yakın detay kaynak karşılaştırması sürüyor. Bölünme, yuva derinliği, malzeme ve ızgara adımı aday; gerçek kapı mekanizması doğrulanmadı. Boyut,ürün,işlev,delik deseni ve tam hareket mekanizması açık. Eski sabit alt profil hatası R64 kapsamına alındı. Geniş2,2m tarama sağ panele çarpar; hareketli kanatlar bu statik testten ayrı. Gerçek kapı mekanizması ve eşik ölçüsü açık. Sekiz göz devralındı; çap,kot,çatal ve ankraj ölçülmedi. Yapısal hesap değildir. 32 adet sekiz göze uygulanan tekrar adayı; çap, kot, ürün ve fotometri doğrulanmadı. |
+| P13 — Taş yüzeyler ve derzler | Sürüyor | %80 | Üretilen: Taş cephe/zemin, iki ana merdiven mineral yüzeyleri, galeri nişi ve tarihî örgü UV adayları işlendi. Mevcut döşemede50 yüz: koyu taş ve açık kenar bandı. Yüzey/hacim karşılaştırması ve204 yaklaşım örneği geçti. 20 nesne ve175 yüzün malzeme/UV adayı;7.942 nesnenin hesaplanan geometrisi değişmedi. 013 yakın çekimiyle R59 şaşırtmalı örgüsü değiştirildi;17 yüz ve bütün sahnede geometri eşitliği kontrolü geçti. 067 ile iki üst yüzün taş görünümü işlendi. Bütün sahnede hesaplanan geometri aynı; UV ve doku kontrolleri geçti.. Açık: Blok/derz modülleri, numune renkleri ve gerçek taş dizimi bilinmiyor; bazı yüzeyler hâlâ düz malzeme. Taş modülü, derz, renk, yön ve0,65m bant genişliği ölçülmemiş görünüm adayları. Renk, derz, malzeme bileşimi ve çizgisel yüzey derinliği ölçülmedi; saçak kotu koşullu. Örgü tipi fotoğraftan;200×50mm modül,derz,renk ve yön aday. 900mm hücre,1,2mm derz,yön ve desen aday; fotoğraf dizimi birebir izlenmedi. |
+| P14 — Bütün kapı ve pencereler | Sürüyor | %40 | Üretilen: Giriş ve bölgesel iç kapılar, üst galeri geçişleri, iki plan bağlı galeri camı ve beş tarihî duvar alt penceresi mevcut.. Açık: 065 yan cephedeki iki alt pencerenin bina kenarı kaydı; diğer cephe açıklıkları, servis kapıları ve bütün donanımlar açık. A06 ilk iki pencere çevresinde kayıt çelişkisi sürüyor. |
+| P15 — Korkuluk ve metal birleşimler | Sürüyor | %90 | Üretilen: Okuma boşluğu, iki Grand Hall kolu, doğu spiral, batı/pavyon ve yaklaşım köprüleri korkuluk adayları kuruldu. 008/011/012 ile ince üç çubuk adayı değiştirildi:62 kapalı boru/levha/cam/kanal;160 taban desteği ve204 yaklaşım örneği geçti.. Açık: Gerçek cam ve metal kesitleri, sabitleme, ankraj ve montaj birleşimleri ölçülmedi. İç uçlar kolon yüzüne bağlı yerel aday;1,055/1,534m OSM farkı kaydedildi. Çap, aralık, kalınlık ve montaj ölçülmedi. |
+| P16 — Zemin ve alt kat iç bitişleri | Sürüyor | %70 | Üretilen: Giriş/vestiyer bölgesi, alt galeri/fuaye, oditoryum ve galeri taş/ahşap yüzey adayları üretildi. 60 yeni parça ve iki döşemede sıfır kotuyla aynı biten yuva;441 destek örneği,52 kapı açısı ve204 yaklaşım kontrolü geçti. 014 ile28 parça,4 destek ve mevcut kapı pozu kontrolü;7263 görünür mesh denetlendi. 18–25cm yüksekteki hatalı tam boy profil kaldırıldı;2m statik geçişte189 ışın ve63 döşeme örneği geçti. 067 ile iki üst yüzün taş görünümü işlendi. Bütün sahnede hesaplanan geometri aynı; UV ve doku kontrolleri geçti.. Açık: Oditoryum128 koltuk adayı mimar/LCB tablosu ve fotoğraf arka sırasıyla destekli; Kamu Yapıları120 ve LCB metni130 değerlerinin kapsam/tarih farkı açık. Eksik sabit donatılar, alt kat aydınlatması ve tam yüzey kaynak listesi gerekiyor. Bölünme, yuva derinliği, malzeme ve ızgara adımı aday; gerçek kapı mekanizması doğrulanmadı. Boyut,ürün,işlev,delik deseni ve tam hareket mekanizması açık. Eski sabit alt profil hatası R64 kapsamına alındı. Geniş2,2m tarama sağ panele çarpar; hareketli kanatlar bu statik testten ayrı. Gerçek kapı mekanizması ve eşik ölçüsü açık. 900mm hücre,1,2mm derz,yön ve desen aday; fotoğraf dizimi birebir izlenmedi. |
+| P17 — Üst kat iç bitişleri | Sürüyor | %70 | Üretilen: Okuma odası, eğimli tavan ve24 kollu ışık; iki üst galeri, Studio, asansör sahanlığı; Grand Hall20 silindir ışık işlendi.. Açık: Üst kat fotoğraflarının kanat kimlikleri, kesin ölçüler, sabit donatılar ve galeri aydınlatma detayları açık. |
+| P18 — Arazi tarihî duvar ve peyzaj | Sürüyor | %70 | Üretilen: İlk hendek/tarihî duvar sınırları, köprü/yaklaşım yolları,19 OSM ağaç konumu ve tarihî taş/çim görünümü mevcut. 19 OSM konumu korunarak 38 dal/yaprak mesh’i üretildi;204 yaklaşım kontrolü geçti. 008/011/012 ile ince üç çubuk adayı değiştirildi:62 kapalı boru/levha/cam/kanal;160 taban desteği ve204 yaklaşım örneği geçti. Mevcut döşemede50 yüz: koyu taş ve açık kenar bandı. Yüzey/hacim karşılaştırması ve204 yaklaşım örneği geçti. 013 yakın çekimiyle R59 şaşırtmalı örgüsü değiştirildi;17 yüz ve bütün sahnede geometri eşitliği kontrolü geçti. İki OSM duvar zinciri: altı duvar ve zemin.30 duvar/440 zemin ışını ve pavyon kesişim kontrolü geçti.. Açık: Diğer hendek kolları, değişen kotlar, tarihî açıklıklar, destekler ve bitki/yol sınırlarının tamamı çözülmedi. Arazi düz kot ve OSM çizgilerinden türetilmiş aday. Tür, yükseklik, yaprak ve dallanma düzeni temsilî; tekil fotoğraf ağacı eşlemesi yok. İç uçlar kolon yüzüne bağlı yerel aday;1,055/1,534m OSM farkı kaydedildi. Çap, aralık, kalınlık ve montaj ölçülmedi. Taş modülü, derz, renk, yön ve0,65m bant genişliği ölçülmemiş görünüm adayları. Örgü tipi fotoğraftan;200×50mm modül,derz,renk ve yön aday. Genişlik ve düz kotlar R35 adayı; arazi ölçümü değil. Diğer kollar ve tarihî ayrıntılar açık. |
+| P19 — Malzeme ve ışık | Sürüyor | %70 | Üretilen: Taş/ahşap/mineral, metal, cam ve çevre yüzey adayları; genel gün ışığı ve bölgesel aydınlatma geometrisi mevcut. 19 OSM konumu korunarak 38 dal/yaprak mesh’i üretildi;204 yaklaşım kontrolü geçti. Mevcut döşemede50 yüz: koyu taş ve açık kenar bandı. Yüzey/hacim karşılaştırması ve204 yaklaşım örneği geçti. 20 nesne ve175 yüzün malzeme/UV adayı;7.942 nesnenin hesaplanan geometrisi değişmedi. Altı yuva ve24 kapalı parça;102 ışın ve7235 görünür mesh kontrolü geçti. 013 yakın çekimiyle R59 şaşırtmalı örgüsü değiştirildi;17 yüz ve bütün sahnede geometri eşitliği kontrolü geçti. 067/068 ile 130 yeni parça; 146 bağlantı ve 32 lens açıklığı kontrolü geçti. 7.634 görünür mesh. 067 ile iki üst yüzün taş görünümü işlendi. Bütün sahnede hesaplanan geometri aynı; UV ve doku kontrolleri geçti.. Açık: Renk, ışık gücü, armatür fotometrisi ve malzeme ürünleri kalibre değil; görünüm fiziksel ölçüm değildir. Tür, yükseklik, yaprak ve dallanma düzeni temsilî; tekil fotoğraf ağacı eşlemesi yok. Taş modülü, derz, renk, yön ve0,65m bant genişliği ölçülmemiş görünüm adayları. Renk, derz, malzeme bileşimi ve çizgisel yüzey derinliği ölçülmedi; saçak kotu koşullu. Fotoğraf homografisi düşük güvenli: dışarıda bırakma hatası188,89px. Çap, profil, kot ve tam armatür sayısı doğrulanmadı. Örgü tipi fotoğraftan;200×50mm modül,derz,renk ve yön aday. 32 adet sekiz göze uygulanan tekrar adayı; çap, kot, ürün ve fotometri doğrulanmadı. 900mm hücre,1,2mm derz,yön ve desen aday; fotoğraf dizimi birebir izlenmedi. |
+| P20 — Kat ayırma ve kesit | Sürüyor | %80 | Açık: Üç kat kot aralığı, yatay/düşey canlı kesit, parça-kaynak seçimi ve tek parça görünümü mevcut. Kesit yüzleri kapaksız; kat kotları koşullu; bina kabulü yapılmadı. |
+| P21 — Hafif türev ve dışa aktarma | Sürüyor | %70 | Açık: 7641 mesh / 2446840 üçgen GLB aktarımı denetlendi; hedef motor ve sadeleştirme açık. |
+| P22 — Teslim doğrulaması | Sürüyor | %40 | Üretilen: Sahneler yeniden açılıyor; bölgesel geometri, dolaşım, kaynak ve render kayıtları tutuluyor. 18–25cm yüksekteki hatalı tam boy profil kaldırıldı;2m statik geçişte189 ışın ve63 döşeme örneği geçti.. Açık: Son bütünleşik bina kabulü, nihai kaynak/varsayım özeti, teslim paketi ve hedef motor kontrolü henüz tamamlanmadı. Geniş2,2m tarama sağ panele çarpar; hareketli kanatlar bu statik testten ayrı. Gerçek kapı mekanizması ve eşik ölçüsü açık. |
+
 
 ## Kontrol sonuçları
 
@@ -142,3 +153,27 @@ R35 güncel sahne; R29–R35 bölgesel sahneler, kaynak/varsayım kayıtları ve
 
 
 2026-10-09T08:56:21.447708+00:00 — 386951b5754ae3f75a4c0e79c132e45728ebf85f origin/main normal push doğrulandı; uzak main ve yerel HEAD aynı. R55–R61 sahneleri, renderlar ve kaynak kontrolleri gönderildi; R61 GLB84.707.696 bayt, tarayıcıda7.235 parça yüklendi. GitHub50MB tavsiye uyarısı verdi, aktarım başarılı ve dosyalar100MB sınırının altında. R62 döşeme örgüsü düzeltmesi sürüyor; üretim durmadı.
+
+
+2026-10-09T08:57:18.495971+00:00 — R62 v001:013 yakın çekiminde belirlenen balıksırtı örgüyle yaklaşım taşı düzeltildi.17 yüz;geometri değişmedi. Giriş donatıları çalışması sürüyor.
+
+
+2026-10-09T09:08:12.464329+00:00 — R63 v002 giriş panel/levhası; R64 v001 geçişi kapatan eski yükseltilmiş sabit alt profil düzeltildi.189 statik açıklık ışını,63 zemin örneği;7264 görünür mesh. Yan cephe pencerelerinin kaynağına devam ediliyor.
+
+
+2026-10-09T09:34:14.834499+00:00 — Üretim kaydı basit HTML arayüzüne bağlandı. Son kayıtlar, arama, güncel sahne ve son push bilgisi doğrudan bu Markdown dosyasından okunuyor. R65 v002 çapraz gergi paketi kabul edildi; R66 geçit armatürlerinin sayısal kontrolleri geçti, son görsel kontrolü sürüyor. Modelin bütünü henüz tamamlanmadı.
+
+
+2026-10-09T09:36:08.688352+00:00 — R65 v002 çapraz gergileri ve R66 v001 boyuna eleman/armatürleri görsel ve sayısal kontrolden geçti. R66:130 yeni kapalı parça,146 temas,32 lens açıklığı;7.634 görünür mesh. Armatür toplam adedi ve kesit ölçüleri aday. Geçit döşemesi ve çevre kaynaklarına devam ediliyor.
+
+
+2026-10-09T09:45:55.459281+00:00 — Üretim panosu sadeleştirildi: beyaz zemin, siyah yazı,23 iş paketi ve ilerleme yüzdeleri. Her paket açılınca kalan işler gösteriliyor; teknik kayıtlar Markdown’da. Güncellemeler kısa özetlerle otomatik yenileniyor.
+
+
+2026-10-09T09:48:57.535166+00:00 — R67: cam geçidin çapraz derzli taş döşemesi eklendi. İki yüz güncellendi; geometri ve kotlar korundu. Kaynak karşılaştırması, UV kontrolü ve iki render tamamlandı; modül ve desen aday.
+
+
+2026-10-09T09:54:54.572662+00:00 — R68: pavyon yanındaki hendek kolu ve altı tarihî duvar eklendi. Harita çizgileri,30 duvar ve440 zemin örneği kontrol edildi; pavyonla yüz kesişimi yok. Kotlar ve duvar genişlikleri temsilî; kalan arazi işleri sürüyor.
+
+
+2026-10-09T09:59:48.153715+00:00 — Saatlik hafif yayın düzeni kuruldu. Blender sahneleri ve GLB modelleri yerelde kalacak; yalnız pano, render, rapor ve üretim dosyaları gönderilecek. Mevcut saatlik otomasyon güncellendi; önceki model dosyaları yayımlanmış Git geçmişinde kalır.

@@ -1,0 +1,558 @@
+{
+  "as_of_revision": "R68",
+  "basis": "Beş eşit iş adımı: tamam 20, kısmi 10, bekleyen 0 puan. Yaklaşık kapsam ilerlemesidir; ölçü doğruluğu veya harcanan süre oranı değildir. Yeni paket kabulünde ilgili adımlar yeniden değerlendirilir.",
+  "tasks": {
+    "P00": {
+      "steps": [
+        {
+          "label": "Blender ve çalışma ortamı",
+          "completion": 1
+        },
+        {
+          "label": "Kaynak dosyaları",
+          "completion": 1
+        },
+        {
+          "label": "Dosya ve kaynak kimlikleri",
+          "completion": 1
+        },
+        {
+          "label": "Sürüm kayıt düzeni",
+          "completion": 1
+        },
+        {
+          "label": "Ortam kontrolü",
+          "completion": 1
+        }
+      ]
+    },
+    "P01": {
+      "steps": [
+        {
+          "label": "Üst kat planlarını toplama",
+          "completion": 1
+        },
+        {
+          "label": "Üst kat fotoğraflarını toplama",
+          "completion": 1
+        },
+        {
+          "label": "Işıklık referansları",
+          "completion": 1
+        },
+        {
+          "label": "Eksik kaynakları kaydetme",
+          "completion": 1
+        },
+        {
+          "label": "Fotoğrafların kanatlarını kesinleştirme",
+          "completion": 0
+        }
+      ]
+    },
+    "P02": {
+      "steps": [
+        {
+          "label": "Kesit kaynaklarını toplama",
+          "completion": 1
+        },
+        {
+          "label": "Kesiti planla karşılaştırma",
+          "completion": 0.5
+        },
+        {
+          "label": "Kesit tarihini belirleme",
+          "completion": 0
+        },
+        {
+          "label": "Kesit izini kesinleştirme",
+          "completion": 0
+        },
+        {
+          "label": "Son tutarlılık kontrolü",
+          "completion": 0
+        }
+      ]
+    },
+    "P03": {
+      "steps": [
+        {
+          "label": "Plan koordinatları",
+          "completion": 1
+        },
+        {
+          "label": "Haritaya yerleştirme",
+          "completion": 1
+        },
+        {
+          "label": "Ölçek aktarımı",
+          "completion": 1
+        },
+        {
+          "label": "Bağımsız nokta kontrolleri",
+          "completion": 1
+        },
+        {
+          "label": "Ölçü sınırlarını belgeleme",
+          "completion": 1
+        }
+      ]
+    },
+    "P04": {
+      "steps": [
+        {
+          "label": "Kat kotu adayları",
+          "completion": 1
+        },
+        {
+          "label": "Merdiven kot zincirleri",
+          "completion": 1
+        },
+        {
+          "label": "Bölgesel yükseklik kontrolü",
+          "completion": 1
+        },
+        {
+          "label": "Kesit ve rıht sayısı karşılaştırması",
+          "completion": 0.5
+        },
+        {
+          "label": "Bütün bina kot kontrolü",
+          "completion": 0
+        }
+      ]
+    },
+    "P05": {
+      "steps": [
+        {
+          "label": "Ana bina hacimleri",
+          "completion": 1
+        },
+        {
+          "label": "Üst galeri hacimleri",
+          "completion": 1
+        },
+        {
+          "label": "Yan salonlar ve pavyon",
+          "completion": 1
+        },
+        {
+          "label": "Eksik açıklıklar ve birleşimler",
+          "completion": 0.5
+        },
+        {
+          "label": "Bütün yapı karşılaştırması",
+          "completion": 0
+        }
+      ]
+    },
+    "P06": {
+      "steps": [
+        {
+          "label": "Dış kamera referansları",
+          "completion": 1
+        },
+        {
+          "label": "Üç dış kamera eşlemesi",
+          "completion": 1
+        },
+        {
+          "label": "Bağımsız hata kontrolleri",
+          "completion": 1
+        },
+        {
+          "label": "İç kamera eşlemeleri",
+          "completion": 0
+        },
+        {
+          "label": "Kamera belirsizliklerini çözme",
+          "completion": 0.5
+        }
+      ]
+    },
+    "P07": {
+      "steps": [
+        {
+          "label": "Duvar ve döşeme hacimleri",
+          "completion": 1
+        },
+        {
+          "label": "Merdiven boşlukları",
+          "completion": 1
+        },
+        {
+          "label": "Bölgesel kesimler ve birleşimler",
+          "completion": 1
+        },
+        {
+          "label": "Tüm birleşimlerin taranması",
+          "completion": 0.5
+        },
+        {
+          "label": "Son kalınlık ve çakışma kontrolü",
+          "completion": 0
+        }
+      ]
+    },
+    "P08": {
+      "steps": [
+        {
+          "label": "Giriş açıklıkları",
+          "completion": 1
+        },
+        {
+          "label": "Galeri ve oditoryum açıklıkları",
+          "completion": 1
+        },
+        {
+          "label": "Pavyon ve asansör açıklıkları",
+          "completion": 1
+        },
+        {
+          "label": "Servis alanları ve eksik açıklıklar",
+          "completion": 0
+        },
+        {
+          "label": "Bütün açıklık listesini tamamlama",
+          "completion": 0.5
+        }
+      ]
+    },
+    "P09": {
+      "steps": [
+        {
+          "label": "Grand Hall merdivenleri",
+          "completion": 1
+        },
+        {
+          "label": "Doğu ve batı merdivenleri",
+          "completion": 1
+        },
+        {
+          "label": "Korkuluk ve sahanlık bağlantıları",
+          "completion": 1
+        },
+        {
+          "label": "Pavyon merdivenini doğrulama",
+          "completion": 0.5
+        },
+        {
+          "label": "Tüm rıht ve kesitleri karşılaştırma",
+          "completion": 0.5
+        }
+      ]
+    },
+    "P10": {
+      "steps": [
+        {
+          "label": "Ana çatı cam panelleri",
+          "completion": 1
+        },
+        {
+          "label": "Çelik profil ağı",
+          "completion": 1
+        },
+        {
+          "label": "Gölgeleme lamelleri",
+          "completion": 1
+        },
+        {
+          "label": "Bağlantı ayrıntıları",
+          "completion": 0.5
+        },
+        {
+          "label": "Tüm çatı kaynak kontrolü",
+          "completion": 0.5
+        }
+      ]
+    },
+    "P11": {
+      "steps": [
+        {
+          "label": "Batı örtüsü",
+          "completion": 1
+        },
+        {
+          "label": "Pavyon örtüsü",
+          "completion": 1
+        },
+        {
+          "label": "Doğu cam şeridi",
+          "completion": 1
+        },
+        {
+          "label": "Üst galeri ışıklıkları",
+          "completion": 1
+        },
+        {
+          "label": "Başlık ve kenar ayrıntılarını kontrol etme",
+          "completion": 0.5
+        }
+      ]
+    },
+    "P12": {
+      "steps": [
+        {
+          "label": "Giriş kapısı detay bölgesi",
+          "completion": 1
+        },
+        {
+          "label": "Merdiven cam dönüşü",
+          "completion": 1
+        },
+        {
+          "label": "Galeri camı ve taş nişi",
+          "completion": 1
+        },
+        {
+          "label": "Yakın detay kaynak kontrolü",
+          "completion": 0.5
+        },
+        {
+          "label": "Mekanizma ve bağlantıları tamamlama",
+          "completion": 0.5
+        }
+      ]
+    },
+    "P13": {
+      "steps": [
+        {
+          "label": "Cephe taş yüzeyleri",
+          "completion": 1
+        },
+        {
+          "label": "Merdiven taş yüzeyleri",
+          "completion": 1
+        },
+        {
+          "label": "Giriş ve tarihî duvar yüzeyleri",
+          "completion": 1
+        },
+        {
+          "label": "Kalan düz yüzeyleri işleme",
+          "completion": 0.5
+        },
+        {
+          "label": "Derz yönü ve modülleri karşılaştırma",
+          "completion": 0.5
+        }
+      ]
+    },
+    "P14": {
+      "steps": [
+        {
+          "label": "Giriş kapı ve camları",
+          "completion": 1
+        },
+        {
+          "label": "İç kapı ve geçişler",
+          "completion": 0.5
+        },
+        {
+          "label": "Galeri ve alt cephe camları",
+          "completion": 0.5
+        },
+        {
+          "label": "Eksik cephe ve servis açıklıkları",
+          "completion": 0
+        },
+        {
+          "label": "Tüm donanımları kontrol etme",
+          "completion": 0
+        }
+      ]
+    },
+    "P15": {
+      "steps": [
+        {
+          "label": "Okuma boşluğu korkuluğu",
+          "completion": 1
+        },
+        {
+          "label": "Grand Hall korkulukları",
+          "completion": 1
+        },
+        {
+          "label": "Diğer merdiven korkulukları",
+          "completion": 1
+        },
+        {
+          "label": "Yaklaşım köprüleri",
+          "completion": 1
+        },
+        {
+          "label": "Ankraj ve birleşimlerin son kontrolü",
+          "completion": 0.5
+        }
+      ]
+    },
+    "P16": {
+      "steps": [
+        {
+          "label": "Giriş ve vestiyer",
+          "completion": 1
+        },
+        {
+          "label": "Alt galeri ve fuaye",
+          "completion": 1
+        },
+        {
+          "label": "Oditoryum",
+          "completion": 1
+        },
+        {
+          "label": "Eksik sabit donatılar",
+          "completion": 0.5
+        },
+        {
+          "label": "Alt kat aydınlatması ve yüzey kontrolü",
+          "completion": 0
+        }
+      ]
+    },
+    "P17": {
+      "steps": [
+        {
+          "label": "Okuma alanı",
+          "completion": 1
+        },
+        {
+          "label": "Üst galeriler",
+          "completion": 1
+        },
+        {
+          "label": "Studio ve asansör sahanlığı",
+          "completion": 1
+        },
+        {
+          "label": "Sabit donatıları tamamlama",
+          "completion": 0.5
+        },
+        {
+          "label": "Galeri aydınlatması ve kanat eşlemesi",
+          "completion": 0
+        }
+      ]
+    },
+    "P18": {
+      "steps": [
+        {
+          "label": "İlk hendek ve tarihî duvarlar",
+          "completion": 1
+        },
+        {
+          "label": "Köprü ve yaklaşım yolları",
+          "completion": 1
+        },
+        {
+          "label": "Park ve ağaç konumları",
+          "completion": 1
+        },
+        {
+          "label": "Diğer hendek kolları ve arazi kotları",
+          "completion": 0.5
+        },
+        {
+          "label": "Peyzaj sınırları ve tarihî ayrıntılar",
+          "completion": 0
+        }
+      ]
+    },
+    "P19": {
+      "steps": [
+        {
+          "label": "Temel malzeme aileleri",
+          "completion": 1
+        },
+        {
+          "label": "Bölgesel yüzey dokuları",
+          "completion": 1
+        },
+        {
+          "label": "Gün ışığı önizlemesi",
+          "completion": 1
+        },
+        {
+          "label": "Armatürler ve iç ışıklar",
+          "completion": 0.5
+        },
+        {
+          "label": "Renk ve ışık kalibrasyonu",
+          "completion": 0
+        }
+      ]
+    },
+    "P20": {
+      "steps": [
+        {
+          "label": "Katları ayırma",
+          "completion": 1
+        },
+        {
+          "label": "Yatay ve düşey kesit",
+          "completion": 1
+        },
+        {
+          "label": "Parça ve kaynak seçimi",
+          "completion": 1
+        },
+        {
+          "label": "Plan kesit karşılaştırması",
+          "completion": 1
+        },
+        {
+          "label": "Kesit kapakları ve son araç kontrolü",
+          "completion": 0
+        }
+      ]
+    },
+    "P21": {
+      "steps": [
+        {
+          "label": "Blender ara teslimleri",
+          "completion": 1
+        },
+        {
+          "label": "GLB dışa aktarma",
+          "completion": 1
+        },
+        {
+          "label": "Aktarım doğrulaması",
+          "completion": 1
+        },
+        {
+          "label": "Sadeleştirme ve performans",
+          "completion": 0.5
+        },
+        {
+          "label": "Hedef motor kontrolü",
+          "completion": 0
+        }
+      ]
+    },
+    "P22": {
+      "steps": [
+        {
+          "label": "Bölgesel geometri kontrolleri",
+          "completion": 1
+        },
+        {
+          "label": "Kaynak ve varsayım kayıtları",
+          "completion": 1
+        },
+        {
+          "label": "Bütün bina son kontrolü",
+          "completion": 0
+        },
+        {
+          "label": "Nihai dosya paketini hazırlama",
+          "completion": 0
+        },
+        {
+          "label": "Teslim kontrolü",
+          "completion": 0
+        }
+      ]
+    }
+  }
+}

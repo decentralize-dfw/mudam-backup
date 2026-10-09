@@ -1,0 +1,35 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R62_BALIKSIRTI_DOSEME_v001.blend",
+  "evaluated_geometry_objects_checked": 7972,
+  "geometry_identical": true,
+  "uv_checks": [
+    {
+      "name": "R34_APPROACH_CONTINUOUS_DECK",
+      "faces": 17,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.020453714654991018
+    }
+  ],
+  "packed_images": [
+    {
+      "material": "R62_HERRINGBONE_STONE_CANDIDATE",
+      "image": "R62_herringbone_candidate_basecolor.png",
+      "packed": true,
+      "size": [
+        1536,
+        1536
+      ]
+    },
+    {
+      "material": "R62_HERRINGBONE_STONE_CANDIDATE",
+      "image": "R62_herringbone_candidate_normal.png",
+      "packed": true,
+      "size": [
+        1536,
+        1536
+      ]
+    }
+  ],
+  "failures": [],
+  "construction_acceptance": false
+}

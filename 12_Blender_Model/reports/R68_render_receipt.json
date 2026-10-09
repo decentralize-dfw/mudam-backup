@@ -1,0 +1,33 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R68_PAVYON_HENDEK_KOLU_v001.blend",
+  "images": [
+    {
+      "image": "R68_context.png",
+      "eye": [
+        58.0,
+        -74.0,
+        23.0
+      ],
+      "target": [
+        17.0,
+        -36.0,
+        -2.0
+      ]
+    },
+    {
+      "image": "R68_link_edge.png",
+      "eye": [
+        18.04051971435547,
+        -30.91558265686035,
+        1.649999976158142
+      ],
+      "target": [
+        16.0,
+        -41.0,
+        -2.0
+      ]
+    }
+  ],
+  "all_active_surroundings": true,
+  "metric_camera": false
+}

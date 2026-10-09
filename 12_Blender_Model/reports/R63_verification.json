@@ -1,0 +1,219 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R63_GIRIS_PANEL_LEVHA_v002.blend",
+  "solids": [
+    {
+      "name": "R63_INNER_PANEL_BODY",
+      "volume": 0.008096119681984128,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R63_INNER_PANEL_FACE",
+      "volume": 0.0003169626667313499,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R63_INNER_SPEAKER_REGION",
+      "volume": 6.087508052193824e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R63_INNER_SQUARE_INSERT",
+      "volume": 5.830710822608365e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R63_OUTER_PANEL_BODY",
+      "volume": 0.0034198970232761257,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R63_OUTER_PANEL_FACE",
+      "volume": 0.0001645512787217993,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R63_OUTER_BUTTON_RING",
+      "volume": 1.405093565503997e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R63_OUTER_BUTTON_CENTER",
+      "volume": 1.5108061943401687e-06,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R63_OUTER_INDICATOR_0",
+      "volume": 1.4045779566699363e-07,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R63_OUTER_INDICATOR_1",
+      "volume": 1.4046579795823407e-07,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R63_OUTER_INDICATOR_2",
+      "volume": 1.404854547506581e-07,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R63_OUTER_INDICATOR_3",
+      "volume": 1.4046386694161495e-07,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R63_OUTER_INDICATOR_4",
+      "volume": 1.4048749377516434e-07,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R63_OUTER_INDICATOR_5",
+      "volume": 1.40464846493688e-07,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R63_OUTER_INDICATOR_6",
+      "volume": 1.4048643476248158e-07,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R63_OUTER_INDICATOR_7",
+      "volume": 1.4046677877840988e-07,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R63_EXIT_SIGN_BODY",
+      "volume": 0.0029699896234967778,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R63_EXIT_SIGN_FACE",
+      "volume": 0.00017348164415875733,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R63_EXIT_SIGN_CLIP_0",
+      "volume": 7.920341802162677e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R63_EXIT_SIGN_CLIP_1",
+      "volume": 7.920341802355058e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R63_SIGN_ARROW",
+      "volume": 1.2159353800421878e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R63_SIGN_DOOR_TOP",
+      "volume": 3.5282144625453085e-06,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R63_SIGN_DOOR_RIGHT",
+      "volume": 4.896488202438655e-06,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R63_SIGN_HEAD",
+      "volume": 1.1331069509299772e-06,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R63_SIGN_TORSO",
+      "volume": 3.345141492749879e-06,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R63_SIGN_ARM",
+      "volume": 1.219676110164318e-06,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R63_SIGN_LEG_LEFT",
+      "volume": 2.285974579036758e-06,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R63_SIGN_LEG_RIGHT",
+      "volume": 2.517324693435824e-06,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    }
+  ],
+  "support_rays": [
+    {
+      "label": "inner",
+      "target": "P12_CORNER_POST_-1_BACK",
+      "hit": [
+        27.613521575927734,
+        30.118440628051758,
+        1.5499999523162842
+      ],
+      "distance": 0.007499965373426676
+    },
+    {
+      "label": "outer",
+      "target": "P12_CORNER_POST_-1_FRONT",
+      "hit": [
+        29.224626541137695,
+        31.616552352905273,
+        1.4500000476837158
+      ],
+      "distance": 0.007499965373426676
+    },
+    {
+      "label": "sign_left",
+      "target": "P08_VESTIBULE_TOP_GLASS",
+      "hit": [
+        26.919164657592773,
+        30.920236587524414,
+        4.099999904632568
+      ],
+      "distance": 0.019999979063868523
+    },
+    {
+      "label": "sign_right",
+      "target": "P08_VESTIBULE_TOP_GLASS",
+      "hit": [
+        26.79659080505371,
+        31.052053451538086,
+        4.099999904632568
+      ],
+      "distance": 0.019999979063868523
+    }
+  ],
+  "current_pose_door_intersections": [],
+  "failures": [],
+  "construction_acceptance": false,
+  "limits": "Current candidate door pose only; not complete operating sweep or verified mechanism. Dimensions and device function remain unmeasured."
+}

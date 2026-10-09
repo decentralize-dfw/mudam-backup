@@ -1,0 +1,2422 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R65_GECIT_CAPRAZ_GERGI_v002.blend",
+  "solids": [
+    {
+      "name": "R65_BAY_00_DIAG_0_ROD",
+      "volume": 0.0002486764534842256,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_00_DIAG_0_A_TONGUE",
+      "volume": 1.643466857565519e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_00_DIAG_0_A_BARREL",
+      "volume": 0.0001935278827686097,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_00_DIAG_0_A_NECK",
+      "volume": 6.991587617513162e-06,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_00_DIAG_0_A_FORK_-1",
+      "volume": 3.460987161086216e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_00_DIAG_0_A_FORK_1",
+      "volume": 3.4609871610908564e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_00_DIAG_0_A_PIN",
+      "volume": 8.541085055688334e-06,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_00_DIAG_0_A_LUG",
+      "volume": 0.00011978491076606451,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_00_DIAG_0_B_TONGUE",
+      "volume": 1.643466857555913e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_00_DIAG_0_B_BARREL",
+      "volume": 0.00019352788276928191,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_00_DIAG_0_B_NECK",
+      "volume": 6.991587617072976e-06,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_00_DIAG_0_B_FORK_-1",
+      "volume": 3.460987161208167e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_00_DIAG_0_B_FORK_1",
+      "volume": 3.460987161211376e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_00_DIAG_0_B_PIN",
+      "volume": 8.541085055760217e-06,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_00_DIAG_0_B_LUG",
+      "volume": 0.00011978491076539491,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_00_DIAG_1_ROD",
+      "volume": 0.0002486901678222103,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_00_DIAG_1_A_TONGUE",
+      "volume": 1.6434121281526772e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_00_DIAG_1_A_BARREL",
+      "volume": 0.00019352739343445578,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_00_DIAG_1_A_NECK",
+      "volume": 6.992509784599886e-06,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_00_DIAG_1_A_FORK_-1",
+      "volume": 3.460929435473992e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_00_DIAG_1_A_FORK_1",
+      "volume": 3.460929435590565e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_00_DIAG_1_A_PIN",
+      "volume": 8.539787344095961e-06,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_00_DIAG_1_A_LUG",
+      "volume": 0.00015101714068398164,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_00_DIAG_1_B_TONGUE",
+      "volume": 1.6434121281229917e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_00_DIAG_1_B_BARREL",
+      "volume": 0.0001935273934356857,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_00_DIAG_1_B_NECK",
+      "volume": 6.992509784983802e-06,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_00_DIAG_1_B_FORK_-1",
+      "volume": 3.460929435473298e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_00_DIAG_1_B_FORK_1",
+      "volume": 3.4609294355933407e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_00_DIAG_1_B_PIN",
+      "volume": 8.539787344163832e-06,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_00_DIAG_1_B_LUG",
+      "volume": 0.00015101714068340918,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_01_DIAG_0_ROD",
+      "volume": 0.0002486766900225354,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_01_DIAG_0_A_TONGUE",
+      "volume": 1.6434668575228233e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_01_DIAG_0_A_BARREL",
+      "volume": 0.00019352788276940334,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_01_DIAG_0_A_NECK",
+      "volume": 6.9915876176787194e-06,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_01_DIAG_0_A_FORK_-1",
+      "volume": 3.460987161148666e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_01_DIAG_0_A_FORK_1",
+      "volume": 3.4609871611470614e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_01_DIAG_0_A_PIN",
+      "volume": 8.541085055977708e-06,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_01_DIAG_0_A_LUG",
+      "volume": 0.00011978491076606798,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_01_DIAG_0_B_TONGUE",
+      "volume": 1.6434668575416667e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_01_DIAG_0_B_BARREL",
+      "volume": 0.00019352788276942763,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_01_DIAG_0_B_NECK",
+      "volume": 6.991587617557072e-06,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_01_DIAG_0_B_FORK_-1",
+      "volume": 3.460987161265066e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_01_DIAG_0_B_FORK_1",
+      "volume": 3.4609871612158e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_01_DIAG_0_B_PIN",
+      "volume": 8.541085056090357e-06,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_01_DIAG_0_B_LUG",
+      "volume": 0.0001197849107655441,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_01_DIAG_1_ROD",
+      "volume": 0.0002486901678222936,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_01_DIAG_1_A_TONGUE",
+      "volume": 1.643412128074051e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_01_DIAG_1_A_BARREL",
+      "volume": 0.00019352739343523814,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_01_DIAG_1_A_NECK",
+      "volume": 6.9925097846766475e-06,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_01_DIAG_1_A_FORK_-1",
+      "volume": 3.4609294355942514e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_01_DIAG_1_A_FORK_1",
+      "volume": 3.460929435355098e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_01_DIAG_1_A_PIN",
+      "volume": 8.539787344410976e-06,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_01_DIAG_1_A_LUG",
+      "volume": 0.00015101714068411,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_01_DIAG_1_B_TONGUE",
+      "volume": 1.6434121281128436e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_01_DIAG_1_B_BARREL",
+      "volume": 0.0001935273934351965,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_01_DIAG_1_B_NECK",
+      "volume": 6.992509784560746e-06,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_01_DIAG_1_B_FORK_-1",
+      "volume": 3.460929435119653e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_01_DIAG_1_B_FORK_1",
+      "volume": 3.46092943535512e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_01_DIAG_1_B_PIN",
+      "volume": 8.539787344458193e-06,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_01_DIAG_1_B_LUG",
+      "volume": 0.0001510171406823215,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_02_DIAG_0_ROD",
+      "volume": 0.00024867640714384964,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_02_DIAG_0_A_TONGUE",
+      "volume": 1.6434668575040882e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_02_DIAG_0_A_BARREL",
+      "volume": 0.00019352788276924028,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_02_DIAG_0_A_NECK",
+      "volume": 6.991587617242979e-06,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_02_DIAG_0_A_FORK_-1",
+      "volume": 3.460987161154e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_02_DIAG_0_A_FORK_1",
+      "volume": 3.4609871610945427e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_02_DIAG_0_A_PIN",
+      "volume": 8.541085056021185e-06,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_02_DIAG_0_A_LUG",
+      "volume": 0.0001197849107658494,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_02_DIAG_0_B_TONGUE",
+      "volume": 1.6434668575171637e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_02_DIAG_0_B_BARREL",
+      "volume": 0.0001935278827699255,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_02_DIAG_0_B_NECK",
+      "volume": 6.991587617458952e-06,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_02_DIAG_0_B_FORK_-1",
+      "volume": 3.4609871612092946e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_02_DIAG_0_B_FORK_1",
+      "volume": 3.460987161276168e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_02_DIAG_0_B_PIN",
+      "volume": 8.541085055966866e-06,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_02_DIAG_0_B_LUG",
+      "volume": 0.00011978491076614084,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_02_DIAG_1_ROD",
+      "volume": 0.0002486901678221756,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_02_DIAG_1_A_TONGUE",
+      "volume": 1.6434121281061215e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_02_DIAG_1_A_BARREL",
+      "volume": 0.00019352739343434303,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_02_DIAG_1_A_NECK",
+      "volume": 6.992509784541122e-06,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_02_DIAG_1_A_FORK_-1",
+      "volume": 3.460929435356941e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_02_DIAG_1_A_FORK_1",
+      "volume": 3.4609294355917143e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_02_DIAG_1_A_PIN",
+      "volume": 8.539787343993395e-06,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_02_DIAG_1_A_LUG",
+      "volume": 0.00015101714068344388,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_02_DIAG_1_B_TONGUE",
+      "volume": 1.6434121281074876e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_02_DIAG_1_B_BARREL",
+      "volume": 0.00019352739343487125,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_02_DIAG_1_B_NECK",
+      "volume": 6.992509784479106e-06,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_02_DIAG_1_B_FORK_-1",
+      "volume": 3.460929435474924e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_02_DIAG_1_B_FORK_1",
+      "volume": 3.4609294355327554e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_02_DIAG_1_B_PIN",
+      "volume": 8.539787344154725e-06,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_02_DIAG_1_B_LUG",
+      "volume": 0.00015101714068278815,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_03_DIAG_0_ROD",
+      "volume": 0.00024867776294169863,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_03_DIAG_0_A_TONGUE",
+      "volume": 1.6434668575631773e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_03_DIAG_0_A_BARREL",
+      "volume": 0.0001935278827703106,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_03_DIAG_0_A_NECK",
+      "volume": 6.9915876174034405e-06,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_03_DIAG_0_A_FORK_-1",
+      "volume": 3.460987161150314e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_03_DIAG_0_A_FORK_1",
+      "volume": 3.460987161154217e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_03_DIAG_0_A_PIN",
+      "volume": 8.541085056086454e-06,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_03_DIAG_0_A_LUG",
+      "volume": 0.00011978491076599859,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_03_DIAG_0_B_TONGUE",
+      "volume": 1.6434719470708337e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_03_DIAG_0_B_BARREL",
+      "volume": 0.00019352827894958229,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_03_DIAG_0_B_NECK",
+      "volume": 6.991860104143643e-06,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_03_DIAG_0_B_FORK_-1",
+      "volume": 3.460926257322283e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_03_DIAG_0_B_FORK_1",
+      "volume": 3.460926257320201e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_03_DIAG_0_B_PIN",
+      "volume": 8.540755906560134e-06,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_03_DIAG_0_B_LUG",
+      "volume": 0.00011977982912332943,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_03_DIAG_1_ROD",
+      "volume": 0.0002486900958994301,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_03_DIAG_1_A_TONGUE",
+      "volume": 1.6434121281123665e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_03_DIAG_1_A_BARREL",
+      "volume": 0.00019352739343533702,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_03_DIAG_1_A_NECK",
+      "volume": 6.992170768780237e-06,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_03_DIAG_1_A_FORK_-1",
+      "volume": 3.460929435473298e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_03_DIAG_1_A_FORK_1",
+      "volume": 3.460929435416399e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_03_DIAG_1_A_PIN",
+      "volume": 8.539787344147786e-06,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_03_DIAG_1_A_LUG",
+      "volume": 0.0001510171406828159,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_03_DIAG_1_B_TONGUE",
+      "volume": 1.6434121281031725e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_03_DIAG_1_B_BARREL",
+      "volume": 0.00019352739343489987,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_03_DIAG_1_B_NECK",
+      "volume": 6.992170768523715e-06,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_03_DIAG_1_B_FORK_-1",
+      "volume": 3.460929435416399e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_03_DIAG_1_B_FORK_1",
+      "volume": 3.460929435415011e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_03_DIAG_1_B_PIN",
+      "volume": 8.539787344269542e-06,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_03_DIAG_1_B_LUG",
+      "volume": 0.00015101714068402848,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_04_DIAG_0_ROD",
+      "volume": 0.0002486777629415876,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_04_DIAG_0_A_TONGUE",
+      "volume": 1.6434668575234304e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_04_DIAG_0_A_BARREL",
+      "volume": 0.00019352788276871986,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_04_DIAG_0_A_NECK",
+      "volume": 6.991587617644567e-06,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_04_DIAG_0_A_FORK_-1",
+      "volume": 3.460987161267581e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_04_DIAG_0_A_FORK_1",
+      "volume": 3.46098716127426e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_04_DIAG_0_A_PIN",
+      "volume": 8.541085056017932e-06,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_04_DIAG_0_A_LUG",
+      "volume": 0.0001197849107655441,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_04_DIAG_0_B_TONGUE",
+      "volume": 1.6434719470480438e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_04_DIAG_0_B_BARREL",
+      "volume": 0.00019352827894984336,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_04_DIAG_0_B_NECK",
+      "volume": 6.99186010412532e-06,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_04_DIAG_0_B_FORK_-1",
+      "volume": 3.460926257434476e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_04_DIAG_0_B_FORK_1",
+      "volume": 3.460926257262825e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_04_DIAG_0_B_PIN",
+      "volume": 8.540755906337439e-06,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_04_DIAG_0_B_LUG",
+      "volume": 0.0001197798291222938,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_04_DIAG_1_ROD",
+      "volume": 0.00024868828905351414,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_04_DIAG_1_A_TONGUE",
+      "volume": 1.6434505183134107e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_04_DIAG_1_A_BARREL",
+      "volume": 0.00019352852078309297,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_04_DIAG_1_A_NECK",
+      "volume": 6.992038109778398e-06,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_04_DIAG_1_A_FORK_-1",
+      "volume": 3.46091394203944e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_04_DIAG_1_A_FORK_1",
+      "volume": 3.4609139421002636e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_04_DIAG_1_A_PIN",
+      "volume": 8.539989326771555e-06,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_04_DIAG_1_A_LUG",
+      "volume": 0.00015103710764038415,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_04_DIAG_1_B_TONGUE",
+      "volume": 1.6434505182849612e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_04_DIAG_1_B_BARREL",
+      "volume": 0.0001935285207840115,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_04_DIAG_1_B_NECK",
+      "volume": 6.992038109809081e-06,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_04_DIAG_1_B_FORK_-1",
+      "volume": 3.460913942098431e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_04_DIAG_1_B_FORK_1",
+      "volume": 3.460913942041305e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_04_DIAG_1_B_PIN",
+      "volume": 8.540096313510413e-06,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_04_DIAG_1_B_LUG",
+      "volume": 0.0001510315547402592,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_05_DIAG_0_ROD",
+      "volume": 0.00024867916749315294,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_05_DIAG_0_A_TONGUE",
+      "volume": 1.643471947068882e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_05_DIAG_0_A_BARREL",
+      "volume": 0.00019352827894995005,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_05_DIAG_0_A_NECK",
+      "volume": 6.991860104114478e-06,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_05_DIAG_0_A_FORK_-1",
+      "volume": 3.460926257440461e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_05_DIAG_0_A_FORK_1",
+      "volume": 3.46092625738148e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_05_DIAG_0_A_PIN",
+      "volume": 8.540755906332885e-06,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_05_DIAG_0_A_LUG",
+      "volume": 0.00011977982912354801,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_05_DIAG_0_B_TONGUE",
+      "volume": 1.643471947013924e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_05_DIAG_0_B_BARREL",
+      "volume": 0.00019352827894963433,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_05_DIAG_0_B_NECK",
+      "volume": 6.991860104162346e-06,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_05_DIAG_0_B_FORK_-1",
+      "volume": 3.460926257258662e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_05_DIAG_0_B_FORK_1",
+      "volume": 3.460926257320678e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_05_DIAG_0_B_PIN",
+      "volume": 8.540755906380698e-06,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_05_DIAG_0_B_LUG",
+      "volume": 0.00011977982912325658,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_05_DIAG_1_ROD",
+      "volume": 0.00024868822729376405,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_05_DIAG_1_A_TONGUE",
+      "volume": 1.6434505183393882e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_05_DIAG_1_A_BARREL",
+      "volume": 0.0001935285207836212,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_05_DIAG_1_A_NECK",
+      "volume": 6.992038109824043e-06,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_05_DIAG_1_A_FORK_-1",
+      "volume": 3.460913942100047e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_05_DIAG_1_A_FORK_1",
+      "volume": 3.4609139421576396e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_05_DIAG_1_A_PIN",
+      "volume": 8.539989326428513e-06,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_05_DIAG_1_A_LUG",
+      "volume": 0.00015103710764031303,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_05_DIAG_1_B_TONGUE",
+      "volume": 1.643420426980643e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_05_DIAG_1_B_BARREL",
+      "volume": 0.0001935295902955967,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_05_DIAG_1_B_NECK",
+      "volume": 6.992086480134621e-06,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_05_DIAG_1_B_FORK_-1",
+      "volume": 3.460652434400524e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_05_DIAG_1_B_FORK_1",
+      "volume": 3.460652434518485e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_05_DIAG_1_B_PIN",
+      "volume": 8.539941450183661e-06,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_05_DIAG_1_B_LUG",
+      "volume": 0.00015103710764028788,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_06_DIAG_0_ROD",
+      "volume": 0.00024869040542457865,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_06_DIAG_0_A_TONGUE",
+      "volume": 1.6434388688470257e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_06_DIAG_0_A_BARREL",
+      "volume": 0.00019352802173963103,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_06_DIAG_0_A_NECK",
+      "volume": 6.99217915508583e-06,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_06_DIAG_0_A_FORK_-1",
+      "volume": 3.460936234833201e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_06_DIAG_0_A_FORK_1",
+      "volume": 3.460936234829515e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_06_DIAG_0_A_PIN",
+      "volume": 8.540514578889939e-06,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_06_DIAG_0_A_LUG",
+      "volume": 0.0001197786819630356,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_06_DIAG_0_B_TONGUE",
+      "volume": 1.6434719470615638e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_06_DIAG_0_B_BARREL",
+      "volume": 0.0001935282789497228,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_06_DIAG_0_B_NECK",
+      "volume": 6.99186010405978e-06,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_06_DIAG_0_B_FORK_-1",
+      "volume": 3.460926257440244e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_06_DIAG_0_B_FORK_1",
+      "volume": 3.46092625738148e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_06_DIAG_0_B_PIN",
+      "volume": 8.540755906320308e-06,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_06_DIAG_0_B_LUG",
+      "volume": 0.00011977982912310912,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_06_DIAG_1_ROD",
+      "volume": 0.0002486880468978575,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_06_DIAG_1_A_TONGUE",
+      "volume": 1.6434505183237106e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_06_DIAG_1_A_BARREL",
+      "volume": 0.00019352852078374956,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_06_DIAG_1_A_NECK",
+      "volume": 6.9920381095692555e-06,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_06_DIAG_1_A_FORK_-1",
+      "volume": 3.460913942100047e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_06_DIAG_1_A_FORK_1",
+      "volume": 3.460913942098659e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_06_DIAG_1_A_PIN",
+      "volume": 8.539989326432254e-06,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_06_DIAG_1_A_LUG",
+      "volume": 0.00015103710764034946,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_06_DIAG_1_B_TONGUE",
+      "volume": 1.6434204270131692e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_06_DIAG_1_B_BARREL",
+      "volume": 0.00019352959029522634,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_06_DIAG_1_B_NECK",
+      "volume": 6.992086480165087e-06,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_06_DIAG_1_B_FORK_-1",
+      "volume": 3.46065243439983e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_06_DIAG_1_B_FORK_1",
+      "volume": 3.4606524343408496e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_06_DIAG_1_B_PIN",
+      "volume": 8.539941449971997e-06,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_06_DIAG_1_B_LUG",
+      "volume": 0.0001510371076405819,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_07_DIAG_0_ROD",
+      "volume": 0.0002487014787300283,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_07_DIAG_0_A_TONGUE",
+      "volume": 1.6434388688550596e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_07_DIAG_0_A_BARREL",
+      "volume": 0.00019352802173897444,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_07_DIAG_0_A_NECK",
+      "volume": 6.992330251260411e-06,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_07_DIAG_0_A_FORK_-1",
+      "volume": 3.4609362348356296e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_07_DIAG_0_A_FORK_1",
+      "volume": 3.460936234776649e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_07_DIAG_0_A_PIN",
+      "volume": 8.540514578994998e-06,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_07_DIAG_0_A_LUG",
+      "volume": 0.0001197786819634103,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_07_DIAG_0_B_TONGUE",
+      "volume": 1.643438868843426e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_07_DIAG_0_B_BARREL",
+      "volume": 0.0001935280217383855,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_07_DIAG_0_B_NECK",
+      "volume": 6.9921791552672715e-06,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_07_DIAG_0_B_FORK_-1",
+      "volume": 3.460936234774134e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_07_DIAG_0_B_FORK_1",
+      "volume": 3.460936234833114e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_07_DIAG_0_B_PIN",
+      "volume": 8.540514578894167e-06,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_07_DIAG_0_B_LUG",
+      "volume": 0.0001197786819630356,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_07_DIAG_1_ROD",
+      "volume": 0.00024868815507629594,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_07_DIAG_1_A_TONGUE",
+      "volume": 1.643450518319699e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_07_DIAG_1_A_BARREL",
+      "volume": 0.0001935285207836897,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_07_DIAG_1_A_NECK",
+      "volume": 6.992038109827404e-06,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_07_DIAG_1_A_FORK_-1",
+      "volume": 3.460913942159938e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_07_DIAG_1_A_FORK_1",
+      "volume": 3.4609139420984205e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_07_DIAG_1_A_PIN",
+      "volume": 8.539989326623182e-06,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_07_DIAG_1_A_LUG",
+      "volume": 0.0001510371076399973,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_07_DIAG_1_B_TONGUE",
+      "volume": 1.643420427008182e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_07_DIAG_1_B_BARREL",
+      "volume": 0.0001935295902948074,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_07_DIAG_1_B_NECK",
+      "volume": 6.992086480275242e-06,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_07_DIAG_1_B_FORK_-1",
+      "volume": 3.460652434459971e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_07_DIAG_1_B_FORK_1",
+      "volume": 3.4606524344002964e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_07_DIAG_1_B_PIN",
+      "volume": 8.539941449823814e-06,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R65_BAY_07_DIAG_1_B_LUG",
+      "volume": 0.00015103710764056543,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    }
+  ],
+  "support_rays": [
+    {
+      "portal": "R18_LINK_TRANSVERSE_0",
+      "origin": [
+        22.857805252075195,
+        -38.37526321411133,
+        4.119968414306641
+      ],
+      "hit": [
+        22.857805252075195,
+        -38.37526321411133,
+        4.081388473510742
+      ],
+      "distance": 0.03858017176389694
+    },
+    {
+      "portal": "R18_LINK_TRANSVERSE_1",
+      "origin": [
+        23.9621524810791,
+        -35.00478744506836,
+        4.119968414306641
+      ],
+      "hit": [
+        23.9621524810791,
+        -35.00478744506836,
+        4.081388473510742
+      ],
+      "distance": 0.03858015313744545
+    },
+    {
+      "portal": "R18_LINK_TRANSVERSE_0",
+      "origin": [
+        25.13085174560547,
+        -36.26163101196289,
+        4.13796854019165
+      ],
+      "hit": [
+        25.13085174560547,
+        -36.26163101196289,
+        4.081387996673584
+      ],
+      "distance": 0.05658043920993805
+    },
+    {
+      "portal": "R18_LINK_TRANSVERSE_1",
+      "origin": [
+        21.689105987548828,
+        -37.11842346191406,
+        4.13796854019165
+      ],
+      "hit": [
+        21.689105987548828,
+        -37.11842346191406,
+        4.081387996673584
+      ],
+      "distance": 0.05658045411109924
+    },
+    {
+      "portal": "R18_LINK_TRANSVERSE_1",
+      "origin": [
+        21.664592742919922,
+        -37.09205627441406,
+        4.119968414306641
+      ],
+      "hit": [
+        21.664592742919922,
+        -37.09205627441406,
+        4.081388473510742
+      ],
+      "distance": 0.03858015313744545
+    },
+    {
+      "portal": "R18_LINK_TRANSVERSE_2",
+      "origin": [
+        22.768938064575195,
+        -33.72157669067383,
+        4.119968414306641
+      ],
+      "hit": [
+        22.768938064575195,
+        -33.72157669067383,
+        4.081388473510742
+      ],
+      "distance": 0.03858014941215515
+    },
+    {
+      "portal": "R18_LINK_TRANSVERSE_1",
+      "origin": [
+        23.937639236450195,
+        -34.97842025756836,
+        4.13796854019165
+      ],
+      "hit": [
+        23.937639236450195,
+        -34.97842025756836,
+        4.081387996673584
+      ],
+      "distance": 0.05658045411109924
+    },
+    {
+      "portal": "R18_LINK_TRANSVERSE_2",
+      "origin": [
+        20.495893478393555,
+        -35.83521270751953,
+        4.13796854019165
+      ],
+      "hit": [
+        20.495893478393555,
+        -35.83521270751953,
+        4.081387996673584
+      ],
+      "distance": 0.05658045783638954
+    },
+    {
+      "portal": "R18_LINK_TRANSVERSE_2",
+      "origin": [
+        20.47138023376465,
+        -35.80884552001953,
+        4.119968414306641
+      ],
+      "hit": [
+        20.47138023376465,
+        -35.80884552001953,
+        4.081388473510742
+      ],
+      "distance": 0.03858014941215515
+    },
+    {
+      "portal": "R18_LINK_TRANSVERSE_3",
+      "origin": [
+        21.575725555419922,
+        -32.43836975097656,
+        4.119968414306641
+      ],
+      "hit": [
+        21.575725555419922,
+        -32.43836975097656,
+        4.081388473510742
+      ],
+      "distance": 0.03858017176389694
+    },
+    {
+      "portal": "R18_LINK_TRANSVERSE_2",
+      "origin": [
+        22.74442481994629,
+        -33.69520950317383,
+        4.13796854019165
+      ],
+      "hit": [
+        22.74442481994629,
+        -33.69520950317383,
+        4.081387996673584
+      ],
+      "distance": 0.05658045783638954
+    },
+    {
+      "portal": "R18_LINK_TRANSVERSE_3",
+      "origin": [
+        19.30267906188965,
+        -34.552001953125,
+        4.13796854019165
+      ],
+      "hit": [
+        19.30267906188965,
+        -34.552001953125,
+        4.081387996673584
+      ],
+      "distance": 0.05658043920993805
+    },
+    {
+      "portal": "R18_LINK_TRANSVERSE_3",
+      "origin": [
+        19.278165817260742,
+        -34.525634765625,
+        4.119968414306641
+      ],
+      "hit": [
+        19.278165817260742,
+        -34.525634765625,
+        4.081388473510742
+      ],
+      "distance": 0.03858017176389694
+    },
+    {
+      "portal": "R18_LINK_TRANSVERSE_4",
+      "origin": [
+        20.38251304626465,
+        -31.1551570892334,
+        4.119968414306641
+      ],
+      "hit": [
+        20.38251304626465,
+        -31.1551570892334,
+        4.081388473510742
+      ],
+      "distance": 0.038579896092414856
+    },
+    {
+      "portal": "R18_LINK_TRANSVERSE_3",
+      "origin": [
+        21.551212310791016,
+        -32.41200256347656,
+        4.13796854019165
+      ],
+      "hit": [
+        21.551212310791016,
+        -32.41200256347656,
+        4.081387996673584
+      ],
+      "distance": 0.05658043920993805
+    },
+    {
+      "portal": "R18_LINK_TRANSVERSE_4",
+      "origin": [
+        18.109466552734375,
+        -33.26879119873047,
+        4.13796854019165
+      ],
+      "hit": [
+        18.109466552734375,
+        -33.26879119873047,
+        4.081387996673584
+      ],
+      "distance": 0.05658043920993805
+    },
+    {
+      "portal": "R18_LINK_TRANSVERSE_4",
+      "origin": [
+        18.08495330810547,
+        -33.24242401123047,
+        4.119968414306641
+      ],
+      "hit": [
+        18.08495330810547,
+        -33.24242401123047,
+        4.081388473510742
+      ],
+      "distance": 0.03858017176389694
+    },
+    {
+      "portal": "R18_LINK_TRANSVERSE_5",
+      "origin": [
+        19.189300537109375,
+        -29.871946334838867,
+        4.119968414306641
+      ],
+      "hit": [
+        19.189300537109375,
+        -29.871946334838867,
+        4.081388473510742
+      ],
+      "distance": 0.038579873740673065
+    },
+    {
+      "portal": "R18_LINK_TRANSVERSE_4",
+      "origin": [
+        20.357999801635742,
+        -31.128793716430664,
+        4.13796854019165
+      ],
+      "hit": [
+        20.357999801635742,
+        -31.128793716430664,
+        4.081388473510742
+      ],
+      "distance": 0.056580156087875366
+    },
+    {
+      "portal": "R18_LINK_TRANSVERSE_5",
+      "origin": [
+        16.9162540435791,
+        -31.98558235168457,
+        4.13796854019165
+      ],
+      "hit": [
+        16.9162540435791,
+        -31.98558235168457,
+        4.081388473510742
+      ],
+      "distance": 0.05658017471432686
+    },
+    {
+      "portal": "R18_LINK_TRANSVERSE_5",
+      "origin": [
+        16.891740798950195,
+        -31.959218978881836,
+        4.119968414306641
+      ],
+      "hit": [
+        16.891740798950195,
+        -31.959218978881836,
+        4.081388473510742
+      ],
+      "distance": 0.038579873740673065
+    },
+    {
+      "portal": "R18_LINK_TRANSVERSE_6",
+      "origin": [
+        17.99608612060547,
+        -28.58873748779297,
+        4.119968414306641
+      ],
+      "hit": [
+        17.99608612060547,
+        -28.58873748779297,
+        4.081388473510742
+      ],
+      "distance": 0.03857988864183426
+    },
+    {
+      "portal": "R18_LINK_TRANSVERSE_5",
+      "origin": [
+        19.16478729248047,
+        -29.845582962036133,
+        4.13796854019165
+      ],
+      "hit": [
+        19.16478729248047,
+        -29.845582962036133,
+        4.081388473510742
+      ],
+      "distance": 0.05658017471432686
+    },
+    {
+      "portal": "R18_LINK_TRANSVERSE_6",
+      "origin": [
+        15.723039627075195,
+        -30.70237159729004,
+        4.13796854019165
+      ],
+      "hit": [
+        15.723039627075195,
+        -30.70237159729004,
+        4.081388473510742
+      ],
+      "distance": 0.05658026784658432
+    },
+    {
+      "portal": "R18_LINK_TRANSVERSE_6",
+      "origin": [
+        15.698524475097656,
+        -30.676008224487305,
+        4.119968414306641
+      ],
+      "hit": [
+        15.698524475097656,
+        -30.676008224487305,
+        4.081387996673584
+      ],
+      "distance": 0.03858024626970291
+    },
+    {
+      "portal": "R18_LINK_TRANSVERSE_7",
+      "origin": [
+        16.802873611450195,
+        -27.305526733398438,
+        4.119968414306641
+      ],
+      "hit": [
+        16.802873611450195,
+        -27.305526733398438,
+        4.081388473510742
+      ],
+      "distance": 0.03857988864183426
+    },
+    {
+      "portal": "R18_LINK_TRANSVERSE_6",
+      "origin": [
+        17.971572875976562,
+        -28.562374114990234,
+        4.13796854019165
+      ],
+      "hit": [
+        17.971572875976562,
+        -28.562374114990234,
+        4.081388473510742
+      ],
+      "distance": 0.05658016353845596
+    },
+    {
+      "portal": "R18_LINK_TRANSVERSE_7",
+      "origin": [
+        14.529827117919922,
+        -29.419160842895508,
+        4.13796854019165
+      ],
+      "hit": [
+        14.529827117919922,
+        -29.419160842895508,
+        4.081388473510742
+      ],
+      "distance": 0.05658026784658432
+    },
+    {
+      "portal": "R18_LINK_TRANSVERSE_7",
+      "origin": [
+        14.505311965942383,
+        -29.392797470092773,
+        4.119968414306641
+      ],
+      "hit": [
+        14.505311965942383,
+        -29.392797470092773,
+        4.081387996673584
+      ],
+      "distance": 0.03858024626970291
+    },
+    {
+      "portal": "R18_LINK_TRANSVERSE_8",
+      "origin": [
+        15.609663963317871,
+        -26.02231788635254,
+        4.119968414306641
+      ],
+      "hit": [
+        15.609663963317871,
+        -26.02231788635254,
+        4.081387996673584
+      ],
+      "distance": 0.038580261170864105
+    },
+    {
+      "portal": "R18_LINK_TRANSVERSE_7",
+      "origin": [
+        16.77836036682129,
+        -27.279163360595703,
+        4.13796854019165
+      ],
+      "hit": [
+        16.77836036682129,
+        -27.279163360595703,
+        4.081388473510742
+      ],
+      "distance": 0.05658016353845596
+    },
+    {
+      "portal": "R18_LINK_TRANSVERSE_8",
+      "origin": [
+        13.336613655090332,
+        -28.13595199584961,
+        4.13796854019165
+      ],
+      "hit": [
+        13.336613655090332,
+        -28.13595199584961,
+        4.081388473510742
+      ],
+      "distance": 0.05658026039600372
+    }
+  ],
+  "crossings": [
+    {
+      "bay": 0,
+      "surface_gap_m": 0.007999999999999794,
+      "triangle_intersections": 0
+    },
+    {
+      "bay": 1,
+      "surface_gap_m": 0.007999999999999794,
+      "triangle_intersections": 0
+    },
+    {
+      "bay": 2,
+      "surface_gap_m": 0.007999999999999794,
+      "triangle_intersections": 0
+    },
+    {
+      "bay": 3,
+      "surface_gap_m": 0.007999999999999794,
+      "triangle_intersections": 0
+    },
+    {
+      "bay": 4,
+      "surface_gap_m": 0.007999999999999794,
+      "triangle_intersections": 0
+    },
+    {
+      "bay": 5,
+      "surface_gap_m": 0.007999999999999794,
+      "triangle_intersections": 0
+    },
+    {
+      "bay": 6,
+      "surface_gap_m": 0.007999999999999794,
+      "triangle_intersections": 0
+    },
+    {
+      "bay": 7,
+      "surface_gap_m": 0.007999999999999794,
+      "triangle_intersections": 0
+    }
+  ],
+  "terminal_connections": [
+    {
+      "a": "R65_BAY_00_DIAG_0_A_TONGUE",
+      "b": "R65_BAY_00_DIAG_0_A_PIN",
+      "intersecting_triangles": 50
+    },
+    {
+      "a": "R65_BAY_00_DIAG_0_A_TONGUE",
+      "b": "R65_BAY_00_DIAG_0_A_BARREL",
+      "intersecting_triangles": 32
+    },
+    {
+      "a": "R65_BAY_00_DIAG_0_A_BARREL",
+      "b": "R65_BAY_00_DIAG_0_A_NECK",
+      "intersecting_triangles": 32
+    },
+    {
+      "a": "R65_BAY_00_DIAG_0_B_TONGUE",
+      "b": "R65_BAY_00_DIAG_0_B_PIN",
+      "intersecting_triangles": 50
+    },
+    {
+      "a": "R65_BAY_00_DIAG_0_B_TONGUE",
+      "b": "R65_BAY_00_DIAG_0_B_BARREL",
+      "intersecting_triangles": 32
+    },
+    {
+      "a": "R65_BAY_00_DIAG_0_B_BARREL",
+      "b": "R65_BAY_00_DIAG_0_B_NECK",
+      "intersecting_triangles": 32
+    },
+    {
+      "a": "R65_BAY_00_DIAG_1_A_TONGUE",
+      "b": "R65_BAY_00_DIAG_1_A_PIN",
+      "intersecting_triangles": 49
+    },
+    {
+      "a": "R65_BAY_00_DIAG_1_A_TONGUE",
+      "b": "R65_BAY_00_DIAG_1_A_BARREL",
+      "intersecting_triangles": 32
+    },
+    {
+      "a": "R65_BAY_00_DIAG_1_A_BARREL",
+      "b": "R65_BAY_00_DIAG_1_A_NECK",
+      "intersecting_triangles": 32
+    },
+    {
+      "a": "R65_BAY_00_DIAG_1_B_TONGUE",
+      "b": "R65_BAY_00_DIAG_1_B_PIN",
+      "intersecting_triangles": 49
+    },
+    {
+      "a": "R65_BAY_00_DIAG_1_B_TONGUE",
+      "b": "R65_BAY_00_DIAG_1_B_BARREL",
+      "intersecting_triangles": 32
+    },
+    {
+      "a": "R65_BAY_00_DIAG_1_B_BARREL",
+      "b": "R65_BAY_00_DIAG_1_B_NECK",
+      "intersecting_triangles": 32
+    },
+    {
+      "a": "R65_BAY_01_DIAG_0_A_TONGUE",
+      "b": "R65_BAY_01_DIAG_0_A_PIN",
+      "intersecting_triangles": 48
+    },
+    {
+      "a": "R65_BAY_01_DIAG_0_A_TONGUE",
+      "b": "R65_BAY_01_DIAG_0_A_BARREL",
+      "intersecting_triangles": 32
+    },
+    {
+      "a": "R65_BAY_01_DIAG_0_A_BARREL",
+      "b": "R65_BAY_01_DIAG_0_A_NECK",
+      "intersecting_triangles": 32
+    },
+    {
+      "a": "R65_BAY_01_DIAG_0_B_TONGUE",
+      "b": "R65_BAY_01_DIAG_0_B_PIN",
+      "intersecting_triangles": 50
+    },
+    {
+      "a": "R65_BAY_01_DIAG_0_B_TONGUE",
+      "b": "R65_BAY_01_DIAG_0_B_BARREL",
+      "intersecting_triangles": 32
+    },
+    {
+      "a": "R65_BAY_01_DIAG_0_B_BARREL",
+      "b": "R65_BAY_01_DIAG_0_B_NECK",
+      "intersecting_triangles": 32
+    },
+    {
+      "a": "R65_BAY_01_DIAG_1_A_TONGUE",
+      "b": "R65_BAY_01_DIAG_1_A_PIN",
+      "intersecting_triangles": 49
+    },
+    {
+      "a": "R65_BAY_01_DIAG_1_A_TONGUE",
+      "b": "R65_BAY_01_DIAG_1_A_BARREL",
+      "intersecting_triangles": 32
+    },
+    {
+      "a": "R65_BAY_01_DIAG_1_A_BARREL",
+      "b": "R65_BAY_01_DIAG_1_A_NECK",
+      "intersecting_triangles": 32
+    },
+    {
+      "a": "R65_BAY_01_DIAG_1_B_TONGUE",
+      "b": "R65_BAY_01_DIAG_1_B_PIN",
+      "intersecting_triangles": 49
+    },
+    {
+      "a": "R65_BAY_01_DIAG_1_B_TONGUE",
+      "b": "R65_BAY_01_DIAG_1_B_BARREL",
+      "intersecting_triangles": 32
+    },
+    {
+      "a": "R65_BAY_01_DIAG_1_B_BARREL",
+      "b": "R65_BAY_01_DIAG_1_B_NECK",
+      "intersecting_triangles": 32
+    },
+    {
+      "a": "R65_BAY_02_DIAG_0_A_TONGUE",
+      "b": "R65_BAY_02_DIAG_0_A_PIN",
+      "intersecting_triangles": 50
+    },
+    {
+      "a": "R65_BAY_02_DIAG_0_A_TONGUE",
+      "b": "R65_BAY_02_DIAG_0_A_BARREL",
+      "intersecting_triangles": 32
+    },
+    {
+      "a": "R65_BAY_02_DIAG_0_A_BARREL",
+      "b": "R65_BAY_02_DIAG_0_A_NECK",
+      "intersecting_triangles": 32
+    },
+    {
+      "a": "R65_BAY_02_DIAG_0_B_TONGUE",
+      "b": "R65_BAY_02_DIAG_0_B_PIN",
+      "intersecting_triangles": 50
+    },
+    {
+      "a": "R65_BAY_02_DIAG_0_B_TONGUE",
+      "b": "R65_BAY_02_DIAG_0_B_BARREL",
+      "intersecting_triangles": 32
+    },
+    {
+      "a": "R65_BAY_02_DIAG_0_B_BARREL",
+      "b": "R65_BAY_02_DIAG_0_B_NECK",
+      "intersecting_triangles": 32
+    },
+    {
+      "a": "R65_BAY_02_DIAG_1_A_TONGUE",
+      "b": "R65_BAY_02_DIAG_1_A_PIN",
+      "intersecting_triangles": 48
+    },
+    {
+      "a": "R65_BAY_02_DIAG_1_A_TONGUE",
+      "b": "R65_BAY_02_DIAG_1_A_BARREL",
+      "intersecting_triangles": 32
+    },
+    {
+      "a": "R65_BAY_02_DIAG_1_A_BARREL",
+      "b": "R65_BAY_02_DIAG_1_A_NECK",
+      "intersecting_triangles": 32
+    },
+    {
+      "a": "R65_BAY_02_DIAG_1_B_TONGUE",
+      "b": "R65_BAY_02_DIAG_1_B_PIN",
+      "intersecting_triangles": 49
+    },
+    {
+      "a": "R65_BAY_02_DIAG_1_B_TONGUE",
+      "b": "R65_BAY_02_DIAG_1_B_BARREL",
+      "intersecting_triangles": 32
+    },
+    {
+      "a": "R65_BAY_02_DIAG_1_B_BARREL",
+      "b": "R65_BAY_02_DIAG_1_B_NECK",
+      "intersecting_triangles": 32
+    },
+    {
+      "a": "R65_BAY_03_DIAG_0_A_TONGUE",
+      "b": "R65_BAY_03_DIAG_0_A_PIN",
+      "intersecting_triangles": 50
+    },
+    {
+      "a": "R65_BAY_03_DIAG_0_A_TONGUE",
+      "b": "R65_BAY_03_DIAG_0_A_BARREL",
+      "intersecting_triangles": 32
+    },
+    {
+      "a": "R65_BAY_03_DIAG_0_A_BARREL",
+      "b": "R65_BAY_03_DIAG_0_A_NECK",
+      "intersecting_triangles": 32
+    },
+    {
+      "a": "R65_BAY_03_DIAG_0_B_TONGUE",
+      "b": "R65_BAY_03_DIAG_0_B_PIN",
+      "intersecting_triangles": 48
+    },
+    {
+      "a": "R65_BAY_03_DIAG_0_B_TONGUE",
+      "b": "R65_BAY_03_DIAG_0_B_BARREL",
+      "intersecting_triangles": 32
+    },
+    {
+      "a": "R65_BAY_03_DIAG_0_B_BARREL",
+      "b": "R65_BAY_03_DIAG_0_B_NECK",
+      "intersecting_triangles": 32
+    },
+    {
+      "a": "R65_BAY_03_DIAG_1_A_TONGUE",
+      "b": "R65_BAY_03_DIAG_1_A_PIN",
+      "intersecting_triangles": 49
+    },
+    {
+      "a": "R65_BAY_03_DIAG_1_A_TONGUE",
+      "b": "R65_BAY_03_DIAG_1_A_BARREL",
+      "intersecting_triangles": 32
+    },
+    {
+      "a": "R65_BAY_03_DIAG_1_A_BARREL",
+      "b": "R65_BAY_03_DIAG_1_A_NECK",
+      "intersecting_triangles": 32
+    },
+    {
+      "a": "R65_BAY_03_DIAG_1_B_TONGUE",
+      "b": "R65_BAY_03_DIAG_1_B_PIN",
+      "intersecting_triangles": 50
+    },
+    {
+      "a": "R65_BAY_03_DIAG_1_B_TONGUE",
+      "b": "R65_BAY_03_DIAG_1_B_BARREL",
+      "intersecting_triangles": 32
+    },
+    {
+      "a": "R65_BAY_03_DIAG_1_B_BARREL",
+      "b": "R65_BAY_03_DIAG_1_B_NECK",
+      "intersecting_triangles": 32
+    },
+    {
+      "a": "R65_BAY_04_DIAG_0_A_TONGUE",
+      "b": "R65_BAY_04_DIAG_0_A_PIN",
+      "intersecting_triangles": 50
+    },
+    {
+      "a": "R65_BAY_04_DIAG_0_A_TONGUE",
+      "b": "R65_BAY_04_DIAG_0_A_BARREL",
+      "intersecting_triangles": 32
+    },
+    {
+      "a": "R65_BAY_04_DIAG_0_A_BARREL",
+      "b": "R65_BAY_04_DIAG_0_A_NECK",
+      "intersecting_triangles": 32
+    },
+    {
+      "a": "R65_BAY_04_DIAG_0_B_TONGUE",
+      "b": "R65_BAY_04_DIAG_0_B_PIN",
+      "intersecting_triangles": 48
+    },
+    {
+      "a": "R65_BAY_04_DIAG_0_B_TONGUE",
+      "b": "R65_BAY_04_DIAG_0_B_BARREL",
+      "intersecting_triangles": 32
+    },
+    {
+      "a": "R65_BAY_04_DIAG_0_B_BARREL",
+      "b": "R65_BAY_04_DIAG_0_B_NECK",
+      "intersecting_triangles": 32
+    },
+    {
+      "a": "R65_BAY_04_DIAG_1_A_TONGUE",
+      "b": "R65_BAY_04_DIAG_1_A_PIN",
+      "intersecting_triangles": 48
+    },
+    {
+      "a": "R65_BAY_04_DIAG_1_A_TONGUE",
+      "b": "R65_BAY_04_DIAG_1_A_BARREL",
+      "intersecting_triangles": 32
+    },
+    {
+      "a": "R65_BAY_04_DIAG_1_A_BARREL",
+      "b": "R65_BAY_04_DIAG_1_A_NECK",
+      "intersecting_triangles": 32
+    },
+    {
+      "a": "R65_BAY_04_DIAG_1_B_TONGUE",
+      "b": "R65_BAY_04_DIAG_1_B_PIN",
+      "intersecting_triangles": 49
+    },
+    {
+      "a": "R65_BAY_04_DIAG_1_B_TONGUE",
+      "b": "R65_BAY_04_DIAG_1_B_BARREL",
+      "intersecting_triangles": 32
+    },
+    {
+      "a": "R65_BAY_04_DIAG_1_B_BARREL",
+      "b": "R65_BAY_04_DIAG_1_B_NECK",
+      "intersecting_triangles": 32
+    },
+    {
+      "a": "R65_BAY_05_DIAG_0_A_TONGUE",
+      "b": "R65_BAY_05_DIAG_0_A_PIN",
+      "intersecting_triangles": 48
+    },
+    {
+      "a": "R65_BAY_05_DIAG_0_A_TONGUE",
+      "b": "R65_BAY_05_DIAG_0_A_BARREL",
+      "intersecting_triangles": 32
+    },
+    {
+      "a": "R65_BAY_05_DIAG_0_A_BARREL",
+      "b": "R65_BAY_05_DIAG_0_A_NECK",
+      "intersecting_triangles": 32
+    },
+    {
+      "a": "R65_BAY_05_DIAG_0_B_TONGUE",
+      "b": "R65_BAY_05_DIAG_0_B_PIN",
+      "intersecting_triangles": 49
+    },
+    {
+      "a": "R65_BAY_05_DIAG_0_B_TONGUE",
+      "b": "R65_BAY_05_DIAG_0_B_BARREL",
+      "intersecting_triangles": 32
+    },
+    {
+      "a": "R65_BAY_05_DIAG_0_B_BARREL",
+      "b": "R65_BAY_05_DIAG_0_B_NECK",
+      "intersecting_triangles": 32
+    },
+    {
+      "a": "R65_BAY_05_DIAG_1_A_TONGUE",
+      "b": "R65_BAY_05_DIAG_1_A_PIN",
+      "intersecting_triangles": 48
+    },
+    {
+      "a": "R65_BAY_05_DIAG_1_A_TONGUE",
+      "b": "R65_BAY_05_DIAG_1_A_BARREL",
+      "intersecting_triangles": 32
+    },
+    {
+      "a": "R65_BAY_05_DIAG_1_A_BARREL",
+      "b": "R65_BAY_05_DIAG_1_A_NECK",
+      "intersecting_triangles": 32
+    },
+    {
+      "a": "R65_BAY_05_DIAG_1_B_TONGUE",
+      "b": "R65_BAY_05_DIAG_1_B_PIN",
+      "intersecting_triangles": 48
+    },
+    {
+      "a": "R65_BAY_05_DIAG_1_B_TONGUE",
+      "b": "R65_BAY_05_DIAG_1_B_BARREL",
+      "intersecting_triangles": 32
+    },
+    {
+      "a": "R65_BAY_05_DIAG_1_B_BARREL",
+      "b": "R65_BAY_05_DIAG_1_B_NECK",
+      "intersecting_triangles": 32
+    },
+    {
+      "a": "R65_BAY_06_DIAG_0_A_TONGUE",
+      "b": "R65_BAY_06_DIAG_0_A_PIN",
+      "intersecting_triangles": 48
+    },
+    {
+      "a": "R65_BAY_06_DIAG_0_A_TONGUE",
+      "b": "R65_BAY_06_DIAG_0_A_BARREL",
+      "intersecting_triangles": 32
+    },
+    {
+      "a": "R65_BAY_06_DIAG_0_A_BARREL",
+      "b": "R65_BAY_06_DIAG_0_A_NECK",
+      "intersecting_triangles": 32
+    },
+    {
+      "a": "R65_BAY_06_DIAG_0_B_TONGUE",
+      "b": "R65_BAY_06_DIAG_0_B_PIN",
+      "intersecting_triangles": 48
+    },
+    {
+      "a": "R65_BAY_06_DIAG_0_B_TONGUE",
+      "b": "R65_BAY_06_DIAG_0_B_BARREL",
+      "intersecting_triangles": 32
+    },
+    {
+      "a": "R65_BAY_06_DIAG_0_B_BARREL",
+      "b": "R65_BAY_06_DIAG_0_B_NECK",
+      "intersecting_triangles": 32
+    },
+    {
+      "a": "R65_BAY_06_DIAG_1_A_TONGUE",
+      "b": "R65_BAY_06_DIAG_1_A_PIN",
+      "intersecting_triangles": 48
+    },
+    {
+      "a": "R65_BAY_06_DIAG_1_A_TONGUE",
+      "b": "R65_BAY_06_DIAG_1_A_BARREL",
+      "intersecting_triangles": 32
+    },
+    {
+      "a": "R65_BAY_06_DIAG_1_A_BARREL",
+      "b": "R65_BAY_06_DIAG_1_A_NECK",
+      "intersecting_triangles": 32
+    },
+    {
+      "a": "R65_BAY_06_DIAG_1_B_TONGUE",
+      "b": "R65_BAY_06_DIAG_1_B_PIN",
+      "intersecting_triangles": 48
+    },
+    {
+      "a": "R65_BAY_06_DIAG_1_B_TONGUE",
+      "b": "R65_BAY_06_DIAG_1_B_BARREL",
+      "intersecting_triangles": 32
+    },
+    {
+      "a": "R65_BAY_06_DIAG_1_B_BARREL",
+      "b": "R65_BAY_06_DIAG_1_B_NECK",
+      "intersecting_triangles": 32
+    },
+    {
+      "a": "R65_BAY_07_DIAG_0_A_TONGUE",
+      "b": "R65_BAY_07_DIAG_0_A_PIN",
+      "intersecting_triangles": 48
+    },
+    {
+      "a": "R65_BAY_07_DIAG_0_A_TONGUE",
+      "b": "R65_BAY_07_DIAG_0_A_BARREL",
+      "intersecting_triangles": 32
+    },
+    {
+      "a": "R65_BAY_07_DIAG_0_A_BARREL",
+      "b": "R65_BAY_07_DIAG_0_A_NECK",
+      "intersecting_triangles": 32
+    },
+    {
+      "a": "R65_BAY_07_DIAG_0_B_TONGUE",
+      "b": "R65_BAY_07_DIAG_0_B_PIN",
+      "intersecting_triangles": 48
+    },
+    {
+      "a": "R65_BAY_07_DIAG_0_B_TONGUE",
+      "b": "R65_BAY_07_DIAG_0_B_BARREL",
+      "intersecting_triangles": 32
+    },
+    {
+      "a": "R65_BAY_07_DIAG_0_B_BARREL",
+      "b": "R65_BAY_07_DIAG_0_B_NECK",
+      "intersecting_triangles": 32
+    },
+    {
+      "a": "R65_BAY_07_DIAG_1_A_TONGUE",
+      "b": "R65_BAY_07_DIAG_1_A_PIN",
+      "intersecting_triangles": 48
+    },
+    {
+      "a": "R65_BAY_07_DIAG_1_A_TONGUE",
+      "b": "R65_BAY_07_DIAG_1_A_BARREL",
+      "intersecting_triangles": 32
+    },
+    {
+      "a": "R65_BAY_07_DIAG_1_A_BARREL",
+      "b": "R65_BAY_07_DIAG_1_A_NECK",
+      "intersecting_triangles": 32
+    },
+    {
+      "a": "R65_BAY_07_DIAG_1_B_TONGUE",
+      "b": "R65_BAY_07_DIAG_1_B_PIN",
+      "intersecting_triangles": 49
+    },
+    {
+      "a": "R65_BAY_07_DIAG_1_B_TONGUE",
+      "b": "R65_BAY_07_DIAG_1_B_BARREL",
+      "intersecting_triangles": 32
+    },
+    {
+      "a": "R65_BAY_07_DIAG_1_B_BARREL",
+      "b": "R65_BAY_07_DIAG_1_B_NECK",
+      "intersecting_triangles": 32
+    }
+  ],
+  "failures": [],
+  "construction_acceptance": false,
+  "limits": "Geometric assembly and separated X rods only. Not structural sizing, force or as-built connection certification."
+}

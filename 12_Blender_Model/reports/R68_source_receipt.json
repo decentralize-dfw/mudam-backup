@@ -1,0 +1,116 @@
+{
+  "photo_sources": [
+    {
+      "id": "065",
+      "path": "03_Vaziyet_ve_Peyzaj/Tarihi_Duvarlar_ve_Cevre/065_Tarihi_duvarlar_park_ve_yaklasim_WikiArquitectura.jpg",
+      "sha256": "99eef99c21a91b2ac3f8cbba51e324729ce784824ab0167e147e73bd90565cee",
+      "source_url": "https://es.wikiarquitectura.com/edificio/museo-de-arte-moderno-grand-duc-jean-mudam/",
+      "credit": "WikiArquitectura; sayfadaki foto\u011fraf serisi Haziran 2019",
+      "source_date": "unknown; do not infer from download date",
+      "modified": false
+    },
+    {
+      "id": "067",
+      "path": "04_Ic_Mekan/Cam_Gecit/067_Cam_gecit_ve_pavyon_baglantisi_WikiArquitectura.jpg",
+      "sha256": "3a1d86786f2de9bbf569f98f032653346c3c3a059f11f6aef50ea5c64e638af7",
+      "source_url": "https://es.wikiarquitectura.com/edificio/museo-de-arte-moderno-grand-duc-jean-mudam/",
+      "credit": "WikiArquitectura; sayfadaki foto\u011fraf serisi Haziran 2019",
+      "source_date": "unknown; do not infer from download date",
+      "modified": false
+    }
+  ],
+  "map_source": "10_Olcekli_Plan_ve_Fotograf_Analizi/kaynak_veri/osm_ways_utm.json",
+  "map_sha256": "fb805c54850922d05d1a40130b77eec6654c54f2a0b89def5be0c3b3b58a70b0",
+  "segments": [
+    {
+      "way": "51946353",
+      "source_segment": 11,
+      "points": [
+        [
+          -3.036812932812609,
+          -42.40656085778028
+        ],
+        [
+          5.968511832528748,
+          -51.50980837084353
+        ]
+      ]
+    },
+    {
+      "way": "51946353",
+      "source_segment": 12,
+      "points": [
+        [
+          5.968511832528748,
+          -51.50980837084353
+        ],
+        [
+          32.525362525484525,
+          -29.110545728355646
+        ]
+      ]
+    },
+    {
+      "way": "51946355",
+      "source_segment": 0,
+      "points": [
+        [
+          32.525362525484525,
+          -29.110545728355646
+        ],
+        [
+          27.892585160094313,
+          -23.89166551362723
+        ]
+      ]
+    },
+    {
+      "way": "51946355",
+      "source_segment": 1,
+      "points": [
+        [
+          27.892585160094313,
+          -23.89166551362723
+        ],
+        [
+          4.788411226589233,
+          -44.31841719709337
+        ]
+      ]
+    },
+    {
+      "way": "51946355",
+      "source_segment": 2,
+      "points": [
+        [
+          4.788411226589233,
+          -44.31841719709337
+        ],
+        [
+          0.5576078794547357,
+          -39.56007303763181
+        ]
+      ]
+    },
+    {
+      "way": "51946355",
+      "source_segment": 3,
+      "points": [
+        [
+          0.5576078794547357,
+          -39.56007303763181
+        ],
+        [
+          -3.036812932812609,
+          -42.40656085778028
+        ]
+      ]
+    }
+  ],
+  "limits": [
+    "Two OSM wall chains close the southeast moat wedge beside the link. Horizontal placement inherits about1m map/plan registration uncertainty.",
+    "All heights and thickness inherit R35 candidates; no terrain survey or actual stepped profile.",
+    "067 supports historic masonry around link, but this is a site context envelope, not individually photo-matched stones,ruin openings or drainage.",
+    "Remaining moat arms, retaining walls and fort terrain are still incomplete."
+  ]
+}

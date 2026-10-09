@@ -1,0 +1,62 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R67_GECIT_TAS_DOSEME_v001.blend",
+  "base_scene": "MUDAM_R66_GECIT_YAN_ARMATUR_v001.blend",
+  "changed_inherited_objects": [
+    "P05_LINK_FLOOR",
+    "R11_LINK_THRESHOLD"
+  ],
+  "surface_objects": [
+    {
+      "name": "P05_LINK_FLOOR",
+      "faces": [
+        {
+          "face": 0,
+          "u": [
+            -0.6809601187705994,
+            0.7323205471038818,
+            0.0
+          ],
+          "v": [
+            0.7323201894760132,
+            0.680960476398468,
+            0.0
+          ],
+          "repeat_m": [
+            3.6,
+            3.6
+          ],
+          "material": "R67_LINK_DIAGONAL_STONE_CANDIDATE"
+        }
+      ]
+    },
+    {
+      "name": "R11_LINK_THRESHOLD",
+      "faces": [
+        {
+          "face": 0,
+          "u": [
+            -0.6809601187705994,
+            0.7323205471038818,
+            0.0
+          ],
+          "v": [
+            0.7323201894760132,
+            0.680960476398468,
+            0.0
+          ],
+          "repeat_m": [
+            3.6,
+            3.6
+          ],
+          "material": "R67_LINK_DIAGONAL_STONE_CANDIDATE"
+        }
+      ]
+    }
+  ],
+  "uv_map": "R67_LINK_METRIC_UV",
+  "materials": [
+    "R67_LINK_DIAGONAL_STONE_CANDIDATE"
+  ],
+  "evaluated_geometry_changed": false,
+  "construction_acceptance": false
+}

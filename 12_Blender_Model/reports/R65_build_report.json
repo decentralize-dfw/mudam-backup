@@ -1,0 +1,1103 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R65_GECIT_CAPRAZ_GERGI_v002.blend",
+  "base_scene": "MUDAM_R64_GIRIS_ESIK_GECIS_v001.blend",
+  "closed_objects": [
+    "R65_BAY_00_DIAG_0_ROD",
+    "R65_BAY_00_DIAG_0_A_TONGUE",
+    "R65_BAY_00_DIAG_0_A_BARREL",
+    "R65_BAY_00_DIAG_0_A_NECK",
+    "R65_BAY_00_DIAG_0_A_FORK_-1",
+    "R65_BAY_00_DIAG_0_A_FORK_1",
+    "R65_BAY_00_DIAG_0_A_PIN",
+    "R65_BAY_00_DIAG_0_A_LUG",
+    "R65_BAY_00_DIAG_0_B_TONGUE",
+    "R65_BAY_00_DIAG_0_B_BARREL",
+    "R65_BAY_00_DIAG_0_B_NECK",
+    "R65_BAY_00_DIAG_0_B_FORK_-1",
+    "R65_BAY_00_DIAG_0_B_FORK_1",
+    "R65_BAY_00_DIAG_0_B_PIN",
+    "R65_BAY_00_DIAG_0_B_LUG",
+    "R65_BAY_00_DIAG_1_ROD",
+    "R65_BAY_00_DIAG_1_A_TONGUE",
+    "R65_BAY_00_DIAG_1_A_BARREL",
+    "R65_BAY_00_DIAG_1_A_NECK",
+    "R65_BAY_00_DIAG_1_A_FORK_-1",
+    "R65_BAY_00_DIAG_1_A_FORK_1",
+    "R65_BAY_00_DIAG_1_A_PIN",
+    "R65_BAY_00_DIAG_1_A_LUG",
+    "R65_BAY_00_DIAG_1_B_TONGUE",
+    "R65_BAY_00_DIAG_1_B_BARREL",
+    "R65_BAY_00_DIAG_1_B_NECK",
+    "R65_BAY_00_DIAG_1_B_FORK_-1",
+    "R65_BAY_00_DIAG_1_B_FORK_1",
+    "R65_BAY_00_DIAG_1_B_PIN",
+    "R65_BAY_00_DIAG_1_B_LUG",
+    "R65_BAY_01_DIAG_0_ROD",
+    "R65_BAY_01_DIAG_0_A_TONGUE",
+    "R65_BAY_01_DIAG_0_A_BARREL",
+    "R65_BAY_01_DIAG_0_A_NECK",
+    "R65_BAY_01_DIAG_0_A_FORK_-1",
+    "R65_BAY_01_DIAG_0_A_FORK_1",
+    "R65_BAY_01_DIAG_0_A_PIN",
+    "R65_BAY_01_DIAG_0_A_LUG",
+    "R65_BAY_01_DIAG_0_B_TONGUE",
+    "R65_BAY_01_DIAG_0_B_BARREL",
+    "R65_BAY_01_DIAG_0_B_NECK",
+    "R65_BAY_01_DIAG_0_B_FORK_-1",
+    "R65_BAY_01_DIAG_0_B_FORK_1",
+    "R65_BAY_01_DIAG_0_B_PIN",
+    "R65_BAY_01_DIAG_0_B_LUG",
+    "R65_BAY_01_DIAG_1_ROD",
+    "R65_BAY_01_DIAG_1_A_TONGUE",
+    "R65_BAY_01_DIAG_1_A_BARREL",
+    "R65_BAY_01_DIAG_1_A_NECK",
+    "R65_BAY_01_DIAG_1_A_FORK_-1",
+    "R65_BAY_01_DIAG_1_A_FORK_1",
+    "R65_BAY_01_DIAG_1_A_PIN",
+    "R65_BAY_01_DIAG_1_A_LUG",
+    "R65_BAY_01_DIAG_1_B_TONGUE",
+    "R65_BAY_01_DIAG_1_B_BARREL",
+    "R65_BAY_01_DIAG_1_B_NECK",
+    "R65_BAY_01_DIAG_1_B_FORK_-1",
+    "R65_BAY_01_DIAG_1_B_FORK_1",
+    "R65_BAY_01_DIAG_1_B_PIN",
+    "R65_BAY_01_DIAG_1_B_LUG",
+    "R65_BAY_02_DIAG_0_ROD",
+    "R65_BAY_02_DIAG_0_A_TONGUE",
+    "R65_BAY_02_DIAG_0_A_BARREL",
+    "R65_BAY_02_DIAG_0_A_NECK",
+    "R65_BAY_02_DIAG_0_A_FORK_-1",
+    "R65_BAY_02_DIAG_0_A_FORK_1",
+    "R65_BAY_02_DIAG_0_A_PIN",
+    "R65_BAY_02_DIAG_0_A_LUG",
+    "R65_BAY_02_DIAG_0_B_TONGUE",
+    "R65_BAY_02_DIAG_0_B_BARREL",
+    "R65_BAY_02_DIAG_0_B_NECK",
+    "R65_BAY_02_DIAG_0_B_FORK_-1",
+    "R65_BAY_02_DIAG_0_B_FORK_1",
+    "R65_BAY_02_DIAG_0_B_PIN",
+    "R65_BAY_02_DIAG_0_B_LUG",
+    "R65_BAY_02_DIAG_1_ROD",
+    "R65_BAY_02_DIAG_1_A_TONGUE",
+    "R65_BAY_02_DIAG_1_A_BARREL",
+    "R65_BAY_02_DIAG_1_A_NECK",
+    "R65_BAY_02_DIAG_1_A_FORK_-1",
+    "R65_BAY_02_DIAG_1_A_FORK_1",
+    "R65_BAY_02_DIAG_1_A_PIN",
+    "R65_BAY_02_DIAG_1_A_LUG",
+    "R65_BAY_02_DIAG_1_B_TONGUE",
+    "R65_BAY_02_DIAG_1_B_BARREL",
+    "R65_BAY_02_DIAG_1_B_NECK",
+    "R65_BAY_02_DIAG_1_B_FORK_-1",
+    "R65_BAY_02_DIAG_1_B_FORK_1",
+    "R65_BAY_02_DIAG_1_B_PIN",
+    "R65_BAY_02_DIAG_1_B_LUG",
+    "R65_BAY_03_DIAG_0_ROD",
+    "R65_BAY_03_DIAG_0_A_TONGUE",
+    "R65_BAY_03_DIAG_0_A_BARREL",
+    "R65_BAY_03_DIAG_0_A_NECK",
+    "R65_BAY_03_DIAG_0_A_FORK_-1",
+    "R65_BAY_03_DIAG_0_A_FORK_1",
+    "R65_BAY_03_DIAG_0_A_PIN",
+    "R65_BAY_03_DIAG_0_A_LUG",
+    "R65_BAY_03_DIAG_0_B_TONGUE",
+    "R65_BAY_03_DIAG_0_B_BARREL",
+    "R65_BAY_03_DIAG_0_B_NECK",
+    "R65_BAY_03_DIAG_0_B_FORK_-1",
+    "R65_BAY_03_DIAG_0_B_FORK_1",
+    "R65_BAY_03_DIAG_0_B_PIN",
+    "R65_BAY_03_DIAG_0_B_LUG",
+    "R65_BAY_03_DIAG_1_ROD",
+    "R65_BAY_03_DIAG_1_A_TONGUE",
+    "R65_BAY_03_DIAG_1_A_BARREL",
+    "R65_BAY_03_DIAG_1_A_NECK",
+    "R65_BAY_03_DIAG_1_A_FORK_-1",
+    "R65_BAY_03_DIAG_1_A_FORK_1",
+    "R65_BAY_03_DIAG_1_A_PIN",
+    "R65_BAY_03_DIAG_1_A_LUG",
+    "R65_BAY_03_DIAG_1_B_TONGUE",
+    "R65_BAY_03_DIAG_1_B_BARREL",
+    "R65_BAY_03_DIAG_1_B_NECK",
+    "R65_BAY_03_DIAG_1_B_FORK_-1",
+    "R65_BAY_03_DIAG_1_B_FORK_1",
+    "R65_BAY_03_DIAG_1_B_PIN",
+    "R65_BAY_03_DIAG_1_B_LUG",
+    "R65_BAY_04_DIAG_0_ROD",
+    "R65_BAY_04_DIAG_0_A_TONGUE",
+    "R65_BAY_04_DIAG_0_A_BARREL",
+    "R65_BAY_04_DIAG_0_A_NECK",
+    "R65_BAY_04_DIAG_0_A_FORK_-1",
+    "R65_BAY_04_DIAG_0_A_FORK_1",
+    "R65_BAY_04_DIAG_0_A_PIN",
+    "R65_BAY_04_DIAG_0_A_LUG",
+    "R65_BAY_04_DIAG_0_B_TONGUE",
+    "R65_BAY_04_DIAG_0_B_BARREL",
+    "R65_BAY_04_DIAG_0_B_NECK",
+    "R65_BAY_04_DIAG_0_B_FORK_-1",
+    "R65_BAY_04_DIAG_0_B_FORK_1",
+    "R65_BAY_04_DIAG_0_B_PIN",
+    "R65_BAY_04_DIAG_0_B_LUG",
+    "R65_BAY_04_DIAG_1_ROD",
+    "R65_BAY_04_DIAG_1_A_TONGUE",
+    "R65_BAY_04_DIAG_1_A_BARREL",
+    "R65_BAY_04_DIAG_1_A_NECK",
+    "R65_BAY_04_DIAG_1_A_FORK_-1",
+    "R65_BAY_04_DIAG_1_A_FORK_1",
+    "R65_BAY_04_DIAG_1_A_PIN",
+    "R65_BAY_04_DIAG_1_A_LUG",
+    "R65_BAY_04_DIAG_1_B_TONGUE",
+    "R65_BAY_04_DIAG_1_B_BARREL",
+    "R65_BAY_04_DIAG_1_B_NECK",
+    "R65_BAY_04_DIAG_1_B_FORK_-1",
+    "R65_BAY_04_DIAG_1_B_FORK_1",
+    "R65_BAY_04_DIAG_1_B_PIN",
+    "R65_BAY_04_DIAG_1_B_LUG",
+    "R65_BAY_05_DIAG_0_ROD",
+    "R65_BAY_05_DIAG_0_A_TONGUE",
+    "R65_BAY_05_DIAG_0_A_BARREL",
+    "R65_BAY_05_DIAG_0_A_NECK",
+    "R65_BAY_05_DIAG_0_A_FORK_-1",
+    "R65_BAY_05_DIAG_0_A_FORK_1",
+    "R65_BAY_05_DIAG_0_A_PIN",
+    "R65_BAY_05_DIAG_0_A_LUG",
+    "R65_BAY_05_DIAG_0_B_TONGUE",
+    "R65_BAY_05_DIAG_0_B_BARREL",
+    "R65_BAY_05_DIAG_0_B_NECK",
+    "R65_BAY_05_DIAG_0_B_FORK_-1",
+    "R65_BAY_05_DIAG_0_B_FORK_1",
+    "R65_BAY_05_DIAG_0_B_PIN",
+    "R65_BAY_05_DIAG_0_B_LUG",
+    "R65_BAY_05_DIAG_1_ROD",
+    "R65_BAY_05_DIAG_1_A_TONGUE",
+    "R65_BAY_05_DIAG_1_A_BARREL",
+    "R65_BAY_05_DIAG_1_A_NECK",
+    "R65_BAY_05_DIAG_1_A_FORK_-1",
+    "R65_BAY_05_DIAG_1_A_FORK_1",
+    "R65_BAY_05_DIAG_1_A_PIN",
+    "R65_BAY_05_DIAG_1_A_LUG",
+    "R65_BAY_05_DIAG_1_B_TONGUE",
+    "R65_BAY_05_DIAG_1_B_BARREL",
+    "R65_BAY_05_DIAG_1_B_NECK",
+    "R65_BAY_05_DIAG_1_B_FORK_-1",
+    "R65_BAY_05_DIAG_1_B_FORK_1",
+    "R65_BAY_05_DIAG_1_B_PIN",
+    "R65_BAY_05_DIAG_1_B_LUG",
+    "R65_BAY_06_DIAG_0_ROD",
+    "R65_BAY_06_DIAG_0_A_TONGUE",
+    "R65_BAY_06_DIAG_0_A_BARREL",
+    "R65_BAY_06_DIAG_0_A_NECK",
+    "R65_BAY_06_DIAG_0_A_FORK_-1",
+    "R65_BAY_06_DIAG_0_A_FORK_1",
+    "R65_BAY_06_DIAG_0_A_PIN",
+    "R65_BAY_06_DIAG_0_A_LUG",
+    "R65_BAY_06_DIAG_0_B_TONGUE",
+    "R65_BAY_06_DIAG_0_B_BARREL",
+    "R65_BAY_06_DIAG_0_B_NECK",
+    "R65_BAY_06_DIAG_0_B_FORK_-1",
+    "R65_BAY_06_DIAG_0_B_FORK_1",
+    "R65_BAY_06_DIAG_0_B_PIN",
+    "R65_BAY_06_DIAG_0_B_LUG",
+    "R65_BAY_06_DIAG_1_ROD",
+    "R65_BAY_06_DIAG_1_A_TONGUE",
+    "R65_BAY_06_DIAG_1_A_BARREL",
+    "R65_BAY_06_DIAG_1_A_NECK",
+    "R65_BAY_06_DIAG_1_A_FORK_-1",
+    "R65_BAY_06_DIAG_1_A_FORK_1",
+    "R65_BAY_06_DIAG_1_A_PIN",
+    "R65_BAY_06_DIAG_1_A_LUG",
+    "R65_BAY_06_DIAG_1_B_TONGUE",
+    "R65_BAY_06_DIAG_1_B_BARREL",
+    "R65_BAY_06_DIAG_1_B_NECK",
+    "R65_BAY_06_DIAG_1_B_FORK_-1",
+    "R65_BAY_06_DIAG_1_B_FORK_1",
+    "R65_BAY_06_DIAG_1_B_PIN",
+    "R65_BAY_06_DIAG_1_B_LUG",
+    "R65_BAY_07_DIAG_0_ROD",
+    "R65_BAY_07_DIAG_0_A_TONGUE",
+    "R65_BAY_07_DIAG_0_A_BARREL",
+    "R65_BAY_07_DIAG_0_A_NECK",
+    "R65_BAY_07_DIAG_0_A_FORK_-1",
+    "R65_BAY_07_DIAG_0_A_FORK_1",
+    "R65_BAY_07_DIAG_0_A_PIN",
+    "R65_BAY_07_DIAG_0_A_LUG",
+    "R65_BAY_07_DIAG_0_B_TONGUE",
+    "R65_BAY_07_DIAG_0_B_BARREL",
+    "R65_BAY_07_DIAG_0_B_NECK",
+    "R65_BAY_07_DIAG_0_B_FORK_-1",
+    "R65_BAY_07_DIAG_0_B_FORK_1",
+    "R65_BAY_07_DIAG_0_B_PIN",
+    "R65_BAY_07_DIAG_0_B_LUG",
+    "R65_BAY_07_DIAG_1_ROD",
+    "R65_BAY_07_DIAG_1_A_TONGUE",
+    "R65_BAY_07_DIAG_1_A_BARREL",
+    "R65_BAY_07_DIAG_1_A_NECK",
+    "R65_BAY_07_DIAG_1_A_FORK_-1",
+    "R65_BAY_07_DIAG_1_A_FORK_1",
+    "R65_BAY_07_DIAG_1_A_PIN",
+    "R65_BAY_07_DIAG_1_A_LUG",
+    "R65_BAY_07_DIAG_1_B_TONGUE",
+    "R65_BAY_07_DIAG_1_B_BARREL",
+    "R65_BAY_07_DIAG_1_B_NECK",
+    "R65_BAY_07_DIAG_1_B_FORK_-1",
+    "R65_BAY_07_DIAG_1_B_FORK_1",
+    "R65_BAY_07_DIAG_1_B_PIN",
+    "R65_BAY_07_DIAG_1_B_LUG"
+  ],
+  "changed_inherited_objects": [],
+  "ties": [
+    {
+      "id": "R65_BAY_00_DIAG_0",
+      "rod": "R65_BAY_00_DIAG_0_ROD",
+      "start": [
+        22.857805252075195,
+        -38.37526321411133,
+        4.0599684715271
+      ],
+      "end": [
+        23.9621524810791,
+        -35.00478744506836,
+        4.0599684715271
+      ],
+      "ends": [
+        {
+          "anchor": [
+            22.857805252075195,
+            -38.37526321411133,
+            4.0599684715271
+          ],
+          "portal": "R18_LINK_TRANSVERSE_0",
+          "terminal_prefix": "R65_BAY_00_DIAG_0_A"
+        },
+        {
+          "anchor": [
+            23.9621524810791,
+            -35.00478744506836,
+            4.0599684715271
+          ],
+          "portal": "R18_LINK_TRANSVERSE_1",
+          "terminal_prefix": "R65_BAY_00_DIAG_0_B"
+        }
+      ],
+      "crossing_z": 4.0599685636619265
+    },
+    {
+      "id": "R65_BAY_00_DIAG_1",
+      "rod": "R65_BAY_00_DIAG_1_ROD",
+      "start": [
+        25.13085174560547,
+        -36.26163101196289,
+        4.077968597412109
+      ],
+      "end": [
+        21.689105987548828,
+        -37.11842346191406,
+        4.077968597412109
+      ],
+      "ends": [
+        {
+          "anchor": [
+            25.13085174560547,
+            -36.26163101196289,
+            4.077968597412109
+          ],
+          "portal": "R18_LINK_TRANSVERSE_0",
+          "terminal_prefix": "R65_BAY_00_DIAG_1_A"
+        },
+        {
+          "anchor": [
+            21.689105987548828,
+            -37.11842346191406,
+            4.077968597412109
+          ],
+          "portal": "R18_LINK_TRANSVERSE_1",
+          "terminal_prefix": "R65_BAY_00_DIAG_1_B"
+        }
+      ],
+      "crossing_z": 4.077968563661926
+    },
+    {
+      "id": "R65_BAY_01_DIAG_0",
+      "rod": "R65_BAY_01_DIAG_0_ROD",
+      "start": [
+        21.664592742919922,
+        -37.09205627441406,
+        4.0599684715271
+      ],
+      "end": [
+        22.768938064575195,
+        -33.72157669067383,
+        4.0599684715271
+      ],
+      "ends": [
+        {
+          "anchor": [
+            21.664592742919922,
+            -37.09205627441406,
+            4.0599684715271
+          ],
+          "portal": "R18_LINK_TRANSVERSE_1",
+          "terminal_prefix": "R65_BAY_01_DIAG_0_A"
+        },
+        {
+          "anchor": [
+            22.768938064575195,
+            -33.72157669067383,
+            4.0599684715271
+          ],
+          "portal": "R18_LINK_TRANSVERSE_2",
+          "terminal_prefix": "R65_BAY_01_DIAG_0_B"
+        }
+      ],
+      "crossing_z": 4.0599685636619265
+    },
+    {
+      "id": "R65_BAY_01_DIAG_1",
+      "rod": "R65_BAY_01_DIAG_1_ROD",
+      "start": [
+        23.937639236450195,
+        -34.97842025756836,
+        4.077968597412109
+      ],
+      "end": [
+        20.495893478393555,
+        -35.83521270751953,
+        4.077968597412109
+      ],
+      "ends": [
+        {
+          "anchor": [
+            23.937639236450195,
+            -34.97842025756836,
+            4.077968597412109
+          ],
+          "portal": "R18_LINK_TRANSVERSE_1",
+          "terminal_prefix": "R65_BAY_01_DIAG_1_A"
+        },
+        {
+          "anchor": [
+            20.495893478393555,
+            -35.83521270751953,
+            4.077968597412109
+          ],
+          "portal": "R18_LINK_TRANSVERSE_2",
+          "terminal_prefix": "R65_BAY_01_DIAG_1_B"
+        }
+      ],
+      "crossing_z": 4.077968563661926
+    },
+    {
+      "id": "R65_BAY_02_DIAG_0",
+      "rod": "R65_BAY_02_DIAG_0_ROD",
+      "start": [
+        20.47138023376465,
+        -35.80884552001953,
+        4.0599684715271
+      ],
+      "end": [
+        21.575725555419922,
+        -32.43836975097656,
+        4.0599684715271
+      ],
+      "ends": [
+        {
+          "anchor": [
+            20.47138023376465,
+            -35.80884552001953,
+            4.0599684715271
+          ],
+          "portal": "R18_LINK_TRANSVERSE_2",
+          "terminal_prefix": "R65_BAY_02_DIAG_0_A"
+        },
+        {
+          "anchor": [
+            21.575725555419922,
+            -32.43836975097656,
+            4.0599684715271
+          ],
+          "portal": "R18_LINK_TRANSVERSE_3",
+          "terminal_prefix": "R65_BAY_02_DIAG_0_B"
+        }
+      ],
+      "crossing_z": 4.0599685636619265
+    },
+    {
+      "id": "R65_BAY_02_DIAG_1",
+      "rod": "R65_BAY_02_DIAG_1_ROD",
+      "start": [
+        22.74442481994629,
+        -33.69520950317383,
+        4.077968597412109
+      ],
+      "end": [
+        19.30267906188965,
+        -34.552001953125,
+        4.077968597412109
+      ],
+      "ends": [
+        {
+          "anchor": [
+            22.74442481994629,
+            -33.69520950317383,
+            4.077968597412109
+          ],
+          "portal": "R18_LINK_TRANSVERSE_2",
+          "terminal_prefix": "R65_BAY_02_DIAG_1_A"
+        },
+        {
+          "anchor": [
+            19.30267906188965,
+            -34.552001953125,
+            4.077968597412109
+          ],
+          "portal": "R18_LINK_TRANSVERSE_3",
+          "terminal_prefix": "R65_BAY_02_DIAG_1_B"
+        }
+      ],
+      "crossing_z": 4.077968563661926
+    },
+    {
+      "id": "R65_BAY_03_DIAG_0",
+      "rod": "R65_BAY_03_DIAG_0_ROD",
+      "start": [
+        19.278165817260742,
+        -34.525634765625,
+        4.0599684715271
+      ],
+      "end": [
+        20.38251304626465,
+        -31.1551570892334,
+        4.0599684715271
+      ],
+      "ends": [
+        {
+          "anchor": [
+            19.278165817260742,
+            -34.525634765625,
+            4.0599684715271
+          ],
+          "portal": "R18_LINK_TRANSVERSE_3",
+          "terminal_prefix": "R65_BAY_03_DIAG_0_A"
+        },
+        {
+          "anchor": [
+            20.38251304626465,
+            -31.1551570892334,
+            4.0599684715271
+          ],
+          "portal": "R18_LINK_TRANSVERSE_4",
+          "terminal_prefix": "R65_BAY_03_DIAG_0_B"
+        }
+      ],
+      "crossing_z": 4.0599685636619265
+    },
+    {
+      "id": "R65_BAY_03_DIAG_1",
+      "rod": "R65_BAY_03_DIAG_1_ROD",
+      "start": [
+        21.551212310791016,
+        -32.41200256347656,
+        4.077968597412109
+      ],
+      "end": [
+        18.109466552734375,
+        -33.26879119873047,
+        4.077968597412109
+      ],
+      "ends": [
+        {
+          "anchor": [
+            21.551212310791016,
+            -32.41200256347656,
+            4.077968597412109
+          ],
+          "portal": "R18_LINK_TRANSVERSE_3",
+          "terminal_prefix": "R65_BAY_03_DIAG_1_A"
+        },
+        {
+          "anchor": [
+            18.109466552734375,
+            -33.26879119873047,
+            4.077968597412109
+          ],
+          "portal": "R18_LINK_TRANSVERSE_4",
+          "terminal_prefix": "R65_BAY_03_DIAG_1_B"
+        }
+      ],
+      "crossing_z": 4.077968563661926
+    },
+    {
+      "id": "R65_BAY_04_DIAG_0",
+      "rod": "R65_BAY_04_DIAG_0_ROD",
+      "start": [
+        18.08495330810547,
+        -33.24242401123047,
+        4.0599684715271
+      ],
+      "end": [
+        19.189300537109375,
+        -29.871946334838867,
+        4.0599684715271
+      ],
+      "ends": [
+        {
+          "anchor": [
+            18.08495330810547,
+            -33.24242401123047,
+            4.0599684715271
+          ],
+          "portal": "R18_LINK_TRANSVERSE_4",
+          "terminal_prefix": "R65_BAY_04_DIAG_0_A"
+        },
+        {
+          "anchor": [
+            19.189300537109375,
+            -29.871946334838867,
+            4.0599684715271
+          ],
+          "portal": "R18_LINK_TRANSVERSE_5",
+          "terminal_prefix": "R65_BAY_04_DIAG_0_B"
+        }
+      ],
+      "crossing_z": 4.0599685636619265
+    },
+    {
+      "id": "R65_BAY_04_DIAG_1",
+      "rod": "R65_BAY_04_DIAG_1_ROD",
+      "start": [
+        20.357999801635742,
+        -31.128793716430664,
+        4.077968597412109
+      ],
+      "end": [
+        16.9162540435791,
+        -31.98558235168457,
+        4.077968597412109
+      ],
+      "ends": [
+        {
+          "anchor": [
+            20.357999801635742,
+            -31.128793716430664,
+            4.077968597412109
+          ],
+          "portal": "R18_LINK_TRANSVERSE_4",
+          "terminal_prefix": "R65_BAY_04_DIAG_1_A"
+        },
+        {
+          "anchor": [
+            16.9162540435791,
+            -31.98558235168457,
+            4.077968597412109
+          ],
+          "portal": "R18_LINK_TRANSVERSE_5",
+          "terminal_prefix": "R65_BAY_04_DIAG_1_B"
+        }
+      ],
+      "crossing_z": 4.077968563661926
+    },
+    {
+      "id": "R65_BAY_05_DIAG_0",
+      "rod": "R65_BAY_05_DIAG_0_ROD",
+      "start": [
+        16.891740798950195,
+        -31.959218978881836,
+        4.0599684715271
+      ],
+      "end": [
+        17.99608612060547,
+        -28.58873748779297,
+        4.0599684715271
+      ],
+      "ends": [
+        {
+          "anchor": [
+            16.891740798950195,
+            -31.959218978881836,
+            4.0599684715271
+          ],
+          "portal": "R18_LINK_TRANSVERSE_5",
+          "terminal_prefix": "R65_BAY_05_DIAG_0_A"
+        },
+        {
+          "anchor": [
+            17.99608612060547,
+            -28.58873748779297,
+            4.0599684715271
+          ],
+          "portal": "R18_LINK_TRANSVERSE_6",
+          "terminal_prefix": "R65_BAY_05_DIAG_0_B"
+        }
+      ],
+      "crossing_z": 4.0599685636619265
+    },
+    {
+      "id": "R65_BAY_05_DIAG_1",
+      "rod": "R65_BAY_05_DIAG_1_ROD",
+      "start": [
+        19.16478729248047,
+        -29.845582962036133,
+        4.077968597412109
+      ],
+      "end": [
+        15.723039627075195,
+        -30.70237159729004,
+        4.077968597412109
+      ],
+      "ends": [
+        {
+          "anchor": [
+            19.16478729248047,
+            -29.845582962036133,
+            4.077968597412109
+          ],
+          "portal": "R18_LINK_TRANSVERSE_5",
+          "terminal_prefix": "R65_BAY_05_DIAG_1_A"
+        },
+        {
+          "anchor": [
+            15.723039627075195,
+            -30.70237159729004,
+            4.077968597412109
+          ],
+          "portal": "R18_LINK_TRANSVERSE_6",
+          "terminal_prefix": "R65_BAY_05_DIAG_1_B"
+        }
+      ],
+      "crossing_z": 4.077968563661926
+    },
+    {
+      "id": "R65_BAY_06_DIAG_0",
+      "rod": "R65_BAY_06_DIAG_0_ROD",
+      "start": [
+        15.698524475097656,
+        -30.676008224487305,
+        4.0599684715271
+      ],
+      "end": [
+        16.802873611450195,
+        -27.305526733398438,
+        4.0599684715271
+      ],
+      "ends": [
+        {
+          "anchor": [
+            15.698524475097656,
+            -30.676008224487305,
+            4.0599684715271
+          ],
+          "portal": "R18_LINK_TRANSVERSE_6",
+          "terminal_prefix": "R65_BAY_06_DIAG_0_A"
+        },
+        {
+          "anchor": [
+            16.802873611450195,
+            -27.305526733398438,
+            4.0599684715271
+          ],
+          "portal": "R18_LINK_TRANSVERSE_7",
+          "terminal_prefix": "R65_BAY_06_DIAG_0_B"
+        }
+      ],
+      "crossing_z": 4.0599685636619265
+    },
+    {
+      "id": "R65_BAY_06_DIAG_1",
+      "rod": "R65_BAY_06_DIAG_1_ROD",
+      "start": [
+        17.971572875976562,
+        -28.562374114990234,
+        4.077968597412109
+      ],
+      "end": [
+        14.529827117919922,
+        -29.419160842895508,
+        4.077968597412109
+      ],
+      "ends": [
+        {
+          "anchor": [
+            17.971572875976562,
+            -28.562374114990234,
+            4.077968597412109
+          ],
+          "portal": "R18_LINK_TRANSVERSE_6",
+          "terminal_prefix": "R65_BAY_06_DIAG_1_A"
+        },
+        {
+          "anchor": [
+            14.529827117919922,
+            -29.419160842895508,
+            4.077968597412109
+          ],
+          "portal": "R18_LINK_TRANSVERSE_7",
+          "terminal_prefix": "R65_BAY_06_DIAG_1_B"
+        }
+      ],
+      "crossing_z": 4.077968563661926
+    },
+    {
+      "id": "R65_BAY_07_DIAG_0",
+      "rod": "R65_BAY_07_DIAG_0_ROD",
+      "start": [
+        14.505311965942383,
+        -29.392797470092773,
+        4.0599684715271
+      ],
+      "end": [
+        15.609663963317871,
+        -26.02231788635254,
+        4.0599684715271
+      ],
+      "ends": [
+        {
+          "anchor": [
+            14.505311965942383,
+            -29.392797470092773,
+            4.0599684715271
+          ],
+          "portal": "R18_LINK_TRANSVERSE_7",
+          "terminal_prefix": "R65_BAY_07_DIAG_0_A"
+        },
+        {
+          "anchor": [
+            15.609663963317871,
+            -26.02231788635254,
+            4.0599684715271
+          ],
+          "portal": "R18_LINK_TRANSVERSE_8",
+          "terminal_prefix": "R65_BAY_07_DIAG_0_B"
+        }
+      ],
+      "crossing_z": 4.0599685636619265
+    },
+    {
+      "id": "R65_BAY_07_DIAG_1",
+      "rod": "R65_BAY_07_DIAG_1_ROD",
+      "start": [
+        16.77836036682129,
+        -27.279163360595703,
+        4.077968597412109
+      ],
+      "end": [
+        13.336613655090332,
+        -28.13595199584961,
+        4.077968597412109
+      ],
+      "ends": [
+        {
+          "anchor": [
+            16.77836036682129,
+            -27.279163360595703,
+            4.077968597412109
+          ],
+          "portal": "R18_LINK_TRANSVERSE_7",
+          "terminal_prefix": "R65_BAY_07_DIAG_1_A"
+        },
+        {
+          "anchor": [
+            13.336613655090332,
+            -28.13595199584961,
+            4.077968597412109
+          ],
+          "portal": "R18_LINK_TRANSVERSE_8",
+          "terminal_prefix": "R65_BAY_07_DIAG_1_B"
+        }
+      ],
+      "crossing_z": 4.077968563661926
+    }
+  ],
+  "support_rays": [
+    {
+      "origin": [
+        22.857805252075195,
+        -38.37526321411133,
+        4.119968414306641
+      ],
+      "portal": "R18_LINK_TRANSVERSE_0",
+      "max_distance": 0.13
+    },
+    {
+      "origin": [
+        23.9621524810791,
+        -35.00478744506836,
+        4.119968414306641
+      ],
+      "portal": "R18_LINK_TRANSVERSE_1",
+      "max_distance": 0.13
+    },
+    {
+      "origin": [
+        25.13085174560547,
+        -36.26163101196289,
+        4.13796854019165
+      ],
+      "portal": "R18_LINK_TRANSVERSE_0",
+      "max_distance": 0.13
+    },
+    {
+      "origin": [
+        21.689105987548828,
+        -37.11842346191406,
+        4.13796854019165
+      ],
+      "portal": "R18_LINK_TRANSVERSE_1",
+      "max_distance": 0.13
+    },
+    {
+      "origin": [
+        21.664592742919922,
+        -37.09205627441406,
+        4.119968414306641
+      ],
+      "portal": "R18_LINK_TRANSVERSE_1",
+      "max_distance": 0.13
+    },
+    {
+      "origin": [
+        22.768938064575195,
+        -33.72157669067383,
+        4.119968414306641
+      ],
+      "portal": "R18_LINK_TRANSVERSE_2",
+      "max_distance": 0.13
+    },
+    {
+      "origin": [
+        23.937639236450195,
+        -34.97842025756836,
+        4.13796854019165
+      ],
+      "portal": "R18_LINK_TRANSVERSE_1",
+      "max_distance": 0.13
+    },
+    {
+      "origin": [
+        20.495893478393555,
+        -35.83521270751953,
+        4.13796854019165
+      ],
+      "portal": "R18_LINK_TRANSVERSE_2",
+      "max_distance": 0.13
+    },
+    {
+      "origin": [
+        20.47138023376465,
+        -35.80884552001953,
+        4.119968414306641
+      ],
+      "portal": "R18_LINK_TRANSVERSE_2",
+      "max_distance": 0.13
+    },
+    {
+      "origin": [
+        21.575725555419922,
+        -32.43836975097656,
+        4.119968414306641
+      ],
+      "portal": "R18_LINK_TRANSVERSE_3",
+      "max_distance": 0.13
+    },
+    {
+      "origin": [
+        22.74442481994629,
+        -33.69520950317383,
+        4.13796854019165
+      ],
+      "portal": "R18_LINK_TRANSVERSE_2",
+      "max_distance": 0.13
+    },
+    {
+      "origin": [
+        19.30267906188965,
+        -34.552001953125,
+        4.13796854019165
+      ],
+      "portal": "R18_LINK_TRANSVERSE_3",
+      "max_distance": 0.13
+    },
+    {
+      "origin": [
+        19.278165817260742,
+        -34.525634765625,
+        4.119968414306641
+      ],
+      "portal": "R18_LINK_TRANSVERSE_3",
+      "max_distance": 0.13
+    },
+    {
+      "origin": [
+        20.38251304626465,
+        -31.1551570892334,
+        4.119968414306641
+      ],
+      "portal": "R18_LINK_TRANSVERSE_4",
+      "max_distance": 0.13
+    },
+    {
+      "origin": [
+        21.551212310791016,
+        -32.41200256347656,
+        4.13796854019165
+      ],
+      "portal": "R18_LINK_TRANSVERSE_3",
+      "max_distance": 0.13
+    },
+    {
+      "origin": [
+        18.109466552734375,
+        -33.26879119873047,
+        4.13796854019165
+      ],
+      "portal": "R18_LINK_TRANSVERSE_4",
+      "max_distance": 0.13
+    },
+    {
+      "origin": [
+        18.08495330810547,
+        -33.24242401123047,
+        4.119968414306641
+      ],
+      "portal": "R18_LINK_TRANSVERSE_4",
+      "max_distance": 0.13
+    },
+    {
+      "origin": [
+        19.189300537109375,
+        -29.871946334838867,
+        4.119968414306641
+      ],
+      "portal": "R18_LINK_TRANSVERSE_5",
+      "max_distance": 0.13
+    },
+    {
+      "origin": [
+        20.357999801635742,
+        -31.128793716430664,
+        4.13796854019165
+      ],
+      "portal": "R18_LINK_TRANSVERSE_4",
+      "max_distance": 0.13
+    },
+    {
+      "origin": [
+        16.9162540435791,
+        -31.98558235168457,
+        4.13796854019165
+      ],
+      "portal": "R18_LINK_TRANSVERSE_5",
+      "max_distance": 0.13
+    },
+    {
+      "origin": [
+        16.891740798950195,
+        -31.959218978881836,
+        4.119968414306641
+      ],
+      "portal": "R18_LINK_TRANSVERSE_5",
+      "max_distance": 0.13
+    },
+    {
+      "origin": [
+        17.99608612060547,
+        -28.58873748779297,
+        4.119968414306641
+      ],
+      "portal": "R18_LINK_TRANSVERSE_6",
+      "max_distance": 0.13
+    },
+    {
+      "origin": [
+        19.16478729248047,
+        -29.845582962036133,
+        4.13796854019165
+      ],
+      "portal": "R18_LINK_TRANSVERSE_5",
+      "max_distance": 0.13
+    },
+    {
+      "origin": [
+        15.723039627075195,
+        -30.70237159729004,
+        4.13796854019165
+      ],
+      "portal": "R18_LINK_TRANSVERSE_6",
+      "max_distance": 0.13
+    },
+    {
+      "origin": [
+        15.698524475097656,
+        -30.676008224487305,
+        4.119968414306641
+      ],
+      "portal": "R18_LINK_TRANSVERSE_6",
+      "max_distance": 0.13
+    },
+    {
+      "origin": [
+        16.802873611450195,
+        -27.305526733398438,
+        4.119968414306641
+      ],
+      "portal": "R18_LINK_TRANSVERSE_7",
+      "max_distance": 0.13
+    },
+    {
+      "origin": [
+        17.971572875976562,
+        -28.562374114990234,
+        4.13796854019165
+      ],
+      "portal": "R18_LINK_TRANSVERSE_6",
+      "max_distance": 0.13
+    },
+    {
+      "origin": [
+        14.529827117919922,
+        -29.419160842895508,
+        4.13796854019165
+      ],
+      "portal": "R18_LINK_TRANSVERSE_7",
+      "max_distance": 0.13
+    },
+    {
+      "origin": [
+        14.505311965942383,
+        -29.392797470092773,
+        4.119968414306641
+      ],
+      "portal": "R18_LINK_TRANSVERSE_7",
+      "max_distance": 0.13
+    },
+    {
+      "origin": [
+        15.609663963317871,
+        -26.02231788635254,
+        4.119968414306641
+      ],
+      "portal": "R18_LINK_TRANSVERSE_8",
+      "max_distance": 0.13
+    },
+    {
+      "origin": [
+        16.77836036682129,
+        -27.279163360595703,
+        4.13796854019165
+      ],
+      "portal": "R18_LINK_TRANSVERSE_7",
+      "max_distance": 0.13
+    },
+    {
+      "origin": [
+        13.336613655090332,
+        -28.13595199584961,
+        4.13796854019165
+      ],
+      "portal": "R18_LINK_TRANSVERSE_8",
+      "max_distance": 0.13
+    }
+  ],
+  "bays": 8,
+  "rod_radius_m": 0.005,
+  "crossing_separation_m": 0.018,
+  "construction_acceptance": false
+}

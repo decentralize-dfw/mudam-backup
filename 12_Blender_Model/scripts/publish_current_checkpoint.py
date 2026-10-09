@@ -216,8 +216,17 @@ def publish():
   section=f'<section class="panel" id="checkpoint-{e["id"]}"><h2>{html.escape(e["title"])}</h2><img src="renders/qa/{e["image"]}" alt="{html.escape(e["title"])}"><p>{html.escape(e["description"])}</p><p>{html.escape(e["limits"])}</p><a href="reports/{e["report"]}">Kaynak ve kontrol raporu</a></section>'
   s=re.sub(r'<section class="panel" id="checkpoint-'+e['id']+r'">.*?</section>','',s,flags=re.S);s=s.replace('<section class="panel"><h2>Paket takibi</h2>',section+'<section class="panel"><h2>Paket takibi</h2>')
  s=re.sub(r'<section class="panel" id="reading-progress">.*?</section>','',s,flags=re.S);s=s.replace('<section class="panel"><h2>Paket takibi</h2>',block+'<section class="panel"><h2>Paket takibi</h2>');p.write_text(s,encoding='utf8')
+ p=B/'URETIM.html';s=p.read_text(encoding='utf8');s=s.replace('<a href="URETIM_DURUMU.md">İş durumu</a>','<a href="URETIM_DURUMU.html">Canlı üretim durumu</a>');p.write_text(s,encoding='utf8')
  p=B/'URETIM_DURUMU.md';s=p.read_text(encoding='utf8');s=re.sub(r'\[MUDAM_[^\]]+\.blend\]\(scenes/[^)]+\)',f'[{Path(latest).name}]({latest})',s)
  s=s.replace('| P13-P22 | Başlamadı | Kalan detay paketleri |','| P13-P14, P16, P18 | Açık | Taş/derz, bütün açıklıklar, iç bitişler, arazi |\n| P15, P17 | Bölgesel pilot | Okuma alanı döşeme boşluğu, cam korkuluk ve çatı açıklığı |\n| P19 | Önizleme | Saydam cam ve genel gündüz ışığı; malzeme/ışık kalibrasyonu açık |\n| P20 | Kontrol aracı | L00/LP1 yatay kesitleri plan üzerinde |\n| P21 | Ara teslim | GLB aktarımı denetlendi; hedef motor optimizasyonu açık |\n| P22 | Açık | Nihai mimari teslim doğrulaması yapılmadı |')
  if 'PLAN_KONTROL.html' not in s:s+='\n[Model-plan kesit kontrolü](PLAN_KONTROL.html) · [Okuma alanı raporu](reports/P15_P17_OKUMA_BOSLUGU_RAPORU.md) · [Malzeme / dışa aktarma raporu](reports/P19_P21_ONIZLEME_RAPORU.md).\n'
+ def mdcell(value):return str(value).replace('|','/').replace('\n',' ')
+ progress=json.loads((B/'config/production_progress.json').read_text(encoding='utf8'))
+ table='| Paket | Durum | İlerleme | Somut çıktı / açık konu |\n| --- | --- | --- | --- |\n'
+ for task in data['tasks']:
+  details=('Üretilen: '+' '.join(task['completed_scope'])+'. ' if task.get('completed_scope') else '')+('Açık: '+' '.join(task.get('open_issues',[])) if task.get('open_issues') else task['acceptance'])
+  steps=progress['tasks'][task['id']]['steps'];percent=round(sum(q['completion'] for q in steps)/len(steps)*100)
+  table+='| '+mdcell(task['id']+' — '+task['title'])+' | '+mdcell(states.get(task['status'],task['status']))+' | %'+str(percent)+' | '+mdcell(details)+' |\n'
+ s=re.sub(r'\| Paket \| Durum \| (?:İlerleme \| )?Somut çıktı / açık konu \|.*?(?=\n## Kontrol sonuçları)',lambda _:table+'\n',s,flags=re.S)
  p.write_text(s,encoding='utf8');print('Current checkpoint',r['file'])
 if __name__=='__main__':publish()

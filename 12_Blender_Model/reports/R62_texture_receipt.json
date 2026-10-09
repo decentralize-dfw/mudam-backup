@@ -1,0 +1,37 @@
+{
+  "files": [
+    {
+      "path": "12_Blender_Model/textures/R62_herringbone_candidate_basecolor.png",
+      "sha256": "c5dc6cf951241ab866a568fafd86ca9c4157e5c82fa8899cd3622948e6d3203f"
+    },
+    {
+      "path": "12_Blender_Model/textures/R62_herringbone_candidate_normal.png",
+      "sha256": "5288423921c8a00632b7400239940f1d0e0b64d0adb4a39f3b42bb237d92e2ad"
+    }
+  ],
+  "resolution": [
+    1536,
+    1536
+  ],
+  "repeat_m": [
+    3.2,
+    3.2
+  ],
+  "candidate_module_m": [
+    0.2,
+    0.05
+  ],
+  "source_ids": [
+    "013",
+    "014"
+  ],
+  "bond": "herringbone",
+  "coverage_cells": 4096,
+  "coverage_min": 1,
+  "coverage_max": 1,
+  "limits": [
+    "013 foreground clearly shows elongated alternating-direction herringbone, replacing R59 staggered near-square candidate.",
+    "Module, joint, colour and relief remain unmeasured; no product or scanned texture claim.",
+    "Orientation relative to building is a visual candidate."
+  ]
+}

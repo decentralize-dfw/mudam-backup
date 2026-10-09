@@ -1,8 +1,8 @@
 {
-  "file": "12_Blender_Model/exports/MUDAM_R61_SACAK_GOMME_ISIK_v002_preview.glb",
-  "size_bytes": 84707696,
-  "mesh_nodes": 7235,
-  "triangles": 2401696,
+  "file": "12_Blender_Model/exports/MUDAM_R68_PAVYON_HENDEK_KOLU_v001_preview.glb",
+  "size_bytes": 88896000,
+  "mesh_nodes": 7641,
+  "triangles": 2446840,
   "world_bounds_glTF": [
     [
       -42.32527542114258,
@@ -12,7 +12,7 @@
     [
       82.8534164428711,
       30.409473419189453,
-      49.81273651123047
+      52.12177658081055
     ]
   ],
   "bounds_max_error_m": 0.0,
@@ -49,6 +49,16 @@
       "mime": "image/png"
     },
     {
+      "name": "R67_diagonal_floor_candidate_normal",
+      "embedded_bytes": 130785,
+      "mime": "image/png"
+    },
+    {
+      "name": "R67_diagonal_floor_candidate_basecolor",
+      "embedded_bytes": 2327829,
+      "mime": "image/png"
+    },
+    {
       "name": "R60_soffit_linear_grain_candidate_normal",
       "embedded_bytes": 67224,
       "mime": "image/png"
@@ -79,13 +89,13 @@
       "mime": "image/png"
     },
     {
-      "name": "R59_paving_candidate_normal",
-      "embedded_bytes": 3385494,
+      "name": "R62_herringbone_candidate_normal",
+      "embedded_bytes": 3360290,
       "mime": "image/png"
     },
     {
-      "name": "R59_paving_candidate_basecolor",
-      "embedded_bytes": 1549588,
+      "name": "R62_herringbone_candidate_basecolor",
+      "embedded_bytes": 1551568,
       "mime": "image/png"
     },
     {

@@ -1,0 +1,18 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R64_GIRIS_ESIK_GECIS_v001.blend",
+  "base_scene": "12_Blender_Model/scenes/MUDAM_R63_GIRIS_PANEL_LEVHA_v002.blend",
+  "inherited_objects_checked": 8000,
+  "changed_inherited_objects": [
+    "ENT-02-L00_FRAME_SILL"
+  ],
+  "allowed_changes": [
+    "ENT-02-L00_FRAME_SILL"
+  ],
+  "allowed_but_unchanged": [],
+  "new_objects": [
+    "R64_FIXED_SIDE_GLASS_SILL_LEFT",
+    "R64_FIXED_SIDE_GLASS_SILL_RIGHT"
+  ],
+  "failures": [],
+  "construction_acceptance": false
+}

@@ -106,5 +106,21 @@
       "R39_regression_on_R44.json"
     ],
     "detail": "R44v004 removes full inherited stair recess from six ceiling cells and offsets floor cutter20mm inside existing wall to prevent coplanar rendering artifact. Headroom/coverage and context render pass; actual soffit construction unmeasured."
+  },
+  {
+    "id": "A10",
+    "status": "open_camera_fit_rejected",
+    "priority": "high",
+    "topic": "065 side basement windows",
+    "evidence": [
+      "065",
+      "002",
+      "003",
+      "067",
+      "102",
+      "104",
+      "A10_side_window_study.json"
+    ],
+    "detail": "Side wall identified as canonical x289.5 near pavilion link, separate from five front historic-wall notches. Unbounded two-landmark fits yield impossible camera heights -3 to-12m despite low residual; rejected. Fixed eye-height trials still have0.14-0.25m nonlevel sill rays and broad location/height sensitivity. No opening geometry accepted from these trials; additional independent registration needed."
   }
 ]

@@ -1,0 +1,1778 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R66_GECIT_YAN_ARMATUR_v001.blend",
+  "solids": [
+    {
+      "name": "R66_LONGITUDINAL_LEFT",
+      "volume": 0.157523942193182,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R66_LIGHT_LEFT_00_0_BODY",
+      "volume": 0.00013909527149521178,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R66_LIGHT_LEFT_00_0_LENS",
+      "volume": 1.114613607566833e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R66_LIGHT_LEFT_00_0_CAP",
+      "volume": 3.823896307340456e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R66_LIGHT_LEFT_00_0_STUB",
+      "volume": 4.045199246959907e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R66_LIGHT_LEFT_00_1_BODY",
+      "volume": 0.00013909527149519758,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R66_LIGHT_LEFT_00_1_LENS",
+      "volume": 1.1146136076189235e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R66_LIGHT_LEFT_00_1_CAP",
+      "volume": 3.8238963073144246e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R66_LIGHT_LEFT_00_1_STUB",
+      "volume": 4.04519924692686e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R66_LIGHT_LEFT_01_0_BODY",
+      "volume": 0.0001390952714950607,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R66_LIGHT_LEFT_01_0_LENS",
+      "volume": 1.1146136075892732e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R66_LIGHT_LEFT_01_0_CAP",
+      "volume": 3.823896307292209e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R66_LIGHT_LEFT_01_0_STUB",
+      "volume": 4.0451992469589526e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R66_LIGHT_LEFT_01_1_BODY",
+      "volume": 0.0001390952714949005,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R66_LIGHT_LEFT_01_1_LENS",
+      "volume": 1.1146136075388226e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R66_LIGHT_LEFT_01_1_CAP",
+      "volume": 3.823896307349683e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R66_LIGHT_LEFT_01_1_STUB",
+      "volume": 4.045199246962162e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R66_LIGHT_LEFT_02_0_BODY",
+      "volume": 0.00013909527149541024,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R66_LIGHT_LEFT_02_0_LENS",
+      "volume": 1.1146136075670281e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R66_LIGHT_LEFT_02_0_CAP",
+      "volume": 3.823896307336651e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R66_LIGHT_LEFT_02_0_STUB",
+      "volume": 4.045199246950192e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R66_LIGHT_LEFT_02_1_BODY",
+      "volume": 0.00013909527149524945,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R66_LIGHT_LEFT_02_1_LENS",
+      "volume": 1.1146136076030995e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R66_LIGHT_LEFT_02_1_CAP",
+      "volume": 3.823896307333973e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R66_LIGHT_LEFT_02_1_STUB",
+      "volume": 4.045199246948891e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R66_LIGHT_LEFT_03_0_BODY",
+      "volume": 0.00013909527149514494,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R66_LIGHT_LEFT_03_0_LENS",
+      "volume": 1.1146136075946021e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R66_LIGHT_LEFT_03_0_CAP",
+      "volume": 3.8238963073047427e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R66_LIGHT_LEFT_03_0_STUB",
+      "volume": 4.045199246955266e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R66_LIGHT_LEFT_03_1_BODY",
+      "volume": 0.00013909527149505565,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R66_LIGHT_LEFT_03_1_LENS",
+      "volume": 1.1146136075891215e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R66_LIGHT_LEFT_03_1_CAP",
+      "volume": 3.823896307341692e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R66_LIGHT_LEFT_03_1_STUB",
+      "volume": 4.045199246984366e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R66_LIGHT_LEFT_04_0_BODY",
+      "volume": 0.00013909527149519188,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R66_LIGHT_LEFT_04_0_LENS",
+      "volume": 1.1146136076002996e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R66_LIGHT_LEFT_04_0_CAP",
+      "volume": 3.823896307297023e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R66_LIGHT_LEFT_04_0_STUB",
+      "volume": 4.045199246948154e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R66_LIGHT_LEFT_04_1_BODY",
+      "volume": 0.0001390952714951008,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R66_LIGHT_LEFT_04_1_LENS",
+      "volume": 1.1146136075965482e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R66_LIGHT_LEFT_04_1_CAP",
+      "volume": 3.823896307316203e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R66_LIGHT_LEFT_04_1_STUB",
+      "volume": 4.0451992469882694e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R66_LIGHT_LEFT_05_0_BODY",
+      "volume": 0.00013908870275168838,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R66_LIGHT_LEFT_05_0_LENS",
+      "volume": 1.114593822661706e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R66_LIGHT_LEFT_05_0_CAP",
+      "volume": 3.8237891882185395e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R66_LIGHT_LEFT_05_0_STUB",
+      "volume": 4.045382034145988e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R66_LIGHT_LEFT_05_1_BODY",
+      "volume": 0.00013908870275143156,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R66_LIGHT_LEFT_05_1_LENS",
+      "volume": 1.114593822664506e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R66_LIGHT_LEFT_05_1_CAP",
+      "volume": 3.8237891882124246e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R66_LIGHT_LEFT_05_1_STUB",
+      "volume": 4.0453804638979334e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R66_LIGHT_LEFT_06_0_BODY",
+      "volume": 0.00013908920333770449,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R66_LIGHT_LEFT_06_0_LENS",
+      "volume": 1.1145949729865013e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R66_LIGHT_LEFT_06_0_CAP",
+      "volume": 3.8238455272543524e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R66_LIGHT_LEFT_06_0_STUB",
+      "volume": 4.0453788936126254e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R66_LIGHT_LEFT_06_1_BODY",
+      "volume": 0.00013908920333788446,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R66_LIGHT_LEFT_06_1_LENS",
+      "volume": 1.1145949729785378e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R66_LIGHT_LEFT_06_1_CAP",
+      "volume": 3.823845527247782e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R66_LIGHT_LEFT_06_1_STUB",
+      "volume": 4.0453788935843494e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R66_LIGHT_LEFT_07_0_BODY",
+      "volume": 0.00013908920333798556,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R66_LIGHT_LEFT_07_0_LENS",
+      "volume": 1.1145949730002598e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R66_LIGHT_LEFT_07_0_CAP",
+      "volume": 3.823845527253951e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R66_LIGHT_LEFT_07_0_STUB",
+      "volume": 4.045378893582528e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R66_LIGHT_LEFT_07_1_BODY",
+      "volume": 0.0001390892033375971,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R66_LIGHT_LEFT_07_1_LENS",
+      "volume": 1.114594973018282e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R66_LIGHT_LEFT_07_1_CAP",
+      "volume": 3.823845527246568e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R66_LIGHT_LEFT_07_1_STUB",
+      "volume": 4.0453788936114544e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R66_LONGITUDINAL_RIGHT",
+      "volume": 0.1575239432937134,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R66_LIGHT_RIGHT_00_0_BODY",
+      "volume": 0.00013909527149541832,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R66_LIGHT_RIGHT_00_0_LENS",
+      "volume": 1.1146136076312915e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R66_LIGHT_RIGHT_00_0_CAP",
+      "volume": 3.8238963073418224e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R66_LIGHT_RIGHT_00_0_STUB",
+      "volume": 4.0451992469757794e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R66_LIGHT_RIGHT_00_1_BODY",
+      "volume": 0.00013909527149518722,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R66_LIGHT_RIGHT_00_1_LENS",
+      "volume": 1.1146136075337838e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R66_LIGHT_RIGHT_00_1_CAP",
+      "volume": 3.823896307336358e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R66_LIGHT_RIGHT_00_1_STUB",
+      "volume": 4.0451992469551796e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R66_LIGHT_RIGHT_01_0_BODY",
+      "volume": 0.00013909527149497103,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R66_LIGHT_RIGHT_01_0_LENS",
+      "volume": 1.114613607610697e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R66_LIGHT_RIGHT_01_0_CAP",
+      "volume": 3.8238963072784724e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R66_LIGHT_RIGHT_01_0_STUB",
+      "volume": 4.045199246945335e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R66_LIGHT_RIGHT_01_1_BODY",
+      "volume": 0.0001390952714950518,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R66_LIGHT_RIGHT_01_1_LENS",
+      "volume": 1.114613607604959e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R66_LIGHT_RIGHT_01_1_CAP",
+      "volume": 3.823896307325494e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R66_LIGHT_RIGHT_01_1_STUB",
+      "volume": 4.045199246983499e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R66_LIGHT_RIGHT_02_0_BODY",
+      "volume": 0.00013909527149510108,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R66_LIGHT_RIGHT_02_0_LENS",
+      "volume": 1.1146136075534377e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R66_LIGHT_RIGHT_02_0_CAP",
+      "volume": 3.823896307323456e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R66_LIGHT_RIGHT_02_0_STUB",
+      "volume": 4.0451992469928665e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R66_LIGHT_RIGHT_02_1_BODY",
+      "volume": 0.00013909527149540433,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R66_LIGHT_RIGHT_02_1_LENS",
+      "volume": 1.114613607648403e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R66_LIGHT_RIGHT_02_1_CAP",
+      "volume": 3.823896307290236e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R66_LIGHT_RIGHT_02_1_STUB",
+      "volume": 4.045199246991262e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R66_LIGHT_RIGHT_03_0_BODY",
+      "volume": 0.0001390952714951432,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R66_LIGHT_RIGHT_03_0_LENS",
+      "volume": 1.1146136075822856e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R66_LIGHT_RIGHT_03_0_CAP",
+      "volume": 3.8238963072802614e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R66_LIGHT_RIGHT_03_0_STUB",
+      "volume": 4.045199247074919e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R66_LIGHT_RIGHT_03_1_BODY",
+      "volume": 0.0001390887027512196,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R66_LIGHT_RIGHT_03_1_LENS",
+      "volume": 1.1145938226552198e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R66_LIGHT_RIGHT_03_1_CAP",
+      "volume": 3.823789188236483e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R66_LIGHT_RIGHT_03_1_STUB",
+      "volume": 4.0453820341713586e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R66_LIGHT_RIGHT_04_0_BODY",
+      "volume": 0.00013908870275118862,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R66_LIGHT_RIGHT_04_0_LENS",
+      "volume": 1.1145938226683223e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R66_LIGHT_RIGHT_04_0_CAP",
+      "volume": 3.823789188204445e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R66_LIGHT_RIGHT_04_0_STUB",
+      "volume": 4.0453820341753485e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R66_LIGHT_RIGHT_04_1_BODY",
+      "volume": 0.00013908870275108884,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R66_LIGHT_RIGHT_04_1_LENS",
+      "volume": 1.114593822700244e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R66_LIGHT_RIGHT_04_1_CAP",
+      "volume": 3.8237891881676036e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R66_LIGHT_RIGHT_04_1_STUB",
+      "volume": 4.045382034163856e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R66_LIGHT_RIGHT_05_0_BODY",
+      "volume": 0.0001390887027512169,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R66_LIGHT_RIGHT_05_0_LENS",
+      "volume": 1.114593822685412e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R66_LIGHT_RIGHT_05_0_CAP",
+      "volume": 3.82378918821391e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R66_LIGHT_RIGHT_05_0_STUB",
+      "volume": 4.045382034173657e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R66_LIGHT_RIGHT_05_1_BODY",
+      "volume": 0.00013908870275118498,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R66_LIGHT_RIGHT_05_1_LENS",
+      "volume": 1.1145938226509778e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R66_LIGHT_RIGHT_05_1_CAP",
+      "volume": 3.823789188216111e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R66_LIGHT_RIGHT_05_1_STUB",
+      "volume": 4.0453820341653304e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R66_LIGHT_RIGHT_06_0_BODY",
+      "volume": 0.00013908870275115322,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R66_LIGHT_RIGHT_06_0_LENS",
+      "volume": 1.114593822664159e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R66_LIGHT_RIGHT_06_0_CAP",
+      "volume": 3.823789188204857e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R66_LIGHT_RIGHT_06_0_STUB",
+      "volume": 4.045382034099975e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R66_LIGHT_RIGHT_06_1_BODY",
+      "volume": 0.00013908870275146178,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R66_LIGHT_RIGHT_06_1_LENS",
+      "volume": 1.1145938226817312e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R66_LIGHT_RIGHT_06_1_CAP",
+      "volume": 3.823789188197929e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R66_LIGHT_RIGHT_06_1_STUB",
+      "volume": 4.0453820341349294e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R66_LIGHT_RIGHT_07_0_BODY",
+      "volume": 0.00013908870275110985,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R66_LIGHT_RIGHT_07_0_LENS",
+      "volume": 1.1145938226736458e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R66_LIGHT_RIGHT_07_0_CAP",
+      "volume": 3.82378918823876e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R66_LIGHT_RIGHT_07_0_STUB",
+      "volume": 4.045382034164203e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R66_LIGHT_RIGHT_07_1_BODY",
+      "volume": 0.00013908920333776108,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R66_LIGHT_RIGHT_07_1_LENS",
+      "volume": 1.1145949729997394e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R66_LIGHT_RIGHT_07_1_CAP",
+      "volume": 3.8238455272634597e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R66_LIGHT_RIGHT_07_1_STUB",
+      "volume": 4.045378893620475e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    }
+  ],
+  "connections": [
+    {
+      "a": "R66_LONGITUDINAL_LEFT",
+      "b": "R18_LINK_TRANSVERSE_0",
+      "intersections": 15
+    },
+    {
+      "a": "R66_LONGITUDINAL_LEFT",
+      "b": "R18_LINK_TRANSVERSE_1",
+      "intersections": 40
+    },
+    {
+      "a": "R66_LONGITUDINAL_LEFT",
+      "b": "R18_LINK_TRANSVERSE_2",
+      "intersections": 36
+    },
+    {
+      "a": "R66_LONGITUDINAL_LEFT",
+      "b": "R18_LINK_TRANSVERSE_3",
+      "intersections": 37
+    },
+    {
+      "a": "R66_LONGITUDINAL_LEFT",
+      "b": "R18_LINK_TRANSVERSE_4",
+      "intersections": 34
+    },
+    {
+      "a": "R66_LONGITUDINAL_LEFT",
+      "b": "R18_LINK_TRANSVERSE_5",
+      "intersections": 37
+    },
+    {
+      "a": "R66_LONGITUDINAL_LEFT",
+      "b": "R18_LINK_TRANSVERSE_6",
+      "intersections": 37
+    },
+    {
+      "a": "R66_LONGITUDINAL_LEFT",
+      "b": "R18_LINK_TRANSVERSE_7",
+      "intersections": 35
+    },
+    {
+      "a": "R66_LONGITUDINAL_LEFT",
+      "b": "R18_LINK_TRANSVERSE_8",
+      "intersections": 17
+    },
+    {
+      "a": "R66_LONGITUDINAL_RIGHT",
+      "b": "R18_LINK_TRANSVERSE_0",
+      "intersections": 18
+    },
+    {
+      "a": "R66_LONGITUDINAL_RIGHT",
+      "b": "R18_LINK_TRANSVERSE_1",
+      "intersections": 38
+    },
+    {
+      "a": "R66_LONGITUDINAL_RIGHT",
+      "b": "R18_LINK_TRANSVERSE_2",
+      "intersections": 35
+    },
+    {
+      "a": "R66_LONGITUDINAL_RIGHT",
+      "b": "R18_LINK_TRANSVERSE_3",
+      "intersections": 35
+    },
+    {
+      "a": "R66_LONGITUDINAL_RIGHT",
+      "b": "R18_LINK_TRANSVERSE_4",
+      "intersections": 36
+    },
+    {
+      "a": "R66_LONGITUDINAL_RIGHT",
+      "b": "R18_LINK_TRANSVERSE_5",
+      "intersections": 39
+    },
+    {
+      "a": "R66_LONGITUDINAL_RIGHT",
+      "b": "R18_LINK_TRANSVERSE_6",
+      "intersections": 36
+    },
+    {
+      "a": "R66_LONGITUDINAL_RIGHT",
+      "b": "R18_LINK_TRANSVERSE_7",
+      "intersections": 37
+    },
+    {
+      "a": "R66_LONGITUDINAL_RIGHT",
+      "b": "R18_LINK_TRANSVERSE_8",
+      "intersections": 16
+    },
+    {
+      "a": "R66_LIGHT_LEFT_00_0_STUB",
+      "b": "R66_LONGITUDINAL_LEFT",
+      "intersections": 37
+    },
+    {
+      "a": "R66_LIGHT_LEFT_00_0_STUB",
+      "b": "R66_LIGHT_LEFT_00_0_BODY",
+      "intersections": 86
+    },
+    {
+      "a": "R66_LIGHT_LEFT_00_0_BODY",
+      "b": "R66_LIGHT_LEFT_00_0_LENS",
+      "intersections": 96
+    },
+    {
+      "a": "R66_LIGHT_LEFT_00_0_BODY",
+      "b": "R66_LIGHT_LEFT_00_0_CAP",
+      "intersections": 143
+    },
+    {
+      "a": "R66_LIGHT_LEFT_00_1_STUB",
+      "b": "R66_LONGITUDINAL_LEFT",
+      "intersections": 36
+    },
+    {
+      "a": "R66_LIGHT_LEFT_00_1_STUB",
+      "b": "R66_LIGHT_LEFT_00_1_BODY",
+      "intersections": 86
+    },
+    {
+      "a": "R66_LIGHT_LEFT_00_1_BODY",
+      "b": "R66_LIGHT_LEFT_00_1_LENS",
+      "intersections": 96
+    },
+    {
+      "a": "R66_LIGHT_LEFT_00_1_BODY",
+      "b": "R66_LIGHT_LEFT_00_1_CAP",
+      "intersections": 144
+    },
+    {
+      "a": "R66_LIGHT_LEFT_01_0_STUB",
+      "b": "R66_LONGITUDINAL_LEFT",
+      "intersections": 37
+    },
+    {
+      "a": "R66_LIGHT_LEFT_01_0_STUB",
+      "b": "R66_LIGHT_LEFT_01_0_BODY",
+      "intersections": 86
+    },
+    {
+      "a": "R66_LIGHT_LEFT_01_0_BODY",
+      "b": "R66_LIGHT_LEFT_01_0_LENS",
+      "intersections": 96
+    },
+    {
+      "a": "R66_LIGHT_LEFT_01_0_BODY",
+      "b": "R66_LIGHT_LEFT_01_0_CAP",
+      "intersections": 143
+    },
+    {
+      "a": "R66_LIGHT_LEFT_01_1_STUB",
+      "b": "R66_LONGITUDINAL_LEFT",
+      "intersections": 37
+    },
+    {
+      "a": "R66_LIGHT_LEFT_01_1_STUB",
+      "b": "R66_LIGHT_LEFT_01_1_BODY",
+      "intersections": 86
+    },
+    {
+      "a": "R66_LIGHT_LEFT_01_1_BODY",
+      "b": "R66_LIGHT_LEFT_01_1_LENS",
+      "intersections": 96
+    },
+    {
+      "a": "R66_LIGHT_LEFT_01_1_BODY",
+      "b": "R66_LIGHT_LEFT_01_1_CAP",
+      "intersections": 141
+    },
+    {
+      "a": "R66_LIGHT_LEFT_02_0_STUB",
+      "b": "R66_LONGITUDINAL_LEFT",
+      "intersections": 37
+    },
+    {
+      "a": "R66_LIGHT_LEFT_02_0_STUB",
+      "b": "R66_LIGHT_LEFT_02_0_BODY",
+      "intersections": 86
+    },
+    {
+      "a": "R66_LIGHT_LEFT_02_0_BODY",
+      "b": "R66_LIGHT_LEFT_02_0_LENS",
+      "intersections": 96
+    },
+    {
+      "a": "R66_LIGHT_LEFT_02_0_BODY",
+      "b": "R66_LIGHT_LEFT_02_0_CAP",
+      "intersections": 145
+    },
+    {
+      "a": "R66_LIGHT_LEFT_02_1_STUB",
+      "b": "R66_LONGITUDINAL_LEFT",
+      "intersections": 37
+    },
+    {
+      "a": "R66_LIGHT_LEFT_02_1_STUB",
+      "b": "R66_LIGHT_LEFT_02_1_BODY",
+      "intersections": 86
+    },
+    {
+      "a": "R66_LIGHT_LEFT_02_1_BODY",
+      "b": "R66_LIGHT_LEFT_02_1_LENS",
+      "intersections": 96
+    },
+    {
+      "a": "R66_LIGHT_LEFT_02_1_BODY",
+      "b": "R66_LIGHT_LEFT_02_1_CAP",
+      "intersections": 144
+    },
+    {
+      "a": "R66_LIGHT_LEFT_03_0_STUB",
+      "b": "R66_LONGITUDINAL_LEFT",
+      "intersections": 36
+    },
+    {
+      "a": "R66_LIGHT_LEFT_03_0_STUB",
+      "b": "R66_LIGHT_LEFT_03_0_BODY",
+      "intersections": 86
+    },
+    {
+      "a": "R66_LIGHT_LEFT_03_0_BODY",
+      "b": "R66_LIGHT_LEFT_03_0_LENS",
+      "intersections": 96
+    },
+    {
+      "a": "R66_LIGHT_LEFT_03_0_BODY",
+      "b": "R66_LIGHT_LEFT_03_0_CAP",
+      "intersections": 146
+    },
+    {
+      "a": "R66_LIGHT_LEFT_03_1_STUB",
+      "b": "R66_LONGITUDINAL_LEFT",
+      "intersections": 37
+    },
+    {
+      "a": "R66_LIGHT_LEFT_03_1_STUB",
+      "b": "R66_LIGHT_LEFT_03_1_BODY",
+      "intersections": 86
+    },
+    {
+      "a": "R66_LIGHT_LEFT_03_1_BODY",
+      "b": "R66_LIGHT_LEFT_03_1_LENS",
+      "intersections": 96
+    },
+    {
+      "a": "R66_LIGHT_LEFT_03_1_BODY",
+      "b": "R66_LIGHT_LEFT_03_1_CAP",
+      "intersections": 144
+    },
+    {
+      "a": "R66_LIGHT_LEFT_04_0_STUB",
+      "b": "R66_LONGITUDINAL_LEFT",
+      "intersections": 37
+    },
+    {
+      "a": "R66_LIGHT_LEFT_04_0_STUB",
+      "b": "R66_LIGHT_LEFT_04_0_BODY",
+      "intersections": 86
+    },
+    {
+      "a": "R66_LIGHT_LEFT_04_0_BODY",
+      "b": "R66_LIGHT_LEFT_04_0_LENS",
+      "intersections": 96
+    },
+    {
+      "a": "R66_LIGHT_LEFT_04_0_BODY",
+      "b": "R66_LIGHT_LEFT_04_0_CAP",
+      "intersections": 144
+    },
+    {
+      "a": "R66_LIGHT_LEFT_04_1_STUB",
+      "b": "R66_LONGITUDINAL_LEFT",
+      "intersections": 37
+    },
+    {
+      "a": "R66_LIGHT_LEFT_04_1_STUB",
+      "b": "R66_LIGHT_LEFT_04_1_BODY",
+      "intersections": 86
+    },
+    {
+      "a": "R66_LIGHT_LEFT_04_1_BODY",
+      "b": "R66_LIGHT_LEFT_04_1_LENS",
+      "intersections": 96
+    },
+    {
+      "a": "R66_LIGHT_LEFT_04_1_BODY",
+      "b": "R66_LIGHT_LEFT_04_1_CAP",
+      "intersections": 144
+    },
+    {
+      "a": "R66_LIGHT_LEFT_05_0_STUB",
+      "b": "R66_LONGITUDINAL_LEFT",
+      "intersections": 36
+    },
+    {
+      "a": "R66_LIGHT_LEFT_05_0_STUB",
+      "b": "R66_LIGHT_LEFT_05_0_BODY",
+      "intersections": 86
+    },
+    {
+      "a": "R66_LIGHT_LEFT_05_0_BODY",
+      "b": "R66_LIGHT_LEFT_05_0_LENS",
+      "intersections": 96
+    },
+    {
+      "a": "R66_LIGHT_LEFT_05_0_BODY",
+      "b": "R66_LIGHT_LEFT_05_0_CAP",
+      "intersections": 135
+    },
+    {
+      "a": "R66_LIGHT_LEFT_05_1_STUB",
+      "b": "R66_LONGITUDINAL_LEFT",
+      "intersections": 37
+    },
+    {
+      "a": "R66_LIGHT_LEFT_05_1_STUB",
+      "b": "R66_LIGHT_LEFT_05_1_BODY",
+      "intersections": 86
+    },
+    {
+      "a": "R66_LIGHT_LEFT_05_1_BODY",
+      "b": "R66_LIGHT_LEFT_05_1_LENS",
+      "intersections": 96
+    },
+    {
+      "a": "R66_LIGHT_LEFT_05_1_BODY",
+      "b": "R66_LIGHT_LEFT_05_1_CAP",
+      "intersections": 135
+    },
+    {
+      "a": "R66_LIGHT_LEFT_06_0_STUB",
+      "b": "R66_LONGITUDINAL_LEFT",
+      "intersections": 37
+    },
+    {
+      "a": "R66_LIGHT_LEFT_06_0_STUB",
+      "b": "R66_LIGHT_LEFT_06_0_BODY",
+      "intersections": 86
+    },
+    {
+      "a": "R66_LIGHT_LEFT_06_0_BODY",
+      "b": "R66_LIGHT_LEFT_06_0_LENS",
+      "intersections": 96
+    },
+    {
+      "a": "R66_LIGHT_LEFT_06_0_BODY",
+      "b": "R66_LIGHT_LEFT_06_0_CAP",
+      "intersections": 142
+    },
+    {
+      "a": "R66_LIGHT_LEFT_06_1_STUB",
+      "b": "R66_LONGITUDINAL_LEFT",
+      "intersections": 37
+    },
+    {
+      "a": "R66_LIGHT_LEFT_06_1_STUB",
+      "b": "R66_LIGHT_LEFT_06_1_BODY",
+      "intersections": 86
+    },
+    {
+      "a": "R66_LIGHT_LEFT_06_1_BODY",
+      "b": "R66_LIGHT_LEFT_06_1_LENS",
+      "intersections": 96
+    },
+    {
+      "a": "R66_LIGHT_LEFT_06_1_BODY",
+      "b": "R66_LIGHT_LEFT_06_1_CAP",
+      "intersections": 144
+    },
+    {
+      "a": "R66_LIGHT_LEFT_07_0_STUB",
+      "b": "R66_LONGITUDINAL_LEFT",
+      "intersections": 37
+    },
+    {
+      "a": "R66_LIGHT_LEFT_07_0_STUB",
+      "b": "R66_LIGHT_LEFT_07_0_BODY",
+      "intersections": 86
+    },
+    {
+      "a": "R66_LIGHT_LEFT_07_0_BODY",
+      "b": "R66_LIGHT_LEFT_07_0_LENS",
+      "intersections": 96
+    },
+    {
+      "a": "R66_LIGHT_LEFT_07_0_BODY",
+      "b": "R66_LIGHT_LEFT_07_0_CAP",
+      "intersections": 147
+    },
+    {
+      "a": "R66_LIGHT_LEFT_07_1_STUB",
+      "b": "R66_LONGITUDINAL_LEFT",
+      "intersections": 37
+    },
+    {
+      "a": "R66_LIGHT_LEFT_07_1_STUB",
+      "b": "R66_LIGHT_LEFT_07_1_BODY",
+      "intersections": 86
+    },
+    {
+      "a": "R66_LIGHT_LEFT_07_1_BODY",
+      "b": "R66_LIGHT_LEFT_07_1_LENS",
+      "intersections": 96
+    },
+    {
+      "a": "R66_LIGHT_LEFT_07_1_BODY",
+      "b": "R66_LIGHT_LEFT_07_1_CAP",
+      "intersections": 143
+    },
+    {
+      "a": "R66_LIGHT_RIGHT_00_0_STUB",
+      "b": "R66_LONGITUDINAL_RIGHT",
+      "intersections": 37
+    },
+    {
+      "a": "R66_LIGHT_RIGHT_00_0_STUB",
+      "b": "R66_LIGHT_RIGHT_00_0_BODY",
+      "intersections": 86
+    },
+    {
+      "a": "R66_LIGHT_RIGHT_00_0_BODY",
+      "b": "R66_LIGHT_RIGHT_00_0_LENS",
+      "intersections": 96
+    },
+    {
+      "a": "R66_LIGHT_RIGHT_00_0_BODY",
+      "b": "R66_LIGHT_RIGHT_00_0_CAP",
+      "intersections": 146
+    },
+    {
+      "a": "R66_LIGHT_RIGHT_00_1_STUB",
+      "b": "R66_LONGITUDINAL_RIGHT",
+      "intersections": 36
+    },
+    {
+      "a": "R66_LIGHT_RIGHT_00_1_STUB",
+      "b": "R66_LIGHT_RIGHT_00_1_BODY",
+      "intersections": 86
+    },
+    {
+      "a": "R66_LIGHT_RIGHT_00_1_BODY",
+      "b": "R66_LIGHT_RIGHT_00_1_LENS",
+      "intersections": 96
+    },
+    {
+      "a": "R66_LIGHT_RIGHT_00_1_BODY",
+      "b": "R66_LIGHT_RIGHT_00_1_CAP",
+      "intersections": 142
+    },
+    {
+      "a": "R66_LIGHT_RIGHT_01_0_STUB",
+      "b": "R66_LONGITUDINAL_RIGHT",
+      "intersections": 37
+    },
+    {
+      "a": "R66_LIGHT_RIGHT_01_0_STUB",
+      "b": "R66_LIGHT_RIGHT_01_0_BODY",
+      "intersections": 86
+    },
+    {
+      "a": "R66_LIGHT_RIGHT_01_0_BODY",
+      "b": "R66_LIGHT_RIGHT_01_0_LENS",
+      "intersections": 96
+    },
+    {
+      "a": "R66_LIGHT_RIGHT_01_0_BODY",
+      "b": "R66_LIGHT_RIGHT_01_0_CAP",
+      "intersections": 147
+    },
+    {
+      "a": "R66_LIGHT_RIGHT_01_1_STUB",
+      "b": "R66_LONGITUDINAL_RIGHT",
+      "intersections": 36
+    },
+    {
+      "a": "R66_LIGHT_RIGHT_01_1_STUB",
+      "b": "R66_LIGHT_RIGHT_01_1_BODY",
+      "intersections": 86
+    },
+    {
+      "a": "R66_LIGHT_RIGHT_01_1_BODY",
+      "b": "R66_LIGHT_RIGHT_01_1_LENS",
+      "intersections": 96
+    },
+    {
+      "a": "R66_LIGHT_RIGHT_01_1_BODY",
+      "b": "R66_LIGHT_RIGHT_01_1_CAP",
+      "intersections": 144
+    },
+    {
+      "a": "R66_LIGHT_RIGHT_02_0_STUB",
+      "b": "R66_LONGITUDINAL_RIGHT",
+      "intersections": 36
+    },
+    {
+      "a": "R66_LIGHT_RIGHT_02_0_STUB",
+      "b": "R66_LIGHT_RIGHT_02_0_BODY",
+      "intersections": 86
+    },
+    {
+      "a": "R66_LIGHT_RIGHT_02_0_BODY",
+      "b": "R66_LIGHT_RIGHT_02_0_LENS",
+      "intersections": 96
+    },
+    {
+      "a": "R66_LIGHT_RIGHT_02_0_BODY",
+      "b": "R66_LIGHT_RIGHT_02_0_CAP",
+      "intersections": 146
+    },
+    {
+      "a": "R66_LIGHT_RIGHT_02_1_STUB",
+      "b": "R66_LONGITUDINAL_RIGHT",
+      "intersections": 37
+    },
+    {
+      "a": "R66_LIGHT_RIGHT_02_1_STUB",
+      "b": "R66_LIGHT_RIGHT_02_1_BODY",
+      "intersections": 86
+    },
+    {
+      "a": "R66_LIGHT_RIGHT_02_1_BODY",
+      "b": "R66_LIGHT_RIGHT_02_1_LENS",
+      "intersections": 96
+    },
+    {
+      "a": "R66_LIGHT_RIGHT_02_1_BODY",
+      "b": "R66_LIGHT_RIGHT_02_1_CAP",
+      "intersections": 143
+    },
+    {
+      "a": "R66_LIGHT_RIGHT_03_0_STUB",
+      "b": "R66_LONGITUDINAL_RIGHT",
+      "intersections": 37
+    },
+    {
+      "a": "R66_LIGHT_RIGHT_03_0_STUB",
+      "b": "R66_LIGHT_RIGHT_03_0_BODY",
+      "intersections": 86
+    },
+    {
+      "a": "R66_LIGHT_RIGHT_03_0_BODY",
+      "b": "R66_LIGHT_RIGHT_03_0_LENS",
+      "intersections": 96
+    },
+    {
+      "a": "R66_LIGHT_RIGHT_03_0_BODY",
+      "b": "R66_LIGHT_RIGHT_03_0_CAP",
+      "intersections": 143
+    },
+    {
+      "a": "R66_LIGHT_RIGHT_03_1_STUB",
+      "b": "R66_LONGITUDINAL_RIGHT",
+      "intersections": 37
+    },
+    {
+      "a": "R66_LIGHT_RIGHT_03_1_STUB",
+      "b": "R66_LIGHT_RIGHT_03_1_BODY",
+      "intersections": 86
+    },
+    {
+      "a": "R66_LIGHT_RIGHT_03_1_BODY",
+      "b": "R66_LIGHT_RIGHT_03_1_LENS",
+      "intersections": 96
+    },
+    {
+      "a": "R66_LIGHT_RIGHT_03_1_BODY",
+      "b": "R66_LIGHT_RIGHT_03_1_CAP",
+      "intersections": 137
+    },
+    {
+      "a": "R66_LIGHT_RIGHT_04_0_STUB",
+      "b": "R66_LONGITUDINAL_RIGHT",
+      "intersections": 37
+    },
+    {
+      "a": "R66_LIGHT_RIGHT_04_0_STUB",
+      "b": "R66_LIGHT_RIGHT_04_0_BODY",
+      "intersections": 86
+    },
+    {
+      "a": "R66_LIGHT_RIGHT_04_0_BODY",
+      "b": "R66_LIGHT_RIGHT_04_0_LENS",
+      "intersections": 96
+    },
+    {
+      "a": "R66_LIGHT_RIGHT_04_0_BODY",
+      "b": "R66_LIGHT_RIGHT_04_0_CAP",
+      "intersections": 134
+    },
+    {
+      "a": "R66_LIGHT_RIGHT_04_1_STUB",
+      "b": "R66_LONGITUDINAL_RIGHT",
+      "intersections": 37
+    },
+    {
+      "a": "R66_LIGHT_RIGHT_04_1_STUB",
+      "b": "R66_LIGHT_RIGHT_04_1_BODY",
+      "intersections": 86
+    },
+    {
+      "a": "R66_LIGHT_RIGHT_04_1_BODY",
+      "b": "R66_LIGHT_RIGHT_04_1_LENS",
+      "intersections": 96
+    },
+    {
+      "a": "R66_LIGHT_RIGHT_04_1_BODY",
+      "b": "R66_LIGHT_RIGHT_04_1_CAP",
+      "intersections": 134
+    },
+    {
+      "a": "R66_LIGHT_RIGHT_05_0_STUB",
+      "b": "R66_LONGITUDINAL_RIGHT",
+      "intersections": 37
+    },
+    {
+      "a": "R66_LIGHT_RIGHT_05_0_STUB",
+      "b": "R66_LIGHT_RIGHT_05_0_BODY",
+      "intersections": 86
+    },
+    {
+      "a": "R66_LIGHT_RIGHT_05_0_BODY",
+      "b": "R66_LIGHT_RIGHT_05_0_LENS",
+      "intersections": 96
+    },
+    {
+      "a": "R66_LIGHT_RIGHT_05_0_BODY",
+      "b": "R66_LIGHT_RIGHT_05_0_CAP",
+      "intersections": 133
+    },
+    {
+      "a": "R66_LIGHT_RIGHT_05_1_STUB",
+      "b": "R66_LONGITUDINAL_RIGHT",
+      "intersections": 36
+    },
+    {
+      "a": "R66_LIGHT_RIGHT_05_1_STUB",
+      "b": "R66_LIGHT_RIGHT_05_1_BODY",
+      "intersections": 86
+    },
+    {
+      "a": "R66_LIGHT_RIGHT_05_1_BODY",
+      "b": "R66_LIGHT_RIGHT_05_1_LENS",
+      "intersections": 96
+    },
+    {
+      "a": "R66_LIGHT_RIGHT_05_1_BODY",
+      "b": "R66_LIGHT_RIGHT_05_1_CAP",
+      "intersections": 137
+    },
+    {
+      "a": "R66_LIGHT_RIGHT_06_0_STUB",
+      "b": "R66_LONGITUDINAL_RIGHT",
+      "intersections": 37
+    },
+    {
+      "a": "R66_LIGHT_RIGHT_06_0_STUB",
+      "b": "R66_LIGHT_RIGHT_06_0_BODY",
+      "intersections": 86
+    },
+    {
+      "a": "R66_LIGHT_RIGHT_06_0_BODY",
+      "b": "R66_LIGHT_RIGHT_06_0_LENS",
+      "intersections": 96
+    },
+    {
+      "a": "R66_LIGHT_RIGHT_06_0_BODY",
+      "b": "R66_LIGHT_RIGHT_06_0_CAP",
+      "intersections": 135
+    },
+    {
+      "a": "R66_LIGHT_RIGHT_06_1_STUB",
+      "b": "R66_LONGITUDINAL_RIGHT",
+      "intersections": 37
+    },
+    {
+      "a": "R66_LIGHT_RIGHT_06_1_STUB",
+      "b": "R66_LIGHT_RIGHT_06_1_BODY",
+      "intersections": 86
+    },
+    {
+      "a": "R66_LIGHT_RIGHT_06_1_BODY",
+      "b": "R66_LIGHT_RIGHT_06_1_LENS",
+      "intersections": 96
+    },
+    {
+      "a": "R66_LIGHT_RIGHT_06_1_BODY",
+      "b": "R66_LIGHT_RIGHT_06_1_CAP",
+      "intersections": 134
+    },
+    {
+      "a": "R66_LIGHT_RIGHT_07_0_STUB",
+      "b": "R66_LONGITUDINAL_RIGHT",
+      "intersections": 37
+    },
+    {
+      "a": "R66_LIGHT_RIGHT_07_0_STUB",
+      "b": "R66_LIGHT_RIGHT_07_0_BODY",
+      "intersections": 86
+    },
+    {
+      "a": "R66_LIGHT_RIGHT_07_0_BODY",
+      "b": "R66_LIGHT_RIGHT_07_0_LENS",
+      "intersections": 96
+    },
+    {
+      "a": "R66_LIGHT_RIGHT_07_0_BODY",
+      "b": "R66_LIGHT_RIGHT_07_0_CAP",
+      "intersections": 137
+    },
+    {
+      "a": "R66_LIGHT_RIGHT_07_1_STUB",
+      "b": "R66_LONGITUDINAL_RIGHT",
+      "intersections": 37
+    },
+    {
+      "a": "R66_LIGHT_RIGHT_07_1_STUB",
+      "b": "R66_LIGHT_RIGHT_07_1_BODY",
+      "intersections": 86
+    },
+    {
+      "a": "R66_LIGHT_RIGHT_07_1_BODY",
+      "b": "R66_LIGHT_RIGHT_07_1_LENS",
+      "intersections": 96
+    },
+    {
+      "a": "R66_LIGHT_RIGHT_07_1_BODY",
+      "b": "R66_LIGHT_RIGHT_07_1_CAP",
+      "intersections": 146
+    }
+  ],
+  "lens_rays": [
+    {
+      "id": "R66_LIGHT_LEFT_00_0",
+      "first_hit": [
+        0.14299988746643066,
+        "R66_LIGHT_LEFT_00_0_LENS",
+        3.917968511581421
+      ]
+    },
+    {
+      "id": "R66_LIGHT_LEFT_00_1",
+      "first_hit": [
+        0.14299988746643066,
+        "R66_LIGHT_LEFT_00_1_LENS",
+        3.917968511581421
+      ]
+    },
+    {
+      "id": "R66_LIGHT_LEFT_01_0",
+      "first_hit": [
+        0.14299988746643066,
+        "R66_LIGHT_LEFT_01_0_LENS",
+        3.917968511581421
+      ]
+    },
+    {
+      "id": "R66_LIGHT_LEFT_01_1",
+      "first_hit": [
+        0.14299988746643066,
+        "R66_LIGHT_LEFT_01_1_LENS",
+        3.917968511581421
+      ]
+    },
+    {
+      "id": "R66_LIGHT_LEFT_02_0",
+      "first_hit": [
+        0.14299988746643066,
+        "R66_LIGHT_LEFT_02_0_LENS",
+        3.917968511581421
+      ]
+    },
+    {
+      "id": "R66_LIGHT_LEFT_02_1",
+      "first_hit": [
+        0.14299988746643066,
+        "R66_LIGHT_LEFT_02_1_LENS",
+        3.917968511581421
+      ]
+    },
+    {
+      "id": "R66_LIGHT_LEFT_03_0",
+      "first_hit": [
+        0.14299988746643066,
+        "R66_LIGHT_LEFT_03_0_LENS",
+        3.917968511581421
+      ]
+    },
+    {
+      "id": "R66_LIGHT_LEFT_03_1",
+      "first_hit": [
+        0.14299988746643066,
+        "R66_LIGHT_LEFT_03_1_LENS",
+        3.917968511581421
+      ]
+    },
+    {
+      "id": "R66_LIGHT_LEFT_04_0",
+      "first_hit": [
+        0.14299988746643066,
+        "R66_LIGHT_LEFT_04_0_LENS",
+        3.917968511581421
+      ]
+    },
+    {
+      "id": "R66_LIGHT_LEFT_04_1",
+      "first_hit": [
+        0.14299988746643066,
+        "R66_LIGHT_LEFT_04_1_LENS",
+        3.917968511581421
+      ]
+    },
+    {
+      "id": "R66_LIGHT_LEFT_05_0",
+      "first_hit": [
+        0.14299988746643066,
+        "R66_LIGHT_LEFT_05_0_LENS",
+        3.917968511581421
+      ]
+    },
+    {
+      "id": "R66_LIGHT_LEFT_05_1",
+      "first_hit": [
+        0.14299988746643066,
+        "R66_LIGHT_LEFT_05_1_LENS",
+        3.917968511581421
+      ]
+    },
+    {
+      "id": "R66_LIGHT_LEFT_06_0",
+      "first_hit": [
+        0.14299988746643066,
+        "R66_LIGHT_LEFT_06_0_LENS",
+        3.917968511581421
+      ]
+    },
+    {
+      "id": "R66_LIGHT_LEFT_06_1",
+      "first_hit": [
+        0.14299988746643066,
+        "R66_LIGHT_LEFT_06_1_LENS",
+        3.917968511581421
+      ]
+    },
+    {
+      "id": "R66_LIGHT_LEFT_07_0",
+      "first_hit": [
+        0.14299988746643066,
+        "R66_LIGHT_LEFT_07_0_LENS",
+        3.917968511581421
+      ]
+    },
+    {
+      "id": "R66_LIGHT_LEFT_07_1",
+      "first_hit": [
+        0.14299988746643066,
+        "R66_LIGHT_LEFT_07_1_LENS",
+        3.917968511581421
+      ]
+    },
+    {
+      "id": "R66_LIGHT_RIGHT_00_0",
+      "first_hit": [
+        0.14299988746643066,
+        "R66_LIGHT_RIGHT_00_0_LENS",
+        3.917968511581421
+      ]
+    },
+    {
+      "id": "R66_LIGHT_RIGHT_00_1",
+      "first_hit": [
+        0.14299988746643066,
+        "R66_LIGHT_RIGHT_00_1_LENS",
+        3.917968511581421
+      ]
+    },
+    {
+      "id": "R66_LIGHT_RIGHT_01_0",
+      "first_hit": [
+        0.14299988746643066,
+        "R66_LIGHT_RIGHT_01_0_LENS",
+        3.917968511581421
+      ]
+    },
+    {
+      "id": "R66_LIGHT_RIGHT_01_1",
+      "first_hit": [
+        0.14299988746643066,
+        "R66_LIGHT_RIGHT_01_1_LENS",
+        3.917968511581421
+      ]
+    },
+    {
+      "id": "R66_LIGHT_RIGHT_02_0",
+      "first_hit": [
+        0.14299988746643066,
+        "R66_LIGHT_RIGHT_02_0_LENS",
+        3.917968511581421
+      ]
+    },
+    {
+      "id": "R66_LIGHT_RIGHT_02_1",
+      "first_hit": [
+        0.14299988746643066,
+        "R66_LIGHT_RIGHT_02_1_LENS",
+        3.917968511581421
+      ]
+    },
+    {
+      "id": "R66_LIGHT_RIGHT_03_0",
+      "first_hit": [
+        0.14299988746643066,
+        "R66_LIGHT_RIGHT_03_0_LENS",
+        3.917968511581421
+      ]
+    },
+    {
+      "id": "R66_LIGHT_RIGHT_03_1",
+      "first_hit": [
+        0.14299988746643066,
+        "R66_LIGHT_RIGHT_03_1_LENS",
+        3.917968511581421
+      ]
+    },
+    {
+      "id": "R66_LIGHT_RIGHT_04_0",
+      "first_hit": [
+        0.14299988746643066,
+        "R66_LIGHT_RIGHT_04_0_LENS",
+        3.917968511581421
+      ]
+    },
+    {
+      "id": "R66_LIGHT_RIGHT_04_1",
+      "first_hit": [
+        0.14299988746643066,
+        "R66_LIGHT_RIGHT_04_1_LENS",
+        3.917968511581421
+      ]
+    },
+    {
+      "id": "R66_LIGHT_RIGHT_05_0",
+      "first_hit": [
+        0.14299988746643066,
+        "R66_LIGHT_RIGHT_05_0_LENS",
+        3.917968511581421
+      ]
+    },
+    {
+      "id": "R66_LIGHT_RIGHT_05_1",
+      "first_hit": [
+        0.14299988746643066,
+        "R66_LIGHT_RIGHT_05_1_LENS",
+        3.917968511581421
+      ]
+    },
+    {
+      "id": "R66_LIGHT_RIGHT_06_0",
+      "first_hit": [
+        0.14299988746643066,
+        "R66_LIGHT_RIGHT_06_0_LENS",
+        3.917968511581421
+      ]
+    },
+    {
+      "id": "R66_LIGHT_RIGHT_06_1",
+      "first_hit": [
+        0.14299988746643066,
+        "R66_LIGHT_RIGHT_06_1_LENS",
+        3.917968511581421
+      ]
+    },
+    {
+      "id": "R66_LIGHT_RIGHT_07_0",
+      "first_hit": [
+        0.14299988746643066,
+        "R66_LIGHT_RIGHT_07_0_LENS",
+        3.917968511581421
+      ]
+    },
+    {
+      "id": "R66_LIGHT_RIGHT_07_1",
+      "first_hit": [
+        0.14299988746643066,
+        "R66_LIGHT_RIGHT_07_1_LENS",
+        3.917968511581421
+      ]
+    }
+  ],
+  "failures": [],
+  "construction_acceptance": false,
+  "limits": "Contact and visibility checks only; fixture count/diameter and structural profiles remain candidates."
+}

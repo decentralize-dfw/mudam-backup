@@ -598,5 +598,127 @@
     "image": "R61_canopy.png",
     "description": "Altı yuva ve24 kapalı parça;102 ışın ve7235 görünür mesh kontrolü geçti.",
     "limits": "Fotoğraf homografisi düşük güvenli: dışarıda bırakma hatası188,89px. Çap, profil, kot ve tam armatür sayısı doğrulanmadı."
+  },
+  {
+    "id": "R62",
+    "checks": [
+      "R62_verification.json",
+      "R62_inherited_verification.json"
+    ],
+    "tasks": [
+      "P13",
+      "P18",
+      "P19"
+    ],
+    "report": "R62_KONTROL_RAPORU.md",
+    "title": "Balıksırtı döşeme düzeltmesi / R62",
+    "image": "R62_column.png",
+    "description": "013 yakın çekimiyle R59 şaşırtmalı örgüsü değiştirildi;17 yüz ve bütün sahnede geometri eşitliği kontrolü geçti.",
+    "limits": "Örgü tipi fotoğraftan;200×50mm modül,derz,renk ve yön aday."
+  },
+  {
+    "id": "R63",
+    "checks": [
+      "R63_verification.json",
+      "R63_inherited_verification.json",
+      "R63_global_audit.json"
+    ],
+    "tasks": [
+      "P12",
+      "P16"
+    ],
+    "report": "R63_KONTROL_RAPORU.md",
+    "title": "Girişteki panel ve levha / R63",
+    "image": "R63_inside.png",
+    "description": "014 ile28 parça,4 destek ve mevcut kapı pozu kontrolü;7263 görünür mesh denetlendi.",
+    "limits": "Boyut,ürün,işlev,delik deseni ve tam hareket mekanizması açık. Eski sabit alt profil hatası R64 kapsamına alındı."
+  },
+  {
+    "id": "R64",
+    "checks": [
+      "R64_verification.json",
+      "R64_inherited_verification.json",
+      "R64_global_audit.json"
+    ],
+    "tasks": [
+      "P08",
+      "P12",
+      "P16",
+      "P22"
+    ],
+    "report": "R64_KONTROL_RAPORU.md",
+    "title": "Kapı geçişindeki sabit profil düzeltmesi / R64",
+    "image": "R64_inside.png",
+    "description": "18–25cm yüksekteki hatalı tam boy profil kaldırıldı;2m statik geçişte189 ışın ve63 döşeme örneği geçti.",
+    "limits": "Geniş2,2m tarama sağ panele çarpar; hareketli kanatlar bu statik testten ayrı. Gerçek kapı mekanizması ve eşik ölçüsü açık."
+  },
+  {
+    "id": "R65",
+    "checks": [
+      "R65_verification.json",
+      "R65_inherited_verification.json",
+      "R65_global_audit.json"
+    ],
+    "tasks": [
+      "P07",
+      "P10",
+      "P12"
+    ],
+    "report": "R65_KONTROL_RAPORU.md",
+    "title": "Cam geçitte çapraz gergiler / R65",
+    "image": "R65_roof.png",
+    "description": "067/068 ile16 çapraz,240 parça;32 destek ve96 uç bağlantısı kontrolü geçti.",
+    "limits": "Sekiz göz devralındı; çap,kot,çatal ve ankraj ölçülmedi. Yapısal hesap değildir."
+  },
+  {
+    "id": "R66",
+    "checks": [
+      "R66_verification.json",
+      "R66_inherited_verification.json",
+      "R66_global_audit.json"
+    ],
+    "tasks": [
+      "P07",
+      "P12",
+      "P19"
+    ],
+    "report": "R66_KONTROL_RAPORU.md",
+    "title": "Cam geçidin boyuna elemanları ve armatürleri / R66",
+    "image": "R66_roof.png",
+    "description": "067/068 ile 130 yeni parça; 146 bağlantı ve 32 lens açıklığı kontrolü geçti. 7.634 görünür mesh.",
+    "limits": "32 adet sekiz göze uygulanan tekrar adayı; çap, kot, ürün ve fotometri doğrulanmadı."
+  },
+  {
+    "id": "R67",
+    "checks": [
+      "R67_verification.json",
+      "R67_inherited_verification.json"
+    ],
+    "tasks": [
+      "P13",
+      "P16",
+      "P19"
+    ],
+    "report": "R67_KONTROL_RAPORU.md",
+    "title": "Cam geçidin çapraz derzli taş döşemesi / R67",
+    "image": "R67_floor.png",
+    "description": "067 ile iki üst yüzün taş görünümü işlendi. Bütün sahnede hesaplanan geometri aynı; UV ve doku kontrolleri geçti.",
+    "limits": "900mm hücre,1,2mm derz,yön ve desen aday; fotoğraf dizimi birebir izlenmedi."
+  },
+  {
+    "id": "R68",
+    "checks": [
+      "R68_verification.json",
+      "R68_inherited_verification.json",
+      "R68_global_audit.json"
+    ],
+    "tasks": [
+      "P18"
+    ],
+    "report": "R68_KONTROL_RAPORU.md",
+    "title": "Pavyon yanındaki hendek kolu / R68",
+    "image": "R68_link_edge.png",
+    "description": "İki OSM duvar zinciri: altı duvar ve zemin.30 duvar/440 zemin ışını ve pavyon kesişim kontrolü geçti.",
+    "limits": "Genişlik ve düz kotlar R35 adayı; arazi ölçümü değil. Diğer kollar ve tarihî ayrıntılar açık."
   }
 ]
