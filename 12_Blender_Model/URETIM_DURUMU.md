@@ -197,3 +197,7 @@ R35 güncel sahne; R29–R35 bölgesel sahneler, kaynak/varsayım kayıtları ve
 
 
 2026-10-09 10:23:15 UTC — Canlı xrweb.studio model yayını tarayıcıda doğrulandı: R69 ve 7.669 model parçası açıldı. GitHub Pages dağıtımı başarılı; ekran görüntüsü ve yayın kontrol raporu kaydedildi.
+
+
+2026-10-09 10:23:25 UTC — f141c2a1606a74b566a4197076fab8fb091030d2 origin/main normal push doğrulandı. Pano, renderlar, raporlar ve üretim betikleri gönderildi; Blender ve arşiv GLB dosyaları yerelde; tek güncel sıkıştırılmış web GLB gönderildi.
+
