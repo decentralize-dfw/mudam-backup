@@ -1,0 +1,227 @@
+{
+  "base_scene": "MUDAM_R43_TAS_DOSEME_YUZEYI_v001.blend",
+  "surfaces": [
+    {
+      "name": "P05_FRONT_0",
+      "canonical_direction_hint": [
+        1,
+        0,
+        0
+      ],
+      "thickness_m": 0.12
+    },
+    {
+      "name": "P05_FRONT_9",
+      "canonical_direction_hint": [
+        -1,
+        -1,
+        0
+      ],
+      "thickness_m": 0.12
+    },
+    {
+      "name": "P05_FRONT_10",
+      "canonical_direction_hint": [
+        -1,
+        0,
+        0
+      ],
+      "thickness_m": 0.12
+    },
+    {
+      "name": "P05_GALLERY_HALL_WEST0",
+      "canonical_direction_hint": [
+        1,
+        0,
+        0
+      ],
+      "thickness_m": 0.12
+    },
+    {
+      "name": "P05_GALLERY_HALL_WEST2",
+      "canonical_direction_hint": [
+        0,
+        1,
+        0
+      ],
+      "thickness_m": 0.12
+    },
+    {
+      "name": "P05_WEST_END",
+      "canonical_direction_hint": [
+        -1,
+        0,
+        0
+      ],
+      "thickness_m": 0.12
+    },
+    {
+      "name": "P05_LINK_FLOOR",
+      "canonical_direction_hint": [
+        0,
+        0,
+        -1
+      ],
+      "thickness_m": 0.2
+    },
+    {
+      "name": "P05_MAIN_ATRIUM_BASE_2",
+      "canonical_direction_hint": [
+        1,
+        0,
+        0
+      ],
+      "thickness_m": 0.12
+    },
+    {
+      "name": "P05_MAIN_ATRIUM_BASE_3",
+      "canonical_direction_hint": [
+        1,
+        1,
+        0
+      ],
+      "thickness_m": 0.12
+    },
+    {
+      "name": "P06_HIGH_EAVE_UPSTAND_3",
+      "canonical_direction_hint": [
+        1,
+        1,
+        0
+      ],
+      "thickness_m": 0.12
+    },
+    {
+      "name": "P06_HIGH_EAVE_UPSTAND_4",
+      "canonical_direction_hint": [
+        0,
+        1,
+        0
+      ],
+      "thickness_m": 0.12
+    },
+    {
+      "name": "P06_HIGH_EAVE_UPSTAND_5",
+      "canonical_direction_hint": [
+        -1,
+        1,
+        0
+      ],
+      "thickness_m": 0.12
+    },
+    {
+      "name": "P06_NORTH_STONE_GABLE_EAST",
+      "canonical_direction_hint": [
+        0,
+        -1,
+        0
+      ],
+      "thickness_m": 0.12
+    },
+    {
+      "name": "P05_MAIN_ATRIUM_BASE_5_R02_ABOVE",
+      "canonical_direction_hint": [
+        1,
+        -1,
+        0
+      ],
+      "thickness_m": 0.12
+    },
+    {
+      "name": "P05_GALLERY_HALL_EAST2_R02_AFTER",
+      "canonical_direction_hint": [
+        -1,
+        0,
+        0
+      ],
+      "thickness_m": 0.12
+    },
+    {
+      "name": "P05_GALLERY_HALL_EAST2_R02_ABOVE",
+      "canonical_direction_hint": [
+        -1,
+        0,
+        0
+      ],
+      "thickness_m": 0.12
+    },
+    {
+      "name": "P05_MAIN_ATRIUM_BASE_5_R02_BEFORE_R04_BEFORE",
+      "canonical_direction_hint": [
+        1,
+        -1,
+        0
+      ],
+      "thickness_m": 0.12
+    },
+    {
+      "name": "P05_MAIN_ATRIUM_BASE_5_R02_BEFORE_R04_AFTER",
+      "canonical_direction_hint": [
+        1,
+        -1,
+        0
+      ],
+      "thickness_m": 0.12
+    },
+    {
+      "name": "P05_MAIN_ATRIUM_BASE_5_R02_BEFORE_R04_ABOVE",
+      "canonical_direction_hint": [
+        1,
+        -1,
+        0
+      ],
+      "thickness_m": 0.12
+    },
+    {
+      "name": "R10_GALLERY_GROUND_WALL",
+      "canonical_direction_hint": [
+        0,
+        -1,
+        0
+      ],
+      "thickness_m": 0.12
+    },
+    {
+      "name": "R28_E_HIGH_GALLERY_WALL",
+      "canonical_direction_hint": [
+        -1,
+        1,
+        0
+      ],
+      "thickness_m": 0.12
+    },
+    {
+      "name": "R28_W_HIGH_GALLERY_WALL",
+      "canonical_direction_hint": [
+        1,
+        1,
+        0
+      ],
+      "thickness_m": 0.12
+    },
+    {
+      "name": "R33_MAIN_PASSAGE_HIGH_REMAINDER",
+      "canonical_direction_hint": [
+        0,
+        1,
+        0
+      ],
+      "thickness_m": 0.12
+    }
+  ],
+  "limits": [
+    "Existing traced face remains fixed; added back surface is a conditional display envelope.",
+    "12cm wall/back thickness and20cm link floor are NOT structural or as-built thicknesses.",
+    "Only23 existing open meshes are closed. No new doors/windows or hidden reinforcement inferred.",
+    "Every circulation regression must pass before this candidate is published.",
+    "R39 ceiling intersects upper stair recess. Cut ceilings using inherited R04 full recess footprint; upper floor opening gains 20mm numerical overlap into existing wall, not a measured architectural enlargement."
+  ],
+  "stair_ceiling_cutter": "R04_UPPER_FLOOR_STAIR_CUTTER",
+  "ceiling_targets": [
+    "R39_PUBLIC_CEILING_08",
+    "R33_CEILING_WC_E",
+    "R39_PUBLIC_CEILING_10"
+  ],
+  "ceiling_recess_source": "R04_RECESS_HEAD",
+  "numerical_overlap_m": 0.02
+}

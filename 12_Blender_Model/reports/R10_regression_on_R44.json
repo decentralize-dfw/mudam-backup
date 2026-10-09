@@ -1,0 +1,2374 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R44_KAPALI_KABUKLAR_v004.blend",
+  "failures": [],
+  "evaluated_solids": [
+    {
+      "name": "P05_FLOOR_L00_EAST_GARDEN",
+      "volume": 66.81637069805583,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "P05_FLOOR_LP1_E0",
+      "volume": 89.56896389385837,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R10_CORE_BODY",
+      "volume": 6.164266846843826,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R10_CORE_CAP",
+      "volume": 0.17007621970966622,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R10_GLASS_BASE_00",
+      "volume": 0.0009242396223195017,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R10_GLASS_BASE_01",
+      "volume": 0.0009242379775344324,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R10_GLASS_BASE_02",
+      "volume": 0.0009242338249862968,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R10_GLASS_BASE_03",
+      "volume": 0.0009242373744361027,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R10_GLASS_BASE_04",
+      "volume": 0.0009242319405532929,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R10_GLASS_BASE_05",
+      "volume": 0.0009242302144546119,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R10_GLASS_BASE_06",
+      "volume": 0.0009242416718380185,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R10_GLASS_BASE_07",
+      "volume": 0.0009242343688964354,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R10_GLASS_BASE_08",
+      "volume": 0.0009242338211455661,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R10_GLASS_BASE_09",
+      "volume": 0.0009242377597913562,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R10_GLASS_BASE_10",
+      "volume": 0.0009242314997840815,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R10_GLASS_BASE_11",
+      "volume": 0.0009242306552354283,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R10_GLASS_BASE_12",
+      "volume": 0.0009242396223195017,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R10_GLASS_BASE_13",
+      "volume": 0.0009242384183276355,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R10_GLASS_BASE_14",
+      "volume": 0.0009242338249862968,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R10_GLASS_BASE_15",
+      "volume": 0.0009242373744361027,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R10_GLASS_BASE_16",
+      "volume": 0.0009242319405532929,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R10_GLASS_BASE_17",
+      "volume": 0.0009242302152874977,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R10_INNER_RAIL_PLATE_00",
+      "volume": 2.952090874733508e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R10_INNER_RAIL_PLATE_01",
+      "volume": 2.9521839878243573e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R10_INNER_RAIL_PLATE_02",
+      "volume": 2.9525509022701166e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R10_INNER_RAIL_PLATE_03",
+      "volume": 2.952804419438168e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R10_INNER_RAIL_PLATE_04",
+      "volume": 2.952089069902137e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R10_INNER_RAIL_PLATE_05",
+      "volume": 2.9521821831856058e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R10_INNER_RAIL_PLATE_06",
+      "volume": 2.952549097179607e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R10_INNER_RAIL_PLATE_07",
+      "volume": 2.9528044194921722e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R10_INNER_RAIL_PLATE_08",
+      "volume": 2.952090874733508e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R10_INNER_RAIL_PLATE_09",
+      "volume": 2.9521839878243573e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R10_INNER_RAIL_PLATE_10",
+      "volume": 2.9525509022701166e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R10_INNER_RAIL_PLATE_11",
+      "volume": 2.952804419438168e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R10_INNER_RAIL_PLATE_12",
+      "volume": 2.952089069902137e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R10_INNER_RAIL_STANDOFF_00",
+      "volume": 1.190763358351286e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R10_INNER_RAIL_STANDOFF_01",
+      "volume": 1.19070454805825e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R10_INNER_RAIL_STANDOFF_02",
+      "volume": 1.190833414280168e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R10_INNER_RAIL_STANDOFF_03",
+      "volume": 1.190695444359957e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R10_INNER_RAIL_STANDOFF_04",
+      "volume": 1.1907542547926961e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R10_INNER_RAIL_STANDOFF_05",
+      "volume": 1.1906954443553601e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R10_INNER_RAIL_STANDOFF_06",
+      "volume": 1.1908243089754633e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R10_INNER_RAIL_STANDOFF_07",
+      "volume": 1.1906954443368853e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R10_INNER_RAIL_STANDOFF_08",
+      "volume": 1.190763358351286e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R10_INNER_RAIL_STANDOFF_09",
+      "volume": 1.19070454805825e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R10_INNER_RAIL_STANDOFF_10",
+      "volume": 1.190833414280168e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R10_INNER_RAIL_STANDOFF_11",
+      "volume": 1.190695444359957e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R10_INNER_RAIL_STANDOFF_12",
+      "volume": 1.1907542547926961e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R10_INNER_ROUND_RAIL",
+      "volume": 0.010660477628510233,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R10_INNER_TOP_RETURN",
+      "volume": 0.0009301264079469699,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R10_OUTER_GLASS_00",
+      "volume": 0.014679912786058243,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R10_OUTER_GLASS_01",
+      "volume": 0.014679843842090107,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R10_OUTER_GLASS_02",
+      "volume": 0.014679830693770424,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R10_OUTER_GLASS_03",
+      "volume": 0.01467986769451557,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R10_OUTER_GLASS_04",
+      "volume": 0.014679722811940521,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R10_OUTER_GLASS_05",
+      "volume": 0.01467994659853447,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R10_OUTER_GLASS_06",
+      "volume": 0.014679979058640324,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R10_OUTER_GLASS_07",
+      "volume": 0.01467973537527667,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R10_OUTER_GLASS_08",
+      "volume": 0.0146796984291069,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R10_OUTER_GLASS_09",
+      "volume": 0.014679816198041179,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R10_OUTER_GLASS_10",
+      "volume": 0.014679722767761971,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R10_OUTER_GLASS_11",
+      "volume": 0.01467995539051703,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R10_OUTER_GLASS_12",
+      "volume": 0.014679912786058243,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R10_OUTER_GLASS_13",
+      "volume": 0.014679843842090107,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R10_OUTER_GLASS_14",
+      "volume": 0.014679830693770424,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R10_OUTER_GLASS_15",
+      "volume": 0.014679866858820445,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R10_OUTER_GLASS_16",
+      "volume": 0.014679723031752245,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R10_OUTER_GLASS_17",
+      "volume": 0.01467994659853447,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R10_OUTER_ROUND_RAIL",
+      "volume": 0.02364968040775792,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R10_OUTER_TOP_RETURN",
+      "volume": 0.0008414784932002497,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R10_STONE_OUTER_EDGE",
+      "volume": 0.25989834481425317,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R10_TOP_GLASS_RETURN",
+      "volume": 0.009829809666006495,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R10_TREAD_01",
+      "volume": 0.09397316753790634,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R10_TREAD_02",
+      "volume": 0.09397313426698811,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R10_TREAD_03",
+      "volume": 0.09397278822381268,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R10_TREAD_04",
+      "volume": 0.09397333422646392,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R10_TREAD_05",
+      "volume": 0.093972858909427,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R10_TREAD_06",
+      "volume": 0.09397301014736814,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R10_TREAD_07",
+      "volume": 0.09397339112797652,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R10_TREAD_08",
+      "volume": 0.09397274748492407,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R10_TREAD_09",
+      "volume": 0.09397330293446071,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R10_TREAD_10",
+      "volume": 0.0939730301646197,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R10_TREAD_11",
+      "volume": 0.09397291638755241,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R10_TREAD_12",
+      "volume": 0.09397326989666402,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R10_TREAD_13",
+      "volume": 0.0939731070755696,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R10_TREAD_14",
+      "volume": 0.09397276622592865,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R10_TREAD_15",
+      "volume": 0.09397336245427135,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R10_TREAD_16",
+      "volume": 0.09397287010125321,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R10_TREAD_17",
+      "volume": 0.09397299824266847,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R10_TREAD_18",
+      "volume": 0.09397336778943233,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R10_TREAD_19",
+      "volume": 0.09397274748492146,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R10_TREAD_20",
+      "volume": 0.09397330293446005,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R10_TREAD_21",
+      "volume": 0.09397303016462066,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R10_TREAD_22",
+      "volume": 0.09397297067758775,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R10_TREAD_23",
+      "volume": 0.09397316753790634,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R10_TREAD_24",
+      "volume": 0.09397313426698811,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R10_TREAD_25",
+      "volume": 0.09397278822381268,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R10_TREAD_26",
+      "volume": 0.09397333422646392,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R10_TREAD_27",
+      "volume": 0.093972858909427,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R10_TREAD_28",
+      "volume": 0.09397301014736814,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R10_TREAD_29",
+      "volume": 0.09397339112797652,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R10_TREAD_30",
+      "volume": 0.09397274748492407,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R10_TREAD_31",
+      "volume": 0.09397330293446071,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R10_TREAD_32",
+      "volume": 0.0939730301646197,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R10_TREAD_33",
+      "volume": 0.09397291638755241,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R10_UPPER_DIAGONAL_WALL",
+      "volume": 12.791504154174905,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    }
+  ],
+  "tread_support_headroom": [
+    {
+      "tread": "R10_TREAD_01",
+      "fraction": 0.2,
+      "support": [
+        {
+          "name": "R10_TREAD_01",
+          "distance": 0.024999991571529278
+        }
+      ],
+      "head": [],
+      "passed": true
+    },
+    {
+      "tread": "R10_TREAD_01",
+      "fraction": 0.5,
+      "support": [
+        {
+          "name": "R10_TREAD_01",
+          "distance": 0.024999991571529278
+        }
+      ],
+      "head": [],
+      "passed": true
+    },
+    {
+      "tread": "R10_TREAD_01",
+      "fraction": 0.8,
+      "support": [
+        {
+          "name": "R10_TREAD_01",
+          "distance": 0.024999991571529278
+        }
+      ],
+      "head": [],
+      "passed": true
+    },
+    {
+      "tread": "R10_TREAD_02",
+      "fraction": 0.2,
+      "support": [
+        {
+          "name": "R10_TREAD_02",
+          "distance": 0.025000005541368706
+        }
+      ],
+      "head": [],
+      "passed": true
+    },
+    {
+      "tread": "R10_TREAD_02",
+      "fraction": 0.5,
+      "support": [
+        {
+          "name": "R10_TREAD_02",
+          "distance": 0.025000005541368706
+        }
+      ],
+      "head": [],
+      "passed": true
+    },
+    {
+      "tread": "R10_TREAD_02",
+      "fraction": 0.8,
+      "support": [
+        {
+          "name": "R10_TREAD_02",
+          "distance": 0.025000005541368706
+        }
+      ],
+      "head": [],
+      "passed": true
+    },
+    {
+      "tread": "R10_TREAD_03",
+      "fraction": 0.2,
+      "support": [
+        {
+          "name": "R10_TREAD_03",
+          "distance": 0.024999976437527757
+        }
+      ],
+      "head": [],
+      "passed": true
+    },
+    {
+      "tread": "R10_TREAD_03",
+      "fraction": 0.5,
+      "support": [
+        {
+          "name": "R10_TREAD_03",
+          "distance": 0.024999976437527757
+        }
+      ],
+      "head": [],
+      "passed": true
+    },
+    {
+      "tread": "R10_TREAD_03",
+      "fraction": 0.8,
+      "support": [
+        {
+          "name": "R10_TREAD_03",
+          "distance": 0.024999976437527757
+        }
+      ],
+      "head": [],
+      "passed": true
+    },
+    {
+      "tread": "R10_TREAD_04",
+      "fraction": 0.2,
+      "support": [
+        {
+          "name": "R10_TREAD_04",
+          "distance": 0.024999976437527757
+        }
+      ],
+      "head": [],
+      "passed": true
+    },
+    {
+      "tread": "R10_TREAD_04",
+      "fraction": 0.5,
+      "support": [
+        {
+          "name": "R10_TREAD_04",
+          "distance": 0.024999976437527757
+        }
+      ],
+      "head": [],
+      "passed": true
+    },
+    {
+      "tread": "R10_TREAD_04",
+      "fraction": 0.8,
+      "support": [
+        {
+          "name": "R10_TREAD_04",
+          "distance": 0.024999976437527757
+        }
+      ],
+      "head": [],
+      "passed": true
+    },
+    {
+      "tread": "R10_TREAD_05",
+      "fraction": 0.2,
+      "support": [
+        {
+          "name": "R10_TREAD_05",
+          "distance": 0.02500003580932735
+        }
+      ],
+      "head": [],
+      "passed": true
+    },
+    {
+      "tread": "R10_TREAD_05",
+      "fraction": 0.5,
+      "support": [
+        {
+          "name": "R10_TREAD_05",
+          "distance": 0.02500003580932735
+        }
+      ],
+      "head": [],
+      "passed": true
+    },
+    {
+      "tread": "R10_TREAD_05",
+      "fraction": 0.8,
+      "support": [
+        {
+          "name": "R10_TREAD_05",
+          "distance": 0.02500003580932735
+        }
+      ],
+      "head": [],
+      "passed": true
+    },
+    {
+      "tread": "R10_TREAD_06",
+      "fraction": 0.2,
+      "support": [
+        {
+          "name": "R10_TREAD_06",
+          "distance": 0.024999976437527757
+        }
+      ],
+      "head": [],
+      "passed": true
+    },
+    {
+      "tread": "R10_TREAD_06",
+      "fraction": 0.5,
+      "support": [
+        {
+          "name": "R10_TREAD_06",
+          "distance": 0.024999976437527757
+        }
+      ],
+      "head": [],
+      "passed": true
+    },
+    {
+      "tread": "R10_TREAD_06",
+      "fraction": 0.8,
+      "support": [
+        {
+          "name": "R10_TREAD_06",
+          "distance": 0.024999976437527757
+        }
+      ],
+      "head": [],
+      "passed": true
+    },
+    {
+      "tread": "R10_TREAD_07",
+      "fraction": 0.2,
+      "support": [
+        {
+          "name": "R10_TREAD_07",
+          "distance": 0.024999976437527757
+        }
+      ],
+      "head": [],
+      "passed": true
+    },
+    {
+      "tread": "R10_TREAD_07",
+      "fraction": 0.5,
+      "support": [
+        {
+          "name": "R10_TREAD_07",
+          "distance": 0.024999976437527757
+        }
+      ],
+      "head": [],
+      "passed": true
+    },
+    {
+      "tread": "R10_TREAD_07",
+      "fraction": 0.8,
+      "support": [
+        {
+          "name": "R10_TREAD_07",
+          "distance": 0.024999976437527757
+        }
+      ],
+      "head": [],
+      "passed": true
+    },
+    {
+      "tread": "R10_TREAD_08",
+      "fraction": 0.2,
+      "support": [
+        {
+          "name": "R10_TREAD_08",
+          "distance": 0.024999976437527757
+        }
+      ],
+      "head": [],
+      "passed": true
+    },
+    {
+      "tread": "R10_TREAD_08",
+      "fraction": 0.5,
+      "support": [
+        {
+          "name": "R10_TREAD_08",
+          "distance": 0.024999976437527757
+        }
+      ],
+      "head": [],
+      "passed": true
+    },
+    {
+      "tread": "R10_TREAD_08",
+      "fraction": 0.8,
+      "support": [
+        {
+          "name": "R10_TREAD_08",
+          "distance": 0.024999976437527757
+        }
+      ],
+      "head": [],
+      "passed": true
+    },
+    {
+      "tread": "R10_TREAD_09",
+      "fraction": 0.2,
+      "support": [
+        {
+          "name": "R10_TREAD_09",
+          "distance": 0.024999976437527757
+        }
+      ],
+      "head": [],
+      "passed": true
+    },
+    {
+      "tread": "R10_TREAD_09",
+      "fraction": 0.5,
+      "support": [
+        {
+          "name": "R10_TREAD_09",
+          "distance": 0.024999976437527757
+        }
+      ],
+      "head": [],
+      "passed": true
+    },
+    {
+      "tread": "R10_TREAD_09",
+      "fraction": 0.8,
+      "support": [
+        {
+          "name": "R10_TREAD_09",
+          "distance": 0.024999976437527757
+        }
+      ],
+      "head": [],
+      "passed": true
+    },
+    {
+      "tread": "R10_TREAD_10",
+      "fraction": 0.2,
+      "support": [
+        {
+          "name": "R10_TREAD_10",
+          "distance": 0.024999976437527757
+        }
+      ],
+      "head": [],
+      "passed": true
+    },
+    {
+      "tread": "R10_TREAD_10",
+      "fraction": 0.5,
+      "support": [
+        {
+          "name": "R10_TREAD_10",
+          "distance": 0.024999976437527757
+        }
+      ],
+      "head": [],
+      "passed": true
+    },
+    {
+      "tread": "R10_TREAD_10",
+      "fraction": 0.8,
+      "support": [
+        {
+          "name": "R10_TREAD_10",
+          "distance": 0.024999976437527757
+        }
+      ],
+      "head": [],
+      "passed": true
+    },
+    {
+      "tread": "R10_TREAD_11",
+      "fraction": 0.2,
+      "support": [
+        {
+          "name": "R10_TREAD_11",
+          "distance": 0.025000095180985938
+        }
+      ],
+      "head": [],
+      "passed": true
+    },
+    {
+      "tread": "R10_TREAD_11",
+      "fraction": 0.5,
+      "support": [
+        {
+          "name": "R10_TREAD_11",
+          "distance": 0.025000095180985938
+        }
+      ],
+      "head": [],
+      "passed": true
+    },
+    {
+      "tread": "R10_TREAD_11",
+      "fraction": 0.8,
+      "support": [
+        {
+          "name": "R10_TREAD_11",
+          "distance": 0.025000095180985938
+        }
+      ],
+      "head": [],
+      "passed": true
+    },
+    {
+      "tread": "R10_TREAD_12",
+      "fraction": 0.2,
+      "support": [
+        {
+          "name": "R10_TREAD_12",
+          "distance": 0.024999976437527757
+        }
+      ],
+      "head": [],
+      "passed": true
+    },
+    {
+      "tread": "R10_TREAD_12",
+      "fraction": 0.5,
+      "support": [
+        {
+          "name": "R10_TREAD_12",
+          "distance": 0.024999976437527757
+        }
+      ],
+      "head": [],
+      "passed": true
+    },
+    {
+      "tread": "R10_TREAD_12",
+      "fraction": 0.8,
+      "support": [
+        {
+          "name": "R10_TREAD_12",
+          "distance": 0.024999976437527757
+        }
+      ],
+      "head": [],
+      "passed": true
+    },
+    {
+      "tread": "R10_TREAD_13",
+      "fraction": 0.2,
+      "support": [
+        {
+          "name": "R10_TREAD_13",
+          "distance": 0.024999976437527757
+        }
+      ],
+      "head": [],
+      "passed": true
+    },
+    {
+      "tread": "R10_TREAD_13",
+      "fraction": 0.5,
+      "support": [
+        {
+          "name": "R10_TREAD_13",
+          "distance": 0.024999976437527757
+        }
+      ],
+      "head": [],
+      "passed": true
+    },
+    {
+      "tread": "R10_TREAD_13",
+      "fraction": 0.8,
+      "support": [
+        {
+          "name": "R10_TREAD_13",
+          "distance": 0.024999976437527757
+        }
+      ],
+      "head": [],
+      "passed": true
+    },
+    {
+      "tread": "R10_TREAD_14",
+      "fraction": 0.2,
+      "support": [
+        {
+          "name": "R10_TREAD_14",
+          "distance": 0.024999856529345704
+        }
+      ],
+      "head": [],
+      "passed": true
+    },
+    {
+      "tread": "R10_TREAD_14",
+      "fraction": 0.5,
+      "support": [
+        {
+          "name": "R10_TREAD_14",
+          "distance": 0.024999856529345704
+        }
+      ],
+      "head": [],
+      "passed": true
+    },
+    {
+      "tread": "R10_TREAD_14",
+      "fraction": 0.8,
+      "support": [
+        {
+          "name": "R10_TREAD_14",
+          "distance": 0.024999856529345704
+        }
+      ],
+      "head": [],
+      "passed": true
+    },
+    {
+      "tread": "R10_TREAD_15",
+      "fraction": 0.2,
+      "support": [
+        {
+          "name": "R10_TREAD_15",
+          "distance": 0.025000095180985938
+        }
+      ],
+      "head": [],
+      "passed": true
+    },
+    {
+      "tread": "R10_TREAD_15",
+      "fraction": 0.5,
+      "support": [
+        {
+          "name": "R10_TREAD_15",
+          "distance": 0.025000095180985938
+        }
+      ],
+      "head": [],
+      "passed": true
+    },
+    {
+      "tread": "R10_TREAD_15",
+      "fraction": 0.8,
+      "support": [
+        {
+          "name": "R10_TREAD_15",
+          "distance": 0.025000095180985938
+        }
+      ],
+      "head": [],
+      "passed": true
+    },
+    {
+      "tread": "R10_TREAD_16",
+      "fraction": 0.2,
+      "support": [
+        {
+          "name": "R10_TREAD_16",
+          "distance": 0.024999856529345704
+        }
+      ],
+      "head": [],
+      "passed": true
+    },
+    {
+      "tread": "R10_TREAD_16",
+      "fraction": 0.5,
+      "support": [
+        {
+          "name": "R10_TREAD_16",
+          "distance": 0.024999856529345704
+        }
+      ],
+      "head": [],
+      "passed": true
+    },
+    {
+      "tread": "R10_TREAD_16",
+      "fraction": 0.8,
+      "support": [
+        {
+          "name": "R10_TREAD_16",
+          "distance": 0.024999856529345704
+        }
+      ],
+      "head": [],
+      "passed": true
+    },
+    {
+      "tread": "R10_TREAD_17",
+      "fraction": 0.2,
+      "support": [
+        {
+          "name": "R10_TREAD_17",
+          "distance": 0.025000095180985938
+        }
+      ],
+      "head": [],
+      "passed": true
+    },
+    {
+      "tread": "R10_TREAD_17",
+      "fraction": 0.5,
+      "support": [
+        {
+          "name": "R10_TREAD_17",
+          "distance": 0.025000095180985938
+        }
+      ],
+      "head": [],
+      "passed": true
+    },
+    {
+      "tread": "R10_TREAD_17",
+      "fraction": 0.8,
+      "support": [
+        {
+          "name": "R10_TREAD_17",
+          "distance": 0.025000095180985938
+        }
+      ],
+      "head": [],
+      "passed": true
+    },
+    {
+      "tread": "R10_TREAD_18",
+      "fraction": 0.2,
+      "support": [
+        {
+          "name": "R10_TREAD_18",
+          "distance": 0.025000095180985938
+        }
+      ],
+      "head": [],
+      "passed": true
+    },
+    {
+      "tread": "R10_TREAD_18",
+      "fraction": 0.5,
+      "support": [
+        {
+          "name": "R10_TREAD_18",
+          "distance": 0.025000095180985938
+        }
+      ],
+      "head": [],
+      "passed": true
+    },
+    {
+      "tread": "R10_TREAD_18",
+      "fraction": 0.8,
+      "support": [
+        {
+          "name": "R10_TREAD_18",
+          "distance": 0.025000095180985938
+        }
+      ],
+      "head": [],
+      "passed": true
+    },
+    {
+      "tread": "R10_TREAD_19",
+      "fraction": 0.2,
+      "support": [
+        {
+          "name": "R10_TREAD_19",
+          "distance": 0.024999856529345704
+        }
+      ],
+      "head": [],
+      "passed": true
+    },
+    {
+      "tread": "R10_TREAD_19",
+      "fraction": 0.5,
+      "support": [
+        {
+          "name": "R10_TREAD_19",
+          "distance": 0.024999856529345704
+        }
+      ],
+      "head": [],
+      "passed": true
+    },
+    {
+      "tread": "R10_TREAD_19",
+      "fraction": 0.8,
+      "support": [
+        {
+          "name": "R10_TREAD_19",
+          "distance": 0.024999856529345704
+        }
+      ],
+      "head": [],
+      "passed": true
+    },
+    {
+      "tread": "R10_TREAD_20",
+      "fraction": 0.2,
+      "support": [
+        {
+          "name": "R10_TREAD_20",
+          "distance": 0.025000095180985938
+        }
+      ],
+      "head": [],
+      "passed": true
+    },
+    {
+      "tread": "R10_TREAD_20",
+      "fraction": 0.5,
+      "support": [
+        {
+          "name": "R10_TREAD_20",
+          "distance": 0.025000095180985938
+        }
+      ],
+      "head": [],
+      "passed": true
+    },
+    {
+      "tread": "R10_TREAD_20",
+      "fraction": 0.8,
+      "support": [
+        {
+          "name": "R10_TREAD_20",
+          "distance": 0.025000095180985938
+        }
+      ],
+      "head": [],
+      "passed": true
+    },
+    {
+      "tread": "R10_TREAD_21",
+      "fraction": 0.2,
+      "support": [
+        {
+          "name": "R10_TREAD_21",
+          "distance": 0.024999856529345704
+        }
+      ],
+      "head": [],
+      "passed": true
+    },
+    {
+      "tread": "R10_TREAD_21",
+      "fraction": 0.5,
+      "support": [
+        {
+          "name": "R10_TREAD_21",
+          "distance": 0.024999856529345704
+        }
+      ],
+      "head": [],
+      "passed": true
+    },
+    {
+      "tread": "R10_TREAD_21",
+      "fraction": 0.8,
+      "support": [
+        {
+          "name": "R10_TREAD_21",
+          "distance": 0.024999856529345704
+        }
+      ],
+      "head": [],
+      "passed": true
+    },
+    {
+      "tread": "R10_TREAD_22",
+      "fraction": 0.2,
+      "support": [
+        {
+          "name": "R10_TREAD_22",
+          "distance": 0.025000095180985938
+        }
+      ],
+      "head": [],
+      "passed": true
+    },
+    {
+      "tread": "R10_TREAD_22",
+      "fraction": 0.5,
+      "support": [
+        {
+          "name": "R10_TREAD_22",
+          "distance": 0.025000095180985938
+        }
+      ],
+      "head": [],
+      "passed": true
+    },
+    {
+      "tread": "R10_TREAD_22",
+      "fraction": 0.8,
+      "support": [
+        {
+          "name": "R10_TREAD_22",
+          "distance": 0.025000095180985938
+        }
+      ],
+      "head": [],
+      "passed": true
+    },
+    {
+      "tread": "R10_TREAD_23",
+      "fraction": 0.2,
+      "support": [
+        {
+          "name": "R10_TREAD_23",
+          "distance": 0.025000095180985938
+        }
+      ],
+      "head": [],
+      "passed": true
+    },
+    {
+      "tread": "R10_TREAD_23",
+      "fraction": 0.5,
+      "support": [
+        {
+          "name": "R10_TREAD_23",
+          "distance": 0.025000095180985938
+        }
+      ],
+      "head": [],
+      "passed": true
+    },
+    {
+      "tread": "R10_TREAD_23",
+      "fraction": 0.8,
+      "support": [
+        {
+          "name": "R10_TREAD_23",
+          "distance": 0.025000095180985938
+        }
+      ],
+      "head": [],
+      "passed": true
+    },
+    {
+      "tread": "R10_TREAD_24",
+      "fraction": 0.2,
+      "support": [
+        {
+          "name": "R10_TREAD_24",
+          "distance": 0.024999856529345704
+        }
+      ],
+      "head": [],
+      "passed": true
+    },
+    {
+      "tread": "R10_TREAD_24",
+      "fraction": 0.5,
+      "support": [
+        {
+          "name": "R10_TREAD_24",
+          "distance": 0.024999856529345704
+        }
+      ],
+      "head": [],
+      "passed": true
+    },
+    {
+      "tread": "R10_TREAD_24",
+      "fraction": 0.8,
+      "support": [
+        {
+          "name": "R10_TREAD_24",
+          "distance": 0.024999856529345704
+        }
+      ],
+      "head": [],
+      "passed": true
+    },
+    {
+      "tread": "R10_TREAD_25",
+      "fraction": 0.2,
+      "support": [
+        {
+          "name": "R10_TREAD_25",
+          "distance": 0.025000095180985938
+        }
+      ],
+      "head": [],
+      "passed": true
+    },
+    {
+      "tread": "R10_TREAD_25",
+      "fraction": 0.5,
+      "support": [
+        {
+          "name": "R10_TREAD_25",
+          "distance": 0.025000095180985938
+        }
+      ],
+      "head": [],
+      "passed": true
+    },
+    {
+      "tread": "R10_TREAD_25",
+      "fraction": 0.8,
+      "support": [
+        {
+          "name": "R10_TREAD_25",
+          "distance": 0.025000095180985938
+        }
+      ],
+      "head": [],
+      "passed": true
+    },
+    {
+      "tread": "R10_TREAD_26",
+      "fraction": 0.2,
+      "support": [
+        {
+          "name": "R10_TREAD_26",
+          "distance": 0.025000095180985938
+        }
+      ],
+      "head": [],
+      "passed": true
+    },
+    {
+      "tread": "R10_TREAD_26",
+      "fraction": 0.5,
+      "support": [
+        {
+          "name": "R10_TREAD_26",
+          "distance": 0.025000095180985938
+        }
+      ],
+      "head": [],
+      "passed": true
+    },
+    {
+      "tread": "R10_TREAD_26",
+      "fraction": 0.8,
+      "support": [
+        {
+          "name": "R10_TREAD_26",
+          "distance": 0.025000095180985938
+        }
+      ],
+      "head": [],
+      "passed": true
+    },
+    {
+      "tread": "R10_TREAD_27",
+      "fraction": 0.2,
+      "support": [
+        {
+          "name": "R10_TREAD_27",
+          "distance": 0.024999856529345704
+        }
+      ],
+      "head": [],
+      "passed": true
+    },
+    {
+      "tread": "R10_TREAD_27",
+      "fraction": 0.5,
+      "support": [
+        {
+          "name": "R10_TREAD_27",
+          "distance": 0.024999856529345704
+        }
+      ],
+      "head": [],
+      "passed": true
+    },
+    {
+      "tread": "R10_TREAD_27",
+      "fraction": 0.8,
+      "support": [
+        {
+          "name": "R10_TREAD_27",
+          "distance": 0.024999856529345704
+        }
+      ],
+      "head": [],
+      "passed": true
+    },
+    {
+      "tread": "R10_TREAD_28",
+      "fraction": 0.2,
+      "support": [
+        {
+          "name": "R10_TREAD_28",
+          "distance": 0.025000095180985938
+        }
+      ],
+      "head": [],
+      "passed": true
+    },
+    {
+      "tread": "R10_TREAD_28",
+      "fraction": 0.5,
+      "support": [
+        {
+          "name": "R10_TREAD_28",
+          "distance": 0.025000095180985938
+        }
+      ],
+      "head": [],
+      "passed": true
+    },
+    {
+      "tread": "R10_TREAD_28",
+      "fraction": 0.8,
+      "support": [
+        {
+          "name": "R10_TREAD_28",
+          "distance": 0.025000095180985938
+        }
+      ],
+      "head": [],
+      "passed": true
+    },
+    {
+      "tread": "R10_TREAD_29",
+      "fraction": 0.2,
+      "support": [
+        {
+          "name": "R10_TREAD_29",
+          "distance": 0.025000095180985938
+        }
+      ],
+      "head": [],
+      "passed": true
+    },
+    {
+      "tread": "R10_TREAD_29",
+      "fraction": 0.5,
+      "support": [
+        {
+          "name": "R10_TREAD_29",
+          "distance": 0.025000095180985938
+        }
+      ],
+      "head": [],
+      "passed": true
+    },
+    {
+      "tread": "R10_TREAD_29",
+      "fraction": 0.8,
+      "support": [
+        {
+          "name": "R10_TREAD_29",
+          "distance": 0.025000095180985938
+        }
+      ],
+      "head": [],
+      "passed": true
+    },
+    {
+      "tread": "R10_TREAD_30",
+      "fraction": 0.2,
+      "support": [
+        {
+          "name": "R10_TREAD_30",
+          "distance": 0.02499961903959824
+        }
+      ],
+      "head": [],
+      "passed": true
+    },
+    {
+      "tread": "R10_TREAD_30",
+      "fraction": 0.5,
+      "support": [
+        {
+          "name": "R10_TREAD_30",
+          "distance": 0.02499961903959824
+        }
+      ],
+      "head": [],
+      "passed": true
+    },
+    {
+      "tread": "R10_TREAD_30",
+      "fraction": 0.8,
+      "support": [
+        {
+          "name": "R10_TREAD_30",
+          "distance": 0.02499961903959824
+        }
+      ],
+      "head": [],
+      "passed": true
+    },
+    {
+      "tread": "R10_TREAD_31",
+      "fraction": 0.2,
+      "support": [
+        {
+          "name": "R10_TREAD_31",
+          "distance": 0.02499961903959824
+        }
+      ],
+      "head": [],
+      "passed": true
+    },
+    {
+      "tread": "R10_TREAD_31",
+      "fraction": 0.5,
+      "support": [
+        {
+          "name": "R10_TREAD_31",
+          "distance": 0.02499961903959824
+        }
+      ],
+      "head": [],
+      "passed": true
+    },
+    {
+      "tread": "R10_TREAD_31",
+      "fraction": 0.8,
+      "support": [
+        {
+          "name": "R10_TREAD_31",
+          "distance": 0.02499961903959824
+        }
+      ],
+      "head": [],
+      "passed": true
+    },
+    {
+      "tread": "R10_TREAD_32",
+      "fraction": 0.2,
+      "support": [
+        {
+          "name": "R10_TREAD_32",
+          "distance": 0.025000095180985938
+        }
+      ],
+      "head": [],
+      "passed": true
+    },
+    {
+      "tread": "R10_TREAD_32",
+      "fraction": 0.5,
+      "support": [
+        {
+          "name": "R10_TREAD_32",
+          "distance": 0.025000095180985938
+        }
+      ],
+      "head": [],
+      "passed": true
+    },
+    {
+      "tread": "R10_TREAD_32",
+      "fraction": 0.8,
+      "support": [
+        {
+          "name": "R10_TREAD_32",
+          "distance": 0.025000095180985938
+        }
+      ],
+      "head": [],
+      "passed": true
+    },
+    {
+      "tread": "R10_TREAD_33",
+      "fraction": 0.2,
+      "support": [
+        {
+          "name": "R10_TREAD_33",
+          "distance": 0.025000095180985938
+        }
+      ],
+      "head": [],
+      "passed": true
+    },
+    {
+      "tread": "R10_TREAD_33",
+      "fraction": 0.5,
+      "support": [
+        {
+          "name": "R10_TREAD_33",
+          "distance": 0.025000095180985938
+        }
+      ],
+      "head": [],
+      "passed": true
+    },
+    {
+      "tread": "R10_TREAD_33",
+      "fraction": 0.8,
+      "support": [
+        {
+          "name": "R10_TREAD_33",
+          "distance": 0.025000095180985938
+        }
+      ],
+      "head": [],
+      "passed": true
+    }
+  ],
+  "tread_eye_paths": [
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    []
+  ],
+  "stepped_underside": [
+    {
+      "tread": "R10_TREAD_02",
+      "hits": [
+        {
+          "name": "R10_TREAD_02",
+          "distance": 0.01999999974737875
+        }
+      ],
+      "passed": true
+    },
+    {
+      "tread": "R10_TREAD_03",
+      "hits": [
+        {
+          "name": "R10_TREAD_03",
+          "distance": 0.019999996109399565
+        }
+      ],
+      "passed": true
+    },
+    {
+      "tread": "R10_TREAD_04",
+      "hits": [
+        {
+          "name": "R10_TREAD_04",
+          "distance": 0.02000001066131233
+        }
+      ],
+      "passed": true
+    },
+    {
+      "tread": "R10_TREAD_05",
+      "hits": [
+        {
+          "name": "R10_TREAD_05",
+          "distance": 0.02000001066131233
+        }
+      ],
+      "passed": true
+    },
+    {
+      "tread": "R10_TREAD_06",
+      "hits": [
+        {
+          "name": "R10_TREAD_06",
+          "distance": 0.019999980829879766
+        }
+      ],
+      "passed": true
+    },
+    {
+      "tread": "R10_TREAD_07",
+      "hits": [
+        {
+          "name": "R10_TREAD_07",
+          "distance": 0.019999980829879766
+        }
+      ],
+      "passed": true
+    },
+    {
+      "tread": "R10_TREAD_08",
+      "hits": [
+        {
+          "name": "R10_TREAD_08",
+          "distance": 0.020000040492700398
+        }
+      ],
+      "passed": true
+    },
+    {
+      "tread": "R10_TREAD_09",
+      "hits": [
+        {
+          "name": "R10_TREAD_09",
+          "distance": 0.019999980829879766
+        }
+      ],
+      "passed": true
+    },
+    {
+      "tread": "R10_TREAD_10",
+      "hits": [
+        {
+          "name": "R10_TREAD_10",
+          "distance": 0.019999980829879766
+        }
+      ],
+      "passed": true
+    },
+    {
+      "tread": "R10_TREAD_11",
+      "hits": [
+        {
+          "name": "R10_TREAD_11",
+          "distance": 0.02000010015534305
+        }
+      ],
+      "passed": true
+    },
+    {
+      "tread": "R10_TREAD_12",
+      "hits": [
+        {
+          "name": "R10_TREAD_12",
+          "distance": 0.019999980829879766
+        }
+      ],
+      "passed": true
+    },
+    {
+      "tread": "R10_TREAD_13",
+      "hits": [
+        {
+          "name": "R10_TREAD_13",
+          "distance": 0.019999980829879766
+        }
+      ],
+      "passed": true
+    },
+    {
+      "tread": "R10_TREAD_14",
+      "hits": [
+        {
+          "name": "R10_TREAD_14",
+          "distance": 0.019999980829879766
+        }
+      ],
+      "passed": true
+    },
+    {
+      "tread": "R10_TREAD_15",
+      "hits": [
+        {
+          "name": "R10_TREAD_15",
+          "distance": 0.019999980829879766
+        }
+      ],
+      "passed": true
+    },
+    {
+      "tread": "R10_TREAD_16",
+      "hits": [
+        {
+          "name": "R10_TREAD_16",
+          "distance": 0.019999980829879766
+        }
+      ],
+      "passed": true
+    },
+    {
+      "tread": "R10_TREAD_17",
+      "hits": [
+        {
+          "name": "R10_TREAD_17",
+          "distance": 0.019999980829879766
+        }
+      ],
+      "passed": true
+    },
+    {
+      "tread": "R10_TREAD_18",
+      "hits": [
+        {
+          "name": "R10_TREAD_18",
+          "distance": 0.019999980829879766
+        }
+      ],
+      "passed": true
+    },
+    {
+      "tread": "R10_TREAD_19",
+      "hits": [
+        {
+          "name": "R10_TREAD_19",
+          "distance": 0.019999980829879766
+        }
+      ],
+      "passed": true
+    },
+    {
+      "tread": "R10_TREAD_20",
+      "hits": [
+        {
+          "name": "R10_TREAD_20",
+          "distance": 0.019999980829879766
+        }
+      ],
+      "passed": true
+    },
+    {
+      "tread": "R10_TREAD_21",
+      "hits": [
+        {
+          "name": "R10_TREAD_21",
+          "distance": 0.019999980829879766
+        }
+      ],
+      "passed": true
+    },
+    {
+      "tread": "R10_TREAD_22",
+      "hits": [
+        {
+          "name": "R10_TREAD_22",
+          "distance": 0.020000219480094412
+        }
+      ],
+      "passed": true
+    },
+    {
+      "tread": "R10_TREAD_23",
+      "hits": [
+        {
+          "name": "R10_TREAD_23",
+          "distance": 0.019999980829879766
+        }
+      ],
+      "passed": true
+    },
+    {
+      "tread": "R10_TREAD_24",
+      "hits": [
+        {
+          "name": "R10_TREAD_24",
+          "distance": 0.019999980829879766
+        }
+      ],
+      "passed": true
+    },
+    {
+      "tread": "R10_TREAD_25",
+      "hits": [
+        {
+          "name": "R10_TREAD_25",
+          "distance": 0.019999980829879766
+        }
+      ],
+      "passed": true
+    },
+    {
+      "tread": "R10_TREAD_26",
+      "hits": [
+        {
+          "name": "R10_TREAD_26",
+          "distance": 0.019999980829879766
+        }
+      ],
+      "passed": true
+    },
+    {
+      "tread": "R10_TREAD_27",
+      "hits": [
+        {
+          "name": "R10_TREAD_27",
+          "distance": 0.020000219480094412
+        }
+      ],
+      "passed": true
+    },
+    {
+      "tread": "R10_TREAD_28",
+      "hits": [
+        {
+          "name": "R10_TREAD_28",
+          "distance": 0.019999980829879766
+        }
+      ],
+      "passed": true
+    },
+    {
+      "tread": "R10_TREAD_29",
+      "hits": [
+        {
+          "name": "R10_TREAD_29",
+          "distance": 0.019999980829879766
+        }
+      ],
+      "passed": true
+    },
+    {
+      "tread": "R10_TREAD_30",
+      "hits": [
+        {
+          "name": "R10_TREAD_30",
+          "distance": 0.019999980829879766
+        }
+      ],
+      "passed": true
+    },
+    {
+      "tread": "R10_TREAD_31",
+      "hits": [
+        {
+          "name": "R10_TREAD_31",
+          "distance": 0.019999980829879766
+        }
+      ],
+      "passed": true
+    },
+    {
+      "tread": "R10_TREAD_32",
+      "hits": [
+        {
+          "name": "R10_TREAD_32",
+          "distance": 0.019999980829879766
+        }
+      ],
+      "passed": true
+    },
+    {
+      "tread": "R10_TREAD_33",
+      "hits": [
+        {
+          "name": "R10_TREAD_33",
+          "distance": 0.019999980829879766
+        }
+      ],
+      "passed": true
+    }
+  ],
+  "upper_landing_exit": [
+    {
+      "angle": 5,
+      "support": [
+        {
+          "name": "P05_FLOOR_LP1_E0",
+          "distance": 0.03000021025930424
+        }
+      ],
+      "head": [],
+      "passed": true
+    },
+    {
+      "angle": 15,
+      "support": [
+        {
+          "name": "P05_FLOOR_LP1_E0",
+          "distance": 0.03000021025930424
+        }
+      ],
+      "head": [],
+      "passed": true
+    },
+    {
+      "angle": 30,
+      "support": [
+        {
+          "name": "P05_FLOOR_LP1_E0",
+          "distance": 0.03000021025930424
+        }
+      ],
+      "head": [],
+      "passed": true
+    },
+    {
+      "angle": 45,
+      "support": [
+        {
+          "name": "P05_FLOOR_LP1_E0",
+          "distance": 0.03000021025930424
+        }
+      ],
+      "head": [],
+      "passed": true
+    },
+    {
+      "angle": 60,
+      "support": [
+        {
+          "name": "P05_FLOOR_LP1_E0",
+          "distance": 0.03000021025930424
+        }
+      ],
+      "head": [],
+      "passed": true
+    },
+    {
+      "angle": 80,
+      "support": [
+        {
+          "name": "P05_FLOOR_LP1_E0",
+          "distance": 0.03000021025930424
+        }
+      ],
+      "head": [],
+      "passed": true
+    },
+    {
+      "exit_radius": 1.25,
+      "support": [
+        {
+          "name": "P05_FLOOR_LP1_E0",
+          "distance": 0.03000021025930424
+        }
+      ],
+      "head": [],
+      "passed": true
+    },
+    {
+      "exit_radius": 1.5,
+      "support": [
+        {
+          "name": "P05_FLOOR_LP1_E0",
+          "distance": 0.03000021025930424
+        }
+      ],
+      "head": [],
+      "passed": true
+    },
+    {
+      "exit_radius": 1.75,
+      "support": [
+        {
+          "name": "P05_FLOOR_LP1_E0",
+          "distance": 0.03000021025930424
+        }
+      ],
+      "head": [],
+      "passed": true
+    },
+    {
+      "exit_radius": 2,
+      "support": [
+        {
+          "name": "P05_FLOOR_LP1_E0",
+          "distance": 0.03000021025930424
+        }
+      ],
+      "head": [],
+      "passed": true
+    },
+    {
+      "exit_radius": 2.25,
+      "support": [
+        {
+          "name": "P05_FLOOR_LP1_E0",
+          "distance": 0.03000021025930424
+        }
+      ],
+      "head": [],
+      "passed": true
+    },
+    {
+      "exit_radius": 2.5,
+      "support": [
+        {
+          "name": "P05_FLOOR_LP1_E0",
+          "distance": 0.03000021025930424
+        }
+      ],
+      "head": [],
+      "passed": true
+    }
+  ],
+  "lower_entry_support": [
+    {
+      "fraction": 0.2,
+      "hits": [
+        {
+          "name": "P05_FLOOR_L00_EAST_GARDEN",
+          "distance": 0.030000000712461762
+        }
+      ],
+      "passed": true
+    },
+    {
+      "fraction": 0.5,
+      "hits": [
+        {
+          "name": "P05_FLOOR_L00_EAST_GARDEN",
+          "distance": 0.030000000712461762
+        }
+      ],
+      "passed": true
+    },
+    {
+      "fraction": 0.8,
+      "hits": [
+        {
+          "name": "P05_FLOOR_L00_EAST_GARDEN",
+          "distance": 0.030000000712461762
+        }
+      ],
+      "passed": true
+    }
+  ],
+  "garden_sight": [
+    {
+      "height": 1,
+      "hits": [],
+      "passed": true
+    },
+    {
+      "height": 3,
+      "hits": [],
+      "passed": true
+    },
+    {
+      "height": 5,
+      "hits": [],
+      "passed": true
+    }
+  ],
+  "real_riser_count_verified": false,
+  "metric_photo_pose_verified": false,
+  "construction_acceptance": false
+}

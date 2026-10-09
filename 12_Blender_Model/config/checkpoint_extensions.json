@@ -269,5 +269,84 @@
     "image": "R43_foyer_floor.png",
     "description": "Üç döşemede ince derzli yüzey adayı;7340 nesnenin değerlendirilmiş geometrisi değişmedi.",
     "limits": "0,90m modül,derz,yön ve malzeme görünümü ölçülmüş değil. Kot ve açıklıklar korundu."
+  },
+  {
+    "id": "R44",
+    "checks": [
+      "R44_verification.json",
+      "R44_inherited_verification.json",
+      "R44_global_audit_after.json",
+      "R04_regression_on_R44.json",
+      "R05_regression_on_R44.json",
+      "R10_regression_on_R44.json",
+      "R23_regression_on_R44.json",
+      "R28_regression_on_R44.json",
+      "R30_regression_on_R44.json",
+      "R39_regression_on_R44.json"
+    ],
+    "tasks": [
+      "P07",
+      "P16",
+      "P20"
+    ],
+    "report": "R44_KONTROL_RAPORU.md",
+    "title": "Kapalı kabuklar ve merdiven birleşimi / R44",
+    "image": "R44_ceiling_junction.png",
+    "description": "23 açık yüzey kapatıldı; altı tavan ile üst döşeme kesimi merdiven nişiyle koordine edildi. Aynı sahnede yedi dolaşım regresyonu geçti.",
+    "limits": "Görünüm kalınlıkları koşullu. Kapalı mesh, bütün bina çakışma/ölçü doğruluğu kabulü değildir."
+  },
+  {
+    "id": "R45",
+    "checks": [
+      "R45_verification.json",
+      "R45_inherited_verification.json",
+      "R45_global_audit.json",
+      "R04_regression_on_R45.json"
+    ],
+    "tasks": [
+      "P09",
+      "P13"
+    ],
+    "report": "R45_KONTROL_RAPORU.md",
+    "title": "Merdiven duvarında taş tutamak / R45",
+    "image": "R45_grip_detail.png",
+    "description": "023/024 kaynaklı oyuk ve taş tutamak adayı; 64 duvar parçası aynı ön iz üzerinde sürekli kabuğa dönüştürüldü. 39 oyuk/tutamak örneği ve üst merdiven regresyonu geçti.",
+    "limits": "Kesit, boyut ve üst bitiş adaydır. Döşemenin duvar içindeki çakışması yerel kesildi; taşıyıcı imalat çözümü değildir."
+  },
+  {
+    "id": "R46",
+    "checks": [
+      "R46_verification.json",
+      "R46_inherited_verification.json"
+    ],
+    "tasks": [
+      "P13",
+      "P16",
+      "P19"
+    ],
+    "report": "R46_KONTROL_RAPORU.md",
+    "title": "Merdiven taş yüzeyleri / R46",
+    "image": "R46_on_stair.png",
+    "description": "38 yüzey nesnesi: duvar boyunca sürekli UV ve derzsiz basamak taşı dokusu; değerlendirilmiş geometri birebir korundu.",
+    "limits": "Taş rengi, tane, derz modülü ve pürüzlülük aday; gerçek malzeme numunesi veya blok imalatı değildir."
+  },
+  {
+    "id": "R47",
+    "checks": [
+      "R47_verification.json",
+      "R47_inherited_verification.json",
+      "R47_global_audit.json",
+      "R08_regression_on_R47.json"
+    ],
+    "tasks": [
+      "P10",
+      "P17",
+      "P19"
+    ],
+    "report": "R47_KONTROL_RAPORU.md",
+    "title": "Okuma ışıklığının dış gövdesi / R47",
+    "image": "R47_lantern_detail.png",
+    "description": "116 yakın kırpımıyla dört yüzlü cam gövde/başlık ve opak etek; 12 cam, 8 etek paneli, 52 profil. Okuma alanı ve 24 askı kontrol edildi.",
+    "limits": "Çerçeve kesiti, panel bölünmesi ve mutlak boyutlar aday. İç kare açıklık dış gövdenin ölçüsünü tek başına doğrulamaz."
   }
 ]

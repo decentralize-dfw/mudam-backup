@@ -1,7 +1,11 @@
 from pathlib import Path
-import bpy,bmesh,json
+import bpy,bmesh,json,sys
 from mathutils import Vector
-R=Path(__file__).resolve().parents[2];B=R/'12_Blender_Model';r=json.loads((B/'reports/R30_build_report.json').read_text());P=json.loads((B/'config/upper_lift_landing.json').read_text());C=json.loads((B/'config/foundation.json').read_text())['calibration'];bpy.ops.wm.open_mainfile(filepath=str(R/r['file']));deps=bpy.context.evaluated_depsgraph_get();fail=[];solids=[]
+R=Path(__file__).resolve().parents[2];B=R/'12_Blender_Model';r=json.loads((B/'reports/R30_build_report.json').read_text());P=json.loads((B/'config/upper_lift_landing.json').read_text());C=json.loads((B/'config/foundation.json').read_text())['calibration'];
+output_name='R30_verification.json'
+if '--' in sys.argv:
+ args=sys.argv[sys.argv.index('--')+1:];assert len(args)==2;r['file']=args[0];output_name=args[1]
+bpy.ops.wm.open_mainfile(filepath=str(R/r['file']));deps=bpy.context.evaluated_depsgraph_get();fail=[];solids=[]
 def point(x,y,z=0):
  k=C['canonical_to_pdf_scale'];ox,oy=C['canonical_to_pdf_offset'];M=C['pdf_to_utm_matrix'];a=k*x+ox;b=k*y+oy;return Vector((M[0][0]*a+M[0][1]*b+M[0][2]-293425,M[1][0]*a+M[1][1]*b+M[1][2]-5499960,z))
 for name in r['closed_objects']:
@@ -29,4 +33,4 @@ x0,x1=P['door_span_canonical']
 for i in range(4):
  x=x0+(x1-x0)*(i+.5)/4;hits=ray(point(x,538,UP+1.2),point(x,531,UP+1.2));expected='R30_DOOR_LEAF_'+str(i+1);row=dict(leaf=expected,hits=hits);leaf_checks.append(row)
  if expected not in hits or any(n not in [expected,'R30_DOOR_BACKING'] for n in hits):fail.append(row)
-result=dict(file=r['file'],failures=fail,evaluated_solids=solids,passage_rays=passages,support_head_samples=support,closed_leaf_checks=leaf_checks,full_shaft_continuity_verified=False,construction_acceptance=False);(B/'reports/R30_verification.json').write_text(json.dumps(result,indent=2),encoding='utf8');print(json.dumps(dict(solids=len(solids),failures=fail),indent=2));assert not fail,fail
+result=dict(file=r['file'],failures=fail,evaluated_solids=solids,passage_rays=passages,support_head_samples=support,closed_leaf_checks=leaf_checks,full_shaft_continuity_verified=False,construction_acceptance=False);(B/'reports'/output_name).write_text(json.dumps(result,indent=2),encoding='utf8');print(json.dumps(dict(solids=len(solids),failures=fail),indent=2));assert not fail,fail

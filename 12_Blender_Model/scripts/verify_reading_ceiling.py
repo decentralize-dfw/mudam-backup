@@ -22,8 +22,9 @@ def rays(p,d,length,only=None,opaque_only=False):
 # Derive axes from a source-mapped ceiling diagonal; samples avoid fixture spokes.
 a=Vector(r['inner_ceiling_world'][0])-center;a.z=0;a.normalize();b=Vector(r['inner_ceiling_world'][1])-center;b.z=0;b.normalize();daylight=[]
 for j in range(12):
- angle=(j*30+7.5)*math.pi/180;p=center+(a*math.cos(angle)+b*math.sin(angle))*.85;p.z=r['floor_z']+.2;hits=rays(p,up,20,opaque_only=True);daylight.append(dict(point=list(p),hits=hits,passed=not hits))
- if hits:fail.append(dict(test='open_lightwell',point=list(p),hits=hits))
+ angle=(j*30+7.5)*math.pi/180;p=center+(a*math.cos(angle)+b*math.sin(angle))*.85;p.z=r['floor_z']+.2;hits=rays(p,up,20,opaque_only=True);permitted=r.get('permitted_exterior_frame_occlusions',[]);unexpected=[h for h in hits if h['name'] not in permitted or p.z+h['distance']<=P['ceiling_upper_z']+.05];daylight.append(dict(point=list(p),hits=hits,clear_sky=not hits,permitted_exterior_frame_hits=[h for h in hits if h not in unexpected],passed=not unexpected))
+ if unexpected:fail.append(dict(test='open_lightwell',point=list(p),hits=unexpected))
+if sum(x['clear_sky'] for x in daylight)<r.get('minimum_clear_sky_rays',12):fail.append(dict(test='minimum_clear_sky_rays',clear=sum(x['clear_sky'] for x in daylight)))
 reading=json.loads((B/'reports/P17_build_report.json').read_text());void=list(map(Vector,reading['floor_void_world']));walk=[]
 for i in range(4):
  for f in [.2,.4,.6,.8]:

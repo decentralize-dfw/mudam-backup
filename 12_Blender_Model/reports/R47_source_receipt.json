@@ -1,0 +1,60 @@
+{
+  "sources": [
+    {
+      "id": "015",
+      "path": "07_Yapi_Detaylari/Aydinlatma/015_Giris_tavan_ve_aydinlatma_WikiArquitectura.jpg",
+      "sha256": "b59093560272b29f5073e53e302c6798cfe275a411c7a18611217e3c31948291",
+      "source_url": "https://es.wikiarquitectura.com/edificio/museo-de-arte-moderno-grand-duc-jean-mudam/",
+      "credit": "WikiArquitectura; sayfadaki fotoğraf serisi Haziran 2019",
+      "source_date": "unknown; do not infer from download date",
+      "modified": false
+    },
+    {
+      "id": "016",
+      "path": "07_Yapi_Detaylari/Aydinlatma/016_Giris_tavan_ve_aydinlatma_WikiArquitectura.jpg",
+      "sha256": "e324ed67206ee6155c68708e89587e616756201f3a59e771ed3c024d80edd263",
+      "source_url": "https://es.wikiarquitectura.com/edificio/museo-de-arte-moderno-grand-duc-jean-mudam/",
+      "credit": "WikiArquitectura; sayfadaki fotoğraf serisi Haziran 2019",
+      "source_date": "unknown; do not infer from download date",
+      "modified": false
+    },
+    {
+      "id": "103",
+      "path": "01_Kat_Planlari/Resmi_Kat_Semalari/103_Resmi_kat_semasi_ust_arti_1_Mudam.jpeg",
+      "sha256": "bd94768b80070517fd9ff2fbcb120fc1ba35aa048de49f6a25cbf57ab9c353a2",
+      "source_url": "https://www.mudam.com/fr/floor-plans",
+      "credit": "Mudam Luxembourg; kullanıcı tarafından verilen doğrudan bağlantı",
+      "source_date": "unknown; do not infer from download date",
+      "modified": false
+    },
+    {
+      "id": "116",
+      "path": "05_Dis_Mekan/Havadan_Gorunum/116_Muze_havadan_genel_gorunum_Mudam.webp",
+      "sha256": "784be291590f0a0a4769101276af543f08a4aae81e22037ea10653a30705f844",
+      "source_url": "https://www.mudam.com/visit/architecture",
+      "credit": "© Christian Aschman / Mudam Luxembourg (resmî sayfa atfı)",
+      "source_date": "unknown; do not infer from download date",
+      "modified": false
+    },
+    {
+      "id": "BP_nca09",
+      "path": "12_Blender_Model/references/government_2006/nca09.jpg",
+      "source_url": "https://travaux.public.lu/dam-assets/fr/abp/projets/realises/2006/nca/galeries/photos/nca09.jpg",
+      "source_page": "https://travaux.public.lu/fr/projets/projets-batiments/2006/nca.html",
+      "sha256": "9431b4272b70e8f8d25c7070cfeaf6347623809b2873b63ad108889a99736383",
+      "size": [
+        420,
+        321
+      ],
+      "credit": "Administration des batiments publics; photo credits vary, see archived page",
+      "source_date": "2006 project page; individual capture date unverified"
+    }
+  ],
+  "limits": [
+    "116 supports a dark framed small exterior lantern and dark opaque flat roof surface.",
+    "116 close crop supports a four-sided shaft/cap and opaque splayed base. Existing radius/heights remain unmeasured candidates;015/016/BP_nca09 confirm interior square aperture only.",
+    "Panel count, frame section, inset and glass thickness are unmeasured candidates.",
+    "Dark flat roof material type is unidentified; no bitumen/gravel/membrane specification or hidden build-up inferred.",
+    "Existing roof openings, reading ceiling and light fixture remain unchanged."
+  ]
+}

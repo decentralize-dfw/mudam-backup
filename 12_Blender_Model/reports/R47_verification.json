@@ -1,0 +1,562 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R47_OKUMA_ISIKLIGI_v002.blend",
+  "solids": [
+    {
+      "name": "R47_READING_SLOPE_0_APRON_0",
+      "volume": 0.06667116972214948,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R47_READING_SLOPE_1_APRON_0",
+      "volume": 0.024565853728301147,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R47_READING_SLOPE_2_APRON_0",
+      "volume": 0.06667140439864133,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R47_READING_SLOPE_3_APRON_0",
+      "volume": 0.02456582265029511,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R47_READING_SLOPE_4_APRON_0",
+      "volume": 0.0666711697221335,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R47_READING_SLOPE_5_APRON_0",
+      "volume": 0.0245658537283118,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R47_READING_SLOPE_6_APRON_0",
+      "volume": 0.06667140439859198,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R47_READING_SLOPE_7_APRON_0",
+      "volume": 0.02456582265026827,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R47_READING_LANTERN_0_GLASS_0",
+      "volume": 0.049357510661235615,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R47_READING_LANTERN_0_GLASS_1",
+      "volume": 0.04935751066123206,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R47_READING_CAP_0_GLASS_0",
+      "volume": 0.03367899315933717,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R47_READING_LANTERN_1_GLASS_0",
+      "volume": 0.04935751066123206,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R47_READING_LANTERN_1_GLASS_1",
+      "volume": 0.04935751066131083,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R47_READING_CAP_1_GLASS_0",
+      "volume": 0.03367899315932299,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R47_READING_LANTERN_2_GLASS_0",
+      "volume": 0.04935751066123206,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R47_READING_LANTERN_2_GLASS_1",
+      "volume": 0.04935751066138483,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R47_READING_CAP_2_GLASS_0",
+      "volume": 0.03367899315936551,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R47_READING_LANTERN_3_GLASS_0",
+      "volume": 0.049357510661306725,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R47_READING_LANTERN_3_GLASS_1",
+      "volume": 0.049357510661235615,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R47_READING_CAP_3_GLASS_0",
+      "volume": 0.0336789931593796,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R47_LANTERN_FRAME_000",
+      "volume": 0.008364893630633457,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R47_LANTERN_FRAME_001",
+      "volume": 0.007537448943482367,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R47_LANTERN_FRAME_002",
+      "volume": 0.010080200833971577,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R47_LANTERN_FRAME_003",
+      "volume": 0.007537292869583231,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R47_LANTERN_FRAME_004",
+      "volume": 0.008364970561923424,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R47_LANTERN_FRAME_005",
+      "volume": 0.0075372979536405165,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R47_LANTERN_FRAME_006",
+      "volume": 0.008364893907469098,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R47_LANTERN_FRAME_007",
+      "volume": 0.007537448943484144,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R47_LANTERN_FRAME_008",
+      "volume": 0.010080200833970286,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R47_LANTERN_FRAME_009",
+      "volume": 0.008364965366579415,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R47_LANTERN_FRAME_010",
+      "volume": 0.007537292869580568,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R47_LANTERN_FRAME_011",
+      "volume": 0.008364893630637377,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R47_LANTERN_FRAME_012",
+      "volume": 0.0075374489434812605,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R47_LANTERN_FRAME_013",
+      "volume": 0.010080200833970359,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R47_LANTERN_FRAME_014",
+      "volume": 0.008364970561922203,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R47_LANTERN_FRAME_015",
+      "volume": 0.0075372979536392215,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R47_LANTERN_FRAME_016",
+      "volume": 0.008364893907472012,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R47_LANTERN_FRAME_017",
+      "volume": 0.007537448943481337,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R47_LANTERN_FRAME_018",
+      "volume": 0.010080200833972132,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R47_LANTERN_FRAME_019",
+      "volume": 0.008364965366578936,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R47_LANTERN_FRAME_020",
+      "volume": 0.005039991366073027,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R47_LANTERN_FRAME_021",
+      "volume": 0.010225284156471615,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R47_LANTERN_FRAME_022",
+      "volume": 0.00503999136607184,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R47_LANTERN_FRAME_023",
+      "volume": 0.010225083303503208,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R47_LANTERN_FRAME_024",
+      "volume": 0.005039991366074248,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R47_LANTERN_FRAME_025",
+      "volume": 0.010225083303505578,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R47_LANTERN_FRAME_026",
+      "volume": 0.005039991366075431,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R47_LANTERN_FRAME_027",
+      "volume": 0.010079924376672787,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R47_LANTERN_FRAME_028",
+      "volume": 0.008681595687780846,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R47_LANTERN_FRAME_029",
+      "volume": 0.008681595687782668,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R47_LANTERN_FRAME_030",
+      "volume": 0.005039991366070598,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R47_LANTERN_FRAME_031",
+      "volume": 0.010225284156470282,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R47_LANTERN_FRAME_032",
+      "volume": 0.005039991366068364,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R47_LANTERN_FRAME_033",
+      "volume": 0.005039991366068433,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R47_LANTERN_FRAME_034",
+      "volume": 0.010225083303503212,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R47_LANTERN_FRAME_035",
+      "volume": 0.005039991366070737,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R47_LANTERN_FRAME_036",
+      "volume": 0.01007992437666947,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R47_LANTERN_FRAME_037",
+      "volume": 0.008681595687781929,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R47_LANTERN_FRAME_038",
+      "volume": 0.005039991366072971,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R47_LANTERN_FRAME_039",
+      "volume": 0.01022528415647228,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R47_LANTERN_FRAME_040",
+      "volume": 0.005039991366073027,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R47_LANTERN_FRAME_041",
+      "volume": 0.005039991366073027,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R47_LANTERN_FRAME_042",
+      "volume": 0.010225083303504821,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R47_LANTERN_FRAME_043",
+      "volume": 0.005039991366069512,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R47_LANTERN_FRAME_044",
+      "volume": 0.010079924376672118,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R47_LANTERN_FRAME_045",
+      "volume": 0.008681595687780291,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R47_LANTERN_FRAME_046",
+      "volume": 0.00503999136606955,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R47_LANTERN_FRAME_047",
+      "volume": 0.010225284156467989,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R47_LANTERN_FRAME_048",
+      "volume": 0.00503999136607184,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R47_LANTERN_FRAME_049",
+      "volume": 0.005039991366073138,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R47_LANTERN_FRAME_050",
+      "volume": 0.005039991366077835,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R47_LANTERN_FRAME_051",
+      "volume": 0.010079924376669235,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    }
+  ],
+  "panel_depth_checks": [
+    {
+      "name": "R47_READING_SLOPE_0_APRON_0",
+      "min_depth": -0.01600109739229083,
+      "max_depth": 8.270144462585449e-07,
+      "vertices": 8
+    },
+    {
+      "name": "R47_READING_SLOPE_1_APRON_0",
+      "min_depth": -0.016001224517822266,
+      "max_depth": 5.452893674373627e-07,
+      "vertices": 6
+    },
+    {
+      "name": "R47_READING_SLOPE_2_APRON_0",
+      "min_depth": -0.016000723466277122,
+      "max_depth": 9.015202522277832e-07,
+      "vertices": 8
+    },
+    {
+      "name": "R47_READING_SLOPE_3_APRON_0",
+      "min_depth": -0.01600000262260437,
+      "max_depth": 5.993060767650604e-07,
+      "vertices": 6
+    },
+    {
+      "name": "R47_READING_SLOPE_4_APRON_0",
+      "min_depth": -0.01600109739229083,
+      "max_depth": 8.270144462585449e-07,
+      "vertices": 8
+    },
+    {
+      "name": "R47_READING_SLOPE_5_APRON_0",
+      "min_depth": -0.016001224517822266,
+      "max_depth": 5.452893674373627e-07,
+      "vertices": 6
+    },
+    {
+      "name": "R47_READING_SLOPE_6_APRON_0",
+      "min_depth": -0.016000723466277122,
+      "max_depth": 9.015202522277832e-07,
+      "vertices": 8
+    },
+    {
+      "name": "R47_READING_SLOPE_7_APRON_0",
+      "min_depth": -0.01600000262260437,
+      "max_depth": 5.993060767650604e-07,
+      "vertices": 6
+    },
+    {
+      "name": "R47_READING_LANTERN_0_GLASS_0",
+      "min_depth": -0.01600038615288213,
+      "max_depth": 4.991888999938965e-07,
+      "vertices": 8
+    },
+    {
+      "name": "R47_READING_LANTERN_0_GLASS_1",
+      "min_depth": -0.01600038615288213,
+      "max_depth": 4.991888999938965e-07,
+      "vertices": 8
+    },
+    {
+      "name": "R47_READING_CAP_0_GLASS_0",
+      "min_depth": -0.016000155359506607,
+      "max_depth": 1.0384246706962585e-06,
+      "vertices": 6
+    },
+    {
+      "name": "R47_READING_LANTERN_1_GLASS_0",
+      "min_depth": -0.01600038615288213,
+      "max_depth": 4.991888999938965e-07,
+      "vertices": 8
+    },
+    {
+      "name": "R47_READING_LANTERN_1_GLASS_1",
+      "min_depth": -0.01600038615288213,
+      "max_depth": 4.991888999938965e-07,
+      "vertices": 8
+    },
+    {
+      "name": "R47_READING_CAP_1_GLASS_0",
+      "min_depth": -0.016000155359506607,
+      "max_depth": 1.0384246706962585e-06,
+      "vertices": 6
+    },
+    {
+      "name": "R47_READING_LANTERN_2_GLASS_0",
+      "min_depth": -0.01600038615288213,
+      "max_depth": 4.991888999938965e-07,
+      "vertices": 8
+    },
+    {
+      "name": "R47_READING_LANTERN_2_GLASS_1",
+      "min_depth": -0.01600038615288213,
+      "max_depth": 4.991888999938965e-07,
+      "vertices": 8
+    },
+    {
+      "name": "R47_READING_CAP_2_GLASS_0",
+      "min_depth": -0.016000155359506607,
+      "max_depth": 1.0384246706962585e-06,
+      "vertices": 6
+    },
+    {
+      "name": "R47_READING_LANTERN_3_GLASS_0",
+      "min_depth": -0.01600038615288213,
+      "max_depth": 4.991888999938965e-07,
+      "vertices": 8
+    },
+    {
+      "name": "R47_READING_LANTERN_3_GLASS_1",
+      "min_depth": -0.01600038615288213,
+      "max_depth": 4.991888999938965e-07,
+      "vertices": 8
+    },
+    {
+      "name": "R47_READING_CAP_3_GLASS_0",
+      "min_depth": -0.016000155359506607,
+      "max_depth": 1.0384246706962585e-06,
+      "vertices": 6
+    }
+  ],
+  "unique_frames": 52,
+  "failures": [],
+  "construction_acceptance": false
+}

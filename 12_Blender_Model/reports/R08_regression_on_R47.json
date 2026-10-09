@@ -1,0 +1,1507 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R47_OKUMA_ISIKLIGI_v002.blend",
+  "failures": [],
+  "evaluated_solids": [
+    {
+      "name": "R08_STONE_CEILING_0",
+      "volume": 0.6133556490575294,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R08_STONE_CEILING_1",
+      "volume": 1.1132700796081987,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R08_STONE_CEILING_2",
+      "volume": 0.630856222053235,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R08_STONE_CEILING_3",
+      "volume": 1.0693803034982912,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R08_STONE_CEILING_4",
+      "volume": 0.5697097040661658,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R08_STONE_CEILING_5",
+      "volume": 0.9902961371027841,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R08_STONE_CEILING_6",
+      "volume": 0.5522094309060912,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R08_STONE_CEILING_7",
+      "volume": 1.0341822794453557,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R08_SKYLIGHT_GLASS_0",
+      "volume": 0.021035789004030192,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R08_SKYLIGHT_EDGE_0",
+      "volume": 0.002381518174557229,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R08_SKYLIGHT_GLASS_1",
+      "volume": 0.021035754035332276,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R08_SKYLIGHT_EDGE_1",
+      "volume": 0.002381518174555508,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R08_SKYLIGHT_GLASS_2",
+      "volume": 0.021035789004031913,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R08_SKYLIGHT_EDGE_2",
+      "volume": 0.0023815181745564518,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R08_SKYLIGHT_GLASS_3",
+      "volume": 0.021035754035294077,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R08_SKYLIGHT_EDGE_3",
+      "volume": 0.0023815181745560077,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R08_SKYLIGHT_CROSS_0",
+      "volume": 0.0033679475322597185,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R08_SKYLIGHT_CROSS_1",
+      "volume": 0.0033679475322582197,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R08_LIGHT_CENTRAL_DISK",
+      "volume": 0.06072381861047074,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R08_LIGHT_TUBE_00",
+      "volume": 0.00048153442122741974,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R08_LIGHT_INNER_SOCKET_00",
+      "volume": 5.082657504520971e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R08_LIGHT_OUTER_SOCKET_00",
+      "volume": 5.082657504520971e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R08_LIGHT_WIRE_00",
+      "volume": 1.2421775134375396e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R08_CEILING_ANCHOR_00",
+      "volume": 5.7589385309628205e-06,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R08_LIGHT_TUBE_01",
+      "volume": 0.0004815397066304933,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R08_LIGHT_INNER_SOCKET_01",
+      "volume": 5.0823425372298336e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R08_LIGHT_OUTER_SOCKET_01",
+      "volume": 5.0823425372298336e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R08_LIGHT_WIRE_01",
+      "volume": 1.3426264991817094e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R08_CEILING_ANCHOR_01",
+      "volume": 5.7589385309628205e-06,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R08_LIGHT_TUBE_02",
+      "volume": 0.00048154209593177094,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R08_LIGHT_INNER_SOCKET_02",
+      "volume": 5.082640273638278e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R08_LIGHT_OUTER_SOCKET_02",
+      "volume": 5.082640273638278e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R08_LIGHT_WIRE_02",
+      "volume": 1.2323212636045772e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R08_CEILING_ANCHOR_02",
+      "volume": 5.7589385309628205e-06,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R08_LIGHT_TUBE_03",
+      "volume": 0.0004815585294098007,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R08_LIGHT_INNER_SOCKET_03",
+      "volume": 5.0825166542804716e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R08_LIGHT_OUTER_SOCKET_03",
+      "volume": 5.0825166542804716e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R08_LIGHT_WIRE_03",
+      "volume": 1.1603145073329005e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R08_CEILING_ANCHOR_03",
+      "volume": 5.7589385309628205e-06,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R08_LIGHT_TUBE_04",
+      "volume": 0.0004815580935618076,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R08_LIGHT_INNER_SOCKET_04",
+      "volume": 5.08228543662434e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R08_LIGHT_OUTER_SOCKET_04",
+      "volume": 5.08228543662434e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R08_LIGHT_WIRE_04",
+      "volume": 1.2316601352377679e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R08_CEILING_ANCHOR_04",
+      "volume": 5.7589385309628205e-06,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R08_LIGHT_TUBE_05",
+      "volume": 0.00048155836495768906,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R08_LIGHT_INNER_SOCKET_05",
+      "volume": 5.082181109794525e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R08_LIGHT_OUTER_SOCKET_05",
+      "volume": 5.082181109794525e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R08_LIGHT_WIRE_05",
+      "volume": 1.1927397299256383e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R08_CEILING_ANCHOR_05",
+      "volume": 5.7589385309628205e-06,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R08_LIGHT_TUBE_06",
+      "volume": 0.0004815360821919003,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R08_LIGHT_INNER_SOCKET_06",
+      "volume": 5.0825631978529406e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R08_LIGHT_OUTER_SOCKET_06",
+      "volume": 5.0825631978529406e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R08_LIGHT_WIRE_06",
+      "volume": 1.1111376966262305e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R08_CEILING_ANCHOR_06",
+      "volume": 5.7589385309628205e-06,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R08_LIGHT_TUBE_07",
+      "volume": 0.00048154117409362346,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R08_LIGHT_INNER_SOCKET_07",
+      "volume": 5.0823912123167114e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R08_LIGHT_OUTER_SOCKET_07",
+      "volume": 5.0823912123167114e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R08_LIGHT_WIRE_07",
+      "volume": 1.1928112328238316e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R08_CEILING_ANCHOR_07",
+      "volume": 5.7589385309628205e-06,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R08_LIGHT_TUBE_08",
+      "volume": 0.0004815472891582587,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R08_LIGHT_INNER_SOCKET_08",
+      "volume": 5.082640273638278e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R08_LIGHT_OUTER_SOCKET_08",
+      "volume": 5.082640273638278e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R08_LIGHT_WIRE_08",
+      "volume": 1.1316474712051716e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R08_CEILING_ANCHOR_08",
+      "volume": 5.7589385309628205e-06,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R08_LIGHT_TUBE_09",
+      "volume": 0.0004815641780355484,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R08_LIGHT_INNER_SOCKET_09",
+      "volume": 5.0825166542804716e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R08_LIGHT_OUTER_SOCKET_09",
+      "volume": 5.0825166542804716e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R08_LIGHT_WIRE_09",
+      "volume": 1.0776882491549122e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R08_CEILING_ANCHOR_09",
+      "volume": 5.7589385309628205e-06,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R08_LIGHT_TUBE_10",
+      "volume": 0.00048156173074999364,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R08_LIGHT_INNER_SOCKET_10",
+      "volume": 5.082417809017247e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R08_LIGHT_OUTER_SOCKET_10",
+      "volume": 5.082417809017247e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R08_LIGHT_WIRE_10",
+      "volume": 1.1312653959077296e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R08_CEILING_ANCHOR_10",
+      "volume": 5.7589385309628205e-06,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R08_LIGHT_TUBE_11",
+      "volume": 0.0004815793409520888,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R08_LIGHT_INNER_SOCKET_11",
+      "volume": 5.082181109794525e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R08_LIGHT_OUTER_SOCKET_11",
+      "volume": 5.082181109794525e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R08_LIGHT_WIRE_11",
+      "volume": 1.1525444665282103e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R08_CEILING_ANCHOR_11",
+      "volume": 5.7589385309628205e-06,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R08_LIGHT_TUBE_12",
+      "volume": 0.0004815344212272185,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R08_LIGHT_INNER_SOCKET_12",
+      "volume": 5.082657504520971e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R08_LIGHT_OUTER_SOCKET_12",
+      "volume": 5.082657504520971e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R08_LIGHT_WIRE_12",
+      "volume": 1.0801191370850977e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R08_CEILING_ANCHOR_12",
+      "volume": 5.7589385309628205e-06,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R08_LIGHT_TUBE_13",
+      "volume": 0.00048153970663014634,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R08_LIGHT_INNER_SOCKET_13",
+      "volume": 5.0823425372298336e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R08_LIGHT_OUTER_SOCKET_13",
+      "volume": 5.0823425372298336e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R08_LIGHT_WIRE_13",
+      "volume": 1.152969655678071e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R08_CEILING_ANCHOR_13",
+      "volume": 5.7589385309628205e-06,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R08_LIGHT_TUBE_14",
+      "volume": 0.00048154209593175706,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R08_LIGHT_INNER_SOCKET_14",
+      "volume": 5.082640273638278e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R08_LIGHT_OUTER_SOCKET_14",
+      "volume": 5.082640273638278e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R08_LIGHT_WIRE_14",
+      "volume": 1.185709787735606e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R08_CEILING_ANCHOR_14",
+      "volume": 5.7589385309628205e-06,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R08_LIGHT_TUBE_15",
+      "volume": 0.0004815585294102656,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R08_LIGHT_INNER_SOCKET_15",
+      "volume": 5.0825166542804716e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R08_LIGHT_OUTER_SOCKET_15",
+      "volume": 5.0825166542804716e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R08_LIGHT_WIRE_15",
+      "volume": 1.1209910565064193e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R08_CEILING_ANCHOR_15",
+      "volume": 5.7589385309628205e-06,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R08_LIGHT_TUBE_16",
+      "volume": 0.0004815580935618874,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R08_LIGHT_INNER_SOCKET_16",
+      "volume": 5.08228543662434e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R08_LIGHT_OUTER_SOCKET_16",
+      "volume": 5.08228543662434e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R08_LIGHT_WIRE_16",
+      "volume": 1.185666819880117e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R08_CEILING_ANCHOR_16",
+      "volume": 5.7589385309628205e-06,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R08_LIGHT_TUBE_17",
+      "volume": 0.0004815583649585538,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R08_LIGHT_INNER_SOCKET_17",
+      "volume": 5.082181109794525e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R08_LIGHT_OUTER_SOCKET_17",
+      "volume": 5.082181109794525e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R08_LIGHT_WIRE_17",
+      "volume": 1.2993847587181202e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R08_CEILING_ANCHOR_17",
+      "volume": 5.7589385309628205e-06,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R08_LIGHT_TUBE_18",
+      "volume": 0.00048153608219158456,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R08_LIGHT_INNER_SOCKET_18",
+      "volume": 5.0825631978529406e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R08_LIGHT_OUTER_SOCKET_18",
+      "volume": 5.0825631978529406e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R08_LIGHT_WIRE_18",
+      "volume": 1.20221047799976e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R08_CEILING_ANCHOR_18",
+      "volume": 5.7589385309628205e-06,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R08_LIGHT_TUBE_19",
+      "volume": 0.0004815411740937657,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R08_LIGHT_INNER_SOCKET_19",
+      "volume": 5.0823912123167114e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R08_LIGHT_OUTER_SOCKET_19",
+      "volume": 5.0823912123167114e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R08_LIGHT_WIRE_19",
+      "volume": 1.299983545430955e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R08_CEILING_ANCHOR_19",
+      "volume": 5.7589385309628205e-06,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R08_LIGHT_TUBE_20",
+      "volume": 0.00048154728915855705,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R08_LIGHT_INNER_SOCKET_20",
+      "volume": 5.082640273638278e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R08_LIGHT_OUTER_SOCKET_20",
+      "volume": 5.082640273638278e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R08_LIGHT_WIRE_20",
+      "volume": 1.2914459946042345e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R08_CEILING_ANCHOR_20",
+      "volume": 5.7589385309628205e-06,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R08_LIGHT_TUBE_21",
+      "volume": 0.000481564178035819,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R08_LIGHT_INNER_SOCKET_21",
+      "volume": 5.0825166542804716e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R08_LIGHT_OUTER_SOCKET_21",
+      "volume": 5.0825166542804716e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R08_LIGHT_WIRE_21",
+      "volume": 1.2136585276593947e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R08_CEILING_ANCHOR_21",
+      "volume": 5.7589385309628205e-06,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R08_LIGHT_TUBE_22",
+      "volume": 0.0004815617307502573,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R08_LIGHT_INNER_SOCKET_22",
+      "volume": 5.082417809017247e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R08_LIGHT_OUTER_SOCKET_22",
+      "volume": 5.082417809017247e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R08_LIGHT_WIRE_22",
+      "volume": 1.290820117722663e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R08_CEILING_ANCHOR_22",
+      "volume": 5.7589385309628205e-06,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R08_LIGHT_TUBE_23",
+      "volume": 0.00048157934095272026,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R08_LIGHT_INNER_SOCKET_23",
+      "volume": 5.082181109794525e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R08_LIGHT_OUTER_SOCKET_23",
+      "volume": 5.082181109794525e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R08_LIGHT_WIRE_23",
+      "volume": 1.3424150139582786e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R08_CEILING_ANCHOR_23",
+      "volume": 5.7589385309628205e-06,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "P05_MAIN_ROOF_DECK",
+      "volume": 162.92677147808814,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "P06_READING_CURB",
+      "volume": 11.060191599526407,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    }
+  ],
+  "ceiling_planarity": [
+    {
+      "name": "R08_STONE_CEILING_0",
+      "error_m": 1.9371509552001953e-07
+    },
+    {
+      "name": "R08_STONE_CEILING_1",
+      "error_m": 6.556510925292969e-07
+    },
+    {
+      "name": "R08_STONE_CEILING_2",
+      "error_m": 1.1920928955078125e-07
+    },
+    {
+      "name": "R08_STONE_CEILING_3",
+      "error_m": 8.195638656616211e-07
+    },
+    {
+      "name": "R08_STONE_CEILING_4",
+      "error_m": 1.1920928955078125e-07
+    },
+    {
+      "name": "R08_STONE_CEILING_5",
+      "error_m": 5.960464477539062e-07
+    },
+    {
+      "name": "R08_STONE_CEILING_6",
+      "error_m": 2.682209014892578e-07
+    },
+    {
+      "name": "R08_STONE_CEILING_7",
+      "error_m": 6.631016731262207e-07
+    }
+  ],
+  "open_daylight_rays": [
+    {
+      "point": [
+        22.211997985839844,
+        26.687828063964844,
+        5.059074878692627
+      ],
+      "hits": [],
+      "clear_sky": true,
+      "permitted_exterior_frame_hits": [],
+      "passed": true
+    },
+    {
+      "point": [
+        22.058494567871094,
+        27.100173950195312,
+        5.059074878692627
+      ],
+      "hits": [],
+      "clear_sky": true,
+      "permitted_exterior_frame_hits": [],
+      "passed": true
+    },
+    {
+      "point": [
+        22.131729125976562,
+        27.534029006958008,
+        5.059074878692627
+      ],
+      "hits": [],
+      "clear_sky": true,
+      "permitted_exterior_frame_hits": [],
+      "passed": true
+    },
+    {
+      "point": [
+        22.412080764770508,
+        27.873140335083008,
+        5.059074878692627
+      ],
+      "hits": [],
+      "clear_sky": true,
+      "permitted_exterior_frame_hits": [],
+      "passed": true
+    },
+    {
+      "point": [
+        22.824426651000977,
+        28.026643753051758,
+        5.059074878692627
+      ],
+      "hits": [],
+      "clear_sky": true,
+      "permitted_exterior_frame_hits": [],
+      "passed": true
+    },
+    {
+      "point": [
+        23.258281707763672,
+        27.95340919494629,
+        5.059074878692627
+      ],
+      "hits": [],
+      "clear_sky": true,
+      "permitted_exterior_frame_hits": [],
+      "passed": true
+    },
+    {
+      "point": [
+        23.597393035888672,
+        27.673057556152344,
+        5.059074878692627
+      ],
+      "hits": [],
+      "clear_sky": true,
+      "permitted_exterior_frame_hits": [],
+      "passed": true
+    },
+    {
+      "point": [
+        23.750896453857422,
+        27.260711669921875,
+        5.059074878692627
+      ],
+      "hits": [],
+      "clear_sky": true,
+      "permitted_exterior_frame_hits": [],
+      "passed": true
+    },
+    {
+      "point": [
+        23.677661895751953,
+        26.82685661315918,
+        5.059074878692627
+      ],
+      "hits": [],
+      "clear_sky": true,
+      "permitted_exterior_frame_hits": [],
+      "passed": true
+    },
+    {
+      "point": [
+        23.397310256958008,
+        26.48774528503418,
+        5.059074878692627
+      ],
+      "hits": [],
+      "clear_sky": true,
+      "permitted_exterior_frame_hits": [],
+      "passed": true
+    },
+    {
+      "point": [
+        22.98496437072754,
+        26.33424186706543,
+        5.059074878692627
+      ],
+      "hits": [],
+      "clear_sky": true,
+      "permitted_exterior_frame_hits": [],
+      "passed": true
+    },
+    {
+      "point": [
+        22.551109313964844,
+        26.4074764251709,
+        5.059074878692627
+      ],
+      "hits": [],
+      "clear_sky": true,
+      "permitted_exterior_frame_hits": [],
+      "passed": true
+    }
+  ],
+  "upper_walk_ring": [
+    {
+      "point": [
+        21.18202018737793,
+        26.23016357421875,
+        4.889074802398682
+      ],
+      "support": [
+        {
+          "name": "P17_READING_FLOOR",
+          "distance": 0.03000021025930424
+        }
+      ],
+      "head": [],
+      "passed": true
+    },
+    {
+      "point": [
+        21.156965255737305,
+        26.896474838256836,
+        4.889074802398682
+      ],
+      "support": [
+        {
+          "name": "P17_READING_FLOOR",
+          "distance": 0.03000021025930424
+        }
+      ],
+      "head": [],
+      "passed": true
+    },
+    {
+      "point": [
+        21.182188034057617,
+        27.59052276611328,
+        4.889074802398682
+      ],
+      "support": [
+        {
+          "name": "P17_READING_FLOOR",
+          "distance": 0.03000021025930424
+        }
+      ],
+      "head": [],
+      "passed": true
+    },
+    {
+      "point": [
+        21.25554084777832,
+        28.253259658813477,
+        4.889074802398682
+      ],
+      "support": [
+        {
+          "name": "P17_READING_FLOOR",
+          "distance": 0.03000021025930424
+        }
+      ],
+      "head": [],
+      "passed": true
+    },
+    {
+      "point": [
+        21.954416275024414,
+        28.903120040893555,
+        4.889074802398682
+      ],
+      "support": [
+        {
+          "name": "P17_READING_FLOOR",
+          "distance": 0.03000021025930424
+        }
+      ],
+      "head": [],
+      "passed": true
+    },
+    {
+      "point": [
+        22.620729446411133,
+        28.928173065185547,
+        4.889074802398682
+      ],
+      "support": [
+        {
+          "name": "P17_READING_FLOOR",
+          "distance": 0.03000021025930424
+        }
+      ],
+      "head": [],
+      "passed": true
+    },
+    {
+      "point": [
+        23.314777374267578,
+        28.9029483795166,
+        4.889074802398682
+      ],
+      "support": [
+        {
+          "name": "P17_READING_FLOOR",
+          "distance": 0.03000021025930424
+        }
+      ],
+      "head": [],
+      "passed": true
+    },
+    {
+      "point": [
+        23.977514266967773,
+        28.82959747314453,
+        4.889074802398682
+      ],
+      "support": [
+        {
+          "name": "P17_READING_FLOOR",
+          "distance": 0.03000021025930424
+        }
+      ],
+      "head": [],
+      "passed": true
+    },
+    {
+      "point": [
+        24.62737274169922,
+        28.130725860595703,
+        4.889074802398682
+      ],
+      "support": [
+        {
+          "name": "P17_READING_FLOOR",
+          "distance": 0.03000021025930424
+        }
+      ],
+      "head": [],
+      "passed": true
+    },
+    {
+      "point": [
+        24.65242576599121,
+        27.46441078186035,
+        4.889074802398682
+      ],
+      "support": [
+        {
+          "name": "P17_READING_FLOOR",
+          "distance": 0.03000021025930424
+        }
+      ],
+      "head": [],
+      "passed": true
+    },
+    {
+      "point": [
+        24.6272029876709,
+        26.770362854003906,
+        4.889074802398682
+      ],
+      "support": [
+        {
+          "name": "P17_READING_FLOOR",
+          "distance": 0.03000021025930424
+        }
+      ],
+      "head": [],
+      "passed": true
+    },
+    {
+      "point": [
+        24.553848266601562,
+        26.10762596130371,
+        4.889074802398682
+      ],
+      "support": [
+        {
+          "name": "P17_READING_FLOOR",
+          "distance": 0.03000021025930424
+        }
+      ],
+      "head": [],
+      "passed": true
+    },
+    {
+      "point": [
+        23.8549747467041,
+        25.457765579223633,
+        4.889074802398682
+      ],
+      "support": [
+        {
+          "name": "P17_READING_FLOOR",
+          "distance": 0.03000021025930424
+        }
+      ],
+      "head": [],
+      "passed": true
+    },
+    {
+      "point": [
+        23.188661575317383,
+        25.43271255493164,
+        4.889074802398682
+      ],
+      "support": [
+        {
+          "name": "P17_READING_FLOOR",
+          "distance": 0.03000021025930424
+        }
+      ],
+      "head": [],
+      "passed": true
+    },
+    {
+      "point": [
+        22.494613647460938,
+        25.457937240600586,
+        4.889074802398682
+      ],
+      "support": [
+        {
+          "name": "P17_READING_FLOOR",
+          "distance": 0.03000021025930424
+        }
+      ],
+      "head": [],
+      "passed": true
+    },
+    {
+      "point": [
+        21.831878662109375,
+        25.53129005432129,
+        4.889074802398682
+      ],
+      "support": [
+        {
+          "name": "P17_READING_FLOOR",
+          "distance": 0.03000021025930424
+        }
+      ],
+      "head": [],
+      "passed": true
+    }
+  ],
+  "ceiling_anchor_rays": [
+    {
+      "index": 0,
+      "hits": [
+        {
+          "name": "R08_STONE_CEILING_2",
+          "distance": 0.029999732956033025
+        }
+      ],
+      "passed": true
+    },
+    {
+      "index": 1,
+      "hits": [
+        {
+          "name": "R08_STONE_CEILING_2",
+          "distance": 0.029998779296875
+        }
+      ],
+      "passed": true
+    },
+    {
+      "index": 2,
+      "hits": [
+        {
+          "name": "R08_STONE_CEILING_3",
+          "distance": 0.029998779296875
+        }
+      ],
+      "passed": true
+    },
+    {
+      "index": 3,
+      "hits": [
+        {
+          "name": "R08_STONE_CEILING_3",
+          "distance": 0.029998779296875
+        }
+      ],
+      "passed": true
+    },
+    {
+      "index": 4,
+      "hits": [
+        {
+          "name": "R08_STONE_CEILING_3",
+          "distance": 0.029999732956033025
+        }
+      ],
+      "passed": true
+    },
+    {
+      "index": 5,
+      "hits": [
+        {
+          "name": "R08_STONE_CEILING_4",
+          "distance": 0.029999732956033025
+        }
+      ],
+      "passed": true
+    },
+    {
+      "index": 6,
+      "hits": [
+        {
+          "name": "R08_STONE_CEILING_4",
+          "distance": 0.029999732956033025
+        }
+      ],
+      "passed": true
+    },
+    {
+      "index": 7,
+      "hits": [
+        {
+          "name": "R08_STONE_CEILING_4",
+          "distance": 0.029999732956033025
+        }
+      ],
+      "passed": true
+    },
+    {
+      "index": 8,
+      "hits": [
+        {
+          "name": "R08_STONE_CEILING_5",
+          "distance": 0.029999732956033025
+        }
+      ],
+      "passed": true
+    },
+    {
+      "index": 9,
+      "hits": [
+        {
+          "name": "R08_STONE_CEILING_5",
+          "distance": 0.029998779296875
+        }
+      ],
+      "passed": true
+    },
+    {
+      "index": 10,
+      "hits": [
+        {
+          "name": "R08_STONE_CEILING_5",
+          "distance": 0.029998779296875
+        }
+      ],
+      "passed": true
+    },
+    {
+      "index": 11,
+      "hits": [
+        {
+          "name": "R08_STONE_CEILING_6",
+          "distance": 0.029999732956033025
+        }
+      ],
+      "passed": true
+    },
+    {
+      "index": 12,
+      "hits": [
+        {
+          "name": "R08_STONE_CEILING_6",
+          "distance": 0.029999732956033025
+        }
+      ],
+      "passed": true
+    },
+    {
+      "index": 13,
+      "hits": [
+        {
+          "name": "R08_STONE_CEILING_6",
+          "distance": 0.029999732956033025
+        }
+      ],
+      "passed": true
+    },
+    {
+      "index": 14,
+      "hits": [
+        {
+          "name": "R08_STONE_CEILING_7",
+          "distance": 0.029998779296875
+        }
+      ],
+      "passed": true
+    },
+    {
+      "index": 15,
+      "hits": [
+        {
+          "name": "R08_STONE_CEILING_7",
+          "distance": 0.029999732956033025
+        }
+      ],
+      "passed": true
+    },
+    {
+      "index": 16,
+      "hits": [
+        {
+          "name": "R08_STONE_CEILING_7",
+          "distance": 0.03000068658487622
+        }
+      ],
+      "passed": true
+    },
+    {
+      "index": 17,
+      "hits": [
+        {
+          "name": "R08_STONE_CEILING_0",
+          "distance": 0.029999732956033025
+        }
+      ],
+      "passed": true
+    },
+    {
+      "index": 18,
+      "hits": [
+        {
+          "name": "R08_STONE_CEILING_0",
+          "distance": 0.029999732956033025
+        }
+      ],
+      "passed": true
+    },
+    {
+      "index": 19,
+      "hits": [
+        {
+          "name": "R08_STONE_CEILING_0",
+          "distance": 0.029999732956033025
+        }
+      ],
+      "passed": true
+    },
+    {
+      "index": 20,
+      "hits": [
+        {
+          "name": "R08_STONE_CEILING_1",
+          "distance": 0.029999732956033025
+        }
+      ],
+      "passed": true
+    },
+    {
+      "index": 21,
+      "hits": [
+        {
+          "name": "R08_STONE_CEILING_1",
+          "distance": 0.03000068658487622
+        }
+      ],
+      "passed": true
+    },
+    {
+      "index": 22,
+      "hits": [
+        {
+          "name": "R08_STONE_CEILING_1",
+          "distance": 0.029999732956033025
+        }
+      ],
+      "passed": true
+    },
+    {
+      "index": 23,
+      "hits": [
+        {
+          "name": "R08_STONE_CEILING_2",
+          "distance": 0.029998779296875
+        }
+      ],
+      "passed": true
+    }
+  ],
+  "observed_arm_count": 24,
+  "fixture_dimensions_verified": false,
+  "construction_acceptance": false
+}

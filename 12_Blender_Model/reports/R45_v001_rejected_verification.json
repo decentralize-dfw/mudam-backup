@@ -1,0 +1,1673 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R45_TAS_TUTAMAK_v001.blend",
+  "solids": [
+    {
+      "name": "R04_RECESS_BACK_22",
+      "volume": 0.48378945785345984,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R04_RECESS_BACK_23",
+      "volume": 0.0,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R04_RECESS_BACK_24",
+      "volume": 0.0,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R04_RECESS_BACK_25",
+      "volume": 0.47879720513550883,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R04_RECESS_BACK_26",
+      "volume": 0.47741404351540695,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R04_RECESS_BACK_27",
+      "volume": 0.4761696590317152,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R04_RECESS_BACK_28",
+      "volume": 0.47507009097692665,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R04_RECESS_BACK_29",
+      "volume": 0.4740175659859858,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R04_RECESS_BACK_30",
+      "volume": 0.47320809713842227,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R04_RECESS_BACK_31",
+      "volume": 0.47253981233060066,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R04_RECESS_BACK_32",
+      "volume": 0.4720160104035402,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R04_RECESS_BACK_33",
+      "volume": 0.47163476554326206,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R04_RECESS_BACK_34",
+      "volume": 0.0,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R04_RECESS_BACK_35",
+      "volume": 0.0,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R04_RECESS_BACK_36",
+      "volume": 0.0,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R04_RECESS_BACK_37",
+      "volume": 2.9297299628474986e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R04_RECESS_BACK_38",
+      "volume": 4.306569718232501e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R04_RECESS_BACK_39",
+      "volume": 5.222906475363018e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R04_RECESS_BACK_40",
+      "volume": 0.0,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R04_RECESS_BACK_41",
+      "volume": 0.0,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R04_RECESS_BACK_42",
+      "volume": 0.4749028919118784,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R04_RECESS_BACK_43",
+      "volume": 0.4760769670113905,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R04_RECESS_BACK_44",
+      "volume": 0.4774259845072214,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R04_RECESS_BACK_45",
+      "volume": 0.4789015338390244,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R04_RECESS_BACK_54",
+      "volume": 0.0,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R04_RECESS_BACK_55",
+      "volume": 0.0,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R04_RECESS_BACK_56",
+      "volume": 0.0,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R04_RECESS_BACK_57",
+      "volume": 0.0,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R45_STONE_GRIP_FINISH_CANDIDATE",
+      "volume": 0.08066769799749318,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    }
+  ],
+  "recess_and_lip_samples": [
+    {
+      "s": 1006.6049419430741,
+      "recess_hits": [],
+      "retained_wall_hits": [],
+      "stone_grip_hits": [
+        [
+          0.08499750752702938,
+          "R45_STONE_GRIP_FINISH_CANDIDATE"
+        ]
+      ]
+    },
+    {
+      "s": 1008.893834456945,
+      "recess_hits": [],
+      "retained_wall_hits": [],
+      "stone_grip_hits": [
+        [
+          0.08499309051967378,
+          "R45_STONE_GRIP_FINISH_CANDIDATE"
+        ]
+      ]
+    },
+    {
+      "s": 1011.1888927889785,
+      "recess_hits": [
+        [
+          0.019685113111484586,
+          "R04_RECESS_BACK_25"
+        ]
+      ],
+      "retained_wall_hits": [
+        [
+          0.019685113111484586,
+          "R04_RECESS_BACK_25"
+        ]
+      ],
+      "stone_grip_hits": [
+        [
+          0.0849913090305683,
+          "R45_STONE_GRIP_FINISH_CANDIDATE"
+        ]
+      ]
+    },
+    {
+      "s": 1013.4896843055732,
+      "recess_hits": [
+        [
+          0.0195485826275484,
+          "R04_RECESS_BACK_26"
+        ]
+      ],
+      "retained_wall_hits": [
+        [
+          0.0195485826275484,
+          "R04_RECESS_BACK_26"
+        ]
+      ],
+      "stone_grip_hits": [
+        [
+          0.0849873882532928,
+          "R45_STONE_GRIP_FINISH_CANDIDATE"
+        ]
+      ]
+    },
+    {
+      "s": 1015.7957577598029,
+      "recess_hits": [
+        [
+          0.019506065725285716,
+          "R04_RECESS_BACK_27"
+        ]
+      ],
+      "retained_wall_hits": [
+        [
+          0.019506065725285716,
+          "R04_RECESS_BACK_27"
+        ]
+      ],
+      "stone_grip_hits": [
+        [
+          0.08498519561085341,
+          "R45_STONE_GRIP_FINISH_CANDIDATE"
+        ]
+      ]
+    },
+    {
+      "s": 1018.1066656134662,
+      "recess_hits": [
+        [
+          0.019551061476758006,
+          "R04_RECESS_BACK_28"
+        ]
+      ],
+      "retained_wall_hits": [
+        [
+          0.019551061476758006,
+          "R04_RECESS_BACK_28"
+        ]
+      ],
+      "stone_grip_hits": [
+        [
+          0.08498298835701482,
+          "R45_STONE_GRIP_FINISH_CANDIDATE"
+        ]
+      ]
+    },
+    {
+      "s": 1020.4219316676274,
+      "recess_hits": [
+        [
+          0.01968780974672976,
+          "R04_RECESS_BACK_29"
+        ]
+      ],
+      "retained_wall_hits": [
+        [
+          0.01968780974672976,
+          "R04_RECESS_BACK_29"
+        ]
+      ],
+      "stone_grip_hits": [
+        [
+          0.08498340376791932,
+          "R45_STONE_GRIP_FINISH_CANDIDATE"
+        ]
+      ]
+    },
+    {
+      "s": 1022.7410940722848,
+      "recess_hits": [
+        [
+          0.019906573242183232,
+          "R04_RECESS_BACK_30"
+        ]
+      ],
+      "retained_wall_hits": [
+        [
+          0.019906573242183232,
+          "R04_RECESS_BACK_30"
+        ]
+      ],
+      "stone_grip_hits": [
+        [
+          0.08498030748661059,
+          "R45_STONE_GRIP_FINISH_CANDIDATE"
+        ]
+      ]
+    },
+    {
+      "s": 1025.0636650628744,
+      "recess_hits": [
+        [
+          0.01982744034041507,
+          "R04_RECESS_BACK_30"
+        ]
+      ],
+      "retained_wall_hits": [
+        [
+          0.0198293330505962,
+          "R04_RECESS_BACK_30"
+        ]
+      ],
+      "stone_grip_hits": [
+        [
+          0.0849800520837435,
+          "R45_STONE_GRIP_FINISH_CANDIDATE"
+        ]
+      ]
+    },
+    {
+      "s": 1027.3891368714274,
+      "recess_hits": [
+        [
+          0.01963507136100906,
+          "R04_RECESS_BACK_31"
+        ]
+      ],
+      "retained_wall_hits": [
+        [
+          0.019633174005900037,
+          "R04_RECESS_BACK_31"
+        ]
+      ],
+      "stone_grip_hits": [
+        [
+          0.08497659203986392,
+          "R45_STONE_GRIP_FINISH_CANDIDATE"
+        ]
+      ]
+    },
+    {
+      "s": 1029.7170288438742,
+      "recess_hits": [
+        [
+          0.01952563825469757,
+          "R04_RECESS_BACK_32"
+        ]
+      ],
+      "retained_wall_hits": [
+        [
+          0.01952563825469757,
+          "R04_RECESS_BACK_32"
+        ]
+      ],
+      "stone_grip_hits": [
+        [
+          0.08497612235315566,
+          "R45_STONE_GRIP_FINISH_CANDIDATE"
+        ]
+      ]
+    },
+    {
+      "s": 1032.0468028270045,
+      "recess_hits": [
+        [
+          0.01949632400152792,
+          "R04_RECESS_BACK_33"
+        ]
+      ],
+      "retained_wall_hits": [
+        [
+          0.01949632400152792,
+          "R04_RECESS_BACK_33"
+        ]
+      ],
+      "stone_grip_hits": [
+        [
+          0.08497655783343622,
+          "R45_STONE_GRIP_FINISH_CANDIDATE"
+        ]
+      ]
+    },
+    {
+      "s": 1034.3779481259623,
+      "recess_hits": [],
+      "retained_wall_hits": [],
+      "stone_grip_hits": [
+        [
+          0.08497953279931526,
+          "R45_STONE_GRIP_FINISH_CANDIDATE"
+        ]
+      ]
+    },
+    {
+      "s": 1036.7099234331529,
+      "recess_hits": [],
+      "retained_wall_hits": [],
+      "stone_grip_hits": [
+        [
+          0.08497991811037714,
+          "R45_STONE_GRIP_FINISH_CANDIDATE"
+        ]
+      ]
+    },
+    {
+      "s": 1039.0421971694902,
+      "recess_hits": [],
+      "retained_wall_hits": [],
+      "stone_grip_hits": [
+        [
+          0.08498492528826615,
+          "R45_STONE_GRIP_FINISH_CANDIDATE"
+        ]
+      ]
+    },
+    {
+      "s": 1041.3742252886295,
+      "recess_hits": [],
+      "retained_wall_hits": [],
+      "stone_grip_hits": [
+        [
+          0.08498478980291903,
+          "R45_STONE_GRIP_FINISH_CANDIDATE"
+        ]
+      ]
+    },
+    {
+      "s": 1043.705443235697,
+      "recess_hits": [],
+      "retained_wall_hits": [],
+      "stone_grip_hits": [
+        [
+          0.0849895483929699,
+          "R45_STONE_GRIP_FINISH_CANDIDATE"
+        ]
+      ]
+    },
+    {
+      "s": 1046.0352914707837,
+      "recess_hits": [],
+      "retained_wall_hits": [],
+      "stone_grip_hits": [
+        [
+          0.08499122287116698,
+          "R45_STONE_GRIP_FINISH_CANDIDATE"
+        ]
+      ]
+    },
+    {
+      "s": 1048.3632048889467,
+      "recess_hits": [],
+      "retained_wall_hits": [],
+      "stone_grip_hits": [
+        [
+          0.08499445606550302,
+          "R45_STONE_GRIP_FINISH_CANDIDATE"
+        ]
+      ]
+    },
+    {
+      "s": 1050.6886276640305,
+      "recess_hits": [],
+      "retained_wall_hits": [],
+      "stone_grip_hits": [
+        [
+          0.08499862941958769,
+          "R45_STONE_GRIP_FINISH_CANDIDATE"
+        ]
+      ]
+    },
+    {
+      "s": 1053.0109697258936,
+      "recess_hits": [],
+      "retained_wall_hits": [],
+      "stone_grip_hits": [
+        [
+          0.08499325732369765,
+          "R45_STONE_GRIP_FINISH_CANDIDATE"
+        ]
+      ]
+    },
+    {
+      "s": 1055.3296621388329,
+      "recess_hits": [
+        [
+          0.01991562733030304,
+          "R04_RECESS_BACK_42"
+        ]
+      ],
+      "retained_wall_hits": [
+        [
+          0.01991562733030304,
+          "R04_RECESS_BACK_42"
+        ]
+      ],
+      "stone_grip_hits": [
+        [
+          0.08499284898070335,
+          "R45_STONE_GRIP_FINISH_CANDIDATE"
+        ]
+      ]
+    },
+    {
+      "s": 1057.6441179401706,
+      "recess_hits": [
+        [
+          0.01979684291623326,
+          "R04_RECESS_BACK_42"
+        ]
+      ],
+      "retained_wall_hits": [
+        [
+          0.01979684291623326,
+          "R04_RECESS_BACK_42"
+        ]
+      ],
+      "stone_grip_hits": [
+        [
+          0.08498693245269684,
+          "R45_STONE_GRIP_FINISH_CANDIDATE"
+        ]
+      ]
+    },
+    {
+      "s": 1059.9537681769218,
+      "recess_hits": [
+        [
+          0.019590229245189772,
+          "R04_RECESS_BACK_43"
+        ]
+      ],
+      "retained_wall_hits": [
+        [
+          0.019590229245189772,
+          "R04_RECESS_BACK_43"
+        ]
+      ],
+      "stone_grip_hits": [
+        [
+          0.08498529089964138,
+          "R45_STONE_GRIP_FINISH_CANDIDATE"
+        ]
+      ]
+    },
+    {
+      "s": 1062.258010049639,
+      "recess_hits": [
+        [
+          0.019479676440445202,
+          "R04_RECESS_BACK_44"
+        ]
+      ],
+      "retained_wall_hits": [
+        [
+          0.019479676440445202,
+          "R04_RECESS_BACK_44"
+        ]
+      ],
+      "stone_grip_hits": [
+        [
+          0.08498042683988304,
+          "R45_STONE_GRIP_FINISH_CANDIDATE"
+        ]
+      ]
+    },
+    {
+      "s": 1064.5562739084953,
+      "recess_hits": [
+        [
+          0.01955542595500503,
+          "R04_RECESS_BACK_45"
+        ]
+      ],
+      "retained_wall_hits": [
+        [
+          0.01955353873260915,
+          "R04_RECESS_BACK_45"
+        ]
+      ],
+      "stone_grip_hits": [
+        [
+          0.08498154912916996,
+          "R45_STONE_GRIP_FINISH_CANDIDATE"
+        ]
+      ]
+    },
+    {
+      "s": 1066.8496394386189,
+      "recess_hits": [
+        [
+          0.0199992073798884,
+          "R04_RECESS_BACK_46"
+        ]
+      ],
+      "retained_wall_hits": [
+        [
+          0.0199992073798884,
+          "R04_RECESS_BACK_46"
+        ]
+      ],
+      "stone_grip_hits": [
+        [
+          0.08499932441030421,
+          "R45_STONE_GRIP_FINISH_CANDIDATE"
+        ]
+      ]
+    },
+    {
+      "s": 1069.1426733912172,
+      "recess_hits": [
+        [
+          0.0200010947490378,
+          "R04_RECESS_BACK_47"
+        ]
+      ],
+      "retained_wall_hits": [
+        [
+          0.0200010947490378,
+          "R04_RECESS_BACK_47"
+        ]
+      ],
+      "stone_grip_hits": [
+        [
+          0.08499932441030421,
+          "R45_STONE_GRIP_FINISH_CANDIDATE"
+        ]
+      ]
+    },
+    {
+      "s": 1071.4357199998171,
+      "recess_hits": [
+        [
+          0.02000197163934446,
+          "R04_RECESS_BACK_47"
+        ]
+      ],
+      "retained_wall_hits": [
+        [
+          0.02000197163934446,
+          "R04_RECESS_BACK_47"
+        ]
+      ],
+      "stone_grip_hits": [
+        [
+          0.08499971774222907,
+          "R45_STONE_GRIP_FINISH_CANDIDATE"
+        ]
+      ]
+    },
+    {
+      "s": 1073.7287633301275,
+      "recess_hits": [
+        [
+          0.020002519639321235,
+          "R04_RECESS_BACK_48"
+        ]
+      ],
+      "retained_wall_hits": [
+        [
+          0.020002519639321235,
+          "R04_RECESS_BACK_48"
+        ]
+      ],
+      "stone_grip_hits": [
+        [
+          0.08499894751186857,
+          "R45_STONE_GRIP_FINISH_CANDIDATE"
+        ]
+      ]
+    },
+    {
+      "s": 1076.0218060073173,
+      "recess_hits": [
+        [
+          0.0200010947490378,
+          "R04_RECESS_BACK_49"
+        ]
+      ],
+      "retained_wall_hits": [
+        [
+          0.0200010947490378,
+          "R04_RECESS_BACK_49"
+        ]
+      ],
+      "stone_grip_hits": [
+        [
+          0.08499932441030421,
+          "R45_STONE_GRIP_FINISH_CANDIDATE"
+        ]
+      ]
+    },
+    {
+      "s": 1078.3148455202872,
+      "recess_hits": [
+        [
+          0.020000632404632283,
+          "R04_RECESS_BACK_50"
+        ]
+      ],
+      "retained_wall_hits": [
+        [
+          0.020000632404632283,
+          "R04_RECESS_BACK_50"
+        ]
+      ],
+      "stone_grip_hits": [
+        [
+          0.08500083481209077,
+          "R45_STONE_GRIP_FINISH_CANDIDATE"
+        ]
+      ]
+    },
+    {
+      "s": 1080.6078888505979,
+      "recess_hits": [
+        [
+          0.0199992073798884,
+          "R04_RECESS_BACK_51"
+        ]
+      ],
+      "retained_wall_hits": [
+        [
+          0.0199992073798884,
+          "R04_RECESS_BACK_51"
+        ]
+      ],
+      "stone_grip_hits": [
+        [
+          0.08499932441030421,
+          "R45_STONE_GRIP_FINISH_CANDIDATE"
+        ]
+      ]
+    },
+    {
+      "s": 1082.9009354591976,
+      "recess_hits": [
+        [
+          0.019999544267239794,
+          "R04_RECESS_BACK_52"
+        ]
+      ],
+      "retained_wall_hits": [
+        [
+          0.019999544267239794,
+          "R04_RECESS_BACK_52"
+        ]
+      ],
+      "stone_grip_hits": [
+        [
+          0.0850000366864318,
+          "R45_STONE_GRIP_FINISH_CANDIDATE"
+        ]
+      ]
+    },
+    {
+      "s": 1085.1939695890464,
+      "recess_hits": [
+        [
+          0.019998882856684747,
+          "R04_RECESS_BACK_53"
+        ]
+      ],
+      "retained_wall_hits": [
+        [
+          0.019998882856684747,
+          "R04_RECESS_BACK_53"
+        ]
+      ],
+      "stone_grip_hits": [
+        [
+          0.08500083481209077,
+          "R45_STONE_GRIP_FINISH_CANDIDATE"
+        ]
+      ]
+    },
+    {
+      "s": 1087.4870253773863,
+      "recess_hits": [
+        [
+          0.02000265747814046,
+          "R04_RECESS_BACK_53"
+        ]
+      ],
+      "retained_wall_hits": [
+        [
+          0.02000265747814046,
+          "R04_RECESS_BACK_53"
+        ]
+      ],
+      "stone_grip_hits": [
+        [
+          0.08500272207040958,
+          "R45_STONE_GRIP_FINISH_CANDIDATE"
+        ]
+      ]
+    },
+    {
+      "s": 1089.7800609383194,
+      "recess_hits": [],
+      "retained_wall_hits": [],
+      "stone_grip_hits": [
+        [
+          0.08499784411347204,
+          "R45_STONE_GRIP_FINISH_CANDIDATE"
+        ]
+      ]
+    },
+    {
+      "s": 1092.073093220963,
+      "recess_hits": [],
+      "retained_wall_hits": [],
+      "stone_grip_hits": [
+        [
+          0.08499894751186857,
+          "R45_STONE_GRIP_FINISH_CANDIDATE"
+        ]
+      ]
+    },
+    {
+      "s": 1094.3661508565078,
+      "recess_hits": [],
+      "retained_wall_hits": [],
+      "stone_grip_hits": [
+        [
+          0.08500083481209077,
+          "R45_STONE_GRIP_FINISH_CANDIDATE"
+        ]
+      ]
+    }
+  ],
+  "failures": [
+    {
+      "name": "R04_RECESS_BACK_23",
+      "volume": 0.0,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R04_RECESS_BACK_24",
+      "volume": 0.0,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R04_RECESS_BACK_34",
+      "volume": 0.0,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R04_RECESS_BACK_35",
+      "volume": 0.0,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R04_RECESS_BACK_36",
+      "volume": 0.0,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R04_RECESS_BACK_40",
+      "volume": 0.0,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R04_RECESS_BACK_41",
+      "volume": 0.0,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R04_RECESS_BACK_54",
+      "volume": 0.0,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R04_RECESS_BACK_55",
+      "volume": 0.0,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R04_RECESS_BACK_56",
+      "volume": 0.0,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R04_RECESS_BACK_57",
+      "volume": 0.0,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "s": 1006.6049419430741,
+      "recess_hits": [],
+      "retained_wall_hits": [],
+      "stone_grip_hits": [
+        [
+          0.08499750752702938,
+          "R45_STONE_GRIP_FINISH_CANDIDATE"
+        ]
+      ]
+    },
+    {
+      "s": 1008.893834456945,
+      "recess_hits": [],
+      "retained_wall_hits": [],
+      "stone_grip_hits": [
+        [
+          0.08499309051967378,
+          "R45_STONE_GRIP_FINISH_CANDIDATE"
+        ]
+      ]
+    },
+    {
+      "s": 1011.1888927889785,
+      "recess_hits": [
+        [
+          0.019685113111484586,
+          "R04_RECESS_BACK_25"
+        ]
+      ],
+      "retained_wall_hits": [
+        [
+          0.019685113111484586,
+          "R04_RECESS_BACK_25"
+        ]
+      ],
+      "stone_grip_hits": [
+        [
+          0.0849913090305683,
+          "R45_STONE_GRIP_FINISH_CANDIDATE"
+        ]
+      ]
+    },
+    {
+      "s": 1013.4896843055732,
+      "recess_hits": [
+        [
+          0.0195485826275484,
+          "R04_RECESS_BACK_26"
+        ]
+      ],
+      "retained_wall_hits": [
+        [
+          0.0195485826275484,
+          "R04_RECESS_BACK_26"
+        ]
+      ],
+      "stone_grip_hits": [
+        [
+          0.0849873882532928,
+          "R45_STONE_GRIP_FINISH_CANDIDATE"
+        ]
+      ]
+    },
+    {
+      "s": 1015.7957577598029,
+      "recess_hits": [
+        [
+          0.019506065725285716,
+          "R04_RECESS_BACK_27"
+        ]
+      ],
+      "retained_wall_hits": [
+        [
+          0.019506065725285716,
+          "R04_RECESS_BACK_27"
+        ]
+      ],
+      "stone_grip_hits": [
+        [
+          0.08498519561085341,
+          "R45_STONE_GRIP_FINISH_CANDIDATE"
+        ]
+      ]
+    },
+    {
+      "s": 1018.1066656134662,
+      "recess_hits": [
+        [
+          0.019551061476758006,
+          "R04_RECESS_BACK_28"
+        ]
+      ],
+      "retained_wall_hits": [
+        [
+          0.019551061476758006,
+          "R04_RECESS_BACK_28"
+        ]
+      ],
+      "stone_grip_hits": [
+        [
+          0.08498298835701482,
+          "R45_STONE_GRIP_FINISH_CANDIDATE"
+        ]
+      ]
+    },
+    {
+      "s": 1020.4219316676274,
+      "recess_hits": [
+        [
+          0.01968780974672976,
+          "R04_RECESS_BACK_29"
+        ]
+      ],
+      "retained_wall_hits": [
+        [
+          0.01968780974672976,
+          "R04_RECESS_BACK_29"
+        ]
+      ],
+      "stone_grip_hits": [
+        [
+          0.08498340376791932,
+          "R45_STONE_GRIP_FINISH_CANDIDATE"
+        ]
+      ]
+    },
+    {
+      "s": 1022.7410940722848,
+      "recess_hits": [
+        [
+          0.019906573242183232,
+          "R04_RECESS_BACK_30"
+        ]
+      ],
+      "retained_wall_hits": [
+        [
+          0.019906573242183232,
+          "R04_RECESS_BACK_30"
+        ]
+      ],
+      "stone_grip_hits": [
+        [
+          0.08498030748661059,
+          "R45_STONE_GRIP_FINISH_CANDIDATE"
+        ]
+      ]
+    },
+    {
+      "s": 1025.0636650628744,
+      "recess_hits": [
+        [
+          0.01982744034041507,
+          "R04_RECESS_BACK_30"
+        ]
+      ],
+      "retained_wall_hits": [
+        [
+          0.0198293330505962,
+          "R04_RECESS_BACK_30"
+        ]
+      ],
+      "stone_grip_hits": [
+        [
+          0.0849800520837435,
+          "R45_STONE_GRIP_FINISH_CANDIDATE"
+        ]
+      ]
+    },
+    {
+      "s": 1027.3891368714274,
+      "recess_hits": [
+        [
+          0.01963507136100906,
+          "R04_RECESS_BACK_31"
+        ]
+      ],
+      "retained_wall_hits": [
+        [
+          0.019633174005900037,
+          "R04_RECESS_BACK_31"
+        ]
+      ],
+      "stone_grip_hits": [
+        [
+          0.08497659203986392,
+          "R45_STONE_GRIP_FINISH_CANDIDATE"
+        ]
+      ]
+    },
+    {
+      "s": 1029.7170288438742,
+      "recess_hits": [
+        [
+          0.01952563825469757,
+          "R04_RECESS_BACK_32"
+        ]
+      ],
+      "retained_wall_hits": [
+        [
+          0.01952563825469757,
+          "R04_RECESS_BACK_32"
+        ]
+      ],
+      "stone_grip_hits": [
+        [
+          0.08497612235315566,
+          "R45_STONE_GRIP_FINISH_CANDIDATE"
+        ]
+      ]
+    },
+    {
+      "s": 1032.0468028270045,
+      "recess_hits": [
+        [
+          0.01949632400152792,
+          "R04_RECESS_BACK_33"
+        ]
+      ],
+      "retained_wall_hits": [
+        [
+          0.01949632400152792,
+          "R04_RECESS_BACK_33"
+        ]
+      ],
+      "stone_grip_hits": [
+        [
+          0.08497655783343622,
+          "R45_STONE_GRIP_FINISH_CANDIDATE"
+        ]
+      ]
+    },
+    {
+      "s": 1034.3779481259623,
+      "recess_hits": [],
+      "retained_wall_hits": [],
+      "stone_grip_hits": [
+        [
+          0.08497953279931526,
+          "R45_STONE_GRIP_FINISH_CANDIDATE"
+        ]
+      ]
+    },
+    {
+      "s": 1036.7099234331529,
+      "recess_hits": [],
+      "retained_wall_hits": [],
+      "stone_grip_hits": [
+        [
+          0.08497991811037714,
+          "R45_STONE_GRIP_FINISH_CANDIDATE"
+        ]
+      ]
+    },
+    {
+      "s": 1039.0421971694902,
+      "recess_hits": [],
+      "retained_wall_hits": [],
+      "stone_grip_hits": [
+        [
+          0.08498492528826615,
+          "R45_STONE_GRIP_FINISH_CANDIDATE"
+        ]
+      ]
+    },
+    {
+      "s": 1041.3742252886295,
+      "recess_hits": [],
+      "retained_wall_hits": [],
+      "stone_grip_hits": [
+        [
+          0.08498478980291903,
+          "R45_STONE_GRIP_FINISH_CANDIDATE"
+        ]
+      ]
+    },
+    {
+      "s": 1043.705443235697,
+      "recess_hits": [],
+      "retained_wall_hits": [],
+      "stone_grip_hits": [
+        [
+          0.0849895483929699,
+          "R45_STONE_GRIP_FINISH_CANDIDATE"
+        ]
+      ]
+    },
+    {
+      "s": 1046.0352914707837,
+      "recess_hits": [],
+      "retained_wall_hits": [],
+      "stone_grip_hits": [
+        [
+          0.08499122287116698,
+          "R45_STONE_GRIP_FINISH_CANDIDATE"
+        ]
+      ]
+    },
+    {
+      "s": 1048.3632048889467,
+      "recess_hits": [],
+      "retained_wall_hits": [],
+      "stone_grip_hits": [
+        [
+          0.08499445606550302,
+          "R45_STONE_GRIP_FINISH_CANDIDATE"
+        ]
+      ]
+    },
+    {
+      "s": 1050.6886276640305,
+      "recess_hits": [],
+      "retained_wall_hits": [],
+      "stone_grip_hits": [
+        [
+          0.08499862941958769,
+          "R45_STONE_GRIP_FINISH_CANDIDATE"
+        ]
+      ]
+    },
+    {
+      "s": 1053.0109697258936,
+      "recess_hits": [],
+      "retained_wall_hits": [],
+      "stone_grip_hits": [
+        [
+          0.08499325732369765,
+          "R45_STONE_GRIP_FINISH_CANDIDATE"
+        ]
+      ]
+    },
+    {
+      "s": 1055.3296621388329,
+      "recess_hits": [
+        [
+          0.01991562733030304,
+          "R04_RECESS_BACK_42"
+        ]
+      ],
+      "retained_wall_hits": [
+        [
+          0.01991562733030304,
+          "R04_RECESS_BACK_42"
+        ]
+      ],
+      "stone_grip_hits": [
+        [
+          0.08499284898070335,
+          "R45_STONE_GRIP_FINISH_CANDIDATE"
+        ]
+      ]
+    },
+    {
+      "s": 1057.6441179401706,
+      "recess_hits": [
+        [
+          0.01979684291623326,
+          "R04_RECESS_BACK_42"
+        ]
+      ],
+      "retained_wall_hits": [
+        [
+          0.01979684291623326,
+          "R04_RECESS_BACK_42"
+        ]
+      ],
+      "stone_grip_hits": [
+        [
+          0.08498693245269684,
+          "R45_STONE_GRIP_FINISH_CANDIDATE"
+        ]
+      ]
+    },
+    {
+      "s": 1059.9537681769218,
+      "recess_hits": [
+        [
+          0.019590229245189772,
+          "R04_RECESS_BACK_43"
+        ]
+      ],
+      "retained_wall_hits": [
+        [
+          0.019590229245189772,
+          "R04_RECESS_BACK_43"
+        ]
+      ],
+      "stone_grip_hits": [
+        [
+          0.08498529089964138,
+          "R45_STONE_GRIP_FINISH_CANDIDATE"
+        ]
+      ]
+    },
+    {
+      "s": 1062.258010049639,
+      "recess_hits": [
+        [
+          0.019479676440445202,
+          "R04_RECESS_BACK_44"
+        ]
+      ],
+      "retained_wall_hits": [
+        [
+          0.019479676440445202,
+          "R04_RECESS_BACK_44"
+        ]
+      ],
+      "stone_grip_hits": [
+        [
+          0.08498042683988304,
+          "R45_STONE_GRIP_FINISH_CANDIDATE"
+        ]
+      ]
+    },
+    {
+      "s": 1064.5562739084953,
+      "recess_hits": [
+        [
+          0.01955542595500503,
+          "R04_RECESS_BACK_45"
+        ]
+      ],
+      "retained_wall_hits": [
+        [
+          0.01955353873260915,
+          "R04_RECESS_BACK_45"
+        ]
+      ],
+      "stone_grip_hits": [
+        [
+          0.08498154912916996,
+          "R45_STONE_GRIP_FINISH_CANDIDATE"
+        ]
+      ]
+    },
+    {
+      "s": 1066.8496394386189,
+      "recess_hits": [
+        [
+          0.0199992073798884,
+          "R04_RECESS_BACK_46"
+        ]
+      ],
+      "retained_wall_hits": [
+        [
+          0.0199992073798884,
+          "R04_RECESS_BACK_46"
+        ]
+      ],
+      "stone_grip_hits": [
+        [
+          0.08499932441030421,
+          "R45_STONE_GRIP_FINISH_CANDIDATE"
+        ]
+      ]
+    },
+    {
+      "s": 1069.1426733912172,
+      "recess_hits": [
+        [
+          0.0200010947490378,
+          "R04_RECESS_BACK_47"
+        ]
+      ],
+      "retained_wall_hits": [
+        [
+          0.0200010947490378,
+          "R04_RECESS_BACK_47"
+        ]
+      ],
+      "stone_grip_hits": [
+        [
+          0.08499932441030421,
+          "R45_STONE_GRIP_FINISH_CANDIDATE"
+        ]
+      ]
+    },
+    {
+      "s": 1071.4357199998171,
+      "recess_hits": [
+        [
+          0.02000197163934446,
+          "R04_RECESS_BACK_47"
+        ]
+      ],
+      "retained_wall_hits": [
+        [
+          0.02000197163934446,
+          "R04_RECESS_BACK_47"
+        ]
+      ],
+      "stone_grip_hits": [
+        [
+          0.08499971774222907,
+          "R45_STONE_GRIP_FINISH_CANDIDATE"
+        ]
+      ]
+    },
+    {
+      "s": 1073.7287633301275,
+      "recess_hits": [
+        [
+          0.020002519639321235,
+          "R04_RECESS_BACK_48"
+        ]
+      ],
+      "retained_wall_hits": [
+        [
+          0.020002519639321235,
+          "R04_RECESS_BACK_48"
+        ]
+      ],
+      "stone_grip_hits": [
+        [
+          0.08499894751186857,
+          "R45_STONE_GRIP_FINISH_CANDIDATE"
+        ]
+      ]
+    },
+    {
+      "s": 1076.0218060073173,
+      "recess_hits": [
+        [
+          0.0200010947490378,
+          "R04_RECESS_BACK_49"
+        ]
+      ],
+      "retained_wall_hits": [
+        [
+          0.0200010947490378,
+          "R04_RECESS_BACK_49"
+        ]
+      ],
+      "stone_grip_hits": [
+        [
+          0.08499932441030421,
+          "R45_STONE_GRIP_FINISH_CANDIDATE"
+        ]
+      ]
+    },
+    {
+      "s": 1078.3148455202872,
+      "recess_hits": [
+        [
+          0.020000632404632283,
+          "R04_RECESS_BACK_50"
+        ]
+      ],
+      "retained_wall_hits": [
+        [
+          0.020000632404632283,
+          "R04_RECESS_BACK_50"
+        ]
+      ],
+      "stone_grip_hits": [
+        [
+          0.08500083481209077,
+          "R45_STONE_GRIP_FINISH_CANDIDATE"
+        ]
+      ]
+    },
+    {
+      "s": 1080.6078888505979,
+      "recess_hits": [
+        [
+          0.0199992073798884,
+          "R04_RECESS_BACK_51"
+        ]
+      ],
+      "retained_wall_hits": [
+        [
+          0.0199992073798884,
+          "R04_RECESS_BACK_51"
+        ]
+      ],
+      "stone_grip_hits": [
+        [
+          0.08499932441030421,
+          "R45_STONE_GRIP_FINISH_CANDIDATE"
+        ]
+      ]
+    },
+    {
+      "s": 1082.9009354591976,
+      "recess_hits": [
+        [
+          0.019999544267239794,
+          "R04_RECESS_BACK_52"
+        ]
+      ],
+      "retained_wall_hits": [
+        [
+          0.019999544267239794,
+          "R04_RECESS_BACK_52"
+        ]
+      ],
+      "stone_grip_hits": [
+        [
+          0.0850000366864318,
+          "R45_STONE_GRIP_FINISH_CANDIDATE"
+        ]
+      ]
+    },
+    {
+      "s": 1085.1939695890464,
+      "recess_hits": [
+        [
+          0.019998882856684747,
+          "R04_RECESS_BACK_53"
+        ]
+      ],
+      "retained_wall_hits": [
+        [
+          0.019998882856684747,
+          "R04_RECESS_BACK_53"
+        ]
+      ],
+      "stone_grip_hits": [
+        [
+          0.08500083481209077,
+          "R45_STONE_GRIP_FINISH_CANDIDATE"
+        ]
+      ]
+    },
+    {
+      "s": 1087.4870253773863,
+      "recess_hits": [
+        [
+          0.02000265747814046,
+          "R04_RECESS_BACK_53"
+        ]
+      ],
+      "retained_wall_hits": [
+        [
+          0.02000265747814046,
+          "R04_RECESS_BACK_53"
+        ]
+      ],
+      "stone_grip_hits": [
+        [
+          0.08500272207040958,
+          "R45_STONE_GRIP_FINISH_CANDIDATE"
+        ]
+      ]
+    },
+    {
+      "s": 1089.7800609383194,
+      "recess_hits": [],
+      "retained_wall_hits": [],
+      "stone_grip_hits": [
+        [
+          0.08499784411347204,
+          "R45_STONE_GRIP_FINISH_CANDIDATE"
+        ]
+      ]
+    },
+    {
+      "s": 1092.073093220963,
+      "recess_hits": [],
+      "retained_wall_hits": [],
+      "stone_grip_hits": [
+        [
+          0.08499894751186857,
+          "R45_STONE_GRIP_FINISH_CANDIDATE"
+        ]
+      ]
+    },
+    {
+      "s": 1094.3661508565078,
+      "recess_hits": [],
+      "retained_wall_hits": [],
+      "stone_grip_hits": [
+        [
+          0.08500083481209077,
+          "R45_STONE_GRIP_FINISH_CANDIDATE"
+        ]
+      ]
+    },
+    {
+      "name": "R04_RECESS_BACK_23",
+      "before": 0.4819859434313525,
+      "after": 0.0
+    },
+    {
+      "name": "R04_RECESS_BACK_24",
+      "before": 0.4803196550727993,
+      "after": 0.0
+    },
+    {
+      "name": "R04_RECESS_BACK_25",
+      "before": 0.47879705175454923,
+      "after": 0.47879720513550883
+    },
+    {
+      "name": "R04_RECESS_BACK_28",
+      "before": 0.4750700211971157,
+      "after": 0.47507009097692665
+    },
+    {
+      "name": "R04_RECESS_BACK_34",
+      "before": 0.47143219649697343,
+      "after": 0.0
+    },
+    {
+      "name": "R04_RECESS_BACK_35",
+      "before": 0.4713350980520179,
+      "after": 0.0
+    },
+    {
+      "name": "R04_RECESS_BACK_36",
+      "before": 0.4713853080859849,
+      "after": 0.0
+    },
+    {
+      "name": "R04_RECESS_BACK_40",
+      "before": 0.47314283457579265,
+      "after": 0.0
+    },
+    {
+      "name": "R04_RECESS_BACK_41",
+      "before": 0.4739845316637066,
+      "after": 0.0
+    },
+    {
+      "name": "R04_RECESS_BACK_54",
+      "before": 0.4794022334852137,
+      "after": 0.0
+    },
+    {
+      "name": "R04_RECESS_BACK_55",
+      "before": 0.4794022334852137,
+      "after": 0.0
+    },
+    {
+      "name": "R04_RECESS_BACK_56",
+      "before": 0.4794022334852137,
+      "after": 0.0
+    },
+    {
+      "name": "R04_RECESS_BACK_57",
+      "before": 0.4794022334852137,
+      "after": 0.0
+    }
+  ],
+  "construction_acceptance": false
+}

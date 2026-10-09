@@ -1,8 +1,8 @@
 {
-  "file": "12_Blender_Model/exports/MUDAM_R43_TAS_DOSEME_YUZEYI_v001_preview.glb",
-  "size_bytes": 29790956,
-  "mesh_nodes": 6796,
-  "triangles": 770321,
+  "file": "12_Blender_Model/exports/MUDAM_R47_OKUMA_ISIKLIGI_v002_preview.glb",
+  "size_bytes": 30603316,
+  "mesh_nodes": 6782,
+  "triangles": 775276,
   "world_bounds_glTF": [
     [
       -42.32527542114258,
@@ -46,6 +46,16 @@
     {
       "name": "R43_stone_floor_candidate_basecolor",
       "embedded_bytes": 2032461,
+      "mime": "image/png"
+    },
+    {
+      "name": "R46_stone_grain_candidate_normal",
+      "embedded_bytes": 105879,
+      "mime": "image/png"
+    },
+    {
+      "name": "R46_stone_grain_candidate_basecolor",
+      "embedded_bytes": 353633,
       "mime": "image/png"
     }
   ],
@@ -91,6 +101,34 @@
       "image": "R43_stone_floor_candidate_normal",
       "uv_attribute": "TEXCOORD_0",
       "primitive_count": 2
+    },
+    {
+      "material": "R46_STONE_GRAIN_APPEARANCE_CANDIDATE",
+      "usage": "basecolor",
+      "image": "R46_stone_grain_candidate_basecolor",
+      "uv_attribute": "TEXCOORD_0",
+      "primitive_count": 38
+    },
+    {
+      "material": "R46_STONE_GRAIN_APPEARANCE_CANDIDATE",
+      "usage": "normal",
+      "image": "R46_stone_grain_candidate_normal",
+      "uv_attribute": "TEXCOORD_0",
+      "primitive_count": 38
+    },
+    {
+      "material": "R46_STONE_JOINT_APPEARANCE_CANDIDATE",
+      "usage": "basecolor",
+      "image": "R32_limestone_candidate_basecolor",
+      "uv_attribute": "TEXCOORD_0",
+      "primitive_count": 7
+    },
+    {
+      "material": "R46_STONE_JOINT_APPEARANCE_CANDIDATE",
+      "usage": "normal",
+      "image": "R32_limestone_candidate_normal",
+      "uv_attribute": "TEXCOORD_0",
+      "primitive_count": 7
     },
     {
       "material": "R43_STONE_FLOOR_APPEARANCE_CANDIDATE",

@@ -1,0 +1,241 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R46_MERDIVEN_TAS_YUZEY_v002.blend",
+  "evaluated_geometry_objects_checked": 7346,
+  "geometry_identical": true,
+  "uv_checks": [
+    {
+      "name": "R45_STAIR_RECESS_CONTINUOUS",
+      "faces": 869,
+      "max_uv_error": 9.5367431640625e-07,
+      "min_uv_area": 4.822426546979841e-08
+    },
+    {
+      "name": "R45_STONE_GRIP_FINISH_CANDIDATE",
+      "faces": 1282,
+      "max_uv_error": 0.0,
+      "min_uv_area": 9.949454913282807e-07
+    },
+    {
+      "name": "R04_STONE_SIDE_ENVELOPE",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.021626185081828453
+    },
+    {
+      "name": "R04_RECESS_JAMB_FOOT",
+      "faces": 8,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.02457044297216271
+    },
+    {
+      "name": "R04_RECESS_TOP_BELOW_LANDING",
+      "faces": 8,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.06074571982435373
+    },
+    {
+      "name": "R04_RECESS_TOP_LINTEL",
+      "faces": 8,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.023437756300154433
+    },
+    {
+      "name": "R04_RECESS_HEAD",
+      "faces": 146,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.007430817392332756
+    },
+    {
+      "name": "R03_PODIUM_1_REPAIRED",
+      "faces": 593,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.0009054349536654627
+    },
+    {
+      "name": "R03_PODIUM_2_REPAIRED",
+      "faces": 500,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.000801841521820279
+    },
+    {
+      "name": "R03_PODIUM_3_WITH_RECESS",
+      "faces": 404,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.0010164296236325754
+    },
+    {
+      "name": "R04_TREAD_ENVELOPE_01",
+      "faces": 29,
+      "max_uv_error": 0.0,
+      "min_uv_area": 5.967749530100264e-07
+    },
+    {
+      "name": "R04_TREAD_ENVELOPE_02",
+      "faces": 29,
+      "max_uv_error": 0.0,
+      "min_uv_area": 6.06100911682006e-07
+    },
+    {
+      "name": "R04_TREAD_ENVELOPE_03",
+      "faces": 29,
+      "max_uv_error": 0.0,
+      "min_uv_area": 6.049667717888951e-07
+    },
+    {
+      "name": "R04_TREAD_ENVELOPE_04",
+      "faces": 29,
+      "max_uv_error": 0.0,
+      "min_uv_area": 6.050440788385458e-07
+    },
+    {
+      "name": "R04_TREAD_ENVELOPE_05",
+      "faces": 29,
+      "max_uv_error": 0.0,
+      "min_uv_area": 5.957213033980224e-07
+    },
+    {
+      "name": "R04_TREAD_ENVELOPE_06",
+      "faces": 29,
+      "max_uv_error": 0.0,
+      "min_uv_area": 5.871172561455751e-07
+    },
+    {
+      "name": "R04_TREAD_ENVELOPE_07",
+      "faces": 29,
+      "max_uv_error": 0.0,
+      "min_uv_area": 5.864289960300084e-07
+    },
+    {
+      "name": "R04_TREAD_ENVELOPE_08",
+      "faces": 29,
+      "max_uv_error": 0.0,
+      "min_uv_area": 5.95915480516851e-07
+    },
+    {
+      "name": "R04_TREAD_ENVELOPE_09",
+      "faces": 29,
+      "max_uv_error": 0.0,
+      "min_uv_area": 6.062109605409205e-07
+    },
+    {
+      "name": "R04_TREAD_ENVELOPE_10",
+      "faces": 29,
+      "max_uv_error": 0.0,
+      "min_uv_area": 6.152220066724112e-07
+    },
+    {
+      "name": "R04_TREAD_ENVELOPE_11",
+      "faces": 29,
+      "max_uv_error": 0.0,
+      "min_uv_area": 6.05576133239083e-07
+    },
+    {
+      "name": "R04_TREAD_ENVELOPE_12",
+      "faces": 29,
+      "max_uv_error": 0.0,
+      "min_uv_area": 6.05696186539717e-07
+    },
+    {
+      "name": "R04_TREAD_ENVELOPE_13",
+      "faces": 29,
+      "max_uv_error": 0.0,
+      "min_uv_area": 6.245938948268304e-07
+    },
+    {
+      "name": "R04_TREAD_ENVELOPE_14",
+      "faces": 29,
+      "max_uv_error": 0.0,
+      "min_uv_area": 6.340421805361984e-07
+    },
+    {
+      "name": "R04_TREAD_ENVELOPE_15",
+      "faces": 29,
+      "max_uv_error": 0.0,
+      "min_uv_area": 6.43516386844567e-07
+    },
+    {
+      "name": "R04_TREAD_ENVELOPE_16",
+      "faces": 29,
+      "max_uv_error": 0.0,
+      "min_uv_area": 6.43506609776523e-07
+    },
+    {
+      "name": "R04_TREAD_ENVELOPE_17",
+      "faces": 29,
+      "max_uv_error": 0.0,
+      "min_uv_area": 6.530083282996202e-07
+    },
+    {
+      "name": "R04_TREAD_ENVELOPE_18",
+      "faces": 17,
+      "max_uv_error": 0.0,
+      "min_uv_area": 6.618397492275108e-07
+    },
+    {
+      "name": "R04_TREAD_ENVELOPE_19",
+      "faces": 8,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.12145888561303764
+    },
+    {
+      "name": "R04_TREAD_ENVELOPE_20",
+      "faces": 8,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.11911965347871956
+    },
+    {
+      "name": "R04_TREAD_ENVELOPE_21",
+      "faces": 8,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.11678079994885593
+    },
+    {
+      "name": "R04_TREAD_ENVELOPE_22",
+      "faces": 8,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.11444153667230239
+    },
+    {
+      "name": "R04_TREAD_ENVELOPE_23",
+      "faces": 8,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.11210203798691509
+    },
+    {
+      "name": "R04_TREAD_ENVELOPE_24",
+      "faces": 8,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.10976278071439083
+    },
+    {
+      "name": "R04_TREAD_ENVELOPE_25",
+      "faces": 8,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.10742355113325175
+    },
+    {
+      "name": "R04_TREAD_ENVELOPE_26",
+      "faces": 8,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.10508429283936493
+    },
+    {
+      "name": "R04_TREAD_ENVELOPE_27",
+      "faces": 8,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.10274513988952094
+    },
+    {
+      "name": "R04_TREAD_ENVELOPE_28",
+      "faces": 8,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.3258640456460853
+    }
+  ],
+  "packed_images": [
+    "R46_stone_grain_candidate_basecolor.png",
+    "R46_stone_grain_candidate_normal.png"
+  ],
+  "failures": [],
+  "construction_acceptance": false
+}

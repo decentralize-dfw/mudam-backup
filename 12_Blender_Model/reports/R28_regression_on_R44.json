@@ -1,0 +1,928 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R44_KAPALI_KABUKLAR_v004.blend",
+  "failures": [],
+  "evaluated_solids": [
+    {
+      "name": "R28_E_CIRCULATION_FLOOR",
+      "volume": 13.241171192367869,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R28_E_DETACHED_ENTRY_WALL",
+      "volume": 66.94158984004144,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R28_E_FLAT_CEILING",
+      "volume": 61.13034382037789,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R28_W_CIRCULATION_FLOOR",
+      "volume": 19.63714031776372,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R28_W_DETACHED_ENTRY_WALL",
+      "volume": 69.21984218321019,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R28_W_FLAT_CEILING",
+      "volume": 60.8743306374873,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    }
+  ],
+  "passage_rays": [
+    {
+      "route": "E_N",
+      "offset": -0.35,
+      "height": 0.3,
+      "hits": []
+    },
+    {
+      "route": "E_N",
+      "offset": -0.35,
+      "height": 1.5,
+      "hits": []
+    },
+    {
+      "route": "E_N",
+      "offset": -0.35,
+      "height": 2.1,
+      "hits": []
+    },
+    {
+      "route": "E_N",
+      "offset": 0,
+      "height": 0.3,
+      "hits": []
+    },
+    {
+      "route": "E_N",
+      "offset": 0,
+      "height": 1.5,
+      "hits": []
+    },
+    {
+      "route": "E_N",
+      "offset": 0,
+      "height": 2.1,
+      "hits": []
+    },
+    {
+      "route": "E_N",
+      "offset": 0.35,
+      "height": 0.3,
+      "hits": []
+    },
+    {
+      "route": "E_N",
+      "offset": 0.35,
+      "height": 1.5,
+      "hits": []
+    },
+    {
+      "route": "E_N",
+      "offset": 0.35,
+      "height": 2.1,
+      "hits": []
+    },
+    {
+      "route": "E_S",
+      "offset": -0.35,
+      "height": 0.3,
+      "hits": []
+    },
+    {
+      "route": "E_S",
+      "offset": -0.35,
+      "height": 1.5,
+      "hits": []
+    },
+    {
+      "route": "E_S",
+      "offset": -0.35,
+      "height": 2.1,
+      "hits": []
+    },
+    {
+      "route": "E_S",
+      "offset": 0,
+      "height": 0.3,
+      "hits": []
+    },
+    {
+      "route": "E_S",
+      "offset": 0,
+      "height": 1.5,
+      "hits": []
+    },
+    {
+      "route": "E_S",
+      "offset": 0,
+      "height": 2.1,
+      "hits": []
+    },
+    {
+      "route": "E_S",
+      "offset": 0.35,
+      "height": 0.3,
+      "hits": []
+    },
+    {
+      "route": "E_S",
+      "offset": 0.35,
+      "height": 1.5,
+      "hits": []
+    },
+    {
+      "route": "E_S",
+      "offset": 0.35,
+      "height": 2.1,
+      "hits": []
+    },
+    {
+      "route": "W_N",
+      "offset": -0.35,
+      "height": 0.3,
+      "hits": []
+    },
+    {
+      "route": "W_N",
+      "offset": -0.35,
+      "height": 1.5,
+      "hits": []
+    },
+    {
+      "route": "W_N",
+      "offset": -0.35,
+      "height": 2.1,
+      "hits": []
+    },
+    {
+      "route": "W_N",
+      "offset": 0,
+      "height": 0.3,
+      "hits": []
+    },
+    {
+      "route": "W_N",
+      "offset": 0,
+      "height": 1.5,
+      "hits": []
+    },
+    {
+      "route": "W_N",
+      "offset": 0,
+      "height": 2.1,
+      "hits": []
+    },
+    {
+      "route": "W_N",
+      "offset": 0.35,
+      "height": 0.3,
+      "hits": []
+    },
+    {
+      "route": "W_N",
+      "offset": 0.35,
+      "height": 1.5,
+      "hits": []
+    },
+    {
+      "route": "W_N",
+      "offset": 0.35,
+      "height": 2.1,
+      "hits": []
+    },
+    {
+      "route": "W_S",
+      "offset": -0.35,
+      "height": 0.3,
+      "hits": []
+    },
+    {
+      "route": "W_S",
+      "offset": -0.35,
+      "height": 1.5,
+      "hits": []
+    },
+    {
+      "route": "W_S",
+      "offset": -0.35,
+      "height": 2.1,
+      "hits": []
+    },
+    {
+      "route": "W_S",
+      "offset": 0,
+      "height": 0.3,
+      "hits": []
+    },
+    {
+      "route": "W_S",
+      "offset": 0,
+      "height": 1.5,
+      "hits": []
+    },
+    {
+      "route": "W_S",
+      "offset": 0,
+      "height": 2.1,
+      "hits": []
+    },
+    {
+      "route": "W_S",
+      "offset": 0.35,
+      "height": 0.3,
+      "hits": []
+    },
+    {
+      "route": "W_S",
+      "offset": 0.35,
+      "height": 1.5,
+      "hits": []
+    },
+    {
+      "route": "W_S",
+      "offset": 0.35,
+      "height": 2.1,
+      "hits": []
+    }
+  ],
+  "support_head_samples": [
+    {
+      "route": "E_N",
+      "offset": -0.35,
+      "fraction": 0,
+      "support": [
+        "P05_FLOOR_L00_E0"
+      ],
+      "head": []
+    },
+    {
+      "route": "E_N",
+      "offset": -0.35,
+      "fraction": 0.2,
+      "support": [
+        "P05_FLOOR_L00_E0"
+      ],
+      "head": []
+    },
+    {
+      "route": "E_N",
+      "offset": -0.35,
+      "fraction": 0.4,
+      "support": [
+        "P05_FLOOR_L00_E0"
+      ],
+      "head": []
+    },
+    {
+      "route": "E_N",
+      "offset": -0.35,
+      "fraction": 0.6,
+      "support": [
+        "P05_FLOOR_L00_E0"
+      ],
+      "head": []
+    },
+    {
+      "route": "E_N",
+      "offset": -0.35,
+      "fraction": 0.8,
+      "support": [
+        "R28_E_CIRCULATION_FLOOR"
+      ],
+      "head": []
+    },
+    {
+      "route": "E_N",
+      "offset": -0.35,
+      "fraction": 1,
+      "support": [
+        "P05_FLOOR_L00_EAST_GARDEN",
+        "R28_E_CIRCULATION_FLOOR"
+      ],
+      "head": []
+    },
+    {
+      "route": "E_N",
+      "offset": 0,
+      "fraction": 0,
+      "support": [
+        "P05_FLOOR_L00_E0"
+      ],
+      "head": []
+    },
+    {
+      "route": "E_N",
+      "offset": 0,
+      "fraction": 0.2,
+      "support": [
+        "P05_FLOOR_L00_E0"
+      ],
+      "head": []
+    },
+    {
+      "route": "E_N",
+      "offset": 0,
+      "fraction": 0.4,
+      "support": [
+        "P05_FLOOR_L00_E0"
+      ],
+      "head": []
+    },
+    {
+      "route": "E_N",
+      "offset": 0,
+      "fraction": 0.6,
+      "support": [
+        "P05_FLOOR_L00_E0"
+      ],
+      "head": []
+    },
+    {
+      "route": "E_N",
+      "offset": 0,
+      "fraction": 0.8,
+      "support": [
+        "R28_E_CIRCULATION_FLOOR"
+      ],
+      "head": []
+    },
+    {
+      "route": "E_N",
+      "offset": 0,
+      "fraction": 1,
+      "support": [
+        "P05_FLOOR_L00_EAST_GARDEN",
+        "R28_E_CIRCULATION_FLOOR"
+      ],
+      "head": []
+    },
+    {
+      "route": "E_N",
+      "offset": 0.35,
+      "fraction": 0,
+      "support": [
+        "P05_FLOOR_L00_E0"
+      ],
+      "head": []
+    },
+    {
+      "route": "E_N",
+      "offset": 0.35,
+      "fraction": 0.2,
+      "support": [
+        "P05_FLOOR_L00_E0"
+      ],
+      "head": []
+    },
+    {
+      "route": "E_N",
+      "offset": 0.35,
+      "fraction": 0.4,
+      "support": [
+        "P05_FLOOR_L00_E0"
+      ],
+      "head": []
+    },
+    {
+      "route": "E_N",
+      "offset": 0.35,
+      "fraction": 0.6,
+      "support": [
+        "P05_FLOOR_L00_E0"
+      ],
+      "head": []
+    },
+    {
+      "route": "E_N",
+      "offset": 0.35,
+      "fraction": 0.8,
+      "support": [
+        "R28_E_CIRCULATION_FLOOR"
+      ],
+      "head": []
+    },
+    {
+      "route": "E_N",
+      "offset": 0.35,
+      "fraction": 1,
+      "support": [
+        "P05_FLOOR_L00_EAST_GARDEN",
+        "R28_E_CIRCULATION_FLOOR"
+      ],
+      "head": []
+    },
+    {
+      "route": "E_S",
+      "offset": -0.35,
+      "fraction": 0,
+      "support": [
+        "P05_FLOOR_L00_E0"
+      ],
+      "head": []
+    },
+    {
+      "route": "E_S",
+      "offset": -0.35,
+      "fraction": 0.2,
+      "support": [
+        "P05_FLOOR_L00_E0"
+      ],
+      "head": []
+    },
+    {
+      "route": "E_S",
+      "offset": -0.35,
+      "fraction": 0.4,
+      "support": [
+        "R28_E_CIRCULATION_FLOOR"
+      ],
+      "head": []
+    },
+    {
+      "route": "E_S",
+      "offset": -0.35,
+      "fraction": 0.6,
+      "support": [
+        "R28_E_CIRCULATION_FLOOR"
+      ],
+      "head": []
+    },
+    {
+      "route": "E_S",
+      "offset": -0.35,
+      "fraction": 0.8,
+      "support": [
+        "R28_E_CIRCULATION_FLOOR"
+      ],
+      "head": []
+    },
+    {
+      "route": "E_S",
+      "offset": -0.35,
+      "fraction": 1,
+      "support": [
+        "P05_FLOOR_L00_EAST_GARDEN",
+        "R28_E_CIRCULATION_FLOOR"
+      ],
+      "head": []
+    },
+    {
+      "route": "E_S",
+      "offset": 0,
+      "fraction": 0,
+      "support": [
+        "P05_FLOOR_L00_E0"
+      ],
+      "head": []
+    },
+    {
+      "route": "E_S",
+      "offset": 0,
+      "fraction": 0.2,
+      "support": [
+        "P05_FLOOR_L00_E0"
+      ],
+      "head": []
+    },
+    {
+      "route": "E_S",
+      "offset": 0,
+      "fraction": 0.4,
+      "support": [
+        "R28_E_CIRCULATION_FLOOR"
+      ],
+      "head": []
+    },
+    {
+      "route": "E_S",
+      "offset": 0,
+      "fraction": 0.6,
+      "support": [
+        "R28_E_CIRCULATION_FLOOR"
+      ],
+      "head": []
+    },
+    {
+      "route": "E_S",
+      "offset": 0,
+      "fraction": 0.8,
+      "support": [
+        "P05_FLOOR_L00_EAST_GARDEN",
+        "R28_E_CIRCULATION_FLOOR"
+      ],
+      "head": []
+    },
+    {
+      "route": "E_S",
+      "offset": 0,
+      "fraction": 1,
+      "support": [
+        "P05_FLOOR_L00_EAST_GARDEN",
+        "R28_E_CIRCULATION_FLOOR"
+      ],
+      "head": []
+    },
+    {
+      "route": "E_S",
+      "offset": 0.35,
+      "fraction": 0,
+      "support": [
+        "P05_FLOOR_L00_E0"
+      ],
+      "head": []
+    },
+    {
+      "route": "E_S",
+      "offset": 0.35,
+      "fraction": 0.2,
+      "support": [
+        "P05_FLOOR_L00_E0"
+      ],
+      "head": []
+    },
+    {
+      "route": "E_S",
+      "offset": 0.35,
+      "fraction": 0.4,
+      "support": [
+        "R28_E_CIRCULATION_FLOOR"
+      ],
+      "head": []
+    },
+    {
+      "route": "E_S",
+      "offset": 0.35,
+      "fraction": 0.6,
+      "support": [
+        "R28_E_CIRCULATION_FLOOR"
+      ],
+      "head": []
+    },
+    {
+      "route": "E_S",
+      "offset": 0.35,
+      "fraction": 0.8,
+      "support": [
+        "P05_FLOOR_L00_EAST_GARDEN",
+        "R28_E_CIRCULATION_FLOOR"
+      ],
+      "head": []
+    },
+    {
+      "route": "E_S",
+      "offset": 0.35,
+      "fraction": 1,
+      "support": [
+        "P05_FLOOR_L00_EAST_GARDEN",
+        "R28_E_CIRCULATION_FLOOR"
+      ],
+      "head": []
+    },
+    {
+      "route": "W_N",
+      "offset": -0.35,
+      "fraction": 0,
+      "support": [
+        "P05_FLOOR_L00_W0",
+        "R28_W_CIRCULATION_FLOOR"
+      ],
+      "head": []
+    },
+    {
+      "route": "W_N",
+      "offset": -0.35,
+      "fraction": 0.2,
+      "support": [
+        "P05_FLOOR_L00_W0",
+        "R28_W_CIRCULATION_FLOOR"
+      ],
+      "head": []
+    },
+    {
+      "route": "W_N",
+      "offset": -0.35,
+      "fraction": 0.4,
+      "support": [
+        "P05_FLOOR_L00_W0",
+        "R28_W_CIRCULATION_FLOOR"
+      ],
+      "head": []
+    },
+    {
+      "route": "W_N",
+      "offset": -0.35,
+      "fraction": 0.6,
+      "support": [
+        "R28_W_CIRCULATION_FLOOR"
+      ],
+      "head": []
+    },
+    {
+      "route": "W_N",
+      "offset": -0.35,
+      "fraction": 0.8,
+      "support": [
+        "R28_W_CIRCULATION_FLOOR"
+      ],
+      "head": []
+    },
+    {
+      "route": "W_N",
+      "offset": -0.35,
+      "fraction": 1,
+      "support": [
+        "R28_W_CIRCULATION_FLOOR"
+      ],
+      "head": []
+    },
+    {
+      "route": "W_N",
+      "offset": 0,
+      "fraction": 0,
+      "support": [
+        "P05_FLOOR_L00_W0",
+        "R28_W_CIRCULATION_FLOOR"
+      ],
+      "head": []
+    },
+    {
+      "route": "W_N",
+      "offset": 0,
+      "fraction": 0.2,
+      "support": [
+        "P05_FLOOR_L00_W0",
+        "R28_W_CIRCULATION_FLOOR"
+      ],
+      "head": []
+    },
+    {
+      "route": "W_N",
+      "offset": 0,
+      "fraction": 0.4,
+      "support": [
+        "P05_FLOOR_L00_W0",
+        "R28_W_CIRCULATION_FLOOR"
+      ],
+      "head": []
+    },
+    {
+      "route": "W_N",
+      "offset": 0,
+      "fraction": 0.6,
+      "support": [
+        "R28_W_CIRCULATION_FLOOR"
+      ],
+      "head": []
+    },
+    {
+      "route": "W_N",
+      "offset": 0,
+      "fraction": 0.8,
+      "support": [
+        "R28_W_CIRCULATION_FLOOR"
+      ],
+      "head": []
+    },
+    {
+      "route": "W_N",
+      "offset": 0,
+      "fraction": 1,
+      "support": [
+        "R28_W_CIRCULATION_FLOOR"
+      ],
+      "head": []
+    },
+    {
+      "route": "W_N",
+      "offset": 0.35,
+      "fraction": 0,
+      "support": [
+        "P05_FLOOR_L00_W0",
+        "R28_W_CIRCULATION_FLOOR"
+      ],
+      "head": []
+    },
+    {
+      "route": "W_N",
+      "offset": 0.35,
+      "fraction": 0.2,
+      "support": [
+        "P05_FLOOR_L00_W0",
+        "R28_W_CIRCULATION_FLOOR"
+      ],
+      "head": []
+    },
+    {
+      "route": "W_N",
+      "offset": 0.35,
+      "fraction": 0.4,
+      "support": [
+        "P05_FLOOR_L00_W0",
+        "R28_W_CIRCULATION_FLOOR"
+      ],
+      "head": []
+    },
+    {
+      "route": "W_N",
+      "offset": 0.35,
+      "fraction": 0.6,
+      "support": [
+        "R28_W_CIRCULATION_FLOOR"
+      ],
+      "head": []
+    },
+    {
+      "route": "W_N",
+      "offset": 0.35,
+      "fraction": 0.8,
+      "support": [
+        "R28_W_CIRCULATION_FLOOR"
+      ],
+      "head": []
+    },
+    {
+      "route": "W_N",
+      "offset": 0.35,
+      "fraction": 1,
+      "support": [
+        "R28_W_CIRCULATION_FLOOR"
+      ],
+      "head": []
+    },
+    {
+      "route": "W_S",
+      "offset": -0.35,
+      "fraction": 0,
+      "support": [
+        "P05_FLOOR_L00_W0"
+      ],
+      "head": []
+    },
+    {
+      "route": "W_S",
+      "offset": -0.35,
+      "fraction": 0.2,
+      "support": [
+        "P05_FLOOR_L00_W0"
+      ],
+      "head": []
+    },
+    {
+      "route": "W_S",
+      "offset": -0.35,
+      "fraction": 0.4,
+      "support": [
+        "P05_FLOOR_L00_W0"
+      ],
+      "head": []
+    },
+    {
+      "route": "W_S",
+      "offset": -0.35,
+      "fraction": 0.6,
+      "support": [
+        "R28_W_CIRCULATION_FLOOR"
+      ],
+      "head": []
+    },
+    {
+      "route": "W_S",
+      "offset": -0.35,
+      "fraction": 0.8,
+      "support": [
+        "R28_W_CIRCULATION_FLOOR"
+      ],
+      "head": []
+    },
+    {
+      "route": "W_S",
+      "offset": -0.35,
+      "fraction": 1,
+      "support": [
+        "R28_W_CIRCULATION_FLOOR"
+      ],
+      "head": []
+    },
+    {
+      "route": "W_S",
+      "offset": 0,
+      "fraction": 0,
+      "support": [
+        "P05_FLOOR_L00_W0"
+      ],
+      "head": []
+    },
+    {
+      "route": "W_S",
+      "offset": 0,
+      "fraction": 0.2,
+      "support": [
+        "P05_FLOOR_L00_W0"
+      ],
+      "head": []
+    },
+    {
+      "route": "W_S",
+      "offset": 0,
+      "fraction": 0.4,
+      "support": [
+        "P05_FLOOR_L00_W0"
+      ],
+      "head": []
+    },
+    {
+      "route": "W_S",
+      "offset": 0,
+      "fraction": 0.6,
+      "support": [
+        "R28_W_CIRCULATION_FLOOR"
+      ],
+      "head": []
+    },
+    {
+      "route": "W_S",
+      "offset": 0,
+      "fraction": 0.8,
+      "support": [
+        "R28_W_CIRCULATION_FLOOR"
+      ],
+      "head": []
+    },
+    {
+      "route": "W_S",
+      "offset": 0,
+      "fraction": 1,
+      "support": [
+        "R28_W_CIRCULATION_FLOOR"
+      ],
+      "head": []
+    },
+    {
+      "route": "W_S",
+      "offset": 0.35,
+      "fraction": 0,
+      "support": [
+        "P05_FLOOR_L00_W0"
+      ],
+      "head": []
+    },
+    {
+      "route": "W_S",
+      "offset": 0.35,
+      "fraction": 0.2,
+      "support": [
+        "P05_FLOOR_L00_W0"
+      ],
+      "head": []
+    },
+    {
+      "route": "W_S",
+      "offset": 0.35,
+      "fraction": 0.4,
+      "support": [
+        "P05_FLOOR_L00_W0"
+      ],
+      "head": []
+    },
+    {
+      "route": "W_S",
+      "offset": 0.35,
+      "fraction": 0.6,
+      "support": [
+        "R28_W_CIRCULATION_FLOOR"
+      ],
+      "head": []
+    },
+    {
+      "route": "W_S",
+      "offset": 0.35,
+      "fraction": 0.8,
+      "support": [
+        "R28_W_CIRCULATION_FLOOR"
+      ],
+      "head": []
+    },
+    {
+      "route": "W_S",
+      "offset": 0.35,
+      "fraction": 1,
+      "support": [
+        "R28_W_CIRCULATION_FLOOR"
+      ],
+      "head": []
+    }
+  ],
+  "construction_acceptance": false
+}

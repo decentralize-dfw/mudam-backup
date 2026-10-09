@@ -1,0 +1,32 @@
+{
+  "base_scene": "MUDAM_R46_MERDIVEN_TAS_YUZEY_v002.blend",
+  "source_ids": [
+    "116",
+    "015",
+    "016",
+    "103",
+    "BP_nca09"
+  ],
+  "glass_thickness_m": 0.016,
+  "glass_edge_inset_m": 0.018,
+  "frame_width_m": 0.05,
+  "frame_depth_m": 0.08,
+  "frame_cap_above_glass_m": 0.012,
+  "shaft_columns_per_facet_candidate": 2,
+  "flat_roof_base_color_linear": [
+    0.12,
+    0.115,
+    0.105,
+    1.0
+  ],
+  "flat_roof_roughness": 0.82,
+  "limits": [
+    "116 supports a dark framed small exterior lantern and dark opaque flat roof surface.",
+    "116 close crop supports a four-sided shaft/cap and opaque splayed base. Existing radius/heights remain unmeasured candidates;015/016/BP_nca09 confirm interior square aperture only.",
+    "Panel count, frame section, inset and glass thickness are unmeasured candidates.",
+    "Dark flat roof material type is unidentified; no bitumen/gravel/membrane specification or hidden build-up inferred.",
+    "Existing roof openings, reading ceiling and light fixture remain unchanged."
+  ],
+  "exterior_profile_revision": "Four-sided shaft/cap with opaque octagon-to-square apron, supported by116 crop",
+  "apron_skin_display_thickness_m": 0.016
+}

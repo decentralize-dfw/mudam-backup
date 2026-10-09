@@ -4,7 +4,7 @@
 
 ## Güncel teslim
 
-[MUDAM_R43_TAS_DOSEME_YUZEYI_v001.blend](scenes/MUDAM_R43_TAS_DOSEME_YUZEYI_v001.blend) giriş, çatı ve merdiven çalışmalarını birlikte içerir. [Görsel inceleme](URETIM.html) · [Üretim raporu](reports/P07_P09_URETIM_RAPORU.md).
+[MUDAM_R47_OKUMA_ISIKLIGI_v002.blend](scenes/MUDAM_R47_OKUMA_ISIKLIGI_v002.blend) giriş, çatı ve merdiven çalışmalarını birlikte içerir. [Görsel inceleme](URETIM.html) · [Üretim raporu](reports/P07_P09_URETIM_RAPORU.md).
 
 | Paket | Durum | Somut çıktı / açık konu |
 | --- | --- | --- |

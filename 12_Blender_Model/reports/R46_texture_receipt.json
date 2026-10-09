@@ -1,0 +1,20 @@
+{
+  "seed": 46024,
+  "repeat_m": 2.0,
+  "resolution": [
+    1024,
+    1024
+  ],
+  "files": [
+    {
+      "path": "12_Blender_Model/textures/R46_stone_grain_candidate_basecolor.png",
+      "sha256": "6383a16993e653aa7aaa1d1ee080118ff88cb9d9b019d34573ebf42400223d83"
+    },
+    {
+      "path": "12_Blender_Model/textures/R46_stone_grain_candidate_normal.png",
+      "sha256": "1689f34453f3a693ff7cb4b17150460850ad15062ee2198ef302f83a9fa46c1d"
+    }
+  ],
+  "status": "procedural_candidate_not_photographic_scan",
+  "limits": "Colour, grain and roughness unmeasured; no new structural joints or displacement."
+}

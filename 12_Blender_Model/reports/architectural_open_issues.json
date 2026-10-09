@@ -87,5 +87,18 @@
       "R42_stair_roof_identity.jpg"
     ],
     "detail": "045 narrow glass slot appears on opposite side compared with026 and current down-stair view. Similar curved guards do not prove same corner; previous atlas045 location unverified. Keep user-confirmed stair identities; do not swap stairs automatically. R42 shading now justified by026/049 only,045 excluded from facet evidence."
+  },
+  {
+    "id": "A08",
+    "status": "coordinated_candidate_R44",
+    "priority": "high",
+    "topic": "R39 ceiling versus R04 upper stair",
+    "evidence": [
+      "R44_v001_rejected_upper_regression.json",
+      "R44_v002_rejected_ceiling_coverage.json",
+      "R04_regression_on_R44.json",
+      "R39_regression_on_R44.json"
+    ],
+    "detail": "R44v004 removes full inherited stair recess from six ceiling cells and offsets floor cutter20mm inside existing wall to prevent coplanar rendering artifact. Headroom/coverage and context render pass; actual soffit construction unmeasured."
   }
 ]

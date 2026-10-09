@@ -1,0 +1,20 @@
+{
+  "id": "R45_UPPER_STAIR_RECESSED_STONE_GRIP",
+  "base_scene": "MUDAM_R44_KAPALI_KABUKLAR_v004.blend",
+  "source_ids": ["023", "024", "021", "102", "103", "101"],
+  "start_sum_canonical": 1002.0,
+  "end_sum_canonical": 1099.0,
+  "cavity_center_above_ramp_m": 0.98,
+  "cavity_height_m": 0.40,
+  "cavity_depth_m": 0.11,
+  "stone_grip_height_m": 0.10,
+  "stone_grip_projection_m": 0.035,
+  "stone_grip_end_inset_m": 0.25,
+  "limits": [
+    "023 and024 support a recessed stone grip with rounded lower recess end; no metal replacement is inferred.",
+    "All profile dimensions, slope-relative height and endpoints are unmeasured candidates.",
+    "Full extent follows the existing conditional R04 curved wall; upper termination is not visible in024.",
+    "Recess is a finish-envelope subtraction, not a claim about hidden structural wall composition.",
+    "No change to stair location, riser count, treads, glass guard or floor levels."
+  ]
+}

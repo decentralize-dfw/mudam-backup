@@ -1,31 +1,61 @@
 {
   "zone_id": "GH_UP",
   "status": "photo_observations_before_detail_geometry",
-  "source_ids": ["022", "024"],
+  "source_ids": [
+    "022",
+    "024"
+  ],
   "components": [
     {
       "id": "GH_UP_GLASS_GUARD",
-      "source_ids": ["022"],
+      "source_ids": [
+        "022"
+      ],
       "observed": "Transparent panels above stone stair-side upstand. Curved glass return at the foot, panel seams, metal bottom fitting and rounded metal top rail are visible.",
-      "not_established": ["Glass thickness", "Exact curve radius", "Panel dimensions", "Fastener arrangement", "Height"],
+      "not_established": [
+        "Glass thickness",
+        "Exact curve radius",
+        "Panel dimensions",
+        "Fastener arrangement",
+        "Height"
+      ],
       "model_rule": "Separate glass panels, metal bottom fitting, top rail and stone upstand. Do not replace curved start with repeated straight panels."
     },
     {
       "id": "GH_UP_WALL_SIDE_GRIP",
-      "source_ids": ["022", "024"],
+      "source_ids": [
+        "022",
+        "024"
+      ],
       "observed": "A stone-coloured sloping grip/ledge with a rounded terminal and recessed shadow zone is visible on the wall side. This is distinct from the foreground tubular metal guard rail.",
-      "not_established": ["Carved versus assembled construction", "Complete cross-section", "Recess depth", "Terminal radius", "Exact location of photo 024 along the flight"],
+      "not_established": [
+        "Carved versus assembled construction",
+        "Complete cross-section",
+        "Recess depth",
+        "Terminal radius",
+        "Exact location of photo 024 along the flight"
+      ],
       "model_rule": "Use separate stone-side detail geometry only after section and position are resolved. Do not duplicate the metal tubular rail on this side or infer a full profile from the visible silhouette."
     },
     {
       "id": "GH_UP_STONE_JOINTS",
-      "source_ids": ["022", "024"],
+      "source_ids": [
+        "022",
+        "024"
+      ],
       "observed": "Horizontal and vertical stone facing joints remain visible behind the grip. Stair treads, podium risers and guard upstand are separate visible surface systems.",
-      "not_established": ["Stone specification", "Facing thickness", "Joint module", "Load-bearing substrate"],
+      "not_established": [
+        "Stone specification",
+        "Facing thickness",
+        "Joint module",
+        "Load-bearing substrate"
+      ],
       "model_rule": "Maintain separate finish and structural hypotheses. Joint appearance alone does not establish stone block structural construction."
     }
   ],
   "full_flight_riser_count_verified": false,
   "metric_photo_pose_verified": false,
-  "detail_geometry_produced": false
+  "detail_geometry_produced": "R45 conditional visual hypothesis; not resolved survey section",
+  "candidate_revision": "R45_v005",
+  "candidate_limits": "Position and full cross-section remain unverified. User-authorized explicitly representative completion; earlier model_rule retained as verified-geometry acceptance limit."
 }

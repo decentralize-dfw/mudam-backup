@@ -1,7 +1,11 @@
 from pathlib import Path
-import bpy,bmesh,json,math
+import bpy,bmesh,json,sys,math
 from mathutils import Vector
-R=Path(__file__).resolve().parents[2];B=R/'12_Blender_Model';r=json.loads((B/'reports/R23_build_report.json').read_text());P=json.loads((B/'config/upper_gallery_room.json').read_text());C=json.loads((B/'config/foundation.json').read_text())['calibration'];bpy.ops.wm.open_mainfile(filepath=str(R/r['file']));deps=bpy.context.evaluated_depsgraph_get();fail=[];solids=[]
+R=Path(__file__).resolve().parents[2];B=R/'12_Blender_Model';r=json.loads((B/'reports/R23_build_report.json').read_text());P=json.loads((B/'config/upper_gallery_room.json').read_text());C=json.loads((B/'config/foundation.json').read_text())['calibration'];
+output_name='R23_verification.json'
+if '--' in sys.argv:
+ args=sys.argv[sys.argv.index('--')+1:];assert len(args)==2;r['file']=args[0];output_name=args[1]
+bpy.ops.wm.open_mainfile(filepath=str(R/r['file']));deps=bpy.context.evaluated_depsgraph_get();fail=[];solids=[]
 def point(x,y,z=0):
  k=C['canonical_to_pdf_scale'];ox,oy=C['canonical_to_pdf_offset'];M=C['pdf_to_utm_matrix'];a=k*x+ox;b=k*y+oy;return Vector((M[0][0]*a+M[0][1]*b+M[0][2]-293425,M[1][0]*a+M[1][1]*b+M[1][2]-5499960,z))
 for name in r['closed_objects']:
@@ -34,4 +38,4 @@ for i,(u,v) in enumerate(route):
 for a,b in zip(route,route[1:]):
  hits=ray(uv(*a,UP+1.4),uv(*b,UP+1.4));row=dict(route_segment=[a,b],hits=hits);passages.append(row)
  if hits:fail.append(row)
-result=dict(file=r['file'],failures=fail,evaluated_solids=solids,portal_and_route_rays=passages,support_head_samples=support,old_west_straight_route_superseded=True,roof_study_unresolved=True,construction_acceptance=False);(B/'reports/R23_verification.json').write_text(json.dumps(result,indent=2),encoding='utf8');print(json.dumps(dict(solids=len(solids),failures=fail),indent=2));assert not fail,fail
+result=dict(file=r['file'],failures=fail,evaluated_solids=solids,portal_and_route_rays=passages,support_head_samples=support,old_west_straight_route_superseded=True,roof_study_unresolved=True,construction_acceptance=False);(B/'reports'/output_name).write_text(json.dumps(result,indent=2),encoding='utf8');print(json.dumps(dict(solids=len(solids),failures=fail),indent=2));assert not fail,fail

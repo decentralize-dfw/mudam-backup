@@ -1,0 +1,57 @@
+{
+  "rows": [
+    {
+      "t": 2.82,
+      "px": [
+        761,
+        941
+      ],
+      "inside_depth": -1.630023031808781,
+      "z": 0.22302940359582735
+    },
+    {
+      "t": 7.84,
+      "px": [
+        832,
+        953
+      ],
+      "inside_depth": -1.6706366549912617,
+      "z": 0.19480715366826118
+    },
+    {
+      "t": 12.87,
+      "px": [
+        908,
+        969
+      ],
+      "inside_depth": -1.5699822193023278,
+      "z": -0.08528949412692555
+    },
+    {
+      "t": 17.97,
+      "px": [
+        985,
+        984
+      ],
+      "inside_depth": -1.9984702445639897,
+      "z": -0.060026270204801335
+    },
+    {
+      "t": 23.01,
+      "px": [
+        1070,
+        1002
+      ],
+      "inside_depth": -1.8053748798422724,
+      "z": -0.3897741113868065
+    }
+  ],
+  "local_inside": [
+    -0.7059829049853722,
+    -0.7082288739301829,
+    0.0
+  ],
+  "assumption": "Bay-aligned window centers; manual pixel heads; unmeasured geometry",
+  "status": "rejected_bay_alignment_hypothesis",
+  "conclusion": "Bay-aligned centres imply exterior depth and inconsistent heads; insufficient evidence to place basement windows. A06 remains open."
+}

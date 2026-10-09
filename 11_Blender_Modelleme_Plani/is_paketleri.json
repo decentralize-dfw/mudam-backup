@@ -147,13 +147,13 @@
       "acceptance": "Açıklık ve boşluklar sürekli; taşıyıcı ile kaplama ayrı",
       "status": "in_progress",
       "open_issues": [
-        "026/033 ile metal başlık eklendi; 27 açıklık/başlık ışını ve R04 merdiven regresyonu geçti. Başlık kesiti, mutlak kot ve çatı eğimi koşullu. Net açıklık artık başlığın alt yüzünden tanımlanıyor; tam bina kabulü yok."
+        "23 açık yüzey kapatıldı; altı tavan ile üst döşeme kesimi merdiven nişiyle koordine edildi. Aynı sahnede yedi dolaşım regresyonu geçti. Görünüm kalınlıkları koşullu. Kapalı mesh, bütün bina çakışma/ölçü doğruluğu kabulü değildir."
       ],
       "updated": "2026-10-08",
       "dependency_mode": "regional_study_only_no_global_acceptance",
       "artifacts": [
-        "12_Blender_Model/scenes/MUDAM_R37_UST_GECIT_BASLIGI_v001.blend",
-        "12_Blender_Model/reports/R37_KONTROL_RAPORU.md"
+        "12_Blender_Model/scenes/MUDAM_R44_KAPALI_KABUKLAR_v004.blend",
+        "12_Blender_Model/reports/R44_KONTROL_RAPORU.md"
       ]
     },
     {
@@ -185,13 +185,13 @@
       "acceptance": "Rıht toplamı kot farkını kapatır; alt yüzey referansla tutarlı",
       "status": "in_progress",
       "open_issues": [
-        "Pavyonda taş parapet, alt döşeme ve 24 rıhtlı temsilî merdiven eklendi; dolaşım kontrolü geçti. Dönüş yönü/adedi, iç çekirdek, alt giriş ve bütün detay ölçüleri kesin değil."
+        "023/024 kaynaklı oyuk ve taş tutamak adayı; 64 duvar parçası aynı ön iz üzerinde sürekli kabuğa dönüştürüldü. 39 oyuk/tutamak örneği ve üst merdiven regresyonu geçti. Kesit, boyut ve üst bitiş adaydır. Döşemenin duvar içindeki çakışması yerel kesildi; taşıyıcı imalat çözümü değildir."
       ],
       "updated": "2026-10-08",
       "dependency_mode": "regional_study_only_no_global_acceptance",
       "artifacts": [
-        "12_Blender_Model/scenes/MUDAM_R25_PAVYON_MERDIVEN_v002.blend",
-        "12_Blender_Model/reports/R25_PAVYON_MERDIVEN_RAPORU.md"
+        "12_Blender_Model/scenes/MUDAM_R45_TAS_TUTAMAK_v005.blend",
+        "12_Blender_Model/reports/R45_KONTROL_RAPORU.md"
       ]
     },
     {
@@ -204,13 +204,13 @@
       "acceptance": "Silüet, bölüntü ve oturmalar çoklu görünüşte tutarlı",
       "status": "in_progress",
       "open_issues": [
-        "026/049 ile42 cam panel altında902 kapalı lamel hacmi; cam açıklığı ve panel sınırları denetlendi. Boyut/adım/açı aday. Gizli mekanizma ve045 kesin köşe kimliği açık; bütün çatı kabulü yok."
+        "116 yakın kırpımıyla dört yüzlü cam gövde/başlık ve opak etek; 12 cam, 8 etek paneli, 52 profil. Okuma alanı ve 24 askı kontrol edildi. Çerçeve kesiti, panel bölünmesi ve mutlak boyutlar aday. İç kare açıklık dış gövdenin ölçüsünü tek başına doğrulamaz."
       ],
       "updated": "2026-10-08",
       "dependency_mode": "regional_study_only_no_global_acceptance",
       "artifacts": [
-        "12_Blender_Model/scenes/MUDAM_R42_CATI_GUNES_KIRICI_v002.blend",
-        "12_Blender_Model/reports/R42_KONTROL_RAPORU.md"
+        "12_Blender_Model/scenes/MUDAM_R47_OKUMA_ISIKLIGI_v002.blend",
+        "12_Blender_Model/reports/R47_KONTROL_RAPORU.md"
       ]
     },
     {
@@ -263,11 +263,11 @@
       "acceptance": "Köşe dönüşü, fiziksel modül ve kesim sırası tutarlı",
       "status": "in_progress",
       "open_issues": [
-        "Üç döşemede ince derzli yüzey adayı;7340 nesnenin değerlendirilmiş geometrisi değişmedi. 0,90m modül,derz,yön ve malzeme görünümü ölçülmüş değil. Kot ve açıklıklar korundu."
+        "38 yüzey nesnesi: duvar boyunca sürekli UV ve derzsiz basamak taşı dokusu; değerlendirilmiş geometri birebir korundu. Taş rengi, tane, derz modülü ve pürüzlülük aday; gerçek malzeme numunesi veya blok imalatı değildir."
       ],
       "artifacts": [
-        "12_Blender_Model/scenes/MUDAM_R43_TAS_DOSEME_YUZEYI_v001.blend",
-        "12_Blender_Model/reports/R43_KONTROL_RAPORU.md"
+        "12_Blender_Model/scenes/MUDAM_R46_MERDIVEN_TAS_YUZEY_v002.blend",
+        "12_Blender_Model/reports/R46_KONTROL_RAPORU.md"
       ]
     },
     {
@@ -302,7 +302,7 @@
       "updated": "2026-10-08",
       "dependency_mode": "regional_checkpoint_no_global_acceptance",
       "artifacts": [
-        "12_Blender_Model/scenes/MUDAM_R43_TAS_DOSEME_YUZEYI_v001.blend",
+        "12_Blender_Model/scenes/MUDAM_R47_OKUMA_ISIKLIGI_v002.blend",
         "12_Blender_Model/reports/P19_P21_ONIZLEME_RAPORU.md"
       ]
     },
@@ -318,11 +318,11 @@
       "acceptance": "Tavan, döşeme, kapı ve sabit donanım kontrol edilmiş",
       "status": "in_progress",
       "open_issues": [
-        "Üç döşemede ince derzli yüzey adayı;7340 nesnenin değerlendirilmiş geometrisi değişmedi. 0,90m modül,derz,yön ve malzeme görünümü ölçülmüş değil. Kot ve açıklıklar korundu."
+        "38 yüzey nesnesi: duvar boyunca sürekli UV ve derzsiz basamak taşı dokusu; değerlendirilmiş geometri birebir korundu. Taş rengi, tane, derz modülü ve pürüzlülük aday; gerçek malzeme numunesi veya blok imalatı değildir."
       ],
       "artifacts": [
-        "12_Blender_Model/scenes/MUDAM_R43_TAS_DOSEME_YUZEYI_v001.blend",
-        "12_Blender_Model/reports/R43_KONTROL_RAPORU.md"
+        "12_Blender_Model/scenes/MUDAM_R46_MERDIVEN_TAS_YUZEY_v002.blend",
+        "12_Blender_Model/reports/R46_KONTROL_RAPORU.md"
       ]
     },
     {
@@ -338,13 +338,13 @@
       "acceptance": "Kanıtlı ayrıntılar ile temsilî bölgeler açıkça ayrılmış",
       "status": "in_progress",
       "open_issues": [
-        "Okuma odası/tavanı/24 kollu armatür; iki üst galeri, ışıklıkları, Studio ve asansör sahanlığı üretildi. Fotoğraf kimlikleri, kesin ölçüler ve sabit donanım eksikleri açık."
+        "116 yakın kırpımıyla dört yüzlü cam gövde/başlık ve opak etek; 12 cam, 8 etek paneli, 52 profil. Okuma alanı ve 24 askı kontrol edildi. Çerçeve kesiti, panel bölünmesi ve mutlak boyutlar aday. İç kare açıklık dış gövdenin ölçüsünü tek başına doğrulamaz."
       ],
       "updated": "2026-10-08",
       "dependency_mode": "regional_checkpoint_no_global_acceptance",
       "artifacts": [
-        "12_Blender_Model/scenes/MUDAM_R43_TAS_DOSEME_YUZEYI_v001.blend",
-        "12_Blender_Model/reports/P19_P21_ONIZLEME_RAPORU.md"
+        "12_Blender_Model/scenes/MUDAM_R47_OKUMA_ISIKLIGI_v002.blend",
+        "12_Blender_Model/reports/R47_KONTROL_RAPORU.md"
       ]
     },
     {
@@ -378,13 +378,13 @@
       "acceptance": "Doku ölçeği tutarlı; cam ve yansıma farklı açılarda testli",
       "status": "in_progress",
       "open_issues": [
-        "Şeffaf cam, koyu profiller, taş/ahşap UV adayları ve genel gündüz önizlemesi mevcut. Renk ve fiziksel ışık kalibrasyonu açık."
+        "116 yakın kırpımıyla dört yüzlü cam gövde/başlık ve opak etek; 12 cam, 8 etek paneli, 52 profil. Okuma alanı ve 24 askı kontrol edildi. Çerçeve kesiti, panel bölünmesi ve mutlak boyutlar aday. İç kare açıklık dış gövdenin ölçüsünü tek başına doğrulamaz."
       ],
       "updated": "2026-10-08",
       "dependency_mode": "regional_checkpoint_no_global_acceptance",
       "artifacts": [
-        "12_Blender_Model/scenes/MUDAM_R43_TAS_DOSEME_YUZEYI_v001.blend",
-        "12_Blender_Model/reports/P19_P21_ONIZLEME_RAPORU.md"
+        "12_Blender_Model/scenes/MUDAM_R47_OKUMA_ISIKLIGI_v002.blend",
+        "12_Blender_Model/reports/R47_KONTROL_RAPORU.md"
       ]
     },
     {
@@ -404,7 +404,7 @@
       "updated": "2026-10-08",
       "dependency_mode": "regional_checkpoint_no_global_acceptance",
       "artifacts": [
-        "12_Blender_Model/scenes/MUDAM_R43_TAS_DOSEME_YUZEYI_v001.blend",
+        "12_Blender_Model/scenes/MUDAM_R47_OKUMA_ISIKLIGI_v002.blend",
         "12_Blender_Model/reports/P19_P21_ONIZLEME_RAPORU.md"
       ]
     },
@@ -418,12 +418,12 @@
       "acceptance": "Birim/eksen/malzeme geri yüklemede doğru; performans ölçülmüş",
       "status": "in_progress",
       "open_issues": [
-        "6796 mesh / 770321 üçgen GLB aktarımı denetlendi; hedef motor ve sadeleştirme açık."
+        "6782 mesh / 775276 üçgen GLB aktarımı denetlendi; hedef motor ve sadeleştirme açık."
       ],
       "updated": "2026-10-08",
       "dependency_mode": "regional_checkpoint_no_global_acceptance",
       "artifacts": [
-        "12_Blender_Model/scenes/MUDAM_R43_TAS_DOSEME_YUZEYI_v001.blend",
+        "12_Blender_Model/scenes/MUDAM_R47_OKUMA_ISIKLIGI_v002.blend",
         "12_Blender_Model/reports/P19_P21_ONIZLEME_RAPORU.md"
       ]
     },
@@ -460,5 +460,5 @@
     "P20",
     "P21"
   ],
-  "latest_scene": "12_Blender_Model/scenes/MUDAM_R43_TAS_DOSEME_YUZEYI_v001.blend"
+  "latest_scene": "12_Blender_Model/scenes/MUDAM_R47_OKUMA_ISIKLIGI_v002.blend"
 }
