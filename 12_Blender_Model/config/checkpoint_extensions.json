@@ -1099,5 +1099,39 @@
     "image": "R90_after_south_glazing.png",
     "description": "Çerçevesiz tek cam temsilinin yerine 12 cam panel ve 9 metal çerçeve parçası üretildi. 51.914 yerel yüzey örneği ve yeniden açılan sahne kontrolleri geçti.",
     "limits": "Açıklık sınırları korundu. Sıra sayısı, profil ve cam kalınlıkları ölçülmemiş aday; bütün bina ve birleşim detayları kabulü açık."
+  },
+  {
+    "id": "R91",
+    "checks": [
+      "R91_verification.json",
+      "R91_inherited_verification.json",
+      "R91_global_audit.json"
+    ],
+    "tasks": [
+      "P07",
+      "P11"
+    ],
+    "report": "R91_KONTROL_RAPORU.md",
+    "title": "Batı uç duvar–cam çatı birleşimi / R91",
+    "image": "R91_after_west_end.png",
+    "description": "Eski çatı kotlarında kalan batı uç duvarının üst eğimi ve yüksek plan ucu mevcut cam çatıya bağlandı. 597 yerel birleşim kontrolü geçti.",
+    "limits": "200 mm taş üst payı adaydır. Kesin imalat kesiti ve tüm bina kabulü açık."
+  },
+  {
+    "id": "R92",
+    "checks": [
+      "R92_verification.json",
+      "R92_inherited_verification.json",
+      "R92_global_audit.json"
+    ],
+    "tasks": [
+      "P07",
+      "P16"
+    ],
+    "report": "R92_KONTROL_RAPORU.md",
+    "title": "Gereksiz bağımsız galeri bölmeleri kaldırıldı / R92",
+    "image": "R92_after_west_gallery.png",
+    "description": "Kullanıcının işaretlediği batı diyagonal bölmesi ve aynı yorumla eklenen doğu eşi kaldırıldı. 54 geçiş doğrultusu açık; zemin, tavan ve dış kabuk korundu.",
+    "limits": "Kalıcı duvar olduğu doğrulanmayan iki aday kaldırıldı. İdari/teknik hacimler ve kesin çatı biçimi kabulü açık."
   }
 ]

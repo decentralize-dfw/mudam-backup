@@ -1,0 +1,119 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R91_BATI_UC_DUVAR_CATI_v001.blend",
+  "base_scene": "MUDAM_R90_GUNEY_ATRIUM_CAM_CERCEVE_v001.blend",
+  "closed_objects": [
+    "P05_WEST_END"
+  ],
+  "changed_inherited_objects": [
+    "P05_WEST_END"
+  ],
+  "before_vertices": [
+    [
+      -42.15808868408203,
+      13.237784385681152,
+      0.0
+    ],
+    [
+      -33.35961151123047,
+      21.500295639038086,
+      0.0
+    ],
+    [
+      -33.35961151123047,
+      21.500295639038086,
+      13.923118591308594
+    ],
+    [
+      -42.15808868408203,
+      13.237784385681152,
+      5.659074783325195
+    ],
+    [
+      -42.276737213134766,
+      12.961747169494629,
+      0.0
+    ],
+    [
+      -33.277896881103516,
+      21.412416458129883,
+      0.0
+    ],
+    [
+      -33.277896881103516,
+      21.412416458129883,
+      13.923118591308594
+    ],
+    [
+      -42.276737213134766,
+      12.961747169494629,
+      5.659074783325195
+    ]
+  ],
+  "after_vertices": [
+    [
+      -42.15808868408203,
+      13.237784385681152,
+      0.0
+    ],
+    [
+      -33.71935272216797,
+      21.08467674255371,
+      0.0
+    ],
+    [
+      -33.71935272216797,
+      21.08467674255371,
+      9.918577194213867
+    ],
+    [
+      -42.15808868408203,
+      13.237784385681152,
+      3.1155502796173096
+    ],
+    [
+      -42.276737213134766,
+      12.961747169494629,
+      0.0
+    ],
+    [
+      -33.637638092041016,
+      20.996797561645508,
+      0.0
+    ],
+    [
+      -33.637638092041016,
+      20.996797561645508,
+      9.918577194213867
+    ],
+    [
+      -42.276737213134766,
+      12.961747169494629,
+      3.1155502796173096
+    ]
+  ],
+  "roof_endpoints": [
+    [
+      -42.15808868408203,
+      13.237784385681152,
+      2.9155502319335938
+    ],
+    [
+      -33.71935272216797,
+      21.08467674255371,
+      9.71857738494873
+    ]
+  ],
+  "candidate_head_clearance_m": 0.2,
+  "source_ids": [
+    "097",
+    "093",
+    "102"
+  ],
+  "construction_acceptance": false,
+  "limits": [
+    "097 supports a sloping stone end adjoining glass rather than the obsolete tall P05 silhouette.",
+    "Current registered P11 roof endpoints and candidate heights reused; no new survey dimension introduced.",
+    "200mm upstand is an explicit visualization candidate, not measured coping or flashing.",
+    "Low miter and ground elevations retained; high endpoint reconciled to the revised roof line."
+  ]
+}

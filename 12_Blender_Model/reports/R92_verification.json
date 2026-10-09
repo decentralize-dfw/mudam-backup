@@ -1,0 +1,552 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R92_GALERI_GEREKSIZ_BOLME_KALDIRMA_v001.blend",
+  "removed": [
+    "R28_W_DETACHED_ENTRY_WALL",
+    "R28_E_DETACHED_ENTRY_WALL"
+  ],
+  "retained_floor_and_ceiling": true,
+  "former_partition_samples": [
+    {
+      "removed_wall": "R28_W_DETACHED_ENTRY_WALL",
+      "point": [
+        -6.015251159667969,
+        23.368806838989258,
+        0.30000001192092896
+      ],
+      "height": 0.3,
+      "obstruction": null
+    },
+    {
+      "removed_wall": "R28_W_DETACHED_ENTRY_WALL",
+      "point": [
+        -6.015251159667969,
+        23.368806838989258,
+        1.2000000476837158
+      ],
+      "height": 1.2,
+      "obstruction": null
+    },
+    {
+      "removed_wall": "R28_W_DETACHED_ENTRY_WALL",
+      "point": [
+        -6.015251159667969,
+        23.368806838989258,
+        2.0999999046325684
+      ],
+      "height": 2.1,
+      "obstruction": null
+    },
+    {
+      "removed_wall": "R28_W_DETACHED_ENTRY_WALL",
+      "point": [
+        -7.231174468994141,
+        23.398151397705078,
+        0.30000001192092896
+      ],
+      "height": 0.3,
+      "obstruction": null
+    },
+    {
+      "removed_wall": "R28_W_DETACHED_ENTRY_WALL",
+      "point": [
+        -7.231174468994141,
+        23.398151397705078,
+        1.2000000476837158
+      ],
+      "height": 1.2,
+      "obstruction": null
+    },
+    {
+      "removed_wall": "R28_W_DETACHED_ENTRY_WALL",
+      "point": [
+        -7.231174468994141,
+        23.398151397705078,
+        2.0999999046325684
+      ],
+      "height": 2.1,
+      "obstruction": null
+    },
+    {
+      "removed_wall": "R28_W_DETACHED_ENTRY_WALL",
+      "point": [
+        -8.447098731994629,
+        23.427494049072266,
+        0.30000001192092896
+      ],
+      "height": 0.3,
+      "obstruction": null
+    },
+    {
+      "removed_wall": "R28_W_DETACHED_ENTRY_WALL",
+      "point": [
+        -8.447098731994629,
+        23.427494049072266,
+        1.2000000476837158
+      ],
+      "height": 1.2,
+      "obstruction": null
+    },
+    {
+      "removed_wall": "R28_W_DETACHED_ENTRY_WALL",
+      "point": [
+        -8.447098731994629,
+        23.427494049072266,
+        2.0999999046325684
+      ],
+      "height": 2.1,
+      "obstruction": null
+    },
+    {
+      "removed_wall": "R28_W_DETACHED_ENTRY_WALL",
+      "point": [
+        -9.663022994995117,
+        23.45684051513672,
+        0.30000001192092896
+      ],
+      "height": 0.3,
+      "obstruction": null
+    },
+    {
+      "removed_wall": "R28_W_DETACHED_ENTRY_WALL",
+      "point": [
+        -9.663022994995117,
+        23.45684051513672,
+        1.2000000476837158
+      ],
+      "height": 1.2,
+      "obstruction": null
+    },
+    {
+      "removed_wall": "R28_W_DETACHED_ENTRY_WALL",
+      "point": [
+        -9.663022994995117,
+        23.45684051513672,
+        2.0999999046325684
+      ],
+      "height": 2.1,
+      "obstruction": null
+    },
+    {
+      "removed_wall": "R28_W_DETACHED_ENTRY_WALL",
+      "point": [
+        -10.878946304321289,
+        23.486183166503906,
+        0.30000001192092896
+      ],
+      "height": 0.3,
+      "obstruction": null
+    },
+    {
+      "removed_wall": "R28_W_DETACHED_ENTRY_WALL",
+      "point": [
+        -10.878946304321289,
+        23.486183166503906,
+        1.2000000476837158
+      ],
+      "height": 1.2,
+      "obstruction": null
+    },
+    {
+      "removed_wall": "R28_W_DETACHED_ENTRY_WALL",
+      "point": [
+        -10.878946304321289,
+        23.486183166503906,
+        2.0999999046325684
+      ],
+      "height": 2.1,
+      "obstruction": null
+    },
+    {
+      "removed_wall": "R28_W_DETACHED_ENTRY_WALL",
+      "point": [
+        -12.094871520996094,
+        23.515525817871094,
+        0.30000001192092896
+      ],
+      "height": 0.3,
+      "obstruction": null
+    },
+    {
+      "removed_wall": "R28_W_DETACHED_ENTRY_WALL",
+      "point": [
+        -12.094871520996094,
+        23.515525817871094,
+        1.2000000476837158
+      ],
+      "height": 1.2,
+      "obstruction": null
+    },
+    {
+      "removed_wall": "R28_W_DETACHED_ENTRY_WALL",
+      "point": [
+        -12.094871520996094,
+        23.515525817871094,
+        2.0999999046325684
+      ],
+      "height": 2.1,
+      "obstruction": null
+    },
+    {
+      "removed_wall": "R28_W_DETACHED_ENTRY_WALL",
+      "point": [
+        -13.310794830322266,
+        23.544870376586914,
+        0.30000001192092896
+      ],
+      "height": 0.3,
+      "obstruction": null
+    },
+    {
+      "removed_wall": "R28_W_DETACHED_ENTRY_WALL",
+      "point": [
+        -13.310794830322266,
+        23.544870376586914,
+        1.2000000476837158
+      ],
+      "height": 1.2,
+      "obstruction": null
+    },
+    {
+      "removed_wall": "R28_W_DETACHED_ENTRY_WALL",
+      "point": [
+        -13.310794830322266,
+        23.544870376586914,
+        2.0999999046325684
+      ],
+      "height": 2.1,
+      "obstruction": null
+    },
+    {
+      "removed_wall": "R28_W_DETACHED_ENTRY_WALL",
+      "point": [
+        -14.526719093322754,
+        23.574216842651367,
+        0.30000001192092896
+      ],
+      "height": 0.3,
+      "obstruction": null
+    },
+    {
+      "removed_wall": "R28_W_DETACHED_ENTRY_WALL",
+      "point": [
+        -14.526719093322754,
+        23.574216842651367,
+        1.2000000476837158
+      ],
+      "height": 1.2,
+      "obstruction": null
+    },
+    {
+      "removed_wall": "R28_W_DETACHED_ENTRY_WALL",
+      "point": [
+        -14.526719093322754,
+        23.574216842651367,
+        2.0999999046325684
+      ],
+      "height": 2.1,
+      "obstruction": null
+    },
+    {
+      "removed_wall": "R28_W_DETACHED_ENTRY_WALL",
+      "point": [
+        -15.742642402648926,
+        23.603559494018555,
+        0.30000001192092896
+      ],
+      "height": 0.3,
+      "obstruction": null
+    },
+    {
+      "removed_wall": "R28_W_DETACHED_ENTRY_WALL",
+      "point": [
+        -15.742642402648926,
+        23.603559494018555,
+        1.2000000476837158
+      ],
+      "height": 1.2,
+      "obstruction": null
+    },
+    {
+      "removed_wall": "R28_W_DETACHED_ENTRY_WALL",
+      "point": [
+        -15.742642402648926,
+        23.603559494018555,
+        2.0999999046325684
+      ],
+      "height": 2.1,
+      "obstruction": null
+    },
+    {
+      "removed_wall": "R28_E_DETACHED_ENTRY_WALL",
+      "point": [
+        16.655935287475586,
+        -1.2766087055206299,
+        0.30000001192092896
+      ],
+      "height": 0.3,
+      "obstruction": null
+    },
+    {
+      "removed_wall": "R28_E_DETACHED_ENTRY_WALL",
+      "point": [
+        16.655935287475586,
+        -1.2766087055206299,
+        1.2000000476837158
+      ],
+      "height": 1.2,
+      "obstruction": null
+    },
+    {
+      "removed_wall": "R28_E_DETACHED_ENTRY_WALL",
+      "point": [
+        16.655935287475586,
+        -1.2766087055206299,
+        2.0999999046325684
+      ],
+      "height": 2.1,
+      "obstruction": null
+    },
+    {
+      "removed_wall": "R28_E_DETACHED_ENTRY_WALL",
+      "point": [
+        16.562829971313477,
+        -2.404714822769165,
+        0.30000001192092896
+      ],
+      "height": 0.3,
+      "obstruction": null
+    },
+    {
+      "removed_wall": "R28_E_DETACHED_ENTRY_WALL",
+      "point": [
+        16.562829971313477,
+        -2.404714822769165,
+        1.2000000476837158
+      ],
+      "height": 1.2,
+      "obstruction": null
+    },
+    {
+      "removed_wall": "R28_E_DETACHED_ENTRY_WALL",
+      "point": [
+        16.562829971313477,
+        -2.404714822769165,
+        2.0999999046325684
+      ],
+      "height": 2.1,
+      "obstruction": null
+    },
+    {
+      "removed_wall": "R28_E_DETACHED_ENTRY_WALL",
+      "point": [
+        16.4697265625,
+        -3.5328218936920166,
+        0.30000001192092896
+      ],
+      "height": 0.3,
+      "obstruction": null
+    },
+    {
+      "removed_wall": "R28_E_DETACHED_ENTRY_WALL",
+      "point": [
+        16.4697265625,
+        -3.5328218936920166,
+        1.2000000476837158
+      ],
+      "height": 1.2,
+      "obstruction": null
+    },
+    {
+      "removed_wall": "R28_E_DETACHED_ENTRY_WALL",
+      "point": [
+        16.4697265625,
+        -3.5328218936920166,
+        2.0999999046325684
+      ],
+      "height": 2.1,
+      "obstruction": null
+    },
+    {
+      "removed_wall": "R28_E_DETACHED_ENTRY_WALL",
+      "point": [
+        16.37662124633789,
+        -4.660927772521973,
+        0.30000001192092896
+      ],
+      "height": 0.3,
+      "obstruction": null
+    },
+    {
+      "removed_wall": "R28_E_DETACHED_ENTRY_WALL",
+      "point": [
+        16.37662124633789,
+        -4.660927772521973,
+        1.2000000476837158
+      ],
+      "height": 1.2,
+      "obstruction": null
+    },
+    {
+      "removed_wall": "R28_E_DETACHED_ENTRY_WALL",
+      "point": [
+        16.37662124633789,
+        -4.660927772521973,
+        2.0999999046325684
+      ],
+      "height": 2.1,
+      "obstruction": null
+    },
+    {
+      "removed_wall": "R28_E_DETACHED_ENTRY_WALL",
+      "point": [
+        16.283517837524414,
+        -5.789034843444824,
+        0.30000001192092896
+      ],
+      "height": 0.3,
+      "obstruction": null
+    },
+    {
+      "removed_wall": "R28_E_DETACHED_ENTRY_WALL",
+      "point": [
+        16.283517837524414,
+        -5.789034843444824,
+        1.2000000476837158
+      ],
+      "height": 1.2,
+      "obstruction": null
+    },
+    {
+      "removed_wall": "R28_E_DETACHED_ENTRY_WALL",
+      "point": [
+        16.283517837524414,
+        -5.789034843444824,
+        2.0999999046325684
+      ],
+      "height": 2.1,
+      "obstruction": null
+    },
+    {
+      "removed_wall": "R28_E_DETACHED_ENTRY_WALL",
+      "point": [
+        16.190414428710938,
+        -6.917141914367676,
+        0.30000001192092896
+      ],
+      "height": 0.3,
+      "obstruction": null
+    },
+    {
+      "removed_wall": "R28_E_DETACHED_ENTRY_WALL",
+      "point": [
+        16.190414428710938,
+        -6.917141914367676,
+        1.2000000476837158
+      ],
+      "height": 1.2,
+      "obstruction": null
+    },
+    {
+      "removed_wall": "R28_E_DETACHED_ENTRY_WALL",
+      "point": [
+        16.190414428710938,
+        -6.917141914367676,
+        2.0999999046325684
+      ],
+      "height": 2.1,
+      "obstruction": null
+    },
+    {
+      "removed_wall": "R28_E_DETACHED_ENTRY_WALL",
+      "point": [
+        16.097309112548828,
+        -8.045248985290527,
+        0.30000001192092896
+      ],
+      "height": 0.3,
+      "obstruction": null
+    },
+    {
+      "removed_wall": "R28_E_DETACHED_ENTRY_WALL",
+      "point": [
+        16.097309112548828,
+        -8.045248985290527,
+        1.2000000476837158
+      ],
+      "height": 1.2,
+      "obstruction": null
+    },
+    {
+      "removed_wall": "R28_E_DETACHED_ENTRY_WALL",
+      "point": [
+        16.097309112548828,
+        -8.045248985290527,
+        2.0999999046325684
+      ],
+      "height": 2.1,
+      "obstruction": null
+    },
+    {
+      "removed_wall": "R28_E_DETACHED_ENTRY_WALL",
+      "point": [
+        16.00420570373535,
+        -9.173355102539062,
+        0.30000001192092896
+      ],
+      "height": 0.3,
+      "obstruction": null
+    },
+    {
+      "removed_wall": "R28_E_DETACHED_ENTRY_WALL",
+      "point": [
+        16.00420570373535,
+        -9.173355102539062,
+        1.2000000476837158
+      ],
+      "height": 1.2,
+      "obstruction": null
+    },
+    {
+      "removed_wall": "R28_E_DETACHED_ENTRY_WALL",
+      "point": [
+        16.00420570373535,
+        -9.173355102539062,
+        2.0999999046325684
+      ],
+      "height": 2.1,
+      "obstruction": null
+    },
+    {
+      "removed_wall": "R28_E_DETACHED_ENTRY_WALL",
+      "point": [
+        15.911100387573242,
+        -10.301462173461914,
+        0.30000001192092896
+      ],
+      "height": 0.3,
+      "obstruction": null
+    },
+    {
+      "removed_wall": "R28_E_DETACHED_ENTRY_WALL",
+      "point": [
+        15.911100387573242,
+        -10.301462173461914,
+        1.2000000476837158
+      ],
+      "height": 1.2,
+      "obstruction": null
+    },
+    {
+      "removed_wall": "R28_E_DETACHED_ENTRY_WALL",
+      "point": [
+        15.911100387573242,
+        -10.301462173461914,
+        2.0999999046325684
+      ],
+      "height": 2.1,
+      "obstruction": null
+    }
+  ],
+  "failures": [],
+  "construction_acceptance": false
+}

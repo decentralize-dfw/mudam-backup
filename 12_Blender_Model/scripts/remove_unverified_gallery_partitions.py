@@ -1,0 +1,9 @@
+"""R92 honor the user's marked exclusion of detached ground-gallery partitions."""
+from pathlib import Path
+import bpy,json
+B=Path(__file__).resolve().parents[1];R=B.parent;base='MUDAM_R91_BATI_UC_DUVAR_CATI_v001.blend';out=B/'scenes/MUDAM_R92_GALERI_GEREKSIZ_BOLME_KALDIRMA_v001.blend';assert not out.exists()
+bpy.ops.wm.open_mainfile(filepath=str(B/'scenes'/base));removed=[]
+for name in ['R28_W_DETACHED_ENTRY_WALL','R28_E_DETACHED_ENTRY_WALL']:
+ o=bpy.data.objects[name];removed.append(dict(name=name,world_vertices=[list(o.matrix_world@v.co) for v in o.data.vertices],source_status=o.get('status',''),height_m=4.35));bpy.data.objects.remove(o,do_unlink=True)
+r=dict(file=out.relative_to(R).as_posix(),base_scene=base,closed_objects=[],changed_inherited_objects=[x['name'] for x in removed],removed_objects=removed,source_ids=['102','PDF2016','USER_MARKED_GROUND_GALLERY_2026_10_09'],construction_acceptance=False,limits=['User identified the west detached diagonal partition as unwanted; paired east partition came from the same unsupported permanent-wall classification.','Plan marks support the existence of a partition in that drawing, not its status as permanent building fabric. No claim that the drawing line does not exist.','Remove both candidate internal partitions from the current scene; external enclosure, floor, ceiling and upper-storey walls are retained.','R91 west end roof-joint correction is inherited.'])
+bpy.context.scene['stage']='R92 unverified detached ground-gallery partitions removed';bpy.context.scene['current_file']=out.name;bpy.data.texts.new('R92_SOURCE_AND_LIMITS').write(json.dumps(r,indent=2));bpy.ops.wm.save_as_mainfile(filepath=str(out),compress=True);(B/'reports/R92_build_report.json').write_text(json.dumps(r,indent=2));print('Removed',r['changed_inherited_objects'])

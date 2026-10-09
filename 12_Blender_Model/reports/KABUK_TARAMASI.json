@@ -1,5 +1,5 @@
 {
-  "file": "12_Blender_Model/scenes/MUDAM_R89_ALT_KAT_DOSEME_BIRLESIMI_v001.blend",
+  "file": "12_Blender_Model/scenes/MUDAM_R92_GALERI_GEREKSIZ_BOLME_KALDIRMA_v001.blend",
   "grid_canonical_px": 8,
   "total_samples": 6216,
   "summaries": [
@@ -18085,7 +18085,7 @@
         "distance": 0.05000000447034836
       },
       "cover_hit": {
-        "name": "R33_CEILING_SHOP",
+        "name": "R33_WALL_SHOP_S",
         "z": 4.349999904632568,
         "distance": 3.1499998569488525
       },
@@ -18522,9 +18522,9 @@
         "distance": 0.04999999701976776
       },
       "cover_hit": {
-        "name": "R33_CEILING_SHOP",
-        "z": 4.34999942779541,
-        "distance": 3.1499996185302734
+        "name": "R33_WALL_SHOP_S",
+        "z": 4.349999904632568,
+        "distance": 3.1499998569488525
       },
       "unclosed_side_directions": [],
       "floor_missing": false,
@@ -54466,12 +54466,12 @@
       ],
       "floor_z": 0,
       "floor_hit": {
-        "name": "R28_E_DETACHED_ENTRY_WALL",
-        "z": 3.725290298461914e-09,
-        "distance": 0.04999999701976776
+        "name": "P05_FLOOR_L00_E0",
+        "z": 0.0,
+        "distance": 0.05000000074505806
       },
       "cover_hit": {
-        "name": "R28_E_DETACHED_ENTRY_WALL",
+        "name": "R28_E_FLAT_CEILING",
         "z": 4.349999904632568,
         "distance": 3.1499998569488525
       },
@@ -55041,12 +55041,12 @@
       ],
       "floor_z": 0,
       "floor_hit": {
-        "name": "R28_E_DETACHED_ENTRY_WALL",
+        "name": "P05_FLOOR_L00_E0",
         "z": 0.0,
         "distance": 0.05000000074505806
       },
       "cover_hit": {
-        "name": "R28_E_DETACHED_ENTRY_WALL",
+        "name": "R28_E_FLAT_CEILING",
         "z": 4.349999904632568,
         "distance": 3.1499998569488525
       },
@@ -56587,9 +56587,9 @@
         "distance": 0.05000000074505806
       },
       "cover_hit": {
-        "name": "R28_E_DETACHED_ENTRY_WALL",
-        "z": 4.34999942779541,
-        "distance": 3.1499996185302734
+        "name": "R28_E_FLAT_CEILING",
+        "z": 4.350000381469727,
+        "distance": 3.1500000953674316
       },
       "unclosed_side_directions": [],
       "floor_missing": false,
@@ -56605,9 +56605,9 @@
       ],
       "floor_z": 0,
       "floor_hit": {
-        "name": "R28_E_DETACHED_ENTRY_WALL",
-        "z": 3.725290298461914e-09,
-        "distance": 0.04999999701976776
+        "name": "R28_E_CIRCULATION_FLOOR",
+        "z": 0.0,
+        "distance": 0.05000000074505806
       },
       "cover_hit": {
         "name": "R28_E_FLAT_CEILING",
@@ -127675,7 +127675,7 @@
       ],
       "floor_z": -3.83,
       "floor_hit": {
-        "name": "P05_ZONE_LM1_PAV",
+        "name": "R25_LOWER_PAVILION_FLOOR",
         "z": -3.831193685531616,
         "distance": 0.0511937141418457
       },
@@ -129078,7 +129078,7 @@
       ],
       "floor_z": -3.83,
       "floor_hit": {
-        "name": "R17_WALL_4",
+        "name": "P05_ZONE_LM1_PAV",
         "z": -3.831193685531616,
         "distance": 0.0511937141418457
       },
@@ -129377,7 +129377,7 @@
       ],
       "floor_z": -3.83,
       "floor_hit": {
-        "name": "R17_WALL_4",
+        "name": "P05_ZONE_LM1_PAV",
         "z": -3.831193685531616,
         "distance": 0.0511937141418457
       },
@@ -129630,7 +129630,7 @@
       ],
       "floor_z": -3.83,
       "floor_hit": {
-        "name": "R17_WALL_4",
+        "name": "P05_ZONE_LM1_PAV",
         "z": -3.831193685531616,
         "distance": 0.0511937141418457
       },
@@ -129837,7 +129837,7 @@
       ],
       "floor_z": -3.83,
       "floor_hit": {
-        "name": "R17_WALL_4",
+        "name": "P05_ZONE_LM1_PAV",
         "z": -3.831193685531616,
         "distance": 0.0511937141418457
       },
@@ -130113,7 +130113,7 @@
       ],
       "floor_z": -3.83,
       "floor_hit": {
-        "name": "R17_WALL_4",
+        "name": "P05_ZONE_LM1_PAV",
         "z": -3.831193685531616,
         "distance": 0.0511937141418457
       },
@@ -140946,9 +140946,9 @@
       ],
       "floor_z": 4.859074784676003,
       "floor_hit": {
-        "name": "R87_LANDING_SIDE_LOW",
+        "name": "R85_LANDING_INNER_WALL",
         "z": 4.859074592590332,
-        "distance": 0.05000019073486328
+        "distance": 0.05000018700957298
       },
       "cover_hit": {
         "name": "R87_LANDING_SIDE_HIGH",
@@ -142096,9 +142096,9 @@
       ],
       "floor_z": 4.859074784676003,
       "floor_hit": {
-        "name": "R23_WEST_RETURN_FLOOR_0",
+        "name": "R23_WEST_RETURN_FLOOR_1",
         "z": 4.859074592590332,
-        "distance": 0.05000018700957298
+        "distance": 0.05000019073486328
       },
       "cover_hit": {
         "name": "R85_RETURN_CEILING_0",
@@ -142124,9 +142124,9 @@
         "distance": 0.05000019073486328
       },
       "cover_hit": {
-        "name": "R85_RETURN_CEILING_0",
+        "name": "R85_RETURN_CEILING_1",
         "z": 8.059074401855469,
-        "distance": 1.9999994039535522
+        "distance": 1.9999995231628418
       },
       "unclosed_side_directions": [],
       "floor_missing": false,
@@ -142142,7 +142142,7 @@
       ],
       "floor_z": 4.859074784676003,
       "floor_hit": {
-        "name": "R23_WEST_RETURN_FLOOR_0",
+        "name": "R23_WEST_RETURN_FLOOR_1",
         "z": 4.859074592590332,
         "distance": 0.05000019073486328
       },
@@ -142165,12 +142165,12 @@
       ],
       "floor_z": 4.859074784676003,
       "floor_hit": {
-        "name": "R23_WEST_RETURN_FLOOR_0",
+        "name": "R23_WEST_RETURN_FLOOR_1",
         "z": 4.859074592590332,
-        "distance": 0.05000018700957298
+        "distance": 0.05000019073486328
       },
       "cover_hit": {
-        "name": "R85_RETURN_CEILING_0",
+        "name": "R85_RETURN_CEILING_1",
         "z": 8.059074401855469,
         "distance": 1.9999995231628418
       },
@@ -142188,9 +142188,9 @@
       ],
       "floor_z": 4.859074784676003,
       "floor_hit": {
-        "name": "R23_WEST_RETURN_FLOOR_0",
+        "name": "R23_WEST_RETURN_FLOOR_1",
         "z": 4.859074592590332,
-        "distance": 0.05000018700957298
+        "distance": 0.05000019073486328
       },
       "cover_hit": {
         "name": "R85_RETURN_CEILING_0",
@@ -142533,7 +142533,7 @@
       ],
       "floor_z": 4.859074784676003,
       "floor_hit": {
-        "name": "R23_WEST_RETURN_FLOOR_0",
+        "name": "R23_WEST_RETURN_FLOOR_1",
         "z": 4.859074592590332,
         "distance": 0.05000019073486328
       },
@@ -142556,7 +142556,7 @@
       ],
       "floor_z": 4.859074784676003,
       "floor_hit": {
-        "name": "R23_WEST_RETURN_FLOOR_0",
+        "name": "R23_WEST_RETURN_FLOOR_1",
         "z": 4.859074592590332,
         "distance": 0.05000019073486328
       },
@@ -142625,12 +142625,12 @@
       ],
       "floor_z": 4.859074784676003,
       "floor_hit": {
-        "name": "R23_WEST_RETURN_FLOOR_0",
+        "name": "R23_WEST_RETURN_FLOOR_1",
         "z": 4.859074592590332,
-        "distance": 0.05000018700957298
+        "distance": 0.05000019073486328
       },
       "cover_hit": {
-        "name": "R85_RETURN_CEILING_0",
+        "name": "R85_RETURN_CEILING_1",
         "z": 8.059074401855469,
         "distance": 1.9999995231628418
       },
@@ -142648,14 +142648,14 @@
       ],
       "floor_z": 4.859074784676003,
       "floor_hit": {
-        "name": "R23_WEST_RETURN_FLOOR_0",
+        "name": "R23_WEST_RETURN_FLOOR_1",
         "z": 4.859074592590332,
-        "distance": 0.05000019073486328
+        "distance": 0.05000018700957298
       },
       "cover_hit": {
-        "name": "R85_RETURN_CEILING_0",
+        "name": "R85_RETURN_CEILING_1",
         "z": 8.059074401855469,
-        "distance": 1.9999995231628418
+        "distance": 1.9999994039535522
       },
       "unclosed_side_directions": [],
       "floor_missing": false,
@@ -142671,12 +142671,12 @@
       ],
       "floor_z": 4.859074784676003,
       "floor_hit": {
-        "name": "R23_WEST_RETURN_FLOOR_0",
+        "name": "R23_WEST_RETURN_FLOOR_1",
         "z": 4.859074592590332,
         "distance": 0.05000019073486328
       },
       "cover_hit": {
-        "name": "R85_RETURN_CEILING_0",
+        "name": "R85_RETURN_CEILING_1",
         "z": 8.059074401855469,
         "distance": 1.9999995231628418
       },
