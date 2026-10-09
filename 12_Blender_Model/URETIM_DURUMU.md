@@ -310,3 +310,7 @@ Basamaklardan yapılan ek taramada sekiz cam kenarı kaçağı bulundu ve düzel
 ### R89 kapsam denetimi
 
 Diğer dört merdivende 590 konum ve 21.240 yanal ışın geçti. WC, vestiyer ve dükkân ayrı denetlendi. Toplam 33 bölge, 99.632 sık örnek ve 223.752 çok kotlu ışında eksik alt/üst örtü veya yanal kaçış bulunmadı. Bu sonuç kaynakta sınırı belirsiz idari/teknik alanları kapsamaz; bunlar bitmiş gösterilmiyor. [Kapsam kaydı](reports/R89_EK_KAPSAM_KONTROLU.md).
+
+
+2026-10-09 13:47:14 UTC — 9d0f19a92bb71474146f651419888547b48216ee origin/main normal push doğrulandı. Pano, renderlar, raporlar ve üretim betikleri gönderildi; Blender ve arşiv GLB dosyaları yerelde; tek güncel sıkıştırılmış web GLB gönderildi.
+
