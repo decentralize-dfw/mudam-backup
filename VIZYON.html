@@ -1,0 +1,718 @@
+<!doctype html><html lang="tr"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Mudam Virtual Experience</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400&display=swap">
+<style>
+/* Layout: tek kolon tipografik doküman; Mudam web dili — beyaz zemin, siyah metin, sarı vurgu bandı, kırmızı rakamlar. */
+:root{
+  --bg:#FFFFFF;
+  --surface:#F6F6F5;
+  --fg:#0A0A0A;
+  --muted:#595959;
+  --line:#E4E4E2;
+  --line-strong:#B9B9B6;
+  --accent:#E84A3B;    /* Mudam kırmızısı (logodaki "20" işareti) */
+  --accent-ink:#FFFFFF;
+  --yellow:#FFD900;    /* Mudam sarısı (site üst bandı) */
+  --yellow-ink:#0A0A0A;
+  --hl:#FFF4BF;
+  --chip:#EFEFED;
+  --sans:"Inter", "Helvetica Neue", Arial, sans-serif;
+  --label:"Inter", "Helvetica Neue", Arial, sans-serif;
+  --l-glass:#FFE25A; --l-roof:#ECECEA; --l-stone:#DBDBD8; --l-struct:#C8C8C5; --l-fort:#A6A6A2;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#0F0F0E; --surface:#1B1B1A; --fg:#F4F4F2; --muted:#9D9D9A; --line:#2D2D2B; --line-strong:#565652;
+    --accent:#F2614F; --accent-ink:#1A0D0B; --yellow:#F5CE00; --yellow-ink:#0A0A0A; --hl:#34300F; --chip:#272726;
+    --l-glass:#E3C219; --l-roof:#3E3E3C; --l-stone:#4C4C49; --l-struct:#353533; --l-fort:#252524;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#0F0F0E; --surface:#1B1B1A; --fg:#F4F4F2; --muted:#9D9D9A; --line:#2D2D2B; --line-strong:#565652;
+  --accent:#F2614F; --accent-ink:#1A0D0B; --yellow:#F5CE00; --yellow-ink:#0A0A0A; --hl:#34300F; --chip:#272726;
+  --l-glass:#E3C219; --l-roof:#3E3E3C; --l-stone:#4C4C49; --l-struct:#353533; --l-fort:#252524;
+  color-scheme: dark;
+}
+*{box-sizing:border-box}
+body{
+  background:var(--bg); color:var(--fg);
+  font:16px/1.65 var(--sans);
+  margin:0; padding-inline:20px; padding-block:0 72px;
+}
+#top{max-width:860px; margin:0 auto}
+h1,h2,h3{font-family:var(--sans); font-weight:700; letter-spacing:-0.015em; line-height:1.12; text-wrap:balance; margin:0}
+.mono{font-family:var(--label)}
+
+/* dil anahtarı */
+#top[data-lang="tr"] .en{display:none}
+#top[data-lang="en"] .tr{display:none}
+
+/* üst çubuk */
+.bar{
+  position:sticky; top:env(safe-area-inset-top, 0px); z-index:10;
+  display:flex; align-items:center; gap:16px; flex-wrap:wrap;
+  background:var(--bg); border-bottom:1px solid var(--line);
+  padding:12px 0; margin-bottom:40px;
+}
+.brand{font-family:var(--sans); font-weight:800; font-size:15px; letter-spacing:.01em; text-transform:uppercase}
+.bar nav{display:flex; gap:14px; flex-wrap:wrap; font-size:13px}
+.bar nav a{color:var(--fg); text-decoration:none}
+.bar nav a:hover{text-decoration:underline; text-underline-offset:3px}
+.lang{margin-left:auto; display:flex; border:1px solid var(--line-strong); border-radius:3px; overflow:hidden}
+.lang button{
+  font:12px var(--label); letter-spacing:.06em; cursor:pointer;
+  background:transparent; color:var(--muted); border:0; padding:5px 10px;
+}
+.lang button[aria-pressed="true"]{background:var(--fg); color:var(--bg)}
+.lang button:focus-visible{outline:2px solid var(--accent); outline-offset:-2px}
+
+/* hero */
+.eyebrow{font-family:var(--label); font-size:12px; letter-spacing:.14em; text-transform:uppercase; color:var(--accent)}
+.hero h1{font-size:clamp(34px,6vw,54px); font-weight:700; margin:14px 0 18px}
+.lede{font-size:18px; max-width:62ch; color:var(--fg)}
+.lede em{font-style:normal; background:var(--yellow); color:var(--yellow-ink); padding:0 3px; -webkit-box-decoration-break:clone; box-decoration-break:clone}
+.status{
+  margin-top:28px; border:1px solid var(--line); background:var(--surface);
+  display:flex; gap:10px 28px; flex-wrap:wrap; padding:12px 16px; font-size:13px;
+}
+.status b{font-weight:600}
+.status .k{color:var(--muted); font-family:var(--label); font-size:11px; letter-spacing:.08em; text-transform:uppercase; display:block}
+
+section{margin-top:72px}
+.sec-head{display:flex; align-items:baseline; gap:14px; border-bottom:2px solid var(--fg); padding-bottom:10px; margin-bottom:28px}
+.sec-head .no{font-family:var(--label); font-size:13px; color:var(--accent)}
+.sec-head h2{font-size:clamp(22px,3.4vw,30px); font-weight:700}
+.sec-intro{max-width:66ch; color:var(--muted); margin:0 0 28px}
+
+/* gezinme modları */
+.modes{display:grid; grid-template-columns:repeat(auto-fit,minmax(230px,1fr)); gap:14px}
+.mode{border:1px solid var(--line); background:var(--surface); padding:18px}
+.mode svg{display:block; margin-bottom:12px; color:var(--fg)}
+.mode h3{font-size:16px; margin-bottom:6px}
+.mode p{margin:0; font-size:14px; color:var(--muted)}
+.principles{margin:26px 0 0; padding:0; list-style:none; display:flex; flex-wrap:wrap; gap:8px}
+.principles li{font:12.5px var(--label); border:1px solid var(--line-strong); border-radius:999px; padding:5px 12px; color:var(--muted)}
+
+/* program başlıkları */
+.pillar{border-top:1px solid var(--line); padding-top:30px; margin-top:44px}
+.pillar:first-of-type{border-top:0; margin-top:0; padding-top:0}
+.p-head{display:flex; align-items:baseline; gap:14px; flex-wrap:wrap}
+.p-no{font-family:var(--label); font-size:14px; color:var(--accent); min-width:30px}
+.p-head h3{font-size:21px; font-weight:600}
+.chips{display:flex; gap:6px; flex-wrap:wrap; margin-left:auto}
+.chip{font:11px var(--label); letter-spacing:.05em; background:var(--chip); color:var(--muted); padding:4px 9px; border-radius:2px; white-space:nowrap}
+.chip.phase{background:var(--fg); color:var(--bg)}
+.pillar>p{max-width:68ch; margin:14px 0 0}
+.pillar ul{margin:18px 0 0; padding-left:0; list-style:none; display:grid; gap:10px}
+.pillar ul li{padding-left:22px; position:relative; max-width:72ch}
+.pillar ul li::before{content:""; position:absolute; left:0; top:.62em; width:10px; height:2px; background:var(--fg)}
+.pillar ul b{font-weight:600}
+.scenario{
+  margin-top:20px; border-left:3px solid var(--yellow-ink); background:var(--yellow);
+  color:var(--yellow-ink); padding:12px 16px; font-size:14.5px; max-width:70ch;
+}
+.scenario .k{font-family:var(--label); font-size:11px; letter-spacing:.1em; text-transform:uppercase; color:var(--yellow-ink); display:block; margin-bottom:4px}
+
+/* izometrik diyagram */
+.iso-wrap{border:1px solid var(--line); background:var(--surface); padding:22px 10px 8px; margin-top:26px; overflow-x:auto}
+.iso-wrap svg{display:block; margin:0 auto; min-width:560px; max-width:680px; width:100%; height:auto}
+.iso-cap{font-size:12.5px; color:var(--muted); text-align:center; padding:10px 14px 12px; margin:0}
+
+/* yol haritası */
+.phases{display:grid; gap:0; border:1px solid var(--line); background:var(--surface)}
+.phase-row{display:grid; grid-template-columns:110px 1fr; gap:16px; padding:16px 18px; border-top:1px solid var(--line)}
+.phase-row:first-child{border-top:0}
+.phase-row .tag{font-family:var(--label); font-size:12px; color:var(--accent); padding-top:3px}
+.phase-row h3{font-size:15.5px; font-weight:600; margin-bottom:4px}
+.phase-row p{margin:0; font-size:14px; color:var(--muted); max-width:62ch}
+.phase-row.now{background:linear-gradient(90deg, var(--hl), transparent 70%)}
+@media (max-width:560px){ .phase-row{grid-template-columns:1fr} .phase-row .tag{padding-top:0} }
+
+/* değer kartları */
+.values{display:grid; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); gap:14px}
+.value{border-top:2px solid var(--fg); padding-top:12px}
+.value h3{font-size:15.5px; margin-bottom:6px}
+.value p{margin:0; font-size:14px; color:var(--muted)}
+
+/* teknik mimari */
+.tech{display:grid; gap:16px}
+.tech-block{border:1px solid var(--line); background:var(--surface); padding:18px 20px}
+.tech-block>h3{font-size:16.5px; margin-bottom:12px}
+.tech-block>h3 .tno{font-family:var(--label); font-size:12px; color:var(--accent); margin-right:10px}
+.tech-block ul{margin:0; padding:0; list-style:none; display:grid; gap:9px}
+.tech-block li{padding-left:20px; position:relative; font-size:14.5px; max-width:76ch}
+.tech-block li::before{content:""; position:absolute; left:0; top:.62em; width:8px; height:2px; background:var(--line-strong)}
+.tech-block li b{font-weight:600}
+.stack{display:grid; gap:6px}
+.stack .row{display:grid; grid-template-columns:132px 1fr; gap:14px; border:1px solid var(--line); background:var(--bg); padding:10px 12px}
+.stack .row>b{font:500 11px var(--label); letter-spacing:.07em; text-transform:uppercase; color:var(--accent); padding-top:3px}
+.stack .row>div{font-size:14px}
+.stack .row small{display:block; color:var(--muted); font-size:12.5px; margin-top:2px}
+@media (max-width:560px){ .stack .row{grid-template-columns:1fr} }
+.tbl-wrap{overflow-x:auto}
+table.budget{border-collapse:collapse; width:100%; font-size:14px; min-width:460px}
+.budget th,.budget td{border:1px solid var(--line); padding:9px 12px; text-align:left; vertical-align:top}
+.budget th{font:600 11px var(--label); letter-spacing:.07em; text-transform:uppercase; color:var(--muted); background:var(--chip)}
+.budget td.num{font-variant-numeric:tabular-nums}
+.budget td small{color:var(--muted)}
+
+footer{margin-top:88px; border-top:1px solid var(--line); padding-top:18px; font-size:13px; color:var(--muted); display:flex; gap:16px; flex-wrap:wrap; justify-content:space-between}
+
+@media (prefers-reduced-motion: no-preference){
+  html{scroll-behavior:smooth}
+}
+</style>
+
+<div id="top" data-lang="tr">
+
+<header class="bar">
+  <span class="brand">MUDAM&nbsp;·&nbsp;VX</span>
+  <nav>
+    <a href="#platform"><span class="tr">Platform</span><span class="en">Platform</span></a>
+    <a href="#program"><span class="tr">Program</span><span class="en">Programme</span></a>
+    <a href="#yol"><span class="tr">Yol haritası</span><span class="en">Roadmap</span></a>
+    <a href="#teknik"><span class="tr">Teknik</span><span class="en">Tech</span></a>
+    <a href="#deger"><span class="tr">Değer</span><span class="en">Value</span></a>
+  </nav>
+  <div class="lang" role="group" aria-label="Language">
+    <button id="btn-tr" aria-pressed="true">TR</button>
+    <button id="btn-en" aria-pressed="false">EN</button>
+  </div>
+</header>
+
+<div class="hero">
+  <span class="eyebrow mono"><span class="tr">Konsept Notu — Ekim 2026</span><span class="en">Concept Note — October 2026</span></span>
+  <h1><span class="tr">Mudam için bir sanal deneyim</span><span class="en">A virtual experience for Mudam</span></h1>
+  <p class="lede tr">I. M. Pei'nin binası, güncel koleksiyon ve sergi arşivi — hepsi <em>tek bir gezilebilir 3B platformda</em>. Odalar ve katlar kat-kesit izometrikten, birinci şahıs yürüyüşle ya da plandan incelenir; herkes, her yerden, tarayıcıdan girer.</p>
+  <p class="lede en">I. M. Pei's building, the current collection and the exhibition archive — all in <em>one walkable 3D platform</em>. Rooms and floors can be explored as cut-away isometrics, on foot in first person, or from the plan; anyone enters from a browser, anywhere.</p>
+  <div class="status">
+    <div><span class="k tr">Durum</span><span class="k en">Status</span><b class="tr">Bina modelleniyor</b><b class="en">Building being modelled</b></div>
+    <div><span class="k tr">Temel</span><span class="k en">Foundation</span><span class="tr">Ölçekli plan/kesit arşivi + 105 fotoğraflık konum atlası</span><span class="en">Scaled plan/section archive + 105-photo location atlas</span></div>
+    <div><span class="k tr">Hedef</span><span class="k en">Goal</span><span class="tr">Mudam'a sunulacak çalışan demo</span><span class="en">A working demo to present to Mudam</span></div>
+  </div>
+</div>
+
+<section id="platform">
+  <div class="sec-head"><span class="no">A</span><h2><span class="tr">Platform: tek model, üç bakış</span><span class="en">Platform: one model, three views</span></h2></div>
+  <p class="sec-intro tr">Her içerik aynı modelin üzerinde yaşar. Ziyaretçi istediği an bakış değiştirir; bulunduğu nokta üç görünüm arasında korunur.</p>
+  <p class="sec-intro en">All content lives on the same model. Visitors switch views at any moment; their position carries over between the three.</p>
+  <div class="modes">
+    <div class="mode">
+      <svg width="44" height="44" viewBox="0 0 44 44" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true">
+        <path d="M22 3 38 11v9L22 28 6 20v-9z"/><path d="M22 3v25M6 11l16 8 16-8"/>
+        <path d="M6 26v7l16 8 16-8v-7" stroke-dasharray="3 3"/>
+      </svg>
+      <h3><span class="tr">Kat-kesit izometrik</span><span class="en">Cut-away isometric</span></h3>
+      <p class="tr">Çatı kalkar, katlar ayrışır; bina bir maket gibi döndürülür. Oda oda genel bakış.</p>
+      <p class="en">The roof lifts, floors separate; the building turns like a model. A room-by-room overview.</p>
+    </div>
+    <div class="mode">
+      <svg width="44" height="44" viewBox="0 0 44 44" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true">
+        <rect x="4" y="4" width="36" height="36"/><path d="M4 4l13 11M40 4L27 15M4 40l13-9M40 40l-13-9"/><rect x="17" y="15" width="10" height="16"/>
+      </svg>
+      <h3><span class="tr">Birinci şahıs yürüyüş</span><span class="en">First-person walk</span></h3>
+      <p class="tr">Göz hizasından, gerçek ölçekte gezinti. Mekân hissi, sesli tur ve eserlerle karşılaşma burada.</p>
+      <p class="en">Eye-level movement at true scale. Spatial feel, audio tours and encounters with works happen here.</p>
+    </div>
+    <div class="mode">
+      <svg width="44" height="44" viewBox="0 0 44 44" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true">
+        <rect x="5" y="5" width="34" height="34"/><path d="M5 22h18M23 5v34M23 22h16M31 22v17"/><path d="M14 22a7 7 0 0 1 7 7" stroke-dasharray="2.5 2.5"/>
+      </svg>
+      <h3><span class="tr">Plan görünümü</span><span class="en">Plan view</span></h3>
+      <p class="tr">Yönelim ve rota: hangi galeride ne var, sergi rotası nereden geçiyor. Tek dokunuşla o noktaya inilir.</p>
+      <p class="en">Orientation and routing: what is in which gallery, where a route passes. One tap drops you into that spot.</p>
+    </div>
+  </div>
+  <ul class="principles">
+    <li class="tr">tarayıcıda çalışır, kurulum yok</li><li class="en">runs in the browser, no install</li>
+    <li class="tr">her nesne tıklanabilir</li><li class="en">every object is clickable</li>
+    <li class="tr">çok dilli (FR·DE·EN·LB…)</li><li class="en">multilingual (FR·DE·EN·LB…)</li>
+    <li class="tr">VR destekli, VR zorunlu değil</li><li class="en">VR-ready, never VR-only</li>
+    <li class="tr">mobil ve düşük bant modu</li><li class="en">mobile &amp; low-bandwidth mode</li>
+  </ul>
+</section>
+
+<section id="program">
+  <div class="sec-head"><span class="no">B</span><h2><span class="tr">Program: dokuz başlık</span><span class="en">Programme: nine strands</span></h2></div>
+  <p class="sec-intro tr">İlk dördü çekirdek vizyon; 05–09 bu çekirdeğin üzerine kurulan, platformu müze için vazgeçilmez kılan katmanlar.</p>
+  <p class="sec-intro en">The first four are the core vision; 05–09 build on that core and make the platform indispensable to the museum.</p>
+
+  <article class="pillar" id="p1">
+    <div class="p-head">
+      <span class="p-no">01</span>
+      <h3><span class="tr">Mimari anlatım — Pei'yi katman katman okumak</span><span class="en">Architecture — reading Pei layer by layer</span></h3>
+      <div class="chips"><span class="chip tr">ziyaretçi</span><span class="chip en">public</span><span class="chip phase tr">Faz 1</span><span class="chip phase en">Phase 1</span></div>
+    </div>
+    <p class="tr">Bina, koleksiyonun ilk eseri gibi ele alınır. I. M. Pei'nin geç dönem yapıtı Mudam, 1732 tarihli Thüngen Kalesi'nin ok ucu biçimli tabyası üzerine oturur; cam kanopiler, bal rengi Magny kireçtaşı ve 45°'lik geometri bu izleri sürer. Sanal deneyim bu hikâyeyi sökerek anlatır.</p>
+    <p class="en">The building is treated as the first work in the collection. A late masterwork by I. M. Pei, Mudam sits on the arrow-head bastion of the 1732 Fort Thüngen; its glass canopies, honey-coloured Magny limestone and 45° geometry trace those lines. The virtual experience tells this story by taking the building apart.</p>
+
+    <div class="iso-wrap">
+      <svg viewBox="0 0 640 540" role="img" aria-label="Exploded isometric layer diagram">
+        <style>
+          .lbl{font:500 13px var(--label); fill:var(--fg)}
+          .sub{font:400 11px var(--label); fill:var(--muted)}
+          .lead{stroke:var(--line-strong); stroke-width:1}
+          .slab{stroke:var(--line-strong); stroke-width:1}
+        </style>
+        <!-- 1 cam kanopi -->
+        <g>
+          <path class="slab" fill="var(--l-glass)" d="M170 15 300 80 170 145 40 80Z"/>
+          <path class="slab" fill="var(--l-glass)" opacity=".75" d="M40 80 170 145 170 157 40 92Z"/>
+          <path class="slab" fill="var(--l-glass)" opacity=".55" d="M300 80 170 145 170 157 300 92Z"/>
+          <path class="lead" fill="none" d="M300 80 H352"/>
+          <text class="lbl" x="360" y="78"><tspan class="tr">Cam kanopiler</tspan><tspan class="en">Glass canopies</tspan></text>
+          <text class="sub" x="360" y="95"><tspan class="tr">Grand Hall örtüsü, çelik taşıyıcı</tspan><tspan class="en">Grand Hall roof, steel frame</tspan></text>
+        </g>
+        <!-- 2 çatı kütleleri -->
+        <g>
+          <path class="slab" fill="var(--l-roof)" d="M170 125 300 190 170 255 40 190Z"/>
+          <path class="slab" fill="var(--l-roof)" opacity=".75" d="M40 190 170 255 170 269 40 204Z"/>
+          <path class="slab" fill="var(--l-roof)" opacity=".55" d="M300 190 170 255 170 269 300 204Z"/>
+          <path class="lead" fill="none" d="M300 190 H352"/>
+          <text class="lbl" x="360" y="188"><tspan class="tr">Çatı kütleleri</tspan><tspan class="en">Roof volumes</tspan></text>
+          <text class="sub" x="360" y="205"><tspan class="tr">Kule ve pavyon örtüleri</tspan><tspan class="en">Tower and pavilion caps</tspan></text>
+        </g>
+        <!-- 3 galeriler -->
+        <g>
+          <path class="slab" fill="var(--l-stone)" d="M170 235 300 300 170 365 40 300Z"/>
+          <path class="slab" fill="var(--l-stone)" opacity=".75" d="M40 300 170 365 170 383 40 318Z"/>
+          <path class="slab" fill="var(--l-stone)" opacity=".55" d="M300 300 170 365 170 383 300 318Z"/>
+          <path class="lead" fill="none" d="M300 300 H352"/>
+          <text class="lbl" x="360" y="298"><tspan class="tr">Galeri katları + taş kabuk</tspan><tspan class="en">Gallery floors + stone shell</tspan></text>
+          <text class="sub" x="360" y="315"><tspan class="tr">Üç kat, Magny kireçtaşı cephe</tspan><tspan class="en">Three levels, Magny limestone skin</tspan></text>
+        </g>
+        <!-- 4 taşıyıcı -->
+        <g>
+          <path class="slab" fill="var(--l-struct)" d="M170 352 300 417 170 482 40 417Z"/>
+          <path class="slab" fill="var(--l-struct)" opacity=".75" d="M40 417 170 482 170 494 40 429Z"/>
+          <path class="slab" fill="var(--l-struct)" opacity=".55" d="M300 417 170 482 170 494 300 429Z"/>
+          <path class="lead" fill="none" d="M300 417 H352"/>
+          <text class="lbl" x="360" y="407"><tspan class="tr">Taşıyıcı sistem</tspan><tspan class="en">Structure</tspan></text>
+          <text class="sub" x="360" y="424"><tspan class="tr">Betonarme iskelet, röntgen modu</tspan><tspan class="en">Concrete frame, x-ray mode</tspan></text>
+        </g>
+        <!-- 5 kale -->
+        <g>
+          <path class="slab" fill="var(--l-fort)" d="M170 452 240 487 300 517 170 530 40 517 100 487Z" opacity=".95"/>
+          <path class="lead" fill="none" d="M300 517 H352"/>
+          <text class="lbl" x="360" y="500"><tspan class="tr">Thüngen tabyası, 1732</tspan><tspan class="en">Fort Thüngen bastion, 1732</tspan></text>
+          <text class="sub" x="360" y="517"><tspan class="tr">Kale duvarları ve temel izleri</tspan><tspan class="en">Rampart walls and footprint</tspan></text>
+        </g>
+      </svg>
+      <p class="iso-cap tr">Patlatılmış katman görünümü (şematik) — her katman seçilebilir, sesli anlatımla açılır.</p>
+      <p class="iso-cap en">Exploded layer view (schematic) — each layer is selectable and narrated.</p>
+    </div>
+
+    <ul>
+      <li class="tr"><b>Katman ayrıştırma:</b> tek hareketle bina katmanlarına ayrılır — kanopiler, çatılar, taş kabuk, taşıyıcı, kale duvarları. Her katmanın kendi anlatım metni ve sesi var.</li>
+      <li class="en"><b>Layer breakdown:</b> one gesture splits the building into its layers — canopies, roofs, stone shell, structure, fortress walls. Each layer carries its own text and narration.</li>
+      <li class="tr"><b>Geometri turu:</b> Pei'nin 45° düzeni, ok ucu planın kale izini nasıl izlediği, Grand Hall kanopisinin kurgusu; plan–kesit–model senkron görünümle anlatılır.</li>
+      <li class="en"><b>Geometry tour:</b> Pei's 45° order, how the arrow-head plan follows the fort's trace, the logic of the Grand Hall canopy — told with synchronised plan–section–model views.</li>
+      <li class="tr"><b>Sesli mimar turu:</b> konuma duyarlı (spatial audio) anlatım; arşiv fotoğrafları ve şantiye görüntüleri mekâna iğnelenir, durduğun yerden geçmişe bakarsın.</li>
+      <li class="en"><b>Narrated architect tour:</b> position-aware spatial audio; archive photos and construction images are pinned in space, so you look into the past from where you stand.</li>
+      <li class="tr"><b>Malzeme kütüphanesi:</b> Magny kireçtaşı, cam, çelik — dokunulan yüzeyin yakın çekim dokusu, kökeni ve detay çizimi açılır.</li>
+      <li class="en"><b>Material library:</b> Magny limestone, glass, steel — touching a surface opens its close-up texture, origin and detail drawing.</li>
+      <li class="tr"><b>Zaman makinesi:</b> aynı kamera açısında 1732 tabya → 19. yüzyıl sökümü → 2006 müze; kalenin yapıya nasıl gömüldüğü görünür kılınır.</li>
+      <li class="en"><b>Time machine:</b> from the same camera, 1732 bastion → 19th-century demolition → 2006 museum; how the fort is embedded in the building becomes visible.</li>
+      <li class="tr"><b>Strüktür röntgeni:</b> taşıyıcıyı gösteren x-ray modu, yük akışının sade animasyonu.</li>
+      <li class="en"><b>Structural x-ray:</b> an x-ray mode revealing the frame, with a simple load-path animation.</li>
+    </ul>
+    <p class="scenario"><span class="k tr">Örnek an</span><span class="k en">Sample moment</span><span class="tr">Ziyaretçi Grand Hall'da yukarı bakar, kanopiyi havada söker, çeliği izler, taş kabuğa döner — beş dakikada binayı "okumuş" olur.</span><span class="en">A visitor looks up in the Grand Hall, lifts the canopy apart in mid-air, follows the steel, returns to the stone shell — and has "read" the building in five minutes.</span></p>
+  </article>
+
+  <article class="pillar" id="p2">
+    <div class="p-head">
+      <span class="p-no">02</span>
+      <h3><span class="tr">Yaşayan koleksiyon</span><span class="en">The living collection</span></h3>
+      <div class="chips"><span class="chip tr">ziyaretçi</span><span class="chip en">public</span><span class="chip phase tr">Faz 2</span><span class="chip phase en">Phase 2</span></div>
+    </div>
+    <p class="tr">Platform, müzenin güncel asılışının dijital aynasıdır: hangi eser hangi duvardaysa sanal mekânda da oradadır. Böylece site bir broşür değil, müzenin kendisiyle eşzamanlı yaşayan bir kopyası olur.</p>
+    <p class="en">The platform mirrors the museum's current hang: whatever hangs on a wall hangs there virtually too. The site stops being a brochure and becomes a living copy, in sync with the museum itself.</p>
+    <ul>
+      <li class="tr"><b>Galeri-gerçek yerleşim:</b> güncel sergiler birebir konumuyla; her eserde kimlik kartı — sanatçı, yıl, teknik, provenans, sergi geçmişi, medya.</li>
+      <li class="en"><b>Gallery-true placement:</b> current exhibitions in their exact positions; every work carries an ID card — artist, year, medium, provenance, exhibition history, media.</li>
+      <li class="tr"><b>Küratör sesi:</b> küratör yorumları ve tematik rotalar ("30 dakikada öne çıkanlar", tek sanatçıya derin dalış).</li>
+      <li class="en"><b>Curator's voice:</b> curatorial commentary and themed routes ("highlights in 30 minutes", a deep dive into one artist).</li>
+      <li class="tr"><b>Yakından bakış:</b> 2B işlerde yüksek çözünürlüklü deep-zoom; heykel ve enstalasyonlarda fotogrametrik 3B tarama.</li>
+      <li class="en"><b>Up close:</b> high-resolution deep zoom for 2D works; photogrammetric 3D scans for sculpture and installation.</li>
+      <li class="tr"><b>Sürekli güncel:</b> her yeni asılışta platform güncellenir; biten asılış otomatik olarak arşive düşer (03 ile bağlantı).</li>
+      <li class="en"><b>Always current:</b> the platform updates with every rehang; the previous hang drops automatically into the archive (feeding 03).</li>
+      <li class="tr"><b>Ziyarete köprü:</b> beğenilen eserlerden kişisel rota; fiziksel ziyarette mobilde devam eder.</li>
+      <li class="en"><b>Bridge to the visit:</b> a personal route built from saved works, continued on mobile during the physical visit.</li>
+    </ul>
+  </article>
+
+  <article class="pillar" id="p3">
+    <div class="p-head">
+      <span class="p-no">03</span>
+      <h3><span class="tr">3B arşiv — sergi tarihinin hafızası</span><span class="en">3D archive — a memory of exhibition history</span></h3>
+      <div class="chips"><span class="chip tr">ziyaretçi</span><span class="chip en">public</span><span class="chip tr">araştırmacı</span><span class="chip en">researchers</span><span class="chip phase tr">Faz 3</span><span class="chip phase en">Phase 3</span></div>
+    </div>
+    <p class="tr">Sergiler geçicidir; mekâna özgü kurulumlar söküldüğünde geriye birkaç fotoğraf kalır. 3B arşiv, geçmiş sergileri eserleriyle birlikte mekânsal olarak saklar — müzenin kurumsal hafızasını gezilebilir kılar.</p>
+    <p class="en">Exhibitions are temporary; when site-specific installations come down, a few photos remain. The 3D archive preserves past exhibitions spatially, with their works — making the museum's institutional memory walkable.</p>
+    <ul>
+      <li class="tr"><b>Yeniden kurulum:</b> kurulum fotoğrafları, paftalar ve sergi planlarından geçmiş sergilerin aynı galeride 3B re-staging'i.</li>
+      <li class="en"><b>Re-staging:</b> past exhibitions rebuilt in 3D in their original galleries, from installation photography, drawings and floor plans.</li>
+      <li class="tr"><b>Zaman çubuğu:</b> aynı galeride yıllar arasında kaydırma — "bu duvarda 2010'da ne vardı?" sorusunun cevabı tek harekette.</li>
+      <li class="en"><b>Time scrubber:</b> slide between years inside the same gallery — "what hung on this wall in 2010?" answered in one gesture.</li>
+      <li class="tr"><b>Araştırmacı katmanı:</b> bilimsel metadata, sergi dokümantasyonu, yayınlar; atıf verilebilir kalıcı bağlantılar.</li>
+      <li class="en"><b>Research layer:</b> scholarly metadata, exhibition documentation, publications; citable permanent links.</li>
+      <li class="tr"><b>Geçici olanın korunması:</b> mekâna özgü işler ve performans dokümantasyonu, mekân bağlamıyla birlikte arşivlenir.</li>
+      <li class="en"><b>Preserving the ephemeral:</b> site-specific works and performance documentation archived together with their spatial context.</li>
+      <li class="tr"><b>Açık veri:</b> seçili tarama ve model verisinin açık erişim politikasıyla paylaşımı; müzeler ve üniversitelerle ortaklık zemini.</li>
+      <li class="en"><b>Open data:</b> selected scan and model data shared under an open-access policy; a basis for partnerships with museums and universities.</li>
+    </ul>
+    <p class="scenario"><span class="k tr">Örnek an</span><span class="k en">Sample moment</span><span class="tr">Bir sanat tarihçisi, yıllar önce sökülmüş bir enstalasyonun içinde yürür, görüş hatlarını ölçer ve makalesine mekânsal ekran görüntüleriyle atıf verir.</span><span class="en">An art historian walks inside an installation dismantled years ago, measures its sightlines, and cites spatial captures in a paper.</span></p>
+  </article>
+
+  <article class="pillar" id="p4">
+    <div class="p-head">
+      <span class="p-no">04</span>
+      <h3><span class="tr">Doğuştan dijital sergiler</span><span class="en">Born-digital exhibitions</span></h3>
+      <div class="chips"><span class="chip tr">ziyaretçi</span><span class="chip en">public</span><span class="chip tr">sanatçılar</span><span class="chip en">artists</span><span class="chip phase tr">Faz 4</span><span class="chip phase en">Phase 4</span></div>
+    </div>
+    <p class="tr">Platform fiziksel müzeyi kopyalamakla kalmaz; fizikte imkânsız sergilere mekân olur. Mudam'ın güncel sanat kimliği için en doğal uzantı: dijital doğan işler, dijital doğan mekânlarda.</p>
+    <p class="en">The platform does more than copy the physical museum; it hosts exhibitions impossible in physics. The most natural extension of Mudam's contemporary identity: born-digital works in born-digital spaces.</p>
+    <ul>
+      <li class="tr"><b>Dijital komisyonlar:</b> ölçeğin, yerçekiminin ve ışığın esnediği işler; üretken/algoritmik sanat, veri temelli ve etkileşimli yapıtlar.</li>
+      <li class="en"><b>Digital commissions:</b> works where scale, gravity and light bend; generative and algorithmic art, data-driven and interactive pieces.</li>
+      <li class="tr"><b>"İmkânsız kanat":</b> Pei'nin geometrik gramerini sürdüren ama yalnızca sanal var olan sergi mekânları — müze, kendi mimarisinden türeyen yeni odalar kazanır.</li>
+      <li class="en"><b>The "impossible wing":</b> exhibition spaces that extend Pei's geometric grammar but exist only virtually — the museum gains new rooms grown from its own architecture.</li>
+      <li class="tr"><b>Ziyaretçiyle değişen işler:</b> varlığa, harekete, kalabalığa tepki veren eserler; çok kullanıcılı deneyimler.</li>
+      <li class="en"><b>Works that respond:</b> pieces reacting to presence, movement and crowds; multi-user experiences.</li>
+      <li class="tr"><b>Dijital rezidans:</b> her yıl davetli sanatçılar platforma özel iş üretir; açılışlar sanal mekânda canlı vernisajla yapılır.</li>
+      <li class="en"><b>Digital residency:</b> invited artists produce platform-specific work each year; openings happen as live vernissages in the virtual space.</li>
+      <li class="tr"><b>VR'da tam etki, tarayıcıda tam erişim:</b> deneyim hiçbir zaman donanıma kilitlenmez.</li>
+      <li class="en"><b>Full impact in VR, full access in the browser:</b> the experience is never locked to hardware.</li>
+    </ul>
+  </article>
+
+  <article class="pillar" id="p5">
+    <div class="p-head">
+      <span class="p-no">05</span>
+      <h3><span class="tr">Eğitim ve oyun</span><span class="en">Learning and play</span></h3>
+      <div class="chips"><span class="chip tr">okullar</span><span class="chip en">schools</span><span class="chip tr">aileler</span><span class="chip en">families</span><span class="chip phase tr">Faz 3</span><span class="chip phase en">Phase 3</span></div>
+    </div>
+    <p class="tr">Müzeye sınıfça gelemeyen okullar için platform bir derslik, gelenler için ön hazırlık ve devam aracıdır.</p>
+    <p class="en">For classes that cannot travel, the platform is a classroom; for those who can, it is preparation and follow-up.</p>
+    <ul>
+      <li class="tr"><b>Okul modülleri:</b> mimarlık ve sanat müfredatına bağlı hazır rotalar; öğretmen paneli ve sınıf yönetimi.</li>
+      <li class="en"><b>School modules:</b> ready-made routes tied to architecture and art curricula; a teacher dashboard with class management.</li>
+      <li class="tr"><b>Keşif oyunu:</b> çocuklar için binada ipucu avı — Pei'nin geometrisinde saklı şekiller, kale duvarının izini sürme.</li>
+      <li class="en"><b>Discovery game:</b> a clue hunt for children — shapes hidden in Pei's geometry, tracing the fortress wall.</li>
+      <li class="tr"><b>"Kendi sergini kur":</b> koleksiyondan seç, boş galeriye as, arkadaşlarınla paylaş — küratörlüğün kendisi oyunlaşır.</li>
+      <li class="en"><b>"Curate your own":</b> pick from the collection, hang it in an empty gallery, share it — curating itself becomes the game.</li>
+      <li class="tr"><b>Uzaktan atölyeler:</b> müze eğitmenleriyle canlı sanal sınıf ziyaretleri.</li>
+      <li class="en"><b>Remote workshops:</b> live virtual class visits with museum educators.</li>
+    </ul>
+  </article>
+
+  <article class="pillar" id="p6">
+    <div class="p-head">
+      <span class="p-no">06</span>
+      <h3><span class="tr">Erişilebilirlik ve erişim</span><span class="en">Accessibility and reach</span></h3>
+      <div class="chips"><span class="chip tr">herkes</span><span class="chip en">everyone</span><span class="chip phase tr">Faz 3</span><span class="chip phase en">Phase 3</span></div>
+    </div>
+    <p class="tr">Sanal müze, fiziksel müzenin ulaşamadığı herkese açılır — ve fiziksel ziyarette bile girilemeyen köşelere.</p>
+    <p class="en">The virtual museum opens to everyone the physical one cannot reach — including corners no physical visit allows.</p>
+    <ul>
+      <li class="tr"><b>Sınırsız coğrafya:</b> Lüksemburg'a gelemeyecek ziyaretçiye tam deneyim; düşük bant genişliği ve mobil öncelikli mod.</li>
+      <li class="en"><b>No geography:</b> the full experience for visitors who will never reach Luxembourg; low-bandwidth and mobile-first modes.</li>
+      <li class="tr"><b>Engelsiz gezinti:</b> hareket kısıtlılığı olanlar için her noktaya erişim — çatı kotları ve servis katmanları dahil.</li>
+      <li class="en"><b>Barrier-free movement:</b> every point reachable for visitors with reduced mobility — roof levels and service layers included.</li>
+      <li class="tr"><b>Çok dillilik:</b> FR · DE · EN · LB çekirdek; yeni diller içerik katmanı olarak eklenir.</li>
+      <li class="en"><b>Multilingual:</b> FR · DE · EN · LB at the core; further languages added as content layers.</li>
+      <li class="tr"><b>Duyusal seçenekler:</b> işitme için tam metin, görme için sesli betimleme ve yüksek kontrast; duyusal hassasiyet için sadeleştirilmiş "sessiz mod".</li>
+      <li class="en"><b>Sensory options:</b> full captions for hearing, audio description and high contrast for vision; a simplified "quiet mode" for sensory sensitivity.</li>
+    </ul>
+  </article>
+
+  <article class="pillar" id="p7">
+    <div class="p-head">
+      <span class="p-no">07</span>
+      <h3><span class="tr">Canlı program ve sosyal ziyaret</span><span class="en">Live programme and social visits</span></h3>
+      <div class="chips"><span class="chip tr">ziyaretçi</span><span class="chip en">public</span><span class="chip phase tr">Faz 4</span><span class="chip phase en">Phase 4</span></div>
+    </div>
+    <p class="tr">Müzenin etkinlik programı sanal mekâna taşar: Grand Hall'un dijital ikizi bir sahneye dönüşür.</p>
+    <p class="en">The museum's events programme spills into the virtual space: the Grand Hall's digital twin becomes a stage.</p>
+    <ul>
+      <li class="tr"><b>Hibrit etkinlik:</b> konuşmalar, performanslar ve konserler fiziksel mekândan sanal ikize canlı akar; sanal katılımcı da "salonda"dır.</li>
+      <li class="en"><b>Hybrid events:</b> talks, performances and concerts stream live from the physical space into its twin; remote attendees are "in the hall".</li>
+      <li class="tr"><b>Birlikte gezme:</b> avatarlı grup ziyaretleri, sesli sohbet; gerçek rehberle senkron sanal turlar.</li>
+      <li class="en"><b>Visiting together:</b> avatar group visits with voice chat; virtual tours synchronised with a real guide.</li>
+      <li class="tr"><b>Sanal vernisaj:</b> yeni sergi açılışları, dünyanın her yerinden davetliyle aynı akşam sanal mekânda.</li>
+      <li class="en"><b>Virtual vernissage:</b> exhibition openings held the same evening in the virtual space, with guests from anywhere.</li>
+    </ul>
+  </article>
+
+  <article class="pillar" id="p8">
+    <div class="p-head">
+      <span class="p-no">08</span>
+      <h3><span class="tr">Küratoryal dijital ikiz</span><span class="en">Curatorial digital twin</span></h3>
+      <div class="chips"><span class="chip tr">müze ekibi</span><span class="chip en">museum staff</span><span class="chip phase tr">sürekli</span><span class="chip phase en">ongoing</span></div>
+    </div>
+    <p class="tr">Aynı model, kapalı kapılar ardında bir çalışma aracıdır. Ziyaretçi görmez ama müze her gün kullanır — platformun kuruma kalıcı değerini bu katman kurar.</p>
+    <p class="en">Behind closed doors, the same model is a working tool. Visitors never see it, but the museum uses it daily — this layer anchors the platform's lasting value to the institution.</p>
+    <ul>
+      <li class="tr"><b>Sergi ön-görselleştirme:</b> eser yerleşimi, ışık senaryoları ve görüş hatları asılıştan haftalar önce denenir; küratör kararları maket yerine gerçek ölçekli modelde alınır.</li>
+      <li class="en"><b>Exhibition previsualisation:</b> placement, lighting scenarios and sightlines tested weeks before install; curatorial decisions made in a true-scale model instead of a maquette.</li>
+      <li class="tr"><b>Lojistik kontrol:</b> eser boyutlarının kapı, asansör ve rota ile çakışma denetimi; kurulum sırası planlaması.</li>
+      <li class="en"><b>Logistics checks:</b> artwork dimensions tested against doors, lifts and routes; install sequencing.</li>
+      <li class="tr"><b>Kayıt ve koruma:</b> eserlerin mekânsal konum geçmişi; kondisyon raporlarına bağlam.</li>
+      <li class="en"><b>Registrar and conservation:</b> a spatial location history for works; context for condition reports.</li>
+      <li class="tr"><b>Paydaş sunumları:</b> gelecek serginin önizlemesi sponsor ve ödünç veren kurumlara gezdirilerek sunulur.</li>
+      <li class="en"><b>Stakeholder previews:</b> upcoming exhibitions presented to sponsors and lenders as a walkthrough.</li>
+    </ul>
+  </article>
+
+  <article class="pillar" id="p9">
+    <div class="p-head">
+      <span class="p-no">09</span>
+      <h3><span class="tr">Sahne arkası ve açık depo</span><span class="en">Behind the scenes and open storage</span></h3>
+      <div class="chips"><span class="chip tr">ziyaretçi</span><span class="chip en">public</span><span class="chip phase tr">Faz 4</span><span class="chip phase en">Phase 4</span></div>
+    </div>
+    <p class="tr">Müzenin en merak edilen yerleri, hiç açılmayan kapıların ardındadır. Sanal mekânda bu kapılar güvenle açılır.</p>
+    <p class="en">The most intriguing parts of a museum sit behind doors that never open. Virtually, they can open safely.</p>
+    <ul>
+      <li class="tr"><b>Açık depo gezintisi:</b> sergide olmayan koleksiyonu raflarında görme; depodaki her eser kimlik kartıyla.</li>
+      <li class="en"><b>Open-storage walk:</b> seeing the un-exhibited collection on its racks; every stored work with its ID card.</li>
+      <li class="tr"><b>Konservasyon atölyesi:</b> restorasyon süreçlerinin belgelendiği, uzman anlatımlı turlar.</li>
+      <li class="en"><b>Conservation studio:</b> narrated tours documenting restoration processes.</li>
+      <li class="tr"><b>Kurulum hikâyesi:</b> sergi kurulumlarının time-lapse kayıtları mekâna yerleştirilir — boş galeriden açılışa.</li>
+      <li class="en"><b>The install story:</b> time-lapse records of exhibition builds placed in space — from empty gallery to opening night.</li>
+    </ul>
+  </article>
+</section>
+
+<section id="yol">
+  <div class="sec-head"><span class="no">C</span><h2><span class="tr">Yol haritası</span><span class="en">Roadmap</span></h2></div>
+  <p class="sec-intro tr">Her faz kendi başına sunulabilir bir ürün çıkarır; Mudam'a ilk sunum Faz 1 demosuyla yapılır.</p>
+  <p class="sec-intro en">Each phase ships a presentable product on its own; the first presentation to Mudam is the Phase 1 demo.</p>
+  <div class="phases">
+    <div class="phase-row now">
+      <span class="tag"><span class="tr">FAZ 0 · ŞİMDİ</span><span class="en">PHASE 0 · NOW</span></span>
+      <div>
+        <h3><span class="tr">Model üretimi</span><span class="en">Model production</span></h3>
+        <p class="tr">Mimari referans arşivi, ölçekli plan/kesit seti ve fotoğraf konum atlası tamam; Blender'da ana kabuk etüdü sürüyor. Üç kat, ana cephe, çatı kütleleri, pavyon ve geçit kurulu.</p>
+        <p class="en">Architectural reference archive, scaled plan/section set and photo location atlas complete; the main-shell study is underway in Blender. Three floors, main façade, roof volumes, pavilion and passage are in place.</p>
+      </div>
+    </div>
+    <div class="phase-row">
+      <span class="tag"><span class="tr">FAZ 1</span><span class="en">PHASE 1</span></span>
+      <div>
+        <h3><span class="tr">Platform çekirdeği + mimari deneyim</span><span class="en">Platform core + architecture experience</span></h3>
+        <p class="tr">Üç gezinme modu, katman ayrıştırma, sesli mimar turu, zaman makinesi. Mudam sunumunun demosu budur: bina kendi hikâyesini anlatır.</p>
+        <p class="en">Three navigation modes, layer breakdown, narrated architect tour, time machine. This is the Mudam demo: the building telling its own story.</p>
+      </div>
+    </div>
+    <div class="phase-row">
+      <span class="tag"><span class="tr">FAZ 2</span><span class="en">PHASE 2</span></span>
+      <div>
+        <h3><span class="tr">Yaşayan koleksiyon</span><span class="en">Living collection</span></h3>
+        <p class="tr">Güncel asılışın yerleşimi, eser kartları, küratör rotaları, deep-zoom ve ilk 3B eser taramaları. Bu fazdan itibaren içerik Mudam'la ortak üretilir.</p>
+        <p class="en">Current hang in place, work ID cards, curator routes, deep zoom and first 3D scans. From this phase on, content is co-produced with Mudam.</p>
+      </div>
+    </div>
+    <div class="phase-row">
+      <span class="tag"><span class="tr">FAZ 3</span><span class="en">PHASE 3</span></span>
+      <div>
+        <h3><span class="tr">Arşiv, eğitim, erişilebilirlik</span><span class="en">Archive, learning, accessibility</span></h3>
+        <p class="tr">İlk geçmiş serginin re-staging'i ve zaman çubuğu; okul modülleri; çok dillilik ve duyusal seçenekler.</p>
+        <p class="en">First re-staged past exhibition and the time scrubber; school modules; multilingual and sensory options.</p>
+      </div>
+    </div>
+    <div class="phase-row">
+      <span class="tag"><span class="tr">FAZ 4</span><span class="en">PHASE 4</span></span>
+      <div>
+        <h3><span class="tr">Doğuştan dijital + canlı program</span><span class="en">Born-digital + live programme</span></h3>
+        <p class="tr">İlk dijital komisyon ve "imkânsız kanat"; hibrit etkinlikler, avatarlı ziyaret, sanal vernisaj, sahne arkası turları.</p>
+        <p class="en">First digital commission and the "impossible wing"; hybrid events, avatar visits, virtual vernissages, behind-the-scenes tours.</p>
+      </div>
+    </div>
+    <div class="phase-row">
+      <span class="tag"><span class="tr">SÜREKLİ</span><span class="en">ONGOING</span></span>
+      <div>
+        <h3><span class="tr">Küratoryal ikiz</span><span class="en">Curatorial twin</span></h3>
+        <p class="tr">Faz 1'den itibaren müze ekibiyle birlikte, iç araç olarak paralel geliştirilir.</p>
+        <p class="en">Developed in parallel with the museum team as an internal tool, from Phase 1 onward.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="teknik">
+  <div class="sec-head"><span class="no">D</span><h2><span class="tr">Faz 1 demosu: teknik mimari</span><span class="en">Phase 1 demo: technical architecture</span></h2></div>
+  <p class="sec-intro tr">Demo, kurulum gerektirmeyen bir web uygulamasıdır: tek bağlantı, tarayıcıda açılır. Aşağıdaki kurgu bugün üretimde kanıtlanmış araçlara dayanır; deneysel bağımlılık yoktur ve demo, atılacak bir prototip değil platformun ilk sürümüdür.</p>
+  <p class="sec-intro en">The demo is a web application with nothing to install: one link, opened in a browser. The setup below relies on tools proven in production today; there are no experimental dependencies, and the demo is the platform's first release, not a throwaway prototype.</p>
+
+  <div class="tech">
+
+    <div class="tech-block">
+      <h3><span class="tno">T1</span><span class="tr">İçerik hattı — arşivden modele</span><span class="en">Content pipeline — from archive to model</span></h3>
+      <ul>
+        <li class="tr"><b>Kaynak veri:</b> ölçekli plan–kesit arşivi, OSM ile hizalanmış vaziyet planı ve 105 fotoğraflık konum atlası. Model, belgelenmiş kaynaklara dayanır; her varsayım kayıt altındadır.</li>
+        <li class="en"><b>Source data:</b> the scaled plan–section archive, an OSM-aligned site plan and a 105-photo location atlas. The model rests on documented sources; every assumption is on record.</li>
+        <li class="tr"><b>Modelleme:</b> Blender, 23 iş paketi hâlinde; her nesne kat, oda ve katman etiketi taşıyan düzenli bir adlandırma şemasına bağlıdır. Bu disiplin, 01'deki katman ayrıştırmanın ve ileride eser bağlamanın ön koşuludur.</li>
+        <li class="en"><b>Modelling:</b> Blender, organised as 23 work packages; every object follows a naming scheme carrying floor, room and layer tags. This discipline is the precondition for the layer breakdown in 01 and for attaching artworks later.</li>
+        <li class="tr"><b>Optimizasyon:</b> detay seviyeleri (LOD), poligon sadeleştirme, doku atlasları ve pişirilmiş ışık haritaları (baked lighting) — görsel kalite, gerçek zamanlı hesap yükü olmadan korunur.</li>
+        <li class="en"><b>Optimisation:</b> levels of detail (LOD), polygon reduction, texture atlases and baked light maps — visual quality kept without real-time lighting cost.</li>
+        <li class="tr"><b>Dışa aktarım:</b> glTF 2.0 (GLB) açık standardı; Draco geometri sıkıştırması, KTX2/Basis doku sıkıştırması ve meshopt ile web için paketlenir.</li>
+        <li class="en"><b>Export:</b> the open glTF 2.0 (GLB) standard, packaged for the web with Draco geometry compression, KTX2/Basis texture compression and meshopt.</li>
+        <li class="tr"><b>Otomasyon:</b> Blender'dan tek komutla dışa aktaran Python betiği; model her güncellendiğinde site içeriği otomatik yeniden paketlenir. Elle taşıma yok, sürüm karışıklığı yok.</li>
+        <li class="en"><b>Automation:</b> a Python script exports from Blender in one command; whenever the model changes, site content repackages automatically. No manual handling, no version drift.</li>
+      </ul>
+    </div>
+
+    <div class="tech-block">
+      <h3><span class="tno">T2</span><span class="tr">Çalışma zamanı — tarayıcıdaki motor</span><span class="en">Runtime — the engine in the browser</span></h3>
+      <div class="stack">
+        <div class="row"><b>Render</b><div><span class="tr">Three.js üzerinde WebGL 2; WebGPU'ya geçişe hazır mimari.</span><span class="en">WebGL 2 on Three.js; architecture ready to move to WebGPU.</span><small class="tr">Açık kaynak, geniş ekosistem, on yılı aşkın üretim geçmişi.</small><small class="en">Open source, broad ecosystem, over a decade in production.</small></div></div>
+        <div class="row"><b><span class="tr">Sahne</span><span class="en">Scene</span></b><div><span class="tr">GLB + Draco/KTX2 çözücüler; kademeli yükleme — önce kabuk ve gezinme, sonra detay ve dokular.</span><span class="en">GLB with Draco/KTX2 decoders; progressive loading — shell and navigation first, detail and textures after.</span></div></div>
+        <div class="row"><b><span class="tr">Kamera</span><span class="en">Camera</span></b><div><span class="tr">Üç rejim tek sistemde: orbit/izometrik (kesit düzlemleriyle), birinci şahıs (çarpışma + navigasyon ağı), ortografik plan. Rejimler arası geçişte konum korunur.</span><span class="en">Three regimes in one system: orbit/isometric (with section planes), first person (collision + navmesh), orthographic plan. Position carries over between regimes.</span></div></div>
+        <div class="row"><b><span class="tr">Katmanlar</span><span class="en">Layers</span></b><div><span class="tr">Kesit düzlemleri, katman görünürlüğü ve patlatma animasyonları; T1'deki katman etiketlerini doğrudan okur.</span><span class="en">Section planes, layer visibility and explode animations, reading the layer tags from T1 directly.</span></div></div>
+        <div class="row"><b><span class="tr">Ses</span><span class="en">Audio</span></b><div><span class="tr">Web Audio ile konumsal (spatial) anlatım; durak tabanlı tur motoru — her durak kamera, katman durumu ve anlatımı birlikte tanımlar.</span><span class="en">Spatial narration via Web Audio; a stop-based tour engine — each stop defines camera, layer state and narration together.</span></div></div>
+        <div class="row"><b>UI</b><div><span class="tr">Hafif HTML/CSS arayüz katmanı; i18n sözlükleri (FR·DE·EN·LB çekirdek) içerik dosyasından gelir.</span><span class="en">A light HTML/CSS interface layer; i18n dictionaries (FR·DE·EN·LB core) come from content files.</span></div></div>
+        <div class="row"><b>VR</b><div><span class="tr">WebXR: aynı sahne, aynı kod tabanı — ayrı bir VR uygulaması derlenmez.</span><span class="en">WebXR: the same scene, the same codebase — no separate VR build.</span></div></div>
+      </div>
+    </div>
+
+    <div class="tech-block">
+      <h3><span class="tno">T3</span><span class="tr">Veri modeli — geometri ile içerik ayrımı</span><span class="en">Data model — geometry and content kept apart</span></h3>
+      <ul>
+        <li class="tr"><b>İki katman:</b> sahne (geometri) ile içerik (metin, ses, metadata) ayrı yaşar. İçerik; odaları, katmanları, ilgi noktalarını, tur duraklarını ve zaman makinesi durumlarını tanımlayan okunabilir JSON dosyalarıdır.</li>
+        <li class="en"><b>Two layers:</b> scene (geometry) and content (text, audio, metadata) live apart. Content is a set of readable JSON files defining rooms, layers, points of interest, tour stops and time-machine states.</li>
+        <li class="tr"><b>Kalıcı kimlikler:</b> her nesnenin değişmez bir kimliği vardır. Faz 2'de eser kartları, Faz 3'te arşiv sürümleri aynı kimliklere bağlanır — bugünkü demo, sonraki fazların temelidir.</li>
+        <li class="en"><b>Persistent IDs:</b> every object carries a stable identifier. Phase 2 artwork cards and Phase 3 archive versions attach to the same IDs — today's demo is the foundation of the later phases.</li>
+        <li class="tr"><b>Müze tarafında düzenleme:</b> metin ve ses içerikleri teknik bilgi gerektirmeyen dosyalarla güncellenir; yapı, ileride Mudam'ın koleksiyon yönetim sistemine (CMS/API) bağlanmaya hazırdır.</li>
+        <li class="en"><b>Editable by the museum:</b> text and audio update through files that need no technical skill; the structure is ready to connect to Mudam's collection management system (CMS/API) later.</li>
+      </ul>
+    </div>
+
+    <div class="tech-block">
+      <h3><span class="tno">T4</span><span class="tr">Performans bütçesi ve kalite hedefleri</span><span class="en">Performance budget and quality targets</span></h3>
+      <div class="tbl-wrap">
+        <table class="budget">
+          <tr>
+            <th><span class="tr">Ölçüt</span><span class="en">Metric</span></th>
+            <th><span class="tr">Hedef</span><span class="en">Target</span></th>
+          </tr>
+          <tr>
+            <td><span class="tr">İlk anlamlı görüntü</span><span class="en">First meaningful view</span></td>
+            <td class="num">&lt; 5 sn <small><span class="tr">orta sınıf telefon, 4G</span><span class="en">mid-range phone, 4G</span></small></td>
+          </tr>
+          <tr>
+            <td><span class="tr">İlk indirme paketi</span><span class="en">Initial download</span></td>
+            <td class="num">&lt; 30 MB <small><span class="tr">toplam sahne kademeli, ~60–80 MB</span><span class="en">full scene streams in, ~60–80 MB</span></small></td>
+          </tr>
+          <tr>
+            <td><span class="tr">Kare hızı</span><span class="en">Frame rate</span></td>
+            <td class="num">60 fps <small><span class="tr">masaüstü</span><span class="en">desktop</span></small> · 30+ fps <small><span class="tr">mobil</span><span class="en">mobile</span></small></td>
+          </tr>
+          <tr>
+            <td><span class="tr">Cihaz kapsamı</span><span class="en">Device coverage</span></td>
+            <td><span class="tr">Masaüstü, telefon, tablet; son iki büyük sürüm tarayıcılar</span><span class="en">Desktop, phone, tablet; the last two major browser versions</span></td>
+          </tr>
+          <tr>
+            <td><span class="tr">Erişilebilirlik</span><span class="en">Accessibility</span></td>
+            <td><span class="tr">Klavyeyle tam gezinme, azaltılmış hareket modu, tüm anlatımlara altyazı</span><span class="en">Full keyboard navigation, reduced-motion mode, captions on all narration</span></td>
+          </tr>
+        </table>
+      </div>
+    </div>
+
+    <div class="tech-block">
+      <h3><span class="tno">T5</span><span class="tr">Dağıtım, güvenlik ve güncelleme</span><span class="en">Delivery, security and updates</span></h3>
+      <ul>
+        <li class="tr"><b>Statik barındırma + CDN:</b> sunucu bakımı yok, ziyaretçi sayısıyla kendiliğinden ölçeklenir; işletme maliyeti düşük ve öngörülebilir. Açılış gecesi trafiği ek altyapı gerektirmez.</li>
+        <li class="en"><b>Static hosting + CDN:</b> no server maintenance, scales with visitor numbers by itself; running costs are low and predictable. Opening-night traffic needs no extra infrastructure.</li>
+        <li class="tr"><b>Sürümlü yayın:</b> her içerik paketi sürümlüdür ve tek adımda geri alınabilir; yayın hattı depodan CDN'e otomatik işler.</li>
+        <li class="en"><b>Versioned releases:</b> every content package is versioned and reversible in one step; the pipeline runs automatically from repository to CDN.</li>
+        <li class="tr"><b>Gizlilik dostu analitik:</b> çerezsiz ölçüm (ziyaret, rota, etkileşim); GDPR ile uyumlu, kişisel veri toplanmaz.</li>
+        <li class="en"><b>Privacy-friendly analytics:</b> cookie-free measurement (visits, routes, interaction); GDPR-compliant, no personal data collected.</li>
+        <li class="tr"><b>Mülkiyet:</b> alan adı, model ve içerik müzeye aittir; platform Mudam'ın altyapısında ya da bizim barındırmamızda çalışabilir. Açık formatlar sayesinde tedarikçiye bağımlılık yoktur.</li>
+        <li class="en"><b>Ownership:</b> domain, model and content belong to the museum; the platform runs on Mudam's infrastructure or on ours. Open formats mean no vendor lock-in.</li>
+      </ul>
+    </div>
+
+    <div class="tech-block">
+      <h3><span class="tno">T6</span><span class="tr">Demo kapsamı ve kabul ölçütleri</span><span class="en">Demo scope and acceptance criteria</span></h3>
+      <ul>
+        <li class="tr"><b>Kapsam:</b> dış kabuk ve park bağlamı; Grand Hall ile bir galeri dizisi yürünebilir; katman patlatma tüm binada; iki duraklı örnek sesli tur; zaman makinesi tek kamera açısında prototip.</li>
+        <li class="en"><b>Scope:</b> outer shell and park context; the Grand Hall and one gallery sequence walkable; layer explode across the whole building; a two-stop sample audio tour; the time machine prototyped from one camera angle.</li>
+        <li class="tr"><b>Üç görünüm:</b> izometrik kesit, yürüyüş ve plan arasında konum korunarak geçiş — platformun ana iddiası demoda çalışır durumda.</li>
+        <li class="en"><b>Three views:</b> switching between isometric cut-away, walk and plan with position preserved — the platform's central claim, working in the demo.</li>
+        <li class="tr"><b>Kabul ölçütleri:</b> T4'teki performans bütçesinin tamamı; belirlenen cihaz kapsamında kesintisiz çalışma.</li>
+        <li class="en"><b>Acceptance:</b> the full performance budget in T4; uninterrupted operation across the stated device coverage.</li>
+        <li class="tr"><b>Sunum formatı:</b> canlı bağlantı + yaklaşık 3 dakikalık yönlendirilmiş akış (Grand Hall'a giriş → katman patlatma → kale katmanı → plan görünümünden rota); toplantı sonunda bağlantı Mudam ekibinde kalır, kendi cihazlarında denerler.</li>
+        <li class="en"><b>Presentation format:</b> a live link + a guided flow of about 3 minutes (entering the Grand Hall → layer explode → fortress layer → routing from plan view); the link stays with the Mudam team after the meeting, to try on their own devices.</li>
+      </ul>
+    </div>
+
+    <div class="tech-block">
+      <h3><span class="tno">T7</span><span class="tr">Neden bu yığın</span><span class="en">Why this stack</span></h3>
+      <ul>
+        <li class="tr"><b>Web-first:</b> ziyaretçiye kurulum, müzeye lisans maliyeti yok; dağıtım bir bağlantı paylaşmaktan ibaret. Erişilebilirlik hedefiyle (06) aynı karar.</li>
+        <li class="en"><b>Web-first:</b> nothing for visitors to install, no licence cost for the museum; distribution is sharing a link. The same decision as the accessibility goal (06).</li>
+        <li class="tr"><b>Açık standartlar:</b> glTF ve WebXR; veri ve model müzenin malıdır, hiçbir tescilli formata kilitlenmez.</li>
+        <li class="en"><b>Open standards:</b> glTF and WebXR; data and model remain the museum's property, locked into no proprietary format.</li>
+        <li class="tr"><b>Pixel-streaming'e karşı:</b> oyun motoru + sunucu GPU akışı yerine cihazda render: eşzamanlı ziyaretçi sınırı ve sunucu GPU maliyeti yok. Karşılığında foto-gerçekçilik yerine mimari okunabilirlik önceliklenir — pişirilmiş ışık ve özenli malzemelerle demo kalitesi sunum düzeyindedir.</li>
+        <li class="en"><b>Versus pixel streaming:</b> on-device rendering instead of game engine + server GPU streaming: no concurrent-visitor cap, no server GPU cost. The trade is prioritising architectural legibility over photorealism — with baked lighting and careful materials, demo quality is presentation-grade.</li>
+        <li class="tr"><b>Tek kod tabanı:</b> aynı çekirdek Faz 2–4'ün tamamını (koleksiyon, arşiv, dijital sergiler, canlı program) taşır; demoya yapılan yatırım platforma yapılmış olur.</li>
+        <li class="en"><b>One codebase:</b> the same core carries all of Phases 2–4 (collection, archive, digital exhibitions, live programme); investment in the demo is investment in the platform.</li>
+      </ul>
+    </div>
+
+  </div>
+</section>
+
+<section id="deger">
+  <div class="sec-head"><span class="no">E</span><h2><span class="tr">Mudam için değer</span><span class="en">Value for Mudam</span></h2></div>
+  <div class="values">
+    <div class="value">
+      <h3><span class="tr">Erişim</span><span class="en">Reach</span></h3>
+      <p class="tr">Müze duvarlarının ötesinde küresel bir kitle; her ziyaretçi için fiziksel ziyarete açılan bir kapı.</p>
+      <p class="en">A global audience beyond the museum's walls; for every visitor, a door toward the physical visit.</p>
+    </div>
+    <div class="value">
+      <h3><span class="tr">Hafıza</span><span class="en">Memory</span></h3>
+      <p class="tr">Geçici sergilerin kalıcı, mekânsal arşivi — kurumun hafızası gezilebilir hale gelir.</p>
+      <p class="en">A permanent, spatial archive of temporary exhibitions — the institution's memory becomes walkable.</p>
+    </div>
+    <div class="value">
+      <h3><span class="tr">Özgünlük</span><span class="en">Distinction</span></h3>
+      <p class="tr">Bir I. M. Pei yapısının katman katman, içinde yürünerek anlatıldığı ilk dijital deneyimlerden biri olma iddiası.</p>
+      <p class="en">A credible claim to one of the first digital experiences to narrate an I. M. Pei building layer by layer, from inside.</p>
+    </div>
+    <div class="value">
+      <h3><span class="tr">Sürdürülebilirlik</span><span class="en">Sustainability</span></h3>
+      <p class="tr">Sponsorlu dijital komisyonlar, eğitim lisansları, hibrit etkinlik biletleri ve küratoryal aracın kurum içi değeri.</p>
+      <p class="en">Sponsored digital commissions, education licensing, hybrid event tickets, and the in-house value of the curatorial tool.</p>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <span class="tr">Mudam Virtual Experience — konsept notu · taslak</span>
+  <span class="en">Mudam Virtual Experience — concept note · draft</span>
+  <span class="mono"><span class="tr">Model üretimi: Blender · Kaynak: ölçekli plan/kesit arşivi</span><span class="en">Model production: Blender · Source: scaled plan/section archive</span></span>
+</footer>
+
+</div>
+
+<script>
+(function(){
+  var top=document.getElementById('top');
+  var bt=document.getElementById('btn-tr'), be=document.getElementById('btn-en');
+  function setLang(l){
+    top.setAttribute('data-lang', l);
+    bt.setAttribute('aria-pressed', String(l==='tr'));
+    be.setAttribute('aria-pressed', String(l==='en'));
+    try{ localStorage.setItem('mudamvx-lang', l); }catch(e){}
+  }
+  bt.addEventListener('click', function(){ setLang('tr'); });
+  be.addEventListener('click', function(){ setLang('en'); });
+  var saved=null;
+  try{ saved=localStorage.getItem('mudamvx-lang'); }catch(e){}
+  if(saved==='en'||saved==='tr') setLang(saved);
+})();
+</script>
