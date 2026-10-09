@@ -406,3 +406,7 @@ Merdiven yanı ikinci galeri işareti ile +1 Studio/servis/asansör çevresinin 
 R100: İki galeri tavanının dokuz plan noktası mevcut giriş duvarlarının iç yüzüne bağlandı. En büyük yerel uyumsuzluk 0,337 m idi; kontrol edilen 18 alt/üst köşe artık aynı sınırda. Batı galeri duvarı ve iki girişin geçiş kontrolleri yeniden geçti.
 
 [Önce/sonra ve kontrol raporu](reports/R100_KONTROL_RAPORU.md). Bu yerel çizim uzlaştırması ölçülmüş imalat geometrisi değildir. Gerçek giriş boşlukları ve fotoğraf 026’daki yüksek merdiven yanı geçidi korunur. +1 Studio/servis/asansör çevresinin bütün kat ilişkileri ve diğer kabuk birleşimleri açık.
+
+
+2026-10-09 17:12:01 UTC — 4d550d3ccf6f4d1acdbfb409f152e4f0c66f540f origin/main normal push doğrulandı. Pano, renderlar, raporlar ve üretim betikleri gönderildi; Blender ve arşiv GLB dosyaları yerelde; tek güncel sıkıştırılmış web GLB gönderildi.
+
