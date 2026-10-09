@@ -185,7 +185,7 @@ R35 güncel sahne; R29–R35 bölgesel sahneler, kaynak/varsayım kayıtları ve
 
 2026-10-09T10:07:29.485136+00:00 — R69: alt fuayenin gömme armatürleri ve tavan yuvaları eklendi.29 hacim ve119 ışın kontrolü, üç render tamamlandı. Konumlar ve çaplar kısmi aday; galeri aydınlatma referanslarına devam ediliyor.
 
-2026-10-09 10:24 UTC — Canlı model 404 hatası düzeltildi. Blender ve sürümlü GLB arşivleri yerelde; tek güncel kayıpsız sıkıştırılmış GLB webde yayımlanır. Ortak model kaydı ve 60 saniyelik otomatik güncelleme eklendi. R69 tarayıcıda 7.669 parça ile açıldı; 89,20 MB özgün aktarım 54,18 MB olarak gönderilir. Mimari doğruluk kabulü anlamına gelmez.
+2026-10-09 10:15 UTC — Canlı model 404 hatası düzeltildi. Blender ve sürümlü GLB arşivleri yerelde; tek güncel kayıpsız sıkıştırılmış GLB webde yayımlanır. Ortak model kaydı ve 60 saniyelik otomatik güncelleme eklendi. R69 tarayıcıda 7.669 parça ile açıldı; 89,20 MB özgün aktarım 54,18 MB olarak gönderilir. Mimari doğruluk kabulü anlamına gelmez.
 
 
 2026-10-09 10:15:25 UTC — e2444462d0651ebac27af4dfaf92d3c6b97b8530 origin/main normal push doğrulandı. Pano, renderlar, raporlar ve üretim betikleri gönderildi; Blender ve arşiv GLB dosyaları yerelde; tek güncel sıkıştırılmış web GLB gönderildi.

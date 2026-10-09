@@ -135,6 +135,7 @@ def publish():
  latest=Path(r['file']).relative_to('12_Blender_Model').as_posix();glb='MODEL_INCELEME.html';p=B/'URETIM.html';s=p.read_text(encoding='utf8');s=re.sub(r'href="scenes/[^\"]+\.blend"',f'href="{latest}"',s);s=s.replace('P06 - P12 / BÖLGESEL ÜRETİM','P06–P21 / BÖLGESEL ÜRETİM VE KONTROL');s=s.replace('renders/qa/P12_entry_detail.png','renders/qa/P19_entry_daylight.png').replace('renders/qa/P11_116.png','renders/qa/P19_116_daylight.png')
  if (B/'MODEL_INCELEME.html').exists() and 'MODEL_INCELEME.html' not in s:s=s.replace('</nav>','<a href="MODEL_INCELEME.html">Canlı 3B / kat / kesit</a></nav>')
  s=re.sub(r'href="exports/[^"]+\.glb"',f'href="{glb}"',s)
+ s=re.sub(r'<a href="scenes/[^"]+\.blend">Güncel Blender dosyası</a>','<a href="MODEL_INCELEME.html">Güncel 3D model</a>',s)
  s=s.replace('</nav>',f'<a href="PLAN_KONTROL.html">Model / plan kesitleri</a><a href="{glb}">GLB önizleme</a></nav>') if 'Model / plan kesitleri' not in s else s
  s=s.replace('Merdivenin tam kolu, birçok cephe açıklığı ve arazi henüz tamamlanmadı.','Merdiven kolları üretildi; birçok cephe açıklığı, arazi kotu ve ayrıntının doğrulaması hâlâ açık.')
  if 'historical-checkpoints' not in s:s=s.replace('</nav>','</nav><p class="note" id="historical-checkpoints">Aşağıdaki görseller üretimin farklı aşamalarındaki kontrol kayıtlarıdır. Bir kartın eski eksik notu sonraki revizyonda çözülmüş olabilir. Güncel birleşik sahneyi Canlı 3B bağlantısından inceleyin.</p>')
