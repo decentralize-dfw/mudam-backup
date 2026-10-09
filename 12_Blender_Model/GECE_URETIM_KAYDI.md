@@ -93,3 +93,6 @@ Push sonrasında üretim sürdü. 089 ile pavyon kulesinin sekizgen taslağı d�
 
 
 2026-10-09 06:54:15 UTC — R51 v001: ana çatının dört geniş yüzüne 168 dizi/3.816 lamel eklendi. 028/029 ile alan ayrımı kontrol edildi; adım ve imalat ölçüleri koşullu. Yeniden açma, önceki geometri, panel sınırı ve genel kapalı mesh denetimleri geçti. Görsel kontrol üç bakışta yapıldı; üretim sürüyor.
+
+
+2026-10-09 06:57:08 UTC — `1a21b8b4fc4c8acef1bbcbe88777397a23225bf0` origin/main normal push doğrulandı; uzak main SHA ile yerel HEAD eşleşti. R48–R51, canlı 3B kat/kesit/seçim arayüzü ve 33.842.004 bayt R51 GLB gönderildi. Vendor Three.js kaynaklarındaki mevcut tek whitespace uyarısı upstream SHA korunarak bırakıldı; proje dosyalarında diff-check ve viewer-core kontrolleri geçti. Üretim cephe–galeri kaynak kontrolüyle kesintisiz devam ediyor.
