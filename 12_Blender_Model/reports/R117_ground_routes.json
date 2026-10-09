@@ -1,0 +1,947 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R117_CEPHE_KOSE_KOPRU_BIRLESIM_v004.blend",
+  "checks": [
+    {
+      "route": "E_N",
+      "kind": "passage",
+      "offset": -0.35,
+      "height": 0.3,
+      "object": null,
+      "passed": true
+    },
+    {
+      "route": "E_N",
+      "kind": "passage",
+      "offset": -0.35,
+      "height": 1.5,
+      "object": null,
+      "passed": true
+    },
+    {
+      "route": "E_N",
+      "kind": "passage",
+      "offset": -0.35,
+      "height": 2.1,
+      "object": null,
+      "passed": true
+    },
+    {
+      "route": "E_N",
+      "kind": "support_headroom",
+      "offset": -0.35,
+      "fraction": 0,
+      "floor": "P05_FLOOR_L00_E0",
+      "head": null,
+      "passed": true
+    },
+    {
+      "route": "E_N",
+      "kind": "support_headroom",
+      "offset": -0.35,
+      "fraction": 0.2,
+      "floor": "P05_FLOOR_L00_E0",
+      "head": null,
+      "passed": true
+    },
+    {
+      "route": "E_N",
+      "kind": "support_headroom",
+      "offset": -0.35,
+      "fraction": 0.4,
+      "floor": "P05_FLOOR_L00_E0",
+      "head": null,
+      "passed": true
+    },
+    {
+      "route": "E_N",
+      "kind": "support_headroom",
+      "offset": -0.35,
+      "fraction": 0.6,
+      "floor": "P05_FLOOR_L00_E0",
+      "head": null,
+      "passed": true
+    },
+    {
+      "route": "E_N",
+      "kind": "support_headroom",
+      "offset": -0.35,
+      "fraction": 0.8,
+      "floor": "R28_E_CIRCULATION_FLOOR",
+      "head": null,
+      "passed": true
+    },
+    {
+      "route": "E_N",
+      "kind": "support_headroom",
+      "offset": -0.35,
+      "fraction": 1,
+      "floor": "R28_E_CIRCULATION_FLOOR",
+      "head": null,
+      "passed": true
+    },
+    {
+      "route": "E_N",
+      "kind": "passage",
+      "offset": 0,
+      "height": 0.3,
+      "object": null,
+      "passed": true
+    },
+    {
+      "route": "E_N",
+      "kind": "passage",
+      "offset": 0,
+      "height": 1.5,
+      "object": null,
+      "passed": true
+    },
+    {
+      "route": "E_N",
+      "kind": "passage",
+      "offset": 0,
+      "height": 2.1,
+      "object": null,
+      "passed": true
+    },
+    {
+      "route": "E_N",
+      "kind": "support_headroom",
+      "offset": 0,
+      "fraction": 0,
+      "floor": "P05_FLOOR_L00_E0",
+      "head": null,
+      "passed": true
+    },
+    {
+      "route": "E_N",
+      "kind": "support_headroom",
+      "offset": 0,
+      "fraction": 0.2,
+      "floor": "P05_FLOOR_L00_E0",
+      "head": null,
+      "passed": true
+    },
+    {
+      "route": "E_N",
+      "kind": "support_headroom",
+      "offset": 0,
+      "fraction": 0.4,
+      "floor": "P05_FLOOR_L00_E0",
+      "head": null,
+      "passed": true
+    },
+    {
+      "route": "E_N",
+      "kind": "support_headroom",
+      "offset": 0,
+      "fraction": 0.6,
+      "floor": "P05_FLOOR_L00_E0",
+      "head": null,
+      "passed": true
+    },
+    {
+      "route": "E_N",
+      "kind": "support_headroom",
+      "offset": 0,
+      "fraction": 0.8,
+      "floor": "R28_E_CIRCULATION_FLOOR",
+      "head": null,
+      "passed": true
+    },
+    {
+      "route": "E_N",
+      "kind": "support_headroom",
+      "offset": 0,
+      "fraction": 1,
+      "floor": "R28_E_CIRCULATION_FLOOR",
+      "head": null,
+      "passed": true
+    },
+    {
+      "route": "E_N",
+      "kind": "passage",
+      "offset": 0.35,
+      "height": 0.3,
+      "object": null,
+      "passed": true
+    },
+    {
+      "route": "E_N",
+      "kind": "passage",
+      "offset": 0.35,
+      "height": 1.5,
+      "object": null,
+      "passed": true
+    },
+    {
+      "route": "E_N",
+      "kind": "passage",
+      "offset": 0.35,
+      "height": 2.1,
+      "object": null,
+      "passed": true
+    },
+    {
+      "route": "E_N",
+      "kind": "support_headroom",
+      "offset": 0.35,
+      "fraction": 0,
+      "floor": "P05_FLOOR_L00_E0",
+      "head": null,
+      "passed": true
+    },
+    {
+      "route": "E_N",
+      "kind": "support_headroom",
+      "offset": 0.35,
+      "fraction": 0.2,
+      "floor": "P05_FLOOR_L00_E0",
+      "head": null,
+      "passed": true
+    },
+    {
+      "route": "E_N",
+      "kind": "support_headroom",
+      "offset": 0.35,
+      "fraction": 0.4,
+      "floor": "P05_FLOOR_L00_E0",
+      "head": null,
+      "passed": true
+    },
+    {
+      "route": "E_N",
+      "kind": "support_headroom",
+      "offset": 0.35,
+      "fraction": 0.6,
+      "floor": "P05_FLOOR_L00_E0",
+      "head": null,
+      "passed": true
+    },
+    {
+      "route": "E_N",
+      "kind": "support_headroom",
+      "offset": 0.35,
+      "fraction": 0.8,
+      "floor": "R28_E_CIRCULATION_FLOOR",
+      "head": null,
+      "passed": true
+    },
+    {
+      "route": "E_N",
+      "kind": "support_headroom",
+      "offset": 0.35,
+      "fraction": 1,
+      "floor": "P05_FLOOR_L00_EAST_GARDEN",
+      "head": null,
+      "passed": true
+    },
+    {
+      "route": "E_S",
+      "kind": "passage",
+      "offset": -0.35,
+      "height": 0.3,
+      "object": null,
+      "passed": true
+    },
+    {
+      "route": "E_S",
+      "kind": "passage",
+      "offset": -0.35,
+      "height": 1.5,
+      "object": null,
+      "passed": true
+    },
+    {
+      "route": "E_S",
+      "kind": "passage",
+      "offset": -0.35,
+      "height": 2.1,
+      "object": null,
+      "passed": true
+    },
+    {
+      "route": "E_S",
+      "kind": "support_headroom",
+      "offset": -0.35,
+      "fraction": 0,
+      "floor": "P05_FLOOR_L00_E0",
+      "head": null,
+      "passed": true
+    },
+    {
+      "route": "E_S",
+      "kind": "support_headroom",
+      "offset": -0.35,
+      "fraction": 0.2,
+      "floor": "P05_FLOOR_L00_E0",
+      "head": null,
+      "passed": true
+    },
+    {
+      "route": "E_S",
+      "kind": "support_headroom",
+      "offset": -0.35,
+      "fraction": 0.4,
+      "floor": "R28_E_CIRCULATION_FLOOR",
+      "head": null,
+      "passed": true
+    },
+    {
+      "route": "E_S",
+      "kind": "support_headroom",
+      "offset": -0.35,
+      "fraction": 0.6,
+      "floor": "R28_E_CIRCULATION_FLOOR",
+      "head": null,
+      "passed": true
+    },
+    {
+      "route": "E_S",
+      "kind": "support_headroom",
+      "offset": -0.35,
+      "fraction": 0.8,
+      "floor": "R28_E_CIRCULATION_FLOOR",
+      "head": null,
+      "passed": true
+    },
+    {
+      "route": "E_S",
+      "kind": "support_headroom",
+      "offset": -0.35,
+      "fraction": 1,
+      "floor": "R28_E_CIRCULATION_FLOOR",
+      "head": null,
+      "passed": true
+    },
+    {
+      "route": "E_S",
+      "kind": "passage",
+      "offset": 0,
+      "height": 0.3,
+      "object": null,
+      "passed": true
+    },
+    {
+      "route": "E_S",
+      "kind": "passage",
+      "offset": 0,
+      "height": 1.5,
+      "object": null,
+      "passed": true
+    },
+    {
+      "route": "E_S",
+      "kind": "passage",
+      "offset": 0,
+      "height": 2.1,
+      "object": null,
+      "passed": true
+    },
+    {
+      "route": "E_S",
+      "kind": "support_headroom",
+      "offset": 0,
+      "fraction": 0,
+      "floor": "P05_FLOOR_L00_E0",
+      "head": null,
+      "passed": true
+    },
+    {
+      "route": "E_S",
+      "kind": "support_headroom",
+      "offset": 0,
+      "fraction": 0.2,
+      "floor": "P05_FLOOR_L00_E0",
+      "head": null,
+      "passed": true
+    },
+    {
+      "route": "E_S",
+      "kind": "support_headroom",
+      "offset": 0,
+      "fraction": 0.4,
+      "floor": "R28_E_CIRCULATION_FLOOR",
+      "head": null,
+      "passed": true
+    },
+    {
+      "route": "E_S",
+      "kind": "support_headroom",
+      "offset": 0,
+      "fraction": 0.6,
+      "floor": "R28_E_CIRCULATION_FLOOR",
+      "head": null,
+      "passed": true
+    },
+    {
+      "route": "E_S",
+      "kind": "support_headroom",
+      "offset": 0,
+      "fraction": 0.8,
+      "floor": "P05_FLOOR_L00_EAST_GARDEN",
+      "head": null,
+      "passed": true
+    },
+    {
+      "route": "E_S",
+      "kind": "support_headroom",
+      "offset": 0,
+      "fraction": 1,
+      "floor": "R28_E_CIRCULATION_FLOOR",
+      "head": null,
+      "passed": true
+    },
+    {
+      "route": "E_S",
+      "kind": "passage",
+      "offset": 0.35,
+      "height": 0.3,
+      "object": null,
+      "passed": true
+    },
+    {
+      "route": "E_S",
+      "kind": "passage",
+      "offset": 0.35,
+      "height": 1.5,
+      "object": null,
+      "passed": true
+    },
+    {
+      "route": "E_S",
+      "kind": "passage",
+      "offset": 0.35,
+      "height": 2.1,
+      "object": null,
+      "passed": true
+    },
+    {
+      "route": "E_S",
+      "kind": "support_headroom",
+      "offset": 0.35,
+      "fraction": 0,
+      "floor": "P05_FLOOR_L00_E0",
+      "head": null,
+      "passed": true
+    },
+    {
+      "route": "E_S",
+      "kind": "support_headroom",
+      "offset": 0.35,
+      "fraction": 0.2,
+      "floor": "P05_FLOOR_L00_E0",
+      "head": null,
+      "passed": true
+    },
+    {
+      "route": "E_S",
+      "kind": "support_headroom",
+      "offset": 0.35,
+      "fraction": 0.4,
+      "floor": "R28_E_CIRCULATION_FLOOR",
+      "head": null,
+      "passed": true
+    },
+    {
+      "route": "E_S",
+      "kind": "support_headroom",
+      "offset": 0.35,
+      "fraction": 0.6,
+      "floor": "R28_E_CIRCULATION_FLOOR",
+      "head": null,
+      "passed": true
+    },
+    {
+      "route": "E_S",
+      "kind": "support_headroom",
+      "offset": 0.35,
+      "fraction": 0.8,
+      "floor": "P05_FLOOR_L00_EAST_GARDEN",
+      "head": null,
+      "passed": true
+    },
+    {
+      "route": "E_S",
+      "kind": "support_headroom",
+      "offset": 0.35,
+      "fraction": 1,
+      "floor": "R28_E_CIRCULATION_FLOOR",
+      "head": null,
+      "passed": true
+    },
+    {
+      "route": "W_N",
+      "kind": "passage",
+      "offset": -0.35,
+      "height": 0.3,
+      "object": null,
+      "passed": true
+    },
+    {
+      "route": "W_N",
+      "kind": "passage",
+      "offset": -0.35,
+      "height": 1.5,
+      "object": null,
+      "passed": true
+    },
+    {
+      "route": "W_N",
+      "kind": "passage",
+      "offset": -0.35,
+      "height": 2.1,
+      "object": null,
+      "passed": true
+    },
+    {
+      "route": "W_N",
+      "kind": "support_headroom",
+      "offset": -0.35,
+      "fraction": 0,
+      "floor": "P05_FLOOR_L00_W0",
+      "head": null,
+      "passed": true
+    },
+    {
+      "route": "W_N",
+      "kind": "support_headroom",
+      "offset": -0.35,
+      "fraction": 0.2,
+      "floor": "P05_FLOOR_L00_W0",
+      "head": null,
+      "passed": true
+    },
+    {
+      "route": "W_N",
+      "kind": "support_headroom",
+      "offset": -0.35,
+      "fraction": 0.4,
+      "floor": "P05_FLOOR_L00_W0",
+      "head": null,
+      "passed": true
+    },
+    {
+      "route": "W_N",
+      "kind": "support_headroom",
+      "offset": -0.35,
+      "fraction": 0.6,
+      "floor": "R28_W_CIRCULATION_FLOOR",
+      "head": null,
+      "passed": true
+    },
+    {
+      "route": "W_N",
+      "kind": "support_headroom",
+      "offset": -0.35,
+      "fraction": 0.8,
+      "floor": "R28_W_CIRCULATION_FLOOR",
+      "head": null,
+      "passed": true
+    },
+    {
+      "route": "W_N",
+      "kind": "support_headroom",
+      "offset": -0.35,
+      "fraction": 1,
+      "floor": "R28_W_CIRCULATION_FLOOR",
+      "head": null,
+      "passed": true
+    },
+    {
+      "route": "W_N",
+      "kind": "passage",
+      "offset": 0,
+      "height": 0.3,
+      "object": null,
+      "passed": true
+    },
+    {
+      "route": "W_N",
+      "kind": "passage",
+      "offset": 0,
+      "height": 1.5,
+      "object": null,
+      "passed": true
+    },
+    {
+      "route": "W_N",
+      "kind": "passage",
+      "offset": 0,
+      "height": 2.1,
+      "object": null,
+      "passed": true
+    },
+    {
+      "route": "W_N",
+      "kind": "support_headroom",
+      "offset": 0,
+      "fraction": 0,
+      "floor": "P05_FLOOR_L00_W0",
+      "head": null,
+      "passed": true
+    },
+    {
+      "route": "W_N",
+      "kind": "support_headroom",
+      "offset": 0,
+      "fraction": 0.2,
+      "floor": "P05_FLOOR_L00_W0",
+      "head": null,
+      "passed": true
+    },
+    {
+      "route": "W_N",
+      "kind": "support_headroom",
+      "offset": 0,
+      "fraction": 0.4,
+      "floor": "P05_FLOOR_L00_W0",
+      "head": null,
+      "passed": true
+    },
+    {
+      "route": "W_N",
+      "kind": "support_headroom",
+      "offset": 0,
+      "fraction": 0.6,
+      "floor": "R28_W_CIRCULATION_FLOOR",
+      "head": null,
+      "passed": true
+    },
+    {
+      "route": "W_N",
+      "kind": "support_headroom",
+      "offset": 0,
+      "fraction": 0.8,
+      "floor": "R28_W_CIRCULATION_FLOOR",
+      "head": null,
+      "passed": true
+    },
+    {
+      "route": "W_N",
+      "kind": "support_headroom",
+      "offset": 0,
+      "fraction": 1,
+      "floor": "R28_W_CIRCULATION_FLOOR",
+      "head": null,
+      "passed": true
+    },
+    {
+      "route": "W_N",
+      "kind": "passage",
+      "offset": 0.35,
+      "height": 0.3,
+      "object": null,
+      "passed": true
+    },
+    {
+      "route": "W_N",
+      "kind": "passage",
+      "offset": 0.35,
+      "height": 1.5,
+      "object": null,
+      "passed": true
+    },
+    {
+      "route": "W_N",
+      "kind": "passage",
+      "offset": 0.35,
+      "height": 2.1,
+      "object": null,
+      "passed": true
+    },
+    {
+      "route": "W_N",
+      "kind": "support_headroom",
+      "offset": 0.35,
+      "fraction": 0,
+      "floor": "P05_FLOOR_L00_W0",
+      "head": null,
+      "passed": true
+    },
+    {
+      "route": "W_N",
+      "kind": "support_headroom",
+      "offset": 0.35,
+      "fraction": 0.2,
+      "floor": "R87_BASE_FLOOR",
+      "head": null,
+      "passed": true
+    },
+    {
+      "route": "W_N",
+      "kind": "support_headroom",
+      "offset": 0.35,
+      "fraction": 0.4,
+      "floor": "P05_FLOOR_L00_W0",
+      "head": null,
+      "passed": true
+    },
+    {
+      "route": "W_N",
+      "kind": "support_headroom",
+      "offset": 0.35,
+      "fraction": 0.6,
+      "floor": "R28_W_CIRCULATION_FLOOR",
+      "head": null,
+      "passed": true
+    },
+    {
+      "route": "W_N",
+      "kind": "support_headroom",
+      "offset": 0.35,
+      "fraction": 0.8,
+      "floor": "R28_W_CIRCULATION_FLOOR",
+      "head": null,
+      "passed": true
+    },
+    {
+      "route": "W_N",
+      "kind": "support_headroom",
+      "offset": 0.35,
+      "fraction": 1,
+      "floor": "R28_W_CIRCULATION_FLOOR",
+      "head": null,
+      "passed": true
+    },
+    {
+      "route": "W_S",
+      "kind": "passage",
+      "offset": -0.35,
+      "height": 0.3,
+      "object": null,
+      "passed": true
+    },
+    {
+      "route": "W_S",
+      "kind": "passage",
+      "offset": -0.35,
+      "height": 1.5,
+      "object": null,
+      "passed": true
+    },
+    {
+      "route": "W_S",
+      "kind": "passage",
+      "offset": -0.35,
+      "height": 2.1,
+      "object": null,
+      "passed": true
+    },
+    {
+      "route": "W_S",
+      "kind": "support_headroom",
+      "offset": -0.35,
+      "fraction": 0,
+      "floor": "P05_FLOOR_L00_W0",
+      "head": null,
+      "passed": true
+    },
+    {
+      "route": "W_S",
+      "kind": "support_headroom",
+      "offset": -0.35,
+      "fraction": 0.2,
+      "floor": "P05_FLOOR_L00_W0",
+      "head": null,
+      "passed": true
+    },
+    {
+      "route": "W_S",
+      "kind": "support_headroom",
+      "offset": -0.35,
+      "fraction": 0.4,
+      "floor": "P05_FLOOR_L00_W0",
+      "head": null,
+      "passed": true
+    },
+    {
+      "route": "W_S",
+      "kind": "support_headroom",
+      "offset": -0.35,
+      "fraction": 0.6,
+      "floor": "R28_W_CIRCULATION_FLOOR",
+      "head": null,
+      "passed": true
+    },
+    {
+      "route": "W_S",
+      "kind": "support_headroom",
+      "offset": -0.35,
+      "fraction": 0.8,
+      "floor": "R28_W_CIRCULATION_FLOOR",
+      "head": null,
+      "passed": true
+    },
+    {
+      "route": "W_S",
+      "kind": "support_headroom",
+      "offset": -0.35,
+      "fraction": 1,
+      "floor": "R28_W_CIRCULATION_FLOOR",
+      "head": null,
+      "passed": true
+    },
+    {
+      "route": "W_S",
+      "kind": "passage",
+      "offset": 0,
+      "height": 0.3,
+      "object": null,
+      "passed": true
+    },
+    {
+      "route": "W_S",
+      "kind": "passage",
+      "offset": 0,
+      "height": 1.5,
+      "object": null,
+      "passed": true
+    },
+    {
+      "route": "W_S",
+      "kind": "passage",
+      "offset": 0,
+      "height": 2.1,
+      "object": null,
+      "passed": true
+    },
+    {
+      "route": "W_S",
+      "kind": "support_headroom",
+      "offset": 0,
+      "fraction": 0,
+      "floor": "P05_FLOOR_L00_W0",
+      "head": null,
+      "passed": true
+    },
+    {
+      "route": "W_S",
+      "kind": "support_headroom",
+      "offset": 0,
+      "fraction": 0.2,
+      "floor": "P05_FLOOR_L00_W0",
+      "head": null,
+      "passed": true
+    },
+    {
+      "route": "W_S",
+      "kind": "support_headroom",
+      "offset": 0,
+      "fraction": 0.4,
+      "floor": "P05_FLOOR_L00_W0",
+      "head": null,
+      "passed": true
+    },
+    {
+      "route": "W_S",
+      "kind": "support_headroom",
+      "offset": 0,
+      "fraction": 0.6,
+      "floor": "R28_W_CIRCULATION_FLOOR",
+      "head": null,
+      "passed": true
+    },
+    {
+      "route": "W_S",
+      "kind": "support_headroom",
+      "offset": 0,
+      "fraction": 0.8,
+      "floor": "R28_W_CIRCULATION_FLOOR",
+      "head": null,
+      "passed": true
+    },
+    {
+      "route": "W_S",
+      "kind": "support_headroom",
+      "offset": 0,
+      "fraction": 1,
+      "floor": "R28_W_CIRCULATION_FLOOR",
+      "head": null,
+      "passed": true
+    },
+    {
+      "route": "W_S",
+      "kind": "passage",
+      "offset": 0.35,
+      "height": 0.3,
+      "object": null,
+      "passed": true
+    },
+    {
+      "route": "W_S",
+      "kind": "passage",
+      "offset": 0.35,
+      "height": 1.5,
+      "object": null,
+      "passed": true
+    },
+    {
+      "route": "W_S",
+      "kind": "passage",
+      "offset": 0.35,
+      "height": 2.1,
+      "object": null,
+      "passed": true
+    },
+    {
+      "route": "W_S",
+      "kind": "support_headroom",
+      "offset": 0.35,
+      "fraction": 0,
+      "floor": "P05_FLOOR_L00_W0",
+      "head": null,
+      "passed": true
+    },
+    {
+      "route": "W_S",
+      "kind": "support_headroom",
+      "offset": 0.35,
+      "fraction": 0.2,
+      "floor": "P05_FLOOR_L00_W0",
+      "head": null,
+      "passed": true
+    },
+    {
+      "route": "W_S",
+      "kind": "support_headroom",
+      "offset": 0.35,
+      "fraction": 0.4,
+      "floor": "P05_FLOOR_L00_W0",
+      "head": null,
+      "passed": true
+    },
+    {
+      "route": "W_S",
+      "kind": "support_headroom",
+      "offset": 0.35,
+      "fraction": 0.6,
+      "floor": "R28_W_CIRCULATION_FLOOR",
+      "head": null,
+      "passed": true
+    },
+    {
+      "route": "W_S",
+      "kind": "support_headroom",
+      "offset": 0.35,
+      "fraction": 0.8,
+      "floor": "R28_W_CIRCULATION_FLOOR",
+      "head": null,
+      "passed": true
+    },
+    {
+      "route": "W_S",
+      "kind": "support_headroom",
+      "offset": 0.35,
+      "fraction": 1,
+      "floor": "R28_W_CIRCULATION_FLOOR",
+      "head": null,
+      "passed": true
+    }
+  ],
+  "failures": [],
+  "construction_acceptance": false,
+  "limits": [
+    "Registered four ground gallery routes only; 0.7m sampled width is not a code clearance certification.",
+    "Uses active evaluated geometry, including replacements for retired R28 walls."
+  ]
+}

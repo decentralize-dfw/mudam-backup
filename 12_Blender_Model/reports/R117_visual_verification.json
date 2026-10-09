@@ -1,0 +1,47 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R117_CEPHE_KOSE_KOPRU_BIRLESIM_v004.blend",
+  "reviewed_images": [
+    {
+      "path": "12_Blender_Model/renders/qa/R117_after_SS1_exterior.png",
+      "sha256": "2b1bc149940141a7700861c96093e8960e7137d77cf5816d43d09f28670c22f5"
+    },
+    {
+      "path": "12_Blender_Model/renders/qa/R117_after_SS2_gallery.png",
+      "sha256": "32ffa55b15ec4dc5365b730c71be6f4cb44ec7919d637958a649b2826756fc33"
+    },
+    {
+      "path": "12_Blender_Model/renders/qa/R117_after_SS2_reverse.png",
+      "sha256": "fe8b65d0fe3bd4bb72ad144f8cf68bcd911dc368048a25c03cc114f160fbd9e2"
+    },
+    {
+      "path": "12_Blender_Model/renders/qa/R117_after_SS3_jamb.png",
+      "sha256": "8b3e1e0e7a70d5616e65a7629f864d5b95ed8d26c5d587408f770c490a8e331c"
+    },
+    {
+      "path": "12_Blender_Model/renders/qa/R117_after_SS4_5_petite.png",
+      "sha256": "67b6eea593499ab835498289a24f45754fb2e3d230c186d3ca4b05a638df6183"
+    },
+    {
+      "path": "12_Blender_Model/renders/qa/R117_after_SS6_bridge.png",
+      "sha256": "1c0a55deec8a0f4bafc536daa511aee286879a13672ba108412dff231bec2943"
+    },
+    {
+      "path": "12_Blender_Model/renders/qa/R117_after_SS7_corner.png",
+      "sha256": "caca023f1fbc386eb26a9f3a6c70459496c516e9f324f132121fbb39fcb49db0"
+    },
+    {
+      "path": "12_Blender_Model/renders/qa/R117_after_SS8_lower.png",
+      "sha256": "b8f32a0b49c12f8aabff807724333227ad25a9d54981f74938daa77f33d4c64e"
+    },
+    {
+      "path": "12_Blender_Model/renders/qa/R117_before_SS1_exterior.png",
+      "sha256": "425100f806c942b8c25552562add033744c2051f482f99b7b8bbe201dd16d05e"
+    },
+    {
+      "path": "12_Blender_Model/renders/qa/R117_before_SS6_bridge.png",
+      "sha256": "81211d475be2a45ac1f4591d0fa05cc960898d16bf6e46dc5d9a246840cadc11"
+    }
+  ],
+  "failures": [],
+  "scope": "Local SS1 corner/window and SS6 bridge before/after comparison; eight user groups inspected, not whole-building dimensional acceptance"
+}

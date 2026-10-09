@@ -1,0 +1,95 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R117_CEPHE_KOSE_KOPRU_BIRLESIM_v004.blend",
+  "checks": [
+    {
+      "label": "SS4 removed R87_ROOM_SIDE",
+      "passed": true
+    },
+    {
+      "label": "SS4 removed R87_ROOM_FRONT_LEFT",
+      "passed": true
+    },
+    {
+      "label": "SS4 removed R87_ROOM_FRONT_RIGHT",
+      "passed": true
+    },
+    {
+      "label": "SS4 removed R87_ROOM_DOOR_HEAD",
+      "passed": true
+    },
+    {
+      "label": "wall top R116_PETITE_CAFE_BOUNDARY",
+      "passed": true
+    },
+    {
+      "label": "wall top R116_BRIDGE_NORTH_WEST",
+      "passed": true
+    },
+    {
+      "label": "wall top R116_BRIDGE_NORTH_EAST",
+      "passed": true
+    },
+    {
+      "label": "SS8 floor ('L', 483, 418)",
+      "passed": true,
+      "owner": "R116_AUD_ENTRY_FLOOR_L"
+    },
+    {
+      "label": "SS8 floor ('L', 483, 420)",
+      "passed": true,
+      "owner": "R116_AUD_ENTRY_FLOOR_L"
+    },
+    {
+      "label": "SS8 floor ('R', 560, 418)",
+      "passed": true,
+      "owner": "R116_AUD_ENTRY_FLOOR_R"
+    },
+    {
+      "label": "SS8 floor ('R', 561, 420)",
+      "passed": true,
+      "owner": "R19_FRONT_R_OUTER"
+    },
+    {
+      "label": "First window clear of modern corner",
+      "passed": true
+    },
+    {
+      "label": "SS1 lower window 1",
+      "passed": true,
+      "owner": "R54_WINDOW_01_GLASS"
+    },
+    {
+      "label": "SS1 lower window 2",
+      "passed": true,
+      "owner": "R54_WINDOW_02_GLASS"
+    },
+    {
+      "label": "SS1 lower window 3",
+      "passed": true,
+      "owner": "R54_WINDOW_03_GLASS"
+    },
+    {
+      "label": "SS1 lower window 4",
+      "passed": true,
+      "owner": "R54_WINDOW_04_GLASS"
+    },
+    {
+      "label": "SS1 lower window 5",
+      "passed": true,
+      "owner": "R54_WINDOW_05_GLASS"
+    },
+    {
+      "label": "SS3/7 closure R116_STAIR_PORTAL_JAMB_JOIN",
+      "passed": true
+    },
+    {
+      "label": "SS3/7 closure R116_E_GALLERY_END_RETURN",
+      "passed": true
+    }
+  ],
+  "failures": [],
+  "construction_acceptance": false,
+  "limits": [
+    "Local geometry and user-marked boundary checks only; not full building or surveyed accuracy acceptance."
+  ]
+}

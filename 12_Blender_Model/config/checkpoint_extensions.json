@@ -1537,5 +1537,29 @@
     "image": "R116_after_SS4_5_petite.png",
     "description": "Küçük odanın yanlış iç bölmeleri kaldırıldı; dış sınırı ve köprü duvarları üst örtüye bağlandı. Cephe/döşeme kesişimleri, galeri/merdiven duvar birleşimi ve alt katın açık yan hacimleri düzeltildi. Önce/sonra görüntüleri ve yeniden açılan sahne kontrolleri kaydedildi.",
     "limits": "Bina bütünü ve bütün ölçüler kabul edilmiş değildir. Alt cephe ilk pencere/köşe kayıt uyumu ve ölçülmemiş kalınlıklar açıktır; kapı temsilleri ürün doğrulaması değildir."
+  },
+  {
+    "id": "R117",
+    "checks": [
+      "R117_verification.json",
+      "R117_global_audit.json",
+      "R117_inherited_verification.json",
+      "R117_stair_width_clearance.json",
+      "R117_ground_routes.json",
+      "R117_portal_verification.json",
+      "R117_bridge_verification.json",
+      "R117_visual_verification.json"
+    ],
+    "tasks": [
+      "P05",
+      "P07",
+      "P12",
+      "P16"
+    ],
+    "report": "R117_KONTROL_RAPORU.md",
+    "title": "Cephe köşesi ve köprü birleşimleri / R117",
+    "image": "R117_after_SS1_exterior.png",
+    "description": "Cephe köşesi altındaki dönüş tamamlandı; beş pencere, girintileri ve tarihî duvar açıklıkları birlikte köşe içine taşındı. Üst köprünün iki galeriyle döşeme bağlantısı ve doğu duvar ucu üretildi.",
+    "limits": "Fotoğraf 004/116 ve plan 103 esas alındı. Pencere dizisinin 2,459 m kaydırılması mevcut model köşesine göre türetilmiştir; 0,12 m kenar payı ve diğer miras boyutları ölçülü rölöve değildir. Bütün bina kabulü ve kalan üretim işleri açıktır."
   }
 ]

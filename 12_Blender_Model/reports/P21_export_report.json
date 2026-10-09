@@ -1,7 +1,7 @@
 {
-  "source_scene": "12_Blender_Model/scenes/MUDAM_R116_SEKIZ_ISARET_KABUK_v007.blend",
-  "file": "12_Blender_Model/exports/MUDAM_R116_SEKIZ_ISARET_KABUK_v007_preview.glb",
-  "selected_mesh_count": 8480,
+  "source_scene": "12_Blender_Model/scenes/MUDAM_R117_CEPHE_KOSE_KOPRU_BIRLESIM_v004.blend",
+  "file": "12_Blender_Model/exports/MUDAM_R117_CEPHE_KOSE_KOPRU_BIRLESIM_v004_preview.glb",
+  "selected_mesh_count": 8484,
   "selected_names": [
     "R37_GH_EAST_PORTAL_METAL_HEAD",
     "R99_W_GROUND_GALLERY_ENTRY_WALL",
@@ -8482,7 +8482,11 @@
     "R116_FOYER_W_LEFT",
     "R116_FOYER_W_RIGHT",
     "R116_FOYER_W_HEAD",
-    "R116_FOYER_W_CLOSED_LEAF"
+    "R116_FOYER_W_CLOSED_LEAF",
+    "R117_LOWER_FACADE_CORNER_RETURN",
+    "R117_E_BRIDGE_FLOOR_JOIN",
+    "R117_W_BRIDGE_FLOOR_JOIN",
+    "R117_E_BRIDGE_WALL_END"
   ],
   "blender_world_bounds": {
     "min": [

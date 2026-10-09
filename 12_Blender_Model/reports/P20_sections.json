@@ -1,5 +1,5 @@
 {
-  "scene": "12_Blender_Model/scenes/MUDAM_R116_SEKIZ_ISARET_KABUK_v007.blend",
+  "scene": "12_Blender_Model/scenes/MUDAM_R117_CEPHE_KOSE_KOPRU_BIRLESIM_v004.blend",
   "method": "Evaluated visible architectural mesh / horizontal-plane triangle intersections. Tree foliage, branches and trunks excluded explicitly; no building geometry or plan warping.",
   "excluded_vegetation": [
     "R38_TREE_6380924935_TRUNK",
@@ -80,8 +80,8 @@
       "segments": 5720
     },
     "LP1": {
-      "objects": 437,
-      "segments": 5544
+      "objects": 438,
+      "segments": 5552
     }
   },
   "objects": [
@@ -118833,6 +118833,94 @@
           [
             457.878248847575,
             467.12150033975445
+          ]
+        ]
+      ]
+    },
+    {
+      "level": "LP1",
+      "name": "R117_E_BRIDGE_WALL_END",
+      "glass": false,
+      "status": "user_corrected_boundary_candidate_dimensions",
+      "segments": [
+        [
+          [
+            457.87825334088336,
+            555.4999970077977
+          ],
+          [
+            458.714567920095,
+            555.5000047835366
+          ]
+        ],
+        [
+          [
+            458.714567920095,
+            555.5000047835366
+          ],
+          [
+            464.9999894465379,
+            555.4999973803642
+          ]
+        ],
+        [
+          [
+            464.9999894465379,
+            555.4999973803642
+          ],
+          [
+            465.00000234200604,
+            555.7935748574628
+          ]
+        ],
+        [
+          [
+            465.00000234200604,
+            555.7935748574628
+          ],
+          [
+            464.9999933400698,
+            557.9999994181583
+          ]
+        ],
+        [
+          [
+            464.9999933400698,
+            557.9999994181583
+          ],
+          [
+            464.1636737065713,
+            558.000008866844
+          ]
+        ],
+        [
+          [
+            464.1636737065713,
+            558.000008866844
+          ],
+          [
+            457.87826228870193,
+            557.9999818211669
+          ]
+        ],
+        [
+          [
+            457.87826228870193,
+            557.9999818211669
+          ],
+          [
+            457.87825527214693,
+            557.7064098106683
+          ]
+        ],
+        [
+          [
+            457.87825527214693,
+            557.7064098106683
+          ],
+          [
+            457.87825334088336,
+            555.4999970077977
           ]
         ]
       ]

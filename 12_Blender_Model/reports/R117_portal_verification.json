@@ -1,0 +1,91 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R117_CEPHE_KOSE_KOPRU_BIRLESIM_v004.blend",
+  "closed_solids_checked": 3,
+  "failures": [],
+  "portal_ray_tests": [
+    {
+      "t": 0.2,
+      "z": 1.2,
+      "hits": []
+    },
+    {
+      "t": 0.2,
+      "z": 3.75,
+      "hits": []
+    },
+    {
+      "t": 0.2,
+      "z": 3.96,
+      "hits": [
+        "P07_GH_EAST_PORTAL_CROSS_BEAM"
+      ]
+    },
+    {
+      "t": 0.2,
+      "z": 4.32,
+      "hits": []
+    },
+    {
+      "t": 0.2,
+      "z": 9.318577096381803,
+      "hits": []
+    },
+    {
+      "t": 0.5,
+      "z": 1.2,
+      "hits": []
+    },
+    {
+      "t": 0.5,
+      "z": 3.75,
+      "hits": []
+    },
+    {
+      "t": 0.5,
+      "z": 3.96,
+      "hits": [
+        "P07_GH_EAST_PORTAL_CROSS_BEAM"
+      ]
+    },
+    {
+      "t": 0.5,
+      "z": 4.32,
+      "hits": []
+    },
+    {
+      "t": 0.5,
+      "z": 9.318577096381803,
+      "hits": []
+    },
+    {
+      "t": 0.8,
+      "z": 1.2,
+      "hits": []
+    },
+    {
+      "t": 0.8,
+      "z": 3.75,
+      "hits": []
+    },
+    {
+      "t": 0.8,
+      "z": 3.96,
+      "hits": [
+        "P07_GH_EAST_PORTAL_CROSS_BEAM"
+      ]
+    },
+    {
+      "t": 0.8,
+      "z": 4.32,
+      "hits": []
+    },
+    {
+      "t": 0.8,
+      "z": 9.318577096381803,
+      "hits": []
+    }
+  ],
+  "earlier_roof_podium_preserved": true,
+  "metric_interior_camera_verified": false,
+  "construction_acceptance": false
+}

@@ -1,0 +1,136 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R117_CEPHE_KOSE_KOPRU_BIRLESIM_v004.blend",
+  "base_scene": "MUDAM_R116_SEKIZ_ISARET_KABUK_v007.blend",
+  "closed_objects": [
+    "R117_LOWER_FACADE_CORNER_RETURN",
+    "R117_E_BRIDGE_FLOOR_JOIN",
+    "R117_W_BRIDGE_FLOOR_JOIN",
+    "R117_E_BRIDGE_WALL_END"
+  ],
+  "changed_inherited_objects": [
+    "R116_LOWER_FACADE_BACKING",
+    "R35_WALL_51946353_00_0",
+    "R54_WINDOW_01_BACK_HEAD",
+    "R54_WINDOW_01_FACADE_CUTTER",
+    "R54_WINDOW_01_FRAME_B",
+    "R54_WINDOW_01_FRAME_L",
+    "R54_WINDOW_01_FRAME_R",
+    "R54_WINDOW_01_FRAME_T",
+    "R54_WINDOW_01_GLASS",
+    "R54_WINDOW_01_HISTORIC_CUTTER",
+    "R54_WINDOW_01_JAMB_L",
+    "R54_WINDOW_01_JAMB_R",
+    "R54_WINDOW_01_SILL",
+    "R54_WINDOW_02_BACK_HEAD",
+    "R54_WINDOW_02_FACADE_CUTTER",
+    "R54_WINDOW_02_FRAME_B",
+    "R54_WINDOW_02_FRAME_L",
+    "R54_WINDOW_02_FRAME_R",
+    "R54_WINDOW_02_FRAME_T",
+    "R54_WINDOW_02_GLASS",
+    "R54_WINDOW_02_HISTORIC_CUTTER",
+    "R54_WINDOW_02_JAMB_L",
+    "R54_WINDOW_02_JAMB_R",
+    "R54_WINDOW_02_SILL",
+    "R54_WINDOW_03_BACK_HEAD",
+    "R54_WINDOW_03_FACADE_CUTTER",
+    "R54_WINDOW_03_FRAME_B",
+    "R54_WINDOW_03_FRAME_L",
+    "R54_WINDOW_03_FRAME_R",
+    "R54_WINDOW_03_FRAME_T",
+    "R54_WINDOW_03_GLASS",
+    "R54_WINDOW_03_HISTORIC_CUTTER",
+    "R54_WINDOW_03_JAMB_L",
+    "R54_WINDOW_03_JAMB_R",
+    "R54_WINDOW_03_SILL",
+    "R54_WINDOW_04_BACK_HEAD",
+    "R54_WINDOW_04_FACADE_CUTTER",
+    "R54_WINDOW_04_FRAME_B",
+    "R54_WINDOW_04_FRAME_L",
+    "R54_WINDOW_04_FRAME_R",
+    "R54_WINDOW_04_FRAME_T",
+    "R54_WINDOW_04_GLASS",
+    "R54_WINDOW_04_HISTORIC_CUTTER",
+    "R54_WINDOW_04_JAMB_L",
+    "R54_WINDOW_04_JAMB_R",
+    "R54_WINDOW_04_SILL",
+    "R54_WINDOW_05_BACK_HEAD",
+    "R54_WINDOW_05_FACADE_CUTTER",
+    "R54_WINDOW_05_FRAME_B",
+    "R54_WINDOW_05_FRAME_L",
+    "R54_WINDOW_05_FRAME_R",
+    "R54_WINDOW_05_FRAME_T",
+    "R54_WINDOW_05_GLASS",
+    "R54_WINDOW_05_HISTORIC_CUTTER",
+    "R54_WINDOW_05_JAMB_L",
+    "R54_WINDOW_05_JAMB_R",
+    "R54_WINDOW_05_SILL"
+  ],
+  "operations": [
+    {
+      "name": "R35_WALL_51946353_00_0",
+      "operation": "DIFFERENCE",
+      "issue": "five relocated historic notches",
+      "before_volume": 237.85387786660402,
+      "after_volume": 233.70811162231243
+    },
+    {
+      "name": "R35_WALL_51946353_00_0",
+      "operation": "DIFFERENCE",
+      "issue": "five relocated historic notches",
+      "before_volume": 233.70811162231243,
+      "after_volume": 229.56244623801362
+    },
+    {
+      "name": "R35_WALL_51946353_00_0",
+      "operation": "DIFFERENCE",
+      "issue": "five relocated historic notches",
+      "before_volume": 229.56244623801362,
+      "after_volume": 225.41681162146006
+    },
+    {
+      "name": "R35_WALL_51946353_00_0",
+      "operation": "DIFFERENCE",
+      "issue": "five relocated historic notches",
+      "before_volume": 225.41681162146006,
+      "after_volume": 221.27117827098357
+    },
+    {
+      "name": "R35_WALL_51946353_00_0",
+      "operation": "DIFFERENCE",
+      "issue": "five relocated historic notches",
+      "before_volume": 221.27117827098357,
+      "after_volume": 217.12554916642182
+    },
+    {
+      "name": "R117_LOWER_FACADE_CORNER_RETURN",
+      "operation": "DIFFERENCE",
+      "issue": "lower corner joins historic masonry without overlap",
+      "before_volume": 6.662698581217818,
+      "after_volume": 6.315082274890727
+    }
+  ],
+  "old_centers": [
+    22.84,
+    28.32,
+    33.8,
+    39.28,
+    44.76
+  ],
+  "new_centers": [
+    25.29905930876732,
+    30.77905930876732,
+    36.25905930876732,
+    41.739059308767324,
+    47.219059308767314
+  ],
+  "window_translation_m": 2.459059308767319,
+  "corner_end_m": 23.97905930876732,
+  "corner_clearance_m": 0.12,
+  "construction_acceptance": false,
+  "visual_acceptance": true,
+  "limits": [
+    "004 and116 support five reveals fully within modern facade. Existing rhythm retained; translation derives from existing corner, not a surveyed absolute location.",
+    "Bridge join closes source103 continuous circulation band to existing gallery slabs; inherited level retained."
+  ]
+}

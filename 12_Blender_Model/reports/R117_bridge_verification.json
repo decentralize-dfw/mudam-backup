@@ -1,0 +1,136 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R117_CEPHE_KOSE_KOPRU_BIRLESIM_v004.blend",
+  "checks": [
+    {
+      "phase": "before",
+      "side": "E",
+      "x": 461,
+      "y": 560,
+      "owner": null,
+      "passed": false
+    },
+    {
+      "phase": "before",
+      "side": "E",
+      "x": 461,
+      "y": 570,
+      "owner": "R23_THRESHOLD_E_BRIDGE",
+      "passed": true
+    },
+    {
+      "phase": "before",
+      "side": "E",
+      "x": 461,
+      "y": 580,
+      "owner": "R23_THRESHOLD_E_BRIDGE",
+      "passed": true
+    },
+    {
+      "phase": "before",
+      "side": "E",
+      "x": 461,
+      "y": 590,
+      "owner": "R23_THRESHOLD_E_BRIDGE",
+      "passed": true
+    },
+    {
+      "phase": "before",
+      "side": "W",
+      "x": 691.5,
+      "y": 560,
+      "owner": null,
+      "passed": false
+    },
+    {
+      "phase": "before",
+      "side": "W",
+      "x": 691.5,
+      "y": 570,
+      "owner": "R23_THRESHOLD_W_BRIDGE",
+      "passed": true
+    },
+    {
+      "phase": "before",
+      "side": "W",
+      "x": 691.5,
+      "y": 580,
+      "owner": "R23_THRESHOLD_W_BRIDGE",
+      "passed": true
+    },
+    {
+      "phase": "before",
+      "side": "W",
+      "x": 691.5,
+      "y": 590,
+      "owner": "R23_THRESHOLD_W_BRIDGE",
+      "passed": true
+    },
+    {
+      "phase": "after",
+      "side": "E",
+      "x": 461,
+      "y": 560,
+      "owner": "R117_E_BRIDGE_FLOOR_JOIN",
+      "passed": true
+    },
+    {
+      "phase": "after",
+      "side": "E",
+      "x": 461,
+      "y": 570,
+      "owner": "R23_THRESHOLD_E_BRIDGE",
+      "passed": true
+    },
+    {
+      "phase": "after",
+      "side": "E",
+      "x": 461,
+      "y": 580,
+      "owner": "R23_THRESHOLD_E_BRIDGE",
+      "passed": true
+    },
+    {
+      "phase": "after",
+      "side": "E",
+      "x": 461,
+      "y": 590,
+      "owner": "R23_THRESHOLD_E_BRIDGE",
+      "passed": true
+    },
+    {
+      "phase": "after",
+      "side": "W",
+      "x": 691.5,
+      "y": 560,
+      "owner": "R117_W_BRIDGE_FLOOR_JOIN",
+      "passed": true
+    },
+    {
+      "phase": "after",
+      "side": "W",
+      "x": 691.5,
+      "y": 570,
+      "owner": "R23_THRESHOLD_W_BRIDGE",
+      "passed": true
+    },
+    {
+      "phase": "after",
+      "side": "W",
+      "x": 691.5,
+      "y": 580,
+      "owner": "R117_W_BRIDGE_FLOOR_JOIN",
+      "passed": true
+    },
+    {
+      "phase": "after",
+      "side": "W",
+      "x": 691.5,
+      "y": 590,
+      "owner": "R117_W_BRIDGE_FLOOR_JOIN",
+      "passed": true
+    }
+  ],
+  "before_missing": 2,
+  "failures": [],
+  "construction_acceptance": false
+}
