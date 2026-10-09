@@ -130,6 +130,28 @@ section{margin-top:72px}
 .value h3{font-size:15.5px; margin-bottom:6px}
 .value p{margin:0; font-size:14px; color:var(--muted)}
 
+/* teknik mimari */
+.tech{display:grid; gap:16px}
+.tech-block{border:1px solid var(--line); background:var(--surface); padding:18px 20px}
+.tech-block>h3{font-size:16.5px; margin-bottom:12px}
+.tech-block>h3 .tno{font-family:"IBM Plex Mono", monospace; font-size:12px; color:var(--accent); margin-right:10px}
+.tech-block ul{margin:0; padding:0; list-style:none; display:grid; gap:9px}
+.tech-block li{padding-left:20px; position:relative; font-size:14.5px; max-width:76ch}
+.tech-block li::before{content:""; position:absolute; left:0; top:.62em; width:8px; height:2px; background:var(--line-strong)}
+.tech-block li b{font-weight:600}
+.stack{display:grid; gap:6px}
+.stack .row{display:grid; grid-template-columns:132px 1fr; gap:14px; border:1px solid var(--line); background:var(--bg); padding:10px 12px}
+.stack .row>b{font:500 11px "IBM Plex Mono", monospace; letter-spacing:.07em; text-transform:uppercase; color:var(--accent); padding-top:3px}
+.stack .row>div{font-size:14px}
+.stack .row small{display:block; color:var(--muted); font-size:12.5px; margin-top:2px}
+@media (max-width:560px){ .stack .row{grid-template-columns:1fr} }
+.tbl-wrap{overflow-x:auto}
+table.budget{border-collapse:collapse; width:100%; font-size:14px; min-width:460px}
+.budget th,.budget td{border:1px solid var(--line); padding:9px 12px; text-align:left; vertical-align:top}
+.budget th{font:600 11px "IBM Plex Mono", monospace; letter-spacing:.07em; text-transform:uppercase; color:var(--muted); background:var(--chip)}
+.budget td.num{font-variant-numeric:tabular-nums}
+.budget td small{color:var(--muted)}
+
 footer{margin-top:88px; border-top:1px solid var(--line); padding-top:18px; font-size:13px; color:var(--muted); display:flex; gap:16px; flex-wrap:wrap; justify-content:space-between}
 
 @media (prefers-reduced-motion: no-preference){
@@ -145,6 +167,7 @@ footer{margin-top:88px; border-top:1px solid var(--line); padding-top:18px; font
     <a href="#platform"><span class="tr">Platform</span><span class="en">Platform</span></a>
     <a href="#program"><span class="tr">Program</span><span class="en">Programme</span></a>
     <a href="#yol"><span class="tr">Yol haritası</span><span class="en">Roadmap</span></a>
+    <a href="#teknik"><span class="tr">Teknik</span><span class="en">Tech</span></a>
     <a href="#deger"><span class="tr">Değer</span><span class="en">Value</span></a>
   </nav>
   <div class="lang" role="group" aria-label="Language">
@@ -512,8 +535,133 @@ footer{margin-top:88px; border-top:1px solid var(--line); padding-top:18px; font
   </div>
 </section>
 
+<section id="teknik">
+  <div class="sec-head"><span class="no">D</span><h2><span class="tr">Faz 1 demosu: teknik mimari</span><span class="en">Phase 1 demo: technical architecture</span></h2></div>
+  <p class="sec-intro tr">Demo, kurulum gerektirmeyen bir web uygulamasıdır: tek bağlantı, tarayıcıda açılır. Aşağıdaki kurgu bugün üretimde kanıtlanmış araçlara dayanır; deneysel bağımlılık yoktur ve demo, atılacak bir prototip değil platformun ilk sürümüdür.</p>
+  <p class="sec-intro en">The demo is a web application with nothing to install: one link, opened in a browser. The setup below relies on tools proven in production today; there are no experimental dependencies, and the demo is the platform's first release, not a throwaway prototype.</p>
+
+  <div class="tech">
+
+    <div class="tech-block">
+      <h3><span class="tno">T1</span><span class="tr">İçerik hattı — arşivden modele</span><span class="en">Content pipeline — from archive to model</span></h3>
+      <ul>
+        <li class="tr"><b>Kaynak veri:</b> ölçekli plan–kesit arşivi, OSM ile hizalanmış vaziyet planı ve 105 fotoğraflık konum atlası. Model, belgelenmiş kaynaklara dayanır; her varsayım kayıt altındadır.</li>
+        <li class="en"><b>Source data:</b> the scaled plan–section archive, an OSM-aligned site plan and a 105-photo location atlas. The model rests on documented sources; every assumption is on record.</li>
+        <li class="tr"><b>Modelleme:</b> Blender, 23 iş paketi hâlinde; her nesne kat, oda ve katman etiketi taşıyan düzenli bir adlandırma şemasına bağlıdır. Bu disiplin, 01'deki katman ayrıştırmanın ve ileride eser bağlamanın ön koşuludur.</li>
+        <li class="en"><b>Modelling:</b> Blender, organised as 23 work packages; every object follows a naming scheme carrying floor, room and layer tags. This discipline is the precondition for the layer breakdown in 01 and for attaching artworks later.</li>
+        <li class="tr"><b>Optimizasyon:</b> detay seviyeleri (LOD), poligon sadeleştirme, doku atlasları ve pişirilmiş ışık haritaları (baked lighting) — görsel kalite, gerçek zamanlı hesap yükü olmadan korunur.</li>
+        <li class="en"><b>Optimisation:</b> levels of detail (LOD), polygon reduction, texture atlases and baked light maps — visual quality kept without real-time lighting cost.</li>
+        <li class="tr"><b>Dışa aktarım:</b> glTF 2.0 (GLB) açık standardı; Draco geometri sıkıştırması, KTX2/Basis doku sıkıştırması ve meshopt ile web için paketlenir.</li>
+        <li class="en"><b>Export:</b> the open glTF 2.0 (GLB) standard, packaged for the web with Draco geometry compression, KTX2/Basis texture compression and meshopt.</li>
+        <li class="tr"><b>Otomasyon:</b> Blender'dan tek komutla dışa aktaran Python betiği; model her güncellendiğinde site içeriği otomatik yeniden paketlenir. Elle taşıma yok, sürüm karışıklığı yok.</li>
+        <li class="en"><b>Automation:</b> a Python script exports from Blender in one command; whenever the model changes, site content repackages automatically. No manual handling, no version drift.</li>
+      </ul>
+    </div>
+
+    <div class="tech-block">
+      <h3><span class="tno">T2</span><span class="tr">Çalışma zamanı — tarayıcıdaki motor</span><span class="en">Runtime — the engine in the browser</span></h3>
+      <div class="stack">
+        <div class="row"><b>Render</b><div><span class="tr">Three.js üzerinde WebGL 2; WebGPU'ya geçişe hazır mimari.</span><span class="en">WebGL 2 on Three.js; architecture ready to move to WebGPU.</span><small class="tr">Açık kaynak, geniş ekosistem, on yılı aşkın üretim geçmişi.</small><small class="en">Open source, broad ecosystem, over a decade in production.</small></div></div>
+        <div class="row"><b><span class="tr">Sahne</span><span class="en">Scene</span></b><div><span class="tr">GLB + Draco/KTX2 çözücüler; kademeli yükleme — önce kabuk ve gezinme, sonra detay ve dokular.</span><span class="en">GLB with Draco/KTX2 decoders; progressive loading — shell and navigation first, detail and textures after.</span></div></div>
+        <div class="row"><b><span class="tr">Kamera</span><span class="en">Camera</span></b><div><span class="tr">Üç rejim tek sistemde: orbit/izometrik (kesit düzlemleriyle), birinci şahıs (çarpışma + navigasyon ağı), ortografik plan. Rejimler arası geçişte konum korunur.</span><span class="en">Three regimes in one system: orbit/isometric (with section planes), first person (collision + navmesh), orthographic plan. Position carries over between regimes.</span></div></div>
+        <div class="row"><b><span class="tr">Katmanlar</span><span class="en">Layers</span></b><div><span class="tr">Kesit düzlemleri, katman görünürlüğü ve patlatma animasyonları; T1'deki katman etiketlerini doğrudan okur.</span><span class="en">Section planes, layer visibility and explode animations, reading the layer tags from T1 directly.</span></div></div>
+        <div class="row"><b><span class="tr">Ses</span><span class="en">Audio</span></b><div><span class="tr">Web Audio ile konumsal (spatial) anlatım; durak tabanlı tur motoru — her durak kamera, katman durumu ve anlatımı birlikte tanımlar.</span><span class="en">Spatial narration via Web Audio; a stop-based tour engine — each stop defines camera, layer state and narration together.</span></div></div>
+        <div class="row"><b>UI</b><div><span class="tr">Hafif HTML/CSS arayüz katmanı; i18n sözlükleri (FR·DE·EN·LB çekirdek) içerik dosyasından gelir.</span><span class="en">A light HTML/CSS interface layer; i18n dictionaries (FR·DE·EN·LB core) come from content files.</span></div></div>
+        <div class="row"><b>VR</b><div><span class="tr">WebXR: aynı sahne, aynı kod tabanı — ayrı bir VR uygulaması derlenmez.</span><span class="en">WebXR: the same scene, the same codebase — no separate VR build.</span></div></div>
+      </div>
+    </div>
+
+    <div class="tech-block">
+      <h3><span class="tno">T3</span><span class="tr">Veri modeli — geometri ile içerik ayrımı</span><span class="en">Data model — geometry and content kept apart</span></h3>
+      <ul>
+        <li class="tr"><b>İki katman:</b> sahne (geometri) ile içerik (metin, ses, metadata) ayrı yaşar. İçerik; odaları, katmanları, ilgi noktalarını, tur duraklarını ve zaman makinesi durumlarını tanımlayan okunabilir JSON dosyalarıdır.</li>
+        <li class="en"><b>Two layers:</b> scene (geometry) and content (text, audio, metadata) live apart. Content is a set of readable JSON files defining rooms, layers, points of interest, tour stops and time-machine states.</li>
+        <li class="tr"><b>Kalıcı kimlikler:</b> her nesnenin değişmez bir kimliği vardır. Faz 2'de eser kartları, Faz 3'te arşiv sürümleri aynı kimliklere bağlanır — bugünkü demo, sonraki fazların temelidir.</li>
+        <li class="en"><b>Persistent IDs:</b> every object carries a stable identifier. Phase 2 artwork cards and Phase 3 archive versions attach to the same IDs — today's demo is the foundation of the later phases.</li>
+        <li class="tr"><b>Müze tarafında düzenleme:</b> metin ve ses içerikleri teknik bilgi gerektirmeyen dosyalarla güncellenir; yapı, ileride Mudam'ın koleksiyon yönetim sistemine (CMS/API) bağlanmaya hazırdır.</li>
+        <li class="en"><b>Editable by the museum:</b> text and audio update through files that need no technical skill; the structure is ready to connect to Mudam's collection management system (CMS/API) later.</li>
+      </ul>
+    </div>
+
+    <div class="tech-block">
+      <h3><span class="tno">T4</span><span class="tr">Performans bütçesi ve kalite hedefleri</span><span class="en">Performance budget and quality targets</span></h3>
+      <div class="tbl-wrap">
+        <table class="budget">
+          <tr>
+            <th><span class="tr">Ölçüt</span><span class="en">Metric</span></th>
+            <th><span class="tr">Hedef</span><span class="en">Target</span></th>
+          </tr>
+          <tr>
+            <td><span class="tr">İlk anlamlı görüntü</span><span class="en">First meaningful view</span></td>
+            <td class="num">&lt; 5 sn <small><span class="tr">orta sınıf telefon, 4G</span><span class="en">mid-range phone, 4G</span></small></td>
+          </tr>
+          <tr>
+            <td><span class="tr">İlk indirme paketi</span><span class="en">Initial download</span></td>
+            <td class="num">&lt; 30 MB <small><span class="tr">toplam sahne kademeli, ~60–80 MB</span><span class="en">full scene streams in, ~60–80 MB</span></small></td>
+          </tr>
+          <tr>
+            <td><span class="tr">Kare hızı</span><span class="en">Frame rate</span></td>
+            <td class="num">60 fps <small><span class="tr">masaüstü</span><span class="en">desktop</span></small> · 30+ fps <small><span class="tr">mobil</span><span class="en">mobile</span></small></td>
+          </tr>
+          <tr>
+            <td><span class="tr">Cihaz kapsamı</span><span class="en">Device coverage</span></td>
+            <td><span class="tr">Masaüstü, telefon, tablet; son iki büyük sürüm tarayıcılar</span><span class="en">Desktop, phone, tablet; the last two major browser versions</span></td>
+          </tr>
+          <tr>
+            <td><span class="tr">Erişilebilirlik</span><span class="en">Accessibility</span></td>
+            <td><span class="tr">Klavyeyle tam gezinme, azaltılmış hareket modu, tüm anlatımlara altyazı</span><span class="en">Full keyboard navigation, reduced-motion mode, captions on all narration</span></td>
+          </tr>
+        </table>
+      </div>
+    </div>
+
+    <div class="tech-block">
+      <h3><span class="tno">T5</span><span class="tr">Dağıtım, güvenlik ve güncelleme</span><span class="en">Delivery, security and updates</span></h3>
+      <ul>
+        <li class="tr"><b>Statik barındırma + CDN:</b> sunucu bakımı yok, ziyaretçi sayısıyla kendiliğinden ölçeklenir; işletme maliyeti düşük ve öngörülebilir. Açılış gecesi trafiği ek altyapı gerektirmez.</li>
+        <li class="en"><b>Static hosting + CDN:</b> no server maintenance, scales with visitor numbers by itself; running costs are low and predictable. Opening-night traffic needs no extra infrastructure.</li>
+        <li class="tr"><b>Sürümlü yayın:</b> her içerik paketi sürümlüdür ve tek adımda geri alınabilir; yayın hattı depodan CDN'e otomatik işler.</li>
+        <li class="en"><b>Versioned releases:</b> every content package is versioned and reversible in one step; the pipeline runs automatically from repository to CDN.</li>
+        <li class="tr"><b>Gizlilik dostu analitik:</b> çerezsiz ölçüm (ziyaret, rota, etkileşim); GDPR ile uyumlu, kişisel veri toplanmaz.</li>
+        <li class="en"><b>Privacy-friendly analytics:</b> cookie-free measurement (visits, routes, interaction); GDPR-compliant, no personal data collected.</li>
+        <li class="tr"><b>Mülkiyet:</b> alan adı, model ve içerik müzeye aittir; platform Mudam'ın altyapısında ya da bizim barındırmamızda çalışabilir. Açık formatlar sayesinde tedarikçiye bağımlılık yoktur.</li>
+        <li class="en"><b>Ownership:</b> domain, model and content belong to the museum; the platform runs on Mudam's infrastructure or on ours. Open formats mean no vendor lock-in.</li>
+      </ul>
+    </div>
+
+    <div class="tech-block">
+      <h3><span class="tno">T6</span><span class="tr">Demo kapsamı ve kabul ölçütleri</span><span class="en">Demo scope and acceptance criteria</span></h3>
+      <ul>
+        <li class="tr"><b>Kapsam:</b> dış kabuk ve park bağlamı; Grand Hall ile bir galeri dizisi yürünebilir; katman patlatma tüm binada; iki duraklı örnek sesli tur; zaman makinesi tek kamera açısında prototip.</li>
+        <li class="en"><b>Scope:</b> outer shell and park context; the Grand Hall and one gallery sequence walkable; layer explode across the whole building; a two-stop sample audio tour; the time machine prototyped from one camera angle.</li>
+        <li class="tr"><b>Üç görünüm:</b> izometrik kesit, yürüyüş ve plan arasında konum korunarak geçiş — platformun ana iddiası demoda çalışır durumda.</li>
+        <li class="en"><b>Three views:</b> switching between isometric cut-away, walk and plan with position preserved — the platform's central claim, working in the demo.</li>
+        <li class="tr"><b>Kabul ölçütleri:</b> T4'teki performans bütçesinin tamamı; belirlenen cihaz kapsamında kesintisiz çalışma.</li>
+        <li class="en"><b>Acceptance:</b> the full performance budget in T4; uninterrupted operation across the stated device coverage.</li>
+        <li class="tr"><b>Sunum formatı:</b> canlı bağlantı + yaklaşık 3 dakikalık yönlendirilmiş akış (Grand Hall'a giriş → katman patlatma → kale katmanı → plan görünümünden rota); toplantı sonunda bağlantı Mudam ekibinde kalır, kendi cihazlarında denerler.</li>
+        <li class="en"><b>Presentation format:</b> a live link + a guided flow of about 3 minutes (entering the Grand Hall → layer explode → fortress layer → routing from plan view); the link stays with the Mudam team after the meeting, to try on their own devices.</li>
+      </ul>
+    </div>
+
+    <div class="tech-block">
+      <h3><span class="tno">T7</span><span class="tr">Neden bu yığın</span><span class="en">Why this stack</span></h3>
+      <ul>
+        <li class="tr"><b>Web-first:</b> ziyaretçiye kurulum, müzeye lisans maliyeti yok; dağıtım bir bağlantı paylaşmaktan ibaret. Erişilebilirlik hedefiyle (06) aynı karar.</li>
+        <li class="en"><b>Web-first:</b> nothing for visitors to install, no licence cost for the museum; distribution is sharing a link. The same decision as the accessibility goal (06).</li>
+        <li class="tr"><b>Açık standartlar:</b> glTF ve WebXR; veri ve model müzenin malıdır, hiçbir tescilli formata kilitlenmez.</li>
+        <li class="en"><b>Open standards:</b> glTF and WebXR; data and model remain the museum's property, locked into no proprietary format.</li>
+        <li class="tr"><b>Pixel-streaming'e karşı:</b> oyun motoru + sunucu GPU akışı yerine cihazda render: eşzamanlı ziyaretçi sınırı ve sunucu GPU maliyeti yok. Karşılığında foto-gerçekçilik yerine mimari okunabilirlik önceliklenir — pişirilmiş ışık ve özenli malzemelerle demo kalitesi sunum düzeyindedir.</li>
+        <li class="en"><b>Versus pixel streaming:</b> on-device rendering instead of game engine + server GPU streaming: no concurrent-visitor cap, no server GPU cost. The trade is prioritising architectural legibility over photorealism — with baked lighting and careful materials, demo quality is presentation-grade.</li>
+        <li class="tr"><b>Tek kod tabanı:</b> aynı çekirdek Faz 2–4'ün tamamını (koleksiyon, arşiv, dijital sergiler, canlı program) taşır; demoya yapılan yatırım platforma yapılmış olur.</li>
+        <li class="en"><b>One codebase:</b> the same core carries all of Phases 2–4 (collection, archive, digital exhibitions, live programme); investment in the demo is investment in the platform.</li>
+      </ul>
+    </div>
+
+  </div>
+</section>
+
 <section id="deger">
-  <div class="sec-head"><span class="no">D</span><h2><span class="tr">Mudam için değer</span><span class="en">Value for Mudam</span></h2></div>
+  <div class="sec-head"><span class="no">E</span><h2><span class="tr">Mudam için değer</span><span class="en">Value for Mudam</span></h2></div>
   <div class="values">
     <div class="value">
       <h3><span class="tr">Erişim</span><span class="en">Reach</span></h3>
