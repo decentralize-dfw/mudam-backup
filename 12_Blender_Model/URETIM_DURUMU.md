@@ -474,3 +474,7 @@ R109: Servis merdiveni altındaki üç mevcut duvarın iki köşesi birleştiril
 # R107–R109 ek kontrol kaydı
 
 [Temas taramaları, güncel görünüşler ve açık kalan konular](reports/R109_EK_TARAMALAR.md). Geometri değişiklikleri R107 okuma odası döşemesi, R108 servis duvar köşeleri ve R109 merdiven altı duvar köşeleriyle sınırlıdır. Bütün bina kabulü henüz tamamlanmadı.
+
+
+2026-10-09 20:14:37 UTC — a48cdb398257cb9101891a3def42176943fdd923 origin/main normal push doğrulandı. Pano, renderlar, raporlar ve üretim betikleri gönderildi; Blender ve arşiv GLB dosyaları yerelde; tek güncel sıkıştırılmış web GLB gönderildi.
+
