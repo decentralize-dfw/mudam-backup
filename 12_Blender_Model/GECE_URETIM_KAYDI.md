@@ -79,3 +79,5 @@ Push sonrasında üretim sürdü. 089 ile pavyon kulesinin sekizgen taslağı d�
 
 
 2026-10-09 03:46 UTC — R36–R43 ara üretim: koşullu cephe başlık kotu; üst geçit başlığı ve açıklık düzeltmesi; park bağlantıları/19 OSM ağacı; giriş tavan sürekliliği; ortak mesh verisi; Grand Hall çatı lamelleri; taş döşeme yüzeyleri. R40 alt cephe pencereleri duvara oturmadığı için reddedildi. R41 ile GLB34,62→27,14MB; sonraki detaylar ayrıca eklendi. Tam bina tamamlanmadı. A01 cephe/oda,A04 arazi,A06 alt pencere ve A07 fotoğraf köşe kimliği açık; rutin onay beklemeden üretim sürüyor.
+
+- 2026-10-09 03:48:52 UTC — c7ac571 origin/main normal push başarılı (856b802 → c7ac571). R36–R43 doğrulanmış sahneleri, kaynaklar, renderlar ve 29.790.956 bayt GLB (6796 mesh,6 paketli harita) gönderildi. R40 alt cephe denemesi reddedilmiş araştırma olarak ayrıldı; 045 köşe kimliği açık kayıtta. Push sonrasında bütün görünür sahnenin R44 geometri taraması başlatıldı; üretim sürüyor.
