@@ -178,13 +178,14 @@
         "200 mm taş üst payı adaydır. Kesin imalat kesiti ve tüm bina kabulü açık.",
         "Kalıcı duvar olduğu doğrulanmayan iki aday kaldırıldı. İdari/teknik hacimler ve kesin çatı biçimi kabulü açık.",
         "Çatı ara örtüsü ve profil ölçüleri aday. Köşe profilleri, batı küçük çatı uç birleşimi ve ayrıntılı kaynak eşleştirmesi açık; tüm bina tamamlanmadı.",
-        "Sabit mimari geometri düzeltmesi. Kesin ölçüler, çatı imalat kesiti, profil ve malzeme kabulü açık; tüm bina tamamlandı sayılmadı."
+        "Sabit mimari geometri düzeltmesi. Kesin ölçüler, çatı imalat kesiti, profil ve malzeme kabulü açık; tüm bina tamamlandı sayılmadı.",
+        "Yerel plan kaydı ve çelik çubuk ölçüleri adaydır. Servis merdiveni basamakları, bütün katlar arasında devamlılık ve kesin imalat ölçüleri açık. Bina tamamlanmış sayılmadı."
       ],
       "updated": "2026-10-08",
       "dependency_mode": "regional_study_only_no_global_acceptance",
       "artifacts": [
-        "12_Blender_Model/scenes/MUDAM_R95_BES_ISARET_KABUK_DUZELTME_v001.blend",
-        "12_Blender_Model/reports/R95_KONTROL_RAPORU.md",
+        "12_Blender_Model/scenes/MUDAM_R96_UST_KAT_DUVAR_AYRIMI_v004.blend",
+        "12_Blender_Model/reports/R96_KONTROL_RAPORU.md",
         "12_Blender_Model/reports/R44_KONTROL_RAPORU.md",
         "12_Blender_Model/reports/R52_KONTROL_RAPORU.md",
         "12_Blender_Model/reports/R60_KONTROL_RAPORU.md",
@@ -212,7 +213,8 @@
         "12_Blender_Model/reports/R89_KONTROL_RAPORU.md",
         "12_Blender_Model/reports/R91_KONTROL_RAPORU.md",
         "12_Blender_Model/reports/R92_KONTROL_RAPORU.md",
-        "12_Blender_Model/reports/R94_KONTROL_RAPORU.md"
+        "12_Blender_Model/reports/R94_KONTROL_RAPORU.md",
+        "12_Blender_Model/reports/R95_KONTROL_RAPORU.md"
       ],
       "completed_scope": [
         "Duvar/döşeme bölgesel kabukları kapalı; merdiven nişi ve galeri camlarıyla yerel kesimler koordine edildi.",
@@ -242,7 +244,8 @@
         "Eski çatı kotlarında kalan batı uç duvarının üst eğimi ve yüksek plan ucu mevcut cam çatıya bağlandı. 597 yerel birleşim kontrolü geçti.",
         "Kullanıcının işaretlediği batı diyagonal bölmesi ve aynı yorumla eklenen doğu eşi kaldırıldı. 54 geçiş doğrultusu açık; zemin, tavan ve dış kabuk korundu.",
         "İki eski mavi iç yüzey kaldırıldı; batı üst cam geçişi çerçevelendi, ara çatı örtüsü ve doğu üst duvar bağlantısı üretildi. Doğu merdiven yan duvarı bitişik cam örtü kotunda sonlandırıldı.",
-        "Sağ cam birleşimi ve dış uç kapatıldı; kafe zemin katındaki yanlış duvar kaldırıldı; doğu galeri giriş duvarı geri kuruldu. Önceki sahnedeki 75 başarısız yerel kontrol yeni sahnede geçti."
+        "Sağ cam birleşimi ve dış uç kapatıldı; kafe zemin katındaki yanlış duvar kaldırıldı; doğu galeri giriş duvarı geri kuruldu. Önceki sahnedeki 75 başarısız yerel kontrol yeni sahnede geçti.",
+        "R96: Küçük batı galerisini kesen iki eski zemin kat duvarı üst döşeme altında sonlandırıldı. 2016 iç oda ile 103 merdiven kabuğunun farklı ölçekleri uzlaştırıldı; iki iç duvar kopyası kaldırıldı, kafe üzerine taşan +1 döşemesi daraltıldı. Okuma alanının doğusundaki eksik oda, servis merdiveni sınırı ve üst asansör kuyusu yüzleri kaynak planıyla üretildi. Kafe çatısına fotoğrafta görünen alt çubuk sistemi aday ölçülerle eklendi."
       ],
       "coverage_as_of": "R55"
     },
@@ -355,13 +358,14 @@
         "200 mm taş üst payı adaydır. Kesin imalat kesiti ve tüm bina kabulü açık.",
         "Profil boyutları ve alt sıra sayısı ölçülmemiş aday. Önceki duvar–çatı birleşimi işaretleri açık; tüm bina kabulü yapılmadı.",
         "Çatı ara örtüsü ve profil ölçüleri aday. Köşe profilleri, batı küçük çatı uç birleşimi ve ayrıntılı kaynak eşleştirmesi açık; tüm bina tamamlanmadı.",
-        "Sabit mimari geometri düzeltmesi. Kesin ölçüler, çatı imalat kesiti, profil ve malzeme kabulü açık; tüm bina tamamlandı sayılmadı."
+        "Sabit mimari geometri düzeltmesi. Kesin ölçüler, çatı imalat kesiti, profil ve malzeme kabulü açık; tüm bina tamamlandı sayılmadı.",
+        "Yerel plan kaydı ve çelik çubuk ölçüleri adaydır. Servis merdiveni basamakları, bütün katlar arasında devamlılık ve kesin imalat ölçüleri açık. Bina tamamlanmış sayılmadı."
       ],
       "updated": "2026-10-08",
       "dependency_mode": "regional_study_only_no_global_acceptance",
       "artifacts": [
-        "12_Blender_Model/scenes/MUDAM_R95_BES_ISARET_KABUK_DUZELTME_v001.blend",
-        "12_Blender_Model/reports/R95_KONTROL_RAPORU.md",
+        "12_Blender_Model/scenes/MUDAM_R96_UST_KAT_DUVAR_AYRIMI_v004.blend",
+        "12_Blender_Model/reports/R96_KONTROL_RAPORU.md",
         "12_Blender_Model/reports/R12_BATI_DUZ_CAM_RAPORU.md",
         "12_Blender_Model/reports/R13_PAVYON_CAM_RAPORU.md",
         "12_Blender_Model/reports/R26_DOGU_CATI_BAGLANTI_RAPORU.md",
@@ -374,7 +378,8 @@
         "12_Blender_Model/reports/R90_KONTROL_RAPORU.md",
         "12_Blender_Model/reports/R91_KONTROL_RAPORU.md",
         "12_Blender_Model/reports/R93_KONTROL_RAPORU.md",
-        "12_Blender_Model/reports/R94_KONTROL_RAPORU.md"
+        "12_Blender_Model/reports/R94_KONTROL_RAPORU.md",
+        "12_Blender_Model/reports/R95_KONTROL_RAPORU.md"
       ],
       "completed_scope": [
         "Batı 108 düz cam, pavyon 108 cam/216 profil, doğu cam şeridi ve üst galerilerin 10 ışıklık adayı kuruldu.",
@@ -387,7 +392,8 @@
         "Eski çatı kotlarında kalan batı uç duvarının üst eğimi ve yüksek plan ucu mevcut cam çatıya bağlandı. 597 yerel birleşim kontrolü geçti.",
         "Merkez düşey cam şeridi yeniden üretildi: yan banttaki dört yatay kayıt kotu ortak, alt modüller aynı aralığı sürdürüyor. 30 cam panel ve 15 profil; 140.794 yüzey örneği açık vermedi.",
         "İki eski mavi iç yüzey kaldırıldı; batı üst cam geçişi çerçevelendi, ara çatı örtüsü ve doğu üst duvar bağlantısı üretildi. Doğu merdiven yan duvarı bitişik cam örtü kotunda sonlandırıldı.",
-        "Sağ cam birleşimi ve dış uç kapatıldı; kafe zemin katındaki yanlış duvar kaldırıldı; doğu galeri giriş duvarı geri kuruldu. Önceki sahnedeki 75 başarısız yerel kontrol yeni sahnede geçti."
+        "Sağ cam birleşimi ve dış uç kapatıldı; kafe zemin katındaki yanlış duvar kaldırıldı; doğu galeri giriş duvarı geri kuruldu. Önceki sahnedeki 75 başarısız yerel kontrol yeni sahnede geçti.",
+        "R96: Küçük batı galerisini kesen iki eski zemin kat duvarı üst döşeme altında sonlandırıldı. 2016 iç oda ile 103 merdiven kabuğunun farklı ölçekleri uzlaştırıldı; iki iç duvar kopyası kaldırıldı, kafe üzerine taşan +1 döşemesi daraltıldı. Okuma alanının doğusundaki eksik oda, servis merdiveni sınırı ve üst asansör kuyusu yüzleri kaynak planıyla üretildi. Kafe çatısına fotoğrafta görünen alt çubuk sistemi aday ölçülerle eklendi."
       ],
       "coverage_as_of": "R55"
     },
@@ -512,7 +518,7 @@
       "updated": "2026-10-08",
       "dependency_mode": "regional_checkpoint_no_global_acceptance",
       "artifacts": [
-        "12_Blender_Model/scenes/MUDAM_R95_BES_ISARET_KABUK_DUZELTME_v001.blend",
+        "12_Blender_Model/scenes/MUDAM_R96_UST_KAT_DUVAR_AYRIMI_v004.blend",
         "12_Blender_Model/reports/P19_P21_ONIZLEME_RAPORU.md",
         "12_Blender_Model/reports/R34_GIRIS_KOPRULERI_RAPORU.md",
         "12_Blender_Model/reports/R48_KONTROL_RAPORU.md",
@@ -608,13 +614,14 @@
         "Şematik plan çizgileri, mevcut aday kalınlık ve fuaye kotları kullanıldı. Asansör donanımı ve kapı detayları yapılmadı.",
         "102/066/097 kaynakları; mevcut 3,2 m başlık yüksekliği aday olarak korundu. Cam bölüntü ve ürün ayrıntıları ertelendi.",
         "PDF ile ziyaretçi şeması arasındaki iç sınır farkı kayıtlı; kesin yeniden ölçüm değildir. Malzeme ve ayrıntı ölçüleri aday.",
-        "PDF ve ziyaretçi şeması farklı; kot, kalınlık ve yerel çatı eğimi kesinleşmedi. Bütün bina kabulü açık."
+        "PDF ve ziyaretçi şeması farklı; kot, kalınlık ve yerel çatı eğimi kesinleşmedi. Bütün bina kabulü açık.",
+        "Yerel plan kaydı ve çelik çubuk ölçüleri adaydır. Servis merdiveni basamakları, bütün katlar arasında devamlılık ve kesin imalat ölçüleri açık. Bina tamamlanmış sayılmadı."
       ],
       "updated": "2026-10-08",
       "dependency_mode": "regional_checkpoint_no_global_acceptance",
       "artifacts": [
-        "12_Blender_Model/scenes/MUDAM_R95_BES_ISARET_KABUK_DUZELTME_v001.blend",
-        "12_Blender_Model/reports/P19_P21_ONIZLEME_RAPORU.md",
+        "12_Blender_Model/scenes/MUDAM_R96_UST_KAT_DUVAR_AYRIMI_v004.blend",
+        "12_Blender_Model/reports/R96_KONTROL_RAPORU.md",
         "12_Blender_Model/reports/R08_OKUMA_TAVANI_RAPORU.md",
         "12_Blender_Model/reports/R09_OKUMA_MEKANI_RAPORU.md",
         "12_Blender_Model/reports/R30_UST_ASANSOR_RAPORU.md",
@@ -642,7 +649,8 @@
         "104 planındaki yan hacimlere 31 duvar/döşeme/tavan bileşeni; 405 sınır ve altı geçiş kontrolü geçti.",
         "Mevcut zeminin eksik yan camı, üst örtüsü ve iç duvarı eklendi; 312 alt/üst ve 156 yan kapanış örneği geçti.",
         "Eski düz uzantı kaldırıldı; PDF kapısına dönen mevcut koridorun duvar ve örtüsü eklendi. 571 sık örnek ve dolaşım denetimi geçti.",
-        "Eksik alt/üst döşeme ve çatı eklendi; PDF oda sınırı ve açık bağlantısı kuruldu. 29 bölge, 97.080 sık örnek ve 218.136 çok kotlu ışın kontrol edildi."
+        "Eksik alt/üst döşeme ve çatı eklendi; PDF oda sınırı ve açık bağlantısı kuruldu. 29 bölge, 97.080 sık örnek ve 218.136 çok kotlu ışın kontrol edildi.",
+        "R96: Küçük batı galerisini kesen iki eski zemin kat duvarı üst döşeme altında sonlandırıldı. 2016 iç oda ile 103 merdiven kabuğunun farklı ölçekleri uzlaştırıldı; iki iç duvar kopyası kaldırıldı, kafe üzerine taşan +1 döşemesi daraltıldı. Okuma alanının doğusundaki eksik oda, servis merdiveni sınırı ve üst asansör kuyusu yüzleri kaynak planıyla üretildi. Kafe çatısına fotoğrafta görünen alt çubuk sistemi aday ölçülerle eklendi."
       ],
       "coverage_as_of": "R55"
     },
@@ -713,7 +721,7 @@
       "updated": "2026-10-08",
       "dependency_mode": "regional_checkpoint_no_global_acceptance",
       "artifacts": [
-        "12_Blender_Model/scenes/MUDAM_R95_BES_ISARET_KABUK_DUZELTME_v001.blend",
+        "12_Blender_Model/scenes/MUDAM_R96_UST_KAT_DUVAR_AYRIMI_v004.blend",
         "12_Blender_Model/reports/P19_P21_ONIZLEME_RAPORU.md",
         "12_Blender_Model/reports/R32_TAS_AHSAP_RAPORU.md",
         "12_Blender_Model/reports/R43_KONTROL_RAPORU.md",
@@ -777,12 +785,12 @@
       "acceptance": "Birim/eksen/malzeme geri yüklemede doğru; performans ölçülmüş",
       "status": "in_progress",
       "open_issues": [
-        "7896 mesh / 2468512 üçgen GLB aktarımı denetlendi; hedef motor ve sadeleştirme açık."
+        "8346 mesh / 2487580 üçgen GLB aktarımı denetlendi; hedef motor ve sadeleştirme açık."
       ],
       "updated": "2026-10-08",
       "dependency_mode": "regional_checkpoint_no_global_acceptance",
       "artifacts": [
-        "12_Blender_Model/scenes/MUDAM_R95_BES_ISARET_KABUK_DUZELTME_v001.blend",
+        "12_Blender_Model/scenes/MUDAM_R96_UST_KAT_DUVAR_AYRIMI_v004.blend",
         "12_Blender_Model/reports/P19_P21_ONIZLEME_RAPORU.md"
       ]
     },
@@ -834,7 +842,7 @@
     "P21",
     "P22"
   ],
-  "latest_scene": "12_Blender_Model/scenes/MUDAM_R95_BES_ISARET_KABUK_DUZELTME_v001.blend",
+  "latest_scene": "12_Blender_Model/scenes/MUDAM_R96_UST_KAT_DUVAR_AYRIMI_v004.blend",
   "scope_constraints": {
     "priority": "Bina ve kalıcı mimari sistemler",
     "excluded": [

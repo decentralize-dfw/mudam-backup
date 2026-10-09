@@ -1,0 +1,2705 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R96_UST_KAT_DUVAR_AYRIMI_v004.blend",
+  "results": {
+    "before": [
+      {
+        "id": "room_old_y_wall",
+        "point": [
+          -23.090328216552734,
+          26.750534057617188,
+          5.359074592590332
+        ],
+        "hit": null,
+        "passed": true
+      },
+      {
+        "id": "room_old_y_wall",
+        "point": [
+          -23.090328216552734,
+          26.750534057617188,
+          6.359074592590332
+        ],
+        "hit": null,
+        "passed": true
+      },
+      {
+        "id": "room_old_y_wall",
+        "point": [
+          -23.090328216552734,
+          26.750534057617188,
+          7.359074592590332
+        ],
+        "hit": null,
+        "passed": true
+      },
+      {
+        "id": "room_old_y_wall",
+        "point": [
+          -23.413911819458008,
+          27.09852409362793,
+          5.359074592590332
+        ],
+        "hit": null,
+        "passed": true
+      },
+      {
+        "id": "room_old_y_wall",
+        "point": [
+          -23.413911819458008,
+          27.09852409362793,
+          6.359074592590332
+        ],
+        "hit": null,
+        "passed": true
+      },
+      {
+        "id": "room_old_y_wall",
+        "point": [
+          -23.413911819458008,
+          27.09852409362793,
+          7.359074592590332
+        ],
+        "hit": null,
+        "passed": true
+      },
+      {
+        "id": "room_old_y_wall",
+        "point": [
+          -23.73749351501465,
+          27.44651222229004,
+          5.359074592590332
+        ],
+        "hit": null,
+        "passed": true
+      },
+      {
+        "id": "room_old_y_wall",
+        "point": [
+          -23.73749351501465,
+          27.44651222229004,
+          6.359074592590332
+        ],
+        "hit": null,
+        "passed": true
+      },
+      {
+        "id": "room_old_y_wall",
+        "point": [
+          -23.73749351501465,
+          27.44651222229004,
+          7.359074592590332
+        ],
+        "hit": null,
+        "passed": true
+      },
+      {
+        "id": "room_old_x_wall",
+        "point": [
+          -24.71208381652832,
+          29.541337966918945,
+          5.359074592590332
+        ],
+        "hit": "R87_ROOM_END",
+        "passed": false
+      },
+      {
+        "id": "room_old_x_wall",
+        "point": [
+          -24.71208381652832,
+          29.541337966918945,
+          6.359074592590332
+        ],
+        "hit": "R87_ROOM_END",
+        "passed": false
+      },
+      {
+        "id": "room_old_x_wall",
+        "point": [
+          -24.71208381652832,
+          29.541337966918945,
+          7.359074592590332
+        ],
+        "hit": "R87_ROOM_END",
+        "passed": false
+      },
+      {
+        "id": "room_old_x_wall",
+        "point": [
+          -24.364093780517578,
+          29.864919662475586,
+          5.359074592590332
+        ],
+        "hit": "R14_GALLERY_WALL_RETAINED",
+        "passed": false
+      },
+      {
+        "id": "room_old_x_wall",
+        "point": [
+          -24.364093780517578,
+          29.864919662475586,
+          6.359074592590332
+        ],
+        "hit": "R14_GALLERY_WALL_RETAINED",
+        "passed": false
+      },
+      {
+        "id": "room_old_x_wall",
+        "point": [
+          -24.364093780517578,
+          29.864919662475586,
+          7.359074592590332
+        ],
+        "hit": "R14_GALLERY_WALL_RETAINED",
+        "passed": false
+      },
+      {
+        "id": "room_old_x_wall",
+        "point": [
+          -24.01610565185547,
+          30.18850326538086,
+          5.359074592590332
+        ],
+        "hit": "R14_GALLERY_WALL_RETAINED",
+        "passed": false
+      },
+      {
+        "id": "room_old_x_wall",
+        "point": [
+          -24.01610565185547,
+          30.18850326538086,
+          6.359074592590332
+        ],
+        "hit": "R14_GALLERY_WALL_RETAINED",
+        "passed": false
+      },
+      {
+        "id": "room_old_x_wall",
+        "point": [
+          -24.01610565185547,
+          30.18850326538086,
+          7.359074592590332
+        ],
+        "hit": "R14_GALLERY_WALL_RETAINED",
+        "passed": false
+      },
+      {
+        "id": "ground_preserved",
+        "point": [
+          -23.413911819458008,
+          27.09852409362793,
+          2.0
+        ],
+        "hit": "P05_GALLERY_HALL_WEST2",
+        "passed": true
+      },
+      {
+        "id": "ground_preserved",
+        "point": [
+          -23.320125579833984,
+          30.835670471191406,
+          2.0
+        ],
+        "hit": "R14_GALLERY_WALL_RETAINED",
+        "passed": true
+      }
+    ],
+    "after": [
+      {
+        "id": "room_old_y_wall",
+        "point": [
+          -23.090328216552734,
+          26.750534057617188,
+          5.359074592590332
+        ],
+        "hit": null,
+        "passed": true
+      },
+      {
+        "id": "room_old_y_wall",
+        "point": [
+          -23.090328216552734,
+          26.750534057617188,
+          6.359074592590332
+        ],
+        "hit": null,
+        "passed": true
+      },
+      {
+        "id": "room_old_y_wall",
+        "point": [
+          -23.090328216552734,
+          26.750534057617188,
+          7.359074592590332
+        ],
+        "hit": null,
+        "passed": true
+      },
+      {
+        "id": "room_old_y_wall",
+        "point": [
+          -23.413911819458008,
+          27.09852409362793,
+          5.359074592590332
+        ],
+        "hit": null,
+        "passed": true
+      },
+      {
+        "id": "room_old_y_wall",
+        "point": [
+          -23.413911819458008,
+          27.09852409362793,
+          6.359074592590332
+        ],
+        "hit": null,
+        "passed": true
+      },
+      {
+        "id": "room_old_y_wall",
+        "point": [
+          -23.413911819458008,
+          27.09852409362793,
+          7.359074592590332
+        ],
+        "hit": null,
+        "passed": true
+      },
+      {
+        "id": "room_old_y_wall",
+        "point": [
+          -23.73749351501465,
+          27.44651222229004,
+          5.359074592590332
+        ],
+        "hit": null,
+        "passed": true
+      },
+      {
+        "id": "room_old_y_wall",
+        "point": [
+          -23.73749351501465,
+          27.44651222229004,
+          6.359074592590332
+        ],
+        "hit": null,
+        "passed": true
+      },
+      {
+        "id": "room_old_y_wall",
+        "point": [
+          -23.73749351501465,
+          27.44651222229004,
+          7.359074592590332
+        ],
+        "hit": null,
+        "passed": true
+      },
+      {
+        "id": "room_old_x_wall",
+        "point": [
+          -24.71208381652832,
+          29.541337966918945,
+          5.359074592590332
+        ],
+        "hit": null,
+        "passed": true
+      },
+      {
+        "id": "room_old_x_wall",
+        "point": [
+          -24.71208381652832,
+          29.541337966918945,
+          6.359074592590332
+        ],
+        "hit": null,
+        "passed": true
+      },
+      {
+        "id": "room_old_x_wall",
+        "point": [
+          -24.71208381652832,
+          29.541337966918945,
+          7.359074592590332
+        ],
+        "hit": null,
+        "passed": true
+      },
+      {
+        "id": "room_old_x_wall",
+        "point": [
+          -24.364093780517578,
+          29.864919662475586,
+          5.359074592590332
+        ],
+        "hit": null,
+        "passed": true
+      },
+      {
+        "id": "room_old_x_wall",
+        "point": [
+          -24.364093780517578,
+          29.864919662475586,
+          6.359074592590332
+        ],
+        "hit": null,
+        "passed": true
+      },
+      {
+        "id": "room_old_x_wall",
+        "point": [
+          -24.364093780517578,
+          29.864919662475586,
+          7.359074592590332
+        ],
+        "hit": null,
+        "passed": true
+      },
+      {
+        "id": "room_old_x_wall",
+        "point": [
+          -24.01610565185547,
+          30.18850326538086,
+          5.359074592590332
+        ],
+        "hit": null,
+        "passed": true
+      },
+      {
+        "id": "room_old_x_wall",
+        "point": [
+          -24.01610565185547,
+          30.18850326538086,
+          6.359074592590332
+        ],
+        "hit": null,
+        "passed": true
+      },
+      {
+        "id": "room_old_x_wall",
+        "point": [
+          -24.01610565185547,
+          30.18850326538086,
+          7.359074592590332
+        ],
+        "hit": null,
+        "passed": true
+      },
+      {
+        "id": "ground_preserved",
+        "point": [
+          -23.413911819458008,
+          27.09852409362793,
+          2.0
+        ],
+        "hit": "P05_GALLERY_HALL_WEST2",
+        "passed": true
+      },
+      {
+        "id": "ground_preserved",
+        "point": [
+          -23.320125579833984,
+          30.835670471191406,
+          2.0
+        ],
+        "hit": "R14_GALLERY_WALL_RETAINED",
+        "passed": true
+      },
+      {
+        "id": "R95_SS3",
+        "passed": true
+      },
+      {
+        "id": "R95_SS3",
+        "passed": true
+      },
+      {
+        "id": "R95_SS3",
+        "passed": true
+      },
+      {
+        "id": "R95_SS3",
+        "passed": true
+      },
+      {
+        "id": "R95_SS3",
+        "passed": true
+      },
+      {
+        "id": "R95_SS3",
+        "passed": true
+      },
+      {
+        "id": "R95_SS3",
+        "passed": true
+      },
+      {
+        "id": "R95_SS3",
+        "passed": true
+      },
+      {
+        "id": "R95_SS3",
+        "passed": true
+      },
+      {
+        "id": "R95_SS3",
+        "passed": true
+      },
+      {
+        "id": "R95_SS3",
+        "passed": true
+      },
+      {
+        "id": "R95_SS3",
+        "passed": true
+      },
+      {
+        "id": "R95_SS3",
+        "passed": true
+      },
+      {
+        "id": "R95_SS3",
+        "passed": true
+      },
+      {
+        "id": "R95_SS3",
+        "passed": true
+      },
+      {
+        "id": "R95_SS5",
+        "passed": true
+      },
+      {
+        "id": "R95_SS5",
+        "passed": true
+      },
+      {
+        "id": "R95_SS5",
+        "passed": true
+      },
+      {
+        "id": "R95_SS5",
+        "passed": true
+      },
+      {
+        "id": "R95_SS5",
+        "passed": true
+      },
+      {
+        "id": "R95_SS5",
+        "passed": true
+      },
+      {
+        "id": "R95_SS5",
+        "passed": true
+      },
+      {
+        "id": "R95_SS5",
+        "passed": true
+      },
+      {
+        "id": "R95_SS5",
+        "passed": true
+      },
+      {
+        "id": "R95_SS5",
+        "passed": true
+      },
+      {
+        "id": "R95_SS5",
+        "passed": true
+      },
+      {
+        "id": "R95_SS5",
+        "passed": true
+      },
+      {
+        "id": "R95_SS5",
+        "passed": true
+      },
+      {
+        "id": "R95_SS5",
+        "passed": true
+      },
+      {
+        "id": "R95_SS5",
+        "passed": true
+      },
+      {
+        "id": "R95_SS5",
+        "passed": true
+      },
+      {
+        "id": "R95_SS5",
+        "passed": true
+      },
+      {
+        "id": "R95_SS5",
+        "passed": true
+      },
+      {
+        "id": "R95_SS5",
+        "passed": true
+      },
+      {
+        "id": "R95_SS5",
+        "passed": true
+      },
+      {
+        "id": "R95_SS5",
+        "passed": true
+      },
+      {
+        "id": "R95_SS5",
+        "passed": true
+      },
+      {
+        "id": "R95_SS5",
+        "passed": true
+      },
+      {
+        "id": "R95_SS5",
+        "passed": true
+      },
+      {
+        "id": "R95_SS5",
+        "passed": true
+      },
+      {
+        "id": "R95_SS5",
+        "passed": true
+      },
+      {
+        "id": "R95_SS5",
+        "passed": true
+      },
+      {
+        "id": "R95_SS5",
+        "passed": true
+      },
+      {
+        "id": "R95_SS5",
+        "passed": true
+      },
+      {
+        "id": "R95_SS5",
+        "passed": true
+      },
+      {
+        "id": "R95_SS4",
+        "passed": true
+      },
+      {
+        "id": "R95_SS4",
+        "passed": true
+      },
+      {
+        "id": "R95_SS4",
+        "passed": true
+      },
+      {
+        "id": "R95_SS4",
+        "passed": true
+      },
+      {
+        "id": "R95_SS4",
+        "passed": true
+      },
+      {
+        "id": "R95_SS4",
+        "passed": true
+      },
+      {
+        "id": "R95_SS4",
+        "passed": true
+      },
+      {
+        "id": "R95_SS4",
+        "passed": true
+      },
+      {
+        "id": "R95_SS4",
+        "passed": true
+      },
+      {
+        "id": "R95_SS4",
+        "passed": true
+      },
+      {
+        "id": "R95_SS4",
+        "passed": true
+      },
+      {
+        "id": "R95_SS4",
+        "passed": true
+      },
+      {
+        "id": "R95_SS4",
+        "passed": true
+      },
+      {
+        "id": "R95_SS4",
+        "passed": true
+      },
+      {
+        "id": "R95_SS4",
+        "passed": true
+      },
+      {
+        "id": "R95_glass",
+        "passed": true
+      },
+      {
+        "id": "R95_glass",
+        "passed": true
+      },
+      {
+        "id": "R95_glass",
+        "passed": true
+      },
+      {
+        "id": "R95_glass",
+        "passed": true
+      },
+      {
+        "id": "R95_glass",
+        "passed": true
+      },
+      {
+        "id": "R95_glass",
+        "passed": true
+      },
+      {
+        "id": "R95_glass",
+        "passed": true
+      },
+      {
+        "id": "R95_glass",
+        "passed": true
+      },
+      {
+        "id": "R95_glass",
+        "passed": true
+      },
+      {
+        "id": "R95_glass",
+        "passed": true
+      },
+      {
+        "id": "R95_glass",
+        "passed": true
+      },
+      {
+        "id": "R95_glass",
+        "passed": true
+      },
+      {
+        "id": "R95_glass",
+        "passed": true
+      },
+      {
+        "id": "R95_glass",
+        "passed": true
+      },
+      {
+        "id": "R95_glass",
+        "passed": true
+      },
+      {
+        "id": "R95_glass",
+        "passed": true
+      },
+      {
+        "id": "R95_glass",
+        "passed": true
+      },
+      {
+        "id": "R95_glass",
+        "passed": true
+      },
+      {
+        "id": "R95_glass",
+        "passed": true
+      },
+      {
+        "id": "R95_glass",
+        "passed": true
+      },
+      {
+        "id": "R95_glass",
+        "passed": true
+      },
+      {
+        "id": "R95_glass",
+        "passed": true
+      },
+      {
+        "id": "R95_glass",
+        "passed": true
+      },
+      {
+        "id": "R95_glass",
+        "passed": true
+      },
+      {
+        "id": "documentation_floor",
+        "point": [
+          15.702021598815918,
+          30.216093063354492,
+          4.859074592590332
+        ],
+        "passed": true
+      },
+      {
+        "id": "documentation_ceiling",
+        "point": [
+          15.702021598815918,
+          30.216093063354492,
+          7.559074878692627
+        ],
+        "passed": true
+      },
+      {
+        "id": "documentation_floor",
+        "point": [
+          16.228530883789062,
+          33.13896942138672,
+          4.859074592590332
+        ],
+        "passed": true
+      },
+      {
+        "id": "documentation_ceiling",
+        "point": [
+          16.228530883789062,
+          33.13896942138672,
+          7.559074878692627
+        ],
+        "passed": true
+      },
+      {
+        "id": "documentation_floor",
+        "point": [
+          14.815115928649902,
+          35.88016891479492,
+          4.859074592590332
+        ],
+        "passed": true
+      },
+      {
+        "id": "documentation_ceiling",
+        "point": [
+          14.815115928649902,
+          35.88016891479492,
+          7.559074878692627
+        ],
+        "passed": true
+      },
+      {
+        "id": "documentation_floor",
+        "point": [
+          12.730130195617676,
+          38.64577865600586,
+          4.859074592590332
+        ],
+        "passed": true
+      },
+      {
+        "id": "documentation_ceiling",
+        "point": [
+          12.730130195617676,
+          38.64577865600586,
+          7.559074878692627
+        ],
+        "passed": true
+      },
+      {
+        "id": "documentation_floor",
+        "point": [
+          14.844047546386719,
+          38.98924255371094,
+          4.859074592590332
+        ],
+        "passed": true
+      },
+      {
+        "id": "documentation_ceiling",
+        "point": [
+          14.844047546386719,
+          38.98924255371094,
+          7.559074878692627
+        ],
+        "passed": true
+      },
+      {
+        "id": "service_stair_void",
+        "passed": true
+      },
+      {
+        "id": "R96_PETITE_BACK_TO_STAIR",
+        "passed": true
+      },
+      {
+        "id": "R96_SHAFT_NORTH",
+        "passed": true
+      },
+      {
+        "id": "R96_SHAFT_WEST",
+        "passed": true
+      },
+      {
+        "id": "R96_SHAFT_EAST",
+        "passed": true
+      },
+      {
+        "id": "R96_DOCUMENTATION_EAST_FLOOR",
+        "passed": true
+      },
+      {
+        "id": "R96_DOCUMENTATION_EAST_CEILING",
+        "passed": true
+      },
+      {
+        "id": "R96_DOCUMENTATION_EAST_WALL_0",
+        "passed": true
+      },
+      {
+        "id": "R96_DOCUMENTATION_EAST_WALL_1",
+        "passed": true
+      },
+      {
+        "id": "R96_DOCUMENTATION_EAST_WALL_2",
+        "passed": true
+      },
+      {
+        "id": "R96_DOCUMENTATION_EAST_WALL_3",
+        "passed": true
+      },
+      {
+        "id": "R96_DOCUMENTATION_EAST_WALL_4",
+        "passed": true
+      },
+      {
+        "id": "R96_DOCUMENTATION_EAST_WALL_5",
+        "passed": true
+      },
+      {
+        "id": "R96_DOCUMENTATION_EAST_WALL_6",
+        "passed": true
+      },
+      {
+        "id": "R96_SERVICE_PORTAL_RIGHT",
+        "passed": true
+      },
+      {
+        "id": "R96_SERVICE_PORTAL_LEFT",
+        "passed": true
+      },
+      {
+        "id": "R96_SERVICE_PORTAL_HEAD",
+        "passed": true
+      },
+      {
+        "id": "R96_DOCUMENTATION_EAST_WALL_8",
+        "passed": true
+      },
+      {
+        "id": "R96_DOCUMENTATION_EAST_WALL_12",
+        "passed": true
+      },
+      {
+        "id": "R96_DOCUMENTATION_NORTH_JOIN",
+        "passed": true
+      },
+      {
+        "id": "R96_DOCUMENTATION_GALLERY_JOIN",
+        "passed": true
+      },
+      {
+        "id": "R96_SERVICE_STAIR_BOUNDARY_0",
+        "passed": true
+      },
+      {
+        "id": "R96_SERVICE_STAIR_BOUNDARY_1",
+        "passed": true
+      },
+      {
+        "id": "R96_SERVICE_STAIR_BOUNDARY_2",
+        "passed": true
+      },
+      {
+        "id": "R96_SERVICE_STAIR_BOUNDARY_3",
+        "passed": true
+      },
+      {
+        "id": "R96_SERVICE_STAIR_BOUNDARY_4",
+        "passed": true
+      },
+      {
+        "id": "R96_SERVICE_STAIR_BOUNDARY_5",
+        "passed": true
+      },
+      {
+        "id": "R96_SERVICE_STAIR_BOUNDARY_6",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_STRUT_01_1",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_01_1_0",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_01_1_1",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_01_1_2",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_01_1_3",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_STRUT_01_2",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_01_2_0",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_01_2_1",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_01_2_2",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_01_2_3",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_STRUT_01_3",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_01_3_0",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_01_3_1",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_01_3_2",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_01_3_3",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_STRUT_01_4",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_01_4_0",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_01_4_1",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_01_4_2",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_01_4_3",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_STRUT_01_5",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_01_5_0",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_01_5_1",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_01_5_2",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_01_5_3",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_STRUT_02_1",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_02_1_0",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_02_1_1",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_02_1_2",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_02_1_3",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_STRUT_02_2",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_02_2_0",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_02_2_1",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_02_2_2",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_02_2_3",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_STRUT_02_3",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_02_3_0",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_02_3_1",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_02_3_2",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_02_3_3",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_STRUT_02_4",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_02_4_0",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_02_4_1",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_02_4_2",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_02_4_3",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_STRUT_02_5",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_02_5_0",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_02_5_1",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_02_5_2",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_02_5_3",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_STRUT_03_1",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_03_1_0",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_03_1_1",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_03_1_2",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_03_1_3",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_STRUT_03_2",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_03_2_0",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_03_2_1",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_03_2_2",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_03_2_3",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_STRUT_03_3",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_03_3_0",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_03_3_1",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_03_3_2",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_03_3_3",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_STRUT_03_4",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_03_4_0",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_03_4_1",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_03_4_2",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_03_4_3",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_STRUT_03_5",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_03_5_0",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_03_5_1",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_03_5_2",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_03_5_3",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_STRUT_04_1",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_04_1_0",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_04_1_1",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_04_1_2",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_04_1_3",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_STRUT_04_2",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_04_2_0",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_04_2_1",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_04_2_2",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_04_2_3",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_STRUT_04_3",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_04_3_0",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_04_3_1",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_04_3_2",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_04_3_3",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_STRUT_04_4",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_04_4_0",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_04_4_1",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_04_4_2",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_04_4_3",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_STRUT_04_5",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_04_5_0",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_04_5_1",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_04_5_2",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_04_5_3",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_STRUT_05_1",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_05_1_0",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_05_1_1",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_05_1_2",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_05_1_3",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_STRUT_05_2",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_05_2_0",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_05_2_1",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_05_2_2",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_05_2_3",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_STRUT_05_3",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_05_3_0",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_05_3_1",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_05_3_2",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_05_3_3",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_STRUT_05_4",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_05_4_0",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_05_4_1",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_05_4_2",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_05_4_3",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_STRUT_05_5",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_05_5_0",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_05_5_1",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_05_5_2",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_05_5_3",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_STRUT_06_1",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_06_1_0",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_06_1_1",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_06_1_2",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_06_1_3",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_STRUT_06_2",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_06_2_0",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_06_2_1",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_06_2_2",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_06_2_3",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_STRUT_06_3",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_06_3_0",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_06_3_1",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_06_3_2",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_06_3_3",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_STRUT_06_4",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_06_4_0",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_06_4_1",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_06_4_2",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_06_4_3",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_STRUT_06_5",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_06_5_0",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_06_5_1",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_06_5_2",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_06_5_3",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_STRUT_07_1",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_07_1_0",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_07_1_1",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_07_1_2",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_07_1_3",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_STRUT_07_2",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_07_2_0",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_07_2_1",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_07_2_2",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_07_2_3",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_STRUT_07_3",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_07_3_0",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_07_3_1",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_07_3_2",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_07_3_3",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_STRUT_07_4",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_07_4_0",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_07_4_1",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_07_4_2",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_07_4_3",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_STRUT_07_5",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_07_5_0",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_07_5_1",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_07_5_2",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_07_5_3",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_STRUT_08_1",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_08_1_0",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_08_1_1",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_08_1_2",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_08_1_3",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_STRUT_08_2",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_08_2_0",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_08_2_1",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_08_2_2",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_08_2_3",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_STRUT_08_3",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_08_3_0",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_08_3_1",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_08_3_2",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_08_3_3",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_STRUT_08_4",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_08_4_0",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_08_4_1",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_08_4_2",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_08_4_3",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_STRUT_08_5",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_08_5_0",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_08_5_1",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_08_5_2",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_08_5_3",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_STRUT_09_1",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_09_1_0",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_09_1_1",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_09_1_2",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_09_1_3",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_STRUT_09_2",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_09_2_0",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_09_2_1",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_09_2_2",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_09_2_3",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_STRUT_09_3",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_09_3_0",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_09_3_1",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_09_3_2",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_09_3_3",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_STRUT_09_4",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_09_4_0",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_09_4_1",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_09_4_2",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_09_4_3",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_STRUT_09_5",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_09_5_0",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_09_5_1",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_09_5_2",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_09_5_3",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_STRUT_10_1",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_10_1_0",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_10_1_1",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_10_1_2",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_10_1_3",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_STRUT_10_2",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_10_2_0",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_10_2_1",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_10_2_2",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_10_2_3",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_STRUT_10_3",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_10_3_0",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_10_3_1",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_10_3_2",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_10_3_3",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_STRUT_10_4",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_10_4_0",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_10_4_1",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_10_4_2",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_10_4_3",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_STRUT_10_5",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_10_5_0",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_10_5_1",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_10_5_2",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_10_5_3",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_STRUT_11_1",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_11_1_0",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_11_1_1",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_11_1_2",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_11_1_3",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_STRUT_11_2",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_11_2_0",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_11_2_1",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_11_2_2",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_11_2_3",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_STRUT_11_3",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_11_3_0",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_11_3_1",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_11_3_2",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_11_3_3",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_STRUT_11_4",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_11_4_0",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_11_4_1",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_11_4_2",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_11_4_3",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_STRUT_11_5",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_11_5_0",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_11_5_1",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_11_5_2",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_11_5_3",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_STRUT_12_1",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_12_1_0",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_12_1_1",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_12_1_2",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_12_1_3",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_STRUT_12_2",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_12_2_0",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_12_2_1",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_12_2_2",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_12_2_3",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_STRUT_12_3",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_12_3_0",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_12_3_1",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_12_3_2",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_12_3_3",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_STRUT_12_4",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_12_4_0",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_12_4_1",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_12_4_2",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_12_4_3",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_STRUT_12_5",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_12_5_0",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_12_5_1",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_12_5_2",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_12_5_3",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_STRUT_13_1",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_13_1_0",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_13_1_1",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_13_1_2",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_13_1_3",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_STRUT_13_2",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_13_2_0",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_13_2_1",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_13_2_2",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_13_2_3",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_STRUT_13_3",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_13_3_0",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_13_3_1",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_13_3_2",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_13_3_3",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_STRUT_13_4",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_13_4_0",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_13_4_1",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_13_4_2",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_13_4_3",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_STRUT_13_5",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_13_5_0",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_13_5_1",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_13_5_2",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_13_5_3",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_STRUT_14_1",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_14_1_0",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_14_1_1",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_14_1_2",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_14_1_3",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_STRUT_14_2",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_14_2_0",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_14_2_1",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_14_2_2",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_14_2_3",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_STRUT_14_3",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_14_3_0",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_14_3_1",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_14_3_2",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_14_3_3",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_STRUT_14_4",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_14_4_0",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_14_4_1",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_14_4_2",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_14_4_3",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_STRUT_14_5",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_14_5_0",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_14_5_1",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_14_5_2",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_14_5_3",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_STRUT_15_1",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_15_1_0",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_15_1_1",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_15_1_2",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_15_1_3",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_STRUT_15_2",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_15_2_0",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_15_2_1",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_15_2_2",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_15_2_3",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_STRUT_15_3",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_15_3_0",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_15_3_1",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_15_3_2",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_15_3_3",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_STRUT_15_4",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_15_4_0",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_15_4_1",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_15_4_2",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_15_4_3",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_STRUT_15_5",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_15_5_0",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_15_5_1",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_15_5_2",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_15_5_3",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_STRUT_16_1",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_16_1_0",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_16_1_1",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_16_1_2",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_16_1_3",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_STRUT_16_2",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_16_2_0",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_16_2_1",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_16_2_2",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_16_2_3",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_STRUT_16_3",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_16_3_0",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_16_3_1",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_16_3_2",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_16_3_3",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_STRUT_16_4",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_16_4_0",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_16_4_1",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_16_4_2",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_16_4_3",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_STRUT_16_5",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_16_5_0",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_16_5_1",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_16_5_2",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_16_5_3",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_STRUT_17_1",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_17_1_0",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_17_1_1",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_17_1_2",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_17_1_3",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_STRUT_17_2",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_17_2_0",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_17_2_1",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_17_2_2",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_17_2_3",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_STRUT_17_3",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_17_3_0",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_17_3_1",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_17_3_2",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_17_3_3",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_STRUT_17_4",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_17_4_0",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_17_4_1",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_17_4_2",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_17_4_3",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_STRUT_17_5",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_17_5_0",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_17_5_1",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_17_5_2",
+        "passed": true
+      },
+      {
+        "id": "R96_CAFE_ROD_17_5_3",
+        "passed": true
+      },
+      {
+        "id": "P05_GALLERY_HALL_WEST2",
+        "passed": true
+      },
+      {
+        "id": "R14_GALLERY_WALL_RETAINED",
+        "passed": true
+      },
+      {
+        "id": "R87_ROOM_SIDE",
+        "passed": true
+      },
+      {
+        "id": "R87_ROOM_FRONT_LEFT",
+        "passed": true
+      },
+      {
+        "id": "R87_ROOM_FRONT_RIGHT",
+        "passed": true
+      },
+      {
+        "id": "R87_ROOM_DOOR_HEAD",
+        "passed": true
+      },
+      {
+        "id": "R87_ROOM_BACK",
+        "passed": true
+      },
+      {
+        "id": "R87_ROOM_END",
+        "passed": true
+      },
+      {
+        "id": "R87_UPPER_FLOOR",
+        "passed": true
+      },
+      {
+        "id": "R87_VOLUME_FRONT_END",
+        "passed": true
+      },
+      {
+        "id": "P05_GALLERY_HALL_WEST2_top",
+        "passed": true
+      },
+      {
+        "id": "R14_GALLERY_WALL_RETAINED_top",
+        "passed": true
+      }
+    ]
+  },
+  "before_intrusion_failures": 9,
+  "failures": [],
+  "construction_acceptance": false,
+  "limits": [
+    "R96 removes two confirmed legacy upper-floor intrusions. Petite room topology from PDF locally re-registered in two axes to current103 stair inner faces. Duplicate inner back/end removed; old upper slab over cafe trimmed. Door proportions remain conditional; no metric survey acceptance.",
+    "Upper lift shaft sides follow PDF footprint; height3.3m and thickness0.25m remain candidates; no mechanical shaft acceptance.",
+    "Cafe dropped nodes and rods are visibly supported by user photo.85 nodes,425 members follow inherited18x6 grid, with unmeasured .42m drop/.085m strut/.012m rod. This is representative architecture, not fabrication detail.",
+    "SS3 white zones around Studio/Documentation are not verified public +1 floor; visible lower ceilings and actual voids must not be indiscriminately filled. PDF2016 confirms the omitted east Documentation/service room. Its floor and perimeter are restored; ceiling height follows adjacent Studio candidate. Service stair boundary restored, treads and vertical continuity remain open.",
+    "No artwork, temporary exhibition partitions or cafe furniture added."
+  ]
+}

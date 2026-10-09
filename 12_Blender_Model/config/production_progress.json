@@ -1,5 +1,5 @@
 {
-  "as_of_revision": "R95",
+  "as_of_revision": "R96",
   "basis": "Beş eşit iş adımı: tamam 20, kısmi 10, bekleyen 0 puan. Yaklaşık kapsam ilerlemesidir; ölçü doğruluğu veya harcanan süre oranı değildir. Yeni paket kabulünde ilgili adımlar yeniden değerlendirilir.",
   "tasks": {
     "P00": {
@@ -556,7 +556,7 @@
     }
   },
   "last_reviewed_checkpoint": "R95",
-  "last_review_note": "R95: Kullanıcının SS1–SS5 işaretleri ayrı düzeltildi. Cam kenar şeridi/dönüşü ve dış uç duvarı eklendi; kafe zemin katındaki yanlış duvar uzantısı kaldırıldı; yanlışlıkla kaldırılmış doğu giriş duvarı geri kuruldu. Önce/sonra aynı 84 yerel kontrolde R94’ün 75 başarısızlığı R95’te sıfır. Dış görünüşler ve iki zemin kat kesit görünüşü incelendi.",
+  "last_review_note": "R96: Küçük batı galerisini kesen iki eski zemin kat duvarı üst döşeme altında sonlandırıldı. 2016 iç oda ile 103 merdiven kabuğunun farklı ölçekleri uzlaştırıldı; iki iç duvar kopyası kaldırıldı, kafe üzerine taşan +1 döşemesi daraltıldı. Okuma alanının doğusundaki eksik oda, servis merdiveni sınırı ve üst asansör kuyusu yüzleri kaynak planıyla üretildi. Kafe çatısına fotoğrafta görünen alt çubuk sistemi aday ölçülerle eklendi.",
   "execution_order": [
     "Bina kabuğu: tüm duvarlar, zeminler, çatılar ve birleşimler",
     "Merdivenler ve sahanlıklar",
@@ -567,7 +567,7 @@
     "Malzeme ve yüzey detayları",
     "Çevre düzenlemesi"
   ],
-  "current_priority": "Duvar–zemin–çatı birlikte: iç mekânlarda eksik alt/üst örtü ve kabuk açıklıkları kapatılıyor.",
-  "review_note": "R95: Kullanıcının SS1–SS5 işaretleri ayrı düzeltildi. Cam kenar şeridi/dönüşü ve dış uç duvarı eklendi; kafe zemin katındaki yanlış duvar uzantısı kaldırıldı; yanlışlıkla kaldırılmış doğu giriş duvarı geri kuruldu. Önce/sonra aynı 84 yerel kontrolde R94’ün 75 başarısızlığı R95’te sıfır. Dış görünüşler ve iki zemin kat kesit görünüşü incelendi.",
+  "current_priority": "+1 plan bütünlüğü: oda–merdiven–asansör sınırları, kaynak kaydı ve tüm bina duvar/döşeme/örtü bağlantıları.",
+  "review_note": "R96: Küçük batı galerisini kesen iki eski zemin kat duvarı üst döşeme altında sonlandırıldı. 2016 iç oda ile 103 merdiven kabuğunun farklı ölçekleri uzlaştırıldı; iki iç duvar kopyası kaldırıldı, kafe üzerine taşan +1 döşemesi daraltıldı. Okuma alanının doğusundaki eksik oda, servis merdiveni sınırı ve üst asansör kuyusu yüzleri kaynak planıyla üretildi. Kafe çatısına fotoğrafta görünen alt çubuk sistemi aday ölçülerle eklendi.",
   "last_reviewed_revision": "R95"
 }

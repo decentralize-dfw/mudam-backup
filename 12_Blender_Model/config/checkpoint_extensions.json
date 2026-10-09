@@ -1184,5 +1184,23 @@
     "image": "R95_marked_east_seam.png",
     "description": "Sağ cam birleşimi ve dış uç kapatıldı; kafe zemin katındaki yanlış duvar kaldırıldı; doğu galeri giriş duvarı geri kuruldu. Önceki sahnedeki 75 başarısız yerel kontrol yeni sahnede geçti.",
     "limits": "Sabit mimari geometri düzeltmesi. Kesin ölçüler, çatı imalat kesiti, profil ve malzeme kabulü açık; tüm bina tamamlandı sayılmadı."
+  },
+  {
+    "id": "R96",
+    "checks": [
+      "R96_verification.json",
+      "R96_global_audit.json",
+      "R96_inherited_verification.json"
+    ],
+    "tasks": [
+      "P07",
+      "P11",
+      "P17"
+    ],
+    "report": "R96_KONTROL_RAPORU.md",
+    "title": "Üst kat duvarları ve eksik oda / R96",
+    "image": "R96_after_front_cut.png",
+    "description": "R96: Küçük batı galerisini kesen iki eski zemin kat duvarı üst döşeme altında sonlandırıldı. 2016 iç oda ile 103 merdiven kabuğunun farklı ölçekleri uzlaştırıldı; iki iç duvar kopyası kaldırıldı, kafe üzerine taşan +1 döşemesi daraltıldı. Okuma alanının doğusundaki eksik oda, servis merdiveni sınırı ve üst asansör kuyusu yüzleri kaynak planıyla üretildi. Kafe çatısına fotoğrafta görünen alt çubuk sistemi aday ölçülerle eklendi.",
+    "limits": "Yerel plan kaydı ve çelik çubuk ölçüleri adaydır. Servis merdiveni basamakları, bütün katlar arasında devamlılık ve kesin imalat ölçüleri açık. Bina tamamlanmış sayılmadı."
   }
 ]
