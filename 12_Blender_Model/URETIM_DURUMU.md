@@ -297,3 +297,7 @@ Resmî plandaki küçük üst galeri önceki taramaya dahil değildi; döşeme v
 ## R88 — batı merdiven cam birleşimleri
 
 Basamaklardan yapılan ek taramada sekiz cam kenarı kaçağı bulundu ve düzeltildi. 25 panelin yalnız kenar payı değişti; 170 konum ve 12.240 yanal ışın yeniden kontrol edildi. [Rapor](reports/R88_KONTROL_RAPORU.md). Genel kabuk ve kaynak kabulü hâlâ açık.
+
+
+2026-10-09 13:27:20 UTC — f2389998c9e0d07c0b17ac8fd32040c986c49b28 origin/main normal push doğrulandı. Pano, renderlar, raporlar ve üretim betikleri gönderildi; Blender ve arşiv GLB dosyaları yerelde; tek güncel sıkıştırılmış web GLB gönderildi.
+
