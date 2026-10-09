@@ -391,3 +391,7 @@ R97: Üretim panosunda tarihsiz R-sürüm kayıtlarının görünmemesi düzelti
 R98: +1 kat köprüsüne taşan merdiven arka duvarı, üst başlık ve lento üç parçada kaynak plan sınırına çekildi. Aynı 118 yerel karşılaştırmada önceki 116 taşma yeni sahnede sıfır. Diğer işaretli bölgeler henüz tamamlanmadı.
 
 Asansör çevresi, Studio/servis odası dışındaki kat ilişkileri ve son iki galeri duvar–döşeme işareti açık. Bu paket yalnız köprüye taşan duvarı düzeltir. [Önce/sonra ve kontrol raporu](reports/R98_KONTROL_RAPORU.md).
+
+
+2026-10-09 16:55:36 UTC — 7af38d8a5b9f6d64c34b40ff77ce085027835154 origin/main normal push doğrulandı. Pano, renderlar, raporlar ve üretim betikleri gönderildi; Blender ve arşiv GLB dosyaları yerelde; tek güncel sıkıştırılmış web GLB gönderildi.
+
