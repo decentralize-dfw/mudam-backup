@@ -224,3 +224,7 @@ Bu sıra sonraki üretim kararlarında eski paket sırasının önüne geçer. M
 ## 2026-10-09 11:21:37 UTC — R73 / R74 duvar kontrolü
 
 Galerilerin açık iç/dış duvar gövdeleri birleştirildi; kaynak Grand Hall geçidi korundu. 540 yüzey/90 geçiş kontrolü geçti. Studio dört köşe birleşimi ve sekiz boşluk kontrolü tamamlandı. Envanter 213 duvar adayını kapsıyor; genel tamamlanma onayı verilmedi.
+
+
+2026-10-09 11:27:22 UTC — 86848362801a26019aab3f01b176c686c5f15644 origin/main normal push doğrulandı. Pano, renderlar, raporlar ve üretim betikleri gönderildi; Blender ve arşiv GLB dosyaları yerelde; tek güncel sıkıştırılmış web GLB gönderildi.
+
