@@ -1477,5 +1477,26 @@
     "image": "R113_after_west_service.png",
     "description": "Zemin katın iki galerisinde servis alanına bakan eksik uzun duvarlar kaynak plan konturunda oluşturuldu. Önceki 360 eksik yüzey örneği kapandı. Galeri ve servis geçişleri, genel geometri ve sahne farkı kontrolleri geçti; iki aynı kamera önce/sonra görüntüsü incelendi.",
     "limits": "Bütün bina ve kullanıcının tüm ekran görüntüleri henüz kabul edilmedi. Duvar kalınlığı mevcut kaynak konturları arasında uzlaştırılmış adaydır; kotlar ölçülmüş değildir. Öncelik kalan büyük kabuk sorunlarıdır."
+  },
+  {
+    "id": "R114",
+    "checks": [
+      "R114_verification.json",
+      "R114_global_audit.json",
+      "R114_inherited_verification.json",
+      "R114_lower_routes.json",
+      "R114_lower_stair_regression.json",
+      "R114_stair_width_clearance.json"
+    ],
+    "tasks": [
+      "P05",
+      "P07",
+      "P16"
+    ],
+    "report": "R114_KONTROL_RAPORU.md",
+    "title": "Alt merdiven sahanlık perdesi / R114",
+    "image": "R114_lower_context.png",
+    "description": "051 ve 052 fotoğraflarında görülen alt merdiven üst sahanlığı yanındaki eksik düşey taş perde eklendi. Aynı kamera önce/sonra görüntüsü incelendi. Yeni elemanın döşeme ve tavan temasları, alt kat geçişleri, alt merdiven regresyonu ve altı merdivenin baş mesafesi kontrol edildi.",
+    "limits": "Elemanın varlığı fotoğrafta görülüyor; yerleşimi mevcut merdiven üst kiriş hattına hizalı adaydır. 0,28 m kalınlık ve mevcut kol genişliği ölçülmüş değildir. Plan 104 bu ayrıntıyı göstermiyor. Bu paket yalnız bir temsilî mimari elemandır; bütün bina veya taşıyıcı sistem kabulü değildir. Büyük kabuk sorunları ve açık üretim işleri önceliğini korur."
   }
 ]

@@ -1,0 +1,183 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R113_GALERI_SERVIS_UZUN_DUVARLARI_v001.blend",
+  "rays": 226488,
+  "summaries": [
+    {
+      "region": "GH",
+      "rays": 25728,
+      "escapes": 0
+    },
+    {
+      "region": "ENT",
+      "rays": 18576,
+      "escapes": 0
+    },
+    {
+      "region": "EAST_GARDEN",
+      "rays": 10296,
+      "escapes": 0
+    },
+    {
+      "region": "WEST_CAFE",
+      "rays": 11232,
+      "escapes": 0
+    },
+    {
+      "region": "LINK",
+      "rays": 2160,
+      "escapes": 0
+    },
+    {
+      "region": "PAV",
+      "rays": 6408,
+      "escapes": 0
+    },
+    {
+      "region": "GROUND_GALLERY_E",
+      "rays": 16128,
+      "escapes": 0
+    },
+    {
+      "region": "GROUND_GALLERY_W",
+      "rays": 15912,
+      "escapes": 0
+    },
+    {
+      "region": "UPPER_GALLERY_E",
+      "rays": 15912,
+      "escapes": 0
+    },
+    {
+      "region": "UPPER_GALLERY_W",
+      "rays": 15408,
+      "escapes": 0
+    },
+    {
+      "region": "LOWER_GALLERY_E",
+      "rays": 11880,
+      "escapes": 0
+    },
+    {
+      "region": "LOWER_GALLERY_W",
+      "rays": 14616,
+      "escapes": 0
+    },
+    {
+      "region": "LOWER_FOYER",
+      "rays": 15288,
+      "escapes": 0
+    },
+    {
+      "region": "PETITE_WEST",
+      "rays": 2016,
+      "escapes": 0
+    },
+    {
+      "region": "SERVICE_WC_E",
+      "rays": 1440,
+      "escapes": 0
+    },
+    {
+      "region": "SERVICE_WC_W",
+      "rays": 1584,
+      "escapes": 0
+    },
+    {
+      "region": "SERVICE_CLOAK",
+      "rays": 1080,
+      "escapes": 0
+    },
+    {
+      "region": "SERVICE_SHOP",
+      "rays": 1512,
+      "escapes": 0
+    },
+    {
+      "region": "READING",
+      "rays": 2520,
+      "escapes": 0
+    },
+    {
+      "region": "STUDIO",
+      "rays": 2808,
+      "escapes": 0
+    },
+    {
+      "region": "UPPER_BRIDGE",
+      "rays": 5040,
+      "escapes": 0
+    },
+    {
+      "region": "LIFT_LANDING",
+      "rays": 576,
+      "escapes": 0
+    },
+    {
+      "region": "PAV_LOWER",
+      "rays": 6360,
+      "escapes": 0
+    },
+    {
+      "region": "AUDITORIUM",
+      "rays": 8544,
+      "escapes": 0
+    },
+    {
+      "region": "WEST_ENTRY",
+      "rays": 432,
+      "escapes": 0
+    },
+    {
+      "region": "WEST_TURN",
+      "rays": 216,
+      "escapes": 0
+    },
+    {
+      "region": "WEST_UPPER_LANDING",
+      "rays": 288,
+      "escapes": 0
+    },
+    {
+      "region": "PETITE_OUTER_L00",
+      "rays": 4608,
+      "escapes": 0
+    },
+    {
+      "region": "PETITE_OUTER_LP1",
+      "rays": 3240,
+      "escapes": 0
+    },
+    {
+      "region": "WEST_UPPER_RETURN_0",
+      "rays": 648,
+      "escapes": 0
+    },
+    {
+      "region": "WEST_UPPER_RETURN_1",
+      "rays": 288,
+      "escapes": 0
+    },
+    {
+      "region": "FOYER_SIDE_E",
+      "rays": 216,
+      "escapes": 0
+    },
+    {
+      "region": "FOYER_SIDE_W",
+      "rays": 720,
+      "escapes": 0
+    },
+    {
+      "region": "DOCUMENTATION_EAST",
+      "rays": 2808,
+      "escapes": 0
+    }
+  ],
+  "findings": [],
+  "architectural_acceptance": false,
+  "limits": [
+    "Diagnostic only, no geometry changes.",
+    "Near-cover rays can encounter modeled panel joints and structural tolerances; every finding needs localization and source review.",
+    "Real stairs and lightwells are preserved; this check does not establish surveyed accuracy."
+  ]
+}

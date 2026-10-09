@@ -1,0 +1,278 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R113_GALERI_SERVIS_UZUN_DUVARLARI_v001.blend",
+  "checks": 1622,
+  "findings": [
+    {
+      "side": "WC_E",
+      "edge": 0,
+      "distance_along": 8.642044693085062,
+      "kind": "ceiling",
+      "wall": "R45_STAIR_RECESS_CONTINUOUS",
+      "position": [
+        19.29616355895996,
+        18.755727767944336,
+        4.320000171661377
+      ],
+      "wall_surface": [
+        19.29836654663086,
+        18.740890502929688,
+        1.2999999523162842
+      ],
+      "surface_normal": [
+        -0.7323206067085266,
+        -0.6809599995613098,
+        0.0
+      ],
+      "nearby_cover": null
+    },
+    {
+      "side": "WC_E",
+      "edge": 1,
+      "distance_along": 0.24586668661891217,
+      "kind": "ceiling",
+      "wall": "R04_TREAD_ENVELOPE_27",
+      "position": [
+        18.9267635345459,
+        17.643396377563477,
+        4.320000171661377
+      ],
+      "wall_surface": [
+        18.927309036254883,
+        17.65838623046875,
+        1.2999999523162842
+      ],
+      "surface_normal": [
+        -0.6809598803520203,
+        0.7323206663131714,
+        -0.0
+      ],
+      "nearby_cover": {
+        "name": "R04_TREAD_ENVELOPE_27",
+        "z": 4.70267915725708,
+        "distance": 0.3826790153980255
+      }
+    },
+    {
+      "side": "WC_E",
+      "edge": 1,
+      "distance_along": 0.34421336126647706,
+      "kind": "ceiling",
+      "wall": "R04_TREAD_ENVELOPE_27",
+      "position": [
+        19.06575584411621,
+        17.638343811035156,
+        4.320000171661377
+      ],
+      "wall_surface": [
+        19.066301345825195,
+        17.65333366394043,
+        1.2999999523162842
+      ],
+      "surface_normal": [
+        -0.6809598803520203,
+        0.7323206663131714,
+        -0.0
+      ],
+      "nearby_cover": {
+        "name": "R04_TREAD_ENVELOPE_27",
+        "z": 4.70267915725708,
+        "distance": 0.3826789855957031
+      }
+    },
+    {
+      "side": "WC_E",
+      "edge": 1,
+      "distance_along": 0.4425600359140419,
+      "kind": "ceiling",
+      "wall": "R04_TREAD_ENVELOPE_28",
+      "position": [
+        18.153100967407227,
+        18.764257431030273,
+        4.320000171661377
+      ],
+      "wall_surface": [
+        18.15364646911621,
+        18.779247283935547,
+        1.2999999523162842
+      ],
+      "surface_normal": [
+        -0.6809598803520203,
+        0.7323206663131714,
+        -0.0
+      ],
+      "nearby_cover": {
+        "name": "R04_TREAD_ENVELOPE_28",
+        "z": 4.859074592590332,
+        "distance": 0.5390744209289551
+      }
+    },
+    {
+      "side": "WC_E",
+      "edge": 1,
+      "distance_along": 0.5409067105616069,
+      "kind": "ceiling",
+      "wall": "R04_TREAD_ENVELOPE_28",
+      "position": [
+        18.292091369628906,
+        18.759206771850586,
+        4.320000171661377
+      ],
+      "wall_surface": [
+        18.29263687133789,
+        18.77419662475586,
+        1.2999999523162842
+      ],
+      "surface_normal": [
+        -0.6809598803520203,
+        0.7323206663131714,
+        -0.0
+      ],
+      "nearby_cover": {
+        "name": "R04_TREAD_ENVELOPE_28",
+        "z": 4.859074592590332,
+        "distance": 0.5390744209289551
+      }
+    },
+    {
+      "side": "WC_E",
+      "edge": 1,
+      "distance_along": 0.6392533852091717,
+      "kind": "ceiling",
+      "wall": "R04_TREAD_ENVELOPE_28",
+      "position": [
+        18.43108367919922,
+        18.7541561126709,
+        4.320000171661377
+      ],
+      "wall_surface": [
+        18.431629180908203,
+        18.769145965576172,
+        1.2999999523162842
+      ],
+      "surface_normal": [
+        -0.6809598803520203,
+        0.7323206663131714,
+        -0.0
+      ],
+      "nearby_cover": {
+        "name": "R04_TREAD_ENVELOPE_28",
+        "z": 4.859074592590332,
+        "distance": 0.5390743613243103
+      }
+    },
+    {
+      "side": "WC_E",
+      "edge": 1,
+      "distance_along": 0.7376000598567366,
+      "kind": "ceiling",
+      "wall": "R04_TREAD_ENVELOPE_28",
+      "position": [
+        18.5700740814209,
+        18.749103546142578,
+        4.320000171661377
+      ],
+      "wall_surface": [
+        18.570619583129883,
+        18.76409339904785,
+        1.2999999523162842
+      ],
+      "surface_normal": [
+        -0.6809598803520203,
+        0.7323206663131714,
+        -0.0
+      ],
+      "nearby_cover": {
+        "name": "R04_TREAD_ENVELOPE_28",
+        "z": 4.859074592590332,
+        "distance": 0.5390744209289551
+      }
+    },
+    {
+      "side": "WC_E",
+      "edge": 1,
+      "distance_along": 0.8359467345043015,
+      "kind": "ceiling",
+      "wall": "R45_STAIR_RECESS_CONTINUOUS",
+      "position": [
+        19.40052604675293,
+        18.034175872802734,
+        4.320000171661377
+      ],
+      "wall_surface": [
+        19.38568878173828,
+        18.031972885131836,
+        1.2999999523162842
+      ],
+      "surface_normal": [
+        -0.6809598803520203,
+        0.7323206663131714,
+        -0.0
+      ],
+      "nearby_cover": {
+        "name": "R45_STAIR_RECESS_CONTINUOUS",
+        "z": 4.859074592590332,
+        "distance": 0.5390744209289551
+      }
+    },
+    {
+      "side": "WC_E",
+      "edge": 1,
+      "distance_along": 0.9342934091518663,
+      "kind": "ceiling",
+      "wall": "R45_STAIR_RECESS_CONTINUOUS",
+      "position": [
+        19.37500762939453,
+        18.206043243408203,
+        4.320000171661377
+      ],
+      "wall_surface": [
+        19.360170364379883,
+        18.203840255737305,
+        1.2999999523162842
+      ],
+      "surface_normal": [
+        -0.6809598803520203,
+        0.7323206663131714,
+        -0.0
+      ],
+      "nearby_cover": {
+        "name": "R45_STAIR_RECESS_CONTINUOUS",
+        "z": 4.859074592590332,
+        "distance": 0.5390744209289551
+      }
+    },
+    {
+      "side": "WC_E",
+      "edge": 1,
+      "distance_along": 1.0326400837994312,
+      "kind": "ceiling",
+      "wall": "R45_STAIR_RECESS_CONTINUOUS",
+      "position": [
+        19.349489212036133,
+        18.377910614013672,
+        4.320000171661377
+      ],
+      "wall_surface": [
+        19.334651947021484,
+        18.375707626342773,
+        1.2999999523162842
+      ],
+      "surface_normal": [
+        -0.6809598803520203,
+        0.7323206663131714,
+        -0.0
+      ],
+      "nearby_cover": {
+        "name": "R45_STAIR_RECESS_CONTINUOUS",
+        "z": 4.859074592590332,
+        "distance": 0.5390743613243103
+      }
+    }
+  ],
+  "construction_acceptance": false,
+  "limits": [
+    "Local15mm inward probes against actual wall faces, not room-grid bounds.",
+    "Windows/recesses and genuine high portals can lack a floor/ceiling at these levels and require source classification.",
+    "Wall search range4m; missing walls are a separate diagnostic."
+  ]
+}

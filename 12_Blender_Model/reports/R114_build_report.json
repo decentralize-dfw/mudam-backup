@@ -1,0 +1,40 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R114_ALT_MERDIVEN_SAHANLIK_PERDESI_v001.blend",
+  "base_scene": "MUDAM_R113_GALERI_SERVIS_UZUN_DUVARLARI_v001.blend",
+  "closed_objects": [
+    "R114_LOWER_STAIR_LANDING_STONE_BLADE"
+  ],
+  "changed_inherited_objects": [],
+  "polygon_world": [
+    [
+      -3.849745273590088,
+      14.542778015136719,
+      0.0
+    ],
+    [
+      -3.785348415374756,
+      16.31473159790039,
+      0.0
+    ],
+    [
+      -4.065163612365723,
+      16.324901580810547,
+      0.0
+    ],
+    [
+      -4.129560470581055,
+      14.552947044372559,
+      0.0
+    ]
+  ],
+  "z_range": [
+    -5.326293513971772,
+    -0.2
+  ],
+  "thickness_candidate_m": 0.28,
+  "construction_acceptance": false,
+  "limits": [
+    "Vertical blade presence observed in051/052; its exact position, width and thickness remain unmeasured.",
+    "Must pass independent route/headroom and visual comparison before publication."
+  ]
+}

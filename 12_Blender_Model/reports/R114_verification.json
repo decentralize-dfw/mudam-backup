@@ -1,0 +1,488 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R114_ALT_MERDIVEN_SAHANLIK_PERDESI_v001.blend",
+  "failures": [],
+  "surface_checks": {
+    "before": [
+      {
+        "f": 0.1,
+        "z": -5.1,
+        "hits": [],
+        "blade_present": false
+      },
+      {
+        "f": 0.1,
+        "z": -4,
+        "hits": [],
+        "blade_present": false
+      },
+      {
+        "f": 0.1,
+        "z": -3,
+        "hits": [],
+        "blade_present": false
+      },
+      {
+        "f": 0.1,
+        "z": -2,
+        "hits": [],
+        "blade_present": false
+      },
+      {
+        "f": 0.1,
+        "z": -1,
+        "hits": [],
+        "blade_present": false
+      },
+      {
+        "f": 0.3,
+        "z": -5.1,
+        "hits": [],
+        "blade_present": false
+      },
+      {
+        "f": 0.3,
+        "z": -4,
+        "hits": [],
+        "blade_present": false
+      },
+      {
+        "f": 0.3,
+        "z": -3,
+        "hits": [],
+        "blade_present": false
+      },
+      {
+        "f": 0.3,
+        "z": -2,
+        "hits": [],
+        "blade_present": false
+      },
+      {
+        "f": 0.3,
+        "z": -1,
+        "hits": [],
+        "blade_present": false
+      },
+      {
+        "f": 0.5,
+        "z": -5.1,
+        "hits": [],
+        "blade_present": false
+      },
+      {
+        "f": 0.5,
+        "z": -4,
+        "hits": [],
+        "blade_present": false
+      },
+      {
+        "f": 0.5,
+        "z": -3,
+        "hits": [],
+        "blade_present": false
+      },
+      {
+        "f": 0.5,
+        "z": -2,
+        "hits": [],
+        "blade_present": false
+      },
+      {
+        "f": 0.5,
+        "z": -1,
+        "hits": [],
+        "blade_present": false
+      },
+      {
+        "f": 0.7,
+        "z": -5.1,
+        "hits": [],
+        "blade_present": false
+      },
+      {
+        "f": 0.7,
+        "z": -4,
+        "hits": [],
+        "blade_present": false
+      },
+      {
+        "f": 0.7,
+        "z": -3,
+        "hits": [],
+        "blade_present": false
+      },
+      {
+        "f": 0.7,
+        "z": -2,
+        "hits": [],
+        "blade_present": false
+      },
+      {
+        "f": 0.7,
+        "z": -1,
+        "hits": [],
+        "blade_present": false
+      },
+      {
+        "f": 0.9,
+        "z": -5.1,
+        "hits": [],
+        "blade_present": false
+      },
+      {
+        "f": 0.9,
+        "z": -4,
+        "hits": [],
+        "blade_present": false
+      },
+      {
+        "f": 0.9,
+        "z": -3,
+        "hits": [],
+        "blade_present": false
+      },
+      {
+        "f": 0.9,
+        "z": -2,
+        "hits": [],
+        "blade_present": false
+      },
+      {
+        "f": 0.9,
+        "z": -1,
+        "hits": [],
+        "blade_present": false
+      }
+    ],
+    "after": [
+      {
+        "f": 0.1,
+        "z": -5.1,
+        "hits": [
+          [
+            "R114_LOWER_STAIR_LANDING_STONE_BLADE",
+            0.050000032037486306
+          ]
+        ],
+        "blade_present": true
+      },
+      {
+        "f": 0.1,
+        "z": -4,
+        "hits": [
+          [
+            "R114_LOWER_STAIR_LANDING_STONE_BLADE",
+            0.050000032037486306
+          ]
+        ],
+        "blade_present": true
+      },
+      {
+        "f": 0.1,
+        "z": -3,
+        "hits": [
+          [
+            "R114_LOWER_STAIR_LANDING_STONE_BLADE",
+            0.050000032037486306
+          ]
+        ],
+        "blade_present": true
+      },
+      {
+        "f": 0.1,
+        "z": -2,
+        "hits": [
+          [
+            "R114_LOWER_STAIR_LANDING_STONE_BLADE",
+            0.050000032037486306
+          ]
+        ],
+        "blade_present": true
+      },
+      {
+        "f": 0.1,
+        "z": -1,
+        "hits": [
+          [
+            "R114_LOWER_STAIR_LANDING_STONE_BLADE",
+            0.050000032037486306
+          ]
+        ],
+        "blade_present": true
+      },
+      {
+        "f": 0.3,
+        "z": -5.1,
+        "hits": [
+          [
+            "R114_LOWER_STAIR_LANDING_STONE_BLADE",
+            0.050000032037486306
+          ]
+        ],
+        "blade_present": true
+      },
+      {
+        "f": 0.3,
+        "z": -4,
+        "hits": [
+          [
+            "R114_LOWER_STAIR_LANDING_STONE_BLADE",
+            0.050000032037486306
+          ]
+        ],
+        "blade_present": true
+      },
+      {
+        "f": 0.3,
+        "z": -3,
+        "hits": [
+          [
+            "R114_LOWER_STAIR_LANDING_STONE_BLADE",
+            0.050000032037486306
+          ]
+        ],
+        "blade_present": true
+      },
+      {
+        "f": 0.3,
+        "z": -2,
+        "hits": [
+          [
+            "R114_LOWER_STAIR_LANDING_STONE_BLADE",
+            0.050000032037486306
+          ]
+        ],
+        "blade_present": true
+      },
+      {
+        "f": 0.3,
+        "z": -1,
+        "hits": [
+          [
+            "R114_LOWER_STAIR_LANDING_STONE_BLADE",
+            0.050000032037486306
+          ]
+        ],
+        "blade_present": true
+      },
+      {
+        "f": 0.5,
+        "z": -5.1,
+        "hits": [
+          [
+            "R114_LOWER_STAIR_LANDING_STONE_BLADE",
+            0.050000032037486306
+          ]
+        ],
+        "blade_present": true
+      },
+      {
+        "f": 0.5,
+        "z": -4,
+        "hits": [
+          [
+            "R114_LOWER_STAIR_LANDING_STONE_BLADE",
+            0.050000032037486306
+          ]
+        ],
+        "blade_present": true
+      },
+      {
+        "f": 0.5,
+        "z": -3,
+        "hits": [
+          [
+            "R114_LOWER_STAIR_LANDING_STONE_BLADE",
+            0.050000032037486306
+          ]
+        ],
+        "blade_present": true
+      },
+      {
+        "f": 0.5,
+        "z": -2,
+        "hits": [
+          [
+            "R114_LOWER_STAIR_LANDING_STONE_BLADE",
+            0.050000032037486306
+          ]
+        ],
+        "blade_present": true
+      },
+      {
+        "f": 0.5,
+        "z": -1,
+        "hits": [
+          [
+            "R114_LOWER_STAIR_LANDING_STONE_BLADE",
+            0.050000032037486306
+          ]
+        ],
+        "blade_present": true
+      },
+      {
+        "f": 0.7,
+        "z": -5.1,
+        "hits": [
+          [
+            "R114_LOWER_STAIR_LANDING_STONE_BLADE",
+            0.050000032037486306
+          ]
+        ],
+        "blade_present": true
+      },
+      {
+        "f": 0.7,
+        "z": -4,
+        "hits": [
+          [
+            "R114_LOWER_STAIR_LANDING_STONE_BLADE",
+            0.050000032037486306
+          ]
+        ],
+        "blade_present": true
+      },
+      {
+        "f": 0.7,
+        "z": -3,
+        "hits": [
+          [
+            "R114_LOWER_STAIR_LANDING_STONE_BLADE",
+            0.050000032037486306
+          ]
+        ],
+        "blade_present": true
+      },
+      {
+        "f": 0.7,
+        "z": -2,
+        "hits": [
+          [
+            "R114_LOWER_STAIR_LANDING_STONE_BLADE",
+            0.050000032037486306
+          ]
+        ],
+        "blade_present": true
+      },
+      {
+        "f": 0.7,
+        "z": -1,
+        "hits": [
+          [
+            "R114_LOWER_STAIR_LANDING_STONE_BLADE",
+            0.050000032037486306
+          ]
+        ],
+        "blade_present": true
+      },
+      {
+        "f": 0.9,
+        "z": -5.1,
+        "hits": [
+          [
+            "R114_LOWER_STAIR_LANDING_STONE_BLADE",
+            0.050000032037486306
+          ]
+        ],
+        "blade_present": true
+      },
+      {
+        "f": 0.9,
+        "z": -4,
+        "hits": [
+          [
+            "R114_LOWER_STAIR_LANDING_STONE_BLADE",
+            0.050000032037486306
+          ]
+        ],
+        "blade_present": true
+      },
+      {
+        "f": 0.9,
+        "z": -3,
+        "hits": [
+          [
+            "R114_LOWER_STAIR_LANDING_STONE_BLADE",
+            0.050000032037486306
+          ]
+        ],
+        "blade_present": true
+      },
+      {
+        "f": 0.9,
+        "z": -2,
+        "hits": [
+          [
+            "R114_LOWER_STAIR_LANDING_STONE_BLADE",
+            0.050000032037486306
+          ]
+        ],
+        "blade_present": true
+      },
+      {
+        "f": 0.9,
+        "z": -1,
+        "hits": [
+          [
+            "R114_LOWER_STAIR_LANDING_STONE_BLADE",
+            0.050000032037486306
+          ]
+        ],
+        "blade_present": true
+      }
+    ]
+  },
+  "contacts": [
+    {
+      "f": 0.1,
+      "floor": [
+        [
+          "R29_FOYER_FLOOR",
+          0.009999752124260493
+        ]
+      ],
+      "ceiling": [
+        [
+          "R05_TREAD_33",
+          0.24334428994586826
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "f": 0.5,
+      "floor": [
+        [
+          "R29_FOYER_FLOOR",
+          0.009999752124260493
+        ]
+      ],
+      "ceiling": [
+        [
+          "R05_TREAD_33",
+          0.2433443205633121
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "f": 0.9,
+      "floor": [
+        [
+          "R29_FOYER_FLOOR",
+          0.009999752124260493
+        ]
+      ],
+      "ceiling": [
+        [
+          "R05_TREAD_33",
+          0.24334430525459066
+        ]
+      ],
+      "passed": true
+    }
+  ],
+  "source_presence": "051,052",
+  "dimensions": "D representative landing-aligned footprint; not measured",
+  "construction_acceptance": false
+}
