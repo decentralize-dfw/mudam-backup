@@ -341,3 +341,7 @@ Diğer dört merdivende 590 konum ve 21.240 yanal ışın geçti. WC, vestiyer v
 R93: Kuzey cam şeridi yatay kayıtları yan bandın ortak kotlarına bağlandı. Önce/sonra render kontrol edildi. Önceki üç ekran görüntüsündeki duvar–çatı bağlantıları ve içeride görünen mavi temsil hâlâ açık düzeltme işi.
 
 [Kontrol raporu](reports/R93_KONTROL_RAPORU.md). 30 panel ve 15 profil yeniden üretildi; dört ortak yatay kot doğrulandı.
+
+
+2026-10-09 14:53:13 UTC — 3d710e1f7355b899ec05c65c9125da7be3b132dd origin/main normal push doğrulandı. Pano, renderlar, raporlar ve üretim betikleri gönderildi; Blender ve arşiv GLB dosyaları yerelde; tek güncel sıkıştırılmış web GLB gönderildi.
+
