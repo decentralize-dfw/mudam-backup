@@ -549,3 +549,7 @@ R115: Altı mevcut camda 48 metal profil ve 48 conta üretildi. R115 sahnesi yen
 
 
 R116: Sekiz yeni kullanıcı işareti için gerçek kabuk düzeltmeleri üretildi. Küçük oda iç bölmeleri kaldırıldı; dış sınır ve köprü duvarları mevcut çatı altına tamamlandı. Döşeme çakışmaları, portal/merdiven birleşimi, modern–tarihî alt cephe ve alt kat yan hacimleri düzenlendi. [Madde madde değişiklik ve açık sınırlar](reports/R116_KONTROL_RAPORU.md). Genel bina kabulü verilmedi; kapsam oranı yapay artırılmadı.
+
+
+2026-10-09 23:27:53 UTC — 2f36b24e0c53f79d8247adf2e947938f421780be origin/main normal push doğrulandı. Pano, renderlar, raporlar ve üretim betikleri gönderildi; Blender ve arşiv GLB dosyaları yerelde; tek güncel sıkıştırılmış web GLB gönderildi.
+
