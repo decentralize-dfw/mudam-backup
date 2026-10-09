@@ -363,3 +363,7 @@ R94: Üç işaretli görünüş üzerinde gerçek geometri düzeltildi. Mavi iç
 R95: Kullanıcının SS1–SS5 işaretleri ayrı düzeltildi. Cam kenar şeridi/dönüşü ve dış uç duvarı eklendi; kafe zemin katındaki yanlış duvar uzantısı kaldırıldı; yanlışlıkla kaldırılmış doğu giriş duvarı geri kuruldu. Önce/sonra aynı 84 yerel kontrolde R94’ün 75 başarısızlığı R95’te sıfır. Dış görünüşler ve iki zemin kat kesit görünüşü incelendi.
 
 [İşaret bazlı sonuç görüntüleri](reports/R95_KONTROL_RAPORU.md).
+
+
+2026-10-09 15:53:58 UTC — 3dec699583cea276a7e4c6875d20fe8e72a26384 origin/main normal push doğrulandı. Pano, renderlar, raporlar ve üretim betikleri gönderildi; Blender ve arşiv GLB dosyaları yerelde; tek güncel sıkıştırılmış web GLB gönderildi.
+
