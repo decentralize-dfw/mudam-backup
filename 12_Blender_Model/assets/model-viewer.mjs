@@ -1,6 +1,7 @@
 import * as THREE from 'three';
 import {OrbitControls} from './vendor/three/OrbitControls.js';
 import {GLTFLoader} from './vendor/three/GLTFLoader.js';
+import {latestModelRelease,modelBytes} from './model-release.mjs';
 import {LEVELS,clipEquations,retained,sourceIds} from './viewer-core.mjs';
 const $=id=>document.getElementById(id), view=$('viewport'), status=$('status');
 const scene=new THREE.Scene();scene.background=new THREE.Color('#e7e9e3');
@@ -24,4 +25,48 @@ const ray=new THREE.Raycaster(),pointer=new THREE.Vector2();let down;
 renderer.domElement.addEventListener('pointerdown',e=>{down=[e.clientX,e.clientY]});renderer.domElement.addEventListener('pointerup',e=>{if(!down||Math.hypot(e.clientX-down[0],e.clientY-down[1])>5||e.button!==0)return;const r=renderer.domElement.getBoundingClientRect();pointer.set((e.clientX-r.left)/r.width*2-1,1-(e.clientY-r.top)/r.height*2);ray.setFromCamera(pointer,camera);const hits=ray.intersectObjects(meshes,false);const hit=hits.find(h=>{if(!h.object.visible||!retained(h.point,planes))return false;const mat=Array.isArray(h.object.material)?h.object.material[h.face.materialIndex]:h.object.material;return !($('skipGlass').checked&&(mat.transmission>.1||(mat.transparent&&mat.opacity<.6)||/GLASS|GLAZ/i.test(mat.name)))});select(hit?.object)});
 $('edges').onchange=$('level').onchange=$('site').onchange=$('reverse').onchange=$('isolate').onchange=apply;$('axis').onchange=setAxis;$('offset').oninput=()=>{$('cutValue').value=(+$('offset').value).toFixed(2);apply()};$('cutValue').oninput=$('cutValue').onchange=()=>{if($('cutValue').value!==''&&Number.isFinite(+$('cutValue').value)){$('offset').value=$('cutValue').value;apply()}};$('search').oninput=search;$('iso').onclick=()=>fit(mainBounds);$('top').onclick=()=>fit(mainBounds,'top');$('front').onclick=()=>fit(mainBounds,'front');$('focus').onclick=()=>selected&&fit(new THREE.Box3().setFromObject(selected));$('clear').onclick=()=>select(null);
 async function json(url){const r=await fetch(url,{cache:'no-store'});if(!r.ok)throw Error(`${url}: ${r.status}`);return r.json()}
-try{[report,manifest,extensions]=await Promise.all([json('reports/P21_export_report.json'),json('references/source_manifest.json'),json('config/checkpoint_extensions.json')]);const verification=await json('reports/P21_verification.json');if(verification.file!==report.file||!Array.isArray(verification.failures)||verification.failures.length)throw Error('GLB kontrolünde açık hata var.');const gltf=await new GLTFLoader().loadAsync('../'+report.file,p=>{status.textContent=`Model yükleniyor · ${(p.loaded/1e6).toFixed(1)} MB`});model=gltf.scene;scene.add(model);model.updateMatrixWorld(true);mainBounds=new THREE.Box3();model.traverse(o=>{if(o.isMesh){meshes.push(o);if(!isSite(o))mainBounds.expandByObject(o)}});const edgeCache=new Map(),lineMaterial=new THREE.LineBasicMaterial({color:0x57665d,transparent:true,opacity:.3,depthWrite:false});for(const m of meshes){if(isSite(m)||/GLASS|GLAZ|PROFILE|FRAME|ROD|BAR|LAME|SEAT/i.test(m.name))continue;let geometry=edgeCache.get(m.geometry.uuid);if(!geometry){geometry=new THREE.EdgesGeometry(m.geometry,30);edgeCache.set(m.geometry.uuid,geometry)}const line=new THREE.LineSegments(geometry,lineMaterial);m.add(line);edgeLines.push(line)}$('ready').textContent=report.source_scene.split('/').pop();$('blend').href='../'+report.source_scene;status.textContent=`${report.selected_mesh_count.toLocaleString('tr')} model parçası · kaynak bilgisi için tıklayın`;apply();fit(mainBounds);document.body.dataset.loaded='true';document.body.dataset.meshes=meshes.length;document.body.dataset.sourceScene=report.source_scene}catch(e){status.textContent='Model açılamadı: '+e.message;status.style.color='#9a311b';console.error(e)}
+let loading=false, releaseHash, downloadURL;
+function disposeModel(root){
+  const geometries=new Set(),materials=new Set(),textures=new Set();
+  root.traverse(o=>{if(o.geometry)geometries.add(o.geometry);for(const m of [o.material].flat().filter(Boolean)){materials.add(m);for(const value of Object.values(m))if(value?.isTexture)textures.add(value)}});
+  for(const item of [...geometries,...materials,...textures])item.dispose();
+}
+async function refreshModel(){
+  if(loading)return;loading=true;
+  try{
+    const release=await latestModelRelease();
+    if(release.sha256===releaseHash)return;
+    status.style.color='';status.textContent=`${release.revision} yükleniyor…`;
+    const [bytes,sources,revisions]=await Promise.all([
+      modelBytes(release,n=>{status.textContent=`${release.revision} yükleniyor · ${(n/1e6).toFixed(1)} / ${(release.download_bytes/1e6).toFixed(1)} MB`}),
+      json('references/source_manifest.json'),json('config/checkpoint_extensions.json')]);
+    const gltf=await new GLTFLoader().parseAsync(bytes,'');
+    const previous=model,wasLoaded=!!model;
+    if(previous){select(null);scene.remove(previous)}
+    model=gltf.scene;meshes=[];edgeLines=[];manifest=sources;extensions=revisions;report=release;
+    scene.add(model);model.updateMatrixWorld(true);mainBounds=new THREE.Box3();
+    model.traverse(o=>{if(o.isMesh){meshes.push(o);if(!isSite(o))mainBounds.expandByObject(o)}});
+    const edgeCache=new Map(),lineMaterial=new THREE.LineBasicMaterial({color:0x57665d,transparent:true,opacity:.3,depthWrite:false});
+    for(const m of meshes){
+      if(isSite(m)||/GLASS|GLAZ|PROFILE|FRAME|ROD|BAR|LAME|SEAT/i.test(m.name))continue;
+      let geometry=edgeCache.get(m.geometry.uuid);
+      if(!geometry){geometry=new THREE.EdgesGeometry(m.geometry,30);edgeCache.set(m.geometry.uuid,geometry)}
+      const line=new THREE.LineSegments(geometry,lineMaterial);m.add(line);edgeLines.push(line);
+    }
+    if(previous)disposeModel(previous);
+    if(downloadURL)URL.revokeObjectURL(downloadURL);
+    downloadURL=URL.createObjectURL(new Blob([bytes],{type:'model/gltf-binary'}));
+    $('blend').href=downloadURL;$('blend').textContent='GLB indir';$('blend').download=release.source_glb.split('/').pop();
+    $('ready').textContent=release.source_scene.split('/').pop();
+    status.textContent=`${release.revision} · ${release.selected_mesh_count.toLocaleString('tr')} model parçası · otomatik güncel`;
+    apply();if(!wasLoaded)fit(mainBounds);
+    document.body.dataset.loaded='true';document.body.dataset.meshes=meshes.length;document.body.dataset.sourceScene=release.source_scene;
+    releaseHash=release.sha256;
+  }catch(e){
+    status.textContent=(model?'Mevcut model açık; güncelleme yeniden denenecek: ':'Model açılamadı: ')+e.message;
+    status.style.color='#9a311b';console.error(e);
+  }finally{loading=false}
+}
+await refreshModel();
+setInterval(()=>{if(!document.hidden)refreshModel()},60000);
+document.addEventListener('visibilitychange',()=>{if(!document.hidden)refreshModel()});

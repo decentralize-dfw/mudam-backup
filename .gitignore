@@ -21,7 +21,7 @@ Desktop.ini
 12_Blender_Model/scenes/archive/local_trials_20261008/
 12_Blender_Model/reports/*.log
 
-# Models stay local; hourly publication contains progress artifacts only.
+# Blender and versioned exports stay local; only one lossless web preview is published.
 12_Blender_Model/scenes/**/*.blend
 12_Blender_Model/scenes/*.blend
 12_Blender_Model/exports/*.glb
@@ -29,3 +29,7 @@ Desktop.ini
 12_Blender_Model/exports/*.bin
 12_Blender_Model/exports/*.fbx
 12_Blender_Model/exports/*.obj
+
+12_Blender_Model/exports/*.glb.gz
+!12_Blender_Model/exports/current.glb.gz
+12_Blender_Model/exports/*.tmp

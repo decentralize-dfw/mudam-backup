@@ -1,0 +1,163 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R69_ALT_FUAYE_GOMME_ISIK_v001.blend",
+  "base_scene": "MUDAM_R68_PAVYON_HENDEK_KOLU_v001.blend",
+  "closed_objects": [
+    "R69_LIGHT_00_RIM",
+    "R69_LIGHT_00_REFLECTOR",
+    "R69_LIGHT_00_LENS",
+    "R69_LIGHT_00_BACK",
+    "R69_LIGHT_01_RIM",
+    "R69_LIGHT_01_REFLECTOR",
+    "R69_LIGHT_01_LENS",
+    "R69_LIGHT_01_BACK",
+    "R69_LIGHT_02_RIM",
+    "R69_LIGHT_02_REFLECTOR",
+    "R69_LIGHT_02_LENS",
+    "R69_LIGHT_02_BACK",
+    "R69_LIGHT_03_RIM",
+    "R69_LIGHT_03_REFLECTOR",
+    "R69_LIGHT_03_LENS",
+    "R69_LIGHT_03_BACK",
+    "R69_LIGHT_04_RIM",
+    "R69_LIGHT_04_REFLECTOR",
+    "R69_LIGHT_04_LENS",
+    "R69_LIGHT_04_BACK",
+    "R69_LIGHT_05_RIM",
+    "R69_LIGHT_05_REFLECTOR",
+    "R69_LIGHT_05_LENS",
+    "R69_LIGHT_05_BACK",
+    "R69_LIGHT_06_RIM",
+    "R69_LIGHT_06_REFLECTOR",
+    "R69_LIGHT_06_LENS",
+    "R69_LIGHT_06_BACK"
+  ],
+  "hidden_tools": [
+    "R69_LIGHT_00_CUTTER",
+    "R69_LIGHT_01_CUTTER",
+    "R69_LIGHT_02_CUTTER",
+    "R69_LIGHT_03_CUTTER",
+    "R69_LIGHT_04_CUTTER",
+    "R69_LIGHT_05_CUTTER",
+    "R69_LIGHT_06_CUTTER"
+  ],
+  "changed_inherited_objects": [
+    "R06_FOYER_CEILING_AND_CURVED_FASCIA"
+  ],
+  "fixtures": [
+    {
+      "id": "R69_LIGHT_00",
+      "local_position": [
+        -4,
+        -2
+      ],
+      "center": [
+        -2.964048147201538,
+        7.689436912536621,
+        -0.656293511390686
+      ],
+      "rim": "R69_LIGHT_00_RIM",
+      "reflector": "R69_LIGHT_00_REFLECTOR",
+      "lens": "R69_LIGHT_00_LENS",
+      "back": "R69_LIGHT_00_BACK"
+    },
+    {
+      "id": "R69_LIGHT_01",
+      "local_position": [
+        -2,
+        0
+      ],
+      "center": [
+        -2.8613247871398926,
+        10.515989303588867,
+        -0.656293511390686
+      ],
+      "rim": "R69_LIGHT_01_RIM",
+      "reflector": "R69_LIGHT_01_REFLECTOR",
+      "lens": "R69_LIGHT_01_LENS",
+      "back": "R69_LIGHT_01_BACK"
+    },
+    {
+      "id": "R69_LIGHT_02",
+      "local_position": [
+        0,
+        -1.1
+      ],
+      "center": [
+        -5.028802871704102,
+        11.231575012207031,
+        -0.656293511390686
+      ],
+      "rim": "R69_LIGHT_02_RIM",
+      "reflector": "R69_LIGHT_02_REFLECTOR",
+      "lens": "R69_LIGHT_02_LENS",
+      "back": "R69_LIGHT_02_BACK"
+    },
+    {
+      "id": "R69_LIGHT_03",
+      "local_position": [
+        1.05,
+        0
+      ],
+      "center": [
+        -4.938257217407227,
+        12.749563217163086,
+        -0.656293511390686
+      ],
+      "rim": "R69_LIGHT_03_RIM",
+      "reflector": "R69_LIGHT_03_REFLECTOR",
+      "lens": "R69_LIGHT_03_LENS",
+      "back": "R69_LIGHT_03_BACK"
+    },
+    {
+      "id": "R69_LIGHT_04",
+      "local_position": [
+        0.65,
+        1.0
+      ],
+      "center": [
+        -3.933549404144287,
+        13.137592315673828,
+        -0.656293511390686
+      ],
+      "rim": "R69_LIGHT_04_RIM",
+      "reflector": "R69_LIGHT_04_REFLECTOR",
+      "lens": "R69_LIGHT_04_LENS",
+      "back": "R69_LIGHT_04_BACK"
+    },
+    {
+      "id": "R69_LIGHT_05",
+      "local_position": [
+        2,
+        3.4
+      ],
+      "center": [
+        -3.095271348953247,
+        15.76052188873291,
+        -0.656293511390686
+      ],
+      "rim": "R69_LIGHT_05_RIM",
+      "reflector": "R69_LIGHT_05_REFLECTOR",
+      "lens": "R69_LIGHT_05_LENS",
+      "back": "R69_LIGHT_05_BACK"
+    },
+    {
+      "id": "R69_LIGHT_06",
+      "local_position": [
+        4,
+        5.2
+      ],
+      "center": [
+        -3.139012575149536,
+        18.450881958007812,
+        -0.656293511390686
+      ],
+      "rim": "R69_LIGHT_06_RIM",
+      "reflector": "R69_LIGHT_06_REFLECTOR",
+      "lens": "R69_LIGHT_06_LENS",
+      "back": "R69_LIGHT_06_BACK"
+    }
+  ],
+  "soffit_z": -0.6562935139717725,
+  "diameter_candidate_m": 0.18,
+  "construction_acceptance": false
+}

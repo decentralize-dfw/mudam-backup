@@ -1,0 +1,1493 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R69_ALT_FUAYE_GOMME_ISIK_v001.blend",
+  "solids": [
+    {
+      "name": "R69_LIGHT_00_RIM",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "volume": 0.00020361457768545456
+    },
+    {
+      "name": "R69_LIGHT_00_REFLECTOR",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "volume": 4.1743518242152015e-05
+    },
+    {
+      "name": "R69_LIGHT_00_LENS",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "volume": 8.470624702036606e-06
+    },
+    {
+      "name": "R69_LIGHT_00_BACK",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "volume": 0.00014387275658207934
+    },
+    {
+      "name": "R69_LIGHT_01_RIM",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "volume": 0.000203613502378532
+    },
+    {
+      "name": "R69_LIGHT_01_REFLECTOR",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "volume": 4.174203976336501e-05
+    },
+    {
+      "name": "R69_LIGHT_01_LENS",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "volume": 8.470658066004218e-06
+    },
+    {
+      "name": "R69_LIGHT_01_BACK",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "volume": 0.0001438729213006527
+    },
+    {
+      "name": "R69_LIGHT_02_RIM",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "volume": 0.00020361282030090401
+    },
+    {
+      "name": "R69_LIGHT_02_REFLECTOR",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "volume": 4.174270753444923e-05
+    },
+    {
+      "name": "R69_LIGHT_02_LENS",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "volume": 8.470620922164419e-06
+    },
+    {
+      "name": "R69_LIGHT_02_BACK",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "volume": 0.00014387288773020556
+    },
+    {
+      "name": "R69_LIGHT_03_RIM",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "volume": 0.0002036128203009405
+    },
+    {
+      "name": "R69_LIGHT_03_REFLECTOR",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "volume": 4.1742707535620615e-05
+    },
+    {
+      "name": "R69_LIGHT_03_LENS",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "volume": 8.470620922175023e-06
+    },
+    {
+      "name": "R69_LIGHT_03_BACK",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "volume": 0.0001438728877302274
+    },
+    {
+      "name": "R69_LIGHT_04_RIM",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "volume": 0.00020361328225115767
+    },
+    {
+      "name": "R69_LIGHT_04_REFLECTOR",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "volume": 4.174208518640098e-05
+    },
+    {
+      "name": "R69_LIGHT_04_LENS",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "volume": 8.470658065995378e-06
+    },
+    {
+      "name": "R69_LIGHT_04_BACK",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "volume": 0.00014387290365595288
+    },
+    {
+      "name": "R69_LIGHT_05_RIM",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "volume": 0.00020361392699089364
+    },
+    {
+      "name": "R69_LIGHT_05_REFLECTOR",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "volume": 4.174252493301014e-05
+    },
+    {
+      "name": "R69_LIGHT_05_LENS",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "volume": 8.470658065996564e-06
+    },
+    {
+      "name": "R69_LIGHT_05_BACK",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "volume": 0.00014387292130066937
+    },
+    {
+      "name": "R69_LIGHT_06_RIM",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "volume": 0.000203614058089136
+    },
+    {
+      "name": "R69_LIGHT_06_REFLECTOR",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "volume": 4.174179787093732e-05
+    },
+    {
+      "name": "R69_LIGHT_06_LENS",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "volume": 8.470680679745182e-06
+    },
+    {
+      "name": "R69_LIGHT_06_BACK",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "volume": 0.00014387299651434678
+    },
+    {
+      "name": "R06_FOYER_CEILING_AND_CURVED_FASCIA",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "volume": 146.39868247102584
+    }
+  ],
+  "rays": [
+    {
+      "label": "R69_LIGHT_00_center",
+      "hit": [
+        0.3640000522136688,
+        "R69_LIGHT_00_LENS",
+        -0.5922935009002686
+      ],
+      "expected": "R69_LIGHT_00_LENS",
+      "expected_z": -0.592293511390686,
+      "passed": true
+    },
+    {
+      "label": "R69_LIGHT_00_rim_0",
+      "hit": [
+        0.29600000381469727,
+        "R69_LIGHT_00_RIM",
+        -0.6602935194969177
+      ],
+      "expected": "R69_LIGHT_00_RIM",
+      "expected_z": -0.660293511390686,
+      "passed": true
+    },
+    {
+      "label": "R69_LIGHT_00_soffit_0",
+      "hit": [
+        0.30000001192092896,
+        "R06_FOYER_CEILING_AND_CURVED_FASCIA",
+        -0.656293511390686
+      ],
+      "expected": "R06_FOYER_CEILING_AND_CURVED_FASCIA",
+      "expected_z": -0.656293511390686,
+      "passed": true
+    },
+    {
+      "label": "R69_LIGHT_00_rim_1",
+      "hit": [
+        0.2959999740123749,
+        "R69_LIGHT_00_RIM",
+        -0.6602935791015625
+      ],
+      "expected": "R69_LIGHT_00_RIM",
+      "expected_z": -0.660293511390686,
+      "passed": true
+    },
+    {
+      "label": "R69_LIGHT_00_soffit_1",
+      "hit": [
+        0.30000001192092896,
+        "R06_FOYER_CEILING_AND_CURVED_FASCIA",
+        -0.656293511390686
+      ],
+      "expected": "R06_FOYER_CEILING_AND_CURVED_FASCIA",
+      "expected_z": -0.656293511390686,
+      "passed": true
+    },
+    {
+      "label": "R69_LIGHT_00_rim_2",
+      "hit": [
+        0.2959999740123749,
+        "R69_LIGHT_00_RIM",
+        -0.6602935791015625
+      ],
+      "expected": "R69_LIGHT_00_RIM",
+      "expected_z": -0.660293511390686,
+      "passed": true
+    },
+    {
+      "label": "R69_LIGHT_00_soffit_2",
+      "hit": [
+        0.30000001192092896,
+        "R06_FOYER_CEILING_AND_CURVED_FASCIA",
+        -0.656293511390686
+      ],
+      "expected": "R06_FOYER_CEILING_AND_CURVED_FASCIA",
+      "expected_z": -0.656293511390686,
+      "passed": true
+    },
+    {
+      "label": "R69_LIGHT_00_rim_3",
+      "hit": [
+        0.29600000381469727,
+        "R69_LIGHT_00_RIM",
+        -0.6602935194969177
+      ],
+      "expected": "R69_LIGHT_00_RIM",
+      "expected_z": -0.660293511390686,
+      "passed": true
+    },
+    {
+      "label": "R69_LIGHT_00_soffit_3",
+      "hit": [
+        0.30000001192092896,
+        "R06_FOYER_CEILING_AND_CURVED_FASCIA",
+        -0.656293511390686
+      ],
+      "expected": "R06_FOYER_CEILING_AND_CURVED_FASCIA",
+      "expected_z": -0.656293511390686,
+      "passed": true
+    },
+    {
+      "label": "R69_LIGHT_00_rim_4",
+      "hit": [
+        0.29600000381469727,
+        "R69_LIGHT_00_RIM",
+        -0.6602935194969177
+      ],
+      "expected": "R69_LIGHT_00_RIM",
+      "expected_z": -0.660293511390686,
+      "passed": true
+    },
+    {
+      "label": "R69_LIGHT_00_soffit_4",
+      "hit": [
+        0.30000001192092896,
+        "R06_FOYER_CEILING_AND_CURVED_FASCIA",
+        -0.656293511390686
+      ],
+      "expected": "R06_FOYER_CEILING_AND_CURVED_FASCIA",
+      "expected_z": -0.656293511390686,
+      "passed": true
+    },
+    {
+      "label": "R69_LIGHT_00_rim_5",
+      "hit": [
+        0.2959999740123749,
+        "R69_LIGHT_00_RIM",
+        -0.6602935791015625
+      ],
+      "expected": "R69_LIGHT_00_RIM",
+      "expected_z": -0.660293511390686,
+      "passed": true
+    },
+    {
+      "label": "R69_LIGHT_00_soffit_5",
+      "hit": [
+        0.30000004172325134,
+        "R06_FOYER_CEILING_AND_CURVED_FASCIA",
+        -0.656293511390686
+      ],
+      "expected": "R06_FOYER_CEILING_AND_CURVED_FASCIA",
+      "expected_z": -0.656293511390686,
+      "passed": true
+    },
+    {
+      "label": "R69_LIGHT_00_rim_6",
+      "hit": [
+        0.2959999740123749,
+        "R69_LIGHT_00_RIM",
+        -0.6602935791015625
+      ],
+      "expected": "R69_LIGHT_00_RIM",
+      "expected_z": -0.660293511390686,
+      "passed": true
+    },
+    {
+      "label": "R69_LIGHT_00_soffit_6",
+      "hit": [
+        0.30000001192092896,
+        "R06_FOYER_CEILING_AND_CURVED_FASCIA",
+        -0.656293511390686
+      ],
+      "expected": "R06_FOYER_CEILING_AND_CURVED_FASCIA",
+      "expected_z": -0.656293511390686,
+      "passed": true
+    },
+    {
+      "label": "R69_LIGHT_00_rim_7",
+      "hit": [
+        0.29600000381469727,
+        "R69_LIGHT_00_RIM",
+        -0.6602935194969177
+      ],
+      "expected": "R69_LIGHT_00_RIM",
+      "expected_z": -0.660293511390686,
+      "passed": true
+    },
+    {
+      "label": "R69_LIGHT_00_soffit_7",
+      "hit": [
+        0.29999998211860657,
+        "R06_FOYER_CEILING_AND_CURVED_FASCIA",
+        -0.656293511390686
+      ],
+      "expected": "R06_FOYER_CEILING_AND_CURVED_FASCIA",
+      "expected_z": -0.656293511390686,
+      "passed": true
+    },
+    {
+      "label": "R69_LIGHT_01_center",
+      "hit": [
+        0.3640000522136688,
+        "R69_LIGHT_01_LENS",
+        -0.5922935009002686
+      ],
+      "expected": "R69_LIGHT_01_LENS",
+      "expected_z": -0.592293511390686,
+      "passed": true
+    },
+    {
+      "label": "R69_LIGHT_01_rim_0",
+      "hit": [
+        0.29600000381469727,
+        "R69_LIGHT_01_RIM",
+        -0.6602935194969177
+      ],
+      "expected": "R69_LIGHT_01_RIM",
+      "expected_z": -0.660293511390686,
+      "passed": true
+    },
+    {
+      "label": "R69_LIGHT_01_soffit_0",
+      "hit": [
+        0.30000001192092896,
+        "R06_FOYER_CEILING_AND_CURVED_FASCIA",
+        -0.656293511390686
+      ],
+      "expected": "R06_FOYER_CEILING_AND_CURVED_FASCIA",
+      "expected_z": -0.656293511390686,
+      "passed": true
+    },
+    {
+      "label": "R69_LIGHT_01_rim_1",
+      "hit": [
+        0.2959999740123749,
+        "R69_LIGHT_01_RIM",
+        -0.6602935791015625
+      ],
+      "expected": "R69_LIGHT_01_RIM",
+      "expected_z": -0.660293511390686,
+      "passed": true
+    },
+    {
+      "label": "R69_LIGHT_01_soffit_1",
+      "hit": [
+        0.30000001192092896,
+        "R06_FOYER_CEILING_AND_CURVED_FASCIA",
+        -0.656293511390686
+      ],
+      "expected": "R06_FOYER_CEILING_AND_CURVED_FASCIA",
+      "expected_z": -0.656293511390686,
+      "passed": true
+    },
+    {
+      "label": "R69_LIGHT_01_rim_2",
+      "hit": [
+        0.2959999740123749,
+        "R69_LIGHT_01_RIM",
+        -0.6602935791015625
+      ],
+      "expected": "R69_LIGHT_01_RIM",
+      "expected_z": -0.660293511390686,
+      "passed": true
+    },
+    {
+      "label": "R69_LIGHT_01_soffit_2",
+      "hit": [
+        0.30000001192092896,
+        "R06_FOYER_CEILING_AND_CURVED_FASCIA",
+        -0.656293511390686
+      ],
+      "expected": "R06_FOYER_CEILING_AND_CURVED_FASCIA",
+      "expected_z": -0.656293511390686,
+      "passed": true
+    },
+    {
+      "label": "R69_LIGHT_01_rim_3",
+      "hit": [
+        0.29600003361701965,
+        "R69_LIGHT_01_RIM",
+        -0.660293459892273
+      ],
+      "expected": "R69_LIGHT_01_RIM",
+      "expected_z": -0.660293511390686,
+      "passed": true
+    },
+    {
+      "label": "R69_LIGHT_01_soffit_3",
+      "hit": [
+        0.30000001192092896,
+        "R06_FOYER_CEILING_AND_CURVED_FASCIA",
+        -0.656293511390686
+      ],
+      "expected": "R06_FOYER_CEILING_AND_CURVED_FASCIA",
+      "expected_z": -0.656293511390686,
+      "passed": true
+    },
+    {
+      "label": "R69_LIGHT_01_rim_4",
+      "hit": [
+        0.29600000381469727,
+        "R69_LIGHT_01_RIM",
+        -0.6602935194969177
+      ],
+      "expected": "R69_LIGHT_01_RIM",
+      "expected_z": -0.660293511390686,
+      "passed": true
+    },
+    {
+      "label": "R69_LIGHT_01_soffit_4",
+      "hit": [
+        0.30000001192092896,
+        "R06_FOYER_CEILING_AND_CURVED_FASCIA",
+        -0.656293511390686
+      ],
+      "expected": "R06_FOYER_CEILING_AND_CURVED_FASCIA",
+      "expected_z": -0.656293511390686,
+      "passed": true
+    },
+    {
+      "label": "R69_LIGHT_01_rim_5",
+      "hit": [
+        0.2959999740123749,
+        "R69_LIGHT_01_RIM",
+        -0.6602935791015625
+      ],
+      "expected": "R69_LIGHT_01_RIM",
+      "expected_z": -0.660293511390686,
+      "passed": true
+    },
+    {
+      "label": "R69_LIGHT_01_soffit_5",
+      "hit": [
+        0.30000001192092896,
+        "R06_FOYER_CEILING_AND_CURVED_FASCIA",
+        -0.656293511390686
+      ],
+      "expected": "R06_FOYER_CEILING_AND_CURVED_FASCIA",
+      "expected_z": -0.656293511390686,
+      "passed": true
+    },
+    {
+      "label": "R69_LIGHT_01_rim_6",
+      "hit": [
+        0.29600000381469727,
+        "R69_LIGHT_01_RIM",
+        -0.6602935194969177
+      ],
+      "expected": "R69_LIGHT_01_RIM",
+      "expected_z": -0.660293511390686,
+      "passed": true
+    },
+    {
+      "label": "R69_LIGHT_01_soffit_6",
+      "hit": [
+        0.30000001192092896,
+        "R06_FOYER_CEILING_AND_CURVED_FASCIA",
+        -0.656293511390686
+      ],
+      "expected": "R06_FOYER_CEILING_AND_CURVED_FASCIA",
+      "expected_z": -0.656293511390686,
+      "passed": true
+    },
+    {
+      "label": "R69_LIGHT_01_rim_7",
+      "hit": [
+        0.29600003361701965,
+        "R69_LIGHT_01_RIM",
+        -0.660293459892273
+      ],
+      "expected": "R69_LIGHT_01_RIM",
+      "expected_z": -0.660293511390686,
+      "passed": true
+    },
+    {
+      "label": "R69_LIGHT_01_soffit_7",
+      "hit": [
+        0.29999998211860657,
+        "R06_FOYER_CEILING_AND_CURVED_FASCIA",
+        -0.656293511390686
+      ],
+      "expected": "R06_FOYER_CEILING_AND_CURVED_FASCIA",
+      "expected_z": -0.656293511390686,
+      "passed": true
+    },
+    {
+      "label": "R69_LIGHT_02_center",
+      "hit": [
+        0.3640000522136688,
+        "R69_LIGHT_02_LENS",
+        -0.5922935009002686
+      ],
+      "expected": "R69_LIGHT_02_LENS",
+      "expected_z": -0.592293511390686,
+      "passed": true
+    },
+    {
+      "label": "R69_LIGHT_02_rim_0",
+      "hit": [
+        0.29600000381469727,
+        "R69_LIGHT_02_RIM",
+        -0.6602935194969177
+      ],
+      "expected": "R69_LIGHT_02_RIM",
+      "expected_z": -0.660293511390686,
+      "passed": true
+    },
+    {
+      "label": "R69_LIGHT_02_soffit_0",
+      "hit": [
+        0.30000001192092896,
+        "R06_FOYER_CEILING_AND_CURVED_FASCIA",
+        -0.656293511390686
+      ],
+      "expected": "R06_FOYER_CEILING_AND_CURVED_FASCIA",
+      "expected_z": -0.656293511390686,
+      "passed": true
+    },
+    {
+      "label": "R69_LIGHT_02_rim_1",
+      "hit": [
+        0.2959999740123749,
+        "R69_LIGHT_02_RIM",
+        -0.6602935791015625
+      ],
+      "expected": "R69_LIGHT_02_RIM",
+      "expected_z": -0.660293511390686,
+      "passed": true
+    },
+    {
+      "label": "R69_LIGHT_02_soffit_1",
+      "hit": [
+        0.30000001192092896,
+        "R06_FOYER_CEILING_AND_CURVED_FASCIA",
+        -0.656293511390686
+      ],
+      "expected": "R06_FOYER_CEILING_AND_CURVED_FASCIA",
+      "expected_z": -0.656293511390686,
+      "passed": true
+    },
+    {
+      "label": "R69_LIGHT_02_rim_2",
+      "hit": [
+        0.2959999740123749,
+        "R69_LIGHT_02_RIM",
+        -0.6602935791015625
+      ],
+      "expected": "R69_LIGHT_02_RIM",
+      "expected_z": -0.660293511390686,
+      "passed": true
+    },
+    {
+      "label": "R69_LIGHT_02_soffit_2",
+      "hit": [
+        0.30000001192092896,
+        "R06_FOYER_CEILING_AND_CURVED_FASCIA",
+        -0.656293511390686
+      ],
+      "expected": "R06_FOYER_CEILING_AND_CURVED_FASCIA",
+      "expected_z": -0.656293511390686,
+      "passed": true
+    },
+    {
+      "label": "R69_LIGHT_02_rim_3",
+      "hit": [
+        0.29600003361701965,
+        "R69_LIGHT_02_RIM",
+        -0.660293459892273
+      ],
+      "expected": "R69_LIGHT_02_RIM",
+      "expected_z": -0.660293511390686,
+      "passed": true
+    },
+    {
+      "label": "R69_LIGHT_02_soffit_3",
+      "hit": [
+        0.29999998211860657,
+        "R06_FOYER_CEILING_AND_CURVED_FASCIA",
+        -0.656293511390686
+      ],
+      "expected": "R06_FOYER_CEILING_AND_CURVED_FASCIA",
+      "expected_z": -0.656293511390686,
+      "passed": true
+    },
+    {
+      "label": "R69_LIGHT_02_rim_4",
+      "hit": [
+        0.2959999740123749,
+        "R69_LIGHT_02_RIM",
+        -0.6602935791015625
+      ],
+      "expected": "R69_LIGHT_02_RIM",
+      "expected_z": -0.660293511390686,
+      "passed": true
+    },
+    {
+      "label": "R69_LIGHT_02_soffit_4",
+      "hit": [
+        0.30000001192092896,
+        "R06_FOYER_CEILING_AND_CURVED_FASCIA",
+        -0.656293511390686
+      ],
+      "expected": "R06_FOYER_CEILING_AND_CURVED_FASCIA",
+      "expected_z": -0.656293511390686,
+      "passed": true
+    },
+    {
+      "label": "R69_LIGHT_02_rim_5",
+      "hit": [
+        0.2959999740123749,
+        "R69_LIGHT_02_RIM",
+        -0.6602935791015625
+      ],
+      "expected": "R69_LIGHT_02_RIM",
+      "expected_z": -0.660293511390686,
+      "passed": true
+    },
+    {
+      "label": "R69_LIGHT_02_soffit_5",
+      "hit": [
+        0.30000001192092896,
+        "R06_FOYER_CEILING_AND_CURVED_FASCIA",
+        -0.656293511390686
+      ],
+      "expected": "R06_FOYER_CEILING_AND_CURVED_FASCIA",
+      "expected_z": -0.656293511390686,
+      "passed": true
+    },
+    {
+      "label": "R69_LIGHT_02_rim_6",
+      "hit": [
+        0.29600000381469727,
+        "R69_LIGHT_02_RIM",
+        -0.6602935194969177
+      ],
+      "expected": "R69_LIGHT_02_RIM",
+      "expected_z": -0.660293511390686,
+      "passed": true
+    },
+    {
+      "label": "R69_LIGHT_02_soffit_6",
+      "hit": [
+        0.30000001192092896,
+        "R06_FOYER_CEILING_AND_CURVED_FASCIA",
+        -0.656293511390686
+      ],
+      "expected": "R06_FOYER_CEILING_AND_CURVED_FASCIA",
+      "expected_z": -0.656293511390686,
+      "passed": true
+    },
+    {
+      "label": "R69_LIGHT_02_rim_7",
+      "hit": [
+        0.29600003361701965,
+        "R69_LIGHT_02_RIM",
+        -0.660293459892273
+      ],
+      "expected": "R69_LIGHT_02_RIM",
+      "expected_z": -0.660293511390686,
+      "passed": true
+    },
+    {
+      "label": "R69_LIGHT_02_soffit_7",
+      "hit": [
+        0.30000001192092896,
+        "R06_FOYER_CEILING_AND_CURVED_FASCIA",
+        -0.656293511390686
+      ],
+      "expected": "R06_FOYER_CEILING_AND_CURVED_FASCIA",
+      "expected_z": -0.656293511390686,
+      "passed": true
+    },
+    {
+      "label": "R69_LIGHT_03_center",
+      "hit": [
+        0.3640000522136688,
+        "R69_LIGHT_03_LENS",
+        -0.5922935009002686
+      ],
+      "expected": "R69_LIGHT_03_LENS",
+      "expected_z": -0.592293511390686,
+      "passed": true
+    },
+    {
+      "label": "R69_LIGHT_03_rim_0",
+      "hit": [
+        0.29600000381469727,
+        "R69_LIGHT_03_RIM",
+        -0.6602935194969177
+      ],
+      "expected": "R69_LIGHT_03_RIM",
+      "expected_z": -0.660293511390686,
+      "passed": true
+    },
+    {
+      "label": "R69_LIGHT_03_soffit_0",
+      "hit": [
+        0.30000001192092896,
+        "R06_FOYER_CEILING_AND_CURVED_FASCIA",
+        -0.656293511390686
+      ],
+      "expected": "R06_FOYER_CEILING_AND_CURVED_FASCIA",
+      "expected_z": -0.656293511390686,
+      "passed": true
+    },
+    {
+      "label": "R69_LIGHT_03_rim_1",
+      "hit": [
+        0.2959999740123749,
+        "R69_LIGHT_03_RIM",
+        -0.6602935791015625
+      ],
+      "expected": "R69_LIGHT_03_RIM",
+      "expected_z": -0.660293511390686,
+      "passed": true
+    },
+    {
+      "label": "R69_LIGHT_03_soffit_1",
+      "hit": [
+        0.30000001192092896,
+        "R06_FOYER_CEILING_AND_CURVED_FASCIA",
+        -0.656293511390686
+      ],
+      "expected": "R06_FOYER_CEILING_AND_CURVED_FASCIA",
+      "expected_z": -0.656293511390686,
+      "passed": true
+    },
+    {
+      "label": "R69_LIGHT_03_rim_2",
+      "hit": [
+        0.2959999740123749,
+        "R69_LIGHT_03_RIM",
+        -0.6602935791015625
+      ],
+      "expected": "R69_LIGHT_03_RIM",
+      "expected_z": -0.660293511390686,
+      "passed": true
+    },
+    {
+      "label": "R69_LIGHT_03_soffit_2",
+      "hit": [
+        0.29999998211860657,
+        "R06_FOYER_CEILING_AND_CURVED_FASCIA",
+        -0.656293511390686
+      ],
+      "expected": "R06_FOYER_CEILING_AND_CURVED_FASCIA",
+      "expected_z": -0.656293511390686,
+      "passed": true
+    },
+    {
+      "label": "R69_LIGHT_03_rim_3",
+      "hit": [
+        0.29600003361701965,
+        "R69_LIGHT_03_RIM",
+        -0.660293459892273
+      ],
+      "expected": "R69_LIGHT_03_RIM",
+      "expected_z": -0.660293511390686,
+      "passed": true
+    },
+    {
+      "label": "R69_LIGHT_03_soffit_3",
+      "hit": [
+        0.29999998211860657,
+        "R06_FOYER_CEILING_AND_CURVED_FASCIA",
+        -0.656293511390686
+      ],
+      "expected": "R06_FOYER_CEILING_AND_CURVED_FASCIA",
+      "expected_z": -0.656293511390686,
+      "passed": true
+    },
+    {
+      "label": "R69_LIGHT_03_rim_4",
+      "hit": [
+        0.2959999740123749,
+        "R69_LIGHT_03_RIM",
+        -0.6602935791015625
+      ],
+      "expected": "R69_LIGHT_03_RIM",
+      "expected_z": -0.660293511390686,
+      "passed": true
+    },
+    {
+      "label": "R69_LIGHT_03_soffit_4",
+      "hit": [
+        0.30000001192092896,
+        "R06_FOYER_CEILING_AND_CURVED_FASCIA",
+        -0.656293511390686
+      ],
+      "expected": "R06_FOYER_CEILING_AND_CURVED_FASCIA",
+      "expected_z": -0.656293511390686,
+      "passed": true
+    },
+    {
+      "label": "R69_LIGHT_03_rim_5",
+      "hit": [
+        0.2959999740123749,
+        "R69_LIGHT_03_RIM",
+        -0.6602935791015625
+      ],
+      "expected": "R69_LIGHT_03_RIM",
+      "expected_z": -0.660293511390686,
+      "passed": true
+    },
+    {
+      "label": "R69_LIGHT_03_soffit_5",
+      "hit": [
+        0.30000004172325134,
+        "R06_FOYER_CEILING_AND_CURVED_FASCIA",
+        -0.656293511390686
+      ],
+      "expected": "R06_FOYER_CEILING_AND_CURVED_FASCIA",
+      "expected_z": -0.656293511390686,
+      "passed": true
+    },
+    {
+      "label": "R69_LIGHT_03_rim_6",
+      "hit": [
+        0.29600000381469727,
+        "R69_LIGHT_03_RIM",
+        -0.6602935194969177
+      ],
+      "expected": "R69_LIGHT_03_RIM",
+      "expected_z": -0.660293511390686,
+      "passed": true
+    },
+    {
+      "label": "R69_LIGHT_03_soffit_6",
+      "hit": [
+        0.30000001192092896,
+        "R06_FOYER_CEILING_AND_CURVED_FASCIA",
+        -0.656293511390686
+      ],
+      "expected": "R06_FOYER_CEILING_AND_CURVED_FASCIA",
+      "expected_z": -0.656293511390686,
+      "passed": true
+    },
+    {
+      "label": "R69_LIGHT_03_rim_7",
+      "hit": [
+        0.29600003361701965,
+        "R69_LIGHT_03_RIM",
+        -0.660293459892273
+      ],
+      "expected": "R69_LIGHT_03_RIM",
+      "expected_z": -0.660293511390686,
+      "passed": true
+    },
+    {
+      "label": "R69_LIGHT_03_soffit_7",
+      "hit": [
+        0.29999998211860657,
+        "R06_FOYER_CEILING_AND_CURVED_FASCIA",
+        -0.656293511390686
+      ],
+      "expected": "R06_FOYER_CEILING_AND_CURVED_FASCIA",
+      "expected_z": -0.656293511390686,
+      "passed": true
+    },
+    {
+      "label": "R69_LIGHT_04_center",
+      "hit": [
+        0.3640000522136688,
+        "R69_LIGHT_04_LENS",
+        -0.5922935009002686
+      ],
+      "expected": "R69_LIGHT_04_LENS",
+      "expected_z": -0.592293511390686,
+      "passed": true
+    },
+    {
+      "label": "R69_LIGHT_04_rim_0",
+      "hit": [
+        0.29600000381469727,
+        "R69_LIGHT_04_RIM",
+        -0.6602935194969177
+      ],
+      "expected": "R69_LIGHT_04_RIM",
+      "expected_z": -0.660293511390686,
+      "passed": true
+    },
+    {
+      "label": "R69_LIGHT_04_soffit_0",
+      "hit": [
+        0.30000004172325134,
+        "R06_FOYER_CEILING_AND_CURVED_FASCIA",
+        -0.656293511390686
+      ],
+      "expected": "R06_FOYER_CEILING_AND_CURVED_FASCIA",
+      "expected_z": -0.656293511390686,
+      "passed": true
+    },
+    {
+      "label": "R69_LIGHT_04_rim_1",
+      "hit": [
+        0.2959999740123749,
+        "R69_LIGHT_04_RIM",
+        -0.6602935791015625
+      ],
+      "expected": "R69_LIGHT_04_RIM",
+      "expected_z": -0.660293511390686,
+      "passed": true
+    },
+    {
+      "label": "R69_LIGHT_04_soffit_1",
+      "hit": [
+        0.30000001192092896,
+        "R06_FOYER_CEILING_AND_CURVED_FASCIA",
+        -0.656293511390686
+      ],
+      "expected": "R06_FOYER_CEILING_AND_CURVED_FASCIA",
+      "expected_z": -0.656293511390686,
+      "passed": true
+    },
+    {
+      "label": "R69_LIGHT_04_rim_2",
+      "hit": [
+        0.2959999740123749,
+        "R69_LIGHT_04_RIM",
+        -0.6602935791015625
+      ],
+      "expected": "R69_LIGHT_04_RIM",
+      "expected_z": -0.660293511390686,
+      "passed": true
+    },
+    {
+      "label": "R69_LIGHT_04_soffit_2",
+      "hit": [
+        0.30000001192092896,
+        "R06_FOYER_CEILING_AND_CURVED_FASCIA",
+        -0.656293511390686
+      ],
+      "expected": "R06_FOYER_CEILING_AND_CURVED_FASCIA",
+      "expected_z": -0.656293511390686,
+      "passed": true
+    },
+    {
+      "label": "R69_LIGHT_04_rim_3",
+      "hit": [
+        0.29600003361701965,
+        "R69_LIGHT_04_RIM",
+        -0.660293459892273
+      ],
+      "expected": "R69_LIGHT_04_RIM",
+      "expected_z": -0.660293511390686,
+      "passed": true
+    },
+    {
+      "label": "R69_LIGHT_04_soffit_3",
+      "hit": [
+        0.29999998211860657,
+        "R06_FOYER_CEILING_AND_CURVED_FASCIA",
+        -0.656293511390686
+      ],
+      "expected": "R06_FOYER_CEILING_AND_CURVED_FASCIA",
+      "expected_z": -0.656293511390686,
+      "passed": true
+    },
+    {
+      "label": "R69_LIGHT_04_rim_4",
+      "hit": [
+        0.2959999740123749,
+        "R69_LIGHT_04_RIM",
+        -0.6602935791015625
+      ],
+      "expected": "R69_LIGHT_04_RIM",
+      "expected_z": -0.660293511390686,
+      "passed": true
+    },
+    {
+      "label": "R69_LIGHT_04_soffit_4",
+      "hit": [
+        0.30000001192092896,
+        "R06_FOYER_CEILING_AND_CURVED_FASCIA",
+        -0.656293511390686
+      ],
+      "expected": "R06_FOYER_CEILING_AND_CURVED_FASCIA",
+      "expected_z": -0.656293511390686,
+      "passed": true
+    },
+    {
+      "label": "R69_LIGHT_04_rim_5",
+      "hit": [
+        0.2959999740123749,
+        "R69_LIGHT_04_RIM",
+        -0.6602935791015625
+      ],
+      "expected": "R69_LIGHT_04_RIM",
+      "expected_z": -0.660293511390686,
+      "passed": true
+    },
+    {
+      "label": "R69_LIGHT_04_soffit_5",
+      "hit": [
+        0.30000001192092896,
+        "R06_FOYER_CEILING_AND_CURVED_FASCIA",
+        -0.656293511390686
+      ],
+      "expected": "R06_FOYER_CEILING_AND_CURVED_FASCIA",
+      "expected_z": -0.656293511390686,
+      "passed": true
+    },
+    {
+      "label": "R69_LIGHT_04_rim_6",
+      "hit": [
+        0.29600000381469727,
+        "R69_LIGHT_04_RIM",
+        -0.6602935194969177
+      ],
+      "expected": "R69_LIGHT_04_RIM",
+      "expected_z": -0.660293511390686,
+      "passed": true
+    },
+    {
+      "label": "R69_LIGHT_04_soffit_6",
+      "hit": [
+        0.30000004172325134,
+        "R06_FOYER_CEILING_AND_CURVED_FASCIA",
+        -0.656293511390686
+      ],
+      "expected": "R06_FOYER_CEILING_AND_CURVED_FASCIA",
+      "expected_z": -0.656293511390686,
+      "passed": true
+    },
+    {
+      "label": "R69_LIGHT_04_rim_7",
+      "hit": [
+        0.29600003361701965,
+        "R69_LIGHT_04_RIM",
+        -0.660293459892273
+      ],
+      "expected": "R69_LIGHT_04_RIM",
+      "expected_z": -0.660293511390686,
+      "passed": true
+    },
+    {
+      "label": "R69_LIGHT_04_soffit_7",
+      "hit": [
+        0.29999998211860657,
+        "R06_FOYER_CEILING_AND_CURVED_FASCIA",
+        -0.656293511390686
+      ],
+      "expected": "R06_FOYER_CEILING_AND_CURVED_FASCIA",
+      "expected_z": -0.656293511390686,
+      "passed": true
+    },
+    {
+      "label": "R69_LIGHT_05_center",
+      "hit": [
+        0.3640000522136688,
+        "R69_LIGHT_05_LENS",
+        -0.5922935009002686
+      ],
+      "expected": "R69_LIGHT_05_LENS",
+      "expected_z": -0.592293511390686,
+      "passed": true
+    },
+    {
+      "label": "R69_LIGHT_05_rim_0",
+      "hit": [
+        0.29600000381469727,
+        "R69_LIGHT_05_RIM",
+        -0.6602935194969177
+      ],
+      "expected": "R69_LIGHT_05_RIM",
+      "expected_z": -0.660293511390686,
+      "passed": true
+    },
+    {
+      "label": "R69_LIGHT_05_soffit_0",
+      "hit": [
+        0.29999998211860657,
+        "R06_FOYER_CEILING_AND_CURVED_FASCIA",
+        -0.656293511390686
+      ],
+      "expected": "R06_FOYER_CEILING_AND_CURVED_FASCIA",
+      "expected_z": -0.656293511390686,
+      "passed": true
+    },
+    {
+      "label": "R69_LIGHT_05_rim_1",
+      "hit": [
+        0.29600000381469727,
+        "R69_LIGHT_05_RIM",
+        -0.6602935194969177
+      ],
+      "expected": "R69_LIGHT_05_RIM",
+      "expected_z": -0.660293511390686,
+      "passed": true
+    },
+    {
+      "label": "R69_LIGHT_05_soffit_1",
+      "hit": [
+        0.30000001192092896,
+        "R06_FOYER_CEILING_AND_CURVED_FASCIA",
+        -0.656293511390686
+      ],
+      "expected": "R06_FOYER_CEILING_AND_CURVED_FASCIA",
+      "expected_z": -0.656293511390686,
+      "passed": true
+    },
+    {
+      "label": "R69_LIGHT_05_rim_2",
+      "hit": [
+        0.2959999740123749,
+        "R69_LIGHT_05_RIM",
+        -0.6602935791015625
+      ],
+      "expected": "R69_LIGHT_05_RIM",
+      "expected_z": -0.660293511390686,
+      "passed": true
+    },
+    {
+      "label": "R69_LIGHT_05_soffit_2",
+      "hit": [
+        0.30000001192092896,
+        "R06_FOYER_CEILING_AND_CURVED_FASCIA",
+        -0.656293511390686
+      ],
+      "expected": "R06_FOYER_CEILING_AND_CURVED_FASCIA",
+      "expected_z": -0.656293511390686,
+      "passed": true
+    },
+    {
+      "label": "R69_LIGHT_05_rim_3",
+      "hit": [
+        0.29600000381469727,
+        "R69_LIGHT_05_RIM",
+        -0.6602935194969177
+      ],
+      "expected": "R69_LIGHT_05_RIM",
+      "expected_z": -0.660293511390686,
+      "passed": true
+    },
+    {
+      "label": "R69_LIGHT_05_soffit_3",
+      "hit": [
+        0.29999998211860657,
+        "R06_FOYER_CEILING_AND_CURVED_FASCIA",
+        -0.656293511390686
+      ],
+      "expected": "R06_FOYER_CEILING_AND_CURVED_FASCIA",
+      "expected_z": -0.656293511390686,
+      "passed": true
+    },
+    {
+      "label": "R69_LIGHT_05_rim_4",
+      "hit": [
+        0.29600000381469727,
+        "R69_LIGHT_05_RIM",
+        -0.6602935194969177
+      ],
+      "expected": "R69_LIGHT_05_RIM",
+      "expected_z": -0.660293511390686,
+      "passed": true
+    },
+    {
+      "label": "R69_LIGHT_05_soffit_4",
+      "hit": [
+        0.30000004172325134,
+        "R06_FOYER_CEILING_AND_CURVED_FASCIA",
+        -0.656293511390686
+      ],
+      "expected": "R06_FOYER_CEILING_AND_CURVED_FASCIA",
+      "expected_z": -0.656293511390686,
+      "passed": true
+    },
+    {
+      "label": "R69_LIGHT_05_rim_5",
+      "hit": [
+        0.29600000381469727,
+        "R69_LIGHT_05_RIM",
+        -0.6602935194969177
+      ],
+      "expected": "R69_LIGHT_05_RIM",
+      "expected_z": -0.660293511390686,
+      "passed": true
+    },
+    {
+      "label": "R69_LIGHT_05_soffit_5",
+      "hit": [
+        0.29999998211860657,
+        "R06_FOYER_CEILING_AND_CURVED_FASCIA",
+        -0.656293511390686
+      ],
+      "expected": "R06_FOYER_CEILING_AND_CURVED_FASCIA",
+      "expected_z": -0.656293511390686,
+      "passed": true
+    },
+    {
+      "label": "R69_LIGHT_05_rim_6",
+      "hit": [
+        0.2959999740123749,
+        "R69_LIGHT_05_RIM",
+        -0.6602935791015625
+      ],
+      "expected": "R69_LIGHT_05_RIM",
+      "expected_z": -0.660293511390686,
+      "passed": true
+    },
+    {
+      "label": "R69_LIGHT_05_soffit_6",
+      "hit": [
+        0.30000004172325134,
+        "R06_FOYER_CEILING_AND_CURVED_FASCIA",
+        -0.656293511390686
+      ],
+      "expected": "R06_FOYER_CEILING_AND_CURVED_FASCIA",
+      "expected_z": -0.656293511390686,
+      "passed": true
+    },
+    {
+      "label": "R69_LIGHT_05_rim_7",
+      "hit": [
+        0.29600000381469727,
+        "R69_LIGHT_05_RIM",
+        -0.6602935194969177
+      ],
+      "expected": "R69_LIGHT_05_RIM",
+      "expected_z": -0.660293511390686,
+      "passed": true
+    },
+    {
+      "label": "R69_LIGHT_05_soffit_7",
+      "hit": [
+        0.30000001192092896,
+        "R06_FOYER_CEILING_AND_CURVED_FASCIA",
+        -0.656293511390686
+      ],
+      "expected": "R06_FOYER_CEILING_AND_CURVED_FASCIA",
+      "expected_z": -0.656293511390686,
+      "passed": true
+    },
+    {
+      "label": "R69_LIGHT_06_center",
+      "hit": [
+        0.3640000522136688,
+        "R69_LIGHT_06_LENS",
+        -0.5922935009002686
+      ],
+      "expected": "R69_LIGHT_06_LENS",
+      "expected_z": -0.592293511390686,
+      "passed": true
+    },
+    {
+      "label": "R69_LIGHT_06_rim_0",
+      "hit": [
+        0.29600000381469727,
+        "R69_LIGHT_06_RIM",
+        -0.6602935194969177
+      ],
+      "expected": "R69_LIGHT_06_RIM",
+      "expected_z": -0.660293511390686,
+      "passed": true
+    },
+    {
+      "label": "R69_LIGHT_06_soffit_0",
+      "hit": [
+        0.29999998211860657,
+        "R06_FOYER_CEILING_AND_CURVED_FASCIA",
+        -0.656293511390686
+      ],
+      "expected": "R06_FOYER_CEILING_AND_CURVED_FASCIA",
+      "expected_z": -0.656293511390686,
+      "passed": true
+    },
+    {
+      "label": "R69_LIGHT_06_rim_1",
+      "hit": [
+        0.29600000381469727,
+        "R69_LIGHT_06_RIM",
+        -0.6602935194969177
+      ],
+      "expected": "R69_LIGHT_06_RIM",
+      "expected_z": -0.660293511390686,
+      "passed": true
+    },
+    {
+      "label": "R69_LIGHT_06_soffit_1",
+      "hit": [
+        0.30000001192092896,
+        "R06_FOYER_CEILING_AND_CURVED_FASCIA",
+        -0.656293511390686
+      ],
+      "expected": "R06_FOYER_CEILING_AND_CURVED_FASCIA",
+      "expected_z": -0.656293511390686,
+      "passed": true
+    },
+    {
+      "label": "R69_LIGHT_06_rim_2",
+      "hit": [
+        0.29600000381469727,
+        "R69_LIGHT_06_RIM",
+        -0.6602935194969177
+      ],
+      "expected": "R69_LIGHT_06_RIM",
+      "expected_z": -0.660293511390686,
+      "passed": true
+    },
+    {
+      "label": "R69_LIGHT_06_soffit_2",
+      "hit": [
+        0.30000001192092896,
+        "R06_FOYER_CEILING_AND_CURVED_FASCIA",
+        -0.656293511390686
+      ],
+      "expected": "R06_FOYER_CEILING_AND_CURVED_FASCIA",
+      "expected_z": -0.656293511390686,
+      "passed": true
+    },
+    {
+      "label": "R69_LIGHT_06_rim_3",
+      "hit": [
+        0.29600003361701965,
+        "R69_LIGHT_06_RIM",
+        -0.660293459892273
+      ],
+      "expected": "R69_LIGHT_06_RIM",
+      "expected_z": -0.660293511390686,
+      "passed": true
+    },
+    {
+      "label": "R69_LIGHT_06_soffit_3",
+      "hit": [
+        0.30000001192092896,
+        "R06_FOYER_CEILING_AND_CURVED_FASCIA",
+        -0.656293511390686
+      ],
+      "expected": "R06_FOYER_CEILING_AND_CURVED_FASCIA",
+      "expected_z": -0.656293511390686,
+      "passed": true
+    },
+    {
+      "label": "R69_LIGHT_06_rim_4",
+      "hit": [
+        0.29600000381469727,
+        "R69_LIGHT_06_RIM",
+        -0.6602935194969177
+      ],
+      "expected": "R69_LIGHT_06_RIM",
+      "expected_z": -0.660293511390686,
+      "passed": true
+    },
+    {
+      "label": "R69_LIGHT_06_soffit_4",
+      "hit": [
+        0.30000001192092896,
+        "R06_FOYER_CEILING_AND_CURVED_FASCIA",
+        -0.656293511390686
+      ],
+      "expected": "R06_FOYER_CEILING_AND_CURVED_FASCIA",
+      "expected_z": -0.656293511390686,
+      "passed": true
+    },
+    {
+      "label": "R69_LIGHT_06_rim_5",
+      "hit": [
+        0.29600000381469727,
+        "R69_LIGHT_06_RIM",
+        -0.6602935194969177
+      ],
+      "expected": "R69_LIGHT_06_RIM",
+      "expected_z": -0.660293511390686,
+      "passed": true
+    },
+    {
+      "label": "R69_LIGHT_06_soffit_5",
+      "hit": [
+        0.30000001192092896,
+        "R06_FOYER_CEILING_AND_CURVED_FASCIA",
+        -0.656293511390686
+      ],
+      "expected": "R06_FOYER_CEILING_AND_CURVED_FASCIA",
+      "expected_z": -0.656293511390686,
+      "passed": true
+    },
+    {
+      "label": "R69_LIGHT_06_rim_6",
+      "hit": [
+        0.29600000381469727,
+        "R69_LIGHT_06_RIM",
+        -0.6602935194969177
+      ],
+      "expected": "R69_LIGHT_06_RIM",
+      "expected_z": -0.660293511390686,
+      "passed": true
+    },
+    {
+      "label": "R69_LIGHT_06_soffit_6",
+      "hit": [
+        0.30000001192092896,
+        "R06_FOYER_CEILING_AND_CURVED_FASCIA",
+        -0.656293511390686
+      ],
+      "expected": "R06_FOYER_CEILING_AND_CURVED_FASCIA",
+      "expected_z": -0.656293511390686,
+      "passed": true
+    },
+    {
+      "label": "R69_LIGHT_06_rim_7",
+      "hit": [
+        0.29600003361701965,
+        "R69_LIGHT_06_RIM",
+        -0.660293459892273
+      ],
+      "expected": "R69_LIGHT_06_RIM",
+      "expected_z": -0.660293511390686,
+      "passed": true
+    },
+    {
+      "label": "R69_LIGHT_06_soffit_7",
+      "hit": [
+        0.29999998211860657,
+        "R06_FOYER_CEILING_AND_CURVED_FASCIA",
+        -0.656293511390686
+      ],
+      "expected": "R06_FOYER_CEILING_AND_CURVED_FASCIA",
+      "expected_z": -0.656293511390686,
+      "passed": true
+    }
+  ],
+  "failures": [],
+  "construction_acceptance": false,
+  "limits": "Recess and mesh checks do not validate candidate fixture placement or actual fixture dimensions."
+}

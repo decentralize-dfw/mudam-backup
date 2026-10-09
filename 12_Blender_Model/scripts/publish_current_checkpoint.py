@@ -132,7 +132,7 @@ def publish():
      t['open_issues']=list(dict.fromkeys(t['open_issues']+[e['limits']]))
      t['artifacts']=list(dict.fromkeys(t['artifacts']+['12_Blender_Model/reports/'+e['report']]))
  data['current_tasks']=[t['id'] for t in data['tasks'] if t['status']=='in_progress'];p.write_text(json.dumps(data,ensure_ascii=False,indent=2)+'\n',encoding='utf8')
- latest=Path(r['file']).relative_to('12_Blender_Model').as_posix();glb=Path(q21['file']).relative_to('12_Blender_Model').as_posix();p=B/'URETIM.html';s=p.read_text(encoding='utf8');s=re.sub(r'href="scenes/[^\"]+\.blend"',f'href="{latest}"',s);s=s.replace('P06 - P12 / BÖLGESEL ÜRETİM','P06–P21 / BÖLGESEL ÜRETİM VE KONTROL');s=s.replace('renders/qa/P12_entry_detail.png','renders/qa/P19_entry_daylight.png').replace('renders/qa/P11_116.png','renders/qa/P19_116_daylight.png')
+ latest=Path(r['file']).relative_to('12_Blender_Model').as_posix();glb='MODEL_INCELEME.html';p=B/'URETIM.html';s=p.read_text(encoding='utf8');s=re.sub(r'href="scenes/[^\"]+\.blend"',f'href="{latest}"',s);s=s.replace('P06 - P12 / BÖLGESEL ÜRETİM','P06–P21 / BÖLGESEL ÜRETİM VE KONTROL');s=s.replace('renders/qa/P12_entry_detail.png','renders/qa/P19_entry_daylight.png').replace('renders/qa/P11_116.png','renders/qa/P19_116_daylight.png')
  if (B/'MODEL_INCELEME.html').exists() and 'MODEL_INCELEME.html' not in s:s=s.replace('</nav>','<a href="MODEL_INCELEME.html">Canlı 3B / kat / kesit</a></nav>')
  s=re.sub(r'href="exports/[^"]+\.glb"',f'href="{glb}"',s)
  s=s.replace('</nav>',f'<a href="PLAN_KONTROL.html">Model / plan kesitleri</a><a href="{glb}">GLB önizleme</a></nav>') if 'Model / plan kesitleri' not in s else s
@@ -229,4 +229,9 @@ def publish():
   table+='| '+mdcell(task['id']+' — '+task['title'])+' | '+mdcell(states.get(task['status'],task['status']))+' | %'+str(percent)+' | '+mdcell(details)+' |\n'
  s=re.sub(r'\| Paket \| Durum \| (?:İlerleme \| )?Somut çıktı / açık konu \|.*?(?=\n## Kontrol sonuçları)',lambda _:table+'\n',s,flags=re.S)
  p.write_text(s,encoding='utf8');print('Current checkpoint',r['file'])
-if __name__=='__main__':publish()
+if __name__=='__main__':
+ publish()
+ # The board may advance before export; only replace the web release after matching verification.
+ from prepare_web_model import prepare
+ try:prepare()
+ except AssertionError as exc:print('Web model keeps last verified release:',exc)

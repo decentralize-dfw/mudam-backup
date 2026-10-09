@@ -18,19 +18,24 @@ try {
         $receipt = Get-Content -Raw -LiteralPath "12_Blender_Model/reports/$check" | ConvertFrom-Json
         if ($receipt.file -ne $board.latest_scene -or $receipt.failures.Count) { throw "Unverified checkpoint: $check" }
     }
-    $allowed = @('.gitignore','11_Blender_Modelleme_Plani/is_paketleri.json','12_Blender_Model/URETIM.html','12_Blender_Model/URETIM_DURUMU.html','12_Blender_Model/URETIM_DURUMU.md','12_Blender_Model/PLAN_KONTROL.html','12_Blender_Model/MODEL_INCELEME.html','12_Blender_Model/assets','12_Blender_Model/config','12_Blender_Model/reports','12_Blender_Model/renders','12_Blender_Model/references','12_Blender_Model/scripts','12_Blender_Model/textures')
-    $modelPattern = '\.(blend\d*|glb|gltf|fbx|obj|stl|ply|usd[acz]?|abc|bin)$'
-    $paths = @(& git -c core.quotepath=false ls-files --modified --others --exclude-standard -- $allowed | Sort-Object -Unique | Where-Object { $_ -notmatch $modelPattern -and $_ -notmatch 'initial_dark\.jpg$' -and ($_ -notmatch '/R(\d+)_' -or [int]$Matches[1] -le $revision) })
+    $mudamPython = Join-Path $env:USERPROFILE '.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe'
+    & $mudamPython -X utf8 '12_Blender_Model/scripts/prepare_web_model.py'
+    if ($LASTEXITCODE -ne 0) { throw 'Verified web model preparation failed.' }
+    $allowed = @('12_Blender_Model/exports/current.glb.gz','.gitignore','11_Blender_Modelleme_Plani/is_paketleri.json','12_Blender_Model/URETIM.html','12_Blender_Model/URETIM_DURUMU.html','12_Blender_Model/URETIM_DURUMU.md','12_Blender_Model/PLAN_KONTROL.html','12_Blender_Model/MODEL_INCELEME.html','12_Blender_Model/assets','12_Blender_Model/config','12_Blender_Model/reports','12_Blender_Model/renders','12_Blender_Model/references','12_Blender_Model/scripts','12_Blender_Model/textures')
+    $modelPattern = '\.(blend\d*|glb|gltf|fbx|obj|stl|ply|usd[acz]?|abc|bin)(\.gz)?$'
+    $webModel = '12_Blender_Model/exports/current.glb.gz'
+    $paths = @(& git -c core.quotepath=false ls-files --modified --others --exclude-standard -- $allowed | Sort-Object -Unique | Where-Object { ($_ -notmatch $modelPattern -or $_ -eq $webModel) -and $_ -notmatch 'initial_dark\.jpg$' -and ($_ -notmatch '/R(\d+)_' -or [int]$Matches[1] -le $revision) })
     foreach ($path in $paths) {
-        if ((Test-Path -LiteralPath $path) -and (Get-Item -LiteralPath $path).Length -gt 50000000) { throw "Progress artifact too large: $path" }
+        $limit = if ($path -eq $webModel) { 100000000 } else { 50000000 }
+        if ((Test-Path -LiteralPath $path) -and (Get-Item -LiteralPath $path).Length -gt $limit) { throw "Progress artifact too large: $path" }
     }
-    if (-not $Publish) { Write-Output "DRY RUN: $($paths.Count) progress files; models excluded; R$revision verified."; $paths; return }
+    if (-not $Publish) { Write-Output "DRY RUN: $($paths.Count) progress files; Blender and historical models excluded; current web preview included; R$revision verified."; $paths; return }
     Git-Checked fetch origin
     & git merge-base --is-ancestor origin/main HEAD
     if ($LASTEXITCODE -ne 0) { throw 'Remote main has new work. Preserve and integrate it before retrying.' }
     if ($paths.Count) {
         Git-Checked add -- $paths
-        $blocked = @(& git diff --cached --name-only --diff-filter=ACMR | Where-Object { $_ -match $modelPattern })
+        $blocked = @(& git diff --cached --name-only --diff-filter=ACMR | Where-Object { $_ -match $modelPattern -and $_ -ne $webModel })
         if ($blocked.Count) { throw "Model file staged; push refused: $blocked" }
         Git-Checked diff --cached --check
         Git-Checked commit -m $Message
@@ -38,17 +43,17 @@ try {
     $ahead = [int](& git rev-list --count origin/main..HEAD)
     if (-not $ahead) { Write-Output 'No new changes to publish.'; return }
     # Check all unpublished commits, not only the current index.
-    $incoming = @(& git log --format= --name-only --diff-filter=ACMR origin/main..HEAD | Where-Object { $_ -match $modelPattern })
+    $incoming = @(& git log --format= --name-only --diff-filter=ACMR origin/main..HEAD | Where-Object { $_ -match $modelPattern -and $_ -ne $webModel })
     if ($incoming.Count) { throw 'An unpublished commit contains model binaries. Push refused.' }
     Git-Checked push origin main
     $sha = (& git rev-parse HEAD).Trim()
     $remote = ((& git ls-remote origin refs/heads/main) -split '\s+')[0]
     if ($sha -ne $remote) { throw 'Remote main differs after push; receipt not written.' }
     $utc = [DateTime]::UtcNow.ToString('yyyy-MM-dd HH:mm:ss') + ' UTC'
-    $receiptLine = "`n`n$utc — $sha origin/main normal push doğrulandı. Pano, renderlar, raporlar ve üretim betikleri gönderildi; Blender/GLB modelleri yerelde tutuldu.`n"
+    $receiptLine = "`n`n$utc — $sha origin/main normal push doğrulandı. Pano, renderlar, raporlar ve üretim betikleri gönderildi; Blender ve arşiv GLB dosyaları yerelde; tek güncel sıkıştırılmış web GLB gönderildi.`n"
     Add-Content -LiteralPath '12_Blender_Model/URETIM_DURUMU.md' -Value $receiptLine -Encoding utf8
     Git-Checked add -- '12_Blender_Model/URETIM_DURUMU.md'
     Git-Checked commit -m "Record $utc progress push"
     Git-Checked push origin main
-    Write-Output "Published $sha at $utc; model files remained local."
+    Write-Output "Published $sha at $utc; Blender stayed local; latest web preview published."
 } finally { Pop-Location }

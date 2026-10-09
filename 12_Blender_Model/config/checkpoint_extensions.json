@@ -720,5 +720,22 @@
     "image": "R68_link_edge.png",
     "description": "İki OSM duvar zinciri: altı duvar ve zemin.30 duvar/440 zemin ışını ve pavyon kesişim kontrolü geçti.",
     "limits": "Genişlik ve düz kotlar R35 adayı; arazi ölçümü değil. Diğer kollar ve tarihî ayrıntılar açık."
+  },
+  {
+    "id": "R69",
+    "checks": [
+      "R69_verification.json",
+      "R69_inherited_verification.json",
+      "R69_global_audit.json"
+    ],
+    "tasks": [
+      "P16",
+      "P19"
+    ],
+    "report": "R69_KONTROL_RAPORU.md",
+    "title": "Alt fuaye gömme armatürleri / R69",
+    "image": "R69_ceiling.png",
+    "description": "28 yeni parça ve yedi yuva;29 hacim,119 ışın ve genel geometri kontrolü geçti.",
+    "limits": "Yedi konum ve180mm çap kısmi aday; tam yerleşim,ürün ve fotometri doğrulanmadı."
   }
 ]

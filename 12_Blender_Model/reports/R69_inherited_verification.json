@@ -1,0 +1,51 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R69_ALT_FUAYE_GOMME_ISIK_v001.blend",
+  "base_scene": "12_Blender_Model/scenes/MUDAM_R68_PAVYON_HENDEK_KOLU_v001.blend",
+  "inherited_objects_checked": 8379,
+  "changed_inherited_objects": [
+    "R06_FOYER_CEILING_AND_CURVED_FASCIA"
+  ],
+  "allowed_changes": [
+    "R06_FOYER_CEILING_AND_CURVED_FASCIA"
+  ],
+  "allowed_but_unchanged": [],
+  "new_objects": [
+    "R69_LIGHT_00_BACK",
+    "R69_LIGHT_00_CUTTER",
+    "R69_LIGHT_00_LENS",
+    "R69_LIGHT_00_REFLECTOR",
+    "R69_LIGHT_00_RIM",
+    "R69_LIGHT_01_BACK",
+    "R69_LIGHT_01_CUTTER",
+    "R69_LIGHT_01_LENS",
+    "R69_LIGHT_01_REFLECTOR",
+    "R69_LIGHT_01_RIM",
+    "R69_LIGHT_02_BACK",
+    "R69_LIGHT_02_CUTTER",
+    "R69_LIGHT_02_LENS",
+    "R69_LIGHT_02_REFLECTOR",
+    "R69_LIGHT_02_RIM",
+    "R69_LIGHT_03_BACK",
+    "R69_LIGHT_03_CUTTER",
+    "R69_LIGHT_03_LENS",
+    "R69_LIGHT_03_REFLECTOR",
+    "R69_LIGHT_03_RIM",
+    "R69_LIGHT_04_BACK",
+    "R69_LIGHT_04_CUTTER",
+    "R69_LIGHT_04_LENS",
+    "R69_LIGHT_04_REFLECTOR",
+    "R69_LIGHT_04_RIM",
+    "R69_LIGHT_05_BACK",
+    "R69_LIGHT_05_CUTTER",
+    "R69_LIGHT_05_LENS",
+    "R69_LIGHT_05_REFLECTOR",
+    "R69_LIGHT_05_RIM",
+    "R69_LIGHT_06_BACK",
+    "R69_LIGHT_06_CUTTER",
+    "R69_LIGHT_06_LENS",
+    "R69_LIGHT_06_REFLECTOR",
+    "R69_LIGHT_06_RIM"
+  ],
+  "failures": [],
+  "construction_acceptance": false
+}
