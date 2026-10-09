@@ -555,3 +555,7 @@ R116: Sekiz yeni kullanıcı işareti için gerçek kabuk düzeltmeleri üretild
 
 
 R117: Cephe köşesi altındaki dönüş tamamlandı; beş pencere, girintileri ve tarihî duvar açıklıkları birlikte köşe içine taşındı. Üst köprünün iki galeriyle döşeme bağlantısı ve doğu duvar ucu üretildi. Fotoğraf 004/116 ve plan 103 esas alındı. Pencere dizisinin 2,459 m kaydırılması mevcut model köşesine göre türetilmiştir; 0,12 m kenar payı ve diğer miras boyutları ölçülü rölöve değildir. Bütün bina kabulü ve kalan üretim işleri açıktır.
+
+
+2026-10-09 23:46:28 UTC — 1b8dec982bfdb75e5f7d43f571eb0229a06a5b45 origin/main normal push doğrulandı. Pano, renderlar, raporlar ve üretim betikleri gönderildi; Blender ve arşiv GLB dosyaları yerelde; tek güncel sıkıştırılmış web GLB gönderildi.
+
