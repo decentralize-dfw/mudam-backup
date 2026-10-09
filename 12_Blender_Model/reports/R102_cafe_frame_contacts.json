@@ -1,0 +1,5111 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R102_UST_SERVIS_DUVAR_KOSELERI_v001.blend",
+  "checks": [
+    {
+      "name": "R96_CAFE_STRUT_01_1",
+      "endpoint": [
+        -13.220125198364258,
+        13.112956047058105,
+        4.071664333343506
+      ],
+      "nearest_frame": "P11_WEST_1_00_00_FRAME_2",
+      "nearest_distance": 0.0004033174191135913,
+      "signed_distance": -0.00040331737039878135,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_01_1_0",
+      "endpoint": [
+        -11.621963500976562,
+        13.46103286743164,
+        4.010744571685791
+      ],
+      "nearest_frame": "P11_WEST_0_00_01_FRAME_3",
+      "nearest_distance": 0.00042990114889107645,
+      "signed_distance": 0.0004299011634429917,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_01_1_1",
+      "endpoint": [
+        -14.82248592376709,
+        12.779736518859863,
+        4.156103610992432
+      ],
+      "nearest_frame": "P11_WEST_1_00_00_FRAME_1",
+      "nearest_distance": 1.1882721082656644e-05,
+      "signed_distance": 1.1872709819726879e-05,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_01_1_2",
+      "endpoint": [
+        -14.631628036499023,
+        11.692445755004883,
+        2.8769071102142334
+      ],
+      "nearest_frame": "P11_WEST_1_00_00_FRAME_0",
+      "nearest_distance": 0.00028380745789036155,
+      "signed_distance": -0.0002838074451574357,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_01_1_3",
+      "endpoint": [
+        -11.801136016845703,
+        14.503798484802246,
+        5.2921833992004395
+      ],
+      "nearest_frame": "P11_WEST_0_00_02_FRAME_1",
+      "nearest_distance": 0.0004467078542802483,
+      "signed_distance": 0.0004467077160370536,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_STRUT_01_2",
+      "endpoint": [
+        -11.804216384887695,
+        14.518378257751465,
+        5.278823375701904
+      ],
+      "nearest_frame": "P11_WEST_1_00_01_FRAME_2",
+      "nearest_distance": 0.00028973654843866825,
+      "signed_distance": -0.000289736092554449,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_01_2_0",
+      "endpoint": [
+        -10.200510025024414,
+        14.78213882446289,
+        5.144224166870117
+      ],
+      "nearest_frame": "P11_WEST_0_00_01_FRAME_3",
+      "nearest_distance": 0.0004091185110155493,
+      "signed_distance": -0.00040911802352638915,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_01_2_1",
+      "endpoint": [
+        -13.410115242004395,
+        14.26069450378418,
+        5.434941291809082
+      ],
+      "nearest_frame": "P11_WEST_1_00_01_FRAME_1",
+      "nearest_distance": 8.259062269644346e-06,
+      "signed_distance": 8.245885737778735e-06,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_01_2_2",
+      "endpoint": [
+        -13.215885162353516,
+        13.097929954528809,
+        4.08418607711792
+      ],
+      "nearest_frame": "P11_WEST_1_00_00_FRAME_2",
+      "nearest_distance": 0.00016270980995614082,
+      "signed_distance": 0.00016270973435439373,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_01_2_3",
+      "endpoint": [
+        -10.385393142700195,
+        15.909282684326172,
+        6.499462604522705
+      ],
+      "nearest_frame": "P11_WEST_0_00_03_FRAME_1",
+      "nearest_distance": 0.00042018337990157306,
+      "signed_distance": 0.000420183154346887,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_STRUT_01_3",
+      "endpoint": [
+        -10.388375282287598,
+        15.923819541931152,
+        6.486037254333496
+      ],
+      "nearest_frame": "P11_WEST_1_00_02_FRAME_2",
+      "nearest_distance": 0.00017623374878894538,
+      "signed_distance": -0.00017623343342165754,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_01_3_0",
+      "endpoint": [
+        -8.779109001159668,
+        16.103260040283203,
+        6.277742862701416
+      ],
+      "nearest_frame": "P11_WEST_0_00_02_FRAME_3",
+      "nearest_distance": 0.00039230717811733484,
+      "signed_distance": -0.0003923071053577587,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_01_3_1",
+      "endpoint": [
+        -11.997796058654785,
+        15.741667747497559,
+        6.713818550109863
+      ],
+      "nearest_frame": "P11_WEST_1_00_02_FRAME_1",
+      "nearest_distance": 4.69630140287336e-06,
+      "signed_distance": 4.6935440423112595e-06,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_01_3_2",
+      "endpoint": [
+        -11.800192832946777,
+        14.50343132019043,
+        5.291505813598633
+      ],
+      "nearest_frame": "P11_WEST_1_00_01_FRAME_2",
+      "nearest_distance": 0.00022296051611192524,
+      "signed_distance": 0.00022296033057500608,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_01_3_3",
+      "endpoint": [
+        -8.969700813293457,
+        17.314783096313477,
+        7.706782341003418
+      ],
+      "nearest_frame": "P11_WEST_0_00_04_FRAME_1",
+      "nearest_distance": 0.0003984259092248976,
+      "signed_distance": 0.0003984258364653215,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_STRUT_01_4",
+      "endpoint": [
+        -8.9725923538208,
+        17.329280853271484,
+        7.693296909332275
+      ],
+      "nearest_frame": "P11_WEST_1_00_03_FRAME_2",
+      "nearest_distance": 6.306701106950641e-05,
+      "signed_distance": -6.306655282628526e-05,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_01_4_0",
+      "endpoint": [
+        -7.35775089263916,
+        17.424396514892578,
+        7.411296844482422
+      ],
+      "nearest_frame": "P11_WEST_0_00_03_FRAME_3",
+      "nearest_distance": 0.00037627891288138926,
+      "signed_distance": -0.0003762789201573469,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_01_4_1",
+      "endpoint": [
+        -10.585519790649414,
+        17.22265625,
+        7.99273157119751
+      ],
+      "nearest_frame": "P11_WEST_1_00_03_FRAME_1",
+      "nearest_distance": 3.053247610296239e-06,
+      "signed_distance": 3.0444081176028703e-06,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_01_4_2",
+      "endpoint": [
+        -10.384544372558594,
+        15.908945083618164,
+        6.4988603591918945
+      ],
+      "nearest_frame": "P11_WEST_1_00_02_FRAME_2",
+      "nearest_distance": 0.0002856079372577369,
+      "signed_distance": 0.000285607895875728,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_01_4_3",
+      "endpoint": [
+        -7.55405330657959,
+        18.720298767089844,
+        8.914135932922363
+      ],
+      "nearest_frame": "P11_WEST_1_00_04_FRAME_2",
+      "nearest_distance": 0.0003748610324691981,
+      "signed_distance": -0.0003748604537818778,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_STRUT_01_5",
+      "endpoint": [
+        -7.556859970092773,
+        18.734756469726562,
+        8.900595664978027
+      ],
+      "nearest_frame": "P11_WEST_1_00_04_FRAME_2",
+      "nearest_distance": 4.789306331076659e-05,
+      "signed_distance": 4.7888668177620275e-05,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_01_5_0",
+      "endpoint": [
+        -5.936429977416992,
+        18.745546340942383,
+        8.544879913330078
+      ],
+      "nearest_frame": "P11_WEST_0_00_05_FRAME_3",
+      "nearest_distance": 0.0003600104828365147,
+      "signed_distance": 0.0003600101117626764,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_01_5_1",
+      "endpoint": [
+        -9.173280715942383,
+        18.703655242919922,
+        9.271673202514648
+      ],
+      "nearest_frame": "P11_WEST_1_00_04_FRAME_1",
+      "nearest_distance": 9.5367431640625e-07,
+      "signed_distance": -5.0766340109476e-07,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_01_5_2",
+      "endpoint": [
+        -8.968932151794434,
+        17.314472198486328,
+        7.706243991851807
+      ],
+      "nearest_frame": "P11_WEST_1_00_03_FRAME_2",
+      "nearest_distance": 0.00034848315408453345,
+      "signed_distance": 0.0003484828872615253,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_01_5_3",
+      "endpoint": [
+        -6.13844108581543,
+        20.125823974609375,
+        10.12152099609375
+      ],
+      "nearest_frame": "P11_WEST_1_00_05_FRAME_2",
+      "nearest_distance": 0.0002670598914846778,
+      "signed_distance": -0.00026705818254413316,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_STRUT_02_1",
+      "endpoint": [
+        -14.824230194091797,
+        12.793549537658691,
+        4.141541481018066
+      ],
+      "nearest_frame": "P11_WEST_1_00_01_FRAME_1",
+      "nearest_distance": 0.00031489887624047697,
+      "signed_distance": 0.00031489846151089296,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_02_1_0",
+      "endpoint": [
+        -13.214882850646973,
+        13.097354888916016,
+        4.083284378051758
+      ],
+      "nearest_frame": "P11_WEST_0_00_01_FRAME_1",
+      "nearest_distance": 0.0006803655996918678,
+      "signed_distance": 0.0006803655414842069,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_02_1_1",
+      "endpoint": [
+        -16.437639236450195,
+        12.506973266601562,
+        4.221983909606934
+      ],
+      "nearest_frame": "P11_WEST_2_00_00_FRAME_1",
+      "nearest_distance": 1.9031716874451376e-05,
+      "signed_distance": 1.901453879327164e-05,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_02_1_2",
+      "endpoint": [
+        -16.232860565185547,
+        11.297820091247559,
+        2.8756461143493652
+      ],
+      "nearest_frame": "P11_WEST_1_00_00_FRAME_1",
+      "nearest_distance": 0.0002502301649656147,
+      "signed_distance": 0.00025022989575518295,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_02_1_3",
+      "endpoint": [
+        -13.409112930297852,
+        14.260119438171387,
+        5.43403959274292
+      ],
+      "nearest_frame": "P11_WEST_1_00_02_FRAME_1",
+      "nearest_distance": 0.00022447839728556573,
+      "signed_distance": 0.0002244780262117274,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_STRUT_02_2",
+      "endpoint": [
+        -13.412065505981445,
+        14.274587631225586,
+        5.420546531677246
+      ],
+      "nearest_frame": "P11_WEST_1_00_02_FRAME_1",
+      "nearest_distance": 0.000298078142805025,
+      "signed_distance": 0.0002980781064252369,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_02_2_0",
+      "endpoint": [
+        -11.799419403076172,
+        14.502948760986328,
+        5.290778636932373
+      ],
+      "nearest_frame": "P11_WEST_0_00_02_FRAME_1",
+      "nearest_distance": 0.0006439519347622991,
+      "signed_distance": 0.0006439518328988925,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_02_2_1",
+      "endpoint": [
+        -15.026811599731445,
+        14.054234504699707,
+        5.568177700042725
+      ],
+      "nearest_frame": "P11_WEST_2_00_01_FRAME_1",
+      "nearest_distance": 1.5436567991855554e-05,
+      "signed_distance": 1.5433998669323046e-05,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_02_2_2",
+      "endpoint": [
+        -14.820769309997559,
+        12.778886795043945,
+        4.154698848724365
+      ],
+      "nearest_frame": "P11_WEST_1_00_01_FRAME_1",
+      "nearest_distance": 0.00023602235887665302,
+      "signed_distance": 0.00023602222063345835,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_02_2_3",
+      "endpoint": [
+        -11.99702262878418,
+        15.741185188293457,
+        6.7130913734436035
+      ],
+      "nearest_frame": "P11_WEST_1_00_03_FRAME_1",
+      "nearest_distance": 0.0002136959374183789,
+      "signed_distance": 0.00021369575188145973,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_STRUT_02_3",
+      "endpoint": [
+        -11.999927520751953,
+        15.755633354187012,
+        6.699568271636963
+      ],
+      "nearest_frame": "P11_WEST_1_00_03_FRAME_1",
+      "nearest_distance": 0.0002851390454452485,
+      "signed_distance": 0.00028513886354630813,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_02_3_0",
+      "endpoint": [
+        -10.383974075317383,
+        15.908547401428223,
+        6.498286724090576
+      ],
+      "nearest_frame": "P11_WEST_0_00_03_FRAME_1",
+      "nearest_distance": 0.0006114041898399591,
+      "signed_distance": 0.0006114041607361287,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_02_3_1",
+      "endpoint": [
+        -13.616002082824707,
+        15.601502418518066,
+        6.9143853187561035
+      ],
+      "nearest_frame": "P11_WEST_2_00_02_FRAME_1",
+      "nearest_distance": 1.2138292731833644e-05,
+      "signed_distance": 1.2135774795751786e-05,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_02_3_2",
+      "endpoint": [
+        -13.408696174621582,
+        14.25995922088623,
+        5.433765411376953
+      ],
+      "nearest_frame": "P11_WEST_1_00_02_FRAME_1",
+      "nearest_distance": 0.00022389624791685492,
+      "signed_distance": 0.0002238953093183227,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_02_3_3",
+      "endpoint": [
+        -10.584949493408203,
+        17.222257614135742,
+        7.992157936096191
+      ],
+      "nearest_frame": "P11_WEST_1_00_04_FRAME_1",
+      "nearest_distance": 0.00020098841923754662,
+      "signed_distance": 0.0002009858872042969,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_STRUT_02_4",
+      "endpoint": [
+        -10.587810516357422,
+        17.2366886138916,
+        7.978606700897217
+      ],
+      "nearest_frame": "P11_WEST_1_00_04_FRAME_1",
+      "nearest_distance": 0.0002688266395125538,
+      "signed_distance": 0.00026882614474743605,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_02_4_0",
+      "endpoint": [
+        -8.968545913696289,
+        17.31415367126465,
+        7.705806255340576
+      ],
+      "nearest_frame": "P11_WEST_0_00_04_FRAME_1",
+      "nearest_distance": 0.0005827238783240318,
+      "signed_distance": 0.0005827233253512532,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_02_4_1",
+      "endpoint": [
+        -12.205207824707031,
+        17.14877700805664,
+        8.260603904724121
+      ],
+      "nearest_frame": "P11_WEST_2_00_03_FRAME_1",
+      "nearest_distance": 9.910873814078514e-06,
+      "signed_distance": 9.894613640426542e-06,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_02_4_2",
+      "endpoint": [
+        -11.996641159057617,
+        15.741036415100098,
+        6.7128424644470215
+      ],
+      "nearest_frame": "P11_WEST_1_00_03_FRAME_1",
+      "nearest_distance": 0.0002140016295015812,
+      "signed_distance": 0.00021400036712293513,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_02_4_3",
+      "endpoint": [
+        -9.172894477844238,
+        18.703336715698242,
+        9.271234512329102
+      ],
+      "nearest_frame": "P11_WEST_1_00_05_FRAME_1",
+      "nearest_distance": 0.00019357709970790893,
+      "signed_distance": 0.00019357701967237517,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_STRUT_02_5",
+      "endpoint": [
+        -9.175714492797852,
+        18.717750549316406,
+        9.257658004760742
+      ],
+      "nearest_frame": "P11_WEST_1_00_05_FRAME_1",
+      "nearest_distance": 0.0002581728622317314,
+      "signed_distance": 0.0002581699882284738,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_02_5_0",
+      "endpoint": [
+        -7.553133010864258,
+        18.719762802124023,
+        8.913334846496582
+      ],
+      "nearest_frame": "P11_WEST_0_00_05_FRAME_1",
+      "nearest_distance": 0.0005559187266044319,
+      "signed_distance": 0.0005559178971452639,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_02_5_1",
+      "endpoint": [
+        -10.794429779052734,
+        18.696054458618164,
+        9.606832504272461
+      ],
+      "nearest_frame": "P11_WEST_2_00_04_FRAME_1",
+      "nearest_distance": 7.200083018688019e-06,
+      "signed_distance": 7.136967951737461e-06,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_02_5_2",
+      "endpoint": [
+        -10.584599494934082,
+        17.22212028503418,
+        7.9919304847717285
+      ],
+      "nearest_frame": "P11_WEST_2_00_03_FRAME_2",
+      "nearest_distance": 0.00019550614524632692,
+      "signed_distance": -0.00019550517086486252,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_02_5_3",
+      "endpoint": [
+        -7.760852813720703,
+        20.184419631958008,
+        10.550322532653809
+      ],
+      "nearest_frame": "P11_WEST_1_00_05_FRAME_1",
+      "nearest_distance": 0.00019408619846217334,
+      "signed_distance": -0.00019408460138947703,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_STRUT_03_1",
+      "endpoint": [
+        -16.4388484954834,
+        12.520695686340332,
+        4.207310676574707
+      ],
+      "nearest_frame": "P11_WEST_2_00_01_FRAME_1",
+      "nearest_distance": 9.291474998462945e-05,
+      "signed_distance": 9.291034621128347e-05,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_03_1_0",
+      "endpoint": [
+        -14.819461822509766,
+        12.778326988220215,
+        4.15381383895874
+      ],
+      "nearest_frame": "P11_WEST_1_00_01_FRAME_1",
+      "nearest_distance": 0.00028374374960549176,
+      "signed_distance": 0.0002837435167748481,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_03_1_1",
+      "endpoint": [
+        -18.061983108520508,
+        12.282426834106445,
+        4.281639575958252
+      ],
+      "nearest_frame": "P11_WEST_3_00_01_FRAME_1",
+      "nearest_distance": 1.7949609173228964e-05,
+      "signed_distance": -1.794438412616728e-05,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_03_1_2",
+      "endpoint": [
+        -17.846725463867188,
+        10.958984375,
+        2.874617338180542
+      ],
+      "nearest_frame": "P11_WEST_2_00_00_FRAME_1",
+      "nearest_distance": 7.363854092545807e-05,
+      "signed_distance": 7.36375277483603e-05,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_03_1_3",
+      "endpoint": [
+        -15.025504112243652,
+        14.053674697875977,
+        5.5672926902771
+      ],
+      "nearest_frame": "P11_WEST_2_00_02_FRAME_1",
+      "nearest_distance": 6.755791400792077e-05,
+      "signed_distance": 6.755762842658442e-05,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_STRUT_03_2",
+      "endpoint": [
+        -15.028212547302246,
+        14.06803035736084,
+        5.553632736206055
+      ],
+      "nearest_frame": "P11_WEST_2_00_02_FRAME_1",
+      "nearest_distance": 8.933032222557813e-05,
+      "signed_distance": 8.93297965376405e-05,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_03_2_0",
+      "endpoint": [
+        -13.407567977905273,
+        14.259469032287598,
+        5.4329986572265625
+      ],
+      "nearest_frame": "P11_WEST_1_00_02_FRAME_1",
+      "nearest_distance": 0.00027047598268836737,
+      "signed_distance": 0.0002704754224396311,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_03_2_1",
+      "endpoint": [
+        -16.650774002075195,
+        13.886341094970703,
+        5.688650608062744
+      ],
+      "nearest_frame": "P11_WEST_3_00_02_FRAME_1",
+      "nearest_distance": 1.6573092580074444e-05,
+      "signed_distance": -1.655979349379777e-05,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_03_2_2",
+      "endpoint": [
+        -16.436094284057617,
+        12.506322860717773,
+        4.220942974090576
+      ],
+      "nearest_frame": "P11_WEST_2_00_01_FRAME_1",
+      "nearest_distance": 6.94940026733093e-05,
+      "signed_distance": 6.948905866011046e-05,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_03_2_3",
+      "endpoint": [
+        -13.614873886108398,
+        15.601012229919434,
+        6.913618564605713
+      ],
+      "nearest_frame": "P11_WEST_2_00_03_FRAME_1",
+      "nearest_distance": 6.451943045249209e-05,
+      "signed_distance": 6.451766967074946e-05,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_STRUT_03_3",
+      "endpoint": [
+        -13.617578506469727,
+        15.615365982055664,
+        6.899955749511719
+      ],
+      "nearest_frame": "P11_WEST_2_00_03_FRAME_1",
+      "nearest_distance": 8.657450962346047e-05,
+      "signed_distance": 8.657213948026765e-05,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_03_3_0",
+      "endpoint": [
+        -11.99567699432373,
+        15.74061107635498,
+        6.712183475494385
+      ],
+      "nearest_frame": "P11_WEST_1_00_03_FRAME_1",
+      "nearest_distance": 0.00025999872013926506,
+      "signed_distance": 0.00025999762874562293,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_03_3_1",
+      "endpoint": [
+        -15.239563941955566,
+        15.490256309509277,
+        7.095661640167236
+      ],
+      "nearest_frame": "P11_WEST_3_00_03_FRAME_1",
+      "nearest_distance": 1.3787109310214873e-05,
+      "signed_distance": -1.3786827366857324e-05,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_03_3_2",
+      "endpoint": [
+        -15.025465965270996,
+        14.05366039276123,
+        5.567269802093506
+      ],
+      "nearest_frame": "P11_WEST_2_00_02_FRAME_1",
+      "nearest_distance": 6.729995220666751e-05,
+      "signed_distance": 6.729937194904778e-05,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_03_3_3",
+      "endpoint": [
+        -12.204243659973145,
+        17.148351669311523,
+        8.2599458694458
+      ],
+      "nearest_frame": "P11_WEST_2_00_04_FRAME_1",
+      "nearest_distance": 5.952639185125008e-05,
+      "signed_distance": 5.951883940724656e-05,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_STRUT_03_4",
+      "endpoint": [
+        -12.20694351196289,
+        17.162702560424805,
+        8.2462797164917
+      ],
+      "nearest_frame": "P11_WEST_2_00_04_FRAME_1",
+      "nearest_distance": 8.156006515491754e-05,
+      "signed_distance": 8.154921306413598e-05,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_03_4_0",
+      "endpoint": [
+        -10.583786010742188,
+        17.22175407409668,
+        7.99137020111084
+      ],
+      "nearest_frame": "P11_WEST_1_00_04_FRAME_1",
+      "nearest_distance": 0.0002476194640621543,
+      "signed_distance": 0.00024761681561358273,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_03_4_1",
+      "endpoint": [
+        -13.828354835510254,
+        17.09417152404785,
+        8.502674102783203
+      ],
+      "nearest_frame": "P11_WEST_3_00_04_FRAME_1",
+      "nearest_distance": 1.3214498721936252e-05,
+      "signed_distance": -1.3188489901949652e-05,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_03_4_2",
+      "endpoint": [
+        -13.614838600158691,
+        15.600998878479004,
+        6.913597583770752
+      ],
+      "nearest_frame": "P11_WEST_2_00_03_FRAME_1",
+      "nearest_distance": 6.425988976843655e-05,
+      "signed_distance": 6.425942410714924e-05,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_03_4_3",
+      "endpoint": [
+        -10.79361629486084,
+        18.695688247680664,
+        9.60627269744873
+      ],
+      "nearest_frame": "P11_WEST_2_00_05_FRAME_1",
+      "nearest_distance": 5.952639185125008e-05,
+      "signed_distance": 5.951881757937372e-05,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_STRUT_03_5",
+      "endpoint": [
+        -10.79631233215332,
+        18.710039138793945,
+        9.592604637145996
+      ],
+      "nearest_frame": "P11_WEST_2_00_05_FRAME_1",
+      "nearest_distance": 7.997797365533188e-05,
+      "signed_distance": 7.997574357432313e-05,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_03_5_0",
+      "endpoint": [
+        -9.171897888183594,
+        18.702898025512695,
+        9.270556449890137
+      ],
+      "nearest_frame": "P11_WEST_1_00_05_FRAME_1",
+      "nearest_distance": 0.0002393475588178262,
+      "signed_distance": 0.00023934491036925465,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_03_5_1",
+      "endpoint": [
+        -12.41714859008789,
+        18.69808578491211,
+        9.909686088562012
+      ],
+      "nearest_frame": "P11_WEST_3_00_05_FRAME_1",
+      "nearest_distance": 9.910873814078514e-06,
+      "signed_distance": -9.891382660498493e-06,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_03_5_2",
+      "endpoint": [
+        -12.204211235046387,
+        17.148338317871094,
+        8.259925842285156
+      ],
+      "nearest_frame": "P11_WEST_2_00_04_FRAME_1",
+      "nearest_distance": 6.122113700257614e-05,
+      "signed_distance": 6.121945443737786e-05,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_03_5_3",
+      "endpoint": [
+        -9.382989883422852,
+        20.24302864074707,
+        10.952601432800293
+      ],
+      "nearest_frame": "P11_WEST_2_00_05_FRAME_1",
+      "nearest_distance": 6.069146184017882e-05,
+      "signed_distance": -6.0678892623400316e-05,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_STRUT_04_1",
+      "endpoint": [
+        -18.06258201599121,
+        12.296004295349121,
+        4.266798496246338
+      ],
+      "nearest_frame": "P11_WEST_3_00_01_FRAME_1",
+      "nearest_distance": 4.968267967342399e-05,
+      "signed_distance": -4.9675591981213074e-05,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_04_1_0",
+      "endpoint": [
+        -16.434511184692383,
+        12.50574016571045,
+        4.220057487487793
+      ],
+      "nearest_frame": "P11_WEST_2_00_01_FRAME_1",
+      "nearest_distance": 1.2945052731083706e-05,
+      "signed_distance": 1.2934628102811985e-05,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_04_1_1",
+      "endpoint": [
+        -19.694299697875977,
+        12.11067008972168,
+        4.333126544952393
+      ],
+      "nearest_frame": "P11_WEST_4_00_01_FRAME_1",
+      "nearest_distance": 1.4927364645700436e-05,
+      "signed_distance": -1.4918210581527092e-05,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_04_1_2",
+      "endpoint": [
+        -19.471574783325195,
+        10.6779146194458,
+        2.8737196922302246
+      ],
+      "nearest_frame": "P11_WEST_3_00_00_FRAME_1",
+      "nearest_distance": 3.919357914128341e-05,
+      "signed_distance": -3.9185872083180584e-05,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_04_1_3",
+      "endpoint": [
+        -16.64919090270996,
+        13.885758399963379,
+        5.687765121459961
+      ],
+      "nearest_frame": "P11_WEST_3_00_02_FRAME_1",
+      "nearest_distance": 3.694795668707229e-05,
+      "signed_distance": -3.694085535244085e-05,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_STRUT_04_2",
+      "endpoint": [
+        -16.65155029296875,
+        13.899988174438477,
+        5.673909664154053
+      ],
+      "nearest_frame": "P11_WEST_3_00_02_FRAME_1",
+      "nearest_distance": 4.726464248960838e-05,
+      "signed_distance": -4.72389028800535e-05,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_04_2_0",
+      "endpoint": [
+        -15.024020195007324,
+        14.053131103515625,
+        5.566461086273193
+      ],
+      "nearest_frame": "P11_WEST_2_00_02_FRAME_1",
+      "nearest_distance": 1.3787109310214873e-05,
+      "signed_distance": 1.3784882867184933e-05,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_04_2_1",
+      "endpoint": [
+        -18.281038284301758,
+        13.76066780090332,
+        5.792599201202393
+      ],
+      "nearest_frame": "P11_WEST_4_00_02_FRAME_1",
+      "nearest_distance": 1.3787109310214873e-05,
+      "signed_distance": -1.3785217106487835e-05,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_04_2_2",
+      "endpoint": [
+        -18.060501098632812,
+        12.281883239746094,
+        4.280807971954346
+      ],
+      "nearest_frame": "P11_WEST_3_00_01_FRAME_1",
+      "nearest_distance": 3.7802692531840876e-05,
+      "signed_distance": -3.780128918151604e-05,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_04_2_3",
+      "endpoint": [
+        -15.238118171691895,
+        15.489727020263672,
+        7.094852924346924
+      ],
+      "nearest_frame": "P11_WEST_3_00_03_FRAME_1",
+      "nearest_distance": 3.5030498111154884e-05,
+      "signed_distance": -3.502832623780705e-05,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_STRUT_04_3",
+      "endpoint": [
+        -15.240507125854492,
+        15.503968238830566,
+        7.081014633178711
+      ],
+      "nearest_frame": "P11_WEST_3_00_03_FRAME_1",
+      "nearest_distance": 4.604627611115575e-05,
+      "signed_distance": -4.604407695296686e-05,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_04_3_0",
+      "endpoint": [
+        -13.613521575927734,
+        15.600519180297852,
+        6.912861347198486
+      ],
+      "nearest_frame": "P11_WEST_2_00_03_FRAME_1",
+      "nearest_distance": 1.3787109310214873e-05,
+      "signed_distance": 1.3784884686174337e-05,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_04_3_1",
+      "endpoint": [
+        -16.867767333984375,
+        15.410662651062012,
+        7.252068042755127
+      ],
+      "nearest_frame": "P11_WEST_4_00_03_FRAME_1",
+      "nearest_distance": 1.3529072930396069e-05,
+      "signed_distance": -1.3519896583602531e-05,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_04_3_2",
+      "endpoint": [
+        -16.64942169189453,
+        13.885848045349121,
+        5.687893390655518
+      ],
+      "nearest_frame": "P11_WEST_3_00_02_FRAME_1",
+      "nearest_distance": 3.563540303730406e-05,
+      "signed_distance": -3.562668280210346e-05,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_04_3_3",
+      "endpoint": [
+        -13.827037811279297,
+        17.093690872192383,
+        8.501937866210938
+      ],
+      "nearest_frame": "P11_WEST_3_00_04_FRAME_1",
+      "nearest_distance": 3.3649976103333756e-05,
+      "signed_distance": -3.364372514624847e-05,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_STRUT_04_4",
+      "endpoint": [
+        -13.82945442199707,
+        17.10794448852539,
+        8.488115310668945
+      ],
+      "nearest_frame": "P11_WEST_3_00_04_FRAME_1",
+      "nearest_distance": 4.630970215657726e-05,
+      "signed_distance": -4.630616967915557e-05,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_04_4_0",
+      "endpoint": [
+        -12.203014373779297,
+        17.147905349731445,
+        8.259258270263672
+      ],
+      "nearest_frame": "P11_WEST_2_00_04_FRAME_1",
+      "nearest_distance": 1.3214498721936252e-05,
+      "signed_distance": 1.3192794085625792e-05,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_04_4_1",
+      "endpoint": [
+        -15.454490661621094,
+        17.06065559387207,
+        8.71153450012207
+      ],
+      "nearest_frame": "P11_WEST_4_00_04_FRAME_1",
+      "nearest_distance": 1.2687811249634251e-05,
+      "signed_distance": -1.2668020872297348e-05,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_04_4_2",
+      "endpoint": [
+        -15.238334655761719,
+        15.4898099899292,
+        7.094974040985107
+      ],
+      "nearest_frame": "P11_WEST_3_00_03_FRAME_1",
+      "nearest_distance": 3.390912388567813e-05,
+      "signed_distance": -3.390580968698487e-05,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_04_4_3",
+      "endpoint": [
+        -12.4159517288208,
+        18.69765281677246,
+        9.909018516540527
+      ],
+      "nearest_frame": "P11_WEST_3_00_05_FRAME_1",
+      "nearest_distance": 3.2606738386675715e-05,
+      "signed_distance": -3.259163167967927e-05,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_STRUT_04_5",
+      "endpoint": [
+        -12.418395042419434,
+        18.7119140625,
+        9.895211219787598
+      ],
+      "nearest_frame": "P11_WEST_3_00_05_FRAME_1",
+      "nearest_distance": 4.1961669921875e-05,
+      "signed_distance": -4.1958815018006135e-05,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_04_5_0",
+      "endpoint": [
+        -10.792502403259277,
+        18.695287704467773,
+        9.605650901794434
+      ],
+      "nearest_frame": "P11_WEST_2_00_05_FRAME_1",
+      "nearest_distance": 1.3214498721936252e-05,
+      "signed_distance": 1.3192773621995002e-05,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_04_5_1",
+      "endpoint": [
+        -14.041207313537598,
+        18.71064567565918,
+        10.170995712280273
+      ],
+      "nearest_frame": "P11_WEST_4_00_05_FRAME_1",
+      "nearest_distance": 1.2138292731833644e-05,
+      "signed_distance": -1.2137358680774923e-05,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_04_5_2",
+      "endpoint": [
+        -13.827240943908691,
+        17.09377098083496,
+        8.502052307128906
+      ],
+      "nearest_frame": "P11_WEST_3_00_03_FRAME_1",
+      "nearest_distance": 3.537604789016768e-05,
+      "signed_distance": 3.5364598261367064e-05,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_04_5_3",
+      "endpoint": [
+        -11.004858016967773,
+        20.30161476135254,
+        11.316097259521484
+      ],
+      "nearest_frame": "P11_WEST_3_00_05_FRAME_1",
+      "nearest_distance": 3.141340130241588e-05,
+      "signed_distance": 3.139682848996017e-05,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_STRUT_05_1",
+      "endpoint": [
+        -19.69432258605957,
+        12.12409496307373,
+        4.318140983581543
+      ],
+      "nearest_frame": "P11_WEST_4_00_01_FRAME_1",
+      "nearest_distance": 0.00014662490866612643,
+      "signed_distance": -0.00014661939712823369,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_05_1_0",
+      "endpoint": [
+        -18.058748245239258,
+        12.281278610229492,
+        4.279960632324219
+      ],
+      "nearest_frame": "P11_WEST_3_00_01_FRAME_1",
+      "nearest_distance": 0.00015944625192787498,
+      "signed_distance": -0.00015944603364914656,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_05_1_1",
+      "endpoint": [
+        -21.332345962524414,
+        11.98995590209961,
+        4.3748369216918945
+      ],
+      "nearest_frame": "P11_WEST_5_00_01_FRAME_1",
+      "nearest_distance": 9.39260280574672e-06,
+      "signed_distance": -9.347443437945913e-06,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_05_1_2",
+      "endpoint": [
+        -21.106050491333008,
+        10.460160255432129,
+        2.8729381561279297
+      ],
+      "nearest_frame": "P11_WEST_4_00_00_FRAME_1",
+      "nearest_distance": 0.0001111247984226793,
+      "signed_distance": -0.00011112007268820889,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_05_1_3",
+      "endpoint": [
+        -18.279285430908203,
+        13.760063171386719,
+        5.791751861572266
+      ],
+      "nearest_frame": "P11_WEST_4_00_02_FRAME_1",
+      "nearest_distance": 0.00010595660569379106,
+      "signed_distance": -0.0001059563182934653,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_STRUT_05_2",
+      "endpoint": [
+        -18.281198501586914,
+        13.774149894714355,
+        5.77768087387085
+      ],
+      "nearest_frame": "P11_WEST_4_00_02_FRAME_1",
+      "nearest_distance": 0.00014272413682192564,
+      "signed_distance": -0.00014272125918068923,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_05_2_0",
+      "endpoint": [
+        -16.647750854492188,
+        13.885278701782227,
+        5.6870832443237305
+      ],
+      "nearest_frame": "P11_WEST_3_00_02_FRAME_1",
+      "nearest_distance": 0.00015528866788372397,
+      "signed_distance": -0.00015528850053669885,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_05_2_1",
+      "endpoint": [
+        -19.915813446044922,
+        13.675812721252441,
+        5.876835346221924
+      ],
+      "nearest_frame": "P11_WEST_5_00_02_FRAME_1",
+      "nearest_distance": 1.0757936252048239e-05,
+      "signed_distance": -1.0755870107459486e-05,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_05_2_2",
+      "endpoint": [
+        -19.692859649658203,
+        12.110190391540527,
+        4.332444667816162
+      ],
+      "nearest_frame": "P11_WEST_4_00_01_FRAME_1",
+      "nearest_distance": 0.00011012048344127834,
+      "signed_distance": -0.00011011971582775004,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_05_2_3",
+      "endpoint": [
+        -16.86609649658203,
+        15.410093307495117,
+        7.25125789642334
+      ],
+      "nearest_frame": "P11_WEST_4_00_03_FRAME_1",
+      "nearest_distance": 0.00010379727609688416,
+      "signed_distance": -0.00010379362902313005,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_STRUT_05_3",
+      "endpoint": [
+        -16.868064880371094,
+        15.424200057983398,
+        7.237215042114258
+      ],
+      "nearest_frame": "P11_WEST_4_00_03_FRAME_1",
+      "nearest_distance": 0.00013829345698468387,
+      "signed_distance": -0.00013829253657604568,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_05_3_0",
+      "endpoint": [
+        -15.23674488067627,
+        15.489274024963379,
+        7.094201564788818
+      ],
+      "nearest_frame": "P11_WEST_3_00_03_FRAME_1",
+      "nearest_distance": 0.0001498187193647027,
+      "signed_distance": -0.00014981675485614687,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_05_3_1",
+      "endpoint": [
+        -18.4992733001709,
+        15.361664772033691,
+        7.3788299560546875
+      ],
+      "nearest_frame": "P11_WEST_5_00_03_FRAME_1",
+      "nearest_distance": 1.0757936252048239e-05,
+      "signed_distance": -1.0755878747659153e-05,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_05_3_2",
+      "endpoint": [
+        -18.2796630859375,
+        13.760214805603027,
+        5.791947841644287
+      ],
+      "nearest_frame": "P11_WEST_4_00_02_FRAME_1",
+      "nearest_distance": 0.0001078590503311716,
+      "signed_distance": -0.00010785373524413444,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_05_3_3",
+      "endpoint": [
+        -15.452900886535645,
+        17.06011962890625,
+        8.710761070251465
+      ],
+      "nearest_frame": "P11_WEST_4_00_04_FRAME_1",
+      "nearest_distance": 0.00010146664135390893,
+      "signed_distance": -0.00010145593114430085,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_STRUT_05_4",
+      "endpoint": [
+        -15.45491886138916,
+        17.07424545288086,
+        8.696745872497559
+      ],
+      "nearest_frame": "P11_WEST_4_00_04_FRAME_1",
+      "nearest_distance": 0.00013577724166680127,
+      "signed_distance": -0.00013577699064626358,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_05_4_0",
+      "endpoint": [
+        -13.825729370117188,
+        17.093265533447266,
+        8.50131607055664
+      ],
+      "nearest_frame": "P11_WEST_3_00_04_FRAME_1",
+      "nearest_distance": 0.00014671093958895653,
+      "signed_distance": -0.0001467094334657304,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_05_4_1",
+      "endpoint": [
+        -17.082727432250977,
+        17.04751205444336,
+        8.880821228027344
+      ],
+      "nearest_frame": "P11_WEST_5_00_04_FRAME_1",
+      "nearest_distance": 8.946258276409935e-06,
+      "signed_distance": -8.811463203528547e-06,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_05_4_2",
+      "endpoint": [
+        -16.866458892822266,
+        15.410237312316895,
+        7.25144624710083
+      ],
+      "nearest_frame": "P11_WEST_4_00_03_FRAME_1",
+      "nearest_distance": 0.00010482611833140254,
+      "signed_distance": -0.00010482330981176347,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_05_4_3",
+      "endpoint": [
+        -14.039695739746094,
+        18.710140228271484,
+        10.170259475708008
+      ],
+      "nearest_frame": "P11_WEST_4_00_05_FRAME_1",
+      "nearest_distance": 9.988116653403267e-05,
+      "signed_distance": -9.987974772229791e-05,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_STRUT_05_5",
+      "endpoint": [
+        -14.041762351989746,
+        18.724285125732422,
+        10.156270027160645
+      ],
+      "nearest_frame": "P11_WEST_4_00_05_FRAME_1",
+      "nearest_distance": 0.00013352802488952875,
+      "signed_distance": -0.00013352679525269195,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_05_5_0",
+      "endpoint": [
+        -12.414708137512207,
+        18.69725227355957,
+        9.908426284790039
+      ],
+      "nearest_frame": "P11_WEST_3_00_05_FRAME_1",
+      "nearest_distance": 0.00014236284187063575,
+      "signed_distance": -0.00014236208153306507,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_05_5_1",
+      "endpoint": [
+        -15.666172981262207,
+        18.73335838317871,
+        10.382807731628418
+      ],
+      "nearest_frame": "P11_WEST_5_00_05_FRAME_1",
+      "nearest_distance": 9.39260280574672e-06,
+      "signed_distance": -9.376664138471824e-06,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_05_5_2",
+      "endpoint": [
+        -15.4532470703125,
+        17.06025505065918,
+        8.710942268371582
+      ],
+      "nearest_frame": "P11_WEST_4_00_04_FRAME_1",
+      "nearest_distance": 0.00010093190940096974,
+      "signed_distance": -0.00010092527372762561,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_05_5_3",
+      "endpoint": [
+        -12.626482963562012,
+        20.360157012939453,
+        11.629755020141602
+      ],
+      "nearest_frame": "P11_WEST_4_00_05_FRAME_1",
+      "nearest_distance": 9.88376559689641e-05,
+      "signed_distance": 9.883420716505498e-05,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_STRUT_06_1",
+      "endpoint": [
+        -21.331844329833984,
+        12.003203392028809,
+        4.359711647033691
+      ],
+      "nearest_frame": "P11_WEST_5_00_01_FRAME_1",
+      "nearest_distance": 0.00017525890143588185,
+      "signed_distance": -0.0001752577518345788,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_06_1_0",
+      "endpoint": [
+        -19.691049575805664,
+        12.109561920166016,
+        4.331654071807861
+      ],
+      "nearest_frame": "P11_WEST_4_00_01_FRAME_1",
+      "nearest_distance": 0.00025144332903437316,
+      "signed_distance": -0.00025144271057797596,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_06_1_1",
+      "endpoint": [
+        -22.974313735961914,
+        11.920995712280273,
+        4.405454158782959
+      ],
+      "nearest_frame": "P11_WEST_6_00_01_FRAME_1",
+      "nearest_distance": 6.3439056248171255e-06,
+      "signed_distance": -6.317231509456178e-06,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_06_1_2",
+      "endpoint": [
+        -22.747451782226562,
+        10.30362606048584,
+        2.8722469806671143
+      ],
+      "nearest_frame": "P11_WEST_5_00_00_FRAME_1",
+      "nearest_distance": 0.00013492806465364993,
+      "signed_distance": -0.0001349241465504747,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_06_1_3",
+      "endpoint": [
+        -19.914003372192383,
+        13.67518424987793,
+        5.876044750213623
+      ],
+      "nearest_frame": "P11_WEST_5_00_02_FRAME_1",
+      "nearest_distance": 0.00012920791050419211,
+      "signed_distance": -0.0001292078050028067,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_STRUT_06_2",
+      "endpoint": [
+        -19.915395736694336,
+        13.68909740447998,
+        5.8617424964904785
+      ],
+      "nearest_frame": "P11_WEST_5_00_02_FRAME_1",
+      "nearest_distance": 0.00017385407409165055,
+      "signed_distance": -0.00017384935927111655,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_06_2_0",
+      "endpoint": [
+        -18.277875900268555,
+        13.759598731994629,
+        5.791159629821777
+      ],
+      "nearest_frame": "P11_WEST_4_00_02_FRAME_1",
+      "nearest_distance": 0.00024364699493162334,
+      "signed_distance": -0.00024364647833863273,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_06_2_1",
+      "endpoint": [
+        -21.553672790527344,
+        13.632338523864746,
+        5.938760757446289
+      ],
+      "nearest_frame": "P11_WEST_6_00_02_FRAME_1",
+      "nearest_distance": 7.463682322850218e-06,
+      "signed_distance": -7.462512485290063e-06,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_06_2_2",
+      "endpoint": [
+        -21.330936431884766,
+        11.98949146270752,
+        4.374244689941406
+      ],
+      "nearest_frame": "P11_WEST_5_00_01_FRAME_1",
+      "nearest_distance": 0.00013136495545040816,
+      "signed_distance": -0.00013136175766703673,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_06_2_3",
+      "endpoint": [
+        -18.497486114501953,
+        15.361048698425293,
+        7.378041744232178
+      ],
+      "nearest_frame": "P11_WEST_5_00_03_FRAME_1",
+      "nearest_distance": 0.00012618178152479231,
+      "signed_distance": -0.00012618132313946262,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_STRUT_06_3",
+      "endpoint": [
+        -18.498939514160156,
+        15.374985694885254,
+        7.36376953125
+      ],
+      "nearest_frame": "P11_WEST_5_00_03_FRAME_1",
+      "nearest_distance": 0.00016866896476130933,
+      "signed_distance": -0.0001686689065536484,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_06_3_0",
+      "endpoint": [
+        -16.864694595336914,
+        15.40963363647461,
+        7.250662803649902
+      ],
+      "nearest_frame": "P11_WEST_4_00_03_FRAME_1",
+      "nearest_distance": 0.00023921880347188562,
+      "signed_distance": -0.0002392177630099468,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_06_3_1",
+      "endpoint": [
+        -20.133026123046875,
+        15.34367847442627,
+        7.472064018249512
+      ],
+      "nearest_frame": "P11_WEST_6_00_03_FRAME_1",
+      "nearest_distance": 6.3439056248171255e-06,
+      "signed_distance": -6.317220254459244e-06,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_06_3_2",
+      "endpoint": [
+        -19.914411544799805,
+        13.675353050231934,
+        5.876240253448486
+      ],
+      "nearest_frame": "P11_WEST_5_00_02_FRAME_1",
+      "nearest_distance": 0.00012947600043844432,
+      "signed_distance": -0.00012947575305588543,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_06_3_3",
+      "endpoint": [
+        -17.080963134765625,
+        17.04690933227539,
+        8.880037307739258
+      ],
+      "nearest_frame": "P11_WEST_5_00_04_FRAME_1",
+      "nearest_distance": 0.00012315699132159352,
+      "signed_distance": -0.00012315483763813972,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_STRUT_06_4",
+      "endpoint": [
+        -17.082475662231445,
+        17.060869216918945,
+        8.86579418182373
+      ],
+      "nearest_frame": "P11_WEST_5_00_04_FRAME_1",
+      "nearest_distance": 0.0001628885802347213,
+      "signed_distance": -0.00016288392362184823,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_06_4_0",
+      "endpoint": [
+        -15.451506614685059,
+        17.059663772583008,
+        8.710164070129395
+      ],
+      "nearest_frame": "P11_WEST_4_00_04_FRAME_1",
+      "nearest_distance": 0.0002339400234632194,
+      "signed_distance": -0.0002339372003916651,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_06_4_1",
+      "endpoint": [
+        -18.712371826171875,
+        17.05501365661621,
+        9.005365371704102
+      ],
+      "nearest_frame": "P11_WEST_6_00_04_FRAME_1",
+      "nearest_distance": 6.607249360968126e-06,
+      "signed_distance": -6.587162260984769e-06,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_06_4_2",
+      "endpoint": [
+        -18.497880935668945,
+        15.361210823059082,
+        7.378232479095459
+      ],
+      "nearest_frame": "P11_WEST_5_00_03_FRAME_1",
+      "nearest_distance": 0.00012618178152479231,
+      "signed_distance": -0.00012618132313946262,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_06_4_3",
+      "endpoint": [
+        -15.664432525634766,
+        18.73276710510254,
+        10.38202953338623
+      ],
+      "nearest_frame": "P11_WEST_5_00_05_FRAME_1",
+      "nearest_distance": 0.00012087610230082646,
+      "signed_distance": -0.00012087384311598726,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_STRUT_06_5",
+      "endpoint": [
+        -15.666001319885254,
+        18.74675178527832,
+        10.367814064025879
+      ],
+      "nearest_frame": "P11_WEST_5_00_05_FRAME_1",
+      "nearest_distance": 0.00016285506717395037,
+      "signed_distance": -0.00016285471065202728,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_06_5_0",
+      "endpoint": [
+        -14.038313865661621,
+        18.709692001342773,
+        10.169662475585938
+      ],
+      "nearest_frame": "P11_WEST_4_00_05_FRAME_1",
+      "nearest_distance": 0.00023064333072397858,
+      "signed_distance": -0.00023064151901053265,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_06_5_1",
+      "endpoint": [
+        -17.291711807250977,
+        18.766345977783203,
+        10.538663864135742
+      ],
+      "nearest_frame": "P11_WEST_6_00_04_FRAME_1",
+      "nearest_distance": 6.607249360968126e-06,
+      "signed_distance": 6.587158168258611e-06,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_06_5_2",
+      "endpoint": [
+        -17.081344604492188,
+        17.04706382751465,
+        8.880224227905273
+      ],
+      "nearest_frame": "P11_WEST_5_00_04_FRAME_1",
+      "nearest_distance": 0.00012262041855137795,
+      "signed_distance": -0.00012261888332432136,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_06_5_3",
+      "endpoint": [
+        -14.247897148132324,
+        20.418622970581055,
+        11.884020805358887
+      ],
+      "nearest_frame": "P11_WEST_5_00_05_FRAME_1",
+      "nearest_distance": 0.00012262041855137795,
+      "signed_distance": 0.0001226188469445333,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_STRUT_07_1",
+      "endpoint": [
+        -22.97325897216797,
+        11.93401050567627,
+        4.39015531539917
+      ],
+      "nearest_frame": "P11_WEST_6_00_01_FRAME_1",
+      "nearest_distance": 0.0001628885802347213,
+      "signed_distance": -0.00016288768165395595,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_07_1_0",
+      "endpoint": [
+        -21.329099655151367,
+        11.98881721496582,
+        4.373497486114502
+      ],
+      "nearest_frame": "P11_WEST_5_00_01_FRAME_1",
+      "nearest_distance": 0.00026030460139736533,
+      "signed_distance": -0.00026030162553070113,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_07_1_1",
+      "endpoint": [
+        -24.618268966674805,
+        11.904419898986816,
+        4.423979759216309
+      ],
+      "nearest_frame": "P11_WEST_7_00_01_FRAME_1",
+      "nearest_distance": 1.3486991292666062e-06,
+      "signed_distance": -1.1476699341983476e-06,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_07_1_2",
+      "endpoint": [
+        -24.39353370666504,
+        10.209150314331055,
+        2.871598720550537
+      ],
+      "nearest_frame": "P11_WEST_6_00_00_FRAME_1",
+      "nearest_distance": 0.00012342716217972338,
+      "signed_distance": -0.00012342682748567313,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_07_1_3",
+      "endpoint": [
+        -21.551836013793945,
+        13.631664276123047,
+        5.938013553619385
+      ],
+      "nearest_frame": "P11_WEST_6_00_02_FRAME_1",
+      "nearest_distance": 0.00012189229892101139,
+      "signed_distance": -0.0001218839934153948,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_STRUT_07_2",
+      "endpoint": [
+        -21.552644729614258,
+        13.645368576049805,
+        5.92346715927124
+      ],
+      "nearest_frame": "P11_WEST_6_00_02_FRAME_1",
+      "nearest_distance": 0.00016261824930552393,
+      "signed_distance": -0.0001626177690923214,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_07_2_0",
+      "endpoint": [
+        -19.91254997253418,
+        13.67467212677002,
+        5.875474452972412
+      ],
+      "nearest_frame": "P11_WEST_5_00_02_FRAME_1",
+      "nearest_distance": 0.00025727652246132493,
+      "signed_distance": -0.000257275125477463,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_07_2_1",
+      "endpoint": [
+        -23.193071365356445,
+        13.630746841430664,
+        5.976438999176025
+      ],
+      "nearest_frame": "P11_WEST_7_00_01_FRAME_1",
+      "nearest_distance": 4.184229055681499e-06,
+      "signed_distance": 4.1697056758494e-06,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_07_2_2",
+      "endpoint": [
+        -22.97286033630371,
+        11.920483589172363,
+        4.404883861541748
+      ],
+      "nearest_frame": "P11_WEST_6_00_01_FRAME_1",
+      "nearest_distance": 0.00012228339619468898,
+      "signed_distance": -0.0001222815590153914,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_07_2_3",
+      "endpoint": [
+        -20.13116455078125,
+        15.342997550964355,
+        7.4712982177734375
+      ],
+      "nearest_frame": "P11_WEST_6_00_03_FRAME_1",
+      "nearest_distance": 0.00011898878437932581,
+      "signed_distance": -0.00011898797674803063,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_STRUT_07_3",
+      "endpoint": [
+        -20.13202667236328,
+        15.356724739074707,
+        7.4567766189575195
+      ],
+      "nearest_frame": "P11_WEST_6_00_03_FRAME_1",
+      "nearest_distance": 0.00015959447773639113,
+      "signed_distance": -0.00015959412121446803,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_07_3_0",
+      "endpoint": [
+        -18.49599838256836,
+        15.360525131225586,
+        7.377449989318848
+      ],
+      "nearest_frame": "P11_WEST_5_00_03_FRAME_1",
+      "nearest_distance": 0.00025236356304958463,
+      "signed_distance": -0.00025236264627892524,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_07_3_1",
+      "endpoint": [
+        -21.76787567138672,
+        15.357071876525879,
+        7.528897285461426
+      ],
+      "nearest_frame": "P11_WEST_7_00_03_FRAME_1",
+      "nearest_distance": 3.303624680484063e-06,
+      "signed_distance": -3.2932298381638248e-06,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_07_3_2",
+      "endpoint": [
+        -21.55218505859375,
+        13.631814956665039,
+        5.938169002532959
+      ],
+      "nearest_frame": "P11_WEST_6_00_02_FRAME_1",
+      "nearest_distance": 0.0001228880719281733,
+      "signed_distance": -0.0001228869914484676,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_07_3_3",
+      "endpoint": [
+        -18.71048927307129,
+        17.05432891845703,
+        9.004582405090332
+      ],
+      "nearest_frame": "P11_WEST_6_00_04_FRAME_1",
+      "nearest_distance": 0.00011811709555331618,
+      "signed_distance": -0.00011811261720140465,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_STRUT_07_4",
+      "endpoint": [
+        -18.71140480041504,
+        17.068078994750977,
+        8.99008560180664
+      ],
+      "nearest_frame": "P11_WEST_6_00_04_FRAME_1",
+      "nearest_distance": 0.0001568439183756709,
+      "signed_distance": -0.0001568404695717618,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_07_4_0",
+      "endpoint": [
+        -17.079442977905273,
+        17.046375274658203,
+        8.879425048828125
+      ],
+      "nearest_frame": "P11_WEST_5_00_04_FRAME_1",
+      "nearest_distance": 0.00024853419745340943,
+      "signed_distance": -0.000248532225668896,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_07_4_1",
+      "endpoint": [
+        -20.342670440673828,
+        17.08339500427246,
+        9.081355094909668
+      ],
+      "nearest_frame": "P11_WEST_7_00_04_FRAME_1",
+      "nearest_distance": 3.303624680484063e-06,
+      "signed_distance": -3.293231770840066e-06,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_07_4_2",
+      "endpoint": [
+        -20.131505966186523,
+        15.343144416809082,
+        7.471451282501221
+      ],
+      "nearest_frame": "P11_WEST_6_00_03_FRAME_1",
+      "nearest_distance": 0.00011986362369498238,
+      "signed_distance": -0.00011986333629465662,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_07_4_3",
+      "endpoint": [
+        -17.289810180664062,
+        18.765657424926758,
+        10.537864685058594
+      ],
+      "nearest_frame": "P11_WEST_6_00_05_FRAME_1",
+      "nearest_distance": 0.00011657083814498037,
+      "signed_distance": -0.00011656973947538063,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_STRUT_07_5",
+      "endpoint": [
+        -17.29077911376953,
+        18.779428482055664,
+        10.523391723632812
+      ],
+      "nearest_frame": "P11_WEST_6_00_04_FRAME_1",
+      "nearest_distance": 0.00015630079724360257,
+      "signed_distance": 0.00015630056441295892,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_07_5_0",
+      "endpoint": [
+        -15.662885665893555,
+        18.73222541809082,
+        10.38139820098877
+      ],
+      "nearest_frame": "P11_WEST_5_00_05_FRAME_1",
+      "nearest_distance": 0.0002457761438563466,
+      "signed_distance": -0.00024577371368650347,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_07_5_1",
+      "endpoint": [
+        -18.91746711730957,
+        18.809715270996094,
+        10.633810043334961
+      ],
+      "nearest_frame": "P11_WEST_7_00_05_FRAME_1",
+      "nearest_distance": 2.1324806311895372e-06,
+      "signed_distance": -1.7529304159324965e-06,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_07_5_2",
+      "endpoint": [
+        -18.710824966430664,
+        17.054471969604492,
+        9.00473403930664
+      ],
+      "nearest_frame": "P11_WEST_6_00_04_FRAME_1",
+      "nearest_distance": 0.00011811709555331618,
+      "signed_distance": -0.00011811261720140465,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_07_5_3",
+      "endpoint": [
+        -15.869128227233887,
+        20.476985931396484,
+        12.071147918701172
+      ],
+      "nearest_frame": "P11_WEST_6_00_05_FRAME_1",
+      "nearest_distance": 0.00011711182742146775,
+      "signed_distance": 0.0001171096482721623,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_STRUT_08_1",
+      "endpoint": [
+        -24.616670608520508,
+        11.91716194152832,
+        4.4084978103637695
+      ],
+      "nearest_frame": "P11_WEST_7_00_01_FRAME_1",
+      "nearest_distance": 0.00012013363448204473,
+      "signed_distance": -0.00012013351442874409,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_08_1_0",
+      "endpoint": [
+        -22.97105598449707,
+        11.91976261138916,
+        4.404181957244873
+      ],
+      "nearest_frame": "P11_WEST_6_00_01_FRAME_1",
+      "nearest_distance": 0.0002164651668863371,
+      "signed_distance": -0.00021646380264428444,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_08_1_1",
+      "endpoint": [
+        -26.26224136352539,
+        11.940557479858398,
+        4.429812908172607
+      ],
+      "nearest_frame": "P11_WEST_8_00_00_FRAME_1",
+      "nearest_distance": 1.0662403155947686e-06,
+      "signed_distance": 8.760360117321397e-07,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_08_1_2",
+      "endpoint": [
+        -26.042011260986328,
+        10.17752456665039,
+        2.8709750175476074
+      ],
+      "nearest_frame": "P11_WEST_7_00_00_FRAME_1",
+      "nearest_distance": 9.1429719759617e-05,
+      "signed_distance": -9.142947237705812e-05,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_08_1_3",
+      "endpoint": [
+        -23.191267013549805,
+        13.630025863647461,
+        5.97573709487915
+      ],
+      "nearest_frame": "P11_WEST_7_00_01_FRAME_1",
+      "nearest_distance": 9.082590258913115e-05,
+      "signed_distance": 9.082417636818718e-05,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_STRUT_08_2",
+      "endpoint": [
+        -23.191444396972656,
+        13.643479347229004,
+        5.960938930511475
+      ],
+      "nearest_frame": "P11_WEST_7_00_01_FRAME_1",
+      "nearest_distance": 0.00012101146421628073,
+      "signed_distance": 0.00012100999083486386,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_08_2_0",
+      "endpoint": [
+        -21.550315856933594,
+        13.63106918334961,
+        5.937435150146484
+      ],
+      "nearest_frame": "P11_WEST_6_00_02_FRAME_1",
+      "nearest_distance": 0.000215733380173333,
+      "signed_distance": -0.0002157307171728462,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_08_2_1",
+      "endpoint": [
+        -24.83245086669922,
+        13.671297073364258,
+        5.988696098327637
+      ],
+      "nearest_frame": "P11_WEST_8_00_02_FRAME_1",
+      "nearest_distance": 0.0,
+      "signed_distance": 0.0,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_08_2_2",
+      "endpoint": [
+        -24.616748809814453,
+        11.903824806213379,
+        4.423401355743408
+      ],
+      "nearest_frame": "P11_WEST_7_00_01_FRAME_1",
+      "nearest_distance": 9.055387636180967e-05,
+      "signed_distance": -9.055299597093835e-05,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_08_2_3",
+      "endpoint": [
+        -21.766006469726562,
+        15.35632610321045,
+        7.528163433074951
+      ],
+      "nearest_frame": "P11_WEST_7_00_02_FRAME_1",
+      "nearest_distance": 9.115949069382623e-05,
+      "signed_distance": 9.115827015193645e-05,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_STRUT_08_3",
+      "endpoint": [
+        -21.766220092773438,
+        15.369795799255371,
+        7.51338005065918
+      ],
+      "nearest_frame": "P11_WEST_7_00_03_FRAME_1",
+      "nearest_distance": 0.00011953024659305811,
+      "signed_distance": -0.00011952824570471421,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_08_3_0",
+      "endpoint": [
+        -20.12957763671875,
+        15.342374801635742,
+        7.470686435699463
+      ],
+      "nearest_frame": "P11_WEST_6_00_03_FRAME_1",
+      "nearest_distance": 0.0002115631359629333,
+      "signed_distance": -0.00021156177899683826,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_08_3_1",
+      "endpoint": [
+        -23.40266227722168,
+        15.4020357131958,
+        7.54757833480835
+      ],
+      "nearest_frame": "P11_WEST_8_00_02_FRAME_1",
+      "nearest_distance": 0.0,
+      "signed_distance": 0.0,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_08_3_2",
+      "endpoint": [
+        -23.191484451293945,
+        13.63012409210205,
+        5.975827217102051
+      ],
+      "nearest_frame": "P11_WEST_7_00_01_FRAME_1",
+      "nearest_distance": 9.115949069382623e-05,
+      "signed_distance": 9.115828470385168e-05,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_08_3_3",
+      "endpoint": [
+        -20.340742111206055,
+        17.082626342773438,
+        9.08059024810791
+      ],
+      "nearest_frame": "P11_WEST_7_00_03_FRAME_1",
+      "nearest_distance": 9.001493162941188e-05,
+      "signed_distance": 9.001060243463144e-05,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_STRUT_08_4",
+      "endpoint": [
+        -20.34099006652832,
+        17.096111297607422,
+        9.065821647644043
+      ],
+      "nearest_frame": "P11_WEST_7_00_04_FRAME_1",
+      "nearest_distance": 0.00011833250027848408,
+      "signed_distance": -0.0001183219937956892,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_08_4_0",
+      "endpoint": [
+        -18.708837509155273,
+        17.053680419921875,
+        9.003938674926758
+      ],
+      "nearest_frame": "P11_WEST_6_00_04_FRAME_1",
+      "nearest_distance": 0.00020987768948543817,
+      "signed_distance": -0.00020987658717785962,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_08_4_1",
+      "endpoint": [
+        -21.972869873046875,
+        17.132774353027344,
+        9.106461524963379
+      ],
+      "nearest_frame": "P11_WEST_8_00_03_FRAME_1",
+      "nearest_distance": 0.0,
+      "signed_distance": 0.0,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_08_4_2",
+      "endpoint": [
+        -21.766223907470703,
+        15.356423377990723,
+        7.528253078460693
+      ],
+      "nearest_frame": "P11_WEST_7_00_02_FRAME_1",
+      "nearest_distance": 8.929086470743641e-05,
+      "signed_distance": 8.928388706408441e-05,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_08_4_3",
+      "endpoint": [
+        -18.91547966003418,
+        18.808923721313477,
+        10.633014678955078
+      ],
+      "nearest_frame": "P11_WEST_7_00_05_FRAME_1",
+      "nearest_distance": 8.78053906490095e-05,
+      "signed_distance": -8.780219650361687e-05,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_STRUT_08_5",
+      "endpoint": [
+        -18.915761947631836,
+        18.822423934936523,
+        10.618261337280273
+      ],
+      "nearest_frame": "P11_WEST_7_00_05_FRAME_1",
+      "nearest_distance": 0.00011711182742146775,
+      "signed_distance": -0.00011711148908943869,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_08_5_0",
+      "endpoint": [
+        -17.288097381591797,
+        18.764984130859375,
+        10.537189483642578
+      ],
+      "nearest_frame": "P11_WEST_6_00_05_FRAME_1",
+      "nearest_distance": 0.00020712304103653878,
+      "signed_distance": -0.00020712292462121695,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_08_5_1",
+      "endpoint": [
+        -20.543079376220703,
+        18.86351203918457,
+        10.665343284606934
+      ],
+      "nearest_frame": "P11_WEST_8_00_05_FRAME_1",
+      "nearest_distance": 1.9073486328125e-06,
+      "signed_distance": 9.978924708775594e-07,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_08_5_2",
+      "endpoint": [
+        -20.340957641601562,
+        17.082721710205078,
+        9.080679893493652
+      ],
+      "nearest_frame": "P11_WEST_7_00_04_FRAME_1",
+      "nearest_distance": 8.78053906490095e-05,
+      "signed_distance": -8.780216739978641e-05,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_08_5_3",
+      "endpoint": [
+        -17.490215301513672,
+        20.53522300720215,
+        12.185441017150879
+      ],
+      "nearest_frame": "P11_WEST_7_00_05_FRAME_1",
+      "nearest_distance": 8.725989755475894e-05,
+      "signed_distance": 8.72597775014583e-05,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_STRUT_09_1",
+      "endpoint": [
+        -26.260087966918945,
+        11.952970504760742,
+        4.414125919342041
+      ],
+      "nearest_frame": "P11_WEST_8_00_00_FRAME_1",
+      "nearest_distance": 5.351634172257036e-05,
+      "signed_distance": 5.3510203542828094e-05,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_09_1_0",
+      "endpoint": [
+        -24.615001678466797,
+        11.903043746948242,
+        4.42273473739624
+      ],
+      "nearest_frame": "P11_WEST_7_00_01_FRAME_1",
+      "nearest_distance": 0.00012974528362974524,
+      "signed_distance": -0.00012974199489690363,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_09_1_1",
+      "endpoint": [
+        -27.904014587402344,
+        12.031951904296875,
+        4.42273473739624
+      ],
+      "nearest_frame": "P11_WEST_9_00_01_FRAME_1",
+      "nearest_distance": 3.303624680484063e-06,
+      "signed_distance": 3.2942006100711296e-06,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_09_1_2",
+      "endpoint": [
+        -27.690502166748047,
+        10.209135055541992,
+        2.8703534603118896
+      ],
+      "nearest_frame": "P11_WEST_8_00_00_FRAME_1",
+      "nearest_distance": 3.959830428357236e-05,
+      "signed_distance": -3.959622517868411e-05,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_09_1_3",
+      "endpoint": [
+        -24.830703735351562,
+        13.670516014099121,
+        5.988029479980469
+      ],
+      "nearest_frame": "P11_WEST_8_00_02_FRAME_1",
+      "nearest_distance": 3.9462414861191064e-05,
+      "signed_distance": -3.946036031265976e-05,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_STRUT_09_2",
+      "endpoint": [
+        -24.830217361450195,
+        13.683673858642578,
+        5.97297477722168
+      ],
+      "nearest_frame": "P11_WEST_8_00_02_FRAME_1",
+      "nearest_distance": 5.224577398621477e-05,
+      "signed_distance": -5.224057167652063e-05,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_09_2_0",
+      "endpoint": [
+        -23.18964958190918,
+        13.629304885864258,
+        5.975123882293701
+      ],
+      "nearest_frame": "P11_WEST_7_00_01_FRAME_1",
+      "nearest_distance": 0.00013116143236402422,
+      "signed_distance": 0.00013116084301145747,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_09_2_1",
+      "endpoint": [
+        -26.470048904418945,
+        13.756023406982422,
+        5.975123882293701
+      ],
+      "nearest_frame": "P11_WEST_9_00_01_FRAME_1",
+      "nearest_distance": 3.303624680484063e-06,
+      "signed_distance": -3.2942011785053182e-06,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_09_2_2",
+      "endpoint": [
+        -26.260623931884766,
+        11.939836502075195,
+        4.429199695587158
+      ],
+      "nearest_frame": "P11_WEST_8_00_00_FRAME_1",
+      "nearest_distance": 4.060961873619817e-05,
+      "signed_distance": 4.060813080286607e-05,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_09_2_3",
+      "endpoint": [
+        -23.400827407836914,
+        15.401216506958008,
+        7.546875
+      ],
+      "nearest_frame": "P11_WEST_8_00_02_FRAME_1",
+      "nearest_distance": 3.9462414861191064e-05,
+      "signed_distance": 3.946035576518625e-05,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_STRUT_09_3",
+      "endpoint": [
+        -23.400348663330078,
+        15.41437816619873,
+        7.531823635101318
+      ],
+      "nearest_frame": "P11_WEST_8_00_02_FRAME_1",
+      "nearest_distance": 5.4116291721584275e-05,
+      "signed_distance": 5.411450365500059e-05,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_09_3_0",
+      "endpoint": [
+        -21.76430320739746,
+        15.355566024780273,
+        7.52751350402832
+      ],
+      "nearest_frame": "P11_WEST_7_00_03_FRAME_1",
+      "nearest_distance": 0.00013001574552617967,
+      "signed_distance": -0.0001300131953030359,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_09_3_1",
+      "endpoint": [
+        -25.036083221435547,
+        15.480095863342285,
+        7.52751350402832
+      ],
+      "nearest_frame": "P11_WEST_9_00_02_FRAME_1",
+      "nearest_distance": 3.303624680484063e-06,
+      "signed_distance": -3.2942032248683972e-06,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_09_3_2",
+      "endpoint": [
+        -24.830747604370117,
+        13.670536994934082,
+        5.988046169281006
+      ],
+      "nearest_frame": "P11_WEST_8_00_02_FRAME_1",
+      "nearest_distance": 3.848226697300561e-05,
+      "signed_distance": -3.8462473639810923e-05,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_09_3_3",
+      "endpoint": [
+        -21.970949172973633,
+        17.13191795349121,
+        9.105722427368164
+      ],
+      "nearest_frame": "P11_WEST_8_00_03_FRAME_1",
+      "nearest_distance": 4.14930545957759e-05,
+      "signed_distance": 4.148417519900249e-05,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_STRUT_09_4",
+      "endpoint": [
+        -21.970478057861328,
+        17.145082473754883,
+        9.090673446655273
+      ],
+      "nearest_frame": "P11_WEST_8_00_04_FRAME_1",
+      "nearest_distance": 5.46597657375969e-05,
+      "signed_distance": -5.465796675707679e-05,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_09_4_0",
+      "endpoint": [
+        -20.338951110839844,
+        17.08182716369629,
+        9.079903602600098
+      ],
+      "nearest_frame": "P11_WEST_7_00_03_FRAME_1",
+      "nearest_distance": 0.00012874603271484375,
+      "signed_distance": 0.000128744104586076,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_09_4_1",
+      "endpoint": [
+        -23.602115631103516,
+        17.204166412353516,
+        9.079903602600098
+      ],
+      "nearest_frame": "P11_WEST_9_00_04_FRAME_1",
+      "nearest_distance": 3.303624680484063e-06,
+      "signed_distance": 3.29420458911045e-06,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_09_4_2",
+      "endpoint": [
+        -23.40087127685547,
+        15.401237487792969,
+        7.546892166137695
+      ],
+      "nearest_frame": "P11_WEST_8_00_02_FRAME_1",
+      "nearest_distance": 4.006850940641016e-05,
+      "signed_distance": 4.006467861472629e-05,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_09_4_3",
+      "endpoint": [
+        -20.541072845458984,
+        18.86261749267578,
+        10.664566993713379
+      ],
+      "nearest_frame": "P11_WEST_8_00_05_FRAME_1",
+      "nearest_distance": 3.919357914128341e-05,
+      "signed_distance": -3.9188632399600465e-05,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_STRUT_09_5",
+      "endpoint": [
+        -20.54060935974121,
+        18.87578582763672,
+        10.649521827697754
+      ],
+      "nearest_frame": "P11_WEST_8_00_05_FRAME_1",
+      "nearest_distance": 5.292677815305069e-05,
+      "signed_distance": -5.2905870688846335e-05,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_09_5_0",
+      "endpoint": [
+        -18.913602828979492,
+        18.808088302612305,
+        10.632291793823242
+      ],
+      "nearest_frame": "P11_WEST_7_00_05_FRAME_1",
+      "nearest_distance": 0.00012820448318962008,
+      "signed_distance": -0.00012820168922189623,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_09_5_1",
+      "endpoint": [
+        -22.16815185546875,
+        18.928239822387695,
+        10.632291793823242
+      ],
+      "nearest_frame": "P11_WEST_9_00_05_FRAME_1",
+      "nearest_distance": 2.6973982585332124e-06,
+      "signed_distance": 2.2913621933184913e-06,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_09_5_2",
+      "endpoint": [
+        -21.970993041992188,
+        17.131938934326172,
+        9.105738639831543
+      ],
+      "nearest_frame": "P11_WEST_8_00_03_FRAME_1",
+      "nearest_distance": 4.14930545957759e-05,
+      "signed_distance": 4.148417519900249e-05,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_09_5_3",
+      "endpoint": [
+        -19.111196517944336,
+        20.593320846557617,
+        12.223413467407227
+      ],
+      "nearest_frame": "P11_WEST_8_00_05_FRAME_1",
+      "nearest_distance": 3.973515777033754e-05,
+      "signed_distance": 3.973207003582502e-05,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_STRUT_10_1",
+      "endpoint": [
+        -27.9013614654541,
+        12.044020652770996,
+        4.406857013702393
+      ],
+      "nearest_frame": "P11_WEST_9_00_01_FRAME_1",
+      "nearest_distance": 2.1515872504096478e-05,
+      "signed_distance": 2.151356966351159e-05,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_10_1_0",
+      "endpoint": [
+        -26.25899887084961,
+        11.939020156860352,
+        4.428582668304443
+      ],
+      "nearest_frame": "P11_WEST_8_00_00_FRAME_1",
+      "nearest_distance": 2.212030994996894e-05,
+      "signed_distance": 2.2117081243777648e-05,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_10_1_1",
+      "endpoint": [
+        -29.541582107543945,
+        12.176213264465332,
+        4.402951717376709
+      ],
+      "nearest_frame": "P11_WEST_10_00_01_FRAME_1",
+      "nearest_distance": 3.303624680484063e-06,
+      "signed_distance": 3.2953848858596757e-06,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_10_1_2",
+      "endpoint": [
+        -29.33639907836914,
+        10.307084083557129,
+        2.8697445392608643
+      ],
+      "nearest_frame": "P11_WEST_9_00_00_FRAME_1",
+      "nearest_distance": 1.5959803931764327e-05,
+      "signed_distance": 1.5935097962938016e-05,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_10_1_3",
+      "endpoint": [
+        -26.46842384338379,
+        13.755207061767578,
+        5.974506855010986
+      ],
+      "nearest_frame": "P11_WEST_9_00_01_FRAME_1",
+      "nearest_distance": 1.5822086425032467e-05,
+      "signed_distance": -1.5799349966982845e-05,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_STRUT_10_2",
+      "endpoint": [
+        -26.467266082763672,
+        13.768026351928711,
+        5.959198951721191
+      ],
+      "nearest_frame": "P11_WEST_9_00_01_FRAME_1",
+      "nearest_distance": 2.2391046513803303e-05,
+      "signed_distance": -2.238775186924613e-05,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_10_2_0",
+      "endpoint": [
+        -24.829017639160156,
+        13.669668197631836,
+        5.987390995025635
+      ],
+      "nearest_frame": "P11_WEST_8_00_02_FRAME_1",
+      "nearest_distance": 1.938095192599576e-05,
+      "signed_distance": -1.936710168592981e-05,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_10_2_1",
+      "endpoint": [
+        -28.104270935058594,
+        13.883015632629395,
+        5.936130046844482
+      ],
+      "nearest_frame": "P11_WEST_10_00_01_FRAME_1",
+      "nearest_distance": 4.184229055681499e-06,
+      "signed_distance": -4.166314965914353e-06,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_10_2_2",
+      "endpoint": [
+        -27.902328491210938,
+        12.03110408782959,
+        4.422096252441406
+      ],
+      "nearest_frame": "P11_WEST_9_00_01_FRAME_1",
+      "nearest_distance": 1.5495374100282788e-05,
+      "signed_distance": 1.5468188848899445e-05,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_10_2_3",
+      "endpoint": [
+        -25.034353256225586,
+        15.479227066040039,
+        7.526858329772949
+      ],
+      "nearest_frame": "P11_WEST_9_00_02_FRAME_1",
+      "nearest_distance": 1.5822086425032467e-05,
+      "signed_distance": -1.579934178153053e-05,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_STRUT_10_3",
+      "endpoint": [
+        -25.033164978027344,
+        15.492032051086426,
+        7.511539936065674
+      ],
+      "nearest_frame": "P11_WEST_9_00_03_FRAME_1",
+      "nearest_distance": 2.1515872504096478e-05,
+      "signed_distance": 2.1513567389774835e-05,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_10_3_0",
+      "endpoint": [
+        -23.399036407470703,
+        15.400315284729004,
+        7.54619836807251
+      ],
+      "nearest_frame": "P11_WEST_8_00_03_FRAME_1",
+      "nearest_distance": 2.0004441466880962e-05,
+      "signed_distance": -1.9971420897491043e-05,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_10_3_1",
+      "endpoint": [
+        -26.66695785522461,
+        15.589816093444824,
+        7.469306468963623
+      ],
+      "nearest_frame": "P11_WEST_10_00_03_FRAME_1",
+      "nearest_distance": 5.4158290367922746e-06,
+      "signed_distance": 5.307833703227516e-06,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_10_3_2",
+      "endpoint": [
+        -26.468257904052734,
+        13.755122184753418,
+        5.974447250366211
+      ],
+      "nearest_frame": "P11_WEST_9_00_01_FRAME_1",
+      "nearest_distance": 1.6099875210784376e-05,
+      "signed_distance": -1.6070858691819012e-05,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_10_3_3",
+      "endpoint": [
+        -23.60028076171875,
+        17.203245162963867,
+        9.07921028137207
+      ],
+      "nearest_frame": "P11_WEST_9_00_04_FRAME_1",
+      "nearest_distance": 1.5495374100282788e-05,
+      "signed_distance": 1.5468187939404743e-05,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_STRUT_10_4",
+      "endpoint": [
+        -23.599063873291016,
+        17.216033935546875,
+        9.063881874084473
+      ],
+      "nearest_frame": "P11_WEST_9_00_03_FRAME_1",
+      "nearest_distance": 2.1515872504096478e-05,
+      "signed_distance": -2.1513571027753642e-05,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_10_4_0",
+      "endpoint": [
+        -21.969051361083984,
+        17.130962371826172,
+        9.105006217956543
+      ],
+      "nearest_frame": "P11_WEST_8_00_03_FRAME_1",
+      "nearest_distance": 2.0004441466880962e-05,
+      "signed_distance": 1.997140452658641e-05,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_10_4_1",
+      "endpoint": [
+        -25.229644775390625,
+        17.29661750793457,
+        9.002483367919922
+      ],
+      "nearest_frame": "P11_WEST_10_00_03_FRAME_1",
+      "nearest_distance": 5.7220458984375e-06,
+      "signed_distance": -5.578438617703796e-06,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_10_4_2",
+      "endpoint": [
+        -25.0341854095459,
+        15.479141235351562,
+        7.526798248291016
+      ],
+      "nearest_frame": "P11_WEST_9_00_02_FRAME_1",
+      "nearest_distance": 1.6099875210784376e-05,
+      "signed_distance": -1.6070850961114047e-05,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_10_4_3",
+      "endpoint": [
+        -22.166210174560547,
+        18.927263259887695,
+        10.631559371948242
+      ],
+      "nearest_frame": "P11_WEST_9_00_05_FRAME_1",
+      "nearest_distance": 1.5495374100282788e-05,
+      "signed_distance": 1.5468167475773953e-05,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_STRUT_10_5",
+      "endpoint": [
+        -22.164962768554688,
+        18.94003677368164,
+        10.616220474243164
+      ],
+      "nearest_frame": "P11_WEST_9_00_05_FRAME_1",
+      "nearest_distance": 2.1515872504096478e-05,
+      "signed_distance": 2.1513566480280133e-05,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_10_5_0",
+      "endpoint": [
+        -20.5390682220459,
+        18.861608505249023,
+        10.663812637329102
+      ],
+      "nearest_frame": "P11_WEST_8_00_05_FRAME_1",
+      "nearest_distance": 1.878520561149344e-05,
+      "signed_distance": -1.876277883638977e-05,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_10_5_1",
+      "endpoint": [
+        -23.79233169555664,
+        19.00341796875,
+        10.535658836364746
+      ],
+      "nearest_frame": "P11_WEST_10_00_04_FRAME_1",
+      "nearest_distance": 6.607249360968126e-06,
+      "signed_distance": -6.590769771719351e-06,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_10_5_2",
+      "endpoint": [
+        -23.60011100769043,
+        17.203157424926758,
+        9.07914924621582
+      ],
+      "nearest_frame": "P11_WEST_9_00_03_FRAME_1",
+      "nearest_distance": 1.768802394508384e-05,
+      "signed_distance": -1.7676350125839235e-05,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_10_5_3",
+      "endpoint": [
+        -20.732135772705078,
+        20.651281356811523,
+        12.183910369873047
+      ],
+      "nearest_frame": "P11_WEST_9_00_05_FRAME_1",
+      "nearest_distance": 1.5986493963282555e-05,
+      "signed_distance": -1.5928003904264187e-05,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_STRUT_11_1",
+      "endpoint": [
+        -29.538516998291016,
+        12.187926292419434,
+        4.3868913650512695
+      ],
+      "nearest_frame": "P11_WEST_10_00_00_FRAME_1",
+      "nearest_distance": 0.000115964598080609,
+      "signed_distance": -0.00011596266995184124,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_11_1_0",
+      "endpoint": [
+        -27.900897979736328,
+        12.030274391174316,
+        4.421532154083252
+      ],
+      "nearest_frame": "P11_WEST_9_00_01_FRAME_1",
+      "nearest_distance": 0.00010904568625846878,
+      "signed_distance": 0.00010904470400419086,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_11_1_1",
+      "endpoint": [
+        -31.17310905456543,
+        12.372203826904297,
+        4.371049880981445
+      ],
+      "nearest_frame": "P11_WEST_11_00_00_FRAME_1",
+      "nearest_distance": 4.473129138204968e-06,
+      "signed_distance": -4.432000537235581e-06,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_11_1_2",
+      "endpoint": [
+        -30.977298736572266,
+        10.468497276306152,
+        2.8691511154174805
+      ],
+      "nearest_frame": "P11_WEST_10_00_00_FRAME_1",
+      "nearest_distance": 8.652229735162109e-05,
+      "signed_distance": 8.652172073198017e-05,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_11_1_3",
+      "endpoint": [
+        -28.102840423583984,
+        13.882185935974121,
+        5.935565948486328
+      ],
+      "nearest_frame": "P11_WEST_10_00_01_FRAME_1",
+      "nearest_distance": 8.638652070658281e-05,
+      "signed_distance": -8.638643703307025e-05,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_STRUT_11_2",
+      "endpoint": [
+        -28.101022720336914,
+        13.894627571105957,
+        5.920010089874268
+      ],
+      "nearest_frame": "P11_WEST_10_00_01_FRAME_1",
+      "nearest_distance": 0.00011724862270057201,
+      "signed_distance": -0.00011724560317816213,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_11_2_0",
+      "endpoint": [
+        -26.466712951660156,
+        13.754227638244629,
+        5.973845958709717
+      ],
+      "nearest_frame": "P11_WEST_9_00_01_FRAME_1",
+      "nearest_distance": 0.00011206789349671453,
+      "signed_distance": -0.00011206739873159677,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_11_2_1",
+      "endpoint": [
+        -29.73366928100586,
+        14.051363945007324,
+        5.8728814125061035
+      ],
+      "nearest_frame": "P11_WEST_11_00_01_FRAME_1",
+      "nearest_distance": 6.3439056248171255e-06,
+      "signed_distance": -6.324706532723212e-06,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_11_2_2",
+      "endpoint": [
+        -29.539871215820312,
+        12.175233840942383,
+        4.4022908210754395
+      ],
+      "nearest_frame": "P11_WEST_10_00_00_FRAME_1",
+      "nearest_distance": 8.638652070658281e-05,
+      "signed_distance": -8.638644249003846e-05,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_11_2_3",
+      "endpoint": [
+        -26.66541290283203,
+        15.588921546936035,
+        7.468705177307129
+      ],
+      "nearest_frame": "P11_WEST_10_00_02_FRAME_1",
+      "nearest_distance": 8.941173291532323e-05,
+      "signed_distance": -8.941123451222666e-05,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_STRUT_11_3",
+      "endpoint": [
+        -26.66352081298828,
+        15.601323127746582,
+        7.453125953674316
+      ],
+      "nearest_frame": "P11_WEST_10_00_02_FRAME_1",
+      "nearest_distance": 0.0001192588679259643,
+      "signed_distance": -0.00011925804574275389,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_11_3_0",
+      "endpoint": [
+        -25.032520294189453,
+        15.478178977966309,
+        7.526159286499023
+      ],
+      "nearest_frame": "P11_WEST_9_00_02_FRAME_1",
+      "nearest_distance": 0.00011294197611277923,
+      "signed_distance": -0.00011294157593511045,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_11_3_1",
+      "endpoint": [
+        -28.294221878051758,
+        15.730521202087402,
+        7.374711990356445
+      ],
+      "nearest_frame": "P11_WEST_11_00_02_FRAME_1",
+      "nearest_distance": 5.560828867601231e-06,
+      "signed_distance": -5.458374516820186e-06,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_11_3_2",
+      "endpoint": [
+        -28.10243797302246,
+        13.881967544555664,
+        5.935431003570557
+      ],
+      "nearest_frame": "P11_WEST_10_00_01_FRAME_1",
+      "nearest_distance": 8.665851055411622e-05,
+      "signed_distance": -8.66570098878583e-05,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_11_3_3",
+      "endpoint": [
+        -25.22797966003418,
+        17.295654296875,
+        9.00184440612793
+      ],
+      "nearest_frame": "P11_WEST_10_00_04_FRAME_1",
+      "nearest_distance": 9.055387636180967e-05,
+      "signed_distance": 9.05527613213053e-05,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_STRUT_11_4",
+      "endpoint": [
+        -25.226011276245117,
+        17.308013916015625,
+        8.986241340637207
+      ],
+      "nearest_frame": "P11_WEST_10_00_03_FRAME_1",
+      "nearest_distance": 0.00011968137550866231,
+      "signed_distance": -0.00011967004684265703,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_11_4_0",
+      "endpoint": [
+        -23.59832000732422,
+        17.202123641967773,
+        9.078472137451172
+      ],
+      "nearest_frame": "P11_WEST_9_00_03_FRAME_1",
+      "nearest_distance": 0.00011381934018572792,
+      "signed_distance": -0.00011381575313862413,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_11_4_1",
+      "endpoint": [
+        -26.854766845703125,
+        17.4096736907959,
+        8.876542091369629
+      ],
+      "nearest_frame": "P11_WEST_11_00_03_FRAME_1",
+      "nearest_distance": 5.7220458984375e-06,
+      "signed_distance": -5.567338916989684e-06,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_11_4_2",
+      "endpoint": [
+        -26.664997100830078,
+        15.588695526123047,
+        7.468568325042725
+      ],
+      "nearest_frame": "P11_WEST_10_00_02_FRAME_1",
+      "nearest_distance": 8.78053906490095e-05,
+      "signed_distance": -8.779854215390515e-05,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_11_4_3",
+      "endpoint": [
+        -23.79054069519043,
+        19.002384185791016,
+        10.534981727600098
+      ],
+      "nearest_frame": "P11_WEST_10_00_04_FRAME_1",
+      "nearest_distance": 9.055387636180967e-05,
+      "signed_distance": -9.055275586433709e-05,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_STRUT_11_5",
+      "endpoint": [
+        -23.788496017456055,
+        19.014699935913086,
+        10.519353866577148
+      ],
+      "nearest_frame": "P11_WEST_10_00_04_FRAME_1",
+      "nearest_distance": 0.00012095132115064189,
+      "signed_distance": -0.00012094077828805894,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_11_5_0",
+      "endpoint": [
+        -22.16411781311035,
+        18.926067352294922,
+        10.630781173706055
+      ],
+      "nearest_frame": "P11_WEST_9_00_05_FRAME_1",
+      "nearest_distance": 0.00011482175614219159,
+      "signed_distance": 0.00011481858746265061,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_11_5_1",
+      "endpoint": [
+        -25.415307998657227,
+        19.088823318481445,
+        10.378369331359863
+      ],
+      "nearest_frame": "P11_WEST_11_00_04_FRAME_1",
+      "nearest_distance": 6.607249360968126e-06,
+      "signed_distance": -6.593632178919506e-06,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_11_5_2",
+      "endpoint": [
+        -25.22755241394043,
+        17.295421600341797,
+        9.001705169677734
+      ],
+      "nearest_frame": "P11_WEST_10_00_03_FRAME_1",
+      "nearest_distance": 8.936085941968486e-05,
+      "signed_distance": -8.935209552873857e-05,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_11_5_3",
+      "endpoint": [
+        -22.35309600830078,
+        20.709110260009766,
+        12.068119049072266
+      ],
+      "nearest_frame": "P11_WEST_10_00_05_FRAME_1",
+      "nearest_distance": 9.330912143923342e-05,
+      "signed_distance": -9.330693683295976e-05,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_STRUT_12_1",
+      "endpoint": [
+        -31.169654846191406,
+        12.383528709411621,
+        4.354796409606934
+      ],
+      "nearest_frame": "P11_WEST_11_00_00_FRAME_1",
+      "nearest_distance": 0.00021654969896189868,
+      "signed_distance": -0.00021654905867762864,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_12_1_0",
+      "endpoint": [
+        -29.538644790649414,
+        12.174397468566895,
+        4.401767730712891
+      ],
+      "nearest_frame": "P11_WEST_10_00_00_FRAME_1",
+      "nearest_distance": 0.00025888875825330615,
+      "signed_distance": -0.00025888875097734854,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_12_1_1",
+      "endpoint": [
+        -32.79678726196289,
+        12.618947982788086,
+        4.327967643737793
+      ],
+      "nearest_frame": "P11_WEST_12_00_00_FRAME_1",
+      "nearest_distance": 2.384185791015625e-06,
+      "signed_distance": -1.9870052483383915e-06,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_12_1_2",
+      "endpoint": [
+        -32.61092758178711,
+        10.691990852355957,
+        2.868560791015625
+      ],
+      "nearest_frame": "P11_WEST_11_00_00_FRAME_1",
+      "nearest_distance": 0.00016203502309508622,
+      "signed_distance": 0.00016203356790356338,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_12_1_3",
+      "endpoint": [
+        -29.73244285583496,
+        14.050527572631836,
+        5.872358322143555
+      ],
+      "nearest_frame": "P11_WEST_11_00_01_FRAME_1",
+      "nearest_distance": 0.000165794714121148,
+      "signed_distance": -0.0001657933389651589,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_STRUT_12_2",
+      "endpoint": [
+        -29.72999382019043,
+        14.062556266784668,
+        5.856562614440918
+      ],
+      "nearest_frame": "P11_WEST_11_00_01_FRAME_1",
+      "nearest_distance": 0.0002195771667174995,
+      "signed_distance": -0.00021957699209451675,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_12_2_0",
+      "endpoint": [
+        -28.10110092163086,
+        13.881060600280762,
+        5.934876441955566
+      ],
+      "nearest_frame": "P11_WEST_10_00_01_FRAME_1",
+      "nearest_distance": 0.00026272644754499197,
+      "signed_distance": -0.00026272526883985847,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_12_2_1",
+      "endpoint": [
+        -31.35680389404297,
+        14.260293960571289,
+        5.787275314331055
+      ],
+      "nearest_frame": "P11_WEST_12_00_01_FRAME_1",
+      "nearest_distance": 4.184229055681499e-06,
+      "signed_distance": -4.158484671279439e-06,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_12_2_2",
+      "endpoint": [
+        -31.171369552612305,
+        12.371078491210938,
+        4.370360374450684
+      ],
+      "nearest_frame": "P11_WEST_12_00_00_FRAME_2",
+      "nearest_distance": 3.09025781461969e-05,
+      "signed_distance": -3.090014055295853e-05,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_12_2_3",
+      "endpoint": [
+        -28.292884826660156,
+        15.7296142578125,
+        7.374157428741455
+      ],
+      "nearest_frame": "P11_WEST_11_00_02_FRAME_1",
+      "nearest_distance": 0.00016633143241051584,
+      "signed_distance": -0.0001663311522861477,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_STRUT_12_3",
+      "endpoint": [
+        -28.290315628051758,
+        15.741571426391602,
+        7.358325958251953
+      ],
+      "nearest_frame": "P11_WEST_11_00_02_FRAME_1",
+      "nearest_distance": 0.00022287432511802763,
+      "signed_distance": -0.0002228738012490794,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_12_3_0",
+      "endpoint": [
+        -26.663545608520508,
+        15.587715148925781,
+        7.467981338500977
+      ],
+      "nearest_frame": "P11_WEST_10_00_02_FRAME_1",
+      "nearest_distance": 0.0002687754749786109,
+      "signed_distance": -0.0002687748710741289,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_12_3_1",
+      "endpoint": [
+        -29.916807174682617,
+        15.901631355285645,
+        7.246580123901367
+      ],
+      "nearest_frame": "P11_WEST_12_00_02_FRAME_1",
+      "nearest_distance": 6.397441666194936e-06,
+      "signed_distance": -6.145541419755318e-06,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_12_3_2",
+      "endpoint": [
+        -29.731801986694336,
+        14.05015754699707,
+        5.872157573699951
+      ],
+      "nearest_frame": "P11_WEST_12_00_01_FRAME_2",
+      "nearest_distance": 5.779770071967505e-05,
+      "signed_distance": -5.779561972474312e-05,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_12_3_3",
+      "endpoint": [
+        -26.853315353393555,
+        17.408693313598633,
+        8.875955581665039
+      ],
+      "nearest_frame": "P11_WEST_11_00_03_FRAME_1",
+      "nearest_distance": 0.00017049445887096226,
+      "signed_distance": -0.00017049429879989475,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_STRUT_12_4",
+      "endpoint": [
+        -26.85062026977539,
+        17.420576095581055,
+        8.860088348388672
+      ],
+      "nearest_frame": "P11_WEST_11_00_03_FRAME_1",
+      "nearest_distance": 0.00022581146913580596,
+      "signed_distance": -0.00022580121003556997,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_12_4_0",
+      "endpoint": [
+        -25.225976943969727,
+        17.294361114501953,
+        9.001086235046387
+      ],
+      "nearest_frame": "P11_WEST_10_00_03_FRAME_1",
+      "nearest_distance": 0.0002726708189584315,
+      "signed_distance": -0.0002726706225075759,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_12_4_1",
+      "endpoint": [
+        -28.476797103881836,
+        17.542959213256836,
+        8.70588493347168
+      ],
+      "nearest_frame": "P11_WEST_12_00_03_FRAME_1",
+      "nearest_distance": 6.607249360968126e-06,
+      "signed_distance": -6.596488901777775e-06,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_12_4_2",
+      "endpoint": [
+        -28.292219161987305,
+        15.729227066040039,
+        7.373953342437744
+      ],
+      "nearest_frame": "P11_WEST_12_00_02_FRAME_2",
+      "nearest_distance": 8.648122457088903e-05,
+      "signed_distance": -8.648103784025807e-05,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_12_4_3",
+      "endpoint": [
+        -25.413732528686523,
+        19.0877628326416,
+        10.377750396728516
+      ],
+      "nearest_frame": "P11_WEST_11_00_04_FRAME_1",
+      "nearest_distance": 0.00017103504796978086,
+      "signed_distance": -0.00017103221398429014,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_STRUT_12_5",
+      "endpoint": [
+        -25.41090965270996,
+        19.099567413330078,
+        10.361845970153809
+      ],
+      "nearest_frame": "P11_WEST_11_00_04_FRAME_1",
+      "nearest_distance": 0.00023066304856911302,
+      "signed_distance": -0.00023066216090228409,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_12_5_0",
+      "endpoint": [
+        -23.78839874267578,
+        19.00099754333496,
+        10.534187316894531
+      ],
+      "nearest_frame": "P11_WEST_10_00_04_FRAME_1",
+      "nearest_distance": 0.0002765079843811691,
+      "signed_distance": -0.0002765071694739163,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_12_5_1",
+      "endpoint": [
+        -27.036775588989258,
+        19.18427848815918,
+        10.165185928344727
+      ],
+      "nearest_frame": "P11_WEST_12_00_04_FRAME_1",
+      "nearest_distance": 7.864199687901419e-06,
+      "signed_distance": -7.783829232721473e-06,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_12_5_2",
+      "endpoint": [
+        -26.852624893188477,
+        17.408287048339844,
+        8.875747680664062
+      ],
+      "nearest_frame": "P11_WEST_12_00_03_FRAME_2",
+      "nearest_distance": 0.00011928555613849312,
+      "signed_distance": -0.0001192835036363249,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_12_5_3",
+      "endpoint": [
+        -23.974136352539062,
+        20.766822814941406,
+        11.879544258117676
+      ],
+      "nearest_frame": "P11_WEST_11_00_05_FRAME_1",
+      "nearest_distance": 0.00017655084957368672,
+      "signed_distance": -0.0001765499728207942,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_STRUT_13_1",
+      "endpoint": [
+        -32.792991638183594,
+        12.629868507385254,
+        4.311520576477051
+      ],
+      "nearest_frame": "P11_WEST_13_00_00_FRAME_2",
+      "nearest_distance": 0.0003023974713869393,
+      "signed_distance": -0.0003023974156803888,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_13_1_0",
+      "endpoint": [
+        -31.170358657836914,
+        12.370246887207031,
+        4.369871616363525
+      ],
+      "nearest_frame": "P11_WEST_11_00_00_FRAME_1",
+      "nearest_distance": 0.0004152101755607873,
+      "signed_distance": -0.00041520999366184697,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_13_1_1",
+      "endpoint": [
+        -34.41096496582031,
+        12.915200233459473,
+        4.27499532699585
+      ],
+      "nearest_frame": "P11_WEST_13_00_00_FRAME_1",
+      "nearest_distance": 4.886127044301247e-06,
+      "signed_distance": -4.630191142496187e-06,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_13_1_2",
+      "endpoint": [
+        -34.23513412475586,
+        10.976408004760742,
+        2.8679730892181396
+      ],
+      "nearest_frame": "P11_WEST_13_00_00_FRAME_0",
+      "nearest_distance": 0.0002339924976695329,
+      "signed_distance": -0.0002339923466934124,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_13_1_3",
+      "endpoint": [
+        -31.355792999267578,
+        14.259462356567383,
+        5.7867865562438965
+      ],
+      "nearest_frame": "P11_WEST_12_00_01_FRAME_1",
+      "nearest_distance": 0.00024131964892148972,
+      "signed_distance": -0.00024131858663167804,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_STRUT_13_2",
+      "endpoint": [
+        -31.352764129638672,
+        14.2710542678833,
+        5.770761489868164
+      ],
+      "nearest_frame": "P11_WEST_12_00_01_FRAME_1",
+      "nearest_distance": 0.000322319712722674,
+      "signed_distance": -0.0003223181702196598,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_13_2_0",
+      "endpoint": [
+        -29.730697631835938,
+        14.049259185791016,
+        5.871645927429199
+      ],
+      "nearest_frame": "P11_WEST_11_00_01_FRAME_1",
+      "nearest_distance": 0.00042180364835076034,
+      "signed_distance": -0.00042180364835076034,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_13_2_1",
+      "endpoint": [
+        -32.97236633300781,
+        14.508814811706543,
+        5.681893825531006
+      ],
+      "nearest_frame": "P11_WEST_13_00_01_FRAME_1",
+      "nearest_distance": 4.76837158203125e-07,
+      "signed_distance": -2.6337221470384975e-07,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_13_2_2",
+      "endpoint": [
+        -32.7950439453125,
+        12.617679595947266,
+        4.3272552490234375
+      ],
+      "nearest_frame": "P11_WEST_13_00_00_FRAME_2",
+      "nearest_distance": 0.00022868753876537085,
+      "signed_distance": 0.00022868712635215616,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_13_2_3",
+      "endpoint": [
+        -29.91570281982422,
+        15.90073299407959,
+        7.246068477630615
+      ],
+      "nearest_frame": "P11_WEST_12_00_02_FRAME_1",
+      "nearest_distance": 0.0002467884623911232,
+      "signed_distance": -0.0002467882659402676,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_STRUT_13_3",
+      "endpoint": [
+        -29.91250991821289,
+        15.912220001220703,
+        7.229998588562012
+      ],
+      "nearest_frame": "P11_WEST_12_00_02_FRAME_1",
+      "nearest_distance": 0.00032787019154056907,
+      "signed_distance": -0.00032786991505417973,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_13_3_0",
+      "endpoint": [
+        -28.291017532348633,
+        15.728257179260254,
+        7.373417377471924
+      ],
+      "nearest_frame": "P11_WEST_11_00_02_FRAME_1",
+      "nearest_distance": 0.0004292636294849217,
+      "signed_distance": -0.0004292635712772608,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_13_3_1",
+      "endpoint": [
+        -31.53375244140625,
+        16.102413177490234,
+        7.088788986206055
+      ],
+      "nearest_frame": "P11_WEST_13_00_02_FRAME_1",
+      "nearest_distance": 5.8981499932997394e-06,
+      "signed_distance": -5.808466653434152e-06,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_13_3_2",
+      "endpoint": [
+        -31.354936599731445,
+        14.258936882019043,
+        5.786535263061523
+      ],
+      "nearest_frame": "P11_WEST_13_00_01_FRAME_2",
+      "nearest_distance": 0.00021833571372553706,
+      "signed_distance": 0.00021833530553294622,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_13_3_3",
+      "endpoint": [
+        -28.475595474243164,
+        17.541988372802734,
+        8.70534896850586
+      ],
+      "nearest_frame": "P11_WEST_12_00_03_FRAME_1",
+      "nearest_distance": 0.00025148087297566235,
+      "signed_distance": -0.00025147985434159636,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_STRUT_13_4",
+      "endpoint": [
+        -28.472230911254883,
+        17.553363800048828,
+        8.689233779907227
+      ],
+      "nearest_frame": "P11_WEST_12_00_03_FRAME_1",
+      "nearest_distance": 0.0003374983207322657,
+      "signed_distance": -0.00033749808790162206,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_13_4_0",
+      "endpoint": [
+        -26.851318359375,
+        17.407238006591797,
+        8.875187873840332
+      ],
+      "nearest_frame": "P11_WEST_11_00_03_FRAME_1",
+      "nearest_distance": 0.00044137710938230157,
+      "signed_distance": -0.0004413750721141696,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_13_4_1",
+      "endpoint": [
+        -30.095117568969727,
+        17.69599723815918,
+        8.495682716369629
+      ],
+      "nearest_frame": "P11_WEST_13_00_03_FRAME_1",
+      "nearest_distance": 4.672031082009198e-06,
+      "signed_distance": -4.4777475523005705e-06,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_13_4_2",
+      "endpoint": [
+        -29.914810180664062,
+        15.900176048278809,
+        7.245812892913818
+      ],
+      "nearest_frame": "P11_WEST_13_00_02_FRAME_2",
+      "nearest_distance": 0.00020831235451623797,
+      "signed_distance": 0.00020831231802276307,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_13_4_3",
+      "endpoint": [
+        -27.03546905517578,
+        19.183229446411133,
+        10.164626121520996
+      ],
+      "nearest_frame": "P11_WEST_12_00_04_FRAME_1",
+      "nearest_distance": 0.00025754328817129135,
+      "signed_distance": -0.0002575432590674609,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_STRUT_13_5",
+      "endpoint": [
+        -27.03192138671875,
+        19.194486618041992,
+        10.148465156555176
+      ],
+      "nearest_frame": "P11_WEST_12_00_04_FRAME_1",
+      "nearest_distance": 0.00034251780016347766,
+      "signed_distance": -0.00034251693432452157,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_13_5_0",
+      "endpoint": [
+        -25.411596298217773,
+        19.08620262145996,
+        10.376955032348633
+      ],
+      "nearest_frame": "P11_WEST_11_00_04_FRAME_1",
+      "nearest_distance": 0.0004474806191865355,
+      "signed_distance": -0.00044748026994057,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_13_5_1",
+      "endpoint": [
+        -28.656461715698242,
+        19.28956413269043,
+        9.902573585510254
+      ],
+      "nearest_frame": "P11_WEST_13_00_04_FRAME_1",
+      "nearest_distance": 4.672031082009198e-06,
+      "signed_distance": -4.477654215406801e-06,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_13_5_2",
+      "endpoint": [
+        -28.474660873413086,
+        17.541399002075195,
+        8.705089569091797
+      ],
+      "nearest_frame": "P11_WEST_13_00_03_FRAME_2",
+      "nearest_distance": 0.0001987581781577319,
+      "signed_distance": 0.00019875590226092754,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_13_5_3",
+      "endpoint": [
+        -25.595317840576172,
+        20.824453353881836,
+        11.623902320861816
+      ],
+      "nearest_frame": "P11_WEST_12_00_05_FRAME_1",
+      "nearest_distance": 0.0002630983362905681,
+      "signed_distance": -0.00026309532404411584,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_STRUT_14_1",
+      "endpoint": [
+        -34.406837463378906,
+        12.925684928894043,
+        4.25834846496582
+      ],
+      "nearest_frame": "P11_WEST_14_00_00_FRAME_2",
+      "nearest_distance": 0.00020284867787268013,
+      "signed_distance": -0.00020284861037112023,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_14_1_0",
+      "endpoint": [
+        -32.794219970703125,
+        12.616849899291992,
+        4.326788902282715
+      ],
+      "nearest_frame": "P11_WEST_12_00_00_FRAME_1",
+      "nearest_distance": 0.000562777160666883,
+      "signed_distance": -0.0005627764767268673,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_14_1_1",
+      "endpoint": [
+        -36.01325988769531,
+        13.262612342834473,
+        4.213719844818115
+      ],
+      "nearest_frame": "P11_WEST_14_00_00_FRAME_1",
+      "nearest_distance": 4.672031082009198e-06,
+      "signed_distance": -4.3942617367065395e-06,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_14_1_2",
+      "endpoint": [
+        -35.847900390625,
+        11.320244789123535,
+        2.867382049560547
+      ],
+      "nearest_frame": "P11_WEST_14_00_00_FRAME_0",
+      "nearest_distance": 0.00015751802129670978,
+      "signed_distance": -0.00015751769569760654,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_14_1_3",
+      "endpoint": [
+        -32.97154235839844,
+        14.50798511505127,
+        5.681427478790283
+      ],
+      "nearest_frame": "P11_WEST_13_00_01_FRAME_1",
+      "nearest_distance": 0.0003111920668743551,
+      "signed_distance": -0.00031118789775064215,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_STRUT_14_2",
+      "endpoint": [
+        -32.96799850463867,
+        14.519125938415527,
+        5.66518497467041
+      ],
+      "nearest_frame": "P11_WEST_14_00_01_FRAME_2",
+      "nearest_distance": 0.00019014804274775088,
+      "signed_distance": -0.00019014768645320146,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_14_2_0",
+      "endpoint": [
+        -31.354055404663086,
+        14.258054733276367,
+        5.786056041717529
+      ],
+      "nearest_frame": "P11_WEST_12_00_01_FRAME_1",
+      "nearest_distance": 0.0005746582173742354,
+      "signed_distance": -0.0005746582173742354,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_14_2_1",
+      "endpoint": [
+        -34.57847595214844,
+        14.798256874084473,
+        5.55991792678833
+      ],
+      "nearest_frame": "P11_WEST_14_00_01_FRAME_1",
+      "nearest_distance": 5.1356932999624405e-06,
+      "signed_distance": -4.97779456054559e-06,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_14_2_2",
+      "endpoint": [
+        -34.40922927856445,
+        12.913792610168457,
+        4.274264812469482
+      ],
+      "nearest_frame": "P11_WEST_13_00_00_FRAME_1",
+      "nearest_distance": 0.0003059689770452678,
+      "signed_distance": -0.0003059685695916414,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_14_2_3",
+      "endpoint": [
+        -31.53287124633789,
+        16.101531982421875,
+        7.0883097648620605
+      ],
+      "nearest_frame": "P11_WEST_13_00_02_FRAME_1",
+      "nearest_distance": 0.0003194314194843173,
+      "signed_distance": -0.0003194293749402277,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_STRUT_14_3",
+      "endpoint": [
+        -31.52912712097168,
+        16.11253547668457,
+        7.072017192840576
+      ],
+      "nearest_frame": "P11_WEST_14_00_02_FRAME_2",
+      "nearest_distance": 0.00018195009033661336,
+      "signed_distance": -0.00018194991798736737,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_14_3_0",
+      "endpoint": [
+        -29.913864135742188,
+        15.899236679077148,
+        7.2453203201293945
+      ],
+      "nearest_frame": "P11_WEST_12_00_02_FRAME_1",
+      "nearest_distance": 0.0005893053603358567,
+      "signed_distance": -0.0005893051129532978,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_14_3_1",
+      "endpoint": [
+        -33.14365768432617,
+        16.333877563476562,
+        6.906113624572754
+      ],
+      "nearest_frame": "P11_WEST_14_00_02_FRAME_1",
+      "nearest_distance": 5.8981499932997394e-06,
+      "signed_distance": -5.820778369525215e-06,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_14_3_2",
+      "endpoint": [
+        -32.97052764892578,
+        14.507318496704102,
+        5.681145668029785
+      ],
+      "nearest_frame": "P11_WEST_13_00_01_FRAME_1",
+      "nearest_distance": 0.0003084664640482515,
+      "signed_distance": -0.000308463851979468,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_14_3_3",
+      "endpoint": [
+        -30.09417152404785,
+        17.695056915283203,
+        8.495189666748047
+      ],
+      "nearest_frame": "P11_WEST_13_00_03_FRAME_1",
+      "nearest_distance": 0.00032747015939094126,
+      "signed_distance": -0.00032747000659583136,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_STRUT_14_4",
+      "endpoint": [
+        -30.0902156829834,
+        17.705915451049805,
+        8.47884750366211
+      ],
+      "nearest_frame": "P11_WEST_14_00_03_FRAME_2",
+      "nearest_distance": 0.00016838766168802977,
+      "signed_distance": -0.000168386273003307,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_14_4_0",
+      "endpoint": [
+        -28.473644256591797,
+        17.540393829345703,
+        8.704583168029785
+      ],
+      "nearest_frame": "P11_WEST_12_00_03_FRAME_1",
+      "nearest_distance": 0.0006061235908418894,
+      "signed_distance": -0.0006061234016669914,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_14_4_1",
+      "endpoint": [
+        -31.708816528320312,
+        17.869476318359375,
+        8.252306938171387
+      ],
+      "nearest_frame": "P11_WEST_14_00_03_FRAME_1",
+      "nearest_distance": 2.1324806311895372e-06,
+      "signed_distance": -1.6864087797330285e-06,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_14_4_2",
+      "endpoint": [
+        -31.531801223754883,
+        16.100818634033203,
+        7.0880231857299805
+      ],
+      "nearest_frame": "P11_WEST_13_00_02_FRAME_1",
+      "nearest_distance": 0.00032060802914202213,
+      "signed_distance": -0.0003206078035873361,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_14_4_3",
+      "endpoint": [
+        -28.655445098876953,
+        19.288558959960938,
+        9.902067184448242
+      ],
+      "nearest_frame": "P11_WEST_13_00_04_FRAME_1",
+      "nearest_distance": 0.00033577598514966667,
+      "signed_distance": -0.0003357742098160088,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_STRUT_14_5",
+      "endpoint": [
+        -28.65126609802246,
+        19.299259185791016,
+        9.885674476623535
+      ],
+      "nearest_frame": "P11_WEST_14_00_04_FRAME_2",
+      "nearest_distance": 0.00016111451259348541,
+      "signed_distance": -0.0001611105598726681,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_14_5_0",
+      "endpoint": [
+        -27.03339385986328,
+        19.181528091430664,
+        10.163843154907227
+      ],
+      "nearest_frame": "P11_WEST_12_00_04_FRAME_1",
+      "nearest_distance": 0.0006177395698614419,
+      "signed_distance": -0.0006177387695061043,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_14_5_1",
+      "endpoint": [
+        -30.27394676208496,
+        19.40505027770996,
+        9.598498344421387
+      ],
+      "nearest_frame": "P11_WEST_14_00_04_FRAME_1",
+      "nearest_distance": 3.303624680484063e-06,
+      "signed_distance": -3.299900981801329e-06,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_14_5_2",
+      "endpoint": [
+        -30.093042373657227,
+        17.69429588317871,
+        8.49489974975586
+      ],
+      "nearest_frame": "P11_WEST_13_00_03_FRAME_1",
+      "nearest_distance": 0.0003269434382673353,
+      "signed_distance": -0.00032694305264158174,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_14_5_3",
+      "endpoint": [
+        -27.216686248779297,
+        20.882036209106445,
+        11.308944702148438
+      ],
+      "nearest_frame": "P11_WEST_13_00_05_FRAME_1",
+      "nearest_distance": 0.00034514578874222934,
+      "signed_distance": -0.00034514522121753544,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_STRUT_15_1",
+      "endpoint": [
+        -36.00888442993164,
+        13.272696495056152,
+        4.1968994140625
+      ],
+      "nearest_frame": "P11_WEST_15_00_00_FRAME_2",
+      "nearest_distance": 5.0914510211441666e-05,
+      "signed_distance": -5.091070991625202e-05,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_15_1_0",
+      "endpoint": [
+        -34.40860366821289,
+        12.913000106811523,
+        4.273831367492676
+      ],
+      "nearest_frame": "P11_WEST_13_00_00_FRAME_1",
+      "nearest_distance": 0.0006855036481283605,
+      "signed_distance": -0.0006855007086414844,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_15_1_1",
+      "endpoint": [
+        -37.60285568237305,
+        13.656825065612793,
+        4.146005630493164
+      ],
+      "nearest_frame": "P11_WEST_15_00_00_FRAME_1",
+      "nearest_distance": 0.0,
+      "signed_distance": 0.0,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_15_1_2",
+      "endpoint": [
+        -37.446434020996094,
+        11.725530624389648,
+        2.8668088912963867
+      ],
+      "nearest_frame": "P11_WEST_15_00_00_FRAME_0",
+      "nearest_distance": 3.563221252989024e-05,
+      "signed_distance": -3.5629114563562325e-05,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_15_1_3",
+      "endpoint": [
+        -34.577850341796875,
+        14.797464370727539,
+        5.559484481811523
+      ],
+      "nearest_frame": "P11_WEST_14_00_01_FRAME_1",
+      "nearest_distance": 0.000366024614777416,
+      "signed_distance": -0.00036602453474188223,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_STRUT_15_2",
+      "endpoint": [
+        -34.57387161254883,
+        14.808162689208984,
+        5.5430426597595215
+      ],
+      "nearest_frame": "P11_WEST_15_00_01_FRAME_2",
+      "nearest_distance": 7.747687050141394e-06,
+      "signed_distance": -7.71809707345028e-06,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_15_2_0",
+      "endpoint": [
+        -32.96988296508789,
+        14.506494522094727,
+        5.680707931518555
+      ],
+      "nearest_frame": "P11_WEST_13_00_01_FRAME_1",
+      "nearest_distance": 0.000698598159942776,
+      "signed_distance": -0.0006985943036852404,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_15_2_1",
+      "endpoint": [
+        -36.17447280883789,
+        15.12514591217041,
+        5.425055980682373
+      ],
+      "nearest_frame": "P11_WEST_15_00_01_FRAME_1",
+      "nearest_distance": 0.0,
+      "signed_distance": 0.0,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_15_2_2",
+      "endpoint": [
+        -36.011600494384766,
+        13.26112174987793,
+        4.213000297546387
+      ],
+      "nearest_frame": "P11_WEST_14_00_00_FRAME_1",
+      "nearest_distance": 0.0003536052245181054,
+      "signed_distance": -0.00035360382025828585,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_15_2_3",
+      "endpoint": [
+        -33.14301300048828,
+        16.333053588867188,
+        6.905675888061523
+      ],
+      "nearest_frame": "P11_WEST_14_00_02_FRAME_1",
+      "nearest_distance": 0.00037760325358249247,
+      "signed_distance": -0.00037760186387458816,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_STRUT_15_3",
+      "endpoint": [
+        -33.13881301879883,
+        16.34358787536621,
+        6.889182090759277
+      ],
+      "nearest_frame": "P11_WEST_15_00_02_FRAME_2",
+      "nearest_distance": 3.0935672839405015e-05,
+      "signed_distance": 3.0920344642026976e-05,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_15_3_0",
+      "endpoint": [
+        -31.5311336517334,
+        16.099958419799805,
+        7.087581157684326
+      ],
+      "nearest_frame": "P11_WEST_13_00_02_FRAME_1",
+      "nearest_distance": 0.0007227574242278934,
+      "signed_distance": -0.0007227572787087411,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_15_3_1",
+      "endpoint": [
+        -34.746055603027344,
+        16.59343910217285,
+        6.704102993011475
+      ],
+      "nearest_frame": "P11_WEST_15_00_02_FRAME_1",
+      "nearest_distance": 0.0,
+      "signed_distance": 0.0,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_15_3_2",
+      "endpoint": [
+        -34.57673645019531,
+        14.796684265136719,
+        5.559189319610596
+      ],
+      "nearest_frame": "P11_WEST_14_00_01_FRAME_1",
+      "nearest_distance": 0.0003630033752415329,
+      "signed_distance": -0.000362992643204052,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_15_3_3",
+      "endpoint": [
+        -31.708148956298828,
+        17.868616104125977,
+        8.25186538696289
+      ],
+      "nearest_frame": "P11_WEST_14_00_03_FRAME_1",
+      "nearest_distance": 0.0003858882701024413,
+      "signed_distance": -0.00038588782626902685,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_STRUT_15_4",
+      "endpoint": [
+        -31.70370864868164,
+        17.87897300720215,
+        8.235318183898926
+      ],
+      "nearest_frame": "P11_WEST_15_00_03_FRAME_2",
+      "nearest_distance": 6.5941596403718e-05,
+      "signed_distance": 6.591985379600374e-05,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_15_4_0",
+      "endpoint": [
+        -30.09234619140625,
+        17.69339370727539,
+        8.494452476501465
+      ],
+      "nearest_frame": "P11_WEST_13_00_03_FRAME_1",
+      "nearest_distance": 0.0007409601239487529,
+      "signed_distance": -0.0007409595418721437,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_15_4_1",
+      "endpoint": [
+        -33.31760787963867,
+        18.06170082092285,
+        7.98314905166626
+      ],
+      "nearest_frame": "P11_WEST_15_00_03_FRAME_1",
+      "nearest_distance": 4.76837158203125e-07,
+      "signed_distance": -2.5541368131598574e-07,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_15_4_2",
+      "endpoint": [
+        -33.1418342590332,
+        16.33221435546875,
+        6.905376434326172
+      ],
+      "nearest_frame": "P11_WEST_14_00_02_FRAME_1",
+      "nearest_distance": 0.00037568018888123333,
+      "signed_distance": -0.00037567305844277143,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_15_4_3",
+      "endpoint": [
+        -30.273250579833984,
+        19.40414810180664,
+        9.598051071166992
+      ],
+      "nearest_frame": "P11_WEST_14_00_04_FRAME_1",
+      "nearest_distance": 0.0003990873519796878,
+      "signed_distance": -0.0003990873519796878,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_STRUT_15_5",
+      "endpoint": [
+        -30.2685546875,
+        19.414310455322266,
+        9.581452369689941
+      ],
+      "nearest_frame": "P11_WEST_15_00_04_FRAME_2",
+      "nearest_distance": 9.924171899911016e-05,
+      "signed_distance": 9.923328570948797e-05,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_15_5_0",
+      "endpoint": [
+        -28.653520584106445,
+        19.28679084777832,
+        9.901322364807129
+      ],
+      "nearest_frame": "P11_WEST_13_00_04_FRAME_1",
+      "nearest_distance": 0.0007630014442838728,
+      "signed_distance": -0.000763001327868551,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_15_5_1",
+      "endpoint": [
+        -31.889118194580078,
+        19.529924392700195,
+        9.262192726135254
+      ],
+      "nearest_frame": "P11_WEST_15_00_04_FRAME_1",
+      "nearest_distance": 9.5367431640625e-07,
+      "signed_distance": 5.110317147227761e-07,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_15_5_2",
+      "endpoint": [
+        -31.706892013549805,
+        17.867708206176758,
+        8.251562118530273
+      ],
+      "nearest_frame": "P11_WEST_14_00_03_FRAME_1",
+      "nearest_distance": 0.0003847221960313618,
+      "signed_distance": -0.0003847208645311184,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_15_5_3",
+      "endpoint": [
+        -28.838308334350586,
+        20.93964195251465,
+        10.94423770904541
+      ],
+      "nearest_frame": "P11_WEST_14_00_05_FRAME_1",
+      "nearest_distance": 0.0004117675998713821,
+      "signed_distance": -0.0004117672360735014,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_STRUT_16_1",
+      "endpoint": [
+        -37.59832763671875,
+        13.666557312011719,
+        4.129034996032715
+      ],
+      "nearest_frame": "P11_WEST_16_00_00_FRAME_2",
+      "nearest_distance": 3.173386357957497e-05,
+      "signed_distance": 3.173155435121089e-05,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_16_1_0",
+      "endpoint": [
+        -36.01118850708008,
+        13.260396957397461,
+        4.21260404586792
+      ],
+      "nearest_frame": "P11_WEST_14_00_00_FRAME_1",
+      "nearest_distance": 0.0007781165768392384,
+      "signed_distance": -0.0007781161839375272,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_16_1_1",
+      "endpoint": [
+        -39.178775787353516,
+        14.095621109008789,
+        4.073904514312744
+      ],
+      "nearest_frame": "P11_WEST_16_00_00_FRAME_1",
+      "nearest_distance": 2.1324806311895372e-06,
+      "signed_distance": -1.6354272247554036e-06,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_16_1_2",
+      "endpoint": [
+        -39.02974319458008,
+        12.187026023864746,
+        2.8662662506103516
+      ],
+      "nearest_frame": "P11_WEST_16_00_00_FRAME_0",
+      "nearest_distance": 2.8048403692082502e-05,
+      "signed_distance": 2.8047696559951873e-05,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_16_1_3",
+      "endpoint": [
+        -36.1740608215332,
+        15.124421119689941,
+        5.424659729003906
+      ],
+      "nearest_frame": "P11_WEST_15_00_01_FRAME_1",
+      "nearest_distance": 0.0004071644798386842,
+      "signed_distance": -0.0004071644725627266,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_STRUT_16_2",
+      "endpoint": [
+        -36.16974639892578,
+        15.134705543518066,
+        5.4080376625061035
+      ],
+      "nearest_frame": "P11_WEST_16_00_01_FRAME_2",
+      "nearest_distance": 0.00010977615602314472,
+      "signed_distance": 0.00010977608638995662,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_16_2_0",
+      "endpoint": [
+        -34.57634353637695,
+        14.795952796936035,
+        5.558796405792236
+      ],
+      "nearest_frame": "P11_WEST_14_00_01_FRAME_1",
+      "nearest_distance": 0.000799862202256918,
+      "signed_distance": -0.0007998609071364626,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_16_2_1",
+      "endpoint": [
+        -37.75959777832031,
+        15.487724304199219,
+        5.281397342681885
+      ],
+      "nearest_frame": "P11_WEST_16_00_01_FRAME_1",
+      "nearest_distance": 4.76837158203125e-07,
+      "signed_distance": 2.5035129169737047e-07,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_16_2_2",
+      "endpoint": [
+        -37.601348876953125,
+        13.655313491821289,
+        4.145317554473877
+      ],
+      "nearest_frame": "P11_WEST_15_00_00_FRAME_1",
+      "nearest_distance": 0.0003911474486812949,
+      "signed_distance": -0.00039113998354878277,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_16_2_3",
+      "endpoint": [
+        -34.745662689208984,
+        16.592708587646484,
+        6.703710079193115
+      ],
+      "nearest_frame": "P11_WEST_15_00_02_FRAME_1",
+      "nearest_distance": 0.00041760946623981,
+      "signed_distance": -0.0004176002476015128,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_STRUT_16_3",
+      "endpoint": [
+        -34.741111755371094,
+        16.60280990600586,
+        6.687035083770752
+      ],
+      "nearest_frame": "P11_WEST_16_00_02_FRAME_2",
+      "nearest_distance": 0.00017945555737242103,
+      "signed_distance": 0.00017945551917364355,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_16_3_0",
+      "endpoint": [
+        -33.141456604003906,
+        16.331472396850586,
+        6.904985427856445
+      ],
+      "nearest_frame": "P11_WEST_14_00_02_FRAME_1",
+      "nearest_distance": 0.0008293568971566856,
+      "signed_distance": -0.000829355645691976,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_16_3_1",
+      "endpoint": [
+        -36.34038543701172,
+        16.879791259765625,
+        6.488886833190918
+      ],
+      "nearest_frame": "P11_WEST_16_00_02_FRAME_1",
+      "nearest_distance": 9.5367431640625e-07,
+      "signed_distance": 5.009209758100042e-07,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_16_3_2",
+      "endpoint": [
+        -36.172916412353516,
+        15.123563766479492,
+        5.424365520477295
+      ],
+      "nearest_frame": "P11_WEST_15_00_01_FRAME_1",
+      "nearest_distance": 0.0004071644798386842,
+      "signed_distance": -0.0004071644725627266,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_16_3_3",
+      "endpoint": [
+        -33.317230224609375,
+        18.060958862304688,
+        7.982758045196533
+      ],
+      "nearest_frame": "P11_WEST_15_00_03_FRAME_1",
+      "nearest_distance": 0.0004349685332272202,
+      "signed_distance": -0.0004349667433416471,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_STRUT_16_4",
+      "endpoint": [
+        -33.31242752075195,
+        18.070858001708984,
+        7.966030597686768
+      ],
+      "nearest_frame": "P11_WEST_16_00_03_FRAME_2",
+      "nearest_distance": 0.00024539331207051873,
+      "signed_distance": 0.0002453881318160711,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_16_4_0",
+      "endpoint": [
+        -31.70652961730957,
+        17.866954803466797,
+        8.251172065734863
+      ],
+      "nearest_frame": "P11_WEST_14_00_03_FRAME_1",
+      "nearest_distance": 0.0008511007763445377,
+      "signed_distance": -0.0008511007181368768,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_16_4_1",
+      "endpoint": [
+        -34.92112731933594,
+        18.271821975708008,
+        7.69637393951416
+      ],
+      "nearest_frame": "P11_WEST_16_00_03_FRAME_1",
+      "nearest_distance": 2.384185791015625e-06,
+      "signed_distance": 1.8861137505155057e-06,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_16_4_2",
+      "endpoint": [
+        -34.74443817138672,
+        16.591777801513672,
+        6.7034101486206055
+      ],
+      "nearest_frame": "P11_WEST_15_00_02_FRAME_1",
+      "nearest_distance": 0.0004198509850539267,
+      "signed_distance": -0.00041985086136264727,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_16_4_3",
+      "endpoint": [
+        -31.888755798339844,
+        19.529170989990234,
+        9.261802673339844
+      ],
+      "nearest_frame": "P11_WEST_15_00_04_FRAME_2",
+      "nearest_distance": 0.0004055583558510989,
+      "signed_distance": -0.00040555793293606257,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_STRUT_16_5",
+      "endpoint": [
+        -31.883678436279297,
+        19.538850784301758,
+        9.245022773742676
+      ],
+      "nearest_frame": "P11_WEST_16_00_04_FRAME_2",
+      "nearest_distance": 0.00031468941597267985,
+      "signed_distance": 0.0003146878700590605,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_16_5_0",
+      "endpoint": [
+        -30.27155876159668,
+        19.40239143371582,
+        9.597356796264648
+      ],
+      "nearest_frame": "P11_WEST_14_00_04_FRAME_1",
+      "nearest_distance": 0.0008819667273201048,
+      "signed_distance": -0.0008819666400086135,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_16_5_1",
+      "endpoint": [
+        -33.50182342529297,
+        19.66380500793457,
+        8.90385913848877
+      ],
+      "nearest_frame": "P11_WEST_16_00_04_FRAME_1",
+      "nearest_distance": 4.672031082009198e-06,
+      "signed_distance": 4.4572827846423024e-06,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_16_5_2",
+      "endpoint": [
+        -33.315914154052734,
+        18.05994415283203,
+        7.982454299926758
+      ],
+      "nearest_frame": "P11_WEST_15_00_03_FRAME_1",
+      "nearest_distance": 0.0004349685332272202,
+      "signed_distance": -0.0004349667433416471,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_16_5_3",
+      "endpoint": [
+        -30.46023178100586,
+        20.997339248657227,
+        10.540846824645996
+      ],
+      "nearest_frame": "P11_WEST_15_00_05_FRAME_2",
+      "nearest_distance": 0.0003728183510247618,
+      "signed_distance": -0.0003728177361495,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_STRUT_17_1",
+      "endpoint": [
+        -39.17411804199219,
+        14.105025291442871,
+        4.056798934936523
+      ],
+      "nearest_frame": "P11_WEST_17_00_00_FRAME_2",
+      "nearest_distance": 4.3796397221740335e-05,
+      "signed_distance": 4.3794489585025076e-05,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_17_1_0",
+      "endpoint": [
+        -37.60108947753906,
+        13.654653549194336,
+        4.144954681396484
+      ],
+      "nearest_frame": "P11_WEST_15_00_00_FRAME_1",
+      "nearest_distance": 0.0008333587320521474,
+      "signed_distance": -0.0008333586010849103,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_17_1_1",
+      "endpoint": [
+        -40.74009323120117,
+        14.577025413513184,
+        3.9995956420898438
+      ],
+      "nearest_frame": "P11_WEST_17_00_00_FRAME_1",
+      "nearest_distance": 4.108831490157172e-06,
+      "signed_distance": 3.56939312950999e-06,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_17_1_2",
+      "endpoint": [
+        -40.59658432006836,
+        12.702035903930664,
+        2.865757942199707
+      ],
+      "nearest_frame": "P11_WEST_17_00_00_FRAME_0",
+      "nearest_distance": 3.683702016132884e-05,
+      "signed_distance": 3.682955184558523e-05,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_17_1_3",
+      "endpoint": [
+        -37.75933837890625,
+        15.487064361572266,
+        5.281034469604492
+      ],
+      "nearest_frame": "P11_WEST_16_00_01_FRAME_1",
+      "nearest_distance": 0.0004251411883160472,
+      "signed_distance": -0.0004251402642694302,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_STRUT_17_2",
+      "endpoint": [
+        -37.754791259765625,
+        15.496984481811523,
+        5.264255046844482
+      ],
+      "nearest_frame": "P11_WEST_17_00_01_FRAME_2",
+      "nearest_distance": 0.0001576219074195251,
+      "signed_distance": 0.00015762074792746716,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_17_2_0",
+      "endpoint": [
+        -36.17272186279297,
+        15.122934341430664,
+        5.424015045166016
+      ],
+      "nearest_frame": "P11_WEST_15_00_01_FRAME_1",
+      "nearest_distance": 0.0008600736036896706,
+      "signed_distance": -0.0008600735163781792,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_17_2_1",
+      "endpoint": [
+        -39.33311080932617,
+        15.884424209594727,
+        5.133297920227051
+      ],
+      "nearest_frame": "P11_WEST_17_00_01_FRAME_1",
+      "nearest_distance": 2.6973982585332124e-06,
+      "signed_distance": 2.092227418870607e-06,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_17_2_2",
+      "endpoint": [
+        -39.17743682861328,
+        14.094134330749512,
+        4.0732598304748535
+      ],
+      "nearest_frame": "P11_WEST_16_00_00_FRAME_1",
+      "nearest_distance": 0.00041163834976032376,
+      "signed_distance": -0.00041163552668876946,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_17_2_3",
+      "endpoint": [
+        -36.34019088745117,
+        16.879161834716797,
+        6.488536357879639
+      ],
+      "nearest_frame": "P11_WEST_16_00_02_FRAME_2",
+      "nearest_distance": 0.00038607942406088114,
+      "signed_distance": -0.0003860782690026099,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_STRUT_17_3",
+      "endpoint": [
+        -36.335418701171875,
+        16.888891220092773,
+        6.471706390380859
+      ],
+      "nearest_frame": "P11_WEST_17_00_02_FRAME_2",
+      "nearest_distance": 0.00026625837199389935,
+      "signed_distance": 0.00026625827103998745,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_17_3_0",
+      "endpoint": [
+        -34.74431228637695,
+        16.59117889404297,
+        6.703070640563965
+      ],
+      "nearest_frame": "P11_WEST_15_00_02_FRAME_1",
+      "nearest_distance": 0.0008884540875442326,
+      "signed_distance": -0.0008884520211722702,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_17_3_1",
+      "endpoint": [
+        -37.926090240478516,
+        17.19178581237793,
+        6.266994953155518
+      ],
+      "nearest_frame": "P11_WEST_17_00_02_FRAME_1",
+      "nearest_distance": 8.106231689453125e-06,
+      "signed_distance": 7.942047886899672e-06,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_17_3_2",
+      "endpoint": [
+        -37.75824737548828,
+        15.486193656921387,
+        5.280757904052734
+      ],
+      "nearest_frame": "P11_WEST_16_00_01_FRAME_1",
+      "nearest_distance": 0.0004251411883160472,
+      "signed_distance": -0.0004251402642694302,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_17_3_3",
+      "endpoint": [
+        -34.92100143432617,
+        18.271223068237305,
+        7.6960344314575195
+      ],
+      "nearest_frame": "P11_WEST_16_00_03_FRAME_2",
+      "nearest_distance": 0.0003233504539821297,
+      "signed_distance": -0.000323346273489733,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_STRUT_17_4",
+      "endpoint": [
+        -34.915977478027344,
+        18.280742645263672,
+        7.6791534423828125
+      ],
+      "nearest_frame": "P11_WEST_17_00_03_FRAME_2",
+      "nearest_distance": 0.0003716544306371361,
+      "signed_distance": 0.0003716500123118749,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_17_4_0",
+      "endpoint": [
+        -33.315860748291016,
+        18.059375762939453,
+        7.982123851776123
+      ],
+      "nearest_frame": "P11_WEST_15_00_03_FRAME_1",
+      "nearest_distance": 0.0009245925466530025,
+      "signed_distance": -0.000924592517549172,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_17_4_1",
+      "endpoint": [
+        -36.51902389526367,
+        18.499101638793945,
+        7.400689125061035
+      ],
+      "nearest_frame": "P11_WEST_17_00_03_FRAME_1",
+      "nearest_distance": 9.548656635161024e-06,
+      "signed_distance": 9.230272098648129e-06,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_17_4_2",
+      "endpoint": [
+        -36.33901596069336,
+        16.87820816040039,
+        6.488252639770508
+      ],
+      "nearest_frame": "P11_WEST_16_00_02_FRAME_1",
+      "nearest_distance": 0.0004393968265503645,
+      "signed_distance": -0.00043939643364865333,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_17_4_3",
+      "endpoint": [
+        -33.50177001953125,
+        19.663236618041992,
+        8.903529167175293
+      ],
+      "nearest_frame": "P11_WEST_16_00_04_FRAME_2",
+      "nearest_distance": 0.00026199675630778074,
+      "signed_distance": -0.0002619954354941001,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_STRUT_17_5",
+      "endpoint": [
+        -33.49647521972656,
+        19.672527313232422,
+        8.8865966796875
+      ],
+      "nearest_frame": "P11_WEST_17_00_04_FRAME_2",
+      "nearest_distance": 0.0004701382131315768,
+      "signed_distance": 0.0004701379573361919,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_17_5_0",
+      "endpoint": [
+        -31.887359619140625,
+        19.527524948120117,
+        9.261174201965332
+      ],
+      "nearest_frame": "P11_WEST_16_00_04_FRAME_2",
+      "nearest_distance": 0.0009188912808895111,
+      "signed_distance": 0.0009188907997668139,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_17_5_1",
+      "endpoint": [
+        -35.111907958984375,
+        19.80636978149414,
+        8.534380912780762
+      ],
+      "nearest_frame": "P11_WEST_17_00_04_FRAME_1",
+      "nearest_distance": 1.066240292857401e-05,
+      "signed_distance": 1.0586754342511995e-05,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_17_5_2",
+      "endpoint": [
+        -34.91973114013672,
+        18.27017593383789,
+        7.695745468139648
+      ],
+      "nearest_frame": "P11_WEST_16_00_03_FRAME_1",
+      "nearest_distance": 0.00045792656601406634,
+      "signed_distance": -0.00045792626042384654,
+      "review_gap": 0
+    },
+    {
+      "name": "R96_CAFE_ROD_17_5_3",
+      "endpoint": [
+        -32.08248519897461,
+        21.055204391479492,
+        10.111021995544434
+      ],
+      "nearest_frame": "P11_WEST_16_00_05_FRAME_2",
+      "nearest_distance": 0.00020454924379009753,
+      "signed_distance": -0.00020454751050635878,
+      "review_gap": 0
+    }
+  ],
+  "findings": [],
+  "construction_acceptance": false,
+  "limits": [
+    "Nearest-surface signed distance at intended frame attachment; intersections and weld/fastener design are separate.",
+    "Inherited widths and rod diameters remain representative."
+  ]
+}

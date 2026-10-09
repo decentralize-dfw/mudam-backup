@@ -1,0 +1,65 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R105_BATI_GALERI_DOSEME_TAVAN_TEMASI_v002.blend",
+  "base_scene": "MUDAM_R104_ALT_MERDIVEN_DUVAR_DEVAMI_v001.blend",
+  "closed_objects": [
+    "P05_FLOOR_L00_W0",
+    "R28_W_FLAT_CEILING"
+  ],
+  "changed_inherited_objects": [
+    "P05_FLOOR_L00_W0",
+    "R28_W_FLAT_CEILING"
+  ],
+  "wall": "P05_GALLERY_HALL_WEST0",
+  "wall_x": 686.9101386778317,
+  "old_edge_x": 688.5887004884523,
+  "y_range": [
+    468.7000054161374,
+    555.000004844508
+  ],
+  "polygon_canonical": [
+    [
+      686.8680500604644,
+      468.7000054161374
+    ],
+    [
+      688.6307891058196,
+      468.7000054161374
+    ],
+    [
+      688.6307891058196,
+      555.0420934618753
+    ],
+    [
+      686.8680500604644,
+      555.0420934618753
+    ]
+  ],
+  "gap_m": 0.19940804849559277,
+  "overlap_m": 0.005,
+  "records": [
+    {
+      "name": "P05_FLOOR_L00_W0",
+      "z_range": [
+        -0.20000000298023224,
+        0.0
+      ],
+      "material": "R23_GALLERY_WOOD_FLOOR_CANDIDATE",
+      "adjoining": "P05_FLOOR_L00_W0"
+    },
+    {
+      "name": "R28_W_FLAT_CEILING",
+      "z_range": [
+        4.349999904632568,
+        4.5
+      ],
+      "material": "R17_PAVILION_WHITE_FINISH_CANDIDATE",
+      "adjoining": "R28_W_FLAT_CEILING"
+    }
+  ],
+  "construction_acceptance": false,
+  "limits": [
+    "Visitor/source2016 circulation continuity supports contact; source056 shows general gallery floor/ceiling construction, not a surveyed pose of this west edge.",
+    "Only the existing west ground gallery boundary is bridged. No wall, opening or source height moved.",
+    "Floor/ceiling thickness, material and wall position remain inherited model candidates."
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R103_UST_GALERI_IC_YUZ_BIRLESIMLERI_v003.blend",
+  "base_scene": "12_Blender_Model/scenes/MUDAM_R102_UST_SERVIS_DUVAR_KOSELERI_v001.blend",
+  "inherited_objects_checked": 9229,
+  "changed_inherited_objects": [
+    "R85_RETURN_CEILING_0",
+    "R85_RETURN_CEILING_1",
+    "R85_RETURN_OUTER_TIP",
+    "R96_DOCUMENTATION_GALLERY_JOIN"
+  ],
+  "allowed_changes": [
+    "R85_RETURN_CEILING_0",
+    "R85_RETURN_CEILING_1",
+    "R85_RETURN_OUTER_TIP",
+    "R96_DOCUMENTATION_GALLERY_JOIN"
+  ],
+  "allowed_but_unchanged": [],
+  "new_objects": [],
+  "failures": [],
+  "construction_acceptance": false
+}

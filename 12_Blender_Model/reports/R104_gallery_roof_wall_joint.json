@@ -1,0 +1,42 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R104_ALT_MERDIVEN_DUVAR_DEVAMI_v001.blend",
+  "samples": 9558,
+  "missing": [],
+  "missing_count": 0,
+  "hit_objects": {
+    "R23_E_0_WALL": 816,
+    "R27_CONTINUOUS_HEAD": 21,
+    "R23_E_1_JAMB_A": 171,
+    "R23_E_1_HEAD": 192,
+    "R23_E_1_JAMB_B": 123,
+    "R73_E_CONTINUOUS_GALLERY_WALL": 920,
+    "P05_MAIN_ROOF_DECK": 84,
+    "R24_MULLION_E_0_0": 5,
+    "R24_MULLION_E_1_0": 5,
+    "R24_MULLION_E_2_0": 8,
+    "R24_SHELL_E_03": 1,
+    "R94_EAST_HIGH_WALL_JOIN": 176,
+    "P05_GALLERY_HALL_EAST2_R02_ABOVE": 51,
+    "P05_GALLERY_HALL_EAST2_R02_AFTER": 403,
+    "R23_E_3_JAMB_A": 54,
+    "R23_E_3_HEAD": 219,
+    "R23_E_3_JAMB_B": 21,
+    "R23_E_4_WALL": 435,
+    "R23_E_5_WALL": 1101,
+    "R23_W_0_JAMB_A": 39,
+    "R23_W_0_HEAD": 165,
+    "R23_W_0_JAMB_B": 318,
+    "R23_W_1_WALL": 780,
+    "R23_W_2_WALL": 1101,
+    "R23_W_3_WALL": 435,
+    "R23_W_4_JAMB_A": 18,
+    "R23_W_4_HEAD": 219,
+    "R23_W_4_JAMB_B": 669,
+    "R73_W_CONTINUOUS_GALLERY_WALL": 1008
+  },
+  "construction_acceptance": false,
+  "limits": [
+    "Only registered R24 outer roof perimeters, not internal glass rows.",
+    "Local 1.2m cross-boundary band; misses need source classification before changing geometry."
+  ]
+}

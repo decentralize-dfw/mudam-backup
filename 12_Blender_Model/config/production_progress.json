@@ -1,5 +1,5 @@
 {
-  "as_of_revision": "R102",
+  "as_of_revision": "R105",
   "basis": "Beş eşit iş adımı: tamam 20, kısmi 10, bekleyen 0 puan. Yaklaşık kapsam ilerlemesidir; ölçü doğruluğu veya harcanan süre oranı değildir. Yeni paket kabulünde ilgili adımlar yeniden değerlendirilir.",
   "tasks": {
     "P00": {
@@ -555,8 +555,8 @@
       ]
     }
   },
-  "last_reviewed_checkpoint": "R102",
-  "last_review_note": "Üst servis odası ve merdiven kuyusunda 14 duvarın 12 dış köşesi birleştirildi. Önceden açık olan 10 köşe probu kapandı; iç plan çizgileri ve açıklıklar korundu. Servis merdiveninin 110 kontrolü yeniden geçti.",
+  "last_reviewed_checkpoint": "R105",
+  "last_review_note": "Batı zemin galerisinde mevcut duvar ile döşeme/tavan arasındaki yaklaşık 20 cm açıklık giderildi. Yalnız iki mevcut nesne genişletildi; 1.030 temas ve 108 giriş/güzergâh kontrolü geçti. Önce/sonra görüntüleri karşılaştırıldı.",
   "execution_order": [
     "Bina kabuğu: tüm duvarlar, zeminler, çatılar ve birleşimler",
     "Merdivenler ve sahanlıklar",
@@ -567,7 +567,7 @@
     "Malzeme ve yüzey detayları",
     "Çevre düzenlemesi"
   ],
-  "current_priority": "Bütün bina kabulü yok. Diğer üst kat duvar/örtü birleşimleri ve katlar arası devamlılık kontrolü sürüyor; ölçülmemiş kalınlık ve kotlar aday.",
-  "review_note": "Üst servis odası ve merdiven kuyusunda 14 duvarın 12 dış köşesi birleştirildi. Önceden açık olan 10 köşe probu kapandı; iç plan çizgileri ve açıklıklar korundu. Servis merdiveninin 110 kontrolü yeniden geçti.",
-  "last_reviewed_revision": "R102"
+  "current_priority": "Bütün bina tamamlanmadı. Diğer dar duvar–döşeme–tavan temasları kaynaklarla karşılaştırılıyor; mevcut kotlar ve kalınlıklar ölçülmemiş adaylardır.",
+  "review_note": "Batı zemin galerisinde mevcut duvar ile döşeme/tavan arasındaki yaklaşık 20 cm açıklık giderildi. Yalnız iki mevcut nesne genişletildi; 1.030 temas ve 108 giriş/güzergâh kontrolü geçti. Önce/sonra görüntüleri karşılaştırıldı.",
+  "last_reviewed_revision": "R105"
 }

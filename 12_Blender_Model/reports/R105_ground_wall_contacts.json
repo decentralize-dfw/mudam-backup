@@ -1,0 +1,11 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R105_BATI_GALERI_DOSEME_TAVAN_TEMASI_v002.blend",
+  "checks": 3074,
+  "findings": [],
+  "construction_acceptance": false,
+  "limits": [
+    "Local15mm inward probes against actual wall faces, not room-grid bounds.",
+    "Windows/recesses and genuine high portals can lack a floor/ceiling at these levels and require source classification.",
+    "Wall search range4m; missing walls are a separate diagnostic."
+  ]
+}

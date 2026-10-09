@@ -1,0 +1,55 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R103_UST_GALERI_IC_YUZ_BIRLESIMLERI_v003.blend",
+  "solids": [
+    {
+      "name": "R85_RETURN_CEILING_0",
+      "volume": 2.8011383380099586,
+      "nonmanifold": 0,
+      "minimum_plane_distance": 0.004998449236154556,
+      "z": [
+        8.059074401855469,
+        8.209074974060059
+      ]
+    },
+    {
+      "name": "R85_RETURN_OUTER_TIP",
+      "volume": 0.4969234732623189,
+      "nonmanifold": 0,
+      "minimum_plane_distance": 0.005003679543733597,
+      "z": [
+        4.859074592590332,
+        8.209074974060059
+      ]
+    },
+    {
+      "name": "R96_DOCUMENTATION_GALLERY_JOIN",
+      "volume": 24.292644774900168,
+      "nonmanifold": 0,
+      "minimum_plane_distance": 0.005000442266464233,
+      "z": [
+        4.659074783325195,
+        7.559074878692627
+      ]
+    },
+    {
+      "name": "R85_RETURN_CEILING_1",
+      "volume": 0.6597226904096951,
+      "nonmanifold": 0,
+      "minimum_plane_distance": 0,
+      "z": [
+        8.059074401855469,
+        8.209074974060059
+      ]
+    }
+  ],
+  "source_face_checks": 11378,
+  "before_findings": 237,
+  "after_findings": 0,
+  "failures": [],
+  "construction_acceptance": false,
+  "limits": [
+    "Reconciles earlier approximate closure edges with existing PDF2016-derived gallery inner faces.",
+    "Trim endpoints terminate 5mm behind the retained 250mm gallery wall face to avoid duplicate coplanar finish surfaces; no exposed gap is introduced.",
+    "Source gallery footprints, door widths, wall heights and circulation retained; dimensions remain candidates."
+  ]
+}

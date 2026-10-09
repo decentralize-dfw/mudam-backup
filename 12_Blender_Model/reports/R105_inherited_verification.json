@@ -1,0 +1,17 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R105_BATI_GALERI_DOSEME_TAVAN_TEMASI_v002.blend",
+  "base_scene": "12_Blender_Model/scenes/MUDAM_R104_ALT_MERDIVEN_DUVAR_DEVAMI_v001.blend",
+  "inherited_objects_checked": 9229,
+  "changed_inherited_objects": [
+    "P05_FLOOR_L00_W0",
+    "R28_W_FLAT_CEILING"
+  ],
+  "allowed_changes": [
+    "P05_FLOOR_L00_W0",
+    "R28_W_FLAT_CEILING"
+  ],
+  "allowed_but_unchanged": [],
+  "new_objects": [],
+  "failures": [],
+  "construction_acceptance": false
+}

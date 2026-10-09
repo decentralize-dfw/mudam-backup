@@ -1,0 +1,29 @@
+{
+  "url": "https://abp.gouvernement.lu/dam-assets/pics/abp-centenaire-web.pdf",
+  "publisher": "Administration des batiments publics",
+  "title": "10 x 10",
+  "local_file": "12_Blender_Model\\references\\ABP_centenaire.pdf",
+  "sha256": "0e407029e44d0ac1c726a17931cc2c9cf29ab8e44443079c79cbcaa2c7c4e7cb",
+  "pdf_pages_one_based": [
+    181,
+    182,
+    183
+  ],
+  "printed_pages": [
+    180,
+    181,
+    182
+  ],
+  "reviewed_rendered_pages": true,
+  "credits": {
+    "180": "Christof Weber",
+    "181_left": "Christof Weber",
+    "181_others": "Kiyohiko Higashide",
+    "182": "Christian Aschman"
+  },
+  "limits": [
+    "No dimensioned floor plan in these pages.",
+    "Material family and upper gallery curved concrete roof supported; exact bay identity and construction sizes not established.",
+    "Art visible in archival photos remains excluded from model."
+  ]
+}

@@ -1,7 +1,9 @@
 from pathlib import Path
 import bpy,json,re
 from mathutils import Vector
-R=Path(__file__).resolve().parents[2];B=R/'12_Blender_Model';import sys;sys.path.insert(0,str(B/'scripts'));from release_utils import verified_current_scene;r=verified_current_scene();bpy.ops.wm.open_mainfile(filepath=str(R/r['file']));S=bpy.context.scene;C=json.loads((B/'config/foundation.json').read_text())['calibration']
+R=Path(__file__).resolve().parents[2];B=R/'12_Blender_Model';import sys;sys.path.insert(0,str(B/'scripts'));from release_utils import verified_current_scene;r=verified_current_scene()
+if '--' in sys.argv:r=json.loads((B/'reports'/sys.argv[sys.argv.index('--')+1]).read_text())
+bpy.ops.wm.open_mainfile(filepath=str(R/r['file']));S=bpy.context.scene;C=json.loads((B/'config/foundation.json').read_text())['calibration']
 def point(x,y,z=0):
  k=C['canonical_to_pdf_scale'];ox,oy=C['canonical_to_pdf_offset'];M=C['pdf_to_utm_matrix'];a=k*x+ox;b=k*y+oy;return Vector((M[0][0]*a+M[0][1]*b+M[0][2]-293425,M[1][0]*a+M[1][1]*b+M[1][2]-5499960,z))
 prefs=bpy.context.preferences.addons['cycles'].preferences;prefs.compute_device_type='OPTIX';prefs.get_devices()

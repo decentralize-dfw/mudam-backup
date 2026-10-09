@@ -1,0 +1,64 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R102_UST_SERVIS_DUVAR_KOSELERI_v001.blend",
+  "images": [
+    {
+      "image": "R102_east_gallery.png",
+      "eye_canonical": [
+        375,
+        580,
+        6.5
+      ],
+      "target_canonical": [
+        377,
+        420,
+        8.0
+      ],
+      "lens": 20
+    },
+    {
+      "image": "R102_west_gallery.png",
+      "eye_canonical": [
+        773,
+        580,
+        6.5
+      ],
+      "target_canonical": [
+        778,
+        430,
+        8.0
+      ],
+      "lens": 20
+    },
+    {
+      "image": "R102_east_clerestory.png",
+      "eye_canonical": [
+        345,
+        420,
+        6.5
+      ],
+      "target_canonical": [
+        399,
+        565,
+        10
+      ],
+      "lens": 22
+    },
+    {
+      "image": "R102_west_clerestory.png",
+      "eye_canonical": [
+        800,
+        424,
+        6.5
+      ],
+      "target_canonical": [
+        757,
+        567,
+        10
+      ],
+      "lens": 22
+    }
+  ],
+  "all_active_surroundings": true,
+  "metric_camera_match": false,
+  "roof_geometry_still_draft": true
+}

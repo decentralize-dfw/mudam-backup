@@ -1,7 +1,9 @@
 from pathlib import Path
-import bpy,bmesh,json
+import bpy,bmesh,json,sys
 from mathutils import Vector
-R=Path(__file__).resolve().parents[2];B=R/'12_Blender_Model';r=json.loads((B/'reports/R31_build_report.json').read_text());P=json.loads((B/'config/upper_studio.json').read_text());C=json.loads((B/'config/foundation.json').read_text())['calibration'];bpy.ops.wm.open_mainfile(filepath=str(R/r['file']));deps=bpy.context.evaluated_depsgraph_get();fail=[];solids=[]
+R=Path(__file__).resolve().parents[2];B=R/'12_Blender_Model';r=json.loads((B/'reports/R31_build_report.json').read_text());P=json.loads((B/'config/upper_studio.json').read_text());C=json.loads((B/'config/foundation.json').read_text())['calibration'];args=sys.argv[sys.argv.index('--')+1:] if '--' in sys.argv else [];output_name='R31_verification.json'
+if args:r['file']=args[0];output_name=args[1]
+bpy.ops.wm.open_mainfile(filepath=str(R/r['file']));deps=bpy.context.evaluated_depsgraph_get();fail=[];solids=[]
 def point(x,y,z=0):
  k=C['canonical_to_pdf_scale'];ox,oy=C['canonical_to_pdf_offset'];M=C['pdf_to_utm_matrix'];a=k*x+ox;b=k*y+oy;return Vector((M[0][0]*a+M[0][1]*b+M[0][2]-293425,M[1][0]*a+M[1][1]*b+M[1][2]-5499960,z))
 for name in r['closed_objects']:
@@ -23,4 +25,4 @@ for y in [635,640,645]:
  for x in [524,529,533,537,541,545]:
   p=point(x,y,UP+.04);hits=ray(p,p-Vector((0,0,.09)));head=ray(p,p+Vector((0,0,2.06)));row=dict(x=x,y=y,support=hits,head=head);support.append(row)
   if not hits or head:fail.append(row)
-result=dict(file=r['file'],failures=fail,evaluated_solids=solids,passage_rays=passages,support_head_samples=support,construction_acceptance=False);(B/'reports/R31_verification.json').write_text(json.dumps(result,indent=2),encoding='utf8');print(json.dumps(dict(solids=len(solids),failures=fail),indent=2));assert not fail,fail
+result=dict(file=r['file'],failures=fail,evaluated_solids=solids,passage_rays=passages,support_head_samples=support,construction_acceptance=False);(B/'reports'/output_name).write_text(json.dumps(result,indent=2),encoding='utf8');print(json.dumps(dict(solids=len(solids),failures=fail),indent=2));assert not fail,fail

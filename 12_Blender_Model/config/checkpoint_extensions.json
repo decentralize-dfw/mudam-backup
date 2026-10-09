@@ -1310,5 +1310,61 @@
     "image": "R102_after_service_wall_corners.png",
     "description": "Üst servis odası ve merdiven kuyusunda 14 duvarın 12 dış köşesi birleştirildi. Önceden açık olan 10 köşe probu kapandı; iç plan çizgileri ve açıklıklar korundu. Servis merdiveninin 110 kontrolü yeniden geçti.",
     "limits": "Bütün bina kabulü yok. Diğer üst kat duvar/örtü birleşimleri ve katlar arası devamlılık kontrolü sürüyor; ölçülmemiş kalınlık ve kotlar aday."
+  },
+  {
+    "id": "R103",
+    "checks": [
+      "R103_verification.json",
+      "R103_global_audit.json",
+      "R103_inherited_verification.json",
+      "R103_gallery_regression.json",
+      "R103_enclosure_verification.json"
+    ],
+    "tasks": [
+      "P07",
+      "P17"
+    ],
+    "report": "R103_KONTROL_RAPORU.md",
+    "title": "Üst galeri iç yüz birleşimleri / R103",
+    "image": "R103_after_gallery_stair_portal.png",
+    "description": "Batı üst galeriye taşan dört duvar/tavan parçası mevcut plan sınırına kırpıldı. Servis odası birleşimindeki çıkıntı ve merdiven dönüşündeki yanlış tavan uzantısı kaldırıldı. Kapı ve koridor geçişleri korundu.",
+    "limits": "Bütün bina kabulü yok. Diğer kabuk birleşimleri ve kat ilişkileri kaynaklarla karşılaştırılmaya devam ediyor; ölçülmemiş kotlar ve kalınlıklar aday."
+  },
+  {
+    "id": "R104",
+    "checks": [
+      "R104_verification.json",
+      "R104_global_audit.json",
+      "R104_inherited_verification.json",
+      "R104_gallery_regression.json"
+    ],
+    "tasks": [
+      "P07",
+      "P16"
+    ],
+    "report": "R104_KONTROL_RAPORU.md",
+    "title": "Alt merdiven duvar devamı / R104",
+    "image": "R104_after_lower_wall_join.png",
+    "description": "Alt batı galeri girişindeki kısa duvarın 5 cm geride kalan arka yüzü, komşu merdiven duvarıyla hizalandı. Ön yüz, giriş ucu ve kotlar korundu; alt galeri geçiş kontrolleri geçti.",
+    "limits": "Bütün bina kabulü yok. Diğer kabuk birleşimleri ve kat ilişkileri kaynaklarla karşılaştırılıyor; komşudan devralınan kalınlık ve kotlar ölçülmemiş adaylardır."
+  },
+  {
+    "id": "R105",
+    "checks": [
+      "R105_verification.json",
+      "R105_global_audit.json",
+      "R105_inherited_verification.json",
+      "R105_gallery_regression.json"
+    ],
+    "tasks": [
+      "P05",
+      "P07",
+      "P16"
+    ],
+    "report": "R105_KONTROL_RAPORU.md",
+    "title": "Batı galeri döşeme/tavan teması / R105",
+    "image": "R105_after_floor_contact.png",
+    "description": "Batı zemin galerisinde mevcut duvar ile döşeme/tavan arasındaki yaklaşık 20 cm açıklık giderildi. Yalnız iki mevcut nesne genişletildi; 1.030 temas ve 108 giriş/güzergâh kontrolü geçti. Önce/sonra görüntüleri karşılaştırıldı.",
+    "limits": "Bütün bina tamamlanmadı. Diğer dar duvar–döşeme–tavan temasları kaynaklarla karşılaştırılıyor; mevcut kotlar ve kalınlıklar ölçülmemiş adaylardır."
   }
 ]

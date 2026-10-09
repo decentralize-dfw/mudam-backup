@@ -1,0 +1,17 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R104_ALT_MERDIVEN_DUVAR_DEVAMI_v001.blend",
+  "solid": {
+    "volume": 0.6917054324716405,
+    "nonmanifold": 0
+  },
+  "aligned_vertices": 4,
+  "fixed_vertices": 4,
+  "wall_joint_intersections": 6,
+  "failures": [],
+  "construction_acceptance": false,
+  "limits": [
+    "Source104 continuous wall and previously adopted R76 registration retained.",
+    "Only the 50mm back-face step between two existing wall pieces is reconciled; no opening, wall axis or floor level moved.",
+    "300mm neighbor thickness is inherited and unmeasured; this is geometric continuity, not an as-built thickness claim."
+  ]
+}

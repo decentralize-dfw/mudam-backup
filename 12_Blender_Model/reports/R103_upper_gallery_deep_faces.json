@@ -1,0 +1,10 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R103_UST_GALERI_IC_YUZ_BIRLESIMLERI_v003.blend",
+  "checks": 11378,
+  "findings": [],
+  "construction_acceptance": false,
+  "limits": [
+    "Only five height samples on source gallery inner faces; portal apertures and corners excluded.",
+    "A hit is a review candidate, not automatic permission to remove geometry."
+  ]
+}
