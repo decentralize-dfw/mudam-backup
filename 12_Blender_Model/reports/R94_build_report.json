@@ -1,0 +1,163 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R94_ISARETLI_KABUK_BIRLESIMLERI_v003.blend",
+  "base_scene": "MUDAM_R93_KUZEY_CAM_PROFIL_HIZALAMA_v001.blend",
+  "closed_objects": [
+    "R10_UPPER_DIAGONAL_WALL",
+    "R94_WEST_TRANSITION_GLASS_0_0",
+    "R94_WEST_TRANSITION_GLASS_0_1",
+    "R94_WEST_TRANSITION_GLASS_0_2",
+    "R94_WEST_TRANSITION_GLASS_1_0",
+    "R94_WEST_TRANSITION_GLASS_1_1",
+    "R94_WEST_TRANSITION_GLASS_1_2",
+    "R94_WEST_TRANSITION_GLASS_2_0",
+    "R94_WEST_TRANSITION_GLASS_2_1",
+    "R94_WEST_TRANSITION_GLASS_2_2",
+    "R94_WEST_TRANSITION_MULLION_0",
+    "R94_WEST_TRANSITION_MULLION_1",
+    "R94_WEST_TRANSITION_MULLION_2",
+    "R94_WEST_TRANSITION_MULLION_3",
+    "R94_WEST_TRANSITION_TRANSOM_0",
+    "R94_WEST_TRANSITION_TRANSOM_1",
+    "R94_WEST_TRANSITION_TRANSOM_2",
+    "R94_WEST_TRANSITION_TRANSOM_3",
+    "R94_WEST_INTERSTITIAL_ROOF",
+    "R94_EAST_HIGH_WALL_JOIN"
+  ],
+  "changed_inherited_objects": [
+    "R10_UPPER_DIAGONAL_WALL",
+    "P05_MAIN_ATRIUM_BASE_2",
+    "R33_MAIN_PASSAGE_HIGH_REMAINDER"
+  ],
+  "definitions": [
+    {
+      "name": "R10_UPPER_DIAGONAL_WALL",
+      "action": "trim_top_to_R26_glass_cover",
+      "before_world_vertices": [
+        [
+          16.40522575378418,
+          -19.823617935180664,
+          4.859074592590332
+        ],
+        [
+          16.606801986694336,
+          -14.243245124816895,
+          4.859074592590332
+        ],
+        [
+          16.30699920654297,
+          -14.232349395751953,
+          4.859074592590332
+        ],
+        [
+          16.105422973632812,
+          -19.81272315979004,
+          4.859074592590332
+        ],
+        [
+          16.40522575378418,
+          -19.823617935180664,
+          13.923118591308594
+        ],
+        [
+          16.606801986694336,
+          -14.243245124816895,
+          13.923118591308594
+        ],
+        [
+          16.30699920654297,
+          -14.232349395751953,
+          13.923118591308594
+        ],
+        [
+          16.105422973632812,
+          -19.81272315979004,
+          13.923118591308594
+        ]
+      ],
+      "top_z": 9.718577096381804,
+      "reason": "Retain stair-side enclosure below the adjoining R26 glass cover; remove unsupported blade protruding above that cover. Exact parapet height remains candidate."
+    },
+    {
+      "name": "P05_MAIN_ATRIUM_BASE_2",
+      "action": "superseded",
+      "reason": "Legacy full-height glazing proxy across internal west passage;026 shows open lower passage and glazing above."
+    },
+    {
+      "name": "R33_MAIN_PASSAGE_HIGH_REMAINDER",
+      "action": "superseded",
+      "reason": "Unverified internal tinted screen removed. Lower passage and R90 exterior glazing retained; exact internal head arrangement remains open."
+    },
+    {
+      "name": "R94_WEST_INTERSTITIAL_ROOF",
+      "polygon_canonical": [
+        [
+          688,
+          432
+        ],
+        [
+          798,
+          322
+        ],
+        [
+          798,
+          356
+        ],
+        [
+          685.9,
+          468.7
+        ]
+      ],
+      "top_z": 12.723118,
+      "reason": "Connect established cafe-back boundary to gallery boundary at inherited main roof datum; underside remains open. Exact drainage/cover build-up unmeasured."
+    },
+    {
+      "name": "R94_EAST_HIGH_WALL_JOIN",
+      "polygon_canonical": [
+        [
+          457.878,
+          467.122
+        ],
+        [
+          457.878,
+          555
+        ],
+        [
+          462.4,
+          555
+        ],
+        [
+          462.4,
+          460.7
+        ]
+      ],
+      "z0": 9.718577,
+      "z1": 13.923118,
+      "reason": "Join existing gallery and atrium-side leaves above portal head without closing lower circulation."
+    }
+  ],
+  "glazing_origin": [
+    -4.6799516677856445,
+    19.86122703552246,
+    9.71857738494873
+  ],
+  "glazing_u": [
+    0.7323207855224609,
+    0.6809598207473755,
+    0.0
+  ],
+  "glazing_normal": [
+    -0.6809598207473755,
+    0.7323207855224609,
+    -0.0
+  ],
+  "glazing_width": 4.039086819544169,
+  "glazing_height": 4.204540748065202,
+  "construction_acceptance": false,
+  "limits": [
+    "Three screenshots now have actual geometry changes, but source-complete building acceptance remains open.",
+    "R10 approach wall retained below the adjoining R26 glass cover; two legacy cyan internal screens removed. R23 gallery enclosure and portals retained.",
+    "West roof strip inherits12.723118m datum; hidden structure, drainage and waterproofing remain unknown.",
+    "West transition glazing3x3 modules and profile sizes are candidates.",
+    "No artwork or temporary exhibition elements added."
+  ]
+}

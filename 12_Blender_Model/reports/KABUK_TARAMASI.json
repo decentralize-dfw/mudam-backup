@@ -1,5 +1,5 @@
 {
-  "file": "12_Blender_Model/scenes/MUDAM_R92_GALERI_GEREKSIZ_BOLME_KALDIRMA_v001.blend",
+  "file": "12_Blender_Model/scenes/MUDAM_R94_ISARETLI_KABUK_BIRLESIMLERI_v003.blend",
   "grid_canonical_px": 8,
   "total_samples": 6216,
   "summaries": [
@@ -17211,7 +17211,7 @@
         "distance": 0.05000000074505806
       },
       "cover_hit": {
-        "name": "R27_CONTINUOUS_HEAD",
+        "name": "R27_END_PIER",
         "z": 3.450000047683716,
         "distance": 2.25
       },
@@ -18085,7 +18085,7 @@
         "distance": 0.05000000447034836
       },
       "cover_hit": {
-        "name": "R33_WALL_SHOP_S",
+        "name": "R33_CEILING_SHOP",
         "z": 4.349999904632568,
         "distance": 3.1499998569488525
       },
@@ -18522,9 +18522,9 @@
         "distance": 0.04999999701976776
       },
       "cover_hit": {
-        "name": "R33_WALL_SHOP_S",
-        "z": 4.349999904632568,
-        "distance": 3.1499998569488525
+        "name": "R33_CEILING_SHOP",
+        "z": 4.34999942779541,
+        "distance": 3.1499996185302734
       },
       "unclosed_side_directions": [],
       "floor_missing": false,
@@ -50883,7 +50883,7 @@
         "distance": 0.05000000074505806
       },
       "cover_hit": {
-        "name": "R73_E_CONTINUOUS_GALLERY_WALL",
+        "name": "R28_E_FLAT_CEILING",
         "z": 4.349999904632568,
         "distance": 3.1499998569488525
       },
@@ -118273,7 +118273,7 @@
         "distance": 0.04999999701976776
       },
       "cover_hit": {
-        "name": "R27_CONTINUOUS_HEAD",
+        "name": "R27_END_PIER",
         "z": 3.450000047683716,
         "distance": 2.25
       },
@@ -126433,7 +126433,7 @@
       ],
       "floor_z": -3.83,
       "floor_hit": {
-        "name": "P05_ZONE_LM1_PAV",
+        "name": "R25_LOWER_PAVILION_FLOOR",
         "z": -3.831193685531616,
         "distance": 0.0511937141418457
       },
@@ -126479,7 +126479,7 @@
       ],
       "floor_z": -3.83,
       "floor_hit": {
-        "name": "R25_LOWER_PAVILION_FLOOR",
+        "name": "P05_ZONE_LM1_PAV",
         "z": -3.831193685531616,
         "distance": 0.0511937141418457
       },
@@ -126732,7 +126732,7 @@
       ],
       "floor_z": -3.83,
       "floor_hit": {
-        "name": "R25_LOWER_PAVILION_FLOOR",
+        "name": "P05_ZONE_LM1_PAV",
         "z": -3.831193685531616,
         "distance": 0.0511937141418457
       },
@@ -126962,7 +126962,7 @@
       ],
       "floor_z": -3.83,
       "floor_hit": {
-        "name": "R25_LOWER_PAVILION_FLOOR",
+        "name": "P05_ZONE_LM1_PAV",
         "z": -3.831193685531616,
         "distance": 0.051193717867136
       },
@@ -127008,7 +127008,7 @@
       ],
       "floor_z": -3.83,
       "floor_hit": {
-        "name": "R25_LOWER_PAVILION_FLOOR",
+        "name": "P05_ZONE_LM1_PAV",
         "z": -3.831193685531616,
         "distance": 0.0511937141418457
       },
@@ -127261,7 +127261,7 @@
       ],
       "floor_z": -3.83,
       "floor_hit": {
-        "name": "P05_ZONE_LM1_PAV",
+        "name": "R25_LOWER_PAVILION_FLOOR",
         "z": -3.831193685531616,
         "distance": 0.0511937141418457
       },
@@ -127307,7 +127307,7 @@
       ],
       "floor_z": -3.83,
       "floor_hit": {
-        "name": "R25_LOWER_PAVILION_FLOOR",
+        "name": "P05_ZONE_LM1_PAV",
         "z": -3.831193685531616,
         "distance": 0.0511937141418457
       },
@@ -127629,7 +127629,7 @@
       ],
       "floor_z": -3.83,
       "floor_hit": {
-        "name": "P05_ZONE_LM1_PAV",
+        "name": "R25_LOWER_PAVILION_FLOOR",
         "z": -3.831193685531616,
         "distance": 0.0511937141418457
       },
@@ -127675,7 +127675,7 @@
       ],
       "floor_z": -3.83,
       "floor_hit": {
-        "name": "R25_LOWER_PAVILION_FLOOR",
+        "name": "P05_ZONE_LM1_PAV",
         "z": -3.831193685531616,
         "distance": 0.0511937141418457
       },
@@ -129078,7 +129078,7 @@
       ],
       "floor_z": -3.83,
       "floor_hit": {
-        "name": "P05_ZONE_LM1_PAV",
+        "name": "R17_WALL_4",
         "z": -3.831193685531616,
         "distance": 0.0511937141418457
       },
@@ -129377,7 +129377,7 @@
       ],
       "floor_z": -3.83,
       "floor_hit": {
-        "name": "P05_ZONE_LM1_PAV",
+        "name": "R17_WALL_4",
         "z": -3.831193685531616,
         "distance": 0.0511937141418457
       },
@@ -129607,7 +129607,7 @@
       ],
       "floor_z": -3.83,
       "floor_hit": {
-        "name": "P05_ZONE_LM1_PAV",
+        "name": "R25_LOWER_PAVILION_FLOOR",
         "z": -3.831193685531616,
         "distance": 0.0511937141418457
       },
@@ -129630,7 +129630,7 @@
       ],
       "floor_z": -3.83,
       "floor_hit": {
-        "name": "P05_ZONE_LM1_PAV",
+        "name": "R17_WALL_4",
         "z": -3.831193685531616,
         "distance": 0.0511937141418457
       },
@@ -129791,7 +129791,7 @@
       ],
       "floor_z": -3.83,
       "floor_hit": {
-        "name": "P05_ZONE_LM1_PAV",
+        "name": "R25_LOWER_PAVILION_FLOOR",
         "z": -3.831193685531616,
         "distance": 0.051193710416555405
       },
@@ -129837,7 +129837,7 @@
       ],
       "floor_z": -3.83,
       "floor_hit": {
-        "name": "P05_ZONE_LM1_PAV",
+        "name": "R17_WALL_4",
         "z": -3.831193685531616,
         "distance": 0.0511937141418457
       },
@@ -129952,7 +129952,7 @@
       ],
       "floor_z": -3.83,
       "floor_hit": {
-        "name": "P05_ZONE_LM1_PAV",
+        "name": "R25_LOWER_PAVILION_FLOOR",
         "z": -3.831193685531616,
         "distance": 0.0511937141418457
       },
@@ -130067,7 +130067,7 @@
       ],
       "floor_z": -3.83,
       "floor_hit": {
-        "name": "P05_ZONE_LM1_PAV",
+        "name": "R25_LOWER_PAVILION_FLOOR",
         "z": -3.831193685531616,
         "distance": 0.0511937141418457
       },
@@ -130090,7 +130090,7 @@
       ],
       "floor_z": -3.83,
       "floor_hit": {
-        "name": "P05_ZONE_LM1_PAV",
+        "name": "R25_LOWER_PAVILION_FLOOR",
         "z": -3.831193685531616,
         "distance": 0.0511937141418457
       },
@@ -130113,7 +130113,7 @@
       ],
       "floor_z": -3.83,
       "floor_hit": {
-        "name": "P05_ZONE_LM1_PAV",
+        "name": "R17_WALL_4",
         "z": -3.831193685531616,
         "distance": 0.0511937141418457
       },
@@ -138922,7 +138922,7 @@
       ],
       "floor_z": 0,
       "floor_hit": {
-        "name": "R14_INNER_WALL_B",
+        "name": "R87_BASE_FLOOR",
         "z": 0.0,
         "distance": 0.05000000074505806
       },
@@ -139203,9 +139203,9 @@
         "distance": 0.05000019073486328
       },
       "cover_hit": {
-        "name": "R87_OPAQUE_ROOF",
-        "z": 13.72311782836914,
-        "distance": 7.664042949676514
+        "name": "R94_WEST_INTERSTITIAL_ROOF",
+        "z": 12.52311897277832,
+        "distance": 6.464043617248535
       },
       "unclosed_side_directions": [],
       "floor_missing": false,

@@ -1149,5 +1149,22 @@
     "image": "R93_after_north_alignment.png",
     "description": "Merkez düşey cam şeridi yeniden üretildi: yan banttaki dört yatay kayıt kotu ortak, alt modüller aynı aralığı sürdürüyor. 30 cam panel ve 15 profil; 140.794 yüzey örneği açık vermedi.",
     "limits": "Profil boyutları ve alt sıra sayısı ölçülmemiş aday. Önceki duvar–çatı birleşimi işaretleri açık; tüm bina kabulü yapılmadı."
+  },
+  {
+    "id": "R94",
+    "checks": [
+      "R94_verification.json",
+      "R94_global_audit.json",
+      "R94_inherited_verification.json"
+    ],
+    "tasks": [
+      "P07",
+      "P11"
+    ],
+    "report": "R94_KONTROL_RAPORU.md",
+    "title": "İşaretli duvar–cam–çatı birleşimleri / R94",
+    "image": "R94_marked_west_junction.png",
+    "description": "İki eski mavi iç yüzey kaldırıldı; batı üst cam geçişi çerçevelendi, ara çatı örtüsü ve doğu üst duvar bağlantısı üretildi. Doğu merdiven yan duvarı bitişik cam örtü kotunda sonlandırıldı.",
+    "limits": "Çatı ara örtüsü ve profil ölçüleri aday. Köşe profilleri, batı küçük çatı uç birleşimi ve ayrıntılı kaynak eşleştirmesi açık; tüm bina tamamlanmadı."
   }
 ]

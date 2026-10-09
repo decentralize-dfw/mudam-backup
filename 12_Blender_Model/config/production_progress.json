@@ -1,5 +1,5 @@
 {
-  "as_of_revision": "R93",
+  "as_of_revision": "R94",
   "basis": "Beş eşit iş adımı: tamam 20, kısmi 10, bekleyen 0 puan. Yaklaşık kapsam ilerlemesidir; ölçü doğruluğu veya harcanan süre oranı değildir. Yeni paket kabulünde ilgili adımlar yeniden değerlendirilir.",
   "tasks": {
     "P00": {
@@ -555,8 +555,8 @@
       ]
     }
   },
-  "last_reviewed_checkpoint": "R93",
-  "last_review_note": "R93: Kuzey cam şeridi yatay kayıtları yan bandın ortak kotlarına bağlandı. Önce/sonra render kontrol edildi. Önceki üç ekran görüntüsündeki duvar–çatı bağlantıları ve içeride görünen mavi temsil hâlâ açık düzeltme işi.",
+  "last_reviewed_checkpoint": "R94",
+  "last_review_note": "R94: Üç işaretli görünüş üzerinde gerçek geometri düzeltildi. Mavi iç temsil yüzeyleri kaldırıldı; batı ara çatı örtüsü/üst cam bandı, doğu duvar bağlantısı ve taşan duvar kotu düzeltildi. Son sahne üç açıdan kontrol edildi. Kesin çatı kesiti, köşe profilleri ve batı küçük çatı uç birleşimi hâlâ açık.",
   "execution_order": [
     "Bina kabuğu: tüm duvarlar, zeminler, çatılar ve birleşimler",
     "Merdivenler ve sahanlıklar",
@@ -568,6 +568,6 @@
     "Çevre düzenlemesi"
   ],
   "current_priority": "Duvar–zemin–çatı birlikte: iç mekânlarda eksik alt/üst örtü ve kabuk açıklıkları kapatılıyor.",
-  "review_note": "R93: Kuzey cam şeridi yatay kayıtları yan bandın ortak kotlarına bağlandı. Önce/sonra render kontrol edildi. Önceki üç ekran görüntüsündeki duvar–çatı bağlantıları ve içeride görünen mavi temsil hâlâ açık düzeltme işi.",
-  "last_reviewed_revision": "R93"
+  "review_note": "R94: Üç işaretli görünüş üzerinde gerçek geometri düzeltildi. Mavi iç temsil yüzeyleri kaldırıldı; batı ara çatı örtüsü/üst cam bandı, doğu duvar bağlantısı ve taşan duvar kotu düzeltildi. Son sahne üç açıdan kontrol edildi. Kesin çatı kesiti, köşe profilleri ve batı küçük çatı uç birleşimi hâlâ açık.",
+  "last_reviewed_revision": "R94"
 }

@@ -1,0 +1,116 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R94_ISARETLI_KABUK_BIRLESIMLERI_v003.blend",
+  "solids": [
+    {
+      "name": "R10_UPPER_DIAGONAL_WALL",
+      "volume": 8.140676251428982,
+      "nonmanifold": 0
+    },
+    {
+      "name": "R94_WEST_TRANSITION_GLASS_0_0",
+      "volume": 0.03278813429633942,
+      "nonmanifold": 0
+    },
+    {
+      "name": "R94_WEST_TRANSITION_GLASS_0_1",
+      "volume": 0.03278813429633054,
+      "nonmanifold": 0
+    },
+    {
+      "name": "R94_WEST_TRANSITION_GLASS_0_2",
+      "volume": 0.03278811159657735,
+      "nonmanifold": 0
+    },
+    {
+      "name": "R94_WEST_TRANSITION_GLASS_1_0",
+      "volume": 0.03278828000117548,
+      "nonmanifold": 0
+    },
+    {
+      "name": "R94_WEST_TRANSITION_GLASS_1_1",
+      "volume": 0.0327882800012039,
+      "nonmanifold": 0
+    },
+    {
+      "name": "R94_WEST_TRANSITION_GLASS_1_2",
+      "volume": 0.03278825730134827,
+      "nonmanifold": 0
+    },
+    {
+      "name": "R94_WEST_TRANSITION_GLASS_2_0",
+      "volume": 0.03278820065493747,
+      "nonmanifold": 0
+    },
+    {
+      "name": "R94_WEST_TRANSITION_GLASS_2_1",
+      "volume": 0.03278820065494219,
+      "nonmanifold": 0
+    },
+    {
+      "name": "R94_WEST_TRANSITION_GLASS_2_2",
+      "volume": 0.03278817795516829,
+      "nonmanifold": 0
+    },
+    {
+      "name": "R94_WEST_TRANSITION_MULLION_0",
+      "volume": 0.044147552330634054,
+      "nonmanifold": 0
+    },
+    {
+      "name": "R94_WEST_TRANSITION_MULLION_1",
+      "volume": 0.04414750113480226,
+      "nonmanifold": 0
+    },
+    {
+      "name": "R94_WEST_TRANSITION_MULLION_2",
+      "volume": 0.04414750113482446,
+      "nonmanifold": 0
+    },
+    {
+      "name": "R94_WEST_TRANSITION_MULLION_3",
+      "volume": 0.04414752673272959,
+      "nonmanifold": 0
+    },
+    {
+      "name": "R94_WEST_TRANSITION_TRANSOM_0",
+      "volume": 0.04241104028841532,
+      "nonmanifold": 0
+    },
+    {
+      "name": "R94_WEST_TRANSITION_TRANSOM_1",
+      "volume": 0.04241050100964798,
+      "nonmanifold": 0
+    },
+    {
+      "name": "R94_WEST_TRANSITION_TRANSOM_2",
+      "volume": 0.042411040288471945,
+      "nonmanifold": 0
+    },
+    {
+      "name": "R94_WEST_TRANSITION_TRANSOM_3",
+      "volume": 0.04241050100964798,
+      "nonmanifold": 0
+    },
+    {
+      "name": "R94_WEST_INTERSTITIAL_ROOF",
+      "volume": 10.750163919230205,
+      "nonmanifold": 0
+    },
+    {
+      "name": "R94_EAST_HIGH_WALL_JOIN",
+      "volume": 24.441270452991347,
+      "nonmanifold": 0
+    }
+  ],
+  "local_skin_samples": 42622,
+  "missing": [],
+  "failures": [],
+  "construction_acceptance": false,
+  "limits": [
+    "Three screenshots now have actual geometry changes, but source-complete building acceptance remains open.",
+    "R10 approach wall retained below the adjoining R26 glass cover; two legacy cyan internal screens removed. R23 gallery enclosure and portals retained.",
+    "West roof strip inherits12.723118m datum; hidden structure, drainage and waterproofing remain unknown.",
+    "West transition glazing3x3 modules and profile sizes are candidates.",
+    "No artwork or temporary exhibition elements added."
+  ]
+}
