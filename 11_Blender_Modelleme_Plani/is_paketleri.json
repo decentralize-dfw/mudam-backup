@@ -338,13 +338,14 @@
         "102/066/097 kaynakları; mevcut 3,2 m başlık yüksekliği aday olarak korundu. Cam bölüntü ve ürün ayrıntıları ertelendi.",
         "093/102/026/116 ile mevcut sınırlar kullanıldı; kotlar ve cam detayları aday. Çok kotlu taramada giriş alt cam birleşimi hâlâ açık.",
         "Cam kenar payı görselleştirme parametresidir; plan, kesit ve imalat ölçüsü doğruluğu ayrı değerlendirilir.",
-        "Yalnız panel kenar payı değişti. Merdiven ölçüsü, eğimi ve profil düzeni yeniden ölçülmüş sayılmaz."
+        "Yalnız panel kenar payı değişti. Merdiven ölçüsü, eğimi ve profil düzeni yeniden ölçülmüş sayılmaz.",
+        "Açıklık sınırları korundu. Sıra sayısı, profil ve cam kalınlıkları ölçülmemiş aday; bütün bina ve birleşim detayları kabulü açık."
       ],
       "updated": "2026-10-08",
       "dependency_mode": "regional_study_only_no_global_acceptance",
       "artifacts": [
-        "12_Blender_Model/scenes/MUDAM_R88_BATI_MERDIVEN_CAM_KENAR_v002.blend",
-        "12_Blender_Model/reports/R88_KONTROL_RAPORU.md",
+        "12_Blender_Model/scenes/MUDAM_R90_GUNEY_ATRIUM_CAM_CERCEVE_v001.blend",
+        "12_Blender_Model/reports/R90_KONTROL_RAPORU.md",
         "12_Blender_Model/reports/R12_BATI_DUZ_CAM_RAPORU.md",
         "12_Blender_Model/reports/R13_PAVYON_CAM_RAPORU.md",
         "12_Blender_Model/reports/R26_DOGU_CATI_BAGLANTI_RAPORU.md",
@@ -352,7 +353,8 @@
         "12_Blender_Model/reports/R79_KONTROL_RAPORU.md",
         "12_Blender_Model/reports/R82_KONTROL_RAPORU.md",
         "12_Blender_Model/reports/R83_KONTROL_RAPORU.md",
-        "12_Blender_Model/reports/R86_KONTROL_RAPORU.md"
+        "12_Blender_Model/reports/R86_KONTROL_RAPORU.md",
+        "12_Blender_Model/reports/R88_KONTROL_RAPORU.md"
       ],
       "completed_scope": [
         "Batı 108 düz cam, pavyon 108 cam/216 profil, doğu cam şeridi ve üst galerilerin 10 ışıklık adayı kuruldu.",
@@ -360,7 +362,8 @@
         "Mevcut zeminin eksik yan camı, üst örtüsü ve iç duvarı eklendi; 312 alt/üst ve 156 yan kapanış örneği geçti.",
         "Kafe arkasındaki taş duvar ve iki üçgen cam geçiş tamamlandı; önceki 81 yanal kaçak kapandı.",
         "Orana bağlı küçültme yerine sabit kenar payı; dört örtü kaçağı kapandı. 26 bölgenin sık ve çok kotlu taraması temiz.",
-        "Merdiven basamaklarından bulunan sekiz cam kenarı kaçağı kapatıldı; 170 konum ve 12.240 yanal ışın taraması temiz."
+        "Merdiven basamaklarından bulunan sekiz cam kenarı kaçağı kapatıldı; 170 konum ve 12.240 yanal ışın taraması temiz.",
+        "Çerçevesiz tek cam temsilinin yerine 12 cam panel ve 9 metal çerçeve parçası üretildi. 51.914 yerel yüzey örneği ve yeniden açılan sahne kontrolleri geçti."
       ],
       "coverage_as_of": "R55"
     },
@@ -485,7 +488,7 @@
       "updated": "2026-10-08",
       "dependency_mode": "regional_checkpoint_no_global_acceptance",
       "artifacts": [
-        "12_Blender_Model/scenes/MUDAM_R89_ALT_KAT_DOSEME_BIRLESIMI_v001.blend",
+        "12_Blender_Model/scenes/MUDAM_R90_GUNEY_ATRIUM_CAM_CERCEVE_v001.blend",
         "12_Blender_Model/reports/P19_P21_ONIZLEME_RAPORU.md",
         "12_Blender_Model/reports/R34_GIRIS_KOPRULERI_RAPORU.md",
         "12_Blender_Model/reports/R48_KONTROL_RAPORU.md",
@@ -583,7 +586,7 @@
       "updated": "2026-10-08",
       "dependency_mode": "regional_checkpoint_no_global_acceptance",
       "artifacts": [
-        "12_Blender_Model/scenes/MUDAM_R89_ALT_KAT_DOSEME_BIRLESIMI_v001.blend",
+        "12_Blender_Model/scenes/MUDAM_R90_GUNEY_ATRIUM_CAM_CERCEVE_v001.blend",
         "12_Blender_Model/reports/P19_P21_ONIZLEME_RAPORU.md",
         "12_Blender_Model/reports/R08_OKUMA_TAVANI_RAPORU.md",
         "12_Blender_Model/reports/R09_OKUMA_MEKANI_RAPORU.md",
@@ -683,7 +686,7 @@
       "updated": "2026-10-08",
       "dependency_mode": "regional_checkpoint_no_global_acceptance",
       "artifacts": [
-        "12_Blender_Model/scenes/MUDAM_R89_ALT_KAT_DOSEME_BIRLESIMI_v001.blend",
+        "12_Blender_Model/scenes/MUDAM_R90_GUNEY_ATRIUM_CAM_CERCEVE_v001.blend",
         "12_Blender_Model/reports/P19_P21_ONIZLEME_RAPORU.md",
         "12_Blender_Model/reports/R32_TAS_AHSAP_RAPORU.md",
         "12_Blender_Model/reports/R43_KONTROL_RAPORU.md",
@@ -747,12 +750,12 @@
       "acceptance": "Birim/eksen/malzeme geri yüklemede doğru; performans ölçülmüş",
       "status": "in_progress",
       "open_issues": [
-        "7830 mesh / 2467784 üçgen GLB aktarımı denetlendi; hedef motor ve sadeleştirme açık."
+        "7850 mesh / 2468024 üçgen GLB aktarımı denetlendi; hedef motor ve sadeleştirme açık."
       ],
       "updated": "2026-10-08",
       "dependency_mode": "regional_checkpoint_no_global_acceptance",
       "artifacts": [
-        "12_Blender_Model/scenes/MUDAM_R89_ALT_KAT_DOSEME_BIRLESIMI_v001.blend",
+        "12_Blender_Model/scenes/MUDAM_R90_GUNEY_ATRIUM_CAM_CERCEVE_v001.blend",
         "12_Blender_Model/reports/P19_P21_ONIZLEME_RAPORU.md"
       ]
     },
@@ -804,7 +807,7 @@
     "P21",
     "P22"
   ],
-  "latest_scene": "12_Blender_Model/scenes/MUDAM_R89_ALT_KAT_DOSEME_BIRLESIMI_v001.blend",
+  "latest_scene": "12_Blender_Model/scenes/MUDAM_R90_GUNEY_ATRIUM_CAM_CERCEVE_v001.blend",
   "scope_constraints": {
     "priority": "Bina ve kalıcı mimari sistemler",
     "excluded": [

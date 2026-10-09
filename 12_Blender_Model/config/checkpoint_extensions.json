@@ -1083,5 +1083,21 @@
     "image": "R89_overview_087.png",
     "description": "Tavanda biten 37 çevre duvarı, zemin kat döşemesinin altına bağlandı. 296 önce/sonra ışın ve iki bina görünüşü kontrol edildi.",
     "limits": "İç tavan kotu değişmedi; duvar/döşeme kesin kesiti ve kat planları arasındaki yerel farklar koşullu."
+  },
+  {
+    "id": "R90",
+    "checks": [
+      "R90_verification.json",
+      "R90_inherited_verification.json",
+      "R90_global_audit.json"
+    ],
+    "tasks": [
+      "P11"
+    ],
+    "report": "R90_KONTROL_RAPORU.md",
+    "title": "Güney atrium cam–çerçeve üretimi / R90",
+    "image": "R90_after_south_glazing.png",
+    "description": "Çerçevesiz tek cam temsilinin yerine 12 cam panel ve 9 metal çerçeve parçası üretildi. 51.914 yerel yüzey örneği ve yeniden açılan sahne kontrolleri geçti.",
+    "limits": "Açıklık sınırları korundu. Sıra sayısı, profil ve cam kalınlıkları ölçülmemiş aday; bütün bina ve birleşim detayları kabulü açık."
   }
 ]

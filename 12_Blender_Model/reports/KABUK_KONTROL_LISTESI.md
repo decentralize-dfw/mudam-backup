@@ -1,8 +1,10 @@
-# Birleşik bina kabuğu kontrolü — R89
+# Birleşik bina kabuğu kontrolü — R90
 
 Öncelik: bütün duvarlar, zeminler, üst örtüler ve bunların birleşimleri. Kapı/pencere ürün ayrıntılarına geçilmedi. Bir satırın tamamlanması, yalnız belirtilen kontrolün geçtiğini gösterir.
 
 ## Tamamlanan bölgesel düzeltmeler
+
+- [x] R90: güney yüksek atriumun çerçevesiz cam temsili, aynı açıklıkta 12 panel ve 9 metal çerçeveyle değiştirildi. Ürün/imalat ölçüleri aday; genel kabul değil.
 
 - [x] R71/R73/R76: alt/üst galeri köşeleri, gövdeleri ve geçişleri.
 - [x] R72/R80: kuzey alt duvar ve merkez cam şeridinin zemine devamı.

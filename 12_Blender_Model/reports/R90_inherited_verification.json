@@ -1,0 +1,37 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R90_GUNEY_ATRIUM_CAM_CERCEVE_v001.blend",
+  "base_scene": "12_Blender_Model/scenes/MUDAM_R89_ALT_KAT_DOSEME_BIRLESIMI_v001.blend",
+  "inherited_objects_checked": 8585,
+  "changed_inherited_objects": [
+    "P06_HIGH_EAVE_UPSTAND_4"
+  ],
+  "allowed_changes": [
+    "P06_HIGH_EAVE_UPSTAND_4"
+  ],
+  "allowed_but_unchanged": [],
+  "new_objects": [
+    "R90_SOUTH_GLASS_0_0",
+    "R90_SOUTH_GLASS_0_1",
+    "R90_SOUTH_GLASS_0_2",
+    "R90_SOUTH_GLASS_0_3",
+    "R90_SOUTH_GLASS_1_0",
+    "R90_SOUTH_GLASS_1_1",
+    "R90_SOUTH_GLASS_1_2",
+    "R90_SOUTH_GLASS_1_3",
+    "R90_SOUTH_GLASS_2_0",
+    "R90_SOUTH_GLASS_2_1",
+    "R90_SOUTH_GLASS_2_2",
+    "R90_SOUTH_GLASS_2_3",
+    "R90_SOUTH_MULLION_0",
+    "R90_SOUTH_MULLION_1",
+    "R90_SOUTH_MULLION_2",
+    "R90_SOUTH_MULLION_3",
+    "R90_SOUTH_TRANSOM_0",
+    "R90_SOUTH_TRANSOM_1",
+    "R90_SOUTH_TRANSOM_2",
+    "R90_SOUTH_TRANSOM_3",
+    "R90_SOUTH_TRANSOM_4"
+  ],
+  "failures": [],
+  "construction_acceptance": false
+}

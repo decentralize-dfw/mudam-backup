@@ -1,5 +1,5 @@
 {
-  "as_of_revision": "R89",
+  "as_of_revision": "R90",
   "basis": "Beş eşit iş adımı: tamam 20, kısmi 10, bekleyen 0 puan. Yaklaşık kapsam ilerlemesidir; ölçü doğruluğu veya harcanan süre oranı değildir. Yeni paket kabulünde ilgili adımlar yeniden değerlendirilir.",
   "tasks": {
     "P00": {
@@ -555,8 +555,8 @@
       ]
     }
   },
-  "last_reviewed_checkpoint": "R89",
-  "last_review_note": "R89 ek kontrol: üst galeri çatı–duvar çevresinde 9.558 örnek kapalı, 71 ışıklık doğrultusu açık. Dört güncel iç görünüş üretildi. İdari/alt teknik alanlar ile kesin plan-kesit ve çatı biçimi kabulü açık; sahne ve yüzdeler değişmedi.",
+  "last_reviewed_checkpoint": "R90",
+  "last_review_note": "R90: güney atriumun tek cam temsilinin yerine 12 panel ve 9 metal çerçeve üretildi. Geometri değişti; kaynakla doğrulanmayan profil ölçüleri aday. Kabuk ve idari/teknik kapsam açık.",
   "execution_order": [
     "Bina kabuğu: tüm duvarlar, zeminler, çatılar ve birleşimler",
     "Merdivenler ve sahanlıklar",
@@ -568,6 +568,6 @@
     "Çevre düzenlemesi"
   ],
   "current_priority": "Duvar–zemin–çatı birlikte: iç mekânlarda eksik alt/üst örtü ve kabuk açıklıkları kapatılıyor.",
-  "review_note": "R89 ek kontrol: ana çatıda 330.913 ve yan çatı kenarlarında 256.816 geçerli yerel örnek kapalı. Genel kabuk, idari/teknik hacimler ve kesin çatı biçimi kabulü açık; yüzdeler değişmedi.",
-  "last_reviewed_revision": "R89"
+  "review_note": "R90: güney atriumun tek cam temsilinin yerine 12 panel ve 9 metal çerçeve üretildi. Geometri değişti; kaynakla doğrulanmayan profil ölçüleri aday. Kabuk ve idari/teknik kapsam açık.",
+  "last_reviewed_revision": "R90"
 }

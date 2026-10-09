@@ -1,0 +1,17 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R90_GUNEY_ATRIUM_CAM_CERCEVE_v001.blend",
+  "images": [
+    {
+      "phase": "before",
+      "file": "12_Blender_Model/scenes/MUDAM_R89_ALT_KAT_DOSEME_BIRLESIMI_v001.blend",
+      "image": "R90_before_south_glazing.png"
+    },
+    {
+      "phase": "after",
+      "file": "12_Blender_Model/scenes/MUDAM_R90_GUNEY_ATRIUM_CAM_CERCEVE_v001.blend",
+      "image": "R90_after_south_glazing.png"
+    }
+  ],
+  "all_active_surroundings": true,
+  "metric_camera_match": false
+}

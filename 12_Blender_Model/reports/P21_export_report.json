@@ -1,7 +1,7 @@
 {
-  "source_scene": "12_Blender_Model/scenes/MUDAM_R89_ALT_KAT_DOSEME_BIRLESIMI_v001.blend",
-  "file": "12_Blender_Model/exports/MUDAM_R89_ALT_KAT_DOSEME_BIRLESIMI_v001_preview.glb",
-  "selected_mesh_count": 7830,
+  "source_scene": "12_Blender_Model/scenes/MUDAM_R90_GUNEY_ATRIUM_CAM_CERCEVE_v001.blend",
+  "file": "12_Blender_Model/exports/MUDAM_R90_GUNEY_ATRIUM_CAM_CERCEVE_v001_preview.glb",
+  "selected_mesh_count": 7850,
   "selected_names": [
     "R37_GH_EAST_PORTAL_METAL_HEAD",
     "P05_FRONT_0",
@@ -25,7 +25,6 @@
     "P05_MAIN_ROOF_DECK",
     "P05_MAIN_ATRIUM_BASE_2",
     "P05_MAIN_ATRIUM_BASE_3",
-    "P06_HIGH_EAVE_UPSTAND_4",
     "P07_CANOPY_SLAB_ENVELOPE",
     "P07_CANOPY_FASCIA_0",
     "P07_CANOPY_FASCIA_1",
@@ -7832,7 +7831,28 @@
     "R87_ROOM_SIDE",
     "R87_ROOM_FRONT_LEFT",
     "R87_ROOM_FRONT_RIGHT",
-    "R87_ROOM_DOOR_HEAD"
+    "R87_ROOM_DOOR_HEAD",
+    "R90_SOUTH_GLASS_0_0",
+    "R90_SOUTH_GLASS_0_1",
+    "R90_SOUTH_GLASS_0_2",
+    "R90_SOUTH_GLASS_0_3",
+    "R90_SOUTH_GLASS_1_0",
+    "R90_SOUTH_GLASS_1_1",
+    "R90_SOUTH_GLASS_1_2",
+    "R90_SOUTH_GLASS_1_3",
+    "R90_SOUTH_GLASS_2_0",
+    "R90_SOUTH_GLASS_2_1",
+    "R90_SOUTH_GLASS_2_2",
+    "R90_SOUTH_GLASS_2_3",
+    "R90_SOUTH_MULLION_0",
+    "R90_SOUTH_MULLION_1",
+    "R90_SOUTH_MULLION_2",
+    "R90_SOUTH_MULLION_3",
+    "R90_SOUTH_TRANSOM_0",
+    "R90_SOUTH_TRANSOM_1",
+    "R90_SOUTH_TRANSOM_2",
+    "R90_SOUTH_TRANSOM_3",
+    "R90_SOUTH_TRANSOM_4"
   ],
   "blender_world_bounds": {
     "min": [

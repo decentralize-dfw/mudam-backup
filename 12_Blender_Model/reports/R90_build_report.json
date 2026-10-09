@@ -1,0 +1,162 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R90_GUNEY_ATRIUM_CAM_CERCEVE_v001.blend",
+  "base_scene": "MUDAM_R89_ALT_KAT_DOSEME_BIRLESIMI_v001.blend",
+  "closed_objects": [
+    "R90_SOUTH_GLASS_0_0",
+    "R90_SOUTH_GLASS_0_1",
+    "R90_SOUTH_GLASS_0_2",
+    "R90_SOUTH_GLASS_0_3",
+    "R90_SOUTH_GLASS_1_0",
+    "R90_SOUTH_GLASS_1_1",
+    "R90_SOUTH_GLASS_1_2",
+    "R90_SOUTH_GLASS_1_3",
+    "R90_SOUTH_GLASS_2_0",
+    "R90_SOUTH_GLASS_2_1",
+    "R90_SOUTH_GLASS_2_2",
+    "R90_SOUTH_GLASS_2_3",
+    "R90_SOUTH_MULLION_0",
+    "R90_SOUTH_MULLION_1",
+    "R90_SOUTH_MULLION_2",
+    "R90_SOUTH_MULLION_3",
+    "R90_SOUTH_TRANSOM_0",
+    "R90_SOUTH_TRANSOM_1",
+    "R90_SOUTH_TRANSOM_2",
+    "R90_SOUTH_TRANSOM_3",
+    "R90_SOUTH_TRANSOM_4"
+  ],
+  "changed_inherited_objects": [
+    "P06_HIGH_EAVE_UPSTAND_4"
+  ],
+  "origin": [
+    14.39569091796875,
+    22.025941848754883,
+    12.523118019104004
+  ],
+  "u": [
+    0.6809597015380859,
+    -0.7323209643363953,
+    0.0
+  ],
+  "normal": [
+    0.7323209643363953,
+    0.6809597015380859,
+    -0.0
+  ],
+  "width": 4.039087882045187,
+  "height": 5.137749834366156,
+  "grid": [
+    3,
+    4
+  ],
+  "panels": [
+    {
+      "name": "R90_SOUTH_GLASS_0_0",
+      "center": [
+        14.854100227355957,
+        21.532957077026367,
+        13.165336608886719
+      ]
+    },
+    {
+      "name": "R90_SOUTH_GLASS_0_1",
+      "center": [
+        14.854100227355957,
+        21.532957077026367,
+        14.449773788452148
+      ]
+    },
+    {
+      "name": "R90_SOUTH_GLASS_0_2",
+      "center": [
+        14.854100227355957,
+        21.532957077026367,
+        15.734211921691895
+      ]
+    },
+    {
+      "name": "R90_SOUTH_GLASS_0_3",
+      "center": [
+        14.854100227355957,
+        21.532957077026367,
+        17.01865005493164
+      ]
+    },
+    {
+      "name": "R90_SOUTH_GLASS_1_0",
+      "center": [
+        15.770918846130371,
+        20.546987533569336,
+        13.165336608886719
+      ]
+    },
+    {
+      "name": "R90_SOUTH_GLASS_1_1",
+      "center": [
+        15.770918846130371,
+        20.546987533569336,
+        14.449773788452148
+      ]
+    },
+    {
+      "name": "R90_SOUTH_GLASS_1_2",
+      "center": [
+        15.770918846130371,
+        20.546987533569336,
+        15.734211921691895
+      ]
+    },
+    {
+      "name": "R90_SOUTH_GLASS_1_3",
+      "center": [
+        15.770918846130371,
+        20.546987533569336,
+        17.01865005493164
+      ]
+    },
+    {
+      "name": "R90_SOUTH_GLASS_2_0",
+      "center": [
+        16.6877384185791,
+        19.561017990112305,
+        13.165336608886719
+      ]
+    },
+    {
+      "name": "R90_SOUTH_GLASS_2_1",
+      "center": [
+        16.6877384185791,
+        19.561017990112305,
+        14.449773788452148
+      ]
+    },
+    {
+      "name": "R90_SOUTH_GLASS_2_2",
+      "center": [
+        16.6877384185791,
+        19.561017990112305,
+        15.734211921691895
+      ]
+    },
+    {
+      "name": "R90_SOUTH_GLASS_2_3",
+      "center": [
+        16.6877384185791,
+        19.561017990112305,
+        17.01865005493164
+      ]
+    }
+  ],
+  "source_ids": [
+    "116",
+    "102",
+    "103",
+    "101"
+  ],
+  "construction_acceptance": false,
+  "limits": [
+    "Source116 shows a framed south-facing strip; old single tinted proxy lacked all frame geometry.",
+    "Aperture, wall and roof silhouette unchanged. Twelve panes and nine frame members replace the proxy.",
+    "Three columns follow adjacent narrow roof grid; four rows,75mm frame width,140mm depth and18mm glass are explicit visualization candidates.",
+    "No seals, anchors, insulated-glass build-up or structural certification inferred."
+  ]
+}

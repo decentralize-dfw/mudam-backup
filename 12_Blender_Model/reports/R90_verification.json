@@ -1,0 +1,120 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R90_GUNEY_ATRIUM_CAM_CERCEVE_v001.blend",
+  "solids": [
+    {
+      "name": "R90_SOUTH_GLASS_0_0",
+      "volume": 0.030000773142906695,
+      "nonmanifold": 0
+    },
+    {
+      "name": "R90_SOUTH_GLASS_0_1",
+      "volume": 0.030000795842151234,
+      "nonmanifold": 0
+    },
+    {
+      "name": "R90_SOUTH_GLASS_0_2",
+      "volume": 0.030000773142943388,
+      "nonmanifold": 0
+    },
+    {
+      "name": "R90_SOUTH_GLASS_0_3",
+      "volume": 0.03000081854145266,
+      "nonmanifold": 0
+    },
+    {
+      "name": "R90_SOUTH_GLASS_1_0",
+      "volume": 0.03000075840990727,
+      "nonmanifold": 0
+    },
+    {
+      "name": "R90_SOUTH_GLASS_1_1",
+      "volume": 0.030000781109169594,
+      "nonmanifold": 0
+    },
+    {
+      "name": "R90_SOUTH_GLASS_1_2",
+      "volume": 0.030000758409888896,
+      "nonmanifold": 0
+    },
+    {
+      "name": "R90_SOUTH_GLASS_1_3",
+      "volume": 0.030000803808245408,
+      "nonmanifold": 0
+    },
+    {
+      "name": "R90_SOUTH_GLASS_2_0",
+      "volume": 0.030000773142943395,
+      "nonmanifold": 0
+    },
+    {
+      "name": "R90_SOUTH_GLASS_2_1",
+      "volume": 0.030000795842189138,
+      "nonmanifold": 0
+    },
+    {
+      "name": "R90_SOUTH_GLASS_2_2",
+      "volume": 0.03000077314292502,
+      "nonmanifold": 0
+    },
+    {
+      "name": "R90_SOUTH_GLASS_2_3",
+      "volume": 0.030000818541433688,
+      "nonmanifold": 0
+    },
+    {
+      "name": "R90_SOUTH_MULLION_0",
+      "volume": 0.05394606829509696,
+      "nonmanifold": 0
+    },
+    {
+      "name": "R90_SOUTH_MULLION_1",
+      "volume": 0.053946068295096294,
+      "nonmanifold": 0
+    },
+    {
+      "name": "R90_SOUTH_MULLION_2",
+      "volume": 0.05394633740845922,
+      "nonmanifold": 0
+    },
+    {
+      "name": "R90_SOUTH_MULLION_3",
+      "volume": 0.053946337408535494,
+      "nonmanifold": 0
+    },
+    {
+      "name": "R90_SOUTH_TRANSOM_0",
+      "volume": 0.04241106003261811,
+      "nonmanifold": 0
+    },
+    {
+      "name": "R90_SOUTH_TRANSOM_1",
+      "volume": 0.04241052075348032,
+      "nonmanifold": 0
+    },
+    {
+      "name": "R90_SOUTH_TRANSOM_2",
+      "volume": 0.04241052075359445,
+      "nonmanifold": 0
+    },
+    {
+      "name": "R90_SOUTH_TRANSOM_3",
+      "volume": 0.0424110600326563,
+      "nonmanifold": 0
+    },
+    {
+      "name": "R90_SOUTH_TRANSOM_4",
+      "volume": 0.04241106003254173,
+      "nonmanifold": 0
+    }
+  ],
+  "local_skin_samples": 51914,
+  "missing": [],
+  "failures": [],
+  "construction_acceptance": false,
+  "limits": [
+    "Source116 shows a framed south-facing strip; old single tinted proxy lacked all frame geometry.",
+    "Aperture, wall and roof silhouette unchanged. Twelve panes and nine frame members replace the proxy.",
+    "Three columns follow adjacent narrow roof grid; four rows,75mm frame width,140mm depth and18mm glass are explicit visualization candidates.",
+    "No seals, anchors, insulated-glass build-up or structural certification inferred."
+  ]
+}
