@@ -99,3 +99,5 @@ R35 güncel sahne; R29–R35 bölgesel sahneler, kaynak/varsayım kayıtları ve
 
 
 2026-10-09 03:46 UTC — R36–R43 ara üretim: koşullu cephe başlık kotu; üst geçit başlığı ve açıklık düzeltmesi; park bağlantıları/19 OSM ağacı; giriş tavan sürekliliği; ortak mesh verisi; Grand Hall çatı lamelleri; taş döşeme yüzeyleri. R40 alt cephe pencereleri duvara oturmadığı için reddedildi. R41 ile GLB34,62→27,14MB; sonraki detaylar ayrıca eklendi. Tam bina tamamlanmadı. A01 cephe/oda,A04 arazi,A06 alt pencere ve A07 fotoğraf köşe kimliği açık; rutin onay beklemeden üretim sürüyor.
+
+- 2026-10-09 06:04:22 UTC — `6687c42` origin/main normal push doğrulandı; HEAD ve origin/main eşleşiyor. R44–R47 sahneleri, kontroller, renderlar ve30.603.316 bayt GLB (6782 mesh,775276 üçgen) gönderildi. Önceki push03:48:52 UTC; saatlik hedef aralığı bu kayıtta aşıldı. Paris08:00 durum raporu modelin tamamlanmadığını açıkça kaydeder. Üretim kat ayırma/canlı kesit ve kalan mimari kontrollerle devam ediyor.
