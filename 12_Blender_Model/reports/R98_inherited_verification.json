@@ -1,0 +1,19 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R98_UST_KOPRU_DUVAR_SINIRI_v001.blend",
+  "base_scene": "12_Blender_Model/scenes/MUDAM_R97_SERVIS_MERDIVENI_v003.blend",
+  "inherited_objects_checked": 9226,
+  "changed_inherited_objects": [
+    "R04_RECESS_TOP_LINTEL",
+    "R04_RECESS_HEAD",
+    "R45_STAIR_RECESS_CONTINUOUS"
+  ],
+  "allowed_changes": [
+    "R04_RECESS_HEAD",
+    "R04_RECESS_TOP_LINTEL",
+    "R45_STAIR_RECESS_CONTINUOUS"
+  ],
+  "allowed_but_unchanged": [],
+  "new_objects": [],
+  "failures": [],
+  "construction_acceptance": false
+}

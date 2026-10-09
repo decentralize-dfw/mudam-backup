@@ -1,8 +1,12 @@
 from pathlib import Path
-import bpy,bmesh,json
+import bpy,bmesh,json,sys
 from mathutils import Vector
 from mathutils.bvhtree import BVHTree
 B=Path(__file__).resolve().parents[1];r=json.loads((B/'reports/R96_build_report.json').read_text());old=json.loads((B/'reports/R95_build_report.json').read_text());C=json.loads((B/'config/foundation.json').read_text())['calibration'];UP=r['upper_z'];results={};fail=[]
+output='R96_verification.json'
+if '--' in sys.argv:
+ args=sys.argv[sys.argv.index('--')+1:];r['file']=args[0];output=args[1]
+
 def pt(x,y,z=0):
  k=C['canonical_to_pdf_scale'];ox,oy=C['canonical_to_pdf_offset'];M=C['pdf_to_utm_matrix'];a=k*x+ox;b=k*y+oy;return Vector((M[0][0]*a+M[0][1]*b+M[0][2]-293425,M[1][0]*a+M[1][1]*b+M[1][2]-5499960,z))
 probes=[]
@@ -37,4 +41,4 @@ for phase,file in [('before','12_Blender_Model/scenes/'+r['base_scene']),('after
    z=max((bpy.data.objects[name].matrix_world@v.co).z for v in bpy.data.objects[name].data.vertices);rows.append(dict(id=name+'_top',passed=abs(z-(UP-.2))<1e-4))
   fail.extend(x for x in rows if not x['passed'])
  results[phase]=rows
-q=dict(file=r['file'],results=results,before_intrusion_failures=sum(not x['passed'] for x in results['before']),failures=fail,construction_acceptance=False,limits=r['limits']);(B/'reports/R96_verification.json').write_text(json.dumps(q,indent=2));print('R96',q['before_intrusion_failures'],'old failures;',len(fail),'new failures',fail);assert not fail
+q=dict(file=r['file'],results=results,before_intrusion_failures=sum(not x['passed'] for x in results['before']),failures=fail,construction_acceptance=False,limits=r['limits']);(B/'reports'/output).write_text(json.dumps(q,indent=2));print('R96',q['before_intrusion_failures'],'old failures;',len(fail),'new failures',fail);assert not fail

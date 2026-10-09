@@ -1,0 +1,22 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R98_UST_KOPRU_DUVAR_SINIRI_v001.blend",
+  "base_scene": "MUDAM_R97_SERVIS_MERDIVENI_v003.blend",
+  "closed_objects": [
+    "R45_STAIR_RECESS_CONTINUOUS",
+    "R04_RECESS_HEAD",
+    "R04_RECESS_TOP_LINTEL"
+  ],
+  "changed_inherited_objects": [
+    "R45_STAIR_RECESS_CONTINUOUS",
+    "R04_RECESS_HEAD",
+    "R04_RECESS_TOP_LINTEL"
+  ],
+  "upper_z": 4.859074784676003,
+  "source_boundary_y": 555.5,
+  "construction_acceptance": false,
+  "limits": [
+    "103 upper plan bridge north edge y555..556; local topology correction, not survey dimensional acceptance.",
+    "Only identified stair-wall intrusion corrected. Other marked upper room/roof and lift areas remain under review.",
+    "All inherited stair treads, lower walls and floor retained."
+  ]
+}

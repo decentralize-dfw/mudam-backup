@@ -1202,5 +1202,43 @@
     "image": "R96_after_front_cut.png",
     "description": "R96: Küçük batı galerisini kesen iki eski zemin kat duvarı üst döşeme altında sonlandırıldı. 2016 iç oda ile 103 merdiven kabuğunun farklı ölçekleri uzlaştırıldı; iki iç duvar kopyası kaldırıldı, kafe üzerine taşan +1 döşemesi daraltıldı. Okuma alanının doğusundaki eksik oda, servis merdiveni sınırı ve üst asansör kuyusu yüzleri kaynak planıyla üretildi. Kafe çatısına fotoğrafta görünen alt çubuk sistemi aday ölçülerle eklendi.",
     "limits": "Yerel plan kaydı ve çelik çubuk ölçüleri adaydır. Servis merdiveni basamakları, bütün katlar arasında devamlılık ve kesin imalat ölçüleri açık. Bina tamamlanmış sayılmadı."
+  },
+  {
+    "id": "R97",
+    "checks": [
+      "R97_verification.json",
+      "R97_R96_regression.json",
+      "R97_global_audit.json",
+      "R97_inherited_verification.json"
+    ],
+    "tasks": [
+      "P07",
+      "P09",
+      "P17"
+    ],
+    "report": "R97_KONTROL_RAPORU.md",
+    "title": "Servis merdiveni ve kat bağlantısı / R97",
+    "image": "R97_after_service_top.png",
+    "description": "Servis merdivenine 24 basamak/sahanlık parçası eklendi; yolu kesen alt kat tavanı ve giriş duvarı yerel olarak açıldı. Yedi kuyu duvarı iki kat arasında devam ettirildi. 110 yerel kontrol ve önceki duvar/cam düzeltmelerinin gerileme kontrolü geçti.",
+    "limits": "Plan sembolündeki 24 bölme ölçülmüş rıht sayısı değildir. Dönüş yönü, rıht yüksekliği ve sahanlık aday; korkuluk ve alt kata devam ilişkisi açık. Bütün bina kabulü yapılmadı."
+  },
+  {
+    "id": "R98",
+    "checks": [
+      "R98_verification.json",
+      "R98_global_audit.json",
+      "R98_inherited_verification.json",
+      "R98_R97_regression.json"
+    ],
+    "tasks": [
+      "P07",
+      "P09",
+      "P20"
+    ],
+    "report": "R98_KONTROL_RAPORU.md",
+    "title": "Üst kat köprüsü duvar taşması / R98",
+    "image": "R98_after_front_cut.png",
+    "description": "+1 kat köprüsüne taşan merdiven arka duvarı, üst başlık ve lento üç parçada kaynak plan sınırına çekildi. Aynı 118 yerel karşılaştırmada önceki 116 taşma yeni sahnede sıfır. Diğer işaretli bölgeler henüz tamamlanmadı.",
+    "limits": "Asansör çevresi, Studio/servis odası dışındaki kat ilişkileri ve son iki galeri duvar–döşeme işareti açık. Bu paket yalnız köprüye taşan duvarı düzeltir."
   }
 ]

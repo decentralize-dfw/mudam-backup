@@ -44,6 +44,13 @@ if upper_report.exists() and rev and int(rev[1])>=85:
 side_report=B/'reports/R81_build_report.json'
 if side_report.exists():
  for name,p in json.loads(side_report.read_text())['native_side_volumes'].items():regions.append(dict(id='FOYER_SIDE_'+name,level='LM1',z=Z['Z_LM1_FINISH'],poly=[[x*s+dx,y*s+dy] for x,y in p]))
+# R96 reconciles the small upper room to103 and restores the omitted east Documentation room.
+if rev and int(rev[1])>=96:
+ r96=json.loads((B/'reports/R96_build_report.json').read_text())
+ for reg in regions:
+  if reg['id']=='PETITE_WEST':reg['poly']=uvpoly(1164.18,1248.43,488,574.43)
+  if reg['id']=='PETITE_OUTER_LP1':reg['poly']=uvpoly(1160.61,1252,452,578)
+ regions.append(dict(id='DOCUMENTATION_EAST',level='LP1',z=UP,poly=r96['documentation_east_room']))
 verts=[];faces=[];owners=[];names=[];deps=bpy.context.evaluated_depsgraph_get()
 for ob in bpy.context.scene.objects:
  if ob.type!='MESH' or ob.hide_render or not ob.visible_get() or ob.get('level_id')=='SITE':continue

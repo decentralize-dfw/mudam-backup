@@ -1,5 +1,5 @@
 {
-  "as_of_revision": "R96",
+  "as_of_revision": "R98",
   "basis": "Beş eşit iş adımı: tamam 20, kısmi 10, bekleyen 0 puan. Yaklaşık kapsam ilerlemesidir; ölçü doğruluğu veya harcanan süre oranı değildir. Yeni paket kabulünde ilgili adımlar yeniden değerlendirilir.",
   "tasks": {
     "P00": {
@@ -555,8 +555,8 @@
       ]
     }
   },
-  "last_reviewed_checkpoint": "R95",
-  "last_review_note": "R96: Küçük batı galerisini kesen iki eski zemin kat duvarı üst döşeme altında sonlandırıldı. 2016 iç oda ile 103 merdiven kabuğunun farklı ölçekleri uzlaştırıldı; iki iç duvar kopyası kaldırıldı, kafe üzerine taşan +1 döşemesi daraltıldı. Okuma alanının doğusundaki eksik oda, servis merdiveni sınırı ve üst asansör kuyusu yüzleri kaynak planıyla üretildi. Kafe çatısına fotoğrafta görünen alt çubuk sistemi aday ölçülerle eklendi.",
+  "last_reviewed_checkpoint": "R98",
+  "last_review_note": "+1 kat köprüsüne taşan merdiven arka duvarı, üst başlık ve lento üç parçada kaynak plan sınırına çekildi. Aynı 118 yerel karşılaştırmada önceki 116 taşma yeni sahnede sıfır. Diğer işaretli bölgeler henüz tamamlanmadı.",
   "execution_order": [
     "Bina kabuğu: tüm duvarlar, zeminler, çatılar ve birleşimler",
     "Merdivenler ve sahanlıklar",
@@ -567,7 +567,7 @@
     "Malzeme ve yüzey detayları",
     "Çevre düzenlemesi"
   ],
-  "current_priority": "+1 plan bütünlüğü: oda–merdiven–asansör sınırları, kaynak kaydı ve tüm bina duvar/döşeme/örtü bağlantıları.",
-  "review_note": "R96: Küçük batı galerisini kesen iki eski zemin kat duvarı üst döşeme altında sonlandırıldı. 2016 iç oda ile 103 merdiven kabuğunun farklı ölçekleri uzlaştırıldı; iki iç duvar kopyası kaldırıldı, kafe üzerine taşan +1 döşemesi daraltıldı. Okuma alanının doğusundaki eksik oda, servis merdiveni sınırı ve üst asansör kuyusu yüzleri kaynak planıyla üretildi. Kafe çatısına fotoğrafta görünen alt çubuk sistemi aday ölçülerle eklendi.",
-  "last_reviewed_revision": "R95"
+  "current_priority": "Kullanıcının +1 kat işaretleri ve iki yeni galeri duvar–döşeme boşluğu. Bu bölgeler açık; kapı/malzeme detayına geçilmedi.",
+  "review_note": "+1 kat köprüsüne taşan merdiven arka duvarı, üst başlık ve lento üç parçada kaynak plan sınırına çekildi. Aynı 118 yerel karşılaştırmada önceki 116 taşma yeni sahnede sıfır. Diğer işaretli bölgeler henüz tamamlanmadı.",
+  "last_reviewed_revision": "R98"
 }
