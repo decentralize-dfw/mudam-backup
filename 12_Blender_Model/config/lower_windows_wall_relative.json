@@ -1,0 +1,28 @@
+{
+  "base_scene": "MUDAM_R53_GALERI_NIS_YUZEY_v002.blend",
+  "source_ids": ["004", "116", "104", "OSM"],
+  "historic_wall_object": "R35_WALL_51946353_00_0",
+  "historic_path": "51946353",
+  "wall_segment": 0,
+  "centers_along_wall_m": [22.84, 28.32, 33.8, 39.28, 44.76],
+  "outer_depth_from_wall_center_m": -0.45,
+  "glass_depth_from_wall_center_m": 0.65,
+  "outer_width_m": 2.4,
+  "inner_width_m": 1.3,
+  "outer_sill_z": -3.25,
+  "inner_sill_z": -2.95,
+  "glass_head_z": -1.6,
+  "historic_top_z": -0.8,
+  "jamb_thickness_m": 0.12,
+  "frame_width_m": 0.065,
+  "frame_depth_m": 0.10,
+  "glass_thickness_m": 0.018,
+  "status": "conditional_wall_relative_exterior_candidate",
+  "limits": [
+    "004/116 show five top-open notches in the historic wall with light stone sides/sills and recessed dark frames. No isolated head slab is added.",
+    "Positions follow conditional photo116 rays on the OSM wall interior plane; equal spacing is rounded from the study. This is not a metric camera or survey.",
+    "Wall width, heights, window sizes and reveal dimensions remain candidates. OSM plan registration is uncertain and carries no reliable elevations.",
+    "104 omits the nonpublic rooms behind these windows; no interior room identity or plan is invented.",
+    "Only local historic wall and pre-existing lower R27 facade cells may be cut. Upper gallery windows, public floors and room walls remain unchanged."
+  ]
+}

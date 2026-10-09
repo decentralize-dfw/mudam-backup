@@ -1,0 +1,27 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R52_GALERI_CAM_HIZA_v009.blend",
+  "reviewed_images": [
+    "R52_inside_bay2.png",
+    "R52_inside_bay4.png",
+    "R52_two_windows.png",
+    "R52_photo116.png"
+  ],
+  "scope": "conditional room-boundary coordination; not exact camera/metric acceptance",
+  "rejected_trials": {
+    "v001": "opaque R33 wall across glazing",
+    "v002": "missing interior wall sections",
+    "v003-v004": "full-height return boxes and pier cut produced projections",
+    "v005-v006": "inherited pier still obscured glazing",
+    "v007": "intermediate aperture adjustment, not released",
+    "v008": "threshold extended beyond recessed lower wall"
+  },
+  "limits": [
+    "PDF2016 page5 room boundary sets candidate glazing planes; second width transferred from first, not measured.",
+    "061/062 exact camera and window identities unresolved; topology and wood/white gallery family only.",
+    "R27 facade opening spacing and splay remain conditional. R52 coordinates aperture volumes without changing source floor or cloakroom.",
+    "Frame, glass, reveal thicknesses and sill/head elevations are inherited visualization candidates.",
+    "A01 plan boundary discrepancy coordinated, source uncertainty remains open; not construction acceptance."
+  ],
+  "failures": [],
+  "construction_acceptance": false
+}

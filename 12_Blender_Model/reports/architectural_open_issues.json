@@ -1,7 +1,7 @@
 [
   {
     "id": "A01",
-    "status": "open",
+    "status": "plan_boundary_coordinated_candidate_R52",
     "priority": "high",
     "topic": "R27 front windows versus R28 gallery boundary",
     "evidence": [
@@ -9,9 +9,12 @@
       "R34_exterior.png",
       "062",
       "102",
-      "PDF2016"
+      "PDF2016",
+      "R52_KONTROL_RAPORU.md",
+      "R52_verification.json",
+      "R52_visual_review.json"
     ],
-    "detail": "Second candidate front window lies beyond source gallery polygon; 062 exact room/face unverified. Do not expand floor to fit a photograph without source identity. R36 v002 deeper glazing was rejected after3 rays hit R33_WALL_CLOAK_W. FinalR36v003 preserves previousXY."
+    "detail": "R52v009 moves both glazing backplanes to PDF2016 room steps; original floor and cloakroom unchanged. R33 aperture and R27 pier interference coordinated. Second window width transferred from first; exact061/062 camera identity and facade/reveal dimensions unresolved. Not metric or construction acceptance."
   },
   {
     "id": "A02",
@@ -63,16 +66,19 @@
   },
   {
     "id": "A06",
-    "status": "open_rejected_R40",
+    "status": "wall_relative_candidate_R54_registration_open",
     "priority": "high",
     "topic": "Lower facade windows and historic-wall registration",
     "evidence": [
       "004",
       "116",
       "104",
-      "R40_VISUAL_REJECTION.json"
+      "R40_VISUAL_REJECTION.json",
+      "R54_KONTROL_RAPORU.md",
+      "R54_projection_audit.json",
+      "R54_verification.json"
     ],
-    "detail": "Five windows/source topology confirmed; trial reveals detached from historic wall, rejected despite passing solid/ray checks. Solve wall-relative alignment before adding detailed windows; room identities unknown."
+    "detail": "Five top-open wall notches and glazing candidates coordinate with the existing historic wall in R54v002. R40 closed floating reveal boxes remain rejected. 45 glass rays,5 top-open and10 retained-wall-volume probes pass. OSM/historic wall versus modern lower facade registration still conflicts near first two windows; nearest surfaces are explicitly reported. Sizes/heights and nonpublic room identities unresolved."
   },
   {
     "id": "A07",

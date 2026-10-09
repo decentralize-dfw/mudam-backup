@@ -166,13 +166,13 @@
       "acceptance": "Bütün plan açıklıkları sayılmış; ölçü güveni ayrı",
       "status": "in_progress",
       "open_issues": [
-        "20 tavan hücresi; 230 kapsama, 18 geçit ışını ve 78 dolaşım örneği geçti. Kot/kalınlık/derz koşullu. Asma tavan tesisatı ve armatür yerleşimi çözülmedi."
+        "İki cam düzlemi plan sınırına taşındı; 22 parça, galeri duvarı boşluğu ve taş ayak birleşimi işlendi. Döşeme ve vestiyer korundu; yeniden açma ve dolaşım kontrolleri geçti. İkinci pencere genişliği, kaynak kamera eşlemesi, niş ölçüleri ve montaj detayları koşullu. Önceki sekiz deneme ana sürüme alınmadı."
       ],
       "updated": "2026-10-08",
       "dependency_mode": "regional_study_only_no_global_acceptance",
       "artifacts": [
-        "12_Blender_Model/scenes/MUDAM_R39_GIRIS_TAVAN_BUTUNLUGU_v001.blend",
-        "12_Blender_Model/reports/R39_KONTROL_RAPORU.md"
+        "12_Blender_Model/scenes/MUDAM_R52_GALERI_CAM_HIZA_v009.blend",
+        "12_Blender_Model/reports/R52_KONTROL_RAPORU.md"
       ]
     },
     {
@@ -249,8 +249,8 @@
       "updated": "2026-10-08",
       "dependency_mode": "regional_study_only_no_global_acceptance",
       "artifacts": [
-        "12_Blender_Model/scenes/MUDAM_R18_PAVYON_GECIT_DETAY_v002.blend",
-        "12_Blender_Model/reports/R18_PAVYON_GECIT_RAPORU.md"
+        "12_Blender_Model/scenes/MUDAM_R52_GALERI_CAM_HIZA_v009.blend",
+        "12_Blender_Model/reports/R52_KONTROL_RAPORU.md"
       ]
     },
     {
@@ -263,11 +263,11 @@
       "acceptance": "Köşe dönüşü, fiziksel modül ve kesim sırası tutarlı",
       "status": "in_progress",
       "open_issues": [
-        "35 mineral yüzey ve 42 metal parça kaynak fotoğraflarıyla işlendi. 2.678 UV yüzü kontrol edildi; 7.420 geometri nesnesi önceki sahneyle tam aynı. Taş türü, alaşım, tanecik ölçeği ve renk/pürüzlülük ölçülmedi. Görünüm adayıdır; eklemeli derz veya deplasman yok."
+        "28 nesne / 168 yüzde taş, plak eşik ve mineral tavan altı görünümü; 7.726 hesaplanan geometri nesnesi aynı kaldı. Malzeme ailesi ve görünüm adayı; derz modülleri, renk ve mineral türü ölçülmedi. Fotoğraf veya imalat kalibrasyonu yok."
       ],
       "artifacts": [
-        "12_Blender_Model/scenes/MUDAM_R49_ALT_MERDIVEN_YUZEY_v001.blend",
-        "12_Blender_Model/reports/R49_KONTROL_RAPORU.md"
+        "12_Blender_Model/scenes/MUDAM_R53_GALERI_NIS_YUZEY_v002.blend",
+        "12_Blender_Model/reports/R53_KONTROL_RAPORU.md"
       ]
     },
     {
@@ -280,11 +280,11 @@
       "acceptance": "Kapı boşluğu/kanadı ayrılmış; eşik, kasa ve söve tamam",
       "status": "in_progress",
       "open_issues": [
-        "003/004/005/116 dış görselleriyle beş niş, iki cam açıklık ve tam genişlikte eğimli ara ayaklar işlendi. 30 kapalı parça ve 18 açıklık ışını kontrol edildi. Yerleşim ve ölçüler koşullu. 061/062 iç fotoğraflarının bu cepheyle kesin eşlemesi yok; çevre odalar ve alt kat cephe açıklıkları tamamlanmadı."
+        "Beş üstü açık tarihî duvar çentiği, 45 yeni parça; 60 açıklık/duvar kontrolü ve alt galeri regresyonu geçti. Duvarla bina kaydı ilk iki pencere yanında açık; bütün kot ve boyutlar koşullu. 1,62 px kalıntı bağımsız ölçü doğrulaması değildir."
       ],
       "artifacts": [
-        "12_Blender_Model/scenes/MUDAM_R27_GALERI_NIS_REVIZYON_v001.blend",
-        "12_Blender_Model/reports/R27_GALERI_NIS_RAPORU.md"
+        "12_Blender_Model/scenes/MUDAM_R54_TARIHI_DUVAR_ALT_CAM_v002.blend",
+        "12_Blender_Model/reports/R54_KONTROL_RAPORU.md"
       ]
     },
     {
@@ -302,7 +302,7 @@
       "updated": "2026-10-08",
       "dependency_mode": "regional_checkpoint_no_global_acceptance",
       "artifacts": [
-        "12_Blender_Model/scenes/MUDAM_R51_ANA_CATI_GOLGELIK_v001.blend",
+        "12_Blender_Model/scenes/MUDAM_R54_TARIHI_DUVAR_ALT_CAM_v002.blend",
         "12_Blender_Model/reports/P19_P21_ONIZLEME_RAPORU.md"
       ]
     },
@@ -318,11 +318,11 @@
       "acceptance": "Tavan, döşeme, kapı ve sabit donanım kontrol edilmiş",
       "status": "in_progress",
       "open_issues": [
-        "35 mineral yüzey ve 42 metal parça kaynak fotoğraflarıyla işlendi. 2.678 UV yüzü kontrol edildi; 7.420 geometri nesnesi önceki sahneyle tam aynı. Taş türü, alaşım, tanecik ölçeği ve renk/pürüzlülük ölçülmedi. Görünüm adayıdır; eklemeli derz veya deplasman yok."
+        "28 nesne / 168 yüzde taş, plak eşik ve mineral tavan altı görünümü; 7.726 hesaplanan geometri nesnesi aynı kaldı. Malzeme ailesi ve görünüm adayı; derz modülleri, renk ve mineral türü ölçülmedi. Fotoğraf veya imalat kalibrasyonu yok."
       ],
       "artifacts": [
-        "12_Blender_Model/scenes/MUDAM_R49_ALT_MERDIVEN_YUZEY_v001.blend",
-        "12_Blender_Model/reports/R49_KONTROL_RAPORU.md"
+        "12_Blender_Model/scenes/MUDAM_R53_GALERI_NIS_YUZEY_v002.blend",
+        "12_Blender_Model/reports/R53_KONTROL_RAPORU.md"
       ]
     },
     {
@@ -338,13 +338,13 @@
       "acceptance": "Kanıtlı ayrıntılar ile temsilî bölgeler açıkça ayrılmış",
       "status": "in_progress",
       "open_issues": [
-        "028/029 ile dört geniş yüz: 168 panel dizisi ve 3.816 kapalı lamel. Dar şeritler açık bırakıldı; panel sınırı ve cam mesafesi denetlendi. Adım, kesit, açı ve cam mesafesi aday; gizli çalıştırma ve taşıyıcı bağlantı çözümü yok."
+        "Okuma odası/tavanı/24 kollu armatür; iki üst galeri, ışıklıkları, Studio ve asansör sahanlığı üretildi. Fotoğraf kimlikleri, kesin ölçüler ve sabit donanım eksikleri açık."
       ],
       "updated": "2026-10-08",
       "dependency_mode": "regional_checkpoint_no_global_acceptance",
       "artifacts": [
-        "12_Blender_Model/scenes/MUDAM_R51_ANA_CATI_GOLGELIK_v001.blend",
-        "12_Blender_Model/reports/R51_KONTROL_RAPORU.md"
+        "12_Blender_Model/scenes/MUDAM_R54_TARIHI_DUVAR_ALT_CAM_v002.blend",
+        "12_Blender_Model/reports/P19_P21_ONIZLEME_RAPORU.md"
       ]
     },
     {
@@ -358,11 +358,11 @@
       "acceptance": "Arazi kotunun güven düzeyi belli; bağlantılar havada değil",
       "status": "in_progress",
       "open_issues": [
-        "OSM çizgileriyle 20 duvar parçası ve ilk hendek zemini kuruldu. 21 kapalı hacim ve 122 köprü rota örneği denetlendi. Arazi kotları, duvar kalınlığı ve düz zemin temsilîdir. Moloz taş, tarihî açıklıklar, diğer hendek kolları ve park bitirilmedi."
+        "Beş üstü açık tarihî duvar çentiği, 45 yeni parça; 60 açıklık/duvar kontrolü ve alt galeri regresyonu geçti. Duvarla bina kaydı ilk iki pencere yanında açık; bütün kot ve boyutlar koşullu. 1,62 px kalıntı bağımsız ölçü doğrulaması değildir."
       ],
       "artifacts": [
-        "12_Blender_Model/scenes/MUDAM_R35_HENDEK_CEVRE_ETUDU_v001.blend",
-        "12_Blender_Model/reports/R35_HENDEK_CEVRE_RAPORU.md"
+        "12_Blender_Model/scenes/MUDAM_R54_TARIHI_DUVAR_ALT_CAM_v002.blend",
+        "12_Blender_Model/reports/R54_KONTROL_RAPORU.md"
       ]
     },
     {
@@ -378,13 +378,13 @@
       "acceptance": "Doku ölçeği tutarlı; cam ve yansıma farklı açılarda testli",
       "status": "in_progress",
       "open_issues": [
-        "028/029 ile dört geniş yüz: 168 panel dizisi ve 3.816 kapalı lamel. Dar şeritler açık bırakıldı; panel sınırı ve cam mesafesi denetlendi. Adım, kesit, açı ve cam mesafesi aday; gizli çalıştırma ve taşıyıcı bağlantı çözümü yok."
+        "Şeffaf cam, koyu profiller, taş/ahşap UV adayları ve genel gündüz önizlemesi mevcut. Renk ve fiziksel ışık kalibrasyonu açık."
       ],
       "updated": "2026-10-08",
       "dependency_mode": "regional_checkpoint_no_global_acceptance",
       "artifacts": [
-        "12_Blender_Model/scenes/MUDAM_R51_ANA_CATI_GOLGELIK_v001.blend",
-        "12_Blender_Model/reports/R51_KONTROL_RAPORU.md"
+        "12_Blender_Model/scenes/MUDAM_R54_TARIHI_DUVAR_ALT_CAM_v002.blend",
+        "12_Blender_Model/reports/P19_P21_ONIZLEME_RAPORU.md"
       ]
     },
     {
@@ -418,12 +418,12 @@
       "acceptance": "Birim/eksen/malzeme geri yüklemede doğru; performans ölçülmüş",
       "status": "in_progress",
       "open_issues": [
-        "7060 mesh / 850676 üçgen GLB aktarımı denetlendi; hedef motor ve sadeleştirme açık."
+        "7117 mesh / 851636 üçgen GLB aktarımı denetlendi; hedef motor ve sadeleştirme açık."
       ],
       "updated": "2026-10-08",
       "dependency_mode": "regional_checkpoint_no_global_acceptance",
       "artifacts": [
-        "12_Blender_Model/scenes/MUDAM_R51_ANA_CATI_GOLGELIK_v001.blend",
+        "12_Blender_Model/scenes/MUDAM_R54_TARIHI_DUVAR_ALT_CAM_v002.blend",
         "12_Blender_Model/reports/P19_P21_ONIZLEME_RAPORU.md"
       ]
     },
@@ -460,5 +460,5 @@
     "P20",
     "P21"
   ],
-  "latest_scene": "12_Blender_Model/scenes/MUDAM_R51_ANA_CATI_GOLGELIK_v001.blend"
+  "latest_scene": "12_Blender_Model/scenes/MUDAM_R54_TARIHI_DUVAR_ALT_CAM_v002.blend"
 }

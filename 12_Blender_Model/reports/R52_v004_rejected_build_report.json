@@ -1,0 +1,130 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R52_GALERI_CAM_HIZA_v004.blend",
+  "base_scene": "MUDAM_R51_ANA_CATI_GOLGELIK_v001.blend",
+  "changed_inherited_objects": [
+    "R27_BAY_2_FRAME_L",
+    "R27_BAY_2_FRAME_R",
+    "R27_BAY_2_FRAME_B",
+    "R27_BAY_2_FRAME_T",
+    "R27_BAY_2_GLASS",
+    "R27_BAY_4_FRAME_L",
+    "R27_BAY_4_FRAME_R",
+    "R27_BAY_4_FRAME_B",
+    "R27_BAY_4_FRAME_T",
+    "R27_BAY_4_GLASS",
+    "R33_WALL_GALLERY_E_S",
+    "R27_BAY_4_SLOPING_PIER"
+  ],
+  "closed_objects": [
+    "R52_BAY_2_FRAME_L",
+    "R52_BAY_2_FRAME_R",
+    "R52_BAY_2_FRAME_B",
+    "R52_BAY_2_FRAME_T",
+    "R52_BAY_2_GLASS",
+    "R52_BAY_2_THRESHOLD",
+    "R52_BAY_2_SOFFIT",
+    "R52_BAY_2_REVEAL_L",
+    "R52_BAY_2_REVEAL_R",
+    "R52_BAY_2_INTERIOR_HEAD",
+    "R52_BAY_4_FRAME_L",
+    "R52_BAY_4_FRAME_R",
+    "R52_BAY_4_FRAME_B",
+    "R52_BAY_4_FRAME_T",
+    "R52_BAY_4_GLASS",
+    "R52_BAY_4_THRESHOLD",
+    "R52_BAY_4_SOFFIT",
+    "R52_BAY_4_REVEAL_L",
+    "R52_BAY_4_REVEAL_R",
+    "R52_GALLERY_FRONT_LINER_0",
+    "R52_GALLERY_FRONT_LINER_1",
+    "R52_GALLERY_FRONT_LINER_2"
+  ],
+  "windows": [
+    {
+      "bay": 2,
+      "glass": "R52_BAY_2_GLASS",
+      "back_canonical": [
+        [
+          334.27005932,
+          559.74486845
+        ],
+        [
+          356.21290312,
+          559.74486845
+        ]
+      ],
+      "left": [
+        35.22276306152344,
+        -0.41650131344795227,
+        0.0
+      ],
+      "right": [
+        33.44767761230469,
+        1.4924663305282593,
+        0.0
+      ],
+      "outward": [
+        0.7323233485221863,
+        0.680957019329071,
+        0.0
+      ],
+      "front": [
+        [
+          35.6226921081543,
+          -0.3575693666934967,
+          0.0
+        ],
+        [
+          35.754669189453125,
+          3.440138101577759,
+          0.0
+        ]
+      ],
+      "width": 2.6067385117352764
+    },
+    {
+      "bay": 4,
+      "glass": "R52_BAY_4_GLASS",
+      "back_canonical": [
+        [
+          385.53728687,
+          611.00422358
+        ],
+        [
+          407.48013067,
+          611.00422358
+        ]
+      ],
+      "left": [
+        35.53488540649414,
+        8.190274238586426,
+        0.0
+      ],
+      "right": [
+        33.75979995727539,
+        10.099242210388184,
+        0.0
+      ],
+      "outward": [
+        0.73232501745224,
+        0.6809553503990173,
+        0.0
+      ],
+      "front": [
+        [
+          35.974510192871094,
+          9.766319274902344,
+          0.0
+        ],
+        [
+          36.10648727416992,
+          13.564027786254883,
+          0.0
+        ]
+      ],
+      "width": 2.6067387403912843
+    }
+  ],
+  "construction_acceptance": false,
+  "visual_acceptance": false
+}

@@ -1,8 +1,8 @@
 {
-  "file": "12_Blender_Model/exports/MUDAM_R51_ANA_CATI_GOLGELIK_v001_preview.glb",
-  "size_bytes": 33842004,
-  "mesh_nodes": 7060,
-  "triangles": 850676,
+  "file": "12_Blender_Model/exports/MUDAM_R54_TARIHI_DUVAR_ALT_CAM_v002_preview.glb",
+  "size_bytes": 34056012,
+  "mesh_nodes": 7117,
+  "triangles": 851636,
   "world_bounds_glTF": [
     [
       -42.32527542114258,
@@ -56,6 +56,16 @@
     {
       "name": "R46_stone_grain_candidate_basecolor",
       "embedded_bytes": 353633,
+      "mime": "image/png"
+    },
+    {
+      "name": "R53_soffit_linear_grain_candidate_normal",
+      "embedded_bytes": 67224,
+      "mime": "image/png"
+    },
+    {
+      "name": "R53_soffit_linear_grain_candidate_basecolor",
+      "embedded_bytes": 34974,
       "mime": "image/png"
     }
   ],

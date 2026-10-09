@@ -1,0 +1,66 @@
+{
+  "sources": [
+    {
+      "id": "004",
+      "path": "05_Dis_Mekan/Cepheler/004_Tas_cephe_ve_cam_pavyon_WikiArquitectura.jpg",
+      "sha256": "da6a7a25af60c49b8e770b7ee1ae2273a06b4d02e837676bbeed5c32c2e5edd7",
+      "source_url": "https://es.wikiarquitectura.com/edificio/museo-de-arte-moderno-grand-duc-jean-mudam/",
+      "credit": "WikiArquitectura; sayfadaki fotoğraf serisi Haziran 2019",
+      "source_date": "unknown; do not infer from download date",
+      "modified": false
+    },
+    {
+      "id": "061",
+      "path": "04_Ic_Mekan/Galeriler/061_Galeri_sergi_ve_pencere_WikiArquitectura.jpg",
+      "sha256": "ad808eef83014eb9e746428531d1d1f0121741e9a23f8e27f3d0f0e3a0d99fd8",
+      "source_url": "https://es.wikiarquitectura.com/edificio/museo-de-arte-moderno-grand-duc-jean-mudam/",
+      "credit": "WikiArquitectura; sayfadaki fotoğraf serisi Haziran 2019",
+      "source_date": "unknown; do not infer from download date",
+      "modified": false
+    },
+    {
+      "id": "062",
+      "path": "04_Ic_Mekan/Galeriler/062_Galeri_sergi_ve_pencere_WikiArquitectura.jpg",
+      "sha256": "2e4c396a010fc4efcb58e25d849a5a912dbbc1893c03073c162268111ceeb016",
+      "source_url": "https://es.wikiarquitectura.com/edificio/museo-de-arte-moderno-grand-duc-jean-mudam/",
+      "credit": "WikiArquitectura; sayfadaki fotoğraf serisi Haziran 2019",
+      "source_date": "unknown; do not infer from download date",
+      "modified": false
+    },
+    {
+      "id": "102",
+      "path": "01_Kat_Planlari/Resmi_Kat_Semalari/102_Resmi_kat_semasi_zemin_0_Mudam.jpeg",
+      "sha256": "f4d1d1992e1e2d664d5bf5fddd6aedd760edb2931f398e52b5e13316acec2407",
+      "source_url": "https://www.mudam.com/fr/floor-plans",
+      "credit": "Mudam Luxembourg; kullanıcı tarafından verilen doğrudan bağlantı",
+      "source_date": "unknown; do not infer from download date",
+      "modified": false
+    },
+    {
+      "id": "116",
+      "path": "05_Dis_Mekan/Havadan_Gorunum/116_Muze_havadan_genel_gorunum_Mudam.webp",
+      "sha256": "784be291590f0a0a4769101276af543f08a4aae81e22037ea10653a30705f844",
+      "source_url": "https://www.mudam.com/visit/architecture",
+      "credit": "© Christian Aschman / Mudam Luxembourg (resmî sayfa atfı)",
+      "source_date": "unknown; do not infer from download date",
+      "modified": false
+    },
+    {
+      "id": "PDF2016",
+      "path": "08_Belgeler/Mudam_Wim_Delvoye_2016_kat_semalari.pdf",
+      "sha256": "f2b04806918ac0ac6ac2e8cad98b3cdd143986b62fe102410aeca6b5aa101128",
+      "source_url": null,
+      "credit": "Mudam, Wim Delvoye 2016 press kit, page 5; existing local calibration source",
+      "source_date": "2016",
+      "modified": false,
+      "provenance_gap": "Exact original download URL not retained in local inventory"
+    }
+  ],
+  "limits": [
+    "PDF2016 page5 room boundary sets candidate glazing planes; second width transferred from first, not measured.",
+    "061/062 exact camera and window identities unresolved; topology and wood/white gallery family only.",
+    "R27 facade opening spacing and splay remain conditional. R52 coordinates aperture volumes without changing source floor or cloakroom.",
+    "Frame, glass, reveal thicknesses and sill/head elevations are inherited visualization candidates.",
+    "A01 plan boundary discrepancy coordinated, source uncertainty remains open; not construction acceptance."
+  ]
+}

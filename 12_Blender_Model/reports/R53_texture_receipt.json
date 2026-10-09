@@ -1,0 +1,27 @@
+{
+  "files": [
+    {
+      "path": "12_Blender_Model/textures/R53_soffit_linear_grain_candidate_basecolor.png",
+      "sha256": "4b2d11d1defceb70a80cfd451e9545b74eaf60925c51941588a28c53ddeaaee4"
+    },
+    {
+      "path": "12_Blender_Model/textures/R53_soffit_linear_grain_candidate_normal.png",
+      "sha256": "0c2ec6fbd00b83e20c551ecae6777904a2e7fd9211263b80c51ab69bf8f3e238"
+    }
+  ],
+  "repeat_m": [
+    3.2,
+    2.4
+  ],
+  "board_width_candidate_m": 0.16,
+  "source_ids": [
+    "061",
+    "062"
+  ],
+  "seed": 5309,
+  "status": "procedural_linear_mineral_appearance_candidate",
+  "limits": [
+    "Photographs support linear grain on the recess underside, but concrete mix, formwork species, board width, colour and roughness are not identified.",
+    "No source image altered or used as a texture scan; no geometry displacement."
+  ]
+}

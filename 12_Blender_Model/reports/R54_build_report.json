@@ -1,0 +1,195 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R54_TARIHI_DUVAR_ALT_CAM_v002.blend",
+  "base_scene": "MUDAM_R53_GALERI_NIS_YUZEY_v002.blend",
+  "closed_objects": [
+    "R54_WINDOW_01_JAMB_L",
+    "R54_WINDOW_01_JAMB_R",
+    "R54_WINDOW_01_SILL",
+    "R54_WINDOW_01_BACK_HEAD",
+    "R54_WINDOW_01_FRAME_L",
+    "R54_WINDOW_01_FRAME_R",
+    "R54_WINDOW_01_FRAME_B",
+    "R54_WINDOW_01_FRAME_T",
+    "R54_WINDOW_01_GLASS",
+    "R54_WINDOW_02_JAMB_L",
+    "R54_WINDOW_02_JAMB_R",
+    "R54_WINDOW_02_SILL",
+    "R54_WINDOW_02_BACK_HEAD",
+    "R54_WINDOW_02_FRAME_L",
+    "R54_WINDOW_02_FRAME_R",
+    "R54_WINDOW_02_FRAME_B",
+    "R54_WINDOW_02_FRAME_T",
+    "R54_WINDOW_02_GLASS",
+    "R54_WINDOW_03_JAMB_L",
+    "R54_WINDOW_03_JAMB_R",
+    "R54_WINDOW_03_SILL",
+    "R54_WINDOW_03_BACK_HEAD",
+    "R54_WINDOW_03_FRAME_L",
+    "R54_WINDOW_03_FRAME_R",
+    "R54_WINDOW_03_FRAME_B",
+    "R54_WINDOW_03_FRAME_T",
+    "R54_WINDOW_03_GLASS",
+    "R54_WINDOW_04_JAMB_L",
+    "R54_WINDOW_04_JAMB_R",
+    "R54_WINDOW_04_SILL",
+    "R54_WINDOW_04_BACK_HEAD",
+    "R54_WINDOW_04_FRAME_L",
+    "R54_WINDOW_04_FRAME_R",
+    "R54_WINDOW_04_FRAME_B",
+    "R54_WINDOW_04_FRAME_T",
+    "R54_WINDOW_04_GLASS",
+    "R54_WINDOW_05_JAMB_L",
+    "R54_WINDOW_05_JAMB_R",
+    "R54_WINDOW_05_SILL",
+    "R54_WINDOW_05_BACK_HEAD",
+    "R54_WINDOW_05_FRAME_L",
+    "R54_WINDOW_05_FRAME_R",
+    "R54_WINDOW_05_FRAME_B",
+    "R54_WINDOW_05_FRAME_T",
+    "R54_WINDOW_05_GLASS"
+  ],
+  "changed_inherited_objects": [
+    "R35_WALL_51946353_00_0",
+    "R27_BAY_1_END_RETURN",
+    "R27_BAY_1_BLIND_BACK",
+    "R27_BAY_2_PIER_BASE",
+    "R27_BAY_2_BASE",
+    "R27_BAY_3_PIER_BASE",
+    "R27_BAY_3_BLIND_BACK",
+    "R27_BAY_4_PIER_BASE",
+    "R27_BAY_4_BASE",
+    "R27_BAY_5_PIER_BASE",
+    "R27_BAY_5_BLIND_BACK"
+  ],
+  "hidden_guides": [
+    "R54_WINDOW_01_HISTORIC_CUTTER",
+    "R54_WINDOW_01_FACADE_CUTTER",
+    "R54_WINDOW_02_HISTORIC_CUTTER",
+    "R54_WINDOW_02_FACADE_CUTTER",
+    "R54_WINDOW_03_HISTORIC_CUTTER",
+    "R54_WINDOW_03_FACADE_CUTTER",
+    "R54_WINDOW_04_HISTORIC_CUTTER",
+    "R54_WINDOW_04_FACADE_CUTTER",
+    "R54_WINDOW_05_HISTORIC_CUTTER",
+    "R54_WINDOW_05_FACADE_CUTTER"
+  ],
+  "windows": [
+    {
+      "id": 1,
+      "glass": "R54_WINDOW_01_GLASS",
+      "t": 22.84,
+      "inner_width": 1.3,
+      "outer_width": 2.4,
+      "head": -1.6,
+      "sill": -2.95,
+      "outer_sill": -3.25,
+      "glass_center": [
+        34.01557922363281,
+        -6.309946537017822,
+        -2.2750000953674316
+      ],
+      "front_center": [
+        35.11075210571289,
+        -6.41288423538208,
+        -2.2750000953674316
+      ]
+    },
+    {
+      "id": 2,
+      "glass": "R54_WINDOW_02_GLASS",
+      "t": 28.32,
+      "inner_width": 1.3,
+      "outer_width": 2.4,
+      "head": -1.6,
+      "sill": -2.95,
+      "outer_sill": -3.25,
+      "glass_center": [
+        34.52839660644531,
+        -0.8539947271347046,
+        -2.2750000953674316
+      ],
+      "front_center": [
+        35.62356948852539,
+        -0.956932544708252,
+        -2.2750000953674316
+      ]
+    },
+    {
+      "id": 3,
+      "glass": "R54_WINDOW_03_GLASS",
+      "t": 33.8,
+      "inner_width": 1.3,
+      "outer_width": 2.4,
+      "head": -1.6,
+      "sill": -2.95,
+      "outer_sill": -3.25,
+      "glass_center": [
+        35.04121398925781,
+        4.601956844329834,
+        -2.2750000953674316
+      ],
+      "front_center": [
+        36.13638687133789,
+        4.499019145965576,
+        -2.2750000953674316
+      ]
+    },
+    {
+      "id": 4,
+      "glass": "R54_WINDOW_04_GLASS",
+      "t": 39.28,
+      "inner_width": 1.3,
+      "outer_width": 2.4,
+      "head": -1.6,
+      "sill": -2.95,
+      "outer_sill": -3.25,
+      "glass_center": [
+        35.55403137207031,
+        10.05790901184082,
+        -2.2750000953674316
+      ],
+      "front_center": [
+        36.64920425415039,
+        9.954970359802246,
+        -2.2750000953674316
+      ]
+    },
+    {
+      "id": 5,
+      "glass": "R54_WINDOW_05_GLASS",
+      "t": 44.76,
+      "inner_width": 1.3,
+      "outer_width": 2.4,
+      "head": -1.6,
+      "sill": -2.95,
+      "outer_sill": -3.25,
+      "glass_center": [
+        36.06684875488281,
+        15.513860702514648,
+        -2.2750000953674316
+      ],
+      "front_center": [
+        37.16202163696289,
+        15.410922050476074,
+        -2.2750000953674316
+      ]
+    }
+  ],
+  "origin": [
+    32.52536392211914,
+    -29.110546112060547,
+    0.0
+  ],
+  "axis": [
+    0.09357984364032745,
+    0.9956117272377014,
+    0.0
+  ],
+  "inside": [
+    -0.9956117272377014,
+    0.09357984364032745,
+    -0.0
+  ],
+  "visual_acceptance": false,
+  "construction_acceptance": false
+}

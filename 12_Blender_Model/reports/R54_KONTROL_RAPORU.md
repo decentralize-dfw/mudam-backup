@@ -1,0 +1,11 @@
+# R54 · Tarihî duvara bağlı beş alt pencere
+
+004 ve 116'da beş küçük pencere, tarihî duvarda üstü açık çentikler ve açık renk taş yan yüz/eşikler görülüyor. R40'ta üst kat niş merkezlerine bağlı kurulan ve duvardan kopan kutular reddedilmişti. R54, pencere merkezlerini **OSM tarihî duvar çizgisine bağlı** yeni bir aday olarak kurar. Kapalı dış başlık kutusu eklenmez; yalnız camın üstündeki arka duvar yüzü kapatılır. 104 bu bölgenin servis odalarını tarif etmediği için arkasına oda planı üretilmedi.
+
+Koşullu fotoğraf 116 kamerasından okunan beş başlık noktası, duvar merkezinden içe 0,65 m aday düzlemle karşılaştırıldı. Yaklaşık 5,48 m eşit aralık, +0 yerine −1,60 m ortak başlık ve −2,95 m iç eşik seçildi. 1,30 m cam genişliği, 2,40 m dış çentik, 0,12 m taş kalınlığı, −3,25 m dış eşik ve −0,80 m tarihî duvar üstü **ölçülmemiş düzenlenebilir adaylardır**. Düzlem, kot ve kamera birbirinden bağımsız doğrulanmış değildir.
+
+Beş başlıkta görüntü kalıntısı 1,62 piksel RMS'dir. Aynı fotoğraf konumları belirlemek için kullanıldığından bu **bağımsız doğrulama veya metrik hata sınırı değildir**. OSM kaydı ve eski alt cephe yüzeyleri ilk iki pencere yanında tam örtüşmez; bazı noktalarda çağdaş alt cephe yüzeyi tarihî duvarın önünde kalır. Bu çelişki A06 kapsamında açık tutulur. Tarihî duvar kalınlığı ve düz kotu arazi etüdüdür.
+
+v001'de ilk pencerenin önünde kalan eski alt cephe parçası v002'de yerel boşlukla giderildi. 45 yeni kapalı parça üretildi; 11 mevcut alt cephe/tarihî duvar parçasına yerel boşluk eklendi. Yeni sahne yeniden açıldı: **56 hacim, 45 cam görüş ışını, 5 üstü açık çentik ve 10 korunmuş tarihî duvar yan hacmi** kontrol edildi. Yan hacim testleri doğrudan tarihî duvarı kontrol eder; ilk üç görüşte öne çıkan çağdaş yüz ayrıca kaydedilir. R29 alt galeri dolaşım kontrolü geçti. Tüm sahnede **7.117 görünür mesh**, sıfır açık/sayısal bulgu; değişiklikler yalnız raporlanan nesnelerde.
+
+116 kamerası, hendek içinden bağlam ve yakın pencere renderları birlikte incelendi. Bu sürüm duvarla bütünleşen dış açıklık adayıdır; gerçek servis odası, imalat detayı, cam ürünü veya tarihî duvarın kesin geometrisi olarak kullanılmaz. A06 kısmen koordine edildi; kesin kaynak eşlemesi ve duvar–bina kaydı açık.

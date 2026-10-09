@@ -1,0 +1,57 @@
+{
+  "method": "Read-only unverified sill-pixel identification at assumed z+.08; not accepted model geometry",
+  "observations": [
+    {
+      "name": "bay2_glass_left_bottom",
+      "pixel": [
+        807,
+        929
+      ],
+      "canonical": [
+        323.71591789398224,
+        548.1930962864603
+      ],
+      "depth": 1.734390566973425,
+      "distance_along": 4.0104098442176
+    },
+    {
+      "name": "bay2_glass_right_bottom",
+      "pixel": [
+        847,
+        921
+      ],
+      "canonical": [
+        346.8177034504611,
+        543.3791242380088
+      ],
+      "depth": 4.076926027977004,
+      "distance_along": 5.550344097558116
+    },
+    {
+      "name": "bay4_glass_left_bottom",
+      "pixel": [
+        953,
+        951
+      ],
+      "canonical": [
+        384.5269693191242,
+        608.4155931140997
+      ],
+      "depth": 1.7676835354562854,
+      "distance_along": 14.177529882866022
+    },
+    {
+      "name": "bay4_glass_right_bottom",
+      "pixel": [
+        999,
+        944
+      ],
+      "canonical": [
+        409.8795132018397,
+        607.3961034387823
+      ],
+      "depth": 3.9797368497751497,
+      "distance_along": 16.225069573117526
+    }
+  ]
+}

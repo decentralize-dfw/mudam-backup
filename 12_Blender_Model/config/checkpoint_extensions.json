@@ -418,5 +418,61 @@
     "image": "R51_upward.png",
     "description": "028/029 ile dört geniş yüz: 168 panel dizisi ve 3.816 kapalı lamel. Dar şeritler açık bırakıldı; panel sınırı ve cam mesafesi denetlendi.",
     "limits": "Adım, kesit, açı ve cam mesafesi aday; gizli çalıştırma ve taşıyıcı bağlantı çözümü yok."
+  },
+  {
+    "id": "R52",
+    "checks": [
+      "R52_verification.json",
+      "R52_inherited_verification.json",
+      "R52_global_audit.json",
+      "R28_regression_on_R52.json",
+      "R33_regression_on_R52.json",
+      "R52_visual_review.json"
+    ],
+    "tasks": [
+      "P08",
+      "P12",
+      "P14"
+    ],
+    "report": "R52_KONTROL_RAPORU.md",
+    "title": "Galeri camı–plan sınırı koordinasyonu / R52",
+    "image": "R52_inside_bay2.png",
+    "description": "İki cam düzlemi plan sınırına taşındı; 22 parça, galeri duvarı boşluğu ve taş ayak birleşimi işlendi. Döşeme ve vestiyer korundu; yeniden açma ve dolaşım kontrolleri geçti.",
+    "limits": "İkinci pencere genişliği, kaynak kamera eşlemesi, niş ölçüleri ve montaj detayları koşullu. Önceki sekiz deneme ana sürüme alınmadı."
+  },
+  {
+    "id": "R53",
+    "checks": [
+      "R53_verification.json",
+      "R53_inherited_verification.json"
+    ],
+    "tasks": [
+      "P13",
+      "P16",
+      "P19"
+    ],
+    "report": "R53_KONTROL_RAPORU.md",
+    "title": "Galeri nişi malzeme sürekliliği / R53",
+    "image": "R53_inside_bay4.png",
+    "description": "28 nesne / 168 yüzde taş, plak eşik ve mineral tavan altı görünümü; 7.726 hesaplanan geometri nesnesi aynı kaldı.",
+    "limits": "Malzeme ailesi ve görünüm adayı; derz modülleri, renk ve mineral türü ölçülmedi. Fotoğraf veya imalat kalibrasyonu yok."
+  },
+  {
+    "id": "R54",
+    "checks": [
+      "R54_verification.json",
+      "R54_inherited_verification.json",
+      "R54_global_audit.json",
+      "R29_regression_on_R54.json"
+    ],
+    "tasks": [
+      "P14",
+      "P18"
+    ],
+    "report": "R54_KONTROL_RAPORU.md",
+    "title": "Tarihî duvara bağlı alt pencereler / R54",
+    "image": "R54_context.png",
+    "description": "Beş üstü açık tarihî duvar çentiği, 45 yeni parça; 60 açıklık/duvar kontrolü ve alt galeri regresyonu geçti.",
+    "limits": "Duvarla bina kaydı ilk iki pencere yanında açık; bütün kot ve boyutlar koşullu. 1,62 px kalıntı bağımsız ölçü doğrulaması değildir."
   }
 ]

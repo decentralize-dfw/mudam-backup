@@ -1,0 +1,43 @@
+{
+  "sources": [
+    {
+      "id": "004",
+      "path": "05_Dis_Mekan/Cepheler/004_Tas_cephe_ve_cam_pavyon_WikiArquitectura.jpg",
+      "sha256": "da6a7a25af60c49b8e770b7ee1ae2273a06b4d02e837676bbeed5c32c2e5edd7",
+      "source_url": "https://es.wikiarquitectura.com/edificio/museo-de-arte-moderno-grand-duc-jean-mudam/",
+      "credit": "WikiArquitectura; sayfadaki fotoğraf serisi Haziran 2019",
+      "source_date": "unknown; do not infer from download date",
+      "modified": false,
+      "sha256_checked": true
+    },
+    {
+      "id": "104",
+      "path": "01_Kat_Planlari/Resmi_Kat_Semalari/104_Resmi_kat_semasi_alt_eksi_1_Mudam.jpeg",
+      "sha256": "985eaa1ee16f67ce3bf64e549e7427c37561d74441017a6595c72fae5faf56de",
+      "source_url": "https://www.mudam.com/fr/floor-plans",
+      "credit": "Mudam Luxembourg; kullanıcı tarafından verilen doğrudan bağlantı",
+      "source_date": "unknown; do not infer from download date",
+      "modified": false,
+      "sha256_checked": true
+    },
+    {
+      "id": "116",
+      "path": "05_Dis_Mekan/Havadan_Gorunum/116_Muze_havadan_genel_gorunum_Mudam.webp",
+      "sha256": "784be291590f0a0a4769101276af543f08a4aae81e22037ea10653a30705f844",
+      "source_url": "https://www.mudam.com/visit/architecture",
+      "credit": "© Christian Aschman / Mudam Luxembourg (resmî sayfa atfı)",
+      "source_date": "unknown; do not infer from download date",
+      "modified": false,
+      "sha256_checked": true
+    }
+  ],
+  "osm_path": "10_Olcekli_Plan_ve_Fotograf_Analizi/kaynak_veri/osm_ways_utm.json",
+  "osm_sha256": "fb805c54850922d05d1a40130b77eec6654c54f2a0b89def5be0c3b3b58a70b0",
+  "limits": [
+    "004/116 show five top-open notches in the historic wall with light stone sides/sills and recessed dark frames. No isolated head slab is added.",
+    "Positions follow conditional photo116 rays on the OSM wall interior plane; equal spacing is rounded from the study. This is not a metric camera or survey.",
+    "Wall width, heights, window sizes and reveal dimensions remain candidates. OSM plan registration is uncertain and carries no reliable elevations.",
+    "104 omits the nonpublic rooms behind these windows; no interior room identity or plan is invented.",
+    "Only local historic wall and pre-existing lower R27 facade cells may be cut. Upper gallery windows, public floors and room walls remain unchanged."
+  ]
+}

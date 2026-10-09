@@ -1,0 +1,33 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R54_TARIHI_DUVAR_ALT_CAM_v002.blend",
+  "images": [
+    {
+      "image": "R54_context.png",
+      "eye": [
+        46.26577377319336,
+        -0.470694899559021,
+        1.7000000476837158
+      ],
+      "target": [
+        35.588802337646484,
+        4.550487995147705,
+        -1.7999999523162842
+      ]
+    },
+    {
+      "image": "R54_detail.png",
+      "eye": [
+        39.53044128417969,
+        2.673391103744507,
+        -1.0
+      ],
+      "target": [
+        35.588802337646484,
+        4.550487995147705,
+        -2.25
+      ]
+    }
+  ],
+  "all_active_surroundings": true,
+  "metric_camera": false
+}

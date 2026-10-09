@@ -1,0 +1,11 @@
+# R52 · Galeri pencereleri ve plan sınırı
+
+2016 resmî planının galeri döşeme sınırı, önceki R27 cephesine paralel cam yerleşimiyle uyuşmuyordu. İlk yatay basamak ve sonraki duvar dönüşü kullanılarak iki cam düzlemi oda sınırına taşındı. **Galeri döşemesi ve vestiyer sınırları değiştirilmedi.** 061/062 fotoğraflarındaki iki sabit pencere, derin taş yan yüzler ve ahşap döşeme ilişkisi referans alındı. 004/116 dış fotoğraflarıyla açıklıkların cephedeki sırası kontrol edildi.
+
+İlk pencere uçları kanonik planda `(334.2701,559.7449)` ve `(356.2129,559.7449)`; ikinci pencere düzlemi `y=611.0042` duvarı üzerinde, başlangıcı `x=385.5373`. İlk genişlik ikinci pencereye aktarıldı: **bu aktarım ölçü değildir**. İkinci uç noktanın tam kimliği ve 061/062 kameraları kesin çözümlenmedi. Yatay ölçek ve kotlar önceki koşullu kalibrasyonu taşır.
+
+22 yeni kapalı parça: iki cam, sekiz doğrama elemanı, iki eşik, iki üst dönüş, dört yan dönüş, bir iç başlık ve üç plan duvarı. Eski on doğrama/cam nesnesi gizlendi. R33 galeri duvarına pencere boşluğu açıldı; ikinci açıklığa taşan eski R27 ayağının üç parçası kesildi. 0,07 m doğrama genişliği, 0,12 m derinlik, 0,018 m cam, +0,08 m eşik, +3,45 m başlık ve yan dönüş kalınlıkları adaydır. Camın içe 20 mm ayrılması eş düzlem görüntü çakışmasını giderir; gerçek montaj toleransı iddiası yoktur.
+
+v001–v008 ana sürüme alınmadı: önce dolu oda duvarı, ardından eksik duvar araları, taş ayakla çakışma ve dışarı uzayan eşik görüldü. v009 eşiği mevcut geri çekilmiş alt duvara oturtur; boşluk kesimi ön cepheye kadar devam eder. Yeni yan dönüşler derin nişi kapatır. Kameraya bağlı taş yüz örtüşmesi ayrıca izlendi; görünür taş yüzün her bakışta kaybolması beklenmez.
+
+Kaydedilen v009 yeniden açıldı. 22 yeni hacim, 18 cam erişim ışını, 6 döşeme kontrolü, 6 dışa görüş tanısı, önceki nesne karşılaştırması ve R28/R33 dolaşım kontrolleri geçti. Bütün sahnede **7.072 görünür mesh**, sıfır açık/sayısal bulgu. Dört render bütün aktif çevre ile incelendi. Bu sonuç yalnız yerel geometri koordinasyonudur; kesin fotoğraf eşlemesi veya rölöve kabulü değildir. A01 artık döşeme dışındaki cam sorunu açısından giderildi; dış taş nişlerin gerçek boyutları, ikinci pencere genişliği ve malzeme bitişleri açık kalır.

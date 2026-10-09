@@ -1,0 +1,536 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R52_GALERI_CAM_HIZA_v009.blend",
+  "closed_mesh_checks": [
+    {
+      "name": "R52_BAY_2_FRAME_L",
+      "volume": 0.02830774840208905,
+      "nonmanifold": 0,
+      "zero": 0
+    },
+    {
+      "name": "R52_BAY_2_FRAME_R",
+      "volume": 0.028307808162637116,
+      "nonmanifold": 0,
+      "zero": 0
+    },
+    {
+      "name": "R52_BAY_2_FRAME_B",
+      "volume": 0.021896149586204006,
+      "nonmanifold": 0,
+      "zero": 0
+    },
+    {
+      "name": "R52_BAY_2_FRAME_T",
+      "volume": 0.021896126280630937,
+      "nonmanifold": 0,
+      "zero": 0
+    },
+    {
+      "name": "R52_BAY_2_GLASS",
+      "volume": 0.1434041183927045,
+      "nonmanifold": 0,
+      "zero": 0
+    },
+    {
+      "name": "R52_BAY_2_THRESHOLD",
+      "volume": 0.9372291747699768,
+      "nonmanifold": 0,
+      "zero": 0
+    },
+    {
+      "name": "R52_BAY_2_SOFFIT",
+      "volume": 0.7029212264304476,
+      "nonmanifold": 0,
+      "zero": 0
+    },
+    {
+      "name": "R52_BAY_2_RETURN_LEFT",
+      "volume": 0.16347783706906593,
+      "nonmanifold": 0,
+      "zero": 0
+    },
+    {
+      "name": "R52_BAY_2_RETURN_RIGHT",
+      "volume": 1.2209718884649874,
+      "nonmanifold": 0,
+      "zero": 0
+    },
+    {
+      "name": "R52_BAY_2_INTERIOR_HEAD",
+      "volume": 0.6405190880024336,
+      "nonmanifold": 0,
+      "zero": 0
+    },
+    {
+      "name": "R52_BAY_4_FRAME_L",
+      "volume": 0.028307840467686862,
+      "nonmanifold": 0,
+      "zero": 0
+    },
+    {
+      "name": "R52_BAY_4_FRAME_R",
+      "volume": 0.02830784046772461,
+      "nonmanifold": 0,
+      "zero": 0
+    },
+    {
+      "name": "R52_BAY_4_FRAME_B",
+      "volume": 0.021896122161135415,
+      "nonmanifold": 0,
+      "zero": 0
+    },
+    {
+      "name": "R52_BAY_4_FRAME_T",
+      "volume": 0.02189609885559185,
+      "nonmanifold": 0,
+      "zero": 0
+    },
+    {
+      "name": "R52_BAY_4_GLASS",
+      "volume": 0.1434060460470808,
+      "nonmanifold": 0,
+      "zero": 0
+    },
+    {
+      "name": "R52_BAY_4_THRESHOLD",
+      "volume": 1.2091606087037405,
+      "nonmanifold": 0,
+      "zero": 0
+    },
+    {
+      "name": "R52_BAY_4_SOFFIT",
+      "volume": 0.9068696119388648,
+      "nonmanifold": 0,
+      "zero": 0
+    },
+    {
+      "name": "R52_BAY_4_RETURN_LEFT",
+      "volume": 0.6616927597875115,
+      "nonmanifold": 0,
+      "zero": 0
+    },
+    {
+      "name": "R52_BAY_4_RETURN_RIGHT",
+      "volume": 1.6923089427490456,
+      "nonmanifold": 0,
+      "zero": 0
+    },
+    {
+      "name": "R52_GALLERY_FRONT_LINER_0",
+      "volume": 3.679687760706277,
+      "nonmanifold": 0,
+      "zero": 0
+    },
+    {
+      "name": "R52_GALLERY_FRONT_LINER_1",
+      "volume": 2.267453193846076,
+      "nonmanifold": 0,
+      "zero": 0
+    },
+    {
+      "name": "R52_GALLERY_FRONT_LINER_2",
+      "volume": 4.285840542281619,
+      "nonmanifold": 0,
+      "zero": 0
+    }
+  ],
+  "rays": [
+    {
+      "bay": 2,
+      "fraction": 0.15,
+      "z": 0.5,
+      "kind": "inside_to_glass",
+      "hit": [
+        0.3800000007529008,
+        "R52_BAY_2_GLASS",
+        [
+          34.94185256958008,
+          -0.1437745988368988,
+          0.5
+        ]
+      ]
+    },
+    {
+      "bay": 2,
+      "fraction": 0.15,
+      "z": 1.5,
+      "kind": "inside_to_glass",
+      "hit": [
+        0.37999994193252323,
+        "R52_BAY_2_GLASS",
+        [
+          34.94185256958008,
+          -0.14377468824386597,
+          1.5
+        ]
+      ]
+    },
+    {
+      "bay": 2,
+      "fraction": 0.15,
+      "z": 2.8,
+      "kind": "inside_to_glass",
+      "hit": [
+        0.3800000007529008,
+        "R52_BAY_2_GLASS",
+        [
+          34.94185256958008,
+          -0.1437745988368988,
+          2.799999952316284
+        ]
+      ]
+    },
+    {
+      "bay": 2,
+      "fraction": 0.15,
+      "kind": "interior_floor",
+      "hit": [
+        1.6499999537612446,
+        "P05_FLOOR_L00_E0",
+        [
+          34.77341842651367,
+          -0.30039548873901367,
+          0.0
+        ]
+      ]
+    },
+    {
+      "bay": 2,
+      "fraction": 0.5,
+      "z": 0.5,
+      "kind": "inside_to_glass",
+      "hit": [
+        0.3800032652695808,
+        "R52_BAY_2_GLASS",
+        [
+          34.32057571411133,
+          0.5243648290634155,
+          0.5
+        ]
+      ]
+    },
+    {
+      "bay": 2,
+      "fraction": 0.5,
+      "z": 1.5,
+      "kind": "inside_to_glass",
+      "hit": [
+        0.3800033436960629,
+        "R52_BAY_2_GLASS",
+        [
+          34.32057571411133,
+          0.5243649482727051,
+          1.5
+        ]
+      ]
+    },
+    {
+      "bay": 2,
+      "fraction": 0.5,
+      "z": 2.8,
+      "kind": "inside_to_glass",
+      "hit": [
+        0.3800033044828239,
+        "R52_BAY_2_GLASS",
+        [
+          34.32057571411133,
+          0.5243648886680603,
+          2.799999952316284
+        ]
+      ]
+    },
+    {
+      "bay": 2,
+      "fraction": 0.5,
+      "kind": "interior_floor",
+      "hit": [
+        1.6499999537612446,
+        "P05_FLOOR_L00_E0",
+        [
+          34.152137756347656,
+          0.36774325370788574,
+          0.0
+        ]
+      ]
+    },
+    {
+      "bay": 2,
+      "fraction": 0.85,
+      "z": 0.5,
+      "kind": "inside_to_glass",
+      "hit": [
+        0.3800038142546161,
+        "R52_BAY_2_GLASS",
+        [
+          33.69929504394531,
+          1.1925042867660522,
+          0.5
+        ]
+      ]
+    },
+    {
+      "bay": 2,
+      "fraction": 0.85,
+      "z": 1.5,
+      "kind": "inside_to_glass",
+      "hit": [
+        0.380003892680985,
+        "R52_BAY_2_GLASS",
+        [
+          33.69929504394531,
+          1.1925044059753418,
+          1.5
+        ]
+      ]
+    },
+    {
+      "bay": 2,
+      "fraction": 0.85,
+      "z": 2.8,
+      "kind": "inside_to_glass",
+      "hit": [
+        0.3800038142546161,
+        "R52_BAY_2_GLASS",
+        [
+          33.69929504394531,
+          1.1925042867660522,
+          2.799999952316284
+        ]
+      ]
+    },
+    {
+      "bay": 2,
+      "fraction": 0.85,
+      "kind": "interior_floor",
+      "hit": [
+        1.6499998815131867,
+        "P05_FLOOR_L00_E0",
+        [
+          33.53085708618164,
+          1.0358819961547852,
+          1.1920928955078125e-07
+        ]
+      ]
+    },
+    {
+      "bay": 4,
+      "fraction": 0.15,
+      "z": 0.5,
+      "kind": "inside_to_glass",
+      "hit": [
+        0.37999922628386684,
+        "R52_BAY_4_GLASS",
+        [
+          35.25397491455078,
+          8.463001251220703,
+          0.5
+        ]
+      ]
+    },
+    {
+      "bay": 4,
+      "fraction": 0.15,
+      "z": 1.5,
+      "kind": "inside_to_glass",
+      "hit": [
+        0.37999922628386684,
+        "R52_BAY_4_GLASS",
+        [
+          35.25397491455078,
+          8.463001251220703,
+          1.5
+        ]
+      ]
+    },
+    {
+      "bay": 4,
+      "fraction": 0.15,
+      "z": 2.8,
+      "kind": "inside_to_glass",
+      "hit": [
+        0.37999922628386684,
+        "R52_BAY_4_GLASS",
+        [
+          35.25397491455078,
+          8.463001251220703,
+          2.799999952316284
+        ]
+      ]
+    },
+    {
+      "bay": 4,
+      "fraction": 0.15,
+      "kind": "interior_floor",
+      "hit": [
+        1.6499998815131867,
+        "P05_FLOOR_L00_E0",
+        [
+          35.085540771484375,
+          8.306381225585938,
+          1.1920928955078125e-07
+        ]
+      ]
+    },
+    {
+      "bay": 4,
+      "fraction": 0.5,
+      "z": 0.5,
+      "kind": "inside_to_glass",
+      "hit": [
+        0.3800026770704485,
+        "R52_BAY_4_GLASS",
+        [
+          34.63269805908203,
+          9.13114070892334,
+          0.5
+        ]
+      ]
+    },
+    {
+      "bay": 4,
+      "fraction": 0.5,
+      "z": 1.5,
+      "kind": "inside_to_glass",
+      "hit": [
+        0.3800026770704485,
+        "R52_BAY_4_GLASS",
+        [
+          34.63269805908203,
+          9.13114070892334,
+          1.5
+        ]
+      ]
+    },
+    {
+      "bay": 4,
+      "fraction": 0.5,
+      "z": 2.8,
+      "kind": "inside_to_glass",
+      "hit": [
+        0.3800026770704485,
+        "R52_BAY_4_GLASS",
+        [
+          34.63269805908203,
+          9.13114070892334,
+          2.799999952316284
+        ]
+      ]
+    },
+    {
+      "bay": 4,
+      "fraction": 0.5,
+      "kind": "interior_floor",
+      "hit": [
+        1.6499998815131867,
+        "P05_FLOOR_L00_E0",
+        [
+          34.46426010131836,
+          8.974519729614258,
+          1.1920928955078125e-07
+        ]
+      ]
+    },
+    {
+      "bay": 4,
+      "fraction": 0.85,
+      "z": 0.5,
+      "kind": "inside_to_glass",
+      "hit": [
+        0.38000332408944393,
+        "R52_BAY_4_GLASS",
+        [
+          34.011417388916016,
+          9.799280166625977,
+          0.5
+        ]
+      ]
+    },
+    {
+      "bay": 4,
+      "fraction": 0.85,
+      "z": 1.5,
+      "kind": "inside_to_glass",
+      "hit": [
+        0.38000332408944393,
+        "R52_BAY_4_GLASS",
+        [
+          34.011417388916016,
+          9.799280166625977,
+          1.5
+        ]
+      ]
+    },
+    {
+      "bay": 4,
+      "fraction": 0.85,
+      "z": 2.8,
+      "kind": "inside_to_glass",
+      "hit": [
+        0.38000332408944393,
+        "R52_BAY_4_GLASS",
+        [
+          34.011417388916016,
+          9.799280166625977,
+          2.799999952316284
+        ]
+      ]
+    },
+    {
+      "bay": 4,
+      "fraction": 0.85,
+      "kind": "interior_floor",
+      "hit": [
+        1.6499999537612446,
+        "P05_FLOOR_L00_E0",
+        [
+          33.842979431152344,
+          9.642658233642578,
+          0.0
+        ]
+      ]
+    }
+  ],
+  "outward_diagnosis": [
+    {
+      "bay": 2,
+      "fraction": 0.15,
+      "hit": null
+    },
+    {
+      "bay": 2,
+      "fraction": 0.5,
+      "hit": null
+    },
+    {
+      "bay": 2,
+      "fraction": 0.85,
+      "hit": null
+    },
+    {
+      "bay": 4,
+      "fraction": 0.15,
+      "hit": [
+        0.4381821457439563,
+        "R52_BAY_4_RETURN_LEFT",
+        [
+          35.73598098754883,
+          8.911192893981934,
+          1.649999976158142
+        ]
+      ]
+    },
+    {
+      "bay": 4,
+      "fraction": 0.5,
+      "hit": null
+    },
+    {
+      "bay": 4,
+      "fraction": 0.85,
+      "hit": null
+    }
+  ],
+  "failures": [],
+  "visual_acceptance": false,
+  "construction_acceptance": false
+}

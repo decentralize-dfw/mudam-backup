@@ -4,7 +4,7 @@
 
 ## Güncel teslim
 
-[MUDAM_R51_ANA_CATI_GOLGELIK_v001.blend](scenes/MUDAM_R51_ANA_CATI_GOLGELIK_v001.blend) giriş, çatı ve merdiven çalışmalarını birlikte içerir. [Görsel inceleme](URETIM.html) · [Üretim raporu](reports/P07_P09_URETIM_RAPORU.md).
+[MUDAM_R54_TARIHI_DUVAR_ALT_CAM_v002.blend](scenes/MUDAM_R54_TARIHI_DUVAR_ALT_CAM_v002.blend) giriş, çatı ve merdiven çalışmalarını birlikte içerir. [Görsel inceleme](URETIM.html) · [Üretim raporu](reports/P07_P09_URETIM_RAPORU.md).
 
 | Paket | Durum | Somut çıktı / açık konu |
 | --- | --- | --- |
@@ -114,3 +114,12 @@ R35 güncel sahne; R29–R35 bölgesel sahneler, kaynak/varsayım kayıtları ve
 
 
 2026-10-09 06:57:08 UTC — `1a21b8b4fc4c8acef1bbcbe88777397a23225bf0` origin/main normal push doğrulandı; uzak main SHA ile yerel HEAD eşleşti. R48–R51, canlı 3B kat/kesit/seçim arayüzü ve 33.842.004 bayt R51 GLB gönderildi. Vendor Three.js kaynaklarındaki mevcut tek whitespace uyarısı upstream SHA korunarak bırakıldı; proje dosyalarında diff-check ve viewer-core kontrolleri geçti. Üretim cephe–galeri kaynak kontrolüyle kesintisiz devam ediyor.
+
+
+2026-10-09 07:30:14 UTC — R52 v009: iki galeri camı plan sınırına bağlandı; 22 yeni kapalı parça, oda duvarı boşluğu ve taş ayak birleşimi koordine edildi. 7.072 görünür mesh; kapalı hacim, dolaşım ve önceki geometri kontrolleri geçti. İkinci genişlik ve kaynak kamera kimlikleri koşullu; A01 kısmen koordine edildi. Üretim sürüyor.
+
+
+2026-10-09 07:42:11 UTC — R53 v002: galeri nişinin taş yan yüzleri, plak eşiği ve mineral tavan altı işlendi; 28 nesne/168 yüz. 7.726 hesaplanan geometri nesnesi aynen korundu; UV ve gömülü doku kontrolleri geçti. Kaynak ölçüleri koşullu; alt cephe pencerelerinin duvarla ilişkisine devam ediliyor.
+
+
+2026-10-09 07:51:23 UTC — R54 v002: beş tarihî duvar çentiği ve alt cam adayı; 45 yeni parça. 56 hacim/60 ışın, alt galeri ve bütün sahne kontrolleri geçti. 7.117 görünür mesh; ölçüler ve ilk iki pencere yanındaki duvar kaydı koşullu. A06 kısmen koordine edildi; peyzaj ve duvar yüzeylerine devam ediliyor.

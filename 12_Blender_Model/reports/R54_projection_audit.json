@@ -1,0 +1,73 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R54_TARIHI_DUVAR_ALT_CAM_v002.blend",
+  "camera": "P07_PHOTO_116_CONDITIONAL",
+  "landmarks": [
+    {
+      "window": 1,
+      "projected_head_px": [
+        761.0809206962585,
+        941.4030998051167
+      ],
+      "manual_head_px": [
+        761,
+        941
+      ],
+      "error_px": 0.41114183923319175
+    },
+    {
+      "window": 2,
+      "projected_head_px": [
+        831.5509557723999,
+        954.658798545599
+      ],
+      "manual_head_px": [
+        832,
+        953
+      ],
+      "error_px": 1.7185032246761343
+    },
+    {
+      "window": 3,
+      "projected_head_px": [
+        906.2245488166809,
+        968.7052929103374
+      ],
+      "manual_head_px": [
+        908,
+        969
+      ],
+      "error_px": 1.7997441965586483
+    },
+    {
+      "window": 4,
+      "projected_head_px": [
+        985.489547252655,
+        983.6154412925243
+      ],
+      "manual_head_px": [
+        985,
+        984
+      ],
+      "error_px": 0.6225286435799071
+    },
+    {
+      "window": 5,
+      "projected_head_px": [
+        1069.7828531265259,
+        999.4713980853558
+      ],
+      "manual_head_px": [
+        1070,
+        1002
+      ],
+      "error_px": 2.537908668057641
+    }
+  ],
+  "rmse_px": 1.6241854843407761,
+  "independent_holdout": false,
+  "status": "in_sample_conditional_projection_check_not_metric_accuracy",
+  "limits": [
+    "The same source/camera constrains candidate centers. Low residual is not independent validation.",
+    "Rounded equal spacing/common head height differ from raw wall-plane intersections; source reading and OSM errors are unbounded here."
+  ]
+}

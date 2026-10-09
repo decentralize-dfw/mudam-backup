@@ -1,0 +1,233 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R53_GALERI_NIS_YUZEY_v002.blend",
+  "evaluated_geometry_objects_checked": 7726,
+  "geometry_identical": true,
+  "uv_checks": [
+    {
+      "name": "R27_CONTINUOUS_HEAD",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 2.1818956243519096
+    },
+    {
+      "name": "R27_BAY_1_END_RETURN",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.19166671199764096
+    },
+    {
+      "name": "R27_BAY_1_BLIND_BACK",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.1731766784678257
+    },
+    {
+      "name": "R27_BAY_2_SLOPING_PIER",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.05559909549060649
+    },
+    {
+      "name": "R27_BAY_2_PIER_SHOULDER",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.04388020611037291
+    },
+    {
+      "name": "R27_BAY_2_PIER_BASE",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.05559909549060649
+    },
+    {
+      "name": "R27_BAY_2_BASE",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.17317772031947243
+    },
+    {
+      "name": "R27_BAY_3_SLOPING_PIER",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.056054477613542986
+    },
+    {
+      "name": "R27_BAY_3_PIER_SHOULDER",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.044239888140737094
+    },
+    {
+      "name": "R27_BAY_3_PIER_BASE",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.056054477613542986
+    },
+    {
+      "name": "R27_BAY_3_BLIND_BACK",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.17317660754997632
+    },
+    {
+      "name": "R27_BAY_4_SLOPING_PIER",
+      "faces": 5,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.00044798881276619795
+    },
+    {
+      "name": "R27_BAY_4_PIER_SHOULDER",
+      "faces": 5,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.046409752483214106
+    },
+    {
+      "name": "R27_BAY_4_PIER_BASE",
+      "faces": 8,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.00044798881276619795
+    },
+    {
+      "name": "R27_BAY_4_BASE",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.1731783293744229
+    },
+    {
+      "name": "R27_BAY_5_SLOPING_PIER",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.05651072472551277
+    },
+    {
+      "name": "R27_BAY_5_PIER_SHOULDER",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.044599529009701655
+    },
+    {
+      "name": "R27_BAY_5_PIER_BASE",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.05651072472551277
+    },
+    {
+      "name": "R27_BAY_5_BLIND_BACK",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.17317690912113903
+    },
+    {
+      "name": "R27_END_PIER",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 1.4220767384068722
+    },
+    {
+      "name": "R52_BAY_2_THRESHOLD",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.010527292259894239
+    },
+    {
+      "name": "R52_BAY_2_SOFFIT",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.007895469665527344
+    },
+    {
+      "name": "R52_BAY_2_RETURN_LEFT",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.006316437714758649
+    },
+    {
+      "name": "R52_BAY_2_RETURN_RIGHT",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.047174657376444884
+    },
+    {
+      "name": "R52_BAY_4_THRESHOLD",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.04260964934371003
+    },
+    {
+      "name": "R52_BAY_4_SOFFIT",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.0319572389125824
+    },
+    {
+      "name": "R52_BAY_4_RETURN_LEFT",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.02556610053852637
+    },
+    {
+      "name": "R52_BAY_4_RETURN_RIGHT",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.05265611616273702
+    }
+  ],
+  "packed_images": [
+    {
+      "material": "R53_REVEAL_LIMESTONE_CANDIDATE",
+      "image": "R32_limestone_candidate_basecolor.png",
+      "packed": true,
+      "size": [
+        2048,
+        1536
+      ]
+    },
+    {
+      "material": "R53_REVEAL_LIMESTONE_CANDIDATE",
+      "image": "R32_limestone_candidate_normal.png",
+      "packed": true,
+      "size": [
+        2048,
+        1536
+      ]
+    },
+    {
+      "material": "R53_REVEAL_SILL_STONE_CANDIDATE",
+      "image": "R43_stone_floor_candidate_basecolor.png",
+      "packed": true,
+      "size": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "material": "R53_REVEAL_SILL_STONE_CANDIDATE",
+      "image": "R43_stone_floor_candidate_normal.png",
+      "packed": true,
+      "size": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "material": "R53_LINEAR_MINERAL_SOFFIT_CANDIDATE",
+      "image": "R53_soffit_linear_grain_candidate_basecolor.png",
+      "packed": true,
+      "size": [
+        1536,
+        1152
+      ]
+    },
+    {
+      "material": "R53_LINEAR_MINERAL_SOFFIT_CANDIDATE",
+      "image": "R53_soffit_linear_grain_candidate_normal.png",
+      "packed": true,
+      "size": [
+        1536,
+        1152
+      ]
+    }
+  ],
+  "failures": [],
+  "construction_acceptance": false
+}
