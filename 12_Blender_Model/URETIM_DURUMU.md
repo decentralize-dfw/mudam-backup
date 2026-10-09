@@ -352,3 +352,7 @@ R93: Kuzey cam şeridi yatay kayıtları yan bandın ortak kotlarına bağlandı
 R94: Üç işaretli görünüş üzerinde gerçek geometri düzeltildi. Mavi iç temsil yüzeyleri kaldırıldı; batı ara çatı örtüsü/üst cam bandı, doğu duvar bağlantısı ve taşan duvar kotu düzeltildi. Son sahne üç açıdan kontrol edildi. Kesin çatı kesiti, köşe profilleri ve batı küçük çatı uç birleşimi hâlâ açık.
 
 [Üç açıdan sonuç ve açık işler](reports/R94_KONTROL_RAPORU.md).
+
+
+2026-10-09 15:13:23 UTC — c3e43d5efd44e726e053785635798d3c78c737dd origin/main normal push doğrulandı. Pano, renderlar, raporlar ve üretim betikleri gönderildi; Blender ve arşiv GLB dosyaları yerelde; tek güncel sıkıştırılmış web GLB gönderildi.
+
