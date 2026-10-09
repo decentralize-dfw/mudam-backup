@@ -1,0 +1,244 @@
+{
+  "source": "008",
+  "image_size": [
+    1920,
+    2931
+  ],
+  "plane_z": 11.523118133013933,
+  "controls": [
+    {
+      "id": "front_left",
+      "plan": [
+        478.7,
+        723.3
+      ],
+      "image": [
+        238,
+        1268
+      ],
+      "projection": [
+        236.78657839218508,
+        1266.2988661295042
+      ],
+      "residual_px": 2.0895569969876995
+    },
+    {
+      "id": "left_return",
+      "plan": [
+        488.9,
+        712.8
+      ],
+      "image": [
+        318,
+        1302
+      ],
+      "projection": [
+        317.1746633759736,
+        1301.933593172905
+      ],
+      "residual_px": 0.8280038705490234
+    },
+    {
+      "id": "left_recess",
+      "plan": [
+        538,
+        712.8
+      ],
+      "image": [
+        734,
+        1353
+      ],
+      "projection": [
+        736.7091382931368,
+        1353.4322020949046
+      ],
+      "residual_px": 2.7433973358192274
+    },
+    {
+      "id": "center_left",
+      "plan": [
+        562.6,
+        688.1
+      ],
+      "image": [
+        855,
+        1417
+      ],
+      "projection": [
+        865.3983444430534,
+        1420.5381586735184
+      ],
+      "residual_px": 10.983812359803506
+    },
+    {
+      "id": "center_right",
+      "plan": [
+        589,
+        688.1
+      ],
+      "image": [
+        1077,
+        1445
+      ],
+      "projection": [
+        1059.191064143841,
+        1443.4856802373267
+      ],
+      "residual_px": 17.8732023060337
+    },
+    {
+      "id": "right_recess",
+      "plan": [
+        613.9,
+        712.8
+      ],
+      "image": [
+        1323,
+        1428
+      ],
+      "projection": [
+        1332.0424508090487,
+        1426.5104334978162
+      ],
+      "residual_px": 9.164318032373874
+    },
+    {
+      "id": "column_inside",
+      "plan": [
+        567.7225776502307,
+        808.9946308221848
+      ],
+      "image": [
+        1417,
+        1132
+      ],
+      "projection": [
+        1414.3713637246644,
+        1132.8753972201578
+      ],
+      "residual_px": 2.770568346218873
+    }
+  ],
+  "homography_plan_to_image": [
+    [
+      3.067916872878796,
+      0.0762255144600978,
+      -1446.9670944529737
+    ],
+    [
+      0.6819265834629485,
+      -2.168401204010481,
+      1652.5668399567307
+    ],
+    [
+      0.0002417532282256836,
+      -0.0010942552529218687,
+      1.0
+    ]
+  ],
+  "fit_rms_px": 8.818279200313956,
+  "leave_one_out": [
+    {
+      "id": "front_left",
+      "error_px": 5.002508592184222
+    },
+    {
+      "id": "left_return",
+      "error_px": 1.799649933199411
+    },
+    {
+      "id": "left_recess",
+      "error_px": 7.448817471595211
+    },
+    {
+      "id": "center_left",
+      "error_px": 23.381881856063263
+    },
+    {
+      "id": "center_right",
+      "error_px": 27.971862150970626
+    },
+    {
+      "id": "right_recess",
+      "error_px": 53.92961811477391
+    },
+    {
+      "id": "column_inside",
+      "error_px": 188.89349044497283
+    }
+  ],
+  "lights": [
+    {
+      "id": "CANOPY_01",
+      "image_pixel": [
+        622,
+        1301
+      ],
+      "canonical": [
+        520.1295103263232,
+        728.6298074128691
+      ]
+    },
+    {
+      "id": "CANOPY_02",
+      "image_pixel": [
+        972,
+        1267
+      ],
+      "canonical": [
+        549.3194759852364,
+        756.9314486957386
+      ]
+    },
+    {
+      "id": "CANOPY_03",
+      "image_pixel": [
+        1217,
+        1304
+      ],
+      "canonical": [
+        576.9863218629688,
+        755.4176344430155
+      ]
+    },
+    {
+      "id": "CANOPY_04",
+      "image_pixel": [
+        1359,
+        1226
+      ],
+      "canonical": [
+        576.4924367959808,
+        784.7016727433767
+      ]
+    },
+    {
+      "id": "CANOPY_05",
+      "image_pixel": [
+        872,
+        1335
+      ],
+      "canonical": [
+        549.2317814313525,
+        727.6211520003114
+      ]
+    },
+    {
+      "id": "CANOPY_06",
+      "image_pixel": [
+        1100,
+        1365
+      ],
+      "canonical": [
+        576.8699686477822,
+        727.0721180242294
+      ]
+    }
+  ],
+  "status": "study_not_released",
+  "limits": [
+    "Manual corners and visible circular fixtures; no true camera/lens or measured plane calibration.",
+    "Reconstruction uses current conditional facade/column plane. Reprojection of fitted landmarks is not independent building accuracy.",
+    "Six clearly visible fixture centers selected; tiny uncertain dots excluded. Full count and hidden fixture positions unresolved."
+  ]
+}

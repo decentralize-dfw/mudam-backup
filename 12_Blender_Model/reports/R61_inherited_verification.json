@@ -1,0 +1,46 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R61_SACAK_GOMME_ISIK_v002.blend",
+  "base_scene": "12_Blender_Model/scenes/MUDAM_R60_GIRIS_TAS_TAVAN_YUZEY_v002.blend",
+  "inherited_objects_checked": 7942,
+  "changed_inherited_objects": [
+    "P07_CANOPY_SLAB_ENVELOPE"
+  ],
+  "allowed_changes": [
+    "P07_CANOPY_SLAB_ENVELOPE"
+  ],
+  "allowed_but_unchanged": [],
+  "new_objects": [
+    "R61_CANOPY_01_BACK",
+    "R61_CANOPY_01_CUTTER",
+    "R61_CANOPY_01_LENS",
+    "R61_CANOPY_01_REFLECTOR",
+    "R61_CANOPY_01_RIM",
+    "R61_CANOPY_02_BACK",
+    "R61_CANOPY_02_CUTTER",
+    "R61_CANOPY_02_LENS",
+    "R61_CANOPY_02_REFLECTOR",
+    "R61_CANOPY_02_RIM",
+    "R61_CANOPY_03_BACK",
+    "R61_CANOPY_03_CUTTER",
+    "R61_CANOPY_03_LENS",
+    "R61_CANOPY_03_REFLECTOR",
+    "R61_CANOPY_03_RIM",
+    "R61_CANOPY_04_BACK",
+    "R61_CANOPY_04_CUTTER",
+    "R61_CANOPY_04_LENS",
+    "R61_CANOPY_04_REFLECTOR",
+    "R61_CANOPY_04_RIM",
+    "R61_CANOPY_05_BACK",
+    "R61_CANOPY_05_CUTTER",
+    "R61_CANOPY_05_LENS",
+    "R61_CANOPY_05_REFLECTOR",
+    "R61_CANOPY_05_RIM",
+    "R61_CANOPY_06_BACK",
+    "R61_CANOPY_06_CUTTER",
+    "R61_CANOPY_06_LENS",
+    "R61_CANOPY_06_REFLECTOR",
+    "R61_CANOPY_06_RIM"
+  ],
+  "failures": [],
+  "construction_acceptance": false
+}

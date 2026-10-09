@@ -1,0 +1,46 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R60_GIRIS_TAS_TAVAN_YUZEY_v002.blend",
+  "images": [
+    {
+      "image": "R60_outside.png",
+      "eye": [
+        42,
+        58,
+        2
+      ],
+      "target": [
+        37.7,
+        44,
+        1
+      ]
+    },
+    {
+      "image": "R60_column.png",
+      "eye": [
+        33,
+        36,
+        1.65
+      ],
+      "target": [
+        38,
+        42,
+        2.1
+      ]
+    },
+    {
+      "image": "R60_canopy.png",
+      "eye": [
+        30,
+        34,
+        1.65
+      ],
+      "target": [
+        35,
+        40,
+        11
+      ]
+    }
+  ],
+  "all_active_surroundings": true,
+  "metric_camera": false
+}

@@ -1,0 +1,42 @@
+{
+  "files": [
+    {
+      "path": "12_Blender_Model/textures/R55_historic_masonry_candidate_basecolor.png",
+      "sha256": "86e5e710368500de31e77e35a0ab84439da7614fd50c88aea364a161c220e7ae"
+    },
+    {
+      "path": "12_Blender_Model/textures/R55_historic_masonry_candidate_normal.png",
+      "sha256": "395ac9b39d7b623a4773af0c9d443af094cb931af769b1e25e1b5030628f720f"
+    },
+    {
+      "path": "12_Blender_Model/textures/R55_moat_turf_candidate_basecolor.png",
+      "sha256": "8e8a3909d296244692b4bdd07a2f533a788437687a1b5afdabbafe8e58cc63d6"
+    },
+    {
+      "path": "12_Blender_Model/textures/R55_moat_turf_candidate_normal.png",
+      "sha256": "75642ec8747d89a4ab8de29e6cc4f9a0ab6ab6722d0d5b341a802ff7c7c5b050"
+    }
+  ],
+  "repeat_m": [
+    4.0,
+    3.0
+  ],
+  "resolution": [
+    2048,
+    1536
+  ],
+  "seed": 5509,
+  "source_ids": [
+    "004",
+    "063",
+    "065",
+    "086",
+    "116"
+  ],
+  "status": "procedural_surface_candidates_not_historic_fabric_survey",
+  "limits": [
+    "Sources show rough coursed stone distinct from the modern pale cladding, darker surface patches and a vegetated moat.",
+    "Exact stones, decay patterns, plant species, course heights, mortar and colour are not reconstructed; these are visualization candidates.",
+    "No source image altered or texture scan made. Normal maps do not move geometry; turf is a surface approximation, not individual plants."
+  ]
+}

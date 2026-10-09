@@ -1,0 +1,173 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R55_TARIHI_DUVAR_YUZEY_v002.blend",
+  "evaluated_geometry_objects_checked": 7781,
+  "geometry_identical": true,
+  "uv_checks": [
+    {
+      "name": "R35_MOAT_GROUND",
+      "faces": 1,
+      "max_uv_error": 0.0,
+      "min_uv_area": 229.19909962097677
+    },
+    {
+      "name": "R35_WALL_51946353_00_0",
+      "faces": 26,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.1469951890142962
+    },
+    {
+      "name": "R35_WALL_51946353_01_0",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.37342828414750784
+    },
+    {
+      "name": "R35_WALL_51946353_02_0",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.3732226344104106
+    },
+    {
+      "name": "R35_WALL_51946353_03_0",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.373221052489356
+    },
+    {
+      "name": "R35_WALL_51946353_04_0",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.373221052489356
+    },
+    {
+      "name": "R35_WALL_49911001_00_0",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.28297688645989183
+    },
+    {
+      "name": "R35_WALL_49911001_01_0",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.43322457549913906
+    },
+    {
+      "name": "R35_WALL_49911001_01_1",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.4032705410114943
+    },
+    {
+      "name": "R35_WALL_49911001_01_2",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.03656219884123857
+    },
+    {
+      "name": "R35_WALL_49911001_02_0",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.34536184656462865
+    },
+    {
+      "name": "R35_WALL_49911001_03_0",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.35392672754551313
+    },
+    {
+      "name": "R35_WALL_49911001_04_0",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.4433918043691847
+    },
+    {
+      "name": "R35_WALL_49911001_05_0",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.44377741355515354
+    },
+    {
+      "name": "R35_WALL_49911001_06_0",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.43381033421496795
+    },
+    {
+      "name": "R35_WALL_49911001_07_0",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.07893604087894346
+    },
+    {
+      "name": "R35_WALL_49911001_07_1",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.4034431578528057
+    },
+    {
+      "name": "R35_WALL_49911001_07_2",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.43322273926492016
+    },
+    {
+      "name": "R35_WALL_453755312_00_0",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.43322273926492016
+    },
+    {
+      "name": "R35_WALL_759680909_00_0",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.4332218211478107
+    },
+    {
+      "name": "R35_WALL_759680909_01_0",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.43322273926492016
+    }
+  ],
+  "packed_images": [
+    {
+      "material": "R55_HISTORIC_MASONRY_APPEARANCE_CANDIDATE",
+      "image": "R55_historic_masonry_candidate_basecolor.png",
+      "packed": true,
+      "size": [
+        2048,
+        1536
+      ]
+    },
+    {
+      "material": "R55_HISTORIC_MASONRY_APPEARANCE_CANDIDATE",
+      "image": "R55_historic_masonry_candidate_normal.png",
+      "packed": true,
+      "size": [
+        2048,
+        1536
+      ]
+    },
+    {
+      "material": "R55_MOAT_TURF_APPEARANCE_CANDIDATE",
+      "image": "R55_moat_turf_candidate_basecolor.png",
+      "packed": true,
+      "size": [
+        2048,
+        1536
+      ]
+    },
+    {
+      "material": "R55_MOAT_TURF_APPEARANCE_CANDIDATE",
+      "image": "R55_moat_turf_candidate_normal.png",
+      "packed": true,
+      "size": [
+        2048,
+        1536
+      ]
+    }
+  ],
+  "failures": [],
+  "construction_acceptance": false
+}

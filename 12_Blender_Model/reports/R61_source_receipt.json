@@ -1,0 +1,55 @@
+{
+  "sources": [
+    {
+      "id": "008",
+      "path": "05_Dis_Mekan/Giris_ve_Yaklasim/008_Giris_koprusu_ve_sacak_WikiArquitectura.jpg",
+      "sha256": "d0dab60dc784e1e28d53363bc15f3759c1d5ad14c34276d292931fe7230c6d2f",
+      "source_url": "https://es.wikiarquitectura.com/edificio/museo-de-arte-moderno-grand-duc-jean-mudam/",
+      "credit": "WikiArquitectura; sayfadaki foto\u011fraf serisi Haziran 2019",
+      "source_date": "unknown; do not infer from download date",
+      "modified": false
+    },
+    {
+      "id": "011",
+      "path": "05_Dis_Mekan/Giris_ve_Yaklasim/011_Giris_koprusu_ve_sacak_WikiArquitectura.jpg",
+      "sha256": "2d36c345a549bf9c6eba3941c59ebefef33c03096818209ce59a6054df29e60a",
+      "source_url": "https://es.wikiarquitectura.com/edificio/museo-de-arte-moderno-grand-duc-jean-mudam/",
+      "credit": "WikiArquitectura; sayfadaki foto\u011fraf serisi Haziran 2019",
+      "source_date": "unknown; do not infer from download date",
+      "modified": false
+    },
+    {
+      "id": "012",
+      "path": "05_Dis_Mekan/Giris_ve_Yaklasim/012_Giris_koprusu_ve_sacak_WikiArquitectura.jpg",
+      "sha256": "a4ba09a3f7d84377180a177817d7886557c61c1033866bce1a2f3fa329c4cf71",
+      "source_url": "https://es.wikiarquitectura.com/edificio/museo-de-arte-moderno-grand-duc-jean-mudam/",
+      "credit": "WikiArquitectura; sayfadaki foto\u011fraf serisi Haziran 2019",
+      "source_date": "unknown; do not infer from download date",
+      "modified": false
+    },
+    {
+      "id": "013",
+      "path": "05_Dis_Mekan/Giris_ve_Yaklasim/013_Giris_koprusu_ve_sacak_WikiArquitectura.jpg",
+      "sha256": "e4c1d3433ff9a4756d4b873b4000bd2bb483469cb62007f2eb392ae498a6931c",
+      "source_url": "https://es.wikiarquitectura.com/edificio/museo-de-arte-moderno-grand-duc-jean-mudam/",
+      "credit": "WikiArquitectura; sayfadaki foto\u011fraf serisi Haziran 2019",
+      "source_date": "unknown; do not infer from download date",
+      "modified": false
+    },
+    {
+      "id": "102",
+      "path": "01_Kat_Planlari/Resmi_Kat_Semalari/102_Resmi_kat_semasi_zemin_0_Mudam.jpeg",
+      "sha256": "f4d1d1992e1e2d664d5bf5fddd6aedd760edb2931f398e52b5e13316acec2407",
+      "source_url": "https://www.mudam.com/fr/floor-plans",
+      "credit": "Mudam Luxembourg; kullan\u0131c\u0131 taraf\u0131ndan verilen do\u011frudan ba\u011flant\u0131",
+      "source_date": "unknown; do not infer from download date",
+      "modified": false
+    }
+  ],
+  "limits": [
+    "Manual corners and visible circular fixtures; no true camera/lens or measured plane calibration.",
+    "Reconstruction uses current conditional facade/column plane. Reprojection of fitted landmarks is not independent building accuracy.",
+    "Six clearly visible fixture centers selected; tiny uncertain dots excluded. Full count and hidden fixture positions unresolved.",
+    "Fixture diameter180mm and recessed profile are candidates. No light energy, product identity or unseen fixture count inferred."
+  ]
+}

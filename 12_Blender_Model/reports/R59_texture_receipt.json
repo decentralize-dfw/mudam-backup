@@ -1,0 +1,34 @@
+{
+  "files": [
+    {
+      "path": "12_Blender_Model/textures/R59_paving_candidate_basecolor.png",
+      "sha256": "78ba257178127aa87322132945032161bb2d9f35bcd97ec5e2f3e66769edaf15"
+    },
+    {
+      "path": "12_Blender_Model/textures/R59_paving_candidate_normal.png",
+      "sha256": "43f039d771626c2dfe31ae821bfe8336bd729118b085d7f761fb1888838200af"
+    }
+  ],
+  "resolution": [
+    1536,
+    1536
+  ],
+  "repeat_m": [
+    3.2,
+    3.2
+  ],
+  "candidate_module_m": [
+    0.1,
+    0.08
+  ],
+  "source_ids": [
+    "008",
+    "011",
+    "012",
+    "013"
+  ],
+  "limits": [
+    "Rectangular dark staggered paving family visible in photographs.",
+    "Module, joint width, tone and relief are unmeasured appearance parameters. No texture scan and no geometry displacement."
+  ]
+}

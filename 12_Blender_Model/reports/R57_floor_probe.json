@@ -1,0 +1,239 @@
+{
+  "origin": [
+    26.850555419921875,
+    30.97933578491211,
+    0.0
+  ],
+  "axis": [
+    -0.680959939956665,
+    0.7323207855224609,
+    0.0
+  ],
+  "outward": [
+    0.7323207259178162,
+    0.680959939956665,
+    0.0
+  ],
+  "samples": [
+    {
+      "x": -1,
+      "d": 0.1,
+      "hits": [
+        {
+          "name": "P05_FLOOR_L00_ENT",
+          "z": 0.0
+        },
+        {
+          "name": "R34_APPROACH_CONTINUOUS_DECK",
+          "z": -1.862645149230957e-09
+        }
+      ]
+    },
+    {
+      "x": -1,
+      "d": 0.7,
+      "hits": [
+        {
+          "name": "R34_APPROACH_CONTINUOUS_DECK",
+          "z": 0.0
+        }
+      ]
+    },
+    {
+      "x": -1,
+      "d": 1.4,
+      "hits": [
+        {
+          "name": "R34_APPROACH_CONTINUOUS_DECK",
+          "z": 0.0
+        }
+      ]
+    },
+    {
+      "x": -1,
+      "d": 2.1,
+      "hits": [
+        {
+          "name": "R34_APPROACH_CONTINUOUS_DECK",
+          "z": 1.862645149230957e-09
+        }
+      ]
+    },
+    {
+      "x": -0.5,
+      "d": 0.1,
+      "hits": [
+        {
+          "name": "P05_FLOOR_L00_ENT",
+          "z": 0.0
+        },
+        {
+          "name": "R34_APPROACH_CONTINUOUS_DECK",
+          "z": 0.0
+        }
+      ]
+    },
+    {
+      "x": -0.5,
+      "d": 0.7,
+      "hits": [
+        {
+          "name": "R34_APPROACH_CONTINUOUS_DECK",
+          "z": 0.0
+        }
+      ]
+    },
+    {
+      "x": -0.5,
+      "d": 1.4,
+      "hits": [
+        {
+          "name": "R34_APPROACH_CONTINUOUS_DECK",
+          "z": 3.725290298461914e-09
+        }
+      ]
+    },
+    {
+      "x": -0.5,
+      "d": 2.1,
+      "hits": [
+        {
+          "name": "R34_APPROACH_CONTINUOUS_DECK",
+          "z": 3.725290298461914e-09
+        }
+      ]
+    },
+    {
+      "x": 0,
+      "d": 0.1,
+      "hits": [
+        {
+          "name": "P05_FLOOR_L00_ENT",
+          "z": 1.862645149230957e-09
+        },
+        {
+          "name": "R34_APPROACH_CONTINUOUS_DECK",
+          "z": 0.0
+        }
+      ]
+    },
+    {
+      "x": 0,
+      "d": 0.7,
+      "hits": [
+        {
+          "name": "R34_APPROACH_CONTINUOUS_DECK",
+          "z": 0.0
+        }
+      ]
+    },
+    {
+      "x": 0,
+      "d": 1.4,
+      "hits": [
+        {
+          "name": "R34_APPROACH_CONTINUOUS_DECK",
+          "z": 1.862645149230957e-09
+        }
+      ]
+    },
+    {
+      "x": 0,
+      "d": 2.1,
+      "hits": [
+        {
+          "name": "R34_APPROACH_CONTINUOUS_DECK",
+          "z": 3.725290298461914e-09
+        }
+      ]
+    },
+    {
+      "x": 0.5,
+      "d": 0.1,
+      "hits": [
+        {
+          "name": "P05_FLOOR_L00_ENT",
+          "z": 1.862645149230957e-09
+        },
+        {
+          "name": "R34_APPROACH_CONTINUOUS_DECK",
+          "z": 0.0
+        }
+      ]
+    },
+    {
+      "x": 0.5,
+      "d": 0.7,
+      "hits": [
+        {
+          "name": "R34_APPROACH_CONTINUOUS_DECK",
+          "z": 0.0
+        }
+      ]
+    },
+    {
+      "x": 0.5,
+      "d": 1.4,
+      "hits": [
+        {
+          "name": "R34_APPROACH_CONTINUOUS_DECK",
+          "z": -1.862645149230957e-09
+        }
+      ]
+    },
+    {
+      "x": 0.5,
+      "d": 2.1,
+      "hits": [
+        {
+          "name": "R34_APPROACH_CONTINUOUS_DECK",
+          "z": 0.0
+        }
+      ]
+    },
+    {
+      "x": 1,
+      "d": 0.1,
+      "hits": [
+        {
+          "name": "P05_FLOOR_L00_ENT",
+          "z": 3.725290298461914e-09
+        },
+        {
+          "name": "R34_APPROACH_CONTINUOUS_DECK",
+          "z": 0.0
+        }
+      ]
+    },
+    {
+      "x": 1,
+      "d": 0.7,
+      "hits": [
+        {
+          "name": "R34_APPROACH_CONTINUOUS_DECK",
+          "z": 1.862645149230957e-09
+        }
+      ]
+    },
+    {
+      "x": 1,
+      "d": 1.4,
+      "hits": [
+        {
+          "name": "R34_APPROACH_CONTINUOUS_DECK",
+          "z": 3.725290298461914e-09
+        }
+      ]
+    },
+    {
+      "x": 1,
+      "d": 2.1,
+      "hits": [
+        {
+          "name": "R34_APPROACH_CONTINUOUS_DECK",
+          "z": 3.725290298461914e-09
+        }
+      ]
+    }
+  ]
+}

@@ -474,5 +474,129 @@
     "image": "R54_context.png",
     "description": "Beş üstü açık tarihî duvar çentiği, 45 yeni parça; 60 açıklık/duvar kontrolü ve alt galeri regresyonu geçti.",
     "limits": "Duvarla bina kaydı ilk iki pencere yanında açık; bütün kot ve boyutlar koşullu. 1,62 px kalıntı bağımsız ölçü doğrulaması değildir."
+  },
+  {
+    "id": "R55",
+    "checks": [
+      "R55_verification.json",
+      "R55_inherited_verification.json"
+    ],
+    "tasks": [
+      "P13",
+      "P18",
+      "P19"
+    ],
+    "report": "R55_KONTROL_RAPORU.md",
+    "title": "Tarihî duvar ve hendek yüzeyleri / R55",
+    "image": "R55_context.png",
+    "description": "21 nesnede taş örgü ve bitkili zemin görünümü; 7.781 nesnenin hesaplanan geometrisi değişmedi.",
+    "limits": "Doku, derz, aşınma ve bitki türü temsilî. Düz arazi kotu ve bina–duvar kaydı açık."
+  },
+  {
+    "id": "R56",
+    "checks": [
+      "R56_verification.json",
+      "R56_inherited_verification.json",
+      "R38_regression_on_R56.json",
+      "R56_global_audit.json"
+    ],
+    "tasks": [
+      "P18",
+      "P19"
+    ],
+    "report": "R56_KONTROL_RAPORU.md",
+    "title": "Parkın dallı ağaç taçları / R56",
+    "image": "R56_park_arrival.png",
+    "description": "19 OSM konumu korunarak 38 dal/yaprak mesh’i üretildi;204 yaklaşım kontrolü geçti.",
+    "limits": "Tür, yükseklik, yaprak ve dallanma düzeni temsilî; tekil fotoğraf ağacı eşlemesi yok."
+  },
+  {
+    "id": "R57",
+    "checks": [
+      "R57_verification.json",
+      "R57_inherited_verification.json",
+      "R38_regression_on_R57.json",
+      "R57_global_audit.json"
+    ],
+    "tasks": [
+      "P12",
+      "P16"
+    ],
+    "report": "R57_KONTROL_RAPORU.md",
+    "title": "Giriş paspası ve yan ızgaralar / R57",
+    "image": "R57_floor.png",
+    "description": "60 yeni parça ve iki döşemede sıfır kotuyla aynı biten yuva;441 destek örneği,52 kapı açısı ve204 yaklaşım kontrolü geçti.",
+    "limits": "Bölünme, yuva derinliği, malzeme ve ızgara adımı aday; gerçek kapı mekanizması doğrulanmadı."
+  },
+  {
+    "id": "R58",
+    "checks": [
+      "R58_verification.json",
+      "R58_inherited_verification.json",
+      "R38_regression_on_R58.json",
+      "R58_global_audit.json"
+    ],
+    "tasks": [
+      "P15",
+      "P18"
+    ],
+    "report": "R58_KONTROL_RAPORU.md",
+    "title": "Köprü cam korkuluğu düzeltmesi / R58",
+    "image": "R58_outside.png",
+    "description": "008/011/012 ile ince üç çubuk adayı değiştirildi:62 kapalı boru/levha/cam/kanal;160 taban desteği ve204 yaklaşım örneği geçti.",
+    "limits": "İç uçlar kolon yüzüne bağlı yerel aday;1,055/1,534m OSM farkı kaydedildi. Çap, aralık, kalınlık ve montaj ölçülmedi."
+  },
+  {
+    "id": "R59",
+    "checks": [
+      "R59_verification.json",
+      "R59_inherited_verification.json",
+      "R38_regression_on_R59.json",
+      "R59_global_audit.json"
+    ],
+    "tasks": [
+      "P13",
+      "P18",
+      "P19"
+    ],
+    "report": "R59_KONTROL_RAPORU.md",
+    "title": "Yaklaşım taş döşemesi / R59",
+    "image": "R59_column.png",
+    "description": "Mevcut döşemede50 yüz: koyu taş ve açık kenar bandı. Yüzey/hacim karşılaştırması ve204 yaklaşım örneği geçti.",
+    "limits": "Taş modülü, derz, renk, yön ve0,65m bant genişliği ölçülmemiş görünüm adayları."
+  },
+  {
+    "id": "R60",
+    "checks": [
+      "R60_verification.json",
+      "R60_inherited_verification.json"
+    ],
+    "tasks": [
+      "P07",
+      "P13",
+      "P19"
+    ],
+    "report": "R60_KONTROL_RAPORU.md",
+    "title": "Giriş taşı ve saçak altı / R60",
+    "image": "R60_canopy.png",
+    "description": "20 nesne ve175 yüzün malzeme/UV adayı;7.942 nesnenin hesaplanan geometrisi değişmedi.",
+    "limits": "Renk, derz, malzeme bileşimi ve çizgisel yüzey derinliği ölçülmedi; saçak kotu koşullu."
+  },
+  {
+    "id": "R61",
+    "checks": [
+      "R61_verification.json",
+      "R61_inherited_verification.json",
+      "R61_global_audit.json"
+    ],
+    "tasks": [
+      "P07",
+      "P19"
+    ],
+    "report": "R61_KONTROL_RAPORU.md",
+    "title": "Saçakta görülen altı armatür / R61",
+    "image": "R61_canopy.png",
+    "description": "Altı yuva ve24 kapalı parça;102 ışın ve7235 görünür mesh kontrolü geçti.",
+    "limits": "Fotoğraf homografisi düşük güvenli: dışarıda bırakma hatası188,89px. Çap, profil, kot ve tam armatür sayısı doğrulanmadı."
   }
 ]

@@ -1,0 +1,2682 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R55_TARIHI_DUVAR_YUZEY_v002.blend",
+  "base_scene": "MUDAM_R54_TARIHI_DUVAR_ALT_CAM_v002.blend",
+  "changed_inherited_objects": [
+    "R35_MOAT_GROUND",
+    "R35_WALL_51946353_00_0",
+    "R35_WALL_51946353_01_0",
+    "R35_WALL_51946353_02_0",
+    "R35_WALL_51946353_03_0",
+    "R35_WALL_51946353_04_0",
+    "R35_WALL_49911001_00_0",
+    "R35_WALL_49911001_01_0",
+    "R35_WALL_49911001_01_1",
+    "R35_WALL_49911001_01_2",
+    "R35_WALL_49911001_02_0",
+    "R35_WALL_49911001_03_0",
+    "R35_WALL_49911001_04_0",
+    "R35_WALL_49911001_05_0",
+    "R35_WALL_49911001_06_0",
+    "R35_WALL_49911001_07_0",
+    "R35_WALL_49911001_07_1",
+    "R35_WALL_49911001_07_2",
+    "R35_WALL_453755312_00_0",
+    "R35_WALL_759680909_00_0",
+    "R35_WALL_759680909_01_0"
+  ],
+  "surface_objects": [
+    {
+      "name": "R35_MOAT_GROUND",
+      "faces": [
+        {
+          "face": 1,
+          "u": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "v": [
+            0.0,
+            1.0,
+            -0.0
+          ],
+          "repeat_m": [
+            4.0,
+            3.0
+          ],
+          "material": "R55_MOAT_TURF_APPEARANCE_CANDIDATE"
+        }
+      ]
+    },
+    {
+      "name": "R35_WALL_51946353_00_0",
+      "faces": [
+        {
+          "face": 0,
+          "u": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "v": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "repeat_m": [
+            4.0,
+            3.0
+          ],
+          "material": "R55_HISTORIC_MASONRY_APPEARANCE_CANDIDATE"
+        },
+        {
+          "face": 1,
+          "u": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "v": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "repeat_m": [
+            4.0,
+            3.0
+          ],
+          "material": "R55_HISTORIC_MASONRY_APPEARANCE_CANDIDATE"
+        },
+        {
+          "face": 2,
+          "u": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "v": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "repeat_m": [
+            4.0,
+            3.0
+          ],
+          "material": "R55_HISTORIC_MASONRY_APPEARANCE_CANDIDATE"
+        },
+        {
+          "face": 3,
+          "u": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "v": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "repeat_m": [
+            4.0,
+            3.0
+          ],
+          "material": "R55_HISTORIC_MASONRY_APPEARANCE_CANDIDATE"
+        },
+        {
+          "face": 4,
+          "u": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "v": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "repeat_m": [
+            4.0,
+            3.0
+          ],
+          "material": "R55_HISTORIC_MASONRY_APPEARANCE_CANDIDATE"
+        },
+        {
+          "face": 5,
+          "u": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "v": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "repeat_m": [
+            4.0,
+            3.0
+          ],
+          "material": "R55_HISTORIC_MASONRY_APPEARANCE_CANDIDATE"
+        },
+        {
+          "face": 6,
+          "u": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "v": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "repeat_m": [
+            4.0,
+            3.0
+          ],
+          "material": "R55_HISTORIC_MASONRY_APPEARANCE_CANDIDATE"
+        },
+        {
+          "face": 7,
+          "u": [
+            0.09357988834381104,
+            0.9956117868423462,
+            -0.0
+          ],
+          "v": [
+            -9.39868485261286e-08,
+            8.83404460694237e-09,
+            1.0
+          ],
+          "repeat_m": [
+            4.0,
+            3.0
+          ],
+          "material": "R55_HISTORIC_MASONRY_APPEARANCE_CANDIDATE"
+        },
+        {
+          "face": 8,
+          "u": [
+            0.998165488243103,
+            -0.060544174164533615,
+            -0.0
+          ],
+          "v": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "repeat_m": [
+            4.0,
+            3.0
+          ],
+          "material": "R55_HISTORIC_MASONRY_APPEARANCE_CANDIDATE"
+        },
+        {
+          "face": 9,
+          "u": [
+            0.09357987344264984,
+            0.9956117868423462,
+            -0.0
+          ],
+          "v": [
+            1.555115005658081e-07,
+            -1.4616889032481595e-08,
+            -1.0
+          ],
+          "repeat_m": [
+            4.0,
+            3.0
+          ],
+          "material": "R55_HISTORIC_MASONRY_APPEARANCE_CANDIDATE"
+        },
+        {
+          "face": 10,
+          "u": [
+            0.9956119060516357,
+            -0.09357889741659164,
+            0.0
+          ],
+          "v": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "repeat_m": [
+            4.0,
+            3.0
+          ],
+          "material": "R55_HISTORIC_MASONRY_APPEARANCE_CANDIDATE"
+        },
+        {
+          "face": 11,
+          "u": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "v": [
+            -0.0,
+            0.9996942281723022,
+            0.02472679130733013
+          ],
+          "repeat_m": [
+            4.0,
+            3.0
+          ],
+          "material": "R55_HISTORIC_MASONRY_APPEARANCE_CANDIDATE"
+        },
+        {
+          "face": 12,
+          "u": [
+            0.936768114566803,
+            0.3499506711959839,
+            -0.0
+          ],
+          "v": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "repeat_m": [
+            4.0,
+            3.0
+          ],
+          "material": "R55_HISTORIC_MASONRY_APPEARANCE_CANDIDATE"
+        },
+        {
+          "face": 13,
+          "u": [
+            0.8551511168479919,
+            -0.518378734588623,
+            -0.0
+          ],
+          "v": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "repeat_m": [
+            4.0,
+            3.0
+          ],
+          "material": "R55_HISTORIC_MASONRY_APPEARANCE_CANDIDATE"
+        },
+        {
+          "face": 14,
+          "u": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "v": [
+            -0.0,
+            0.9996941685676575,
+            0.02472679689526558
+          ],
+          "repeat_m": [
+            4.0,
+            3.0
+          ],
+          "material": "R55_HISTORIC_MASONRY_APPEARANCE_CANDIDATE"
+        },
+        {
+          "face": 15,
+          "u": [
+            0.936768114566803,
+            0.3499505817890167,
+            -0.0
+          ],
+          "v": [
+            3.3394126575103655e-08,
+            -8.939134232832657e-08,
+            1.0
+          ],
+          "repeat_m": [
+            4.0,
+            3.0
+          ],
+          "material": "R55_HISTORIC_MASONRY_APPEARANCE_CANDIDATE"
+        },
+        {
+          "face": 16,
+          "u": [
+            0.8551509380340576,
+            -0.5183792114257812,
+            -0.0
+          ],
+          "v": [
+            1.5169709399742715e-07,
+            2.502490588085493e-07,
+            -1.0
+          ],
+          "repeat_m": [
+            4.0,
+            3.0
+          ],
+          "material": "R55_HISTORIC_MASONRY_APPEARANCE_CANDIDATE"
+        },
+        {
+          "face": 17,
+          "u": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "v": [
+            -0.0,
+            0.9996942281723022,
+            0.02472701296210289
+          ],
+          "repeat_m": [
+            4.0,
+            3.0
+          ],
+          "material": "R55_HISTORIC_MASONRY_APPEARANCE_CANDIDATE"
+        },
+        {
+          "face": 18,
+          "u": [
+            0.936767041683197,
+            0.3499535918235779,
+            -0.0
+          ],
+          "v": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "repeat_m": [
+            4.0,
+            3.0
+          ],
+          "material": "R55_HISTORIC_MASONRY_APPEARANCE_CANDIDATE"
+        },
+        {
+          "face": 19,
+          "u": [
+            0.8551526069641113,
+            -0.5183764100074768,
+            -0.0
+          ],
+          "v": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "repeat_m": [
+            4.0,
+            3.0
+          ],
+          "material": "R55_HISTORIC_MASONRY_APPEARANCE_CANDIDATE"
+        },
+        {
+          "face": 20,
+          "u": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "v": [
+            -0.0,
+            0.9996942281723022,
+            0.02472701296210289
+          ],
+          "repeat_m": [
+            4.0,
+            3.0
+          ],
+          "material": "R55_HISTORIC_MASONRY_APPEARANCE_CANDIDATE"
+        },
+        {
+          "face": 21,
+          "u": [
+            0.9367668628692627,
+            0.3499540090560913,
+            -0.0
+          ],
+          "v": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "repeat_m": [
+            4.0,
+            3.0
+          ],
+          "material": "R55_HISTORIC_MASONRY_APPEARANCE_CANDIDATE"
+        },
+        {
+          "face": 22,
+          "u": [
+            0.8551527857780457,
+            -0.5183759927749634,
+            -0.0
+          ],
+          "v": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "repeat_m": [
+            4.0,
+            3.0
+          ],
+          "material": "R55_HISTORIC_MASONRY_APPEARANCE_CANDIDATE"
+        },
+        {
+          "face": 23,
+          "u": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "v": [
+            -0.0,
+            0.9996942281723022,
+            0.02472700923681259
+          ],
+          "repeat_m": [
+            4.0,
+            3.0
+          ],
+          "material": "R55_HISTORIC_MASONRY_APPEARANCE_CANDIDATE"
+        },
+        {
+          "face": 24,
+          "u": [
+            0.9367671608924866,
+            0.3499531149864197,
+            -0.0
+          ],
+          "v": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "repeat_m": [
+            4.0,
+            3.0
+          ],
+          "material": "R55_HISTORIC_MASONRY_APPEARANCE_CANDIDATE"
+        },
+        {
+          "face": 25,
+          "u": [
+            0.8551527857780457,
+            -0.5183759927749634,
+            -0.0
+          ],
+          "v": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "repeat_m": [
+            4.0,
+            3.0
+          ],
+          "material": "R55_HISTORIC_MASONRY_APPEARANCE_CANDIDATE"
+        }
+      ]
+    },
+    {
+      "name": "R35_WALL_51946353_01_0",
+      "faces": [
+        {
+          "face": 0,
+          "u": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "v": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "repeat_m": [
+            4.0,
+            3.0
+          ],
+          "material": "R55_HISTORIC_MASONRY_APPEARANCE_CANDIDATE"
+        },
+        {
+          "face": 1,
+          "u": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "v": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "repeat_m": [
+            4.0,
+            3.0
+          ],
+          "material": "R55_HISTORIC_MASONRY_APPEARANCE_CANDIDATE"
+        },
+        {
+          "face": 2,
+          "u": [
+            0.02743891254067421,
+            0.9996234774589539,
+            -0.0
+          ],
+          "v": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "repeat_m": [
+            4.0,
+            3.0
+          ],
+          "material": "R55_HISTORIC_MASONRY_APPEARANCE_CANDIDATE"
+        },
+        {
+          "face": 3,
+          "u": [
+            0.7263398170471191,
+            0.6873358488082886,
+            -0.0
+          ],
+          "v": [
+            -0.0,
+            0.0,
+            -1.0
+          ],
+          "repeat_m": [
+            4.0,
+            3.0
+          ],
+          "material": "R55_HISTORIC_MASONRY_APPEARANCE_CANDIDATE"
+        },
+        {
+          "face": 4,
+          "u": [
+            0.027439000084996223,
+            0.9996234774589539,
+            -0.0
+          ],
+          "v": [
+            -0.0,
+            0.0,
+            -1.0
+          ],
+          "repeat_m": [
+            4.0,
+            3.0
+          ],
+          "material": "R55_HISTORIC_MASONRY_APPEARANCE_CANDIDATE"
+        },
+        {
+          "face": 5,
+          "u": [
+            0.998165488243103,
+            -0.060544174164533615,
+            0.0
+          ],
+          "v": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "repeat_m": [
+            4.0,
+            3.0
+          ],
+          "material": "R55_HISTORIC_MASONRY_APPEARANCE_CANDIDATE"
+        }
+      ]
+    },
+    {
+      "name": "R35_WALL_51946353_02_0",
+      "faces": [
+        {
+          "face": 0,
+          "u": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "v": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "repeat_m": [
+            4.0,
+            3.0
+          ],
+          "material": "R55_HISTORIC_MASONRY_APPEARANCE_CANDIDATE"
+        },
+        {
+          "face": 1,
+          "u": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "v": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "repeat_m": [
+            4.0,
+            3.0
+          ],
+          "material": "R55_HISTORIC_MASONRY_APPEARANCE_CANDIDATE"
+        },
+        {
+          "face": 2,
+          "u": [
+            0.9996157288551331,
+            -0.02772224135696888,
+            -0.0
+          ],
+          "v": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "repeat_m": [
+            4.0,
+            3.0
+          ],
+          "material": "R55_HISTORIC_MASONRY_APPEARANCE_CANDIDATE"
+        },
+        {
+          "face": 3,
+          "u": [
+            0.028470354154706,
+            0.9995946288108826,
+            -0.0
+          ],
+          "v": [
+            -0.0,
+            0.0,
+            -1.0
+          ],
+          "repeat_m": [
+            4.0,
+            3.0
+          ],
+          "material": "R55_HISTORIC_MASONRY_APPEARANCE_CANDIDATE"
+        },
+        {
+          "face": 4,
+          "u": [
+            0.9996156692504883,
+            -0.027722183614969254,
+            0.0
+          ],
+          "v": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "repeat_m": [
+            4.0,
+            3.0
+          ],
+          "material": "R55_HISTORIC_MASONRY_APPEARANCE_CANDIDATE"
+        },
+        {
+          "face": 5,
+          "u": [
+            0.7263398170471191,
+            0.6873358488082886,
+            -0.0
+          ],
+          "v": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "repeat_m": [
+            4.0,
+            3.0
+          ],
+          "material": "R55_HISTORIC_MASONRY_APPEARANCE_CANDIDATE"
+        }
+      ]
+    },
+    {
+      "name": "R35_WALL_51946353_03_0",
+      "faces": [
+        {
+          "face": 0,
+          "u": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "v": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "repeat_m": [
+            4.0,
+            3.0
+          ],
+          "material": "R55_HISTORIC_MASONRY_APPEARANCE_CANDIDATE"
+        },
+        {
+          "face": 1,
+          "u": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "v": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "repeat_m": [
+            4.0,
+            3.0
+          ],
+          "material": "R55_HISTORIC_MASONRY_APPEARANCE_CANDIDATE"
+        },
+        {
+          "face": 2,
+          "u": [
+            0.9995731115341187,
+            -0.02921527810394764,
+            -0.0
+          ],
+          "v": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "repeat_m": [
+            4.0,
+            3.0
+          ],
+          "material": "R55_HISTORIC_MASONRY_APPEARANCE_CANDIDATE"
+        },
+        {
+          "face": 3,
+          "u": [
+            0.02813977375626564,
+            0.9996040463447571,
+            -0.0
+          ],
+          "v": [
+            -0.0,
+            0.0,
+            -1.0
+          ],
+          "repeat_m": [
+            4.0,
+            3.0
+          ],
+          "material": "R55_HISTORIC_MASONRY_APPEARANCE_CANDIDATE"
+        },
+        {
+          "face": 4,
+          "u": [
+            0.9995731711387634,
+            -0.029215317219495773,
+            0.0
+          ],
+          "v": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "repeat_m": [
+            4.0,
+            3.0
+          ],
+          "material": "R55_HISTORIC_MASONRY_APPEARANCE_CANDIDATE"
+        },
+        {
+          "face": 5,
+          "u": [
+            0.028470354154706,
+            0.9995946288108826,
+            -0.0
+          ],
+          "v": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "repeat_m": [
+            4.0,
+            3.0
+          ],
+          "material": "R55_HISTORIC_MASONRY_APPEARANCE_CANDIDATE"
+        }
+      ]
+    },
+    {
+      "name": "R35_WALL_51946353_04_0",
+      "faces": [
+        {
+          "face": 0,
+          "u": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "v": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "repeat_m": [
+            4.0,
+            3.0
+          ],
+          "material": "R55_HISTORIC_MASONRY_APPEARANCE_CANDIDATE"
+        },
+        {
+          "face": 1,
+          "u": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "v": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "repeat_m": [
+            4.0,
+            3.0
+          ],
+          "material": "R55_HISTORIC_MASONRY_APPEARANCE_CANDIDATE"
+        },
+        {
+          "face": 2,
+          "u": [
+            0.9996337294578552,
+            -0.02706281468272209,
+            -0.0
+          ],
+          "v": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "repeat_m": [
+            4.0,
+            3.0
+          ],
+          "material": "R55_HISTORIC_MASONRY_APPEARANCE_CANDIDATE"
+        },
+        {
+          "face": 3,
+          "u": [
+            0.02706306427717209,
+            0.9996337890625,
+            -0.0
+          ],
+          "v": [
+            -0.0,
+            0.0,
+            -1.0
+          ],
+          "repeat_m": [
+            4.0,
+            3.0
+          ],
+          "material": "R55_HISTORIC_MASONRY_APPEARANCE_CANDIDATE"
+        },
+        {
+          "face": 4,
+          "u": [
+            0.9996337890625,
+            -0.02706255204975605,
+            0.0
+          ],
+          "v": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "repeat_m": [
+            4.0,
+            3.0
+          ],
+          "material": "R55_HISTORIC_MASONRY_APPEARANCE_CANDIDATE"
+        },
+        {
+          "face": 5,
+          "u": [
+            0.02813977375626564,
+            0.9996040463447571,
+            -0.0
+          ],
+          "v": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "repeat_m": [
+            4.0,
+            3.0
+          ],
+          "material": "R55_HISTORIC_MASONRY_APPEARANCE_CANDIDATE"
+        }
+      ]
+    },
+    {
+      "name": "R35_WALL_49911001_00_0",
+      "faces": [
+        {
+          "face": 0,
+          "u": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "v": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "repeat_m": [
+            4.0,
+            3.0
+          ],
+          "material": "R55_HISTORIC_MASONRY_APPEARANCE_CANDIDATE"
+        },
+        {
+          "face": 1,
+          "u": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "v": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "repeat_m": [
+            4.0,
+            3.0
+          ],
+          "material": "R55_HISTORIC_MASONRY_APPEARANCE_CANDIDATE"
+        },
+        {
+          "face": 2,
+          "u": [
+            0.9997286200523376,
+            -0.023295341059565544,
+            0.0
+          ],
+          "v": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "repeat_m": [
+            4.0,
+            3.0
+          ],
+          "material": "R55_HISTORIC_MASONRY_APPEARANCE_CANDIDATE"
+        },
+        {
+          "face": 3,
+          "u": [
+            0.01957985758781433,
+            0.9998083114624023,
+            -0.0
+          ],
+          "v": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "repeat_m": [
+            4.0,
+            3.0
+          ],
+          "material": "R55_HISTORIC_MASONRY_APPEARANCE_CANDIDATE"
+        },
+        {
+          "face": 4,
+          "u": [
+            0.9997286200523376,
+            -0.023295767605304718,
+            -0.0
+          ],
+          "v": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "repeat_m": [
+            4.0,
+            3.0
+          ],
+          "material": "R55_HISTORIC_MASONRY_APPEARANCE_CANDIDATE"
+        },
+        {
+          "face": 5,
+          "u": [
+            0.023295043036341667,
+            0.9997286796569824,
+            -0.0
+          ],
+          "v": [
+            -0.0,
+            0.0,
+            -1.0
+          ],
+          "repeat_m": [
+            4.0,
+            3.0
+          ],
+          "material": "R55_HISTORIC_MASONRY_APPEARANCE_CANDIDATE"
+        }
+      ]
+    },
+    {
+      "name": "R35_WALL_49911001_01_0",
+      "faces": [
+        {
+          "face": 0,
+          "u": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "v": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "repeat_m": [
+            4.0,
+            3.0
+          ],
+          "material": "R55_HISTORIC_MASONRY_APPEARANCE_CANDIDATE"
+        },
+        {
+          "face": 1,
+          "u": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "v": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "repeat_m": [
+            4.0,
+            3.0
+          ],
+          "material": "R55_HISTORIC_MASONRY_APPEARANCE_CANDIDATE"
+        },
+        {
+          "face": 2,
+          "u": [
+            0.9998741745948792,
+            -0.015864819288253784,
+            0.0
+          ],
+          "v": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "repeat_m": [
+            4.0,
+            3.0
+          ],
+          "material": "R55_HISTORIC_MASONRY_APPEARANCE_CANDIDATE"
+        },
+        {
+          "face": 3,
+          "u": [
+            0.031473834067583084,
+            0.9995046257972717,
+            -0.0
+          ],
+          "v": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "repeat_m": [
+            4.0,
+            3.0
+          ],
+          "material": "R55_HISTORIC_MASONRY_APPEARANCE_CANDIDATE"
+        },
+        {
+          "face": 4,
+          "u": [
+            0.9998741149902344,
+            -0.015864869579672813,
+            -0.0
+          ],
+          "v": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "repeat_m": [
+            4.0,
+            3.0
+          ],
+          "material": "R55_HISTORIC_MASONRY_APPEARANCE_CANDIDATE"
+        },
+        {
+          "face": 5,
+          "u": [
+            0.01957985758781433,
+            0.9998083114624023,
+            -0.0
+          ],
+          "v": [
+            -0.0,
+            0.0,
+            -1.0
+          ],
+          "repeat_m": [
+            4.0,
+            3.0
+          ],
+          "material": "R55_HISTORIC_MASONRY_APPEARANCE_CANDIDATE"
+        }
+      ]
+    },
+    {
+      "name": "R35_WALL_49911001_01_1",
+      "faces": [
+        {
+          "face": 0,
+          "u": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "v": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "repeat_m": [
+            4.0,
+            3.0
+          ],
+          "material": "R55_HISTORIC_MASONRY_APPEARANCE_CANDIDATE"
+        },
+        {
+          "face": 1,
+          "u": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "v": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "repeat_m": [
+            4.0,
+            3.0
+          ],
+          "material": "R55_HISTORIC_MASONRY_APPEARANCE_CANDIDATE"
+        },
+        {
+          "face": 2,
+          "u": [
+            0.9998741149902344,
+            -0.015864722430706024,
+            0.0
+          ],
+          "v": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "repeat_m": [
+            4.0,
+            3.0
+          ],
+          "material": "R55_HISTORIC_MASONRY_APPEARANCE_CANDIDATE"
+        },
+        {
+          "face": 3,
+          "u": [
+            0.03764234483242035,
+            0.9992913007736206,
+            -0.0
+          ],
+          "v": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "repeat_m": [
+            4.0,
+            3.0
+          ],
+          "material": "R55_HISTORIC_MASONRY_APPEARANCE_CANDIDATE"
+        },
+        {
+          "face": 4,
+          "u": [
+            0.9998741149902344,
+            -0.015864908695220947,
+            -0.0
+          ],
+          "v": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "repeat_m": [
+            4.0,
+            3.0
+          ],
+          "material": "R55_HISTORIC_MASONRY_APPEARANCE_CANDIDATE"
+        },
+        {
+          "face": 5,
+          "u": [
+            0.03147383779287338,
+            0.999504566192627,
+            -0.0
+          ],
+          "v": [
+            -0.0,
+            0.0,
+            -1.0
+          ],
+          "repeat_m": [
+            4.0,
+            3.0
+          ],
+          "material": "R55_HISTORIC_MASONRY_APPEARANCE_CANDIDATE"
+        }
+      ]
+    },
+    {
+      "name": "R35_WALL_49911001_01_2",
+      "faces": [
+        {
+          "face": 0,
+          "u": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "v": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "repeat_m": [
+            4.0,
+            3.0
+          ],
+          "material": "R55_HISTORIC_MASONRY_APPEARANCE_CANDIDATE"
+        },
+        {
+          "face": 1,
+          "u": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "v": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "repeat_m": [
+            4.0,
+            3.0
+          ],
+          "material": "R55_HISTORIC_MASONRY_APPEARANCE_CANDIDATE"
+        },
+        {
+          "face": 2,
+          "u": [
+            0.9998740553855896,
+            -0.01587163843214512,
+            0.0
+          ],
+          "v": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "repeat_m": [
+            4.0,
+            3.0
+          ],
+          "material": "R55_HISTORIC_MASONRY_APPEARANCE_CANDIDATE"
+        },
+        {
+          "face": 3,
+          "u": [
+            0.037807218730449677,
+            0.999285101890564,
+            -0.0
+          ],
+          "v": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "repeat_m": [
+            4.0,
+            3.0
+          ],
+          "material": "R55_HISTORIC_MASONRY_APPEARANCE_CANDIDATE"
+        },
+        {
+          "face": 4,
+          "u": [
+            0.9998742938041687,
+            -0.015858974307775497,
+            -0.0
+          ],
+          "v": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "repeat_m": [
+            4.0,
+            3.0
+          ],
+          "material": "R55_HISTORIC_MASONRY_APPEARANCE_CANDIDATE"
+        },
+        {
+          "face": 5,
+          "u": [
+            0.03764234110713005,
+            0.9992912411689758,
+            -0.0
+          ],
+          "v": [
+            -0.0,
+            0.0,
+            -1.0
+          ],
+          "repeat_m": [
+            4.0,
+            3.0
+          ],
+          "material": "R55_HISTORIC_MASONRY_APPEARANCE_CANDIDATE"
+        }
+      ]
+    },
+    {
+      "name": "R35_WALL_49911001_02_0",
+      "faces": [
+        {
+          "face": 0,
+          "u": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "v": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "repeat_m": [
+            4.0,
+            3.0
+          ],
+          "material": "R55_HISTORIC_MASONRY_APPEARANCE_CANDIDATE"
+        },
+        {
+          "face": 1,
+          "u": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "v": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "repeat_m": [
+            4.0,
+            3.0
+          ],
+          "material": "R55_HISTORIC_MASONRY_APPEARANCE_CANDIDATE"
+        },
+        {
+          "face": 2,
+          "u": [
+            0.9982143044471741,
+            -0.059735339134931564,
+            0.0
+          ],
+          "v": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "repeat_m": [
+            4.0,
+            3.0
+          ],
+          "material": "R55_HISTORIC_MASONRY_APPEARANCE_CANDIDATE"
+        },
+        {
+          "face": 3,
+          "u": [
+            0.13140104711055756,
+            0.9913293123245239,
+            -0.0
+          ],
+          "v": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "repeat_m": [
+            4.0,
+            3.0
+          ],
+          "material": "R55_HISTORIC_MASONRY_APPEARANCE_CANDIDATE"
+        },
+        {
+          "face": 4,
+          "u": [
+            0.9982143044471741,
+            -0.0597352497279644,
+            -0.0
+          ],
+          "v": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "repeat_m": [
+            4.0,
+            3.0
+          ],
+          "material": "R55_HISTORIC_MASONRY_APPEARANCE_CANDIDATE"
+        },
+        {
+          "face": 5,
+          "u": [
+            0.037807218730449677,
+            0.999285101890564,
+            -0.0
+          ],
+          "v": [
+            -0.0,
+            0.0,
+            -1.0
+          ],
+          "repeat_m": [
+            4.0,
+            3.0
+          ],
+          "material": "R55_HISTORIC_MASONRY_APPEARANCE_CANDIDATE"
+        }
+      ]
+    },
+    {
+      "name": "R35_WALL_49911001_03_0",
+      "faces": [
+        {
+          "face": 0,
+          "u": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "v": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "repeat_m": [
+            4.0,
+            3.0
+          ],
+          "material": "R55_HISTORIC_MASONRY_APPEARANCE_CANDIDATE"
+        },
+        {
+          "face": 1,
+          "u": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "v": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "repeat_m": [
+            4.0,
+            3.0
+          ],
+          "material": "R55_HISTORIC_MASONRY_APPEARANCE_CANDIDATE"
+        },
+        {
+          "face": 2,
+          "u": [
+            0.9793068170547485,
+            -0.20238108932971954,
+            0.0
+          ],
+          "v": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "repeat_m": [
+            4.0,
+            3.0
+          ],
+          "material": "R55_HISTORIC_MASONRY_APPEARANCE_CANDIDATE"
+        },
+        {
+          "face": 3,
+          "u": [
+            0.40627989172935486,
+            0.9137486815452576,
+            -0.0
+          ],
+          "v": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "repeat_m": [
+            4.0,
+            3.0
+          ],
+          "material": "R55_HISTORIC_MASONRY_APPEARANCE_CANDIDATE"
+        },
+        {
+          "face": 4,
+          "u": [
+            0.9793069362640381,
+            -0.20238064229488373,
+            -0.0
+          ],
+          "v": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "repeat_m": [
+            4.0,
+            3.0
+          ],
+          "material": "R55_HISTORIC_MASONRY_APPEARANCE_CANDIDATE"
+        },
+        {
+          "face": 5,
+          "u": [
+            0.13140104711055756,
+            0.9913293123245239,
+            -0.0
+          ],
+          "v": [
+            -0.0,
+            0.0,
+            -1.0
+          ],
+          "repeat_m": [
+            4.0,
+            3.0
+          ],
+          "material": "R55_HISTORIC_MASONRY_APPEARANCE_CANDIDATE"
+        }
+      ]
+    },
+    {
+      "name": "R35_WALL_49911001_04_0",
+      "faces": [
+        {
+          "face": 0,
+          "u": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "v": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "repeat_m": [
+            4.0,
+            3.0
+          ],
+          "material": "R55_HISTORIC_MASONRY_APPEARANCE_CANDIDATE"
+        },
+        {
+          "face": 1,
+          "u": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "v": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "repeat_m": [
+            4.0,
+            3.0
+          ],
+          "material": "R55_HISTORIC_MASONRY_APPEARANCE_CANDIDATE"
+        },
+        {
+          "face": 2,
+          "u": [
+            0.8062764406204224,
+            -0.5915390253067017,
+            0.0
+          ],
+          "v": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "repeat_m": [
+            4.0,
+            3.0
+          ],
+          "material": "R55_HISTORIC_MASONRY_APPEARANCE_CANDIDATE"
+        },
+        {
+          "face": 3,
+          "u": [
+            0.7603268623352051,
+            0.6495407223701477,
+            -0.0
+          ],
+          "v": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "repeat_m": [
+            4.0,
+            3.0
+          ],
+          "material": "R55_HISTORIC_MASONRY_APPEARANCE_CANDIDATE"
+        },
+        {
+          "face": 4,
+          "u": [
+            0.8062760233879089,
+            -0.5915394425392151,
+            -0.0
+          ],
+          "v": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "repeat_m": [
+            4.0,
+            3.0
+          ],
+          "material": "R55_HISTORIC_MASONRY_APPEARANCE_CANDIDATE"
+        },
+        {
+          "face": 5,
+          "u": [
+            0.40627989172935486,
+            0.9137486815452576,
+            -0.0
+          ],
+          "v": [
+            -0.0,
+            0.0,
+            -1.0
+          ],
+          "repeat_m": [
+            4.0,
+            3.0
+          ],
+          "material": "R55_HISTORIC_MASONRY_APPEARANCE_CANDIDATE"
+        }
+      ]
+    },
+    {
+      "name": "R35_WALL_49911001_05_0",
+      "faces": [
+        {
+          "face": 0,
+          "u": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "v": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "repeat_m": [
+            4.0,
+            3.0
+          ],
+          "material": "R55_HISTORIC_MASONRY_APPEARANCE_CANDIDATE"
+        },
+        {
+          "face": 1,
+          "u": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "v": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "repeat_m": [
+            4.0,
+            3.0
+          ],
+          "material": "R55_HISTORIC_MASONRY_APPEARANCE_CANDIDATE"
+        },
+        {
+          "face": 2,
+          "u": [
+            0.45833471417427063,
+            -0.8887796401977539,
+            0.0
+          ],
+          "v": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "repeat_m": [
+            4.0,
+            3.0
+          ],
+          "material": "R55_HISTORIC_MASONRY_APPEARANCE_CANDIDATE"
+        },
+        {
+          "face": 3,
+          "u": [
+            0.9670084118843079,
+            0.25474461913108826,
+            -0.0
+          ],
+          "v": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "repeat_m": [
+            4.0,
+            3.0
+          ],
+          "material": "R55_HISTORIC_MASONRY_APPEARANCE_CANDIDATE"
+        },
+        {
+          "face": 4,
+          "u": [
+            0.458334743976593,
+            -0.8887796998023987,
+            -0.0
+          ],
+          "v": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "repeat_m": [
+            4.0,
+            3.0
+          ],
+          "material": "R55_HISTORIC_MASONRY_APPEARANCE_CANDIDATE"
+        },
+        {
+          "face": 5,
+          "u": [
+            0.7603268623352051,
+            0.6495407223701477,
+            -0.0
+          ],
+          "v": [
+            -0.0,
+            0.0,
+            -1.0
+          ],
+          "repeat_m": [
+            4.0,
+            3.0
+          ],
+          "material": "R55_HISTORIC_MASONRY_APPEARANCE_CANDIDATE"
+        }
+      ]
+    },
+    {
+      "name": "R35_WALL_49911001_06_0",
+      "faces": [
+        {
+          "face": 0,
+          "u": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "v": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "repeat_m": [
+            4.0,
+            3.0
+          ],
+          "material": "R55_HISTORIC_MASONRY_APPEARANCE_CANDIDATE"
+        },
+        {
+          "face": 1,
+          "u": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "v": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "repeat_m": [
+            4.0,
+            3.0
+          ],
+          "material": "R55_HISTORIC_MASONRY_APPEARANCE_CANDIDATE"
+        },
+        {
+          "face": 2,
+          "u": [
+            0.039027683436870575,
+            -0.9992380738258362,
+            0.0
+          ],
+          "v": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "repeat_m": [
+            4.0,
+            3.0
+          ],
+          "material": "R55_HISTORIC_MASONRY_APPEARANCE_CANDIDATE"
+        },
+        {
+          "face": 3,
+          "u": [
+            0.9999138712882996,
+            -0.01312167476862669,
+            0.0
+          ],
+          "v": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "repeat_m": [
+            4.0,
+            3.0
+          ],
+          "material": "R55_HISTORIC_MASONRY_APPEARANCE_CANDIDATE"
+        },
+        {
+          "face": 4,
+          "u": [
+            0.0390278585255146,
+            -0.999238133430481,
+            -0.0
+          ],
+          "v": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "repeat_m": [
+            4.0,
+            3.0
+          ],
+          "material": "R55_HISTORIC_MASONRY_APPEARANCE_CANDIDATE"
+        },
+        {
+          "face": 5,
+          "u": [
+            0.9670084118843079,
+            0.25474461913108826,
+            -0.0
+          ],
+          "v": [
+            -0.0,
+            0.0,
+            -1.0
+          ],
+          "repeat_m": [
+            4.0,
+            3.0
+          ],
+          "material": "R55_HISTORIC_MASONRY_APPEARANCE_CANDIDATE"
+        }
+      ]
+    },
+    {
+      "name": "R35_WALL_49911001_07_0",
+      "faces": [
+        {
+          "face": 0,
+          "u": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "v": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "repeat_m": [
+            4.0,
+            3.0
+          ],
+          "material": "R55_HISTORIC_MASONRY_APPEARANCE_CANDIDATE"
+        },
+        {
+          "face": 1,
+          "u": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "v": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "repeat_m": [
+            4.0,
+            3.0
+          ],
+          "material": "R55_HISTORIC_MASONRY_APPEARANCE_CANDIDATE"
+        },
+        {
+          "face": 2,
+          "u": [
+            0.0652366653084755,
+            0.9978697896003723,
+            -0.0
+          ],
+          "v": [
+            -0.0,
+            0.0,
+            -1.0
+          ],
+          "repeat_m": [
+            4.0,
+            3.0
+          ],
+          "material": "R55_HISTORIC_MASONRY_APPEARANCE_CANDIDATE"
+        },
+        {
+          "face": 3,
+          "u": [
+            0.9998998641967773,
+            -0.014151004143059254,
+            0.0
+          ],
+          "v": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "repeat_m": [
+            4.0,
+            3.0
+          ],
+          "material": "R55_HISTORIC_MASONRY_APPEARANCE_CANDIDATE"
+        },
+        {
+          "face": 4,
+          "u": [
+            0.06523708999156952,
+            0.9978698492050171,
+            -0.0
+          ],
+          "v": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "repeat_m": [
+            4.0,
+            3.0
+          ],
+          "material": "R55_HISTORIC_MASONRY_APPEARANCE_CANDIDATE"
+        },
+        {
+          "face": 5,
+          "u": [
+            0.9999138712882996,
+            -0.01312167476862669,
+            -0.0
+          ],
+          "v": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "repeat_m": [
+            4.0,
+            3.0
+          ],
+          "material": "R55_HISTORIC_MASONRY_APPEARANCE_CANDIDATE"
+        }
+      ]
+    },
+    {
+      "name": "R35_WALL_49911001_07_1",
+      "faces": [
+        {
+          "face": 0,
+          "u": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "v": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "repeat_m": [
+            4.0,
+            3.0
+          ],
+          "material": "R55_HISTORIC_MASONRY_APPEARANCE_CANDIDATE"
+        },
+        {
+          "face": 1,
+          "u": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "v": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "repeat_m": [
+            4.0,
+            3.0
+          ],
+          "material": "R55_HISTORIC_MASONRY_APPEARANCE_CANDIDATE"
+        },
+        {
+          "face": 2,
+          "u": [
+            0.06523655354976654,
+            0.9978697896003723,
+            -0.0
+          ],
+          "v": [
+            -0.0,
+            0.0,
+            -1.0
+          ],
+          "repeat_m": [
+            4.0,
+            3.0
+          ],
+          "material": "R55_HISTORIC_MASONRY_APPEARANCE_CANDIDATE"
+        },
+        {
+          "face": 3,
+          "u": [
+            0.9994820356369019,
+            -0.03218047693371773,
+            0.0
+          ],
+          "v": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "repeat_m": [
+            4.0,
+            3.0
+          ],
+          "material": "R55_HISTORIC_MASONRY_APPEARANCE_CANDIDATE"
+        },
+        {
+          "face": 4,
+          "u": [
+            0.06523633748292923,
+            0.9978698492050171,
+            -0.0
+          ],
+          "v": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "repeat_m": [
+            4.0,
+            3.0
+          ],
+          "material": "R55_HISTORIC_MASONRY_APPEARANCE_CANDIDATE"
+        },
+        {
+          "face": 5,
+          "u": [
+            0.9998999238014221,
+            -0.014151003211736679,
+            -0.0
+          ],
+          "v": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "repeat_m": [
+            4.0,
+            3.0
+          ],
+          "material": "R55_HISTORIC_MASONRY_APPEARANCE_CANDIDATE"
+        }
+      ]
+    },
+    {
+      "name": "R35_WALL_49911001_07_2",
+      "faces": [
+        {
+          "face": 0,
+          "u": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "v": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "repeat_m": [
+            4.0,
+            3.0
+          ],
+          "material": "R55_HISTORIC_MASONRY_APPEARANCE_CANDIDATE"
+        },
+        {
+          "face": 1,
+          "u": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "v": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "repeat_m": [
+            4.0,
+            3.0
+          ],
+          "material": "R55_HISTORIC_MASONRY_APPEARANCE_CANDIDATE"
+        },
+        {
+          "face": 2,
+          "u": [
+            0.06523650139570236,
+            0.9978698492050171,
+            -0.0
+          ],
+          "v": [
+            -0.0,
+            0.0,
+            -1.0
+          ],
+          "repeat_m": [
+            4.0,
+            3.0
+          ],
+          "material": "R55_HISTORIC_MASONRY_APPEARANCE_CANDIDATE"
+        },
+        {
+          "face": 3,
+          "u": [
+            0.9978699088096619,
+            -0.06523530185222626,
+            0.0
+          ],
+          "v": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "repeat_m": [
+            4.0,
+            3.0
+          ],
+          "material": "R55_HISTORIC_MASONRY_APPEARANCE_CANDIDATE"
+        },
+        {
+          "face": 4,
+          "u": [
+            0.06523644924163818,
+            0.9978698492050171,
+            -0.0
+          ],
+          "v": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "repeat_m": [
+            4.0,
+            3.0
+          ],
+          "material": "R55_HISTORIC_MASONRY_APPEARANCE_CANDIDATE"
+        },
+        {
+          "face": 5,
+          "u": [
+            0.9994820356369019,
+            -0.032180480659008026,
+            -0.0
+          ],
+          "v": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "repeat_m": [
+            4.0,
+            3.0
+          ],
+          "material": "R55_HISTORIC_MASONRY_APPEARANCE_CANDIDATE"
+        }
+      ]
+    },
+    {
+      "name": "R35_WALL_453755312_00_0",
+      "faces": [
+        {
+          "face": 0,
+          "u": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "v": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "repeat_m": [
+            4.0,
+            3.0
+          ],
+          "material": "R55_HISTORIC_MASONRY_APPEARANCE_CANDIDATE"
+        },
+        {
+          "face": 1,
+          "u": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "v": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "repeat_m": [
+            4.0,
+            3.0
+          ],
+          "material": "R55_HISTORIC_MASONRY_APPEARANCE_CANDIDATE"
+        },
+        {
+          "face": 2,
+          "u": [
+            0.07247091084718704,
+            0.9973705410957336,
+            -0.0
+          ],
+          "v": [
+            -0.0,
+            0.0,
+            -1.0
+          ],
+          "repeat_m": [
+            4.0,
+            3.0
+          ],
+          "material": "R55_HISTORIC_MASONRY_APPEARANCE_CANDIDATE"
+        },
+        {
+          "face": 3,
+          "u": [
+            0.9973705410957336,
+            -0.0724705308675766,
+            0.0
+          ],
+          "v": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "repeat_m": [
+            4.0,
+            3.0
+          ],
+          "material": "R55_HISTORIC_MASONRY_APPEARANCE_CANDIDATE"
+        },
+        {
+          "face": 4,
+          "u": [
+            0.07247091084718704,
+            0.9973705410957336,
+            -0.0
+          ],
+          "v": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "repeat_m": [
+            4.0,
+            3.0
+          ],
+          "material": "R55_HISTORIC_MASONRY_APPEARANCE_CANDIDATE"
+        },
+        {
+          "face": 5,
+          "u": [
+            0.9973705410957336,
+            -0.0724705308675766,
+            -0.0
+          ],
+          "v": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "repeat_m": [
+            4.0,
+            3.0
+          ],
+          "material": "R55_HISTORIC_MASONRY_APPEARANCE_CANDIDATE"
+        }
+      ]
+    },
+    {
+      "name": "R35_WALL_759680909_00_0",
+      "faces": [
+        {
+          "face": 0,
+          "u": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "v": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "repeat_m": [
+            4.0,
+            3.0
+          ],
+          "material": "R55_HISTORIC_MASONRY_APPEARANCE_CANDIDATE"
+        },
+        {
+          "face": 1,
+          "u": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "v": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "repeat_m": [
+            4.0,
+            3.0
+          ],
+          "material": "R55_HISTORIC_MASONRY_APPEARANCE_CANDIDATE"
+        },
+        {
+          "face": 2,
+          "u": [
+            0.996375560760498,
+            -0.08506385236978531,
+            -0.0
+          ],
+          "v": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "repeat_m": [
+            4.0,
+            3.0
+          ],
+          "material": "R55_HISTORIC_MASONRY_APPEARANCE_CANDIDATE"
+        },
+        {
+          "face": 3,
+          "u": [
+            0.0852372869849205,
+            0.996360719203949,
+            -0.0
+          ],
+          "v": [
+            -0.0,
+            0.0,
+            -1.0
+          ],
+          "repeat_m": [
+            4.0,
+            3.0
+          ],
+          "material": "R55_HISTORIC_MASONRY_APPEARANCE_CANDIDATE"
+        },
+        {
+          "face": 4,
+          "u": [
+            0.996375560760498,
+            -0.0850636437535286,
+            0.0
+          ],
+          "v": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "repeat_m": [
+            4.0,
+            3.0
+          ],
+          "material": "R55_HISTORIC_MASONRY_APPEARANCE_CANDIDATE"
+        },
+        {
+          "face": 5,
+          "u": [
+            0.08506789058446884,
+            0.9963752031326294,
+            -0.0
+          ],
+          "v": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "repeat_m": [
+            4.0,
+            3.0
+          ],
+          "material": "R55_HISTORIC_MASONRY_APPEARANCE_CANDIDATE"
+        }
+      ]
+    },
+    {
+      "name": "R35_WALL_759680909_01_0",
+      "faces": [
+        {
+          "face": 0,
+          "u": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "v": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "repeat_m": [
+            4.0,
+            3.0
+          ],
+          "material": "R55_HISTORIC_MASONRY_APPEARANCE_CANDIDATE"
+        },
+        {
+          "face": 1,
+          "u": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "v": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "repeat_m": [
+            4.0,
+            3.0
+          ],
+          "material": "R55_HISTORIC_MASONRY_APPEARANCE_CANDIDATE"
+        },
+        {
+          "face": 2,
+          "u": [
+            0.9963465332984924,
+            -0.08540268987417221,
+            -0.0
+          ],
+          "v": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "repeat_m": [
+            4.0,
+            3.0
+          ],
+          "material": "R55_HISTORIC_MASONRY_APPEARANCE_CANDIDATE"
+        },
+        {
+          "face": 3,
+          "u": [
+            0.08540667593479156,
+            0.9963461756706238,
+            -0.0
+          ],
+          "v": [
+            -0.0,
+            0.0,
+            -1.0
+          ],
+          "repeat_m": [
+            4.0,
+            3.0
+          ],
+          "material": "R55_HISTORIC_MASONRY_APPEARANCE_CANDIDATE"
+        },
+        {
+          "face": 4,
+          "u": [
+            0.9963465929031372,
+            -0.08540255576372147,
+            0.0
+          ],
+          "v": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "repeat_m": [
+            4.0,
+            3.0
+          ],
+          "material": "R55_HISTORIC_MASONRY_APPEARANCE_CANDIDATE"
+        },
+        {
+          "face": 5,
+          "u": [
+            0.0852372869849205,
+            0.996360719203949,
+            -0.0
+          ],
+          "v": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "repeat_m": [
+            4.0,
+            3.0
+          ],
+          "material": "R55_HISTORIC_MASONRY_APPEARANCE_CANDIDATE"
+        }
+      ]
+    }
+  ],
+  "baked_boolean_objects": [
+    "R35_WALL_51946353_00_0"
+  ],
+  "uv_map": "R55_CONTEXT_METRIC_UV",
+  "materials": [
+    "R55_HISTORIC_MASONRY_APPEARANCE_CANDIDATE",
+    "R55_MOAT_TURF_APPEARANCE_CANDIDATE"
+  ],
+  "evaluated_geometry_changed": false,
+  "construction_acceptance": false
+}

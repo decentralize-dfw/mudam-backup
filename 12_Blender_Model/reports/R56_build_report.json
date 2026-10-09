@@ -1,0 +1,354 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R56_PARK_AGAC_TACI_v002.blend",
+  "base_scene": "MUDAM_R55_TARIHI_DUVAR_YUZEY_v002.blend",
+  "closed_objects": [
+    "R56_TREE_6380924935_BRANCHES",
+    "R56_TREE_6380924935_LEAVES",
+    "R56_TREE_6380924936_BRANCHES",
+    "R56_TREE_6380924936_LEAVES",
+    "R56_TREE_6380924937_BRANCHES",
+    "R56_TREE_6380924937_LEAVES",
+    "R56_TREE_6380924938_BRANCHES",
+    "R56_TREE_6380924938_LEAVES",
+    "R56_TREE_6380924939_BRANCHES",
+    "R56_TREE_6380924939_LEAVES",
+    "R56_TREE_6380924940_BRANCHES",
+    "R56_TREE_6380924940_LEAVES",
+    "R56_TREE_6380924941_BRANCHES",
+    "R56_TREE_6380924941_LEAVES",
+    "R56_TREE_6380924942_BRANCHES",
+    "R56_TREE_6380924942_LEAVES",
+    "R56_TREE_6380924943_BRANCHES",
+    "R56_TREE_6380924943_LEAVES",
+    "R56_TREE_6380924944_BRANCHES",
+    "R56_TREE_6380924944_LEAVES",
+    "R56_TREE_6380924945_BRANCHES",
+    "R56_TREE_6380924945_LEAVES",
+    "R56_TREE_6380924946_BRANCHES",
+    "R56_TREE_6380924946_LEAVES",
+    "R56_TREE_6380924947_BRANCHES",
+    "R56_TREE_6380924947_LEAVES",
+    "R56_TREE_6380924948_BRANCHES",
+    "R56_TREE_6380924948_LEAVES",
+    "R56_TREE_6380924949_BRANCHES",
+    "R56_TREE_6380924949_LEAVES",
+    "R56_TREE_6380924950_BRANCHES",
+    "R56_TREE_6380924950_LEAVES",
+    "R56_TREE_6380924951_BRANCHES",
+    "R56_TREE_6380924951_LEAVES",
+    "R56_TREE_6380924955_BRANCHES",
+    "R56_TREE_6380924955_LEAVES",
+    "R56_TREE_6380924956_BRANCHES",
+    "R56_TREE_6380924956_LEAVES"
+  ],
+  "changed_inherited_objects": [
+    "R38_TREE_6380924935_CROWN",
+    "R38_TREE_6380924936_CROWN",
+    "R38_TREE_6380924937_CROWN",
+    "R38_TREE_6380924938_CROWN",
+    "R38_TREE_6380924939_CROWN",
+    "R38_TREE_6380924940_CROWN",
+    "R38_TREE_6380924941_CROWN",
+    "R38_TREE_6380924942_CROWN",
+    "R38_TREE_6380924943_CROWN",
+    "R38_TREE_6380924944_CROWN",
+    "R38_TREE_6380924945_CROWN",
+    "R38_TREE_6380924946_CROWN",
+    "R38_TREE_6380924947_CROWN",
+    "R38_TREE_6380924948_CROWN",
+    "R38_TREE_6380924949_CROWN",
+    "R38_TREE_6380924950_CROWN",
+    "R38_TREE_6380924951_CROWN",
+    "R38_TREE_6380924955_CROWN",
+    "R38_TREE_6380924956_CROWN"
+  ],
+  "trees": [
+    {
+      "id": "6380924935",
+      "xy": [
+        42.57191245036665,
+        72.7954361718148
+      ],
+      "height": 8,
+      "radius": 2.2,
+      "trunk": "R38_TREE_6380924935_TRUNK",
+      "old_crown": "R38_TREE_6380924935_CROWN",
+      "branches": "R56_TREE_6380924935_BRANCHES",
+      "foliage": "R56_TREE_6380924935_LEAVES",
+      "branch_segments": 161,
+      "leaf_solids": 9600
+    },
+    {
+      "id": "6380924936",
+      "xy": [
+        50.26561626023613,
+        71.42295541800559
+      ],
+      "height": 8,
+      "radius": 2.2,
+      "trunk": "R38_TREE_6380924936_TRUNK",
+      "old_crown": "R38_TREE_6380924936_CROWN",
+      "branches": "R56_TREE_6380924936_BRANCHES",
+      "foliage": "R56_TREE_6380924936_LEAVES",
+      "branch_segments": 161,
+      "leaf_solids": 9600
+    },
+    {
+      "id": "6380924937",
+      "xy": [
+        56.98416569276014,
+        68.75179348886013
+      ],
+      "height": 8,
+      "radius": 2.2,
+      "trunk": "R38_TREE_6380924937_TRUNK",
+      "old_crown": "R38_TREE_6380924937_CROWN",
+      "branches": "R56_TREE_6380924937_BRANCHES",
+      "foliage": "R56_TREE_6380924937_LEAVES",
+      "branch_segments": 161,
+      "leaf_solids": 9600
+    },
+    {
+      "id": "6380924938",
+      "xy": [
+        62.417998194810934,
+        64.05903863534331
+      ],
+      "height": 8,
+      "radius": 2.2,
+      "trunk": "R38_TREE_6380924938_TRUNK",
+      "old_crown": "R38_TREE_6380924938_CROWN",
+      "branches": "R56_TREE_6380924938_BRANCHES",
+      "foliage": "R56_TREE_6380924938_LEAVES",
+      "branch_segments": 161,
+      "leaf_solids": 9600
+    },
+    {
+      "id": "6380924939",
+      "xy": [
+        66.71223580650985,
+        58.30761495605111
+      ],
+      "height": 8,
+      "radius": 2.2,
+      "trunk": "R38_TREE_6380924939_TRUNK",
+      "old_crown": "R38_TREE_6380924939_CROWN",
+      "branches": "R56_TREE_6380924939_BRANCHES",
+      "foliage": "R56_TREE_6380924939_LEAVES",
+      "branch_segments": 161,
+      "leaf_solids": 9600
+    },
+    {
+      "id": "6380924940",
+      "xy": [
+        69.17297639878234,
+        52.45897059235722
+      ],
+      "height": 8,
+      "radius": 2.2,
+      "trunk": "R38_TREE_6380924940_TRUNK",
+      "old_crown": "R38_TREE_6380924940_CROWN",
+      "branches": "R56_TREE_6380924940_BRANCHES",
+      "foliage": "R56_TREE_6380924940_LEAVES",
+      "branch_segments": 161,
+      "leaf_solids": 9600
+    },
+    {
+      "id": "6380924941",
+      "xy": [
+        70.81130778160878,
+        44.00342622585595
+      ],
+      "height": 8,
+      "radius": 2.2,
+      "trunk": "R38_TREE_6380924941_TRUNK",
+      "old_crown": "R38_TREE_6380924941_CROWN",
+      "branches": "R56_TREE_6380924941_BRANCHES",
+      "foliage": "R56_TREE_6380924941_LEAVES",
+      "branch_segments": 161,
+      "leaf_solids": 9600
+    },
+    {
+      "id": "6380924942",
+      "xy": [
+        64.2032757505076,
+        43.687097548507154
+      ],
+      "height": 8,
+      "radius": 2.2,
+      "trunk": "R38_TREE_6380924942_TRUNK",
+      "old_crown": "R38_TREE_6380924942_CROWN",
+      "branches": "R56_TREE_6380924942_BRANCHES",
+      "foliage": "R56_TREE_6380924942_LEAVES",
+      "branch_segments": 161,
+      "leaf_solids": 9600
+    },
+    {
+      "id": "6380924943",
+      "xy": [
+        63.62643063929863,
+        50.57723446935415
+      ],
+      "height": 8,
+      "radius": 2.2,
+      "trunk": "R38_TREE_6380924943_TRUNK",
+      "old_crown": "R38_TREE_6380924943_CROWN",
+      "branches": "R56_TREE_6380924943_BRANCHES",
+      "foliage": "R56_TREE_6380924943_LEAVES",
+      "branch_segments": 161,
+      "leaf_solids": 9600
+    },
+    {
+      "id": "6380924944",
+      "xy": [
+        59.915445434337016,
+        56.451182012446225
+      ],
+      "height": 8,
+      "radius": 2.2,
+      "trunk": "R38_TREE_6380924944_TRUNK",
+      "old_crown": "R38_TREE_6380924944_CROWN",
+      "branches": "R56_TREE_6380924944_BRANCHES",
+      "foliage": "R56_TREE_6380924944_LEAVES",
+      "branch_segments": 161,
+      "leaf_solids": 9600
+    },
+    {
+      "id": "6380924945",
+      "xy": [
+        52.836099444306456,
+        62.186122277751565
+      ],
+      "height": 8,
+      "radius": 2.2,
+      "trunk": "R38_TREE_6380924945_TRUNK",
+      "old_crown": "R38_TREE_6380924945_CROWN",
+      "branches": "R56_TREE_6380924945_BRANCHES",
+      "foliage": "R56_TREE_6380924945_LEAVES",
+      "branch_segments": 161,
+      "leaf_solids": 9600
+    },
+    {
+      "id": "6380924946",
+      "xy": [
+        47.193552269251086,
+        65.19482547137886
+      ],
+      "height": 8,
+      "radius": 2.2,
+      "trunk": "R38_TREE_6380924946_TRUNK",
+      "old_crown": "R38_TREE_6380924946_CROWN",
+      "branches": "R56_TREE_6380924946_BRANCHES",
+      "foliage": "R56_TREE_6380924946_LEAVES",
+      "branch_segments": 161,
+      "leaf_solids": 9600
+    },
+    {
+      "id": "6380924947",
+      "xy": [
+        41.89760014193598,
+        66.09760812111199
+      ],
+      "height": 8,
+      "radius": 2.2,
+      "trunk": "R38_TREE_6380924947_TRUNK",
+      "old_crown": "R38_TREE_6380924947_CROWN",
+      "branches": "R56_TREE_6380924947_BRANCHES",
+      "foliage": "R56_TREE_6380924947_LEAVES",
+      "branch_segments": 161,
+      "leaf_solids": 9600
+    },
+    {
+      "id": "6380924948",
+      "xy": [
+        62.41807596932631,
+        20.14490531384945
+      ],
+      "height": 8,
+      "radius": 2.2,
+      "trunk": "R38_TREE_6380924948_TRUNK",
+      "old_crown": "R38_TREE_6380924948_CROWN",
+      "branches": "R56_TREE_6380924948_BRANCHES",
+      "foliage": "R56_TREE_6380924948_LEAVES",
+      "branch_segments": 161,
+      "leaf_solids": 9600
+    },
+    {
+      "id": "6380924949",
+      "xy": [
+        62.919435247196816,
+        10.129663328640163
+      ],
+      "height": 8,
+      "radius": 2.2,
+      "trunk": "R38_TREE_6380924949_TRUNK",
+      "old_crown": "R38_TREE_6380924949_CROWN",
+      "branches": "R56_TREE_6380924949_BRANCHES",
+      "foliage": "R56_TREE_6380924949_LEAVES",
+      "branch_segments": 161,
+      "leaf_solids": 9600
+    },
+    {
+      "id": "6380924950",
+      "xy": [
+        63.98658919392619,
+        0.5381613112986088
+      ],
+      "height": 8,
+      "radius": 2.2,
+      "trunk": "R38_TREE_6380924950_TRUNK",
+      "old_crown": "R38_TREE_6380924950_CROWN",
+      "branches": "R56_TREE_6380924950_BRANCHES",
+      "foliage": "R56_TREE_6380924950_LEAVES",
+      "branch_segments": 161,
+      "leaf_solids": 9600
+    },
+    {
+      "id": "6380924951",
+      "xy": [
+        60.125679671007674,
+        -6.082967769354582
+      ],
+      "height": 8,
+      "radius": 2.2,
+      "trunk": "R38_TREE_6380924951_TRUNK",
+      "old_crown": "R38_TREE_6380924951_CROWN",
+      "branches": "R56_TREE_6380924951_BRANCHES",
+      "foliage": "R56_TREE_6380924951_LEAVES",
+      "branch_segments": 161,
+      "leaf_solids": 9600
+    },
+    {
+      "id": "6380924955",
+      "xy": [
+        69.00480108661577,
+        13.816484678536654
+      ],
+      "height": 8,
+      "radius": 2.2,
+      "trunk": "R38_TREE_6380924955_TRUNK",
+      "old_crown": "R38_TREE_6380924955_CROWN",
+      "branches": "R56_TREE_6380924955_BRANCHES",
+      "foliage": "R56_TREE_6380924955_LEAVES",
+      "branch_segments": 161,
+      "leaf_solids": 9600
+    },
+    {
+      "id": "6380924956",
+      "xy": [
+        71.24007720680675,
+        5.082206804305315
+      ],
+      "height": 8,
+      "radius": 2.2,
+      "trunk": "R38_TREE_6380924956_TRUNK",
+      "old_crown": "R38_TREE_6380924956_CROWN",
+      "branches": "R56_TREE_6380924956_BRANCHES",
+      "foliage": "R56_TREE_6380924956_LEAVES",
+      "branch_segments": 161,
+      "leaf_solids": 9600
+    }
+  ],
+  "geometry_scope": "Only old crown visibility changes; new closed branch and leaf components. Existing trunks, paths, terrain and all building geometry preserved.",
+  "construction_acceptance": false
+}

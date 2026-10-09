@@ -1,0 +1,23 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R59_KOPRU_TAS_DOSEME_v001.blend",
+  "before": {
+    "volume": 423.2614732234756,
+    "area": 2180.965042695403,
+    "nonmanifold": 0,
+    "zero_faces": 0
+  },
+  "after": {
+    "volume": 423.2614729232783,
+    "area": 2180.9648792315274,
+    "nonmanifold": 0,
+    "zero_faces": 0
+  },
+  "max_new_vertex_distance_to_old_surface_m": 3.814697265625e-06,
+  "max_old_vertex_distance_to_new_surface_m": 0.0,
+  "uv_faces": 50,
+  "uv_max_error": 0,
+  "uv_min_area": 0.0003086725893766129,
+  "failures": [],
+  "construction_acceptance": false,
+  "limits": "Surface extent/area/volume check; only face subdivision and materials intended. It does not verify source dimensions."
+}

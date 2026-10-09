@@ -1,8 +1,8 @@
 {
-  "file": "12_Blender_Model/exports/MUDAM_R54_TARIHI_DUVAR_ALT_CAM_v002_preview.glb",
-  "size_bytes": 34056012,
-  "mesh_nodes": 7117,
-  "triangles": 851636,
+  "file": "12_Blender_Model/exports/MUDAM_R61_SACAK_GOMME_ISIK_v002_preview.glb",
+  "size_bytes": 84707696,
+  "mesh_nodes": 7235,
+  "triangles": 2401696,
   "world_bounds_glTF": [
     [
       -42.32527542114258,
@@ -49,6 +49,16 @@
       "mime": "image/png"
     },
     {
+      "name": "R60_soffit_linear_grain_candidate_normal",
+      "embedded_bytes": 67224,
+      "mime": "image/png"
+    },
+    {
+      "name": "R60_soffit_linear_grain_candidate_basecolor",
+      "embedded_bytes": 61879,
+      "mime": "image/png"
+    },
+    {
       "name": "R46_stone_grain_candidate_normal",
       "embedded_bytes": 105879,
       "mime": "image/png"
@@ -66,6 +76,36 @@
     {
       "name": "R53_soffit_linear_grain_candidate_basecolor",
       "embedded_bytes": 34974,
+      "mime": "image/png"
+    },
+    {
+      "name": "R59_paving_candidate_normal",
+      "embedded_bytes": 3385494,
+      "mime": "image/png"
+    },
+    {
+      "name": "R59_paving_candidate_basecolor",
+      "embedded_bytes": 1549588,
+      "mime": "image/png"
+    },
+    {
+      "name": "R55_moat_turf_candidate_normal",
+      "embedded_bytes": 4477536,
+      "mime": "image/png"
+    },
+    {
+      "name": "R55_moat_turf_candidate_basecolor",
+      "embedded_bytes": 2930674,
+      "mime": "image/png"
+    },
+    {
+      "name": "R55_historic_masonry_candidate_normal",
+      "embedded_bytes": 1549682,
+      "mime": "image/png"
+    },
+    {
+      "name": "R55_historic_masonry_candidate_basecolor",
+      "embedded_bytes": 1000182,
       "mime": "image/png"
     }
   ],

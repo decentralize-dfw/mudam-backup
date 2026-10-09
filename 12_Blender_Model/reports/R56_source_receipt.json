@@ -1,0 +1,28 @@
+{
+  "sources": [
+    {
+      "id": "063",
+      "path": "03_Vaziyet_ve_Peyzaj/Tarihi_Duvarlar_ve_Cevre/063_Tarihi_duvarlar_park_ve_yaklasim_WikiArquitectura.jpg",
+      "sha256": "18f4811ff2e6968bf31ba759e3435d194855ccd3fc1e055d4d9de9e53970a5ec",
+      "source_url": "https://es.wikiarquitectura.com/edificio/museo-de-arte-moderno-grand-duc-jean-mudam/",
+      "credit": "WikiArquitectura; sayfadaki foto\u011fraf serisi Haziran 2019",
+      "source_date": "unknown; do not infer from download date",
+      "modified": false
+    },
+    {
+      "id": "065",
+      "path": "03_Vaziyet_ve_Peyzaj/Tarihi_Duvarlar_ve_Cevre/065_Tarihi_duvarlar_park_ve_yaklasim_WikiArquitectura.jpg",
+      "sha256": "99eef99c21a91b2ac3f8cbba51e324729ce784824ab0167e147e73bd90565cee",
+      "source_url": "https://es.wikiarquitectura.com/edificio/museo-de-arte-moderno-grand-duc-jean-mudam/",
+      "credit": "WikiArquitectura; sayfadaki foto\u011fraf serisi Haziran 2019",
+      "source_date": "unknown; do not infer from download date",
+      "modified": false
+    }
+  ],
+  "position_source": "config/park_landings.json, R38_source_receipt.json archived OSM",
+  "limits": [
+    "Mixed canopy forms visible in063/065; individual species/identities not assigned.",
+    "Height8m/radius2.2m inherited unmeasured candidates. Generic branching, leaf size and count are visualization geometry.",
+    "No ground extent, planting bed, paving route or building geometry changed."
+  ]
+}

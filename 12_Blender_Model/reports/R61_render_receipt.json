@@ -1,0 +1,46 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R61_SACAK_GOMME_ISIK_v002.blend",
+  "images": [
+    {
+      "image": "R61_canopy.png",
+      "eye": [
+        30,
+        34,
+        1.65
+      ],
+      "target": [
+        35,
+        40,
+        11
+      ]
+    },
+    {
+      "image": "R61_fixture.png",
+      "eye": [
+        35.43086624145508,
+        33.64377975463867,
+        10.823118209838867
+      ],
+      "target": [
+        34.980865478515625,
+        34.243778228759766,
+        11.523118019104004
+      ]
+    },
+    {
+      "image": "R61_group.png",
+      "eye": [
+        30,
+        35,
+        7.5
+      ],
+      "target": [
+        32,
+        38,
+        11.5
+      ]
+    }
+  ],
+  "all_active_surroundings": true,
+  "metric_camera": false
+}

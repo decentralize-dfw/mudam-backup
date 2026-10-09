@@ -1,0 +1,1282 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R61_SACAK_GOMME_ISIK_v002.blend",
+  "solids": [
+    {
+      "name": "R61_CANOPY_01_RIM",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "volume": 0.00020360902469320375
+    },
+    {
+      "name": "R61_CANOPY_01_REFLECTOR",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "volume": 4.1741790648314335e-05
+    },
+    {
+      "name": "R61_CANOPY_01_LENS",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "volume": 8.470025698763842e-06
+    },
+    {
+      "name": "R61_CANOPY_01_BACK",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "volume": 0.00014387155892837825
+    },
+    {
+      "name": "R61_CANOPY_02_RIM",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "volume": 0.0002036092386918484
+    },
+    {
+      "name": "R61_CANOPY_02_REFLECTOR",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "volume": 4.174346254474595e-05
+    },
+    {
+      "name": "R61_CANOPY_02_LENS",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "volume": 8.469983036070992e-06
+    },
+    {
+      "name": "R61_CANOPY_02_BACK",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "volume": 0.0001438711402702616
+    },
+    {
+      "name": "R61_CANOPY_03_RIM",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "volume": 0.0002036092386898476
+    },
+    {
+      "name": "R61_CANOPY_03_REFLECTOR",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "volume": 4.174346254387126e-05
+    },
+    {
+      "name": "R61_CANOPY_03_LENS",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "volume": 8.469983037542932e-06
+    },
+    {
+      "name": "R61_CANOPY_03_BACK",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "volume": 0.00014387114027513618
+    },
+    {
+      "name": "R61_CANOPY_04_RIM",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "volume": 0.00020360923869051461
+    },
+    {
+      "name": "R61_CANOPY_04_REFLECTOR",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "volume": 4.1743462541528404e-05
+    },
+    {
+      "name": "R61_CANOPY_04_LENS",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "volume": 8.469983036377794e-06
+    },
+    {
+      "name": "R61_CANOPY_04_BACK",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "volume": 0.0001438711402710339
+    },
+    {
+      "name": "R61_CANOPY_05_RIM",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "volume": 0.00020360902469553977
+    },
+    {
+      "name": "R61_CANOPY_05_REFLECTOR",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "volume": 4.1741790648437094e-05
+    },
+    {
+      "name": "R61_CANOPY_05_LENS",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "volume": 8.470025699595913e-06
+    },
+    {
+      "name": "R61_CANOPY_05_BACK",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "volume": 0.0001438715589293512
+    },
+    {
+      "name": "R61_CANOPY_06_RIM",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "volume": 0.00020360902469429814
+    },
+    {
+      "name": "R61_CANOPY_06_REFLECTOR",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "volume": 4.1741790641069385e-05
+    },
+    {
+      "name": "R61_CANOPY_06_LENS",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "volume": 8.470025699026544e-06
+    },
+    {
+      "name": "R61_CANOPY_06_BACK",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "volume": 0.00014387155892900177
+    },
+    {
+      "name": "P07_CANOPY_SLAB_ENVELOPE",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "volume": 207.02896039777568
+    }
+  ],
+  "rays": [
+    {
+      "label": "CANOPY_01_center",
+      "hit": [
+        0.3640003204345703,
+        "R61_CANOPY_01_LENS",
+        11.587118148803711
+      ],
+      "expected": "R61_CANOPY_01_LENS",
+      "expected_z": 11.587118019104004,
+      "passed": true
+    },
+    {
+      "label": "CANOPY_01_rim_0",
+      "hit": [
+        0.29600051045417786,
+        "R61_CANOPY_01_RIM",
+        11.519118309020996
+      ],
+      "expected": "R61_CANOPY_01_RIM",
+      "expected_z": 11.519118019104004,
+      "passed": true
+    },
+    {
+      "label": "CANOPY_01_soffit_0",
+      "hit": [
+        0.3000001907348633,
+        "P07_CANOPY_SLAB_ENVELOPE",
+        11.523118019104004
+      ],
+      "expected": "P07_CANOPY_SLAB_ENVELOPE",
+      "expected_z": 11.523118019104004,
+      "passed": true
+    },
+    {
+      "label": "CANOPY_01_rim_1",
+      "hit": [
+        0.29600048065185547,
+        "R61_CANOPY_01_RIM",
+        11.519118309020996
+      ],
+      "expected": "R61_CANOPY_01_RIM",
+      "expected_z": 11.519118019104004,
+      "passed": true
+    },
+    {
+      "label": "CANOPY_01_soffit_1",
+      "hit": [
+        0.30000022053718567,
+        "P07_CANOPY_SLAB_ENVELOPE",
+        11.523118019104004
+      ],
+      "expected": "P07_CANOPY_SLAB_ENVELOPE",
+      "expected_z": 11.523118019104004,
+      "passed": true
+    },
+    {
+      "label": "CANOPY_01_rim_2",
+      "hit": [
+        0.29600051045417786,
+        "R61_CANOPY_01_RIM",
+        11.519118309020996
+      ],
+      "expected": "R61_CANOPY_01_RIM",
+      "expected_z": 11.519118019104004,
+      "passed": true
+    },
+    {
+      "label": "CANOPY_01_soffit_2",
+      "hit": [
+        0.30000022053718567,
+        "P07_CANOPY_SLAB_ENVELOPE",
+        11.523118019104004
+      ],
+      "expected": "P07_CANOPY_SLAB_ENVELOPE",
+      "expected_z": 11.523118019104004,
+      "passed": true
+    },
+    {
+      "label": "CANOPY_01_rim_3",
+      "hit": [
+        0.29600048065185547,
+        "R61_CANOPY_01_RIM",
+        11.519118309020996
+      ],
+      "expected": "R61_CANOPY_01_RIM",
+      "expected_z": 11.519118019104004,
+      "passed": true
+    },
+    {
+      "label": "CANOPY_01_soffit_3",
+      "hit": [
+        0.30000022053718567,
+        "P07_CANOPY_SLAB_ENVELOPE",
+        11.523118019104004
+      ],
+      "expected": "P07_CANOPY_SLAB_ENVELOPE",
+      "expected_z": 11.523118019104004,
+      "passed": true
+    },
+    {
+      "label": "CANOPY_01_rim_4",
+      "hit": [
+        0.29600048065185547,
+        "R61_CANOPY_01_RIM",
+        11.519118309020996
+      ],
+      "expected": "R61_CANOPY_01_RIM",
+      "expected_z": 11.519118019104004,
+      "passed": true
+    },
+    {
+      "label": "CANOPY_01_soffit_4",
+      "hit": [
+        0.3000001907348633,
+        "P07_CANOPY_SLAB_ENVELOPE",
+        11.523118019104004
+      ],
+      "expected": "P07_CANOPY_SLAB_ENVELOPE",
+      "expected_z": 11.523118019104004,
+      "passed": true
+    },
+    {
+      "label": "CANOPY_01_rim_5",
+      "hit": [
+        0.29600048065185547,
+        "R61_CANOPY_01_RIM",
+        11.519118309020996
+      ],
+      "expected": "R61_CANOPY_01_RIM",
+      "expected_z": 11.519118019104004,
+      "passed": true
+    },
+    {
+      "label": "CANOPY_01_soffit_5",
+      "hit": [
+        0.3000001907348633,
+        "P07_CANOPY_SLAB_ENVELOPE",
+        11.523118019104004
+      ],
+      "expected": "P07_CANOPY_SLAB_ENVELOPE",
+      "expected_z": 11.523118019104004,
+      "passed": true
+    },
+    {
+      "label": "CANOPY_01_rim_6",
+      "hit": [
+        0.29600048065185547,
+        "R61_CANOPY_01_RIM",
+        11.519118309020996
+      ],
+      "expected": "R61_CANOPY_01_RIM",
+      "expected_z": 11.519118019104004,
+      "passed": true
+    },
+    {
+      "label": "CANOPY_01_soffit_6",
+      "hit": [
+        0.3000001907348633,
+        "P07_CANOPY_SLAB_ENVELOPE",
+        11.523118019104004
+      ],
+      "expected": "P07_CANOPY_SLAB_ENVELOPE",
+      "expected_z": 11.523118019104004,
+      "passed": true
+    },
+    {
+      "label": "CANOPY_01_rim_7",
+      "hit": [
+        0.29600048065185547,
+        "R61_CANOPY_01_RIM",
+        11.519118309020996
+      ],
+      "expected": "R61_CANOPY_01_RIM",
+      "expected_z": 11.519118019104004,
+      "passed": true
+    },
+    {
+      "label": "CANOPY_01_soffit_7",
+      "hit": [
+        0.30000022053718567,
+        "P07_CANOPY_SLAB_ENVELOPE",
+        11.523118019104004
+      ],
+      "expected": "P07_CANOPY_SLAB_ENVELOPE",
+      "expected_z": 11.523118019104004,
+      "passed": true
+    },
+    {
+      "label": "CANOPY_02_center",
+      "hit": [
+        0.3640003502368927,
+        "R61_CANOPY_02_LENS",
+        11.587118148803711
+      ],
+      "expected": "R61_CANOPY_02_LENS",
+      "expected_z": 11.587118019104004,
+      "passed": true
+    },
+    {
+      "label": "CANOPY_02_rim_0",
+      "hit": [
+        0.29600048065185547,
+        "R61_CANOPY_02_RIM",
+        11.519118309020996
+      ],
+      "expected": "R61_CANOPY_02_RIM",
+      "expected_z": 11.519118019104004,
+      "passed": true
+    },
+    {
+      "label": "CANOPY_02_soffit_0",
+      "hit": [
+        0.30000022053718567,
+        "P07_CANOPY_SLAB_ENVELOPE",
+        11.523118019104004
+      ],
+      "expected": "P07_CANOPY_SLAB_ENVELOPE",
+      "expected_z": 11.523118019104004,
+      "passed": true
+    },
+    {
+      "label": "CANOPY_02_rim_1",
+      "hit": [
+        0.29600048065185547,
+        "R61_CANOPY_02_RIM",
+        11.519118309020996
+      ],
+      "expected": "R61_CANOPY_02_RIM",
+      "expected_z": 11.519118019104004,
+      "passed": true
+    },
+    {
+      "label": "CANOPY_02_soffit_1",
+      "hit": [
+        0.30000022053718567,
+        "P07_CANOPY_SLAB_ENVELOPE",
+        11.523118019104004
+      ],
+      "expected": "P07_CANOPY_SLAB_ENVELOPE",
+      "expected_z": 11.523118019104004,
+      "passed": true
+    },
+    {
+      "label": "CANOPY_02_rim_2",
+      "hit": [
+        0.2960004508495331,
+        "R61_CANOPY_02_RIM",
+        11.519118309020996
+      ],
+      "expected": "R61_CANOPY_02_RIM",
+      "expected_z": 11.519118019104004,
+      "passed": true
+    },
+    {
+      "label": "CANOPY_02_soffit_2",
+      "hit": [
+        0.3000001609325409,
+        "P07_CANOPY_SLAB_ENVELOPE",
+        11.523118019104004
+      ],
+      "expected": "P07_CANOPY_SLAB_ENVELOPE",
+      "expected_z": 11.523118019104004,
+      "passed": true
+    },
+    {
+      "label": "CANOPY_02_rim_3",
+      "hit": [
+        0.29600048065185547,
+        "R61_CANOPY_02_RIM",
+        11.519118309020996
+      ],
+      "expected": "R61_CANOPY_02_RIM",
+      "expected_z": 11.519118019104004,
+      "passed": true
+    },
+    {
+      "label": "CANOPY_02_soffit_3",
+      "hit": [
+        0.3000001907348633,
+        "P07_CANOPY_SLAB_ENVELOPE",
+        11.523118019104004
+      ],
+      "expected": "P07_CANOPY_SLAB_ENVELOPE",
+      "expected_z": 11.523118019104004,
+      "passed": true
+    },
+    {
+      "label": "CANOPY_02_rim_4",
+      "hit": [
+        0.2960004508495331,
+        "R61_CANOPY_02_RIM",
+        11.519118309020996
+      ],
+      "expected": "R61_CANOPY_02_RIM",
+      "expected_z": 11.519118019104004,
+      "passed": true
+    },
+    {
+      "label": "CANOPY_02_soffit_4",
+      "hit": [
+        0.3000001609325409,
+        "P07_CANOPY_SLAB_ENVELOPE",
+        11.523118019104004
+      ],
+      "expected": "P07_CANOPY_SLAB_ENVELOPE",
+      "expected_z": 11.523118019104004,
+      "passed": true
+    },
+    {
+      "label": "CANOPY_02_rim_5",
+      "hit": [
+        0.29600048065185547,
+        "R61_CANOPY_02_RIM",
+        11.519118309020996
+      ],
+      "expected": "R61_CANOPY_02_RIM",
+      "expected_z": 11.519118019104004,
+      "passed": true
+    },
+    {
+      "label": "CANOPY_02_soffit_5",
+      "hit": [
+        0.30000022053718567,
+        "P07_CANOPY_SLAB_ENVELOPE",
+        11.523118019104004
+      ],
+      "expected": "P07_CANOPY_SLAB_ENVELOPE",
+      "expected_z": 11.523118019104004,
+      "passed": true
+    },
+    {
+      "label": "CANOPY_02_rim_6",
+      "hit": [
+        0.29600048065185547,
+        "R61_CANOPY_02_RIM",
+        11.519118309020996
+      ],
+      "expected": "R61_CANOPY_02_RIM",
+      "expected_z": 11.519118019104004,
+      "passed": true
+    },
+    {
+      "label": "CANOPY_02_soffit_6",
+      "hit": [
+        0.3000001907348633,
+        "P07_CANOPY_SLAB_ENVELOPE",
+        11.523118019104004
+      ],
+      "expected": "P07_CANOPY_SLAB_ENVELOPE",
+      "expected_z": 11.523118019104004,
+      "passed": true
+    },
+    {
+      "label": "CANOPY_02_rim_7",
+      "hit": [
+        0.29600048065185547,
+        "R61_CANOPY_02_RIM",
+        11.519118309020996
+      ],
+      "expected": "R61_CANOPY_02_RIM",
+      "expected_z": 11.519118019104004,
+      "passed": true
+    },
+    {
+      "label": "CANOPY_02_soffit_7",
+      "hit": [
+        0.3000001609325409,
+        "P07_CANOPY_SLAB_ENVELOPE",
+        11.523118019104004
+      ],
+      "expected": "P07_CANOPY_SLAB_ENVELOPE",
+      "expected_z": 11.523118019104004,
+      "passed": true
+    },
+    {
+      "label": "CANOPY_03_center",
+      "hit": [
+        0.3640003502368927,
+        "R61_CANOPY_03_LENS",
+        11.587118148803711
+      ],
+      "expected": "R61_CANOPY_03_LENS",
+      "expected_z": 11.587118019104004,
+      "passed": true
+    },
+    {
+      "label": "CANOPY_03_rim_0",
+      "hit": [
+        0.29600048065185547,
+        "R61_CANOPY_03_RIM",
+        11.519118309020996
+      ],
+      "expected": "R61_CANOPY_03_RIM",
+      "expected_z": 11.519118019104004,
+      "passed": true
+    },
+    {
+      "label": "CANOPY_03_soffit_0",
+      "hit": [
+        0.3000001609325409,
+        "P07_CANOPY_SLAB_ENVELOPE",
+        11.523118019104004
+      ],
+      "expected": "P07_CANOPY_SLAB_ENVELOPE",
+      "expected_z": 11.523118019104004,
+      "passed": true
+    },
+    {
+      "label": "CANOPY_03_rim_1",
+      "hit": [
+        0.29600048065185547,
+        "R61_CANOPY_03_RIM",
+        11.519118309020996
+      ],
+      "expected": "R61_CANOPY_03_RIM",
+      "expected_z": 11.519118019104004,
+      "passed": true
+    },
+    {
+      "label": "CANOPY_03_soffit_1",
+      "hit": [
+        0.3000001907348633,
+        "P07_CANOPY_SLAB_ENVELOPE",
+        11.523118019104004
+      ],
+      "expected": "P07_CANOPY_SLAB_ENVELOPE",
+      "expected_z": 11.523118019104004,
+      "passed": true
+    },
+    {
+      "label": "CANOPY_03_rim_2",
+      "hit": [
+        0.2960004508495331,
+        "R61_CANOPY_03_RIM",
+        11.519118309020996
+      ],
+      "expected": "R61_CANOPY_03_RIM",
+      "expected_z": 11.519118019104004,
+      "passed": true
+    },
+    {
+      "label": "CANOPY_03_soffit_2",
+      "hit": [
+        0.3000001907348633,
+        "P07_CANOPY_SLAB_ENVELOPE",
+        11.523118019104004
+      ],
+      "expected": "P07_CANOPY_SLAB_ENVELOPE",
+      "expected_z": 11.523118019104004,
+      "passed": true
+    },
+    {
+      "label": "CANOPY_03_rim_3",
+      "hit": [
+        0.29600048065185547,
+        "R61_CANOPY_03_RIM",
+        11.519118309020996
+      ],
+      "expected": "R61_CANOPY_03_RIM",
+      "expected_z": 11.519118019104004,
+      "passed": true
+    },
+    {
+      "label": "CANOPY_03_soffit_3",
+      "hit": [
+        0.3000001907348633,
+        "P07_CANOPY_SLAB_ENVELOPE",
+        11.523118019104004
+      ],
+      "expected": "P07_CANOPY_SLAB_ENVELOPE",
+      "expected_z": 11.523118019104004,
+      "passed": true
+    },
+    {
+      "label": "CANOPY_03_rim_4",
+      "hit": [
+        0.2960004508495331,
+        "R61_CANOPY_03_RIM",
+        11.519118309020996
+      ],
+      "expected": "R61_CANOPY_03_RIM",
+      "expected_z": 11.519118019104004,
+      "passed": true
+    },
+    {
+      "label": "CANOPY_03_soffit_4",
+      "hit": [
+        0.3000001907348633,
+        "P07_CANOPY_SLAB_ENVELOPE",
+        11.523118019104004
+      ],
+      "expected": "P07_CANOPY_SLAB_ENVELOPE",
+      "expected_z": 11.523118019104004,
+      "passed": true
+    },
+    {
+      "label": "CANOPY_03_rim_5",
+      "hit": [
+        0.29600048065185547,
+        "R61_CANOPY_03_RIM",
+        11.519118309020996
+      ],
+      "expected": "R61_CANOPY_03_RIM",
+      "expected_z": 11.519118019104004,
+      "passed": true
+    },
+    {
+      "label": "CANOPY_03_soffit_5",
+      "hit": [
+        0.30000022053718567,
+        "P07_CANOPY_SLAB_ENVELOPE",
+        11.523118019104004
+      ],
+      "expected": "P07_CANOPY_SLAB_ENVELOPE",
+      "expected_z": 11.523118019104004,
+      "passed": true
+    },
+    {
+      "label": "CANOPY_03_rim_6",
+      "hit": [
+        0.29600048065185547,
+        "R61_CANOPY_03_RIM",
+        11.519118309020996
+      ],
+      "expected": "R61_CANOPY_03_RIM",
+      "expected_z": 11.519118019104004,
+      "passed": true
+    },
+    {
+      "label": "CANOPY_03_soffit_6",
+      "hit": [
+        0.3000001907348633,
+        "P07_CANOPY_SLAB_ENVELOPE",
+        11.523118019104004
+      ],
+      "expected": "P07_CANOPY_SLAB_ENVELOPE",
+      "expected_z": 11.523118019104004,
+      "passed": true
+    },
+    {
+      "label": "CANOPY_03_rim_7",
+      "hit": [
+        0.29600048065185547,
+        "R61_CANOPY_03_RIM",
+        11.519118309020996
+      ],
+      "expected": "R61_CANOPY_03_RIM",
+      "expected_z": 11.519118019104004,
+      "passed": true
+    },
+    {
+      "label": "CANOPY_03_soffit_7",
+      "hit": [
+        0.3000001609325409,
+        "P07_CANOPY_SLAB_ENVELOPE",
+        11.523118019104004
+      ],
+      "expected": "P07_CANOPY_SLAB_ENVELOPE",
+      "expected_z": 11.523118019104004,
+      "passed": true
+    },
+    {
+      "label": "CANOPY_04_center",
+      "hit": [
+        0.3640003502368927,
+        "R61_CANOPY_04_LENS",
+        11.587118148803711
+      ],
+      "expected": "R61_CANOPY_04_LENS",
+      "expected_z": 11.587118019104004,
+      "passed": true
+    },
+    {
+      "label": "CANOPY_04_rim_0",
+      "hit": [
+        0.29600048065185547,
+        "R61_CANOPY_04_RIM",
+        11.519118309020996
+      ],
+      "expected": "R61_CANOPY_04_RIM",
+      "expected_z": 11.519118019104004,
+      "passed": true
+    },
+    {
+      "label": "CANOPY_04_soffit_0",
+      "hit": [
+        0.30000022053718567,
+        "P07_CANOPY_SLAB_ENVELOPE",
+        11.523118019104004
+      ],
+      "expected": "P07_CANOPY_SLAB_ENVELOPE",
+      "expected_z": 11.523118019104004,
+      "passed": true
+    },
+    {
+      "label": "CANOPY_04_rim_1",
+      "hit": [
+        0.29600048065185547,
+        "R61_CANOPY_04_RIM",
+        11.519118309020996
+      ],
+      "expected": "R61_CANOPY_04_RIM",
+      "expected_z": 11.519118019104004,
+      "passed": true
+    },
+    {
+      "label": "CANOPY_04_soffit_1",
+      "hit": [
+        0.3000001907348633,
+        "P07_CANOPY_SLAB_ENVELOPE",
+        11.523118019104004
+      ],
+      "expected": "P07_CANOPY_SLAB_ENVELOPE",
+      "expected_z": 11.523118019104004,
+      "passed": true
+    },
+    {
+      "label": "CANOPY_04_rim_2",
+      "hit": [
+        0.2960004508495331,
+        "R61_CANOPY_04_RIM",
+        11.519118309020996
+      ],
+      "expected": "R61_CANOPY_04_RIM",
+      "expected_z": 11.519118019104004,
+      "passed": true
+    },
+    {
+      "label": "CANOPY_04_soffit_2",
+      "hit": [
+        0.3000001609325409,
+        "P07_CANOPY_SLAB_ENVELOPE",
+        11.523118019104004
+      ],
+      "expected": "P07_CANOPY_SLAB_ENVELOPE",
+      "expected_z": 11.523118019104004,
+      "passed": true
+    },
+    {
+      "label": "CANOPY_04_rim_3",
+      "hit": [
+        0.29600048065185547,
+        "R61_CANOPY_04_RIM",
+        11.519118309020996
+      ],
+      "expected": "R61_CANOPY_04_RIM",
+      "expected_z": 11.519118019104004,
+      "passed": true
+    },
+    {
+      "label": "CANOPY_04_soffit_3",
+      "hit": [
+        0.3000001907348633,
+        "P07_CANOPY_SLAB_ENVELOPE",
+        11.523118019104004
+      ],
+      "expected": "P07_CANOPY_SLAB_ENVELOPE",
+      "expected_z": 11.523118019104004,
+      "passed": true
+    },
+    {
+      "label": "CANOPY_04_rim_4",
+      "hit": [
+        0.2960004508495331,
+        "R61_CANOPY_04_RIM",
+        11.519118309020996
+      ],
+      "expected": "R61_CANOPY_04_RIM",
+      "expected_z": 11.519118019104004,
+      "passed": true
+    },
+    {
+      "label": "CANOPY_04_soffit_4",
+      "hit": [
+        0.3000001609325409,
+        "P07_CANOPY_SLAB_ENVELOPE",
+        11.523118019104004
+      ],
+      "expected": "P07_CANOPY_SLAB_ENVELOPE",
+      "expected_z": 11.523118019104004,
+      "passed": true
+    },
+    {
+      "label": "CANOPY_04_rim_5",
+      "hit": [
+        0.29600048065185547,
+        "R61_CANOPY_04_RIM",
+        11.519118309020996
+      ],
+      "expected": "R61_CANOPY_04_RIM",
+      "expected_z": 11.519118019104004,
+      "passed": true
+    },
+    {
+      "label": "CANOPY_04_soffit_5",
+      "hit": [
+        0.3000001907348633,
+        "P07_CANOPY_SLAB_ENVELOPE",
+        11.523118019104004
+      ],
+      "expected": "P07_CANOPY_SLAB_ENVELOPE",
+      "expected_z": 11.523118019104004,
+      "passed": true
+    },
+    {
+      "label": "CANOPY_04_rim_6",
+      "hit": [
+        0.29600048065185547,
+        "R61_CANOPY_04_RIM",
+        11.519118309020996
+      ],
+      "expected": "R61_CANOPY_04_RIM",
+      "expected_z": 11.519118019104004,
+      "passed": true
+    },
+    {
+      "label": "CANOPY_04_soffit_6",
+      "hit": [
+        0.3000001907348633,
+        "P07_CANOPY_SLAB_ENVELOPE",
+        11.523118019104004
+      ],
+      "expected": "P07_CANOPY_SLAB_ENVELOPE",
+      "expected_z": 11.523118019104004,
+      "passed": true
+    },
+    {
+      "label": "CANOPY_04_rim_7",
+      "hit": [
+        0.29600048065185547,
+        "R61_CANOPY_04_RIM",
+        11.519118309020996
+      ],
+      "expected": "R61_CANOPY_04_RIM",
+      "expected_z": 11.519118019104004,
+      "passed": true
+    },
+    {
+      "label": "CANOPY_04_soffit_7",
+      "hit": [
+        0.3000001609325409,
+        "P07_CANOPY_SLAB_ENVELOPE",
+        11.523118019104004
+      ],
+      "expected": "P07_CANOPY_SLAB_ENVELOPE",
+      "expected_z": 11.523118019104004,
+      "passed": true
+    },
+    {
+      "label": "CANOPY_05_center",
+      "hit": [
+        0.3640003204345703,
+        "R61_CANOPY_05_LENS",
+        11.587118148803711
+      ],
+      "expected": "R61_CANOPY_05_LENS",
+      "expected_z": 11.587118019104004,
+      "passed": true
+    },
+    {
+      "label": "CANOPY_05_rim_0",
+      "hit": [
+        0.29600051045417786,
+        "R61_CANOPY_05_RIM",
+        11.519118309020996
+      ],
+      "expected": "R61_CANOPY_05_RIM",
+      "expected_z": 11.519118019104004,
+      "passed": true
+    },
+    {
+      "label": "CANOPY_05_soffit_0",
+      "hit": [
+        0.3000001907348633,
+        "P07_CANOPY_SLAB_ENVELOPE",
+        11.523118019104004
+      ],
+      "expected": "P07_CANOPY_SLAB_ENVELOPE",
+      "expected_z": 11.523118019104004,
+      "passed": true
+    },
+    {
+      "label": "CANOPY_05_rim_1",
+      "hit": [
+        0.29600048065185547,
+        "R61_CANOPY_05_RIM",
+        11.519118309020996
+      ],
+      "expected": "R61_CANOPY_05_RIM",
+      "expected_z": 11.519118019104004,
+      "passed": true
+    },
+    {
+      "label": "CANOPY_05_soffit_1",
+      "hit": [
+        0.30000022053718567,
+        "P07_CANOPY_SLAB_ENVELOPE",
+        11.523118019104004
+      ],
+      "expected": "P07_CANOPY_SLAB_ENVELOPE",
+      "expected_z": 11.523118019104004,
+      "passed": true
+    },
+    {
+      "label": "CANOPY_05_rim_2",
+      "hit": [
+        0.29600051045417786,
+        "R61_CANOPY_05_RIM",
+        11.519118309020996
+      ],
+      "expected": "R61_CANOPY_05_RIM",
+      "expected_z": 11.519118019104004,
+      "passed": true
+    },
+    {
+      "label": "CANOPY_05_soffit_2",
+      "hit": [
+        0.3000001907348633,
+        "P07_CANOPY_SLAB_ENVELOPE",
+        11.523118019104004
+      ],
+      "expected": "P07_CANOPY_SLAB_ENVELOPE",
+      "expected_z": 11.523118019104004,
+      "passed": true
+    },
+    {
+      "label": "CANOPY_05_rim_3",
+      "hit": [
+        0.29600048065185547,
+        "R61_CANOPY_05_RIM",
+        11.519118309020996
+      ],
+      "expected": "R61_CANOPY_05_RIM",
+      "expected_z": 11.519118019104004,
+      "passed": true
+    },
+    {
+      "label": "CANOPY_05_soffit_3",
+      "hit": [
+        0.3000001907348633,
+        "P07_CANOPY_SLAB_ENVELOPE",
+        11.523118019104004
+      ],
+      "expected": "P07_CANOPY_SLAB_ENVELOPE",
+      "expected_z": 11.523118019104004,
+      "passed": true
+    },
+    {
+      "label": "CANOPY_05_rim_4",
+      "hit": [
+        0.29600048065185547,
+        "R61_CANOPY_05_RIM",
+        11.519118309020996
+      ],
+      "expected": "R61_CANOPY_05_RIM",
+      "expected_z": 11.519118019104004,
+      "passed": true
+    },
+    {
+      "label": "CANOPY_05_soffit_4",
+      "hit": [
+        0.3000001907348633,
+        "P07_CANOPY_SLAB_ENVELOPE",
+        11.523118019104004
+      ],
+      "expected": "P07_CANOPY_SLAB_ENVELOPE",
+      "expected_z": 11.523118019104004,
+      "passed": true
+    },
+    {
+      "label": "CANOPY_05_rim_5",
+      "hit": [
+        0.29600048065185547,
+        "R61_CANOPY_05_RIM",
+        11.519118309020996
+      ],
+      "expected": "R61_CANOPY_05_RIM",
+      "expected_z": 11.519118019104004,
+      "passed": true
+    },
+    {
+      "label": "CANOPY_05_soffit_5",
+      "hit": [
+        0.3000001907348633,
+        "P07_CANOPY_SLAB_ENVELOPE",
+        11.523118019104004
+      ],
+      "expected": "P07_CANOPY_SLAB_ENVELOPE",
+      "expected_z": 11.523118019104004,
+      "passed": true
+    },
+    {
+      "label": "CANOPY_05_rim_6",
+      "hit": [
+        0.29600048065185547,
+        "R61_CANOPY_05_RIM",
+        11.519118309020996
+      ],
+      "expected": "R61_CANOPY_05_RIM",
+      "expected_z": 11.519118019104004,
+      "passed": true
+    },
+    {
+      "label": "CANOPY_05_soffit_6",
+      "hit": [
+        0.3000001907348633,
+        "P07_CANOPY_SLAB_ENVELOPE",
+        11.523118019104004
+      ],
+      "expected": "P07_CANOPY_SLAB_ENVELOPE",
+      "expected_z": 11.523118019104004,
+      "passed": true
+    },
+    {
+      "label": "CANOPY_05_rim_7",
+      "hit": [
+        0.29600048065185547,
+        "R61_CANOPY_05_RIM",
+        11.519118309020996
+      ],
+      "expected": "R61_CANOPY_05_RIM",
+      "expected_z": 11.519118019104004,
+      "passed": true
+    },
+    {
+      "label": "CANOPY_05_soffit_7",
+      "hit": [
+        0.3000001907348633,
+        "P07_CANOPY_SLAB_ENVELOPE",
+        11.523118019104004
+      ],
+      "expected": "P07_CANOPY_SLAB_ENVELOPE",
+      "expected_z": 11.523118019104004,
+      "passed": true
+    },
+    {
+      "label": "CANOPY_06_center",
+      "hit": [
+        0.3640002906322479,
+        "R61_CANOPY_06_LENS",
+        11.587118148803711
+      ],
+      "expected": "R61_CANOPY_06_LENS",
+      "expected_z": 11.587118019104004,
+      "passed": true
+    },
+    {
+      "label": "CANOPY_06_rim_0",
+      "hit": [
+        0.29600048065185547,
+        "R61_CANOPY_06_RIM",
+        11.519118309020996
+      ],
+      "expected": "R61_CANOPY_06_RIM",
+      "expected_z": 11.519118019104004,
+      "passed": true
+    },
+    {
+      "label": "CANOPY_06_soffit_0",
+      "hit": [
+        0.3000001907348633,
+        "P07_CANOPY_SLAB_ENVELOPE",
+        11.523118019104004
+      ],
+      "expected": "P07_CANOPY_SLAB_ENVELOPE",
+      "expected_z": 11.523118019104004,
+      "passed": true
+    },
+    {
+      "label": "CANOPY_06_rim_1",
+      "hit": [
+        0.29600048065185547,
+        "R61_CANOPY_06_RIM",
+        11.519118309020996
+      ],
+      "expected": "R61_CANOPY_06_RIM",
+      "expected_z": 11.519118019104004,
+      "passed": true
+    },
+    {
+      "label": "CANOPY_06_soffit_1",
+      "hit": [
+        0.3000001907348633,
+        "P07_CANOPY_SLAB_ENVELOPE",
+        11.523118019104004
+      ],
+      "expected": "P07_CANOPY_SLAB_ENVELOPE",
+      "expected_z": 11.523118019104004,
+      "passed": true
+    },
+    {
+      "label": "CANOPY_06_rim_2",
+      "hit": [
+        0.29600048065185547,
+        "R61_CANOPY_06_RIM",
+        11.519118309020996
+      ],
+      "expected": "R61_CANOPY_06_RIM",
+      "expected_z": 11.519118019104004,
+      "passed": true
+    },
+    {
+      "label": "CANOPY_06_soffit_2",
+      "hit": [
+        0.3000001907348633,
+        "P07_CANOPY_SLAB_ENVELOPE",
+        11.523118019104004
+      ],
+      "expected": "P07_CANOPY_SLAB_ENVELOPE",
+      "expected_z": 11.523118019104004,
+      "passed": true
+    },
+    {
+      "label": "CANOPY_06_rim_3",
+      "hit": [
+        0.29600048065185547,
+        "R61_CANOPY_06_RIM",
+        11.519118309020996
+      ],
+      "expected": "R61_CANOPY_06_RIM",
+      "expected_z": 11.519118019104004,
+      "passed": true
+    },
+    {
+      "label": "CANOPY_06_soffit_3",
+      "hit": [
+        0.3000001907348633,
+        "P07_CANOPY_SLAB_ENVELOPE",
+        11.523118019104004
+      ],
+      "expected": "P07_CANOPY_SLAB_ENVELOPE",
+      "expected_z": 11.523118019104004,
+      "passed": true
+    },
+    {
+      "label": "CANOPY_06_rim_4",
+      "hit": [
+        0.29600051045417786,
+        "R61_CANOPY_06_RIM",
+        11.519118309020996
+      ],
+      "expected": "R61_CANOPY_06_RIM",
+      "expected_z": 11.519118019104004,
+      "passed": true
+    },
+    {
+      "label": "CANOPY_06_soffit_4",
+      "hit": [
+        0.3000001311302185,
+        "P07_CANOPY_SLAB_ENVELOPE",
+        11.523118019104004
+      ],
+      "expected": "P07_CANOPY_SLAB_ENVELOPE",
+      "expected_z": 11.523118019104004,
+      "passed": true
+    },
+    {
+      "label": "CANOPY_06_rim_5",
+      "hit": [
+        0.29600048065185547,
+        "R61_CANOPY_06_RIM",
+        11.519118309020996
+      ],
+      "expected": "R61_CANOPY_06_RIM",
+      "expected_z": 11.519118019104004,
+      "passed": true
+    },
+    {
+      "label": "CANOPY_06_soffit_5",
+      "hit": [
+        0.3000001907348633,
+        "P07_CANOPY_SLAB_ENVELOPE",
+        11.523118019104004
+      ],
+      "expected": "P07_CANOPY_SLAB_ENVELOPE",
+      "expected_z": 11.523118019104004,
+      "passed": true
+    },
+    {
+      "label": "CANOPY_06_rim_6",
+      "hit": [
+        0.29600051045417786,
+        "R61_CANOPY_06_RIM",
+        11.519118309020996
+      ],
+      "expected": "R61_CANOPY_06_RIM",
+      "expected_z": 11.519118019104004,
+      "passed": true
+    },
+    {
+      "label": "CANOPY_06_soffit_6",
+      "hit": [
+        0.3000001907348633,
+        "P07_CANOPY_SLAB_ENVELOPE",
+        11.523118019104004
+      ],
+      "expected": "P07_CANOPY_SLAB_ENVELOPE",
+      "expected_z": 11.523118019104004,
+      "passed": true
+    },
+    {
+      "label": "CANOPY_06_rim_7",
+      "hit": [
+        0.29600048065185547,
+        "R61_CANOPY_06_RIM",
+        11.519118309020996
+      ],
+      "expected": "R61_CANOPY_06_RIM",
+      "expected_z": 11.519118019104004,
+      "passed": true
+    },
+    {
+      "label": "CANOPY_06_soffit_7",
+      "hit": [
+        0.3000001907348633,
+        "P07_CANOPY_SLAB_ENVELOPE",
+        11.523118019104004
+      ],
+      "expected": "P07_CANOPY_SLAB_ENVELOPE",
+      "expected_z": 11.523118019104004,
+      "passed": true
+    }
+  ],
+  "failures": [],
+  "construction_acceptance": false,
+  "limits": "Recess and mesh checks do not validate homography landmarks or actual fixture dimensions."
+}

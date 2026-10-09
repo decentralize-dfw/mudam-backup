@@ -1,0 +1,166 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R61_SACAK_GOMME_ISIK_v002.blend",
+  "base_scene": "MUDAM_R60_GIRIS_TAS_TAVAN_YUZEY_v002.blend",
+  "closed_objects": [
+    "R61_CANOPY_01_RIM",
+    "R61_CANOPY_01_REFLECTOR",
+    "R61_CANOPY_01_LENS",
+    "R61_CANOPY_01_BACK",
+    "R61_CANOPY_02_RIM",
+    "R61_CANOPY_02_REFLECTOR",
+    "R61_CANOPY_02_LENS",
+    "R61_CANOPY_02_BACK",
+    "R61_CANOPY_03_RIM",
+    "R61_CANOPY_03_REFLECTOR",
+    "R61_CANOPY_03_LENS",
+    "R61_CANOPY_03_BACK",
+    "R61_CANOPY_04_RIM",
+    "R61_CANOPY_04_REFLECTOR",
+    "R61_CANOPY_04_LENS",
+    "R61_CANOPY_04_BACK",
+    "R61_CANOPY_05_RIM",
+    "R61_CANOPY_05_REFLECTOR",
+    "R61_CANOPY_05_LENS",
+    "R61_CANOPY_05_BACK",
+    "R61_CANOPY_06_RIM",
+    "R61_CANOPY_06_REFLECTOR",
+    "R61_CANOPY_06_LENS",
+    "R61_CANOPY_06_BACK"
+  ],
+  "hidden_tools": [
+    "R61_CANOPY_01_CUTTER",
+    "R61_CANOPY_02_CUTTER",
+    "R61_CANOPY_03_CUTTER",
+    "R61_CANOPY_04_CUTTER",
+    "R61_CANOPY_05_CUTTER",
+    "R61_CANOPY_06_CUTTER"
+  ],
+  "changed_inherited_objects": [
+    "P07_CANOPY_SLAB_ENVELOPE"
+  ],
+  "fixtures": [
+    {
+      "id": "CANOPY_01",
+      "canonical": [
+        520.1295103263232,
+        728.6298074128691
+      ],
+      "center": [
+        34.88004684448242,
+        29.414846420288086,
+        11.523118019104004
+      ],
+      "image_pixel": [
+        622,
+        1301
+      ],
+      "rim": "R61_CANOPY_01_RIM",
+      "reflector": "R61_CANOPY_01_REFLECTOR",
+      "lens": "R61_CANOPY_01_LENS",
+      "back": "R61_CANOPY_01_BACK"
+    },
+    {
+      "id": "CANOPY_02",
+      "canonical": [
+        549.3194759852364,
+        756.9314486957386
+      ],
+      "center": [
+        34.980865478515625,
+        34.243778228759766,
+        11.523118019104004
+      ],
+      "image_pixel": [
+        972,
+        1267
+      ],
+      "rim": "R61_CANOPY_02_RIM",
+      "reflector": "R61_CANOPY_02_REFLECTOR",
+      "lens": "R61_CANOPY_02_LENS",
+      "back": "R61_CANOPY_02_BACK"
+    },
+    {
+      "id": "CANOPY_03",
+      "canonical": [
+        576.9863218629688,
+        755.4176344430155
+      ],
+      "center": [
+        32.61103439331055,
+        36.528255462646484,
+        11.523118019104004
+      ],
+      "image_pixel": [
+        1217,
+        1304
+      ],
+      "rim": "R61_CANOPY_03_RIM",
+      "reflector": "R61_CANOPY_03_REFLECTOR",
+      "lens": "R61_CANOPY_03_LENS",
+      "back": "R61_CANOPY_03_BACK"
+    },
+    {
+      "id": "CANOPY_04",
+      "canonical": [
+        576.4924367959808,
+        784.7016727433767
+      ],
+      "center": [
+        35.1986198425293,
+        38.854244232177734,
+        11.523118019104004
+      ],
+      "image_pixel": [
+        1359,
+        1226
+      ],
+      "rim": "R61_CANOPY_04_RIM",
+      "reflector": "R61_CANOPY_04_REFLECTOR",
+      "lens": "R61_CANOPY_04_LENS",
+      "back": "R61_CANOPY_04_BACK"
+    },
+    {
+      "id": "CANOPY_05",
+      "canonical": [
+        549.2317814313525,
+        727.6211520003114
+      ],
+      "center": [
+        32.43804168701172,
+        31.865068435668945,
+        11.523118019104004
+      ],
+      "image_pixel": [
+        872,
+        1335
+      ],
+      "rim": "R61_CANOPY_05_RIM",
+      "reflector": "R61_CANOPY_05_REFLECTOR",
+      "lens": "R61_CANOPY_05_LENS",
+      "back": "R61_CANOPY_05_BACK"
+    },
+    {
+      "id": "CANOPY_06",
+      "canonical": [
+        576.8699686477822,
+        727.0721180242294
+      ],
+      "center": [
+        30.15446662902832,
+        34.225101470947266,
+        11.523118019104004
+      ],
+      "image_pixel": [
+        1100,
+        1365
+      ],
+      "rim": "R61_CANOPY_06_RIM",
+      "reflector": "R61_CANOPY_06_REFLECTOR",
+      "lens": "R61_CANOPY_06_LENS",
+      "back": "R61_CANOPY_06_BACK"
+    }
+  ],
+  "soffit_z": 11.523118133013933,
+  "diameter_candidate_m": 0.18,
+  "construction_acceptance": false
+}

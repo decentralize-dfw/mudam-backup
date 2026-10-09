@@ -115,6 +115,22 @@ def publish():
   if not v['failures']:
    for t in data['tasks']:
     if t['id']=='P20':t.update(status='in_progress',artifacts=['12_Blender_Model/MODEL_INCELEME.html','12_Blender_Model/PLAN_KONTROL.html'],open_issues=['Üç kat kot aralığı, yatay/düşey canlı kesit, parça-kaynak seçimi ve tek parça görünümü mevcut. Kesit yüzleri kapaksız; kat kotları koşullu; bina kabulü yapılmadı.'])
+ coverage_path=B/'config/task_current_evidence.json'
+ if coverage_path.exists():
+  coverage=json.loads(coverage_path.read_text(encoding='utf8'))
+  for t in data['tasks']:
+   if t['id'] not in coverage['tasks']:continue
+   c=coverage['tasks'][t['id']]
+   assert all((R/a).exists() for a in c['evidence']),t['id']
+   t.update(status=c['status'],completed_scope=c['completed_scope'],open_issues=c['open_issues'],coverage_as_of=coverage['as_of_revision'])
+   t['artifacts']=list(dict.fromkeys(t.get('artifacts',[])+c['evidence']))
+   for e in extensions:
+    if int(e['id'][1:])<=int(coverage['as_of_revision'][1:]) or t['id'] not in e['tasks']:continue
+    check_path=B/'reports'/e['checks'][0]
+    if check_path.exists() and not json.loads(check_path.read_text())['failures']:
+     t['completed_scope']=list(dict.fromkeys(t['completed_scope']+[e['description']]))
+     t['open_issues']=list(dict.fromkeys(t['open_issues']+[e['limits']]))
+     t['artifacts']=list(dict.fromkeys(t['artifacts']+['12_Blender_Model/reports/'+e['report']]))
  data['current_tasks']=[t['id'] for t in data['tasks'] if t['status']=='in_progress'];p.write_text(json.dumps(data,ensure_ascii=False,indent=2)+'\n',encoding='utf8')
  latest=Path(r['file']).relative_to('12_Blender_Model').as_posix();glb=Path(q21['file']).relative_to('12_Blender_Model').as_posix();p=B/'URETIM.html';s=p.read_text(encoding='utf8');s=re.sub(r'href="scenes/[^\"]+\.blend"',f'href="{latest}"',s);s=s.replace('P06 - P12 / BÖLGESEL ÜRETİM','P06–P21 / BÖLGESEL ÜRETİM VE KONTROL');s=s.replace('renders/qa/P12_entry_detail.png','renders/qa/P19_entry_daylight.png').replace('renders/qa/P11_116.png','renders/qa/P19_116_daylight.png')
  if (B/'MODEL_INCELEME.html').exists() and 'MODEL_INCELEME.html' not in s:s=s.replace('</nav>','<a href="MODEL_INCELEME.html">Canlı 3B / kat / kesit</a></nav>')
@@ -125,7 +141,7 @@ def publish():
  s=s.replace('013 yakın çekimindeki düz cam kanatlar','013/014 yakın çekimlerindeki iki sıra düz cam kanat');s=s.replace('iki pivotlu kanat yalnız düzenlenebilir mekanizma adayıdır','dört pivotlu kanat yalnız düzenlenebilir mekanizma adayıdır')
  block='''<section class="panel" id="reading-progress"><h2>Üst kat boşluğu ve cam korkuluk</h2><img src="renders/qa/P19_reading_daylight.png" alt="Okuma alanındaki üst kat boşluğu ve cam korkuluk adayı"><p>103 planındaki kare döşeme boşluğu, 015/016 fotoğraflarıyla birlikte işlendi. Çatı açıklığı bağımsız parametredir. 45 kapalı hacim ve 15 düşey ışın kontrolü geçti. Eğimli tavan ve 24 kollu aydınlatma R08, oda duvarları ve geçişleri R09 ile eklendi; kesin ölçüler ve bitişler açık.</p><p><a href="reports/P15_P17_OKUMA_BOSLUGU_RAPORU.md">Boşluk ve korkuluk raporu</a> · <a href="reports/P19_P21_ONIZLEME_RAPORU.md">Malzeme, kesit ve GLB kontrolleri</a></p></section>'''
  states={'complete':'Tamam','complete_with_documented_gaps':'Eksikler belgeli','in_progress':'Sürüyor','not_started':'Açık'}
- rows=''.join('<tr><td>'+html.escape(t['id'])+'</td><td>'+html.escape(t['title'])+'</td><td>'+states.get(t['status'],t['status'])+'</td><td>'+html.escape(' '.join(t.get('open_issues',[])) or ('Kabul ölçütü: '+t['acceptance']))+'</td></tr>' for t in data['tasks'])
+ rows=''.join('<tr><td>'+html.escape(t['id'])+'</td><td>'+html.escape(t['title'])+'</td><td>'+states.get(t['status'],t['status'])+'</td><td>'+('Üretilen: '+html.escape(' '.join(t['completed_scope']))+'<br>Açık: ' if t.get('completed_scope') else '')+html.escape(' '.join(t.get('open_issues',[])) or ('Kabul ölçütü: '+t['acceptance']))+'</td></tr>' for t in data['tasks'])
  s=re.sub(r'<table>.*?</table>','<table><thead><tr><th>Paket</th><th>İş</th><th>Durum</th><th>Kontrol / açık konu</th></tr></thead><tbody>'+rows+'</tbody></table>',s,flags=re.S)
  s=s.replace('Giriş saçağı ve cephe açıklıkları, alt cam örtü, küçük okuma feneri ve üst merdivenin üç başlangıç basamağı üretildi.','Çatı panelleri, giriş kapıları, üst kat okuma boşluğu ve cam korkuluk bölgesel olarak üretildi. Merdivenin şu an üç başlangıç basamağı var; tam bina çalışması sürüyor.')
  if 'R02' in r['file']:

@@ -1,7 +1,10 @@
 from pathlib import Path
-import bpy,bmesh,json
+import bpy,bmesh,json,sys
 from mathutils import Vector
-R=Path(__file__).resolve().parents[2];B=R/'12_Blender_Model';r=json.loads((B/'reports/R38_build_report.json').read_text());P=json.loads((B/'config/park_landings.json').read_text());C=json.loads((B/'config/foundation.json').read_text())['calibration'];bpy.ops.wm.open_mainfile(filepath=str(R/r['file']));deps=bpy.context.evaluated_depsgraph_get();fail=[];solids=[]
+R=Path(__file__).resolve().parents[2];B=R/'12_Blender_Model';r=json.loads((B/'reports/R38_build_report.json').read_text());P=json.loads((B/'config/park_landings.json').read_text());C=json.loads((B/'config/foundation.json').read_text())['calibration'];output='R38_verification.json'
+if '--' in sys.argv:
+ args=sys.argv[sys.argv.index('--')+1:];assert len(args)==2;r['file']=args[0];output=args[1]
+bpy.ops.wm.open_mainfile(filepath=str(R/r['file']));deps=bpy.context.evaluated_depsgraph_get();fail=[];solids=[]
 def point(x,y,z=0):
  k=C['canonical_to_pdf_scale'];ox,oy=C['canonical_to_pdf_offset'];M=C['pdf_to_utm_matrix'];a=k*x+ox;b=k*y+oy;return Vector((M[0][0]*a+M[0][1]*b+M[0][2]-293425,M[1][0]*a+M[1][1]*b+M[1][2]-5499960,z))
 for name in r['closed_objects']:
@@ -30,4 +33,4 @@ for route,(a,b) in r['routes'].items():
  for i in range(41):
   p=a.lerp(b,i/40)+Vector((0,0,.04));hits=ray(p,p-Vector((0,0,.09)));head=ray(p,p+Vector((0,0,2.06)));row=dict(route=route,t=i/40,support=hits,head=head);bridge_samples.append(row)
   if not any(n in hits for n in [Q['deck'],'R38_PARK_APPROACH_GROUND']) or head:fail.append(row)
-result=dict(file=r['file'],failures=fail,evaluated_solids=solids,bridge_and_extension_samples=bridge_samples,tree_checks=tree_checks,terrain_height_surveyed=False,construction_acceptance=False);(B/'reports/R38_verification.json').write_text(json.dumps(result,indent=2),encoding='utf8');print(json.dumps(dict(solids=len(solids),trees=len(tree_checks),routes=len(bridge_samples),failures=fail),indent=2));assert not fail,fail
+result=dict(file=r['file'],failures=fail,evaluated_solids=solids,bridge_and_extension_samples=bridge_samples,tree_checks=tree_checks,terrain_height_surveyed=False,construction_acceptance=False);(B/'reports'/output).write_text(json.dumps(result,indent=2),encoding='utf8');print(json.dumps(dict(solids=len(solids),trees=len(tree_checks),routes=len(bridge_samples),failures=fail),indent=2));assert not fail,fail

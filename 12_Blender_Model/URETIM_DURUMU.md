@@ -4,7 +4,7 @@
 
 ## Güncel teslim
 
-[MUDAM_R54_TARIHI_DUVAR_ALT_CAM_v002.blend](scenes/MUDAM_R54_TARIHI_DUVAR_ALT_CAM_v002.blend) giriş, çatı ve merdiven çalışmalarını birlikte içerir. [Görsel inceleme](URETIM.html) · [Üretim raporu](reports/P07_P09_URETIM_RAPORU.md).
+[MUDAM_R61_SACAK_GOMME_ISIK_v002.blend](scenes/MUDAM_R61_SACAK_GOMME_ISIK_v002.blend) giriş, çatı ve merdiven çalışmalarını birlikte içerir. [Görsel inceleme](URETIM.html) · [Üretim raporu](reports/P07_P09_URETIM_RAPORU.md).
 
 | Paket | Durum | Somut çıktı / açık konu |
 | --- | --- | --- |
@@ -125,4 +125,17 @@ R35 güncel sahne; R29–R35 bölgesel sahneler, kaynak/varsayım kayıtları ve
 2026-10-09 07:51:23 UTC — R54 v002: beş tarihî duvar çentiği ve alt cam adayı; 45 yeni parça. 56 hacim/60 ışın, alt galeri ve bütün sahne kontrolleri geçti. 7.117 görünür mesh; ölçüler ve ilk iki pencere yanındaki duvar kaydı koşullu. A06 kısmen koordine edildi; peyzaj ve duvar yüzeylerine devam ediliyor.
 
 
-2026-10-09 07:54:50 UTC — 82204cb308201b58e7a8e78ab9d0448f84f5691 origin/main normal push doğrulandı; uzak main SHA yerel HEAD ile eşleşti. R52–R54 sahneleri, kaynak/varsayım kayıtları ve 34.056.012 bayt R54 GLB gönderildi. 7.117 görünür mesh; model tamamlanmadı. Push ardından tarihî duvar yüzeyleri ve hendek çevresi üretimi devam ediyor.
+2026-10-09 07:54:50 UTC — e82204cb308201b58e7a8e78ab9d0448f84f5691 origin/main normal push doğrulandı; uzak main SHA yerel HEAD ile eşleşti. R52–R54 sahneleri, kaynak/varsayım kayıtları ve 34.056.012 bayt R54 GLB gönderildi. 7.117 görünür mesh; model tamamlanmadı. Push ardından tarihî duvar yüzeyleri ve hendek çevresi üretimi devam ediyor.
+
+2026-10-09T08:08:21.555779+00:00 — R55 v002: tarihî duvar/hendek görünümü işlendi; 7.781 hesaplanan nesnede geometri aynı. v001 çim tekrarı reddedildi. Kotlar ve tarihî örgü boyutları temsilî; üretim sürüyor.
+
+2026-10-09T08:15:36.197964+00:00 — R56 v002: 19 OSM konumunda temsilî dallı/yapraklı taçlar;38 yeni mesh,204 yaklaşım kontrolü,7136 görünür mesh denetlendi. İlk seyrek taç denemesi yayımlanmadı; üretim sürüyor.
+
+2026-10-09T08:21:29.355219+00:00 — R57 v001: giriş paspas/ızgara yuvası iki döşemeyle koordine edildi. 60 yeni parça,441 destek,52 kapı açısı,204 yaklaşım kontrolü geçti. R58 köprü korkuluğunun012/008 fotoğraflarıyla düzeltmesine geçildi.
+
+2026-10-09T08:30:32.573796+00:00 — R58 v005: kaynak yakın çekimleriyle köprü korkuluğu iri boru/levha/cam düzenine çevrildi. Kolon teması ve160 taban desteği geçti;OSM kayıt farkı açık. 7211 görünür mesh. Üretim sürüyor.
+
+2026-10-09T08:35:26.291975+00:00 — R59 v001: giriş/köprü taş döşemesi ve açık kenar bandı;50 yüz işlendi. Döşeme sınırı ve kotu korundu;204 yaklaşım örneği geçti. Üretim sürüyor.
+
+
+2026-10-09T08:50:57.210117+00:00 — R60 v002 giriş/kolon/saçak yüzeyleri; R61 v002 fotoğrafta görülen altı armatür ve yuvaları. 7.235 görünür mesh,102 yuva ışını kontrol edildi. Eşleme belirsizliği açık; model üretimi sürüyor.

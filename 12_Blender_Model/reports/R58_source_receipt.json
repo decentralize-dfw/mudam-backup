@@ -1,0 +1,38 @@
+{
+  "sources": [
+    {
+      "id": "008",
+      "path": "05_Dis_Mekan/Giris_ve_Yaklasim/008_Giris_koprusu_ve_sacak_WikiArquitectura.jpg",
+      "sha256": "d0dab60dc784e1e28d53363bc15f3759c1d5ad14c34276d292931fe7230c6d2f",
+      "source_url": "https://es.wikiarquitectura.com/edificio/museo-de-arte-moderno-grand-duc-jean-mudam/",
+      "credit": "WikiArquitectura; sayfadaki foto\u011fraf serisi Haziran 2019",
+      "source_date": "unknown; do not infer from download date",
+      "modified": false
+    },
+    {
+      "id": "011",
+      "path": "05_Dis_Mekan/Giris_ve_Yaklasim/011_Giris_koprusu_ve_sacak_WikiArquitectura.jpg",
+      "sha256": "2d36c345a549bf9c6eba3941c59ebefef33c03096818209ce59a6054df29e60a",
+      "source_url": "https://es.wikiarquitectura.com/edificio/museo-de-arte-moderno-grand-duc-jean-mudam/",
+      "credit": "WikiArquitectura; sayfadaki foto\u011fraf serisi Haziran 2019",
+      "source_date": "unknown; do not infer from download date",
+      "modified": false
+    },
+    {
+      "id": "012",
+      "path": "05_Dis_Mekan/Giris_ve_Yaklasim/012_Giris_koprusu_ve_sacak_WikiArquitectura.jpg",
+      "sha256": "a4ba09a3f7d84377180a177817d7886557c61c1033866bce1a2f3fa329c4cf71",
+      "source_url": "https://es.wikiarquitectura.com/edificio/museo-de-arte-moderno-grand-duc-jean-mudam/",
+      "credit": "WikiArquitectura; sayfadaki foto\u011fraf serisi Haziran 2019",
+      "source_date": "unknown; do not infer from download date",
+      "modified": false
+    }
+  ],
+  "position_source": "config/site_bridges.json archived OSM plus existing P07 column faces",
+  "limits": [
+    "Photo-supported round rail/plate/glass topology supersedes R34 unsupported intermediate rods.",
+    "Overall height1.05m, tube320mm, glass22mm, plate80mm and spacing<=2.5m are unmeasured candidates.",
+    "Inner endpoints locally attached to visible column; outer ends inset60mm to support full plate footprint; original OSM endpoint discrepancies explicitly recorded. No source plan, column, deck or terrain moved.",
+    "No hidden anchors, glass specification, structural or regulatory approval."
+  ]
+}

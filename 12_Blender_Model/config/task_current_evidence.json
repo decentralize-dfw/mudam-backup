@@ -1,0 +1,239 @@
+{
+  "as_of_revision": "R55",
+  "tasks": {
+    "P04": {
+      "completed_scope": [
+        "Ana/alt merdiven, doğu spiral, batı ve pavyon merdivenlerinin koşullu kot zincirleri kuruldu; bölgesel destek ve baş mesafesi kontrolleri mevcut."
+      ],
+      "open_issues": [
+        "101 kesit tarihi/izi açık; kat kotları ve gerçek rıht adetleri ölçülmüş değildir."
+      ],
+      "status": "in_progress",
+      "evidence": [
+        "12_Blender_Model/reports/R44_KONTROL_RAPORU.md"
+      ]
+    },
+    "P05": {
+      "completed_scope": [
+        "Ana hacimler, üst galerilerin 6+4 ışıklık adayı, yan örtüler ve pavyon kuruldu."
+      ],
+      "open_issues": [
+        "Çevre arazi kolları, eksik cephe açıklıkları ve bütün yapı birleşimlerinin kaynak karşılaştırması sürüyor."
+      ],
+      "status": "in_progress",
+      "evidence": []
+    },
+    "P07": {
+      "completed_scope": [
+        "Duvar/döşeme bölgesel kabukları kapalı; merdiven nişi ve galeri camlarıyla yerel kesimler koordine edildi."
+      ],
+      "open_issues": [
+        "Kalınlıklar ve gizli taşıyıcı sistem koşullu; bütün bina için yapı fiziği/çakışma kabulü yapılmadı."
+      ],
+      "status": "in_progress",
+      "evidence": [
+        "12_Blender_Model/reports/R44_KONTROL_RAPORU.md",
+        "12_Blender_Model/reports/R52_KONTROL_RAPORU.md"
+      ]
+    },
+    "P08": {
+      "completed_scope": [
+        "Giriş kanatları, galeri geçişleri, oditoryum ve pavyon kapıları, asansör sahanlığı, galeri ve alt cephe cam adayları üretildi."
+      ],
+      "open_issues": [
+        "Bütün kapı/pencere listesi ve kaynak eşlemesi tamamlanmadı; servis alanları ve donanım kimlikleri açık."
+      ],
+      "status": "in_progress",
+      "evidence": [
+        "12_Blender_Model/reports/R18_PAVYON_GECIT_RAPORU.md",
+        "12_Blender_Model/reports/R22_ODITORYUM_DONATI_RAPORU.md",
+        "12_Blender_Model/reports/R23_R24_UST_GALERI_RAPORU.md",
+        "12_Blender_Model/reports/R30_UST_ASANSOR_RAPORU.md",
+        "12_Blender_Model/reports/R52_KONTROL_RAPORU.md",
+        "12_Blender_Model/reports/R54_KONTROL_RAPORU.md"
+      ]
+    },
+    "P09": {
+      "completed_scope": [
+        "İki Grand Hall merdiveni, doğu spiral, batı kol ve pavyon merdiveni adayları; alt küpeşte sürekliliği işlendi."
+      ],
+      "open_issues": [
+        "Gerçek rıht adetleri/kesitler koşullu; pavyon alt bağlantı ve merkez çekirdek kaynakları yetersiz."
+      ],
+      "status": "in_progress",
+      "evidence": [
+        "12_Blender_Model/reports/R04_UST_MERDIVEN_RAPORU.md",
+        "12_Blender_Model/reports/R05_ALT_MERDIVEN_RAPORU.md",
+        "12_Blender_Model/reports/R10_DOGU_SPIRAL_RAPORU.md",
+        "12_Blender_Model/reports/R14_BATI_CAM_MERDIVEN_RAPORU.md",
+        "12_Blender_Model/reports/R25_PAVYON_MERDIVEN_RAPORU.md",
+        "12_Blender_Model/reports/R48_KONTROL_RAPORU.md"
+      ]
+    },
+    "P10": {
+      "completed_scope": [
+        "Ana çatı panel/metal ağı, dört geniş yüzde 3816 gölgelik lameli, okuma fenerinin kare gövdesi üretildi."
+      ],
+      "open_issues": [
+        "Cam/profil kesitleri ve bağlantılar ölçülmedi; gizli gölgelik mekanizması doğrulanmadı."
+      ],
+      "status": "in_progress",
+      "evidence": [
+        "12_Blender_Model/reports/R47_KONTROL_RAPORU.md",
+        "12_Blender_Model/reports/R51_KONTROL_RAPORU.md"
+      ]
+    },
+    "P11": {
+      "completed_scope": [
+        "Batı 108 düz cam, pavyon 108 cam/216 profil, doğu cam şeridi ve üst galerilerin 10 ışıklık adayı kuruldu."
+      ],
+      "open_issues": [
+        "Panel bölünmesi, tekrarlanan kabuk adedi, kesin başlık/kenar detayları koşullu."
+      ],
+      "status": "in_progress",
+      "evidence": [
+        "12_Blender_Model/reports/R12_BATI_DUZ_CAM_RAPORU.md",
+        "12_Blender_Model/reports/R13_PAVYON_CAM_RAPORU.md",
+        "12_Blender_Model/reports/R26_DOGU_CATI_BAGLANTI_RAPORU.md",
+        "12_Blender_Model/reports/R37_KONTROL_RAPORU.md"
+      ]
+    },
+    "P12": {
+      "completed_scope": [
+        "Girişte dört düz cam kanat; kıvrımlı cam/küpeşte; galeri camının plan sınırı ve taş nişi örnekleri üretildi."
+      ],
+      "open_issues": [
+        "Kapı mekanizması, doğrama ürünü ve bağlayıcı kesitlerin gerçek ölçüleri yok; yakın detay kaynak karşılaştırması sürüyor."
+      ],
+      "status": "in_progress",
+      "evidence": [
+        "12_Blender_Model/reports/R03_MERDIVEN_DONUS_RAPORU.md",
+        "12_Blender_Model/reports/R48_KONTROL_RAPORU.md",
+        "12_Blender_Model/reports/R52_KONTROL_RAPORU.md"
+      ]
+    },
+    "P13": {
+      "completed_scope": [
+        "Taş cephe/zemin, iki ana merdiven mineral yüzeyleri, galeri nişi ve tarihî örgü UV adayları işlendi."
+      ],
+      "open_issues": [
+        "Blok/derz modülleri, numune renkleri ve gerçek taş dizimi bilinmiyor; bazı yüzeyler hâlâ düz malzeme."
+      ],
+      "status": "in_progress",
+      "evidence": [
+        "12_Blender_Model/reports/R32_TAS_AHSAP_RAPORU.md",
+        "12_Blender_Model/reports/R43_KONTROL_RAPORU.md",
+        "12_Blender_Model/reports/R46_KONTROL_RAPORU.md",
+        "12_Blender_Model/reports/R49_KONTROL_RAPORU.md",
+        "12_Blender_Model/reports/R53_KONTROL_RAPORU.md",
+        "12_Blender_Model/reports/R55_KONTROL_RAPORU.md"
+      ]
+    },
+    "P14": {
+      "completed_scope": [
+        "Giriş ve bölgesel iç kapılar, üst galeri geçişleri, iki plan bağlı galeri camı ve beş tarihî duvar alt penceresi mevcut."
+      ],
+      "open_issues": [
+        "065 yan cephedeki iki alt pencerenin bina kenarı kaydı; diğer cephe açıklıkları, servis kapıları ve bütün donanımlar açık. A06 ilk iki pencere çevresinde kayıt çelişkisi sürüyor."
+      ],
+      "status": "in_progress",
+      "evidence": [
+        "12_Blender_Model/reports/R52_KONTROL_RAPORU.md",
+        "12_Blender_Model/reports/R54_KONTROL_RAPORU.md"
+      ]
+    },
+    "P15": {
+      "completed_scope": [
+        "Okuma boşluğu, iki Grand Hall kolu, doğu spiral, batı/pavyon ve yaklaşım köprüleri korkuluk adayları kuruldu."
+      ],
+      "open_issues": [
+        "Gerçek cam ve metal kesitleri, sabitleme, ankraj ve montaj birleşimleri ölçülmedi."
+      ],
+      "status": "in_progress",
+      "evidence": [
+        "12_Blender_Model/reports/R34_GIRIS_KOPRULERI_RAPORU.md",
+        "12_Blender_Model/reports/R48_KONTROL_RAPORU.md"
+      ]
+    },
+    "P16": {
+      "completed_scope": [
+        "Giriş/vestiyer bölgesi, alt galeri/fuaye, oditoryum ve galeri taş/ahşap yüzey adayları üretildi."
+      ],
+      "open_issues": [
+        "Oditoryum128 koltuk adayı mimar/LCB tablosu ve fotoğraf arka sırasıyla destekli; Kamu Yapıları120 ve LCB metni130 değerlerinin kapsam/tarih farkı açık. Eksik sabit donatılar, alt kat aydınlatması ve tam yüzey kaynak listesi gerekiyor."
+      ],
+      "status": "in_progress",
+      "evidence": [
+        "12_Blender_Model/reports/R19_R20_ODITORYUM_RAPORU.md",
+        "12_Blender_Model/reports/R21_ODITORYUM_PANEL_RAPORU.md",
+        "12_Blender_Model/reports/R22_ODITORYUM_DONATI_RAPORU.md",
+        "12_Blender_Model/reports/R29_ALT_GALERI_RAPORU.md",
+        "12_Blender_Model/reports/R33_ZEMIN_SERVIS_RAPORU.md",
+        "12_Blender_Model/reports/R39_KONTROL_RAPORU.md",
+        "12_Blender_Model/reports/R53_KONTROL_RAPORU.md"
+      ]
+    },
+    "P17": {
+      "completed_scope": [
+        "Okuma odası, eğimli tavan ve24 kollu ışık; iki üst galeri, Studio, asansör sahanlığı; Grand Hall20 silindir ışık işlendi."
+      ],
+      "open_issues": [
+        "Üst kat fotoğraflarının kanat kimlikleri, kesin ölçüler, sabit donatılar ve galeri aydınlatma detayları açık."
+      ],
+      "status": "in_progress",
+      "evidence": [
+        "12_Blender_Model/reports/R08_OKUMA_TAVANI_RAPORU.md",
+        "12_Blender_Model/reports/R09_OKUMA_MEKANI_RAPORU.md",
+        "12_Blender_Model/reports/R30_UST_ASANSOR_RAPORU.md",
+        "12_Blender_Model/reports/R31_UST_STUDIO_RAPORU.md",
+        "12_Blender_Model/reports/R50_KONTROL_RAPORU.md"
+      ]
+    },
+    "P18": {
+      "completed_scope": [
+        "İlk hendek/tarihî duvar sınırları, köprü/yaklaşım yolları,19 OSM ağaç konumu ve tarihî taş/çim görünümü mevcut."
+      ],
+      "open_issues": [
+        "Diğer hendek kolları, değişen kotlar, tarihî açıklıklar, destekler ve bitki/yol sınırlarının tamamı çözülmedi. Arazi düz kot ve OSM çizgilerinden türetilmiş aday."
+      ],
+      "status": "in_progress",
+      "evidence": [
+        "12_Blender_Model/reports/R34_GIRIS_KOPRULERI_RAPORU.md",
+        "12_Blender_Model/reports/R35_HENDEK_CEVRE_RAPORU.md",
+        "12_Blender_Model/reports/R38_KONTROL_RAPORU.md",
+        "12_Blender_Model/reports/R55_KONTROL_RAPORU.md"
+      ]
+    },
+    "P19": {
+      "completed_scope": [
+        "Taş/ahşap/mineral, metal, cam ve çevre yüzey adayları; genel gün ışığı ve bölgesel aydınlatma geometrisi mevcut."
+      ],
+      "open_issues": [
+        "Renk, ışık gücü, armatür fotometrisi ve malzeme ürünleri kalibre değil; görünüm fiziksel ölçüm değildir."
+      ],
+      "status": "in_progress",
+      "evidence": [
+        "12_Blender_Model/reports/R32_TAS_AHSAP_RAPORU.md",
+        "12_Blender_Model/reports/R43_KONTROL_RAPORU.md",
+        "12_Blender_Model/reports/R46_KONTROL_RAPORU.md",
+        "12_Blender_Model/reports/R49_KONTROL_RAPORU.md",
+        "12_Blender_Model/reports/R50_KONTROL_RAPORU.md",
+        "12_Blender_Model/reports/R53_KONTROL_RAPORU.md",
+        "12_Blender_Model/reports/R55_KONTROL_RAPORU.md"
+      ]
+    },
+    "P22": {
+      "completed_scope": [
+        "Sahneler yeniden açılıyor; bölgesel geometri, dolaşım, kaynak ve render kayıtları tutuluyor."
+      ],
+      "open_issues": [
+        "Son bütünleşik bina kabulü, nihai kaynak/varsayım özeti, teslim paketi ve hedef motor kontrolü henüz tamamlanmadı."
+      ],
+      "status": "in_progress",
+      "evidence": [
+        "12_Blender_Model/reports/R54_KONTROL_RAPORU.md",
+        "12_Blender_Model/reports/R55_KONTROL_RAPORU.md"
+      ]
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R58_KOPRU_CAM_KORKULUK_v005.blend",
+  "images": [
+    {
+      "image": "R58_outside.png",
+      "eye": [
+        42,
+        58,
+        2
+      ],
+      "target": [
+        37.7,
+        44,
+        1
+      ]
+    },
+    {
+      "image": "R58_column.png",
+      "eye": [
+        33,
+        36,
+        1.65
+      ],
+      "target": [
+        38,
+        42,
+        2.1
+      ]
+    },
+    {
+      "image": "R58_park.png",
+      "eye": [
+        68,
+        67,
+        1.65
+      ],
+      "target": [
+        30,
+        30,
+        5
+      ]
+    }
+  ],
+  "all_active_surroundings": true,
+  "metric_camera": false
+}

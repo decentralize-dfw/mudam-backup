@@ -1,0 +1,167 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R60_GIRIS_TAS_TAVAN_YUZEY_v002.blend",
+  "evaluated_geometry_objects_checked": 7942,
+  "geometry_identical": true,
+  "uv_checks": [
+    {
+      "name": "P07_CANOPY_SLAB_ENVELOPE",
+      "faces": 23,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.24173402786254883
+    },
+    {
+      "name": "P07_CANOPY_FASCIA_0",
+      "faces": 8,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.09375099837825474
+    },
+    {
+      "name": "P07_CANOPY_FASCIA_1",
+      "faces": 8,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.09375099837825474
+    },
+    {
+      "name": "P07_CORNER_SUPPORT_ENVELOPE",
+      "faces": 8,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.09364943246623625
+    },
+    {
+      "name": "P07_ENTRY_RETURN_0",
+      "faces": 8,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.05094820096098829
+    },
+    {
+      "name": "P07_ENTRY_RETURN_1",
+      "faces": 8,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.1708845360815303
+    },
+    {
+      "name": "P07_ENTRY_RETURN_5",
+      "faces": 8,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.17819514870643616
+    },
+    {
+      "name": "P07_ENTRY_RETURN_6",
+      "faces": 8,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.04532517011193704
+    },
+    {
+      "name": "P07_ENTRY_1_LEFT_PIER",
+      "faces": 8,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.00659173543738234
+    },
+    {
+      "name": "P07_ENTRY_1_RIGHT_PIER",
+      "faces": 8,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.006591774870230438
+    },
+    {
+      "name": "P07_ENTRY_1_HEAD",
+      "faces": 8,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.10814330120183513
+    },
+    {
+      "name": "P07_ENTRY_1_TRANSOM",
+      "faces": 8,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.024609218165210223
+    },
+    {
+      "name": "P07_ENTRY_2_LEFT_PIER",
+      "faces": 8,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.006591740995531836
+    },
+    {
+      "name": "P07_ENTRY_2_RIGHT_PIER",
+      "faces": 8,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.0065916851167457935
+    },
+    {
+      "name": "P07_ENTRY_2_HEAD",
+      "faces": 8,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.07869744711115345
+    },
+    {
+      "name": "P07_ENTRY_2_TRANSOM",
+      "faces": 8,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.024609385058283806
+    },
+    {
+      "name": "P07_ENTRY_3_LEFT_PIER",
+      "faces": 8,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.006591748770574668
+    },
+    {
+      "name": "P07_ENTRY_3_RIGHT_PIER",
+      "faces": 8,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.006591854959197008
+    },
+    {
+      "name": "P07_ENTRY_3_HEAD",
+      "faces": 8,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.10888196716507537
+    },
+    {
+      "name": "P07_ENTRY_3_TRANSOM",
+      "faces": 8,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.024609301611747014
+    }
+  ],
+  "packed_images": [
+    {
+      "material": "R60_ENTRY_LIMESTONE_CANDIDATE",
+      "image": "R32_limestone_candidate_basecolor.png",
+      "packed": true,
+      "size": [
+        2048,
+        1536
+      ]
+    },
+    {
+      "material": "R60_ENTRY_LIMESTONE_CANDIDATE",
+      "image": "R32_limestone_candidate_normal.png",
+      "packed": true,
+      "size": [
+        2048,
+        1536
+      ]
+    },
+    {
+      "material": "R60_ENTRY_LINEAR_MINERAL_SOFFIT_CANDIDATE",
+      "image": "R60_soffit_linear_grain_candidate_basecolor.png",
+      "packed": true,
+      "size": [
+        1536,
+        1152
+      ]
+    },
+    {
+      "material": "R60_ENTRY_LINEAR_MINERAL_SOFFIT_CANDIDATE",
+      "image": "R60_soffit_linear_grain_candidate_normal.png",
+      "packed": true,
+      "size": [
+        1536,
+        1152
+      ]
+    }
+  ],
+  "failures": [],
+  "construction_acceptance": false
+}
