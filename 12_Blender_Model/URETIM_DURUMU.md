@@ -123,3 +123,6 @@ R35 güncel sahne; R29–R35 bölgesel sahneler, kaynak/varsayım kayıtları ve
 
 
 2026-10-09 07:51:23 UTC — R54 v002: beş tarihî duvar çentiği ve alt cam adayı; 45 yeni parça. 56 hacim/60 ışın, alt galeri ve bütün sahne kontrolleri geçti. 7.117 görünür mesh; ölçüler ve ilk iki pencere yanındaki duvar kaydı koşullu. A06 kısmen koordine edildi; peyzaj ve duvar yüzeylerine devam ediliyor.
+
+
+2026-10-09 07:54:50 UTC — 82204cb308201b58e7a8e78ab9d0448f84f5691 origin/main normal push doğrulandı; uzak main SHA yerel HEAD ile eşleşti. R52–R54 sahneleri, kaynak/varsayım kayıtları ve 34.056.012 bayt R54 GLB gönderildi. 7.117 görünür mesh; model tamamlanmadı. Push ardından tarihî duvar yüzeyleri ve hendek çevresi üretimi devam ediyor.
