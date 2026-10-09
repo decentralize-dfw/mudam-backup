@@ -190,3 +190,7 @@ R35 güncel sahne; R29–R35 bölgesel sahneler, kaynak/varsayım kayıtları ve
 
 2026-10-09 10:15:25 UTC — e2444462d0651ebac27af4dfaf92d3c6b97b8530 origin/main normal push doğrulandı. Pano, renderlar, raporlar ve üretim betikleri gönderildi; Blender ve arşiv GLB dosyaları yerelde; tek güncel sıkıştırılmış web GLB gönderildi.
 
+
+
+2026-10-09 10:18:20 UTC — 93ea9612b6416371665177c0b4df7e92f900349c origin/main normal push doğrulandı. Pano, renderlar, raporlar ve üretim betikleri gönderildi; Blender ve arşiv GLB dosyaları yerelde; tek güncel sıkıştırılmış web GLB gönderildi.
+
