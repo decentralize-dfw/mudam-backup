@@ -448,3 +448,7 @@ R104: Alt batı galeri girişindeki kısa duvarın 5 cm geride kalan arka yüzü
 R105: Batı zemin galerisinde mevcut duvar ile döşeme/tavan arasındaki yaklaşık 20 cm açıklık giderildi. Yalnız iki mevcut nesne genişletildi; 1.030 temas ve 108 giriş/güzergâh kontrolü geçti. Önce/sonra görüntüleri karşılaştırıldı.
 
 [Önce/sonra ve kontrol raporu](reports/R105_KONTROL_RAPORU.md). Bütün bina tamamlanmadı. Diğer dar duvar–döşeme–tavan temasları kaynaklarla karşılaştırılıyor; mevcut kotlar ve kalınlıklar ölçülmemiş adaylardır.
+
+
+2026-10-09 19:23:33 UTC — 55f7c7f15e5adbecb220899530c95d88c67445d5 origin/main normal push doğrulandı. R103–R105 geometri düzeltmeleri, pano, renderlar, raporlar ve tek güncel web GLB gönderildi; Blender ve eski GLB dosyaları yerelde kaldı.
+
