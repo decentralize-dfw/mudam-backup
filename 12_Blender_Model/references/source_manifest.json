@@ -1417,5 +1417,25 @@
     ],
     "credit": "Administration des batiments publics; photo credits vary, see archived page",
     "source_date": "2006 project page; individual capture date unverified"
+  },
+  {
+    "id": "SVQ01",
+    "path": "12_Blender_Model/references/svq_photo_reference/SVQ-185j-Luxembourg-MUDAM.pdf",
+    "sha256": "7f22c2e77379adf0cf02f92f194347338ece79321874ca940266303044f589e9",
+    "source_url": "https://stsvqprdfrc001.blob.core.windows.net/documents/2023/09/SVQ-185j-Luxembourg-MUDAM-compressed.pdf",
+    "credit": "Publisher and photographer not established; attribution unresolved",
+    "source_date": "unknown",
+    "modified": false,
+    "description": "Unattributed 10-page photo PDF"
+  },
+  {
+    "id": "SVQ01-P1",
+    "path": "12_Blender_Model/references/svq_photo_reference/page1_original.png",
+    "sha256": "c8b43ce4eafb978cb25fc410f5e74eaf3a803daf63125ad0d31e23f31f94ec49",
+    "source_url": "https://stsvqprdfrc001.blob.core.windows.net/documents/2023/09/SVQ-185j-Luxembourg-MUDAM-compressed.pdf",
+    "credit": "Publisher and photographer not established; attribution unresolved",
+    "source_date": "unknown",
+    "modified": true,
+    "description": "Decoded embedded JPX image from PDF page1, no retouching"
   }
 ]

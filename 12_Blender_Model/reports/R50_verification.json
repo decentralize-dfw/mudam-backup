@@ -1,0 +1,720 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R50_GRAND_HALL_ARMATUR_v001.blend",
+  "closed_mesh_checks": [
+    {
+      "name": "R50_GROUP_COLLAR_0",
+      "volume": 0.002165289461753572,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R50_HOUSING_0_0",
+      "volume": 0.013499176298350516,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R50_RECESS_0_0",
+      "volume": 0.0036234373008475615,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R50_LENS_0_0",
+      "volume": 0.00036272973233233074,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R50_TOP_CAP_0_0",
+      "volume": 0.0011509738576198885,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R50_HOUSING_0_1",
+      "volume": 0.013499176298363648,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R50_RECESS_0_1",
+      "volume": 0.0036234373008489982,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R50_LENS_0_1",
+      "volume": 0.0003627297323321872,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R50_TOP_CAP_0_1",
+      "volume": 0.001150973857616504,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R50_GROUP_ARM_0_1",
+      "volume": 0.0003169816409980663,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R50_HOUSING_0_2",
+      "volume": 0.013499176298356053,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R50_RECESS_0_2",
+      "volume": 0.0036234373008495724,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R50_LENS_0_2",
+      "volume": 0.0003627297323336347,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R50_TOP_CAP_0_2",
+      "volume": 0.0011509738576191743,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R50_GROUP_ARM_0_2",
+      "volume": 0.0003169816409981114,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R50_HOUSING_0_3",
+      "volume": 0.013499176298345883,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R50_RECESS_0_3",
+      "volume": 0.0036234373008504424,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R50_LENS_0_3",
+      "volume": 0.00036272973233381035,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R50_TOP_CAP_0_3",
+      "volume": 0.0011509738576180636,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R50_GROUP_ARM_0_3",
+      "volume": 0.0003169768321488039,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R50_HOUSING_0_4",
+      "volume": 0.013499176298357379,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R50_RECESS_0_4",
+      "volume": 0.0036234373008484175,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R50_LENS_0_4",
+      "volume": 0.00036272973233182366,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R50_TOP_CAP_0_4",
+      "volume": 0.001150973857617122,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R50_GROUP_ARM_0_4",
+      "volume": 0.0003169768321488733,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R50_GROUP_COLLAR_1",
+      "volume": 0.0021652867874633764,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R50_HOUSING_1_0",
+      "volume": 0.01349917629835046,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R50_RECESS_1_0",
+      "volume": 0.003623437300848839,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R50_LENS_1_0",
+      "volume": 0.0003627297323338202,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R50_TOP_CAP_1_0",
+      "volume": 0.0011509738576185018,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R50_HOUSING_1_1",
+      "volume": 0.013499176298355554,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R50_RECESS_1_1",
+      "volume": 0.00362343730084986,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R50_LENS_1_1",
+      "volume": 0.00036272973233395184,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R50_TOP_CAP_1_1",
+      "volume": 0.0011509738576195845,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R50_GROUP_ARM_1_1",
+      "volume": 0.00031698164099808624,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R50_HOUSING_1_2",
+      "volume": 0.013499176298348521,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R50_RECESS_1_2",
+      "volume": 0.003623437300850239,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R50_LENS_1_2",
+      "volume": 0.00036272973233339846,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R50_TOP_CAP_1_2",
+      "volume": 0.0011509738576176759,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R50_GROUP_ARM_1_2",
+      "volume": 0.00031698164099814435,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R50_HOUSING_1_3",
+      "volume": 0.013499176298354999,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R50_RECESS_1_3",
+      "volume": 0.003623437300850679,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R50_LENS_1_3",
+      "volume": 0.00036272973233174093,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R50_TOP_CAP_1_3",
+      "volume": 0.0011509738576187772,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R50_GROUP_ARM_1_3",
+      "volume": 0.00031697683214890193,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R50_HOUSING_1_4",
+      "volume": 0.013499176298361445,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R50_RECESS_1_4",
+      "volume": 0.003623437300849601,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R50_LENS_1_4",
+      "volume": 0.0003627297323318231,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R50_TOP_CAP_1_4",
+      "volume": 0.0011509738576189065,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R50_GROUP_ARM_1_4",
+      "volume": 0.0003169768321487536,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R50_GROUP_COLLAR_2",
+      "volume": 0.0021652894617517206,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R50_HOUSING_2_0",
+      "volume": 0.013499176298353087,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R50_RECESS_2_0",
+      "volume": 0.003623437300846867,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R50_LENS_2_0",
+      "volume": 0.0003627297323343516,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R50_TOP_CAP_2_0",
+      "volume": 0.001150973857617969,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R50_HOUSING_2_1",
+      "volume": 0.013499176298354964,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R50_RECESS_2_1",
+      "volume": 0.0036234373008500994,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R50_LENS_2_1",
+      "volume": 0.00036272973233269243,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R50_TOP_CAP_2_1",
+      "volume": 0.0011509738576167996,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R50_GROUP_ARM_2_1",
+      "volume": 0.0003169816409981478,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R50_HOUSING_2_2",
+      "volume": 0.01349917629835454,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R50_RECESS_2_2",
+      "volume": 0.0036234373008506007,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R50_LENS_2_2",
+      "volume": 0.00036272973233101007,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R50_TOP_CAP_2_2",
+      "volume": 0.0011509738576192495,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R50_GROUP_ARM_2_2",
+      "volume": 0.0003169816409981721,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R50_HOUSING_2_3",
+      "volume": 0.013499176298358452,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R50_RECESS_2_3",
+      "volume": 0.0036234373008484097,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R50_LENS_2_3",
+      "volume": 0.00036272973233223435,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R50_TOP_CAP_2_3",
+      "volume": 0.0011509738576196823,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R50_GROUP_ARM_2_3",
+      "volume": 0.00031697683214862785,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R50_HOUSING_2_4",
+      "volume": 0.013499176298349812,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R50_RECESS_2_4",
+      "volume": 0.003623437300849168,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R50_LENS_2_4",
+      "volume": 0.0003627297323320197,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R50_TOP_CAP_2_4",
+      "volume": 0.0011509738576171865,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R50_GROUP_ARM_2_4",
+      "volume": 0.0003169768321487792,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R50_GROUP_COLLAR_3",
+      "volume": 0.002165286787463616,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R50_HOUSING_3_0",
+      "volume": 0.013499176298345947,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R50_RECESS_3_0",
+      "volume": 0.0036234373008507386,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R50_LENS_3_0",
+      "volume": 0.0003627297323330924,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R50_TOP_CAP_3_0",
+      "volume": 0.0011509738576192309,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R50_HOUSING_3_1",
+      "volume": 0.013499176298362434,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R50_RECESS_3_1",
+      "volume": 0.0036234373008499085,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R50_LENS_3_1",
+      "volume": 0.0003627297323332975,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R50_TOP_CAP_3_1",
+      "volume": 0.0011509738576178958,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R50_GROUP_ARM_3_1",
+      "volume": 0.0003169816409981912,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R50_HOUSING_3_2",
+      "volume": 0.013499176298354742,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R50_RECESS_3_2",
+      "volume": 0.00362343730084839,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R50_LENS_3_2",
+      "volume": 0.000362729732332803,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R50_TOP_CAP_3_2",
+      "volume": 0.0011509738576196272,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R50_GROUP_ARM_3_2",
+      "volume": 0.00031698164099812354,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R50_HOUSING_3_3",
+      "volume": 0.013499176298360444,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R50_RECESS_3_3",
+      "volume": 0.003623437300849564,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R50_LENS_3_3",
+      "volume": 0.00036272973233474255,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R50_TOP_CAP_3_3",
+      "volume": 0.001150973857617903,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R50_GROUP_ARM_3_3",
+      "volume": 0.0003169768321488256,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R50_HOUSING_3_4",
+      "volume": 0.013499176298348509,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R50_RECESS_3_4",
+      "volume": 0.0036234373008504194,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R50_LENS_3_4",
+      "volume": 0.00036272973233147476,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R50_TOP_CAP_3_4",
+      "volume": 0.001150973857620437,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R50_GROUP_ARM_3_4",
+      "volume": 0.00031697683214879807,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R50_BACKFRAME_0",
+      "volume": 0.0015065497641285723,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R50_BACKFRAME_1",
+      "volume": 0.0015065585091654787,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R50_BACKFRAME_2",
+      "volume": 0.0015065497641285688,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R50_BACKFRAME_3",
+      "volume": 0.0015065585091653157,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R50_CROSSFRAME_0",
+      "volume": 0.0021305859587705967,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R50_CROSSFRAME_1",
+      "volume": 0.002130599797833671,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R50_SUSPENSION_0",
+      "volume": 0.0006791993886943182,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R50_ATTACHMENT_0",
+      "volume": 4.125185447679169e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R50_SUSPENSION_1",
+      "volume": 0.0006792069140727497,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R50_ATTACHMENT_1",
+      "volume": 4.125189171235355e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R50_SUSPENSION_2",
+      "volume": 0.0010651459010151132,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R50_ATTACHMENT_2",
+      "volume": 4.1251854476785296e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R50_SUSPENSION_3",
+      "volume": 0.0010651564408630937,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R50_ATTACHMENT_3",
+      "volume": 4.1251918743239434e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    }
+  ],
+  "anchors": [
+    {
+      "name": "R50_SUSPENSION_0",
+      "parent": "P10_MAIN_ROOF_FACE_7_EDGE_2",
+      "contact_distance_m": 0.0,
+      "length_m": 6.289064346336899
+    },
+    {
+      "name": "R50_SUSPENSION_1",
+      "parent": "P10_MAIN_ROOF_FACE_1_EDGE_2",
+      "contact_distance_m": 0.0,
+      "length_m": 6.2890627994300345
+    },
+    {
+      "name": "R50_SUSPENSION_2",
+      "parent": "P10_MAIN_ROOF_FACE_3_EDGE_2",
+      "contact_distance_m": 0.0,
+      "length_m": 9.862665143174507
+    },
+    {
+      "name": "R50_SUSPENSION_3",
+      "parent": "P10_MAIN_ROOF_FACE_5_EDGE_2",
+      "contact_distance_m": 0.0,
+      "length_m": 9.86266426130112
+    }
+  ],
+  "cylinder_count": 20,
+  "minimum_housing_clearance_m": 0.20000006984386687,
+  "failures": [],
+  "limits": "Topology and local model contact only. No real suspension load/path, elevation or physical dimensions accepted.",
+  "construction_acceptance": false
+}

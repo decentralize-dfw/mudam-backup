@@ -1,0 +1,15 @@
+{
+  "base_scene": "MUDAM_R49_ALT_MERDIVEN_YUZEY_v001.blend",
+  "source_ids": ["028", "029", "102", "101"],
+  "center_canonical": [575, 447],
+  "module_m": 0.56,
+  "housing_diameter_m": 0.36,
+  "housing_height_m": 0.70,
+  "bottom_z": 14.8,
+  "limits": [
+    "028 directly shows 20 lenses in four 5-cylinder crosses and four collars. 029 supports suspension below the central glazed roof. Plan102 and section101 constrain only inherited building context.",
+    "Module, diameter, height, hanging elevation, metal finish and exact support cross sections are unmeasured visual candidates. One central fixture only; cropped peripheral cylinders do not prove additional clusters.",
+    "Four suspension lines contact existing roof metal vertices in this model. Their exact real anchors and hidden connection details cannot be identified from these sources; no engineering or fabrication acceptance.",
+    "No calibrated light output, IES, electrical specification, alloy or luminaire manufacturer is inferred."
+  ]
+}

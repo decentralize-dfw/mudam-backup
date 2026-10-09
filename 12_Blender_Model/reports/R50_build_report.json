@@ -1,0 +1,484 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R50_GRAND_HALL_ARMATUR_v001.blend",
+  "base_scene": "MUDAM_R49_ALT_MERDIVEN_YUZEY_v001.blend",
+  "changed_inherited_objects": [],
+  "closed_objects": [
+    "R50_GROUP_COLLAR_0",
+    "R50_HOUSING_0_0",
+    "R50_RECESS_0_0",
+    "R50_LENS_0_0",
+    "R50_TOP_CAP_0_0",
+    "R50_HOUSING_0_1",
+    "R50_RECESS_0_1",
+    "R50_LENS_0_1",
+    "R50_TOP_CAP_0_1",
+    "R50_GROUP_ARM_0_1",
+    "R50_HOUSING_0_2",
+    "R50_RECESS_0_2",
+    "R50_LENS_0_2",
+    "R50_TOP_CAP_0_2",
+    "R50_GROUP_ARM_0_2",
+    "R50_HOUSING_0_3",
+    "R50_RECESS_0_3",
+    "R50_LENS_0_3",
+    "R50_TOP_CAP_0_3",
+    "R50_GROUP_ARM_0_3",
+    "R50_HOUSING_0_4",
+    "R50_RECESS_0_4",
+    "R50_LENS_0_4",
+    "R50_TOP_CAP_0_4",
+    "R50_GROUP_ARM_0_4",
+    "R50_GROUP_COLLAR_1",
+    "R50_HOUSING_1_0",
+    "R50_RECESS_1_0",
+    "R50_LENS_1_0",
+    "R50_TOP_CAP_1_0",
+    "R50_HOUSING_1_1",
+    "R50_RECESS_1_1",
+    "R50_LENS_1_1",
+    "R50_TOP_CAP_1_1",
+    "R50_GROUP_ARM_1_1",
+    "R50_HOUSING_1_2",
+    "R50_RECESS_1_2",
+    "R50_LENS_1_2",
+    "R50_TOP_CAP_1_2",
+    "R50_GROUP_ARM_1_2",
+    "R50_HOUSING_1_3",
+    "R50_RECESS_1_3",
+    "R50_LENS_1_3",
+    "R50_TOP_CAP_1_3",
+    "R50_GROUP_ARM_1_3",
+    "R50_HOUSING_1_4",
+    "R50_RECESS_1_4",
+    "R50_LENS_1_4",
+    "R50_TOP_CAP_1_4",
+    "R50_GROUP_ARM_1_4",
+    "R50_GROUP_COLLAR_2",
+    "R50_HOUSING_2_0",
+    "R50_RECESS_2_0",
+    "R50_LENS_2_0",
+    "R50_TOP_CAP_2_0",
+    "R50_HOUSING_2_1",
+    "R50_RECESS_2_1",
+    "R50_LENS_2_1",
+    "R50_TOP_CAP_2_1",
+    "R50_GROUP_ARM_2_1",
+    "R50_HOUSING_2_2",
+    "R50_RECESS_2_2",
+    "R50_LENS_2_2",
+    "R50_TOP_CAP_2_2",
+    "R50_GROUP_ARM_2_2",
+    "R50_HOUSING_2_3",
+    "R50_RECESS_2_3",
+    "R50_LENS_2_3",
+    "R50_TOP_CAP_2_3",
+    "R50_GROUP_ARM_2_3",
+    "R50_HOUSING_2_4",
+    "R50_RECESS_2_4",
+    "R50_LENS_2_4",
+    "R50_TOP_CAP_2_4",
+    "R50_GROUP_ARM_2_4",
+    "R50_GROUP_COLLAR_3",
+    "R50_HOUSING_3_0",
+    "R50_RECESS_3_0",
+    "R50_LENS_3_0",
+    "R50_TOP_CAP_3_0",
+    "R50_HOUSING_3_1",
+    "R50_RECESS_3_1",
+    "R50_LENS_3_1",
+    "R50_TOP_CAP_3_1",
+    "R50_GROUP_ARM_3_1",
+    "R50_HOUSING_3_2",
+    "R50_RECESS_3_2",
+    "R50_LENS_3_2",
+    "R50_TOP_CAP_3_2",
+    "R50_GROUP_ARM_3_2",
+    "R50_HOUSING_3_3",
+    "R50_RECESS_3_3",
+    "R50_LENS_3_3",
+    "R50_TOP_CAP_3_3",
+    "R50_GROUP_ARM_3_3",
+    "R50_HOUSING_3_4",
+    "R50_RECESS_3_4",
+    "R50_LENS_3_4",
+    "R50_TOP_CAP_3_4",
+    "R50_GROUP_ARM_3_4",
+    "R50_BACKFRAME_0",
+    "R50_BACKFRAME_1",
+    "R50_BACKFRAME_2",
+    "R50_BACKFRAME_3",
+    "R50_CROSSFRAME_0",
+    "R50_CROSSFRAME_1",
+    "R50_SUSPENSION_0",
+    "R50_ATTACHMENT_0",
+    "R50_SUSPENSION_1",
+    "R50_ATTACHMENT_1",
+    "R50_SUSPENSION_2",
+    "R50_ATTACHMENT_2",
+    "R50_SUSPENSION_3",
+    "R50_ATTACHMENT_3"
+  ],
+  "lights": [
+    {
+      "group": 0,
+      "index": 0,
+      "lattice": [
+        0,
+        -2
+      ],
+      "center": [
+        5.120024681091309,
+        10.64309024810791,
+        0.0
+      ],
+      "housing": "R50_HOUSING_0_0"
+    },
+    {
+      "group": 0,
+      "index": 1,
+      "lattice": [
+        -1,
+        -2
+      ],
+      "center": [
+        5.501363277435303,
+        10.232991218566895,
+        0.0
+      ],
+      "housing": "R50_HOUSING_0_1"
+    },
+    {
+      "group": 0,
+      "index": 2,
+      "lattice": [
+        1,
+        -2
+      ],
+      "center": [
+        4.7386860847473145,
+        11.053189277648926,
+        0.0
+      ],
+      "housing": "R50_HOUSING_0_2"
+    },
+    {
+      "group": 0,
+      "index": 3,
+      "lattice": [
+        0,
+        -3
+      ],
+      "center": [
+        4.70992374420166,
+        10.261754035949707,
+        0.0
+      ],
+      "housing": "R50_HOUSING_0_3"
+    },
+    {
+      "group": 0,
+      "index": 4,
+      "lattice": [
+        0,
+        -1
+      ],
+      "center": [
+        5.530125617980957,
+        11.024426460266113,
+        0.0
+      ],
+      "housing": "R50_HOUSING_0_4"
+    },
+    {
+      "group": 1,
+      "index": 0,
+      "lattice": [
+        2,
+        0
+      ],
+      "center": [
+        5.177549839019775,
+        12.225959777832031,
+        0.0
+      ],
+      "housing": "R50_HOUSING_1_0"
+    },
+    {
+      "group": 1,
+      "index": 1,
+      "lattice": [
+        1,
+        0
+      ],
+      "center": [
+        5.5588884353637695,
+        11.815860748291016,
+        0.0
+      ],
+      "housing": "R50_HOUSING_1_1"
+    },
+    {
+      "group": 1,
+      "index": 2,
+      "lattice": [
+        3,
+        0
+      ],
+      "center": [
+        4.796211242675781,
+        12.636058807373047,
+        0.0
+      ],
+      "housing": "R50_HOUSING_1_2"
+    },
+    {
+      "group": 1,
+      "index": 3,
+      "lattice": [
+        2,
+        -1
+      ],
+      "center": [
+        4.767448902130127,
+        11.844623565673828,
+        0.0
+      ],
+      "housing": "R50_HOUSING_1_3"
+    },
+    {
+      "group": 1,
+      "index": 4,
+      "lattice": [
+        2,
+        1
+      ],
+      "center": [
+        5.587650775909424,
+        12.607295989990234,
+        0.0
+      ],
+      "housing": "R50_HOUSING_1_4"
+    },
+    {
+      "group": 2,
+      "index": 0,
+      "lattice": [
+        0,
+        2
+      ],
+      "center": [
+        6.760428428649902,
+        12.168435096740723,
+        0.0
+      ],
+      "housing": "R50_HOUSING_2_0"
+    },
+    {
+      "group": 2,
+      "index": 1,
+      "lattice": [
+        -1,
+        2
+      ],
+      "center": [
+        7.1417670249938965,
+        11.758336067199707,
+        0.0
+      ],
+      "housing": "R50_HOUSING_2_1"
+    },
+    {
+      "group": 2,
+      "index": 2,
+      "lattice": [
+        1,
+        2
+      ],
+      "center": [
+        6.379089832305908,
+        12.578534126281738,
+        0.0
+      ],
+      "housing": "R50_HOUSING_2_2"
+    },
+    {
+      "group": 2,
+      "index": 3,
+      "lattice": [
+        0,
+        1
+      ],
+      "center": [
+        6.350327491760254,
+        11.78709888458252,
+        0.0
+      ],
+      "housing": "R50_HOUSING_2_3"
+    },
+    {
+      "group": 2,
+      "index": 4,
+      "lattice": [
+        0,
+        3
+      ],
+      "center": [
+        7.170529365539551,
+        12.549771308898926,
+        0.0
+      ],
+      "housing": "R50_HOUSING_2_4"
+    },
+    {
+      "group": 3,
+      "index": 0,
+      "lattice": [
+        -2,
+        0
+      ],
+      "center": [
+        6.7029032707214355,
+        10.585565567016602,
+        0.0
+      ],
+      "housing": "R50_HOUSING_3_0"
+    },
+    {
+      "group": 3,
+      "index": 1,
+      "lattice": [
+        -3,
+        0
+      ],
+      "center": [
+        7.08424186706543,
+        10.175466537475586,
+        0.0
+      ],
+      "housing": "R50_HOUSING_3_1"
+    },
+    {
+      "group": 3,
+      "index": 2,
+      "lattice": [
+        -1,
+        0
+      ],
+      "center": [
+        6.321564674377441,
+        10.995664596557617,
+        0.0
+      ],
+      "housing": "R50_HOUSING_3_2"
+    },
+    {
+      "group": 3,
+      "index": 3,
+      "lattice": [
+        -2,
+        -1
+      ],
+      "center": [
+        6.292802333831787,
+        10.204229354858398,
+        0.0
+      ],
+      "housing": "R50_HOUSING_3_3"
+    },
+    {
+      "group": 3,
+      "index": 4,
+      "lattice": [
+        -2,
+        1
+      ],
+      "center": [
+        7.113004207611084,
+        10.966901779174805,
+        0.0
+      ],
+      "housing": "R50_HOUSING_3_4"
+    }
+  ],
+  "anchors": [
+    {
+      "name": "R50_SUSPENSION_0",
+      "start": [
+        5.911464214324951,
+        10.614327430725098,
+        15.324999809265137
+      ],
+      "end": [
+        5.5764970779418945,
+        8.336071968078613,
+        21.177322387695312
+      ],
+      "parent": "P10_MAIN_ROOF_FACE_7_EDGE_2",
+      "parent_contact": "existing mesh vertex; real fixing location unresolved"
+    },
+    {
+      "name": "R50_SUSPENSION_1",
+      "start": [
+        5.148787021636963,
+        11.434525489807129,
+        15.324999809265137
+      ],
+      "end": [
+        2.852231502532959,
+        11.265811920166016,
+        21.177322387695312
+      ],
+      "parent": "P10_MAIN_ROOF_FACE_1_EDGE_2",
+      "parent_contact": "existing mesh vertex; real fixing location unresolved"
+    },
+    {
+      "name": "R50_SUSPENSION_2",
+      "start": [
+        5.96898889541626,
+        12.197197914123535,
+        15.324999809265137
+      ],
+      "end": [
+        6.303956031799316,
+        14.47545337677002,
+        24.91507339477539
+      ],
+      "parent": "P10_MAIN_ROOF_FACE_3_EDGE_2",
+      "parent_contact": "existing mesh vertex; real fixing location unresolved"
+    },
+    {
+      "name": "R50_SUSPENSION_3",
+      "start": [
+        6.731666088104248,
+        11.376999855041504,
+        15.324999809265137
+      ],
+      "end": [
+        9.02822208404541,
+        11.5457124710083,
+        24.91507339477539
+      ],
+      "parent": "P10_MAIN_ROOF_FACE_5_EDGE_2",
+      "parent_contact": "existing mesh vertex; real fixing location unresolved"
+    }
+  ],
+  "center_world": [
+    5.9402265548706055,
+    11.405762672424316,
+    0.0
+  ],
+  "canonical_x_world": [
+    -0.6809614300727844,
+    0.7323192358016968,
+    0.0
+  ],
+  "canonical_y_world": [
+    0.732323169708252,
+    0.6809573173522949,
+    0.0
+  ],
+  "bottom_z": 14.8,
+  "housing_height_m": 0.7,
+  "observed_cylinders": 20,
+  "construction_acceptance": false
+}

@@ -348,5 +348,75 @@
     "image": "R47_lantern_detail.png",
     "description": "116 yakın kırpımıyla dört yüzlü cam gövde/başlık ve opak etek; 12 cam, 8 etek paneli, 52 profil. Okuma alanı ve 24 askı kontrol edildi.",
     "limits": "Çerçeve kesiti, panel bölünmesi ve mutlak boyutlar aday. İç kare açıklık dış gövdenin ölçüsünü tek başına doğrulamaz."
+  },
+  {
+    "id": "R48",
+    "checks": [
+      "R48_verification.json",
+      "R48_inherited_verification.json",
+      "R48_global_audit.json",
+      "R05_regression_on_R48.json"
+    ],
+    "tasks": [
+      "P09",
+      "P15"
+    ],
+    "report": "R48_KONTROL_RAPORU.md",
+    "title": "Aşağı merdiven küpeşte sürekliliği / R48",
+    "image": "R48_landing_context.png",
+    "description": "İki 45 mm model kopukluğu giderildi; altı eski ray iki sürekli gövdeye dönüştürüldü. Beş camın üst bitişi yerel düzeltildi; basamak ve dolaşım kontrolü tekrar geçti.",
+    "limits": "Bağlayıcı eğri, büküm yarıçapı ve cam bitişleri adaydır; plan izleri ve basamaklar korundu. v001 görsel kontrolde reddedildi."
+  },
+  {
+    "id": "R49",
+    "checks": [
+      "R49_verification.json",
+      "R49_inherited_verification.json"
+    ],
+    "tasks": [
+      "P13",
+      "P16",
+      "P19"
+    ],
+    "report": "R49_KONTROL_RAPORU.md",
+    "title": "Aşağı merdiven yüzey görünümü / R49",
+    "image": "R49_treads.png",
+    "description": "35 mineral yüzey ve 42 metal parça kaynak fotoğraflarıyla işlendi. 2.678 UV yüzü kontrol edildi; 7.420 geometri nesnesi önceki sahneyle tam aynı.",
+    "limits": "Taş türü, alaşım, tanecik ölçeği ve renk/pürüzlülük ölçülmedi. Görünüm adayıdır; eklemeli derz veya deplasman yok."
+  },
+  {
+    "id": "R50",
+    "checks": [
+      "R50_verification.json",
+      "R50_inherited_verification.json",
+      "R50_global_audit.json"
+    ],
+    "tasks": [
+      "P17",
+      "P19"
+    ],
+    "report": "R50_KONTROL_RAPORU.md",
+    "title": "Grand Hall 20 silindir armatür / R50",
+    "image": "R50_fixture_detail.png",
+    "description": "028 üzerinden dört beşli grup sayıldı; 114 kapalı gövde, dört metal temas noktası ve önceki geometri kontrol edildi.",
+    "limits": "Çap, yükseklik, asma kotu, askı ve bağlantı kesitleri koşullu. Gerçek armatür ürünü veya fotometrik çözüm değildir."
+  },
+  {
+    "id": "R51",
+    "checks": [
+      "R51_verification.json",
+      "R51_inherited_verification.json",
+      "R51_global_audit.json"
+    ],
+    "tasks": [
+      "P10",
+      "P17",
+      "P19"
+    ],
+    "report": "R51_KONTROL_RAPORU.md",
+    "title": "Ana çatı dört yüz gölgeliği / R51",
+    "image": "R51_upward.png",
+    "description": "028/029 ile dört geniş yüz: 168 panel dizisi ve 3.816 kapalı lamel. Dar şeritler açık bırakıldı; panel sınırı ve cam mesafesi denetlendi.",
+    "limits": "Adım, kesit, açı ve cam mesafesi aday; gizli çalıştırma ve taşıyıcı bağlantı çözümü yok."
   }
 ]

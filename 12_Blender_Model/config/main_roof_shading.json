@@ -1,0 +1,15 @@
+{
+  "base_scene": "MUDAM_R50_GRAND_HALL_ARMATUR_v001.blend",
+  "source_ids": ["028", "029", "102", "101"],
+  "pitch_m": 0.07,
+  "slat_width_m": 0.033,
+  "slat_thickness_m": 0.002,
+  "slat_angle_deg": 15,
+  "glass_offset_m": 0.13,
+  "perimeter_clearance_m": 0.075,
+  "limits": [
+    "028 upward overview shows dense parallel lamellae across four wide triangular roof sectors; the cross-shaped narrow strips are clear. 029 oblique view corroborates the family and distinction.",
+    "Dimensions follow the existing R42 visualization family, not a site measurement. Profile, pitch, angle, glass offset and clearances remain editable candidates; no manufacturer or mechanical actuation details inferred.",
+    "Each array follows its existing conditional P10 glazing panel. This does not verify the inherited glass grid, whole roof elevations or structural system. Lantern and cap receive no shade extrapolation."
+  ]
+}

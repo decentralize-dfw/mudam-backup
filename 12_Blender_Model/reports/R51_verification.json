@@ -1,0 +1,2192 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R51_ANA_CATI_GOLGELIK_v001.blend",
+  "arrays": [
+    {
+      "name": "R51_SHADE_1_GLASS_00_00",
+      "volume": 0.0007361850380317908,
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "components": 21,
+      "expected_slats": 21,
+      "outside_parent": 0,
+      "glass_clearance_range_m": [
+        0.12572871334850788,
+        0.13620281592011452
+      ]
+    },
+    {
+      "name": "R51_SHADE_1_GLASS_00_01",
+      "volume": 0.0017447930616563037,
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "components": 23,
+      "expected_slats": 23,
+      "outside_parent": 0,
+      "glass_clearance_range_m": [
+        0.12572870030999184,
+        0.1362028494477272
+      ]
+    },
+    {
+      "name": "R51_SHADE_1_GLASS_00_02",
+      "volume": 0.001744793222152749,
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "components": 23,
+      "expected_slats": 23,
+      "outside_parent": 0,
+      "glass_clearance_range_m": [
+        0.1257285699248314,
+        0.1362028867006302
+      ]
+    },
+    {
+      "name": "R51_SHADE_1_GLASS_00_03",
+      "volume": 0.00174478351481234,
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "components": 23,
+      "expected_slats": 23,
+      "outside_parent": 0,
+      "glass_clearance_range_m": [
+        0.1257285177707672,
+        0.13620274513959885
+      ]
+    },
+    {
+      "name": "R51_SHADE_1_GLASS_00_04",
+      "volume": 0.0017447798373534656,
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "components": 23,
+      "expected_slats": 23,
+      "outside_parent": 0,
+      "glass_clearance_range_m": [
+        0.1257285326719284,
+        0.13620270788669586
+      ]
+    },
+    {
+      "name": "R51_SHADE_1_GLASS_00_05",
+      "volume": 0.0017447795390629027,
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "components": 23,
+      "expected_slats": 23,
+      "outside_parent": 0,
+      "glass_clearance_range_m": [
+        0.12572859227657318,
+        0.13620276749134064
+      ]
+    },
+    {
+      "name": "R51_SHADE_1_GLASS_00_06",
+      "volume": 0.0017447800891635245,
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "components": 23,
+      "expected_slats": 23,
+      "outside_parent": 0,
+      "glass_clearance_range_m": [
+        0.12572860717773438,
+        0.1362028419971466
+      ]
+    },
+    {
+      "name": "R51_SHADE_1_GLASS_00_07",
+      "volume": 0.0017447759347003298,
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "components": 23,
+      "expected_slats": 23,
+      "outside_parent": 0,
+      "glass_clearance_range_m": [
+        0.12572865188121796,
+        0.1362028419971466
+      ]
+    },
+    {
+      "name": "R51_SHADE_1_GLASS_00_08",
+      "volume": 0.0017447767071493848,
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "components": 23,
+      "expected_slats": 23,
+      "outside_parent": 0,
+      "glass_clearance_range_m": [
+        0.12572850286960602,
+        0.13620269298553467
+      ]
+    },
+    {
+      "name": "R51_SHADE_1_GLASS_00_09",
+      "volume": 0.0017447774294587857,
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "components": 23,
+      "expected_slats": 23,
+      "outside_parent": 0,
+      "glass_clearance_range_m": [
+        0.1257285624742508,
+        0.13620278239250183
+      ]
+    },
+    {
+      "name": "R51_SHADE_1_GLASS_00_10",
+      "volume": 0.0017447749526408641,
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "components": 23,
+      "expected_slats": 23,
+      "outside_parent": 0,
+      "glass_clearance_range_m": [
+        0.1257285624742508,
+        0.1362028419971466
+      ]
+    },
+    {
+      "name": "R51_SHADE_1_GLASS_00_11",
+      "volume": 0.0007361755840535862,
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "components": 21,
+      "expected_slats": 21,
+      "outside_parent": 0,
+      "glass_clearance_range_m": [
+        0.1257285624742508,
+        0.1362028419971466
+      ]
+    },
+    {
+      "name": "R51_SHADE_1_GLASS_01_01",
+      "volume": 0.00081633317559762,
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "components": 22,
+      "expected_slats": 22,
+      "outside_parent": 0,
+      "glass_clearance_range_m": [
+        0.12572849169373512,
+        0.13620324432849884
+      ]
+    },
+    {
+      "name": "R51_SHADE_1_GLASS_01_02",
+      "volume": 0.0017760749101507715,
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "components": 23,
+      "expected_slats": 23,
+      "outside_parent": 0,
+      "glass_clearance_range_m": [
+        0.12572847306728363,
+        0.1362030878663063
+      ]
+    },
+    {
+      "name": "R51_SHADE_1_GLASS_01_03",
+      "volume": 0.001776062972520814,
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "components": 23,
+      "expected_slats": 23,
+      "outside_parent": 0,
+      "glass_clearance_range_m": [
+        0.12572833895683289,
+        0.13620319962501526
+      ]
+    },
+    {
+      "name": "R51_SHADE_1_GLASS_01_04",
+      "volume": 0.0017760592756018937,
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "components": 23,
+      "expected_slats": 23,
+      "outside_parent": 0,
+      "glass_clearance_range_m": [
+        0.1257283091545105,
+        0.1362031251192093
+      ]
+    },
+    {
+      "name": "R51_SHADE_1_GLASS_01_05",
+      "volume": 0.0017760611532352533,
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "components": 23,
+      "expected_slats": 23,
+      "outside_parent": 0,
+      "glass_clearance_range_m": [
+        0.12572838366031647,
+        0.1362031251192093
+      ]
+    },
+    {
+      "name": "R51_SHADE_1_GLASS_01_06",
+      "volume": 0.0017760633108838495,
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "components": 23,
+      "expected_slats": 23,
+      "outside_parent": 0,
+      "glass_clearance_range_m": [
+        0.12572838366031647,
+        0.13620324432849884
+      ]
+    },
+    {
+      "name": "R51_SHADE_1_GLASS_01_07",
+      "volume": 0.0017760582598514239,
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "components": 23,
+      "expected_slats": 23,
+      "outside_parent": 0,
+      "glass_clearance_range_m": [
+        0.12572845816612244,
+        0.13620316982269287
+      ]
+    },
+    {
+      "name": "R51_SHADE_1_GLASS_01_08",
+      "volume": 0.0017760597327254497,
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "components": 23,
+      "expected_slats": 23,
+      "outside_parent": 0,
+      "glass_clearance_range_m": [
+        0.1257282793521881,
+        0.13620305061340332
+      ]
+    },
+    {
+      "name": "R51_SHADE_1_GLASS_01_09",
+      "volume": 0.0017760633809020456,
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "components": 23,
+      "expected_slats": 23,
+      "outside_parent": 0,
+      "glass_clearance_range_m": [
+        0.1257282793521881,
+        0.13620302081108093
+      ]
+    },
+    {
+      "name": "R51_SHADE_1_GLASS_01_10",
+      "volume": 0.0008163287876413297,
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "components": 22,
+      "expected_slats": 22,
+      "outside_parent": 0,
+      "glass_clearance_range_m": [
+        0.12572833895683289,
+        0.13620322942733765
+      ]
+    },
+    {
+      "name": "R51_SHADE_1_GLASS_02_02",
+      "volume": 0.0008917801371181285,
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "components": 23,
+      "expected_slats": 23,
+      "outside_parent": 0,
+      "glass_clearance_range_m": [
+        0.12572868913412094,
+        0.13620389997959137
+      ]
+    },
+    {
+      "name": "R51_SHADE_1_GLASS_02_03",
+      "volume": 0.0017672226590204482,
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "components": 23,
+      "expected_slats": 23,
+      "outside_parent": 0,
+      "glass_clearance_range_m": [
+        0.1257285177707672,
+        0.1362038552761078
+      ]
+    },
+    {
+      "name": "R51_SHADE_1_GLASS_02_04",
+      "volume": 0.0017672142801105715,
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "components": 23,
+      "expected_slats": 23,
+      "outside_parent": 0,
+      "glass_clearance_range_m": [
+        0.12572862207889557,
+        0.13620369136333466
+      ]
+    },
+    {
+      "name": "R51_SHADE_1_GLASS_02_05",
+      "volume": 0.0017672128495214625,
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "components": 23,
+      "expected_slats": 23,
+      "outside_parent": 0,
+      "glass_clearance_range_m": [
+        0.12572871148586273,
+        0.1362038254737854
+      ]
+    },
+    {
+      "name": "R51_SHADE_1_GLASS_02_06",
+      "volume": 0.0017672096782513462,
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "components": 23,
+      "expected_slats": 23,
+      "outside_parent": 0,
+      "glass_clearance_range_m": [
+        0.12572883069515228,
+        0.13620391488075256
+      ]
+    },
+    {
+      "name": "R51_SHADE_1_GLASS_02_07",
+      "volume": 0.001767203635388152,
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "components": 23,
+      "expected_slats": 23,
+      "outside_parent": 0,
+      "glass_clearance_range_m": [
+        0.12572869658470154,
+        0.13620373606681824
+      ]
+    },
+    {
+      "name": "R51_SHADE_1_GLASS_02_08",
+      "volume": 0.001767205336787139,
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "components": 23,
+      "expected_slats": 23,
+      "outside_parent": 0,
+      "glass_clearance_range_m": [
+        0.12572860717773438,
+        0.13620373606681824
+      ]
+    },
+    {
+      "name": "R51_SHADE_1_GLASS_02_09",
+      "volume": 0.0008917585392083356,
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "components": 23,
+      "expected_slats": 23,
+      "outside_parent": 0,
+      "glass_clearance_range_m": [
+        0.1257285475730896,
+        0.13620376586914062
+      ]
+    },
+    {
+      "name": "R51_SHADE_1_GLASS_03_03",
+      "volume": 0.0009064348351392273,
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "components": 22,
+      "expected_slats": 22,
+      "outside_parent": 0,
+      "glass_clearance_range_m": [
+        0.12572885304689407,
+        0.13620354235172272
+      ]
+    },
+    {
+      "name": "R51_SHADE_1_GLASS_03_04",
+      "volume": 0.001698792596313864,
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "components": 22,
+      "expected_slats": 22,
+      "outside_parent": 0,
+      "glass_clearance_range_m": [
+        0.12572893500328064,
+        0.1362036168575287
+      ]
+    },
+    {
+      "name": "R51_SHADE_1_GLASS_03_05",
+      "volume": 0.0016987941816787588,
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "components": 22,
+      "expected_slats": 22,
+      "outside_parent": 0,
+      "glass_clearance_range_m": [
+        0.1257290244102478,
+        0.13620373606681824
+      ]
+    },
+    {
+      "name": "R51_SHADE_1_GLASS_03_06",
+      "volume": 0.0016987907985628967,
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "components": 22,
+      "expected_slats": 22,
+      "outside_parent": 0,
+      "glass_clearance_range_m": [
+        0.12572911381721497,
+        0.1362035870552063
+      ]
+    },
+    {
+      "name": "R51_SHADE_1_GLASS_03_07",
+      "volume": 0.0016987887102583015,
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "components": 22,
+      "expected_slats": 22,
+      "outside_parent": 0,
+      "glass_clearance_range_m": [
+        0.12572899460792542,
+        0.13620366156101227
+      ]
+    },
+    {
+      "name": "R51_SHADE_1_GLASS_03_08",
+      "volume": 0.0009064315340192959,
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "components": 22,
+      "expected_slats": 22,
+      "outside_parent": 0,
+      "glass_clearance_range_m": [
+        0.12572890520095825,
+        0.13620346784591675
+      ]
+    },
+    {
+      "name": "R51_SHADE_1_GLASS_04_04",
+      "volume": 0.0009907801370316759,
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "components": 23,
+      "expected_slats": 23,
+      "outside_parent": 0,
+      "glass_clearance_range_m": [
+        0.12572848796844482,
+        0.13620401918888092
+      ]
+    },
+    {
+      "name": "R51_SHADE_1_GLASS_04_05",
+      "volume": 0.001769302784802699,
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "components": 23,
+      "expected_slats": 23,
+      "outside_parent": 0,
+      "glass_clearance_range_m": [
+        0.12572859227657318,
+        0.13620398938655853
+      ]
+    },
+    {
+      "name": "R51_SHADE_1_GLASS_04_06",
+      "volume": 0.0017693016535001334,
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "components": 23,
+      "expected_slats": 23,
+      "outside_parent": 0,
+      "glass_clearance_range_m": [
+        0.12572848796844482,
+        0.1362043172121048
+      ]
+    },
+    {
+      "name": "R51_SHADE_1_GLASS_04_07",
+      "volume": 0.0009907787631553704,
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "components": 23,
+      "expected_slats": 23,
+      "outside_parent": 0,
+      "glass_clearance_range_m": [
+        0.12572850286960602,
+        0.13620418310165405
+      ]
+    },
+    {
+      "name": "R51_SHADE_1_GLASS_05_05",
+      "volume": 0.001069727203473429,
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "components": 23,
+      "expected_slats": 23,
+      "outside_parent": 0,
+      "glass_clearance_range_m": [
+        0.12572842836380005,
+        0.13620354235172272
+      ]
+    },
+    {
+      "name": "R51_SHADE_1_GLASS_05_06",
+      "volume": 0.0010697375246479907,
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "components": 23,
+      "expected_slats": 23,
+      "outside_parent": 0,
+      "glass_clearance_range_m": [
+        0.1257287710905075,
+        0.13620370626449585
+      ]
+    },
+    {
+      "name": "R51_SHADE_3_GLASS_00_00",
+      "volume": 0.0007360086297953207,
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "components": 21,
+      "expected_slats": 21,
+      "outside_parent": 0,
+      "glass_clearance_range_m": [
+        0.12572816759347916,
+        0.1362044606357813
+      ]
+    },
+    {
+      "name": "R51_SHADE_3_GLASS_00_01",
+      "volume": 0.001744386921207022,
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "components": 23,
+      "expected_slats": 23,
+      "outside_parent": 0,
+      "glass_clearance_range_m": [
+        0.12572789937257767,
+        0.13620423711836338
+      ]
+    },
+    {
+      "name": "R51_SHADE_3_GLASS_00_02",
+      "volume": 0.0017443866208937083,
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "components": 23,
+      "expected_slats": 23,
+      "outside_parent": 0,
+      "glass_clearance_range_m": [
+        0.12572789937257767,
+        0.13620459474623203
+      ]
+    },
+    {
+      "name": "R51_SHADE_3_GLASS_00_03",
+      "volume": 0.0017443854968417665,
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "components": 23,
+      "expected_slats": 23,
+      "outside_parent": 0,
+      "glass_clearance_range_m": [
+        0.12572826445102692,
+        0.1362044531852007
+      ]
+    },
+    {
+      "name": "R51_SHADE_3_GLASS_00_04",
+      "volume": 0.0017443893695732017,
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "components": 23,
+      "expected_slats": 23,
+      "outside_parent": 0,
+      "glass_clearance_range_m": [
+        0.12572795152664185,
+        0.13620481826364994
+      ]
+    },
+    {
+      "name": "R51_SHADE_3_GLASS_00_05",
+      "volume": 0.0017443923866066284,
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "components": 23,
+      "expected_slats": 23,
+      "outside_parent": 0,
+      "glass_clearance_range_m": [
+        0.12572833895683289,
+        0.1362046841531992
+      ]
+    },
+    {
+      "name": "R51_SHADE_3_GLASS_00_06",
+      "volume": 0.0017443930468967013,
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "components": 23,
+      "expected_slats": 23,
+      "outside_parent": 0,
+      "glass_clearance_range_m": [
+        0.12572795152664185,
+        0.1362041626125574
+      ]
+    },
+    {
+      "name": "R51_SHADE_3_GLASS_00_07",
+      "volume": 0.0017443802811667507,
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "components": 23,
+      "expected_slats": 23,
+      "outside_parent": 0,
+      "glass_clearance_range_m": [
+        0.12572769820690155,
+        0.13620452024042606
+      ]
+    },
+    {
+      "name": "R51_SHADE_3_GLASS_00_08",
+      "volume": 0.0017443785944152212,
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "components": 23,
+      "expected_slats": 23,
+      "outside_parent": 0,
+      "glass_clearance_range_m": [
+        0.12572789192199707,
+        0.1362044010311365
+      ]
+    },
+    {
+      "name": "R51_SHADE_3_GLASS_00_09",
+      "volume": 0.0017443792003843937,
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "components": 23,
+      "expected_slats": 23,
+      "outside_parent": 0,
+      "glass_clearance_range_m": [
+        0.12572795152664185,
+        0.13620475865900517
+      ]
+    },
+    {
+      "name": "R51_SHADE_3_GLASS_00_10",
+      "volume": 0.0017443783938366486,
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "components": 23,
+      "expected_slats": 23,
+      "outside_parent": 0,
+      "glass_clearance_range_m": [
+        0.12572833895683289,
+        0.136204669252038
+      ]
+    },
+    {
+      "name": "R51_SHADE_3_GLASS_00_11",
+      "volume": 0.0007360125288181656,
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "components": 21,
+      "expected_slats": 21,
+      "outside_parent": 0,
+      "glass_clearance_range_m": [
+        0.1257280707359314,
+        0.13620437122881413
+      ]
+    },
+    {
+      "name": "R51_SHADE_3_GLASS_01_01",
+      "volume": 0.0008161493504625097,
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "components": 22,
+      "expected_slats": 22,
+      "outside_parent": 0,
+      "glass_clearance_range_m": [
+        0.1257283315062523,
+        0.13620513677597046
+      ]
+    },
+    {
+      "name": "R51_SHADE_3_GLASS_01_02",
+      "volume": 0.0017756713722501165,
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "components": 23,
+      "expected_slats": 23,
+      "outside_parent": 0,
+      "glass_clearance_range_m": [
+        0.12572818249464035,
+        0.13620517402887344
+      ]
+    },
+    {
+      "name": "R51_SHADE_3_GLASS_01_03",
+      "volume": 0.0017756702172316537,
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "components": 23,
+      "expected_slats": 23,
+      "outside_parent": 0,
+      "glass_clearance_range_m": [
+        0.12572844326496124,
+        0.1362050175666809
+      ]
+    },
+    {
+      "name": "R51_SHADE_3_GLASS_01_04",
+      "volume": 0.001775675327169472,
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "components": 23,
+      "expected_slats": 23,
+      "outside_parent": 0,
+      "glass_clearance_range_m": [
+        0.12572842836380005,
+        0.13620540499687195
+      ]
+    },
+    {
+      "name": "R51_SHADE_3_GLASS_01_05",
+      "volume": 0.0017756781911067486,
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "components": 23,
+      "expected_slats": 23,
+      "outside_parent": 0,
+      "glass_clearance_range_m": [
+        0.12572865188121796,
+        0.13620524108409882
+      ]
+    },
+    {
+      "name": "R51_SHADE_3_GLASS_01_06",
+      "volume": 0.0017756771488015898,
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "components": 23,
+      "expected_slats": 23,
+      "outside_parent": 0,
+      "glass_clearance_range_m": [
+        0.12572823464870453,
+        0.13620468974113464
+      ]
+    },
+    {
+      "name": "R51_SHADE_3_GLASS_01_07",
+      "volume": 0.0017756644773983766,
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "components": 23,
+      "expected_slats": 23,
+      "outside_parent": 0,
+      "glass_clearance_range_m": [
+        0.12572802603244781,
+        0.13620507717132568
+      ]
+    },
+    {
+      "name": "R51_SHADE_3_GLASS_01_08",
+      "volume": 0.00177566322277678,
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "components": 23,
+      "expected_slats": 23,
+      "outside_parent": 0,
+      "glass_clearance_range_m": [
+        0.12572839856147766,
+        0.13620489835739136
+      ]
+    },
+    {
+      "name": "R51_SHADE_3_GLASS_01_09",
+      "volume": 0.0017756640821347076,
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "components": 23,
+      "expected_slats": 23,
+      "outside_parent": 0,
+      "glass_clearance_range_m": [
+        0.1257283091545105,
+        0.1362052857875824
+      ]
+    },
+    {
+      "name": "R51_SHADE_3_GLASS_01_10",
+      "volume": 0.0008161366368786543,
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "components": 22,
+      "expected_slats": 22,
+      "outside_parent": 0,
+      "glass_clearance_range_m": [
+        0.1257287561893463,
+        0.13620516657829285
+      ]
+    },
+    {
+      "name": "R51_SHADE_3_GLASS_02_02",
+      "volume": 0.000891578128291374,
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "components": 23,
+      "expected_slats": 23,
+      "outside_parent": 0,
+      "glass_clearance_range_m": [
+        0.12572771310806274,
+        0.1362052857875824
+      ]
+    },
+    {
+      "name": "R51_SHADE_3_GLASS_02_03",
+      "volume": 0.0017668954736210843,
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "components": 23,
+      "expected_slats": 23,
+      "outside_parent": 0,
+      "glass_clearance_range_m": [
+        0.12572810053825378,
+        0.1362052485346794
+      ]
+    },
+    {
+      "name": "R51_SHADE_3_GLASS_02_04",
+      "volume": 0.001766885962688822,
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "components": 23,
+      "expected_slats": 23,
+      "outside_parent": 0,
+      "glass_clearance_range_m": [
+        0.1257280707359314,
+        0.13620564341545105
+      ]
+    },
+    {
+      "name": "R51_SHADE_3_GLASS_02_05",
+      "volume": 0.0017668954866243477,
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "components": 23,
+      "expected_slats": 23,
+      "outside_parent": 0,
+      "glass_clearance_range_m": [
+        0.12572844326496124,
+        0.13620536029338837
+      ]
+    },
+    {
+      "name": "R51_SHADE_3_GLASS_02_06",
+      "volume": 0.0017668943670313,
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "components": 23,
+      "expected_slats": 23,
+      "outside_parent": 0,
+      "glass_clearance_range_m": [
+        0.12572792172431946,
+        0.1362048238515854
+      ]
+    },
+    {
+      "name": "R51_SHADE_3_GLASS_02_07",
+      "volume": 0.0017668723988131189,
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "components": 23,
+      "expected_slats": 23,
+      "outside_parent": 0,
+      "glass_clearance_range_m": [
+        0.1257276087999344,
+        0.13620519638061523
+      ]
+    },
+    {
+      "name": "R51_SHADE_3_GLASS_02_08",
+      "volume": 0.0017668800383996612,
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "components": 23,
+      "expected_slats": 23,
+      "outside_parent": 0,
+      "glass_clearance_range_m": [
+        0.12572798132896423,
+        0.13620513677597046
+      ]
+    },
+    {
+      "name": "R51_SHADE_3_GLASS_02_09",
+      "volume": 0.0008915718435193848,
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "components": 23,
+      "expected_slats": 23,
+      "outside_parent": 0,
+      "glass_clearance_range_m": [
+        0.12572774291038513,
+        0.13620513677597046
+      ]
+    },
+    {
+      "name": "R51_SHADE_3_GLASS_03_03",
+      "volume": 0.0009062519123906066,
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "components": 22,
+      "expected_slats": 22,
+      "outside_parent": 0,
+      "glass_clearance_range_m": [
+        0.12572799623012543,
+        0.13620507717132568
+      ]
+    },
+    {
+      "name": "R51_SHADE_3_GLASS_03_04",
+      "volume": 0.0016984718626117772,
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "components": 22,
+      "expected_slats": 22,
+      "outside_parent": 0,
+      "glass_clearance_range_m": [
+        0.1257277876138687,
+        0.1362054944038391
+      ]
+    },
+    {
+      "name": "R51_SHADE_3_GLASS_03_05",
+      "volume": 0.0016984745286252705,
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "components": 22,
+      "expected_slats": 22,
+      "outside_parent": 0,
+      "glass_clearance_range_m": [
+        0.12572817504405975,
+        0.1362052857875824
+      ]
+    },
+    {
+      "name": "R51_SHADE_3_GLASS_03_06",
+      "volume": 0.0016984738683273222,
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "components": 22,
+      "expected_slats": 22,
+      "outside_parent": 0,
+      "glass_clearance_range_m": [
+        0.12572872638702393,
+        0.13620471954345703
+      ]
+    },
+    {
+      "name": "R51_SHADE_3_GLASS_03_07",
+      "volume": 0.0016984625328919836,
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "components": 22,
+      "expected_slats": 22,
+      "outside_parent": 0,
+      "glass_clearance_range_m": [
+        0.1257275938987732,
+        0.13620507717132568
+      ]
+    },
+    {
+      "name": "R51_SHADE_3_GLASS_03_08",
+      "volume": 0.0009062474018725942,
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "components": 22,
+      "expected_slats": 22,
+      "outside_parent": 0,
+      "glass_clearance_range_m": [
+        0.12572821974754333,
+        0.1362055242061615
+      ]
+    },
+    {
+      "name": "R51_SHADE_3_GLASS_04_04",
+      "volume": 0.0009905856474340196,
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "components": 23,
+      "expected_slats": 23,
+      "outside_parent": 0,
+      "glass_clearance_range_m": [
+        0.12572772800922394,
+        0.13620525598526
+      ]
+    },
+    {
+      "name": "R51_SHADE_3_GLASS_04_05",
+      "volume": 0.0017689850294477227,
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "components": 23,
+      "expected_slats": 23,
+      "outside_parent": 0,
+      "glass_clearance_range_m": [
+        0.1257283240556717,
+        0.1362057328224182
+      ]
+    },
+    {
+      "name": "R51_SHADE_3_GLASS_04_06",
+      "volume": 0.001768997181897958,
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "components": 23,
+      "expected_slats": 23,
+      "outside_parent": 0,
+      "glass_clearance_range_m": [
+        0.1257277876138687,
+        0.1362040936946869
+      ]
+    },
+    {
+      "name": "R51_SHADE_3_GLASS_04_07",
+      "volume": 0.0009905858461125988,
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "components": 23,
+      "expected_slats": 23,
+      "outside_parent": 0,
+      "glass_clearance_range_m": [
+        0.12572774291038513,
+        0.13620468974113464
+      ]
+    },
+    {
+      "name": "R51_SHADE_3_GLASS_05_05",
+      "volume": 0.001069552125254082,
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "components": 23,
+      "expected_slats": 23,
+      "outside_parent": 0,
+      "glass_clearance_range_m": [
+        0.12572844326496124,
+        0.13620375096797943
+      ]
+    },
+    {
+      "name": "R51_SHADE_3_GLASS_05_06",
+      "volume": 0.0010695571232937674,
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "components": 23,
+      "expected_slats": 23,
+      "outside_parent": 0,
+      "glass_clearance_range_m": [
+        0.12572814524173737,
+        0.13620372116565704
+      ]
+    },
+    {
+      "name": "R51_SHADE_5_GLASS_00_00",
+      "volume": 0.0007360106242666134,
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "components": 21,
+      "expected_slats": 21,
+      "outside_parent": 0,
+      "glass_clearance_range_m": [
+        0.12572753429412842,
+        0.13620447320863605
+      ]
+    },
+    {
+      "name": "R51_SHADE_5_GLASS_00_01",
+      "volume": 0.001744397677291112,
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "components": 23,
+      "expected_slats": 23,
+      "outside_parent": 0,
+      "glass_clearance_range_m": [
+        0.12572761625051498,
+        0.13620422966778278
+      ]
+    },
+    {
+      "name": "R51_SHADE_5_GLASS_00_02",
+      "volume": 0.0017444001513696086,
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "components": 23,
+      "expected_slats": 23,
+      "outside_parent": 0,
+      "glass_clearance_range_m": [
+        0.12572750449180603,
+        0.13620460219681263
+      ]
+    },
+    {
+      "name": "R51_SHADE_5_GLASS_00_03",
+      "volume": 0.001744393229605392,
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "components": 23,
+      "expected_slats": 23,
+      "outside_parent": 0,
+      "glass_clearance_range_m": [
+        0.12572841346263885,
+        0.13620447553694248
+      ]
+    },
+    {
+      "name": "R51_SHADE_5_GLASS_00_04",
+      "volume": 0.0017443959981350567,
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "components": 23,
+      "expected_slats": 23,
+      "outside_parent": 0,
+      "glass_clearance_range_m": [
+        0.12572744488716125,
+        0.13620484806597233
+      ]
+    },
+    {
+      "name": "R51_SHADE_5_GLASS_00_05",
+      "volume": 0.0017443992997099034,
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "components": 23,
+      "expected_slats": 23,
+      "outside_parent": 0,
+      "glass_clearance_range_m": [
+        0.12572818994522095,
+        0.1362046841531992
+      ]
+    },
+    {
+      "name": "R51_SHADE_5_GLASS_00_06",
+      "volume": 0.001744405488623258,
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "components": 23,
+      "expected_slats": 23,
+      "outside_parent": 0,
+      "glass_clearance_range_m": [
+        0.125728040933609,
+        0.1362041626125574
+      ]
+    },
+    {
+      "name": "R51_SHADE_5_GLASS_00_07",
+      "volume": 0.0017444049786617488,
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "components": 23,
+      "expected_slats": 23,
+      "outside_parent": 0,
+      "glass_clearance_range_m": [
+        0.12572787702083588,
+        0.13620449043810368
+      ]
+    },
+    {
+      "name": "R51_SHADE_5_GLASS_00_08",
+      "volume": 0.0017444229390811974,
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "components": 23,
+      "expected_slats": 23,
+      "outside_parent": 0,
+      "glass_clearance_range_m": [
+        0.12572771310806274,
+        0.13620437122881413
+      ]
+    },
+    {
+      "name": "R51_SHADE_5_GLASS_00_09",
+      "volume": 0.001744429172589083,
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "components": 23,
+      "expected_slats": 23,
+      "outside_parent": 0,
+      "glass_clearance_range_m": [
+        0.1257275938987732,
+        0.1362046990543604
+      ]
+    },
+    {
+      "name": "R51_SHADE_5_GLASS_00_10",
+      "volume": 0.0017444294311419882,
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "components": 23,
+      "expected_slats": 23,
+      "outside_parent": 0,
+      "glass_clearance_range_m": [
+        0.12572863698005676,
+        0.13620460964739323
+      ]
+    },
+    {
+      "name": "R51_SHADE_5_GLASS_00_11",
+      "volume": 0.0007360148123182891,
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "components": 21,
+      "expected_slats": 21,
+      "outside_parent": 0,
+      "glass_clearance_range_m": [
+        0.12572821974754333,
+        0.13620447926223278
+      ]
+    },
+    {
+      "name": "R51_SHADE_5_GLASS_01_01",
+      "volume": 0.0008161703643938722,
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "components": 22,
+      "expected_slats": 22,
+      "outside_parent": 0,
+      "glass_clearance_range_m": [
+        0.12572835385799408,
+        0.1362033374607563
+      ]
+    },
+    {
+      "name": "R51_SHADE_5_GLASS_01_02",
+      "volume": 0.0017757177292027993,
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "components": 23,
+      "expected_slats": 23,
+      "outside_parent": 0,
+      "glass_clearance_range_m": [
+        0.12572824209928513,
+        0.1362036019563675
+      ]
+    },
+    {
+      "name": "R51_SHADE_5_GLASS_01_03",
+      "volume": 0.0017757192407669067,
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "components": 23,
+      "expected_slats": 23,
+      "outside_parent": 0,
+      "glass_clearance_range_m": [
+        0.12572844326496124,
+        0.13620344549417496
+      ]
+    },
+    {
+      "name": "R51_SHADE_5_GLASS_01_04",
+      "volume": 0.001775717279597854,
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "components": 23,
+      "expected_slats": 23,
+      "outside_parent": 0,
+      "glass_clearance_range_m": [
+        0.12572842836380005,
+        0.1362038254737854
+      ]
+    },
+    {
+      "name": "R51_SHADE_5_GLASS_01_05",
+      "volume": 0.001775718674779065,
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "components": 23,
+      "expected_slats": 23,
+      "outside_parent": 0,
+      "glass_clearance_range_m": [
+        0.12572866678237915,
+        0.13620366156101227
+      ]
+    },
+    {
+      "name": "R51_SHADE_5_GLASS_01_06",
+      "volume": 0.00177571924076625,
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "components": 23,
+      "expected_slats": 23,
+      "outside_parent": 0,
+      "glass_clearance_range_m": [
+        0.12572820484638214,
+        0.1362030953168869
+      ]
+    },
+    {
+      "name": "R51_SHADE_5_GLASS_01_07",
+      "volume": 0.0017757169124050873,
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "components": 23,
+      "expected_slats": 23,
+      "outside_parent": 0,
+      "glass_clearance_range_m": [
+        0.1257280707359314,
+        0.13620349764823914
+      ]
+    },
+    {
+      "name": "R51_SHADE_5_GLASS_01_08",
+      "volume": 0.0017757289771520388,
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "components": 23,
+      "expected_slats": 23,
+      "outside_parent": 0,
+      "glass_clearance_range_m": [
+        0.12572845816612244,
+        0.13620328903198242
+      ]
+    },
+    {
+      "name": "R51_SHADE_5_GLASS_01_09",
+      "volume": 0.0017757323917176934,
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "components": 23,
+      "expected_slats": 23,
+      "outside_parent": 0,
+      "glass_clearance_range_m": [
+        0.1257283091545105,
+        0.13620370626449585
+      ]
+    },
+    {
+      "name": "R51_SHADE_5_GLASS_01_10",
+      "volume": 0.0008161773713255239,
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "components": 22,
+      "expected_slats": 22,
+      "outside_parent": 0,
+      "glass_clearance_range_m": [
+        0.1257288157939911,
+        0.1362035572528839
+      ]
+    },
+    {
+      "name": "R51_SHADE_5_GLASS_02_02",
+      "volume": 0.0008916116778638983,
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "components": 23,
+      "expected_slats": 23,
+      "outside_parent": 0,
+      "glass_clearance_range_m": [
+        0.12572810053825378,
+        0.13620342314243317
+      ]
+    },
+    {
+      "name": "R51_SHADE_5_GLASS_02_03",
+      "volume": 0.0017669381096571315,
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "components": 23,
+      "expected_slats": 23,
+      "outside_parent": 0,
+      "glass_clearance_range_m": [
+        0.12572833895683289,
+        0.1362033635377884
+      ]
+    },
+    {
+      "name": "R51_SHADE_5_GLASS_02_04",
+      "volume": 0.0017669276564038945,
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "components": 23,
+      "expected_slats": 23,
+      "outside_parent": 0,
+      "glass_clearance_range_m": [
+        0.1257283091545105,
+        0.13620352745056152
+      ]
+    },
+    {
+      "name": "R51_SHADE_5_GLASS_02_05",
+      "volume": 0.0017669383540547066,
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "components": 23,
+      "expected_slats": 23,
+      "outside_parent": 0,
+      "glass_clearance_range_m": [
+        0.12572868168354034,
+        0.13620346784591675
+      ]
+    },
+    {
+      "name": "R51_SHADE_5_GLASS_02_06",
+      "volume": 0.001766938235432643,
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "components": 23,
+      "expected_slats": 23,
+      "outside_parent": 0,
+      "glass_clearance_range_m": [
+        0.12572814524173737,
+        0.13620291650295258
+      ]
+    },
+    {
+      "name": "R51_SHADE_5_GLASS_02_07",
+      "volume": 0.001766927467739765,
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "components": 23,
+      "expected_slats": 23,
+      "outside_parent": 0,
+      "glass_clearance_range_m": [
+        0.12572790682315826,
+        0.13620328903198242
+      ]
+    },
+    {
+      "name": "R51_SHADE_5_GLASS_02_08",
+      "volume": 0.0017669502970847906,
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "components": 23,
+      "expected_slats": 23,
+      "outside_parent": 0,
+      "glass_clearance_range_m": [
+        0.12572818994522095,
+        0.13620322942733765
+      ]
+    },
+    {
+      "name": "R51_SHADE_5_GLASS_02_09",
+      "volume": 0.0008916180025143956,
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "components": 23,
+      "expected_slats": 23,
+      "outside_parent": 0,
+      "glass_clearance_range_m": [
+        0.12572821974754333,
+        0.13620316982269287
+      ]
+    },
+    {
+      "name": "R51_SHADE_5_GLASS_03_03",
+      "volume": 0.0009062822887393727,
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "components": 22,
+      "expected_slats": 22,
+      "outside_parent": 0,
+      "glass_clearance_range_m": [
+        0.1257285475730896,
+        0.1362038478255272
+      ]
+    },
+    {
+      "name": "R51_SHADE_5_GLASS_03_04",
+      "volume": 0.0016985125843730648,
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "components": 22,
+      "expected_slats": 22,
+      "outside_parent": 0,
+      "glass_clearance_range_m": [
+        0.1257285177707672,
+        0.13620391488075256
+      ]
+    },
+    {
+      "name": "R51_SHADE_5_GLASS_03_05",
+      "volume": 0.0016985127892515106,
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "components": 22,
+      "expected_slats": 22,
+      "outside_parent": 0,
+      "glass_clearance_range_m": [
+        0.12572887539863586,
+        0.1362038552761078
+      ]
+    },
+    {
+      "name": "R51_SHADE_5_GLASS_03_06",
+      "volume": 0.0016985140563851968,
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "components": 22,
+      "expected_slats": 22,
+      "outside_parent": 0,
+      "glass_clearance_range_m": [
+        0.1257283240556717,
+        0.136203333735466
+      ]
+    },
+    {
+      "name": "R51_SHADE_5_GLASS_03_07",
+      "volume": 0.0016985127730335583,
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "components": 22,
+      "expected_slats": 22,
+      "outside_parent": 0,
+      "glass_clearance_range_m": [
+        0.1257282793521881,
+        0.13620370626449585
+      ]
+    },
+    {
+      "name": "R51_SHADE_5_GLASS_03_08",
+      "volume": 0.0009062865026672748,
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "components": 22,
+      "expected_slats": 22,
+      "outside_parent": 0,
+      "glass_clearance_range_m": [
+        0.1257287859916687,
+        0.13620367646217346
+      ]
+    },
+    {
+      "name": "R51_SHADE_5_GLASS_04_04",
+      "volume": 0.0009906138836754663,
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "components": 23,
+      "expected_slats": 23,
+      "outside_parent": 0,
+      "glass_clearance_range_m": [
+        0.12572820484638214,
+        0.13620388507843018
+      ]
+    },
+    {
+      "name": "R51_SHADE_5_GLASS_04_05",
+      "volume": 0.0017690162503579774,
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "components": 23,
+      "expected_slats": 23,
+      "outside_parent": 0,
+      "glass_clearance_range_m": [
+        0.1257283240556717,
+        0.1362038254737854
+      ]
+    },
+    {
+      "name": "R51_SHADE_5_GLASS_04_06",
+      "volume": 0.0017690203235022246,
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "components": 23,
+      "expected_slats": 23,
+      "outside_parent": 0,
+      "glass_clearance_range_m": [
+        0.1257277876138687,
+        0.13620327413082123
+      ]
+    },
+    {
+      "name": "R51_SHADE_5_GLASS_04_07",
+      "volume": 0.0009906203353237805,
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "components": 23,
+      "expected_slats": 23,
+      "outside_parent": 0,
+      "glass_clearance_range_m": [
+        0.12572772800922394,
+        0.1362035721540451
+      ]
+    },
+    {
+      "name": "R51_SHADE_5_GLASS_05_05",
+      "volume": 0.0010695469446260738,
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "components": 23,
+      "expected_slats": 23,
+      "outside_parent": 0,
+      "glass_clearance_range_m": [
+        0.12572842836380005,
+        0.13620375096797943
+      ]
+    },
+    {
+      "name": "R51_SHADE_5_GLASS_05_06",
+      "volume": 0.0010695487534580982,
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "components": 23,
+      "expected_slats": 23,
+      "outside_parent": 0,
+      "glass_clearance_range_m": [
+        0.12572813034057617,
+        0.13620372116565704
+      ]
+    },
+    {
+      "name": "R51_SHADE_7_GLASS_00_00",
+      "volume": 0.0007361510421461217,
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "components": 21,
+      "expected_slats": 21,
+      "outside_parent": 0,
+      "glass_clearance_range_m": [
+        0.1257285177707672,
+        0.13620256446301937
+      ]
+    },
+    {
+      "name": "R51_SHADE_7_GLASS_00_01",
+      "volume": 0.0017447072115970997,
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "components": 23,
+      "expected_slats": 23,
+      "outside_parent": 0,
+      "glass_clearance_range_m": [
+        0.12572851032018661,
+        0.13620251417160034
+      ]
+    },
+    {
+      "name": "R51_SHADE_7_GLASS_00_02",
+      "volume": 0.0017447086654138397,
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "components": 23,
+      "expected_slats": 23,
+      "outside_parent": 0,
+      "glass_clearance_range_m": [
+        0.1257285326719284,
+        0.13620252907276154
+      ]
+    },
+    {
+      "name": "R51_SHADE_7_GLASS_00_03",
+      "volume": 0.0017447059114583756,
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "components": 23,
+      "expected_slats": 23,
+      "outside_parent": 0,
+      "glass_clearance_range_m": [
+        0.1257285624742508,
+        0.13620256632566452
+      ]
+    },
+    {
+      "name": "R51_SHADE_7_GLASS_00_04",
+      "volume": 0.0017447142926210319,
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "components": 23,
+      "expected_slats": 23,
+      "outside_parent": 0,
+      "glass_clearance_range_m": [
+        0.1257285326719284,
+        0.13620254397392273
+      ]
+    },
+    {
+      "name": "R51_SHADE_7_GLASS_00_05",
+      "volume": 0.0017447148401784109,
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "components": 23,
+      "expected_slats": 23,
+      "outside_parent": 0,
+      "glass_clearance_range_m": [
+        0.1257285177707672,
+        0.13620249927043915
+      ]
+    },
+    {
+      "name": "R51_SHADE_7_GLASS_00_06",
+      "volume": 0.001744712888508513,
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "components": 23,
+      "expected_slats": 23,
+      "outside_parent": 0,
+      "glass_clearance_range_m": [
+        0.12572848796844482,
+        0.13620252907276154
+      ]
+    },
+    {
+      "name": "R51_SHADE_7_GLASS_00_07",
+      "volume": 0.0017447055812435282,
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "components": 23,
+      "expected_slats": 23,
+      "outside_parent": 0,
+      "glass_clearance_range_m": [
+        0.12572850286960602,
+        0.13620251417160034
+      ]
+    },
+    {
+      "name": "R51_SHADE_7_GLASS_00_08",
+      "volume": 0.001744704788338448,
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "components": 23,
+      "expected_slats": 23,
+      "outside_parent": 0,
+      "glass_clearance_range_m": [
+        0.1257285326719284,
+        0.13620248436927795
+      ]
+    },
+    {
+      "name": "R51_SHADE_7_GLASS_00_09",
+      "volume": 0.0017447045199639345,
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "components": 23,
+      "expected_slats": 23,
+      "outside_parent": 0,
+      "glass_clearance_range_m": [
+        0.1257285177707672,
+        0.13620254397392273
+      ]
+    },
+    {
+      "name": "R51_SHADE_7_GLASS_00_10",
+      "volume": 0.0017447070657318723,
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "components": 23,
+      "expected_slats": 23,
+      "outside_parent": 0,
+      "glass_clearance_range_m": [
+        0.12572848796844482,
+        0.13620251417160034
+      ]
+    },
+    {
+      "name": "R51_SHADE_7_GLASS_00_11",
+      "volume": 0.0007361414768729964,
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "components": 21,
+      "expected_slats": 21,
+      "outside_parent": 0,
+      "glass_clearance_range_m": [
+        0.1257285177707672,
+        0.13620254397392273
+      ]
+    },
+    {
+      "name": "R51_SHADE_7_GLASS_01_01",
+      "volume": 0.0008163101188863916,
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "components": 22,
+      "expected_slats": 22,
+      "outside_parent": 0,
+      "glass_clearance_range_m": [
+        0.12572862952947617,
+        0.13620314374566078
+      ]
+    },
+    {
+      "name": "R51_SHADE_7_GLASS_01_02",
+      "volume": 0.0017760454450132992,
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "components": 23,
+      "expected_slats": 23,
+      "outside_parent": 0,
+      "glass_clearance_range_m": [
+        0.12572862207889557,
+        0.1362031027674675
+      ]
+    },
+    {
+      "name": "R51_SHADE_7_GLASS_01_03",
+      "volume": 0.0017760490327986562,
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "components": 23,
+      "expected_slats": 23,
+      "outside_parent": 0,
+      "glass_clearance_range_m": [
+        0.12572860717773438,
+        0.13620296120643616
+      ]
+    },
+    {
+      "name": "R51_SHADE_7_GLASS_01_04",
+      "volume": 0.0017760631915662989,
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "components": 23,
+      "expected_slats": 23,
+      "outside_parent": 0,
+      "glass_clearance_range_m": [
+        0.12572862207889557,
+        0.13620303571224213
+      ]
+    },
+    {
+      "name": "R51_SHADE_7_GLASS_01_05",
+      "volume": 0.0017760692726735607,
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "components": 23,
+      "expected_slats": 23,
+      "outside_parent": 0,
+      "glass_clearance_range_m": [
+        0.1257285475730896,
+        0.13620302081108093
+      ]
+    },
+    {
+      "name": "R51_SHADE_7_GLASS_01_06",
+      "volume": 0.0017760722529842933,
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "components": 23,
+      "expected_slats": 23,
+      "outside_parent": 0,
+      "glass_clearance_range_m": [
+        0.12572850286960602,
+        0.1362031251192093
+      ]
+    },
+    {
+      "name": "R51_SHADE_7_GLASS_01_07",
+      "volume": 0.0017760677764201947,
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "components": 23,
+      "expected_slats": 23,
+      "outside_parent": 0,
+      "glass_clearance_range_m": [
+        0.12572848796844482,
+        0.1362030804157257
+      ]
+    },
+    {
+      "name": "R51_SHADE_7_GLASS_01_08",
+      "volume": 0.0017760653348903779,
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "components": 23,
+      "expected_slats": 23,
+      "outside_parent": 0,
+      "glass_clearance_range_m": [
+        0.12572848796844482,
+        0.13620319962501526
+      ]
+    },
+    {
+      "name": "R51_SHADE_7_GLASS_01_09",
+      "volume": 0.001776070313698034,
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "components": 23,
+      "expected_slats": 23,
+      "outside_parent": 0,
+      "glass_clearance_range_m": [
+        0.12572848796844482,
+        0.13620316982269287
+      ]
+    },
+    {
+      "name": "R51_SHADE_7_GLASS_01_10",
+      "volume": 0.0008163345223356248,
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "components": 22,
+      "expected_slats": 22,
+      "outside_parent": 0,
+      "glass_clearance_range_m": [
+        0.12572845816612244,
+        0.13620302081108093
+      ]
+    },
+    {
+      "name": "R51_SHADE_7_GLASS_02_02",
+      "volume": 0.0008917945586509982,
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "components": 23,
+      "expected_slats": 23,
+      "outside_parent": 0,
+      "glass_clearance_range_m": [
+        0.1257288157939911,
+        0.13620419800281525
+      ]
+    },
+    {
+      "name": "R51_SHADE_7_GLASS_02_03",
+      "volume": 0.0017672809013842047,
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "components": 23,
+      "expected_slats": 23,
+      "outside_parent": 0,
+      "glass_clearance_range_m": [
+        0.12572894990444183,
+        0.1362043023109436
+      ]
+    },
+    {
+      "name": "R51_SHADE_7_GLASS_02_04",
+      "volume": 0.0017672899770475401,
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "components": 23,
+      "expected_slats": 23,
+      "outside_parent": 0,
+      "glass_clearance_range_m": [
+        0.12572872638702393,
+        0.13620413839817047
+      ]
+    },
+    {
+      "name": "R51_SHADE_7_GLASS_02_05",
+      "volume": 0.001767296607080436,
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "components": 23,
+      "expected_slats": 23,
+      "outside_parent": 0,
+      "glass_clearance_range_m": [
+        0.1257288008928299,
+        0.13620412349700928
+      ]
+    },
+    {
+      "name": "R51_SHADE_7_GLASS_02_06",
+      "volume": 0.0017672960377349833,
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "components": 23,
+      "expected_slats": 23,
+      "outside_parent": 0,
+      "glass_clearance_range_m": [
+        0.12572887539863586,
+        0.13620421290397644
+      ]
+    },
+    {
+      "name": "R51_SHADE_7_GLASS_02_07",
+      "volume": 0.0017672921135851206,
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "components": 23,
+      "expected_slats": 23,
+      "outside_parent": 0,
+      "glass_clearance_range_m": [
+        0.12572896480560303,
+        0.13620418310165405
+      ]
+    },
+    {
+      "name": "R51_SHADE_7_GLASS_02_08",
+      "volume": 0.0017672915344680677,
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "components": 23,
+      "expected_slats": 23,
+      "outside_parent": 0,
+      "glass_clearance_range_m": [
+        0.12572884559631348,
+        0.13620424270629883
+      ]
+    },
+    {
+      "name": "R51_SHADE_7_GLASS_02_09",
+      "volume": 0.0008918002402059273,
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "components": 23,
+      "expected_slats": 23,
+      "outside_parent": 0,
+      "glass_clearance_range_m": [
+        0.12572899460792542,
+        0.13620427250862122
+      ]
+    },
+    {
+      "name": "R51_SHADE_7_GLASS_03_03",
+      "volume": 0.0009064650410144522,
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "components": 22,
+      "expected_slats": 22,
+      "outside_parent": 0,
+      "glass_clearance_range_m": [
+        0.12572959065437317,
+        0.13620465993881226
+      ]
+    },
+    {
+      "name": "R51_SHADE_7_GLASS_03_04",
+      "volume": 0.0016988657404213674,
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "components": 22,
+      "expected_slats": 22,
+      "outside_parent": 0,
+      "glass_clearance_range_m": [
+        0.1257295310497284,
+        0.13620460033416748
+      ]
+    },
+    {
+      "name": "R51_SHADE_7_GLASS_03_05",
+      "volume": 0.0016988694373751625,
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "components": 22,
+      "expected_slats": 22,
+      "outside_parent": 0,
+      "glass_clearance_range_m": [
+        0.12572939693927765,
+        0.13620468974113464
+      ]
+    },
+    {
+      "name": "R51_SHADE_7_GLASS_03_06",
+      "volume": 0.0016988681242416526,
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "components": 22,
+      "expected_slats": 22,
+      "outside_parent": 0,
+      "glass_clearance_range_m": [
+        0.12572947144508362,
+        0.1362045258283615
+      ]
+    },
+    {
+      "name": "R51_SHADE_7_GLASS_03_07",
+      "volume": 0.0016988638689644474,
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "components": 22,
+      "expected_slats": 22,
+      "outside_parent": 0,
+      "glass_clearance_range_m": [
+        0.125729501247406,
+        0.1362045258283615
+      ]
+    },
+    {
+      "name": "R51_SHADE_7_GLASS_03_08",
+      "volume": 0.0009064677052000188,
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "components": 22,
+      "expected_slats": 22,
+      "outside_parent": 0,
+      "glass_clearance_range_m": [
+        0.12572962045669556,
+        0.13620460033416748
+      ]
+    },
+    {
+      "name": "R51_SHADE_7_GLASS_04_04",
+      "volume": 0.000990828132961711,
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "components": 23,
+      "expected_slats": 23,
+      "outside_parent": 0,
+      "glass_clearance_range_m": [
+        0.12572921812534332,
+        0.136204332113266
+      ]
+    },
+    {
+      "name": "R51_SHADE_7_GLASS_04_05",
+      "volume": 0.0017693910546893801,
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "components": 23,
+      "expected_slats": 23,
+      "outside_parent": 0,
+      "glass_clearance_range_m": [
+        0.12572932243347168,
+        0.13620463013648987
+      ]
+    },
+    {
+      "name": "R51_SHADE_7_GLASS_04_06",
+      "volume": 0.0017693903843688033,
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "components": 23,
+      "expected_slats": 23,
+      "outside_parent": 0,
+      "glass_clearance_range_m": [
+        0.12572908401489258,
+        0.1362045258283615
+      ]
+    },
+    {
+      "name": "R51_SHADE_7_GLASS_04_07",
+      "volume": 0.0009908217846315856,
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "components": 23,
+      "expected_slats": 23,
+      "outside_parent": 0,
+      "glass_clearance_range_m": [
+        0.12572918832302094,
+        0.13620442152023315
+      ]
+    },
+    {
+      "name": "R51_SHADE_7_GLASS_05_05",
+      "volume": 0.0010697435953221012,
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "components": 23,
+      "expected_slats": 23,
+      "outside_parent": 0,
+      "glass_clearance_range_m": [
+        0.12572908401489258,
+        0.136204794049263
+      ]
+    },
+    {
+      "name": "R51_SHADE_7_GLASS_05_06",
+      "volume": 0.0010697430668664331,
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "components": 23,
+      "expected_slats": 23,
+      "outside_parent": 0,
+      "glass_clearance_range_m": [
+        0.12572915852069855,
+        0.13620460033416748
+      ]
+    }
+  ],
+  "slat_count": 3816,
+  "failures": [],
+  "construction_acceptance": false
+}

@@ -110,10 +110,18 @@ def publish():
   if e['id'] in r['file']:
    for t in data['tasks']:
     if t['id'] in e['tasks']:t.update(status='in_progress',artifacts=[r['file'],'12_Blender_Model/reports/'+e['report']],open_issues=[e['description']+' '+e['limits']])
+ if (B/'reports/P20_viewer_verification.json').exists():
+  v=json.loads((B/'reports/P20_viewer_verification.json').read_text())
+  if not v['failures']:
+   for t in data['tasks']:
+    if t['id']=='P20':t.update(status='in_progress',artifacts=['12_Blender_Model/MODEL_INCELEME.html','12_Blender_Model/PLAN_KONTROL.html'],open_issues=['Üç kat kot aralığı, yatay/düşey canlı kesit, parça-kaynak seçimi ve tek parça görünümü mevcut. Kesit yüzleri kapaksız; kat kotları koşullu; bina kabulü yapılmadı.'])
  data['current_tasks']=[t['id'] for t in data['tasks'] if t['status']=='in_progress'];p.write_text(json.dumps(data,ensure_ascii=False,indent=2)+'\n',encoding='utf8')
  latest=Path(r['file']).relative_to('12_Blender_Model').as_posix();glb=Path(q21['file']).relative_to('12_Blender_Model').as_posix();p=B/'URETIM.html';s=p.read_text(encoding='utf8');s=re.sub(r'href="scenes/[^\"]+\.blend"',f'href="{latest}"',s);s=s.replace('P06 - P12 / BÖLGESEL ÜRETİM','P06–P21 / BÖLGESEL ÜRETİM VE KONTROL');s=s.replace('renders/qa/P12_entry_detail.png','renders/qa/P19_entry_daylight.png').replace('renders/qa/P11_116.png','renders/qa/P19_116_daylight.png')
+ if (B/'MODEL_INCELEME.html').exists() and 'MODEL_INCELEME.html' not in s:s=s.replace('</nav>','<a href="MODEL_INCELEME.html">Canlı 3B / kat / kesit</a></nav>')
  s=re.sub(r'href="exports/[^"]+\.glb"',f'href="{glb}"',s)
  s=s.replace('</nav>',f'<a href="PLAN_KONTROL.html">Model / plan kesitleri</a><a href="{glb}">GLB önizleme</a></nav>') if 'Model / plan kesitleri' not in s else s
+ s=s.replace('Merdivenin tam kolu, birçok cephe açıklığı ve arazi henüz tamamlanmadı.','Merdiven kolları üretildi; birçok cephe açıklığı, arazi kotu ve ayrıntının doğrulaması hâlâ açık.')
+ if 'historical-checkpoints' not in s:s=s.replace('</nav>','</nav><p class="note" id="historical-checkpoints">Aşağıdaki görseller üretimin farklı aşamalarındaki kontrol kayıtlarıdır. Bir kartın eski eksik notu sonraki revizyonda çözülmüş olabilir. Güncel birleşik sahneyi Canlı 3B bağlantısından inceleyin.</p>')
  s=s.replace('013 yakın çekimindeki düz cam kanatlar','013/014 yakın çekimlerindeki iki sıra düz cam kanat');s=s.replace('iki pivotlu kanat yalnız düzenlenebilir mekanizma adayıdır','dört pivotlu kanat yalnız düzenlenebilir mekanizma adayıdır')
  block='''<section class="panel" id="reading-progress"><h2>Üst kat boşluğu ve cam korkuluk</h2><img src="renders/qa/P19_reading_daylight.png" alt="Okuma alanındaki üst kat boşluğu ve cam korkuluk adayı"><p>103 planındaki kare döşeme boşluğu, 015/016 fotoğraflarıyla birlikte işlendi. Çatı açıklığı bağımsız parametredir. 45 kapalı hacim ve 15 düşey ışın kontrolü geçti. Eğimli tavan ve 24 kollu aydınlatma R08, oda duvarları ve geçişleri R09 ile eklendi; kesin ölçüler ve bitişler açık.</p><p><a href="reports/P15_P17_OKUMA_BOSLUGU_RAPORU.md">Boşluk ve korkuluk raporu</a> · <a href="reports/P19_P21_ONIZLEME_RAPORU.md">Malzeme, kesit ve GLB kontrolleri</a></p></section>'''
  states={'complete':'Tamam','complete_with_documented_gaps':'Eksikler belgeli','in_progress':'Sürüyor','not_started':'Açık'}

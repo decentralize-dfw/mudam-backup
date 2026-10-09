@@ -1,0 +1,67 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R48_KUPESTE_BIRLESIMI_v002.blend",
+  "closed_solids": [
+    {
+      "name": "R48_CONTINUOUS_RAIL_INNER",
+      "volume": 0.03503683831196759,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R48_CONTINUOUS_RAIL_OUTER",
+      "volume": 0.025676348560975795,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R05_GLASS_INNER_11",
+      "volume": 0.0109949157973184,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R05_GLASS_OUTER_11",
+      "volume": 0.018303297257508677,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R05_GROUND_EDGE_GLASS_11",
+      "volume": 0.024750783321542347,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R05_GROUND_EDGE_GLASS_12",
+      "volume": 0.011006407494596915,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R05_GROUND_EDGE_GLASS_13",
+      "volume": 0.021475625208002558,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    }
+  ],
+  "joins": [
+    {
+      "side": "INNER",
+      "radius_error_m": 2.5183593691385786e-06,
+      "retained_rail_vertex_error_m": 0.0,
+      "minimum_longitudinal_advance_m": 0.00937860547855962,
+      "continuous_rings": 365,
+      "original_centerline_gap_m": 0.04499931308139329
+    },
+    {
+      "side": "OUTER",
+      "radius_error_m": 2.6995085658509943e-06,
+      "retained_rail_vertex_error_m": 0.0,
+      "minimum_longitudinal_advance_m": 0.007356084999628365,
+      "continuous_rings": 221,
+      "original_centerline_gap_m": 0.04500010293213943
+    }
+  ],
+  "failures": [],
+  "construction_acceptance": false
+}

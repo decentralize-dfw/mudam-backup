@@ -4,7 +4,7 @@
 
 ## Güncel teslim
 
-[MUDAM_R47_OKUMA_ISIKLIGI_v002.blend](scenes/MUDAM_R47_OKUMA_ISIKLIGI_v002.blend) giriş, çatı ve merdiven çalışmalarını birlikte içerir. [Görsel inceleme](URETIM.html) · [Üretim raporu](reports/P07_P09_URETIM_RAPORU.md).
+[MUDAM_R51_ANA_CATI_GOLGELIK_v001.blend](scenes/MUDAM_R51_ANA_CATI_GOLGELIK_v001.blend) giriş, çatı ve merdiven çalışmalarını birlikte içerir. [Görsel inceleme](URETIM.html) · [Üretim raporu](reports/P07_P09_URETIM_RAPORU.md).
 
 | Paket | Durum | Somut çıktı / açık konu |
 | --- | --- | --- |
@@ -101,3 +101,13 @@ R35 güncel sahne; R29–R35 bölgesel sahneler, kaynak/varsayım kayıtları ve
 2026-10-09 03:46 UTC — R36–R43 ara üretim: koşullu cephe başlık kotu; üst geçit başlığı ve açıklık düzeltmesi; park bağlantıları/19 OSM ağacı; giriş tavan sürekliliği; ortak mesh verisi; Grand Hall çatı lamelleri; taş döşeme yüzeyleri. R40 alt cephe pencereleri duvara oturmadığı için reddedildi. R41 ile GLB34,62→27,14MB; sonraki detaylar ayrıca eklendi. Tam bina tamamlanmadı. A01 cephe/oda,A04 arazi,A06 alt pencere ve A07 fotoğraf köşe kimliği açık; rutin onay beklemeden üretim sürüyor.
 
 - 2026-10-09 06:04:22 UTC — `6687c42` origin/main normal push doğrulandı; HEAD ve origin/main eşleşiyor. R44–R47 sahneleri, kontroller, renderlar ve30.603.316 bayt GLB (6782 mesh,775276 üçgen) gönderildi. Önceki push03:48:52 UTC; saatlik hedef aralığı bu kayıtta aşıldı. Paris08:00 durum raporu modelin tamamlanmadığını açıkça kaydeder. Üretim kat ayırma/canlı kesit ve kalan mimari kontrollerle devam ediyor.
+
+## P20 canlı inceleme · 9 Ekim 2026
+
+[Canlı 3B inceleme](MODEL_INCELEME.html): üç kat aralığı, yatay/düşey kesit, kesilmiş yüzlerin seçimden elenmesi ve parça-kaynak bağlantıları doğrulandı. Geometri değişmedi. [Kontrol raporu](reports/P20_CANLI_INCELEME_RAPORU.md). Model üretimi sürüyor.
+
+
+2026-10-09 06:50 UTC civarı — R48 v002 iki küpeşte kopukluğu ve beş cam üst bitişi; R49 v001 35 mineral/42 metal yüzey; R50 v001 Grand Hall 20 silindir armatürü üretildi. R48 ilk sürümü görsel kontrolde reddedildi. Her yeni sahne yeniden açılıp denetlendi; R50 genel denetiminde 6.892 görünür mesh, sıfır açık/sayısal bulgu. Boyut/ankraj ve malzeme adayları raporlarda ayrı; bütün bina tamamlanmadı.
+
+
+2026-10-09 06:54:15 UTC — R51 v001: ana çatının dört geniş yüzüne 168 dizi/3.816 lamel eklendi. 028/029 ile alan ayrımı kontrol edildi; adım ve imalat ölçüleri koşullu. Yeniden açma, önceki geometri, panel sınırı ve genel kapalı mesh denetimleri geçti. Görsel kontrol üç bakışta yapıldı; üretim sürüyor.

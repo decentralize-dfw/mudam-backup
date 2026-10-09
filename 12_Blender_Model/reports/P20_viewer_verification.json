@@ -1,0 +1,33 @@
+{
+  "file": "12_Blender_Model/exports/MUDAM_R47_OKUMA_ISIKLIGI_v002_preview.glb",
+  "tested_source_scene": "12_Blender_Model/scenes/MUDAM_R47_OKUMA_ISIKLIGI_v002.blend",
+  "utc": "2026-10-09T06:18:08.763137+00:00",
+  "tests": [
+    "three floor bands",
+    "horizontal numeric cut",
+    "east vertical cut and reversal",
+    "metadata/source links",
+    "name search and isolated selection",
+    "clipped ceiling does not intercept R29_W_FLOOR click",
+    "node core coordinate and clipping assertions"
+  ],
+  "browser_errors": [],
+  "screenshot": "12_Blender_Model/renders/qa/P20_live_ground_section.jpg",
+  "failures": [],
+  "architectural_acceptance": false,
+  "latest_scene_selection_check": {
+    "scene": "MUDAM_R50_GRAND_HALL_ARMATUR_v001.blend",
+    "mesh_count": 6892,
+    "selected": "R50_HOUSING_0_0",
+    "source_links": [
+      "028",
+      "029",
+      "102",
+      "101"
+    ],
+    "revision_report": "R50_KONTROL_RAPORU.md",
+    "focus_and_isolation": true,
+    "console_warnings_errors": [],
+    "screenshot": "12_Blender_Model/renders/qa/P20_R50_source_selection.jpg"
+  }
+}

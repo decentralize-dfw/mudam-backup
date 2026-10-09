@@ -83,3 +83,13 @@ Push sonrasında üretim sürdü. 089 ile pavyon kulesinin sekizgen taslağı d�
 - 2026-10-09 03:48:52 UTC — c7ac571 origin/main normal push başarılı (856b802 → c7ac571). R36–R43 doğrulanmış sahneleri, kaynaklar, renderlar ve 29.790.956 bayt GLB (6796 mesh,6 paketli harita) gönderildi. R40 alt cephe denemesi reddedilmiş araştırma olarak ayrıldı; 045 köşe kimliği açık kayıtta. Push sonrasında bütün görünür sahnenin R44 geometri taraması başlatıldı; üretim sürüyor.
 
 - 2026-10-09 06:04:22 UTC — `6687c42` origin/main normal push doğrulandı; HEAD ve origin/main eşleşiyor. R44–R47 sahneleri, kontroller, renderlar ve30.603.316 bayt GLB (6782 mesh,775276 üçgen) gönderildi. Önceki push03:48:52 UTC; saatlik hedef aralığı bu kayıtta aşıldı. Paris08:00 durum raporu modelin tamamlanmadığını açıkça kaydeder. Üretim kat ayırma/canlı kesit ve kalan mimari kontrollerle devam ediyor.
+
+## P20 canlı inceleme · 9 Ekim 2026
+
+[Canlı 3B inceleme](MODEL_INCELEME.html): üç kat aralığı, yatay/düşey kesit, kesilmiş yüzlerin seçimden elenmesi ve parça-kaynak bağlantıları doğrulandı. Geometri değişmedi. [Kontrol raporu](reports/P20_CANLI_INCELEME_RAPORU.md). Model üretimi sürüyor.
+
+
+2026-10-09 06:50 UTC civarı — R48 v002 iki küpeşte kopukluğu ve beş cam üst bitişi; R49 v001 35 mineral/42 metal yüzey; R50 v001 Grand Hall 20 silindir armatürü üretildi. R48 ilk sürümü görsel kontrolde reddedildi. Her yeni sahne yeniden açılıp denetlendi; R50 genel denetiminde 6.892 görünür mesh, sıfır açık/sayısal bulgu. Boyut/ankraj ve malzeme adayları raporlarda ayrı; bütün bina tamamlanmadı.
+
+
+2026-10-09 06:54:15 UTC — R51 v001: ana çatının dört geniş yüzüne 168 dizi/3.816 lamel eklendi. 028/029 ile alan ayrımı kontrol edildi; adım ve imalat ölçüleri koşullu. Yeniden açma, önceki geometri, panel sınırı ve genel kapalı mesh denetimleri geçti. Görsel kontrol üç bakışta yapıldı; üretim sürüyor.

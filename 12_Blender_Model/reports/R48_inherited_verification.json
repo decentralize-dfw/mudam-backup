@@ -1,0 +1,38 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R48_KUPESTE_BIRLESIMI_v002.blend",
+  "base_scene": "12_Blender_Model/scenes/MUDAM_R47_OKUMA_ISIKLIGI_v002.blend",
+  "inherited_objects_checked": 7418,
+  "changed_inherited_objects": [
+    "R05_ROUND_RAIL_INNER",
+    "R05_GLASS_INNER_11",
+    "R05_ROUND_RAIL_OUTER",
+    "R05_GLASS_OUTER_11",
+    "R05_GROUND_EDGE_TOP_RAIL_0",
+    "R05_GROUND_EDGE_GLASS_11",
+    "R05_GROUND_EDGE_TOP_RAIL_1",
+    "R05_GROUND_EDGE_GLASS_12",
+    "R05_GROUND_EDGE_TOP_RAIL_2",
+    "R05_GROUND_EDGE_GLASS_13",
+    "R05_GROUND_EDGE_TOP_RAIL_3"
+  ],
+  "allowed_changes": [
+    "R05_GLASS_INNER_11",
+    "R05_GLASS_OUTER_11",
+    "R05_GROUND_EDGE_GLASS_11",
+    "R05_GROUND_EDGE_GLASS_12",
+    "R05_GROUND_EDGE_GLASS_13",
+    "R05_GROUND_EDGE_TOP_RAIL_0",
+    "R05_GROUND_EDGE_TOP_RAIL_1",
+    "R05_GROUND_EDGE_TOP_RAIL_2",
+    "R05_GROUND_EDGE_TOP_RAIL_3",
+    "R05_ROUND_RAIL_INNER",
+    "R05_ROUND_RAIL_OUTER"
+  ],
+  "allowed_but_unchanged": [],
+  "new_objects": [
+    "R48_CONTINUOUS_RAIL_INNER",
+    "R48_CONTINUOUS_RAIL_OUTER"
+  ],
+  "failures": [],
+  "construction_acceptance": false
+}

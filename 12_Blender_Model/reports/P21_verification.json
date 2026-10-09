@@ -1,8 +1,8 @@
 {
-  "file": "12_Blender_Model/exports/MUDAM_R47_OKUMA_ISIKLIGI_v002_preview.glb",
-  "size_bytes": 30603316,
-  "mesh_nodes": 6782,
-  "triangles": 775276,
+  "file": "12_Blender_Model/exports/MUDAM_R51_ANA_CATI_GOLGELIK_v001_preview.glb",
+  "size_bytes": 33842004,
+  "mesh_nodes": 7060,
+  "triangles": 850676,
   "world_bounds_glTF": [
     [
       -42.32527542114258,
@@ -129,6 +129,20 @@
       "image": "R32_limestone_candidate_normal",
       "uv_attribute": "TEXCOORD_0",
       "primitive_count": 7
+    },
+    {
+      "material": "R49_MINERAL_APPEARANCE_CANDIDATE",
+      "usage": "basecolor",
+      "image": "R46_stone_grain_candidate_basecolor",
+      "uv_attribute": "TEXCOORD_0",
+      "primitive_count": 35
+    },
+    {
+      "material": "R49_MINERAL_APPEARANCE_CANDIDATE",
+      "usage": "normal",
+      "image": "R46_stone_grain_candidate_normal",
+      "uv_attribute": "TEXCOORD_0",
+      "primitive_count": 35
     },
     {
       "material": "R43_STONE_FLOOR_APPEARANCE_CANDIDATE",

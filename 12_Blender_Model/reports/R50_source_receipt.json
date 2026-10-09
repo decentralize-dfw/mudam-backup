@@ -1,0 +1,46 @@
+{
+  "sources": [
+    {
+      "id": "028",
+      "path": "07_Yapi_Detaylari/Cam_Cati_ve_Struktur/028_Cam_cati_celik_tasiyici_ve_birlesim_WikiArquitectura.jpg",
+      "sha256": "dd7463181dc2ea677746f45d6acf6bb93394ddd8696c1821d7c534c9c9853541",
+      "source_url": "https://es.wikiarquitectura.com/edificio/museo-de-arte-moderno-grand-duc-jean-mudam/",
+      "credit": "WikiArquitectura; sayfadaki fotoğraf serisi Haziran 2019",
+      "source_date": "unknown; do not infer from download date",
+      "modified": false
+    },
+    {
+      "id": "029",
+      "path": "07_Yapi_Detaylari/Cam_Cati_ve_Struktur/029_Cam_cati_celik_tasiyici_ve_birlesim_WikiArquitectura.jpg",
+      "sha256": "95c96d026767c4ce54e13dc3900dcaf1352d7e3e3e6bcd3ee494a97a40531b64",
+      "source_url": "https://es.wikiarquitectura.com/edificio/museo-de-arte-moderno-grand-duc-jean-mudam/",
+      "credit": "WikiArquitectura; sayfadaki fotoğraf serisi Haziran 2019",
+      "source_date": "unknown; do not infer from download date",
+      "modified": false
+    },
+    {
+      "id": "101",
+      "path": "02_Kesitler/101_Mimari_kesit_ArchEyes.jpg",
+      "sha256": "399ce49f286dbbf4e7472e42a278bf236d55f58fdd297d3302f6037dbe5bfc20",
+      "source_url": "https://archeyes.com/the-mudam-by-i-m-pei-where-old-meets-new/",
+      "credit": "I. M. Pei (çizim; kaynak atfı)",
+      "source_date": "unknown; do not infer from download date",
+      "modified": false
+    },
+    {
+      "id": "102",
+      "path": "01_Kat_Planlari/Resmi_Kat_Semalari/102_Resmi_kat_semasi_zemin_0_Mudam.jpeg",
+      "sha256": "f4d1d1992e1e2d664d5bf5fddd6aedd760edb2931f398e52b5e13316acec2407",
+      "source_url": "https://www.mudam.com/fr/floor-plans",
+      "credit": "Mudam Luxembourg; kullanıcı tarafından verilen doğrudan bağlantı",
+      "source_date": "unknown; do not infer from download date",
+      "modified": false
+    }
+  ],
+  "limits": [
+    "028 directly shows 20 lenses in four 5-cylinder crosses and four collars. 029 supports suspension below the central glazed roof. Plan102 and section101 constrain only inherited building context.",
+    "Module, diameter, height, hanging elevation, metal finish and exact support cross sections are unmeasured visual candidates. One central fixture only; cropped peripheral cylinders do not prove additional clusters.",
+    "Four suspension lines contact existing roof metal vertices in this model. Their exact real anchors and hidden connection details cannot be identified from these sources; no engineering or fabrication acceptance.",
+    "No calibrated light output, IES, electrical specification, alloy or luminaire manufacturer is inferred."
+  ]
+}
