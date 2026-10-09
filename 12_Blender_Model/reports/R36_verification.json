@@ -1,0 +1,333 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R36_CEPHE_BASLIK_KONTROL_v003.blend",
+  "failures": [],
+  "evaluated_solids": [
+    {
+      "name": "R27_CONTINUOUS_HEAD",
+      "volume": 531.7990161938611,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R27_BAY_1_END_RETURN",
+      "volume": 12.918693610947734,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R27_BAY_1_BLIND_BACK",
+      "volume": 11.67246421863516,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R27_BAY_2_SLOPING_PIER",
+      "volume": 2.2061444941423147,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R27_BAY_2_PIER_SHOULDER",
+      "volume": 0.5391997393626523,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R27_BAY_2_PIER_BASE",
+      "volume": 2.837575731755898,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R27_BAY_2_BASE",
+      "volume": 7.190366658801347,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R27_BAY_2_FRAME_L",
+      "volume": 0.02830788981071583,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R27_BAY_2_FRAME_R",
+      "volume": 0.028307749939951554,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R27_BAY_2_FRAME_B",
+      "volume": 0.03191969679755893,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R27_BAY_2_FRAME_T",
+      "volume": 0.03191966282323805,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R27_BAY_2_GLASS",
+      "volume": 0.212758789077388,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R27_BAY_3_SLOPING_PIER",
+      "volume": 2.2242287371790828,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R27_BAY_3_PIER_SHOULDER",
+      "volume": 0.543619652010596,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R27_BAY_3_PIER_BASE",
+      "volume": 2.8608361373039157,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R27_BAY_3_BLIND_BACK",
+      "volume": 11.672462868756412,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R27_BAY_4_SLOPING_PIER",
+      "volume": 2.3508089052770424,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R27_BAY_4_PIER_SHOULDER",
+      "volume": 0.5745568870611013,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R27_BAY_4_PIER_BASE",
+      "volume": 3.023645154677399,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R27_BAY_4_BASE",
+      "volume": 7.19036839102983,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R27_BAY_4_FRAME_L",
+      "volume": 0.02830774993995311,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R27_BAY_4_FRAME_R",
+      "volume": 0.02830774993995222,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R27_BAY_4_FRAME_B",
+      "volume": 0.031919704765802304,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R27_BAY_4_FRAME_T",
+      "volume": 0.031919670791488094,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R27_BAY_4_GLASS",
+      "volume": 0.2127590584639304,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R27_BAY_5_SLOPING_PIER",
+      "volume": 2.2423110984133006,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R27_BAY_5_PIER_SHOULDER",
+      "volume": 0.5480391366640216,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R27_BAY_5_PIER_BASE",
+      "volume": 2.8840936684675764,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R27_BAY_5_BLIND_BACK",
+      "volume": 11.672461404938954,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R27_END_PIER",
+      "volume": 95.850792371961,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    }
+  ],
+  "window_clear_view_checks": [
+    {
+      "bay": 2,
+      "dx": -0.6,
+      "dz": -0.6,
+      "hits": [
+        "R27_BAY_2_GLASS"
+      ]
+    },
+    {
+      "bay": 2,
+      "dx": -0.6,
+      "dz": 0,
+      "hits": [
+        "R27_BAY_2_GLASS"
+      ]
+    },
+    {
+      "bay": 2,
+      "dx": -0.6,
+      "dz": 0.6,
+      "hits": [
+        "R27_BAY_2_GLASS"
+      ]
+    },
+    {
+      "bay": 2,
+      "dx": 0,
+      "dz": -0.6,
+      "hits": [
+        "R27_BAY_2_GLASS"
+      ]
+    },
+    {
+      "bay": 2,
+      "dx": 0,
+      "dz": 0,
+      "hits": [
+        "R27_BAY_2_GLASS"
+      ]
+    },
+    {
+      "bay": 2,
+      "dx": 0,
+      "dz": 0.6,
+      "hits": [
+        "R27_BAY_2_GLASS"
+      ]
+    },
+    {
+      "bay": 2,
+      "dx": 0.6,
+      "dz": -0.6,
+      "hits": [
+        "R27_BAY_2_GLASS"
+      ]
+    },
+    {
+      "bay": 2,
+      "dx": 0.6,
+      "dz": 0,
+      "hits": [
+        "R27_BAY_2_GLASS"
+      ]
+    },
+    {
+      "bay": 2,
+      "dx": 0.6,
+      "dz": 0.6,
+      "hits": [
+        "R27_BAY_2_GLASS"
+      ]
+    },
+    {
+      "bay": 4,
+      "dx": -0.6,
+      "dz": -0.6,
+      "hits": [
+        "R27_BAY_4_GLASS"
+      ]
+    },
+    {
+      "bay": 4,
+      "dx": -0.6,
+      "dz": 0,
+      "hits": [
+        "R27_BAY_4_GLASS"
+      ]
+    },
+    {
+      "bay": 4,
+      "dx": -0.6,
+      "dz": 0.6,
+      "hits": [
+        "R27_BAY_4_GLASS"
+      ]
+    },
+    {
+      "bay": 4,
+      "dx": 0,
+      "dz": -0.6,
+      "hits": [
+        "R27_BAY_4_GLASS"
+      ]
+    },
+    {
+      "bay": 4,
+      "dx": 0,
+      "dz": 0,
+      "hits": [
+        "R27_BAY_4_GLASS"
+      ]
+    },
+    {
+      "bay": 4,
+      "dx": 0,
+      "dz": 0.6,
+      "hits": [
+        "R27_BAY_4_GLASS"
+      ]
+    },
+    {
+      "bay": 4,
+      "dx": 0.6,
+      "dz": -0.6,
+      "hits": [
+        "R27_BAY_4_GLASS"
+      ]
+    },
+    {
+      "bay": 4,
+      "dx": 0.6,
+      "dz": 0,
+      "hits": [
+        "R27_BAY_4_GLASS"
+      ]
+    },
+    {
+      "bay": 4,
+      "dx": 0.6,
+      "dz": 0.6,
+      "hits": [
+        "R27_BAY_4_GLASS"
+      ]
+    }
+  ],
+  "construction_acceptance": false
+}

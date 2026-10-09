@@ -1,0 +1,46 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R43_TAS_DOSEME_YUZEYI_v001.blend",
+  "base_scene": "MUDAM_R42_CATI_GUNES_KIRICI_v002.blend",
+  "changed_inherited_objects": [
+    "P05_FLOOR_L00_GH",
+    "R29_FOYER_FLOOR",
+    "R30_LANDING_FLOOR"
+  ],
+  "surface_objects": [
+    {
+      "name": "P05_FLOOR_L00_GH",
+      "faces": [
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "name": "R29_FOYER_FLOOR",
+      "faces": [
+        1
+      ]
+    },
+    {
+      "name": "R30_LANDING_FLOOR",
+      "faces": [
+        1
+      ]
+    }
+  ],
+  "uv_map": "R43_METRIC_FLOOR_UV",
+  "basis_u": [
+    -0.680959939956665,
+    0.7323206067085266,
+    0.0
+  ],
+  "basis_v": [
+    0.7323206067085266,
+    0.680959939956665,
+    0.0
+  ],
+  "material": "R43_STONE_FLOOR_APPEARANCE_CANDIDATE",
+  "geometry_changed": false,
+  "construction_acceptance": false
+}

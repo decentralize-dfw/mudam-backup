@@ -1,0 +1,39 @@
+{
+  "sources": [
+    {
+      "id": "004",
+      "path": "05_Dis_Mekan/Cepheler/004_Tas_cephe_ve_cam_pavyon_WikiArquitectura.jpg",
+      "sha256": "da6a7a25af60c49b8e770b7ee1ae2273a06b4d02e837676bbeed5c32c2e5edd7",
+      "source_url": "https://es.wikiarquitectura.com/edificio/museo-de-arte-moderno-grand-duc-jean-mudam/",
+      "credit": "WikiArquitectura; sayfadaki fotoğraf serisi Haziran 2019",
+      "source_date": "unknown; do not infer from download date",
+      "modified": false
+    },
+    {
+      "id": "104",
+      "path": "01_Kat_Planlari/Resmi_Kat_Semalari/104_Resmi_kat_semasi_alt_eksi_1_Mudam.jpeg",
+      "sha256": "985eaa1ee16f67ce3bf64e549e7427c37561d74441017a6595c72fae5faf56de",
+      "source_url": "https://www.mudam.com/fr/floor-plans",
+      "credit": "Mudam Luxembourg; kullanıcı tarafından verilen doğrudan bağlantı",
+      "source_date": "unknown; do not infer from download date",
+      "modified": false
+    },
+    {
+      "id": "116",
+      "path": "05_Dis_Mekan/Havadan_Gorunum/116_Muze_havadan_genel_gorunum_Mudam.webp",
+      "sha256": "784be291590f0a0a4769101276af543f08a4aae81e22037ea10653a30705f844",
+      "source_url": "https://www.mudam.com/visit/architecture",
+      "credit": "© Christian Aschman / Mudam Luxembourg (resmî sayfa atfı)",
+      "source_date": "unknown; do not infer from download date",
+      "modified": false
+    }
+  ],
+  "config_sha256": "faa946c95918697f3b7779fc5bc946e308894d8d09904118f1fa13ef6dd14c47",
+  "limits": [
+    "004/116 show five small windows, pale splayed stone jambs/sills and top-open historic wall notches. They do not identify the interior rooms.",
+    "Centres follow the five existing facade bay candidates; offsets and dimensions are not surveyed.",
+    "P06 photo116 camera gives incompatible glass-head locations on trial depth planes: not accepted as a metric window fit.",
+    "OSM historic wall diverges from model facade; long reveal depth bridges this unresolved registration gap. Depth is particularly uncertain, not an as-built construction detail.",
+    "104 does not document these nonpublic rooms; no interior room geometry is invented. Opening operation removes only the local R27 lower facade and R35 historic wall context."
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "sources": [
+    {
+      "id": "063",
+      "path": "03_Vaziyet_ve_Peyzaj/Tarihi_Duvarlar_ve_Cevre/063_Tarihi_duvarlar_park_ve_yaklasim_WikiArquitectura.jpg",
+      "sha256": "18f4811ff2e6968bf31ba759e3435d194855ccd3fc1e055d4d9de9e53970a5ec",
+      "source_url": "https://es.wikiarquitectura.com/edificio/museo-de-arte-moderno-grand-duc-jean-mudam/",
+      "credit": "WikiArquitectura; sayfadaki fotoğraf serisi Haziran 2019",
+      "source_date": "unknown; do not infer from download date",
+      "modified": false
+    },
+    {
+      "id": "096",
+      "path": "03_Vaziyet_ve_Peyzaj/Vaziyet_Planlari/096_Vaziyet_plani_ve_arazi_profili_ArchEyes.jpg",
+      "sha256": "e2bc285ac342a7906d29418b994fcad461cc93a188f6558c7f64dce81db83433",
+      "source_url": "https://archeyes.com/the-mudam-by-i-m-pei-where-old-meets-new/",
+      "credit": "I. M. Pei (çizim; kaynak atfı)",
+      "source_date": "unknown; do not infer from download date",
+      "modified": false
+    },
+    {
+      "id": "116",
+      "path": "05_Dis_Mekan/Havadan_Gorunum/116_Muze_havadan_genel_gorunum_Mudam.webp",
+      "sha256": "784be291590f0a0a4769101276af543f08a4aae81e22037ea10653a30705f844",
+      "source_url": "https://www.mudam.com/visit/architecture",
+      "credit": "© Christian Aschman / Mudam Luxembourg (resmî sayfa atfı)",
+      "source_date": "unknown; do not infer from download date",
+      "modified": false
+    }
+  ],
+  "config_sha256": "1502989bf8bbc2ce462c819522d8f09fcff43ef6cb936bd6d0b377b2414fd20b",
+  "limits": [
+    "Only entrance park strip between archived moat outer line and pedestrian centerline; outer boundary is a context crop, not a surveyed paving edge.",
+    "Flat zero elevation continues bridge candidate. Actual slope and substrate are unmeasured.",
+    "Tree XY positions are archived OSM nodes; species, height, trunk and crown dimensions are representative masses only.",
+    "No invented tree placement. Existing bridge deck is subtracted in plan; mapped trees intersecting deck are skipped and recorded.",
+    "063/116 show paved approach with trees; paving unit pattern, tree pits and exact planted boundaries remain open.",
+    "Main pedestrian line expanded by a candidate4m width; archived OSM has no width. This makes landing endpoints lie within paving rather than on the context boundary."
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "sources": [
+    {
+      "id": "014",
+      "path": "04_Ic_Mekan/Giris_ve_Dolasim/014_Giris_cam_kapisi_WikiArquitectura.jpg",
+      "sha256": "bdf3e4bbdca4d3b3cb0f6cd21468d9a5797353fb569caf1033b968e138bac021",
+      "source_url": "https://es.wikiarquitectura.com/edificio/museo-de-arte-moderno-grand-duc-jean-mudam/",
+      "credit": "WikiArquitectura; sayfadaki fotoğraf serisi Haziran 2019",
+      "source_date": "unknown; do not infer from download date",
+      "modified": false
+    },
+    {
+      "id": "017",
+      "path": "04_Ic_Mekan/Giris_ve_Dolasim/017_Tas_duvar_ve_dogal_isik_WikiArquitectura.jpg",
+      "sha256": "5260d080141098cbc5d01577c03a3d4f1f853a028b24e4ad27ee37e79f37a0ba",
+      "source_url": "https://es.wikiarquitectura.com/edificio/museo-de-arte-moderno-grand-duc-jean-mudam/",
+      "credit": "WikiArquitectura; sayfadaki fotoğraf serisi Haziran 2019",
+      "source_date": "unknown; do not infer from download date",
+      "modified": false
+    },
+    {
+      "id": "102",
+      "path": "01_Kat_Planlari/Resmi_Kat_Semalari/102_Resmi_kat_semasi_zemin_0_Mudam.jpeg",
+      "sha256": "f4d1d1992e1e2d664d5bf5fddd6aedd760edb2931f398e52b5e13316acec2407",
+      "source_url": "https://www.mudam.com/fr/floor-plans",
+      "credit": "Mudam Luxembourg; kullanıcı tarafından verilen doğrudan bağlantı",
+      "source_date": "unknown; do not infer from download date",
+      "modified": false
+    },
+    {
+      "id": "103",
+      "path": "01_Kat_Planlari/Resmi_Kat_Semalari/103_Resmi_kat_semasi_ust_arti_1_Mudam.jpeg",
+      "sha256": "bd94768b80070517fd9ff2fbcb120fc1ba35aa048de49f6a25cbf57ab9c353a2",
+      "source_url": "https://www.mudam.com/fr/floor-plans",
+      "credit": "Mudam Luxembourg; kullanıcı tarafından verilen doğrudan bağlantı",
+      "source_date": "unknown; do not infer from download date",
+      "modified": false
+    },
+    {
+      "id": "PDF2016",
+      "path": "08_Belgeler/Mudam_Wim_Delvoye_2016_kat_semalari.pdf",
+      "sha256": "f2b04806918ac0ac6ac2e8cad98b3cdd143986b62fe102410aeca6b5aa101128",
+      "source_url": null,
+      "credit": "Mudam, Wim Delvoye 2016 press kit, page 5; existing local calibration source",
+      "source_date": "2016",
+      "modified": false,
+      "provenance_gap": "Exact original download URL not retained in local inventory"
+    }
+  ],
+  "config_sha256": "629e909e47497e9dd2716bb9ebc1b95a665d6e8ad167cd87c80d699db1ca9a1d",
+  "limits": [
+    "Ceiling fills only ground entrance/service circulation below upper plan; upper reading room and studio floors remain untouched.",
+    "Plan footprint from102/103 and2016PDF; exact ceiling heights unmeasured,4.35m follows existing regional candidate.",
+    "014/017 support stone public finishes; fixture count, ducts and concealed structural slab not inferred.",
+    "WC/shop/cloak room ceiling footprints retain previous separate materials and geometry."
+  ]
+}

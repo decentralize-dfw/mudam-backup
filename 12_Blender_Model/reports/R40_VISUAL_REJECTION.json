@@ -1,0 +1,16 @@
+{
+  "status": "rejected_not_in_current_scene",
+  "base_preserved": "MUDAM_R39_GIRIS_TAVAN_BUTUNLUGU_v001.blend",
+  "geometry_checks": "51 closed solids and45 exterior rays pass; this does not validate architectural fit",
+  "visual_failures": [
+    "Splayed stone surrounds project unsupported in front of historic wall; source004 shows reveals integrated into that wall.",
+    "Candidate3.25m reveal depth is unsupported and visibly excessive.",
+    "Conditional P06 camera/window plane and OSM wall registration do not agree; do not force unknown inner room geometry."
+  ],
+  "rejected_scene": "scenes/archive/local_trials_20261008/MUDAM_R40_ALT_CEPHE_PENCERELERI_v001.blend",
+  "images": [
+    "R40_exterior.png",
+    "R40_window_detail.png",
+    "R40_oblique_reveals.png"
+  ]
+}

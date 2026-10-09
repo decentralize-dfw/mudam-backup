@@ -1,0 +1,19 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R43_TAS_DOSEME_YUZEYI_v001.blend",
+  "base_scene": "12_Blender_Model/scenes/MUDAM_R42_CATI_GUNES_KIRICI_v002.blend",
+  "inherited_objects_checked": 7340,
+  "changed_inherited_objects": [
+    "P05_FLOOR_L00_GH",
+    "R29_FOYER_FLOOR",
+    "R30_LANDING_FLOOR"
+  ],
+  "allowed_changes": [
+    "P05_FLOOR_L00_GH",
+    "R29_FOYER_FLOOR",
+    "R30_LANDING_FLOOR"
+  ],
+  "allowed_but_unchanged": [],
+  "new_objects": [],
+  "failures": [],
+  "construction_acceptance": false
+}

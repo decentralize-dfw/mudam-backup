@@ -1,0 +1,95 @@
+{
+  "source_id": "116",
+  "source_path": "05_Dis_Mekan/Havadan_Gorunum/116_Muze_havadan_genel_gorunum_Mudam.webp",
+  "source_sha256": "784be291590f0a0a4769101276af543f08a4aae81e22037ea10653a30705f844",
+  "camera_report": "P06_camera_fit_116.json",
+  "method": "Pixel ray intersected with the fixed facade plane in P06 LOCAL axes, not UTM axes.",
+  "manual_pixel_uncertainty": 5,
+  "old_head_m": 4.35,
+  "candidate_head_m": 3.45,
+  "landmarks": [
+    {
+      "bay": 1,
+      "manual_front_head_px": [
+        742,
+        880
+      ],
+      "t_m": 0.433755294567687,
+      "z_m": 3.3241033052385625,
+      "reading_only_z_range_m": [
+        2.9541232240701056,
+        3.692299451996263
+      ],
+      "old_head_pixel_error": 15.920055083293308,
+      "candidate_head_pixel_error": 1.9507920241236767
+    },
+    {
+      "bay": 2,
+      "manual_front_head_px": [
+        817,
+        890
+      ],
+      "t_m": 5.868552386753741,
+      "z_m": 3.3483874168801897,
+      "reading_only_z_range_m": [
+        2.98796834873988,
+        3.7071130810684068
+      ],
+      "old_head_pixel_error": 15.931895802557168,
+      "candidate_head_pixel_error": 1.6138157516550196
+    },
+    {
+      "bay": 3,
+      "manual_front_head_px": [
+        890,
+        900
+      ],
+      "t_m": 10.897181510428446,
+      "z_m": 3.354421185635026,
+      "reading_only_z_range_m": [
+        3.0027969681734845,
+        3.704433386590786
+      ],
+      "old_head_pixel_error": 16.211486308485604,
+      "candidate_head_pixel_error": 1.5539288058099965
+    },
+    {
+      "bay": 4,
+      "manual_front_head_px": [
+        968,
+        909
+      ],
+      "t_m": 16.007484202060503,
+      "z_m": 3.46176093856808,
+      "reading_only_z_range_m": [
+        3.1193615567959014,
+        3.8026305221306522
+      ],
+      "old_head_pixel_error": 14.824430841542565,
+      "candidate_head_pixel_error": 0.1959723588212986
+    },
+    {
+      "bay": 5,
+      "manual_front_head_px": [
+        1049,
+        918
+      ],
+      "t_m": 21.04560205033183,
+      "z_m": 3.5878338301486288,
+      "reading_only_z_range_m": [
+        3.2545721891614257,
+        3.919644869827888
+      ],
+      "old_head_pixel_error": 13.042443490896758,
+      "candidate_head_pixel_error": 2.3547863762169015
+    }
+  ],
+  "old_rmse_px": 15.231249640379227,
+  "candidate_rmse_px": 1.6975340690683767,
+  "limits": [
+    "Reading interval excludes camera pose, plane, source registration and height errors. It is NOT a total accuracy estimate.",
+    "Head point identities manually interpreted on 116. 3.45m is rounded visual candidate, not measured height.",
+    "Photo 062 room assignment and A01 plan conflict remain unresolved."
+  ],
+  "construction_acceptance": false
+}

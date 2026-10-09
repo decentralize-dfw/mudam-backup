@@ -1,0 +1,25 @@
+{
+  "base_scene": "MUDAM_R39_GIRIS_TAVAN_BUTUNLUGU_v001.blend",
+  "source_ids": ["004", "116", "104", "OSM"],
+  "centers_m": [2.82, 7.84, 12.87, 17.97, 23.01],
+  "outer_width_m": 2.4,
+  "inner_width_m": 1.3,
+  "outer_depth_m": -0.25,
+  "inner_depth_m": 3.0,
+  "outer_sill_z": -3.4,
+  "inner_sill_z": -3.0,
+  "outer_head_z": -0.75,
+  "inner_head_z": -1.3,
+  "stone_thickness_m": 0.12,
+  "frame_width_m": 0.065,
+  "frame_depth_m": 0.10,
+  "glass_thickness_m": 0.018,
+  "status": "conditional_exterior_topology_only",
+  "limits": [
+    "004/116 show five small windows, pale splayed stone jambs/sills and top-open historic wall notches. They do not identify the interior rooms.",
+    "Centres follow the five existing facade bay candidates; offsets and dimensions are not surveyed.",
+    "P06 photo116 camera gives incompatible glass-head locations on trial depth planes: not accepted as a metric window fit.",
+    "OSM historic wall diverges from model facade; long reveal depth bridges this unresolved registration gap. Depth is particularly uncertain, not an as-built construction detail.",
+    "104 does not document these nonpublic rooms; no interior room geometry is invented. Opening operation removes only the local R27 lower facade and R35 historic wall context."
+  ]
+}

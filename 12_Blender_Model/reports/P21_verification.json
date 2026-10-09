@@ -1,16 +1,16 @@
 {
-  "file": "12_Blender_Model/exports/MUDAM_R35_HENDEK_CEVRE_ETUDU_v001_preview.glb",
-  "size_bytes": 34416996,
-  "mesh_nodes": 6694,
-  "triangles": 754389,
+  "file": "12_Blender_Model/exports/MUDAM_R43_TAS_DOSEME_YUZEYI_v001_preview.glb",
+  "size_bytes": 29790956,
+  "mesh_nodes": 6796,
+  "triangles": 770321,
   "world_bounds_glTF": [
     [
       -42.32527542114258,
       -5.7762932777404785,
-      -66.24008178710938
+      -83.07286071777344
     ],
     [
-      61.918479919433594,
+      82.8534164428711,
       30.409473419189453,
       49.81273651123047
     ]
@@ -37,6 +37,16 @@
       "name": "R32_wood_candidate_basecolor",
       "embedded_bytes": 167735,
       "mime": "image/png"
+    },
+    {
+      "name": "R43_stone_floor_candidate_normal",
+      "embedded_bytes": 33610,
+      "mime": "image/png"
+    },
+    {
+      "name": "R43_stone_floor_candidate_basecolor",
+      "embedded_bytes": 2032461,
+      "mime": "image/png"
     }
   ],
   "texture_bindings": [
@@ -45,14 +55,14 @@
       "usage": "basecolor",
       "image": "R32_limestone_candidate_basecolor",
       "uv_attribute": "TEXCOORD_0",
-      "primitive_count": 71
+      "primitive_count": 97
     },
     {
       "material": "R32_LIMESTONE_APPEARANCE_CANDIDATE",
       "usage": "normal",
       "image": "R32_limestone_candidate_normal",
       "uv_attribute": "TEXCOORD_0",
-      "primitive_count": 71
+      "primitive_count": 97
     },
     {
       "material": "R32_WOOD_APPEARANCE_CANDIDATE",
@@ -67,6 +77,34 @@
       "image": "R32_wood_candidate_normal",
       "uv_attribute": "TEXCOORD_0",
       "primitive_count": 6
+    },
+    {
+      "material": "R43_STONE_FLOOR_APPEARANCE_CANDIDATE",
+      "usage": "basecolor",
+      "image": "R43_stone_floor_candidate_basecolor",
+      "uv_attribute": "TEXCOORD_0",
+      "primitive_count": 2
+    },
+    {
+      "material": "R43_STONE_FLOOR_APPEARANCE_CANDIDATE",
+      "usage": "normal",
+      "image": "R43_stone_floor_candidate_normal",
+      "uv_attribute": "TEXCOORD_0",
+      "primitive_count": 2
+    },
+    {
+      "material": "R43_STONE_FLOOR_APPEARANCE_CANDIDATE",
+      "usage": "basecolor",
+      "image": "R43_stone_floor_candidate_basecolor",
+      "uv_attribute": "TEXCOORD_1",
+      "primitive_count": 1
+    },
+    {
+      "material": "R43_STONE_FLOOR_APPEARANCE_CANDIDATE",
+      "usage": "normal",
+      "image": "R43_stone_floor_candidate_normal",
+      "uv_attribute": "TEXCOORD_1",
+      "primitive_count": 1
     }
   ],
   "failures": [],

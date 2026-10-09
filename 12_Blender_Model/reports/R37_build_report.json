@@ -1,0 +1,30 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R37_UST_GECIT_BASLIGI_v001.blend",
+  "base_scene": "MUDAM_R36_CEPHE_BASLIK_KONTROL_v003.blend",
+  "closed_objects": [
+    "R37_GH_EAST_PORTAL_METAL_HEAD"
+  ],
+  "changed_inherited_objects": [],
+  "portal_endpoints": [
+    [
+      14.535809516906738,
+      1.1325838565826416,
+      0.0
+    ],
+    [
+      17.110084533691406,
+      4.198000431060791,
+      0.0
+    ]
+  ],
+  "normal": [
+    -0.7657878994941711,
+    0.6430932283401489,
+    0.0
+  ],
+  "upper_head": 9.438577096381804,
+  "roof_reference_z": 9.718577096381804,
+  "head_depth_m": 0.28,
+  "head_width_m": 0.38,
+  "construction_acceptance": false
+}

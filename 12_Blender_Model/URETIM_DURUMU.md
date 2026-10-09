@@ -4,7 +4,7 @@
 
 ## Güncel teslim
 
-[MUDAM_R35_HENDEK_CEVRE_ETUDU_v001.blend](scenes/MUDAM_R35_HENDEK_CEVRE_ETUDU_v001.blend) giriş, çatı ve merdiven çalışmalarını birlikte içerir. [Görsel inceleme](URETIM.html) · [Üretim raporu](reports/P07_P09_URETIM_RAPORU.md).
+[MUDAM_R43_TAS_DOSEME_YUZEYI_v001.blend](scenes/MUDAM_R43_TAS_DOSEME_YUZEYI_v001.blend) giriş, çatı ve merdiven çalışmalarını birlikte içerir. [Görsel inceleme](URETIM.html) · [Üretim raporu](reports/P07_P09_URETIM_RAPORU.md).
 
 | Paket | Durum | Somut çıktı / açık konu |
 | --- | --- | --- |
@@ -96,3 +96,6 @@ R23/R24 üst galerilerin duvar/geçişleri ve cam ışıklık adayları, R25 tem
 ## 9 Ekim 02:48 UTC ara durum
 
 R35 güncel sahne; R29–R35 bölgesel sahneler, kaynak/varsayım kayıtları ve renderlarla kaydedildi. Güncel GLB ve plan kesitleri R35 ile eşleşiyor. Bina tamamlanmadı: [mimari açık konular](reports/architectural_open_issues.json) içinde cephe–galeri, üst geçit–çatı ve giriş tavanı çelişkileri ayrı izleniyor. Arazi henüz ilk hendek etüdü; ayrıntılı çevre ve nihai teslim açık.
+
+
+2026-10-09 03:46 UTC — R36–R43 ara üretim: koşullu cephe başlık kotu; üst geçit başlığı ve açıklık düzeltmesi; park bağlantıları/19 OSM ağacı; giriş tavan sürekliliği; ortak mesh verisi; Grand Hall çatı lamelleri; taş döşeme yüzeyleri. R40 alt cephe pencereleri duvara oturmadığı için reddedildi. R41 ile GLB34,62→27,14MB; sonraki detaylar ayrıca eklendi. Tam bina tamamlanmadı. A01 cephe/oda,A04 arazi,A06 alt pencere ve A07 fotoğraf köşe kimliği açık; rutin onay beklemeden üretim sürüyor.

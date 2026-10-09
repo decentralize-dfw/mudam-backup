@@ -1,0 +1,23 @@
+{
+  "base_scene": "MUDAM_R41_MESH_PAYLASIMI_v001.blend",
+  "source_ids": [
+    "026",
+    "049",
+    "102"
+  ],
+  "source_roof": "P06_LOWER_SLOPE_WEST",
+  "panel_prefix": "P11_GH_LOWER_WEST_",
+  "pitch_m": 0.07,
+  "slat_width_m": 0.033,
+  "slat_thickness_m": 0.002,
+  "slat_angle_deg": 15,
+  "glass_offset_m": 0.13,
+  "perimeter_clearance_m": 0.075,
+  "status": "source_supported_shading_family_with_candidate_dimensions",
+  "limits": [
+    "026 shows dense shading on the triangular facet to the right of the narrow vertical glass slot. 049 supports shading above the identified down-stair corner. Camera poses and exact module dimensions are not verified.",
+    "WEST-named lower Grand Hall facet at canonical688,334. Photo045 has the glass slot on its other side and is NOT accepted as proof for this facet; its atlas assignment needs renewed review. No mirroring to the other roof.",
+    "Pitch, width, thickness, angle, glass offset and exact count are visualization candidates, not measured or manufacturer specifications.",
+    "Open angle is one editable visual state. Actuator, cords, concealed supports and operating mechanism remain unmodelled because not resolved from available photographs."
+  ]
+}

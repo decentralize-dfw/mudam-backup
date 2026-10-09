@@ -1,0 +1,197 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R40_ALT_CEPHE_PENCERELERI_v001.blend",
+  "base_scene": "MUDAM_R39_GIRIS_TAVAN_BUTUNLUGU_v001.blend",
+  "closed_objects": [
+    "R40_WINDOW_01_JAMB_L",
+    "R40_WINDOW_01_JAMB_R",
+    "R40_WINDOW_01_SILL",
+    "R40_WINDOW_01_HEAD",
+    "R40_WINDOW_01_FRAME_L",
+    "R40_WINDOW_01_FRAME_R",
+    "R40_WINDOW_01_FRAME_B",
+    "R40_WINDOW_01_FRAME_T",
+    "R40_WINDOW_01_GLASS",
+    "R40_WINDOW_02_JAMB_L",
+    "R40_WINDOW_02_JAMB_R",
+    "R40_WINDOW_02_SILL",
+    "R40_WINDOW_02_HEAD",
+    "R40_WINDOW_02_FRAME_L",
+    "R40_WINDOW_02_FRAME_R",
+    "R40_WINDOW_02_FRAME_B",
+    "R40_WINDOW_02_FRAME_T",
+    "R40_WINDOW_02_GLASS",
+    "R40_WINDOW_03_JAMB_L",
+    "R40_WINDOW_03_JAMB_R",
+    "R40_WINDOW_03_SILL",
+    "R40_WINDOW_03_HEAD",
+    "R40_WINDOW_03_FRAME_L",
+    "R40_WINDOW_03_FRAME_R",
+    "R40_WINDOW_03_FRAME_B",
+    "R40_WINDOW_03_FRAME_T",
+    "R40_WINDOW_03_GLASS",
+    "R40_WINDOW_04_JAMB_L",
+    "R40_WINDOW_04_JAMB_R",
+    "R40_WINDOW_04_SILL",
+    "R40_WINDOW_04_HEAD",
+    "R40_WINDOW_04_FRAME_L",
+    "R40_WINDOW_04_FRAME_R",
+    "R40_WINDOW_04_FRAME_B",
+    "R40_WINDOW_04_FRAME_T",
+    "R40_WINDOW_04_GLASS",
+    "R40_WINDOW_05_JAMB_L",
+    "R40_WINDOW_05_JAMB_R",
+    "R40_WINDOW_05_SILL",
+    "R40_WINDOW_05_HEAD",
+    "R40_WINDOW_05_FRAME_L",
+    "R40_WINDOW_05_FRAME_R",
+    "R40_WINDOW_05_FRAME_B",
+    "R40_WINDOW_05_FRAME_T",
+    "R40_WINDOW_05_GLASS",
+    "R27_BAY_1_BLIND_BACK",
+    "R35_WALL_51946353_00_0",
+    "R27_BAY_2_BASE",
+    "R27_BAY_3_BLIND_BACK",
+    "R27_BAY_4_BASE",
+    "R27_BAY_5_BLIND_BACK"
+  ],
+  "new_objects": [
+    "R40_WINDOW_01_JAMB_L",
+    "R40_WINDOW_01_JAMB_R",
+    "R40_WINDOW_01_SILL",
+    "R40_WINDOW_01_HEAD",
+    "R40_WINDOW_01_FRAME_L",
+    "R40_WINDOW_01_FRAME_R",
+    "R40_WINDOW_01_FRAME_B",
+    "R40_WINDOW_01_FRAME_T",
+    "R40_WINDOW_01_GLASS",
+    "R40_WINDOW_02_JAMB_L",
+    "R40_WINDOW_02_JAMB_R",
+    "R40_WINDOW_02_SILL",
+    "R40_WINDOW_02_HEAD",
+    "R40_WINDOW_02_FRAME_L",
+    "R40_WINDOW_02_FRAME_R",
+    "R40_WINDOW_02_FRAME_B",
+    "R40_WINDOW_02_FRAME_T",
+    "R40_WINDOW_02_GLASS",
+    "R40_WINDOW_03_JAMB_L",
+    "R40_WINDOW_03_JAMB_R",
+    "R40_WINDOW_03_SILL",
+    "R40_WINDOW_03_HEAD",
+    "R40_WINDOW_03_FRAME_L",
+    "R40_WINDOW_03_FRAME_R",
+    "R40_WINDOW_03_FRAME_B",
+    "R40_WINDOW_03_FRAME_T",
+    "R40_WINDOW_03_GLASS",
+    "R40_WINDOW_04_JAMB_L",
+    "R40_WINDOW_04_JAMB_R",
+    "R40_WINDOW_04_SILL",
+    "R40_WINDOW_04_HEAD",
+    "R40_WINDOW_04_FRAME_L",
+    "R40_WINDOW_04_FRAME_R",
+    "R40_WINDOW_04_FRAME_B",
+    "R40_WINDOW_04_FRAME_T",
+    "R40_WINDOW_04_GLASS",
+    "R40_WINDOW_05_JAMB_L",
+    "R40_WINDOW_05_JAMB_R",
+    "R40_WINDOW_05_SILL",
+    "R40_WINDOW_05_HEAD",
+    "R40_WINDOW_05_FRAME_L",
+    "R40_WINDOW_05_FRAME_R",
+    "R40_WINDOW_05_FRAME_B",
+    "R40_WINDOW_05_FRAME_T",
+    "R40_WINDOW_05_GLASS"
+  ],
+  "changed_inherited_objects": [
+    "R27_BAY_1_BLIND_BACK",
+    "R35_WALL_51946353_00_0",
+    "R27_BAY_2_BASE",
+    "R27_BAY_3_BLIND_BACK",
+    "R27_BAY_4_BASE",
+    "R27_BAY_5_BLIND_BACK"
+  ],
+  "hidden_guides": [
+    "R40_WINDOW_01_CUTTER",
+    "R40_WINDOW_02_CUTTER",
+    "R40_WINDOW_03_CUTTER",
+    "R40_WINDOW_04_CUTTER",
+    "R40_WINDOW_05_CUTTER"
+  ],
+  "windows": [
+    {
+      "id": 1,
+      "center_t": 2.82,
+      "glass": "R40_WINDOW_01_GLASS",
+      "center": [
+        33.765384674072266,
+        -3.4149088859558105,
+        -2.1500000953674316
+      ],
+      "head": -1.3,
+      "sill": -3.0
+    },
+    {
+      "id": 2,
+      "center_t": 7.84,
+      "glass": "R40_WINDOW_02_GLASS",
+      "center": [
+        33.93973159790039,
+        1.6020625829696655,
+        -2.1500000953674316
+      ],
+      "head": -1.3,
+      "sill": -3.0
+    },
+    {
+      "id": 3,
+      "center_t": 12.87,
+      "glass": "R40_WINDOW_03_GLASS",
+      "center": [
+        34.11442565917969,
+        6.6290283203125,
+        -2.1500000953674316
+      ],
+      "head": -1.3,
+      "sill": -3.0
+    },
+    {
+      "id": 4,
+      "center_t": 17.97,
+      "glass": "R40_WINDOW_04_GLASS",
+      "center": [
+        34.29154968261719,
+        11.725950241088867,
+        -2.1500000953674316
+      ],
+      "head": -1.3,
+      "sill": -3.0
+    },
+    {
+      "id": 5,
+      "center_t": 23.01,
+      "glass": "R40_WINDOW_05_GLASS",
+      "center": [
+        34.46659469604492,
+        16.762910842895508,
+        -2.1500000953674316
+      ],
+      "head": -1.3,
+      "sill": -3.0
+    }
+  ],
+  "origin": [
+    36.6656379699707,
+    -6.337399005889893,
+    0.0
+  ],
+  "axis": [
+    0.03473040834069252,
+    0.9993967413902283,
+    0.0
+  ],
+  "inside": [
+    -0.9993967413902283,
+    0.03473040834069252,
+    -0.0
+  ],
+  "construction_acceptance": false
+}

@@ -11,11 +11,11 @@
       "102",
       "PDF2016"
     ],
-    "detail": "Second candidate front window lies beyond source gallery polygon; 062 exact room/face unverified. Do not expand floor to fit a photograph without source identity."
+    "detail": "Second candidate front window lies beyond source gallery polygon; 062 exact room/face unverified. Do not expand floor to fit a photograph without source identity. R36 v002 deeper glazing was rejected after3 rays hit R33_WALL_CLOAK_W. FinalR36v003 preserves previousXY."
   },
   {
     "id": "A02",
-    "status": "open",
+    "status": "coordinated_candidate_R37",
     "priority": "high",
     "topic": "R26 roof head versus R02 upper clear opening",
     "evidence": [
@@ -23,11 +23,11 @@
       "033",
       "026"
     ],
-    "detail": "One high ray at z=9.518577m intersects R26_WALL_HEAD_453.755. Stair tread/headroom tests passed, but upper portal/roof member coordination remains unresolved."
+    "detail": "026/033 support head below glazing; R37 adds continuous metal head. New clear-soffit contract9.438577m independently checks27 rays; R04 regression passes. Exact height/roof slope remains unmeasured."
   },
   {
     "id": "A03",
-    "status": "open",
+    "status": "regional_ceiling_coordinated_R39",
     "priority": "medium",
     "topic": "Ground entrance ceiling continuity and finishes",
     "evidence": [
@@ -36,7 +36,7 @@
       "102",
       "103"
     ],
-    "detail": "Service room ceilings are regional candidates; gaps above lobby and stone-versus-white finish assignment remain open."
+    "detail": "Public circulation ceiling closed;230coverage samples and78route samples pass. Stone public face family added; exact ceiling height and room finishes remain candidate."
   },
   {
     "id": "A04",
@@ -48,17 +48,44 @@
       "096",
       "116"
     ],
-    "detail": "First moat region only; heights unmeasured, park landings, other moat arms, historic apertures and structural supports unresolved."
+    "detail": "First moat region only; heights unmeasured, park landings, other moat arms, historic apertures and structural supports unresolved. R38 adds park-side bridge connections and19OSM tree masses; entire terrain still incomplete."
   },
   {
     "id": "A05",
-    "status": "open",
+    "status": "revised_candidate_R36",
     "priority": "high",
     "topic": "Facade window head camera audit",
     "evidence": [
       "references/R35_116_front_camera_audit.png",
       "reports/P06_camera_fit_116.json"
     ],
-    "detail": "Manual 116 head readings suggest about z3.3-3.6m on conditional camera, whereas R27 head is4.35m. Needs archived landmark audit with uncertainty before geometry revision; no new measured height accepted."
+    "detail": "Five manual head rays archived; 3.45m candidate selected, projection RMSE 1.70px versus15.23px. Camera/plane uncertainty remains; not surveyed."
+  },
+  {
+    "id": "A06",
+    "status": "open_rejected_R40",
+    "priority": "high",
+    "topic": "Lower facade windows and historic-wall registration",
+    "evidence": [
+      "004",
+      "116",
+      "104",
+      "R40_VISUAL_REJECTION.json"
+    ],
+    "detail": "Five windows/source topology confirmed; trial reveals detached from historic wall, rejected despite passing solid/ray checks. Solve wall-relative alignment before adding detailed windows; room identities unknown."
+  },
+  {
+    "id": "A07",
+    "status": "open_source_identity_conflict",
+    "priority": "high",
+    "topic": "045 triangular roof photo identity versus atlas assignment",
+    "evidence": [
+      "026",
+      "045",
+      "049",
+      "102",
+      "R42_stair_roof_identity.jpg"
+    ],
+    "detail": "045 narrow glass slot appears on opposite side compared with026 and current down-stair view. Similar curved guards do not prove same corner; previous atlas045 location unverified. Keep user-confirmed stair identities; do not swap stairs automatically. R42 shading now justified by026/049 only,045 excluded from facet evidence."
   }
 ]

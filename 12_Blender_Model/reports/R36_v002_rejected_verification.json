@@ -1,0 +1,376 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R36_CEPHE_BASLIK_KONTROL_v002.blend",
+  "failures": [
+    {
+      "bay": 4,
+      "dx": 0.6,
+      "dz": -0.6,
+      "hits": [
+        "R27_BAY_4_GLASS",
+        "R33_WALL_CLOAK_W"
+      ]
+    },
+    {
+      "bay": 4,
+      "dx": 0.6,
+      "dz": 0,
+      "hits": [
+        "R27_BAY_4_GLASS",
+        "R33_WALL_CLOAK_W"
+      ]
+    },
+    {
+      "bay": 4,
+      "dx": 0.6,
+      "dz": 0.6,
+      "hits": [
+        "R27_BAY_4_GLASS",
+        "R33_WALL_CLOAK_W"
+      ]
+    }
+  ],
+  "evaluated_solids": [
+    {
+      "name": "R27_CONTINUOUS_HEAD",
+      "volume": 947.2669593731622,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R27_BAY_1_END_RETURN",
+      "volume": 23.01142206599137,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R27_BAY_1_BLIND_BACK",
+      "volume": 53.3598177438857,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R27_BAY_2_SLOPING_PIER",
+      "volume": 5.034534362996892,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R27_BAY_2_PIER_SHOULDER",
+      "volume": 0.9604494838283348,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R27_BAY_2_PIER_BASE",
+      "volume": 12.971770195705952,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R27_BAY_2_BASE",
+      "volume": 32.870235802798405,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R27_BAY_2_FRAME_L",
+      "volume": 0.02830788981071594,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R27_BAY_2_FRAME_R",
+      "volume": 0.02830774993995233,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R27_BAY_2_FRAME_B",
+      "volume": 0.031919696046998666,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R27_BAY_2_FRAME_T",
+      "volume": 0.03191966207265586,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R27_BAY_2_GLASS",
+      "volume": 0.21275878388319958,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R27_BAY_3_SLOPING_PIER",
+      "volume": 5.07580411175685,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R27_BAY_3_PIER_SHOULDER",
+      "volume": 0.9683225584567992,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R27_BAY_3_PIER_BASE",
+      "volume": 13.078104871294045,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R27_BAY_3_BLIND_BACK",
+      "volume": 53.35981272508423,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R27_BAY_4_SLOPING_PIER",
+      "volume": 5.364665942971919,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R27_BAY_4_PIER_SHOULDER",
+      "volume": 1.0234294137821784,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R27_BAY_4_PIER_BASE",
+      "volume": 13.82237330841437,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R27_BAY_4_BASE",
+      "volume": 32.87024470188679,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R27_BAY_4_FRAME_L",
+      "volume": 0.02830774993995222,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R27_BAY_4_FRAME_R",
+      "volume": 0.028307749939951554,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R27_BAY_4_FRAME_B",
+      "volume": 0.031919704765804996,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R27_BAY_4_FRAME_T",
+      "volume": 0.031919670791469144,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R27_BAY_4_GLASS",
+      "volume": 0.2127590584639299,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R27_BAY_5_SLOPING_PIER",
+      "volume": 5.117068404719131,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R27_BAY_5_PIER_SHOULDER",
+      "volume": 0.9761946727933402,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R27_BAY_5_PIER_BASE",
+      "volume": 13.184423866780207,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R27_BAY_5_BLIND_BACK",
+      "volume": 53.35980603334893,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R27_END_PIER",
+      "volume": 170.73421702344154,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R36_BAY_2_STONE_THRESHOLD",
+      "volume": 0.7125014931435518,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R36_BAY_4_STONE_THRESHOLD",
+      "volume": 0.7125016761172283,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    }
+  ],
+  "window_clear_view_checks": [
+    {
+      "bay": 2,
+      "dx": -0.6,
+      "dz": -0.6,
+      "hits": [
+        "R27_BAY_2_GLASS"
+      ]
+    },
+    {
+      "bay": 2,
+      "dx": -0.6,
+      "dz": 0,
+      "hits": [
+        "R27_BAY_2_GLASS"
+      ]
+    },
+    {
+      "bay": 2,
+      "dx": -0.6,
+      "dz": 0.6,
+      "hits": [
+        "R27_BAY_2_GLASS"
+      ]
+    },
+    {
+      "bay": 2,
+      "dx": 0,
+      "dz": -0.6,
+      "hits": [
+        "R27_BAY_2_GLASS"
+      ]
+    },
+    {
+      "bay": 2,
+      "dx": 0,
+      "dz": 0,
+      "hits": [
+        "R27_BAY_2_GLASS"
+      ]
+    },
+    {
+      "bay": 2,
+      "dx": 0,
+      "dz": 0.6,
+      "hits": [
+        "R27_BAY_2_GLASS"
+      ]
+    },
+    {
+      "bay": 2,
+      "dx": 0.6,
+      "dz": -0.6,
+      "hits": [
+        "R27_BAY_2_GLASS"
+      ]
+    },
+    {
+      "bay": 2,
+      "dx": 0.6,
+      "dz": 0,
+      "hits": [
+        "R27_BAY_2_GLASS"
+      ]
+    },
+    {
+      "bay": 2,
+      "dx": 0.6,
+      "dz": 0.6,
+      "hits": [
+        "R27_BAY_2_GLASS"
+      ]
+    },
+    {
+      "bay": 4,
+      "dx": -0.6,
+      "dz": -0.6,
+      "hits": [
+        "R27_BAY_4_GLASS"
+      ]
+    },
+    {
+      "bay": 4,
+      "dx": -0.6,
+      "dz": 0,
+      "hits": [
+        "R27_BAY_4_GLASS"
+      ]
+    },
+    {
+      "bay": 4,
+      "dx": -0.6,
+      "dz": 0.6,
+      "hits": [
+        "R27_BAY_4_GLASS"
+      ]
+    },
+    {
+      "bay": 4,
+      "dx": 0,
+      "dz": -0.6,
+      "hits": [
+        "R27_BAY_4_GLASS"
+      ]
+    },
+    {
+      "bay": 4,
+      "dx": 0,
+      "dz": 0,
+      "hits": [
+        "R27_BAY_4_GLASS"
+      ]
+    },
+    {
+      "bay": 4,
+      "dx": 0,
+      "dz": 0.6,
+      "hits": [
+        "R27_BAY_4_GLASS"
+      ]
+    },
+    {
+      "bay": 4,
+      "dx": 0.6,
+      "dz": -0.6,
+      "hits": [
+        "R27_BAY_4_GLASS",
+        "R33_WALL_CLOAK_W"
+      ]
+    },
+    {
+      "bay": 4,
+      "dx": 0.6,
+      "dz": 0,
+      "hits": [
+        "R27_BAY_4_GLASS",
+        "R33_WALL_CLOAK_W"
+      ]
+    },
+    {
+      "bay": 4,
+      "dx": 0.6,
+      "dz": 0.6,
+      "hits": [
+        "R27_BAY_4_GLASS",
+        "R33_WALL_CLOAK_W"
+      ]
+    }
+  ],
+  "construction_acceptance": false
+}

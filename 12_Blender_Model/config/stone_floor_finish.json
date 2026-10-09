@@ -1,0 +1,16 @@
+{
+  "base_scene": "MUDAM_R42_CATI_GUNES_KIRICI_v002.blend",
+  "source_ids": ["026", "051", "055", "077"],
+  "objects": ["P05_FLOOR_L00_GH", "R29_FOYER_FLOOR", "R30_LANDING_FLOOR"],
+  "tile_m": 0.9,
+  "repeat_m": 3.6,
+  "joint_m": 0.0018,
+  "roughness": 0.32,
+  "normal_strength": 0.18,
+  "limits": [
+    "Source photographs support pale stone floor slabs and fine joints. 0.9m square grid is a replaceable appearance candidate, not a traced joint schedule.",
+    "Grid direction follows canonical plan axes; actual orientation, module, colour and polish require photo calibration. No geometry displacement.",
+    "Only Grand Hall ground floor, lower foyer and upper lift landing are included; timber galleries, exterior paving, stair treads and other rooms are retained.",
+    "Texture is procedural, not a scan or a restoration claim. Boolean floor openings and shared mesh optimizations must survive unchanged."
+  ]
+}

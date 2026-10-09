@@ -1,0 +1,28 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R43_TAS_DOSEME_YUZEYI_v001.blend",
+  "evaluated_geometry_objects_checked": 7340,
+  "geometry_identical": true,
+  "uv_checks": [
+    {
+      "name": "P05_FLOOR_L00_GH",
+      "faces": 4,
+      "max_uv_error": 0.0
+    },
+    {
+      "name": "R29_FOYER_FLOOR",
+      "faces": 1,
+      "max_uv_error": 0.0
+    },
+    {
+      "name": "R30_LANDING_FLOOR",
+      "faces": 1,
+      "max_uv_error": 0.0
+    }
+  ],
+  "packed_images": [
+    "R43_stone_floor_candidate_basecolor.png",
+    "R43_stone_floor_candidate_normal.png"
+  ],
+  "failures": [],
+  "construction_acceptance": false
+}

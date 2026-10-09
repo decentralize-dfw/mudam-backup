@@ -1,0 +1,1100 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R40_ALT_CEPHE_PENCERELERI_v001.blend",
+  "evaluated_solids": [
+    {
+      "name": "R40_WINDOW_01_JAMB_L",
+      "volume": 0.8482494732082904,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R40_WINDOW_01_JAMB_R",
+      "volume": 0.8482488974968505,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R40_WINDOW_01_SILL",
+      "volume": 0.7214997424759557,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R40_WINDOW_01_HEAD",
+      "volume": 0.7215004691879221,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R40_WINDOW_01_FRAME_L",
+      "volume": 0.011050128657362546,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R40_WINDOW_01_FRAME_R",
+      "volume": 0.011050208756745006,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R40_WINDOW_01_FRAME_B",
+      "volume": 0.008450141286730143,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R40_WINDOW_01_FRAME_T",
+      "volume": 0.008450141286733798,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R40_WINDOW_01_GLASS",
+      "volume": 0.033065979426457906,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R40_WINDOW_02_JAMB_L",
+      "volume": 0.8482503666597441,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R40_WINDOW_02_JAMB_R",
+      "volume": 0.8482464595921115,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R40_WINDOW_02_SILL",
+      "volume": 0.7214997494600068,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R40_WINDOW_02_HEAD",
+      "volume": 0.7215005998570445,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R40_WINDOW_02_FRAME_L",
+      "volume": 0.011050198629908192,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R40_WINDOW_02_FRAME_R",
+      "volume": 0.01105012774204725,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R40_WINDOW_02_FRAME_B",
+      "volume": 0.008450142098493468,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R40_WINDOW_02_FRAME_T",
+      "volume": 0.00845014209848649,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R40_WINDOW_02_GLASS",
+      "volume": 0.033065989527463216,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R40_WINDOW_03_JAMB_L",
+      "volume": 0.8482485698044848,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R40_WINDOW_03_JAMB_R",
+      "volume": 0.8482464704026973,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R40_WINDOW_03_SILL",
+      "volume": 0.7214997157846936,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R40_WINDOW_03_HEAD",
+      "volume": 0.7215005646394885,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R40_WINDOW_03_FRAME_L",
+      "volume": 0.011050128657362934,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R40_WINDOW_03_FRAME_R",
+      "volume": 0.011050290686758613,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R40_WINDOW_03_FRAME_B",
+      "volume": 0.008450145508628215,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R40_WINDOW_03_FRAME_T",
+      "volume": 0.008450145508618778,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R40_WINDOW_03_GLASS",
+      "volume": 0.03306598616046327,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R40_WINDOW_04_JAMB_L",
+      "volume": 0.8482486600898214,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R40_WINDOW_04_JAMB_R",
+      "volume": 0.8482493820864754,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R40_WINDOW_04_SILL",
+      "volume": 0.7214989449185438,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R40_WINDOW_04_HEAD",
+      "volume": 0.7214994391398584,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R40_WINDOW_04_FRAME_L",
+      "volume": 0.011050102478102897,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R40_WINDOW_04_FRAME_R",
+      "volume": 0.01105042653689492,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R40_WINDOW_04_FRAME_B",
+      "volume": 0.008450148044035398,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R40_WINDOW_04_FRAME_T",
+      "volume": 0.008450148044040061,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R40_WINDOW_04_GLASS",
+      "volume": 0.0330659594814475,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R40_WINDOW_05_JAMB_L",
+      "volume": 0.8482476847621085,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R40_WINDOW_05_JAMB_R",
+      "volume": 0.848255674337608,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R40_WINDOW_05_SILL",
+      "volume": 0.7214985911623613,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R40_WINDOW_05_HEAD",
+      "volume": 0.721499089357986,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R40_WINDOW_05_FRAME_L",
+      "volume": 0.01104978207438756,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R40_WINDOW_05_FRAME_R",
+      "volume": 0.011050430191972493,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R40_WINDOW_05_FRAME_B",
+      "volume": 0.008450138452149557,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R40_WINDOW_05_FRAME_T",
+      "volume": 0.008450138452156516,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R40_WINDOW_05_GLASS",
+      "volume": 0.033066020327409795,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R27_BAY_1_BLIND_BACK",
+      "volume": 9.433868275735858,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R35_WALL_51946353_00_0",
+      "volume": 209.72513883318484,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R27_BAY_2_BASE",
+      "volume": 4.951765731211078,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R27_BAY_3_BLIND_BACK",
+      "volume": 9.433867118425852,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R27_BAY_4_BASE",
+      "volume": 4.951767846465101,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R27_BAY_5_BLIND_BACK",
+      "volume": 9.433865272796893,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    }
+  ],
+  "exterior_rays": [
+    {
+      "window": 1,
+      "offset": [
+        -0.38,
+        -0.5
+      ],
+      "first_hit": [
+        5.981998440449627,
+        "R40_WINDOW_01_GLASS"
+      ],
+      "hits": [
+        [
+          5.981998440449627,
+          "R40_WINDOW_01_GLASS"
+        ]
+      ]
+    },
+    {
+      "window": 1,
+      "offset": [
+        -0.38,
+        0
+      ],
+      "first_hit": [
+        5.981998440449627,
+        "R40_WINDOW_01_GLASS"
+      ],
+      "hits": [
+        [
+          5.981998440449627,
+          "R40_WINDOW_01_GLASS"
+        ]
+      ]
+    },
+    {
+      "window": 1,
+      "offset": [
+        -0.38,
+        0.5
+      ],
+      "first_hit": [
+        5.981998440449627,
+        "R40_WINDOW_01_GLASS"
+      ],
+      "hits": [
+        [
+          5.981998440449627,
+          "R40_WINDOW_01_GLASS"
+        ]
+      ]
+    },
+    {
+      "window": 1,
+      "offset": [
+        0,
+        -0.5
+      ],
+      "first_hit": [
+        5.981998440449627,
+        "R40_WINDOW_01_GLASS"
+      ],
+      "hits": [
+        [
+          5.981998440449627,
+          "R40_WINDOW_01_GLASS"
+        ]
+      ]
+    },
+    {
+      "window": 1,
+      "offset": [
+        0,
+        0
+      ],
+      "first_hit": [
+        5.981998440449627,
+        "R40_WINDOW_01_GLASS"
+      ],
+      "hits": [
+        [
+          5.981998440449627,
+          "R40_WINDOW_01_GLASS"
+        ]
+      ]
+    },
+    {
+      "window": 1,
+      "offset": [
+        0,
+        0.5
+      ],
+      "first_hit": [
+        5.981998440449627,
+        "R40_WINDOW_01_GLASS"
+      ],
+      "hits": [
+        [
+          5.981998440449627,
+          "R40_WINDOW_01_GLASS"
+        ]
+      ]
+    },
+    {
+      "window": 1,
+      "offset": [
+        0.38,
+        -0.5
+      ],
+      "first_hit": [
+        5.9820022666251935,
+        "R40_WINDOW_01_GLASS"
+      ],
+      "hits": [
+        [
+          5.9820022666251935,
+          "R40_WINDOW_01_GLASS"
+        ]
+      ]
+    },
+    {
+      "window": 1,
+      "offset": [
+        0.38,
+        0
+      ],
+      "first_hit": [
+        5.9820022666251935,
+        "R40_WINDOW_01_GLASS"
+      ],
+      "hits": [
+        [
+          5.9820022666251935,
+          "R40_WINDOW_01_GLASS"
+        ]
+      ]
+    },
+    {
+      "window": 1,
+      "offset": [
+        0.38,
+        0.5
+      ],
+      "first_hit": [
+        5.9820022666251935,
+        "R40_WINDOW_01_GLASS"
+      ],
+      "hits": [
+        [
+          5.9820022666251935,
+          "R40_WINDOW_01_GLASS"
+        ]
+      ]
+    },
+    {
+      "window": 2,
+      "offset": [
+        -0.38,
+        -0.5
+      ],
+      "first_hit": [
+        5.981998440449627,
+        "R40_WINDOW_02_GLASS"
+      ],
+      "hits": [
+        [
+          5.981998440449627,
+          "R40_WINDOW_02_GLASS"
+        ]
+      ]
+    },
+    {
+      "window": 2,
+      "offset": [
+        -0.38,
+        0
+      ],
+      "first_hit": [
+        5.981998440449627,
+        "R40_WINDOW_02_GLASS"
+      ],
+      "hits": [
+        [
+          5.981998440449627,
+          "R40_WINDOW_02_GLASS"
+        ]
+      ]
+    },
+    {
+      "window": 2,
+      "offset": [
+        -0.38,
+        0.5
+      ],
+      "first_hit": [
+        5.981998440449627,
+        "R40_WINDOW_02_GLASS"
+      ],
+      "hits": [
+        [
+          5.981998440449627,
+          "R40_WINDOW_02_GLASS"
+        ]
+      ]
+    },
+    {
+      "window": 2,
+      "offset": [
+        0,
+        -0.5
+      ],
+      "first_hit": [
+        5.981998440449627,
+        "R40_WINDOW_02_GLASS"
+      ],
+      "hits": [
+        [
+          5.981998440449627,
+          "R40_WINDOW_02_GLASS"
+        ]
+      ]
+    },
+    {
+      "window": 2,
+      "offset": [
+        0,
+        0
+      ],
+      "first_hit": [
+        5.981998440449627,
+        "R40_WINDOW_02_GLASS"
+      ],
+      "hits": [
+        [
+          5.981998440449627,
+          "R40_WINDOW_02_GLASS"
+        ]
+      ]
+    },
+    {
+      "window": 2,
+      "offset": [
+        0,
+        0.5
+      ],
+      "first_hit": [
+        5.981998440449627,
+        "R40_WINDOW_02_GLASS"
+      ],
+      "hits": [
+        [
+          5.981998440449627,
+          "R40_WINDOW_02_GLASS"
+        ]
+      ]
+    },
+    {
+      "window": 2,
+      "offset": [
+        0.38,
+        -0.5
+      ],
+      "first_hit": [
+        5.982002270673067,
+        "R40_WINDOW_02_GLASS"
+      ],
+      "hits": [
+        [
+          5.982002270673067,
+          "R40_WINDOW_02_GLASS"
+        ]
+      ]
+    },
+    {
+      "window": 2,
+      "offset": [
+        0.38,
+        0
+      ],
+      "first_hit": [
+        5.982002270673067,
+        "R40_WINDOW_02_GLASS"
+      ],
+      "hits": [
+        [
+          5.982002270673067,
+          "R40_WINDOW_02_GLASS"
+        ]
+      ]
+    },
+    {
+      "window": 2,
+      "offset": [
+        0.38,
+        0.5
+      ],
+      "first_hit": [
+        5.981998440449627,
+        "R40_WINDOW_02_GLASS"
+      ],
+      "hits": [
+        [
+          5.981998440449627,
+          "R40_WINDOW_02_GLASS"
+        ]
+      ]
+    },
+    {
+      "window": 3,
+      "offset": [
+        -0.38,
+        -0.5
+      ],
+      "first_hit": [
+        5.9819984320425,
+        "R40_WINDOW_03_GLASS"
+      ],
+      "hits": [
+        [
+          5.9819984320425,
+          "R40_WINDOW_03_GLASS"
+        ]
+      ]
+    },
+    {
+      "window": 3,
+      "offset": [
+        -0.38,
+        0
+      ],
+      "first_hit": [
+        5.9819984488567535,
+        "R40_WINDOW_03_GLASS"
+      ],
+      "hits": [
+        [
+          5.9819984488567535,
+          "R40_WINDOW_03_GLASS"
+        ]
+      ]
+    },
+    {
+      "window": 3,
+      "offset": [
+        -0.38,
+        0.5
+      ],
+      "first_hit": [
+        5.9819984320425,
+        "R40_WINDOW_03_GLASS"
+      ],
+      "hits": [
+        [
+          5.9819984320425,
+          "R40_WINDOW_03_GLASS"
+        ]
+      ]
+    },
+    {
+      "window": 3,
+      "offset": [
+        0,
+        -0.5
+      ],
+      "first_hit": [
+        5.9819984488567535,
+        "R40_WINDOW_03_GLASS"
+      ],
+      "hits": [
+        [
+          5.9819984488567535,
+          "R40_WINDOW_03_GLASS"
+        ]
+      ]
+    },
+    {
+      "window": 3,
+      "offset": [
+        0,
+        0
+      ],
+      "first_hit": [
+        5.9819984488567535,
+        "R40_WINDOW_03_GLASS"
+      ],
+      "hits": [
+        [
+          5.9819984488567535,
+          "R40_WINDOW_03_GLASS"
+        ]
+      ]
+    },
+    {
+      "window": 3,
+      "offset": [
+        0,
+        0.5
+      ],
+      "first_hit": [
+        5.9819984488567535,
+        "R40_WINDOW_03_GLASS"
+      ],
+      "hits": [
+        [
+          5.9819984488567535,
+          "R40_WINDOW_03_GLASS"
+        ]
+      ]
+    },
+    {
+      "window": 3,
+      "offset": [
+        0.38,
+        -0.5
+      ],
+      "first_hit": [
+        5.982002275032315,
+        "R40_WINDOW_03_GLASS"
+      ],
+      "hits": [
+        [
+          5.982002275032315,
+          "R40_WINDOW_03_GLASS"
+        ]
+      ]
+    },
+    {
+      "window": 3,
+      "offset": [
+        0.38,
+        0
+      ],
+      "first_hit": [
+        5.9819984488567535,
+        "R40_WINDOW_03_GLASS"
+      ],
+      "hits": [
+        [
+          5.9819984488567535,
+          "R40_WINDOW_03_GLASS"
+        ]
+      ]
+    },
+    {
+      "window": 3,
+      "offset": [
+        0.38,
+        0.5
+      ],
+      "first_hit": [
+        5.9819984488567535,
+        "R40_WINDOW_03_GLASS"
+      ],
+      "hits": [
+        [
+          5.9819984488567535,
+          "R40_WINDOW_03_GLASS"
+        ]
+      ]
+    },
+    {
+      "window": 4,
+      "offset": [
+        -0.38,
+        -0.5
+      ],
+      "first_hit": [
+        5.9819984320425,
+        "R40_WINDOW_04_GLASS"
+      ],
+      "hits": [
+        [
+          5.9819984320425,
+          "R40_WINDOW_04_GLASS"
+        ]
+      ]
+    },
+    {
+      "window": 4,
+      "offset": [
+        -0.38,
+        0
+      ],
+      "first_hit": [
+        5.9819984320425,
+        "R40_WINDOW_04_GLASS"
+      ],
+      "hits": [
+        [
+          5.9819984320425,
+          "R40_WINDOW_04_GLASS"
+        ]
+      ]
+    },
+    {
+      "window": 4,
+      "offset": [
+        -0.38,
+        0.5
+      ],
+      "first_hit": [
+        5.9819984320425,
+        "R40_WINDOW_04_GLASS"
+      ],
+      "hits": [
+        [
+          5.9819984320425,
+          "R40_WINDOW_04_GLASS"
+        ]
+      ]
+    },
+    {
+      "window": 4,
+      "offset": [
+        0,
+        -0.5
+      ],
+      "first_hit": [
+        5.9819984320425,
+        "R40_WINDOW_04_GLASS"
+      ],
+      "hits": [
+        [
+          5.9819984320425,
+          "R40_WINDOW_04_GLASS"
+        ]
+      ]
+    },
+    {
+      "window": 4,
+      "offset": [
+        0,
+        0
+      ],
+      "first_hit": [
+        5.9819984320425,
+        "R40_WINDOW_04_GLASS"
+      ],
+      "hits": [
+        [
+          5.9819984320425,
+          "R40_WINDOW_04_GLASS"
+        ]
+      ]
+    },
+    {
+      "window": 4,
+      "offset": [
+        0,
+        0.5
+      ],
+      "first_hit": [
+        5.9819984320425,
+        "R40_WINDOW_04_GLASS"
+      ],
+      "hits": [
+        [
+          5.9819984320425,
+          "R40_WINDOW_04_GLASS"
+        ]
+      ]
+    },
+    {
+      "window": 4,
+      "offset": [
+        0.38,
+        -0.5
+      ],
+      "first_hit": [
+        5.9819984320425,
+        "R40_WINDOW_04_GLASS"
+      ],
+      "hits": [
+        [
+          5.9819984320425,
+          "R40_WINDOW_04_GLASS"
+        ]
+      ]
+    },
+    {
+      "window": 4,
+      "offset": [
+        0.38,
+        0
+      ],
+      "first_hit": [
+        5.9819984320425,
+        "R40_WINDOW_04_GLASS"
+      ],
+      "hits": [
+        [
+          5.9819984320425,
+          "R40_WINDOW_04_GLASS"
+        ]
+      ]
+    },
+    {
+      "window": 4,
+      "offset": [
+        0.38,
+        0.5
+      ],
+      "first_hit": [
+        5.9819984320425,
+        "R40_WINDOW_04_GLASS"
+      ],
+      "hits": [
+        [
+          5.9819984320425,
+          "R40_WINDOW_04_GLASS"
+        ]
+      ]
+    },
+    {
+      "window": 5,
+      "offset": [
+        -0.38,
+        -0.5
+      ],
+      "first_hit": [
+        5.982002291535183,
+        "R40_WINDOW_05_GLASS"
+      ],
+      "hits": [
+        [
+          5.982002291535183,
+          "R40_WINDOW_05_GLASS"
+        ]
+      ]
+    },
+    {
+      "window": 5,
+      "offset": [
+        -0.38,
+        0
+      ],
+      "first_hit": [
+        5.982002291535183,
+        "R40_WINDOW_05_GLASS"
+      ],
+      "hits": [
+        [
+          5.982002291535183,
+          "R40_WINDOW_05_GLASS"
+        ]
+      ]
+    },
+    {
+      "window": 5,
+      "offset": [
+        -0.38,
+        0.5
+      ],
+      "first_hit": [
+        5.982002291535183,
+        "R40_WINDOW_05_GLASS"
+      ],
+      "hits": [
+        [
+          5.982002291535183,
+          "R40_WINDOW_05_GLASS"
+        ]
+      ]
+    },
+    {
+      "window": 5,
+      "offset": [
+        0,
+        -0.5
+      ],
+      "first_hit": [
+        5.982002291535183,
+        "R40_WINDOW_05_GLASS"
+      ],
+      "hits": [
+        [
+          5.982002291535183,
+          "R40_WINDOW_05_GLASS"
+        ]
+      ]
+    },
+    {
+      "window": 5,
+      "offset": [
+        0,
+        0
+      ],
+      "first_hit": [
+        5.982002291535183,
+        "R40_WINDOW_05_GLASS"
+      ],
+      "hits": [
+        [
+          5.982002291535183,
+          "R40_WINDOW_05_GLASS"
+        ]
+      ]
+    },
+    {
+      "window": 5,
+      "offset": [
+        0,
+        0.5
+      ],
+      "first_hit": [
+        5.982002291535183,
+        "R40_WINDOW_05_GLASS"
+      ],
+      "hits": [
+        [
+          5.982002291535183,
+          "R40_WINDOW_05_GLASS"
+        ]
+      ]
+    },
+    {
+      "window": 5,
+      "offset": [
+        0.38,
+        -0.5
+      ],
+      "first_hit": [
+        5.982002291535183,
+        "R40_WINDOW_05_GLASS"
+      ],
+      "hits": [
+        [
+          5.982002291535183,
+          "R40_WINDOW_05_GLASS"
+        ]
+      ]
+    },
+    {
+      "window": 5,
+      "offset": [
+        0.38,
+        0
+      ],
+      "first_hit": [
+        5.982002291535183,
+        "R40_WINDOW_05_GLASS"
+      ],
+      "hits": [
+        [
+          5.982002291535183,
+          "R40_WINDOW_05_GLASS"
+        ]
+      ]
+    },
+    {
+      "window": 5,
+      "offset": [
+        0.38,
+        0.5
+      ],
+      "first_hit": [
+        5.982002291535183,
+        "R40_WINDOW_05_GLASS"
+      ],
+      "hits": [
+        [
+          5.982002291535183,
+          "R40_WINDOW_05_GLASS"
+        ]
+      ]
+    }
+  ],
+  "upper_window_regression": [
+    {
+      "bay": 2,
+      "hits": [
+        [
+          3.9820012237119538,
+          "R27_BAY_2_GLASS"
+        ]
+      ]
+    },
+    {
+      "bay": 4,
+      "hits": [
+        [
+          3.9820012071062574,
+          "R27_BAY_4_GLASS"
+        ]
+      ]
+    }
+  ],
+  "failures": [],
+  "construction_acceptance": false
+}

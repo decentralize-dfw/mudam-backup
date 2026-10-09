@@ -1,0 +1,46 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R39_GIRIS_TAVAN_BUTUNLUGU_v001.blend",
+  "base_scene": "12_Blender_Model/scenes/MUDAM_R38_PARK_YAKLASIM_v003.blend",
+  "inherited_objects_checked": 7278,
+  "changed_inherited_objects": [
+    "R33_WALL_WC_E_N",
+    "R33_WALL_WC_E_W",
+    "R33_WALL_WC_E_S",
+    "R33_WALL_WC_W_N",
+    "R33_WALL_WC_W_E",
+    "R33_WALL_WC_W_S"
+  ],
+  "allowed_changes": [
+    "R33_WALL_WC_E_N",
+    "R33_WALL_WC_E_S",
+    "R33_WALL_WC_E_W",
+    "R33_WALL_WC_W_E",
+    "R33_WALL_WC_W_N",
+    "R33_WALL_WC_W_S"
+  ],
+  "allowed_but_unchanged": [],
+  "new_objects": [
+    "R39_PUBLIC_CEILING_00",
+    "R39_PUBLIC_CEILING_01",
+    "R39_PUBLIC_CEILING_02",
+    "R39_PUBLIC_CEILING_03",
+    "R39_PUBLIC_CEILING_04",
+    "R39_PUBLIC_CEILING_05",
+    "R39_PUBLIC_CEILING_06",
+    "R39_PUBLIC_CEILING_07",
+    "R39_PUBLIC_CEILING_08",
+    "R39_PUBLIC_CEILING_09",
+    "R39_PUBLIC_CEILING_10",
+    "R39_PUBLIC_CEILING_11",
+    "R39_PUBLIC_CEILING_12",
+    "R39_PUBLIC_CEILING_13",
+    "R39_PUBLIC_CEILING_14",
+    "R39_PUBLIC_CEILING_15",
+    "R39_PUBLIC_CEILING_16",
+    "R39_PUBLIC_CEILING_17",
+    "R39_PUBLIC_CEILING_18",
+    "R39_PUBLIC_CEILING_19"
+  ],
+  "failures": [],
+  "construction_acceptance": false
+}

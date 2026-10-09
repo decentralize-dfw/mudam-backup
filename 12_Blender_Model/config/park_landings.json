@@ -1,0 +1,355 @@
+{
+  "base_scene": "MUDAM_R37_UST_GECIT_BASLIGI_v001.blend",
+  "source_ids": [
+    "063",
+    "096",
+    "116",
+    "OSM"
+  ],
+  "source_way_ids": [
+    "49911001",
+    "83345393",
+    "49910981",
+    "50643005"
+  ],
+  "ground_polygon": [
+    [
+      -15.195232727448456,
+      61.34625960420817
+    ],
+    [
+      38.993646855815314,
+      60.48645530734211
+    ],
+    [
+      43.590242947335355,
+      60.21138433460146
+    ],
+    [
+      48.21159639721736,
+      59.25634810887277
+    ],
+    [
+      53.63638696592534,
+      55.27635069284588
+    ],
+    [
+      56.72799956903327,
+      49.28125116787851
+    ],
+    [
+      56.9844646389829,
+      42.714986060746014
+    ],
+    [
+      53.50725413346663,
+      -10.473054740577936
+    ],
+    [
+      81.58321121882182,
+      3.0078856823965907
+    ],
+    [
+      76.87036930595059,
+      6.8828465500846505
+    ],
+    [
+      74.60570641269442,
+      11.23239313904196
+    ],
+    [
+      73.39825821632985,
+      21.31901903450489
+    ],
+    [
+      73.53615604288643,
+      27.035410625860095
+    ],
+    [
+      73.65083163802046,
+      31.951211160980165
+    ],
+    [
+      74.52246270887554,
+      56.38528950698674
+    ],
+    [
+      57.32276122662006,
+      78.41226654220372
+    ],
+    [
+      29.77271978976205,
+      79.3157465076074
+    ],
+    [
+      -9.143050477607176,
+      81.07489543780684
+    ]
+  ],
+  "ground_z": 0,
+  "ground_thickness_m": 0.3,
+  "tree_height_m": 8,
+  "tree_radius_m": 2.2,
+  "tree_trunk_radius_m": 0.16,
+  "trees": [
+    {
+      "id": "6380924935",
+      "xy": [
+        42.57191245036665,
+        72.7954361718148
+      ],
+      "tags": {
+        "leaf_type": "broadleaved",
+        "natural": "tree"
+      }
+    },
+    {
+      "id": "6380924936",
+      "xy": [
+        50.26561626023613,
+        71.42295541800559
+      ],
+      "tags": {
+        "leaf_type": "needleleaved",
+        "natural": "tree"
+      }
+    },
+    {
+      "id": "6380924937",
+      "xy": [
+        56.98416569276014,
+        68.75179348886013
+      ],
+      "tags": {
+        "leaf_type": "needleleaved",
+        "natural": "tree"
+      }
+    },
+    {
+      "id": "6380924938",
+      "xy": [
+        62.417998194810934,
+        64.05903863534331
+      ],
+      "tags": {
+        "leaf_type": "broadleaved",
+        "natural": "tree"
+      }
+    },
+    {
+      "id": "6380924939",
+      "xy": [
+        66.71223580650985,
+        58.30761495605111
+      ],
+      "tags": {
+        "leaf_type": "broadleaved",
+        "natural": "tree"
+      }
+    },
+    {
+      "id": "6380924940",
+      "xy": [
+        69.17297639878234,
+        52.45897059235722
+      ],
+      "tags": {
+        "leaf_type": "needleleaved",
+        "natural": "tree"
+      }
+    },
+    {
+      "id": "6380924941",
+      "xy": [
+        70.81130778160878,
+        44.00342622585595
+      ],
+      "tags": {
+        "leaf_type": "broadleaved",
+        "natural": "tree"
+      }
+    },
+    {
+      "id": "6380924942",
+      "xy": [
+        64.2032757505076,
+        43.687097548507154
+      ],
+      "tags": {
+        "leaf_type": "needleleaved",
+        "natural": "tree"
+      }
+    },
+    {
+      "id": "6380924943",
+      "xy": [
+        63.62643063929863,
+        50.57723446935415
+      ],
+      "tags": {
+        "leaf_type": "needleleaved",
+        "natural": "tree"
+      }
+    },
+    {
+      "id": "6380924944",
+      "xy": [
+        59.915445434337016,
+        56.451182012446225
+      ],
+      "tags": {
+        "leaf_type": "broadleaved",
+        "natural": "tree"
+      }
+    },
+    {
+      "id": "6380924945",
+      "xy": [
+        52.836099444306456,
+        62.186122277751565
+      ],
+      "tags": {
+        "leaf_type": "broadleaved",
+        "natural": "tree"
+      }
+    },
+    {
+      "id": "6380924946",
+      "xy": [
+        47.193552269251086,
+        65.19482547137886
+      ],
+      "tags": {
+        "leaf_type": "broadleaved",
+        "natural": "tree"
+      }
+    },
+    {
+      "id": "6380924947",
+      "xy": [
+        41.89760014193598,
+        66.09760812111199
+      ],
+      "tags": {
+        "leaf_type": "needleleaved",
+        "natural": "tree"
+      }
+    },
+    {
+      "id": "6380924948",
+      "xy": [
+        62.41807596932631,
+        20.14490531384945
+      ],
+      "tags": {
+        "leaf_type": "needleleaved",
+        "natural": "tree"
+      }
+    },
+    {
+      "id": "6380924949",
+      "xy": [
+        62.919435247196816,
+        10.129663328640163
+      ],
+      "tags": {
+        "natural": "tree"
+      }
+    },
+    {
+      "id": "6380924950",
+      "xy": [
+        63.98658919392619,
+        0.5381613112986088
+      ],
+      "tags": {
+        "natural": "tree"
+      }
+    },
+    {
+      "id": "6380924951",
+      "xy": [
+        60.125679671007674,
+        -6.082967769354582
+      ],
+      "tags": {
+        "natural": "tree"
+      }
+    },
+    {
+      "id": "6380924955",
+      "xy": [
+        69.00480108661577,
+        13.816484678536654
+      ],
+      "tags": {
+        "natural": "tree"
+      }
+    },
+    {
+      "id": "6380924956",
+      "xy": [
+        71.24007720680675,
+        5.082206804305315
+      ],
+      "tags": {
+        "natural": "tree"
+      }
+    }
+  ],
+  "osm_file": "10_Olcekli_Plan_ve_Fotograf_Analizi/kaynak_veri/mudam_osm_dogu.osm",
+  "osm_sha256": "52be5ce3d0eaa72f32a5091efbfdc2f6869666c8519eee7aa341f8135c40c057",
+  "ways_file": "10_Olcekli_Plan_ve_Fotograf_Analizi/kaynak_veri/osm_ways_utm.json",
+  "ways_sha256": "fb805c54850922d05d1a40130b77eec6654c54f2a0b89def5be0c3b3b58a70b0",
+  "limits": [
+    "Only entrance park strip between archived moat outer line and pedestrian centerline; outer boundary is a context crop, not a surveyed paving edge.",
+    "Flat zero elevation continues bridge candidate. Actual slope and substrate are unmeasured.",
+    "Tree XY positions are archived OSM nodes; species, height, trunk and crown dimensions are representative masses only.",
+    "No invented tree placement. Existing bridge deck is subtracted in plan; mapped trees intersecting deck are skipped and recorded.",
+    "063/116 show paved approach with trees; paving unit pattern, tree pits and exact planted boundaries remain open.",
+    "Main pedestrian line expanded by a candidate4m width; archived OSM has no width. This makes landing endpoints lie within paving rather than on the context boundary."
+  ],
+  "path_centerline": [
+    [
+      81.58321121882182,
+      3.0078856823965907
+    ],
+    [
+      76.87036930595059,
+      6.8828465500846505
+    ],
+    [
+      74.60570641269442,
+      11.23239313904196
+    ],
+    [
+      73.39825821632985,
+      21.31901903450489
+    ],
+    [
+      73.53615604288643,
+      27.035410625860095
+    ],
+    [
+      73.65083163802046,
+      31.951211160980165
+    ],
+    [
+      74.52246270887554,
+      56.38528950698674
+    ],
+    [
+      57.32276122662006,
+      78.41226654220372
+    ],
+    [
+      29.77271978976205,
+      79.3157465076074
+    ],
+    [
+      -9.143050477607176,
+      81.07489543780684
+    ]
+  ],
+  "path_width_m": 4
+}

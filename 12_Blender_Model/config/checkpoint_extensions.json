@@ -159,5 +159,115 @@
     "image": "R35_site_oblique.png",
     "description": "OSM çizgileriyle 20 duvar parçası ve ilk hendek zemini kuruldu. 21 kapalı hacim ve 122 köprü rota örneği denetlendi.",
     "limits": "Arazi kotları, duvar kalınlığı ve düz zemin temsilîdir. Moloz taş, tarihî açıklıklar, diğer hendek kolları ve park bitirilmedi."
+  },
+  {
+    "id": "R36",
+    "checks": [
+      "R36_verification.json",
+      "R36_inherited_verification.json"
+    ],
+    "tasks": [
+      "P08",
+      "P13"
+    ],
+    "report": "R36_KONTROL_RAPORU.md",
+    "title": "Cephe başlığı kaynak kontrolü / R36",
+    "image": "R36_photo116_context.png",
+    "description": "Beş fotoğraf noktasıyla başlık adayı 3,45 m oldu; 30 kapalı hacim ve 18 açıklık ışını denetlendi.",
+    "limits": "Kot ölçülmüş değildir. Derin cam denemesi vestiyerle çakıştığı için reddedildi; oda ve açıklık derinliği A01 kapsamında açık."
+  },
+  {
+    "id": "R37",
+    "checks": [
+      "R37_verification.json",
+      "R37_inherited_verification.json",
+      "R04_regression_on_R37.json"
+    ],
+    "tasks": [
+      "P07",
+      "P11"
+    ],
+    "report": "R37_KONTROL_RAPORU.md",
+    "title": "Üst geçit başlığı ve net açıklık / R37",
+    "image": "R37_portal_head_close.png",
+    "description": "026/033 ile metal başlık eklendi; 27 açıklık/başlık ışını ve R04 merdiven regresyonu geçti.",
+    "limits": "Başlık kesiti, mutlak kot ve çatı eğimi koşullu. Net açıklık artık başlığın alt yüzünden tanımlanıyor; tam bina kabulü yok."
+  },
+  {
+    "id": "R38",
+    "checks": [
+      "R38_verification.json",
+      "R38_inherited_verification.json"
+    ],
+    "tasks": [
+      "P18"
+    ],
+    "report": "R38_KONTROL_RAPORU.md",
+    "title": "Park bağlantıları ve kayıtlı ağaç konumları / R38",
+    "image": "R38_site_oblique.png",
+    "description": "39 kapalı hacim; 19 OSM ağacı ve 204 köprü/park rota örneği denetlendi.",
+    "limits": "Arazi düz kot adayı; ağaç boyu/taç ve 4 m yol genişliği temsilî. Tam peyzaj teslimi yok."
+  },
+  {
+    "id": "R39",
+    "checks": [
+      "R39_verification.json",
+      "R39_inherited_verification.json"
+    ],
+    "tasks": [
+      "P08",
+      "P16"
+    ],
+    "report": "R39_KONTROL_RAPORU.md",
+    "title": "Giriş tavan sürekliliği / R39",
+    "image": "R39_main_passage.png",
+    "description": "20 tavan hücresi; 230 kapsama, 18 geçit ışını ve 78 dolaşım örneği geçti.",
+    "limits": "Kot/kalınlık/derz koşullu. Asma tavan tesisatı ve armatür yerleşimi çözülmedi."
+  },
+  {
+    "id": "R41",
+    "checks": [
+      "R41_verification.json"
+    ],
+    "tasks": [
+      "P21"
+    ],
+    "report": "R41_KONTROL_RAPORU.md",
+    "title": "Ortak mesh verisi / R41",
+    "image": "R41_exterior.png",
+    "description": "7298 nesne yeniden açılıp karşılaştırıldı. Ayrı mesh verisi6327→3449; nesne kimlikleri ve mimari geometri korundu.",
+    "limits": "Yalnız veri optimizasyonu; ölçüm doğruluğu artmadı. R40 pencere denemesi reddedildi ve dahil edilmedi."
+  },
+  {
+    "id": "R42",
+    "checks": [
+      "R42_verification.json",
+      "R42_inherited_verification.json"
+    ],
+    "tasks": [
+      "P10",
+      "P19"
+    ],
+    "report": "R42_KONTROL_RAPORU.md",
+    "title": "Grand Hall çatı lamelleri / R42",
+    "image": "R42_hall_context.png",
+    "description": "026/049 ile42 cam panel altında902 kapalı lamel hacmi; cam açıklığı ve panel sınırları denetlendi.",
+    "limits": "Boyut/adım/açı aday. Gizli mekanizma ve045 kesin köşe kimliği açık; bütün çatı kabulü yok."
+  },
+  {
+    "id": "R43",
+    "checks": [
+      "R43_verification.json",
+      "R43_inherited_verification.json"
+    ],
+    "tasks": [
+      "P13",
+      "P16"
+    ],
+    "report": "R43_KONTROL_RAPORU.md",
+    "title": "Taş döşeme yüzeyleri / R43",
+    "image": "R43_foyer_floor.png",
+    "description": "Üç döşemede ince derzli yüzey adayı;7340 nesnenin değerlendirilmiş geometrisi değişmedi.",
+    "limits": "0,90m modül,derz,yön ve malzeme görünümü ölçülmüş değil. Kot ve açıklıklar korundu."
   }
 ]

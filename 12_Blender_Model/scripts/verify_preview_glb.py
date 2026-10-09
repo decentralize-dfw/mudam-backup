@@ -28,7 +28,7 @@ for im in g.get('images',[]):
  view=g['bufferViews'][im['bufferView']];offset=bin_start+view.get('byteOffset',0);payload=data[offset:offset+view['byteLength']];assert payload[:8]==b'\x89PNG\r\n\x1a\n'
  image_checks.append(dict(name=im.get('name'),embedded_bytes=len(payload),mime=im['mimeType']))
 for mi,m in enumerate(g.get('materials',[])):
- if not m.get('name','').startswith('R32_'):continue
+ if not m.get('name','').startswith(('R32_','R43_')):continue
  for usage,link in [('basecolor',m['pbrMetallicRoughness'].get('baseColorTexture')),('normal',m.get('normalTexture'))]:
   assert link,m['name'];tex=g['textures'][link['index']];im=g['images'][tex['source']];assert usage in im['name']
   uv='TEXCOORD_'+str(link.get('texCoord',0));count=0

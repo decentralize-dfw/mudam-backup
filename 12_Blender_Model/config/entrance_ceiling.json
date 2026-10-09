@@ -1,0 +1,130 @@
+{
+  "base_scene": "MUDAM_R38_PARK_YAKLASIM_v003.blend",
+  "source_ids": [
+    "014",
+    "017",
+    "102",
+    "103",
+    "PDF2016"
+  ],
+  "public_outer": [
+    [
+      466,
+      554
+    ],
+    [
+      689,
+      554
+    ],
+    [
+      689,
+      710
+    ],
+    [
+      616,
+      710
+    ],
+    [
+      594,
+      688
+    ],
+    [
+      558,
+      688
+    ],
+    [
+      537,
+      710
+    ],
+    [
+      466,
+      710
+    ]
+  ],
+  "existing_room_ceilings": {
+    "WC_E": [
+      [
+        470.9,
+        560.83
+      ],
+      [
+        555,
+        560.83
+      ],
+      [
+        555,
+        595.6
+      ],
+      [
+        470.9,
+        595.6
+      ]
+    ],
+    "WC_W": [
+      [
+        594.28,
+        560.83
+      ],
+      [
+        680.44,
+        560.83
+      ],
+      [
+        680.44,
+        595.6
+      ],
+      [
+        594.28,
+        595.6
+      ]
+    ],
+    "CLOAK": [
+      [
+        415.05,
+        619.27
+      ],
+      [
+        466.82,
+        619.27
+      ],
+      [
+        466.82,
+        672.35
+      ],
+      [
+        448.3,
+        672.35
+      ],
+      [
+        415.05,
+        639.1
+      ]
+    ],
+    "SHOP": [
+      [
+        470.93,
+        657.78
+      ],
+      [
+        526.52,
+        657.78
+      ],
+      [
+        526.52,
+        703.22
+      ],
+      [
+        470.93,
+        703.22
+      ]
+    ]
+  },
+  "ceiling_z": 4.35,
+  "ceiling_thickness_m": 0.15,
+  "limits": [
+    "Ceiling fills only ground entrance/service circulation below upper plan; upper reading room and studio floors remain untouched.",
+    "Plan footprint from102/103 and2016PDF; exact ceiling heights unmeasured,4.35m follows existing regional candidate.",
+    "014/017 support stone public finishes; fixture count, ducts and concealed structural slab not inferred.",
+    "WC/shop/cloak room ceiling footprints retain previous separate materials and geometry."
+  ]
+}

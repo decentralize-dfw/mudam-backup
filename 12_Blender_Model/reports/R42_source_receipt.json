@@ -1,0 +1,38 @@
+{
+  "sources": [
+    {
+      "id": "026",
+      "path": "04_Ic_Mekan/Grand_Hall/026_Grand_Hall_genel_gorunum_WikiArquitectura.jpg",
+      "sha256": "6293c8918dc238518c67a659d4e2b656e7df40aad983efe83accb892fc9666f2",
+      "source_url": "https://es.wikiarquitectura.com/edificio/museo-de-arte-moderno-grand-duc-jean-mudam/",
+      "credit": "WikiArquitectura; sayfadaki fotoğraf serisi Haziran 2019",
+      "source_date": "unknown; do not infer from download date",
+      "modified": false
+    },
+    {
+      "id": "049",
+      "path": "07_Yapi_Detaylari/Korkuluk_ve_Kupeste/049_Cam_korkuluk_ve_metal_kupeste_WikiArquitectura.jpg",
+      "sha256": "d39aa4b3dba46dce68828b42c1b92602234b213f897d24e9b4bdb41affc7c0df",
+      "source_url": "https://es.wikiarquitectura.com/edificio/museo-de-arte-moderno-grand-duc-jean-mudam/",
+      "credit": "WikiArquitectura; sayfadaki fotoğraf serisi Haziran 2019",
+      "source_date": "unknown; do not infer from download date",
+      "modified": false
+    },
+    {
+      "id": "102",
+      "path": "01_Kat_Planlari/Resmi_Kat_Semalari/102_Resmi_kat_semasi_zemin_0_Mudam.jpeg",
+      "sha256": "f4d1d1992e1e2d664d5bf5fddd6aedd760edb2931f398e52b5e13316acec2407",
+      "source_url": "https://www.mudam.com/fr/floor-plans",
+      "credit": "Mudam Luxembourg; kullanıcı tarafından verilen doğrudan bağlantı",
+      "source_date": "unknown; do not infer from download date",
+      "modified": false
+    }
+  ],
+  "config_sha256": "2f8e2ddc6de484e4f5f15c9f8a21706816630b74130dcc7cbf3469f9d9457a47",
+  "limits": [
+    "026 shows dense shading on the triangular facet to the right of the narrow vertical glass slot. 049 supports shading above the identified down-stair corner. Camera poses and exact module dimensions are not verified.",
+    "WEST-named lower Grand Hall facet at canonical688,334. Photo045 has the glass slot on its other side and is NOT accepted as proof for this facet; its atlas assignment needs renewed review. No mirroring to the other roof.",
+    "Pitch, width, thickness, angle, glass offset and exact count are visualization candidates, not measured or manufacturer specifications.",
+    "Open angle is one editable visual state. Actuator, cords, concealed supports and operating mechanism remain unmodelled because not resolved from available photographs."
+  ]
+}

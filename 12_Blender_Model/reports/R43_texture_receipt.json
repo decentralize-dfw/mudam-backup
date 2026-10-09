@@ -1,0 +1,24 @@
+{
+  "repeat_m": 3.6,
+  "tile_candidate_m": 0.9,
+  "maps": [
+    {
+      "path": "12_Blender_Model/textures/R43_stone_floor_candidate_basecolor.png",
+      "sha256": "10781af586ffd2778ec98ecdb99c44307f5c3839659968b785f2196767ec5424",
+      "size": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "path": "12_Blender_Model/textures/R43_stone_floor_candidate_normal.png",
+      "sha256": "7cee6e39dbf0379246ef3d3ddf50d9a8dad6555e482842eb5c3c7a37c736937d",
+      "size": [
+        2048,
+        2048
+      ]
+    }
+  ],
+  "scanned": false,
+  "colour_calibrated": false
+}

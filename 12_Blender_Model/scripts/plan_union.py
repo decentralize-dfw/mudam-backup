@@ -13,8 +13,9 @@ def inside(p,poly):
   if (a[1]>p[1])!=(b[1]>p[1]) and p[0]<(b[0]-a[0])*(p[1]-a[1])/(b[1]-a[1])+a[0]:result=not result
  return result
 
-def union(polygons,tol=1e-7):
- polys=[[tuple(map(float,p[:2])) for p in poly] for poly in polygons];edges=[(a,b) for poly in polys for a,b in zip(poly,poly[1:]+poly[:1]) if math.dist(a,b)>tol];boundary={}
+def union(polygons,tol=1e-7,subtract_polygons=None):
+ polys=[[tuple(map(float,p[:2])) for p in poly] for poly in polygons];cutters=[[tuple(map(float,p[:2])) for p in poly] for poly in (subtract_polygons or [])];edges=[(a,b) for poly in polys+cutters for a,b in zip(poly,poly[1:]+poly[:1]) if math.dist(a,b)>tol];boundary={}
+ def included(p):return any(inside(p,poly) for poly in polys) and not any(inside(p,poly) for poly in cutters)
  for a,b in edges:
   v=sub(b,a);length=math.hypot(*v);ts=[0.,1.]
   for c,d in edges:
@@ -30,7 +31,7 @@ def union(polygons,tol=1e-7):
   for t0,t1 in zip(ts,ts[1:]):
    if (t1-t0)*length<tol:continue
    p,q=add(a,v,t0),add(a,v,t1);m=add(a,v,(t0+t1)/2);eps=min(1e-5,(t1-t0)*length*.1);n=(-v[1]/length*eps,v[0]/length*eps)
-   left=any(inside(add(m,n,1),poly) for poly in polys);right=any(inside(add(m,n,-1),poly) for poly in polys)
+   left=included(add(m,n,1));right=included(add(m,n,-1))
    if left==right:continue
    if right:p,q=q,p
    k,j=tuple(round(x,6) for x in p),tuple(round(x,6) for x in q)

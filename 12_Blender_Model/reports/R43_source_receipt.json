@@ -1,0 +1,47 @@
+{
+  "sources": [
+    {
+      "id": "026",
+      "path": "04_Ic_Mekan/Grand_Hall/026_Grand_Hall_genel_gorunum_WikiArquitectura.jpg",
+      "sha256": "6293c8918dc238518c67a659d4e2b656e7df40aad983efe83accb892fc9666f2",
+      "source_url": "https://es.wikiarquitectura.com/edificio/museo-de-arte-moderno-grand-duc-jean-mudam/",
+      "credit": "WikiArquitectura; sayfadaki fotoğraf serisi Haziran 2019",
+      "source_date": "unknown; do not infer from download date",
+      "modified": false
+    },
+    {
+      "id": "051",
+      "path": "04_Ic_Mekan/Merdivenler_ve_Dolasim/051_Merdiven_ve_katlar_arasi_dolasim_WikiArquitectura.jpg",
+      "sha256": "102d7c8bfa88eb766ea7481a19493a77df6f9c3422e375ba82381fca153adcc0",
+      "source_url": "https://es.wikiarquitectura.com/edificio/museo-de-arte-moderno-grand-duc-jean-mudam/",
+      "credit": "WikiArquitectura; sayfadaki fotoğraf serisi Haziran 2019",
+      "source_date": "unknown; do not infer from download date",
+      "modified": false
+    },
+    {
+      "id": "055",
+      "path": "04_Ic_Mekan/Merdivenler_ve_Dolasim/055_Merdiven_ve_katlar_arasi_dolasim_WikiArquitectura.jpg",
+      "sha256": "d7f4f05fde3673a08285b617661c67c64d1c01477ac5a390795bb8b555402b5e",
+      "source_url": "https://es.wikiarquitectura.com/edificio/museo-de-arte-moderno-grand-duc-jean-mudam/",
+      "credit": "WikiArquitectura; sayfadaki fotoğraf serisi Haziran 2019",
+      "source_date": "unknown; do not infer from download date",
+      "modified": false
+    },
+    {
+      "id": "077",
+      "path": "04_Ic_Mekan/Asansor_ve_Servis/077_Asansor_ve_erisim_WikiArquitectura.jpg",
+      "sha256": "b340072636ba2b551d2e3b6a336b6c15f1f9060adb92f5f36a0e68bd24f6da2c",
+      "source_url": "https://es.wikiarquitectura.com/edificio/museo-de-arte-moderno-grand-duc-jean-mudam/",
+      "credit": "WikiArquitectura; sayfadaki fotoğraf serisi Haziran 2019",
+      "source_date": "unknown; do not infer from download date",
+      "modified": false
+    }
+  ],
+  "config_sha256": "3f8e135a8d7ad46a57a40fe55e9b14acbf5da6f5b78131074a36f50412f76b12",
+  "limits": [
+    "Source photographs support pale stone floor slabs and fine joints. 0.9m square grid is a replaceable appearance candidate, not a traced joint schedule.",
+    "Grid direction follows canonical plan axes; actual orientation, module, colour and polish require photo calibration. No geometry displacement.",
+    "Only Grand Hall ground floor, lower foyer and upper lift landing are included; timber galleries, exterior paving, stair treads and other rooms are retained.",
+    "Texture is procedural, not a scan or a restoration claim. Boolean floor openings and shared mesh optimizations must survive unchanged."
+  ]
+}

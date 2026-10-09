@@ -76,3 +76,6 @@ Push sonrasında üretim sürdü. 089 ile pavyon kulesinin sekizgen taslağı d�
 2026-10-09 02:46 UTC — R29–R35 ara üretim: alt galeriler, üst asansör sahanlığı, Studio; taş/ahşap UV adayları; zemin servis sınırları ve ana geçit düzeltmesi; OSM giriş köprüleri ve ilk hendek etüdü. Sahne dosyaları yeniden açıldı, bölgesel kontroller ve renderlar incelendi. R27 pencere–galeri sınırı ve R26 çatı başlığı–R02 üst açıklık çelişkileri açık kaydedildi. Tam bina kabulü yok; saatlik kayıt sonrasında üretim sürüyor.
 
 - 2026-10-09 02:49:07 UTC — `24a3276` origin/main normal push başarılı; HEAD ve origin/main eşleşti. R29–R35 sahneleri ve kaynak/kontrol kayıtları, 34.416.996 bayt güncel GLB (6694 mesh), paketli malzemeler ve R35 kesitleri gönderildi. Cephe–galeri ve çatı başlığı çelişkileri açık raporlandı. Üretim durmadı; cephe fotoğraf/plan kimliği araştırmasıyla sürüyor.
+
+
+2026-10-09 03:46 UTC — R36–R43 ara üretim: koşullu cephe başlık kotu; üst geçit başlığı ve açıklık düzeltmesi; park bağlantıları/19 OSM ağacı; giriş tavan sürekliliği; ortak mesh verisi; Grand Hall çatı lamelleri; taş döşeme yüzeyleri. R40 alt cephe pencereleri duvara oturmadığı için reddedildi. R41 ile GLB34,62→27,14MB; sonraki detaylar ayrıca eklendi. Tam bina tamamlanmadı. A01 cephe/oda,A04 arazi,A06 alt pencere ve A07 fotoğraf köşe kimliği açık; rutin onay beklemeden üretim sürüyor.

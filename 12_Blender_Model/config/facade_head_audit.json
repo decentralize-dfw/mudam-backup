@@ -1,0 +1,24 @@
+{
+  "base_scene": "MUDAM_R35_HENDEK_CEVRE_ETUDU_v001.blend",
+  "old_head_z": 4.35,
+  "new_head_z": 3.45,
+  "sill_z": 0.08,
+  "source_ids": [
+    "004",
+    "061",
+    "062",
+    "116"
+  ],
+  "status": "conditional_camera_supported_height_revision",
+  "limits": [
+    "Reading interval excludes camera pose, plane, source registration and height errors. It is NOT a total accuracy estimate.",
+    "Head point identities manually interpreted on 116. 3.45m is rounded visual candidate, not measured height.",
+    "Photo 062 room assignment and A01 plan conflict remain unresolved.",
+    "004 shows window glazing deeper than blind backing. Additional 1.25m window recess is a visual candidate, not measured.",
+    "R36 v001 threshold projected unsupported beyond blind base and was rejected; v002 places threshold behind blind plane.",
+    "v002 deeper glass trial intersected R33_WALL_CLOAK_W. It is rejected; v003 applies only height revision and leaves all XY geometry unchanged."
+  ],
+  "glass_depth_m": 2.5,
+  "wall_depth_m": 2.85,
+  "blind_depth_m": 1.25
+}

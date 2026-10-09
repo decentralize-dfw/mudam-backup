@@ -1,0 +1,48 @@
+{
+  "sources": [
+    {
+      "id": "026",
+      "path": "04_Ic_Mekan/Grand_Hall/026_Grand_Hall_genel_gorunum_WikiArquitectura.jpg",
+      "sha256": "6293c8918dc238518c67a659d4e2b656e7df40aad983efe83accb892fc9666f2",
+      "source_url": "https://es.wikiarquitectura.com/edificio/museo-de-arte-moderno-grand-duc-jean-mudam/",
+      "credit": "WikiArquitectura; sayfadaki fotoğraf serisi Haziran 2019",
+      "source_date": "unknown; do not infer from download date",
+      "modified": false
+    },
+    {
+      "id": "033",
+      "path": "04_Ic_Mekan/Cam_Ortulu_Salonlar/033_Cam_ortulu_sergi_salonu_WikiArquitectura.jpg",
+      "sha256": "e791baaab4dc753e8c8ffdb82f7d1ea8c40a2fca36127dfe26a5e822c6976d18",
+      "source_url": "https://es.wikiarquitectura.com/edificio/museo-de-arte-moderno-grand-duc-jean-mudam/",
+      "credit": "WikiArquitectura; sayfadaki fotoğraf serisi Haziran 2019",
+      "source_date": "unknown; do not infer from download date",
+      "modified": false
+    },
+    {
+      "id": "102",
+      "path": "01_Kat_Planlari/Resmi_Kat_Semalari/102_Resmi_kat_semasi_zemin_0_Mudam.jpeg",
+      "sha256": "f4d1d1992e1e2d664d5bf5fddd6aedd760edb2931f398e52b5e13316acec2407",
+      "source_url": "https://www.mudam.com/fr/floor-plans",
+      "credit": "Mudam Luxembourg; kullanıcı tarafından verilen doğrudan bağlantı",
+      "source_date": "unknown; do not infer from download date",
+      "modified": false
+    },
+    {
+      "id": "PDF2016",
+      "path": "08_Belgeler/Mudam_Wim_Delvoye_2016_kat_semalari.pdf",
+      "sha256": "f2b04806918ac0ac6ac2e8cad98b3cdd143986b62fe102410aeca6b5aa101128",
+      "source_url": null,
+      "credit": "Mudam, Wim Delvoye 2016 press kit, page 5; existing local calibration source",
+      "source_date": "2016",
+      "modified": false,
+      "provenance_gap": "Exact original download URL not retained in local inventory"
+    }
+  ],
+  "config_sha256": "7d85e4b2596f08dd18bc033326e695eead2dd2065393b8399b1f1d5bc5f24c39",
+  "limits": [
+    "026 and 033 show a metal head spanning the open portal below glazed roof.",
+    "Clear head uses underside of .28m candidate member below roof reference 9.718577m. Neither member size nor absolute roof height is surveyed.",
+    "Prior R04 ray at9.518577 lies inside photographed member zone; original failing report retained, new soffit contract separately tested.",
+    "R26 strip slope/profile counts remain conditional; this does not validate entire roof."
+  ]
+}

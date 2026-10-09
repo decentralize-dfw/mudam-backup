@@ -1,0 +1,4877 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R42_CATI_GUNES_KIRICI_v002.blend",
+  "base_scene": "MUDAM_R41_MESH_PAYLASIMI_v001.blend",
+  "closed_objects": [
+    "R42_SHADE_00_00",
+    "R42_SHADE_01_00",
+    "R42_SHADE_01_01",
+    "R42_SHADE_02_00",
+    "R42_SHADE_02_01",
+    "R42_SHADE_02_02",
+    "R42_SHADE_03_00",
+    "R42_SHADE_03_01",
+    "R42_SHADE_03_02",
+    "R42_SHADE_03_03",
+    "R42_SHADE_04_00",
+    "R42_SHADE_04_01",
+    "R42_SHADE_04_02",
+    "R42_SHADE_04_03",
+    "R42_SHADE_04_04",
+    "R42_SHADE_05_00",
+    "R42_SHADE_05_01",
+    "R42_SHADE_05_02",
+    "R42_SHADE_05_03",
+    "R42_SHADE_05_04",
+    "R42_SHADE_05_05",
+    "R42_SHADE_06_00",
+    "R42_SHADE_06_01",
+    "R42_SHADE_06_02",
+    "R42_SHADE_06_03",
+    "R42_SHADE_06_04",
+    "R42_SHADE_06_05",
+    "R42_SHADE_07_00",
+    "R42_SHADE_07_01",
+    "R42_SHADE_07_02",
+    "R42_SHADE_07_03",
+    "R42_SHADE_07_04",
+    "R42_SHADE_08_00",
+    "R42_SHADE_08_01",
+    "R42_SHADE_08_02",
+    "R42_SHADE_08_03",
+    "R42_SHADE_09_00",
+    "R42_SHADE_09_01",
+    "R42_SHADE_09_02",
+    "R42_SHADE_10_00",
+    "R42_SHADE_10_01",
+    "R42_SHADE_11_00"
+  ],
+  "changed_inherited_objects": [],
+  "shading_arrays": [
+    {
+      "name": "R42_SHADE_00_00",
+      "parent_glass": "P11_GH_LOWER_WEST_00_00",
+      "slats": [
+        {
+          "index": -21,
+          "vertex_start": 0,
+          "vertex_count": 8
+        },
+        {
+          "index": -20,
+          "vertex_start": 8,
+          "vertex_count": 8
+        },
+        {
+          "index": -19,
+          "vertex_start": 16,
+          "vertex_count": 8
+        },
+        {
+          "index": -18,
+          "vertex_start": 24,
+          "vertex_count": 8
+        },
+        {
+          "index": -17,
+          "vertex_start": 32,
+          "vertex_count": 8
+        },
+        {
+          "index": -16,
+          "vertex_start": 40,
+          "vertex_count": 8
+        },
+        {
+          "index": -15,
+          "vertex_start": 48,
+          "vertex_count": 8
+        },
+        {
+          "index": -14,
+          "vertex_start": 56,
+          "vertex_count": 8
+        },
+        {
+          "index": -13,
+          "vertex_start": 64,
+          "vertex_count": 8
+        },
+        {
+          "index": -12,
+          "vertex_start": 72,
+          "vertex_count": 8
+        },
+        {
+          "index": -11,
+          "vertex_start": 80,
+          "vertex_count": 8
+        },
+        {
+          "index": -10,
+          "vertex_start": 88,
+          "vertex_count": 8
+        },
+        {
+          "index": -9,
+          "vertex_start": 96,
+          "vertex_count": 8
+        },
+        {
+          "index": -8,
+          "vertex_start": 104,
+          "vertex_count": 8
+        },
+        {
+          "index": -7,
+          "vertex_start": 112,
+          "vertex_count": 8
+        },
+        {
+          "index": -6,
+          "vertex_start": 120,
+          "vertex_count": 8
+        },
+        {
+          "index": -5,
+          "vertex_start": 128,
+          "vertex_count": 8
+        },
+        {
+          "index": -4,
+          "vertex_start": 136,
+          "vertex_count": 8
+        },
+        {
+          "index": -3,
+          "vertex_start": 144,
+          "vertex_count": 8
+        },
+        {
+          "index": -2,
+          "vertex_start": 152,
+          "vertex_count": 8
+        }
+      ],
+      "slat_count": 20
+    },
+    {
+      "name": "R42_SHADE_01_00",
+      "parent_glass": "P11_GH_LOWER_WEST_01_00",
+      "slats": [
+        {
+          "index": -23,
+          "vertex_start": 0,
+          "vertex_count": 8
+        },
+        {
+          "index": -22,
+          "vertex_start": 8,
+          "vertex_count": 8
+        },
+        {
+          "index": -21,
+          "vertex_start": 16,
+          "vertex_count": 8
+        },
+        {
+          "index": -20,
+          "vertex_start": 24,
+          "vertex_count": 8
+        },
+        {
+          "index": -19,
+          "vertex_start": 32,
+          "vertex_count": 8
+        },
+        {
+          "index": -18,
+          "vertex_start": 40,
+          "vertex_count": 8
+        },
+        {
+          "index": -17,
+          "vertex_start": 48,
+          "vertex_count": 8
+        },
+        {
+          "index": -16,
+          "vertex_start": 56,
+          "vertex_count": 8
+        },
+        {
+          "index": -15,
+          "vertex_start": 64,
+          "vertex_count": 8
+        },
+        {
+          "index": -14,
+          "vertex_start": 72,
+          "vertex_count": 8
+        },
+        {
+          "index": -13,
+          "vertex_start": 80,
+          "vertex_count": 8
+        },
+        {
+          "index": -12,
+          "vertex_start": 88,
+          "vertex_count": 8
+        },
+        {
+          "index": -11,
+          "vertex_start": 96,
+          "vertex_count": 8
+        },
+        {
+          "index": -10,
+          "vertex_start": 104,
+          "vertex_count": 8
+        },
+        {
+          "index": -9,
+          "vertex_start": 112,
+          "vertex_count": 8
+        },
+        {
+          "index": -8,
+          "vertex_start": 120,
+          "vertex_count": 8
+        },
+        {
+          "index": -7,
+          "vertex_start": 128,
+          "vertex_count": 8
+        },
+        {
+          "index": -6,
+          "vertex_start": 136,
+          "vertex_count": 8
+        },
+        {
+          "index": -5,
+          "vertex_start": 144,
+          "vertex_count": 8
+        },
+        {
+          "index": -4,
+          "vertex_start": 152,
+          "vertex_count": 8
+        },
+        {
+          "index": -3,
+          "vertex_start": 160,
+          "vertex_count": 8
+        },
+        {
+          "index": -2,
+          "vertex_start": 168,
+          "vertex_count": 8
+        }
+      ],
+      "slat_count": 22
+    },
+    {
+      "name": "R42_SHADE_01_01",
+      "parent_glass": "P11_GH_LOWER_WEST_01_01",
+      "slats": [
+        {
+          "index": -46,
+          "vertex_start": 0,
+          "vertex_count": 8
+        },
+        {
+          "index": -45,
+          "vertex_start": 8,
+          "vertex_count": 8
+        },
+        {
+          "index": -44,
+          "vertex_start": 16,
+          "vertex_count": 8
+        },
+        {
+          "index": -43,
+          "vertex_start": 24,
+          "vertex_count": 8
+        },
+        {
+          "index": -42,
+          "vertex_start": 32,
+          "vertex_count": 8
+        },
+        {
+          "index": -41,
+          "vertex_start": 40,
+          "vertex_count": 8
+        },
+        {
+          "index": -40,
+          "vertex_start": 48,
+          "vertex_count": 8
+        },
+        {
+          "index": -39,
+          "vertex_start": 56,
+          "vertex_count": 8
+        },
+        {
+          "index": -38,
+          "vertex_start": 64,
+          "vertex_count": 8
+        },
+        {
+          "index": -37,
+          "vertex_start": 72,
+          "vertex_count": 8
+        },
+        {
+          "index": -36,
+          "vertex_start": 80,
+          "vertex_count": 8
+        },
+        {
+          "index": -35,
+          "vertex_start": 88,
+          "vertex_count": 8
+        },
+        {
+          "index": -34,
+          "vertex_start": 96,
+          "vertex_count": 8
+        },
+        {
+          "index": -33,
+          "vertex_start": 104,
+          "vertex_count": 8
+        },
+        {
+          "index": -32,
+          "vertex_start": 112,
+          "vertex_count": 8
+        },
+        {
+          "index": -31,
+          "vertex_start": 120,
+          "vertex_count": 8
+        },
+        {
+          "index": -30,
+          "vertex_start": 128,
+          "vertex_count": 8
+        },
+        {
+          "index": -29,
+          "vertex_start": 136,
+          "vertex_count": 8
+        },
+        {
+          "index": -28,
+          "vertex_start": 144,
+          "vertex_count": 8
+        },
+        {
+          "index": -27,
+          "vertex_start": 152,
+          "vertex_count": 8
+        }
+      ],
+      "slat_count": 20
+    },
+    {
+      "name": "R42_SHADE_02_00",
+      "parent_glass": "P11_GH_LOWER_WEST_02_00",
+      "slats": [
+        {
+          "index": -23,
+          "vertex_start": 0,
+          "vertex_count": 8
+        },
+        {
+          "index": -22,
+          "vertex_start": 8,
+          "vertex_count": 8
+        },
+        {
+          "index": -21,
+          "vertex_start": 16,
+          "vertex_count": 8
+        },
+        {
+          "index": -20,
+          "vertex_start": 24,
+          "vertex_count": 8
+        },
+        {
+          "index": -19,
+          "vertex_start": 32,
+          "vertex_count": 8
+        },
+        {
+          "index": -18,
+          "vertex_start": 40,
+          "vertex_count": 8
+        },
+        {
+          "index": -17,
+          "vertex_start": 48,
+          "vertex_count": 8
+        },
+        {
+          "index": -16,
+          "vertex_start": 56,
+          "vertex_count": 8
+        },
+        {
+          "index": -15,
+          "vertex_start": 64,
+          "vertex_count": 8
+        },
+        {
+          "index": -14,
+          "vertex_start": 72,
+          "vertex_count": 8
+        },
+        {
+          "index": -13,
+          "vertex_start": 80,
+          "vertex_count": 8
+        },
+        {
+          "index": -12,
+          "vertex_start": 88,
+          "vertex_count": 8
+        },
+        {
+          "index": -11,
+          "vertex_start": 96,
+          "vertex_count": 8
+        },
+        {
+          "index": -10,
+          "vertex_start": 104,
+          "vertex_count": 8
+        },
+        {
+          "index": -9,
+          "vertex_start": 112,
+          "vertex_count": 8
+        },
+        {
+          "index": -8,
+          "vertex_start": 120,
+          "vertex_count": 8
+        },
+        {
+          "index": -7,
+          "vertex_start": 128,
+          "vertex_count": 8
+        },
+        {
+          "index": -6,
+          "vertex_start": 136,
+          "vertex_count": 8
+        },
+        {
+          "index": -5,
+          "vertex_start": 144,
+          "vertex_count": 8
+        },
+        {
+          "index": -4,
+          "vertex_start": 152,
+          "vertex_count": 8
+        },
+        {
+          "index": -3,
+          "vertex_start": 160,
+          "vertex_count": 8
+        },
+        {
+          "index": -2,
+          "vertex_start": 168,
+          "vertex_count": 8
+        }
+      ],
+      "slat_count": 22
+    },
+    {
+      "name": "R42_SHADE_02_01",
+      "parent_glass": "P11_GH_LOWER_WEST_02_01",
+      "slats": [
+        {
+          "index": -48,
+          "vertex_start": 0,
+          "vertex_count": 8
+        },
+        {
+          "index": -47,
+          "vertex_start": 8,
+          "vertex_count": 8
+        },
+        {
+          "index": -46,
+          "vertex_start": 16,
+          "vertex_count": 8
+        },
+        {
+          "index": -45,
+          "vertex_start": 24,
+          "vertex_count": 8
+        },
+        {
+          "index": -44,
+          "vertex_start": 32,
+          "vertex_count": 8
+        },
+        {
+          "index": -43,
+          "vertex_start": 40,
+          "vertex_count": 8
+        },
+        {
+          "index": -42,
+          "vertex_start": 48,
+          "vertex_count": 8
+        },
+        {
+          "index": -41,
+          "vertex_start": 56,
+          "vertex_count": 8
+        },
+        {
+          "index": -40,
+          "vertex_start": 64,
+          "vertex_count": 8
+        },
+        {
+          "index": -39,
+          "vertex_start": 72,
+          "vertex_count": 8
+        },
+        {
+          "index": -38,
+          "vertex_start": 80,
+          "vertex_count": 8
+        },
+        {
+          "index": -37,
+          "vertex_start": 88,
+          "vertex_count": 8
+        },
+        {
+          "index": -36,
+          "vertex_start": 96,
+          "vertex_count": 8
+        },
+        {
+          "index": -35,
+          "vertex_start": 104,
+          "vertex_count": 8
+        },
+        {
+          "index": -34,
+          "vertex_start": 112,
+          "vertex_count": 8
+        },
+        {
+          "index": -33,
+          "vertex_start": 120,
+          "vertex_count": 8
+        },
+        {
+          "index": -32,
+          "vertex_start": 128,
+          "vertex_count": 8
+        },
+        {
+          "index": -31,
+          "vertex_start": 136,
+          "vertex_count": 8
+        },
+        {
+          "index": -30,
+          "vertex_start": 144,
+          "vertex_count": 8
+        },
+        {
+          "index": -29,
+          "vertex_start": 152,
+          "vertex_count": 8
+        },
+        {
+          "index": -28,
+          "vertex_start": 160,
+          "vertex_count": 8
+        },
+        {
+          "index": -27,
+          "vertex_start": 168,
+          "vertex_count": 8
+        }
+      ],
+      "slat_count": 22
+    },
+    {
+      "name": "R42_SHADE_02_02",
+      "parent_glass": "P11_GH_LOWER_WEST_02_02",
+      "slats": [
+        {
+          "index": -71,
+          "vertex_start": 0,
+          "vertex_count": 8
+        },
+        {
+          "index": -70,
+          "vertex_start": 8,
+          "vertex_count": 8
+        },
+        {
+          "index": -69,
+          "vertex_start": 16,
+          "vertex_count": 8
+        },
+        {
+          "index": -68,
+          "vertex_start": 24,
+          "vertex_count": 8
+        },
+        {
+          "index": -67,
+          "vertex_start": 32,
+          "vertex_count": 8
+        },
+        {
+          "index": -66,
+          "vertex_start": 40,
+          "vertex_count": 8
+        },
+        {
+          "index": -65,
+          "vertex_start": 48,
+          "vertex_count": 8
+        },
+        {
+          "index": -64,
+          "vertex_start": 56,
+          "vertex_count": 8
+        },
+        {
+          "index": -63,
+          "vertex_start": 64,
+          "vertex_count": 8
+        },
+        {
+          "index": -62,
+          "vertex_start": 72,
+          "vertex_count": 8
+        },
+        {
+          "index": -61,
+          "vertex_start": 80,
+          "vertex_count": 8
+        },
+        {
+          "index": -60,
+          "vertex_start": 88,
+          "vertex_count": 8
+        },
+        {
+          "index": -59,
+          "vertex_start": 96,
+          "vertex_count": 8
+        },
+        {
+          "index": -58,
+          "vertex_start": 104,
+          "vertex_count": 8
+        },
+        {
+          "index": -57,
+          "vertex_start": 112,
+          "vertex_count": 8
+        },
+        {
+          "index": -56,
+          "vertex_start": 120,
+          "vertex_count": 8
+        },
+        {
+          "index": -55,
+          "vertex_start": 128,
+          "vertex_count": 8
+        },
+        {
+          "index": -54,
+          "vertex_start": 136,
+          "vertex_count": 8
+        },
+        {
+          "index": -53,
+          "vertex_start": 144,
+          "vertex_count": 8
+        },
+        {
+          "index": -52,
+          "vertex_start": 152,
+          "vertex_count": 8
+        }
+      ],
+      "slat_count": 20
+    },
+    {
+      "name": "R42_SHADE_03_00",
+      "parent_glass": "P11_GH_LOWER_WEST_03_00",
+      "slats": [
+        {
+          "index": -23,
+          "vertex_start": 0,
+          "vertex_count": 8
+        },
+        {
+          "index": -22,
+          "vertex_start": 8,
+          "vertex_count": 8
+        },
+        {
+          "index": -21,
+          "vertex_start": 16,
+          "vertex_count": 8
+        },
+        {
+          "index": -20,
+          "vertex_start": 24,
+          "vertex_count": 8
+        },
+        {
+          "index": -19,
+          "vertex_start": 32,
+          "vertex_count": 8
+        },
+        {
+          "index": -18,
+          "vertex_start": 40,
+          "vertex_count": 8
+        },
+        {
+          "index": -17,
+          "vertex_start": 48,
+          "vertex_count": 8
+        },
+        {
+          "index": -16,
+          "vertex_start": 56,
+          "vertex_count": 8
+        },
+        {
+          "index": -15,
+          "vertex_start": 64,
+          "vertex_count": 8
+        },
+        {
+          "index": -14,
+          "vertex_start": 72,
+          "vertex_count": 8
+        },
+        {
+          "index": -13,
+          "vertex_start": 80,
+          "vertex_count": 8
+        },
+        {
+          "index": -12,
+          "vertex_start": 88,
+          "vertex_count": 8
+        },
+        {
+          "index": -11,
+          "vertex_start": 96,
+          "vertex_count": 8
+        },
+        {
+          "index": -10,
+          "vertex_start": 104,
+          "vertex_count": 8
+        },
+        {
+          "index": -9,
+          "vertex_start": 112,
+          "vertex_count": 8
+        },
+        {
+          "index": -8,
+          "vertex_start": 120,
+          "vertex_count": 8
+        },
+        {
+          "index": -7,
+          "vertex_start": 128,
+          "vertex_count": 8
+        },
+        {
+          "index": -6,
+          "vertex_start": 136,
+          "vertex_count": 8
+        },
+        {
+          "index": -5,
+          "vertex_start": 144,
+          "vertex_count": 8
+        },
+        {
+          "index": -4,
+          "vertex_start": 152,
+          "vertex_count": 8
+        },
+        {
+          "index": -3,
+          "vertex_start": 160,
+          "vertex_count": 8
+        },
+        {
+          "index": -2,
+          "vertex_start": 168,
+          "vertex_count": 8
+        }
+      ],
+      "slat_count": 22
+    },
+    {
+      "name": "R42_SHADE_03_01",
+      "parent_glass": "P11_GH_LOWER_WEST_03_01",
+      "slats": [
+        {
+          "index": -48,
+          "vertex_start": 0,
+          "vertex_count": 8
+        },
+        {
+          "index": -47,
+          "vertex_start": 8,
+          "vertex_count": 8
+        },
+        {
+          "index": -46,
+          "vertex_start": 16,
+          "vertex_count": 8
+        },
+        {
+          "index": -45,
+          "vertex_start": 24,
+          "vertex_count": 8
+        },
+        {
+          "index": -44,
+          "vertex_start": 32,
+          "vertex_count": 8
+        },
+        {
+          "index": -43,
+          "vertex_start": 40,
+          "vertex_count": 8
+        },
+        {
+          "index": -42,
+          "vertex_start": 48,
+          "vertex_count": 8
+        },
+        {
+          "index": -41,
+          "vertex_start": 56,
+          "vertex_count": 8
+        },
+        {
+          "index": -40,
+          "vertex_start": 64,
+          "vertex_count": 8
+        },
+        {
+          "index": -39,
+          "vertex_start": 72,
+          "vertex_count": 8
+        },
+        {
+          "index": -38,
+          "vertex_start": 80,
+          "vertex_count": 8
+        },
+        {
+          "index": -37,
+          "vertex_start": 88,
+          "vertex_count": 8
+        },
+        {
+          "index": -36,
+          "vertex_start": 96,
+          "vertex_count": 8
+        },
+        {
+          "index": -35,
+          "vertex_start": 104,
+          "vertex_count": 8
+        },
+        {
+          "index": -34,
+          "vertex_start": 112,
+          "vertex_count": 8
+        },
+        {
+          "index": -33,
+          "vertex_start": 120,
+          "vertex_count": 8
+        },
+        {
+          "index": -32,
+          "vertex_start": 128,
+          "vertex_count": 8
+        },
+        {
+          "index": -31,
+          "vertex_start": 136,
+          "vertex_count": 8
+        },
+        {
+          "index": -30,
+          "vertex_start": 144,
+          "vertex_count": 8
+        },
+        {
+          "index": -29,
+          "vertex_start": 152,
+          "vertex_count": 8
+        },
+        {
+          "index": -28,
+          "vertex_start": 160,
+          "vertex_count": 8
+        },
+        {
+          "index": -27,
+          "vertex_start": 168,
+          "vertex_count": 8
+        }
+      ],
+      "slat_count": 22
+    },
+    {
+      "name": "R42_SHADE_03_02",
+      "parent_glass": "P11_GH_LOWER_WEST_03_02",
+      "slats": [
+        {
+          "index": -73,
+          "vertex_start": 0,
+          "vertex_count": 8
+        },
+        {
+          "index": -72,
+          "vertex_start": 8,
+          "vertex_count": 8
+        },
+        {
+          "index": -71,
+          "vertex_start": 16,
+          "vertex_count": 8
+        },
+        {
+          "index": -70,
+          "vertex_start": 24,
+          "vertex_count": 8
+        },
+        {
+          "index": -69,
+          "vertex_start": 32,
+          "vertex_count": 8
+        },
+        {
+          "index": -68,
+          "vertex_start": 40,
+          "vertex_count": 8
+        },
+        {
+          "index": -67,
+          "vertex_start": 48,
+          "vertex_count": 8
+        },
+        {
+          "index": -66,
+          "vertex_start": 56,
+          "vertex_count": 8
+        },
+        {
+          "index": -65,
+          "vertex_start": 64,
+          "vertex_count": 8
+        },
+        {
+          "index": -64,
+          "vertex_start": 72,
+          "vertex_count": 8
+        },
+        {
+          "index": -63,
+          "vertex_start": 80,
+          "vertex_count": 8
+        },
+        {
+          "index": -62,
+          "vertex_start": 88,
+          "vertex_count": 8
+        },
+        {
+          "index": -61,
+          "vertex_start": 96,
+          "vertex_count": 8
+        },
+        {
+          "index": -60,
+          "vertex_start": 104,
+          "vertex_count": 8
+        },
+        {
+          "index": -59,
+          "vertex_start": 112,
+          "vertex_count": 8
+        },
+        {
+          "index": -58,
+          "vertex_start": 120,
+          "vertex_count": 8
+        },
+        {
+          "index": -57,
+          "vertex_start": 128,
+          "vertex_count": 8
+        },
+        {
+          "index": -56,
+          "vertex_start": 136,
+          "vertex_count": 8
+        },
+        {
+          "index": -55,
+          "vertex_start": 144,
+          "vertex_count": 8
+        },
+        {
+          "index": -54,
+          "vertex_start": 152,
+          "vertex_count": 8
+        },
+        {
+          "index": -53,
+          "vertex_start": 160,
+          "vertex_count": 8
+        },
+        {
+          "index": -52,
+          "vertex_start": 168,
+          "vertex_count": 8
+        }
+      ],
+      "slat_count": 22
+    },
+    {
+      "name": "R42_SHADE_03_03",
+      "parent_glass": "P11_GH_LOWER_WEST_03_03",
+      "slats": [
+        {
+          "index": -96,
+          "vertex_start": 0,
+          "vertex_count": 8
+        },
+        {
+          "index": -95,
+          "vertex_start": 8,
+          "vertex_count": 8
+        },
+        {
+          "index": -94,
+          "vertex_start": 16,
+          "vertex_count": 8
+        },
+        {
+          "index": -93,
+          "vertex_start": 24,
+          "vertex_count": 8
+        },
+        {
+          "index": -92,
+          "vertex_start": 32,
+          "vertex_count": 8
+        },
+        {
+          "index": -91,
+          "vertex_start": 40,
+          "vertex_count": 8
+        },
+        {
+          "index": -90,
+          "vertex_start": 48,
+          "vertex_count": 8
+        },
+        {
+          "index": -89,
+          "vertex_start": 56,
+          "vertex_count": 8
+        },
+        {
+          "index": -88,
+          "vertex_start": 64,
+          "vertex_count": 8
+        },
+        {
+          "index": -87,
+          "vertex_start": 72,
+          "vertex_count": 8
+        },
+        {
+          "index": -86,
+          "vertex_start": 80,
+          "vertex_count": 8
+        },
+        {
+          "index": -85,
+          "vertex_start": 88,
+          "vertex_count": 8
+        },
+        {
+          "index": -84,
+          "vertex_start": 96,
+          "vertex_count": 8
+        },
+        {
+          "index": -83,
+          "vertex_start": 104,
+          "vertex_count": 8
+        },
+        {
+          "index": -82,
+          "vertex_start": 112,
+          "vertex_count": 8
+        },
+        {
+          "index": -81,
+          "vertex_start": 120,
+          "vertex_count": 8
+        },
+        {
+          "index": -80,
+          "vertex_start": 128,
+          "vertex_count": 8
+        },
+        {
+          "index": -79,
+          "vertex_start": 136,
+          "vertex_count": 8
+        },
+        {
+          "index": -78,
+          "vertex_start": 144,
+          "vertex_count": 8
+        },
+        {
+          "index": -77,
+          "vertex_start": 152,
+          "vertex_count": 8
+        }
+      ],
+      "slat_count": 20
+    },
+    {
+      "name": "R42_SHADE_04_00",
+      "parent_glass": "P11_GH_LOWER_WEST_04_00",
+      "slats": [
+        {
+          "index": -23,
+          "vertex_start": 0,
+          "vertex_count": 8
+        },
+        {
+          "index": -22,
+          "vertex_start": 8,
+          "vertex_count": 8
+        },
+        {
+          "index": -21,
+          "vertex_start": 16,
+          "vertex_count": 8
+        },
+        {
+          "index": -20,
+          "vertex_start": 24,
+          "vertex_count": 8
+        },
+        {
+          "index": -19,
+          "vertex_start": 32,
+          "vertex_count": 8
+        },
+        {
+          "index": -18,
+          "vertex_start": 40,
+          "vertex_count": 8
+        },
+        {
+          "index": -17,
+          "vertex_start": 48,
+          "vertex_count": 8
+        },
+        {
+          "index": -16,
+          "vertex_start": 56,
+          "vertex_count": 8
+        },
+        {
+          "index": -15,
+          "vertex_start": 64,
+          "vertex_count": 8
+        },
+        {
+          "index": -14,
+          "vertex_start": 72,
+          "vertex_count": 8
+        },
+        {
+          "index": -13,
+          "vertex_start": 80,
+          "vertex_count": 8
+        },
+        {
+          "index": -12,
+          "vertex_start": 88,
+          "vertex_count": 8
+        },
+        {
+          "index": -11,
+          "vertex_start": 96,
+          "vertex_count": 8
+        },
+        {
+          "index": -10,
+          "vertex_start": 104,
+          "vertex_count": 8
+        },
+        {
+          "index": -9,
+          "vertex_start": 112,
+          "vertex_count": 8
+        },
+        {
+          "index": -8,
+          "vertex_start": 120,
+          "vertex_count": 8
+        },
+        {
+          "index": -7,
+          "vertex_start": 128,
+          "vertex_count": 8
+        },
+        {
+          "index": -6,
+          "vertex_start": 136,
+          "vertex_count": 8
+        },
+        {
+          "index": -5,
+          "vertex_start": 144,
+          "vertex_count": 8
+        },
+        {
+          "index": -4,
+          "vertex_start": 152,
+          "vertex_count": 8
+        },
+        {
+          "index": -3,
+          "vertex_start": 160,
+          "vertex_count": 8
+        },
+        {
+          "index": -2,
+          "vertex_start": 168,
+          "vertex_count": 8
+        }
+      ],
+      "slat_count": 22
+    },
+    {
+      "name": "R42_SHADE_04_01",
+      "parent_glass": "P11_GH_LOWER_WEST_04_01",
+      "slats": [
+        {
+          "index": -48,
+          "vertex_start": 0,
+          "vertex_count": 8
+        },
+        {
+          "index": -47,
+          "vertex_start": 8,
+          "vertex_count": 8
+        },
+        {
+          "index": -46,
+          "vertex_start": 16,
+          "vertex_count": 8
+        },
+        {
+          "index": -45,
+          "vertex_start": 24,
+          "vertex_count": 8
+        },
+        {
+          "index": -44,
+          "vertex_start": 32,
+          "vertex_count": 8
+        },
+        {
+          "index": -43,
+          "vertex_start": 40,
+          "vertex_count": 8
+        },
+        {
+          "index": -42,
+          "vertex_start": 48,
+          "vertex_count": 8
+        },
+        {
+          "index": -41,
+          "vertex_start": 56,
+          "vertex_count": 8
+        },
+        {
+          "index": -40,
+          "vertex_start": 64,
+          "vertex_count": 8
+        },
+        {
+          "index": -39,
+          "vertex_start": 72,
+          "vertex_count": 8
+        },
+        {
+          "index": -38,
+          "vertex_start": 80,
+          "vertex_count": 8
+        },
+        {
+          "index": -37,
+          "vertex_start": 88,
+          "vertex_count": 8
+        },
+        {
+          "index": -36,
+          "vertex_start": 96,
+          "vertex_count": 8
+        },
+        {
+          "index": -35,
+          "vertex_start": 104,
+          "vertex_count": 8
+        },
+        {
+          "index": -34,
+          "vertex_start": 112,
+          "vertex_count": 8
+        },
+        {
+          "index": -33,
+          "vertex_start": 120,
+          "vertex_count": 8
+        },
+        {
+          "index": -32,
+          "vertex_start": 128,
+          "vertex_count": 8
+        },
+        {
+          "index": -31,
+          "vertex_start": 136,
+          "vertex_count": 8
+        },
+        {
+          "index": -30,
+          "vertex_start": 144,
+          "vertex_count": 8
+        },
+        {
+          "index": -29,
+          "vertex_start": 152,
+          "vertex_count": 8
+        },
+        {
+          "index": -28,
+          "vertex_start": 160,
+          "vertex_count": 8
+        },
+        {
+          "index": -27,
+          "vertex_start": 168,
+          "vertex_count": 8
+        }
+      ],
+      "slat_count": 22
+    },
+    {
+      "name": "R42_SHADE_04_02",
+      "parent_glass": "P11_GH_LOWER_WEST_04_02",
+      "slats": [
+        {
+          "index": -73,
+          "vertex_start": 0,
+          "vertex_count": 8
+        },
+        {
+          "index": -72,
+          "vertex_start": 8,
+          "vertex_count": 8
+        },
+        {
+          "index": -71,
+          "vertex_start": 16,
+          "vertex_count": 8
+        },
+        {
+          "index": -70,
+          "vertex_start": 24,
+          "vertex_count": 8
+        },
+        {
+          "index": -69,
+          "vertex_start": 32,
+          "vertex_count": 8
+        },
+        {
+          "index": -68,
+          "vertex_start": 40,
+          "vertex_count": 8
+        },
+        {
+          "index": -67,
+          "vertex_start": 48,
+          "vertex_count": 8
+        },
+        {
+          "index": -66,
+          "vertex_start": 56,
+          "vertex_count": 8
+        },
+        {
+          "index": -65,
+          "vertex_start": 64,
+          "vertex_count": 8
+        },
+        {
+          "index": -64,
+          "vertex_start": 72,
+          "vertex_count": 8
+        },
+        {
+          "index": -63,
+          "vertex_start": 80,
+          "vertex_count": 8
+        },
+        {
+          "index": -62,
+          "vertex_start": 88,
+          "vertex_count": 8
+        },
+        {
+          "index": -61,
+          "vertex_start": 96,
+          "vertex_count": 8
+        },
+        {
+          "index": -60,
+          "vertex_start": 104,
+          "vertex_count": 8
+        },
+        {
+          "index": -59,
+          "vertex_start": 112,
+          "vertex_count": 8
+        },
+        {
+          "index": -58,
+          "vertex_start": 120,
+          "vertex_count": 8
+        },
+        {
+          "index": -57,
+          "vertex_start": 128,
+          "vertex_count": 8
+        },
+        {
+          "index": -56,
+          "vertex_start": 136,
+          "vertex_count": 8
+        },
+        {
+          "index": -55,
+          "vertex_start": 144,
+          "vertex_count": 8
+        },
+        {
+          "index": -54,
+          "vertex_start": 152,
+          "vertex_count": 8
+        },
+        {
+          "index": -53,
+          "vertex_start": 160,
+          "vertex_count": 8
+        },
+        {
+          "index": -52,
+          "vertex_start": 168,
+          "vertex_count": 8
+        }
+      ],
+      "slat_count": 22
+    },
+    {
+      "name": "R42_SHADE_04_03",
+      "parent_glass": "P11_GH_LOWER_WEST_04_03",
+      "slats": [
+        {
+          "index": -98,
+          "vertex_start": 0,
+          "vertex_count": 8
+        },
+        {
+          "index": -97,
+          "vertex_start": 8,
+          "vertex_count": 8
+        },
+        {
+          "index": -96,
+          "vertex_start": 16,
+          "vertex_count": 8
+        },
+        {
+          "index": -95,
+          "vertex_start": 24,
+          "vertex_count": 8
+        },
+        {
+          "index": -94,
+          "vertex_start": 32,
+          "vertex_count": 8
+        },
+        {
+          "index": -93,
+          "vertex_start": 40,
+          "vertex_count": 8
+        },
+        {
+          "index": -92,
+          "vertex_start": 48,
+          "vertex_count": 8
+        },
+        {
+          "index": -91,
+          "vertex_start": 56,
+          "vertex_count": 8
+        },
+        {
+          "index": -90,
+          "vertex_start": 64,
+          "vertex_count": 8
+        },
+        {
+          "index": -89,
+          "vertex_start": 72,
+          "vertex_count": 8
+        },
+        {
+          "index": -88,
+          "vertex_start": 80,
+          "vertex_count": 8
+        },
+        {
+          "index": -87,
+          "vertex_start": 88,
+          "vertex_count": 8
+        },
+        {
+          "index": -86,
+          "vertex_start": 96,
+          "vertex_count": 8
+        },
+        {
+          "index": -85,
+          "vertex_start": 104,
+          "vertex_count": 8
+        },
+        {
+          "index": -84,
+          "vertex_start": 112,
+          "vertex_count": 8
+        },
+        {
+          "index": -83,
+          "vertex_start": 120,
+          "vertex_count": 8
+        },
+        {
+          "index": -82,
+          "vertex_start": 128,
+          "vertex_count": 8
+        },
+        {
+          "index": -81,
+          "vertex_start": 136,
+          "vertex_count": 8
+        },
+        {
+          "index": -80,
+          "vertex_start": 144,
+          "vertex_count": 8
+        },
+        {
+          "index": -79,
+          "vertex_start": 152,
+          "vertex_count": 8
+        },
+        {
+          "index": -78,
+          "vertex_start": 160,
+          "vertex_count": 8
+        },
+        {
+          "index": -77,
+          "vertex_start": 168,
+          "vertex_count": 8
+        }
+      ],
+      "slat_count": 22
+    },
+    {
+      "name": "R42_SHADE_04_04",
+      "parent_glass": "P11_GH_LOWER_WEST_04_04",
+      "slats": [
+        {
+          "index": -121,
+          "vertex_start": 0,
+          "vertex_count": 8
+        },
+        {
+          "index": -120,
+          "vertex_start": 8,
+          "vertex_count": 8
+        },
+        {
+          "index": -119,
+          "vertex_start": 16,
+          "vertex_count": 8
+        },
+        {
+          "index": -118,
+          "vertex_start": 24,
+          "vertex_count": 8
+        },
+        {
+          "index": -117,
+          "vertex_start": 32,
+          "vertex_count": 8
+        },
+        {
+          "index": -116,
+          "vertex_start": 40,
+          "vertex_count": 8
+        },
+        {
+          "index": -115,
+          "vertex_start": 48,
+          "vertex_count": 8
+        },
+        {
+          "index": -114,
+          "vertex_start": 56,
+          "vertex_count": 8
+        },
+        {
+          "index": -113,
+          "vertex_start": 64,
+          "vertex_count": 8
+        },
+        {
+          "index": -112,
+          "vertex_start": 72,
+          "vertex_count": 8
+        },
+        {
+          "index": -111,
+          "vertex_start": 80,
+          "vertex_count": 8
+        },
+        {
+          "index": -110,
+          "vertex_start": 88,
+          "vertex_count": 8
+        },
+        {
+          "index": -109,
+          "vertex_start": 96,
+          "vertex_count": 8
+        },
+        {
+          "index": -108,
+          "vertex_start": 104,
+          "vertex_count": 8
+        },
+        {
+          "index": -107,
+          "vertex_start": 112,
+          "vertex_count": 8
+        },
+        {
+          "index": -106,
+          "vertex_start": 120,
+          "vertex_count": 8
+        },
+        {
+          "index": -105,
+          "vertex_start": 128,
+          "vertex_count": 8
+        },
+        {
+          "index": -104,
+          "vertex_start": 136,
+          "vertex_count": 8
+        },
+        {
+          "index": -103,
+          "vertex_start": 144,
+          "vertex_count": 8
+        },
+        {
+          "index": -102,
+          "vertex_start": 152,
+          "vertex_count": 8
+        }
+      ],
+      "slat_count": 20
+    },
+    {
+      "name": "R42_SHADE_05_00",
+      "parent_glass": "P11_GH_LOWER_WEST_05_00",
+      "slats": [
+        {
+          "index": -23,
+          "vertex_start": 0,
+          "vertex_count": 8
+        },
+        {
+          "index": -22,
+          "vertex_start": 8,
+          "vertex_count": 8
+        },
+        {
+          "index": -21,
+          "vertex_start": 16,
+          "vertex_count": 8
+        },
+        {
+          "index": -20,
+          "vertex_start": 24,
+          "vertex_count": 8
+        },
+        {
+          "index": -19,
+          "vertex_start": 32,
+          "vertex_count": 8
+        },
+        {
+          "index": -18,
+          "vertex_start": 40,
+          "vertex_count": 8
+        },
+        {
+          "index": -17,
+          "vertex_start": 48,
+          "vertex_count": 8
+        },
+        {
+          "index": -16,
+          "vertex_start": 56,
+          "vertex_count": 8
+        },
+        {
+          "index": -15,
+          "vertex_start": 64,
+          "vertex_count": 8
+        },
+        {
+          "index": -14,
+          "vertex_start": 72,
+          "vertex_count": 8
+        },
+        {
+          "index": -13,
+          "vertex_start": 80,
+          "vertex_count": 8
+        },
+        {
+          "index": -12,
+          "vertex_start": 88,
+          "vertex_count": 8
+        },
+        {
+          "index": -11,
+          "vertex_start": 96,
+          "vertex_count": 8
+        },
+        {
+          "index": -10,
+          "vertex_start": 104,
+          "vertex_count": 8
+        },
+        {
+          "index": -9,
+          "vertex_start": 112,
+          "vertex_count": 8
+        },
+        {
+          "index": -8,
+          "vertex_start": 120,
+          "vertex_count": 8
+        },
+        {
+          "index": -7,
+          "vertex_start": 128,
+          "vertex_count": 8
+        },
+        {
+          "index": -6,
+          "vertex_start": 136,
+          "vertex_count": 8
+        },
+        {
+          "index": -5,
+          "vertex_start": 144,
+          "vertex_count": 8
+        },
+        {
+          "index": -4,
+          "vertex_start": 152,
+          "vertex_count": 8
+        },
+        {
+          "index": -3,
+          "vertex_start": 160,
+          "vertex_count": 8
+        },
+        {
+          "index": -2,
+          "vertex_start": 168,
+          "vertex_count": 8
+        }
+      ],
+      "slat_count": 22
+    },
+    {
+      "name": "R42_SHADE_05_01",
+      "parent_glass": "P11_GH_LOWER_WEST_05_01",
+      "slats": [
+        {
+          "index": -48,
+          "vertex_start": 0,
+          "vertex_count": 8
+        },
+        {
+          "index": -47,
+          "vertex_start": 8,
+          "vertex_count": 8
+        },
+        {
+          "index": -46,
+          "vertex_start": 16,
+          "vertex_count": 8
+        },
+        {
+          "index": -45,
+          "vertex_start": 24,
+          "vertex_count": 8
+        },
+        {
+          "index": -44,
+          "vertex_start": 32,
+          "vertex_count": 8
+        },
+        {
+          "index": -43,
+          "vertex_start": 40,
+          "vertex_count": 8
+        },
+        {
+          "index": -42,
+          "vertex_start": 48,
+          "vertex_count": 8
+        },
+        {
+          "index": -41,
+          "vertex_start": 56,
+          "vertex_count": 8
+        },
+        {
+          "index": -40,
+          "vertex_start": 64,
+          "vertex_count": 8
+        },
+        {
+          "index": -39,
+          "vertex_start": 72,
+          "vertex_count": 8
+        },
+        {
+          "index": -38,
+          "vertex_start": 80,
+          "vertex_count": 8
+        },
+        {
+          "index": -37,
+          "vertex_start": 88,
+          "vertex_count": 8
+        },
+        {
+          "index": -36,
+          "vertex_start": 96,
+          "vertex_count": 8
+        },
+        {
+          "index": -35,
+          "vertex_start": 104,
+          "vertex_count": 8
+        },
+        {
+          "index": -34,
+          "vertex_start": 112,
+          "vertex_count": 8
+        },
+        {
+          "index": -33,
+          "vertex_start": 120,
+          "vertex_count": 8
+        },
+        {
+          "index": -32,
+          "vertex_start": 128,
+          "vertex_count": 8
+        },
+        {
+          "index": -31,
+          "vertex_start": 136,
+          "vertex_count": 8
+        },
+        {
+          "index": -30,
+          "vertex_start": 144,
+          "vertex_count": 8
+        },
+        {
+          "index": -29,
+          "vertex_start": 152,
+          "vertex_count": 8
+        },
+        {
+          "index": -28,
+          "vertex_start": 160,
+          "vertex_count": 8
+        },
+        {
+          "index": -27,
+          "vertex_start": 168,
+          "vertex_count": 8
+        }
+      ],
+      "slat_count": 22
+    },
+    {
+      "name": "R42_SHADE_05_02",
+      "parent_glass": "P11_GH_LOWER_WEST_05_02",
+      "slats": [
+        {
+          "index": -73,
+          "vertex_start": 0,
+          "vertex_count": 8
+        },
+        {
+          "index": -72,
+          "vertex_start": 8,
+          "vertex_count": 8
+        },
+        {
+          "index": -71,
+          "vertex_start": 16,
+          "vertex_count": 8
+        },
+        {
+          "index": -70,
+          "vertex_start": 24,
+          "vertex_count": 8
+        },
+        {
+          "index": -69,
+          "vertex_start": 32,
+          "vertex_count": 8
+        },
+        {
+          "index": -68,
+          "vertex_start": 40,
+          "vertex_count": 8
+        },
+        {
+          "index": -67,
+          "vertex_start": 48,
+          "vertex_count": 8
+        },
+        {
+          "index": -66,
+          "vertex_start": 56,
+          "vertex_count": 8
+        },
+        {
+          "index": -65,
+          "vertex_start": 64,
+          "vertex_count": 8
+        },
+        {
+          "index": -64,
+          "vertex_start": 72,
+          "vertex_count": 8
+        },
+        {
+          "index": -63,
+          "vertex_start": 80,
+          "vertex_count": 8
+        },
+        {
+          "index": -62,
+          "vertex_start": 88,
+          "vertex_count": 8
+        },
+        {
+          "index": -61,
+          "vertex_start": 96,
+          "vertex_count": 8
+        },
+        {
+          "index": -60,
+          "vertex_start": 104,
+          "vertex_count": 8
+        },
+        {
+          "index": -59,
+          "vertex_start": 112,
+          "vertex_count": 8
+        },
+        {
+          "index": -58,
+          "vertex_start": 120,
+          "vertex_count": 8
+        },
+        {
+          "index": -57,
+          "vertex_start": 128,
+          "vertex_count": 8
+        },
+        {
+          "index": -56,
+          "vertex_start": 136,
+          "vertex_count": 8
+        },
+        {
+          "index": -55,
+          "vertex_start": 144,
+          "vertex_count": 8
+        },
+        {
+          "index": -54,
+          "vertex_start": 152,
+          "vertex_count": 8
+        },
+        {
+          "index": -53,
+          "vertex_start": 160,
+          "vertex_count": 8
+        },
+        {
+          "index": -52,
+          "vertex_start": 168,
+          "vertex_count": 8
+        }
+      ],
+      "slat_count": 22
+    },
+    {
+      "name": "R42_SHADE_05_03",
+      "parent_glass": "P11_GH_LOWER_WEST_05_03",
+      "slats": [
+        {
+          "index": -98,
+          "vertex_start": 0,
+          "vertex_count": 8
+        },
+        {
+          "index": -97,
+          "vertex_start": 8,
+          "vertex_count": 8
+        },
+        {
+          "index": -96,
+          "vertex_start": 16,
+          "vertex_count": 8
+        },
+        {
+          "index": -95,
+          "vertex_start": 24,
+          "vertex_count": 8
+        },
+        {
+          "index": -94,
+          "vertex_start": 32,
+          "vertex_count": 8
+        },
+        {
+          "index": -93,
+          "vertex_start": 40,
+          "vertex_count": 8
+        },
+        {
+          "index": -92,
+          "vertex_start": 48,
+          "vertex_count": 8
+        },
+        {
+          "index": -91,
+          "vertex_start": 56,
+          "vertex_count": 8
+        },
+        {
+          "index": -90,
+          "vertex_start": 64,
+          "vertex_count": 8
+        },
+        {
+          "index": -89,
+          "vertex_start": 72,
+          "vertex_count": 8
+        },
+        {
+          "index": -88,
+          "vertex_start": 80,
+          "vertex_count": 8
+        },
+        {
+          "index": -87,
+          "vertex_start": 88,
+          "vertex_count": 8
+        },
+        {
+          "index": -86,
+          "vertex_start": 96,
+          "vertex_count": 8
+        },
+        {
+          "index": -85,
+          "vertex_start": 104,
+          "vertex_count": 8
+        },
+        {
+          "index": -84,
+          "vertex_start": 112,
+          "vertex_count": 8
+        },
+        {
+          "index": -83,
+          "vertex_start": 120,
+          "vertex_count": 8
+        },
+        {
+          "index": -82,
+          "vertex_start": 128,
+          "vertex_count": 8
+        },
+        {
+          "index": -81,
+          "vertex_start": 136,
+          "vertex_count": 8
+        },
+        {
+          "index": -80,
+          "vertex_start": 144,
+          "vertex_count": 8
+        },
+        {
+          "index": -79,
+          "vertex_start": 152,
+          "vertex_count": 8
+        },
+        {
+          "index": -78,
+          "vertex_start": 160,
+          "vertex_count": 8
+        },
+        {
+          "index": -77,
+          "vertex_start": 168,
+          "vertex_count": 8
+        }
+      ],
+      "slat_count": 22
+    },
+    {
+      "name": "R42_SHADE_05_04",
+      "parent_glass": "P11_GH_LOWER_WEST_05_04",
+      "slats": [
+        {
+          "index": -124,
+          "vertex_start": 0,
+          "vertex_count": 8
+        },
+        {
+          "index": -123,
+          "vertex_start": 8,
+          "vertex_count": 8
+        },
+        {
+          "index": -122,
+          "vertex_start": 16,
+          "vertex_count": 8
+        },
+        {
+          "index": -121,
+          "vertex_start": 24,
+          "vertex_count": 8
+        },
+        {
+          "index": -120,
+          "vertex_start": 32,
+          "vertex_count": 8
+        },
+        {
+          "index": -119,
+          "vertex_start": 40,
+          "vertex_count": 8
+        },
+        {
+          "index": -118,
+          "vertex_start": 48,
+          "vertex_count": 8
+        },
+        {
+          "index": -117,
+          "vertex_start": 56,
+          "vertex_count": 8
+        },
+        {
+          "index": -116,
+          "vertex_start": 64,
+          "vertex_count": 8
+        },
+        {
+          "index": -115,
+          "vertex_start": 72,
+          "vertex_count": 8
+        },
+        {
+          "index": -114,
+          "vertex_start": 80,
+          "vertex_count": 8
+        },
+        {
+          "index": -113,
+          "vertex_start": 88,
+          "vertex_count": 8
+        },
+        {
+          "index": -112,
+          "vertex_start": 96,
+          "vertex_count": 8
+        },
+        {
+          "index": -111,
+          "vertex_start": 104,
+          "vertex_count": 8
+        },
+        {
+          "index": -110,
+          "vertex_start": 112,
+          "vertex_count": 8
+        },
+        {
+          "index": -109,
+          "vertex_start": 120,
+          "vertex_count": 8
+        },
+        {
+          "index": -108,
+          "vertex_start": 128,
+          "vertex_count": 8
+        },
+        {
+          "index": -107,
+          "vertex_start": 136,
+          "vertex_count": 8
+        },
+        {
+          "index": -106,
+          "vertex_start": 144,
+          "vertex_count": 8
+        },
+        {
+          "index": -105,
+          "vertex_start": 152,
+          "vertex_count": 8
+        },
+        {
+          "index": -104,
+          "vertex_start": 160,
+          "vertex_count": 8
+        },
+        {
+          "index": -103,
+          "vertex_start": 168,
+          "vertex_count": 8
+        },
+        {
+          "index": -102,
+          "vertex_start": 176,
+          "vertex_count": 8
+        }
+      ],
+      "slat_count": 23
+    },
+    {
+      "name": "R42_SHADE_05_05",
+      "parent_glass": "P11_GH_LOWER_WEST_05_05",
+      "slats": [
+        {
+          "index": -146,
+          "vertex_start": 0,
+          "vertex_count": 8
+        },
+        {
+          "index": -145,
+          "vertex_start": 8,
+          "vertex_count": 8
+        },
+        {
+          "index": -144,
+          "vertex_start": 16,
+          "vertex_count": 8
+        },
+        {
+          "index": -143,
+          "vertex_start": 24,
+          "vertex_count": 8
+        },
+        {
+          "index": -142,
+          "vertex_start": 32,
+          "vertex_count": 8
+        },
+        {
+          "index": -141,
+          "vertex_start": 40,
+          "vertex_count": 8
+        },
+        {
+          "index": -140,
+          "vertex_start": 48,
+          "vertex_count": 8
+        },
+        {
+          "index": -139,
+          "vertex_start": 56,
+          "vertex_count": 8
+        },
+        {
+          "index": -138,
+          "vertex_start": 64,
+          "vertex_count": 8
+        },
+        {
+          "index": -137,
+          "vertex_start": 72,
+          "vertex_count": 8
+        },
+        {
+          "index": -136,
+          "vertex_start": 80,
+          "vertex_count": 8
+        },
+        {
+          "index": -135,
+          "vertex_start": 88,
+          "vertex_count": 8
+        },
+        {
+          "index": -134,
+          "vertex_start": 96,
+          "vertex_count": 8
+        },
+        {
+          "index": -133,
+          "vertex_start": 104,
+          "vertex_count": 8
+        },
+        {
+          "index": -132,
+          "vertex_start": 112,
+          "vertex_count": 8
+        },
+        {
+          "index": -131,
+          "vertex_start": 120,
+          "vertex_count": 8
+        },
+        {
+          "index": -130,
+          "vertex_start": 128,
+          "vertex_count": 8
+        },
+        {
+          "index": -129,
+          "vertex_start": 136,
+          "vertex_count": 8
+        },
+        {
+          "index": -128,
+          "vertex_start": 144,
+          "vertex_count": 8
+        },
+        {
+          "index": -127,
+          "vertex_start": 152,
+          "vertex_count": 8
+        }
+      ],
+      "slat_count": 20
+    },
+    {
+      "name": "R42_SHADE_06_00",
+      "parent_glass": "P11_GH_LOWER_WEST_06_00",
+      "slats": [
+        {
+          "index": -23,
+          "vertex_start": 0,
+          "vertex_count": 8
+        },
+        {
+          "index": -22,
+          "vertex_start": 8,
+          "vertex_count": 8
+        },
+        {
+          "index": -21,
+          "vertex_start": 16,
+          "vertex_count": 8
+        },
+        {
+          "index": -20,
+          "vertex_start": 24,
+          "vertex_count": 8
+        },
+        {
+          "index": -19,
+          "vertex_start": 32,
+          "vertex_count": 8
+        },
+        {
+          "index": -18,
+          "vertex_start": 40,
+          "vertex_count": 8
+        },
+        {
+          "index": -17,
+          "vertex_start": 48,
+          "vertex_count": 8
+        },
+        {
+          "index": -16,
+          "vertex_start": 56,
+          "vertex_count": 8
+        },
+        {
+          "index": -15,
+          "vertex_start": 64,
+          "vertex_count": 8
+        },
+        {
+          "index": -14,
+          "vertex_start": 72,
+          "vertex_count": 8
+        },
+        {
+          "index": -13,
+          "vertex_start": 80,
+          "vertex_count": 8
+        },
+        {
+          "index": -12,
+          "vertex_start": 88,
+          "vertex_count": 8
+        },
+        {
+          "index": -11,
+          "vertex_start": 96,
+          "vertex_count": 8
+        },
+        {
+          "index": -10,
+          "vertex_start": 104,
+          "vertex_count": 8
+        },
+        {
+          "index": -9,
+          "vertex_start": 112,
+          "vertex_count": 8
+        },
+        {
+          "index": -8,
+          "vertex_start": 120,
+          "vertex_count": 8
+        },
+        {
+          "index": -7,
+          "vertex_start": 128,
+          "vertex_count": 8
+        },
+        {
+          "index": -6,
+          "vertex_start": 136,
+          "vertex_count": 8
+        },
+        {
+          "index": -5,
+          "vertex_start": 144,
+          "vertex_count": 8
+        },
+        {
+          "index": -4,
+          "vertex_start": 152,
+          "vertex_count": 8
+        },
+        {
+          "index": -3,
+          "vertex_start": 160,
+          "vertex_count": 8
+        },
+        {
+          "index": -2,
+          "vertex_start": 168,
+          "vertex_count": 8
+        }
+      ],
+      "slat_count": 22
+    },
+    {
+      "name": "R42_SHADE_06_01",
+      "parent_glass": "P11_GH_LOWER_WEST_06_01",
+      "slats": [
+        {
+          "index": -48,
+          "vertex_start": 0,
+          "vertex_count": 8
+        },
+        {
+          "index": -47,
+          "vertex_start": 8,
+          "vertex_count": 8
+        },
+        {
+          "index": -46,
+          "vertex_start": 16,
+          "vertex_count": 8
+        },
+        {
+          "index": -45,
+          "vertex_start": 24,
+          "vertex_count": 8
+        },
+        {
+          "index": -44,
+          "vertex_start": 32,
+          "vertex_count": 8
+        },
+        {
+          "index": -43,
+          "vertex_start": 40,
+          "vertex_count": 8
+        },
+        {
+          "index": -42,
+          "vertex_start": 48,
+          "vertex_count": 8
+        },
+        {
+          "index": -41,
+          "vertex_start": 56,
+          "vertex_count": 8
+        },
+        {
+          "index": -40,
+          "vertex_start": 64,
+          "vertex_count": 8
+        },
+        {
+          "index": -39,
+          "vertex_start": 72,
+          "vertex_count": 8
+        },
+        {
+          "index": -38,
+          "vertex_start": 80,
+          "vertex_count": 8
+        },
+        {
+          "index": -37,
+          "vertex_start": 88,
+          "vertex_count": 8
+        },
+        {
+          "index": -36,
+          "vertex_start": 96,
+          "vertex_count": 8
+        },
+        {
+          "index": -35,
+          "vertex_start": 104,
+          "vertex_count": 8
+        },
+        {
+          "index": -34,
+          "vertex_start": 112,
+          "vertex_count": 8
+        },
+        {
+          "index": -33,
+          "vertex_start": 120,
+          "vertex_count": 8
+        },
+        {
+          "index": -32,
+          "vertex_start": 128,
+          "vertex_count": 8
+        },
+        {
+          "index": -31,
+          "vertex_start": 136,
+          "vertex_count": 8
+        },
+        {
+          "index": -30,
+          "vertex_start": 144,
+          "vertex_count": 8
+        },
+        {
+          "index": -29,
+          "vertex_start": 152,
+          "vertex_count": 8
+        },
+        {
+          "index": -28,
+          "vertex_start": 160,
+          "vertex_count": 8
+        },
+        {
+          "index": -27,
+          "vertex_start": 168,
+          "vertex_count": 8
+        }
+      ],
+      "slat_count": 22
+    },
+    {
+      "name": "R42_SHADE_06_02",
+      "parent_glass": "P11_GH_LOWER_WEST_06_02",
+      "slats": [
+        {
+          "index": -73,
+          "vertex_start": 0,
+          "vertex_count": 8
+        },
+        {
+          "index": -72,
+          "vertex_start": 8,
+          "vertex_count": 8
+        },
+        {
+          "index": -71,
+          "vertex_start": 16,
+          "vertex_count": 8
+        },
+        {
+          "index": -70,
+          "vertex_start": 24,
+          "vertex_count": 8
+        },
+        {
+          "index": -69,
+          "vertex_start": 32,
+          "vertex_count": 8
+        },
+        {
+          "index": -68,
+          "vertex_start": 40,
+          "vertex_count": 8
+        },
+        {
+          "index": -67,
+          "vertex_start": 48,
+          "vertex_count": 8
+        },
+        {
+          "index": -66,
+          "vertex_start": 56,
+          "vertex_count": 8
+        },
+        {
+          "index": -65,
+          "vertex_start": 64,
+          "vertex_count": 8
+        },
+        {
+          "index": -64,
+          "vertex_start": 72,
+          "vertex_count": 8
+        },
+        {
+          "index": -63,
+          "vertex_start": 80,
+          "vertex_count": 8
+        },
+        {
+          "index": -62,
+          "vertex_start": 88,
+          "vertex_count": 8
+        },
+        {
+          "index": -61,
+          "vertex_start": 96,
+          "vertex_count": 8
+        },
+        {
+          "index": -60,
+          "vertex_start": 104,
+          "vertex_count": 8
+        },
+        {
+          "index": -59,
+          "vertex_start": 112,
+          "vertex_count": 8
+        },
+        {
+          "index": -58,
+          "vertex_start": 120,
+          "vertex_count": 8
+        },
+        {
+          "index": -57,
+          "vertex_start": 128,
+          "vertex_count": 8
+        },
+        {
+          "index": -56,
+          "vertex_start": 136,
+          "vertex_count": 8
+        },
+        {
+          "index": -55,
+          "vertex_start": 144,
+          "vertex_count": 8
+        },
+        {
+          "index": -54,
+          "vertex_start": 152,
+          "vertex_count": 8
+        },
+        {
+          "index": -53,
+          "vertex_start": 160,
+          "vertex_count": 8
+        },
+        {
+          "index": -52,
+          "vertex_start": 168,
+          "vertex_count": 8
+        }
+      ],
+      "slat_count": 22
+    },
+    {
+      "name": "R42_SHADE_06_03",
+      "parent_glass": "P11_GH_LOWER_WEST_06_03",
+      "slats": [
+        {
+          "index": -98,
+          "vertex_start": 0,
+          "vertex_count": 8
+        },
+        {
+          "index": -97,
+          "vertex_start": 8,
+          "vertex_count": 8
+        },
+        {
+          "index": -96,
+          "vertex_start": 16,
+          "vertex_count": 8
+        },
+        {
+          "index": -95,
+          "vertex_start": 24,
+          "vertex_count": 8
+        },
+        {
+          "index": -94,
+          "vertex_start": 32,
+          "vertex_count": 8
+        },
+        {
+          "index": -93,
+          "vertex_start": 40,
+          "vertex_count": 8
+        },
+        {
+          "index": -92,
+          "vertex_start": 48,
+          "vertex_count": 8
+        },
+        {
+          "index": -91,
+          "vertex_start": 56,
+          "vertex_count": 8
+        },
+        {
+          "index": -90,
+          "vertex_start": 64,
+          "vertex_count": 8
+        },
+        {
+          "index": -89,
+          "vertex_start": 72,
+          "vertex_count": 8
+        },
+        {
+          "index": -88,
+          "vertex_start": 80,
+          "vertex_count": 8
+        },
+        {
+          "index": -87,
+          "vertex_start": 88,
+          "vertex_count": 8
+        },
+        {
+          "index": -86,
+          "vertex_start": 96,
+          "vertex_count": 8
+        },
+        {
+          "index": -85,
+          "vertex_start": 104,
+          "vertex_count": 8
+        },
+        {
+          "index": -84,
+          "vertex_start": 112,
+          "vertex_count": 8
+        },
+        {
+          "index": -83,
+          "vertex_start": 120,
+          "vertex_count": 8
+        },
+        {
+          "index": -82,
+          "vertex_start": 128,
+          "vertex_count": 8
+        },
+        {
+          "index": -81,
+          "vertex_start": 136,
+          "vertex_count": 8
+        },
+        {
+          "index": -80,
+          "vertex_start": 144,
+          "vertex_count": 8
+        },
+        {
+          "index": -79,
+          "vertex_start": 152,
+          "vertex_count": 8
+        },
+        {
+          "index": -78,
+          "vertex_start": 160,
+          "vertex_count": 8
+        },
+        {
+          "index": -77,
+          "vertex_start": 168,
+          "vertex_count": 8
+        }
+      ],
+      "slat_count": 22
+    },
+    {
+      "name": "R42_SHADE_06_04",
+      "parent_glass": "P11_GH_LOWER_WEST_06_04",
+      "slats": [
+        {
+          "index": -124,
+          "vertex_start": 0,
+          "vertex_count": 8
+        },
+        {
+          "index": -123,
+          "vertex_start": 8,
+          "vertex_count": 8
+        },
+        {
+          "index": -122,
+          "vertex_start": 16,
+          "vertex_count": 8
+        },
+        {
+          "index": -121,
+          "vertex_start": 24,
+          "vertex_count": 8
+        },
+        {
+          "index": -120,
+          "vertex_start": 32,
+          "vertex_count": 8
+        },
+        {
+          "index": -119,
+          "vertex_start": 40,
+          "vertex_count": 8
+        },
+        {
+          "index": -118,
+          "vertex_start": 48,
+          "vertex_count": 8
+        },
+        {
+          "index": -117,
+          "vertex_start": 56,
+          "vertex_count": 8
+        },
+        {
+          "index": -116,
+          "vertex_start": 64,
+          "vertex_count": 8
+        },
+        {
+          "index": -115,
+          "vertex_start": 72,
+          "vertex_count": 8
+        },
+        {
+          "index": -114,
+          "vertex_start": 80,
+          "vertex_count": 8
+        },
+        {
+          "index": -113,
+          "vertex_start": 88,
+          "vertex_count": 8
+        },
+        {
+          "index": -112,
+          "vertex_start": 96,
+          "vertex_count": 8
+        },
+        {
+          "index": -111,
+          "vertex_start": 104,
+          "vertex_count": 8
+        },
+        {
+          "index": -110,
+          "vertex_start": 112,
+          "vertex_count": 8
+        },
+        {
+          "index": -109,
+          "vertex_start": 120,
+          "vertex_count": 8
+        },
+        {
+          "index": -108,
+          "vertex_start": 128,
+          "vertex_count": 8
+        },
+        {
+          "index": -107,
+          "vertex_start": 136,
+          "vertex_count": 8
+        },
+        {
+          "index": -106,
+          "vertex_start": 144,
+          "vertex_count": 8
+        },
+        {
+          "index": -105,
+          "vertex_start": 152,
+          "vertex_count": 8
+        },
+        {
+          "index": -104,
+          "vertex_start": 160,
+          "vertex_count": 8
+        },
+        {
+          "index": -103,
+          "vertex_start": 168,
+          "vertex_count": 8
+        },
+        {
+          "index": -102,
+          "vertex_start": 176,
+          "vertex_count": 8
+        }
+      ],
+      "slat_count": 23
+    },
+    {
+      "name": "R42_SHADE_06_05",
+      "parent_glass": "P11_GH_LOWER_WEST_06_05",
+      "slats": [
+        {
+          "index": -146,
+          "vertex_start": 0,
+          "vertex_count": 8
+        },
+        {
+          "index": -145,
+          "vertex_start": 8,
+          "vertex_count": 8
+        },
+        {
+          "index": -144,
+          "vertex_start": 16,
+          "vertex_count": 8
+        },
+        {
+          "index": -143,
+          "vertex_start": 24,
+          "vertex_count": 8
+        },
+        {
+          "index": -142,
+          "vertex_start": 32,
+          "vertex_count": 8
+        },
+        {
+          "index": -141,
+          "vertex_start": 40,
+          "vertex_count": 8
+        },
+        {
+          "index": -140,
+          "vertex_start": 48,
+          "vertex_count": 8
+        },
+        {
+          "index": -139,
+          "vertex_start": 56,
+          "vertex_count": 8
+        },
+        {
+          "index": -138,
+          "vertex_start": 64,
+          "vertex_count": 8
+        },
+        {
+          "index": -137,
+          "vertex_start": 72,
+          "vertex_count": 8
+        },
+        {
+          "index": -136,
+          "vertex_start": 80,
+          "vertex_count": 8
+        },
+        {
+          "index": -135,
+          "vertex_start": 88,
+          "vertex_count": 8
+        },
+        {
+          "index": -134,
+          "vertex_start": 96,
+          "vertex_count": 8
+        },
+        {
+          "index": -133,
+          "vertex_start": 104,
+          "vertex_count": 8
+        },
+        {
+          "index": -132,
+          "vertex_start": 112,
+          "vertex_count": 8
+        },
+        {
+          "index": -131,
+          "vertex_start": 120,
+          "vertex_count": 8
+        },
+        {
+          "index": -130,
+          "vertex_start": 128,
+          "vertex_count": 8
+        },
+        {
+          "index": -129,
+          "vertex_start": 136,
+          "vertex_count": 8
+        },
+        {
+          "index": -128,
+          "vertex_start": 144,
+          "vertex_count": 8
+        },
+        {
+          "index": -127,
+          "vertex_start": 152,
+          "vertex_count": 8
+        }
+      ],
+      "slat_count": 20
+    },
+    {
+      "name": "R42_SHADE_07_00",
+      "parent_glass": "P11_GH_LOWER_WEST_07_00",
+      "slats": [
+        {
+          "index": -23,
+          "vertex_start": 0,
+          "vertex_count": 8
+        },
+        {
+          "index": -22,
+          "vertex_start": 8,
+          "vertex_count": 8
+        },
+        {
+          "index": -21,
+          "vertex_start": 16,
+          "vertex_count": 8
+        },
+        {
+          "index": -20,
+          "vertex_start": 24,
+          "vertex_count": 8
+        },
+        {
+          "index": -19,
+          "vertex_start": 32,
+          "vertex_count": 8
+        },
+        {
+          "index": -18,
+          "vertex_start": 40,
+          "vertex_count": 8
+        },
+        {
+          "index": -17,
+          "vertex_start": 48,
+          "vertex_count": 8
+        },
+        {
+          "index": -16,
+          "vertex_start": 56,
+          "vertex_count": 8
+        },
+        {
+          "index": -15,
+          "vertex_start": 64,
+          "vertex_count": 8
+        },
+        {
+          "index": -14,
+          "vertex_start": 72,
+          "vertex_count": 8
+        },
+        {
+          "index": -13,
+          "vertex_start": 80,
+          "vertex_count": 8
+        },
+        {
+          "index": -12,
+          "vertex_start": 88,
+          "vertex_count": 8
+        },
+        {
+          "index": -11,
+          "vertex_start": 96,
+          "vertex_count": 8
+        },
+        {
+          "index": -10,
+          "vertex_start": 104,
+          "vertex_count": 8
+        },
+        {
+          "index": -9,
+          "vertex_start": 112,
+          "vertex_count": 8
+        },
+        {
+          "index": -8,
+          "vertex_start": 120,
+          "vertex_count": 8
+        },
+        {
+          "index": -7,
+          "vertex_start": 128,
+          "vertex_count": 8
+        },
+        {
+          "index": -6,
+          "vertex_start": 136,
+          "vertex_count": 8
+        },
+        {
+          "index": -5,
+          "vertex_start": 144,
+          "vertex_count": 8
+        },
+        {
+          "index": -4,
+          "vertex_start": 152,
+          "vertex_count": 8
+        },
+        {
+          "index": -3,
+          "vertex_start": 160,
+          "vertex_count": 8
+        },
+        {
+          "index": -2,
+          "vertex_start": 168,
+          "vertex_count": 8
+        }
+      ],
+      "slat_count": 22
+    },
+    {
+      "name": "R42_SHADE_07_01",
+      "parent_glass": "P11_GH_LOWER_WEST_07_01",
+      "slats": [
+        {
+          "index": -48,
+          "vertex_start": 0,
+          "vertex_count": 8
+        },
+        {
+          "index": -47,
+          "vertex_start": 8,
+          "vertex_count": 8
+        },
+        {
+          "index": -46,
+          "vertex_start": 16,
+          "vertex_count": 8
+        },
+        {
+          "index": -45,
+          "vertex_start": 24,
+          "vertex_count": 8
+        },
+        {
+          "index": -44,
+          "vertex_start": 32,
+          "vertex_count": 8
+        },
+        {
+          "index": -43,
+          "vertex_start": 40,
+          "vertex_count": 8
+        },
+        {
+          "index": -42,
+          "vertex_start": 48,
+          "vertex_count": 8
+        },
+        {
+          "index": -41,
+          "vertex_start": 56,
+          "vertex_count": 8
+        },
+        {
+          "index": -40,
+          "vertex_start": 64,
+          "vertex_count": 8
+        },
+        {
+          "index": -39,
+          "vertex_start": 72,
+          "vertex_count": 8
+        },
+        {
+          "index": -38,
+          "vertex_start": 80,
+          "vertex_count": 8
+        },
+        {
+          "index": -37,
+          "vertex_start": 88,
+          "vertex_count": 8
+        },
+        {
+          "index": -36,
+          "vertex_start": 96,
+          "vertex_count": 8
+        },
+        {
+          "index": -35,
+          "vertex_start": 104,
+          "vertex_count": 8
+        },
+        {
+          "index": -34,
+          "vertex_start": 112,
+          "vertex_count": 8
+        },
+        {
+          "index": -33,
+          "vertex_start": 120,
+          "vertex_count": 8
+        },
+        {
+          "index": -32,
+          "vertex_start": 128,
+          "vertex_count": 8
+        },
+        {
+          "index": -31,
+          "vertex_start": 136,
+          "vertex_count": 8
+        },
+        {
+          "index": -30,
+          "vertex_start": 144,
+          "vertex_count": 8
+        },
+        {
+          "index": -29,
+          "vertex_start": 152,
+          "vertex_count": 8
+        },
+        {
+          "index": -28,
+          "vertex_start": 160,
+          "vertex_count": 8
+        },
+        {
+          "index": -27,
+          "vertex_start": 168,
+          "vertex_count": 8
+        }
+      ],
+      "slat_count": 22
+    },
+    {
+      "name": "R42_SHADE_07_02",
+      "parent_glass": "P11_GH_LOWER_WEST_07_02",
+      "slats": [
+        {
+          "index": -73,
+          "vertex_start": 0,
+          "vertex_count": 8
+        },
+        {
+          "index": -72,
+          "vertex_start": 8,
+          "vertex_count": 8
+        },
+        {
+          "index": -71,
+          "vertex_start": 16,
+          "vertex_count": 8
+        },
+        {
+          "index": -70,
+          "vertex_start": 24,
+          "vertex_count": 8
+        },
+        {
+          "index": -69,
+          "vertex_start": 32,
+          "vertex_count": 8
+        },
+        {
+          "index": -68,
+          "vertex_start": 40,
+          "vertex_count": 8
+        },
+        {
+          "index": -67,
+          "vertex_start": 48,
+          "vertex_count": 8
+        },
+        {
+          "index": -66,
+          "vertex_start": 56,
+          "vertex_count": 8
+        },
+        {
+          "index": -65,
+          "vertex_start": 64,
+          "vertex_count": 8
+        },
+        {
+          "index": -64,
+          "vertex_start": 72,
+          "vertex_count": 8
+        },
+        {
+          "index": -63,
+          "vertex_start": 80,
+          "vertex_count": 8
+        },
+        {
+          "index": -62,
+          "vertex_start": 88,
+          "vertex_count": 8
+        },
+        {
+          "index": -61,
+          "vertex_start": 96,
+          "vertex_count": 8
+        },
+        {
+          "index": -60,
+          "vertex_start": 104,
+          "vertex_count": 8
+        },
+        {
+          "index": -59,
+          "vertex_start": 112,
+          "vertex_count": 8
+        },
+        {
+          "index": -58,
+          "vertex_start": 120,
+          "vertex_count": 8
+        },
+        {
+          "index": -57,
+          "vertex_start": 128,
+          "vertex_count": 8
+        },
+        {
+          "index": -56,
+          "vertex_start": 136,
+          "vertex_count": 8
+        },
+        {
+          "index": -55,
+          "vertex_start": 144,
+          "vertex_count": 8
+        },
+        {
+          "index": -54,
+          "vertex_start": 152,
+          "vertex_count": 8
+        },
+        {
+          "index": -53,
+          "vertex_start": 160,
+          "vertex_count": 8
+        },
+        {
+          "index": -52,
+          "vertex_start": 168,
+          "vertex_count": 8
+        }
+      ],
+      "slat_count": 22
+    },
+    {
+      "name": "R42_SHADE_07_03",
+      "parent_glass": "P11_GH_LOWER_WEST_07_03",
+      "slats": [
+        {
+          "index": -98,
+          "vertex_start": 0,
+          "vertex_count": 8
+        },
+        {
+          "index": -97,
+          "vertex_start": 8,
+          "vertex_count": 8
+        },
+        {
+          "index": -96,
+          "vertex_start": 16,
+          "vertex_count": 8
+        },
+        {
+          "index": -95,
+          "vertex_start": 24,
+          "vertex_count": 8
+        },
+        {
+          "index": -94,
+          "vertex_start": 32,
+          "vertex_count": 8
+        },
+        {
+          "index": -93,
+          "vertex_start": 40,
+          "vertex_count": 8
+        },
+        {
+          "index": -92,
+          "vertex_start": 48,
+          "vertex_count": 8
+        },
+        {
+          "index": -91,
+          "vertex_start": 56,
+          "vertex_count": 8
+        },
+        {
+          "index": -90,
+          "vertex_start": 64,
+          "vertex_count": 8
+        },
+        {
+          "index": -89,
+          "vertex_start": 72,
+          "vertex_count": 8
+        },
+        {
+          "index": -88,
+          "vertex_start": 80,
+          "vertex_count": 8
+        },
+        {
+          "index": -87,
+          "vertex_start": 88,
+          "vertex_count": 8
+        },
+        {
+          "index": -86,
+          "vertex_start": 96,
+          "vertex_count": 8
+        },
+        {
+          "index": -85,
+          "vertex_start": 104,
+          "vertex_count": 8
+        },
+        {
+          "index": -84,
+          "vertex_start": 112,
+          "vertex_count": 8
+        },
+        {
+          "index": -83,
+          "vertex_start": 120,
+          "vertex_count": 8
+        },
+        {
+          "index": -82,
+          "vertex_start": 128,
+          "vertex_count": 8
+        },
+        {
+          "index": -81,
+          "vertex_start": 136,
+          "vertex_count": 8
+        },
+        {
+          "index": -80,
+          "vertex_start": 144,
+          "vertex_count": 8
+        },
+        {
+          "index": -79,
+          "vertex_start": 152,
+          "vertex_count": 8
+        },
+        {
+          "index": -78,
+          "vertex_start": 160,
+          "vertex_count": 8
+        },
+        {
+          "index": -77,
+          "vertex_start": 168,
+          "vertex_count": 8
+        }
+      ],
+      "slat_count": 22
+    },
+    {
+      "name": "R42_SHADE_07_04",
+      "parent_glass": "P11_GH_LOWER_WEST_07_04",
+      "slats": [
+        {
+          "index": -121,
+          "vertex_start": 0,
+          "vertex_count": 8
+        },
+        {
+          "index": -120,
+          "vertex_start": 8,
+          "vertex_count": 8
+        },
+        {
+          "index": -119,
+          "vertex_start": 16,
+          "vertex_count": 8
+        },
+        {
+          "index": -118,
+          "vertex_start": 24,
+          "vertex_count": 8
+        },
+        {
+          "index": -117,
+          "vertex_start": 32,
+          "vertex_count": 8
+        },
+        {
+          "index": -116,
+          "vertex_start": 40,
+          "vertex_count": 8
+        },
+        {
+          "index": -115,
+          "vertex_start": 48,
+          "vertex_count": 8
+        },
+        {
+          "index": -114,
+          "vertex_start": 56,
+          "vertex_count": 8
+        },
+        {
+          "index": -113,
+          "vertex_start": 64,
+          "vertex_count": 8
+        },
+        {
+          "index": -112,
+          "vertex_start": 72,
+          "vertex_count": 8
+        },
+        {
+          "index": -111,
+          "vertex_start": 80,
+          "vertex_count": 8
+        },
+        {
+          "index": -110,
+          "vertex_start": 88,
+          "vertex_count": 8
+        },
+        {
+          "index": -109,
+          "vertex_start": 96,
+          "vertex_count": 8
+        },
+        {
+          "index": -108,
+          "vertex_start": 104,
+          "vertex_count": 8
+        },
+        {
+          "index": -107,
+          "vertex_start": 112,
+          "vertex_count": 8
+        },
+        {
+          "index": -106,
+          "vertex_start": 120,
+          "vertex_count": 8
+        },
+        {
+          "index": -105,
+          "vertex_start": 128,
+          "vertex_count": 8
+        },
+        {
+          "index": -104,
+          "vertex_start": 136,
+          "vertex_count": 8
+        },
+        {
+          "index": -103,
+          "vertex_start": 144,
+          "vertex_count": 8
+        },
+        {
+          "index": -102,
+          "vertex_start": 152,
+          "vertex_count": 8
+        }
+      ],
+      "slat_count": 20
+    },
+    {
+      "name": "R42_SHADE_08_00",
+      "parent_glass": "P11_GH_LOWER_WEST_08_00",
+      "slats": [
+        {
+          "index": -23,
+          "vertex_start": 0,
+          "vertex_count": 8
+        },
+        {
+          "index": -22,
+          "vertex_start": 8,
+          "vertex_count": 8
+        },
+        {
+          "index": -21,
+          "vertex_start": 16,
+          "vertex_count": 8
+        },
+        {
+          "index": -20,
+          "vertex_start": 24,
+          "vertex_count": 8
+        },
+        {
+          "index": -19,
+          "vertex_start": 32,
+          "vertex_count": 8
+        },
+        {
+          "index": -18,
+          "vertex_start": 40,
+          "vertex_count": 8
+        },
+        {
+          "index": -17,
+          "vertex_start": 48,
+          "vertex_count": 8
+        },
+        {
+          "index": -16,
+          "vertex_start": 56,
+          "vertex_count": 8
+        },
+        {
+          "index": -15,
+          "vertex_start": 64,
+          "vertex_count": 8
+        },
+        {
+          "index": -14,
+          "vertex_start": 72,
+          "vertex_count": 8
+        },
+        {
+          "index": -13,
+          "vertex_start": 80,
+          "vertex_count": 8
+        },
+        {
+          "index": -12,
+          "vertex_start": 88,
+          "vertex_count": 8
+        },
+        {
+          "index": -11,
+          "vertex_start": 96,
+          "vertex_count": 8
+        },
+        {
+          "index": -10,
+          "vertex_start": 104,
+          "vertex_count": 8
+        },
+        {
+          "index": -9,
+          "vertex_start": 112,
+          "vertex_count": 8
+        },
+        {
+          "index": -8,
+          "vertex_start": 120,
+          "vertex_count": 8
+        },
+        {
+          "index": -7,
+          "vertex_start": 128,
+          "vertex_count": 8
+        },
+        {
+          "index": -6,
+          "vertex_start": 136,
+          "vertex_count": 8
+        },
+        {
+          "index": -5,
+          "vertex_start": 144,
+          "vertex_count": 8
+        },
+        {
+          "index": -4,
+          "vertex_start": 152,
+          "vertex_count": 8
+        },
+        {
+          "index": -3,
+          "vertex_start": 160,
+          "vertex_count": 8
+        },
+        {
+          "index": -2,
+          "vertex_start": 168,
+          "vertex_count": 8
+        }
+      ],
+      "slat_count": 22
+    },
+    {
+      "name": "R42_SHADE_08_01",
+      "parent_glass": "P11_GH_LOWER_WEST_08_01",
+      "slats": [
+        {
+          "index": -48,
+          "vertex_start": 0,
+          "vertex_count": 8
+        },
+        {
+          "index": -47,
+          "vertex_start": 8,
+          "vertex_count": 8
+        },
+        {
+          "index": -46,
+          "vertex_start": 16,
+          "vertex_count": 8
+        },
+        {
+          "index": -45,
+          "vertex_start": 24,
+          "vertex_count": 8
+        },
+        {
+          "index": -44,
+          "vertex_start": 32,
+          "vertex_count": 8
+        },
+        {
+          "index": -43,
+          "vertex_start": 40,
+          "vertex_count": 8
+        },
+        {
+          "index": -42,
+          "vertex_start": 48,
+          "vertex_count": 8
+        },
+        {
+          "index": -41,
+          "vertex_start": 56,
+          "vertex_count": 8
+        },
+        {
+          "index": -40,
+          "vertex_start": 64,
+          "vertex_count": 8
+        },
+        {
+          "index": -39,
+          "vertex_start": 72,
+          "vertex_count": 8
+        },
+        {
+          "index": -38,
+          "vertex_start": 80,
+          "vertex_count": 8
+        },
+        {
+          "index": -37,
+          "vertex_start": 88,
+          "vertex_count": 8
+        },
+        {
+          "index": -36,
+          "vertex_start": 96,
+          "vertex_count": 8
+        },
+        {
+          "index": -35,
+          "vertex_start": 104,
+          "vertex_count": 8
+        },
+        {
+          "index": -34,
+          "vertex_start": 112,
+          "vertex_count": 8
+        },
+        {
+          "index": -33,
+          "vertex_start": 120,
+          "vertex_count": 8
+        },
+        {
+          "index": -32,
+          "vertex_start": 128,
+          "vertex_count": 8
+        },
+        {
+          "index": -31,
+          "vertex_start": 136,
+          "vertex_count": 8
+        },
+        {
+          "index": -30,
+          "vertex_start": 144,
+          "vertex_count": 8
+        },
+        {
+          "index": -29,
+          "vertex_start": 152,
+          "vertex_count": 8
+        },
+        {
+          "index": -28,
+          "vertex_start": 160,
+          "vertex_count": 8
+        },
+        {
+          "index": -27,
+          "vertex_start": 168,
+          "vertex_count": 8
+        }
+      ],
+      "slat_count": 22
+    },
+    {
+      "name": "R42_SHADE_08_02",
+      "parent_glass": "P11_GH_LOWER_WEST_08_02",
+      "slats": [
+        {
+          "index": -73,
+          "vertex_start": 0,
+          "vertex_count": 8
+        },
+        {
+          "index": -72,
+          "vertex_start": 8,
+          "vertex_count": 8
+        },
+        {
+          "index": -71,
+          "vertex_start": 16,
+          "vertex_count": 8
+        },
+        {
+          "index": -70,
+          "vertex_start": 24,
+          "vertex_count": 8
+        },
+        {
+          "index": -69,
+          "vertex_start": 32,
+          "vertex_count": 8
+        },
+        {
+          "index": -68,
+          "vertex_start": 40,
+          "vertex_count": 8
+        },
+        {
+          "index": -67,
+          "vertex_start": 48,
+          "vertex_count": 8
+        },
+        {
+          "index": -66,
+          "vertex_start": 56,
+          "vertex_count": 8
+        },
+        {
+          "index": -65,
+          "vertex_start": 64,
+          "vertex_count": 8
+        },
+        {
+          "index": -64,
+          "vertex_start": 72,
+          "vertex_count": 8
+        },
+        {
+          "index": -63,
+          "vertex_start": 80,
+          "vertex_count": 8
+        },
+        {
+          "index": -62,
+          "vertex_start": 88,
+          "vertex_count": 8
+        },
+        {
+          "index": -61,
+          "vertex_start": 96,
+          "vertex_count": 8
+        },
+        {
+          "index": -60,
+          "vertex_start": 104,
+          "vertex_count": 8
+        },
+        {
+          "index": -59,
+          "vertex_start": 112,
+          "vertex_count": 8
+        },
+        {
+          "index": -58,
+          "vertex_start": 120,
+          "vertex_count": 8
+        },
+        {
+          "index": -57,
+          "vertex_start": 128,
+          "vertex_count": 8
+        },
+        {
+          "index": -56,
+          "vertex_start": 136,
+          "vertex_count": 8
+        },
+        {
+          "index": -55,
+          "vertex_start": 144,
+          "vertex_count": 8
+        },
+        {
+          "index": -54,
+          "vertex_start": 152,
+          "vertex_count": 8
+        },
+        {
+          "index": -53,
+          "vertex_start": 160,
+          "vertex_count": 8
+        },
+        {
+          "index": -52,
+          "vertex_start": 168,
+          "vertex_count": 8
+        }
+      ],
+      "slat_count": 22
+    },
+    {
+      "name": "R42_SHADE_08_03",
+      "parent_glass": "P11_GH_LOWER_WEST_08_03",
+      "slats": [
+        {
+          "index": -96,
+          "vertex_start": 0,
+          "vertex_count": 8
+        },
+        {
+          "index": -95,
+          "vertex_start": 8,
+          "vertex_count": 8
+        },
+        {
+          "index": -94,
+          "vertex_start": 16,
+          "vertex_count": 8
+        },
+        {
+          "index": -93,
+          "vertex_start": 24,
+          "vertex_count": 8
+        },
+        {
+          "index": -92,
+          "vertex_start": 32,
+          "vertex_count": 8
+        },
+        {
+          "index": -91,
+          "vertex_start": 40,
+          "vertex_count": 8
+        },
+        {
+          "index": -90,
+          "vertex_start": 48,
+          "vertex_count": 8
+        },
+        {
+          "index": -89,
+          "vertex_start": 56,
+          "vertex_count": 8
+        },
+        {
+          "index": -88,
+          "vertex_start": 64,
+          "vertex_count": 8
+        },
+        {
+          "index": -87,
+          "vertex_start": 72,
+          "vertex_count": 8
+        },
+        {
+          "index": -86,
+          "vertex_start": 80,
+          "vertex_count": 8
+        },
+        {
+          "index": -85,
+          "vertex_start": 88,
+          "vertex_count": 8
+        },
+        {
+          "index": -84,
+          "vertex_start": 96,
+          "vertex_count": 8
+        },
+        {
+          "index": -83,
+          "vertex_start": 104,
+          "vertex_count": 8
+        },
+        {
+          "index": -82,
+          "vertex_start": 112,
+          "vertex_count": 8
+        },
+        {
+          "index": -81,
+          "vertex_start": 120,
+          "vertex_count": 8
+        },
+        {
+          "index": -80,
+          "vertex_start": 128,
+          "vertex_count": 8
+        },
+        {
+          "index": -79,
+          "vertex_start": 136,
+          "vertex_count": 8
+        },
+        {
+          "index": -78,
+          "vertex_start": 144,
+          "vertex_count": 8
+        },
+        {
+          "index": -77,
+          "vertex_start": 152,
+          "vertex_count": 8
+        }
+      ],
+      "slat_count": 20
+    },
+    {
+      "name": "R42_SHADE_09_00",
+      "parent_glass": "P11_GH_LOWER_WEST_09_00",
+      "slats": [
+        {
+          "index": -23,
+          "vertex_start": 0,
+          "vertex_count": 8
+        },
+        {
+          "index": -22,
+          "vertex_start": 8,
+          "vertex_count": 8
+        },
+        {
+          "index": -21,
+          "vertex_start": 16,
+          "vertex_count": 8
+        },
+        {
+          "index": -20,
+          "vertex_start": 24,
+          "vertex_count": 8
+        },
+        {
+          "index": -19,
+          "vertex_start": 32,
+          "vertex_count": 8
+        },
+        {
+          "index": -18,
+          "vertex_start": 40,
+          "vertex_count": 8
+        },
+        {
+          "index": -17,
+          "vertex_start": 48,
+          "vertex_count": 8
+        },
+        {
+          "index": -16,
+          "vertex_start": 56,
+          "vertex_count": 8
+        },
+        {
+          "index": -15,
+          "vertex_start": 64,
+          "vertex_count": 8
+        },
+        {
+          "index": -14,
+          "vertex_start": 72,
+          "vertex_count": 8
+        },
+        {
+          "index": -13,
+          "vertex_start": 80,
+          "vertex_count": 8
+        },
+        {
+          "index": -12,
+          "vertex_start": 88,
+          "vertex_count": 8
+        },
+        {
+          "index": -11,
+          "vertex_start": 96,
+          "vertex_count": 8
+        },
+        {
+          "index": -10,
+          "vertex_start": 104,
+          "vertex_count": 8
+        },
+        {
+          "index": -9,
+          "vertex_start": 112,
+          "vertex_count": 8
+        },
+        {
+          "index": -8,
+          "vertex_start": 120,
+          "vertex_count": 8
+        },
+        {
+          "index": -7,
+          "vertex_start": 128,
+          "vertex_count": 8
+        },
+        {
+          "index": -6,
+          "vertex_start": 136,
+          "vertex_count": 8
+        },
+        {
+          "index": -5,
+          "vertex_start": 144,
+          "vertex_count": 8
+        },
+        {
+          "index": -4,
+          "vertex_start": 152,
+          "vertex_count": 8
+        },
+        {
+          "index": -3,
+          "vertex_start": 160,
+          "vertex_count": 8
+        },
+        {
+          "index": -2,
+          "vertex_start": 168,
+          "vertex_count": 8
+        }
+      ],
+      "slat_count": 22
+    },
+    {
+      "name": "R42_SHADE_09_01",
+      "parent_glass": "P11_GH_LOWER_WEST_09_01",
+      "slats": [
+        {
+          "index": -48,
+          "vertex_start": 0,
+          "vertex_count": 8
+        },
+        {
+          "index": -47,
+          "vertex_start": 8,
+          "vertex_count": 8
+        },
+        {
+          "index": -46,
+          "vertex_start": 16,
+          "vertex_count": 8
+        },
+        {
+          "index": -45,
+          "vertex_start": 24,
+          "vertex_count": 8
+        },
+        {
+          "index": -44,
+          "vertex_start": 32,
+          "vertex_count": 8
+        },
+        {
+          "index": -43,
+          "vertex_start": 40,
+          "vertex_count": 8
+        },
+        {
+          "index": -42,
+          "vertex_start": 48,
+          "vertex_count": 8
+        },
+        {
+          "index": -41,
+          "vertex_start": 56,
+          "vertex_count": 8
+        },
+        {
+          "index": -40,
+          "vertex_start": 64,
+          "vertex_count": 8
+        },
+        {
+          "index": -39,
+          "vertex_start": 72,
+          "vertex_count": 8
+        },
+        {
+          "index": -38,
+          "vertex_start": 80,
+          "vertex_count": 8
+        },
+        {
+          "index": -37,
+          "vertex_start": 88,
+          "vertex_count": 8
+        },
+        {
+          "index": -36,
+          "vertex_start": 96,
+          "vertex_count": 8
+        },
+        {
+          "index": -35,
+          "vertex_start": 104,
+          "vertex_count": 8
+        },
+        {
+          "index": -34,
+          "vertex_start": 112,
+          "vertex_count": 8
+        },
+        {
+          "index": -33,
+          "vertex_start": 120,
+          "vertex_count": 8
+        },
+        {
+          "index": -32,
+          "vertex_start": 128,
+          "vertex_count": 8
+        },
+        {
+          "index": -31,
+          "vertex_start": 136,
+          "vertex_count": 8
+        },
+        {
+          "index": -30,
+          "vertex_start": 144,
+          "vertex_count": 8
+        },
+        {
+          "index": -29,
+          "vertex_start": 152,
+          "vertex_count": 8
+        },
+        {
+          "index": -28,
+          "vertex_start": 160,
+          "vertex_count": 8
+        },
+        {
+          "index": -27,
+          "vertex_start": 168,
+          "vertex_count": 8
+        }
+      ],
+      "slat_count": 22
+    },
+    {
+      "name": "R42_SHADE_09_02",
+      "parent_glass": "P11_GH_LOWER_WEST_09_02",
+      "slats": [
+        {
+          "index": -71,
+          "vertex_start": 0,
+          "vertex_count": 8
+        },
+        {
+          "index": -70,
+          "vertex_start": 8,
+          "vertex_count": 8
+        },
+        {
+          "index": -69,
+          "vertex_start": 16,
+          "vertex_count": 8
+        },
+        {
+          "index": -68,
+          "vertex_start": 24,
+          "vertex_count": 8
+        },
+        {
+          "index": -67,
+          "vertex_start": 32,
+          "vertex_count": 8
+        },
+        {
+          "index": -66,
+          "vertex_start": 40,
+          "vertex_count": 8
+        },
+        {
+          "index": -65,
+          "vertex_start": 48,
+          "vertex_count": 8
+        },
+        {
+          "index": -64,
+          "vertex_start": 56,
+          "vertex_count": 8
+        },
+        {
+          "index": -63,
+          "vertex_start": 64,
+          "vertex_count": 8
+        },
+        {
+          "index": -62,
+          "vertex_start": 72,
+          "vertex_count": 8
+        },
+        {
+          "index": -61,
+          "vertex_start": 80,
+          "vertex_count": 8
+        },
+        {
+          "index": -60,
+          "vertex_start": 88,
+          "vertex_count": 8
+        },
+        {
+          "index": -59,
+          "vertex_start": 96,
+          "vertex_count": 8
+        },
+        {
+          "index": -58,
+          "vertex_start": 104,
+          "vertex_count": 8
+        },
+        {
+          "index": -57,
+          "vertex_start": 112,
+          "vertex_count": 8
+        },
+        {
+          "index": -56,
+          "vertex_start": 120,
+          "vertex_count": 8
+        },
+        {
+          "index": -55,
+          "vertex_start": 128,
+          "vertex_count": 8
+        },
+        {
+          "index": -54,
+          "vertex_start": 136,
+          "vertex_count": 8
+        },
+        {
+          "index": -53,
+          "vertex_start": 144,
+          "vertex_count": 8
+        },
+        {
+          "index": -52,
+          "vertex_start": 152,
+          "vertex_count": 8
+        }
+      ],
+      "slat_count": 20
+    },
+    {
+      "name": "R42_SHADE_10_00",
+      "parent_glass": "P11_GH_LOWER_WEST_10_00",
+      "slats": [
+        {
+          "index": -23,
+          "vertex_start": 0,
+          "vertex_count": 8
+        },
+        {
+          "index": -22,
+          "vertex_start": 8,
+          "vertex_count": 8
+        },
+        {
+          "index": -21,
+          "vertex_start": 16,
+          "vertex_count": 8
+        },
+        {
+          "index": -20,
+          "vertex_start": 24,
+          "vertex_count": 8
+        },
+        {
+          "index": -19,
+          "vertex_start": 32,
+          "vertex_count": 8
+        },
+        {
+          "index": -18,
+          "vertex_start": 40,
+          "vertex_count": 8
+        },
+        {
+          "index": -17,
+          "vertex_start": 48,
+          "vertex_count": 8
+        },
+        {
+          "index": -16,
+          "vertex_start": 56,
+          "vertex_count": 8
+        },
+        {
+          "index": -15,
+          "vertex_start": 64,
+          "vertex_count": 8
+        },
+        {
+          "index": -14,
+          "vertex_start": 72,
+          "vertex_count": 8
+        },
+        {
+          "index": -13,
+          "vertex_start": 80,
+          "vertex_count": 8
+        },
+        {
+          "index": -12,
+          "vertex_start": 88,
+          "vertex_count": 8
+        },
+        {
+          "index": -11,
+          "vertex_start": 96,
+          "vertex_count": 8
+        },
+        {
+          "index": -10,
+          "vertex_start": 104,
+          "vertex_count": 8
+        },
+        {
+          "index": -9,
+          "vertex_start": 112,
+          "vertex_count": 8
+        },
+        {
+          "index": -8,
+          "vertex_start": 120,
+          "vertex_count": 8
+        },
+        {
+          "index": -7,
+          "vertex_start": 128,
+          "vertex_count": 8
+        },
+        {
+          "index": -6,
+          "vertex_start": 136,
+          "vertex_count": 8
+        },
+        {
+          "index": -5,
+          "vertex_start": 144,
+          "vertex_count": 8
+        },
+        {
+          "index": -4,
+          "vertex_start": 152,
+          "vertex_count": 8
+        },
+        {
+          "index": -3,
+          "vertex_start": 160,
+          "vertex_count": 8
+        },
+        {
+          "index": -2,
+          "vertex_start": 168,
+          "vertex_count": 8
+        }
+      ],
+      "slat_count": 22
+    },
+    {
+      "name": "R42_SHADE_10_01",
+      "parent_glass": "P11_GH_LOWER_WEST_10_01",
+      "slats": [
+        {
+          "index": -46,
+          "vertex_start": 0,
+          "vertex_count": 8
+        },
+        {
+          "index": -45,
+          "vertex_start": 8,
+          "vertex_count": 8
+        },
+        {
+          "index": -44,
+          "vertex_start": 16,
+          "vertex_count": 8
+        },
+        {
+          "index": -43,
+          "vertex_start": 24,
+          "vertex_count": 8
+        },
+        {
+          "index": -42,
+          "vertex_start": 32,
+          "vertex_count": 8
+        },
+        {
+          "index": -41,
+          "vertex_start": 40,
+          "vertex_count": 8
+        },
+        {
+          "index": -40,
+          "vertex_start": 48,
+          "vertex_count": 8
+        },
+        {
+          "index": -39,
+          "vertex_start": 56,
+          "vertex_count": 8
+        },
+        {
+          "index": -38,
+          "vertex_start": 64,
+          "vertex_count": 8
+        },
+        {
+          "index": -37,
+          "vertex_start": 72,
+          "vertex_count": 8
+        },
+        {
+          "index": -36,
+          "vertex_start": 80,
+          "vertex_count": 8
+        },
+        {
+          "index": -35,
+          "vertex_start": 88,
+          "vertex_count": 8
+        },
+        {
+          "index": -34,
+          "vertex_start": 96,
+          "vertex_count": 8
+        },
+        {
+          "index": -33,
+          "vertex_start": 104,
+          "vertex_count": 8
+        },
+        {
+          "index": -32,
+          "vertex_start": 112,
+          "vertex_count": 8
+        },
+        {
+          "index": -31,
+          "vertex_start": 120,
+          "vertex_count": 8
+        },
+        {
+          "index": -30,
+          "vertex_start": 128,
+          "vertex_count": 8
+        },
+        {
+          "index": -29,
+          "vertex_start": 136,
+          "vertex_count": 8
+        },
+        {
+          "index": -28,
+          "vertex_start": 144,
+          "vertex_count": 8
+        },
+        {
+          "index": -27,
+          "vertex_start": 152,
+          "vertex_count": 8
+        }
+      ],
+      "slat_count": 20
+    },
+    {
+      "name": "R42_SHADE_11_00",
+      "parent_glass": "P11_GH_LOWER_WEST_11_00",
+      "slats": [
+        {
+          "index": -21,
+          "vertex_start": 0,
+          "vertex_count": 8
+        },
+        {
+          "index": -20,
+          "vertex_start": 8,
+          "vertex_count": 8
+        },
+        {
+          "index": -19,
+          "vertex_start": 16,
+          "vertex_count": 8
+        },
+        {
+          "index": -18,
+          "vertex_start": 24,
+          "vertex_count": 8
+        },
+        {
+          "index": -17,
+          "vertex_start": 32,
+          "vertex_count": 8
+        },
+        {
+          "index": -16,
+          "vertex_start": 40,
+          "vertex_count": 8
+        },
+        {
+          "index": -15,
+          "vertex_start": 48,
+          "vertex_count": 8
+        },
+        {
+          "index": -14,
+          "vertex_start": 56,
+          "vertex_count": 8
+        },
+        {
+          "index": -13,
+          "vertex_start": 64,
+          "vertex_count": 8
+        },
+        {
+          "index": -12,
+          "vertex_start": 72,
+          "vertex_count": 8
+        },
+        {
+          "index": -11,
+          "vertex_start": 80,
+          "vertex_count": 8
+        },
+        {
+          "index": -10,
+          "vertex_start": 88,
+          "vertex_count": 8
+        },
+        {
+          "index": -9,
+          "vertex_start": 96,
+          "vertex_count": 8
+        },
+        {
+          "index": -8,
+          "vertex_start": 104,
+          "vertex_count": 8
+        },
+        {
+          "index": -7,
+          "vertex_start": 112,
+          "vertex_count": 8
+        },
+        {
+          "index": -6,
+          "vertex_start": 120,
+          "vertex_count": 8
+        },
+        {
+          "index": -5,
+          "vertex_start": 128,
+          "vertex_count": 8
+        },
+        {
+          "index": -4,
+          "vertex_start": 136,
+          "vertex_count": 8
+        },
+        {
+          "index": -3,
+          "vertex_start": 144,
+          "vertex_count": 8
+        },
+        {
+          "index": -2,
+          "vertex_start": 152,
+          "vertex_count": 8
+        }
+      ],
+      "slat_count": 20
+    }
+  ],
+  "slat_count": 902,
+  "roof_origin": [
+    -5.2656941413879395,
+    3.7434914112091064,
+    9.71857738494873
+  ],
+  "u": [
+    -0.03631751239299774,
+    -0.9993402361869812,
+    0.0
+  ],
+  "v": [
+    0.7638401389122009,
+    -0.027759088203310966,
+    0.6448083519935608
+  ],
+  "normal": [
+    -0.6443829536437988,
+    0.02341783605515957,
+    0.764344334602356
+  ],
+  "construction_acceptance": false
+}

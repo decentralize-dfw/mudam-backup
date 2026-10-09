@@ -5,7 +5,7 @@ from mathutils import Vector
 R=Path(__file__).resolve().parents[2];B=R/'12_Blender_Model';r=json.loads((B/'reports/R04_build_report.json').read_text());P=json.loads((B/'config/upper_stair_flight.json').read_text());C=json.loads((B/'config/foundation.json').read_text())['calibration'];Q=json.loads((B/'config/stair_glass_return.json').read_text())
 report_path=B/'reports/R04_verification.json'
 if '--' in sys.argv:
- args=sys.argv[sys.argv.index('--')+1:];assert len(args)==2;r['file']=args[0];report_path=B/'reports'/args[1]
+ args=sys.argv[sys.argv.index('--')+1:];assert len(args) in [2,3];r['file']=args[0];report_path=B/'reports'/args[1]
 bpy.ops.wm.open_mainfile(filepath=str(R/r['file']));deps=bpy.context.evaluated_depsgraph_get();fail=[];solids=[]
 for name in r['closed_objects']+[r['modified_floor']]:
  ob=bpy.data.objects[name].evaluated_get(deps);me=ob.to_mesh();bm=bmesh.new();bm.from_mesh(me);v=bm.calc_volume(signed=True);nm=sum(not e.is_manifold for e in bm.edges);zero=sum(f.calc_area()<1e-10 for f in bm.faces);bm.free();ob.to_mesh_clear();solids.append(dict(name=name,volume=v,nonmanifold=nm,zero_faces=zero))
@@ -41,6 +41,9 @@ curve=bpy.data.objects['R03_RETURN_ROUND_HANDRAIL'];vertices=[curve.matrix_world
 if join_error>1e-4:fail.append(dict(test='handrail_return_connection',error=join_error))
 # Earlier open portal and recessed lamp must survive the larger stair recess.
 old=json.loads((B/'reports/R02_build_report.json').read_text());a,b=map(Vector,old['portal_endpoints']);normal=Vector(old['normal']);portal=[]
+if '--' in sys.argv and len(args)==3:
+ contract=json.loads((B/'reports'/args[2]).read_text());assert contract['file']==r['file'];old['upper_head']=contract['upper_head']
+portal_clear_head=old['upper_head']
 for t in [.2,.5,.8]:
  for z,expected in [(1.2,False),(old['ground_clear']-.05,False),((old['ground_clear']+old['beam_top'])/2,True),(old['beam_top']+.2,False),(old['upper_head']-.2,False)]:
   p=a.lerp(b,t);p.z=z;hits=ray(p-normal*.5,normal,1);portal.append(dict(t=t,z=z,hits=hits))
@@ -54,4 +57,6 @@ assert all(bpy.data.objects[n].hide_render for n in r['cutters']+r['replaced'])
 assert abs(r['steps'][-1]['z']-r['upper_level'])<1e-8
 assert len([o for o in bpy.data.objects if o.name.startswith('P10_') and o.get('element_type')=='roof_glass_panel'])==359
 result=dict(file=r['file'],failures=fail,evaluated_solids=solids,walk_support_headroom=walk,between_tread_eye_rays=transitions,upper_exit_hits=exit_hits,return_rail_join_error_m=join_error,portal_regression=portal,recess_regression=recess,main_risers_candidate=r['main_risers_candidate'],metric_riser_count_verified=False,upper_plan_interpretation_verified=False,construction_acceptance=False)
+result['portal_clear_head_tested_m']=portal_clear_head
+if '--' in sys.argv and len(args)==3:result['portal_contract_report']=args[2]
 report_path.write_text(json.dumps(result,indent=2),encoding='utf8');print(json.dumps(result,indent=2));assert not fail,fail

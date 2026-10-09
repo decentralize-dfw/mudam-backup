@@ -1,0 +1,458 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R39_GIRIS_TAVAN_BUTUNLUGU_v001.blend",
+  "base_scene": "MUDAM_R38_PARK_YAKLASIM_v003.blend",
+  "closed_objects": [
+    "R39_PUBLIC_CEILING_00",
+    "R39_PUBLIC_CEILING_01",
+    "R39_PUBLIC_CEILING_02",
+    "R39_PUBLIC_CEILING_03",
+    "R39_PUBLIC_CEILING_04",
+    "R39_PUBLIC_CEILING_05",
+    "R39_PUBLIC_CEILING_06",
+    "R39_PUBLIC_CEILING_07",
+    "R39_PUBLIC_CEILING_08",
+    "R39_PUBLIC_CEILING_09",
+    "R39_PUBLIC_CEILING_10",
+    "R39_PUBLIC_CEILING_11",
+    "R39_PUBLIC_CEILING_12",
+    "R39_PUBLIC_CEILING_13",
+    "R39_PUBLIC_CEILING_14",
+    "R39_PUBLIC_CEILING_15",
+    "R39_PUBLIC_CEILING_16",
+    "R39_PUBLIC_CEILING_17",
+    "R39_PUBLIC_CEILING_18",
+    "R39_PUBLIC_CEILING_19"
+  ],
+  "changed_inherited_objects": [
+    "R33_WALL_WC_E_N",
+    "R33_WALL_WC_E_W",
+    "R33_WALL_WC_E_S",
+    "R33_WALL_WC_W_N",
+    "R33_WALL_WC_W_E",
+    "R33_WALL_WC_W_S"
+  ],
+  "ceiling_cells": [
+    {
+      "name": "R39_PUBLIC_CEILING_00",
+      "canonical": [
+        [
+          466,
+          554.0
+        ],
+        [
+          466.82,
+          554.0
+        ],
+        [
+          466.82,
+          619.27
+        ],
+        [
+          466,
+          619.27
+        ]
+      ]
+    },
+    {
+      "name": "R39_PUBLIC_CEILING_01",
+      "canonical": [
+        [
+          466,
+          672.35
+        ],
+        [
+          466.82,
+          672.35
+        ],
+        [
+          466.82,
+          710.0
+        ],
+        [
+          466,
+          710.0
+        ]
+      ]
+    },
+    {
+      "name": "R39_PUBLIC_CEILING_02",
+      "canonical": [
+        [
+          466.82,
+          554.0
+        ],
+        [
+          470.9,
+          554.0
+        ],
+        [
+          470.9,
+          710.0
+        ],
+        [
+          466.82,
+          710.0
+        ]
+      ]
+    },
+    {
+      "name": "R39_PUBLIC_CEILING_03",
+      "canonical": [
+        [
+          470.9,
+          554.0
+        ],
+        [
+          470.93,
+          554.0
+        ],
+        [
+          470.93,
+          560.83
+        ],
+        [
+          470.9,
+          560.83
+        ]
+      ]
+    },
+    {
+      "name": "R39_PUBLIC_CEILING_04",
+      "canonical": [
+        [
+          470.9,
+          595.6
+        ],
+        [
+          470.93,
+          595.6
+        ],
+        [
+          470.93,
+          710.0
+        ],
+        [
+          470.9,
+          710.0
+        ]
+      ]
+    },
+    {
+      "name": "R39_PUBLIC_CEILING_05",
+      "canonical": [
+        [
+          470.93,
+          554.0
+        ],
+        [
+          526.52,
+          554.0
+        ],
+        [
+          526.52,
+          560.83
+        ],
+        [
+          470.93,
+          560.83
+        ]
+      ]
+    },
+    {
+      "name": "R39_PUBLIC_CEILING_06",
+      "canonical": [
+        [
+          470.93,
+          595.6
+        ],
+        [
+          526.52,
+          595.6
+        ],
+        [
+          526.52,
+          657.78
+        ],
+        [
+          470.93,
+          657.78
+        ]
+      ]
+    },
+    {
+      "name": "R39_PUBLIC_CEILING_07",
+      "canonical": [
+        [
+          470.93,
+          703.22
+        ],
+        [
+          526.52,
+          703.22
+        ],
+        [
+          526.52,
+          710.0
+        ],
+        [
+          470.93,
+          710.0
+        ]
+      ]
+    },
+    {
+      "name": "R39_PUBLIC_CEILING_08",
+      "canonical": [
+        [
+          526.52,
+          554.0
+        ],
+        [
+          537,
+          554.0
+        ],
+        [
+          537,
+          560.83
+        ],
+        [
+          526.52,
+          560.83
+        ]
+      ]
+    },
+    {
+      "name": "R39_PUBLIC_CEILING_09",
+      "canonical": [
+        [
+          526.52,
+          595.6
+        ],
+        [
+          537,
+          595.6
+        ],
+        [
+          537,
+          710.0
+        ],
+        [
+          526.52,
+          710.0
+        ]
+      ]
+    },
+    {
+      "name": "R39_PUBLIC_CEILING_10",
+      "canonical": [
+        [
+          537,
+          554.0
+        ],
+        [
+          555,
+          554.0
+        ],
+        [
+          555,
+          560.83
+        ],
+        [
+          537,
+          560.83
+        ]
+      ]
+    },
+    {
+      "name": "R39_PUBLIC_CEILING_11",
+      "canonical": [
+        [
+          537,
+          595.6
+        ],
+        [
+          555,
+          595.6
+        ],
+        [
+          555,
+          691.1428571428571
+        ],
+        [
+          537,
+          710.0
+        ]
+      ]
+    },
+    {
+      "name": "R39_PUBLIC_CEILING_12",
+      "canonical": [
+        [
+          555,
+          554.0
+        ],
+        [
+          558,
+          554.0
+        ],
+        [
+          558,
+          688.0
+        ],
+        [
+          555,
+          691.1428571428571
+        ]
+      ]
+    },
+    {
+      "name": "R39_PUBLIC_CEILING_13",
+      "canonical": [
+        [
+          558,
+          554.0
+        ],
+        [
+          594,
+          554.0
+        ],
+        [
+          594,
+          688.0
+        ],
+        [
+          558,
+          688.0
+        ]
+      ]
+    },
+    {
+      "name": "R39_PUBLIC_CEILING_14",
+      "canonical": [
+        [
+          594,
+          554.0
+        ],
+        [
+          594.28,
+          554.0
+        ],
+        [
+          594.28,
+          688.28
+        ],
+        [
+          594,
+          688.0
+        ]
+      ]
+    },
+    {
+      "name": "R39_PUBLIC_CEILING_15",
+      "canonical": [
+        [
+          594.28,
+          554.0
+        ],
+        [
+          616,
+          554.0
+        ],
+        [
+          616,
+          560.83
+        ],
+        [
+          594.28,
+          560.83
+        ]
+      ]
+    },
+    {
+      "name": "R39_PUBLIC_CEILING_16",
+      "canonical": [
+        [
+          594.28,
+          595.6
+        ],
+        [
+          616,
+          595.6
+        ],
+        [
+          616,
+          710.0
+        ],
+        [
+          594.28,
+          688.28
+        ]
+      ]
+    },
+    {
+      "name": "R39_PUBLIC_CEILING_17",
+      "canonical": [
+        [
+          616,
+          554.0
+        ],
+        [
+          680.44,
+          554.0
+        ],
+        [
+          680.44,
+          560.83
+        ],
+        [
+          616,
+          560.83
+        ]
+      ]
+    },
+    {
+      "name": "R39_PUBLIC_CEILING_18",
+      "canonical": [
+        [
+          616,
+          595.6
+        ],
+        [
+          680.44,
+          595.6
+        ],
+        [
+          680.44,
+          710.0
+        ],
+        [
+          616,
+          710.0
+        ]
+      ]
+    },
+    {
+      "name": "R39_PUBLIC_CEILING_19",
+      "canonical": [
+        [
+          680.44,
+          554.0
+        ],
+        [
+          689,
+          554.0
+        ],
+        [
+          689,
+          710.0
+        ],
+        [
+          680.44,
+          710.0
+        ]
+      ]
+    }
+  ],
+  "ceiling_z": 4.35,
+  "construction_acceptance": false
+}

@@ -1,0 +1,17 @@
+{
+  "base_scene": "MUDAM_R36_CEPHE_BASLIK_KONTROL_v003.blend",
+  "head_depth_m": 0.28,
+  "head_width_m": 0.38,
+  "source_ids": [
+    "026",
+    "033",
+    "102",
+    "PDF2016"
+  ],
+  "limits": [
+    "026 and 033 show a metal head spanning the open portal below glazed roof.",
+    "Clear head uses underside of .28m candidate member below roof reference 9.718577m. Neither member size nor absolute roof height is surveyed.",
+    "Prior R04 ray at9.518577 lies inside photographed member zone; original failing report retained, new soffit contract separately tested.",
+    "R26 strip slope/profile counts remain conditional; this does not validate entire roof."
+  ]
+}
