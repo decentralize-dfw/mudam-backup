@@ -1,0 +1,83 @@
+{
+  "sources": [
+    {
+      "id": "001",
+      "path": "05_Dis_Mekan/Cepheler/001_Tas_cephe_ve_cam_pavyon_WikiArquitectura.jpg",
+      "sha256": "eeca47a9e7153c3aa5278132dd11586f863f807ae0c2b2a62969d74c3dc488ad",
+      "source_url": "https://es.wikiarquitectura.com/edificio/museo-de-arte-moderno-grand-duc-jean-mudam/",
+      "credit": "WikiArquitectura; sayfadaki fotoğraf serisi Haziran 2019",
+      "source_date": "unknown; do not infer from download date",
+      "modified": false
+    },
+    {
+      "id": "004",
+      "path": "05_Dis_Mekan/Cepheler/004_Tas_cephe_ve_cam_pavyon_WikiArquitectura.jpg",
+      "sha256": "da6a7a25af60c49b8e770b7ee1ae2273a06b4d02e837676bbeed5c32c2e5edd7",
+      "source_url": "https://es.wikiarquitectura.com/edificio/museo-de-arte-moderno-grand-duc-jean-mudam/",
+      "credit": "WikiArquitectura; sayfadaki fotoğraf serisi Haziran 2019",
+      "source_date": "unknown; do not infer from download date",
+      "modified": false
+    },
+    {
+      "id": "089",
+      "path": "05_Dis_Mekan/Cepheler/089_Tas_cephe_ve_cam_cati_ArchEyes.jpg",
+      "sha256": "23fa8a30c81c6ac4092e4dc4c39f0eae95e4ce901f0db47ccdc615ec7ebde46d",
+      "source_url": "https://archeyes.com/the-mudam-by-i-m-pei-where-old-meets-new/",
+      "credit": "© Michael Nguyen / ArchEyes",
+      "source_date": "unknown; do not infer from download date",
+      "modified": false
+    },
+    {
+      "id": "101",
+      "path": "02_Kesitler/101_Mimari_kesit_ArchEyes.jpg",
+      "sha256": "399ce49f286dbbf4e7472e42a278bf236d55f58fdd297d3302f6037dbe5bfc20",
+      "source_url": "https://archeyes.com/the-mudam-by-i-m-pei-where-old-meets-new/",
+      "credit": "I. M. Pei (çizim; kaynak atfı)",
+      "source_date": "unknown; do not infer from download date",
+      "modified": false
+    },
+    {
+      "id": "102",
+      "path": "01_Kat_Planlari/Resmi_Kat_Semalari/102_Resmi_kat_semasi_zemin_0_Mudam.jpeg",
+      "sha256": "f4d1d1992e1e2d664d5bf5fddd6aedd760edb2931f398e52b5e13316acec2407",
+      "source_url": "https://www.mudam.com/fr/floor-plans",
+      "credit": "Mudam Luxembourg; kullanıcı tarafından verilen doğrudan bağlantı",
+      "source_date": "unknown; do not infer from download date",
+      "modified": false
+    }
+  ],
+  "config": {
+    "base_scene": "MUDAM_R12_BATI_DUZ_CAM_v001.blend",
+    "source_ids": [
+      "001",
+      "004",
+      "089",
+      "101",
+      "102"
+    ],
+    "tower_topology": "four-sided lantern from 089; earlier eight-sided study rejected",
+    "tower_width_ratio_101": 0.24390243902439024,
+    "roof_rows_candidate": 3,
+    "roof_face_columns_candidate": 3,
+    "tower_columns": 3,
+    "tower_rows": 3,
+    "glass_thickness_m": 0.018,
+    "frame_width_m": 0.075,
+    "frame_depth_m": 0.14,
+    "finial_stem_height_m": 0.6,
+    "finial_stem_diameter_m": 0.025,
+    "finial_ball_diameter_m": 0.11,
+    "observations": [
+      "089 close view shows two adjacent broad tower faces, each with three columns and three rows; the eight-sided reduced-footprint study does not match.",
+      "102 outer pavilion remains an octagon. Four large sloping trapezoids and four shorter triangular transitions join the square lantern.",
+      "001 and 089 support sloped panel rows, a pyramidal cap and a stem with ball at the apex.",
+      "101 supplies only conditional proportions. New inner quadrilateral follows parallel offsets of the four long outer source edges so every primary roof facet is planar."
+    ],
+    "limits": [
+      "Lantern footprint orientation and dimensions remain source-derived candidates; no calibrated 089 camera solution.",
+      "Exact roof subdivision on obscured faces is a symmetry hypothesis.",
+      "Mullion sizes, glass thickness, finial and internal tension rods are unmeasured.",
+      "The original pavilion stone wall, link, and levels are retained; internal spiral, gallery floor and basement remain separate work."
+    ]
+  }
+}

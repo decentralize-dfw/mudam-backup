@@ -1,0 +1,54 @@
+{
+  "base_scene": "MUDAM_R14_BATI_CAM_MERDIVEN_v003.blend",
+  "source_ids": [
+    "001",
+    "002",
+    "003",
+    "004",
+    "005",
+    "100",
+    "116",
+    "102",
+    "101"
+  ],
+  "facade_endpoints": [
+    [
+      289.5,
+      534.7
+    ],
+    [
+      478.7,
+      723.3
+    ]
+  ],
+  "bay_starts_m": [
+    0.92,
+    5.94,
+    10.97,
+    16.07,
+    21.11
+  ],
+  "bay_width_m": 3.0,
+  "head_z": 3.45,
+  "sill_z": 0.45,
+  "blind_bottom_z": 1.2,
+  "recess_depth_m": 1.05,
+  "wall_depth_m": 1.4,
+  "splay_m": 0.35,
+  "frame_width_m": 0.07,
+  "frame_depth_m": 0.12,
+  "glass_thickness_m": 0.018,
+  "types": [
+    "blind",
+    "glazed",
+    "blind",
+    "glazed",
+    "blind"
+  ],
+  "status": "conditional_photo_derived_facade_candidate",
+  "limits": [
+    "Five bays and two glazing positions supported by 001/003/116; facade plane follows 102.",
+    "Starts derive from conditional P06 116 camera rays. Width, recess depth, sill and reveals are visual candidates, not surveyed.",
+    "Shadow boundaries must not be interpreted as blind-niche edges. Hidden construction and basement facade windows remain open."
+  ]
+}

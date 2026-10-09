@@ -46,3 +46,18 @@ Okuma alanının eğimli taş tavanı, 24 kollu armatürü, PDF103 oda duvarlar�
 Doğu uç cam cephe adayı, çatıya bağlı taş alın duvarı ve açık pavyon bağlantısı üretildi. Üst çatı şeridi açık belirsizlik. Batıdaki 108 cam panel düzleştirildi; maksimum köşe düzeltmesi 5,102 mm, çerçeveler korundu. Yeniden açma ve geometri kontrolleri geçti. Pavyon cam çatı detaylarına devam ediliyor.
 
 - 2026-10-08 23:47:08 UTC — `7f4449f` origin/main push başarılı. R08/R09 okuma mekânı, R10 doğu spiral, R11 uç cam ve R12 düz batı cam adayları; kaynak/varsayım kayıtları, kontroller, renderlar ve 11,04 MB güncel GLB kaydedildi. HEAD ve origin/main eşleşti. Bu ara kayıttan sonra R13 pavyon kare cam kule/çatı panelizasyonu üretimi aktif olarak sürüyor.
+
+## 23:52 UTC civarı — R13
+Push sonrasında üretim sürdü. 089 ile pavyon kulesinin sekizgen taslağı dört yüzlü cam kuleye düzeltildi. 108 cam/334 kapalı hacim, düzlem/kalınlık ve taş saçak bağlantıları yeniden açılarak kontrol edildi. Batı cam merdivenin 066/097 ve kat planı incelemesine geçiliyor.
+
+## 2026-10-09 00:02 UTC civarı — R14
+İki kollu batı cam merdiven 066/097 ve 102/103 ile üretildi. 17 görünür rıht ayrı sayıldı; 17+17 ve eşit kat kotu bölüşümü aday. İlk denemenin üst galeri döşeme bağlantısı düzeltilip geçiş açıldı. 151 kapalı hacim, 102 basamak örneği ve bağlantı kontrolleri geçti; detay ve kot belirsizlikleri raporda.
+
+
+2026-10-09 00:17:05 UTC — R16 v002: 089/090/092/093/094/097/099 ile 2222 dış çatı profili ayrı koyu kaplama malzemesine bağlandı. 5108 nesnenin geometri/konum/görünürlüğü aynen korundu; kaydedilen sahne tekrar açılarak denetlendi. R15 cephe adayları görsel kontrolde reddedildi, ana sahneye alınmadı.
+
+
+2026-10-09 00:24:48 UTC — R17 v001: pavyon döşemesi, merdiven rezervi, karşı pencere ve iç yüz üretildi. 19 kapalı hacim ve yerel geçit/pencere/döşeme testleri geçti. Merdiven/parapet eksik; R15 cephe denemeleri hâlâ reddedilmiş durumda.
+
+
+2026-10-09 00:45 UTC — R19 v002/R20 v002: oditoryum oda, taş kademeler, sahne, kaset tavan, camlı arka kabin ve 128 koltuk adayı üretildi. Yeni LCB fotoğraflarıyla yanlış ahşap zemin yorumu düzeltildi. Kesin ölçüler ve gizli koltuklar açık; paneller sıradaki iş.

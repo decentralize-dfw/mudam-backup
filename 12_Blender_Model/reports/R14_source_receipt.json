@@ -1,0 +1,137 @@
+{
+  "sources": [
+    {
+      "id": "066",
+      "path": "04_Ic_Mekan/Cam_Gecit/066_Cam_gecit_ve_pavyon_baglantisi_WikiArquitectura.jpg",
+      "sha256": "df52c5100b34ba3f770e723fe5a84a5e2bcbb72596b757bf092f54484a7ce648",
+      "source_url": "https://es.wikiarquitectura.com/edificio/museo-de-arte-moderno-grand-duc-jean-mudam/",
+      "credit": "WikiArquitectura; sayfadaki fotoğraf serisi Haziran 2019",
+      "source_date": "unknown; do not infer from download date",
+      "modified": false
+    },
+    {
+      "id": "097",
+      "path": "05_Dis_Mekan/Cepheler/097_Tas_cephe_ve_cam_cati_ArchEyes.jpg",
+      "sha256": "fd75919c30d7568a0eb5c56488c2a1f4f00d3043218825a73a89427966995bd1",
+      "source_url": "https://archeyes.com/the-mudam-by-i-m-pei-where-old-meets-new/",
+      "credit": "© Michael Nguyen / ArchEyes",
+      "source_date": "unknown; do not infer from download date",
+      "modified": false
+    },
+    {
+      "id": "102",
+      "path": "01_Kat_Planlari/Resmi_Kat_Semalari/102_Resmi_kat_semasi_zemin_0_Mudam.jpeg",
+      "sha256": "f4d1d1992e1e2d664d5bf5fddd6aedd760edb2931f398e52b5e13316acec2407",
+      "source_url": "https://www.mudam.com/fr/floor-plans",
+      "credit": "Mudam Luxembourg; kullanıcı tarafından verilen doğrudan bağlantı",
+      "source_date": "unknown; do not infer from download date",
+      "modified": false
+    },
+    {
+      "id": "103",
+      "path": "01_Kat_Planlari/Resmi_Kat_Semalari/103_Resmi_kat_semasi_ust_arti_1_Mudam.jpeg",
+      "sha256": "bd94768b80070517fd9ff2fbcb120fc1ba35aa048de49f6a25cbf57ab9c353a2",
+      "source_url": "https://www.mudam.com/fr/floor-plans",
+      "credit": "Mudam Luxembourg; kullanıcı tarafından verilen doğrudan bağlantı",
+      "source_date": "unknown; do not infer from download date",
+      "modified": false
+    }
+  ],
+  "config": {
+    "base_scene": "MUDAM_R13_PAVYON_CAM_v001.blend",
+    "source_ids": [
+      "066",
+      "097",
+      "102",
+      "103"
+    ],
+    "uv_definition": "u=x+y, v=x-y on canonical plan; official103 receives existing (+0.5,-1) registration",
+    "first_u": [
+      1173.5,
+      1252.0
+    ],
+    "first_v": [
+      578.0,
+      604.0
+    ],
+    "second_u": [
+      1252.0,
+      1275.0
+    ],
+    "second_v": [
+      502.5,
+      578.0
+    ],
+    "riser_counts_candidate": [
+      17,
+      17
+    ],
+    "photo066_visible_risers": 17,
+    "mid_height_fraction": 0.5,
+    "slab_display_thickness_m": 0.25,
+    "glass_head_clearance_m": 3.2,
+    "glass_thickness_m": 0.018,
+    "frame_width_m": 0.075,
+    "frame_depth_m": 0.14,
+    "flight_glass_bays_candidate": 5,
+    "wall_display_thickness_m": 0.3,
+    "wall_handrail_height_m": 0.95,
+    "wall_handrail_diameter_m": 0.042,
+    "ground_entry_u": [
+      1114,
+      1173.5
+    ],
+    "upper_landing_v": [
+      452,
+      502.5
+    ],
+    "observations": [
+      "066 has seventeen visible riser fronts. Full-image bottom shows some floor, but the camera location is not calibrated; do not treat this as a measured full-system count.",
+      "097 shows two rising glazed flights around a stone corner, separated by a flat corner landing and terminating in an upper horizontal gallery connection.",
+      "103 dark diagonal edges were sampled in u/v coordinates: u1252.5/1275.5 and v576.5/602.5 before the existing registration.",
+      "The second flight count and equal half-rise split remain candidates.",
+      "The glazed stair is separate from flat pavilion link 067."
+    ],
+    "limits": [
+      "Upper floor level remains the inherited conditional 4.859 m.",
+      "The photo count, long source-diagram run and resulting shallow pitch need joint validation; no metric photo match.",
+      "The number of glazing bays, headroom, rail height, profile and slab sizes are not measured.",
+      "Ground and upper connection floors are local source-circulation candidates and must pass all-scene collision checks.",
+      "Existing PDF-based gallery floor stops west of the official103 white circulation band; a local interior floor extension reaches it. This is not a full upper-plan re-registration."
+    ],
+    "upper_connection_v": 410,
+    "upper_portal_source_y": [
+      390,
+      416
+    ]
+  },
+  "riser_marks_crop_y": [
+    40,
+    62,
+    82,
+    105,
+    128,
+    153,
+    180,
+    210,
+    242,
+    283,
+    331,
+    387,
+    451,
+    529,
+    629,
+    760,
+    930
+  ],
+  "crop_original_box": [
+    0,
+    1450,
+    1730,
+    3270
+  ],
+  "crop_display_size": [
+    950,
+    1000
+  ]
+}

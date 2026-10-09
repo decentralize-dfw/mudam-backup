@@ -1,0 +1,322 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R15_GALERI_CEPHE_v002.blend",
+  "failures": [
+    {
+      "type": "visual_source_mismatch",
+      "detail": "v002 continuous setback/overhang does not match the five separate notches in 003/116; geometry-only checks do not establish source fidelity."
+    }
+  ],
+  "evaluated_solids": [
+    {
+      "name": "R15_CONTINUOUS_HEAD",
+      "volume": 465.32429131675434,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R15_BAY_1_PIER_BACK",
+      "volume": 2.8259651559040684,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R15_BAY_1_SLOPING_FIN",
+      "volume": 0.5906246237041195,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R15_BAY_1_BLIND_BACK",
+      "volume": 9.215102953634421,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R15_BAY_2_PIER_BACK",
+      "volume": 6.204836605262958,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R15_BAY_2_SLOPING_FIN",
+      "volume": 0.5906245889870987,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R15_BAY_2_BASE",
+      "volume": 6.065104416465564,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R15_BAY_2_FRAME_L",
+      "volume": 0.0251999020393896,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R15_BAY_2_FRAME_R",
+      "volume": 0.025199729831453466,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R15_BAY_2_FRAME_B",
+      "volume": 0.0251997526108721,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R15_BAY_2_FRAME_T",
+      "volume": 0.025199731153403848,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R15_BAY_2_GLASS",
+      "volume": 0.14724071525263316,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R15_BAY_3_PIER_BACK",
+      "volume": 6.235556224922363,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R15_BAY_3_SLOPING_FIN",
+      "volume": 0.5906246237041188,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R15_BAY_3_BLIND_BACK",
+      "volume": 9.21510247867389,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R15_BAY_4_PIER_BACK",
+      "volume": 6.4505687667410925,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R15_BAY_4_SLOPING_FIN",
+      "volume": 0.590622679155814,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R15_BAY_4_BASE",
+      "volume": 6.065108222827273,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R15_BAY_4_FRAME_L",
+      "volume": 0.025199777525356515,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R15_BAY_4_FRAME_R",
+      "volume": 0.0251997298314528,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R15_BAY_4_FRAME_B",
+      "volume": 0.025199768672020194,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R15_BAY_4_FRAME_T",
+      "volume": 0.025199747214561384,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R15_BAY_4_GLASS",
+      "volume": 0.14724069524534533,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R15_BAY_5_PIER_BACK",
+      "volume": 6.266268579556851,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R15_BAY_5_SLOPING_FIN",
+      "volume": 0.5906264319810781,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R15_BAY_5_BLIND_BACK",
+      "volume": 9.215102478673895,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R15_END_PIER",
+      "volume": 23.42472664674557,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    }
+  ],
+  "window_clear_view_checks": [
+    {
+      "bay": 2,
+      "dx": -0.6,
+      "dz": -0.6,
+      "hits": [
+        "R15_BAY_2_GLASS"
+      ]
+    },
+    {
+      "bay": 2,
+      "dx": -0.6,
+      "dz": 0,
+      "hits": [
+        "R15_BAY_2_GLASS"
+      ]
+    },
+    {
+      "bay": 2,
+      "dx": -0.6,
+      "dz": 0.6,
+      "hits": [
+        "R15_BAY_2_GLASS"
+      ]
+    },
+    {
+      "bay": 2,
+      "dx": 0,
+      "dz": -0.6,
+      "hits": [
+        "R15_BAY_2_GLASS"
+      ]
+    },
+    {
+      "bay": 2,
+      "dx": 0,
+      "dz": 0,
+      "hits": [
+        "R15_BAY_2_GLASS"
+      ]
+    },
+    {
+      "bay": 2,
+      "dx": 0,
+      "dz": 0.6,
+      "hits": [
+        "R15_BAY_2_GLASS"
+      ]
+    },
+    {
+      "bay": 2,
+      "dx": 0.6,
+      "dz": -0.6,
+      "hits": [
+        "R15_BAY_2_GLASS"
+      ]
+    },
+    {
+      "bay": 2,
+      "dx": 0.6,
+      "dz": 0,
+      "hits": [
+        "R15_BAY_2_GLASS"
+      ]
+    },
+    {
+      "bay": 2,
+      "dx": 0.6,
+      "dz": 0.6,
+      "hits": [
+        "R15_BAY_2_GLASS"
+      ]
+    },
+    {
+      "bay": 4,
+      "dx": -0.6,
+      "dz": -0.6,
+      "hits": [
+        "R15_BAY_4_GLASS"
+      ]
+    },
+    {
+      "bay": 4,
+      "dx": -0.6,
+      "dz": 0,
+      "hits": [
+        "R15_BAY_4_GLASS"
+      ]
+    },
+    {
+      "bay": 4,
+      "dx": -0.6,
+      "dz": 0.6,
+      "hits": [
+        "R15_BAY_4_GLASS"
+      ]
+    },
+    {
+      "bay": 4,
+      "dx": 0,
+      "dz": -0.6,
+      "hits": [
+        "R15_BAY_4_GLASS"
+      ]
+    },
+    {
+      "bay": 4,
+      "dx": 0,
+      "dz": 0,
+      "hits": [
+        "R15_BAY_4_GLASS"
+      ]
+    },
+    {
+      "bay": 4,
+      "dx": 0,
+      "dz": 0.6,
+      "hits": [
+        "R15_BAY_4_GLASS"
+      ]
+    },
+    {
+      "bay": 4,
+      "dx": 0.6,
+      "dz": -0.6,
+      "hits": [
+        "R15_BAY_4_GLASS"
+      ]
+    },
+    {
+      "bay": 4,
+      "dx": 0.6,
+      "dz": 0,
+      "hits": [
+        "R15_BAY_4_GLASS"
+      ]
+    },
+    {
+      "bay": 4,
+      "dx": 0.6,
+      "dz": 0.6,
+      "hits": [
+        "R15_BAY_4_GLASS"
+      ]
+    }
+  ],
+  "construction_acceptance": false,
+  "visual_acceptance": false,
+  "release_eligible": false
+}

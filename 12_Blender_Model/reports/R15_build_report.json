@@ -1,0 +1,127 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R15_GALERI_CEPHE_v002.blend",
+  "base_scene": "MUDAM_R14_BATI_CAM_MERDIVEN_v003.blend",
+  "closed_objects": [
+    "R15_CONTINUOUS_HEAD",
+    "R15_BAY_1_PIER_BACK",
+    "R15_BAY_1_SLOPING_FIN",
+    "R15_BAY_1_BLIND_BACK",
+    "R15_BAY_2_PIER_BACK",
+    "R15_BAY_2_SLOPING_FIN",
+    "R15_BAY_2_BASE",
+    "R15_BAY_2_FRAME_L",
+    "R15_BAY_2_FRAME_R",
+    "R15_BAY_2_FRAME_B",
+    "R15_BAY_2_FRAME_T",
+    "R15_BAY_2_GLASS",
+    "R15_BAY_3_PIER_BACK",
+    "R15_BAY_3_SLOPING_FIN",
+    "R15_BAY_3_BLIND_BACK",
+    "R15_BAY_4_PIER_BACK",
+    "R15_BAY_4_SLOPING_FIN",
+    "R15_BAY_4_BASE",
+    "R15_BAY_4_FRAME_L",
+    "R15_BAY_4_FRAME_R",
+    "R15_BAY_4_FRAME_B",
+    "R15_BAY_4_FRAME_T",
+    "R15_BAY_4_GLASS",
+    "R15_BAY_5_PIER_BACK",
+    "R15_BAY_5_SLOPING_FIN",
+    "R15_BAY_5_BLIND_BACK",
+    "R15_END_PIER"
+  ],
+  "panels": [
+    "R15_BAY_2_GLASS",
+    "R15_BAY_4_GLASS"
+  ],
+  "openings": [
+    {
+      "index": 1,
+      "type": "blind",
+      "start": 0.92,
+      "end": 3.92,
+      "bottom": 0.45,
+      "head": 3.45,
+      "glass_center": [
+        35.700321197509766,
+        -3.882391929626465,
+        1.9500000476837158
+      ]
+    },
+    {
+      "index": 2,
+      "type": "glazed",
+      "start": 5.94,
+      "end": 8.940000000000001,
+      "bottom": 0.45,
+      "head": 3.45,
+      "glass_center": [
+        35.87466812133789,
+        1.1345795392990112,
+        1.9500000476837158
+      ]
+    },
+    {
+      "index": 3,
+      "type": "blind",
+      "start": 10.97,
+      "end": 13.97,
+      "bottom": 0.45,
+      "head": 3.45,
+      "glass_center": [
+        36.04935836791992,
+        6.161545753479004,
+        1.9500000476837158
+      ]
+    },
+    {
+      "index": 4,
+      "type": "glazed",
+      "start": 16.07,
+      "end": 19.07,
+      "bottom": 0.45,
+      "head": 3.45,
+      "glass_center": [
+        36.22648620605469,
+        11.258468627929688,
+        1.9500000476837158
+      ]
+    },
+    {
+      "index": 5,
+      "type": "blind",
+      "start": 21.11,
+      "end": 24.11,
+      "bottom": 0.45,
+      "head": 3.45,
+      "glass_center": [
+        36.401527404785156,
+        16.295429229736328,
+        1.9500000476837158
+      ]
+    }
+  ],
+  "origin": [
+    36.6656379699707,
+    -6.337399005889893,
+    0.0
+  ],
+  "axis": [
+    0.03473040834069252,
+    0.9993967413902283,
+    0.0
+  ],
+  "inside": [
+    -0.9993967413902283,
+    0.03473040834069252,
+    -0.0
+  ],
+  "length": 31.73597721316924,
+  "changed_inherited_objects": [
+    "P05_FRONT_1"
+  ],
+  "hidden_superseded": [
+    "P05_FRONT_1"
+  ],
+  "construction_acceptance": false
+}

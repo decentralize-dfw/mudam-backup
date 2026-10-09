@@ -1,0 +1,37 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R17_PAVYON_MEKAN_v001.blend",
+  "base_scene": "12_Blender_Model/scenes/MUDAM_R16_DIS_PROFIL_MALZEME_v002.blend",
+  "inherited_objects_checked": 5108,
+  "changed_inherited_objects": [
+    "P04_PAV_WALL_ENVELOPE",
+    "P05_PAV_LINK_LINTEL"
+  ],
+  "allowed_changes": [
+    "P04_PAV_WALL_ENVELOPE",
+    "P05_PAV_LINK_LINTEL"
+  ],
+  "allowed_but_unchanged": [],
+  "new_objects": [
+    "R17_GROUND_FLOOR",
+    "R17_PORTAL_BELOW",
+    "R17_PORTAL_HEAD",
+    "R17_STAIR_RESERVE_OPERAND",
+    "R17_WALL_0",
+    "R17_WALL_1",
+    "R17_WALL_2",
+    "R17_WALL_4",
+    "R17_WALL_5",
+    "R17_WALL_6",
+    "R17_WINDOW_FRAME_HEAD",
+    "R17_WINDOW_FRAME_LEFT",
+    "R17_WINDOW_FRAME_RIGHT",
+    "R17_WINDOW_FRAME_SILL",
+    "R17_WINDOW_GLASS",
+    "R17_WINDOW_HEAD",
+    "R17_WINDOW_LEFT",
+    "R17_WINDOW_RIGHT",
+    "R17_WINDOW_SILL"
+  ],
+  "failures": [],
+  "construction_acceptance": false
+}

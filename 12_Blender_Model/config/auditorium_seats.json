@@ -1,0 +1,20 @@
+{
+  "row_count": 8,
+  "seats_per_row": 16,
+  "total": 128,
+  "pitch_m": 0.5842608985362268,
+  "seat_height_m": 1.0,
+  "folded_pan_degrees": 75,
+  "source_ids": [
+    "071",
+    "104",
+    "LCB_auditorium3",
+    "LCB_aschman2"
+  ],
+  "base_scene": "12_Blender_Model/scenes/MUDAM_R19_ODITORYUM_MEKAN_v002.blend",
+  "limits": [
+    "Not every occluded seat separately counted. 8x16 arrangement matches visible rows, rear row count and LCB capacity table.",
+    "Seat dimensions, exact curvature, hinges and attachment details remain adjustable photo candidates.",
+    "No safety, accessibility or egress compliance assertion."
+  ]
+}

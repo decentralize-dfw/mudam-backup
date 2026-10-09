@@ -1,0 +1,43 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R15_GALERI_CEPHE_v002.blend",
+  "base_scene": "12_Blender_Model/scenes/MUDAM_R14_BATI_CAM_MERDIVEN_v003.blend",
+  "inherited_objects_checked": 5108,
+  "changed_inherited_objects": [
+    "P05_FRONT_1"
+  ],
+  "allowed_changes": [
+    "P05_FRONT_1"
+  ],
+  "allowed_but_unchanged": [],
+  "new_objects": [
+    "R15_BAY_1_BLIND_BACK",
+    "R15_BAY_1_PIER_BACK",
+    "R15_BAY_1_SLOPING_FIN",
+    "R15_BAY_2_BASE",
+    "R15_BAY_2_FRAME_B",
+    "R15_BAY_2_FRAME_L",
+    "R15_BAY_2_FRAME_R",
+    "R15_BAY_2_FRAME_T",
+    "R15_BAY_2_GLASS",
+    "R15_BAY_2_PIER_BACK",
+    "R15_BAY_2_SLOPING_FIN",
+    "R15_BAY_3_BLIND_BACK",
+    "R15_BAY_3_PIER_BACK",
+    "R15_BAY_3_SLOPING_FIN",
+    "R15_BAY_4_BASE",
+    "R15_BAY_4_FRAME_B",
+    "R15_BAY_4_FRAME_L",
+    "R15_BAY_4_FRAME_R",
+    "R15_BAY_4_FRAME_T",
+    "R15_BAY_4_GLASS",
+    "R15_BAY_4_PIER_BACK",
+    "R15_BAY_4_SLOPING_FIN",
+    "R15_BAY_5_BLIND_BACK",
+    "R15_BAY_5_PIER_BACK",
+    "R15_BAY_5_SLOPING_FIN",
+    "R15_CONTINUOUS_HEAD",
+    "R15_END_PIER"
+  ],
+  "failures": [],
+  "construction_acceptance": false
+}

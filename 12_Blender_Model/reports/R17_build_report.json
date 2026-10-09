@@ -1,0 +1,45 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R17_PAVYON_MEKAN_v001.blend",
+  "base_scene": "MUDAM_R16_DIS_PROFIL_MALZEME_v002.blend",
+  "closed_objects": [
+    "R17_WALL_0",
+    "R17_WALL_1",
+    "R17_WALL_2",
+    "R17_PORTAL_HEAD",
+    "R17_PORTAL_BELOW",
+    "R17_WALL_4",
+    "R17_WALL_5",
+    "R17_WALL_6",
+    "R17_WINDOW_LEFT",
+    "R17_WINDOW_RIGHT",
+    "R17_WINDOW_SILL",
+    "R17_WINDOW_HEAD",
+    "R17_WINDOW_FRAME_LEFT",
+    "R17_WINDOW_FRAME_RIGHT",
+    "R17_WINDOW_FRAME_SILL",
+    "R17_WINDOW_FRAME_HEAD",
+    "R17_WINDOW_GLASS",
+    "R17_GROUND_FLOOR",
+    "R17_STAIR_RESERVE_OPERAND"
+  ],
+  "panels": [
+    "R17_WINDOW_GLASS"
+  ],
+  "changed_inherited_objects": [
+    "P04_PAV_WALL_ENVELOPE",
+    "P05_PAV_LINK_LINTEL"
+  ],
+  "hidden_superseded": [
+    "P04_PAV_WALL_ENVELOPE",
+    "P05_PAV_LINK_LINTEL"
+  ],
+  "stair_center": [
+    31.104848861694336,
+    -46.70981979370117,
+    0.0
+  ],
+  "stair_radius": 1.6928529773088579,
+  "lower_floor_z": -3.8311935802253103,
+  "upper_floor_z": 0,
+  "construction_acceptance": false
+}

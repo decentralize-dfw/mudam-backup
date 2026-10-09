@@ -4,7 +4,7 @@
 
 ## Güncel teslim
 
-[MUDAM_R12_BATI_DUZ_CAM_v001.blend](scenes/MUDAM_R12_BATI_DUZ_CAM_v001.blend) giriş, çatı ve merdiven çalışmalarını birlikte içerir. [Görsel inceleme](URETIM.html) · [Üretim raporu](reports/P07_P09_URETIM_RAPORU.md).
+[MUDAM_R20_ODITORYUM_KOLTUK_v002.blend](scenes/MUDAM_R20_ODITORYUM_KOLTUK_v002.blend) giriş, çatı ve merdiven çalışmalarını birlikte içerir. [Görsel inceleme](URETIM.html) · [Üretim raporu](reports/P07_P09_URETIM_RAPORU.md).
 
 | Paket | Durum | Somut çıktı / açık konu |
 | --- | --- | --- |
@@ -70,3 +70,21 @@ R08/R09: 015/016 ile 24 kollu armatür ve eğimli tavan; PDF103 ile oda iç çev
 
 ## 23:43 UTC civarı — R11/R12
 Doğu uç cam cephe adayı, çatıya bağlı taş alın duvarı ve açık pavyon bağlantısı üretildi. Üst çatı şeridi açık belirsizlik. Batıdaki 108 cam panel düzleştirildi; maksimum köşe düzeltmesi 5,102 mm, çerçeveler korundu. Yeniden açma ve geometri kontrolleri geçti. Pavyon cam çatı detaylarına devam ediliyor.
+
+## 23:52 UTC civarı — R13
+Push sonrasında üretim sürdü. 089 ile pavyon kulesinin sekizgen taslağı dört yüzlü cam kuleye düzeltildi. 108 cam/334 kapalı hacim, düzlem/kalınlık ve taş saçak bağlantıları yeniden açılarak kontrol edildi. Batı cam merdivenin 066/097 ve kat planı incelemesine geçiliyor.
+
+## 2026-10-09 00:02 UTC civarı — R14
+İki kollu batı cam merdiven 066/097 ve 102/103 ile üretildi. 17 görünür rıht ayrı sayıldı; 17+17 ve eşit kat kotu bölüşümü aday. İlk denemenin üst galeri döşeme bağlantısı düzeltilip geçiş açıldı. 151 kapalı hacim, 102 basamak örneği ve bağlantı kontrolleri geçti; detay ve kot belirsizlikleri raporda.
+
+
+2026-10-09 00:17:05 UTC — R16 v002: 089/090/092/093/094/097/099 ile 2222 dış çatı profili ayrı koyu kaplama malzemesine bağlandı. 5108 nesnenin geometri/konum/görünürlüğü aynen korundu; kaydedilen sahne tekrar açılarak denetlendi. R15 cephe adayları görsel kontrolde reddedildi, ana sahneye alınmadı.
+
+
+2026-10-09 00:24:48 UTC — R17 v001: pavyon döşemesi, merdiven rezervi, karşı pencere ve iç yüz üretildi. 19 kapalı hacim ve yerel geçit/pencere/döşeme testleri geçti. Merdiven/parapet eksik; R15 cephe denemeleri hâlâ reddedilmiş durumda.
+
+
+2026-10-09 00:33 UTC — R18 v002: iki açık geçit kapısı, yan/üst camlar ve dokuz yuvarlak iç portal eklendi. 61 kapalı hacim, merkezi geçiş ve önceki döşeme/pencere kontrolleri geçti. Ölçüler koşullu; oditoryum kaynak incelemesi sürüyor.
+
+
+2026-10-09 00:45 UTC — R19 v002/R20 v002: oditoryum oda, taş kademeler, sahne, kaset tavan, camlı arka kabin ve 128 koltuk adayı üretildi. Yeni LCB fotoğraflarıyla yanlış ahşap zemin yorumu düzeltildi. Kesin ölçüler ve gizli koltuklar açık; paneller sıradaki iş.

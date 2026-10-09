@@ -1,0 +1,2565 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R13_PAVYON_CAM_v001.blend",
+  "failures": [],
+  "evaluated_solids": [
+    {
+      "name": "R13_SLOPE_0_00_00",
+      "volume": 0.09109702600981726,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_FRAME_000",
+      "volume": 0.029108278647449318,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_FRAME_001",
+      "volume": 0.02294326225738899,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_FRAME_002",
+      "volume": 0.022489172323204354,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_FRAME_003",
+      "volume": 0.02482951871929262,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_SLOPE_0_00_01",
+      "volume": 0.06637894848525627,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_FRAME_004",
+      "volume": 0.022943264055786727,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_FRAME_005",
+      "volume": 0.01587008600463473,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_FRAME_006",
+      "volume": 0.024829523598211667,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_SLOPE_0_00_02",
+      "volume": 0.041369765144222526,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_FRAME_007",
+      "volume": 0.022943297546477975,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_FRAME_008",
+      "volume": 0.009250983867658366,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_FRAME_009",
+      "volume": 0.024829591414214702,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_SLOPE_0_01_00",
+      "volume": 0.09109509054426945,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_FRAME_010",
+      "volume": 0.029108278647446945,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_FRAME_011",
+      "volume": 0.022888141319094515,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_FRAME_012",
+      "volume": 0.022489190470766335,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_SLOPE_0_01_01",
+      "volume": 0.06637817007564217,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_FRAME_013",
+      "volume": 0.02288820914444134,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_FRAME_014",
+      "volume": 0.015870065998962346,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_SLOPE_0_01_02",
+      "volume": 0.04136824543770723,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_FRAME_015",
+      "volume": 0.022888179791794055,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_FRAME_016",
+      "volume": 0.009251005731563719,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_SLOPE_0_02_00",
+      "volume": 0.09109694172041333,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_FRAME_017",
+      "volume": 0.029108300511284504,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_FRAME_018",
+      "volume": 0.024677972126955133,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_FRAME_019",
+      "volume": 0.022489194186992023,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_SLOPE_0_02_01",
+      "volume": 0.0663801737570135,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_FRAME_020",
+      "volume": 0.024677990600662142,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_FRAME_021",
+      "volume": 0.015870106010331828,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_SLOPE_0_02_02",
+      "volume": 0.04136993381110682,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_FRAME_022",
+      "volume": 0.024677971441162377,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_FRAME_023",
+      "volume": 0.009251005731576,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_HIP_0_00_00",
+      "volume": 0.05581511687188134,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_FRAME_024",
+      "volume": 0.018710707174363406,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_FRAME_025",
+      "volume": 0.02389582877025849,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_FRAME_026",
+      "volume": 0.012473800236816657,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_HIP_0_00_01",
+      "volume": 0.030611581998828075,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_FRAME_027",
+      "volume": 0.023895836632049416,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_FRAME_028",
+      "volume": 0.006236893299255031,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_HIP_0_00_02",
+      "volume": 0.010203769544403052,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_FRAME_029",
+      "volume": 0.023895777741653745,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_HIP_0_01_00",
+      "volume": 0.05581500285725183,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_FRAME_030",
+      "volume": 0.018710822514306474,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_FRAME_031",
+      "volume": 0.024713025577398778,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_FRAME_032",
+      "volume": 0.012473895999791623,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_HIP_0_01_01",
+      "volume": 0.030611447392346114,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_FRAME_033",
+      "volume": 0.024713022993421006,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_FRAME_034",
+      "volume": 0.006236926514523206,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_HIP_0_01_02",
+      "volume": 0.010203816700576795,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_FRAME_035",
+      "volume": 0.02471285741114393,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_LANTERN_0_00_00",
+      "volume": 0.017581469866090937,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_FRAME_036",
+      "volume": 0.013082506624662413,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_FRAME_037",
+      "volume": 0.009251107207301643,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_FRAME_038",
+      "volume": 0.013082496610793262,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_LANTERN_0_00_01",
+      "volume": 0.017581504428278938,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_FRAME_039",
+      "volume": 0.013082496610794678,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_FRAME_040",
+      "volume": 0.009251127213294352,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_FRAME_041",
+      "volume": 0.013082506624660706,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_LANTERN_0_00_02",
+      "volume": 0.017581468478525902,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_FRAME_042",
+      "volume": 0.013082496610793637,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_FRAME_043",
+      "volume": 0.009251107207307568,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_FRAME_044",
+      "volume": 0.013082496610792374,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_LANTERN_0_01_00",
+      "volume": 0.017582174012087864,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_FRAME_045",
+      "volume": 0.013082514892161098,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_FRAME_046",
+      "volume": 0.009251153068130236,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_LANTERN_0_01_01",
+      "volume": 0.017581474224609817,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_FRAME_047",
+      "volume": 0.013082496610789716,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_FRAME_048",
+      "volume": 0.00925110720730514,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_LANTERN_0_01_02",
+      "volume": 0.01758087890142121,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_FRAME_049",
+      "volume": 0.013082496610793637,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_FRAME_050",
+      "volume": 0.009251129071962766,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_LANTERN_0_02_00",
+      "volume": 0.017580895524967943,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_FRAME_051",
+      "volume": 0.01308250487828988,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_FRAME_052",
+      "volume": 0.009251136780550992,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_LANTERN_0_02_01",
+      "volume": 0.01758155222993027,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_FRAME_053",
+      "volume": 0.013082514892159246,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_FRAME_054",
+      "volume": 0.009251156786544854,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_LANTERN_0_02_02",
+      "volume": 0.017582134670560856,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_FRAME_055",
+      "volume": 0.013082504878286182,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_FRAME_056",
+      "volume": 0.009251134921349477,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_CAP_0_00_00",
+      "volume": 0.015613522066553032,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_FRAME_057",
+      "volume": 0.023722811934502097,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_FRAME_058",
+      "volume": 0.027138634346794532,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_CAP_0_01_00",
+      "volume": 0.015613552624880456,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_FRAME_059",
+      "volume": 0.023667118507581034,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_CAP_0_02_00",
+      "volume": 0.015613569246047176,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_FRAME_060",
+      "volume": 0.026995200469842533,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_TOWER_X_0_0",
+      "volume": 0.0005044855627739098,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_TOWER_X_0_1",
+      "volume": 0.0005044855627736322,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_SLOPE_1_00_00",
+      "volume": 0.09013658107407285,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_FRAME_061",
+      "volume": 0.028812886607404803,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_FRAME_062",
+      "volume": 0.022910710414395297,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_FRAME_063",
+      "volume": 0.02226099208851301,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_SLOPE_1_00_01",
+      "volume": 0.06566636147942018,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_FRAME_064",
+      "volume": 0.02291071504258499,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_FRAME_065",
+      "volume": 0.015709018240295636,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_SLOPE_1_00_02",
+      "volume": 0.040901812391699544,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_FRAME_066",
+      "volume": 0.022910730655773065,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_FRAME_067",
+      "volume": 0.009157044711901152,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_SLOPE_1_01_00",
+      "volume": 0.09013400637884256,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_FRAME_068",
+      "volume": 0.02881288588028852,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_FRAME_069",
+      "volume": 0.022911602148109278,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_FRAME_070",
+      "volume": 0.022260912759263313,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_SLOPE_1_01_01",
+      "volume": 0.06566712310841649,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_FRAME_071",
+      "volume": 0.022911588661680415,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_FRAME_072",
+      "volume": 0.01570901824029089,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_SLOPE_1_01_02",
+      "volume": 0.040902132206288244,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_FRAME_073",
+      "volume": 0.022911641096834856,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_FRAME_074",
+      "volume": 0.009157044711895324,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_SLOPE_1_02_00",
+      "volume": 0.0901362361082173,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_FRAME_075",
+      "volume": 0.028812925908517972,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_FRAME_076",
+      "volume": 0.024712960843951304,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_FRAME_077",
+      "volume": 0.022260992088438236,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_SLOPE_1_02_01",
+      "volume": 0.06566627040085932,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_FRAME_078",
+      "volume": 0.0247129433670481,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_FRAME_079",
+      "volume": 0.01570905826852237,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_SLOPE_1_02_02",
+      "volume": 0.040902680460860374,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_FRAME_080",
+      "volume": 0.02471301446470564,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_FRAME_081",
+      "volume": 0.009157043984801078,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_HIP_1_00_00",
+      "volume": 0.055818872656471286,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_FRAME_082",
+      "volume": 0.01871073486838696,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_FRAME_083",
+      "volume": 0.02389492012703498,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_FRAME_084",
+      "volume": 0.012473814153974121,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_HIP_1_00_01",
+      "volume": 0.030612020849654642,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_FRAME_085",
+      "volume": 0.02389488115651489,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_FRAME_086",
+      "volume": 0.006236920714421501,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_HIP_1_00_02",
+      "volume": 0.010204267643982745,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_FRAME_087",
+      "volume": 0.023894858036162286,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_HIP_1_01_00",
+      "volume": 0.05581723790194339,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_FRAME_088",
+      "volume": 0.018710749535327732,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_FRAME_089",
+      "volume": 0.02467832352123353,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_FRAME_090",
+      "volume": 0.012473814153976786,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_HIP_1_01_01",
+      "volume": 0.030612645494995205,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_FRAME_091",
+      "volume": 0.024678290101014688,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_FRAME_092",
+      "volume": 0.006236893439551139,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_HIP_1_01_02",
+      "volume": 0.010204157534580677,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_FRAME_093",
+      "volume": 0.02467820740237528,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_LANTERN_1_00_00",
+      "volume": 0.017379785300055572,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_FRAME_094",
+      "volume": 0.013082264292620494,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_FRAME_095",
+      "volume": 0.009157118888831917,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_LANTERN_1_00_01",
+      "volume": 0.017379722708556977,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_FRAME_096",
+      "volume": 0.013082254278931504,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_FRAME_097",
+      "volume": 0.009157078860468487,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_LANTERN_1_00_02",
+      "volume": 0.017379760242839215,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_FRAME_098",
+      "volume": 0.013082254278945424,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_FRAME_099",
+      "volume": 0.009157118888831806,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_LANTERN_1_01_00",
+      "volume": 0.017379423760111756,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_FRAME_100",
+      "volume": 0.013082264292620646,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_FRAME_101",
+      "volume": 0.009157079587891304,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_LANTERN_1_01_01",
+      "volume": 0.017380130301331398,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_FRAME_102",
+      "volume": 0.013082254278933433,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_FRAME_103",
+      "volume": 0.009157158917190572,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_LANTERN_1_01_02",
+      "volume": 0.017379796244948398,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_FRAME_104",
+      "volume": 0.013082254278941573,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_FRAME_105",
+      "volume": 0.009157118888831833,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_LANTERN_1_02_00",
+      "volume": 0.01737984642856827,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_FRAME_106",
+      "volume": 0.013082254278936986,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_FRAME_107",
+      "volume": 0.009157158189770087,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_LANTERN_1_02_01",
+      "volume": 0.017379495835344927,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_FRAME_108",
+      "volume": 0.013082264292625087,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_FRAME_109",
+      "volume": 0.009157118888831806,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_LANTERN_1_02_02",
+      "volume": 0.017380084248173,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_FRAME_110",
+      "volume": 0.013082254278936098,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_FRAME_111",
+      "volume": 0.009157118161416011,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_CAP_1_00_00",
+      "volume": 0.015436441942265233,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_FRAME_112",
+      "volume": 0.023686160310127796,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_CAP_1_01_00",
+      "volume": 0.015436450363154774,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_FRAME_113",
+      "volume": 0.0236847283955212,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_CAP_1_02_00",
+      "volume": 0.01543642862499911,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_FRAME_114",
+      "volume": 0.026995951923082767,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_TOWER_X_1_0",
+      "volume": 0.0005029309347338029,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_TOWER_X_1_1",
+      "volume": 0.0005029309347337335,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_SLOPE_2_00_00",
+      "volume": 0.0910959742959333,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_FRAME_115",
+      "volume": 0.029108338549192453,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_FRAME_116",
+      "volume": 0.022888857235678628,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_FRAME_117",
+      "volume": 0.02248921015474077,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_SLOPE_2_00_01",
+      "volume": 0.06638066310117921,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_FRAME_118",
+      "volume": 0.02288883212699372,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_FRAME_119",
+      "volume": 0.015870082810281932,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_SLOPE_2_00_02",
+      "volume": 0.04136944189758118,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_FRAME_120",
+      "volume": 0.022888902552954477,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_FRAME_121",
+      "volume": 0.00925102155791016,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_SLOPE_2_01_00",
+      "volume": 0.09109757525510648,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_FRAME_122",
+      "volume": 0.02910831852879585,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_FRAME_123",
+      "volume": 0.02294306796307355,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_FRAME_124",
+      "volume": 0.022489210154786513,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_SLOPE_2_01_01",
+      "volume": 0.0663794507591623,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_FRAME_125",
+      "volume": 0.02294316816000727,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_FRAME_126",
+      "volume": 0.01587012390106042,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_SLOPE_2_01_02",
+      "volume": 0.041369993471846,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_FRAME_127",
+      "volume": 0.022943103056053488,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_FRAME_128",
+      "volume": 0.009251001537467454,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_SLOPE_2_02_00",
+      "volume": 0.09109460888421833,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_FRAME_129",
+      "volume": 0.02910834725947295,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_FRAME_130",
+      "volume": 0.024829056427092766,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_FRAME_131",
+      "volume": 0.022489221021789962,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_SLOPE_2_02_01",
+      "volume": 0.06638009209635243,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_FRAME_132",
+      "volume": 0.024829529461176968,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_FRAME_133",
+      "volume": 0.01587008281028697,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_SLOPE_2_02_02",
+      "volume": 0.041369298821715306,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_FRAME_134",
+      "volume": 0.02483014150936866,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_FRAME_135",
+      "volume": 0.009251001537464568,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_HIP_2_00_00",
+      "volume": 0.056095549688676805,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_FRAME_136",
+      "volume": 0.01871094796969669,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_FRAME_137",
+      "volume": 0.024015044820682323,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_FRAME_138",
+      "volume": 0.012474048829495488,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_HIP_2_00_01",
+      "volume": 0.03076603793428978,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_FRAME_139",
+      "volume": 0.024014962086846836,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_FRAME_140",
+      "volume": 0.006236823401458452,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_HIP_2_00_02",
+      "volume": 0.010255573581257948,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_FRAME_141",
+      "volume": 0.024014867766131154,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_HIP_2_01_00",
+      "volume": 0.0560987437830075,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_FRAME_142",
+      "volume": 0.018711004579099966,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_FRAME_143",
+      "volume": 0.024793683366308564,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_FRAME_144",
+      "volume": 0.012473983496785579,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_HIP_2_01_01",
+      "volume": 0.030764515699751582,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_FRAME_145",
+      "volume": 0.024793665700636087,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_FRAME_146",
+      "volume": 0.0062369014832128755,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_HIP_2_01_02",
+      "volume": 0.01025541914159156,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_FRAME_147",
+      "volume": 0.02479352721291968,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_LANTERN_2_00_00",
+      "volume": 0.017579093174167976,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_FRAME_148",
+      "volume": 0.013082278651961397,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_FRAME_149",
+      "volume": 0.009251134392011695,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_LANTERN_2_00_01",
+      "volume": 0.017579702925331175,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_FRAME_150",
+      "volume": 0.013082268638271,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_FRAME_151",
+      "volume": 0.009251134392014082,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_LANTERN_2_00_02",
+      "volume": 0.017580343765649542,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_FRAME_152",
+      "volume": 0.013082268638271596,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_FRAME_153",
+      "volume": 0.009251153362266562,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_LANTERN_2_01_00",
+      "volume": 0.017580327611126823,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_FRAME_154",
+      "volume": 0.01308227865196443,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_FRAME_155",
+      "volume": 0.009251132291055314,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_LANTERN_2_01_01",
+      "volume": 0.01757910020989853,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_FRAME_156",
+      "volume": 0.013082263960609339,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_FRAME_157",
+      "volume": 0.00925115005748256,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_LANTERN_2_01_02",
+      "volume": 0.01757970570703385,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_FRAME_158",
+      "volume": 0.013082268638272554,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_FRAME_159",
+      "volume": 0.009251133341533713,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_LANTERN_2_02_00",
+      "volume": 0.017579700813408067,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_FRAME_160",
+      "volume": 0.013082268638271666,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_FRAME_161",
+      "volume": 0.009251133341535961,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_LANTERN_2_02_01",
+      "volume": 0.017580292170877282,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_FRAME_162",
+      "volume": 0.013082278651960953,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_FRAME_163",
+      "volume": 0.009251112270339062,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_LANTERN_2_02_02",
+      "volume": 0.017579059877354253,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_FRAME_164",
+      "volume": 0.013082263960614446,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_FRAME_165",
+      "volume": 0.009251130036768432,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_CAP_2_00_00",
+      "volume": 0.015614140420334877,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_FRAME_166",
+      "volume": 0.0236676733183101,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_CAP_2_01_00",
+      "volume": 0.01561411108549221,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_FRAME_167",
+      "volume": 0.02372309549514595,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_CAP_2_02_00",
+      "volume": 0.01561412218691799,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_FRAME_168",
+      "volume": 0.027139156947234788,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_TOWER_X_2_0",
+      "volume": 0.0005046459585626717,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_TOWER_X_2_1",
+      "volume": 0.0005046459585628382,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_SLOPE_3_00_00",
+      "volume": 0.09205873001860487,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_FRAME_169",
+      "volume": 0.029399680325602112,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_FRAME_170",
+      "volume": 0.02292086268210683,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_FRAME_171",
+      "volume": 0.022714276573403996,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_SLOPE_3_00_01",
+      "volume": 0.06709507224513811,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_FRAME_172",
+      "volume": 0.022920888453598437,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_FRAME_173",
+      "volume": 0.0160289528743133,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_SLOPE_3_00_02",
+      "volume": 0.04183729622470733,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_FRAME_174",
+      "volume": 0.022921023969920462,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_FRAME_175",
+      "volume": 0.009343941311165394,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_SLOPE_3_01_00",
+      "volume": 0.09205681155461554,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_FRAME_176",
+      "volume": 0.02939968032558893,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_FRAME_177",
+      "volume": 0.022921264267325242,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_FRAME_178",
+      "volume": 0.022714316600034756,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_SLOPE_3_01_01",
+      "volume": 0.06709465861660047,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_FRAME_179",
+      "volume": 0.022921275675523184,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_FRAME_180",
+      "volume": 0.016028914301997294,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_SLOPE_3_01_02",
+      "volume": 0.04183844865379527,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_FRAME_181",
+      "volume": 0.02292129568970727,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_FRAME_182",
+      "volume": 0.009343941311180215,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_SLOPE_3_02_00",
+      "volume": 0.09205977376689378,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_FRAME_183",
+      "volume": 0.029399680325594424,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_FRAME_184",
+      "volume": 0.02479426521855213,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_FRAME_185",
+      "volume": 0.022714316599883017,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_SLOPE_3_02_01",
+      "volume": 0.06709752666642171,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_FRAME_186",
+      "volume": 0.024794262642906073,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_FRAME_187",
+      "volume": 0.01602895142006716,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_SLOPE_3_02_02",
+      "volume": 0.04183602385150442,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_FRAME_188",
+      "volume": 0.024794166430774756,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_FRAME_189",
+      "volume": 0.00934390201021823,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_HIP_3_00_00",
+      "volume": 0.05609700389433911,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_FRAME_190",
+      "volume": 0.018710947969681202,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_FRAME_191",
+      "volume": 0.02401590142097132,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_FRAME_192",
+      "volume": 0.012473983496785523,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_HIP_3_00_01",
+      "volume": 0.030765025905087895,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_FRAME_193",
+      "volume": 0.024015399952598826,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_FRAME_194",
+      "volume": 0.006236933096765908,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_HIP_3_00_02",
+      "volume": 0.010254896921064294,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_FRAME_195",
+      "volume": 0.024015258426699937,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_HIP_3_01_00",
+      "volume": 0.05609527090323263,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_FRAME_196",
+      "volume": 0.018710947969690306,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_FRAME_197",
+      "volume": 0.012473956221299876,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_HIP_3_01_01",
+      "volume": 0.03076541702666681,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_FRAME_198",
+      "volume": 0.006237022479714804,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_HIP_3_01_02",
+      "volume": 0.010254723724597944,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_LANTERN_3_00_00",
+      "volume": 0.0177777436619746,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_FRAME_199",
+      "volume": 0.013082264292623158,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_FRAME_200",
+      "volume": 0.009344057030145958,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_LANTERN_3_00_01",
+      "volume": 0.017777761202948994,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_FRAME_201",
+      "volume": 0.013082254278936098,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_FRAME_202",
+      "volume": 0.00934405703013877,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_LANTERN_3_00_02",
+      "volume": 0.017777690844424043,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_FRAME_203",
+      "volume": 0.013082254278944536,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_FRAME_204",
+      "volume": 0.009344017001780142,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_LANTERN_3_01_00",
+      "volume": 0.017777561421968346,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_FRAME_205",
+      "volume": 0.01308226429262227,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_FRAME_206",
+      "volume": 0.009343936945062664,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_LANTERN_3_01_01",
+      "volume": 0.01777788809489811,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_FRAME_207",
+      "volume": 0.013082254278942315,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_FRAME_208",
+      "volume": 0.009343976246010355,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_LANTERN_3_01_02",
+      "volume": 0.01777734127359326,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_FRAME_209",
+      "volume": 0.013082254278934169,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_FRAME_210",
+      "volume": 0.00934401700179413,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_LANTERN_3_02_00",
+      "volume": 0.01777797746055504,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_FRAME_211",
+      "volume": 0.009344017001788218,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_LANTERN_3_02_01",
+      "volume": 0.017777304336638267,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_FRAME_212",
+      "volume": 0.00934397770085127,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_LANTERN_3_02_02",
+      "volume": 0.01777759407591223,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_FRAME_213",
+      "volume": 0.00934397770084655,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_CAP_3_00_00",
+      "volume": 0.01578984177613607,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_FRAME_214",
+      "volume": 0.023703478892225977,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_CAP_3_01_00",
+      "volume": 0.015789842401289222,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_FRAME_215",
+      "volume": 0.02370353646437421,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_CAP_3_02_00",
+      "volume": 0.015789855980386847,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_TOWER_X_3_0",
+      "volume": 0.0005063000474217205,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_TOWER_X_3_1",
+      "volume": 0.0005063000474214985,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_FINIAL_STEM",
+      "volume": 0.00028700975729836764,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R13_FINIAL_BALL",
+      "volume": 0.0006532817654283213,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    }
+  ],
+  "glass_planes": [
+    {
+      "name": "R13_SLOPE_0_00_00",
+      "plane_error": 1.7522410797887744e-06,
+      "thickness_error": 9.818986489232295e-07
+    },
+    {
+      "name": "R13_SLOPE_0_00_01",
+      "plane_error": 1.0898906490641735e-06,
+      "thickness_error": 9.818974095986144e-07
+    },
+    {
+      "name": "R13_SLOPE_0_00_02",
+      "plane_error": 1.499880690980504e-06,
+      "thickness_error": 9.818988735074696e-07
+    },
+    {
+      "name": "R13_SLOPE_0_01_00",
+      "plane_error": 2.4830443989820594e-07,
+      "thickness_error": 9.818978354142471e-07
+    },
+    {
+      "name": "R13_SLOPE_0_01_01",
+      "plane_error": 2.3243082666324355e-06,
+      "thickness_error": 9.818952323402408e-07
+    },
+    {
+      "name": "R13_SLOPE_0_01_02",
+      "plane_error": 1.7935497755861007e-06,
+      "thickness_error": 9.818964661588436e-07
+    },
+    {
+      "name": "R13_SLOPE_0_02_00",
+      "plane_error": 1.63190730317897e-06,
+      "thickness_error": 9.818995299129551e-07
+    },
+    {
+      "name": "R13_SLOPE_0_02_01",
+      "plane_error": 2.441194905111743e-07,
+      "thickness_error": 9.818961277698046e-07
+    },
+    {
+      "name": "R13_SLOPE_0_02_02",
+      "plane_error": 1.5414167144900404e-06,
+      "thickness_error": 9.818981145069683e-07
+    },
+    {
+      "name": "R13_HIP_0_00_00",
+      "plane_error": 9.243986426321626e-07,
+      "thickness_error": 2.456527201412373e-07
+    },
+    {
+      "name": "R13_HIP_0_00_01",
+      "plane_error": 1.0660929350425619e-06,
+      "thickness_error": 2.4565240844612313e-07
+    },
+    {
+      "name": "R13_HIP_0_00_02",
+      "plane_error": 1.1102230246251565e-16,
+      "thickness_error": 2.45652576603278e-07
+    },
+    {
+      "name": "R13_HIP_0_01_00",
+      "plane_error": 1.3865946983937505e-06,
+      "thickness_error": 2.4565224688785636e-07
+    },
+    {
+      "name": "R13_HIP_0_01_01",
+      "plane_error": 6.410037550752534e-07,
+      "thickness_error": 2.45652299234872e-07
+    },
+    {
+      "name": "R13_HIP_0_01_02",
+      "plane_error": 0.0,
+      "thickness_error": 2.4565176802784916e-07
+    },
+    {
+      "name": "R13_LANTERN_0_00_00",
+      "plane_error": 7.182966865881073e-14,
+      "thickness_error": 1.878124804049336e-06
+    },
+    {
+      "name": "R13_LANTERN_0_00_01",
+      "plane_error": 8.851555701768335e-08,
+      "thickness_error": 1.8781248040458665e-06
+    },
+    {
+      "name": "R13_LANTERN_0_00_02",
+      "plane_error": 8.851528225225114e-08,
+      "thickness_error": 1.8781248045732224e-06
+    },
+    {
+      "name": "R13_LANTERN_0_01_00",
+      "plane_error": 3.8991104853836436e-06,
+      "thickness_error": 1.8781245047956585e-06
+    },
+    {
+      "name": "R13_LANTERN_0_01_01",
+      "plane_error": 1.770301586352791e-07,
+      "thickness_error": 1.8781248047848587e-06
+    },
+    {
+      "name": "R13_LANTERN_0_01_02",
+      "plane_error": 3.722071774507551e-06,
+      "thickness_error": 1.8781247138124901e-06
+    },
+    {
+      "name": "R13_LANTERN_0_02_00",
+      "plane_error": 3.8105864667896196e-06,
+      "thickness_error": 1.8781245994282936e-06
+    },
+    {
+      "name": "R13_LANTERN_0_02_01",
+      "plane_error": 8.853275497120801e-08,
+      "thickness_error": 1.8781240157944579e-06
+    },
+    {
+      "name": "R13_LANTERN_0_02_02",
+      "plane_error": 3.7220531217960526e-06,
+      "thickness_error": 1.8781240336482319e-06
+    },
+    {
+      "name": "R13_CAP_0_00_00",
+      "plane_error": 0.0,
+      "thickness_error": 5.868066198441713e-07
+    },
+    {
+      "name": "R13_CAP_0_01_00",
+      "plane_error": 1.1102230246251565e-16,
+      "thickness_error": 5.868090495811384e-07
+    },
+    {
+      "name": "R13_CAP_0_02_00",
+      "plane_error": 0.0,
+      "thickness_error": 5.868087244488562e-07
+    },
+    {
+      "name": "R13_SLOPE_1_00_00",
+      "plane_error": 8.988475493909576e-07,
+      "thickness_error": 2.378899734735429e-07
+    },
+    {
+      "name": "R13_SLOPE_1_00_01",
+      "plane_error": 3.765152264412208e-07,
+      "thickness_error": 2.3789055169157192e-07
+    },
+    {
+      "name": "R13_SLOPE_1_00_02",
+      "plane_error": 9.590946224991015e-07,
+      "thickness_error": 2.3789109326530222e-07
+    },
+    {
+      "name": "R13_SLOPE_1_01_00",
+      "plane_error": 1.6899321033658765e-06,
+      "thickness_error": 2.3789060325449252e-07
+    },
+    {
+      "name": "R13_SLOPE_1_01_01",
+      "plane_error": 9.012117541118414e-07,
+      "thickness_error": 2.378893094352741e-07
+    },
+    {
+      "name": "R13_SLOPE_1_01_02",
+      "plane_error": 3.341065664130838e-07,
+      "thickness_error": 2.3788994415671616e-07
+    },
+    {
+      "name": "R13_SLOPE_1_02_00",
+      "plane_error": 4.045209501812863e-07,
+      "thickness_error": 2.3789060871887147e-07
+    },
+    {
+      "name": "R13_SLOPE_1_02_01",
+      "plane_error": 5.767980549853391e-07,
+      "thickness_error": 2.3789085438347124e-07
+    },
+    {
+      "name": "R13_SLOPE_1_02_02",
+      "plane_error": 6.926376981963855e-07,
+      "thickness_error": 2.3789003676666365e-07
+    },
+    {
+      "name": "R13_HIP_1_00_00",
+      "plane_error": 1.4563194431493898e-06,
+      "thickness_error": 4.99938468845329e-07
+    },
+    {
+      "name": "R13_HIP_1_00_01",
+      "plane_error": 1.0922379323208276e-06,
+      "thickness_error": 4.999352467560669e-07
+    },
+    {
+      "name": "R13_HIP_1_00_02",
+      "plane_error": 1.1102230246251565e-16,
+      "thickness_error": 9.03156358911944e-07
+    },
+    {
+      "name": "R13_HIP_1_01_00",
+      "plane_error": 1.2600798104944744e-06,
+      "thickness_error": 4.999372095887411e-07
+    },
+    {
+      "name": "R13_HIP_1_01_01",
+      "plane_error": 6.932967647754751e-07,
+      "thickness_error": 4.999385874275564e-07
+    },
+    {
+      "name": "R13_HIP_1_01_02",
+      "plane_error": 0.0,
+      "thickness_error": 9.031657944406912e-07
+    },
+    {
+      "name": "R13_LANTERN_1_00_00",
+      "plane_error": 0.0,
+      "thickness_error": 2.855711958571483e-08
+    },
+    {
+      "name": "R13_LANTERN_1_00_01",
+      "plane_error": 1.385453659607183e-07,
+      "thickness_error": 2.855711946081474e-08
+    },
+    {
+      "name": "R13_LANTERN_1_00_02",
+      "plane_error": 1.3854589591915377e-07,
+      "thickness_error": 2.8556878670787933e-08
+    },
+    {
+      "name": "R13_LANTERN_1_01_00",
+      "plane_error": 2.0446355215948046e-06,
+      "thickness_error": 2.855709231239234e-08
+    },
+    {
+      "name": "R13_LANTERN_1_01_01",
+      "plane_error": 2.1831995653459326e-06,
+      "thickness_error": 2.8553486866589317e-08
+    },
+    {
+      "name": "R13_LANTERN_1_01_02",
+      "plane_error": 1.38544611013417e-07,
+      "thickness_error": 2.8557359862263487e-08
+    },
+    {
+      "name": "R13_LANTERN_1_02_00",
+      "plane_error": 1.3853486693228732e-07,
+      "thickness_error": 2.8560356721968327e-08
+    },
+    {
+      "name": "R13_LANTERN_1_02_01",
+      "plane_error": 2.044626212673086e-06,
+      "thickness_error": 2.85606136553318e-08
+    },
+    {
+      "name": "R13_LANTERN_1_02_02",
+      "plane_error": 1.906090268132084e-06,
+      "thickness_error": 2.8557095882453254e-08
+    },
+    {
+      "name": "R13_CAP_1_00_00",
+      "plane_error": 1.1102230246251565e-16,
+      "thickness_error": 2.9476812951970133e-07
+    },
+    {
+      "name": "R13_CAP_1_01_00",
+      "plane_error": 2.220446049250313e-16,
+      "thickness_error": 2.9476756980770236e-07
+    },
+    {
+      "name": "R13_CAP_1_02_00",
+      "plane_error": 0.0,
+      "thickness_error": 2.947656635478302e-07
+    },
+    {
+      "name": "R13_SLOPE_2_00_00",
+      "plane_error": 1.2780623714903072e-07,
+      "thickness_error": 8.568656114649187e-07
+    },
+    {
+      "name": "R13_SLOPE_2_00_01",
+      "plane_error": 6.283654465644162e-07,
+      "thickness_error": 8.568657610084907e-07
+    },
+    {
+      "name": "R13_SLOPE_2_00_02",
+      "plane_error": 8.524153793931788e-08,
+      "thickness_error": 8.568653256241232e-07
+    },
+    {
+      "name": "R13_SLOPE_2_01_00",
+      "plane_error": 1.6230477580814195e-06,
+      "thickness_error": 8.568664927079139e-07
+    },
+    {
+      "name": "R13_SLOPE_2_01_01",
+      "plane_error": 1.18225492773405e-06,
+      "thickness_error": 8.568651989407372e-07
+    },
+    {
+      "name": "R13_SLOPE_2_01_02",
+      "plane_error": 1.2911283020500264e-06,
+      "thickness_error": 8.568668045869088e-07
+    },
+    {
+      "name": "R13_SLOPE_2_02_00",
+      "plane_error": 1.4471381563074814e-06,
+      "thickness_error": 8.568655669762004e-07
+    },
+    {
+      "name": "R13_SLOPE_2_02_01",
+      "plane_error": 2.8119537187620836e-07,
+      "thickness_error": 8.568651521725923e-07
+    },
+    {
+      "name": "R13_SLOPE_2_02_02",
+      "plane_error": 7.350855391052846e-08,
+      "thickness_error": 8.568666033555161e-07
+    },
+    {
+      "name": "R13_HIP_2_00_00",
+      "plane_error": 2.299439838759909e-06,
+      "thickness_error": 1.323005446515757e-08
+    },
+    {
+      "name": "R13_HIP_2_00_01",
+      "plane_error": 6.378007049168133e-07,
+      "thickness_error": 7.286341502585336e-07
+    },
+    {
+      "name": "R13_HIP_2_00_02",
+      "plane_error": 0.0,
+      "thickness_error": 7.286330919488437e-07
+    },
+    {
+      "name": "R13_HIP_2_01_00",
+      "plane_error": 2.863391557306194e-06,
+      "thickness_error": 1.3231251465989358e-08
+    },
+    {
+      "name": "R13_HIP_2_01_01",
+      "plane_error": 2.1215319779832598e-06,
+      "thickness_error": 1.3226722665043988e-08
+    },
+    {
+      "name": "R13_HIP_2_01_02",
+      "plane_error": 1.1102230246251565e-16,
+      "thickness_error": 7.286355184280002e-07
+    },
+    {
+      "name": "R13_LANTERN_2_00_00",
+      "plane_error": 3.863392601540346e-06,
+      "thickness_error": 9.326896146036323e-08
+    },
+    {
+      "name": "R13_LANTERN_2_00_01",
+      "plane_error": 0.0,
+      "thickness_error": 9.326495572364868e-08
+    },
+    {
+      "name": "R13_LANTERN_2_00_02",
+      "plane_error": 3.863404095027797e-06,
+      "thickness_error": 9.326486096264408e-08
+    },
+    {
+      "name": "R13_LANTERN_2_01_00",
+      "plane_error": 3.813385795350323e-06,
+      "thickness_error": 9.326900562642293e-08
+    },
+    {
+      "name": "R13_LANTERN_2_01_01",
+      "plane_error": 3.7633849940225965e-06,
+      "thickness_error": 9.327258422217599e-08
+    },
+    {
+      "name": "R13_LANTERN_2_01_02",
+      "plane_error": 5.0009894725831474e-08,
+      "thickness_error": 9.326896392714001e-08
+    },
+    {
+      "name": "R13_LANTERN_2_02_00",
+      "plane_error": 3.469446951953614e-18,
+      "thickness_error": 9.326900562642293e-08
+    },
+    {
+      "name": "R13_LANTERN_2_02_01",
+      "plane_error": 3.7633757858841236e-06,
+      "thickness_error": 9.326900562642293e-08
+    },
+    {
+      "name": "R13_LANTERN_2_02_02",
+      "plane_error": 3.7633848733044125e-06,
+      "thickness_error": 9.327263083419579e-08
+    },
+    {
+      "name": "R13_CAP_2_00_00",
+      "plane_error": 0.0,
+      "thickness_error": 1.3876425819861482e-07
+    },
+    {
+      "name": "R13_CAP_2_01_00",
+      "plane_error": 1.1102230246251565e-16,
+      "thickness_error": 1.387607020918169e-07
+    },
+    {
+      "name": "R13_CAP_2_02_00",
+      "plane_error": 0.0,
+      "thickness_error": 1.3876386701500154e-07
+    },
+    {
+      "name": "R13_SLOPE_3_00_00",
+      "plane_error": 3.1955931278915273e-07,
+      "thickness_error": 8.342829550846143e-07
+    },
+    {
+      "name": "R13_SLOPE_3_00_01",
+      "plane_error": 3.660992122789253e-07,
+      "thickness_error": 8.342795501971312e-07
+    },
+    {
+      "name": "R13_SLOPE_3_00_02",
+      "plane_error": 2.1637754510361873e-07,
+      "thickness_error": 8.342788820024649e-07
+    },
+    {
+      "name": "R13_SLOPE_3_01_00",
+      "plane_error": 1.79162375146813e-06,
+      "thickness_error": 8.342802695279761e-07
+    },
+    {
+      "name": "R13_SLOPE_3_01_01",
+      "plane_error": 9.848632964715165e-07,
+      "thickness_error": 8.342807260343366e-07
+    },
+    {
+      "name": "R13_SLOPE_3_01_02",
+      "plane_error": 2.329010717061486e-06,
+      "thickness_error": 8.342849443405964e-07
+    },
+    {
+      "name": "R13_SLOPE_3_02_00",
+      "plane_error": 1.2793499974961264e-06,
+      "thickness_error": 8.342812516937137e-07
+    },
+    {
+      "name": "R13_SLOPE_3_02_01",
+      "plane_error": 2.95825720986187e-06,
+      "thickness_error": 8.342825111341823e-07
+    },
+    {
+      "name": "R13_SLOPE_3_02_02",
+      "plane_error": 2.616443706693339e-06,
+      "thickness_error": 8.342760575985597e-07
+    },
+    {
+      "name": "R13_HIP_3_00_00",
+      "plane_error": 4.598896100604932e-07,
+      "thickness_error": 1.3229323921060132e-08
+    },
+    {
+      "name": "R13_HIP_3_00_01",
+      "plane_error": 6.378093364567405e-07,
+      "thickness_error": 7.03061690490725e-07
+    },
+    {
+      "name": "R13_HIP_3_00_02",
+      "plane_error": 1.1102230246251565e-16,
+      "thickness_error": 7.03064596725006e-07
+    },
+    {
+      "name": "R13_HIP_3_01_00",
+      "plane_error": 2.4035029863034296e-06,
+      "thickness_error": 1.3229670667996851e-08
+    },
+    {
+      "name": "R13_HIP_3_01_01",
+      "plane_error": 1.4837287759528195e-06,
+      "thickness_error": 7.030636569975435e-07
+    },
+    {
+      "name": "R13_HIP_3_01_02",
+      "plane_error": 1.1102230246251565e-16,
+      "thickness_error": 7.030631104347485e-07
+    },
+    {
+      "name": "R13_LANTERN_3_00_00",
+      "plane_error": 1.3853707098526648e-07,
+      "thickness_error": 2.8560100562291524e-08
+    },
+    {
+      "name": "R13_LANTERN_3_00_01",
+      "plane_error": 0.0,
+      "thickness_error": 2.8560329580484822e-08
+    },
+    {
+      "name": "R13_LANTERN_3_00_02",
+      "plane_error": 1.3853655454169164e-07,
+      "thickness_error": 2.8560329455584732e-08
+    },
+    {
+      "name": "R13_LANTERN_3_01_00",
+      "plane_error": 2.770743666797802e-07,
+      "thickness_error": 2.8560100562291524e-08
+    },
+    {
+      "name": "R13_LANTERN_3_01_01",
+      "plane_error": 2.044628832874645e-06,
+      "thickness_error": 2.8559614222156693e-08
+    },
+    {
+      "name": "R13_LANTERN_3_01_02",
+      "plane_error": 1.7675613999208911e-06,
+      "thickness_error": 2.8562960673744753e-08
+    },
+    {
+      "name": "R13_LANTERN_3_02_00",
+      "plane_error": 2.0446382556563576e-06,
+      "thickness_error": 2.855664194001406e-08
+    },
+    {
+      "name": "R13_LANTERN_3_02_01",
+      "plane_error": 2.0446275981155847e-06,
+      "thickness_error": 2.8560100687191614e-08
+    },
+    {
+      "name": "R13_LANTERN_3_02_02",
+      "plane_error": 1.1458238193982548e-18,
+      "thickness_error": 2.855664194001406e-08
+    },
+    {
+      "name": "R13_CAP_3_00_00",
+      "plane_error": 0.0,
+      "thickness_error": 2.9476571488523673e-07
+    },
+    {
+      "name": "R13_CAP_3_01_00",
+      "plane_error": 2.220446049250313e-16,
+      "thickness_error": 2.9476567320330105e-07
+    },
+    {
+      "name": "R13_CAP_3_02_00",
+      "plane_error": 3.469446951953614e-18,
+      "thickness_error": 2.9476808158582224e-07
+    }
+  ],
+  "primary_facet_errors_m": [
+    1.407218550575351e-07,
+    1.1102230246251565e-16,
+    6.551142388566689e-07,
+    4.440892098500626e-16,
+    8.002134834761421e-07,
+    0.0,
+    4.5105271029299843e-07,
+    4.440892098500626e-16
+  ],
+  "stone_eave_max_error_m": 0.0,
+  "tower_glass_count": 36,
+  "construction_acceptance": false
+}

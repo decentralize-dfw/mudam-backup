@@ -1,6 +1,6 @@
 # Gece üretimine devam
 
-8 Ekim 2026, 23:15 Europe/Paris civarı ara durum. Son sahneyi her zaman `../11_Blender_Modelleme_Plani/is_paketleri.json` içindeki `latest_scene` alanından oku. Şu an R12 v001: R10 spiral, R11 doğu uç cam/taş alın ve R12 düz batı camları. Doğu çatı şeridi hâlâ açık. Sıradaki iş pavyon cam panelizasyonu. Tam müze bitmedi; sabah hedefi tam doğrulama iddiasına dönüşmemeli.
+8 Ekim 2026, 23:15 Europe/Paris civarı ara durum. Son sahneyi her zaman `../11_Blender_Modelleme_Plani/is_paketleri.json` içindeki `latest_scene` alanından oku. Şu an R14 v003: R13 kare pavyon cam kulesi ve R14 iki kollu batı cam merdiven eklendi. Doğu çatı şeridi ve pavyon iç döşeme/merdiveni açık. Sonraki kaynak incelemesi galeri dış pencere/revelleridir. Tam müze bitmedi; sabah hedefi tam doğrulama iddiasına dönüşmemeli.
 
 ## Kaydedilen işler
 
@@ -60,3 +60,15 @@ R09 v001 sahnesi, PDF103 oda iç çevresi (maks0.80834 px fit artığı), üç p
 R10 v004: tüm görünür çevreyle render eski R02_BEFORE duvar parçasını yakaladı; gizlenip korunarak düzeltildi. Üç bahçe görüş testi eklendi. Uç cam ve çatı boşluğu hâlâ çözülmedi; doğrudan fotoğraf034/041/033 ile karşılaştır.
 
 R11 uç cam: başlık9,719 m ve modüller aday; pavyon geçişi korunuyor. R12 108 batı camını düzleştirdi, sadece bu paneller değişti; çerçeve yuvası çözülmedi.
+
+
+2026-10-09 00:17:05 UTC — R16 v002: 089/090/092/093/094/097/099 ile 2222 dış çatı profili ayrı koyu kaplama malzemesine bağlandı. 5108 nesnenin geometri/konum/görünürlüğü aynen korundu; kaydedilen sahne tekrar açılarak denetlendi. R15 cephe adayları görsel kontrolde reddedildi, ana sahneye alınmadı.
+
+
+2026-10-09 00:24:48 UTC — R17 v001: pavyon döşemesi, merdiven rezervi, karşı pencere ve iç yüz üretildi. 19 kapalı hacim ve yerel geçit/pencere/döşeme testleri geçti. Merdiven/parapet eksik; R15 cephe denemeleri hâlâ reddedilmiş durumda.
+
+
+2026-10-09 00:33 UTC — R18 v002: iki açık geçit kapısı, yan/üst camlar ve dokuz yuvarlak iç portal eklendi. 61 kapalı hacim, merkezi geçiş ve önceki döşeme/pencere kontrolleri geçti. Ölçüler koşullu; oditoryum kaynak incelemesi sürüyor.
+
+
+2026-10-09 00:45 UTC — R19 v002/R20 v002: oditoryum oda, taş kademeler, sahne, kaset tavan, camlı arka kabin ve 128 koltuk adayı üretildi. Yeni LCB fotoğraflarıyla yanlış ahşap zemin yorumu düzeltildi. Kesin ölçüler ve gizli koltuklar açık; paneller sıradaki iş.

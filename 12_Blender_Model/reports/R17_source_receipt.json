@@ -1,0 +1,69 @@
+{
+  "sources": [
+    {
+      "id": "067",
+      "path": "04_Ic_Mekan/Cam_Gecit/067_Cam_gecit_ve_pavyon_baglantisi_WikiArquitectura.jpg",
+      "sha256": "3a1d86786f2de9bbf569f98f032653346c3c3a059f11f6aef50ea5c64e638af7",
+      "source_url": "https://es.wikiarquitectura.com/edificio/museo-de-arte-moderno-grand-duc-jean-mudam/",
+      "credit": "WikiArquitectura; sayfadaki fotoğraf serisi Haziran 2019",
+      "source_date": "unknown; do not infer from download date",
+      "modified": false
+    },
+    {
+      "id": "101",
+      "path": "02_Kesitler/101_Mimari_kesit_ArchEyes.jpg",
+      "sha256": "399ce49f286dbbf4e7472e42a278bf236d55f58fdd297d3302f6037dbe5bfc20",
+      "source_url": "https://archeyes.com/the-mudam-by-i-m-pei-where-old-meets-new/",
+      "credit": "I. M. Pei (çizim; kaynak atfı)",
+      "source_date": "unknown; do not infer from download date",
+      "modified": false
+    },
+    {
+      "id": "102",
+      "path": "01_Kat_Planlari/Resmi_Kat_Semalari/102_Resmi_kat_semasi_zemin_0_Mudam.jpeg",
+      "sha256": "f4d1d1992e1e2d664d5bf5fddd6aedd760edb2931f398e52b5e13316acec2407",
+      "source_url": "https://www.mudam.com/fr/floor-plans",
+      "credit": "Mudam Luxembourg; kullanıcı tarafından verilen doğrudan bağlantı",
+      "source_date": "unknown; do not infer from download date",
+      "modified": false
+    },
+    {
+      "id": "104",
+      "path": "01_Kat_Planlari/Resmi_Kat_Semalari/104_Resmi_kat_semasi_alt_eksi_1_Mudam.jpeg",
+      "sha256": "985eaa1ee16f67ce3bf64e549e7427c37561d74441017a6595c72fae5faf56de",
+      "source_url": "https://www.mudam.com/fr/floor-plans",
+      "credit": "Mudam Luxembourg; kullanıcı tarafından verilen doğrudan bağlantı",
+      "source_date": "unknown; do not infer from download date",
+      "modified": false
+    },
+    {
+      "id": "PA0098",
+      "path": "12_Blender_Model/references/pavilion_official/LA_0098.webp",
+      "url": "https://dbf642yz813mr.cloudfront.net/images/_medium/481911/LA_0098_s.webp",
+      "page": "https://www.mudam.com/fr/agenda/expositions/joints-voids-and-gaps",
+      "sha256": "bf12d1fb81fc1f310ed44f8458fb8b575f31f667ca66488cd30c5bf70b0265f6",
+      "credit": "Mudam; exhibition installation 2020, photographer credit not yet extracted"
+    },
+    {
+      "id": "PA0119",
+      "path": "12_Blender_Model/references/pavilion_official/LA_0119.webp",
+      "url": "https://dbf642yz813mr.cloudfront.net/images/_medium/481912/LA_0119_s.webp",
+      "page": "https://www.mudam.com/fr/agenda/expositions/joints-voids-and-gaps",
+      "sha256": "e87edca01b90ffba22e4500d24f54a38ff16da35ae884bfd07de40f5cfb3bae1",
+      "credit": "Mudam; exhibition installation 2020, photographer credit not yet extracted"
+    },
+    {
+      "id": "PA0154",
+      "path": "12_Blender_Model/references/pavilion_official/LA_0154.webp",
+      "url": "https://dbf642yz813mr.cloudfront.net/images/_medium/481913/LA_0154_s.webp",
+      "page": "https://www.mudam.com/fr/agenda/expositions/joints-voids-and-gaps",
+      "sha256": "ec03487806c972dced2041b13f77dd67e1d0487111129a04358ba3312be3fe23",
+      "credit": "Mudam; exhibition installation 2020, photographer credit not yet extracted"
+    }
+  ],
+  "limits": [
+    "PA images show an exhibition installation; patterned floor and hanging objects are artworks, not permanent building elements.",
+    "PA0119 supports square window behind stone parapet; window position and dimensions are candidate correspondence.",
+    "101 pavilion basement uses a separate -3.831 m candidate; main basement -5.326 m is not substituted."
+  ]
+}

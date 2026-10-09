@@ -1,0 +1,567 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R18_PAVYON_GECIT_DETAY_v002.blend",
+  "failures": [],
+  "evaluated_solids": [
+    {
+      "name": "R18_SIDE_LEFT_FRAME_L",
+      "volume": 0.023449737640598878,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R18_SIDE_LEFT_FRAME_R",
+      "volume": 0.02345060785773312,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R18_SIDE_LEFT_FRAME_B",
+      "volume": 0.006523776035446439,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R18_SIDE_LEFT_FRAME_T",
+      "volume": 0.0065237697861132045,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R18_SIDE_LEFT_GLASS",
+      "volume": 0.045761218884145194,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R18_SIDE_RIGHT_FRAME_L",
+      "volume": 0.02345060785773312,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R18_SIDE_RIGHT_FRAME_R",
+      "volume": 0.023449737640901525,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R18_SIDE_RIGHT_FRAME_B",
+      "volume": 0.006523776035444073,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R18_SIDE_RIGHT_FRAME_T",
+      "volume": 0.006523769786115536,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R18_SIDE_RIGHT_GLASS",
+      "volume": 0.04576121888430151,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R18_TRANSOM_LEFT_FRAME_L",
+      "volume": 0.005984713047266332,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R18_TRANSOM_LEFT_FRAME_R",
+      "volume": 0.005985054564478065,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R18_TRANSOM_LEFT_FRAME_B",
+      "volume": 0.01247392333235638,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R18_TRANSOM_LEFT_FRAME_T",
+      "volume": 0.012473838360708513,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R18_TRANSOM_LEFT_GLASS",
+      "volume": 0.02113201758585248,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R18_TRANSOM_RIGHT_FRAME_L",
+      "volume": 0.005985054564553921,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R18_TRANSOM_RIGHT_FRAME_R",
+      "volume": 0.00598471304726611,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R18_TRANSOM_RIGHT_FRAME_B",
+      "volume": 0.0124739233323586,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R18_TRANSOM_RIGHT_FRAME_T",
+      "volume": 0.012473838360703628,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R18_TRANSOM_RIGHT_GLASS",
+      "volume": 0.021132017585888008,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R18_LEAF_LEFT_FRAME_HINGE",
+      "volume": 0.0067025782090541774,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R18_LEAF_LEFT_FRAME_FREE",
+      "volume": 0.0067023847710960816,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R18_LEAF_LEFT_FRAME_BOTTOM",
+      "volume": 0.0017211757904932248,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R18_LEAF_LEFT_FRAME_TOP",
+      "volume": 0.0017211696635838006,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R18_LEAF_LEFT_GLASS",
+      "volume": 0.044058051018231126,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R18_LEAF_RIGHT_FRAME_HINGE",
+      "volume": 0.006702578209130117,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R18_LEAF_RIGHT_FRAME_FREE",
+      "volume": 0.0067023847710956375,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R18_LEAF_RIGHT_FRAME_BOTTOM",
+      "volume": 0.001721175790490869,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R18_LEAF_RIGHT_FRAME_TOP",
+      "volume": 0.0017211696635885364,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R18_LEAF_RIGHT_GLASS",
+      "volume": 0.044058051018535105,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R18_LEAF_LEFT_LEVER",
+      "volume": 3.719737370383642e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R18_LEAF_LEFT_LEVER_STUB",
+      "volume": 1.7359610897508572e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R18_LEAF_RIGHT_LEVER",
+      "volume": 3.719737370465131e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R18_LEAF_RIGHT_LEVER_STUB",
+      "volume": 1.7359610898195522e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R18_LINK_COLUMN_0_L",
+      "volume": 0.044359828957490355,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R18_LINK_COLUMN_0_R",
+      "volume": 0.044359828957489814,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R18_LINK_TRANSVERSE_0",
+      "volume": 0.03641373136391679,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R18_LINK_COLUMN_1_L",
+      "volume": 0.04435982895749011,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R18_LINK_COLUMN_1_R",
+      "volume": 0.044359828957490174,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R18_LINK_TRANSVERSE_1",
+      "volume": 0.03641375999376839,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R18_LINK_COLUMN_2_L",
+      "volume": 0.0443598289574907,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R18_LINK_COLUMN_2_R",
+      "volume": 0.044359828957492006,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R18_LINK_TRANSVERSE_2",
+      "volume": 0.03641374459908642,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R18_LINK_COLUMN_3_L",
+      "volume": 0.04435982895749091,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R18_LINK_COLUMN_3_R",
+      "volume": 0.04435982895749093,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R18_LINK_TRANSVERSE_3",
+      "volume": 0.03641373136391757,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R18_LINK_COLUMN_4_L",
+      "volume": 0.04435982895749252,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R18_LINK_COLUMN_4_R",
+      "volume": 0.04436050636041672,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R18_LINK_TRANSVERSE_4",
+      "volume": 0.03641349168239305,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R18_LINK_COLUMN_5_L",
+      "volume": 0.04436016125275129,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R18_LINK_COLUMN_5_R",
+      "volume": 0.04436050636041784,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R18_LINK_TRANSVERSE_5",
+      "volume": 0.0364134716347746,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R18_LINK_COLUMN_6_L",
+      "volume": 0.04436039170767943,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R18_LINK_COLUMN_6_R",
+      "volume": 0.04436050636041675,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R18_LINK_TRANSVERSE_6",
+      "volume": 0.03641313757981979,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R18_LINK_COLUMN_7_L",
+      "volume": 0.04436039170768094,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R18_LINK_COLUMN_7_R",
+      "volume": 0.04436050636041792,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R18_LINK_TRANSVERSE_7",
+      "volume": 0.036413137579820676,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R18_LINK_COLUMN_8_L",
+      "volume": 0.044360391707681135,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R18_LINK_COLUMN_8_R",
+      "volume": 0.04436039170767947,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R18_LINK_TRANSVERSE_8",
+      "volume": 0.03641302423814541,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    }
+  ],
+  "bridge_portal": [
+    {
+      "y": 276,
+      "z": 0.2,
+      "hits": []
+    },
+    {
+      "y": 276,
+      "z": 1.5,
+      "hits": []
+    },
+    {
+      "y": 276,
+      "z": 2.1,
+      "hits": []
+    },
+    {
+      "y": 276,
+      "z": 3.1,
+      "hits": []
+    },
+    {
+      "y": 279,
+      "z": 0.2,
+      "hits": []
+    },
+    {
+      "y": 279,
+      "z": 1.5,
+      "hits": []
+    },
+    {
+      "y": 279,
+      "z": 2.1,
+      "hits": []
+    },
+    {
+      "y": 279,
+      "z": 3.1,
+      "hits": []
+    },
+    {
+      "y": 282,
+      "z": 0.2,
+      "hits": []
+    },
+    {
+      "y": 282,
+      "z": 1.5,
+      "hits": []
+    },
+    {
+      "y": 282,
+      "z": 2.1,
+      "hits": []
+    },
+    {
+      "y": 282,
+      "z": 3.1,
+      "hits": []
+    }
+  ],
+  "floor_support": [
+    {
+      "x": 107,
+      "y": 279,
+      "hits": [
+        "R17_GROUND_FLOOR"
+      ]
+    },
+    {
+      "x": 110,
+      "y": 230,
+      "hits": [
+        "R17_GROUND_FLOOR"
+      ]
+    },
+    {
+      "x": 150,
+      "y": 270,
+      "hits": [
+        "R17_GROUND_FLOOR"
+      ]
+    },
+    {
+      "x": 150,
+      "y": 310,
+      "hits": [
+        "R17_GROUND_FLOOR"
+      ]
+    },
+    {
+      "x": 106,
+      "y": 330,
+      "hits": [
+        "R17_GROUND_FLOOR"
+      ]
+    },
+    {
+      "x": 64,
+      "y": 300,
+      "hits": [
+        "R17_GROUND_FLOOR"
+      ]
+    },
+    {
+      "x": 95,
+      "y": 290,
+      "hits": [
+        "R17_GROUND_FLOOR"
+      ]
+    },
+    {
+      "x": 171,
+      "y": 279,
+      "hits": [
+        "P05_LINK_FLOOR"
+      ]
+    },
+    {
+      "x": 175,
+      "y": 279,
+      "hits": [
+        "P05_LINK_FLOOR"
+      ]
+    }
+  ],
+  "window_view": [
+    {
+      "y": 269,
+      "z": 1.3,
+      "hits": [
+        "R17_WINDOW_GLASS"
+      ]
+    },
+    {
+      "y": 269,
+      "z": 2.3,
+      "hits": [
+        "R17_WINDOW_GLASS"
+      ]
+    },
+    {
+      "y": 269,
+      "z": 3.3,
+      "hits": [
+        "R17_WINDOW_GLASS"
+      ]
+    },
+    {
+      "y": 279,
+      "z": 1.3,
+      "hits": [
+        "R17_WINDOW_GLASS"
+      ]
+    },
+    {
+      "y": 279,
+      "z": 2.3,
+      "hits": [
+        "R17_WINDOW_GLASS"
+      ]
+    },
+    {
+      "y": 279,
+      "z": 3.3,
+      "hits": [
+        "R17_WINDOW_GLASS"
+      ]
+    },
+    {
+      "y": 289,
+      "z": 1.3,
+      "hits": [
+        "R17_WINDOW_GLASS"
+      ]
+    },
+    {
+      "y": 289,
+      "z": 2.3,
+      "hits": [
+        "R17_WINDOW_GLASS"
+      ]
+    },
+    {
+      "y": 289,
+      "z": 3.3,
+      "hits": [
+        "R17_WINDOW_GLASS"
+      ]
+    }
+  ],
+  "stair_reserve_open": true,
+  "stair_and_guard_complete": false,
+  "construction_acceptance": false
+}

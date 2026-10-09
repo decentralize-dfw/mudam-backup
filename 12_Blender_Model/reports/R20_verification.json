@@ -1,0 +1,6535 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R20_ODITORYUM_KOLTUK_v002.blend",
+  "failures": [],
+  "evaluated_solids": [
+    {
+      "name": "R20_SEAT_01_01_BACK",
+      "volume": 0.03534876173597112,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_01_01_PAN",
+      "volume": 0.0143622220062084,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_01_01_ARM_L",
+      "volume": 0.02378050978875538,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_01_01_ARM_R",
+      "volume": 0.02378050978875539,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_01_01_FOOT_L",
+      "volume": 0.0015600002351403202,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_01_01_FOOT_R",
+      "volume": 0.0015600002351403206,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_01_01_SUPPORT",
+      "volume": 0.009120001006722469,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_01_02_BACK",
+      "volume": 0.03534876173597112,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_01_02_PAN",
+      "volume": 0.0143622220062084,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_01_02_ARM_L",
+      "volume": 0.02378050978875538,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_01_02_ARM_R",
+      "volume": 0.02378050978875539,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_01_02_FOOT_L",
+      "volume": 0.0015600002351403202,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_01_02_FOOT_R",
+      "volume": 0.0015600002351403206,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_01_02_SUPPORT",
+      "volume": 0.009120001006722469,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_01_03_BACK",
+      "volume": 0.03534876173597112,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_01_03_PAN",
+      "volume": 0.0143622220062084,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_01_03_ARM_L",
+      "volume": 0.02378050978875538,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_01_03_ARM_R",
+      "volume": 0.02378050978875539,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_01_03_FOOT_L",
+      "volume": 0.0015600002351403202,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_01_03_FOOT_R",
+      "volume": 0.0015600002351403206,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_01_03_SUPPORT",
+      "volume": 0.009120001006722469,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_01_04_BACK",
+      "volume": 0.03534876173597112,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_01_04_PAN",
+      "volume": 0.0143622220062084,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_01_04_ARM_L",
+      "volume": 0.02378050978875538,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_01_04_ARM_R",
+      "volume": 0.02378050978875539,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_01_04_FOOT_L",
+      "volume": 0.0015600002351403202,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_01_04_FOOT_R",
+      "volume": 0.0015600002351403206,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_01_04_SUPPORT",
+      "volume": 0.009120001006722469,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_01_05_BACK",
+      "volume": 0.03534876173597112,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_01_05_PAN",
+      "volume": 0.0143622220062084,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_01_05_ARM_L",
+      "volume": 0.02378050978875538,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_01_05_ARM_R",
+      "volume": 0.02378050978875539,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_01_05_FOOT_L",
+      "volume": 0.0015600002351403202,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_01_05_FOOT_R",
+      "volume": 0.0015600002351403206,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_01_05_SUPPORT",
+      "volume": 0.009120001006722469,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_01_06_BACK",
+      "volume": 0.03534876173597112,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_01_06_PAN",
+      "volume": 0.0143622220062084,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_01_06_ARM_L",
+      "volume": 0.02378050978875538,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_01_06_ARM_R",
+      "volume": 0.02378050978875539,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_01_06_FOOT_L",
+      "volume": 0.0015600002351403202,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_01_06_FOOT_R",
+      "volume": 0.0015600002351403206,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_01_06_SUPPORT",
+      "volume": 0.009120001006722469,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_01_07_BACK",
+      "volume": 0.03534876173597112,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_01_07_PAN",
+      "volume": 0.0143622220062084,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_01_07_ARM_L",
+      "volume": 0.02378050978875538,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_01_07_ARM_R",
+      "volume": 0.02378050978875539,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_01_07_FOOT_L",
+      "volume": 0.0015600002351403202,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_01_07_FOOT_R",
+      "volume": 0.0015600002351403206,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_01_07_SUPPORT",
+      "volume": 0.009120001006722469,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_01_08_BACK",
+      "volume": 0.03534876173597112,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_01_08_PAN",
+      "volume": 0.0143622220062084,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_01_08_ARM_L",
+      "volume": 0.02378050978875538,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_01_08_ARM_R",
+      "volume": 0.02378050978875539,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_01_08_FOOT_L",
+      "volume": 0.0015600002351403202,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_01_08_FOOT_R",
+      "volume": 0.0015600002351403206,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_01_08_SUPPORT",
+      "volume": 0.009120001006722469,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_01_09_BACK",
+      "volume": 0.03534876173597112,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_01_09_PAN",
+      "volume": 0.0143622220062084,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_01_09_ARM_L",
+      "volume": 0.02378050978875538,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_01_09_ARM_R",
+      "volume": 0.02378050978875539,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_01_09_FOOT_L",
+      "volume": 0.0015600002351403202,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_01_09_FOOT_R",
+      "volume": 0.0015600002351403206,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_01_09_SUPPORT",
+      "volume": 0.009120001006722469,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_01_10_BACK",
+      "volume": 0.03534876173597112,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_01_10_PAN",
+      "volume": 0.0143622220062084,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_01_10_ARM_L",
+      "volume": 0.02378050978875538,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_01_10_ARM_R",
+      "volume": 0.02378050978875539,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_01_10_FOOT_L",
+      "volume": 0.0015600002351403202,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_01_10_FOOT_R",
+      "volume": 0.0015600002351403206,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_01_10_SUPPORT",
+      "volume": 0.009120001006722469,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_01_11_BACK",
+      "volume": 0.03534876173597112,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_01_11_PAN",
+      "volume": 0.0143622220062084,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_01_11_ARM_L",
+      "volume": 0.02378050978875538,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_01_11_ARM_R",
+      "volume": 0.02378050978875539,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_01_11_FOOT_L",
+      "volume": 0.0015600002351403202,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_01_11_FOOT_R",
+      "volume": 0.0015600002351403206,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_01_11_SUPPORT",
+      "volume": 0.009120001006722469,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_01_12_BACK",
+      "volume": 0.03534876173597112,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_01_12_PAN",
+      "volume": 0.0143622220062084,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_01_12_ARM_L",
+      "volume": 0.02378050978875538,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_01_12_ARM_R",
+      "volume": 0.02378050978875539,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_01_12_FOOT_L",
+      "volume": 0.0015600002351403202,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_01_12_FOOT_R",
+      "volume": 0.0015600002351403206,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_01_12_SUPPORT",
+      "volume": 0.009120001006722469,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_01_13_BACK",
+      "volume": 0.03534876173597112,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_01_13_PAN",
+      "volume": 0.0143622220062084,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_01_13_ARM_L",
+      "volume": 0.02378050978875538,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_01_13_ARM_R",
+      "volume": 0.02378050978875539,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_01_13_FOOT_L",
+      "volume": 0.0015600002351403202,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_01_13_FOOT_R",
+      "volume": 0.0015600002351403206,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_01_13_SUPPORT",
+      "volume": 0.009120001006722469,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_01_14_BACK",
+      "volume": 0.03534876173597112,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_01_14_PAN",
+      "volume": 0.0143622220062084,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_01_14_ARM_L",
+      "volume": 0.02378050978875538,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_01_14_ARM_R",
+      "volume": 0.02378050978875539,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_01_14_FOOT_L",
+      "volume": 0.0015600002351403202,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_01_14_FOOT_R",
+      "volume": 0.0015600002351403206,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_01_14_SUPPORT",
+      "volume": 0.009120001006722469,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_01_15_BACK",
+      "volume": 0.03534876173597112,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_01_15_PAN",
+      "volume": 0.0143622220062084,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_01_15_ARM_L",
+      "volume": 0.02378050978875538,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_01_15_ARM_R",
+      "volume": 0.02378050978875539,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_01_15_FOOT_L",
+      "volume": 0.0015600002351403202,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_01_15_FOOT_R",
+      "volume": 0.0015600002351403206,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_01_15_SUPPORT",
+      "volume": 0.009120001006722469,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_01_16_BACK",
+      "volume": 0.03534876173597112,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_01_16_PAN",
+      "volume": 0.0143622220062084,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_01_16_ARM_L",
+      "volume": 0.02378050978875538,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_01_16_ARM_R",
+      "volume": 0.02378050978875539,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_01_16_FOOT_L",
+      "volume": 0.0015600002351403202,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_01_16_FOOT_R",
+      "volume": 0.0015600002351403206,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_01_16_SUPPORT",
+      "volume": 0.009120001006722469,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_02_01_BACK",
+      "volume": 0.03534876173597112,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_02_01_PAN",
+      "volume": 0.0143622220062084,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_02_01_ARM_L",
+      "volume": 0.02378050978875538,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_02_01_ARM_R",
+      "volume": 0.02378050978875539,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_02_01_FOOT_L",
+      "volume": 0.0015600002351403202,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_02_01_FOOT_R",
+      "volume": 0.0015600002351403206,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_02_01_SUPPORT",
+      "volume": 0.009120001006722469,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_02_02_BACK",
+      "volume": 0.03534876173597112,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_02_02_PAN",
+      "volume": 0.0143622220062084,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_02_02_ARM_L",
+      "volume": 0.02378050978875538,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_02_02_ARM_R",
+      "volume": 0.02378050978875539,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_02_02_FOOT_L",
+      "volume": 0.0015600002351403202,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_02_02_FOOT_R",
+      "volume": 0.0015600002351403206,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_02_02_SUPPORT",
+      "volume": 0.009120001006722469,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_02_03_BACK",
+      "volume": 0.03534876173597112,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_02_03_PAN",
+      "volume": 0.0143622220062084,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_02_03_ARM_L",
+      "volume": 0.02378050978875538,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_02_03_ARM_R",
+      "volume": 0.02378050978875539,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_02_03_FOOT_L",
+      "volume": 0.0015600002351403202,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_02_03_FOOT_R",
+      "volume": 0.0015600002351403206,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_02_03_SUPPORT",
+      "volume": 0.009120001006722469,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_02_04_BACK",
+      "volume": 0.03534876173597112,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_02_04_PAN",
+      "volume": 0.0143622220062084,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_02_04_ARM_L",
+      "volume": 0.02378050978875538,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_02_04_ARM_R",
+      "volume": 0.02378050978875539,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_02_04_FOOT_L",
+      "volume": 0.0015600002351403202,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_02_04_FOOT_R",
+      "volume": 0.0015600002351403206,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_02_04_SUPPORT",
+      "volume": 0.009120001006722469,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_02_05_BACK",
+      "volume": 0.03534876173597112,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_02_05_PAN",
+      "volume": 0.0143622220062084,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_02_05_ARM_L",
+      "volume": 0.02378050978875538,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_02_05_ARM_R",
+      "volume": 0.02378050978875539,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_02_05_FOOT_L",
+      "volume": 0.0015600002351403202,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_02_05_FOOT_R",
+      "volume": 0.0015600002351403206,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_02_05_SUPPORT",
+      "volume": 0.009120001006722469,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_02_06_BACK",
+      "volume": 0.03534876173597112,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_02_06_PAN",
+      "volume": 0.0143622220062084,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_02_06_ARM_L",
+      "volume": 0.02378050978875538,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_02_06_ARM_R",
+      "volume": 0.02378050978875539,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_02_06_FOOT_L",
+      "volume": 0.0015600002351403202,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_02_06_FOOT_R",
+      "volume": 0.0015600002351403206,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_02_06_SUPPORT",
+      "volume": 0.009120001006722469,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_02_07_BACK",
+      "volume": 0.03534876173597112,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_02_07_PAN",
+      "volume": 0.0143622220062084,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_02_07_ARM_L",
+      "volume": 0.02378050978875538,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_02_07_ARM_R",
+      "volume": 0.02378050978875539,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_02_07_FOOT_L",
+      "volume": 0.0015600002351403202,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_02_07_FOOT_R",
+      "volume": 0.0015600002351403206,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_02_07_SUPPORT",
+      "volume": 0.009120001006722469,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_02_08_BACK",
+      "volume": 0.03534876173597112,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_02_08_PAN",
+      "volume": 0.0143622220062084,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_02_08_ARM_L",
+      "volume": 0.02378050978875538,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_02_08_ARM_R",
+      "volume": 0.02378050978875539,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_02_08_FOOT_L",
+      "volume": 0.0015600002351403202,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_02_08_FOOT_R",
+      "volume": 0.0015600002351403206,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_02_08_SUPPORT",
+      "volume": 0.009120001006722469,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_02_09_BACK",
+      "volume": 0.03534876173597112,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_02_09_PAN",
+      "volume": 0.0143622220062084,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_02_09_ARM_L",
+      "volume": 0.02378050978875538,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_02_09_ARM_R",
+      "volume": 0.02378050978875539,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_02_09_FOOT_L",
+      "volume": 0.0015600002351403202,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_02_09_FOOT_R",
+      "volume": 0.0015600002351403206,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_02_09_SUPPORT",
+      "volume": 0.009120001006722469,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_02_10_BACK",
+      "volume": 0.03534876173597112,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_02_10_PAN",
+      "volume": 0.0143622220062084,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_02_10_ARM_L",
+      "volume": 0.02378050978875538,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_02_10_ARM_R",
+      "volume": 0.02378050978875539,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_02_10_FOOT_L",
+      "volume": 0.0015600002351403202,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_02_10_FOOT_R",
+      "volume": 0.0015600002351403206,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_02_10_SUPPORT",
+      "volume": 0.009120001006722469,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_02_11_BACK",
+      "volume": 0.03534876173597112,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_02_11_PAN",
+      "volume": 0.0143622220062084,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_02_11_ARM_L",
+      "volume": 0.02378050978875538,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_02_11_ARM_R",
+      "volume": 0.02378050978875539,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_02_11_FOOT_L",
+      "volume": 0.0015600002351403202,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_02_11_FOOT_R",
+      "volume": 0.0015600002351403206,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_02_11_SUPPORT",
+      "volume": 0.009120001006722469,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_02_12_BACK",
+      "volume": 0.03534876173597112,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_02_12_PAN",
+      "volume": 0.0143622220062084,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_02_12_ARM_L",
+      "volume": 0.02378050978875538,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_02_12_ARM_R",
+      "volume": 0.02378050978875539,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_02_12_FOOT_L",
+      "volume": 0.0015600002351403202,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_02_12_FOOT_R",
+      "volume": 0.0015600002351403206,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_02_12_SUPPORT",
+      "volume": 0.009120001006722469,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_02_13_BACK",
+      "volume": 0.03534876173597112,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_02_13_PAN",
+      "volume": 0.0143622220062084,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_02_13_ARM_L",
+      "volume": 0.02378050978875538,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_02_13_ARM_R",
+      "volume": 0.02378050978875539,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_02_13_FOOT_L",
+      "volume": 0.0015600002351403202,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_02_13_FOOT_R",
+      "volume": 0.0015600002351403206,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_02_13_SUPPORT",
+      "volume": 0.009120001006722469,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_02_14_BACK",
+      "volume": 0.03534876173597112,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_02_14_PAN",
+      "volume": 0.0143622220062084,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_02_14_ARM_L",
+      "volume": 0.02378050978875538,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_02_14_ARM_R",
+      "volume": 0.02378050978875539,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_02_14_FOOT_L",
+      "volume": 0.0015600002351403202,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_02_14_FOOT_R",
+      "volume": 0.0015600002351403206,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_02_14_SUPPORT",
+      "volume": 0.009120001006722469,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_02_15_BACK",
+      "volume": 0.03534876173597112,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_02_15_PAN",
+      "volume": 0.0143622220062084,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_02_15_ARM_L",
+      "volume": 0.02378050978875538,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_02_15_ARM_R",
+      "volume": 0.02378050978875539,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_02_15_FOOT_L",
+      "volume": 0.0015600002351403202,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_02_15_FOOT_R",
+      "volume": 0.0015600002351403206,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_02_15_SUPPORT",
+      "volume": 0.009120001006722469,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_02_16_BACK",
+      "volume": 0.03534876173597112,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_02_16_PAN",
+      "volume": 0.0143622220062084,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_02_16_ARM_L",
+      "volume": 0.02378050978875538,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_02_16_ARM_R",
+      "volume": 0.02378050978875539,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_02_16_FOOT_L",
+      "volume": 0.0015600002351403202,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_02_16_FOOT_R",
+      "volume": 0.0015600002351403206,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_02_16_SUPPORT",
+      "volume": 0.009120001006722469,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_03_01_BACK",
+      "volume": 0.03534876173597112,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_03_01_PAN",
+      "volume": 0.0143622220062084,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_03_01_ARM_L",
+      "volume": 0.02378050978875538,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_03_01_ARM_R",
+      "volume": 0.02378050978875539,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_03_01_FOOT_L",
+      "volume": 0.0015600002351403202,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_03_01_FOOT_R",
+      "volume": 0.0015600002351403206,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_03_01_SUPPORT",
+      "volume": 0.009120001006722469,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_03_02_BACK",
+      "volume": 0.03534876173597112,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_03_02_PAN",
+      "volume": 0.0143622220062084,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_03_02_ARM_L",
+      "volume": 0.02378050978875538,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_03_02_ARM_R",
+      "volume": 0.02378050978875539,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_03_02_FOOT_L",
+      "volume": 0.0015600002351403202,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_03_02_FOOT_R",
+      "volume": 0.0015600002351403206,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_03_02_SUPPORT",
+      "volume": 0.009120001006722469,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_03_03_BACK",
+      "volume": 0.03534876173597112,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_03_03_PAN",
+      "volume": 0.0143622220062084,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_03_03_ARM_L",
+      "volume": 0.02378050978875538,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_03_03_ARM_R",
+      "volume": 0.02378050978875539,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_03_03_FOOT_L",
+      "volume": 0.0015600002351403202,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_03_03_FOOT_R",
+      "volume": 0.0015600002351403206,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_03_03_SUPPORT",
+      "volume": 0.009120001006722469,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_03_04_BACK",
+      "volume": 0.03534876173597112,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_03_04_PAN",
+      "volume": 0.0143622220062084,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_03_04_ARM_L",
+      "volume": 0.02378050978875538,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_03_04_ARM_R",
+      "volume": 0.02378050978875539,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_03_04_FOOT_L",
+      "volume": 0.0015600002351403202,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_03_04_FOOT_R",
+      "volume": 0.0015600002351403206,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_03_04_SUPPORT",
+      "volume": 0.009120001006722469,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_03_05_BACK",
+      "volume": 0.03534876173597112,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_03_05_PAN",
+      "volume": 0.0143622220062084,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_03_05_ARM_L",
+      "volume": 0.02378050978875538,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_03_05_ARM_R",
+      "volume": 0.02378050978875539,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_03_05_FOOT_L",
+      "volume": 0.0015600002351403202,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_03_05_FOOT_R",
+      "volume": 0.0015600002351403206,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_03_05_SUPPORT",
+      "volume": 0.009120001006722469,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_03_06_BACK",
+      "volume": 0.03534876173597112,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_03_06_PAN",
+      "volume": 0.0143622220062084,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_03_06_ARM_L",
+      "volume": 0.02378050978875538,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_03_06_ARM_R",
+      "volume": 0.02378050978875539,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_03_06_FOOT_L",
+      "volume": 0.0015600002351403202,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_03_06_FOOT_R",
+      "volume": 0.0015600002351403206,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_03_06_SUPPORT",
+      "volume": 0.009120001006722469,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_03_07_BACK",
+      "volume": 0.03534876173597112,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_03_07_PAN",
+      "volume": 0.0143622220062084,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_03_07_ARM_L",
+      "volume": 0.02378050978875538,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_03_07_ARM_R",
+      "volume": 0.02378050978875539,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_03_07_FOOT_L",
+      "volume": 0.0015600002351403202,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_03_07_FOOT_R",
+      "volume": 0.0015600002351403206,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_03_07_SUPPORT",
+      "volume": 0.009120001006722469,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_03_08_BACK",
+      "volume": 0.03534876173597112,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_03_08_PAN",
+      "volume": 0.0143622220062084,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_03_08_ARM_L",
+      "volume": 0.02378050978875538,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_03_08_ARM_R",
+      "volume": 0.02378050978875539,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_03_08_FOOT_L",
+      "volume": 0.0015600002351403202,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_03_08_FOOT_R",
+      "volume": 0.0015600002351403206,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_03_08_SUPPORT",
+      "volume": 0.009120001006722469,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_03_09_BACK",
+      "volume": 0.03534876173597112,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_03_09_PAN",
+      "volume": 0.0143622220062084,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_03_09_ARM_L",
+      "volume": 0.02378050978875538,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_03_09_ARM_R",
+      "volume": 0.02378050978875539,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_03_09_FOOT_L",
+      "volume": 0.0015600002351403202,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_03_09_FOOT_R",
+      "volume": 0.0015600002351403206,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_03_09_SUPPORT",
+      "volume": 0.009120001006722469,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_03_10_BACK",
+      "volume": 0.03534876173597112,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_03_10_PAN",
+      "volume": 0.0143622220062084,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_03_10_ARM_L",
+      "volume": 0.02378050978875538,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_03_10_ARM_R",
+      "volume": 0.02378050978875539,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_03_10_FOOT_L",
+      "volume": 0.0015600002351403202,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_03_10_FOOT_R",
+      "volume": 0.0015600002351403206,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_03_10_SUPPORT",
+      "volume": 0.009120001006722469,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_03_11_BACK",
+      "volume": 0.03534876173597112,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_03_11_PAN",
+      "volume": 0.0143622220062084,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_03_11_ARM_L",
+      "volume": 0.02378050978875538,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_03_11_ARM_R",
+      "volume": 0.02378050978875539,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_03_11_FOOT_L",
+      "volume": 0.0015600002351403202,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_03_11_FOOT_R",
+      "volume": 0.0015600002351403206,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_03_11_SUPPORT",
+      "volume": 0.009120001006722469,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_03_12_BACK",
+      "volume": 0.03534876173597112,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_03_12_PAN",
+      "volume": 0.0143622220062084,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_03_12_ARM_L",
+      "volume": 0.02378050978875538,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_03_12_ARM_R",
+      "volume": 0.02378050978875539,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_03_12_FOOT_L",
+      "volume": 0.0015600002351403202,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_03_12_FOOT_R",
+      "volume": 0.0015600002351403206,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_03_12_SUPPORT",
+      "volume": 0.009120001006722469,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_03_13_BACK",
+      "volume": 0.03534876173597112,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_03_13_PAN",
+      "volume": 0.0143622220062084,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_03_13_ARM_L",
+      "volume": 0.02378050978875538,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_03_13_ARM_R",
+      "volume": 0.02378050978875539,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_03_13_FOOT_L",
+      "volume": 0.0015600002351403202,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_03_13_FOOT_R",
+      "volume": 0.0015600002351403206,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_03_13_SUPPORT",
+      "volume": 0.009120001006722469,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_03_14_BACK",
+      "volume": 0.03534876173597112,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_03_14_PAN",
+      "volume": 0.0143622220062084,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_03_14_ARM_L",
+      "volume": 0.02378050978875538,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_03_14_ARM_R",
+      "volume": 0.02378050978875539,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_03_14_FOOT_L",
+      "volume": 0.0015600002351403202,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_03_14_FOOT_R",
+      "volume": 0.0015600002351403206,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_03_14_SUPPORT",
+      "volume": 0.009120001006722469,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_03_15_BACK",
+      "volume": 0.03534876173597112,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_03_15_PAN",
+      "volume": 0.0143622220062084,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_03_15_ARM_L",
+      "volume": 0.02378050978875538,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_03_15_ARM_R",
+      "volume": 0.02378050978875539,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_03_15_FOOT_L",
+      "volume": 0.0015600002351403202,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_03_15_FOOT_R",
+      "volume": 0.0015600002351403206,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_03_15_SUPPORT",
+      "volume": 0.009120001006722469,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_03_16_BACK",
+      "volume": 0.03534876173597112,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_03_16_PAN",
+      "volume": 0.0143622220062084,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_03_16_ARM_L",
+      "volume": 0.02378050978875538,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_03_16_ARM_R",
+      "volume": 0.02378050978875539,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_03_16_FOOT_L",
+      "volume": 0.0015600002351403202,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_03_16_FOOT_R",
+      "volume": 0.0015600002351403206,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_03_16_SUPPORT",
+      "volume": 0.009120001006722469,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_04_01_BACK",
+      "volume": 0.03534876173597112,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_04_01_PAN",
+      "volume": 0.0143622220062084,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_04_01_ARM_L",
+      "volume": 0.02378050978875538,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_04_01_ARM_R",
+      "volume": 0.02378050978875539,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_04_01_FOOT_L",
+      "volume": 0.0015600002351403202,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_04_01_FOOT_R",
+      "volume": 0.0015600002351403206,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_04_01_SUPPORT",
+      "volume": 0.009120001006722469,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_04_02_BACK",
+      "volume": 0.03534876173597112,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_04_02_PAN",
+      "volume": 0.0143622220062084,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_04_02_ARM_L",
+      "volume": 0.02378050978875538,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_04_02_ARM_R",
+      "volume": 0.02378050978875539,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_04_02_FOOT_L",
+      "volume": 0.0015600002351403202,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_04_02_FOOT_R",
+      "volume": 0.0015600002351403206,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_04_02_SUPPORT",
+      "volume": 0.009120001006722469,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_04_03_BACK",
+      "volume": 0.03534876173597112,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_04_03_PAN",
+      "volume": 0.0143622220062084,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_04_03_ARM_L",
+      "volume": 0.02378050978875538,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_04_03_ARM_R",
+      "volume": 0.02378050978875539,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_04_03_FOOT_L",
+      "volume": 0.0015600002351403202,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_04_03_FOOT_R",
+      "volume": 0.0015600002351403206,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_04_03_SUPPORT",
+      "volume": 0.009120001006722469,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_04_04_BACK",
+      "volume": 0.03534876173597112,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_04_04_PAN",
+      "volume": 0.0143622220062084,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_04_04_ARM_L",
+      "volume": 0.02378050978875538,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_04_04_ARM_R",
+      "volume": 0.02378050978875539,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_04_04_FOOT_L",
+      "volume": 0.0015600002351403202,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_04_04_FOOT_R",
+      "volume": 0.0015600002351403206,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_04_04_SUPPORT",
+      "volume": 0.009120001006722469,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_04_05_BACK",
+      "volume": 0.03534876173597112,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_04_05_PAN",
+      "volume": 0.0143622220062084,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_04_05_ARM_L",
+      "volume": 0.02378050978875538,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_04_05_ARM_R",
+      "volume": 0.02378050978875539,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_04_05_FOOT_L",
+      "volume": 0.0015600002351403202,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_04_05_FOOT_R",
+      "volume": 0.0015600002351403206,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_04_05_SUPPORT",
+      "volume": 0.009120001006722469,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_04_06_BACK",
+      "volume": 0.03534876173597112,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_04_06_PAN",
+      "volume": 0.0143622220062084,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_04_06_ARM_L",
+      "volume": 0.02378050978875538,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_04_06_ARM_R",
+      "volume": 0.02378050978875539,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_04_06_FOOT_L",
+      "volume": 0.0015600002351403202,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_04_06_FOOT_R",
+      "volume": 0.0015600002351403206,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_04_06_SUPPORT",
+      "volume": 0.009120001006722469,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_04_07_BACK",
+      "volume": 0.03534876173597112,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_04_07_PAN",
+      "volume": 0.0143622220062084,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_04_07_ARM_L",
+      "volume": 0.02378050978875538,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_04_07_ARM_R",
+      "volume": 0.02378050978875539,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_04_07_FOOT_L",
+      "volume": 0.0015600002351403202,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_04_07_FOOT_R",
+      "volume": 0.0015600002351403206,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_04_07_SUPPORT",
+      "volume": 0.009120001006722469,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_04_08_BACK",
+      "volume": 0.03534876173597112,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_04_08_PAN",
+      "volume": 0.0143622220062084,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_04_08_ARM_L",
+      "volume": 0.02378050978875538,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_04_08_ARM_R",
+      "volume": 0.02378050978875539,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_04_08_FOOT_L",
+      "volume": 0.0015600002351403202,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_04_08_FOOT_R",
+      "volume": 0.0015600002351403206,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_04_08_SUPPORT",
+      "volume": 0.009120001006722469,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_04_09_BACK",
+      "volume": 0.03534876173597112,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_04_09_PAN",
+      "volume": 0.0143622220062084,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_04_09_ARM_L",
+      "volume": 0.02378050978875538,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_04_09_ARM_R",
+      "volume": 0.02378050978875539,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_04_09_FOOT_L",
+      "volume": 0.0015600002351403202,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_04_09_FOOT_R",
+      "volume": 0.0015600002351403206,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_04_09_SUPPORT",
+      "volume": 0.009120001006722469,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_04_10_BACK",
+      "volume": 0.03534876173597112,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_04_10_PAN",
+      "volume": 0.0143622220062084,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_04_10_ARM_L",
+      "volume": 0.02378050978875538,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_04_10_ARM_R",
+      "volume": 0.02378050978875539,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_04_10_FOOT_L",
+      "volume": 0.0015600002351403202,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_04_10_FOOT_R",
+      "volume": 0.0015600002351403206,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_04_10_SUPPORT",
+      "volume": 0.009120001006722469,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_04_11_BACK",
+      "volume": 0.03534876173597112,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_04_11_PAN",
+      "volume": 0.0143622220062084,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_04_11_ARM_L",
+      "volume": 0.02378050978875538,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_04_11_ARM_R",
+      "volume": 0.02378050978875539,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_04_11_FOOT_L",
+      "volume": 0.0015600002351403202,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_04_11_FOOT_R",
+      "volume": 0.0015600002351403206,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_04_11_SUPPORT",
+      "volume": 0.009120001006722469,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_04_12_BACK",
+      "volume": 0.03534876173597112,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_04_12_PAN",
+      "volume": 0.0143622220062084,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_04_12_ARM_L",
+      "volume": 0.02378050978875538,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_04_12_ARM_R",
+      "volume": 0.02378050978875539,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_04_12_FOOT_L",
+      "volume": 0.0015600002351403202,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_04_12_FOOT_R",
+      "volume": 0.0015600002351403206,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_04_12_SUPPORT",
+      "volume": 0.009120001006722469,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_04_13_BACK",
+      "volume": 0.03534876173597112,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_04_13_PAN",
+      "volume": 0.0143622220062084,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_04_13_ARM_L",
+      "volume": 0.02378050978875538,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_04_13_ARM_R",
+      "volume": 0.02378050978875539,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_04_13_FOOT_L",
+      "volume": 0.0015600002351403202,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_04_13_FOOT_R",
+      "volume": 0.0015600002351403206,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_04_13_SUPPORT",
+      "volume": 0.009120001006722469,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_04_14_BACK",
+      "volume": 0.03534876173597112,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_04_14_PAN",
+      "volume": 0.0143622220062084,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_04_14_ARM_L",
+      "volume": 0.02378050978875538,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_04_14_ARM_R",
+      "volume": 0.02378050978875539,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_04_14_FOOT_L",
+      "volume": 0.0015600002351403202,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_04_14_FOOT_R",
+      "volume": 0.0015600002351403206,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_04_14_SUPPORT",
+      "volume": 0.009120001006722469,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_04_15_BACK",
+      "volume": 0.03534876173597112,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_04_15_PAN",
+      "volume": 0.0143622220062084,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_04_15_ARM_L",
+      "volume": 0.02378050978875538,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_04_15_ARM_R",
+      "volume": 0.02378050978875539,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_04_15_FOOT_L",
+      "volume": 0.0015600002351403202,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_04_15_FOOT_R",
+      "volume": 0.0015600002351403206,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_04_15_SUPPORT",
+      "volume": 0.009120001006722469,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_04_16_BACK",
+      "volume": 0.03534876173597112,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_04_16_PAN",
+      "volume": 0.0143622220062084,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_04_16_ARM_L",
+      "volume": 0.02378050978875538,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_04_16_ARM_R",
+      "volume": 0.02378050978875539,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_04_16_FOOT_L",
+      "volume": 0.0015600002351403202,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_04_16_FOOT_R",
+      "volume": 0.0015600002351403206,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_04_16_SUPPORT",
+      "volume": 0.009120001006722469,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_05_01_BACK",
+      "volume": 0.03534876173597112,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_05_01_PAN",
+      "volume": 0.0143622220062084,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_05_01_ARM_L",
+      "volume": 0.02378050978875538,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_05_01_ARM_R",
+      "volume": 0.02378050978875539,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_05_01_FOOT_L",
+      "volume": 0.0015600002351403202,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_05_01_FOOT_R",
+      "volume": 0.0015600002351403206,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_05_01_SUPPORT",
+      "volume": 0.009120001006722469,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_05_02_BACK",
+      "volume": 0.03534876173597112,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_05_02_PAN",
+      "volume": 0.0143622220062084,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_05_02_ARM_L",
+      "volume": 0.02378050978875538,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_05_02_ARM_R",
+      "volume": 0.02378050978875539,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_05_02_FOOT_L",
+      "volume": 0.0015600002351403202,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_05_02_FOOT_R",
+      "volume": 0.0015600002351403206,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_05_02_SUPPORT",
+      "volume": 0.009120001006722469,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_05_03_BACK",
+      "volume": 0.03534876173597112,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_05_03_PAN",
+      "volume": 0.0143622220062084,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_05_03_ARM_L",
+      "volume": 0.02378050978875538,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_05_03_ARM_R",
+      "volume": 0.02378050978875539,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_05_03_FOOT_L",
+      "volume": 0.0015600002351403202,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_05_03_FOOT_R",
+      "volume": 0.0015600002351403206,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_05_03_SUPPORT",
+      "volume": 0.009120001006722469,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_05_04_BACK",
+      "volume": 0.03534876173597112,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_05_04_PAN",
+      "volume": 0.0143622220062084,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_05_04_ARM_L",
+      "volume": 0.02378050978875538,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_05_04_ARM_R",
+      "volume": 0.02378050978875539,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_05_04_FOOT_L",
+      "volume": 0.0015600002351403202,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_05_04_FOOT_R",
+      "volume": 0.0015600002351403206,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_05_04_SUPPORT",
+      "volume": 0.009120001006722469,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_05_05_BACK",
+      "volume": 0.03534876173597112,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_05_05_PAN",
+      "volume": 0.0143622220062084,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_05_05_ARM_L",
+      "volume": 0.02378050978875538,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_05_05_ARM_R",
+      "volume": 0.02378050978875539,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_05_05_FOOT_L",
+      "volume": 0.0015600002351403202,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_05_05_FOOT_R",
+      "volume": 0.0015600002351403206,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_05_05_SUPPORT",
+      "volume": 0.009120001006722469,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_05_06_BACK",
+      "volume": 0.03534876173597112,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_05_06_PAN",
+      "volume": 0.0143622220062084,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_05_06_ARM_L",
+      "volume": 0.02378050978875538,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_05_06_ARM_R",
+      "volume": 0.02378050978875539,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_05_06_FOOT_L",
+      "volume": 0.0015600002351403202,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_05_06_FOOT_R",
+      "volume": 0.0015600002351403206,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_05_06_SUPPORT",
+      "volume": 0.009120001006722469,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_05_07_BACK",
+      "volume": 0.03534876173597112,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_05_07_PAN",
+      "volume": 0.0143622220062084,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_05_07_ARM_L",
+      "volume": 0.02378050978875538,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_05_07_ARM_R",
+      "volume": 0.02378050978875539,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_05_07_FOOT_L",
+      "volume": 0.0015600002351403202,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_05_07_FOOT_R",
+      "volume": 0.0015600002351403206,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_05_07_SUPPORT",
+      "volume": 0.009120001006722469,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_05_08_BACK",
+      "volume": 0.03534876173597112,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_05_08_PAN",
+      "volume": 0.0143622220062084,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_05_08_ARM_L",
+      "volume": 0.02378050978875538,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_05_08_ARM_R",
+      "volume": 0.02378050978875539,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_05_08_FOOT_L",
+      "volume": 0.0015600002351403202,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_05_08_FOOT_R",
+      "volume": 0.0015600002351403206,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_05_08_SUPPORT",
+      "volume": 0.009120001006722469,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_05_09_BACK",
+      "volume": 0.03534876173597112,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_05_09_PAN",
+      "volume": 0.0143622220062084,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_05_09_ARM_L",
+      "volume": 0.02378050978875538,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_05_09_ARM_R",
+      "volume": 0.02378050978875539,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_05_09_FOOT_L",
+      "volume": 0.0015600002351403202,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_05_09_FOOT_R",
+      "volume": 0.0015600002351403206,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_05_09_SUPPORT",
+      "volume": 0.009120001006722469,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_05_10_BACK",
+      "volume": 0.03534876173597112,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_05_10_PAN",
+      "volume": 0.0143622220062084,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_05_10_ARM_L",
+      "volume": 0.02378050978875538,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_05_10_ARM_R",
+      "volume": 0.02378050978875539,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_05_10_FOOT_L",
+      "volume": 0.0015600002351403202,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_05_10_FOOT_R",
+      "volume": 0.0015600002351403206,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_05_10_SUPPORT",
+      "volume": 0.009120001006722469,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_05_11_BACK",
+      "volume": 0.03534876173597112,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_05_11_PAN",
+      "volume": 0.0143622220062084,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_05_11_ARM_L",
+      "volume": 0.02378050978875538,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_05_11_ARM_R",
+      "volume": 0.02378050978875539,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_05_11_FOOT_L",
+      "volume": 0.0015600002351403202,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_05_11_FOOT_R",
+      "volume": 0.0015600002351403206,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_05_11_SUPPORT",
+      "volume": 0.009120001006722469,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_05_12_BACK",
+      "volume": 0.03534876173597112,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_05_12_PAN",
+      "volume": 0.0143622220062084,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_05_12_ARM_L",
+      "volume": 0.02378050978875538,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_05_12_ARM_R",
+      "volume": 0.02378050978875539,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_05_12_FOOT_L",
+      "volume": 0.0015600002351403202,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_05_12_FOOT_R",
+      "volume": 0.0015600002351403206,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_05_12_SUPPORT",
+      "volume": 0.009120001006722469,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_05_13_BACK",
+      "volume": 0.03534876173597112,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_05_13_PAN",
+      "volume": 0.0143622220062084,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_05_13_ARM_L",
+      "volume": 0.02378050978875538,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_05_13_ARM_R",
+      "volume": 0.02378050978875539,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_05_13_FOOT_L",
+      "volume": 0.0015600002351403202,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_05_13_FOOT_R",
+      "volume": 0.0015600002351403206,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_05_13_SUPPORT",
+      "volume": 0.009120001006722469,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_05_14_BACK",
+      "volume": 0.03534876173597112,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_05_14_PAN",
+      "volume": 0.0143622220062084,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_05_14_ARM_L",
+      "volume": 0.02378050978875538,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_05_14_ARM_R",
+      "volume": 0.02378050978875539,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_05_14_FOOT_L",
+      "volume": 0.0015600002351403202,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_05_14_FOOT_R",
+      "volume": 0.0015600002351403206,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_05_14_SUPPORT",
+      "volume": 0.009120001006722469,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_05_15_BACK",
+      "volume": 0.03534876173597112,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_05_15_PAN",
+      "volume": 0.0143622220062084,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_05_15_ARM_L",
+      "volume": 0.02378050978875538,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_05_15_ARM_R",
+      "volume": 0.02378050978875539,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_05_15_FOOT_L",
+      "volume": 0.0015600002351403202,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_05_15_FOOT_R",
+      "volume": 0.0015600002351403206,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_05_15_SUPPORT",
+      "volume": 0.009120001006722469,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_05_16_BACK",
+      "volume": 0.03534876173597112,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_05_16_PAN",
+      "volume": 0.0143622220062084,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_05_16_ARM_L",
+      "volume": 0.02378050978875538,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_05_16_ARM_R",
+      "volume": 0.02378050978875539,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_05_16_FOOT_L",
+      "volume": 0.0015600002351403202,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_05_16_FOOT_R",
+      "volume": 0.0015600002351403206,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_05_16_SUPPORT",
+      "volume": 0.009120001006722469,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_06_01_BACK",
+      "volume": 0.03534876173597112,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_06_01_PAN",
+      "volume": 0.0143622220062084,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_06_01_ARM_L",
+      "volume": 0.02378050978875538,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_06_01_ARM_R",
+      "volume": 0.02378050978875539,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_06_01_FOOT_L",
+      "volume": 0.0015600002351403202,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_06_01_FOOT_R",
+      "volume": 0.0015600002351403206,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_06_01_SUPPORT",
+      "volume": 0.009120001006722469,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_06_02_BACK",
+      "volume": 0.03534876173597112,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_06_02_PAN",
+      "volume": 0.0143622220062084,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_06_02_ARM_L",
+      "volume": 0.02378050978875538,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_06_02_ARM_R",
+      "volume": 0.02378050978875539,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_06_02_FOOT_L",
+      "volume": 0.0015600002351403202,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_06_02_FOOT_R",
+      "volume": 0.0015600002351403206,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_06_02_SUPPORT",
+      "volume": 0.009120001006722469,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_06_03_BACK",
+      "volume": 0.03534876173597112,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_06_03_PAN",
+      "volume": 0.0143622220062084,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_06_03_ARM_L",
+      "volume": 0.02378050978875538,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_06_03_ARM_R",
+      "volume": 0.02378050978875539,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_06_03_FOOT_L",
+      "volume": 0.0015600002351403202,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_06_03_FOOT_R",
+      "volume": 0.0015600002351403206,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_06_03_SUPPORT",
+      "volume": 0.009120001006722469,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_06_04_BACK",
+      "volume": 0.03534876173597112,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_06_04_PAN",
+      "volume": 0.0143622220062084,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_06_04_ARM_L",
+      "volume": 0.02378050978875538,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_06_04_ARM_R",
+      "volume": 0.02378050978875539,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_06_04_FOOT_L",
+      "volume": 0.0015600002351403202,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_06_04_FOOT_R",
+      "volume": 0.0015600002351403206,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_06_04_SUPPORT",
+      "volume": 0.009120001006722469,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_06_05_BACK",
+      "volume": 0.03534876173597112,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_06_05_PAN",
+      "volume": 0.0143622220062084,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_06_05_ARM_L",
+      "volume": 0.02378050978875538,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_06_05_ARM_R",
+      "volume": 0.02378050978875539,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_06_05_FOOT_L",
+      "volume": 0.0015600002351403202,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_06_05_FOOT_R",
+      "volume": 0.0015600002351403206,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_06_05_SUPPORT",
+      "volume": 0.009120001006722469,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_06_06_BACK",
+      "volume": 0.03534876173597112,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_06_06_PAN",
+      "volume": 0.0143622220062084,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_06_06_ARM_L",
+      "volume": 0.02378050978875538,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_06_06_ARM_R",
+      "volume": 0.02378050978875539,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_06_06_FOOT_L",
+      "volume": 0.0015600002351403202,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_06_06_FOOT_R",
+      "volume": 0.0015600002351403206,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_06_06_SUPPORT",
+      "volume": 0.009120001006722469,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_06_07_BACK",
+      "volume": 0.03534876173597112,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_06_07_PAN",
+      "volume": 0.0143622220062084,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_06_07_ARM_L",
+      "volume": 0.02378050978875538,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_06_07_ARM_R",
+      "volume": 0.02378050978875539,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_06_07_FOOT_L",
+      "volume": 0.0015600002351403202,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_06_07_FOOT_R",
+      "volume": 0.0015600002351403206,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_06_07_SUPPORT",
+      "volume": 0.009120001006722469,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_06_08_BACK",
+      "volume": 0.03534876173597112,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_06_08_PAN",
+      "volume": 0.0143622220062084,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_06_08_ARM_L",
+      "volume": 0.02378050978875538,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_06_08_ARM_R",
+      "volume": 0.02378050978875539,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_06_08_FOOT_L",
+      "volume": 0.0015600002351403202,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_06_08_FOOT_R",
+      "volume": 0.0015600002351403206,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_06_08_SUPPORT",
+      "volume": 0.009120001006722469,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_06_09_BACK",
+      "volume": 0.03534876173597112,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_06_09_PAN",
+      "volume": 0.0143622220062084,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_06_09_ARM_L",
+      "volume": 0.02378050978875538,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_06_09_ARM_R",
+      "volume": 0.02378050978875539,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_06_09_FOOT_L",
+      "volume": 0.0015600002351403202,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_06_09_FOOT_R",
+      "volume": 0.0015600002351403206,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_06_09_SUPPORT",
+      "volume": 0.009120001006722469,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_06_10_BACK",
+      "volume": 0.03534876173597112,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_06_10_PAN",
+      "volume": 0.0143622220062084,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_06_10_ARM_L",
+      "volume": 0.02378050978875538,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_06_10_ARM_R",
+      "volume": 0.02378050978875539,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_06_10_FOOT_L",
+      "volume": 0.0015600002351403202,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_06_10_FOOT_R",
+      "volume": 0.0015600002351403206,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_06_10_SUPPORT",
+      "volume": 0.009120001006722469,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_06_11_BACK",
+      "volume": 0.03534876173597112,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_06_11_PAN",
+      "volume": 0.0143622220062084,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_06_11_ARM_L",
+      "volume": 0.02378050978875538,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_06_11_ARM_R",
+      "volume": 0.02378050978875539,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_06_11_FOOT_L",
+      "volume": 0.0015600002351403202,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_06_11_FOOT_R",
+      "volume": 0.0015600002351403206,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_06_11_SUPPORT",
+      "volume": 0.009120001006722469,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_06_12_BACK",
+      "volume": 0.03534876173597112,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_06_12_PAN",
+      "volume": 0.0143622220062084,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_06_12_ARM_L",
+      "volume": 0.02378050978875538,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_06_12_ARM_R",
+      "volume": 0.02378050978875539,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_06_12_FOOT_L",
+      "volume": 0.0015600002351403202,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_06_12_FOOT_R",
+      "volume": 0.0015600002351403206,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_06_12_SUPPORT",
+      "volume": 0.009120001006722469,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_06_13_BACK",
+      "volume": 0.03534876173597112,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_06_13_PAN",
+      "volume": 0.0143622220062084,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_06_13_ARM_L",
+      "volume": 0.02378050978875538,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_06_13_ARM_R",
+      "volume": 0.02378050978875539,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_06_13_FOOT_L",
+      "volume": 0.0015600002351403202,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_06_13_FOOT_R",
+      "volume": 0.0015600002351403206,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_06_13_SUPPORT",
+      "volume": 0.009120001006722469,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_06_14_BACK",
+      "volume": 0.03534876173597112,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_06_14_PAN",
+      "volume": 0.0143622220062084,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_06_14_ARM_L",
+      "volume": 0.02378050978875538,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_06_14_ARM_R",
+      "volume": 0.02378050978875539,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_06_14_FOOT_L",
+      "volume": 0.0015600002351403202,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_06_14_FOOT_R",
+      "volume": 0.0015600002351403206,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_06_14_SUPPORT",
+      "volume": 0.009120001006722469,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_06_15_BACK",
+      "volume": 0.03534876173597112,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_06_15_PAN",
+      "volume": 0.0143622220062084,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_06_15_ARM_L",
+      "volume": 0.02378050978875538,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_06_15_ARM_R",
+      "volume": 0.02378050978875539,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_06_15_FOOT_L",
+      "volume": 0.0015600002351403202,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_06_15_FOOT_R",
+      "volume": 0.0015600002351403206,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_06_15_SUPPORT",
+      "volume": 0.009120001006722469,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_06_16_BACK",
+      "volume": 0.03534876173597112,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_06_16_PAN",
+      "volume": 0.0143622220062084,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_06_16_ARM_L",
+      "volume": 0.02378050978875538,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_06_16_ARM_R",
+      "volume": 0.02378050978875539,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_06_16_FOOT_L",
+      "volume": 0.0015600002351403202,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_06_16_FOOT_R",
+      "volume": 0.0015600002351403206,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_06_16_SUPPORT",
+      "volume": 0.009120001006722469,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_07_01_BACK",
+      "volume": 0.03534876173597112,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_07_01_PAN",
+      "volume": 0.0143622220062084,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_07_01_ARM_L",
+      "volume": 0.02378050978875538,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_07_01_ARM_R",
+      "volume": 0.02378050978875539,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_07_01_FOOT_L",
+      "volume": 0.0015600002351403202,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_07_01_FOOT_R",
+      "volume": 0.0015600002351403206,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_07_01_SUPPORT",
+      "volume": 0.009120001006722469,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_07_02_BACK",
+      "volume": 0.03534876173597112,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_07_02_PAN",
+      "volume": 0.0143622220062084,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_07_02_ARM_L",
+      "volume": 0.02378050978875538,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_07_02_ARM_R",
+      "volume": 0.02378050978875539,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_07_02_FOOT_L",
+      "volume": 0.0015600002351403202,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_07_02_FOOT_R",
+      "volume": 0.0015600002351403206,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_07_02_SUPPORT",
+      "volume": 0.009120001006722469,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_07_03_BACK",
+      "volume": 0.03534876173597112,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_07_03_PAN",
+      "volume": 0.0143622220062084,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_07_03_ARM_L",
+      "volume": 0.02378050978875538,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_07_03_ARM_R",
+      "volume": 0.02378050978875539,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_07_03_FOOT_L",
+      "volume": 0.0015600002351403202,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_07_03_FOOT_R",
+      "volume": 0.0015600002351403206,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_07_03_SUPPORT",
+      "volume": 0.009120001006722469,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_07_04_BACK",
+      "volume": 0.03534876173597112,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_07_04_PAN",
+      "volume": 0.0143622220062084,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_07_04_ARM_L",
+      "volume": 0.02378050978875538,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_07_04_ARM_R",
+      "volume": 0.02378050978875539,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_07_04_FOOT_L",
+      "volume": 0.0015600002351403202,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_07_04_FOOT_R",
+      "volume": 0.0015600002351403206,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_07_04_SUPPORT",
+      "volume": 0.009120001006722469,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_07_05_BACK",
+      "volume": 0.03534876173597112,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_07_05_PAN",
+      "volume": 0.0143622220062084,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_07_05_ARM_L",
+      "volume": 0.02378050978875538,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_07_05_ARM_R",
+      "volume": 0.02378050978875539,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_07_05_FOOT_L",
+      "volume": 0.0015600002351403202,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_07_05_FOOT_R",
+      "volume": 0.0015600002351403206,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_07_05_SUPPORT",
+      "volume": 0.009120001006722469,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_07_06_BACK",
+      "volume": 0.03534876173597112,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_07_06_PAN",
+      "volume": 0.0143622220062084,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_07_06_ARM_L",
+      "volume": 0.02378050978875538,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_07_06_ARM_R",
+      "volume": 0.02378050978875539,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_07_06_FOOT_L",
+      "volume": 0.0015600002351403202,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_07_06_FOOT_R",
+      "volume": 0.0015600002351403206,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_07_06_SUPPORT",
+      "volume": 0.009120001006722469,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_07_07_BACK",
+      "volume": 0.03534876173597112,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_07_07_PAN",
+      "volume": 0.0143622220062084,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_07_07_ARM_L",
+      "volume": 0.02378050978875538,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_07_07_ARM_R",
+      "volume": 0.02378050978875539,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_07_07_FOOT_L",
+      "volume": 0.0015600002351403202,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_07_07_FOOT_R",
+      "volume": 0.0015600002351403206,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_07_07_SUPPORT",
+      "volume": 0.009120001006722469,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_07_08_BACK",
+      "volume": 0.03534876173597112,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_07_08_PAN",
+      "volume": 0.0143622220062084,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_07_08_ARM_L",
+      "volume": 0.02378050978875538,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_07_08_ARM_R",
+      "volume": 0.02378050978875539,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_07_08_FOOT_L",
+      "volume": 0.0015600002351403202,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_07_08_FOOT_R",
+      "volume": 0.0015600002351403206,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_07_08_SUPPORT",
+      "volume": 0.009120001006722469,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_07_09_BACK",
+      "volume": 0.03534876173597112,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_07_09_PAN",
+      "volume": 0.0143622220062084,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_07_09_ARM_L",
+      "volume": 0.02378050978875538,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_07_09_ARM_R",
+      "volume": 0.02378050978875539,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_07_09_FOOT_L",
+      "volume": 0.0015600002351403202,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_07_09_FOOT_R",
+      "volume": 0.0015600002351403206,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_07_09_SUPPORT",
+      "volume": 0.009120001006722469,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_07_10_BACK",
+      "volume": 0.03534876173597112,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_07_10_PAN",
+      "volume": 0.0143622220062084,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_07_10_ARM_L",
+      "volume": 0.02378050978875538,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_07_10_ARM_R",
+      "volume": 0.02378050978875539,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_07_10_FOOT_L",
+      "volume": 0.0015600002351403202,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_07_10_FOOT_R",
+      "volume": 0.0015600002351403206,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_07_10_SUPPORT",
+      "volume": 0.009120001006722469,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_07_11_BACK",
+      "volume": 0.03534876173597112,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_07_11_PAN",
+      "volume": 0.0143622220062084,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_07_11_ARM_L",
+      "volume": 0.02378050978875538,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_07_11_ARM_R",
+      "volume": 0.02378050978875539,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_07_11_FOOT_L",
+      "volume": 0.0015600002351403202,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_07_11_FOOT_R",
+      "volume": 0.0015600002351403206,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_07_11_SUPPORT",
+      "volume": 0.009120001006722469,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_07_12_BACK",
+      "volume": 0.03534876173597112,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_07_12_PAN",
+      "volume": 0.0143622220062084,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_07_12_ARM_L",
+      "volume": 0.02378050978875538,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_07_12_ARM_R",
+      "volume": 0.02378050978875539,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_07_12_FOOT_L",
+      "volume": 0.0015600002351403202,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_07_12_FOOT_R",
+      "volume": 0.0015600002351403206,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_07_12_SUPPORT",
+      "volume": 0.009120001006722469,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_07_13_BACK",
+      "volume": 0.03534876173597112,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_07_13_PAN",
+      "volume": 0.0143622220062084,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_07_13_ARM_L",
+      "volume": 0.02378050978875538,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_07_13_ARM_R",
+      "volume": 0.02378050978875539,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_07_13_FOOT_L",
+      "volume": 0.0015600002351403202,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_07_13_FOOT_R",
+      "volume": 0.0015600002351403206,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_07_13_SUPPORT",
+      "volume": 0.009120001006722469,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_07_14_BACK",
+      "volume": 0.03534876173597112,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_07_14_PAN",
+      "volume": 0.0143622220062084,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_07_14_ARM_L",
+      "volume": 0.02378050978875538,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_07_14_ARM_R",
+      "volume": 0.02378050978875539,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_07_14_FOOT_L",
+      "volume": 0.0015600002351403202,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_07_14_FOOT_R",
+      "volume": 0.0015600002351403206,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_07_14_SUPPORT",
+      "volume": 0.009120001006722469,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_07_15_BACK",
+      "volume": 0.03534876173597112,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_07_15_PAN",
+      "volume": 0.0143622220062084,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_07_15_ARM_L",
+      "volume": 0.02378050978875538,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_07_15_ARM_R",
+      "volume": 0.02378050978875539,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_07_15_FOOT_L",
+      "volume": 0.0015600002351403202,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_07_15_FOOT_R",
+      "volume": 0.0015600002351403206,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_07_15_SUPPORT",
+      "volume": 0.009120001006722469,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_07_16_BACK",
+      "volume": 0.03534876173597112,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_07_16_PAN",
+      "volume": 0.0143622220062084,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_07_16_ARM_L",
+      "volume": 0.02378050978875538,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_07_16_ARM_R",
+      "volume": 0.02378050978875539,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_07_16_FOOT_L",
+      "volume": 0.0015600002351403202,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_07_16_FOOT_R",
+      "volume": 0.0015600002351403206,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_07_16_SUPPORT",
+      "volume": 0.009120001006722469,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_08_01_BACK",
+      "volume": 0.03534876173597112,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_08_01_PAN",
+      "volume": 0.0143622220062084,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_08_01_ARM_L",
+      "volume": 0.02378050978875538,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_08_01_ARM_R",
+      "volume": 0.02378050978875539,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_08_01_FOOT_L",
+      "volume": 0.0015600002351403202,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_08_01_FOOT_R",
+      "volume": 0.0015600002351403206,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_08_01_SUPPORT",
+      "volume": 0.009120001006722469,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_08_02_BACK",
+      "volume": 0.03534876173597112,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_08_02_PAN",
+      "volume": 0.0143622220062084,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_08_02_ARM_L",
+      "volume": 0.02378050978875538,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_08_02_ARM_R",
+      "volume": 0.02378050978875539,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_08_02_FOOT_L",
+      "volume": 0.0015600002351403202,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_08_02_FOOT_R",
+      "volume": 0.0015600002351403206,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_08_02_SUPPORT",
+      "volume": 0.009120001006722469,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_08_03_BACK",
+      "volume": 0.03534876173597112,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_08_03_PAN",
+      "volume": 0.0143622220062084,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_08_03_ARM_L",
+      "volume": 0.02378050978875538,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_08_03_ARM_R",
+      "volume": 0.02378050978875539,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_08_03_FOOT_L",
+      "volume": 0.0015600002351403202,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_08_03_FOOT_R",
+      "volume": 0.0015600002351403206,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_08_03_SUPPORT",
+      "volume": 0.009120001006722469,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_08_04_BACK",
+      "volume": 0.03534876173597112,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_08_04_PAN",
+      "volume": 0.0143622220062084,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_08_04_ARM_L",
+      "volume": 0.02378050978875538,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_08_04_ARM_R",
+      "volume": 0.02378050978875539,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_08_04_FOOT_L",
+      "volume": 0.0015600002351403202,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_08_04_FOOT_R",
+      "volume": 0.0015600002351403206,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_08_04_SUPPORT",
+      "volume": 0.009120001006722469,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_08_05_BACK",
+      "volume": 0.03534876173597112,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_08_05_PAN",
+      "volume": 0.0143622220062084,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_08_05_ARM_L",
+      "volume": 0.02378050978875538,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_08_05_ARM_R",
+      "volume": 0.02378050978875539,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_08_05_FOOT_L",
+      "volume": 0.0015600002351403202,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_08_05_FOOT_R",
+      "volume": 0.0015600002351403206,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_08_05_SUPPORT",
+      "volume": 0.009120001006722469,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_08_06_BACK",
+      "volume": 0.03534876173597112,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_08_06_PAN",
+      "volume": 0.0143622220062084,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_08_06_ARM_L",
+      "volume": 0.02378050978875538,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_08_06_ARM_R",
+      "volume": 0.02378050978875539,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_08_06_FOOT_L",
+      "volume": 0.0015600002351403202,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_08_06_FOOT_R",
+      "volume": 0.0015600002351403206,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_08_06_SUPPORT",
+      "volume": 0.009120001006722469,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_08_07_BACK",
+      "volume": 0.03534876173597112,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_08_07_PAN",
+      "volume": 0.0143622220062084,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_08_07_ARM_L",
+      "volume": 0.02378050978875538,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_08_07_ARM_R",
+      "volume": 0.02378050978875539,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_08_07_FOOT_L",
+      "volume": 0.0015600002351403202,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_08_07_FOOT_R",
+      "volume": 0.0015600002351403206,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_08_07_SUPPORT",
+      "volume": 0.009120001006722469,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_08_08_BACK",
+      "volume": 0.03534876173597112,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_08_08_PAN",
+      "volume": 0.0143622220062084,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_08_08_ARM_L",
+      "volume": 0.02378050978875538,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_08_08_ARM_R",
+      "volume": 0.02378050978875539,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_08_08_FOOT_L",
+      "volume": 0.0015600002351403202,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_08_08_FOOT_R",
+      "volume": 0.0015600002351403206,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_08_08_SUPPORT",
+      "volume": 0.009120001006722469,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_08_09_BACK",
+      "volume": 0.03534876173597112,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_08_09_PAN",
+      "volume": 0.0143622220062084,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_08_09_ARM_L",
+      "volume": 0.02378050978875538,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_08_09_ARM_R",
+      "volume": 0.02378050978875539,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_08_09_FOOT_L",
+      "volume": 0.0015600002351403202,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_08_09_FOOT_R",
+      "volume": 0.0015600002351403206,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_08_09_SUPPORT",
+      "volume": 0.009120001006722469,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_08_10_BACK",
+      "volume": 0.03534876173597112,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_08_10_PAN",
+      "volume": 0.0143622220062084,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_08_10_ARM_L",
+      "volume": 0.02378050978875538,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_08_10_ARM_R",
+      "volume": 0.02378050978875539,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_08_10_FOOT_L",
+      "volume": 0.0015600002351403202,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_08_10_FOOT_R",
+      "volume": 0.0015600002351403206,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_08_10_SUPPORT",
+      "volume": 0.009120001006722469,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_08_11_BACK",
+      "volume": 0.03534876173597112,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_08_11_PAN",
+      "volume": 0.0143622220062084,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_08_11_ARM_L",
+      "volume": 0.02378050978875538,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_08_11_ARM_R",
+      "volume": 0.02378050978875539,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_08_11_FOOT_L",
+      "volume": 0.0015600002351403202,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_08_11_FOOT_R",
+      "volume": 0.0015600002351403206,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_08_11_SUPPORT",
+      "volume": 0.009120001006722469,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_08_12_BACK",
+      "volume": 0.03534876173597112,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_08_12_PAN",
+      "volume": 0.0143622220062084,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_08_12_ARM_L",
+      "volume": 0.02378050978875538,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_08_12_ARM_R",
+      "volume": 0.02378050978875539,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_08_12_FOOT_L",
+      "volume": 0.0015600002351403202,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_08_12_FOOT_R",
+      "volume": 0.0015600002351403206,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_08_12_SUPPORT",
+      "volume": 0.009120001006722469,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_08_13_BACK",
+      "volume": 0.03534876173597112,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_08_13_PAN",
+      "volume": 0.0143622220062084,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_08_13_ARM_L",
+      "volume": 0.02378050978875538,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_08_13_ARM_R",
+      "volume": 0.02378050978875539,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_08_13_FOOT_L",
+      "volume": 0.0015600002351403202,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_08_13_FOOT_R",
+      "volume": 0.0015600002351403206,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_08_13_SUPPORT",
+      "volume": 0.009120001006722469,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_08_14_BACK",
+      "volume": 0.03534876173597112,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_08_14_PAN",
+      "volume": 0.0143622220062084,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_08_14_ARM_L",
+      "volume": 0.02378050978875538,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_08_14_ARM_R",
+      "volume": 0.02378050978875539,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_08_14_FOOT_L",
+      "volume": 0.0015600002351403202,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_08_14_FOOT_R",
+      "volume": 0.0015600002351403206,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_08_14_SUPPORT",
+      "volume": 0.009120001006722469,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_08_15_BACK",
+      "volume": 0.03534876173597112,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_08_15_PAN",
+      "volume": 0.0143622220062084,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_08_15_ARM_L",
+      "volume": 0.02378050978875538,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_08_15_ARM_R",
+      "volume": 0.02378050978875539,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_08_15_FOOT_L",
+      "volume": 0.0015600002351403202,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_08_15_FOOT_R",
+      "volume": 0.0015600002351403206,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_08_15_SUPPORT",
+      "volume": 0.009120001006722469,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_08_16_BACK",
+      "volume": 0.03534876173597112,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_08_16_PAN",
+      "volume": 0.0143622220062084,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_08_16_ARM_L",
+      "volume": 0.02378050978875538,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_08_16_ARM_R",
+      "volume": 0.02378050978875539,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_08_16_FOOT_L",
+      "volume": 0.0015600002351403202,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_08_16_FOOT_R",
+      "volume": 0.0015600002351403206,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R20_SEAT_08_16_SUPPORT",
+      "volume": 0.009120001006722469,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    }
+  ],
+  "seat_support_and_head": [
+    {
+      "id": "R20_SEAT_01_01",
+      "hits": [
+        "R19_TIER_01"
+      ],
+      "head_obstructions": []
+    },
+    {
+      "id": "R20_SEAT_01_02",
+      "hits": [
+        "R19_TIER_01"
+      ],
+      "head_obstructions": []
+    },
+    {
+      "id": "R20_SEAT_01_03",
+      "hits": [
+        "R19_TIER_01"
+      ],
+      "head_obstructions": []
+    },
+    {
+      "id": "R20_SEAT_01_04",
+      "hits": [
+        "R19_TIER_01"
+      ],
+      "head_obstructions": []
+    },
+    {
+      "id": "R20_SEAT_01_05",
+      "hits": [
+        "R19_TIER_01"
+      ],
+      "head_obstructions": []
+    },
+    {
+      "id": "R20_SEAT_01_06",
+      "hits": [
+        "R19_TIER_01"
+      ],
+      "head_obstructions": []
+    },
+    {
+      "id": "R20_SEAT_01_07",
+      "hits": [
+        "R19_TIER_01"
+      ],
+      "head_obstructions": []
+    },
+    {
+      "id": "R20_SEAT_01_08",
+      "hits": [
+        "R19_TIER_01"
+      ],
+      "head_obstructions": []
+    },
+    {
+      "id": "R20_SEAT_01_09",
+      "hits": [
+        "R19_TIER_01"
+      ],
+      "head_obstructions": []
+    },
+    {
+      "id": "R20_SEAT_01_10",
+      "hits": [
+        "R19_TIER_01"
+      ],
+      "head_obstructions": []
+    },
+    {
+      "id": "R20_SEAT_01_11",
+      "hits": [
+        "R19_TIER_01"
+      ],
+      "head_obstructions": []
+    },
+    {
+      "id": "R20_SEAT_01_12",
+      "hits": [
+        "R19_TIER_01"
+      ],
+      "head_obstructions": []
+    },
+    {
+      "id": "R20_SEAT_01_13",
+      "hits": [
+        "R19_TIER_01"
+      ],
+      "head_obstructions": []
+    },
+    {
+      "id": "R20_SEAT_01_14",
+      "hits": [
+        "R19_TIER_01"
+      ],
+      "head_obstructions": []
+    },
+    {
+      "id": "R20_SEAT_01_15",
+      "hits": [
+        "R19_TIER_01"
+      ],
+      "head_obstructions": []
+    },
+    {
+      "id": "R20_SEAT_01_16",
+      "hits": [
+        "R19_TIER_01"
+      ],
+      "head_obstructions": []
+    },
+    {
+      "id": "R20_SEAT_02_01",
+      "hits": [
+        "R19_TIER_02"
+      ],
+      "head_obstructions": []
+    },
+    {
+      "id": "R20_SEAT_02_02",
+      "hits": [
+        "R19_TIER_02"
+      ],
+      "head_obstructions": []
+    },
+    {
+      "id": "R20_SEAT_02_03",
+      "hits": [
+        "R19_TIER_02"
+      ],
+      "head_obstructions": []
+    },
+    {
+      "id": "R20_SEAT_02_04",
+      "hits": [
+        "R19_TIER_02"
+      ],
+      "head_obstructions": []
+    },
+    {
+      "id": "R20_SEAT_02_05",
+      "hits": [
+        "R19_TIER_02"
+      ],
+      "head_obstructions": []
+    },
+    {
+      "id": "R20_SEAT_02_06",
+      "hits": [
+        "R19_TIER_02"
+      ],
+      "head_obstructions": []
+    },
+    {
+      "id": "R20_SEAT_02_07",
+      "hits": [
+        "R19_TIER_02"
+      ],
+      "head_obstructions": []
+    },
+    {
+      "id": "R20_SEAT_02_08",
+      "hits": [
+        "R19_TIER_02"
+      ],
+      "head_obstructions": []
+    },
+    {
+      "id": "R20_SEAT_02_09",
+      "hits": [
+        "R19_TIER_02"
+      ],
+      "head_obstructions": []
+    },
+    {
+      "id": "R20_SEAT_02_10",
+      "hits": [
+        "R19_TIER_02"
+      ],
+      "head_obstructions": []
+    },
+    {
+      "id": "R20_SEAT_02_11",
+      "hits": [
+        "R19_TIER_02"
+      ],
+      "head_obstructions": []
+    },
+    {
+      "id": "R20_SEAT_02_12",
+      "hits": [
+        "R19_TIER_02"
+      ],
+      "head_obstructions": []
+    },
+    {
+      "id": "R20_SEAT_02_13",
+      "hits": [
+        "R19_TIER_02"
+      ],
+      "head_obstructions": []
+    },
+    {
+      "id": "R20_SEAT_02_14",
+      "hits": [
+        "R19_TIER_02"
+      ],
+      "head_obstructions": []
+    },
+    {
+      "id": "R20_SEAT_02_15",
+      "hits": [
+        "R19_TIER_02"
+      ],
+      "head_obstructions": []
+    },
+    {
+      "id": "R20_SEAT_02_16",
+      "hits": [
+        "R19_TIER_02"
+      ],
+      "head_obstructions": []
+    },
+    {
+      "id": "R20_SEAT_03_01",
+      "hits": [
+        "R19_TIER_03"
+      ],
+      "head_obstructions": []
+    },
+    {
+      "id": "R20_SEAT_03_02",
+      "hits": [
+        "R19_TIER_03"
+      ],
+      "head_obstructions": []
+    },
+    {
+      "id": "R20_SEAT_03_03",
+      "hits": [
+        "R19_TIER_03"
+      ],
+      "head_obstructions": []
+    },
+    {
+      "id": "R20_SEAT_03_04",
+      "hits": [
+        "R19_TIER_03"
+      ],
+      "head_obstructions": []
+    },
+    {
+      "id": "R20_SEAT_03_05",
+      "hits": [
+        "R19_TIER_03"
+      ],
+      "head_obstructions": []
+    },
+    {
+      "id": "R20_SEAT_03_06",
+      "hits": [
+        "R19_TIER_03"
+      ],
+      "head_obstructions": []
+    },
+    {
+      "id": "R20_SEAT_03_07",
+      "hits": [
+        "R19_TIER_03"
+      ],
+      "head_obstructions": []
+    },
+    {
+      "id": "R20_SEAT_03_08",
+      "hits": [
+        "R19_TIER_03"
+      ],
+      "head_obstructions": []
+    },
+    {
+      "id": "R20_SEAT_03_09",
+      "hits": [
+        "R19_TIER_03"
+      ],
+      "head_obstructions": []
+    },
+    {
+      "id": "R20_SEAT_03_10",
+      "hits": [
+        "R19_TIER_03"
+      ],
+      "head_obstructions": []
+    },
+    {
+      "id": "R20_SEAT_03_11",
+      "hits": [
+        "R19_TIER_03"
+      ],
+      "head_obstructions": []
+    },
+    {
+      "id": "R20_SEAT_03_12",
+      "hits": [
+        "R19_TIER_03"
+      ],
+      "head_obstructions": []
+    },
+    {
+      "id": "R20_SEAT_03_13",
+      "hits": [
+        "R19_TIER_03"
+      ],
+      "head_obstructions": []
+    },
+    {
+      "id": "R20_SEAT_03_14",
+      "hits": [
+        "R19_TIER_03"
+      ],
+      "head_obstructions": []
+    },
+    {
+      "id": "R20_SEAT_03_15",
+      "hits": [
+        "R19_TIER_03"
+      ],
+      "head_obstructions": []
+    },
+    {
+      "id": "R20_SEAT_03_16",
+      "hits": [
+        "R19_TIER_03"
+      ],
+      "head_obstructions": []
+    },
+    {
+      "id": "R20_SEAT_04_01",
+      "hits": [
+        "R19_TIER_04"
+      ],
+      "head_obstructions": []
+    },
+    {
+      "id": "R20_SEAT_04_02",
+      "hits": [
+        "R19_TIER_04"
+      ],
+      "head_obstructions": []
+    },
+    {
+      "id": "R20_SEAT_04_03",
+      "hits": [
+        "R19_TIER_04"
+      ],
+      "head_obstructions": []
+    },
+    {
+      "id": "R20_SEAT_04_04",
+      "hits": [
+        "R19_TIER_04"
+      ],
+      "head_obstructions": []
+    },
+    {
+      "id": "R20_SEAT_04_05",
+      "hits": [
+        "R19_TIER_04"
+      ],
+      "head_obstructions": []
+    },
+    {
+      "id": "R20_SEAT_04_06",
+      "hits": [
+        "R19_TIER_04"
+      ],
+      "head_obstructions": []
+    },
+    {
+      "id": "R20_SEAT_04_07",
+      "hits": [
+        "R19_TIER_04"
+      ],
+      "head_obstructions": []
+    },
+    {
+      "id": "R20_SEAT_04_08",
+      "hits": [
+        "R19_TIER_04"
+      ],
+      "head_obstructions": []
+    },
+    {
+      "id": "R20_SEAT_04_09",
+      "hits": [
+        "R19_TIER_04"
+      ],
+      "head_obstructions": []
+    },
+    {
+      "id": "R20_SEAT_04_10",
+      "hits": [
+        "R19_TIER_04"
+      ],
+      "head_obstructions": []
+    },
+    {
+      "id": "R20_SEAT_04_11",
+      "hits": [
+        "R19_TIER_04"
+      ],
+      "head_obstructions": []
+    },
+    {
+      "id": "R20_SEAT_04_12",
+      "hits": [
+        "R19_TIER_04"
+      ],
+      "head_obstructions": []
+    },
+    {
+      "id": "R20_SEAT_04_13",
+      "hits": [
+        "R19_TIER_04"
+      ],
+      "head_obstructions": []
+    },
+    {
+      "id": "R20_SEAT_04_14",
+      "hits": [
+        "R19_TIER_04"
+      ],
+      "head_obstructions": []
+    },
+    {
+      "id": "R20_SEAT_04_15",
+      "hits": [
+        "R19_TIER_04"
+      ],
+      "head_obstructions": []
+    },
+    {
+      "id": "R20_SEAT_04_16",
+      "hits": [
+        "R19_TIER_04"
+      ],
+      "head_obstructions": []
+    },
+    {
+      "id": "R20_SEAT_05_01",
+      "hits": [
+        "R19_TIER_05"
+      ],
+      "head_obstructions": []
+    },
+    {
+      "id": "R20_SEAT_05_02",
+      "hits": [
+        "R19_TIER_05"
+      ],
+      "head_obstructions": []
+    },
+    {
+      "id": "R20_SEAT_05_03",
+      "hits": [
+        "R19_TIER_05"
+      ],
+      "head_obstructions": []
+    },
+    {
+      "id": "R20_SEAT_05_04",
+      "hits": [
+        "R19_TIER_05"
+      ],
+      "head_obstructions": []
+    },
+    {
+      "id": "R20_SEAT_05_05",
+      "hits": [
+        "R19_TIER_05"
+      ],
+      "head_obstructions": []
+    },
+    {
+      "id": "R20_SEAT_05_06",
+      "hits": [
+        "R19_TIER_05"
+      ],
+      "head_obstructions": []
+    },
+    {
+      "id": "R20_SEAT_05_07",
+      "hits": [
+        "R19_TIER_05"
+      ],
+      "head_obstructions": []
+    },
+    {
+      "id": "R20_SEAT_05_08",
+      "hits": [
+        "R19_TIER_05"
+      ],
+      "head_obstructions": []
+    },
+    {
+      "id": "R20_SEAT_05_09",
+      "hits": [
+        "R19_TIER_05"
+      ],
+      "head_obstructions": []
+    },
+    {
+      "id": "R20_SEAT_05_10",
+      "hits": [
+        "R19_TIER_05"
+      ],
+      "head_obstructions": []
+    },
+    {
+      "id": "R20_SEAT_05_11",
+      "hits": [
+        "R19_TIER_05"
+      ],
+      "head_obstructions": []
+    },
+    {
+      "id": "R20_SEAT_05_12",
+      "hits": [
+        "R19_TIER_05"
+      ],
+      "head_obstructions": []
+    },
+    {
+      "id": "R20_SEAT_05_13",
+      "hits": [
+        "R19_TIER_05"
+      ],
+      "head_obstructions": []
+    },
+    {
+      "id": "R20_SEAT_05_14",
+      "hits": [
+        "R19_TIER_05"
+      ],
+      "head_obstructions": []
+    },
+    {
+      "id": "R20_SEAT_05_15",
+      "hits": [
+        "R19_TIER_05"
+      ],
+      "head_obstructions": []
+    },
+    {
+      "id": "R20_SEAT_05_16",
+      "hits": [
+        "R19_TIER_05"
+      ],
+      "head_obstructions": []
+    },
+    {
+      "id": "R20_SEAT_06_01",
+      "hits": [
+        "R19_TIER_06"
+      ],
+      "head_obstructions": []
+    },
+    {
+      "id": "R20_SEAT_06_02",
+      "hits": [
+        "R19_TIER_06"
+      ],
+      "head_obstructions": []
+    },
+    {
+      "id": "R20_SEAT_06_03",
+      "hits": [
+        "R19_TIER_06"
+      ],
+      "head_obstructions": []
+    },
+    {
+      "id": "R20_SEAT_06_04",
+      "hits": [
+        "R19_TIER_06"
+      ],
+      "head_obstructions": []
+    },
+    {
+      "id": "R20_SEAT_06_05",
+      "hits": [
+        "R19_TIER_06"
+      ],
+      "head_obstructions": []
+    },
+    {
+      "id": "R20_SEAT_06_06",
+      "hits": [
+        "R19_TIER_06"
+      ],
+      "head_obstructions": []
+    },
+    {
+      "id": "R20_SEAT_06_07",
+      "hits": [
+        "R19_TIER_06"
+      ],
+      "head_obstructions": []
+    },
+    {
+      "id": "R20_SEAT_06_08",
+      "hits": [
+        "R19_TIER_06"
+      ],
+      "head_obstructions": []
+    },
+    {
+      "id": "R20_SEAT_06_09",
+      "hits": [
+        "R19_TIER_06"
+      ],
+      "head_obstructions": []
+    },
+    {
+      "id": "R20_SEAT_06_10",
+      "hits": [
+        "R19_TIER_06"
+      ],
+      "head_obstructions": []
+    },
+    {
+      "id": "R20_SEAT_06_11",
+      "hits": [
+        "R19_TIER_06"
+      ],
+      "head_obstructions": []
+    },
+    {
+      "id": "R20_SEAT_06_12",
+      "hits": [
+        "R19_TIER_06"
+      ],
+      "head_obstructions": []
+    },
+    {
+      "id": "R20_SEAT_06_13",
+      "hits": [
+        "R19_TIER_06"
+      ],
+      "head_obstructions": []
+    },
+    {
+      "id": "R20_SEAT_06_14",
+      "hits": [
+        "R19_TIER_06"
+      ],
+      "head_obstructions": []
+    },
+    {
+      "id": "R20_SEAT_06_15",
+      "hits": [
+        "R19_TIER_06"
+      ],
+      "head_obstructions": []
+    },
+    {
+      "id": "R20_SEAT_06_16",
+      "hits": [
+        "R19_TIER_06"
+      ],
+      "head_obstructions": []
+    },
+    {
+      "id": "R20_SEAT_07_01",
+      "hits": [
+        "R19_TIER_07"
+      ],
+      "head_obstructions": []
+    },
+    {
+      "id": "R20_SEAT_07_02",
+      "hits": [
+        "R19_TIER_07"
+      ],
+      "head_obstructions": []
+    },
+    {
+      "id": "R20_SEAT_07_03",
+      "hits": [
+        "R19_TIER_07"
+      ],
+      "head_obstructions": []
+    },
+    {
+      "id": "R20_SEAT_07_04",
+      "hits": [
+        "R19_TIER_07"
+      ],
+      "head_obstructions": []
+    },
+    {
+      "id": "R20_SEAT_07_05",
+      "hits": [
+        "R19_TIER_07"
+      ],
+      "head_obstructions": []
+    },
+    {
+      "id": "R20_SEAT_07_06",
+      "hits": [
+        "R19_TIER_07"
+      ],
+      "head_obstructions": []
+    },
+    {
+      "id": "R20_SEAT_07_07",
+      "hits": [
+        "R19_TIER_07"
+      ],
+      "head_obstructions": []
+    },
+    {
+      "id": "R20_SEAT_07_08",
+      "hits": [
+        "R19_TIER_07"
+      ],
+      "head_obstructions": []
+    },
+    {
+      "id": "R20_SEAT_07_09",
+      "hits": [
+        "R19_TIER_07"
+      ],
+      "head_obstructions": []
+    },
+    {
+      "id": "R20_SEAT_07_10",
+      "hits": [
+        "R19_TIER_07"
+      ],
+      "head_obstructions": []
+    },
+    {
+      "id": "R20_SEAT_07_11",
+      "hits": [
+        "R19_TIER_07"
+      ],
+      "head_obstructions": []
+    },
+    {
+      "id": "R20_SEAT_07_12",
+      "hits": [
+        "R19_TIER_07"
+      ],
+      "head_obstructions": []
+    },
+    {
+      "id": "R20_SEAT_07_13",
+      "hits": [
+        "R19_TIER_07"
+      ],
+      "head_obstructions": []
+    },
+    {
+      "id": "R20_SEAT_07_14",
+      "hits": [
+        "R19_TIER_07"
+      ],
+      "head_obstructions": []
+    },
+    {
+      "id": "R20_SEAT_07_15",
+      "hits": [
+        "R19_TIER_07"
+      ],
+      "head_obstructions": []
+    },
+    {
+      "id": "R20_SEAT_07_16",
+      "hits": [
+        "R19_TIER_07"
+      ],
+      "head_obstructions": []
+    },
+    {
+      "id": "R20_SEAT_08_01",
+      "hits": [
+        "R19_TIER_08"
+      ],
+      "head_obstructions": []
+    },
+    {
+      "id": "R20_SEAT_08_02",
+      "hits": [
+        "R19_TIER_08"
+      ],
+      "head_obstructions": []
+    },
+    {
+      "id": "R20_SEAT_08_03",
+      "hits": [
+        "R19_TIER_08"
+      ],
+      "head_obstructions": []
+    },
+    {
+      "id": "R20_SEAT_08_04",
+      "hits": [
+        "R19_TIER_08"
+      ],
+      "head_obstructions": []
+    },
+    {
+      "id": "R20_SEAT_08_05",
+      "hits": [
+        "R19_TIER_08"
+      ],
+      "head_obstructions": []
+    },
+    {
+      "id": "R20_SEAT_08_06",
+      "hits": [
+        "R19_TIER_08"
+      ],
+      "head_obstructions": []
+    },
+    {
+      "id": "R20_SEAT_08_07",
+      "hits": [
+        "R19_TIER_08"
+      ],
+      "head_obstructions": []
+    },
+    {
+      "id": "R20_SEAT_08_08",
+      "hits": [
+        "R19_TIER_08"
+      ],
+      "head_obstructions": []
+    },
+    {
+      "id": "R20_SEAT_08_09",
+      "hits": [
+        "R19_TIER_08"
+      ],
+      "head_obstructions": []
+    },
+    {
+      "id": "R20_SEAT_08_10",
+      "hits": [
+        "R19_TIER_08"
+      ],
+      "head_obstructions": []
+    },
+    {
+      "id": "R20_SEAT_08_11",
+      "hits": [
+        "R19_TIER_08"
+      ],
+      "head_obstructions": []
+    },
+    {
+      "id": "R20_SEAT_08_12",
+      "hits": [
+        "R19_TIER_08"
+      ],
+      "head_obstructions": []
+    },
+    {
+      "id": "R20_SEAT_08_13",
+      "hits": [
+        "R19_TIER_08"
+      ],
+      "head_obstructions": []
+    },
+    {
+      "id": "R20_SEAT_08_14",
+      "hits": [
+        "R19_TIER_08"
+      ],
+      "head_obstructions": []
+    },
+    {
+      "id": "R20_SEAT_08_15",
+      "hits": [
+        "R19_TIER_08"
+      ],
+      "head_obstructions": []
+    },
+    {
+      "id": "R20_SEAT_08_16",
+      "hits": [
+        "R19_TIER_08"
+      ],
+      "head_obstructions": []
+    }
+  ],
+  "aisle_and_entry_rays": [
+    {
+      "x": 475,
+      "y": 443.0,
+      "hits": []
+    },
+    {
+      "x": 475,
+      "y": 447.0,
+      "hits": []
+    },
+    {
+      "x": 475,
+      "y": 451.0,
+      "hits": []
+    },
+    {
+      "x": 475,
+      "y": 455.0,
+      "hits": []
+    },
+    {
+      "x": 475,
+      "y": 459.0,
+      "hits": []
+    },
+    {
+      "x": 475,
+      "y": 463.0,
+      "hits": []
+    },
+    {
+      "x": 475,
+      "y": 467.0,
+      "hits": []
+    },
+    {
+      "x": 475,
+      "y": 471.0,
+      "hits": []
+    },
+    {
+      "x": 475,
+      "y": 475.0,
+      "hits": []
+    },
+    {
+      "x": 475,
+      "y": 479.0,
+      "hits": []
+    },
+    {
+      "x": 475,
+      "y": 483.0,
+      "hits": []
+    },
+    {
+      "x": 475,
+      "y": 487.0,
+      "hits": []
+    },
+    {
+      "x": 475,
+      "y": 491.0,
+      "hits": []
+    },
+    {
+      "x": 475,
+      "y": 495.0,
+      "hits": []
+    },
+    {
+      "x": 475,
+      "y": 499.0,
+      "hits": []
+    },
+    {
+      "x": 475,
+      "y": 503.0,
+      "hits": []
+    },
+    {
+      "x": 570,
+      "y": 443.0,
+      "hits": []
+    },
+    {
+      "x": 570,
+      "y": 447.0,
+      "hits": []
+    },
+    {
+      "x": 570,
+      "y": 451.0,
+      "hits": []
+    },
+    {
+      "x": 570,
+      "y": 455.0,
+      "hits": []
+    },
+    {
+      "x": 570,
+      "y": 459.0,
+      "hits": []
+    },
+    {
+      "x": 570,
+      "y": 463.0,
+      "hits": []
+    },
+    {
+      "x": 570,
+      "y": 467.0,
+      "hits": []
+    },
+    {
+      "x": 570,
+      "y": 471.0,
+      "hits": []
+    },
+    {
+      "x": 570,
+      "y": 475.0,
+      "hits": []
+    },
+    {
+      "x": 570,
+      "y": 479.0,
+      "hits": []
+    },
+    {
+      "x": 570,
+      "y": 483.0,
+      "hits": []
+    },
+    {
+      "x": 570,
+      "y": 487.0,
+      "hits": []
+    },
+    {
+      "x": 570,
+      "y": 491.0,
+      "hits": []
+    },
+    {
+      "x": 570,
+      "y": 495.0,
+      "hits": []
+    },
+    {
+      "x": 570,
+      "y": 499.0,
+      "hits": []
+    },
+    {
+      "x": 570,
+      "y": 503.0,
+      "hits": []
+    },
+    {
+      "x": 472,
+      "h": 0.2,
+      "hits": []
+    },
+    {
+      "x": 472,
+      "h": 1.5,
+      "hits": []
+    },
+    {
+      "x": 472,
+      "h": 2.1,
+      "hits": []
+    },
+    {
+      "x": 474.5,
+      "h": 0.2,
+      "hits": []
+    },
+    {
+      "x": 474.5,
+      "h": 1.5,
+      "hits": []
+    },
+    {
+      "x": 474.5,
+      "h": 2.1,
+      "hits": []
+    },
+    {
+      "x": 477,
+      "h": 0.2,
+      "hits": []
+    },
+    {
+      "x": 477,
+      "h": 1.5,
+      "hits": []
+    },
+    {
+      "x": 477,
+      "h": 2.1,
+      "hits": []
+    },
+    {
+      "x": 568,
+      "h": 0.2,
+      "hits": []
+    },
+    {
+      "x": 568,
+      "h": 1.5,
+      "hits": []
+    },
+    {
+      "x": 568,
+      "h": 2.1,
+      "hits": []
+    },
+    {
+      "x": 570.5,
+      "h": 0.2,
+      "hits": []
+    },
+    {
+      "x": 570.5,
+      "h": 1.5,
+      "hits": []
+    },
+    {
+      "x": 570.5,
+      "h": 2.1,
+      "hits": []
+    },
+    {
+      "x": 573,
+      "h": 0.2,
+      "hits": []
+    },
+    {
+      "x": 573,
+      "h": 1.5,
+      "hits": []
+    },
+    {
+      "x": 573,
+      "h": 2.1,
+      "hits": []
+    }
+  ],
+  "seat_count": 128,
+  "source_count_status": "8 rows and 16 rear seats observed; occluded counts candidate",
+  "construction_acceptance": false
+}

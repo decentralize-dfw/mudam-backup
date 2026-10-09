@@ -1,0 +1,61 @@
+{
+  "base_scene": "MUDAM_R16_DIS_PROFIL_MALZEME_v002.blend",
+  "source_ids": [
+    "101",
+    "102",
+    "104",
+    "067",
+    "PA0119",
+    "PA0154"
+  ],
+  "footprint": [
+    [
+      42,
+      264
+    ],
+    [
+      92,
+      215
+    ],
+    [
+      122,
+      215
+    ],
+    [
+      171,
+      264
+    ],
+    [
+      171,
+      294
+    ],
+    [
+      122,
+      344
+    ],
+    [
+      92,
+      344
+    ],
+    [
+      42,
+      294
+    ]
+  ],
+  "stair_center_canonical": [
+    72.5,
+    269
+  ],
+  "stair_radius_canonical": 14.25,
+  "wall_display_thickness_m": 0.25,
+  "floor_display_thickness_m": 0.2,
+  "west_window_sill_z": 0.85,
+  "west_window_head_z": 3.7,
+  "west_window_jamb_m": 0.18,
+  "frame_width_m": 0.07,
+  "frame_depth_m": 0.1,
+  "glass_thickness_m": 0.018,
+  "window_status": "PA0119 supports a large square opening behind stair parapet; exact plane/height fit conditional",
+  "stair_status": "102/104 circular location; stair handedness, turns, counts and access gap unresolved; do not invent treads",
+  "white_finish_status": "PA0119/0154 support white gallery wall appearance; permanent vs exhibition finish not established"
+}

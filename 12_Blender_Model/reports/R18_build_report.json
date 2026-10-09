@@ -1,0 +1,235 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R18_PAVYON_GECIT_DETAY_v002.blend",
+  "base_scene": "MUDAM_R17_PAVYON_MEKAN_v001.blend",
+  "closed_objects": [
+    "R18_SIDE_LEFT_FRAME_L",
+    "R18_SIDE_LEFT_FRAME_R",
+    "R18_SIDE_LEFT_FRAME_B",
+    "R18_SIDE_LEFT_FRAME_T",
+    "R18_SIDE_LEFT_GLASS",
+    "R18_SIDE_RIGHT_FRAME_L",
+    "R18_SIDE_RIGHT_FRAME_R",
+    "R18_SIDE_RIGHT_FRAME_B",
+    "R18_SIDE_RIGHT_FRAME_T",
+    "R18_SIDE_RIGHT_GLASS",
+    "R18_TRANSOM_LEFT_FRAME_L",
+    "R18_TRANSOM_LEFT_FRAME_R",
+    "R18_TRANSOM_LEFT_FRAME_B",
+    "R18_TRANSOM_LEFT_FRAME_T",
+    "R18_TRANSOM_LEFT_GLASS",
+    "R18_TRANSOM_RIGHT_FRAME_L",
+    "R18_TRANSOM_RIGHT_FRAME_R",
+    "R18_TRANSOM_RIGHT_FRAME_B",
+    "R18_TRANSOM_RIGHT_FRAME_T",
+    "R18_TRANSOM_RIGHT_GLASS",
+    "R18_LEAF_LEFT_FRAME_HINGE",
+    "R18_LEAF_LEFT_FRAME_FREE",
+    "R18_LEAF_LEFT_FRAME_BOTTOM",
+    "R18_LEAF_LEFT_FRAME_TOP",
+    "R18_LEAF_LEFT_GLASS",
+    "R18_LEAF_RIGHT_FRAME_HINGE",
+    "R18_LEAF_RIGHT_FRAME_FREE",
+    "R18_LEAF_RIGHT_FRAME_BOTTOM",
+    "R18_LEAF_RIGHT_FRAME_TOP",
+    "R18_LEAF_RIGHT_GLASS",
+    "R18_LEAF_LEFT_LEVER",
+    "R18_LEAF_LEFT_LEVER_STUB",
+    "R18_LEAF_RIGHT_LEVER",
+    "R18_LEAF_RIGHT_LEVER_STUB",
+    "R18_LINK_COLUMN_0_L",
+    "R18_LINK_COLUMN_0_R",
+    "R18_LINK_TRANSVERSE_0",
+    "R18_LINK_COLUMN_1_L",
+    "R18_LINK_COLUMN_1_R",
+    "R18_LINK_TRANSVERSE_1",
+    "R18_LINK_COLUMN_2_L",
+    "R18_LINK_COLUMN_2_R",
+    "R18_LINK_TRANSVERSE_2",
+    "R18_LINK_COLUMN_3_L",
+    "R18_LINK_COLUMN_3_R",
+    "R18_LINK_TRANSVERSE_3",
+    "R18_LINK_COLUMN_4_L",
+    "R18_LINK_COLUMN_4_R",
+    "R18_LINK_TRANSVERSE_4",
+    "R18_LINK_COLUMN_5_L",
+    "R18_LINK_COLUMN_5_R",
+    "R18_LINK_TRANSVERSE_5",
+    "R18_LINK_COLUMN_6_L",
+    "R18_LINK_COLUMN_6_R",
+    "R18_LINK_TRANSVERSE_6",
+    "R18_LINK_COLUMN_7_L",
+    "R18_LINK_COLUMN_7_R",
+    "R18_LINK_TRANSVERSE_7",
+    "R18_LINK_COLUMN_8_L",
+    "R18_LINK_COLUMN_8_R",
+    "R18_LINK_TRANSVERSE_8"
+  ],
+  "panels": [
+    "R18_SIDE_LEFT_GLASS",
+    "R18_SIDE_RIGHT_GLASS",
+    "R18_TRANSOM_LEFT_GLASS",
+    "R18_TRANSOM_RIGHT_GLASS",
+    "R18_LEAF_LEFT_GLASS",
+    "R18_LEAF_RIGHT_GLASS"
+  ],
+  "leaves": [
+    {
+      "id": "R18_LEAF_LEFT",
+      "hinge": [
+        23.39875030517578,
+        -37.896820068359375,
+        0.0
+      ],
+      "free_edge": [
+        22.819942474365234,
+        -37.27434158325195,
+        0.0
+      ],
+      "angle_candidate": 90
+    },
+    {
+      "id": "R18_LEAF_RIGHT",
+      "hinge": [
+        24.614418029785156,
+        -36.766441345214844,
+        0.0
+      ],
+      "free_edge": [
+        24.03561019897461,
+        -36.14396286010742,
+        0.0
+      ],
+      "angle_candidate": 90
+    }
+  ],
+  "portals": [
+    {
+      "x": 171.0,
+      "left": [
+        22.796829223632812,
+        -38.45654296875,
+        0.0
+      ],
+      "right": [
+        25.216341018676758,
+        -36.20671844482422,
+        0.0
+      ],
+      "top_z": 4.024968563661926
+    },
+    {
+      "x": 185.75,
+      "left": [
+        21.60361671447754,
+        -37.173336029052734,
+        0.0
+      ],
+      "right": [
+        24.023128509521484,
+        -34.92350769042969,
+        0.0
+      ],
+      "top_z": 4.024968563661926
+    },
+    {
+      "x": 200.5,
+      "left": [
+        20.410404205322266,
+        -35.8901252746582,
+        0.0
+      ],
+      "right": [
+        22.829914093017578,
+        -33.640296936035156,
+        0.0
+      ],
+      "top_z": 4.024968563661926
+    },
+    {
+      "x": 215.25,
+      "left": [
+        19.21718978881836,
+        -34.60691452026367,
+        0.0
+      ],
+      "right": [
+        21.636701583862305,
+        -32.35708999633789,
+        0.0
+      ],
+      "top_z": 4.024968563661926
+    },
+    {
+      "x": 230.0,
+      "left": [
+        18.023977279663086,
+        -33.32370376586914,
+        0.0
+      ],
+      "right": [
+        20.44348907470703,
+        -31.07387924194336,
+        0.0
+      ],
+      "top_z": 4.024968563661926
+    },
+    {
+      "x": 244.75,
+      "left": [
+        16.830764770507812,
+        -32.040496826171875,
+        0.0
+      ],
+      "right": [
+        19.250276565551758,
+        -29.790668487548828,
+        0.0
+      ],
+      "top_z": 4.024968563661926
+    },
+    {
+      "x": 259.5,
+      "left": [
+        15.637550354003906,
+        -30.757286071777344,
+        0.0
+      ],
+      "right": [
+        18.05706214904785,
+        -28.50745964050293,
+        0.0
+      ],
+      "top_z": 4.024968563661926
+    },
+    {
+      "x": 274.25,
+      "left": [
+        14.444337844848633,
+        -29.474075317382812,
+        0.0
+      ],
+      "right": [
+        16.863849639892578,
+        -27.2242488861084,
+        0.0
+      ],
+      "top_z": 4.024968563661926
+    },
+    {
+      "x": 289.0,
+      "left": [
+        13.251124382019043,
+        -28.190866470336914,
+        0.0
+      ],
+      "right": [
+        15.670638084411621,
+        -25.9410400390625,
+        0.0
+      ],
+      "top_z": 4.024968563661926
+    }
+  ],
+  "changed_inherited_objects": [],
+  "construction_acceptance": false
+}

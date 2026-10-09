@@ -1,0 +1,3338 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R20_ODITORYUM_KOLTUK_v002.blend",
+  "base_scene": "12_Blender_Model/scenes/MUDAM_R19_ODITORYUM_MEKAN_v002.blend",
+  "closed_objects": [
+    "R20_SEAT_01_01_BACK",
+    "R20_SEAT_01_01_PAN",
+    "R20_SEAT_01_01_ARM_L",
+    "R20_SEAT_01_01_ARM_R",
+    "R20_SEAT_01_01_FOOT_L",
+    "R20_SEAT_01_01_FOOT_R",
+    "R20_SEAT_01_01_SUPPORT",
+    "R20_SEAT_01_02_BACK",
+    "R20_SEAT_01_02_PAN",
+    "R20_SEAT_01_02_ARM_L",
+    "R20_SEAT_01_02_ARM_R",
+    "R20_SEAT_01_02_FOOT_L",
+    "R20_SEAT_01_02_FOOT_R",
+    "R20_SEAT_01_02_SUPPORT",
+    "R20_SEAT_01_03_BACK",
+    "R20_SEAT_01_03_PAN",
+    "R20_SEAT_01_03_ARM_L",
+    "R20_SEAT_01_03_ARM_R",
+    "R20_SEAT_01_03_FOOT_L",
+    "R20_SEAT_01_03_FOOT_R",
+    "R20_SEAT_01_03_SUPPORT",
+    "R20_SEAT_01_04_BACK",
+    "R20_SEAT_01_04_PAN",
+    "R20_SEAT_01_04_ARM_L",
+    "R20_SEAT_01_04_ARM_R",
+    "R20_SEAT_01_04_FOOT_L",
+    "R20_SEAT_01_04_FOOT_R",
+    "R20_SEAT_01_04_SUPPORT",
+    "R20_SEAT_01_05_BACK",
+    "R20_SEAT_01_05_PAN",
+    "R20_SEAT_01_05_ARM_L",
+    "R20_SEAT_01_05_ARM_R",
+    "R20_SEAT_01_05_FOOT_L",
+    "R20_SEAT_01_05_FOOT_R",
+    "R20_SEAT_01_05_SUPPORT",
+    "R20_SEAT_01_06_BACK",
+    "R20_SEAT_01_06_PAN",
+    "R20_SEAT_01_06_ARM_L",
+    "R20_SEAT_01_06_ARM_R",
+    "R20_SEAT_01_06_FOOT_L",
+    "R20_SEAT_01_06_FOOT_R",
+    "R20_SEAT_01_06_SUPPORT",
+    "R20_SEAT_01_07_BACK",
+    "R20_SEAT_01_07_PAN",
+    "R20_SEAT_01_07_ARM_L",
+    "R20_SEAT_01_07_ARM_R",
+    "R20_SEAT_01_07_FOOT_L",
+    "R20_SEAT_01_07_FOOT_R",
+    "R20_SEAT_01_07_SUPPORT",
+    "R20_SEAT_01_08_BACK",
+    "R20_SEAT_01_08_PAN",
+    "R20_SEAT_01_08_ARM_L",
+    "R20_SEAT_01_08_ARM_R",
+    "R20_SEAT_01_08_FOOT_L",
+    "R20_SEAT_01_08_FOOT_R",
+    "R20_SEAT_01_08_SUPPORT",
+    "R20_SEAT_01_09_BACK",
+    "R20_SEAT_01_09_PAN",
+    "R20_SEAT_01_09_ARM_L",
+    "R20_SEAT_01_09_ARM_R",
+    "R20_SEAT_01_09_FOOT_L",
+    "R20_SEAT_01_09_FOOT_R",
+    "R20_SEAT_01_09_SUPPORT",
+    "R20_SEAT_01_10_BACK",
+    "R20_SEAT_01_10_PAN",
+    "R20_SEAT_01_10_ARM_L",
+    "R20_SEAT_01_10_ARM_R",
+    "R20_SEAT_01_10_FOOT_L",
+    "R20_SEAT_01_10_FOOT_R",
+    "R20_SEAT_01_10_SUPPORT",
+    "R20_SEAT_01_11_BACK",
+    "R20_SEAT_01_11_PAN",
+    "R20_SEAT_01_11_ARM_L",
+    "R20_SEAT_01_11_ARM_R",
+    "R20_SEAT_01_11_FOOT_L",
+    "R20_SEAT_01_11_FOOT_R",
+    "R20_SEAT_01_11_SUPPORT",
+    "R20_SEAT_01_12_BACK",
+    "R20_SEAT_01_12_PAN",
+    "R20_SEAT_01_12_ARM_L",
+    "R20_SEAT_01_12_ARM_R",
+    "R20_SEAT_01_12_FOOT_L",
+    "R20_SEAT_01_12_FOOT_R",
+    "R20_SEAT_01_12_SUPPORT",
+    "R20_SEAT_01_13_BACK",
+    "R20_SEAT_01_13_PAN",
+    "R20_SEAT_01_13_ARM_L",
+    "R20_SEAT_01_13_ARM_R",
+    "R20_SEAT_01_13_FOOT_L",
+    "R20_SEAT_01_13_FOOT_R",
+    "R20_SEAT_01_13_SUPPORT",
+    "R20_SEAT_01_14_BACK",
+    "R20_SEAT_01_14_PAN",
+    "R20_SEAT_01_14_ARM_L",
+    "R20_SEAT_01_14_ARM_R",
+    "R20_SEAT_01_14_FOOT_L",
+    "R20_SEAT_01_14_FOOT_R",
+    "R20_SEAT_01_14_SUPPORT",
+    "R20_SEAT_01_15_BACK",
+    "R20_SEAT_01_15_PAN",
+    "R20_SEAT_01_15_ARM_L",
+    "R20_SEAT_01_15_ARM_R",
+    "R20_SEAT_01_15_FOOT_L",
+    "R20_SEAT_01_15_FOOT_R",
+    "R20_SEAT_01_15_SUPPORT",
+    "R20_SEAT_01_16_BACK",
+    "R20_SEAT_01_16_PAN",
+    "R20_SEAT_01_16_ARM_L",
+    "R20_SEAT_01_16_ARM_R",
+    "R20_SEAT_01_16_FOOT_L",
+    "R20_SEAT_01_16_FOOT_R",
+    "R20_SEAT_01_16_SUPPORT",
+    "R20_SEAT_02_01_BACK",
+    "R20_SEAT_02_01_PAN",
+    "R20_SEAT_02_01_ARM_L",
+    "R20_SEAT_02_01_ARM_R",
+    "R20_SEAT_02_01_FOOT_L",
+    "R20_SEAT_02_01_FOOT_R",
+    "R20_SEAT_02_01_SUPPORT",
+    "R20_SEAT_02_02_BACK",
+    "R20_SEAT_02_02_PAN",
+    "R20_SEAT_02_02_ARM_L",
+    "R20_SEAT_02_02_ARM_R",
+    "R20_SEAT_02_02_FOOT_L",
+    "R20_SEAT_02_02_FOOT_R",
+    "R20_SEAT_02_02_SUPPORT",
+    "R20_SEAT_02_03_BACK",
+    "R20_SEAT_02_03_PAN",
+    "R20_SEAT_02_03_ARM_L",
+    "R20_SEAT_02_03_ARM_R",
+    "R20_SEAT_02_03_FOOT_L",
+    "R20_SEAT_02_03_FOOT_R",
+    "R20_SEAT_02_03_SUPPORT",
+    "R20_SEAT_02_04_BACK",
+    "R20_SEAT_02_04_PAN",
+    "R20_SEAT_02_04_ARM_L",
+    "R20_SEAT_02_04_ARM_R",
+    "R20_SEAT_02_04_FOOT_L",
+    "R20_SEAT_02_04_FOOT_R",
+    "R20_SEAT_02_04_SUPPORT",
+    "R20_SEAT_02_05_BACK",
+    "R20_SEAT_02_05_PAN",
+    "R20_SEAT_02_05_ARM_L",
+    "R20_SEAT_02_05_ARM_R",
+    "R20_SEAT_02_05_FOOT_L",
+    "R20_SEAT_02_05_FOOT_R",
+    "R20_SEAT_02_05_SUPPORT",
+    "R20_SEAT_02_06_BACK",
+    "R20_SEAT_02_06_PAN",
+    "R20_SEAT_02_06_ARM_L",
+    "R20_SEAT_02_06_ARM_R",
+    "R20_SEAT_02_06_FOOT_L",
+    "R20_SEAT_02_06_FOOT_R",
+    "R20_SEAT_02_06_SUPPORT",
+    "R20_SEAT_02_07_BACK",
+    "R20_SEAT_02_07_PAN",
+    "R20_SEAT_02_07_ARM_L",
+    "R20_SEAT_02_07_ARM_R",
+    "R20_SEAT_02_07_FOOT_L",
+    "R20_SEAT_02_07_FOOT_R",
+    "R20_SEAT_02_07_SUPPORT",
+    "R20_SEAT_02_08_BACK",
+    "R20_SEAT_02_08_PAN",
+    "R20_SEAT_02_08_ARM_L",
+    "R20_SEAT_02_08_ARM_R",
+    "R20_SEAT_02_08_FOOT_L",
+    "R20_SEAT_02_08_FOOT_R",
+    "R20_SEAT_02_08_SUPPORT",
+    "R20_SEAT_02_09_BACK",
+    "R20_SEAT_02_09_PAN",
+    "R20_SEAT_02_09_ARM_L",
+    "R20_SEAT_02_09_ARM_R",
+    "R20_SEAT_02_09_FOOT_L",
+    "R20_SEAT_02_09_FOOT_R",
+    "R20_SEAT_02_09_SUPPORT",
+    "R20_SEAT_02_10_BACK",
+    "R20_SEAT_02_10_PAN",
+    "R20_SEAT_02_10_ARM_L",
+    "R20_SEAT_02_10_ARM_R",
+    "R20_SEAT_02_10_FOOT_L",
+    "R20_SEAT_02_10_FOOT_R",
+    "R20_SEAT_02_10_SUPPORT",
+    "R20_SEAT_02_11_BACK",
+    "R20_SEAT_02_11_PAN",
+    "R20_SEAT_02_11_ARM_L",
+    "R20_SEAT_02_11_ARM_R",
+    "R20_SEAT_02_11_FOOT_L",
+    "R20_SEAT_02_11_FOOT_R",
+    "R20_SEAT_02_11_SUPPORT",
+    "R20_SEAT_02_12_BACK",
+    "R20_SEAT_02_12_PAN",
+    "R20_SEAT_02_12_ARM_L",
+    "R20_SEAT_02_12_ARM_R",
+    "R20_SEAT_02_12_FOOT_L",
+    "R20_SEAT_02_12_FOOT_R",
+    "R20_SEAT_02_12_SUPPORT",
+    "R20_SEAT_02_13_BACK",
+    "R20_SEAT_02_13_PAN",
+    "R20_SEAT_02_13_ARM_L",
+    "R20_SEAT_02_13_ARM_R",
+    "R20_SEAT_02_13_FOOT_L",
+    "R20_SEAT_02_13_FOOT_R",
+    "R20_SEAT_02_13_SUPPORT",
+    "R20_SEAT_02_14_BACK",
+    "R20_SEAT_02_14_PAN",
+    "R20_SEAT_02_14_ARM_L",
+    "R20_SEAT_02_14_ARM_R",
+    "R20_SEAT_02_14_FOOT_L",
+    "R20_SEAT_02_14_FOOT_R",
+    "R20_SEAT_02_14_SUPPORT",
+    "R20_SEAT_02_15_BACK",
+    "R20_SEAT_02_15_PAN",
+    "R20_SEAT_02_15_ARM_L",
+    "R20_SEAT_02_15_ARM_R",
+    "R20_SEAT_02_15_FOOT_L",
+    "R20_SEAT_02_15_FOOT_R",
+    "R20_SEAT_02_15_SUPPORT",
+    "R20_SEAT_02_16_BACK",
+    "R20_SEAT_02_16_PAN",
+    "R20_SEAT_02_16_ARM_L",
+    "R20_SEAT_02_16_ARM_R",
+    "R20_SEAT_02_16_FOOT_L",
+    "R20_SEAT_02_16_FOOT_R",
+    "R20_SEAT_02_16_SUPPORT",
+    "R20_SEAT_03_01_BACK",
+    "R20_SEAT_03_01_PAN",
+    "R20_SEAT_03_01_ARM_L",
+    "R20_SEAT_03_01_ARM_R",
+    "R20_SEAT_03_01_FOOT_L",
+    "R20_SEAT_03_01_FOOT_R",
+    "R20_SEAT_03_01_SUPPORT",
+    "R20_SEAT_03_02_BACK",
+    "R20_SEAT_03_02_PAN",
+    "R20_SEAT_03_02_ARM_L",
+    "R20_SEAT_03_02_ARM_R",
+    "R20_SEAT_03_02_FOOT_L",
+    "R20_SEAT_03_02_FOOT_R",
+    "R20_SEAT_03_02_SUPPORT",
+    "R20_SEAT_03_03_BACK",
+    "R20_SEAT_03_03_PAN",
+    "R20_SEAT_03_03_ARM_L",
+    "R20_SEAT_03_03_ARM_R",
+    "R20_SEAT_03_03_FOOT_L",
+    "R20_SEAT_03_03_FOOT_R",
+    "R20_SEAT_03_03_SUPPORT",
+    "R20_SEAT_03_04_BACK",
+    "R20_SEAT_03_04_PAN",
+    "R20_SEAT_03_04_ARM_L",
+    "R20_SEAT_03_04_ARM_R",
+    "R20_SEAT_03_04_FOOT_L",
+    "R20_SEAT_03_04_FOOT_R",
+    "R20_SEAT_03_04_SUPPORT",
+    "R20_SEAT_03_05_BACK",
+    "R20_SEAT_03_05_PAN",
+    "R20_SEAT_03_05_ARM_L",
+    "R20_SEAT_03_05_ARM_R",
+    "R20_SEAT_03_05_FOOT_L",
+    "R20_SEAT_03_05_FOOT_R",
+    "R20_SEAT_03_05_SUPPORT",
+    "R20_SEAT_03_06_BACK",
+    "R20_SEAT_03_06_PAN",
+    "R20_SEAT_03_06_ARM_L",
+    "R20_SEAT_03_06_ARM_R",
+    "R20_SEAT_03_06_FOOT_L",
+    "R20_SEAT_03_06_FOOT_R",
+    "R20_SEAT_03_06_SUPPORT",
+    "R20_SEAT_03_07_BACK",
+    "R20_SEAT_03_07_PAN",
+    "R20_SEAT_03_07_ARM_L",
+    "R20_SEAT_03_07_ARM_R",
+    "R20_SEAT_03_07_FOOT_L",
+    "R20_SEAT_03_07_FOOT_R",
+    "R20_SEAT_03_07_SUPPORT",
+    "R20_SEAT_03_08_BACK",
+    "R20_SEAT_03_08_PAN",
+    "R20_SEAT_03_08_ARM_L",
+    "R20_SEAT_03_08_ARM_R",
+    "R20_SEAT_03_08_FOOT_L",
+    "R20_SEAT_03_08_FOOT_R",
+    "R20_SEAT_03_08_SUPPORT",
+    "R20_SEAT_03_09_BACK",
+    "R20_SEAT_03_09_PAN",
+    "R20_SEAT_03_09_ARM_L",
+    "R20_SEAT_03_09_ARM_R",
+    "R20_SEAT_03_09_FOOT_L",
+    "R20_SEAT_03_09_FOOT_R",
+    "R20_SEAT_03_09_SUPPORT",
+    "R20_SEAT_03_10_BACK",
+    "R20_SEAT_03_10_PAN",
+    "R20_SEAT_03_10_ARM_L",
+    "R20_SEAT_03_10_ARM_R",
+    "R20_SEAT_03_10_FOOT_L",
+    "R20_SEAT_03_10_FOOT_R",
+    "R20_SEAT_03_10_SUPPORT",
+    "R20_SEAT_03_11_BACK",
+    "R20_SEAT_03_11_PAN",
+    "R20_SEAT_03_11_ARM_L",
+    "R20_SEAT_03_11_ARM_R",
+    "R20_SEAT_03_11_FOOT_L",
+    "R20_SEAT_03_11_FOOT_R",
+    "R20_SEAT_03_11_SUPPORT",
+    "R20_SEAT_03_12_BACK",
+    "R20_SEAT_03_12_PAN",
+    "R20_SEAT_03_12_ARM_L",
+    "R20_SEAT_03_12_ARM_R",
+    "R20_SEAT_03_12_FOOT_L",
+    "R20_SEAT_03_12_FOOT_R",
+    "R20_SEAT_03_12_SUPPORT",
+    "R20_SEAT_03_13_BACK",
+    "R20_SEAT_03_13_PAN",
+    "R20_SEAT_03_13_ARM_L",
+    "R20_SEAT_03_13_ARM_R",
+    "R20_SEAT_03_13_FOOT_L",
+    "R20_SEAT_03_13_FOOT_R",
+    "R20_SEAT_03_13_SUPPORT",
+    "R20_SEAT_03_14_BACK",
+    "R20_SEAT_03_14_PAN",
+    "R20_SEAT_03_14_ARM_L",
+    "R20_SEAT_03_14_ARM_R",
+    "R20_SEAT_03_14_FOOT_L",
+    "R20_SEAT_03_14_FOOT_R",
+    "R20_SEAT_03_14_SUPPORT",
+    "R20_SEAT_03_15_BACK",
+    "R20_SEAT_03_15_PAN",
+    "R20_SEAT_03_15_ARM_L",
+    "R20_SEAT_03_15_ARM_R",
+    "R20_SEAT_03_15_FOOT_L",
+    "R20_SEAT_03_15_FOOT_R",
+    "R20_SEAT_03_15_SUPPORT",
+    "R20_SEAT_03_16_BACK",
+    "R20_SEAT_03_16_PAN",
+    "R20_SEAT_03_16_ARM_L",
+    "R20_SEAT_03_16_ARM_R",
+    "R20_SEAT_03_16_FOOT_L",
+    "R20_SEAT_03_16_FOOT_R",
+    "R20_SEAT_03_16_SUPPORT",
+    "R20_SEAT_04_01_BACK",
+    "R20_SEAT_04_01_PAN",
+    "R20_SEAT_04_01_ARM_L",
+    "R20_SEAT_04_01_ARM_R",
+    "R20_SEAT_04_01_FOOT_L",
+    "R20_SEAT_04_01_FOOT_R",
+    "R20_SEAT_04_01_SUPPORT",
+    "R20_SEAT_04_02_BACK",
+    "R20_SEAT_04_02_PAN",
+    "R20_SEAT_04_02_ARM_L",
+    "R20_SEAT_04_02_ARM_R",
+    "R20_SEAT_04_02_FOOT_L",
+    "R20_SEAT_04_02_FOOT_R",
+    "R20_SEAT_04_02_SUPPORT",
+    "R20_SEAT_04_03_BACK",
+    "R20_SEAT_04_03_PAN",
+    "R20_SEAT_04_03_ARM_L",
+    "R20_SEAT_04_03_ARM_R",
+    "R20_SEAT_04_03_FOOT_L",
+    "R20_SEAT_04_03_FOOT_R",
+    "R20_SEAT_04_03_SUPPORT",
+    "R20_SEAT_04_04_BACK",
+    "R20_SEAT_04_04_PAN",
+    "R20_SEAT_04_04_ARM_L",
+    "R20_SEAT_04_04_ARM_R",
+    "R20_SEAT_04_04_FOOT_L",
+    "R20_SEAT_04_04_FOOT_R",
+    "R20_SEAT_04_04_SUPPORT",
+    "R20_SEAT_04_05_BACK",
+    "R20_SEAT_04_05_PAN",
+    "R20_SEAT_04_05_ARM_L",
+    "R20_SEAT_04_05_ARM_R",
+    "R20_SEAT_04_05_FOOT_L",
+    "R20_SEAT_04_05_FOOT_R",
+    "R20_SEAT_04_05_SUPPORT",
+    "R20_SEAT_04_06_BACK",
+    "R20_SEAT_04_06_PAN",
+    "R20_SEAT_04_06_ARM_L",
+    "R20_SEAT_04_06_ARM_R",
+    "R20_SEAT_04_06_FOOT_L",
+    "R20_SEAT_04_06_FOOT_R",
+    "R20_SEAT_04_06_SUPPORT",
+    "R20_SEAT_04_07_BACK",
+    "R20_SEAT_04_07_PAN",
+    "R20_SEAT_04_07_ARM_L",
+    "R20_SEAT_04_07_ARM_R",
+    "R20_SEAT_04_07_FOOT_L",
+    "R20_SEAT_04_07_FOOT_R",
+    "R20_SEAT_04_07_SUPPORT",
+    "R20_SEAT_04_08_BACK",
+    "R20_SEAT_04_08_PAN",
+    "R20_SEAT_04_08_ARM_L",
+    "R20_SEAT_04_08_ARM_R",
+    "R20_SEAT_04_08_FOOT_L",
+    "R20_SEAT_04_08_FOOT_R",
+    "R20_SEAT_04_08_SUPPORT",
+    "R20_SEAT_04_09_BACK",
+    "R20_SEAT_04_09_PAN",
+    "R20_SEAT_04_09_ARM_L",
+    "R20_SEAT_04_09_ARM_R",
+    "R20_SEAT_04_09_FOOT_L",
+    "R20_SEAT_04_09_FOOT_R",
+    "R20_SEAT_04_09_SUPPORT",
+    "R20_SEAT_04_10_BACK",
+    "R20_SEAT_04_10_PAN",
+    "R20_SEAT_04_10_ARM_L",
+    "R20_SEAT_04_10_ARM_R",
+    "R20_SEAT_04_10_FOOT_L",
+    "R20_SEAT_04_10_FOOT_R",
+    "R20_SEAT_04_10_SUPPORT",
+    "R20_SEAT_04_11_BACK",
+    "R20_SEAT_04_11_PAN",
+    "R20_SEAT_04_11_ARM_L",
+    "R20_SEAT_04_11_ARM_R",
+    "R20_SEAT_04_11_FOOT_L",
+    "R20_SEAT_04_11_FOOT_R",
+    "R20_SEAT_04_11_SUPPORT",
+    "R20_SEAT_04_12_BACK",
+    "R20_SEAT_04_12_PAN",
+    "R20_SEAT_04_12_ARM_L",
+    "R20_SEAT_04_12_ARM_R",
+    "R20_SEAT_04_12_FOOT_L",
+    "R20_SEAT_04_12_FOOT_R",
+    "R20_SEAT_04_12_SUPPORT",
+    "R20_SEAT_04_13_BACK",
+    "R20_SEAT_04_13_PAN",
+    "R20_SEAT_04_13_ARM_L",
+    "R20_SEAT_04_13_ARM_R",
+    "R20_SEAT_04_13_FOOT_L",
+    "R20_SEAT_04_13_FOOT_R",
+    "R20_SEAT_04_13_SUPPORT",
+    "R20_SEAT_04_14_BACK",
+    "R20_SEAT_04_14_PAN",
+    "R20_SEAT_04_14_ARM_L",
+    "R20_SEAT_04_14_ARM_R",
+    "R20_SEAT_04_14_FOOT_L",
+    "R20_SEAT_04_14_FOOT_R",
+    "R20_SEAT_04_14_SUPPORT",
+    "R20_SEAT_04_15_BACK",
+    "R20_SEAT_04_15_PAN",
+    "R20_SEAT_04_15_ARM_L",
+    "R20_SEAT_04_15_ARM_R",
+    "R20_SEAT_04_15_FOOT_L",
+    "R20_SEAT_04_15_FOOT_R",
+    "R20_SEAT_04_15_SUPPORT",
+    "R20_SEAT_04_16_BACK",
+    "R20_SEAT_04_16_PAN",
+    "R20_SEAT_04_16_ARM_L",
+    "R20_SEAT_04_16_ARM_R",
+    "R20_SEAT_04_16_FOOT_L",
+    "R20_SEAT_04_16_FOOT_R",
+    "R20_SEAT_04_16_SUPPORT",
+    "R20_SEAT_05_01_BACK",
+    "R20_SEAT_05_01_PAN",
+    "R20_SEAT_05_01_ARM_L",
+    "R20_SEAT_05_01_ARM_R",
+    "R20_SEAT_05_01_FOOT_L",
+    "R20_SEAT_05_01_FOOT_R",
+    "R20_SEAT_05_01_SUPPORT",
+    "R20_SEAT_05_02_BACK",
+    "R20_SEAT_05_02_PAN",
+    "R20_SEAT_05_02_ARM_L",
+    "R20_SEAT_05_02_ARM_R",
+    "R20_SEAT_05_02_FOOT_L",
+    "R20_SEAT_05_02_FOOT_R",
+    "R20_SEAT_05_02_SUPPORT",
+    "R20_SEAT_05_03_BACK",
+    "R20_SEAT_05_03_PAN",
+    "R20_SEAT_05_03_ARM_L",
+    "R20_SEAT_05_03_ARM_R",
+    "R20_SEAT_05_03_FOOT_L",
+    "R20_SEAT_05_03_FOOT_R",
+    "R20_SEAT_05_03_SUPPORT",
+    "R20_SEAT_05_04_BACK",
+    "R20_SEAT_05_04_PAN",
+    "R20_SEAT_05_04_ARM_L",
+    "R20_SEAT_05_04_ARM_R",
+    "R20_SEAT_05_04_FOOT_L",
+    "R20_SEAT_05_04_FOOT_R",
+    "R20_SEAT_05_04_SUPPORT",
+    "R20_SEAT_05_05_BACK",
+    "R20_SEAT_05_05_PAN",
+    "R20_SEAT_05_05_ARM_L",
+    "R20_SEAT_05_05_ARM_R",
+    "R20_SEAT_05_05_FOOT_L",
+    "R20_SEAT_05_05_FOOT_R",
+    "R20_SEAT_05_05_SUPPORT",
+    "R20_SEAT_05_06_BACK",
+    "R20_SEAT_05_06_PAN",
+    "R20_SEAT_05_06_ARM_L",
+    "R20_SEAT_05_06_ARM_R",
+    "R20_SEAT_05_06_FOOT_L",
+    "R20_SEAT_05_06_FOOT_R",
+    "R20_SEAT_05_06_SUPPORT",
+    "R20_SEAT_05_07_BACK",
+    "R20_SEAT_05_07_PAN",
+    "R20_SEAT_05_07_ARM_L",
+    "R20_SEAT_05_07_ARM_R",
+    "R20_SEAT_05_07_FOOT_L",
+    "R20_SEAT_05_07_FOOT_R",
+    "R20_SEAT_05_07_SUPPORT",
+    "R20_SEAT_05_08_BACK",
+    "R20_SEAT_05_08_PAN",
+    "R20_SEAT_05_08_ARM_L",
+    "R20_SEAT_05_08_ARM_R",
+    "R20_SEAT_05_08_FOOT_L",
+    "R20_SEAT_05_08_FOOT_R",
+    "R20_SEAT_05_08_SUPPORT",
+    "R20_SEAT_05_09_BACK",
+    "R20_SEAT_05_09_PAN",
+    "R20_SEAT_05_09_ARM_L",
+    "R20_SEAT_05_09_ARM_R",
+    "R20_SEAT_05_09_FOOT_L",
+    "R20_SEAT_05_09_FOOT_R",
+    "R20_SEAT_05_09_SUPPORT",
+    "R20_SEAT_05_10_BACK",
+    "R20_SEAT_05_10_PAN",
+    "R20_SEAT_05_10_ARM_L",
+    "R20_SEAT_05_10_ARM_R",
+    "R20_SEAT_05_10_FOOT_L",
+    "R20_SEAT_05_10_FOOT_R",
+    "R20_SEAT_05_10_SUPPORT",
+    "R20_SEAT_05_11_BACK",
+    "R20_SEAT_05_11_PAN",
+    "R20_SEAT_05_11_ARM_L",
+    "R20_SEAT_05_11_ARM_R",
+    "R20_SEAT_05_11_FOOT_L",
+    "R20_SEAT_05_11_FOOT_R",
+    "R20_SEAT_05_11_SUPPORT",
+    "R20_SEAT_05_12_BACK",
+    "R20_SEAT_05_12_PAN",
+    "R20_SEAT_05_12_ARM_L",
+    "R20_SEAT_05_12_ARM_R",
+    "R20_SEAT_05_12_FOOT_L",
+    "R20_SEAT_05_12_FOOT_R",
+    "R20_SEAT_05_12_SUPPORT",
+    "R20_SEAT_05_13_BACK",
+    "R20_SEAT_05_13_PAN",
+    "R20_SEAT_05_13_ARM_L",
+    "R20_SEAT_05_13_ARM_R",
+    "R20_SEAT_05_13_FOOT_L",
+    "R20_SEAT_05_13_FOOT_R",
+    "R20_SEAT_05_13_SUPPORT",
+    "R20_SEAT_05_14_BACK",
+    "R20_SEAT_05_14_PAN",
+    "R20_SEAT_05_14_ARM_L",
+    "R20_SEAT_05_14_ARM_R",
+    "R20_SEAT_05_14_FOOT_L",
+    "R20_SEAT_05_14_FOOT_R",
+    "R20_SEAT_05_14_SUPPORT",
+    "R20_SEAT_05_15_BACK",
+    "R20_SEAT_05_15_PAN",
+    "R20_SEAT_05_15_ARM_L",
+    "R20_SEAT_05_15_ARM_R",
+    "R20_SEAT_05_15_FOOT_L",
+    "R20_SEAT_05_15_FOOT_R",
+    "R20_SEAT_05_15_SUPPORT",
+    "R20_SEAT_05_16_BACK",
+    "R20_SEAT_05_16_PAN",
+    "R20_SEAT_05_16_ARM_L",
+    "R20_SEAT_05_16_ARM_R",
+    "R20_SEAT_05_16_FOOT_L",
+    "R20_SEAT_05_16_FOOT_R",
+    "R20_SEAT_05_16_SUPPORT",
+    "R20_SEAT_06_01_BACK",
+    "R20_SEAT_06_01_PAN",
+    "R20_SEAT_06_01_ARM_L",
+    "R20_SEAT_06_01_ARM_R",
+    "R20_SEAT_06_01_FOOT_L",
+    "R20_SEAT_06_01_FOOT_R",
+    "R20_SEAT_06_01_SUPPORT",
+    "R20_SEAT_06_02_BACK",
+    "R20_SEAT_06_02_PAN",
+    "R20_SEAT_06_02_ARM_L",
+    "R20_SEAT_06_02_ARM_R",
+    "R20_SEAT_06_02_FOOT_L",
+    "R20_SEAT_06_02_FOOT_R",
+    "R20_SEAT_06_02_SUPPORT",
+    "R20_SEAT_06_03_BACK",
+    "R20_SEAT_06_03_PAN",
+    "R20_SEAT_06_03_ARM_L",
+    "R20_SEAT_06_03_ARM_R",
+    "R20_SEAT_06_03_FOOT_L",
+    "R20_SEAT_06_03_FOOT_R",
+    "R20_SEAT_06_03_SUPPORT",
+    "R20_SEAT_06_04_BACK",
+    "R20_SEAT_06_04_PAN",
+    "R20_SEAT_06_04_ARM_L",
+    "R20_SEAT_06_04_ARM_R",
+    "R20_SEAT_06_04_FOOT_L",
+    "R20_SEAT_06_04_FOOT_R",
+    "R20_SEAT_06_04_SUPPORT",
+    "R20_SEAT_06_05_BACK",
+    "R20_SEAT_06_05_PAN",
+    "R20_SEAT_06_05_ARM_L",
+    "R20_SEAT_06_05_ARM_R",
+    "R20_SEAT_06_05_FOOT_L",
+    "R20_SEAT_06_05_FOOT_R",
+    "R20_SEAT_06_05_SUPPORT",
+    "R20_SEAT_06_06_BACK",
+    "R20_SEAT_06_06_PAN",
+    "R20_SEAT_06_06_ARM_L",
+    "R20_SEAT_06_06_ARM_R",
+    "R20_SEAT_06_06_FOOT_L",
+    "R20_SEAT_06_06_FOOT_R",
+    "R20_SEAT_06_06_SUPPORT",
+    "R20_SEAT_06_07_BACK",
+    "R20_SEAT_06_07_PAN",
+    "R20_SEAT_06_07_ARM_L",
+    "R20_SEAT_06_07_ARM_R",
+    "R20_SEAT_06_07_FOOT_L",
+    "R20_SEAT_06_07_FOOT_R",
+    "R20_SEAT_06_07_SUPPORT",
+    "R20_SEAT_06_08_BACK",
+    "R20_SEAT_06_08_PAN",
+    "R20_SEAT_06_08_ARM_L",
+    "R20_SEAT_06_08_ARM_R",
+    "R20_SEAT_06_08_FOOT_L",
+    "R20_SEAT_06_08_FOOT_R",
+    "R20_SEAT_06_08_SUPPORT",
+    "R20_SEAT_06_09_BACK",
+    "R20_SEAT_06_09_PAN",
+    "R20_SEAT_06_09_ARM_L",
+    "R20_SEAT_06_09_ARM_R",
+    "R20_SEAT_06_09_FOOT_L",
+    "R20_SEAT_06_09_FOOT_R",
+    "R20_SEAT_06_09_SUPPORT",
+    "R20_SEAT_06_10_BACK",
+    "R20_SEAT_06_10_PAN",
+    "R20_SEAT_06_10_ARM_L",
+    "R20_SEAT_06_10_ARM_R",
+    "R20_SEAT_06_10_FOOT_L",
+    "R20_SEAT_06_10_FOOT_R",
+    "R20_SEAT_06_10_SUPPORT",
+    "R20_SEAT_06_11_BACK",
+    "R20_SEAT_06_11_PAN",
+    "R20_SEAT_06_11_ARM_L",
+    "R20_SEAT_06_11_ARM_R",
+    "R20_SEAT_06_11_FOOT_L",
+    "R20_SEAT_06_11_FOOT_R",
+    "R20_SEAT_06_11_SUPPORT",
+    "R20_SEAT_06_12_BACK",
+    "R20_SEAT_06_12_PAN",
+    "R20_SEAT_06_12_ARM_L",
+    "R20_SEAT_06_12_ARM_R",
+    "R20_SEAT_06_12_FOOT_L",
+    "R20_SEAT_06_12_FOOT_R",
+    "R20_SEAT_06_12_SUPPORT",
+    "R20_SEAT_06_13_BACK",
+    "R20_SEAT_06_13_PAN",
+    "R20_SEAT_06_13_ARM_L",
+    "R20_SEAT_06_13_ARM_R",
+    "R20_SEAT_06_13_FOOT_L",
+    "R20_SEAT_06_13_FOOT_R",
+    "R20_SEAT_06_13_SUPPORT",
+    "R20_SEAT_06_14_BACK",
+    "R20_SEAT_06_14_PAN",
+    "R20_SEAT_06_14_ARM_L",
+    "R20_SEAT_06_14_ARM_R",
+    "R20_SEAT_06_14_FOOT_L",
+    "R20_SEAT_06_14_FOOT_R",
+    "R20_SEAT_06_14_SUPPORT",
+    "R20_SEAT_06_15_BACK",
+    "R20_SEAT_06_15_PAN",
+    "R20_SEAT_06_15_ARM_L",
+    "R20_SEAT_06_15_ARM_R",
+    "R20_SEAT_06_15_FOOT_L",
+    "R20_SEAT_06_15_FOOT_R",
+    "R20_SEAT_06_15_SUPPORT",
+    "R20_SEAT_06_16_BACK",
+    "R20_SEAT_06_16_PAN",
+    "R20_SEAT_06_16_ARM_L",
+    "R20_SEAT_06_16_ARM_R",
+    "R20_SEAT_06_16_FOOT_L",
+    "R20_SEAT_06_16_FOOT_R",
+    "R20_SEAT_06_16_SUPPORT",
+    "R20_SEAT_07_01_BACK",
+    "R20_SEAT_07_01_PAN",
+    "R20_SEAT_07_01_ARM_L",
+    "R20_SEAT_07_01_ARM_R",
+    "R20_SEAT_07_01_FOOT_L",
+    "R20_SEAT_07_01_FOOT_R",
+    "R20_SEAT_07_01_SUPPORT",
+    "R20_SEAT_07_02_BACK",
+    "R20_SEAT_07_02_PAN",
+    "R20_SEAT_07_02_ARM_L",
+    "R20_SEAT_07_02_ARM_R",
+    "R20_SEAT_07_02_FOOT_L",
+    "R20_SEAT_07_02_FOOT_R",
+    "R20_SEAT_07_02_SUPPORT",
+    "R20_SEAT_07_03_BACK",
+    "R20_SEAT_07_03_PAN",
+    "R20_SEAT_07_03_ARM_L",
+    "R20_SEAT_07_03_ARM_R",
+    "R20_SEAT_07_03_FOOT_L",
+    "R20_SEAT_07_03_FOOT_R",
+    "R20_SEAT_07_03_SUPPORT",
+    "R20_SEAT_07_04_BACK",
+    "R20_SEAT_07_04_PAN",
+    "R20_SEAT_07_04_ARM_L",
+    "R20_SEAT_07_04_ARM_R",
+    "R20_SEAT_07_04_FOOT_L",
+    "R20_SEAT_07_04_FOOT_R",
+    "R20_SEAT_07_04_SUPPORT",
+    "R20_SEAT_07_05_BACK",
+    "R20_SEAT_07_05_PAN",
+    "R20_SEAT_07_05_ARM_L",
+    "R20_SEAT_07_05_ARM_R",
+    "R20_SEAT_07_05_FOOT_L",
+    "R20_SEAT_07_05_FOOT_R",
+    "R20_SEAT_07_05_SUPPORT",
+    "R20_SEAT_07_06_BACK",
+    "R20_SEAT_07_06_PAN",
+    "R20_SEAT_07_06_ARM_L",
+    "R20_SEAT_07_06_ARM_R",
+    "R20_SEAT_07_06_FOOT_L",
+    "R20_SEAT_07_06_FOOT_R",
+    "R20_SEAT_07_06_SUPPORT",
+    "R20_SEAT_07_07_BACK",
+    "R20_SEAT_07_07_PAN",
+    "R20_SEAT_07_07_ARM_L",
+    "R20_SEAT_07_07_ARM_R",
+    "R20_SEAT_07_07_FOOT_L",
+    "R20_SEAT_07_07_FOOT_R",
+    "R20_SEAT_07_07_SUPPORT",
+    "R20_SEAT_07_08_BACK",
+    "R20_SEAT_07_08_PAN",
+    "R20_SEAT_07_08_ARM_L",
+    "R20_SEAT_07_08_ARM_R",
+    "R20_SEAT_07_08_FOOT_L",
+    "R20_SEAT_07_08_FOOT_R",
+    "R20_SEAT_07_08_SUPPORT",
+    "R20_SEAT_07_09_BACK",
+    "R20_SEAT_07_09_PAN",
+    "R20_SEAT_07_09_ARM_L",
+    "R20_SEAT_07_09_ARM_R",
+    "R20_SEAT_07_09_FOOT_L",
+    "R20_SEAT_07_09_FOOT_R",
+    "R20_SEAT_07_09_SUPPORT",
+    "R20_SEAT_07_10_BACK",
+    "R20_SEAT_07_10_PAN",
+    "R20_SEAT_07_10_ARM_L",
+    "R20_SEAT_07_10_ARM_R",
+    "R20_SEAT_07_10_FOOT_L",
+    "R20_SEAT_07_10_FOOT_R",
+    "R20_SEAT_07_10_SUPPORT",
+    "R20_SEAT_07_11_BACK",
+    "R20_SEAT_07_11_PAN",
+    "R20_SEAT_07_11_ARM_L",
+    "R20_SEAT_07_11_ARM_R",
+    "R20_SEAT_07_11_FOOT_L",
+    "R20_SEAT_07_11_FOOT_R",
+    "R20_SEAT_07_11_SUPPORT",
+    "R20_SEAT_07_12_BACK",
+    "R20_SEAT_07_12_PAN",
+    "R20_SEAT_07_12_ARM_L",
+    "R20_SEAT_07_12_ARM_R",
+    "R20_SEAT_07_12_FOOT_L",
+    "R20_SEAT_07_12_FOOT_R",
+    "R20_SEAT_07_12_SUPPORT",
+    "R20_SEAT_07_13_BACK",
+    "R20_SEAT_07_13_PAN",
+    "R20_SEAT_07_13_ARM_L",
+    "R20_SEAT_07_13_ARM_R",
+    "R20_SEAT_07_13_FOOT_L",
+    "R20_SEAT_07_13_FOOT_R",
+    "R20_SEAT_07_13_SUPPORT",
+    "R20_SEAT_07_14_BACK",
+    "R20_SEAT_07_14_PAN",
+    "R20_SEAT_07_14_ARM_L",
+    "R20_SEAT_07_14_ARM_R",
+    "R20_SEAT_07_14_FOOT_L",
+    "R20_SEAT_07_14_FOOT_R",
+    "R20_SEAT_07_14_SUPPORT",
+    "R20_SEAT_07_15_BACK",
+    "R20_SEAT_07_15_PAN",
+    "R20_SEAT_07_15_ARM_L",
+    "R20_SEAT_07_15_ARM_R",
+    "R20_SEAT_07_15_FOOT_L",
+    "R20_SEAT_07_15_FOOT_R",
+    "R20_SEAT_07_15_SUPPORT",
+    "R20_SEAT_07_16_BACK",
+    "R20_SEAT_07_16_PAN",
+    "R20_SEAT_07_16_ARM_L",
+    "R20_SEAT_07_16_ARM_R",
+    "R20_SEAT_07_16_FOOT_L",
+    "R20_SEAT_07_16_FOOT_R",
+    "R20_SEAT_07_16_SUPPORT",
+    "R20_SEAT_08_01_BACK",
+    "R20_SEAT_08_01_PAN",
+    "R20_SEAT_08_01_ARM_L",
+    "R20_SEAT_08_01_ARM_R",
+    "R20_SEAT_08_01_FOOT_L",
+    "R20_SEAT_08_01_FOOT_R",
+    "R20_SEAT_08_01_SUPPORT",
+    "R20_SEAT_08_02_BACK",
+    "R20_SEAT_08_02_PAN",
+    "R20_SEAT_08_02_ARM_L",
+    "R20_SEAT_08_02_ARM_R",
+    "R20_SEAT_08_02_FOOT_L",
+    "R20_SEAT_08_02_FOOT_R",
+    "R20_SEAT_08_02_SUPPORT",
+    "R20_SEAT_08_03_BACK",
+    "R20_SEAT_08_03_PAN",
+    "R20_SEAT_08_03_ARM_L",
+    "R20_SEAT_08_03_ARM_R",
+    "R20_SEAT_08_03_FOOT_L",
+    "R20_SEAT_08_03_FOOT_R",
+    "R20_SEAT_08_03_SUPPORT",
+    "R20_SEAT_08_04_BACK",
+    "R20_SEAT_08_04_PAN",
+    "R20_SEAT_08_04_ARM_L",
+    "R20_SEAT_08_04_ARM_R",
+    "R20_SEAT_08_04_FOOT_L",
+    "R20_SEAT_08_04_FOOT_R",
+    "R20_SEAT_08_04_SUPPORT",
+    "R20_SEAT_08_05_BACK",
+    "R20_SEAT_08_05_PAN",
+    "R20_SEAT_08_05_ARM_L",
+    "R20_SEAT_08_05_ARM_R",
+    "R20_SEAT_08_05_FOOT_L",
+    "R20_SEAT_08_05_FOOT_R",
+    "R20_SEAT_08_05_SUPPORT",
+    "R20_SEAT_08_06_BACK",
+    "R20_SEAT_08_06_PAN",
+    "R20_SEAT_08_06_ARM_L",
+    "R20_SEAT_08_06_ARM_R",
+    "R20_SEAT_08_06_FOOT_L",
+    "R20_SEAT_08_06_FOOT_R",
+    "R20_SEAT_08_06_SUPPORT",
+    "R20_SEAT_08_07_BACK",
+    "R20_SEAT_08_07_PAN",
+    "R20_SEAT_08_07_ARM_L",
+    "R20_SEAT_08_07_ARM_R",
+    "R20_SEAT_08_07_FOOT_L",
+    "R20_SEAT_08_07_FOOT_R",
+    "R20_SEAT_08_07_SUPPORT",
+    "R20_SEAT_08_08_BACK",
+    "R20_SEAT_08_08_PAN",
+    "R20_SEAT_08_08_ARM_L",
+    "R20_SEAT_08_08_ARM_R",
+    "R20_SEAT_08_08_FOOT_L",
+    "R20_SEAT_08_08_FOOT_R",
+    "R20_SEAT_08_08_SUPPORT",
+    "R20_SEAT_08_09_BACK",
+    "R20_SEAT_08_09_PAN",
+    "R20_SEAT_08_09_ARM_L",
+    "R20_SEAT_08_09_ARM_R",
+    "R20_SEAT_08_09_FOOT_L",
+    "R20_SEAT_08_09_FOOT_R",
+    "R20_SEAT_08_09_SUPPORT",
+    "R20_SEAT_08_10_BACK",
+    "R20_SEAT_08_10_PAN",
+    "R20_SEAT_08_10_ARM_L",
+    "R20_SEAT_08_10_ARM_R",
+    "R20_SEAT_08_10_FOOT_L",
+    "R20_SEAT_08_10_FOOT_R",
+    "R20_SEAT_08_10_SUPPORT",
+    "R20_SEAT_08_11_BACK",
+    "R20_SEAT_08_11_PAN",
+    "R20_SEAT_08_11_ARM_L",
+    "R20_SEAT_08_11_ARM_R",
+    "R20_SEAT_08_11_FOOT_L",
+    "R20_SEAT_08_11_FOOT_R",
+    "R20_SEAT_08_11_SUPPORT",
+    "R20_SEAT_08_12_BACK",
+    "R20_SEAT_08_12_PAN",
+    "R20_SEAT_08_12_ARM_L",
+    "R20_SEAT_08_12_ARM_R",
+    "R20_SEAT_08_12_FOOT_L",
+    "R20_SEAT_08_12_FOOT_R",
+    "R20_SEAT_08_12_SUPPORT",
+    "R20_SEAT_08_13_BACK",
+    "R20_SEAT_08_13_PAN",
+    "R20_SEAT_08_13_ARM_L",
+    "R20_SEAT_08_13_ARM_R",
+    "R20_SEAT_08_13_FOOT_L",
+    "R20_SEAT_08_13_FOOT_R",
+    "R20_SEAT_08_13_SUPPORT",
+    "R20_SEAT_08_14_BACK",
+    "R20_SEAT_08_14_PAN",
+    "R20_SEAT_08_14_ARM_L",
+    "R20_SEAT_08_14_ARM_R",
+    "R20_SEAT_08_14_FOOT_L",
+    "R20_SEAT_08_14_FOOT_R",
+    "R20_SEAT_08_14_SUPPORT",
+    "R20_SEAT_08_15_BACK",
+    "R20_SEAT_08_15_PAN",
+    "R20_SEAT_08_15_ARM_L",
+    "R20_SEAT_08_15_ARM_R",
+    "R20_SEAT_08_15_FOOT_L",
+    "R20_SEAT_08_15_FOOT_R",
+    "R20_SEAT_08_15_SUPPORT",
+    "R20_SEAT_08_16_BACK",
+    "R20_SEAT_08_16_PAN",
+    "R20_SEAT_08_16_ARM_L",
+    "R20_SEAT_08_16_ARM_R",
+    "R20_SEAT_08_16_FOOT_L",
+    "R20_SEAT_08_16_FOOT_R",
+    "R20_SEAT_08_16_SUPPORT"
+  ],
+  "chairs": [
+    {
+      "id": "R20_SEAT_01_01",
+      "row": 1,
+      "column": 1,
+      "native_xy": [
+        489.21875,
+        445.16
+      ],
+      "floor_z": -5.086293513971772,
+      "objects": [
+        "R20_SEAT_01_01_BACK",
+        "R20_SEAT_01_01_PAN",
+        "R20_SEAT_01_01_ARM_L",
+        "R20_SEAT_01_01_ARM_R",
+        "R20_SEAT_01_01_FOOT_L",
+        "R20_SEAT_01_01_FOOT_R",
+        "R20_SEAT_01_01_SUPPORT"
+      ]
+    },
+    {
+      "id": "R20_SEAT_01_02",
+      "row": 1,
+      "column": 2,
+      "native_xy": [
+        493.65625,
+        445.16
+      ],
+      "floor_z": -5.086293513971772,
+      "objects": [
+        "R20_SEAT_01_02_BACK",
+        "R20_SEAT_01_02_PAN",
+        "R20_SEAT_01_02_ARM_L",
+        "R20_SEAT_01_02_ARM_R",
+        "R20_SEAT_01_02_FOOT_L",
+        "R20_SEAT_01_02_FOOT_R",
+        "R20_SEAT_01_02_SUPPORT"
+      ]
+    },
+    {
+      "id": "R20_SEAT_01_03",
+      "row": 1,
+      "column": 3,
+      "native_xy": [
+        498.09375,
+        445.16
+      ],
+      "floor_z": -5.086293513971772,
+      "objects": [
+        "R20_SEAT_01_03_BACK",
+        "R20_SEAT_01_03_PAN",
+        "R20_SEAT_01_03_ARM_L",
+        "R20_SEAT_01_03_ARM_R",
+        "R20_SEAT_01_03_FOOT_L",
+        "R20_SEAT_01_03_FOOT_R",
+        "R20_SEAT_01_03_SUPPORT"
+      ]
+    },
+    {
+      "id": "R20_SEAT_01_04",
+      "row": 1,
+      "column": 4,
+      "native_xy": [
+        502.53125,
+        445.16
+      ],
+      "floor_z": -5.086293513971772,
+      "objects": [
+        "R20_SEAT_01_04_BACK",
+        "R20_SEAT_01_04_PAN",
+        "R20_SEAT_01_04_ARM_L",
+        "R20_SEAT_01_04_ARM_R",
+        "R20_SEAT_01_04_FOOT_L",
+        "R20_SEAT_01_04_FOOT_R",
+        "R20_SEAT_01_04_SUPPORT"
+      ]
+    },
+    {
+      "id": "R20_SEAT_01_05",
+      "row": 1,
+      "column": 5,
+      "native_xy": [
+        506.96875,
+        445.16
+      ],
+      "floor_z": -5.086293513971772,
+      "objects": [
+        "R20_SEAT_01_05_BACK",
+        "R20_SEAT_01_05_PAN",
+        "R20_SEAT_01_05_ARM_L",
+        "R20_SEAT_01_05_ARM_R",
+        "R20_SEAT_01_05_FOOT_L",
+        "R20_SEAT_01_05_FOOT_R",
+        "R20_SEAT_01_05_SUPPORT"
+      ]
+    },
+    {
+      "id": "R20_SEAT_01_06",
+      "row": 1,
+      "column": 6,
+      "native_xy": [
+        511.40625,
+        445.16
+      ],
+      "floor_z": -5.086293513971772,
+      "objects": [
+        "R20_SEAT_01_06_BACK",
+        "R20_SEAT_01_06_PAN",
+        "R20_SEAT_01_06_ARM_L",
+        "R20_SEAT_01_06_ARM_R",
+        "R20_SEAT_01_06_FOOT_L",
+        "R20_SEAT_01_06_FOOT_R",
+        "R20_SEAT_01_06_SUPPORT"
+      ]
+    },
+    {
+      "id": "R20_SEAT_01_07",
+      "row": 1,
+      "column": 7,
+      "native_xy": [
+        515.84375,
+        445.16
+      ],
+      "floor_z": -5.086293513971772,
+      "objects": [
+        "R20_SEAT_01_07_BACK",
+        "R20_SEAT_01_07_PAN",
+        "R20_SEAT_01_07_ARM_L",
+        "R20_SEAT_01_07_ARM_R",
+        "R20_SEAT_01_07_FOOT_L",
+        "R20_SEAT_01_07_FOOT_R",
+        "R20_SEAT_01_07_SUPPORT"
+      ]
+    },
+    {
+      "id": "R20_SEAT_01_08",
+      "row": 1,
+      "column": 8,
+      "native_xy": [
+        520.28125,
+        445.16
+      ],
+      "floor_z": -5.086293513971772,
+      "objects": [
+        "R20_SEAT_01_08_BACK",
+        "R20_SEAT_01_08_PAN",
+        "R20_SEAT_01_08_ARM_L",
+        "R20_SEAT_01_08_ARM_R",
+        "R20_SEAT_01_08_FOOT_L",
+        "R20_SEAT_01_08_FOOT_R",
+        "R20_SEAT_01_08_SUPPORT"
+      ]
+    },
+    {
+      "id": "R20_SEAT_01_09",
+      "row": 1,
+      "column": 9,
+      "native_xy": [
+        524.71875,
+        445.16
+      ],
+      "floor_z": -5.086293513971772,
+      "objects": [
+        "R20_SEAT_01_09_BACK",
+        "R20_SEAT_01_09_PAN",
+        "R20_SEAT_01_09_ARM_L",
+        "R20_SEAT_01_09_ARM_R",
+        "R20_SEAT_01_09_FOOT_L",
+        "R20_SEAT_01_09_FOOT_R",
+        "R20_SEAT_01_09_SUPPORT"
+      ]
+    },
+    {
+      "id": "R20_SEAT_01_10",
+      "row": 1,
+      "column": 10,
+      "native_xy": [
+        529.15625,
+        445.16
+      ],
+      "floor_z": -5.086293513971772,
+      "objects": [
+        "R20_SEAT_01_10_BACK",
+        "R20_SEAT_01_10_PAN",
+        "R20_SEAT_01_10_ARM_L",
+        "R20_SEAT_01_10_ARM_R",
+        "R20_SEAT_01_10_FOOT_L",
+        "R20_SEAT_01_10_FOOT_R",
+        "R20_SEAT_01_10_SUPPORT"
+      ]
+    },
+    {
+      "id": "R20_SEAT_01_11",
+      "row": 1,
+      "column": 11,
+      "native_xy": [
+        533.59375,
+        445.16
+      ],
+      "floor_z": -5.086293513971772,
+      "objects": [
+        "R20_SEAT_01_11_BACK",
+        "R20_SEAT_01_11_PAN",
+        "R20_SEAT_01_11_ARM_L",
+        "R20_SEAT_01_11_ARM_R",
+        "R20_SEAT_01_11_FOOT_L",
+        "R20_SEAT_01_11_FOOT_R",
+        "R20_SEAT_01_11_SUPPORT"
+      ]
+    },
+    {
+      "id": "R20_SEAT_01_12",
+      "row": 1,
+      "column": 12,
+      "native_xy": [
+        538.03125,
+        445.16
+      ],
+      "floor_z": -5.086293513971772,
+      "objects": [
+        "R20_SEAT_01_12_BACK",
+        "R20_SEAT_01_12_PAN",
+        "R20_SEAT_01_12_ARM_L",
+        "R20_SEAT_01_12_ARM_R",
+        "R20_SEAT_01_12_FOOT_L",
+        "R20_SEAT_01_12_FOOT_R",
+        "R20_SEAT_01_12_SUPPORT"
+      ]
+    },
+    {
+      "id": "R20_SEAT_01_13",
+      "row": 1,
+      "column": 13,
+      "native_xy": [
+        542.46875,
+        445.16
+      ],
+      "floor_z": -5.086293513971772,
+      "objects": [
+        "R20_SEAT_01_13_BACK",
+        "R20_SEAT_01_13_PAN",
+        "R20_SEAT_01_13_ARM_L",
+        "R20_SEAT_01_13_ARM_R",
+        "R20_SEAT_01_13_FOOT_L",
+        "R20_SEAT_01_13_FOOT_R",
+        "R20_SEAT_01_13_SUPPORT"
+      ]
+    },
+    {
+      "id": "R20_SEAT_01_14",
+      "row": 1,
+      "column": 14,
+      "native_xy": [
+        546.90625,
+        445.16
+      ],
+      "floor_z": -5.086293513971772,
+      "objects": [
+        "R20_SEAT_01_14_BACK",
+        "R20_SEAT_01_14_PAN",
+        "R20_SEAT_01_14_ARM_L",
+        "R20_SEAT_01_14_ARM_R",
+        "R20_SEAT_01_14_FOOT_L",
+        "R20_SEAT_01_14_FOOT_R",
+        "R20_SEAT_01_14_SUPPORT"
+      ]
+    },
+    {
+      "id": "R20_SEAT_01_15",
+      "row": 1,
+      "column": 15,
+      "native_xy": [
+        551.34375,
+        445.16
+      ],
+      "floor_z": -5.086293513971772,
+      "objects": [
+        "R20_SEAT_01_15_BACK",
+        "R20_SEAT_01_15_PAN",
+        "R20_SEAT_01_15_ARM_L",
+        "R20_SEAT_01_15_ARM_R",
+        "R20_SEAT_01_15_FOOT_L",
+        "R20_SEAT_01_15_FOOT_R",
+        "R20_SEAT_01_15_SUPPORT"
+      ]
+    },
+    {
+      "id": "R20_SEAT_01_16",
+      "row": 1,
+      "column": 16,
+      "native_xy": [
+        555.78125,
+        445.16
+      ],
+      "floor_z": -5.086293513971772,
+      "objects": [
+        "R20_SEAT_01_16_BACK",
+        "R20_SEAT_01_16_PAN",
+        "R20_SEAT_01_16_ARM_L",
+        "R20_SEAT_01_16_ARM_R",
+        "R20_SEAT_01_16_FOOT_L",
+        "R20_SEAT_01_16_FOOT_R",
+        "R20_SEAT_01_16_SUPPORT"
+      ]
+    },
+    {
+      "id": "R20_SEAT_02_01",
+      "row": 2,
+      "column": 1,
+      "native_xy": [
+        489.21875,
+        453.16
+      ],
+      "floor_z": -4.846293513971773,
+      "objects": [
+        "R20_SEAT_02_01_BACK",
+        "R20_SEAT_02_01_PAN",
+        "R20_SEAT_02_01_ARM_L",
+        "R20_SEAT_02_01_ARM_R",
+        "R20_SEAT_02_01_FOOT_L",
+        "R20_SEAT_02_01_FOOT_R",
+        "R20_SEAT_02_01_SUPPORT"
+      ]
+    },
+    {
+      "id": "R20_SEAT_02_02",
+      "row": 2,
+      "column": 2,
+      "native_xy": [
+        493.65625,
+        453.16
+      ],
+      "floor_z": -4.846293513971773,
+      "objects": [
+        "R20_SEAT_02_02_BACK",
+        "R20_SEAT_02_02_PAN",
+        "R20_SEAT_02_02_ARM_L",
+        "R20_SEAT_02_02_ARM_R",
+        "R20_SEAT_02_02_FOOT_L",
+        "R20_SEAT_02_02_FOOT_R",
+        "R20_SEAT_02_02_SUPPORT"
+      ]
+    },
+    {
+      "id": "R20_SEAT_02_03",
+      "row": 2,
+      "column": 3,
+      "native_xy": [
+        498.09375,
+        453.16
+      ],
+      "floor_z": -4.846293513971773,
+      "objects": [
+        "R20_SEAT_02_03_BACK",
+        "R20_SEAT_02_03_PAN",
+        "R20_SEAT_02_03_ARM_L",
+        "R20_SEAT_02_03_ARM_R",
+        "R20_SEAT_02_03_FOOT_L",
+        "R20_SEAT_02_03_FOOT_R",
+        "R20_SEAT_02_03_SUPPORT"
+      ]
+    },
+    {
+      "id": "R20_SEAT_02_04",
+      "row": 2,
+      "column": 4,
+      "native_xy": [
+        502.53125,
+        453.16
+      ],
+      "floor_z": -4.846293513971773,
+      "objects": [
+        "R20_SEAT_02_04_BACK",
+        "R20_SEAT_02_04_PAN",
+        "R20_SEAT_02_04_ARM_L",
+        "R20_SEAT_02_04_ARM_R",
+        "R20_SEAT_02_04_FOOT_L",
+        "R20_SEAT_02_04_FOOT_R",
+        "R20_SEAT_02_04_SUPPORT"
+      ]
+    },
+    {
+      "id": "R20_SEAT_02_05",
+      "row": 2,
+      "column": 5,
+      "native_xy": [
+        506.96875,
+        453.16
+      ],
+      "floor_z": -4.846293513971773,
+      "objects": [
+        "R20_SEAT_02_05_BACK",
+        "R20_SEAT_02_05_PAN",
+        "R20_SEAT_02_05_ARM_L",
+        "R20_SEAT_02_05_ARM_R",
+        "R20_SEAT_02_05_FOOT_L",
+        "R20_SEAT_02_05_FOOT_R",
+        "R20_SEAT_02_05_SUPPORT"
+      ]
+    },
+    {
+      "id": "R20_SEAT_02_06",
+      "row": 2,
+      "column": 6,
+      "native_xy": [
+        511.40625,
+        453.16
+      ],
+      "floor_z": -4.846293513971773,
+      "objects": [
+        "R20_SEAT_02_06_BACK",
+        "R20_SEAT_02_06_PAN",
+        "R20_SEAT_02_06_ARM_L",
+        "R20_SEAT_02_06_ARM_R",
+        "R20_SEAT_02_06_FOOT_L",
+        "R20_SEAT_02_06_FOOT_R",
+        "R20_SEAT_02_06_SUPPORT"
+      ]
+    },
+    {
+      "id": "R20_SEAT_02_07",
+      "row": 2,
+      "column": 7,
+      "native_xy": [
+        515.84375,
+        453.16
+      ],
+      "floor_z": -4.846293513971773,
+      "objects": [
+        "R20_SEAT_02_07_BACK",
+        "R20_SEAT_02_07_PAN",
+        "R20_SEAT_02_07_ARM_L",
+        "R20_SEAT_02_07_ARM_R",
+        "R20_SEAT_02_07_FOOT_L",
+        "R20_SEAT_02_07_FOOT_R",
+        "R20_SEAT_02_07_SUPPORT"
+      ]
+    },
+    {
+      "id": "R20_SEAT_02_08",
+      "row": 2,
+      "column": 8,
+      "native_xy": [
+        520.28125,
+        453.16
+      ],
+      "floor_z": -4.846293513971773,
+      "objects": [
+        "R20_SEAT_02_08_BACK",
+        "R20_SEAT_02_08_PAN",
+        "R20_SEAT_02_08_ARM_L",
+        "R20_SEAT_02_08_ARM_R",
+        "R20_SEAT_02_08_FOOT_L",
+        "R20_SEAT_02_08_FOOT_R",
+        "R20_SEAT_02_08_SUPPORT"
+      ]
+    },
+    {
+      "id": "R20_SEAT_02_09",
+      "row": 2,
+      "column": 9,
+      "native_xy": [
+        524.71875,
+        453.16
+      ],
+      "floor_z": -4.846293513971773,
+      "objects": [
+        "R20_SEAT_02_09_BACK",
+        "R20_SEAT_02_09_PAN",
+        "R20_SEAT_02_09_ARM_L",
+        "R20_SEAT_02_09_ARM_R",
+        "R20_SEAT_02_09_FOOT_L",
+        "R20_SEAT_02_09_FOOT_R",
+        "R20_SEAT_02_09_SUPPORT"
+      ]
+    },
+    {
+      "id": "R20_SEAT_02_10",
+      "row": 2,
+      "column": 10,
+      "native_xy": [
+        529.15625,
+        453.16
+      ],
+      "floor_z": -4.846293513971773,
+      "objects": [
+        "R20_SEAT_02_10_BACK",
+        "R20_SEAT_02_10_PAN",
+        "R20_SEAT_02_10_ARM_L",
+        "R20_SEAT_02_10_ARM_R",
+        "R20_SEAT_02_10_FOOT_L",
+        "R20_SEAT_02_10_FOOT_R",
+        "R20_SEAT_02_10_SUPPORT"
+      ]
+    },
+    {
+      "id": "R20_SEAT_02_11",
+      "row": 2,
+      "column": 11,
+      "native_xy": [
+        533.59375,
+        453.16
+      ],
+      "floor_z": -4.846293513971773,
+      "objects": [
+        "R20_SEAT_02_11_BACK",
+        "R20_SEAT_02_11_PAN",
+        "R20_SEAT_02_11_ARM_L",
+        "R20_SEAT_02_11_ARM_R",
+        "R20_SEAT_02_11_FOOT_L",
+        "R20_SEAT_02_11_FOOT_R",
+        "R20_SEAT_02_11_SUPPORT"
+      ]
+    },
+    {
+      "id": "R20_SEAT_02_12",
+      "row": 2,
+      "column": 12,
+      "native_xy": [
+        538.03125,
+        453.16
+      ],
+      "floor_z": -4.846293513971773,
+      "objects": [
+        "R20_SEAT_02_12_BACK",
+        "R20_SEAT_02_12_PAN",
+        "R20_SEAT_02_12_ARM_L",
+        "R20_SEAT_02_12_ARM_R",
+        "R20_SEAT_02_12_FOOT_L",
+        "R20_SEAT_02_12_FOOT_R",
+        "R20_SEAT_02_12_SUPPORT"
+      ]
+    },
+    {
+      "id": "R20_SEAT_02_13",
+      "row": 2,
+      "column": 13,
+      "native_xy": [
+        542.46875,
+        453.16
+      ],
+      "floor_z": -4.846293513971773,
+      "objects": [
+        "R20_SEAT_02_13_BACK",
+        "R20_SEAT_02_13_PAN",
+        "R20_SEAT_02_13_ARM_L",
+        "R20_SEAT_02_13_ARM_R",
+        "R20_SEAT_02_13_FOOT_L",
+        "R20_SEAT_02_13_FOOT_R",
+        "R20_SEAT_02_13_SUPPORT"
+      ]
+    },
+    {
+      "id": "R20_SEAT_02_14",
+      "row": 2,
+      "column": 14,
+      "native_xy": [
+        546.90625,
+        453.16
+      ],
+      "floor_z": -4.846293513971773,
+      "objects": [
+        "R20_SEAT_02_14_BACK",
+        "R20_SEAT_02_14_PAN",
+        "R20_SEAT_02_14_ARM_L",
+        "R20_SEAT_02_14_ARM_R",
+        "R20_SEAT_02_14_FOOT_L",
+        "R20_SEAT_02_14_FOOT_R",
+        "R20_SEAT_02_14_SUPPORT"
+      ]
+    },
+    {
+      "id": "R20_SEAT_02_15",
+      "row": 2,
+      "column": 15,
+      "native_xy": [
+        551.34375,
+        453.16
+      ],
+      "floor_z": -4.846293513971773,
+      "objects": [
+        "R20_SEAT_02_15_BACK",
+        "R20_SEAT_02_15_PAN",
+        "R20_SEAT_02_15_ARM_L",
+        "R20_SEAT_02_15_ARM_R",
+        "R20_SEAT_02_15_FOOT_L",
+        "R20_SEAT_02_15_FOOT_R",
+        "R20_SEAT_02_15_SUPPORT"
+      ]
+    },
+    {
+      "id": "R20_SEAT_02_16",
+      "row": 2,
+      "column": 16,
+      "native_xy": [
+        555.78125,
+        453.16
+      ],
+      "floor_z": -4.846293513971773,
+      "objects": [
+        "R20_SEAT_02_16_BACK",
+        "R20_SEAT_02_16_PAN",
+        "R20_SEAT_02_16_ARM_L",
+        "R20_SEAT_02_16_ARM_R",
+        "R20_SEAT_02_16_FOOT_L",
+        "R20_SEAT_02_16_FOOT_R",
+        "R20_SEAT_02_16_SUPPORT"
+      ]
+    },
+    {
+      "id": "R20_SEAT_03_01",
+      "row": 3,
+      "column": 1,
+      "native_xy": [
+        489.21875,
+        461.16
+      ],
+      "floor_z": -4.606293513971773,
+      "objects": [
+        "R20_SEAT_03_01_BACK",
+        "R20_SEAT_03_01_PAN",
+        "R20_SEAT_03_01_ARM_L",
+        "R20_SEAT_03_01_ARM_R",
+        "R20_SEAT_03_01_FOOT_L",
+        "R20_SEAT_03_01_FOOT_R",
+        "R20_SEAT_03_01_SUPPORT"
+      ]
+    },
+    {
+      "id": "R20_SEAT_03_02",
+      "row": 3,
+      "column": 2,
+      "native_xy": [
+        493.65625,
+        461.16
+      ],
+      "floor_z": -4.606293513971773,
+      "objects": [
+        "R20_SEAT_03_02_BACK",
+        "R20_SEAT_03_02_PAN",
+        "R20_SEAT_03_02_ARM_L",
+        "R20_SEAT_03_02_ARM_R",
+        "R20_SEAT_03_02_FOOT_L",
+        "R20_SEAT_03_02_FOOT_R",
+        "R20_SEAT_03_02_SUPPORT"
+      ]
+    },
+    {
+      "id": "R20_SEAT_03_03",
+      "row": 3,
+      "column": 3,
+      "native_xy": [
+        498.09375,
+        461.16
+      ],
+      "floor_z": -4.606293513971773,
+      "objects": [
+        "R20_SEAT_03_03_BACK",
+        "R20_SEAT_03_03_PAN",
+        "R20_SEAT_03_03_ARM_L",
+        "R20_SEAT_03_03_ARM_R",
+        "R20_SEAT_03_03_FOOT_L",
+        "R20_SEAT_03_03_FOOT_R",
+        "R20_SEAT_03_03_SUPPORT"
+      ]
+    },
+    {
+      "id": "R20_SEAT_03_04",
+      "row": 3,
+      "column": 4,
+      "native_xy": [
+        502.53125,
+        461.16
+      ],
+      "floor_z": -4.606293513971773,
+      "objects": [
+        "R20_SEAT_03_04_BACK",
+        "R20_SEAT_03_04_PAN",
+        "R20_SEAT_03_04_ARM_L",
+        "R20_SEAT_03_04_ARM_R",
+        "R20_SEAT_03_04_FOOT_L",
+        "R20_SEAT_03_04_FOOT_R",
+        "R20_SEAT_03_04_SUPPORT"
+      ]
+    },
+    {
+      "id": "R20_SEAT_03_05",
+      "row": 3,
+      "column": 5,
+      "native_xy": [
+        506.96875,
+        461.16
+      ],
+      "floor_z": -4.606293513971773,
+      "objects": [
+        "R20_SEAT_03_05_BACK",
+        "R20_SEAT_03_05_PAN",
+        "R20_SEAT_03_05_ARM_L",
+        "R20_SEAT_03_05_ARM_R",
+        "R20_SEAT_03_05_FOOT_L",
+        "R20_SEAT_03_05_FOOT_R",
+        "R20_SEAT_03_05_SUPPORT"
+      ]
+    },
+    {
+      "id": "R20_SEAT_03_06",
+      "row": 3,
+      "column": 6,
+      "native_xy": [
+        511.40625,
+        461.16
+      ],
+      "floor_z": -4.606293513971773,
+      "objects": [
+        "R20_SEAT_03_06_BACK",
+        "R20_SEAT_03_06_PAN",
+        "R20_SEAT_03_06_ARM_L",
+        "R20_SEAT_03_06_ARM_R",
+        "R20_SEAT_03_06_FOOT_L",
+        "R20_SEAT_03_06_FOOT_R",
+        "R20_SEAT_03_06_SUPPORT"
+      ]
+    },
+    {
+      "id": "R20_SEAT_03_07",
+      "row": 3,
+      "column": 7,
+      "native_xy": [
+        515.84375,
+        461.16
+      ],
+      "floor_z": -4.606293513971773,
+      "objects": [
+        "R20_SEAT_03_07_BACK",
+        "R20_SEAT_03_07_PAN",
+        "R20_SEAT_03_07_ARM_L",
+        "R20_SEAT_03_07_ARM_R",
+        "R20_SEAT_03_07_FOOT_L",
+        "R20_SEAT_03_07_FOOT_R",
+        "R20_SEAT_03_07_SUPPORT"
+      ]
+    },
+    {
+      "id": "R20_SEAT_03_08",
+      "row": 3,
+      "column": 8,
+      "native_xy": [
+        520.28125,
+        461.16
+      ],
+      "floor_z": -4.606293513971773,
+      "objects": [
+        "R20_SEAT_03_08_BACK",
+        "R20_SEAT_03_08_PAN",
+        "R20_SEAT_03_08_ARM_L",
+        "R20_SEAT_03_08_ARM_R",
+        "R20_SEAT_03_08_FOOT_L",
+        "R20_SEAT_03_08_FOOT_R",
+        "R20_SEAT_03_08_SUPPORT"
+      ]
+    },
+    {
+      "id": "R20_SEAT_03_09",
+      "row": 3,
+      "column": 9,
+      "native_xy": [
+        524.71875,
+        461.16
+      ],
+      "floor_z": -4.606293513971773,
+      "objects": [
+        "R20_SEAT_03_09_BACK",
+        "R20_SEAT_03_09_PAN",
+        "R20_SEAT_03_09_ARM_L",
+        "R20_SEAT_03_09_ARM_R",
+        "R20_SEAT_03_09_FOOT_L",
+        "R20_SEAT_03_09_FOOT_R",
+        "R20_SEAT_03_09_SUPPORT"
+      ]
+    },
+    {
+      "id": "R20_SEAT_03_10",
+      "row": 3,
+      "column": 10,
+      "native_xy": [
+        529.15625,
+        461.16
+      ],
+      "floor_z": -4.606293513971773,
+      "objects": [
+        "R20_SEAT_03_10_BACK",
+        "R20_SEAT_03_10_PAN",
+        "R20_SEAT_03_10_ARM_L",
+        "R20_SEAT_03_10_ARM_R",
+        "R20_SEAT_03_10_FOOT_L",
+        "R20_SEAT_03_10_FOOT_R",
+        "R20_SEAT_03_10_SUPPORT"
+      ]
+    },
+    {
+      "id": "R20_SEAT_03_11",
+      "row": 3,
+      "column": 11,
+      "native_xy": [
+        533.59375,
+        461.16
+      ],
+      "floor_z": -4.606293513971773,
+      "objects": [
+        "R20_SEAT_03_11_BACK",
+        "R20_SEAT_03_11_PAN",
+        "R20_SEAT_03_11_ARM_L",
+        "R20_SEAT_03_11_ARM_R",
+        "R20_SEAT_03_11_FOOT_L",
+        "R20_SEAT_03_11_FOOT_R",
+        "R20_SEAT_03_11_SUPPORT"
+      ]
+    },
+    {
+      "id": "R20_SEAT_03_12",
+      "row": 3,
+      "column": 12,
+      "native_xy": [
+        538.03125,
+        461.16
+      ],
+      "floor_z": -4.606293513971773,
+      "objects": [
+        "R20_SEAT_03_12_BACK",
+        "R20_SEAT_03_12_PAN",
+        "R20_SEAT_03_12_ARM_L",
+        "R20_SEAT_03_12_ARM_R",
+        "R20_SEAT_03_12_FOOT_L",
+        "R20_SEAT_03_12_FOOT_R",
+        "R20_SEAT_03_12_SUPPORT"
+      ]
+    },
+    {
+      "id": "R20_SEAT_03_13",
+      "row": 3,
+      "column": 13,
+      "native_xy": [
+        542.46875,
+        461.16
+      ],
+      "floor_z": -4.606293513971773,
+      "objects": [
+        "R20_SEAT_03_13_BACK",
+        "R20_SEAT_03_13_PAN",
+        "R20_SEAT_03_13_ARM_L",
+        "R20_SEAT_03_13_ARM_R",
+        "R20_SEAT_03_13_FOOT_L",
+        "R20_SEAT_03_13_FOOT_R",
+        "R20_SEAT_03_13_SUPPORT"
+      ]
+    },
+    {
+      "id": "R20_SEAT_03_14",
+      "row": 3,
+      "column": 14,
+      "native_xy": [
+        546.90625,
+        461.16
+      ],
+      "floor_z": -4.606293513971773,
+      "objects": [
+        "R20_SEAT_03_14_BACK",
+        "R20_SEAT_03_14_PAN",
+        "R20_SEAT_03_14_ARM_L",
+        "R20_SEAT_03_14_ARM_R",
+        "R20_SEAT_03_14_FOOT_L",
+        "R20_SEAT_03_14_FOOT_R",
+        "R20_SEAT_03_14_SUPPORT"
+      ]
+    },
+    {
+      "id": "R20_SEAT_03_15",
+      "row": 3,
+      "column": 15,
+      "native_xy": [
+        551.34375,
+        461.16
+      ],
+      "floor_z": -4.606293513971773,
+      "objects": [
+        "R20_SEAT_03_15_BACK",
+        "R20_SEAT_03_15_PAN",
+        "R20_SEAT_03_15_ARM_L",
+        "R20_SEAT_03_15_ARM_R",
+        "R20_SEAT_03_15_FOOT_L",
+        "R20_SEAT_03_15_FOOT_R",
+        "R20_SEAT_03_15_SUPPORT"
+      ]
+    },
+    {
+      "id": "R20_SEAT_03_16",
+      "row": 3,
+      "column": 16,
+      "native_xy": [
+        555.78125,
+        461.16
+      ],
+      "floor_z": -4.606293513971773,
+      "objects": [
+        "R20_SEAT_03_16_BACK",
+        "R20_SEAT_03_16_PAN",
+        "R20_SEAT_03_16_ARM_L",
+        "R20_SEAT_03_16_ARM_R",
+        "R20_SEAT_03_16_FOOT_L",
+        "R20_SEAT_03_16_FOOT_R",
+        "R20_SEAT_03_16_SUPPORT"
+      ]
+    },
+    {
+      "id": "R20_SEAT_04_01",
+      "row": 4,
+      "column": 1,
+      "native_xy": [
+        489.21875,
+        469.16
+      ],
+      "floor_z": -4.3662935139717725,
+      "objects": [
+        "R20_SEAT_04_01_BACK",
+        "R20_SEAT_04_01_PAN",
+        "R20_SEAT_04_01_ARM_L",
+        "R20_SEAT_04_01_ARM_R",
+        "R20_SEAT_04_01_FOOT_L",
+        "R20_SEAT_04_01_FOOT_R",
+        "R20_SEAT_04_01_SUPPORT"
+      ]
+    },
+    {
+      "id": "R20_SEAT_04_02",
+      "row": 4,
+      "column": 2,
+      "native_xy": [
+        493.65625,
+        469.16
+      ],
+      "floor_z": -4.3662935139717725,
+      "objects": [
+        "R20_SEAT_04_02_BACK",
+        "R20_SEAT_04_02_PAN",
+        "R20_SEAT_04_02_ARM_L",
+        "R20_SEAT_04_02_ARM_R",
+        "R20_SEAT_04_02_FOOT_L",
+        "R20_SEAT_04_02_FOOT_R",
+        "R20_SEAT_04_02_SUPPORT"
+      ]
+    },
+    {
+      "id": "R20_SEAT_04_03",
+      "row": 4,
+      "column": 3,
+      "native_xy": [
+        498.09375,
+        469.16
+      ],
+      "floor_z": -4.3662935139717725,
+      "objects": [
+        "R20_SEAT_04_03_BACK",
+        "R20_SEAT_04_03_PAN",
+        "R20_SEAT_04_03_ARM_L",
+        "R20_SEAT_04_03_ARM_R",
+        "R20_SEAT_04_03_FOOT_L",
+        "R20_SEAT_04_03_FOOT_R",
+        "R20_SEAT_04_03_SUPPORT"
+      ]
+    },
+    {
+      "id": "R20_SEAT_04_04",
+      "row": 4,
+      "column": 4,
+      "native_xy": [
+        502.53125,
+        469.16
+      ],
+      "floor_z": -4.3662935139717725,
+      "objects": [
+        "R20_SEAT_04_04_BACK",
+        "R20_SEAT_04_04_PAN",
+        "R20_SEAT_04_04_ARM_L",
+        "R20_SEAT_04_04_ARM_R",
+        "R20_SEAT_04_04_FOOT_L",
+        "R20_SEAT_04_04_FOOT_R",
+        "R20_SEAT_04_04_SUPPORT"
+      ]
+    },
+    {
+      "id": "R20_SEAT_04_05",
+      "row": 4,
+      "column": 5,
+      "native_xy": [
+        506.96875,
+        469.16
+      ],
+      "floor_z": -4.3662935139717725,
+      "objects": [
+        "R20_SEAT_04_05_BACK",
+        "R20_SEAT_04_05_PAN",
+        "R20_SEAT_04_05_ARM_L",
+        "R20_SEAT_04_05_ARM_R",
+        "R20_SEAT_04_05_FOOT_L",
+        "R20_SEAT_04_05_FOOT_R",
+        "R20_SEAT_04_05_SUPPORT"
+      ]
+    },
+    {
+      "id": "R20_SEAT_04_06",
+      "row": 4,
+      "column": 6,
+      "native_xy": [
+        511.40625,
+        469.16
+      ],
+      "floor_z": -4.3662935139717725,
+      "objects": [
+        "R20_SEAT_04_06_BACK",
+        "R20_SEAT_04_06_PAN",
+        "R20_SEAT_04_06_ARM_L",
+        "R20_SEAT_04_06_ARM_R",
+        "R20_SEAT_04_06_FOOT_L",
+        "R20_SEAT_04_06_FOOT_R",
+        "R20_SEAT_04_06_SUPPORT"
+      ]
+    },
+    {
+      "id": "R20_SEAT_04_07",
+      "row": 4,
+      "column": 7,
+      "native_xy": [
+        515.84375,
+        469.16
+      ],
+      "floor_z": -4.3662935139717725,
+      "objects": [
+        "R20_SEAT_04_07_BACK",
+        "R20_SEAT_04_07_PAN",
+        "R20_SEAT_04_07_ARM_L",
+        "R20_SEAT_04_07_ARM_R",
+        "R20_SEAT_04_07_FOOT_L",
+        "R20_SEAT_04_07_FOOT_R",
+        "R20_SEAT_04_07_SUPPORT"
+      ]
+    },
+    {
+      "id": "R20_SEAT_04_08",
+      "row": 4,
+      "column": 8,
+      "native_xy": [
+        520.28125,
+        469.16
+      ],
+      "floor_z": -4.3662935139717725,
+      "objects": [
+        "R20_SEAT_04_08_BACK",
+        "R20_SEAT_04_08_PAN",
+        "R20_SEAT_04_08_ARM_L",
+        "R20_SEAT_04_08_ARM_R",
+        "R20_SEAT_04_08_FOOT_L",
+        "R20_SEAT_04_08_FOOT_R",
+        "R20_SEAT_04_08_SUPPORT"
+      ]
+    },
+    {
+      "id": "R20_SEAT_04_09",
+      "row": 4,
+      "column": 9,
+      "native_xy": [
+        524.71875,
+        469.16
+      ],
+      "floor_z": -4.3662935139717725,
+      "objects": [
+        "R20_SEAT_04_09_BACK",
+        "R20_SEAT_04_09_PAN",
+        "R20_SEAT_04_09_ARM_L",
+        "R20_SEAT_04_09_ARM_R",
+        "R20_SEAT_04_09_FOOT_L",
+        "R20_SEAT_04_09_FOOT_R",
+        "R20_SEAT_04_09_SUPPORT"
+      ]
+    },
+    {
+      "id": "R20_SEAT_04_10",
+      "row": 4,
+      "column": 10,
+      "native_xy": [
+        529.15625,
+        469.16
+      ],
+      "floor_z": -4.3662935139717725,
+      "objects": [
+        "R20_SEAT_04_10_BACK",
+        "R20_SEAT_04_10_PAN",
+        "R20_SEAT_04_10_ARM_L",
+        "R20_SEAT_04_10_ARM_R",
+        "R20_SEAT_04_10_FOOT_L",
+        "R20_SEAT_04_10_FOOT_R",
+        "R20_SEAT_04_10_SUPPORT"
+      ]
+    },
+    {
+      "id": "R20_SEAT_04_11",
+      "row": 4,
+      "column": 11,
+      "native_xy": [
+        533.59375,
+        469.16
+      ],
+      "floor_z": -4.3662935139717725,
+      "objects": [
+        "R20_SEAT_04_11_BACK",
+        "R20_SEAT_04_11_PAN",
+        "R20_SEAT_04_11_ARM_L",
+        "R20_SEAT_04_11_ARM_R",
+        "R20_SEAT_04_11_FOOT_L",
+        "R20_SEAT_04_11_FOOT_R",
+        "R20_SEAT_04_11_SUPPORT"
+      ]
+    },
+    {
+      "id": "R20_SEAT_04_12",
+      "row": 4,
+      "column": 12,
+      "native_xy": [
+        538.03125,
+        469.16
+      ],
+      "floor_z": -4.3662935139717725,
+      "objects": [
+        "R20_SEAT_04_12_BACK",
+        "R20_SEAT_04_12_PAN",
+        "R20_SEAT_04_12_ARM_L",
+        "R20_SEAT_04_12_ARM_R",
+        "R20_SEAT_04_12_FOOT_L",
+        "R20_SEAT_04_12_FOOT_R",
+        "R20_SEAT_04_12_SUPPORT"
+      ]
+    },
+    {
+      "id": "R20_SEAT_04_13",
+      "row": 4,
+      "column": 13,
+      "native_xy": [
+        542.46875,
+        469.16
+      ],
+      "floor_z": -4.3662935139717725,
+      "objects": [
+        "R20_SEAT_04_13_BACK",
+        "R20_SEAT_04_13_PAN",
+        "R20_SEAT_04_13_ARM_L",
+        "R20_SEAT_04_13_ARM_R",
+        "R20_SEAT_04_13_FOOT_L",
+        "R20_SEAT_04_13_FOOT_R",
+        "R20_SEAT_04_13_SUPPORT"
+      ]
+    },
+    {
+      "id": "R20_SEAT_04_14",
+      "row": 4,
+      "column": 14,
+      "native_xy": [
+        546.90625,
+        469.16
+      ],
+      "floor_z": -4.3662935139717725,
+      "objects": [
+        "R20_SEAT_04_14_BACK",
+        "R20_SEAT_04_14_PAN",
+        "R20_SEAT_04_14_ARM_L",
+        "R20_SEAT_04_14_ARM_R",
+        "R20_SEAT_04_14_FOOT_L",
+        "R20_SEAT_04_14_FOOT_R",
+        "R20_SEAT_04_14_SUPPORT"
+      ]
+    },
+    {
+      "id": "R20_SEAT_04_15",
+      "row": 4,
+      "column": 15,
+      "native_xy": [
+        551.34375,
+        469.16
+      ],
+      "floor_z": -4.3662935139717725,
+      "objects": [
+        "R20_SEAT_04_15_BACK",
+        "R20_SEAT_04_15_PAN",
+        "R20_SEAT_04_15_ARM_L",
+        "R20_SEAT_04_15_ARM_R",
+        "R20_SEAT_04_15_FOOT_L",
+        "R20_SEAT_04_15_FOOT_R",
+        "R20_SEAT_04_15_SUPPORT"
+      ]
+    },
+    {
+      "id": "R20_SEAT_04_16",
+      "row": 4,
+      "column": 16,
+      "native_xy": [
+        555.78125,
+        469.16
+      ],
+      "floor_z": -4.3662935139717725,
+      "objects": [
+        "R20_SEAT_04_16_BACK",
+        "R20_SEAT_04_16_PAN",
+        "R20_SEAT_04_16_ARM_L",
+        "R20_SEAT_04_16_ARM_R",
+        "R20_SEAT_04_16_FOOT_L",
+        "R20_SEAT_04_16_FOOT_R",
+        "R20_SEAT_04_16_SUPPORT"
+      ]
+    },
+    {
+      "id": "R20_SEAT_05_01",
+      "row": 5,
+      "column": 1,
+      "native_xy": [
+        489.21875,
+        477.15999999999997
+      ],
+      "floor_z": -4.126293513971772,
+      "objects": [
+        "R20_SEAT_05_01_BACK",
+        "R20_SEAT_05_01_PAN",
+        "R20_SEAT_05_01_ARM_L",
+        "R20_SEAT_05_01_ARM_R",
+        "R20_SEAT_05_01_FOOT_L",
+        "R20_SEAT_05_01_FOOT_R",
+        "R20_SEAT_05_01_SUPPORT"
+      ]
+    },
+    {
+      "id": "R20_SEAT_05_02",
+      "row": 5,
+      "column": 2,
+      "native_xy": [
+        493.65625,
+        477.15999999999997
+      ],
+      "floor_z": -4.126293513971772,
+      "objects": [
+        "R20_SEAT_05_02_BACK",
+        "R20_SEAT_05_02_PAN",
+        "R20_SEAT_05_02_ARM_L",
+        "R20_SEAT_05_02_ARM_R",
+        "R20_SEAT_05_02_FOOT_L",
+        "R20_SEAT_05_02_FOOT_R",
+        "R20_SEAT_05_02_SUPPORT"
+      ]
+    },
+    {
+      "id": "R20_SEAT_05_03",
+      "row": 5,
+      "column": 3,
+      "native_xy": [
+        498.09375,
+        477.15999999999997
+      ],
+      "floor_z": -4.126293513971772,
+      "objects": [
+        "R20_SEAT_05_03_BACK",
+        "R20_SEAT_05_03_PAN",
+        "R20_SEAT_05_03_ARM_L",
+        "R20_SEAT_05_03_ARM_R",
+        "R20_SEAT_05_03_FOOT_L",
+        "R20_SEAT_05_03_FOOT_R",
+        "R20_SEAT_05_03_SUPPORT"
+      ]
+    },
+    {
+      "id": "R20_SEAT_05_04",
+      "row": 5,
+      "column": 4,
+      "native_xy": [
+        502.53125,
+        477.15999999999997
+      ],
+      "floor_z": -4.126293513971772,
+      "objects": [
+        "R20_SEAT_05_04_BACK",
+        "R20_SEAT_05_04_PAN",
+        "R20_SEAT_05_04_ARM_L",
+        "R20_SEAT_05_04_ARM_R",
+        "R20_SEAT_05_04_FOOT_L",
+        "R20_SEAT_05_04_FOOT_R",
+        "R20_SEAT_05_04_SUPPORT"
+      ]
+    },
+    {
+      "id": "R20_SEAT_05_05",
+      "row": 5,
+      "column": 5,
+      "native_xy": [
+        506.96875,
+        477.15999999999997
+      ],
+      "floor_z": -4.126293513971772,
+      "objects": [
+        "R20_SEAT_05_05_BACK",
+        "R20_SEAT_05_05_PAN",
+        "R20_SEAT_05_05_ARM_L",
+        "R20_SEAT_05_05_ARM_R",
+        "R20_SEAT_05_05_FOOT_L",
+        "R20_SEAT_05_05_FOOT_R",
+        "R20_SEAT_05_05_SUPPORT"
+      ]
+    },
+    {
+      "id": "R20_SEAT_05_06",
+      "row": 5,
+      "column": 6,
+      "native_xy": [
+        511.40625,
+        477.15999999999997
+      ],
+      "floor_z": -4.126293513971772,
+      "objects": [
+        "R20_SEAT_05_06_BACK",
+        "R20_SEAT_05_06_PAN",
+        "R20_SEAT_05_06_ARM_L",
+        "R20_SEAT_05_06_ARM_R",
+        "R20_SEAT_05_06_FOOT_L",
+        "R20_SEAT_05_06_FOOT_R",
+        "R20_SEAT_05_06_SUPPORT"
+      ]
+    },
+    {
+      "id": "R20_SEAT_05_07",
+      "row": 5,
+      "column": 7,
+      "native_xy": [
+        515.84375,
+        477.15999999999997
+      ],
+      "floor_z": -4.126293513971772,
+      "objects": [
+        "R20_SEAT_05_07_BACK",
+        "R20_SEAT_05_07_PAN",
+        "R20_SEAT_05_07_ARM_L",
+        "R20_SEAT_05_07_ARM_R",
+        "R20_SEAT_05_07_FOOT_L",
+        "R20_SEAT_05_07_FOOT_R",
+        "R20_SEAT_05_07_SUPPORT"
+      ]
+    },
+    {
+      "id": "R20_SEAT_05_08",
+      "row": 5,
+      "column": 8,
+      "native_xy": [
+        520.28125,
+        477.15999999999997
+      ],
+      "floor_z": -4.126293513971772,
+      "objects": [
+        "R20_SEAT_05_08_BACK",
+        "R20_SEAT_05_08_PAN",
+        "R20_SEAT_05_08_ARM_L",
+        "R20_SEAT_05_08_ARM_R",
+        "R20_SEAT_05_08_FOOT_L",
+        "R20_SEAT_05_08_FOOT_R",
+        "R20_SEAT_05_08_SUPPORT"
+      ]
+    },
+    {
+      "id": "R20_SEAT_05_09",
+      "row": 5,
+      "column": 9,
+      "native_xy": [
+        524.71875,
+        477.15999999999997
+      ],
+      "floor_z": -4.126293513971772,
+      "objects": [
+        "R20_SEAT_05_09_BACK",
+        "R20_SEAT_05_09_PAN",
+        "R20_SEAT_05_09_ARM_L",
+        "R20_SEAT_05_09_ARM_R",
+        "R20_SEAT_05_09_FOOT_L",
+        "R20_SEAT_05_09_FOOT_R",
+        "R20_SEAT_05_09_SUPPORT"
+      ]
+    },
+    {
+      "id": "R20_SEAT_05_10",
+      "row": 5,
+      "column": 10,
+      "native_xy": [
+        529.15625,
+        477.15999999999997
+      ],
+      "floor_z": -4.126293513971772,
+      "objects": [
+        "R20_SEAT_05_10_BACK",
+        "R20_SEAT_05_10_PAN",
+        "R20_SEAT_05_10_ARM_L",
+        "R20_SEAT_05_10_ARM_R",
+        "R20_SEAT_05_10_FOOT_L",
+        "R20_SEAT_05_10_FOOT_R",
+        "R20_SEAT_05_10_SUPPORT"
+      ]
+    },
+    {
+      "id": "R20_SEAT_05_11",
+      "row": 5,
+      "column": 11,
+      "native_xy": [
+        533.59375,
+        477.15999999999997
+      ],
+      "floor_z": -4.126293513971772,
+      "objects": [
+        "R20_SEAT_05_11_BACK",
+        "R20_SEAT_05_11_PAN",
+        "R20_SEAT_05_11_ARM_L",
+        "R20_SEAT_05_11_ARM_R",
+        "R20_SEAT_05_11_FOOT_L",
+        "R20_SEAT_05_11_FOOT_R",
+        "R20_SEAT_05_11_SUPPORT"
+      ]
+    },
+    {
+      "id": "R20_SEAT_05_12",
+      "row": 5,
+      "column": 12,
+      "native_xy": [
+        538.03125,
+        477.15999999999997
+      ],
+      "floor_z": -4.126293513971772,
+      "objects": [
+        "R20_SEAT_05_12_BACK",
+        "R20_SEAT_05_12_PAN",
+        "R20_SEAT_05_12_ARM_L",
+        "R20_SEAT_05_12_ARM_R",
+        "R20_SEAT_05_12_FOOT_L",
+        "R20_SEAT_05_12_FOOT_R",
+        "R20_SEAT_05_12_SUPPORT"
+      ]
+    },
+    {
+      "id": "R20_SEAT_05_13",
+      "row": 5,
+      "column": 13,
+      "native_xy": [
+        542.46875,
+        477.15999999999997
+      ],
+      "floor_z": -4.126293513971772,
+      "objects": [
+        "R20_SEAT_05_13_BACK",
+        "R20_SEAT_05_13_PAN",
+        "R20_SEAT_05_13_ARM_L",
+        "R20_SEAT_05_13_ARM_R",
+        "R20_SEAT_05_13_FOOT_L",
+        "R20_SEAT_05_13_FOOT_R",
+        "R20_SEAT_05_13_SUPPORT"
+      ]
+    },
+    {
+      "id": "R20_SEAT_05_14",
+      "row": 5,
+      "column": 14,
+      "native_xy": [
+        546.90625,
+        477.15999999999997
+      ],
+      "floor_z": -4.126293513971772,
+      "objects": [
+        "R20_SEAT_05_14_BACK",
+        "R20_SEAT_05_14_PAN",
+        "R20_SEAT_05_14_ARM_L",
+        "R20_SEAT_05_14_ARM_R",
+        "R20_SEAT_05_14_FOOT_L",
+        "R20_SEAT_05_14_FOOT_R",
+        "R20_SEAT_05_14_SUPPORT"
+      ]
+    },
+    {
+      "id": "R20_SEAT_05_15",
+      "row": 5,
+      "column": 15,
+      "native_xy": [
+        551.34375,
+        477.15999999999997
+      ],
+      "floor_z": -4.126293513971772,
+      "objects": [
+        "R20_SEAT_05_15_BACK",
+        "R20_SEAT_05_15_PAN",
+        "R20_SEAT_05_15_ARM_L",
+        "R20_SEAT_05_15_ARM_R",
+        "R20_SEAT_05_15_FOOT_L",
+        "R20_SEAT_05_15_FOOT_R",
+        "R20_SEAT_05_15_SUPPORT"
+      ]
+    },
+    {
+      "id": "R20_SEAT_05_16",
+      "row": 5,
+      "column": 16,
+      "native_xy": [
+        555.78125,
+        477.15999999999997
+      ],
+      "floor_z": -4.126293513971772,
+      "objects": [
+        "R20_SEAT_05_16_BACK",
+        "R20_SEAT_05_16_PAN",
+        "R20_SEAT_05_16_ARM_L",
+        "R20_SEAT_05_16_ARM_R",
+        "R20_SEAT_05_16_FOOT_L",
+        "R20_SEAT_05_16_FOOT_R",
+        "R20_SEAT_05_16_SUPPORT"
+      ]
+    },
+    {
+      "id": "R20_SEAT_06_01",
+      "row": 6,
+      "column": 1,
+      "native_xy": [
+        489.21875,
+        485.15999999999997
+      ],
+      "floor_z": -3.8862935139717725,
+      "objects": [
+        "R20_SEAT_06_01_BACK",
+        "R20_SEAT_06_01_PAN",
+        "R20_SEAT_06_01_ARM_L",
+        "R20_SEAT_06_01_ARM_R",
+        "R20_SEAT_06_01_FOOT_L",
+        "R20_SEAT_06_01_FOOT_R",
+        "R20_SEAT_06_01_SUPPORT"
+      ]
+    },
+    {
+      "id": "R20_SEAT_06_02",
+      "row": 6,
+      "column": 2,
+      "native_xy": [
+        493.65625,
+        485.15999999999997
+      ],
+      "floor_z": -3.8862935139717725,
+      "objects": [
+        "R20_SEAT_06_02_BACK",
+        "R20_SEAT_06_02_PAN",
+        "R20_SEAT_06_02_ARM_L",
+        "R20_SEAT_06_02_ARM_R",
+        "R20_SEAT_06_02_FOOT_L",
+        "R20_SEAT_06_02_FOOT_R",
+        "R20_SEAT_06_02_SUPPORT"
+      ]
+    },
+    {
+      "id": "R20_SEAT_06_03",
+      "row": 6,
+      "column": 3,
+      "native_xy": [
+        498.09375,
+        485.15999999999997
+      ],
+      "floor_z": -3.8862935139717725,
+      "objects": [
+        "R20_SEAT_06_03_BACK",
+        "R20_SEAT_06_03_PAN",
+        "R20_SEAT_06_03_ARM_L",
+        "R20_SEAT_06_03_ARM_R",
+        "R20_SEAT_06_03_FOOT_L",
+        "R20_SEAT_06_03_FOOT_R",
+        "R20_SEAT_06_03_SUPPORT"
+      ]
+    },
+    {
+      "id": "R20_SEAT_06_04",
+      "row": 6,
+      "column": 4,
+      "native_xy": [
+        502.53125,
+        485.15999999999997
+      ],
+      "floor_z": -3.8862935139717725,
+      "objects": [
+        "R20_SEAT_06_04_BACK",
+        "R20_SEAT_06_04_PAN",
+        "R20_SEAT_06_04_ARM_L",
+        "R20_SEAT_06_04_ARM_R",
+        "R20_SEAT_06_04_FOOT_L",
+        "R20_SEAT_06_04_FOOT_R",
+        "R20_SEAT_06_04_SUPPORT"
+      ]
+    },
+    {
+      "id": "R20_SEAT_06_05",
+      "row": 6,
+      "column": 5,
+      "native_xy": [
+        506.96875,
+        485.15999999999997
+      ],
+      "floor_z": -3.8862935139717725,
+      "objects": [
+        "R20_SEAT_06_05_BACK",
+        "R20_SEAT_06_05_PAN",
+        "R20_SEAT_06_05_ARM_L",
+        "R20_SEAT_06_05_ARM_R",
+        "R20_SEAT_06_05_FOOT_L",
+        "R20_SEAT_06_05_FOOT_R",
+        "R20_SEAT_06_05_SUPPORT"
+      ]
+    },
+    {
+      "id": "R20_SEAT_06_06",
+      "row": 6,
+      "column": 6,
+      "native_xy": [
+        511.40625,
+        485.15999999999997
+      ],
+      "floor_z": -3.8862935139717725,
+      "objects": [
+        "R20_SEAT_06_06_BACK",
+        "R20_SEAT_06_06_PAN",
+        "R20_SEAT_06_06_ARM_L",
+        "R20_SEAT_06_06_ARM_R",
+        "R20_SEAT_06_06_FOOT_L",
+        "R20_SEAT_06_06_FOOT_R",
+        "R20_SEAT_06_06_SUPPORT"
+      ]
+    },
+    {
+      "id": "R20_SEAT_06_07",
+      "row": 6,
+      "column": 7,
+      "native_xy": [
+        515.84375,
+        485.15999999999997
+      ],
+      "floor_z": -3.8862935139717725,
+      "objects": [
+        "R20_SEAT_06_07_BACK",
+        "R20_SEAT_06_07_PAN",
+        "R20_SEAT_06_07_ARM_L",
+        "R20_SEAT_06_07_ARM_R",
+        "R20_SEAT_06_07_FOOT_L",
+        "R20_SEAT_06_07_FOOT_R",
+        "R20_SEAT_06_07_SUPPORT"
+      ]
+    },
+    {
+      "id": "R20_SEAT_06_08",
+      "row": 6,
+      "column": 8,
+      "native_xy": [
+        520.28125,
+        485.15999999999997
+      ],
+      "floor_z": -3.8862935139717725,
+      "objects": [
+        "R20_SEAT_06_08_BACK",
+        "R20_SEAT_06_08_PAN",
+        "R20_SEAT_06_08_ARM_L",
+        "R20_SEAT_06_08_ARM_R",
+        "R20_SEAT_06_08_FOOT_L",
+        "R20_SEAT_06_08_FOOT_R",
+        "R20_SEAT_06_08_SUPPORT"
+      ]
+    },
+    {
+      "id": "R20_SEAT_06_09",
+      "row": 6,
+      "column": 9,
+      "native_xy": [
+        524.71875,
+        485.15999999999997
+      ],
+      "floor_z": -3.8862935139717725,
+      "objects": [
+        "R20_SEAT_06_09_BACK",
+        "R20_SEAT_06_09_PAN",
+        "R20_SEAT_06_09_ARM_L",
+        "R20_SEAT_06_09_ARM_R",
+        "R20_SEAT_06_09_FOOT_L",
+        "R20_SEAT_06_09_FOOT_R",
+        "R20_SEAT_06_09_SUPPORT"
+      ]
+    },
+    {
+      "id": "R20_SEAT_06_10",
+      "row": 6,
+      "column": 10,
+      "native_xy": [
+        529.15625,
+        485.15999999999997
+      ],
+      "floor_z": -3.8862935139717725,
+      "objects": [
+        "R20_SEAT_06_10_BACK",
+        "R20_SEAT_06_10_PAN",
+        "R20_SEAT_06_10_ARM_L",
+        "R20_SEAT_06_10_ARM_R",
+        "R20_SEAT_06_10_FOOT_L",
+        "R20_SEAT_06_10_FOOT_R",
+        "R20_SEAT_06_10_SUPPORT"
+      ]
+    },
+    {
+      "id": "R20_SEAT_06_11",
+      "row": 6,
+      "column": 11,
+      "native_xy": [
+        533.59375,
+        485.15999999999997
+      ],
+      "floor_z": -3.8862935139717725,
+      "objects": [
+        "R20_SEAT_06_11_BACK",
+        "R20_SEAT_06_11_PAN",
+        "R20_SEAT_06_11_ARM_L",
+        "R20_SEAT_06_11_ARM_R",
+        "R20_SEAT_06_11_FOOT_L",
+        "R20_SEAT_06_11_FOOT_R",
+        "R20_SEAT_06_11_SUPPORT"
+      ]
+    },
+    {
+      "id": "R20_SEAT_06_12",
+      "row": 6,
+      "column": 12,
+      "native_xy": [
+        538.03125,
+        485.15999999999997
+      ],
+      "floor_z": -3.8862935139717725,
+      "objects": [
+        "R20_SEAT_06_12_BACK",
+        "R20_SEAT_06_12_PAN",
+        "R20_SEAT_06_12_ARM_L",
+        "R20_SEAT_06_12_ARM_R",
+        "R20_SEAT_06_12_FOOT_L",
+        "R20_SEAT_06_12_FOOT_R",
+        "R20_SEAT_06_12_SUPPORT"
+      ]
+    },
+    {
+      "id": "R20_SEAT_06_13",
+      "row": 6,
+      "column": 13,
+      "native_xy": [
+        542.46875,
+        485.15999999999997
+      ],
+      "floor_z": -3.8862935139717725,
+      "objects": [
+        "R20_SEAT_06_13_BACK",
+        "R20_SEAT_06_13_PAN",
+        "R20_SEAT_06_13_ARM_L",
+        "R20_SEAT_06_13_ARM_R",
+        "R20_SEAT_06_13_FOOT_L",
+        "R20_SEAT_06_13_FOOT_R",
+        "R20_SEAT_06_13_SUPPORT"
+      ]
+    },
+    {
+      "id": "R20_SEAT_06_14",
+      "row": 6,
+      "column": 14,
+      "native_xy": [
+        546.90625,
+        485.15999999999997
+      ],
+      "floor_z": -3.8862935139717725,
+      "objects": [
+        "R20_SEAT_06_14_BACK",
+        "R20_SEAT_06_14_PAN",
+        "R20_SEAT_06_14_ARM_L",
+        "R20_SEAT_06_14_ARM_R",
+        "R20_SEAT_06_14_FOOT_L",
+        "R20_SEAT_06_14_FOOT_R",
+        "R20_SEAT_06_14_SUPPORT"
+      ]
+    },
+    {
+      "id": "R20_SEAT_06_15",
+      "row": 6,
+      "column": 15,
+      "native_xy": [
+        551.34375,
+        485.15999999999997
+      ],
+      "floor_z": -3.8862935139717725,
+      "objects": [
+        "R20_SEAT_06_15_BACK",
+        "R20_SEAT_06_15_PAN",
+        "R20_SEAT_06_15_ARM_L",
+        "R20_SEAT_06_15_ARM_R",
+        "R20_SEAT_06_15_FOOT_L",
+        "R20_SEAT_06_15_FOOT_R",
+        "R20_SEAT_06_15_SUPPORT"
+      ]
+    },
+    {
+      "id": "R20_SEAT_06_16",
+      "row": 6,
+      "column": 16,
+      "native_xy": [
+        555.78125,
+        485.15999999999997
+      ],
+      "floor_z": -3.8862935139717725,
+      "objects": [
+        "R20_SEAT_06_16_BACK",
+        "R20_SEAT_06_16_PAN",
+        "R20_SEAT_06_16_ARM_L",
+        "R20_SEAT_06_16_ARM_R",
+        "R20_SEAT_06_16_FOOT_L",
+        "R20_SEAT_06_16_FOOT_R",
+        "R20_SEAT_06_16_SUPPORT"
+      ]
+    },
+    {
+      "id": "R20_SEAT_07_01",
+      "row": 7,
+      "column": 1,
+      "native_xy": [
+        489.21875,
+        493.15999999999997
+      ],
+      "floor_z": -3.6462935139717727,
+      "objects": [
+        "R20_SEAT_07_01_BACK",
+        "R20_SEAT_07_01_PAN",
+        "R20_SEAT_07_01_ARM_L",
+        "R20_SEAT_07_01_ARM_R",
+        "R20_SEAT_07_01_FOOT_L",
+        "R20_SEAT_07_01_FOOT_R",
+        "R20_SEAT_07_01_SUPPORT"
+      ]
+    },
+    {
+      "id": "R20_SEAT_07_02",
+      "row": 7,
+      "column": 2,
+      "native_xy": [
+        493.65625,
+        493.15999999999997
+      ],
+      "floor_z": -3.6462935139717727,
+      "objects": [
+        "R20_SEAT_07_02_BACK",
+        "R20_SEAT_07_02_PAN",
+        "R20_SEAT_07_02_ARM_L",
+        "R20_SEAT_07_02_ARM_R",
+        "R20_SEAT_07_02_FOOT_L",
+        "R20_SEAT_07_02_FOOT_R",
+        "R20_SEAT_07_02_SUPPORT"
+      ]
+    },
+    {
+      "id": "R20_SEAT_07_03",
+      "row": 7,
+      "column": 3,
+      "native_xy": [
+        498.09375,
+        493.15999999999997
+      ],
+      "floor_z": -3.6462935139717727,
+      "objects": [
+        "R20_SEAT_07_03_BACK",
+        "R20_SEAT_07_03_PAN",
+        "R20_SEAT_07_03_ARM_L",
+        "R20_SEAT_07_03_ARM_R",
+        "R20_SEAT_07_03_FOOT_L",
+        "R20_SEAT_07_03_FOOT_R",
+        "R20_SEAT_07_03_SUPPORT"
+      ]
+    },
+    {
+      "id": "R20_SEAT_07_04",
+      "row": 7,
+      "column": 4,
+      "native_xy": [
+        502.53125,
+        493.15999999999997
+      ],
+      "floor_z": -3.6462935139717727,
+      "objects": [
+        "R20_SEAT_07_04_BACK",
+        "R20_SEAT_07_04_PAN",
+        "R20_SEAT_07_04_ARM_L",
+        "R20_SEAT_07_04_ARM_R",
+        "R20_SEAT_07_04_FOOT_L",
+        "R20_SEAT_07_04_FOOT_R",
+        "R20_SEAT_07_04_SUPPORT"
+      ]
+    },
+    {
+      "id": "R20_SEAT_07_05",
+      "row": 7,
+      "column": 5,
+      "native_xy": [
+        506.96875,
+        493.15999999999997
+      ],
+      "floor_z": -3.6462935139717727,
+      "objects": [
+        "R20_SEAT_07_05_BACK",
+        "R20_SEAT_07_05_PAN",
+        "R20_SEAT_07_05_ARM_L",
+        "R20_SEAT_07_05_ARM_R",
+        "R20_SEAT_07_05_FOOT_L",
+        "R20_SEAT_07_05_FOOT_R",
+        "R20_SEAT_07_05_SUPPORT"
+      ]
+    },
+    {
+      "id": "R20_SEAT_07_06",
+      "row": 7,
+      "column": 6,
+      "native_xy": [
+        511.40625,
+        493.15999999999997
+      ],
+      "floor_z": -3.6462935139717727,
+      "objects": [
+        "R20_SEAT_07_06_BACK",
+        "R20_SEAT_07_06_PAN",
+        "R20_SEAT_07_06_ARM_L",
+        "R20_SEAT_07_06_ARM_R",
+        "R20_SEAT_07_06_FOOT_L",
+        "R20_SEAT_07_06_FOOT_R",
+        "R20_SEAT_07_06_SUPPORT"
+      ]
+    },
+    {
+      "id": "R20_SEAT_07_07",
+      "row": 7,
+      "column": 7,
+      "native_xy": [
+        515.84375,
+        493.15999999999997
+      ],
+      "floor_z": -3.6462935139717727,
+      "objects": [
+        "R20_SEAT_07_07_BACK",
+        "R20_SEAT_07_07_PAN",
+        "R20_SEAT_07_07_ARM_L",
+        "R20_SEAT_07_07_ARM_R",
+        "R20_SEAT_07_07_FOOT_L",
+        "R20_SEAT_07_07_FOOT_R",
+        "R20_SEAT_07_07_SUPPORT"
+      ]
+    },
+    {
+      "id": "R20_SEAT_07_08",
+      "row": 7,
+      "column": 8,
+      "native_xy": [
+        520.28125,
+        493.15999999999997
+      ],
+      "floor_z": -3.6462935139717727,
+      "objects": [
+        "R20_SEAT_07_08_BACK",
+        "R20_SEAT_07_08_PAN",
+        "R20_SEAT_07_08_ARM_L",
+        "R20_SEAT_07_08_ARM_R",
+        "R20_SEAT_07_08_FOOT_L",
+        "R20_SEAT_07_08_FOOT_R",
+        "R20_SEAT_07_08_SUPPORT"
+      ]
+    },
+    {
+      "id": "R20_SEAT_07_09",
+      "row": 7,
+      "column": 9,
+      "native_xy": [
+        524.71875,
+        493.15999999999997
+      ],
+      "floor_z": -3.6462935139717727,
+      "objects": [
+        "R20_SEAT_07_09_BACK",
+        "R20_SEAT_07_09_PAN",
+        "R20_SEAT_07_09_ARM_L",
+        "R20_SEAT_07_09_ARM_R",
+        "R20_SEAT_07_09_FOOT_L",
+        "R20_SEAT_07_09_FOOT_R",
+        "R20_SEAT_07_09_SUPPORT"
+      ]
+    },
+    {
+      "id": "R20_SEAT_07_10",
+      "row": 7,
+      "column": 10,
+      "native_xy": [
+        529.15625,
+        493.15999999999997
+      ],
+      "floor_z": -3.6462935139717727,
+      "objects": [
+        "R20_SEAT_07_10_BACK",
+        "R20_SEAT_07_10_PAN",
+        "R20_SEAT_07_10_ARM_L",
+        "R20_SEAT_07_10_ARM_R",
+        "R20_SEAT_07_10_FOOT_L",
+        "R20_SEAT_07_10_FOOT_R",
+        "R20_SEAT_07_10_SUPPORT"
+      ]
+    },
+    {
+      "id": "R20_SEAT_07_11",
+      "row": 7,
+      "column": 11,
+      "native_xy": [
+        533.59375,
+        493.15999999999997
+      ],
+      "floor_z": -3.6462935139717727,
+      "objects": [
+        "R20_SEAT_07_11_BACK",
+        "R20_SEAT_07_11_PAN",
+        "R20_SEAT_07_11_ARM_L",
+        "R20_SEAT_07_11_ARM_R",
+        "R20_SEAT_07_11_FOOT_L",
+        "R20_SEAT_07_11_FOOT_R",
+        "R20_SEAT_07_11_SUPPORT"
+      ]
+    },
+    {
+      "id": "R20_SEAT_07_12",
+      "row": 7,
+      "column": 12,
+      "native_xy": [
+        538.03125,
+        493.15999999999997
+      ],
+      "floor_z": -3.6462935139717727,
+      "objects": [
+        "R20_SEAT_07_12_BACK",
+        "R20_SEAT_07_12_PAN",
+        "R20_SEAT_07_12_ARM_L",
+        "R20_SEAT_07_12_ARM_R",
+        "R20_SEAT_07_12_FOOT_L",
+        "R20_SEAT_07_12_FOOT_R",
+        "R20_SEAT_07_12_SUPPORT"
+      ]
+    },
+    {
+      "id": "R20_SEAT_07_13",
+      "row": 7,
+      "column": 13,
+      "native_xy": [
+        542.46875,
+        493.15999999999997
+      ],
+      "floor_z": -3.6462935139717727,
+      "objects": [
+        "R20_SEAT_07_13_BACK",
+        "R20_SEAT_07_13_PAN",
+        "R20_SEAT_07_13_ARM_L",
+        "R20_SEAT_07_13_ARM_R",
+        "R20_SEAT_07_13_FOOT_L",
+        "R20_SEAT_07_13_FOOT_R",
+        "R20_SEAT_07_13_SUPPORT"
+      ]
+    },
+    {
+      "id": "R20_SEAT_07_14",
+      "row": 7,
+      "column": 14,
+      "native_xy": [
+        546.90625,
+        493.15999999999997
+      ],
+      "floor_z": -3.6462935139717727,
+      "objects": [
+        "R20_SEAT_07_14_BACK",
+        "R20_SEAT_07_14_PAN",
+        "R20_SEAT_07_14_ARM_L",
+        "R20_SEAT_07_14_ARM_R",
+        "R20_SEAT_07_14_FOOT_L",
+        "R20_SEAT_07_14_FOOT_R",
+        "R20_SEAT_07_14_SUPPORT"
+      ]
+    },
+    {
+      "id": "R20_SEAT_07_15",
+      "row": 7,
+      "column": 15,
+      "native_xy": [
+        551.34375,
+        493.15999999999997
+      ],
+      "floor_z": -3.6462935139717727,
+      "objects": [
+        "R20_SEAT_07_15_BACK",
+        "R20_SEAT_07_15_PAN",
+        "R20_SEAT_07_15_ARM_L",
+        "R20_SEAT_07_15_ARM_R",
+        "R20_SEAT_07_15_FOOT_L",
+        "R20_SEAT_07_15_FOOT_R",
+        "R20_SEAT_07_15_SUPPORT"
+      ]
+    },
+    {
+      "id": "R20_SEAT_07_16",
+      "row": 7,
+      "column": 16,
+      "native_xy": [
+        555.78125,
+        493.15999999999997
+      ],
+      "floor_z": -3.6462935139717727,
+      "objects": [
+        "R20_SEAT_07_16_BACK",
+        "R20_SEAT_07_16_PAN",
+        "R20_SEAT_07_16_ARM_L",
+        "R20_SEAT_07_16_ARM_R",
+        "R20_SEAT_07_16_FOOT_L",
+        "R20_SEAT_07_16_FOOT_R",
+        "R20_SEAT_07_16_SUPPORT"
+      ]
+    },
+    {
+      "id": "R20_SEAT_08_01",
+      "row": 8,
+      "column": 1,
+      "native_xy": [
+        489.21875,
+        501.15999999999997
+      ],
+      "floor_z": -3.4062935139717725,
+      "objects": [
+        "R20_SEAT_08_01_BACK",
+        "R20_SEAT_08_01_PAN",
+        "R20_SEAT_08_01_ARM_L",
+        "R20_SEAT_08_01_ARM_R",
+        "R20_SEAT_08_01_FOOT_L",
+        "R20_SEAT_08_01_FOOT_R",
+        "R20_SEAT_08_01_SUPPORT"
+      ]
+    },
+    {
+      "id": "R20_SEAT_08_02",
+      "row": 8,
+      "column": 2,
+      "native_xy": [
+        493.65625,
+        501.15999999999997
+      ],
+      "floor_z": -3.4062935139717725,
+      "objects": [
+        "R20_SEAT_08_02_BACK",
+        "R20_SEAT_08_02_PAN",
+        "R20_SEAT_08_02_ARM_L",
+        "R20_SEAT_08_02_ARM_R",
+        "R20_SEAT_08_02_FOOT_L",
+        "R20_SEAT_08_02_FOOT_R",
+        "R20_SEAT_08_02_SUPPORT"
+      ]
+    },
+    {
+      "id": "R20_SEAT_08_03",
+      "row": 8,
+      "column": 3,
+      "native_xy": [
+        498.09375,
+        501.15999999999997
+      ],
+      "floor_z": -3.4062935139717725,
+      "objects": [
+        "R20_SEAT_08_03_BACK",
+        "R20_SEAT_08_03_PAN",
+        "R20_SEAT_08_03_ARM_L",
+        "R20_SEAT_08_03_ARM_R",
+        "R20_SEAT_08_03_FOOT_L",
+        "R20_SEAT_08_03_FOOT_R",
+        "R20_SEAT_08_03_SUPPORT"
+      ]
+    },
+    {
+      "id": "R20_SEAT_08_04",
+      "row": 8,
+      "column": 4,
+      "native_xy": [
+        502.53125,
+        501.15999999999997
+      ],
+      "floor_z": -3.4062935139717725,
+      "objects": [
+        "R20_SEAT_08_04_BACK",
+        "R20_SEAT_08_04_PAN",
+        "R20_SEAT_08_04_ARM_L",
+        "R20_SEAT_08_04_ARM_R",
+        "R20_SEAT_08_04_FOOT_L",
+        "R20_SEAT_08_04_FOOT_R",
+        "R20_SEAT_08_04_SUPPORT"
+      ]
+    },
+    {
+      "id": "R20_SEAT_08_05",
+      "row": 8,
+      "column": 5,
+      "native_xy": [
+        506.96875,
+        501.15999999999997
+      ],
+      "floor_z": -3.4062935139717725,
+      "objects": [
+        "R20_SEAT_08_05_BACK",
+        "R20_SEAT_08_05_PAN",
+        "R20_SEAT_08_05_ARM_L",
+        "R20_SEAT_08_05_ARM_R",
+        "R20_SEAT_08_05_FOOT_L",
+        "R20_SEAT_08_05_FOOT_R",
+        "R20_SEAT_08_05_SUPPORT"
+      ]
+    },
+    {
+      "id": "R20_SEAT_08_06",
+      "row": 8,
+      "column": 6,
+      "native_xy": [
+        511.40625,
+        501.15999999999997
+      ],
+      "floor_z": -3.4062935139717725,
+      "objects": [
+        "R20_SEAT_08_06_BACK",
+        "R20_SEAT_08_06_PAN",
+        "R20_SEAT_08_06_ARM_L",
+        "R20_SEAT_08_06_ARM_R",
+        "R20_SEAT_08_06_FOOT_L",
+        "R20_SEAT_08_06_FOOT_R",
+        "R20_SEAT_08_06_SUPPORT"
+      ]
+    },
+    {
+      "id": "R20_SEAT_08_07",
+      "row": 8,
+      "column": 7,
+      "native_xy": [
+        515.84375,
+        501.15999999999997
+      ],
+      "floor_z": -3.4062935139717725,
+      "objects": [
+        "R20_SEAT_08_07_BACK",
+        "R20_SEAT_08_07_PAN",
+        "R20_SEAT_08_07_ARM_L",
+        "R20_SEAT_08_07_ARM_R",
+        "R20_SEAT_08_07_FOOT_L",
+        "R20_SEAT_08_07_FOOT_R",
+        "R20_SEAT_08_07_SUPPORT"
+      ]
+    },
+    {
+      "id": "R20_SEAT_08_08",
+      "row": 8,
+      "column": 8,
+      "native_xy": [
+        520.28125,
+        501.15999999999997
+      ],
+      "floor_z": -3.4062935139717725,
+      "objects": [
+        "R20_SEAT_08_08_BACK",
+        "R20_SEAT_08_08_PAN",
+        "R20_SEAT_08_08_ARM_L",
+        "R20_SEAT_08_08_ARM_R",
+        "R20_SEAT_08_08_FOOT_L",
+        "R20_SEAT_08_08_FOOT_R",
+        "R20_SEAT_08_08_SUPPORT"
+      ]
+    },
+    {
+      "id": "R20_SEAT_08_09",
+      "row": 8,
+      "column": 9,
+      "native_xy": [
+        524.71875,
+        501.15999999999997
+      ],
+      "floor_z": -3.4062935139717725,
+      "objects": [
+        "R20_SEAT_08_09_BACK",
+        "R20_SEAT_08_09_PAN",
+        "R20_SEAT_08_09_ARM_L",
+        "R20_SEAT_08_09_ARM_R",
+        "R20_SEAT_08_09_FOOT_L",
+        "R20_SEAT_08_09_FOOT_R",
+        "R20_SEAT_08_09_SUPPORT"
+      ]
+    },
+    {
+      "id": "R20_SEAT_08_10",
+      "row": 8,
+      "column": 10,
+      "native_xy": [
+        529.15625,
+        501.15999999999997
+      ],
+      "floor_z": -3.4062935139717725,
+      "objects": [
+        "R20_SEAT_08_10_BACK",
+        "R20_SEAT_08_10_PAN",
+        "R20_SEAT_08_10_ARM_L",
+        "R20_SEAT_08_10_ARM_R",
+        "R20_SEAT_08_10_FOOT_L",
+        "R20_SEAT_08_10_FOOT_R",
+        "R20_SEAT_08_10_SUPPORT"
+      ]
+    },
+    {
+      "id": "R20_SEAT_08_11",
+      "row": 8,
+      "column": 11,
+      "native_xy": [
+        533.59375,
+        501.15999999999997
+      ],
+      "floor_z": -3.4062935139717725,
+      "objects": [
+        "R20_SEAT_08_11_BACK",
+        "R20_SEAT_08_11_PAN",
+        "R20_SEAT_08_11_ARM_L",
+        "R20_SEAT_08_11_ARM_R",
+        "R20_SEAT_08_11_FOOT_L",
+        "R20_SEAT_08_11_FOOT_R",
+        "R20_SEAT_08_11_SUPPORT"
+      ]
+    },
+    {
+      "id": "R20_SEAT_08_12",
+      "row": 8,
+      "column": 12,
+      "native_xy": [
+        538.03125,
+        501.15999999999997
+      ],
+      "floor_z": -3.4062935139717725,
+      "objects": [
+        "R20_SEAT_08_12_BACK",
+        "R20_SEAT_08_12_PAN",
+        "R20_SEAT_08_12_ARM_L",
+        "R20_SEAT_08_12_ARM_R",
+        "R20_SEAT_08_12_FOOT_L",
+        "R20_SEAT_08_12_FOOT_R",
+        "R20_SEAT_08_12_SUPPORT"
+      ]
+    },
+    {
+      "id": "R20_SEAT_08_13",
+      "row": 8,
+      "column": 13,
+      "native_xy": [
+        542.46875,
+        501.15999999999997
+      ],
+      "floor_z": -3.4062935139717725,
+      "objects": [
+        "R20_SEAT_08_13_BACK",
+        "R20_SEAT_08_13_PAN",
+        "R20_SEAT_08_13_ARM_L",
+        "R20_SEAT_08_13_ARM_R",
+        "R20_SEAT_08_13_FOOT_L",
+        "R20_SEAT_08_13_FOOT_R",
+        "R20_SEAT_08_13_SUPPORT"
+      ]
+    },
+    {
+      "id": "R20_SEAT_08_14",
+      "row": 8,
+      "column": 14,
+      "native_xy": [
+        546.90625,
+        501.15999999999997
+      ],
+      "floor_z": -3.4062935139717725,
+      "objects": [
+        "R20_SEAT_08_14_BACK",
+        "R20_SEAT_08_14_PAN",
+        "R20_SEAT_08_14_ARM_L",
+        "R20_SEAT_08_14_ARM_R",
+        "R20_SEAT_08_14_FOOT_L",
+        "R20_SEAT_08_14_FOOT_R",
+        "R20_SEAT_08_14_SUPPORT"
+      ]
+    },
+    {
+      "id": "R20_SEAT_08_15",
+      "row": 8,
+      "column": 15,
+      "native_xy": [
+        551.34375,
+        501.15999999999997
+      ],
+      "floor_z": -3.4062935139717725,
+      "objects": [
+        "R20_SEAT_08_15_BACK",
+        "R20_SEAT_08_15_PAN",
+        "R20_SEAT_08_15_ARM_L",
+        "R20_SEAT_08_15_ARM_R",
+        "R20_SEAT_08_15_FOOT_L",
+        "R20_SEAT_08_15_FOOT_R",
+        "R20_SEAT_08_15_SUPPORT"
+      ]
+    },
+    {
+      "id": "R20_SEAT_08_16",
+      "row": 8,
+      "column": 16,
+      "native_xy": [
+        555.78125,
+        501.15999999999997
+      ],
+      "floor_z": -3.4062935139717725,
+      "objects": [
+        "R20_SEAT_08_16_BACK",
+        "R20_SEAT_08_16_PAN",
+        "R20_SEAT_08_16_ARM_L",
+        "R20_SEAT_08_16_ARM_R",
+        "R20_SEAT_08_16_FOOT_L",
+        "R20_SEAT_08_16_FOOT_R",
+        "R20_SEAT_08_16_SUPPORT"
+      ]
+    }
+  ],
+  "changed_inherited_objects": [],
+  "construction_acceptance": false
+}

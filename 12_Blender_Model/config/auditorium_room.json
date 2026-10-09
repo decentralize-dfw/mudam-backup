@@ -1,0 +1,59 @@
+{
+  "base_scene": "MUDAM_R18_PAVYON_GECIT_DETAY_v002.blend",
+  "source_ids": [
+    "071",
+    "072",
+    "073",
+    "074",
+    "075",
+    "076",
+    "101",
+    "104",
+    "LCB_auditorium3",
+    "LCB_aschman2"
+  ],
+  "source_coordinates": "104 native 1000x866; apply registered similarity",
+  "room_x": [
+    464.5,
+    580.5
+  ],
+  "front_y": 421,
+  "rear_y": 530,
+  "seat_block_x": [
+    487,
+    558
+  ],
+  "seat_y": [
+    441,
+    505
+  ],
+  "row_count": 8,
+  "row_rise_m": 0.24,
+  "aisle_substeps_per_row": 2,
+  "stage_rise_m": 0.42,
+  "ceiling_bottom_z": -1.0,
+  "ceiling_top_z": -0.25,
+  "wall_thickness_m": 0.2,
+  "coffer_columns": 5,
+  "coffer_rows": 5,
+  "coffer_inset_m": 0.35,
+  "coffer_beam_width_m": 0.16,
+  "coffer_bottom_z": -1.0,
+  "coffer_inset_top_z": -0.4,
+  "limits": [
+    "104 draws 8 rows and 9 seat symbols per row; these are diagram symbols, not physical seat counts.",
+    "128 theater capacity in LCB table differs from 130 in its prose; physical seating layout not inferred as fact.",
+    "Two stone side aisles and tiered stone floor visible in LCB_aschman2 and 076; exact rises and tread count candidates.",
+    "101 supports auditorium below ground with a distinct ceiling zone, not a measured tier profile. -1.0m soffit and -0.4m coffer top are section/photo candidates.",
+    "5x5 coffer layout is candidate extrapolation from 074/075, not a verified total count.",
+    "Stage and side entry corners follow 104; rear technical cupboards and exact door identity unresolved.",
+    "LCB_auditorium3 supports eight rows and 16 seats in rear row; candidate 8x16 layout, not every occluded seat independently verified."
+  ],
+  "coffer_field_native": [
+    484.5,
+    560.5,
+    429,
+    505
+  ],
+  "floor_material_evidence": "LCB_aschman2 and 076 show pale stone tiles, not wood; corrected before release"
+}

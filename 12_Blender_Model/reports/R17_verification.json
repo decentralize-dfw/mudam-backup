@@ -1,0 +1,300 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R17_PAVYON_MEKAN_v001.blend",
+  "failures": [],
+  "evaluated_solids": [
+    {
+      "name": "R17_WALL_0",
+      "volume": 19.23399716317984,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R17_WALL_1",
+      "volume": 8.242333531692125,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R17_WALL_2",
+      "volume": 19.038926095507918,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R17_PORTAL_HEAD",
+      "volume": 1.0823255306748223,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R17_PORTAL_BELOW",
+      "volume": 3.2352932915164367,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R17_WALL_4",
+      "volume": 19.23397550510553,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R17_WALL_5",
+      "volume": 8.242290484109915,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R17_WALL_6",
+      "volume": 19.427474338222055,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R17_WINDOW_LEFT",
+      "volume": 0.41629304815611157,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R17_WINDOW_RIGHT",
+      "volume": 0.41629304815611157,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R17_WINDOW_SILL",
+      "volume": 3.7494867929664792,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R17_WINDOW_HEAD",
+      "volume": 1.3774546967204677,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R17_WINDOW_FRAME_LEFT",
+      "volume": 0.049875439164666524,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R17_WINDOW_FRAME_RIGHT",
+      "volume": 0.04987543916436321,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R17_WINDOW_FRAME_SILL",
+      "volume": 0.056067760700363976,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R17_WINDOW_FRAME_HEAD",
+      "volume": 0.05606771295894812,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R17_WINDOW_GLASS",
+      "volume": 0.14946429504469924,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R17_GROUND_FLOOR",
+      "volume": 31.338611320804674,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R17_STAIR_RESERVE_OPERAND",
+      "volume": 9.89625553714539,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    }
+  ],
+  "bridge_portal": [
+    {
+      "y": 268,
+      "z": 0.2,
+      "hits": []
+    },
+    {
+      "y": 268,
+      "z": 1.5,
+      "hits": []
+    },
+    {
+      "y": 268,
+      "z": 2.1,
+      "hits": []
+    },
+    {
+      "y": 279,
+      "z": 0.2,
+      "hits": []
+    },
+    {
+      "y": 279,
+      "z": 1.5,
+      "hits": []
+    },
+    {
+      "y": 279,
+      "z": 2.1,
+      "hits": []
+    },
+    {
+      "y": 290,
+      "z": 0.2,
+      "hits": []
+    },
+    {
+      "y": 290,
+      "z": 1.5,
+      "hits": []
+    },
+    {
+      "y": 290,
+      "z": 2.1,
+      "hits": []
+    }
+  ],
+  "floor_support": [
+    {
+      "x": 107,
+      "y": 279,
+      "hits": [
+        "R17_GROUND_FLOOR"
+      ]
+    },
+    {
+      "x": 110,
+      "y": 230,
+      "hits": [
+        "R17_GROUND_FLOOR"
+      ]
+    },
+    {
+      "x": 150,
+      "y": 270,
+      "hits": [
+        "R17_GROUND_FLOOR"
+      ]
+    },
+    {
+      "x": 150,
+      "y": 310,
+      "hits": [
+        "R17_GROUND_FLOOR"
+      ]
+    },
+    {
+      "x": 106,
+      "y": 330,
+      "hits": [
+        "R17_GROUND_FLOOR"
+      ]
+    },
+    {
+      "x": 64,
+      "y": 300,
+      "hits": [
+        "R17_GROUND_FLOOR"
+      ]
+    },
+    {
+      "x": 95,
+      "y": 290,
+      "hits": [
+        "R17_GROUND_FLOOR"
+      ]
+    },
+    {
+      "x": 171,
+      "y": 279,
+      "hits": [
+        "P05_LINK_FLOOR"
+      ]
+    },
+    {
+      "x": 175,
+      "y": 279,
+      "hits": [
+        "P05_LINK_FLOOR"
+      ]
+    }
+  ],
+  "window_view": [
+    {
+      "y": 269,
+      "z": 1.3,
+      "hits": [
+        "R17_WINDOW_GLASS"
+      ]
+    },
+    {
+      "y": 269,
+      "z": 2.3,
+      "hits": [
+        "R17_WINDOW_GLASS"
+      ]
+    },
+    {
+      "y": 269,
+      "z": 3.3,
+      "hits": [
+        "R17_WINDOW_GLASS"
+      ]
+    },
+    {
+      "y": 279,
+      "z": 1.3,
+      "hits": [
+        "R17_WINDOW_GLASS"
+      ]
+    },
+    {
+      "y": 279,
+      "z": 2.3,
+      "hits": [
+        "R17_WINDOW_GLASS"
+      ]
+    },
+    {
+      "y": 279,
+      "z": 3.3,
+      "hits": [
+        "R17_WINDOW_GLASS"
+      ]
+    },
+    {
+      "y": 289,
+      "z": 1.3,
+      "hits": [
+        "R17_WINDOW_GLASS"
+      ]
+    },
+    {
+      "y": 289,
+      "z": 2.3,
+      "hits": [
+        "R17_WINDOW_GLASS"
+      ]
+    },
+    {
+      "y": 289,
+      "z": 3.3,
+      "hits": [
+        "R17_WINDOW_GLASS"
+      ]
+    }
+  ],
+  "stair_reserve_open": true,
+  "stair_and_guard_complete": false,
+  "construction_acceptance": false
+}

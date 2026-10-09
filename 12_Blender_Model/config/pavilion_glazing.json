@@ -1,0 +1,34 @@
+{
+  "base_scene": "MUDAM_R12_BATI_DUZ_CAM_v001.blend",
+  "source_ids": [
+    "001",
+    "004",
+    "089",
+    "101",
+    "102"
+  ],
+  "tower_topology": "four-sided lantern from 089; earlier eight-sided study rejected",
+  "tower_width_ratio_101": 0.24390243902439024,
+  "roof_rows_candidate": 3,
+  "roof_face_columns_candidate": 3,
+  "tower_columns": 3,
+  "tower_rows": 3,
+  "glass_thickness_m": 0.018,
+  "frame_width_m": 0.075,
+  "frame_depth_m": 0.14,
+  "finial_stem_height_m": 0.6,
+  "finial_stem_diameter_m": 0.025,
+  "finial_ball_diameter_m": 0.11,
+  "observations": [
+    "089 close view shows two adjacent broad tower faces, each with three columns and three rows; the eight-sided reduced-footprint study does not match.",
+    "102 outer pavilion remains an octagon. Four large sloping trapezoids and four shorter triangular transitions join the square lantern.",
+    "001 and 089 support sloped panel rows, a pyramidal cap and a stem with ball at the apex.",
+    "101 supplies only conditional proportions. New inner quadrilateral follows parallel offsets of the four long outer source edges so every primary roof facet is planar."
+  ],
+  "limits": [
+    "Lantern footprint orientation and dimensions remain source-derived candidates; no calibrated 089 camera solution.",
+    "Exact roof subdivision on obscured faces is a symmetry hypothesis.",
+    "Mullion sizes, glass thickness, finial and internal tension rods are unmeasured.",
+    "The original pavilion stone wall, link, and levels are retained; internal spiral, gallery floor and basement remain separate work."
+  ]
+}
