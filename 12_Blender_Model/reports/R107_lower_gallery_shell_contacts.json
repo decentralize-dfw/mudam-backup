@@ -1,0 +1,11 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R107_OKUMA_DOSEME_DUVAR_TEMASI_v001.blend",
+  "checks": 2988,
+  "findings": [],
+  "construction_acceptance": false,
+  "limits": [
+    "Local15mm inward probes against actual wall faces, not room-grid bounds.",
+    "Windows/recesses and genuine high portals can lack a floor/ceiling at these levels and require source classification.",
+    "Wall search range4m; missing walls are a separate diagnostic."
+  ]
+}

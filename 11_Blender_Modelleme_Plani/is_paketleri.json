@@ -104,17 +104,20 @@
       "status": "in_progress",
       "open_issues": [
         "Çevre arazi kolları, eksik cephe açıklıkları ve bütün yapı birleşimlerinin kaynak karşılaştırması sürüyor.",
-        "Bütün bina tamamlanmadı. Diğer dar duvar–döşeme–tavan temasları kaynaklarla karşılaştırılıyor; mevcut kotlar ve kalınlıklar ölçülmemiş adaylardır."
+        "Bütün bina tamamlanmadı. Diğer dar duvar–döşeme–tavan temasları kaynaklarla karşılaştırılıyor; mevcut kotlar ve kalınlıklar ölçülmemiş adaylardır.",
+        "Bütün bina tamamlanmadı. Diğer küçük odaların üst örtüleri, kalan çelik/cam birleşimleri ve bina son kontrolü açık; kesin kot ve malzeme ölçüleri hâlâ aday."
       ],
       "updated": "2026-10-08",
       "artifacts": [
-        "12_Blender_Model/scenes/MUDAM_R105_BATI_GALERI_DOSEME_TAVAN_TEMASI_v002.blend",
+        "12_Blender_Model/scenes/MUDAM_R107_OKUMA_DOSEME_DUVAR_TEMASI_v001.blend",
+        "12_Blender_Model/reports/R107_KONTROL_RAPORU.md",
         "12_Blender_Model/reports/R105_KONTROL_RAPORU.md"
       ],
       "dependency_mode": "regional_study_only_no_global_acceptance",
       "completed_scope": [
         "Ana hacimler, üst galerilerin 6+4 ışıklık adayı, yan örtüler ve pavyon kuruldu.",
-        "Batı zemin galerisinde mevcut duvar ile döşeme/tavan arasındaki yaklaşık 20 cm açıklık giderildi. Yalnız iki mevcut nesne genişletildi; 1.030 temas ve 108 giriş/güzergâh kontrolü geçti. Önce/sonra görüntüleri karşılaştırıldı."
+        "Batı zemin galerisinde mevcut duvar ile döşeme/tavan arasındaki yaklaşık 20 cm açıklık giderildi. Yalnız iki mevcut nesne genişletildi; 1.030 temas ve 108 giriş/güzergâh kontrolü geçti. Önce/sonra görüntüleri karşılaştırıldı.",
+        "Okuma odasının eski döşeme kenarı mevcut PDF2016 duvar konturuyla uzlaştırıldı; duvar dibindeki açık şerit giderildi. Merkez boşluk ve üç geçit korundu. 1.313 döşeme/boşluk ve 36 geçiş kontrolü geçti; önce/sonra görüntüleri incelendi."
       ],
       "coverage_as_of": "R55"
     },
@@ -187,13 +190,14 @@
         "Bütün bina kabulü yok. Diğer üst kat duvar/örtü birleşimleri ve katlar arası devamlılık kontrolü sürüyor; ölçülmemiş kalınlık ve kotlar aday.",
         "Bütün bina kabulü yok. Diğer kabuk birleşimleri ve kat ilişkileri kaynaklarla karşılaştırılmaya devam ediyor; ölçülmemiş kotlar ve kalınlıklar aday.",
         "Bütün bina kabulü yok. Diğer kabuk birleşimleri ve kat ilişkileri kaynaklarla karşılaştırılıyor; komşudan devralınan kalınlık ve kotlar ölçülmemiş adaylardır.",
-        "Bütün bina tamamlanmadı. Diğer dar duvar–döşeme–tavan temasları kaynaklarla karşılaştırılıyor; mevcut kotlar ve kalınlıklar ölçülmemiş adaylardır."
+        "Bütün bina tamamlanmadı. Diğer dar duvar–döşeme–tavan temasları kaynaklarla karşılaştırılıyor; mevcut kotlar ve kalınlıklar ölçülmemiş adaylardır.",
+        "Bütün bina tamamlanmadı. Diğer kabuk birleşimleri, merdiven/kapı detayları ve bütünleşik kaynak kontrolü açık; ölçülmemiş kalınlık ve kotlar aday."
       ],
       "updated": "2026-10-08",
       "dependency_mode": "regional_study_only_no_global_acceptance",
       "artifacts": [
-        "12_Blender_Model/scenes/MUDAM_R105_BATI_GALERI_DOSEME_TAVAN_TEMASI_v002.blend",
-        "12_Blender_Model/reports/R105_KONTROL_RAPORU.md",
+        "12_Blender_Model/scenes/MUDAM_R109_SERVIS_MERDIVEN_ALTI_KOSELERI_v001.blend",
+        "12_Blender_Model/reports/R109_KONTROL_RAPORU.md",
         "12_Blender_Model/reports/R44_KONTROL_RAPORU.md",
         "12_Blender_Model/reports/R52_KONTROL_RAPORU.md",
         "12_Blender_Model/reports/R60_KONTROL_RAPORU.md",
@@ -231,7 +235,9 @@
         "12_Blender_Model/reports/R101_KONTROL_RAPORU.md",
         "12_Blender_Model/reports/R102_KONTROL_RAPORU.md",
         "12_Blender_Model/reports/R103_KONTROL_RAPORU.md",
-        "12_Blender_Model/reports/R104_KONTROL_RAPORU.md"
+        "12_Blender_Model/reports/R104_KONTROL_RAPORU.md",
+        "12_Blender_Model/reports/R105_KONTROL_RAPORU.md",
+        "12_Blender_Model/reports/R108_KONTROL_RAPORU.md"
       ],
       "completed_scope": [
         "Duvar/döşeme bölgesel kabukları kapalı; merdiven nişi ve galeri camlarıyla yerel kesimler koordine edildi.",
@@ -271,7 +277,9 @@
         "Üst servis odası ve merdiven kuyusunda 14 duvarın 12 dış köşesi birleştirildi. Önceden açık olan 10 köşe probu kapandı; iç plan çizgileri ve açıklıklar korundu. Servis merdiveninin 110 kontrolü yeniden geçti.",
         "Batı üst galeriye taşan dört duvar/tavan parçası mevcut plan sınırına kırpıldı. Servis odası birleşimindeki çıkıntı ve merdiven dönüşündeki yanlış tavan uzantısı kaldırıldı. Kapı ve koridor geçişleri korundu.",
         "Alt batı galeri girişindeki kısa duvarın 5 cm geride kalan arka yüzü, komşu merdiven duvarıyla hizalandı. Ön yüz, giriş ucu ve kotlar korundu; alt galeri geçiş kontrolleri geçti.",
-        "Batı zemin galerisinde mevcut duvar ile döşeme/tavan arasındaki yaklaşık 20 cm açıklık giderildi. Yalnız iki mevcut nesne genişletildi; 1.030 temas ve 108 giriş/güzergâh kontrolü geçti. Önce/sonra görüntüleri karşılaştırıldı."
+        "Batı zemin galerisinde mevcut duvar ile döşeme/tavan arasındaki yaklaşık 20 cm açıklık giderildi. Yalnız iki mevcut nesne genişletildi; 1.030 temas ve 108 giriş/güzergâh kontrolü geçti. Önce/sonra görüntüleri karşılaştırıldı.",
+        "WC, vestiyer ve dükkânda 15 mevcut duvarın 11 ortak köşesi birleştirildi. Önceki 22 boşluk örneği kapandı; kaynak eksenleri, kalınlık, kotlar ve kapı uçları korundu. 44 köşe ve 96 servis geçiş/destek kontrolü geçti; yakın önce/sonra görüntüleri incelendi.",
+        "Servis merdiveni altındaki üç mevcut duvarın iki köşesi birleştirildi. Önceki dört boşluk örneği kapandı; mevcut kapı kesisi ve merdiven korundu. Sekiz köşe örneği, genel geometri ve merdiven geçiş kontrolleri geçti; önce/sonra görüntüleri incelendi."
       ],
       "coverage_as_of": "R55"
     },
@@ -326,7 +334,7 @@
       "updated": "2026-10-08",
       "dependency_mode": "regional_study_only_no_global_acceptance",
       "artifacts": [
-        "12_Blender_Model/scenes/MUDAM_R105_BATI_GALERI_DOSEME_TAVAN_TEMASI_v002.blend",
+        "12_Blender_Model/scenes/MUDAM_R109_SERVIS_MERDIVEN_ALTI_KOSELERI_v001.blend",
         "12_Blender_Model/reports/R10_DOGU_SPIRAL_RAPORU.md",
         "12_Blender_Model/reports/R04_UST_MERDIVEN_RAPORU.md",
         "12_Blender_Model/reports/R05_ALT_MERDIVEN_RAPORU.md",
@@ -550,7 +558,7 @@
       "updated": "2026-10-08",
       "dependency_mode": "regional_checkpoint_no_global_acceptance",
       "artifacts": [
-        "12_Blender_Model/scenes/MUDAM_R105_BATI_GALERI_DOSEME_TAVAN_TEMASI_v002.blend",
+        "12_Blender_Model/scenes/MUDAM_R109_SERVIS_MERDIVEN_ALTI_KOSELERI_v001.blend",
         "12_Blender_Model/reports/R10_DOGU_SPIRAL_RAPORU.md",
         "12_Blender_Model/reports/R34_GIRIS_KOPRULERI_RAPORU.md",
         "12_Blender_Model/reports/R48_KONTROL_RAPORU.md",
@@ -588,11 +596,12 @@
         "Merdiven yanı ikinci galeri işareti ile +1 Studio/servis/asansör çevresinin bütün kat ilişkileri açık; tüm ekran görüntüleri çözüldü denmedi.",
         "Bu yerel çizim uzlaştırması ölçülmüş imalat geometrisi değildir. Gerçek giriş boşlukları ve fotoğraf 026’daki yüksek merdiven yanı geçidi korunur. +1 Studio/servis/asansör çevresinin bütün kat ilişkileri ve diğer kabuk birleşimleri açık.",
         "Bütün bina kabulü yok. Diğer kabuk birleşimleri ve kat ilişkileri kaynaklarla karşılaştırılıyor; komşudan devralınan kalınlık ve kotlar ölçülmemiş adaylardır.",
-        "Bütün bina tamamlanmadı. Diğer dar duvar–döşeme–tavan temasları kaynaklarla karşılaştırılıyor; mevcut kotlar ve kalınlıklar ölçülmemiş adaylardır."
+        "Bütün bina tamamlanmadı. Diğer dar duvar–döşeme–tavan temasları kaynaklarla karşılaştırılıyor; mevcut kotlar ve kalınlıklar ölçülmemiş adaylardır.",
+        "Bütün bina tamamlanmadı. Diğer kabuk birleşimleri, merdiven/kapı detayları ve bütünleşik kaynak kontrolü açık; ölçülmemiş kalınlık ve kotlar aday."
       ],
       "artifacts": [
-        "12_Blender_Model/scenes/MUDAM_R105_BATI_GALERI_DOSEME_TAVAN_TEMASI_v002.blend",
-        "12_Blender_Model/reports/R105_KONTROL_RAPORU.md",
+        "12_Blender_Model/scenes/MUDAM_R109_SERVIS_MERDIVEN_ALTI_KOSELERI_v001.blend",
+        "12_Blender_Model/reports/R109_KONTROL_RAPORU.md",
         "12_Blender_Model/reports/R19_R20_ODITORYUM_RAPORU.md",
         "12_Blender_Model/reports/R21_ODITORYUM_PANEL_RAPORU.md",
         "12_Blender_Model/reports/R22_ODITORYUM_DONATI_RAPORU.md",
@@ -614,7 +623,9 @@
         "12_Blender_Model/reports/R92_KONTROL_RAPORU.md",
         "12_Blender_Model/reports/R99_KONTROL_RAPORU.md",
         "12_Blender_Model/reports/R100_KONTROL_RAPORU.md",
-        "12_Blender_Model/reports/R104_KONTROL_RAPORU.md"
+        "12_Blender_Model/reports/R104_KONTROL_RAPORU.md",
+        "12_Blender_Model/reports/R105_KONTROL_RAPORU.md",
+        "12_Blender_Model/reports/R108_KONTROL_RAPORU.md"
       ],
       "completed_scope": [
         "Giriş/vestiyer bölgesi, alt galeri/fuaye, oditoryum ve galeri taş/ahşap yüzey adayları üretildi.",
@@ -633,7 +644,9 @@
         "Batı galerinin planda çizili kısa giriş duvarı eklendi. Kuzey geçidini kapatan, üst odadan yanlış devam ettirilmiş R87 alt duvarı kaldırıldı. 15 duvar noktası ve iki girişte altı geçiş kontrolü geçti.",
         "İki galeri tavanının dokuz plan noktası mevcut giriş duvarlarının iç yüzüne bağlandı. En büyük yerel uyumsuzluk 0,337 m idi; kontrol edilen 18 alt/üst köşe artık aynı sınırda. Batı galeri duvarı ve iki girişin geçiş kontrolleri yeniden geçti.",
         "Alt batı galeri girişindeki kısa duvarın 5 cm geride kalan arka yüzü, komşu merdiven duvarıyla hizalandı. Ön yüz, giriş ucu ve kotlar korundu; alt galeri geçiş kontrolleri geçti.",
-        "Batı zemin galerisinde mevcut duvar ile döşeme/tavan arasındaki yaklaşık 20 cm açıklık giderildi. Yalnız iki mevcut nesne genişletildi; 1.030 temas ve 108 giriş/güzergâh kontrolü geçti. Önce/sonra görüntüleri karşılaştırıldı."
+        "Batı zemin galerisinde mevcut duvar ile döşeme/tavan arasındaki yaklaşık 20 cm açıklık giderildi. Yalnız iki mevcut nesne genişletildi; 1.030 temas ve 108 giriş/güzergâh kontrolü geçti. Önce/sonra görüntüleri karşılaştırıldı.",
+        "WC, vestiyer ve dükkânda 15 mevcut duvarın 11 ortak köşesi birleştirildi. Önceki 22 boşluk örneği kapandı; kaynak eksenleri, kalınlık, kotlar ve kapı uçları korundu. 44 köşe ve 96 servis geçiş/destek kontrolü geçti; yakın önce/sonra görüntüleri incelendi.",
+        "Servis merdiveni altındaki üç mevcut duvarın iki köşesi birleştirildi. Önceki dört boşluk örneği kapandı; mevcut kapı kesisi ve merdiven korundu. Sekiz köşe örneği, genel geometri ve merdiven geçiş kontrolleri geçti; önce/sonra görüntüleri incelendi."
       ],
       "coverage_as_of": "R55"
     },
@@ -663,12 +676,13 @@
         "Plan sembolündeki 24 bölme ölçülmüş rıht sayısı değildir. Dönüş yönü, rıht yüksekliği ve sahanlık aday; korkuluk ve alt kata devam ilişkisi açık. Bütün bina kabulü yapılmadı.",
         "+1 Studio, asansör ve diğer katlar arası kabuk ilişkileri hâlâ inceleniyor. Geçit duvarının yüksekliği ve kalınlığı aday; bütün bina kabulü yok.",
         "Bütün bina kabulü yok. Diğer üst kat duvar/örtü birleşimleri ve katlar arası devamlılık kontrolü sürüyor; ölçülmemiş kalınlık ve kotlar aday.",
-        "Bütün bina kabulü yok. Diğer kabuk birleşimleri ve kat ilişkileri kaynaklarla karşılaştırılmaya devam ediyor; ölçülmemiş kotlar ve kalınlıklar aday."
+        "Bütün bina kabulü yok. Diğer kabuk birleşimleri ve kat ilişkileri kaynaklarla karşılaştırılmaya devam ediyor; ölçülmemiş kotlar ve kalınlıklar aday.",
+        "Bütün bina tamamlanmadı. Diğer küçük odaların üst örtüleri, kalan çelik/cam birleşimleri ve bina son kontrolü açık; kesin kot ve malzeme ölçüleri hâlâ aday."
       ],
       "updated": "2026-10-08",
       "dependency_mode": "regional_checkpoint_no_global_acceptance",
       "artifacts": [
-        "12_Blender_Model/scenes/MUDAM_R105_BATI_GALERI_DOSEME_TAVAN_TEMASI_v002.blend",
+        "12_Blender_Model/scenes/MUDAM_R109_SERVIS_MERDIVEN_ALTI_KOSELERI_v001.blend",
         "12_Blender_Model/reports/P19_P21_ONIZLEME_RAPORU.md",
         "12_Blender_Model/reports/R08_OKUMA_TAVANI_RAPORU.md",
         "12_Blender_Model/reports/R09_OKUMA_MEKANI_RAPORU.md",
@@ -689,7 +703,8 @@
         "12_Blender_Model/reports/R97_KONTROL_RAPORU.md",
         "12_Blender_Model/reports/R101_KONTROL_RAPORU.md",
         "12_Blender_Model/reports/R102_KONTROL_RAPORU.md",
-        "12_Blender_Model/reports/R103_KONTROL_RAPORU.md"
+        "12_Blender_Model/reports/R103_KONTROL_RAPORU.md",
+        "12_Blender_Model/reports/R107_KONTROL_RAPORU.md"
       ],
       "completed_scope": [
         "Okuma odası, eğimli tavan ve24 kollu ışık; iki üst galeri, Studio, asansör sahanlığı; Grand Hall20 silindir ışık işlendi.",
@@ -707,7 +722,8 @@
         "Servis merdivenine 24 basamak/sahanlık parçası eklendi; yolu kesen alt kat tavanı ve giriş duvarı yerel olarak açıldı. Yedi kuyu duvarı iki kat arasında devam ettirildi. 110 yerel kontrol ve önceki duvar/cam düzeltmelerinin gerileme kontrolü geçti.",
         "Okuma odası–doğu servis odası bağlantısının planda çizili fakat eksik bırakılmış iki yan duvarı eklendi. 15 eksik duvar probu düzeldi; dokuz geçiş ve sekiz zemin/tavan kontrolü geçti. Diğer mevcut geometri değişmedi.",
         "Üst servis odası ve merdiven kuyusunda 14 duvarın 12 dış köşesi birleştirildi. Önceden açık olan 10 köşe probu kapandı; iç plan çizgileri ve açıklıklar korundu. Servis merdiveninin 110 kontrolü yeniden geçti.",
-        "Batı üst galeriye taşan dört duvar/tavan parçası mevcut plan sınırına kırpıldı. Servis odası birleşimindeki çıkıntı ve merdiven dönüşündeki yanlış tavan uzantısı kaldırıldı. Kapı ve koridor geçişleri korundu."
+        "Batı üst galeriye taşan dört duvar/tavan parçası mevcut plan sınırına kırpıldı. Servis odası birleşimindeki çıkıntı ve merdiven dönüşündeki yanlış tavan uzantısı kaldırıldı. Kapı ve koridor geçişleri korundu.",
+        "Okuma odasının eski döşeme kenarı mevcut PDF2016 duvar konturuyla uzlaştırıldı; duvar dibindeki açık şerit giderildi. Merkez boşluk ve üç geçit korundu. 1.313 döşeme/boşluk ve 36 geçiş kontrolü geçti; önce/sonra görüntüleri incelendi."
       ],
       "coverage_as_of": "R55"
     },
@@ -778,7 +794,7 @@
       "updated": "2026-10-08",
       "dependency_mode": "regional_checkpoint_no_global_acceptance",
       "artifacts": [
-        "12_Blender_Model/scenes/MUDAM_R105_BATI_GALERI_DOSEME_TAVAN_TEMASI_v002.blend",
+        "12_Blender_Model/scenes/MUDAM_R109_SERVIS_MERDIVEN_ALTI_KOSELERI_v001.blend",
         "12_Blender_Model/reports/P19_P21_ONIZLEME_RAPORU.md",
         "12_Blender_Model/reports/R32_TAS_AHSAP_RAPORU.md",
         "12_Blender_Model/reports/R43_KONTROL_RAPORU.md",
@@ -847,7 +863,7 @@
       "updated": "2026-10-08",
       "dependency_mode": "regional_checkpoint_no_global_acceptance",
       "artifacts": [
-        "12_Blender_Model/scenes/MUDAM_R105_BATI_GALERI_DOSEME_TAVAN_TEMASI_v002.blend",
+        "12_Blender_Model/scenes/MUDAM_R109_SERVIS_MERDIVEN_ALTI_KOSELERI_v001.blend",
         "12_Blender_Model/reports/P19_P21_ONIZLEME_RAPORU.md"
       ]
     },
@@ -899,7 +915,7 @@
     "P21",
     "P22"
   ],
-  "latest_scene": "12_Blender_Model/scenes/MUDAM_R105_BATI_GALERI_DOSEME_TAVAN_TEMASI_v002.blend",
+  "latest_scene": "12_Blender_Model/scenes/MUDAM_R109_SERVIS_MERDIVEN_ALTI_KOSELERI_v001.blend",
   "scope_constraints": {
     "priority": "Bina ve kalıcı mimari sistemler",
     "excluded": [

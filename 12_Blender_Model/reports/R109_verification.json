@@ -1,0 +1,177 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R109_SERVIS_MERDIVEN_ALTI_KOSELERI_v001.blend",
+  "solids": [
+    {
+      "name": "R33_WALL_SERVICE_W_E",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "signed_volume": 7.210250900756876
+    },
+    {
+      "name": "R33_WALL_SERVICE_W_N",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "signed_volume": 7.092279399636626
+    },
+    {
+      "name": "R33_WALL_SERVICE_W_W",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "signed_volume": 5.896326902407466
+    }
+  ],
+  "preservation": [
+    {
+      "name": "R33_WALL_SERVICE_W_E",
+      "moved_vertices": 4,
+      "unexpected_changed_vertices": []
+    },
+    {
+      "name": "R33_WALL_SERVICE_W_N",
+      "moved_vertices": 8,
+      "unexpected_changed_vertices": []
+    },
+    {
+      "name": "R33_WALL_SERVICE_W_W",
+      "moved_vertices": 4,
+      "unexpected_changed_vertices": []
+    }
+  ],
+  "corner_samples": [
+    {
+      "source_corner": [
+        617.76,
+        657.58
+      ],
+      "position": [
+        20.833663940429688,
+        32.24806213378906,
+        -0.10000000149011612
+      ],
+      "before": [
+        "R33_WALL_SERVICE_W_N",
+        "R33_WALL_SERVICE_W_W"
+      ],
+      "after": [
+        "R33_WALL_SERVICE_W_W"
+      ]
+    },
+    {
+      "source_corner": [
+        617.76,
+        657.58
+      ],
+      "position": [
+        20.774776458740234,
+        32.250205993652344,
+        -0.10000000149011612
+      ],
+      "before": [
+        "R33_WALL_SERVICE_W_N",
+        "R33_WALL_SERVICE_W_W"
+      ],
+      "after": [
+        "R33_WALL_SERVICE_W_N"
+      ]
+    },
+    {
+      "source_corner": [
+        617.76,
+        657.58
+      ],
+      "position": [
+        20.76835823059082,
+        32.07353973388672,
+        -0.10000000149011612
+      ],
+      "before": [],
+      "after": [
+        "R33_WALL_SERVICE_W_N"
+      ]
+    },
+    {
+      "source_corner": [
+        617.76,
+        657.58
+      ],
+      "position": [
+        20.82724380493164,
+        32.0713996887207,
+        -0.10000000149011612
+      ],
+      "before": [],
+      "after": [
+        "R33_WALL_SERVICE_W_W"
+      ]
+    },
+    {
+      "source_corner": [
+        680.44,
+        657.58
+      ],
+      "position": [
+        15.697807312011719,
+        37.52653121948242,
+        -0.10000000149011612
+      ],
+      "before": [
+        "R33_WALL_SERVICE_W_N",
+        "R33_WALL_SERVICE_W_E"
+      ],
+      "after": [
+        "R33_WALL_SERVICE_W_E"
+      ]
+    },
+    {
+      "source_corner": [
+        680.44,
+        657.58
+      ],
+      "position": [
+        15.756694793701172,
+        37.52439498901367,
+        -0.10000000149011612
+      ],
+      "before": [
+        "R33_WALL_SERVICE_W_N",
+        "R33_WALL_SERVICE_W_E"
+      ],
+      "after": [
+        "R33_WALL_SERVICE_W_N"
+      ]
+    },
+    {
+      "source_corner": [
+        680.44,
+        657.58
+      ],
+      "position": [
+        15.763114929199219,
+        37.70105743408203,
+        -0.10000000149011612
+      ],
+      "before": [],
+      "after": [
+        "R33_WALL_SERVICE_W_N"
+      ]
+    },
+    {
+      "source_corner": [
+        680.44,
+        657.58
+      ],
+      "position": [
+        15.704227447509766,
+        37.70319366455078,
+        -0.10000000149011612
+      ],
+      "before": [],
+      "after": [
+        "R33_WALL_SERVICE_W_E"
+      ]
+    }
+  ],
+  "previously_open_samples": 4,
+  "failures": [],
+  "construction_acceptance": false
+}

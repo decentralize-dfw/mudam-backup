@@ -1,0 +1,530 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R109_SERVIS_MERDIVEN_ALTI_KOSELERI_v001.blend",
+  "checks": [
+    {
+      "id": "R97_SERVICE_TREAD_01_surface",
+      "passed": true,
+      "hit": "R97_SERVICE_TREAD_01"
+    },
+    {
+      "id": "R97_SERVICE_TREAD_01_headroom_2_1m",
+      "passed": true,
+      "hit": null
+    },
+    {
+      "id": "R97_SERVICE_TREAD_02_surface",
+      "passed": true,
+      "hit": "R97_SERVICE_TREAD_02"
+    },
+    {
+      "id": "R97_SERVICE_TREAD_02_headroom_2_1m",
+      "passed": true,
+      "hit": null
+    },
+    {
+      "id": "R97_SERVICE_TREAD_03_surface",
+      "passed": true,
+      "hit": "R97_SERVICE_TREAD_03"
+    },
+    {
+      "id": "R97_SERVICE_TREAD_03_headroom_2_1m",
+      "passed": true,
+      "hit": null
+    },
+    {
+      "id": "R97_SERVICE_TREAD_04_surface",
+      "passed": true,
+      "hit": "R97_SERVICE_TREAD_04"
+    },
+    {
+      "id": "R97_SERVICE_TREAD_04_headroom_2_1m",
+      "passed": true,
+      "hit": null
+    },
+    {
+      "id": "R97_SERVICE_TREAD_05_surface",
+      "passed": true,
+      "hit": "R97_SERVICE_TREAD_05"
+    },
+    {
+      "id": "R97_SERVICE_TREAD_05_headroom_2_1m",
+      "passed": true,
+      "hit": null
+    },
+    {
+      "id": "R97_SERVICE_TREAD_06_surface",
+      "passed": true,
+      "hit": "R97_SERVICE_TREAD_06"
+    },
+    {
+      "id": "R97_SERVICE_TREAD_06_headroom_2_1m",
+      "passed": true,
+      "hit": null
+    },
+    {
+      "id": "R97_SERVICE_TREAD_07_surface",
+      "passed": true,
+      "hit": "R97_SERVICE_TREAD_07"
+    },
+    {
+      "id": "R97_SERVICE_TREAD_07_headroom_2_1m",
+      "passed": true,
+      "hit": null
+    },
+    {
+      "id": "R97_SERVICE_TREAD_08_surface",
+      "passed": true,
+      "hit": "R97_SERVICE_TREAD_08"
+    },
+    {
+      "id": "R97_SERVICE_TREAD_08_headroom_2_1m",
+      "passed": true,
+      "hit": null
+    },
+    {
+      "id": "R97_SERVICE_TREAD_09_surface",
+      "passed": true,
+      "hit": "R97_SERVICE_TREAD_09"
+    },
+    {
+      "id": "R97_SERVICE_TREAD_09_headroom_2_1m",
+      "passed": true,
+      "hit": null
+    },
+    {
+      "id": "R97_SERVICE_TREAD_10_surface",
+      "passed": true,
+      "hit": "R97_SERVICE_TREAD_10"
+    },
+    {
+      "id": "R97_SERVICE_TREAD_10_headroom_2_1m",
+      "passed": true,
+      "hit": null
+    },
+    {
+      "id": "R97_SERVICE_TREAD_11_surface",
+      "passed": true,
+      "hit": "R97_SERVICE_TREAD_11"
+    },
+    {
+      "id": "R97_SERVICE_TREAD_11_headroom_2_1m",
+      "passed": true,
+      "hit": null
+    },
+    {
+      "id": "R97_SERVICE_TREAD_12_surface",
+      "passed": true,
+      "hit": "R97_SERVICE_TREAD_12"
+    },
+    {
+      "id": "R97_SERVICE_TREAD_12_headroom_2_1m",
+      "passed": true,
+      "hit": null
+    },
+    {
+      "id": "R97_SERVICE_TREAD_13_surface",
+      "passed": true,
+      "hit": "R97_SERVICE_TREAD_13"
+    },
+    {
+      "id": "R97_SERVICE_TREAD_13_headroom_2_1m",
+      "passed": true,
+      "hit": null
+    },
+    {
+      "id": "R97_SERVICE_TREAD_14_surface",
+      "passed": true,
+      "hit": "R97_SERVICE_TREAD_14"
+    },
+    {
+      "id": "R97_SERVICE_TREAD_14_headroom_2_1m",
+      "passed": true,
+      "hit": null
+    },
+    {
+      "id": "R97_SERVICE_TREAD_15_surface",
+      "passed": true,
+      "hit": "R97_SERVICE_TREAD_15"
+    },
+    {
+      "id": "R97_SERVICE_TREAD_15_headroom_2_1m",
+      "passed": true,
+      "hit": null
+    },
+    {
+      "id": "R97_SERVICE_TREAD_16_surface",
+      "passed": true,
+      "hit": "R97_SERVICE_TREAD_16"
+    },
+    {
+      "id": "R97_SERVICE_TREAD_16_headroom_2_1m",
+      "passed": true,
+      "hit": null
+    },
+    {
+      "id": "R97_SERVICE_TREAD_17_surface",
+      "passed": true,
+      "hit": "R97_SERVICE_TREAD_17"
+    },
+    {
+      "id": "R97_SERVICE_TREAD_17_headroom_2_1m",
+      "passed": true,
+      "hit": null
+    },
+    {
+      "id": "R97_SERVICE_TREAD_18_surface",
+      "passed": true,
+      "hit": "R97_SERVICE_TREAD_18"
+    },
+    {
+      "id": "R97_SERVICE_TREAD_18_headroom_2_1m",
+      "passed": true,
+      "hit": null
+    },
+    {
+      "id": "R97_SERVICE_TREAD_19_surface",
+      "passed": true,
+      "hit": "R97_SERVICE_TREAD_19"
+    },
+    {
+      "id": "R97_SERVICE_TREAD_19_headroom_2_1m",
+      "passed": true,
+      "hit": null
+    },
+    {
+      "id": "R97_SERVICE_TREAD_20_surface",
+      "passed": true,
+      "hit": "R97_SERVICE_TREAD_20"
+    },
+    {
+      "id": "R97_SERVICE_TREAD_20_headroom_2_1m",
+      "passed": true,
+      "hit": null
+    },
+    {
+      "id": "R97_SERVICE_TREAD_21_surface",
+      "passed": true,
+      "hit": "R97_SERVICE_TREAD_21"
+    },
+    {
+      "id": "R97_SERVICE_TREAD_21_headroom_2_1m",
+      "passed": true,
+      "hit": null
+    },
+    {
+      "id": "R97_SERVICE_TREAD_22_surface",
+      "passed": true,
+      "hit": "R97_SERVICE_TREAD_22"
+    },
+    {
+      "id": "R97_SERVICE_TREAD_22_headroom_2_1m",
+      "passed": true,
+      "hit": null
+    },
+    {
+      "id": "R97_SERVICE_TREAD_23_surface",
+      "passed": true,
+      "hit": "R97_SERVICE_TREAD_23"
+    },
+    {
+      "id": "R97_SERVICE_TREAD_23_headroom_2_1m",
+      "passed": true,
+      "hit": null
+    },
+    {
+      "id": "R97_SERVICE_TREAD_24_surface",
+      "passed": true,
+      "hit": "R97_SERVICE_TREAD_24"
+    },
+    {
+      "id": "R97_SERVICE_TREAD_24_headroom_2_1m",
+      "passed": true,
+      "hit": null
+    },
+    {
+      "id": "R97_SERVICE_TREAD_01_next_underside_contact",
+      "passed": true,
+      "contacts": 2
+    },
+    {
+      "id": "R97_SERVICE_TREAD_02_next_underside_contact",
+      "passed": true,
+      "contacts": 2
+    },
+    {
+      "id": "R97_SERVICE_TREAD_03_next_underside_contact",
+      "passed": true,
+      "contacts": 2
+    },
+    {
+      "id": "R97_SERVICE_TREAD_04_next_underside_contact",
+      "passed": true,
+      "contacts": 2
+    },
+    {
+      "id": "R97_SERVICE_TREAD_05_next_underside_contact",
+      "passed": true,
+      "contacts": 2
+    },
+    {
+      "id": "R97_SERVICE_TREAD_06_next_underside_contact",
+      "passed": true,
+      "contacts": 2
+    },
+    {
+      "id": "R97_SERVICE_TREAD_07_next_underside_contact",
+      "passed": true,
+      "contacts": 2
+    },
+    {
+      "id": "R97_SERVICE_TREAD_08_next_underside_contact",
+      "passed": true,
+      "contacts": 2
+    },
+    {
+      "id": "R97_SERVICE_TREAD_09_next_underside_contact",
+      "passed": true,
+      "contacts": 2
+    },
+    {
+      "id": "R97_SERVICE_TREAD_10_next_underside_contact",
+      "passed": true,
+      "contacts": 2
+    },
+    {
+      "id": "R97_SERVICE_TREAD_11_next_underside_contact",
+      "passed": true,
+      "contacts": 2
+    },
+    {
+      "id": "R97_SERVICE_TREAD_12_next_underside_contact",
+      "passed": true,
+      "contacts": 2
+    },
+    {
+      "id": "R97_SERVICE_TREAD_13_next_underside_contact",
+      "passed": true,
+      "contacts": 2
+    },
+    {
+      "id": "R97_SERVICE_TREAD_14_next_underside_contact",
+      "passed": true,
+      "contacts": 2
+    },
+    {
+      "id": "R97_SERVICE_TREAD_15_next_underside_contact",
+      "passed": true,
+      "contacts": 2
+    },
+    {
+      "id": "R97_SERVICE_TREAD_16_next_underside_contact",
+      "passed": true,
+      "contacts": 2
+    },
+    {
+      "id": "R97_SERVICE_TREAD_17_next_underside_contact",
+      "passed": true,
+      "contacts": 2
+    },
+    {
+      "id": "R97_SERVICE_TREAD_18_next_underside_contact",
+      "passed": true,
+      "contacts": 2
+    },
+    {
+      "id": "R97_SERVICE_TREAD_19_next_underside_contact",
+      "passed": true,
+      "contacts": 2
+    },
+    {
+      "id": "R97_SERVICE_TREAD_20_next_underside_contact",
+      "passed": true,
+      "contacts": 2
+    },
+    {
+      "id": "R97_SERVICE_TREAD_21_next_underside_contact",
+      "passed": true,
+      "contacts": 2
+    },
+    {
+      "id": "R97_SERVICE_TREAD_22_next_underside_contact",
+      "passed": true,
+      "contacts": 2
+    },
+    {
+      "id": "R97_SERVICE_TREAD_23_next_underside_contact",
+      "passed": true,
+      "contacts": 2
+    },
+    {
+      "id": "ground_entry_floor",
+      "passed": true,
+      "hit": "P05_FLOOR_L00_ENT"
+    },
+    {
+      "id": "upper_entry_floor",
+      "passed": true,
+      "hit": "R96_DOCUMENTATION_EAST_FLOOR"
+    },
+    {
+      "id": "upper_landing",
+      "passed": true,
+      "hit": "R97_SERVICE_TREAD_24"
+    },
+    {
+      "id": "ground_portal",
+      "passed": true,
+      "hit": null
+    },
+    {
+      "id": "upper_portal",
+      "passed": true,
+      "hit": null
+    },
+    {
+      "id": "inner_well_open",
+      "passed": true
+    },
+    {
+      "id": "R97_SERVICE_TREAD_01_solid",
+      "passed": true
+    },
+    {
+      "id": "R97_SERVICE_TREAD_02_solid",
+      "passed": true
+    },
+    {
+      "id": "R97_SERVICE_TREAD_03_solid",
+      "passed": true
+    },
+    {
+      "id": "R97_SERVICE_TREAD_04_solid",
+      "passed": true
+    },
+    {
+      "id": "R97_SERVICE_TREAD_05_solid",
+      "passed": true
+    },
+    {
+      "id": "R97_SERVICE_TREAD_06_solid",
+      "passed": true
+    },
+    {
+      "id": "R97_SERVICE_TREAD_07_solid",
+      "passed": true
+    },
+    {
+      "id": "R97_SERVICE_TREAD_08_solid",
+      "passed": true
+    },
+    {
+      "id": "R97_SERVICE_TREAD_09_solid",
+      "passed": true
+    },
+    {
+      "id": "R97_SERVICE_TREAD_10_solid",
+      "passed": true
+    },
+    {
+      "id": "R97_SERVICE_TREAD_11_solid",
+      "passed": true
+    },
+    {
+      "id": "R97_SERVICE_TREAD_12_solid",
+      "passed": true
+    },
+    {
+      "id": "R97_SERVICE_TREAD_13_solid",
+      "passed": true
+    },
+    {
+      "id": "R97_SERVICE_TREAD_14_solid",
+      "passed": true
+    },
+    {
+      "id": "R97_SERVICE_TREAD_15_solid",
+      "passed": true
+    },
+    {
+      "id": "R97_SERVICE_TREAD_16_solid",
+      "passed": true
+    },
+    {
+      "id": "R97_SERVICE_TREAD_17_solid",
+      "passed": true
+    },
+    {
+      "id": "R97_SERVICE_TREAD_18_solid",
+      "passed": true
+    },
+    {
+      "id": "R97_SERVICE_TREAD_19_solid",
+      "passed": true
+    },
+    {
+      "id": "R97_SERVICE_TREAD_20_solid",
+      "passed": true
+    },
+    {
+      "id": "R97_SERVICE_TREAD_21_solid",
+      "passed": true
+    },
+    {
+      "id": "R97_SERVICE_TREAD_22_solid",
+      "passed": true
+    },
+    {
+      "id": "R97_SERVICE_TREAD_23_solid",
+      "passed": true
+    },
+    {
+      "id": "R97_SERVICE_TREAD_24_solid",
+      "passed": true
+    },
+    {
+      "id": "R33_WALL_SERVICE_W_N_solid",
+      "passed": true
+    },
+    {
+      "id": "R39_PUBLIC_CEILING_18_solid",
+      "passed": true
+    },
+    {
+      "id": "R96_SERVICE_STAIR_BOUNDARY_0_solid",
+      "passed": true
+    },
+    {
+      "id": "R96_SERVICE_STAIR_BOUNDARY_1_solid",
+      "passed": true
+    },
+    {
+      "id": "R96_SERVICE_STAIR_BOUNDARY_2_solid",
+      "passed": true
+    },
+    {
+      "id": "R96_SERVICE_STAIR_BOUNDARY_3_solid",
+      "passed": true
+    },
+    {
+      "id": "R96_SERVICE_STAIR_BOUNDARY_4_solid",
+      "passed": true
+    },
+    {
+      "id": "R96_SERVICE_STAIR_BOUNDARY_5_solid",
+      "passed": true
+    },
+    {
+      "id": "R96_SERVICE_STAIR_BOUNDARY_6_solid",
+      "passed": true
+    }
+  ],
+  "failures": [],
+  "construction_acceptance": false,
+  "limits": [
+    "PDF2016 curves70..93 contain24 graphic radial divisions. They support a spiral stair, not a surveyed24-riser specification.",
+    "0 to +1 rise4.8590748m inherited;24 rises give202.46mm. Ascent direction,40degree top landing,180mm slabs and exact headroom are modelling candidates.",
+    "Central octagonal opening follows path69; outer well follows existing R96 source boundary. No central column or hidden reinforcement invented.",
+    "Service stair lower-basement/roof continuation, railing and finish specification unresolved. Not construction/safety compliance.",
+    "User priority maintained: openings and wall/ceiling coordination before door and material details."
+  ]
+}

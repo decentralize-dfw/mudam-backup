@@ -1,0 +1,13 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R109_SERVIS_MERDIVEN_ALTI_KOSELERI_v001.blend",
+  "frame_count": 216,
+  "end_sections": 432,
+  "findings": [],
+  "skipped_nonrectangular": [],
+  "construction_acceptance": false,
+  "limits": [
+    "Nine points per end section with1mm geometric tolerance; affine coordinates include skewed parallelepiped profiles. Not exact Boolean/SAT contact proof.",
+    "Only active R13 perimeter and panel profiles; contact with stone, replacement systems or structural nodes may explain a finding.",
+    "No connection hardware or unmeasured steel detail is inferred."
+  ]
+}

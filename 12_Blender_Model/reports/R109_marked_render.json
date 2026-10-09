@@ -1,0 +1,91 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R109_SERVIS_MERDIVEN_ALTI_KOSELERI_v001.blend",
+  "images": [
+    {
+      "image": "R109_marked_east_junction.png",
+      "eye_canonical": [
+        430,
+        150,
+        34
+      ],
+      "target_canonical": [
+        400,
+        435,
+        10
+      ],
+      "lens": 45
+    },
+    {
+      "image": "R109_marked_east_end.png",
+      "eye_canonical": [
+        130,
+        230,
+        23
+      ],
+      "target_canonical": [
+        325,
+        390,
+        10
+      ],
+      "lens": 45
+    },
+    {
+      "image": "R109_marked_west_junction.png",
+      "eye_canonical": [
+        780,
+        180,
+        34
+      ],
+      "target_canonical": [
+        750,
+        420,
+        10
+      ],
+      "lens": 45
+    },
+    {
+      "image": "R109_marked_east_seam.png",
+      "eye_canonical": [
+        520,
+        180,
+        23
+      ],
+      "target_canonical": [
+        462,
+        410,
+        9
+      ],
+      "lens": 45
+    },
+    {
+      "image": "R109_marked_cafe_ground.png",
+      "eye_canonical": [
+        810,
+        245,
+        1.7
+      ],
+      "target_canonical": [
+        755,
+        340,
+        4
+      ],
+      "lens": 20
+    },
+    {
+      "image": "R109_marked_east_ground.png",
+      "eye_canonical": [
+        310,
+        310,
+        1.7
+      ],
+      "target_canonical": [
+        400,
+        420,
+        3.4
+      ],
+      "lens": 20
+    }
+  ],
+  "all_active_surroundings": true,
+  "metric_camera_match": false
+}

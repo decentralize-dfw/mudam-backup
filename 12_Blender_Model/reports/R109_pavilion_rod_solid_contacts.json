@@ -1,0 +1,204 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R109_SERVIS_MERDIVEN_ALTI_KOSELERI_v001.blend",
+  "end_sections": 16,
+  "findings": [],
+  "checks": [
+    {
+      "name": "R13_TOWER_X_0_0",
+      "end": 0,
+      "center": [
+        30.503480911254883,
+        -44.13302993774414,
+        9.064043045043945
+      ],
+      "touching_frames": [
+        "R13_FRAME_189"
+      ]
+    },
+    {
+      "name": "R13_TOWER_X_0_0",
+      "end": 1,
+      "center": [
+        27.863201141357422,
+        -44.01036834716797,
+        12.801793098449707
+      ],
+      "touching_frames": [
+        "R13_FRAME_099"
+      ]
+    },
+    {
+      "name": "R13_TOWER_X_0_1",
+      "end": 0,
+      "center": [
+        27.863208770751953,
+        -44.01036834716797,
+        9.064043045043945
+      ],
+      "touching_frames": [
+        "R13_FRAME_067"
+      ]
+    },
+    {
+      "name": "R13_TOWER_X_0_1",
+      "end": 1,
+      "center": [
+        30.50347900390625,
+        -44.13303756713867,
+        12.801793098449707
+      ],
+      "touching_frames": [
+        "R13_FRAME_213"
+      ]
+    },
+    {
+      "name": "R13_TOWER_X_1_0",
+      "end": 0,
+      "center": [
+        28.007658004760742,
+        -44.16571807861328,
+        9.064043045043945
+      ],
+      "touching_frames": [
+        "R13_FRAME_023"
+      ]
+    },
+    {
+      "name": "R13_TOWER_X_1_0",
+      "end": 1,
+      "center": [
+        28.10267448425293,
+        -41.55115509033203,
+        12.80179500579834
+      ],
+      "touching_frames": [
+        "R13_FRAME_153"
+      ]
+    },
+    {
+      "name": "R13_TOWER_X_1_1",
+      "end": 0,
+      "center": [
+        28.102678298950195,
+        -41.55115509033203,
+        9.064043045043945
+      ],
+      "touching_frames": [
+        "R13_FRAME_121"
+      ]
+    },
+    {
+      "name": "R13_TOWER_X_1_1",
+      "end": 1,
+      "center": [
+        28.007659912109375,
+        -44.16571807861328,
+        12.80179500579834
+      ],
+      "touching_frames": [
+        "R13_FRAME_056"
+      ]
+    },
+    {
+      "name": "R13_TOWER_X_2_0",
+      "end": 0,
+      "center": [
+        27.947328567504883,
+        -41.695613861083984,
+        9.064043045043945
+      ],
+      "touching_frames": [
+        "R13_FRAME_081"
+      ]
+    },
+    {
+      "name": "R13_TOWER_X_2_0",
+      "end": 1,
+      "center": [
+        30.58954429626465,
+        -41.764915466308594,
+        12.801793098449707
+      ],
+      "touching_frames": [
+        "R13_FRAME_204"
+      ]
+    },
+    {
+      "name": "R13_TOWER_X_2_1",
+      "end": 0,
+      "center": [
+        30.589540481567383,
+        -41.76491165161133,
+        9.064043045043945
+      ],
+      "touching_frames": [
+        "R13_FRAME_175"
+      ]
+    },
+    {
+      "name": "R13_TOWER_X_2_1",
+      "end": 1,
+      "center": [
+        27.947328567504883,
+        -41.69561004638672,
+        12.801793098449707
+      ],
+      "touching_frames": [
+        "R13_FRAME_111"
+      ]
+    },
+    {
+      "name": "R13_TOWER_X_3_0",
+      "end": 0,
+      "center": [
+        30.445087432861328,
+        -41.609561920166016,
+        9.064043045043945
+      ],
+      "touching_frames": [
+        "R13_FRAME_135"
+      ]
+    },
+    {
+      "name": "R13_TOWER_X_3_0",
+      "end": 1,
+      "center": [
+        30.348133087158203,
+        -44.277488708496094,
+        12.801793098449707
+      ],
+      "touching_frames": [
+        "R13_FRAME_043"
+      ]
+    },
+    {
+      "name": "R13_TOWER_X_3_1",
+      "end": 0,
+      "center": [
+        30.348134994506836,
+        -44.277488708496094,
+        9.064043045043945
+      ],
+      "touching_frames": [
+        "R13_FRAME_008"
+      ]
+    },
+    {
+      "name": "R13_TOWER_X_3_1",
+      "end": 1,
+      "center": [
+        30.445091247558594,
+        -41.60956573486328,
+        12.801793098449707
+      ],
+      "touching_frames": [
+        "R13_FRAME_165"
+      ]
+    }
+  ],
+  "construction_acceptance": false,
+  "limits": [
+    "Sample rod end section and first50mm of rod against affine frame solids.",
+    "No source dimensions or connection hardware inferred."
+  ]
+}

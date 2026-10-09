@@ -1,0 +1,903 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R108_ZEMIN_SERVIS_DUVAR_KOSELERI_v001.blend",
+  "solids": [
+    {
+      "name": "R33_WALL_CLOAK_N",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "signed_volume": 6.672742345834138
+    },
+    {
+      "name": "R33_WALL_CLOAK_N_RETURN",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "signed_volume": 0.626571501429412
+    },
+    {
+      "name": "R33_WALL_CLOAK_S",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "signed_volume": 2.3926310769386516
+    },
+    {
+      "name": "R33_WALL_CLOAK_SW",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "signed_volume": 6.074846061748644
+    },
+    {
+      "name": "R33_WALL_CLOAK_S_RETURN",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "signed_volume": 1.882324518688403
+    },
+    {
+      "name": "R33_WALL_CLOAK_W",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "signed_volume": 2.56188273548522
+    },
+    {
+      "name": "R33_WALL_SHOP_E",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "signed_volume": 5.8704400294384556
+    },
+    {
+      "name": "R33_WALL_SHOP_S",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "signed_volume": 7.181809110766153
+    },
+    {
+      "name": "R33_WALL_SHOP_W",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "signed_volume": 5.870502847235482
+    },
+    {
+      "name": "R33_WALL_WC_E_N",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "signed_volume": 7.2824816914349615
+    },
+    {
+      "name": "R33_WALL_WC_E_S",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "signed_volume": 10.862382940900886
+    },
+    {
+      "name": "R33_WALL_WC_E_W",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "signed_volume": 4.491983442625864
+    },
+    {
+      "name": "R33_WALL_WC_W_E",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "signed_volume": 4.492002553146454
+    },
+    {
+      "name": "R33_WALL_WC_W_N",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "signed_volume": 11.131084562951628
+    },
+    {
+      "name": "R33_WALL_WC_W_S",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "signed_volume": 11.131159449491085
+    }
+  ],
+  "preservation": [
+    {
+      "name": "R33_WALL_CLOAK_N",
+      "moved_vertices": 8,
+      "unexpected_changed_vertices": []
+    },
+    {
+      "name": "R33_WALL_CLOAK_N_RETURN",
+      "moved_vertices": 4,
+      "unexpected_changed_vertices": []
+    },
+    {
+      "name": "R33_WALL_CLOAK_S",
+      "moved_vertices": 8,
+      "unexpected_changed_vertices": []
+    },
+    {
+      "name": "R33_WALL_CLOAK_SW",
+      "moved_vertices": 8,
+      "unexpected_changed_vertices": []
+    },
+    {
+      "name": "R33_WALL_CLOAK_S_RETURN",
+      "moved_vertices": 4,
+      "unexpected_changed_vertices": []
+    },
+    {
+      "name": "R33_WALL_CLOAK_W",
+      "moved_vertices": 8,
+      "unexpected_changed_vertices": []
+    },
+    {
+      "name": "R33_WALL_SHOP_E",
+      "moved_vertices": 4,
+      "unexpected_changed_vertices": []
+    },
+    {
+      "name": "R33_WALL_SHOP_S",
+      "moved_vertices": 8,
+      "unexpected_changed_vertices": []
+    },
+    {
+      "name": "R33_WALL_SHOP_W",
+      "moved_vertices": 4,
+      "unexpected_changed_vertices": []
+    },
+    {
+      "name": "R33_WALL_WC_E_N",
+      "moved_vertices": 4,
+      "unexpected_changed_vertices": []
+    },
+    {
+      "name": "R33_WALL_WC_E_S",
+      "moved_vertices": 4,
+      "unexpected_changed_vertices": []
+    },
+    {
+      "name": "R33_WALL_WC_E_W",
+      "moved_vertices": 8,
+      "unexpected_changed_vertices": []
+    },
+    {
+      "name": "R33_WALL_WC_W_E",
+      "moved_vertices": 8,
+      "unexpected_changed_vertices": []
+    },
+    {
+      "name": "R33_WALL_WC_W_N",
+      "moved_vertices": 4,
+      "unexpected_changed_vertices": []
+    },
+    {
+      "name": "R33_WALL_WC_W_S",
+      "moved_vertices": 4,
+      "unexpected_changed_vertices": []
+    }
+  ],
+  "corner_samples": [
+    {
+      "source_corner": [
+        470.9,
+        560.83
+      ],
+      "position": [
+        24.297033309936523,
+        11.644975662231445,
+        -0.10000000149011612
+      ],
+      "before": [
+        "R33_WALL_WC_E_N",
+        "R33_WALL_WC_E_W"
+      ],
+      "after": [
+        "R33_WALL_WC_E_W"
+      ]
+    },
+    {
+      "source_corner": [
+        470.9,
+        560.83
+      ],
+      "position": [
+        24.238147735595703,
+        11.647115707397461,
+        -0.10000000149011612
+      ],
+      "before": [
+        "R33_WALL_WC_E_N",
+        "R33_WALL_WC_E_W"
+      ],
+      "after": [
+        "R33_WALL_WC_E_N"
+      ]
+    },
+    {
+      "source_corner": [
+        470.9,
+        560.83
+      ],
+      "position": [
+        24.231725692749023,
+        11.470454216003418,
+        -0.10000000149011612
+      ],
+      "before": [],
+      "after": [
+        "R33_WALL_WC_E_N"
+      ]
+    },
+    {
+      "source_corner": [
+        470.9,
+        560.83
+      ],
+      "position": [
+        24.290611267089844,
+        11.468314170837402,
+        -0.10000000149011612
+      ],
+      "before": [],
+      "after": [
+        "R33_WALL_WC_E_W"
+      ]
+    },
+    {
+      "source_corner": [
+        470.9,
+        595.6
+      ],
+      "position": [
+        27.202016830444336,
+        14.403114318847656,
+        -0.10000000149011612
+      ],
+      "before": [
+        "R33_WALL_WC_E_W",
+        "R33_WALL_WC_E_S"
+      ],
+      "after": [
+        "R33_WALL_WC_E_S"
+      ]
+    },
+    {
+      "source_corner": [
+        470.9,
+        595.6
+      ],
+      "position": [
+        27.199874877929688,
+        14.344226837158203,
+        -0.10000000149011612
+      ],
+      "before": [
+        "R33_WALL_WC_E_W",
+        "R33_WALL_WC_E_S"
+      ],
+      "after": [
+        "R33_WALL_WC_E_W"
+      ]
+    },
+    {
+      "source_corner": [
+        470.9,
+        595.6
+      ],
+      "position": [
+        27.37653350830078,
+        14.337806701660156,
+        -0.10000000149011612
+      ],
+      "before": [],
+      "after": [
+        "R33_WALL_WC_E_W"
+      ]
+    },
+    {
+      "source_corner": [
+        470.9,
+        595.6
+      ],
+      "position": [
+        27.37867546081543,
+        14.39669418334961,
+        -0.10000000149011612
+      ],
+      "before": [],
+      "after": [
+        "R33_WALL_WC_E_S"
+      ]
+    },
+    {
+      "source_corner": [
+        680.44,
+        560.83
+      ],
+      "position": [
+        7.224074363708496,
+        29.76089096069336,
+        -0.10000000149011612
+      ],
+      "before": [],
+      "after": [
+        "R33_WALL_WC_W_N"
+      ]
+    },
+    {
+      "source_corner": [
+        680.44,
+        560.83
+      ],
+      "position": [
+        7.226214408874512,
+        29.819778442382812,
+        -0.10000000149011612
+      ],
+      "before": [],
+      "after": [
+        "R33_WALL_WC_W_E"
+      ]
+    },
+    {
+      "source_corner": [
+        680.44,
+        560.83
+      ],
+      "position": [
+        7.402873992919922,
+        29.8133602142334,
+        -0.10000000149011612
+      ],
+      "before": [
+        "R33_WALL_WC_W_N",
+        "R33_WALL_WC_W_E"
+      ],
+      "after": [
+        "R33_WALL_WC_W_E"
+      ]
+    },
+    {
+      "source_corner": [
+        680.44,
+        560.83
+      ],
+      "position": [
+        7.400733947753906,
+        29.754470825195312,
+        -0.10000000149011612
+      ],
+      "before": [
+        "R33_WALL_WC_W_N",
+        "R33_WALL_WC_W_E"
+      ],
+      "after": [
+        "R33_WALL_WC_W_N"
+      ]
+    },
+    {
+      "source_corner": [
+        680.44,
+        595.6
+      ],
+      "position": [
+        10.312135696411133,
+        32.68927001953125,
+        -0.10000000149011612
+      ],
+      "before": [],
+      "after": [
+        "R33_WALL_WC_W_E"
+      ]
+    },
+    {
+      "source_corner": [
+        680.44,
+        595.6
+      ],
+      "position": [
+        10.371023178100586,
+        32.687129974365234,
+        -0.10000000149011612
+      ],
+      "before": [],
+      "after": [
+        "R33_WALL_WC_W_S"
+      ]
+    },
+    {
+      "source_corner": [
+        680.44,
+        595.6
+      ],
+      "position": [
+        10.364603042602539,
+        32.510467529296875,
+        -0.10000000149011612
+      ],
+      "before": [
+        "R33_WALL_WC_W_E",
+        "R33_WALL_WC_W_S"
+      ],
+      "after": [
+        "R33_WALL_WC_W_S"
+      ]
+    },
+    {
+      "source_corner": [
+        680.44,
+        595.6
+      ],
+      "position": [
+        10.305715560913086,
+        32.512611389160156,
+        -0.10000000149011612
+      ],
+      "before": [
+        "R33_WALL_WC_W_E",
+        "R33_WALL_WC_W_S"
+      ],
+      "after": [
+        "R33_WALL_WC_W_E"
+      ]
+    },
+    {
+      "source_corner": [
+        415.05,
+        619.27
+      ],
+      "position": [
+        33.89918518066406,
+        11.513728141784668,
+        -0.10000000149011612
+      ],
+      "before": [
+        "R33_WALL_CLOAK_N",
+        "R33_WALL_CLOAK_W"
+      ],
+      "after": [
+        "R33_WALL_CLOAK_W"
+      ]
+    },
+    {
+      "source_corner": [
+        415.05,
+        619.27
+      ],
+      "position": [
+        33.84029769897461,
+        11.515867233276367,
+        -0.10000000149011612
+      ],
+      "before": [
+        "R33_WALL_CLOAK_N",
+        "R33_WALL_CLOAK_W"
+      ],
+      "after": [
+        "R33_WALL_CLOAK_N"
+      ]
+    },
+    {
+      "source_corner": [
+        415.05,
+        619.27
+      ],
+      "position": [
+        33.83387756347656,
+        11.33920669555664,
+        -0.10000000149011612
+      ],
+      "before": [],
+      "after": [
+        "R33_WALL_CLOAK_N"
+      ]
+    },
+    {
+      "source_corner": [
+        415.05,
+        619.27
+      ],
+      "position": [
+        33.89276885986328,
+        11.337066650390625,
+        -0.10000000149011612
+      ],
+      "before": [],
+      "after": [
+        "R33_WALL_CLOAK_W"
+      ]
+    },
+    {
+      "source_corner": [
+        466.7,
+        619.27
+      ],
+      "position": [
+        29.598865509033203,
+        15.89364242553711,
+        -0.10000000149011612
+      ],
+      "before": [],
+      "after": [
+        "R33_WALL_CLOAK_N"
+      ]
+    },
+    {
+      "source_corner": [
+        466.7,
+        619.27
+      ],
+      "position": [
+        29.601003646850586,
+        15.952528953552246,
+        -0.10000000149011612
+      ],
+      "before": [],
+      "after": [
+        "R33_WALL_CLOAK_N_RETURN"
+      ]
+    },
+    {
+      "source_corner": [
+        466.7,
+        619.27
+      ],
+      "position": [
+        29.77766227722168,
+        15.9461088180542,
+        -0.10000000149011612
+      ],
+      "before": [
+        "R33_WALL_CLOAK_N",
+        "R33_WALL_CLOAK_N_RETURN"
+      ],
+      "after": [
+        "R33_WALL_CLOAK_N_RETURN"
+      ]
+    },
+    {
+      "source_corner": [
+        466.7,
+        619.27
+      ],
+      "position": [
+        29.775524139404297,
+        15.887222290039062,
+        -0.10000000149011612
+      ],
+      "before": [
+        "R33_WALL_CLOAK_N",
+        "R33_WALL_CLOAK_N_RETURN"
+      ],
+      "after": [
+        "R33_WALL_CLOAK_N"
+      ]
+    },
+    {
+      "source_corner": [
+        415.05,
+        639.1
+      ],
+      "position": [
+        35.522300720214844,
+        13.07990550994873,
+        -0.10000000149011612
+      ],
+      "before": [
+        "R33_WALL_CLOAK_W",
+        "R33_WALL_CLOAK_SW"
+      ],
+      "after": [
+        "R33_WALL_CLOAK_SW"
+      ]
+    },
+    {
+      "source_corner": [
+        415.05,
+        639.1
+      ],
+      "position": [
+        35.509037017822266,
+        13.050905227661133,
+        -0.10000000149011612
+      ],
+      "before": [
+        "R33_WALL_CLOAK_W",
+        "R33_WALL_CLOAK_SW"
+      ],
+      "after": [
+        "R33_WALL_CLOAK_W"
+      ]
+    },
+    {
+      "source_corner": [
+        415.05,
+        639.1
+      ],
+      "position": [
+        35.66107177734375,
+        12.981355667114258,
+        -0.10000000149011612
+      ],
+      "before": [],
+      "after": [
+        "R33_WALL_CLOAK_W"
+      ]
+    },
+    {
+      "source_corner": [
+        415.05,
+        639.1
+      ],
+      "position": [
+        35.674339294433594,
+        13.010355949401855,
+        -0.10000000149011612
+      ],
+      "before": [],
+      "after": [
+        "R33_WALL_CLOAK_SW"
+      ]
+    },
+    {
+      "source_corner": [
+        448.3,
+        672.35
+      ],
+      "position": [
+        35.710655212402344,
+        18.598854064941406,
+        -0.10000000149011612
+      ],
+      "before": [
+        "R33_WALL_CLOAK_SW",
+        "R33_WALL_CLOAK_S"
+      ],
+      "after": [
+        "R33_WALL_CLOAK_S"
+      ]
+    },
+    {
+      "source_corner": [
+        448.3,
+        672.35
+      ],
+      "position": [
+        35.721778869628906,
+        18.568967819213867,
+        -0.10000000149011612
+      ],
+      "before": [
+        "R33_WALL_CLOAK_SW",
+        "R33_WALL_CLOAK_S"
+      ],
+      "after": [
+        "R33_WALL_CLOAK_SW"
+      ]
+    },
+    {
+      "source_corner": [
+        448.3,
+        672.35
+      ],
+      "position": [
+        35.87846374511719,
+        18.627296447753906,
+        -0.10000000149011612
+      ],
+      "before": [],
+      "after": [
+        "R33_WALL_CLOAK_SW"
+      ]
+    },
+    {
+      "source_corner": [
+        448.3,
+        672.35
+      ],
+      "position": [
+        35.867340087890625,
+        18.657184600830078,
+        -0.10000000149011612
+      ],
+      "before": [],
+      "after": [
+        "R33_WALL_CLOAK_S"
+      ]
+    },
+    {
+      "source_corner": [
+        466.82,
+        672.35
+      ],
+      "position": [
+        34.26371765136719,
+        20.137004852294922,
+        -0.10000000149011612
+      ],
+      "before": [
+        "R33_WALL_CLOAK_S",
+        "R33_WALL_CLOAK_S_RETURN"
+      ],
+      "after": [
+        "R33_WALL_CLOAK_S_RETURN"
+      ]
+    },
+    {
+      "source_corner": [
+        466.82,
+        672.35
+      ],
+      "position": [
+        34.322608947753906,
+        20.134864807128906,
+        -0.10000000149011612
+      ],
+      "before": [
+        "R33_WALL_CLOAK_S",
+        "R33_WALL_CLOAK_S_RETURN"
+      ],
+      "after": [
+        "R33_WALL_CLOAK_S"
+      ]
+    },
+    {
+      "source_corner": [
+        466.82,
+        672.35
+      ],
+      "position": [
+        34.32902526855469,
+        20.3115234375,
+        -0.10000000149011612
+      ],
+      "before": [],
+      "after": [
+        "R33_WALL_CLOAK_S"
+      ]
+    },
+    {
+      "source_corner": [
+        466.82,
+        672.35
+      ],
+      "position": [
+        34.270137786865234,
+        20.31366539001465,
+        -0.10000000149011612
+      ],
+      "before": [],
+      "after": [
+        "R33_WALL_CLOAK_S_RETURN"
+      ]
+    },
+    {
+      "source_corner": [
+        470.93,
+        703.22
+      ],
+      "position": [
+        36.562232971191406,
+        23.111730575561523,
+        -0.10000000149011612
+      ],
+      "before": [
+        "R33_WALL_SHOP_W",
+        "R33_WALL_SHOP_S"
+      ],
+      "after": [
+        "R33_WALL_SHOP_S"
+      ]
+    },
+    {
+      "source_corner": [
+        470.93,
+        703.22
+      ],
+      "position": [
+        36.56009292602539,
+        23.052845001220703,
+        -0.10000000149011612
+      ],
+      "before": [
+        "R33_WALL_SHOP_W",
+        "R33_WALL_SHOP_S"
+      ],
+      "after": [
+        "R33_WALL_SHOP_W"
+      ]
+    },
+    {
+      "source_corner": [
+        470.93,
+        703.22
+      ],
+      "position": [
+        36.73675537109375,
+        23.046422958374023,
+        -0.10000000149011612
+      ],
+      "before": [],
+      "after": [
+        "R33_WALL_SHOP_W"
+      ]
+    },
+    {
+      "source_corner": [
+        470.93,
+        703.22
+      ],
+      "position": [
+        36.73889923095703,
+        23.105308532714844,
+        -0.10000000149011612
+      ],
+      "before": [],
+      "after": [
+        "R33_WALL_SHOP_S"
+      ]
+    },
+    {
+      "source_corner": [
+        526.52,
+        703.22
+      ],
+      "position": [
+        32.119842529296875,
+        27.82799530029297,
+        -0.10000000149011612
+      ],
+      "before": [
+        "R33_WALL_SHOP_S",
+        "R33_WALL_SHOP_E"
+      ],
+      "after": [
+        "R33_WALL_SHOP_E"
+      ]
+    },
+    {
+      "source_corner": [
+        526.52,
+        703.22
+      ],
+      "position": [
+        32.178733825683594,
+        27.825855255126953,
+        -0.10000000149011612
+      ],
+      "before": [
+        "R33_WALL_SHOP_S",
+        "R33_WALL_SHOP_E"
+      ],
+      "after": [
+        "R33_WALL_SHOP_S"
+      ]
+    },
+    {
+      "source_corner": [
+        526.52,
+        703.22
+      ],
+      "position": [
+        32.185150146484375,
+        28.002513885498047,
+        -0.10000000149011612
+      ],
+      "before": [],
+      "after": [
+        "R33_WALL_SHOP_S"
+      ]
+    },
+    {
+      "source_corner": [
+        526.52,
+        703.22
+      ],
+      "position": [
+        32.12626266479492,
+        28.004653930664062,
+        -0.10000000149011612
+      ],
+      "before": [],
+      "after": [
+        "R33_WALL_SHOP_E"
+      ]
+    }
+  ],
+  "previously_open_samples": 22,
+  "failures": [],
+  "construction_acceptance": false
+}

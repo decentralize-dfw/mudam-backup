@@ -1,0 +1,19 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R109_SERVIS_MERDIVEN_ALTI_KOSELERI_v001.blend",
+  "base_scene": "12_Blender_Model/scenes/MUDAM_R108_ZEMIN_SERVIS_DUVAR_KOSELERI_v001.blend",
+  "inherited_objects_checked": 9229,
+  "changed_inherited_objects": [
+    "R33_WALL_SERVICE_W_N",
+    "R33_WALL_SERVICE_W_E",
+    "R33_WALL_SERVICE_W_W"
+  ],
+  "allowed_changes": [
+    "R33_WALL_SERVICE_W_E",
+    "R33_WALL_SERVICE_W_N",
+    "R33_WALL_SERVICE_W_W"
+  ],
+  "allowed_but_unchanged": [],
+  "new_objects": [],
+  "failures": [],
+  "construction_acceptance": false
+}

@@ -1,0 +1,246 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R109_SERVIS_MERDIVEN_ALTI_KOSELERI_v001.blend",
+  "checks": [
+    {
+      "name": "R13_TOWER_X_0_0",
+      "end": 0,
+      "endpoint": [
+        30.503480911254883,
+        -44.13302993774414,
+        9.064043045043945
+      ],
+      "nearest_frame": "R13_FRAME_189",
+      "nearest_distance": 0.025000080466270447,
+      "signed_distance": -0.025000081453981693,
+      "review_gap": 0
+    },
+    {
+      "name": "R13_TOWER_X_0_0",
+      "end": 1,
+      "endpoint": [
+        27.863201141357422,
+        -44.01036834716797,
+        12.801793098449707
+      ],
+      "nearest_frame": "R13_FRAME_060",
+      "nearest_distance": 0.01078488864004612,
+      "signed_distance": 0.009378446149639785,
+      "review_gap": 0.0033750288324444575
+    },
+    {
+      "name": "R13_TOWER_X_0_1",
+      "end": 0,
+      "endpoint": [
+        27.863208770751953,
+        -44.01036834716797,
+        9.064043045043945
+      ],
+      "nearest_frame": "R13_FRAME_067",
+      "nearest_distance": 0.025001658126711845,
+      "signed_distance": -0.025001657902066654,
+      "review_gap": 0
+    },
+    {
+      "name": "R13_TOWER_X_0_1",
+      "end": 1,
+      "endpoint": [
+        30.50347900390625,
+        -44.13303756713867,
+        12.801793098449707
+      ],
+      "nearest_frame": "R13_FRAME_058",
+      "nearest_distance": 0.009161442518234253,
+      "signed_distance": 0.0053255159764376,
+      "review_gap": 0
+    },
+    {
+      "name": "R13_TOWER_X_1_0",
+      "end": 0,
+      "endpoint": [
+        28.007658004760742,
+        -44.16571807861328,
+        9.064043045043945
+      ],
+      "nearest_frame": "R13_FRAME_023",
+      "nearest_distance": 0.025853237137198448,
+      "signed_distance": -0.025853237595583778,
+      "review_gap": 0
+    },
+    {
+      "name": "R13_TOWER_X_1_0",
+      "end": 1,
+      "endpoint": [
+        28.10267448425293,
+        -41.55115509033203,
+        12.80179500579834
+      ],
+      "nearest_frame": "R13_FRAME_114",
+      "nearest_distance": 0.009667363949120045,
+      "signed_distance": 0.008069900242844597,
+      "review_gap": 0.002067120985656497
+    },
+    {
+      "name": "R13_TOWER_X_1_1",
+      "end": 0,
+      "endpoint": [
+        28.102678298950195,
+        -41.55115509033203,
+        9.064043045043945
+      ],
+      "nearest_frame": "R13_FRAME_121",
+      "nearest_distance": 0.025852089747786522,
+      "signed_distance": -0.02585208940990924,
+      "review_gap": 0
+    },
+    {
+      "name": "R13_TOWER_X_1_1",
+      "end": 1,
+      "endpoint": [
+        28.007659912109375,
+        -44.16571807861328,
+        12.80179500579834
+      ],
+      "nearest_frame": "R13_FRAME_056",
+      "nearest_distance": 0.026513999328017235,
+      "signed_distance": -0.026514000270253746,
+      "review_gap": 0
+    },
+    {
+      "name": "R13_TOWER_X_2_0",
+      "end": 0,
+      "endpoint": [
+        27.947328567504883,
+        -41.695613861083984,
+        9.064043045043945
+      ],
+      "nearest_frame": "R13_FRAME_081",
+      "nearest_distance": 0.024999799206852913,
+      "signed_distance": -0.024999798050885147,
+      "review_gap": 0
+    },
+    {
+      "name": "R13_TOWER_X_2_0",
+      "end": 1,
+      "endpoint": [
+        30.58954429626465,
+        -41.764915466308594,
+        12.801793098449707
+      ],
+      "nearest_frame": "R13_FRAME_168",
+      "nearest_distance": 0.009160159155726433,
+      "signed_distance": 0.005321672677382594,
+      "review_gap": 0
+    },
+    {
+      "name": "R13_TOWER_X_2_1",
+      "end": 0,
+      "endpoint": [
+        30.589540481567383,
+        -41.76491165161133,
+        9.064043045043945
+      ],
+      "nearest_frame": "R13_FRAME_175",
+      "nearest_distance": 0.02500087022781372,
+      "signed_distance": -0.025000869383802637,
+      "review_gap": 0
+    },
+    {
+      "name": "R13_TOWER_X_2_1",
+      "end": 1,
+      "endpoint": [
+        27.947328567504883,
+        -41.69561004638672,
+        12.801793098449707
+      ],
+      "nearest_frame": "R13_FRAME_111",
+      "nearest_distance": 0.02500085160136223,
+      "signed_distance": -0.025000849906064104,
+      "review_gap": 0
+    },
+    {
+      "name": "R13_TOWER_X_3_0",
+      "end": 0,
+      "endpoint": [
+        30.445087432861328,
+        -41.609561920166016,
+        9.064043045043945
+      ],
+      "nearest_frame": "R13_FRAME_135",
+      "nearest_distance": 0.024144966155290604,
+      "signed_distance": -0.02414496534765931,
+      "review_gap": 0
+    },
+    {
+      "name": "R13_TOWER_X_3_0",
+      "end": 1,
+      "endpoint": [
+        30.348133087158203,
+        -44.277488708496094,
+        12.801793098449707
+      ],
+      "nearest_frame": "R13_FRAME_043",
+      "nearest_distance": 0.023485742509365082,
+      "signed_distance": -0.023485743502533296,
+      "review_gap": 0
+    },
+    {
+      "name": "R13_TOWER_X_3_1",
+      "end": 0,
+      "endpoint": [
+        30.348134994506836,
+        -44.277488708496094,
+        9.064043045043945
+      ],
+      "nearest_frame": "R13_FRAME_008",
+      "nearest_distance": 0.024148641154170036,
+      "signed_distance": -0.02414863958983915,
+      "review_gap": 0
+    },
+    {
+      "name": "R13_TOWER_X_3_1",
+      "end": 1,
+      "endpoint": [
+        30.445091247558594,
+        -41.60956573486328,
+        12.801793098449707
+      ],
+      "nearest_frame": "R13_FRAME_165",
+      "nearest_distance": 0.023483678698539734,
+      "signed_distance": -0.023483681961806724,
+      "review_gap": 0
+    }
+  ],
+  "findings": [
+    {
+      "name": "R13_TOWER_X_0_0",
+      "end": 1,
+      "endpoint": [
+        27.863201141357422,
+        -44.01036834716797,
+        12.801793098449707
+      ],
+      "nearest_frame": "R13_FRAME_060",
+      "nearest_distance": 0.01078488864004612,
+      "signed_distance": 0.009378446149639785,
+      "review_gap": 0.0033750288324444575
+    },
+    {
+      "name": "R13_TOWER_X_1_0",
+      "end": 1,
+      "endpoint": [
+        28.10267448425293,
+        -41.55115509033203,
+        12.80179500579834
+      ],
+      "nearest_frame": "R13_FRAME_114",
+      "nearest_distance": 0.009667363949120045,
+      "signed_distance": 0.008069900242844597,
+      "review_gap": 0.002067120985656497
+    }
+  ],
+  "construction_acceptance": false,
+  "limits": [
+    "Nearest-surface signed distance at intended frame attachment; intersections and weld/fastener design are separate.",
+    "Inherited widths and rod diameters remain representative."
+  ]
+}

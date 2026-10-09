@@ -1,8 +1,21 @@
 """Plot evaluated wall sections without treating the visitor diagrams as survey drawings."""
 from pathlib import Path
-import json,re
+import json,re,os,tempfile,time
 from PIL import Image,ImageDraw
 R=Path(__file__).resolve().parents[2];B=R/'12_Blender_Model';r=json.loads((B/'reports/DUVAR_ENVANTERI.json').read_text());m=json.loads((B/'references/source_manifest.json').read_text());C=json.loads((B/'config/foundation.json').read_text())['calibration'];revision=re.search(r'_R\d+_',r['scene'])[0].strip('_')
+def save_overlay(image,target):
+ # Readers can retain the old complete image while the replacement is encoded.
+ cache=B/'.local_source_cache';cache.mkdir(exist_ok=True)
+ with tempfile.NamedTemporaryFile(dir=cache,suffix='.png',delete=False) as tmp:temp=Path(tmp.name)
+ try:
+  image.save(temp,format='PNG')
+  for attempt in range(5):
+   try:os.replace(temp,target);break
+   except OSError as error:
+    if error.errno not in (13,22) or attempt==4:raise
+    time.sleep(.15*(attempt+1))
+ finally:
+  if temp.exists():temp.unlink()
 for level,id in [('L00','102'),('LP1','103'),('LM1','104'),('PAV_LM1','104')]:
  im=Image.open(R/next(s['path'] for s in m if s['id']==id)).convert('RGB')
  if id=='104':
@@ -11,6 +24,6 @@ for level,id in [('L00','102'),('LP1','103'),('LM1','104'),('PAV_LM1','104')]:
  for sec in r['sections']:
   if sec['level']==level:
    for seg in sec['segments']:d.line([tuple(p) for p in seg],fill='#c02e22',width=2)
- d.rectangle((0,0,850,23),fill='white');d.text((10,7),f'{level} / {revision} wall sections. Geometry comparison; NOT surveyed accuracy.',fill='black');im.save(B/'references'/('DUVAR_KONTROL_'+level+'.png'))
+ d.rectangle((0,0,850,23),fill='white');d.text((10,7),f'{level} / {revision} wall sections. Geometry comparison; NOT surveyed accuracy.',fill='black');save_overlay(im,B/'references'/('DUVAR_KONTROL_'+level+'.png'))
  if revision=='R74' and level=='LP1':im.crop((455,589,550,715)).resize((665,882)).save(B/'renders/qa/R74_studio_plan.png')
 print(revision,len(r['objects']),'classified wall candidates; four source overlays refreshed')

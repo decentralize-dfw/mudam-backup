@@ -1,0 +1,13 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R107_OKUMA_DOSEME_DUVAR_TEMASI_v001.blend",
+  "frame_count": 901,
+  "end_sections": 1802,
+  "findings": [],
+  "skipped_nonrectangular": [],
+  "construction_acceptance": false,
+  "limits": [
+    "Nine points per end section with1mm geometric tolerance; affine coordinates include skewed parallelepiped profiles. Not exact Boolean/SAT contact proof.",
+    "Only active P11 grid and perimeter profiles; contact with stone, replacement systems or structural nodes may explain a finding.",
+    "No connection hardware or unmeasured steel detail is inferred."
+  ]
+}

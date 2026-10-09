@@ -1366,5 +1366,58 @@
     "image": "R105_after_floor_contact.png",
     "description": "Batı zemin galerisinde mevcut duvar ile döşeme/tavan arasındaki yaklaşık 20 cm açıklık giderildi. Yalnız iki mevcut nesne genişletildi; 1.030 temas ve 108 giriş/güzergâh kontrolü geçti. Önce/sonra görüntüleri karşılaştırıldı.",
     "limits": "Bütün bina tamamlanmadı. Diğer dar duvar–döşeme–tavan temasları kaynaklarla karşılaştırılıyor; mevcut kotlar ve kalınlıklar ölçülmemiş adaylardır."
+  },
+  {
+    "id": "R107",
+    "checks": [
+      "R107_verification.json",
+      "R107_global_audit.json",
+      "R107_inherited_verification.json"
+    ],
+    "tasks": [
+      "P05",
+      "P17"
+    ],
+    "report": "R107_KONTROL_RAPORU.md",
+    "title": "Okuma odası döşeme teması / R107",
+    "image": "R107_after_reading_floor_edge.png",
+    "description": "Okuma odasının eski döşeme kenarı mevcut PDF2016 duvar konturuyla uzlaştırıldı; duvar dibindeki açık şerit giderildi. Merkez boşluk ve üç geçit korundu. 1.313 döşeme/boşluk ve 36 geçiş kontrolü geçti; önce/sonra görüntüleri incelendi.",
+    "limits": "Bütün bina tamamlanmadı. Diğer küçük odaların üst örtüleri, kalan çelik/cam birleşimleri ve bina son kontrolü açık; kesin kot ve malzeme ölçüleri hâlâ aday."
+  },
+  {
+    "id": "R108",
+    "checks": [
+      "R108_verification.json",
+      "R108_global_audit.json",
+      "R108_inherited_verification.json",
+      "R108_service_routes.json"
+    ],
+    "tasks": [
+      "P07",
+      "P16"
+    ],
+    "report": "R108_KONTROL_RAPORU.md",
+    "title": "Zemin servis duvar köşeleri / R108",
+    "image": "R108_after_service_wall_corner.png",
+    "description": "WC, vestiyer ve dükkânda 15 mevcut duvarın 11 ortak köşesi birleştirildi. Önceki 22 boşluk örneği kapandı; kaynak eksenleri, kalınlık, kotlar ve kapı uçları korundu. 44 köşe ve 96 servis geçiş/destek kontrolü geçti; yakın önce/sonra görüntüleri incelendi.",
+    "limits": "Bütün bina tamamlanmadı. Diğer kabuk birleşimleri, merdiven/kapı detayları ve bütünleşik kaynak kontrolü açık; ölçülmemiş kalınlık ve kotlar aday."
+  },
+  {
+    "id": "R109",
+    "checks": [
+      "R109_verification.json",
+      "R109_global_audit.json",
+      "R109_inherited_verification.json",
+      "R109_service_stair_regression.json"
+    ],
+    "tasks": [
+      "P07",
+      "P16"
+    ],
+    "report": "R109_KONTROL_RAPORU.md",
+    "title": "Servis merdiveni altı duvar köşeleri / R109",
+    "image": "R109_after_service_stair_wall_corner.png",
+    "description": "Servis merdiveni altındaki üç mevcut duvarın iki köşesi birleştirildi. Önceki dört boşluk örneği kapandı; mevcut kapı kesisi ve merdiven korundu. Sekiz köşe örneği, genel geometri ve merdiven geçiş kontrolleri geçti; önce/sonra görüntüleri incelendi.",
+    "limits": "Bütün bina tamamlanmadı. Diğer kabuk birleşimleri, merdiven/kapı detayları ve bütünleşik kaynak kontrolü açık; ölçülmemiş kalınlık ve kotlar aday."
   }
 ]
