@@ -1,0 +1,85 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R85_BATI_UST_SAHANLIK_KABUK_v001.blend",
+  "base_scene": "MUDAM_R84_GIRIS_ALT_CAM_KAPANISI_v001.blend",
+  "closed_objects": [
+    "R85_UPPER_LANDING_FLOOR",
+    "R85_RETURN_CEILING_0",
+    "R85_RETURN_CEILING_1",
+    "R85_LANDING_INNER_WALL",
+    "R85_RETURN_INNER_WALL",
+    "R85_RETURN_END_WALL",
+    "R85_RETURN_FAR_WALL",
+    "R85_RETURN_OUTER_TIP"
+  ],
+  "changed_inherited_objects": [
+    "R14_UPPER_LANDING"
+  ],
+  "hidden_superseded": [
+    "R14_UPPER_LANDING"
+  ],
+  "landing_uv": [
+    [
+      1252,
+      452
+    ],
+    [
+      1275,
+      452
+    ],
+    [
+      1275,
+      502.5
+    ],
+    [
+      1252,
+      502.5
+    ]
+  ],
+  "return_uv": [
+    [
+      [
+        1177,
+        424.5
+      ],
+      [
+        1275,
+        424.5
+      ],
+      [
+        1275,
+        452
+      ],
+      [
+        1177,
+        452
+      ]
+    ],
+    [
+      [
+        1177,
+        414
+      ],
+      [
+        1200,
+        414
+      ],
+      [
+        1200,
+        452
+      ],
+      [
+        1177,
+        452
+      ]
+    ]
+  ],
+  "upper_z": 4.859074784676003,
+  "head_z": 8.059074784676003,
+  "construction_acceptance": false,
+  "limits": [
+    "R23 PDF portal and return path retained; R14 straight floor extending into outside/closed room superseded.",
+    "Official103 and PDF inner room boundaries differ; no independent full upper-plan re-registration claimed.",
+    "097 supports enclosed upper connection with opaque end; detailed exact wall/glass segmentation unresolved.",
+    "Existing floor levels, wall thickness and3.2m head remain candidates. Roof silhouette and stair flights unchanged."
+  ]
+}

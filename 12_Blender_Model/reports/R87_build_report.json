@@ -1,0 +1,93 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R87_KUCUK_BATI_GALERISI_KABUK_v003.blend",
+  "base_scene": "MUDAM_R86_PAVYON_CAM_KENAR_KAPANISI_v001.blend",
+  "closed_objects": [
+    "R87_BASE_FLOOR",
+    "R87_UPPER_FLOOR",
+    "R87_OPAQUE_ROOF",
+    "R87_RETURN_INNER_RETAINED",
+    "R87_VOLUME_FRONT_LOW",
+    "R87_VOLUME_FRONT_HIGH",
+    "R87_VOLUME_FRONT_END",
+    "R87_ACCESS_HEAD",
+    "R87_LANDING_SIDE_LOW",
+    "R87_LANDING_SIDE_HIGH",
+    "R87_ROOM_BACK",
+    "R87_ROOM_END",
+    "R87_ROOM_SIDE",
+    "R87_ROOM_FRONT_LEFT",
+    "R87_ROOM_FRONT_RIGHT",
+    "R87_ROOM_DOOR_HEAD"
+  ],
+  "changed_inherited_objects": [
+    "R85_RETURN_INNER_WALL",
+    "P05_GALLERY_HALL_WEST2"
+  ],
+  "hidden_superseded": [
+    "R85_RETURN_INNER_WALL"
+  ],
+  "upper_z": 4.859074784676003,
+  "roof_z": 13.923118,
+  "room_uv": [
+    [
+      1164.18,
+      496.3
+    ],
+    [
+      1221.07,
+      496.3
+    ],
+    [
+      1221.07,
+      542.79
+    ],
+    [
+      1164.18,
+      542.79
+    ]
+  ],
+  "outer_uv": [
+    [
+      1120,
+      452
+    ],
+    [
+      1252,
+      452
+    ],
+    [
+      1252,
+      578
+    ],
+    [
+      1120,
+      578
+    ]
+  ],
+  "route_uv": [
+    [
+      1188,
+      440
+    ],
+    [
+      1188,
+      465
+    ],
+    [
+      1188,
+      488
+    ],
+    [
+      1188,
+      515
+    ]
+  ],
+  "construction_acceptance": false,
+  "limits": [
+    "Missing Petite Galerie Ouest room is confirmed by103 and PDF2016; PDF interior path takes precedence over the visitor colored fill.",
+    "Outer floor/roof use the existing102/103-based stone volume behind cafe and within west stair; concealed technical subdivisions unknown and omitted.",
+    "PDF and visitor stair footprints differ; exterior walls retained and exact full-plan scale reconciliation remains open.",
+    "Floor4.859m, roof13.923m,0.2m slabs and2.6m doorway heads are inherited candidates, not measured.",
+    "Roof is an opaque envelope supported by097; roof build-up, drainage and local slope are unresolved."
+  ]
+}

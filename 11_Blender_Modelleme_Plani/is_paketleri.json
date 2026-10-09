@@ -165,13 +165,21 @@
         "Plan eşlemesindeki uç farkı giderildi. Üst kot ve cam/çatı ilişkisi ayrı açık kontroldür.",
         "İç ve dış kaynak sınırları arasındaki gövde koşullu; ölçülmüş duvar kalınlığı değildir. Genel duvar kontrolü sürüyor.",
         "Mevcut kotlar korundu; genel duvar–zemin–çatı kapanışı sürüyor. Gerçek okuma boşluğu korundu.",
-        "Üst camlar ve mevcut yatay kayıt korundu. Alt panel bölüntüsü ve profil ölçüleri kesin değil; genel kabuk kontrolü açık."
+        "Üst camlar ve mevcut yatay kayıt korundu. Alt panel bölüntüsü ve profil ölçüleri kesin değil; genel kabuk kontrolü açık.",
+        "Şematik plan çizgileri, mevcut aday kalınlık ve fuaye kotları kullanıldı. Asansör donanımı ve kapı detayları yapılmadı.",
+        "102/066/097 kaynakları; mevcut 3,2 m başlık yüksekliği aday olarak korundu. Cam bölüntü ve ürün ayrıntıları ertelendi.",
+        "093/102/026/116 ile mevcut sınırlar kullanıldı; kotlar ve cam detayları aday. Çok kotlu taramada giriş alt cam birleşimi hâlâ açık.",
+        "013/014 ile zemine kapanış; hareketli kanatlar değişmedi. Kesin montaj payları ve profil ölçüleri aday.",
+        "PDF ile ziyaretçi şeması arasındaki iç sınır farkı kayıtlı; kesin yeniden ölçüm değildir. Malzeme ve ayrıntı ölçüleri aday.",
+        "Cam kenar payı görselleştirme parametresidir; plan, kesit ve imalat ölçüsü doğruluğu ayrı değerlendirilir.",
+        "PDF ve ziyaretçi şeması farklı; kot, kalınlık ve yerel çatı eğimi kesinleşmedi. Bütün bina kabulü açık.",
+        "Yalnız panel kenar payı değişti. Merdiven ölçüsü, eğimi ve profil düzeni yeniden ölçülmüş sayılmaz."
       ],
       "updated": "2026-10-08",
       "dependency_mode": "regional_study_only_no_global_acceptance",
       "artifacts": [
-        "12_Blender_Model/scenes/MUDAM_R80_KUZEY_CAM_ALT_KAPANIS_v001.blend",
-        "12_Blender_Model/reports/R80_KONTROL_RAPORU.md",
+        "12_Blender_Model/scenes/MUDAM_R88_BATI_MERDIVEN_CAM_KENAR_v002.blend",
+        "12_Blender_Model/reports/R88_KONTROL_RAPORU.md",
         "12_Blender_Model/reports/R44_KONTROL_RAPORU.md",
         "12_Blender_Model/reports/R52_KONTROL_RAPORU.md",
         "12_Blender_Model/reports/R60_KONTROL_RAPORU.md",
@@ -186,7 +194,15 @@
         "12_Blender_Model/reports/R76_KONTROL_RAPORU.md",
         "12_Blender_Model/reports/R77_KONTROL_RAPORU.md",
         "12_Blender_Model/reports/R78_KONTROL_RAPORU.md",
-        "12_Blender_Model/reports/R79_KONTROL_RAPORU.md"
+        "12_Blender_Model/reports/R79_KONTROL_RAPORU.md",
+        "12_Blender_Model/reports/R80_KONTROL_RAPORU.md",
+        "12_Blender_Model/reports/R81_KONTROL_RAPORU.md",
+        "12_Blender_Model/reports/R82_KONTROL_RAPORU.md",
+        "12_Blender_Model/reports/R83_KONTROL_RAPORU.md",
+        "12_Blender_Model/reports/R84_KONTROL_RAPORU.md",
+        "12_Blender_Model/reports/R85_KONTROL_RAPORU.md",
+        "12_Blender_Model/reports/R86_KONTROL_RAPORU.md",
+        "12_Blender_Model/reports/R87_KONTROL_RAPORU.md"
       ],
       "completed_scope": [
         "Duvar/döşeme bölgesel kabukları kapalı; merdiven nişi ve galeri camlarıyla yerel kesimler koordine edildi.",
@@ -203,7 +219,15 @@
         "İki mevcut duvarın ortak ucu bağlandı; on iç yüzey örneği, sabit kot ve bütün sahne kontrolü geçti.",
         "Doğu düz iç yüzü ve batı kademeli cephe gövdesi; 126 sınır, 1226 oda içi ve 102 merdiven boşluk kontrolü geçti.",
         "Eski kare kesicinin sildiği iki çatı köşesi geri getirildi; 342 örtü ve 112 kuzey koruma örneği geçti.",
-        "087/119 cephe fotoğraflarına göre alt cam sınırı zemine indirildi; 536 yatay kapanış örneği geçti."
+        "087/119 cephe fotoğraflarına göre alt cam sınırı zemine indirildi; 536 yatay kapanış örneği geçti.",
+        "104 planındaki yan hacimlere 31 duvar/döşeme/tavan bileşeni; 405 sınır ve altı geçiş kontrolü geçti.",
+        "Mevcut zeminin eksik yan camı, üst örtüsü ve iç duvarı eklendi; 312 alt/üst ve 156 yan kapanış örneği geçti.",
+        "Kafe arkasındaki taş duvar ve iki üçgen cam geçiş tamamlandı; önceki 81 yanal kaçak kapandı.",
+        "Zeminden18–25cm yukarıda kalan sabit cam ve kayıtlar zemine bağlandı; 18 eski kaçak kapandı.",
+        "Eski düz uzantı kaldırıldı; PDF kapısına dönen mevcut koridorun duvar ve örtüsü eklendi. 571 sık örnek ve dolaşım denetimi geçti.",
+        "Orana bağlı küçültme yerine sabit kenar payı; dört örtü kaçağı kapandı. 26 bölgenin sık ve çok kotlu taraması temiz.",
+        "Eksik alt/üst döşeme ve çatı eklendi; PDF oda sınırı ve açık bağlantısı kuruldu. 29 bölge, 97.080 sık örnek ve 218.136 çok kotlu ışın kontrol edildi.",
+        "Merdiven basamaklarından bulunan sekiz cam kenarı kaçağı kapatıldı; 170 konum ve 12.240 yanal ışın taraması temiz."
       ],
       "coverage_as_of": "R55"
     },
@@ -218,23 +242,26 @@
       "status": "in_progress",
       "open_issues": [
         "Bütün kapı/pencere listesi ve kaynak eşlemesi tamamlanmadı; servis alanları ve donanım kimlikleri açık.",
-        "Geniş2,2m tarama sağ panele çarpar; hareketli kanatlar bu statik testten ayrı. Gerçek kapı mekanizması ve eşik ölçüsü açık."
+        "Geniş2,2m tarama sağ panele çarpar; hareketli kanatlar bu statik testten ayrı. Gerçek kapı mekanizması ve eşik ölçüsü açık.",
+        "013/014 ile zemine kapanış; hareketli kanatlar değişmedi. Kesin montaj payları ve profil ölçüleri aday."
       ],
       "updated": "2026-10-08",
       "dependency_mode": "regional_study_only_no_global_acceptance",
       "artifacts": [
-        "12_Blender_Model/scenes/MUDAM_R64_GIRIS_ESIK_GECIS_v001.blend",
-        "12_Blender_Model/reports/R64_KONTROL_RAPORU.md",
+        "12_Blender_Model/scenes/MUDAM_R84_GIRIS_ALT_CAM_KAPANISI_v001.blend",
+        "12_Blender_Model/reports/R84_KONTROL_RAPORU.md",
         "12_Blender_Model/reports/R18_PAVYON_GECIT_RAPORU.md",
         "12_Blender_Model/reports/R22_ODITORYUM_DONATI_RAPORU.md",
         "12_Blender_Model/reports/R23_R24_UST_GALERI_RAPORU.md",
         "12_Blender_Model/reports/R30_UST_ASANSOR_RAPORU.md",
         "12_Blender_Model/reports/R52_KONTROL_RAPORU.md",
-        "12_Blender_Model/reports/R54_KONTROL_RAPORU.md"
+        "12_Blender_Model/reports/R54_KONTROL_RAPORU.md",
+        "12_Blender_Model/reports/R64_KONTROL_RAPORU.md"
       ],
       "completed_scope": [
         "Giriş kanatları, galeri geçişleri, oditoryum ve pavyon kapıları, asansör sahanlığı, galeri ve alt cephe cam adayları üretildi.",
-        "18–25cm yüksekteki hatalı tam boy profil kaldırıldı;2m statik geçişte189 ışın ve63 döşeme örneği geçti."
+        "18–25cm yüksekteki hatalı tam boy profil kaldırıldı;2m statik geçişte189 ışın ve63 döşeme örneği geçti.",
+        "Zeminden18–25cm yukarıda kalan sabit cam ve kayıtlar zemine bağlandı; 18 eski kaçak kapandı."
       ],
       "coverage_as_of": "R55"
     },
@@ -304,21 +331,33 @@
       "status": "in_progress",
       "open_issues": [
         "Panel bölünmesi, tekrarlanan kabuk adedi, kesin başlık/kenar detayları koşullu.",
-        "Mevcut kotlar korundu; genel duvar–zemin–çatı kapanışı sürüyor. Gerçek okuma boşluğu korundu."
+        "Mevcut kotlar korundu; genel duvar–zemin–çatı kapanışı sürüyor. Gerçek okuma boşluğu korundu.",
+        "102/066/097 kaynakları; mevcut 3,2 m başlık yüksekliği aday olarak korundu. Cam bölüntü ve ürün ayrıntıları ertelendi.",
+        "093/102/026/116 ile mevcut sınırlar kullanıldı; kotlar ve cam detayları aday. Çok kotlu taramada giriş alt cam birleşimi hâlâ açık.",
+        "Cam kenar payı görselleştirme parametresidir; plan, kesit ve imalat ölçüsü doğruluğu ayrı değerlendirilir.",
+        "Yalnız panel kenar payı değişti. Merdiven ölçüsü, eğimi ve profil düzeni yeniden ölçülmüş sayılmaz."
       ],
       "updated": "2026-10-08",
       "dependency_mode": "regional_study_only_no_global_acceptance",
       "artifacts": [
-        "12_Blender_Model/scenes/MUDAM_R79_CATIDA_EKSIK_KOSELER_v001.blend",
-        "12_Blender_Model/reports/R79_KONTROL_RAPORU.md",
+        "12_Blender_Model/scenes/MUDAM_R88_BATI_MERDIVEN_CAM_KENAR_v002.blend",
+        "12_Blender_Model/reports/R88_KONTROL_RAPORU.md",
         "12_Blender_Model/reports/R12_BATI_DUZ_CAM_RAPORU.md",
         "12_Blender_Model/reports/R13_PAVYON_CAM_RAPORU.md",
         "12_Blender_Model/reports/R26_DOGU_CATI_BAGLANTI_RAPORU.md",
-        "12_Blender_Model/reports/R37_KONTROL_RAPORU.md"
+        "12_Blender_Model/reports/R37_KONTROL_RAPORU.md",
+        "12_Blender_Model/reports/R79_KONTROL_RAPORU.md",
+        "12_Blender_Model/reports/R82_KONTROL_RAPORU.md",
+        "12_Blender_Model/reports/R83_KONTROL_RAPORU.md",
+        "12_Blender_Model/reports/R86_KONTROL_RAPORU.md"
       ],
       "completed_scope": [
         "Batı 108 düz cam, pavyon 108 cam/216 profil, doğu cam şeridi ve üst galerilerin 10 ışıklık adayı kuruldu.",
-        "Eski kare kesicinin sildiği iki çatı köşesi geri getirildi; 342 örtü ve 112 kuzey koruma örneği geçti."
+        "Eski kare kesicinin sildiği iki çatı köşesi geri getirildi; 342 örtü ve 112 kuzey koruma örneği geçti.",
+        "Mevcut zeminin eksik yan camı, üst örtüsü ve iç duvarı eklendi; 312 alt/üst ve 156 yan kapanış örneği geçti.",
+        "Kafe arkasındaki taş duvar ve iki üçgen cam geçiş tamamlandı; önceki 81 yanal kaçak kapandı.",
+        "Orana bağlı küçültme yerine sabit kenar payı; dört örtü kaçağı kapandı. 26 bölgenin sık ve çok kotlu taraması temiz.",
+        "Merdiven basamaklarından bulunan sekiz cam kenarı kaçağı kapatıldı; 170 konum ve 12.240 yanal ışın taraması temiz."
       ],
       "coverage_as_of": "R55"
     },
@@ -443,7 +482,7 @@
       "updated": "2026-10-08",
       "dependency_mode": "regional_checkpoint_no_global_acceptance",
       "artifacts": [
-        "12_Blender_Model/scenes/MUDAM_R80_KUZEY_CAM_ALT_KAPANIS_v001.blend",
+        "12_Blender_Model/scenes/MUDAM_R88_BATI_MERDIVEN_CAM_KENAR_v002.blend",
         "12_Blender_Model/reports/P19_P21_ONIZLEME_RAPORU.md",
         "12_Blender_Model/reports/R34_GIRIS_KOPRULERI_RAPORU.md",
         "12_Blender_Model/reports/R48_KONTROL_RAPORU.md",
@@ -529,12 +568,16 @@
         "Duvar ölçüleri koşullu; diğer duvarlar ve yan salon birleşimleri açık.",
         "Mevcut kaynak sınırları korundu; kalınlık/kotlar koşullu. Genel duvar kabulü açık.",
         "Kaynak planlara bağlı yerel düzeltme; kesin kalınlık ve kotlar koşullu. Genel duvar kabulü açık.",
-        "Mevcut kotlar korundu; genel duvar–zemin–çatı kapanışı sürüyor. Gerçek okuma boşluğu korundu."
+        "Mevcut kotlar korundu; genel duvar–zemin–çatı kapanışı sürüyor. Gerçek okuma boşluğu korundu.",
+        "Şematik plan çizgileri, mevcut aday kalınlık ve fuaye kotları kullanıldı. Asansör donanımı ve kapı detayları yapılmadı.",
+        "102/066/097 kaynakları; mevcut 3,2 m başlık yüksekliği aday olarak korundu. Cam bölüntü ve ürün ayrıntıları ertelendi.",
+        "PDF ile ziyaretçi şeması arasındaki iç sınır farkı kayıtlı; kesin yeniden ölçüm değildir. Malzeme ve ayrıntı ölçüleri aday.",
+        "PDF ve ziyaretçi şeması farklı; kot, kalınlık ve yerel çatı eğimi kesinleşmedi. Bütün bina kabulü açık."
       ],
       "updated": "2026-10-08",
       "dependency_mode": "regional_checkpoint_no_global_acceptance",
       "artifacts": [
-        "12_Blender_Model/scenes/MUDAM_R80_KUZEY_CAM_ALT_KAPANIS_v001.blend",
+        "12_Blender_Model/scenes/MUDAM_R88_BATI_MERDIVEN_CAM_KENAR_v002.blend",
         "12_Blender_Model/reports/P19_P21_ONIZLEME_RAPORU.md",
         "12_Blender_Model/reports/R08_OKUMA_TAVANI_RAPORU.md",
         "12_Blender_Model/reports/R09_OKUMA_MEKANI_RAPORU.md",
@@ -546,7 +589,11 @@
         "12_Blender_Model/reports/R73_KONTROL_RAPORU.md",
         "12_Blender_Model/reports/R74_KONTROL_RAPORU.md",
         "12_Blender_Model/reports/R76_KONTROL_RAPORU.md",
-        "12_Blender_Model/reports/R79_KONTROL_RAPORU.md"
+        "12_Blender_Model/reports/R79_KONTROL_RAPORU.md",
+        "12_Blender_Model/reports/R81_KONTROL_RAPORU.md",
+        "12_Blender_Model/reports/R82_KONTROL_RAPORU.md",
+        "12_Blender_Model/reports/R85_KONTROL_RAPORU.md",
+        "12_Blender_Model/reports/R87_KONTROL_RAPORU.md"
       ],
       "completed_scope": [
         "Okuma odası, eğimli tavan ve24 kollu ışık; iki üst galeri, Studio, asansör sahanlığı; Grand Hall20 silindir ışık işlendi.",
@@ -555,7 +602,11 @@
         "İki kesintisiz duvar gövdesi; 576 yüzey/sınır ve 90 geçiş testi.",
         "Beş duvar, dört köşe ve sekiz önce/sonra boşluk kontrolü.",
         "İki duvar ucu komşu kaynak sınırına bağlandı; iki temas, 15 açık geçiş ışını ve bütün sahne denetimi geçti.",
-        "Eski kare kesicinin sildiği iki çatı köşesi geri getirildi; 342 örtü ve 112 kuzey koruma örneği geçti."
+        "Eski kare kesicinin sildiği iki çatı köşesi geri getirildi; 342 örtü ve 112 kuzey koruma örneği geçti.",
+        "104 planındaki yan hacimlere 31 duvar/döşeme/tavan bileşeni; 405 sınır ve altı geçiş kontrolü geçti.",
+        "Mevcut zeminin eksik yan camı, üst örtüsü ve iç duvarı eklendi; 312 alt/üst ve 156 yan kapanış örneği geçti.",
+        "Eski düz uzantı kaldırıldı; PDF kapısına dönen mevcut koridorun duvar ve örtüsü eklendi. 571 sık örnek ve dolaşım denetimi geçti.",
+        "Eksik alt/üst döşeme ve çatı eklendi; PDF oda sınırı ve açık bağlantısı kuruldu. 29 bölge, 97.080 sık örnek ve 218.136 çok kotlu ışın kontrol edildi."
       ],
       "coverage_as_of": "R55"
     },
@@ -626,7 +677,7 @@
       "updated": "2026-10-08",
       "dependency_mode": "regional_checkpoint_no_global_acceptance",
       "artifacts": [
-        "12_Blender_Model/scenes/MUDAM_R80_KUZEY_CAM_ALT_KAPANIS_v001.blend",
+        "12_Blender_Model/scenes/MUDAM_R88_BATI_MERDIVEN_CAM_KENAR_v002.blend",
         "12_Blender_Model/reports/P19_P21_ONIZLEME_RAPORU.md",
         "12_Blender_Model/reports/R32_TAS_AHSAP_RAPORU.md",
         "12_Blender_Model/reports/R43_KONTROL_RAPORU.md",
@@ -690,12 +741,12 @@
       "acceptance": "Birim/eksen/malzeme geri yüklemede doğru; performans ölçülmüş",
       "status": "in_progress",
       "open_issues": [
-        "7759 mesh / 2466856 üçgen GLB aktarımı denetlendi; hedef motor ve sadeleştirme açık."
+        "7830 mesh / 2467784 üçgen GLB aktarımı denetlendi; hedef motor ve sadeleştirme açık."
       ],
       "updated": "2026-10-08",
       "dependency_mode": "regional_checkpoint_no_global_acceptance",
       "artifacts": [
-        "12_Blender_Model/scenes/MUDAM_R80_KUZEY_CAM_ALT_KAPANIS_v001.blend",
+        "12_Blender_Model/scenes/MUDAM_R88_BATI_MERDIVEN_CAM_KENAR_v002.blend",
         "12_Blender_Model/reports/P19_P21_ONIZLEME_RAPORU.md"
       ]
     },
@@ -747,7 +798,7 @@
     "P21",
     "P22"
   ],
-  "latest_scene": "12_Blender_Model/scenes/MUDAM_R80_KUZEY_CAM_ALT_KAPANIS_v001.blend",
+  "latest_scene": "12_Blender_Model/scenes/MUDAM_R88_BATI_MERDIVEN_CAM_KENAR_v002.blend",
   "scope_constraints": {
     "priority": "Bina ve kalıcı mimari sistemler",
     "excluded": [

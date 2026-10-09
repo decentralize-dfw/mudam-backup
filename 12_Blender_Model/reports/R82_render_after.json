@@ -1,0 +1,35 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R82_BATI_MERDIVEN_GIRIS_KABUK_v001.blend",
+  "images": [
+    {
+      "image": "R82_after_west_entry.png",
+      "eye_canonical": [
+        961,
+        245,
+        8
+      ],
+      "target_canonical": [
+        872,
+        278,
+        2.4
+      ],
+      "lens": 40
+    },
+    {
+      "image": "R82_after_west_entry_inside.png",
+      "eye_canonical": [
+        851,
+        265,
+        1.6
+      ],
+      "target_canonical": [
+        895,
+        304,
+        2
+      ],
+      "lens": 24
+    }
+  ],
+  "all_active_surroundings": true,
+  "metric_camera_match": false
+}

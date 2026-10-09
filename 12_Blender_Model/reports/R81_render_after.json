@@ -1,0 +1,36 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R81_ALT_FUAYE_YAN_KABUK_v001.blend",
+  "images": [
+    {
+      "image": "R81_after_foyer_east.png",
+      "eye_canonical": [
+        518,
+        400,
+        -3.7
+      ],
+      "target_canonical": [
+        485,
+        474,
+        -3.7
+      ],
+      "lens": 28
+    },
+    {
+      "image": "R81_after_foyer_west.png",
+      "eye_canonical": [
+        635,
+        400,
+        -3.7
+      ],
+      "target_canonical": [
+        658,
+        479,
+        -3.7
+      ],
+      "lens": 28
+    }
+  ],
+  "all_active_surroundings": true,
+  "metric_camera_match": false,
+  "temporary_review_light": true
+}

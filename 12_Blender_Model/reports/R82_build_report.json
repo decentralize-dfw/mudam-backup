@@ -1,0 +1,37 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R82_BATI_MERDIVEN_GIRIS_KABUK_v001.blend",
+  "base_scene": "MUDAM_R81_ALT_FUAYE_YAN_KABUK_v001.blend",
+  "closed_objects": [
+    "R82_ENTRY_GLASS_0",
+    "R82_ENTRY_FRAME_00",
+    "R82_ENTRY_FRAME_01",
+    "R82_ENTRY_FRAME_02",
+    "R82_ENTRY_FRAME_03",
+    "R82_ENTRY_GLASS_1",
+    "R82_ENTRY_FRAME_04",
+    "R82_ENTRY_FRAME_05",
+    "R82_ENTRY_FRAME_06",
+    "R82_ENTRY_INNER_WALL"
+  ],
+  "changed_inherited_objects": [],
+  "entry_u": [
+    1120.0,
+    1173.5
+  ],
+  "entry_v": [
+    578.0,
+    604.0
+  ],
+  "entry_head": 3.2,
+  "source_ids": [
+    "102",
+    "066",
+    "097"
+  ],
+  "construction_acceptance": false,
+  "limits": [
+    "102 has the flat entry footprint before first riser;097 shows glazing continuing across the bottom landing.",
+    "Existing R14 ground floor retained. Roof at inherited3.2m head, source height not measured.",
+    "Two unsegmented glass surfaces provide enclosure; final pane subdivisions and profiles deferred."
+  ]
+}

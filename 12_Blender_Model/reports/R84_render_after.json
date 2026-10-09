@@ -1,0 +1,35 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R84_GIRIS_ALT_CAM_KAPANISI_v001.blend",
+  "images": [
+    {
+      "image": "R84_after_entry_floor.png",
+      "eye_canonical": [
+        515,
+        743,
+        1.1
+      ],
+      "target_canonical": [
+        566,
+        689,
+        1
+      ],
+      "lens": 30
+    },
+    {
+      "image": "R84_after_entry_inside.png",
+      "eye_canonical": [
+        587,
+        666,
+        0.8
+      ],
+      "target_canonical": [
+        598,
+        699,
+        0.8
+      ],
+      "lens": 30
+    }
+  ],
+  "all_active_surroundings": true,
+  "metric_camera_match": false
+}

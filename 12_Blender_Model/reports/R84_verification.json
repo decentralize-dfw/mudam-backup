@@ -1,0 +1,254 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R84_GIRIS_ALT_CAM_KAPANISI_v001.blend",
+  "solids": [
+    {
+      "name": "ENT-01-L00_FRAME_LEFT",
+      "volume_m3": 0.028700338656227065,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "ENT-01-L00_FRAME_RIGHT",
+      "volume_m3": 0.028700338656227065,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "ENT-01-L00_FRAME_SILL",
+      "volume_m3": 0.02583915769995363,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "ENT-01-L00_GLASS",
+      "volume_m3": 0.2812745861684913,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "ENT-02-L00_FRAME_LEFT",
+      "volume_m3": 0.028699409407335494,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "ENT-02-L00_FRAME_RIGHT",
+      "volume_m3": 0.028699409407335494,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "ENT-02-L00_GLASS_LEFT_SIDE",
+      "volume_m3": 0.009922276202973535,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "ENT-02-L00_GLASS_RIGHT_SIDE",
+      "volume_m3": 0.009922276202973535,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "ENT-03-L00_FRAME_LEFT",
+      "volume_m3": 0.028701040559828025,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "ENT-03-L00_FRAME_RIGHT",
+      "volume_m3": 0.028701040559828025,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "ENT-03-L00_FRAME_SILL",
+      "volume_m3": 0.02601593387271741,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "ENT-03-L00_GLASS",
+      "volume_m3": 0.28325391589358406,
+      "nonmanifold_edges": 0
+    }
+  ],
+  "replayed_previous_escapes": [
+    {
+      "region": "ENT",
+      "canonical": [
+        533,
+        655
+      ],
+      "z": 0.15,
+      "angle": 75,
+      "closure_hit": "ENT-01-L00_GLASS"
+    },
+    {
+      "region": "ENT",
+      "canonical": [
+        533,
+        687
+      ],
+      "z": 0.15,
+      "angle": 90,
+      "closure_hit": "ENT-01-L00_GLASS"
+    },
+    {
+      "region": "ENT",
+      "canonical": [
+        533,
+        703
+      ],
+      "z": 0.15,
+      "angle": 90,
+      "closure_hit": "ENT-01-L00_GLASS"
+    },
+    {
+      "region": "ENT",
+      "canonical": [
+        533,
+        703
+      ],
+      "z": 0.15,
+      "angle": 105,
+      "closure_hit": "ENT-01-L00_GLASS"
+    },
+    {
+      "region": "ENT",
+      "canonical": [
+        541,
+        695
+      ],
+      "z": 0.15,
+      "angle": 90,
+      "closure_hit": "ENT-01-L00_GLASS"
+    },
+    {
+      "region": "ENT",
+      "canonical": [
+        557,
+        687
+      ],
+      "z": 0.15,
+      "angle": 15,
+      "closure_hit": "ENT-01-L00_GLASS"
+    },
+    {
+      "region": "ENT",
+      "canonical": [
+        573,
+        655
+      ],
+      "z": 0.15,
+      "angle": 15,
+      "closure_hit": "ENT-01-L00_GLASS"
+    },
+    {
+      "region": "ENT",
+      "canonical": [
+        573,
+        655
+      ],
+      "z": 0.15,
+      "angle": 75,
+      "closure_hit": "ENT-03-L00_GLASS"
+    },
+    {
+      "region": "ENT",
+      "canonical": [
+        581,
+        647
+      ],
+      "z": 0.15,
+      "angle": 15,
+      "closure_hit": "ENT-01-L00_GLASS"
+    },
+    {
+      "region": "ENT",
+      "canonical": [
+        589,
+        623
+      ],
+      "z": 0.15,
+      "angle": 15,
+      "closure_hit": "ENT-01-L00_GLASS"
+    },
+    {
+      "region": "ENT",
+      "canonical": [
+        597,
+        615
+      ],
+      "z": 0.15,
+      "angle": 15,
+      "closure_hit": "ENT-01-L00_GLASS"
+    },
+    {
+      "region": "ENT",
+      "canonical": [
+        605,
+        687
+      ],
+      "z": 0.15,
+      "angle": 0,
+      "closure_hit": "ENT-03-L00_GLASS"
+    },
+    {
+      "region": "ENT",
+      "canonical": [
+        613,
+        687
+      ],
+      "z": 0.15,
+      "angle": 0,
+      "closure_hit": "ENT-03-L00_GLASS"
+    },
+    {
+      "region": "ENT",
+      "canonical": [
+        613,
+        703
+      ],
+      "z": 0.15,
+      "angle": 0,
+      "closure_hit": "ENT-03-L00_GLASS"
+    },
+    {
+      "region": "ENT",
+      "canonical": [
+        613,
+        703
+      ],
+      "z": 0.15,
+      "angle": 345,
+      "closure_hit": "ENT-03-L00_GLASS"
+    },
+    {
+      "region": "ENT",
+      "canonical": [
+        637,
+        695
+      ],
+      "z": 0.15,
+      "angle": 345,
+      "closure_hit": "ENT-03-L00_GLASS"
+    },
+    {
+      "region": "ENT",
+      "canonical": [
+        645,
+        687
+      ],
+      "z": 0.15,
+      "angle": 345,
+      "closure_hit": "ENT-03-L00_GLASS"
+    },
+    {
+      "region": "ENT",
+      "canonical": [
+        685,
+        663
+      ],
+      "z": 0.15,
+      "angle": 345,
+      "closure_hit": "ENT-03-L00_GLASS"
+    }
+  ],
+  "failures": [],
+  "construction_acceptance": false,
+  "limits": [
+    "Fixed glass and perimeter frames had18..25cm unsupported ground gap.013 shows floor contact.",
+    "Two existing bottom frame sections moved toz0; fixed glass above them meetsz.07. Central fixed side panes continue tofloor.",
+    "Top/plan coordinates and all operable leaves preserved. Profiles and exact floor tolerances remain candidates."
+  ]
+}

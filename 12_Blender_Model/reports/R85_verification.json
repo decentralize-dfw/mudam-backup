@@ -1,0 +1,42 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R85_BATI_UST_SAHANLIK_KABUK_v001.blend",
+  "reopened_evidence": {
+    "R85_global_audit.json": 0,
+    "R85_inherited_verification.json": 0,
+    "R23_regression_on_R85.json": 0
+  },
+  "dense_regions": [
+    {
+      "region": "WEST_UPPER_LANDING",
+      "samples": 138,
+      "floor_missing": 0,
+      "cover_missing": 0,
+      "floor_below_expected": 0,
+      "side_escape_samples": 0
+    },
+    {
+      "region": "WEST_UPPER_RETURN_0",
+      "samples": 319,
+      "floor_missing": 0,
+      "cover_missing": 0,
+      "floor_below_expected": 0,
+      "side_escape_samples": 0
+    },
+    {
+      "region": "WEST_UPPER_RETURN_1",
+      "samples": 114,
+      "floor_missing": 0,
+      "cover_missing": 0,
+      "floor_below_expected": 0,
+      "side_escape_samples": 0
+    }
+  ],
+  "failures": [],
+  "construction_acceptance": false,
+  "limits": [
+    "R23 PDF portal and return path retained; R14 straight floor extending into outside/closed room superseded.",
+    "Official103 and PDF inner room boundaries differ; no independent full upper-plan re-registration claimed.",
+    "097 supports enclosed upper connection with opaque end; detailed exact wall/glass segmentation unresolved.",
+    "Existing floor levels, wall thickness and3.2m head remain candidates. Roof silhouette and stair flights unchanged."
+  ]
+}

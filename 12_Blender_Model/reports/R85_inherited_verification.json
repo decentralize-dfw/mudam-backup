@@ -1,0 +1,24 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R85_BATI_UST_SAHANLIK_KABUK_v001.blend",
+  "base_scene": "12_Blender_Model/scenes/MUDAM_R84_GIRIS_ALT_CAM_KAPANISI_v001.blend",
+  "inherited_objects_checked": 8561,
+  "changed_inherited_objects": [
+    "R14_UPPER_LANDING"
+  ],
+  "allowed_changes": [
+    "R14_UPPER_LANDING"
+  ],
+  "allowed_but_unchanged": [],
+  "new_objects": [
+    "R85_LANDING_INNER_WALL",
+    "R85_RETURN_CEILING_0",
+    "R85_RETURN_CEILING_1",
+    "R85_RETURN_END_WALL",
+    "R85_RETURN_FAR_WALL",
+    "R85_RETURN_INNER_WALL",
+    "R85_RETURN_OUTER_TIP",
+    "R85_UPPER_LANDING_FLOOR"
+  ],
+  "failures": [],
+  "construction_acceptance": false
+}

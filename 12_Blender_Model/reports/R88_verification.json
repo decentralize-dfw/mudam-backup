@@ -1,0 +1,221 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R88_BATI_MERDIVEN_CAM_KENAR_v002.blend",
+  "solids": [
+    {
+      "name": "R14_GLASS_000",
+      "volume_m3": 0.07514652527540924,
+      "nonmanifold_edges": 0,
+      "plane_error_m": 3.5651028156280518e-06
+    },
+    {
+      "name": "R14_GLASS_001",
+      "volume_m3": 0.053713084881426044,
+      "nonmanifold_edges": 0,
+      "plane_error_m": 5.103647708892822e-07
+    },
+    {
+      "name": "R14_GLASS_002",
+      "volume_m3": 0.07514651932826445,
+      "nonmanifold_edges": 0,
+      "plane_error_m": 3.5651028156280518e-06
+    },
+    {
+      "name": "R14_GLASS_003",
+      "volume_m3": 0.053713091290392395,
+      "nonmanifold_edges": 0,
+      "plane_error_m": 4.993344191461802e-07
+    },
+    {
+      "name": "R14_GLASS_004",
+      "volume_m3": 0.07514387797619981,
+      "nonmanifold_edges": 0,
+      "plane_error_m": 3.684312105178833e-06
+    },
+    {
+      "name": "R14_GLASS_005",
+      "volume_m3": 0.05371330876769148,
+      "nonmanifold_edges": 0,
+      "plane_error_m": 7.223134161904454e-07
+    },
+    {
+      "name": "R14_GLASS_006",
+      "volume_m3": 0.07514642260965321,
+      "nonmanifold_edges": 0,
+      "plane_error_m": 3.5651028156280518e-06
+    },
+    {
+      "name": "R14_GLASS_007",
+      "volume_m3": 0.05371302495432556,
+      "nonmanifold_edges": 0,
+      "plane_error_m": 7.28643499314785e-07
+    },
+    {
+      "name": "R14_GLASS_008",
+      "volume_m3": 0.07514656871128167,
+      "nonmanifold_edges": 0,
+      "plane_error_m": 3.5688281059265137e-06
+    },
+    {
+      "name": "R14_GLASS_009",
+      "volume_m3": 0.053712995608948044,
+      "nonmanifold_edges": 0,
+      "plane_error_m": 7.793605327592601e-07
+    },
+    {
+      "name": "R14_GLASS_010",
+      "volume_m3": 0.07221631145727844,
+      "nonmanifold_edges": 0,
+      "plane_error_m": 8.579343557357788e-06
+    },
+    {
+      "name": "R14_GLASS_011",
+      "volume_m3": 0.045827014813245415,
+      "nonmanifold_edges": 0,
+      "plane_error_m": 8.553434163345586e-07
+    },
+    {
+      "name": "R14_GLASS_012",
+      "volume_m3": 0.07221619016291628,
+      "nonmanifold_edges": 0,
+      "plane_error_m": 8.58306884765625e-06
+    },
+    {
+      "name": "R14_GLASS_013",
+      "volume_m3": 0.045827278603227994,
+      "nonmanifold_edges": 0,
+      "plane_error_m": 9.166360832764398e-07
+    },
+    {
+      "name": "R14_GLASS_014",
+      "volume_m3": 0.07221630611767117,
+      "nonmanifold_edges": 0,
+      "plane_error_m": 8.579343557357788e-06
+    },
+    {
+      "name": "R14_GLASS_015",
+      "volume_m3": 0.045827403651191145,
+      "nonmanifold_edges": 0,
+      "plane_error_m": 8.85786022992302e-07
+    },
+    {
+      "name": "R14_GLASS_016",
+      "volume_m3": 0.07221620618246044,
+      "nonmanifold_edges": 0,
+      "plane_error_m": 8.58306884765625e-06
+    },
+    {
+      "name": "R14_GLASS_017",
+      "volume_m3": 0.04582737918802926,
+      "nonmanifold_edges": 0,
+      "plane_error_m": 8.860770612968694e-07
+    },
+    {
+      "name": "R14_GLASS_018",
+      "volume_m3": 0.07221632026431526,
+      "nonmanifold_edges": 0,
+      "plane_error_m": 8.508563041687012e-06
+    },
+    {
+      "name": "R14_GLASS_019",
+      "volume_m3": 0.04582655735549679,
+      "nonmanifold_edges": 0,
+      "plane_error_m": 5.672918632626534e-07
+    },
+    {
+      "name": "R14_GLASS_020",
+      "volume_m3": 0.10906762159267169,
+      "nonmanifold_edges": 0,
+      "plane_error_m": 2.852862933649253e-06
+    },
+    {
+      "name": "R14_GLASS_021",
+      "volume_m3": 0.12347304643797663,
+      "nonmanifold_edges": 0,
+      "plane_error_m": 4.389166831968855e-06
+    },
+    {
+      "name": "R14_GLASS_022",
+      "volume_m3": 0.07418706701716038,
+      "nonmanifold_edges": 0,
+      "plane_error_m": 1.2588500976698502e-07
+    },
+    {
+      "name": "R14_GLASS_023",
+      "volume_m3": 0.24111606458355905,
+      "nonmanifold_edges": 0,
+      "plane_error_m": 2.1390914916978587e-06
+    },
+    {
+      "name": "R14_GLASS_024",
+      "volume_m3": 0.14486705582251314,
+      "nonmanifold_edges": 0,
+      "plane_error_m": 3.5281479358537093e-07
+    }
+  ],
+  "previous_joint_misses": [
+    {
+      "step": "R14_TREAD_B_08",
+      "fraction": -0.2,
+      "hits": [
+        "R14_GLASS_010"
+      ]
+    },
+    {
+      "step": "R14_TREAD_B_09",
+      "fraction": -0.2,
+      "hits": [
+        "R14_GLASS_010"
+      ]
+    },
+    {
+      "step": "R14_TREAD_B_11",
+      "fraction": -0.2,
+      "hits": [
+        "R14_GLASS_012"
+      ]
+    },
+    {
+      "step": "R14_TREAD_B_12",
+      "fraction": -0.2,
+      "hits": [
+        "R14_GLASS_012"
+      ]
+    },
+    {
+      "step": "R14_TREAD_B_12",
+      "fraction": 0.2,
+      "hits": [
+        "R14_GLASS_008"
+      ]
+    },
+    {
+      "step": "R14_TREAD_B_13",
+      "fraction": -0.2,
+      "hits": [
+        "R14_GLASS_012"
+      ]
+    },
+    {
+      "step": "R14_TREAD_B_15",
+      "fraction": -0.2,
+      "hits": [
+        "R14_GLASS_014"
+      ]
+    },
+    {
+      "step": "R14_TREAD_B_16",
+      "fraction": -0.2,
+      "hits": [
+        "R14_GLASS_014"
+      ]
+    }
+  ],
+  "failures": [],
+  "construction_acceptance": false,
+  "limits": [
+    "Existing R14 panel source rectangles recovered by exactly reversing its documented centroid shrink.",
+    "Only panel margins change; existing planes, stair treads, facade frame centerlines and roof slopes retained.",
+    "12mm inset is a visualization parameter, not surveyed seal or fabrication data.",
+    "Before change eight lateral rays from upper flight escaped through panel/frame joints."
+  ]
+}

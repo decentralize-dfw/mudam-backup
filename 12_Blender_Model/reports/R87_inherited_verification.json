@@ -1,0 +1,34 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R87_KUCUK_BATI_GALERISI_KABUK_v003.blend",
+  "base_scene": "12_Blender_Model/scenes/MUDAM_R86_PAVYON_CAM_KENAR_KAPANISI_v001.blend",
+  "inherited_objects_checked": 8569,
+  "changed_inherited_objects": [
+    "P05_GALLERY_HALL_WEST2",
+    "R85_RETURN_INNER_WALL"
+  ],
+  "allowed_changes": [
+    "P05_GALLERY_HALL_WEST2",
+    "R85_RETURN_INNER_WALL"
+  ],
+  "allowed_but_unchanged": [],
+  "new_objects": [
+    "R87_ACCESS_HEAD",
+    "R87_BASE_FLOOR",
+    "R87_LANDING_SIDE_HIGH",
+    "R87_LANDING_SIDE_LOW",
+    "R87_OPAQUE_ROOF",
+    "R87_RETURN_INNER_RETAINED",
+    "R87_ROOM_BACK",
+    "R87_ROOM_DOOR_HEAD",
+    "R87_ROOM_END",
+    "R87_ROOM_FRONT_LEFT",
+    "R87_ROOM_FRONT_RIGHT",
+    "R87_ROOM_SIDE",
+    "R87_UPPER_FLOOR",
+    "R87_VOLUME_FRONT_END",
+    "R87_VOLUME_FRONT_HIGH",
+    "R87_VOLUME_FRONT_LOW"
+  ],
+  "failures": [],
+  "construction_acceptance": false
+}

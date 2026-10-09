@@ -1,6 +1,6 @@
 {
-  "file": "12_Blender_Model/scenes/MUDAM_R76_MERDIVEN_DUVAR_UCLARI_v001.blend",
-  "wall_count": 242,
+  "file": "12_Blender_Model/scenes/MUDAM_R86_PAVYON_CAM_KENAR_KAPANISI_v001.blend",
+  "wall_count": 281,
   "surface_or_vertex_contacts": [
     [
       "P05_FRONT_0",
@@ -15,6 +15,10 @@
       "R27_BAY_1_END_RETURN"
     ],
     [
+      "P05_FRONT_0",
+      "R78_E_GROUND_GALLERY_WALL_BODY"
+    ],
+    [
       "P05_FRONT_9",
       "P05_FRONT_10"
     ],
@@ -23,12 +27,28 @@
       "P07_ENTRY_RETURN_6"
     ],
     [
+      "P05_FRONT_9",
+      "R78_W_GROUND_GALLERY_WALL_BODY"
+    ],
+    [
       "P05_FRONT_10",
       "R14_GALLERY_WALL_BELOW"
     ],
     [
       "P05_FRONT_10",
       "R14_GALLERY_WALL_HEAD"
+    ],
+    [
+      "P05_FRONT_10",
+      "R78_W_GROUND_GALLERY_WALL_BODY"
+    ],
+    [
+      "P05_FRONT_10",
+      "R85_RETURN_END_WALL"
+    ],
+    [
+      "P05_GALLERY_HALL_WEST0",
+      "R30_LANDING_EAST"
     ],
     [
       "P05_GALLERY_HALL_WEST0",
@@ -41,6 +61,18 @@
     [
       "P05_GALLERY_HALL_WEST2",
       "R73_W_CONTINUOUS_GALLERY_WALL"
+    ],
+    [
+      "P05_GALLERY_HALL_WEST2",
+      "R78_W_GROUND_GALLERY_WALL_BODY"
+    ],
+    [
+      "P05_WEST_END",
+      "P11_WEST_STONE_BASE_17"
+    ],
+    [
+      "P05_WEST_END",
+      "R83_CAFE_ENTRY_HEAD"
     ],
     [
       "P05_MAIN_ATRIUM_BASE_2",
@@ -347,6 +379,10 @@
       "R29_W_DIVIDER_END"
     ],
     [
+      "R07_STAIRWELL_STONE_WEST",
+      "R83_CAFE_BACK_WALL"
+    ],
+    [
       "R09_READING_WALL_0_A",
       "R09_READING_WALL_0_HEAD"
     ],
@@ -423,6 +459,10 @@
       "R73_E_CONTINUOUS_GALLERY_WALL"
     ],
     [
+      "R10_GALLERY_GROUND_WALL",
+      "R78_E_GROUND_GALLERY_WALL_BODY"
+    ],
+    [
       "R10_UPPER_DIAGONAL_WALL",
       "R23_E_1_JAMB_B"
     ],
@@ -439,12 +479,48 @@
       "R14_INNER_WALL_B"
     ],
     [
+      "R14_INNER_WALL_A",
+      "R82_ENTRY_INNER_WALL"
+    ],
+    [
+      "R14_INNER_WALL_B",
+      "R85_LANDING_INNER_WALL"
+    ],
+    [
       "R14_GALLERY_WALL_RETAINED",
       "R14_GALLERY_WALL_BELOW"
     ],
     [
       "R14_GALLERY_WALL_RETAINED",
       "R14_GALLERY_WALL_HEAD"
+    ],
+    [
+      "R14_GALLERY_WALL_RETAINED",
+      "R78_W_GROUND_GALLERY_WALL_BODY"
+    ],
+    [
+      "R14_GALLERY_WALL_RETAINED",
+      "R85_LANDING_INNER_WALL"
+    ],
+    [
+      "R14_GALLERY_WALL_BELOW",
+      "R78_W_GROUND_GALLERY_WALL_BODY"
+    ],
+    [
+      "R14_GALLERY_WALL_BELOW",
+      "R85_LANDING_INNER_WALL"
+    ],
+    [
+      "R14_GALLERY_WALL_BELOW",
+      "R85_RETURN_END_WALL"
+    ],
+    [
+      "R14_GALLERY_WALL_HEAD",
+      "R85_LANDING_INNER_WALL"
+    ],
+    [
+      "R14_GALLERY_WALL_HEAD",
+      "R85_RETURN_END_WALL"
     ],
     [
       "R17_WALL_0",
@@ -519,12 +595,20 @@
       "R19_FRONT_L_OUTER"
     ],
     [
+      "R19_WALL_L",
+      "R81_E_RETURN_12"
+    ],
+    [
       "R19_WALL_R",
       "R19_WALL_REAR"
     ],
     [
       "R19_WALL_R",
       "R19_FRONT_R_INNER"
+    ],
+    [
+      "R19_WALL_R",
+      "R81_W_RETURN_00"
     ],
     [
       "R19_WALL_REAR",
@@ -537,6 +621,14 @@
     [
       "R19_FRONT_L_OUTER",
       "R19_FRONT_L_HEAD"
+    ],
+    [
+      "R19_FRONT_L_OUTER",
+      "R81_E_RETURN_11"
+    ],
+    [
+      "R19_FRONT_L_OUTER",
+      "R81_E_RETURN_12"
     ],
     [
       "R19_FRONT_L_INNER",
@@ -557,6 +649,22 @@
     [
       "R19_FRONT_R_INNER",
       "R19_FRONT_R_HEAD"
+    ],
+    [
+      "R19_FRONT_R_INNER",
+      "R81_W_RETURN_00"
+    ],
+    [
+      "R19_FRONT_R_INNER",
+      "R81_W_RETURN_01"
+    ],
+    [
+      "R19_FRONT_R_HEAD",
+      "R81_W_RETURN_00"
+    ],
+    [
+      "R19_FRONT_R_HEAD",
+      "R81_W_RETURN_01"
     ],
     [
       "R19_STAGE_BACK_0",
@@ -675,8 +783,16 @@
       "R23_W_1_WALL"
     ],
     [
+      "R23_W_0_HEAD",
+      "R85_RETURN_FAR_WALL"
+    ],
+    [
       "R23_W_1_WALL",
       "R23_W_2_WALL"
+    ],
+    [
+      "R23_W_1_WALL",
+      "R85_RETURN_OUTER_TIP"
     ],
     [
       "R23_W_2_WALL",
@@ -787,8 +903,16 @@
       "R52_GALLERY_FRONT_LINER_2"
     ],
     [
+      "R27_CONTINUOUS_HEAD",
+      "R78_E_GROUND_GALLERY_WALL_BODY"
+    ],
+    [
       "R27_BAY_1_END_RETURN",
       "R27_BAY_1_BLIND_BACK"
+    ],
+    [
+      "R27_BAY_1_END_RETURN",
+      "R78_E_GROUND_GALLERY_WALL_BODY"
     ],
     [
       "R27_BAY_1_BLIND_BACK",
@@ -801,6 +925,10 @@
     [
       "R27_BAY_1_BLIND_BACK",
       "R52_GALLERY_FRONT_LINER_0"
+    ],
+    [
+      "R27_BAY_1_BLIND_BACK",
+      "R78_E_GROUND_GALLERY_WALL_BODY"
     ],
     [
       "R27_BAY_2_PIER_SHOULDER",
@@ -967,6 +1095,10 @@
       "R29_E_BOUNDARY_03"
     ],
     [
+      "R29_E_BOUNDARY_02",
+      "R81_E_RETURN_00"
+    ],
+    [
       "R29_W_BOUNDARY_00",
       "R29_W_BOUNDARY_01"
     ],
@@ -1099,12 +1231,24 @@
       "R29_W_BOUNDARY_33"
     ],
     [
+      "R29_W_BOUNDARY_33",
+      "R81_W_RETURN_13"
+    ],
+    [
       "R30_LEFT_JAMB",
       "R30_STONE_HEAD"
     ],
     [
+      "R30_LEFT_JAMB",
+      "R30_LANDING_WEST"
+    ],
+    [
       "R30_RIGHT_JAMB",
       "R30_STONE_HEAD"
+    ],
+    [
+      "R30_RIGHT_JAMB",
+      "R30_LANDING_EAST"
     ],
     [
       "R31_STUDIO_WALL_0",
@@ -1219,6 +1363,10 @@
       "R52_GALLERY_FRONT_LINER_2"
     ],
     [
+      "R33_WALL_GALLERY_W_S",
+      "R78_W_GROUND_GALLERY_WALL_BODY"
+    ],
+    [
       "R52_BAY_2_RETURN_LEFT",
       "R52_BAY_2_INTERIOR_HEAD"
     ],
@@ -1251,12 +1399,140 @@
       "R52_GALLERY_FRONT_LINER_2"
     ],
     [
+      "R52_GALLERY_FRONT_LINER_0",
+      "R78_E_GROUND_GALLERY_WALL_BODY"
+    ],
+    [
       "R52_GALLERY_FRONT_LINER_1",
       "R52_GALLERY_FRONT_LINER_2"
     ],
     [
       "R72_HIGH_ATRIUM_WALL_5",
       "R73_E_CONTINUOUS_GALLERY_WALL"
+    ],
+    [
+      "R81_E_RETURN_00",
+      "R81_E_RETURN_01"
+    ],
+    [
+      "R81_E_RETURN_01",
+      "R81_E_RETURN_02"
+    ],
+    [
+      "R81_E_RETURN_02",
+      "R81_E_RETURN_03"
+    ],
+    [
+      "R81_E_RETURN_03",
+      "R81_E_RETURN_04"
+    ],
+    [
+      "R81_E_RETURN_04",
+      "R81_E_RETURN_05"
+    ],
+    [
+      "R81_E_RETURN_05",
+      "R81_E_RETURN_06"
+    ],
+    [
+      "R81_E_RETURN_06",
+      "R81_E_RETURN_07"
+    ],
+    [
+      "R81_E_RETURN_07",
+      "R81_E_RETURN_08"
+    ],
+    [
+      "R81_E_RETURN_08",
+      "R81_E_RETURN_09"
+    ],
+    [
+      "R81_E_RETURN_09",
+      "R81_E_RETURN_10"
+    ],
+    [
+      "R81_E_RETURN_10",
+      "R81_E_RETURN_11"
+    ],
+    [
+      "R81_E_RETURN_11",
+      "R81_E_RETURN_12"
+    ],
+    [
+      "R81_W_RETURN_00",
+      "R81_W_RETURN_01"
+    ],
+    [
+      "R81_W_RETURN_01",
+      "R81_W_RETURN_02"
+    ],
+    [
+      "R81_W_RETURN_02",
+      "R81_W_RETURN_03"
+    ],
+    [
+      "R81_W_RETURN_03",
+      "R81_W_RETURN_04"
+    ],
+    [
+      "R81_W_RETURN_04",
+      "R81_W_RETURN_05"
+    ],
+    [
+      "R81_W_RETURN_05",
+      "R81_W_RETURN_06"
+    ],
+    [
+      "R81_W_RETURN_06",
+      "R81_W_RETURN_07"
+    ],
+    [
+      "R81_W_RETURN_07",
+      "R81_W_RETURN_08"
+    ],
+    [
+      "R81_W_RETURN_08",
+      "R81_W_RETURN_09"
+    ],
+    [
+      "R81_W_RETURN_09",
+      "R81_W_RETURN_10"
+    ],
+    [
+      "R81_W_RETURN_10",
+      "R81_W_RETURN_11"
+    ],
+    [
+      "R81_W_RETURN_11",
+      "R81_W_RETURN_12"
+    ],
+    [
+      "R81_W_RETURN_12",
+      "R81_W_RETURN_13"
+    ],
+    [
+      "R82_ENTRY_INNER_WALL",
+      "R83_CAFE_BACK_WALL"
+    ],
+    [
+      "R82_ENTRY_INNER_WALL",
+      "R83_CAFE_ENTRY_HEAD"
+    ],
+    [
+      "R83_CAFE_BACK_WALL",
+      "R83_CAFE_ENTRY_HEAD"
+    ],
+    [
+      "R85_LANDING_INNER_WALL",
+      "R85_RETURN_INNER_WALL"
+    ],
+    [
+      "R85_RETURN_INNER_WALL",
+      "R85_RETURN_FAR_WALL"
+    ],
+    [
+      "R85_RETURN_END_WALL",
+      "R85_RETURN_OUTER_TIP"
     ]
   ],
   "components": [
@@ -1266,6 +1542,7 @@
       "P05_FRONT_10",
       "P05_GALLERY_HALL_WEST0",
       "P05_GALLERY_HALL_WEST2",
+      "P05_WEST_END",
       "P07_ENTRY_RETURN_0",
       "P07_ENTRY_RETURN_1",
       "P07_ENTRY_RETURN_5",
@@ -1282,6 +1559,27 @@
       "P07_ENTRY_3_RIGHT_PIER",
       "P07_ENTRY_3_HEAD",
       "P07_ENTRY_3_TRANSOM",
+      "P06_NORTH_STONE_GABLE_EAST",
+      "P06_NORTH_BASE_E",
+      "P11_EAST_STONE_BASE",
+      "P11_WEST_STONE_BASE_0",
+      "P11_WEST_STONE_BASE_1",
+      "P11_WEST_STONE_BASE_2",
+      "P11_WEST_STONE_BASE_3",
+      "P11_WEST_STONE_BASE_4",
+      "P11_WEST_STONE_BASE_5",
+      "P11_WEST_STONE_BASE_6",
+      "P11_WEST_STONE_BASE_7",
+      "P11_WEST_STONE_BASE_8",
+      "P11_WEST_STONE_BASE_9",
+      "P11_WEST_STONE_BASE_10",
+      "P11_WEST_STONE_BASE_11",
+      "P11_WEST_STONE_BASE_12",
+      "P11_WEST_STONE_BASE_13",
+      "P11_WEST_STONE_BASE_14",
+      "P11_WEST_STONE_BASE_15",
+      "P11_WEST_STONE_BASE_16",
+      "P11_WEST_STONE_BASE_17",
       "P05_MAIN_ATRIUM_BASE_5_R02_ABOVE",
       "P05_GALLERY_HALL_EAST2_R02_AFTER",
       "P05_GALLERY_HALL_EAST2_R02_ABOVE",
@@ -1295,6 +1593,8 @@
       "R04_RECESS_TOP_BELOW_LANDING",
       "R04_RECESS_TOP_LINTEL",
       "R04_RECESS_HEAD",
+      "R07_STAIRWELL_STONE_NORTH",
+      "R07_STAIRWELL_STONE_WEST",
       "R09_READING_WALL_0_A",
       "R09_READING_WALL_0_HEAD",
       "R09_READING_WALL_0_B",
@@ -1311,9 +1611,34 @@
       "R09_READING_WALL_7_FULL",
       "R10_GALLERY_GROUND_WALL",
       "R10_UPPER_DIAGONAL_WALL",
+      "R11_STONE_END",
+      "R14_INNER_WALL_A",
+      "R14_INNER_WALL_B",
       "R14_GALLERY_WALL_RETAINED",
       "R14_GALLERY_WALL_BELOW",
       "R14_GALLERY_WALL_HEAD",
+      "R19_WALL_L",
+      "R19_WALL_R",
+      "R19_WALL_REAR",
+      "R19_FRONT_L_OUTER",
+      "R19_FRONT_L_INNER",
+      "R19_FRONT_L_HEAD",
+      "R19_FRONT_R_OUTER",
+      "R19_FRONT_R_INNER",
+      "R19_FRONT_R_HEAD",
+      "R19_STAGE_BACK_0",
+      "R19_STAGE_BACK_1",
+      "R19_STAGE_BACK_2",
+      "R19_STAGE_BACK_3",
+      "R19_STAGE_BACK_4",
+      "R19_STAGE_BACK_5",
+      "R19_STAGE_BACK_6",
+      "R19_BOOTH_FRONT_L",
+      "R19_BOOTH_FRONT_R",
+      "R19_BOOTH_WINDOW_BELOW",
+      "R19_BOOTH_WINDOW_ABOVE",
+      "R19_BOOTH_SIDE_L",
+      "R19_BOOTH_SIDE_R",
       "R23_E_0_WALL",
       "R23_E_1_JAMB_A",
       "R23_E_1_JAMB_B",
@@ -1350,61 +1675,6 @@
       "R27_END_PIER",
       "R28_E_DETACHED_ENTRY_WALL",
       "R28_W_DETACHED_ENTRY_WALL",
-      "R31_STUDIO_WALL_0",
-      "R31_EAST_JAMB_A",
-      "R31_EAST_JAMB_B",
-      "R31_EAST_HEAD",
-      "R31_STUDIO_WALL_2",
-      "R31_STUDIO_WALL_3",
-      "R31_PASSAGE_SIDE_N",
-      "R31_PASSAGE_SIDE_S",
-      "R33_WALL_CLOAK_N",
-      "R33_WALL_CLOAK_N_RETURN",
-      "R33_WALL_CLOAK_W",
-      "R33_WALL_CLOAK_SW",
-      "R33_WALL_CLOAK_S",
-      "R33_WALL_CLOAK_S_RETURN",
-      "R33_WALL_SHOP_W",
-      "R33_WALL_SHOP_S",
-      "R33_WALL_SHOP_E",
-      "R33_WALL_GALLERY_E_S",
-      "R52_BAY_2_RETURN_LEFT",
-      "R52_BAY_2_RETURN_RIGHT",
-      "R52_BAY_2_INTERIOR_HEAD",
-      "R52_BAY_4_RETURN_LEFT",
-      "R52_BAY_4_RETURN_RIGHT",
-      "R52_GALLERY_FRONT_LINER_0",
-      "R52_GALLERY_FRONT_LINER_1",
-      "R52_GALLERY_FRONT_LINER_2",
-      "R72_HIGH_ATRIUM_WALL_5",
-      "R73_E_CONTINUOUS_GALLERY_WALL",
-      "R73_W_CONTINUOUS_GALLERY_WALL"
-    ],
-    [
-      "P06_NORTH_STONE_GABLE_EAST",
-      "P06_NORTH_BASE_E",
-      "P11_EAST_STONE_BASE",
-      "P11_WEST_STONE_BASE_0",
-      "P11_WEST_STONE_BASE_1",
-      "P11_WEST_STONE_BASE_2",
-      "P11_WEST_STONE_BASE_3",
-      "P11_WEST_STONE_BASE_4",
-      "P11_WEST_STONE_BASE_5",
-      "P11_WEST_STONE_BASE_6",
-      "P11_WEST_STONE_BASE_7",
-      "P11_WEST_STONE_BASE_8",
-      "P11_WEST_STONE_BASE_9",
-      "P11_WEST_STONE_BASE_10",
-      "P11_WEST_STONE_BASE_11",
-      "P11_WEST_STONE_BASE_12",
-      "P11_WEST_STONE_BASE_13",
-      "P11_WEST_STONE_BASE_14",
-      "P11_WEST_STONE_BASE_15",
-      "P11_WEST_STONE_BASE_16",
-      "P11_WEST_STONE_BASE_17",
-      "R07_STAIRWELL_STONE_NORTH",
-      "R07_STAIRWELL_STONE_WEST",
-      "R11_STONE_END",
       "R29_E_BOUNDARY_00",
       "R29_E_FOYER_DIVIDER",
       "R29_E_BOUNDARY_02",
@@ -1444,31 +1714,79 @@
       "R29_W_BOUNDARY_32",
       "R29_W_BOUNDARY_33",
       "R29_W_DIVIDER_END",
-      "R72_LOWER_FOYER_NORTH_WALL"
-    ],
-    [
-      "R19_WALL_L",
-      "R19_WALL_R",
-      "R19_WALL_REAR",
-      "R19_FRONT_L_OUTER",
-      "R19_FRONT_L_INNER",
-      "R19_FRONT_L_HEAD",
-      "R19_FRONT_R_OUTER",
-      "R19_FRONT_R_INNER",
-      "R19_FRONT_R_HEAD",
-      "R19_STAGE_BACK_0",
-      "R19_STAGE_BACK_1",
-      "R19_STAGE_BACK_2",
-      "R19_STAGE_BACK_3",
-      "R19_STAGE_BACK_4",
-      "R19_STAGE_BACK_5",
-      "R19_STAGE_BACK_6",
-      "R19_BOOTH_FRONT_L",
-      "R19_BOOTH_FRONT_R",
-      "R19_BOOTH_WINDOW_BELOW",
-      "R19_BOOTH_WINDOW_ABOVE",
-      "R19_BOOTH_SIDE_L",
-      "R19_BOOTH_SIDE_R"
+      "R30_LEFT_JAMB",
+      "R30_RIGHT_JAMB",
+      "R30_STONE_HEAD",
+      "R30_LANDING_WEST",
+      "R30_LANDING_EAST",
+      "R31_STUDIO_WALL_0",
+      "R31_EAST_JAMB_A",
+      "R31_EAST_JAMB_B",
+      "R31_EAST_HEAD",
+      "R31_STUDIO_WALL_2",
+      "R31_STUDIO_WALL_3",
+      "R31_PASSAGE_SIDE_N",
+      "R31_PASSAGE_SIDE_S",
+      "R33_WALL_CLOAK_N",
+      "R33_WALL_CLOAK_N_RETURN",
+      "R33_WALL_CLOAK_W",
+      "R33_WALL_CLOAK_SW",
+      "R33_WALL_CLOAK_S",
+      "R33_WALL_CLOAK_S_RETURN",
+      "R33_WALL_SHOP_W",
+      "R33_WALL_SHOP_S",
+      "R33_WALL_SHOP_E",
+      "R33_WALL_GALLERY_E_S",
+      "R33_WALL_GALLERY_W_S",
+      "R52_BAY_2_RETURN_LEFT",
+      "R52_BAY_2_RETURN_RIGHT",
+      "R52_BAY_2_INTERIOR_HEAD",
+      "R52_BAY_4_RETURN_LEFT",
+      "R52_BAY_4_RETURN_RIGHT",
+      "R52_GALLERY_FRONT_LINER_0",
+      "R52_GALLERY_FRONT_LINER_1",
+      "R52_GALLERY_FRONT_LINER_2",
+      "R72_LOWER_FOYER_NORTH_WALL",
+      "R72_HIGH_ATRIUM_WALL_5",
+      "R73_E_CONTINUOUS_GALLERY_WALL",
+      "R73_W_CONTINUOUS_GALLERY_WALL",
+      "R78_E_GROUND_GALLERY_WALL_BODY",
+      "R78_W_GROUND_GALLERY_WALL_BODY",
+      "R81_E_RETURN_00",
+      "R81_E_RETURN_01",
+      "R81_E_RETURN_02",
+      "R81_E_RETURN_03",
+      "R81_E_RETURN_04",
+      "R81_E_RETURN_05",
+      "R81_E_RETURN_06",
+      "R81_E_RETURN_07",
+      "R81_E_RETURN_08",
+      "R81_E_RETURN_09",
+      "R81_E_RETURN_10",
+      "R81_E_RETURN_11",
+      "R81_E_RETURN_12",
+      "R81_W_RETURN_00",
+      "R81_W_RETURN_01",
+      "R81_W_RETURN_02",
+      "R81_W_RETURN_03",
+      "R81_W_RETURN_04",
+      "R81_W_RETURN_05",
+      "R81_W_RETURN_06",
+      "R81_W_RETURN_07",
+      "R81_W_RETURN_08",
+      "R81_W_RETURN_09",
+      "R81_W_RETURN_10",
+      "R81_W_RETURN_11",
+      "R81_W_RETURN_12",
+      "R81_W_RETURN_13",
+      "R82_ENTRY_INNER_WALL",
+      "R83_CAFE_BACK_WALL",
+      "R83_CAFE_ENTRY_HEAD",
+      "R85_LANDING_INNER_WALL",
+      "R85_RETURN_INNER_WALL",
+      "R85_RETURN_END_WALL",
+      "R85_RETURN_FAR_WALL",
+      "R85_RETURN_OUTER_TIP"
     ],
     [
       "R17_WALL_0",
@@ -1490,11 +1808,6 @@
       "R72_HIGH_ATRIUM_WALL_3"
     ],
     [
-      "R30_LEFT_JAMB",
-      "R30_RIGHT_JAMB",
-      "R30_STONE_HEAD"
-    ],
-    [
       "R33_WALL_WC_E_N",
       "R33_WALL_WC_E_W",
       "R33_WALL_WC_E_S"
@@ -1514,13 +1827,6 @@
       "R10_CORE_CAP"
     ],
     [
-      "R14_INNER_WALL_A",
-      "R14_INNER_WALL_B"
-    ],
-    [
-      "P05_WEST_END"
-    ],
-    [
       "P07_CORNER_SUPPORT_ENVELOPE"
     ],
     [
@@ -1534,9 +1840,6 @@
     ],
     [
       "R33_WALL_LOBBY_W_NIB"
-    ],
-    [
-      "R33_WALL_GALLERY_W_S"
     ]
   ],
   "limits": "Independent pavilion, slab-separated levels, door/frame components, detached architectural walls and stair cores may correctly be separate. No completion claim follows from this graph."

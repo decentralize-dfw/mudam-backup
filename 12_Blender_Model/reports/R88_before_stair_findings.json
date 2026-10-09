@@ -1,0 +1,139 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R87_KUCUK_BATI_GALERISI_KABUK_v003.blend",
+  "samples": 170,
+  "side_rays": 12240,
+  "findings": [
+    {
+      "step": "R14_TREAD_B_08",
+      "fraction": -0.2,
+      "position": [
+        -28.316835403442383,
+        32.56391525268555,
+        3.5728490352630615
+      ],
+      "cover_missing": false,
+      "escapes": [
+        {
+          "z": 2.1,
+          "angle": 150
+        }
+      ]
+    },
+    {
+      "step": "R14_TREAD_B_09",
+      "fraction": -0.2,
+      "position": [
+        -27.944013595581055,
+        32.55036544799805,
+        3.7157630920410156
+      ],
+      "cover_missing": false,
+      "escapes": [
+        {
+          "z": 2.1,
+          "angle": 150
+        }
+      ]
+    },
+    {
+      "step": "R14_TREAD_B_11",
+      "fraction": -0.2,
+      "position": [
+        -27.19837188720703,
+        32.52326965332031,
+        4.001591205596924
+      ],
+      "cover_missing": false,
+      "escapes": [
+        {
+          "z": 2.1,
+          "angle": 150
+        }
+      ]
+    },
+    {
+      "step": "R14_TREAD_B_12",
+      "fraction": -0.2,
+      "position": [
+        -26.825550079345703,
+        32.50971984863281,
+        4.144505023956299
+      ],
+      "cover_missing": false,
+      "escapes": [
+        {
+          "z": 2.1,
+          "angle": 150
+        }
+      ]
+    },
+    {
+      "step": "R14_TREAD_B_12",
+      "fraction": 0.2,
+      "position": [
+        -26.797481536865234,
+        33.28202819824219,
+        4.144505023956299
+      ],
+      "cover_missing": false,
+      "escapes": [
+        {
+          "z": 1.2,
+          "angle": 195
+        }
+      ]
+    },
+    {
+      "step": "R14_TREAD_B_13",
+      "fraction": -0.2,
+      "position": [
+        -26.452728271484375,
+        32.49617004394531,
+        4.287418842315674
+      ],
+      "cover_missing": false,
+      "escapes": [
+        {
+          "z": 2.1,
+          "angle": 150
+        }
+      ]
+    },
+    {
+      "step": "R14_TREAD_B_15",
+      "fraction": -0.2,
+      "position": [
+        -25.70708465576172,
+        32.46907043457031,
+        4.573246955871582
+      ],
+      "cover_missing": false,
+      "escapes": [
+        {
+          "z": 2.1,
+          "angle": 150
+        }
+      ]
+    },
+    {
+      "step": "R14_TREAD_B_16",
+      "fraction": -0.2,
+      "position": [
+        -25.334264755249023,
+        32.45552444458008,
+        4.716160774230957
+      ],
+      "cover_missing": false,
+      "escapes": [
+        {
+          "z": 2.1,
+          "angle": 150
+        }
+      ]
+    }
+  ],
+  "limits": [
+    "Source R14 tread sample positions; geometry closure diagnostic only.",
+    "Real stair geometry, counts and dimensions remain conditional."
+  ]
+}

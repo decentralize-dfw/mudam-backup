@@ -1,0 +1,148 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R87_KUCUK_BATI_GALERISI_KABUK_v003.blend",
+  "route_checks": [
+    {
+      "a": [
+        1188,
+        440
+      ],
+      "b": [
+        1188,
+        465
+      ],
+      "z": 5.059074784676003,
+      "hit": null
+    },
+    {
+      "a": [
+        1188,
+        465
+      ],
+      "b": [
+        1188,
+        488
+      ],
+      "z": 5.059074784676003,
+      "hit": null
+    },
+    {
+      "a": [
+        1188,
+        488
+      ],
+      "b": [
+        1188,
+        515
+      ],
+      "z": 5.059074784676003,
+      "hit": null
+    },
+    {
+      "a": [
+        1188,
+        440
+      ],
+      "b": [
+        1188,
+        465
+      ],
+      "z": 6.059074784676003,
+      "hit": null
+    },
+    {
+      "a": [
+        1188,
+        465
+      ],
+      "b": [
+        1188,
+        488
+      ],
+      "z": 6.059074784676003,
+      "hit": null
+    },
+    {
+      "a": [
+        1188,
+        488
+      ],
+      "b": [
+        1188,
+        515
+      ],
+      "z": 6.059074784676003,
+      "hit": null
+    },
+    {
+      "a": [
+        1188,
+        440
+      ],
+      "b": [
+        1188,
+        465
+      ],
+      "z": 6.9590747846760035,
+      "hit": null
+    },
+    {
+      "a": [
+        1188,
+        465
+      ],
+      "b": [
+        1188,
+        488
+      ],
+      "z": 6.9590747846760035,
+      "hit": null
+    },
+    {
+      "a": [
+        1188,
+        488
+      ],
+      "b": [
+        1188,
+        515
+      ],
+      "z": 6.9590747846760035,
+      "hit": null
+    }
+  ],
+  "dense_regions": [
+    {
+      "region": "PETITE_WEST",
+      "samples": 322,
+      "floor_missing": 0,
+      "cover_missing": 0,
+      "floor_below_expected": 0,
+      "side_escape_samples": 0
+    },
+    {
+      "region": "PETITE_OUTER_L00",
+      "samples": 2079,
+      "floor_missing": 0,
+      "cover_missing": 0,
+      "floor_below_expected": 0,
+      "side_escape_samples": 0
+    },
+    {
+      "region": "PETITE_OUTER_LP1",
+      "samples": 2079,
+      "floor_missing": 0,
+      "cover_missing": 0,
+      "floor_below_expected": 0,
+      "side_escape_samples": 0
+    }
+  ],
+  "failures": [],
+  "construction_acceptance": false,
+  "limits": [
+    "Missing Petite Galerie Ouest room is confirmed by103 and PDF2016; PDF interior path takes precedence over the visitor colored fill.",
+    "Outer floor/roof use the existing102/103-based stone volume behind cafe and within west stair; concealed technical subdivisions unknown and omitted.",
+    "PDF and visitor stair footprints differ; exterior walls retained and exact full-plan scale reconciliation remains open.",
+    "Floor4.859m, roof13.923m,0.2m slabs and2.6m doorway heads are inherited candidates, not measured.",
+    "Roof is an opaque envelope supported by097; roof build-up, drainage and local slope are unresolved."
+  ]
+}

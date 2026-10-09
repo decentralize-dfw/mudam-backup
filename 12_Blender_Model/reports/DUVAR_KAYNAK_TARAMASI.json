@@ -1,5 +1,5 @@
 {
-  "file": "12_Blender_Model/scenes/MUDAM_R76_MERDIVEN_DUVAR_UCLARI_v001.blend",
+  "file": "12_Blender_Model/scenes/MUDAM_R86_PAVYON_CAM_KENAR_KAPANISI_v001.blend",
   "coverage_samples": [
     {
       "region": "GROUND_SERVICES",
@@ -16538,7 +16538,8 @@
       "fraction": 0.05,
       "z": 6.0590747846760005,
       "hits": [
-        "R23_W_1_WALL"
+        "R23_W_1_WALL",
+        "R85_RETURN_OUTER_TIP"
       ],
       "passed": true
     },
@@ -32949,7 +32950,8 @@
       "fraction": 0.05,
       "z": -4.126293513972,
       "hits": [
-        "R19_FRONT_L_OUTER"
+        "R19_FRONT_L_OUTER",
+        "R81_E_RETURN_12"
       ],
       "passed": true
     },
@@ -32959,7 +32961,8 @@
       "fraction": 0.1,
       "z": -4.126293513972,
       "hits": [
-        "R19_FRONT_L_OUTER"
+        "R19_FRONT_L_OUTER",
+        "R81_E_RETURN_12"
       ],
       "passed": true
     },
@@ -32969,7 +32972,9 @@
       "fraction": 0.15,
       "z": -4.126293513972,
       "hits": [
-        "R19_FRONT_L_OUTER"
+        "R19_FRONT_L_OUTER",
+        "R81_E_RETURN_11",
+        "R81_E_RETURN_12"
       ],
       "passed": true
     },
@@ -33040,7 +33045,8 @@
       "fraction": 0.05,
       "z": -1.8262935139719998,
       "hits": [
-        "R19_FRONT_L_OUTER"
+        "R19_FRONT_L_OUTER",
+        "R81_E_RETURN_12"
       ],
       "passed": true
     },
@@ -33050,7 +33056,8 @@
       "fraction": 0.1,
       "z": -1.8262935139719998,
       "hits": [
-        "R19_FRONT_L_OUTER"
+        "R19_FRONT_L_OUTER",
+        "R81_E_RETURN_12"
       ],
       "passed": true
     },
@@ -33060,7 +33067,9 @@
       "fraction": 0.15,
       "z": -1.8262935139719998,
       "hits": [
-        "R19_FRONT_L_OUTER"
+        "R19_FRONT_L_OUTER",
+        "R81_E_RETURN_11",
+        "R81_E_RETURN_12"
       ],
       "passed": true
     },
@@ -33292,7 +33301,9 @@
       "fraction": 0.8,
       "z": -4.126293513972,
       "hits": [
-        "R19_FRONT_R_INNER"
+        "R19_FRONT_R_INNER",
+        "R81_W_RETURN_00",
+        "R81_W_RETURN_01"
       ],
       "passed": true
     },
@@ -33302,7 +33313,8 @@
       "fraction": 0.85,
       "z": -4.126293513972,
       "hits": [
-        "R19_FRONT_R_INNER"
+        "R19_FRONT_R_INNER",
+        "R81_W_RETURN_00"
       ],
       "passed": true
     },
@@ -33312,7 +33324,8 @@
       "fraction": 0.9,
       "z": -4.126293513972,
       "hits": [
-        "R19_FRONT_R_INNER"
+        "R19_FRONT_R_INNER",
+        "R81_W_RETURN_00"
       ],
       "passed": true
     },
@@ -33322,7 +33335,8 @@
       "fraction": 0.95,
       "z": -4.126293513972,
       "hits": [
-        "R19_FRONT_R_INNER"
+        "R19_FRONT_R_INNER",
+        "R81_W_RETURN_00"
       ],
       "passed": true
     },
@@ -33484,7 +33498,9 @@
       "z": -1.8262935139719998,
       "hits": [
         "R19_FRONT_R_INNER",
-        "R19_FRONT_R_HEAD"
+        "R19_FRONT_R_HEAD",
+        "R81_W_RETURN_00",
+        "R81_W_RETURN_01"
       ],
       "passed": true
     },
@@ -33494,7 +33510,8 @@
       "fraction": 0.85,
       "z": -1.8262935139719998,
       "hits": [
-        "R19_FRONT_R_INNER"
+        "R19_FRONT_R_INNER",
+        "R81_W_RETURN_00"
       ],
       "passed": true
     },
@@ -33504,7 +33521,8 @@
       "fraction": 0.9,
       "z": -1.8262935139719998,
       "hits": [
-        "R19_FRONT_R_INNER"
+        "R19_FRONT_R_INNER",
+        "R81_W_RETURN_00"
       ],
       "passed": true
     },
@@ -33514,7 +33532,8 @@
       "fraction": 0.95,
       "z": -1.8262935139719998,
       "hits": [
-        "R19_FRONT_R_INNER"
+        "R19_FRONT_R_INNER",
+        "R81_W_RETURN_00"
       ],
       "passed": true
     },

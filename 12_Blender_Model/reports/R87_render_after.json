@@ -1,0 +1,36 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R87_KUCUK_BATI_GALERISI_KABUK_v003.blend",
+  "images": [
+    {
+      "image": "R87_after_petite_inside.png",
+      "eye_canonical": [
+        862,
+        336,
+        6.45
+      ],
+      "target_canonical": [
+        842,
+        346,
+        6.45
+      ],
+      "lens": 20
+    },
+    {
+      "image": "R87_after_petite_outside.png",
+      "eye_canonical": [
+        1010,
+        445,
+        30
+      ],
+      "target_canonical": [
+        859,
+        337,
+        10
+      ],
+      "lens": 35
+    }
+  ],
+  "all_active_surroundings": true,
+  "metric_camera_match": false,
+  "temporary_review_light": true
+}

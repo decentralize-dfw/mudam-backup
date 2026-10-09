@@ -1,0 +1,868 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R83_CATI_KENAR_KAPANISLARI_v001.blend",
+  "solids": [
+    {
+      "name": "R83_CAFE_BACK_WALL",
+      "volume_m3": 112.98063858146838,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "R83_CAFE_ENTRY_HEAD",
+      "volume_m3": 7.296199527676897,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "R83_ATRIUM_TRANSITION_GLASS_2",
+      "volume_m3": 0.1358728516042263,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "R83_ATRIUM_TRANSITION_EDGE_2_0",
+      "volume_m3": 0.09867603631732194,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "R83_ATRIUM_TRANSITION_EDGE_2_1",
+      "volume_m3": 0.10663242300898812,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "R83_ATRIUM_TRANSITION_GLASS_6",
+      "volume_m3": 0.13587183233125483,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "R83_ATRIUM_TRANSITION_EDGE_6_0",
+      "volume_m3": 0.09867685975395046,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "R83_ATRIUM_TRANSITION_EDGE_6_1",
+      "volume_m3": 0.10663255879577734,
+      "nonmanifold_edges": 0
+    }
+  ],
+  "replayed_previous_escapes": [
+    {
+      "region": "GH",
+      "canonical": [
+        466,
+        434
+      ],
+      "z": 14.565140647888184,
+      "angle": 15,
+      "closure_hit": "R83_ATRIUM_TRANSITION_GLASS_6"
+    },
+    {
+      "region": "GH",
+      "canonical": [
+        466,
+        434
+      ],
+      "z": 14.565140647888184,
+      "angle": 30,
+      "closure_hit": "R83_ATRIUM_TRANSITION_GLASS_6"
+    },
+    {
+      "region": "GH",
+      "canonical": [
+        474,
+        434
+      ],
+      "z": 15.184080047607422,
+      "angle": 0,
+      "closure_hit": "R83_ATRIUM_TRANSITION_GLASS_6"
+    },
+    {
+      "region": "GH",
+      "canonical": [
+        482,
+        434
+      ],
+      "z": 15.803017539978027,
+      "angle": 0,
+      "closure_hit": "R83_ATRIUM_TRANSITION_GLASS_6"
+    },
+    {
+      "region": "GH",
+      "canonical": [
+        498,
+        402
+      ],
+      "z": 14.346498413085937,
+      "angle": 0,
+      "closure_hit": "R83_ATRIUM_TRANSITION_GLASS_6"
+    },
+    {
+      "region": "GH",
+      "canonical": [
+        498,
+        402
+      ],
+      "z": 14.346498413085937,
+      "angle": 120,
+      "closure_hit": "R83_ATRIUM_TRANSITION_GLASS_2"
+    },
+    {
+      "region": "GH",
+      "canonical": [
+        506,
+        402
+      ],
+      "z": 14.96543685913086,
+      "angle": 0,
+      "closure_hit": "R83_ATRIUM_TRANSITION_GLASS_6"
+    },
+    {
+      "region": "GH",
+      "canonical": [
+        506,
+        402
+      ],
+      "z": 14.96543685913086,
+      "angle": 120,
+      "closure_hit": "R83_ATRIUM_TRANSITION_GLASS_2"
+    },
+    {
+      "region": "GH",
+      "canonical": [
+        514,
+        386
+      ],
+      "z": 14.346499366760254,
+      "angle": 0,
+      "closure_hit": "R83_ATRIUM_TRANSITION_GLASS_6"
+    },
+    {
+      "region": "GH",
+      "canonical": [
+        522,
+        386
+      ],
+      "z": 14.965438766479492,
+      "angle": 0,
+      "closure_hit": "R83_ATRIUM_TRANSITION_GLASS_6"
+    },
+    {
+      "region": "GH",
+      "canonical": [
+        530,
+        370
+      ],
+      "z": 14.346498413085937,
+      "angle": 0,
+      "closure_hit": "R83_ATRIUM_TRANSITION_GLASS_6"
+    },
+    {
+      "region": "GH",
+      "canonical": [
+        530,
+        370
+      ],
+      "z": 14.346498413085937,
+      "angle": 105,
+      "closure_hit": "R83_ATRIUM_TRANSITION_GLASS_2"
+    },
+    {
+      "region": "GH",
+      "canonical": [
+        538,
+        370
+      ],
+      "z": 14.965437812805176,
+      "angle": 0,
+      "closure_hit": "R83_ATRIUM_TRANSITION_GLASS_6"
+    },
+    {
+      "region": "GH",
+      "canonical": [
+        538,
+        370
+      ],
+      "z": 14.965437812805176,
+      "angle": 105,
+      "closure_hit": "R83_ATRIUM_TRANSITION_GLASS_2"
+    },
+    {
+      "region": "GH",
+      "canonical": [
+        546,
+        354
+      ],
+      "z": 14.346499366760254,
+      "angle": 0,
+      "closure_hit": "R83_ATRIUM_TRANSITION_GLASS_6"
+    },
+    {
+      "region": "GH",
+      "canonical": [
+        554,
+        354
+      ],
+      "z": 14.965437812805176,
+      "angle": 0,
+      "closure_hit": "R83_ATRIUM_TRANSITION_GLASS_6"
+    },
+    {
+      "region": "GH",
+      "canonical": [
+        562,
+        338
+      ],
+      "z": 14.131108207702637,
+      "angle": 0,
+      "closure_hit": "R83_ATRIUM_TRANSITION_GLASS_6"
+    },
+    {
+      "region": "GH",
+      "canonical": [
+        562,
+        338
+      ],
+      "z": 14.131108207702637,
+      "angle": 90,
+      "closure_hit": "R83_ATRIUM_TRANSITION_GLASS_2"
+    },
+    {
+      "region": "GH",
+      "canonical": [
+        570,
+        338
+      ],
+      "z": 14.13110725402832,
+      "angle": 0,
+      "closure_hit": "R83_ATRIUM_TRANSITION_GLASS_6"
+    },
+    {
+      "region": "GH",
+      "canonical": [
+        570,
+        338
+      ],
+      "z": 14.13110725402832,
+      "angle": 90,
+      "closure_hit": "R83_ATRIUM_TRANSITION_GLASS_2"
+    },
+    {
+      "region": "GH",
+      "canonical": [
+        578,
+        338
+      ],
+      "z": 14.13110725402832,
+      "angle": 90,
+      "closure_hit": "R83_ATRIUM_TRANSITION_GLASS_2"
+    },
+    {
+      "region": "GH",
+      "canonical": [
+        578,
+        354
+      ],
+      "z": 15.368987007141113,
+      "angle": 90,
+      "closure_hit": "R83_ATRIUM_TRANSITION_GLASS_2"
+    },
+    {
+      "region": "GH",
+      "canonical": [
+        666,
+        434
+      ],
+      "z": 15.957755966186523,
+      "angle": 90,
+      "closure_hit": "R83_ATRIUM_TRANSITION_GLASS_2"
+    },
+    {
+      "region": "GH",
+      "canonical": [
+        674,
+        442
+      ],
+      "z": 16.218286437988283,
+      "angle": 90,
+      "closure_hit": "R83_ATRIUM_TRANSITION_GLASS_2"
+    },
+    {
+      "region": "GH",
+      "canonical": [
+        682,
+        442
+      ],
+      "z": 15.59934513092041,
+      "angle": 75,
+      "closure_hit": "R83_ATRIUM_TRANSITION_GLASS_2"
+    },
+    {
+      "region": "GH",
+      "canonical": [
+        682,
+        442
+      ],
+      "z": 15.59934513092041,
+      "angle": 315,
+      "closure_hit": "R83_ATRIUM_TRANSITION_GLASS_6"
+    },
+    {
+      "region": "WEST_CAFE",
+      "canonical": [
+        740,
+        269
+      ],
+      "z": 3.850115222930908,
+      "angle": 135,
+      "closure_hit": "R83_CAFE_ENTRY_HEAD"
+    },
+    {
+      "region": "WEST_CAFE",
+      "canonical": [
+        740,
+        301
+      ],
+      "z": 6.124923629760742,
+      "angle": 150,
+      "closure_hit": "R83_CAFE_ENTRY_HEAD"
+    },
+    {
+      "region": "WEST_CAFE",
+      "canonical": [
+        748,
+        269
+      ],
+      "z": 4.517968578338623,
+      "angle": 135,
+      "closure_hit": "R83_CAFE_ENTRY_HEAD"
+    },
+    {
+      "region": "WEST_CAFE",
+      "canonical": [
+        748,
+        301
+      ],
+      "z": 6.69337646484375,
+      "angle": 150,
+      "closure_hit": "R83_CAFE_ENTRY_HEAD"
+    },
+    {
+      "region": "WEST_CAFE",
+      "canonical": [
+        756,
+        245
+      ],
+      "z": 3.404302759170532,
+      "angle": 120,
+      "closure_hit": "R83_CAFE_ENTRY_HEAD"
+    },
+    {
+      "region": "WEST_CAFE",
+      "canonical": [
+        764,
+        269
+      ],
+      "z": 5.766736907958984,
+      "angle": 135,
+      "closure_hit": "R83_CAFE_ENTRY_HEAD"
+    },
+    {
+      "region": "WEST_CAFE",
+      "canonical": [
+        772,
+        253
+      ],
+      "z": 5.153335494995117,
+      "angle": 120,
+      "closure_hit": "R83_CAFE_ENTRY_HEAD"
+    },
+    {
+      "region": "WEST_CAFE",
+      "canonical": [
+        772,
+        269
+      ],
+      "z": 6.3355168533325195,
+      "angle": 135,
+      "closure_hit": "R83_CAFE_ENTRY_HEAD"
+    },
+    {
+      "region": "WEST_CAFE",
+      "canonical": [
+        780,
+        221
+      ],
+      "z": 0.15,
+      "angle": 75,
+      "closure_hit": "R83_CAFE_BACK_WALL"
+    },
+    {
+      "region": "WEST_CAFE",
+      "canonical": [
+        780,
+        221
+      ],
+      "z": 2.1,
+      "angle": 75,
+      "closure_hit": "R83_CAFE_BACK_WALL"
+    },
+    {
+      "region": "WEST_CAFE",
+      "canonical": [
+        780,
+        221
+      ],
+      "z": 3.304519338607788,
+      "angle": 75,
+      "closure_hit": "R83_CAFE_BACK_WALL"
+    },
+    {
+      "region": "WEST_CAFE",
+      "canonical": [
+        780,
+        221
+      ],
+      "z": 3.304519338607788,
+      "angle": 105,
+      "closure_hit": "R83_CAFE_ENTRY_HEAD"
+    },
+    {
+      "region": "WEST_CAFE",
+      "canonical": [
+        780,
+        253
+      ],
+      "z": 5.684142990112305,
+      "angle": 120,
+      "closure_hit": "R83_CAFE_ENTRY_HEAD"
+    },
+    {
+      "region": "WEST_CAFE",
+      "canonical": [
+        780,
+        269
+      ],
+      "z": 6.875744743347168,
+      "angle": 135,
+      "closure_hit": "R83_CAFE_ENTRY_HEAD"
+    },
+    {
+      "region": "WEST_CAFE",
+      "canonical": [
+        788,
+        237
+      ],
+      "z": 0.15,
+      "angle": 75,
+      "closure_hit": "R83_CAFE_BACK_WALL"
+    },
+    {
+      "region": "WEST_CAFE",
+      "canonical": [
+        788,
+        237
+      ],
+      "z": 2.1,
+      "angle": 75,
+      "closure_hit": "R83_CAFE_BACK_WALL"
+    },
+    {
+      "region": "WEST_CAFE",
+      "canonical": [
+        788,
+        237
+      ],
+      "z": 4.991412086486816,
+      "angle": 105,
+      "closure_hit": "R83_CAFE_ENTRY_HEAD"
+    },
+    {
+      "region": "WEST_CAFE",
+      "canonical": [
+        788,
+        253
+      ],
+      "z": 6.188789291381836,
+      "angle": 120,
+      "closure_hit": "R83_CAFE_ENTRY_HEAD"
+    },
+    {
+      "region": "WEST_CAFE",
+      "canonical": [
+        788,
+        269
+      ],
+      "z": 7.2645472717285156,
+      "angle": 135,
+      "closure_hit": "R83_CAFE_ENTRY_HEAD"
+    },
+    {
+      "region": "WEST_CAFE",
+      "canonical": [
+        796,
+        237
+      ],
+      "z": 5.46168701171875,
+      "angle": 105,
+      "closure_hit": "R83_CAFE_ENTRY_HEAD"
+    },
+    {
+      "region": "WEST_CAFE",
+      "canonical": [
+        796,
+        253
+      ],
+      "z": 6.659702224731445,
+      "angle": 120,
+      "closure_hit": "R83_CAFE_ENTRY_HEAD"
+    },
+    {
+      "region": "WEST_CAFE",
+      "canonical": [
+        796,
+        269
+      ],
+      "z": 7.853448791503906,
+      "angle": 135,
+      "closure_hit": "R83_CAFE_ENTRY_HEAD"
+    },
+    {
+      "region": "WEST_CAFE",
+      "canonical": [
+        796,
+        285
+      ],
+      "z": 9.05044548034668,
+      "angle": 150,
+      "closure_hit": "R83_CAFE_ENTRY_HEAD"
+    },
+    {
+      "region": "WEST_CAFE",
+      "canonical": [
+        804,
+        237
+      ],
+      "z": 5.894911689758301,
+      "angle": 105,
+      "closure_hit": "R83_CAFE_ENTRY_HEAD"
+    },
+    {
+      "region": "WEST_CAFE",
+      "canonical": [
+        804,
+        253
+      ],
+      "z": 7.090884132385254,
+      "angle": 120,
+      "closure_hit": "R83_CAFE_ENTRY_HEAD"
+    },
+    {
+      "region": "WEST_CAFE",
+      "canonical": [
+        804,
+        269
+      ],
+      "z": 8.287182731628418,
+      "angle": 135,
+      "closure_hit": "R83_CAFE_ENTRY_HEAD"
+    },
+    {
+      "region": "WEST_CAFE",
+      "canonical": [
+        812,
+        245
+      ],
+      "z": 6.8946131896972656,
+      "angle": 105,
+      "closure_hit": "R83_CAFE_ENTRY_HEAD"
+    },
+    {
+      "region": "WEST_CAFE",
+      "canonical": [
+        812,
+        261
+      ],
+      "z": 8.08932201385498,
+      "angle": 120,
+      "closure_hit": "R83_CAFE_ENTRY_HEAD"
+    },
+    {
+      "region": "WEST_CAFE",
+      "canonical": [
+        820,
+        205
+      ],
+      "z": 0.15,
+      "angle": 60,
+      "closure_hit": "R83_CAFE_BACK_WALL"
+    },
+    {
+      "region": "WEST_CAFE",
+      "canonical": [
+        820,
+        205
+      ],
+      "z": 2.1,
+      "angle": 60,
+      "closure_hit": "R83_CAFE_BACK_WALL"
+    },
+    {
+      "region": "WEST_CAFE",
+      "canonical": [
+        820,
+        205
+      ],
+      "z": 4.308995170593262,
+      "angle": 60,
+      "closure_hit": "R83_CAFE_BACK_WALL"
+    },
+    {
+      "region": "WEST_CAFE",
+      "canonical": [
+        820,
+        237
+      ],
+      "z": 6.6728581619262695,
+      "angle": 90,
+      "closure_hit": "R83_CAFE_ENTRY_HEAD"
+    },
+    {
+      "region": "WEST_CAFE",
+      "canonical": [
+        820,
+        253
+      ],
+      "z": 7.74557201385498,
+      "angle": 105,
+      "closure_hit": "R83_CAFE_ENTRY_HEAD"
+    },
+    {
+      "region": "WEST_CAFE",
+      "canonical": [
+        820,
+        285
+      ],
+      "z": 0.15,
+      "angle": 75,
+      "closure_hit": "R83_CAFE_BACK_WALL"
+    },
+    {
+      "region": "WEST_CAFE",
+      "canonical": [
+        820,
+        285
+      ],
+      "z": 2.1,
+      "angle": 75,
+      "closure_hit": "R83_CAFE_BACK_WALL"
+    },
+    {
+      "region": "WEST_CAFE",
+      "canonical": [
+        820,
+        285
+      ],
+      "z": 10.242110176086426,
+      "angle": 75,
+      "closure_hit": "R83_CAFE_BACK_WALL"
+    },
+    {
+      "region": "WEST_CAFE",
+      "canonical": [
+        828,
+        229
+      ],
+      "z": 0.15,
+      "angle": 60,
+      "closure_hit": "R83_CAFE_BACK_WALL"
+    },
+    {
+      "region": "WEST_CAFE",
+      "canonical": [
+        828,
+        229
+      ],
+      "z": 2.1,
+      "angle": 60,
+      "closure_hit": "R83_CAFE_BACK_WALL"
+    },
+    {
+      "region": "WEST_CAFE",
+      "canonical": [
+        828,
+        245
+      ],
+      "z": 7.60380069732666,
+      "angle": 90,
+      "closure_hit": "R83_CAFE_ENTRY_HEAD"
+    },
+    {
+      "region": "WEST_CAFE",
+      "canonical": [
+        828,
+        245
+      ],
+      "z": 7.60380069732666,
+      "angle": 105,
+      "closure_hit": "R83_CAFE_ENTRY_HEAD"
+    },
+    {
+      "region": "WEST_CAFE",
+      "canonical": [
+        828,
+        261
+      ],
+      "z": 8.782573623657226,
+      "angle": 120,
+      "closure_hit": "R83_CAFE_ENTRY_HEAD"
+    },
+    {
+      "region": "WEST_CAFE",
+      "canonical": [
+        828,
+        277
+      ],
+      "z": 9.965995712280273,
+      "angle": 150,
+      "closure_hit": "R83_CAFE_ENTRY_HEAD"
+    },
+    {
+      "region": "WEST_CAFE",
+      "canonical": [
+        836,
+        245
+      ],
+      "z": 0.15,
+      "angle": 60,
+      "closure_hit": "R83_CAFE_BACK_WALL"
+    },
+    {
+      "region": "WEST_CAFE",
+      "canonical": [
+        836,
+        245
+      ],
+      "z": 2.1,
+      "angle": 60,
+      "closure_hit": "R83_CAFE_BACK_WALL"
+    },
+    {
+      "region": "WEST_CAFE",
+      "canonical": [
+        836,
+        245
+      ],
+      "z": 7.9073294830322265,
+      "angle": 90,
+      "closure_hit": "R83_CAFE_ENTRY_HEAD"
+    },
+    {
+      "region": "WEST_CAFE",
+      "canonical": [
+        836,
+        261
+      ],
+      "z": 0.15,
+      "angle": 60,
+      "closure_hit": "R83_CAFE_BACK_WALL"
+    },
+    {
+      "region": "WEST_CAFE",
+      "canonical": [
+        836,
+        261
+      ],
+      "z": 2.1,
+      "angle": 60,
+      "closure_hit": "R83_CAFE_BACK_WALL"
+    },
+    {
+      "region": "WEST_CAFE",
+      "canonical": [
+        836,
+        261
+      ],
+      "z": 9.077296180725098,
+      "angle": 60,
+      "closure_hit": "R83_CAFE_BACK_WALL"
+    },
+    {
+      "region": "WEST_CAFE",
+      "canonical": [
+        836,
+        261
+      ],
+      "z": 9.077296180725098,
+      "angle": 105,
+      "closure_hit": "R83_CAFE_ENTRY_HEAD"
+    },
+    {
+      "region": "WEST_CAFE",
+      "canonical": [
+        836,
+        261
+      ],
+      "z": 9.077296180725098,
+      "angle": 120,
+      "closure_hit": "R83_CAFE_ENTRY_HEAD"
+    },
+    {
+      "region": "WEST_CAFE",
+      "canonical": [
+        844,
+        261
+      ],
+      "z": 9.343563957214355,
+      "angle": 90,
+      "closure_hit": "R83_CAFE_ENTRY_HEAD"
+    },
+    {
+      "region": "WEST_CAFE",
+      "canonical": [
+        844,
+        261
+      ],
+      "z": 9.343563957214355,
+      "angle": 105,
+      "closure_hit": "R83_CAFE_ENTRY_HEAD"
+    },
+    {
+      "region": "WEST_CAFE",
+      "canonical": [
+        844,
+        261
+      ],
+      "z": 9.343563957214355,
+      "angle": 120,
+      "closure_hit": "R83_CAFE_ENTRY_HEAD"
+    },
+    {
+      "region": "LOWER_FOYER",
+      "canonical": [
+        667,
+        419
+      ],
+      "z": 14.501233978271484,
+      "angle": 75,
+      "closure_hit": "R83_ATRIUM_TRANSITION_GLASS_2"
+    },
+    {
+      "region": "UPPER_BRIDGE",
+      "canonical": [
+        629,
+        575
+      ],
+      "z": 12.44311897277832,
+      "angle": 195,
+      "closure_hit": "R83_CAFE_BACK_WALL"
+    }
+  ],
+  "ground_stair_entry": {
+    "hit": null
+  },
+  "failures": [],
+  "construction_acceptance": false,
+  "limits": [
+    "093 supports straight opaque wall behind cafe roof; registered102 line x+y=1120 retained.",
+    "Existing west stair entry remains open below3.2m; no door or hardware modeled.",
+    "093/026 show glazed transitions; triangular fills follow current2/6 roof-edge geometry without changing silhouette.",
+    "Exact transition subdivisions, wall thickness, roof heights and profile dimensions remain candidate, not measured."
+  ]
+}

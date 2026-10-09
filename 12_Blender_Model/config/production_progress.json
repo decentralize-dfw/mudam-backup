@@ -1,5 +1,5 @@
 {
-  "as_of_revision": "R80",
+  "as_of_revision": "R88",
   "basis": "Beş eşit iş adımı: tamam 20, kısmi 10, bekleyen 0 puan. Yaklaşık kapsam ilerlemesidir; ölçü doğruluğu veya harcanan süre oranı değildir. Yeni paket kabulünde ilgili adımlar yeniden değerlendirilir.",
   "tasks": {
     "P00": {
@@ -555,8 +555,8 @@
       ]
     }
   },
-  "last_reviewed_checkpoint": "R79",
-  "last_review_note": "R75–R78 duvar bağlantıları ve galeri gövdeleri kontrol edildi. Kullanıcının son kararıyla bütün bina kabuğu birleşik öncelik.",
+  "last_reviewed_checkpoint": "R88",
+  "last_review_note": "R87 küçük batı galerisinin eksik kabuğu; R88 merdiven cam kenarı kaçakları düzeltildi. Dış cephe kat birleşimleri ve kaynak uyumu denetimi devam ediyor.",
   "execution_order": [
     "Bina kabuğu: tüm duvarlar, zeminler, çatılar ve birleşimler",
     "Merdivenler ve sahanlıklar",
@@ -569,5 +569,5 @@
   ],
   "current_priority": "Duvar–zemin–çatı birlikte: iç mekânlarda eksik alt/üst örtü ve kabuk açıklıkları kapatılıyor.",
   "review_note": "Genel kabuk kabulü açık; yerel geçiş testleri bina tamamlandı anlamına gelmez.",
-  "last_reviewed_revision": "R80"
+  "last_reviewed_revision": "R88"
 }

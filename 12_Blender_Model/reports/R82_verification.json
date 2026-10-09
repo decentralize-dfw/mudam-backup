@@ -1,0 +1,70 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R82_BATI_MERDIVEN_GIRIS_KABUK_v001.blend",
+  "solids": [
+    {
+      "name": "R82_ENTRY_GLASS_0",
+      "volume_m3": 0.25883434604978106,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "R82_ENTRY_FRAME_00",
+      "volume_m3": 0.047188176817760025,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "R82_ENTRY_FRAME_01",
+      "volume_m3": 0.03360035725646249,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "R82_ENTRY_FRAME_02",
+      "volume_m3": 0.04718805962464352,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "R82_ENTRY_FRAME_03",
+      "volume_m3": 0.03360035725646263,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "R82_ENTRY_GLASS_1",
+      "volume_m3": 0.1766752320619212,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "R82_ENTRY_FRAME_04",
+      "volume_m3": 0.047188524221368475,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "R82_ENTRY_FRAME_05",
+      "volume_m3": 0.022932743055646895,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "R82_ENTRY_FRAME_06",
+      "volume_m3": 0.022932763069791598,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "R82_ENTRY_INNER_WALL",
+      "volume_m3": 18.771630160200594,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "R14_GROUND_ENTRY",
+      "volume_m3": 2.1832269919312135,
+      "nonmanifold_edges": 0
+    }
+  ],
+  "cover_floor_samples": 312,
+  "side_samples": 156,
+  "entry_obstructions": [],
+  "failures": [],
+  "construction_acceptance": false,
+  "limits": [
+    "102 has the flat entry footprint before first riser;097 shows glazing continuing across the bottom landing.",
+    "Existing R14 ground floor retained. Roof at inherited3.2m head, source height not measured.",
+    "Two unsegmented glass surfaces provide enclosure; final pane subdivisions and profiles deferred."
+  ]
+}

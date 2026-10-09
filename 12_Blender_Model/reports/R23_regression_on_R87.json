@@ -1,0 +1,975 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R87_KUCUK_BATI_GALERISI_KABUK_v003.blend",
+  "failures": [],
+  "evaluated_solids": [
+    {
+      "name": "R23_E_0_WALL",
+      "volume": 31.036551833577835,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R23_E_1_JAMB_A",
+      "volume": 6.358828028317305,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R23_E_1_JAMB_B",
+      "volume": 4.772128596160181,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R23_E_1_HEAD",
+      "volume": 5.0315695240461356,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R23_THRESHOLD_E_STAIR",
+      "volume": 0.7389869936476359,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R23_E_2_WALL",
+      "volume": 38.27740585841088,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R23_E_3_JAMB_A",
+      "volume": 25.232615831532012,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R23_E_3_JAMB_B",
+      "volume": 0.9205752606648474,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R23_E_3_HEAD",
+      "volume": 5.168480568523854,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R23_THRESHOLD_E_BRIDGE",
+      "volume": 0.8395060229694493,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R23_E_4_WALL",
+      "volume": 16.428278423511138,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R23_E_5_WALL",
+      "volume": 40.96057849400919,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R23_W_0_JAMB_A",
+      "volume": 1.7510028977764698,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R23_W_0_JAMB_B",
+      "volume": 11.88498587930378,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R23_W_0_HEAD",
+      "volume": 4.238209764106344,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R23_THRESHOLD_W_STAIR",
+      "volume": 0.6224661941940941,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R23_W_1_WALL",
+      "volume": 28.93733995189683,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R23_W_2_WALL",
+      "volume": 41.02349499630723,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R23_W_3_WALL",
+      "volume": 16.35627547504895,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R23_W_4_JAMB_A",
+      "volume": 0.7258029345973043,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R23_W_4_JAMB_B",
+      "volume": 24.911097714990866,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R23_W_4_HEAD",
+      "volume": 5.1684768954523665,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R23_THRESHOLD_W_BRIDGE",
+      "volume": 0.8395054999174696,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R23_W_5_WALL",
+      "volume": 37.420647250348786,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R23_WEST_RETURN_FLOOR_0",
+      "volume": 3.8033569237666716,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R23_WEST_RETURN_FLOOR_1",
+      "volume": 1.2334451679760239,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    }
+  ],
+  "portal_and_route_rays": [
+    {
+      "portal": "E_STAIR",
+      "fraction": 0.2,
+      "h": 0.2,
+      "hits": []
+    },
+    {
+      "portal": "E_STAIR",
+      "fraction": 0.2,
+      "h": 1.5,
+      "hits": []
+    },
+    {
+      "portal": "E_STAIR",
+      "fraction": 0.2,
+      "h": 2.2,
+      "hits": []
+    },
+    {
+      "portal": "E_STAIR",
+      "fraction": 0.5,
+      "h": 0.2,
+      "hits": []
+    },
+    {
+      "portal": "E_STAIR",
+      "fraction": 0.5,
+      "h": 1.5,
+      "hits": []
+    },
+    {
+      "portal": "E_STAIR",
+      "fraction": 0.5,
+      "h": 2.2,
+      "hits": []
+    },
+    {
+      "portal": "E_STAIR",
+      "fraction": 0.8,
+      "h": 0.2,
+      "hits": []
+    },
+    {
+      "portal": "E_STAIR",
+      "fraction": 0.8,
+      "h": 1.5,
+      "hits": []
+    },
+    {
+      "portal": "E_STAIR",
+      "fraction": 0.8,
+      "h": 2.2,
+      "hits": []
+    },
+    {
+      "portal": "E_BRIDGE",
+      "fraction": 0.2,
+      "h": 0.2,
+      "hits": []
+    },
+    {
+      "portal": "E_BRIDGE",
+      "fraction": 0.2,
+      "h": 1.5,
+      "hits": []
+    },
+    {
+      "portal": "E_BRIDGE",
+      "fraction": 0.2,
+      "h": 2.2,
+      "hits": []
+    },
+    {
+      "portal": "E_BRIDGE",
+      "fraction": 0.5,
+      "h": 0.2,
+      "hits": []
+    },
+    {
+      "portal": "E_BRIDGE",
+      "fraction": 0.5,
+      "h": 1.5,
+      "hits": []
+    },
+    {
+      "portal": "E_BRIDGE",
+      "fraction": 0.5,
+      "h": 2.2,
+      "hits": []
+    },
+    {
+      "portal": "E_BRIDGE",
+      "fraction": 0.8,
+      "h": 0.2,
+      "hits": []
+    },
+    {
+      "portal": "E_BRIDGE",
+      "fraction": 0.8,
+      "h": 1.5,
+      "hits": []
+    },
+    {
+      "portal": "E_BRIDGE",
+      "fraction": 0.8,
+      "h": 2.2,
+      "hits": []
+    },
+    {
+      "portal": "W_STAIR",
+      "fraction": 0.2,
+      "h": 0.2,
+      "hits": []
+    },
+    {
+      "portal": "W_STAIR",
+      "fraction": 0.2,
+      "h": 1.5,
+      "hits": []
+    },
+    {
+      "portal": "W_STAIR",
+      "fraction": 0.2,
+      "h": 2.2,
+      "hits": []
+    },
+    {
+      "portal": "W_STAIR",
+      "fraction": 0.5,
+      "h": 0.2,
+      "hits": []
+    },
+    {
+      "portal": "W_STAIR",
+      "fraction": 0.5,
+      "h": 1.5,
+      "hits": []
+    },
+    {
+      "portal": "W_STAIR",
+      "fraction": 0.5,
+      "h": 2.2,
+      "hits": []
+    },
+    {
+      "portal": "W_STAIR",
+      "fraction": 0.8,
+      "h": 0.2,
+      "hits": []
+    },
+    {
+      "portal": "W_STAIR",
+      "fraction": 0.8,
+      "h": 1.5,
+      "hits": []
+    },
+    {
+      "portal": "W_STAIR",
+      "fraction": 0.8,
+      "h": 2.2,
+      "hits": []
+    },
+    {
+      "portal": "W_BRIDGE",
+      "fraction": 0.2,
+      "h": 0.2,
+      "hits": []
+    },
+    {
+      "portal": "W_BRIDGE",
+      "fraction": 0.2,
+      "h": 1.5,
+      "hits": []
+    },
+    {
+      "portal": "W_BRIDGE",
+      "fraction": 0.2,
+      "h": 2.2,
+      "hits": []
+    },
+    {
+      "portal": "W_BRIDGE",
+      "fraction": 0.5,
+      "h": 0.2,
+      "hits": []
+    },
+    {
+      "portal": "W_BRIDGE",
+      "fraction": 0.5,
+      "h": 1.5,
+      "hits": []
+    },
+    {
+      "portal": "W_BRIDGE",
+      "fraction": 0.5,
+      "h": 2.2,
+      "hits": []
+    },
+    {
+      "portal": "W_BRIDGE",
+      "fraction": 0.8,
+      "h": 0.2,
+      "hits": []
+    },
+    {
+      "portal": "W_BRIDGE",
+      "fraction": 0.8,
+      "h": 1.5,
+      "hits": []
+    },
+    {
+      "portal": "W_BRIDGE",
+      "fraction": 0.8,
+      "h": 2.2,
+      "hits": []
+    },
+    {
+      "route_segment": [
+        [
+          1263,
+          470
+        ],
+        [
+          1263,
+          440
+        ]
+      ],
+      "hits": []
+    },
+    {
+      "route_segment": [
+        [
+          1263,
+          440
+        ],
+        [
+          1235,
+          440
+        ]
+      ],
+      "hits": []
+    },
+    {
+      "route_segment": [
+        [
+          1235,
+          440
+        ],
+        [
+          1210,
+          440
+        ]
+      ],
+      "hits": []
+    },
+    {
+      "route_segment": [
+        [
+          1210,
+          440
+        ],
+        [
+          1188,
+          440
+        ]
+      ],
+      "hits": []
+    },
+    {
+      "route_segment": [
+        [
+          1188,
+          440
+        ],
+        [
+          1188,
+          418
+        ]
+      ],
+      "hits": []
+    }
+  ],
+  "support_head_samples": [
+    {
+      "portal": "E_STAIR",
+      "fraction": 0.2,
+      "offset": -0.2,
+      "support": [
+        "P05_FLOOR_LP1_E0"
+      ],
+      "head": []
+    },
+    {
+      "portal": "E_STAIR",
+      "fraction": 0.2,
+      "offset": 0.4,
+      "support": [
+        "P05_FLOOR_LP1_E0",
+        "R23_THRESHOLD_E_STAIR"
+      ],
+      "head": []
+    },
+    {
+      "portal": "E_STAIR",
+      "fraction": 0.2,
+      "offset": 0.75,
+      "support": [
+        "P05_FLOOR_LP1_E0",
+        "R23_THRESHOLD_E_STAIR"
+      ],
+      "head": []
+    },
+    {
+      "portal": "E_STAIR",
+      "fraction": 0.2,
+      "offset": 1.1,
+      "support": [
+        "P05_FLOOR_LP1_E0"
+      ],
+      "head": []
+    },
+    {
+      "portal": "E_STAIR",
+      "fraction": 0.5,
+      "offset": -0.2,
+      "support": [
+        "P05_FLOOR_LP1_E0"
+      ],
+      "head": []
+    },
+    {
+      "portal": "E_STAIR",
+      "fraction": 0.5,
+      "offset": 0.4,
+      "support": [
+        "R23_THRESHOLD_E_STAIR"
+      ],
+      "head": []
+    },
+    {
+      "portal": "E_STAIR",
+      "fraction": 0.5,
+      "offset": 0.75,
+      "support": [
+        "P05_FLOOR_LP1_E0",
+        "R23_THRESHOLD_E_STAIR"
+      ],
+      "head": []
+    },
+    {
+      "portal": "E_STAIR",
+      "fraction": 0.5,
+      "offset": 1.1,
+      "support": [
+        "P05_FLOOR_LP1_E0"
+      ],
+      "head": []
+    },
+    {
+      "portal": "E_STAIR",
+      "fraction": 0.8,
+      "offset": -0.2,
+      "support": [
+        "P05_FLOOR_LP1_E0"
+      ],
+      "head": []
+    },
+    {
+      "portal": "E_STAIR",
+      "fraction": 0.8,
+      "offset": 0.4,
+      "support": [
+        "R23_THRESHOLD_E_STAIR"
+      ],
+      "head": []
+    },
+    {
+      "portal": "E_STAIR",
+      "fraction": 0.8,
+      "offset": 0.75,
+      "support": [
+        "P05_FLOOR_LP1_E0",
+        "R23_THRESHOLD_E_STAIR"
+      ],
+      "head": []
+    },
+    {
+      "portal": "E_STAIR",
+      "fraction": 0.8,
+      "offset": 1.1,
+      "support": [
+        "P05_FLOOR_LP1_E0"
+      ],
+      "head": []
+    },
+    {
+      "portal": "E_BRIDGE",
+      "fraction": 0.2,
+      "offset": -0.2,
+      "support": [
+        "P05_FLOOR_LP1_E0"
+      ],
+      "head": []
+    },
+    {
+      "portal": "E_BRIDGE",
+      "fraction": 0.2,
+      "offset": 0.4,
+      "support": [
+        "R23_THRESHOLD_E_BRIDGE"
+      ],
+      "head": []
+    },
+    {
+      "portal": "E_BRIDGE",
+      "fraction": 0.2,
+      "offset": 0.75,
+      "support": [
+        "R23_THRESHOLD_E_BRIDGE"
+      ],
+      "head": []
+    },
+    {
+      "portal": "E_BRIDGE",
+      "fraction": 0.2,
+      "offset": 1.1,
+      "support": [
+        "P05_FLOOR_LP1_BRIDGE"
+      ],
+      "head": []
+    },
+    {
+      "portal": "E_BRIDGE",
+      "fraction": 0.5,
+      "offset": -0.2,
+      "support": [
+        "P05_FLOOR_LP1_E0"
+      ],
+      "head": []
+    },
+    {
+      "portal": "E_BRIDGE",
+      "fraction": 0.5,
+      "offset": 0.4,
+      "support": [
+        "R23_THRESHOLD_E_BRIDGE"
+      ],
+      "head": []
+    },
+    {
+      "portal": "E_BRIDGE",
+      "fraction": 0.5,
+      "offset": 0.75,
+      "support": [
+        "R23_THRESHOLD_E_BRIDGE"
+      ],
+      "head": []
+    },
+    {
+      "portal": "E_BRIDGE",
+      "fraction": 0.5,
+      "offset": 1.1,
+      "support": [
+        "P05_FLOOR_LP1_BRIDGE"
+      ],
+      "head": []
+    },
+    {
+      "portal": "E_BRIDGE",
+      "fraction": 0.8,
+      "offset": -0.2,
+      "support": [
+        "P05_FLOOR_LP1_E0"
+      ],
+      "head": []
+    },
+    {
+      "portal": "E_BRIDGE",
+      "fraction": 0.8,
+      "offset": 0.4,
+      "support": [
+        "R23_THRESHOLD_E_BRIDGE"
+      ],
+      "head": []
+    },
+    {
+      "portal": "E_BRIDGE",
+      "fraction": 0.8,
+      "offset": 0.75,
+      "support": [
+        "R23_THRESHOLD_E_BRIDGE"
+      ],
+      "head": []
+    },
+    {
+      "portal": "E_BRIDGE",
+      "fraction": 0.8,
+      "offset": 1.1,
+      "support": [
+        "P05_FLOOR_LP1_BRIDGE"
+      ],
+      "head": []
+    },
+    {
+      "portal": "W_STAIR",
+      "fraction": 0.2,
+      "offset": -0.2,
+      "support": [
+        "P05_FLOOR_LP1_W0",
+        "R23_WEST_RETURN_FLOOR_1"
+      ],
+      "head": []
+    },
+    {
+      "portal": "W_STAIR",
+      "fraction": 0.2,
+      "offset": 0.4,
+      "support": [
+        "R23_THRESHOLD_W_STAIR",
+        "R23_WEST_RETURN_FLOOR_0",
+        "R23_WEST_RETURN_FLOOR_1"
+      ],
+      "head": []
+    },
+    {
+      "portal": "W_STAIR",
+      "fraction": 0.2,
+      "offset": 0.75,
+      "support": [
+        "R23_THRESHOLD_W_STAIR",
+        "R23_WEST_RETURN_FLOOR_0",
+        "R23_WEST_RETURN_FLOOR_1"
+      ],
+      "head": []
+    },
+    {
+      "portal": "W_STAIR",
+      "fraction": 0.2,
+      "offset": 1.1,
+      "support": [
+        "R23_WEST_RETURN_FLOOR_0",
+        "R23_WEST_RETURN_FLOOR_1"
+      ],
+      "head": []
+    },
+    {
+      "portal": "W_STAIR",
+      "fraction": 0.5,
+      "offset": -0.2,
+      "support": [
+        "P05_FLOOR_LP1_W0",
+        "R23_WEST_RETURN_FLOOR_1"
+      ],
+      "head": []
+    },
+    {
+      "portal": "W_STAIR",
+      "fraction": 0.5,
+      "offset": 0.4,
+      "support": [
+        "R23_THRESHOLD_W_STAIR",
+        "R23_WEST_RETURN_FLOOR_0",
+        "R23_WEST_RETURN_FLOOR_1"
+      ],
+      "head": []
+    },
+    {
+      "portal": "W_STAIR",
+      "fraction": 0.5,
+      "offset": 0.75,
+      "support": [
+        "R23_THRESHOLD_W_STAIR",
+        "R23_WEST_RETURN_FLOOR_0",
+        "R23_WEST_RETURN_FLOOR_1"
+      ],
+      "head": []
+    },
+    {
+      "portal": "W_STAIR",
+      "fraction": 0.5,
+      "offset": 1.1,
+      "support": [
+        "R23_WEST_RETURN_FLOOR_0",
+        "R23_WEST_RETURN_FLOOR_1"
+      ],
+      "head": []
+    },
+    {
+      "portal": "W_STAIR",
+      "fraction": 0.8,
+      "offset": -0.2,
+      "support": [
+        "P05_FLOOR_LP1_W0",
+        "R23_WEST_RETURN_FLOOR_1"
+      ],
+      "head": []
+    },
+    {
+      "portal": "W_STAIR",
+      "fraction": 0.8,
+      "offset": 0.4,
+      "support": [
+        "R23_THRESHOLD_W_STAIR",
+        "R23_WEST_RETURN_FLOOR_0",
+        "R23_WEST_RETURN_FLOOR_1"
+      ],
+      "head": []
+    },
+    {
+      "portal": "W_STAIR",
+      "fraction": 0.8,
+      "offset": 0.75,
+      "support": [
+        "R23_THRESHOLD_W_STAIR",
+        "R23_WEST_RETURN_FLOOR_0",
+        "R23_WEST_RETURN_FLOOR_1"
+      ],
+      "head": []
+    },
+    {
+      "portal": "W_STAIR",
+      "fraction": 0.8,
+      "offset": 1.1,
+      "support": [
+        "R23_WEST_RETURN_FLOOR_0",
+        "R23_WEST_RETURN_FLOOR_1"
+      ],
+      "head": []
+    },
+    {
+      "portal": "W_BRIDGE",
+      "fraction": 0.2,
+      "offset": -0.2,
+      "support": [
+        "P05_FLOOR_LP1_W0"
+      ],
+      "head": []
+    },
+    {
+      "portal": "W_BRIDGE",
+      "fraction": 0.2,
+      "offset": 0.4,
+      "support": [
+        "R23_THRESHOLD_W_BRIDGE"
+      ],
+      "head": []
+    },
+    {
+      "portal": "W_BRIDGE",
+      "fraction": 0.2,
+      "offset": 0.75,
+      "support": [
+        "P05_FLOOR_LP1_BRIDGE",
+        "R23_THRESHOLD_W_BRIDGE"
+      ],
+      "head": []
+    },
+    {
+      "portal": "W_BRIDGE",
+      "fraction": 0.2,
+      "offset": 1.1,
+      "support": [
+        "P05_FLOOR_LP1_BRIDGE"
+      ],
+      "head": []
+    },
+    {
+      "portal": "W_BRIDGE",
+      "fraction": 0.5,
+      "offset": -0.2,
+      "support": [
+        "P05_FLOOR_LP1_W0"
+      ],
+      "head": []
+    },
+    {
+      "portal": "W_BRIDGE",
+      "fraction": 0.5,
+      "offset": 0.4,
+      "support": [
+        "R23_THRESHOLD_W_BRIDGE"
+      ],
+      "head": []
+    },
+    {
+      "portal": "W_BRIDGE",
+      "fraction": 0.5,
+      "offset": 0.75,
+      "support": [
+        "P05_FLOOR_LP1_BRIDGE",
+        "R23_THRESHOLD_W_BRIDGE"
+      ],
+      "head": []
+    },
+    {
+      "portal": "W_BRIDGE",
+      "fraction": 0.5,
+      "offset": 1.1,
+      "support": [
+        "P05_FLOOR_LP1_BRIDGE"
+      ],
+      "head": []
+    },
+    {
+      "portal": "W_BRIDGE",
+      "fraction": 0.8,
+      "offset": -0.2,
+      "support": [
+        "P05_FLOOR_LP1_W0"
+      ],
+      "head": []
+    },
+    {
+      "portal": "W_BRIDGE",
+      "fraction": 0.8,
+      "offset": 0.4,
+      "support": [
+        "R23_THRESHOLD_W_BRIDGE"
+      ],
+      "head": []
+    },
+    {
+      "portal": "W_BRIDGE",
+      "fraction": 0.8,
+      "offset": 0.75,
+      "support": [
+        "P05_FLOOR_LP1_BRIDGE",
+        "R23_THRESHOLD_W_BRIDGE"
+      ],
+      "head": []
+    },
+    {
+      "portal": "W_BRIDGE",
+      "fraction": 0.8,
+      "offset": 1.1,
+      "support": [
+        "P05_FLOOR_LP1_BRIDGE"
+      ],
+      "head": []
+    },
+    {
+      "route_index": 0,
+      "uv": [
+        1263,
+        470
+      ],
+      "support": [
+        "R85_UPPER_LANDING_FLOOR"
+      ],
+      "head": []
+    },
+    {
+      "route_index": 1,
+      "uv": [
+        1263,
+        440
+      ],
+      "support": [
+        "R23_WEST_RETURN_FLOOR_0"
+      ],
+      "head": []
+    },
+    {
+      "route_index": 2,
+      "uv": [
+        1235,
+        440
+      ],
+      "support": [
+        "R23_WEST_RETURN_FLOOR_0"
+      ],
+      "head": []
+    },
+    {
+      "route_index": 3,
+      "uv": [
+        1210,
+        440
+      ],
+      "support": [
+        "R23_WEST_RETURN_FLOOR_0"
+      ],
+      "head": []
+    },
+    {
+      "route_index": 4,
+      "uv": [
+        1188,
+        440
+      ],
+      "support": [
+        "R23_WEST_RETURN_FLOOR_0",
+        "R23_WEST_RETURN_FLOOR_1"
+      ],
+      "head": []
+    },
+    {
+      "route_index": 5,
+      "uv": [
+        1188,
+        418
+      ],
+      "support": [
+        "P05_FLOOR_LP1_W0",
+        "R23_WEST_RETURN_FLOOR_1"
+      ],
+      "head": []
+    }
+  ],
+  "old_west_straight_route_superseded": true,
+  "roof_study_unresolved": true,
+  "construction_acceptance": false
+}

@@ -1,0 +1,49 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R83_CATI_KENAR_KAPANISLARI_v001.blend",
+  "images": [
+    {
+      "image": "R83_after_cafe_back.png",
+      "eye_canonical": [
+        797,
+        163,
+        6
+      ],
+      "target_canonical": [
+        800,
+        320,
+        8
+      ],
+      "lens": 24
+    },
+    {
+      "image": "R83_after_roof_west.png",
+      "eye_canonical": [
+        820,
+        390,
+        19
+      ],
+      "target_canonical": [
+        682,
+        446,
+        15.5
+      ],
+      "lens": 42
+    },
+    {
+      "image": "R83_after_roof_east.png",
+      "eye_canonical": [
+        320,
+        390,
+        19
+      ],
+      "target_canonical": [
+        464,
+        446,
+        15.5
+      ],
+      "lens": 42
+    }
+  ],
+  "all_active_surroundings": true,
+  "metric_camera_match": false
+}

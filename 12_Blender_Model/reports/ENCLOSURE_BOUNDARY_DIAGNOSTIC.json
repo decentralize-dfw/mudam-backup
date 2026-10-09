@@ -1,0 +1,2774 @@
+[
+  {
+    "finding": {
+      "region": "GH",
+      "canonical": [
+        466,
+        434
+      ],
+      "z": 14.565140647888184,
+      "angle": 15
+    },
+    "boundary": 6,
+    "edge": [
+      [
+        462,
+        464
+      ],
+      [
+        462,
+        430
+      ]
+    ],
+    "exit_canonical": [
+      462.0,
+      441.5489807128906
+    ],
+    "nearest": "P10_MAIN_ROOF_FACE_6_EDGE_0",
+    "nearest_distance": 0.26054999232292175
+  },
+  {
+    "finding": {
+      "region": "GH",
+      "canonical": [
+        466,
+        434
+      ],
+      "z": 14.565140647888184,
+      "angle": 30
+    },
+    "boundary": 6,
+    "edge": [
+      [
+        462,
+        464
+      ],
+      [
+        462,
+        430
+      ]
+    ],
+    "exit_canonical": [
+      462.0,
+      451.4398193359375
+    ],
+    "nearest": "R72_HIGH_ATRIUM_WALL_5",
+    "nearest_distance": 0.4908255338668823
+  },
+  {
+    "finding": {
+      "region": "GH",
+      "canonical": [
+        474,
+        434
+      ],
+      "z": 15.184080047607422,
+      "angle": 0
+    },
+    "boundary": 6,
+    "edge": [
+      [
+        462,
+        464
+      ],
+      [
+        462,
+        430
+      ]
+    ],
+    "exit_canonical": [
+      462.0,
+      446.9053955078125
+    ],
+    "nearest": "P10_MAIN_ROOF_FACE_6_EDGE_0",
+    "nearest_distance": 0.2386273294687271
+  },
+  {
+    "finding": {
+      "region": "GH",
+      "canonical": [
+        482,
+        434
+      ],
+      "z": 15.803017539978027,
+      "angle": 0
+    },
+    "boundary": 6,
+    "edge": [
+      [
+        462,
+        464
+      ],
+      [
+        462,
+        430
+      ]
+    ],
+    "exit_canonical": [
+      462.0,
+      455.5090026855469
+    ],
+    "nearest": "R72_HIGH_ATRIUM_WALL_5",
+    "nearest_distance": 0.00742005230858922
+  },
+  {
+    "finding": {
+      "region": "GH",
+      "canonical": [
+        498,
+        402
+      ],
+      "z": 14.346498413085937,
+      "angle": 0
+    },
+    "boundary": 6,
+    "edge": [
+      [
+        462,
+        464
+      ],
+      [
+        462,
+        430
+      ]
+    ],
+    "exit_canonical": [
+      462.0,
+      440.7162170410156
+    ],
+    "nearest": "P10_MAIN_ROOF_FACE_6_EDGE_0",
+    "nearest_distance": 0.3533751368522644
+  },
+  {
+    "finding": {
+      "region": "GH",
+      "canonical": [
+        498,
+        402
+      ],
+      "z": 14.346498413085937,
+      "angle": 120
+    },
+    "boundary": 2,
+    "edge": [
+      [
+        688,
+        430
+      ],
+      [
+        688,
+        464
+      ]
+    ],
+    "exit_canonical": [
+      688.0,
+      445.58001708984375
+    ],
+    "nearest": "P05_MAIN_ATRIUM_BASE_2",
+    "nearest_distance": 0.42337989807128906
+  },
+  {
+    "finding": {
+      "region": "GH",
+      "canonical": [
+        506,
+        402
+      ],
+      "z": 14.96543685913086,
+      "angle": 0
+    },
+    "boundary": 6,
+    "edge": [
+      [
+        462,
+        464
+      ],
+      [
+        462,
+        430
+      ]
+    ],
+    "exit_canonical": [
+      462.0,
+      449.31982421875
+    ],
+    "nearest": "P10_MAIN_ROOF_FACE_6_EDGE_0",
+    "nearest_distance": 0.5927818417549133
+  },
+  {
+    "finding": {
+      "region": "GH",
+      "canonical": [
+        506,
+        402
+      ],
+      "z": 14.96543685913086,
+      "angle": 120
+    },
+    "boundary": 2,
+    "edge": [
+      [
+        688,
+        430
+      ],
+      [
+        688,
+        464
+      ]
+    ],
+    "exit_canonical": [
+      688.0,
+      443.74505615234375
+    ],
+    "nearest": "P10_MAIN_ROOF_FACE_2_EDGE_0",
+    "nearest_distance": 0.14533819258213043
+  },
+  {
+    "finding": {
+      "region": "GH",
+      "canonical": [
+        514,
+        386
+      ],
+      "z": 14.346499366760254,
+      "angle": 0
+    },
+    "boundary": 6,
+    "edge": [
+      [
+        462,
+        464
+      ],
+      [
+        462,
+        430
+      ]
+    ],
+    "exit_canonical": [
+      462.0,
+      441.92340087890625
+    ],
+    "nearest": "P10_MAIN_ROOF_FACE_6_EDGE_0",
+    "nearest_distance": 0.4505026638507843
+  },
+  {
+    "finding": {
+      "region": "GH",
+      "canonical": [
+        522,
+        386
+      ],
+      "z": 14.965438766479492,
+      "angle": 0
+    },
+    "boundary": 6,
+    "edge": [
+      [
+        462,
+        464
+      ],
+      [
+        462,
+        430
+      ]
+    ],
+    "exit_canonical": [
+      462.0,
+      450.52703857421875
+    ],
+    "nearest": "R72_HIGH_ATRIUM_WALL_5",
+    "nearest_distance": 0.5992609858512878
+  },
+  {
+    "finding": {
+      "region": "GH",
+      "canonical": [
+        530,
+        370
+      ],
+      "z": 14.346498413085937,
+      "angle": 0
+    },
+    "boundary": 6,
+    "edge": [
+      [
+        462,
+        464
+      ],
+      [
+        462,
+        430
+      ]
+    ],
+    "exit_canonical": [
+      462.0,
+      443.130615234375
+    ],
+    "nearest": "P10_MAIN_ROOF_FACE_6_EDGE_0",
+    "nearest_distance": 0.5477315187454224
+  },
+  {
+    "finding": {
+      "region": "GH",
+      "canonical": [
+        530,
+        370
+      ],
+      "z": 14.346498413085937,
+      "angle": 105
+    },
+    "boundary": 2,
+    "edge": [
+      [
+        688,
+        430
+      ],
+      [
+        688,
+        464
+      ]
+    ],
+    "exit_canonical": [
+      688.0,
+      453.7216796875
+    ],
+    "nearest": "R72_HIGH_ATRIUM_WALL_3",
+    "nearest_distance": 0.38945308327674866
+  },
+  {
+    "finding": {
+      "region": "GH",
+      "canonical": [
+        538,
+        370
+      ],
+      "z": 14.965437812805176,
+      "angle": 0
+    },
+    "boundary": 6,
+    "edge": [
+      [
+        462,
+        464
+      ],
+      [
+        462,
+        430
+      ]
+    ],
+    "exit_canonical": [
+      462.0,
+      451.7342224121094
+    ],
+    "nearest": "R72_HIGH_ATRIUM_WALL_5",
+    "nearest_distance": 0.4558517038822174
+  },
+  {
+    "finding": {
+      "region": "GH",
+      "canonical": [
+        538,
+        370
+      ],
+      "z": 14.965437812805176,
+      "angle": 105
+    },
+    "boundary": 2,
+    "edge": [
+      [
+        688,
+        430
+      ],
+      [
+        688,
+        464
+      ]
+    ],
+    "exit_canonical": [
+      688.0,
+      449.48260498046875
+    ],
+    "nearest": "P10_MAIN_ROOF_FACE_2_EDGE_0",
+    "nearest_distance": 0.605898380279541
+  },
+  {
+    "finding": {
+      "region": "GH",
+      "canonical": [
+        546,
+        354
+      ],
+      "z": 14.346499366760254,
+      "angle": 0
+    },
+    "boundary": 6,
+    "edge": [
+      [
+        462,
+        464
+      ],
+      [
+        462,
+        430
+      ]
+    ],
+    "exit_canonical": [
+      462.0,
+      444.33782958984375
+    ],
+    "nearest": "P10_MAIN_ROOF_FACE_6_EDGE_0",
+    "nearest_distance": 0.6450130939483643
+  },
+  {
+    "finding": {
+      "region": "GH",
+      "canonical": [
+        554,
+        354
+      ],
+      "z": 14.965437812805176,
+      "angle": 0
+    },
+    "boundary": 6,
+    "edge": [
+      [
+        462,
+        464
+      ],
+      [
+        462,
+        430
+      ]
+    ],
+    "exit_canonical": [
+      462.0,
+      452.9414367675781
+    ],
+    "nearest": "R72_HIGH_ATRIUM_WALL_5",
+    "nearest_distance": 0.31243857741355896
+  },
+  {
+    "finding": {
+      "region": "GH",
+      "canonical": [
+        562,
+        338
+      ],
+      "z": 14.131108207702637,
+      "angle": 0
+    },
+    "boundary": 6,
+    "edge": [
+      [
+        462,
+        464
+      ],
+      [
+        462,
+        430
+      ]
+    ],
+    "exit_canonical": [
+      462.0,
+      445.5450439453125
+    ],
+    "nearest": "P10_MAIN_ROOF_FACE_6_EDGE_0",
+    "nearest_distance": 0.9003090858459473
+  },
+  {
+    "finding": {
+      "region": "GH",
+      "canonical": [
+        562,
+        338
+      ],
+      "z": 14.131108207702637,
+      "angle": 90
+    },
+    "boundary": 2,
+    "edge": [
+      [
+        688,
+        430
+      ],
+      [
+        688,
+        464
+      ]
+    ],
+    "exit_canonical": [
+      688.0,
+      455.16162109375
+    ],
+    "nearest": "P05_MAIN_ATRIUM_BASE_2",
+    "nearest_distance": 0.20798969268798828
+  },
+  {
+    "finding": {
+      "region": "GH",
+      "canonical": [
+        570,
+        338
+      ],
+      "z": 14.13110725402832,
+      "angle": 0
+    },
+    "boundary": 6,
+    "edge": [
+      [
+        462,
+        464
+      ],
+      [
+        462,
+        430
+      ]
+    ],
+    "exit_canonical": [
+      462.0,
+      454.14862060546875
+    ],
+    "nearest": "R72_HIGH_ATRIUM_WALL_5",
+    "nearest_distance": 0.1690286546945572
+  },
+  {
+    "finding": {
+      "region": "GH",
+      "canonical": [
+        570,
+        338
+      ],
+      "z": 14.13110725402832,
+      "angle": 90
+    },
+    "boundary": 2,
+    "edge": [
+      [
+        688,
+        430
+      ],
+      [
+        688,
+        464
+      ]
+    ],
+    "exit_canonical": [
+      688.0,
+      447.7227783203125
+    ],
+    "nearest": "P05_MAIN_ATRIUM_BASE_2",
+    "nearest_distance": 0.20798873901367188
+  },
+  {
+    "finding": {
+      "region": "GH",
+      "canonical": [
+        578,
+        338
+      ],
+      "z": 14.13110725402832,
+      "angle": 90
+    },
+    "boundary": 2,
+    "edge": [
+      [
+        688,
+        430
+      ],
+      [
+        688,
+        464
+      ]
+    ],
+    "exit_canonical": [
+      688.0,
+      440.283935546875
+    ],
+    "nearest": "P05_MAIN_ATRIUM_BASE_2",
+    "nearest_distance": 0.20798873901367188
+  },
+  {
+    "finding": {
+      "region": "GH",
+      "canonical": [
+        578,
+        354
+      ],
+      "z": 15.368987007141113,
+      "angle": 90
+    },
+    "boundary": 2,
+    "edge": [
+      [
+        688,
+        430
+      ],
+      [
+        688,
+        464
+      ]
+    ],
+    "exit_canonical": [
+      688.0,
+      456.283935546875
+    ],
+    "nearest": "R72_HIGH_ATRIUM_WALL_3",
+    "nearest_distance": 0.0850658118724823
+  },
+  {
+    "finding": {
+      "region": "GH",
+      "canonical": [
+        666,
+        434
+      ],
+      "z": 15.957755966186523,
+      "angle": 90
+    },
+    "boundary": 2,
+    "edge": [
+      [
+        688,
+        430
+      ],
+      [
+        688,
+        464
+      ]
+    ],
+    "exit_canonical": [
+      688.0,
+      454.456787109375
+    ],
+    "nearest": "P10_MAIN_ROOF_FACE_2_EDGE_0",
+    "nearest_distance": 0.2797986567020416
+  },
+  {
+    "finding": {
+      "region": "GH",
+      "canonical": [
+        674,
+        442
+      ],
+      "z": 16.218286437988283,
+      "angle": 90
+    },
+    "boundary": 2,
+    "edge": [
+      [
+        688,
+        430
+      ],
+      [
+        688,
+        464
+      ]
+    ],
+    "exit_canonical": [
+      688.0,
+      455.0179443359375
+    ],
+    "nearest": "P10_MAIN_ROOF_FACE_2_EDGE_0",
+    "nearest_distance": 0.13560135662555695
+  },
+  {
+    "finding": {
+      "region": "GH",
+      "canonical": [
+        682,
+        442
+      ],
+      "z": 15.59934513092041,
+      "angle": 75
+    },
+    "boundary": 2,
+    "edge": [
+      [
+        688,
+        430
+      ],
+      [
+        688,
+        464
+      ]
+    ],
+    "exit_canonical": [
+      688.0,
+      451.57159423828125
+    ],
+    "nearest": "P10_MAIN_ROOF_FACE_2_EDGE_0",
+    "nearest_distance": 0.309902548789978
+  },
+  {
+    "finding": {
+      "region": "GH",
+      "canonical": [
+        682,
+        442
+      ],
+      "z": 15.59934513092041,
+      "angle": 315
+    },
+    "boundary": 6,
+    "edge": [
+      [
+        462,
+        464
+      ],
+      [
+        462,
+        430
+      ]
+    ],
+    "exit_canonical": [
+      462.0,
+      449.9965515136719
+    ],
+    "nearest": "P10_MAIN_ROOF_FACE_6_EDGE_0",
+    "nearest_distance": 0.18382516503334045
+  },
+  {
+    "finding": {
+      "region": "ENT",
+      "canonical": [
+        533,
+        655
+      ],
+      "z": 0.15,
+      "angle": 75
+    },
+    "boundary": 5,
+    "edge": [
+      [
+        557,
+        690
+      ],
+      [
+        537,
+        710
+      ]
+    ],
+    "exit_canonical": [
+      555.7337036132812,
+      691.2662963867188
+    ],
+    "nearest": "P05_FLOOR_L00_ENT",
+    "nearest_distance": 0.15000000596046448
+  },
+  {
+    "finding": {
+      "region": "ENT",
+      "canonical": [
+        533,
+        687
+      ],
+      "z": 0.15,
+      "angle": 90
+    },
+    "boundary": 5,
+    "edge": [
+      [
+        557,
+        690
+      ],
+      [
+        537,
+        710
+      ]
+    ],
+    "exit_canonical": [
+      546.99072265625,
+      700.00927734375
+    ],
+    "nearest": "P05_FLOOR_L00_ENT",
+    "nearest_distance": 0.15000000596046448
+  },
+  {
+    "finding": {
+      "region": "ENT",
+      "canonical": [
+        533,
+        703
+      ],
+      "z": 0.15,
+      "angle": 90
+    },
+    "boundary": 5,
+    "edge": [
+      [
+        557,
+        690
+      ],
+      [
+        537,
+        710
+      ]
+    ],
+    "exit_canonical": [
+      538.6998901367188,
+      708.3001098632812
+    ],
+    "nearest": "P05_FLOOR_L00_ENT",
+    "nearest_distance": 0.15000000596046448
+  },
+  {
+    "finding": {
+      "region": "ENT",
+      "canonical": [
+        533,
+        703
+      ],
+      "z": 0.15,
+      "angle": 105
+    },
+    "boundary": 5,
+    "edge": [
+      [
+        557,
+        690
+      ],
+      [
+        537,
+        710
+      ]
+    ],
+    "exit_canonical": [
+      540.1900634765625,
+      706.8099365234375
+    ],
+    "nearest": "P05_FLOOR_L00_ENT",
+    "nearest_distance": 0.15000000596046448
+  },
+  {
+    "finding": {
+      "region": "ENT",
+      "canonical": [
+        541,
+        695
+      ],
+      "z": 0.15,
+      "angle": 90
+    },
+    "boundary": 5,
+    "edge": [
+      [
+        557,
+        690
+      ],
+      [
+        537,
+        710
+      ]
+    ],
+    "exit_canonical": [
+      546.6998901367188,
+      700.3001098632812
+    ],
+    "nearest": "P05_FLOOR_L00_ENT",
+    "nearest_distance": 0.15000000596046448
+  },
+  {
+    "finding": {
+      "region": "ENT",
+      "canonical": [
+        557,
+        687
+      ],
+      "z": 0.15,
+      "angle": 15
+    },
+    "boundary": 5,
+    "edge": [
+      [
+        557,
+        690
+      ],
+      [
+        537,
+        710
+      ]
+    ],
+    "exit_canonical": [
+      553.6187133789062,
+      693.3812866210938
+    ],
+    "nearest": "P05_FLOOR_L00_ENT",
+    "nearest_distance": 0.15000000596046448
+  },
+  {
+    "finding": {
+      "region": "ENT",
+      "canonical": [
+        573,
+        655
+      ],
+      "z": 0.15,
+      "angle": 15
+    },
+    "boundary": 5,
+    "edge": [
+      [
+        557,
+        690
+      ],
+      [
+        537,
+        710
+      ]
+    ],
+    "exit_canonical": [
+      551.5853271484375,
+      695.4146728515625
+    ],
+    "nearest": "P05_FLOOR_L00_ENT",
+    "nearest_distance": 0.15000000596046448
+  },
+  {
+    "finding": {
+      "region": "ENT",
+      "canonical": [
+        573,
+        655
+      ],
+      "z": 0.15,
+      "angle": 75
+    },
+    "boundary": 4,
+    "edge": [
+      [
+        595,
+        690
+      ],
+      [
+        557,
+        690
+      ]
+    ],
+    "exit_canonical": [
+      594.93994140625,
+      690.0
+    ],
+    "nearest": "P05_FLOOR_L00_ENT",
+    "nearest_distance": 0.15000000596046448
+  },
+  {
+    "finding": {
+      "region": "ENT",
+      "canonical": [
+        581,
+        647
+      ],
+      "z": 0.15,
+      "angle": 15
+    },
+    "boundary": 4,
+    "edge": [
+      [
+        595,
+        690
+      ],
+      [
+        557,
+        690
+      ]
+    ],
+    "exit_canonical": [
+      558.2154541015625,
+      690.0
+    ],
+    "nearest": "P05_FLOOR_L00_ENT",
+    "nearest_distance": 0.15000000596046448
+  },
+  {
+    "finding": {
+      "region": "ENT",
+      "canonical": [
+        589,
+        623
+      ],
+      "z": 0.15,
+      "angle": 15
+    },
+    "boundary": 5,
+    "edge": [
+      [
+        557,
+        690
+      ],
+      [
+        537,
+        710
+      ]
+    ],
+    "exit_canonical": [
+      549.5518798828125,
+      697.4481201171875
+    ],
+    "nearest": "P05_FLOOR_L00_ENT",
+    "nearest_distance": 0.15000000596046448
+  },
+  {
+    "finding": {
+      "region": "ENT",
+      "canonical": [
+        597,
+        615
+      ],
+      "z": 0.15,
+      "angle": 15
+    },
+    "boundary": 4,
+    "edge": [
+      [
+        595,
+        690
+      ],
+      [
+        557,
+        690
+      ]
+    ],
+    "exit_canonical": [
+      557.2594604492188,
+      690.0
+    ],
+    "nearest": "P05_FLOOR_L00_ENT",
+    "nearest_distance": 0.15000000596046448
+  },
+  {
+    "finding": {
+      "region": "ENT",
+      "canonical": [
+        605,
+        687
+      ],
+      "z": 0.15,
+      "angle": 0
+    },
+    "boundary": 3,
+    "edge": [
+      [
+        617,
+        710
+      ],
+      [
+        595,
+        690
+      ]
+    ],
+    "exit_canonical": [
+      598.907470703125,
+      693.55224609375
+    ],
+    "nearest": "P05_FLOOR_L00_ENT",
+    "nearest_distance": 0.15000000596046448
+  },
+  {
+    "finding": {
+      "region": "ENT",
+      "canonical": [
+        613,
+        687
+      ],
+      "z": 0.15,
+      "angle": 0
+    },
+    "boundary": 3,
+    "edge": [
+      [
+        617,
+        710
+      ],
+      [
+        595,
+        690
+      ]
+    ],
+    "exit_canonical": [
+      603.2427368164062,
+      697.493408203125
+    ],
+    "nearest": "P05_FLOOR_L00_ENT",
+    "nearest_distance": 0.15000000596046448
+  },
+  {
+    "finding": {
+      "region": "ENT",
+      "canonical": [
+        613,
+        703
+      ],
+      "z": 0.15,
+      "angle": 0
+    },
+    "boundary": 3,
+    "edge": [
+      [
+        617,
+        710
+      ],
+      [
+        595,
+        690
+      ]
+    ],
+    "exit_canonical": [
+      611.3050537109375,
+      704.8228149414062
+    ],
+    "nearest": "P05_FLOOR_L00_ENT",
+    "nearest_distance": 0.15000000596046448
+  },
+  {
+    "finding": {
+      "region": "ENT",
+      "canonical": [
+        613,
+        703
+      ],
+      "z": 0.15,
+      "angle": 345
+    },
+    "boundary": 3,
+    "edge": [
+      [
+        617,
+        710
+      ],
+      [
+        595,
+        690
+      ]
+    ],
+    "exit_canonical": [
+      610.81005859375,
+      704.372802734375
+    ],
+    "nearest": "P05_FLOOR_L00_ENT",
+    "nearest_distance": 0.15000000596046448
+  },
+  {
+    "finding": {
+      "region": "ENT",
+      "canonical": [
+        637,
+        695
+      ],
+      "z": 0.15,
+      "angle": 345
+    },
+    "boundary": 3,
+    "edge": [
+      [
+        617,
+        710
+      ],
+      [
+        595,
+        690
+      ]
+    ],
+    "exit_canonical": [
+      615.3965454101562,
+      708.5422973632812
+    ],
+    "nearest": "P05_FLOOR_L00_ENT",
+    "nearest_distance": 0.15000000596046448
+  },
+  {
+    "finding": {
+      "region": "ENT",
+      "canonical": [
+        645,
+        687
+      ],
+      "z": 0.15,
+      "angle": 345
+    },
+    "boundary": 3,
+    "edge": [
+      [
+        617,
+        710
+      ],
+      [
+        595,
+        690
+      ]
+    ],
+    "exit_canonical": [
+      613.4530029296875,
+      706.7755126953125
+    ],
+    "nearest": "P05_FLOOR_L00_ENT",
+    "nearest_distance": 0.15000000596046448
+  },
+  {
+    "finding": {
+      "region": "ENT",
+      "canonical": [
+        685,
+        663
+      ],
+      "z": 0.15,
+      "angle": 345
+    },
+    "boundary": 3,
+    "edge": [
+      [
+        617,
+        710
+      ],
+      [
+        595,
+        690
+      ]
+    ],
+    "exit_canonical": [
+      614.1524658203125,
+      707.411376953125
+    ],
+    "nearest": "P05_FLOOR_L00_ENT",
+    "nearest_distance": 0.15000000596046448
+  },
+  {
+    "finding": {
+      "region": "WEST_CAFE",
+      "canonical": [
+        740,
+        269
+      ],
+      "z": 3.850115222930908,
+      "angle": 135
+    },
+    "boundary": 33,
+    "edge": [
+      [
+        862,
+        258
+      ],
+      [
+        688,
+        432
+      ]
+    ],
+    "exit_canonical": [
+      855.1868286132812,
+      264.8132019042969
+    ],
+    "nearest": "R82_ENTRY_GLASS_1",
+    "nearest_distance": 0.6501152515411377
+  },
+  {
+    "finding": {
+      "region": "WEST_CAFE",
+      "canonical": [
+        740,
+        301
+      ],
+      "z": 6.124923629760742,
+      "angle": 150
+    },
+    "boundary": 33,
+    "edge": [
+      [
+        862,
+        258
+      ],
+      [
+        688,
+        432
+      ]
+    ],
+    "exit_canonical": [
+      854.045166015625,
+      265.954833984375
+    ],
+    "nearest": "R82_ENTRY_INNER_WALL",
+    "nearest_distance": 0.8476069569587708
+  },
+  {
+    "finding": {
+      "region": "WEST_CAFE",
+      "canonical": [
+        748,
+        269
+      ],
+      "z": 4.517968578338623,
+      "angle": 135
+    },
+    "boundary": 33,
+    "edge": [
+      [
+        862,
+        258
+      ],
+      [
+        688,
+        432
+      ]
+    ],
+    "exit_canonical": [
+      854.8850708007812,
+      265.11492919921875
+    ],
+    "nearest": "P05_WEST_END",
+    "nearest_distance": 0.8395859599113464
+  },
+  {
+    "finding": {
+      "region": "WEST_CAFE",
+      "canonical": [
+        748,
+        301
+      ],
+      "z": 6.69337646484375,
+      "angle": 150
+    },
+    "boundary": 33,
+    "edge": [
+      [
+        862,
+        258
+      ],
+      [
+        688,
+        432
+      ]
+    ],
+    "exit_canonical": [
+      850.4962768554688,
+      269.50372314453125
+    ],
+    "nearest": "R82_ENTRY_INNER_WALL",
+    "nearest_distance": 0.2513807713985443
+  },
+  {
+    "finding": {
+      "region": "WEST_CAFE",
+      "canonical": [
+        756,
+        245
+      ],
+      "z": 3.404302759170532,
+      "angle": 120
+    },
+    "boundary": 33,
+    "edge": [
+      [
+        862,
+        258
+      ],
+      [
+        688,
+        432
+      ]
+    ],
+    "exit_canonical": [
+      852.7976684570312,
+      267.20233154296875
+    ],
+    "nearest": "R82_ENTRY_GLASS_1",
+    "nearest_distance": 0.20430278778076172
+  },
+  {
+    "finding": {
+      "region": "WEST_CAFE",
+      "canonical": [
+        764,
+        269
+      ],
+      "z": 5.766736907958984,
+      "angle": 135
+    },
+    "boundary": 33,
+    "edge": [
+      [
+        862,
+        258
+      ],
+      [
+        688,
+        432
+      ]
+    ],
+    "exit_canonical": [
+      854.2815551757812,
+      265.71844482421875
+    ],
+    "nearest": "R82_ENTRY_INNER_WALL",
+    "nearest_distance": 0.8873212933540344
+  },
+  {
+    "finding": {
+      "region": "WEST_CAFE",
+      "canonical": [
+        772,
+        253
+      ],
+      "z": 5.153335494995117,
+      "angle": 120
+    },
+    "boundary": 33,
+    "edge": [
+      [
+        862,
+        258
+      ],
+      [
+        688,
+        432
+      ]
+    ],
+    "exit_canonical": [
+      849.2754516601562,
+      270.72454833984375
+    ],
+    "nearest": "R82_ENTRY_INNER_WALL",
+    "nearest_distance": 0.04627799987792969
+  },
+  {
+    "finding": {
+      "region": "WEST_CAFE",
+      "canonical": [
+        772,
+        269
+      ],
+      "z": 6.3355168533325195,
+      "angle": 135
+    },
+    "boundary": 33,
+    "edge": [
+      [
+        862,
+        258
+      ],
+      [
+        688,
+        432
+      ]
+    ],
+    "exit_canonical": [
+      853.9797973632812,
+      266.02020263671875
+    ],
+    "nearest": "R82_ENTRY_INNER_WALL",
+    "nearest_distance": 0.8366248607635498
+  },
+  {
+    "finding": {
+      "region": "WEST_CAFE",
+      "canonical": [
+        780,
+        221
+      ],
+      "z": 0.15,
+      "angle": 75
+    },
+    "boundary": 33,
+    "edge": [
+      [
+        862,
+        258
+      ],
+      [
+        688,
+        432
+      ]
+    ],
+    "exit_canonical": [
+      825.8527221679688,
+      294.1472473144531
+    ],
+    "nearest": "P05_FLOOR_L00_WEST_CAFE",
+    "nearest_distance": 0.15000000596046448
+  },
+  {
+    "finding": {
+      "region": "WEST_CAFE",
+      "canonical": [
+        780,
+        221
+      ],
+      "z": 2.1,
+      "angle": 75
+    },
+    "boundary": 33,
+    "edge": [
+      [
+        862,
+        258
+      ],
+      [
+        688,
+        432
+      ]
+    ],
+    "exit_canonical": [
+      825.8527221679688,
+      294.1472473144531
+    ],
+    "nearest": "P05_FLOOR_L00_WEST_CAFE",
+    "nearest_distance": 2.0999999046325684
+  },
+  {
+    "finding": {
+      "region": "WEST_CAFE",
+      "canonical": [
+        780,
+        221
+      ],
+      "z": 3.304519338607788,
+      "angle": 75
+    },
+    "boundary": 33,
+    "edge": [
+      [
+        862,
+        258
+      ],
+      [
+        688,
+        432
+      ]
+    ],
+    "exit_canonical": [
+      825.8527221679688,
+      294.1472473144531
+    ],
+    "nearest": "P05_FLOOR_L00_WEST_CAFE",
+    "nearest_distance": 3.3045194149017334
+  },
+  {
+    "finding": {
+      "region": "WEST_CAFE",
+      "canonical": [
+        780,
+        221
+      ],
+      "z": 3.304519338607788,
+      "angle": 105
+    },
+    "boundary": 33,
+    "edge": [
+      [
+        862,
+        258
+      ],
+      [
+        688,
+        432
+      ]
+    ],
+    "exit_canonical": [
+      857.78369140625,
+      262.21630859375
+    ],
+    "nearest": "R82_ENTRY_GLASS_1",
+    "nearest_distance": 0.10451936721801758
+  },
+  {
+    "finding": {
+      "region": "WEST_CAFE",
+      "canonical": [
+        780,
+        253
+      ],
+      "z": 5.684142990112305,
+      "angle": 120
+    },
+    "boundary": 33,
+    "edge": [
+      [
+        862,
+        258
+      ],
+      [
+        688,
+        432
+      ]
+    ],
+    "exit_canonical": [
+      850.76806640625,
+      269.2319641113281
+    ],
+    "nearest": "R82_ENTRY_INNER_WALL",
+    "nearest_distance": 0.2970404326915741
+  },
+  {
+    "finding": {
+      "region": "WEST_CAFE",
+      "canonical": [
+        780,
+        269
+      ],
+      "z": 6.875744743347168,
+      "angle": 135
+    },
+    "boundary": 33,
+    "edge": [
+      [
+        862,
+        258
+      ],
+      [
+        688,
+        432
+      ]
+    ],
+    "exit_canonical": [
+      853.6780395507812,
+      266.32196044921875
+    ],
+    "nearest": "R82_ENTRY_INNER_WALL",
+    "nearest_distance": 0.7859283089637756
+  },
+  {
+    "finding": {
+      "region": "WEST_CAFE",
+      "canonical": [
+        788,
+        237
+      ],
+      "z": 0.15,
+      "angle": 75
+    },
+    "boundary": 33,
+    "edge": [
+      [
+        862,
+        258
+      ],
+      [
+        688,
+        432
+      ]
+    ],
+    "exit_canonical": [
+      824.6051025390625,
+      295.3948669433594
+    ],
+    "nearest": "P05_FLOOR_L00_WEST_CAFE",
+    "nearest_distance": 0.15000000596046448
+  },
+  {
+    "finding": {
+      "region": "WEST_CAFE",
+      "canonical": [
+        788,
+        237
+      ],
+      "z": 2.1,
+      "angle": 75
+    },
+    "boundary": 33,
+    "edge": [
+      [
+        862,
+        258
+      ],
+      [
+        688,
+        432
+      ]
+    ],
+    "exit_canonical": [
+      824.6051025390625,
+      295.3948669433594
+    ],
+    "nearest": "P05_FLOOR_L00_WEST_CAFE",
+    "nearest_distance": 2.0999999046325684
+  },
+  {
+    "finding": {
+      "region": "WEST_CAFE",
+      "canonical": [
+        788,
+        237
+      ],
+      "z": 4.991412086486816,
+      "angle": 105
+    },
+    "boundary": 33,
+    "edge": [
+      [
+        862,
+        258
+      ],
+      [
+        688,
+        432
+      ]
+    ],
+    "exit_canonical": [
+      850.09619140625,
+      269.9037780761719
+    ],
+    "nearest": "R82_ENTRY_INNER_WALL",
+    "nearest_distance": 0.18416717648506165
+  },
+  {
+    "finding": {
+      "region": "WEST_CAFE",
+      "canonical": [
+        788,
+        253
+      ],
+      "z": 6.188789291381836,
+      "angle": 120
+    },
+    "boundary": 33,
+    "edge": [
+      [
+        862,
+        258
+      ],
+      [
+        688,
+        432
+      ]
+    ],
+    "exit_canonical": [
+      852.2606201171875,
+      267.7393493652344
+    ],
+    "nearest": "R82_ENTRY_INNER_WALL",
+    "nearest_distance": 0.5477989315986633
+  },
+  {
+    "finding": {
+      "region": "WEST_CAFE",
+      "canonical": [
+        788,
+        269
+      ],
+      "z": 7.2645472717285156,
+      "angle": 135
+    },
+    "boundary": 33,
+    "edge": [
+      [
+        862,
+        258
+      ],
+      [
+        688,
+        432
+      ]
+    ],
+    "exit_canonical": [
+      853.3762817382812,
+      266.6236877441406
+    ],
+    "nearest": "R82_ENTRY_INNER_WALL",
+    "nearest_distance": 0.7352356314659119
+  },
+  {
+    "finding": {
+      "region": "WEST_CAFE",
+      "canonical": [
+        796,
+        237
+      ],
+      "z": 5.46168701171875,
+      "angle": 105
+    },
+    "boundary": 33,
+    "edge": [
+      [
+        862,
+        258
+      ],
+      [
+        688,
+        432
+      ]
+    ],
+    "exit_canonical": [
+      852.8670654296875,
+      267.1329345703125
+    ],
+    "nearest": "R82_ENTRY_INNER_WALL",
+    "nearest_distance": 0.6496843099594116
+  },
+  {
+    "finding": {
+      "region": "WEST_CAFE",
+      "canonical": [
+        796,
+        253
+      ],
+      "z": 6.659702224731445,
+      "angle": 120
+    },
+    "boundary": 33,
+    "edge": [
+      [
+        862,
+        258
+      ],
+      [
+        688,
+        432
+      ]
+    ],
+    "exit_canonical": [
+      853.7532348632812,
+      266.24676513671875
+    ],
+    "nearest": "R82_ENTRY_INNER_WALL",
+    "nearest_distance": 0.7985633611679077
+  },
+  {
+    "finding": {
+      "region": "WEST_CAFE",
+      "canonical": [
+        796,
+        269
+      ],
+      "z": 7.853448791503906,
+      "angle": 135
+    },
+    "boundary": 33,
+    "edge": [
+      [
+        862,
+        258
+      ],
+      [
+        688,
+        432
+      ]
+    ],
+    "exit_canonical": [
+      853.0745239257812,
+      266.9254455566406
+    ],
+    "nearest": "R82_ENTRY_INNER_WALL",
+    "nearest_distance": 0.6845391988754272
+  },
+  {
+    "finding": {
+      "region": "WEST_CAFE",
+      "canonical": [
+        796,
+        285
+      ],
+      "z": 9.05044548034668,
+      "angle": 150
+    },
+    "boundary": 33,
+    "edge": [
+      [
+        862,
+        258
+      ],
+      [
+        688,
+        432
+      ]
+    ],
+    "exit_canonical": [
+      852.30078125,
+      267.69921875
+    ],
+    "nearest": "R82_ENTRY_INNER_WALL",
+    "nearest_distance": 0.5545440912246704
+  },
+  {
+    "finding": {
+      "region": "WEST_CAFE",
+      "canonical": [
+        804,
+        237
+      ],
+      "z": 5.894911689758301,
+      "angle": 105
+    },
+    "boundary": 33,
+    "edge": [
+      [
+        862,
+        258
+      ],
+      [
+        688,
+        432
+      ]
+    ],
+    "exit_canonical": [
+      855.6378784179688,
+      264.3620910644531
+    ],
+    "nearest": "P05_WEST_END",
+    "nearest_distance": 0.726028561592102
+  },
+  {
+    "finding": {
+      "region": "WEST_CAFE",
+      "canonical": [
+        804,
+        253
+      ],
+      "z": 7.090884132385254,
+      "angle": 120
+    },
+    "boundary": 33,
+    "edge": [
+      [
+        862,
+        258
+      ],
+      [
+        688,
+        432
+      ]
+    ],
+    "exit_canonical": [
+      855.245849609375,
+      264.7541809082031
+    ],
+    "nearest": "P05_WEST_END",
+    "nearest_distance": 0.7846732139587402
+  },
+  {
+    "finding": {
+      "region": "WEST_CAFE",
+      "canonical": [
+        804,
+        269
+      ],
+      "z": 8.287182731628418,
+      "angle": 135
+    },
+    "boundary": 33,
+    "edge": [
+      [
+        862,
+        258
+      ],
+      [
+        688,
+        432
+      ]
+    ],
+    "exit_canonical": [
+      852.7727661132812,
+      267.2272033691406
+    ],
+    "nearest": "R82_ENTRY_INNER_WALL",
+    "nearest_distance": 0.6338427662849426
+  },
+  {
+    "finding": {
+      "region": "WEST_CAFE",
+      "canonical": [
+        812,
+        245
+      ],
+      "z": 6.8946131896972656,
+      "angle": 105
+    },
+    "boundary": 33,
+    "edge": [
+      [
+        862,
+        258
+      ],
+      [
+        688,
+        432
+      ]
+    ],
+    "exit_canonical": [
+      853.1795654296875,
+      266.8204040527344
+    ],
+    "nearest": "R82_ENTRY_INNER_WALL",
+    "nearest_distance": 0.7021861672401428
+  },
+  {
+    "finding": {
+      "region": "WEST_CAFE",
+      "canonical": [
+        812,
+        261
+      ],
+      "z": 8.08932201385498,
+      "angle": 120
+    },
+    "boundary": 33,
+    "edge": [
+      [
+        862,
+        258
+      ],
+      [
+        688,
+        432
+      ]
+    ],
+    "exit_canonical": [
+      850.2310180664062,
+      269.76898193359375
+    ],
+    "nearest": "R82_ENTRY_INNER_WALL",
+    "nearest_distance": 0.2068166732788086
+  },
+  {
+    "finding": {
+      "region": "WEST_CAFE",
+      "canonical": [
+        820,
+        205
+      ],
+      "z": 0.15,
+      "angle": 60
+    },
+    "boundary": 33,
+    "edge": [
+      [
+        862,
+        258
+      ],
+      [
+        688,
+        432
+      ]
+    ],
+    "exit_canonical": [
+      842.330810546875,
+      277.669189453125
+    ],
+    "nearest": "P05_FLOOR_L00_WEST_CAFE",
+    "nearest_distance": 0.15000000596046448
+  },
+  {
+    "finding": {
+      "region": "WEST_CAFE",
+      "canonical": [
+        820,
+        205
+      ],
+      "z": 2.1,
+      "angle": 60
+    },
+    "boundary": 33,
+    "edge": [
+      [
+        862,
+        258
+      ],
+      [
+        688,
+        432
+      ]
+    ],
+    "exit_canonical": [
+      842.330810546875,
+      277.669189453125
+    ],
+    "nearest": "R82_ENTRY_INNER_WALL",
+    "nearest_distance": 0.8204474449157715
+  },
+  {
+    "finding": {
+      "region": "WEST_CAFE",
+      "canonical": [
+        820,
+        205
+      ],
+      "z": 4.308995170593262,
+      "angle": 60
+    },
+    "boundary": 33,
+    "edge": [
+      [
+        862,
+        258
+      ],
+      [
+        688,
+        432
+      ]
+    ],
+    "exit_canonical": [
+      842.330810546875,
+      277.669189453125
+    ],
+    "nearest": "R82_ENTRY_INNER_WALL",
+    "nearest_distance": 0.8204474449157715
+  },
+  {
+    "finding": {
+      "region": "WEST_CAFE",
+      "canonical": [
+        820,
+        237
+      ],
+      "z": 6.6728581619262695,
+      "angle": 90
+    },
+    "boundary": 33,
+    "edge": [
+      [
+        862,
+        258
+      ],
+      [
+        688,
+        432
+      ]
+    ],
+    "exit_canonical": [
+      852.6449584960938,
+      267.35504150390625
+    ],
+    "nearest": "R82_ENTRY_INNER_WALL",
+    "nearest_distance": 0.6123672723770142
+  },
+  {
+    "finding": {
+      "region": "WEST_CAFE",
+      "canonical": [
+        820,
+        253
+      ],
+      "z": 7.74557201385498,
+      "angle": 105
+    },
+    "boundary": 33,
+    "edge": [
+      [
+        862,
+        258
+      ],
+      [
+        688,
+        432
+      ]
+    ],
+    "exit_canonical": [
+      850.7213134765625,
+      269.2787170410156
+    ],
+    "nearest": "R82_ENTRY_INNER_WALL",
+    "nearest_distance": 0.2891846001148224
+  },
+  {
+    "finding": {
+      "region": "WEST_CAFE",
+      "canonical": [
+        820,
+        285
+      ],
+      "z": 0.15,
+      "angle": 75
+    },
+    "boundary": 33,
+    "edge": [
+      [
+        862,
+        258
+      ],
+      [
+        688,
+        432
+      ]
+    ],
+    "exit_canonical": [
+      825.77978515625,
+      294.2202453613281
+    ],
+    "nearest": "P05_FLOOR_L00_WEST_CAFE",
+    "nearest_distance": 0.15000000596046448
+  },
+  {
+    "finding": {
+      "region": "WEST_CAFE",
+      "canonical": [
+        820,
+        285
+      ],
+      "z": 2.1,
+      "angle": 75
+    },
+    "boundary": 33,
+    "edge": [
+      [
+        862,
+        258
+      ],
+      [
+        688,
+        432
+      ]
+    ],
+    "exit_canonical": [
+      825.77978515625,
+      294.2202453613281
+    ],
+    "nearest": "P05_FLOOR_L00_WEST_CAFE",
+    "nearest_distance": 2.0999999046325684
+  },
+  {
+    "finding": {
+      "region": "WEST_CAFE",
+      "canonical": [
+        820,
+        285
+      ],
+      "z": 10.242110176086426,
+      "angle": 75
+    },
+    "boundary": 33,
+    "edge": [
+      [
+        862,
+        258
+      ],
+      [
+        688,
+        432
+      ]
+    ],
+    "exit_canonical": [
+      825.77978515625,
+      294.2202453613281
+    ],
+    "nearest": "P11_WEST_13_00_05_FRAME_1",
+    "nearest_distance": 0.7305737733840942
+  },
+  {
+    "finding": {
+      "region": "WEST_CAFE",
+      "canonical": [
+        828,
+        229
+      ],
+      "z": 0.15,
+      "angle": 60
+    },
+    "boundary": 33,
+    "edge": [
+      [
+        862,
+        258
+      ],
+      [
+        688,
+        432
+      ]
+    ],
+    "exit_canonical": [
+      842.808837890625,
+      277.191162109375
+    ],
+    "nearest": "P05_FLOOR_L00_WEST_CAFE",
+    "nearest_distance": 0.15000000596046448
+  },
+  {
+    "finding": {
+      "region": "WEST_CAFE",
+      "canonical": [
+        828,
+        229
+      ],
+      "z": 2.1,
+      "angle": 60
+    },
+    "boundary": 33,
+    "edge": [
+      [
+        862,
+        258
+      ],
+      [
+        688,
+        432
+      ]
+    ],
+    "exit_canonical": [
+      842.808837890625,
+      277.191162109375
+    ],
+    "nearest": "R82_ENTRY_INNER_WALL",
+    "nearest_distance": 0.7401370406150818
+  },
+  {
+    "finding": {
+      "region": "WEST_CAFE",
+      "canonical": [
+        828,
+        245
+      ],
+      "z": 7.60380069732666,
+      "angle": 90
+    },
+    "boundary": 33,
+    "edge": [
+      [
+        862,
+        258
+      ],
+      [
+        688,
+        432
+      ]
+    ],
+    "exit_canonical": [
+      852.3541870117188,
+      267.64581298828125
+    ],
+    "nearest": "R82_ENTRY_INNER_WALL",
+    "nearest_distance": 0.5635182857513428
+  },
+  {
+    "finding": {
+      "region": "WEST_CAFE",
+      "canonical": [
+        828,
+        245
+      ],
+      "z": 7.60380069732666,
+      "angle": 105
+    },
+    "boundary": 33,
+    "edge": [
+      [
+        862,
+        258
+      ],
+      [
+        688,
+        432
+      ]
+    ],
+    "exit_canonical": [
+      858.7213134765625,
+      261.2787170410156
+    ],
+    "nearest": "P05_WEST_END",
+    "nearest_distance": 0.32811692357063293
+  },
+  {
+    "finding": {
+      "region": "WEST_CAFE",
+      "canonical": [
+        828,
+        261
+      ],
+      "z": 8.782573623657226,
+      "angle": 120
+    },
+    "boundary": 33,
+    "edge": [
+      [
+        862,
+        258
+      ],
+      [
+        688,
+        432
+      ]
+    ],
+    "exit_canonical": [
+      853.2161865234375,
+      266.7838134765625
+    ],
+    "nearest": "R82_ENTRY_INNER_WALL",
+    "nearest_distance": 0.7083358764648438
+  },
+  {
+    "finding": {
+      "region": "WEST_CAFE",
+      "canonical": [
+        828,
+        277
+      ],
+      "z": 9.965995712280273,
+      "angle": 150
+    },
+    "boundary": 33,
+    "edge": [
+      [
+        862,
+        258
+      ],
+      [
+        688,
+        432
+      ]
+    ],
+    "exit_canonical": [
+      849.6541748046875,
+      270.3458557128906
+    ],
+    "nearest": "R82_ENTRY_INNER_WALL",
+    "nearest_distance": 0.10990148037672043
+  },
+  {
+    "finding": {
+      "region": "WEST_CAFE",
+      "canonical": [
+        836,
+        245
+      ],
+      "z": 0.15,
+      "angle": 60
+    },
+    "boundary": 33,
+    "edge": [
+      [
+        862,
+        258
+      ],
+      [
+        688,
+        432
+      ]
+    ],
+    "exit_canonical": [
+      845.1673583984375,
+      274.8326110839844
+    ],
+    "nearest": "P05_FLOOR_L00_WEST_CAFE",
+    "nearest_distance": 0.15000000596046448
+  },
+  {
+    "finding": {
+      "region": "WEST_CAFE",
+      "canonical": [
+        836,
+        245
+      ],
+      "z": 2.1,
+      "angle": 60
+    },
+    "boundary": 33,
+    "edge": [
+      [
+        862,
+        258
+      ],
+      [
+        688,
+        432
+      ]
+    ],
+    "exit_canonical": [
+      845.1673583984375,
+      274.8326110839844
+    ],
+    "nearest": "R82_ENTRY_INNER_WALL",
+    "nearest_distance": 0.3438948392868042
+  },
+  {
+    "finding": {
+      "region": "WEST_CAFE",
+      "canonical": [
+        836,
+        245
+      ],
+      "z": 7.9073294830322265,
+      "angle": 90
+    },
+    "boundary": 33,
+    "edge": [
+      [
+        862,
+        258
+      ],
+      [
+        688,
+        432
+      ]
+    ],
+    "exit_canonical": [
+      856.2088012695312,
+      263.7912292480469
+    ],
+    "nearest": "P05_WEST_END",
+    "nearest_distance": 0.6431356072425842
+  },
+  {
+    "finding": {
+      "region": "WEST_CAFE",
+      "canonical": [
+        836,
+        261
+      ],
+      "z": 0.15,
+      "angle": 60
+    },
+    "boundary": 33,
+    "edge": [
+      [
+        862,
+        258
+      ],
+      [
+        688,
+        432
+      ]
+    ],
+    "exit_canonical": [
+      841.4064331054688,
+      278.5935974121094
+    ],
+    "nearest": "P05_FLOOR_L00_WEST_CAFE",
+    "nearest_distance": 0.15000000596046448
+  },
+  {
+    "finding": {
+      "region": "WEST_CAFE",
+      "canonical": [
+        836,
+        261
+      ],
+      "z": 2.1,
+      "angle": 60
+    },
+    "boundary": 33,
+    "edge": [
+      [
+        862,
+        258
+      ],
+      [
+        688,
+        432
+      ]
+    ],
+    "exit_canonical": [
+      841.4064331054688,
+      278.5935974121094
+    ],
+    "nearest": "R82_ENTRY_INNER_WALL",
+    "nearest_distance": 0.975750744342804
+  },
+  {
+    "finding": {
+      "region": "WEST_CAFE",
+      "canonical": [
+        836,
+        261
+      ],
+      "z": 9.077296180725098,
+      "angle": 60
+    },
+    "boundary": 33,
+    "edge": [
+      [
+        862,
+        258
+      ],
+      [
+        688,
+        432
+      ]
+    ],
+    "exit_canonical": [
+      841.4064331054688,
+      278.5935974121094
+    ],
+    "nearest": "R82_ENTRY_INNER_WALL",
+    "nearest_distance": 0.975750744342804
+  },
+  {
+    "finding": {
+      "region": "WEST_CAFE",
+      "canonical": [
+        836,
+        261
+      ],
+      "z": 9.077296180725098,
+      "angle": 105
+    },
+    "boundary": 33,
+    "edge": [
+      [
+        862,
+        258
+      ],
+      [
+        688,
+        432
+      ]
+    ],
+    "exit_canonical": [
+      851.0338134765625,
+      268.9661865234375
+    ],
+    "nearest": "R82_ENTRY_INNER_WALL",
+    "nearest_distance": 0.34168848395347595
+  },
+  {
+    "finding": {
+      "region": "WEST_CAFE",
+      "canonical": [
+        836,
+        261
+      ],
+      "z": 9.077296180725098,
+      "angle": 120
+    },
+    "boundary": 33,
+    "edge": [
+      [
+        862,
+        258
+      ],
+      [
+        688,
+        432
+      ]
+    ],
+    "exit_canonical": [
+      854.7088012695312,
+      265.29119873046875
+    ],
+    "nearest": "P11_WEST_16_00_05_FRAME_1",
+    "nearest_distance": 0.716763973236084
+  },
+  {
+    "finding": {
+      "region": "WEST_CAFE",
+      "canonical": [
+        844,
+        261
+      ],
+      "z": 9.343563957214355,
+      "angle": 90
+    },
+    "boundary": 33,
+    "edge": [
+      [
+        862,
+        258
+      ],
+      [
+        688,
+        432
+      ]
+    ],
+    "exit_canonical": [
+      851.7725830078125,
+      268.2273864746094
+    ],
+    "nearest": "R82_ENTRY_INNER_WALL",
+    "nearest_distance": 0.4658089876174927
+  },
+  {
+    "finding": {
+      "region": "WEST_CAFE",
+      "canonical": [
+        844,
+        261
+      ],
+      "z": 9.343563957214355,
+      "angle": 105
+    },
+    "boundary": 33,
+    "edge": [
+      [
+        862,
+        258
+      ],
+      [
+        688,
+        432
+      ]
+    ],
+    "exit_canonical": [
+      853.8046875,
+      266.1953430175781
+    ],
+    "nearest": "P11_WEST_16_00_05_FRAME_1",
+    "nearest_distance": 0.5195330381393433
+  },
+  {
+    "finding": {
+      "region": "WEST_CAFE",
+      "canonical": [
+        844,
+        261
+      ],
+      "z": 9.343563957214355,
+      "angle": 120
+    },
+    "boundary": 33,
+    "edge": [
+      [
+        862,
+        258
+      ],
+      [
+        688,
+        432
+      ]
+    ],
+    "exit_canonical": [
+      856.201416015625,
+      263.7986145019531
+    ],
+    "nearest": "P11_WEST_17_00_05_FRAME_2",
+    "nearest_distance": 0.5002332329750061
+  },
+  {
+    "finding": {
+      "region": "LOWER_FOYER",
+      "canonical": [
+        667,
+        419
+      ],
+      "z": 14.501233978271484,
+      "angle": 75
+    },
+    "boundary": 1,
+    "edge": [
+      [
+        687.3858800773694,
+        334.39748549323014
+      ],
+      [
+        687.3858800773694,
+        460.7456479690522
+      ]
+    ],
+    "exit_canonical": [
+      687.3858642578125,
+      451.5208435058594
+    ],
+    "nearest": "P05_MAIN_ATRIUM_BASE_2",
+    "nearest_distance": 0.5827008485794067
+  },
+  {
+    "finding": {
+      "region": "UPPER_BRIDGE",
+      "canonical": [
+        629,
+        575
+      ],
+      "z": 12.44311897277832,
+      "angle": 195
+    },
+    "boundary": 0,
+    "edge": [
+      [
+        465,
+        555
+      ],
+      [
+        689,
+        555
+      ]
+    ],
+    "exit_canonical": [
+      639.5974731445312,
+      555.0
+    ],
+    "nearest": "P05_MAIN_ROOF_DECK",
+    "nearest_distance": 0.07999897003173828
+  }
+]

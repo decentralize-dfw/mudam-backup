@@ -1,0 +1,466 @@
+[
+  {
+    "finding": {
+      "region": "GH",
+      "canonical": [
+        466,
+        434
+      ],
+      "z": 14.565140647888184,
+      "angle": 15
+    },
+    "rays": [
+      {
+        "da": -0.5,
+        "name": null,
+        "distance": null,
+        "world": null
+      },
+      {
+        "da": -0.1,
+        "name": null,
+        "distance": null,
+        "world": null
+      },
+      {
+        "da": -0.01,
+        "name": null,
+        "distance": null,
+        "world": null
+      },
+      {
+        "da": 0,
+        "name": null,
+        "distance": null,
+        "world": null
+      },
+      {
+        "da": 0.01,
+        "name": null,
+        "distance": null,
+        "world": null
+      },
+      {
+        "da": 0.1,
+        "name": null,
+        "distance": null,
+        "world": null
+      },
+      {
+        "da": 0.5,
+        "name": null,
+        "distance": null,
+        "world": null
+      }
+    ]
+  },
+  {
+    "finding": {
+      "region": "GH",
+      "canonical": [
+        474,
+        434
+      ],
+      "z": 15.184080047607422,
+      "angle": 0
+    },
+    "rays": [
+      {
+        "da": -0.5,
+        "name": null,
+        "distance": null,
+        "world": null
+      },
+      {
+        "da": -0.1,
+        "name": null,
+        "distance": null,
+        "world": null
+      },
+      {
+        "da": -0.01,
+        "name": null,
+        "distance": null,
+        "world": null
+      },
+      {
+        "da": 0,
+        "name": null,
+        "distance": null,
+        "world": null
+      },
+      {
+        "da": 0.01,
+        "name": null,
+        "distance": null,
+        "world": null
+      },
+      {
+        "da": 0.1,
+        "name": null,
+        "distance": null,
+        "world": null
+      },
+      {
+        "da": 0.5,
+        "name": null,
+        "distance": null,
+        "world": null
+      }
+    ]
+  },
+  {
+    "finding": {
+      "region": "ENT",
+      "canonical": [
+        533,
+        655
+      ],
+      "z": 0.15,
+      "angle": 75
+    },
+    "rays": [
+      {
+        "da": -0.5,
+        "name": "R58_GLASS_759554470_09",
+        "distance": 41.50648498535156,
+        "world": [
+          38.52540969848633,
+          64.57511901855469,
+          0.15000000596046448
+        ]
+      },
+      {
+        "da": -0.1,
+        "name": null,
+        "distance": null,
+        "world": null
+      },
+      {
+        "da": -0.01,
+        "name": null,
+        "distance": null,
+        "world": null
+      },
+      {
+        "da": 0,
+        "name": null,
+        "distance": null,
+        "world": null
+      },
+      {
+        "da": 0.01,
+        "name": null,
+        "distance": null,
+        "world": null
+      },
+      {
+        "da": 0.1,
+        "name": null,
+        "distance": null,
+        "world": null
+      },
+      {
+        "da": 0.5,
+        "name": "P12_CORNER_POST_-1_FRONT",
+        "distance": 7.261906147003174,
+        "world": [
+          29.25152015686035,
+          31.60879898071289,
+          0.15000000596046448
+        ]
+      }
+    ]
+  },
+  {
+    "finding": {
+      "region": "WEST_CAFE",
+      "canonical": [
+        740,
+        269
+      ],
+      "z": 3.850115222930908,
+      "angle": 135
+    },
+    "rays": [
+      {
+        "da": -0.5,
+        "name": null,
+        "distance": null,
+        "world": null
+      },
+      {
+        "da": -0.1,
+        "name": null,
+        "distance": null,
+        "world": null
+      },
+      {
+        "da": -0.01,
+        "name": null,
+        "distance": null,
+        "world": null
+      },
+      {
+        "da": 0,
+        "name": null,
+        "distance": null,
+        "world": null
+      },
+      {
+        "da": 0.01,
+        "name": null,
+        "distance": null,
+        "world": null
+      },
+      {
+        "da": 0.1,
+        "name": null,
+        "distance": null,
+        "world": null
+      },
+      {
+        "da": 0.5,
+        "name": null,
+        "distance": null,
+        "world": null
+      }
+    ]
+  },
+  {
+    "finding": {
+      "region": "WEST_CAFE",
+      "canonical": [
+        740,
+        301
+      ],
+      "z": 6.124923629760742,
+      "angle": 150
+    },
+    "rays": [
+      {
+        "da": -0.5,
+        "name": null,
+        "distance": null,
+        "world": null
+      },
+      {
+        "da": -0.1,
+        "name": null,
+        "distance": null,
+        "world": null
+      },
+      {
+        "da": -0.01,
+        "name": null,
+        "distance": null,
+        "world": null
+      },
+      {
+        "da": 0,
+        "name": null,
+        "distance": null,
+        "world": null
+      },
+      {
+        "da": 0.01,
+        "name": null,
+        "distance": null,
+        "world": null
+      },
+      {
+        "da": 0.1,
+        "name": null,
+        "distance": null,
+        "world": null
+      },
+      {
+        "da": 0.5,
+        "name": "P05_WEST_END",
+        "distance": 15.139727592468262,
+        "world": [
+          -33.2861328125,
+          21.404685974121094,
+          6.1249237060546875
+        ]
+      }
+    ]
+  },
+  {
+    "finding": {
+      "region": "WEST_CAFE",
+      "canonical": [
+        780,
+        221
+      ],
+      "z": 0.15,
+      "angle": 75
+    },
+    "rays": [
+      {
+        "da": -0.5,
+        "name": null,
+        "distance": null,
+        "world": null
+      },
+      {
+        "da": -0.1,
+        "name": null,
+        "distance": null,
+        "world": null
+      },
+      {
+        "da": -0.01,
+        "name": null,
+        "distance": null,
+        "world": null
+      },
+      {
+        "da": 0,
+        "name": null,
+        "distance": null,
+        "world": null
+      },
+      {
+        "da": 0.01,
+        "name": null,
+        "distance": null,
+        "world": null
+      },
+      {
+        "da": 0.1,
+        "name": "R14_INNER_WALL_B",
+        "distance": 21.31574058532715,
+        "world": [
+          -24.823820114135742,
+          31.556777954101562,
+          0.15000000596046448
+        ]
+      },
+      {
+        "da": 0.5,
+        "name": "R14_INNER_WALL_B",
+        "distance": 21.282451629638672,
+        "world": [
+          -24.97609519958496,
+          31.56230926513672,
+          0.15000000596046448
+        ]
+      }
+    ]
+  },
+  {
+    "finding": {
+      "region": "WEST_CAFE",
+      "canonical": [
+        812,
+        245
+      ],
+      "z": 6.8946131896972656,
+      "angle": 105
+    },
+    "rays": [
+      {
+        "da": -0.5,
+        "name": null,
+        "distance": null,
+        "world": null
+      },
+      {
+        "da": -0.1,
+        "name": null,
+        "distance": null,
+        "world": null
+      },
+      {
+        "da": -0.01,
+        "name": null,
+        "distance": null,
+        "world": null
+      },
+      {
+        "da": 0,
+        "name": null,
+        "distance": null,
+        "world": null
+      },
+      {
+        "da": 0.01,
+        "name": null,
+        "distance": null,
+        "world": null
+      },
+      {
+        "da": 0.1,
+        "name": null,
+        "distance": null,
+        "world": null
+      },
+      {
+        "da": 0.5,
+        "name": null,
+        "distance": null,
+        "world": null
+      }
+    ]
+  },
+  {
+    "finding": {
+      "region": "UPPER_BRIDGE",
+      "canonical": [
+        629,
+        575
+      ],
+      "z": 12.44311897277832,
+      "angle": 195
+    },
+    "rays": [
+      {
+        "da": -0.5,
+        "name": "P05_GALLERY_HALL_WEST0",
+        "distance": 14.203347206115723,
+        "world": [
+          -1.0434322357177734,
+          22.902042388916016,
+          12.443119049072266
+        ]
+      },
+      {
+        "da": -0.1,
+        "name": null,
+        "distance": null,
+        "world": null
+      },
+      {
+        "da": -0.01,
+        "name": null,
+        "distance": null,
+        "world": null
+      },
+      {
+        "da": 0,
+        "name": null,
+        "distance": null,
+        "world": null
+      },
+      {
+        "da": 0.01,
+        "name": null,
+        "distance": null,
+        "world": null
+      },
+      {
+        "da": 0.1,
+        "name": null,
+        "distance": null,
+        "world": null
+      },
+      {
+        "da": 0.5,
+        "name": null,
+        "distance": null,
+        "world": null
+      }
+    ]
+  }
+]

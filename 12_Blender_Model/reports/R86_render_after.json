@@ -1,0 +1,35 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R86_PAVYON_CAM_KENAR_KAPANISI_v001.blend",
+  "images": [
+    {
+      "image": "R86_after_pavilion_roof.png",
+      "eye_canonical": [
+        25,
+        370,
+        14
+      ],
+      "target_canonical": [
+        139,
+        285,
+        9
+      ],
+      "lens": 38
+    },
+    {
+      "image": "R86_after_pavilion_hip_inside.png",
+      "eye_canonical": [
+        137,
+        275,
+        1.6
+      ],
+      "target_canonical": [
+        139,
+        280,
+        8
+      ],
+      "lens": 28
+    }
+  ],
+  "all_active_surroundings": true,
+  "metric_camera_match": false
+}

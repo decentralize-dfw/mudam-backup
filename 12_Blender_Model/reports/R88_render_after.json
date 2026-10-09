@@ -1,0 +1,36 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R88_BATI_MERDIVEN_CAM_KENAR_v002.blend",
+  "images": [
+    {
+      "image": "R88_after_stair_inside.png",
+      "eye_canonical": [
+        910,
+        346,
+        5.1
+      ],
+      "target_canonical": [
+        891,
+        365,
+        6.2
+      ],
+      "lens": 20
+    },
+    {
+      "image": "R88_after_stair_outside.png",
+      "eye_canonical": [
+        1010,
+        445,
+        30
+      ],
+      "target_canonical": [
+        859,
+        337,
+        10
+      ],
+      "lens": 35
+    }
+  ],
+  "all_active_surroundings": true,
+  "metric_camera_match": false,
+  "temporary_review_light": true
+}

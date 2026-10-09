@@ -1,0 +1,50 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R85_BATI_UST_SAHANLIK_KABUK_v001.blend",
+  "images": [
+    {
+      "image": "R85_after_upper_return_outside.png",
+      "eye_canonical": [
+        920,
+        447,
+        10
+      ],
+      "target_canonical": [
+        851,
+        410,
+        6
+      ],
+      "lens": 35
+    },
+    {
+      "image": "R85_after_upper_return_inside.png",
+      "eye_canonical": [
+        870.5,
+        392.5,
+        6.45
+      ],
+      "target_canonical": [
+        851.5,
+        411.5,
+        6.45
+      ],
+      "lens": 24
+    },
+    {
+      "image": "R85_after_upper_return_corridor.png",
+      "eye_canonical": [
+        847.5,
+        407.5,
+        6.45
+      ],
+      "target_canonical": [
+        814,
+        374,
+        6.45
+      ],
+      "lens": 24
+    }
+  ],
+  "all_active_surroundings": true,
+  "metric_camera_match": false,
+  "temporary_review_light": true
+}

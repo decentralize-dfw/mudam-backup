@@ -1,0 +1,699 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R86_PAVYON_CAM_KENAR_KAPANISI_v001.blend",
+  "solids": [
+    {
+      "name": "R13_SLOPE_0_00_00",
+      "volume_m3": 0.09346882548306926,
+      "nonmanifold_edges": 0,
+      "plane_error_m": 9.55555122344326e-07
+    },
+    {
+      "name": "R13_SLOPE_0_00_01",
+      "volume_m3": 0.06923854264932994,
+      "nonmanifold_edges": 0,
+      "plane_error_m": 9.614631999270429e-07
+    },
+    {
+      "name": "R13_SLOPE_0_00_02",
+      "volume_m3": 0.045008915211801837,
+      "nonmanifold_edges": 0,
+      "plane_error_m": 1.7628371715532054e-06
+    },
+    {
+      "name": "R13_SLOPE_0_01_00",
+      "volume_m3": 0.09350824038244859,
+      "nonmanifold_edges": 0,
+      "plane_error_m": 1.5298028010861386e-06
+    },
+    {
+      "name": "R13_SLOPE_0_01_01",
+      "volume_m3": 0.06927859066268133,
+      "nonmanifold_edges": 0,
+      "plane_error_m": 1.768890768288206e-06
+    },
+    {
+      "name": "R13_SLOPE_0_01_02",
+      "volume_m3": 0.04504813453074663,
+      "nonmanifold_edges": 0,
+      "plane_error_m": 1.8415339291082133e-06
+    },
+    {
+      "name": "R13_SLOPE_0_02_00",
+      "volume_m3": 0.09347498941545607,
+      "nonmanifold_edges": 0,
+      "plane_error_m": 1.9789040088639964e-06
+    },
+    {
+      "name": "R13_SLOPE_0_02_01",
+      "volume_m3": 0.06924399801423764,
+      "nonmanifold_edges": 0,
+      "plane_error_m": 1.8908940255628337e-06
+    },
+    {
+      "name": "R13_SLOPE_0_02_02",
+      "volume_m3": 0.04501377527867101,
+      "nonmanifold_edges": 0,
+      "plane_error_m": 2.4771615862832774e-06
+    },
+    {
+      "name": "R13_HIP_0_00_00",
+      "volume_m3": 0.05919836273913481,
+      "nonmanifold_edges": 0,
+      "plane_error_m": 1.3740099966512431e-06
+    },
+    {
+      "name": "R13_HIP_0_00_01",
+      "volume_m3": 0.03512317333830528,
+      "nonmanifold_edges": 0,
+      "plane_error_m": 1.4019496738897075e-06
+    },
+    {
+      "name": "R13_HIP_0_00_02",
+      "volume_m3": 0.011064309354765767,
+      "nonmanifold_edges": 0,
+      "plane_error_m": 1.4019496738897075e-06
+    },
+    {
+      "name": "R13_HIP_0_01_00",
+      "volume_m3": 0.05919746166649509,
+      "nonmanifold_edges": 0,
+      "plane_error_m": 1.1057890951619853e-06
+    },
+    {
+      "name": "R13_HIP_0_01_01",
+      "volume_m3": 0.03512279221157333,
+      "nonmanifold_edges": 0,
+      "plane_error_m": 1.104392111300062e-06
+    },
+    {
+      "name": "R13_HIP_0_01_02",
+      "volume_m3": 0.01106361087525043,
+      "nonmanifold_edges": 0,
+      "plane_error_m": 1.118827611206602e-06
+    },
+    {
+      "name": "R13_LANTERN_0_00_00",
+      "volume_m3": 0.018852104123864233,
+      "nonmanifold_edges": 0,
+      "plane_error_m": 1.917297013393632e-06
+    },
+    {
+      "name": "R13_LANTERN_0_00_01",
+      "volume_m3": 0.018852115136411142,
+      "nonmanifold_edges": 0,
+      "plane_error_m": 2.0931746369697024e-06
+    },
+    {
+      "name": "R13_LANTERN_0_00_02",
+      "volume_m3": 0.01885213317120086,
+      "nonmanifold_edges": 0,
+      "plane_error_m": 1.9178660586489926e-06
+    },
+    {
+      "name": "R13_LANTERN_0_01_00",
+      "volume_m3": 0.018852162789892712,
+      "nonmanifold_edges": 0,
+      "plane_error_m": 1.9320909146088028e-06
+    },
+    {
+      "name": "R13_LANTERN_0_01_01",
+      "volume_m3": 0.018852169575287202,
+      "nonmanifold_edges": 0,
+      "plane_error_m": 1.9198630149160067e-06
+    },
+    {
+      "name": "R13_LANTERN_0_01_02",
+      "volume_m3": 0.01885210227336594,
+      "nonmanifold_edges": 0,
+      "plane_error_m": 2.0426769260679933e-06
+    },
+    {
+      "name": "R13_LANTERN_0_02_00",
+      "volume_m3": 0.01885214992829659,
+      "nonmanifold_edges": 0,
+      "plane_error_m": 1.8916726112379323e-06
+    },
+    {
+      "name": "R13_LANTERN_0_02_01",
+      "volume_m3": 0.018852164829038592,
+      "nonmanifold_edges": 0,
+      "plane_error_m": 1.943826675416399e-06
+    },
+    {
+      "name": "R13_LANTERN_0_02_02",
+      "volume_m3": 0.018852182872613338,
+      "nonmanifold_edges": 0,
+      "plane_error_m": 1.9363760948194753e-06
+    },
+    {
+      "name": "R13_CAP_0_00_00",
+      "volume_m3": 0.016334064063492193,
+      "nonmanifold_edges": 0,
+      "plane_error_m": 2.074986696243286e-06
+    },
+    {
+      "name": "R13_CAP_0_01_00",
+      "volume_m3": 0.016403065051299348,
+      "nonmanifold_edges": 0,
+      "plane_error_m": 1.5383302234099616e-06
+    },
+    {
+      "name": "R13_CAP_0_02_00",
+      "volume_m3": 0.016338017775103186,
+      "nonmanifold_edges": 0,
+      "plane_error_m": 1.519703771917652e-06
+    },
+    {
+      "name": "R13_SLOPE_1_00_00",
+      "volume_m3": 0.09252373589701957,
+      "nonmanifold_edges": 0,
+      "plane_error_m": 7.469207048416138e-07
+    },
+    {
+      "name": "R13_SLOPE_1_00_01",
+      "volume_m3": 0.06853635964051974,
+      "nonmanifold_edges": 0,
+      "plane_error_m": 6.807968020439148e-07
+    },
+    {
+      "name": "R13_SLOPE_1_00_02",
+      "volume_m3": 0.04454883261369669,
+      "nonmanifold_edges": 0,
+      "plane_error_m": 6.710179150104523e-07
+    },
+    {
+      "name": "R13_SLOPE_1_01_00",
+      "volume_m3": 0.09255920111936522,
+      "nonmanifold_edges": 0,
+      "plane_error_m": 1.0288022458566914e-06
+    },
+    {
+      "name": "R13_SLOPE_1_01_01",
+      "volume_m3": 0.06857186576789986,
+      "nonmanifold_edges": 0,
+      "plane_error_m": 8.276365697397481e-07
+    },
+    {
+      "name": "R13_SLOPE_1_01_02",
+      "volume_m3": 0.04458555326648184,
+      "nonmanifold_edges": 0,
+      "plane_error_m": 6.803311407566071e-07
+    },
+    {
+      "name": "R13_SLOPE_1_02_00",
+      "volume_m3": 0.09252397912674087,
+      "nonmanifold_edges": 0,
+      "plane_error_m": 5.387701094150543e-07
+    },
+    {
+      "name": "R13_SLOPE_1_02_01",
+      "volume_m3": 0.06853620847358205,
+      "nonmanifold_edges": 0,
+      "plane_error_m": 6.128102540969849e-07
+    },
+    {
+      "name": "R13_SLOPE_1_02_02",
+      "volume_m3": 0.044549336869685985,
+      "nonmanifold_edges": 0,
+      "plane_error_m": 7.677190005765666e-07
+    },
+    {
+      "name": "R13_HIP_1_00_00",
+      "volume_m3": 0.05920017769983363,
+      "nonmanifold_edges": 0,
+      "plane_error_m": 1.1615157127393971e-06
+    },
+    {
+      "name": "R13_HIP_1_00_01",
+      "volume_m3": 0.03512354830413933,
+      "nonmanifold_edges": 0,
+      "plane_error_m": 8.709430694593678e-07
+    },
+    {
+      "name": "R13_HIP_1_00_02",
+      "volume_m3": 0.011064112164515638,
+      "nonmanifold_edges": 0,
+      "plane_error_m": 1.2881755828871022e-06
+    },
+    {
+      "name": "R13_HIP_1_01_00",
+      "volume_m3": 0.059202146415481896,
+      "nonmanifold_edges": 0,
+      "plane_error_m": 1.4222860336317311e-06
+    },
+    {
+      "name": "R13_HIP_1_01_01",
+      "volume_m3": 0.035124941385358724,
+      "nonmanifold_edges": 0,
+      "plane_error_m": 1.327989622951914e-06
+    },
+    {
+      "name": "R13_HIP_1_01_02",
+      "volume_m3": 0.011064788544027551,
+      "nonmanifold_edges": 0,
+      "plane_error_m": 1.6987323760986328e-06
+    },
+    {
+      "name": "R13_LANTERN_1_00_00",
+      "volume_m3": 0.01865342827690275,
+      "nonmanifold_edges": 0,
+      "plane_error_m": 1.0274052619947682e-06
+    },
+    {
+      "name": "R13_LANTERN_1_00_01",
+      "volume_m3": 0.01865276832963559,
+      "nonmanifold_edges": 0,
+      "plane_error_m": 1.0464624438100145e-06
+    },
+    {
+      "name": "R13_LANTERN_1_00_02",
+      "volume_m3": 0.01865335514337535,
+      "nonmanifold_edges": 0,
+      "plane_error_m": 1.030605045544003e-06
+    },
+    {
+      "name": "R13_LANTERN_1_01_00",
+      "volume_m3": 0.01865308758929236,
+      "nonmanifold_edges": 0,
+      "plane_error_m": 1.117093006541836e-06
+    },
+    {
+      "name": "R13_LANTERN_1_01_01",
+      "volume_m3": 0.018654031563304252,
+      "nonmanifold_edges": 0,
+      "plane_error_m": 1.0347196457601016e-06
+    },
+    {
+      "name": "R13_LANTERN_1_01_02",
+      "volume_m3": 0.01865315687689917,
+      "nonmanifold_edges": 0,
+      "plane_error_m": 1.0236799716963063e-06
+    },
+    {
+      "name": "R13_LANTERN_1_02_00",
+      "volume_m3": 0.018653444751465298,
+      "nonmanifold_edges": 0,
+      "plane_error_m": 1.0200078868378981e-06
+    },
+    {
+      "name": "R13_LANTERN_1_02_01",
+      "volume_m3": 0.01865285065376432,
+      "nonmanifold_edges": 0,
+      "plane_error_m": 9.97602939607073e-07
+    },
+    {
+      "name": "R13_LANTERN_1_02_02",
+      "volume_m3": 0.018653420997606085,
+      "nonmanifold_edges": 0,
+      "plane_error_m": 1.0457548327465205e-06
+    },
+    {
+      "name": "R13_CAP_1_00_00",
+      "volume_m3": 0.01616211878855589,
+      "nonmanifold_edges": 0,
+      "plane_error_m": 1.264288555829357e-06
+    },
+    {
+      "name": "R13_CAP_1_01_00",
+      "volume_m3": 0.01622793664124722,
+      "nonmanifold_edges": 0,
+      "plane_error_m": 8.231326937661876e-07
+    },
+    {
+      "name": "R13_CAP_1_02_00",
+      "volume_m3": 0.016162105161951157,
+      "nonmanifold_edges": 0,
+      "plane_error_m": 5.229376256465912e-07
+    },
+    {
+      "name": "R13_SLOPE_2_00_00",
+      "volume_m3": 0.09347302981997735,
+      "nonmanifold_edges": 0,
+      "plane_error_m": 2.045959234236311e-06
+    },
+    {
+      "name": "R13_SLOPE_2_00_01",
+      "volume_m3": 0.06924332145951861,
+      "nonmanifold_edges": 0,
+      "plane_error_m": 1.0943221859620322e-06
+    },
+    {
+      "name": "R13_SLOPE_2_00_02",
+      "volume_m3": 0.045012692554860845,
+      "nonmanifold_edges": 0,
+      "plane_error_m": 1.9863545894609203e-06
+    },
+    {
+      "name": "R13_SLOPE_2_01_00",
+      "volume_m3": 0.09351050752107992,
+      "nonmanifold_edges": 0,
+      "plane_error_m": 1.519918441772461e-06
+    },
+    {
+      "name": "R13_SLOPE_2_01_01",
+      "volume_m3": 0.06928061083791609,
+      "nonmanifold_edges": 0,
+      "plane_error_m": 1.5130098909126033e-06
+    },
+    {
+      "name": "R13_SLOPE_2_01_02",
+      "volume_m3": 0.04504878707977378,
+      "nonmanifold_edges": 0,
+      "plane_error_m": 1.383945345878601e-06
+    },
+    {
+      "name": "R13_SLOPE_2_02_00",
+      "volume_m3": 0.09347000983897497,
+      "nonmanifold_edges": 0,
+      "plane_error_m": 9.005889296531677e-07
+    },
+    {
+      "name": "R13_SLOPE_2_02_01",
+      "volume_m3": 0.06924022481693759,
+      "nonmanifold_edges": 0,
+      "plane_error_m": 1.1002011597142924e-06
+    },
+    {
+      "name": "R13_SLOPE_2_02_02",
+      "volume_m3": 0.04500837333893992,
+      "nonmanifold_edges": 0,
+      "plane_error_m": 1.385807991027832e-06
+    },
+    {
+      "name": "R13_HIP_2_00_00",
+      "volume_m3": 0.05950012251611059,
+      "nonmanifold_edges": 0,
+      "plane_error_m": 1.3642311096177806e-06
+    },
+    {
+      "name": "R13_HIP_2_00_01",
+      "volume_m3": 0.035302444554129786,
+      "nonmanifold_edges": 0,
+      "plane_error_m": 1.0728836059570312e-06
+    },
+    {
+      "name": "R13_HIP_2_00_02",
+      "volume_m3": 0.011120503191445419,
+      "nonmanifold_edges": 0,
+      "plane_error_m": 1.0376498103155385e-06
+    },
+    {
+      "name": "R13_HIP_2_01_00",
+      "volume_m3": 0.05949962291146349,
+      "nonmanifold_edges": 0,
+      "plane_error_m": 1.1920928955078125e-06
+    },
+    {
+      "name": "R13_HIP_2_01_01",
+      "volume_m3": 0.03530251348188784,
+      "nonmanifold_edges": 0,
+      "plane_error_m": 5.825422704219818e-07
+    },
+    {
+      "name": "R13_HIP_2_01_02",
+      "volume_m3": 0.011120951314625316,
+      "nonmanifold_edges": 0,
+      "plane_error_m": 1.2285709381117116e-06
+    },
+    {
+      "name": "R13_LANTERN_2_00_00",
+      "volume_m3": 0.018850325613882724,
+      "nonmanifold_edges": 0,
+      "plane_error_m": 1.9629563048524645e-06
+    },
+    {
+      "name": "R13_LANTERN_2_00_01",
+      "volume_m3": 0.018849619193173045,
+      "nonmanifold_edges": 0,
+      "plane_error_m": 2.029508352281023e-06
+    },
+    {
+      "name": "R13_LANTERN_2_00_02",
+      "volume_m3": 0.018850302991539336,
+      "nonmanifold_edges": 0,
+      "plane_error_m": 2.015950770557079e-06
+    },
+    {
+      "name": "R13_LANTERN_2_01_00",
+      "volume_m3": 0.01885030327137238,
+      "nonmanifold_edges": 0,
+      "plane_error_m": 1.9270628690733205e-06
+    },
+    {
+      "name": "R13_LANTERN_2_01_01",
+      "volume_m3": 0.01885029860263393,
+      "nonmanifold_edges": 0,
+      "plane_error_m": 1.9105218889321762e-06
+    },
+    {
+      "name": "R13_LANTERN_2_01_02",
+      "volume_m3": 0.01885031825827224,
+      "nonmanifold_edges": 0,
+      "plane_error_m": 1.959582644390362e-06
+    },
+    {
+      "name": "R13_LANTERN_2_02_00",
+      "volume_m3": 0.01885029591524287,
+      "nonmanifold_edges": 0,
+      "plane_error_m": 1.9252002239240895e-06
+    },
+    {
+      "name": "R13_LANTERN_2_02_01",
+      "volume_m3": 0.018850271439416172,
+      "nonmanifold_edges": 0,
+      "plane_error_m": 1.9322906155139208e-06
+    },
+    {
+      "name": "R13_LANTERN_2_02_02",
+      "volume_m3": 0.018850256665640636,
+      "nonmanifold_edges": 0,
+      "plane_error_m": 1.8730461597456227e-06
+    },
+    {
+      "name": "R13_CAP_2_00_00",
+      "volume_m3": 0.016338704781727845,
+      "nonmanifold_edges": 0,
+      "plane_error_m": 2.8039321769042502e-06
+    },
+    {
+      "name": "R13_CAP_2_01_00",
+      "volume_m3": 0.016403678652681386,
+      "nonmanifold_edges": 0,
+      "plane_error_m": 2.497963607312609e-06
+    },
+    {
+      "name": "R13_CAP_2_02_00",
+      "volume_m3": 0.016334721930836515,
+      "nonmanifold_edges": 0,
+      "plane_error_m": 1.7629936337471008e-06
+    },
+    {
+      "name": "R13_SLOPE_3_00_00",
+      "volume_m3": 0.09442478660338427,
+      "nonmanifold_edges": 0,
+      "plane_error_m": 2.3223874159143676e-06
+    },
+    {
+      "name": "R13_SLOPE_3_00_01",
+      "volume_m3": 0.06994966244448553,
+      "nonmanifold_edges": 0,
+      "plane_error_m": 2.323318738488983e-06
+    },
+    {
+      "name": "R13_SLOPE_3_00_02",
+      "volume_m3": 0.045475038855446126,
+      "nonmanifold_edges": 0,
+      "plane_error_m": 2.332515548913311e-06
+    },
+    {
+      "name": "R13_SLOPE_3_01_00",
+      "volume_m3": 0.09445891675533802,
+      "nonmanifold_edges": 0,
+      "plane_error_m": 2.02823500148816e-06
+    },
+    {
+      "name": "R13_SLOPE_3_01_01",
+      "volume_m3": 0.06998544291336894,
+      "nonmanifold_edges": 0,
+      "plane_error_m": 2.0385377574698438e-06
+    },
+    {
+      "name": "R13_SLOPE_3_01_02",
+      "volume_m3": 0.045511727258771284,
+      "nonmanifold_edges": 0,
+      "plane_error_m": 2.04703607596321e-06
+    },
+    {
+      "name": "R13_SLOPE_3_02_00",
+      "volume_m3": 0.09442468347002309,
+      "nonmanifold_edges": 0,
+      "plane_error_m": 1.434236764907837e-06
+    },
+    {
+      "name": "R13_SLOPE_3_02_01",
+      "volume_m3": 0.06995053226383652,
+      "nonmanifold_edges": 0,
+      "plane_error_m": 2.586591988800596e-06
+    },
+    {
+      "name": "R13_SLOPE_3_02_02",
+      "volume_m3": 0.04547299917977354,
+      "nonmanifold_edges": 0,
+      "plane_error_m": 1.4901161193847656e-06
+    },
+    {
+      "name": "R13_HIP_3_00_00",
+      "volume_m3": 0.05949937049144677,
+      "nonmanifold_edges": 0,
+      "plane_error_m": 1.202646642921995e-06
+    },
+    {
+      "name": "R13_HIP_3_00_01",
+      "volume_m3": 0.03530198714028554,
+      "nonmanifold_edges": 0,
+      "plane_error_m": 6.705522537231445e-07
+    },
+    {
+      "name": "R13_HIP_3_00_02",
+      "volume_m3": 0.011120519000129947,
+      "nonmanifold_edges": 0,
+      "plane_error_m": 1.2408308684812297e-06
+    },
+    {
+      "name": "R13_HIP_3_01_00",
+      "volume_m3": 0.059500112078928,
+      "nonmanifold_edges": 0,
+      "plane_error_m": 2.0928382873548756e-06
+    },
+    {
+      "name": "R13_HIP_3_01_01",
+      "volume_m3": 0.03530046155453223,
+      "nonmanifold_edges": 0,
+      "plane_error_m": 1.3642311096177806e-06
+    },
+    {
+      "name": "R13_HIP_3_01_02",
+      "volume_m3": 0.011119660207488266,
+      "nonmanifold_edges": 0,
+      "plane_error_m": 1.3139396905885448e-06
+    },
+    {
+      "name": "R13_LANTERN_3_00_00",
+      "volume_m3": 0.019044939962180762,
+      "nonmanifold_edges": 0,
+      "plane_error_m": 1.002678935786011e-06
+    },
+    {
+      "name": "R13_LANTERN_3_00_01",
+      "volume_m3": 0.019044686925026866,
+      "nonmanifold_edges": 0,
+      "plane_error_m": 1.0013282299055348e-06
+    },
+    {
+      "name": "R13_LANTERN_3_00_02",
+      "volume_m3": 0.019044644508376563,
+      "nonmanifold_edges": 0,
+      "plane_error_m": 1.109819578459792e-06
+    },
+    {
+      "name": "R13_LANTERN_3_01_00",
+      "volume_m3": 0.019044221150814333,
+      "nonmanifold_edges": 0,
+      "plane_error_m": 9.99997683898829e-07
+    },
+    {
+      "name": "R13_LANTERN_3_01_01",
+      "volume_m3": 0.019044764835446593,
+      "nonmanifold_edges": 0,
+      "plane_error_m": 1.024749816353615e-06
+    },
+    {
+      "name": "R13_LANTERN_3_01_02",
+      "volume_m3": 0.019044847163966518,
+      "nonmanifold_edges": 0,
+      "plane_error_m": 9.978644193338326e-07
+    },
+    {
+      "name": "R13_LANTERN_3_02_00",
+      "volume_m3": 0.01904452075153797,
+      "nonmanifold_edges": 0,
+      "plane_error_m": 1.0494962115088768e-06
+    },
+    {
+      "name": "R13_LANTERN_3_02_01",
+      "volume_m3": 0.019044248703638744,
+      "nonmanifold_edges": 0,
+      "plane_error_m": 1.0013282299055348e-06
+    },
+    {
+      "name": "R13_LANTERN_3_02_02",
+      "volume_m3": 0.01904449582928608,
+      "nonmanifold_edges": 0,
+      "plane_error_m": 1.0520916766849908e-06
+    },
+    {
+      "name": "R13_CAP_3_00_00",
+      "volume_m3": 0.016509304732099772,
+      "nonmanifold_edges": 0,
+      "plane_error_m": 5.781948566423167e-07
+    },
+    {
+      "name": "R13_CAP_3_01_00",
+      "volume_m3": 0.0165775159968794,
+      "nonmanifold_edges": 0,
+      "plane_error_m": 5.327928811298122e-07
+    },
+    {
+      "name": "R13_CAP_3_02_00",
+      "volume_m3": 0.016509255729514893,
+      "nonmanifold_edges": 0,
+      "plane_error_m": 1.191161572933197e-06
+    }
+  ],
+  "previous_cover_misses": [
+    {
+      "canonical": [
+        139,
+        276
+      ],
+      "hits": [
+        "R13_HIP_1_00_01"
+      ]
+    },
+    {
+      "canonical": [
+        139,
+        278
+      ],
+      "hits": [
+        "R13_HIP_1_00_01"
+      ]
+    },
+    {
+      "canonical": [
+        139,
+        280
+      ],
+      "hits": [
+        "R13_HIP_1_01_01"
+      ]
+    },
+    {
+      "canonical": [
+        139,
+        282
+      ],
+      "hits": [
+        "R13_HIP_1_01_01"
+      ]
+    }
+  ],
+  "failures": [],
+  "construction_acceptance": false,
+  "limits": [
+    "No pavilion footprint, roof silhouette, frame, module count or panel plane changed.",
+    "Previous center-scaling reduced long triangular panel edges too far from frames. Constant12mm inset sits within existing37.5mm half-frame width.",
+    "12mm is a visual modeling joint parameter, not a measured gasket or fabrication tolerance.",
+    "All108 existing panel planes retained; four dense-grid misses identified the defect."
+  ]
+}

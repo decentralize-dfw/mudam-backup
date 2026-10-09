@@ -1,0 +1,106 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R83_CATI_KENAR_KAPANISLARI_v001.blend",
+  "base_scene": "MUDAM_R82_BATI_MERDIVEN_GIRIS_KABUK_v001.blend",
+  "closed_objects": [
+    "R83_CAFE_BACK_WALL",
+    "R83_CAFE_ENTRY_HEAD",
+    "R83_ATRIUM_TRANSITION_GLASS_2",
+    "R83_ATRIUM_TRANSITION_EDGE_2_0",
+    "R83_ATRIUM_TRANSITION_EDGE_2_1",
+    "R83_ATRIUM_TRANSITION_GLASS_6",
+    "R83_ATRIUM_TRANSITION_EDGE_6_0",
+    "R83_ATRIUM_TRANSITION_EDGE_6_1"
+  ],
+  "changed_inherited_objects": [],
+  "cafe_walls": [
+    {
+      "name": "R83_CAFE_BACK_WALL",
+      "a": [
+        -4.505957126617432,
+        20.02301788330078,
+        0.0
+      ],
+      "b": [
+        -31.536741256713867,
+        21.00535774230957,
+        0.0
+      ],
+      "z0": 0,
+      "z1": 13.923118133013933
+    },
+    {
+      "name": "R83_CAFE_ENTRY_HEAD",
+      "a": [
+        -31.536741256713867,
+        21.00535774230957,
+        0.0
+      ],
+      "b": [
+        -33.80329895019531,
+        21.087726593017578,
+        0.0
+      ],
+      "z0": 3.2,
+      "z1": 13.923118133013933
+    }
+  ],
+  "transition_triangles": [
+    {
+      "name": "R83_ATRIUM_TRANSITION_GLASS_2",
+      "vertices": [
+        [
+          -4.6799516677856445,
+          19.86122703552246,
+          13.923118591308594
+        ],
+        [
+          -1.7220444679260254,
+          22.611682891845703,
+          17.66086769104004
+        ],
+        [
+          -1.7220444679260254,
+          22.611682891845703,
+          13.923118591308594
+        ]
+      ],
+      "normal": [
+        -0.6809598207473755,
+        0.7323207855224609,
+        -0.0
+      ]
+    },
+    {
+      "name": "R83_ATRIUM_TRANSITION_GLASS_6",
+      "vertices": [
+        [
+          16.560405731201172,
+          2.950298547744751,
+          17.66086769104004
+        ],
+        [
+          13.602498054504395,
+          0.19984161853790283,
+          13.923118591308594
+        ],
+        [
+          16.560405731201172,
+          2.950298547744751,
+          13.923118591308594
+        ]
+      ],
+      "normal": [
+        0.680959939956665,
+        -0.7323207259178162,
+        -0.0
+      ]
+    }
+  ],
+  "construction_acceptance": false,
+  "limits": [
+    "093 supports straight opaque wall behind cafe roof; registered102 line x+y=1120 retained.",
+    "Existing west stair entry remains open below3.2m; no door or hardware modeled.",
+    "093/026 show glazed transitions; triangular fills follow current2/6 roof-edge geometry without changing silhouette.",
+    "Exact transition subdivisions, wall thickness, roof heights and profile dimensions remain candidate, not measured."
+  ]
+}

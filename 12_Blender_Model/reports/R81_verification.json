@@ -1,0 +1,195 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R81_ALT_FUAYE_YAN_KABUK_v001.blend",
+  "solids": [
+    {
+      "name": "R81_E_RETURN_00",
+      "nonmanifold_edges": 0,
+      "volume_m3": 2.362267194074768
+    },
+    {
+      "name": "R81_E_RETURN_01",
+      "nonmanifold_edges": 0,
+      "volume_m3": 0.9837957601420104
+    },
+    {
+      "name": "R81_E_RETURN_02",
+      "nonmanifold_edges": 0,
+      "volume_m3": 0.5070403577146534
+    },
+    {
+      "name": "R81_E_RETURN_03",
+      "nonmanifold_edges": 0,
+      "volume_m3": 1.1067704161701704
+    },
+    {
+      "name": "R81_E_RETURN_04",
+      "nonmanifold_edges": 0,
+      "volume_m3": 3.197351427020976
+    },
+    {
+      "name": "R81_E_RETURN_05",
+      "nonmanifold_edges": 0,
+      "volume_m3": 1.2297419907890657
+    },
+    {
+      "name": "R81_E_RETURN_06",
+      "nonmanifold_edges": 0,
+      "volume_m3": 0.3689233903506146
+    },
+    {
+      "name": "R81_E_RETURN_07",
+      "nonmanifold_edges": 0,
+      "volume_m3": 0.9837939233563806
+    },
+    {
+      "name": "R81_E_RETURN_08",
+      "nonmanifold_edges": 0,
+      "volume_m3": 0.36892454940305974
+    },
+    {
+      "name": "R81_E_RETURN_09",
+      "nonmanifold_edges": 0,
+      "volume_m3": 1.352716334918079
+    },
+    {
+      "name": "R81_E_RETURN_10",
+      "nonmanifold_edges": 0,
+      "volume_m3": 1.352720908679105
+    },
+    {
+      "name": "R81_E_RETURN_11",
+      "nonmanifold_edges": 0,
+      "volume_m3": 0.8608200793453307
+    },
+    {
+      "name": "R81_E_RETURN_12",
+      "nonmanifold_edges": 0,
+      "volume_m3": 0.44763464407290243
+    },
+    {
+      "name": "R81_E_SIDE_FLOOR",
+      "nonmanifold_edges": 0,
+      "volume_m3": 1.4215113737432328
+    },
+    {
+      "name": "R81_E_SIDE_CEILING",
+      "nonmanifold_edges": 0,
+      "volume_m3": 3.2431351527480143
+    },
+    {
+      "name": "R81_W_RETURN_00",
+      "nonmanifold_edges": 0,
+      "volume_m3": 0.5668853980032473
+    },
+    {
+      "name": "R81_W_RETURN_01",
+      "nonmanifold_edges": 0,
+      "volume_m3": 0.8608261068583953
+    },
+    {
+      "name": "R81_W_RETURN_02",
+      "nonmanifold_edges": 0,
+      "volume_m3": 1.4756969988206543
+    },
+    {
+      "name": "R81_W_RETURN_03",
+      "nonmanifold_edges": 0,
+      "volume_m3": 1.3527236374614127
+    },
+    {
+      "name": "R81_W_RETURN_04",
+      "nonmanifold_edges": 0,
+      "volume_m3": 0.3689236466277084
+    },
+    {
+      "name": "R81_W_RETURN_05",
+      "nonmanifold_edges": 0,
+      "volume_m3": 0.9837957778077477
+    },
+    {
+      "name": "R81_W_RETURN_06",
+      "nonmanifold_edges": 0,
+      "volume_m3": 0.38887879506527057
+    },
+    {
+      "name": "R81_W_RETURN_07",
+      "nonmanifold_edges": 0,
+      "volume_m3": 3.320312500390709
+    },
+    {
+      "name": "R81_W_RETURN_08",
+      "nonmanifold_edges": 0,
+      "volume_m3": 3.3203138485707537
+    },
+    {
+      "name": "R81_W_RETURN_09",
+      "nonmanifold_edges": 0,
+      "volume_m3": 3.320318236717464
+    },
+    {
+      "name": "R81_W_RETURN_10",
+      "nonmanifold_edges": 0,
+      "volume_m3": 0.38888001179896214
+    },
+    {
+      "name": "R81_W_RETURN_11",
+      "nonmanifold_edges": 0,
+      "volume_m3": 0.983798538316087
+    },
+    {
+      "name": "R81_W_RETURN_12",
+      "nonmanifold_edges": 0,
+      "volume_m3": 0.4919004552808956
+    },
+    {
+      "name": "R81_W_RETURN_13",
+      "nonmanifold_edges": 0,
+      "volume_m3": 1.2173893129347113
+    },
+    {
+      "name": "R81_W_SIDE_FLOOR",
+      "nonmanifold_edges": 0,
+      "volume_m3": 3.19319965546412
+    },
+    {
+      "name": "R81_W_SIDE_CEILING",
+      "nonmanifold_edges": 0,
+      "volume_m3": 7.285188316930907
+    }
+  ],
+  "boundary_samples": 405,
+  "preserved_entrances": [
+    {
+      "native_x": 470,
+      "new_obstructions": []
+    },
+    {
+      "native_x": 474,
+      "new_obstructions": []
+    },
+    {
+      "native_x": 478,
+      "new_obstructions": []
+    },
+    {
+      "native_x": 566,
+      "new_obstructions": []
+    },
+    {
+      "native_x": 570,
+      "new_obstructions": []
+    },
+    {
+      "native_x": 574,
+      "new_obstructions": []
+    }
+  ],
+  "failures": [],
+  "construction_acceptance": false,
+  "limits": [
+    "Source104 fixed ink boundaries support side returns; exact wall widths and levels remain candidates.",
+    "Auditorium door openings at x469..480 and565..576 are preserved.",
+    "Lift-side outer volume only; cabin, shaft depth, doors and equipment deferred.",
+    "General building enclosure audit remains open."
+  ]
+}

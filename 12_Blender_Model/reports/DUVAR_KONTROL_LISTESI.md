@@ -1,6 +1,6 @@
 # Duvar kontrol listesi
 
-Aktif aşama: **bütün kalıcı bina duvarları**. Sonraki sistemlere geçiş henüz açılmadı.
+Aktif aşama: **duvar–zemin–çatı birlikte bina kabuğu**. Güncel birleşik liste: [Kabuk kontrolü](KABUK_KONTROL_LISTESI.md). Kapı/pencere ayrıntılarına geçiş henüz açılmadı.
 
 Tamam işareti, yalnız karşısındaki kontrolün yapıldığını belirtir. Haritadan türetilen ölçek, duvar kalınlıkları ve kesinleşmemiş kotlar ölçülmüş proje verisi sayılmaz. Sergi panoları ve sanat eserleri kapsam dışıdır. Tarihî çevre duvarları çevre aşamasındadır.
 
@@ -24,8 +24,8 @@ Tamam işareti, yalnız karşısındaki kontrolün yapıldığını belirtir. Ha
 - [x] R71: alt/üst galerilerde 48 köşe birleşimi, 54 duvar ve 96 önce/sonra tarama.
 - [x] R72: alt fuaye kuzey duvarının eksik doğu kısmı; 561 yüzey kontrolü.
 - [x] R72: iki yüksek Grand Hall duvarının sürekliliği; 20 temas ve 210 çatı taşma kontrolü.
-- [ ] Kullanıcı görsellerindeki yan salon duvar uçları ve alt birleşimler.
-- [ ] Kuzey merkez cam şeridinin eksik alt kapanışı (taş duvarla kapatılmayacak).
+- [x] Kullanıcı görsellerindeki yan salon duvar uçları ve alt birleşimler: R73/R76/R77/R78 yerel düzeltmeleri.
+- [x] Kuzey merkez cam şeridinin eksik alt kapanışı: R80 cam ve kayıt devamı.
 
 - [x] R73: doğu/batı galeri gövdeleri; 576 yüzey ve 90 geçiş kontrolü.
 - [x] R74: Studio dört köşesi; sekiz önce/sonra kontrolü ve plan karşılaştırması.
@@ -42,3 +42,8 @@ Ziyaretçi planlarında bulunmayan teknik alan bölmeleri, duvar iç katmanları
 - [ ] Bağımsız görünen batı uç duvarı ve zemin galeri güney duvarının kaynak/bitiş yorumu.
 
 3451 konfigürasyon-sahne taraması ve 10 geçiş R74 üzerinde geçti; bu tarama kaynak yorumu ve kesin ölçü kabulü yerine geçmez.
+
+
+## R87–R88 güncel kapsam
+
+R86 envanteri 281 duvar adayı içeriyordu; R87 eksik küçük batı galerisini ekledi. Önceki kaynak taraması 0 bulgu verdi, ancak bu oda tarama dışında kalmıştı. Bu nedenle bütün mekânların ayrı kapsam eşlemesi ve genel kabul açık tutuluyor. Tamamlanan yerel kontroller ve kalanlar birleşik kabuk listesinde izleniyor.

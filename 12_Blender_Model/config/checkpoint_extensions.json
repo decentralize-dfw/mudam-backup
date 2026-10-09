@@ -927,5 +927,144 @@
     "image": "R80_after_north_closure.png",
     "description": "087/119 cephe fotoğraflarına göre alt cam sınırı zemine indirildi; 536 yatay kapanış örneği geçti.",
     "limits": "Üst camlar ve mevcut yatay kayıt korundu. Alt panel bölüntüsü ve profil ölçüleri kesin değil; genel kabuk kontrolü açık."
+  },
+  {
+    "id": "R81",
+    "checks": [
+      "R81_verification.json",
+      "R81_inherited_verification.json",
+      "R81_global_audit.json"
+    ],
+    "tasks": [
+      "P07",
+      "P17"
+    ],
+    "report": "R81_KONTROL_RAPORU.md",
+    "title": "Alt fuaye yan hacimlerinin kabuğu / R81",
+    "image": "R81_after_foyer_west.png",
+    "description": "104 planındaki yan hacimlere 31 duvar/döşeme/tavan bileşeni; 405 sınır ve altı geçiş kontrolü geçti.",
+    "limits": "Şematik plan çizgileri, mevcut aday kalınlık ve fuaye kotları kullanıldı. Asansör donanımı ve kapı detayları yapılmadı."
+  },
+  {
+    "id": "R82",
+    "checks": [
+      "R82_verification.json",
+      "R82_inherited_verification.json",
+      "R82_global_audit.json"
+    ],
+    "tasks": [
+      "P07",
+      "P11",
+      "P17"
+    ],
+    "report": "R82_KONTROL_RAPORU.md",
+    "title": "Batı merdiven giriş sahanlığı kabuğu / R82",
+    "image": "R82_after_west_entry_inside.png",
+    "description": "Mevcut zeminin eksik yan camı, üst örtüsü ve iç duvarı eklendi; 312 alt/üst ve 156 yan kapanış örneği geçti.",
+    "limits": "102/066/097 kaynakları; mevcut 3,2 m başlık yüksekliği aday olarak korundu. Cam bölüntü ve ürün ayrıntıları ertelendi."
+  },
+  {
+    "id": "R83",
+    "checks": [
+      "R83_verification.json",
+      "R83_inherited_verification.json",
+      "R83_global_audit.json"
+    ],
+    "tasks": [
+      "P07",
+      "P11"
+    ],
+    "report": "R83_KONTROL_RAPORU.md",
+    "title": "Çatı kenarlarında eksik kapanışlar / R83",
+    "image": "R83_after_roof_east.png",
+    "description": "Kafe arkasındaki taş duvar ve iki üçgen cam geçiş tamamlandı; önceki 81 yanal kaçak kapandı.",
+    "limits": "093/102/026/116 ile mevcut sınırlar kullanıldı; kotlar ve cam detayları aday. Çok kotlu taramada giriş alt cam birleşimi hâlâ açık."
+  },
+  {
+    "id": "R84",
+    "checks": [
+      "R84_verification.json",
+      "R84_inherited_verification.json",
+      "R84_global_audit.json"
+    ],
+    "tasks": [
+      "P07",
+      "P08"
+    ],
+    "report": "R84_KONTROL_RAPORU.md",
+    "title": "Giriş sabit camlarının zemin birleşimi / R84",
+    "image": "R84_after_entry_inside.png",
+    "description": "Zeminden18–25cm yukarıda kalan sabit cam ve kayıtlar zemine bağlandı; 18 eski kaçak kapandı.",
+    "limits": "013/014 ile zemine kapanış; hareketli kanatlar değişmedi. Kesin montaj payları ve profil ölçüleri aday."
+  },
+  {
+    "id": "R85",
+    "checks": [
+      "R85_verification.json",
+      "R85_inherited_verification.json",
+      "R85_global_audit.json",
+      "R23_regression_on_R85.json"
+    ],
+    "tasks": [
+      "P07",
+      "P17"
+    ],
+    "report": "R85_KONTROL_RAPORU.md",
+    "title": "Batı üst sahanlık ve dönüş kabuğu / R85",
+    "image": "R85_after_upper_return_corridor.png",
+    "description": "Eski düz uzantı kaldırıldı; PDF kapısına dönen mevcut koridorun duvar ve örtüsü eklendi. 571 sık örnek ve dolaşım denetimi geçti.",
+    "limits": "PDF ile ziyaretçi şeması arasındaki iç sınır farkı kayıtlı; kesin yeniden ölçüm değildir. Malzeme ve ayrıntı ölçüleri aday."
+  },
+  {
+    "id": "R86",
+    "checks": [
+      "R86_verification.json",
+      "R86_inherited_verification.json",
+      "R86_global_audit.json"
+    ],
+    "tasks": [
+      "P07",
+      "P11"
+    ],
+    "report": "R86_KONTROL_RAPORU.md",
+    "title": "Pavyon cam kenarlarının kapanışı / R86",
+    "image": "R86_after_pavilion_hip_inside.png",
+    "description": "Orana bağlı küçültme yerine sabit kenar payı; dört örtü kaçağı kapandı. 26 bölgenin sık ve çok kotlu taraması temiz.",
+    "limits": "Cam kenar payı görselleştirme parametresidir; plan, kesit ve imalat ölçüsü doğruluğu ayrı değerlendirilir."
+  },
+  {
+    "id": "R87",
+    "checks": [
+      "R87_verification.json",
+      "R87_inherited_verification.json",
+      "R87_global_audit.json",
+      "R23_regression_on_R87.json"
+    ],
+    "tasks": [
+      "P07",
+      "P17"
+    ],
+    "report": "R87_KONTROL_RAPORU.md",
+    "title": "Küçük batı galerisinin eksik kabuğu / R87",
+    "image": "R87_after_petite_outside.png",
+    "description": "Eksik alt/üst döşeme ve çatı eklendi; PDF oda sınırı ve açık bağlantısı kuruldu. 29 bölge, 97.080 sık örnek ve 218.136 çok kotlu ışın kontrol edildi.",
+    "limits": "PDF ve ziyaretçi şeması farklı; kot, kalınlık ve yerel çatı eğimi kesinleşmedi. Bütün bina kabulü açık."
+  },
+  {
+    "id": "R88",
+    "checks": [
+      "R88_verification.json",
+      "R88_inherited_verification.json",
+      "R88_global_audit.json"
+    ],
+    "tasks": [
+      "P07",
+      "P11"
+    ],
+    "report": "R88_KONTROL_RAPORU.md",
+    "title": "Batı merdiven cam birleşimleri / R88",
+    "image": "R88_after_stair_inside.png",
+    "description": "Merdiven basamaklarından bulunan sekiz cam kenarı kaçağı kapatıldı; 170 konum ve 12.240 yanal ışın taraması temiz.",
+    "limits": "Yalnız panel kenar payı değişti. Merdiven ölçüsü, eğimi ve profil düzeni yeniden ölçülmüş sayılmaz."
   }
 ]

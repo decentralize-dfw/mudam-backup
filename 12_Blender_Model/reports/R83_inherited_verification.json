@@ -1,0 +1,20 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R83_CATI_KENAR_KAPANISLARI_v001.blend",
+  "base_scene": "12_Blender_Model/scenes/MUDAM_R82_BATI_MERDIVEN_GIRIS_KABUK_v001.blend",
+  "inherited_objects_checked": 8553,
+  "changed_inherited_objects": [],
+  "allowed_changes": [],
+  "allowed_but_unchanged": [],
+  "new_objects": [
+    "R83_ATRIUM_TRANSITION_EDGE_2_0",
+    "R83_ATRIUM_TRANSITION_EDGE_2_1",
+    "R83_ATRIUM_TRANSITION_EDGE_6_0",
+    "R83_ATRIUM_TRANSITION_EDGE_6_1",
+    "R83_ATRIUM_TRANSITION_GLASS_2",
+    "R83_ATRIUM_TRANSITION_GLASS_6",
+    "R83_CAFE_BACK_WALL",
+    "R83_CAFE_ENTRY_HEAD"
+  ],
+  "failures": [],
+  "construction_acceptance": false
+}
