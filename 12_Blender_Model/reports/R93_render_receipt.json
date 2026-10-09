@@ -1,0 +1,17 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R93_KUZEY_CAM_PROFIL_HIZALAMA_v001.blend",
+  "images": [
+    {
+      "phase": "before",
+      "file": "12_Blender_Model/scenes/MUDAM_R92_GALERI_GEREKSIZ_BOLME_KALDIRMA_v001.blend",
+      "image": "R93_before_north_alignment.png"
+    },
+    {
+      "phase": "after",
+      "file": "12_Blender_Model/scenes/MUDAM_R93_KUZEY_CAM_PROFIL_HIZALAMA_v001.blend",
+      "image": "R93_after_north_alignment.png"
+    }
+  ],
+  "all_active_surroundings": true,
+  "metric_camera_match": false
+}

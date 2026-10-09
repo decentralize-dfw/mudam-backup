@@ -1,0 +1,452 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R93_KUZEY_CAM_PROFIL_HIZALAMA_v001.blend",
+  "base_scene": "MUDAM_R92_GALERI_GEREKSIZ_BOLME_KALDIRMA_v001.blend",
+  "closed_objects": [
+    "R93_NORTH_GLASS_0_0",
+    "R93_NORTH_GLASS_0_1",
+    "R93_NORTH_GLASS_0_2",
+    "R93_NORTH_GLASS_0_3",
+    "R93_NORTH_GLASS_0_4",
+    "R93_NORTH_GLASS_0_5",
+    "R93_NORTH_GLASS_0_6",
+    "R93_NORTH_GLASS_0_7",
+    "R93_NORTH_GLASS_0_8",
+    "R93_NORTH_GLASS_0_9",
+    "R93_NORTH_GLASS_1_0",
+    "R93_NORTH_GLASS_1_1",
+    "R93_NORTH_GLASS_1_2",
+    "R93_NORTH_GLASS_1_3",
+    "R93_NORTH_GLASS_1_4",
+    "R93_NORTH_GLASS_1_5",
+    "R93_NORTH_GLASS_1_6",
+    "R93_NORTH_GLASS_1_7",
+    "R93_NORTH_GLASS_1_8",
+    "R93_NORTH_GLASS_1_9",
+    "R93_NORTH_GLASS_2_0",
+    "R93_NORTH_GLASS_2_1",
+    "R93_NORTH_GLASS_2_2",
+    "R93_NORTH_GLASS_2_3",
+    "R93_NORTH_GLASS_2_4",
+    "R93_NORTH_GLASS_2_5",
+    "R93_NORTH_GLASS_2_6",
+    "R93_NORTH_GLASS_2_7",
+    "R93_NORTH_GLASS_2_8",
+    "R93_NORTH_GLASS_2_9",
+    "R93_NORTH_MULLION_0",
+    "R93_NORTH_MULLION_1",
+    "R93_NORTH_MULLION_2",
+    "R93_NORTH_MULLION_3",
+    "R93_NORTH_TRANSOM_0",
+    "R93_NORTH_TRANSOM_1",
+    "R93_NORTH_TRANSOM_2",
+    "R93_NORTH_TRANSOM_3",
+    "R93_NORTH_TRANSOM_4",
+    "R93_NORTH_TRANSOM_5",
+    "R93_NORTH_TRANSOM_6",
+    "R93_NORTH_TRANSOM_7",
+    "R93_NORTH_TRANSOM_8",
+    "R93_NORTH_TRANSOM_9",
+    "R93_NORTH_TRANSOM_10"
+  ],
+  "changed_inherited_objects": [
+    "P11_GH_SLOT_00_00",
+    "P11_GH_SLOT_00_00_FRAME_0",
+    "P11_GH_SLOT_00_00_FRAME_1",
+    "P11_GH_SLOT_00_00_FRAME_2",
+    "P11_GH_SLOT_00_00_FRAME_3",
+    "P11_GH_SLOT_00_01",
+    "P11_GH_SLOT_00_01_FRAME_1",
+    "P11_GH_SLOT_00_01_FRAME_2",
+    "P11_GH_SLOT_00_01_FRAME_3",
+    "P11_GH_SLOT_00_02",
+    "P11_GH_SLOT_00_02_FRAME_1",
+    "P11_GH_SLOT_00_02_FRAME_2",
+    "P11_GH_SLOT_00_02_FRAME_3",
+    "P11_GH_SLOT_00_03",
+    "P11_GH_SLOT_00_03_FRAME_1",
+    "P11_GH_SLOT_00_03_FRAME_2",
+    "P11_GH_SLOT_00_03_FRAME_3",
+    "P11_GH_SLOT_00_04",
+    "P11_GH_SLOT_00_04_FRAME_1",
+    "P11_GH_SLOT_00_04_FRAME_2",
+    "P11_GH_SLOT_00_04_FRAME_3",
+    "P11_GH_SLOT_00_05",
+    "P11_GH_SLOT_00_05_FRAME_1",
+    "P11_GH_SLOT_00_05_FRAME_2",
+    "P11_GH_SLOT_00_05_FRAME_3",
+    "P11_GH_SLOT_00_06",
+    "P11_GH_SLOT_00_06_FRAME_1",
+    "P11_GH_SLOT_00_06_FRAME_2",
+    "P11_GH_SLOT_00_06_FRAME_3",
+    "P11_GH_SLOT_00_07",
+    "P11_GH_SLOT_00_07_FRAME_1",
+    "P11_GH_SLOT_00_07_FRAME_2",
+    "P11_GH_SLOT_00_07_FRAME_3",
+    "P11_GH_SLOT_00_08",
+    "P11_GH_SLOT_00_08_FRAME_1",
+    "P11_GH_SLOT_00_08_FRAME_2",
+    "P11_GH_SLOT_00_08_FRAME_3",
+    "P11_GH_SLOT_01_00",
+    "P11_GH_SLOT_01_00_FRAME_0",
+    "P11_GH_SLOT_01_00_FRAME_1",
+    "P11_GH_SLOT_01_00_FRAME_2",
+    "P11_GH_SLOT_01_01",
+    "P11_GH_SLOT_01_01_FRAME_1",
+    "P11_GH_SLOT_01_01_FRAME_2",
+    "P11_GH_SLOT_01_02",
+    "P11_GH_SLOT_01_02_FRAME_1",
+    "P11_GH_SLOT_01_02_FRAME_2",
+    "P11_GH_SLOT_01_03",
+    "P11_GH_SLOT_01_03_FRAME_1",
+    "P11_GH_SLOT_01_03_FRAME_2",
+    "P11_GH_SLOT_01_04",
+    "P11_GH_SLOT_01_04_FRAME_1",
+    "P11_GH_SLOT_01_04_FRAME_2",
+    "P11_GH_SLOT_01_05",
+    "P11_GH_SLOT_01_05_FRAME_1",
+    "P11_GH_SLOT_01_05_FRAME_2",
+    "P11_GH_SLOT_01_06",
+    "P11_GH_SLOT_01_06_FRAME_1",
+    "P11_GH_SLOT_01_06_FRAME_2",
+    "P11_GH_SLOT_01_07",
+    "P11_GH_SLOT_01_07_FRAME_1",
+    "P11_GH_SLOT_01_07_FRAME_2",
+    "P11_GH_SLOT_01_08",
+    "P11_GH_SLOT_01_08_FRAME_1",
+    "P11_GH_SLOT_01_08_FRAME_2",
+    "P11_GH_SLOT_02_00",
+    "P11_GH_SLOT_02_00_FRAME_0",
+    "P11_GH_SLOT_02_00_FRAME_1",
+    "P11_GH_SLOT_02_00_FRAME_2",
+    "P11_GH_SLOT_02_01",
+    "P11_GH_SLOT_02_01_FRAME_1",
+    "P11_GH_SLOT_02_01_FRAME_2",
+    "P11_GH_SLOT_02_02",
+    "P11_GH_SLOT_02_02_FRAME_1",
+    "P11_GH_SLOT_02_02_FRAME_2",
+    "P11_GH_SLOT_02_03",
+    "P11_GH_SLOT_02_03_FRAME_1",
+    "P11_GH_SLOT_02_03_FRAME_2",
+    "P11_GH_SLOT_02_04",
+    "P11_GH_SLOT_02_04_FRAME_1",
+    "P11_GH_SLOT_02_04_FRAME_2",
+    "P11_GH_SLOT_02_05",
+    "P11_GH_SLOT_02_05_FRAME_1",
+    "P11_GH_SLOT_02_05_FRAME_2",
+    "P11_GH_SLOT_02_06",
+    "P11_GH_SLOT_02_06_FRAME_1",
+    "P11_GH_SLOT_02_06_FRAME_2",
+    "P11_GH_SLOT_02_07",
+    "P11_GH_SLOT_02_07_FRAME_1",
+    "P11_GH_SLOT_02_07_FRAME_2",
+    "P11_GH_SLOT_02_08",
+    "P11_GH_SLOT_02_08_FRAME_1",
+    "P11_GH_SLOT_02_08_FRAME_2",
+    "R80_NORTH_SILL_00",
+    "R80_NORTH_SILL_01",
+    "R80_NORTH_SILL_02"
+  ],
+  "transom_levels": [
+    0.0,
+    1.309600000000002,
+    2.711100000000002,
+    4.112600000000001,
+    5.514100000000001,
+    6.9156,
+    8.3171,
+    9.7186,
+    11.1201,
+    12.5216,
+    13.923118133013933
+  ],
+  "adjacent_levels": [
+    [
+      9.7186,
+      11.1201,
+      12.5216,
+      13.9231
+    ],
+    [
+      9.7186,
+      11.1201,
+      12.5216,
+      13.9231
+    ]
+  ],
+  "origin": [
+    -2.515237331390381,
+    0.785584032535553,
+    0.0
+  ],
+  "u": [
+    -0.680959939956665,
+    0.7323206663131714,
+    0.0
+  ],
+  "normal": [
+    -0.7323206663131714,
+    -0.680959939956665,
+    0.0
+  ],
+  "width": 4.039087586906043,
+  "height": 13.923118133013933,
+  "grid": [
+    3,
+    10
+  ],
+  "panels": [
+    {
+      "name": "R93_NORTH_GLASS_0_0",
+      "center": [
+        -2.973646879196167,
+        1.2785685062408447,
+        0.6547999978065491
+      ]
+    },
+    {
+      "name": "R93_NORTH_GLASS_0_1",
+      "center": [
+        -2.973646879196167,
+        1.2785685062408447,
+        2.010349988937378
+      ]
+    },
+    {
+      "name": "R93_NORTH_GLASS_0_2",
+      "center": [
+        -2.973646879196167,
+        1.2785685062408447,
+        3.4118499755859375
+      ]
+    },
+    {
+      "name": "R93_NORTH_GLASS_0_3",
+      "center": [
+        -2.973646879196167,
+        1.2785685062408447,
+        4.813350200653076
+      ]
+    },
+    {
+      "name": "R93_NORTH_GLASS_0_4",
+      "center": [
+        -2.973646879196167,
+        1.2785685062408447,
+        6.214849948883057
+      ]
+    },
+    {
+      "name": "R93_NORTH_GLASS_0_5",
+      "center": [
+        -2.973646879196167,
+        1.2785685062408447,
+        7.616350173950195
+      ]
+    },
+    {
+      "name": "R93_NORTH_GLASS_0_6",
+      "center": [
+        -2.973646879196167,
+        1.2785685062408447,
+        9.017849922180176
+      ]
+    },
+    {
+      "name": "R93_NORTH_GLASS_0_7",
+      "center": [
+        -2.973646879196167,
+        1.2785685062408447,
+        10.419349670410156
+      ]
+    },
+    {
+      "name": "R93_NORTH_GLASS_0_8",
+      "center": [
+        -2.973646879196167,
+        1.2785685062408447,
+        11.820850372314453
+      ]
+    },
+    {
+      "name": "R93_NORTH_GLASS_0_9",
+      "center": [
+        -2.973646879196167,
+        1.2785685062408447,
+        13.222358703613281
+      ]
+    },
+    {
+      "name": "R93_NORTH_GLASS_1_0",
+      "center": [
+        -3.89046573638916,
+        2.264537811279297,
+        0.6547999978065491
+      ]
+    },
+    {
+      "name": "R93_NORTH_GLASS_1_1",
+      "center": [
+        -3.89046573638916,
+        2.264537811279297,
+        2.010349988937378
+      ]
+    },
+    {
+      "name": "R93_NORTH_GLASS_1_2",
+      "center": [
+        -3.89046573638916,
+        2.264537811279297,
+        3.4118499755859375
+      ]
+    },
+    {
+      "name": "R93_NORTH_GLASS_1_3",
+      "center": [
+        -3.89046573638916,
+        2.264537811279297,
+        4.813350200653076
+      ]
+    },
+    {
+      "name": "R93_NORTH_GLASS_1_4",
+      "center": [
+        -3.89046573638916,
+        2.264537811279297,
+        6.214849948883057
+      ]
+    },
+    {
+      "name": "R93_NORTH_GLASS_1_5",
+      "center": [
+        -3.89046573638916,
+        2.264537811279297,
+        7.616350173950195
+      ]
+    },
+    {
+      "name": "R93_NORTH_GLASS_1_6",
+      "center": [
+        -3.89046573638916,
+        2.264537811279297,
+        9.017849922180176
+      ]
+    },
+    {
+      "name": "R93_NORTH_GLASS_1_7",
+      "center": [
+        -3.89046573638916,
+        2.264537811279297,
+        10.419349670410156
+      ]
+    },
+    {
+      "name": "R93_NORTH_GLASS_1_8",
+      "center": [
+        -3.89046573638916,
+        2.264537811279297,
+        11.820850372314453
+      ]
+    },
+    {
+      "name": "R93_NORTH_GLASS_1_9",
+      "center": [
+        -3.89046573638916,
+        2.264537811279297,
+        13.222358703613281
+      ]
+    },
+    {
+      "name": "R93_NORTH_GLASS_2_0",
+      "center": [
+        -4.807284355163574,
+        3.250506639480591,
+        0.6547999978065491
+      ]
+    },
+    {
+      "name": "R93_NORTH_GLASS_2_1",
+      "center": [
+        -4.807284355163574,
+        3.250506639480591,
+        2.010349988937378
+      ]
+    },
+    {
+      "name": "R93_NORTH_GLASS_2_2",
+      "center": [
+        -4.807284355163574,
+        3.250506639480591,
+        3.4118499755859375
+      ]
+    },
+    {
+      "name": "R93_NORTH_GLASS_2_3",
+      "center": [
+        -4.807284355163574,
+        3.250506639480591,
+        4.813350200653076
+      ]
+    },
+    {
+      "name": "R93_NORTH_GLASS_2_4",
+      "center": [
+        -4.807284355163574,
+        3.250506639480591,
+        6.214849948883057
+      ]
+    },
+    {
+      "name": "R93_NORTH_GLASS_2_5",
+      "center": [
+        -4.807284355163574,
+        3.250506639480591,
+        7.616350173950195
+      ]
+    },
+    {
+      "name": "R93_NORTH_GLASS_2_6",
+      "center": [
+        -4.807284355163574,
+        3.250506639480591,
+        9.017849922180176
+      ]
+    },
+    {
+      "name": "R93_NORTH_GLASS_2_7",
+      "center": [
+        -4.807284355163574,
+        3.250506639480591,
+        10.419349670410156
+      ]
+    },
+    {
+      "name": "R93_NORTH_GLASS_2_8",
+      "center": [
+        -4.807284355163574,
+        3.250506639480591,
+        11.820850372314453
+      ]
+    },
+    {
+      "name": "R93_NORTH_GLASS_2_9",
+      "center": [
+        -4.807284355163574,
+        3.250506639480591,
+        13.222358703613281
+      ]
+    }
+  ],
+  "source_ids": [
+    "119",
+    "087",
+    "102",
+    "101"
+  ],
+  "construction_acceptance": false,
+  "limits": [
+    "119 and 087 support aligned transverse lines; actual adjacent band frame elevations govern the shared joints.",
+    "Three columns retained. Lower rows continue the same pitch with a residual bottom bay; exact module counts and profile dimensions remain unmeasured candidates.",
+    "Only north slot panes and frames replaced. Previous user-marked gallery/roof seams remain open work.",
+    "No structural connection, seal or fabrication acceptance implied."
+  ]
+}

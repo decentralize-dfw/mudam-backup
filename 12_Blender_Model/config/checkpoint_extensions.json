@@ -1133,5 +1133,21 @@
     "image": "R92_after_west_gallery.png",
     "description": "Kullanıcının işaretlediği batı diyagonal bölmesi ve aynı yorumla eklenen doğu eşi kaldırıldı. 54 geçiş doğrultusu açık; zemin, tavan ve dış kabuk korundu.",
     "limits": "Kalıcı duvar olduğu doğrulanmayan iki aday kaldırıldı. İdari/teknik hacimler ve kesin çatı biçimi kabulü açık."
+  },
+  {
+    "id": "R93",
+    "checks": [
+      "R93_verification.json",
+      "R93_inherited_verification.json",
+      "R93_global_audit.json"
+    ],
+    "tasks": [
+      "P11"
+    ],
+    "report": "R93_KONTROL_RAPORU.md",
+    "title": "Kuzey cam şerit profil hizalaması / R93",
+    "image": "R93_after_north_alignment.png",
+    "description": "Merkez düşey cam şeridi yeniden üretildi: yan banttaki dört yatay kayıt kotu ortak, alt modüller aynı aralığı sürdürüyor. 30 cam panel ve 15 profil; 140.794 yüzey örneği açık vermedi.",
+    "limits": "Profil boyutları ve alt sıra sayısı ölçülmemiş aday. Önceki duvar–çatı birleşimi işaretleri açık; tüm bina kabulü yapılmadı."
   }
 ]
