@@ -1,0 +1,37 @@
+{
+  "release": {
+    "schema": 1,
+    "revision": "R69",
+    "source_scene": "12_Blender_Model/scenes/MUDAM_R69_ALT_FUAYE_GOMME_ISIK_v001.blend",
+    "source_glb": "12_Blender_Model/exports/MUDAM_R69_ALT_FUAYE_GOMME_ISIK_v001_preview.glb",
+    "url": "../exports/current.glb.gz",
+    "encoding": "gzip",
+    "sha256": "4c4e39aca1768c9fb1b123384ba929ff10d2f1fa628bc5b770eb27e561f291f8",
+    "size_bytes": 89195432,
+    "download_bytes": 54181737,
+    "selected_mesh_count": 7669
+  },
+  "checks": {
+    "source_geometry_verification": "P21_verification.json",
+    "lossless_round_trip": true,
+    "browser_local_loaded_meshes": 7669,
+    "browser_local_source": "MUDAM_R69_ALT_FUAYE_GOMME_ISIK_v001.blend",
+    "level_control": "L00 selected; -0.30 to 4.60 m shown",
+    "node_regression": "gzip, already-decoded HTTP, hash mismatch, 404 checks passed"
+  },
+  "live_site": {
+    "url": "https://xrweb.studio/mudam/12_Blender_Model/MODEL_INCELEME.html",
+    "source_scene": "MUDAM_R69_ALT_FUAYE_GOMME_ISIK_v001.blend",
+    "displayed_mesh_count": 7669,
+    "pages_run": 37916775941,
+    "deployment": "success",
+    "checked_utc": "2026-10-09 10:23:15 UTC",
+    "screenshot": "renders/qa/R69_live_web_viewer.png"
+  },
+  "limits": [
+    "Source Blender and versioned exports remain local",
+    "One latest compressed GLB is published; normal Git history retains past versions",
+    "Automatic refresh checks every 60 seconds while visible"
+  ],
+  "failures": []
+}
