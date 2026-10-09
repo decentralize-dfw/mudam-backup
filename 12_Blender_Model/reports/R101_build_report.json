@@ -1,0 +1,33 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R101_OKUMA_SERVIS_GECIDI_YAN_DUVARLAR_v001.blend",
+  "base_scene": "MUDAM_R100_GALERI_TAVAN_DUVAR_TEMASI_v001.blend",
+  "closed_objects": [
+    "R101_PASSAGE_NORTH_SIDE",
+    "R101_PASSAGE_SOUTH_SIDE"
+  ],
+  "changed_inherited_objects": [],
+  "upper_z": 4.859074784676003,
+  "top_z": 7.559074784676003,
+  "side_specs": [
+    {
+      "name": "R101_PASSAGE_NORTH_SIDE",
+      "x0": 611.7417095215634,
+      "x1": 619.65,
+      "y0": 629.8046773303397,
+      "y1": 632.33
+    },
+    {
+      "name": "R101_PASSAGE_SOUTH_SIDE",
+      "x0": 611.7417095215634,
+      "x1": 623.77,
+      "y0": 647.58,
+      "y1": 650.1053226696604
+    }
+  ],
+  "construction_acceptance": false,
+  "limits": [
+    "Source2016 east reading passage side edges9/11 restored; entrance edge10 remains open.",
+    "Existing room registration,300mm wall thickness and2.7m clear height are conditional; not measured construction detail.",
+    "Only this source-supported connection accepted; other marked upper-floor boundaries remain under review."
+  ]
+}

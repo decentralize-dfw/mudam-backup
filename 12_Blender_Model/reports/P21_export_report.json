@@ -1,7 +1,7 @@
 {
-  "source_scene": "12_Blender_Model/scenes/MUDAM_R100_GALERI_TAVAN_DUVAR_TEMASI_v001.blend",
-  "file": "12_Blender_Model/exports/MUDAM_R100_GALERI_TAVAN_DUVAR_TEMASI_v001_preview.glb",
-  "selected_mesh_count": 8370,
+  "source_scene": "12_Blender_Model/scenes/MUDAM_R101_OKUMA_SERVIS_GECIDI_YAN_DUVARLAR_v001.blend",
+  "file": "12_Blender_Model/exports/MUDAM_R101_OKUMA_SERVIS_GECIDI_YAN_DUVARLAR_v001_preview.glb",
+  "selected_mesh_count": 8372,
   "selected_names": [
     "R37_GH_EAST_PORTAL_METAL_HEAD",
     "R99_W_GROUND_GALLERY_ENTRY_WALL",
@@ -8372,7 +8372,9 @@
     "R97_SERVICE_TREAD_21",
     "R97_SERVICE_TREAD_22",
     "R97_SERVICE_TREAD_23",
-    "R97_SERVICE_TREAD_24"
+    "R97_SERVICE_TREAD_24",
+    "R101_PASSAGE_NORTH_SIDE",
+    "R101_PASSAGE_SOUTH_SIDE"
   ],
   "blender_world_bounds": {
     "min": [
