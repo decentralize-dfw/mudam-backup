@@ -1,0 +1,23 @@
+{
+  "base_scene": "12_Blender_Model/scenes/MUDAM_R21_ODITORYUM_PANEL_v001.blend",
+  "source_ids": [
+    "071",
+    "073",
+    "074",
+    "076",
+    "LCB_auditorium3",
+    "LCB_aschman2"
+  ],
+  "door_state": "both 90deg open candidates; only right open state directly visible in 073",
+  "screen_m": [
+    4.8,
+    2.7
+  ],
+  "downlight_count": 16,
+  "fixture_placement": "perimeter-family candidate, not individually photo-matched",
+  "limits": [
+    "Exact equipment/screen placement and current exhibition configuration unverified.",
+    "Light distribution, color and energy are preview values, not photometry.",
+    "No concealed wiring, fire-rating or door mechanism specification inferred."
+  ]
+}

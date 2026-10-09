@@ -1,0 +1,52 @@
+[
+  {
+    "id": "R26",
+    "checks": [
+      "R26_verification.json",
+      "R26_inherited_verification.json",
+      "R10_regression_on_R26.json"
+    ],
+    "tasks": [
+      "P10",
+      "P11"
+    ],
+    "report": "R26_DOGU_CATI_BAGLANTI_RAPORU.md",
+    "title": "Doğu cam çatı bağlantısı / R26",
+    "image": "R26_garden_context.png",
+    "description": "033/034 ile eğimli çatı–galeri duvarı arasındaki eksik cam şerit eklendi. 63 cam dahil 234 kapalı hacim ve doğu spiralinin dolaşımı yeniden denetlendi.",
+    "limits": "Yatay şerit eğimi, modül sayısı, profil ve birleşim ölçüleri koşullu; drenaj ve mesnet ayrıntıları açık."
+  },
+  {
+    "id": "R27",
+    "checks": [
+      "R27_verification.json",
+      "R27_inherited_verification.json"
+    ],
+    "tasks": [
+      "P08",
+      "P14"
+    ],
+    "report": "R27_GALERI_NIS_RAPORU.md",
+    "title": "Galeri cephesinin eğimli nişleri / R27",
+    "image": "R27_reveal_detail.png",
+    "description": "003/004/005/116 dış görselleriyle beş niş, iki cam açıklık ve tam genişlikte eğimli ara ayaklar işlendi. 30 kapalı parça ve 18 açıklık ışını kontrol edildi.",
+    "limits": "Yerleşim ve ölçüler koşullu. 061/062 iç fotoğraflarının bu cepheyle kesin eşlemesi yok; çevre odalar ve alt kat cephe açıklıkları tamamlanmadı."
+  },
+  {
+    "id": "R28",
+    "checks": [
+      "R28_verification.json",
+      "R28_inherited_verification.json",
+      "R10_regression_on_R28.json"
+    ],
+    "tasks": [
+      "P08",
+      "P16"
+    ],
+    "report": "R28_ZEMIN_GALERI_RAPORU.md",
+    "title": "Zemin galerilerinin açık girişleri / R28",
+    "image": "R28_east_reverse.png",
+    "description": "102 ve PDF2016 ile bağımsız giriş duvarları, dolaşım şeritleri, ahşap zemin ve düz tavan adayları üretildi. 36 geçiş ışını ve 72 destek/baş mesafesi örneği geçti.",
+    "limits": "Tavan kotu ve yapı kalınlıkları koşullu. Galeri dış çevresi, cephe bağlantıları ve tesisat tamamlanmadı; renderdaki yardımcı ışıklar mimari armatür değildir."
+  }
+]

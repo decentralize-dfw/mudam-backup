@@ -1,0 +1,1029 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R25_PAVYON_MERDIVEN_v002.blend",
+  "failures": [],
+  "evaluated_solids": [
+    {
+      "name": "R25_LOWER_PAVILION_FLOOR",
+      "volume": 33.13793790409395,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R25_TREAD_01",
+      "volume": 0.06038436945816317,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R25_TREAD_02",
+      "volume": 0.060384322660655965,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R25_TREAD_03",
+      "volume": 0.0603843270971085,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R25_TREAD_04",
+      "volume": 0.06038456923496449,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R25_TREAD_05",
+      "volume": 0.060384483363617125,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R25_TREAD_06",
+      "volume": 0.060384026514543,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R25_TREAD_07",
+      "volume": 0.06038473571289715,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R25_TREAD_08",
+      "volume": 0.060384227168093885,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R25_TREAD_09",
+      "volume": 0.06038431525735044,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R25_TREAD_10",
+      "volume": 0.060384594285846305,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R25_TREAD_11",
+      "volume": 0.060384456830479216,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R25_TREAD_12",
+      "volume": 0.0603843661105854,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R25_TREAD_13",
+      "volume": 0.06038428814651331,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R25_TREAD_14",
+      "volume": 0.060384452499334884,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R25_TREAD_15",
+      "volume": 0.060384376297290654,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R25_TREAD_16",
+      "volume": 0.06038454597605902,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R25_TREAD_17",
+      "volume": 0.060384581642267676,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R25_TREAD_18",
+      "volume": 0.06038393439016676,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R25_TREAD_19",
+      "volume": 0.060384666237894236,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R25_TREAD_20",
+      "volume": 0.06038426715904022,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R25_TREAD_21",
+      "volume": 0.06038427526636303,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R25_TREAD_22",
+      "volume": 0.06038459428587384,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R25_TREAD_23",
+      "volume": 0.0603844568304579,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R25_TREAD_24",
+      "volume": 0.060384370340325066,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R25_UPPER_LANDING",
+      "volume": 0.2066300404897321,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R25_STONE_CORE",
+      "volume": 4.540481119650487,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R25_GROUND_PARAPET",
+      "volume": 1.8724424713690984,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R25_HELICAL_OUTER_GUARD",
+      "volume": 4.15325589333634,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R25_WALL_HANDRAIL",
+      "volume": 0.01167945009606273,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R25_RAIL_BRACKET_00",
+      "volume": 2.5518538114237613e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R25_RAIL_BRACKET_01",
+      "volume": 2.5514285504636344e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R25_RAIL_BRACKET_02",
+      "volume": 2.5516119306573468e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R25_RAIL_BRACKET_03",
+      "volume": 2.551325433560684e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R25_RAIL_BRACKET_04",
+      "volume": 2.551783961626461e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R25_RAIL_BRACKET_05",
+      "volume": 2.551454942777316e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R25_RAIL_BRACKET_06",
+      "volume": 2.5515944812107933e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R25_RAIL_BRACKET_07",
+      "volume": 2.551315677902597e-05,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    }
+  ],
+  "bridge_portal": [
+    {
+      "y": 276,
+      "z": 0.2,
+      "hits": []
+    },
+    {
+      "y": 276,
+      "z": 1.5,
+      "hits": []
+    },
+    {
+      "y": 276,
+      "z": 2.1,
+      "hits": []
+    },
+    {
+      "y": 279,
+      "z": 0.2,
+      "hits": []
+    },
+    {
+      "y": 279,
+      "z": 1.5,
+      "hits": []
+    },
+    {
+      "y": 279,
+      "z": 2.1,
+      "hits": []
+    },
+    {
+      "y": 282,
+      "z": 0.2,
+      "hits": []
+    },
+    {
+      "y": 282,
+      "z": 1.5,
+      "hits": []
+    },
+    {
+      "y": 282,
+      "z": 2.1,
+      "hits": []
+    }
+  ],
+  "floor_support": [
+    {
+      "x": 107,
+      "y": 279,
+      "hits": [
+        "R17_GROUND_FLOOR"
+      ]
+    },
+    {
+      "x": 110,
+      "y": 230,
+      "hits": [
+        "R17_GROUND_FLOOR"
+      ]
+    },
+    {
+      "x": 150,
+      "y": 270,
+      "hits": [
+        "R17_GROUND_FLOOR"
+      ]
+    },
+    {
+      "x": 150,
+      "y": 310,
+      "hits": [
+        "R17_GROUND_FLOOR"
+      ]
+    },
+    {
+      "x": 106,
+      "y": 330,
+      "hits": [
+        "R17_GROUND_FLOOR"
+      ]
+    },
+    {
+      "x": 64,
+      "y": 300,
+      "hits": [
+        "R17_GROUND_FLOOR"
+      ]
+    },
+    {
+      "x": 95,
+      "y": 290,
+      "hits": [
+        "R17_GROUND_FLOOR"
+      ]
+    },
+    {
+      "x": 171,
+      "y": 279,
+      "hits": [
+        "P05_LINK_FLOOR"
+      ]
+    },
+    {
+      "x": 175,
+      "y": 279,
+      "hits": [
+        "P05_LINK_FLOOR"
+      ]
+    }
+  ],
+  "window_view": [
+    {
+      "y": 269,
+      "z": 1.3,
+      "hits": [
+        "R17_WINDOW_GLASS"
+      ]
+    },
+    {
+      "y": 269,
+      "z": 2.3,
+      "hits": [
+        "R17_WINDOW_GLASS"
+      ]
+    },
+    {
+      "y": 269,
+      "z": 3.3,
+      "hits": [
+        "R17_WINDOW_GLASS"
+      ]
+    },
+    {
+      "y": 279,
+      "z": 1.3,
+      "hits": [
+        "R17_WINDOW_GLASS"
+      ]
+    },
+    {
+      "y": 279,
+      "z": 2.3,
+      "hits": [
+        "R17_WINDOW_GLASS"
+      ]
+    },
+    {
+      "y": 279,
+      "z": 3.3,
+      "hits": [
+        "R17_WINDOW_GLASS"
+      ]
+    },
+    {
+      "y": 289,
+      "z": 1.3,
+      "hits": [
+        "R17_WINDOW_GLASS"
+      ]
+    },
+    {
+      "y": 289,
+      "z": 2.3,
+      "hits": [
+        "R17_WINDOW_GLASS"
+      ]
+    },
+    {
+      "y": 289,
+      "z": 3.3,
+      "hits": [
+        "R17_WINDOW_GLASS"
+      ]
+    }
+  ],
+  "stair_samples": [
+    {
+      "step": "R25_TREAD_01",
+      "fraction": 0.25,
+      "support": [
+        "R25_TREAD_01"
+      ],
+      "head": []
+    },
+    {
+      "step": "R25_TREAD_01",
+      "fraction": 0.5,
+      "support": [
+        "R25_TREAD_01"
+      ],
+      "head": []
+    },
+    {
+      "step": "R25_TREAD_01",
+      "fraction": 0.75,
+      "support": [
+        "R25_TREAD_01"
+      ],
+      "head": []
+    },
+    {
+      "step": "R25_TREAD_02",
+      "fraction": 0.25,
+      "support": [
+        "R25_TREAD_02"
+      ],
+      "head": []
+    },
+    {
+      "step": "R25_TREAD_02",
+      "fraction": 0.5,
+      "support": [
+        "R25_TREAD_02"
+      ],
+      "head": []
+    },
+    {
+      "step": "R25_TREAD_02",
+      "fraction": 0.75,
+      "support": [
+        "R25_TREAD_02"
+      ],
+      "head": []
+    },
+    {
+      "step": "R25_TREAD_03",
+      "fraction": 0.25,
+      "support": [
+        "R25_TREAD_03"
+      ],
+      "head": []
+    },
+    {
+      "step": "R25_TREAD_03",
+      "fraction": 0.5,
+      "support": [
+        "R25_TREAD_03"
+      ],
+      "head": []
+    },
+    {
+      "step": "R25_TREAD_03",
+      "fraction": 0.75,
+      "support": [
+        "R25_TREAD_03"
+      ],
+      "head": []
+    },
+    {
+      "step": "R25_TREAD_04",
+      "fraction": 0.25,
+      "support": [
+        "R25_TREAD_04"
+      ],
+      "head": []
+    },
+    {
+      "step": "R25_TREAD_04",
+      "fraction": 0.5,
+      "support": [
+        "R25_TREAD_04"
+      ],
+      "head": []
+    },
+    {
+      "step": "R25_TREAD_04",
+      "fraction": 0.75,
+      "support": [
+        "R25_TREAD_04"
+      ],
+      "head": []
+    },
+    {
+      "step": "R25_TREAD_05",
+      "fraction": 0.25,
+      "support": [
+        "R25_TREAD_05"
+      ],
+      "head": []
+    },
+    {
+      "step": "R25_TREAD_05",
+      "fraction": 0.5,
+      "support": [
+        "R25_TREAD_05"
+      ],
+      "head": []
+    },
+    {
+      "step": "R25_TREAD_05",
+      "fraction": 0.75,
+      "support": [
+        "R25_TREAD_05"
+      ],
+      "head": []
+    },
+    {
+      "step": "R25_TREAD_06",
+      "fraction": 0.25,
+      "support": [
+        "R25_TREAD_06"
+      ],
+      "head": []
+    },
+    {
+      "step": "R25_TREAD_06",
+      "fraction": 0.5,
+      "support": [
+        "R25_TREAD_06"
+      ],
+      "head": []
+    },
+    {
+      "step": "R25_TREAD_06",
+      "fraction": 0.75,
+      "support": [
+        "R25_TREAD_06"
+      ],
+      "head": []
+    },
+    {
+      "step": "R25_TREAD_07",
+      "fraction": 0.25,
+      "support": [
+        "R25_TREAD_07"
+      ],
+      "head": []
+    },
+    {
+      "step": "R25_TREAD_07",
+      "fraction": 0.5,
+      "support": [
+        "R25_TREAD_07"
+      ],
+      "head": []
+    },
+    {
+      "step": "R25_TREAD_07",
+      "fraction": 0.75,
+      "support": [
+        "R25_TREAD_07"
+      ],
+      "head": []
+    },
+    {
+      "step": "R25_TREAD_08",
+      "fraction": 0.25,
+      "support": [
+        "R25_TREAD_08"
+      ],
+      "head": []
+    },
+    {
+      "step": "R25_TREAD_08",
+      "fraction": 0.5,
+      "support": [
+        "R25_TREAD_08"
+      ],
+      "head": []
+    },
+    {
+      "step": "R25_TREAD_08",
+      "fraction": 0.75,
+      "support": [
+        "R25_TREAD_08"
+      ],
+      "head": []
+    },
+    {
+      "step": "R25_TREAD_09",
+      "fraction": 0.25,
+      "support": [
+        "R25_TREAD_09"
+      ],
+      "head": []
+    },
+    {
+      "step": "R25_TREAD_09",
+      "fraction": 0.5,
+      "support": [
+        "R25_TREAD_09"
+      ],
+      "head": []
+    },
+    {
+      "step": "R25_TREAD_09",
+      "fraction": 0.75,
+      "support": [
+        "R25_TREAD_09"
+      ],
+      "head": []
+    },
+    {
+      "step": "R25_TREAD_10",
+      "fraction": 0.25,
+      "support": [
+        "R25_TREAD_10"
+      ],
+      "head": []
+    },
+    {
+      "step": "R25_TREAD_10",
+      "fraction": 0.5,
+      "support": [
+        "R25_TREAD_10"
+      ],
+      "head": []
+    },
+    {
+      "step": "R25_TREAD_10",
+      "fraction": 0.75,
+      "support": [
+        "R25_TREAD_10"
+      ],
+      "head": []
+    },
+    {
+      "step": "R25_TREAD_11",
+      "fraction": 0.25,
+      "support": [
+        "R25_TREAD_11"
+      ],
+      "head": []
+    },
+    {
+      "step": "R25_TREAD_11",
+      "fraction": 0.5,
+      "support": [
+        "R25_TREAD_11"
+      ],
+      "head": []
+    },
+    {
+      "step": "R25_TREAD_11",
+      "fraction": 0.75,
+      "support": [
+        "R25_TREAD_11"
+      ],
+      "head": []
+    },
+    {
+      "step": "R25_TREAD_12",
+      "fraction": 0.25,
+      "support": [
+        "R25_TREAD_12"
+      ],
+      "head": []
+    },
+    {
+      "step": "R25_TREAD_12",
+      "fraction": 0.5,
+      "support": [
+        "R25_TREAD_12"
+      ],
+      "head": []
+    },
+    {
+      "step": "R25_TREAD_12",
+      "fraction": 0.75,
+      "support": [
+        "R25_TREAD_12"
+      ],
+      "head": []
+    },
+    {
+      "step": "R25_TREAD_13",
+      "fraction": 0.25,
+      "support": [
+        "R25_TREAD_13"
+      ],
+      "head": []
+    },
+    {
+      "step": "R25_TREAD_13",
+      "fraction": 0.5,
+      "support": [
+        "R25_TREAD_13"
+      ],
+      "head": []
+    },
+    {
+      "step": "R25_TREAD_13",
+      "fraction": 0.75,
+      "support": [
+        "R25_TREAD_13"
+      ],
+      "head": []
+    },
+    {
+      "step": "R25_TREAD_14",
+      "fraction": 0.25,
+      "support": [
+        "R25_TREAD_14"
+      ],
+      "head": []
+    },
+    {
+      "step": "R25_TREAD_14",
+      "fraction": 0.5,
+      "support": [
+        "R25_TREAD_14"
+      ],
+      "head": []
+    },
+    {
+      "step": "R25_TREAD_14",
+      "fraction": 0.75,
+      "support": [
+        "R25_TREAD_14"
+      ],
+      "head": []
+    },
+    {
+      "step": "R25_TREAD_15",
+      "fraction": 0.25,
+      "support": [
+        "R25_TREAD_15"
+      ],
+      "head": []
+    },
+    {
+      "step": "R25_TREAD_15",
+      "fraction": 0.5,
+      "support": [
+        "R25_TREAD_15"
+      ],
+      "head": []
+    },
+    {
+      "step": "R25_TREAD_15",
+      "fraction": 0.75,
+      "support": [
+        "R25_TREAD_15"
+      ],
+      "head": []
+    },
+    {
+      "step": "R25_TREAD_16",
+      "fraction": 0.25,
+      "support": [
+        "R25_TREAD_16"
+      ],
+      "head": []
+    },
+    {
+      "step": "R25_TREAD_16",
+      "fraction": 0.5,
+      "support": [
+        "R25_TREAD_16"
+      ],
+      "head": []
+    },
+    {
+      "step": "R25_TREAD_16",
+      "fraction": 0.75,
+      "support": [
+        "R25_TREAD_16"
+      ],
+      "head": []
+    },
+    {
+      "step": "R25_TREAD_17",
+      "fraction": 0.25,
+      "support": [
+        "R25_TREAD_17"
+      ],
+      "head": []
+    },
+    {
+      "step": "R25_TREAD_17",
+      "fraction": 0.5,
+      "support": [
+        "R25_TREAD_17"
+      ],
+      "head": []
+    },
+    {
+      "step": "R25_TREAD_17",
+      "fraction": 0.75,
+      "support": [
+        "R25_TREAD_17"
+      ],
+      "head": []
+    },
+    {
+      "step": "R25_TREAD_18",
+      "fraction": 0.25,
+      "support": [
+        "R25_TREAD_18"
+      ],
+      "head": []
+    },
+    {
+      "step": "R25_TREAD_18",
+      "fraction": 0.5,
+      "support": [
+        "R25_TREAD_18"
+      ],
+      "head": []
+    },
+    {
+      "step": "R25_TREAD_18",
+      "fraction": 0.75,
+      "support": [
+        "R25_TREAD_18"
+      ],
+      "head": []
+    },
+    {
+      "step": "R25_TREAD_19",
+      "fraction": 0.25,
+      "support": [
+        "R25_TREAD_19"
+      ],
+      "head": []
+    },
+    {
+      "step": "R25_TREAD_19",
+      "fraction": 0.5,
+      "support": [
+        "R25_TREAD_19"
+      ],
+      "head": []
+    },
+    {
+      "step": "R25_TREAD_19",
+      "fraction": 0.75,
+      "support": [
+        "R25_TREAD_19"
+      ],
+      "head": []
+    },
+    {
+      "step": "R25_TREAD_20",
+      "fraction": 0.25,
+      "support": [
+        "R25_TREAD_20"
+      ],
+      "head": []
+    },
+    {
+      "step": "R25_TREAD_20",
+      "fraction": 0.5,
+      "support": [
+        "R25_TREAD_20"
+      ],
+      "head": []
+    },
+    {
+      "step": "R25_TREAD_20",
+      "fraction": 0.75,
+      "support": [
+        "R25_TREAD_20"
+      ],
+      "head": []
+    },
+    {
+      "step": "R25_TREAD_21",
+      "fraction": 0.25,
+      "support": [
+        "R25_TREAD_21"
+      ],
+      "head": []
+    },
+    {
+      "step": "R25_TREAD_21",
+      "fraction": 0.5,
+      "support": [
+        "R25_TREAD_21"
+      ],
+      "head": []
+    },
+    {
+      "step": "R25_TREAD_21",
+      "fraction": 0.75,
+      "support": [
+        "R25_TREAD_21"
+      ],
+      "head": []
+    },
+    {
+      "step": "R25_TREAD_22",
+      "fraction": 0.25,
+      "support": [
+        "R25_TREAD_22"
+      ],
+      "head": []
+    },
+    {
+      "step": "R25_TREAD_22",
+      "fraction": 0.5,
+      "support": [
+        "R25_TREAD_22"
+      ],
+      "head": []
+    },
+    {
+      "step": "R25_TREAD_22",
+      "fraction": 0.75,
+      "support": [
+        "R25_TREAD_22"
+      ],
+      "head": []
+    },
+    {
+      "step": "R25_TREAD_23",
+      "fraction": 0.25,
+      "support": [
+        "R25_TREAD_23"
+      ],
+      "head": []
+    },
+    {
+      "step": "R25_TREAD_23",
+      "fraction": 0.5,
+      "support": [
+        "R25_TREAD_23"
+      ],
+      "head": []
+    },
+    {
+      "step": "R25_TREAD_23",
+      "fraction": 0.75,
+      "support": [
+        "R25_TREAD_23"
+      ],
+      "head": []
+    },
+    {
+      "step": "R25_TREAD_24",
+      "fraction": 0.25,
+      "support": [
+        "P05_ZONE_LM1_PAV",
+        "R25_LOWER_PAVILION_FLOOR",
+        "R25_TREAD_24"
+      ],
+      "head": []
+    },
+    {
+      "step": "R25_TREAD_24",
+      "fraction": 0.5,
+      "support": [
+        "P05_ZONE_LM1_PAV",
+        "R25_LOWER_PAVILION_FLOOR",
+        "R25_TREAD_24"
+      ],
+      "head": []
+    },
+    {
+      "step": "R25_TREAD_24",
+      "fraction": 0.75,
+      "support": [
+        "P05_ZONE_LM1_PAV",
+        "R25_LOWER_PAVILION_FLOOR",
+        "R25_TREAD_24"
+      ],
+      "head": []
+    }
+  ],
+  "connections": [
+    {
+      "kind": "upper_entry",
+      "z": 0.2,
+      "hits": []
+    },
+    {
+      "kind": "upper_entry",
+      "z": 1.4,
+      "hits": []
+    },
+    {
+      "kind": "upper_entry",
+      "z": 2.05,
+      "hits": []
+    },
+    {
+      "kind": "lower_exit",
+      "z": 0.2,
+      "hits": []
+    },
+    {
+      "kind": "lower_exit",
+      "z": 1.4,
+      "hits": []
+    },
+    {
+      "kind": "lower_exit",
+      "z": 2.05,
+      "hits": []
+    }
+  ],
+  "stair_is_representative": true,
+  "construction_acceptance": false
+}

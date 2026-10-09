@@ -1,0 +1,195 @@
+{
+  "source_polygons_canonical": {
+    "E": [
+      [
+        306.0966226951735,
+        530.6877447244935
+      ],
+      [
+        307.73166280249814,
+        413.67555450551384
+      ],
+      [
+        355.7446760831873,
+        365.7301228873065
+      ],
+      [
+        457.8782435623434,
+        467.12150327210355
+      ],
+      [
+        457.8782435650002,
+        596.3216457888743
+      ],
+      [
+        415.05630094934065,
+        639.64342621365
+      ]
+    ],
+    "W": [
+      [
+        794.0464861811672,
+        369.269318589505
+      ],
+      [
+        845.8653883669085,
+        420.8263721302418
+      ],
+      [
+        846.1312337769278,
+        529.8733736369073
+      ],
+      [
+        736.7666711504233,
+        638.7694670003458
+      ],
+      [
+        694.1948291163142,
+        595.5826076577604
+      ],
+      [
+        694.1948291151073,
+        468.3430599008882
+      ]
+    ]
+  },
+  "source_ids": [
+    "103",
+    "PDF2016",
+    "UG02",
+    "UG03",
+    "UC01",
+    "UC02"
+  ],
+  "base_scene": "MUDAM_R22_ODITORYUM_DONATI_v001.blend",
+  "wall_display_thickness_m": 0.25,
+  "wall_top_z": 13.723118,
+  "bridge_head_above_floor_m": 3.2,
+  "stair_head_above_floor_m": 2.6,
+  "portals": [
+    {
+      "id": "E_STAIR",
+      "side": "E",
+      "edge": 1,
+      "ends": [
+        [
+          324.601,
+          396.99
+        ],
+        [
+          343.722,
+          377.862
+        ]
+      ],
+      "source_items": [
+        12,
+        24
+      ],
+      "head": 2.6
+    },
+    {
+      "id": "E_BRIDGE",
+      "side": "E",
+      "edge": 3,
+      "ends": [
+        [
+          457.877,
+          562.532
+        ],
+        [
+          457.877,
+          593.257
+        ]
+      ],
+      "source_items": [
+        9,
+        28
+      ],
+      "head": 3.2
+    },
+    {
+      "id": "W_STAIR",
+      "side": "W",
+      "edge": 0,
+      "ends": [
+        [
+          797.777,
+          373.468
+        ],
+        [
+          813.91,
+          389.553
+        ]
+      ],
+      "source_items": [
+        73,
+        92
+      ],
+      "head": 2.6
+    },
+    {
+      "id": "W_BRIDGE",
+      "side": "W",
+      "edge": 4,
+      "ends": [
+        [
+          694.195,
+          562.532
+        ],
+        [
+          694.195,
+          593.257
+        ]
+      ],
+      "source_items": [
+        69,
+        95
+      ],
+      "head": 3.2
+    }
+  ],
+  "west_return_uv": [
+    [
+      [
+        1177,
+        424.5
+      ],
+      [
+        1275,
+        424.5
+      ],
+      [
+        1275,
+        452
+      ],
+      [
+        1177,
+        452
+      ]
+    ],
+    [
+      [
+        1177,
+        414
+      ],
+      [
+        1200,
+        414
+      ],
+      [
+        1200,
+        452
+      ],
+      [
+        1177,
+        452
+      ]
+    ]
+  ],
+  "limits": [
+    "PDF2016 wall gaps determine door positions; gap endpoints projected onto existing six-sided floor envelopes.",
+    "Portal heads, wall thicknesses and finish colors unmeasured. Upper gallery walls over six metres tall supported by project architect.",
+    "West upper landing must turn toward PDF portal; the prior straight route into gallery is superseded, not retained as a door.",
+    "Existing five-bay shed geometry remains a draft; UC02 shows at least five complete plus one cropped shell. Roof revision pending."
+  ]
+}

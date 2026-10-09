@@ -40,6 +40,20 @@ def publish():
   candidate=json.loads((B/'reports/R19_build_report.json').read_text());checks=[json.loads((B/'reports'/k).read_text()) for k in ['R19_verification.json','R19_inherited_verification.json']];assert all(c['file']==candidate['file'] and not c['failures'] for c in checks);r=candidate
  if (B/'reports/R20_verification.json').exists():
   candidate=json.loads((B/'reports/R20_build_report.json').read_text());checks=[json.loads((B/'reports'/k).read_text()) for k in ['R20_verification.json','R20_inherited_verification.json']];assert all(c['file']==candidate['file'] and not c['failures'] for c in checks);r=candidate
+ if (B/'reports/R21_verification.json').exists():
+  candidate=json.loads((B/'reports/R21_build_report.json').read_text());checks=[json.loads((B/'reports'/k).read_text()) for k in ['R21_verification.json','R21_inherited_verification.json']];assert all(c['file']==candidate['file'] and not c['failures'] for c in checks);r=candidate
+ if (B/'reports/R22_verification.json').exists():
+  candidate=json.loads((B/'reports/R22_build_report.json').read_text());checks=[json.loads((B/'reports'/k).read_text()) for k in ['R22_verification.json','R22_inherited_verification.json']];assert all(c['file']==candidate['file'] and not c['failures'] for c in checks);r=candidate
+ if (B/'reports/R23_verification.json').exists():
+  candidate=json.loads((B/'reports/R23_build_report.json').read_text());checks=[json.loads((B/'reports'/k).read_text()) for k in ['R23_verification.json','R23_inherited_verification.json']];assert all(c['file']==candidate['file'] and not c['failures'] for c in checks);r=candidate
+ if (B/'reports/R24_verification.json').exists():
+  candidate=json.loads((B/'reports/R24_build_report.json').read_text());checks=[json.loads((B/'reports'/k).read_text()) for k in ['R24_verification.json','R24_inherited_verification.json']];assert all(c['file']==candidate['file'] and not c['failures'] for c in checks);r=candidate
+ if (B/'reports/R25_verification.json').exists():
+  candidate=json.loads((B/'reports/R25_build_report.json').read_text());checks=[json.loads((B/'reports'/k).read_text()) for k in ['R25_verification.json','R25_inherited_verification.json']];assert all(c['file']==candidate['file'] and not c['failures'] for c in checks);r=candidate
+ extensions=json.loads((B/'config/checkpoint_extensions.json').read_text(encoding='utf8')) if (B/'config/checkpoint_extensions.json').exists() else []
+ for e in extensions:
+  if not (B/'reports'/e['checks'][0]).exists():continue
+  candidate=json.loads((B/'reports'/f"{e['id']}_build_report.json").read_text());checks=[json.loads((B/'reports'/k).read_text()) for k in e['checks']];assert all(c['file']==candidate['file'] and not c['failures'] for c in checks);r=candidate
  p=R/'11_Blender_Modelleme_Plani/is_paketleri.json';data=json.loads(p.read_text(encoding='utf8'));data['latest_scene']=r['file']
  issues={'P15':'Okuma boşluğu cam korkuluk pilotu üretildi; ana merdiven korkulukları ve kesin bağlantılar açık.','P17':'Okuma alanı döşeme boşluğu üretildi; eğimli taş tavan, avize, üst galeri içleri açık.','P19':'Şeffaf cam, koyu metal ve genel gündüz önizlemesi; yüzeye özgü taş ve ışık kalibrasyonu açık.','P20':'L00 ve LP1 yatay mesh kesitleri plan üstünde incelenebilir; tam kat ayırma ve canlı kesit açık.','P21':str(q21['mesh_nodes'])+' mesh / '+str(q21['triangles'])+' üçgen GLB aktarımı denetlendi; hedef motor ve sadeleştirme açık.'}
  for t in data['tasks']:
@@ -80,6 +94,22 @@ def publish():
  if any(k in r['file'] for k in ['R19','R20']):
   for t in data['tasks']:
    if t['id']=='P16':t.update(status='in_progress',artifacts=[r['file'],'12_Blender_Model/reports/R19_R20_ODITORYUM_RAPORU.md'],open_issues=['104, 071–076 ve iki LCB fotoğrafıyla kademeli taş zemin, sahne, kaset tavan, kontrol kabini ve 8×16 koltuk adayı üretildi. Kesin rıht/kot, gizli koltuk adetleri ve imalat ayrıntıları açık; ahşap panel/delik düzeni sıradaki iş.'])
+ if 'R21' in r['file']:
+  for t in data['tasks']:
+   if t['id']=='P16':t.update(status='in_progress',artifacts=[r['file'],'12_Blender_Model/reports/R21_ODITORYUM_PANEL_RAPORU.md'],open_issues=['Oditoryumda 246 ahşap/delikli panel bileşeni eklendi; tek kaynak panelinde 15×13 delik sayımı var. Diğer tekrarlar ve ölçüler koşullu; kapı, perde, armatür ve geri kalan alt galeri içleri açık.'])
+ if 'R22' in r['file']:
+  for t in data['tasks']:
+   if t['id']=='P16':t.update(status='in_progress',artifacts=[r['file'],'12_Blender_Model/reports/R22_ODITORYUM_DONATI_RAPORU.md'],open_issues=['Oditoryumda kapalı panel/koltuk adayları, iki açık kapı, boş projeksiyon yüzeyi ve 16 gömme ışık eklendi. Kesin ölçüler, ışık yerleşimi ve teknik sistemler koşullu; alt galeriler tamamlanmadı.'])
+ if any(k in r['file'] for k in ['R23','R24']):
+  for t in data['tasks']:
+   if t['id'] in ['P08','P11','P17']:t.update(status='in_progress',artifacts=[r['file'],'12_Blender_Model/reports/R23_R24_UST_GALERI_RAPORU.md'],open_issues=['İki üst galerinin çevresi, dört geçişi ve batı üst dönüşü; on kapalı çatı kabuğu ve geçirgen ışıklık adayları üretildi. Çatı tekrarı, kesitler, aydınlatma ve ayrıntılar koşullu.'])
+ if 'R25' in r['file']:
+  for t in data['tasks']:
+   if t['id'] in ['P09','P15']:t.update(status='in_progress',artifacts=[r['file'],'12_Blender_Model/reports/R25_PAVYON_MERDIVEN_RAPORU.md'],open_issues=['Pavyonda taş parapet, alt döşeme ve 24 rıhtlı temsilî merdiven eklendi; dolaşım kontrolü geçti. Dönüş yönü/adedi, iç çekirdek, alt giriş ve bütün detay ölçüleri kesin değil.'])
+ for e in extensions:
+  if e['id'] in r['file']:
+   for t in data['tasks']:
+    if t['id'] in e['tasks']:t.update(status='in_progress',artifacts=[r['file'],'12_Blender_Model/reports/'+e['report']],open_issues=[e['description']+' '+e['limits']])
  data['current_tasks']=[t['id'] for t in data['tasks'] if t['status']=='in_progress'];p.write_text(json.dumps(data,ensure_ascii=False,indent=2)+'\n',encoding='utf8')
  latest=Path(r['file']).relative_to('12_Blender_Model').as_posix();glb=Path(q21['file']).relative_to('12_Blender_Model').as_posix();p=B/'URETIM.html';s=p.read_text(encoding='utf8');s=re.sub(r'href="scenes/[^\"]+\.blend"',f'href="{latest}"',s);s=s.replace('P06 - P12 / BÖLGESEL ÜRETİM','P06–P21 / BÖLGESEL ÜRETİM VE KONTROL');s=s.replace('renders/qa/P12_entry_detail.png','renders/qa/P19_entry_daylight.png').replace('renders/qa/P11_116.png','renders/qa/P19_116_daylight.png')
  s=re.sub(r'href="exports/[^"]+\.glb"',f'href="{glb}"',s)
@@ -142,6 +172,22 @@ def publish():
  if any(k in r['file'] for k in ['R19','R20']):
   auditorium='<section class="panel" id="auditorium-progress"><h2>Oditoryum: oda, kademeler ve koltuklar / R19–R20</h2><img src="renders/qa/R20_room_from_stage.png" alt="Kademeli taş zemin üzerinde sekiz sıralı koltuk düzeni ve kaset tavan çalışma modeli"><p>104 planı, 101 kesiti, 071–076 ve iki yeni LCB fotoğrafıyla sahne, iki yan geçiş, taş kademeler, arkadaki camlı kontrol kabini ve kaset tavan kuruldu. Sekiz sıra ve arka sırada 16 koltuk fotoğraftan destekleniyor; 8×16 düzen çalışma adayıdır.</p><p>896 koltuk bileşeni, 128 destek/baş mesafesi ve 50 geçiş örneği kontrol edildi. Kesin ölçüler ve kapalı kalan koltuklar belirsiz; ahşap paneller/delikler, donanım ve ışık ayrıntıları henüz tamamlanmadı.</p><a href="renders/qa/R20_seat_detail.png">Koltuk bileşenleri</a> · <a href="references/auditorium_lcb/aschman2.jpg">LCB kaynak fotoğrafı</a> · <a href="reports/R19_R20_ODITORYUM_RAPORU.md">Kaynak ve kontrol raporu</a></section>'
   s=re.sub(r'<section class="panel" id="auditorium-progress">.*?</section>','',s,flags=re.S);s=s.replace('<section class="panel"><h2>Paket takibi</h2>',auditorium+'<section class="panel"><h2>Paket takibi</h2>')
+ if 'R21' in r['file']:
+  panels='<section class="panel" id="auditorium-panels"><h2>Ahşap panel ve kare delikler / R21</h2><img src="renders/qa/R21_panel_detail.png" alt="Oditoryumda gerçek delik geometrili ahşap panel adayı"><p>076 yakın çekiminde bir panelde 15 sütun × 13 sıra delik sayıldı. 246 kapalı bileşen üretildi; delik yüzleri geometri olarak açık, arka koyu yüz yalnız görünüm adayıdır. Koltuk ve geçiş testleri yeniden geçti.</p><p>Bütün odadaki panel tekrarları ve derz ölçüleri koşullu. Gizli akustik sistem veya ahşap türü belirlenmedi.</p><a href="reports/R21_ODITORYUM_PANEL_RAPORU.md">Kaynak ve kontrol raporu</a> · <a href="references/R21_076_perforation_crop.png">076 delik sayımı kırpımı</a></section>'
+  s=re.sub(r'<section class="panel" id="auditorium-panels">.*?</section>','',s,flags=re.S);s=s.replace('<section class="panel"><h2>Paket takibi</h2>',panels+'<section class="panel"><h2>Paket takibi</h2>')
+ if 'R22' in r['file']:
+  fixtures='<section class="panel" id="auditorium-fixtures"><h2>Oditoryum kapıları, ekran ve gömme ışıklar / R22</h2><img src="renders/qa/R22_room_to_stage.png" alt="Oditoryumun kaynaklara dayalı kapı, projeksiyon yüzeyi ve gömme ışık adayları"><p>071/073/074/076 ile iki açık ahşap kapı, boş projeksiyon yüzeyi ve 16 küçük gömme armatür adayı eklendi. Yuvalar tavan geometrisine işlendi; 16 yuva açıklığı, kapı geçişleri, koltuk destekleri ve önceki panel delikleri yeniden denetlendi.</p><p>Armatür adedi/yerleşimi, ışık gücü, ekran ve kapı detayları kesin proje verisi değildir. Tam müze çalışması sürüyor.</p><a href="reports/R22_ODITORYUM_DONATI_RAPORU.md">Kaynak ve kontroller</a> · <a href="renders/qa/R22_door_light_detail.png">Kapı ve tavan ayrıntısı</a></section>'
+  s=re.sub(r'<section class="panel" id="auditorium-fixtures">.*?</section>','',s,flags=re.S);s=s.replace('<section class="panel"><h2>Paket takibi</h2>',fixtures+'<section class="panel"><h2>Paket takibi</h2>')
+ if any(k in r['file'] for k in ['R23','R24']):
+  section='<section class="panel" id="upper-gallery-progress"><h2>Üst galeriler: geçişler ve cam ışıklıklar / R23–R24</h2><img src="renders/qa/R24_east_clerestory.png" alt="Kapalı beton kabuklar ve geçirgen üst galeri ışıklıkları çalışma adayı"><p>103/PDF2016 ile iki altıgen galeri ve dört geçiş kuruldu; batı merdiveninin üst rotası plandaki kapıya döndürüldü. UC01/UC02 ve UG02/UG03 ile eski opak ışıklıklar cam ve kapalı kabuk adaylarına dönüştürüldü. 184 kapalı çatı bileşeni, cam açıklıkları ve galeri dolaşımı denetlendi.</p><p>Doğu altı/batı dört kabuk tekrarı, profil ve bütün detay ölçüleri koşullu. Işık/pozlama kalibrasyonu ve oda donanımları açık; tam bina kabulü yok.</p><a href="renders/qa/R24_west_clerestory.png">Batı galeri</a> · <a href="reports/R23_R24_UST_GALERI_RAPORU.md">Kaynaklar ve açık konular</a></section>'
+  s=re.sub(r'<section class="panel" id="upper-gallery-progress">.*?</section>','',s,flags=re.S);s=s.replace('<section class="panel"><h2>Paket takibi</h2>',section+'<section class="panel"><h2>Paket takibi</h2>')
+ if 'R25' in r['file']:
+  section='<section class="panel" id="pavilion-stair-progress"><h2>Pavyonun taş parapeti ve temsilî merdiveni / R25</h2><img src="renders/qa/R25_stair_top.png" alt="Pavyondaki taş parapet ve açıkça temsilî 24 rıhtlı merdiven adayı"><p>102/104, 101 ve resmî PA0119 fotoğrafı ile taş parapet, alt döşeme ve düzenlenebilir merdiven adayı üretildi. 38 kapalı nesne, 72 basamak örneği ve üst/alt geçişler denetlendi.</p><p>24 rıht, 360 derece dönüş, yön, iç çekirdek ve giriş konumları kesin kaynak bilgisi değildir. Bu bölüm temsilîdir; yeni kanıtla revizyona açık.</p><a href="reports/R25_PAVYON_MERDIVEN_RAPORU.md">Kaynak ve belirsizlikler</a> · <a href="renders/qa/R25_pavilion_inside.png">Oda görünümü</a></section>'
+  s=re.sub(r'<section class="panel" id="pavilion-stair-progress">.*?</section>','',s,flags=re.S);s=s.replace('<section class="panel"><h2>Paket takibi</h2>',section+'<section class="panel"><h2>Paket takibi</h2>')
+ for e in extensions:
+  if e['id'] not in r['file']:continue
+  section=f'<section class="panel" id="checkpoint-{e["id"]}"><h2>{html.escape(e["title"])}</h2><img src="renders/qa/{e["image"]}" alt="{html.escape(e["title"])}"><p>{html.escape(e["description"])}</p><p>{html.escape(e["limits"])}</p><a href="reports/{e["report"]}">Kaynak ve kontrol raporu</a></section>'
+  s=re.sub(r'<section class="panel" id="checkpoint-'+e['id']+r'">.*?</section>','',s,flags=re.S);s=s.replace('<section class="panel"><h2>Paket takibi</h2>',section+'<section class="panel"><h2>Paket takibi</h2>')
  s=re.sub(r'<section class="panel" id="reading-progress">.*?</section>','',s,flags=re.S);s=s.replace('<section class="panel"><h2>Paket takibi</h2>',block+'<section class="panel"><h2>Paket takibi</h2>');p.write_text(s,encoding='utf8')
  p=B/'URETIM_DURUMU.md';s=p.read_text(encoding='utf8');s=re.sub(r'\[MUDAM_[^\]]+\.blend\]\(scenes/[^)]+\)',f'[{Path(latest).name}]({latest})',s)
  s=s.replace('| P13-P22 | Başlamadı | Kalan detay paketleri |','| P13-P14, P16, P18 | Açık | Taş/derz, bütün açıklıklar, iç bitişler, arazi |\n| P15, P17 | Bölgesel pilot | Okuma alanı döşeme boşluğu, cam korkuluk ve çatı açıklığı |\n| P19 | Önizleme | Saydam cam ve genel gündüz ışığı; malzeme/ışık kalibrasyonu açık |\n| P20 | Kontrol aracı | L00/LP1 yatay kesitleri plan üzerinde |\n| P21 | Ara teslim | GLB aktarımı denetlendi; hedef motor optimizasyonu açık |\n| P22 | Açık | Nihai mimari teslim doğrulaması yapılmadı |')

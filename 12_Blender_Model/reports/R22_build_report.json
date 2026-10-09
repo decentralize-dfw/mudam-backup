@@ -1,0 +1,310 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R22_ODITORYUM_DONATI_v001.blend",
+  "base_scene": "12_Blender_Model/scenes/MUDAM_R21_ODITORYUM_PANEL_v001.blend",
+  "closed_objects": [
+    "R22_DOOR_FRAME_L_L",
+    "R22_DOOR_FRAME_L_R",
+    "R22_DOOR_FRAME_L_T",
+    "R22_DOOR_LEAF_L",
+    "R22_HINGE_L_0.28",
+    "R22_HINGE_L_1.1",
+    "R22_HINGE_L_1.98",
+    "R22_HANDLE_STEM_L",
+    "R22_HANDLE_L",
+    "R22_DOOR_FRAME_R_L",
+    "R22_DOOR_FRAME_R_R",
+    "R22_DOOR_FRAME_R_T",
+    "R22_DOOR_LEAF_R",
+    "R22_HINGE_R_0.28",
+    "R22_HINGE_R_1.1",
+    "R22_HINGE_R_1.98",
+    "R22_HANDLE_STEM_R",
+    "R22_HANDLE_R",
+    "R22_PROJECTION_SURFACE",
+    "R22_SCREEN_LOWER_PLINTH",
+    "R22_LIGHT_CUT_00",
+    "R22_LIGHT_TRIM_00",
+    "R22_LIGHT_REFLECTOR_00",
+    "R22_LIGHT_DIFFUSER_00",
+    "R22_LIGHT_CUT_01",
+    "R22_LIGHT_TRIM_01",
+    "R22_LIGHT_REFLECTOR_01",
+    "R22_LIGHT_DIFFUSER_01",
+    "R22_LIGHT_CUT_02",
+    "R22_LIGHT_TRIM_02",
+    "R22_LIGHT_REFLECTOR_02",
+    "R22_LIGHT_DIFFUSER_02",
+    "R22_LIGHT_CUT_03",
+    "R22_LIGHT_TRIM_03",
+    "R22_LIGHT_REFLECTOR_03",
+    "R22_LIGHT_DIFFUSER_03",
+    "R22_LIGHT_CUT_04",
+    "R22_LIGHT_TRIM_04",
+    "R22_LIGHT_REFLECTOR_04",
+    "R22_LIGHT_DIFFUSER_04",
+    "R22_LIGHT_CUT_05",
+    "R22_LIGHT_TRIM_05",
+    "R22_LIGHT_REFLECTOR_05",
+    "R22_LIGHT_DIFFUSER_05",
+    "R22_LIGHT_CUT_06",
+    "R22_LIGHT_TRIM_06",
+    "R22_LIGHT_REFLECTOR_06",
+    "R22_LIGHT_DIFFUSER_06",
+    "R22_LIGHT_CUT_07",
+    "R22_LIGHT_TRIM_07",
+    "R22_LIGHT_REFLECTOR_07",
+    "R22_LIGHT_DIFFUSER_07",
+    "R22_LIGHT_CUT_08",
+    "R22_LIGHT_TRIM_08",
+    "R22_LIGHT_REFLECTOR_08",
+    "R22_LIGHT_DIFFUSER_08",
+    "R22_LIGHT_CUT_09",
+    "R22_LIGHT_TRIM_09",
+    "R22_LIGHT_REFLECTOR_09",
+    "R22_LIGHT_DIFFUSER_09",
+    "R22_LIGHT_CUT_10",
+    "R22_LIGHT_TRIM_10",
+    "R22_LIGHT_REFLECTOR_10",
+    "R22_LIGHT_DIFFUSER_10",
+    "R22_LIGHT_CUT_11",
+    "R22_LIGHT_TRIM_11",
+    "R22_LIGHT_REFLECTOR_11",
+    "R22_LIGHT_DIFFUSER_11",
+    "R22_LIGHT_CUT_12",
+    "R22_LIGHT_TRIM_12",
+    "R22_LIGHT_REFLECTOR_12",
+    "R22_LIGHT_DIFFUSER_12",
+    "R22_LIGHT_CUT_13",
+    "R22_LIGHT_TRIM_13",
+    "R22_LIGHT_REFLECTOR_13",
+    "R22_LIGHT_DIFFUSER_13",
+    "R22_LIGHT_CUT_14",
+    "R22_LIGHT_TRIM_14",
+    "R22_LIGHT_REFLECTOR_14",
+    "R22_LIGHT_DIFFUSER_14",
+    "R22_LIGHT_CUT_15",
+    "R22_LIGHT_TRIM_15",
+    "R22_LIGHT_REFLECTOR_15",
+    "R22_LIGHT_DIFFUSER_15"
+  ],
+  "changed_inherited_objects": [
+    "R19_CEILING_LEFT",
+    "R19_CEILING_RIGHT",
+    "R19_CEILING_FRONT"
+  ],
+  "cutters": [
+    "R22_LIGHT_CUT_00",
+    "R22_LIGHT_CUT_01",
+    "R22_LIGHT_CUT_02",
+    "R22_LIGHT_CUT_03",
+    "R22_LIGHT_CUT_04",
+    "R22_LIGHT_CUT_05",
+    "R22_LIGHT_CUT_06",
+    "R22_LIGHT_CUT_07",
+    "R22_LIGHT_CUT_08",
+    "R22_LIGHT_CUT_09",
+    "R22_LIGHT_CUT_10",
+    "R22_LIGHT_CUT_11",
+    "R22_LIGHT_CUT_12",
+    "R22_LIGHT_CUT_13",
+    "R22_LIGHT_CUT_14",
+    "R22_LIGHT_CUT_15"
+  ],
+  "fixtures": [
+    {
+      "x": 474,
+      "y": 435,
+      "ceiling": "R19_CEILING_LEFT",
+      "center": [
+        13.139158248901367,
+        9.542174339294434,
+        -1.0
+      ],
+      "operand": "R22_LIGHT_CUT_00"
+    },
+    {
+      "x": 474,
+      "y": 448,
+      "ceiling": "R19_CEILING_LEFT",
+      "center": [
+        14.39262580871582,
+        10.707731246948242,
+        -1.0
+      ],
+      "operand": "R22_LIGHT_CUT_01"
+    },
+    {
+      "x": 474,
+      "y": 461,
+      "ceiling": "R19_CEILING_LEFT",
+      "center": [
+        15.646093368530273,
+        11.873287200927734,
+        -1.0
+      ],
+      "operand": "R22_LIGHT_CUT_02"
+    },
+    {
+      "x": 474,
+      "y": 474,
+      "ceiling": "R19_CEILING_LEFT",
+      "center": [
+        16.899560928344727,
+        13.038844108581543,
+        -1.0
+      ],
+      "operand": "R22_LIGHT_CUT_03"
+    },
+    {
+      "x": 474,
+      "y": 487,
+      "ceiling": "R19_CEILING_LEFT",
+      "center": [
+        18.15302848815918,
+        14.204401016235352,
+        -1.0
+      ],
+      "operand": "R22_LIGHT_CUT_04"
+    },
+    {
+      "x": 474,
+      "y": 500,
+      "ceiling": "R19_CEILING_LEFT",
+      "center": [
+        19.406496047973633,
+        15.36995792388916,
+        -1.0
+      ],
+      "operand": "R22_LIGHT_CUT_05"
+    },
+    {
+      "x": 571,
+      "y": 435,
+      "ceiling": "R19_CEILING_RIGHT",
+      "center": [
+        4.442312717437744,
+        18.894969940185547,
+        -1.0
+      ],
+      "operand": "R22_LIGHT_CUT_06"
+    },
+    {
+      "x": 571,
+      "y": 448,
+      "ceiling": "R19_CEILING_RIGHT",
+      "center": [
+        5.695780277252197,
+        20.060527801513672,
+        -1.0
+      ],
+      "operand": "R22_LIGHT_CUT_07"
+    },
+    {
+      "x": 571,
+      "y": 461,
+      "ceiling": "R19_CEILING_RIGHT",
+      "center": [
+        6.949247360229492,
+        21.226083755493164,
+        -1.0
+      ],
+      "operand": "R22_LIGHT_CUT_08"
+    },
+    {
+      "x": 571,
+      "y": 474,
+      "ceiling": "R19_CEILING_RIGHT",
+      "center": [
+        8.202714920043945,
+        22.391639709472656,
+        -1.0
+      ],
+      "operand": "R22_LIGHT_CUT_09"
+    },
+    {
+      "x": 571,
+      "y": 487,
+      "ceiling": "R19_CEILING_RIGHT",
+      "center": [
+        9.456182479858398,
+        23.55719757080078,
+        -1.0
+      ],
+      "operand": "R22_LIGHT_CUT_10"
+    },
+    {
+      "x": 571,
+      "y": 500,
+      "ceiling": "R19_CEILING_RIGHT",
+      "center": [
+        10.709650039672852,
+        24.722753524780273,
+        -1.0
+      ],
+      "operand": "R22_LIGHT_CUT_11"
+    },
+    {
+      "x": 494,
+      "y": 425,
+      "ceiling": "R19_CEILING_FRONT",
+      "center": [
+        10.38178825378418,
+        10.574004173278809,
+        -1.0
+      ],
+      "operand": "R22_LIGHT_CUT_12"
+    },
+    {
+      "x": 508,
+      "y": 425,
+      "ceiling": "R19_CEILING_FRONT",
+      "center": [
+        9.12657356262207,
+        11.9238920211792,
+        -1.0
+      ],
+      "operand": "R22_LIGHT_CUT_13"
+    },
+    {
+      "x": 536,
+      "y": 425,
+      "ceiling": "R19_CEILING_FRONT",
+      "center": [
+        6.616143703460693,
+        14.623668670654297,
+        -1.0
+      ],
+      "operand": "R22_LIGHT_CUT_14"
+    },
+    {
+      "x": 550,
+      "y": 425,
+      "ceiling": "R19_CEILING_FRONT",
+      "center": [
+        5.360929012298584,
+        15.973556518554688,
+        -1.0
+      ],
+      "operand": "R22_LIGHT_CUT_15"
+    }
+  ],
+  "doors": [
+    {
+      "side": "L",
+      "width": 1.3483087062306465,
+      "open_angle_degrees": 90,
+      "objects": [
+        "R22_DOOR_LEAF_L"
+      ]
+    },
+    {
+      "side": "R",
+      "width": 1.3483087062306465,
+      "open_angle_degrees": 90,
+      "objects": [
+        "R22_DOOR_LEAF_R"
+      ]
+    }
+  ],
+  "construction_acceptance": false
+}

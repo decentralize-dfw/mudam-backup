@@ -1,0 +1,68 @@
+{
+  "sources": [
+    {
+      "id": "071",
+      "path": "04_Ic_Mekan/Oditoryum/071_Oditoryum_ve_ahsap_duvarlar_WikiArquitectura.jpg",
+      "sha256": "5ef0cecc58dafed66ea18b16099a87078b6039a9a1cb063e708c6d1ff4f98cda",
+      "source_url": "https://es.wikiarquitectura.com/edificio/museo-de-arte-moderno-grand-duc-jean-mudam/",
+      "credit": "WikiArquitectura; sayfadaki fotoğraf serisi Haziran 2019",
+      "source_date": "unknown; do not infer from download date",
+      "modified": false
+    },
+    {
+      "id": "073",
+      "path": "04_Ic_Mekan/Oditoryum/073_Oditoryum_ve_ahsap_duvarlar_WikiArquitectura.jpg",
+      "sha256": "0bef39b731590c2ce4c9b155c9c2c4ecd6917c1e7cba1024b264813721b52dce",
+      "source_url": "https://es.wikiarquitectura.com/edificio/museo-de-arte-moderno-grand-duc-jean-mudam/",
+      "credit": "WikiArquitectura; sayfadaki fotoğraf serisi Haziran 2019",
+      "source_date": "unknown; do not infer from download date",
+      "modified": false
+    },
+    {
+      "id": "074",
+      "path": "07_Yapi_Detaylari/Tavan_ve_Akustik/074_Oditoryum_kaset_tavan_WikiArquitectura.jpg",
+      "sha256": "8edf5fb5c2df80d29261d70008a46ca4f12db0e2f9c905db93e69298bcc5b456",
+      "source_url": "https://es.wikiarquitectura.com/edificio/museo-de-arte-moderno-grand-duc-jean-mudam/",
+      "credit": "WikiArquitectura; sayfadaki fotoğraf serisi Haziran 2019",
+      "source_date": "unknown; do not infer from download date",
+      "modified": false
+    },
+    {
+      "id": "076",
+      "path": "04_Ic_Mekan/Oditoryum/076_Oditoryum_ve_ahsap_duvarlar_WikiArquitectura.jpg",
+      "sha256": "7101713a13e2957861944f4e5d42a3576dc2f62a421c11c87373f1d7317248ba",
+      "source_url": "https://es.wikiarquitectura.com/edificio/museo-de-arte-moderno-grand-duc-jean-mudam/",
+      "credit": "WikiArquitectura; sayfadaki fotoğraf serisi Haziran 2019",
+      "source_date": "unknown; do not infer from download date",
+      "modified": false
+    },
+    {
+      "id": "LCB_auditorium3",
+      "path": "12_Blender_Model/references/auditorium_lcb/auditorium3.jpg",
+      "url": "https://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/luxembourg/AUDITORIUM3-MUDAM--Christian_Aschman_LR_E72CD6E7-EBCF-48BB-B01522573D42B466_f74f6181-a071-423d-ae4673b258dd9512.jpg",
+      "page": "https://lcb.lu/en/partners/122?favorite=show",
+      "credit": "Mudam / Christian Aschman per source filename",
+      "sha256": "bcb01006ab91fa90200d5297b7a17e0b4932a9ce8764956d58b7ad252c577899"
+    },
+    {
+      "id": "LCB_aschman2",
+      "path": "12_Blender_Model/references/auditorium_lcb/aschman2.jpg",
+      "url": "https://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/luxembourg/Christian-Aschman2_9EFDFA27-A83D-4F91-B3F38D1E2DF9BB59_3a1911db-7b4c-46b8-9c15e2d083fae8bd.jpg",
+      "page": "https://lcb.lu/en/partners/122?favorite=show",
+      "credit": "Mudam / Christian Aschman per source filename",
+      "sha256": "e1d94ba97512191c2c8c6678ae452b89bb3b12588bfbd685827f6ea63c9f9c84"
+    }
+  ],
+  "capacity_reference": {
+    "url": "https://lcb.lu/en/partners/122?favorite=show",
+    "table": 128,
+    "prose": 130,
+    "area_m2": 220,
+    "physical_seat_layout_verified": false
+  },
+  "limits": [
+    "Exact equipment/screen placement and current exhibition configuration unverified.",
+    "Light distribution, color and energy are preview values, not photometry.",
+    "No concealed wiring, fire-rating or door mechanism specification inferred."
+  ]
+}

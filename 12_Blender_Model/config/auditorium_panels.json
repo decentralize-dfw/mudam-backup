@@ -1,0 +1,24 @@
+{
+  "base_scene": "12_Blender_Model/scenes/MUDAM_R20_ODITORYUM_KOLTUK_v002.blend",
+  "source_ids": [
+    "071",
+    "072",
+    "073",
+    "076",
+    "LCB_auditorium3",
+    "LCB_aschman2"
+  ],
+  "single_panel_observed_holes": [
+    15,
+    13
+  ],
+  "joint_gap_m": 0.008,
+  "panel_thickness_m": 0.024,
+  "backing_status": "dark appearance plane; physical system unknown",
+  "source_crop": "references/R21_076_perforation_crop.png",
+  "limits": [
+    "Whole-room panel modules/heights are candidates. One visible grid does not establish all panel patterns.",
+    "No timber species, acoustic performance, hidden absorption or mounting specification inferred.",
+    "Existing wall envelope retained behind face layer; holes pass through face, not through structural wall."
+  ]
+}

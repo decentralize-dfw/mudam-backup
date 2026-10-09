@@ -1,0 +1,59 @@
+{
+  "base_scene": "MUDAM_R26_DOGU_CATI_BAGLANTI_v001.blend",
+  "source_ids": [
+    "001",
+    "002",
+    "003",
+    "004",
+    "005",
+    "100",
+    "116",
+    "102",
+    "101",
+    "061",
+    "062"
+  ],
+  "facade_endpoints": [
+    [
+      289.5,
+      534.7
+    ],
+    [
+      478.7,
+      723.3
+    ]
+  ],
+  "bay_starts_m": [
+    0.92,
+    5.94,
+    10.97,
+    16.07,
+    21.11
+  ],
+  "bay_width_m": 3.8,
+  "head_z": 4.35,
+  "sill_z": 0.08,
+  "blind_bottom_z": 1.65,
+  "recess_depth_m": 1.25,
+  "wall_depth_m": 1.6,
+  "splay_m": 0.35,
+  "frame_width_m": 0.07,
+  "frame_depth_m": 0.12,
+  "glass_thickness_m": 0.018,
+  "types": [
+    "blind",
+    "glazed",
+    "blind",
+    "glazed",
+    "blind"
+  ],
+  "status": "conditional_photo_derived_facade_candidate",
+  "limits": [
+    "Five bays and two glazing positions supported by 001/003/116; facade plane follows 102.",
+    "Starts derive from conditional P06 116 camera rays. Width, recess depth, sill and reveals are visual candidates, not surveyed.",
+    "Shadow boundaries must not be interpreted as blind-niche edges. Hidden construction and basement facade windows remain open.",
+    "R27 revised topology: full inter-bay sloping piers, separate raised niche soffits, recessed continuous lower back plane. 003/004/005 and 061/062 reviewed together.",
+    "Window head and sill reset to full-height ground-gallery candidate; all dimensions remain unmeasured."
+  ],
+  "fin_shoulder_z": 4.0
+}

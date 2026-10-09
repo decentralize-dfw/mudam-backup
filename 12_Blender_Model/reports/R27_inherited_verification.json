@@ -1,0 +1,46 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R27_GALERI_NIS_REVIZYON_v001.blend",
+  "base_scene": "12_Blender_Model/scenes/MUDAM_R26_DOGU_CATI_BAGLANTI_v001.blend",
+  "inherited_objects_checked": 7027,
+  "changed_inherited_objects": [
+    "P05_FRONT_1"
+  ],
+  "allowed_changes": [
+    "P05_FRONT_1"
+  ],
+  "allowed_but_unchanged": [],
+  "new_objects": [
+    "R27_BAY_1_BLIND_BACK",
+    "R27_BAY_1_END_RETURN",
+    "R27_BAY_2_BASE",
+    "R27_BAY_2_FRAME_B",
+    "R27_BAY_2_FRAME_L",
+    "R27_BAY_2_FRAME_R",
+    "R27_BAY_2_FRAME_T",
+    "R27_BAY_2_GLASS",
+    "R27_BAY_2_PIER_BASE",
+    "R27_BAY_2_PIER_SHOULDER",
+    "R27_BAY_2_SLOPING_PIER",
+    "R27_BAY_3_BLIND_BACK",
+    "R27_BAY_3_PIER_BASE",
+    "R27_BAY_3_PIER_SHOULDER",
+    "R27_BAY_3_SLOPING_PIER",
+    "R27_BAY_4_BASE",
+    "R27_BAY_4_FRAME_B",
+    "R27_BAY_4_FRAME_L",
+    "R27_BAY_4_FRAME_R",
+    "R27_BAY_4_FRAME_T",
+    "R27_BAY_4_GLASS",
+    "R27_BAY_4_PIER_BASE",
+    "R27_BAY_4_PIER_SHOULDER",
+    "R27_BAY_4_SLOPING_PIER",
+    "R27_BAY_5_BLIND_BACK",
+    "R27_BAY_5_PIER_BASE",
+    "R27_BAY_5_PIER_SHOULDER",
+    "R27_BAY_5_SLOPING_PIER",
+    "R27_CONTINUOUS_HEAD",
+    "R27_END_PIER"
+  ],
+  "failures": [],
+  "construction_acceptance": false
+}

@@ -1,0 +1,25 @@
+{
+  "base_scene": "MUDAM_R24_GALERI_ISIKLIK_v001.blend",
+  "source_ids": [
+    "101",
+    "102",
+    "104",
+    "PA0119",
+    "PA0098"
+  ],
+  "risers": 24,
+  "turn_degrees": 360,
+  "start_angle_canonical_degrees": 90,
+  "landing_start_degrees": 45,
+  "inner_radius_m": 0.55,
+  "parapet_thickness_m": 0.2,
+  "parapet_height_m": 0.95,
+  "step_underside_m": 0.18,
+  "handrail_diameter_m": 0.038,
+  "limits": [
+    "101 shows descending stair below pavilion; 102/104 show circle with inner core; PA0119 shows stone parapet and descending handrail.",
+    "24 risers, clockwise descent in image coordinates, one turn and 45-degree upper landing are explicit unverified circulation candidates. Symbol spokes are not counted as real risers.",
+    "Height remains separate pavilion level -3.831m from section ratio. No surveyed construction dimensions.",
+    "Lower room boundary reuses pavilion footprint; no unobserved lower door or exhibition fitout invented."
+  ]
+}

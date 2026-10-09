@@ -1,0 +1,19 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R28_ZEMIN_GALERI_GIRIS_v002.blend",
+  "base_scene": "MUDAM_R27_GALERI_NIS_REVIZYON_v001.blend",
+  "closed_objects": [
+    "R28_E_CIRCULATION_FLOOR",
+    "R28_E_DETACHED_ENTRY_WALL",
+    "R28_E_FLAT_CEILING",
+    "R28_W_CIRCULATION_FLOOR",
+    "R28_W_DETACHED_ENTRY_WALL",
+    "R28_W_FLAT_CEILING"
+  ],
+  "changed_inherited_objects": [
+    "P05_FLOOR_L00_E0",
+    "P05_GALLERY_HALL_EAST1",
+    "P05_FLOOR_L00_W0",
+    "P05_GALLERY_HALL_WEST1"
+  ],
+  "construction_acceptance": false
+}

@@ -63,3 +63,9 @@ Push sonrasında üretim sürdü. 089 ile pavyon kulesinin sekizgen taslağı d�
 2026-10-09 00:45 UTC — R19 v002/R20 v002: oditoryum oda, taş kademeler, sahne, kaset tavan, camlı arka kabin ve 128 koltuk adayı üretildi. Yeni LCB fotoğraflarıyla yanlış ahşap zemin yorumu düzeltildi. Kesin ölçüler ve gizli koltuklar açık; paneller sıradaki iş.
 
 - 2026-10-09 00:47:40 UTC — `4c4cd2d` origin/main push başarılı. R13 pavyon camı, R14 batı cam merdiven, R16 dış profil malzemesi, R17/R18 pavyon içi/geçit, R19/R20 oditoryum ve 128 koltuk adayı; kaynaklar, yeniden açma kontrolleri, renderlar ve 22,71 MB GLB kaydedildi. R15 cephe denemeleri reddedilmiş araştırma olarak ayrıldı. HEAD ve origin/main eşleşti. Üretim R21 ahşap/perfore panellerle aktif sürüyor.
+
+
+2026-10-09 01:16 UTC — R21/R22 oditoryum detayları ve R23/R24 üst galeri duvar/geçiş/ışıklık adayları üretildi. R23 ilk eşik boşluğu v002 ile düzeltildi; R24 184 kapalı hacim ve cam/rota testleri geçti. Kaynaklara göre belirsizlikler ayrı kaydedildi. Üretim sürüyor.
+
+
+2026-10-09 01:47:12 UTC — R21–R28 ara üretim: oditoryum panel/donanım; üst galeri odaları ve ışıklıklar; temsilî pavyon merdiveni; doğu çatı şeridi; koşullu cephe nişleri; zemin galeri açık girişleri. Yeni sahneler yeniden açıldı, yerel kontroller/renderlar ve R28 GLB/kesit aktarımı denetlendi. Tam bina tamamlanmadı; kalan oda/cephe/taş/ahşap/tesisat/arazi işleri sürüyor. Saatlik push hazırlanıyor.

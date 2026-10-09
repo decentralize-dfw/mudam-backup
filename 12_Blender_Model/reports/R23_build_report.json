@@ -1,0 +1,133 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R23_UST_GALERI_MEKAN_v002.blend",
+  "base_scene": "MUDAM_R22_ODITORYUM_DONATI_v001.blend",
+  "closed_objects": [
+    "R23_E_0_WALL",
+    "R23_E_1_JAMB_A",
+    "R23_E_1_JAMB_B",
+    "R23_E_1_HEAD",
+    "R23_THRESHOLD_E_STAIR",
+    "R23_E_2_WALL",
+    "R23_E_3_JAMB_A",
+    "R23_E_3_JAMB_B",
+    "R23_E_3_HEAD",
+    "R23_THRESHOLD_E_BRIDGE",
+    "R23_E_4_WALL",
+    "R23_E_5_WALL",
+    "R23_W_0_JAMB_A",
+    "R23_W_0_JAMB_B",
+    "R23_W_0_HEAD",
+    "R23_THRESHOLD_W_STAIR",
+    "R23_W_1_WALL",
+    "R23_W_2_WALL",
+    "R23_W_3_WALL",
+    "R23_W_4_JAMB_A",
+    "R23_W_4_JAMB_B",
+    "R23_W_4_HEAD",
+    "R23_THRESHOLD_W_BRIDGE",
+    "R23_W_5_WALL",
+    "R23_WEST_RETURN_FLOOR_0",
+    "R23_WEST_RETURN_FLOOR_1"
+  ],
+  "changed_inherited_objects": [
+    "P05_FLOOR_LP1_E0",
+    "P05_FLOOR_LP1_W0"
+  ],
+  "portals": [
+    {
+      "id": "E_STAIR",
+      "start": [
+        21.8452205657959,
+        -14.437311172485352,
+        0.0
+      ],
+      "end": [
+        18.63443374633789,
+        -14.31836223602295,
+        0.0
+      ],
+      "outward": [
+        -0.03702136129140854,
+        -0.999314546585083,
+        0.0
+      ],
+      "head_above_floor": 2.6,
+      "projection_residual_m": [
+        0.013453513383865356,
+        0.010602667927742004
+      ]
+    },
+    {
+      "id": "E_BRIDGE",
+      "start": [
+        25.46585464477539,
+        10.562541961669922,
+        0.0
+      ],
+      "end": [
+        28.13884735107422,
+        13.048065185546875,
+        0.0
+      ],
+      "outward": [
+        -0.680959939956665,
+        0.7323207259178162,
+        -0.0
+      ],
+      "head_above_floor": 3.2,
+      "projection_residual_m": [
+        0.0001468658447265625,
+        0.00014829635620117188
+      ]
+    },
+    {
+      "id": "W_STAIR",
+      "start": [
+        -18.519569396972656,
+        24.839710235595703,
+        0.0
+      ],
+      "end": [
+        -18.428131103515625,
+        27.54454231262207,
+        0.0
+      ],
+      "outward": [
+        -0.9994290471076965,
+        0.0337861105799675,
+        -0.0
+      ],
+      "head_above_floor": 2.6,
+      "projection_residual_m": [
+        0.04101293720304966,
+        0.043835848569869995
+      ]
+    },
+    {
+      "id": "W_BRIDGE",
+      "start": [
+        9.02182674407959,
+        33.606964111328125,
+        0.0
+      ],
+      "end": [
+        6.348835468292236,
+        31.121440887451172,
+        0.0
+      ],
+      "outward": [
+        0.6809600591659546,
+        -0.7323206067085266,
+        -0.0
+      ],
+      "head_above_floor": 3.2,
+      "projection_residual_m": [
+        2.002716064453125e-05,
+        1.9609928131103516e-05
+      ]
+    }
+  ],
+  "upper_z": 4.859074784676003,
+  "old_west_straight_route_superseded": true,
+  "construction_acceptance": false
+}

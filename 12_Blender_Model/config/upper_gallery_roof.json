@@ -1,0 +1,32 @@
+{
+  "base_scene": "MUDAM_R23_UST_GALERI_MEKAN_v002.blend",
+  "source_ids": [
+    "UG02",
+    "UG03",
+    "UC01",
+    "UC02",
+    "103",
+    "PDF2016",
+    "101"
+  ],
+  "bay_counts": {
+    "E": 6,
+    "W": 4
+  },
+  "roof_base_above_upper_floor": 6.2,
+  "roof_high_z": 13.723118,
+  "shell_vertical_thickness_m": 0.16,
+  "profile": "quarter ellipse; visible cast shell family, not fitted engineering section",
+  "profile_samples_per_bay": 32,
+  "glass_thickness_m": 0.018,
+  "frame_width_m": 0.075,
+  "frame_depth_m": 0.12,
+  "glass_max_candidate_module_m": 2.2,
+  "limits": [
+    "UC02 crop shows five complete shell fields plus one cropped foreground field. Six bays is candidate minimum interpretation; gallery identity assumed E from longer plan span.",
+    "West four-bay extrapolation gives similar pitch to east six-bay arrangement; no independent west total count.",
+    "Roof heights inherited section candidates; quarter ellipse and thickness unmeasured.",
+    "Every source P05 roof strip and opaque clerestory plane is preserved hidden, replaced by closed shells and real glass.",
+    "No reinforcement, bearing or watertightness design inferred."
+  ]
+}

@@ -1,6 +1,6 @@
 # Gece üretimine devam
 
-8 Ekim 2026, 23:15 Europe/Paris civarı ara durum. Son sahneyi her zaman `../11_Blender_Modelleme_Plani/is_paketleri.json` içindeki `latest_scene` alanından oku. Şu an R14 v003: R13 kare pavyon cam kulesi ve R14 iki kollu batı cam merdiven eklendi. Doğu çatı şeridi ve pavyon iç döşeme/merdiveni açık. Sonraki kaynak incelemesi galeri dış pencere/revelleridir. Tam müze bitmedi; sabah hedefi tam doğrulama iddiasına dönüşmemeli.
+9 Ekim 2026 01:39 UTC ara durum. R21–R28 bölgesel adayları doğrulandı: oditoryum panel/donanım; üst galeri çevresi ve ışıklıklar; temsilî pavyon merdiveni; doğu çatı bağlantısı; ön cephe niş revizyonu ve zemin galerilerin açık girişleri. Son sahneyi is_paketleri.json latest_scene alanından oku. Bütün bina tamamlanmadı. Sırada zemin/alt galerilerin kalıcı duvar ve açıklıkları, kalan cephe, malzeme, arazi ve bütün model denetimi var. Aşağıdaki eski kayıtlar tarihseldir.
 
 ## Kaydedilen işler
 

@@ -1,0 +1,25 @@
+{
+  "base_scene": "MUDAM_R25_PAVYON_MERDIVEN_v002.blend",
+  "source_ids": [
+    "033",
+    "034",
+    "041",
+    "102",
+    "101",
+    "119"
+  ],
+  "columns_candidate": 20,
+  "rows_candidate": 3,
+  "glass_thickness_m": 0.018,
+  "frame_width_m": 0.075,
+  "frame_depth_m": 0.14,
+  "wall_edge_beam_width_m": 0.18,
+  "wall_edge_beam_depth_m": 0.28,
+  "limits": [
+    "033 and 034 show an additional glazed strip between the sloped east roof and tall stone gallery wall.",
+    "Strip footprint is the remaining polygon between existing roof high edge and registered wall; source wall bend at x349 explicitly retained.",
+    "Horizontal surface at existing 9.718577m high edge is a candidate; exact roof fall not solved by metric photo matching.",
+    "Twenty length modules follow existing sloped roof candidate; three strip rows and an extra split at wall corner are visualization choices.",
+    "No waterproofing, structural bearing or drainage specification inferred."
+  ]
+}

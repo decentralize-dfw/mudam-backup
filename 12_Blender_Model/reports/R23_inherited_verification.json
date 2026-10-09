@@ -1,0 +1,44 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R23_UST_GALERI_MEKAN_v002.blend",
+  "base_scene": "12_Blender_Model/scenes/MUDAM_R22_ODITORYUM_DONATI_v001.blend",
+  "inherited_objects_checked": 6545,
+  "changed_inherited_objects": [
+    "P05_FLOOR_LP1_E0",
+    "P05_FLOOR_LP1_W0"
+  ],
+  "allowed_changes": [
+    "P05_FLOOR_LP1_E0",
+    "P05_FLOOR_LP1_W0"
+  ],
+  "allowed_but_unchanged": [],
+  "new_objects": [
+    "R23_E_0_WALL",
+    "R23_E_1_HEAD",
+    "R23_E_1_JAMB_A",
+    "R23_E_1_JAMB_B",
+    "R23_E_2_WALL",
+    "R23_E_3_HEAD",
+    "R23_E_3_JAMB_A",
+    "R23_E_3_JAMB_B",
+    "R23_E_4_WALL",
+    "R23_E_5_WALL",
+    "R23_THRESHOLD_E_BRIDGE",
+    "R23_THRESHOLD_E_STAIR",
+    "R23_THRESHOLD_W_BRIDGE",
+    "R23_THRESHOLD_W_STAIR",
+    "R23_WEST_RETURN_FLOOR_0",
+    "R23_WEST_RETURN_FLOOR_1",
+    "R23_W_0_HEAD",
+    "R23_W_0_JAMB_A",
+    "R23_W_0_JAMB_B",
+    "R23_W_1_WALL",
+    "R23_W_2_WALL",
+    "R23_W_3_WALL",
+    "R23_W_4_HEAD",
+    "R23_W_4_JAMB_A",
+    "R23_W_4_JAMB_B",
+    "R23_W_5_WALL"
+  ],
+  "failures": [],
+  "construction_acceptance": false
+}

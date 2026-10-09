@@ -1,0 +1,1870 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R26_DOGU_CATI_BAGLANTI_v001.blend",
+  "failures": [],
+  "evaluated_solids": [
+    {
+      "name": "R26_GLASS_00_00",
+      "volume": 0.050177205349454745,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_FRAME_000",
+      "volume": 0.01532523615853476,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_FRAME_001",
+      "volume": 0.02996572194323388,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_FRAME_002",
+      "volume": 0.012999557206343978,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_FRAME_003",
+      "volume": 0.03359551752104236,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_GLASS_00_01",
+      "volume": 0.05041240548167214,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_FRAME_004",
+      "volume": 0.029965700972560683,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_FRAME_005",
+      "volume": 0.011378037305336305,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_FRAME_006",
+      "volume": 0.03359553115854741,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_GLASS_00_02",
+      "volume": 0.05054444353089593,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_FRAME_007",
+      "volume": 0.029965715638888092,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_FRAME_008",
+      "volume": 0.010783396772833798,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_FRAME_009",
+      "volume": 0.03359551752104325,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_GLASS_01_00",
+      "volume": 0.04425344050855229,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_FRAME_010",
+      "volume": 0.015325256581174812,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_FRAME_011",
+      "volume": 0.02633589175724449,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_FRAME_012",
+      "volume": 0.012999537423913507,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_GLASS_01_01",
+      "volume": 0.04448860862977655,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_FRAME_013",
+      "volume": 0.026335884424076045,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_FRAME_014",
+      "volume": 0.011378037305329158,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_GLASS_01_02",
+      "volume": 0.04462077413822002,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_FRAME_015",
+      "volume": 0.026335912727915762,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_FRAME_016",
+      "volume": 0.010783425076672487,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_GLASS_02_00",
+      "volume": 0.03832970585553114,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_FRAME_017",
+      "volume": 0.015325236158531652,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_FRAME_018",
+      "volume": 0.022706096179432755,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_FRAME_019",
+      "volume": 0.01299955720634946,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_GLASS_02_01",
+      "volume": 0.03856491042979793,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_FRAME_020",
+      "volume": 0.02270606787559363,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_FRAME_021",
+      "volume": 0.011378055556241023,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_GLASS_02_02",
+      "volume": 0.03869701023183164,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_FRAME_022",
+      "volume": 0.022706082541924445,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_FRAME_023",
+      "volume": 0.010783410410340921,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_GLASS_03_00",
+      "volume": 0.032405922726414405,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_FRAME_024",
+      "volume": 0.01532523657108549,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_FRAME_025",
+      "volume": 0.019076272297787373,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_FRAME_026",
+      "volume": 0.012999538984974524,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_GLASS_03_01",
+      "volume": 0.032641114309378494,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_FRAME_027",
+      "volume": 0.019076273326607808,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_FRAME_028",
+      "volume": 0.011378029059471217,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_GLASS_03_02",
+      "volume": 0.03277324632546319,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_FRAME_029",
+      "volume": 0.0190762649646213,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_FRAME_030",
+      "volume": 0.01078342507666774,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_GLASS_04_00",
+      "volume": 0.026482185029594263,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_FRAME_031",
+      "volume": 0.015325256168627371,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_FRAME_032",
+      "volume": 0.01544644944496228,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_FRAME_033",
+      "volume": 0.012999537423916019,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_GLASS_04_01",
+      "volume": 0.026717422044079342,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_FRAME_034",
+      "volume": 0.015446463082469034,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_FRAME_035",
+      "volume": 0.011378059679174171,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_GLASS_04_02",
+      "volume": 0.026849482419094906,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_FRAME_036",
+      "volume": 0.015446456778128429,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_FRAME_037",
+      "volume": 0.010783396772836185,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_GLASS_05_00",
+      "volume": 0.02055842827057039,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_FRAME_038",
+      "volume": 0.015325236571079828,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_FRAME_039",
+      "volume": 0.011816646533987136,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_FRAME_040",
+      "volume": 0.012999557206345644,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_GLASS_05_01",
+      "volume": 0.020793662595455814,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_FRAME_041",
+      "volume": 0.011816640229646236,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_FRAME_042",
+      "volume": 0.011378033182397884,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_GLASS_05_02",
+      "volume": 0.02092573235308076,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_FRAME_043",
+      "volume": 0.011816646533989578,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_FRAME_044",
+      "volume": 0.010783425076672515,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_GLASS_06_00",
+      "volume": 0.013084779864071777,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_FRAME_045",
+      "volume": 0.013525935307418704,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_FRAME_046",
+      "volume": 0.008612997527069677,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_FRAME_047",
+      "volume": 0.011473279854623916,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_GLASS_06_01",
+      "volume": 0.013290213757784386,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_FRAME_048",
+      "volume": 0.008612997527069788,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_FRAME_049",
+      "volume": 0.010042164783126958,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_GLASS_06_02",
+      "volume": 0.013405564539149761,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_FRAME_050",
+      "volume": 0.008613011164576393,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_FRAME_051",
+      "volume": 0.009517351688279135,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_GLASS_07_00",
+      "volume": 0.0005854286018009275,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_FRAME_052",
+      "volume": 0.0017993208612132605,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_FRAME_053",
+      "volume": 0.008608852689796831,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_FRAME_054",
+      "volume": 0.0017963956481962529,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_GLASS_07_01",
+      "volume": 0.000585575448307743,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_FRAME_055",
+      "volume": 0.00860884535663527,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_FRAME_056",
+      "volume": 0.0017934339241903463,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_GLASS_07_02",
+      "volume": 0.000585714387007108,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_FRAME_057",
+      "volume": 0.008608852689794388,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_FRAME_058",
+      "volume": 0.0017905076767401051,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_GLASS_08_00",
+      "volume": 0.012195599529224069,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_FRAME_059",
+      "volume": 0.015325236571078385,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_FRAME_060",
+      "volume": 0.008573510995402081,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_FRAME_061",
+      "volume": 0.01530030870616339,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_GLASS_08_01",
+      "volume": 0.012198575702241587,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_FRAME_062",
+      "volume": 0.00857351099540223,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_FRAME_063",
+      "volume": 0.015275073623002289,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_GLASS_08_02",
+      "volume": 0.012201577509083641,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_FRAME_064",
+      "volume": 0.008573510995403155,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_FRAME_065",
+      "volume": 0.015250307533614268,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_GLASS_09_00",
+      "volume": 0.012137914411339601,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_FRAME_066",
+      "volume": 0.015325236571080827,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_FRAME_067",
+      "volume": 0.008538169301007556,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_FRAME_068",
+      "volume": 0.015300308706162433,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_GLASS_09_01",
+      "volume": 0.012140908819205404,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_FRAME_069",
+      "volume": 0.008538169301003928,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_FRAME_070",
+      "volume": 0.015275073243050885,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_GLASS_09_02",
+      "volume": 0.01214390322107764,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_FRAME_071",
+      "volume": 0.008538169301006593,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_FRAME_072",
+      "volume": 0.015250307169957386,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_GLASS_10_00",
+      "volume": 0.012080253869343416,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_FRAME_073",
+      "volume": 0.015325246163579775,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_FRAME_074",
+      "volume": 0.008502834939774773,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_FRAME_075",
+      "volume": 0.015300318711974424,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_GLASS_10_01",
+      "volume": 0.01208322859076505,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_FRAME_076",
+      "volume": 0.008502820787858764,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_FRAME_077",
+      "volume": 0.015275073243050885,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_GLASS_10_02",
+      "volume": 0.012086221550249132,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_FRAME_078",
+      "volume": 0.008502828121020805,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_FRAME_079",
+      "volume": 0.015250297526526367,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_GLASS_11_00",
+      "volume": 0.012022572240924553,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_FRAME_080",
+      "volume": 0.015325246576129326,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_FRAME_081",
+      "volume": 0.008467486426629386,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_FRAME_082",
+      "volume": 0.015300308706161211,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_GLASS_11_01",
+      "volume": 0.012025539497949517,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_FRAME_083",
+      "volume": 0.00846747909346261,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_FRAME_084",
+      "volume": 0.015275073243050219,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_GLASS_11_02",
+      "volume": 0.012028556990745912,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_FRAME_085",
+      "volume": 0.008467486426625464,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_FRAME_086",
+      "volume": 0.015250307169961307,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_GLASS_12_00",
+      "volume": 0.01196489620122762,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_FRAME_087",
+      "volume": 0.015325246163580955,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_FRAME_088",
+      "volume": 0.008432137913478743,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_FRAME_089",
+      "volume": 0.015300308309913656,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_GLASS_12_01",
+      "volume": 0.011967870045377527,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_FRAME_090",
+      "volume": 0.008432152065397307,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_FRAME_091",
+      "volume": 0.01527507362300281,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_GLASS_12_02",
+      "volume": 0.011970852287791267,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_FRAME_092",
+      "volume": 0.00843213791347856,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_FRAME_093",
+      "volume": 0.01525029752652644,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_GLASS_13_00",
+      "volume": 0.011907207736539999,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_FRAME_094",
+      "volume": 0.015325236571081091,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_FRAME_095",
+      "volume": 0.008396803037836595,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_FRAME_096",
+      "volume": 0.015300318711972793,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_GLASS_13_01",
+      "volume": 0.011910220396845084,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_FRAME_097",
+      "volume": 0.00839680355224674,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_FRAME_098",
+      "volume": 0.01527507692886047,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_GLASS_13_02",
+      "volume": 0.011913187646612033,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_FRAME_099",
+      "volume": 0.008396796219083034,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_FRAME_100",
+      "volume": 0.01525030716995901,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_GLASS_14_00",
+      "volume": 0.011849535803762551,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_FRAME_101",
+      "volume": 0.015325250178473339,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_FRAME_102",
+      "volume": 0.00836146185785273,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_FRAME_103",
+      "volume": 0.01530031255654437,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_GLASS_14_01",
+      "volume": 0.011852531816567424,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_FRAME_104",
+      "volume": 0.008361458448475838,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_FRAME_105",
+      "volume": 0.015275075611507281,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_GLASS_14_02",
+      "volume": 0.011855508098702172,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_FRAME_106",
+      "volume": 0.008361461857852248,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_FRAME_107",
+      "volume": 0.015250302530070241,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_GLASS_15_00",
+      "volume": 0.011791856746234716,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_FRAME_108",
+      "volume": 0.015325249603516479,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_FRAME_109",
+      "volume": 0.008326116754080425,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_FRAME_110",
+      "volume": 0.015300316406925751,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_GLASS_15_01",
+      "volume": 0.011794849094607152,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_FRAME_111",
+      "volume": 0.008326116754080758,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_FRAME_112",
+      "volume": 0.015275080614668056,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_GLASS_15_02",
+      "volume": 0.011797848519692636,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_FRAME_113",
+      "volume": 0.008326163801433993,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_FRAME_114",
+      "volume": 0.015250205454228505,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_GLASS_16_00",
+      "volume": 0.011734191975702288,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_FRAME_115",
+      "volume": 0.015325254193364907,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_FRAME_116",
+      "volume": 0.008290778983473322,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_FRAME_117",
+      "volume": 0.015300321409832692,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_GLASS_16_01",
+      "volume": 0.01173716635148428,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_FRAME_118",
+      "volume": 0.008290778983473988,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_FRAME_119",
+      "volume": 0.015275079151810738,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_GLASS_16_02",
+      "volume": 0.011740157283962188,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_FRAME_120",
+      "volume": 0.008290773354997026,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_FRAME_121",
+      "volume": 0.015250207955983605,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_GLASS_17_00",
+      "volume": 0.011676511545839534,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_FRAME_122",
+      "volume": 0.015325247596038297,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_FRAME_123",
+      "volume": 0.008255435584389719,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_FRAME_124",
+      "volume": 0.015300318908380017,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_GLASS_17_01",
+      "volume": 0.011679503636665173,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_FRAME_125",
+      "volume": 0.00825543558439018,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_FRAME_126",
+      "volume": 0.015275076928859654,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_GLASS_17_02",
+      "volume": 0.011682472124641137,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_FRAME_127",
+      "volume": 0.008255435584390222,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_FRAME_128",
+      "volume": 0.015250303410394721,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_GLASS_18_00",
+      "volume": 0.011618829358089125,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_FRAME_129",
+      "volume": 0.01532524934045365,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_FRAME_130",
+      "volume": 0.00822009048061819,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_FRAME_131",
+      "volume": 0.015300319196510797,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_GLASS_18_01",
+      "volume": 0.011621819324631126,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_FRAME_132",
+      "volume": 0.008220090906789955,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_FRAME_133",
+      "volume": 0.015275076764190265,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_GLASS_18_02",
+      "volume": 0.011624810282846357,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_FRAME_134",
+      "volume": 0.008220105522657027,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_FRAME_135",
+      "volume": 0.015250304116958546,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_GLASS_19_00",
+      "volume": 0.011561159588250144,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_FRAME_136",
+      "volume": 0.015325246990168684,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_FRAME_137",
+      "volume": 0.008184758645518583,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_FRAME_138",
+      "volume": 0.015300318125865945,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_GLASS_19_01",
+      "volume": 0.01156413462366944,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_FRAME_139",
+      "volume": 0.008184747739701057,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_FRAME_140",
+      "volume": 0.015275077224916611,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_GLASS_19_02",
+      "volume": 0.011567134041590904,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_FRAME_141",
+      "volume": 0.008184746229190354,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_FRAME_142",
+      "volume": 0.01525030175643945,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_GLASS_20_00",
+      "volume": 0.011503481907173298,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_FRAME_143",
+      "volume": 0.01532524802809935,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_FRAME_144",
+      "volume": 0.008149409310927044,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_FRAME_145",
+      "volume": 0.0153003178131846,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_GLASS_20_01",
+      "volume": 0.011506448568786298,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_FRAME_146",
+      "volume": 0.008149409310927336,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_FRAME_147",
+      "volume": 0.015275076979552733,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_GLASS_20_02",
+      "volume": 0.011509416356330127,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_FRAME_148",
+      "volume": 0.008149401977762892,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_FRAME_149",
+      "volume": 0.015250303410394942,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_WALL_HEAD_289.500",
+      "volume": 0.05176056513411237,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_WALL_HEAD_298.145",
+      "volume": 0.0517607009932905,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_WALL_HEAD_306.790",
+      "volume": 0.05176063059555369,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_WALL_HEAD_315.435",
+      "volume": 0.05176070099329644,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_WALL_HEAD_324.080",
+      "volume": 0.05176056513412308,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_WALL_HEAD_332.725",
+      "volume": 0.05176070099329161,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_WALL_HEAD_341.370",
+      "volume": 0.0456835181292613,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_WALL_HEAD_349.000",
+      "volume": 0.008594373818463397,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_WALL_HEAD_350.015",
+      "volume": 0.07320092523040189,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_WALL_HEAD_358.660",
+      "volume": 0.07320090939983431,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_WALL_HEAD_367.305",
+      "volume": 0.07320086311161514,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_WALL_HEAD_375.950",
+      "volume": 0.07320090939982782,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_WALL_HEAD_384.595",
+      "volume": 0.07320086311161603,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_WALL_HEAD_393.240",
+      "volume": 0.07320091644227755,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_WALL_HEAD_401.885",
+      "volume": 0.07320070655337248,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_WALL_HEAD_410.530",
+      "volume": 0.07320051363884546,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_WALL_HEAD_419.175",
+      "volume": 0.07320071504049844,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_WALL_HEAD_427.820",
+      "volume": 0.07320089945294095,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_WALL_HEAD_436.465",
+      "volume": 0.07320089844282303,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_WALL_HEAD_445.110",
+      "volume": 0.07320088992937368,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R26_WALL_HEAD_453.755",
+      "volume": 0.0732008994529405,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    }
+  ],
+  "glass_checks": [
+    {
+      "name": "R26_GLASS_00_00",
+      "hits": [
+        "R26_GLASS_00_00"
+      ],
+      "thickness_m": 0.017999649047851562
+    },
+    {
+      "name": "R26_GLASS_00_01",
+      "hits": [
+        "R26_GLASS_00_01"
+      ],
+      "thickness_m": 0.017999649047851562
+    },
+    {
+      "name": "R26_GLASS_00_02",
+      "hits": [
+        "R26_GLASS_00_02"
+      ],
+      "thickness_m": 0.017999649047851562
+    },
+    {
+      "name": "R26_GLASS_01_00",
+      "hits": [
+        "R26_GLASS_01_00"
+      ],
+      "thickness_m": 0.017999649047851562
+    },
+    {
+      "name": "R26_GLASS_01_01",
+      "hits": [
+        "R26_GLASS_01_01"
+      ],
+      "thickness_m": 0.017999649047851562
+    },
+    {
+      "name": "R26_GLASS_01_02",
+      "hits": [
+        "R26_GLASS_01_02"
+      ],
+      "thickness_m": 0.017999649047851562
+    },
+    {
+      "name": "R26_GLASS_02_00",
+      "hits": [
+        "R26_GLASS_02_00"
+      ],
+      "thickness_m": 0.017999649047851562
+    },
+    {
+      "name": "R26_GLASS_02_01",
+      "hits": [
+        "R26_GLASS_02_01"
+      ],
+      "thickness_m": 0.017999649047851562
+    },
+    {
+      "name": "R26_GLASS_02_02",
+      "hits": [
+        "R26_GLASS_02_02"
+      ],
+      "thickness_m": 0.017999649047851562
+    },
+    {
+      "name": "R26_GLASS_03_00",
+      "hits": [
+        "R26_GLASS_03_00"
+      ],
+      "thickness_m": 0.017999649047851562
+    },
+    {
+      "name": "R26_GLASS_03_01",
+      "hits": [
+        "R26_GLASS_03_01"
+      ],
+      "thickness_m": 0.017999649047851562
+    },
+    {
+      "name": "R26_GLASS_03_02",
+      "hits": [
+        "R26_GLASS_03_02"
+      ],
+      "thickness_m": 0.017999649047851562
+    },
+    {
+      "name": "R26_GLASS_04_00",
+      "hits": [
+        "R26_GLASS_04_00"
+      ],
+      "thickness_m": 0.017999649047851562
+    },
+    {
+      "name": "R26_GLASS_04_01",
+      "hits": [
+        "R26_GLASS_04_01"
+      ],
+      "thickness_m": 0.017999649047851562
+    },
+    {
+      "name": "R26_GLASS_04_02",
+      "hits": [
+        "R26_GLASS_04_02"
+      ],
+      "thickness_m": 0.017999649047851562
+    },
+    {
+      "name": "R26_GLASS_05_00",
+      "hits": [
+        "R26_GLASS_05_00"
+      ],
+      "thickness_m": 0.017999649047851562
+    },
+    {
+      "name": "R26_GLASS_05_01",
+      "hits": [
+        "R26_GLASS_05_01"
+      ],
+      "thickness_m": 0.017999649047851562
+    },
+    {
+      "name": "R26_GLASS_05_02",
+      "hits": [
+        "R26_GLASS_05_02"
+      ],
+      "thickness_m": 0.017999649047851562
+    },
+    {
+      "name": "R26_GLASS_06_00",
+      "hits": [
+        "R26_GLASS_06_00"
+      ],
+      "thickness_m": 0.017999649047851562
+    },
+    {
+      "name": "R26_GLASS_06_01",
+      "hits": [
+        "R26_GLASS_06_01"
+      ],
+      "thickness_m": 0.017999649047851562
+    },
+    {
+      "name": "R26_GLASS_06_02",
+      "hits": [
+        "R26_GLASS_06_02"
+      ],
+      "thickness_m": 0.017999649047851562
+    },
+    {
+      "name": "R26_GLASS_07_00",
+      "hits": [
+        "R26_GLASS_07_00"
+      ],
+      "thickness_m": 0.017999649047851562
+    },
+    {
+      "name": "R26_GLASS_07_01",
+      "hits": [
+        "R26_GLASS_07_01"
+      ],
+      "thickness_m": 0.017999649047851562
+    },
+    {
+      "name": "R26_GLASS_07_02",
+      "hits": [
+        "R26_GLASS_07_02"
+      ],
+      "thickness_m": 0.017999649047851562
+    },
+    {
+      "name": "R26_GLASS_08_00",
+      "hits": [
+        "R26_GLASS_08_00"
+      ],
+      "thickness_m": 0.017999649047851562
+    },
+    {
+      "name": "R26_GLASS_08_01",
+      "hits": [
+        "R26_GLASS_08_01"
+      ],
+      "thickness_m": 0.017999649047851562
+    },
+    {
+      "name": "R26_GLASS_08_02",
+      "hits": [
+        "R26_GLASS_08_02"
+      ],
+      "thickness_m": 0.017999649047851562
+    },
+    {
+      "name": "R26_GLASS_09_00",
+      "hits": [
+        "R26_GLASS_09_00"
+      ],
+      "thickness_m": 0.017999649047851562
+    },
+    {
+      "name": "R26_GLASS_09_01",
+      "hits": [
+        "R26_GLASS_09_01"
+      ],
+      "thickness_m": 0.017999649047851562
+    },
+    {
+      "name": "R26_GLASS_09_02",
+      "hits": [
+        "R26_GLASS_09_02"
+      ],
+      "thickness_m": 0.017999649047851562
+    },
+    {
+      "name": "R26_GLASS_10_00",
+      "hits": [
+        "R26_GLASS_10_00"
+      ],
+      "thickness_m": 0.017999649047851562
+    },
+    {
+      "name": "R26_GLASS_10_01",
+      "hits": [
+        "R26_GLASS_10_01"
+      ],
+      "thickness_m": 0.017999649047851562
+    },
+    {
+      "name": "R26_GLASS_10_02",
+      "hits": [
+        "R26_GLASS_10_02"
+      ],
+      "thickness_m": 0.017999649047851562
+    },
+    {
+      "name": "R26_GLASS_11_00",
+      "hits": [
+        "R26_GLASS_11_00"
+      ],
+      "thickness_m": 0.017999649047851562
+    },
+    {
+      "name": "R26_GLASS_11_01",
+      "hits": [
+        "R26_GLASS_11_01"
+      ],
+      "thickness_m": 0.017999649047851562
+    },
+    {
+      "name": "R26_GLASS_11_02",
+      "hits": [
+        "R26_GLASS_11_02"
+      ],
+      "thickness_m": 0.017999649047851562
+    },
+    {
+      "name": "R26_GLASS_12_00",
+      "hits": [
+        "R26_GLASS_12_00"
+      ],
+      "thickness_m": 0.017999649047851562
+    },
+    {
+      "name": "R26_GLASS_12_01",
+      "hits": [
+        "R26_GLASS_12_01"
+      ],
+      "thickness_m": 0.017999649047851562
+    },
+    {
+      "name": "R26_GLASS_12_02",
+      "hits": [
+        "R26_GLASS_12_02"
+      ],
+      "thickness_m": 0.017999649047851562
+    },
+    {
+      "name": "R26_GLASS_13_00",
+      "hits": [
+        "R26_GLASS_13_00"
+      ],
+      "thickness_m": 0.017999649047851562
+    },
+    {
+      "name": "R26_GLASS_13_01",
+      "hits": [
+        "R26_GLASS_13_01"
+      ],
+      "thickness_m": 0.017999649047851562
+    },
+    {
+      "name": "R26_GLASS_13_02",
+      "hits": [
+        "R26_GLASS_13_02"
+      ],
+      "thickness_m": 0.017999649047851562
+    },
+    {
+      "name": "R26_GLASS_14_00",
+      "hits": [
+        "R26_GLASS_14_00"
+      ],
+      "thickness_m": 0.017999649047851562
+    },
+    {
+      "name": "R26_GLASS_14_01",
+      "hits": [
+        "R26_GLASS_14_01"
+      ],
+      "thickness_m": 0.017999649047851562
+    },
+    {
+      "name": "R26_GLASS_14_02",
+      "hits": [
+        "R26_GLASS_14_02"
+      ],
+      "thickness_m": 0.017999649047851562
+    },
+    {
+      "name": "R26_GLASS_15_00",
+      "hits": [
+        "R26_GLASS_15_00"
+      ],
+      "thickness_m": 0.017999649047851562
+    },
+    {
+      "name": "R26_GLASS_15_01",
+      "hits": [
+        "R26_GLASS_15_01"
+      ],
+      "thickness_m": 0.017999649047851562
+    },
+    {
+      "name": "R26_GLASS_15_02",
+      "hits": [
+        "R26_GLASS_15_02"
+      ],
+      "thickness_m": 0.017999649047851562
+    },
+    {
+      "name": "R26_GLASS_16_00",
+      "hits": [
+        "R26_GLASS_16_00"
+      ],
+      "thickness_m": 0.017999649047851562
+    },
+    {
+      "name": "R26_GLASS_16_01",
+      "hits": [
+        "R26_GLASS_16_01"
+      ],
+      "thickness_m": 0.017999649047851562
+    },
+    {
+      "name": "R26_GLASS_16_02",
+      "hits": [
+        "R26_GLASS_16_02"
+      ],
+      "thickness_m": 0.017999649047851562
+    },
+    {
+      "name": "R26_GLASS_17_00",
+      "hits": [
+        "R26_GLASS_17_00"
+      ],
+      "thickness_m": 0.017999649047851562
+    },
+    {
+      "name": "R26_GLASS_17_01",
+      "hits": [
+        "R26_GLASS_17_01"
+      ],
+      "thickness_m": 0.017999649047851562
+    },
+    {
+      "name": "R26_GLASS_17_02",
+      "hits": [
+        "R26_GLASS_17_02"
+      ],
+      "thickness_m": 0.017999649047851562
+    },
+    {
+      "name": "R26_GLASS_18_00",
+      "hits": [
+        "R26_GLASS_18_00"
+      ],
+      "thickness_m": 0.017999649047851562
+    },
+    {
+      "name": "R26_GLASS_18_01",
+      "hits": [
+        "R26_GLASS_18_01"
+      ],
+      "thickness_m": 0.017999649047851562
+    },
+    {
+      "name": "R26_GLASS_18_02",
+      "hits": [
+        "R26_GLASS_18_02"
+      ],
+      "thickness_m": 0.017999649047851562
+    },
+    {
+      "name": "R26_GLASS_19_00",
+      "hits": [
+        "R26_GLASS_19_00"
+      ],
+      "thickness_m": 0.017999649047851562
+    },
+    {
+      "name": "R26_GLASS_19_01",
+      "hits": [
+        "R26_GLASS_19_01"
+      ],
+      "thickness_m": 0.017999649047851562
+    },
+    {
+      "name": "R26_GLASS_19_02",
+      "hits": [
+        "R26_GLASS_19_02"
+      ],
+      "thickness_m": 0.017999649047851562
+    },
+    {
+      "name": "R26_GLASS_20_00",
+      "hits": [
+        "R26_GLASS_20_00"
+      ],
+      "thickness_m": 0.017999649047851562
+    },
+    {
+      "name": "R26_GLASS_20_01",
+      "hits": [
+        "R26_GLASS_20_01"
+      ],
+      "thickness_m": 0.017999649047851562
+    },
+    {
+      "name": "R26_GLASS_20_02",
+      "hits": [
+        "R26_GLASS_20_02"
+      ],
+      "thickness_m": 0.017999649047851562
+    }
+  ],
+  "roof_corner_joins": [
+    {
+      "canonical": [
+        289.5,
+        266.5
+      ],
+      "error_m": 0.0
+    },
+    {
+      "canonical": [
+        462.4,
+        441.1
+      ],
+      "error_m": 0.0
+    }
+  ],
+  "construction_acceptance": false
+}

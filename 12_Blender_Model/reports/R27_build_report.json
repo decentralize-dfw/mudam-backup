@@ -1,0 +1,130 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R27_GALERI_NIS_REVIZYON_v001.blend",
+  "base_scene": "MUDAM_R26_DOGU_CATI_BAGLANTI_v001.blend",
+  "closed_objects": [
+    "R27_CONTINUOUS_HEAD",
+    "R27_BAY_1_END_RETURN",
+    "R27_BAY_1_BLIND_BACK",
+    "R27_BAY_2_SLOPING_PIER",
+    "R27_BAY_2_PIER_SHOULDER",
+    "R27_BAY_2_PIER_BASE",
+    "R27_BAY_2_BASE",
+    "R27_BAY_2_FRAME_L",
+    "R27_BAY_2_FRAME_R",
+    "R27_BAY_2_FRAME_B",
+    "R27_BAY_2_FRAME_T",
+    "R27_BAY_2_GLASS",
+    "R27_BAY_3_SLOPING_PIER",
+    "R27_BAY_3_PIER_SHOULDER",
+    "R27_BAY_3_PIER_BASE",
+    "R27_BAY_3_BLIND_BACK",
+    "R27_BAY_4_SLOPING_PIER",
+    "R27_BAY_4_PIER_SHOULDER",
+    "R27_BAY_4_PIER_BASE",
+    "R27_BAY_4_BASE",
+    "R27_BAY_4_FRAME_L",
+    "R27_BAY_4_FRAME_R",
+    "R27_BAY_4_FRAME_B",
+    "R27_BAY_4_FRAME_T",
+    "R27_BAY_4_GLASS",
+    "R27_BAY_5_SLOPING_PIER",
+    "R27_BAY_5_PIER_SHOULDER",
+    "R27_BAY_5_PIER_BASE",
+    "R27_BAY_5_BLIND_BACK",
+    "R27_END_PIER"
+  ],
+  "panels": [
+    "R27_BAY_2_GLASS",
+    "R27_BAY_4_GLASS"
+  ],
+  "openings": [
+    {
+      "index": 1,
+      "type": "blind",
+      "start": 0.92,
+      "end": 4.72,
+      "bottom": 0.08,
+      "head": 4.35,
+      "glass_center": [
+        35.51433181762695,
+        -3.475687265396118,
+        2.2149999141693115
+      ]
+    },
+    {
+      "index": 2,
+      "type": "glazed",
+      "start": 5.94,
+      "end": 9.74,
+      "bottom": 0.08,
+      "head": 4.35,
+      "glass_center": [
+        35.68867874145508,
+        1.541284441947937,
+        2.2149999141693115
+      ]
+    },
+    {
+      "index": 3,
+      "type": "blind",
+      "start": 10.97,
+      "end": 14.77,
+      "bottom": 0.08,
+      "head": 4.35,
+      "glass_center": [
+        35.863372802734375,
+        6.5682501792907715,
+        2.2149999141693115
+      ]
+    },
+    {
+      "index": 4,
+      "type": "glazed",
+      "start": 16.07,
+      "end": 19.87,
+      "bottom": 0.08,
+      "head": 4.35,
+      "glass_center": [
+        36.040496826171875,
+        11.665172576904297,
+        2.2149999141693115
+      ]
+    },
+    {
+      "index": 5,
+      "type": "blind",
+      "start": 21.11,
+      "end": 24.91,
+      "bottom": 0.08,
+      "head": 4.35,
+      "glass_center": [
+        36.21554183959961,
+        16.702133178710938,
+        2.2149999141693115
+      ]
+    }
+  ],
+  "origin": [
+    36.6656379699707,
+    -6.337399005889893,
+    0.0
+  ],
+  "axis": [
+    0.03473040834069252,
+    0.9993967413902283,
+    0.0
+  ],
+  "inside": [
+    -0.9993967413902283,
+    0.03473040834069252,
+    -0.0
+  ],
+  "length": 31.73597721316924,
+  "changed_inherited_objects": [
+    "P05_FRONT_1"
+  ],
+  "hidden_superseded": [
+    "P05_FRONT_1"
+  ],
+  "construction_acceptance": false
+}

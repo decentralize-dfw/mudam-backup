@@ -1,10 +1,10 @@
 # Mudam - üretim durumu
 
-8 Ekim 2026. Blender 4.2 / metre / EPSG:32632 yerel koordinatlar.
+9 Ekim 2026. Blender 4.2 / metre / EPSG:32632 yerel koordinatlar.
 
 ## Güncel teslim
 
-[MUDAM_R20_ODITORYUM_KOLTUK_v002.blend](scenes/MUDAM_R20_ODITORYUM_KOLTUK_v002.blend) giriş, çatı ve merdiven çalışmalarını birlikte içerir. [Görsel inceleme](URETIM.html) · [Üretim raporu](reports/P07_P09_URETIM_RAPORU.md).
+[MUDAM_R28_ZEMIN_GALERI_GIRIS_v002.blend](scenes/MUDAM_R28_ZEMIN_GALERI_GIRIS_v002.blend) giriş, çatı ve merdiven çalışmalarını birlikte içerir. [Görsel inceleme](URETIM.html) · [Üretim raporu](reports/P07_P09_URETIM_RAPORU.md).
 
 | Paket | Durum | Somut çıktı / açık konu |
 | --- | --- | --- |
@@ -40,7 +40,7 @@ Ana kabuk henüz bütün bina düzeyinde kabul edilmedi. OSM uyum RMS'si yaklaş
 
 ## Sıradaki üretim
 
-Üst merdiven tam kol/rıht/sahanlık zinciri; ayrı alt merdiven; galeri duvar/açıklıkları; çatı panel ve taşıyıcıları. Her adımda ilgili plan, kesit/kot ve fotoğraf kimlikleri yeniden karşılaştırılır. Rutin üretim için kullanıcı onayı beklenmez.
+Zemin/alt galeri iç duvar ve açıklıkları, kaynaklarla henüz çözülememiş cephe nişleri, taş/derz ve aydınlatma, arazi/historik duvar bağlamı, dışa aktarım optimizasyonu ve bütün bina taraması. Üst/alt Grand Hall merdivenleri, doğu spiral ve batı merdiven bölgesel olarak üretildi; pavyon merdiveni R25'te açıkça temsilî. Yeni paketlerde eski kaynak/ölçü belirsizlikleri kaybolmaz. Rutin onay beklenmez.
 
 Önceki P03/P04/P05/P06/P07 sahneleri `scenes` içinde sürümlü olarak korunur. `build_mudam.py` eski ve kullanılmaz. Yeni betikler mevcut sürümün üzerine yazmayı reddeder.
 
@@ -88,3 +88,6 @@ Push sonrasında üretim sürdü. 089 ile pavyon kulesinin sekizgen taslağı d�
 
 
 2026-10-09 00:45 UTC — R19 v002/R20 v002: oditoryum oda, taş kademeler, sahne, kaset tavan, camlı arka kabin ve 128 koltuk adayı üretildi. Yeni LCB fotoğraflarıyla yanlış ahşap zemin yorumu düzeltildi. Kesin ölçüler ve gizli koltuklar açık; paneller sıradaki iş.
+
+
+R23/R24 üst galerilerin duvar/geçişleri ve cam ışıklık adayları, R25 temsilî pavyon merdiveni/parapeti ve R26 doğu çatı bağlantısı eklendi. Her biri kendi kaynak, belirsizlik ve yeniden açma raporuna sahiptir. Tam bina doğrulaması yapılmadı.

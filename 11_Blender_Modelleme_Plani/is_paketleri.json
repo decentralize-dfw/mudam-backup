@@ -166,13 +166,13 @@
       "acceptance": "Bütün plan açıklıkları sayılmış; ölçü güveni ayrı",
       "status": "in_progress",
       "open_issues": [
-        "Pavyon zemini, dairesel rezerv, iç yüz ve pencere adayı eklendi; ayrı alt kot korundu. Spiral basamakları, taş parapet, geçit kapıları ve kesin detaylar açık."
+        "102 ve PDF2016 ile bağımsız giriş duvarları, dolaşım şeritleri, ahşap zemin ve düz tavan adayları üretildi. 36 geçiş ışını ve 72 destek/baş mesafesi örneği geçti. Tavan kotu ve yapı kalınlıkları koşullu. Galeri dış çevresi, cephe bağlantıları ve tesisat tamamlanmadı; renderdaki yardımcı ışıklar mimari armatür değildir."
       ],
       "updated": "2026-10-08",
       "dependency_mode": "regional_study_only_no_global_acceptance",
       "artifacts": [
-        "12_Blender_Model/scenes/MUDAM_R17_PAVYON_MEKAN_v001.blend",
-        "12_Blender_Model/reports/R17_PAVYON_MEKAN_RAPORU.md"
+        "12_Blender_Model/scenes/MUDAM_R28_ZEMIN_GALERI_GIRIS_v002.blend",
+        "12_Blender_Model/reports/R28_ZEMIN_GALERI_RAPORU.md"
       ]
     },
     {
@@ -185,13 +185,13 @@
       "acceptance": "Rıht toplamı kot farkını kapatır; alt yüzey referansla tutarlı",
       "status": "in_progress",
       "open_issues": [
-        "066/097 ve 102/103 ile iki kollu batı cam merdiven, galeri bağlantısı, cam örtü ve duvar küpeşteleri üretildi. 17 görünür rıht ayrı kaydedildi; diğer kolun sayısı/kot bölüşümü ve kesin detaylar aday. Pavyon iç merdiveni hâlâ açık."
+        "Pavyonda taş parapet, alt döşeme ve 24 rıhtlı temsilî merdiven eklendi; dolaşım kontrolü geçti. Dönüş yönü/adedi, iç çekirdek, alt giriş ve bütün detay ölçüleri kesin değil."
       ],
       "updated": "2026-10-08",
       "dependency_mode": "regional_study_only_no_global_acceptance",
       "artifacts": [
-        "12_Blender_Model/scenes/MUDAM_R14_BATI_CAM_MERDIVEN_v003.blend",
-        "12_Blender_Model/reports/R14_BATI_CAM_MERDIVEN_RAPORU.md"
+        "12_Blender_Model/scenes/MUDAM_R25_PAVYON_MERDIVEN_v002.blend",
+        "12_Blender_Model/reports/R25_PAVYON_MERDIVEN_RAPORU.md"
       ]
     },
     {
@@ -204,13 +204,13 @@
       "acceptance": "Silüet, bölüntü ve oturmalar çoklu görünüşte tutarlı",
       "status": "in_progress",
       "open_issues": [
-        "067/068 ile iki açık cam kapı, yan/üst sabit cam ve yuvarlak iç geçit profilleri eklendi. 61 kapalı hacim ve dolaşım kontrolü geçti; kesin modül/profil/kapı donanımı ölçüleri açık."
+        "033/034 ile eğimli çatı–galeri duvarı arasındaki eksik cam şerit eklendi. 63 cam dahil 234 kapalı hacim ve doğu spiralinin dolaşımı yeniden denetlendi. Yatay şerit eğimi, modül sayısı, profil ve birleşim ölçüleri koşullu; drenaj ve mesnet ayrıntıları açık."
       ],
       "updated": "2026-10-08",
       "dependency_mode": "regional_study_only_no_global_acceptance",
       "artifacts": [
-        "12_Blender_Model/scenes/MUDAM_R18_PAVYON_GECIT_DETAY_v002.blend",
-        "12_Blender_Model/reports/R18_PAVYON_GECIT_RAPORU.md"
+        "12_Blender_Model/scenes/MUDAM_R26_DOGU_CATI_BAGLANTI_v001.blend",
+        "12_Blender_Model/reports/R26_DOGU_CATI_BAGLANTI_RAPORU.md"
       ]
     },
     {
@@ -223,14 +223,13 @@
       "acceptance": "Aynalama varsayımı yok; kenar panelleri çözülmüş",
       "status": "in_progress",
       "open_issues": [
-        "089 ile pavyon kulesi dört yüzlü kuruldu, 108 cam/216 profil adayı eklendi; batı camları düz. Kesin kesitler, düğümler, gizli yüz bölmeleri ve doğu çatı şeridi açık."
+        "033/034 ile eğimli çatı–galeri duvarı arasındaki eksik cam şerit eklendi. 63 cam dahil 234 kapalı hacim ve doğu spiralinin dolaşımı yeniden denetlendi. Yatay şerit eğimi, modül sayısı, profil ve birleşim ölçüleri koşullu; drenaj ve mesnet ayrıntıları açık."
       ],
       "updated": "2026-10-08",
       "dependency_mode": "regional_study_only_no_global_acceptance",
       "artifacts": [
-        "12_Blender_Model/scenes/MUDAM_R13_PAVYON_CAM_v001.blend",
-        "12_Blender_Model/reports/R13_PAVYON_CAM_RAPORU.md",
-        "12_Blender_Model/reports/R12_BATI_DUZ_CAM_RAPORU.md"
+        "12_Blender_Model/scenes/MUDAM_R26_DOGU_CATI_BAGLANTI_v001.blend",
+        "12_Blender_Model/reports/R26_DOGU_CATI_BAGLANTI_RAPORU.md"
       ]
     },
     {
@@ -273,8 +272,14 @@
       ],
       "deliverable": "Tip kütüphanesi ve örnekler",
       "acceptance": "Kapı boşluğu/kanadı ayrılmış; eşik, kasa ve söve tamam",
-      "status": "not_started",
-      "open_issues": []
+      "status": "in_progress",
+      "open_issues": [
+        "003/004/005/116 dış görselleriyle beş niş, iki cam açıklık ve tam genişlikte eğimli ara ayaklar işlendi. 30 kapalı parça ve 18 açıklık ışını kontrol edildi. Yerleşim ve ölçüler koşullu. 061/062 iç fotoğraflarının bu cepheyle kesin eşlemesi yok; çevre odalar ve alt kat cephe açıklıkları tamamlanmadı."
+      ],
+      "artifacts": [
+        "12_Blender_Model/scenes/MUDAM_R27_GALERI_NIS_REVIZYON_v001.blend",
+        "12_Blender_Model/reports/R27_GALERI_NIS_RAPORU.md"
+      ]
     },
     {
       "id": "P15",
@@ -291,7 +296,7 @@
       "updated": "2026-10-08",
       "dependency_mode": "regional_checkpoint_no_global_acceptance",
       "artifacts": [
-        "12_Blender_Model/scenes/MUDAM_R20_ODITORYUM_KOLTUK_v002.blend",
+        "12_Blender_Model/scenes/MUDAM_R28_ZEMIN_GALERI_GIRIS_v002.blend",
         "12_Blender_Model/reports/P19_P21_ONIZLEME_RAPORU.md"
       ]
     },
@@ -307,11 +312,11 @@
       "acceptance": "Tavan, döşeme, kapı ve sabit donanım kontrol edilmiş",
       "status": "in_progress",
       "open_issues": [
-        "104, 071–076 ve iki LCB fotoğrafıyla kademeli taş zemin, sahne, kaset tavan, kontrol kabini ve 8×16 koltuk adayı üretildi. Kesin rıht/kot, gizli koltuk adetleri ve imalat ayrıntıları açık; ahşap panel/delik düzeni sıradaki iş."
+        "102 ve PDF2016 ile bağımsız giriş duvarları, dolaşım şeritleri, ahşap zemin ve düz tavan adayları üretildi. 36 geçiş ışını ve 72 destek/baş mesafesi örneği geçti. Tavan kotu ve yapı kalınlıkları koşullu. Galeri dış çevresi, cephe bağlantıları ve tesisat tamamlanmadı; renderdaki yardımcı ışıklar mimari armatür değildir."
       ],
       "artifacts": [
-        "12_Blender_Model/scenes/MUDAM_R20_ODITORYUM_KOLTUK_v002.blend",
-        "12_Blender_Model/reports/R19_R20_ODITORYUM_RAPORU.md"
+        "12_Blender_Model/scenes/MUDAM_R28_ZEMIN_GALERI_GIRIS_v002.blend",
+        "12_Blender_Model/reports/R28_ZEMIN_GALERI_RAPORU.md"
       ]
     },
     {
@@ -332,7 +337,7 @@
       "updated": "2026-10-08",
       "dependency_mode": "regional_checkpoint_no_global_acceptance",
       "artifacts": [
-        "12_Blender_Model/scenes/MUDAM_R20_ODITORYUM_KOLTUK_v002.blend",
+        "12_Blender_Model/scenes/MUDAM_R28_ZEMIN_GALERI_GIRIS_v002.blend",
         "12_Blender_Model/reports/P19_P21_ONIZLEME_RAPORU.md"
       ]
     },
@@ -366,7 +371,7 @@
       "updated": "2026-10-08",
       "dependency_mode": "regional_checkpoint_no_global_acceptance",
       "artifacts": [
-        "12_Blender_Model/scenes/MUDAM_R20_ODITORYUM_KOLTUK_v002.blend",
+        "12_Blender_Model/scenes/MUDAM_R28_ZEMIN_GALERI_GIRIS_v002.blend",
         "12_Blender_Model/reports/P19_P21_ONIZLEME_RAPORU.md"
       ]
     },
@@ -387,7 +392,7 @@
       "updated": "2026-10-08",
       "dependency_mode": "regional_checkpoint_no_global_acceptance",
       "artifacts": [
-        "12_Blender_Model/scenes/MUDAM_R20_ODITORYUM_KOLTUK_v002.blend",
+        "12_Blender_Model/scenes/MUDAM_R28_ZEMIN_GALERI_GIRIS_v002.blend",
         "12_Blender_Model/reports/P19_P21_ONIZLEME_RAPORU.md"
       ]
     },
@@ -401,12 +406,12 @@
       "acceptance": "Birim/eksen/malzeme geri yüklemede doğru; performans ölçülmüş",
       "status": "in_progress",
       "open_issues": [
-        "5862 mesh / 492935 üçgen GLB aktarımı denetlendi; hedef motor ve sadeleştirme açık."
+        "6524 mesh / 750201 üçgen GLB aktarımı denetlendi; hedef motor ve sadeleştirme açık."
       ],
       "updated": "2026-10-08",
       "dependency_mode": "regional_checkpoint_no_global_acceptance",
       "artifacts": [
-        "12_Blender_Model/scenes/MUDAM_R20_ODITORYUM_KOLTUK_v002.blend",
+        "12_Blender_Model/scenes/MUDAM_R28_ZEMIN_GALERI_GIRIS_v002.blend",
         "12_Blender_Model/reports/P19_P21_ONIZLEME_RAPORU.md"
       ]
     },
@@ -433,6 +438,7 @@
     "P10",
     "P11",
     "P12",
+    "P14",
     "P15",
     "P16",
     "P17",
@@ -440,5 +446,5 @@
     "P20",
     "P21"
   ],
-  "latest_scene": "12_Blender_Model/scenes/MUDAM_R20_ODITORYUM_KOLTUK_v002.blend"
+  "latest_scene": "12_Blender_Model/scenes/MUDAM_R28_ZEMIN_GALERI_GIRIS_v002.blend"
 }
