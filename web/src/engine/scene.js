@@ -186,9 +186,11 @@ export class Stage {
   // Everything that is not the building (site, trees, neighbours, ground
   // drawing) fades together, e.g. to 20 % while the building is taken apart.
   setContextFade(alpha, ms = 700, force = false) {
-    const from = this.contextFade ?? 1;
-    if (!force && Math.abs(from - alpha) < 1e-3) return;
+    // compare with where the fade is heading, not where it is: a reversal
+    // that arrives before the fade has moved must still be honoured
+    if (!force && Math.abs((this.contextFadeTarget ?? 1) - alpha) < 1e-3) return;
     this.contextFadeTarget = alpha;
+    const from = this.contextFade ?? 1;
     const mats = new Set();
     for (const root of this.contextRoots()) {
       root?.traverse((o) => {

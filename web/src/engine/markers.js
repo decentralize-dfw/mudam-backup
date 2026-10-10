@@ -48,6 +48,7 @@ export class Markers {
   }
 
   update(camera, width, height) {
+    const labels = [];
     const dir = new THREE.Vector3();
     camera.getWorldDirection(dir);
     for (const it of this.items) {
@@ -63,13 +64,28 @@ export class Markers {
       if (off || (it.visible && !it.visible())) { it.el.style.display = 'none'; continue; }
       it.el.style.display = '';
       const x = (this.v.x + 1) * width / 2, y = (1 - this.v.y) * height / 2;
-      // side labels that would run off the right edge open to the left
-      if (it.kind === 'layername' && !it.w) it.w = it.el.offsetWidth;
-      const flip = it.kind === 'layername' && x + it.w > width - 12;
-      it.el.classList.toggle('flip', flip);
-      it.el.style.transform = `translate3d(${x.toFixed(1)}px, ${y.toFixed(1)}px, 0)${flip ? ' translateX(calc(30px - 100%))' : ''}`;
+      if (it.kind === 'layername') { it.sx = x; it.sy = y; labels.push(it); continue; }
+      it.el.style.transform = `translate3d(${x.toFixed(1)}px, ${y.toFixed(1)}px, 0)`;
       it.el.style.opacity = it.el.classList.contains('active') ? 1 : (0.25 + 0.75 * facing).toFixed(2);
       it.el.classList.toggle('behind', facing < 0.5);
     }
+    this.placeLabels(labels, width);
+  }
+
+  // Layer names: no two pills on top of each other (pushed apart down the
+  // screen), and a pill that would run off the right edge opens to the left.
+  placeLabels(labels, width) {
+    labels.sort((a, b) => a.sy - b.sy);
+    const gap = 30;
+    labels.forEach((it, i) => {
+      if (!it.w) it.w = it.el.offsetWidth;
+      for (let j = 0; j < i; j++) {
+        const o = labels[j];
+        if (Math.abs(o.sx - it.sx) < Math.max(o.w, it.w) && it.sy - o.sy < gap) it.sy = o.sy + gap;
+      }
+      const flip = it.sx + it.w > width - 12;
+      it.el.classList.toggle('flip', flip);
+      it.el.style.transform = `translate3d(${it.sx.toFixed(1)}px, ${it.sy.toFixed(1)}px, 0)${flip ? ' translateX(calc(30px - 100%))' : ''}`;
+    });
   }
 }

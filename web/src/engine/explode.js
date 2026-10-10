@@ -114,7 +114,7 @@ export class MaterialExplode {
     Object.assign(shader.uniforms, this.uniforms);
     shader.vertexShader = shader.vertexShader
       .replace('#include <common>', `#include <common>\n${GLSL}`)
-      .replace('#include <begin_vertex>', '#include <begin_vertex>\ntransformed += pieceOffset(_piece);');
+      .replace('#include <begin_vertex>', '#include <begin_vertex>\n// _piece and its offset are in world space; a joined mesh may keep a\n// rotated or mirrored node transform\ntransformed += inverse(mat3(modelMatrix)) * pieceOffset(_piece);');
   }
 
   // Patch the visible building's materials and meshes (band 0).
@@ -150,7 +150,7 @@ export class MaterialExplode {
     const piece = new Float32Array(n * 2 * 4), end = new Float32Array(n * 2), pos = new Float32Array(n * 2 * 3), col = new Float32Array(n * 2 * 3);
     const c = new THREE.Color();
     kept.forEach((p, k) => {
-      c.set(LAYER_COLOURS[LAYERS[p[3]]]).convertSRGBToLinear();
+      c.set(LAYER_COLOURS[LAYERS[p[3]]]);
       for (let e = 0; e < 2; e++) {
         const v = k * 2 + e;
         piece.set([p[0], p[1], p[2], p[3]], v * 4);

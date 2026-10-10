@@ -102,8 +102,9 @@ class App {
     this.stage.siteReady.then(() => {
       this.stage.context.setMassing(this.s.mode === 'surroundings' ? 1 : 0.85);
       this.tuneSite();
-      this.stage.contextFade = 1; // new materials: let the current fade re-apply to them
       this.applyVisibility();
+      // the site and tree materials are new: re-apply the current fade to them
+      this.stage.setContextFade(this.stage.contextFadeTarget ?? 1, 300, true);
       this.app.dataset.siteReady = 'true';
       this.initCevre2();
     });
@@ -189,7 +190,7 @@ class App {
     $('#toggle-explode').addEventListener('click', () => this.setExplode(!this.s.explode));
     $('#toggle-plan').addEventListener('click', () => this.setPlan(!this.s.plan));
     $('#toggle-materials').addEventListener('click', () => this.setMaterials(this.s.mat === 'off' ? 'vertical' : 'off'));
-    $$('[data-mat]').forEach((b) => b.addEventListener('click', () => this.setMaterials(b.dataset.mat)));
+    $$('#layer-panel [data-mat]').forEach((b) => b.addEventListener('click', () => this.setMaterials(b.dataset.mat)));
     $$('[data-cevre]').forEach((b) => b.addEventListener('click', () => this.setCevre(Number(b.dataset.cevre))));
     $('#zoom-in').addEventListener('click', () => this.zoomBy(1.35));
     $('#zoom-out').addEventListener('click', () => this.zoomBy(1 / 1.35));
@@ -253,7 +254,7 @@ class App {
   // --------------------------------------------------------------- modes
   async setMode(mode, { fly = true } = {}) {
     const prev = this.s.mode;
-    await this.leaveMaterials();
+    if (!(await this.leaveMaterials())) return;
     this.s.mode = mode;
     this.app.dataset.mode = mode;
     $$('.mode-picker button').forEach((b) => b.setAttribute('aria-pressed', String(b.dataset.mode === mode)));
@@ -289,7 +290,7 @@ class App {
 
   async setFloor(floor) {
     if (this.s.mode === 'surroundings') return;
-    await this.leaveMaterials();
+    if (!(await this.leaveMaterials())) return;
     if (this.s.visit) await this.leaveVisit(false);
     this.s.floor = floor;
     this.s.explode = false;
@@ -307,7 +308,7 @@ class App {
   }
 
   async setExplode(on) {
-    await this.leaveMaterials();
+    if (!(await this.leaveMaterials())) return;
     if (this.s.visit) await this.leaveVisit(false);
     this.s.explode = on;
     if (on) { this.s.plan = false; this.stage.rig.setPlan(false); this.s.floor = 'all'; }
@@ -324,7 +325,7 @@ class App {
 
   async setPlan(on) {
     if (this.s.mode === 'surroundings') return;
-    await this.leaveMaterials();
+    if (!(await this.leaveMaterials())) return;
     if (this.s.visit) await this.leaveVisit(false);
     if (on && (this.s.floor === 'all' || this.s.explode)) {
       const ex = EXHIBITIONS.find((e) => e.id === this.s.exhibition);
@@ -360,17 +361,20 @@ class App {
     this.s.mat = mode;
     this.s.hotspot = null;
     this.closeCard(true);
-    if (mode !== 'off') { this.s.explode = false; this.s.floor = 'all'; this.s.plan = false; this.stage.rig.setPlan(false); }
+    if (mode !== 'off') { this.s.explode = false; this.s.floor = 'all'; this.s.plan = false; this.s.room = null; this.s.artwork = null; this.stage.rig.setPlan(false); }
     else this.mx.resetLayers();
     this.syncControls();
     this.applyVisibility();
     this.renderMarkers();
     this.renderLayerList();
-    const steps = [];
-    if (mode !== 'off' && this.stage.building.state !== 'all') steps.push(this.stage.building.setState('all', this.stage.tweens));
-    steps.push(this.mx.set(mode, this.stage.tweens, prev !== 'off' && mode !== 'off' ? 1500 : 1800));
-    if (fly) steps.push(this.fly(mode === 'off' ? HOME.building : this.fitWidth(MAT_VIEW[mode]), 1800));
-    await Promise.all(steps);
+    const flight = fly ? this.fly(mode === 'off' ? HOME.building : this.fitWidth(MAT_VIEW[mode]), 1800) : null;
+    // floors apart (or cut) come back together first, or the unpatched upper
+    // bands would show as a second, whole building while the parts lift off
+    if (mode !== 'off' && this.stage.building.state !== 'all') {
+      await this.stage.building.setState('all', this.stage.tweens);
+      if (this.s.mat !== mode) return;
+    }
+    await Promise.all([this.mx.set(mode, this.stage.tweens, prev !== 'off' && mode !== 'off' ? 1500 : 1800), flight]);
     this.renderMarkers();
     this.writeHash();
     this.updateHint();
@@ -383,8 +387,12 @@ class App {
     return view.span ? { ...view, zoom: Math.min(view.zoom, across / view.span) } : view;
   }
 
-  leaveMaterials() {
-    return this.s.mat === 'off' ? Promise.resolve() : this.setMaterials('off', { fly: false });
+  // Bring the parts back before another view. Resolves false when a newer
+  // click turned the materials on again meanwhile: the caller then stops.
+  async leaveMaterials() {
+    if (this.s.mat === 'off') return true;
+    await this.setMaterials('off', { fly: false });
+    return this.s.mat === 'off';
   }
 
   renderLayerList() {
@@ -404,8 +412,8 @@ class App {
     $$('.floor-row button').forEach((b) => b.setAttribute('aria-pressed', String(!this.s.explode && this.s.mat === 'off' && b.dataset.floor === this.s.floor)));
     $('#toggle-materials').setAttribute('aria-pressed', String(this.s.mat !== 'off'));
     $('#layer-panel').hidden = this.s.mat === 'off';
-    $$('[data-mat]').forEach((b) => b.setAttribute('aria-pressed', String(b.dataset.mat === this.s.mat)));
-    this.app.dataset.mat = this.s.mat === 'off' ? 'off' : 'on';
+    $$('#layer-panel [data-mat]').forEach((b) => b.setAttribute('aria-pressed', String(b.dataset.mat === this.s.mat)));
+    this.app.dataset.materials = this.s.mat === 'off' ? 'off' : 'on';
     $('#toggle-explode').setAttribute('aria-pressed', String(this.s.explode));
     $$('[data-cevre]').forEach((b) => b.setAttribute('aria-pressed', String(Number(b.dataset.cevre) === this.s.cevre)));
     $('#toggle-plan').setAttribute('aria-pressed', String(this.s.plan));
@@ -454,6 +462,8 @@ class App {
 
   // ------------------------------------------------------------- markers
   renderMarkers() {
+    // new pins need a frame even when nothing else moves
+    this.stage.dirty = true;
     const m = this.stage.markers;
     m.clear();
     if (this.s.visit) return;
@@ -526,7 +536,8 @@ class App {
   }
 
   hotspotVisible(h) {
-    if (this.s.mat !== 'off') return false;
+    // pins wait until the parts are back in place
+    if (this.s.mat !== 'off' || (this.mx?.amount ?? 0) > 1e-3) return false;
     const st = this.stage.building.state;
     if (st === 'explode') return false;
     if (st === 'all') return (h.view.state ?? 'all') === 'all' || h.at[1] < 16;
@@ -537,7 +548,7 @@ class App {
   hotspots() { return this.s.mode === 'surroundings' ? SURROUNDING_HOTSPOTS : BUILDING_HOTSPOTS; }
 
   async openHotspot(id) {
-    await this.leaveMaterials();
+    if (!(await this.leaveMaterials())) return;
     const list = this.hotspots();
     const h = list.find((x) => x.id === id);
     if (!h) return;
@@ -689,7 +700,7 @@ class App {
   async openRoom(id) {
     const room = this.roomsById.get(id);
     if (!room) return;
-    await this.leaveMaterials();
+    if (!(await this.leaveMaterials())) return;
     const ex = this.exhibitionOfRoom.get(id);
     if (this.s.visit) await this.leaveVisit(false);
     if (ex && this.s.mode !== 'exhibitions') {
@@ -747,7 +758,7 @@ class App {
   async openArtwork(id) {
     const a = this.stage.artworks.byId.get(id);
     if (!a) return;
-    await this.leaveMaterials();
+    if (!(await this.leaveMaterials())) return;
     const room = this.roomsById.get(a.room);
     const ex = this.exhibitionOfRoom.get(a.room);
     this.s.exhibition = ex.id;

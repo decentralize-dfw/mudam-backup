@@ -92,7 +92,13 @@ function simplifyRule(name) {
 // element types fall back to the keyword rules below.
 export const LAYERS = ['floors', 'walls', 'ceilings', 'frames', 'glass', 'fittings'];
 const layerMap = JSON.parse(fs.readFileSync(path.join(here, 'layers.json'), 'utf8')).map;
+// Element types that mix parts ("auto" in layers.json: floor slabs and the
+// roof deck under one type, auditorium walls and ceilings under another) go
+// by name; a few names the keyword rules would misread are set here.
+const NAMED = [[/^P07_ENTRY_.*_TRANSOM/, 'walls'], [/^R116_STAIR_PORTAL_JAMB_JOIN/, 'walls']];
 function layerOf(name, extras, materials) {
+  const named = NAMED.find(([re]) => re.test(name));
+  if (named) return named[1];
   const known = layerMap[extras?.element_type];
   if (known && LAYERS.includes(known)) return known;
   const s = `${name} ${extras?.element_type ?? ''} ${materials.join(' ')}`.toUpperCase();

@@ -112,8 +112,7 @@ export class Rig {
         zoom: Math.exp(lerp(Math.log(a.zoom), Math.log(b.zoom), t)),
       });
     }, ease.inOut);
-    this.orbit.enabled = true;
-    this.orbit.update();
+    if (done) { this.orbit.enabled = true; this.orbit.update(); }
     return done;
   }
 

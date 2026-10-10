@@ -207,6 +207,11 @@ button:focus-visible, select:focus-visible, input:focus-visible, a:focus-visible
 #app[data-ready='true'] .boot-bar, #app[data-ready='true'] .boot-status { display: none; }
 #retry { margin-top: 14px; min-height: 40px; padding: 0 18px; border-radius: 999px; background: var(--ink); color: #fff; }
 
+/* the dock reaches the light panel below ~1280 px: lift the panel above it */
+@media (min-width: 761px) and (max-width: 1280px) {
+  .light-panel { bottom: calc(max(var(--gap), env(safe-area-inset-bottom)) + 62px); }
+}
+
 /* ------------------------------------------------------------- mobile */
 @media (max-width: 760px) {
   :root { --gap: 10px; }
