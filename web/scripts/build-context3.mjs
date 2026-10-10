@@ -38,10 +38,10 @@ function stats(doc) {
     bounds: getBounds(r.getDefaultScene()??r.listScenes()[0]),
     textures: r.listTextures().map(t=>({size:t.getSize(),mime:t.getMimeType()})) };
 }
-const manifest = { name:'Context 3', revision:'R159-authored-draco-webp', source:'Authored R159 environment: terrain, fortifications, roads, Philharmonie, Melia, Schuman and 6334 vegetation instances. Not ACT photogrammetry.', compression:'Draco 24-bit positions; WebP quality 92; original texture resolution', files:{} };
+const manifest = { name:'Context 3', revision:'R161-authored-draco-webp', source:'Authored environment: R159 terrain and vegetation, Philharmonie, Melia, Schuman; R161 WKI, Thomas More and road connections. Not ACT photogrammetry.', compression:'Draco 24-bit positions; WebP quality 92; original texture resolution', files:{} };
 fs.mkdirSync(path.join(repo,'demo/model/cevre3'),{recursive:true});
-for (const [key,sourceName] of [['near','near_site'],['far','philharmonie'],['melia','melia'],['schuman','schuman'],['vegetation','vegetation']]) {
-  const source = zlib.gunzipSync(fs.readFileSync(path.join(repo,`12_Blender_Model/exports/r152_clean/${sourceName}_web.glb.gz`)));
+for (const [key,sourceName] of [['near','near_site'],['far','philharmonie'],['melia','melia'],['schuman','schuman'],['vegetation','vegetation'],['district','r161_additions']]) {
+  const source = key==='district' ? fs.readFileSync(path.join(repo,'12_Blender_Model/exports/r152_clean/r161_additions.glb')) : zlib.gunzipSync(fs.readFileSync(path.join(repo,`12_Blender_Model/exports/r152_clean/${sourceName}_web.glb.gz`)));
   const doc = await io.readBinary(source);
   const before = stats(doc);
   doc.getRoot().listExtensionsUsed().filter(e=>e.extensionName==='EXT_meshopt_compression').forEach(e=>e.dispose());
