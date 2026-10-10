@@ -1,0 +1,95 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R149_UST_DOLASIM_TAS_DOSEME_v001.blend",
+  "base_scene": "MUDAM_R148_KAFE_TAS_DOSEME_v001.blend",
+  "changed_inherited_objects": [
+    "P05_FLOOR_LP1_BRIDGE"
+  ],
+  "closed_objects": [],
+  "surface_objects": [
+    {
+      "name": "P05_FLOOR_LP1_BRIDGE",
+      "faces": [
+        {
+          "face": 2,
+          "material": "R149_FLOOR_CONTINUITY_CANDIDATE",
+          "u": [
+            -0.680959939956665,
+            0.7323206067085266,
+            0.0
+          ],
+          "v": [
+            0.7323206067085266,
+            0.680959939956665,
+            0.0
+          ],
+          "repeat_m": [
+            3.6,
+            3.6
+          ]
+        },
+        {
+          "face": 3,
+          "material": "R149_FLOOR_CONTINUITY_CANDIDATE",
+          "u": [
+            -0.680959939956665,
+            0.7323206067085266,
+            0.0
+          ],
+          "v": [
+            0.7323206067085266,
+            0.680959939956665,
+            0.0
+          ],
+          "repeat_m": [
+            3.6,
+            3.6
+          ]
+        }
+      ]
+    }
+  ],
+  "uv_map": "R149_METRIC_FINISH_UV",
+  "materials": [
+    "R149_FLOOR_CONTINUITY_CANDIDATE"
+  ],
+  "sources": [
+    {
+      "id": "017",
+      "path": "04_Ic_Mekan/Giris_ve_Dolasim/017_Tas_duvar_ve_dogal_isik_WikiArquitectura.jpg",
+      "sha256": "5260d080141098cbc5d01577c03a3d4f1f853a028b24e4ad27ee37e79f37a0ba",
+      "source_url": "https://es.wikiarquitectura.com/edificio/museo-de-arte-moderno-grand-duc-jean-mudam/",
+      "credit": "WikiArquitectura; sayfadaki foto\u011fraf serisi Haziran 2019",
+      "source_date": "unknown; do not infer from download date",
+      "modified": false
+    },
+    {
+      "id": "045",
+      "path": "04_Ic_Mekan/Grand_Hall/045_Grand_Hall_genel_gorunum_WikiArquitectura.jpg",
+      "sha256": "679fc7a30562695f57eab672ffd77e9edec297514b65c7dbbdbb62c006d3b3b4",
+      "source_url": "https://es.wikiarquitectura.com/edificio/museo-de-arte-moderno-grand-duc-jean-mudam/",
+      "credit": "WikiArquitectura; sayfadaki foto\u011fraf serisi Haziran 2019",
+      "source_date": "unknown; do not infer from download date",
+      "modified": false
+    },
+    {
+      "id": "077",
+      "path": "04_Ic_Mekan/Asansor_ve_Servis/077_Asansor_ve_erisim_WikiArquitectura.jpg",
+      "sha256": "b340072636ba2b551d2e3b6a336b6c15f1f9060adb92f5f36a0e68bd24f6da2c",
+      "source_url": "https://es.wikiarquitectura.com/edificio/museo-de-arte-moderno-grand-duc-jean-mudam/",
+      "credit": "WikiArquitectura; sayfadaki foto\u011fraf serisi Haziran 2019",
+      "source_date": "unknown; do not infer from download date",
+      "modified": false
+    },
+    {
+      "id": "103",
+      "path": "01_Kat_Planlari/Resmi_Kat_Semalari/103_Resmi_kat_semasi_ust_arti_1_Mudam.jpeg",
+      "sha256": "bd94768b80070517fd9ff2fbcb120fc1ba35aa048de49f6a25cbf57ab9c353a2",
+      "source_url": "https://www.mudam.com/fr/floor-plans",
+      "credit": "Mudam Luxembourg; kullan\u0131c\u0131 taraf\u0131ndan verilen do\u011frudan ba\u011flant\u0131",
+      "source_date": "unknown; do not infer from download date",
+      "modified": false
+    }
+  ],
+  "geometry_changed": false,
+  "construction_acceptance": false
+}

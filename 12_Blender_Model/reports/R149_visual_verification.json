@@ -1,0 +1,15 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R149_UST_DOLASIM_TAS_DOSEME_v001.blend",
+  "reviewed_images": [
+    {
+      "path": "12_Blender_Model/renders/qa/R149_before_bridge.png",
+      "sha256": "8093190ba4ab1d3451e51e4f3b8971a6cc5111f849aeea7792e5cd2d00a3ad68"
+    },
+    {
+      "path": "12_Blender_Model/renders/qa/R149_after_bridge.png",
+      "sha256": "fef8fc2d0016d5ee301a54a943fca781e6bfc3d40606529a615dda76f2049b3b"
+    }
+  ],
+  "failures": [],
+  "scope": "045 üst dolaşım taşı ve 103 planıyla koşullu malzeme sürekliliği adayıdır. 017/077 taş ailesini destekler; kesin köprü derz çizelgesini kanıtlamaz. 3.6m tekrar/0.9m modül ölçülmüş değildir. Kayıtlı ışıkta kontrast düşük; fiziksel renk kabulü açık. Geometri ve açıklıklar aynı."
+}

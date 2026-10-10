@@ -2096,5 +2096,22 @@
     "image": "R148_after_cafe.png",
     "description": "Batı kafenin yaklaşık 288m² mevcut döşemesindeki 33 üst yüze taş malzemesi ve metrik UV uygulandı.",
     "limits": "Resmî Mudam kafe fotoğrafları CF01/CF02 eklendi; CF01 açık taş zemini ve derzleri gösterir. 3.6m doku tekrarı ve yaklaşık 0.9m modül mevcut görsel adaydır, rölöve değildir. Mobilya/eser üretilmedi; geometri ve açıklıklar birebir aynı."
+  },
+  {
+    "id": "R149",
+    "checks": [
+      "R149_verification.json",
+      "R149_inherited_verification.json",
+      "R149_visual_verification.json"
+    ],
+    "tasks": [
+      "P13",
+      "P19"
+    ],
+    "report": "R149_KONTROL_RAPORU.md",
+    "title": "Üst köprü taş döşemesi / R149",
+    "image": "R149_after_bridge.png",
+    "description": "Üst köprünün mevcut döşemesindeki iki üst yüze komşu taş ailesi ve metrik UV uygulandı; yalnız P05_FLOOR_LP1_BRIDGE değişti.",
+    "limits": "045 üst dolaşım taşı ve 103 planıyla koşullu malzeme sürekliliği adayıdır. 017/077 taş ailesini destekler; kesin köprü derz çizelgesini kanıtlamaz. 3.6m tekrar/0.9m modül ölçülmüş değildir. Kayıtlı ışıkta kontrast düşük; fiziksel renk kabulü açık. Geometri ve açıklıklar aynı."
   }
 ]

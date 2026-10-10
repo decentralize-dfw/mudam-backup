@@ -1,5 +1,5 @@
 {
-  "as_of_revision": "R148",
+  "as_of_revision": "R149",
   "basis": "Beş eşit iş adımı: tamam 20, kısmi 10, bekleyen 0 puan. Yaklaşık kapsam ilerlemesidir; ölçü doğruluğu veya harcanan süre oranı değildir. Yeni paket kabulünde ilgili adımlar yeniden değerlendirilir.",
   "tasks": {
     "P00": {
@@ -557,7 +557,7 @@
       ]
     }
   },
-  "last_reviewed_checkpoint": "R148",
+  "last_reviewed_checkpoint": "R149",
   "last_review_note": "Batı kafenin yaklaşık 288m² mevcut döşemesindeki 33 üst yüze taş malzemesi ve metrik UV uygulandı.",
   "execution_order": [
     "Malzeme ve yüzey detayları",
@@ -571,5 +571,5 @@
   ],
   "current_priority": "Malzeme ve yakın çevre; gerçek kapsam %90 olana kadar üretim. Kullanıcı talimatıyla ara push yok.",
   "review_note": "Canlı kesit kapakları uygulandı ve tarayıcıda sınandı; üst kat altı kapalı halka düzeltildi, 12 açık çizgi doldurulmadı. P20 son adımı kısmi.",
-  "last_reviewed_revision": "R148"
+  "last_reviewed_revision": "R149"
 }

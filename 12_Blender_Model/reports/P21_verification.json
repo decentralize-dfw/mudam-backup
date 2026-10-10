@@ -1,6 +1,6 @@
 {
-  "file": "12_Blender_Model/exports/MUDAM_R148_KAFE_TAS_DOSEME_v001_preview_compact.glb",
-  "size_bytes": 121223148,
+  "file": "12_Blender_Model/exports/MUDAM_R149_UST_DOLASIM_TAS_DOSEME_v001_preview_compact.glb",
+  "size_bytes": 121226992,
   "mesh_nodes": 8478,
   "triangles": 3696922,
   "world_bounds_glTF": [
@@ -266,6 +266,20 @@
     },
     {
       "material": "R148_FLOOR_CONTINUITY_CANDIDATE",
+      "usage": "normal",
+      "image": "R43_stone_floor_candidate_normal",
+      "uv_attribute": "TEXCOORD_0",
+      "primitive_count": 1
+    },
+    {
+      "material": "R149_FLOOR_CONTINUITY_CANDIDATE",
+      "usage": "basecolor",
+      "image": "R43_stone_floor_candidate_basecolor",
+      "uv_attribute": "TEXCOORD_0",
+      "primitive_count": 1
+    },
+    {
+      "material": "R149_FLOOR_CONTINUITY_CANDIDATE",
       "usage": "normal",
       "image": "R43_stone_floor_candidate_normal",
       "uv_attribute": "TEXCOORD_0",

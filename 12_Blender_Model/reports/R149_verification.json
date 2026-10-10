@@ -1,0 +1,35 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R149_UST_DOLASIM_TAS_DOSEME_v001.blend",
+  "evaluated_geometry_objects_checked": 9365,
+  "geometry_identical": true,
+  "uv_checks": [
+    {
+      "name": "P05_FLOOR_LP1_BRIDGE",
+      "faces": 2,
+      "max_uv_error": 0.0,
+      "min_uv_area": 4.874589361259936
+    }
+  ],
+  "packed_images": [
+    {
+      "material": "R149_FLOOR_CONTINUITY_CANDIDATE",
+      "image": "R43_stone_floor_candidate_basecolor.png",
+      "packed": true,
+      "size": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "material": "R149_FLOOR_CONTINUITY_CANDIDATE",
+      "image": "R43_stone_floor_candidate_normal.png",
+      "packed": true,
+      "size": [
+        2048,
+        2048
+      ]
+    }
+  ],
+  "failures": [],
+  "construction_acceptance": false
+}

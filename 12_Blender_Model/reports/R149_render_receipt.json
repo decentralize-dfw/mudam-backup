@@ -1,0 +1,35 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R149_UST_DOLASIM_TAS_DOSEME_v001.blend",
+  "images": [
+    {
+      "image": "12_Blender_Model/renders/qa/R149_before_bridge.png",
+      "phase": "before",
+      "eye": [
+        12.918108940124512,
+        27.62742805480957,
+        6.5
+      ],
+      "target": [
+        17.65435218811035,
+        21.48723030090332,
+        4.949999809265137
+      ]
+    },
+    {
+      "image": "12_Blender_Model/renders/qa/R149_after_bridge.png",
+      "phase": "after",
+      "eye": [
+        12.918108940124512,
+        27.62742805480957,
+        6.5
+      ],
+      "target": [
+        17.65435218811035,
+        21.48723030090332,
+        4.949999809265137
+      ]
+    }
+  ],
+  "all_active_surroundings": true,
+  "lighting_unchanged": true
+}
