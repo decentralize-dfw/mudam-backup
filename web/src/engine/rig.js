@@ -44,6 +44,7 @@ export class Rig {
     this.width = 1; this.height = 1;
     this.planLock = false;
     this.insets = { left: 0, right: 0, bottom: 0 };
+    this.insetsGoal = { ...this.insets };
   }
 
   get camera() { return this.mode === 'ortho' ? this.ortho : this.persp; }
@@ -53,6 +54,7 @@ export class Rig {
   setInsets({ left = 0, right = 0, bottom = 0 }, ms = 450) {
     const from = { ...this.insets };
     const to = { left, right, bottom };
+    this.insetsGoal = to;
     if (from.left === left && from.right === right && from.bottom === bottom) return;
     this.tweens.run('insets', ms, (t) => {
       this.insets = { left: lerp(from.left, to.left, t), right: lerp(from.right, to.right, t), bottom: lerp(from.bottom, to.bottom, t) };
@@ -96,6 +98,31 @@ export class Rig {
     this.ortho.up.set(0, 1, 0);
     this.ortho.lookAt(target);
     this.ortho.updateProjectionMatrix();
+  }
+
+  // Zoom to extents: target and zoom that fit a world box in the free part of
+  // the screen (what panels leave, less `pad` pixels for the bars), seen from
+  // azimuth/polar.
+  fit(box, azimuth, polar, pad = { top: 90, bottom: 90, side: 24 }, margin = 0.06) {
+    const dir = new THREE.Vector3().setFromSpherical(new THREE.Spherical(1, Math.max(1e-3, polar), azimuth));
+    const right = new THREE.Vector3(0, 1, 0).cross(dir).normalize();
+    const up = dir.clone().cross(right).normalize();
+    let x0 = Infinity, x1 = -Infinity, y0 = Infinity, y1 = -Infinity;
+    const p = new THREE.Vector3();
+    for (const x of [box.min.x, box.max.x]) for (const y of [box.min.y, box.max.y]) for (const z of [box.min.z, box.max.z]) {
+      p.set(x, y, z);
+      const a = p.dot(right), b = p.dot(up);
+      x0 = Math.min(x0, a); x1 = Math.max(x1, a); y0 = Math.min(y0, b); y1 = Math.max(y1, b);
+    }
+    const ins = this.insetsGoal, w = this.width, h = this.height;
+    const k = this.viewSize / Math.min(w, h); // metres per pixel at zoom 1
+    const freeW = Math.max(80, w - ins.left - ins.right - 2 * pad.side), freeH = Math.max(80, h - ins.bottom - pad.top - pad.bottom);
+    const zoom = THREE.MathUtils.clamp(Math.min((k * freeW) / Math.max(1, x1 - x0), (k * freeH) / Math.max(1, y1 - y0)) * (1 - margin), this.orbit.minZoom, this.orbit.maxZoom);
+    const centre = box.getCenter(new THREE.Vector3());
+    const target = right.clone().multiplyScalar((x0 + x1) / 2)
+      .addScaledVector(up, (y0 + y1) / 2 + (k * (pad.top - pad.bottom)) / 2 / zoom)
+      .addScaledVector(dir, centre.dot(dir));
+    return { target, azimuth, polar, zoom };
   }
 
   // Fly the orthographic camera; a perspective view hands over first.
