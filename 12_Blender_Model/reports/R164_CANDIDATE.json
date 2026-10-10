@@ -1,0 +1,27 @@
+{
+  "limitations": [
+    "0.4m building-axis roof sampling and measured height modes; approximate envelope.",
+    "Source-baked facade color; window recesses not independently reconstructed.",
+    "Not exact or complete environment acceptance."
+  ],
+  "scene": "MUDAM_R164_KAYNAK_BINA_DETAY_ADAY_v001.blend",
+  "vertices": 25587,
+  "accepted": false,
+  "published": false,
+  "ground_contacts": 1956,
+  "ground_min_overlap": 0.07999999999999996,
+  "wall_stats": [
+    {
+      "id": "480792009",
+      "wall_spans": 1674
+    },
+    {
+      "id": "664452464",
+      "wall_spans": 37
+    },
+    {
+      "id": "681104587",
+      "wall_spans": 763
+    }
+  ]
+}

@@ -25,19 +25,31 @@ for b in rows:
  errs=np.abs(z[valid]-levels[lab[valid]-1]);print(b['id'],'levels',levels.tolist(),'parts',len(pieces),'error median/p95',np.quantile(errs,[.5,.95]).tolist())
  out.append(dict(id=b['id'],name=b['name'],base=b['base'],parts=pieces,levels=levels.tolist(),sample_count=int(valid.sum()),roof_sample_error_median=float(np.median(errs)),roof_sample_error_p95=float(np.quantile(errs,.95))))
 (D/'roofs.json').write_text(json.dumps(out))
-# Triangulate roof polygons; vertical walls stop at measured adjacent roof heights.
-verts=[];faces=[]
+# Node all shared roof boundaries before creating step walls. A midpoint on
+# an unsplit long edge can belong to several roof levels and omit wall spans.
+verts=[];faces=[];base_vertices=[];stats=[]
 for b in out:
- polys=[shape(p['polygon']) for p in b['parts']];union=shapely.union_all(polys)
+ polys=[shape(p['polygon']) for p in b['parts']];tree=shapely.STRtree(polys)
+ def level_at(point):
+  ids=tree.query(point,predicate='intersects')
+  return max((b['parts'][int(i)]['z'] for i in ids),default=b['base'])
  for p,g in zip(b['parts'],polys):
-  z=p['z']
   for t in shapely.constrained_delaunay_triangles(g).geoms:
-   v=[(xx,yy,z) for xx,yy in list(t.exterior.coords)[:3]];off=len(verts);verts.extend(v);faces.append([off,off+1,off+2])
-  for ring in [g.exterior,*g.interiors]:
-   coords=list(ring.coords)
-   for aa,bb in zip(coords,coords[1:]):
-    # Neighbour test excludes this polygon; keep only exposed vertical span.
-    mid=shapely.Point((aa[0]+bb[0])/2,(aa[1]+bb[1])/2);neighbors=[p2['z'] for p2,g2 in zip(b['parts'],polys) if g2 is not g and g2.distance(mid)<.0001];low=max([h for h in neighbors if h<z-.1],default=b['base'])
-    if any(h>=z-.1 for h in neighbors):continue
-    off=len(verts);verts.extend([(aa[0],aa[1],low),(bb[0],bb[1],low),(bb[0],bb[1],z),(aa[0],aa[1],z)]);faces.append([off,off+1,off+2,off+3])
-(D/'mesh.json').write_text(json.dumps(dict(vertices=verts,faces=faces,buildings=out,limitations=['Roof segmentation candidate: 0.4m samples, measured height modes, simplified boundaries.','Source-baked facades do not yet have individually reconstructed window recesses.','Not an exact or complete environment acceptance.'])))
+   tri=list(t.exterior.coords)[:3];cross=(tri[1][0]-tri[0][0])*(tri[2][1]-tri[0][1])-(tri[1][1]-tri[0][1])*(tri[2][0]-tri[0][0]);tri=tri if cross>0 else tri[::-1];off=len(verts);verts.extend([(xx,yy,p['z']) for xx,yy in tri]);faces.append([off,off+1,off+2])
+ lines=shapely.union_all([p.boundary for p in polys]);wall_count=0
+ for line in getattr(lines,'geoms',[lines]):
+  coords=list(line.coords)
+  for aa,bb in zip(coords,coords[1:]):
+   aa=np.array(aa);bb=np.array(bb);delta=bb-aa;length=np.linalg.norm(delta)
+   if length<1e-5:continue
+   mid=(aa+bb)/2;left=np.array([-delta[1],delta[0]])/length*.0001
+   hl=level_at(shapely.Point(mid+left));hr=level_at(shapely.Point(mid-left))
+   if abs(hl-hr)<.001:continue
+   lo,hi=sorted([hl,hr]);off=len(verts)
+   verts.extend([(aa[0],aa[1],lo),(bb[0],bb[1],lo),(bb[0],bb[1],hi),(aa[0],aa[1],hi)])
+   faces.append([off,off+1,off+2,off+3] if hl>hr else [off+3,off+2,off+1,off])
+   if abs(lo-b['base'])<.001:base_vertices.extend([off,off+1])
+   wall_count+=1
+ stats.append(dict(id=b['id'],wall_spans=wall_count))
+(D/'mesh.json').write_text(json.dumps(dict(vertices=verts,faces=faces,base_vertices=base_vertices,buildings=out,wall_stats=stats,limitations=['0.4m building-axis roof sampling and measured height modes; approximate envelope.','Source-baked facade color; window recesses not independently reconstructed.','Not exact or complete environment acceptance.'])))
+print('NODED_WALLS',stats,flush=True)

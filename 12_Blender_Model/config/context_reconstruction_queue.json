@@ -1,17 +1,14 @@
 {
-  "active": "R162 WKI and Thomas More scan-based reconstruction",
-  "production_context": "R161 remains active; R162 is a separate review candidate until geometry and projection problems are resolved",
+  "active": "Building-by-building reconstruction and facade correction",
+  "production_context": "R165: seven authored source-derived building envelopes; wider district remains incomplete",
   "automatic_continuation": true,
   "next_actions": [
-    "Remove source segmentation fragments only after checking source roof/vegetation separation.",
-    "Resolve projected facade streaking using per-facade orthographic texture sampling; retain real scan window rhythm.",
-    "Verify building bases against local terrain and adjacent road heights.",
-    "Replace only the two R161 building groups, preserving its road patches; export Draco/WebP and inspect Context 3.",
-    "Reconstruct road edges and connected junctions from registered ACT imagery, preserving museum bridges and ground contact.",
-    "Reconstruct terrain and vegetation envelopes from source and classified LiDAR; no random tree placement.",
-    "Continue remaining buildings individually using measured source roof/facade boundaries."
+    "Reconstruct remaining northern district buildings from source footprints and roofs.",
+    "Resolve facade projection streaking and add important measured facade relief.",
+    "Trace actual junctions, medians, sidewalks and crossings from registered ACT surface imagery.",
+    "After building placement, restore source-matched canopy density and terrain quality."
   ],
   "completion_claim": false,
   "push_policy": "Normal origin/main push for verified changes, no force/reset, no unrelated files",
-  "last_candidate": "MUDAM_R162_TARAMA_CATI_CEPHE_ADAY_v002.blend"
+  "last_candidate": "MUDAM_R165_YEDI_BINA_ENTEGRE_v001.blend"
 }

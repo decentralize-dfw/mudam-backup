@@ -1,0 +1,23 @@
+{
+  "limitations": [
+    "0.4m building-axis roof sampling and measured height modes; approximate envelope.",
+    "Source-baked facade color; window recesses not independently reconstructed.",
+    "Not exact or complete environment acceptance."
+  ],
+  "scene": "MUDAM_R165_KUZEY_KULELER_ADAY_v001.blend",
+  "vertices": 20748,
+  "accepted": false,
+  "published": false,
+  "ground_contacts": 1330,
+  "ground_min_overlap": 0.07999999999999996,
+  "wall_stats": [
+    {
+      "id": "north_tower_a",
+      "wall_spans": 797
+    },
+    {
+      "id": "north_tower_b",
+      "wall_spans": 1198
+    }
+  ]
+}

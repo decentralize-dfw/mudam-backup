@@ -39,12 +39,18 @@ function stats(doc) {
     textures: r.listTextures().map(t=>({size:t.getSize(),mime:t.getMimeType()})) };
 }
 const candidate = process.argv.includes('--r162-candidate');
+const buildingRelease = process.argv.includes('--r165-buildings');
+const surfaceRelease = process.argv.includes('--r163-surface');
 const outputDir=candidate?'demo/model/r162-review':'demo/model/cevre3';
 const manifest = { name:'Context 3', revision:'R161-authored-draco-webp', source:'Authored environment: R159 terrain and vegetation, Philharmonie, Melia, Schuman; R161 WKI, Thomas More and road connections. Not ACT photogrammetry.', compression:'Draco 24-bit positions; WebP quality 92; original texture resolution', files:{} };
+if(buildingRelease) Object.assign(manifest,{revision:'R165-seven-source-derived-buildings',source:'Authored environment with seven source-derived building envelopes: roof steps, courtyard boundaries and a measured sloping tower roof. ACT facade color projected onto authored geometry. Fine facade recesses, remaining district buildings, roads and vegetation are incomplete.'});
+if(surfaceRelease) Object.assign(manifest,{revision:'R163-authored-source-surface',source:'Authored environment with ACT registered overhead surface colors on retained terrain; R161 buildings and R159 vegetation remain approximate.'});
 if(candidate) Object.assign(manifest,{name:'R162 review candidate',revision:'R162-v002-review-only',source:'Authored roof segmentation and facade projection from ACT reference; incomplete, not accepted as full context.',accepted:false});
 fs.mkdirSync(path.join(repo,outputDir),{recursive:true});
 for (const [key,sourceName] of (candidate ? [['candidate','r162_measured_candidate']] : [['near','near_site'],['far','philharmonie'],['melia','melia'],['schuman','schuman'],['vegetation','vegetation'],['district','r161_additions']])) {
-  const source = candidate ? fs.readFileSync(path.join(repo,'12_Blender_Model/exports/r152_clean/r162_measured_candidate.glb')) : key==='district' ? fs.readFileSync(path.join(repo,'12_Blender_Model/exports/r152_clean/r161_additions.glb')) : zlib.gunzipSync(fs.readFileSync(path.join(repo,`12_Blender_Model/exports/r152_clean/${sourceName}_web.glb.gz`)));
+  const buildingFile=buildingRelease && key==='district' ? 'r165_district' : null;
+  const surfaceFile=surfaceRelease && (key==='near'||key==='district') ? `r163_${key}` : null;
+  const source = buildingFile ? fs.readFileSync(path.join(repo,`12_Blender_Model/exports/r152_clean/${buildingFile}.glb`)) : surfaceFile ? fs.readFileSync(path.join(repo,`12_Blender_Model/exports/r152_clean/${surfaceFile}.glb`)) : candidate ? fs.readFileSync(path.join(repo,'12_Blender_Model/exports/r152_clean/r162_measured_candidate.glb')) : key==='district' ? fs.readFileSync(path.join(repo,'12_Blender_Model/exports/r152_clean/r161_additions.glb')) : zlib.gunzipSync(fs.readFileSync(path.join(repo,`12_Blender_Model/exports/r152_clean/${sourceName}_web.glb.gz`)));
   const doc = await io.readBinary(source);
   const before = stats(doc);
   doc.getRoot().listExtensionsUsed().filter(e=>e.extensionName==='EXT_meshopt_compression').forEach(e=>e.dispose());

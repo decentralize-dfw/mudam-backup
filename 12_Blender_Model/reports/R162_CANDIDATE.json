@@ -1,44 +1,23 @@
 {
   "limitations": [
-    "Roof segmentation candidate: 0.4m samples, measured height modes, simplified boundaries.",
-    "Source-baked facades do not yet have individually reconstructed window recesses.",
-    "Not an exact or complete environment acceptance."
+    "0.4m building-axis roof sampling and measured height modes; approximate envelope.",
+    "Source-baked facade color; window recesses not independently reconstructed.",
+    "Not exact or complete environment acceptance."
   ],
-  "scene": "MUDAM_R162_TARAMA_CATI_CEPHE_ADAY_v002.blend",
-  "vertices": 43506,
+  "scene": "MUDAM_R162_TARAMA_CATI_CEPHE_ADAY_v004.blend",
+  "vertices": 45003,
   "accepted": false,
   "published": false,
-  "compression_verification": {
-    "file": "model/r162-review/measured-buildings.glb",
-    "bytes": 1226052,
-    "sha256": "8a06763cba2f7adb11b13335e7408893d3a5fc773b2f5969184dd92ca7eafcaa",
-    "sourceSha256": "5db12757fb9ef07c762a13f4d66293c145237592339ba9949fb1ba8973e489e5",
-    "triangles": 14502,
-    "sourceTriangles": 14502,
-    "degenerateRemoved": 0,
-    "bounds": {
-      "min": [
-        -228.8013153076172,
-        1.8887457847595215,
-        -466.9177551269531
-      ],
-      "max": [
-        81.53337097167969,
-        34.797393798828125,
-        -310.5760803222656
-      ]
+  "ground_contacts": 1892,
+  "ground_min_overlap": 0.07999999999999996,
+  "wall_stats": [
+    {
+      "id": "24457411",
+      "wall_spans": 2480
     },
-    "boundsError": 3.0517578125e-05,
-    "textures": 1,
-    "instanceTransformsPreserved": true,
-    "instances": []
-  },
-  "visual_acceptance": false,
-  "production_context_updated": false,
-  "remaining": [
-    "Facade projection streaks and scan segmentation fragments remain.",
-    "Building-to-ground continuity not yet verified.",
-    "Other environment layers unchanged."
-  ],
-  "next_work_queue": "config/context_reconstruction_queue.json"
+    {
+      "id": "24457477",
+      "wall_spans": 1799
+    }
+  ]
 }
