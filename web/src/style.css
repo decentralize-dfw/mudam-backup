@@ -91,8 +91,9 @@ button:focus-visible, select:focus-visible, input:focus-visible, a:focus-visible
 #app[data-mode='surroundings'] #toggle-materials, #app[data-mode='exhibitions'] #toggle-materials { display: none; }
 
 /* -------------------------------------------------------- light panel */
-.light-panel { position: absolute; z-index: 25; right: var(--gap); bottom: max(var(--gap), env(safe-area-inset-bottom)); width: 260px; padding: 12px 14px 10px; border-radius: 18px; display: grid; gap: 6px; }
-.light-row { display: flex; align-items: center; justify-content: space-between; gap: 8px; font-size: 12.5px; font-weight: 600; }
+.light-panel { position: absolute; z-index: 25; right: var(--gap); bottom: max(var(--gap), env(safe-area-inset-bottom)); width: 318px; padding: 12px 14px 10px; border-radius: 18px; display: grid; gap: 6px; }
+.light-row { display: flex; align-items: center; justify-content: space-between; gap: 8px; font-size: 12.5px; font-weight: 600; min-width: 0; }
+.light-row select { min-width: 0; flex: 1 1 auto; max-width: 62%; }
 .light-row output { font-variant-numeric: tabular-nums; font-weight: 700; }
 .light-panel input[type='range'] { width: 100%; accent-color: var(--ink); margin: 2px 0; }
 .light-panel .pill { background: rgba(255, 255, 255, 0.7); border: 1px solid var(--line); }
@@ -125,6 +126,9 @@ button:focus-visible, select:focus-visible, input:focus-visible, a:focus-visible
 .marker-layername i { width: 12px; height: 12px; margin: 9px; border-radius: 3px; background: var(--c); border: 2px solid #fff; }
 .marker-layername span { max-width: 320px; opacity: 1; font-size: 12.5px; font-weight: 700; padding: 5px 11px; }
 .marker.flip { flex-direction: row-reverse; }
+/* room names on the storeys' arrows: the pill sits on the arrow's tip */
+.marker-roomtag i { width: 8px; height: 8px; margin: 11px; background: #1d2421; border: 0; box-shadow: none; }
+.marker-roomtag span { max-width: 320px; opacity: 1; font-size: 12px; font-weight: 650; padding: 4px 10px; }
 
 /* -------------------------------------------------------------- cards */
 .card { position: absolute; z-index: 28; right: var(--gap); top: 84px; width: min(380px, calc(100vw - 2 * var(--gap))); max-height: calc(100% - 84px - 150px); overflow: auto; border-radius: 22px; padding: 20px 22px 18px; background: var(--panel); }
@@ -219,9 +223,10 @@ button:focus-visible, select:focus-visible, input:focus-visible, a:focus-visible
   .identity-text small { display: none; }
   .brand { font-size: 11px; letter-spacing: 0.22em; }
   #open-about { display: none; }
+  .lang-flag { min-width: 32px; min-height: 32px; padding: 0 4px; letter-spacing: 0.04em; }
   .mode-picker { top: calc(max(var(--gap), env(safe-area-inset-top)) + 56px); }
   .mode-picker button { padding: 0 14px; min-height: 36px; font-size: 13px; }
-  .dock { bottom: calc(max(var(--gap), env(safe-area-inset-bottom)) + 60px); max-width: calc(100vw - 2 * var(--gap)); overflow-x: auto; }
+  .dock { bottom: calc(max(var(--gap), env(safe-area-inset-bottom)) + 104px); max-width: calc(100vw - 2 * var(--gap)); overflow-x: auto; }
   .camera-tools { display: none; }
   .light-panel { left: var(--gap); right: var(--gap); width: auto; bottom: max(var(--gap), env(safe-area-inset-bottom)); padding: 8px 12px; grid-template-columns: 1fr auto; align-items: center; }
   .light-panel .daylight-row { display: none; }
@@ -232,14 +237,14 @@ button:focus-visible, select:focus-visible, input:focus-visible, a:focus-visible
   .light-panel .context-switch { grid-column: 2; grid-row: 1; }
   .light-panel input[type='range'] { grid-column: 1; grid-row: 1; }
   .light-panel .light-row:last-child { grid-row: 2; }
-  .card, .sheet { left: var(--gap); right: var(--gap); width: auto; top: auto; bottom: calc(max(var(--gap), env(safe-area-inset-bottom)) + 116px); max-height: 46vh; border-radius: 18px; padding: 16px; }
+  .card, .sheet { left: var(--gap); right: var(--gap); width: auto; top: auto; bottom: calc(max(var(--gap), env(safe-area-inset-bottom)) + 160px); max-height: 46vh; border-radius: 18px; padding: 16px; }
   .card h2 { font-size: 19px; }
   .hint { display: none; }
-  .layer-panel { right: var(--gap); width: auto; bottom: calc(max(var(--gap), env(safe-area-inset-bottom)) + 112px); padding: 8px; gap: 6px; }
+  .layer-panel { right: var(--gap); width: auto; bottom: calc(max(var(--gap), env(safe-area-inset-bottom)) + 156px); padding: 8px; gap: 6px; }
   .layer-list { display: flex; gap: 4px; overflow-x: auto; }
   .layer-chip { flex: none; border-radius: 999px; font-size: 12px; }
   #app[data-card='true'] .sheet { display: none; }
   .marker span { font-size: 11.5px; }
   /* the layer list below names the colours; on a phone the 3D labels would cover the parts */
-  .marker-layername span { display: none; }
+  .marker-layername span, .marker-roomtag span { display: none; }
 }

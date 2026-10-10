@@ -1,38 +1,40 @@
 <!doctype html>
-<html lang="tr">
+<html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
   <meta name="theme-color" content="#e7ebe8" />
-  <title>Mudam Luxembourg — Bina, çevre ve güncel sergiler · 3B</title>
-  <meta name="description" content="I. M. Pei’nin Mudam binası, çevresi ve güncel sergileri tek bir 3B modelde: kat kat kesit, plan ve izometrik görünüm, eser eser gezinti." />
+  <title>Mudam Luxembourg — Building, surroundings and current exhibitions · 3D</title>
+  <meta name="description" content="I. M. Pei’s Mudam building, its surroundings and current exhibitions in one 3D model: floor-by-floor sections, plan and isometric views, a walk work by work." />
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cpath d='M4 26 16 6l12 20z' fill='%23161d1a'/%3E%3C/svg%3E" />
-  <script type="module" crossorigin src="./demo/app/index-B0NdqDl2.js"></script>
-  <link rel="stylesheet" crossorigin href="./demo/app/index-CcUvuFY3.css">
+  <script type="module" crossorigin src="./demo/app/index-Bc-D0aiv.js"></script>
+  <link rel="stylesheet" crossorigin href="./demo/app/index-Cy7PEpjl.css">
 </head>
 <body>
 <main id="app" data-mode="building" data-booting="true">
-  <div id="viewport" aria-label="Mudam binasının etkileşimli 3B modeli"></div>
+  <div id="viewport" aria-label="Interactive 3D model of the Mudam building" data-i18n-label="viewportLabel"></div>
 
   <header class="topbar">
     <div class="identity glass">
       <span class="brand">MUDAM</span>
       <span class="brand-divider"></span>
-      <span class="identity-text"><strong>Luxembourg</strong><small data-i18n="placeShort">I. M. Pei · 2006</small></span>
+      <span class="identity-text"><strong>Luxembourg</strong><small data-i18n="placeShort">Virtual Experience · demo</small></span>
     </div>
     <div class="top-actions">
-      <div class="lang-switch glass" role="group" aria-label="Dil / Language">
-        <button type="button" class="lang-flag" data-lang="tr" aria-pressed="true">TR</button>
-        <button type="button" class="lang-flag" data-lang="en" aria-pressed="false">EN</button>
+      <div class="lang-switch glass" role="group" aria-label="Language" data-i18n-label="langLabel">
+        <button type="button" class="lang-flag" data-lang="en" aria-pressed="true" lang="en" title="English">EN</button>
+        <button type="button" class="lang-flag" data-lang="fr" aria-pressed="false" lang="fr" title="Français">FR</button>
+        <button type="button" class="lang-flag" data-lang="de" aria-pressed="false" lang="de" title="Deutsch">DE</button>
+        <button type="button" class="lang-flag" data-lang="lb" aria-pressed="false" lang="lb" title="Lëtzebuergesch">LB</button>
       </div>
-      <button id="open-about" class="quiet-button glass" data-i18n="about">Hakkında</button>
+      <button id="open-about" class="quiet-button glass" data-i18n="about">About</button>
     </div>
   </header>
 
-  <nav class="mode-picker glass" aria-label="Görünüm">
-    <button data-mode="surroundings" aria-pressed="false" data-i18n="modeSurroundings">Çevre</button>
-    <button data-mode="building" aria-pressed="true" data-i18n="modeBuilding">Bina</button>
-    <button data-mode="exhibitions" aria-pressed="false" data-i18n="modeExhibitions">Sergiler</button>
+  <nav class="mode-picker glass" aria-label="View" data-i18n-label="viewLabel">
+    <button data-mode="surroundings" aria-pressed="false" data-i18n="modeSurroundings">Surroundings</button>
+    <button data-mode="building" aria-pressed="true" data-i18n="modeBuilding">Building</button>
+    <button data-mode="exhibitions" aria-pressed="false" data-i18n="modeExhibitions">Exhibitions</button>
   </nav>
 
   <!-- left sheet: exhibitions -->
@@ -42,58 +44,58 @@
 
   <!-- right card: hotspot, room or work -->
   <section id="card" class="card glass" hidden aria-live="polite">
-    <button class="card-close" id="card-close" aria-label="Kapat">×</button>
+    <button class="card-close" id="card-close" aria-label="Close" data-i18n-label="close">×</button>
     <div id="card-body"></div>
   </section>
 
   <footer class="dock glass">
-    <nav class="floor-row" aria-label="Katlar">
-      <button data-floor="all" aria-pressed="true" data-i18n="floorAll" data-i18n-title="floorAllTitle">Bina</button>
+    <nav class="floor-row" aria-label="Floors" data-i18n-label="floorsLabel">
+      <button data-floor="all" aria-pressed="true" data-i18n="floorAll" data-i18n-title="floorAllTitle">Building</button>
       <button data-floor="LM1" aria-pressed="false" data-i18n="floorLM1">−1</button>
       <button data-floor="L00" aria-pressed="false" data-i18n="floorL00">0</button>
       <button data-floor="LP1" aria-pressed="false" data-i18n="floorLP1">+1</button>
     </nav>
     <span class="dock-divider"></span>
-    <button id="toggle-explode" class="pill" aria-pressed="false" data-i18n="explode">Katları ayır</button>
-    <button id="toggle-materials" class="pill" aria-pressed="false" aria-controls="layer-panel" data-i18n="materials">Malzemelere ayır</button>
+    <button id="toggle-explode" class="pill" aria-pressed="false" data-i18n="explode">Separate floors</button>
+    <button id="toggle-materials" class="pill" aria-pressed="false" aria-controls="layer-panel" data-i18n="materials">Separate materials</button>
     <button id="toggle-plan" class="pill" aria-pressed="false" data-i18n="plan">Plan</button>
     <span class="dock-divider"></span>
     <div class="camera-tools">
-      <button id="zoom-out" class="icon" data-i18n-label="zoomOut" aria-label="Uzaklaştır">−</button>
-      <button id="zoom-in" class="icon" data-i18n-label="zoomIn" aria-label="Yakınlaştır">+</button>
+      <button id="zoom-out" class="icon" data-i18n-label="zoomOut" aria-label="Zoom out">−</button>
+      <button id="zoom-in" class="icon" data-i18n-label="zoomIn" aria-label="Zoom in">+</button>
       <button id="recentre" class="icon" data-i18n-label="recentre" aria-label="Ortala"><svg viewBox="0 0 20 20" aria-hidden="true"><circle cx="10" cy="10" r="3"/><path d="M10 1.5v4M10 14.5v4M1.5 10h4M14.5 10h4"/></svg></button>
     </div>
   </footer>
 
-  <section id="layer-panel" class="layer-panel glass" hidden aria-label="Malzeme katmanları" data-i18n-label="layers">
+  <section id="layer-panel" class="layer-panel glass" hidden aria-label="Material layers" data-i18n-label="layers">
     <div class="layer-modes" role="group" data-i18n-label="materials">
-      <button data-mat="vertical" aria-pressed="false" data-i18n="matVertical">Dikey</button>
-      <button data-mat="radial" aria-pressed="false" data-i18n="matRadial">Yarım küre</button>
+      <button data-mat="vertical" aria-pressed="false" data-i18n="matVertical">Vertical</button>
+      <button data-mat="radial" aria-pressed="false" data-i18n="matRadial">Hemisphere</button>
     </div>
     <div class="layer-list" id="layer-list"></div>
   </section>
 
-  <section class="light-panel glass" aria-label="Işık">
+  <section class="light-panel glass" aria-label="Light" data-i18n-label="light">
     <div class="light-row context-row">
       <span data-i18n="contextModel">Model</span>
       <div class="context-switch" role="group" data-i18n-label="contextModel">
-        <button type="button" data-cevre="1" aria-pressed="true" data-i18n="cevre1" data-i18n-title="cevre1Title">Çevre 1</button>
-        <button type="button" data-cevre="2" aria-pressed="false" data-i18n="cevre2" data-i18n-title="cevre2Title">Çevre 2</button>
+        <button type="button" data-cevre="1" aria-pressed="true" data-i18n="cevre1" data-i18n-title="cevre1Title">Context 1</button>
+        <button type="button" data-cevre="2" aria-pressed="false" data-i18n="cevre2" data-i18n-title="cevre2Title">Context 2</button>
       </div>
     </div>
     <div class="light-row daylight-row">
-      <label for="hour" data-i18n="daylight">Gün ışığı</label>
+      <label for="hour" data-i18n="daylight">Daylight</label>
       <output id="hour-out">13:30</output>
     </div>
     <input id="hour" type="range" min="5" max="22" step="0.05" value="13.5" />
     <div class="light-row">
-      <select id="day" aria-label="Tarih">
-        <option value="283" data-i18n="dateToday">Bugün · 10 Ekim</option>
-        <option value="172" data-i18n="dateJune">21 Haziran</option>
-        <option value="80" data-i18n="dateMarch">21 Mart</option>
-        <option value="355" data-i18n="dateDec">21 Aralık</option>
+      <select id="day" aria-label="Date" data-i18n-label="dateLabel">
+        <option value="283" data-i18n="dateToday">Today · 10 October</option>
+        <option value="172" data-i18n="dateJune">21 June</option>
+        <option value="80" data-i18n="dateMarch">21 March</option>
+        <option value="355" data-i18n="dateDec">21 December</option>
       </select>
-      <button id="toggle-lights" class="pill small" aria-pressed="false" data-i18n="interior">İç ışıklar</button>
+      <button id="toggle-lights" class="pill small" aria-pressed="false" data-i18n="interior">Interior lights</button>
     </div>
   </section>
   <p id="notice" class="notice glass" role="status" aria-live="polite" hidden></p>
@@ -101,12 +103,12 @@
   <p id="hint" class="hint"></p>
 
   <div id="lightbox" class="lightbox" hidden>
-    <button class="card-close" id="lightbox-close" aria-label="Kapat">×</button>
+    <button class="card-close" id="lightbox-close" aria-label="Close" data-i18n-label="close">×</button>
     <img id="lightbox-img" alt="" />
   </div>
 
   <section id="about" class="about glass" hidden role="dialog" aria-labelledby="about-title">
-    <button class="card-close" data-close="about" aria-label="Kapat">×</button>
+    <button class="card-close" data-close="about" aria-label="Close" data-i18n-label="close">×</button>
     <h2 id="about-title" data-i18n="aboutTitle">Mudam Virtual Experience · demo</h2>
     <div id="about-body"></div>
   </section>
@@ -115,19 +117,19 @@
     <div class="boot-inner">
       <p class="boot-brand">MUDAM</p>
       <h1 class="boot-title">Musée d’Art Moderne<br/>Grand-Duc Jean</h1>
-      <p class="boot-place" data-i18n="place">Lüksemburg · I. M. Pei · 2006</p>
+      <p class="boot-place" data-i18n="place">Luxembourg-Kirchberg · I. M. Pei · 2006</p>
       <div class="boot-bar"><i id="boot-fill"></i></div>
-      <p class="boot-status" id="boot-status" data-i18n="loading">Model yükleniyor</p>
+      <p class="boot-status" id="boot-status" data-i18n="loading">Loading the model</p>
       <div class="boot-actions" id="boot-actions" hidden>
-        <p class="boot-lead" data-i18n="welcomeLead"></p>
+        <p class="boot-lead" data-i18n="welcomeLead">I. M. Pei’s building, its surroundings and the current exhibitions in one model. Open the floors, move through the section, walk work by work.</p>
         <div class="boot-buttons">
-          <button data-start="building" class="primary" data-i18n="welcomeBuilding">Bina</button>
-          <button data-start="surroundings" data-i18n="welcomeSurroundings">Çevre</button>
-          <button data-start="exhibitions" data-i18n="welcomeExhibitions">Güncel sergiler</button>
+          <button data-start="building" class="primary" data-i18n="welcomeBuilding">Building</button>
+          <button data-start="surroundings" data-i18n="welcomeSurroundings">Surroundings</button>
+          <button data-start="exhibitions" data-i18n="welcomeExhibitions">Current exhibitions</button>
         </div>
-        <p class="boot-note" data-i18n="welcomeNote"></p>
+        <p class="boot-note" data-i18n="welcomeNote">The model is a working model built from documented sources, not a measured survey.</p>
       </div>
-      <button id="retry" hidden data-i18n="retry">Tekrar dene</button>
+      <button id="retry" hidden data-i18n="retry">Try again</button>
     </div>
   </div>
 </main>

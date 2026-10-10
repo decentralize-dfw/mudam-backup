@@ -33,7 +33,7 @@ export class Markers {
     }
     const label = document.createElement('span');
     label.textContent = spec.label;
-    if (spec.kind === 'room') label.lang = 'fr';
+    if (spec.kind === 'room' || spec.lang) label.lang = spec.lang ?? 'fr';
     el.append(label);
     el.setAttribute('aria-label', spec.label);
     el.addEventListener('click', (e) => { e.stopPropagation(); spec.onClick?.(spec); });
@@ -64,19 +64,19 @@ export class Markers {
       if (off || (it.visible && !it.visible())) { it.el.style.display = 'none'; continue; }
       it.el.style.display = '';
       const x = (this.v.x + 1) * width / 2, y = (1 - this.v.y) * height / 2;
-      if (it.kind === 'layername') { it.sx = x; it.sy = y; labels.push(it); continue; }
+      if (it.kind === 'layername' || it.kind === 'roomtag') { it.sx = x; it.sy = y; labels.push(it); continue; }
       it.el.style.transform = `translate3d(${x.toFixed(1)}px, ${y.toFixed(1)}px, 0)`;
       it.el.style.opacity = it.el.classList.contains('active') ? 1 : (0.25 + 0.75 * facing).toFixed(2);
       it.el.classList.toggle('behind', facing < 0.5);
     }
-    this.placeLabels(labels, width);
+    for (const kind of ['layername', 'roomtag']) this.placeLabels(labels.filter((it) => it.kind === kind), width);
   }
 
   // Layer names: no two pills on top of each other (pushed apart down the
   // screen), and a pill that would run off the right edge opens to the left.
   placeLabels(labels, width) {
     labels.sort((a, b) => a.sy - b.sy);
-    const gap = 30;
+    const gap = labels[0]?.kind === 'roomtag' ? 26 : 30;
     labels.forEach((it, i) => {
       if (!it.w) it.w = it.el.offsetWidth;
       for (let j = 0; j < i; j++) {

@@ -6,6 +6,7 @@ import { clock } from './engine/daylight.js';
 import { BUILDING_HOTSPOTS } from './content/building.js';
 import { SURROUNDING_HOTSPOTS } from './content/surroundings.js';
 import { EXHIBITIONS, OTHER_ROOMS } from './content/exhibitions.js';
+import './content/translations.js';
 import { i18n, t, pick } from './i18n.js';
 import { MaterialExplode, LAYERS, LAYER_COLOURS } from './engine/explode.js';
 
@@ -24,13 +25,13 @@ const PLAN_BEARING = 47;
 const HOME = {
   building: { target: [2, 5, 4], bearing: 204, tilt: 31, zoom: 1.0 },
   surroundings: { target: [-20, 0, 10], bearing: 222, tilt: 40, zoom: 0.24 },
-  explode: { target: [3, 20, -6], bearing: 22, tilt: 30, zoom: 0.62 },
-  exhibitionsOverview: { target: [3, 12, -6], bearing: 22, tilt: 36, zoom: 0.78 },
+  explode: { target: [3, 56, -6], bearing: 22, tilt: 18, zoom: 0.48 },
+  exhibitionsOverview: { target: [3, 40, -6], bearing: 22, tilt: 22, zoom: 0.54 },
 };
 // Malzemelere ayır: framing for the two exploded readings
 const MAT_VIEW = {
-  vertical: { target: [-1, 74, 2], bearing: 210, tilt: 22, zoom: 0.45, span: 150 },
-  radial: { target: [-1, 52, 2], bearing: 210, tilt: 20, zoom: 0.55, span: 320 },
+  vertical: { target: [-1, 124, 2], bearing: 210, tilt: 15, zoom: 0.37, span: 150 },
+  radial: { target: [-1, 74, 2], bearing: 210, tilt: 20, zoom: 0.44, span: 440 },
 };
 const MAT_SLUG = { vertical: 'malzeme-dikey', radial: 'malzeme-kure' };
 const FLOOR_VIEW = {
@@ -67,14 +68,14 @@ class App {
     this.exhibitionOfRoom = new Map();
     for (const ex of EXHIBITIONS) for (const r of ex.rooms) this.exhibitionOfRoom.set(r.id, ex);
     this.stage.rooms.init(this.data.rooms, (r) => this.exhibitionOfRoom.get(r.id)?.colour ?? 0x8f948f);
+    this.stage.arrows.init(this.data.rooms.rooms);
     await this.stage.artworks.init(this.data.artworks, this.roomsById);
     this.orderArtworks();
     // material layers: patch the visible building band, then the trails
     this.mx = new MaterialExplode(this.stage.scene);
-    this.mx.attach(this.stage.building.bands[0].group);
+    this.stage.building.addHook(this.mx.hook);
+    for (const b of this.stage.building.sources[1]) this.mx.attach(b.group);
     this.mx.onChange = () => {
-      const b = this.stage.building, open = this.mx.amount > 1e-4;
-      if (open !== Boolean(b.unclipped)) { b.unclipped = open; b.apply(); }
       this.stage.dirty = true;
       this.stage.renderer.shadowMap.needsUpdate = true;
     };
@@ -131,7 +132,7 @@ class App {
         this.cevre2Loading = this.stage.loadCevre2(this.cevre2, (p) => button.style.setProperty('--p', `${Math.round(p * 100)}%`), () => this.applyVisibility())
           .then(async () => {
             const bands = this.stage.building.sources[2];
-            if (bands && this.mx) this.mx.attach(bands[0].group);
+            if (bands && this.mx) for (const b of bands) this.mx.attach(b.group);
             // interior lights already on reach the new building too
             this.stage.building.setLamps(this.stage.building.lampLevel);
             this.tuneSite(this.stage.cevre2.site, this.stage.cevre2.trees);
@@ -290,7 +291,8 @@ class App {
 
   async setFloor(floor) {
     if (this.s.mode === 'surroundings') return;
-    if (!(await this.leaveMaterials())) return;
+    // the layers return while the storeys move: one motion, no wait
+    if (this.s.mat !== 'off' && !this.s.visit) this.setMaterials('off', { fly: false });
     if (this.s.visit) await this.leaveVisit(false);
     this.s.floor = floor;
     this.s.explode = false;
@@ -308,7 +310,8 @@ class App {
   }
 
   async setExplode(on) {
-    if (!(await this.leaveMaterials())) return;
+    // the layers return while the storeys move: one motion, no wait
+    if (this.s.mat !== 'off' && !this.s.visit) this.setMaterials('off', { fly: false });
     if (this.s.visit) await this.leaveVisit(false);
     this.s.explode = on;
     if (on) { this.s.plan = false; this.stage.rig.setPlan(false); this.s.floor = 'all'; }
@@ -325,7 +328,8 @@ class App {
 
   async setPlan(on) {
     if (this.s.mode === 'surroundings') return;
-    if (!(await this.leaveMaterials())) return;
+    // the layers return while the storeys move: one motion, no wait
+    if (this.s.mat !== 'off' && !this.s.visit) this.setMaterials('off', { fly: false });
     if (this.s.visit) await this.leaveVisit(false);
     if (on && (this.s.floor === 'all' || this.s.explode)) {
       const ex = EXHIBITIONS.find((e) => e.id === this.s.exhibition);
@@ -368,13 +372,9 @@ class App {
     this.renderMarkers();
     this.renderLayerList();
     const flight = fly ? this.fly(mode === 'off' ? HOME.building : this.fitWidth(MAT_VIEW[mode]), 1800) : null;
-    // floors apart (or cut) come back together first, or the unpatched upper
-    // bands would show as a second, whole building while the parts lift off
-    if (mode !== 'off' && this.stage.building.state !== 'all') {
-      await this.stage.building.setState('all', this.stage.tweens);
-      if (this.s.mat !== mode) return;
-    }
-    await Promise.all([this.mx.set(mode, this.stage.tweens, prev !== 'off' && mode !== 'off' ? 1500 : 1800), flight]);
+    // storeys apart or cut close up while the layers come apart: one motion
+    const settle = mode !== 'off' && this.stage.building.state !== 'all' ? this.stage.building.setState('all', this.stage.tweens, 1300) : null;
+    await Promise.all([this.mx.set(mode, this.stage.tweens, prev !== 'off' && mode !== 'off' ? 1500 : 1800), flight, settle]);
     this.renderMarkers();
     this.writeHash();
     this.updateHint();
@@ -450,6 +450,7 @@ class App {
     st.rooms.selected = this.s.room;
     st.rooms.refresh({ show: showRooms, exhibitionRooms: ex ? new Set(ex.rooms.map((r) => r.id)) : (this.s.mode === 'exhibitions' ? new Set(this.exhibitionOfRoom.keys()) : null) });
     st.artworks.setPlanMarkers(this.s.plan && !this.s.visit);
+    st.arrows.setVisible(this.s.explode && this.s.mode === 'building' && !this.s.visit);
     st.building.visitFloor = this.s.visit ? this.roomsById.get(this.s.room)?.floor : null;
     st.building.roofVisible = this.s.mode !== 'exhibitions';
     st.building.apply();
@@ -481,6 +482,16 @@ class App {
     }
     if (this.s.mode === 'surroundings') {
       SURROUNDING_HOTSPOTS.forEach((h, i) => m.add({ id: h.id, position: h.at, label: pick(h).title, index: i + 1, onClick: () => this.openHotspot(h.id) }).el.classList.add('labelled'));
+    } else if (this.s.mode === 'building' && this.s.explode) {
+      // storeys apart: every room's arrow carries its name from the plans
+      for (const r of this.data.rooms.rooms) {
+        m.add({
+          id: `tag:${r.id}`, kind: 'roomtag', position: this.stage.arrows.tip(r), label: r.label, lang: 'fr',
+          lift: () => this.stage.building.lift(r.floor),
+          visible: () => this.s.explode && this.s.mat === 'off' && this.stage.building.state === 'explode',
+          onClick: () => this.openRoom(r.id),
+        });
+      }
     } else if (this.s.mode === 'building' && !this.s.plan) {
       BUILDING_HOTSPOTS.forEach((h, i) => m.add({
         id: h.id, position: h.at, normal: h.n, label: pick(h).title, index: i + 1, kind: h.kind,
@@ -639,7 +650,7 @@ class App {
           return `<button class="room-item ${r.closed ? 'closed' : ''}" data-room="${r.id}" style="--c:${ex.css}" aria-current="${this.s.room === r.id}">
             <span class="floor">${esc(t('floor' + room.floor))}</span><span class="dot"></span>
             <span>${esc(pick(r).title)}<br/><small style="opacity:.7" lang="fr">${esc(room.label)}</small></span>
-            <span class="meta">${r.closed ? '—' : `${n} ${esc(t('works'))}`}</span></button>`;
+            <span class="meta">${r.closed ? '—' : `${n} ${esc(t(n === 1 ? 'workOne' : 'works'))}`}</span></button>`;
         }).join('')}
       </div>
       <p class="small-note">${esc(t('readingNote'))}</p>`;

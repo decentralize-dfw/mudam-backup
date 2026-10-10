@@ -10,6 +10,7 @@ import { Context } from './context.js';
 import { Rooms } from './rooms.js';
 import { Artworks } from './artworks.js';
 import { Markers } from './markers.js';
+import { RoomArrows } from './arrows.js';
 import { setHatchLight } from './hatch.js';
 
 export function qualityProfile() {
@@ -57,6 +58,7 @@ export class Stage {
     this.rooms = new Rooms(this.building);
     this.artworks = new Artworks(this.building, this.rooms, base);
     this.markers = new Markers(host);
+    this.arrows = new RoomArrows(this.building);
     this.raycaster = new THREE.Raycaster();
     this.frameHooks = new Set();
     this.dirty = true;

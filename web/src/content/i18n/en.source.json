@@ -1,0 +1,433 @@
+{
+ "strings": {
+  "docTitle": "Mudam Luxembourg — Building, surroundings and current exhibitions · 3D",
+  "place": "Luxembourg-Kirchberg · I. M. Pei · 2006",
+  "placeShort": "Virtual Experience · demo",
+  "modeSurroundings": "Surroundings",
+  "modeBuilding": "Building",
+  "modeExhibitions": "Exhibitions",
+  "floorAll": "Building",
+  "floorAllTitle": "Whole building",
+  "floorLM1": "−1",
+  "floorL00": "0",
+  "floorLP1": "+1",
+  "floorNameLM1": "Lower level (−1)",
+  "floorNameL00": "Ground floor (0)",
+  "floorNameLP1": "Upper floor (+1)",
+  "explode": "Separate floors",
+  "materials": "Separate materials",
+  "matVertical": "Vertical",
+  "matRadial": "Hemisphere",
+  "layer_floors": "Floors",
+  "layer_walls": "Walls · stone shell",
+  "layer_ceilings": "Ceilings · roofs",
+  "layer_frames": "Steel · glazing frames",
+  "layer_glass": "Glass",
+  "matHint": "Dashed lines show where each layer moved from · Tap a layer to hide it",
+  "plan": "Plan",
+  "section": "Section",
+  "rotate": "Rotate",
+  "pan": "Pan",
+  "zoomIn": "Zoom in",
+  "zoomOut": "Zoom out",
+  "recentre": "Recentre",
+  "light": "Light",
+  "daylight": "Daylight",
+  "viewportLabel": "Interactive 3D model of the Mudam building",
+  "langLabel": "Language",
+  "viewLabel": "View",
+  "floorsLabel": "Floors",
+  "dateLabel": "Date",
+  "layers": "Material layers",
+  "contextModel": "Model",
+  "cevre1": "Context 1",
+  "cevre2": "Context 2",
+  "cevre1Title": "Context 1: R149 building, model site, trees and OSM massing",
+  "cevre2Title": "Context 2: R151 web clean v002 — building, cleaned near and far surroundings (ACT 2020)",
+  "cevre2Missing": "The Context 2 files (12_Blender_Model/exports/web_current) are not in this build.",
+  "cevre2Error": "Context 2 could not be loaded; showing Context 1.",
+  "interior": "Interior lights",
+  "dateToday": "Today · 10 October",
+  "dateJune": "21 June",
+  "dateMarch": "21 March",
+  "dateDec": "21 December",
+  "loading": "Loading the model",
+  "loadingData": "Preparing the scene",
+  "retry": "Try again",
+  "no3d": "The 3D view could not start on this device.",
+  "next": "Next",
+  "prev": "Previous",
+  "close": "Close",
+  "tour": "Step through",
+  "of": "/",
+  "viewBuilding": "See the building",
+  "welcomeLead": "I. M. Pei’s building, its surroundings and the current exhibitions in one model. Open the floors, move through the section, walk work by work.",
+  "welcomeBuilding": "Building",
+  "welcomeSurroundings": "Surroundings",
+  "welcomeExhibitions": "Current exhibitions",
+  "welcomeNote": "The model is a working model built from documented sources, not a measured survey.",
+  "exhibitionsHeading": "Current exhibitions",
+  "exhibitionsLead": "Three exhibitions at Mudam on 10 October 2026: on the lower level, in the pavilion, and across the ground and upper floors.",
+  "rooms": "Rooms",
+  "works": "works",
+  "workOne": "work",
+  "worksTitle": "Works in this room",
+  "openExhibition": "Open the exhibition",
+  "walkWorks": "Work by work",
+  "walkRooms": "Room by room",
+  "backToList": "All exhibitions",
+  "backToExhibition": "Back to the exhibition",
+  "backToRoom": "Back to the room",
+  "backToSection": "Back to the section",
+  "room": "Room",
+  "work": "Work",
+  "placeholder": "Placeholder image",
+  "placeholderNote": "This image is temporary. Title, artist, date and image of the work will be added with Mudam.",
+  "readingNote": "Room readings are proposals for this demo, not the exhibition’s official sections.",
+  "closedRoom": "Not used in this exhibition",
+  "notExhibition": "Not an exhibition space",
+  "enlarge": "Enlarge image",
+  "planHint": "Tap rooms and dots in the plan",
+  "sectionHint": "Tap a room · Drag: rotate",
+  "visitHint": "Drag: look around",
+  "orbitHint": "Drag: rotate · Right-drag / two fingers: pan · Wheel: zoom",
+  "about": "About",
+  "aboutTitle": "Mudam Virtual Experience · demo",
+  "aboutBody": [
+   "This demo is the first layer of the virtual experience proposed for Mudam: the building, its surroundings and the current exhibitions on one model.",
+   "The model was built in Blender from a scaled plan and section archive, an OSM-aligned site plan and a photo atlas; levels and details are working values. Images on the exhibition walls are placeholders.",
+   "Exhibition information is from mudam.com and the exhibition announcements (10 October 2026). Context data © OpenStreetMap contributors (ODbL)."
+  ],
+  "sources": "Sources",
+  "hotspotsBuilding": "The building’s design, glass roofs and corner details",
+  "hotspotsSurroundings": "The fort, the park and the Kirchberg plateau"
+ },
+ "building": {
+  "form": {
+   "title": "The arrowhead: a plan drawn from the fort",
+   "kicker": "Design",
+   "body": [
+    "I. M. Pei set the museum on the arrowhead-shaped bastion of Fort Thüngen, built in 1732. The V-shaped volume follows the bastion walls, and the plan is built on 45° angles.",
+    "The tip, holding the entrance, points to Kirchberg and Place de l’Europe; the glazed south-west front faces the historic city. The building draws a line between the fortress and the European district, between past and present."
+   ]
+  },
+  "canopy": {
+   "title": "Glass canopy and lantern",
+   "kicker": "Glass roof",
+   "body": [
+    "A glass-and-steel canopy covers the Grand Hall, crowned by a square-topped lantern: the highest point of the building.",
+    "Thin metal tubes set between the triangular panes filter the sunlight and help the hall’s acoustics. On either side, lower and flatter glass roofs cover the two glazed halls."
+   ]
+  },
+  "grandhall": {
+   "title": "Grand Hall",
+   "kicker": "Space",
+   "body": [
+    "Past the entrance, visitors arrive in the column-free, light-filled Grand Hall. The heart of the museum, it distributes the visit: galleries, the two glazed halls and the lower level are all reached from here.",
+    "Its glass looks out to the old fort and the park. Outside opening hours the hall hosts museum receptions and official functions."
+   ]
+  },
+  "jardin": {
+   "title": "Jardin des Sculptures",
+   "kicker": "Glazed hall · east",
+   "body": [
+    "The glass-roofed hall east of the Grand Hall is an indoor garden for sculpture and site-specific work. Its sloping glass roof gives a light that changes through the day.",
+    "At its far end, a glazed passage crosses the fortress remains to the pavilion."
+   ]
+  },
+  "cafe": {
+   "title": "Mudam Café",
+   "kicker": "Glazed hall · west · info point",
+   "body": [
+    "The glazed hall west of the Grand Hall (the winter garden) is the museum café; there is no exhibition here.",
+    "It is run by Chiche!, a restaurant bringing together home-made food and social cohesion while supporting access to employment, education and integration for migrants and refugees in Luxembourg. The glass looks out to the fortress walls and the park."
+   ]
+  },
+  "stone": {
+   "title": "Magny Doré limestone",
+   "kicker": "Material",
+   "body": [
+    "The façades are clad in Magny Doré, a honey-coloured French limestone that continues into the public interiors. Its warm tone comes alive with light and shadow that shift through the hours and seasons.",
+    "With light architectural concrete and filled joints, it gives the building a monolithic expression. Opening this point sets the light to the morning, when the sun reaches this east front; use the daylight slider to see the stone change."
+   ]
+  },
+  "entrance": {
+   "title": "Entrance: the tip of the arrow",
+   "kicker": "Arrival",
+   "body": [
+    "Visitors arrive from Place de l’Europe, cross the historic moat on bridges and reach the entrance at the tip of the arrow.",
+    "A glazed vestibule set back into the stone mass, with a canopy above, shelters the way in, while the sharp corner keeps the volume crisp."
+   ]
+  },
+  "corner": {
+   "title": "Corner detail: the stone mass",
+   "kicker": "Detail",
+   "body": [
+    "The outer corners of the gallery wings carry the sharpness of the arrow. Stone faces meeting at the corner, with filled joints, read as a solid block rather than a thin cladding.",
+    "Pei’s 45° geometry is felt most clearly here: openings step back from the corner, which stays blind and precise."
+   ]
+  },
+  "glasscorner": {
+   "title": "Corner detail: glass and stone",
+   "kicker": "Detail",
+   "body": [
+    "At the west end a glazed stair tower is added to the tip of the stone wing. The finely framed glass and the heavy limestone meet at one corner, and the line between the two materials stays legible.",
+    "Climbing the stair, visitors see outside between floors."
+   ]
+  },
+  "skylights": {
+   "title": "Upper galleries: top light",
+   "kicker": "Light",
+   "body": [
+    "The two large upper galleries allow exhibitions in natural light: roof lights filter daylight onto the gallery walls.",
+    "Some roofs sit below the parapet and are invisible from outside, so the volume stays calm outside and bright within."
+   ]
+  },
+  "pavilion": {
+   "title": "Henry J. and Erna D. Leir Pavilion",
+   "kicker": "Pavilion",
+   "body": [
+    "The octagonal pavilion behind the main building is reached by a glazed passage crossing the fortress remains. Crowned with a glass lantern, it opens another view onto the park.",
+    "It has two levels; the lower one is reached by stair. Christine Sun Kim’s FOR EVER is currently on its ground floor."
+   ]
+  },
+  "passage": {
+   "title": "Glazed passage",
+   "kicker": "Link",
+   "body": [
+    "The passage runs from the end of the Jardin des Sculptures to the pavilion, crossing the remains of the 18th-century bastion.",
+    "Walking through, the fortress walls lie on one side and the park on the other: the new building passes over the old trace without breaking it."
+   ]
+  },
+  "bastion": {
+   "title": "Bastion walls and moat",
+   "kicker": "Fortress",
+   "body": [
+    "The arrow-shaped museum rides over the embankment and walls of the 18th-century bastion. The old walls merge with the new building and carry the history of the place forward.",
+    "The moat around it is a remnant of the defences of Luxembourg, once one of the most heavily fortified cities in Europe."
+   ]
+  },
+  "stairs": {
+   "title": "Stairs",
+   "kicker": "Concrete",
+   "body": [
+    "Every stair in the museum is a piece of architecture in its own right. They are cast in light architectural concrete, given a fine texture by Oregon pine formwork.",
+    "The broad stair down from the Grand Hall and the spiral stair at the east end give the movement between floors two distinct characters."
+   ]
+  },
+  "lowerwindows": {
+   "title": "Windows onto the moat",
+   "kicker": "Façade",
+   "body": [
+    "The side where the galleries are concentrated is pierced by recessed openings; on the lower level the windows look into the moat.",
+    "Unlike the fully glazed south-west front, this side is closed and measured: sheltering for the works, quiet toward the fort."
+   ]
+  }
+ },
+ "surroundings": {
+  "thungen": {
+   "title": "Fort Thüngen · Musée Dräi Eechelen",
+   "kicker": "Neighbour · 18th century",
+   "body": [
+    "The fort right next to Mudam was built in 1732, under Austrian rule. The acorn-shaped stones on its towers give it the Luxembourgish name “Dräi Eechelen”: three acorns.",
+    "Today it houses the Musée Dräi Eechelen, devoted to the fortress, history and identity. Mudam rises on this fort’s bastion."
+   ]
+  },
+  "park": {
+   "title": "Dräi Eechelen Park",
+   "kicker": "Landscape · Michel Desvigne",
+   "body": [
+    "Designed by landscape architect Michel Desvigne, the park received the Luxembourg Prize for Architecture in 2011. It slopes gently from the urban Place de l’Europe toward the natural setting of the fort.",
+    "Grass-jointed paving, clusters of trees and a re-opened clearing make three centuries of military engineering, since Vauban, legible."
+   ]
+  },
+  "moat": {
+   "title": "Moat and bridges",
+   "kicker": "Approach",
+   "body": [
+    "The museum is reached from Place de l’Europe over bridges that cross the historic moat; the entrance is at the tip of the arrow.",
+    "The moat and walls belong to the defences of Luxembourg, once one of the most heavily fortified cities in Europe."
+   ]
+  },
+  "europe": {
+   "title": "Place de l’Europe",
+   "kicker": "Square · Ricardo Bofill",
+   "body": [
+    "The forecourt in front of the museum, planted with pines and beeches, opens onto Place de l’Europe, designed by Ricardo Bofill.",
+    "Together with the Philharmonie it forms Kirchberg’s cultural gateway; from here the park opens toward the fort."
+   ]
+  },
+  "philharmonie": {
+   "title": "Philharmonie Luxembourg",
+   "kicker": "Concert hall · Christian de Portzamparc",
+   "body": [
+    "Christian de Portzamparc’s concert hall opened in 2005. Its façade of white steel columns, working like a filter, wraps Place de l’Europe.",
+    "A close neighbour of Mudam’s stone-and-glass mass, it marks the other end of Kirchberg’s cultural cluster."
+   ]
+  },
+  "kirchberg": {
+   "title": "Kirchberg: the European district",
+   "kicker": "Plateau",
+   "body": [
+    "Mudam’s entrance faces the Kirchberg plateau and its European institutions: the golden towers of the Court of Justice of the European Union and the European Investment Bank lie in this direction.",
+    "The museum’s orientation links the fortress and the historic city with the European district: past, present and future."
+   ]
+  },
+  "tram": {
+   "title": "Tram: Philharmonie – Mudam",
+   "kicker": "Getting here",
+   "body": [
+    "The “Philharmonie – Mudam” stop of the tram line linking Kirchberg with the city centre is on Avenue John F. Kennedy.",
+    "From the stop it is a short walk across Place de l’Europe and the park to the museum."
+   ]
+  },
+  "funicular": {
+   "title": "Pfaffenthal–Kirchberg funicular",
+   "kicker": "Down to the valley",
+   "body": [
+    "Opened in 2017, the funicular links the Kirchberg plateau with the Pfaffenthal rail stop in the Alzette valley.",
+    "On the opposite slope a panoramic lift connects Pfaffenthal with the upper town. The valley quarters lie tens of metres below the plateau; pins mark position, not height."
+   ]
+  },
+  "redbridge": {
+   "title": "The Red Bridge",
+   "kicker": "Pont Grande-Duchesse Charlotte",
+   "body": [
+    "Opened in 1966, the red steel bridge spans the Pfaffenthal valley between the city centre and Kirchberg.",
+    "It is one of the symbols of Kirchberg’s growth into the European district."
+   ]
+  },
+  "oldtown": {
+   "title": "Historic city and fortifications",
+   "kicker": "UNESCO World Heritage",
+   "body": [
+    "Mudam’s glazed south-west front looks toward “City of Luxembourg: its Old Quarters and Fortifications”, on the UNESCO World Heritage list since 1994.",
+    "The Bock promontory, where the city began, is at the centre of that view; the upper town across the Alzette valley and Mudam are two ends of one fortress story."
+   ]
+  },
+  "grunewald": {
+   "title": "Grünewald front fortifications",
+   "kicker": "Fortress remains",
+   "body": [
+    "The remains of Fort Obergrünewald in the park and Fort Niedergrünewald below belong to the defensive line on the city’s eastern front.",
+    "Explained on site by information panels, they show, together with Fort Thüngen and Mudam, three centuries of military engineering on the plateau."
+   ]
+  }
+ },
+ "exhibitions": {
+  "kaiho": {
+   "subtitle": "Japanese Women Artists after 1945",
+   "dates": "25.09.2026 – 14.02.2027",
+   "place": "Ground and upper-floor galleries",
+   "credits": "Curator: Florence Ostende, assisted by Anaël Daoud and Yurika Imaseki. Organised with the Lenbachhaus, Munich, and the Guggenheim Museum Bilbao.",
+   "intro": [
+    "The first European survey of Japanese women artists after 1945. More than 120 works by over thirty artists are brought together in thematic sections; featured names include Atsuko Tanaka, Yayoi Kusama, Yoko Ono, Fujiko Nakaya, Tomie Ohtake and Ruth Asawa.",
+    "It includes artists who stayed in Japan as well as those who left as migrants or never lived there. After Mudam it travels to Munich and Bilbao."
+   ],
+   "rooms": {
+    "galerie-est-0": {
+     "title": "Action and material",
+     "text": "A reading centred on the post-war avant-garde’s engagement with body, gesture and material. The action painting and electric-circuit drawings of the Gutai circle are its points of reference."
+    },
+    "grand-hall": {
+     "title": "Threshold",
+     "text": "Under the canopy, a space proposed for large installations where light and air become material. Visitors enter the exhibition here, through works that take in the whole space."
+    },
+    "galerie-ouest-0": {
+     "title": "Instructions and scores",
+     "text": "Instruction pieces, scores and propositions from Fluxus and conceptual practice. Here the work is less an object than a direction for the viewer to complete."
+    },
+    "jardin-sculptures": {
+     "title": "Air, light, environment",
+     "text": "In the glazed hall that opens to the park, sculptures and installations on environmental awareness and our relationship with nature. Changing daylight becomes part of the works."
+    },
+    "galerie-est-1": {
+     "title": "Colour and rhythm",
+     "text": "The forms abstraction took across geographies: large fields of colour, curves and rhythmic surfaces. Under the top light, colour reads together with the gallery’s architecture."
+    },
+    "galerie-ouest-1": {
+     "title": "Migration and networks",
+     "text": "The networks of artists who left Japan or never lived there, from New York to São Paulo, California to Europe. Knotted, woven and wire forms set the room’s visual language."
+    },
+    "petite-galerie-ouest": {
+     "title": "Pedagogy and archive",
+     "text": "A small room for feminist publications, teaching practices and documents. Themes traced by the catalogue (feminism, pedagogy, environmental awareness) are read here through documents."
+    }
+   }
+  },
+  "forever": {
+   "subtitle": "FOR EVER",
+   "dates": "25.09.2026 – 10.01.2027",
+   "place": "Henry J. and Erna D. Leir Pavilion",
+   "credits": "A site-specific commission for Mudam. Soundscape made with musician Matt Karmil.",
+   "intro": [
+    "In the pavilion Christine Sun Kim builds a monument reflecting on the idea of “forever”, dedicated to the longevity and resilience of Deaf culture. Sculptural canvases on four walls depict the word “forever” in American Sign Language (ASL).",
+    "At the artist’s request the show is presented entirely on the pavilion’s ground floor, because the lower level has no step-free access."
+   ],
+   "rooms": {
+    "pavillon": {
+     "title": "Four walls",
+     "text": "Four sculptural canvases on four walls of the octagonal pavilion. They follow its symmetry while the soundscape fills the space as a whole."
+    },
+    "pavillon-m1": {
+     "title": "Lower level (not in use)",
+     "text": "The pavilion’s lower level is not used for this show: the artist chose to present it entirely on the ground floor, as the lower level has no step-free access."
+    }
+   }
+  },
+  "vktrs": {
+   "subtitle": "The 1980s and their Cultural Echoes",
+   "dates": "12.06 – 11.10.2026 · closing",
+   "place": "Lower-level galleries (−1)",
+   "credits": "Curator: Bettina Steinbrügge, with Caroline Honorien and Alexine Taddeï. Works from the Mudam Collection and new loans.",
+   "intro": [
+    "A collection presentation for Mudam’s twentieth year, revisiting the “long 1980s” from the late 1970s to the early 1990s: about fifty works by forty-two artists, many from the Mudam Collection.",
+    "It unfolds in two parts: the aesthetic revolutions of the early 1980s, driven by post-war generations questioning universal and Western-centric perspectives; and the decade’s social and political context, its ruptures and continuities that still resonate."
+   ],
+   "rooms": {
+    "galerie-est-m1": {
+     "title": "Part I · Aesthetic revolutions",
+     "text": "The return to painting, new expressionism and the reclaiming of the image: the visual language of generations questioning universal, Western-centric perspectives in the early 1980s."
+    },
+    "foyer": {
+     "title": "Screen and broadcast",
+     "text": "The title comes from the 1979 song whose video was the first shown when MTV launched in 1981. This room is proposed as a passage on video, television and broadcast culture entering art."
+    },
+    "galerie-ouest-m1": {
+     "title": "Part II · Ruptures and continuities",
+     "text": "The decade’s social and political context: appropriation, the politics of the image, and ruptures and continuities that still resonate today."
+    }
+   }
+  }
+ },
+ "other": {
+  "cafe": {
+   "title": "Mudam Café",
+   "text": "Café-restaurant in the west glazed hall; not an exhibition space. Run by Chiche!, home-made food supporting employment and integration for migrants and refugees."
+  },
+  "entree": {
+   "title": "Entrance",
+   "text": "The entrance at the tip of the arrow: welcome desk, tickets, cloakroom, shop and toilets."
+  },
+  "passage": {
+   "title": "Glazed passage",
+   "text": "The passage linking the Jardin des Sculptures with the pavilion over the fortress remains."
+  },
+  "studio": {
+   "title": "Studio",
+   "text": "The room for workshops and learning programmes."
+  },
+  "documentation": {
+   "title": "Espace de documentation",
+   "text": "Reading and documentation space; the lit void at its centre opens a view down through the floor."
+  },
+  "pont": {
+   "title": "Passerelle",
+   "text": "The bridge connecting the two upper galleries."
+  },
+  "auditorium": {
+   "title": "Auditorium",
+   "text": "The lower-level auditorium, for talks, screenings and performances."
+  }
+ }
+}

@@ -87,26 +87,83 @@ function simplifyRule(name) {
   return null;
 }
 
-// Material layers for the exploded views (Malzemelere ayır). Element types
-// were classified once (scripts/layers.json, element_type -> layer); new
-// element types fall back to the keyword rules below.
-export const LAYERS = ['floors', 'walls', 'ceilings', 'frames', 'glass', 'fittings'];
-const layerMap = JSON.parse(fs.readFileSync(path.join(here, 'layers.json'), 'utf8')).map;
-// Element types that mix parts ("auto" in layers.json: floor slabs and the
-// roof deck under one type, auditorium walls and ceilings under another) go
-// by name; a few names the keyword rules would misread are set here.
-const NAMED = [[/^P07_ENTRY_.*_TRANSOM/, 'walls'], [/^R116_STAIR_PORTAL_JAMB_JOIN/, 'walls']];
-function layerOf(name, extras, materials) {
-  const named = NAMED.find(([re]) => re.test(name));
+// Material layers for the exploded views (Malzemelere ayır): floors, walls,
+// ceilings and roofs, steel and glazing frames, glass. There is no "other":
+// a part that is walked on is a floor, a part that stands is a wall, a part
+// overhead is a ceiling or roof. Glass and steel come from the material and
+// the one-off classification of the element types (scripts/layers.json);
+// floors, walls and ceilings are decided by the part's own geometry: how
+// much of its surface faces up or down, how thick it is, and where it sits in
+// its storey.
+export const LAYERS = ['floors', 'walls', 'ceilings', 'frames', 'glass'];
+const layerSpec = JSON.parse(fs.readFileSync(path.join(here, 'layers.json'), 'utf8'));
+const layerMap = layerSpec.map;
+const FLOOR_LEVELS = [-5.33, -3.83, 0, 4.86]; // slab tops: −1, the pavilion's −1, 0, +1
+const WALKED = /TREAD|STAIR|STEP|RISER|NOSING|LANDING|PODIUM|SEAT|TIER|STAGE|RAMP|FLOOR|THRESHOLD|VESTIBULE_MAT|MAT_RECESS|MAT_PANEL|AISLE/;
+const ROOF_Y = 9.6; // above the +1 storey: roofs, never floors
+const METAL = /METAL|STEEL|ALUMIN|CHROME|BRUSHED|DARK_COATING|FRAME|MULLION|GREY_METAL/;
+// parts the rules below misread, checked one by one (layers.json "named")
+const NAMED = layerSpec.named.map(([re, layer]) => [new RegExp(re), layer]);
+
+// Area-weighted orientation of a set of world-space triangles: the share
+// facing up or down (|n.y| > 0.85) and the share standing (|n.y| < 0.35).
+function orientation(triangles) {
+  let flat = 0, upright = 0, total = 0;
+  for (const [a, b, c] of triangles) {
+    const ux = b[0] - a[0], uy = b[1] - a[1], uz = b[2] - a[2];
+    const vx = c[0] - a[0], vy = c[1] - a[1], vz = c[2] - a[2];
+    const nx = uy * vz - uz * vy, ny = uz * vx - ux * vz, nz = ux * vy - uy * vx;
+    const area = Math.hypot(nx, ny, nz);
+    if (!area) continue;
+    const y = Math.abs(ny) / area;
+    total += area;
+    if (y > 0.85) flat += area; else if (y < 0.35) upright += area;
+  }
+  return { flat: total ? flat / total : 0, upright: total ? upright / total : 0 };
+}
+
+function* nodeTriangles(node) {
+  const M = node.getWorldMatrix();
+  const w = (a, i) => [M[0] * a[i] + M[4] * a[i + 1] + M[8] * a[i + 2] + M[12], M[1] * a[i] + M[5] * a[i + 1] + M[9] * a[i + 2] + M[13], M[2] * a[i] + M[6] * a[i + 1] + M[10] * a[i + 2] + M[14]];
+  for (const prim of node.getMesh().listPrimitives()) {
+    const a = prim.getAttribute('POSITION').getArray();
+    const idx = prim.getIndices()?.getArray();
+    const n = idx ? idx.length : a.length / 3;
+    for (let t = 0; t + 2 < n; t += 3) {
+      const i0 = idx ? idx[t] : t, i1 = idx ? idx[t + 1] : t + 1, i2 = idx ? idx[t + 2] : t + 2;
+      yield [w(a, i0 * 3), w(a, i1 * 3), w(a, i2 * 3)];
+    }
+  }
+}
+
+// part: { name, type, materials, lo, hi, flat, upright }
+function classify(part) {
+  const name = part.name.toUpperCase(), type = (part.type ?? '').toUpperCase();
+  const mats = part.materials.join(' ').toUpperCase();
+  const named = NAMED.find(([re]) => re.test(part.name));
   if (named) return named[1];
-  const known = layerMap[extras?.element_type];
-  if (known && LAYERS.includes(known)) return known;
-  const s = `${name} ${extras?.element_type ?? ''} ${materials.join(' ')}`.toUpperCase();
-  if (/GLASS|GLAZING|PANE\b/.test(s) && !/FRAME|SEAL|BEAD|FIXING|RAIL/.test(s)) return 'glass';
-  if (/TREAD|NOSING|RISER|STAIR|RAIL|SEAT|LIGHT|LENS|LAMP|FIXTURE|DOOR|HINGE|PANEL_BODY|SIGN|CONTROL|SPEAKER|TRACK/.test(s)) return 'fittings';
-  if (/FRAME|MULLION|TRANSOM|ROD|STRUT|SHADE|SHADING|SEAL|BEAD|CHANNEL|POST|FIXING|METAL|STEEL/.test(s)) return 'frames';
-  if (/CEILING|SOFFIT|ROOF|APRON|CANOPY_SLAB|FASCIA/.test(s)) return 'ceilings';
-  if (/FLOOR|SLAB|LANDING|THRESHOLD|STAGE|DECK|ZONE_/.test(s)) return 'floors';
+  const mapped = layerMap[part.type];
+  if (mapped === 'glass' || (/GLASS|GLAZING/.test(mats) && !/FRAME|SEAL|BEAD/.test(mats))) return 'glass';
+  if (mapped === 'frames') return 'frames';
+  const dx = part.hi[0] - part.lo[0], dy = part.hi[1] - part.lo[1], dz = part.hi[2] - part.lo[2];
+  // railings, guards, door and lift surrounds in metal: steel
+  if (mapped === 'fittings' && METAL.test(mats) && !WALKED.test(`${name} ${type}`)) return 'frames';
+  // storey of the part: the highest slab top at or below its underside
+  const base = FLOOR_LEVELS.filter((f) => f <= part.lo[1] + 0.5).pop() ?? FLOOR_LEVELS[0];
+  const top = part.hi[1] - base, bottom = part.lo[1] - base;
+  const tallUpright = dy > 2.5 && part.flat < 0.3;
+  const roof = part.lo[1] > ROOF_Y;
+  // stairs, seats, landings: walked on, whatever their height
+  if (WALKED.test(`${name} ${type}`) && !tallUpright && !roof) return 'floors';
+  // a plate: mostly facing up or down, or simply wide and thin (slatted and
+  // coffered ceilings are mostly upright faces but still a horizontal layer)
+  const plate = (part.flat >= 0.5 && dy <= Math.max(1.2, 0.3 * Math.min(Math.max(dx, dz), 10)))
+    || (dy <= 0.6 && Math.min(dx, dz) >= 1 && Math.max(dx, dz) >= 3 * dy);
+  if (plate) return top <= 1.2 && !roof ? 'floors' : 'ceilings';
+  // hung from above: coffers, soffits, beams, lights, roof upstands; an
+  // upright face high on a wall (a lintel, a stone band) is still wall
+  // unless it is a shallow drop under the ceiling
+  if (bottom >= 2.3 && dy <= 3 && (part.upright < 0.6 || dy <= 1)) return 'ceilings';
   return 'walls';
 }
 
@@ -153,6 +210,7 @@ function smoothNormals(doc, prim) {
 // layer so a layer can be hidden.
 const CELL = 8;
 const storeyOf = (y) => (y < -0.4 ? 0 : y < 4.5 ? 1 : y < 9.6 ? 2 : 3);
+const audit = [];
 function bakePieces(doc, group, piecesFile) {
   const buffer = doc.getRoot().listBuffers()[0];
   const layerNodes = Object.fromEntries(LAYERS.map((l) => {
@@ -166,8 +224,11 @@ function bakePieces(doc, group, piecesFile) {
     const mesh = node.getMesh();
     if (!mesh) continue;
     const materials = mesh.listPrimitives().map((p) => p.getMaterial()?.getName() ?? '');
-    const layer = layerOf(node.getName(), node.getExtras(), materials);
     const { lo, hi } = nodeBox(node);
+    const info = { name: node.getName(), type: node.getExtras()?.element_type, materials, lo, hi, ...orientation(nodeTriangles(node)) };
+    const layer = classify(info);
+    // AUDIT=file.tsv: one row per part, to check the classification
+    if (process.env.AUDIT) audit.push([info.name, info.type, materials.join('|'), ...lo.map((v) => v.toFixed(2)), ...hi.map((v) => v.toFixed(2)), info.flat.toFixed(2), info.upright.toFixed(2), layer].join('\t'));
     const c = lo.map((v, k) => (v + hi[k]) / 2);
     const diag = Math.hypot(hi[0] - lo[0], hi[1] - lo[1], hi[2] - lo[2]);
     const li = LAYERS.indexOf(layer);
@@ -205,6 +266,7 @@ function bakePieces(doc, group, piecesFile) {
   const pieces = [...frags.values()].map((f) => [...f.c, f.li, Math.round(Math.hypot(f.hi[0] - f.lo[0], f.hi[1] - f.lo[1], f.hi[2] - f.lo[2]) * 100) / 100, f.n]);
   // [x, y, z, layer, size, parts] per fragment
   fs.writeFileSync(piecesFile, JSON.stringify({ layers: LAYERS, cell: CELL, pieces }));
+  if (process.env.AUDIT) fs.writeFileSync(process.env.AUDIT, ['name\ttype\tmaterials\tx0\ty0\tz0\tx1\ty1\tz1\tflat\tupright\tlayer', ...audit].join('\n'));
   console.log('parts', parts.length, counts, 'fragments', pieces.length);
 }
 
@@ -291,7 +353,8 @@ async function buildR151Building(source, piecesFile) {
     }
     const materials = mesh.listPrimitives().map((p) => p.getMaterial()?.getName() ?? '');
     const { lo, hi } = nodeBox(n);
-    return { chunk: chunkOf(n.getName(), n.getExtras()), layer: layerOf(n.getName(), n.getExtras(), materials), lo, hi, vol: (hi[0] - lo[0]) * (hi[1] - lo[1]) * (hi[2] - lo[2]) };
+    const layer = classify({ name: n.getName(), type: n.getExtras()?.element_type, materials, lo, hi, ...orientation(nodeTriangles(n)) });
+    return { chunk: chunkOf(n.getName(), n.getExtras()), layer, lo, hi, vol: (hi[0] - lo[0]) * (hi[1] - lo[1]) * (hi[2] - lo[2]) };
   });
   const containing = (c) => {
     let best = -1;
@@ -342,6 +405,12 @@ async function buildR151Building(source, piecesFile) {
       c.hi = [Math.max(c.hi[0], x), Math.max(c.hi[1], y), Math.max(c.hi[2], z)];
     }
     const material = prim.getMaterial()?.getName() ?? '';
+    // orientation of each piece, for pieces that need classifying afresh
+    for (let t = 0; t < nt; t++) {
+      const c = comps.get(find(idx[t * 3]));
+      const at = (k) => [pos[idx[t * 3 + k] * 3], pos[idx[t * 3 + k] * 3 + 1], pos[idx[t * 3 + k] * 3 + 2]];
+      (c.tris ??= []).push([at(0), at(1), at(2)]);
+    }
     for (const [r, c] of comps) {
       let ni = -1, best = 0;
       for (const [n, k] of c.votes) if (k > best) { best = k; ni = n; }
@@ -353,9 +422,10 @@ async function buildR151Building(source, piecesFile) {
         const hold = /ACT_GROUND/.test(material) ? -1 : containing(centre);
         id = hold >= 0 ? `n${hold}` : `p${pi}:${r}`;
         chunk = hold >= 0 ? refParts[hold].chunk : /GROUND|TURF|MOAT|TERRAIN/.test(material) ? 'site' : 'building';
-        layer = hold >= 0 ? refParts[hold].layer : layerOf('', {}, [material]);
+        layer = hold >= 0 ? refParts[hold].layer : classify({ name: '', type: '', materials: [material], lo: c.lo, hi: c.hi, ...orientation(c.tris) });
       }
       c.id = id;
+      c.tris = null;
       let part = parts.get(id);
       if (!part) parts.set(id, (part = { chunk, layer, lo: [...c.lo], hi: [...c.hi] }));
       for (let k = 0; k < 3; k++) { part.lo[k] = Math.min(part.lo[k], c.lo[k]); part.hi[k] = Math.max(part.hi[k], c.hi[k]); }

@@ -1,0 +1,433 @@
+{
+ "strings": {
+  "docTitle": "Mudam Luxembourg — Gebäude, Umgebung und aktuelle Ausstellungen · 3D",
+  "place": "Luxemburg-Kirchberg · I. M. Pei · 2006",
+  "placeShort": "Virtual Experience · Demo",
+  "modeSurroundings": "Umgebung",
+  "modeBuilding": "Gebäude",
+  "modeExhibitions": "Ausstellungen",
+  "floorAll": "Gebäude",
+  "floorAllTitle": "Gesamtes Gebäude",
+  "floorLM1": "−1",
+  "floorL00": "0",
+  "floorLP1": "+1",
+  "floorNameLM1": "Untergeschoss (−1)",
+  "floorNameL00": "Erdgeschoss (0)",
+  "floorNameLP1": "Obergeschoss (+1)",
+  "explode": "Etagen trennen",
+  "materials": "Materialien trennen",
+  "matVertical": "Vertikal",
+  "matRadial": "Halbkugel",
+  "layer_floors": "Böden",
+  "layer_walls": "Wände · Steinhülle",
+  "layer_ceilings": "Decken · Dächer",
+  "layer_frames": "Stahl · Glasrahmen",
+  "layer_glass": "Glas",
+  "matHint": "Gestrichelte Linien zeigen, wo jede Schicht ursprünglich lag · Schicht antippen, um sie auszublenden",
+  "plan": "Grundriss",
+  "section": "Schnitt",
+  "rotate": "Drehen",
+  "pan": "Verschieben",
+  "zoomIn": "Vergrößern",
+  "zoomOut": "Verkleinern",
+  "recentre": "Zentrieren",
+  "light": "Licht",
+  "daylight": "Tageslicht",
+  "viewportLabel": "Interaktives 3D-Modell des Mudam-Gebäudes",
+  "langLabel": "Sprache",
+  "viewLabel": "Ansicht",
+  "floorsLabel": "Etagen",
+  "dateLabel": "Datum",
+  "layers": "Materialschichten",
+  "contextModel": "Modell",
+  "cevre1": "Kontext 1",
+  "cevre2": "Kontext 2",
+  "cevre1Title": "Kontext 1: Gebäude R149, Modellgelände, Bäume und OSM-Baumassen",
+  "cevre2Title": "Kontext 2: R151 web clean v002 — Gebäude, bereinigte nahe und ferne Umgebung (ACT 2020)",
+  "cevre2Missing": "Die Dateien für Kontext 2 (12_Blender_Model/exports/web_current) sind in diesem Build nicht enthalten.",
+  "cevre2Error": "Kontext 2 konnte nicht geladen werden; Kontext 1 wird angezeigt.",
+  "interior": "Innenbeleuchtung",
+  "dateToday": "Heute · 10. Oktober",
+  "dateJune": "21. Juni",
+  "dateMarch": "21. März",
+  "dateDec": "21. Dezember",
+  "loading": "Modell wird geladen",
+  "loadingData": "Szene wird vorbereitet",
+  "retry": "Erneut versuchen",
+  "no3d": "Die 3D-Ansicht konnte auf diesem Gerät nicht gestartet werden.",
+  "next": "Weiter",
+  "prev": "Zurück",
+  "close": "Schließen",
+  "tour": "Rundgang",
+  "of": "/",
+  "viewBuilding": "Gebäude ansehen",
+  "welcomeLead": "I. M. Peis Gebäude, seine Umgebung und die aktuellen Ausstellungen in einem Modell. Öffnen Sie die Etagen, bewegen Sie sich durch den Schnitt, entdecken Sie Werk für Werk.",
+  "welcomeBuilding": "Gebäude",
+  "welcomeSurroundings": "Umgebung",
+  "welcomeExhibitions": "Aktuelle Ausstellungen",
+  "welcomeNote": "Das Modell ist ein Arbeitsmodell auf Grundlage dokumentierter Quellen, keine maßgenaue Bauaufnahme.",
+  "exhibitionsHeading": "Aktuelle Ausstellungen",
+  "exhibitionsLead": "Drei Ausstellungen im Mudam am 10. Oktober 2026: im Untergeschoss, im Pavillon sowie im Erd- und Obergeschoss.",
+  "rooms": "Räume",
+  "works": "Werke",
+  "workOne": "Werk",
+  "worksTitle": "Werke in diesem Raum",
+  "openExhibition": "Ausstellung öffnen",
+  "walkWorks": "Werk für Werk",
+  "walkRooms": "Raum für Raum",
+  "backToList": "Alle Ausstellungen",
+  "backToExhibition": "Zurück zur Ausstellung",
+  "backToRoom": "Zurück zum Raum",
+  "backToSection": "Zurück zum Schnitt",
+  "room": "Raum",
+  "work": "Werk",
+  "placeholder": "Platzhalterbild",
+  "placeholderNote": "Dieses Bild ist vorläufig. Titel, Name der Künstlerin oder des Künstlers, Datum und Abbildung des Werks werden gemeinsam mit dem Mudam ergänzt.",
+  "readingNote": "Die Lesarten der Räume sind Vorschläge für diese Demo, nicht die offiziellen Kapitel der Ausstellung.",
+  "closedRoom": "In dieser Ausstellung nicht genutzt",
+  "notExhibition": "Kein Ausstellungsraum",
+  "enlarge": "Bild vergrößern",
+  "planHint": "Räume und Punkte im Grundriss antippen",
+  "sectionHint": "Raum antippen · Ziehen: drehen",
+  "visitHint": "Ziehen: umsehen",
+  "orbitHint": "Ziehen: drehen · Rechte Maustaste / zwei Finger: verschieben · Mausrad: zoomen",
+  "about": "Info",
+  "aboutTitle": "Mudam Virtual Experience · Demo",
+  "aboutBody": [
+   "Diese Demo ist die erste Ebene des für das Mudam vorgeschlagenen virtuellen Erlebnisses: das Gebäude, seine Umgebung und die aktuellen Ausstellungen in einem Modell.",
+   "Das Modell wurde in Blender aus einem maßstäblichen Archiv von Grundrissen und Schnitten, einem an OSM ausgerichteten Lageplan und einem Fotoatlas erstellt; Höhen und Details sind Arbeitswerte. Die Bilder an den Ausstellungswänden sind Platzhalter.",
+   "Die Angaben zu den Ausstellungen stammen von mudam.com und aus den Ankündigungen der Ausstellungen (10. Oktober 2026). Kontextdaten © OpenStreetMap-Mitwirkende (ODbL)."
+  ],
+  "sources": "Quellen",
+  "hotspotsBuilding": "Entwurf des Gebäudes, Glasdächer und Eckdetails",
+  "hotspotsSurroundings": "Das Fort, der Park und das Kirchberg-Plateau"
+ },
+ "building": {
+  "form": {
+   "title": "Die Pfeilspitze: ein vom Fort abgeleiteter Grundriss",
+   "kicker": "Entwurf",
+   "body": [
+    "I. M. Pei setzte das Museum auf die pfeilspitzenförmige Bastion des 1732 errichteten Fort Thüngen. Der V-förmige Baukörper folgt den Bastionsmauern, der Grundriss beruht auf 45°-Winkeln.",
+    "Die Spitze mit dem Eingang weist zum Kirchberg und zur Place de l’Europe; die verglaste Südwestfassade blickt auf die historische Stadt. Das Gebäude zieht eine Linie zwischen der Festung und dem Europaviertel, zwischen Vergangenheit und Gegenwart."
+   ]
+  },
+  "canopy": {
+   "title": "Glasüberdachung und Laterne",
+   "kicker": "Glasdach",
+   "body": [
+    "Eine Überdachung aus Glas und Stahl überspannt die Grand Hall, bekrönt von einer Laterne mit quadratischem Abschluss: dem höchsten Punkt des Gebäudes.",
+    "Dünne Metallrohre zwischen den dreieckigen Glasscheiben filtern das Sonnenlicht und unterstützen die Akustik der Halle. Zu beiden Seiten überdecken niedrigere, flachere Glasdächer die beiden verglasten Hallen."
+   ]
+  },
+  "grandhall": {
+   "title": "Grand Hall",
+   "kicker": "Raum",
+   "body": [
+    "Hinter dem Eingang gelangen die Besucherinnen und Besucher in die stützenfreie, lichtdurchflutete Grand Hall. Als Herzstück des Museums ist sie der zentrale Verteiler: Galerien, die beiden verglasten Hallen und das Untergeschoss sind von hier aus erreichbar.",
+    "Ihre Glasflächen öffnen den Blick auf das alte Fort und den Park. Außerhalb der Öffnungszeiten finden in der Halle Empfänge des Museums und offizielle Veranstaltungen statt."
+   ]
+  },
+  "jardin": {
+   "title": "Jardin des Sculptures",
+   "kicker": "Verglaste Halle · Ost",
+   "body": [
+    "Die glasüberdachte Halle östlich der Grand Hall ist ein Innengarten für Skulpturen und ortsspezifische Arbeiten. Ihr geneigtes Glasdach erzeugt ein Licht, das sich im Lauf des Tages verändert.",
+    "An ihrem hinteren Ende führt ein verglaster Gang über die Festungsreste zum Pavillon."
+   ]
+  },
+  "cafe": {
+   "title": "Mudam Café",
+   "kicker": "Verglaste Halle · West · Infopunkt",
+   "body": [
+    "Die verglaste Halle westlich der Grand Hall (der Wintergarten) beherbergt das Museumscafé; Ausstellungen finden hier nicht statt.",
+    "Betrieben wird es von Chiche!, einem Restaurant, das hausgemachte Küche und sozialen Zusammenhalt verbindet und Migrantinnen, Migranten und Geflüchteten in Luxemburg den Zugang zu Beschäftigung, Bildung und Integration erleichtert. Die Glasflächen geben den Blick auf die Festungsmauern und den Park frei."
+   ]
+  },
+  "stone": {
+   "title": "Kalkstein Magny Doré",
+   "kicker": "Material",
+   "body": [
+    "Die Fassaden sind mit Magny Doré verkleidet, einem honigfarbenen französischen Kalkstein, der sich in den öffentlichen Innenräumen fortsetzt. Sein warmer Ton lebt vom Spiel aus Licht und Schatten, das sich mit den Tages- und Jahreszeiten wandelt.",
+    "Zusammen mit hellem Architekturbeton und verfüllten Fugen verleiht er dem Gebäude einen monolithischen Ausdruck. Beim Öffnen dieses Punkts wird das Licht auf den Morgen gestellt, wenn die Sonne diese Ostfassade erreicht; verfolgen Sie mit dem Tageslicht-Regler, wie sich der Stein verändert."
+   ]
+  },
+  "entrance": {
+   "title": "Eingang: die Spitze des Pfeils",
+   "kicker": "Ankunft",
+   "body": [
+    "Von der Place de l’Europe kommend, überqueren die Besucherinnen und Besucher den historischen Graben auf Brücken und erreichen den Eingang an der Spitze des Pfeils.",
+    "Ein verglaster Windfang, in die Steinmasse zurückgesetzt und von einem Vordach überdeckt, schützt den Zugang, während die scharfe Ecke dem Baukörper seine klare Kontur bewahrt."
+   ]
+  },
+  "corner": {
+   "title": "Eckdetail: die Steinmasse",
+   "kicker": "Detail",
+   "body": [
+    "Die Außenecken der Galerieflügel tragen die Schärfe des Pfeils weiter. Die an der Ecke zusammentreffenden Steinflächen mit verfüllten Fugen wirken wie ein massiver Block und nicht wie eine dünne Verkleidung.",
+    "Peis 45°-Geometrie ist hier am deutlichsten spürbar: Die Öffnungen treten von der Ecke zurück, die fensterlos und präzise bleibt."
+   ]
+  },
+  "glasscorner": {
+   "title": "Eckdetail: Glas und Stein",
+   "kicker": "Detail",
+   "body": [
+    "Am Westende ist der Spitze des Steinflügels ein verglaster Treppenturm angefügt. Das fein gerahmte Glas und der schwere Kalkstein treffen an einer Ecke zusammen, und die Grenze zwischen beiden Materialien bleibt ablesbar.",
+    "Wer die Treppe hinaufsteigt, blickt zwischen den Etagen nach draußen."
+   ]
+  },
+  "skylights": {
+   "title": "Obere Galerien: Oberlicht",
+   "kicker": "Licht",
+   "body": [
+    "Die beiden großen oberen Galerien ermöglichen Ausstellungen bei natürlichem Licht: Oberlichter lenken gefiltertes Tageslicht auf die Galeriewände.",
+    "Manche Dächer liegen unterhalb der Attika und sind von außen nicht sichtbar; so bleibt der Baukörper außen ruhig und innen hell."
+   ]
+  },
+  "pavilion": {
+   "title": "Henry J. and Erna D. Leir Pavilion",
+   "kicker": "Pavillon",
+   "body": [
+    "Der achteckige Pavillon hinter dem Hauptgebäude ist über einen verglasten Gang erreichbar, der die Festungsreste überquert. Von einer gläsernen Laterne bekrönt, öffnet er einen weiteren Blick auf den Park.",
+    "Er hat zwei Ebenen; die untere ist über eine Treppe zugänglich. Im Erdgeschoss ist derzeit FOR EVER von Christine Sun Kim zu sehen."
+   ]
+  },
+  "passage": {
+   "title": "Verglaster Gang",
+   "kicker": "Verbindung",
+   "body": [
+    "Der Gang führt vom Ende des Jardin des Sculptures zum Pavillon und überquert dabei die Reste der Bastion aus dem 18. Jahrhundert.",
+    "Wer hindurchgeht, hat auf der einen Seite die Festungsmauern, auf der anderen den Park: Der Neubau führt über die alte Spur hinweg, ohne sie zu unterbrechen."
+   ]
+  },
+  "bastion": {
+   "title": "Bastionsmauern und Graben",
+   "kicker": "Festung",
+   "body": [
+    "Das pfeilförmige Museum ruht auf dem Wall und den Mauern der Bastion aus dem 18. Jahrhundert. Die alten Mauern verschmelzen mit dem Neubau und tragen die Geschichte des Ortes weiter.",
+    "Der Graben ringsum ist ein Überrest der Verteidigungsanlagen von Luxemburg, das einst zu den am stärksten befestigten Städten Europas zählte."
+   ]
+  },
+  "stairs": {
+   "title": "Treppen",
+   "kicker": "Beton",
+   "body": [
+    "Jede Treppe im Museum ist ein eigenständiges Stück Architektur. Alle sind aus hellem Architekturbeton gegossen, dem eine Schalung aus Oregon Pine eine feine Textur verleiht.",
+    "Die breite Treppe, die von der Grand Hall hinabführt, und die Wendeltreppe am Ostende verleihen dem Weg zwischen den Etagen zwei unterschiedliche Charaktere."
+   ]
+  },
+  "lowerwindows": {
+   "title": "Fenster zum Graben",
+   "kicker": "Fassade",
+   "body": [
+    "Die Seite, an der sich die Galerien konzentrieren, ist von zurückgesetzten Öffnungen durchbrochen; im Untergeschoss blicken die Fenster in den Graben.",
+    "Anders als die vollständig verglaste Südwestfassade ist diese Seite geschlossen und maßvoll: schützend für die Werke, ruhig zum Fort hin."
+   ]
+  }
+ },
+ "surroundings": {
+  "thungen": {
+   "title": "Fort Thüngen · Musée Dräi Eechelen",
+   "kicker": "Nachbar · 18. Jahrhundert",
+   "body": [
+    "Das Fort direkt neben dem Mudam wurde 1732 unter österreichischer Herrschaft errichtet. Die eichelförmigen Steine auf seinen Türmen gaben ihm den luxemburgischen Namen „Dräi Eechelen“: drei Eicheln.",
+    "Heute beherbergt es das Musée Dräi Eechelen, das sich der Festung, der Geschichte und der Identität widmet. Das Mudam erhebt sich auf der Bastion dieses Forts."
+   ]
+  },
+  "park": {
+   "title": "Park Dräi Eechelen",
+   "kicker": "Landschaft · Michel Desvigne",
+   "body": [
+    "Der vom Landschaftsarchitekten Michel Desvigne gestaltete Park wurde 2011 mit dem Luxemburger Architekturpreis ausgezeichnet. Er fällt sanft von der städtischen Place de l’Europe zur natürlichen Umgebung des Forts ab.",
+    "Pflaster mit Rasenfugen, Baumgruppen und eine wieder geöffnete Lichtung machen drei Jahrhunderte Militärbaukunst seit Vauban ablesbar."
+   ]
+  },
+  "moat": {
+   "title": "Graben und Brücken",
+   "kicker": "Zugang",
+   "body": [
+    "Das Museum erreicht man von der Place de l’Europe über Brücken, die den historischen Graben überqueren; der Eingang liegt an der Spitze des Pfeils.",
+    "Graben und Mauern gehören zu den Verteidigungsanlagen von Luxemburg, das einst zu den am stärksten befestigten Städten Europas zählte."
+   ]
+  },
+  "europe": {
+   "title": "Place de l’Europe",
+   "kicker": "Platz · Ricardo Bofill",
+   "body": [
+    "Der mit Kiefern und Buchen bepflanzte Vorplatz des Museums öffnet sich zur Place de l’Europe, die von Ricardo Bofill entworfen wurde.",
+    "Gemeinsam mit der Philharmonie bildet sie das kulturelle Eingangstor zum Kirchberg; von hier öffnet sich der Park zum Fort hin."
+   ]
+  },
+  "philharmonie": {
+   "title": "Philharmonie Luxembourg",
+   "kicker": "Konzerthaus · Christian de Portzamparc",
+   "body": [
+    "Das Konzerthaus von Christian de Portzamparc wurde 2005 eröffnet. Seine Fassade aus weißen Stahlsäulen, die wie ein Filter wirkt, umfängt die Place de l’Europe.",
+    "In enger Nachbarschaft zum Baukörper aus Stein und Glas des Mudam markiert es das andere Ende des Kulturensembles auf dem Kirchberg."
+   ]
+  },
+  "kirchberg": {
+   "title": "Kirchberg: das Europaviertel",
+   "kicker": "Plateau",
+   "body": [
+    "Der Eingang des Mudam ist dem Kirchberg-Plateau und seinen europäischen Institutionen zugewandt: In dieser Richtung liegen die goldenen Türme des Gerichtshofs der Europäischen Union und die Europäische Investitionsbank.",
+    "Die Ausrichtung des Museums verbindet die Festung und die historische Stadt mit dem Europaviertel: Vergangenheit, Gegenwart und Zukunft."
+   ]
+  },
+  "tram": {
+   "title": "Tram: Philharmonie – Mudam",
+   "kicker": "Anreise",
+   "body": [
+    "Die Haltestelle „Philharmonie – Mudam“ der Tramlinie, die den Kirchberg mit dem Stadtzentrum verbindet, liegt an der Avenue John F. Kennedy.",
+    "Von der Haltestelle ist es ein kurzer Fußweg über die Place de l’Europe und durch den Park zum Museum."
+   ]
+  },
+  "funicular": {
+   "title": "Standseilbahn Pfaffenthal–Kirchberg",
+   "kicker": "Hinab ins Tal",
+   "body": [
+    "Die 2017 eröffnete Standseilbahn verbindet das Kirchberg-Plateau mit dem Bahnhaltepunkt Pfaffenthal im Alzettetal.",
+    "Am gegenüberliegenden Hang verbindet ein Panoramaaufzug Pfaffenthal mit der Oberstadt. Die Viertel im Tal liegen mehrere Dutzend Meter unter dem Plateau; die Markierungen zeigen die Lage, nicht die Höhe."
+   ]
+  },
+  "redbridge": {
+   "title": "Die Rote Brücke",
+   "kicker": "Pont Grande-Duchesse Charlotte",
+   "body": [
+    "Die 1966 eröffnete rote Stahlbrücke überspannt das Pfaffenthal zwischen dem Stadtzentrum und dem Kirchberg.",
+    "Sie ist eines der Symbole für die Entwicklung des Kirchbergs zum Europaviertel."
+   ]
+  },
+  "oldtown": {
+   "title": "Historische Stadt und Festungsanlagen",
+   "kicker": "UNESCO-Welterbe",
+   "body": [
+    "Die verglaste Südwestfassade des Mudam blickt auf „Stadt Luxemburg: Altstadtviertel und Festungsanlagen“, seit 1994 auf der Liste des UNESCO-Welterbes.",
+    "Im Zentrum dieses Blicks liegt der Bockfelsen, wo die Stadt ihren Anfang nahm; die Oberstadt jenseits des Alzettetals und das Mudam sind zwei Enden einer einzigen Festungsgeschichte."
+   ]
+  },
+  "grunewald": {
+   "title": "Festungswerke der Grünewald-Front",
+   "kicker": "Festungsreste",
+   "body": [
+    "Die Reste des Fort Obergrünewald im Park und des Fort Niedergrünewald unterhalb gehören zur Verteidigungslinie an der Ostfront der Stadt.",
+    "Vor Ort durch Informationstafeln erläutert, zeigen sie gemeinsam mit Fort Thüngen und dem Mudam drei Jahrhunderte Militärbaukunst auf dem Plateau."
+   ]
+  }
+ },
+ "exhibitions": {
+  "kaiho": {
+   "subtitle": "Japanische Künstlerinnen nach 1945",
+   "dates": "25.09.2026 – 14.02.2027",
+   "place": "Galerien im Erd- und Obergeschoss",
+   "credits": "Kuratorin: Florence Ostende, unter Mitarbeit von Anaël Daoud und Yurika Imaseki. In Zusammenarbeit mit dem Lenbachhaus, München, und dem Guggenheim Museum Bilbao.",
+   "intro": [
+    "Die erste europäische Überblicksausstellung zu japanischen Künstlerinnen nach 1945. Mehr als 120 Werke von über dreißig Künstlerinnen sind in thematischen Kapiteln versammelt; zu den vertretenen Namen gehören Atsuko Tanaka, Yayoi Kusama, Yoko Ono, Fujiko Nakaya, Tomie Ohtake und Ruth Asawa.",
+    "Sie umfasst Künstlerinnen, die in Japan blieben, ebenso wie jene, die das Land als Migrantinnen verließen oder nie dort lebten. Nach dem Mudam reist die Ausstellung weiter nach München und Bilbao."
+   ],
+   "rooms": {
+    "galerie-est-0": {
+     "title": "Aktion und Material",
+     "text": "Eine Lesart, die die Auseinandersetzung der Nachkriegsavantgarde mit Körper, Geste und Material in den Mittelpunkt stellt. Bezugspunkte sind die Aktionsmalerei und die Schaltkreiszeichnungen der Gutai-Gruppe."
+    },
+    "grand-hall": {
+     "title": "Schwelle",
+     "text": "Unter der Glasüberdachung ein für große Installationen vorgeschlagener Raum, in dem Licht und Luft zu Material werden. Hier betreten die Besucherinnen und Besucher die Ausstellung – durch Werke, die den gesamten Raum einnehmen."
+    },
+    "galerie-ouest-0": {
+     "title": "Anweisungen und Partituren",
+     "text": "Anweisungsstücke, Partituren und Vorschläge aus Fluxus und konzeptueller Praxis. Hier ist das Werk weniger ein Objekt als eine Anleitung, die Betrachterinnen und Betrachter vollenden."
+    },
+    "jardin-sculptures": {
+     "title": "Luft, Licht, Umwelt",
+     "text": "In der verglasten Halle, die sich zum Park öffnet, Skulpturen und Installationen zum Umweltbewusstsein und zu unserer Beziehung zur Natur. Das wechselnde Tageslicht wird Teil der Werke."
+    },
+    "galerie-est-1": {
+     "title": "Farbe und Rhythmus",
+     "text": "Die Formen, die die Abstraktion über geografische Grenzen hinweg annahm: große Farbfelder, Kurven und rhythmische Flächen. Unter dem Oberlicht wird die Farbe gemeinsam mit der Architektur der Galerie wahrgenommen."
+    },
+    "galerie-ouest-1": {
+     "title": "Migration und Netzwerke",
+     "text": "Die Netzwerke der Künstlerinnen, die Japan verließen oder nie dort lebten, von New York bis São Paulo, von Kalifornien bis Europa. Geknotete, gewebte und aus Draht gefertigte Formen bestimmen die Bildsprache des Raums."
+    },
+    "petite-galerie-ouest": {
+     "title": "Pädagogik und Archiv",
+     "text": "Ein kleiner Raum für feministische Publikationen, Lehrpraktiken und Dokumente. Themen, denen der Katalog nachgeht (Feminismus, Pädagogik, Umweltbewusstsein), werden hier anhand von Dokumenten erschlossen."
+    }
+   }
+  },
+  "forever": {
+   "subtitle": "FOR EVER",
+   "dates": "25.09.2026 – 10.01.2027",
+   "place": "Henry J. and Erna D. Leir Pavilion",
+   "credits": "Eine ortsspezifische Auftragsarbeit für das Mudam. Klanglandschaft in Zusammenarbeit mit dem Musiker Matt Karmil.",
+   "intro": [
+    "Im Pavillon errichtet Christine Sun Kim ein Monument, das die Idee von „forever“ reflektiert und der Langlebigkeit und Widerstandskraft der Gehörlosenkultur gewidmet ist. Skulpturale Leinwände an vier Wänden stellen das Wort „forever“ in Amerikanischer Gebärdensprache (ASL) dar.",
+    "Auf Wunsch der Künstlerin wird die Ausstellung vollständig im Erdgeschoss des Pavillons gezeigt, da das Untergeschoss nicht stufenlos zugänglich ist."
+   ],
+   "rooms": {
+    "pavillon": {
+     "title": "Vier Wände",
+     "text": "Vier skulpturale Leinwände an vier Wänden des achteckigen Pavillons. Sie folgen seiner Symmetrie, während die Klanglandschaft den Raum als Ganzes erfüllt."
+    },
+    "pavillon-m1": {
+     "title": "Untergeschoss (nicht genutzt)",
+     "text": "Das Untergeschoss des Pavillons wird für diese Ausstellung nicht genutzt: Die Künstlerin hat sich entschieden, sie vollständig im Erdgeschoss zu zeigen, da das Untergeschoss nicht stufenlos zugänglich ist."
+    }
+   }
+  },
+  "vktrs": {
+   "subtitle": "Die 1980er-Jahre und ihr kulturelles Echo",
+   "dates": "12.06 – 11.10.2026 · letzte Tage",
+   "place": "Galerien im Untergeschoss (−1)",
+   "credits": "Kuratorin: Bettina Steinbrügge, mit Caroline Honorien und Alexine Taddeï. Werke aus der Sammlung Mudam und neue Leihgaben.",
+   "intro": [
+    "Eine Sammlungspräsentation im zwanzigsten Jahr des Mudam, die die „langen 1980er-Jahre“ von den späten 1970er- bis zu den frühen 1990er-Jahren neu betrachtet: rund fünfzig Werke von zweiundvierzig Künstlerinnen und Künstlern, viele davon aus der Sammlung Mudam.",
+    "Sie gliedert sich in zwei Teile: die ästhetischen Revolutionen der frühen 1980er-Jahre, angestoßen von Nachkriegsgenerationen, die universelle und westlich zentrierte Perspektiven infrage stellten; und den gesellschaftlichen und politischen Kontext des Jahrzehnts, seine Brüche und Kontinuitäten, die bis heute nachhallen."
+   ],
+   "rooms": {
+    "galerie-est-m1": {
+     "title": "Teil I · Ästhetische Revolutionen",
+     "text": "Die Rückkehr zur Malerei, der Neoexpressionismus und die Wiederaneignung des Bildes: die Bildsprache von Generationen, die Anfang der 1980er-Jahre universelle, westlich zentrierte Perspektiven infrage stellten."
+    },
+    "foyer": {
+     "title": "Bildschirm und Rundfunk",
+     "text": "Der Titel geht auf den Song von 1979 zurück, dessen Video als erstes lief, als MTV 1981 auf Sendung ging. Dieser Raum wird als Durchgang vorgeschlagen, der dem Einzug von Video, Fernsehen und Rundfunkkultur in die Kunst gewidmet ist."
+    },
+    "galerie-ouest-m1": {
+     "title": "Teil II · Brüche und Kontinuitäten",
+     "text": "Der gesellschaftliche und politische Kontext des Jahrzehnts: Appropriation, die Politik des Bildes sowie Brüche und Kontinuitäten, die bis heute nachhallen."
+    }
+   }
+  }
+ },
+ "other": {
+  "cafe": {
+   "title": "Mudam Café",
+   "text": "Café-Restaurant in der westlichen verglasten Halle; kein Ausstellungsraum. Betrieben von Chiche!: hausgemachte Küche, die Beschäftigung und Integration von Migrantinnen, Migranten und Geflüchteten fördert."
+  },
+  "entree": {
+   "title": "Eingang",
+   "text": "Der Eingang an der Spitze des Pfeils: Empfang, Kasse, Garderobe, Shop und Toiletten."
+  },
+  "passage": {
+   "title": "Verglaster Gang",
+   "text": "Der Gang, der den Jardin des Sculptures über die Festungsreste hinweg mit dem Pavillon verbindet."
+  },
+  "studio": {
+   "title": "Studio",
+   "text": "Der Raum für Workshops und Vermittlungsprogramme."
+  },
+  "documentation": {
+   "title": "Espace de documentation",
+   "text": "Lese- und Dokumentationsbereich; der beleuchtete Luftraum in seiner Mitte gibt den Blick nach unten durch den Boden frei."
+  },
+  "pont": {
+   "title": "Passerelle",
+   "text": "Die Brücke, die die beiden oberen Galerien verbindet."
+  },
+  "auditorium": {
+   "title": "Auditorium",
+   "text": "Das Auditorium im Untergeschoss für Vorträge, Filmvorführungen und Performances."
+  }
+ }
+}

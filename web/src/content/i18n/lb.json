@@ -1,0 +1,433 @@
+{
+ "strings": {
+  "docTitle": "Mudam Luxembourg — Gebai, Ëmgéigend an aktuell Expositiounen · 3D",
+  "place": "Lëtzebuerg-Kierchbierg · I. M. Pei · 2006",
+  "placeShort": "Virtual Experience · Demo",
+  "modeSurroundings": "Ëmgéigend",
+  "modeBuilding": "Gebai",
+  "modeExhibitions": "Expositiounen",
+  "floorAll": "Gebai",
+  "floorAllTitle": "D’ganzt Gebai",
+  "floorLM1": "−1",
+  "floorL00": "0",
+  "floorLP1": "+1",
+  "floorNameLM1": "Ënneschten Niveau (−1)",
+  "floorNameL00": "Rez-de-chaussée (0)",
+  "floorNameLP1": "Ieweschte Stack (+1)",
+  "explode": "Stäck trennen",
+  "materials": "Materialien trennen",
+  "matVertical": "Vertikal",
+  "matRadial": "Hallefkugel",
+  "layer_floors": "Biedem",
+  "layer_walls": "Maueren · Steeschuel",
+  "layer_ceilings": "Plafongen · Diech",
+  "layer_frames": "Stol · Glasrummen",
+  "layer_glass": "Glas",
+  "matHint": "Gestréchelt Linne weisen, vu wou all Schicht verréckelt gouf · Tippt op eng Schicht, fir se ze verstoppen",
+  "plan": "Plang",
+  "section": "Schnëtt",
+  "rotate": "Dréinen",
+  "pan": "Verréckelen",
+  "zoomIn": "Eranzoomen",
+  "zoomOut": "Erauszoomen",
+  "recentre": "Nei zentréieren",
+  "light": "Liicht",
+  "daylight": "Dagesliicht",
+  "viewportLabel": "Interaktivt 3D-Modell vum Mudam-Gebai",
+  "langLabel": "Sprooch",
+  "viewLabel": "Usiicht",
+  "floorsLabel": "Stäck",
+  "dateLabel": "Datum",
+  "layers": "Materialschichten",
+  "contextModel": "Modell",
+  "cevre1": "Kontext 1",
+  "cevre2": "Kontext 2",
+  "cevre1Title": "Kontext 1: Gebai R149, Modellterrain, Beem an OSM-Baukierper",
+  "cevre2Title": "Kontext 2: R151 web clean v002 — Gebai, bereinegt Ëmgéigend no a wäit (ACT 2020)",
+  "cevre2Missing": "D’Fichiere vum Kontext 2 (12_Blender_Model/exports/web_current) sinn an dëser Versioun net dobäi.",
+  "cevre2Error": "Kontext 2 konnt net geluede ginn; Kontext 1 gëtt gewisen.",
+  "interior": "Luuchten dobannen",
+  "dateToday": "Haut · 10. Oktober",
+  "dateJune": "21. Juni",
+  "dateMarch": "21. Mäerz",
+  "dateDec": "21. Dezember",
+  "loading": "D’Modell gëtt gelueden",
+  "loadingData": "Virbereedung vun der Zeen",
+  "retry": "Nach eng Kéier",
+  "no3d": "D’3D-Usiicht konnt op dësem Apparat net starten.",
+  "next": "Weider",
+  "prev": "Zréck",
+  "close": "Zoumaachen",
+  "tour": "Punkt fir Punkt",
+  "of": "/",
+  "viewBuilding": "D’Gebai ukucken",
+  "welcomeLead": "Dem I. M. Pei säi Gebai, seng Ëmgéigend an déi aktuell Expositiounen an engem Modell. Maacht d’Stäck op, beweegt Iech duerch de Schnëtt a gitt vu Wierk zu Wierk.",
+  "welcomeBuilding": "Gebai",
+  "welcomeSurroundings": "Ëmgéigend",
+  "welcomeExhibitions": "Aktuell Expositiounen",
+  "welcomeNote": "D’Modell ass en Aarbechtsmodell op Basis vun dokumentéierte Quellen, keng Vermiessung.",
+  "exhibitionsHeading": "Aktuell Expositiounen",
+  "exhibitionsLead": "Dräi Expositiounen am Mudam den 10. Oktober 2026: um ënneschten Niveau, am Pavillon an iwwer de Rez-de-chaussée an den ieweschte Stack.",
+  "rooms": "Säll",
+  "works": "Wierker",
+  "workOne": "Wierk",
+  "worksTitle": "Wierker an dësem Sall",
+  "openExhibition": "Expositioun opmaachen",
+  "walkWorks": "Wierk fir Wierk",
+  "walkRooms": "Sall fir Sall",
+  "backToList": "All Expositiounen",
+  "backToExhibition": "Zréck op d’Expositioun",
+  "backToRoom": "Zréck op de Sall",
+  "backToSection": "Zréck op de Schnëtt",
+  "room": "Sall",
+  "work": "Wierk",
+  "placeholder": "Plazhalterbild",
+  "placeholderNote": "Dëst Bild ass provisoresch. Titel, Kënschtler, Datum a Bild vum Wierk ginn zesumme mam Mudam ergänzt.",
+  "readingNote": "D’Interpretatioune vun de Säll si Virschléi fir dës Demo, net déi offiziell Sektioune vun der Expositioun.",
+  "closedRoom": "Gëtt an dëser Expositioun net benotzt",
+  "notExhibition": "Keng Expositiounsfläch",
+  "enlarge": "Bild vergréisseren",
+  "planHint": "Tippt op d’Säll an d’Punkten um Plang",
+  "sectionHint": "Tippt op e Sall · Zéien: dréinen",
+  "visitHint": "Zéien: ronderëm kucken",
+  "orbitHint": "Zéien: dréinen · Mat riets zéien / zwee Fanger: verréckelen · Mausrad: zoomen",
+  "about": "Info",
+  "aboutTitle": "Mudam Virtual Experience · Demo",
+  "aboutBody": [
+   "Dës Demo ass déi éischt Schicht vun der virtueller Erfarung, déi fir de Mudam virgeschloe gëtt: d’Gebai, seng Ëmgéigend an déi aktuell Expositiounen an engem Modell.",
+   "D’Modell gouf mat Blender op Basis vun engem Archiv vu skaléierte Pläng a Schnëtter, engem op OSM ausgeriichte Situatiounsplang an engem Fotoatlas gebaut; Niveauen an Detailer sinn Aarbechtswäerter. D’Biller un de Wänn vun den Expositioune si Plazhalter.",
+   "D’Informatiounen iwwer d’Expositioune komme vu mudam.com an aus den Ukënnegunge vun den Expositiounen (10. Oktober 2026). Kontextdaten © OpenStreetMap-Contributeuren (ODbL)."
+  ],
+  "sources": "Quellen",
+  "hotspotsBuilding": "Den Entworf vum Gebai, seng Glasdiech an Eckdetailer",
+  "hotspotsSurroundings": "De Fort, de Park an de Kierchbierger Plateau"
+ },
+ "building": {
+  "form": {
+   "title": "D’Feilspëtzt: e Plang no der Form vum Fort",
+   "kicker": "Entworf",
+   "body": [
+    "Den I. M. Pei huet de Musée op d’Bastioun vum Fort Thüngen gesat, déi d’Form vun enger Feilspëtzt huet a 1732 gebaut gouf. De V-fërmege Volume follegt de Mauere vun der Bastioun, an de Plang ass op 45°-Wénkelen opgebaut.",
+    "D’Spëtzt mat der Entrée weist op de Kierchbierg an d’Place de l’Europe; déi verglaast Südwestfassad ass op déi historesch Stad ausgeriicht. D’Gebai zitt eng Linn tëscht der Festung an dem Europaquartier, tëscht Vergaangenheet a Géigewaart."
+   ]
+  },
+  "canopy": {
+   "title": "Glasiwwerdaachung a Lanter",
+   "kicker": "Glasdaach",
+   "body": [
+    "Eng Iwwerdaachung aus Glas a Stol deckt d’Grand Hall of; gekréint gëtt se vun enger Lanter mat quadrateschem Ofschloss: den héchste Punkt vum Gebai.",
+    "Dënn Metallréier tëscht den dräieckege Glasscheiwe filteren d’Sonneliicht a verbesseren d’Akustik vun der Hall. Op béide Säiten decke méi niddreg a méi flaach Glasdiech déi zwou verglaast Hallen of."
+   ]
+  },
+  "grandhall": {
+   "title": "Grand Hall",
+   "kicker": "Raum",
+   "body": [
+    "Hannert der Entrée kommen d’Visiteuren an d’Grand Hall, déi ouni Säilen auskënnt a voller Liicht ass. Als Häerz vum Musée verdeelt si de Besuch: d’Galerien, déi zwou verglaast Hallen an den ënneschten Niveau erreecht een alleguer vun hei aus.",
+    "Duerch hiert Glas kuckt een op den ale Fort an op de Park. Ausserhalb vun den Ëffnungszäiten ass d’Hall de Kader fir Réceptioune vum Musée an offiziell Evenementer."
+   ]
+  },
+  "jardin": {
+   "title": "Jardin des Sculptures",
+   "kicker": "Verglaast Hall · Osten",
+   "body": [
+    "D’Hall mat Glasdaach ëstlech vun der Grand Hall ass e Gaart dobanne fir Skulpturen a fir Wierker, déi speziell fir d’Plaz geschaf ginn. Hiert schrägt Glasdaach suergt fir e Liicht, dat sech am Laf vum Dag ännert.",
+    "Um hënneschten Enn féiert e verglaaste Passage iwwer d’Reschter vun der Festung bis bei de Pavillon."
+   ]
+  },
+  "cafe": {
+   "title": "Mudam Café",
+   "kicker": "Verglaast Hall · Westen · Infopunkt",
+   "body": [
+    "Déi verglaast Hall westlech vun der Grand Hall (de Wantergaart) ass de Café vum Musée; hei gëtt et keng Expositioun.",
+    "Hie gëtt vum Chiche! bedriwwen, engem Restaurant, deen hausgemaacht Iessen a sozialen Zesummenhalt verbënnt an dobäi Migranten a Flüchtlingen zu Lëtzebuerg den Zougang zu Beschäftegung, Bildung an Integratioun erliichtert. Duerch d’Glas kuckt een op d’Festungsmaueren an op de Park."
+   ]
+  },
+  "stone": {
+   "title": "De Kallekssteen Magny Doré",
+   "kicker": "Material",
+   "body": [
+    "D’Fassade si mat Magny Doré verkleet, engem hunnegfaarwege franséische Kallekssteen, deen och an den ëffentleche Räim dobanne weidergeet. Säi waarmen Toun lieft vum Liicht a vum Schiet, déi sech mat de Stonnen an de Joreszäiten änneren.",
+    "Zesumme mat hellem Architekturbeton a gefëllte Fuge gëtt hien dem Gebai e monolitheschen Ausdrock. Wann Dir dëse Punkt opmaacht, gëtt d’Liicht op de Moien agestallt, wou d’Sonn dës Ostfassad erreecht; benotzt de Reegler „Dagesliicht“, fir ze gesinn, wéi sech de Steen ännert."
+   ]
+  },
+  "entrance": {
+   "title": "Entrée: d’Spëtzt vum Feil",
+   "kicker": "Ukunft",
+   "body": [
+    "D’Visiteure komme vun der Place de l’Europe, iwwerquéieren déi historesch Gruef op Brécken an erreechen d’Entrée op der Spëtzt vum Feil.",
+    "E verglaaste Vestibule, deen an d’Steemass zeréckgesat ass an iwwer deem e Virdaach läit, schützt den Agang, wärend de spatzen Eck de Volume kloer a schaarf hält."
+   ]
+  },
+  "corner": {
+   "title": "Eckdetail: d’Steemass",
+   "kicker": "Detail",
+   "body": [
+    "Déi baussenzeg Ecker vun de Galerieflilleken droen d’Schäerft vum Feil weider. D’Steeflächen, déi mat gefëllte Fugen am Eck openeestoussen, wierken ewéi e massive Block an net ewéi eng dënn Verkleedung.",
+    "Dem Pei seng 45°-Geometrie spiert een hei am däitlechsten: d’Ëffnunge si vum Eck zeréckgesat, an den Eck bleift zou a präzis."
+   ]
+  },
+  "glasscorner": {
+   "title": "Eckdetail: Glas a Steen",
+   "kicker": "Detail",
+   "body": [
+    "Um westlechen Enn ass un d’Spëtzt vum Steeflillek e verglaaste Trapentuerm ugebaut. D’Glas mat senge feine Rummen an de schwéiere Kallekssteen treffe sech an engem Eck, an d’Linn tëscht deenen zwee Materialie bleift liesbar.",
+    "Wann d’Visiteuren d’Trap eropginn, kucke si tëscht de Stäck no baussen."
+   ]
+  },
+  "skylights": {
+   "title": "Iewescht Galerien: Uewerliicht",
+   "kicker": "Liicht",
+   "body": [
+    "Déi zwou grouss iewescht Galerien erlaben Expositiounen am natierleche Liicht: Daachfënstere filteren d’Dagesliicht op d’Wänn vun de Galerien.",
+    "E puer Diech leien ënner der Attika a si vu baussen net ze gesinn; sou bleift de Volume bausse roueg an dobannen hell."
+   ]
+  },
+  "pavilion": {
+   "title": "Pavillon Henry J. an Erna D. Leir",
+   "kicker": "Pavillon",
+   "body": [
+    "Den aachteckege Pavillon hannert dem Haaptgebai erreecht een iwwer e verglaaste Passage, deen iwwer d’Reschter vun der Festung féiert. Gekréint vun enger Glaslanter, bitt hien en anere Bléck op de Park.",
+    "Hien huet zwee Niveauen; den ënneschten erreecht een iwwer eng Trap. Um Rez-de-chaussée ass am Moment FOR EVER vun der Christine Sun Kim ze gesinn."
+   ]
+  },
+  "passage": {
+   "title": "Verglaaste Passage",
+   "kicker": "Verbindung",
+   "body": [
+    "De Passage féiert vum Enn vum Jardin des Sculptures iwwer d’Reschter vun der Bastioun aus dem 18. Joerhonnert bis bei de Pavillon.",
+    "Wann een duerchgeet, leien op där enger Säit d’Festungsmaueren an op där anerer de Park: dat neit Gebai geet iwwer déi al Spuer ewech, ouni se z’ënnerbriechen."
+   ]
+  },
+  "bastion": {
+   "title": "Bastiounsmaueren a Gruef",
+   "kicker": "Festung",
+   "body": [
+    "De feilfërmege Musée sëtzt rëttlecks um Wall an op de Mauere vun der Bastioun aus dem 18. Joerhonnert. Déi al Mauere verschmëlze mam neie Gebai an droen d’Geschicht vun der Plaz weider.",
+    "D’Gruef ronderëm ass e Rescht vun de Festungswierker vu Lëtzebuerg, fréier eng vun de stäerkst befestegte Stied an Europa."
+   ]
+  },
+  "stairs": {
+   "title": "Trapen",
+   "kicker": "Beton",
+   "body": [
+    "All Trap am Musée ass e Stéck Architektur fir sech. Si sinn alleguer an hellem Architekturbeton gegoss, deen duerch eng Verschalung aus Oregon-Kiefer eng fein Textur kritt.",
+    "Déi breet Trap, déi vun der Grand Hall erofféiert, an d’Wendeltrap um ëstlechen Enn ginn der Beweegung tëscht de Stäck zwee ënnerschiddlech Charakteren."
+   ]
+  },
+  "lowerwindows": {
+   "title": "Fënsteren op d’Gruef",
+   "kicker": "Fassad",
+   "body": [
+    "D’Säit, wou d’Galerien am dichtste leien, ass vun zeréckgesaten Ëffnungen duerchbrach; um ënneschten Niveau kucken d’Fënsteren an d’Gruef.",
+    "Anescht wéi déi ganz verglaast Südwestfassad ass dës Säit zou a moossvoll: si bitt de Wierker Schutz a bleift Richtung Fort roueg."
+   ]
+  }
+ },
+ "surroundings": {
+  "thungen": {
+   "title": "Fort Thüngen · Musée Dräi Eechelen",
+   "kicker": "Noper · 18. Joerhonnert",
+   "body": [
+    "De Fort direkt nieft dem Mudam gouf 1732 ënner éisträichescher Herrschaft gebaut. Déi eechelfërmeg Steng op sengen Tierm ginn him säi lëtzebuergeschen Numm: „Dräi Eechelen“.",
+    "Haut ass do de Musée Dräi Eechelen ënnerbruecht, dee sech mat der Festung, der Geschicht an der Identitéit beschäftegt. De Mudam steet op der Bastioun vun dësem Fort."
+   ]
+  },
+  "park": {
+   "title": "Park Dräi Eechelen",
+   "kicker": "Landschaft · Michel Desvigne",
+   "body": [
+    "De Park, entworf vum Landschaftsarchitekt Michel Desvigne, krut 2011 de Lëtzebuerger Architekturpräis. Hien zitt sech sanft vun der urbaner Place de l’Europe erof bis an den natierleche Kader vum Fort.",
+    "Plaveie mat Gras an de Fugen, Beemgruppen an eng nees opgemaach Liichtung maachen dräi Joerhonnerte Festungsbau zënter dem Vauban liesbar."
+   ]
+  },
+  "moat": {
+   "title": "Gruef a Brécken",
+   "kicker": "Zougang",
+   "body": [
+    "De Musée erreecht ee vun der Place de l’Europe aus iwwer Brécken, déi iwwer déi historesch Gruef féieren; d’Entrée ass op der Spëtzt vum Feil.",
+    "Gruef a Mauere gehéieren zu de Festungswierker vu Lëtzebuerg, fréier eng vun de stäerkst befestegte Stied an Europa."
+   ]
+  },
+  "europe": {
+   "title": "Place de l’Europe",
+   "kicker": "Plaz · Ricardo Bofill",
+   "body": [
+    "D’Virplaz virum Musée, mat Kieferen a Biche beplanzt, mécht sech op d’Place de l’Europe op, déi vum Ricardo Bofill entworf gouf.",
+    "Zesumme mat der Philharmonie bilt si d’kulturell Paart vum Kierchbierg; vun hei aus mécht sech de Park zum Fort hin op."
+   ]
+  },
+  "philharmonie": {
+   "title": "Philharmonie Luxembourg",
+   "kicker": "Concertssall · Christian de Portzamparc",
+   "body": [
+    "De Concertssall vum Christian de Portzamparc gouf 2005 ageweit. Seng Fassad aus wäisse Stolsäilen, déi wéi e Filter wierkt, ëmschléisst d’Place de l’Europe.",
+    "Als direkten Noper vun der Mass aus Steen a Glas vum Mudam markéiert si dat anert Enn vum Kulturpol um Kierchbierg."
+   ]
+  },
+  "kirchberg": {
+   "title": "Kierchbierg: den Europaquartier",
+   "kicker": "Plateau",
+   "body": [
+    "D’Entrée vum Mudam weist op de Kierchbierger Plateau a seng europäesch Institutiounen: an dëser Richtung leien déi gëllen Tierm vum Geriichtshaff vun der Europäescher Unioun an d’Europäesch Investitiounsbank.",
+    "D’Ausriichtung vum Musée verbënnt d’Festung an déi historesch Stad mam Europaquartier: Vergaangenheet, Géigewaart an Zukunft."
+   ]
+  },
+  "tram": {
+   "title": "Tram: Philharmonie – Mudam",
+   "kicker": "Hikommen",
+   "body": [
+    "Den Arrêt „Philharmonie – Mudam“ vun der Tramslinn, déi de Kierchbierg mam Stadzentrum verbënnt, läit op der Avenue John F. Kennedy.",
+    "Vum Arrêt aus ass et e kuerze Fousswee iwwer d’Place de l’Europe an duerch de Park bis bei de Musée."
+   ]
+  },
+  "funicular": {
+   "title": "Funiculaire Pafendall–Kierchbierg",
+   "kicker": "Erof an den Dall",
+   "body": [
+    "De Funiculaire, deen 2017 ageweit gouf, verbënnt de Kierchbierger Plateau mat der Gare Pafendall am Uelzechtdall.",
+    "Um Hang vis-à-vis verbënnt e Panoramalift de Pafendall mat der Uewerstad. D’Quartieren am Dall leien Dosende Meter ënner dem Plateau; d’Markéierunge weisen d’Positioun, net d’Héicht."
+   ]
+  },
+  "redbridge": {
+   "title": "D’Rout Bréck",
+   "kicker": "Pont Grande-Duchesse Charlotte",
+   "body": [
+    "Déi rout Stolbréck, déi 1966 ageweit gouf, féiert iwwer den Dall vum Pafendall tëscht dem Stadzentrum an dem Kierchbierg.",
+    "Si gehéiert zu de Symboler dofir, wéi de Kierchbierg zum Europaquartier gewuess ass."
+   ]
+  },
+  "oldtown": {
+   "title": "Historesch Stad a Befestegungen",
+   "kicker": "UNESCO-Weltierwen",
+   "body": [
+    "Déi verglaast Südwestfassad vum Mudam kuckt Richtung „Stad Lëtzebuerg: Al Quartieren a Befestegungen“, zënter 1994 op der Lëscht vum UNESCO-Weltierwen.",
+    "De Bockfiels, wou d’Stad ugefaangen huet, steet am Mëttelpunkt vun deem Bléck; d’Uewerstad op der anerer Säit vum Uelzechtdall an de Mudam sinn zwee Enne vun enger an derselwechter Festungsgeschicht."
+   ]
+  },
+  "grunewald": {
+   "title": "Befestegunge vun der Gréngewald-Front",
+   "kicker": "Festungsreschter",
+   "body": [
+    "D’Reschter vum Fort Obergrünewald am Park a vum Fort Niedergrünewald drënner gehéieren zu der Verdeedegungslinn op der ëstlecher Front vun der Stad.",
+    "Informatiounstafelen op der Plaz erkläre se; zesumme mam Fort Thüngen an dem Mudam weise se dräi Joerhonnerte Festungsbau um Plateau."
+   ]
+  }
+ },
+ "exhibitions": {
+  "kaiho": {
+   "subtitle": "Japanesch Kënschtlerinnen no 1945",
+   "dates": "25.09.2026 – 14.02.2027",
+   "place": "Galerien um Rez-de-chaussée an um ieweschte Stack",
+   "credits": "Kuratorin: Florence Ostende, assistéiert vun Anaël Daoud a Yurika Imaseki. Organiséiert zesumme mam Lenbachhaus, München, a mam Guggenheim Museum Bilbao.",
+   "intro": [
+    "Déi éischt europäesch Iwwersiichtsexpositioun iwwer japanesch Kënschtlerinnen no 1945. Méi wéi 120 Wierker vu méi wéi drësseg Kënschtlerinne sinn an thematesche Sektiounen zesummebruecht; dorënner sinn Nimm wéi Atsuko Tanaka, Yayoi Kusama, Yoko Ono, Fujiko Nakaya, Tomie Ohtake a Ruth Asawa.",
+    "D’Expositioun ëmfaasst Kënschtlerinnen, déi a Japan bliwwe sinn, grad esou wéi déi, déi als Migrantinne fortgaange sinn oder ni do gelieft hunn. Nom Mudam reest se weider op München a Bilbao."
+   ],
+   "rooms": {
+    "galerie-est-0": {
+     "title": "Aktioun a Material",
+     "text": "Eng Interpretatioun, déi sech op d’Ausernanersetzung vun der Nokrichsavantgarde mat Kierper, Geste a Material konzentréiert. D’Action Painting an d’Zeechnunge vun elektresche Stroumkreesser vun der Gutai-Grupp sinn hir Referenzpunkten."
+    },
+    "grand-hall": {
+     "title": "Schwell",
+     "text": "Ënner dem Glasdaach e Raum, dee fir grouss Installatioune virgeschloe gëtt, an deene Liicht a Loft zu Material ginn. Hei kommen d’Visiteuren an d’Expositioun, duerch Wierker, déi de ganze Raum anhuelen."
+    },
+    "galerie-ouest-0": {
+     "title": "Instruktiounen a Partituren",
+     "text": "Instruktiounsstécker, Partituren a Propositioune vu Fluxus an aus der konzeptueller Praxis. Hei ass d’Wierk manner en Objet wéi eng Uweisung, déi de Betraachter selwer vervollstännege soll."
+    },
+    "jardin-sculptures": {
+     "title": "Loft, Liicht, Ëmwelt",
+     "text": "An der verglaaster Hall, déi sech op de Park opmécht: Skulpturen an Installatiounen iwwer Ëmweltbewosstsinn an eis Relatioun mat der Natur. Dat wiesselend Dagesliicht gëtt en Deel vun de Wierker."
+    },
+    "galerie-est-1": {
+     "title": "Faarf a Rhythmus",
+     "text": "D’Formen, déi d’Abstraktioun an de verschiddenste Geographien ugeholl huet: grouss Faarffelder, Kurven a rhythmesch Flächen. Ënner dem Uewerliicht gëtt d’Faarf zesumme mat der Architektur vun der Galerie wouergeholl."
+    },
+    "galerie-ouest-1": {
+     "title": "Migratioun an Netzwierker",
+     "text": "D’Netzwierker vu Kënschtlerinnen, déi Japan verlooss hunn oder ni do gelieft hunn, vun New York bis São Paulo, vu Kalifornien bis an Europa. Geknëppt a gewieft Formen an Drotforme bestëmmen d’Bildsprooch vum Sall."
+    },
+    "petite-galerie-ouest": {
+     "title": "Pedagogie an Archiv",
+     "text": "E klenge Sall fir feministesch Publikatiounen, pedagogesch Praktiken an Dokumenter. Themen, déi de Katalog nozeechent (Feminismus, Pedagogie, Ëmweltbewosstsinn), ginn hei duerch Dokumenter gelies."
+    }
+   }
+  },
+  "forever": {
+   "subtitle": "FOR EVER",
+   "dates": "25.09.2026 – 10.01.2027",
+   "place": "Pavillon Henry J. an Erna D. Leir",
+   "credits": "En Optragswierk fir de Mudam, speziell fir d’Plaz geschaf. Klanglandschaft zesumme mam Museker Matt Karmil.",
+   "intro": [
+    "Am Pavillon riicht d’Christine Sun Kim e Monument op, dat iwwer d’Iddi vu „fir ëmmer“ nodenkt an der Langlebegkeet an der Resilienz vun der Daafkultur gewidmet ass. Skulptural Toilen op véier Wänn weisen d’Wuert „forever“ an der amerikanescher Gebäerdesprooch (ASL).",
+    "Op Wonsch vun der Kënschtlerin gëtt d’Expositioun ganz um Rez-de-chaussée vum Pavillon gewisen, well den ënneschten Niveau kee barrièrefräien Zougang huet."
+   ],
+   "rooms": {
+    "pavillon": {
+     "title": "Véier Wänn",
+     "text": "Véier skulptural Toilen op véier Wänn vum aachteckege Pavillon. Si hale sech u seng Symmetrie, wärend d’Klanglandschaft de Raum als Ganzt fëllt."
+    },
+    "pavillon-m1": {
+     "title": "Ënneschten Niveau (net benotzt)",
+     "text": "Den ënneschten Niveau vum Pavillon gëtt fir dës Expositioun net benotzt: d’Kënschtlerin huet sech entscheet, se ganz um Rez-de-chaussée ze weisen, well den ënneschten Niveau kee barrièrefräien Zougang huet."
+    }
+   }
+  },
+  "vktrs": {
+   "subtitle": "D’1980er Joren an hir kulturell Echoen",
+   "dates": "12.06 – 11.10.2026 · lescht Deeg",
+   "place": "Galerien um ënneschten Niveau (−1)",
+   "credits": "Kuratorin: Bettina Steinbrügge, mat Caroline Honorien an Alexine Taddeï. Wierker aus der Mudam Collection an nei Prêten.",
+   "intro": [
+    "Eng Sammlungspresentatioun fir dat zwanzegst Joer vum Mudam, déi op déi „laang 1980er“ zeréckkuckt, vun de spéiden 1970er bis an de fréien 1990er: ongeféier fofzeg Wierker vun zweeavéierzeg Kënschtler, vill dovun aus der Mudam Collection.",
+    "Si entfalt sech an zwee Deeler: déi ästhetesch Revolutioune vun de fréien 1980er, gedriwwe vun Nokrichsgeneratiounen, déi universell a westlech zentréiert Perspektiven a Fro gestallt hunn; an de sozialen a politesche Kontext vum Joerzéngt, mat senge Bréch a Kontinuitéiten, déi bis haut noklengen."
+   ],
+   "rooms": {
+    "galerie-est-m1": {
+     "title": "Deel I · Ästhetesch Revolutiounen",
+     "text": "D’Réckkéier zu der Molerei, den neien Expressionismus an d’Réckeruewerung vum Bild: d’Bildsprooch vu Generatiounen, déi an de fréien 1980er universell, westlech zentréiert Perspektiven a Fro gestallt hunn."
+    },
+    "foyer": {
+     "title": "Bildschierm an Iwwerdroung",
+     "text": "Den Titel kënnt vum Lidd vun 1979, dem säi Video als éischte gewise gouf, wéi MTV 1981 op Sendung gaangen ass. Dëse Sall gëtt als Iwwergang virgeschloen, deen dovun handelt, wéi Video, Fernseh an d’Iwwerdroungskultur an d’Konscht erakommen."
+    },
+    "galerie-ouest-m1": {
+     "title": "Deel II · Bréch a Kontinuitéiten",
+     "text": "De sozialen a politesche Kontext vum Joerzéngt: Appropriatioun, d’Politik vum Bild, a Bréch a Kontinuitéiten, déi bis haut noklengen."
+    }
+   }
+  }
+ },
+ "other": {
+  "cafe": {
+   "title": "Mudam Café",
+   "text": "Café-Restaurant an der westlecher verglaaster Hall; keng Expositiounsfläch. Bedriwwe vum Chiche!: hausgemaacht Iessen, dat Beschäftegung an Integratioun vu Migranten a Flüchtlingen ënnerstëtzt."
+  },
+  "entree": {
+   "title": "Entrée",
+   "text": "D’Entrée op der Spëtzt vum Feil: Accueil, Ticketen, Vestiaire, Buttek an Toiletten."
+  },
+  "passage": {
+   "title": "Verglaaste Passage",
+   "text": "De Passage, deen de Jardin des Sculptures iwwer d’Reschter vun der Festung mam Pavillon verbënnt."
+  },
+  "studio": {
+   "title": "Studio",
+   "text": "De Sall fir Atelieren a Bildungsprogrammer."
+  },
+  "documentation": {
+   "title": "Espace de documentation",
+   "text": "Raum fir Liesen an Dokumentatioun; déi beliicht Ëffnung an der Mëtt mécht e Bléck no ënnen duerch de Buedem op."
+  },
+  "pont": {
+   "title": "Passerelle",
+   "text": "D’Bréck, déi d’Verbindung tëscht deenen zwou ieweschte Galerien mécht."
+  },
+  "auditorium": {
+   "title": "Auditorium",
+   "text": "Den Auditorium um ënneschten Niveau, fir Virträg, Projektiounen a Performancen."
+  }
+ }
+}

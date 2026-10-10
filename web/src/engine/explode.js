@@ -4,25 +4,29 @@ import * as THREE from 'three';
 //
 // Every vertex carries its fragment's centre and layer (_piece, baked by
 // scripts/build-model.mjs), so the joined meshes still fly apart fragment by
-// fragment. The offset is computed in the vertex shader, in the shadow (depth)
-// shader and in the trail lines from the same GLSL, and once more on the CPU
-// for the labels; the four must agree, which is why the formula lives here once.
-export const LAYERS = ['floors', 'walls', 'ceilings', 'frames', 'glass', 'fittings'];
-export const LAYER_COLOURS = { floors: '#9a7650', walls: '#c8b07e', ceilings: '#8f9a96', frames: '#38454d', glass: '#5f9fc2', fittings: '#b4533b' };
+// fragment. The offset is computed in the building's vertex and shadow
+// shaders (a hook in Building) and in the trail lines from the same GLSL, and
+// once more on the CPU for the labels; they must agree, which is why the
+// formula lives here once.
+export const LAYERS = ['floors', 'walls', 'ceilings', 'frames', 'glass'];
+export const LAYER_COLOURS = { floors: '#9a7650', walls: '#c8b07e', ceilings: '#8f9a96', frames: '#38454d', glass: '#5f9fc2' };
+const N = LAYERS.length;
 
-// Vertical: one tier per layer in reading order, floors at the bottom with the
-// stairs and fittings that stand on them, glass on top. Within a tier the
-// storeys are drawn apart a little (STRETCH per metre of height) so the
-// plates read separately. Tier heights leave a clear gap between layers.
-const LIFT = { floors: 0, fittings: 0, walls: 18, ceilings: 46, frames: 76, glass: 124 };
+// Vertical: one tier per layer in reading order, floors (with the stairs)
+// at the bottom, glass on top. Within a tier the storeys are drawn apart a
+// little (STRETCH per metre of height) so the plates read separately. Tiers
+// are spaced so that ~30 m of air separates one layer from the next: from
+// the low camera of this view the building's 90 m depth no longer makes one
+// tier overlap the next.
+const LIFT = { floors: 0, walls: 42, ceilings: 93, frames: 146, glass: 220 };
 const STRETCH = 0.3;
 
-// Hemisphere: floors and fittings stay as the core, pushed out only a
-// little; every other layer settles on its own hemispherical shell around a
-// point under the middle of the building, glass outermost. Shell radius =
-// SHELL + SPREAD per metre the fragment stood from that point, so a shell has
-// some depth and the building's plan is still legible on it.
-const SHELL = { floors: 0, fittings: 0, walls: 72, ceilings: 90, frames: 108, glass: 126 };
+// Hemisphere: the floors stay as the core, pushed out only a little; every
+// other layer settles on its own hemispherical shell around a point under the
+// middle of the building, glass outermost, 32 m apart. Shell radius = SHELL +
+// SPREAD per metre the fragment stood from that point, so a shell has some
+// depth and the building's plan is still legible on it.
+const SHELL = { floors: 0, walls: 80, ceilings: 112, frames: 144, glass: 176 };
 const CORE_PUSH = 1.5;
 const CORE_SPREAD = 0.08;
 const SPREAD = 0.15;
@@ -35,10 +39,10 @@ attribute vec4 _piece;
 uniform float uVert;
 uniform float uRad;
 uniform vec3 uCentre;
-uniform float uLift[6];
-uniform float uPush[6];
-uniform float uSpread[6];
-uniform float uPull[6];
+uniform float uLift[${N}];
+uniform float uPush[${N}];
+uniform float uSpread[${N}];
+uniform float uPull[${N}];
 vec3 pieceOffset(vec4 p) {
   int L = int(p.w + 0.5);
   vec3 v = vec3(0.0, uLift[L] + ${STRETCH.toFixed(3)} * max(p.y, 0.0), 0.0);
@@ -64,7 +68,7 @@ export function pieceOffset(p, li, vert, rad, target = new THREE.Vector3()) {
 }
 
 // Trails drawn per layer.
-const TRAILS = { floors: 5, walls: 7, ceilings: 5, frames: 6, glass: 6, fittings: 3 };
+const TRAILS = { floors: 5, walls: 7, ceilings: 6, frames: 6, glass: 6 };
 
 // k fragments far apart from each other, larger ones first (farthest-point
 // sampling weighted by size).
@@ -104,12 +108,10 @@ export class MaterialExplode {
     this.hidden = new Set();
     this.glass = [];
     this.right = new THREE.Vector3(1, 0, 0);
-    // shadows follow the parts: same offset in the depth pass
-    this.depthMaterial = new THREE.MeshDepthMaterial({ depthPacking: THREE.RGBADepthPacking });
-    this.depthMaterial.onBeforeCompile = (shader) => this.inject(shader);
-    this.depthMaterial.customProgramCacheKey = () => 'mudam-explode-depth';
+    this.hook = (shader) => this.inject(shader);
   }
 
+  // Building calls this for each of its materials (colour and depth passes).
   inject(shader) {
     Object.assign(shader.uniforms, this.uniforms);
     shader.vertexShader = shader.vertexShader
@@ -117,14 +119,11 @@ export class MaterialExplode {
       .replace('#include <begin_vertex>', '#include <begin_vertex>\n// _piece and its offset are in world space; a joined mesh may keep a\n// rotated or mirrored node transform\ntransformed += inverse(mat3(modelMatrix)) * pieceOffset(_piece);');
   }
 
-  // Patch the visible building's materials and meshes (band 0).
+  // Register a band's meshes by layer (to hide a layer) and its glass.
   attach(root) {
     const seen = new Set();
     root.traverse((o) => {
       if (!o.isMesh || !o.geometry.attributes._piece) return;
-      o.customDepthMaterial = this.depthMaterial;
-      // explosion leaves the bounding volumes behind
-      o.frustumCulled = false;
       const layer = findLayer(o);
       if (layer) (this.layerGroups[layer] ??= []).push(o);
       if (layer && this.hidden.has(layer)) o.visible = false;
@@ -133,10 +132,6 @@ export class MaterialExplode {
       seen.add(m);
       // taken apart, the panes need a little more body to be read
       if (m.userData.glass) this.glass.push({ m, base: m.opacity });
-      const prev = m.onBeforeCompile;
-      m.onBeforeCompile = (shader, renderer) => { prev?.call(m, shader, renderer); this.inject(shader); };
-      m.customProgramCacheKey = () => 'mudam-explode';
-      m.needsUpdate = true;
     });
   }
 
@@ -171,7 +166,7 @@ export class MaterialExplode {
       vertexShader: /* glsl */`${GLSL}
         attribute float aEnd;
         attribute vec3 color;
-        uniform float uHidden[6];
+        uniform float uHidden[${N}];
         varying float vDist;
         varying vec3 vColour;
         varying float vHide;
@@ -269,14 +264,14 @@ export class MaterialExplode {
     const vert = this.uniforms.uVert.value, rad = this.uniforms.uRad.value;
     const base = a.centre.clone();
     const v = base.clone().addScaledVector(this.right, 48);
-    v.y = base.y + LIFT[l] + STRETCH * Math.max(base.y, 0) + (l === 'fittings' ? -9 : 5);
+    v.y = base.y + LIFT[l] + STRETCH * Math.max(base.y, 0) + 5;
     let r;
     if (isShell(l)) {
       const R = shellRadius(l), e = THREE.MathUtils.degToRad(50);
       r = CENTRE.clone().addScaledVector(this.right, Math.cos(e) * R).add(new THREE.Vector3(0, Math.sin(e) * R, 0));
     } else {
-      r = base.clone().add(pieceOffset(base, li, 0, 1)).addScaledVector(this.right, l === 'fittings' ? 34 : 50);
-      r.y += l === 'fittings' ? -10 : 12;
+      r = base.clone().add(pieceOffset(base, li, 0, 1)).addScaledVector(this.right, 50);
+      r.y += 12;
     }
     return base.multiplyScalar(1 - vert - rad).addScaledVector(v, vert).addScaledVector(r, rad);
   }
