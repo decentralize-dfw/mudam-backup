@@ -9,7 +9,7 @@ import { BUILDING_HOTSPOTS } from './building.js';
 import { SURROUNDING_HOTSPOTS } from './surroundings.js';
 import { EXHIBITIONS, OTHER_ROOMS } from './exhibitions.js';
 
-const FIELDS = ['subtitle', 'dates', 'place', 'credits', 'intro'];
+const FIELDS = ['subtitle', 'dates', 'place', 'credits', 'intro', 'next'];
 
 for (const [lang, pack] of Object.entries({ fr, de, lb })) {
   for (const h of BUILDING_HOTSPOTS) if (pack.building?.[h.id]) h[lang] = pack.building[h.id];

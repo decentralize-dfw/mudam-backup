@@ -207,26 +207,35 @@ export class Building {
     this.bands.forEach((b, k) => { b.s = { lo: BOTTOM, hi: k === 0 ? h : TOP, dy: 0 }; b.group.visible = k === 0; });
   }
 
+  // The bands as they stand, a hidden band as an empty one at its seam (the
+  // roof hidden over the exhibitions comes back from there, not from 116 m).
+  layout() {
+    return this.bands.map((b, k) => (b.group.visible ? { ...b.s } : { lo: PARTITION[k].lo, hi: PARTITION[k].lo, dy: 0 }));
+  }
+
   // Animate from the current layout to `state`. Returns when it settles.
   async setState(state, tweens, ms = 900) {
     const wasExplode = this.state === 'explode';
-    const h0 = wasExplode ? TOP : this.bands[0].s.hi;
+    // what is on screen decides where the motion starts, not the state asked
+    // last: a click can cut a transition short with the storeys still apart
+    const split = wasExplode || this.bands.some((b, k) => b.s.dy !== 0 || (k > 0 && b.group.visible));
+    const h0 = split ? TOP : this.bands[0].s.hi;
     this.state = state;
     this.moving = true;
     if (state === 'explode' && !wasExplode) {
       // the building as four bands that meet (unchanged on screen), then each
       // storey lifts and narrows to its open plan
-      const from = clamped(h0), to = EXPLODE;
+      const from = split ? this.layout() : clamped(h0), to = EXPLODE;
       this.bands.forEach((b, k) => { b.s = { ...from[k] }; b.group.visible = true; });
       this.apply();
       await tweens.run('building', ms * 1.4, (t) => {
         this.bands.forEach((b, k) => { for (const f of ['lo', 'hi', 'dy']) b.s[f] = lerp(from[k][f], to[k][f], t); });
         this.apply();
       });
-    } else if (wasExplode && state !== 'explode') {
+    } else if (split && state !== 'explode') {
       // storeys settle and close up into the whole building (or its cut)
-      const from = this.bands.map((b) => ({ ...b.s })), to = clamped(this.cutOf(state));
-      this.bands.forEach((b) => { b.group.visible = true; });
+      const from = this.layout(), to = clamped(this.cutOf(state));
+      this.bands.forEach((b, k) => { b.s = { ...from[k] }; b.group.visible = true; });
       await tweens.run('building', ms * 1.2, (t) => {
         this.bands.forEach((b, k) => { for (const f of ['lo', 'hi', 'dy']) b.s[f] = lerp(from[k][f], to[k][f], t); });
         this.apply();
@@ -261,14 +270,15 @@ export class Building {
     // a cap shows on whichever visible band currently ends at that floor's cut
     for (const [f, cap] of Object.entries(this.caps)) {
       const band = this.bands.find((b) => b.group.visible && Math.abs(b.s.hi - cap.y) < 0.02);
-      cap.group.visible = Boolean(band) && !this.moving;
+      // held: parts of the building are still away (material layers)
+      cap.group.visible = Boolean(band) && !this.moving && !this.held?.();
       if (band) cap.group.position.y = cap.y + band.s.dy + 0.003;
     }
     for (const f of FLOORS) {
       const g = this.floorGroups[f];
       const explode = this.state === 'explode';
       // walking inside, every storey's works are there
-      g.visible = explode || this.state === f || this.visitFloor === f || this.walking;
+      g.visible = (explode || this.state === f || this.visitFloor === f || this.walking) && !this.held?.();
       g.position.y = explode ? this.bands[FLOOR_BAND[f]].s.dy : 0;
     }
     this.renderer.shadowMap.needsUpdate = true;

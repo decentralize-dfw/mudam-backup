@@ -95,7 +95,8 @@ export class Markers {
   }
 
   // Layer names: no two pills on top of each other (pushed apart down the
-  // screen), and a pill that would run off the right edge opens to the left.
+  // screen), and a pill that would run off the right edge or under a panel
+  // (`avoid`: screen rectangles) opens to the left.
   placeLabels(labels, width) {
     labels.sort((a, b) => a.sy - b.sy);
     const gap = labels[0]?.kind === 'roomtag' ? 26 : 30;
@@ -105,7 +106,9 @@ export class Markers {
         const o = labels[j];
         if (Math.abs(o.sx - it.sx) < Math.max(o.w, it.w) && it.sy - o.sy < gap) it.sy = o.sy + gap;
       }
-      const flip = it.sx + it.w > width - 12;
+      if (!it.h) it.h = it.el.offsetHeight;
+      const under = (this.avoid ?? []).some((r) => it.sx + it.w > r.left && it.sx < r.right && it.sy + it.h > r.top && it.sy - it.h < r.bottom);
+      const flip = it.sx + it.w > width - 12 || under;
       it.el.classList.toggle('flip', flip);
       it.el.style.transform = `translate3d(${it.sx.toFixed(1)}px, ${it.sy.toFixed(1)}px, 0)${flip ? ' translateX(calc(30px - 100%))' : ''}`;
     });

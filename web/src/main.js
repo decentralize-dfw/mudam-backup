@@ -83,9 +83,14 @@ class App {
     this.mx.wire = this.wire.uWire;
     this.stage.onDaylight = () => { if (this.wire.amount > 0) this.wire.apply(); };
     for (const b of this.stage.building.sources[1]) this.mx.attach(b.group);
+    // while layers are away (or flying back), caps, works, pins and arrows
+    // wait: the material offset counts as motion
+    this.stage.building.held = () => (this.mx?.amount ?? 0) > 1e-3;
     this.mx.onChange = () => {
       this.stage.dirty = true;
       this.stage.renderer.shadowMap.needsUpdate = true;
+      const held = this.stage.building.held();
+      if (held !== this.mxHeld) { this.mxHeld = held; this.applyVisibility(); }
     };
     try {
       const pieces = await fetch(`${BASE}data/pieces.json`).then((r) => r.json());
@@ -96,7 +101,8 @@ class App {
     this.stage.daylight.set(this.s.hour, this.s.day);
     this.stage.rig.setPose(this.poseOf(HOME.building));
     this.stage.start();
-    addEventListener('resize', () => this.updateInsets());
+    addEventListener('resize', () => { this.updateInsets(); this.panelRects(); });
+    this.panelRects();
     this.stage.frameHooks.add((now) => this.frame(now));
     this.app.dataset.ready = 'true';
     document.title = t('docTitle');
@@ -463,7 +469,15 @@ class App {
     $('#hour').addEventListener('input', (e) => this.setHour(+e.target.value));
     $('#day').addEventListener('change', (e) => { this.s.day = +e.target.value; this.stage.daylight.set(this.s.hour, this.s.day); });
     $('#toggle-lights').addEventListener('click', () => { this.s.lightsAuto = false; this.setLights(!this.s.lights); });
-    $$('.lang-flag').forEach((b) => b.addEventListener('click', () => { i18n.set(b.dataset.lang); this.applyLanguage(); this.rerender(); }));
+    $$('.lang-flag').forEach((b) => b.addEventListener('click', () => {
+      i18n.set(b.dataset.lang);
+      // a ?lang= in the address follows the choice (it would win on reload)
+      const url = new URL(location.href);
+      if (url.searchParams.has('lang')) { url.searchParams.set('lang', i18n.lang); history.replaceState(null, '', url); }
+      this.applyLanguage();
+      // on the welcome screen nothing else is drawn yet
+      if (this.app.dataset.ready === 'true') this.rerender();
+    }));
     $('#open-about').addEventListener('click', () => { $('#about').hidden = !$('#about').hidden; });
     $$('[data-close="about"]').forEach((b) => b.addEventListener('click', () => { $('#about').hidden = true; }));
     $('#lightbox-close').addEventListener('click', () => { $('#lightbox').hidden = true; });
@@ -496,15 +510,15 @@ class App {
     $$('[data-i18n-title]').forEach((n) => n.setAttribute('title', t(n.dataset.i18nTitle)));
     $$('.lang-flag').forEach((b) => b.setAttribute('aria-pressed', String(b.dataset.lang === i18n.lang)));
     $('#about-body').innerHTML = t('aboutBody').map((p) => `<p>${esc(p)}</p>`).join('') + this.sourcesHtml();
-    if (this.data) document.title = t('docTitle');
+    document.title = t('docTitle');
   }
 
   sourcesHtml() {
     return `<h3 class="kicker">${esc(t('sources'))}</h3><ul>
-      <li>mudam.com — architecture, visit, exhibitions (Kaihō, Christine Sun Kim: FOR EVER, Video Killed the Radio Star)</li>
+      <li>mudam.com — ${esc(t('srcMudam'))} (Kaihō, Christine Sun Kim: FOR EVER, Video Killed the Radio Star)</li>
       <li>WikiArquitectura, ArchEyes (MUDAM, I. M. Pei / Pei Cobb Freed &amp; Partners)</li>
       <li>Great Gardens of the World — Michel Desvigne, Dräi Eechelen Park</li>
-      <li>OpenStreetMap contributors (ODbL)</li></ul>`;
+      <li>${esc(t('srcOsm'))} (ODbL)</li></ul>`;
   }
 
   rerender() {
@@ -562,6 +576,7 @@ class App {
     // the layers return while the storeys move: one motion, no wait
     if (this.s.mat !== 'off' && !this.s.visit) this.setMaterials('off', { fly: false });
     if (this.s.visit) await this.leaveVisit(false);
+    if (this.s.hotspot) { this.s.hotspot = null; this.closeCard(true); }
     this.s.floor = floor;
     this.s.explode = false;
     if (floor === 'all' && this.s.plan) { this.s.plan = false; this.stage.rig.setPlan(false); }
@@ -582,6 +597,8 @@ class App {
     // the layers return while the storeys move: one motion, no wait
     if (this.s.mat !== 'off' && !this.s.visit) this.setMaterials('off', { fly: false });
     if (this.s.visit) await this.leaveVisit(false);
+    // a hotspot's card belongs to its own view
+    if (this.s.hotspot) { this.s.hotspot = null; this.closeCard(true); }
     this.s.explode = on;
     if (on) { this.s.plan = false; this.stage.rig.setPlan(false); this.s.floor = 'all'; }
     this.syncControls();
@@ -723,12 +740,12 @@ class App {
     // neighbours stay out of the way of close building views
     st.context.setMassing(this.s.mode === 'surroundings' || exploded ? 1 : cut || this.s.hotspot ? 0.0 : 0.85);
     if (st.context.ground) st.context.ground.visible = true;
-    const showRooms = !this.s.visit && (this.s.mode === 'exhibitions' || this.s.plan) && cut;
+    const showRooms = !this.s.visit && (this.s.mode === 'exhibitions' || this.s.plan) && cut && !this.stage.building.held?.();
     const ex = EXHIBITIONS.find((e) => e.id === this.s.exhibition);
     st.rooms.selected = this.s.room;
     st.rooms.refresh({ show: showRooms, exhibitionRooms: ex ? new Set(ex.rooms.map((r) => r.id)) : (this.s.mode === 'exhibitions' ? new Set(this.exhibitionOfRoom.keys()) : null) });
     st.artworks.setPlanMarkers(this.s.plan && !this.s.visit);
-    st.arrows.setVisible(this.s.explode && !this.s.visit && this.s.mode !== 'surroundings');
+    this.showArrows();
     st.building.visitFloor = this.s.visit ? this.roomsById.get(this.s.room)?.floor : null;
     st.building.roofVisible = this.s.mode !== 'exhibitions';
     st.building.apply();
@@ -738,6 +755,10 @@ class App {
     st.renderer.toneMappingExposure = this.s.visit ? 0.8 : this.s.walk ? 0.9 : 1.0;
     if (this.wire?.amount > 0) this.wire.apply();
     st.dirty = true;
+  }
+
+  showArrows() {
+    this.stage.arrows.setVisible(this.s.explode && !this.s.visit && !this.s.walk && this.s.mode !== 'surroundings' && !this.stage.building.held?.());
   }
 
   // ------------------------------------------------------------- markers
@@ -778,7 +799,7 @@ class App {
         const item = m.add({
           id: `room:${r.id}`, kind: 'roomtag', position: this.stage.arrows.tip(r), label: r.label, lang: 'fr',
           lift: () => this.stage.building.lift(r.floor),
-          visible: () => this.s.explode && this.s.mat === 'off' && this.stage.building.state === 'explode' && !this.stage.building.moving,
+          visible: () => this.s.explode && this.s.mat === 'off' && this.stage.building.state === 'explode' && !this.stage.building.moving && !this.stage.building.held(),
           onClick: () => this.openRoom(r.id),
         });
         if (this.s.mode === 'exhibitions') {
@@ -819,12 +840,12 @@ class App {
   roomMarkerVisible(r) {
     if (this.s.visit) return false;
     if (this.s.explode) return this.s.mode === 'exhibitions';
-    return this.s.floor === r.floor && !this.stage.building.moving;
+    return this.s.floor === r.floor && !this.stage.building.moving && !this.stage.building.held();
   }
 
   hotspotVisible(h) {
     // pins wait until the parts are back in place
-    if (this.s.mat !== 'off' || (this.mx?.amount ?? 0) > 1e-3) return false;
+    if (this.s.mat !== 'off' || (this.mx?.amount ?? 0) > 1e-3 || this.stage.building.moving) return false;
     const st = this.stage.building.state;
     if (st === 'explode') return false;
     if (st === 'all') return (h.view.state ?? 'all') === 'all' || h.at[1] < 16;
@@ -1159,6 +1180,12 @@ class App {
     this.app.dataset.card = 'true';
     $$('[data-step]', $('#card-body')).forEach((b) => b.addEventListener('click', () => this.step(+b.dataset.step)));
     this.updateInsets();
+  }
+
+  // Screen rectangles that labels on the scene keep clear of.
+  panelRects() {
+    const r = $('.light-panel').getBoundingClientRect();
+    this.stage.markers.avoid = r.width ? [{ left: r.left - 6, right: r.right, top: r.top - 6, bottom: r.bottom }] : [];
   }
 
   // Panels cover part of the canvas; the camera frames what remains.

@@ -225,10 +225,21 @@ button:focus-visible, select:focus-visible, input:focus-visible, a:focus-visible
 #app[data-wire='on'] .marker-layername span, #app[data-wire='on'] .marker-roomtag span { background: rgba(0, 0, 0, 0.4); color: #f2f2ef; }
 #app[data-wire='on'] .hint { color: #cfd6d3; background: rgba(0, 0, 0, 0.35); }
 
-/* the dock reaches the light panel below ~1280 px: lift the panel above it */
-@media (min-width: 761px) and (max-width: 1280px) {
+/* the dock reaches the light panel below ~1460 px (the French dock is the
+   widest): lift the panel above it */
+@media (min-width: 761px) and (max-width: 1460px) {
   .light-panel { bottom: calc(max(var(--gap), env(safe-area-inset-bottom)) + 62px); }
 }
+/* between the panels the hint wraps upward instead of running under them */
+@media (min-width: 761px) and (max-width: 1280px) {
+  .hint { white-space: normal; text-align: center; border-radius: 12px; max-width: calc(100vw - 2 * (318px + 2 * var(--gap))); }
+}
+@media (min-width: 761px) and (max-width: 960px) {
+  .hint { display: none; }
+}
+/* the language can be chosen on the welcome screen too */
+#app[data-booting='true'] .topbar { z-index: 90; }
+#app[data-booting='true'] #open-about { visibility: hidden; }
 
 /* ------------------------------------------------------------- mobile */
 @media (max-width: 760px) {

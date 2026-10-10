@@ -18,6 +18,7 @@ const source = {
   surroundings: byId(SURROUNDING_HOTSPOTS),
   exhibitions: Object.fromEntries(EXHIBITIONS.map((ex) => [ex.id, {
     subtitle: ex.subtitle.en, dates: ex.dates.en, place: ex.place.en, credits: ex.credits.en, intro: ex.intro.en,
+    ...(ex.next ? { next: ex.next.en } : {}),
     rooms: Object.fromEntries(ex.rooms.map((r) => [r.id, r.en])),
   }])),
   other: Object.fromEntries(Object.entries(OTHER_ROOMS).map(([id, r]) => [id, r.en])),
