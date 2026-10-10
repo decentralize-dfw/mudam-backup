@@ -1,0 +1,25 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R121_ZEMIN_KAT_DOSEME_YUZEYLERI_v003.blend",
+  "summaries": [
+    {
+      "phase": "before",
+      "samples": 47667,
+      "coverage_counts": {
+        "1": 46098,
+        "2": 1569
+      },
+      "duplicate_samples": 1569
+    },
+    {
+      "phase": "after",
+      "samples": 47667,
+      "coverage_counts": {
+        "1": 47667
+      },
+      "duplicate_samples": 0
+    }
+  ],
+  "failures": [],
+  "construction_acceptance": false,
+  "scope": "Original changed floor footprints sampled at 0.25m spacing; preserve coverage with one finished surface."
+}

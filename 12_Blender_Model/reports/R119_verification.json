@@ -1,0 +1,26 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R119_GALERI_ESIK_YUZEYLERI_v002.blend",
+  "summaries": [
+    {
+      "phase": "before",
+      "samples": 1364,
+      "coverage_counts": {
+        "2": 446,
+        "3": 270,
+        "1": 648
+      },
+      "duplicate_samples": 716
+    },
+    {
+      "phase": "after",
+      "samples": 1364,
+      "coverage_counts": {
+        "1": 1364
+      },
+      "duplicate_samples": 0
+    }
+  ],
+  "failures": [],
+  "construction_acceptance": false,
+  "scope": "Original changed floor footprints sampled at 0.12m spacing; preserve coverage with one finished surface."
+}

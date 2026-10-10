@@ -1,0 +1,58 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R123_CATI_YINELENEN_PROFILLER_v001.blend",
+  "base_scene": "MUDAM_R122_UST_ORTU_YUZEY_BIRLESIM_v001.blend",
+  "closed_objects": [],
+  "changed_inherited_objects": [
+    "P10_MAIN_ROOF_FACE_4_GRID_0039",
+    "P10_MAIN_ROOF_FACE_4_GRID_0042"
+  ],
+  "duplicate_pairs": [
+    {
+      "removed": "P10_MAIN_ROOF_FACE_4_GRID_0039",
+      "retained": "P10_MAIN_ROOF_FACE_4_GRID_0025",
+      "bounds": [
+        [
+          10.296402931213379,
+          11.297072410583496
+        ],
+        [
+          17.228181838989258,
+          18.29212188720703
+        ],
+        [
+          21.16948890686035,
+          21.297138214111328
+        ]
+      ],
+      "evaluated_faces_and_materials_identical_at_0_1mm_rounding": true
+    },
+    {
+      "removed": "P10_MAIN_ROOF_FACE_4_GRID_0042",
+      "retained": "P10_MAIN_ROOF_FACE_4_GRID_0036",
+      "bounds": [
+        [
+          9.86257553100586,
+          11.299257278442383
+        ],
+        [
+          15.969045639038086,
+          17.3114070892334
+        ],
+        [
+          21.187225341796875,
+          22.47859764099121
+        ]
+      ],
+      "evaluated_faces_and_materials_identical_at_0_1mm_rounding": true
+    }
+  ],
+  "source_ids": [
+    "P10",
+    "R93"
+  ],
+  "construction_acceptance": false,
+  "visual_acceptance": true,
+  "limits": [
+    "No new geometry or architectural dimensions. Two exact duplicates removed from display; retained profiles unchanged."
+  ]
+}

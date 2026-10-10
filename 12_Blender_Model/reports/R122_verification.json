@@ -1,0 +1,25 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R122_UST_ORTU_YUZEY_BIRLESIM_v001.blend",
+  "summaries": [
+    {
+      "phase": "before",
+      "samples": 7178,
+      "coverage_counts": {
+        "1": 7026,
+        "2": 152
+      },
+      "duplicate_samples": 152
+    },
+    {
+      "phase": "after",
+      "samples": 7178,
+      "coverage_counts": {
+        "1": 7178
+      },
+      "duplicate_samples": 0
+    }
+  ],
+  "failures": [],
+  "construction_acceptance": false,
+  "scope": "Original ceiling footprints sampled at 0.25m spacing; preserve coverage with one finished surface."
+}

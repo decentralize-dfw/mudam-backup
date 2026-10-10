@@ -1,0 +1,19 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R119_GALERI_ESIK_YUZEYLERI_v002.blend",
+  "reviewed_images": [
+    {
+      "path": "12_Blender_Model/renders/qa/R119_after_SS4_5_petite.png",
+      "sha256": "1ef02c898131d2b86f718bebe88623b478d99d1dca78f1203922cb940a8e729c"
+    },
+    {
+      "path": "12_Blender_Model/renders/qa/R119_after_SS6_bridge.png",
+      "sha256": "59dff9bfade84e5a7859b8313c40fcd90fe77678bda73e4aff91eec8081b5603"
+    },
+    {
+      "path": "12_Blender_Model/renders/qa/R119_before_SS4_5_petite.png",
+      "sha256": "c1e6bd4cfa426193dbf3a2cbe787c9fc104afe56e17c9a62953f993858deda6d"
+    }
+  ],
+  "failures": [],
+  "scope": "Local gallery threshold/return floor before-after; existing openings preserved."
+}

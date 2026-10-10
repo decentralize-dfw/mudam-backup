@@ -1,0 +1,25 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R120_ALT_KAT_DOSEME_BIRLESIM_v001.blend",
+  "summaries": [
+    {
+      "phase": "before",
+      "samples": 15436,
+      "coverage_counts": {
+        "1": 15130,
+        "2": 306
+      },
+      "duplicate_samples": 306
+    },
+    {
+      "phase": "after",
+      "samples": 15436,
+      "coverage_counts": {
+        "1": 15436
+      },
+      "duplicate_samples": 0
+    }
+  ],
+  "failures": [],
+  "construction_acceptance": false,
+  "scope": "Original changed floor footprints sampled at 0.12m spacing; preserve coverage with one finished surface."
+}

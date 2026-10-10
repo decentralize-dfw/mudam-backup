@@ -1,0 +1,35 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R118_KOPRU_ESIK_CAKISMA_v001.blend",
+  "base_scene": "MUDAM_R117_CEPHE_KOSE_KOPRU_BIRLESIM_v004.blend",
+  "closed_objects": [],
+  "changed_inherited_objects": [
+    "R117_E_BRIDGE_FLOOR_JOIN",
+    "R117_W_BRIDGE_FLOOR_JOIN"
+  ],
+  "operations": [
+    {
+      "name": "R117_E_BRIDGE_FLOOR_JOIN",
+      "threshold": "R23_THRESHOLD_E_BRIDGE",
+      "before_volume": 0.8643575514728048,
+      "after_volume": 0.246743972700588,
+      "removed_overlap_volume": 0.6176135787722168
+    },
+    {
+      "name": "R117_W_BRIDGE_FLOOR_JOIN",
+      "threshold": "R23_THRESHOLD_W_BRIDGE",
+      "before_volume": 0.6386207095243632,
+      "after_volume": 0.18811262248858585,
+      "removed_overlap_volume": 0.4505080870357774
+    }
+  ],
+  "source_ids": [
+    "103",
+    "R23",
+    "R117"
+  ],
+  "construction_acceptance": false,
+  "visual_acceptance": true,
+  "limits": [
+    "No new architectural dimensions; removes duplicate floor volume from R117 connector around existing source103 threshold."
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R120_ALT_KAT_DOSEME_BIRLESIM_v001.blend",
+  "base_scene": "MUDAM_R119_GALERI_ESIK_YUZEYLERI_v002.blend",
+  "closed_objects": [],
+  "changed_inherited_objects": [
+    "R19_ENTRY_FLOOR_L",
+    "R19_ENTRY_FLOOR_R",
+    "R19_ROOM_FLOOR"
+  ],
+  "operations": [
+    {
+      "name": "R19_ENTRY_FLOOR_L",
+      "against": "R29_FOYER_FLOOR",
+      "before_volume": 0.3051050492595214,
+      "after_volume": 0.0,
+      "removed_overlap_volume": 0.3051050492595214
+    },
+    {
+      "name": "R19_ENTRY_FLOOR_R",
+      "against": "R29_FOYER_FLOOR",
+      "before_volume": 0.30510470666394585,
+      "after_volume": 4.817587939687229e-09,
+      "removed_overlap_volume": 0.3051047018463579
+    },
+    {
+      "name": "R19_ROOM_FLOOR",
+      "against": "R29_FOYER_FLOOR",
+      "before_volume": 43.83802317114423,
+      "after_volume": 43.577991339869214,
+      "removed_overlap_volume": 0.2600318312750147
+    }
+  ],
+  "checked_pairs": [
+    [
+      "R19_ENTRY_FLOOR_L",
+      "R29_FOYER_FLOOR"
+    ],
+    [
+      "R19_ENTRY_FLOOR_R",
+      "R29_FOYER_FLOOR"
+    ],
+    [
+      "R19_ROOM_FLOOR",
+      "R29_FOYER_FLOOR"
+    ],
+    [
+      "R29_E_FLOOR",
+      "R29_FOYER_FLOOR"
+    ],
+    [
+      "R29_W_FLOOR",
+      "R29_FOYER_FLOOR"
+    ]
+  ],
+  "source_ids": [
+    "104",
+    "R19",
+    "R29"
+  ],
+  "construction_acceptance": false,
+  "visual_acceptance": true,
+  "limits": [
+    "Existing registered gallery floors and thresholds retained; only duplicate coverage removed. No new measured dimensions."
+  ]
+}

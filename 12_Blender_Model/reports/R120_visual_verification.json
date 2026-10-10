@@ -1,0 +1,15 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R120_ALT_KAT_DOSEME_BIRLESIM_v001.blend",
+  "reviewed_images": [
+    {
+      "path": "12_Blender_Model/renders/qa/R120_after_SS8_lower.png",
+      "sha256": "cecbbb37697e1502b4cdc4f7a49a06340baec4891f09e665723799a05e7d8280"
+    },
+    {
+      "path": "12_Blender_Model/renders/qa/R120_before_SS8_lower.png",
+      "sha256": "f3fcfa0e19173e7cb8390c8bc99312659afd0334e846e4202a57ed7a8bae44db"
+    }
+  ],
+  "failures": [],
+  "scope": "Auditorium entry and foyer floor before-after coverage."
+}

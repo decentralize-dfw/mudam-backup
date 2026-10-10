@@ -1,0 +1,22 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R123_CATI_YINELENEN_PROFILLER_v001.blend",
+  "pairs": [
+    {
+      "removed": "P10_MAIN_ROOF_FACE_4_GRID_0039",
+      "retained": "P10_MAIN_ROOF_FACE_4_GRID_0025",
+      "max_vertex_distance_m": 2.6973983046972182e-06,
+      "retained_faces": 6,
+      "ok": true
+    },
+    {
+      "removed": "P10_MAIN_ROOF_FACE_4_GRID_0042",
+      "retained": "P10_MAIN_ROOF_FACE_4_GRID_0036",
+      "max_vertex_distance_m": 9.5367431640625e-07,
+      "retained_faces": 6,
+      "ok": true
+    }
+  ],
+  "failures": [],
+  "construction_acceptance": false,
+  "scope": "Coincident evaluated faces/materials checked before save, visibility and retained profile coverage checked after reopening."
+}

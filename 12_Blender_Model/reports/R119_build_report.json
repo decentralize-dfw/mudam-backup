@@ -1,0 +1,95 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R119_GALERI_ESIK_YUZEYLERI_v002.blend",
+  "base_scene": "MUDAM_R118_KOPRU_ESIK_CAKISMA_v001.blend",
+  "closed_objects": [],
+  "changed_inherited_objects": [
+    "R23_THRESHOLD_E_BRIDGE",
+    "R23_THRESHOLD_E_STAIR",
+    "R23_THRESHOLD_W_BRIDGE",
+    "R23_THRESHOLD_W_STAIR",
+    "R23_WEST_RETURN_FLOOR_1"
+  ],
+  "operations": [
+    {
+      "name": "R23_THRESHOLD_E_STAIR",
+      "against": "P05_FLOOR_LP1_E0",
+      "before_volume": 0.7389869936476359,
+      "after_volume": 0.3043149781849146,
+      "removed_overlap_volume": 0.4346720154627213
+    },
+    {
+      "name": "R23_THRESHOLD_E_BRIDGE",
+      "against": "P05_FLOOR_LP1_E0",
+      "before_volume": 0.8395060229694493,
+      "after_volume": 0.7300046481937152,
+      "removed_overlap_volume": 0.10950137477573407
+    },
+    {
+      "name": "R23_THRESHOLD_W_STAIR",
+      "against": "P05_FLOOR_LP1_W0",
+      "before_volume": 0.6224661941940941,
+      "after_volume": 0.5412752685355482,
+      "removed_overlap_volume": 0.08119092565854591
+    },
+    {
+      "name": "R23_THRESHOLD_W_BRIDGE",
+      "against": "P05_FLOOR_LP1_W0",
+      "before_volume": 0.8395054999174696,
+      "after_volume": 0.7300049727944202,
+      "removed_overlap_volume": 0.10950052712304936
+    },
+    {
+      "name": "R23_WEST_RETURN_FLOOR_1",
+      "against": "R23_WEST_RETURN_FLOOR_0",
+      "before_volume": 0.8815580669274659,
+      "after_volume": 6.249306734318338e-07,
+      "removed_overlap_volume": 0.8815574419967924
+    },
+    {
+      "name": "R23_THRESHOLD_W_STAIR",
+      "against": "R23_WEST_RETURN_FLOOR_0",
+      "before_volume": 0.5412752685355482,
+      "after_volume": 0.09696116043483238,
+      "removed_overlap_volume": 0.4443141081007158
+    }
+  ],
+  "checked_pairs": [
+    [
+      "R23_THRESHOLD_E_STAIR",
+      "P05_FLOOR_LP1_E0"
+    ],
+    [
+      "R23_THRESHOLD_E_BRIDGE",
+      "P05_FLOOR_LP1_E0"
+    ],
+    [
+      "R23_THRESHOLD_W_STAIR",
+      "P05_FLOOR_LP1_W0"
+    ],
+    [
+      "R23_THRESHOLD_W_BRIDGE",
+      "P05_FLOOR_LP1_W0"
+    ],
+    [
+      "R23_WEST_RETURN_FLOOR_1",
+      "R23_WEST_RETURN_FLOOR_0"
+    ],
+    [
+      "R23_THRESHOLD_W_STAIR",
+      "R23_WEST_RETURN_FLOOR_0"
+    ],
+    [
+      "R23_THRESHOLD_W_STAIR",
+      "R23_WEST_RETURN_FLOOR_1"
+    ]
+  ],
+  "source_ids": [
+    "103",
+    "R23"
+  ],
+  "construction_acceptance": false,
+  "visual_acceptance": true,
+  "limits": [
+    "Existing registered gallery floors and thresholds retained; only duplicate coverage removed. No new measured dimensions."
+  ]
+}

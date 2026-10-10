@@ -1,0 +1,19 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R120_ALT_KAT_DOSEME_BIRLESIM_v001.blend",
+  "base_scene": "12_Blender_Model/scenes/MUDAM_R119_GALERI_ESIK_YUZEYLERI_v002.blend",
+  "inherited_objects_checked": 9350,
+  "changed_inherited_objects": [
+    "R19_ROOM_FLOOR",
+    "R19_ENTRY_FLOOR_L",
+    "R19_ENTRY_FLOOR_R"
+  ],
+  "allowed_changes": [
+    "R19_ENTRY_FLOOR_L",
+    "R19_ENTRY_FLOOR_R",
+    "R19_ROOM_FLOOR"
+  ],
+  "allowed_but_unchanged": [],
+  "new_objects": [],
+  "failures": [],
+  "construction_acceptance": false
+}

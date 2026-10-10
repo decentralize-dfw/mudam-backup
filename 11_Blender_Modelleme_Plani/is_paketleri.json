@@ -215,13 +215,18 @@
         "Bütün bina ve kullanıcının tüm ekran görüntüleri henüz kabul edilmedi. Duvar kalınlığı mevcut kaynak konturları arasında uzlaştırılmış adaydır; kotlar ölçülmüş değildir. Öncelik kalan büyük kabuk sorunlarıdır.",
         "Elemanın varlığı fotoğrafta görülüyor; yerleşimi mevcut merdiven üst kiriş hattına hizalı adaydır. 0,28 m kalınlık ve mevcut kol genişliği ölçülmüş değildir. Plan 104 bu ayrıntıyı göstermiyor. Bu paket yalnız bir temsilî mimari elemandır; bütün bina veya taşıyıcı sistem kabulü değildir. Büyük kabuk sorunları ve açık üretim işleri önceliğini korur.",
         "Bina bütünü ve bütün ölçüler kabul edilmiş değildir. Alt cephe ilk pencere/köşe kayıt uyumu ve ölçülmemiş kalınlıklar açıktır; kapı temsilleri ürün doğrulaması değildir.",
-        "Fotoğraf 004/116 ve plan 103 esas alındı. Pencere dizisinin 2,459 m kaydırılması mevcut model köşesine göre türetilmiştir; 0,12 m kenar payı ve diğer miras boyutları ölçülü rölöve değildir. Bütün bina kabulü ve kalan üretim işleri açıktır."
+        "Fotoğraf 004/116 ve plan 103 esas alındı. Pencere dizisinin 2,459 m kaydırılması mevcut model köşesine göre türetilmiştir; 0,12 m kenar payı ve diğer miras boyutları ölçülü rölöve değildir. Bütün bina kabulü ve kalan üretim işleri açıktır.",
+        "R117 bağlantılarına ait düzeltmedir; 62 önceki çift yüzey örneği giderildi, 78 son örnekte tek zemin yüzeyi var. Yeni mimari ölçü eklenmedi. Bütün bina kabulü değildir.",
+        "1.364 yerel örneğin 716sında önce çift/üçlü yüzey vardı; sonra tüm örneklerde tek yüzey var. Beş mevcut nesne değişti, yeni nesne ve ölçü eklenmedi. Bütün bina kabulü değildir.",
+        "15.436 örneğin 306sında önce çift üst yüzey vardı; sonra tüm örneklerde tek yüzey var. Üç mevcut nesne değişti, yeni nesne veya ölçü yok. Bütün bina kabulü değildir.",
+        "Altı mevcut nesne değişti; yeni nesne veya mimari ölçü yok. 47.667 konumun 1.569unda önce çift yüzey vardı; sonra tüm örneklerde tek üst yüzey var. Bütün bina kabulü değildir.",
+        "İki mevcut nesne değişti. 7.178 konumun 152sinde önce çift üst yüzey vardı; sonra tamamında tek yüzey var. Örtü kapsamı korundu; bütün bina kabulü değildir."
       ],
       "updated": "2026-10-08",
       "dependency_mode": "regional_study_only_no_global_acceptance",
       "artifacts": [
-        "12_Blender_Model/scenes/MUDAM_R117_CEPHE_KOSE_KOPRU_BIRLESIM_v004.blend",
-        "12_Blender_Model/reports/R117_KONTROL_RAPORU.md",
+        "12_Blender_Model/scenes/MUDAM_R122_UST_ORTU_YUZEY_BIRLESIM_v001.blend",
+        "12_Blender_Model/reports/R122_KONTROL_RAPORU.md",
         "12_Blender_Model/reports/R44_KONTROL_RAPORU.md",
         "12_Blender_Model/reports/R52_KONTROL_RAPORU.md",
         "12_Blender_Model/reports/R60_KONTROL_RAPORU.md",
@@ -267,7 +272,12 @@
         "12_Blender_Model/reports/R112_KONTROL_RAPORU.md",
         "12_Blender_Model/reports/R113_KONTROL_RAPORU.md",
         "12_Blender_Model/reports/R114_KONTROL_RAPORU.md",
-        "12_Blender_Model/reports/R116_KONTROL_RAPORU.md"
+        "12_Blender_Model/reports/R116_KONTROL_RAPORU.md",
+        "12_Blender_Model/reports/R117_KONTROL_RAPORU.md",
+        "12_Blender_Model/reports/R118_KONTROL_RAPORU.md",
+        "12_Blender_Model/reports/R119_KONTROL_RAPORU.md",
+        "12_Blender_Model/reports/R120_KONTROL_RAPORU.md",
+        "12_Blender_Model/reports/R121_KONTROL_RAPORU.md"
       ],
       "completed_scope": [
         "Duvar/döşeme bölgesel kabukları kapalı; merdiven nişi ve galeri camlarıyla yerel kesimler koordine edildi.",
@@ -315,7 +325,12 @@
         "Zemin katın iki galerisinde servis alanına bakan eksik uzun duvarlar kaynak plan konturunda oluşturuldu. Önceki 360 eksik yüzey örneği kapandı. Galeri ve servis geçişleri, genel geometri ve sahne farkı kontrolleri geçti; iki aynı kamera önce/sonra görüntüsü incelendi.",
         "051 ve 052 fotoğraflarında görülen alt merdiven üst sahanlığı yanındaki eksik düşey taş perde eklendi. Aynı kamera önce/sonra görüntüsü incelendi. Yeni elemanın döşeme ve tavan temasları, alt kat geçişleri, alt merdiven regresyonu ve altı merdivenin baş mesafesi kontrol edildi.",
         "Küçük odanın yanlış iç bölmeleri kaldırıldı; dış sınırı ve köprü duvarları üst örtüye bağlandı. Cephe/döşeme kesişimleri, galeri/merdiven duvar birleşimi ve alt katın açık yan hacimleri düzeltildi. Önce/sonra görüntüleri ve yeniden açılan sahne kontrolleri kaydedildi.",
-        "Cephe köşesi altındaki dönüş tamamlandı; beş pencere, girintileri ve tarihî duvar açıklıkları birlikte köşe içine taşındı. Üst köprünün iki galeriyle döşeme bağlantısı ve doğu duvar ucu üretildi."
+        "Cephe köşesi altındaki dönüş tamamlandı; beş pencere, girintileri ve tarihî duvar açıklıkları birlikte köşe içine taşındı. Üst köprünün iki galeriyle döşeme bağlantısı ve doğu duvar ucu üretildi.",
+        "İki köprü bağlantı döşemesinin mevcut galeri eşikleriyle çakışan hacimleri çıkarıldı. Yeni parçalar yalnız eksik yan şeritlerde kalıyor; eski eşik ve zemin yüzeyi korunuyor.",
+        "Üst galerilerin dört eşiğinde ve batı dönüş döşemesinde yinelenen yüzeyler ayrıldı. Tamamen diğer döşemenin içinde kalan bir dönüş parçası gizlendi; açıklıklar ve bitmiş zemin kotu korundu.",
+        "Alt fuaye ile oditoryum döşemesinin çakışan ön şeridi ayrıldı. Fuaye döşemesiyle bütünüyle örtüşen iki giriş döşemesi gizlendi; özgün nesneler ve girişlerin zemin kapanışı korundu.",
+        "Zemin katta doğu dolaşım alanı, batı kafe ve küçük oda birleşimindeki üst üste binen döşeme hacimleri ayrıldı. Tamamen yinelenen bağlantı eşiği gizlendi; döşeme kapsamı korundu.",
+        "Batı üst kat dönüş tavanındaki yinelenen örtü gizlendi; kafe tavanı ile ön servis örtüsünün örtüşen hacmi ayrıldı."
       ],
       "coverage_as_of": "R55"
     },
@@ -398,19 +413,22 @@
       "status": "in_progress",
       "open_issues": [
         "Cam/profil kesitleri ve bağlantılar ölçülmedi; gizli gölgelik mekanizması doğrulanmadı.",
-        "Sekiz göz devralındı; çap,kot,çatal ve ankraj ölçülmedi. Yapısal hesap değildir."
+        "Sekiz göz devralındı; çap,kot,çatal ve ankraj ölçülmedi. Yapısal hesap değildir.",
+        "İki nesne değişti. Eşleşen profillerin en büyük köşe farkı 0,0027 mm; yüzler ve malzemeler aynı. Yeni mimari boyut yok; bütün bina kabulü değildir."
       ],
       "updated": "2026-10-08",
       "dependency_mode": "regional_study_only_no_global_acceptance",
       "artifacts": [
-        "12_Blender_Model/scenes/MUDAM_R65_GECIT_CAPRAZ_GERGI_v002.blend",
-        "12_Blender_Model/reports/R65_KONTROL_RAPORU.md",
+        "12_Blender_Model/scenes/MUDAM_R123_CATI_YINELENEN_PROFILLER_v001.blend",
+        "12_Blender_Model/reports/R123_KONTROL_RAPORU.md",
         "12_Blender_Model/reports/R47_KONTROL_RAPORU.md",
-        "12_Blender_Model/reports/R51_KONTROL_RAPORU.md"
+        "12_Blender_Model/reports/R51_KONTROL_RAPORU.md",
+        "12_Blender_Model/reports/R65_KONTROL_RAPORU.md"
       ],
       "completed_scope": [
         "Ana çatı panel/metal ağı, dört geniş yüzde 3816 gölgelik lameli, okuma fenerinin kare gövdesi üretildi.",
-        "067/068 ile16 çapraz,240 parça;32 destek ve96 uç bağlantısı kontrolü geçti."
+        "067/068 ile16 çapraz,240 parça;32 destek ve96 uç bağlantısı kontrolü geçti.",
+        "Ana cam çatının dördüncü yüzünde aynı yerde iki kez üretilmiş iki çelik profil gizlendi; mevcut karşılıkları korundu."
       ],
       "coverage_as_of": "R55"
     },
@@ -440,8 +458,7 @@
       "updated": "2026-10-08",
       "dependency_mode": "regional_study_only_no_global_acceptance",
       "artifacts": [
-        "12_Blender_Model/scenes/MUDAM_R96_UST_KAT_DUVAR_AYRIMI_v004.blend",
-        "12_Blender_Model/reports/R96_KONTROL_RAPORU.md",
+        "12_Blender_Model/scenes/MUDAM_R123_CATI_YINELENEN_PROFILLER_v001.blend",
         "12_Blender_Model/reports/R12_BATI_DUZ_CAM_RAPORU.md",
         "12_Blender_Model/reports/R13_PAVYON_CAM_RAPORU.md",
         "12_Blender_Model/reports/R26_DOGU_CATI_BAGLANTI_RAPORU.md",
@@ -455,7 +472,8 @@
         "12_Blender_Model/reports/R91_KONTROL_RAPORU.md",
         "12_Blender_Model/reports/R93_KONTROL_RAPORU.md",
         "12_Blender_Model/reports/R94_KONTROL_RAPORU.md",
-        "12_Blender_Model/reports/R95_KONTROL_RAPORU.md"
+        "12_Blender_Model/reports/R95_KONTROL_RAPORU.md",
+        "12_Blender_Model/reports/R96_KONTROL_RAPORU.md"
       ],
       "completed_scope": [
         "Batı 108 düz cam, pavyon 108 cam/216 profil, doğu cam şeridi ve üst galerilerin 10 ışıklık adayı kuruldu.",
@@ -498,8 +516,8 @@
       "updated": "2026-10-08",
       "dependency_mode": "regional_study_only_no_global_acceptance",
       "artifacts": [
-        "12_Blender_Model/scenes/MUDAM_R117_CEPHE_KOSE_KOPRU_BIRLESIM_v004.blend",
-        "12_Blender_Model/reports/R117_KONTROL_RAPORU.md",
+        "12_Blender_Model/scenes/MUDAM_R119_GALERI_ESIK_YUZEYLERI_v002.blend",
+        "12_Blender_Model/reports/R11_DOGU_UC_CAM_RAPORU.md",
         "12_Blender_Model/reports/R03_MERDIVEN_DONUS_RAPORU.md",
         "12_Blender_Model/reports/R48_KONTROL_RAPORU.md",
         "12_Blender_Model/reports/R52_KONTROL_RAPORU.md",
@@ -509,7 +527,8 @@
         "12_Blender_Model/reports/R65_KONTROL_RAPORU.md",
         "12_Blender_Model/reports/R66_KONTROL_RAPORU.md",
         "12_Blender_Model/reports/R80_KONTROL_RAPORU.md",
-        "12_Blender_Model/reports/R116_KONTROL_RAPORU.md"
+        "12_Blender_Model/reports/R116_KONTROL_RAPORU.md",
+        "12_Blender_Model/reports/R117_KONTROL_RAPORU.md"
       ],
       "completed_scope": [
         "Girişte dört düz cam kanat; kıvrımlı cam/küpeşte; galeri camının plan sınırı ve taş nişi örnekleri üretildi.",
@@ -603,7 +622,7 @@
       "updated": "2026-10-08",
       "dependency_mode": "regional_checkpoint_no_global_acceptance",
       "artifacts": [
-        "12_Blender_Model/scenes/MUDAM_R117_CEPHE_KOSE_KOPRU_BIRLESIM_v004.blend",
+        "12_Blender_Model/scenes/MUDAM_R123_CATI_YINELENEN_PROFILLER_v001.blend",
         "12_Blender_Model/reports/P19_P21_ONIZLEME_RAPORU.md",
         "12_Blender_Model/reports/R34_GIRIS_KOPRULERI_RAPORU.md",
         "12_Blender_Model/reports/R48_KONTROL_RAPORU.md",
@@ -648,11 +667,14 @@
         "Bütün bina ve kullanıcının tüm ekran görüntüleri henüz kabul edilmedi. Duvar kalınlığı mevcut kaynak konturları arasında uzlaştırılmış adaydır; kotlar ölçülmüş değildir. Öncelik kalan büyük kabuk sorunlarıdır.",
         "Elemanın varlığı fotoğrafta görülüyor; yerleşimi mevcut merdiven üst kiriş hattına hizalı adaydır. 0,28 m kalınlık ve mevcut kol genişliği ölçülmüş değildir. Plan 104 bu ayrıntıyı göstermiyor. Bu paket yalnız bir temsilî mimari elemandır; bütün bina veya taşıyıcı sistem kabulü değildir. Büyük kabuk sorunları ve açık üretim işleri önceliğini korur.",
         "Bina bütünü ve bütün ölçüler kabul edilmiş değildir. Alt cephe ilk pencere/köşe kayıt uyumu ve ölçülmemiş kalınlıklar açıktır; kapı temsilleri ürün doğrulaması değildir.",
-        "Fotoğraf 004/116 ve plan 103 esas alındı. Pencere dizisinin 2,459 m kaydırılması mevcut model köşesine göre türetilmiştir; 0,12 m kenar payı ve diğer miras boyutları ölçülü rölöve değildir. Bütün bina kabulü ve kalan üretim işleri açıktır."
+        "Fotoğraf 004/116 ve plan 103 esas alındı. Pencere dizisinin 2,459 m kaydırılması mevcut model köşesine göre türetilmiştir; 0,12 m kenar payı ve diğer miras boyutları ölçülü rölöve değildir. Bütün bina kabulü ve kalan üretim işleri açıktır.",
+        "15.436 örneğin 306sında önce çift üst yüzey vardı; sonra tüm örneklerde tek yüzey var. Üç mevcut nesne değişti, yeni nesne veya ölçü yok. Bütün bina kabulü değildir.",
+        "Altı mevcut nesne değişti; yeni nesne veya mimari ölçü yok. 47.667 konumun 1.569unda önce çift yüzey vardı; sonra tüm örneklerde tek üst yüzey var. Bütün bina kabulü değildir.",
+        "İki mevcut nesne değişti. 7.178 konumun 152sinde önce çift üst yüzey vardı; sonra tamamında tek yüzey var. Örtü kapsamı korundu; bütün bina kabulü değildir."
       ],
       "artifacts": [
-        "12_Blender_Model/scenes/MUDAM_R117_CEPHE_KOSE_KOPRU_BIRLESIM_v004.blend",
-        "12_Blender_Model/reports/R117_KONTROL_RAPORU.md",
+        "12_Blender_Model/scenes/MUDAM_R122_UST_ORTU_YUZEY_BIRLESIM_v001.blend",
+        "12_Blender_Model/reports/R122_KONTROL_RAPORU.md",
         "12_Blender_Model/reports/R19_R20_ODITORYUM_RAPORU.md",
         "12_Blender_Model/reports/R21_ODITORYUM_PANEL_RAPORU.md",
         "12_Blender_Model/reports/R22_ODITORYUM_DONATI_RAPORU.md",
@@ -682,7 +704,10 @@
         "12_Blender_Model/reports/R112_KONTROL_RAPORU.md",
         "12_Blender_Model/reports/R113_KONTROL_RAPORU.md",
         "12_Blender_Model/reports/R114_KONTROL_RAPORU.md",
-        "12_Blender_Model/reports/R116_KONTROL_RAPORU.md"
+        "12_Blender_Model/reports/R116_KONTROL_RAPORU.md",
+        "12_Blender_Model/reports/R117_KONTROL_RAPORU.md",
+        "12_Blender_Model/reports/R120_KONTROL_RAPORU.md",
+        "12_Blender_Model/reports/R121_KONTROL_RAPORU.md"
       ],
       "completed_scope": [
         "Giriş/vestiyer bölgesi, alt galeri/fuaye, oditoryum ve galeri taş/ahşap yüzey adayları üretildi.",
@@ -709,7 +734,10 @@
         "Zemin katın iki galerisinde servis alanına bakan eksik uzun duvarlar kaynak plan konturunda oluşturuldu. Önceki 360 eksik yüzey örneği kapandı. Galeri ve servis geçişleri, genel geometri ve sahne farkı kontrolleri geçti; iki aynı kamera önce/sonra görüntüsü incelendi.",
         "051 ve 052 fotoğraflarında görülen alt merdiven üst sahanlığı yanındaki eksik düşey taş perde eklendi. Aynı kamera önce/sonra görüntüsü incelendi. Yeni elemanın döşeme ve tavan temasları, alt kat geçişleri, alt merdiven regresyonu ve altı merdivenin baş mesafesi kontrol edildi.",
         "Küçük odanın yanlış iç bölmeleri kaldırıldı; dış sınırı ve köprü duvarları üst örtüye bağlandı. Cephe/döşeme kesişimleri, galeri/merdiven duvar birleşimi ve alt katın açık yan hacimleri düzeltildi. Önce/sonra görüntüleri ve yeniden açılan sahne kontrolleri kaydedildi.",
-        "Cephe köşesi altındaki dönüş tamamlandı; beş pencere, girintileri ve tarihî duvar açıklıkları birlikte köşe içine taşındı. Üst köprünün iki galeriyle döşeme bağlantısı ve doğu duvar ucu üretildi."
+        "Cephe köşesi altındaki dönüş tamamlandı; beş pencere, girintileri ve tarihî duvar açıklıkları birlikte köşe içine taşındı. Üst köprünün iki galeriyle döşeme bağlantısı ve doğu duvar ucu üretildi.",
+        "Alt fuaye ile oditoryum döşemesinin çakışan ön şeridi ayrıldı. Fuaye döşemesiyle bütünüyle örtüşen iki giriş döşemesi gizlendi; özgün nesneler ve girişlerin zemin kapanışı korundu.",
+        "Zemin katta doğu dolaşım alanı, batı kafe ve küçük oda birleşimindeki üst üste binen döşeme hacimleri ayrıldı. Tamamen yinelenen bağlantı eşiği gizlendi; döşeme kapsamı korundu.",
+        "Batı üst kat dönüş tavanındaki yinelenen örtü gizlendi; kafe tavanı ile ön servis örtüsünün örtüşen hacmi ayrıldı."
       ],
       "coverage_as_of": "R55"
     },
@@ -740,12 +768,14 @@
         "+1 Studio, asansör ve diğer katlar arası kabuk ilişkileri hâlâ inceleniyor. Geçit duvarının yüksekliği ve kalınlığı aday; bütün bina kabulü yok.",
         "Bütün bina kabulü yok. Diğer üst kat duvar/örtü birleşimleri ve katlar arası devamlılık kontrolü sürüyor; ölçülmemiş kalınlık ve kotlar aday.",
         "Bütün bina kabulü yok. Diğer kabuk birleşimleri ve kat ilişkileri kaynaklarla karşılaştırılmaya devam ediyor; ölçülmemiş kotlar ve kalınlıklar aday.",
-        "Bütün bina tamamlanmadı. Diğer küçük odaların üst örtüleri, kalan çelik/cam birleşimleri ve bina son kontrolü açık; kesin kot ve malzeme ölçüleri hâlâ aday."
+        "Bütün bina tamamlanmadı. Diğer küçük odaların üst örtüleri, kalan çelik/cam birleşimleri ve bina son kontrolü açık; kesin kot ve malzeme ölçüleri hâlâ aday.",
+        "R117 bağlantılarına ait düzeltmedir; 62 önceki çift yüzey örneği giderildi, 78 son örnekte tek zemin yüzeyi var. Yeni mimari ölçü eklenmedi. Bütün bina kabulü değildir.",
+        "1.364 yerel örneğin 716sında önce çift/üçlü yüzey vardı; sonra tüm örneklerde tek yüzey var. Beş mevcut nesne değişti, yeni nesne ve ölçü eklenmedi. Bütün bina kabulü değildir."
       ],
       "updated": "2026-10-08",
       "dependency_mode": "regional_checkpoint_no_global_acceptance",
       "artifacts": [
-        "12_Blender_Model/scenes/MUDAM_R117_CEPHE_KOSE_KOPRU_BIRLESIM_v004.blend",
+        "12_Blender_Model/scenes/MUDAM_R123_CATI_YINELENEN_PROFILLER_v001.blend",
         "12_Blender_Model/reports/P19_P21_ONIZLEME_RAPORU.md",
         "12_Blender_Model/reports/R08_OKUMA_TAVANI_RAPORU.md",
         "12_Blender_Model/reports/R09_OKUMA_MEKANI_RAPORU.md",
@@ -767,7 +797,9 @@
         "12_Blender_Model/reports/R101_KONTROL_RAPORU.md",
         "12_Blender_Model/reports/R102_KONTROL_RAPORU.md",
         "12_Blender_Model/reports/R103_KONTROL_RAPORU.md",
-        "12_Blender_Model/reports/R107_KONTROL_RAPORU.md"
+        "12_Blender_Model/reports/R107_KONTROL_RAPORU.md",
+        "12_Blender_Model/reports/R118_KONTROL_RAPORU.md",
+        "12_Blender_Model/reports/R119_KONTROL_RAPORU.md"
       ],
       "completed_scope": [
         "Okuma odası, eğimli tavan ve24 kollu ışık; iki üst galeri, Studio, asansör sahanlığı; Grand Hall20 silindir ışık işlendi.",
@@ -786,7 +818,9 @@
         "Okuma odası–doğu servis odası bağlantısının planda çizili fakat eksik bırakılmış iki yan duvarı eklendi. 15 eksik duvar probu düzeldi; dokuz geçiş ve sekiz zemin/tavan kontrolü geçti. Diğer mevcut geometri değişmedi.",
         "Üst servis odası ve merdiven kuyusunda 14 duvarın 12 dış köşesi birleştirildi. Önceden açık olan 10 köşe probu kapandı; iç plan çizgileri ve açıklıklar korundu. Servis merdiveninin 110 kontrolü yeniden geçti.",
         "Batı üst galeriye taşan dört duvar/tavan parçası mevcut plan sınırına kırpıldı. Servis odası birleşimindeki çıkıntı ve merdiven dönüşündeki yanlış tavan uzantısı kaldırıldı. Kapı ve koridor geçişleri korundu.",
-        "Okuma odasının eski döşeme kenarı mevcut PDF2016 duvar konturuyla uzlaştırıldı; duvar dibindeki açık şerit giderildi. Merkez boşluk ve üç geçit korundu. 1.313 döşeme/boşluk ve 36 geçiş kontrolü geçti; önce/sonra görüntüleri incelendi."
+        "Okuma odasının eski döşeme kenarı mevcut PDF2016 duvar konturuyla uzlaştırıldı; duvar dibindeki açık şerit giderildi. Merkez boşluk ve üç geçit korundu. 1.313 döşeme/boşluk ve 36 geçiş kontrolü geçti; önce/sonra görüntüleri incelendi.",
+        "İki köprü bağlantı döşemesinin mevcut galeri eşikleriyle çakışan hacimleri çıkarıldı. Yeni parçalar yalnız eksik yan şeritlerde kalıyor; eski eşik ve zemin yüzeyi korunuyor.",
+        "Üst galerilerin dört eşiğinde ve batı dönüş döşemesinde yinelenen yüzeyler ayrıldı. Tamamen diğer döşemenin içinde kalan bir dönüş parçası gizlendi; açıklıklar ve bitmiş zemin kotu korundu."
       ],
       "coverage_as_of": "R55"
     },
@@ -857,7 +891,7 @@
       "updated": "2026-10-08",
       "dependency_mode": "regional_checkpoint_no_global_acceptance",
       "artifacts": [
-        "12_Blender_Model/scenes/MUDAM_R117_CEPHE_KOSE_KOPRU_BIRLESIM_v004.blend",
+        "12_Blender_Model/scenes/MUDAM_R123_CATI_YINELENEN_PROFILLER_v001.blend",
         "12_Blender_Model/reports/P19_P21_ONIZLEME_RAPORU.md",
         "12_Blender_Model/reports/R32_TAS_AHSAP_RAPORU.md",
         "12_Blender_Model/reports/R43_KONTROL_RAPORU.md",
@@ -921,12 +955,12 @@
       "acceptance": "Birim/eksen/malzeme geri yüklemede doğru; performans ölçülmüş",
       "status": "in_progress",
       "open_issues": [
-        "8484 mesh / 2489398 üçgen GLB aktarımı denetlendi; hedef motor ve sadeleştirme açık."
+        "8477 mesh / 2489486 üçgen GLB aktarımı denetlendi; hedef motor ve sadeleştirme açık."
       ],
       "updated": "2026-10-08",
       "dependency_mode": "regional_checkpoint_no_global_acceptance",
       "artifacts": [
-        "12_Blender_Model/scenes/MUDAM_R117_CEPHE_KOSE_KOPRU_BIRLESIM_v004.blend",
+        "12_Blender_Model/scenes/MUDAM_R123_CATI_YINELENEN_PROFILLER_v001.blend",
         "12_Blender_Model/reports/P19_P21_ONIZLEME_RAPORU.md"
       ]
     },
@@ -978,7 +1012,7 @@
     "P21",
     "P22"
   ],
-  "latest_scene": "12_Blender_Model/scenes/MUDAM_R117_CEPHE_KOSE_KOPRU_BIRLESIM_v004.blend",
+  "latest_scene": "12_Blender_Model/scenes/MUDAM_R123_CATI_YINELENEN_PROFILLER_v001.blend",
   "scope_constraints": {
     "priority": "Bina ve kalıcı mimari sistemler",
     "excluded": [

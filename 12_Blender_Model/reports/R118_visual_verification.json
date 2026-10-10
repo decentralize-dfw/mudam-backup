@@ -1,0 +1,15 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R118_KOPRU_ESIK_CAKISMA_v001.blend",
+  "reviewed_images": [
+    {
+      "path": "12_Blender_Model/renders/qa/R118_before_SS6_bridge.png",
+      "sha256": "c4fc45d2fe9e053fc4d8dffb472f57ebbdd815e870cbed9429cf40852ab57766"
+    },
+    {
+      "path": "12_Blender_Model/renders/qa/R118_after_SS6_bridge.png",
+      "sha256": "21593ed18294934773182bcc4a064d0202b886e3ef7e8a50cc693276dad66198"
+    }
+  ],
+  "failures": [],
+  "scope": "Same-camera bridge comparison. Floor coverage retained; duplicate threshold surface removed."
+}

@@ -1,0 +1,23 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R121_ZEMIN_KAT_DOSEME_YUZEYLERI_v003.blend",
+  "reviewed_images": [
+    {
+      "path": "12_Blender_Model/renders/qa/R121_after_SS2_gallery.png",
+      "sha256": "1943318d2bf47b5978dae117292abf26fa3f9017706bdb9880ac699e04273566"
+    },
+    {
+      "path": "12_Blender_Model/renders/qa/R121_after_SS4_5_petite.png",
+      "sha256": "17c85cf33638b6b357cdc1da41d08453e4c4525854f37596ce5d50be7b742061"
+    },
+    {
+      "path": "12_Blender_Model/renders/qa/R121_before_SS2_gallery.png",
+      "sha256": "141e9d1725c8c3f4c1b6c6f8c4128bb1381f58b0a0f2fd6fbc234c117929e245"
+    },
+    {
+      "path": "12_Blender_Model/renders/qa/R121_before_SS4_5_petite.png",
+      "sha256": "0560efee5dbbc65fe8423e157890ce47625e4b62be783d6f79da48b80c59d62f"
+    }
+  ],
+  "failures": [],
+  "scope": "Ground east gallery and west cafe floor before-after coverage; four images opened and reviewed."
+}

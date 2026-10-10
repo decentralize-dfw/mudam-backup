@@ -1,0 +1,30 @@
+from pathlib import Path
+import bpy,json,sys
+from mathutils import Vector
+B=Path(__file__).resolve().parents[1];r=json.loads((B/'reports/R121_build_report.json').read_text());C=json.loads((B/'config/foundation.json').read_text())['calibration'];args=sys.argv[sys.argv.index('--')+1:] if '--' in sys.argv else ['after'];phase=args[0];file=r['file'] if phase=='after' else '12_Blender_Model/scenes/'+r['base_scene'];bpy.ops.wm.open_mainfile(filepath=str(B.parent/file));S=bpy.context.scene
+prefs=bpy.context.preferences.addons['cycles'].preferences;prefs.compute_device_type='OPTIX';prefs.get_devices()
+for d in prefs.devices:d.use=d.type=='OPTIX'
+S.cycles.device='GPU';S.cycles.samples=16;S.render.resolution_x=1200;S.render.resolution_y=900;S.render.resolution_percentage=100;S.cycles.transparent_max_bounces=64
+cd=bpy.data.cameras.new('R121_REVIEW');cam=bpy.data.objects.new(cd.name,cd);S.collection.objects.link(cam);S.camera=cam
+cuts=[]
+for mat in bpy.data.materials:
+ if not mat.use_nodes:continue
+ nt=mat.node_tree
+ for out in [n for n in nt.nodes if n.type=='OUTPUT_MATERIAL']:
+  sock=out.inputs['Surface']
+  if not sock.is_linked:continue
+  original=sock.links[0].from_socket;g=nt.nodes.new('ShaderNodeNewGeometry');xyz=nt.nodes.new('ShaderNodeSeparateXYZ');gt=nt.nodes.new('ShaderNodeMath');gt.operation='GREATER_THAN';lt=nt.nodes.new('ShaderNodeMath');lt.operation='LESS_THAN';combine=nt.nodes.new('ShaderNodeMath');combine.operation='MAXIMUM';nt.links.new(g.outputs['Position'],xyz.inputs[0]);nt.links.new(xyz.outputs['Z'],gt.inputs[0]);nt.links.new(xyz.outputs['Z'],lt.inputs[0]);nt.links.new(gt.outputs[0],combine.inputs[0]);nt.links.new(lt.outputs[0],combine.inputs[1]);trans=nt.nodes.new('ShaderNodeBsdfTransparent');mix=nt.nodes.new('ShaderNodeMixShader');nt.links.new(combine.outputs[0],mix.inputs[0]);nt.links.new(original,mix.inputs[1]);nt.links.new(trans.outputs[0],mix.inputs[2]);nt.links.new(mix.outputs[0],sock);cuts.append((gt,lt))
+def pt(p):
+ x,y,z=p;k=C['canonical_to_pdf_scale'];ox,oy=C['canonical_to_pdf_offset'];M=C['pdf_to_utm_matrix'];a=k*x+ox;b=k*y+oy;return Vector((M[0][0]*a+M[0][1]*b+M[0][2]-293425,M[1][0]*a+M[1][1]*b+M[1][2]-5499960,z))
+for name,eye,target,lens,zlo,zhi in [
+('SS1_exterior',(40,880,28),(300,470,2),43,-100,100),
+('SS2_gallery',(640,335,28),(409,510,0),43,-.3,3.7),
+('SS2_reverse',(220,750,25),(420,510,0),45,-.3,3.7),
+('SS3_jamb',(530,405,3.2),(468,474,2),48,-.3,100),
+('SS4_5_petite',(1000,500,20),(849,347,0),48,-.3,3.7),
+('SS6_bridge',(575,870,29),(575,546,5),52,4.64,6.4),
+('SS7_corner',(650,340,10),(468,474,6),55,-.3,7),
+('SS8_lower',(575,220,13),(575,465,-4),42,-5.6,-2.7)]:
+ if len(args)>1 and name!=args[1]:continue
+ for gt,lt in cuts:gt.inputs[1].default_value=zhi;lt.inputs[1].default_value=zlo
+ cam.location=pt(eye);cam.rotation_euler=(pt(target)-cam.location).to_track_quat('-Z','Y').to_euler();cd.lens=lens;S.render.filepath=str(B/'renders/qa'/f'R121_{phase}_{name}.png');bpy.ops.render.render(write_still=True)

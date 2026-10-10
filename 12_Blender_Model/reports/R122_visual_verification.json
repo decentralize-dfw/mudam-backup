@@ -1,0 +1,23 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R122_UST_ORTU_YUZEY_BIRLESIM_v001.blend",
+  "reviewed_images": [
+    {
+      "path": "12_Blender_Model/renders/qa/R122_after_cafe_ceiling.png",
+      "sha256": "84c2555d249400d7cc5b12415e2e31b6f4485cd3452fea4f9326f1bd7b6080c5"
+    },
+    {
+      "path": "12_Blender_Model/renders/qa/R122_after_west_return.png",
+      "sha256": "816c36122e9ea8db420520dea8fffe5929e10d8ac2deb4104d27fba1b0ef2a2c"
+    },
+    {
+      "path": "12_Blender_Model/renders/qa/R122_before_cafe_ceiling.png",
+      "sha256": "bd9761d605406a65af7f27da0fc0cdb39e930c27e0213c8fd22763c2f6b1762b"
+    },
+    {
+      "path": "12_Blender_Model/renders/qa/R122_before_west_return.png",
+      "sha256": "8efdf353546a2fc6c06f98260044aa7e82feab4166821c7214698973f1a51a90"
+    }
+  ],
+  "failures": [],
+  "scope": "West return and cafe ceiling before-after coverage; four cut renders opened and reviewed."
+}

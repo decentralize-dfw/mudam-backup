@@ -1,0 +1,15 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R123_CATI_YINELENEN_PROFILLER_v001.blend",
+  "reviewed_images": [
+    {
+      "path": "12_Blender_Model/renders/qa/R123_after_roof_profiles.png",
+      "sha256": "fd1cfd21a1bb7844d3deb4d476da5ad5201075eeb9f410580585fb2aa6a8c11f"
+    },
+    {
+      "path": "12_Blender_Model/renders/qa/R123_before_roof_profiles.png",
+      "sha256": "581ffe01e4c22e84bc0931f1ff04c6d549cca16976dc7c0b6b824bb0bd64e33a"
+    }
+  ],
+  "failures": [],
+  "scope": "Main roof profile before-after images opened; original profile coverage retained."
+}

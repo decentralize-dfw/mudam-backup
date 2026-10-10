@@ -1,0 +1,126 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R121_ZEMIN_KAT_DOSEME_YUZEYLERI_v003.blend",
+  "base_scene": "MUDAM_R120_ALT_KAT_DOSEME_BIRLESIM_v001.blend",
+  "closed_objects": [],
+  "changed_inherited_objects": [
+    "P05_FLOOR_L00_EAST_GARDEN",
+    "P05_FLOOR_L00_W0",
+    "R11_LINK_THRESHOLD",
+    "R28_E_CIRCULATION_FLOOR",
+    "R28_W_CIRCULATION_FLOOR",
+    "R87_BASE_FLOOR"
+  ],
+  "operations": [
+    {
+      "name": "P05_FLOOR_L00_EAST_GARDEN",
+      "against": "P05_FLOOR_L00_E0",
+      "before_volume": 66.81637069805583,
+      "after_volume": 66.79436802792536,
+      "removed_overlap_volume": 0.022002670130476076
+    },
+    {
+      "name": "P05_FLOOR_L00_W0",
+      "against": "P05_FLOOR_L00_ENT",
+      "before_volume": 81.585051247437,
+      "after_volume": 81.51034158712856,
+      "removed_overlap_volume": 0.07470966030842874
+    },
+    {
+      "name": "R28_E_CIRCULATION_FLOOR",
+      "against": "P05_FLOOR_L00_EAST_GARDEN",
+      "before_volume": 13.0987757353994,
+      "after_volume": 5.6239791160601955,
+      "removed_overlap_volume": 7.474796619339204
+    },
+    {
+      "name": "R28_W_CIRCULATION_FLOOR",
+      "against": "P05_FLOOR_L00_WEST_CAFE",
+      "before_volume": 15.946374303545484,
+      "after_volume": 15.822182423784787,
+      "removed_overlap_volume": 0.12419187976069779
+    },
+    {
+      "name": "R28_W_CIRCULATION_FLOOR",
+      "against": "P05_FLOOR_L00_GH",
+      "before_volume": 15.822182423784787,
+      "after_volume": 15.806352540077478,
+      "removed_overlap_volume": 0.015829883707308312
+    },
+    {
+      "name": "R87_BASE_FLOOR",
+      "against": "P05_FLOOR_L00_W0",
+      "before_volume": 23.472168964432797,
+      "after_volume": 21.823666511215688,
+      "removed_overlap_volume": 1.6485024532171089
+    },
+    {
+      "name": "R87_BASE_FLOOR",
+      "against": "R28_W_CIRCULATION_FLOOR",
+      "before_volume": 21.823666511215688,
+      "after_volume": 21.38850377060775,
+      "removed_overlap_volume": 0.43516274060793947
+    },
+    {
+      "name": "R11_LINK_THRESHOLD",
+      "against": "P05_LINK_FLOOR",
+      "before_volume": 0.0635072179001348,
+      "after_volume": 0.04657239310876852,
+      "removed_overlap_volume": 0.016934824791366286
+    },
+    {
+      "name": "R11_LINK_THRESHOLD",
+      "against": "P05_FLOOR_L00_EAST_GARDEN",
+      "before_volume": 0.04657239310876852,
+      "after_volume": 8.881784197001252e-16,
+      "removed_overlap_volume": 0.04657239310876763
+    }
+  ],
+  "checked_pairs": [
+    [
+      "P05_FLOOR_L00_EAST_GARDEN",
+      "P05_FLOOR_L00_E0"
+    ],
+    [
+      "P05_FLOOR_L00_W0",
+      "P05_FLOOR_L00_ENT"
+    ],
+    [
+      "R28_E_CIRCULATION_FLOOR",
+      "P05_FLOOR_L00_EAST_GARDEN"
+    ],
+    [
+      "R28_W_CIRCULATION_FLOOR",
+      "P05_FLOOR_L00_WEST_CAFE"
+    ],
+    [
+      "R28_W_CIRCULATION_FLOOR",
+      "P05_FLOOR_L00_GH"
+    ],
+    [
+      "R87_BASE_FLOOR",
+      "P05_FLOOR_L00_W0"
+    ],
+    [
+      "R87_BASE_FLOOR",
+      "R28_W_CIRCULATION_FLOOR"
+    ],
+    [
+      "R11_LINK_THRESHOLD",
+      "P05_LINK_FLOOR"
+    ],
+    [
+      "R11_LINK_THRESHOLD",
+      "P05_FLOOR_L00_EAST_GARDEN"
+    ]
+  ],
+  "source_ids": [
+    "102",
+    "R28",
+    "R87"
+  ],
+  "construction_acceptance": false,
+  "visual_acceptance": true,
+  "limits": [
+    "Existing registered gallery floors and thresholds retained; only duplicate coverage removed. No new measured dimensions."
+  ]
+}

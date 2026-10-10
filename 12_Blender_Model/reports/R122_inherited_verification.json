@@ -1,0 +1,17 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R122_UST_ORTU_YUZEY_BIRLESIM_v001.blend",
+  "base_scene": "12_Blender_Model/scenes/MUDAM_R121_ZEMIN_KAT_DOSEME_YUZEYLERI_v003.blend",
+  "inherited_objects_checked": 9350,
+  "changed_inherited_objects": [
+    "R39_PUBLIC_CEILING_19",
+    "R85_RETURN_CEILING_1"
+  ],
+  "allowed_changes": [
+    "R39_PUBLIC_CEILING_19",
+    "R85_RETURN_CEILING_1"
+  ],
+  "allowed_but_unchanged": [],
+  "new_objects": [],
+  "failures": [],
+  "construction_acceptance": false
+}

@@ -1561,5 +1561,112 @@
     "image": "R117_after_SS1_exterior.png",
     "description": "Cephe köşesi altındaki dönüş tamamlandı; beş pencere, girintileri ve tarihî duvar açıklıkları birlikte köşe içine taşındı. Üst köprünün iki galeriyle döşeme bağlantısı ve doğu duvar ucu üretildi.",
     "limits": "Fotoğraf 004/116 ve plan 103 esas alındı. Pencere dizisinin 2,459 m kaydırılması mevcut model köşesine göre türetilmiştir; 0,12 m kenar payı ve diğer miras boyutları ölçülü rölöve değildir. Bütün bina kabulü ve kalan üretim işleri açıktır."
+  },
+  {
+    "id": "R118",
+    "checks": [
+      "R118_verification.json",
+      "R118_global_audit.json",
+      "R118_inherited_verification.json",
+      "R118_visual_verification.json"
+    ],
+    "tasks": [
+      "P07",
+      "P17"
+    ],
+    "report": "R118_KONTROL_RAPORU.md",
+    "title": "Köprü–galeri eşik döşemesi çakışmaları / R118",
+    "image": "R118_after_SS6_bridge.png",
+    "description": "İki köprü bağlantı döşemesinin mevcut galeri eşikleriyle çakışan hacimleri çıkarıldı. Yeni parçalar yalnız eksik yan şeritlerde kalıyor; eski eşik ve zemin yüzeyi korunuyor.",
+    "limits": "R117 bağlantılarına ait düzeltmedir; 62 önceki çift yüzey örneği giderildi, 78 son örnekte tek zemin yüzeyi var. Yeni mimari ölçü eklenmedi. Bütün bina kabulü değildir."
+  },
+  {
+    "id": "R119",
+    "checks": [
+      "R119_verification.json",
+      "R119_global_audit.json",
+      "R119_inherited_verification.json",
+      "R119_visual_verification.json"
+    ],
+    "tasks": [
+      "P07",
+      "P17"
+    ],
+    "report": "R119_KONTROL_RAPORU.md",
+    "title": "Üst galeri eşik ve dönüş döşemeleri / R119",
+    "image": "R119_after_SS4_5_petite.png",
+    "description": "Üst galerilerin dört eşiğinde ve batı dönüş döşemesinde yinelenen yüzeyler ayrıldı. Tamamen diğer döşemenin içinde kalan bir dönüş parçası gizlendi; açıklıklar ve bitmiş zemin kotu korundu.",
+    "limits": "1.364 yerel örneğin 716sında önce çift/üçlü yüzey vardı; sonra tüm örneklerde tek yüzey var. Beş mevcut nesne değişti, yeni nesne ve ölçü eklenmedi. Bütün bina kabulü değildir."
+  },
+  {
+    "id": "R120",
+    "checks": [
+      "R120_verification.json",
+      "R120_global_audit.json",
+      "R120_inherited_verification.json",
+      "R120_visual_verification.json"
+    ],
+    "tasks": [
+      "P07",
+      "P16"
+    ],
+    "report": "R120_KONTROL_RAPORU.md",
+    "title": "Alt fuaye ve oditoryum döşeme birleşimi / R120",
+    "image": "R120_after_SS8_lower.png",
+    "description": "Alt fuaye ile oditoryum döşemesinin çakışan ön şeridi ayrıldı. Fuaye döşemesiyle bütünüyle örtüşen iki giriş döşemesi gizlendi; özgün nesneler ve girişlerin zemin kapanışı korundu.",
+    "limits": "15.436 örneğin 306sında önce çift üst yüzey vardı; sonra tüm örneklerde tek yüzey var. Üç mevcut nesne değişti, yeni nesne veya ölçü yok. Bütün bina kabulü değildir."
+  },
+  {
+    "id": "R121",
+    "checks": [
+      "R121_verification.json",
+      "R121_global_audit.json",
+      "R121_inherited_verification.json",
+      "R121_visual_verification.json"
+    ],
+    "tasks": [
+      "P07",
+      "P16"
+    ],
+    "report": "R121_KONTROL_RAPORU.md",
+    "title": "Zemin kat döşeme yüzeyleri / R121",
+    "image": "R121_after_SS2_gallery.png",
+    "description": "Zemin katta doğu dolaşım alanı, batı kafe ve küçük oda birleşimindeki üst üste binen döşeme hacimleri ayrıldı. Tamamen yinelenen bağlantı eşiği gizlendi; döşeme kapsamı korundu.",
+    "limits": "Altı mevcut nesne değişti; yeni nesne veya mimari ölçü yok. 47.667 konumun 1.569unda önce çift yüzey vardı; sonra tüm örneklerde tek üst yüzey var. Bütün bina kabulü değildir."
+  },
+  {
+    "id": "R122",
+    "checks": [
+      "R122_verification.json",
+      "R122_global_audit.json",
+      "R122_inherited_verification.json",
+      "R122_visual_verification.json"
+    ],
+    "tasks": [
+      "P07",
+      "P16"
+    ],
+    "report": "R122_KONTROL_RAPORU.md",
+    "title": "Üst örtü yüzey birleşimi / R122",
+    "image": "R122_after_west_return.png",
+    "description": "Batı üst kat dönüş tavanındaki yinelenen örtü gizlendi; kafe tavanı ile ön servis örtüsünün örtüşen hacmi ayrıldı.",
+    "limits": "İki mevcut nesne değişti. 7.178 konumun 152sinde önce çift üst yüzey vardı; sonra tamamında tek yüzey var. Örtü kapsamı korundu; bütün bina kabulü değildir."
+  },
+  {
+    "id": "R123",
+    "checks": [
+      "R123_verification.json",
+      "R123_global_audit.json",
+      "R123_inherited_verification.json",
+      "R123_visual_verification.json"
+    ],
+    "tasks": [
+      "P10"
+    ],
+    "report": "R123_KONTROL_RAPORU.md",
+    "title": "Ana çatı yinelenen profiller / R123",
+    "image": "R123_after_roof_profiles.png",
+    "description": "Ana cam çatının dördüncü yüzünde aynı yerde iki kez üretilmiş iki çelik profil gizlendi; mevcut karşılıkları korundu.",
+    "limits": "İki nesne değişti. Eşleşen profillerin en büyük köşe farkı 0,0027 mm; yüzler ve malzemeler aynı. Yeni mimari boyut yok; bütün bina kabulü değildir."
   }
 ]

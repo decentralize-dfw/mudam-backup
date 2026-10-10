@@ -1,0 +1,47 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R122_UST_ORTU_YUZEY_BIRLESIM_v001.blend",
+  "base_scene": "MUDAM_R121_ZEMIN_KAT_DOSEME_YUZEYLERI_v003.blend",
+  "closed_objects": [],
+  "changed_inherited_objects": [
+    "R39_PUBLIC_CEILING_19",
+    "R85_RETURN_CEILING_1"
+  ],
+  "operations": [
+    {
+      "name": "R85_RETURN_CEILING_1",
+      "against": "R85_RETURN_CEILING_0",
+      "before_volume": 0.6597226904096951,
+      "after_volume": 6.019795062428557e-07,
+      "removed_overlap_volume": 0.6597220884301889
+    },
+    {
+      "name": "R39_PUBLIC_CEILING_19",
+      "against": "R28_W_FLAT_CEILING",
+      "before_volume": 2.826817705632541,
+      "after_volume": 2.766272604302369,
+      "removed_overlap_volume": 0.0605451013301721
+    }
+  ],
+  "checked_pairs": [
+    [
+      "R85_RETURN_CEILING_1",
+      "R85_RETURN_CEILING_0"
+    ],
+    [
+      "R39_PUBLIC_CEILING_19",
+      "R28_W_FLAT_CEILING"
+    ]
+  ],
+  "source_ids": [
+    "102",
+    "103",
+    "R28",
+    "R39",
+    "R85"
+  ],
+  "construction_acceptance": false,
+  "visual_acceptance": true,
+  "limits": [
+    "Existing ceiling boundaries retained; only duplicate volumes removed. No new measured dimensions."
+  ]
+}
