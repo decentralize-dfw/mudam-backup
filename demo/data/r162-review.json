@@ -1,0 +1,34 @@
+{
+  "name": "R162 review candidate",
+  "revision": "R162-v002-review-only",
+  "source": "Authored roof segmentation and facade projection from ACT reference; incomplete, not accepted as full context.",
+  "compression": "Draco 24-bit positions; WebP quality 92; original texture resolution",
+  "files": {
+    "candidate": {
+      "file": "model/r162-review/measured-buildings.glb",
+      "bytes": 1226052,
+      "sha256": "8a06763cba2f7adb11b13335e7408893d3a5fc773b2f5969184dd92ca7eafcaa",
+      "sourceSha256": "5db12757fb9ef07c762a13f4d66293c145237592339ba9949fb1ba8973e489e5",
+      "triangles": 14502,
+      "sourceTriangles": 14502,
+      "degenerateRemoved": 0,
+      "bounds": {
+        "min": [
+          -228.8013153076172,
+          1.8887457847595215,
+          -466.9177551269531
+        ],
+        "max": [
+          81.53337097167969,
+          34.797393798828125,
+          -310.5760803222656
+        ]
+      },
+      "boundsError": 0.000030517578125,
+      "textures": 1,
+      "instanceTransformsPreserved": true,
+      "instances": []
+    }
+  },
+  "accepted": false
+}
