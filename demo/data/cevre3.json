@@ -1,7 +1,7 @@
 {
   "name": "Context 3",
-  "revision": "R159-authored-draco-webp",
-  "source": "Authored R159 environment: terrain, fortifications, roads, Philharmonie, Melia, Schuman and 6334 vegetation instances. Not ACT photogrammetry.",
+  "revision": "R161-authored-draco-webp",
+  "source": "Authored environment: R159 terrain and vegetation, Philharmonie, Melia, Schuman; R161 WKI, Thomas More and road connections. Not ACT photogrammetry.",
   "compression": "Draco 24-bit positions; WebP quality 92; original texture resolution",
   "files": {
     "near": {
@@ -249,6 +249,31 @@
           "hash": "f2c8c6b796476cb39831c09470e273613e56e7695b7f7052f1300e41a555b0d7"
         }
       ]
+    },
+    "district": {
+      "file": "model/cevre3/authored-district.glb",
+      "bytes": 870800,
+      "sha256": "98904e02429bf70c4ed5959820ebd4de9f54ae30b378810659f838318a097da9",
+      "sourceSha256": "ed23e854211d55451a5ab68ecff908ef993e36fbe1525971ac2ddfa78ab82da2",
+      "triangles": 143846,
+      "sourceTriangles": 143846,
+      "degenerateRemoved": 0,
+      "bounds": {
+        "min": [
+          -493.4591369628906,
+          -76.1373062133789,
+          -545.1168823242188
+        ],
+        "max": [
+          408.1252746582031,
+          24.446916580200195,
+          442.84320068359375
+        ]
+      },
+      "boundsError": 0.000091552734375,
+      "textures": 1,
+      "instanceTransformsPreserved": true,
+      "instances": []
     }
   }
 }

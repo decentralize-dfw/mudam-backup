@@ -1,0 +1,20 @@
+{
+  "scene": "MUDAM_R161_YOL_BAGLANTILARI_WKI_THOMAS_MORE_v001.blend",
+  "buildings": [
+    "European Investment Bank (WKI)",
+    "Cour de Justice Section Thomas More"
+  ],
+  "road_patches": 88,
+  "added_road_area": 629.6263734171462,
+  "facade_bays": 2146,
+  "objects": 17,
+  "existing_geometry_preserved": true,
+  "reopened": true,
+  "limits": [
+    "OSM road widths used where tagged; otherwise 2.6m paths and 7m road estimates.",
+    "Museum/bridge/steps/tunnel zones excluded from road patching.",
+    "Facade bays and setbacks interpreted from downloaded ACT front/top views, not surveyed dimensions.",
+    "Roof elevation derived from ACT points; OSM height retained."
+  ],
+  "whole_context_complete": false
+}

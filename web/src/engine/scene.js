@@ -152,7 +152,7 @@ export class Stage {
       this.scene.add(root);
       set[key] = root;
     };
-    for (const key of ['site', 'trees', 'near', 'far', 'melia', 'schuman', 'vegetation']) if (loaded[key]) add(key, loaded[key]);
+    for (const key of ['site', 'trees', 'near', 'far', 'melia', 'schuman', 'vegetation', 'district']) if (loaded[key]) add(key, loaded[key]);
     // the delivered trees come without foliage meshes, like Çevre 1's
     if (set.trees && this.data.context.trees?.length) set.trees.add(this.context.addCanopies(this.data.context.trees));
     if (set.building) this.building.attach(set.building, sourceId);
