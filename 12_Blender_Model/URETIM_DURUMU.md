@@ -591,3 +591,7 @@ R128: Okuma odasının eğimli örtüsü ile doğu odasının düz örtüsü ara
 
 
 P21 aktarım: R128 geometrisi ve 8.477 parça değişmeden yinelenen buffer blokları paylaşıldı. Ham GLB 91.415.240 → 81.686.612 bayt; gzip 54.619.398 → 52.537.621 bayt. 12.532 veri görünümünün baytları birebir korundu. Mimari üretim artışı değildir; yüzde değişmedi. Sonraki saatlik yayına dahil.
+
+
+2026-10-10 02:49:13 UTC — 82aebe3bf3eb0192cd73bfd052643167fce2e339 origin/main normal push doğrulandı. Pano, renderlar, raporlar ve üretim betikleri gönderildi; Blender ve arşiv GLB dosyaları yerelde; tek güncel sıkıştırılmış web GLB gönderildi.
+
