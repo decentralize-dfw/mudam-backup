@@ -656,3 +656,9 @@ R149: Üst köprünün mevcut döşemesindeki iki üst yüze komşu taş ailesi 
 
 2026-10-10 09:31:55 UTC — e0308a6ab08338a79d648224beee84852a445cb5 origin/main normal push doğrulandı. Pano, renderlar, raporlar ve üretim betikleri gönderildi; Blender ve arşiv GLB dosyaları yerelde; tek güncel sıkıştırılmış web GLB gönderildi.
 
+
+R150 aday çalışması: ACT 2024 0.5m arazi rasteri ve 2,229,465 sınıflandırılmış nokta arşivlendi; iki hendekte 3,008.284m² eğimli aday üretildi. v001 köprü üstüne çıkan arazi ve pavyon duvar altı açıklıkları nedeniyle kabul edilmedi. Yeni GLB/push yok, güncel kabul R149, kapsam %74. Sonraki işlem köprü kaplama noktalarını mekânsal/kot filtresiyle ayırmak ve zemin örnek kapsamını ölçmek.
+
+
+2026-10-10 11:43:34 UTC — 1e9df9476c2eb8357cbf6e468be36db35f40a878 origin/main normal push doğrulandı. Pano, renderlar, raporlar ve üretim betikleri gönderildi; Blender ve arşiv GLB dosyaları yerelde; tek güncel sıkıştırılmış web GLB gönderildi.
+
