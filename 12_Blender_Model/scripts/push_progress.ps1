@@ -1,4 +1,4 @@
-param([switch]$Publish, [string]$Message = "Update verified Mudam production progress")
+param([switch]$Publish, [string]$Message = "Update verified Mudam production progress", [string[]]$IncludePaths = @())
 $ErrorActionPreference = 'Stop'
 $mudamRoot = (Resolve-Path (Join-Path $PSScriptRoot '../..')).Path
 Push-Location -LiteralPath $mudamRoot
@@ -22,9 +22,16 @@ try {
     & $mudamPython -X utf8 '12_Blender_Model/scripts/prepare_web_model.py'
     if ($LASTEXITCODE -ne 0) { throw 'Verified web model preparation failed.' }
     $allowed = @('12_Blender_Model/exports/current.glb.gz','.gitignore','11_Blender_Modelleme_Plani/is_paketleri.json','11_Blender_Modelleme_Plani/00_MODELLEME_ANA_PLANI.md','12_Blender_Model/URETIM.html','12_Blender_Model/URETIM_DURUMU.html','12_Blender_Model/URETIM_DURUMU.md','12_Blender_Model/PLAN_KONTROL.html','12_Blender_Model/MODEL_INCELEME.html','12_Blender_Model/assets','12_Blender_Model/config','12_Blender_Model/reports','12_Blender_Model/renders','12_Blender_Model/references','12_Blender_Model/scripts','12_Blender_Model/textures')
+    $allowed += '12_Blender_Model/CEVRE_ADAY.html'
     $modelPattern = '\.(blend\d*|glb|gltf|fbx|obj|stl|ply|usd[acz]?|abc|bin)(\.gz)?$'
     $webModel = '12_Blender_Model/exports/current.glb.gz'
     $paths = @(& git -c core.quotepath=false ls-files --modified --others --exclude-standard -- $allowed | Sort-Object -Unique | Where-Object { ($_ -notmatch $modelPattern -or $_ -eq $webModel) -and $_ -notmatch 'initial_dark\.jpg$' -and ($_ -notmatch '/R(\d+)_' -or [int]$Matches[1] -le $revision) })
+    if ($IncludePaths.Count) {
+        foreach ($requested in $IncludePaths) {
+            if ($requested -notin $paths) { throw "Requested path is unchanged or outside publication allowlist: $requested" }
+        }
+        $paths = @($paths | Where-Object { $_ -in $IncludePaths })
+    }
     foreach ($path in $paths) {
         $limit = if ($path -eq $webModel) { 100000000 } else { 50000000 }
         if ((Test-Path -LiteralPath $path) -and (Get-Item -LiteralPath $path).Length -gt $limit) { throw "Progress artifact too large: $path" }
