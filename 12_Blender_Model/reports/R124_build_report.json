@@ -1,0 +1,85 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R124_DUVAR_YUZEY_BIRLESIM_v005.blend",
+  "base_scene": "MUDAM_R123_CATI_YINELENEN_PROFILLER_v001.blend",
+  "closed_objects": [],
+  "changed_inherited_objects": [
+    "R117_E_BRIDGE_WALL_END",
+    "R14_INNER_WALL_B",
+    "R27_CONTINUOUS_HEAD",
+    "R83_CAFE_BACK_WALL",
+    "R94_EAST_HIGH_WALL_JOIN"
+  ],
+  "operations": [
+    {
+      "name": "R94_EAST_HIGH_WALL_JOIN",
+      "against": "P05_GALLERY_HALL_EAST2_R02_ABOVE",
+      "before_volume": 24.441270452991347,
+      "after_volume": 23.613794216125648,
+      "removed_overlap_volume": 0.8274762368656994
+    },
+    {
+      "name": "R27_CONTINUOUS_HEAD",
+      "against": "P07_ENTRY_RETURN_0",
+      "before_volume": 531.7990161938611,
+      "after_volume": 527.8553410256183,
+      "removed_overlap_volume": 3.943675168242862
+    },
+    {
+      "name": "R83_CAFE_BACK_WALL",
+      "against": "R82_ENTRY_INNER_WALL",
+      "before_volume": 77.68209796848296,
+      "after_volume": 76.8205133778597,
+      "removed_overlap_volume": 0.8615845906232664
+    },
+    {
+      "name": "R14_INNER_WALL_B",
+      "against": "R14_INNER_WALL_A",
+      "before_volume": 26.490798868655396,
+      "after_volume": 25.237705214490482,
+      "removed_overlap_volume": 1.253093654164914
+    },
+    {
+      "name": "R117_E_BRIDGE_WALL_END",
+      "against": "R23_E_3_JAMB_A",
+      "before_volume": 1.9257194379395672,
+      "after_volume": 1.356682790438442,
+      "removed_overlap_volume": 0.5690366475011253
+    }
+  ],
+  "checked_pairs": [
+    [
+      "R94_EAST_HIGH_WALL_JOIN",
+      "P05_GALLERY_HALL_EAST2_R02_ABOVE"
+    ],
+    [
+      "R27_CONTINUOUS_HEAD",
+      "P07_ENTRY_RETURN_0"
+    ],
+    [
+      "R83_CAFE_BACK_WALL",
+      "R82_ENTRY_INNER_WALL"
+    ],
+    [
+      "R14_INNER_WALL_B",
+      "R14_INNER_WALL_A"
+    ],
+    [
+      "R117_E_BRIDGE_WALL_END",
+      "R23_E_3_JAMB_A"
+    ]
+  ],
+  "source_ids": [
+    "102",
+    "103",
+    "R14",
+    "R27",
+    "R83",
+    "R94",
+    "R117"
+  ],
+  "construction_acceptance": false,
+  "visual_acceptance": true,
+  "limits": [
+    "Existing wall surfaces retained; duplicate intersection volumes removed. No new architectural dimensions."
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R125_ALT_KAT_VE_SERVIS_DUVAR_BIRLESIM_v002.blend",
+  "reviewed_images": [
+    {
+      "path": "12_Blender_Model/renders/qa/R125_after_lower.png",
+      "sha256": "baa59637df39f5d74ed8d3df6b31633912abbe61e6a11429177174f1222aa864"
+    },
+    {
+      "path": "12_Blender_Model/renders/qa/R125_after_service.png",
+      "sha256": "d3d164866b6315d25dbcdf50743b5fe27b96088bb24fef8d8acc6ab15671a4bb"
+    },
+    {
+      "path": "12_Blender_Model/renders/qa/R125_after_west.png",
+      "sha256": "3ecd08ef91601de92f8aa6909d04075ee3190998f8d9c0badfd7c0fea35be02a"
+    },
+    {
+      "path": "12_Blender_Model/renders/qa/R125_before_lower.png",
+      "sha256": "853252e7a29384a12ac0e7bf20006d35e609edd80b834a13a5a6b56922512dea"
+    },
+    {
+      "path": "12_Blender_Model/renders/qa/R125_before_service.png",
+      "sha256": "5d93b8142889e8f9d0dc66c7de255426dbc4d53e627807d7a1e019babff0bb5e"
+    },
+    {
+      "path": "12_Blender_Model/renders/qa/R125_before_west.png",
+      "sha256": "a056a908259340fc89c499bdec3036c8a81799b9135d57beeb64e6b2dccef4d4"
+    }
+  ],
+  "failures": [],
+  "scope": "Six before-after images opened: upper service passages, west glazing boundary and lower auditorium."
+}

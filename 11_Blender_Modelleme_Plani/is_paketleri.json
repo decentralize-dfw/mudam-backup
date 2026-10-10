@@ -220,13 +220,18 @@
         "1.364 yerel örneğin 716sında önce çift/üçlü yüzey vardı; sonra tüm örneklerde tek yüzey var. Beş mevcut nesne değişti, yeni nesne ve ölçü eklenmedi. Bütün bina kabulü değildir.",
         "15.436 örneğin 306sında önce çift üst yüzey vardı; sonra tüm örneklerde tek yüzey var. Üç mevcut nesne değişti, yeni nesne veya ölçü yok. Bütün bina kabulü değildir.",
         "Altı mevcut nesne değişti; yeni nesne veya mimari ölçü yok. 47.667 konumun 1.569unda önce çift yüzey vardı; sonra tüm örneklerde tek üst yüzey var. Bütün bina kabulü değildir.",
-        "İki mevcut nesne değişti. 7.178 konumun 152sinde önce çift üst yüzey vardı; sonra tamamında tek yüzey var. Örtü kapsamı korundu; bütün bina kabulü değildir."
+        "İki mevcut nesne değişti. 7.178 konumun 152sinde önce çift üst yüzey vardı; sonra tamamında tek yüzey var. Örtü kapsamı korundu; bütün bina kabulü değildir.",
+        "Beş mevcut nesne değişti, yeni nesne veya mimari boyut yok. Altı yönden 88.912 örnekte birleşik dış sınır ve açıklıklar korundu. Bütün bina kabulü değildir.",
+        "Yedi mevcut nesne değişti; yeni nesne veya mimari boyut yok. 24.036 ışında birleşik dış sınır ve açıklık kapsamı korundu. Bütün bina kabulü değildir.",
+        "Beş mevcut nesne değişti; yeni nesne veya mimari boyut yok. 6.336 örnekte zemin kapsamı korundu, önceki 304 çift üst yüzey giderildi. Bütün bina kabulü değildir.",
+        "Dört mevcut nesne değişti; yeni nesne veya mimari boyut yok. Altı yönden 250.156 örnekte birleşik dış sınır korundu. Bütün bina kabulü değildir.",
+        "Bir mevcut örtü değişti; yeni nesne veya mimari boyut yok. Birleşik dış sınır korunumu örneklendi; bütün bina kabulü değildir."
       ],
       "updated": "2026-10-08",
       "dependency_mode": "regional_study_only_no_global_acceptance",
       "artifacts": [
-        "12_Blender_Model/scenes/MUDAM_R122_UST_ORTU_YUZEY_BIRLESIM_v001.blend",
-        "12_Blender_Model/reports/R122_KONTROL_RAPORU.md",
+        "12_Blender_Model/scenes/MUDAM_R128_OKUMA_DOGU_ODA_ORTU_BIRLESIM_v001.blend",
+        "12_Blender_Model/reports/R128_KONTROL_RAPORU.md",
         "12_Blender_Model/reports/R44_KONTROL_RAPORU.md",
         "12_Blender_Model/reports/R52_KONTROL_RAPORU.md",
         "12_Blender_Model/reports/R60_KONTROL_RAPORU.md",
@@ -277,7 +282,12 @@
         "12_Blender_Model/reports/R118_KONTROL_RAPORU.md",
         "12_Blender_Model/reports/R119_KONTROL_RAPORU.md",
         "12_Blender_Model/reports/R120_KONTROL_RAPORU.md",
-        "12_Blender_Model/reports/R121_KONTROL_RAPORU.md"
+        "12_Blender_Model/reports/R121_KONTROL_RAPORU.md",
+        "12_Blender_Model/reports/R122_KONTROL_RAPORU.md",
+        "12_Blender_Model/reports/R124_KONTROL_RAPORU.md",
+        "12_Blender_Model/reports/R125_KONTROL_RAPORU.md",
+        "12_Blender_Model/reports/R126_KONTROL_RAPORU.md",
+        "12_Blender_Model/reports/R127_KONTROL_RAPORU.md"
       ],
       "completed_scope": [
         "Duvar/döşeme bölgesel kabukları kapalı; merdiven nişi ve galeri camlarıyla yerel kesimler koordine edildi.",
@@ -330,7 +340,12 @@
         "Üst galerilerin dört eşiğinde ve batı dönüş döşemesinde yinelenen yüzeyler ayrıldı. Tamamen diğer döşemenin içinde kalan bir dönüş parçası gizlendi; açıklıklar ve bitmiş zemin kotu korundu.",
         "Alt fuaye ile oditoryum döşemesinin çakışan ön şeridi ayrıldı. Fuaye döşemesiyle bütünüyle örtüşen iki giriş döşemesi gizlendi; özgün nesneler ve girişlerin zemin kapanışı korundu.",
         "Zemin katta doğu dolaşım alanı, batı kafe ve küçük oda birleşimindeki üst üste binen döşeme hacimleri ayrıldı. Tamamen yinelenen bağlantı eşiği gizlendi; döşeme kapsamı korundu.",
-        "Batı üst kat dönüş tavanındaki yinelenen örtü gizlendi; kafe tavanı ile ön servis örtüsünün örtüşen hacmi ayrıldı."
+        "Batı üst kat dönüş tavanındaki yinelenen örtü gizlendi; kafe tavanı ile ön servis örtüsünün örtüşen hacmi ayrıldı.",
+        "Doğu yüksek duvarı, giriş başlığı, kafe sınırı, batı iç duvar ve köprü ucundaki yinelenen duvar hacimleri ayrıldı.",
+        "Alt oditoryum giriş duvarları, üst servis geçitleri ve batı cam/galeri duvar sınırlarında yedi hacim örtüşmesi ayrıldı.",
+        "Üst köprü, sahanlık, okuma odası, Studio ve doğu oda döşemelerinin altı örtüşmesi ayrıldı.",
+        "Alt fuaye örtüsü ile oditoryumun iki yan örtüsü ve iki alt galeri örtüsünün dört hacim çakışması ayrıldı.",
+        "Okuma odasının eğimli örtüsü ile doğu odasının düz örtüsü arasındaki yinelenen hacim ayrıldı."
       ],
       "coverage_as_of": "R55"
     },
@@ -458,7 +473,7 @@
       "updated": "2026-10-08",
       "dependency_mode": "regional_study_only_no_global_acceptance",
       "artifacts": [
-        "12_Blender_Model/scenes/MUDAM_R123_CATI_YINELENEN_PROFILLER_v001.blend",
+        "12_Blender_Model/scenes/MUDAM_R128_OKUMA_DOGU_ODA_ORTU_BIRLESIM_v001.blend",
         "12_Blender_Model/reports/R12_BATI_DUZ_CAM_RAPORU.md",
         "12_Blender_Model/reports/R13_PAVYON_CAM_RAPORU.md",
         "12_Blender_Model/reports/R26_DOGU_CATI_BAGLANTI_RAPORU.md",
@@ -622,7 +637,7 @@
       "updated": "2026-10-08",
       "dependency_mode": "regional_checkpoint_no_global_acceptance",
       "artifacts": [
-        "12_Blender_Model/scenes/MUDAM_R123_CATI_YINELENEN_PROFILLER_v001.blend",
+        "12_Blender_Model/scenes/MUDAM_R128_OKUMA_DOGU_ODA_ORTU_BIRLESIM_v001.blend",
         "12_Blender_Model/reports/P19_P21_ONIZLEME_RAPORU.md",
         "12_Blender_Model/reports/R34_GIRIS_KOPRULERI_RAPORU.md",
         "12_Blender_Model/reports/R48_KONTROL_RAPORU.md",
@@ -775,7 +790,7 @@
       "updated": "2026-10-08",
       "dependency_mode": "regional_checkpoint_no_global_acceptance",
       "artifacts": [
-        "12_Blender_Model/scenes/MUDAM_R123_CATI_YINELENEN_PROFILLER_v001.blend",
+        "12_Blender_Model/scenes/MUDAM_R128_OKUMA_DOGU_ODA_ORTU_BIRLESIM_v001.blend",
         "12_Blender_Model/reports/P19_P21_ONIZLEME_RAPORU.md",
         "12_Blender_Model/reports/R08_OKUMA_TAVANI_RAPORU.md",
         "12_Blender_Model/reports/R09_OKUMA_MEKANI_RAPORU.md",
@@ -891,7 +906,7 @@
       "updated": "2026-10-08",
       "dependency_mode": "regional_checkpoint_no_global_acceptance",
       "artifacts": [
-        "12_Blender_Model/scenes/MUDAM_R123_CATI_YINELENEN_PROFILLER_v001.blend",
+        "12_Blender_Model/scenes/MUDAM_R128_OKUMA_DOGU_ODA_ORTU_BIRLESIM_v001.blend",
         "12_Blender_Model/reports/P19_P21_ONIZLEME_RAPORU.md",
         "12_Blender_Model/reports/R32_TAS_AHSAP_RAPORU.md",
         "12_Blender_Model/reports/R43_KONTROL_RAPORU.md",
@@ -955,12 +970,12 @@
       "acceptance": "Birim/eksen/malzeme geri yüklemede doğru; performans ölçülmüş",
       "status": "in_progress",
       "open_issues": [
-        "8477 mesh / 2489486 üçgen GLB aktarımı denetlendi; hedef motor ve sadeleştirme açık."
+        "8477 mesh / 2489610 üçgen GLB aktarımı denetlendi; hedef motor ve sadeleştirme açık."
       ],
       "updated": "2026-10-08",
       "dependency_mode": "regional_checkpoint_no_global_acceptance",
       "artifacts": [
-        "12_Blender_Model/scenes/MUDAM_R123_CATI_YINELENEN_PROFILLER_v001.blend",
+        "12_Blender_Model/scenes/MUDAM_R128_OKUMA_DOGU_ODA_ORTU_BIRLESIM_v001.blend",
         "12_Blender_Model/reports/P19_P21_ONIZLEME_RAPORU.md"
       ]
     },
@@ -1012,7 +1027,7 @@
     "P21",
     "P22"
   ],
-  "latest_scene": "12_Blender_Model/scenes/MUDAM_R123_CATI_YINELENEN_PROFILLER_v001.blend",
+  "latest_scene": "12_Blender_Model/scenes/MUDAM_R128_OKUMA_DOGU_ODA_ORTU_BIRLESIM_v001.blend",
   "scope_constraints": {
     "priority": "Bina ve kalıcı mimari sistemler",
     "excluded": [

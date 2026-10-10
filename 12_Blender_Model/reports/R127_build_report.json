@@ -1,0 +1,70 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R127_ALT_KAT_ORTU_BIRLESIM_v001.blend",
+  "base_scene": "MUDAM_R126_UST_KAT_DOSEME_SINIRLARI_v002.blend",
+  "closed_objects": [],
+  "changed_inherited_objects": [
+    "R19_CEILING_LEFT",
+    "R19_CEILING_RIGHT",
+    "R29_E_CEILING",
+    "R29_W_CEILING"
+  ],
+  "operations": [
+    {
+      "name": "R19_CEILING_LEFT",
+      "against": "R06_FOYER_CEILING_AND_CURVED_FASCIA",
+      "before_volume": 28.330121950186,
+      "after_volume": 28.055432853303273,
+      "removed_overlap_volume": 0.274689096882728
+    },
+    {
+      "name": "R19_CEILING_RIGHT",
+      "against": "R06_FOYER_CEILING_AND_CURVED_FASCIA",
+      "before_volume": 28.3301251016437,
+      "after_volume": 28.07656641485581,
+      "removed_overlap_volume": 0.25355868678788696
+    },
+    {
+      "name": "R29_E_CEILING",
+      "against": "R06_FOYER_CEILING_AND_CURVED_FASCIA",
+      "before_volume": 61.9294126979253,
+      "after_volume": 61.80430799851888,
+      "removed_overlap_volume": 0.1251046994064211
+    },
+    {
+      "name": "R29_W_CEILING",
+      "against": "R06_FOYER_CEILING_AND_CURVED_FASCIA",
+      "before_volume": 71.87256480042642,
+      "after_volume": 71.8283050059468,
+      "removed_overlap_volume": 0.04425979447961481
+    }
+  ],
+  "checked_pairs": [
+    [
+      "R19_CEILING_LEFT",
+      "R06_FOYER_CEILING_AND_CURVED_FASCIA"
+    ],
+    [
+      "R19_CEILING_RIGHT",
+      "R06_FOYER_CEILING_AND_CURVED_FASCIA"
+    ],
+    [
+      "R29_E_CEILING",
+      "R06_FOYER_CEILING_AND_CURVED_FASCIA"
+    ],
+    [
+      "R29_W_CEILING",
+      "R06_FOYER_CEILING_AND_CURVED_FASCIA"
+    ]
+  ],
+  "source_ids": [
+    "104",
+    "R06",
+    "R19",
+    "R29"
+  ],
+  "construction_acceptance": false,
+  "visual_acceptance": true,
+  "limits": [
+    "Existing wall surfaces retained; duplicate intersection volumes removed. No new architectural dimensions."
+  ]
+}

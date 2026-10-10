@@ -1,0 +1,23 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R126_UST_KAT_DOSEME_SINIRLARI_v002.blend",
+  "reviewed_images": [
+    {
+      "path": "12_Blender_Model/renders/qa/R126_after_bridge.png",
+      "sha256": "b910a916fa4b805bb764cf41d2c650a518c1f9e4b7657fbfcd0d66373178562e"
+    },
+    {
+      "path": "12_Blender_Model/renders/qa/R126_after_upper_front.png",
+      "sha256": "cdbdb84b909cc1f59624bb310c39868101bd7b706c684e3cf58f0b00e8033400"
+    },
+    {
+      "path": "12_Blender_Model/renders/qa/R126_before_bridge.png",
+      "sha256": "d02c3ee4898f3558396cc4f7b607a123a2dc04c81de89acc29dd517f8db15f0a"
+    },
+    {
+      "path": "12_Blender_Model/renders/qa/R126_before_upper_front.png",
+      "sha256": "4e5b6858071988e236c70696e4a6251e99aca8bda71b65eeeb309801a3827a2b"
+    }
+  ],
+  "failures": [],
+  "scope": "Four before-after images opened: upper room floors and bridge."
+}

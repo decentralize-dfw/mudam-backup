@@ -1,0 +1,23 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R127_ALT_KAT_ORTU_BIRLESIM_v001.blend",
+  "reviewed_images": [
+    {
+      "path": "12_Blender_Model/renders/qa/R127_after_lower_cover.png",
+      "sha256": "cee485fa0158bbcdf2c1796c2b4e237a800c0f1045db19004ea323025875db76"
+    },
+    {
+      "path": "12_Blender_Model/renders/qa/R127_after_lower_side.png",
+      "sha256": "35009f4cc191d105499954f4e5f30b0f17a2d4e1b882ffc35b4629a2b427905e"
+    },
+    {
+      "path": "12_Blender_Model/renders/qa/R127_before_lower_cover.png",
+      "sha256": "fa3144c02bdbbde3118cf42421ad13394d3b8ac6cc8082f62ae0e7460804e58b"
+    },
+    {
+      "path": "12_Blender_Model/renders/qa/R127_before_lower_side.png",
+      "sha256": "29b8d786971543338f8bb2abac5d79590b9bf8d24ec430b7bb830e67f49e9780"
+    }
+  ],
+  "failures": [],
+  "scope": "Four before-after images opened: lower foyer and auditorium ceiling junctions."
+}

@@ -1,0 +1,21 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R127_ALT_KAT_ORTU_BIRLESIM_v001.blend",
+  "base_scene": "12_Blender_Model/scenes/MUDAM_R126_UST_KAT_DOSEME_SINIRLARI_v002.blend",
+  "inherited_objects_checked": 9350,
+  "changed_inherited_objects": [
+    "R19_CEILING_LEFT",
+    "R19_CEILING_RIGHT",
+    "R29_E_CEILING",
+    "R29_W_CEILING"
+  ],
+  "allowed_changes": [
+    "R19_CEILING_LEFT",
+    "R19_CEILING_RIGHT",
+    "R29_E_CEILING",
+    "R29_W_CEILING"
+  ],
+  "allowed_but_unchanged": [],
+  "new_objects": [],
+  "failures": [],
+  "construction_acceptance": false
+}

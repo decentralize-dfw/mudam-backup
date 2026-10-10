@@ -1668,5 +1668,90 @@
     "image": "R123_after_roof_profiles.png",
     "description": "Ana cam çatının dördüncü yüzünde aynı yerde iki kez üretilmiş iki çelik profil gizlendi; mevcut karşılıkları korundu.",
     "limits": "İki nesne değişti. Eşleşen profillerin en büyük köşe farkı 0,0027 mm; yüzler ve malzemeler aynı. Yeni mimari boyut yok; bütün bina kabulü değildir."
+  },
+  {
+    "id": "R124",
+    "checks": [
+      "R124_verification.json",
+      "R124_global_audit.json",
+      "R124_inherited_verification.json",
+      "R124_visual_verification.json"
+    ],
+    "tasks": [
+      "P07"
+    ],
+    "report": "R124_KONTROL_RAPORU.md",
+    "title": "Duvar yüzey birleşimleri / R124",
+    "image": "R124_after_SS4_5_petite.png",
+    "description": "Doğu yüksek duvarı, giriş başlığı, kafe sınırı, batı iç duvar ve köprü ucundaki yinelenen duvar hacimleri ayrıldı.",
+    "limits": "Beş mevcut nesne değişti, yeni nesne veya mimari boyut yok. Altı yönden 88.912 örnekte birleşik dış sınır ve açıklıklar korundu. Bütün bina kabulü değildir."
+  },
+  {
+    "id": "R125",
+    "checks": [
+      "R125_verification.json",
+      "R125_global_audit.json",
+      "R125_inherited_verification.json",
+      "R125_visual_verification.json"
+    ],
+    "tasks": [
+      "P07"
+    ],
+    "report": "R125_KONTROL_RAPORU.md",
+    "title": "Alt kat ve servis duvar birleşimleri / R125",
+    "image": "R125_after_service.png",
+    "description": "Alt oditoryum giriş duvarları, üst servis geçitleri ve batı cam/galeri duvar sınırlarında yedi hacim örtüşmesi ayrıldı.",
+    "limits": "Yedi mevcut nesne değişti; yeni nesne veya mimari boyut yok. 24.036 ışında birleşik dış sınır ve açıklık kapsamı korundu. Bütün bina kabulü değildir."
+  },
+  {
+    "id": "R126",
+    "checks": [
+      "R126_verification.json",
+      "R126_global_audit.json",
+      "R126_inherited_verification.json",
+      "R126_visual_verification.json"
+    ],
+    "tasks": [
+      "P07"
+    ],
+    "report": "R126_KONTROL_RAPORU.md",
+    "title": "Üst kat döşeme sınırları / R126",
+    "image": "R126_after_upper_front.png",
+    "description": "Üst köprü, sahanlık, okuma odası, Studio ve doğu oda döşemelerinin altı örtüşmesi ayrıldı.",
+    "limits": "Beş mevcut nesne değişti; yeni nesne veya mimari boyut yok. 6.336 örnekte zemin kapsamı korundu, önceki 304 çift üst yüzey giderildi. Bütün bina kabulü değildir."
+  },
+  {
+    "id": "R127",
+    "checks": [
+      "R127_verification.json",
+      "R127_global_audit.json",
+      "R127_inherited_verification.json",
+      "R127_visual_verification.json"
+    ],
+    "tasks": [
+      "P07"
+    ],
+    "report": "R127_KONTROL_RAPORU.md",
+    "title": "Alt kat örtü birleşimleri / R127",
+    "image": "R127_after_lower_cover.png",
+    "description": "Alt fuaye örtüsü ile oditoryumun iki yan örtüsü ve iki alt galeri örtüsünün dört hacim çakışması ayrıldı.",
+    "limits": "Dört mevcut nesne değişti; yeni nesne veya mimari boyut yok. Altı yönden 250.156 örnekte birleşik dış sınır korundu. Bütün bina kabulü değildir."
+  },
+  {
+    "id": "R128",
+    "checks": [
+      "R128_verification.json",
+      "R128_global_audit.json",
+      "R128_inherited_verification.json",
+      "R128_visual_verification.json"
+    ],
+    "tasks": [
+      "P07"
+    ],
+    "report": "R128_KONTROL_RAPORU.md",
+    "title": "Okuma–doğu oda örtü birleşimi / R128",
+    "image": "R128_after_upper_join.png",
+    "description": "Okuma odasının eğimli örtüsü ile doğu odasının düz örtüsü arasındaki yinelenen hacim ayrıldı.",
+    "limits": "Bir mevcut örtü değişti; yeni nesne veya mimari boyut yok. Birleşik dış sınır korunumu örneklendi; bütün bina kabulü değildir."
   }
 ]

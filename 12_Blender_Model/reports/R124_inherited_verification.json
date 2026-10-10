@@ -1,0 +1,23 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R124_DUVAR_YUZEY_BIRLESIM_v005.blend",
+  "base_scene": "12_Blender_Model/scenes/MUDAM_R123_CATI_YINELENEN_PROFILLER_v001.blend",
+  "inherited_objects_checked": 9350,
+  "changed_inherited_objects": [
+    "R14_INNER_WALL_B",
+    "R27_CONTINUOUS_HEAD",
+    "R83_CAFE_BACK_WALL",
+    "R94_EAST_HIGH_WALL_JOIN",
+    "R117_E_BRIDGE_WALL_END"
+  ],
+  "allowed_changes": [
+    "R117_E_BRIDGE_WALL_END",
+    "R14_INNER_WALL_B",
+    "R27_CONTINUOUS_HEAD",
+    "R83_CAFE_BACK_WALL",
+    "R94_EAST_HIGH_WALL_JOIN"
+  ],
+  "allowed_but_unchanged": [],
+  "new_objects": [],
+  "failures": [],
+  "construction_acceptance": false
+}

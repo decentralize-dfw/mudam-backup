@@ -1,0 +1,15 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R128_OKUMA_DOGU_ODA_ORTU_BIRLESIM_v001.blend",
+  "reviewed_images": [
+    {
+      "path": "12_Blender_Model/renders/qa/R128_after_upper_join.png",
+      "sha256": "aaf5449c0394200e3b371bd96eef1ae13d5d3cb1d97bdf251b35345dae954ceb"
+    },
+    {
+      "path": "12_Blender_Model/renders/qa/R128_before_upper_join.png",
+      "sha256": "5424feb1d0f672e64826037fd1edc73ea9bb73fce1bd6a21599b61851bd8ca81"
+    }
+  ],
+  "failures": [],
+  "scope": "Two before-after images opened: reading room slope and adjoining east room cover."
+}

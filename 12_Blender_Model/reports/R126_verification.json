@@ -1,0 +1,25 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R126_UST_KAT_DOSEME_SINIRLARI_v002.blend",
+  "summaries": [
+    {
+      "phase": "before",
+      "samples": 6336,
+      "coverage_counts": {
+        "1": 6032,
+        "2": 304
+      },
+      "duplicate_samples": 304
+    },
+    {
+      "phase": "after",
+      "samples": 6336,
+      "coverage_counts": {
+        "1": 6336
+      },
+      "duplicate_samples": 0
+    }
+  ],
+  "failures": [],
+  "construction_acceptance": false,
+  "scope": "Original upper floor footprints sampled at 0.25m spacing; preserve coverage with one finished surface."
+}

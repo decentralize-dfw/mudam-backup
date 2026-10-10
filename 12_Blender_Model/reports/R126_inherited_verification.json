@@ -1,0 +1,23 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R126_UST_KAT_DOSEME_SINIRLARI_v002.blend",
+  "base_scene": "12_Blender_Model/scenes/MUDAM_R125_ALT_KAT_VE_SERVIS_DUVAR_BIRLESIM_v002.blend",
+  "inherited_objects_checked": 9350,
+  "changed_inherited_objects": [
+    "P17_READING_FLOOR",
+    "R23_THRESHOLD_E_BRIDGE",
+    "R23_THRESHOLD_W_BRIDGE",
+    "R30_LANDING_FLOOR",
+    "R96_DOCUMENTATION_EAST_FLOOR"
+  ],
+  "allowed_changes": [
+    "P17_READING_FLOOR",
+    "R23_THRESHOLD_E_BRIDGE",
+    "R23_THRESHOLD_W_BRIDGE",
+    "R30_LANDING_FLOOR",
+    "R96_DOCUMENTATION_EAST_FLOOR"
+  ],
+  "allowed_but_unchanged": [],
+  "new_objects": [],
+  "failures": [],
+  "construction_acceptance": false
+}

@@ -1,0 +1,33 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R128_OKUMA_DOGU_ODA_ORTU_BIRLESIM_v001.blend",
+  "base_scene": "MUDAM_R127_ALT_KAT_ORTU_BIRLESIM_v001.blend",
+  "closed_objects": [],
+  "changed_inherited_objects": [
+    "R96_DOCUMENTATION_EAST_CEILING"
+  ],
+  "operations": [
+    {
+      "name": "R96_DOCUMENTATION_EAST_CEILING",
+      "against": "R08_STONE_CEILING_2",
+      "before_volume": 12.560299077008626,
+      "after_volume": 12.550055257886074,
+      "removed_overlap_volume": 0.010243819122552011
+    }
+  ],
+  "checked_pairs": [
+    [
+      "R96_DOCUMENTATION_EAST_CEILING",
+      "R08_STONE_CEILING_2"
+    ]
+  ],
+  "source_ids": [
+    "103",
+    "R08",
+    "R96"
+  ],
+  "construction_acceptance": false,
+  "visual_acceptance": true,
+  "limits": [
+    "Existing wall surfaces retained; duplicate intersection volumes removed. No new architectural dimensions."
+  ]
+}

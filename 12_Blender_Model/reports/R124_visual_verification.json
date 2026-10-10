@@ -1,0 +1,31 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R124_DUVAR_YUZEY_BIRLESIM_v005.blend",
+  "reviewed_images": [
+    {
+      "path": "12_Blender_Model/renders/qa/R124_after_SS1_exterior.png",
+      "sha256": "ff76e4def91df17dd92d28ed5f4c95bdbfa4aecf2e2b3dc1566fa5c67f405e3f"
+    },
+    {
+      "path": "12_Blender_Model/renders/qa/R124_after_SS4_5_petite.png",
+      "sha256": "de53ededaf6d7fe1c50449c89e1fa5d8d3e7f0d801d8d5ac1330c78b8a7f66a4"
+    },
+    {
+      "path": "12_Blender_Model/renders/qa/R124_after_SS7_corner.png",
+      "sha256": "5dffea45bbd0937001622f3fc5609c1370804598da0697f498381f6e9eff0153"
+    },
+    {
+      "path": "12_Blender_Model/renders/qa/R124_before_SS1_exterior.png",
+      "sha256": "b063837cca8fba8271624f9729c569d61ada9604df8399053250ac62a96e0286"
+    },
+    {
+      "path": "12_Blender_Model/renders/qa/R124_before_SS4_5_petite.png",
+      "sha256": "ace827e97681d249fa38a7ecbd70caedee1957418fc31fca61d557feb83cad34"
+    },
+    {
+      "path": "12_Blender_Model/renders/qa/R124_before_SS7_corner.png",
+      "sha256": "188c2a65c74f63a12e3b9dbf3a4f4b0e5561a8a1bfec95a2bf28e3682a205a5d"
+    }
+  ],
+  "failures": [],
+  "scope": "Six before-after images opened: exterior, west cafe/stair and east gallery portal."
+}

@@ -1,0 +1,27 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R125_ALT_KAT_VE_SERVIS_DUVAR_BIRLESIM_v002.blend",
+  "base_scene": "12_Blender_Model/scenes/MUDAM_R124_DUVAR_YUZEY_BIRLESIM_v005.blend",
+  "inherited_objects_checked": 9350,
+  "changed_inherited_objects": [
+    "P11_WEST_STONE_BASE_17",
+    "R14_GALLERY_WALL_RETAINED",
+    "R19_STAGE_BACK_0",
+    "R19_STAGE_BACK_6",
+    "R31_PASSAGE_SIDE_N",
+    "R31_PASSAGE_SIDE_S",
+    "R101_PASSAGE_SOUTH_SIDE"
+  ],
+  "allowed_changes": [
+    "P11_WEST_STONE_BASE_17",
+    "R101_PASSAGE_SOUTH_SIDE",
+    "R14_GALLERY_WALL_RETAINED",
+    "R19_STAGE_BACK_0",
+    "R19_STAGE_BACK_6",
+    "R31_PASSAGE_SIDE_N",
+    "R31_PASSAGE_SIDE_S"
+  ],
+  "allowed_but_unchanged": [],
+  "new_objects": [],
+  "failures": [],
+  "construction_acceptance": false
+}

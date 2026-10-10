@@ -1,0 +1,110 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R125_ALT_KAT_VE_SERVIS_DUVAR_BIRLESIM_v002.blend",
+  "base_scene": "MUDAM_R124_DUVAR_YUZEY_BIRLESIM_v005.blend",
+  "closed_objects": [],
+  "changed_inherited_objects": [
+    "P11_WEST_STONE_BASE_17",
+    "R101_PASSAGE_SOUTH_SIDE",
+    "R14_GALLERY_WALL_RETAINED",
+    "R19_STAGE_BACK_0",
+    "R19_STAGE_BACK_6",
+    "R31_PASSAGE_SIDE_N",
+    "R31_PASSAGE_SIDE_S"
+  ],
+  "operations": [
+    {
+      "name": "P11_WEST_STONE_BASE_17",
+      "against": "P05_WEST_END",
+      "before_volume": 1.4508591816254803,
+      "after_volume": 1.391324774154766,
+      "removed_overlap_volume": 0.05953440747071426
+    },
+    {
+      "name": "R19_STAGE_BACK_0",
+      "against": "R19_FRONT_L_INNER",
+      "before_volume": 0.8839943124174043,
+      "after_volume": 0.7109420807066709,
+      "removed_overlap_volume": 0.17305223171073347
+    },
+    {
+      "name": "R19_STAGE_BACK_6",
+      "against": "R19_FRONT_R_OUTER",
+      "before_volume": 0.8840087425714112,
+      "after_volume": 0.7109563184852661,
+      "removed_overlap_volume": 0.17305242408614507
+    },
+    {
+      "name": "R101_PASSAGE_SOUTH_SIDE",
+      "against": "R96_DOCUMENTATION_EAST_WALL_8",
+      "before_volume": 1.1574270552916488,
+      "after_volume": 0.9144277263433418,
+      "removed_overlap_volume": 0.242999328948307
+    },
+    {
+      "name": "R31_PASSAGE_SIDE_N",
+      "against": "R31_EAST_JAMB_A",
+      "before_volume": 1.0101462364240683,
+      "after_volume": 0.8031479067684616,
+      "removed_overlap_volume": 0.20699832965560672
+    },
+    {
+      "name": "R31_PASSAGE_SIDE_S",
+      "against": "R31_EAST_JAMB_B",
+      "before_volume": 1.0101463040406409,
+      "after_volume": 0.8031479275278515,
+      "removed_overlap_volume": 0.2069983765127894
+    },
+    {
+      "name": "R14_GALLERY_WALL_RETAINED",
+      "against": "P05_GALLERY_HALL_WEST2",
+      "before_volume": 5.64552422269395,
+      "after_volume": 5.477797452085144,
+      "removed_overlap_volume": 0.16772677060880614
+    }
+  ],
+  "checked_pairs": [
+    [
+      "P11_WEST_STONE_BASE_17",
+      "P05_WEST_END"
+    ],
+    [
+      "R19_STAGE_BACK_0",
+      "R19_FRONT_L_INNER"
+    ],
+    [
+      "R19_STAGE_BACK_6",
+      "R19_FRONT_R_OUTER"
+    ],
+    [
+      "R101_PASSAGE_SOUTH_SIDE",
+      "R96_DOCUMENTATION_EAST_WALL_8"
+    ],
+    [
+      "R31_PASSAGE_SIDE_N",
+      "R31_EAST_JAMB_A"
+    ],
+    [
+      "R31_PASSAGE_SIDE_S",
+      "R31_EAST_JAMB_B"
+    ],
+    [
+      "R14_GALLERY_WALL_RETAINED",
+      "P05_GALLERY_HALL_WEST2"
+    ]
+  ],
+  "source_ids": [
+    "102",
+    "103",
+    "104",
+    "R14",
+    "R19",
+    "R31",
+    "R96",
+    "R101"
+  ],
+  "construction_acceptance": false,
+  "visual_acceptance": true,
+  "limits": [
+    "Existing wall surfaces retained; duplicate intersection volumes removed. No new architectural dimensions."
+  ]
+}

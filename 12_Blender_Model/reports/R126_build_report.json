@@ -1,0 +1,93 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R126_UST_KAT_DOSEME_SINIRLARI_v002.blend",
+  "base_scene": "MUDAM_R125_ALT_KAT_VE_SERVIS_DUVAR_BIRLESIM_v002.blend",
+  "closed_objects": [],
+  "changed_inherited_objects": [
+    "P17_READING_FLOOR",
+    "R23_THRESHOLD_E_BRIDGE",
+    "R23_THRESHOLD_W_BRIDGE",
+    "R30_LANDING_FLOOR",
+    "R96_DOCUMENTATION_EAST_FLOOR"
+  ],
+  "operations": [
+    {
+      "name": "R30_LANDING_FLOOR",
+      "against": "P05_FLOOR_LP1_BRIDGE",
+      "before_volume": 3.3389490312670604,
+      "after_volume": 2.935693232226331,
+      "removed_overlap_volume": 0.4032557990407293
+    },
+    {
+      "name": "P17_READING_FLOOR",
+      "against": "P05_FLOOR_LP1_BRIDGE",
+      "before_volume": 12.35061674226506,
+      "after_volume": 12.10181486704431,
+      "removed_overlap_volume": 0.24880187522075126
+    },
+    {
+      "name": "P17_READING_FLOOR",
+      "against": "P05_FLOOR_LP1_STUDIO",
+      "before_volume": 12.10181486704431,
+      "after_volume": 11.832886251710477,
+      "removed_overlap_volume": 0.2689286153338326
+    },
+    {
+      "name": "R23_THRESHOLD_W_BRIDGE",
+      "against": "P05_FLOOR_LP1_BRIDGE",
+      "before_volume": 0.7300049727944202,
+      "after_volume": 0.4505085559986526,
+      "removed_overlap_volume": 0.27949641679576764
+    },
+    {
+      "name": "R23_THRESHOLD_E_BRIDGE",
+      "against": "P05_FLOOR_LP1_BRIDGE",
+      "before_volume": 0.7300046481937152,
+      "after_volume": 0.6176144652696793,
+      "removed_overlap_volume": 0.11239018292403591
+    },
+    {
+      "name": "R96_DOCUMENTATION_EAST_FLOOR",
+      "against": "P17_READING_FLOOR",
+      "before_volume": 13.955887863343087,
+      "after_volume": 13.419005958753079,
+      "removed_overlap_volume": 0.5368819045900075
+    }
+  ],
+  "checked_pairs": [
+    [
+      "R30_LANDING_FLOOR",
+      "P05_FLOOR_LP1_BRIDGE"
+    ],
+    [
+      "P17_READING_FLOOR",
+      "P05_FLOOR_LP1_BRIDGE"
+    ],
+    [
+      "P17_READING_FLOOR",
+      "P05_FLOOR_LP1_STUDIO"
+    ],
+    [
+      "R23_THRESHOLD_W_BRIDGE",
+      "P05_FLOOR_LP1_BRIDGE"
+    ],
+    [
+      "R23_THRESHOLD_E_BRIDGE",
+      "P05_FLOOR_LP1_BRIDGE"
+    ],
+    [
+      "R96_DOCUMENTATION_EAST_FLOOR",
+      "P17_READING_FLOOR"
+    ]
+  ],
+  "source_ids": [
+    "103",
+    "R30",
+    "P17",
+    "R96"
+  ],
+  "construction_acceptance": false,
+  "visual_acceptance": true,
+  "limits": [
+    "Existing upper floor boundaries retained; duplicate coverage removed. No new architectural dimensions."
+  ]
+}

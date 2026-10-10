@@ -1,5 +1,5 @@
 {
-  "as_of_revision": "R123",
+  "as_of_revision": "R128",
   "basis": "Beş eşit iş adımı: tamam 20, kısmi 10, bekleyen 0 puan. Yaklaşık kapsam ilerlemesidir; ölçü doğruluğu veya harcanan süre oranı değildir. Yeni paket kabulünde ilgili adımlar yeniden değerlendirilir.",
   "tasks": {
     "P00": {
@@ -555,8 +555,8 @@
       ]
     }
   },
-  "last_reviewed_checkpoint": "R123",
-  "last_review_note": "Ana cam çatının dördüncü yüzünde aynı yerde iki kez üretilmiş iki çelik profil gizlendi; mevcut karşılıkları korundu.",
+  "last_reviewed_checkpoint": "R128",
+  "last_review_note": "Okuma odasının eğimli örtüsü ile doğu odasının düz örtüsü arasındaki yinelenen hacim ayrıldı.",
   "execution_order": [
     "Bina kabuğu: tüm duvarlar, zeminler, çatılar ve birleşimler",
     "Merdivenler ve sahanlıklar",
@@ -568,6 +568,6 @@
     "Çevre düzenlemesi"
   ],
   "current_priority": "Kullanıcının işaretlediği duvar/döşeme/çatı bütünlüğü ve kalan büyük mimari geometri eksikleri; paket kontrolleri bütün bina kabulü değildir.",
-  "review_note": "Ana cam çatının dördüncü yüzünde aynı yerde iki kez üretilmiş iki çelik profil gizlendi; mevcut karşılıkları korundu.",
-  "last_reviewed_revision": "R123"
+  "review_note": "Okuma odasının eğimli örtüsü ile doğu odasının düz örtüsü arasındaki yinelenen hacim ayrıldı.",
+  "last_reviewed_revision": "R128"
 }
