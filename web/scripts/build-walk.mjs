@@ -47,6 +47,7 @@ const STAIR_NAME = /TREAD|NOSING|AISLE|CORNER_LANDING/;
 const STAIR_TYPE = /tread|quarter_turn_flat_landing|radial_step/;
 const STAIR_LINK = 0.45; // treads this close in height, side by side, are one flight
 const RAMP_KNEE = 0.8;   // on a ramp, the stair's own treads and landings may rise this far above it
+const RAIL = 1.3;        // beside a ramp, things lower than this (handrails) leave no shoulder margin
 
 await MeshoptDecoder.ready;
 const io = new NodeIO().registerExtensions(ALL_EXTENSIONS).registerDependencies({ 'draco3d.decoder': await draco3d.createDecoderModule(), 'meshopt.decoder': MeshoptDecoder });
@@ -180,6 +181,39 @@ for (const t of stairTris) {
   if (normalY(t) < UP) continue;
   cover(t, (i, y0, y1) => { if (!treadFaces.has(i)) treadFaces.set(i, []); treadFaces.get(i).push(y1); });
 }
+// the highest tread face per cell: the stair's own surfaces reach up to here
+const treadTop = new Map([...treadFaces].map(([i, list]) => [i, Math.max(...list)]));
+
+// Knee-to-head test of a set of standing heights: bit k of the result says
+// tops[i][k] is blocked, by anything in the cell or next to it (the visitor's
+// shoulders) from knee to head. `ramp(i, h)` marks heights on a ramp: there a
+// low thing beside it (a handrail) or one overhead gives no shoulder margin,
+// and the stair's own treads and landings, which the ramp cuts through, block
+// only well above it.
+const AROUND = [0, 1, -1, W, -W];
+function blocking(list, ramp = () => false) {
+  const bits = new Uint8Array(count);
+  for (const t of tris) {
+    const walked = t[9] === FLOORS;
+    cover(t, (j, y0, y1) => {
+      const own = walked && y1 <= (treadTop.get(j) ?? -Infinity) + 0.03;
+      for (const d of AROUND) {
+        const i = j + d, row = list[i];
+        if (!row) continue;
+        for (let k = 0; k < row.length; k++) {
+          const h = row[k], r = ramp(i, h);
+          if (r && d && (y1 < h + RAIL || y0 > h + HEAD)) continue;
+          if (y1 > h + (r && own ? RAMP_KNEE : KNEE) && y0 < h + HEAD) bits[i] |= 1 << k;
+        }
+      }
+    });
+  }
+  return bits;
+}
+// where one can stand before the ramps: stairs meet floors only there
+const blocked0 = blocking(tops);
+const standable0 = (j, t) => { const k = tops[j]?.indexOf(t) ?? -1; return k >= 0 && !(blocked0[j] & (1 << k)); };
+
 const nodes = []; // { i, h }
 const nodesAt = new Map(); // cell -> node ids
 for (const [i, list] of treadFaces) {
@@ -228,15 +262,16 @@ for (let n0 = 0, count0 = nodes.length; n0 < count0; n0++) {
   seen[n0] = 1;
   for (let q = 0; q < stair.length; q++) links(stair[q], (m) => { if (!seen[m]) { seen[m] = 1; stair.push(m); } });
   const inStair = new Set(stair);
-  // the floors it meets: standing heights next to a tread, within a link,
-  // that are not this stair's own treads
+  // the floors it meets: heights one can stand at (not a slab under the
+  // treads, not a floor behind a wall or a seat), next to a tread and within
+  // a link of it, that are not this stair's own treads
   const contacts = [];
   for (const n of stair) {
     const { i, h } = nodes[n];
     const meet = (j) => {
       for (const t of tops[j] ?? []) {
-        if (Math.abs(t - h) > STAIR_LINK) continue;
-        if ((nodesAt.get(j) ?? []).some((m) => inStair.has(m) && Math.abs(nodes[m].h - t) < MERGE)) continue;
+        if (Math.abs(t - h) > STAIR_LINK || !standable0(j, t)) continue;
+        if ((nodesAt.get(j) ?? []).some((m) => inStair.has(m) && (Math.abs(nodes[m].h - t) < MERGE || (nodes[m].h > t && nodes[m].h - t < HEAD)))) continue;
         contacts.push([n, t]);
       }
     };
@@ -263,7 +298,7 @@ for (let n0 = 0, count0 = nodes.length; n0 < count0; n0++) {
   for (const n of [...stair]) {
     around(nodes[n].i, (j) => {
       for (const t of tops[j] ?? []) {
-        if (t <= foot + 0.1 || t >= head - 0.1 || Math.abs(t - nodes[n].h) > STAIR_LINK) continue;
+        if (t <= foot + 0.1 || t >= head - 0.1 || Math.abs(t - nodes[n].h) > STAIR_LINK || !standable0(j, t)) continue;
         if ((nodesAt.get(j) ?? []).some((m) => Math.abs(nodes[m].h - t) < MERGE)) continue;
         if (flat(j, t)) continue;
         if (!nodesAt.has(j)) nodesAt.set(j, []);
@@ -274,8 +309,18 @@ for (let n0 = 0, count0 = nodes.length; n0 < count0; n0++) {
       }
     });
   }
-  const d0 = along([...new Set(contacts.filter((c) => c[1] - foot < 0.2).map((c) => c[0]))], inStair);
-  const d1 = along([...new Set(contacts.filter((c) => head - c[1] < 0.2).map((c) => c[0]))], inStair);
+  // The slope runs between the stair's ends: the treads that meet the foot
+  // and head floors, and the stair's own landings flush with them (a top
+  // landing at floor height stays at floor height). A contact from the side
+  // lower down the flight does not start the slope.
+  const ends = (level, sign) => {
+    let s0 = [...new Set([...contacts.filter((c) => Math.abs(c[1] - level) < 0.2).map((c) => c[0]), ...stair.filter((n) => Math.abs(nodes[n].h - level) < 0.05)])];
+    const near = s0.filter((n) => sign * (nodes[n].h - level) < 0.2);
+    if (near.length) s0 = near;
+    return s0;
+  };
+  const d0 = along(ends(foot, 1), inStair);
+  const d1 = along(ends(head, -1), inStair);
   let set = 0;
   for (const n of stair) {
     const a = d0.get(n), b = d1.get(n);
@@ -283,14 +328,14 @@ for (let n0 = 0, count0 = nodes.length; n0 < count0; n0++) {
     const h = a + b > 0 ? foot + ((head - foot) * a) / (a + b) : foot;
     const { i } = nodes[n];
     if (!ramp.has(i)) ramp.set(i, []);
-    ramp.get(i).push([nodes[n].h, h]);
+    ramp.get(i).push([nodes[n].h, h, stairs.length]);
     set++;
   }
   const c = stair.reduce((acc, n) => [acc[0] + (nodes[n].i % W), acc[1] + Math.floor(nodes[n].i / W)], [0, 0]);
   stairs.push({ at: [gx + (c[0] / stair.length + 0.5) * STEP, gz + (c[1] / stair.length + 0.5) * STEP].map((v) => Math.round(v * 10) / 10), foot: Math.round(foot * 100) / 100, head: Math.round(head * 100) / 100, cells: set, of: stair.length, run: Math.round(Math.max(...[...d0.values()].filter(Number.isFinite)) * STEP * 10) / 10 });
 }
 // the ramp takes the treads' place in the standing heights
-const rampAt = new Map(); // cell -> ramp heights (mm)
+const rampAt = new Map(); // cell -> Map(ramp height in mm -> stair)
 for (const [i, list] of ramp) {
   let row = tops[i] ?? [];
   for (const [tread, h] of list) {
@@ -298,32 +343,54 @@ for (const [i, list] of ramp) {
     row.push(h);
   }
   tops[i] = row.sort((a, b) => a - b).slice(-MAX_LAYERS);
-  rampAt.set(i, new Set(list.map(([, h]) => Math.round(h * 1000))));
+  rampAt.set(i, new Map(list.map(([, h, st]) => [Math.round(h * 1000), st])));
 }
 const onRamp = (i, h) => rampAt.get(i)?.has(Math.round(h * 1000)) ?? false;
 
-// --- pass 2: anything through the body, from knee to head, in the cell or
-// next to it (the visitor's shoulders), blocks that height. On a ramp the
-// handrails mark the edge (no shoulder room), and the stair's own treads and
-// landings, which the ramp cuts through, only block well above it.
-const blocked = new Uint8Array(count); // bit k: tops[i][k] blocked
-const AROUND = [0, 1, -1, W, -W];
-for (const t of tris) {
-  const walked = t[9] === FLOORS;
-  cover(t, (j, y0, y1) => {
-    for (const d of AROUND) {
-      const i = j + d, list = tops[i];
-      if (!list) continue;
-      for (let k = 0; k < list.length; k++) {
-        const h = list[k], r = onRamp(i, h);
-        if (r && d) continue;
-        if (y1 > h + (r && walked ? RAMP_KNEE : KNEE) && y0 < h + HEAD) blocked[i] |= 1 << k;
+// --- pass 2: what blocks, now with the ramps in place
+const blocked = blocking(tops, onRamp);
+let stand = [];
+for (let i = 0; i < count; i++) tops[i]?.forEach((h, k) => { if (!(blocked[i] & (1 << k))) stand.push([i, Math.round(h * 1000)]); });
+
+// Ramp cells cut off from their stair's foot and head floors (a sliver
+// outside a glass guard) are dropped: walked from the floors at either end,
+// through the stair's own ramp cells.
+{
+  const standing = new Map();
+  for (const [i, mm] of stand) { if (!standing.has(i)) standing.set(i, []); standing.get(i).push(mm); }
+  const reached = new Set();
+  stairs.forEach((st, si) => {
+    const key = (i, mm) => `${i}:${mm}`;
+    const queue = [];
+    for (const [i, byH] of rampAt) {
+      for (const [mm, owner] of byH) {
+        if (owner !== si || !(standing.get(i) ?? []).includes(mm)) continue;
+        // a ramp cell next to its foot or head floor starts the walk
+        let start = false;
+        around(i, (j) => {
+          for (const v of standing.get(j) ?? []) {
+            if (rampAt.get(j)?.has(v)) continue;
+            if ((Math.abs(v / 1000 - st.foot) < 0.05 || Math.abs(v / 1000 - st.head) < 0.05) && Math.abs(v - mm) <= MAX_STEP * 1000) start = true;
+          }
+        });
+        if (start && !reached.has(key(i, mm))) { reached.add(key(i, mm)); queue.push([i, mm]); }
       }
     }
+    while (queue.length) {
+      const [i, mm] = queue.pop();
+      around(i, (j) => {
+        for (const v of standing.get(j) ?? []) {
+          if (rampAt.get(j)?.get(v) !== si || Math.abs(v - mm) > MAX_STEP * 1000 || reached.has(key(j, v))) continue;
+          reached.add(key(j, v));
+          queue.push([j, v]);
+        }
+      });
+    }
   });
+  const before = stand.length;
+  stand = stand.filter(([i, mm]) => !rampAt.get(i)?.has(mm) || reached.has(`${i}:${mm}`));
+  console.log('ramp cells cut off and dropped', before - stand.length);
 }
-const stand = [];
-for (let i = 0; i < count; i++) tops[i]?.forEach((h, k) => { if (!(blocked[i] & (1 << k))) stand.push([i, Math.round(h * 1000)]); });
 
 // --- layers: heights of one cell, lowest first
 const cells = Array.from({ length: count }, () => null);
