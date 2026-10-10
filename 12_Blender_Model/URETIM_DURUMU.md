@@ -571,3 +571,7 @@ R121: Zemin katta doğu dolaşım alanı, batı kafe ve küçük oda birleşimin
 R122: Batı üst kat dönüş tavanındaki yinelenen örtü gizlendi; kafe tavanı ile ön servis örtüsünün örtüşen hacmi ayrıldı. İki mevcut nesne değişti. 7.178 konumun 152sinde önce çift üst yüzey vardı; sonra tamamında tek yüzey var. Örtü kapsamı korundu; bütün bina kabulü değildir.
 
 R123: Ana cam çatının dördüncü yüzünde aynı yerde iki kez üretilmiş iki çelik profil gizlendi; mevcut karşılıkları korundu. İki nesne değişti. Eşleşen profillerin en büyük köşe farkı 0,0027 mm; yüzler ve malzemeler aynı. Yeni mimari boyut yok; bütün bina kabulü değildir.
+
+
+2026-10-10 00:49:18 UTC — eea8ade15d72d9b2fc65ae9cbca91a276e9397b3 origin/main normal push doğrulandı. Pano, renderlar, raporlar ve üretim betikleri gönderildi; Blender ve arşiv GLB dosyaları yerelde; tek güncel sıkıştırılmış web GLB gönderildi.
+
