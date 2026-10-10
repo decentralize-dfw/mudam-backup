@@ -585,3 +585,7 @@ R126: Üst köprü, sahanlık, okuma odası, Studio ve doğu oda döşemelerinin
 R127: Alt fuaye örtüsü ile oditoryumun iki yan örtüsü ve iki alt galeri örtüsünün dört hacim çakışması ayrıldı. Dört mevcut nesne değişti; yeni nesne veya mimari boyut yok. Altı yönden 250.156 örnekte birleşik dış sınır korundu. Bütün bina kabulü değildir.
 
 R128: Okuma odasının eğimli örtüsü ile doğu odasının düz örtüsü arasındaki yinelenen hacim ayrıldı. Bir mevcut örtü değişti; yeni nesne veya mimari boyut yok. Birleşik dış sınır korunumu örneklendi; bütün bina kabulü değildir.
+
+
+2026-10-10 01:45:55 UTC — b448b8e2ddb9d821d24a8ed2f66377a7edc2c208 origin/main normal push doğrulandı. Pano, renderlar, raporlar ve üretim betikleri gönderildi; Blender ve arşiv GLB dosyaları yerelde; tek güncel sıkıştırılmış web GLB gönderildi.
+
