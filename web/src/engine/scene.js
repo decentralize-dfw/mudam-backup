@@ -121,10 +121,10 @@ export class Stage {
   // (12_Blender_Model/exports/r151_web_v002, prepared by build-model.mjs
   // --cevre2). Loaded on first use; the building gets its own bands so cuts,
   // floors and layers work the same way.
-  async loadCevre2(manifest, onProgress, onLate) {
+  async loadCevre2(manifest, onProgress, onLate, sourceId = 2) {
     // the far context is the largest file and only seen from a distance:
     // it follows once the rest is on screen
-    const files = Object.entries(manifest.files).filter(([k]) => k !== 'far');
+    const files = Object.entries(manifest.files).filter(([k]) => sourceId === 3 || k !== 'far');
     const done = {};
     const total = files.reduce((s, [, f]) => s + (f.bytes || 1), 0);
     const report = () => onProgress?.(files.reduce((s, [k, f]) => s + (done[k] ?? 0) * (f.bytes || 1), 0) / total);
@@ -135,29 +135,33 @@ export class Stage {
     const loaded = Object.fromEntries(await Promise.all(files.map(([key, f]) => fetchOne(key, f, true).then((r) => [key, r]))));
     const set = { building: loaded.building };
     const add = (key, root) => {
-      root.name = `cevre2-${key}`;
+      root.name = `cevre${sourceId}-${key}`;
       root.traverse((o) => {
         if (!o.isMesh) return;
         o.receiveShadow = true;
         // the far context is too large to cast into the sun's shadow map
         o.castShadow = key !== 'far';
         o.material.side = THREE.DoubleSide;
-        if (o.material.isMeshBasicMaterial) this.daylit(o.material);
+        if (sourceId === 3 && o.material.map) {
+          o.material.map.anisotropy = Math.min(16, this.renderer.capabilities.getMaxAnisotropy());
+          o.material.map.needsUpdate = true;
+        }
+        if (sourceId === 2 && o.material.isMeshBasicMaterial) this.daylit(o.material);
       });
       root.visible = false;
       this.scene.add(root);
       set[key] = root;
     };
-    for (const key of ['site', 'trees', 'near']) if (loaded[key]) add(key, loaded[key]);
+    for (const key of ['site', 'trees', 'near', 'far']) if (loaded[key]) add(key, loaded[key]);
     // the delivered trees come without foliage meshes, like Çevre 1's
     if (set.trees && this.data.context.trees?.length) set.trees.add(this.context.addCanopies(this.data.context.trees));
-    if (set.building) this.building.attach(set.building, 2);
-    this.cevre2 = set;
+    if (set.building) this.building.attach(set.building, sourceId);
+    this[`cevre${sourceId}`] = set;
     // a fade in progress (building taken apart) covers the new surroundings too
     this.setContextFade(this.contextFadeTarget ?? 1, 300, true);
     this.renderer.shadowMap.needsUpdate = true;
     this.dirty = true;
-    if (manifest.files.far) {
+    if (sourceId === 2 && manifest.files.far) {
       this.cevre2Far = fetchOne('far', manifest.files.far, false).then((root) => {
         add('far', root);
         this.setContextFade(this.contextFadeTarget ?? 1, 300, true);
@@ -184,7 +188,7 @@ export class Stage {
 
   // Everything around the building, both model sets, loaded or not yet.
   contextRoots() {
-    return [this.site, this.trees, this.context.group, this.cevre2?.site, this.cevre2?.trees, this.cevre2?.near, this.cevre2?.far].filter(Boolean);
+    return [this.site, this.trees, this.context.group, this.cevre2?.site, this.cevre2?.trees, this.cevre2?.near, this.cevre2?.far, this.cevre3?.near, this.cevre3?.far].filter(Boolean);
   }
 
   start() {
@@ -225,7 +229,7 @@ export class Stage {
       m.userData.fadeBase ??= { opacity: m.opacity, transparent: m.transparent, depthWrite: m.depthWrite };
     }
     const setCast = (on) => {
-      for (const root of [this.site, this.trees, this.cevre2?.site, this.cevre2?.trees, this.cevre2?.near]) root?.traverse((o) => { if (o.isMesh) o.castShadow = on; });
+      for (const root of [this.site, this.trees, this.cevre2?.site, this.cevre2?.trees, this.cevre2?.near, this.cevre3?.near]) root?.traverse((o) => { if (o.isMesh) o.castShadow = on; });
       if (this.context.massing) this.context.massing.castShadow = on;
     };
     if (alpha < 1) setCast(false);
