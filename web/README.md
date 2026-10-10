@@ -48,19 +48,26 @@ Işık panelindeki **Model** düğmesi iki model takımı arasında geçiş yapa
 
 - **Çevre 1** — `current.glb.gz` (R149): bina, model sahası, ağaçlar, OSM
   çevre kütleleri ve vaziyet çizimi.
-- **Çevre 2** — `12_Blender_Model/exports/r151_web_v002/`: `building.glb`
-  (Mudam), `near_context.glb` (yakın çevre), `far_context.glb` (uzak çevre).
+- **Çevre 2** — `12_Blender_Model/exports/web_current/` (R151 web clean v002,
+  `config/r151_web_lod.json`): `building.glb.gz` (Mudam, hendek ve arazi
+  dahil), `near_context.glb.gz` (temizlenmiş yakın çevre, ACT 2020),
+  `far_context.glb.gz` (uzak çevre).
 
 ```sh
-npm run model:cevre2   # r151_web_v002 -> demo/model/cevre2/*.glb, demo/data/cevre2.json, pieces-cevre2.json
+npm run model:cevre2   # web_current -> demo/model/cevre2/*.glb, demo/data/cevre2.json, pieces-cevre2.json
 npm run build
 ```
 
-Çevre 2 binası Çevre 1 ile aynı işlemden geçer (kesit bantları, katlar,
-malzeme katmanları); yakın ve uzak çevre olduğu gibi kalır, yalnız çizim
-çağrıları birleştirilir, dokular WebP, geometri Draco olur. Kesit kapakları,
-odalar ve eser yerleşimi Çevre 1 verisinden gelir. `demo/data/cevre2.json`
-yoksa düğme kaynak dosyaların henüz yayımlanmadığını söyler.
+R151 binası tek düğümde, malzeme başına birleşmiş gelir. Kesit, kat ayırma
+ve malzeme katmanları için üçgenleri R149 parçalarına geri izlenir: her
+bağlı parça köşeleriyle (1 cm) hangi R149 düğümünden geldiğini oylar
+(üçgenlerin %94'ü eşleşir); eşleşmeyenler (yeniden üçgenlenmiş çubuklar,
+ACT zemin geçişi) kendilerini içeren R149 parçasını, o da yoksa malzeme
+adını izler. Hendek ve arazi böylece binadan ayrılır (`site.glb`). Yakın ve
+uzak çevre ACT fotogrametri ağlarıdır: çizim çağrıları birleştirilir, ağ
+kenarları kilitli olarak sadeleştirilir (yakın %94, uzak %88 kalır), dokular
+WebP, geometri Draco olur. Uzak çevre en son, arka planda yüklenir. Kesit
+kapakları, odalar ve eser yerleşimi Çevre 1 verisinden gelir.
 
 ## Kararlar
 

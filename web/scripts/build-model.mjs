@@ -3,7 +3,8 @@
 //   node scripts/build-model.mjs
 //     Çevre 1: 12_Blender_Model/exports/current.glb.gz -> demo/model/{building,site,trees}.glb
 //   node scripts/build-model.mjs --cevre2 [dir]
-//     Çevre 2: 12_Blender_Model/exports/r151_web_v002/{building,near_context,far_context}.glb
+//     Çevre 2: 12_Blender_Model/exports/web_current/{building,near_context,far_context}.glb.gz
+//     (R151 web clean, see 12_Blender_Model/config/r151_web_lod.json)
 //     -> demo/model/cevre2/*.glb, demo/data/pieces-cevre2.json, demo/data/cevre2.json
 //
 // The Blender export carries 8 477 loose root nodes, each with its own mesh,
@@ -19,7 +20,7 @@ import zlib from 'node:zlib';
 import { fileURLToPath } from 'node:url';
 import { NodeIO, getBounds } from '@gltf-transform/core';
 import { ALL_EXTENSIONS } from '@gltf-transform/extensions';
-import { dedup, prune, join, weld, weldPrimitive, draco, textureCompress, simplifyPrimitive, flatten } from '@gltf-transform/functions';
+import { dedup, prune, join, weld, weldPrimitive, draco, textureCompress, simplify, simplifyPrimitive, flatten } from '@gltf-transform/functions';
 import { MeshoptSimplifier, MeshoptDecoder, MeshoptEncoder } from 'meshoptimizer';
 import draco3d from 'draco3dgltf';
 import sharp from 'sharp';
@@ -28,7 +29,7 @@ const here = path.dirname(fileURLToPath(import.meta.url));
 const repo = path.resolve(here, '../..');
 const args = process.argv.slice(2);
 const CEVRE2 = args.includes('--cevre2');
-const R151 = path.resolve(args.find((a) => !a.startsWith('--')) ?? path.join(repo, '12_Blender_Model/exports/r151_web_v002'));
+const R151 = path.resolve(args.find((a) => !a.startsWith('--')) ?? path.join(repo, '12_Blender_Model/exports/web_current'));
 const outDir = path.join(repo, CEVRE2 ? 'demo/model/cevre2' : 'demo/model');
 const dataDir = path.join(repo, 'demo/data');
 fs.mkdirSync(outDir, { recursive: true });
@@ -257,9 +258,229 @@ async function buildChunk(chunk, source, piecesFile) {
   return { file: path.relative(path.join(repo, 'demo'), out), bytes: fs.statSync(out).size, ...st };
 }
 
-// Ready-made surroundings (Çevre 2): kept as delivered apart from merging
-// draw calls, WebP textures and Draco geometry.
-async function buildContext(name, source, texture) {
+// Çevre 2 building. The R151 web export arrives as one node with every part
+// joined per material (111 primitives), with the moat and terrain inside it.
+// To cut, lift and take it apart like Çevre 1, its triangles are traced back
+// to the R149 parts: connected pieces of each primitive vote with their
+// vertices (1 cm) for the R149 node they came from. That node gives the
+// chunk (building, site, trees) and the material layer. Pieces that changed
+// after R149 (re-tessellated rods and frames, the ACT ground blend) take the
+// R149 part whose box contains them, else their material name decides.
+async function buildR151Building(source, piecesFile) {
+  const Q = 100;
+  const key = (x, y, z) => `${Math.round(x * Q)},${Math.round(y * Q)},${Math.round(z * Q)}`;
+  // --- R149 parts: chunk, layer, box, vertex index
+  const ref = await readDoc(path.join(repo, '12_Blender_Model/exports/current.glb.gz'));
+  const refNodes = ref.getRoot().getDefaultScene().listChildren().filter((n) => n.getMesh());
+  const vertexNode = new Map();
+  const refParts = refNodes.map((n, ni) => {
+    const mesh = n.getMesh();
+    const M = n.getWorldMatrix();
+    for (const prim of mesh.listPrimitives()) {
+      const a = prim.getAttribute('POSITION').getArray();
+      for (let i = 0; i < a.length; i += 3) {
+        const x = a[i], y = a[i + 1], z = a[i + 2];
+        vertexNode.set(key(M[0] * x + M[4] * y + M[8] * z + M[12], M[1] * x + M[5] * y + M[9] * z + M[13], M[2] * x + M[6] * y + M[10] * z + M[14]), ni);
+      }
+    }
+    const materials = mesh.listPrimitives().map((p) => p.getMaterial()?.getName() ?? '');
+    const { lo, hi } = nodeBox(n);
+    return { chunk: chunkOf(n.getName(), n.getExtras()), layer: layerOf(n.getName(), n.getExtras(), materials), lo, hi, vol: (hi[0] - lo[0]) * (hi[1] - lo[1]) * (hi[2] - lo[2]) };
+  });
+  const containing = (c) => {
+    let best = -1;
+    refParts.forEach((p, i) => {
+      if (c.every((v, k) => v >= p.lo[k] - 0.05 && v <= p.hi[k] + 0.05) && (best < 0 || p.vol < refParts[best].vol)) best = i;
+    });
+    return best;
+  };
+
+  // --- R151 pieces: connected triangles per primitive
+  const doc = await readDoc(source);
+  await doc.transform(flatten());
+  const root = doc.getRoot();
+  const buffer = root.listBuffers()[0];
+  const prims = [];
+  for (const node of root.listNodes()) {
+    const mesh = node.getMesh();
+    if (!mesh) continue;
+    const M = node.getWorldMatrix();
+    const identity = M.every((v, i) => Math.abs(v - (i % 5 === 0 ? 1 : 0)) < 1e-9);
+    if (!identity) throw new Error('Çevre 2: building node is transformed; bake transforms before export');
+    for (const prim of mesh.listPrimitives()) prims.push(prim);
+  }
+  const parts = new Map(); // part id -> { chunk, layer, lo, hi }
+  const triPart = [];
+  let matchedTris = 0, totalTris = 0;
+  prims.forEach((prim, pi) => {
+    const pos = prim.getAttribute('POSITION').getArray();
+    const idx = prim.getIndices().getArray();
+    const nv = pos.length / 3, nt = idx.length / 3;
+    totalTris += nt;
+    const parent = new Int32Array(nv).map((_, i) => i);
+    const find = (v) => { while (parent[v] !== v) { parent[v] = parent[parent[v]]; v = parent[v]; } return v; };
+    for (let t = 0; t < nt; t++) {
+      const a = find(idx[t * 3]), b = find(idx[t * 3 + 1]), c = find(idx[t * 3 + 2]);
+      parent[b] = a; parent[find(c)] = a;
+    }
+    const comps = new Map();
+    for (let v = 0; v < nv; v++) {
+      const r = find(v);
+      let c = comps.get(r);
+      if (!c) comps.set(r, (c = { votes: new Map(), n: 0, lo: [Infinity, Infinity, Infinity], hi: [-Infinity, -Infinity, -Infinity] }));
+      const x = pos[v * 3], y = pos[v * 3 + 1], z = pos[v * 3 + 2];
+      const ni = vertexNode.get(key(x, y, z));
+      if (ni !== undefined) c.votes.set(ni, (c.votes.get(ni) ?? 0) + 1);
+      c.n++;
+      c.lo = [Math.min(c.lo[0], x), Math.min(c.lo[1], y), Math.min(c.lo[2], z)];
+      c.hi = [Math.max(c.hi[0], x), Math.max(c.hi[1], y), Math.max(c.hi[2], z)];
+    }
+    const material = prim.getMaterial()?.getName() ?? '';
+    for (const [r, c] of comps) {
+      let ni = -1, best = 0;
+      for (const [n, k] of c.votes) if (k > best) { best = k; ni = n; }
+      let id, chunk, layer;
+      if (ni >= 0 && best >= 0.3 * c.n) {
+        id = `n${ni}`; ({ chunk, layer } = refParts[ni]);
+      } else {
+        const centre = c.lo.map((v, k) => (v + c.hi[k]) / 2);
+        const hold = /ACT_GROUND/.test(material) ? -1 : containing(centre);
+        id = hold >= 0 ? `n${hold}` : `p${pi}:${r}`;
+        chunk = hold >= 0 ? refParts[hold].chunk : /GROUND|TURF|MOAT|TERRAIN/.test(material) ? 'site' : 'building';
+        layer = hold >= 0 ? refParts[hold].layer : layerOf('', {}, [material]);
+      }
+      c.id = id;
+      let part = parts.get(id);
+      if (!part) parts.set(id, (part = { chunk, layer, lo: [...c.lo], hi: [...c.hi] }));
+      for (let k = 0; k < 3; k++) { part.lo[k] = Math.min(part.lo[k], c.lo[k]); part.hi[k] = Math.max(part.hi[k], c.hi[k]); }
+    }
+    const tp = new Array(nt);
+    for (let t = 0; t < nt; t++) {
+      const c = comps.get(find(idx[t * 3]));
+      tp[t] = c.id;
+      if (c.id.startsWith('n') && c.votes.size) matchedTris++;
+    }
+    triPart[pi] = tp;
+  });
+  console.log(`R151 building: ${prims.length} primitives, ${totalTris} triangles, ${parts.size} parts, ${(100 * matchedTris / totalTris).toFixed(1)} % of triangles matched to R149 parts by vertex`);
+
+  // --- fragments for the exploded views, as bakePieces does for Çevre 1
+  const frags = new Map();
+  const partFrag = new Map();
+  for (const [id, p] of parts) {
+    if (p.chunk !== 'building') continue;
+    const c = p.lo.map((v, k) => (v + p.hi[k]) / 2);
+    const diag = Math.hypot(p.hi[0] - p.lo[0], p.hi[1] - p.lo[1], p.hi[2] - p.lo[2]);
+    const li = LAYERS.indexOf(p.layer);
+    const fk = diag > 2 * CELL ? `own:${id}` : `${li}:${Math.floor(c[0] / CELL)}:${Math.floor(c[2] / CELL)}:${storeyOf(c[1])}`;
+    const w = Math.max(diag, 0.05);
+    let f = frags.get(fk);
+    if (!f) frags.set(fk, (f = { li, sum: [0, 0, 0], w: 0, lo: [...p.lo], hi: [...p.hi], n: 0 }));
+    for (let k = 0; k < 3; k++) { f.sum[k] += c[k] * w; f.lo[k] = Math.min(f.lo[k], p.lo[k]); f.hi[k] = Math.max(f.hi[k], p.hi[k]); }
+    f.w += w; f.n++;
+    partFrag.set(id, f);
+  }
+  for (const f of frags.values()) f.c = f.sum.map((v) => Math.round((v / f.w) * 100) / 100);
+  const pieces = [...frags.values()].map((f) => [...f.c, f.li, Math.round(Math.hypot(f.hi[0] - f.lo[0], f.hi[1] - f.lo[1], f.hi[2] - f.lo[2]) * 100) / 100, f.n]);
+  fs.writeFileSync(piecesFile, JSON.stringify({ layers: LAYERS, cell: CELL, pieces }));
+  const counts = {};
+  for (const p of parts.values()) counts[`${p.chunk}/${p.layer}`] = (counts[`${p.chunk}/${p.layer}`] ?? 0) + 1;
+  console.log('parts by chunk/layer', counts, 'fragments', pieces.length);
+
+  // --- one file per chunk: triangles regrouped per layer, _PIECE baked in
+  const subset = (prim, tris, piece) => {
+    const idx = prim.getIndices().getArray();
+    const remap = new Map(), order = [];
+    const out = new Uint32Array(tris.length * 3);
+    tris.forEach((t, k) => {
+      for (let c = 0; c < 3; c++) {
+        const v = idx[t * 3 + c];
+        let n = remap.get(v);
+        if (n === undefined) { n = order.length; remap.set(v, n); order.push(v); }
+        out[k * 3 + c] = n;
+      }
+    });
+    const q = doc.createPrimitive().setMaterial(prim.getMaterial()).setMode(prim.getMode());
+    for (const sem of prim.listSemantics()) {
+      const acc = prim.getAttribute(sem), size = acc.getElementSize(), src = acc.getArray();
+      const dst = new src.constructor(order.length * size);
+      order.forEach((v, i) => { for (let c = 0; c < size; c++) dst[i * size + c] = src[v * size + c]; });
+      q.setAttribute(sem, doc.createAccessor().setType(acc.getType()).setArray(dst).setNormalized(acc.getNormalized()).setBuffer(buffer));
+    }
+    if (piece) {
+      const data = new Float32Array(order.length * 4);
+      const vertTri = new Int32Array(order.length);
+      tris.forEach((t, k) => { for (let c = 0; c < 3; c++) vertTri[out[k * 3 + c]] = t; });
+      for (let i = 0; i < order.length; i++) data.set(piece(vertTri[i]), i * 4);
+      q.setAttribute('_PIECE', doc.createAccessor().setType('VEC4').setArray(data).setBuffer(buffer));
+    }
+    q.setIndices(doc.createAccessor().setType('SCALAR').setArray(out).setBuffer(buffer));
+    return q;
+  };
+  const scene = root.getDefaultScene() ?? root.listScenes()[0];
+  const groups = {};
+  const groupNode = (chunk, layer) => {
+    const k = `${chunk}/${layer}`;
+    if (groups[k]) return groups[k];
+    let top = groups[chunk];
+    if (!top) { top = groups[chunk] = doc.createNode(`MUDAM_${chunk.toUpperCase()}`); scene.addChild(top); }
+    if (chunk !== 'building') return (groups[k] = top);
+    const n = doc.createNode(`LAYER_${layer}`);
+    top.addChild(n);
+    return (groups[k] = n);
+  };
+  const meshes = {};
+  prims.forEach((prim, pi) => {
+    const byGroup = new Map();
+    triPart[pi].forEach((id, t) => {
+      const p = parts.get(id);
+      if (p.chunk === 'none') return;
+      const g = `${p.chunk}/${p.layer}`;
+      if (!byGroup.has(g)) byGroup.set(g, []);
+      byGroup.get(g).push(t);
+    });
+    for (const [g, tris] of byGroup) {
+      const [chunk, layer] = g.split('/');
+      const piece = chunk === 'building' ? (t) => { const f = partFrag.get(triPart[pi][t]); return [f.c[0], f.c[1], f.c[2], f.li]; } : null;
+      if (!meshes[g]) { meshes[g] = doc.createMesh(g); groupNode(chunk, layer).addChild(doc.createNode(g).setMesh(meshes[g])); }
+      meshes[g].addPrimitive(subset(prim, tris, piece));
+    }
+  });
+  for (const node of [...scene.listChildren()]) if (!Object.values(groups).includes(node)) node.dispose();
+  for (const n of root.listNodes()) n.setExtras({});
+  await doc.transform(prune());
+
+  // write each chunk from a copy of the regrouped document
+  const files = {};
+  const bytes = await io.writeBinary(doc);
+  for (const chunk of ['building', 'site', 'trees']) {
+    if (!groups[chunk]) continue;
+    const d = await io.readBinary(bytes);
+    const s0 = d.getRoot().getDefaultScene() ?? d.getRoot().listScenes()[0];
+    for (const n of [...s0.listChildren()]) if (n.getName() !== `MUDAM_${chunk.toUpperCase()}`) n.dispose();
+    await d.transform(
+      prune(),
+      dedup(),
+      join({ keepNamed: false, keepMeshes: false }),
+      prune(),
+      textureCompress({ encoder: sharp, targetFormat: 'webp', quality: 82, resize: chunk === 'site' ? [2048, 2048] : [1024, 1024] }),
+      draco({ method: 'edgebreaker', quantizePosition: 16, quantizeNormal: 10, quantizeTexcoord: 12, quantizeGeneric: 14 }),
+    );
+    for (const m of d.getRoot().listMaterials()) m.setExtras({});
+    const out = path.join(outDir, `${chunk}.glb`);
+    await io.write(out, d);
+    const st = stats(d);
+    console.log(`${chunk}: ${st.prims} primitives, ${st.tris} triangles, ${(fs.statSync(out).size / 1048576).toFixed(2)} MB`, JSON.stringify(st.bounds));
+    files[chunk] = { file: path.relative(path.join(repo, 'demo'), out), bytes: fs.statSync(out).size, ...st };
+  }
+  return files;
+}
+
+// Ready-made surroundings (Çevre 2, ACT photo meshes): merged draw calls,
+// WebP textures and Draco geometry, and a lighter mesh: the near context
+// keeps `ratio` of its triangles, the far one, seen only from a distance,
+// less. `error` is relative to each tile's own size.
+async function buildContext(name, source, { texture, ratio, error, bits }) {
   const doc = await readDoc(source);
   const before = stats(doc);
   const root = doc.getRoot();
@@ -268,15 +489,19 @@ async function buildContext(name, source, texture) {
   await doc.transform(
     dedup(),
     prune(),
+    weld(),
+    // tile and UV-island borders stay put, or the sky shows through cracks
+    simplify({ simplifier: MeshoptSimplifier, ratio, error, lockBorder: true }),
     join({ keepNamed: false, keepMeshes: false }),
     prune(),
     textureCompress({ encoder: sharp, targetFormat: 'webp', quality: 80, resize: [texture, texture] }),
-    draco({ method: 'edgebreaker', quantizePosition: 16, quantizeNormal: 10, quantizeTexcoord: 12, quantizeGeneric: 14 }),
+    // 14 bits over the ~430 m (near) or ~900 m (far) extent: 3 to 6 cm
+    draco({ method: 'edgebreaker', quantizePosition: bits, quantizeNormal: 10, quantizeTexcoord: 12, quantizeGeneric: 14 }),
   );
   const out = path.join(outDir, `${name}.glb`);
   await io.write(out, doc);
   const st = stats(doc);
-  console.log(`${name}: ${(fs.statSync(source).size / 1048576).toFixed(2)} MB, ${before.prims} primitives, ${before.tris} triangles, ${before.textures} textures -> ${st.prims} primitives, ${(fs.statSync(out).size / 1048576).toFixed(2)} MB`, JSON.stringify(st.bounds));
+  console.log(`${name}: ${(fs.statSync(source).size / 1048576).toFixed(2)} MB, ${before.prims} primitives, ${before.tris} triangles, ${before.textures} textures -> ${st.prims} primitives, ${st.tris} triangles, ${(fs.statSync(out).size / 1048576).toFixed(2)} MB`, JSON.stringify(st.bounds));
   return { file: path.relative(path.join(repo, 'demo'), out), bytes: fs.statSync(out).size, ...st };
 }
 
@@ -289,18 +514,15 @@ if (!CEVRE2) {
     if (!f) throw new Error(`Çevre 2: ${name}.glb not found in ${R151}`);
     return f;
   };
-  const files = {};
   // the museum, taken apart like Çevre 1 (sections, floors, material layers)
-  for (const chunk of ['building', 'site', 'trees']) {
-    const r = await buildChunk(chunk, src('building'), path.join(dataDir, 'pieces-cevre2.json'));
-    if (r) files[chunk] = r;
-  }
-  files.near = await buildContext('near', src('near_context'), 2048);
-  files.far = await buildContext('far', src('far_context'), 1024);
+  const files = await buildR151Building(src('building'), path.join(dataDir, 'pieces-cevre2.json'));
+  files.near = await buildContext('near', src('near_context'), { texture: 1024, ratio: 0.6, error: 0.004, bits: 14 });
+  files.far = await buildContext('far', src('far_context'), { texture: 256, ratio: 0.35, error: 0.01, bits: 14 });
+  const lod = path.join(repo, '12_Blender_Model/config/r151_web_lod.json');
   const manifest = {
     name: 'Çevre 2',
     source: path.relative(repo, R151).split(path.sep).join('/'),
-    revision: path.basename(R151),
+    revision: fs.existsSync(lod) ? JSON.parse(fs.readFileSync(lod, 'utf8')).revision : path.basename(R151),
     pieces: 'data/pieces-cevre2.json',
     files,
   };

@@ -113,18 +113,20 @@ export class Stage {
   // (12_Blender_Model/exports/r151_web_v002, prepared by build-model.mjs
   // --cevre2). Loaded on first use; the building gets its own bands so cuts,
   // floors and layers work the same way.
-  async loadCevre2(manifest, onProgress) {
-    const files = Object.entries(manifest.files);
+  async loadCevre2(manifest, onProgress, onLate) {
+    // the far context is the largest file and only seen from a distance:
+    // it follows once the rest is on screen
+    const files = Object.entries(manifest.files).filter(([k]) => k !== 'far');
     const done = {};
     const total = files.reduce((s, [, f]) => s + (f.bytes || 1), 0);
     const report = () => onProgress?.(files.reduce((s, [k, f]) => s + (done[k] ?? 0) * (f.bytes || 1), 0) / total);
-    const loaded = Object.fromEntries(await Promise.all(files.map(([key, f]) => this.loader.loadAsync(`${this.base}${f.file}`, (e) => {
+    const fetchOne = (key, f, track) => this.loader.loadAsync(`${this.base}${f.file}`, (e) => {
+      if (!track) return;
       done[key] = e.total ? e.loaded / e.total : (f.bytes ? e.loaded / f.bytes : 0); report();
-    }).then((g) => { done[key] = 1; report(); return [key, g.scene]; }))));
+    }).then((g) => { if (track) { done[key] = 1; report(); } return g.scene; });
+    const loaded = Object.fromEntries(await Promise.all(files.map(([key, f]) => fetchOne(key, f, true).then((r) => [key, r]))));
     const set = { building: loaded.building };
-    for (const key of ['site', 'trees', 'near', 'far']) {
-      const root = loaded[key];
-      if (!root) continue;
+    const add = (key, root) => {
       root.name = `cevre2-${key}`;
       root.traverse((o) => {
         if (!o.isMesh) return;
@@ -136,7 +138,8 @@ export class Stage {
       root.visible = false;
       this.scene.add(root);
       set[key] = root;
-    }
+    };
+    for (const key of ['site', 'trees', 'near']) if (loaded[key]) add(key, loaded[key]);
     // the delivered trees come without foliage meshes, like Çevre 1's
     if (set.trees && this.data.context.trees?.length) set.trees.add(this.context.addCanopies(this.data.context.trees));
     if (set.building) this.building.attach(set.building, 2);
@@ -145,6 +148,14 @@ export class Stage {
     this.setContextFade(this.contextFadeTarget ?? 1, 300, true);
     this.renderer.shadowMap.needsUpdate = true;
     this.dirty = true;
+    if (manifest.files.far) {
+      this.cevre2Far = fetchOne('far', manifest.files.far, false).then((root) => {
+        add('far', root);
+        this.setContextFade(this.contextFadeTarget ?? 1, 300, true);
+        onLate?.('far');
+        this.dirty = true;
+      }).catch((e) => console.warn('Çevre 2 far context', e));
+    }
     return set;
   }
 

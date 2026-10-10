@@ -127,7 +127,7 @@ class App {
       if (!this.cevre2Loading) {
         this.app.dataset.cevre2 = 'loading';
         button.setAttribute('aria-busy', 'true');
-        this.cevre2Loading = this.stage.loadCevre2(this.cevre2, (p) => button.style.setProperty('--p', `${Math.round(p * 100)}%`))
+        this.cevre2Loading = this.stage.loadCevre2(this.cevre2, (p) => button.style.setProperty('--p', `${Math.round(p * 100)}%`), () => this.applyVisibility())
           .then(async () => {
             const bands = this.stage.building.sources[2];
             if (bands && this.mx) this.mx.attach(bands[0].group);
