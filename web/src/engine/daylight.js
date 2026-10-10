@@ -126,6 +126,9 @@ export class Daylight {
     cam.left = -r; cam.right = r; cam.top = r; cam.bottom = -r;
     cam.near = r * 0.5; cam.far = r * 6;
     cam.updateProjectionMatrix();
+    // the offset that keeps a surface from shadowing itself grows with the
+    // texel: a wide map (the surroundings) would stripe the terrain otherwise
+    this.sun.shadow.normalBias = Math.max(0.035, ((2 * r) / this.sun.shadow.mapSize.x) * 0.9);
     this.sun.shadow.needsUpdate = true;
     this.renderer.shadowMap.needsUpdate = true;
   }

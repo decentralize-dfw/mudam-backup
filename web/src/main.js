@@ -11,6 +11,7 @@ import { i18n, t, pick } from './i18n.js';
 import { MaterialExplode, LAYERS, LAYER_COLOURS } from './engine/explode.js';
 import { WireMode } from './engine/wire.js';
 import { WalkSurface, Walker } from './engine/walk.js';
+import { RoomFocus } from './engine/focus.js';
 
 const BASE = './demo/';
 const $ = (s, r = document) => r.querySelector(s);
@@ -50,7 +51,7 @@ class App {
   constructor() {
     this.app = $('#app');
     this.stage = new Stage($('#viewport'), BASE);
-    this.s = { mode: 'building', floor: 'all', explode: false, plan: false, hotspot: null, exhibition: null, room: null, artwork: null, visit: false, walk: false, mat: 'off', wire: false, cevre: 1, hour: 13.5, day: 283, lights: false, lightsAuto: true };
+    this.s = { mode: 'building', floor: 'all', explode: false, plan: false, hotspot: null, exhibition: null, room: null, artwork: null, visit: false, walk: false, mat: 'off', wire: false, captions: true, cevre: 1, hour: 13.5, day: 283, lights: false, lightsAuto: true };
     this.pointer = { x: 0, y: 0, down: null };
     window.__mudam = this; // QA hook
     window.THREE = THREE;
@@ -87,7 +88,11 @@ class App {
     this.stage.building.addHook(this.mx.hook);
     this.wire = new WireMode(this.stage);
     this.mx.wire = this.wire.uWire;
-    this.stage.onDaylight = () => { if (this.wire.amount > 0) this.wire.apply(); };
+    this.stage.onDaylight = () => { if (this.wire.amount > 0) this.wire.apply(); else this.shadeBackground(); };
+    // a picked room lit, the rest dimmed (before the first frame: it adds a light)
+    this.focus = new RoomFocus(this.stage, this.buildingBox);
+    this.focus.onChange = () => this.shadeBackground();
+    this.focus.patchRoots(Object.values(this.stage.building.floorGroups));
     for (const b of this.stage.building.sources[1]) this.mx.attach(b.group);
     // while layers are away (or flying back), caps, works, pins and arrows
     // wait: the material offset counts as motion
@@ -128,6 +133,7 @@ class App {
       this.stage.setContextFade(this.stage.contextFadeTarget ?? 1, 300, true);
       this.app.dataset.siteReady = 'true';
       this.initCevre2();
+      this.focus.patchRoots(this.stage.contextRoots());
       // every storey's works, once the rest is in: the walk crosses storeys
       // and a first upload of a work atlas mid-walk would make it hitch
       setTimeout(() => FLOORS.forEach((f) => this.stage.artworks.load(f)), 4000);
@@ -403,7 +409,7 @@ class App {
         this.app.dataset.cevre3 = 'loading';
         button.setAttribute('aria-busy', 'true');
         this.cevre3Loading = this.stage.loadCevre2(this.cevre3, p => button.style.setProperty('--p', `${Math.round(p * 100)}%`), () => this.applyVisibility(), 3)
-          .then(() => { this.app.dataset.cevre3 = 'ready'; if (this.s.wire) this.buildWire(); })
+          .then(() => { this.app.dataset.cevre3 = 'ready'; this.focus.patchRoots(this.stage.contextRoots()); if (this.s.wire) this.buildWire(); })
           .catch(e => { console.error('Çevre 3', e); this.app.dataset.cevre3 = 'error'; this.cevre3Loading = null; throw e; })
           .finally(() => { button.removeAttribute('aria-busy'); button.style.removeProperty('--p'); });
       }
@@ -427,6 +433,7 @@ class App {
             const pieces = await fetch(`${BASE}${this.cevre2.pieces}`).then((r) => (r.ok ? r.json() : null)).catch(() => null);
             if (pieces && this.mx) this.mx.build(pieces, 2);
             this.app.dataset.cevre2 = 'ready';
+            this.focus.patchRoots(this.stage.contextRoots());
           })
           .catch((e) => { console.error('Çevre 2', e); this.app.dataset.cevre2 = 'error'; this.cevre2Loading = null; throw e; })
           .finally(() => { button.removeAttribute('aria-busy'); button.style.removeProperty('--p'); });
@@ -492,7 +499,8 @@ class App {
   }
 
   focusShadows(target, zoom) {
-    const r = THREE.MathUtils.clamp(70 / Math.max(zoom, 0.05), 85, 520);
+    // wide enough to cover what the view shows (its edge fades out, see scene.js)
+    const r = THREE.MathUtils.clamp(130 / Math.max(zoom, 0.05), 90, 900);
     this.stage.daylight.setShadowFocus(new THREE.Vector3(target.x, 0, target.z), r);
   }
 
@@ -508,6 +516,10 @@ class App {
     $$('#layer-panel [data-mat]').forEach((b) => b.addEventListener('click', () => this.setMaterials(b.dataset.mat)));
     $$('[data-cevre]').forEach((b) => b.addEventListener('click', () => this.setCevre(Number(b.dataset.cevre))));
     $('#toggle-wire').addEventListener('click', () => this.setWire(!this.s.wire));
+    $('#toggle-captions').addEventListener('click', () => {
+      this.s.captions = !this.s.captions;
+      this.syncControls();
+    });
     this.bindPegman();
     $('#toggle-light-panel').addEventListener('click', () => {
       const open = this.app.dataset.light !== 'open';
@@ -757,6 +769,8 @@ class App {
     this.app.dataset.materials = this.s.mat === 'off' ? 'off' : 'on';
     $('#toggle-explode').setAttribute('aria-pressed', String(this.s.explode));
     $('#toggle-wire').setAttribute('aria-pressed', String(this.s.wire));
+    $('#toggle-captions').setAttribute('aria-pressed', String(this.s.captions));
+    this.app.dataset.captions = this.s.captions ? 'on' : 'off';
     this.app.dataset.exploded = this.s.explode || this.s.mat !== 'off' ? 'on' : 'off';
     this.app.dataset.wire = this.s.wire ? 'on' : 'off';
     $$('[data-cevre]').forEach((b) => b.setAttribute('aria-pressed', String(Number(b.dataset.cevre) === this.s.cevre)));
@@ -807,8 +821,12 @@ class App {
     st.building.visitFloor = this.s.visit ? this.roomsById.get(this.s.room)?.floor : null;
     st.building.roofVisible = this.s.mode !== 'exhibitions';
     st.building.apply();
+    // a room picked on a floor: its light on, the rest darkened by 70 %
+    const focusRoom = this.s.room && !this.s.visit && !this.s.walk && !this.s.explode && this.s.floor !== 'all' ? this.roomsById.get(this.s.room) : null;
+    this.focus?.set(focusRoom ?? null);
     st.scene.background = this.s.visit ? null : st.daylight.backgroundColor(new THREE.Color());
     if (this.s.visit) { st.scene.background = new THREE.Color(0xdfe3e1); }
+    this.shadeBackground();
     // rooms under glass are bright at midday: expose for the walls, not the sky
     st.renderer.toneMappingExposure = this.s.visit ? 0.8 : this.s.walk ? 0.9 : 1.0;
     if (this.wire?.amount > 0) this.wire.apply();
@@ -817,6 +835,14 @@ class App {
 
   showArrows() {
     this.stage.arrows.setVisible(this.s.explode && !this.s.visit && !this.s.walk && this.s.mode !== 'surroundings' && !this.stage.building.held?.());
+  }
+
+  // The sky behind the model darkens with a focused room.
+  shadeBackground() {
+    const st = this.stage;
+    if (!this.focus || this.s.visit || this.s.walk || (this.wire?.amount ?? 0) > 0) return;
+    st.scene.background = this.focus.shade(st.daylight.backgroundColor(new THREE.Color()));
+    st.dirty = true;
   }
 
   // ------------------------------------------------------------- markers

@@ -13,6 +13,16 @@ import { Markers } from './markers.js';
 import { RoomArrows } from './arrows.js';
 import { setHatchLight } from './hatch.js';
 
+// The sun's shadow map covers a square around the view's focus; past its
+// edge nothing is shadowed, which drew a hard line across wide views (trees
+// and terrain dark inside, flat outside). Shadows now fade out over the
+// outer part of the map instead.
+THREE.ShaderChunk.shadowmap_pars_fragment = THREE.ShaderChunk.shadowmap_pars_fragment.replace(
+  'return mix( 1.0, shadow, shadowIntensity );',
+  `float shadowEdge = min( min( shadowCoord.x, 1.0 - shadowCoord.x ), min( shadowCoord.y, 1.0 - shadowCoord.y ) );
+		return mix( 1.0, shadow, shadowIntensity * smoothstep( 0.0, 0.18, shadowEdge ) );`,
+);
+
 export function qualityProfile() {
   const coarse = matchMedia('(pointer: coarse)').matches;
   const small = Math.min(screen.width, screen.height) < 820;

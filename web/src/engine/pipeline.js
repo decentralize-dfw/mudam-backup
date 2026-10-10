@@ -24,6 +24,10 @@ export class Pipeline {
     this.aoTarget = new THREE.WebGLRenderTarget(size.x, size.y, { type: THREE.HalfFloatType });
     this.camera = null;
     this.ao = null;
+    // > 1: the scene is drawn that much larger and scaled down on output (the
+    // line drawing: one-pixel lines become half a pixel)
+    this.scale = 1;
+    this.targetSize = new THREE.Vector2(size.x, size.y);
     this.aoEnabled = quality.ao;
     this.output = new OutputPass();
     this.output.renderToScreen = true;
@@ -55,12 +59,22 @@ export class Pipeline {
     }
   }
 
-  setSize(width, height) {
+  setSize() {
     const size = this.renderer.getDrawingBufferSize(new THREE.Vector2());
+    const max = Math.min(this.renderer.capabilities.maxTextureSize, 6144);
+    const k = Math.min(this.scale, max / Math.max(size.x, size.y));
+    size.multiplyScalar(Math.max(1, k)).round();
+    this.targetSize.copy(size);
     this.sceneTarget.setSize(size.x, size.y);
     this.aoTarget.setSize(size.x, size.y);
     this.ao?.setSize(size.x, size.y);
     this.output.setSize(size.x, size.y);
+  }
+
+  setScale(k) {
+    if (k === this.scale) return;
+    this.scale = k;
+    this.setSize();
   }
 
   render() {
