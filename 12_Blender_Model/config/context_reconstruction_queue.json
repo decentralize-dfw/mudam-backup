@@ -1,0 +1,15 @@
+{
+  "active": "Building-by-building reconstruction and facade correction",
+  "production_context": "R166: earlier seven buildings plus eastern triangular complex/tower and oval glass-roof building; incomplete district",
+  "automatic_continuation": true,
+  "next_actions": [
+    "Correct remaining dark/missing facade projection regions on eastern complex; inspect source before accepting close-up quality.",
+    "Reconstruct remaining northern district buildings from source footprints and roofs.",
+    "Resolve facade projection streaking and add important measured facade relief.",
+    "Trace actual junctions, medians, sidewalks and crossings from registered ACT surface imagery.",
+    "After building placement, restore source-matched canopy density and terrain quality."
+  ],
+  "completion_claim": false,
+  "push_policy": "Normal origin/main push for verified changes, no force/reset, no unrelated files",
+  "last_candidate": "MUDAM_R166_DOGU_YAPILARI_ENTEGRE_v001.blend"
+}

@@ -1,7 +1,7 @@
 {
   "name": "Context 3",
-  "revision": "R161-authored-draco-webp",
-  "source": "Authored environment: R159 terrain and vegetation, Philharmonie, Melia, Schuman; R161 WKI, Thomas More and road connections. Not ACT photogrammetry.",
+  "revision": "R166-eastern-complex-and-curved-roof",
+  "source": "Authored source-derived buildings including eastern triangular complex and its tower, curved glass-roof building, seven earlier envelopes. Roof levels and facade colors follow ACT reference. Manual outer traces and fine facade relief remain approximate; roads and vegetation incomplete.",
   "compression": "Draco 24-bit positions; WebP quality 92; original texture resolution",
   "files": {
     "near": {
@@ -252,11 +252,11 @@
     },
     "district": {
       "file": "model/cevre3/authored-district.glb",
-      "bytes": 870800,
-      "sha256": "98904e02429bf70c4ed5959820ebd4de9f54ae30b378810659f838318a097da9",
-      "sourceSha256": "ed23e854211d55451a5ab68ecff908ef993e36fbe1525971ac2ddfa78ab82da2",
-      "triangles": 143846,
-      "sourceTriangles": 143846,
+      "bytes": 8622436,
+      "sha256": "9eb99e3d51e94c8be44d2900ba52231336bb1dacb181b2e43d1b11b8afc06b26",
+      "sourceSha256": "e43c07813664744f45b6ee585f68de3ed56f7793122778c5638b94469469ae50",
+      "triangles": 75546,
+      "sourceTriangles": 75546,
       "degenerateRemoved": 0,
       "bounds": {
         "min": [
@@ -266,12 +266,12 @@
         ],
         "max": [
           408.1252746582031,
-          24.446916580200195,
+          95.75955963134766,
           442.84320068359375
         ]
       },
       "boundsError": 0.000091552734375,
-      "textures": 1,
+      "textures": 5,
       "instanceTransformsPreserved": true,
       "instances": []
     }

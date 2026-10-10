@@ -1,0 +1,23 @@
+{
+  "limitations": [
+    "0.4m building-axis roof sampling and measured height modes; approximate envelope.",
+    "Source-baked facade color; window recesses not independently reconstructed.",
+    "Not exact or complete environment acceptance."
+  ],
+  "scene": "MUDAM_R162_TARAMA_CATI_CEPHE_ADAY_v004.blend",
+  "vertices": 8399,
+  "accepted": false,
+  "published": false,
+  "ground_contacts": 1892,
+  "ground_min_overlap": 0.07999999999999996,
+  "wall_stats": [
+    {
+      "id": "24457411",
+      "wall_spans": 2480
+    },
+    {
+      "id": "24457477",
+      "wall_spans": 1799
+    }
+  ]
+}

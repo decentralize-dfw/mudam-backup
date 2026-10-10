@@ -1,0 +1,26 @@
+{
+  "limitations": [
+    "Outer outlines manually traced from registered ACT orthographic pixels; approximate roof boundary, not cadastral survey.",
+    "Eastern roof levels segmented from 0.4m source samples; oval roof retains measured curved surface.",
+    "Fine facade relief and some dark/missing projected facade regions remain unresolved.",
+    "Roads, terrain and vegetation retained; no whole-environment acceptance."
+  ],
+  "scene": "MUDAM_R166_DOGU_YAPILARI_ADAY_v001.blend",
+  "vertices": 22427,
+  "accepted": false,
+  "published": false,
+  "ground_contacts": 4228,
+  "ground_min_overlap": 0.07999999999999996,
+  "wall_stats": [
+    {
+      "id": "east_triangular_complex",
+      "wall_spans": 4313
+    },
+    {
+      "id": "oval_glass_roof",
+      "wall_spans": 568,
+      "roof_quads": 13419
+    }
+  ],
+  "texture_fix": "UV unwrap before any unnecessary edge splitting; removed splitting to prevent isolated triangle bake artifacts."
+}

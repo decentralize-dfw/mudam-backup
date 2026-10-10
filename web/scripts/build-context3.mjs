@@ -38,10 +38,21 @@ function stats(doc) {
     bounds: getBounds(r.getDefaultScene()??r.listScenes()[0]),
     textures: r.listTextures().map(t=>({size:t.getSize(),mime:t.getMimeType()})) };
 }
+const candidate = process.argv.includes('--r162-candidate');
+const eastRelease = process.argv.includes('--r166-buildings');
+const buildingRelease = eastRelease || process.argv.includes('--r165-buildings');
+const surfaceRelease = process.argv.includes('--r163-surface');
+const outputDir=candidate?'demo/model/r162-review':'demo/model/cevre3';
 const manifest = { name:'Context 3', revision:'R161-authored-draco-webp', source:'Authored environment: R159 terrain and vegetation, Philharmonie, Melia, Schuman; R161 WKI, Thomas More and road connections. Not ACT photogrammetry.', compression:'Draco 24-bit positions; WebP quality 92; original texture resolution', files:{} };
-fs.mkdirSync(path.join(repo,'demo/model/cevre3'),{recursive:true});
-for (const [key,sourceName] of [['near','near_site'],['far','philharmonie'],['melia','melia'],['schuman','schuman'],['vegetation','vegetation'],['district','r161_additions']]) {
-  const source = key==='district' ? fs.readFileSync(path.join(repo,'12_Blender_Model/exports/r152_clean/r161_additions.glb')) : zlib.gunzipSync(fs.readFileSync(path.join(repo,`12_Blender_Model/exports/r152_clean/${sourceName}_web.glb.gz`)));
+if(buildingRelease) Object.assign(manifest,{revision:'R165-seven-source-derived-buildings',source:'Authored environment with seven source-derived building envelopes: roof steps, courtyard boundaries and a measured sloping tower roof. ACT facade color projected onto authored geometry. Fine facade recesses, remaining district buildings, roads and vegetation are incomplete.'});
+if(eastRelease) Object.assign(manifest,{revision:'R166-eastern-complex-and-curved-roof',source:'Authored source-derived buildings including eastern triangular complex and its tower, curved glass-roof building, seven earlier envelopes. Roof levels and facade colors follow ACT reference. Manual outer traces and fine facade relief remain approximate; roads and vegetation incomplete.'});
+if(surfaceRelease) Object.assign(manifest,{revision:'R163-authored-source-surface',source:'Authored environment with ACT registered overhead surface colors on retained terrain; R161 buildings and R159 vegetation remain approximate.'});
+if(candidate) Object.assign(manifest,{name:'R162 review candidate',revision:'R162-v002-review-only',source:'Authored roof segmentation and facade projection from ACT reference; incomplete, not accepted as full context.',accepted:false});
+fs.mkdirSync(path.join(repo,outputDir),{recursive:true});
+for (const [key,sourceName] of (candidate ? [['candidate','r162_measured_candidate']] : [['near','near_site'],['far','philharmonie'],['melia','melia'],['schuman','schuman'],['vegetation','vegetation'],['district','r161_additions']])) {
+  const buildingFile=buildingRelease && key==='district' ? (eastRelease?'r166_district':'r165_district') : null;
+  const surfaceFile=surfaceRelease && (key==='near'||key==='district') ? `r163_${key}` : null;
+  const source = buildingFile ? fs.readFileSync(path.join(repo,`12_Blender_Model/exports/r152_clean/${buildingFile}.glb`)) : surfaceFile ? fs.readFileSync(path.join(repo,`12_Blender_Model/exports/r152_clean/${surfaceFile}.glb`)) : candidate ? fs.readFileSync(path.join(repo,'12_Blender_Model/exports/r152_clean/r162_measured_candidate.glb')) : key==='district' ? fs.readFileSync(path.join(repo,'12_Blender_Model/exports/r152_clean/r161_additions.glb')) : zlib.gunzipSync(fs.readFileSync(path.join(repo,`12_Blender_Model/exports/r152_clean/${sourceName}_web.glb.gz`)));
   const doc = await io.readBinary(source);
   const before = stats(doc);
   doc.getRoot().listExtensionsUsed().filter(e=>e.extensionName==='EXT_meshopt_compression').forEach(e=>e.dispose());
@@ -74,9 +85,9 @@ for (const [key,sourceName] of [['near','near_site'],['far','philharmonie'],['me
   if (after.textures.some(t=>t.mime!=='image/webp')) throw Error('Non-WebP texture');
   const error = Math.max(...['min','max'].flatMap(k=>before.bounds[k].map((v,i)=>Math.abs(v-after.bounds[k][i]))));
   if(error>0.02) throw Error(`${key}: bounds drift ${error}`);
-  const file = `model/cevre3/authored-${key}.glb`;
+  const file = candidate ? 'model/r162-review/measured-buildings.glb' : `model/cevre3/authored-${key}.glb`;
   fs.writeFileSync(path.join(repo,'demo',file),output);
   manifest.files[key]={file,bytes:output.length,sha256:sha(output),sourceSha256:sha(source),triangles:after.triangles,sourceTriangles:before.triangles,degenerateRemoved:before.triangles-after.triangles,bounds:after.bounds,boundsError:error,textures:after.textures.length,instanceTransformsPreserved:true,instances:after.instances};
   console.log(key,manifest.files[key]);
 }
-fs.writeFileSync(path.join(repo,'demo/data/cevre3.json'),JSON.stringify(manifest,null,2)+'\n');
+fs.writeFileSync(path.join(repo,candidate?'demo/data/r162-review.json':'demo/data/cevre3.json'),JSON.stringify(manifest,null,2)+'\n');
