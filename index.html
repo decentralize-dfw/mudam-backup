@@ -7,8 +7,8 @@
   <title>Mudam Luxembourg — Building, surroundings and current exhibitions · 3D</title>
   <meta name="description" content="I. M. Pei’s Mudam building, its surroundings and current exhibitions in one 3D model: floor-by-floor sections, plan and isometric views, a walk work by work." />
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cpath d='M4 26 16 6l12 20z' fill='%23161d1a'/%3E%3C/svg%3E" />
-  <script type="module" crossorigin src="./demo/app/index-qexQu1ER.js"></script>
-  <link rel="stylesheet" crossorigin href="./demo/app/index-C2546I1O.css">
+  <script type="module" crossorigin src="./demo/app/index-7uKRS07Q.js"></script>
+  <link rel="stylesheet" crossorigin href="./demo/app/index-BghIl9lZ.css">
 </head>
 <body>
 <main id="app" data-mode="building" data-booting="true">
@@ -58,10 +58,12 @@
       <button data-floor="LP1" aria-pressed="false" data-i18n="floorLP1">+1</button>
     </nav>
     <span class="dock-divider"></span>
+    <div class="dock-actions">
     <button id="toggle-explode" class="pill" aria-pressed="false" data-i18n="explode">Separate floors</button>
     <button id="toggle-materials" class="pill" aria-pressed="false" aria-controls="layer-panel" data-i18n="materials">Separate materials</button>
     <button id="toggle-plan" class="pill" aria-pressed="false" data-i18n="plan">Plan</button>
     <button id="walk-pegman" class="pill pegman" type="button" aria-label="Walk inside" data-i18n-label="walk" data-i18n-title="walkTitle" title="Drag the figure onto a floor of the building, or click it to start in the Grand Hall"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="4.6" r="2.7"/><path d="M8.7 8.6h6.6c.9 0 1.6.7 1.6 1.6v4.8c0 .5-.4.9-.9.9h-.8l-.6 5.4c-.1.5-.5.9-1 .9h-2.2c-.5 0-.9-.4-1-.9l-.6-5.4h-.8c-.5 0-.9-.4-.9-.9v-4.8c0-.9.7-1.6 1.6-1.6z"/></svg><span data-i18n="walk">Walk inside</span></button>
+    </div>
     <span class="dock-divider"></span>
     <div class="camera-tools">
       <button id="zoom-out" class="icon" data-i18n-label="zoomOut" aria-label="Zoom out">−</button>
@@ -78,7 +80,9 @@
     <div class="layer-list" id="layer-list"></div>
   </section>
 
-  <section class="light-panel glass" aria-label="Light" data-i18n-label="light">
+  <!-- phone: the light panel opens from here (on a wider screen it is always out) -->
+  <button id="toggle-light-panel" class="light-toggle glass" type="button" aria-expanded="false" aria-controls="light-panel" aria-label="Light" data-i18n-label="light"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.5v2.6M12 18.9v2.6M2.5 12h2.6M18.9 12h2.6M5.3 5.3l1.8 1.8M16.9 16.9l1.8 1.8M5.3 18.7l1.8-1.8M16.9 7.1l1.8-1.8"/></svg></button>
+  <section id="light-panel" class="light-panel glass" aria-label="Light" data-i18n-label="light">
     <div class="light-row context-row">
       <span data-i18n="contextModel">Model</span>
       <div class="context-switch" role="group" data-i18n-label="contextModel">
@@ -152,6 +156,5 @@
     </div>
   </div>
 </main>
-
 </body>
 </html>

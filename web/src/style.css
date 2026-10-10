@@ -319,7 +319,8 @@ body.pegman-dragging, body.pegman-dragging * { cursor: grabbing !important; }
   .dock-actions { display: flex; gap: 4px; overflow-x: auto; scrollbar-width: none; }
   .dock-actions::-webkit-scrollbar { display: none; }
   .dock-actions .pill { flex: 1 0 auto; min-height: 38px; font-size: 12px; padding: 0 11px; }
-  #app[data-mode='surroundings'] .dock-actions .pill:not(#toggle-materials) { display: none; }
+  /* the surroundings have no floors or actions to offer on a phone */
+  #app[data-mode='surroundings'] .dock { display: none; }
   .hint { display: none; }
   /* the exhibitions: a strip above the dock that scrolls sideways */
   .sheet { left: 12px; right: 12px; width: auto; top: auto; bottom: var(--above); max-height: none; overflow: hidden; border-radius: 18px; padding: 6px; }
