@@ -17,7 +17,7 @@ sources=[o for o in bpy.context.scene.objects if o.type=='MESH']
 bpy.ops.object.select_all(action='DESELECT')
 for src in sources:src.select_set(True)
 bpy.context.view_layer.objects.active=sources[0];bpy.ops.object.join();sources=[bpy.context.object]
-mesh=bpy.data.meshes.new('R162_MEASURED_ENVELOPE');mesh.from_pydata(data['vertices'],[],data['faces']);mesh.update();bm=bmesh.new();bm.from_mesh(mesh);bmesh.ops.remove_doubles(bm,verts=list(bm.verts),dist=.001);bmesh.ops.dissolve_limit(bm,angle_limit=.001,verts=list(bm.verts),edges=list(bm.edges),delimit={'NORMAL'});bmesh.ops.triangulate(bm,faces=list(bm.faces));slivers=[f for f in bm.faces if f.calc_area()<1e-6];bmesh.ops.delete(bm,geom=slivers,context='FACES');bmesh.ops.split_edges(bm,edges=list(bm.edges));bm.to_mesh(mesh);bm.free()
+mesh=bpy.data.meshes.new('R162_MEASURED_ENVELOPE');mesh.from_pydata(data['vertices'],[],data['faces']);mesh.update();bm=bmesh.new();bm.from_mesh(mesh);bmesh.ops.remove_doubles(bm,verts=list(bm.verts),dist=.001);bmesh.ops.dissolve_limit(bm,angle_limit=.001,verts=list(bm.verts),edges=list(bm.edges),delimit={'NORMAL'});bmesh.ops.triangulate(bm,faces=list(bm.faces));slivers=[f for f in bm.faces if f.calc_area()<1e-6];bmesh.ops.delete(bm,geom=slivers,context='FACES');bm.to_mesh(mesh);bm.free()
 o=bpy.data.objects.new('R162_MEASURED_ENVELOPE',mesh);bpy.context.scene.collection.objects.link(o)
 bpy.ops.object.select_all(action='DESELECT');o.select_set(True);bpy.context.view_layer.objects.active=o
 bpy.ops.object.mode_set(mode='EDIT');bpy.ops.mesh.select_all(action='SELECT');bpy.ops.uv.smart_project(angle_limit=1.15,island_margin=.004);bpy.ops.object.mode_set(mode='OBJECT')
@@ -37,9 +37,10 @@ bpy.ops.object.select_all(action='DESELECT');o.select_set(True)
 s.render.bake.use_selected_to_active=False
 out=R/'scenes/MUDAM_R162_TARAMA_CATI_CEPHE_ADAY_v004.blend';bpy.ops.wm.save_as_mainfile(filepath=str(out),compress=True);bpy.ops.wm.open_mainfile(filepath=str(out))
 bpy.ops.export_scene.gltf(filepath=str(R/'exports/r152_clean/r162_measured_candidate.glb'),export_format='GLB',use_selection=True,export_cameras=False,export_lights=False)
-s=bpy.context.scene;s.render.engine='CYCLES';s.cycles.samples=8;s.render.resolution_x=1400;s.render.resolution_y=1000;s.render.resolution_percentage=100;s.world=bpy.data.worlds.new('R162_WORLD');s.world.use_nodes=True;s.world.node_tree.nodes['Background'].inputs[1].default_value=.8
+s=bpy.context.scene;s.render.engine='CYCLES';s.cycles.samples=8;s.cycles.use_denoising=False;s.render.resolution_x=1400;s.render.resolution_y=1000;s.render.resolution_percentage=100;s.world=bpy.data.worlds.new('R162_WORLD');s.world.use_nodes=True;s.world.node_tree.nodes['Background'].inputs[1].default_value=.8
 bpy.ops.object.light_add(type='SUN',location=(-100,100,150));bpy.context.object.data.energy=2;bpy.context.object.rotation_euler=(.4,-.5,-.3)
 bpy.ops.object.camera_add();s.camera=bpy.context.object;s.camera.data.type='ORTHO';s.camera.data.ortho_scale=340
 for name,eye in [('top',(-90,370,400)),('front',(-10,60,140))]:
  s.camera.location=eye;s.camera.rotation_euler=(Vector((-90,375,15))-s.camera.location).to_track_quat('-Z','Y').to_euler();s.render.filepath=str(R/f'renders/qa/R162_{name}.png');bpy.ops.render.render(write_still=True)
 report={k:data[k] for k in ['limitations']};report.update(scene=out.name,vertices=len(bpy.data.objects['R162_MEASURED_ENVELOPE'].data.vertices),accepted=False,published=False,ground_contacts=len(contacts),ground_min_overlap=min(contacts) if contacts else None,wall_stats=data.get('wall_stats',[]));(R/'reports/R162_CANDIDATE.json').write_text(json.dumps(report,indent=2));print('R162_CANDIDATE_SAVED',flush=True)
+

@@ -1,7 +1,7 @@
 {
   "name": "Context 3",
-  "revision": "R165-seven-source-derived-buildings",
-  "source": "Authored environment with seven source-derived building envelopes: roof steps, courtyard boundaries and a measured sloping tower roof. ACT facade color projected onto authored geometry. Fine facade recesses, remaining district buildings, roads and vegetation are incomplete.",
+  "revision": "R166-eastern-complex-and-curved-roof",
+  "source": "Authored source-derived buildings including eastern triangular complex and its tower, curved glass-roof building, seven earlier envelopes. Roof levels and facade colors follow ACT reference. Manual outer traces and fine facade relief remain approximate; roads and vegetation incomplete.",
   "compression": "Draco 24-bit positions; WebP quality 92; original texture resolution",
   "files": {
     "near": {
@@ -252,11 +252,11 @@
     },
     "district": {
       "file": "model/cevre3/authored-district.glb",
-      "bytes": 3740468,
-      "sha256": "57811bd4918af185169fb78a67cdd530d90e2214ff13659c87d9d1b9e279b51d",
-      "sourceSha256": "654ca12d4d1f43d39122047fa6e73ecf3334dd7a039b6031b69006d15c818a7a",
-      "triangles": 33266,
-      "sourceTriangles": 33266,
+      "bytes": 8622436,
+      "sha256": "9eb99e3d51e94c8be44d2900ba52231336bb1dacb181b2e43d1b11b8afc06b26",
+      "sourceSha256": "e43c07813664744f45b6ee585f68de3ed56f7793122778c5638b94469469ae50",
+      "triangles": 75546,
+      "sourceTriangles": 75546,
       "degenerateRemoved": 0,
       "bounds": {
         "min": [
@@ -271,7 +271,7 @@
         ]
       },
       "boundsError": 0.000091552734375,
-      "textures": 4,
+      "textures": 5,
       "instanceTransformsPreserved": true,
       "instances": []
     }
