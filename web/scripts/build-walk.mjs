@@ -12,16 +12,26 @@
 // can hold several heights: the storeys above each other, a stair under a
 // landing. Blocked cells grow by one cell, the visitor's shoulders. Rows are
 // run-length coded per layer: [first column, count, height in mm].
+//
+// Stairs are walked as one ramp each: from the floor at the foot to the floor
+// at the head, one even slope along the way up, landings included, so the
+// eye glides instead of hopping from tread to tread. The stairs are found by
+// name in the source model (treads, nosings, aisles, corner landings of
+// 12_Blender_Model/exports/current.glb.gz); each connected flight of them is
+// one ramp, its height set by how far along the way up a cell lies.
 import fs from 'node:fs';
 import path from 'node:path';
+import zlib from 'node:zlib';
 import { fileURLToPath } from 'node:url';
 import { NodeIO } from '@gltf-transform/core';
 import { ALL_EXTENSIONS } from '@gltf-transform/extensions';
 import draco3d from 'draco3dgltf';
+import { MeshoptDecoder } from 'meshoptimizer';
 
 const here = path.dirname(fileURLToPath(import.meta.url));
 const repo = path.resolve(here, '../..');
 const source = path.join(repo, 'demo/model/building.glb');
+const stairSource = path.join(repo, '12_Blender_Model/exports/current.glb.gz');
 const out = path.join(repo, 'demo/data/walk.json');
 
 const STEP = 0.25;      // grid cell, m
@@ -32,33 +42,53 @@ const HEAD = 1.95;      // ... to here above the floor block the cell
 const MERGE = 0.3;      // walkable faces closer than this in one cell are one floor
 const UP = 0.7;         // walkable faces: normal.y above this (up to ~45°)
 const FLOORS = 0;       // layer index of the floors layer (scripts/build-model.mjs LAYERS)
+// stair parts in the source model, by name or element type
+const STAIR_NAME = /TREAD|NOSING|AISLE|CORNER_LANDING/;
+const STAIR_TYPE = /tread|quarter_turn_flat_landing|radial_step/;
+const STAIR_LINK = 0.45; // treads this close in height, side by side, are one flight
+const RAMP_KNEE = 0.8;   // on a ramp, the stair's own treads and landings may rise this far above it
 
-const io = new NodeIO().registerExtensions(ALL_EXTENSIONS).registerDependencies({ 'draco3d.decoder': await draco3d.createDecoderModule() });
+await MeshoptDecoder.ready;
+const io = new NodeIO().registerExtensions(ALL_EXTENSIONS).registerDependencies({ 'draco3d.decoder': await draco3d.createDecoderModule(), 'meshopt.decoder': MeshoptDecoder });
 const doc = await io.read(source);
 
-// --- world-space triangles with their layer
-const tris = []; // [ax, ay, az, bx, by, bz, cx, cy, cz, layer]
-for (const node of doc.getRoot().listNodes()) {
-  const mesh = node.getMesh();
-  if (!mesh) continue;
-  const M = node.getWorldMatrix();
-  for (const prim of mesh.listPrimitives()) {
-    const pos = prim.getAttribute('POSITION');
-    const piece = prim.getAttribute('_PIECE');
-    const idx = prim.getIndices()?.getArray();
-    const n = idx ? idx.length : pos.getCount();
-    const v = [], p = [];
-    const world = (i) => {
-      pos.getElement(i, v);
-      return [M[0] * v[0] + M[4] * v[1] + M[8] * v[2] + M[12], M[1] * v[0] + M[5] * v[1] + M[9] * v[2] + M[13], M[2] * v[0] + M[6] * v[1] + M[10] * v[2] + M[14]];
-    };
-    for (let t = 0; t + 2 < n; t += 3) {
-      const i0 = idx ? idx[t] : t;
-      const layer = piece ? Math.round(piece.getElement(i0, p)[3]) : -1;
-      tris.push([...world(i0), ...world(idx ? idx[t + 1] : t + 1), ...world(idx ? idx[t + 2] : t + 2), layer]);
+// World-space triangles of a document's meshes: [ax, ay, az, bx, by, bz, cx,
+// cy, cz, layer]; `keep(node)` picks the nodes.
+function triangles(document, keep = () => true) {
+  const list = [];
+  for (const node of document.getRoot().listNodes()) {
+    const mesh = node.getMesh();
+    if (!mesh || !keep(node)) continue;
+    const M = node.getWorldMatrix();
+    for (const prim of mesh.listPrimitives()) {
+      const pos = prim.getAttribute('POSITION');
+      const piece = prim.getAttribute('_PIECE');
+      const idx = prim.getIndices()?.getArray();
+      const n = idx ? idx.length : pos.getCount();
+      const v = [], p = [];
+      const world = (i) => {
+        pos.getElement(i, v);
+        return [M[0] * v[0] + M[4] * v[1] + M[8] * v[2] + M[12], M[1] * v[0] + M[5] * v[1] + M[9] * v[2] + M[13], M[2] * v[0] + M[6] * v[1] + M[10] * v[2] + M[14]];
+      };
+      for (let t = 0; t + 2 < n; t += 3) {
+        const i0 = idx ? idx[t] : t;
+        const layer = piece ? Math.round(piece.getElement(i0, p)[3]) : -1;
+        list.push([...world(i0), ...world(idx ? idx[t + 1] : t + 1), ...world(idx ? idx[t + 2] : t + 2), layer]);
+      }
     }
   }
+  return list;
 }
+
+// --- world-space triangles of the web model, with their layer
+const tris = triangles(doc);
+// --- the stairs' walked faces, from the source model
+const stairNames = new Set();
+const stairTris = triangles(await io.readBinary(new Uint8Array(zlib.gunzipSync(fs.readFileSync(stairSource)))), (node) => {
+  const yes = STAIR_NAME.test(node.getName()) || STAIR_TYPE.test(node.getExtras()?.element_type ?? '');
+  if (yes) stairNames.add(node.getName().replace(/_\d+(_\d+)*$/, ''));
+  return yes;
+});
 
 // --- grid over the building
 const lo = [Infinity, Infinity], hi = [-Infinity, -Infinity];
@@ -142,16 +172,153 @@ const tops = faces.map((list) => {
   return out.reverse().slice(-MAX_LAYERS);
 });
 
+// --- stairs as ramps
+// Tread heights per cell (one per flight above another), linked to the
+// neighbouring cells' treads within STAIR_LINK: each connected set is a stair.
+const treadFaces = new Map();
+for (const t of stairTris) {
+  if (normalY(t) < UP) continue;
+  cover(t, (i, y0, y1) => { if (!treadFaces.has(i)) treadFaces.set(i, []); treadFaces.get(i).push(y1); });
+}
+const nodes = []; // { i, h }
+const nodesAt = new Map(); // cell -> node ids
+for (const [i, list] of treadFaces) {
+  list.sort((a, b) => b - a);
+  let low = Infinity;
+  for (const h of list) {
+    if (h > low - MERGE) { low = h; continue; }
+    low = h;
+    if (!nodesAt.has(i)) nodesAt.set(i, []);
+    nodesAt.get(i).push(nodes.length);
+    nodes.push({ i, h });
+  }
+}
+const NEAR8 = [[1, 0, 1], [-1, 0, 1], [0, 1, 1], [0, -1, 1], [1, 1, Math.SQRT2], [1, -1, Math.SQRT2], [-1, 1, Math.SQRT2], [-1, -1, Math.SQRT2]];
+const around = (i, fn) => {
+  const col = i % W, row = (i - col) / W;
+  for (const [dc, dr, w] of NEAR8) {
+    const c = col + dc, r = row + dr;
+    if (c >= 0 && r >= 0 && c < W && r < H) fn(r * W + c, w);
+  }
+};
+const links = (n, fn) => around(nodes[n].i, (j, w) => {
+  for (const m of nodesAt.get(j) ?? []) if (Math.abs(nodes[m].h - nodes[n].h) <= STAIR_LINK) fn(m, w);
+});
+// shortest way along the stair from a set of start nodes
+function along(starts, inStair) {
+  const d = new Map(starts.map((n) => [n, 0]));
+  const queue = [...starts];
+  // few hundred nodes per stair: a plain relaxation queue is enough
+  while (queue.length) {
+    const n = queue.shift();
+    links(n, (m, w) => {
+      if (!inStair.has(m)) return;
+      const v = d.get(n) + w;
+      if (v < (d.get(m) ?? Infinity) - 1e-9) { d.set(m, v); queue.push(m); }
+    });
+  }
+  return d;
+}
+const ramp = new Map(); // cell -> [[tread height, ramp height], ...]
+const stairs = [];
+const seen = []; // nodes already in a stair (absorbed edge cells join later)
+for (let n0 = 0, count0 = nodes.length; n0 < count0; n0++) {
+  if (seen[n0]) continue;
+  const stair = [n0];
+  seen[n0] = 1;
+  for (let q = 0; q < stair.length; q++) links(stair[q], (m) => { if (!seen[m]) { seen[m] = 1; stair.push(m); } });
+  const inStair = new Set(stair);
+  // the floors it meets: standing heights next to a tread, within a link,
+  // that are not this stair's own treads
+  const contacts = [];
+  for (const n of stair) {
+    const { i, h } = nodes[n];
+    const meet = (j) => {
+      for (const t of tops[j] ?? []) {
+        if (Math.abs(t - h) > STAIR_LINK) continue;
+        if ((nodesAt.get(j) ?? []).some((m) => inStair.has(m) && Math.abs(nodes[m].h - t) < MERGE)) continue;
+        contacts.push([n, t]);
+      }
+    };
+    meet(i);
+    around(i, meet);
+  }
+  // foot and head: the lowest and highest floors it meets along more than a
+  // couple of cells (not a stray face)
+  const byLevel = new Map();
+  for (const [n, t] of contacts) { const k = Math.round(t * 50); if (!byLevel.has(k)) byLevel.set(k, new Set()); byLevel.get(k).add(n); }
+  const levels = [...byLevel].filter(([, ns]) => ns.size >= 3).map(([k]) => k / 50);
+  if (levels.length < 2) continue;
+  const foot = Math.min(...levels), head = Math.max(...levels);
+  if (head - foot < 2 * MAX_STEP) continue; // a step or two: walked as it is
+  // The cells along the stair's edge that the source treads only graze keep
+  // the web model's tread heights: they join the ramp, so its edge is not a
+  // row of little steps. A floor or a seating tier beside the stair (flat
+  // over several cells) stays as it is.
+  const flat = (j, t) => {
+    let same = 0;
+    around(j, (k) => { if ((tops[k] ?? []).some((u) => Math.abs(u - t) < 0.03)) same++; });
+    return same >= 4;
+  };
+  for (const n of [...stair]) {
+    around(nodes[n].i, (j) => {
+      for (const t of tops[j] ?? []) {
+        if (t <= foot + 0.1 || t >= head - 0.1 || Math.abs(t - nodes[n].h) > STAIR_LINK) continue;
+        if ((nodesAt.get(j) ?? []).some((m) => Math.abs(nodes[m].h - t) < MERGE)) continue;
+        if (flat(j, t)) continue;
+        if (!nodesAt.has(j)) nodesAt.set(j, []);
+        nodesAt.get(j).push(nodes.length);
+        inStair.add(nodes.length);
+        stair.push(nodes.length);
+        nodes.push({ i: j, h: t });
+      }
+    });
+  }
+  const d0 = along([...new Set(contacts.filter((c) => c[1] - foot < 0.2).map((c) => c[0]))], inStair);
+  const d1 = along([...new Set(contacts.filter((c) => head - c[1] < 0.2).map((c) => c[0]))], inStair);
+  let set = 0;
+  for (const n of stair) {
+    const a = d0.get(n), b = d1.get(n);
+    if (a === undefined || b === undefined) continue;
+    const h = a + b > 0 ? foot + ((head - foot) * a) / (a + b) : foot;
+    const { i } = nodes[n];
+    if (!ramp.has(i)) ramp.set(i, []);
+    ramp.get(i).push([nodes[n].h, h]);
+    set++;
+  }
+  const c = stair.reduce((acc, n) => [acc[0] + (nodes[n].i % W), acc[1] + Math.floor(nodes[n].i / W)], [0, 0]);
+  stairs.push({ at: [gx + (c[0] / stair.length + 0.5) * STEP, gz + (c[1] / stair.length + 0.5) * STEP].map((v) => Math.round(v * 10) / 10), foot: Math.round(foot * 100) / 100, head: Math.round(head * 100) / 100, cells: set, of: stair.length, run: Math.round(Math.max(...[...d0.values()].filter(Number.isFinite)) * STEP * 10) / 10 });
+}
+// the ramp takes the treads' place in the standing heights
+const rampAt = new Map(); // cell -> ramp heights (mm)
+for (const [i, list] of ramp) {
+  let row = tops[i] ?? [];
+  for (const [tread, h] of list) {
+    row = row.filter((t) => Math.abs(t - tread) >= MERGE && Math.abs(t - h) >= MERGE);
+    row.push(h);
+  }
+  tops[i] = row.sort((a, b) => a - b).slice(-MAX_LAYERS);
+  rampAt.set(i, new Set(list.map(([, h]) => Math.round(h * 1000))));
+}
+const onRamp = (i, h) => rampAt.get(i)?.has(Math.round(h * 1000)) ?? false;
+
 // --- pass 2: anything through the body, from knee to head, in the cell or
-// next to it (the visitor's shoulders), blocks that height
+// next to it (the visitor's shoulders), blocks that height. On a ramp the
+// handrails mark the edge (no shoulder room), and the stair's own treads and
+// landings, which the ramp cuts through, only block well above it.
 const blocked = new Uint8Array(count); // bit k: tops[i][k] blocked
 const AROUND = [0, 1, -1, W, -W];
 for (const t of tris) {
+  const walked = t[9] === FLOORS;
   cover(t, (j, y0, y1) => {
     for (const d of AROUND) {
       const i = j + d, list = tops[i];
       if (!list) continue;
-      for (let k = 0; k < list.length; k++) if (y1 > list[k] + KNEE && y0 < list[k] + HEAD) blocked[i] |= 1 << k;
+      for (let k = 0; k < list.length; k++) {
+        const h = list[k], r = onRamp(i, h);
+        if (r && d) continue;
+        if (y1 > h + (r && walked ? RAMP_KNEE : KNEE) && y0 < h + HEAD) blocked[i] |= 1 << k;
+      }
     }
   });
 }
@@ -190,4 +357,6 @@ for (const [, mm] of stand) {
   const h = mm / 1000;
   if (h > -6 && h < -3) byStorey['-1']++; else if (h > -0.6 && h < 1) byStorey['0']++; else if (h > 4.3 && h < 5.5) byStorey['+1']++; else byStorey.other++;
 }
+for (const st of stairs) console.log('ramp', JSON.stringify(st));
+console.log('stair parts', [...stairNames].sort().join(' '));
 console.log(`walk: ${tris.length} triangles (${walkTris} walkable faces), grid ${W} x ${H} at ${STEP} m, ${n} standing cells (${(n * STEP * STEP).toFixed(0)} m²), ${layersUsed} layers`, byStorey, `${(fs.statSync(out).size / 1024).toFixed(0)} kB`);

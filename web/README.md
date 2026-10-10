@@ -108,8 +108,12 @@ kapakları, odalar ve eser yerleşimi Çevre 1 verisinden gelir.
   `scripts/build-walk.mjs` ile web modelinden çıkarılır: döşemeler katmanının
   yukarı bakan yüzleri 0,25 m ızgarada ayak kotlarını verir, dizden başa kadar
   vücudu kesen her şey (duvar, cam, korkuluk, alçak kiriş) o kotu kapatır,
-  omuz payı bir hücre. Merdivenlerle −1, 0 ve +1 birbirine bağlıdır; serbest
-  duran eserler engeldir (`src/engine/walk.js`).
+  omuz payı bir hücre. Merdivenler basamak basamak değil, her biri tek eğimli
+  bir rampa olarak yürünür: alt kattan üst kata, sahanlıklar dahil tek düz
+  eğim (kaynak modeldeki basamak, burun, koridor ve köşe sahanlığı parçaları
+  adlarından bulunur; 8 merdiven: Büyük Salon, foyer, batı, doğu, servis,
+  pavyon sarmalı, oditoryumun iki koridoru). Böylece −1, 0 ve +1 birbirine
+  bağlıdır; serbest duran eserler engeldir (`src/engine/walk.js`).
 - **Işık:** Lüksemburg için NOAA güneş konumu (yaz saati dahil), Preetham gökyüzü,
   gökten türetilen ortam ışığı, 4K gölge, GTAO. Ortam kırpılmış katları
   karartmasın diye AO, sahnenin kendi derinliğinden hesaplanır.
