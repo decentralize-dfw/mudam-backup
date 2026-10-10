@@ -8,12 +8,15 @@ import { ALL_EXTENSIONS, EXTTextureWebP } from '@gltf-transform/extensions';
 import { draco } from '@gltf-transform/functions';
 import draco3d from 'draco3dgltf';
 import { spawnSync } from 'node:child_process';
+import { MeshoptDecoder } from 'meshoptimizer';
 
 const repo = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '../..');
 const python = process.env.PYTHON || 'python';
 const cache = path.join(repo,'12_Blender_Model/.local_source_cache/context3-webp');
 fs.mkdirSync(cache,{recursive:true});
+await MeshoptDecoder.ready;
 const io = new NodeIO().registerExtensions(ALL_EXTENSIONS).registerDependencies({
+  'meshopt.decoder': MeshoptDecoder,
   'draco3d.decoder': await draco3d.createDecoderModule(),
   'draco3d.encoder': await draco3d.createEncoderModule(),
 });
@@ -30,16 +33,18 @@ function stats(doc) {
       if(Math.hypot(u[1]*v[2]-u[2]*v[1],u[2]*v[0]-u[0]*v[2],u[0]*v[1]-u[1]*v[0])<1e-12) degenerate++;
     }
   }
-  return { degenerate, triangles: r.listMeshes().reduce((s,m)=>s+m.listPrimitives().reduce((n,p)=>n+(p.getIndices()?.getCount()??p.getAttribute('POSITION').getCount())/3,0),0),
+  const instances=r.listNodes().flatMap(n=> {const e=n.getExtension('EXT_mesh_gpu_instancing');return e?e.listSemantics().map(s=>({semantic:s,count:e.getAttribute(s).getCount(),hash:sha(new Uint8Array(e.getAttribute(s).getArray().buffer))})):[];});
+  return { instances, degenerate, triangles: r.listMeshes().reduce((s,m)=>s+m.listPrimitives().reduce((n,p)=>n+(p.getIndices()?.getCount()??p.getAttribute('POSITION').getCount())/3,0),0),
     bounds: getBounds(r.getDefaultScene()??r.listScenes()[0]),
     textures: r.listTextures().map(t=>({size:t.getSize(),mime:t.getMimeType()})) };
 }
-const manifest = { name:'Context 3', revision:'R160-draco-webp', source:'ACT 2020, CC0; museum footprint removed in R151. Source geometry retained without simplification.', compression:'Draco 24-bit positions; WebP quality 92; original texture resolution', files:{} };
+const manifest = { name:'Context 3', revision:'R159-authored-draco-webp', source:'Authored R159 environment: terrain, fortifications, roads, Philharmonie, Melia, Schuman and 6334 vegetation instances. Not ACT photogrammetry.', compression:'Draco 24-bit positions; WebP quality 92; original texture resolution', files:{} };
 fs.mkdirSync(path.join(repo,'demo/model/cevre3'),{recursive:true});
-for (const key of ['near','far']) {
-  const source = zlib.gunzipSync(fs.readFileSync(path.join(repo,`12_Blender_Model/exports/web_current/${key}_context.glb.gz`)));
+for (const [key,sourceName] of [['near','near_site'],['far','philharmonie'],['melia','melia'],['schuman','schuman'],['vegetation','vegetation']]) {
+  const source = zlib.gunzipSync(fs.readFileSync(path.join(repo,`12_Blender_Model/exports/r152_clean/${sourceName}_web.glb.gz`)));
   const doc = await io.readBinary(source);
   const before = stats(doc);
+  doc.getRoot().listExtensionsUsed().filter(e=>e.extensionName==='EXT_meshopt_compression').forEach(e=>e.dispose());
   // Preserve mesh instances, topology and material assignments.
   const missing=[];
   for(const texture of doc.getRoot().listTextures()) {
@@ -63,14 +68,15 @@ for (const key of ['near','far']) {
   const output = await io.writeBinary(doc);
   const reopened = await io.readBinary(output);
   const after = stats(reopened);
+  if(JSON.stringify(before.instances)!==JSON.stringify(after.instances)) throw Error('Instance transforms changed');
   console.log(key,'triangle verification',before.triangles,before.degenerate,after.triangles,after.degenerate);
   if (before.triangles-before.degenerate!==after.triangles-after.degenerate) throw Error(`${key}: nondegenerate triangle count changed`);
   if (after.textures.some(t=>t.mime!=='image/webp')) throw Error('Non-WebP texture');
   const error = Math.max(...['min','max'].flatMap(k=>before.bounds[k].map((v,i)=>Math.abs(v-after.bounds[k][i]))));
   if(error>0.02) throw Error(`${key}: bounds drift ${error}`);
-  const file = `model/cevre3/${key}.glb`;
+  const file = `model/cevre3/authored-${key}.glb`;
   fs.writeFileSync(path.join(repo,'demo',file),output);
-  manifest.files[key]={file,bytes:output.length,sha256:sha(output),sourceSha256:sha(source),triangles:after.triangles,sourceTriangles:before.triangles,degenerateRemoved:before.triangles-after.triangles,bounds:after.bounds,boundsError:error,textures:after.textures.length};
+  manifest.files[key]={file,bytes:output.length,sha256:sha(output),sourceSha256:sha(source),triangles:after.triangles,sourceTriangles:before.triangles,degenerateRemoved:before.triangles-after.triangles,bounds:after.bounds,boundsError:error,textures:after.textures.length,instanceTransformsPreserved:true,instances:after.instances};
   console.log(key,manifest.files[key]);
 }
 fs.writeFileSync(path.join(repo,'demo/data/cevre3.json'),JSON.stringify(manifest,null,2)+'\n');

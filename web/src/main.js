@@ -755,8 +755,7 @@ class App {
       if (far) far.visible = c2 && !this.s.visit;
     }
     if (st.cevre3) {
-      st.cevre3.near.visible = c3;
-      if (st.cevre3.far) st.cevre3.far.visible = c3 && !this.s.visit;
+      for (const root of Object.values(st.cevre3)) if (root) root.visible = c3;
     }
     // neighbours stay out of the way of close building views
     st.context.setMassing(this.s.mode === 'surroundings' || exploded ? 1 : cut || this.s.hotspot ? 0.0 : 0.85);
