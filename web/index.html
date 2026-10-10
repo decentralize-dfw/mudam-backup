@@ -53,6 +53,7 @@
     </nav>
     <span class="dock-divider"></span>
     <button id="toggle-explode" class="pill" aria-pressed="false" data-i18n="explode">Katları ayır</button>
+    <button id="toggle-materials" class="pill" aria-pressed="false" aria-controls="layer-panel" data-i18n="materials">Malzemelere ayır</button>
     <button id="toggle-plan" class="pill" aria-pressed="false" data-i18n="plan">Plan</button>
     <span class="dock-divider"></span>
     <div class="camera-tools">
@@ -61,6 +62,14 @@
       <button id="recentre" class="icon" data-i18n-label="recentre" aria-label="Ortala"><svg viewBox="0 0 20 20" aria-hidden="true"><circle cx="10" cy="10" r="3"/><path d="M10 1.5v4M10 14.5v4M1.5 10h4M14.5 10h4"/></svg></button>
     </div>
   </footer>
+
+  <section id="layer-panel" class="layer-panel glass" hidden aria-label="Malzeme katmanları">
+    <div class="layer-modes" role="group" data-i18n-label="materials">
+      <button data-mat="vertical" aria-pressed="false" data-i18n="matVertical">Dikey</button>
+      <button data-mat="radial" aria-pressed="false" data-i18n="matRadial">Yarım küre</button>
+    </div>
+    <div class="layer-list" id="layer-list"></div>
+  </section>
 
   <section class="light-panel glass" aria-label="Işık">
     <div class="light-row">

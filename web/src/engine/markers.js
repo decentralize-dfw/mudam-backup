@@ -51,7 +51,7 @@ export class Markers {
     const dir = new THREE.Vector3();
     camera.getWorldDirection(dir);
     for (const it of this.items) {
-      this.v.copy(it.p);
+      if (it.pos) this.v.copy(it.pos()); else this.v.copy(it.p);
       if (it.lift) this.v.y += it.lift();
       let facing = 1;
       if (it.n) {
@@ -63,7 +63,11 @@ export class Markers {
       if (off || (it.visible && !it.visible())) { it.el.style.display = 'none'; continue; }
       it.el.style.display = '';
       const x = (this.v.x + 1) * width / 2, y = (1 - this.v.y) * height / 2;
-      it.el.style.transform = `translate3d(${x.toFixed(1)}px, ${y.toFixed(1)}px, 0)`;
+      // side labels that would run off the right edge open to the left
+      if (it.kind === 'layername' && !it.w) it.w = it.el.offsetWidth;
+      const flip = it.kind === 'layername' && x + it.w > width - 12;
+      it.el.classList.toggle('flip', flip);
+      it.el.style.transform = `translate3d(${x.toFixed(1)}px, ${y.toFixed(1)}px, 0)${flip ? ' translateX(calc(30px - 100%))' : ''}`;
       it.el.style.opacity = it.el.classList.contains('active') ? 1 : (0.25 + 0.75 * facing).toFixed(2);
       it.el.classList.toggle('behind', facing < 0.5);
     }

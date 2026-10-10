@@ -37,9 +37,10 @@ await MeshoptSimplifier.ready;
 // and the trees are separate files so the building can appear first.
 function chunkOf(name, extras) {
   const level = extras?.level_id ?? '';
-  // leaf meshes: replaced at runtime by light canopies (demo/data/context.json)
-  if (/^R56_TREE.*LEAVES/.test(name)) return 'none';
-  if (/^R56_TREE|^R38_TREE/.test(name)) return 'trees';
+  // leaf and needle meshes: replaced at runtime by light canopies
+  // (demo/data/context.json); the source counts ~250k triangles per pine
+  if (/^R(56|130)_TREE.*(LEAVES|NEEDLES)/.test(name)) return 'none';
+  if (/^R(56|130)_TREE|^R38_TREE/.test(name)) return 'trees';
   if (level === 'SITE' || level === 'L00_APPROACH') return 'site';
   return 'building';
 }
@@ -49,11 +50,43 @@ function chunkOf(name, extras) {
 // relative to the primitive's own extent.
 function simplifyRule(name) {
   if (/^R56_TREE.*LEAVES/.test(name)) return { ratio: 0.06, error: 0.1, lockBorder: false };
-  if (/^R56_TREE.*BRANCHES/.test(name)) return { ratio: 0.25, error: 0.02, lockBorder: false };
+  if (/^R(56|130)_TREE.*BRANCHES/.test(name)) return { ratio: 0.25, error: 0.02, lockBorder: false };
   if (/^R20_SEAT/.test(name)) return { ratio: 0.18, error: 0.02, lockBorder: false };
   if (/^R21_/.test(name)) return { ratio: 0.2, error: 0.01, lockBorder: false };
   if (/^R51_|^R42_|^R50_/.test(name)) return { ratio: 0.5, error: 0.004, lockBorder: true };
   return null;
+}
+
+// Material layers for the exploded views (Malzemelere ayır). Element types
+// were classified once (scripts/layers.json, element_type -> layer); new
+// element types fall back to the keyword rules below.
+export const LAYERS = ['floors', 'walls', 'ceilings', 'frames', 'glass', 'fittings'];
+const layerMap = JSON.parse(fs.readFileSync(path.join(here, 'layers.json'), 'utf8')).map;
+function layerOf(name, extras, materials) {
+  const known = layerMap[extras?.element_type];
+  if (known && LAYERS.includes(known)) return known;
+  const s = `${name} ${extras?.element_type ?? ''} ${materials.join(' ')}`.toUpperCase();
+  if (/GLASS|GLAZING|PANE\b/.test(s) && !/FRAME|SEAL|BEAD|FIXING|RAIL/.test(s)) return 'glass';
+  if (/TREAD|NOSING|RISER|STAIR|RAIL|SEAT|LIGHT|LENS|LAMP|FIXTURE|DOOR|HINGE|PANEL_BODY|SIGN|CONTROL|SPEAKER|TRACK/.test(s)) return 'fittings';
+  if (/FRAME|MULLION|TRANSOM|ROD|STRUT|SHADE|SHADING|SEAL|BEAD|CHANNEL|POST|FIXING|METAL|STEEL/.test(s)) return 'frames';
+  if (/CEILING|SOFFIT|ROOF|APRON|CANOPY_SLAB|FASCIA/.test(s)) return 'ceilings';
+  if (/FLOOR|SLAB|LANDING|THRESHOLD|STAGE|DECK|ZONE_/.test(s)) return 'floors';
+  return 'walls';
+}
+
+// World-space box of a node's mesh (root-level nodes: local = world).
+function nodeBox(node) {
+  const m = node.getWorldMatrix();
+  const lo = [Infinity, Infinity, Infinity], hi = [-Infinity, -Infinity, -Infinity];
+  for (const prim of node.getMesh().listPrimitives()) {
+    const a = prim.getAttribute('POSITION');
+    const mn = a.getMin([]), mx = a.getMax([]);
+    for (const x of [mn[0], mx[0]]) for (const y of [mn[1], mx[1]]) for (const z of [mn[2], mx[2]]) {
+      const w = [m[0] * x + m[4] * y + m[8] * z + m[12], m[1] * x + m[5] * y + m[9] * z + m[13], m[2] * x + m[6] * y + m[10] * z + m[14]];
+      for (let k = 0; k < 3; k++) { lo[k] = Math.min(lo[k], w[k]); hi[k] = Math.max(hi[k], w[k]); }
+    }
+  }
+  return { lo, hi };
 }
 
 function smoothNormals(doc, prim) {
@@ -75,6 +108,71 @@ function smoothNormals(doc, prim) {
   prim.setAttribute('NORMAL', doc.createAccessor().setType('VEC3').setArray(n).setBuffer(buffer));
 }
 
+// Every building part is tagged for the exploded views: _PIECE = x, y, z,
+// layer, written into each of its vertices, so the joined meshes can still
+// fly apart on the GPU. Small neighbouring parts of one layer and storey move
+// together as one fragment (an 8 m cell: a bay of mullions, a run of panes),
+// so the explosion reads as pieces of the building rather than dust; parts
+// longer than two cells keep their own centre. Parts are also grouped per
+// layer so a layer can be hidden.
+const CELL = 8;
+const storeyOf = (y) => (y < -0.4 ? 0 : y < 4.5 ? 1 : y < 9.6 ? 2 : 3);
+function bakePieces(doc, group) {
+  const buffer = doc.getRoot().listBuffers()[0];
+  const layerNodes = Object.fromEntries(LAYERS.map((l) => {
+    const n = doc.createNode(`LAYER_${l}`);
+    group.addChild(n);
+    return [l, n];
+  }));
+  const parts = [];
+  for (const node of [...group.listChildren()]) {
+    if (node.getName().startsWith('LAYER_')) continue;
+    const mesh = node.getMesh();
+    if (!mesh) continue;
+    const materials = mesh.listPrimitives().map((p) => p.getMaterial()?.getName() ?? '');
+    const layer = layerOf(node.getName(), node.getExtras(), materials);
+    const { lo, hi } = nodeBox(node);
+    const c = lo.map((v, k) => (v + hi[k]) / 2);
+    const diag = Math.hypot(hi[0] - lo[0], hi[1] - lo[1], hi[2] - lo[2]);
+    const li = LAYERS.indexOf(layer);
+    const key = diag > 2 * CELL ? `own:${parts.length}` : `${li}:${Math.floor(c[0] / CELL)}:${Math.floor(c[2] / CELL)}:${storeyOf(c[1])}`;
+    parts.push({ node, mesh, layer, li, lo, hi, c, w: Math.max(diag, 0.05), key });
+  }
+  // fragments: weighted centre of their parts, size = diagonal of their box
+  const frags = new Map();
+  for (const p of parts) {
+    let f = frags.get(p.key);
+    if (!f) frags.set(p.key, (f = { li: p.li, sum: [0, 0, 0], w: 0, lo: [...p.lo], hi: [...p.hi], n: 0 }));
+    for (let k = 0; k < 3; k++) { f.sum[k] += p.c[k] * p.w; f.lo[k] = Math.min(f.lo[k], p.lo[k]); f.hi[k] = Math.max(f.hi[k], p.hi[k]); }
+    f.w += p.w;
+    f.n++;
+  }
+  for (const f of frags.values()) f.c = f.sum.map((v) => Math.round((v / f.w) * 100) / 100);
+  const counts = Object.fromEntries(LAYERS.map((l) => [l, 0]));
+  for (const p of parts) {
+    const f = frags.get(p.key);
+    // meshes reused by several nodes get their own copy before tagging
+    const unique = doc.createMesh(p.mesh.getName());
+    for (const prim of p.mesh.listPrimitives()) {
+      const q = prim.clone();
+      const n = q.getAttribute('POSITION').getCount();
+      const data = new Float32Array(n * 4);
+      for (let i = 0; i < n; i++) data.set([f.c[0], f.c[1], f.c[2], p.li], i * 4);
+      q.setAttribute('_PIECE', doc.createAccessor().setType('VEC4').setArray(data).setBuffer(buffer));
+      unique.addPrimitive(q);
+    }
+    p.node.setMesh(unique);
+    group.removeChild(p.node);
+    layerNodes[p.layer].addChild(p.node);
+    counts[p.layer]++;
+  }
+  const pieces = [...frags.values()].map((f) => [...f.c, f.li, Math.round(Math.hypot(f.hi[0] - f.lo[0], f.hi[1] - f.lo[1], f.hi[2] - f.lo[2]) * 100) / 100, f.n]);
+  fs.mkdirSync(path.join(repo, 'demo/data'), { recursive: true });
+  // [x, y, z, layer, size, parts] per fragment
+  fs.writeFileSync(path.join(repo, 'demo/data/pieces.json'), JSON.stringify({ layers: LAYERS, cell: CELL, pieces }));
+  console.log('parts', parts.length, counts, 'fragments', pieces.length);
+}
+
 async function buildChunk(chunk) {
   const buffer = zlib.gunzipSync(fs.readFileSync(source));
   const doc = await io.readBinary(new Uint8Array(buffer));
@@ -89,7 +187,6 @@ async function buildChunk(chunk) {
   for (const node of [...scene.listChildren()]) {
     const extras = node.getExtras();
     if (chunkOf(node.getName(), extras) !== chunk) { node.dispose(); continue; }
-    node.setExtras({});
     scene.removeChild(node);
     group.addChild(node);
     kept++;
@@ -110,6 +207,9 @@ async function buildChunk(chunk) {
     }
   }
   scene.addChild(group);
+  if (chunk === 'building') bakePieces(doc, group);
+  // provenance notes stay in the source export, not in the web copy
+  group.traverse((n) => n.setExtras({}));
   // Materials and meshes only referenced by the other chunks go away here.
   await doc.transform(
     prune(),
@@ -118,7 +218,7 @@ async function buildChunk(chunk) {
     join({ keepNamed: false, keepMeshes: false }),
     prune(),
     textureCompress({ encoder: sharp, targetFormat: 'webp', quality: 82, resize: chunk === 'site' ? [2048, 2048] : [1024, 1024] }),
-    draco({ method: 'edgebreaker', quantizePosition: 16, quantizeNormal: 10, quantizeTexcoord: 12 }),
+    draco({ method: 'edgebreaker', quantizePosition: 16, quantizeNormal: 10, quantizeTexcoord: 12, quantizeGeneric: 14 }),
   );
   for (const material of root.listMaterials()) material.setExtras({});
   const out = path.join(outDir, `${chunk}.glb`);

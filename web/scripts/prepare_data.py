@@ -75,7 +75,7 @@ def load_nodes():
 
 
 def is_context(r):
-    return r['level'] in ('SITE', 'L00_APPROACH') or r['name'].startswith(('R56_TREE', 'R38_TREE'))
+    return r['level'] in ('SITE', 'L00_APPROACH') or r['name'].startswith(('R56_TREE', 'R130_TREE', 'R38_TREE'))
 
 
 TO2D = np.array([[1, 0, 0, 0], [0, 0, 1, 0], [0, 1, 0, 0], [0, 0, 0, 1]], dtype=float)
@@ -454,13 +454,14 @@ def context(recs):
     # are too dense for the web and are replaced by light canopies)
     trees = {}
     for r in recs:
-        m = re.match(r'R56_TREE_(\d+)_LEAVES', r['name'])
+        m = re.match(r'R(56|130)_TREE_(\d+)_(LEAVES|NEEDLES)', r['name'])
         if not m:
             continue
         lo, hi = r['mesh'].bounds
-        t = trees.setdefault(m.group(1), [lo.copy(), hi.copy()])
+        kind = 'needle' if m.group(3) == 'NEEDLES' else 'broad'
+        t = trees.setdefault(m.group(2), [lo.copy(), hi.copy(), kind])
         t[0] = np.minimum(t[0], lo); t[1] = np.maximum(t[1], hi)
-    tree_list = [dict(c=np.round((lo + hi) / 2, 2).tolist(), s=np.round((hi - lo) / 2, 2).tolist()) for lo, hi in trees.values()]
+    tree_list = [dict(c=np.round((lo + hi) / 2, 2).tolist(), s=np.round((hi - lo) / 2, 2).tolist(), kind=kind) for lo, hi, kind in trees.values()]
     json.dump(dict(buildings=buildings, trees=tree_list), open(os.path.join(OUT, 'context.json'), 'w'), separators=(',', ':'))
     print('context buildings', len(buildings), 'lines', len(lines), 'trees', len(tree_list))
     # holes in the ground drawing: the museum footprint and the two moats,

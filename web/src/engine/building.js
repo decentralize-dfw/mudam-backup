@@ -182,12 +182,13 @@ export class Building {
 
   apply() {
     this.bands[3].group.visible = this.state === 'explode' ? this.roofVisible !== false : this.bands[3].group.visible;
-    for (const b of this.bands) {
+    this.bands.forEach((b, k) => {
       // clipping planes live in world space: they travel with the lift
       b.lo.constant = -(b.s.lo + b.s.dy);
-      b.hi.constant = b.s.hi + b.s.dy;
+      // taken apart by material, parts rise far above the roof
+      b.hi.constant = k === 0 && this.unclipped ? 1e5 : b.s.hi + b.s.dy;
       b.group.position.y = b.s.dy;
-    }
+    });
     // a cap shows on whichever visible band currently ends at that floor's cut
     for (const [f, cap] of Object.entries(this.caps)) {
       const band = this.bands.find((b) => b.group.visible && Math.abs(b.s.hi - cap.y) < 0.02);

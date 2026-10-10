@@ -7,6 +7,7 @@ import { BUILDING_HOTSPOTS } from './content/building.js';
 import { SURROUNDING_HOTSPOTS } from './content/surroundings.js';
 import { EXHIBITIONS, OTHER_ROOMS } from './content/exhibitions.js';
 import { i18n, t, pick } from './i18n.js';
+import { MaterialExplode, LAYERS, LAYER_COLOURS } from './engine/explode.js';
 
 const BASE = './demo/';
 const $ = (s, r = document) => r.querySelector(s);
@@ -26,6 +27,12 @@ const HOME = {
   explode: { target: [3, 20, -6], bearing: 22, tilt: 30, zoom: 0.62 },
   exhibitionsOverview: { target: [3, 12, -6], bearing: 22, tilt: 36, zoom: 0.78 },
 };
+// Malzemelere ayır: framing for the two exploded readings
+const MAT_VIEW = {
+  vertical: { target: [-1, 74, 2], bearing: 210, tilt: 22, zoom: 0.45, span: 150 },
+  radial: { target: [-1, 52, 2], bearing: 210, tilt: 20, zoom: 0.55, span: 320 },
+};
+const MAT_SLUG = { vertical: 'malzeme-dikey', radial: 'malzeme-kure' };
 const FLOOR_VIEW = {
   LM1: { target: [-2, FLOOR_Y.LM1, -6], bearing: 18, tilt: 52, zoom: 1.2 },
   L00: { target: [0, FLOOR_Y.L00, 0], bearing: 18, tilt: 52, zoom: 1.0 },
@@ -36,7 +43,7 @@ class App {
   constructor() {
     this.app = $('#app');
     this.stage = new Stage($('#viewport'), BASE);
-    this.s = { mode: 'building', floor: 'all', explode: false, plan: false, hotspot: null, exhibition: null, room: null, artwork: null, visit: false, hour: 13.5, day: 283, lights: false, lightsAuto: true };
+    this.s = { mode: 'building', floor: 'all', explode: false, plan: false, hotspot: null, exhibition: null, room: null, artwork: null, visit: false, mat: 'off', hour: 13.5, day: 283, lights: false, lightsAuto: true };
     this.pointer = { x: 0, y: 0, down: null };
     window.__mudam = this; // QA hook
     window.THREE = THREE;
@@ -62,6 +69,20 @@ class App {
     this.stage.rooms.init(this.data.rooms, (r) => this.exhibitionOfRoom.get(r.id)?.colour ?? 0x8f948f);
     await this.stage.artworks.init(this.data.artworks, this.roomsById);
     this.orderArtworks();
+    // material layers: patch the visible building band, then the trails
+    this.mx = new MaterialExplode(this.stage.scene);
+    this.mx.attach(this.stage.building.bands[0].group);
+    this.mx.onChange = () => {
+      const b = this.stage.building, open = this.mx.amount > 1e-4;
+      if (open !== Boolean(b.unclipped)) { b.unclipped = open; b.apply(); }
+      this.stage.dirty = true;
+      this.stage.renderer.shadowMap.needsUpdate = true;
+    };
+    try {
+      const pieces = await fetch(`${BASE}data/pieces.json`).then((r) => r.json());
+      this.mx.build(pieces);
+    } catch (e) { console.warn('pieces.json', e); }
+    this.renderLayerList();
     this.setupLights();
     this.stage.daylight.set(this.s.hour, this.s.day);
     this.stage.rig.setPose(this.poseOf(HOME.building));
@@ -81,6 +102,7 @@ class App {
     this.stage.siteReady.then(() => {
       this.stage.context.setMassing(this.s.mode === 'surroundings' ? 1 : 0.85);
       this.tuneSite();
+      this.stage.contextFade = 1; // new materials: let the current fade re-apply to them
       this.applyVisibility();
       this.app.dataset.siteReady = 'true';
     });
@@ -111,6 +133,8 @@ class App {
     $$('.floor-row button').forEach((b) => b.addEventListener('click', () => this.setFloor(b.dataset.floor)));
     $('#toggle-explode').addEventListener('click', () => this.setExplode(!this.s.explode));
     $('#toggle-plan').addEventListener('click', () => this.setPlan(!this.s.plan));
+    $('#toggle-materials').addEventListener('click', () => this.setMaterials(this.s.mat === 'off' ? 'vertical' : 'off'));
+    $$('[data-mat]').forEach((b) => b.addEventListener('click', () => this.setMaterials(b.dataset.mat)));
     $('#zoom-in').addEventListener('click', () => this.zoomBy(1.35));
     $('#zoom-out').addEventListener('click', () => this.zoomBy(1 / 1.35));
     $('#recentre').addEventListener('click', () => this.recentre());
@@ -172,6 +196,7 @@ class App {
   // --------------------------------------------------------------- modes
   async setMode(mode, { fly = true } = {}) {
     const prev = this.s.mode;
+    await this.leaveMaterials();
     this.s.mode = mode;
     this.app.dataset.mode = mode;
     $$('.mode-picker button').forEach((b) => b.setAttribute('aria-pressed', String(b.dataset.mode === mode)));
@@ -207,6 +232,7 @@ class App {
 
   async setFloor(floor) {
     if (this.s.mode === 'surroundings') return;
+    await this.leaveMaterials();
     if (this.s.visit) await this.leaveVisit(false);
     this.s.floor = floor;
     this.s.explode = false;
@@ -224,6 +250,7 @@ class App {
   }
 
   async setExplode(on) {
+    await this.leaveMaterials();
     if (this.s.visit) await this.leaveVisit(false);
     this.s.explode = on;
     if (on) { this.s.plan = false; this.stage.rig.setPlan(false); this.s.floor = 'all'; }
@@ -240,6 +267,7 @@ class App {
 
   async setPlan(on) {
     if (this.s.mode === 'surroundings') return;
+    await this.leaveMaterials();
     if (this.s.visit) await this.leaveVisit(false);
     if (on && (this.s.floor === 'all' || this.s.explode)) {
       const ex = EXHIBITIONS.find((e) => e.id === this.s.exhibition);
@@ -261,8 +289,66 @@ class App {
     this.updateHint();
   }
 
+  // ------------------------------------------------- material layers
+  async setMaterials(mode, { fly = true } = {}) {
+    if (!this.mx) return;
+    if (mode !== 'off' && this.s.mode !== 'building') {
+      this.s.mode = 'building'; this.app.dataset.mode = 'building';
+      $$('.mode-picker button').forEach((b) => b.setAttribute('aria-pressed', String(b.dataset.mode === 'building')));
+      $('#sheet').hidden = true; this.s.exhibition = null; this.s.room = null;
+    }
+    if (this.s.visit) await this.leaveVisit(false);
+    const prev = this.s.mat;
+    if (prev === mode) return;
+    this.s.mat = mode;
+    this.s.hotspot = null;
+    this.closeCard(true);
+    if (mode !== 'off') { this.s.explode = false; this.s.floor = 'all'; this.s.plan = false; this.stage.rig.setPlan(false); }
+    else this.mx.resetLayers();
+    this.syncControls();
+    this.applyVisibility();
+    this.renderMarkers();
+    this.renderLayerList();
+    const steps = [];
+    if (mode !== 'off' && this.stage.building.state !== 'all') steps.push(this.stage.building.setState('all', this.stage.tweens));
+    steps.push(this.mx.set(mode, this.stage.tweens, prev !== 'off' && mode !== 'off' ? 1500 : 1800));
+    if (fly) steps.push(this.fly(mode === 'off' ? HOME.building : this.fitWidth(MAT_VIEW[mode]), 1800));
+    await Promise.all(steps);
+    this.renderMarkers();
+    this.writeHash();
+    this.updateHint();
+  }
+
+  // On a narrow screen, zoom out until `span` metres fit across the width.
+  fitWidth(view) {
+    const host = this.stage.host, w = host.clientWidth, h = host.clientHeight;
+    const across = (this.stage.rig.viewSize * w) / Math.min(w, h);
+    return view.span ? { ...view, zoom: Math.min(view.zoom, across / view.span) } : view;
+  }
+
+  leaveMaterials() {
+    return this.s.mat === 'off' ? Promise.resolve() : this.setMaterials('off', { fly: false });
+  }
+
+  renderLayerList() {
+    const list = $('#layer-list');
+    if (!list) return;
+    list.innerHTML = LAYERS.map((l) => `<button class="layer-chip" data-layer="${l}" style="--c:${LAYER_COLOURS[l]}" aria-pressed="${!this.mx?.hidden.has(l)}"><i></i>${esc(t('layer_' + l))}</button>`).join('');
+    $$('[data-layer]', list).forEach((b) => b.addEventListener('click', () => this.toggleLayer(b.dataset.layer)));
+  }
+
+  toggleLayer(layer) {
+    const on = this.mx.hidden.has(layer);
+    this.mx.setLayerVisible(layer, on);
+    this.renderLayerList();
+  }
+
   syncControls() {
-    $$('.floor-row button').forEach((b) => b.setAttribute('aria-pressed', String(!this.s.explode && b.dataset.floor === this.s.floor)));
+    $$('.floor-row button').forEach((b) => b.setAttribute('aria-pressed', String(!this.s.explode && this.s.mat === 'off' && b.dataset.floor === this.s.floor)));
+    $('#toggle-materials').setAttribute('aria-pressed', String(this.s.mat !== 'off'));
+    $('#layer-panel').hidden = this.s.mat === 'off';
+    $$('[data-mat]').forEach((b) => b.setAttribute('aria-pressed', String(b.dataset.mat === this.s.mat)));
+    this.app.dataset.mat = this.s.mat === 'off' ? 'off' : 'on';
     $('#toggle-explode').setAttribute('aria-pressed', String(this.s.explode));
     $('#toggle-plan').setAttribute('aria-pressed', String(this.s.plan));
     this.app.dataset.visit = String(this.s.visit);
@@ -272,9 +358,13 @@ class App {
   applyVisibility() {
     const st = this.stage;
     const cut = this.s.explode || this.s.floor !== 'all';
-    if (st.trees) st.trees.visible = !cut && !this.s.visit;
+    // while the building is taken apart (floors or materials) the whole
+    // surroundings model stays in place at 20 % opacity
+    const exploded = this.s.explode || this.s.mat !== 'off';
+    st.setContextFade(exploded ? 0.2 : 1);
+    if (st.trees) st.trees.visible = exploded || (!cut && !this.s.visit);
     // neighbours stay out of the way of close building views
-    st.context.setMassing(this.s.mode === 'surroundings' ? 1 : cut || this.s.hotspot ? 0.0 : 0.85);
+    st.context.setMassing(this.s.mode === 'surroundings' || exploded ? 1 : cut || this.s.hotspot ? 0.0 : 0.85);
     if (st.context.ground) st.context.ground.visible = true;
     const showRooms = !this.s.visit && (this.s.mode === 'exhibitions' || this.s.plan) && cut;
     const ex = EXHIBITIONS.find((e) => e.id === this.s.exhibition);
@@ -296,6 +386,18 @@ class App {
     const m = this.stage.markers;
     m.clear();
     if (this.s.visit) return;
+    if (this.s.mat !== 'off' && this.mx?.anchors) {
+      LAYERS.forEach((l, i) => {
+        const it = m.add({
+          id: `layer:${l}`, kind: 'layername', position: [0, 0, 0], label: t('layer_' + l),
+          pos: () => this.mx.labelPosition(i),
+          visible: () => this.mx.amount > 0.55 && !this.mx.hidden.has(l),
+          onClick: () => this.toggleLayer(l),
+        });
+        it.el.style.setProperty('--c', LAYER_COLOURS[l]);
+      });
+      return;
+    }
     if (this.s.mode === 'surroundings') {
       SURROUNDING_HOTSPOTS.forEach((h, i) => m.add({ id: h.id, position: h.at, label: pick(h).title, index: i + 1, onClick: () => this.openHotspot(h.id) }).el.classList.add('labelled'));
     } else if (this.s.mode === 'building' && !this.s.plan) {
@@ -353,6 +455,7 @@ class App {
   }
 
   hotspotVisible(h) {
+    if (this.s.mat !== 'off') return false;
     const st = this.stage.building.state;
     if (st === 'explode') return false;
     if (st === 'all') return (h.view.state ?? 'all') === 'all' || h.at[1] < 16;
@@ -363,6 +466,7 @@ class App {
   hotspots() { return this.s.mode === 'surroundings' ? SURROUNDING_HOTSPOTS : BUILDING_HOTSPOTS; }
 
   async openHotspot(id) {
+    await this.leaveMaterials();
     const list = this.hotspots();
     const h = list.find((x) => x.id === id);
     if (!h) return;
@@ -514,6 +618,7 @@ class App {
   async openRoom(id) {
     const room = this.roomsById.get(id);
     if (!room) return;
+    await this.leaveMaterials();
     const ex = this.exhibitionOfRoom.get(id);
     if (this.s.visit) await this.leaveVisit(false);
     if (ex && this.s.mode !== 'exhibitions') {
@@ -571,6 +676,7 @@ class App {
   async openArtwork(id) {
     const a = this.stage.artworks.byId.get(id);
     if (!a) return;
+    await this.leaveMaterials();
     const room = this.roomsById.get(a.room);
     const ex = this.exhibitionOfRoom.get(a.room);
     this.s.exhibition = ex.id;
@@ -820,6 +926,7 @@ class App {
     if (this.s.visit) return this.openArtwork(this.s.artwork);
     if (this.s.room) return this.frameRoom(this.roomsById.get(this.s.room));
     if (this.s.mode === 'surroundings') return this.fly(HOME.surroundings);
+    if (this.s.mat !== 'off') return this.fly(this.fitWidth(MAT_VIEW[this.s.mat]));
     if (this.s.explode) return this.fly(this.s.mode === 'exhibitions' ? HOME.exhibitionsOverview : HOME.explode);
     if (this.s.floor !== 'all') return this.fly(FLOOR_VIEW[this.s.floor]);
     return this.fly(HOME.building);
@@ -827,7 +934,7 @@ class App {
 
   updateHint() {
     const h = $('#hint');
-    h.textContent = this.s.visit ? t('visitHint') : this.s.plan ? t('planHint') : (this.s.mode === 'exhibitions' && (this.s.explode || this.s.floor !== 'all')) ? t('sectionHint') : t('orbitHint');
+    h.textContent = this.s.visit ? t('visitHint') : this.s.mat !== 'off' ? t('matHint') : this.s.plan ? t('planHint') : (this.s.mode === 'exhibitions' && (this.s.explode || this.s.floor !== 'all')) ? t('sectionHint') : t('orbitHint');
   }
 
   tuneSite() {
@@ -848,12 +955,14 @@ class App {
   }
 
   frame() {
+    this.mx?.update(this.stage.rig.camera);
     // shadows follow the building while it moves
     if (this.stage.building.moving || this.stage.tweens.active) this.stage.renderer.shadowMap.needsUpdate = true;
   }
 
   // ----------------------------------------------------------- deep links
   // #bina | #cevre | #sergi | #sergi/<ex> | #sergi/<ex>/<room> | #eser/<id> | #bina/<hotspot> | #cevre/<hotspot>
+  // #bina/katlar (floors apart) | #bina/malzeme-dikey | #bina/malzeme-kure (materials apart)
   readHash() {
     const h = decodeURIComponent(location.hash.replace(/^#/, ''));
     if (!h) return null;
@@ -870,7 +979,11 @@ class App {
       if (c) return this.openRoom(c);
       return this.openExhibition(b);
     }
-    await this.setMode(mode);
+    const mat = Object.keys(MAT_SLUG).find((k) => MAT_SLUG[k] === b);
+    const floors = mode === 'building' && b === 'katlar';
+    await this.setMode(mode, { fly: !mat && !floors });
+    if (mat) return this.setMaterials(mat);
+    if (floors) return this.setExplode(true);
     if (b) await this.openHotspot(b);
   }
 
@@ -879,6 +992,8 @@ class App {
     if (this.s.artwork) h = `eser/${this.s.artwork}`;
     else if (this.s.mode === 'exhibitions' && this.s.exhibition) h += `/${this.s.exhibition}${this.s.room ? `/${this.s.room}` : ''}`;
     else if (this.s.hotspot) h += `/${this.s.hotspot}`;
+    else if (this.s.mat !== 'off') h += `/${MAT_SLUG[this.s.mat]}`;
+    else if (this.s.mode === 'building' && this.s.explode) h += '/katlar';
     if (location.hash.slice(1) === h) return;
     this.ignoreHash = true;
     history.replaceState(null, '', `#${h}`);

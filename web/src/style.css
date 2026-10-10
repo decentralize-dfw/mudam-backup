@@ -76,6 +76,20 @@ button:focus-visible, select:focus-visible, input:focus-visible, a:focus-visible
 #app[data-mode='surroundings'] .floor-row, #app[data-mode='surroundings'] #toggle-explode, #app[data-mode='surroundings'] #toggle-plan, #app[data-mode='surroundings'] .dock-divider { display: none; }
 #app[data-visit='true'] .dock .floor-row, #app[data-visit='true'] #toggle-explode { opacity: 0.4; }
 
+/* ------------------------------------------------------ layer panel */
+.layer-panel { position: absolute; z-index: 25; left: var(--gap); bottom: calc(max(var(--gap), env(safe-area-inset-bottom)) + 62px); width: 238px; display: grid; gap: 8px; padding: 10px; border-radius: 18px; }
+.layer-modes { display: grid; grid-template-columns: 1fr 1fr; gap: 2px; padding: 2px; border-radius: 999px; background: rgba(0, 0, 0, 0.05); }
+.layer-modes button { min-height: 32px; padding: 0 10px; border-radius: 999px; font-size: 12.5px; white-space: nowrap; }
+.layer-modes button[aria-pressed='true'] { background: var(--ink); color: #fff; }
+.layer-modes button:not([aria-pressed='true']):hover { background: var(--glass-hover); }
+.layer-list { display: grid; gap: 3px; }
+.layer-chip { display: flex; align-items: center; gap: 9px; min-height: 32px; padding: 0 10px; border-radius: 10px; font-size: 12.5px; font-weight: 600; white-space: nowrap; text-align: left; background: rgba(255, 255, 255, 0.6); border: 1px solid var(--line); }
+.layer-chip:hover { background: rgba(255, 255, 255, 0.9); }
+.layer-chip i { flex: none; width: 11px; height: 11px; border-radius: 3px; background: var(--c); box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.12); }
+.layer-chip[aria-pressed='false'] { opacity: 0.45; }
+.layer-chip[aria-pressed='false'] i { background: transparent; box-shadow: inset 0 0 0 1.5px var(--c); }
+#app[data-mode='surroundings'] #toggle-materials, #app[data-mode='exhibitions'] #toggle-materials { display: none; }
+
 /* -------------------------------------------------------- light panel */
 .light-panel { position: absolute; z-index: 25; right: var(--gap); bottom: max(var(--gap), env(safe-area-inset-bottom)); width: 260px; padding: 12px 14px 10px; border-radius: 18px; display: grid; gap: 6px; }
 .light-row { display: flex; align-items: center; justify-content: space-between; gap: 8px; font-size: 12.5px; font-weight: 600; }
@@ -100,6 +114,9 @@ button:focus-visible, select:focus-visible, input:focus-visible, a:focus-visible
 .marker-exhibition i { width: 16px; height: 16px; margin: 7px; background: var(--room); border: 2px solid #fff; }
 .marker-exhibition span { max-width: 360px; opacity: 1; font-size: 13px; font-weight: 700; padding: 7px 12px; }
 .marker-room.dim span { font-weight: 500; }
+.marker-layername i { width: 12px; height: 12px; margin: 9px; border-radius: 3px; background: var(--c); border: 2px solid #fff; }
+.marker-layername span { max-width: 320px; opacity: 1; font-size: 12.5px; font-weight: 700; padding: 5px 11px; }
+.marker.flip { flex-direction: row-reverse; }
 
 /* -------------------------------------------------------------- cards */
 .card { position: absolute; z-index: 28; right: var(--gap); top: 84px; width: min(380px, calc(100vw - 2 * var(--gap))); max-height: calc(100% - 84px - 150px); overflow: auto; border-radius: 22px; padding: 20px 22px 18px; background: var(--panel); }
@@ -200,6 +217,11 @@ button:focus-visible, select:focus-visible, input:focus-visible, a:focus-visible
   .card, .sheet { left: var(--gap); right: var(--gap); width: auto; top: auto; bottom: calc(max(var(--gap), env(safe-area-inset-bottom)) + 116px); max-height: 46vh; border-radius: 18px; padding: 16px; }
   .card h2 { font-size: 19px; }
   .hint { display: none; }
+  .layer-panel { right: var(--gap); width: auto; bottom: calc(max(var(--gap), env(safe-area-inset-bottom)) + 112px); padding: 8px; gap: 6px; }
+  .layer-list { display: flex; gap: 4px; overflow-x: auto; }
+  .layer-chip { flex: none; border-radius: 999px; font-size: 12px; }
   #app[data-card='true'] .sheet { display: none; }
   .marker span { font-size: 11.5px; }
+  /* the layer list below names the colours; on a phone the 3D labels would cover the parts */
+  .marker-layername span { display: none; }
 }

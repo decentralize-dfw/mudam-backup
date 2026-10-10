@@ -128,6 +128,43 @@ export class Stage {
     requestAnimationFrame(loop);
   }
 
+  // Everything that is not the building (site, trees, neighbours, ground
+  // drawing) fades together, e.g. to 20 % while the building is taken apart.
+  setContextFade(alpha, ms = 700) {
+    const from = this.contextFade ?? 1;
+    if (Math.abs(from - alpha) < 1e-3) return;
+    const mats = new Set();
+    for (const root of [this.site, this.trees, this.context.group]) {
+      root?.traverse((o) => {
+        if (!o.material || o === this.context.massing || o === this.context.edges) return;
+        for (const m of Array.isArray(o.material) ? o.material : [o.material]) mats.add(m);
+      });
+    }
+    for (const m of mats) {
+      m.userData.fadeBase ??= { opacity: m.opacity, transparent: m.transparent, depthWrite: m.depthWrite };
+    }
+    const setCast = (on) => {
+      for (const root of [this.site, this.trees]) root?.traverse((o) => { if (o.isMesh) o.castShadow = on; });
+      if (this.context.massing) this.context.massing.castShadow = on;
+    };
+    if (alpha < 1) setCast(false);
+    this.tweens.run('context-fade', ms, (t) => {
+      const a = from + (alpha - from) * t;
+      this.contextFade = a;
+      for (const m of mats) {
+        const b = m.userData.fadeBase;
+        const faded = a < 0.999;
+        m.opacity = b.opacity * a;
+        if (m.transparent !== (faded || b.transparent)) { m.transparent = faded || b.transparent; m.needsUpdate = true; }
+        m.depthWrite = faded ? false : b.depthWrite;
+      }
+      this.context.massingFade = a;
+      this.context.applyMassing?.();
+      this.renderer.shadowMap.needsUpdate = true;
+      this.dirty = true;
+    }).then((done) => { if (done && alpha >= 1) { setCast(true); this.renderer.shadowMap.needsUpdate = true; } });
+  }
+
   pointer(event) {
     const r = this.renderer.domElement.getBoundingClientRect();
     const p = new THREE.Vector2(((event.clientX - r.left) / r.width) * 2 - 1, -((event.clientY - r.top) / r.height) * 2 + 1);

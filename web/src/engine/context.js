@@ -72,8 +72,28 @@ export class Context {
     const geos = [];
     const rnd = (i) => { const x = Math.sin(i * 127.1) * 43758.5453; return x - Math.floor(x); };
     const tones = [0x6b7a35, 0x8a8a32, 0xa9822f, 0x56693a, 0x93702c].map((c) => new THREE.Color(c).convertSRGBToLinear());
+    const needle = [0x2f4a2c, 0x3b5631, 0x34502f].map((c) => new THREE.Color(c).convertSRGBToLinear());
     trees.forEach((t, k) => {
       const [cx, cy, cz] = t.c, [sx, sy, sz] = t.s;
+      if (t.kind === 'needle') {
+        // pines on the forecourt: stacked cones inside the source needle volume
+        const tiers = 3;
+        for (let j = 0; j < tiers; j++) {
+          const f = j / tiers;
+          const r = Math.max(sx, sz) * (1 - 0.28 * j) * (0.92 + 0.12 * rnd(k * 7 + j));
+          const h = sy * 2 * 0.52;
+          const g = new THREE.ConeGeometry(r, h, 9, 1).toNonIndexed();
+          g.rotateY(rnd(k + j) * Math.PI);
+          g.translate(cx + (rnd(k * 3 + j) - 0.5) * 0.4, cy - sy + h / 2 + f * sy * 0.95, cz + (rnd(k * 5 + j) - 0.5) * 0.4);
+          const c = needle[(k + j) % needle.length];
+          const col = new Float32Array(g.attributes.position.count * 3);
+          for (let i = 0; i < g.attributes.position.count; i++) col.set([c.r, c.g, c.b], i * 3);
+          g.setAttribute('color', new THREE.BufferAttribute(col, 3));
+          g.deleteAttribute('uv');
+          geos.push(g);
+        }
+        return;
+      }
       for (let j = 0; j < 5; j++) {
         const g = new THREE.IcosahedronGeometry(1, 1);
         const p = g.attributes.position;
@@ -88,6 +108,7 @@ export class Context {
         const col = new Float32Array(p.count * 3);
         for (let i = 0; i < p.count; i++) col.set([c.r, c.g, c.b], i * 3);
         g.setAttribute('color', new THREE.BufferAttribute(col, 3));
+        g.deleteAttribute('uv');
         geos.push(g);
       }
     });
@@ -100,10 +121,18 @@ export class Context {
   }
 
   setMassing(level) {
+    this.massingLevel = level;
+    this.applyMassing();
+  }
+
+  applyMassing() {
     if (!this.massing) return;
-    this.massing.visible = this.edges.visible = level > 0;
+    const level = (this.massingLevel ?? 1) * (this.massingFade ?? 1);
+    this.massing.visible = this.edges.visible = level > 0.001;
     this.massing.material.opacity = level;
-    this.massing.material.transparent = level < 1;
+    const transparent = level < 1;
+    if (this.massing.material.transparent !== transparent) { this.massing.material.transparent = transparent; this.massing.material.needsUpdate = true; }
+    this.massing.material.depthWrite = level > 0.5;
     this.edges.material.opacity = 0.55 * level;
   }
 }

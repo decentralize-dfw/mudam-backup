@@ -3,7 +3,7 @@
 Kök `index.html` bu klasörden derlenir. Angora 21 görüntüleyicisinin
 (`decentralize-dfw/angora`, `viewer/`) arayüz dilini ve kesit/tarama yaklaşımını
 Mudam'a taşır: **Çevre · Bina · Sergiler** üçlemesi, kat kat kesit, katları
-ayırma (patlatılmış aksonometri), plan ve izometrik görünüm, eser eser ve oda
+ayırma (patlatılmış aksonometri), malzemelere ayırma (dikey ve yarım küre), plan ve izometrik görünüm, eser eser ve oda
 oda gezinti, gerçek zamanlı gün ışığı.
 
 ## Ne nerede
@@ -12,7 +12,7 @@ oda gezinti, gerçek zamanlı gün ışığı.
 | --- | --- |
 | `../index.html`, `../demo/app/` | Derlenmiş sayfa ve paketler (elle düzenlenmez) |
 | `../demo/model/` | `building.glb`, `site.glb`, `trees.glb` — Draco + WebP |
-| `../demo/data/` | Kesit kapakları, odalar, eser yerleşimi, çevre verisi (JSON) |
+| `../demo/data/` | Kesit kapakları, odalar, eser yerleşimi, çevre verisi, malzeme parçaları (JSON) |
 | `../demo/art/` | Yer tutucu eser görselleri (WebP, büyük + küçük) |
 | `../demo/context/ground.webp` | OSM'den çizilen vaziyet zemini |
 | `../demo/draco/` | Draco çözücü (aynı kaynaktan servis edilir) |
@@ -22,12 +22,13 @@ oda gezinti, gerçek zamanlı gün ışığı.
 
 ## Yeniden üretim
 
-Kaynak model `12_Blender_Model/exports/current.glb.gz`.
+Kaynak model `12_Blender_Model/exports/current.glb.gz` (şu an R149).
 
 ```sh
 cd web
 npm ci
 npm run model   # current.glb.gz -> demo/model/*.glb  (birleştirme, sadeleştirme, Draco, WebP)
+                #                 + demo/data/pieces.json (malzeme katmanları)
 npm run data    # kesitler, odalar, duvarlar, eser yerleşimi, OSM çevresi -> demo/data/
 npm run art     # yer tutucu eser görselleri -> demo/art/
 npm run build   # Vite -> dist, sonra kök index.html + demo/app/
@@ -48,6 +49,19 @@ Model güncellendiğinde: `model` → `data` → `art` → `build`.
   modelde tek yüzey olarak kalan duvarlar çizgi olarak gösterilir.
 - **Katları ayır:** bina dört bantta çizilir (−1, 0, +1, çatı); her bandın
   kırpma düzlemleri bant kaldırıldıkça onunla birlikte taşınır.
+- **Malzemelere ayır:** bina altı katmana ayrılır: döşemeler, duvarlar (taş
+  kabuk), tavanlar ve çatı, çelik ve cam çerçeveleri, camlar, merdiven ve
+  donanım. Kaynak modelin 303 `element_type` değeri bir kez sınıflandırıldı
+  (`scripts/layers.json`); yeni türler `build-model.mjs` içindeki anahtar
+  kelime kurallarına düşer. Aynı katman ve kattaki komşu parçalar 8 m'lik
+  hücrelerde tek parça gibi hareket eder; her köşeye parçanın merkezi ve
+  katmanı yazılır (`_PIECE`), kayma GPU'da, gölge geçişinde ve kesik iz
+  çizgilerinde aynı formülle hesaplanır (`src/engine/explode.js`).
+  *Dikey*: katmanlar üst üste kademelenir, camlar en üstte. *Yarım küre*:
+  döşemeler ve donanım çekirdekte kalır, diğer katmanlar binanın altındaki
+  bir noktanın çevresinde eşmerkezli yarım küre kabuklarına yerleşir.
+  Kesik çizgiler her parçanın nereden nereye gittiğini gösterir. Katlar ya da
+  malzemeler ayrıldığında çevre modeli %20 opaklığa iner.
 - **Işık:** Lüksemburg için NOAA güneş konumu (yaz saati dahil), Preetham gökyüzü,
   gökten türetilen ortam ışığı, 4K gölge, GTAO. Ortam kırpılmış katları
   karartmasın diye AO, sahnenin kendi derinliğinden hesaplanır.
@@ -61,5 +75,6 @@ Model güncellendiğinde: `model` → `data` → `art` → `build`.
 
 Kökte `python3 -m http.server 8765` çalıştırıp `http://localhost:8765/` açın.
 Bağlantılar: `#bina`, `#cevre`, `#sergi`, `#sergi/kaiho`,
-`#sergi/kaiho/galerie-est-1`, `#eser/kaiho-012`, `#bina/canopy`.
+`#sergi/kaiho/galerie-est-1`, `#eser/kaiho-012`, `#bina/canopy`,
+`#bina/katlar`, `#bina/malzeme-dikey`, `#bina/malzeme-kure`.
 `?lang=en` İngilizce, `?q=low` düşük kalite profilini zorlar.
