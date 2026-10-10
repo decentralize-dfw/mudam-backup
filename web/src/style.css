@@ -71,6 +71,8 @@ button:focus-visible, select:focus-visible, input:focus-visible, a:focus-visible
 .pill { min-height: 40px; padding: 0 16px; border-radius: 999px; font-size: 13px; white-space: nowrap; }
 .pill.small { min-height: 34px; padding: 0 12px; font-size: 12px; }
 .camera-tools { display: flex; gap: 2px; }
+.dock-actions { display: contents; }
+.light-toggle { display: none; }
 .icon { width: 40px; height: 40px; border-radius: 999px; font-size: 20px; font-weight: 400; display: grid; place-items: center; }
 .icon svg { width: 18px; height: 18px; fill: none; stroke: currentColor; stroke-width: 1.6; stroke-linecap: round; }
 #app[data-mode='surroundings'] .floor-row, #app[data-mode='surroundings'] #toggle-explode, #app[data-mode='surroundings'] #toggle-plan, #app[data-mode='surroundings'] .dock-divider { display: none; }
@@ -242,38 +244,6 @@ button:focus-visible, select:focus-visible, input:focus-visible, a:focus-visible
 #app[data-booting='true'] #open-about { visibility: hidden; }
 
 /* ------------------------------------------------------------- mobile */
-@media (max-width: 760px) {
-  :root { --gap: 10px; }
-  .identity { padding: 7px 12px; gap: 10px; }
-  .identity-text small { display: none; }
-  .brand { font-size: 11px; letter-spacing: 0.22em; }
-  #open-about { display: none; }
-  .lang-flag { min-width: 32px; min-height: 32px; padding: 0 4px; letter-spacing: 0.04em; }
-  .wire-toggle { top: calc(max(var(--gap), env(safe-area-inset-top)) + 108px); }
-  .mode-picker { top: calc(max(var(--gap), env(safe-area-inset-top)) + 56px); }
-  .mode-picker button { padding: 0 14px; min-height: 36px; font-size: 13px; }
-  .dock { bottom: calc(max(var(--gap), env(safe-area-inset-bottom)) + 104px); max-width: calc(100vw - 2 * var(--gap)); overflow-x: auto; }
-  .camera-tools { display: none; }
-  .light-panel { left: var(--gap); right: var(--gap); width: auto; bottom: max(var(--gap), env(safe-area-inset-bottom)); padding: 8px 12px; grid-template-columns: 1fr auto; align-items: center; }
-  .light-panel .daylight-row { display: none; }
-  .light-panel .light-row { grid-column: 1 / -1; }
-  /* the model switch shares the first row with the time slider */
-  .light-panel .context-row { display: contents; }
-  .light-panel .context-row > span { display: none; }
-  .light-panel .context-switch { grid-column: 2; grid-row: 1; }
-  .light-panel input[type='range'] { grid-column: 1; grid-row: 1; }
-  .light-panel .light-row:last-child { grid-row: 2; }
-  .card, .sheet { left: var(--gap); right: var(--gap); width: auto; top: auto; bottom: calc(max(var(--gap), env(safe-area-inset-bottom)) + 160px); max-height: 46vh; border-radius: 18px; padding: 16px; }
-  .card h2 { font-size: 19px; }
-  .hint { display: none; }
-  .layer-panel { right: var(--gap); width: auto; bottom: calc(max(var(--gap), env(safe-area-inset-bottom)) + 156px); padding: 8px; gap: 6px; }
-  .layer-list { display: flex; gap: 4px; overflow-x: auto; }
-  .layer-chip { flex: none; border-radius: 999px; font-size: 12px; }
-  #app[data-card='true'] .sheet { display: none; }
-  .marker span { font-size: 11.5px; }
-  /* the layer list below names the colours; on a phone the 3D labels would cover the parts */
-  .marker-layername span { display: none; }
-}
 
 /* ----------------------------------------------------------- walk mode */
 /* the figure in the dock: drag it onto a floor, or click it */
@@ -307,12 +277,114 @@ body.pegman-dragging, body.pegman-dragging * { cursor: grabbing !important; }
 @media (max-width: 1100px) {
   #app[data-walk='true'] .hint { display: none; }
 }
-@media (max-width: 760px) {
-  .pegman span { display: none; }
-  .pegman { padding: 0 12px; }
-  .walk-bar { top: calc(max(var(--gap), env(safe-area-inset-top)) + 56px); }
-  .walk-pad { left: 50%; transform: translateX(-50%); bottom: calc(max(var(--gap), env(safe-area-inset-bottom)) + 104px); grid-template-columns: repeat(3, 54px); grid-template-rows: repeat(2, 54px); }
-}
 /* entering and leaving the walk: a short fade instead of a cut */
 #viewport { transition: opacity 0.24s ease; }
 #app[data-fade='out'] #viewport { opacity: 0; }
+
+/* ------------------------------------------------------------- mobile
+   On a phone, the proportions of the Angora viewer: 12 px margins, 12 px type,
+   36-40 px controls. The dock spans the bottom in two rows (floors, then the
+   actions); the exhibitions, a card or the material layers sit in one strip
+   just above it; the light panel opens from a button at the top right. */
+@media (max-width: 760px) {
+  :root { --gap: 12px; --sb: max(14px, env(safe-area-inset-bottom)); --st: max(12px, env(safe-area-inset-top)); --dock: 93px; --above: calc(var(--sb) + var(--dock) + 8px); }
+  .topbar { left: 12px; right: 12px; top: var(--st); }
+  .identity { gap: 9px; padding: 7px 13px 7px 12px; }
+  .identity-text small { display: none; }
+  .identity-text strong { font-size: 13px; }
+  .brand { font-size: 10px; letter-spacing: 0.24em; }
+  .brand-divider { height: 13px; }
+  #open-about { display: none; }
+  .lang-switch { padding: 2px; gap: 1px; }
+  .lang-flag { min-width: 0; min-height: 32px; padding: 0 8px; font-size: 11px; letter-spacing: 0.04em; }
+  /* the view picker under the name, the light button opposite */
+  .mode-picker { top: calc(var(--st) + 50px); left: 12px; transform: none; padding: 3px; }
+  .mode-picker button { min-height: 34px; font-size: 12px; padding: 0 12px; }
+  .light-toggle { display: grid; place-items: center; position: absolute; z-index: 30; right: 12px; top: calc(var(--st) + 50px); width: 40px; height: 40px; border-radius: 999px; padding: 0; }
+  .light-toggle svg { width: 19px; height: 19px; fill: none; stroke: currentColor; stroke-width: 1.7; stroke-linecap: round; }
+  #app[data-light='open'] .light-toggle { background: var(--ink); color: #fff; }
+  .light-panel { display: none; left: 12px; right: 12px; width: auto; top: calc(var(--st) + 98px); bottom: auto; padding: 11px 13px 9px; border-radius: 18px; z-index: 31; }
+  #app[data-light='open'] .light-panel { display: grid; }
+  .light-row { font-size: 12px; }
+  .light-panel select { font-size: 11.5px; }
+  .light-panel .pill.small { min-height: 32px; font-size: 11.5px; }
+  .context-switch button { min-height: 28px; font-size: 11.5px; }
+  .wire-toggle { top: calc(var(--st) + 96px); min-height: 32px; padding: 0 11px 0 9px; font-size: 11.5px; }
+  .notice { top: calc(var(--st) + 96px); font-size: 12px; padding: 8px 12px; }
+  /* dock: two rows across the bottom */
+  .dock { left: 12px; right: 12px; transform: none; bottom: var(--sb); height: auto; width: auto; max-width: 420px; margin: 0 auto; padding: 5px; gap: 5px; flex-direction: column; align-items: stretch; border-radius: 26px; }
+  .dock-divider, .camera-tools { display: none; }
+  .floor-row { gap: 4px; }
+  .floor-row button { min-height: 38px; min-width: 0; font-size: 12px; padding: 0 8px; flex: 1; }
+  .dock-actions { display: flex; gap: 4px; overflow-x: auto; scrollbar-width: none; }
+  .dock-actions::-webkit-scrollbar { display: none; }
+  .dock-actions .pill { flex: 1 0 auto; min-height: 38px; font-size: 12px; padding: 0 11px; }
+  /* the surroundings have no floors or actions to offer on a phone */
+  #app[data-mode='surroundings'] .dock { display: none; }
+  .hint { display: none; }
+  /* the exhibitions: a strip above the dock that scrolls sideways */
+  .sheet { left: 12px; right: 12px; width: auto; top: auto; bottom: var(--above); max-height: none; overflow: hidden; border-radius: 18px; padding: 6px; }
+  .sheet .sheet-head, .sheet .sheet-intro, .sheet .small-note, .sheet h3 { display: none; }
+  .sheet-row { display: flex; gap: 6px; overflow-x: auto; scroll-snap-type: x proximity; scrollbar-width: none; -webkit-overflow-scrolling: touch; overscroll-behavior-x: contain; }
+  .sheet-row::-webkit-scrollbar { display: none; }
+  .sheet-row > * { scroll-snap-align: start; }
+  .ex-card { flex: 0 0 74%; margin: 0; padding: 8px 11px 8px 14px; border-radius: 13px; }
+  .ex-card::before { width: 4px; }
+  .ex-card .ex-title { font-size: 13px; }
+  .ex-card .ex-sub, .ex-card .ex-meta { font-size: 11px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; margin: 1px 0 0; }
+  /* one exhibition: its name on a line, then the walks and the rooms */
+  .sheet:has(.back) .sheet-head { display: flex; align-items: center; gap: 6px; margin: 0 0 6px; min-width: 0; }
+  .sheet-head .back { margin: 0; padding: 4px 8px; font-size: 13px; flex: none; }
+  .sheet-head .back span, .sheet-head .kicker, .sheet-head .dates { display: none; }
+  .sheet-head h2 { font-size: 13px; margin: 0; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; border-left: 3px solid var(--c); padding-left: 7px; }
+  .sheet-row .actions, .sheet-row .room-list { display: contents; }
+  .actions button { min-height: 36px; padding: 0 12px; font-size: 12px; flex: none; }
+  .room-item { flex: none; width: auto; padding: 0 11px; min-height: 36px; gap: 6px; font-size: 12px; border-radius: 12px; background: rgba(255, 255, 255, 0.7); white-space: nowrap; }
+  .room-item br, .room-item small { display: none; }
+  .room-item .floor { width: auto; font-size: 10.5px; }
+  .room-item .meta { margin-left: 2px; font-size: 10.5px; }
+  /* a card: compact, above the dock */
+  .card { left: 12px; right: 12px; width: auto; top: auto; bottom: var(--above); max-height: 40vh; border-radius: 18px; padding: 13px 15px 13px; }
+  .card h2 { font-size: 15px; margin: 0 36px 6px 0; }
+  .card p { font-size: 12.5px; line-height: 1.45; margin: 0 0 8px; }
+  .card .note, .card .small-note { font-size: 11px; }
+  .kicker { font-size: 10px; margin-bottom: 4px; }
+  .card-close { top: 8px; right: 8px; width: 32px; height: 32px; font-size: 19px; }
+  .card .art-image { max-height: 22vh; width: auto; max-width: 100%; margin: 2px 0 8px; }
+  .card .tag { font-size: 11px; padding: 3px 9px; margin-bottom: 6px; }
+  .placeholder-badge { font-size: 10px; padding: 2px 7px; margin-bottom: 6px; }
+  .thumbs { grid-template-columns: repeat(6, 1fr); gap: 4px; }
+  .card-nav { margin: 8px -15px -13px; padding: 7px 15px 9px; bottom: -13px; }
+  .card-nav button { min-height: 34px; padding: 0 12px; font-size: 12px; }
+  .card-nav .count { font-size: 11px; }
+  #app[data-card='true'] .sheet { display: none; }
+  /* material layers: a chip strip above the dock */
+  .layer-panel { left: 12px; right: 12px; width: auto; bottom: var(--above); padding: 5px; gap: 5px; border-radius: 18px; }
+  .layer-modes button { min-height: 32px; font-size: 12px; }
+  .layer-list { display: flex; gap: 4px; overflow-x: auto; scrollbar-width: none; }
+  .layer-list::-webkit-scrollbar { display: none; }
+  .layer-chip { flex: none; border-radius: 999px; font-size: 11.5px; min-height: 32px; padding: 0 10px; gap: 6px; }
+  /* pins on the model: smaller; in the exploded views no names at all (the
+     arrows and colours carry the rooms, a tap opens one) */
+  .marker { margin: -13px 0 0 -13px; gap: 5px; }
+  .marker i { width: 26px; height: 26px; font-size: 11px; }
+  .marker span { font-size: 11px; padding: 4px 9px; }
+  .marker-room i { width: 10px; height: 10px; margin: 8px; }
+  .marker-room span { font-size: 10.5px; padding: 3px 7px; }
+  .marker-layername span, .marker-roomtag span, .marker-roomtag::after { display: none; }
+  /* About, welcome */
+  .about { padding: 16px; border-radius: 18px; }
+  .about h2 { font-size: 16px; }
+  .about p { font-size: 13px; line-height: 1.5; }
+  .boot-title { font-size: 26px; }
+  .boot-lead { font-size: 13.5px; }
+  .boot-buttons button { min-height: 40px; padding: 0 16px; font-size: 12.5px; }
+  /* walking: the way out on top, the arrows at the bottom */
+  .pegman span { display: none; }
+  .pegman { padding: 0 12px; }
+  .walk-bar { top: calc(var(--st) + 50px); gap: 6px; padding: 3px 3px 3px 12px; max-width: calc(100vw - 80px); left: 12px; transform: none; }
+  .walk-where { font-size: 12px; }
+  .walk-bar .pill { min-height: 34px; font-size: 12px; padding: 0 12px; }
+  .walk-pad { left: 50%; transform: translateX(-50%); bottom: var(--sb); grid-template-columns: repeat(3, 48px); grid-template-rows: repeat(2, 48px); gap: 5px; }
+  #app[data-walk='true'] .light-panel { top: calc(var(--st) + 98px); }
+}

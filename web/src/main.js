@@ -1,7 +1,7 @@
 import './style.css';
 import * as THREE from 'three';
 import { Stage, PLAN_AZIMUTH } from './engine/scene.js';
-import { FLOOR_Y, CUTS, FLOORS } from './engine/building.js';
+import { FLOOR_Y, CUTS, FLOORS, EXPLODE } from './engine/building.js';
 import { clock } from './engine/daylight.js';
 import { BUILDING_HOTSPOTS } from './content/building.js';
 import { SURROUNDING_HOTSPOTS } from './content/surroundings.js';
@@ -26,11 +26,13 @@ const el = (html) => { const d = document.createElement('div'); d.innerHTML = ht
 // Bearing: compass direction the camera stands at, seen from the target.
 // The official plans put the entrance at the bottom: that is bearing 47°.
 const PLAN_BEARING = 47;
+// `fit`: the view is zoomed to the extents of that part of the building in
+// the free part of the screen (target and zoom are then only a fallback).
 const HOME = {
-  building: { target: [2, 5, 4], bearing: 204, tilt: 31, zoom: 1.0 },
+  building: { target: [2, 5, 4], bearing: 204, tilt: 31, zoom: 1.0, fit: 'all' },
   surroundings: { target: [-20, 0, 10], bearing: 222, tilt: 40, zoom: 0.24 },
-  explode: { target: [3, 56, -6], bearing: 22, tilt: 18, zoom: 0.48 },
-  exhibitionsOverview: { target: [3, 40, -6], bearing: 22, tilt: 22, zoom: 0.54 },
+  explode: { target: [3, 56, -6], bearing: 22, tilt: 18, zoom: 0.48, fit: 'explode' },
+  exhibitionsOverview: { target: [3, 40, -6], bearing: 22, tilt: 22, zoom: 0.54, fit: 'explode' },
 };
 // Malzemelere ayır: framing for the two exploded readings
 const MAT_VIEW = {
@@ -39,9 +41,9 @@ const MAT_VIEW = {
 };
 const MAT_SLUG = { vertical: 'malzeme-dikey', radial: 'malzeme-kure' };
 const FLOOR_VIEW = {
-  LM1: { target: [-2, FLOOR_Y.LM1, -6], bearing: 18, tilt: 52, zoom: 1.2 },
-  L00: { target: [0, FLOOR_Y.L00, 0], bearing: 18, tilt: 52, zoom: 1.0 },
-  LP1: { target: [2, FLOOR_Y.LP1, -10], bearing: 18, tilt: 52, zoom: 1.15 },
+  LM1: { target: [-2, FLOOR_Y.LM1, -6], bearing: 18, tilt: 52, zoom: 1.2, fit: 'LM1' },
+  L00: { target: [0, FLOOR_Y.L00, 0], bearing: 18, tilt: 52, zoom: 1.0, fit: 'L00' },
+  LP1: { target: [2, FLOOR_Y.LP1, -10], bearing: 18, tilt: 52, zoom: 1.15, fit: 'LP1' },
 };
 
 class App {
@@ -69,6 +71,10 @@ class App {
     }
     $('#boot-status').textContent = t('loadingData');
     this.roomsById = new Map(this.data.rooms.rooms.map((r) => [r.id, r]));
+    // the building's extents, for zoom to extents
+    const g = this.stage.building.sources[1][0].group;
+    g.updateMatrixWorld(true);
+    this.buildingBox = new THREE.Box3().setFromObject(g);
     this.exhibitionOfRoom = new Map();
     for (const ex of EXHIBITIONS) for (const r of ex.rooms) this.exhibitionOfRoom.set(r.id, ex);
     this.stage.rooms.init(this.data.rooms, (r) => this.exhibitionOfRoom.get(r.id)?.colour ?? 0x8f948f);
@@ -453,10 +459,36 @@ class App {
   }
 
   fly(v, ms) {
-    const pose = this.poseOf(v);
+    let pose = this.poseOf(v);
     if (this.s.plan) { pose.polar = 1e-4; pose.azimuth = azimuth(PLAN_BEARING); }
-    this.focusShadows(pose.target, v.zoom);
+    const box = v.fit && this.extents(v.fit);
+    if (box) pose = this.stage.rig.fit(box, pose.azimuth, pose.polar, this.framePad());
+    this.focusShadows(pose.target, pose.zoom);
     return this.stage.rig.flyTo(pose, ms);
+  }
+
+  // Screen edges the bars cover (the panels are insets of the rig).
+  framePad() {
+    return innerWidth <= 760 ? { top: 104, bottom: 8, side: 12 } : { top: 92, bottom: 88, side: 28 };
+  }
+
+  // World box of a part of the building as it stands in that view: 'all',
+  // 'explode' (storeys lifted, the roof left out over the exhibitions) or a
+  // storey (its rooms, from its floor to its cut).
+  extents(kind) {
+    const b = this.buildingBox;
+    if (!b) return null;
+    if (kind === 'all') return b.clone();
+    if (kind === 'explode') {
+      const top = this.s.mode === 'exhibitions' ? EXPLODE[2].hi + EXPLODE[2].dy : b.max.y + EXPLODE[3].dy;
+      return new THREE.Box3(b.min.clone(), new THREE.Vector3(b.max.x, top, b.max.z));
+    }
+    const box = new THREE.Box3();
+    for (const r of this.data.rooms.rooms) if (r.floor === kind) for (const [x, z] of r.polygon) box.expandByPoint(new THREE.Vector3(x, FLOOR_Y[kind], z));
+    if (box.isEmpty()) return null;
+    box.expandByVector(new THREE.Vector3(3, 0, 3));
+    box.max.y = CUTS[kind];
+    return box;
   }
 
   focusShadows(target, zoom) {
@@ -477,6 +509,11 @@ class App {
     $$('[data-cevre]').forEach((b) => b.addEventListener('click', () => this.setCevre(Number(b.dataset.cevre))));
     $('#toggle-wire').addEventListener('click', () => this.setWire(!this.s.wire));
     this.bindPegman();
+    $('#toggle-light-panel').addEventListener('click', () => {
+      const open = this.app.dataset.light !== 'open';
+      this.app.dataset.light = open ? 'open' : 'closed';
+      $('#toggle-light-panel').setAttribute('aria-expanded', String(open));
+    });
     $('#walk-exit').addEventListener('click', () => this.leaveWalk());
     $('#zoom-in').addEventListener('click', () => this.zoomBy(1.35));
     $('#zoom-out').addEventListener('click', () => this.zoomBy(1 / 1.35));
@@ -726,6 +763,7 @@ class App {
     $('#toggle-plan').setAttribute('aria-pressed', String(this.s.plan));
     this.app.dataset.visit = String(this.s.visit);
     this.app.dataset.walk = String(this.s.walk);
+    if (innerWidth <= 760) this.updateInsets();
   }
 
   // What is drawn in each state: context, trees, room tints, plan dots.
@@ -933,29 +971,36 @@ class App {
   renderSheet() {
     const sheet = $('#sheet-body');
     const ex = EXHIBITIONS.find((e) => e.id === this.s.exhibition);
+    // On a phone the sheet is a strip above the dock: the heading and texts
+    // give way and the cards (or the rooms) scroll sideways (.sheet-row).
     if (!ex) {
       sheet.innerHTML = `
-        <h2>${esc(t('exhibitionsHeading'))}</h2>
-        <p class="lead">${esc(t('exhibitionsLead'))}</p>
-        ${EXHIBITIONS.map((e) => `
+        <div class="sheet-head"><h2>${esc(t('exhibitionsHeading'))}</h2>
+        <p class="lead">${esc(t('exhibitionsLead'))}</p></div>
+        <div class="sheet-row">${EXHIBITIONS.map((e) => `
           <button class="ex-card" data-ex="${e.id}" style="--c:${e.css}">
             <span class="ex-title">${esc(e.title)}</span>
             <span class="ex-sub">${esc(pick(e.subtitle))}</span>
             <span class="ex-meta">${esc(pick(e.place))} · ${esc(pick(e.dates))}</span>
-          </button>`).join('')}
+          </button>`).join('')}</div>
         <p class="small-note">${esc(t('placeholderNote'))}</p>`;
       $$('[data-ex]', sheet).forEach((b) => b.addEventListener('click', () => this.openExhibition(b.dataset.ex)));
       return;
     }
     const works = this.byExhibition.get(ex.id) ?? [];
     sheet.innerHTML = `
-      <button class="back" data-back="list">← ${esc(t('backToList'))}</button>
-      <p class="kicker" style="color:${ex.css}">${esc(pick(ex.place))}</p>
-      <h2>${esc(ex.title)}</h2>
-      <p class="lead" style="margin-bottom:4px"><strong>${esc(pick(ex.subtitle))}</strong><br/>${esc(pick(ex.dates))}</p>
-      ${pick(ex.intro).map((p) => `<p class="lead">${esc(p)}</p>`).join('')}
-      <p class="small-note">${esc(pick(ex.credits))}</p>
-      ${ex.next ? `<p class="small-note">${esc(pick(ex.next))}</p>` : ''}
+      <div class="sheet-head">
+        <button class="back" data-back="list" aria-label="${esc(t('backToList'))}">← <span>${esc(t('backToList'))}</span></button>
+        <p class="kicker" style="color:${ex.css}">${esc(pick(ex.place))}</p>
+        <h2 style="--c:${ex.css}">${esc(ex.title)}</h2>
+        <p class="lead dates" style="margin-bottom:4px"><strong>${esc(pick(ex.subtitle))}</strong><br/>${esc(pick(ex.dates))}</p>
+      </div>
+      <div class="sheet-intro">
+        ${pick(ex.intro).map((p) => `<p class="lead">${esc(p)}</p>`).join('')}
+        <p class="small-note">${esc(pick(ex.credits))}</p>
+        ${ex.next ? `<p class="small-note">${esc(pick(ex.next))}</p>` : ''}
+      </div>
+      <div class="sheet-row">
       <div class="actions">
         <button data-walk="works" ${works.length ? '' : 'disabled'}>${esc(t('walkWorks'))}</button>
         <button data-walk="rooms" class="secondary">${esc(t('walkRooms'))}</button>
@@ -970,6 +1015,7 @@ class App {
             <span>${esc(pick(r).title)}<br/><small style="opacity:.7" lang="fr">${esc(room.label)}</small></span>
             <span class="meta">${r.closed ? '—' : `${n} ${esc(t(n === 1 ? 'workOne' : 'works'))}`}</span></button>`;
         }).join('')}
+      </div>
       </div>
       <p class="small-note">${esc(t('readingNote'))}</p>`;
     $('[data-back]', sheet).addEventListener('click', () => this.listExhibitions());
@@ -1213,9 +1259,12 @@ class App {
     const mobile = innerWidth <= 760;
     const sheet = $('#sheet'), card = $('#card');
     const ins = { left: 0, right: 0, bottom: 0 };
-    if (mobile) {
-      // on a phone the card replaces the sheet while it is open
-      const tops = [sheet, card].filter((n) => !n.hidden && n.offsetParent).map((n) => n.getBoundingClientRect().top);
+    if (this.s.walk) { /* walking: the whole screen is the view */ } else if (mobile) {
+      // on a phone the model sits above the bottom stack: the dock and the
+      // strip over it (exhibitions, a card or the material layers)
+      const tops = [sheet, card, $('#layer-panel'), $('.dock')]
+        .filter((n) => !n.hidden && getComputedStyle(n).display !== 'none')
+        .map((n) => n.getBoundingClientRect().top);
       if (tops.length) ins.bottom = Math.max(0, innerHeight - Math.min(...tops)) * 0.85;
     } else {
       if (!sheet.hidden) ins.left = sheet.getBoundingClientRect().right;

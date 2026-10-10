@@ -26,7 +26,7 @@ const PARTITION = [
 // Exploded axonometric: each storey keeps its slab and walls up to its own
 // cut; the slab-to-slab band above the cut (ceilings, plenum, next slab's
 // underside) is left out so every storey reads as an open plan from above.
-const EXPLODE = [
+export const EXPLODE = [
   { lo: BOTTOM, hi: CUTS.LM1, dy: 0 },
   { lo: -0.15, hi: CUTS.L00, dy: 36 },
   { lo: 4.55, hi: CUTS.LP1, dy: 74 },
@@ -79,6 +79,7 @@ export class Building {
     this.source = 1;
     this.caps = {};
     this.floorGroups = {};
+    this.walking = false;
     this.state = 'all';
     this.lamps = [];
     this.lampLevel = 0;
@@ -278,7 +279,8 @@ export class Building {
       const g = this.floorGroups[f];
       const explode = this.state === 'explode';
       // walking inside, every storey's works are there
-      g.visible = (explode || this.state === f || this.visitFloor === f || this.walking) && !this.held?.();
+      // a strict boolean: three.js only hides an object whose visible is false
+      g.visible = Boolean((explode || this.state === f || this.visitFloor === f || this.walking) && !this.held?.());
       g.position.y = explode ? this.bands[FLOOR_BAND[f]].s.dy : 0;
     }
     this.renderer.shadowMap.needsUpdate = true;
