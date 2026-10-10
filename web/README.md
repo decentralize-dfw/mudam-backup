@@ -113,7 +113,13 @@ kapakları, odalar ve eser yerleşimi Çevre 1 verisinden gelir.
   eğim (kaynak modeldeki basamak, burun, koridor ve köşe sahanlığı parçaları
   adlarından bulunur; 8 merdiven: Büyük Salon, foyer, batı, doğu, servis,
   pavyon sarmalı, oditoryumun iki koridoru). Böylece −1, 0 ve +1 birbirine
-  bağlıdır; serbest duran eserler engeldir (`src/engine/walk.js`).
+  bağlıdır; serbest duran eserler engeldir (`src/engine/walk.js`). Zemin
+  hücre hücre değil, pürüzsüz bir alan olarak okunur: her ayak kotu en yakın
+  geçilmez hücreye uzaklığını (açıklık) bilir, açıklık ve kot dört komşu hücre
+  merkezi arasında doğrusal ara değerle hesaplanır. Böylece 45° duvarlar
+  basamaklı değil düz bir kenardır, duvara giren adım duvar boyunca kayar
+  (dik yürününce durur) ve rampada göz kare başına birkaç santimden fazla
+  sıçramaz. Gölge haritası yürüyüşte bir kez, bütün binaya oturtulur.
 - **Işık:** Lüksemburg için NOAA güneş konumu (yaz saati dahil), Preetham gökyüzü,
   gökten türetilen ortam ışığı, 4K gölge, GTAO. Ortam kırpılmış katları
   karartmasın diye AO, sahnenin kendi derinliğinden hesaplanır.

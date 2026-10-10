@@ -116,6 +116,9 @@ class App {
       this.stage.setContextFade(this.stage.contextFadeTarget ?? 1, 300, true);
       this.app.dataset.siteReady = 'true';
       this.initCevre2();
+      // every storey's works, once the rest is in: the walk crosses storeys
+      // and a first upload of a work atlas mid-walk would make it hitch
+      setTimeout(() => FLOORS.forEach((f) => this.stage.artworks.load(f)), 4000);
     });
   }
 
@@ -164,6 +167,8 @@ class App {
       }
       this.walker = new Walker(this.stage, this.surface);
       this.walker.bindPad($$('[data-walk-direction]'));
+      // the clearance field takes a few hundred ms: off the first step's back
+      setTimeout(() => this.surface.clearance(), 1500);
     } catch (e) {
       console.warn('walk.json', e);
       $('#walk-pegman').hidden = true;
@@ -290,7 +295,7 @@ class App {
       rig.look.enabled = false;
       rig.fovFor = (w, h) => this.walker.fov(w, h);
       rig.resize(rig.width, rig.height);
-      this.walkFloor = null; this.walkWhere = null; this.shadowAt = null;
+      this.walkFloor = null; this.walkWhere = null;
       this.walker.arrive(at, yaw, this.stage.tweens).then((done) => { if (done && this.s.walk) this.walkMoved(true); });
       this.walkMoved(true);
     });
@@ -346,10 +351,11 @@ class App {
     const w = this.walker, p = w.camera.position, foot = w.foot;
     const floor = storeyOf(foot);
     if (force || floor !== this.walkFloor) { this.walkFloor = floor; this.placeRoomLights(floor); }
-    if (force || !this.shadowAt || this.shadowAt.distanceTo(p) > 12) {
-      this.shadowAt = p.clone();
-      this.focusShadows(p, 1);
-      this.stage.renderer.shadowMap.needsUpdate = true;
+    // one shadow map over the whole building, drawn once: refitting it while
+    // walking redraws every shadow and the walk would hitch
+    if (force) {
+      const g = this.surface.grid;
+      this.focusShadows(new THREE.Vector3(g.x + (g.width * g.step) / 2, 0, g.z + (g.height * g.step) / 2), 1);
     }
     let room = null;
     for (const r of this.data.rooms.rooms) {
@@ -465,7 +471,7 @@ class App {
     $$('[data-start]').forEach((b) => b.addEventListener('click', () => { this.app.dataset.booting = 'false'; this.setMode(b.dataset.start); }));
     $('#retry').addEventListener('click', () => location.reload());
     addEventListener('keydown', (e) => {
-      if (e.target.closest?.('input,select,textarea')) return;
+      if (e.target.closest?.('input,select,textarea') && !(this.s.walk && e.key === 'Escape')) return;
       if (e.key === 'Escape') this.back();
       // while walking the arrows walk
       if (this.s.walk) return;
