@@ -151,7 +151,7 @@ class App {
   buildWire() {
     const st = this.stage, w = this.wire;
     for (const bands of Object.values(st.building.sources)) w.buildBuilding(bands);
-    for (const root of [st.site, st.trees, st.cevre2?.site, st.cevre2?.trees, st.cevre2?.near, st.cevre2?.far]) w.buildRoot(root);
+    for (const root of st.contextRoots()) w.buildRoot(root);
     const c = st.context;
     if (c.massing && !w.done.has(c.massing)) { w.done.add(c.massing); w.patchFill(c.massing.material); w.addExisting(c.edges, 0.2); }
     if (c.ground) w.buildRoot(c.ground, { lines: false });
@@ -389,10 +389,26 @@ class App {
   async initCevre2() {
     this.cevre2 = await fetch(`${BASE}data/cevre2.json`).then((r) => (r.ok ? r.json() : null)).catch(() => null);
     this.app.dataset.cevre2 = this.cevre2 ? 'available' : 'missing';
-    if (new URLSearchParams(location.search).get('cevre') === '2') await this.setCevre(2);
+    this.cevre3 = await fetch(`${BASE}data/cevre3.json`).then((r) => (r.ok ? r.json() : null)).catch(() => null);
+    this.app.dataset.cevre3 = this.cevre3 ? 'available' : 'missing';
+    const requested = Number(new URLSearchParams(location.search).get('cevre'));
+    if ([2, 3].includes(requested)) await this.setCevre(requested);
   }
 
   async setCevre(n) {
+    if (n === 3 && !this.stage.cevre3) {
+      if (!this.cevre3) return this.notify(t('cevre3Missing'));
+      const button = $('[data-cevre="3"]');
+      if (!this.cevre3Loading) {
+        this.app.dataset.cevre3 = 'loading';
+        button.setAttribute('aria-busy', 'true');
+        this.cevre3Loading = this.stage.loadCevre2(this.cevre3, p => button.style.setProperty('--p', `${Math.round(p * 100)}%`), () => this.applyVisibility(), 3)
+          .then(() => { this.app.dataset.cevre3 = 'ready'; if (this.s.wire) this.buildWire(); })
+          .catch(e => { console.error('Çevre 3', e); this.app.dataset.cevre3 = 'error'; this.cevre3Loading = null; throw e; })
+          .finally(() => { button.removeAttribute('aria-busy'); button.style.removeProperty('--p'); });
+      }
+      try { await this.cevre3Loading; } catch { return this.notify(t('cevre3Error')); }
+    }
     if (n === this.s.cevre && !(n === 2 && !this.stage.cevre2)) return;
     if (n === 2 && !this.stage.cevre2) {
       if (!this.cevre2) return this.notify(t('cevre2Missing'));
@@ -425,7 +441,7 @@ class App {
     this.applyVisibility();
     this.renderMarkers();
     const url = new URL(location.href);
-    if (n === 2) url.searchParams.set('cevre', '2'); else url.searchParams.delete('cevre');
+    if (n > 1) url.searchParams.set('cevre', String(n)); else url.searchParams.delete('cevre');
     history.replaceState(null, '', url);
   }
 
@@ -762,11 +778,12 @@ class App {
     // line drawing: the surroundings are solid black, their lines at 20 %
     st.setContextFade(exploded ? (this.s.wire ? 1 : 0.2) : 1);
     const c2 = this.s.cevre === 2 && Boolean(st.cevre2);
+    const c3 = this.s.cevre === 3 && Boolean(st.cevre3);
     const treesOn = exploded || (!cut && !this.s.visit);
     // Çevre 1: model site, trees, OSM massing and ground drawing
-    if (st.site) st.site.visible = !c2;
-    if (st.trees) st.trees.visible = !c2 && treesOn;
-    st.context.group.visible = !c2;
+    if (st.site) st.site.visible = !c2 && !c3;
+    if (st.trees) st.trees.visible = !c2 && !c3 && treesOn;
+    st.context.group.visible = !c2 && !c3;
     // Çevre 2: the delivered near and far surroundings
     if (st.cevre2) {
       const { site, trees, near, far } = st.cevre2;
@@ -774,6 +791,9 @@ class App {
       if (trees) trees.visible = c2 && treesOn;
       if (near) near.visible = c2;
       if (far) far.visible = c2 && !this.s.visit;
+    }
+    if (st.cevre3) {
+      for (const root of Object.values(st.cevre3)) if (root) root.visible = c3;
     }
     // neighbours stay out of the way of close building views
     st.context.setMassing(this.s.mode === 'surroundings' || exploded ? 1 : cut || this.s.hotspot ? 0.0 : 0.85);
