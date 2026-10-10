@@ -1,4 +1,7 @@
 import * as THREE from 'three';
+import { LineSegments2 } from 'three/addons/lines/LineSegments2.js';
+import { LineSegmentsGeometry } from 'three/addons/lines/LineSegmentsGeometry.js';
+import { LineMaterial } from 'three/addons/lines/LineMaterial.js';
 import { hatchWire } from './hatch.js';
 
 // Line drawing for the exploded views: white edges on black, hidden lines
@@ -6,12 +9,23 @@ import { hatchWire } from './hatch.js';
 // they hide what is behind them; their feature edges are drawn on top in
 // white. Building lines carry the same shader as their parts (band range,
 // material offset), so they follow every cut and explosion. The surroundings
-// draw their lines at 20 %. uWire fades the whole drawing in and out.
+// draw their lines at 20 %, and thinner. uWire fades the whole drawing in and
+// out. While it shows, the scene is drawn at twice the resolution and scaled
+// down (pipeline.setScale): the building's one-pixel lines become half a
+// pixel, and the surroundings' (screen-space lines, CONTEXT_WIDTH) thinner
+// still.
 const WHITE = new THREE.Color(1, 1, 1);
 const BLACK = new THREE.Color(0, 0, 0);
 const BUILDING_ANGLE = Math.cos(THREE.MathUtils.degToRad(35));
 const CONTEXT_ANGLE = Math.cos(THREE.MathUtils.degToRad(45));
 export const CONTEXT_LINES = 0.2;
+// Lines blend in linear light: an alpha of 0.2 reads as a grey near half
+// brightness. The surroundings get the alpha that reads as 20 %.
+const CONTEXT_ALPHA = THREE.MathUtils.clamp(Math.pow(CONTEXT_LINES, 2.2), 0, 1);
+// CSS pixels (LineSegments2 sizes its lines against the canvas): under the
+// building's lines, which are one pixel of the doubled drawing (0.5)
+const CONTEXT_WIDTH = 0.35;
+const SUPERSAMPLE = 2;
 
 export class WireMode {
   constructor(stage) {
@@ -26,8 +40,8 @@ export class WireMode {
     this.cache = new Map();   // geometry uuid -> Promise<edge index>
     this.jobs = new Map();
     this.nextJob = 0;
-    this.context = new THREE.LineBasicMaterial({ color: WHITE, transparent: true, opacity: 0, depthWrite: false });
-    this.lineMaterials.push([this.context, CONTEXT_LINES]);
+    this.context = new LineMaterial({ color: WHITE, linewidth: CONTEXT_WIDTH, transparent: true, opacity: 0, depthWrite: false });
+    this.lineMaterials.push([this.context, CONTEXT_ALPHA]);
     // fills fade to black in the building's own shaders
     stage.building.addHook((shader, material, kind) => this.fillHook(shader, material, kind));
   }
@@ -92,7 +106,9 @@ export class WireMode {
     if (this.patched.has(material) || material.isLineBasicMaterial || material.isShaderMaterial) return;
     this.patched.add(material);
     const prev = material.onBeforeCompile;
-    const prevKey = material.customProgramCacheKey;
+    // taken now (by default the source of the material's own onBeforeCompile):
+    // materials with different edits must not share a program
+    const base = material.customProgramCacheKey();
     material.onBeforeCompile = (shader, renderer) => {
       prev?.call(material, shader, renderer);
       shader.uniforms.uWire = this.uWire;
@@ -100,7 +116,7 @@ export class WireMode {
         .replace('#include <common>', '#include <common>\nuniform float uWire;')
         .replace('#include <dithering_fragment>', `#include <dithering_fragment>\ngl_FragColor.rgb *= 1.0 - uWire;${material.transparent && material.userData.glass ? '\ngl_FragColor.a *= 1.0 - uWire;' : ''}`);
     };
-    material.customProgramCacheKey = () => `wire-${prevKey ? prevKey.call(material) : ''}`;
+    material.customProgramCacheKey = () => `wire|${base}`;
     material.polygonOffset = true;
     material.polygonOffsetFactor = 1;
     material.polygonOffsetUnits = 1;
@@ -147,8 +163,18 @@ export class WireMode {
     for (const m of meshes) {
       if (m.isInstancedMesh) { this.instancedLines(m, material); continue; }
       const edges = await this.edges(m.geometry, cos);
-      if (edges.length) this.addLines(m, new THREE.LineSegments(this.lineGeometry(m.geometry, edges), material));
+      if (!edges.length) continue;
+      if (material === this.context) {
+        const p = m.geometry.attributes.position, seg = new Float32Array(edges.length * 3);
+        for (let i = 0; i < edges.length; i++) { seg[i * 3] = p.getX(edges[i]); seg[i * 3 + 1] = p.getY(edges[i]); seg[i * 3 + 2] = p.getZ(edges[i]); }
+        this.addLines(m, this.thin(seg));
+      } else this.addLines(m, new THREE.LineSegments(this.lineGeometry(m.geometry, edges), material));
     }
+  }
+
+  // Thin lines for the surroundings: segment end points, pairwise.
+  thin(positions) {
+    return new LineSegments2(new LineSegmentsGeometry().setPositions(positions), this.context);
   }
 
   // One line set for all instances of an instanced mesh (picture frames).
@@ -163,6 +189,7 @@ export class WireMode {
         out.set([v.x, v.y, v.z], i * e.length + k);
       }
     }
+    if (material === this.context) { this.addLines(mesh, this.thin(out)); return; }
     const g = new THREE.BufferGeometry();
     g.setAttribute('position', new THREE.BufferAttribute(out, 3));
     this.addLines(mesh, new THREE.LineSegments(g, material));
@@ -170,7 +197,7 @@ export class WireMode {
 
   // A line object made elsewhere (massing edges, cap outlines) joins in white.
   addExisting(line, opacity = 1) {
-    const l = new THREE.LineSegments(line.geometry, opacity === 1 ? this.full ??= this.makeFull() : this.context);
+    const l = opacity === 1 ? new THREE.LineSegments(line.geometry, this.full ??= this.makeFull()) : this.thin(line.geometry.attributes.position.array);
     l.position.copy(line.position);
     this.addLines(line.parent, l);
     this.replaced.push(line);
@@ -190,6 +217,8 @@ export class WireMode {
   // Background, line opacity, tints for the current uWire.
   apply() {
     const u = this.uWire.value;
+    const st0 = this.stage;
+    st0.pipeline.setScale(u > 0.001 ? SUPERSAMPLE : 1);
     for (const l of this.lines) l.visible = u > 0.001;
     // the originals (grey massing edges, dark cap outlines) give way
     for (const l of this.replaced) l.material.visible = u < 0.5;

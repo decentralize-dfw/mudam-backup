@@ -1,4 +1,5 @@
 import * as THREE from 'three';
+import { FOCUS } from './focus.js';
 
 // Section poché, after angora/viewer/src/section.js: what the plane cuts goes
 // dark, and a 45° ruling rides on top of it. The ruling is filtered over the
@@ -18,7 +19,7 @@ export function createHatchMaterial({ pitch, duty, ground, ink, strength }) {
   const material = new THREE.ShaderMaterial({
     side: THREE.DoubleSide,
     polygonOffset: true, polygonOffsetFactor: -2, polygonOffsetUnits: -2,
-    uniforms: { uLight: { value: 1 }, uWire: hatchWire },
+    uniforms: { uLight: { value: 1 }, uWire: hatchWire, ...FOCUS },
     vertexShader: /* glsl */`varying vec3 vWorld;
       void main() {
         vec4 world = modelMatrix * vec4(position, 1.0);
@@ -28,6 +29,11 @@ export function createHatchMaterial({ pitch, duty, ground, ink, strength }) {
     fragmentShader: /* glsl */`varying vec3 vWorld;
       uniform float uLight;
       uniform float uWire;
+      uniform float uFocus;
+      uniform float uFocusDim;
+      uniform sampler2D uFocusTex;
+      uniform vec4 uFocusRect;
+      uniform vec2 uFocusY;
       const float INK = ${(2 * duty).toFixed(5)};
       float ruled(float x) { return floor(x) * INK + min(fract(x), INK); }
       void main() {
@@ -35,6 +41,9 @@ export function createHatchMaterial({ pitch, duty, ground, ink, strength }) {
         float w = max(fwidth(v), 1e-5);
         float hatch = clamp((ruled(v + 0.5 * w) - ruled(v - 0.5 * w)) / w, 0.0, 1.0);
         vec3 c = mix(vec3(${f(ground)}), vec3(${f(ink)}), hatch * ${strength.toFixed(2)});
+        // a picked room keeps its light, the rest of the cut darkens (focus.js)
+        float inRoom = texture2D(uFocusTex, (vWorld.xz - uFocusRect.xy) / (uFocusRect.zw - uFocusRect.xy)).r * step(uFocusY.x, vWorld.y) * step(vWorld.y, uFocusY.y);
+        c *= 1.0 - uFocusDim * uFocus * (1.0 - inRoom);
         gl_FragColor = vec4(c * uLight * (1.0 - uWire), 1.0);
       }`,
   });
