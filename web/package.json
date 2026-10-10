@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "model": "node scripts/build-model.mjs",
+    "model:cevre2": "node scripts/build-model.mjs --cevre2",
     "data": "python3 -I scripts/prepare_data.py",
     "art": "python3 -I scripts/make_artworks.py",
     "build": "vite build && node scripts/stage.mjs"

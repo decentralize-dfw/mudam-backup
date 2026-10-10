@@ -57,6 +57,10 @@ export class Building {
     this.scene = scene;
     this.renderer = renderer;
     this.bands = [];
+    // one set of bands per model source (Çevre 1, Çevre 2); `bands` is the
+    // one on screen
+    this.sources = {};
+    this.source = 1;
     this.caps = {};
     this.floorGroups = {};
     this.state = 'all';
@@ -72,7 +76,7 @@ export class Building {
     }
   }
 
-  attach(root) {
+  attach(root, key = 1) {
     const tuned = new Map();
     root.traverse((o) => {
       if (!o.isMesh) return;
@@ -82,6 +86,7 @@ export class Building {
       o.castShadow = !o.material.userData.glass;
       o.receiveShadow = true;
     });
+    const bands = [];
     for (let k = 0; k < 4; k++) {
       const lo = new THREE.Plane(new THREE.Vector3(0, 1, 0), -BOTTOM);
       const hi = new THREE.Plane(new THREE.Vector3(0, -1, 0), TOP);
@@ -103,12 +108,28 @@ export class Building {
         o.material = local.get(m);
       });
       const group = new THREE.Group();
-      group.name = `band-${k}`;
+      group.name = `band-${key}-${k}`;
       group.add(copy);
-      group.visible = k === 0;
+      group.visible = k === 0 && key === this.source;
       this.scene.add(group);
-      this.bands.push({ group, lo, hi, s: { lo: BOTTOM, hi: TOP, dy: 0 } });
+      bands.push({ group, lo, hi, s: { lo: BOTTOM, hi: TOP, dy: 0 } });
     }
+    this.sources[key] = bands;
+    if (key === this.source) { this.bands = bands; this.apply(); }
+    return bands;
+  }
+
+  // Show the other model source in the same state (cut, lift, visibility).
+  useSource(key) {
+    const next = this.sources[key];
+    if (!next || next === this.bands) return;
+    this.bands.forEach((b, k) => {
+      next[k].s = { ...b.s };
+      next[k].group.visible = b.group.visible;
+      b.group.visible = false;
+    });
+    this.bands = next;
+    this.source = key;
     this.apply();
   }
 

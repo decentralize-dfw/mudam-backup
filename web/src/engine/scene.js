@@ -83,6 +83,7 @@ export class Stage {
   async load(onProgress) {
     const draco = new DRACOLoader().setDecoderPath(`${this.base}draco/`);
     const loader = new GLTFLoader().setDRACOLoader(draco);
+    this.loader = loader;
     const progress = { building: 0, site: 0, trees: 0, data: 0 };
     const weight = { building: 0.55, site: 0.15, trees: 0.2, data: 0.1 };
     const report = () => onProgress?.(Object.entries(progress).reduce((s, [k, v]) => s + v * weight[k], 0));
@@ -104,9 +105,52 @@ export class Stage {
       if (this.data.context.trees?.length) trees.scene.add(this.context.addCanopies(this.data.context.trees));
       this.scene.add(site.scene, trees.scene);
       this.dirty = true;
-      draco.dispose();
     });
     return this.data;
+  }
+
+  // Çevre 2: the delivered building with its near and far surroundings
+  // (12_Blender_Model/exports/r151_web_v002, prepared by build-model.mjs
+  // --cevre2). Loaded on first use; the building gets its own bands so cuts,
+  // floors and layers work the same way.
+  async loadCevre2(manifest, onProgress) {
+    const files = Object.entries(manifest.files);
+    const done = {};
+    const total = files.reduce((s, [, f]) => s + (f.bytes || 1), 0);
+    const report = () => onProgress?.(files.reduce((s, [k, f]) => s + (done[k] ?? 0) * (f.bytes || 1), 0) / total);
+    const loaded = Object.fromEntries(await Promise.all(files.map(([key, f]) => this.loader.loadAsync(`${this.base}${f.file}`, (e) => {
+      done[key] = e.total ? e.loaded / e.total : (f.bytes ? e.loaded / f.bytes : 0); report();
+    }).then((g) => { done[key] = 1; report(); return [key, g.scene]; }))));
+    const set = { building: loaded.building };
+    for (const key of ['site', 'trees', 'near', 'far']) {
+      const root = loaded[key];
+      if (!root) continue;
+      root.name = `cevre2-${key}`;
+      root.traverse((o) => {
+        if (!o.isMesh) return;
+        o.receiveShadow = true;
+        // the far context is too large to cast into the sun's shadow map
+        o.castShadow = key !== 'far';
+        o.material.side = THREE.DoubleSide;
+      });
+      root.visible = false;
+      this.scene.add(root);
+      set[key] = root;
+    }
+    // the delivered trees come without foliage meshes, like Çevre 1's
+    if (set.trees && this.data.context.trees?.length) set.trees.add(this.context.addCanopies(this.data.context.trees));
+    if (set.building) this.building.attach(set.building, 2);
+    this.cevre2 = set;
+    // a fade in progress (building taken apart) covers the new surroundings too
+    this.setContextFade(this.contextFadeTarget ?? 1, 300, true);
+    this.renderer.shadowMap.needsUpdate = true;
+    this.dirty = true;
+    return set;
+  }
+
+  // Everything around the building, both model sets, loaded or not yet.
+  contextRoots() {
+    return [this.site, this.trees, this.context.group, this.cevre2?.site, this.cevre2?.trees, this.cevre2?.near, this.cevre2?.far].filter(Boolean);
   }
 
   start() {
@@ -130,11 +174,12 @@ export class Stage {
 
   // Everything that is not the building (site, trees, neighbours, ground
   // drawing) fades together, e.g. to 20 % while the building is taken apart.
-  setContextFade(alpha, ms = 700) {
+  setContextFade(alpha, ms = 700, force = false) {
     const from = this.contextFade ?? 1;
-    if (Math.abs(from - alpha) < 1e-3) return;
+    if (!force && Math.abs(from - alpha) < 1e-3) return;
+    this.contextFadeTarget = alpha;
     const mats = new Set();
-    for (const root of [this.site, this.trees, this.context.group]) {
+    for (const root of this.contextRoots()) {
       root?.traverse((o) => {
         if (!o.material || o === this.context.massing || o === this.context.edges) return;
         for (const m of Array.isArray(o.material) ? o.material : [o.material]) mats.add(m);
@@ -144,7 +189,7 @@ export class Stage {
       m.userData.fadeBase ??= { opacity: m.opacity, transparent: m.transparent, depthWrite: m.depthWrite };
     }
     const setCast = (on) => {
-      for (const root of [this.site, this.trees]) root?.traverse((o) => { if (o.isMesh) o.castShadow = on; });
+      for (const root of [this.site, this.trees, this.cevre2?.site, this.cevre2?.trees, this.cevre2?.near]) root?.traverse((o) => { if (o.isMesh) o.castShadow = on; });
       if (this.context.massing) this.context.massing.castShadow = on;
     };
     if (alpha < 1) setCast(false);

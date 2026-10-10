@@ -1,4 +1,10 @@
-// Mudam web model: 12_Blender_Model/exports/current.glb.gz -> demo/model/*.glb
+// Mudam web model, two sets:
+//
+//   node scripts/build-model.mjs
+//     Çevre 1: 12_Blender_Model/exports/current.glb.gz -> demo/model/{building,site,trees}.glb
+//   node scripts/build-model.mjs --cevre2 [dir]
+//     Çevre 2: 12_Blender_Model/exports/r151_web_v002/{building,near_context,far_context}.glb
+//     -> demo/model/cevre2/*.glb, demo/data/pieces-cevre2.json, demo/data/cevre2.json
 //
 // The Blender export carries 8 477 loose root nodes, each with its own mesh,
 // so the browser would issue thousands of draw calls. Here every node is
@@ -11,25 +17,48 @@ import fs from 'node:fs';
 import path from 'node:path';
 import zlib from 'node:zlib';
 import { fileURLToPath } from 'node:url';
-import { NodeIO } from '@gltf-transform/core';
+import { NodeIO, getBounds } from '@gltf-transform/core';
 import { ALL_EXTENSIONS } from '@gltf-transform/extensions';
-import { dedup, prune, join, weld, weldPrimitive, draco, textureCompress, simplifyPrimitive } from '@gltf-transform/functions';
-import { MeshoptSimplifier } from 'meshoptimizer';
+import { dedup, prune, join, weld, weldPrimitive, draco, textureCompress, simplifyPrimitive, flatten } from '@gltf-transform/functions';
+import { MeshoptSimplifier, MeshoptDecoder, MeshoptEncoder } from 'meshoptimizer';
 import draco3d from 'draco3dgltf';
 import sharp from 'sharp';
 
 const here = path.dirname(fileURLToPath(import.meta.url));
 const repo = path.resolve(here, '../..');
-const source = path.join(repo, '12_Blender_Model/exports/current.glb.gz');
-const outDir = path.join(repo, 'demo/model');
+const args = process.argv.slice(2);
+const CEVRE2 = args.includes('--cevre2');
+const R151 = path.resolve(args.find((a) => !a.startsWith('--')) ?? path.join(repo, '12_Blender_Model/exports/r151_web_v002'));
+const outDir = path.join(repo, CEVRE2 ? 'demo/model/cevre2' : 'demo/model');
+const dataDir = path.join(repo, 'demo/data');
 fs.mkdirSync(outDir, { recursive: true });
+fs.mkdirSync(dataDir, { recursive: true });
 
+await MeshoptDecoder.ready;
+await MeshoptEncoder.ready;
 const io = new NodeIO()
   .registerExtensions(ALL_EXTENSIONS)
   .registerDependencies({
     'draco3d.decoder': await draco3d.createDecoderModule(),
     'draco3d.encoder': await draco3d.createEncoderModule(),
+    'meshopt.decoder': MeshoptDecoder,
+    'meshopt.encoder': MeshoptEncoder,
   });
+
+async function readDoc(file) {
+  const bytes = fs.readFileSync(file);
+  return io.readBinary(new Uint8Array(file.endsWith('.gz') ? zlib.gunzipSync(bytes) : bytes));
+}
+
+function stats(doc) {
+  const root = doc.getRoot();
+  let tris = 0;
+  for (const m of root.listMeshes()) for (const p of m.listPrimitives()) tris += (p.getIndices()?.getCount() ?? p.getAttribute('POSITION').getCount()) / 3;
+  const prims = root.listMeshes().reduce((n, m) => n + m.listPrimitives().length, 0);
+  const scene = root.getDefaultScene() ?? root.listScenes()[0];
+  const b = scene ? getBounds(scene) : null;
+  return { prims, tris: Math.round(tris), textures: root.listTextures().length, bounds: b && { min: b.min.map((v) => Math.round(v * 10) / 10), max: b.max.map((v) => Math.round(v * 10) / 10) } };
+}
 
 await MeshoptSimplifier.ready;
 
@@ -117,7 +146,7 @@ function smoothNormals(doc, prim) {
 // layer so a layer can be hidden.
 const CELL = 8;
 const storeyOf = (y) => (y < -0.4 ? 0 : y < 4.5 ? 1 : y < 9.6 ? 2 : 3);
-function bakePieces(doc, group) {
+function bakePieces(doc, group, piecesFile) {
   const buffer = doc.getRoot().listBuffers()[0];
   const layerNodes = Object.fromEntries(LAYERS.map((l) => {
     const n = doc.createNode(`LAYER_${l}`);
@@ -167,17 +196,16 @@ function bakePieces(doc, group) {
     counts[p.layer]++;
   }
   const pieces = [...frags.values()].map((f) => [...f.c, f.li, Math.round(Math.hypot(f.hi[0] - f.lo[0], f.hi[1] - f.lo[1], f.hi[2] - f.lo[2]) * 100) / 100, f.n]);
-  fs.mkdirSync(path.join(repo, 'demo/data'), { recursive: true });
   // [x, y, z, layer, size, parts] per fragment
-  fs.writeFileSync(path.join(repo, 'demo/data/pieces.json'), JSON.stringify({ layers: LAYERS, cell: CELL, pieces }));
+  fs.writeFileSync(piecesFile, JSON.stringify({ layers: LAYERS, cell: CELL, pieces }));
   console.log('parts', parts.length, counts, 'fragments', pieces.length);
 }
 
-async function buildChunk(chunk) {
-  const buffer = zlib.gunzipSync(fs.readFileSync(source));
-  const doc = await io.readBinary(new Uint8Array(buffer));
-  // Simplification needs indexed, welded vertices.
-  await doc.transform(weld());
+async function buildChunk(chunk, source, piecesFile) {
+  const doc = await readDoc(source);
+  // one level of root nodes with world transforms, whatever the hierarchy
+  // of the export; then indexed, welded vertices for the simplifier
+  await doc.transform(flatten(), weld());
   const root = doc.getRoot();
   const scene = root.getDefaultScene() ?? root.listScenes()[0];
   const group = doc.createNode(`MUDAM_${chunk.toUpperCase()}`);
@@ -186,7 +214,7 @@ async function buildChunk(chunk) {
 
   for (const node of [...scene.listChildren()]) {
     const extras = node.getExtras();
-    if (chunkOf(node.getName(), extras) !== chunk) { node.dispose(); continue; }
+    if (!node.getMesh() || chunkOf(node.getName(), extras) !== chunk) { node.dispose(); continue; }
     scene.removeChild(node);
     group.addChild(node);
     kept++;
@@ -206,8 +234,9 @@ async function buildChunk(chunk) {
       }
     }
   }
+  if (!kept) { console.log(`${chunk}: no source nodes in ${path.basename(source)}`); return null; }
   scene.addChild(group);
-  if (chunk === 'building') bakePieces(doc, group);
+  if (chunk === 'building') bakePieces(doc, group, piecesFile);
   // provenance notes stay in the source export, not in the web copy
   group.traverse((n) => n.setExtras({}));
   // Materials and meshes only referenced by the other chunks go away here.
@@ -223,10 +252,58 @@ async function buildChunk(chunk) {
   for (const material of root.listMaterials()) material.setExtras({});
   const out = path.join(outDir, `${chunk}.glb`);
   await io.write(out, doc);
-  const prims = root.listMeshes().reduce((n, m) => n + m.listPrimitives().length, 0);
-  let tris = 0;
-  for (const m of root.listMeshes()) for (const p of m.listPrimitives()) tris += (p.getIndices()?.getCount() ?? p.getAttribute('POSITION').getCount()) / 3;
-  console.log(`${chunk}: ${kept} source nodes -> ${prims} primitives, ${Math.round(tris)} triangles, ${(fs.statSync(out).size / 1048576).toFixed(2)} MB`);
+  const st = stats(doc);
+  console.log(`${chunk}: ${kept} source nodes -> ${st.prims} primitives, ${st.tris} triangles, ${(fs.statSync(out).size / 1048576).toFixed(2)} MB`, JSON.stringify(st.bounds));
+  return { file: path.relative(path.join(repo, 'demo'), out), bytes: fs.statSync(out).size, ...st };
 }
 
-for (const chunk of ['building', 'site', 'trees']) await buildChunk(chunk);
+// Ready-made surroundings (Çevre 2): kept as delivered apart from merging
+// draw calls, WebP textures and Draco geometry.
+async function buildContext(name, source, texture) {
+  const doc = await readDoc(source);
+  const before = stats(doc);
+  const root = doc.getRoot();
+  for (const n of root.listNodes()) n.setExtras({});
+  for (const m of root.listMaterials()) m.setExtras({});
+  await doc.transform(
+    dedup(),
+    prune(),
+    join({ keepNamed: false, keepMeshes: false }),
+    prune(),
+    textureCompress({ encoder: sharp, targetFormat: 'webp', quality: 80, resize: [texture, texture] }),
+    draco({ method: 'edgebreaker', quantizePosition: 16, quantizeNormal: 10, quantizeTexcoord: 12, quantizeGeneric: 14 }),
+  );
+  const out = path.join(outDir, `${name}.glb`);
+  await io.write(out, doc);
+  const st = stats(doc);
+  console.log(`${name}: ${(fs.statSync(source).size / 1048576).toFixed(2)} MB, ${before.prims} primitives, ${before.tris} triangles, ${before.textures} textures -> ${st.prims} primitives, ${(fs.statSync(out).size / 1048576).toFixed(2)} MB`, JSON.stringify(st.bounds));
+  return { file: path.relative(path.join(repo, 'demo'), out), bytes: fs.statSync(out).size, ...st };
+}
+
+if (!CEVRE2) {
+  const source = path.join(repo, '12_Blender_Model/exports/current.glb.gz');
+  for (const chunk of ['building', 'site', 'trees']) await buildChunk(chunk, source, path.join(dataDir, 'pieces.json'));
+} else {
+  const src = (name) => {
+    const f = ['.glb', '.glb.gz'].map((e) => path.join(R151, name + e)).find((f) => fs.existsSync(f));
+    if (!f) throw new Error(`Çevre 2: ${name}.glb not found in ${R151}`);
+    return f;
+  };
+  const files = {};
+  // the museum, taken apart like Çevre 1 (sections, floors, material layers)
+  for (const chunk of ['building', 'site', 'trees']) {
+    const r = await buildChunk(chunk, src('building'), path.join(dataDir, 'pieces-cevre2.json'));
+    if (r) files[chunk] = r;
+  }
+  files.near = await buildContext('near', src('near_context'), 2048);
+  files.far = await buildContext('far', src('far_context'), 1024);
+  const manifest = {
+    name: 'Çevre 2',
+    source: path.relative(repo, R151).split(path.sep).join('/'),
+    revision: path.basename(R151),
+    pieces: 'data/pieces-cevre2.json',
+    files,
+  };
+  fs.writeFileSync(path.join(dataDir, 'cevre2.json'), JSON.stringify(manifest, null, 1));
+  console.log('wrote demo/data/cevre2.json');
+}

@@ -97,6 +97,14 @@ button:focus-visible, select:focus-visible, input:focus-visible, a:focus-visible
 .light-panel input[type='range'] { width: 100%; accent-color: var(--ink); margin: 2px 0; }
 .light-panel .pill { background: rgba(255, 255, 255, 0.7); border: 1px solid var(--line); }
 .light-panel .pill[aria-pressed='true'] { background: var(--ink); border-color: var(--ink); }
+.context-row { padding-bottom: 6px; margin-bottom: 2px; border-bottom: 1px solid var(--line); }
+.context-switch { display: flex; gap: 2px; padding: 2px; border-radius: 999px; background: rgba(0, 0, 0, 0.05); }
+.context-switch button { min-height: 28px; padding: 0 11px; border-radius: 999px; font-size: 12px; font-weight: 650; white-space: nowrap; }
+.context-switch button[aria-pressed='true'] { background: var(--ink); color: #fff; }
+.context-switch button:not([aria-pressed='true']):hover { background: var(--glass-hover); }
+.context-switch button[aria-busy='true'] { background: linear-gradient(90deg, var(--ink) var(--p, 0%), rgba(0, 0, 0, 0.08) var(--p, 0%)); color: #fff; }
+#app[data-cevre2='missing'] .context-switch [data-cevre='2'] { opacity: 0.5; }
+.notice { position: absolute; z-index: 40; left: 50%; top: 84px; transform: translateX(-50%); margin: 0; max-width: min(520px, calc(100vw - 2 * var(--gap))); padding: 10px 16px; border-radius: 14px; font-size: 13px; line-height: 1.4; text-align: center; }
 .light-panel select { border: 1px solid var(--line); background: rgba(255, 255, 255, 0.7); border-radius: 999px; padding: 6px 10px; font-size: 12px; font-weight: 600; }
 
 /* ------------------------------------------------------------ markers */
@@ -211,9 +219,14 @@ button:focus-visible, select:focus-visible, input:focus-visible, a:focus-visible
   .dock { bottom: calc(max(var(--gap), env(safe-area-inset-bottom)) + 60px); max-width: calc(100vw - 2 * var(--gap)); overflow-x: auto; }
   .camera-tools { display: none; }
   .light-panel { left: var(--gap); right: var(--gap); width: auto; bottom: max(var(--gap), env(safe-area-inset-bottom)); padding: 8px 12px; grid-template-columns: 1fr auto; align-items: center; }
-  .light-panel .light-row:first-child { display: none; }
-  .light-panel .light-row:last-child { grid-column: 1 / -1; }
-  .light-panel input[type='range'] { grid-column: 1 / -1; }
+  .light-panel .daylight-row { display: none; }
+  .light-panel .light-row { grid-column: 1 / -1; }
+  /* the model switch shares the first row with the time slider */
+  .light-panel .context-row { display: contents; }
+  .light-panel .context-row > span { display: none; }
+  .light-panel .context-switch { grid-column: 2; grid-row: 1; }
+  .light-panel input[type='range'] { grid-column: 1; grid-row: 1; }
+  .light-panel .light-row:last-child { grid-row: 2; }
   .card, .sheet { left: var(--gap); right: var(--gap); width: auto; top: auto; bottom: calc(max(var(--gap), env(safe-area-inset-bottom)) + 116px); max-height: 46vh; border-radius: 18px; padding: 16px; }
   .card h2 { font-size: 19px; }
   .hint { display: none; }

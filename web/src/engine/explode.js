@@ -63,6 +63,27 @@ export function pieceOffset(p, li, vert, rad, target = new THREE.Vector3()) {
   return target.set(0, vy * vert, 0).addScaledVector(r, rad);
 }
 
+// Trails drawn per layer.
+const TRAILS = { floors: 5, walls: 7, ceilings: 5, frames: 6, glass: 6, fittings: 3 };
+
+// k fragments far apart from each other, larger ones first (farthest-point
+// sampling weighted by size).
+function spread(list, k) {
+  if (list.length <= k) return list;
+  const dist = (a, b) => Math.hypot(a[0] - b[0], a[1] - b[1], a[2] - b[2]);
+  const sorted = [...list].sort((a, b) => b[4] - a[4]);
+  const out = [sorted[0]];
+  const d = sorted.map((p) => dist(p, sorted[0]));
+  while (out.length < k) {
+    let bi = 0;
+    for (let i = 1; i < sorted.length; i++) if (d[i] * Math.sqrt(sorted[i][4]) > d[bi] * Math.sqrt(sorted[bi][4])) bi = i;
+    const q = sorted[bi];
+    out.push(q);
+    for (let i = 0; i < sorted.length; i++) d[i] = Math.min(d[i], dist(sorted[i], q));
+  }
+  return out;
+}
+
 // Mid radius of a layer's shell, where its guide arc and label sit.
 const shellRadius = (l) => SHELL[l] + SPREAD * 34;
 
@@ -106,6 +127,7 @@ export class MaterialExplode {
       o.frustumCulled = false;
       const layer = findLayer(o);
       if (layer) (this.layerGroups[layer] ??= []).push(o);
+      if (layer && this.hidden.has(layer)) o.visible = false;
       const m = o.material;
       if (seen.has(m)) return;
       seen.add(m);
@@ -118,13 +140,12 @@ export class MaterialExplode {
     });
   }
 
-  // Dashed trails from where each fragment was to where it goes, for the
-  // larger fragments (the dash runs along the travelled distance), and for the
-  // hemisphere the shells' outlines, like the arcs of a section drawing.
-  build(data, maxLines = 900) {
-    const ranked = data.pieces.filter((p) => p[4] >= 2.5).sort((a, b) => b[4] - a[4]);
-    const kept = ranked.slice(0, maxLines);
-    if (ranked.length > kept.length) console.info(`explode: ${ranked.length - kept.length} small fragments without a trail`);
+  // Dashed trails from where a fragment was to where it goes (the dash runs
+  // along the travelled distance): only a few per layer, spread over the
+  // plan, so they read as a diagram rather than a mesh. For the hemisphere
+  // also the shells' outlines, like the arcs of a section drawing.
+  build(data, key = 1) {
+    const kept = LAYERS.flatMap((l, li) => spread(data.pieces.filter((p) => p[3] === li && p[4] >= 3), TRAILS[l]));
     const n = kept.length;
     const piece = new Float32Array(n * 2 * 4), end = new Float32Array(n * 2), pos = new Float32Array(n * 2 * 3), col = new Float32Array(n * 2 * 3);
     const c = new THREE.Color();
@@ -144,7 +165,7 @@ export class MaterialExplode {
     g.setAttribute('aEnd', new THREE.BufferAttribute(end, 1));
     g.setAttribute('color', new THREE.BufferAttribute(col, 3));
     const material = new THREE.ShaderMaterial({
-      uniforms: { ...this.uniforms, uHidden: { value: new Array(6).fill(0) } },
+      uniforms: { ...this.uniforms, uHidden: { value: LAYERS.map((l) => (this.hidden.has(l) ? 1 : 0)) } },
       transparent: true,
       depthWrite: false,
       vertexShader: /* glsl */`${GLSL}
@@ -169,16 +190,29 @@ export class MaterialExplode {
         varying float vHide;
         void main() {
           if (vHide > 0.5) discard;
-          if (mod(vDist, 2.2) > 1.3) discard;
+          if (mod(vDist, 3.4) > 2.0) discard;
           float a = smoothstep(0.05, 0.6, max(uVert, uRad));
-          gl_FragColor = vec4(vColour, 0.55 * a);
+          gl_FragColor = vec4(vColour, 0.6 * a);
         }`,
     });
-    this.trails = new THREE.LineSegments(g, material);
-    this.trails.frustumCulled = false;
-    this.trails.renderOrder = 7;
-    this.trails.visible = false;
-    this.scene.add(this.trails);
+    const trails = new THREE.LineSegments(g, material);
+    trails.frustumCulled = false;
+    trails.renderOrder = 7;
+    trails.visible = false;
+    this.scene.add(trails);
+
+    // per-layer label anchors: weighted centre of the fragments
+    const anchors = LAYERS.map((_, li) => {
+      const list = data.pieces.filter((p) => p[3] === li);
+      const w = list.reduce((s, p) => s + p[4], 0) || 1;
+      const centre = list.reduce((acc, p) => acc.add(new THREE.Vector3(p[0], p[1], p[2]).multiplyScalar(p[4] / w)), new THREE.Vector3());
+      return { centre, count: list.length };
+    });
+    // one set of trails per model source (Çevre 1, Çevre 2)
+    this.sets ??= {};
+    this.sets[key] = { trails, anchors };
+    if (!this.trails || key === this.key) this.use(key);
+    if (this.arcs) return;
 
     // shell outlines: a dashed half circle per shell, turned to face the
     // camera, and the ground line they stand on
@@ -201,15 +235,20 @@ export class MaterialExplode {
     }
     this.baseLine = lineOf([new THREE.Vector3(-outer, 0, 0), new THREE.Vector3(outer, 0, 0)], new THREE.Color(0x56605c));
     this.scene.add(this.arcs);
-
-    // per-layer label anchors: weighted centre and height of the fragments
-    this.anchors = LAYERS.map((_, li) => {
-      const list = data.pieces.filter((p) => p[3] === li);
-      const w = list.reduce((s, p) => s + p[4], 0) || 1;
-      const centre = list.reduce((acc, p) => acc.add(new THREE.Vector3(p[0], p[1], p[2]).multiplyScalar(p[4] / w)), new THREE.Vector3());
-      return { centre, count: list.length };
-    });
     this.applyAmount();
+  }
+
+  // Trails and label anchors of the model source on screen.
+  use(key) {
+    const set = this.sets?.[key];
+    if (!set) return;
+    const shown = this.trails?.visible ?? false;
+    if (this.trails && this.trails !== set.trails) this.trails.visible = false;
+    this.key = key;
+    this.trails = set.trails;
+    this.trails.visible = shown;
+    this.anchors = set.anchors;
+    this.onChange?.();
   }
 
   // Keep the shell outlines facing the camera.
@@ -277,7 +316,8 @@ export class MaterialExplode {
   setLayerVisible(layer, on) {
     if (on) this.hidden.delete(layer); else this.hidden.add(layer);
     for (const m of this.layerGroups[layer] ?? []) m.visible = on;
-    if (this.trails) this.trails.material.uniforms.uHidden.value = LAYERS.map((l) => (this.hidden.has(l) ? 1 : 0));
+    const hidden = LAYERS.map((l) => (this.hidden.has(l) ? 1 : 0));
+    for (const set of Object.values(this.sets ?? {})) set.trails.material.uniforms.uHidden.value = hidden;
     this.applyAmount();
     this.onChange?.();
   }

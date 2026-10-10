@@ -43,7 +43,7 @@ class App {
   constructor() {
     this.app = $('#app');
     this.stage = new Stage($('#viewport'), BASE);
-    this.s = { mode: 'building', floor: 'all', explode: false, plan: false, hotspot: null, exhibition: null, room: null, artwork: null, visit: false, mat: 'off', hour: 13.5, day: 283, lights: false, lightsAuto: true };
+    this.s = { mode: 'building', floor: 'all', explode: false, plan: false, hotspot: null, exhibition: null, room: null, artwork: null, visit: false, mat: 'off', cevre: 1, hour: 13.5, day: 283, lights: false, lightsAuto: true };
     this.pointer = { x: 0, y: 0, down: null };
     window.__mudam = this; // QA hook
     window.THREE = THREE;
@@ -105,7 +105,62 @@ class App {
       this.stage.contextFade = 1; // new materials: let the current fade re-apply to them
       this.applyVisibility();
       this.app.dataset.siteReady = 'true';
+      this.initCevre2();
     });
+  }
+
+  // ------------------------------------------------ Çevre 1 / Çevre 2
+  // Çevre 1 is the model built from current.glb.gz (R149) with the model
+  // site, trees and OSM massing; Çevre 2 the delivered R151 web set
+  // (building, near and far context). demo/data/cevre2.json lists its files.
+  async initCevre2() {
+    this.cevre2 = await fetch(`${BASE}data/cevre2.json`).then((r) => (r.ok ? r.json() : null)).catch(() => null);
+    this.app.dataset.cevre2 = this.cevre2 ? 'available' : 'missing';
+    if (new URLSearchParams(location.search).get('cevre') === '2') await this.setCevre(2);
+  }
+
+  async setCevre(n) {
+    if (n === this.s.cevre && !(n === 2 && !this.stage.cevre2)) return;
+    if (n === 2 && !this.stage.cevre2) {
+      if (!this.cevre2) return this.notify(t('cevre2Missing'));
+      const button = $('[data-cevre="2"]');
+      if (!this.cevre2Loading) {
+        this.app.dataset.cevre2 = 'loading';
+        button.setAttribute('aria-busy', 'true');
+        this.cevre2Loading = this.stage.loadCevre2(this.cevre2, (p) => button.style.setProperty('--p', `${Math.round(p * 100)}%`))
+          .then(async () => {
+            const bands = this.stage.building.sources[2];
+            if (bands && this.mx) this.mx.attach(bands[0].group);
+            // interior lights already on reach the new building too
+            this.stage.building.setLamps(this.stage.building.lampLevel);
+            this.tuneSite(this.stage.cevre2.site, this.stage.cevre2.trees);
+            const pieces = await fetch(`${BASE}${this.cevre2.pieces}`).then((r) => (r.ok ? r.json() : null)).catch(() => null);
+            if (pieces && this.mx) this.mx.build(pieces, 2);
+            this.app.dataset.cevre2 = 'ready';
+          })
+          .catch((e) => { console.error('Çevre 2', e); this.app.dataset.cevre2 = 'error'; this.cevre2Loading = null; throw e; })
+          .finally(() => { button.removeAttribute('aria-busy'); button.style.removeProperty('--p'); });
+      }
+      try { await this.cevre2Loading; } catch { return this.notify(t('cevre2Error')); }
+    }
+    this.s.cevre = n;
+    // a set without its own building keeps Çevre 1's
+    this.stage.building.useSource(this.stage.building.sources[n] ? n : 1);
+    this.mx?.use(this.mx.sets?.[n] ? n : 1);
+    this.syncControls();
+    this.applyVisibility();
+    this.renderMarkers();
+    const url = new URL(location.href);
+    if (n === 2) url.searchParams.set('cevre', '2'); else url.searchParams.delete('cevre');
+    history.replaceState(null, '', url);
+  }
+
+  notify(text) {
+    const n = $('#notice');
+    n.textContent = text;
+    n.hidden = false;
+    clearTimeout(this.noticeTimer);
+    this.noticeTimer = setTimeout(() => { n.hidden = true; }, 5200);
   }
 
   // ------------------------------------------------------------ helpers
@@ -135,6 +190,7 @@ class App {
     $('#toggle-plan').addEventListener('click', () => this.setPlan(!this.s.plan));
     $('#toggle-materials').addEventListener('click', () => this.setMaterials(this.s.mat === 'off' ? 'vertical' : 'off'));
     $$('[data-mat]').forEach((b) => b.addEventListener('click', () => this.setMaterials(b.dataset.mat)));
+    $$('[data-cevre]').forEach((b) => b.addEventListener('click', () => this.setCevre(Number(b.dataset.cevre))));
     $('#zoom-in').addEventListener('click', () => this.zoomBy(1.35));
     $('#zoom-out').addEventListener('click', () => this.zoomBy(1 / 1.35));
     $('#recentre').addEventListener('click', () => this.recentre());
@@ -186,6 +242,7 @@ class App {
 
   rerender() {
     this.renderMarkers();
+    this.renderLayerList();
     if (this.s.mode === 'exhibitions') this.renderSheet();
     if (this.s.artwork) this.renderArtworkCard();
     else if (this.s.room) this.renderRoomCard();
@@ -350,6 +407,7 @@ class App {
     $$('[data-mat]').forEach((b) => b.setAttribute('aria-pressed', String(b.dataset.mat === this.s.mat)));
     this.app.dataset.mat = this.s.mat === 'off' ? 'off' : 'on';
     $('#toggle-explode').setAttribute('aria-pressed', String(this.s.explode));
+    $$('[data-cevre]').forEach((b) => b.setAttribute('aria-pressed', String(Number(b.dataset.cevre) === this.s.cevre)));
     $('#toggle-plan').setAttribute('aria-pressed', String(this.s.plan));
     this.app.dataset.visit = String(this.s.visit);
   }
@@ -362,7 +420,20 @@ class App {
     // surroundings model stays in place at 20 % opacity
     const exploded = this.s.explode || this.s.mat !== 'off';
     st.setContextFade(exploded ? 0.2 : 1);
-    if (st.trees) st.trees.visible = exploded || (!cut && !this.s.visit);
+    const c2 = this.s.cevre === 2 && Boolean(st.cevre2);
+    const treesOn = exploded || (!cut && !this.s.visit);
+    // Çevre 1: model site, trees, OSM massing and ground drawing
+    if (st.site) st.site.visible = !c2;
+    if (st.trees) st.trees.visible = !c2 && treesOn;
+    st.context.group.visible = !c2;
+    // Çevre 2: the delivered near and far surroundings
+    if (st.cevre2) {
+      const { site, trees, near, far } = st.cevre2;
+      if (site) site.visible = c2;
+      if (trees) trees.visible = c2 && treesOn;
+      if (near) near.visible = c2;
+      if (far) far.visible = c2 && !this.s.visit;
+    }
     // neighbours stay out of the way of close building views
     st.context.setMassing(this.s.mode === 'surroundings' || exploded ? 1 : cut || this.s.hotspot ? 0.0 : 0.85);
     if (st.context.ground) st.context.ground.visible = true;
@@ -937,17 +1008,17 @@ class App {
     h.textContent = this.s.visit ? t('visitHint') : this.s.mat !== 'off' ? t('matHint') : this.s.plan ? t('planHint') : (this.s.mode === 'exhibitions' && (this.s.explode || this.s.floor !== 'all')) ? t('sectionHint') : t('orbitHint');
   }
 
-  tuneSite() {
+  tuneSite(site = this.stage.site, trees = this.stage.trees) {
     const st = this.stage;
     // the source exports some ground faces with their normals pointing down
-    st.site?.traverse((o) => {
+    site?.traverse((o) => {
       if (!o.isMesh || !/FLOOR_REFERENCE|MOAT_GROUND|TURF|PAVING|GROUND/i.test(o.material.name)) return;
       const n = o.geometry.attributes.normal;
       if (!n) return;
       for (let i = 0; i < n.count; i++) if (n.getY(i) < -0.5) n.setXYZ(i, -n.getX(i), -n.getY(i), -n.getZ(i));
       n.needsUpdate = true;
     });
-    st.trees?.traverse((o) => {
+    trees?.traverse((o) => {
       if (o.isMesh && /BARK|TRUNK/.test(o.material.name)) o.material.color.setHex(0x4a3b2c).convertSRGBToLinear();
     });
     st.renderer.shadowMap.needsUpdate = true;

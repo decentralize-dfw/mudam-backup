@@ -12,6 +12,7 @@ oda gezinti, gerçek zamanlı gün ışığı.
 | --- | --- |
 | `../index.html`, `../demo/app/` | Derlenmiş sayfa ve paketler (elle düzenlenmez) |
 | `../demo/model/` | `building.glb`, `site.glb`, `trees.glb` — Draco + WebP |
+| `../demo/model/cevre2/` | Çevre 2 (R151 web v002): bina, yakın ve uzak çevre — Draco + WebP |
 | `../demo/data/` | Kesit kapakları, odalar, eser yerleşimi, çevre verisi, malzeme parçaları (JSON) |
 | `../demo/art/` | Yer tutucu eser görselleri (WebP, büyük + küçük) |
 | `../demo/context/ground.webp` | OSM'den çizilen vaziyet zemini |
@@ -39,6 +40,27 @@ npm run build   # Vite -> dist, sonra kök index.html + demo/app/
 yerleşimini değiştirirse `art` yeniden çalıştırılmalıdır.
 
 Model güncellendiğinde: `model` → `data` → `art` → `build`.
+
+### Çevre 1 / Çevre 2
+
+Işık panelindeki **Model** düğmesi iki model takımı arasında geçiş yapar
+(bağlantı: `?cevre=2`).
+
+- **Çevre 1** — `current.glb.gz` (R149): bina, model sahası, ağaçlar, OSM
+  çevre kütleleri ve vaziyet çizimi.
+- **Çevre 2** — `12_Blender_Model/exports/r151_web_v002/`: `building.glb`
+  (Mudam), `near_context.glb` (yakın çevre), `far_context.glb` (uzak çevre).
+
+```sh
+npm run model:cevre2   # r151_web_v002 -> demo/model/cevre2/*.glb, demo/data/cevre2.json, pieces-cevre2.json
+npm run build
+```
+
+Çevre 2 binası Çevre 1 ile aynı işlemden geçer (kesit bantları, katlar,
+malzeme katmanları); yakın ve uzak çevre olduğu gibi kalır, yalnız çizim
+çağrıları birleştirilir, dokular WebP, geometri Draco olur. Kesit kapakları,
+odalar ve eser yerleşimi Çevre 1 verisinden gelir. `demo/data/cevre2.json`
+yoksa düğme kaynak dosyaların henüz yayımlanmadığını söyler.
 
 ## Kararlar
 

@@ -72,7 +72,14 @@
   </section>
 
   <section class="light-panel glass" aria-label="Işık">
-    <div class="light-row">
+    <div class="light-row context-row">
+      <span data-i18n="contextModel">Model</span>
+      <div class="context-switch" role="group" data-i18n-label="contextModel">
+        <button type="button" data-cevre="1" aria-pressed="true" data-i18n="cevre1" data-i18n-title="cevre1Title">Çevre 1</button>
+        <button type="button" data-cevre="2" aria-pressed="false" data-i18n="cevre2" data-i18n-title="cevre2Title">Çevre 2</button>
+      </div>
+    </div>
+    <div class="light-row daylight-row">
       <label for="hour" data-i18n="daylight">Gün ışığı</label>
       <output id="hour-out">13:30</output>
     </div>
@@ -87,6 +94,7 @@
       <button id="toggle-lights" class="pill small" aria-pressed="false" data-i18n="interior">İç ışıklar</button>
     </div>
   </section>
+  <p id="notice" class="notice glass" role="status" aria-live="polite" hidden></p>
 
   <p id="hint" class="hint"></p>
 
