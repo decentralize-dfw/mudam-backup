@@ -1,0 +1,24 @@
+{
+  "scene": "MUDAM_R168_DOGU_KAVSAK_ADAY_v002.blend",
+  "ground_samples": 116432,
+  "excluded_unsupported_triangles": 176,
+  "triangles": 38779,
+  "render_offset_m": 0.025,
+  "reopened": true,
+  "accepted": true,
+  "limits": [
+    "Manual corridor outlines approximate, not surveyed kerbs.",
+    "Crossings, lanes, tram median and sidewalks are registered source color on authored terrain-conforming mesh.",
+    "Road elevation follows existing terrain; cars, shadows and vegetation occlusion remain baked in source.",
+    "Corridor ends at available source coverage; wider road network remains incomplete."
+  ],
+  "accepted_scope": "Incremental source-registered corridor surface, not complete road-detail reconstruction",
+  "published": false,
+  "source_comparison": "R168_before.png / R168_after.png against ACT registered overhead source",
+  "resolved": [
+    "Extended isolated junction patch into one connected main boulevard and two northern approach traces.",
+    "Clipped outer coverage to eroded opaque source alpha.",
+    "Excluded 176 triangles lacking existing terrain support rather than filling building cutouts."
+  ],
+  "traced_area_before_unsupported_exclusion_m2": 74426.27664527207
+}

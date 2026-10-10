@@ -1,7 +1,7 @@
 {
   "name": "Context 3",
-  "revision": "R167-southern-roof-rows",
-  "source": "Authored source-derived environment: R166 buildings plus ten southern houses with sampled pitched roofs and source facade color. OSM party-wall footprint gaps corrected. Fine facade relief, occluded source regions, roads and vegetation remain incomplete.",
+  "revision": "R168-source-registered-boulevard",
+  "source": "R167 authored buildings plus terrain-conforming source-registered main boulevard and two northern approaches. Road markings and sidewalks are source color, not separately reconstructed kerbs. Manual outlines and source coverage limit accuracy; vegetation and remaining roads incomplete.",
   "compression": "Draco 24-bit positions; WebP quality 92; original texture resolution",
   "files": {
     "near": {
@@ -252,11 +252,11 @@
     },
     "district": {
       "file": "model/cevre3/authored-district.glb",
-      "bytes": 9873632,
-      "sha256": "7d4b94dda0983a8f63f4c2404fa217769c09d896032831a90f7a7dbf01f36369",
-      "sourceSha256": "465c75281a8aeae4dab6b4834628c0a0742008b36d5eb63a44d61aa895cf2fa4",
-      "triangles": 86005,
-      "sourceTriangles": 86005,
+      "bytes": 11748028,
+      "sha256": "10ccefdccdf56a442ea6a02532123c1ff0c8ee6f02f6e200834340c4d7577a05",
+      "sourceSha256": "76893433e0792530c311fd3f7c485e86ce1e06537fce1b8735d34442f3b5df97",
+      "triangles": 124784,
+      "sourceTriangles": 124784,
       "degenerateRemoved": 0,
       "bounds": {
         "min": [
@@ -265,13 +265,13 @@
           -545.1168823242188
         ],
         "max": [
-          408.1252746582031,
+          408.54486083984375,
           95.75955963134766,
           442.84320068359375
         ]
       },
-      "boundsError": 0.000091552734375,
-      "textures": 6,
+      "boundsError": 0.00006103515625,
+      "textures": 7,
       "instanceTransformsPreserved": true,
       "instances": []
     }

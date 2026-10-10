@@ -1,8 +1,9 @@
 {
-  "active": "Remaining building facade relief and source-derived road boundaries",
-  "production_context": "R167: ten southern houses added to R166; incremental placement/roof release, not full environment acceptance",
+  "active": "Building facade relief and road edge geometry",
+  "production_context": "R168 source-registered boulevard surface on R167 authored buildings; detailed kerbs, remaining roads and vegetation incomplete",
   "automatic_continuation": true,
   "next_actions": [
+    "R168 source color now registers main boulevard and northern approaches; reconstruct independent kerbs and remaining road connections from source, not arbitrary widths.",
     "R167 remaining ground-level facade occlusion and internal party walls; building placement/roof coverage now published.",
     "Correct remaining dark/missing facade projection regions on eastern complex; inspect source before accepting close-up quality.",
     "Reconstruct remaining northern district buildings from source footprints and roofs.",
@@ -12,5 +13,5 @@
   ],
   "completion_claim": false,
   "push_policy": "Normal origin/main push for verified changes, no force/reset, no unrelated files",
-  "last_candidate": "MUDAM_R167_GUNEY_BINALARI_ENTEGRE_v002.blend"
+  "last_candidate": "MUDAM_R168_DOGU_KAVSAK_ADAY_v002.blend"
 }
