@@ -1,7 +1,7 @@
 {
   "name": "Context 3",
-  "revision": "R166-eastern-complex-and-curved-roof",
-  "source": "Authored source-derived buildings including eastern triangular complex and its tower, curved glass-roof building, seven earlier envelopes. Roof levels and facade colors follow ACT reference. Manual outer traces and fine facade relief remain approximate; roads and vegetation incomplete.",
+  "revision": "R167-southern-roof-rows",
+  "source": "Authored source-derived environment: R166 buildings plus ten southern houses with sampled pitched roofs and source facade color. OSM party-wall footprint gaps corrected. Fine facade relief, occluded source regions, roads and vegetation remain incomplete.",
   "compression": "Draco 24-bit positions; WebP quality 92; original texture resolution",
   "files": {
     "near": {
@@ -252,11 +252,11 @@
     },
     "district": {
       "file": "model/cevre3/authored-district.glb",
-      "bytes": 8622436,
-      "sha256": "9eb99e3d51e94c8be44d2900ba52231336bb1dacb181b2e43d1b11b8afc06b26",
-      "sourceSha256": "e43c07813664744f45b6ee585f68de3ed56f7793122778c5638b94469469ae50",
-      "triangles": 75546,
-      "sourceTriangles": 75546,
+      "bytes": 9873632,
+      "sha256": "7d4b94dda0983a8f63f4c2404fa217769c09d896032831a90f7a7dbf01f36369",
+      "sourceSha256": "465c75281a8aeae4dab6b4834628c0a0742008b36d5eb63a44d61aa895cf2fa4",
+      "triangles": 86005,
+      "sourceTriangles": 86005,
       "degenerateRemoved": 0,
       "bounds": {
         "min": [
@@ -271,7 +271,7 @@
         ]
       },
       "boundsError": 0.000091552734375,
-      "textures": 5,
+      "textures": 6,
       "instanceTransformsPreserved": true,
       "instances": []
     }

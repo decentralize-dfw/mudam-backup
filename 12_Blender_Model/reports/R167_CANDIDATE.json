@@ -1,0 +1,101 @@
+{
+  "limitations": [
+    "Clipped grid covers exact OSM outline; OSM/ACT survey alignment not guaranteed.",
+    "Roof interpolation from 0.4m ACT samples; missing edge samples use nearest valid roof sample.",
+    "Separate party-wall surfaces and fine facade relief remain unresolved."
+  ],
+  "scene": "MUDAM_R167_GUNEY_CATILAR_ADAY_v002.blend",
+  "vertices": 5296,
+  "accepted": true,
+  "published": false,
+  "ground_contacts": 1748,
+  "ground_min_overlap": 0.0799999999999983,
+  "wall_stats": [
+    {
+      "id": "106373443",
+      "roof_triangles": 836,
+      "wall_spans": 82,
+      "footprint_uncovered_m2": 0.0,
+      "footprint_area_m2": 62.561289306531044
+    },
+    {
+      "id": "164179140",
+      "roof_triangles": 782,
+      "wall_spans": 80,
+      "footprint_uncovered_m2": 0.0,
+      "footprint_area_m2": 53.6833458403837
+    },
+    {
+      "id": "164179211",
+      "roof_triangles": 1260,
+      "wall_spans": 102,
+      "footprint_uncovered_m2": 0.0,
+      "footprint_area_m2": 94.7523915800734
+    },
+    {
+      "id": "737429337",
+      "roof_triangles": 836,
+      "wall_spans": 82,
+      "footprint_uncovered_m2": 0.0,
+      "footprint_area_m2": 62.5612132276855
+    },
+    {
+      "id": "737429338",
+      "roof_triangles": 836,
+      "wall_spans": 82,
+      "footprint_uncovered_m2": 0.0,
+      "footprint_area_m2": 62.50827079909745
+    },
+    {
+      "id": "1337806222",
+      "roof_triangles": 782,
+      "wall_spans": 80,
+      "footprint_uncovered_m2": 0.0,
+      "footprint_area_m2": 53.663681427088235
+    },
+    {
+      "id": "1337806223",
+      "roof_triangles": 782,
+      "wall_spans": 80,
+      "footprint_uncovered_m2": 0.0,
+      "footprint_area_m2": 53.7091217559536
+    },
+    {
+      "id": "1337806224",
+      "roof_triangles": 782,
+      "wall_spans": 80,
+      "footprint_uncovered_m2": 0.0,
+      "footprint_area_m2": 53.68956080474198
+    },
+    {
+      "id": "1337806225",
+      "roof_triangles": 1260,
+      "wall_spans": 102,
+      "footprint_uncovered_m2": 0.0,
+      "footprint_area_m2": 94.7644579891461
+    },
+    {
+      "id": "1337806226",
+      "roof_triangles": 1320,
+      "wall_spans": 104,
+      "footprint_uncovered_m2": 0.0,
+      "footprint_area_m2": 94.7993069161942
+    }
+  ],
+  "accepted_scope": "Incremental distant-context building placement and roof coverage; not close-up facade fidelity",
+  "source_comparison": [
+    "R167_candidate_south_row.png",
+    "R167_source_south_row.png",
+    "R167_candidate_malterie.png",
+    "R167_source_malterie.png"
+  ],
+  "resolved": [
+    "Raster party-wall gaps: all ten OSM footprints have zero uncovered roof area.",
+    "Broader projection cage recovers previously black upper facade patches."
+  ],
+  "remaining": [
+    "Ground-level source vegetation and missing projected colors remain.",
+    "Separate internal party walls and fine facade relief not resolved.",
+    "Existing terrain, roads and tree placement remain approximate."
+  ]
+}

@@ -1,8 +1,9 @@
 {
-  "active": "Building-by-building reconstruction and facade correction",
-  "production_context": "R166: earlier seven buildings plus eastern triangular complex/tower and oval glass-roof building; incomplete district",
+  "active": "Remaining building facade relief and source-derived road boundaries",
+  "production_context": "R167: ten southern houses added to R166; incremental placement/roof release, not full environment acceptance",
   "automatic_continuation": true,
   "next_actions": [
+    "R167 remaining ground-level facade occlusion and internal party walls; building placement/roof coverage now published.",
     "Correct remaining dark/missing facade projection regions on eastern complex; inspect source before accepting close-up quality.",
     "Reconstruct remaining northern district buildings from source footprints and roofs.",
     "Resolve facade projection streaking and add important measured facade relief.",
@@ -11,5 +12,5 @@
   ],
   "completion_claim": false,
   "push_policy": "Normal origin/main push for verified changes, no force/reset, no unrelated files",
-  "last_candidate": "MUDAM_R166_DOGU_YAPILARI_ENTEGRE_v001.blend"
+  "last_candidate": "MUDAM_R167_GUNEY_BINALARI_ENTEGRE_v002.blend"
 }
