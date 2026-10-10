@@ -646,3 +646,7 @@ R146: Batı kavisli cam cephenin altındaki 18 mevcut taş duvar parçasının 1
 R147: Batı dönüşündeki beş mevcut taş duvar ve alt fuaye merdiven perdesinin toplam 36 nötr yüzüne taş malzemesi ve metrik UV uygulandı. 051/052 merdiven perdesini, 097 batı taş kabuğunu destekler. 2m tane ve 3.2x2.4m derz tekrarı görsel aday; ölçülmüş plak çizelgesi değildir. Geometri ve açıklıklar aynı. Perde dokusu mevcut ışıkta düşük kontrastlı; fiziksel renk/ışık kabulü açık. Ara push yok.
 
 R148: Batı kafenin yaklaşık 288m² mevcut döşemesindeki 33 üst yüze taş malzemesi ve metrik UV uygulandı. Resmî Mudam kafe fotoğrafları CF01/CF02 eklendi; CF01 açık taş zemini ve derzleri gösterir. 3.6m doku tekrarı ve yaklaşık 0.9m modül mevcut görsel adaydır, rölöve değildir. Mobilya/eser üretilmedi; geometri ve açıklıklar birebir aynı. Kullanıcının son talimatı: bu iş bitince birikmiş doğrulanmış çalışmayı push et ve gerçekçi kapsam raporu ver. Genel oran %73.913, panoda %74.
+
+
+2026-10-10 09:23:47 UTC — 57518e0aa83a7e3204ab8c20e7fea223552c3f5c origin/main normal push doğrulandı. Pano, renderlar, raporlar ve üretim betikleri gönderildi; Blender ve arşiv GLB dosyaları yerelde; tek güncel sıkıştırılmış web GLB gönderildi.
+
