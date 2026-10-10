@@ -652,3 +652,7 @@ R148: Batı kafenin yaklaşık 288m² mevcut döşemesindeki 33 üst yüze taş 
 
 
 R149: Üst köprünün mevcut döşemesindeki iki üst yüze komşu taş ailesi ve metrik UV uygulandı; yalnız P05_FLOOR_LP1_BRIDGE değişti. 045 üst dolaşım taşı ve 103 planıyla koşullu malzeme sürekliliği adayıdır. 017/077 taş ailesini destekler; kesin köprü derz çizelgesini kanıtlamaz. 3.6m tekrar/0.9m modül ölçülmüş değildir. Kayıtlı ışıkta kontrast düşük; fiziksel renk kabulü açık. Geometri ve açıklıklar aynı. Kapsam %74; yerel kabul.
+
+
+2026-10-10 09:31:55 UTC — e0308a6ab08338a79d648224beee84852a445cb5 origin/main normal push doğrulandı. Pano, renderlar, raporlar ve üretim betikleri gönderildi; Blender ve arşiv GLB dosyaları yerelde; tek güncel sıkıştırılmış web GLB gönderildi.
+
