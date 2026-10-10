@@ -42,3 +42,9 @@ Desktop.ini
 # Web demo build tooling (the staged output lives in index.html and demo/)
 web/node_modules/
 web/dist/
+
+# Local R151 web packages and intermediate layer binaries
+12_Blender_Model/exports/r151_web*/
+12_Blender_Model/exports/MUDAM_R151_WEB_PAKETI_*.zip
+
+12_Blender_Model/exports/MUDAM_R151_WEB_CLEAN_PAKETI_*.zip
