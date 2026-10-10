@@ -263,3 +263,45 @@ button:focus-visible, select:focus-visible, input:focus-visible, a:focus-visible
   /* the layer list below names the colours; on a phone the 3D labels would cover the parts */
   .marker-layername span { display: none; }
 }
+
+/* ----------------------------------------------------------- walk mode */
+/* the figure in the dock: drag it onto a floor, or click it */
+.pegman { display: inline-flex; align-items: center; gap: 7px; padding: 0 15px 0 11px; touch-action: none; cursor: grab; }
+.pegman svg, .walk-figure svg { width: 17px; height: 17px; fill: currentColor; }
+#app[data-mode='surroundings'] .pegman { display: none; }
+.pegman-ghost { position: fixed; z-index: 90; left: 0; top: 0; width: 34px; height: 34px; margin: -30px 0 0 -17px; pointer-events: none; }
+.pegman-ghost svg { width: 100%; height: 100%; fill: #fff; stroke: #16211c; stroke-width: 1.2; }
+.pegman-ghost::after { content: ''; position: absolute; left: 50%; bottom: -8px; width: 14px; height: 5px; margin-left: -7px; border-radius: 50%; background: rgba(0, 0, 0, 0.3); }
+.pegman-ghost[data-ok='false'] { opacity: 0.4; }
+body.pegman-dragging, body.pegman-dragging * { cursor: grabbing !important; }
+/* while walking: only the way out, the arrows and the light */
+#app[data-walk='true'] .mode-picker, #app[data-walk='true'] .dock, #app[data-walk='true'] .sheet, #app[data-walk='true'] .card,
+#app[data-walk='true'] .wire-toggle, #app[data-walk='true'] .layer-panel { display: none; }
+#app[data-walk='true'] #viewport canvas { cursor: grab; }
+#app[data-walk='true'] #viewport canvas:active { cursor: grabbing; }
+.walk-ui { position: absolute; inset: 0; z-index: 26; pointer-events: none; }
+.walk-bar { position: absolute; left: 50%; transform: translateX(-50%); top: max(var(--gap), env(safe-area-inset-top)); display: flex; align-items: center; gap: 10px; padding: 4px 4px 4px 14px; border-radius: 999px; pointer-events: auto; max-width: calc(100vw - 2 * var(--gap)); }
+.walk-where { font-size: 13px; font-weight: 650; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; min-width: 0; }
+.walk-where small { font-weight: 500; color: var(--muted); margin-left: 6px; }
+.walk-bar .pill { background: var(--ink); color: #fff; min-height: 36px; }
+.walk-pad { position: absolute; left: var(--gap); bottom: max(var(--gap), env(safe-area-inset-bottom)); display: grid; grid-template-columns: repeat(3, 46px); grid-template-rows: repeat(2, 46px); gap: 4px; pointer-events: auto; }
+.walk-pad button { border-radius: 12px; display: grid; place-items: center; touch-action: none; user-select: none; -webkit-user-select: none; }
+.walk-pad button:active { background: var(--ink); color: #fff; }
+.walk-pad svg { width: 20px; height: 20px; fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+.walk-pad [data-walk-direction='forward'] { grid-column: 2; grid-row: 1; }
+.walk-pad [data-walk-direction='left'] { grid-column: 1; grid-row: 2; }
+.walk-pad [data-walk-direction='back'] { grid-column: 2; grid-row: 2; }
+.walk-pad [data-walk-direction='right'] { grid-column: 3; grid-row: 2; }
+#app[data-walk='true'] .hint { bottom: max(var(--gap), env(safe-area-inset-bottom)); }
+@media (max-width: 1100px) {
+  #app[data-walk='true'] .hint { display: none; }
+}
+@media (max-width: 760px) {
+  .pegman span { display: none; }
+  .pegman { padding: 0 12px; }
+  .walk-bar { top: calc(max(var(--gap), env(safe-area-inset-top)) + 56px); }
+  .walk-pad { left: 50%; transform: translateX(-50%); bottom: calc(max(var(--gap), env(safe-area-inset-bottom)) + 104px); grid-template-columns: repeat(3, 54px); grid-template-rows: repeat(2, 54px); }
+}
+/* entering and leaving the walk: a short fade instead of a cut */
+#viewport { transition: opacity 0.24s ease; }
+#app[data-fade='out'] #viewport { opacity: 0; }

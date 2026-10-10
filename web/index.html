@@ -59,6 +59,7 @@
     <button id="toggle-explode" class="pill" aria-pressed="false" data-i18n="explode">Separate floors</button>
     <button id="toggle-materials" class="pill" aria-pressed="false" aria-controls="layer-panel" data-i18n="materials">Separate materials</button>
     <button id="toggle-plan" class="pill" aria-pressed="false" data-i18n="plan">Plan</button>
+    <button id="walk-pegman" class="pill pegman" type="button" aria-label="Walk inside" data-i18n-label="walk" data-i18n-title="walkTitle" title="Drag the figure onto a floor of the building, or click it to start in the Grand Hall"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="4.6" r="2.7"/><path d="M8.7 8.6h6.6c.9 0 1.6.7 1.6 1.6v4.8c0 .5-.4.9-.9.9h-.8l-.6 5.4c-.1.5-.5.9-1 .9h-2.2c-.5 0-.9-.4-1-.9l-.6-5.4h-.8c-.5 0-.9-.4-.9-.9v-4.8c0-.9.7-1.6 1.6-1.6z"/></svg><span data-i18n="walk">Walk inside</span></button>
     <span class="dock-divider"></span>
     <div class="camera-tools">
       <button id="zoom-out" class="icon" data-i18n-label="zoomOut" aria-label="Zoom out">−</button>
@@ -99,6 +100,21 @@
     </div>
   </section>
   <p id="notice" class="notice glass" role="status" aria-live="polite" hidden></p>
+
+  <!-- walking inside: where you are, the way out, arrows for touch -->
+  <section id="walk-ui" class="walk-ui" hidden>
+    <div class="walk-bar glass">
+      <span class="walk-figure"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="4.6" r="2.7"/><path d="M8.7 8.6h6.6c.9 0 1.6.7 1.6 1.6v4.8c0 .5-.4.9-.9.9h-.8l-.6 5.4c-.1.5-.5.9-1 .9h-2.2c-.5 0-.9-.4-1-.9l-.6-5.4h-.8c-.5 0-.9-.4-.9-.9v-4.8c0-.9.7-1.6 1.6-1.6z"/></svg></span>
+      <span id="walk-where" class="walk-where" aria-live="polite"></span>
+      <button id="walk-exit" class="pill" type="button" data-i18n="walkExit">Leave the walk</button>
+    </div>
+    <div class="walk-pad" role="group" aria-label="Walking directions" data-i18n-label="walkPad">
+      <button class="glass" type="button" data-walk-direction="forward" aria-label="Forward" data-i18n-label="walkForward"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M5 12.5 10 7l5 5.5"/></svg></button>
+      <button class="glass" type="button" data-walk-direction="left" aria-label="Left" data-i18n-label="walkLeft"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M12.5 5 7 10l5.5 5"/></svg></button>
+      <button class="glass" type="button" data-walk-direction="back" aria-label="Back" data-i18n-label="walkBack"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M5 7.5 10 13l5-5.5"/></svg></button>
+      <button class="glass" type="button" data-walk-direction="right" aria-label="Right" data-i18n-label="walkRight"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M7.5 5 13 10l-5.5 5"/></svg></button>
+    </div>
+  </section>
 
   <p id="hint" class="hint"></p>
 

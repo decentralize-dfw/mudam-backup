@@ -30,6 +30,7 @@ cd web
 npm ci
 npm run model   # current.glb.gz -> demo/model/*.glb  (birleştirme, sadeleştirme, Draco, WebP)
                 #                 + demo/data/pieces.json (malzeme katmanları)
+                #                 + demo/data/walk.json (yürüme zemini, npm run walk)
 npm run data    # kesitler, odalar, duvarlar, eser yerleşimi, OSM çevresi -> demo/data/
 npm run art     # yer tutucu eser görselleri -> demo/art/
 npm run build   # Vite -> dist, sonra kök index.html + demo/app/
@@ -101,6 +102,14 @@ kapakları, odalar ve eser yerleşimi Çevre 1 verisinden gelir.
   malzemelere ayırma aynı anda, tek hareketle birbirine geçer.
 - **Katları ayır:** katlar 36 / 74 / 116 m kaldırılır; her odada planlardaki
   adını taşıyan dikey bir ok durur (`src/engine/arrows.js`).
+- **İçeride gez:** dock'taki adam bir katın üstüne sürüklenip bırakılır (ya da
+  tıklanır: Büyük Salon'dan başlar); göz hizasında, sürükleyerek bakılır, W A S D
+  / oklar / ekrandaki oklarla yürünür, Shift hızlandırır, Esc çıkar. Zemin
+  `scripts/build-walk.mjs` ile web modelinden çıkarılır: döşemeler katmanının
+  yukarı bakan yüzleri 0,25 m ızgarada ayak kotlarını verir, dizden başa kadar
+  vücudu kesen her şey (duvar, cam, korkuluk, alçak kiriş) o kotu kapatır,
+  omuz payı bir hücre. Merdivenlerle −1, 0 ve +1 birbirine bağlıdır; serbest
+  duran eserler engeldir (`src/engine/walk.js`).
 - **Işık:** Lüksemburg için NOAA güneş konumu (yaz saati dahil), Preetham gökyüzü,
   gökten türetilen ortam ışığı, 4K gölge, GTAO. Ortam kırpılmış katları
   karartmasın diye AO, sahnenin kendi derinliğinden hesaplanır.

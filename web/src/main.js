@@ -10,6 +10,7 @@ import './content/translations.js';
 import { i18n, t, pick } from './i18n.js';
 import { MaterialExplode, LAYERS, LAYER_COLOURS } from './engine/explode.js';
 import { WireMode } from './engine/wire.js';
+import { WalkSurface, Walker } from './engine/walk.js';
 
 const BASE = './demo/';
 const $ = (s, r = document) => r.querySelector(s);
@@ -17,6 +18,8 @@ const $$ = (s, r = document) => [...r.querySelectorAll(s)];
 const rad = (d) => (d * Math.PI) / 180;
 const azimuth = (bearing) => Math.atan2(Math.sin(rad(bearing)), -Math.cos(rad(bearing)));
 const polar = (tilt) => rad(90 - tilt);
+// storey of a height: the nearest floor top (the −1 pavilion counts as −1)
+const storeyOf = (y) => FLOORS.reduce((a, b) => (Math.abs(FLOOR_Y[b] - y) < Math.abs(FLOOR_Y[a] - y) ? b : a));
 const esc = (s) => String(s).replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
 const el = (html) => { const d = document.createElement('div'); d.innerHTML = html.trim(); return d.firstElementChild; };
 
@@ -45,7 +48,7 @@ class App {
   constructor() {
     this.app = $('#app');
     this.stage = new Stage($('#viewport'), BASE);
-    this.s = { mode: 'building', floor: 'all', explode: false, plan: false, hotspot: null, exhibition: null, room: null, artwork: null, visit: false, mat: 'off', wire: false, cevre: 1, hour: 13.5, day: 283, lights: false, lightsAuto: true };
+    this.s = { mode: 'building', floor: 'all', explode: false, plan: false, hotspot: null, exhibition: null, room: null, artwork: null, visit: false, walk: false, mat: 'off', wire: false, cevre: 1, hour: 13.5, day: 283, lights: false, lightsAuto: true };
     this.pointer = { x: 0, y: 0, down: null };
     window.__mudam = this; // QA hook
     window.THREE = THREE;
@@ -72,6 +75,7 @@ class App {
     this.stage.arrows.init(this.data.rooms.rooms);
     await this.stage.artworks.init(this.data.artworks, this.roomsById);
     this.orderArtworks();
+    this.walkReady = this.initWalk();
     // material layers: patch the visible building band, then the trails
     this.mx = new MaterialExplode(this.stage.scene);
     this.stage.building.addHook(this.mx.hook);
@@ -93,7 +97,7 @@ class App {
     this.stage.rig.setPose(this.poseOf(HOME.building));
     this.stage.start();
     addEventListener('resize', () => this.updateInsets());
-    this.stage.frameHooks.add(() => this.frame());
+    this.stage.frameHooks.add((now) => this.frame(now));
     this.app.dataset.ready = 'true';
     document.title = t('docTitle');
     const deep = this.readHash();
@@ -143,6 +147,221 @@ class App {
     }
     w.tint(st.arrows.material);
     if (this.mx.arcLines) for (const line of [...Object.values(this.mx.arcLines), this.mx.baseLine]) w.tint(line.material);
+  }
+
+  // ------------------------------------------------------- walk inside
+  // Drop the figure on a floor (or click it) and walk through the building
+  // at eye height: demo/data/walk.json says where one can stand.
+  async initWalk() {
+    try {
+      const data = await fetch(`${BASE}data/walk.json`).then((r) => r.json());
+      this.surface = new WalkSurface(data);
+      // nobody walks through a plinth or a sculpture
+      for (const a of this.stage.artworks.items) {
+        if (a.kind === 'wall') continue;
+        const r = a.kind === 'plinth' || a.kind === 'vitrine' ? Math.min(1.2, a.w * 0.6) / 2 : THREE.MathUtils.clamp(a.h * 0.42, 0.6, 1.1);
+        this.surface.block(a.pos[0], a.pos[2], a.floorY, r + 0.25);
+      }
+      this.walker = new Walker(this.stage, this.surface);
+      this.walker.bindPad($$('[data-walk-direction]'));
+    } catch (e) {
+      console.warn('walk.json', e);
+      $('#walk-pegman').hidden = true;
+    }
+  }
+
+  bindPegman() {
+    const button = $('#walk-pegman');
+    let ghost = null, start = null;
+    const move = (e) => {
+      if (!ghost) {
+        if (Math.hypot(e.clientX - start.x, e.clientY - start.y) < 6) return;
+        ghost = el(`<div class="pegman-ghost">${button.querySelector('svg').outerHTML}</div>`);
+        document.body.append(ghost);
+        document.body.classList.add('pegman-dragging');
+      }
+      ghost.style.transform = `translate(${e.clientX}px, ${e.clientY}px)`;
+      ghost.dataset.ok = String(Boolean(this.dropPoint(e.clientX, e.clientY)));
+    };
+    const end = (e) => {
+      removeEventListener('pointermove', move);
+      removeEventListener('pointerup', end);
+      removeEventListener('pointercancel', end);
+      document.body.classList.remove('pegman-dragging');
+      const dragged = Boolean(ghost);
+      ghost?.remove(); ghost = null;
+      if (e.type !== 'pointerup') return;
+      // a click starts in the Grand Hall (or the largest room of the floor in view)
+      if (!dragged) { this.enterWalk(); return; }
+      const at = this.dropPoint(e.clientX, e.clientY);
+      if (at) this.enterWalk(at);
+      else if (e.target === this.stage.renderer.domElement) this.notify(t('walkDropInside'));
+    };
+    button.addEventListener('pointerdown', (e) => {
+      if (e.button !== 0) return;
+      e.preventDefault();
+      start = { x: e.clientX, y: e.clientY };
+      addEventListener('pointermove', move);
+      addEventListener('pointerup', end);
+      addEventListener('pointercancel', end);
+    });
+    // keyboard (Enter, Space): no pointer events, only the click
+    button.addEventListener('click', (e) => { if (e.detail === 0) this.enterWalk(); });
+  }
+
+  // Where the figure would land under the pointer: [x, floor height, z] on
+  // a walkable floor in view (below the cut), or null.
+  dropPoint(clientX, clientY) {
+    if (!this.surface || this.s.walk || this.s.visit || this.s.explode || this.s.mat !== 'off' || this.s.mode === 'surroundings') return null;
+    const b = this.stage.building;
+    if (b.moving || b.state === 'explode') return null;
+    const r = this.stage.renderer.domElement.getBoundingClientRect();
+    if (clientX < r.left || clientX > r.right || clientY < r.top || clientY > r.bottom) return null;
+    const { ray } = this.stage.pointer({ clientX, clientY });
+    const cut = b.state === 'all' ? null : b.state;
+    const top = cut ? CUTS[cut] : 30, bottom = cut ? FLOOR_Y[cut] - 0.8 : -7;
+    if (ray.direction.y > -0.05) return null;
+    // march down the ray; land where it first passes a standing height
+    const p = ray.origin.clone().addScaledVector(ray.direction, (top - ray.origin.y) / ray.direction.y);
+    const step = ray.direction.clone().multiplyScalar(0.08);
+    let prevY = p.y;
+    while (p.y > bottom) {
+      p.add(step);
+      const h = this.surface.below(p.x, p.z, Math.min(top, prevY));
+      if (h !== null && h >= p.y && h >= bottom) return [p.x, h, p.z];
+      prevY = p.y;
+    }
+    if (!cut) return null;
+    // over a cut wall: the floor beside it
+    const hit = ray.origin.clone().addScaledVector(ray.direction, (FLOOR_Y[cut] - ray.origin.y) / ray.direction.y);
+    return this.surface.nearest(hit.x, hit.z, FLOOR_Y[cut], 1.2);
+  }
+
+  // The way to face on arrival: the way the view was looking, turned toward
+  // the most open direction (not into the nearest wall).
+  openYaw([x, h, z]) {
+    const dir = this.stage.rig.camera.getWorldDirection(new THREE.Vector3());
+    const preferred = Math.atan2(-dir.x, -dir.z);
+    const depth = (yaw) => {
+      for (let d = 0.25; d <= 14; d += 0.25) if (this.surface.sample(x - Math.sin(yaw) * d, z - Math.cos(yaw) * d, h, 0.45) === null) return d - 0.25;
+      return 14;
+    };
+    let best = preferred, score = -Infinity;
+    for (let i = 0; i < 48; i++) {
+      const a = (i / 48) * Math.PI * 2, yaw = preferred + a;
+      const v = depth(yaw) * 0.5 + depth(yaw - 0.3) * 0.25 + depth(yaw + 0.3) * 0.25 + 2.5 * Math.cos(a);
+      if (v > score) { score = v; best = yaw; }
+    }
+    return best;
+  }
+
+  async enterWalk(at = null) {
+    await this.walkReady;
+    if (!this.walker || this.s.walk) return;
+    if (!at) {
+      const floor = FLOORS.includes(this.s.floor) && !this.s.explode && this.s.mat === 'off' ? this.s.floor : 'L00';
+      const room = floor === 'L00' ? this.roomsById.get('grand-hall')
+        : this.data.rooms.rooms.filter((r) => r.floor === floor && r.kind !== 'link').sort((a, b) => area(b) - area(a))[0];
+      at = room && this.surface.nearest(room.anchor[0], room.anchor[1], room.y, 4);
+      if (!at) return;
+    }
+    const yaw = this.openYaw(at);
+    if (!(await this.leaveMaterials())) return;
+    if (this.s.visit) await this.leaveVisit(false);
+    if (this.s.wire) this.setWire(false);
+    this.s.walk = true;
+    this.s.explode = false; this.s.floor = 'all';
+    this.s.plan = false; this.stage.rig.setPlan(false);
+    this.s.hotspot = null; this.s.room = null; this.s.artwork = null;
+    this.closeCard(true);
+    FLOORS.forEach((f) => this.stage.artworks.load(f));
+    await this.fade(async () => {
+      $('#walk-ui').hidden = false;
+      this.stage.building.walking = true;
+      this.syncControls();
+      this.applyVisibility();
+      this.renderMarkers();
+      this.updateInsets();
+      this.updateHint();
+      this.stage.building.setState('all', this.stage.tweens, 0);
+      const rig = this.stage.rig;
+      rig.mode = 'persp';
+      rig.orbit.enabled = false;
+      rig.look.enabled = false;
+      rig.fovFor = (w, h) => this.walker.fov(w, h);
+      rig.resize(rig.width, rig.height);
+      this.walkFloor = null; this.walkWhere = null; this.shadowAt = null;
+      this.walker.arrive(at, yaw, this.stage.tweens).then((done) => { if (done && this.s.walk) this.walkMoved(true); });
+      this.walkMoved(true);
+    });
+  }
+
+  async leaveWalk(refly = true) {
+    if (!this.s.walk) return;
+    const w = this.walker;
+    const p = w.camera.position.clone(), floor = storeyOf(w.foot), yaw = w.yaw;
+    w.stop();
+    this.stage.tweens.run('camera', 0, () => {});
+    await this.fade(async () => {
+      this.s.walk = false;
+      this.stage.building.walking = false;
+      $('#walk-ui').hidden = true;
+      const rig = this.stage.rig;
+      rig.fovFor = null;
+      rig.useOrtho();
+      rig.resize(rig.width, rig.height);
+      if (refly) { this.s.floor = floor; this.s.explode = false; }
+      this.syncControls();
+      this.applyVisibility();
+      this.renderMarkers();
+      this.updateInsets();
+      this.updateHint();
+      this.placeRoomLights(this.s.floor);
+      if (!refly) return;
+      // back out over the spot, on the storey that was walked
+      this.stage.artworks.load(floor);
+      const target = new THREE.Vector3(p.x, FLOOR_Y[floor], p.z);
+      rig.setPose({ target, azimuth: yaw, polar: polar(40), zoom: 6 });
+      this.focusShadows(target, 1.6);
+      this.stage.building.setState(floor, this.stage.tweens, 900);
+      rig.flyTo({ target, azimuth: yaw, polar: polar(52), zoom: 1.6 }, 1100);
+    });
+    this.writeHash();
+  }
+
+  // Fade the view out, change it, fade it back in.
+  fade(change) {
+    if (matchMedia('(prefers-reduced-motion: reduce)').matches) return change();
+    this.app.dataset.fade = 'out';
+    return new Promise((resolve) => setTimeout(async () => {
+      try { await change(); } finally {
+        this.stage.dirty = true;
+        requestAnimationFrame(() => { this.app.dataset.fade = 'in'; resolve(); });
+      }
+    }, 240));
+  }
+
+  // While walking: which room, which storey, lights and shadows nearby.
+  walkMoved(force = false) {
+    const w = this.walker, p = w.camera.position, foot = w.foot;
+    const floor = storeyOf(foot);
+    if (force || floor !== this.walkFloor) { this.walkFloor = floor; this.placeRoomLights(floor); }
+    if (force || !this.shadowAt || this.shadowAt.distanceTo(p) > 12) {
+      this.shadowAt = p.clone();
+      this.focusShadows(p, 1);
+      this.stage.renderer.shadowMap.needsUpdate = true;
+    }
+    let room = null;
+    for (const r of this.data.rooms.rooms) {
+      if (Math.abs(r.y - foot) > 1.8 || !inside(r.polygon, p.x, p.z)) continue;
+      if (!room || Math.abs(r.y - foot) < Math.abs(room.y - foot)) room = r;
+    }
+    const key = `${room?.id}|${floor}|${i18n.lang}`;
+    if (!force && key === this.walkWhere) return;
+    this.walkWhere = key;
+    $('#walk-where').innerHTML = room
+      ? `<span lang="fr">${esc(room.label)}</span><small>${esc(t('floorName' + room.floor))}</small>`
+      : `<span>${esc(t('floorName' + floor))}</span>`;
   }
 
   // ------------------------------------------------ Çevre 1 / Çevre 2
@@ -229,6 +448,8 @@ class App {
     $$('#layer-panel [data-mat]').forEach((b) => b.addEventListener('click', () => this.setMaterials(b.dataset.mat)));
     $$('[data-cevre]').forEach((b) => b.addEventListener('click', () => this.setCevre(Number(b.dataset.cevre))));
     $('#toggle-wire').addEventListener('click', () => this.setWire(!this.s.wire));
+    this.bindPegman();
+    $('#walk-exit').addEventListener('click', () => this.leaveWalk());
     $('#zoom-in').addEventListener('click', () => this.zoomBy(1.35));
     $('#zoom-out').addEventListener('click', () => this.zoomBy(1 / 1.35));
     $('#recentre').addEventListener('click', () => this.recentre());
@@ -246,6 +467,8 @@ class App {
     addEventListener('keydown', (e) => {
       if (e.target.closest?.('input,select,textarea')) return;
       if (e.key === 'Escape') this.back();
+      // while walking the arrows walk
+      if (this.s.walk) return;
       if (e.key === 'ArrowRight') this.step(1);
       if (e.key === 'ArrowLeft') this.step(-1);
     });
@@ -282,6 +505,7 @@ class App {
     this.renderMarkers();
     this.renderLayerList();
     if (this.s.mode === 'exhibitions') this.renderSheet();
+    if (this.s.walk) this.walkMoved(true);
     if (this.s.artwork) this.renderArtworkCard();
     else if (this.s.room) this.renderRoomCard();
     else if (this.s.hotspot) this.renderHotspotCard();
@@ -291,6 +515,7 @@ class App {
   // --------------------------------------------------------------- modes
   async setMode(mode, { fly = true } = {}) {
     const prev = this.s.mode;
+    if (this.s.walk) await this.leaveWalk(false);
     if (!(await this.leaveMaterials())) return;
     this.s.mode = mode;
     this.app.dataset.mode = mode;
@@ -327,6 +552,7 @@ class App {
 
   async setFloor(floor) {
     if (this.s.mode === 'surroundings') return;
+    if (this.s.walk) await this.leaveWalk(false);
     // the layers return while the storeys move: one motion, no wait
     if (this.s.mat !== 'off' && !this.s.visit) this.setMaterials('off', { fly: false });
     if (this.s.visit) await this.leaveVisit(false);
@@ -346,6 +572,7 @@ class App {
   }
 
   async setExplode(on) {
+    if (this.s.walk) await this.leaveWalk(false);
     // the layers return while the storeys move: one motion, no wait
     if (this.s.mat !== 'off' && !this.s.visit) this.setMaterials('off', { fly: false });
     if (this.s.visit) await this.leaveVisit(false);
@@ -364,6 +591,7 @@ class App {
 
   async setPlan(on) {
     if (this.s.mode === 'surroundings') return;
+    if (this.s.walk) await this.leaveWalk(false);
     // the layers return while the storeys move: one motion, no wait
     if (this.s.mat !== 'off' && !this.s.visit) this.setMaterials('off', { fly: false });
     if (this.s.visit) await this.leaveVisit(false);
@@ -390,6 +618,7 @@ class App {
   // ------------------------------------------------- material layers
   async setMaterials(mode, { fly = true } = {}) {
     if (!this.mx) return;
+    if (this.s.walk && mode !== 'off') await this.leaveWalk(false);
     if (mode !== 'off' && this.s.mode !== 'building') {
       this.s.mode = 'building'; this.app.dataset.mode = 'building';
       $$('.mode-picker button').forEach((b) => b.setAttribute('aria-pressed', String(b.dataset.mode === 'building')));
@@ -457,6 +686,7 @@ class App {
     $$('[data-cevre]').forEach((b) => b.setAttribute('aria-pressed', String(Number(b.dataset.cevre) === this.s.cevre)));
     $('#toggle-plan').setAttribute('aria-pressed', String(this.s.plan));
     this.app.dataset.visit = String(this.s.visit);
+    this.app.dataset.walk = String(this.s.walk);
   }
 
   // What is drawn in each state: context, trees, room tints, plan dots.
@@ -499,7 +729,7 @@ class App {
     st.scene.background = this.s.visit ? null : st.daylight.backgroundColor(new THREE.Color());
     if (this.s.visit) { st.scene.background = new THREE.Color(0xdfe3e1); }
     // rooms under glass are bright at midday: expose for the walls, not the sky
-    st.renderer.toneMappingExposure = this.s.visit ? 0.8 : 1.0;
+    st.renderer.toneMappingExposure = this.s.visit ? 0.8 : this.s.walk ? 0.9 : 1.0;
     if (this.wire?.amount > 0) this.wire.apply();
     st.dirty = true;
   }
@@ -510,7 +740,7 @@ class App {
     this.stage.dirty = true;
     const m = this.stage.markers;
     m.clear();
-    if (this.s.visit) return;
+    if (this.s.visit || this.s.walk) return;
     if (this.s.mat !== 'off' && this.mx?.anchors) {
       LAYERS.forEach((l, i) => {
         const it = m.add({
@@ -599,6 +829,7 @@ class App {
   hotspots() { return this.s.mode === 'surroundings' ? SURROUNDING_HOTSPOTS : BUILDING_HOTSPOTS; }
 
   async openHotspot(id) {
+    if (this.s.walk) await this.leaveWalk(false);
     if (!(await this.leaveMaterials())) return;
     const list = this.hotspots();
     const h = list.find((x) => x.id === id);
@@ -701,6 +932,7 @@ class App {
   }
 
   async listExhibitions() {
+    if (this.s.walk) await this.leaveWalk(false);
     if (this.s.visit) await this.leaveVisit(false);
     this.s.exhibition = null; this.s.room = null; this.s.artwork = null;
     this.closeCard(true);
@@ -713,6 +945,7 @@ class App {
   async openExhibition(id, { fly = true } = {}) {
     const ex = EXHIBITIONS.find((e) => e.id === id);
     if (!ex) return;
+    if (this.s.walk) await this.leaveWalk(false);
     if (this.s.mode !== 'exhibitions') { this.s.mode = 'exhibitions'; this.app.dataset.mode = 'exhibitions'; $$('.mode-picker button').forEach((b) => b.setAttribute('aria-pressed', String(b.dataset.mode === 'exhibitions'))); $('#sheet').hidden = false; this.updateInsets(); }
     if (this.s.visit) await this.leaveVisit(false);
     this.s.exhibition = id; this.s.room = null; this.s.artwork = null;
@@ -751,6 +984,7 @@ class App {
   async openRoom(id) {
     const room = this.roomsById.get(id);
     if (!room) return;
+    if (this.s.walk) await this.leaveWalk(false);
     if (!(await this.leaveMaterials())) return;
     const ex = this.exhibitionOfRoom.get(id);
     if (this.s.visit) await this.leaveVisit(false);
@@ -809,6 +1043,7 @@ class App {
   async openArtwork(id) {
     const a = this.stage.artworks.byId.get(id);
     if (!a) return;
+    if (this.s.walk) await this.leaveWalk(false);
     if (!(await this.leaveMaterials())) return;
     const room = this.roomsById.get(a.room);
     const ex = this.exhibitionOfRoom.get(a.room);
@@ -905,6 +1140,7 @@ class App {
   back() {
     if (!$('#lightbox').hidden) { $('#lightbox').hidden = true; return; }
     if (!$('#about').hidden) { $('#about').hidden = true; return; }
+    if (this.s.walk) return this.leaveWalk();
     if (this.s.artwork) return this.openRoom(this.s.room);
     if (this.s.room) { this.closeCard(); return; }
     if (this.s.hotspot) { this.closeCard(); return; }
@@ -950,6 +1186,7 @@ class App {
 
   // -------------------------------------------------------------- picking
   click(e) {
+    if (this.s.walk) return;
     const ray = this.stage.pointer(e);
     if (this.s.visit) {
       const a = this.stage.artworks.pick(ray, FLOORS);
@@ -1027,8 +1264,9 @@ class App {
     const f = FLOORS.includes(floor) ? floor : 'L00';
     const rooms = this.data.rooms.rooms.filter((r) => r.floor === f && r.kind !== 'link')
       .sort((a, b) => (artwork && b.id === artwork.room) - (artwork && a.id === artwork.room) || area(b) - area(a));
-    const on = this.s.lights || this.s.visit;
-    const level = this.s.visit ? (this.s.lights ? 0.7 : 0.3) : (this.s.lights ? 1 : 0);
+    const near = this.s.visit || this.s.walk;
+    const on = this.s.lights || near;
+    const level = near ? (this.s.lights ? 0.7 : 0.3) : (this.s.lights ? 1 : 0);
     lights.forEach((l, i) => {
       const r = rooms[i];
       if (!r || !on) { l.intensity = 0; return; }
@@ -1050,7 +1288,7 @@ class App {
 
   // -------------------------------------------------------------- camera
   zoomBy(k) {
-    if (this.s.visit) return;
+    if (this.s.visit || this.s.walk) return;
     const p = this.stage.rig.pose();
     this.stage.rig.flyTo({ ...p, zoom: THREE.MathUtils.clamp(p.zoom * k, 0.12, 40) }, 350);
   }
@@ -1067,7 +1305,8 @@ class App {
 
   updateHint() {
     const h = $('#hint');
-    h.textContent = this.s.visit ? t('visitHint') : this.s.mat !== 'off' ? t('matHint') : this.s.plan ? t('planHint') : (this.s.mode === 'exhibitions' && (this.s.explode || this.s.floor !== 'all')) ? t('sectionHint') : t('orbitHint');
+    const touch = matchMedia('(pointer: coarse)').matches;
+    h.textContent = this.s.walk ? t(touch ? 'walkHintTouch' : 'walkHint') : this.s.visit ? t('visitHint') : this.s.mat !== 'off' ? t('matHint') : this.s.plan ? t('planHint') : (this.s.mode === 'exhibitions' && (this.s.explode || this.s.floor !== 'all')) ? t('sectionHint') : t('orbitHint');
   }
 
   tuneSite(site = this.stage.site, trees = this.stage.trees) {
@@ -1087,7 +1326,8 @@ class App {
     st.dirty = true;
   }
 
-  frame() {
+  frame(now) {
+    if (this.walker?.update(now)) this.walkMoved();
     this.mx?.update(this.stage.rig.camera);
     // shadows follow the building while it moves
     if (this.stage.building.moving || this.stage.tweens.active) this.stage.renderer.shadowMap.needsUpdate = true;
@@ -1132,6 +1372,15 @@ class App {
     history.replaceState(null, '', `#${h}`);
     setTimeout(() => { this.ignoreHash = false; }, 0);
   }
+}
+
+function inside(polygon, x, z) {
+  let c = false;
+  for (let i = 0, j = polygon.length - 1; i < polygon.length; j = i++) {
+    const [xi, zi] = polygon[i], [xj, zj] = polygon[j];
+    if ((zi > z) !== (zj > z) && x < ((xj - xi) * (z - zi)) / (zj - zi) + xi) c = !c;
+  }
+  return c;
 }
 
 function area(r) {

@@ -74,7 +74,8 @@ export class Rig {
     }
     this.ortho.updateProjectionMatrix();
     this.persp.aspect = fw / fh;
-    this.persp.fov = w / h < 0.8 ? 68 : 52;
+    // the walk holds its own field of view (engine/walk.js)
+    this.persp.fov = this.fovFor ? this.fovFor(fw, fh) : w / h < 0.8 ? 68 : 52;
     this.persp.updateProjectionMatrix();
     this.onResize?.();
   }

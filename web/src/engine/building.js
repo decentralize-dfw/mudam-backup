@@ -267,7 +267,8 @@ export class Building {
     for (const f of FLOORS) {
       const g = this.floorGroups[f];
       const explode = this.state === 'explode';
-      g.visible = explode || this.state === f || this.visitFloor === f;
+      // walking inside, every storey's works are there
+      g.visible = explode || this.state === f || this.visitFloor === f || this.walking;
       g.position.y = explode ? this.bands[FLOOR_BAND[f]].s.dy : 0;
     }
     this.renderer.shadowMap.needsUpdate = true;
