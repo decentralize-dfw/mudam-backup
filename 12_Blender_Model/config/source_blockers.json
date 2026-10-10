@@ -1,0 +1,56 @@
+{
+  "as_of_scene": "R128",
+  "user_information_requested": true,
+  "items": [
+    {
+      "id": "A10_SIDE_WINDOWS",
+      "tasks": [
+        "P08",
+        "P14"
+      ],
+      "missing": "065 fotoğrafındaki iki yan alt pencerenin güvenilir duvar üzeri konumu ve kotu",
+      "evidence": [
+        "065",
+        "A10_YAN_PENCERE_ETUDU.md",
+        "A10_side_window_study.json"
+      ],
+      "needed": "Pencereleri gösteren cephe çizimi veya planla eşlenebilen bağımsız fotoğraf/ölçü",
+      "state": "awaiting_source",
+      "geometry_action": "Eski reddedilmiş kamera uyumuyla duvara delik açılmayacak."
+    },
+    {
+      "id": "ADMIN_ROOMS",
+      "tasks": [
+        "P05",
+        "P07",
+        "P08"
+      ],
+      "missing": "İdari odaların duvar, kapı ve kat sınırları",
+      "evidence": [
+        "083",
+        "R89_EK_KAPSAM_KONTROLU.md"
+      ],
+      "needed": "083 paftasının okunabilir sürümü veya idari bölge planı/kesiti",
+      "state": "awaiting_source",
+      "geometry_action": "Düşük çözünürlüklü paftadan iç bölme uydurulmayacak."
+    },
+    {
+      "id": "LOWER_TECHNICAL_LEVEL",
+      "tasks": [
+        "P02",
+        "P04",
+        "P05",
+        "P07"
+      ],
+      "missing": "İkinci teknik alt katın yatay sınırları ve kat bağlantıları",
+      "evidence": [
+        "101",
+        "R89_EK_KAPSAM_KONTROLU.md"
+      ],
+      "needed": "Teknik alt kat planı ile buna karşılık gelen okunabilir kesit",
+      "state": "awaiting_source",
+      "geometry_action": "Tek kesit izinden bütün kat planı türetilmeyecek."
+    }
+  ],
+  "scope": "Bu üç üretim maddesinin kaynak ihtiyacıdır; diğer işlerin bittiği anlamına gelmez."
+}

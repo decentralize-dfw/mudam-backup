@@ -589,3 +589,5 @@ R128: Okuma odasının eğimli örtüsü ile doğu odasının düz örtüsü ara
 
 2026-10-10 01:45:55 UTC — b448b8e2ddb9d821d24a8ed2f66377a7edc2c208 origin/main normal push doğrulandı. Pano, renderlar, raporlar ve üretim betikleri gönderildi; Blender ve arşiv GLB dosyaları yerelde; tek güncel sıkıştırılmış web GLB gönderildi.
 
+
+P21 aktarım: R128 geometrisi ve 8.477 parça değişmeden yinelenen buffer blokları paylaşıldı. Ham GLB 91.415.240 → 81.686.612 bayt; gzip 54.619.398 → 52.537.621 bayt. 12.532 veri görünümünün baytları birebir korundu. Mimari üretim artışı değildir; yüzde değişmedi. Sonraki saatlik yayına dahil.

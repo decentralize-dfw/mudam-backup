@@ -11,6 +11,12 @@ for ob in bpy.context.scene.objects:
 out=B/'exports'/f"{Path(r['file']).stem}_preview.glb";out.parent.mkdir(exist_ok=True)
 if out.exists():raise RuntimeError('Export version exists')
 bpy.ops.export_scene.gltf(filepath=str(out),export_format='GLB',use_selection=True,export_apply=True,export_extras=True,export_cameras=False,export_lights=False,export_yup=True)
+from compact_glb_buffers import compact,verify
+raw=out.read_bytes();packed,optimization=compact(raw)
+if len(packed)<len(raw):
+    original=out;out=out.with_name(out.stem+'_compact.glb');assert not out.exists();out.write_bytes(packed);verify(raw,out.read_bytes())
+    optimization.update(source=original.relative_to(R).as_posix(),file=out.relative_to(R).as_posix())
+    (B/'reports/P21_buffer_optimization.json').write_text(json.dumps(optimization,indent=2)+'\n',encoding='utf8')
 minimum=[min(p[i] for p in bounds) for i in range(3)];maximum=[max(p[i] for p in bounds) for i in range(3)]
 result=dict(source_scene=r['file'],file=out.relative_to(R).as_posix(),selected_mesh_count=len(selected),selected_names=selected,blender_world_bounds=dict(min=minimum,max=maximum),format='glTF 2.0 binary; meters; Y-up',limitations=['Checkpoint geometry only, not a finished museum model.','Generic sky lighting is not embedded in GLB. Material response depends on viewer support for transmission.','Element IDs retained; optimization and target engine review remain open.'],construction_acceptance=False)
 (B/'reports/P21_export_report.json').write_text(json.dumps(result,indent=2),encoding='utf8');print('P21_EXPORTED',out,len(selected))
