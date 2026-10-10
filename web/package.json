@@ -1,0 +1,25 @@
+{
+  "name": "mudam-vx-demo",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "model": "node scripts/build-model.mjs",
+    "data": "python3 -I scripts/prepare_data.py",
+    "art": "python3 -I scripts/make_artworks.py",
+    "build": "vite build && node scripts/stage.mjs"
+  },
+  "dependencies": {
+    "@fontsource-variable/hanken-grotesk": "^5.2.8",
+    "three": "0.180.0"
+  },
+  "devDependencies": {
+    "@gltf-transform/core": "4.2.1",
+    "@gltf-transform/extensions": "4.2.1",
+    "@gltf-transform/functions": "4.2.1",
+    "draco3dgltf": "1.5.7",
+    "meshoptimizer": "0.22.0",
+    "sharp": "0.34.3",
+    "vite": "7.1.3"
+  }
+}

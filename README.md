@@ -2,6 +2,10 @@
 
 Mudam mimari referans arşivi, OSM ile hizalanmış planlar, fotoğraf konum atlası ve ayrıntılı Blender modelleme planı.
 
+## Sanal deneyim demosu
+
+Sitenin kökü ([`index.html`](index.html)) Mudam Virtual Experience demosunu açar: **Çevre · Bina · Sergiler**. Bina kat kat kesilir, kesilen duvarlar taranır, katlar ayrılır; plan ve izometrik kesitte oda oda, birinci şahıs görünümünde eser eser gezilir; gün ışığı ve iç ışıklar değiştirilebilir. Güncel sergiler (10 Ekim 2026): alt katta *Video Killed the Radio Star*, pavyonda *Christine Sun Kim: FOR EVER*, zemin ve üst katta *Kaihō: Japanese Women Artists after 1945*. Duvarlardaki görseller yer tutucudur. Kaynak, model/veri üretimi ve derleme: [`web/README.md`](web/README.md).
+
 ## Başlangıç
 
 - [Kaynak ve görsel kataloğu](KATALOG.html)
