@@ -1,0 +1,27 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R146_BATI_KAVIS_TAS_KAPLAMA_v001.blend",
+  "reviewed_images": [
+    {
+      "path": "12_Blender_Model/renders/qa/R146_before_curve.png",
+      "sha256": "a0a16aa2d441ec17d6b18c3157d65e561279650e45550377425786c716754334"
+    },
+    {
+      "path": "12_Blender_Model/renders/qa/R146_after_curve.png",
+      "sha256": "a0eb4a5611b9ceaba3b75a8676b242c682a32cbe71a7063a9a508c9ec13d60f0"
+    },
+    {
+      "path": "12_Blender_Model/renders/qa/R146_before_curve_low_exposure.png",
+      "sha256": "8cc4babae668335dc12c3b9bcc5e336cc8ff6371dc874c1a7a5e115ed1bcac6b"
+    },
+    {
+      "path": "12_Blender_Model/renders/qa/R146_after_curve_low_exposure.png",
+      "sha256": "8201bf859635f014c72afd0eb8d98e28d302c21927819236eaa87b0fd9d9cea2"
+    },
+    {
+      "path": "12_Blender_Model/renders/qa/R146_diagnostic_curve.png",
+      "sha256": "cb6693890525dc738790f06742062708414093bfa9c9ae786275be2540b84caa"
+    }
+  ],
+  "failures": [],
+  "scope": "Same camera before/after at saved exposure -0.6 and inspection-only -2.6. Texture phase continuous; 34 shared edge samples also verified. Unlit emission diagnostic establishes texture on the visible band; it is not the saved shader. Existing daylight compresses contrast; physical colour and lighting calibration remain open."
+}

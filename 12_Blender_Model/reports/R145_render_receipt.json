@@ -1,0 +1,63 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R145_KUZEY_BATI_TAS_YUZEYLER_v001.blend",
+  "images": [
+    {
+      "image": "12_Blender_Model/renders/qa/R145_before_north.png",
+      "phase": "before",
+      "eye": [
+        -7.710463523864746,
+        -12.642912864685059,
+        5.0
+      ],
+      "target": [
+        1.3677608966827393,
+        -3.3902852535247803,
+        4.0
+      ]
+    },
+    {
+      "image": "12_Blender_Model/renders/qa/R145_before_west.png",
+      "phase": "before",
+      "eye": [
+        -46.470176696777344,
+        26.423389434814453,
+        5.0
+      ],
+      "target": [
+        -37.89522171020508,
+        17.201677322387695,
+        3.0
+      ]
+    },
+    {
+      "image": "12_Blender_Model/renders/qa/R145_after_north.png",
+      "phase": "after",
+      "eye": [
+        -7.710463523864746,
+        -12.642912864685059,
+        5.0
+      ],
+      "target": [
+        1.3677608966827393,
+        -3.3902852535247803,
+        4.0
+      ]
+    },
+    {
+      "image": "12_Blender_Model/renders/qa/R145_after_west.png",
+      "phase": "after",
+      "eye": [
+        -46.470176696777344,
+        26.423389434814453,
+        5.0
+      ],
+      "target": [
+        -37.89522171020508,
+        17.201677322387695,
+        3.0
+      ]
+    }
+  ],
+  "all_active_surroundings": true,
+  "lighting_unchanged": true
+}

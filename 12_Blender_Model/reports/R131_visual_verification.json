@@ -1,0 +1,23 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R131_KABUK_MALZEME_SUREKLILIGI_v001.blend",
+  "reviewed_images": [
+    {
+      "path": "12_Blender_Model/renders/qa/R131_before_SS6_bridge.png",
+      "sha256": "54ee475e51049ed7cb3c48122f86a84617626a2f005eb6b27234781f862ab414"
+    },
+    {
+      "path": "12_Blender_Model/renders/qa/R131_before_SS1_exterior.png",
+      "sha256": "638145894b660b0435b99d72b9db952821f514c13854591a5d6a766ea38f7dcd"
+    },
+    {
+      "path": "12_Blender_Model/renders/qa/R131_after_SS6_bridge.png",
+      "sha256": "a7f34b30d8fddd0354c1164af9220a8773037e4d3f94f9b0f9e21bd78817c2f5"
+    },
+    {
+      "path": "12_Blender_Model/renders/qa/R131_after_SS1_exterior.png",
+      "sha256": "2261fb9c20414aafcca9ba224bb16633de8a54bf41c8da300d83a2a3b6df0e7a"
+    }
+  ],
+  "failures": [],
+  "scope": "Four same-camera bridge section and exterior images opened. Appearance remains subtle under current lighting. Geometry unchanged; black section-cut regions are not new openings."
+}

@@ -1,0 +1,63 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R141_GIRIS_KAFE_TAS_DUVARLAR_v001.blend",
+  "images": [
+    {
+      "image": "12_Blender_Model/renders/qa/R141_before_entry.png",
+      "phase": "before",
+      "eye": [
+        -32.220516204833984,
+        20.69397735595703,
+        1.600000023841858
+      ],
+      "target": [
+        -32.38703918457031,
+        27.67679214477539,
+        2.0
+      ]
+    },
+    {
+      "image": "12_Blender_Model/renders/qa/R141_before_cafe.png",
+      "phase": "before",
+      "eye": [
+        -18.073211669921875,
+        19.08709716796875,
+        3.0
+      ],
+      "target": [
+        -18.105297088623047,
+        20.51723861694336,
+        6.0
+      ]
+    },
+    {
+      "image": "12_Blender_Model/renders/qa/R141_after_entry.png",
+      "phase": "after",
+      "eye": [
+        -32.220516204833984,
+        20.69397735595703,
+        1.600000023841858
+      ],
+      "target": [
+        -32.38703918457031,
+        27.67679214477539,
+        2.0
+      ]
+    },
+    {
+      "image": "12_Blender_Model/renders/qa/R141_after_cafe.png",
+      "phase": "after",
+      "eye": [
+        -18.073211669921875,
+        19.08709716796875,
+        3.0
+      ],
+      "target": [
+        -18.105297088623047,
+        20.51723861694336,
+        6.0
+      ]
+    }
+  ],
+  "all_active_surroundings": true,
+  "lighting_unchanged": true
+}

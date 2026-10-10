@@ -1,0 +1,27 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R132_HARITALI_PARK_ZEMIN_AYRIMI_v003.blend",
+  "solids": [
+    {
+      "name": "R38_PARK_APPROACH_GROUND",
+      "volume": 722.2603213520921,
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "top_area": 2407.53466796875
+    },
+    {
+      "name": "R132_MAPPED_WOODLAND_GROUND",
+      "volume": 126.32320213568225,
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "top_area": 421.0772399902344
+    }
+  ],
+  "source_top_area_m2": 2828.611328125,
+  "woodland_top_area_m2": 421.0772399902344,
+  "samples": 13200,
+  "coverage_changes": 0,
+  "double_tops": 0,
+  "outside_source": 0,
+  "failures": [],
+  "construction_acceptance": false
+}

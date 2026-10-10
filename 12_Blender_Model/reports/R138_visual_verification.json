@@ -1,0 +1,31 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R138_GIRIS_DOLASIM_TAS_ZEMIN_v002.blend",
+  "reviewed_images": [
+    {
+      "path": "12_Blender_Model/renders/qa/R138_before_entry.png",
+      "sha256": "a34f65320aad3b451388982696a7cf9b8488656e0e617875023708ed7650ff24"
+    },
+    {
+      "path": "12_Blender_Model/renders/qa/R138_before_east.png",
+      "sha256": "9e9cf11ed6a29e13d8c9a138e28438043dab533b5c30b396eeee8ee5a57c3251"
+    },
+    {
+      "path": "12_Blender_Model/renders/qa/R138_before_west.png",
+      "sha256": "a771a660d63261952f08c3e8ed2263bb2f503798902bc071124ae7c73425c9a1"
+    },
+    {
+      "path": "12_Blender_Model/renders/qa/R138_after_entry.png",
+      "sha256": "7c115a13e14c59bade1aeb64b845b3014b96d3f4572d15342206d8a3997fdb39"
+    },
+    {
+      "path": "12_Blender_Model/renders/qa/R138_after_east.png",
+      "sha256": "8e711b01124c21a0cc74b3fa605facfe430817fe16e8ba2b2d42c3cc2b25c14d"
+    },
+    {
+      "path": "12_Blender_Model/renders/qa/R138_after_west.png",
+      "sha256": "945818b73c0a7dffbf207201546584c74923385c62c38746c74569eec1fb22e5"
+    }
+  ],
+  "failures": [],
+  "scope": "Six same-camera before/after views examined. Stone grid now continues across circulation floors; timber galleries and entrance mat remain separate. Original lighting unchanged; not physical colour calibration."
+}

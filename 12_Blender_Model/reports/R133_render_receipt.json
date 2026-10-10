@@ -1,0 +1,63 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R133_PARK_YOL_KAPLAMALARI_v004.blend",
+  "images": [
+    {
+      "image": "12_Blender_Model/renders/qa/R133_before_north_path.png",
+      "eye": [
+        36,
+        86,
+        12
+      ],
+      "target": [
+        29.6,
+        70,
+        0
+      ],
+      "stage": "before"
+    },
+    {
+      "image": "12_Blender_Model/renders/qa/R133_before_east_path.png",
+      "eye": [
+        87,
+        48,
+        12
+      ],
+      "target": [
+        70,
+        33,
+        0
+      ],
+      "stage": "before"
+    },
+    {
+      "image": "12_Blender_Model/renders/qa/R133_after_north_path.png",
+      "eye": [
+        36,
+        86,
+        12
+      ],
+      "target": [
+        29.6,
+        70,
+        0
+      ],
+      "stage": "after"
+    },
+    {
+      "image": "12_Blender_Model/renders/qa/R133_after_east_path.png",
+      "eye": [
+        87,
+        48,
+        12
+      ],
+      "target": [
+        70,
+        33,
+        0
+      ],
+      "stage": "after"
+    }
+  ],
+  "all_active_surroundings": true,
+  "lighting_unchanged": true
+}

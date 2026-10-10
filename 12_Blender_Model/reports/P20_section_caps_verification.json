@@ -1,0 +1,54 @@
+{
+  "revision": "R136",
+  "source_glb_sha256": "dbe65e8f7838446f7e5d82d17efabcb8cba4589823b07ea3b94ab9cda066c0c3",
+  "geometry_changed": false,
+  "unit_cases": [
+    "horizontal",
+    "vertical",
+    "reverse",
+    "inner void",
+    "disconnected solids",
+    "open contour",
+    "outside plane",
+    "closed ring with open spur"
+  ],
+  "browser_cases": [
+    {
+      "view": "LP1 H6.059",
+      "caps": 797,
+      "skipped": 0,
+      "open_edges_unfilled": 12
+    },
+    {
+      "view": "E -2.20 and reverse",
+      "caps": 89,
+      "skipped": 0
+    },
+    {
+      "view": "isolated R19_ROOM_FLOOR H -5.4",
+      "caps": 1,
+      "skipped": 0
+    }
+  ],
+  "images": [
+    {
+      "path": "12_Blender_Model/renders/qa/P20_caps_upper.jpg",
+      "sha256": "469fee5f83c410fe477650d3bc60efffaea71aa67b913037fd4e09ee9f1f8d63"
+    },
+    {
+      "path": "12_Blender_Model/renders/qa/P20_caps_vertical.jpg",
+      "sha256": "6a842beec20a37d957a883fa673a2f4200953b8364a31c88f34ea9fbed79457e"
+    },
+    {
+      "path": "12_Blender_Model/renders/qa/P20_caps_vertical_off.jpg",
+      "sha256": "985b3d53a2ebe6eb51582d2687cc052d73c0ce0f6189fcf747eb0d17afef606d"
+    }
+  ],
+  "limits": [
+    "Twelve open spur edges are excluded; six closed rings recovered without inventing closure.",
+    "Glass-only objects excluded.",
+    "Caps are viewer-only and not architectural geometry.",
+    "Other cut positions not exhaustively accepted."
+  ],
+  "failures": []
+}

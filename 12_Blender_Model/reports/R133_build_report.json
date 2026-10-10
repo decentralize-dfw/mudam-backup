@@ -1,0 +1,176 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R133_PARK_YOL_KAPLAMALARI_v004.blend",
+  "base_scene": "MUDAM_R132_HARITALI_PARK_ZEMIN_AYRIMI_v003.blend",
+  "changed_inherited_objects": [
+    "R38_PARK_APPROACH_GROUND"
+  ],
+  "closed_objects": [],
+  "surface_objects": [
+    {
+      "name": "R38_PARK_APPROACH_GROUND",
+      "faces": [
+        {
+          "face": 7,
+          "material": "R133_PARK_ROUTE_ATLAS_CANDIDATE",
+          "u": [
+            1,
+            0,
+            0
+          ],
+          "v": [
+            0,
+            1,
+            0
+          ],
+          "repeat_m": [
+            110.0,
+            120.0
+          ],
+          "origin": [
+            -20.0,
+            -20.0
+          ],
+          "area": 2311.074951171875
+        },
+        {
+          "face": 43,
+          "material": "R133_PARK_ROUTE_ATLAS_CANDIDATE",
+          "u": [
+            1,
+            0,
+            0
+          ],
+          "v": [
+            0,
+            1,
+            0
+          ],
+          "repeat_m": [
+            110.0,
+            120.0
+          ],
+          "origin": [
+            -20.0,
+            -20.0
+          ],
+          "area": 96.45922088623047
+        }
+      ]
+    }
+  ],
+  "uv_map": "R133_ROUTE_METRIC_UV",
+  "materials": [
+    "R133_PARK_ROUTE_ATLAS_CANDIDATE"
+  ],
+  "routes": [
+    {
+      "id": "83345393",
+      "points": [
+        [
+          81.58321121882182,
+          3.0078856823965907
+        ],
+        [
+          76.87036930595059,
+          6.8828465500846505
+        ],
+        [
+          74.60570641269442,
+          11.23239313904196
+        ],
+        [
+          73.39825821632985,
+          21.31901903450489
+        ],
+        [
+          73.53615604288643,
+          27.035410625860095
+        ],
+        [
+          73.65083163802046,
+          31.951211160980165
+        ],
+        [
+          74.52246270887554,
+          56.38528950698674
+        ],
+        [
+          57.32276122662006,
+          78.41226654220372
+        ],
+        [
+          29.77271978976205,
+          79.3157465076074
+        ],
+        [
+          -9.143050477607176,
+          81.07489543780684
+        ]
+      ],
+      "surface": "paving_stones",
+      "source_tags": {
+        "bicycle": "yes",
+        "highway": "pedestrian",
+        "lit": "yes",
+        "maxspeed": "30",
+        "motor_vehicle": "private",
+        "name": "Park Dr\u00e4i Eechelen",
+        "note": "mainly pedestriation, specific access tag for vehicles added",
+        "surface": "paving_stones"
+      }
+    },
+    {
+      "id": "49910981",
+      "points": [
+        [
+          73.65083163802046,
+          31.951211160980165
+        ],
+        [
+          61.635118199221324,
+          32.263599744066596
+        ]
+      ],
+      "surface": "paving_stones",
+      "source_tags": {
+        "bicycle": "yes",
+        "highway": "pedestrian",
+        "motor_vehicle": "private",
+        "noname": "yes",
+        "note": "mainly pedestriation, specific access tag for vehicles added",
+        "surface": "paving_stones"
+      }
+    },
+    {
+      "id": "50643005",
+      "points": [
+        [
+          29.77271978976205,
+          79.3157465076074
+        ],
+        [
+          29.424501567613333,
+          65.98221109528095
+        ]
+      ],
+      "surface": "sett",
+      "source_tags": {
+        "bicycle": "yes",
+        "highway": "pedestrian",
+        "motor_vehicle": "private",
+        "noname": "yes",
+        "note": "mainly pedestriation, specific access tag for vehicles added",
+        "surface": "sett"
+      }
+    }
+  ],
+  "atlas_bounds": [
+    -20.0,
+    -20.0,
+    90.0,
+    100.0
+  ],
+  "route_width_m": 4,
+  "geometry_changed": false,
+  "construction_acceptance": false
+}

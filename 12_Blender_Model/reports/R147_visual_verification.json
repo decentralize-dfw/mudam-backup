@@ -1,0 +1,23 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R147_BATI_DONUS_ALT_FUAYE_TAS_v001.blend",
+  "reviewed_images": [
+    {
+      "path": "12_Blender_Model/renders/qa/R147_before_return.png",
+      "sha256": "a3242668d3043711663f62662efc54e2c940a6e2e383fdbfabfd7eefc9f419de"
+    },
+    {
+      "path": "12_Blender_Model/renders/qa/R147_before_blade.png",
+      "sha256": "244d1aecf00465c2f247096178bfa7b0d8b86bc690a2e896ed10f04fea31e8ed"
+    },
+    {
+      "path": "12_Blender_Model/renders/qa/R147_after_return.png",
+      "sha256": "6dd62b75bd8d59967d7fe7135b143a7f000c56094c0160dcd0d0b6cf304c8449"
+    },
+    {
+      "path": "12_Blender_Model/renders/qa/R147_after_blade.png",
+      "sha256": "6cb0280f56b6202381c86d8f72c5b83117952cbd21ae826c0fbb52a72c7b0530"
+    }
+  ],
+  "failures": [],
+  "scope": "Matched full-scene cameras show the return opening edges and lower stair blade. Initial wrong camera views were replaced, not used as acceptance evidence. Stone texture contrast on the blade is weak under review lighting. Existing openings and silhouette preserved; no surveyed colour or slab schedule acceptance. Temporary review light not saved."
+}

@@ -1,0 +1,119 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R131_KABUK_MALZEME_SUREKLILIGI_v001.blend",
+  "evaluated_geometry_objects_checked": 9364,
+  "geometry_identical": true,
+  "uv_checks": [
+    {
+      "name": "R116_BRIDGE_NORTH_EAST",
+      "faces": 4,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.2963739444530802
+    },
+    {
+      "name": "R116_BRIDGE_NORTH_WEST",
+      "faces": 4,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.2963754671618517
+    },
+    {
+      "name": "R116_STAIR_PORTAL_JAMB_JOIN",
+      "faces": 4,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.32125958687146294
+    },
+    {
+      "name": "R116_LOWER_FACADE_BACKING",
+      "faces": 72,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.03645833441987634
+    },
+    {
+      "name": "R117_LOWER_FACADE_CORNER_RETURN",
+      "faces": 4,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.5422120214236514
+    },
+    {
+      "name": "R117_E_BRIDGE_WALL_END",
+      "faces": 4,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.2963739444530802
+    },
+    {
+      "name": "R94_EAST_HIGH_WALL_JOIN",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.0656957862956915
+    },
+    {
+      "name": "R95_EAST_OUTER_END_ABOVE_GLASS",
+      "faces": 4,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.13686608466727535
+    },
+    {
+      "name": "R116_AUD_ENTRY_FLOOR_L",
+      "faces": 2,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.010923896071361128
+    },
+    {
+      "name": "R116_AUD_ENTRY_FLOOR_R",
+      "faces": 2,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.02254136816284813
+    },
+    {
+      "name": "R117_E_BRIDGE_FLOOR_JOIN",
+      "faces": 4,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.0020286034830405697
+    },
+    {
+      "name": "R117_W_BRIDGE_FLOOR_JOIN",
+      "faces": 5,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.0014796494915572111
+    }
+  ],
+  "packed_images": [
+    {
+      "material": "R131_WALL_CONTINUITY_CANDIDATE",
+      "image": "R32_limestone_candidate_basecolor.png",
+      "packed": true,
+      "size": [
+        2048,
+        1536
+      ]
+    },
+    {
+      "material": "R131_WALL_CONTINUITY_CANDIDATE",
+      "image": "R32_limestone_candidate_normal.png",
+      "packed": true,
+      "size": [
+        2048,
+        1536
+      ]
+    },
+    {
+      "material": "R131_FLOOR_CONTINUITY_CANDIDATE",
+      "image": "R43_stone_floor_candidate_basecolor.png",
+      "packed": true,
+      "size": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "material": "R131_FLOOR_CONTINUITY_CANDIDATE",
+      "image": "R43_stone_floor_candidate_normal.png",
+      "packed": true,
+      "size": [
+        2048,
+        2048
+      ]
+    }
+  ],
+  "failures": [],
+  "construction_acceptance": false
+}

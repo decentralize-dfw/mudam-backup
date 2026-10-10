@@ -1,0 +1,353 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R136_ODITORYUM_TAS_YUZEYLERI_v001.blend",
+  "evaluated_geometry_objects_checked": 9365,
+  "geometry_identical": true,
+  "uv_checks": [
+    {
+      "name": "R19_ROOM_FLOOR",
+      "faces": 14,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.019749574900060907
+    },
+    {
+      "name": "R19_STAGE",
+      "faces": 10,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.04081591806425422
+    },
+    {
+      "name": "R19_TIER_01",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.06319890670874884
+    },
+    {
+      "name": "R19_TIER_02",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.12639771010071854
+    },
+    {
+      "name": "R19_TIER_03",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.18959650236865855
+    },
+    {
+      "name": "R19_TIER_04",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.25279587796512715
+    },
+    {
+      "name": "R19_TIER_05",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.3159942124693771
+    },
+    {
+      "name": "R19_TIER_06",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.3791931303021556
+    },
+    {
+      "name": "R19_TIER_07",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.4423919853525149
+    },
+    {
+      "name": "R19_TIER_08",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.5055907776204549
+    },
+    {
+      "name": "R19_AISLE_L_01",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.015799698066985002
+    },
+    {
+      "name": "R19_AISLE_L_02",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.03159951057477883
+    },
+    {
+      "name": "R19_AISLE_L_03",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.04739915698337427
+    },
+    {
+      "name": "R19_AISLE_L_04",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.06319885505035927
+    },
+    {
+      "name": "R19_AISLE_L_05",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.07899855311734427
+    },
+    {
+      "name": "R19_AISLE_L_06",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.09479825118432927
+    },
+    {
+      "name": "R19_AISLE_L_07",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.11059801203373354
+    },
+    {
+      "name": "R19_AISLE_L_08",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.1263981678644086
+    },
+    {
+      "name": "R19_AISLE_L_09",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.14219689318360906
+    },
+    {
+      "name": "R19_AISLE_L_10",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.15799710623468854
+    },
+    {
+      "name": "R19_AISLE_L_11",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.17379623765896213
+    },
+    {
+      "name": "R19_AISLE_L_12",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.1895972517966129
+    },
+    {
+      "name": "R19_AISLE_L_13",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.2053955193521233
+    },
+    {
+      "name": "R19_AISLE_L_14",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.22119599267625745
+    },
+    {
+      "name": "R19_AISLE_L_15",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.23699569074324245
+    },
+    {
+      "name": "R19_AISLE_L_16",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.252794473282961
+    },
+    {
+      "name": "R19_AISLE_R_01",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.015799698066985002
+    },
+    {
+      "name": "R19_AISLE_R_02",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.031599281693161174
+    },
+    {
+      "name": "R19_AISLE_R_03",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.04739915698337427
+    },
+    {
+      "name": "R19_AISLE_R_04",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.06319885505035927
+    },
+    {
+      "name": "R19_AISLE_R_05",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.07899855311734427
+    },
+    {
+      "name": "R19_AISLE_R_06",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.09479825118432927
+    },
+    {
+      "name": "R19_AISLE_R_07",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.11059801203373354
+    },
+    {
+      "name": "R19_AISLE_R_08",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.1263981678644086
+    },
+    {
+      "name": "R19_AISLE_R_09",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.14219689318360906
+    },
+    {
+      "name": "R19_AISLE_R_10",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.15799710623468854
+    },
+    {
+      "name": "R19_AISLE_R_11",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.17379623765896213
+    },
+    {
+      "name": "R19_AISLE_R_12",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.1895965651510778
+    },
+    {
+      "name": "R19_AISLE_R_13",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.2053962632180628
+    },
+    {
+      "name": "R19_AISLE_R_14",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.22119519158979983
+    },
+    {
+      "name": "R19_AISLE_R_15",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.23699569074324245
+    },
+    {
+      "name": "R19_AISLE_R_16",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.25279538881022745
+    },
+    {
+      "name": "R19_REAR_LANDING",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 1.5799730111184545
+    },
+    {
+      "name": "R19_STAGE_STEP_L_0",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.011059822025458743
+    },
+    {
+      "name": "R19_STAGE_STEP_L_1",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.022119577293779003
+    },
+    {
+      "name": "R19_STAGE_STEP_R_0",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.011059788646889501
+    },
+    {
+      "name": "R19_STAGE_STEP_R_1",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.022119577293779003
+    },
+    {
+      "name": "R19_STONE_PIER_L",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.10618011554765872
+    },
+    {
+      "name": "R19_STONE_PIER_R",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.1061801903642845
+    },
+    {
+      "name": "R19_REAR_PIER_L",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.0758428370349975
+    },
+    {
+      "name": "R19_REAR_PIER_R",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.0758428370349975
+    }
+  ],
+  "packed_images": [
+    {
+      "material": "R136_GRAIN_STONE_CANDIDATE",
+      "image": "R46_stone_grain_candidate_basecolor.png",
+      "packed": true,
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "material": "R136_GRAIN_STONE_CANDIDATE",
+      "image": "R46_stone_grain_candidate_normal.png",
+      "packed": true,
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "material": "R136_JOINT_STONE_CANDIDATE",
+      "image": "R32_limestone_candidate_basecolor.png",
+      "packed": true,
+      "size": [
+        2048,
+        1536
+      ]
+    },
+    {
+      "material": "R136_JOINT_STONE_CANDIDATE",
+      "image": "R32_limestone_candidate_normal.png",
+      "packed": true,
+      "size": [
+        2048,
+        1536
+      ]
+    }
+  ],
+  "failures": [],
+  "construction_acceptance": false
+}

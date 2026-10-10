@@ -1,0 +1,17 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R132_HARITALI_PARK_ZEMIN_AYRIMI_v003.blend",
+  "base_scene": "12_Blender_Model/scenes/MUDAM_R131_KABUK_MALZEME_SUREKLILIGI_v001.blend",
+  "inherited_objects_checked": 9364,
+  "changed_inherited_objects": [
+    "R38_PARK_APPROACH_GROUND"
+  ],
+  "allowed_changes": [
+    "R38_PARK_APPROACH_GROUND"
+  ],
+  "allowed_but_unchanged": [],
+  "new_objects": [
+    "R132_MAPPED_WOODLAND_GROUND"
+  ],
+  "failures": [],
+  "construction_acceptance": false
+}

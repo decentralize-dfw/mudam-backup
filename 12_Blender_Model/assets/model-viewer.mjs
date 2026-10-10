@@ -1,31 +1,93 @@
 import * as THREE from 'three';
 import {OrbitControls} from './vendor/three/OrbitControls.js';
 import {GLTFLoader} from './vendor/three/GLTFLoader.js';
+import {sectionTriangles} from './section-caps.mjs';
+import {sampleRendering} from './performance-review.mjs';
 import {latestModelRelease,modelBytes} from './model-release.mjs';
-import {LEVELS,clipEquations,retained,sourceIds} from './viewer-core.mjs';
+import {LEVELS,clipEquations,retained,sourceIds,isSiteElement} from './viewer-core.mjs';
 const $=id=>document.getElementById(id), view=$('viewport'), status=$('status');
 const scene=new THREE.Scene();scene.background=new THREE.Color('#e7e9e3');
 const camera=new THREE.PerspectiveCamera(42,1,.05,3000);
 const renderer=new THREE.WebGLRenderer({antialias:true});renderer.setPixelRatio(Math.min(devicePixelRatio,1.5));renderer.outputColorSpace=THREE.SRGBColorSpace;renderer.toneMapping=THREE.ACESFilmicToneMapping;renderer.toneMappingExposure=.85;view.prepend(renderer.domElement);
 const controls=new OrbitControls(camera,renderer.domElement);controls.enableDamping=false;controls.minDistance=.15;controls.maxDistance=500;
 scene.add(new THREE.HemisphereLight(0xffffff,0x787c68,1.4));const sun=new THREE.DirectionalLight(0xfff6e5,2);sun.position.set(-30,70,40);scene.add(sun);const fill=new THREE.DirectionalLight(0xe3edff,1);fill.position.set(50,20,-30);scene.add(fill);
+let capMeshes=[],capGroups=[],capKey;
+const capMaterial=new THREE.MeshBasicMaterial({color:0xb68c59,side:THREE.DoubleSide,polygonOffset:true,polygonOffsetFactor:-1,polygonOffsetUnits:-1});
 let edgeLines=[];let model,meshes=[],selected,box,manifest=[],extensions=[],planes=[],mainBounds,report;
-const metadataNode=o=>{let n=o;while(n&&!n.userData.element_id&&!n.userData.source_ids&&n.parent&&n.parent!==model)n=n.parent;return n;};
-const isSite=o=>/^(R34_|R35_|R38_|P18_)/.test(metadataNode(o).name);
+const metadataNode=o=>{if(o.userData.capOwner)return o.userData.capOwner;let n=o;while(n&&!n.userData.element_id&&!n.userData.source_ids&&n.parent&&n.parent!==model)n=n.parent;return n;};
+const isSite=o=>{const n=metadataNode(o);return isSiteElement(n.name,n.userData);};
 function draw(){renderer.render(scene,camera)}
+let measuring=false, loadTiming;
+const viewSignature=()=>JSON.stringify([releaseHash,...['level','axis','cutValue'].map(id=>$(id).value),...['site','edges','caps','reverse','isolate'].map(id=>$(id).checked),selected?.uuid,view.clientWidth,view.clientHeight]);
+$('measure').onclick=async()=>{
+  if(!model||loading||measuring)return;
+  measuring=true;$('measure').disabled=true;$('performanceResult').textContent='2 saniye ısınma + 10 saniye ölçüm…';
+  const position=camera.position.clone(),target=controls.target.clone(),enabled=controls.enabled;
+  const offset=position.clone().sub(target),axis=new THREE.Vector3(0,1,0);
+  controls.enabled=false;
+  const locked=[...document.querySelectorAll('button,input,select')].map(el=>[el,el.disabled]);
+  locked.forEach(([el])=>el.disabled=true);
+  let interrupted=document.hidden;
+  const visibilityChanged=()=>{if(document.hidden)interrupted=true};
+  document.addEventListener('visibilitychange',visibilityChanged);
+  try{
+    const result=await sampleRendering({signature:viewSignature,hidden:()=>interrupted||document.hidden,
+      frame:t=>{camera.position.copy(offset).applyAxisAngle(axis,(t-.5)*Math.PI/6).add(target);camera.lookAt(target)},
+      render:()=>{draw();return {...renderer.info.render}}});
+    const receipt={schema:1,measured_at_utc:new Date().toISOString(),revision:report.revision,sha256:releaseHash,
+      source_scene:report.source_scene,viewport_css:[view.clientWidth,view.clientHeight],
+      drawing_buffer:[renderer.domElement.width,renderer.domElement.height],pixel_ratio:renderer.getPixelRatio(),
+      browser:navigator.userAgent,view:JSON.parse(viewSignature()),camera_position:position.toArray(),camera_target:target.toArray(),
+      sweep_degrees:30,load_timing_ms:loadTiming,...result,resources:{...renderer.info.memory},
+      limits:['Browser frame delivery includes vsync and scheduling; not pure GPU time.','JS render submission may include driver stalls.','Current browser, viewport and view only; not all devices or all model views.','Load timing includes local HTTP and caches; not public network speed.']};
+    $('performanceResult').textContent=`${result.delivered_fps.toFixed(1)} kare/sn · p95 ${result.frame_interval_ms.p95.toFixed(1)} ms · ${result.frame_interval_ms.count} kare`;
+    $('performanceRaw').textContent=JSON.stringify(receipt,null,2);
+  }catch(e){$('performanceResult').textContent=e.message;$('performanceRaw').textContent=''}
+  finally{document.removeEventListener('visibilitychange',visibilityChanged);locked.forEach(([el,disabled])=>el.disabled=disabled);camera.position.copy(position);controls.target.copy(target);controls.enabled=enabled;controls.update();draw();measuring=false;$('measure').disabled=false}
+};
+function clearCaps(){for(const cap of capMeshes){scene.remove(cap);cap.geometry.dispose()}capMeshes=[]}
+function prepareCaps(){
+  clearCaps();capKey=undefined;const groups=new Map();
+  for(const mesh of meshes){const owner=metadataNode(mesh);if(!groups.has(owner))groups.set(owner,[]);groups.get(owner).push(mesh)}
+  capGroups=[...groups].map(([owner,parts])=>({owner,parts,bounds:parts.reduce((b,m)=>b.union(new THREE.Box3().setFromObject(m)),new THREE.Box3()),positions:null}));
+}
+function rebuildCaps(){
+  const key=JSON.stringify([planes,$('caps').checked,$('site').checked,$('isolate').checked?selected?.uuid:null]);
+  if(key===capKey)return;capKey=key;clearCaps();$('capStatus').textContent='';if(!$('caps').checked||!planes.length)return;
+  let skipped=0,openEdges=0;
+  for(const group of capGroups){
+    if(!group.parts.some(m=>m.visible))continue;
+    if(group.parts.every(m=>[m.material].flat().every(a=>a.transmission>.1||/GLASS|GLAZ/i.test(a.name))))continue;
+    for(const plane of planes){
+      const axis=plane.slice(0,3).findIndex(v=>Math.abs(v)>.5),key=['x','y','z'][axis],cut=-plane[3]/plane[axis];
+      if(cut<=group.bounds.min[key]+1e-5||cut>=group.bounds.max[key]-1e-5)continue;
+      if(!group.positions){
+        const points=[],v=new THREE.Vector3();
+        for(const m of group.parts){const g=m.geometry,a=g.attributes.position,idx=g.index;for(let i=0;i<(idx?.count??a.count);i++){v.fromBufferAttribute(a,idx?idx.getX(i):i).applyMatrix4(m.matrixWorld);points.push(v.x,v.y,v.z)}}
+        group.positions=points;
+      }
+      const result=sectionTriangles(group.positions,null,plane);skipped+=result.skipped;openEdges+=result.openEdges;if(!result.positions.length)continue;
+      for(let i=axis;i<result.positions.length;i+=3)result.positions[i]+=plane[axis]*2e-5;
+      const geometry=new THREE.BufferGeometry();geometry.setAttribute('position',new THREE.Float32BufferAttribute(result.positions,3));
+      const cap=new THREE.Mesh(geometry,capMaterial);cap.userData.capOwner=group.owner;cap.renderOrder=1;scene.add(cap);capMeshes.push(cap);
+    }
+  }
+  $('capStatus').textContent=skipped?`${capMeshes.length} kesit yüzeyi; ${skipped} açık/karmaşık sınır doldurulmadı.`:`${capMeshes.length} kesit yüzeyi.`;
+  if(openEdges)$('capStatus').textContent+=` ${openEdges} açık çizgi dolgu dışında bırakıldı.`;
+}
 new ResizeObserver(()=>{const w=view.clientWidth,h=view.clientHeight;renderer.setSize(w,h);camera.aspect=w/h;camera.updateProjectionMatrix();draw()}).observe(view);controls.addEventListener('change',draw);
 function fit(bounds,mode='iso'){const c=bounds.getCenter(new THREE.Vector3()),size=bounds.getSize(new THREE.Vector3());const radius=Math.max(size.x,size.y,size.z,2)*.75/Math.tan(THREE.MathUtils.degToRad(camera.fov/2))/Math.min(camera.aspect,1);camera.up.set(0,1,0);const dir=mode==='top'?new THREE.Vector3(0,1,.00001):mode==='front'?new THREE.Vector3(0,.08,1):new THREE.Vector3(1,.8,1).normalize();camera.position.copy(c).addScaledVector(dir,radius);controls.target.copy(c);controls.update();document.body.dataset.camera=JSON.stringify({bounds:[bounds.min.toArray(),bounds.max.toArray()],target:controls.target.toArray(),camera:camera.position.toArray()});draw()}
-function apply(){planes=clipEquations($('level').value,$('axis').value,+$('offset').value,$('reverse').checked);renderer.clippingPlanes=planes.map(p=>new THREE.Plane(new THREE.Vector3(...p.slice(0,3)),p[3]));for(const l of edgeLines)l.visible=$('edges').checked;for(const m of meshes)m.visible=($('site').checked||!isSite(m))&&(!$('isolate').checked||metadataNode(m)===selected);const band=LEVELS[$('level').value];$('band').textContent=band?`${band[0].toFixed(2)} ile ${band[1].toFixed(2)} m · koşullu model kotları`:'Kot aralığı uygulanmıyor.';if(box)box.visible=!!selected&&selected.visible;draw()}
-function setAxis(){const axis=$('axis').value, b=mainBounds;const limits=axis==='H'?[-6,32]:axis==='E'?[b.min.x,b.max.x]:[-b.max.z,-b.min.z];$('offset').min=Math.floor(limits[0]);$('offset').max=Math.ceil(limits[1]);$('offset').value=axis==='H'?5:(limits[0]+limits[1])/2;$('cutValue').value=(+$('offset').value).toFixed(2);$('offset').disabled=$('cutValue').disabled=axis==='none';apply()}
+function apply(){planes=clipEquations($('level').value,$('axis').value,+$('cutValue').value,$('reverse').checked);renderer.clippingPlanes=planes.map(p=>new THREE.Plane(new THREE.Vector3(...p.slice(0,3)),p[3]));for(const l of edgeLines)l.visible=$('edges').checked;for(const m of meshes)m.visible=($('site').checked||!isSite(m))&&(!$('isolate').checked||metadataNode(m)===selected);const band=LEVELS[$('level').value];$('band').textContent=band?`${band[0].toFixed(2)} ile ${band[1].toFixed(2)} m · koşullu model kotları`:'Kot aralığı uygulanmıyor.';if(box)box.visible=!!selected&&selected.visible;rebuildCaps();draw()}
+function setAxis(render=true){const axis=$('axis').value, b=mainBounds;const limits=axis==='H'?[-6,32]:axis==='E'?[b.min.x,b.max.x]:[-b.max.z,-b.min.z];$('offset').min=Math.floor(limits[0]);$('offset').max=Math.ceil(limits[1]);$('offset').value=axis==='H'?5:(limits[0]+limits[1])/2;$('cutValue').value=(+$('offset').value).toFixed(2);$('offset').disabled=$('cutValue').disabled=axis==='none';if(render)apply()}
 function field(label,value){if(value===undefined)return;const dt=document.createElement('dt'),dd=document.createElement('dd');dt.textContent=label;dd.textContent=String(value);$('metadata').append(dt,dd)}
 function sourceLink(source,id){const a=document.createElement('a');a.className='source';a.target='_blank';a.rel='noopener';a.textContent=`${id} · ${source.credit||'Kaynak görsel'}`;a.href='../'+source.path.split('/').map(encodeURIComponent).join('/');return a}
 function select(mesh){selected=mesh?metadataNode(mesh):null;if(box){scene.remove(box);box.geometry.dispose();box.material.dispose();box=null}$('metadata').replaceChildren();$('sources').replaceChildren();$('revisions').replaceChildren();$('focus').disabled=$('clear').disabled=$('isolate').disabled=!mesh;if(!mesh)$('isolate').checked=false;document.body.classList.toggle('has-selection',!!mesh);if(!mesh){$('selectedName').textContent='Henüz seçim yok';$('raw').textContent='';apply();return}const node=metadataNode(mesh),d=node.userData;$('selectedName').textContent=node.name;box=new THREE.BoxHelper(selected,0xd78d17);box.material.depthTest=false;box.renderOrder=100;scene.add(box);field('Tür',d.element_type);field('Bölge / kat etiketi',[d.zone_id,d.level_id].filter(Boolean).join(' / '));field('Durum',d.status);field('Yatay konum',d.confidence_xy);field('Düşey konum',d.confidence_z);field('Detay güveni',d.confidence_detail);field('Varsayım',d.assumption_note);field('Görünüm',d.surface_appearance_status);const bb=new THREE.Box3().setFromObject(selected);field('Model kot aralığı',`${bb.min.y.toFixed(3)} … ${bb.max.y.toFixed(3)} m (rölöve ölçüsü değil)`);const ids=sourceIds(d);if(!ids.length)field('Kaynak kaydı','Bu parçanın kaynak kimliği boş; paket raporunu inceleyin.');for(const id of ids){const s=manifest.find(s=>s.id===id);if(s)$('sources').append(sourceLink(s,id));else {const p=document.createElement('p');p.className='note';p.textContent=`${id} · doğrudan kaynak bağlantısı kayıtlı değil`;$('sources').append(p)}}const text=node.name+' '+JSON.stringify(d);for(const e of extensions.filter(e=>new RegExp('\\b'+e.id+'(?:_|\\b)').test(text))){const p=document.createElement('p'),a=document.createElement('a');a.href='reports/'+e.report;a.target='_blank';a.textContent=e.title;p.append(a,document.createElement('br'),document.createTextNode(e.limits));$('revisions').append(p)}$('raw').textContent=JSON.stringify(d,null,2);apply()}
 function search(){const q=$('search').value.trim().toUpperCase();$('results').replaceChildren();if(q.length<2)return;const unique=new Map();for(const m of meshes){const n=metadataNode(m);if(n.name.toUpperCase().includes(q)&&!unique.has(n.name))unique.set(n.name,m)}for(const [name,m]of [...unique].slice(0,30)){const b=document.createElement('button');b.textContent=name;b.onclick=()=>select(m);$('results').append(b)}if(unique.size>30){const p=document.createElement('p');p.textContent=`${unique.size} sonuç; ilk 30 gösteriliyor.`;$('results').append(p)}}
 const ray=new THREE.Raycaster(),pointer=new THREE.Vector2();let down;
-renderer.domElement.addEventListener('pointerdown',e=>{down=[e.clientX,e.clientY]});renderer.domElement.addEventListener('pointerup',e=>{if(!down||Math.hypot(e.clientX-down[0],e.clientY-down[1])>5||e.button!==0)return;const r=renderer.domElement.getBoundingClientRect();pointer.set((e.clientX-r.left)/r.width*2-1,1-(e.clientY-r.top)/r.height*2);ray.setFromCamera(pointer,camera);const hits=ray.intersectObjects(meshes,false);const hit=hits.find(h=>{if(!h.object.visible||!retained(h.point,planes))return false;const mat=Array.isArray(h.object.material)?h.object.material[h.face.materialIndex]:h.object.material;return !($('skipGlass').checked&&(mat.transmission>.1||(mat.transparent&&mat.opacity<.6)||/GLASS|GLAZ/i.test(mat.name)))});select(hit?.object)});
-$('edges').onchange=$('level').onchange=$('site').onchange=$('reverse').onchange=$('isolate').onchange=apply;$('axis').onchange=setAxis;$('offset').oninput=()=>{$('cutValue').value=(+$('offset').value).toFixed(2);apply()};$('cutValue').oninput=$('cutValue').onchange=()=>{if($('cutValue').value!==''&&Number.isFinite(+$('cutValue').value)){$('offset').value=$('cutValue').value;apply()}};$('search').oninput=search;$('iso').onclick=()=>fit(mainBounds);$('top').onclick=()=>fit(mainBounds,'top');$('front').onclick=()=>fit(mainBounds,'front');$('focus').onclick=()=>selected&&fit(new THREE.Box3().setFromObject(selected));$('clear').onclick=()=>select(null);
+renderer.domElement.addEventListener('pointerdown',e=>{down=[e.clientX,e.clientY]});renderer.domElement.addEventListener('pointerup',e=>{if(measuring||!down||Math.hypot(e.clientX-down[0],e.clientY-down[1])>5||e.button!==0)return;const r=renderer.domElement.getBoundingClientRect();pointer.set((e.clientX-r.left)/r.width*2-1,1-(e.clientY-r.top)/r.height*2);ray.setFromCamera(pointer,camera);const hits=ray.intersectObjects([...meshes,...capMeshes],false);const hit=hits.find(h=>{if(!h.object.visible||!retained(h.point,planes))return false;const mat=Array.isArray(h.object.material)?h.object.material[h.face.materialIndex]:h.object.material;return !($('skipGlass').checked&&(mat.transmission>.1||(mat.transparent&&mat.opacity<.6)||/GLASS|GLAZ/i.test(mat.name)))});select(hit?.object)});
+$('caps').onchange=$('edges').onchange=$('level').onchange=$('site').onchange=$('reverse').onchange=$('isolate').onchange=apply;$('axis').onchange=()=>setAxis();$('offset').oninput=()=>{$('cutValue').value=(+$('offset').value).toFixed(2);apply()};$('cutValue').oninput=$('cutValue').onchange=()=>{if($('cutValue').value!==''&&Number.isFinite(+$('cutValue').value)){$('offset').value=$('cutValue').value;apply()}};$('search').oninput=search;$('iso').onclick=()=>fit(mainBounds);$('top').onclick=()=>fit(mainBounds,'top');$('front').onclick=()=>fit(mainBounds,'front');$('focus').onclick=()=>selected&&fit(new THREE.Box3().setFromObject(selected));$('clear').onclick=()=>select(null);
 async function json(url){const r=await fetch(url,{cache:'no-store'});if(!r.ok)throw Error(`${url}: ${r.status}`);return r.json()}
-$('planCut').onclick=()=>{if($('level').value==='all')$('level').value='LP1';$('axis').value='H';$('reverse').checked=false;setAxis();const z={LM1:-4.126293514,L00:1.2,LP1:6.059074785}[$('level').value];$('offset').value=z;$('cutValue').value=z.toFixed(3);apply();};
+$('planCut').onclick=()=>{if($('level').value==='all')$('level').value='LP1';$('axis').value='H';$('reverse').checked=false;setAxis(false);const z={LM1:-4.126293514,L00:1.2,LP1:6.059074785}[$('level').value];$('offset').value=z;$('cutValue').value=z.toFixed(3);apply();};
 let loading=false, releaseHash, downloadURL;
 function disposeModel(root){
   const geometries=new Set(),materials=new Set(),textures=new Set();
@@ -33,15 +95,18 @@ function disposeModel(root){
   for(const item of [...geometries,...materials,...textures])item.dispose();
 }
 async function refreshModel(){
-  if(loading)return;loading=true;
+  if(loading||measuring)return;loading=true;
   try{
     const release=await latestModelRelease();
     if(release.sha256===releaseHash)return;
+    const loadStart=performance.now();
     status.style.color='';status.textContent=`${release.revision} yükleniyor…`;
     const [bytes,sources,revisions]=await Promise.all([
       modelBytes(release,n=>{status.textContent=`${release.revision} yükleniyor · ${(n/1e6).toFixed(1)} / ${(release.download_bytes/1e6).toFixed(1)} MB`}),
       json('references/source_manifest.json'),json('config/checkpoint_extensions.json')]);
+    const bytesReady=performance.now();
     const gltf=await new GLTFLoader().parseAsync(bytes,'');
+    const parsed=performance.now();
     const previous=model,wasLoaded=!!model;
     if(previous){select(null);scene.remove(previous)}
     model=gltf.scene;meshes=[];edgeLines=[];manifest=sources;extensions=revisions;report=release;
@@ -54,6 +119,7 @@ async function refreshModel(){
       if(!geometry){geometry=new THREE.EdgesGeometry(m.geometry,30);edgeCache.set(m.geometry.uuid,geometry)}
       const line=new THREE.LineSegments(geometry,lineMaterial);m.add(line);edgeLines.push(line);
     }
+    prepareCaps();
     if(previous)disposeModel(previous);
     if(downloadURL)URL.revokeObjectURL(downloadURL);
     downloadURL=URL.createObjectURL(new Blob([bytes],{type:'model/gltf-binary'}));
@@ -63,6 +129,10 @@ async function refreshModel(){
     apply();if(!wasLoaded)fit(mainBounds);
     document.body.dataset.loaded='true';document.body.dataset.meshes=meshes.length;document.body.dataset.sourceScene=release.source_scene;
     releaseHash=release.sha256;
+    $('performanceRaw').textContent='';
+    $('performanceResult').textContent=`${release.revision} için henüz ölçüm yok. Geçerli görünümde 12 saniyelik ölçüm yapabilirsiniz.`;
+    loadTiming={fetch_decode_verify:bytesReady-loadStart,gltf_parse:parsed-bytesReady,scene_setup_first_draw:performance.now()-parsed,total:performance.now()-loadStart};
+    $('measure').disabled=false;
   }catch(e){
     status.textContent=(model?'Mevcut model açık; güncelleme yeniden denenecek: ':'Model açılamadı: ')+e.message;
     status.style.color='#9a311b';console.error(e);

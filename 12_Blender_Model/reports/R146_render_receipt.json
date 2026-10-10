@@ -1,0 +1,35 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R146_BATI_KAVIS_TAS_KAPLAMA_v001.blend",
+  "images": [
+    {
+      "image": "12_Blender_Model/renders/qa/R146_before_curve.png",
+      "phase": "before",
+      "eye": [
+        -36.603633880615234,
+        1.8562920093536377,
+        2.5999999046325684
+      ],
+      "target": [
+        -25.606943130493164,
+        15.326128005981445,
+        1.5
+      ]
+    },
+    {
+      "image": "12_Blender_Model/renders/qa/R146_after_curve.png",
+      "phase": "after",
+      "eye": [
+        -36.603633880615234,
+        1.8562920093536377,
+        2.5999999046325684
+      ],
+      "target": [
+        -25.606943130493164,
+        15.326128005981445,
+        1.5
+      ]
+    }
+  ],
+  "all_active_surroundings": true,
+  "lighting_unchanged": true
+}

@@ -1,0 +1,53 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R143_ALT_FUAYE_TAS_DUVAR_v001.blend",
+  "evaluated_geometry_objects_checked": 9365,
+  "geometry_identical": true,
+  "uv_checks": [
+    {
+      "name": "R72_LOWER_FOYER_NORTH_WALL",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.3120872927347875
+    }
+  ],
+  "packed_images": [
+    {
+      "material": "R143_GRAIN_STONE_CANDIDATE",
+      "image": "R46_stone_grain_candidate_basecolor.png",
+      "packed": true,
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "material": "R143_GRAIN_STONE_CANDIDATE",
+      "image": "R46_stone_grain_candidate_normal.png",
+      "packed": true,
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "material": "R143_JOINT_STONE_CANDIDATE",
+      "image": "R32_limestone_candidate_basecolor.png",
+      "packed": true,
+      "size": [
+        2048,
+        1536
+      ]
+    },
+    {
+      "material": "R143_JOINT_STONE_CANDIDATE",
+      "image": "R32_limestone_candidate_normal.png",
+      "packed": true,
+      "size": [
+        2048,
+        1536
+      ]
+    }
+  ],
+  "failures": [],
+  "construction_acceptance": false
+}

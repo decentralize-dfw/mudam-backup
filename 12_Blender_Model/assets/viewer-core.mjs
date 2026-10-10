@@ -1,5 +1,10 @@
 // glTF Y is Blender Z. Positive plane distance is the retained side.
 export const LEVELS = {all:null, LM1:[-5.65,-0.30], L00:[-0.30,4.60], LP1:[4.60,10.05]};
+// Zone metadata survives new revisions and glTF primitive splitting.
+export function isSiteElement(name,data={}) {
+  return ['APPROACH','ENTRANCE_PARK','MOAT_NORTH_EAST','MOAT_PAVILION'].includes(data.zone_id)
+    || /^(R34_|R35_|R38_|P18_)/.test(name);
+}
 export function clipEquations(level,axis,offset,reverse=false) {
   const result=[], band=LEVELS[level];
   if(band) result.push([0,1,0,-band[0]],[0,-1,0,band[1]]);

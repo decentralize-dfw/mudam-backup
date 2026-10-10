@@ -1,0 +1,565 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R146_BATI_KAVIS_TAS_KAPLAMA_v001.blend",
+  "evaluated_geometry_objects_checked": 9365,
+  "geometry_identical": true,
+  "uv_checks": [
+    {
+      "name": "P11_WEST_STONE_BASE_0",
+      "faces": 8,
+      "max_uv_error": 5.960464477539063e-08,
+      "min_uv_area": 0.12378559824765034
+    },
+    {
+      "name": "P11_WEST_STONE_BASE_1",
+      "faces": 8,
+      "max_uv_error": 1.7881393432617188e-07,
+      "min_uv_area": 0.12378117571506664
+    },
+    {
+      "name": "P11_WEST_STONE_BASE_2",
+      "faces": 8,
+      "max_uv_error": 2.384185791015625e-07,
+      "min_uv_area": 0.12378108657230769
+    },
+    {
+      "name": "P11_WEST_STONE_BASE_3",
+      "faces": 8,
+      "max_uv_error": 2.384185791015625e-07,
+      "min_uv_area": 0.12378429238606259
+    },
+    {
+      "name": "P11_WEST_STONE_BASE_4",
+      "faces": 8,
+      "max_uv_error": 2.384185791015625e-07,
+      "min_uv_area": 0.12378458964576566
+    },
+    {
+      "name": "P11_WEST_STONE_BASE_5",
+      "faces": 8,
+      "max_uv_error": 2.384185791015625e-07,
+      "min_uv_area": 0.1237806492558775
+    },
+    {
+      "name": "P11_WEST_STONE_BASE_6",
+      "faces": 8,
+      "max_uv_error": 2.384185791015625e-07,
+      "min_uv_area": 0.12377863041774617
+    },
+    {
+      "name": "P11_WEST_STONE_BASE_7",
+      "faces": 8,
+      "max_uv_error": 4.76837158203125e-07,
+      "min_uv_area": 0.12377965407949887
+    },
+    {
+      "name": "P11_WEST_STONE_BASE_8",
+      "faces": 8,
+      "max_uv_error": 4.76837158203125e-07,
+      "min_uv_area": 0.12378330897354317
+    },
+    {
+      "name": "P11_WEST_STONE_BASE_9",
+      "faces": 8,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.12378428062083913
+    },
+    {
+      "name": "P11_WEST_STONE_BASE_10",
+      "faces": 8,
+      "max_uv_error": 4.76837158203125e-07,
+      "min_uv_area": 0.12378064272706979
+    },
+    {
+      "name": "P11_WEST_STONE_BASE_11",
+      "faces": 8,
+      "max_uv_error": 4.76837158203125e-07,
+      "min_uv_area": 0.12377894045130233
+    },
+    {
+      "name": "P11_WEST_STONE_BASE_12",
+      "faces": 8,
+      "max_uv_error": 4.76837158203125e-07,
+      "min_uv_area": 0.12378011775035702
+    },
+    {
+      "name": "P11_WEST_STONE_BASE_13",
+      "faces": 8,
+      "max_uv_error": 4.76837158203125e-07,
+      "min_uv_area": 0.1237841098154604
+    },
+    {
+      "name": "P11_WEST_STONE_BASE_14",
+      "faces": 8,
+      "max_uv_error": 4.76837158203125e-07,
+      "min_uv_area": 0.12378518433524732
+    },
+    {
+      "name": "P11_WEST_STONE_BASE_15",
+      "faces": 8,
+      "max_uv_error": 9.5367431640625e-07,
+      "min_uv_area": 0.12378138817075524
+    },
+    {
+      "name": "P11_WEST_STONE_BASE_16",
+      "faces": 8,
+      "max_uv_error": 9.5367431640625e-07,
+      "min_uv_area": 0.12378159017134749
+    },
+    {
+      "name": "P11_WEST_STONE_BASE_17",
+      "faces": 8,
+      "max_uv_error": 9.5367431640625e-07,
+      "min_uv_area": 0.11930207537807291
+    }
+  ],
+  "shared_edge_checks": [
+    {
+      "point": [
+        -14.6204,
+        11.6479,
+        0.0
+      ],
+      "objects": [
+        "P11_WEST_STONE_BASE_0",
+        "P11_WEST_STONE_BASE_1"
+      ],
+      "uv_error": 5.960464477539063e-08
+    },
+    {
+      "point": [
+        -14.6204,
+        11.6479,
+        2.9156
+      ],
+      "objects": [
+        "P11_WEST_STONE_BASE_0",
+        "P11_WEST_STONE_BASE_1"
+      ],
+      "uv_error": 5.960464477539063e-08
+    },
+    {
+      "point": [
+        -16.2231,
+        11.2541,
+        0.0
+      ],
+      "objects": [
+        "P11_WEST_STONE_BASE_1",
+        "P11_WEST_STONE_BASE_2"
+      ],
+      "uv_error": 0.0
+    },
+    {
+      "point": [
+        -16.2231,
+        11.2541,
+        2.9156
+      ],
+      "objects": [
+        "P11_WEST_STONE_BASE_1",
+        "P11_WEST_STONE_BASE_2"
+      ],
+      "uv_error": 0.0
+    },
+    {
+      "point": [
+        -17.8385,
+        10.9159,
+        0.0
+      ],
+      "objects": [
+        "P11_WEST_STONE_BASE_2",
+        "P11_WEST_STONE_BASE_3"
+      ],
+      "uv_error": 2.384185791015625e-07
+    },
+    {
+      "point": [
+        -17.8385,
+        10.9159,
+        2.9156
+      ],
+      "objects": [
+        "P11_WEST_STONE_BASE_2",
+        "P11_WEST_STONE_BASE_3"
+      ],
+      "uv_error": 2.384185791015625e-07
+    },
+    {
+      "point": [
+        -19.465,
+        10.6354,
+        0.0
+      ],
+      "objects": [
+        "P11_WEST_STONE_BASE_3",
+        "P11_WEST_STONE_BASE_4"
+      ],
+      "uv_error": 2.384185791015625e-07
+    },
+    {
+      "point": [
+        -19.465,
+        10.6354,
+        2.9156
+      ],
+      "objects": [
+        "P11_WEST_STONE_BASE_3",
+        "P11_WEST_STONE_BASE_4"
+      ],
+      "uv_error": 2.384185791015625e-07
+    },
+    {
+      "point": [
+        -21.1011,
+        10.4182,
+        0.0
+      ],
+      "objects": [
+        "P11_WEST_STONE_BASE_4",
+        "P11_WEST_STONE_BASE_5"
+      ],
+      "uv_error": 0.0
+    },
+    {
+      "point": [
+        -21.1011,
+        10.4182,
+        2.9156
+      ],
+      "objects": [
+        "P11_WEST_STONE_BASE_4",
+        "P11_WEST_STONE_BASE_5"
+      ],
+      "uv_error": 0.0
+    },
+    {
+      "point": [
+        -22.7441,
+        10.2622,
+        0.0
+      ],
+      "objects": [
+        "P11_WEST_STONE_BASE_5",
+        "P11_WEST_STONE_BASE_6"
+      ],
+      "uv_error": 0.0
+    },
+    {
+      "point": [
+        -22.7441,
+        10.2622,
+        2.9156
+      ],
+      "objects": [
+        "P11_WEST_STONE_BASE_5",
+        "P11_WEST_STONE_BASE_6"
+      ],
+      "uv_error": 0.0
+    },
+    {
+      "point": [
+        -24.3918,
+        10.1683,
+        0.0
+      ],
+      "objects": [
+        "P11_WEST_STONE_BASE_6",
+        "P11_WEST_STONE_BASE_7"
+      ],
+      "uv_error": 0.0
+    },
+    {
+      "point": [
+        -24.3918,
+        10.1683,
+        2.9156
+      ],
+      "objects": [
+        "P11_WEST_STONE_BASE_6",
+        "P11_WEST_STONE_BASE_7"
+      ],
+      "uv_error": 0.0
+    },
+    {
+      "point": [
+        -26.0419,
+        10.1374,
+        0.0
+      ],
+      "objects": [
+        "P11_WEST_STONE_BASE_7",
+        "P11_WEST_STONE_BASE_8"
+      ],
+      "uv_error": 0.0
+    },
+    {
+      "point": [
+        -26.0419,
+        10.1374,
+        2.9156
+      ],
+      "objects": [
+        "P11_WEST_STONE_BASE_7",
+        "P11_WEST_STONE_BASE_8"
+      ],
+      "uv_error": 0.0
+    },
+    {
+      "point": [
+        -27.692,
+        10.1697,
+        0.0
+      ],
+      "objects": [
+        "P11_WEST_STONE_BASE_8",
+        "P11_WEST_STONE_BASE_9"
+      ],
+      "uv_error": 0.0
+    },
+    {
+      "point": [
+        -27.692,
+        10.1697,
+        2.9156
+      ],
+      "objects": [
+        "P11_WEST_STONE_BASE_8",
+        "P11_WEST_STONE_BASE_9"
+      ],
+      "uv_error": 0.0
+    },
+    {
+      "point": [
+        -29.3395,
+        10.2685,
+        0.0
+      ],
+      "objects": [
+        "P11_WEST_STONE_BASE_10",
+        "P11_WEST_STONE_BASE_9"
+      ],
+      "uv_error": 4.76837158203125e-07
+    },
+    {
+      "point": [
+        -29.3395,
+        10.2685,
+        2.9156
+      ],
+      "objects": [
+        "P11_WEST_STONE_BASE_10",
+        "P11_WEST_STONE_BASE_9"
+      ],
+      "uv_error": 4.76837158203125e-07
+    },
+    {
+      "point": [
+        -30.982,
+        10.4307,
+        0.0
+      ],
+      "objects": [
+        "P11_WEST_STONE_BASE_10",
+        "P11_WEST_STONE_BASE_11"
+      ],
+      "uv_error": 0.0
+    },
+    {
+      "point": [
+        -30.982,
+        10.4307,
+        2.9156
+      ],
+      "objects": [
+        "P11_WEST_STONE_BASE_10",
+        "P11_WEST_STONE_BASE_11"
+      ],
+      "uv_error": 0.0
+    },
+    {
+      "point": [
+        -32.617,
+        10.6552,
+        0.0
+      ],
+      "objects": [
+        "P11_WEST_STONE_BASE_11",
+        "P11_WEST_STONE_BASE_12"
+      ],
+      "uv_error": 4.76837158203125e-07
+    },
+    {
+      "point": [
+        -32.617,
+        10.6552,
+        2.9156
+      ],
+      "objects": [
+        "P11_WEST_STONE_BASE_11",
+        "P11_WEST_STONE_BASE_12"
+      ],
+      "uv_error": 4.76837158203125e-07
+    },
+    {
+      "point": [
+        -34.2425,
+        10.9406,
+        0.0
+      ],
+      "objects": [
+        "P11_WEST_STONE_BASE_12",
+        "P11_WEST_STONE_BASE_13"
+      ],
+      "uv_error": 4.76837158203125e-07
+    },
+    {
+      "point": [
+        -34.2425,
+        10.9406,
+        2.9156
+      ],
+      "objects": [
+        "P11_WEST_STONE_BASE_12",
+        "P11_WEST_STONE_BASE_13"
+      ],
+      "uv_error": 4.76837158203125e-07
+    },
+    {
+      "point": [
+        -35.8566,
+        11.2855,
+        0.0
+      ],
+      "objects": [
+        "P11_WEST_STONE_BASE_13",
+        "P11_WEST_STONE_BASE_14"
+      ],
+      "uv_error": 4.76837158203125e-07
+    },
+    {
+      "point": [
+        -35.8566,
+        11.2855,
+        2.9156
+      ],
+      "objects": [
+        "P11_WEST_STONE_BASE_13",
+        "P11_WEST_STONE_BASE_14"
+      ],
+      "uv_error": 4.76837158203125e-07
+    },
+    {
+      "point": [
+        -37.4562,
+        11.6919,
+        0.0
+      ],
+      "objects": [
+        "P11_WEST_STONE_BASE_14",
+        "P11_WEST_STONE_BASE_15"
+      ],
+      "uv_error": 9.5367431640625e-07
+    },
+    {
+      "point": [
+        -37.4562,
+        11.6919,
+        2.9156
+      ],
+      "objects": [
+        "P11_WEST_STONE_BASE_14",
+        "P11_WEST_STONE_BASE_15"
+      ],
+      "uv_error": 9.5367431640625e-07
+    },
+    {
+      "point": [
+        -39.0405,
+        12.1545,
+        0.0
+      ],
+      "objects": [
+        "P11_WEST_STONE_BASE_15",
+        "P11_WEST_STONE_BASE_16"
+      ],
+      "uv_error": 9.5367431640625e-07
+    },
+    {
+      "point": [
+        -39.0405,
+        12.1545,
+        2.9156
+      ],
+      "objects": [
+        "P11_WEST_STONE_BASE_15",
+        "P11_WEST_STONE_BASE_16"
+      ],
+      "uv_error": 9.5367431640625e-07
+    },
+    {
+      "point": [
+        -40.6081,
+        12.6706,
+        0.0
+      ],
+      "objects": [
+        "P11_WEST_STONE_BASE_16",
+        "P11_WEST_STONE_BASE_17"
+      ],
+      "uv_error": 0.0
+    },
+    {
+      "point": [
+        -40.6081,
+        12.6706,
+        2.9156
+      ],
+      "objects": [
+        "P11_WEST_STONE_BASE_16",
+        "P11_WEST_STONE_BASE_17"
+      ],
+      "uv_error": 0.0
+    }
+  ],
+  "packed_images": [
+    {
+      "material": "R146_GRAIN_STONE_CANDIDATE",
+      "image": "R46_stone_grain_candidate_basecolor.png",
+      "packed": true,
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "material": "R146_GRAIN_STONE_CANDIDATE",
+      "image": "R46_stone_grain_candidate_normal.png",
+      "packed": true,
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "material": "R146_JOINT_STONE_CANDIDATE",
+      "image": "R32_limestone_candidate_basecolor.png",
+      "packed": true,
+      "size": [
+        2048,
+        1536
+      ]
+    },
+    {
+      "material": "R146_JOINT_STONE_CANDIDATE",
+      "image": "R32_limestone_candidate_normal.png",
+      "packed": true,
+      "size": [
+        2048,
+        1536
+      ]
+    }
+  ],
+  "failures": [],
+  "construction_acceptance": false
+}

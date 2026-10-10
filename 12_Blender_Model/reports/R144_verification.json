@@ -1,0 +1,35 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R144_ALT_FUAYE_TAS_TAVAN_v001.blend",
+  "evaluated_geometry_objects_checked": 9365,
+  "geometry_identical": true,
+  "uv_checks": [
+    {
+      "name": "R06_FOYER_CEILING_AND_CURVED_FASCIA",
+      "faces": 155,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.0051826464161681685
+    }
+  ],
+  "packed_images": [
+    {
+      "material": "R144_GRAIN_STONE_CANDIDATE",
+      "image": "R46_stone_grain_candidate_basecolor.png",
+      "packed": true,
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "material": "R144_GRAIN_STONE_CANDIDATE",
+      "image": "R46_stone_grain_candidate_normal.png",
+      "packed": true,
+      "size": [
+        1024,
+        1024
+      ]
+    }
+  ],
+  "failures": [],
+  "construction_acceptance": false
+}

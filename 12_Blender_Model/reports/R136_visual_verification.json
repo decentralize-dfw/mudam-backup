@@ -1,0 +1,23 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R136_ODITORYUM_TAS_YUZEYLERI_v001.blend",
+  "reviewed_images": [
+    {
+      "path": "12_Blender_Model/renders/qa/R136_before_room.png",
+      "sha256": "e79e50305ba1a3b2cfb42851e138dcc25683038c1605ccb6f6f98c5715fa534f"
+    },
+    {
+      "path": "12_Blender_Model/renders/qa/R136_before_panel.png",
+      "sha256": "e234e53ccb507994a470792152fb0a09389ee3309aa040e547aa8dc3b70f4ae3"
+    },
+    {
+      "path": "12_Blender_Model/renders/qa/R136_after_room.png",
+      "sha256": "fcaa7cd9c3a9370d517f176db9fb682fa73f96e3497cbcde96f6a5a14ceb0717"
+    },
+    {
+      "path": "12_Blender_Model/renders/qa/R136_after_panel.png",
+      "sha256": "a90d5ec133effeed135a97a3d49569e9e9bc6d1e04f2107144de1036b22b6128"
+    }
+  ],
+  "failures": [],
+  "scope": "Four before/after views examined. Fine stone grain remains subtle at room distance. Geometry, tier edges and openings unchanged. Review lights identical; not source colour calibration."
+}

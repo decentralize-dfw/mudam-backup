@@ -1,0 +1,414 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R145_KUZEY_BATI_TAS_YUZEYLER_v001.blend",
+  "base_scene": "MUDAM_R144_ALT_FUAYE_TAS_TAVAN_v001.blend",
+  "changed_inherited_objects": [
+    "P06_NORTH_STONE_GABLE_EAST",
+    "P06_NORTH_BASE_E",
+    "P05_WEST_END"
+  ],
+  "closed_objects": [],
+  "surface_objects": [
+    {
+      "name": "P06_NORTH_STONE_GABLE_EAST",
+      "faces": [
+        {
+          "face": 0,
+          "material": "R145_JOINT_STONE_CANDIDATE",
+          "u": [
+            0.680959939956665,
+            -0.7323207259178162,
+            -0.0
+          ],
+          "v": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "repeat_m": [
+            3.2,
+            2.4
+          ]
+        },
+        {
+          "face": 1,
+          "material": "R145_JOINT_STONE_CANDIDATE",
+          "u": [
+            0.6809599995613098,
+            -0.7323206663131714,
+            0.0
+          ],
+          "v": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "repeat_m": [
+            3.2,
+            2.4
+          ]
+        },
+        {
+          "face": 2,
+          "material": "R145_GRAIN_STONE_CANDIDATE",
+          "u": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "v": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "repeat_m": [
+            2.0,
+            2.0
+          ]
+        },
+        {
+          "face": 3,
+          "material": "R145_GRAIN_STONE_CANDIDATE",
+          "u": [
+            0.7323219180107117,
+            0.68095862865448,
+            -0.0
+          ],
+          "v": [
+            -0.5848124027252197,
+            0.6289235949516296,
+            0.5122982859611511
+          ],
+          "repeat_m": [
+            2.0,
+            2.0
+          ]
+        },
+        {
+          "face": 4,
+          "material": "R145_JOINT_STONE_CANDIDATE",
+          "u": [
+            0.7323207259178162,
+            0.6809598803520203,
+            -0.0
+          ],
+          "v": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "repeat_m": [
+            3.2,
+            2.4
+          ]
+        }
+      ]
+    },
+    {
+      "name": "P06_NORTH_BASE_E",
+      "faces": [
+        {
+          "face": 0,
+          "material": "R145_GRAIN_STONE_CANDIDATE",
+          "u": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "v": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "repeat_m": [
+            2.0,
+            2.0
+          ]
+        },
+        {
+          "face": 1,
+          "material": "R145_GRAIN_STONE_CANDIDATE",
+          "u": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "v": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "repeat_m": [
+            2.0,
+            2.0
+          ]
+        },
+        {
+          "face": 2,
+          "material": "R145_GRAIN_STONE_CANDIDATE",
+          "u": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "v": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "repeat_m": [
+            2.0,
+            2.0
+          ]
+        },
+        {
+          "face": 3,
+          "material": "R145_GRAIN_STONE_CANDIDATE",
+          "u": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "v": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "repeat_m": [
+            2.0,
+            2.0
+          ]
+        },
+        {
+          "face": 4,
+          "material": "R145_JOINT_STONE_CANDIDATE",
+          "u": [
+            0.680959939956665,
+            -0.7323206663131714,
+            -0.0
+          ],
+          "v": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "repeat_m": [
+            3.2,
+            2.4
+          ]
+        },
+        {
+          "face": 5,
+          "material": "R145_JOINT_STONE_CANDIDATE",
+          "u": [
+            0.7323204278945923,
+            0.6809602379798889,
+            -0.0
+          ],
+          "v": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "repeat_m": [
+            3.2,
+            2.4
+          ]
+        },
+        {
+          "face": 6,
+          "material": "R145_JOINT_STONE_CANDIDATE",
+          "u": [
+            0.6809599995613098,
+            -0.7323206067085266,
+            0.0
+          ],
+          "v": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "repeat_m": [
+            3.2,
+            2.4
+          ]
+        },
+        {
+          "face": 7,
+          "material": "R145_JOINT_STONE_CANDIDATE",
+          "u": [
+            0.7323212027549744,
+            0.6809594035148621,
+            -0.0
+          ],
+          "v": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "repeat_m": [
+            3.2,
+            2.4
+          ]
+        }
+      ]
+    },
+    {
+      "name": "P05_WEST_END",
+      "faces": [
+        {
+          "face": 0,
+          "material": "R145_JOINT_STONE_CANDIDATE",
+          "u": [
+            0.7323206663131714,
+            0.680959939956665,
+            -0.0
+          ],
+          "v": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "repeat_m": [
+            3.2,
+            2.4
+          ]
+        },
+        {
+          "face": 1,
+          "material": "R145_JOINT_STONE_CANDIDATE",
+          "u": [
+            0.7322425842285156,
+            0.6810439825057983,
+            -0.0
+          ],
+          "v": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "repeat_m": [
+            3.2,
+            2.4
+          ]
+        },
+        {
+          "face": 2,
+          "material": "R145_GRAIN_STONE_CANDIDATE",
+          "u": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "v": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "repeat_m": [
+            2.0,
+            2.0
+          ]
+        },
+        {
+          "face": 3,
+          "material": "R145_JOINT_STONE_CANDIDATE",
+          "u": [
+            0.6809545159339905,
+            -0.7323257327079773,
+            -0.0
+          ],
+          "v": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "repeat_m": [
+            3.2,
+            2.4
+          ]
+        },
+        {
+          "face": 4,
+          "material": "R145_GRAIN_STONE_CANDIDATE",
+          "u": [
+            0.10097160935401917,
+            0.9948893189430237,
+            -0.0
+          ],
+          "v": [
+            -0.7453005909919739,
+            0.07564078271389008,
+            -0.6624240279197693
+          ],
+          "repeat_m": [
+            2.0,
+            2.0
+          ]
+        },
+        {
+          "face": 5,
+          "material": "R145_JOINT_STONE_CANDIDATE",
+          "u": [
+            0.39489442110061646,
+            0.9187265634536743,
+            -0.0
+          ],
+          "v": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "repeat_m": [
+            3.2,
+            2.4
+          ]
+        }
+      ]
+    }
+  ],
+  "uv_map": "R145_STONE_METRIC_UV",
+  "materials": [
+    "R145_GRAIN_STONE_CANDIDATE",
+    "R145_JOINT_STONE_CANDIDATE"
+  ],
+  "sources": [
+    {
+      "id": "087",
+      "path": "05_Dis_Mekan/Giris_ve_Yaklasim/087_Yaklasim_koprusu_ve_cam_cati_ArchEyes.jpg",
+      "sha256": "3d4547c7f0fb344d335b7a312b187e1cdae1a4c0dc4f1ea3b5992f712d76070c",
+      "source_url": "https://archeyes.com/the-mudam-by-i-m-pei-where-old-meets-new/",
+      "credit": "\u00a9 Michael Nguyen / ArchEyes",
+      "source_date": "unknown; do not infer from download date",
+      "modified": false
+    },
+    {
+      "id": "093",
+      "path": "05_Dis_Mekan/Cepheler/093_Tas_cephe_ve_cam_cati_ArchEyes.jpg",
+      "sha256": "c5e4eae1fdae8bc664586f0ea2f14753c55bca1400bd3edd99f265a145d5e618",
+      "source_url": "https://archeyes.com/the-mudam-by-i-m-pei-where-old-meets-new/",
+      "credit": "\u00a9 Michael Nguyen / ArchEyes",
+      "source_date": "unknown; do not infer from download date",
+      "modified": false
+    },
+    {
+      "id": "097",
+      "path": "05_Dis_Mekan/Cepheler/097_Tas_cephe_ve_cam_cati_ArchEyes.jpg",
+      "sha256": "fd75919c30d7568a0eb5c56488c2a1f4f00d3043218825a73a89427966995bd1",
+      "source_url": "https://archeyes.com/the-mudam-by-i-m-pei-where-old-meets-new/",
+      "credit": "\u00a9 Michael Nguyen / ArchEyes",
+      "source_date": "unknown; do not infer from download date",
+      "modified": false
+    },
+    {
+      "id": "119",
+      "path": "05_Dis_Mekan/Cepheler/119_Cam_cati_cepheden_gorunum_Mudam.webp",
+      "sha256": "58debe32215f4c92615f96569bd1e9a4dffd4d35ffeb96ec2d630553a42a96b1",
+      "source_url": "https://www.mudam.com/visit/architecture",
+      "credit": "\u00a9 R\u00e9mi Villaggi / Mudam Luxembourg",
+      "source_date": "unknown; do not infer from download date",
+      "modified": false
+    }
+  ],
+  "geometry_changed": false,
+  "construction_acceptance": false
+}

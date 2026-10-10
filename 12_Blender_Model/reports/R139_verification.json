@@ -1,0 +1,101 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R139_GRAND_HALL_TAS_DUVARLAR_v001.blend",
+  "evaluated_geometry_objects_checked": 9365,
+  "geometry_identical": true,
+  "uv_checks": [
+    {
+      "name": "P05_MAIN_ATRIUM_BASE_3",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.19567074224505632
+    },
+    {
+      "name": "P05_MAIN_ATRIUM_BASE_5_R02_ABOVE",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.043820853847591934
+    },
+    {
+      "name": "P05_MAIN_ATRIUM_BASE_5_R02_BEFORE_R04_BEFORE",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.02520052832824149
+    },
+    {
+      "name": "P05_MAIN_ATRIUM_BASE_5_R02_BEFORE_R04_AFTER",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.010305114257107562
+    },
+    {
+      "name": "P05_MAIN_ATRIUM_BASE_5_R02_BEFORE_R04_ABOVE",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.06662635629072611
+    },
+    {
+      "name": "R72_HIGH_ATRIUM_WALL_3",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.5146443065900712
+    },
+    {
+      "name": "R72_HIGH_ATRIUM_WALL_5",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.6094344892981098
+    },
+    {
+      "name": "R73_E_CONTINUOUS_GALLERY_WALL",
+      "faces": 9,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.04920247462104044
+    },
+    {
+      "name": "R73_W_CONTINUOUS_GALLERY_WALL",
+      "faces": 7,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.14957960354809074
+    }
+  ],
+  "packed_images": [
+    {
+      "material": "R139_GRAIN_STONE_CANDIDATE",
+      "image": "R46_stone_grain_candidate_basecolor.png",
+      "packed": true,
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "material": "R139_GRAIN_STONE_CANDIDATE",
+      "image": "R46_stone_grain_candidate_normal.png",
+      "packed": true,
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "material": "R139_JOINT_STONE_CANDIDATE",
+      "image": "R32_limestone_candidate_basecolor.png",
+      "packed": true,
+      "size": [
+        2048,
+        1536
+      ]
+    },
+    {
+      "material": "R139_JOINT_STONE_CANDIDATE",
+      "image": "R32_limestone_candidate_normal.png",
+      "packed": true,
+      "size": [
+        2048,
+        1536
+      ]
+    }
+  ],
+  "failures": [],
+  "construction_acceptance": false
+}

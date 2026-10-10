@@ -1,0 +1,15 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R132_HARITALI_PARK_ZEMIN_AYRIMI_v003.blend",
+  "reviewed_images": [
+    {
+      "path": "12_Blender_Model/renders/qa/R132_before_ground.png",
+      "sha256": "615e8dd713d80e2fda4ad1af96341e83d92a961b6d2d7282bd53a3103a83216a"
+    },
+    {
+      "path": "12_Blender_Model/renders/qa/R132_after_ground.png",
+      "sha256": "664930e7c2bb5b4b9b0febc5e2d6e110de1344aaca06fe2c5ce64f913afcc1f6"
+    }
+  ],
+  "failures": [],
+  "scope": "Same-camera before/after site-ground views examined on v003. Source096/063/122 support distinction of vegetation and circulation; exact terrain and understory species unmeasured."
+}

@@ -1,0 +1,64 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R147_BATI_DONUS_ALT_FUAYE_TAS_v001.blend",
+  "images": [
+    {
+      "image": "12_Blender_Model/renders/qa/R147_before_return.png",
+      "phase": "before",
+      "eye": [
+        -19.750770568847656,
+        26.124826431274414,
+        6.300000190734863
+      ],
+      "target": [
+        -22.724035263061523,
+        27.577796936035156,
+        7.400000095367432
+      ]
+    },
+    {
+      "image": "12_Blender_Model/renders/qa/R147_before_blade.png",
+      "phase": "before",
+      "eye": [
+        0.0,
+        16.0,
+        -3.4000000953674316
+      ],
+      "target": [
+        -3.950000047683716,
+        15.5,
+        -2.700000047683716
+      ]
+    },
+    {
+      "image": "12_Blender_Model/renders/qa/R147_after_return.png",
+      "phase": "after",
+      "eye": [
+        -19.750770568847656,
+        26.124826431274414,
+        6.300000190734863
+      ],
+      "target": [
+        -22.724035263061523,
+        27.577796936035156,
+        7.400000095367432
+      ]
+    },
+    {
+      "image": "12_Blender_Model/renders/qa/R147_after_blade.png",
+      "phase": "after",
+      "eye": [
+        0.0,
+        16.0,
+        -3.4000000953674316
+      ],
+      "target": [
+        -3.950000047683716,
+        15.5,
+        -2.700000047683716
+      ]
+    }
+  ],
+  "all_active_surroundings": true,
+  "temporary_review_light": true,
+  "light_not_saved": true
+}

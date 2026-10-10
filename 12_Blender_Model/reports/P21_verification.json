@@ -1,8 +1,8 @@
 {
-  "file": "12_Blender_Model/exports/MUDAM_R129_TARIHI_TAS_VE_HENDEK_MALZEME_v002_preview_compact.glb",
-  "size_bytes": 84738868,
-  "mesh_nodes": 8477,
-  "triangles": 2489610,
+  "file": "12_Blender_Model/exports/MUDAM_R148_KAFE_TAS_DOSEME_v001_preview_compact.glb",
+  "size_bytes": 121223148,
+  "mesh_nodes": 8478,
+  "triangles": 3696922,
   "world_bounds_glTF": [
     [
       -42.61722946166992,
@@ -18,6 +18,16 @@
   "bounds_max_error_m": 0.0,
   "external_binary_dependency": false,
   "embedded_images": [
+    {
+      "name": "R46_stone_grain_candidate_normal",
+      "embedded_bytes": 105879,
+      "mime": "image/png"
+    },
+    {
+      "name": "R46_stone_grain_candidate_basecolor",
+      "embedded_bytes": 353633,
+      "mime": "image/png"
+    },
     {
       "name": "R32_limestone_candidate_normal",
       "embedded_bytes": 279819,
@@ -69,13 +79,8 @@
       "mime": "image/png"
     },
     {
-      "name": "R46_stone_grain_candidate_normal",
-      "embedded_bytes": 105879,
-      "mime": "image/png"
-    },
-    {
-      "name": "R46_stone_grain_candidate_basecolor",
-      "embedded_bytes": 353633,
+      "name": "R135_auditorium_wood_basecolor",
+      "embedded_bytes": 444651,
       "mime": "image/png"
     },
     {
@@ -127,9 +132,33 @@
       "name": "R129_historic_masonry_roughness",
       "embedded_bytes": 711953,
       "mime": "image/png"
+    },
+    {
+      "name": "R133_park_routes_normal",
+      "embedded_bytes": 498887,
+      "mime": "image/png"
+    },
+    {
+      "name": "R133_park_routes_basecolor",
+      "embedded_bytes": 1081133,
+      "mime": "image/png"
     }
   ],
   "texture_bindings": [
+    {
+      "material": "R147_GRAIN_STONE_CANDIDATE",
+      "usage": "basecolor",
+      "image": "R46_stone_grain_candidate_basecolor",
+      "uv_attribute": "TEXCOORD_0",
+      "primitive_count": 6
+    },
+    {
+      "material": "R147_GRAIN_STONE_CANDIDATE",
+      "usage": "normal",
+      "image": "R46_stone_grain_candidate_normal",
+      "uv_attribute": "TEXCOORD_0",
+      "primitive_count": 6
+    },
     {
       "material": "R32_LIMESTONE_APPEARANCE_CANDIDATE",
       "usage": "basecolor",
@@ -143,6 +172,34 @@
       "image": "R32_limestone_candidate_normal",
       "uv_attribute": "TEXCOORD_0",
       "primitive_count": 90
+    },
+    {
+      "material": "R145_GRAIN_STONE_CANDIDATE",
+      "usage": "basecolor",
+      "image": "R46_stone_grain_candidate_basecolor",
+      "uv_attribute": "TEXCOORD_0",
+      "primitive_count": 3
+    },
+    {
+      "material": "R145_GRAIN_STONE_CANDIDATE",
+      "usage": "normal",
+      "image": "R46_stone_grain_candidate_normal",
+      "uv_attribute": "TEXCOORD_0",
+      "primitive_count": 3
+    },
+    {
+      "material": "R145_JOINT_STONE_CANDIDATE",
+      "usage": "basecolor",
+      "image": "R32_limestone_candidate_basecolor",
+      "uv_attribute": "TEXCOORD_0",
+      "primitive_count": 3
+    },
+    {
+      "material": "R145_JOINT_STONE_CANDIDATE",
+      "usage": "normal",
+      "image": "R32_limestone_candidate_normal",
+      "uv_attribute": "TEXCOORD_0",
+      "primitive_count": 3
     },
     {
       "material": "R32_WOOD_APPEARANCE_CANDIDATE",
@@ -173,6 +230,174 @@
       "primitive_count": 2
     },
     {
+      "material": "R138_FLOOR_CONTINUITY_CANDIDATE",
+      "usage": "basecolor",
+      "image": "R43_stone_floor_candidate_basecolor",
+      "uv_attribute": "TEXCOORD_0",
+      "primitive_count": 1
+    },
+    {
+      "material": "R138_FLOOR_CONTINUITY_CANDIDATE",
+      "usage": "normal",
+      "image": "R43_stone_floor_candidate_normal",
+      "uv_attribute": "TEXCOORD_0",
+      "primitive_count": 1
+    },
+    {
+      "material": "R140_FLOOR_CONTINUITY_CANDIDATE",
+      "usage": "basecolor",
+      "image": "R43_stone_floor_candidate_basecolor",
+      "uv_attribute": "TEXCOORD_1",
+      "primitive_count": 1
+    },
+    {
+      "material": "R140_FLOOR_CONTINUITY_CANDIDATE",
+      "usage": "normal",
+      "image": "R43_stone_floor_candidate_normal",
+      "uv_attribute": "TEXCOORD_1",
+      "primitive_count": 1
+    },
+    {
+      "material": "R148_FLOOR_CONTINUITY_CANDIDATE",
+      "usage": "basecolor",
+      "image": "R43_stone_floor_candidate_basecolor",
+      "uv_attribute": "TEXCOORD_0",
+      "primitive_count": 1
+    },
+    {
+      "material": "R148_FLOOR_CONTINUITY_CANDIDATE",
+      "usage": "normal",
+      "image": "R43_stone_floor_candidate_normal",
+      "uv_attribute": "TEXCOORD_0",
+      "primitive_count": 1
+    },
+    {
+      "material": "R67_LINK_DIAGONAL_STONE_CANDIDATE",
+      "usage": "basecolor",
+      "image": "R67_diagonal_floor_candidate_basecolor",
+      "uv_attribute": "TEXCOORD_0",
+      "primitive_count": 1
+    },
+    {
+      "material": "R67_LINK_DIAGONAL_STONE_CANDIDATE",
+      "usage": "normal",
+      "image": "R67_diagonal_floor_candidate_normal",
+      "uv_attribute": "TEXCOORD_0",
+      "primitive_count": 1
+    },
+    {
+      "material": "R139_GRAIN_STONE_CANDIDATE",
+      "usage": "basecolor",
+      "image": "R46_stone_grain_candidate_basecolor",
+      "uv_attribute": "TEXCOORD_0",
+      "primitive_count": 9
+    },
+    {
+      "material": "R139_GRAIN_STONE_CANDIDATE",
+      "usage": "normal",
+      "image": "R46_stone_grain_candidate_normal",
+      "uv_attribute": "TEXCOORD_0",
+      "primitive_count": 9
+    },
+    {
+      "material": "R139_JOINT_STONE_CANDIDATE",
+      "usage": "basecolor",
+      "image": "R32_limestone_candidate_basecolor",
+      "uv_attribute": "TEXCOORD_0",
+      "primitive_count": 9
+    },
+    {
+      "material": "R139_JOINT_STONE_CANDIDATE",
+      "usage": "normal",
+      "image": "R32_limestone_candidate_normal",
+      "uv_attribute": "TEXCOORD_0",
+      "primitive_count": 9
+    },
+    {
+      "material": "R60_ENTRY_LIMESTONE_CANDIDATE",
+      "usage": "basecolor",
+      "image": "R32_limestone_candidate_basecolor",
+      "uv_attribute": "TEXCOORD_0",
+      "primitive_count": 20
+    },
+    {
+      "material": "R60_ENTRY_LIMESTONE_CANDIDATE",
+      "usage": "normal",
+      "image": "R32_limestone_candidate_normal",
+      "uv_attribute": "TEXCOORD_0",
+      "primitive_count": 20
+    },
+    {
+      "material": "R60_ENTRY_LINEAR_MINERAL_SOFFIT_CANDIDATE",
+      "usage": "basecolor",
+      "image": "R60_soffit_linear_grain_candidate_basecolor",
+      "uv_attribute": "TEXCOORD_0",
+      "primitive_count": 1
+    },
+    {
+      "material": "R60_ENTRY_LINEAR_MINERAL_SOFFIT_CANDIDATE",
+      "usage": "normal",
+      "image": "R60_soffit_linear_grain_candidate_normal",
+      "uv_attribute": "TEXCOORD_0",
+      "primitive_count": 1
+    },
+    {
+      "material": "R134_GRAIN_STONE_CANDIDATE",
+      "usage": "basecolor",
+      "image": "R46_stone_grain_candidate_basecolor",
+      "uv_attribute": "TEXCOORD_0",
+      "primitive_count": 42
+    },
+    {
+      "material": "R134_GRAIN_STONE_CANDIDATE",
+      "usage": "normal",
+      "image": "R46_stone_grain_candidate_normal",
+      "uv_attribute": "TEXCOORD_0",
+      "primitive_count": 42
+    },
+    {
+      "material": "R134_JOINT_STONE_CANDIDATE",
+      "usage": "basecolor",
+      "image": "R32_limestone_candidate_basecolor",
+      "uv_attribute": "TEXCOORD_0",
+      "primitive_count": 14
+    },
+    {
+      "material": "R134_JOINT_STONE_CANDIDATE",
+      "usage": "normal",
+      "image": "R32_limestone_candidate_normal",
+      "uv_attribute": "TEXCOORD_0",
+      "primitive_count": 14
+    },
+    {
+      "material": "R146_GRAIN_STONE_CANDIDATE",
+      "usage": "basecolor",
+      "image": "R46_stone_grain_candidate_basecolor",
+      "uv_attribute": "TEXCOORD_0",
+      "primitive_count": 18
+    },
+    {
+      "material": "R146_GRAIN_STONE_CANDIDATE",
+      "usage": "normal",
+      "image": "R46_stone_grain_candidate_normal",
+      "uv_attribute": "TEXCOORD_0",
+      "primitive_count": 18
+    },
+    {
+      "material": "R146_JOINT_STONE_CANDIDATE",
+      "usage": "basecolor",
+      "image": "R32_limestone_candidate_basecolor",
+      "uv_attribute": "TEXCOORD_0",
+      "primitive_count": 18
+    },
+    {
+      "material": "R146_JOINT_STONE_CANDIDATE",
+      "usage": "normal",
+      "image": "R32_limestone_candidate_normal",
+      "uv_attribute": "TEXCOORD_0",
+      "primitive_count": 18
+    },
+    {
       "material": "R46_STONE_GRAIN_APPEARANCE_CANDIDATE",
       "usage": "basecolor",
       "image": "R46_stone_grain_candidate_basecolor",
@@ -215,6 +440,167 @@
       "primitive_count": 35
     },
     {
+      "material": "R144_GRAIN_STONE_CANDIDATE",
+      "usage": "basecolor",
+      "image": "R46_stone_grain_candidate_basecolor",
+      "uv_attribute": "TEXCOORD_0",
+      "primitive_count": 1
+    },
+    {
+      "material": "R144_GRAIN_STONE_CANDIDATE",
+      "usage": "normal",
+      "image": "R46_stone_grain_candidate_normal",
+      "uv_attribute": "TEXCOORD_0",
+      "primitive_count": 1
+    },
+    {
+      "material": "R137_GRAIN_STONE_CANDIDATE",
+      "usage": "basecolor",
+      "image": "R46_stone_grain_candidate_basecolor",
+      "uv_attribute": "TEXCOORD_0",
+      "primitive_count": 40
+    },
+    {
+      "material": "R137_GRAIN_STONE_CANDIDATE",
+      "usage": "normal",
+      "image": "R46_stone_grain_candidate_normal",
+      "uv_attribute": "TEXCOORD_0",
+      "primitive_count": 40
+    },
+    {
+      "material": "R137_JOINT_STONE_CANDIDATE",
+      "usage": "basecolor",
+      "image": "R32_limestone_candidate_basecolor",
+      "uv_attribute": "TEXCOORD_0",
+      "primitive_count": 4
+    },
+    {
+      "material": "R137_JOINT_STONE_CANDIDATE",
+      "usage": "normal",
+      "image": "R32_limestone_candidate_normal",
+      "uv_attribute": "TEXCOORD_0",
+      "primitive_count": 4
+    },
+    {
+      "material": "R137_GRAIN_STONE_CANDIDATE",
+      "usage": "basecolor",
+      "image": "R46_stone_grain_candidate_basecolor",
+      "uv_attribute": "TEXCOORD_1",
+      "primitive_count": 1
+    },
+    {
+      "material": "R137_GRAIN_STONE_CANDIDATE",
+      "usage": "normal",
+      "image": "R46_stone_grain_candidate_normal",
+      "uv_attribute": "TEXCOORD_1",
+      "primitive_count": 1
+    },
+    {
+      "material": "R137_JOINT_STONE_CANDIDATE",
+      "usage": "basecolor",
+      "image": "R32_limestone_candidate_basecolor",
+      "uv_attribute": "TEXCOORD_1",
+      "primitive_count": 1
+    },
+    {
+      "material": "R137_JOINT_STONE_CANDIDATE",
+      "usage": "normal",
+      "image": "R32_limestone_candidate_normal",
+      "uv_attribute": "TEXCOORD_1",
+      "primitive_count": 1
+    },
+    {
+      "material": "R136_GRAIN_STONE_CANDIDATE",
+      "usage": "basecolor",
+      "image": "R46_stone_grain_candidate_basecolor",
+      "uv_attribute": "TEXCOORD_1",
+      "primitive_count": 1
+    },
+    {
+      "material": "R136_GRAIN_STONE_CANDIDATE",
+      "usage": "normal",
+      "image": "R46_stone_grain_candidate_normal",
+      "uv_attribute": "TEXCOORD_1",
+      "primitive_count": 1
+    },
+    {
+      "material": "R136_GRAIN_STONE_CANDIDATE",
+      "usage": "basecolor",
+      "image": "R46_stone_grain_candidate_basecolor",
+      "uv_attribute": "TEXCOORD_0",
+      "primitive_count": 50
+    },
+    {
+      "material": "R136_GRAIN_STONE_CANDIDATE",
+      "usage": "normal",
+      "image": "R46_stone_grain_candidate_normal",
+      "uv_attribute": "TEXCOORD_0",
+      "primitive_count": 50
+    },
+    {
+      "material": "R135_AUDITORIUM_WOOD_GRAIN_CANDIDATE",
+      "usage": "basecolor",
+      "image": "R135_auditorium_wood_basecolor",
+      "uv_attribute": "TEXCOORD_0",
+      "primitive_count": 230
+    },
+    {
+      "material": "R53_REVEAL_LIMESTONE_CANDIDATE",
+      "usage": "basecolor",
+      "image": "R32_limestone_candidate_basecolor",
+      "uv_attribute": "TEXCOORD_1",
+      "primitive_count": 20
+    },
+    {
+      "material": "R53_REVEAL_LIMESTONE_CANDIDATE",
+      "usage": "normal",
+      "image": "R32_limestone_candidate_normal",
+      "uv_attribute": "TEXCOORD_1",
+      "primitive_count": 20
+    },
+    {
+      "material": "R53_LINEAR_MINERAL_SOFFIT_CANDIDATE",
+      "usage": "basecolor",
+      "image": "R53_soffit_linear_grain_candidate_basecolor",
+      "uv_attribute": "TEXCOORD_1",
+      "primitive_count": 1
+    },
+    {
+      "material": "R53_LINEAR_MINERAL_SOFFIT_CANDIDATE",
+      "usage": "normal",
+      "image": "R53_soffit_linear_grain_candidate_normal",
+      "uv_attribute": "TEXCOORD_1",
+      "primitive_count": 1
+    },
+    {
+      "material": "R138_FLOOR_CONTINUITY_CANDIDATE",
+      "usage": "basecolor",
+      "image": "R43_stone_floor_candidate_basecolor",
+      "uv_attribute": "TEXCOORD_1",
+      "primitive_count": 1
+    },
+    {
+      "material": "R138_FLOOR_CONTINUITY_CANDIDATE",
+      "usage": "normal",
+      "image": "R43_stone_floor_candidate_normal",
+      "uv_attribute": "TEXCOORD_1",
+      "primitive_count": 1
+    },
+    {
+      "material": "R138_FLOOR_CONTINUITY_CANDIDATE",
+      "usage": "basecolor",
+      "image": "R43_stone_floor_candidate_basecolor",
+      "uv_attribute": "TEXCOORD_2",
+      "primitive_count": 1
+    },
+    {
+      "material": "R138_FLOOR_CONTINUITY_CANDIDATE",
+      "usage": "normal",
+      "image": "R43_stone_floor_candidate_normal",
+      "uv_attribute": "TEXCOORD_2",
+      "primitive_count": 1
+    },
+    {
       "material": "R43_STONE_FLOOR_APPEARANCE_CANDIDATE",
       "usage": "basecolor",
       "image": "R43_stone_floor_candidate_basecolor",
@@ -227,6 +613,293 @@
       "image": "R43_stone_floor_candidate_normal",
       "uv_attribute": "TEXCOORD_1",
       "primitive_count": 1
+    },
+    {
+      "material": "R62_HERRINGBONE_STONE_CANDIDATE",
+      "usage": "basecolor",
+      "image": "R62_herringbone_candidate_basecolor",
+      "uv_attribute": "TEXCOORD_0",
+      "primitive_count": 1
+    },
+    {
+      "material": "R62_HERRINGBONE_STONE_CANDIDATE",
+      "usage": "normal",
+      "image": "R62_herringbone_candidate_normal",
+      "uv_attribute": "TEXCOORD_0",
+      "primitive_count": 1
+    },
+    {
+      "material": "R59_PALE_STONE_EDGE_CANDIDATE",
+      "usage": "basecolor",
+      "image": "R43_stone_floor_candidate_basecolor",
+      "uv_attribute": "TEXCOORD_0",
+      "primitive_count": 1
+    },
+    {
+      "material": "R59_PALE_STONE_EDGE_CANDIDATE",
+      "usage": "normal",
+      "image": "R43_stone_floor_candidate_normal",
+      "uv_attribute": "TEXCOORD_0",
+      "primitive_count": 1
+    },
+    {
+      "material": "R129_MOAT_TURF_APPEARANCE_CANDIDATE",
+      "usage": "basecolor",
+      "image": "R129_moat_turf_basecolor",
+      "uv_attribute": "TEXCOORD_0",
+      "primitive_count": 3
+    },
+    {
+      "material": "R129_MOAT_TURF_APPEARANCE_CANDIDATE",
+      "usage": "normal",
+      "image": "R129_moat_turf_normal",
+      "uv_attribute": "TEXCOORD_0",
+      "primitive_count": 3
+    },
+    {
+      "material": "R129_MOAT_TURF_APPEARANCE_CANDIDATE",
+      "usage": "metallic_roughness",
+      "image": "R129_moat_turf_roughness",
+      "uv_attribute": "TEXCOORD_0",
+      "primitive_count": 3
+    },
+    {
+      "material": "R129_HISTORIC_MASONRY_APPEARANCE_CANDIDATE",
+      "usage": "basecolor",
+      "image": "R129_historic_masonry_basecolor",
+      "uv_attribute": "TEXCOORD_1",
+      "primitive_count": 1
+    },
+    {
+      "material": "R129_HISTORIC_MASONRY_APPEARANCE_CANDIDATE",
+      "usage": "normal",
+      "image": "R129_historic_masonry_normal",
+      "uv_attribute": "TEXCOORD_1",
+      "primitive_count": 1
+    },
+    {
+      "material": "R129_HISTORIC_MASONRY_APPEARANCE_CANDIDATE",
+      "usage": "metallic_roughness",
+      "image": "R129_historic_masonry_roughness",
+      "uv_attribute": "TEXCOORD_1",
+      "primitive_count": 1
+    },
+    {
+      "material": "R129_HISTORIC_MASONRY_APPEARANCE_CANDIDATE",
+      "usage": "basecolor",
+      "image": "R129_historic_masonry_basecolor",
+      "uv_attribute": "TEXCOORD_0",
+      "primitive_count": 25
+    },
+    {
+      "material": "R129_HISTORIC_MASONRY_APPEARANCE_CANDIDATE",
+      "usage": "normal",
+      "image": "R129_historic_masonry_normal",
+      "uv_attribute": "TEXCOORD_0",
+      "primitive_count": 25
+    },
+    {
+      "material": "R129_HISTORIC_MASONRY_APPEARANCE_CANDIDATE",
+      "usage": "metallic_roughness",
+      "image": "R129_historic_masonry_roughness",
+      "uv_attribute": "TEXCOORD_0",
+      "primitive_count": 25
+    },
+    {
+      "material": "R133_PARK_ROUTE_ATLAS_CANDIDATE",
+      "usage": "basecolor",
+      "image": "R133_park_routes_basecolor",
+      "uv_attribute": "TEXCOORD_0",
+      "primitive_count": 1
+    },
+    {
+      "material": "R133_PARK_ROUTE_ATLAS_CANDIDATE",
+      "usage": "normal",
+      "image": "R133_park_routes_normal",
+      "uv_attribute": "TEXCOORD_0",
+      "primitive_count": 1
+    },
+    {
+      "material": "R53_REVEAL_LIMESTONE_CANDIDATE",
+      "usage": "basecolor",
+      "image": "R32_limestone_candidate_basecolor",
+      "uv_attribute": "TEXCOORD_0",
+      "primitive_count": 8
+    },
+    {
+      "material": "R53_REVEAL_LIMESTONE_CANDIDATE",
+      "usage": "normal",
+      "image": "R32_limestone_candidate_normal",
+      "uv_attribute": "TEXCOORD_0",
+      "primitive_count": 8
+    },
+    {
+      "material": "R53_REVEAL_SILL_STONE_CANDIDATE",
+      "usage": "basecolor",
+      "image": "R43_stone_floor_candidate_basecolor",
+      "uv_attribute": "TEXCOORD_0",
+      "primitive_count": 2
+    },
+    {
+      "material": "R53_REVEAL_SILL_STONE_CANDIDATE",
+      "usage": "normal",
+      "image": "R43_stone_floor_candidate_normal",
+      "uv_attribute": "TEXCOORD_0",
+      "primitive_count": 2
+    },
+    {
+      "material": "R53_LINEAR_MINERAL_SOFFIT_CANDIDATE",
+      "usage": "basecolor",
+      "image": "R53_soffit_linear_grain_candidate_basecolor",
+      "uv_attribute": "TEXCOORD_0",
+      "primitive_count": 2
+    },
+    {
+      "material": "R53_LINEAR_MINERAL_SOFFIT_CANDIDATE",
+      "usage": "normal",
+      "image": "R53_soffit_linear_grain_candidate_normal",
+      "uv_attribute": "TEXCOORD_0",
+      "primitive_count": 2
+    },
+    {
+      "material": "R143_GRAIN_STONE_CANDIDATE",
+      "usage": "basecolor",
+      "image": "R46_stone_grain_candidate_basecolor",
+      "uv_attribute": "TEXCOORD_0",
+      "primitive_count": 1
+    },
+    {
+      "material": "R143_GRAIN_STONE_CANDIDATE",
+      "usage": "normal",
+      "image": "R46_stone_grain_candidate_normal",
+      "uv_attribute": "TEXCOORD_0",
+      "primitive_count": 1
+    },
+    {
+      "material": "R143_JOINT_STONE_CANDIDATE",
+      "usage": "basecolor",
+      "image": "R32_limestone_candidate_basecolor",
+      "uv_attribute": "TEXCOORD_0",
+      "primitive_count": 1
+    },
+    {
+      "material": "R143_JOINT_STONE_CANDIDATE",
+      "usage": "normal",
+      "image": "R32_limestone_candidate_normal",
+      "uv_attribute": "TEXCOORD_0",
+      "primitive_count": 1
+    },
+    {
+      "material": "R141_GRAIN_STONE_CANDIDATE",
+      "usage": "basecolor",
+      "image": "R46_stone_grain_candidate_basecolor",
+      "uv_attribute": "TEXCOORD_0",
+      "primitive_count": 3
+    },
+    {
+      "material": "R141_GRAIN_STONE_CANDIDATE",
+      "usage": "normal",
+      "image": "R46_stone_grain_candidate_normal",
+      "uv_attribute": "TEXCOORD_0",
+      "primitive_count": 3
+    },
+    {
+      "material": "R141_JOINT_STONE_CANDIDATE",
+      "usage": "basecolor",
+      "image": "R32_limestone_candidate_basecolor",
+      "uv_attribute": "TEXCOORD_0",
+      "primitive_count": 3
+    },
+    {
+      "material": "R141_JOINT_STONE_CANDIDATE",
+      "usage": "normal",
+      "image": "R32_limestone_candidate_normal",
+      "uv_attribute": "TEXCOORD_0",
+      "primitive_count": 3
+    },
+    {
+      "material": "R147_JOINT_STONE_CANDIDATE",
+      "usage": "basecolor",
+      "image": "R32_limestone_candidate_basecolor",
+      "uv_attribute": "TEXCOORD_0",
+      "primitive_count": 5
+    },
+    {
+      "material": "R147_JOINT_STONE_CANDIDATE",
+      "usage": "normal",
+      "image": "R32_limestone_candidate_normal",
+      "uv_attribute": "TEXCOORD_0",
+      "primitive_count": 5
+    },
+    {
+      "material": "R131_WALL_CONTINUITY_CANDIDATE",
+      "usage": "basecolor",
+      "image": "R32_limestone_candidate_basecolor",
+      "uv_attribute": "TEXCOORD_1",
+      "primitive_count": 1
+    },
+    {
+      "material": "R131_WALL_CONTINUITY_CANDIDATE",
+      "usage": "normal",
+      "image": "R32_limestone_candidate_normal",
+      "uv_attribute": "TEXCOORD_1",
+      "primitive_count": 1
+    },
+    {
+      "material": "R131_WALL_CONTINUITY_CANDIDATE",
+      "usage": "basecolor",
+      "image": "R32_limestone_candidate_basecolor",
+      "uv_attribute": "TEXCOORD_0",
+      "primitive_count": 6
+    },
+    {
+      "material": "R131_WALL_CONTINUITY_CANDIDATE",
+      "usage": "normal",
+      "image": "R32_limestone_candidate_normal",
+      "uv_attribute": "TEXCOORD_0",
+      "primitive_count": 6
+    },
+    {
+      "material": "R131_FLOOR_CONTINUITY_CANDIDATE",
+      "usage": "basecolor",
+      "image": "R43_stone_floor_candidate_basecolor",
+      "uv_attribute": "TEXCOORD_1",
+      "primitive_count": 2
+    },
+    {
+      "material": "R131_FLOOR_CONTINUITY_CANDIDATE",
+      "usage": "normal",
+      "image": "R43_stone_floor_candidate_normal",
+      "uv_attribute": "TEXCOORD_1",
+      "primitive_count": 2
+    },
+    {
+      "material": "R131_WALL_CONTINUITY_CANDIDATE",
+      "usage": "basecolor",
+      "image": "R32_limestone_candidate_basecolor",
+      "uv_attribute": "TEXCOORD_2",
+      "primitive_count": 1
+    },
+    {
+      "material": "R131_WALL_CONTINUITY_CANDIDATE",
+      "usage": "normal",
+      "image": "R32_limestone_candidate_normal",
+      "uv_attribute": "TEXCOORD_2",
+      "primitive_count": 1
+    },
+    {
+      "material": "R131_FLOOR_CONTINUITY_CANDIDATE",
+      "usage": "basecolor",
+      "image": "R43_stone_floor_candidate_basecolor",
+      "uv_attribute": "TEXCOORD_0",
+      "primitive_count": 2
+    },
+    {
+      "material": "R131_FLOOR_CONTINUITY_CANDIDATE",
+      "usage": "normal",
+      "image": "R43_stone_floor_candidate_normal",
+      "uv_attribute": "TEXCOORD_0",
+      "primitive_count": 2
     }
   ],
   "failures": [],

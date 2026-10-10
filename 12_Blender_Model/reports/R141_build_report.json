@@ -1,0 +1,396 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R141_GIRIS_KAFE_TAS_DUVARLAR_v001.blend",
+  "base_scene": "MUDAM_R140_DOGU_BAHCE_TAS_ZEMIN_v001.blend",
+  "changed_inherited_objects": [
+    "R82_ENTRY_INNER_WALL",
+    "R83_CAFE_BACK_WALL",
+    "R83_CAFE_ENTRY_HEAD"
+  ],
+  "closed_objects": [],
+  "surface_objects": [
+    {
+      "name": "R82_ENTRY_INNER_WALL",
+      "faces": [
+        {
+          "face": 0,
+          "material": "R141_JOINT_STONE_CANDIDATE",
+          "u": [
+            0.036317307502031326,
+            0.9993403553962708,
+            -0.0
+          ],
+          "v": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "repeat_m": [
+            3.2,
+            2.4
+          ]
+        },
+        {
+          "face": 1,
+          "material": "R141_JOINT_STONE_CANDIDATE",
+          "u": [
+            0.036317307502031326,
+            0.9993403553962708,
+            -0.0
+          ],
+          "v": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "repeat_m": [
+            3.2,
+            2.4
+          ]
+        },
+        {
+          "face": 2,
+          "material": "R141_GRAIN_STONE_CANDIDATE",
+          "u": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "v": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "repeat_m": [
+            2.0,
+            2.0
+          ]
+        },
+        {
+          "face": 3,
+          "material": "R141_JOINT_STONE_CANDIDATE",
+          "u": [
+            0.9993399381637573,
+            -0.03632853925228119,
+            -0.0
+          ],
+          "v": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "repeat_m": [
+            3.2,
+            2.4
+          ]
+        },
+        {
+          "face": 4,
+          "material": "R141_GRAIN_STONE_CANDIDATE",
+          "u": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "v": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "repeat_m": [
+            2.0,
+            2.0
+          ]
+        },
+        {
+          "face": 5,
+          "material": "R141_JOINT_STONE_CANDIDATE",
+          "u": [
+            0.9993399381637573,
+            -0.03632853925228119,
+            0.0
+          ],
+          "v": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "repeat_m": [
+            3.2,
+            2.4
+          ]
+        }
+      ]
+    },
+    {
+      "name": "R83_CAFE_BACK_WALL",
+      "faces": [
+        {
+          "face": 0,
+          "material": "R141_JOINT_STONE_CANDIDATE",
+          "u": [
+            0.999340295791626,
+            -0.03631756827235222,
+            0.0
+          ],
+          "v": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "repeat_m": [
+            3.2,
+            2.4
+          ]
+        },
+        {
+          "face": 1,
+          "material": "R141_JOINT_STONE_CANDIDATE",
+          "u": [
+            0.999340295791626,
+            -0.03631756827235222,
+            -0.0
+          ],
+          "v": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "repeat_m": [
+            3.2,
+            2.4
+          ]
+        },
+        {
+          "face": 2,
+          "material": "R141_GRAIN_STONE_CANDIDATE",
+          "u": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "v": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "repeat_m": [
+            2.0,
+            2.0
+          ]
+        },
+        {
+          "face": 3,
+          "material": "R141_GRAIN_STONE_CANDIDATE",
+          "u": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "v": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "repeat_m": [
+            2.0,
+            2.0
+          ]
+        },
+        {
+          "face": 4,
+          "material": "R141_JOINT_STONE_CANDIDATE",
+          "u": [
+            0.03631900995969772,
+            0.999340295791626,
+            -0.0
+          ],
+          "v": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "repeat_m": [
+            3.2,
+            2.4
+          ]
+        },
+        {
+          "face": 5,
+          "material": "R141_JOINT_STONE_CANDIDATE",
+          "u": [
+            0.036315836012363434,
+            0.9993403553962708,
+            -0.0
+          ],
+          "v": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "repeat_m": [
+            3.2,
+            2.4
+          ]
+        }
+      ]
+    },
+    {
+      "name": "R83_CAFE_ENTRY_HEAD",
+      "faces": [
+        {
+          "face": 0,
+          "material": "R141_JOINT_STONE_CANDIDATE",
+          "u": [
+            0.9993403553962708,
+            -0.036316972225904465,
+            0.0
+          ],
+          "v": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "repeat_m": [
+            3.2,
+            2.4
+          ]
+        },
+        {
+          "face": 1,
+          "material": "R141_JOINT_STONE_CANDIDATE",
+          "u": [
+            0.9993403553962708,
+            -0.036316972225904465,
+            -0.0
+          ],
+          "v": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "repeat_m": [
+            3.2,
+            2.4
+          ]
+        },
+        {
+          "face": 2,
+          "material": "R141_GRAIN_STONE_CANDIDATE",
+          "u": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "v": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "repeat_m": [
+            2.0,
+            2.0
+          ]
+        },
+        {
+          "face": 3,
+          "material": "R141_JOINT_STONE_CANDIDATE",
+          "u": [
+            0.036315836012363434,
+            0.9993403553962708,
+            -0.0
+          ],
+          "v": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "repeat_m": [
+            3.2,
+            2.4
+          ]
+        },
+        {
+          "face": 4,
+          "material": "R141_GRAIN_STONE_CANDIDATE",
+          "u": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "v": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "repeat_m": [
+            2.0,
+            2.0
+          ]
+        },
+        {
+          "face": 5,
+          "material": "R141_JOINT_STONE_CANDIDATE",
+          "u": [
+            0.036315836012363434,
+            0.9993403553962708,
+            -0.0
+          ],
+          "v": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "repeat_m": [
+            3.2,
+            2.4
+          ]
+        }
+      ]
+    }
+  ],
+  "uv_map": "R141_STONE_METRIC_UV",
+  "materials": [
+    "R141_GRAIN_STONE_CANDIDATE",
+    "R141_JOINT_STONE_CANDIDATE"
+  ],
+  "sources": [
+    {
+      "id": "066",
+      "path": "04_Ic_Mekan/Cam_Gecit/066_Cam_gecit_ve_pavyon_baglantisi_WikiArquitectura.jpg",
+      "sha256": "df52c5100b34ba3f770e723fe5a84a5e2bcbb72596b757bf092f54484a7ce648",
+      "source_url": "https://es.wikiarquitectura.com/edificio/museo-de-arte-moderno-grand-duc-jean-mudam/",
+      "credit": "WikiArquitectura; sayfadaki foto\u011fraf serisi Haziran 2019",
+      "source_date": "unknown; do not infer from download date",
+      "modified": false
+    },
+    {
+      "id": "093",
+      "path": "05_Dis_Mekan/Cepheler/093_Tas_cephe_ve_cam_cati_ArchEyes.jpg",
+      "sha256": "c5e4eae1fdae8bc664586f0ea2f14753c55bca1400bd3edd99f265a145d5e618",
+      "source_url": "https://archeyes.com/the-mudam-by-i-m-pei-where-old-meets-new/",
+      "credit": "\u00a9 Michael Nguyen / ArchEyes",
+      "source_date": "unknown; do not infer from download date",
+      "modified": false
+    },
+    {
+      "id": "097",
+      "path": "05_Dis_Mekan/Cepheler/097_Tas_cephe_ve_cam_cati_ArchEyes.jpg",
+      "sha256": "fd75919c30d7568a0eb5c56488c2a1f4f00d3043218825a73a89427966995bd1",
+      "source_url": "https://archeyes.com/the-mudam-by-i-m-pei-where-old-meets-new/",
+      "credit": "\u00a9 Michael Nguyen / ArchEyes",
+      "source_date": "unknown; do not infer from download date",
+      "modified": false
+    },
+    {
+      "id": "102",
+      "path": "01_Kat_Planlari/Resmi_Kat_Semalari/102_Resmi_kat_semasi_zemin_0_Mudam.jpeg",
+      "sha256": "f4d1d1992e1e2d664d5bf5fddd6aedd760edb2931f398e52b5e13316acec2407",
+      "source_url": "https://www.mudam.com/fr/floor-plans",
+      "credit": "Mudam Luxembourg; kullan\u0131c\u0131 taraf\u0131ndan verilen do\u011frudan ba\u011flant\u0131",
+      "source_date": "unknown; do not infer from download date",
+      "modified": false
+    }
+  ],
+  "geometry_changed": false,
+  "construction_acceptance": false
+}

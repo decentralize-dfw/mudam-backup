@@ -1,0 +1,63 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R142_KOPRU_YOL_KAPLAMA_DEVAMI_v001.blend",
+  "images": [
+    {
+      "image": "12_Blender_Model/renders/qa/R142_before_bridge.png",
+      "eye": [
+        68,
+        76,
+        32
+      ],
+      "target": [
+        32,
+        43,
+        0
+      ],
+      "stage": "before"
+    },
+    {
+      "image": "12_Blender_Model/renders/qa/R142_before_surface.png",
+      "eye": [
+        35,
+        59,
+        3
+      ],
+      "target": [
+        30,
+        49,
+        0
+      ],
+      "stage": "before"
+    },
+    {
+      "image": "12_Blender_Model/renders/qa/R142_after_bridge.png",
+      "eye": [
+        68,
+        76,
+        32
+      ],
+      "target": [
+        32,
+        43,
+        0
+      ],
+      "stage": "after"
+    },
+    {
+      "image": "12_Blender_Model/renders/qa/R142_after_surface.png",
+      "eye": [
+        35,
+        59,
+        3
+      ],
+      "target": [
+        30,
+        49,
+        0
+      ],
+      "stage": "after"
+    }
+  ],
+  "all_active_surroundings": true,
+  "lighting_unchanged": true
+}

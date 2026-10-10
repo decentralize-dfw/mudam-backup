@@ -1,0 +1,347 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R134_OKUMA_TAVANI_DOGU_MERDIVEN_TASI_v001.blend",
+  "evaluated_geometry_objects_checked": 9365,
+  "geometry_identical": true,
+  "uv_checks": [
+    {
+      "name": "R08_STONE_CEILING_0",
+      "faces": 1,
+      "max_uv_error": 0.0,
+      "min_uv_area": 1.6575515424581795
+    },
+    {
+      "name": "R08_STONE_CEILING_1",
+      "faces": 1,
+      "max_uv_error": 0.0,
+      "min_uv_area": 2.47388874238095
+    },
+    {
+      "name": "R08_STONE_CEILING_2",
+      "faces": 1,
+      "max_uv_error": 0.0,
+      "min_uv_area": 1.665267317050052
+    },
+    {
+      "name": "R08_STONE_CEILING_3",
+      "faces": 1,
+      "max_uv_error": 0.0,
+      "min_uv_area": 2.4509890822137805
+    },
+    {
+      "name": "R08_STONE_CEILING_4",
+      "faces": 1,
+      "max_uv_error": 0.0,
+      "min_uv_area": 1.6391108999423487
+    },
+    {
+      "name": "R08_STONE_CEILING_5",
+      "faces": 1,
+      "max_uv_error": 0.0,
+      "min_uv_area": 2.41154584901912
+    },
+    {
+      "name": "R08_STONE_CEILING_6",
+      "faces": 1,
+      "max_uv_error": 0.0,
+      "min_uv_area": 1.6320433038322335
+    },
+    {
+      "name": "R08_STONE_CEILING_7",
+      "faces": 1,
+      "max_uv_error": 0.0,
+      "min_uv_area": 2.433139374454413
+    },
+    {
+      "name": "R10_TREAD_01",
+      "faces": 50,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.001331748973978364
+    },
+    {
+      "name": "R10_TREAD_02",
+      "faces": 50,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.0013317489946498284
+    },
+    {
+      "name": "R10_TREAD_03",
+      "faces": 50,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.001331749015321293
+    },
+    {
+      "name": "R10_TREAD_04",
+      "faces": 50,
+      "max_uv_error": 0.0,
+      "min_uv_area": 1.779440253812936e-05
+    },
+    {
+      "name": "R10_TREAD_05",
+      "faces": 50,
+      "max_uv_error": 0.0,
+      "min_uv_area": 1.7786268472264055e-05
+    },
+    {
+      "name": "R10_TREAD_06",
+      "faces": 50,
+      "max_uv_error": 0.0,
+      "min_uv_area": 1.7799078705138527e-05
+    },
+    {
+      "name": "R10_TREAD_07",
+      "faces": 50,
+      "max_uv_error": 0.0,
+      "min_uv_area": 1.7776599179342156e-05
+    },
+    {
+      "name": "R10_TREAD_08",
+      "faces": 50,
+      "max_uv_error": 0.0,
+      "min_uv_area": 1.7792679500416853e-05
+    },
+    {
+      "name": "R10_TREAD_09",
+      "faces": 50,
+      "max_uv_error": 0.0,
+      "min_uv_area": 1.7792701328289695e-05
+    },
+    {
+      "name": "R10_TREAD_10",
+      "faces": 50,
+      "max_uv_error": 0.0,
+      "min_uv_area": 1.7807084986998234e-05
+    },
+    {
+      "name": "R10_TREAD_11",
+      "faces": 50,
+      "max_uv_error": 0.0,
+      "min_uv_area": 1.7790127003536327e-05
+    },
+    {
+      "name": "R10_TREAD_12",
+      "faces": 50,
+      "max_uv_error": 0.0,
+      "min_uv_area": 1.7786760508897714e-05
+    },
+    {
+      "name": "R10_TREAD_13",
+      "faces": 50,
+      "max_uv_error": 0.0,
+      "min_uv_area": 1.7791302070691017e-05
+    },
+    {
+      "name": "R10_TREAD_14",
+      "faces": 50,
+      "max_uv_error": 0.0,
+      "min_uv_area": 1.7792269318306353e-05
+    },
+    {
+      "name": "R10_TREAD_15",
+      "faces": 50,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.001331749015321293
+    },
+    {
+      "name": "R10_TREAD_16",
+      "faces": 50,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.0013316345743987767
+    },
+    {
+      "name": "R10_TREAD_17",
+      "faces": 50,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.001331749015321293
+    },
+    {
+      "name": "R10_TREAD_18",
+      "faces": 50,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.001331749015321293
+    },
+    {
+      "name": "R10_TREAD_19",
+      "faces": 50,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.0013316345743987767
+    },
+    {
+      "name": "R10_TREAD_20",
+      "faces": 50,
+      "max_uv_error": 0.0,
+      "min_uv_area": 1.7792701328289695e-05
+    },
+    {
+      "name": "R10_TREAD_21",
+      "faces": 50,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.001331749015321293
+    },
+    {
+      "name": "R10_TREAD_22",
+      "faces": 50,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.0013317476923475624
+    },
+    {
+      "name": "R10_TREAD_23",
+      "faces": 50,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.001331749015321293
+    },
+    {
+      "name": "R10_TREAD_24",
+      "faces": 50,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.001331749015321293
+    },
+    {
+      "name": "R10_TREAD_25",
+      "faces": 50,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.001331749015321293
+    },
+    {
+      "name": "R10_TREAD_26",
+      "faces": 50,
+      "max_uv_error": 0.0,
+      "min_uv_area": 1.779440253812936e-05
+    },
+    {
+      "name": "R10_TREAD_27",
+      "faces": 50,
+      "max_uv_error": 0.0,
+      "min_uv_area": 1.7786268472264055e-05
+    },
+    {
+      "name": "R10_TREAD_28",
+      "faces": 50,
+      "max_uv_error": 0.0,
+      "min_uv_area": 1.7799078705138527e-05
+    },
+    {
+      "name": "R10_TREAD_29",
+      "faces": 50,
+      "max_uv_error": 0.0,
+      "min_uv_area": 1.7776599179342156e-05
+    },
+    {
+      "name": "R10_TREAD_30",
+      "faces": 50,
+      "max_uv_error": 0.0,
+      "min_uv_area": 1.7792679500416853e-05
+    },
+    {
+      "name": "R10_TREAD_31",
+      "faces": 50,
+      "max_uv_error": 0.0,
+      "min_uv_area": 1.7792701328289695e-05
+    },
+    {
+      "name": "R10_TREAD_32",
+      "faces": 50,
+      "max_uv_error": 0.0,
+      "min_uv_area": 1.7807084986998234e-05
+    },
+    {
+      "name": "R10_TREAD_33",
+      "faces": 50,
+      "max_uv_error": 0.0,
+      "min_uv_area": 1.7790127003536327e-05
+    },
+    {
+      "name": "R10_CORE_BODY",
+      "faces": 380,
+      "max_uv_error": 0.0,
+      "min_uv_area": 5.009899723518174e-06
+    },
+    {
+      "name": "R10_CORE_CAP",
+      "faces": 380,
+      "max_uv_error": 0.0,
+      "min_uv_area": 5.009899723518174e-06
+    },
+    {
+      "name": "R10_STONE_OUTER_EDGE",
+      "faces": 1026,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.0010580374105302326
+    },
+    {
+      "name": "R10_GALLERY_GROUND_WALL",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.07592296512314078
+    },
+    {
+      "name": "R10_UPPER_DIAGONAL_WALL",
+      "faces": 8,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.18982431292533875
+    },
+    {
+      "name": "P11_EAST_STONE_BASE",
+      "faces": 8,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.1138886846601963
+    },
+    {
+      "name": "P07_GH_EAST_PORTAL_CROSS_BEAM",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.015833313316107933
+    },
+    {
+      "name": "P07_GH_EAST_PORTAL_JAMB_N",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.017099981389890218
+    },
+    {
+      "name": "P07_GH_EAST_PORTAL_JAMB_S",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.017099990062320103
+    }
+  ],
+  "packed_images": [
+    {
+      "material": "R134_GRAIN_STONE_CANDIDATE",
+      "image": "R46_stone_grain_candidate_basecolor.png",
+      "packed": true,
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "material": "R134_GRAIN_STONE_CANDIDATE",
+      "image": "R46_stone_grain_candidate_normal.png",
+      "packed": true,
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "material": "R134_JOINT_STONE_CANDIDATE",
+      "image": "R32_limestone_candidate_basecolor.png",
+      "packed": true,
+      "size": [
+        2048,
+        1536
+      ]
+    },
+    {
+      "material": "R134_JOINT_STONE_CANDIDATE",
+      "image": "R32_limestone_candidate_normal.png",
+      "packed": true,
+      "size": [
+        2048,
+        1536
+      ]
+    }
+  ],
+  "failures": [],
+  "construction_acceptance": false
+}

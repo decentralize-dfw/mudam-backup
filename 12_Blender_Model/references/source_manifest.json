@@ -1437,5 +1437,23 @@
     "source_date": "unknown",
     "modified": true,
     "description": "Decoded embedded JPX image from PDF page1, no retouching"
+  },
+  {
+    "id": "CF01",
+    "path": "12_Blender_Model/references/cafe_official/CF01.webp",
+    "source_url": "https://dbf642yz813mr.cloudfront.net/images/_medium/1655340/md_mudam_6juin-00469.webp",
+    "source_page": "https://www.mudam.com/fr/visiter/chiche-au-mudam",
+    "sha256": "f19ca9efc80b23e764da91dad738d26861c1e0b839b79132403848e1a02b5e0f",
+    "credit": "Ronan & Erwan Bouroullec, ‘Mudam Café’, 2005–2006. Commande et Collection Mudam Luxembourg. Photo : Marion Dessard © Mudam Luxembourg",
+    "limits": "Official cafe location; material appearance only, dimensions and capture date unverified"
+  },
+  {
+    "id": "CF02",
+    "path": "12_Blender_Model/references/cafe_official/CF02.webp",
+    "source_url": "https://dbf642yz813mr.cloudfront.net/images/_medium/1655306/md_mudamcaf%C3%A9_1986.webp",
+    "source_page": "https://www.mudam.com/fr/visiter/chiche-au-mudam",
+    "sha256": "ec4b894b0a3182492ea30acaa0d292dcb2cd9a433ad861346136135a9727b521",
+    "credit": "Ronan & Erwan Bouroullec, ‘Mudam Café’, 2005–2006. Commande et Collection Mudam Luxembourg. Photo : Marion Dessard © Mudam Luxembourg",
+    "limits": "Official cafe location; material appearance only, dimensions and capture date unverified"
   }
 ]

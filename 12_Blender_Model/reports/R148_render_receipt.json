@@ -1,0 +1,35 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R148_KAFE_TAS_DOSEME_v001.blend",
+  "images": [
+    {
+      "image": "12_Blender_Model/renders/qa/R148_before_cafe.png",
+      "phase": "before",
+      "eye": [
+        -33.536102294921875,
+        16.875146865844727,
+        1.7000000476837158
+      ],
+      "target": [
+        -20.631166458129883,
+        13.464152336120605,
+        0.4000000059604645
+      ]
+    },
+    {
+      "image": "12_Blender_Model/renders/qa/R148_after_cafe.png",
+      "phase": "after",
+      "eye": [
+        -33.536102294921875,
+        16.875146865844727,
+        1.7000000476837158
+      ],
+      "target": [
+        -20.631166458129883,
+        13.464152336120605,
+        0.4000000059604645
+      ]
+    }
+  ],
+  "all_active_surroundings": true,
+  "lighting_unchanged": true
+}

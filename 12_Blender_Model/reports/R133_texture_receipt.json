@@ -1,0 +1,132 @@
+{
+  "routes": [
+    {
+      "id": "83345393",
+      "points": [
+        [
+          81.58321121882182,
+          3.0078856823965907
+        ],
+        [
+          76.87036930595059,
+          6.8828465500846505
+        ],
+        [
+          74.60570641269442,
+          11.23239313904196
+        ],
+        [
+          73.39825821632985,
+          21.31901903450489
+        ],
+        [
+          73.53615604288643,
+          27.035410625860095
+        ],
+        [
+          73.65083163802046,
+          31.951211160980165
+        ],
+        [
+          74.52246270887554,
+          56.38528950698674
+        ],
+        [
+          57.32276122662006,
+          78.41226654220372
+        ],
+        [
+          29.77271978976205,
+          79.3157465076074
+        ],
+        [
+          -9.143050477607176,
+          81.07489543780684
+        ]
+      ],
+      "surface": "paving_stones",
+      "source_tags": {
+        "bicycle": "yes",
+        "highway": "pedestrian",
+        "lit": "yes",
+        "maxspeed": "30",
+        "motor_vehicle": "private",
+        "name": "Park Dr\u00e4i Eechelen",
+        "note": "mainly pedestriation, specific access tag for vehicles added",
+        "surface": "paving_stones"
+      }
+    },
+    {
+      "id": "49910981",
+      "points": [
+        [
+          73.65083163802046,
+          31.951211160980165
+        ],
+        [
+          61.635118199221324,
+          32.263599744066596
+        ]
+      ],
+      "surface": "paving_stones",
+      "source_tags": {
+        "bicycle": "yes",
+        "highway": "pedestrian",
+        "motor_vehicle": "private",
+        "noname": "yes",
+        "note": "mainly pedestriation, specific access tag for vehicles added",
+        "surface": "paving_stones"
+      }
+    },
+    {
+      "id": "50643005",
+      "points": [
+        [
+          29.77271978976205,
+          79.3157465076074
+        ],
+        [
+          29.424501567613333,
+          65.98221109528095
+        ]
+      ],
+      "surface": "sett",
+      "source_tags": {
+        "bicycle": "yes",
+        "highway": "pedestrian",
+        "motor_vehicle": "private",
+        "noname": "yes",
+        "note": "mainly pedestriation, specific access tag for vehicles added",
+        "surface": "sett"
+      }
+    }
+  ],
+  "bounds": [
+    -20.0,
+    -20.0,
+    90.0,
+    100.0
+  ],
+  "resolution": [
+    4096,
+    4096
+  ],
+  "width_m": 4,
+  "textures": [
+    {
+      "path": "12_Blender_Model/textures/R133_park_routes_basecolor.png",
+      "sha256": "6a5f8598499784b5f42b2324ef103f8eaf94220ae0386913e3e62e6e8d4a14d2"
+    },
+    {
+      "path": "12_Blender_Model/textures/R133_park_routes_normal.png",
+      "sha256": "14fdc3f79f0a641dcc942f87a7aa566dcdd92534bd85edcd6d0243fe6b315793"
+    }
+  ],
+  "osm_sha256": "52be5ce3d0eaa72f32a5091efbfdc2f6869666c8519eee7aa341f8135c40c057",
+  "ways_sha256": "fb805c54850922d05d1a40130b77eec6654c54f2a0b89def5be0c3b3b58a70b0",
+  "limits": [
+    "OSM supports route axes and surface class only. Width inherited4m candidate.",
+    "600x300mm paving and160x120mm setts, stagger, colour, joints and relief are replaceable visual candidates; no measured paving schedule.",
+    "Atlas changes no terrain geometry or planted boundary."
+  ]
+}

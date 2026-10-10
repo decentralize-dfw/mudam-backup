@@ -1,0 +1,47 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R138_GIRIS_DOLASIM_TAS_ZEMIN_v002.blend",
+  "evaluated_geometry_objects_checked": 9365,
+  "geometry_identical": true,
+  "uv_checks": [
+    {
+      "name": "P05_FLOOR_L00_ENT",
+      "faces": 7,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.023610335778244007
+    },
+    {
+      "name": "R28_E_CIRCULATION_FLOOR",
+      "faces": 1,
+      "max_uv_error": 0.0,
+      "min_uv_area": 2.169745091653894
+    },
+    {
+      "name": "R28_W_CIRCULATION_FLOOR",
+      "faces": 1,
+      "max_uv_error": 0.0,
+      "min_uv_area": 6.098128689615436
+    }
+  ],
+  "packed_images": [
+    {
+      "material": "R138_FLOOR_CONTINUITY_CANDIDATE",
+      "image": "R43_stone_floor_candidate_basecolor.png",
+      "packed": true,
+      "size": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "material": "R138_FLOOR_CONTINUITY_CANDIDATE",
+      "image": "R43_stone_floor_candidate_normal.png",
+      "packed": true,
+      "size": [
+        2048,
+        2048
+      ]
+    }
+  ],
+  "failures": [],
+  "construction_acceptance": false
+}

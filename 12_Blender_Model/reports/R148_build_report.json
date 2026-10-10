@@ -1,0 +1,644 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R148_KAFE_TAS_DOSEME_v001.blend",
+  "base_scene": "MUDAM_R147_BATI_DONUS_ALT_FUAYE_TAS_v001.blend",
+  "changed_inherited_objects": [
+    "P05_FLOOR_L00_WEST_CAFE"
+  ],
+  "closed_objects": [],
+  "surface_objects": [
+    {
+      "name": "P05_FLOOR_L00_WEST_CAFE",
+      "faces": [
+        {
+          "face": 33,
+          "material": "R148_FLOOR_CONTINUITY_CANDIDATE",
+          "u": [
+            -0.680959939956665,
+            0.7323206067085266,
+            0.0
+          ],
+          "v": [
+            0.7323206067085266,
+            0.680959939956665,
+            0.0
+          ],
+          "repeat_m": [
+            3.6,
+            3.6
+          ]
+        },
+        {
+          "face": 34,
+          "material": "R148_FLOOR_CONTINUITY_CANDIDATE",
+          "u": [
+            -0.680959939956665,
+            0.7323206067085266,
+            0.0
+          ],
+          "v": [
+            0.7323206067085266,
+            0.680959939956665,
+            0.0
+          ],
+          "repeat_m": [
+            3.6,
+            3.6
+          ]
+        },
+        {
+          "face": 35,
+          "material": "R148_FLOOR_CONTINUITY_CANDIDATE",
+          "u": [
+            -0.680959939956665,
+            0.7323206067085266,
+            0.0
+          ],
+          "v": [
+            0.7323206067085266,
+            0.680959939956665,
+            0.0
+          ],
+          "repeat_m": [
+            3.6,
+            3.6
+          ]
+        },
+        {
+          "face": 36,
+          "material": "R148_FLOOR_CONTINUITY_CANDIDATE",
+          "u": [
+            -0.680959939956665,
+            0.7323206067085266,
+            0.0
+          ],
+          "v": [
+            0.7323206067085266,
+            0.680959939956665,
+            0.0
+          ],
+          "repeat_m": [
+            3.6,
+            3.6
+          ]
+        },
+        {
+          "face": 37,
+          "material": "R148_FLOOR_CONTINUITY_CANDIDATE",
+          "u": [
+            -0.680959939956665,
+            0.7323206067085266,
+            0.0
+          ],
+          "v": [
+            0.7323206067085266,
+            0.680959939956665,
+            0.0
+          ],
+          "repeat_m": [
+            3.6,
+            3.6
+          ]
+        },
+        {
+          "face": 38,
+          "material": "R148_FLOOR_CONTINUITY_CANDIDATE",
+          "u": [
+            -0.680959939956665,
+            0.7323206067085266,
+            0.0
+          ],
+          "v": [
+            0.7323206067085266,
+            0.680959939956665,
+            0.0
+          ],
+          "repeat_m": [
+            3.6,
+            3.6
+          ]
+        },
+        {
+          "face": 39,
+          "material": "R148_FLOOR_CONTINUITY_CANDIDATE",
+          "u": [
+            -0.680959939956665,
+            0.7323206067085266,
+            0.0
+          ],
+          "v": [
+            0.7323206067085266,
+            0.680959939956665,
+            0.0
+          ],
+          "repeat_m": [
+            3.6,
+            3.6
+          ]
+        },
+        {
+          "face": 40,
+          "material": "R148_FLOOR_CONTINUITY_CANDIDATE",
+          "u": [
+            -0.680959939956665,
+            0.7323206067085266,
+            0.0
+          ],
+          "v": [
+            0.7323206067085266,
+            0.680959939956665,
+            0.0
+          ],
+          "repeat_m": [
+            3.6,
+            3.6
+          ]
+        },
+        {
+          "face": 41,
+          "material": "R148_FLOOR_CONTINUITY_CANDIDATE",
+          "u": [
+            -0.680959939956665,
+            0.7323206067085266,
+            0.0
+          ],
+          "v": [
+            0.7323206067085266,
+            0.680959939956665,
+            0.0
+          ],
+          "repeat_m": [
+            3.6,
+            3.6
+          ]
+        },
+        {
+          "face": 42,
+          "material": "R148_FLOOR_CONTINUITY_CANDIDATE",
+          "u": [
+            -0.680959939956665,
+            0.7323206067085266,
+            0.0
+          ],
+          "v": [
+            0.7323206067085266,
+            0.680959939956665,
+            0.0
+          ],
+          "repeat_m": [
+            3.6,
+            3.6
+          ]
+        },
+        {
+          "face": 43,
+          "material": "R148_FLOOR_CONTINUITY_CANDIDATE",
+          "u": [
+            -0.680959939956665,
+            0.7323206067085266,
+            0.0
+          ],
+          "v": [
+            0.7323206067085266,
+            0.680959939956665,
+            0.0
+          ],
+          "repeat_m": [
+            3.6,
+            3.6
+          ]
+        },
+        {
+          "face": 44,
+          "material": "R148_FLOOR_CONTINUITY_CANDIDATE",
+          "u": [
+            -0.680959939956665,
+            0.7323206067085266,
+            0.0
+          ],
+          "v": [
+            0.7323206067085266,
+            0.680959939956665,
+            0.0
+          ],
+          "repeat_m": [
+            3.6,
+            3.6
+          ]
+        },
+        {
+          "face": 45,
+          "material": "R148_FLOOR_CONTINUITY_CANDIDATE",
+          "u": [
+            -0.680959939956665,
+            0.7323206067085266,
+            0.0
+          ],
+          "v": [
+            0.7323206067085266,
+            0.680959939956665,
+            0.0
+          ],
+          "repeat_m": [
+            3.6,
+            3.6
+          ]
+        },
+        {
+          "face": 46,
+          "material": "R148_FLOOR_CONTINUITY_CANDIDATE",
+          "u": [
+            -0.680959939956665,
+            0.7323206067085266,
+            0.0
+          ],
+          "v": [
+            0.7323206067085266,
+            0.680959939956665,
+            0.0
+          ],
+          "repeat_m": [
+            3.6,
+            3.6
+          ]
+        },
+        {
+          "face": 47,
+          "material": "R148_FLOOR_CONTINUITY_CANDIDATE",
+          "u": [
+            -0.680959939956665,
+            0.7323206067085266,
+            0.0
+          ],
+          "v": [
+            0.7323206067085266,
+            0.680959939956665,
+            0.0
+          ],
+          "repeat_m": [
+            3.6,
+            3.6
+          ]
+        },
+        {
+          "face": 48,
+          "material": "R148_FLOOR_CONTINUITY_CANDIDATE",
+          "u": [
+            -0.680959939956665,
+            0.7323206067085266,
+            0.0
+          ],
+          "v": [
+            0.7323206067085266,
+            0.680959939956665,
+            0.0
+          ],
+          "repeat_m": [
+            3.6,
+            3.6
+          ]
+        },
+        {
+          "face": 49,
+          "material": "R148_FLOOR_CONTINUITY_CANDIDATE",
+          "u": [
+            -0.680959939956665,
+            0.7323206067085266,
+            0.0
+          ],
+          "v": [
+            0.7323206067085266,
+            0.680959939956665,
+            0.0
+          ],
+          "repeat_m": [
+            3.6,
+            3.6
+          ]
+        },
+        {
+          "face": 50,
+          "material": "R148_FLOOR_CONTINUITY_CANDIDATE",
+          "u": [
+            -0.680959939956665,
+            0.7323206067085266,
+            0.0
+          ],
+          "v": [
+            0.7323206067085266,
+            0.680959939956665,
+            0.0
+          ],
+          "repeat_m": [
+            3.6,
+            3.6
+          ]
+        },
+        {
+          "face": 51,
+          "material": "R148_FLOOR_CONTINUITY_CANDIDATE",
+          "u": [
+            -0.680959939956665,
+            0.7323206067085266,
+            0.0
+          ],
+          "v": [
+            0.7323206067085266,
+            0.680959939956665,
+            0.0
+          ],
+          "repeat_m": [
+            3.6,
+            3.6
+          ]
+        },
+        {
+          "face": 52,
+          "material": "R148_FLOOR_CONTINUITY_CANDIDATE",
+          "u": [
+            -0.680959939956665,
+            0.7323206067085266,
+            0.0
+          ],
+          "v": [
+            0.7323206067085266,
+            0.680959939956665,
+            0.0
+          ],
+          "repeat_m": [
+            3.6,
+            3.6
+          ]
+        },
+        {
+          "face": 53,
+          "material": "R148_FLOOR_CONTINUITY_CANDIDATE",
+          "u": [
+            -0.680959939956665,
+            0.7323206067085266,
+            0.0
+          ],
+          "v": [
+            0.7323206067085266,
+            0.680959939956665,
+            0.0
+          ],
+          "repeat_m": [
+            3.6,
+            3.6
+          ]
+        },
+        {
+          "face": 54,
+          "material": "R148_FLOOR_CONTINUITY_CANDIDATE",
+          "u": [
+            -0.680959939956665,
+            0.7323206067085266,
+            0.0
+          ],
+          "v": [
+            0.7323206067085266,
+            0.680959939956665,
+            0.0
+          ],
+          "repeat_m": [
+            3.6,
+            3.6
+          ]
+        },
+        {
+          "face": 55,
+          "material": "R148_FLOOR_CONTINUITY_CANDIDATE",
+          "u": [
+            -0.680959939956665,
+            0.7323206067085266,
+            0.0
+          ],
+          "v": [
+            0.7323206067085266,
+            0.680959939956665,
+            0.0
+          ],
+          "repeat_m": [
+            3.6,
+            3.6
+          ]
+        },
+        {
+          "face": 56,
+          "material": "R148_FLOOR_CONTINUITY_CANDIDATE",
+          "u": [
+            -0.680959939956665,
+            0.7323206067085266,
+            0.0
+          ],
+          "v": [
+            0.7323206067085266,
+            0.680959939956665,
+            0.0
+          ],
+          "repeat_m": [
+            3.6,
+            3.6
+          ]
+        },
+        {
+          "face": 57,
+          "material": "R148_FLOOR_CONTINUITY_CANDIDATE",
+          "u": [
+            -0.680959939956665,
+            0.7323206067085266,
+            0.0
+          ],
+          "v": [
+            0.7323206067085266,
+            0.680959939956665,
+            0.0
+          ],
+          "repeat_m": [
+            3.6,
+            3.6
+          ]
+        },
+        {
+          "face": 58,
+          "material": "R148_FLOOR_CONTINUITY_CANDIDATE",
+          "u": [
+            -0.680959939956665,
+            0.7323206067085266,
+            0.0
+          ],
+          "v": [
+            0.7323206067085266,
+            0.680959939956665,
+            0.0
+          ],
+          "repeat_m": [
+            3.6,
+            3.6
+          ]
+        },
+        {
+          "face": 59,
+          "material": "R148_FLOOR_CONTINUITY_CANDIDATE",
+          "u": [
+            -0.680959939956665,
+            0.7323206067085266,
+            0.0
+          ],
+          "v": [
+            0.7323206067085266,
+            0.680959939956665,
+            0.0
+          ],
+          "repeat_m": [
+            3.6,
+            3.6
+          ]
+        },
+        {
+          "face": 60,
+          "material": "R148_FLOOR_CONTINUITY_CANDIDATE",
+          "u": [
+            -0.680959939956665,
+            0.7323206067085266,
+            0.0
+          ],
+          "v": [
+            0.7323206067085266,
+            0.680959939956665,
+            0.0
+          ],
+          "repeat_m": [
+            3.6,
+            3.6
+          ]
+        },
+        {
+          "face": 61,
+          "material": "R148_FLOOR_CONTINUITY_CANDIDATE",
+          "u": [
+            -0.680959939956665,
+            0.7323206067085266,
+            0.0
+          ],
+          "v": [
+            0.7323206067085266,
+            0.680959939956665,
+            0.0
+          ],
+          "repeat_m": [
+            3.6,
+            3.6
+          ]
+        },
+        {
+          "face": 62,
+          "material": "R148_FLOOR_CONTINUITY_CANDIDATE",
+          "u": [
+            -0.680959939956665,
+            0.7323206067085266,
+            0.0
+          ],
+          "v": [
+            0.7323206067085266,
+            0.680959939956665,
+            0.0
+          ],
+          "repeat_m": [
+            3.6,
+            3.6
+          ]
+        },
+        {
+          "face": 63,
+          "material": "R148_FLOOR_CONTINUITY_CANDIDATE",
+          "u": [
+            -0.680959939956665,
+            0.7323206067085266,
+            0.0
+          ],
+          "v": [
+            0.7323206067085266,
+            0.680959939956665,
+            0.0
+          ],
+          "repeat_m": [
+            3.6,
+            3.6
+          ]
+        },
+        {
+          "face": 64,
+          "material": "R148_FLOOR_CONTINUITY_CANDIDATE",
+          "u": [
+            -0.680959939956665,
+            0.7323206067085266,
+            0.0
+          ],
+          "v": [
+            0.7323206067085266,
+            0.680959939956665,
+            0.0
+          ],
+          "repeat_m": [
+            3.6,
+            3.6
+          ]
+        },
+        {
+          "face": 65,
+          "material": "R148_FLOOR_CONTINUITY_CANDIDATE",
+          "u": [
+            -0.680959939956665,
+            0.7323206067085266,
+            0.0
+          ],
+          "v": [
+            0.7323206067085266,
+            0.680959939956665,
+            0.0
+          ],
+          "repeat_m": [
+            3.6,
+            3.6
+          ]
+        }
+      ]
+    }
+  ],
+  "uv_map": "R148_METRIC_FINISH_UV",
+  "materials": [
+    "R148_FLOOR_CONTINUITY_CANDIDATE"
+  ],
+  "sources": [
+    {
+      "id": "102",
+      "path": "01_Kat_Planlari/Resmi_Kat_Semalari/102_Resmi_kat_semasi_zemin_0_Mudam.jpeg",
+      "sha256": "f4d1d1992e1e2d664d5bf5fddd6aedd760edb2931f398e52b5e13316acec2407",
+      "source_url": "https://www.mudam.com/fr/floor-plans",
+      "credit": "Mudam Luxembourg; kullan\u0131c\u0131 taraf\u0131ndan verilen do\u011frudan ba\u011flant\u0131",
+      "source_date": "unknown; do not infer from download date",
+      "modified": false
+    },
+    {
+      "id": "CF01",
+      "path": "12_Blender_Model/references/cafe_official/CF01.webp",
+      "source_url": "https://dbf642yz813mr.cloudfront.net/images/_medium/1655340/md_mudam_6juin-00469.webp",
+      "source_page": "https://www.mudam.com/fr/visiter/chiche-au-mudam",
+      "sha256": "f19ca9efc80b23e764da91dad738d26861c1e0b839b79132403848e1a02b5e0f",
+      "credit": "Ronan & Erwan Bouroullec, \u2018Mudam Caf\u00e9\u2019, 2005\u20132006. Commande et Collection Mudam Luxembourg. Photo : Marion Dessard \u00a9 Mudam Luxembourg",
+      "limits": "Official cafe location; material appearance only, dimensions and capture date unverified"
+    },
+    {
+      "id": "CF02",
+      "path": "12_Blender_Model/references/cafe_official/CF02.webp",
+      "source_url": "https://dbf642yz813mr.cloudfront.net/images/_medium/1655306/md_mudamcaf%C3%A9_1986.webp",
+      "source_page": "https://www.mudam.com/fr/visiter/chiche-au-mudam",
+      "sha256": "ec4b894b0a3182492ea30acaa0d292dcb2cd9a433ad861346136135a9727b521",
+      "credit": "Ronan & Erwan Bouroullec, \u2018Mudam Caf\u00e9\u2019, 2005\u20132006. Commande et Collection Mudam Luxembourg. Photo : Marion Dessard \u00a9 Mudam Luxembourg",
+      "limits": "Official cafe location; material appearance only, dimensions and capture date unverified"
+    }
+  ],
+  "geometry_changed": false,
+  "construction_acceptance": false
+}

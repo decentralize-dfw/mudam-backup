@@ -1,0 +1,74 @@
+{
+  "revision": "R136",
+  "sha256": "dbe65e8f7838446f7e5d82d17efabcb8cba4589823b07ea3b94ab9cda066c0c3",
+  "caps": 797,
+  "pruned": [
+    {
+      "name": "R14_INNER_WALL_B",
+      "plane": [
+        0,
+        1,
+        0,
+        -4.6
+      ],
+      "openEdges": 2,
+      "loops": 1
+    },
+    {
+      "name": "R14_INNER_WALL_B",
+      "plane": [
+        0,
+        -1,
+        0,
+        10.05
+      ],
+      "openEdges": 2,
+      "loops": 1
+    },
+    {
+      "name": "R14_INNER_WALL_B",
+      "plane": [
+        0,
+        -1,
+        0,
+        6.059
+      ],
+      "openEdges": 2,
+      "loops": 1
+    },
+    {
+      "name": "R14_GALLERY_WALL_RETAINED",
+      "plane": [
+        0,
+        1,
+        0,
+        -4.6
+      ],
+      "openEdges": 2,
+      "loops": 1
+    },
+    {
+      "name": "R31_PASSAGE_SIDE_N",
+      "plane": [
+        0,
+        -1,
+        0,
+        6.059
+      ],
+      "openEdges": 2,
+      "loops": 1
+    },
+    {
+      "name": "R101_PASSAGE_SOUTH_SIDE",
+      "plane": [
+        0,
+        -1,
+        0,
+        6.059
+      ],
+      "openEdges": 2,
+      "loops": 1
+    }
+  ],
+  "bad": []
+}

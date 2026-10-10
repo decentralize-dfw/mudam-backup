@@ -400,11 +400,11 @@
       "updated": "2026-10-08",
       "dependency_mode": "regional_study_only_no_global_acceptance",
       "artifacts": [
-        "12_Blender_Model/scenes/MUDAM_R109_SERVIS_MERDIVEN_ALTI_KOSELERI_v001.blend",
-        "12_Blender_Model/reports/R10_DOGU_SPIRAL_RAPORU.md",
+        "12_Blender_Model/scenes/MUDAM_R148_KAFE_TAS_DOSEME_v001.blend",
+        "12_Blender_Model/reports/R14_BATI_CAM_MERDIVEN_RAPORU.md",
         "12_Blender_Model/reports/R04_UST_MERDIVEN_RAPORU.md",
         "12_Blender_Model/reports/R05_ALT_MERDIVEN_RAPORU.md",
-        "12_Blender_Model/reports/R14_BATI_CAM_MERDIVEN_RAPORU.md",
+        "12_Blender_Model/reports/R10_DOGU_SPIRAL_RAPORU.md",
         "12_Blender_Model/reports/R25_PAVYON_MERDIVEN_RAPORU.md",
         "12_Blender_Model/reports/R48_KONTROL_RAPORU.md",
         "12_Blender_Model/reports/R97_KONTROL_RAPORU.md",
@@ -473,9 +473,9 @@
       "updated": "2026-10-08",
       "dependency_mode": "regional_study_only_no_global_acceptance",
       "artifacts": [
-        "12_Blender_Model/scenes/MUDAM_R129_TARIHI_TAS_VE_HENDEK_MALZEME_v002.blend",
-        "12_Blender_Model/reports/R12_BATI_DUZ_CAM_RAPORU.md",
+        "12_Blender_Model/scenes/MUDAM_R139_GRAND_HALL_TAS_DUVARLAR_v001.blend",
         "12_Blender_Model/reports/R13_PAVYON_CAM_RAPORU.md",
+        "12_Blender_Model/reports/R12_BATI_DUZ_CAM_RAPORU.md",
         "12_Blender_Model/reports/R26_DOGU_CATI_BAGLANTI_RAPORU.md",
         "12_Blender_Model/reports/R37_KONTROL_RAPORU.md",
         "12_Blender_Model/reports/R79_KONTROL_RAPORU.md",
@@ -531,8 +531,8 @@
       "updated": "2026-10-08",
       "dependency_mode": "regional_study_only_no_global_acceptance",
       "artifacts": [
-        "12_Blender_Model/scenes/MUDAM_R119_GALERI_ESIK_YUZEYLERI_v002.blend",
-        "12_Blender_Model/reports/R11_DOGU_UC_CAM_RAPORU.md",
+        "12_Blender_Model/scenes/MUDAM_R148_KAFE_TAS_DOSEME_v001.blend",
+        "12_Blender_Model/reports/R14_BATI_CAM_MERDIVEN_RAPORU.md",
         "12_Blender_Model/reports/R03_MERDIVEN_DONUS_RAPORU.md",
         "12_Blender_Model/reports/R48_KONTROL_RAPORU.md",
         "12_Blender_Model/reports/R52_KONTROL_RAPORU.md",
@@ -573,11 +573,27 @@
         "Renk, derz, malzeme bileşimi ve çizgisel yüzey derinliği ölçülmedi; saçak kotu koşullu.",
         "Örgü tipi fotoğraftan;200×50mm modül,derz,renk ve yön aday.",
         "900mm hücre,1,2mm derz,yön ve desen aday; fotoğraf dizimi birebir izlenmedi.",
-        "Geometri ve UV değişmedi. 4x3m tekrar önceki aday ölçüdür; tekil taş, bitki türü ve fiziksel renk doğrulaması yok. Bina veya tüm çevre tamamlanmış değildir."
+        "Geometri ve UV değişmedi. 4x3m tekrar önceki aday ölçüdür; tekil taş, bitki türü ve fiziksel renk doğrulaması yok. Bina veya tüm çevre tamamlanmış değildir.",
+        "Geometri, açıklıklar ve kotlar değişmedi. 3.2x2.4m duvar ve 3.6x3.6m döşeme tekrarları önceki görünüm adaylarıdır; ölçülmüş derz veya fiziksel renk kabulü değildir. Ara push yok; kapsam puanı değiştirilmedi.",
+        "Mevcut zemin geometrisi birebir korundu. Yol genişliği 4m aday; 600x300mm ve160x120mm görsel modüller, renk/derz düzeni ölçülmedi. V001–v003 yüz bölme adayları geometri/UV hatası nedeniyle reddedildi; v004 kabul edildi. Ara push yok.",
+        "015/016 ve 041/043 fotoğrafları taş yüzey sınıfını destekler. 2m tane ve 3.2x2.4m derz tekrarları görsel adaydır; ölçülmüş panel, renk veya fiziksel kalibrasyon değildir. Geometri birebir korundu. Ara push yok.",
+        "073 fotoğrafı ahşap sınıfı ve düşey damar yönünü destekler. 1.2x2.4m doku tekrarı, ağaç türü, damar şekli ve renk ölçülmüş değildir. İnceleme ışıkları yalnız render için eklendi; sahneye kaydedilmedi. Ara push yok.",
+        "071/073 fotoğrafları açık taş yüzey ailesini destekler. 2m doku tekrarı, renk ve taş türü ölçülmüş değildir; yeni derz çizelgesi üretilmedi. Tane etkisi oda uzaklığında hafiftir. Geometri, basamak kenarları ve açıklıklar birebir korundu. Ara push yok.",
+        "066 fotoğrafı taş basamak ve derzli taş duvar ailesini destekler. 2m tane ve 3.2x2.4m derz tekrarları görsel adaydır; kesin taş modülü, renk ve metrik kamera çözülmedi. Geometri ve açıklıklar birebir korundu. Ara push yok.",
+        "017/026/070/077 taş yüzey sınıfını destekler; 0.9m plak, 3.6m tekrar ve kanonik yön mevcut R43 görünüm adayıdır, ölçülmüş derz dizimi değildir. Geometri ve açıklıklar birebir korundu. Ara push yok.",
+        "026/034/087/119 kaynakları taş yüzey sınıfını destekler. 2m tane ve 3.2x2.4m derz tekrarları görsel adaydır; ölçülmüş panel çizelgesi ve renk kalibrasyonu değildir. Galeri iç beyaz yüzleri, geometri ve gerçek açıklıklar korundu. Ara push yok.",
+        "041/043 taş yüzey ailesini destekler. 0.9m plak ve 3.6m tekrar mevcut R43 görünüm adayıdır; ölçülmüş derz çizelgesi değildir. Geometri ve açıklıklar birebir korundu. Ara push yok.",
+        "066/097 giriş taş duvarını, 093 kafe arkasındaki taş sınırı destekler. Mevcut R82/R83 kabuk adaylarının ölçü ve konum belirsizliği sürer. 2m tane ve 3.2x2.4m derz tekrarları görsel adaydır; ölçülmüş panel çizelgesi veya renk değildir. Geometri ve giriş açıklığı korundu. Ara push yok.",
+        "051/055 alt fuayenin taş yüzey ailesini destekler. R72 sınır/kot adayları değişmedi. 2m tane ve 3.2x2.4m derz tekrarları ölçülmüş panel çizelgesi değildir. Geometri birebir korundu. Ara push yok.",
+        "051/055 taş tavan ailesini destekler. 2m tane tekrarı görsel adaydır; fotoğraftaki tekil plak derzleri yeniden kurulmadı. R06 mevcut geometri, açıklık ve kotları birebir korundu. Ara push yok.",
+        "087/119 kuzey alın taşını, 093/097 batı uç taşını destekler. 2m tane ve 3.2x2.4m derz tekrarları mevcut görünüm adayıdır; ölçülmüş plak çizelgesi veya fiziksel renk değildir. Geometri ve açıklıklar birebir korundu. Ara push yok.",
+        "093 fotoğrafı taş bandı destekler. 2m tane ve 3.2x2.4m derz tekrarı görünüm adayıdır; ölçülmüş taş modülü değildir. 34 ortak kenarda UV farkı en fazla 0.000000954. Geometri ve açıklıklar aynı; gün ışığında doku kontrastı düşük, fiziksel renk/ışık kalibrasyonu açık. Ara push yok.",
+        "051/052 merdiven perdesini, 097 batı taş kabuğunu destekler. 2m tane ve 3.2x2.4m derz tekrarı görsel aday; ölçülmüş plak çizelgesi değildir. Geometri ve açıklıklar aynı. Perde dokusu mevcut ışıkta düşük kontrastlı; fiziksel renk/ışık kabulü açık. Ara push yok.",
+        "Resmî Mudam kafe fotoğrafları CF01/CF02 eklendi; CF01 açık taş zemini ve derzleri gösterir. 3.6m doku tekrarı ve yaklaşık 0.9m modül mevcut görsel adaydır, rölöve değildir. Mobilya/eser üretilmedi; geometri ve açıklıklar birebir aynı."
       ],
       "artifacts": [
-        "12_Blender_Model/scenes/MUDAM_R129_TARIHI_TAS_VE_HENDEK_MALZEME_v002.blend",
-        "12_Blender_Model/reports/R129_KONTROL_RAPORU.md",
+        "12_Blender_Model/scenes/MUDAM_R148_KAFE_TAS_DOSEME_v001.blend",
+        "12_Blender_Model/reports/R148_KONTROL_RAPORU.md",
         "12_Blender_Model/reports/R32_TAS_AHSAP_RAPORU.md",
         "12_Blender_Model/reports/R43_KONTROL_RAPORU.md",
         "12_Blender_Model/reports/R46_KONTROL_RAPORU.md",
@@ -587,7 +603,23 @@
         "12_Blender_Model/reports/R59_KONTROL_RAPORU.md",
         "12_Blender_Model/reports/R60_KONTROL_RAPORU.md",
         "12_Blender_Model/reports/R62_KONTROL_RAPORU.md",
-        "12_Blender_Model/reports/R67_KONTROL_RAPORU.md"
+        "12_Blender_Model/reports/R67_KONTROL_RAPORU.md",
+        "12_Blender_Model/reports/R129_KONTROL_RAPORU.md",
+        "12_Blender_Model/reports/R131_KONTROL_RAPORU.md",
+        "12_Blender_Model/reports/R133_KONTROL_RAPORU.md",
+        "12_Blender_Model/reports/R134_KONTROL_RAPORU.md",
+        "12_Blender_Model/reports/R135_KONTROL_RAPORU.md",
+        "12_Blender_Model/reports/R136_KONTROL_RAPORU.md",
+        "12_Blender_Model/reports/R137_KONTROL_RAPORU.md",
+        "12_Blender_Model/reports/R138_KONTROL_RAPORU.md",
+        "12_Blender_Model/reports/R139_KONTROL_RAPORU.md",
+        "12_Blender_Model/reports/R140_KONTROL_RAPORU.md",
+        "12_Blender_Model/reports/R141_KONTROL_RAPORU.md",
+        "12_Blender_Model/reports/R143_KONTROL_RAPORU.md",
+        "12_Blender_Model/reports/R144_KONTROL_RAPORU.md",
+        "12_Blender_Model/reports/R145_KONTROL_RAPORU.md",
+        "12_Blender_Model/reports/R146_KONTROL_RAPORU.md",
+        "12_Blender_Model/reports/R147_KONTROL_RAPORU.md"
       ],
       "completed_scope": [
         "Taş cephe/zemin, iki ana merdiven mineral yüzeyleri, galeri nişi ve tarihî örgü UV adayları işlendi.",
@@ -595,7 +627,23 @@
         "20 nesne ve175 yüzün malzeme/UV adayı;7.942 nesnenin hesaplanan geometrisi değişmedi.",
         "013 yakın çekimiyle R59 şaşırtmalı örgüsü değiştirildi;17 yüz ve bütün sahnede geometri eşitliği kontrolü geçti.",
         "067 ile iki üst yüzün taş görünümü işlendi. Bütün sahnede hesaplanan geometri aynı; UV ve doku kontrolleri geçti.",
-        "28 mevcut çevre parçasında tarihî taş ve hendek çimi için renk, normal ve pürüzlülük dokuları yenilendi."
+        "28 mevcut çevre parçasında tarihî taş ve hendek çimi için renk, normal ve pürüzlülük dokuları yenilendi.",
+        "Sonradan üretilen 12 kabuk parçasındaki 115 yüz mevcut taş duvar ve taş döşeme ailelerine bağlandı. Sekiz duvarın düşey yüzleri ve dört döşeme bağlantısının üst yüzleri metrik UV aldı.",
+        "Üç arşiv yol güzergâhı mevcut park zemininin koordinatlı kaplama dokusuna işlendi: 83345393 ve 49910981 taş döşeme, 50643005 küçük taş kaplama sınıfını taşır. İki gömülü 4096px doku ve tek malzeme kullanılır.",
+        "Okuma alanının sekiz eğimli tavanı ve doğu spiral merdiveninin basamak, çekirdek, kenar ve komşu taş yüzeylerinde 50 mevcut nesnenin 3484 yüzüne taş malzemesi ve metrik UV uygulandı.",
+        "Oditoryumun 230 mevcut ahşap panel, kapı ve çevre parçasına düşey damar dokusu ve yüz yönüne göre UV uygulandı. Akustik delikler, derzler ve açıklıklar değişmedi.",
+        "Oditoryum zemin, sahne, geçiş basamakları ve taş ayaklarda 51 mevcut nesnenin 318 nötr yüzüne taş tane malzemesi ve metrik UV uygulandı.",
+        "Batı cam merdiveninin iki kolu, sahanlıkları ve taş iç duvarlarında 41 mevcut nesnenin 249 yüzüne taş tane/derz malzemesi ve metrik UV uygulandı.",
+        "Giriş ile doğu/batı galeri dolaşımının üç mevcut döşemesinde yaklaşık 580m² üst yüzey, ortak taş plak ailesine ve metrik UV düzenine bağlandı.",
+        "Grand Hall ana duvarları ve galeri dış yüzlerinde dokuz mevcut nesnenin 58 nötr yüzüne taş tane/derz malzemesi ve metrik UV uygulandı.",
+        "Doğu bahçe galerisinin yaklaşık 334m² mevcut zemininin üst yüzü taş plak malzemesine ve metrik UV düzenine bağlandı.",
+        "Batı merdiven giriş iç duvarı ve kafe arka duvarı/başlığındaki üç mevcut nesnenin 18 nötr yüzüne taş tane/derz malzemesi ve metrik UV uygulandı.",
+        "Alt fuaye kuzey duvarının yaklaşık 169m² düşey yüzeyine taş derzi ve metrik UV uygulandı; yatay kenarlarda taş tane ailesi kullanıldı.",
+        "Alt fuayenin yaklaşık 321m² tavan altı ve kavisli alın yüzeyinde 155 yüze taş tane malzemesi ve metrik UV uygulandı.",
+        "Kuzey cam çatı doğu taş alın/alt duvarı ve batı uç duvarındaki üç mevcut nesnenin 19 nötr yüzüne taş tane/derz malzemesi ve metrik UV uygulandı.",
+        "Batı kavisli cam cephenin altındaki 18 mevcut taş duvar parçasının 144 yüzüne taş malzemesi ve kavis boyunca sürekli metrik UV uygulandı.",
+        "Batı dönüşündeki beş mevcut taş duvar ve alt fuaye merdiven perdesinin toplam 36 nötr yüzüne taş malzemesi ve metrik UV uygulandı.",
+        "Batı kafenin yaklaşık 288m² mevcut döşemesindeki 33 üst yüze taş malzemesi ve metrik UV uygulandı."
       ],
       "coverage_as_of": "R55"
     },
@@ -640,8 +688,8 @@
       "updated": "2026-10-08",
       "dependency_mode": "regional_checkpoint_no_global_acceptance",
       "artifacts": [
-        "12_Blender_Model/scenes/MUDAM_R129_TARIHI_TAS_VE_HENDEK_MALZEME_v002.blend",
-        "12_Blender_Model/reports/P19_P21_ONIZLEME_RAPORU.md",
+        "12_Blender_Model/scenes/MUDAM_R148_KAFE_TAS_DOSEME_v001.blend",
+        "12_Blender_Model/reports/R14_BATI_CAM_MERDIVEN_RAPORU.md",
         "12_Blender_Model/reports/R34_GIRIS_KOPRULERI_RAPORU.md",
         "12_Blender_Model/reports/R48_KONTROL_RAPORU.md",
         "12_Blender_Model/reports/R58_KONTROL_RAPORU.md"
@@ -688,11 +736,13 @@
         "Fotoğraf 004/116 ve plan 103 esas alındı. Pencere dizisinin 2,459 m kaydırılması mevcut model köşesine göre türetilmiştir; 0,12 m kenar payı ve diğer miras boyutları ölçülü rölöve değildir. Bütün bina kabulü ve kalan üretim işleri açıktır.",
         "15.436 örneğin 306sında önce çift üst yüzey vardı; sonra tüm örneklerde tek yüzey var. Üç mevcut nesne değişti, yeni nesne veya ölçü yok. Bütün bina kabulü değildir.",
         "Altı mevcut nesne değişti; yeni nesne veya mimari ölçü yok. 47.667 konumun 1.569unda önce çift yüzey vardı; sonra tüm örneklerde tek üst yüzey var. Bütün bina kabulü değildir.",
-        "İki mevcut nesne değişti. 7.178 konumun 152sinde önce çift üst yüzey vardı; sonra tamamında tek yüzey var. Örtü kapsamı korundu; bütün bina kabulü değildir."
+        "İki mevcut nesne değişti. 7.178 konumun 152sinde önce çift üst yüzey vardı; sonra tamamında tek yüzey var. Örtü kapsamı korundu; bütün bina kabulü değildir.",
+        "073 fotoğrafı ahşap sınıfı ve düşey damar yönünü destekler. 1.2x2.4m doku tekrarı, ağaç türü, damar şekli ve renk ölçülmüş değildir. İnceleme ışıkları yalnız render için eklendi; sahneye kaydedilmedi. Ara push yok.",
+        "071/073 fotoğrafları açık taş yüzey ailesini destekler. 2m doku tekrarı, renk ve taş türü ölçülmüş değildir; yeni derz çizelgesi üretilmedi. Tane etkisi oda uzaklığında hafiftir. Geometri, basamak kenarları ve açıklıklar birebir korundu. Ara push yok."
       ],
       "artifacts": [
-        "12_Blender_Model/scenes/MUDAM_R122_UST_ORTU_YUZEY_BIRLESIM_v001.blend",
-        "12_Blender_Model/reports/R122_KONTROL_RAPORU.md",
+        "12_Blender_Model/scenes/MUDAM_R136_ODITORYUM_TAS_YUZEYLERI_v001.blend",
+        "12_Blender_Model/reports/R136_KONTROL_RAPORU.md",
         "12_Blender_Model/reports/R19_R20_ODITORYUM_RAPORU.md",
         "12_Blender_Model/reports/R21_ODITORYUM_PANEL_RAPORU.md",
         "12_Blender_Model/reports/R22_ODITORYUM_DONATI_RAPORU.md",
@@ -725,7 +775,9 @@
         "12_Blender_Model/reports/R116_KONTROL_RAPORU.md",
         "12_Blender_Model/reports/R117_KONTROL_RAPORU.md",
         "12_Blender_Model/reports/R120_KONTROL_RAPORU.md",
-        "12_Blender_Model/reports/R121_KONTROL_RAPORU.md"
+        "12_Blender_Model/reports/R121_KONTROL_RAPORU.md",
+        "12_Blender_Model/reports/R122_KONTROL_RAPORU.md",
+        "12_Blender_Model/reports/R135_KONTROL_RAPORU.md"
       ],
       "completed_scope": [
         "Giriş/vestiyer bölgesi, alt galeri/fuaye, oditoryum ve galeri taş/ahşap yüzey adayları üretildi.",
@@ -755,7 +807,9 @@
         "Cephe köşesi altındaki dönüş tamamlandı; beş pencere, girintileri ve tarihî duvar açıklıkları birlikte köşe içine taşındı. Üst köprünün iki galeriyle döşeme bağlantısı ve doğu duvar ucu üretildi.",
         "Alt fuaye ile oditoryum döşemesinin çakışan ön şeridi ayrıldı. Fuaye döşemesiyle bütünüyle örtüşen iki giriş döşemesi gizlendi; özgün nesneler ve girişlerin zemin kapanışı korundu.",
         "Zemin katta doğu dolaşım alanı, batı kafe ve küçük oda birleşimindeki üst üste binen döşeme hacimleri ayrıldı. Tamamen yinelenen bağlantı eşiği gizlendi; döşeme kapsamı korundu.",
-        "Batı üst kat dönüş tavanındaki yinelenen örtü gizlendi; kafe tavanı ile ön servis örtüsünün örtüşen hacmi ayrıldı."
+        "Batı üst kat dönüş tavanındaki yinelenen örtü gizlendi; kafe tavanı ile ön servis örtüsünün örtüşen hacmi ayrıldı.",
+        "Oditoryumun 230 mevcut ahşap panel, kapı ve çevre parçasına düşey damar dokusu ve yüz yönüne göre UV uygulandı. Akustik delikler, derzler ve açıklıklar değişmedi.",
+        "Oditoryum zemin, sahne, geçiş basamakları ve taş ayaklarda 51 mevcut nesnenin 318 nötr yüzüne taş tane malzemesi ve metrik UV uygulandı."
       ],
       "coverage_as_of": "R55"
     },
@@ -793,7 +847,7 @@
       "updated": "2026-10-08",
       "dependency_mode": "regional_checkpoint_no_global_acceptance",
       "artifacts": [
-        "12_Blender_Model/scenes/MUDAM_R129_TARIHI_TAS_VE_HENDEK_MALZEME_v002.blend",
+        "12_Blender_Model/scenes/MUDAM_R148_KAFE_TAS_DOSEME_v001.blend",
         "12_Blender_Model/reports/P19_P21_ONIZLEME_RAPORU.md",
         "12_Blender_Model/reports/R08_OKUMA_TAVANI_RAPORU.md",
         "12_Blender_Model/reports/R09_OKUMA_MEKANI_RAPORU.md",
@@ -859,11 +913,14 @@
         "Taş modülü, derz, renk, yön ve0,65m bant genişliği ölçülmemiş görünüm adayları.",
         "Örgü tipi fotoğraftan;200×50mm modül,derz,renk ve yön aday.",
         "Genişlik ve düz kotlar R35 adayı; arazi ölçümü değil. Diğer kollar ve tarihî ayrıntılar açık.",
-        "Geometri ve UV değişmedi. 4x3m tekrar önceki aday ölçüdür; tekil taş, bitki türü ve fiziksel renk doğrulaması yok. Bina veya tüm çevre tamamlanmış değildir."
+        "Geometri ve UV değişmedi. 4x3m tekrar önceki aday ölçüdür; tekil taş, bitki türü ve fiziksel renk doğrulaması yok. Bina veya tüm çevre tamamlanmış değildir.",
+        "Ağaç türü, 8m yükseklik, 2.2m taç yarıçapı, dallanma ve renk ölçülmüş değildir. Bu yedi ağacın sınıf düzeltmesi bütün çevrenin kabulü değildir. Ara push yapılmayacak; doğrulanmış toplam kapsam %90 hedefine kadar yerel üretim sürecek.",
+        "OSM sınırı rölöve değildir. Düz arazi kotu, yol genişliği ve çim görünümü temsilîdir; diğer peyzaj sınırları, bitki dağılımı ve tarihî ayrıntılar açık. V001/v002 ortak köşe ağ bağlantısı nedeniyle reddedildi; v003 ayrı kapalı adalar kullanır. Ara push yok.",
+        "Mevcut zemin geometrisi birebir korundu. Yol genişliği 4m aday; 600x300mm ve160x120mm görsel modüller, renk/derz düzeni ölçülmedi. V001–v003 yüz bölme adayları geometri/UV hatası nedeniyle reddedildi; v004 kabul edildi. Ara push yok."
       ],
       "artifacts": [
-        "12_Blender_Model/scenes/MUDAM_R129_TARIHI_TAS_VE_HENDEK_MALZEME_v002.blend",
-        "12_Blender_Model/reports/R129_KONTROL_RAPORU.md",
+        "12_Blender_Model/scenes/MUDAM_R133_PARK_YOL_KAPLAMALARI_v004.blend",
+        "12_Blender_Model/reports/R133_KONTROL_RAPORU.md",
         "12_Blender_Model/reports/R34_GIRIS_KOPRULERI_RAPORU.md",
         "12_Blender_Model/reports/R35_HENDEK_CEVRE_RAPORU.md",
         "12_Blender_Model/reports/R38_KONTROL_RAPORU.md",
@@ -872,7 +929,10 @@
         "12_Blender_Model/reports/R58_KONTROL_RAPORU.md",
         "12_Blender_Model/reports/R59_KONTROL_RAPORU.md",
         "12_Blender_Model/reports/R62_KONTROL_RAPORU.md",
-        "12_Blender_Model/reports/R68_KONTROL_RAPORU.md"
+        "12_Blender_Model/reports/R68_KONTROL_RAPORU.md",
+        "12_Blender_Model/reports/R129_KONTROL_RAPORU.md",
+        "12_Blender_Model/reports/R130_KONTROL_RAPORU.md",
+        "12_Blender_Model/reports/R132_KONTROL_RAPORU.md"
       ],
       "completed_scope": [
         "İlk hendek/tarihî duvar sınırları, köprü/yaklaşım yolları,19 OSM ağaç konumu ve tarihî taş/çim görünümü mevcut.",
@@ -881,7 +941,10 @@
         "Mevcut döşemede50 yüz: koyu taş ve açık kenar bandı. Yüzey/hacim karşılaştırması ve204 yaklaşım örneği geçti.",
         "013 yakın çekimiyle R59 şaşırtmalı örgüsü değiştirildi;17 yüz ve bütün sahnede geometri eşitliği kontrolü geçti.",
         "İki OSM duvar zinciri: altı duvar ve zemin.30 duvar/440 zemin ışını ve pavyon kesişim kontrolü geçti.",
-        "28 mevcut çevre parçasında tarihî taş ve hendek çimi için renk, normal ve pürüzlülük dokuları yenilendi."
+        "28 mevcut çevre parçasında tarihî taş ve hendek çimi için renk, normal ve pürüzlülük dokuları yenilendi.",
+        "Arşiv OSM verisinde iğne yapraklı olarak kayıtlı yedi ağacın geniş yapraklı taçları değiştirildi. Yedi dal ve yedi iğne yaprak ağı üretildi; eski 14 taç parçası gizlendi, gövdeler ve konumlar korundu.",
+        "Arşiv OSM 759811369 karma ağaçlık sınırı mevcut park zeminine işlendi. 421.08m² bitkili zemin sert kaplamadan ayrıldı; mevcut 4m aday yol koridorları korundu. Bir zemin değişti, bir kapalı zemin nesnesi eklendi.",
+        "Üç arşiv yol güzergâhı mevcut park zemininin koordinatlı kaplama dokusuna işlendi: 83345393 ve 49910981 taş döşeme, 50643005 küçük taş kaplama sınıfını taşır. İki gömülü 4096px doku ve tek malzeme kullanılır."
       ],
       "coverage_as_of": "R55"
     },
@@ -908,13 +971,28 @@
         "900mm hücre,1,2mm derz,yön ve desen aday; fotoğraf dizimi birebir izlenmedi.",
         "Yedi konum ve180mm çap kısmi aday; tam yerleşim,ürün ve fotometri doğrulanmadı.",
         "Sayı, konum, ürün kesiti ve20 derece yönlenme kısmi aday; tam aydınlatma planı ve fotometri açık.",
-        "Geometri ve UV değişmedi. 4x3m tekrar önceki aday ölçüdür; tekil taş, bitki türü ve fiziksel renk doğrulaması yok. Bina veya tüm çevre tamamlanmış değildir."
+        "Geometri ve UV değişmedi. 4x3m tekrar önceki aday ölçüdür; tekil taş, bitki türü ve fiziksel renk doğrulaması yok. Bina veya tüm çevre tamamlanmış değildir.",
+        "Geometri, açıklıklar ve kotlar değişmedi. 3.2x2.4m duvar ve 3.6x3.6m döşeme tekrarları önceki görünüm adaylarıdır; ölçülmüş derz veya fiziksel renk kabulü değildir. Ara push yok; kapsam puanı değiştirilmedi.",
+        "015/016 ve 041/043 fotoğrafları taş yüzey sınıfını destekler. 2m tane ve 3.2x2.4m derz tekrarları görsel adaydır; ölçülmüş panel, renk veya fiziksel kalibrasyon değildir. Geometri birebir korundu. Ara push yok.",
+        "073 fotoğrafı ahşap sınıfı ve düşey damar yönünü destekler. 1.2x2.4m doku tekrarı, ağaç türü, damar şekli ve renk ölçülmüş değildir. İnceleme ışıkları yalnız render için eklendi; sahneye kaydedilmedi. Ara push yok.",
+        "071/073 fotoğrafları açık taş yüzey ailesini destekler. 2m doku tekrarı, renk ve taş türü ölçülmüş değildir; yeni derz çizelgesi üretilmedi. Tane etkisi oda uzaklığında hafiftir. Geometri, basamak kenarları ve açıklıklar birebir korundu. Ara push yok.",
+        "066 fotoğrafı taş basamak ve derzli taş duvar ailesini destekler. 2m tane ve 3.2x2.4m derz tekrarları görsel adaydır; kesin taş modülü, renk ve metrik kamera çözülmedi. Geometri ve açıklıklar birebir korundu. Ara push yok.",
+        "017/026/070/077 taş yüzey sınıfını destekler; 0.9m plak, 3.6m tekrar ve kanonik yön mevcut R43 görünüm adayıdır, ölçülmüş derz dizimi değildir. Geometri ve açıklıklar birebir korundu. Ara push yok.",
+        "026/034/087/119 kaynakları taş yüzey sınıfını destekler. 2m tane ve 3.2x2.4m derz tekrarları görsel adaydır; ölçülmüş panel çizelgesi ve renk kalibrasyonu değildir. Galeri iç beyaz yüzleri, geometri ve gerçek açıklıklar korundu. Ara push yok.",
+        "041/043 taş yüzey ailesini destekler. 0.9m plak ve 3.6m tekrar mevcut R43 görünüm adayıdır; ölçülmüş derz çizelgesi değildir. Geometri ve açıklıklar birebir korundu. Ara push yok.",
+        "066/097 giriş taş duvarını, 093 kafe arkasındaki taş sınırı destekler. Mevcut R82/R83 kabuk adaylarının ölçü ve konum belirsizliği sürer. 2m tane ve 3.2x2.4m derz tekrarları görsel adaydır; ölçülmüş panel çizelgesi veya renk değildir. Geometri ve giriş açıklığı korundu. Ara push yok.",
+        "051/055 alt fuayenin taş yüzey ailesini destekler. R72 sınır/kot adayları değişmedi. 2m tane ve 3.2x2.4m derz tekrarları ölçülmüş panel çizelgesi değildir. Geometri birebir korundu. Ara push yok.",
+        "051/055 taş tavan ailesini destekler. 2m tane tekrarı görsel adaydır; fotoğraftaki tekil plak derzleri yeniden kurulmadı. R06 mevcut geometri, açıklık ve kotları birebir korundu. Ara push yok.",
+        "087/119 kuzey alın taşını, 093/097 batı uç taşını destekler. 2m tane ve 3.2x2.4m derz tekrarları mevcut görünüm adayıdır; ölçülmüş plak çizelgesi veya fiziksel renk değildir. Geometri ve açıklıklar birebir korundu. Ara push yok.",
+        "093 fotoğrafı taş bandı destekler. 2m tane ve 3.2x2.4m derz tekrarı görünüm adayıdır; ölçülmüş taş modülü değildir. 34 ortak kenarda UV farkı en fazla 0.000000954. Geometri ve açıklıklar aynı; gün ışığında doku kontrastı düşük, fiziksel renk/ışık kalibrasyonu açık. Ara push yok.",
+        "051/052 merdiven perdesini, 097 batı taş kabuğunu destekler. 2m tane ve 3.2x2.4m derz tekrarı görsel aday; ölçülmüş plak çizelgesi değildir. Geometri ve açıklıklar aynı. Perde dokusu mevcut ışıkta düşük kontrastlı; fiziksel renk/ışık kabulü açık. Ara push yok.",
+        "Resmî Mudam kafe fotoğrafları CF01/CF02 eklendi; CF01 açık taş zemini ve derzleri gösterir. 3.6m doku tekrarı ve yaklaşık 0.9m modül mevcut görsel adaydır, rölöve değildir. Mobilya/eser üretilmedi; geometri ve açıklıklar birebir aynı."
       ],
       "updated": "2026-10-08",
       "dependency_mode": "regional_checkpoint_no_global_acceptance",
       "artifacts": [
-        "12_Blender_Model/scenes/MUDAM_R129_TARIHI_TAS_VE_HENDEK_MALZEME_v002.blend",
-        "12_Blender_Model/reports/R129_KONTROL_RAPORU.md",
+        "12_Blender_Model/scenes/MUDAM_R148_KAFE_TAS_DOSEME_v001.blend",
+        "12_Blender_Model/reports/R148_KONTROL_RAPORU.md",
         "12_Blender_Model/reports/R32_TAS_AHSAP_RAPORU.md",
         "12_Blender_Model/reports/R43_KONTROL_RAPORU.md",
         "12_Blender_Model/reports/R46_KONTROL_RAPORU.md",
@@ -930,7 +1008,22 @@
         "12_Blender_Model/reports/R66_KONTROL_RAPORU.md",
         "12_Blender_Model/reports/R67_KONTROL_RAPORU.md",
         "12_Blender_Model/reports/R69_KONTROL_RAPORU.md",
-        "12_Blender_Model/reports/R70_KONTROL_RAPORU.md"
+        "12_Blender_Model/reports/R70_KONTROL_RAPORU.md",
+        "12_Blender_Model/reports/R129_KONTROL_RAPORU.md",
+        "12_Blender_Model/reports/R131_KONTROL_RAPORU.md",
+        "12_Blender_Model/reports/R134_KONTROL_RAPORU.md",
+        "12_Blender_Model/reports/R135_KONTROL_RAPORU.md",
+        "12_Blender_Model/reports/R136_KONTROL_RAPORU.md",
+        "12_Blender_Model/reports/R137_KONTROL_RAPORU.md",
+        "12_Blender_Model/reports/R138_KONTROL_RAPORU.md",
+        "12_Blender_Model/reports/R139_KONTROL_RAPORU.md",
+        "12_Blender_Model/reports/R140_KONTROL_RAPORU.md",
+        "12_Blender_Model/reports/R141_KONTROL_RAPORU.md",
+        "12_Blender_Model/reports/R143_KONTROL_RAPORU.md",
+        "12_Blender_Model/reports/R144_KONTROL_RAPORU.md",
+        "12_Blender_Model/reports/R145_KONTROL_RAPORU.md",
+        "12_Blender_Model/reports/R146_KONTROL_RAPORU.md",
+        "12_Blender_Model/reports/R147_KONTROL_RAPORU.md"
       ],
       "completed_scope": [
         "Taş/ahşap/mineral, metal, cam ve çevre yüzey adayları; genel gün ışığı ve bölgesel aydınlatma geometrisi mevcut.",
@@ -943,7 +1036,22 @@
         "067 ile iki üst yüzün taş görünümü işlendi. Bütün sahnede hesaplanan geometri aynı; UV ve doku kontrolleri geçti.",
         "28 yeni parça ve yedi yuva;29 hacim,119 ışın ve genel geometri kontrolü geçti.",
         "İki ray, sekiz başlık ve86 kapalı parça;194 ışın/80 bağlantı ve genel geometri kontrolü geçti.",
-        "28 mevcut çevre parçasında tarihî taş ve hendek çimi için renk, normal ve pürüzlülük dokuları yenilendi."
+        "28 mevcut çevre parçasında tarihî taş ve hendek çimi için renk, normal ve pürüzlülük dokuları yenilendi.",
+        "Sonradan üretilen 12 kabuk parçasındaki 115 yüz mevcut taş duvar ve taş döşeme ailelerine bağlandı. Sekiz duvarın düşey yüzleri ve dört döşeme bağlantısının üst yüzleri metrik UV aldı.",
+        "Okuma alanının sekiz eğimli tavanı ve doğu spiral merdiveninin basamak, çekirdek, kenar ve komşu taş yüzeylerinde 50 mevcut nesnenin 3484 yüzüne taş malzemesi ve metrik UV uygulandı.",
+        "Oditoryumun 230 mevcut ahşap panel, kapı ve çevre parçasına düşey damar dokusu ve yüz yönüne göre UV uygulandı. Akustik delikler, derzler ve açıklıklar değişmedi.",
+        "Oditoryum zemin, sahne, geçiş basamakları ve taş ayaklarda 51 mevcut nesnenin 318 nötr yüzüne taş tane malzemesi ve metrik UV uygulandı.",
+        "Batı cam merdiveninin iki kolu, sahanlıkları ve taş iç duvarlarında 41 mevcut nesnenin 249 yüzüne taş tane/derz malzemesi ve metrik UV uygulandı.",
+        "Giriş ile doğu/batı galeri dolaşımının üç mevcut döşemesinde yaklaşık 580m² üst yüzey, ortak taş plak ailesine ve metrik UV düzenine bağlandı.",
+        "Grand Hall ana duvarları ve galeri dış yüzlerinde dokuz mevcut nesnenin 58 nötr yüzüne taş tane/derz malzemesi ve metrik UV uygulandı.",
+        "Doğu bahçe galerisinin yaklaşık 334m² mevcut zemininin üst yüzü taş plak malzemesine ve metrik UV düzenine bağlandı.",
+        "Batı merdiven giriş iç duvarı ve kafe arka duvarı/başlığındaki üç mevcut nesnenin 18 nötr yüzüne taş tane/derz malzemesi ve metrik UV uygulandı.",
+        "Alt fuaye kuzey duvarının yaklaşık 169m² düşey yüzeyine taş derzi ve metrik UV uygulandı; yatay kenarlarda taş tane ailesi kullanıldı.",
+        "Alt fuayenin yaklaşık 321m² tavan altı ve kavisli alın yüzeyinde 155 yüze taş tane malzemesi ve metrik UV uygulandı.",
+        "Kuzey cam çatı doğu taş alın/alt duvarı ve batı uç duvarındaki üç mevcut nesnenin 19 nötr yüzüne taş tane/derz malzemesi ve metrik UV uygulandı.",
+        "Batı kavisli cam cephenin altındaki 18 mevcut taş duvar parçasının 144 yüzüne taş malzemesi ve kavis boyunca sürekli metrik UV uygulandı.",
+        "Batı dönüşündeki beş mevcut taş duvar ve alt fuaye merdiven perdesinin toplam 36 nötr yüzüne taş malzemesi ve metrik UV uygulandı.",
+        "Batı kafenin yaklaşık 288m² mevcut döşemesindeki 33 üst yüze taş malzemesi ve metrik UV uygulandı."
       ],
       "coverage_as_of": "R55"
     },
@@ -959,7 +1067,7 @@
       "acceptance": "Tüm kat ve kesit testleri; kapı boşlukları kapanmıyor",
       "status": "in_progress",
       "open_issues": [
-        "Üç kat kot aralığı, yatay/düşey canlı kesit, parça-kaynak seçimi ve tek parça görünümü mevcut. Kesit yüzleri kapaksız; kat kotları koşullu; bina kabulü yapılmadı."
+        "Üç kat kot aralığı, yatay/düşey canlı kesit, kapalı halka kapakları, parça-kaynak seçimi ve tek parça görünümü mevcut. P20_KESIT_KAPAKLARI.md kayıtlı testleri kapsar; açık sınırlar doldurulmaz, tüm kot kombinasyonları kabul edilmedi. Kat kotları koşullu; bina kabulü yapılmadı."
       ],
       "updated": "2026-10-08",
       "dependency_mode": "regional_checkpoint_no_global_acceptance",
@@ -978,12 +1086,12 @@
       "acceptance": "Birim/eksen/malzeme geri yüklemede doğru; performans ölçülmüş",
       "status": "in_progress",
       "open_issues": [
-        "8477 mesh / 2489610 üçgen GLB aktarımı denetlendi; hedef motor ve sadeleştirme açık."
+        "8478 mesh / 3696922 üçgen GLB aktarımı denetlendi; hedef motor ve sadeleştirme açık."
       ],
       "updated": "2026-10-08",
       "dependency_mode": "regional_checkpoint_no_global_acceptance",
       "artifacts": [
-        "12_Blender_Model/scenes/MUDAM_R129_TARIHI_TAS_VE_HENDEK_MALZEME_v002.blend",
+        "12_Blender_Model/scenes/MUDAM_R148_KAFE_TAS_DOSEME_v001.blend",
         "12_Blender_Model/reports/P19_P21_ONIZLEME_RAPORU.md"
       ]
     },
@@ -1035,7 +1143,7 @@
     "P21",
     "P22"
   ],
-  "latest_scene": "12_Blender_Model/scenes/MUDAM_R129_TARIHI_TAS_VE_HENDEK_MALZEME_v002.blend",
+  "latest_scene": "12_Blender_Model/scenes/MUDAM_R148_KAFE_TAS_DOSEME_v001.blend",
   "scope_constraints": {
     "priority": "Bina ve kalıcı mimari sistemler",
     "excluded": [

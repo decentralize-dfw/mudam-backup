@@ -1,0 +1,166 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R130_PARK_IGNE_YAPRAKLI_AGACLAR_v002.blend",
+  "base_scene": "MUDAM_R129_TARIHI_TAS_VE_HENDEK_MALZEME_v002.blend",
+  "closed_objects": [
+    "R130_TREE_6380924936_BRANCHES",
+    "R130_TREE_6380924936_NEEDLES",
+    "R130_TREE_6380924937_BRANCHES",
+    "R130_TREE_6380924937_NEEDLES",
+    "R130_TREE_6380924940_BRANCHES",
+    "R130_TREE_6380924940_NEEDLES",
+    "R130_TREE_6380924942_BRANCHES",
+    "R130_TREE_6380924942_NEEDLES",
+    "R130_TREE_6380924943_BRANCHES",
+    "R130_TREE_6380924943_NEEDLES",
+    "R130_TREE_6380924947_BRANCHES",
+    "R130_TREE_6380924947_NEEDLES",
+    "R130_TREE_6380924948_BRANCHES",
+    "R130_TREE_6380924948_NEEDLES"
+  ],
+  "changed_inherited_objects": [
+    "R56_TREE_6380924936_BRANCHES",
+    "R56_TREE_6380924936_LEAVES",
+    "R56_TREE_6380924937_BRANCHES",
+    "R56_TREE_6380924937_LEAVES",
+    "R56_TREE_6380924940_BRANCHES",
+    "R56_TREE_6380924940_LEAVES",
+    "R56_TREE_6380924942_BRANCHES",
+    "R56_TREE_6380924942_LEAVES",
+    "R56_TREE_6380924943_BRANCHES",
+    "R56_TREE_6380924943_LEAVES",
+    "R56_TREE_6380924947_BRANCHES",
+    "R56_TREE_6380924947_LEAVES",
+    "R56_TREE_6380924948_BRANCHES",
+    "R56_TREE_6380924948_LEAVES"
+  ],
+  "trees": [
+    {
+      "id": "6380924936",
+      "xy": [
+        50.26561626023613,
+        71.42295541800559
+      ],
+      "height": 8,
+      "radius": 2.2,
+      "source_leaf_type": "needleleaved",
+      "trunk": "R38_TREE_6380924936_TRUNK",
+      "hidden": [
+        "R56_TREE_6380924936_BRANCHES",
+        "R56_TREE_6380924936_LEAVES"
+      ],
+      "branches": "R130_TREE_6380924936_BRANCHES",
+      "foliage": "R130_TREE_6380924936_NEEDLES",
+      "needle_solids": 29505
+    },
+    {
+      "id": "6380924937",
+      "xy": [
+        56.98416569276014,
+        68.75179348886013
+      ],
+      "height": 8,
+      "radius": 2.2,
+      "source_leaf_type": "needleleaved",
+      "trunk": "R38_TREE_6380924937_TRUNK",
+      "hidden": [
+        "R56_TREE_6380924937_BRANCHES",
+        "R56_TREE_6380924937_LEAVES"
+      ],
+      "branches": "R130_TREE_6380924937_BRANCHES",
+      "foliage": "R130_TREE_6380924937_NEEDLES",
+      "needle_solids": 29810
+    },
+    {
+      "id": "6380924940",
+      "xy": [
+        69.17297639878234,
+        52.45897059235722
+      ],
+      "height": 8,
+      "radius": 2.2,
+      "source_leaf_type": "needleleaved",
+      "trunk": "R38_TREE_6380924940_TRUNK",
+      "hidden": [
+        "R56_TREE_6380924940_BRANCHES",
+        "R56_TREE_6380924940_LEAVES"
+      ],
+      "branches": "R130_TREE_6380924940_BRANCHES",
+      "foliage": "R130_TREE_6380924940_NEEDLES",
+      "needle_solids": 29531
+    },
+    {
+      "id": "6380924942",
+      "xy": [
+        64.2032757505076,
+        43.687097548507154
+      ],
+      "height": 8,
+      "radius": 2.2,
+      "source_leaf_type": "needleleaved",
+      "trunk": "R38_TREE_6380924942_TRUNK",
+      "hidden": [
+        "R56_TREE_6380924942_BRANCHES",
+        "R56_TREE_6380924942_LEAVES"
+      ],
+      "branches": "R130_TREE_6380924942_BRANCHES",
+      "foliage": "R130_TREE_6380924942_NEEDLES",
+      "needle_solids": 29752
+    },
+    {
+      "id": "6380924943",
+      "xy": [
+        63.62643063929863,
+        50.57723446935415
+      ],
+      "height": 8,
+      "radius": 2.2,
+      "source_leaf_type": "needleleaved",
+      "trunk": "R38_TREE_6380924943_TRUNK",
+      "hidden": [
+        "R56_TREE_6380924943_BRANCHES",
+        "R56_TREE_6380924943_LEAVES"
+      ],
+      "branches": "R130_TREE_6380924943_BRANCHES",
+      "foliage": "R130_TREE_6380924943_NEEDLES",
+      "needle_solids": 29966
+    },
+    {
+      "id": "6380924947",
+      "xy": [
+        41.89760014193598,
+        66.09760812111199
+      ],
+      "height": 8,
+      "radius": 2.2,
+      "source_leaf_type": "needleleaved",
+      "trunk": "R38_TREE_6380924947_TRUNK",
+      "hidden": [
+        "R56_TREE_6380924947_BRANCHES",
+        "R56_TREE_6380924947_LEAVES"
+      ],
+      "branches": "R130_TREE_6380924947_BRANCHES",
+      "foliage": "R130_TREE_6380924947_NEEDLES",
+      "needle_solids": 29924
+    },
+    {
+      "id": "6380924948",
+      "xy": [
+        62.41807596932631,
+        20.14490531384945
+      ],
+      "height": 8,
+      "radius": 2.2,
+      "source_leaf_type": "needleleaved",
+      "trunk": "R38_TREE_6380924948_TRUNK",
+      "hidden": [
+        "R56_TREE_6380924948_BRANCHES",
+        "R56_TREE_6380924948_LEAVES"
+      ],
+      "branches": "R130_TREE_6380924948_BRANCHES",
+      "foliage": "R130_TREE_6380924948_NEEDLES",
+      "needle_solids": 29829
+    }
+  ],
+  "osm_sha256": "52be5ce3d0eaa72f32a5091efbfdc2f6869666c8519eee7aa341f8135c40c057",
+  "construction_acceptance": false
+}

@@ -1,0 +1,242 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R138_GIRIS_DOLASIM_TAS_ZEMIN_v002.blend",
+  "base_scene": "MUDAM_R137_BATI_MERDIVEN_TAS_YUZEYLERI_v001.blend",
+  "changed_inherited_objects": [
+    "P05_FLOOR_L00_ENT",
+    "R28_E_CIRCULATION_FLOOR",
+    "R28_W_CIRCULATION_FLOOR"
+  ],
+  "closed_objects": [],
+  "surface_objects": [
+    {
+      "name": "P05_FLOOR_L00_ENT",
+      "faces": [
+        {
+          "face": 6,
+          "material": "R138_FLOOR_CONTINUITY_CANDIDATE",
+          "u": [
+            -0.680959939956665,
+            0.7323206067085266,
+            0.0
+          ],
+          "v": [
+            0.7323206067085266,
+            0.680959939956665,
+            0.0
+          ],
+          "repeat_m": [
+            3.6,
+            3.6
+          ]
+        },
+        {
+          "face": 7,
+          "material": "R138_FLOOR_CONTINUITY_CANDIDATE",
+          "u": [
+            -0.680959939956665,
+            0.7323206067085266,
+            0.0
+          ],
+          "v": [
+            0.7323206067085266,
+            0.680959939956665,
+            0.0
+          ],
+          "repeat_m": [
+            3.6,
+            3.6
+          ]
+        },
+        {
+          "face": 8,
+          "material": "R138_FLOOR_CONTINUITY_CANDIDATE",
+          "u": [
+            -0.680959939956665,
+            0.7323206067085266,
+            0.0
+          ],
+          "v": [
+            0.7323206067085266,
+            0.680959939956665,
+            0.0
+          ],
+          "repeat_m": [
+            3.6,
+            3.6
+          ]
+        },
+        {
+          "face": 9,
+          "material": "R138_FLOOR_CONTINUITY_CANDIDATE",
+          "u": [
+            -0.680959939956665,
+            0.7323206067085266,
+            0.0
+          ],
+          "v": [
+            0.7323206067085266,
+            0.680959939956665,
+            0.0
+          ],
+          "repeat_m": [
+            3.6,
+            3.6
+          ]
+        },
+        {
+          "face": 10,
+          "material": "R138_FLOOR_CONTINUITY_CANDIDATE",
+          "u": [
+            -0.680959939956665,
+            0.7323206067085266,
+            0.0
+          ],
+          "v": [
+            0.7323206067085266,
+            0.680959939956665,
+            0.0
+          ],
+          "repeat_m": [
+            3.6,
+            3.6
+          ]
+        },
+        {
+          "face": 11,
+          "material": "R138_FLOOR_CONTINUITY_CANDIDATE",
+          "u": [
+            -0.680959939956665,
+            0.7323206067085266,
+            0.0
+          ],
+          "v": [
+            0.7323206067085266,
+            0.680959939956665,
+            0.0
+          ],
+          "repeat_m": [
+            3.6,
+            3.6
+          ]
+        },
+        {
+          "face": 20,
+          "material": "R138_FLOOR_CONTINUITY_CANDIDATE",
+          "u": [
+            -0.680959939956665,
+            0.7323206067085266,
+            0.0
+          ],
+          "v": [
+            0.7323206067085266,
+            0.680959939956665,
+            0.0
+          ],
+          "repeat_m": [
+            3.6,
+            3.6
+          ]
+        }
+      ]
+    },
+    {
+      "name": "R28_E_CIRCULATION_FLOOR",
+      "faces": [
+        {
+          "face": 1,
+          "material": "R138_FLOOR_CONTINUITY_CANDIDATE",
+          "u": [
+            -0.680959939956665,
+            0.7323206067085266,
+            0.0
+          ],
+          "v": [
+            0.7323206067085266,
+            0.680959939956665,
+            0.0
+          ],
+          "repeat_m": [
+            3.6,
+            3.6
+          ]
+        }
+      ]
+    },
+    {
+      "name": "R28_W_CIRCULATION_FLOOR",
+      "faces": [
+        {
+          "face": 1,
+          "material": "R138_FLOOR_CONTINUITY_CANDIDATE",
+          "u": [
+            -0.680959939956665,
+            0.7323206067085266,
+            0.0
+          ],
+          "v": [
+            0.7323206067085266,
+            0.680959939956665,
+            0.0
+          ],
+          "repeat_m": [
+            3.6,
+            3.6
+          ]
+        }
+      ]
+    }
+  ],
+  "uv_map": "R138_METRIC_FINISH_UV",
+  "materials": [
+    "R138_FLOOR_CONTINUITY_CANDIDATE"
+  ],
+  "geometry_changed": false,
+  "construction_acceptance": false,
+  "sources": [
+    {
+      "id": "017",
+      "path": "04_Ic_Mekan/Giris_ve_Dolasim/017_Tas_duvar_ve_dogal_isik_WikiArquitectura.jpg",
+      "sha256": "5260d080141098cbc5d01577c03a3d4f1f853a028b24e4ad27ee37e79f37a0ba",
+      "source_url": "https://es.wikiarquitectura.com/edificio/museo-de-arte-moderno-grand-duc-jean-mudam/",
+      "credit": "WikiArquitectura; sayfadaki fotoğraf serisi Haziran 2019",
+      "source_date": "unknown; do not infer from download date",
+      "modified": false
+    },
+    {
+      "id": "026",
+      "path": "04_Ic_Mekan/Grand_Hall/026_Grand_Hall_genel_gorunum_WikiArquitectura.jpg",
+      "sha256": "6293c8918dc238518c67a659d4e2b656e7df40aad983efe83accb892fc9666f2",
+      "source_url": "https://es.wikiarquitectura.com/edificio/museo-de-arte-moderno-grand-duc-jean-mudam/",
+      "credit": "WikiArquitectura; sayfadaki fotoğraf serisi Haziran 2019",
+      "source_date": "unknown; do not infer from download date",
+      "modified": false
+    },
+    {
+      "id": "070",
+      "path": "07_Yapi_Detaylari/Tas_ve_Beton/070_Duvar_tavan_kapi_ve_malzeme_detayi_WikiArquitectura.jpg",
+      "sha256": "12169df8e05276276d2494e4c3ed0cecc497f9d8c62f6f5de01f7cb2013a08b9",
+      "source_url": "https://es.wikiarquitectura.com/edificio/museo-de-arte-moderno-grand-duc-jean-mudam/",
+      "credit": "WikiArquitectura; sayfadaki fotoğraf serisi Haziran 2019",
+      "source_date": "unknown; do not infer from download date",
+      "modified": false
+    },
+    {
+      "id": "077",
+      "path": "04_Ic_Mekan/Asansor_ve_Servis/077_Asansor_ve_erisim_WikiArquitectura.jpg",
+      "sha256": "b340072636ba2b551d2e3b6a336b6c15f1f9060adb92f5f36a0e68bd24f6da2c",
+      "source_url": "https://es.wikiarquitectura.com/edificio/museo-de-arte-moderno-grand-duc-jean-mudam/",
+      "credit": "WikiArquitectura; sayfadaki fotoğraf serisi Haziran 2019",
+      "source_date": "unknown; do not infer from download date",
+      "modified": false
+    },
+    {
+      "id": "102",
+      "path": "01_Kat_Planlari/Resmi_Kat_Semalari/102_Resmi_kat_semasi_zemin_0_Mudam.jpeg",
+      "sha256": "f4d1d1992e1e2d664d5bf5fddd6aedd760edb2931f398e52b5e13316acec2407",
+      "source_url": "https://www.mudam.com/fr/floor-plans",
+      "credit": "Mudam Luxembourg; kullanıcı tarafından verilen doğrudan bağlantı",
+      "source_date": "unknown; do not infer from download date",
+      "modified": false
+    }
+  ]
+}

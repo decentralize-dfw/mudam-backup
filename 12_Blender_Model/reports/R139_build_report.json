@@ -1,0 +1,1152 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R139_GRAND_HALL_TAS_DUVARLAR_v001.blend",
+  "base_scene": "MUDAM_R138_GIRIS_DOLASIM_TAS_ZEMIN_v002.blend",
+  "changed_inherited_objects": [
+    "P05_MAIN_ATRIUM_BASE_3",
+    "P05_MAIN_ATRIUM_BASE_5_R02_ABOVE",
+    "P05_MAIN_ATRIUM_BASE_5_R02_BEFORE_R04_BEFORE",
+    "P05_MAIN_ATRIUM_BASE_5_R02_BEFORE_R04_AFTER",
+    "P05_MAIN_ATRIUM_BASE_5_R02_BEFORE_R04_ABOVE",
+    "R72_HIGH_ATRIUM_WALL_3",
+    "R72_HIGH_ATRIUM_WALL_5",
+    "R73_E_CONTINUOUS_GALLERY_WALL",
+    "R73_W_CONTINUOUS_GALLERY_WALL"
+  ],
+  "closed_objects": [],
+  "surface_objects": [
+    {
+      "name": "P05_MAIN_ATRIUM_BASE_3",
+      "faces": [
+        {
+          "face": 0,
+          "material": "R139_JOINT_STONE_CANDIDATE",
+          "u": [
+            0.999340295791626,
+            -0.036317482590675354,
+            0.0
+          ],
+          "v": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "repeat_m": [
+            3.2,
+            2.4
+          ]
+        },
+        {
+          "face": 1,
+          "material": "R139_JOINT_STONE_CANDIDATE",
+          "u": [
+            0.999340295791626,
+            -0.036317482590675354,
+            -0.0
+          ],
+          "v": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "repeat_m": [
+            3.2,
+            2.4
+          ]
+        },
+        {
+          "face": 2,
+          "material": "R139_JOINT_STONE_CANDIDATE",
+          "u": [
+            0.036317143589258194,
+            0.999340295791626,
+            -0.0
+          ],
+          "v": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "repeat_m": [
+            3.2,
+            2.4
+          ]
+        },
+        {
+          "face": 3,
+          "material": "R139_GRAIN_STONE_CANDIDATE",
+          "u": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "v": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "repeat_m": [
+            2.0,
+            2.0
+          ]
+        },
+        {
+          "face": 4,
+          "material": "R139_JOINT_STONE_CANDIDATE",
+          "u": [
+            0.036319125443696976,
+            0.9993402361869812,
+            -0.0
+          ],
+          "v": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "repeat_m": [
+            3.2,
+            2.4
+          ]
+        },
+        {
+          "face": 5,
+          "material": "R139_GRAIN_STONE_CANDIDATE",
+          "u": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "v": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "repeat_m": [
+            2.0,
+            2.0
+          ]
+        }
+      ]
+    },
+    {
+      "name": "P05_MAIN_ATRIUM_BASE_5_R02_ABOVE",
+      "faces": [
+        {
+          "face": 0,
+          "material": "R139_JOINT_STONE_CANDIDATE",
+          "u": [
+            0.03631765395402908,
+            0.999340295791626,
+            -0.0
+          ],
+          "v": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "repeat_m": [
+            3.2,
+            2.4
+          ]
+        },
+        {
+          "face": 1,
+          "material": "R139_JOINT_STONE_CANDIDATE",
+          "u": [
+            0.03631765395402908,
+            0.999340295791626,
+            -0.0
+          ],
+          "v": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "repeat_m": [
+            3.2,
+            2.4
+          ]
+        },
+        {
+          "face": 2,
+          "material": "R139_GRAIN_STONE_CANDIDATE",
+          "u": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "v": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "repeat_m": [
+            2.0,
+            2.0
+          ]
+        },
+        {
+          "face": 3,
+          "material": "R139_JOINT_STONE_CANDIDATE",
+          "u": [
+            0.9993403553962708,
+            -0.036317143589258194,
+            0.0
+          ],
+          "v": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "repeat_m": [
+            3.2,
+            2.4
+          ]
+        },
+        {
+          "face": 4,
+          "material": "R139_GRAIN_STONE_CANDIDATE",
+          "u": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "v": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "repeat_m": [
+            2.0,
+            2.0
+          ]
+        },
+        {
+          "face": 5,
+          "material": "R139_JOINT_STONE_CANDIDATE",
+          "u": [
+            0.9993403553962708,
+            -0.036317143589258194,
+            -0.0
+          ],
+          "v": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "repeat_m": [
+            3.2,
+            2.4
+          ]
+        }
+      ]
+    },
+    {
+      "name": "P05_MAIN_ATRIUM_BASE_5_R02_BEFORE_R04_BEFORE",
+      "faces": [
+        {
+          "face": 0,
+          "material": "R139_JOINT_STONE_CANDIDATE",
+          "u": [
+            0.03631603717803955,
+            0.9993404150009155,
+            -0.0
+          ],
+          "v": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "repeat_m": [
+            3.2,
+            2.4
+          ]
+        },
+        {
+          "face": 1,
+          "material": "R139_JOINT_STONE_CANDIDATE",
+          "u": [
+            0.03631603717803955,
+            0.9993404150009155,
+            -0.0
+          ],
+          "v": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "repeat_m": [
+            3.2,
+            2.4
+          ]
+        },
+        {
+          "face": 2,
+          "material": "R139_JOINT_STONE_CANDIDATE",
+          "u": [
+            0.9993402361869812,
+            -0.036319125443696976,
+            -0.0
+          ],
+          "v": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "repeat_m": [
+            3.2,
+            2.4
+          ]
+        },
+        {
+          "face": 3,
+          "material": "R139_GRAIN_STONE_CANDIDATE",
+          "u": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "v": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "repeat_m": [
+            2.0,
+            2.0
+          ]
+        },
+        {
+          "face": 4,
+          "material": "R139_JOINT_STONE_CANDIDATE",
+          "u": [
+            0.9993402361869812,
+            -0.036319125443696976,
+            0.0
+          ],
+          "v": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "repeat_m": [
+            3.2,
+            2.4
+          ]
+        },
+        {
+          "face": 5,
+          "material": "R139_GRAIN_STONE_CANDIDATE",
+          "u": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "v": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "repeat_m": [
+            2.0,
+            2.0
+          ]
+        }
+      ]
+    },
+    {
+      "name": "P05_MAIN_ATRIUM_BASE_5_R02_BEFORE_R04_AFTER",
+      "faces": [
+        {
+          "face": 0,
+          "material": "R139_JOINT_STONE_CANDIDATE",
+          "u": [
+            0.036319706588983536,
+            0.9993402361869812,
+            -0.0
+          ],
+          "v": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "repeat_m": [
+            3.2,
+            2.4
+          ]
+        },
+        {
+          "face": 1,
+          "material": "R139_JOINT_STONE_CANDIDATE",
+          "u": [
+            0.036319706588983536,
+            0.9993402361869812,
+            -0.0
+          ],
+          "v": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "repeat_m": [
+            3.2,
+            2.4
+          ]
+        },
+        {
+          "face": 2,
+          "material": "R139_JOINT_STONE_CANDIDATE",
+          "u": [
+            0.9993402361869812,
+            -0.036319125443696976,
+            -0.0
+          ],
+          "v": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "repeat_m": [
+            3.2,
+            2.4
+          ]
+        },
+        {
+          "face": 3,
+          "material": "R139_GRAIN_STONE_CANDIDATE",
+          "u": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "v": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "repeat_m": [
+            2.0,
+            2.0
+          ]
+        },
+        {
+          "face": 4,
+          "material": "R139_JOINT_STONE_CANDIDATE",
+          "u": [
+            0.9993402361869812,
+            -0.036319125443696976,
+            0.0
+          ],
+          "v": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "repeat_m": [
+            3.2,
+            2.4
+          ]
+        },
+        {
+          "face": 5,
+          "material": "R139_GRAIN_STONE_CANDIDATE",
+          "u": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "v": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "repeat_m": [
+            2.0,
+            2.0
+          ]
+        }
+      ]
+    },
+    {
+      "name": "P05_MAIN_ATRIUM_BASE_5_R02_BEFORE_R04_ABOVE",
+      "faces": [
+        {
+          "face": 0,
+          "material": "R139_JOINT_STONE_CANDIDATE",
+          "u": [
+            0.03631755709648132,
+            0.999340295791626,
+            -0.0
+          ],
+          "v": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "repeat_m": [
+            3.2,
+            2.4
+          ]
+        },
+        {
+          "face": 1,
+          "material": "R139_JOINT_STONE_CANDIDATE",
+          "u": [
+            0.03631755709648132,
+            0.999340295791626,
+            -0.0
+          ],
+          "v": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "repeat_m": [
+            3.2,
+            2.4
+          ]
+        },
+        {
+          "face": 2,
+          "material": "R139_JOINT_STONE_CANDIDATE",
+          "u": [
+            0.999340295791626,
+            -0.036319129168987274,
+            -0.0
+          ],
+          "v": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "repeat_m": [
+            3.2,
+            2.4
+          ]
+        },
+        {
+          "face": 3,
+          "material": "R139_GRAIN_STONE_CANDIDATE",
+          "u": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "v": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "repeat_m": [
+            2.0,
+            2.0
+          ]
+        },
+        {
+          "face": 4,
+          "material": "R139_JOINT_STONE_CANDIDATE",
+          "u": [
+            0.999340295791626,
+            -0.036319129168987274,
+            0.0
+          ],
+          "v": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "repeat_m": [
+            3.2,
+            2.4
+          ]
+        },
+        {
+          "face": 5,
+          "material": "R139_GRAIN_STONE_CANDIDATE",
+          "u": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "v": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "repeat_m": [
+            2.0,
+            2.0
+          ]
+        }
+      ]
+    },
+    {
+      "name": "R72_HIGH_ATRIUM_WALL_3",
+      "faces": [
+        {
+          "face": 0,
+          "material": "R139_GRAIN_STONE_CANDIDATE",
+          "u": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "v": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "repeat_m": [
+            2.0,
+            2.0
+          ]
+        },
+        {
+          "face": 1,
+          "material": "R139_GRAIN_STONE_CANDIDATE",
+          "u": [
+            0.9974458813667297,
+            -0.07142598927021027,
+            0.0
+          ],
+          "v": [
+            0.05975649133324623,
+            0.8344842791557312,
+            0.5477820634841919
+          ],
+          "repeat_m": [
+            2.0,
+            2.0
+          ]
+        },
+        {
+          "face": 2,
+          "material": "R139_JOINT_STONE_CANDIDATE",
+          "u": [
+            0.999340295791626,
+            -0.036317482590675354,
+            0.0
+          ],
+          "v": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "repeat_m": [
+            3.2,
+            2.4
+          ]
+        },
+        {
+          "face": 3,
+          "material": "R139_JOINT_STONE_CANDIDATE",
+          "u": [
+            0.6809588074684143,
+            -0.7323217391967773,
+            -0.0
+          ],
+          "v": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "repeat_m": [
+            3.2,
+            2.4
+          ]
+        },
+        {
+          "face": 4,
+          "material": "R139_JOINT_STONE_CANDIDATE",
+          "u": [
+            0.999340295791626,
+            -0.03631742671132088,
+            -0.0
+          ],
+          "v": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "repeat_m": [
+            3.2,
+            2.4
+          ]
+        },
+        {
+          "face": 5,
+          "material": "R139_JOINT_STONE_CANDIDATE",
+          "u": [
+            0.7323204874992371,
+            0.6809601187705994,
+            -0.0
+          ],
+          "v": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "repeat_m": [
+            3.2,
+            2.4
+          ]
+        }
+      ]
+    },
+    {
+      "name": "R72_HIGH_ATRIUM_WALL_5",
+      "faces": [
+        {
+          "face": 0,
+          "material": "R139_GRAIN_STONE_CANDIDATE",
+          "u": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "v": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "repeat_m": [
+            2.0,
+            2.0
+          ]
+        },
+        {
+          "face": 1,
+          "material": "R139_GRAIN_STONE_CANDIDATE",
+          "u": [
+            0.005702373571693897,
+            -0.9999838471412659,
+            0.0
+          ],
+          "v": [
+            0.8365398049354553,
+            0.0047703399322927,
+            0.5478853583335876
+          ],
+          "repeat_m": [
+            2.0,
+            2.0
+          ]
+        },
+        {
+          "face": 2,
+          "material": "R139_JOINT_STONE_CANDIDATE",
+          "u": [
+            0.03631744906306267,
+            0.9993403553962708,
+            -0.0
+          ],
+          "v": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "repeat_m": [
+            3.2,
+            2.4
+          ]
+        },
+        {
+          "face": 3,
+          "material": "R139_JOINT_STONE_CANDIDATE",
+          "u": [
+            0.7323207855224609,
+            0.6809598207473755,
+            -0.0
+          ],
+          "v": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "repeat_m": [
+            3.2,
+            2.4
+          ]
+        },
+        {
+          "face": 4,
+          "material": "R139_JOINT_STONE_CANDIDATE",
+          "u": [
+            0.03631742671132088,
+            0.999340295791626,
+            -0.0
+          ],
+          "v": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "repeat_m": [
+            3.2,
+            2.4
+          ]
+        },
+        {
+          "face": 5,
+          "material": "R139_JOINT_STONE_CANDIDATE",
+          "u": [
+            0.6809593439102173,
+            -0.7323212623596191,
+            -0.0
+          ],
+          "v": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "repeat_m": [
+            3.2,
+            2.4
+          ]
+        }
+      ]
+    },
+    {
+      "name": "R73_E_CONTINUOUS_GALLERY_WALL",
+      "faces": [
+        {
+          "face": 0,
+          "material": "R139_GRAIN_STONE_CANDIDATE",
+          "u": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "v": [
+            0.0,
+            -1.0,
+            -0.0
+          ],
+          "repeat_m": [
+            2.0,
+            2.0
+          ]
+        },
+        {
+          "face": 1,
+          "material": "R139_GRAIN_STONE_CANDIDATE",
+          "u": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "v": [
+            0.0,
+            1.0,
+            -0.0
+          ],
+          "repeat_m": [
+            2.0,
+            2.0
+          ]
+        },
+        {
+          "face": 2,
+          "material": "R139_JOINT_STONE_CANDIDATE",
+          "u": [
+            0.999340295791626,
+            -0.036319129168987274,
+            0.0
+          ],
+          "v": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "repeat_m": [
+            3.2,
+            2.4
+          ]
+        },
+        {
+          "face": 3,
+          "material": "R139_JOINT_STONE_CANDIDATE",
+          "u": [
+            0.41069722175598145,
+            0.9117717146873474,
+            -0.0
+          ],
+          "v": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "repeat_m": [
+            3.2,
+            2.4
+          ]
+        },
+        {
+          "face": 5,
+          "material": "R139_JOINT_STONE_CANDIDATE",
+          "u": [
+            0.9101295471191406,
+            -0.414323627948761,
+            -0.0
+          ],
+          "v": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "repeat_m": [
+            3.2,
+            2.4
+          ]
+        },
+        {
+          "face": 6,
+          "material": "R139_JOINT_STONE_CANDIDATE",
+          "u": [
+            0.9434236288070679,
+            0.33159002661705017,
+            -0.0
+          ],
+          "v": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "repeat_m": [
+            3.2,
+            2.4
+          ]
+        },
+        {
+          "face": 7,
+          "material": "R139_JOINT_STONE_CANDIDATE",
+          "u": [
+            0.03631747141480446,
+            0.9993403553962708,
+            -0.0
+          ],
+          "v": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "repeat_m": [
+            3.2,
+            2.4
+          ]
+        },
+        {
+          "face": 8,
+          "material": "R139_GRAIN_STONE_CANDIDATE",
+          "u": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "v": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "repeat_m": [
+            2.0,
+            2.0
+          ]
+        },
+        {
+          "face": 9,
+          "material": "R139_JOINT_STONE_CANDIDATE",
+          "u": [
+            0.643093466758728,
+            0.765787661075592,
+            -0.0
+          ],
+          "v": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "repeat_m": [
+            3.2,
+            2.4
+          ]
+        }
+      ]
+    },
+    {
+      "name": "R73_W_CONTINUOUS_GALLERY_WALL",
+      "faces": [
+        {
+          "face": 0,
+          "material": "R139_GRAIN_STONE_CANDIDATE",
+          "u": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "v": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "repeat_m": [
+            2.0,
+            2.0
+          ]
+        },
+        {
+          "face": 1,
+          "material": "R139_GRAIN_STONE_CANDIDATE",
+          "u": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "v": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "repeat_m": [
+            2.0,
+            2.0
+          ]
+        },
+        {
+          "face": 2,
+          "material": "R139_JOINT_STONE_CANDIDATE",
+          "u": [
+            0.999433696269989,
+            -0.03365001454949379,
+            0.0
+          ],
+          "v": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "repeat_m": [
+            3.2,
+            2.4
+          ]
+        },
+        {
+          "face": 3,
+          "material": "R139_JOINT_STONE_CANDIDATE",
+          "u": [
+            0.03364976495504379,
+            0.9994337558746338,
+            -0.0
+          ],
+          "v": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "repeat_m": [
+            3.2,
+            2.4
+          ]
+        },
+        {
+          "face": 4,
+          "material": "R139_JOINT_STONE_CANDIDATE",
+          "u": [
+            0.7765949964523315,
+            -0.6300002336502075,
+            -0.0
+          ],
+          "v": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "repeat_m": [
+            3.2,
+            2.4
+          ]
+        },
+        {
+          "face": 6,
+          "material": "R139_JOINT_STONE_CANDIDATE",
+          "u": [
+            0.9237489700317383,
+            0.3829984664916992,
+            -0.0
+          ],
+          "v": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "repeat_m": [
+            3.2,
+            2.4
+          ]
+        },
+        {
+          "face": 7,
+          "material": "R139_JOINT_STONE_CANDIDATE",
+          "u": [
+            0.0336487703025341,
+            0.9994337558746338,
+            -0.0
+          ],
+          "v": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "repeat_m": [
+            3.2,
+            2.4
+          ]
+        }
+      ]
+    }
+  ],
+  "uv_map": "R139_STONE_METRIC_UV",
+  "materials": [
+    "R139_GRAIN_STONE_CANDIDATE",
+    "R139_JOINT_STONE_CANDIDATE"
+  ],
+  "sources": [
+    {
+      "id": "026",
+      "path": "04_Ic_Mekan/Grand_Hall/026_Grand_Hall_genel_gorunum_WikiArquitectura.jpg",
+      "sha256": "6293c8918dc238518c67a659d4e2b656e7df40aad983efe83accb892fc9666f2",
+      "source_url": "https://es.wikiarquitectura.com/edificio/museo-de-arte-moderno-grand-duc-jean-mudam/",
+      "credit": "WikiArquitectura; sayfadaki foto\u011fraf serisi Haziran 2019",
+      "source_date": "unknown; do not infer from download date",
+      "modified": false
+    },
+    {
+      "id": "034",
+      "path": "04_Ic_Mekan/Cam_Ortulu_Salonlar/034_Cam_ortulu_sergi_salonu_WikiArquitectura.jpg",
+      "sha256": "00397640c685b95a8a9442dfa254e47a8e778286f871934957626e945a74c773",
+      "source_url": "https://es.wikiarquitectura.com/edificio/museo-de-arte-moderno-grand-duc-jean-mudam/",
+      "credit": "WikiArquitectura; sayfadaki foto\u011fraf serisi Haziran 2019",
+      "source_date": "unknown; do not infer from download date",
+      "modified": false
+    },
+    {
+      "id": "087",
+      "path": "05_Dis_Mekan/Giris_ve_Yaklasim/087_Yaklasim_koprusu_ve_cam_cati_ArchEyes.jpg",
+      "sha256": "3d4547c7f0fb344d335b7a312b187e1cdae1a4c0dc4f1ea3b5992f712d76070c",
+      "source_url": "https://archeyes.com/the-mudam-by-i-m-pei-where-old-meets-new/",
+      "credit": "\u00a9 Michael Nguyen / ArchEyes",
+      "source_date": "unknown; do not infer from download date",
+      "modified": false
+    },
+    {
+      "id": "119",
+      "path": "05_Dis_Mekan/Cepheler/119_Cam_cati_cepheden_gorunum_Mudam.webp",
+      "sha256": "58debe32215f4c92615f96569bd1e9a4dffd4d35ffeb96ec2d630553a42a96b1",
+      "source_url": "https://www.mudam.com/visit/architecture",
+      "credit": "\u00a9 R\u00e9mi Villaggi / Mudam Luxembourg",
+      "source_date": "unknown; do not infer from download date",
+      "modified": false
+    }
+  ],
+  "geometry_changed": false,
+  "construction_acceptance": false
+}

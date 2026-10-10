@@ -1,0 +1,23 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R139_GRAND_HALL_TAS_DUVARLAR_v001.blend",
+  "reviewed_images": [
+    {
+      "path": "12_Blender_Model/renders/qa/R139_before_hall.png",
+      "sha256": "5f88100198503a476e79e5f6eea17aa7a286a2e2c217b7e1548b46b774c45c91"
+    },
+    {
+      "path": "12_Blender_Model/renders/qa/R139_before_gallery.png",
+      "sha256": "e0da269a8934da3e4c74937cd54e515f6c3e02569ade1f0587dad4b16d06863c"
+    },
+    {
+      "path": "12_Blender_Model/renders/qa/R139_after_hall.png",
+      "sha256": "337ace94dd136e76c0b649b8569bb8dcb01fe01bfbb65d0774d4edf444f86eb5"
+    },
+    {
+      "path": "12_Blender_Model/renders/qa/R139_after_gallery.png",
+      "sha256": "0e0558178ab0ab5e17c6f9dc6cc6162604b26f908bffb1386f5e7ff7563684fc"
+    }
+  ],
+  "failures": [],
+  "scope": "Four same-camera before/after views examined. Stone finish continues across high hall and gallery exterior walls. Original lighting unchanged. Material review only; not whole-building acceptance."
+}

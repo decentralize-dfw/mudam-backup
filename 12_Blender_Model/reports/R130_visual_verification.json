@@ -1,0 +1,23 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R130_PARK_IGNE_YAPRAKLI_AGACLAR_v002.blend",
+  "reviewed_images": [
+    {
+      "path": "12_Blender_Model/renders/qa/R130_before_park.png",
+      "sha256": "e304773f9e3e2cf9117fdd4e4d4a1e778cc29f4a498ab3e39f7cd7e310532f7f"
+    },
+    {
+      "path": "12_Blender_Model/renders/qa/R130_before_tree.png",
+      "sha256": "9a67cbbf1f5d5f97272707ab57566911711532f677f5b7e76db4f784644cd910"
+    },
+    {
+      "path": "12_Blender_Model/renders/qa/R130_after_park.png",
+      "sha256": "bda361eb457f9feb00a7d57214c0f2aeb5ae41c50b36346a1ab27b72fcf455f1"
+    },
+    {
+      "path": "12_Blender_Model/renders/qa/R130_after_tree.png",
+      "sha256": "d685afac8e50ec80ff48558295f3fb0ab75f78a6f7e05dc83ce2aa7be9d2dfab"
+    }
+  ],
+  "failures": [],
+  "scope": "Before/after park and individual-tree views examined. V001 regular tiers rejected; v002 irregular branching accepted as generic context. No species or measured crown claim."
+}

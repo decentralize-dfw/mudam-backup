@@ -1,0 +1,36 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R143_ALT_FUAYE_TAS_DUVAR_v001.blend",
+  "images": [
+    {
+      "image": "12_Blender_Model/renders/qa/R143_before_wall.png",
+      "phase": "before",
+      "eye": [
+        3.5180823802948,
+        7.206859111785889,
+        -3.799999952316284
+      ],
+      "target": [
+        0.8884876370429993,
+        -2.700408697128296,
+        -2.799999952316284
+      ]
+    },
+    {
+      "image": "12_Blender_Model/renders/qa/R143_after_wall.png",
+      "phase": "after",
+      "eye": [
+        3.5180823802948,
+        7.206859111785889,
+        -3.799999952316284
+      ],
+      "target": [
+        0.8884876370429993,
+        -2.700408697128296,
+        -2.799999952316284
+      ]
+    }
+  ],
+  "all_active_surroundings": true,
+  "lighting_unchanged": true,
+  "temporary_review_light": true
+}

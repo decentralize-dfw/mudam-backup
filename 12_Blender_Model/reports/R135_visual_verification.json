@@ -1,0 +1,23 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R135_ODITORYUM_AHSAP_DAMAR_v001.blend",
+  "reviewed_images": [
+    {
+      "path": "12_Blender_Model/renders/qa/R135_before_room.png",
+      "sha256": "5c7bc94f4a4e28f6a8f24af177fd5f12aef435ec3a5ca5bf9a2f955fd966c88f"
+    },
+    {
+      "path": "12_Blender_Model/renders/qa/R135_before_panel.png",
+      "sha256": "c206be2f38d37ad94d32b77eb4df817289b89c7604cdcfc9b4e51aa53ad2694a"
+    },
+    {
+      "path": "12_Blender_Model/renders/qa/R135_after_room.png",
+      "sha256": "ed0ef9f56c576cfc3f4724f0600389a5ba1731551961f516eb12fd6a36dd1711"
+    },
+    {
+      "path": "12_Blender_Model/renders/qa/R135_after_panel.png",
+      "sha256": "600ac2a30bb56a91ebf24dd79ea5da4c20bfc0d3916ab199394a5c987dbee95b"
+    }
+  ],
+  "failures": [],
+  "scope": "Four before/after images examined. Vertical grain visible on existing timber panels; perforations, seams and openings preserved. Identical temporary review lights, not photometric calibration."
+}

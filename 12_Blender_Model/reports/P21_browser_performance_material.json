@@ -1,0 +1,93 @@
+{
+  "schema": 1,
+  "measured_at_utc": "2026-10-10T08:39:41.723Z",
+  "revision": "R144",
+  "sha256": "3ab5a81fa72155501305887b940cb9fe448b462ba3a236a32f8516adcdc1476a",
+  "source_scene": "12_Blender_Model/scenes/MUDAM_R144_ALT_FUAYE_TAS_TAVAN_v001.blend",
+  "viewport_css": [
+    787,
+    1008
+  ],
+  "drawing_buffer": [
+    983,
+    1260
+  ],
+  "pixel_ratio": 1.25,
+  "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+  "view": [
+    "3ab5a81fa72155501305887b940cb9fe448b462ba3a236a32f8516adcdc1476a",
+    "all",
+    "none",
+    "5",
+    true,
+    false,
+    true,
+    false,
+    false,
+    null,
+    787,
+    1008
+  ],
+  "camera_position": [
+    141.5231850417039,
+    127.43015000594308,
+    146.8860466750047
+  ],
+  "camera_target": [
+    -2.2125148773193364,
+    12.441590070724489,
+    3.1503467559814458
+  ],
+  "sweep_degrees": 30,
+  "load_timing_ms": {
+    "fetch_decode_verify": 904.7000000029802,
+    "gltf_parse": 587.8999999985099,
+    "scene_setup_first_draw": 3750.39999999851,
+    "total": 5243
+  },
+  "warmup_ms": 2000,
+  "requested_sample_ms": 10000,
+  "frame_interval_ms": {
+    "count": 124,
+    "mean": 80.29274193548389,
+    "p50": 78.69999999999709,
+    "p95": 109,
+    "min": 54.5,
+    "max": 133.5
+  },
+  "render_submission_ms": {
+    "count": 124,
+    "mean": 79.8983870971227,
+    "p50": 76.90000000596046,
+    "p95": 105.20000000298023,
+    "min": 56.20000000298023,
+    "max": 136
+  },
+  "delivered_fps": 12.45442584092484,
+  "draw_calls": {
+    "count": 124,
+    "mean": 17164.854838709678,
+    "p50": 17158,
+    "p95": 17214,
+    "min": 17130,
+    "max": 17216
+  },
+  "submitted_triangles": {
+    "count": 124,
+    "mean": 3462668.3870967743,
+    "p50": 3208780,
+    "p95": 4044820,
+    "min": 3208092,
+    "max": 4044988
+  },
+  "resources": {
+    "geometries": 8792,
+    "textures": 26
+  },
+  "limits": [
+    "Browser frame delivery includes vsync and scheduling; not pure GPU time.",
+    "JS render submission may include driver stalls.",
+    "Current browser, viewport and view only; not all devices or all model views.",
+    "Load timing includes local HTTP and caches; not public network speed."
+  ]
+}

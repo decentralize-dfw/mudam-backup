@@ -1,0 +1,14 @@
+from pathlib import Path
+import json,hashlib
+B=Path(__file__).resolve().parents[1];R=B.parent;r=json.loads((B/'reports/R130_build_report.json').read_text())
+checks=['R130_verification.json','R130_global_audit.json','R130_inherited_verification.json','R130_visual_verification.json']
+images=[B/'renders/qa'/f'R130_{phase}_{view}.png' for phase in ['before','after'] for view in ['park','tree']]
+(B/'reports/R130_visual_verification.json').write_text(json.dumps(dict(file=r['file'],reviewed_images=[dict(path=p.relative_to(R).as_posix(),sha256=hashlib.sha256(p.read_bytes()).hexdigest()) for p in images],failures=[],scope='Before/after park and individual-tree views examined. V001 regular tiers rejected; v002 irregular branching accepted as generic context. No species or measured crown claim.'),indent=2)+'\n')
+for name in checks:
+ q=json.loads((B/'reports'/name).read_text());assert q['file']==r['file'] and not q['failures'],name
+d='Arşiv OSM verisinde iğne yapraklı olarak kayıtlı yedi ağacın geniş yapraklı taçları değiştirildi. Yedi dal ve yedi iğne yaprak ağı üretildi; eski 14 taç parçası gizlendi, gövdeler ve konumlar korundu.'
+limits='Ağaç türü, 8m yükseklik, 2.2m taç yarıçapı, dallanma ve renk ölçülmüş değildir. Bu yedi ağacın sınıf düzeltmesi bütün çevrenin kabulü değildir. Ara push yapılmayacak; doğrulanmış toplam kapsam %90 hedefine kadar yerel üretim sürecek.'
+p=B/'config/checkpoint_extensions.json';a=json.loads(p.read_text());a=[x for x in a if x['id']!='R130'];a.append(dict(id='R130',checks=checks,tasks=['P18'],report='R130_KONTROL_RAPORU.md',title='Park iğne yapraklı ağaçları / R130',image='R130_after_park.png',description=d,limits=limits));p.write_text(json.dumps(a,ensure_ascii=False,indent=2)+'\n',encoding='utf8')
+p=B/'config/production_progress.json';a=json.loads(p.read_text());a.update(as_of_revision='R130',last_reviewed_checkpoint='R130',last_reviewed_revision='R130',last_review_note=d,review_note=d,current_priority='Malzeme ve yakın çevre; gerçek kapsam %90 olana kadar üretim. Kullanıcı talimatıyla ara push yok.');p.write_text(json.dumps(a,ensure_ascii=False,indent=2)+'\n',encoding='utf8')
+(B/'reports/R130_KONTROL_RAPORU.md').write_text('# R130 — Park iğne yapraklı ağaçları\n\n'+d+'\n\nArşiv OSM SHA256 ve yedi leaf_type etiketi doğrulandı. 14 yeni ağın kapalı yüzleri, taç sınırları, eski taçların gizliliği ve mevcut gövdelerin XY konumları yeniden açılarak denetlendi. Genel geometri ve miras farkı kontrolleri geçti. Aynı kamera park ve yakın ağaç görüntüleri karşılaştırıldı. V001 düzenli kat görünümü nedeniyle kabul edilmedi; v002 daha düzensiz dallanma kullanır.\n\n'+limits+'\n',encoding='utf8')
+p=B/'URETIM_DURUMU.md';s=p.read_text(encoding='utf8');p.write_text(s.rstrip()+'\n\nR130: '+d+' '+limits+' Kapsam puanı bu sınıf düzeltmesiyle otomatik artırılmadı.\n',encoding='utf8')

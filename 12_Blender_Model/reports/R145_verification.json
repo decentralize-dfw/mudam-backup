@@ -1,0 +1,65 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R145_KUZEY_BATI_TAS_YUZEYLER_v001.blend",
+  "evaluated_geometry_objects_checked": 9365,
+  "geometry_identical": true,
+  "uv_checks": [
+    {
+      "name": "P06_NORTH_STONE_GABLE_EAST",
+      "faces": 5,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.10629727193954963
+    },
+    {
+      "name": "P06_NORTH_BASE_E",
+      "faces": 8,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.11388857604748281
+    },
+    {
+      "name": "P05_WEST_END",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.12188658015958254
+    }
+  ],
+  "packed_images": [
+    {
+      "material": "R145_GRAIN_STONE_CANDIDATE",
+      "image": "R46_stone_grain_candidate_basecolor.png",
+      "packed": true,
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "material": "R145_GRAIN_STONE_CANDIDATE",
+      "image": "R46_stone_grain_candidate_normal.png",
+      "packed": true,
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "material": "R145_JOINT_STONE_CANDIDATE",
+      "image": "R32_limestone_candidate_basecolor.png",
+      "packed": true,
+      "size": [
+        2048,
+        1536
+      ]
+    },
+    {
+      "material": "R145_JOINT_STONE_CANDIDATE",
+      "image": "R32_limestone_candidate_normal.png",
+      "packed": true,
+      "size": [
+        2048,
+        1536
+      ]
+    }
+  ],
+  "failures": [],
+  "construction_acceptance": false
+}

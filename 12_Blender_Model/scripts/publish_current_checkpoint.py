@@ -114,7 +114,7 @@ def publish():
   v=json.loads((B/'reports/P20_viewer_verification.json').read_text())
   if not v['failures']:
    for t in data['tasks']:
-    if t['id']=='P20':t.update(status='in_progress',artifacts=['12_Blender_Model/MODEL_INCELEME.html','12_Blender_Model/PLAN_KONTROL.html'],open_issues=['Üç kat kot aralığı, yatay/düşey canlı kesit, parça-kaynak seçimi ve tek parça görünümü mevcut. Kesit yüzleri kapaksız; kat kotları koşullu; bina kabulü yapılmadı.'])
+    if t['id']=='P20':t.update(status='in_progress',artifacts=['12_Blender_Model/MODEL_INCELEME.html','12_Blender_Model/PLAN_KONTROL.html'],open_issues=['Üç kat kot aralığı, yatay/düşey canlı kesit, kapalı halka kapakları, parça-kaynak seçimi ve tek parça görünümü mevcut. P20_KESIT_KAPAKLARI.md kayıtlı testleri kapsar; açık sınırlar doldurulmaz, tüm kot kombinasyonları kabul edilmedi. Kat kotları koşullu; bina kabulü yapılmadı.'])
  coverage_path=B/'config/task_current_evidence.json'
  if coverage_path.exists():
   coverage=json.loads(coverage_path.read_text(encoding='utf8'))

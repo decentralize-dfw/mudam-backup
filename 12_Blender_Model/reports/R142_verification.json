@@ -1,0 +1,41 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R142_KOPRU_YOL_KAPLAMA_DEVAMI_v001.blend",
+  "evaluated_geometry_objects_checked": 9365,
+  "geometry_identical": true,
+  "uv_checks": [
+    {
+      "name": "R38_PARK_APPROACH_GROUND",
+      "faces": 2,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.007307508601826163
+    },
+    {
+      "name": "R34_APPROACH_CONTINUOUS_DECK",
+      "faces": 22,
+      "max_uv_error": 0.0,
+      "min_uv_area": 1.5867467591856865e-05
+    }
+  ],
+  "packed_images": [
+    {
+      "material": "R142_PARK_ROUTE_ATLAS_CANDIDATE",
+      "image": "R142_park_routes_basecolor.png",
+      "packed": true,
+      "size": [
+        4096,
+        4096
+      ]
+    },
+    {
+      "material": "R142_PARK_ROUTE_ATLAS_CANDIDATE",
+      "image": "R142_park_routes_normal.png",
+      "packed": true,
+      "size": [
+        4096,
+        4096
+      ]
+    }
+  ],
+  "failures": [],
+  "construction_acceptance": false
+}

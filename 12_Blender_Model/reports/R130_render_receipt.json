@@ -1,0 +1,63 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R130_PARK_IGNE_YAPRAKLI_AGACLAR_v002.blend",
+  "images": [
+    {
+      "image": "12_Blender_Model/renders/qa/R130_before_park.png",
+      "eye": [
+        68,
+        67,
+        2.2
+      ],
+      "target": [
+        37,
+        60,
+        4.8
+      ],
+      "stage": "before"
+    },
+    {
+      "image": "12_Blender_Model/renders/qa/R130_before_tree.png",
+      "eye": [
+        55,
+        81,
+        3.0
+      ],
+      "target": [
+        50.27,
+        71.42,
+        4.9
+      ],
+      "stage": "before"
+    },
+    {
+      "image": "12_Blender_Model/renders/qa/R130_after_park.png",
+      "eye": [
+        68,
+        67,
+        2.2
+      ],
+      "target": [
+        37,
+        60,
+        4.8
+      ],
+      "stage": "after"
+    },
+    {
+      "image": "12_Blender_Model/renders/qa/R130_after_tree.png",
+      "eye": [
+        55,
+        81,
+        3.0
+      ],
+      "target": [
+        50.27,
+        71.42,
+        4.9
+      ],
+      "stage": "after"
+    }
+  ],
+  "all_active_surroundings": true,
+  "lighting_unchanged": true
+}

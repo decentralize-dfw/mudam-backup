@@ -1,0 +1,83 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R147_BATI_DONUS_ALT_FUAYE_TAS_v001.blend",
+  "evaluated_geometry_objects_checked": 9365,
+  "geometry_identical": true,
+  "uv_checks": [
+    {
+      "name": "R114_LOWER_STAIR_LANDING_STONE_BLADE",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.1241186396217131
+    },
+    {
+      "name": "R87_RETURN_INNER_RETAINED",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.13081013659075325
+    },
+    {
+      "name": "R87_VOLUME_FRONT_HIGH",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.22312079584889943
+    },
+    {
+      "name": "R87_VOLUME_FRONT_END",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.10322082668244548
+    },
+    {
+      "name": "R87_LANDING_SIDE_LOW",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.18973615338290983
+    },
+    {
+      "name": "R87_LANDING_SIDE_HIGH",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.22311852529219323
+    }
+  ],
+  "packed_images": [
+    {
+      "material": "R147_GRAIN_STONE_CANDIDATE",
+      "image": "R46_stone_grain_candidate_basecolor.png",
+      "packed": true,
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "material": "R147_GRAIN_STONE_CANDIDATE",
+      "image": "R46_stone_grain_candidate_normal.png",
+      "packed": true,
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "material": "R147_JOINT_STONE_CANDIDATE",
+      "image": "R32_limestone_candidate_basecolor.png",
+      "packed": true,
+      "size": [
+        2048,
+        1536
+      ]
+    },
+    {
+      "material": "R147_JOINT_STONE_CANDIDATE",
+      "image": "R32_limestone_candidate_normal.png",
+      "packed": true,
+      "size": [
+        2048,
+        1536
+      ]
+    }
+  ],
+  "failures": [],
+  "construction_acceptance": false
+}

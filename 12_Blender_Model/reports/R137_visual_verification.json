@@ -1,0 +1,23 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R137_BATI_MERDIVEN_TAS_YUZEYLERI_v001.blend",
+  "reviewed_images": [
+    {
+      "path": "12_Blender_Model/renders/qa/R137_before_lower.png",
+      "sha256": "f00f7da4aaeea525d9453da34efc45567f0274cfef4a633df30aa09167f34d1b"
+    },
+    {
+      "path": "12_Blender_Model/renders/qa/R137_before_upper.png",
+      "sha256": "bcbc668c8e257b076dccf55a7d38594f36553b1992641704a639f1d949ed5608"
+    },
+    {
+      "path": "12_Blender_Model/renders/qa/R137_after_lower.png",
+      "sha256": "272d41834bb8a3c60283beeb4dbb6535301f6cd8d1cc14608a30a9fb44e696cb"
+    },
+    {
+      "path": "12_Blender_Model/renders/qa/R137_after_upper.png",
+      "sha256": "b688f4f6b10a01cb9b706d4024c1a63a28794ceb1a5c4b4168c0da186000e9f0"
+    }
+  ],
+  "failures": [],
+  "scope": "Four same-camera before/after views examined. Wall joint family visible; tread grain subtle. No geometry changes. Lighting and metric camera not source-calibrated."
+}

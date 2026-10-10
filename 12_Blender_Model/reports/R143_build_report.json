@@ -1,0 +1,168 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R143_ALT_FUAYE_TAS_DUVAR_v001.blend",
+  "base_scene": "MUDAM_R141_GIRIS_KAFE_TAS_DUVARLAR_v001.blend",
+  "changed_inherited_objects": [
+    "R72_LOWER_FOYER_NORTH_WALL"
+  ],
+  "closed_objects": [],
+  "surface_objects": [
+    {
+      "name": "R72_LOWER_FOYER_NORTH_WALL",
+      "faces": [
+        {
+          "face": 0,
+          "material": "R143_GRAIN_STONE_CANDIDATE",
+          "u": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "v": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "repeat_m": [
+            2.0,
+            2.0
+          ]
+        },
+        {
+          "face": 1,
+          "material": "R143_GRAIN_STONE_CANDIDATE",
+          "u": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "v": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "repeat_m": [
+            2.0,
+            2.0
+          ]
+        },
+        {
+          "face": 2,
+          "material": "R143_JOINT_STONE_CANDIDATE",
+          "u": [
+            0.6809598803520203,
+            -0.7323207259178162,
+            -0.0
+          ],
+          "v": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "repeat_m": [
+            3.2,
+            2.4
+          ]
+        },
+        {
+          "face": 3,
+          "material": "R143_JOINT_STONE_CANDIDATE",
+          "u": [
+            0.7323209047317505,
+            0.6809597611427307,
+            -0.0
+          ],
+          "v": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "repeat_m": [
+            3.2,
+            2.4
+          ]
+        },
+        {
+          "face": 4,
+          "material": "R143_JOINT_STONE_CANDIDATE",
+          "u": [
+            0.6809599995613098,
+            -0.7323206663131714,
+            0.0
+          ],
+          "v": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "repeat_m": [
+            3.2,
+            2.4
+          ]
+        },
+        {
+          "face": 5,
+          "material": "R143_JOINT_STONE_CANDIDATE",
+          "u": [
+            0.7323206663131714,
+            0.680959939956665,
+            -0.0
+          ],
+          "v": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "repeat_m": [
+            3.2,
+            2.4
+          ]
+        }
+      ]
+    }
+  ],
+  "uv_map": "R143_STONE_METRIC_UV",
+  "materials": [
+    "R143_GRAIN_STONE_CANDIDATE",
+    "R143_JOINT_STONE_CANDIDATE"
+  ],
+  "sources": [
+    {
+      "id": "051",
+      "path": "04_Ic_Mekan/Merdivenler_ve_Dolasim/051_Merdiven_ve_katlar_arasi_dolasim_WikiArquitectura.jpg",
+      "sha256": "102d7c8bfa88eb766ea7481a19493a77df6f9c3422e375ba82381fca153adcc0",
+      "source_url": "https://es.wikiarquitectura.com/edificio/museo-de-arte-moderno-grand-duc-jean-mudam/",
+      "credit": "WikiArquitectura; sayfadaki foto\u011fraf serisi Haziran 2019",
+      "source_date": "unknown; do not infer from download date",
+      "modified": false
+    },
+    {
+      "id": "055",
+      "path": "04_Ic_Mekan/Merdivenler_ve_Dolasim/055_Merdiven_ve_katlar_arasi_dolasim_WikiArquitectura.jpg",
+      "sha256": "d7f4f05fde3673a08285b617661c67c64d1c01477ac5a390795bb8b555402b5e",
+      "source_url": "https://es.wikiarquitectura.com/edificio/museo-de-arte-moderno-grand-duc-jean-mudam/",
+      "credit": "WikiArquitectura; sayfadaki foto\u011fraf serisi Haziran 2019",
+      "source_date": "unknown; do not infer from download date",
+      "modified": false
+    },
+    {
+      "id": "101",
+      "path": "02_Kesitler/101_Mimari_kesit_ArchEyes.jpg",
+      "sha256": "399ce49f286dbbf4e7472e42a278bf236d55f58fdd297d3302f6037dbe5bfc20",
+      "source_url": "https://archeyes.com/the-mudam-by-i-m-pei-where-old-meets-new/",
+      "credit": "I. M. Pei (\u00e7izim; kaynak atf\u0131)",
+      "source_date": "unknown; do not infer from download date",
+      "modified": false
+    },
+    {
+      "id": "102",
+      "path": "01_Kat_Planlari/Resmi_Kat_Semalari/102_Resmi_kat_semasi_zemin_0_Mudam.jpeg",
+      "sha256": "f4d1d1992e1e2d664d5bf5fddd6aedd760edb2931f398e52b5e13316acec2407",
+      "source_url": "https://www.mudam.com/fr/floor-plans",
+      "credit": "Mudam Luxembourg; kullan\u0131c\u0131 taraf\u0131ndan verilen do\u011frudan ba\u011flant\u0131",
+      "source_date": "unknown; do not infer from download date",
+      "modified": false
+    }
+  ],
+  "geometry_changed": false,
+  "construction_acceptance": false
+}

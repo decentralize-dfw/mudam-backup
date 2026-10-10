@@ -1,0 +1,35 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R140_DOGU_BAHCE_TAS_ZEMIN_v001.blend",
+  "images": [
+    {
+      "image": "12_Blender_Model/renders/qa/R140_before_floor.png",
+      "phase": "before",
+      "eye": [
+        12.001514434814453,
+        -4.533248424530029,
+        1.649999976158142
+      ],
+      "target": [
+        9.291228294372559,
+        -23.59984016418457,
+        0.20000000298023224
+      ]
+    },
+    {
+      "image": "12_Blender_Model/renders/qa/R140_after_floor.png",
+      "phase": "after",
+      "eye": [
+        12.001514434814453,
+        -4.533248424530029,
+        1.649999976158142
+      ],
+      "target": [
+        9.291228294372559,
+        -23.59984016418457,
+        0.20000000298023224
+      ]
+    }
+  ],
+  "all_active_surroundings": true,
+  "lighting_unchanged": true
+}

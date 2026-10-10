@@ -1,0 +1,63 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R137_BATI_MERDIVEN_TAS_YUZEYLERI_v001.blend",
+  "images": [
+    {
+      "image": "12_Blender_Model/renders/qa/R137_before_lower.png",
+      "phase": "before",
+      "eye": [
+        -32.50601577758789,
+        24.402877807617188,
+        1.649999976158142
+      ],
+      "target": [
+        -32.21924591064453,
+        32.293853759765625,
+        3.799999952316284
+      ]
+    },
+    {
+      "image": "12_Blender_Model/renders/qa/R137_before_upper.png",
+      "phase": "before",
+      "eye": [
+        -32.27573776245117,
+        33.05242156982422,
+        4.079999923706055
+      ],
+      "target": [
+        -24.132923126220703,
+        32.756500244140625,
+        6.300000190734863
+      ]
+    },
+    {
+      "image": "12_Blender_Model/renders/qa/R137_after_lower.png",
+      "phase": "after",
+      "eye": [
+        -32.50601577758789,
+        24.402877807617188,
+        1.649999976158142
+      ],
+      "target": [
+        -32.21924591064453,
+        32.293853759765625,
+        3.799999952316284
+      ]
+    },
+    {
+      "image": "12_Blender_Model/renders/qa/R137_after_upper.png",
+      "phase": "after",
+      "eye": [
+        -32.27573776245117,
+        33.05242156982422,
+        4.079999923706055
+      ],
+      "target": [
+        -24.132923126220703,
+        32.756500244140625,
+        6.300000190734863
+      ]
+    }
+  ],
+  "all_active_surroundings": true,
+  "lighting_unchanged": true
+}

@@ -28,13 +28,25 @@ for im in g.get('images',[]):
  view=g['bufferViews'][im['bufferView']];offset=bin_start+view.get('byteOffset',0);payload=data[offset:offset+view['byteLength']];assert payload[:8]==b'\x89PNG\r\n\x1a\n'
  image_checks.append(dict(name=im.get('name'),embedded_bytes=len(payload),mime=im['mimeType']))
 for mi,m in enumerate(g.get('materials',[])):
- if not m.get('name','').startswith(('R32_','R43_','R46_','R49_MINERAL_')):continue
- for usage,link in [('basecolor',m['pbrMetallicRoughness'].get('baseColorTexture')),('normal',m.get('normalTexture'))]:
-  assert link,m['name'];tex=g['textures'][link['index']];im=g['images'][tex['source']];assert usage in im['name']
-  uv='TEXCOORD_'+str(link.get('texCoord',0));count=0
+ pbr=m.get('pbrMetallicRoughness',{})
+ links=[('basecolor',pbr.get('baseColorTexture')),('normal',m.get('normalTexture')),('metallic_roughness',pbr.get('metallicRoughnessTexture')),('occlusion',m.get('occlusionTexture')),('emissive',m.get('emissiveTexture'))]
+ if m.get('name','').startswith(('R32_','R43_','R46_','R49_MINERAL_')):
+  assert pbr.get('baseColorTexture') and m.get('normalTexture'),m['name']
+ for usage,link in links:
+  if not link:continue
+  tex=g['textures'][link['index']];im=g['images'][tex['source']]
+  uv='TEXCOORD_'+str(link.get('extensions',{}).get('KHR_texture_transform',{}).get('texCoord',link.get('texCoord',0)));count=0
   for mesh in g['meshes']:
    for primitive in mesh['primitives']:
-    if primitive.get('material')==mi:assert uv in primitive['attributes'];count+=1
+    if primitive.get('material')!=mi:continue
+    assert uv in primitive['attributes'],(m['name'],usage,uv)
+    acc=g['accessors'][primitive['attributes'][uv]];pos=g['accessors'][primitive['attributes']['POSITION']]
+    assert acc['type']=='VEC2' and acc['count']==pos['count'],(m['name'],usage,'UV shape')
+    assert acc['componentType']==5126 and 'sparse' not in acc,(m['name'],'unexpected UV encoding')
+    view=g['bufferViews'][acc['bufferView']];offset=bin_start+view.get('byteOffset',0)+acc.get('byteOffset',0)
+    coords=np.ndarray((acc['count'],2),dtype='<f4',buffer=data,offset=offset,strides=(view.get('byteStride',8),4))
+    assert np.isfinite(coords).all(),(m['name'],usage,'nonfinite UV')
+    count+=1
   assert count>0;texture_checks.append(dict(material=m['name'],usage=usage,image=im['name'],uv_attribute=uv,primitive_count=count))
 result=dict(file=r['file'],size_bytes=len(data),mesh_nodes=len(names),triangles=triangles,world_bounds_glTF=actual.tolist(),bounds_max_error_m=error,external_binary_dependency=False,embedded_images=image_checks,texture_bindings=texture_checks,failures=[],construction_acceptance=False)
 (B/'reports/P21_verification.json').write_text(json.dumps(result,indent=2),encoding='utf8');print(json.dumps(result,indent=2))

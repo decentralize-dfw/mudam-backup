@@ -1,0 +1,63 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R134_OKUMA_TAVANI_DOGU_MERDIVEN_TASI_v001.blend",
+  "images": [
+    {
+      "image": "12_Blender_Model/renders/qa/R134_before_reading.png",
+      "phase": "before",
+      "eye": [
+        24.904695510864258,
+        25.180442810058594,
+        6.400000095367432
+      ],
+      "target": [
+        22.904695510864258,
+        27.180442810058594,
+        10.0
+      ]
+    },
+    {
+      "image": "12_Blender_Model/renders/qa/R134_before_spiral.png",
+      "phase": "before",
+      "eye": [
+        9.437164306640625,
+        -20.335725784301758,
+        2.0
+      ],
+      "target": [
+        17.18447494506836,
+        -21.324901580810547,
+        2.5999999046325684
+      ]
+    },
+    {
+      "image": "12_Blender_Model/renders/qa/R134_after_reading.png",
+      "phase": "after",
+      "eye": [
+        24.904695510864258,
+        25.180442810058594,
+        6.400000095367432
+      ],
+      "target": [
+        22.904695510864258,
+        27.180442810058594,
+        10.0
+      ]
+    },
+    {
+      "image": "12_Blender_Model/renders/qa/R134_after_spiral.png",
+      "phase": "after",
+      "eye": [
+        9.437164306640625,
+        -20.335725784301758,
+        2.0
+      ],
+      "target": [
+        17.18447494506836,
+        -21.324901580810547,
+        2.5999999046325684
+      ]
+    }
+  ],
+  "all_active_surroundings": true,
+  "lighting_unchanged": true
+}

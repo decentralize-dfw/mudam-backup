@@ -1,0 +1,16 @@
+import assert from 'node:assert/strict';
+import {summarize,sampleRendering} from '../assets/performance-review.mjs';
+assert.deepEqual(summarize([30,10,20]),{count:3,mean:20,p50:20,p95:30,min:10,max:30});
+for(const values of [[],[NaN],[Infinity],[-1]])assert.throws(()=>summarize(values));
+let time=0;
+globalThis.requestAnimationFrame=fn=>queueMicrotask(()=>fn(time+=20));
+const args={render:()=>({calls:7,triangles:12}),frame:()=>{},signature:()=>1,hidden:()=>false,warmup:40,duration:120};
+const measured=await sampleRendering(args);
+assert.equal(measured.delivered_fps,50);
+assert.equal(measured.draw_calls.mean,7);
+assert.equal(measured.submitted_triangles.mean,12);
+await assert.rejects(()=>sampleRendering({...args,hidden:()=>true}),/iptal/);
+let state=0;
+await assert.rejects(()=>sampleRendering({...args,signature:()=>state++}),/iptal/);
+await assert.rejects(()=>sampleRendering({...args,duration:1,warmup:0}),/yeterli/);
+console.log('Timing statistics, cancellation and insufficient samples passed.');

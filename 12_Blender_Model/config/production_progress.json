@@ -1,5 +1,5 @@
 {
-  "as_of_revision": "R129",
+  "as_of_revision": "R148",
   "basis": "Beş eşit iş adımı: tamam 20, kısmi 10, bekleyen 0 puan. Yaklaşık kapsam ilerlemesidir; ölçü doğruluğu veya harcanan süre oranı değildir. Yeni paket kabulünde ilgili adımlar yeniden değerlendirilir.",
   "tasks": {
     "P00": {
@@ -454,7 +454,8 @@
         },
         {
           "label": "Peyzaj sınırları ve tarihî ayrıntılar",
-          "completion": 0
+          "completion": 0.5,
+          "evidence": "R132: arşiv karma ağaçlık sınırının 421.08m² bölümü üretildi; tüm peyzaj/tarihî ayrıntı tamamlanmadığı için kısmi."
         }
       ]
     },
@@ -502,7 +503,8 @@
         },
         {
           "label": "Kesit kapakları ve son araç kontrolü",
-          "completion": 0
+          "completion": 0.5,
+          "evidence": "reports/P20_KESIT_KAPAKLARI.md; reports/P20_section_caps_verification.json"
         }
       ]
     },
@@ -555,8 +557,8 @@
       ]
     }
   },
-  "last_reviewed_checkpoint": "R129",
-  "last_review_note": "Kullanıcı önceliği malzeme ve yakın çevre. R129 28 parçanın yüzeylerini yeniledi; kapsam adımları ve %73 değişmedi.",
+  "last_reviewed_checkpoint": "R148",
+  "last_review_note": "Batı kafenin yaklaşık 288m² mevcut döşemesindeki 33 üst yüze taş malzemesi ve metrik UV uygulandı.",
   "execution_order": [
     "Malzeme ve yüzey detayları",
     "Yakın çevre düzenlemesi",
@@ -567,7 +569,7 @@
     "Diğer kalıcı mimari elemanlar",
     "Bütünleşik plan–kesit uyumu ve gerekli ölçek düzeltmeleri"
   ],
-  "current_priority": "Kullanıcının son talimatı: malzeme ve yakın çevre. Otomatik heartbeat kullanıcı isteğiyle kaldırıldı.",
-  "review_note": "R129 malzeme paketi; geometri ilerlemesi değildir.",
-  "last_reviewed_revision": "R129"
+  "current_priority": "Malzeme ve yakın çevre; gerçek kapsam %90 olana kadar üretim. Kullanıcı talimatıyla ara push yok.",
+  "review_note": "Canlı kesit kapakları uygulandı ve tarayıcıda sınandı; üst kat altı kapalı halka düzeltildi, 12 açık çizgi doldurulmadı. P20 son adımı kısmi.",
+  "last_reviewed_revision": "R148"
 }

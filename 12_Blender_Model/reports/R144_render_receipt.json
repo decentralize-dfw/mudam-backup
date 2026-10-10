@@ -1,0 +1,36 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R144_ALT_FUAYE_TAS_TAVAN_v001.blend",
+  "images": [
+    {
+      "image": "12_Blender_Model/renders/qa/R144_before_ceiling.png",
+      "phase": "before",
+      "eye": [
+        3.5180823802948,
+        7.206859111785889,
+        -3.799999952316284
+      ],
+      "target": [
+        2.7077524662017822,
+        1.1001172065734863,
+        -0.699999988079071
+      ]
+    },
+    {
+      "image": "12_Blender_Model/renders/qa/R144_after_ceiling.png",
+      "phase": "after",
+      "eye": [
+        3.5180823802948,
+        7.206859111785889,
+        -3.799999952316284
+      ],
+      "target": [
+        2.7077524662017822,
+        1.1001172065734863,
+        -0.699999988079071
+      ]
+    }
+  ],
+  "all_active_surroundings": true,
+  "lighting_unchanged": true,
+  "temporary_review_light": true
+}

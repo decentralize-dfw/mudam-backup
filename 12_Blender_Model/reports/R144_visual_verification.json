@@ -1,0 +1,15 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R144_ALT_FUAYE_TAS_TAVAN_v001.blend",
+  "reviewed_images": [
+    {
+      "path": "12_Blender_Model/renders/qa/R144_before_ceiling.png",
+      "sha256": "2586eb6f9f17c5784f31fd5a25030a28e18baf8a4a657586adb6122d5fef94f6"
+    },
+    {
+      "path": "12_Blender_Model/renders/qa/R144_after_ceiling.png",
+      "sha256": "444317a608eb6c55fcfe0ef4f5bf8e860bfed3dd13ea0bde88110abac4c3002e"
+    }
+  ],
+  "failures": [],
+  "scope": "Same-camera before/after ceiling views examined. Same temporary inspection light, not saved in scene. Grain finish only, not reconstructed slab joints or physical colour calibration."
+}

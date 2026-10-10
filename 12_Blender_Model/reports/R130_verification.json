@@ -1,0 +1,156 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R130_PARK_IGNE_YAPRAKLI_AGACLAR_v002.blend",
+  "closed_meshes": [
+    {
+      "name": "R130_TREE_6380924936_BRANCHES",
+      "volume": 0.13377891831236782,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R130_TREE_6380924936_NEEDLES",
+      "volume": 0.1942019942065018,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R130_TREE_6380924937_BRANCHES",
+      "volume": 0.1324856857858991,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R130_TREE_6380924937_NEEDLES",
+      "volume": 0.19646191457138384,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R130_TREE_6380924940_BRANCHES",
+      "volume": 0.13146001012525207,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R130_TREE_6380924940_NEEDLES",
+      "volume": 0.19434105644428074,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R130_TREE_6380924942_BRANCHES",
+      "volume": 0.1315414244329064,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R130_TREE_6380924942_NEEDLES",
+      "volume": 0.19594028316160123,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R130_TREE_6380924943_BRANCHES",
+      "volume": 0.13203476986152166,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R130_TREE_6380924943_NEEDLES",
+      "volume": 0.19734779384643208,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R130_TREE_6380924947_BRANCHES",
+      "volume": 0.13143836535046927,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R130_TREE_6380924947_NEEDLES",
+      "volume": 0.1972280105570383,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R130_TREE_6380924948_BRANCHES",
+      "volume": 0.13326806141583233,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    },
+    {
+      "name": "R130_TREE_6380924948_NEEDLES",
+      "volume": 0.19670888234268225,
+      "nonmanifold": 0,
+      "zero_faces": 0
+    }
+  ],
+  "trees": [
+    {
+      "id": "6380924936",
+      "radius": 1.9490154095614731,
+      "z_min": 2.5000853538513184,
+      "z_max": 7.999942779541016,
+      "xy_error": 4.006423725954736e-06,
+      "old_generic_hidden": true,
+      "needle_solids": 29505
+    },
+    {
+      "id": "6380924937",
+      "radius": 1.9457455008484887,
+      "z_min": 2.5036323070526123,
+      "z_max": 7.9999470710754395,
+      "xy_error": 8.264623865342796e-06,
+      "old_generic_hidden": true,
+      "needle_solids": 29810
+    },
+    {
+      "id": "6380924940",
+      "radius": 1.8890818670790928,
+      "z_min": 2.5034918785095215,
+      "z_max": 7.999907970428467,
+      "xy_error": 3.135218810893863e-06,
+      "old_generic_hidden": true,
+      "needle_solids": 29531
+    },
+    {
+      "id": "6380924942",
+      "radius": 1.9689790731106573,
+      "z_min": 2.502087354660034,
+      "z_max": 7.999841690063477,
+      "xy_error": 6.098272680331589e-06,
+      "old_generic_hidden": true,
+      "needle_solids": 29752
+    },
+    {
+      "id": "6380924943",
+      "radius": 1.936708873319093,
+      "z_min": 2.5146381855010986,
+      "z_max": 7.99935245513916,
+      "xy_error": 9.3141654759815e-06,
+      "old_generic_hidden": true,
+      "needle_solids": 29966
+    },
+    {
+      "id": "6380924947",
+      "radius": 2.0434833588830617,
+      "z_min": 2.503244161605835,
+      "z_max": 7.9999260902404785,
+      "xy_error": 3.0085267838511956e-06,
+      "old_generic_hidden": true,
+      "needle_solids": 29924
+    },
+    {
+      "id": "6380924948",
+      "radius": 1.9946294614240192,
+      "z_min": 2.5002894401550293,
+      "z_max": 7.999248504638672,
+      "xy_error": 1.732509954659017e-06,
+      "old_generic_hidden": true,
+      "needle_solids": 29829
+    }
+  ],
+  "failures": [],
+  "construction_acceptance": false
+}

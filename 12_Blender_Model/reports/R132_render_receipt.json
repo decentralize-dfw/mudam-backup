@@ -1,0 +1,35 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R132_HARITALI_PARK_ZEMIN_AYRIMI_v003.blend",
+  "images": [
+    {
+      "image": "12_Blender_Model/renders/qa/R132_before_ground.png",
+      "eye": [
+        20,
+        93,
+        18
+      ],
+      "target": [
+        0,
+        70,
+        0
+      ],
+      "stage": "before"
+    },
+    {
+      "image": "12_Blender_Model/renders/qa/R132_after_ground.png",
+      "eye": [
+        20,
+        93,
+        18
+      ],
+      "target": [
+        0,
+        70,
+        0
+      ],
+      "stage": "after"
+    }
+  ],
+  "all_active_surroundings": true,
+  "lighting_unchanged": true
+}

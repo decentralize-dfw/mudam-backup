@@ -1,0 +1,23 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R133_PARK_YOL_KAPLAMALARI_v004.blend",
+  "reviewed_images": [
+    {
+      "path": "12_Blender_Model/renders/qa/R133_before_north_path.png",
+      "sha256": "e989a1e77a6bd9cd37166fc08b4997ab334561f0b7ff1f06fd8dfd585f5c4b49"
+    },
+    {
+      "path": "12_Blender_Model/renders/qa/R133_before_east_path.png",
+      "sha256": "28d70d27923b0587ed115f9836c8635c9a41869465bf1f06365e2fa7f267bf12"
+    },
+    {
+      "path": "12_Blender_Model/renders/qa/R133_after_north_path.png",
+      "sha256": "7d605c34a5ce763a98073c85ad982b184d9d7b95351bbb24272ad4e5f03913bb"
+    },
+    {
+      "path": "12_Blender_Model/renders/qa/R133_after_east_path.png",
+      "sha256": "a15e2efed2f01fb932d06b31ad924806c65190dae78daeec8b415ea8c39c0f7b"
+    }
+  ],
+  "failures": [],
+  "scope": "Four before/after route views opened: north small-sett band and east paving band visible. V004 retains original solid. Atlas module, pattern and colour remain visual candidates."
+}

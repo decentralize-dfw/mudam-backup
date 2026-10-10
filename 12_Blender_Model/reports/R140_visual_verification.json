@@ -1,0 +1,15 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R140_DOGU_BAHCE_TAS_ZEMIN_v001.blend",
+  "reviewed_images": [
+    {
+      "path": "12_Blender_Model/renders/qa/R140_before_floor.png",
+      "sha256": "99b1cd80482ae465389788efe31d89501543e58a68f9410e03d1fca86341d5a5"
+    },
+    {
+      "path": "12_Blender_Model/renders/qa/R140_after_floor.png",
+      "sha256": "4aba92a1b3ef509da657f1290df14595394fb7be6f66bb5c8aba0cd903e1e084"
+    }
+  ],
+  "failures": [],
+  "scope": "Same-camera before/after floor views examined. Stone family supported by photo041; joint module remains inherited candidate. Original lighting unchanged, not colour calibration."
+}

@@ -1,0 +1,1400 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R135_ODITORYUM_AHSAP_DAMAR_v001.blend",
+  "evaluated_geometry_objects_checked": 9365,
+  "geometry_identical": true,
+  "uv_checks": [
+    {
+      "name": "R19_WALL_L",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.3004367416902909
+    },
+    {
+      "name": "R19_WALL_R",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.3004358821330584
+    },
+    {
+      "name": "R19_WALL_REAR",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.3004358821330584
+    },
+    {
+      "name": "R19_FRONT_L_OUTER",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.04114506966152476
+    },
+    {
+      "name": "R19_FRONT_L_INNER",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.054860262622469236
+    },
+    {
+      "name": "R19_FRONT_L_HEAD",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.10057703223856151
+    },
+    {
+      "name": "R19_FRONT_R_OUTER",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.06400317570410152
+    },
+    {
+      "name": "R19_FRONT_R_INNER",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.04114516892360598
+    },
+    {
+      "name": "R19_FRONT_R_HEAD",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.1005769635935394
+    },
+    {
+      "name": "R19_STAGE_BACK_0",
+      "faces": 7,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.05705917176919684
+    },
+    {
+      "name": "R19_STAGE_BACK_1",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.02235469217771424
+    },
+    {
+      "name": "R19_STAGE_BACK_2",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.20688852785059453
+    },
+    {
+      "name": "R19_STAGE_BACK_3",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.3251894113146534
+    },
+    {
+      "name": "R19_STAGE_BACK_4",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.19439192438773034
+    },
+    {
+      "name": "R19_STAGE_BACK_5",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.04036674237329407
+    },
+    {
+      "name": "R19_STAGE_BACK_6",
+      "faces": 7,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.05706021543807083
+    },
+    {
+      "name": "R19_BOOTH_FRONT_L",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.16458116383523702
+    },
+    {
+      "name": "R19_BOOTH_FRONT_R",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.16458108349206668
+    },
+    {
+      "name": "R19_BOOTH_WINDOW_BELOW",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.057639343208848004
+    },
+    {
+      "name": "R19_BOOTH_WINDOW_ABOVE",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.04696465001012484
+    },
+    {
+      "name": "R19_BOOTH_SIDE_L",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.16710356332900744
+    },
+    {
+      "name": "R19_BOOTH_SIDE_R",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.16710356332900744
+    },
+    {
+      "name": "R21_SIDE_L_00_00",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.008266758982358624
+    },
+    {
+      "name": "R21_SIDE_L_00_01",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.008266758982358624
+    },
+    {
+      "name": "R21_SIDE_L_00_02",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.008266758982358624
+    },
+    {
+      "name": "R21_SIDE_L_00_03",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.008266757790252655
+    },
+    {
+      "name": "R21_SIDE_L_00_04",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.002652444098046658
+    },
+    {
+      "name": "R21_SIDE_L_01_00",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.008266463343261421
+    },
+    {
+      "name": "R21_SIDE_L_01_01",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.008266463343261421
+    },
+    {
+      "name": "R21_SIDE_L_01_02",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.008266463343261421
+    },
+    {
+      "name": "R21_SIDE_L_01_03",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.008266462151198084
+    },
+    {
+      "name": "R21_SIDE_L_01_04",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.002652349239163243
+    },
+    {
+      "name": "R21_SIDE_L_02_00",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.008266069157798484
+    },
+    {
+      "name": "R21_SIDE_L_02_01",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.008266069157798484
+    },
+    {
+      "name": "R21_SIDE_L_02_02",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.008266069157798484
+    },
+    {
+      "name": "R21_SIDE_L_02_03",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.00826606796579199
+    },
+    {
+      "name": "R21_SIDE_L_02_04",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.002652317619535438
+    },
+    {
+      "name": "R21_SIDE_L_03_00",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.008266364796895687
+    },
+    {
+      "name": "R21_SIDE_L_03_01",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.008266364796895687
+    },
+    {
+      "name": "R21_SIDE_L_03_02",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.008266364796895687
+    },
+    {
+      "name": "R21_SIDE_L_03_03",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.00826636360484656
+    },
+    {
+      "name": "R21_SIDE_L_03_04",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.002652317619535438
+    },
+    {
+      "name": "R21_SIDE_L_04_00",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.008266561889627155
+    },
+    {
+      "name": "R21_SIDE_L_04_01",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.008266561889627155
+    },
+    {
+      "name": "R21_SIDE_L_04_02",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.008266561889627155
+    },
+    {
+      "name": "R21_SIDE_L_04_03",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.008266560697549608
+    },
+    {
+      "name": "R21_SIDE_L_04_04",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.002652444098046658
+    },
+    {
+      "name": "R21_SIDE_L_05_00",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.008266463343261421
+    },
+    {
+      "name": "R21_SIDE_L_05_01",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.008266463343261421
+    },
+    {
+      "name": "R21_SIDE_L_05_02",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.008266463343261421
+    },
+    {
+      "name": "R21_SIDE_L_05_03",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.008266462151198084
+    },
+    {
+      "name": "R21_SIDE_L_05_04",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.002652349239163243
+    },
+    {
+      "name": "R21_SIDE_L_06_00",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.008266069157798484
+    },
+    {
+      "name": "R21_SIDE_L_06_01",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.008266069157798484
+    },
+    {
+      "name": "R21_SIDE_L_06_02",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.008266069157798484
+    },
+    {
+      "name": "R21_SIDE_L_06_03",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.00826606796579199
+    },
+    {
+      "name": "R21_SIDE_L_06_04",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.002652254380279828
+    },
+    {
+      "name": "R21_SIDE_L_07_00",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.00826666043599289
+    },
+    {
+      "name": "R21_SIDE_L_07_01",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.00826666043599289
+    },
+    {
+      "name": "R21_SIDE_L_07_02",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.00826666043599289
+    },
+    {
+      "name": "R21_SIDE_L_07_03",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.008266659243901131
+    },
+    {
+      "name": "R21_SIDE_L_07_04",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.002652444098046658
+    },
+    {
+      "name": "R21_SIDE_L_08_00",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.008266364796895687
+    },
+    {
+      "name": "R21_SIDE_L_08_01",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.008266364796895687
+    },
+    {
+      "name": "R21_SIDE_L_08_02",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.008266364796895687
+    },
+    {
+      "name": "R21_SIDE_L_08_03",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.00826636360484656
+    },
+    {
+      "name": "R21_SIDE_L_08_04",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.002652380858791048
+    },
+    {
+      "name": "R21_SIDE_L_09_00",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.008266069157798484
+    },
+    {
+      "name": "R21_SIDE_L_09_01",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.008266069157798484
+    },
+    {
+      "name": "R21_SIDE_L_09_02",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.008266069157798484
+    },
+    {
+      "name": "R21_SIDE_L_09_03",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.00826606796579199
+    },
+    {
+      "name": "R21_SIDE_L_09_04",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.002652254380279828
+    },
+    {
+      "name": "R21_SIDE_L_10_00",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.008266758982358624
+    },
+    {
+      "name": "R21_SIDE_L_10_01",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.008266758982358624
+    },
+    {
+      "name": "R21_SIDE_L_10_02",
+      "faces": 2428,
+      "max_uv_error": 0.0,
+      "min_uv_area": 5.781854599717917e-05
+    },
+    {
+      "name": "R21_SIDE_L_10_03",
+      "faces": 2428,
+      "max_uv_error": 0.0,
+      "min_uv_area": 5.781910408586555e-05
+    },
+    {
+      "name": "R21_SIDE_L_10_04",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.002652475717674463
+    },
+    {
+      "name": "R21_SIDE_L_11_00",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.008266364796895687
+    },
+    {
+      "name": "R21_SIDE_L_11_01",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.008266364796895687
+    },
+    {
+      "name": "R21_SIDE_L_11_02",
+      "faces": 2428,
+      "max_uv_error": 0.0,
+      "min_uv_area": 5.781854599717917e-05
+    },
+    {
+      "name": "R21_SIDE_L_11_03",
+      "faces": 2428,
+      "max_uv_error": 0.0,
+      "min_uv_area": 5.781910408586555e-05
+    },
+    {
+      "name": "R21_SIDE_L_11_04",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.002652380858791048
+    },
+    {
+      "name": "R21_SIDE_L_12_00",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.00826666043599289
+    },
+    {
+      "name": "R21_SIDE_L_12_01",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.00826666043599289
+    },
+    {
+      "name": "R21_SIDE_L_12_02",
+      "faces": 2428,
+      "max_uv_error": 0.0,
+      "min_uv_area": 5.781854599717917e-05
+    },
+    {
+      "name": "R21_SIDE_L_12_03",
+      "faces": 2428,
+      "max_uv_error": 0.0,
+      "min_uv_area": 5.781910408586555e-05
+    },
+    {
+      "name": "R21_SIDE_L_12_04",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.002652475717674463
+    },
+    {
+      "name": "R21_SIDE_L_13_00",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.008267054621455827
+    },
+    {
+      "name": "R21_SIDE_L_13_01",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.008267054621455827
+    },
+    {
+      "name": "R21_SIDE_L_13_02",
+      "faces": 2428,
+      "max_uv_error": 0.0,
+      "min_uv_area": 5.781854599717917e-05
+    },
+    {
+      "name": "R21_SIDE_L_13_03",
+      "faces": 2428,
+      "max_uv_error": 0.0,
+      "min_uv_area": 5.781910408586555e-05
+    },
+    {
+      "name": "R21_SIDE_L_13_04",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.0026525705765578778
+    },
+    {
+      "name": "R21_SIDE_R_00_00",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.008266463343261421
+    },
+    {
+      "name": "R21_SIDE_R_00_01",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.008266463343261421
+    },
+    {
+      "name": "R21_SIDE_R_00_02",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.008266463343261421
+    },
+    {
+      "name": "R21_SIDE_R_00_03",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.008266462151198084
+    },
+    {
+      "name": "R21_SIDE_R_00_04",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.002652380858791048
+    },
+    {
+      "name": "R21_SIDE_R_01_00",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.008266463343261421
+    },
+    {
+      "name": "R21_SIDE_R_01_01",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.008266463343261421
+    },
+    {
+      "name": "R21_SIDE_R_01_02",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.008266463343261421
+    },
+    {
+      "name": "R21_SIDE_R_01_03",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.008266462151198084
+    },
+    {
+      "name": "R21_SIDE_R_01_04",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.002652380858791048
+    },
+    {
+      "name": "R21_SIDE_R_02_00",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.008266857528724358
+    },
+    {
+      "name": "R21_SIDE_R_02_01",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.008266857528724358
+    },
+    {
+      "name": "R21_SIDE_R_02_02",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.008266857528724358
+    },
+    {
+      "name": "R21_SIDE_R_02_03",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.008266856336604178
+    },
+    {
+      "name": "R21_SIDE_R_02_04",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.002652507337302268
+    },
+    {
+      "name": "R21_SIDE_R_03_00",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.008266857528724358
+    },
+    {
+      "name": "R21_SIDE_R_03_01",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.008266857528724358
+    },
+    {
+      "name": "R21_SIDE_R_03_02",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.008266857528724358
+    },
+    {
+      "name": "R21_SIDE_R_03_03",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.008266856336604178
+    },
+    {
+      "name": "R21_SIDE_R_03_04",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.002652507337302268
+    },
+    {
+      "name": "R21_SIDE_R_04_00",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.008266857528724358
+    },
+    {
+      "name": "R21_SIDE_R_04_01",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.008266857528724358
+    },
+    {
+      "name": "R21_SIDE_R_04_02",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.008266857528724358
+    },
+    {
+      "name": "R21_SIDE_R_04_03",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.008266856336604178
+    },
+    {
+      "name": "R21_SIDE_R_04_04",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.002652507337302268
+    },
+    {
+      "name": "R21_SIDE_R_05_00",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.008266857528724358
+    },
+    {
+      "name": "R21_SIDE_R_05_01",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.008266857528724358
+    },
+    {
+      "name": "R21_SIDE_R_05_02",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.008266857528724358
+    },
+    {
+      "name": "R21_SIDE_R_05_03",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.008266856336604178
+    },
+    {
+      "name": "R21_SIDE_R_05_04",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.002652507337302268
+    },
+    {
+      "name": "R21_SIDE_R_06_00",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.008266463343261421
+    },
+    {
+      "name": "R21_SIDE_R_06_01",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.008266463343261421
+    },
+    {
+      "name": "R21_SIDE_R_06_02",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.008266463343261421
+    },
+    {
+      "name": "R21_SIDE_R_06_03",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.008266462151198084
+    },
+    {
+      "name": "R21_SIDE_R_06_04",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.002652380858791048
+    },
+    {
+      "name": "R21_SIDE_R_07_00",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.008267251714187296
+    },
+    {
+      "name": "R21_SIDE_R_07_01",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.008267251714187296
+    },
+    {
+      "name": "R21_SIDE_R_07_02",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.008267251714187296
+    },
+    {
+      "name": "R21_SIDE_R_07_03",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.008267250522010272
+    },
+    {
+      "name": "R21_SIDE_R_07_04",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.0026526338158134877
+    },
+    {
+      "name": "R21_SIDE_R_08_00",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.008266463343261421
+    },
+    {
+      "name": "R21_SIDE_R_08_01",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.008266463343261421
+    },
+    {
+      "name": "R21_SIDE_R_08_02",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.008266463343261421
+    },
+    {
+      "name": "R21_SIDE_R_08_03",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.008266462151198084
+    },
+    {
+      "name": "R21_SIDE_R_08_04",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.002652380858791048
+    },
+    {
+      "name": "R21_SIDE_R_09_00",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.008267251714187296
+    },
+    {
+      "name": "R21_SIDE_R_09_01",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.008267251714187296
+    },
+    {
+      "name": "R21_SIDE_R_09_02",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.008267251714187296
+    },
+    {
+      "name": "R21_SIDE_R_09_03",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.008267250522010272
+    },
+    {
+      "name": "R21_SIDE_R_09_04",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.0026526338158134877
+    },
+    {
+      "name": "R21_SIDE_R_10_00",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.008266463343261421
+    },
+    {
+      "name": "R21_SIDE_R_10_01",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.008266463343261421
+    },
+    {
+      "name": "R21_SIDE_R_10_02",
+      "faces": 2428,
+      "max_uv_error": 0.0,
+      "min_uv_area": 5.783032406725397e-05
+    },
+    {
+      "name": "R21_SIDE_R_10_03",
+      "faces": 2428,
+      "max_uv_error": 0.0,
+      "min_uv_area": 5.783088226962718e-05
+    },
+    {
+      "name": "R21_SIDE_R_10_04",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.002652380858791048
+    },
+    {
+      "name": "R21_SIDE_R_11_00",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.008266463343261421
+    },
+    {
+      "name": "R21_SIDE_R_11_01",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.008266463343261421
+    },
+    {
+      "name": "R21_SIDE_R_11_02",
+      "faces": 2428,
+      "max_uv_error": 0.0,
+      "min_uv_area": 5.781854599717917e-05
+    },
+    {
+      "name": "R21_SIDE_R_11_03",
+      "faces": 2428,
+      "max_uv_error": 0.0,
+      "min_uv_area": 5.7817987908492796e-05
+    },
+    {
+      "name": "R21_SIDE_R_11_04",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.002652380858791048
+    },
+    {
+      "name": "R21_SIDE_R_12_00",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.008266857528724358
+    },
+    {
+      "name": "R21_SIDE_R_12_01",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.008266857528724358
+    },
+    {
+      "name": "R21_SIDE_R_12_02",
+      "faces": 2428,
+      "max_uv_error": 0.0,
+      "min_uv_area": 5.781854599717917e-05
+    },
+    {
+      "name": "R21_SIDE_R_12_03",
+      "faces": 2428,
+      "max_uv_error": 0.0,
+      "min_uv_area": 5.781910408586555e-05
+    },
+    {
+      "name": "R21_SIDE_R_12_04",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.002652507337302268
+    },
+    {
+      "name": "R21_SIDE_R_13_00",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.008266463343261421
+    },
+    {
+      "name": "R21_SIDE_R_13_01",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.008266463343261421
+    },
+    {
+      "name": "R21_SIDE_R_13_02",
+      "faces": 2428,
+      "max_uv_error": 0.0,
+      "min_uv_area": 5.783032406725397e-05
+    },
+    {
+      "name": "R21_SIDE_R_13_03",
+      "faces": 2428,
+      "max_uv_error": 0.0,
+      "min_uv_area": 5.7829765864880756e-05
+    },
+    {
+      "name": "R21_SIDE_R_13_04",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.002652380858791048
+    },
+    {
+      "name": "R21_BOOTH_0_0",
+      "faces": 2428,
+      "max_uv_error": 0.0,
+      "min_uv_area": 6.650484488091024e-05
+    },
+    {
+      "name": "R21_BOOTH_0_1",
+      "faces": 2428,
+      "max_uv_error": 0.0,
+      "min_uv_area": 6.531264261866454e-05
+    },
+    {
+      "name": "R21_BOOTH_0_2",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.0055692403637976895
+    },
+    {
+      "name": "R21_BOOTH_1_0",
+      "faces": 2428,
+      "max_uv_error": 0.0,
+      "min_uv_area": 6.650484488091024e-05
+    },
+    {
+      "name": "R21_BOOTH_1_1",
+      "faces": 2428,
+      "max_uv_error": 0.0,
+      "min_uv_area": 6.530874435384248e-05
+    },
+    {
+      "name": "R21_BOOTH_1_2",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.0055692403637976895
+    },
+    {
+      "name": "R21_BOOTH_2_0",
+      "faces": 2428,
+      "max_uv_error": 0.0,
+      "min_uv_area": 8.609968790551648e-05
+    },
+    {
+      "name": "R21_BOOTH_2_2",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.005568709251804194
+    },
+    {
+      "name": "R21_BOOTH_3_0",
+      "faces": 2428,
+      "max_uv_error": 0.0,
+      "min_uv_area": 8.609968790551648e-05
+    },
+    {
+      "name": "R21_BOOTH_3_2",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.0055692403637976895
+    },
+    {
+      "name": "R21_BOOTH_4_0",
+      "faces": 2428,
+      "max_uv_error": 0.0,
+      "min_uv_area": 6.650433169852477e-05
+    },
+    {
+      "name": "R21_BOOTH_4_1",
+      "faces": 2428,
+      "max_uv_error": 0.0,
+      "min_uv_area": 6.530373229907127e-05
+    },
+    {
+      "name": "R21_BOOTH_4_2",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.0055692403637976895
+    },
+    {
+      "name": "R21_BOOTH_5_0",
+      "faces": 2428,
+      "max_uv_error": 0.0,
+      "min_uv_area": 6.650638442806667e-05
+    },
+    {
+      "name": "R21_BOOTH_5_1",
+      "faces": 2428,
+      "max_uv_error": 0.0,
+      "min_uv_area": 6.53081874588679e-05
+    },
+    {
+      "name": "R21_BOOTH_5_2",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.0055692403637976895
+    },
+    {
+      "name": "R21_STAGE_0_00_00",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.007683141454094766
+    },
+    {
+      "name": "R21_STAGE_0_00_01",
+      "faces": 2428,
+      "max_uv_error": 0.0,
+      "min_uv_area": 5.82229968131287e-05
+    },
+    {
+      "name": "R21_STAGE_0_00_02",
+      "faces": 2428,
+      "max_uv_error": 0.0,
+      "min_uv_area": 5.82235347792448e-05
+    },
+    {
+      "name": "R21_STAGE_0_00_03",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.008068912818970375
+    },
+    {
+      "name": "R21_STAGE_0_01_00",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.007683141454094766
+    },
+    {
+      "name": "R21_STAGE_0_01_01",
+      "faces": 2428,
+      "max_uv_error": 0.0,
+      "min_uv_area": 5.82229968131287e-05
+    },
+    {
+      "name": "R21_STAGE_0_01_02",
+      "faces": 2428,
+      "max_uv_error": 0.0,
+      "min_uv_area": 5.82235347792448e-05
+    },
+    {
+      "name": "R21_STAGE_0_01_03",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.008068912818970375
+    },
+    {
+      "name": "R21_STAGE_0_02_00",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.007683141454094766
+    },
+    {
+      "name": "R21_STAGE_0_02_01",
+      "faces": 2428,
+      "max_uv_error": 0.0,
+      "min_uv_area": 5.82229968131287e-05
+    },
+    {
+      "name": "R21_STAGE_0_02_02",
+      "faces": 2428,
+      "max_uv_error": 0.0,
+      "min_uv_area": 5.82240727453609e-05
+    },
+    {
+      "name": "R21_STAGE_0_02_03",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.008068912818970375
+    },
+    {
+      "name": "R21_STAGE_1_00_00",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.007683141454094766
+    },
+    {
+      "name": "R21_STAGE_1_00_01",
+      "faces": 2428,
+      "max_uv_error": 0.0,
+      "min_uv_area": 6.274770953496045e-05
+    },
+    {
+      "name": "R21_STAGE_1_00_02",
+      "faces": 2428,
+      "max_uv_error": 0.0,
+      "min_uv_area": 6.274770953496045e-05
+    },
+    {
+      "name": "R21_STAGE_1_00_03",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.008068912818970375
+    },
+    {
+      "name": "R21_STAGE_1_01_00",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.007683141454094766
+    },
+    {
+      "name": "R21_STAGE_1_01_01",
+      "faces": 2428,
+      "max_uv_error": 0.0,
+      "min_uv_area": 6.274770953496045e-05
+    },
+    {
+      "name": "R21_STAGE_1_01_02",
+      "faces": 2428,
+      "max_uv_error": 0.0,
+      "min_uv_area": 6.274770953496045e-05
+    },
+    {
+      "name": "R21_STAGE_1_01_03",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.008068912818970375
+    },
+    {
+      "name": "R21_STAGE_1_02_00",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.007683507823912805
+    },
+    {
+      "name": "R21_STAGE_1_02_01",
+      "faces": 2428,
+      "max_uv_error": 0.0,
+      "min_uv_area": 6.274520643501091e-05
+    },
+    {
+      "name": "R21_STAGE_1_02_02",
+      "faces": 2428,
+      "max_uv_error": 0.0,
+      "min_uv_area": 6.274520643501091e-05
+    },
+    {
+      "name": "R21_STAGE_1_02_03",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.008069297584256674
+    },
+    {
+      "name": "R21_STAGE_1_03_00",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.007683141454094766
+    },
+    {
+      "name": "R21_STAGE_1_03_01",
+      "faces": 2428,
+      "max_uv_error": 0.0,
+      "min_uv_area": 6.274770953496045e-05
+    },
+    {
+      "name": "R21_STAGE_1_03_02",
+      "faces": 2428,
+      "max_uv_error": 0.0,
+      "min_uv_area": 6.274770953496045e-05
+    },
+    {
+      "name": "R21_STAGE_1_03_03",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.008068912818970375
+    },
+    {
+      "name": "R21_STAGE_2_00_00",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.007683324639003786
+    },
+    {
+      "name": "R21_STAGE_2_00_01",
+      "faces": 2428,
+      "max_uv_error": 0.0,
+      "min_uv_area": 5.853821619439259e-05
+    },
+    {
+      "name": "R21_STAGE_2_00_02",
+      "faces": 2428,
+      "max_uv_error": 0.0,
+      "min_uv_area": 5.853821619439259e-05
+    },
+    {
+      "name": "R21_STAGE_2_00_03",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.007708968211204592
+    },
+    {
+      "name": "R21_STAGE_2_01_00",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.007683370435231041
+    },
+    {
+      "name": "R21_STAGE_2_01_01",
+      "faces": 2428,
+      "max_uv_error": 0.0,
+      "min_uv_area": 5.853821619439259e-05
+    },
+    {
+      "name": "R21_STAGE_2_01_02",
+      "faces": 2428,
+      "max_uv_error": 0.0,
+      "min_uv_area": 5.853821619439259e-05
+    },
+    {
+      "name": "R21_STAGE_2_01_03",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.0077089823461165
+    },
+    {
+      "name": "R21_STAGE_2_02_00",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.007683370435231041
+    },
+    {
+      "name": "R21_STAGE_2_02_01",
+      "faces": 2428,
+      "max_uv_error": 0.0,
+      "min_uv_area": 5.853821619439259e-05
+    },
+    {
+      "name": "R21_STAGE_2_02_02",
+      "faces": 2428,
+      "max_uv_error": 0.0,
+      "min_uv_area": 5.853821619439259e-05
+    },
+    {
+      "name": "R21_STAGE_2_02_03",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.0077089823461165
+    },
+    {
+      "name": "R21_BOOTH_WINDOW_FRAME_L",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.0009375139024996315
+    },
+    {
+      "name": "R21_BOOTH_WINDOW_FRAME_R",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.0009375488225487061
+    },
+    {
+      "name": "R21_BOOTH_WINDOW_FRAME_B",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.0009374833107358427
+    },
+    {
+      "name": "R21_BOOTH_WINDOW_FRAME_T",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.0009374862909226067
+    },
+    {
+      "name": "R22_DOOR_FRAME_L_L",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.0009722302045247488
+    },
+    {
+      "name": "R22_DOOR_FRAME_L_R",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.0009722364325170929
+    },
+    {
+      "name": "R22_DOOR_FRAME_L_T",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.000972206460119196
+    },
+    {
+      "name": "R22_DOOR_LEAF_L",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.021067531145945395
+    },
+    {
+      "name": "R22_DOOR_FRAME_R_L",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.0009722166427650336
+    },
+    {
+      "name": "R22_DOOR_FRAME_R_R",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.0009722166427650336
+    },
+    {
+      "name": "R22_DOOR_FRAME_R_T",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.0009721905655624141
+    },
+    {
+      "name": "R22_DOOR_LEAF_R",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.02106772562945025
+    }
+  ],
+  "packed_images": [
+    {
+      "material": "R135_AUDITORIUM_WOOD_GRAIN_CANDIDATE",
+      "image": "R135_auditorium_wood_basecolor.png",
+      "packed": true,
+      "size": [
+        2048,
+        2048
+      ]
+    }
+  ],
+  "failures": [],
+  "construction_acceptance": false
+}

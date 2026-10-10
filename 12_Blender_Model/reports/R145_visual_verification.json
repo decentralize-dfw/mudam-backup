@@ -1,0 +1,23 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R145_KUZEY_BATI_TAS_YUZEYLER_v001.blend",
+  "reviewed_images": [
+    {
+      "path": "12_Blender_Model/renders/qa/R145_before_north.png",
+      "sha256": "601a2302fa6d267d98726c04341d7522858b6fedee56280e06b5127c87deeabd"
+    },
+    {
+      "path": "12_Blender_Model/renders/qa/R145_before_west.png",
+      "sha256": "62c8af735b6ac9a599fc8952764bfa17175a5f66e08f7d181098f3743d40d927"
+    },
+    {
+      "path": "12_Blender_Model/renders/qa/R145_after_north.png",
+      "sha256": "a2a2cf585377212fe5d396eb9589b426f0483ffc32a6d320fd49467136f0b741"
+    },
+    {
+      "path": "12_Blender_Model/renders/qa/R145_after_west.png",
+      "sha256": "6d2ab35ddd08c71c0b79524c57a416c6d34a92baa5db78da1bc24f8ad149f54c"
+    }
+  ],
+  "failures": [],
+  "scope": "Four same-camera images examined. Stone appearance continuity on north gable/base and west end. Geometry, openings and lighting unchanged; photo supports stone family, not measured panel schedule or physical colour."
+}

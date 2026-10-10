@@ -1,0 +1,747 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R147_BATI_DONUS_ALT_FUAYE_TAS_v001.blend",
+  "base_scene": "MUDAM_R146_BATI_KAVIS_TAS_KAPLAMA_v001.blend",
+  "changed_inherited_objects": [
+    "R114_LOWER_STAIR_LANDING_STONE_BLADE",
+    "R87_RETURN_INNER_RETAINED",
+    "R87_VOLUME_FRONT_HIGH",
+    "R87_VOLUME_FRONT_END",
+    "R87_LANDING_SIDE_LOW",
+    "R87_LANDING_SIDE_HIGH"
+  ],
+  "closed_objects": [],
+  "surface_objects": [
+    {
+      "name": "R114_LOWER_STAIR_LANDING_STONE_BLADE",
+      "faces": [
+        {
+          "face": 0,
+          "material": "R147_GRAIN_STONE_CANDIDATE",
+          "u": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "v": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "repeat_m": [
+            2.0,
+            2.0
+          ]
+        },
+        {
+          "face": 1,
+          "material": "R147_GRAIN_STONE_CANDIDATE",
+          "u": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "v": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "repeat_m": [
+            2.0,
+            2.0
+          ]
+        },
+        {
+          "face": 2,
+          "material": "R147_GRAIN_STONE_CANDIDATE",
+          "u": [
+            0.03631831705570221,
+            0.9993402361869812,
+            -0.0
+          ],
+          "v": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "repeat_m": [
+            2.0,
+            2.0
+          ]
+        },
+        {
+          "face": 3,
+          "material": "R147_GRAIN_STONE_CANDIDATE",
+          "u": [
+            0.9993401169776917,
+            -0.03632137551903725,
+            -0.0
+          ],
+          "v": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "repeat_m": [
+            2.0,
+            2.0
+          ]
+        },
+        {
+          "face": 4,
+          "material": "R147_GRAIN_STONE_CANDIDATE",
+          "u": [
+            0.03631829842925072,
+            0.9993402361869812,
+            -0.0
+          ],
+          "v": [
+            -0.0,
+            0.0,
+            -1.0
+          ],
+          "repeat_m": [
+            2.0,
+            2.0
+          ]
+        },
+        {
+          "face": 5,
+          "material": "R147_GRAIN_STONE_CANDIDATE",
+          "u": [
+            0.999340295791626,
+            -0.03631797060370445,
+            0.0
+          ],
+          "v": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "repeat_m": [
+            2.0,
+            2.0
+          ]
+        }
+      ]
+    },
+    {
+      "name": "R87_RETURN_INNER_RETAINED",
+      "faces": [
+        {
+          "face": 0,
+          "material": "R147_GRAIN_STONE_CANDIDATE",
+          "u": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "v": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "repeat_m": [
+            2.0,
+            2.0
+          ]
+        },
+        {
+          "face": 1,
+          "material": "R147_GRAIN_STONE_CANDIDATE",
+          "u": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "v": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "repeat_m": [
+            2.0,
+            2.0
+          ]
+        },
+        {
+          "face": 2,
+          "material": "R147_JOINT_STONE_CANDIDATE",
+          "u": [
+            0.03631749004125595,
+            0.9993403553962708,
+            -0.0
+          ],
+          "v": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "repeat_m": [
+            3.2,
+            2.4
+          ]
+        },
+        {
+          "face": 3,
+          "material": "R147_JOINT_STONE_CANDIDATE",
+          "u": [
+            0.9993403553962708,
+            -0.036316752433776855,
+            -0.0
+          ],
+          "v": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "repeat_m": [
+            3.2,
+            2.4
+          ]
+        },
+        {
+          "face": 4,
+          "material": "R147_JOINT_STONE_CANDIDATE",
+          "u": [
+            0.03631749004125595,
+            0.9993403553962708,
+            -0.0
+          ],
+          "v": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "repeat_m": [
+            3.2,
+            2.4
+          ]
+        },
+        {
+          "face": 5,
+          "material": "R147_JOINT_STONE_CANDIDATE",
+          "u": [
+            0.9993403553962708,
+            -0.036316752433776855,
+            0.0
+          ],
+          "v": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "repeat_m": [
+            3.2,
+            2.4
+          ]
+        }
+      ]
+    },
+    {
+      "name": "R87_VOLUME_FRONT_HIGH",
+      "faces": [
+        {
+          "face": 0,
+          "material": "R147_GRAIN_STONE_CANDIDATE",
+          "u": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "v": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "repeat_m": [
+            2.0,
+            2.0
+          ]
+        },
+        {
+          "face": 1,
+          "material": "R147_GRAIN_STONE_CANDIDATE",
+          "u": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "v": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "repeat_m": [
+            2.0,
+            2.0
+          ]
+        },
+        {
+          "face": 2,
+          "material": "R147_JOINT_STONE_CANDIDATE",
+          "u": [
+            0.03631757199764252,
+            0.9993403553962708,
+            -0.0
+          ],
+          "v": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "repeat_m": [
+            3.2,
+            2.4
+          ]
+        },
+        {
+          "face": 3,
+          "material": "R147_JOINT_STONE_CANDIDATE",
+          "u": [
+            0.9993404150009155,
+            -0.036316752433776855,
+            -0.0
+          ],
+          "v": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "repeat_m": [
+            3.2,
+            2.4
+          ]
+        },
+        {
+          "face": 4,
+          "material": "R147_JOINT_STONE_CANDIDATE",
+          "u": [
+            0.03631739690899849,
+            0.9993403553962708,
+            -0.0
+          ],
+          "v": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "repeat_m": [
+            3.2,
+            2.4
+          ]
+        },
+        {
+          "face": 5,
+          "material": "R147_JOINT_STONE_CANDIDATE",
+          "u": [
+            0.9993403553962708,
+            -0.03631698340177536,
+            0.0
+          ],
+          "v": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "repeat_m": [
+            3.2,
+            2.4
+          ]
+        }
+      ]
+    },
+    {
+      "name": "R87_VOLUME_FRONT_END",
+      "faces": [
+        {
+          "face": 0,
+          "material": "R147_GRAIN_STONE_CANDIDATE",
+          "u": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "v": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "repeat_m": [
+            2.0,
+            2.0
+          ]
+        },
+        {
+          "face": 1,
+          "material": "R147_GRAIN_STONE_CANDIDATE",
+          "u": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "v": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "repeat_m": [
+            2.0,
+            2.0
+          ]
+        },
+        {
+          "face": 2,
+          "material": "R147_JOINT_STONE_CANDIDATE",
+          "u": [
+            0.03631715103983879,
+            0.999340295791626,
+            -0.0
+          ],
+          "v": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "repeat_m": [
+            3.2,
+            2.4
+          ]
+        },
+        {
+          "face": 3,
+          "material": "R147_JOINT_STONE_CANDIDATE",
+          "u": [
+            0.9993403553962708,
+            -0.036316752433776855,
+            -0.0
+          ],
+          "v": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "repeat_m": [
+            3.2,
+            2.4
+          ]
+        },
+        {
+          "face": 4,
+          "material": "R147_JOINT_STONE_CANDIDATE",
+          "u": [
+            0.03631715103983879,
+            0.999340295791626,
+            -0.0
+          ],
+          "v": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "repeat_m": [
+            3.2,
+            2.4
+          ]
+        },
+        {
+          "face": 5,
+          "material": "R147_JOINT_STONE_CANDIDATE",
+          "u": [
+            0.9993403553962708,
+            -0.036316752433776855,
+            0.0
+          ],
+          "v": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "repeat_m": [
+            3.2,
+            2.4
+          ]
+        }
+      ]
+    },
+    {
+      "name": "R87_LANDING_SIDE_LOW",
+      "faces": [
+        {
+          "face": 0,
+          "material": "R147_GRAIN_STONE_CANDIDATE",
+          "u": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "v": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "repeat_m": [
+            2.0,
+            2.0
+          ]
+        },
+        {
+          "face": 1,
+          "material": "R147_GRAIN_STONE_CANDIDATE",
+          "u": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "v": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "repeat_m": [
+            2.0,
+            2.0
+          ]
+        },
+        {
+          "face": 2,
+          "material": "R147_JOINT_STONE_CANDIDATE",
+          "u": [
+            0.03631698340177536,
+            0.999340295791626,
+            -0.0
+          ],
+          "v": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "repeat_m": [
+            3.2,
+            2.4
+          ]
+        },
+        {
+          "face": 3,
+          "material": "R147_JOINT_STONE_CANDIDATE",
+          "u": [
+            0.999340295791626,
+            -0.036317452788352966,
+            -0.0
+          ],
+          "v": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "repeat_m": [
+            3.2,
+            2.4
+          ]
+        },
+        {
+          "face": 4,
+          "material": "R147_JOINT_STONE_CANDIDATE",
+          "u": [
+            0.03631698340177536,
+            0.999340295791626,
+            -0.0
+          ],
+          "v": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "repeat_m": [
+            3.2,
+            2.4
+          ]
+        },
+        {
+          "face": 5,
+          "material": "R147_JOINT_STONE_CANDIDATE",
+          "u": [
+            0.999340295791626,
+            -0.036317452788352966,
+            0.0
+          ],
+          "v": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "repeat_m": [
+            3.2,
+            2.4
+          ]
+        }
+      ]
+    },
+    {
+      "name": "R87_LANDING_SIDE_HIGH",
+      "faces": [
+        {
+          "face": 0,
+          "material": "R147_GRAIN_STONE_CANDIDATE",
+          "u": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "v": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "repeat_m": [
+            2.0,
+            2.0
+          ]
+        },
+        {
+          "face": 1,
+          "material": "R147_GRAIN_STONE_CANDIDATE",
+          "u": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "v": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "repeat_m": [
+            2.0,
+            2.0
+          ]
+        },
+        {
+          "face": 2,
+          "material": "R147_JOINT_STONE_CANDIDATE",
+          "u": [
+            0.03631698340177536,
+            0.9993403553962708,
+            -0.0
+          ],
+          "v": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "repeat_m": [
+            3.2,
+            2.4
+          ]
+        },
+        {
+          "face": 3,
+          "material": "R147_JOINT_STONE_CANDIDATE",
+          "u": [
+            0.9993403553962708,
+            -0.036317456513643265,
+            -0.0
+          ],
+          "v": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "repeat_m": [
+            3.2,
+            2.4
+          ]
+        },
+        {
+          "face": 4,
+          "material": "R147_JOINT_STONE_CANDIDATE",
+          "u": [
+            0.03631698340177536,
+            0.9993403553962708,
+            -0.0
+          ],
+          "v": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "repeat_m": [
+            3.2,
+            2.4
+          ]
+        },
+        {
+          "face": 5,
+          "material": "R147_JOINT_STONE_CANDIDATE",
+          "u": [
+            0.9993403553962708,
+            -0.036317456513643265,
+            0.0
+          ],
+          "v": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "repeat_m": [
+            3.2,
+            2.4
+          ]
+        }
+      ]
+    }
+  ],
+  "uv_map": "R147_STONE_METRIC_UV",
+  "materials": [
+    "R147_GRAIN_STONE_CANDIDATE",
+    "R147_JOINT_STONE_CANDIDATE"
+  ],
+  "sources": [
+    {
+      "id": "051",
+      "path": "04_Ic_Mekan/Merdivenler_ve_Dolasim/051_Merdiven_ve_katlar_arasi_dolasim_WikiArquitectura.jpg",
+      "sha256": "102d7c8bfa88eb766ea7481a19493a77df6f9c3422e375ba82381fca153adcc0",
+      "source_url": "https://es.wikiarquitectura.com/edificio/museo-de-arte-moderno-grand-duc-jean-mudam/",
+      "credit": "WikiArquitectura; sayfadaki foto\u011fraf serisi Haziran 2019",
+      "source_date": "unknown; do not infer from download date",
+      "modified": false
+    },
+    {
+      "id": "052",
+      "path": "04_Ic_Mekan/Merdivenler_ve_Dolasim/052_Merdiven_ve_katlar_arasi_dolasim_WikiArquitectura.jpg",
+      "sha256": "a378de29e4c37de8ad6fa5032903edc5ed8b7fee64de9308fb319d60a43ff7a0",
+      "source_url": "https://es.wikiarquitectura.com/edificio/museo-de-arte-moderno-grand-duc-jean-mudam/",
+      "credit": "WikiArquitectura; sayfadaki foto\u011fraf serisi Haziran 2019",
+      "source_date": "unknown; do not infer from download date",
+      "modified": false
+    },
+    {
+      "id": "097",
+      "path": "05_Dis_Mekan/Cepheler/097_Tas_cephe_ve_cam_cati_ArchEyes.jpg",
+      "sha256": "fd75919c30d7568a0eb5c56488c2a1f4f00d3043218825a73a89427966995bd1",
+      "source_url": "https://archeyes.com/the-mudam-by-i-m-pei-where-old-meets-new/",
+      "credit": "\u00a9 Michael Nguyen / ArchEyes",
+      "source_date": "unknown; do not infer from download date",
+      "modified": false
+    },
+    {
+      "id": "102",
+      "path": "01_Kat_Planlari/Resmi_Kat_Semalari/102_Resmi_kat_semasi_zemin_0_Mudam.jpeg",
+      "sha256": "f4d1d1992e1e2d664d5bf5fddd6aedd760edb2931f398e52b5e13316acec2407",
+      "source_url": "https://www.mudam.com/fr/floor-plans",
+      "credit": "Mudam Luxembourg; kullan\u0131c\u0131 taraf\u0131ndan verilen do\u011frudan ba\u011flant\u0131",
+      "source_date": "unknown; do not infer from download date",
+      "modified": false
+    },
+    {
+      "id": "103",
+      "path": "01_Kat_Planlari/Resmi_Kat_Semalari/103_Resmi_kat_semasi_ust_arti_1_Mudam.jpeg",
+      "sha256": "bd94768b80070517fd9ff2fbcb120fc1ba35aa048de49f6a25cbf57ab9c353a2",
+      "source_url": "https://www.mudam.com/fr/floor-plans",
+      "credit": "Mudam Luxembourg; kullan\u0131c\u0131 taraf\u0131ndan verilen do\u011frudan ba\u011flant\u0131",
+      "source_date": "unknown; do not infer from download date",
+      "modified": false
+    }
+  ],
+  "geometry_changed": false,
+  "construction_acceptance": false
+}

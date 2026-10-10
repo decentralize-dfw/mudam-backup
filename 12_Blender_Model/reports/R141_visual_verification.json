@@ -1,0 +1,23 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R141_GIRIS_KAFE_TAS_DUVARLAR_v001.blend",
+  "reviewed_images": [
+    {
+      "path": "12_Blender_Model/renders/qa/R141_before_entry.png",
+      "sha256": "2c853ea981e7e9ed67db37ad09a4b82a19e24729c20471d673bc6b6300f1ea5f"
+    },
+    {
+      "path": "12_Blender_Model/renders/qa/R141_before_cafe.png",
+      "sha256": "4d1f9226e5b947cab76661a33b0437b1584e5905646061233862f5ec99b3c8bf"
+    },
+    {
+      "path": "12_Blender_Model/renders/qa/R141_after_entry.png",
+      "sha256": "e5fb60db9623c086165fa680d0e369fcd972958d91f19a660bb5e9520addf923"
+    },
+    {
+      "path": "12_Blender_Model/renders/qa/R141_after_cafe.png",
+      "sha256": "ce64598d00f4c9a2f92675ac74b3cedac6c5ec4ff567ec2a0f52118df49a06e8"
+    }
+  ],
+  "failures": [],
+  "scope": "Four same-camera before/after views examined. Entry and cafe stone finish continuity. Original lighting unchanged; source supports finish family, not exact panels or colour."
+}

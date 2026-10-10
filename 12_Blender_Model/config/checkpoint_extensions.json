@@ -1772,5 +1772,329 @@
     "image": "R129_after_context.png",
     "description": "28 mevcut çevre parçasında tarihî taş ve hendek çimi için renk, normal ve pürüzlülük dokuları yenilendi.",
     "limits": "Geometri ve UV değişmedi. 4x3m tekrar önceki aday ölçüdür; tekil taş, bitki türü ve fiziksel renk doğrulaması yok. Bina veya tüm çevre tamamlanmış değildir."
+  },
+  {
+    "id": "R130",
+    "checks": [
+      "R130_verification.json",
+      "R130_global_audit.json",
+      "R130_inherited_verification.json",
+      "R130_visual_verification.json"
+    ],
+    "tasks": [
+      "P18"
+    ],
+    "report": "R130_KONTROL_RAPORU.md",
+    "title": "Park iğne yapraklı ağaçları / R130",
+    "image": "R130_after_park.png",
+    "description": "Arşiv OSM verisinde iğne yapraklı olarak kayıtlı yedi ağacın geniş yapraklı taçları değiştirildi. Yedi dal ve yedi iğne yaprak ağı üretildi; eski 14 taç parçası gizlendi, gövdeler ve konumlar korundu.",
+    "limits": "Ağaç türü, 8m yükseklik, 2.2m taç yarıçapı, dallanma ve renk ölçülmüş değildir. Bu yedi ağacın sınıf düzeltmesi bütün çevrenin kabulü değildir. Ara push yapılmayacak; doğrulanmış toplam kapsam %90 hedefine kadar yerel üretim sürecek."
+  },
+  {
+    "id": "R131",
+    "checks": [
+      "R131_verification.json",
+      "R131_global_audit.json",
+      "R131_inherited_verification.json",
+      "R131_visual_verification.json"
+    ],
+    "tasks": [
+      "P13",
+      "P19"
+    ],
+    "report": "R131_KONTROL_RAPORU.md",
+    "title": "Kabuk malzeme sürekliliği / R131",
+    "image": "R131_after_SS1_exterior.png",
+    "description": "Sonradan üretilen 12 kabuk parçasındaki 115 yüz mevcut taş duvar ve taş döşeme ailelerine bağlandı. Sekiz duvarın düşey yüzleri ve dört döşeme bağlantısının üst yüzleri metrik UV aldı.",
+    "limits": "Geometri, açıklıklar ve kotlar değişmedi. 3.2x2.4m duvar ve 3.6x3.6m döşeme tekrarları önceki görünüm adaylarıdır; ölçülmüş derz veya fiziksel renk kabulü değildir. Ara push yok; kapsam puanı değiştirilmedi."
+  },
+  {
+    "id": "R132",
+    "checks": [
+      "R132_verification.json",
+      "R132_global_audit.json",
+      "R132_inherited_verification.json",
+      "R132_visual_verification.json"
+    ],
+    "tasks": [
+      "P18"
+    ],
+    "report": "R132_KONTROL_RAPORU.md",
+    "title": "Haritalı park zemin ayrımı / R132",
+    "image": "R132_after_ground.png",
+    "description": "Arşiv OSM 759811369 karma ağaçlık sınırı mevcut park zeminine işlendi. 421.08m² bitkili zemin sert kaplamadan ayrıldı; mevcut 4m aday yol koridorları korundu. Bir zemin değişti, bir kapalı zemin nesnesi eklendi.",
+    "limits": "OSM sınırı rölöve değildir. Düz arazi kotu, yol genişliği ve çim görünümü temsilîdir; diğer peyzaj sınırları, bitki dağılımı ve tarihî ayrıntılar açık. V001/v002 ortak köşe ağ bağlantısı nedeniyle reddedildi; v003 ayrı kapalı adalar kullanır. Ara push yok."
+  },
+  {
+    "id": "R133",
+    "checks": [
+      "R133_verification.json",
+      "R133_global_audit.json",
+      "R133_inherited_verification.json",
+      "R133_visual_verification.json"
+    ],
+    "tasks": [
+      "P13",
+      "P18"
+    ],
+    "report": "R133_KONTROL_RAPORU.md",
+    "title": "Park yol kaplamaları / R133",
+    "image": "R133_after_north_path.png",
+    "description": "Üç arşiv yol güzergâhı mevcut park zemininin koordinatlı kaplama dokusuna işlendi: 83345393 ve 49910981 taş döşeme, 50643005 küçük taş kaplama sınıfını taşır. İki gömülü 4096px doku ve tek malzeme kullanılır.",
+    "limits": "Mevcut zemin geometrisi birebir korundu. Yol genişliği 4m aday; 600x300mm ve160x120mm görsel modüller, renk/derz düzeni ölçülmedi. V001–v003 yüz bölme adayları geometri/UV hatası nedeniyle reddedildi; v004 kabul edildi. Ara push yok."
+  },
+  {
+    "id": "R134",
+    "checks": [
+      "R134_verification.json",
+      "R134_global_audit.json",
+      "R134_inherited_verification.json",
+      "R134_visual_verification.json"
+    ],
+    "tasks": [
+      "P13",
+      "P19"
+    ],
+    "report": "R134_KONTROL_RAPORU.md",
+    "title": "Okuma tavanı ve doğu merdiveni taşı / R134",
+    "image": "R134_after_spiral.png",
+    "description": "Okuma alanının sekiz eğimli tavanı ve doğu spiral merdiveninin basamak, çekirdek, kenar ve komşu taş yüzeylerinde 50 mevcut nesnenin 3484 yüzüne taş malzemesi ve metrik UV uygulandı.",
+    "limits": "015/016 ve 041/043 fotoğrafları taş yüzey sınıfını destekler. 2m tane ve 3.2x2.4m derz tekrarları görsel adaydır; ölçülmüş panel, renk veya fiziksel kalibrasyon değildir. Geometri birebir korundu. Ara push yok."
+  },
+  {
+    "id": "R135",
+    "checks": [
+      "R135_verification.json",
+      "R135_global_audit.json",
+      "R135_inherited_verification.json",
+      "R135_visual_verification.json"
+    ],
+    "tasks": [
+      "P13",
+      "P16",
+      "P19"
+    ],
+    "report": "R135_KONTROL_RAPORU.md",
+    "title": "Oditoryum ahşap damarı / R135",
+    "image": "R135_after_panel.png",
+    "description": "Oditoryumun 230 mevcut ahşap panel, kapı ve çevre parçasına düşey damar dokusu ve yüz yönüne göre UV uygulandı. Akustik delikler, derzler ve açıklıklar değişmedi.",
+    "limits": "073 fotoğrafı ahşap sınıfı ve düşey damar yönünü destekler. 1.2x2.4m doku tekrarı, ağaç türü, damar şekli ve renk ölçülmüş değildir. İnceleme ışıkları yalnız render için eklendi; sahneye kaydedilmedi. Ara push yok."
+  },
+  {
+    "id": "R136",
+    "checks": [
+      "R136_verification.json",
+      "R136_global_audit.json",
+      "R136_inherited_verification.json",
+      "R136_visual_verification.json"
+    ],
+    "tasks": [
+      "P13",
+      "P16",
+      "P19"
+    ],
+    "report": "R136_KONTROL_RAPORU.md",
+    "title": "Oditoryum taş yüzeyleri / R136",
+    "image": "R136_after_room.png",
+    "description": "Oditoryum zemin, sahne, geçiş basamakları ve taş ayaklarda 51 mevcut nesnenin 318 nötr yüzüne taş tane malzemesi ve metrik UV uygulandı.",
+    "limits": "071/073 fotoğrafları açık taş yüzey ailesini destekler. 2m doku tekrarı, renk ve taş türü ölçülmüş değildir; yeni derz çizelgesi üretilmedi. Tane etkisi oda uzaklığında hafiftir. Geometri, basamak kenarları ve açıklıklar birebir korundu. Ara push yok."
+  },
+  {
+    "id": "R137",
+    "checks": [
+      "R137_verification.json",
+      "R137_global_audit.json",
+      "R137_inherited_verification.json",
+      "R137_visual_verification.json"
+    ],
+    "tasks": [
+      "P13",
+      "P19"
+    ],
+    "report": "R137_KONTROL_RAPORU.md",
+    "title": "Batı cam merdiveni taş yüzeyleri / R137",
+    "image": "R137_after_lower.png",
+    "description": "Batı cam merdiveninin iki kolu, sahanlıkları ve taş iç duvarlarında 41 mevcut nesnenin 249 yüzüne taş tane/derz malzemesi ve metrik UV uygulandı.",
+    "limits": "066 fotoğrafı taş basamak ve derzli taş duvar ailesini destekler. 2m tane ve 3.2x2.4m derz tekrarları görsel adaydır; kesin taş modülü, renk ve metrik kamera çözülmedi. Geometri ve açıklıklar birebir korundu. Ara push yok."
+  },
+  {
+    "id": "R138",
+    "checks": [
+      "R138_verification.json",
+      "R138_global_audit.json",
+      "R138_inherited_verification.json",
+      "R138_visual_verification.json"
+    ],
+    "tasks": [
+      "P13",
+      "P19"
+    ],
+    "report": "R138_KONTROL_RAPORU.md",
+    "title": "Giriş ve dolaşım taş zemini / R138",
+    "image": "R138_after_entry.png",
+    "description": "Giriş ile doğu/batı galeri dolaşımının üç mevcut döşemesinde yaklaşık 580m² üst yüzey, ortak taş plak ailesine ve metrik UV düzenine bağlandı.",
+    "limits": "017/026/070/077 taş yüzey sınıfını destekler; 0.9m plak, 3.6m tekrar ve kanonik yön mevcut R43 görünüm adayıdır, ölçülmüş derz dizimi değildir. Geometri ve açıklıklar birebir korundu. Ara push yok."
+  },
+  {
+    "id": "R139",
+    "checks": [
+      "R139_verification.json",
+      "R139_global_audit.json",
+      "R139_inherited_verification.json",
+      "R139_visual_verification.json"
+    ],
+    "tasks": [
+      "P13",
+      "P19"
+    ],
+    "report": "R139_KONTROL_RAPORU.md",
+    "title": "Grand Hall taş duvarları / R139",
+    "image": "R139_after_hall.png",
+    "description": "Grand Hall ana duvarları ve galeri dış yüzlerinde dokuz mevcut nesnenin 58 nötr yüzüne taş tane/derz malzemesi ve metrik UV uygulandı.",
+    "limits": "026/034/087/119 kaynakları taş yüzey sınıfını destekler. 2m tane ve 3.2x2.4m derz tekrarları görsel adaydır; ölçülmüş panel çizelgesi ve renk kalibrasyonu değildir. Galeri iç beyaz yüzleri, geometri ve gerçek açıklıklar korundu. Ara push yok."
+  },
+  {
+    "id": "R140",
+    "checks": [
+      "R140_verification.json",
+      "R140_global_audit.json",
+      "R140_inherited_verification.json",
+      "R140_visual_verification.json"
+    ],
+    "tasks": [
+      "P13",
+      "P19"
+    ],
+    "report": "R140_KONTROL_RAPORU.md",
+    "title": "Doğu bahçe taş zemini / R140",
+    "image": "R140_after_floor.png",
+    "description": "Doğu bahçe galerisinin yaklaşık 334m² mevcut zemininin üst yüzü taş plak malzemesine ve metrik UV düzenine bağlandı.",
+    "limits": "041/043 taş yüzey ailesini destekler. 0.9m plak ve 3.6m tekrar mevcut R43 görünüm adayıdır; ölçülmüş derz çizelgesi değildir. Geometri ve açıklıklar birebir korundu. Ara push yok."
+  },
+  {
+    "id": "R141",
+    "checks": [
+      "R141_verification.json",
+      "R141_global_audit.json",
+      "R141_inherited_verification.json",
+      "R141_visual_verification.json"
+    ],
+    "tasks": [
+      "P13",
+      "P19"
+    ],
+    "report": "R141_KONTROL_RAPORU.md",
+    "title": "Giriş ve kafe taş duvarları / R141",
+    "image": "R141_after_entry.png",
+    "description": "Batı merdiven giriş iç duvarı ve kafe arka duvarı/başlığındaki üç mevcut nesnenin 18 nötr yüzüne taş tane/derz malzemesi ve metrik UV uygulandı.",
+    "limits": "066/097 giriş taş duvarını, 093 kafe arkasındaki taş sınırı destekler. Mevcut R82/R83 kabuk adaylarının ölçü ve konum belirsizliği sürer. 2m tane ve 3.2x2.4m derz tekrarları görsel adaydır; ölçülmüş panel çizelgesi veya renk değildir. Geometri ve giriş açıklığı korundu. Ara push yok."
+  },
+  {
+    "id": "R143",
+    "checks": [
+      "R143_verification.json",
+      "R143_global_audit.json",
+      "R143_inherited_verification.json",
+      "R143_visual_verification.json"
+    ],
+    "tasks": [
+      "P13",
+      "P19"
+    ],
+    "report": "R143_KONTROL_RAPORU.md",
+    "title": "Alt fuaye taş duvarı / R143",
+    "image": "R143_after_wall.png",
+    "description": "Alt fuaye kuzey duvarının yaklaşık 169m² düşey yüzeyine taş derzi ve metrik UV uygulandı; yatay kenarlarda taş tane ailesi kullanıldı.",
+    "limits": "051/055 alt fuayenin taş yüzey ailesini destekler. R72 sınır/kot adayları değişmedi. 2m tane ve 3.2x2.4m derz tekrarları ölçülmüş panel çizelgesi değildir. Geometri birebir korundu. Ara push yok."
+  },
+  {
+    "id": "R144",
+    "checks": [
+      "R144_verification.json",
+      "R144_global_audit.json",
+      "R144_inherited_verification.json",
+      "R144_visual_verification.json"
+    ],
+    "tasks": [
+      "P13",
+      "P19"
+    ],
+    "report": "R144_KONTROL_RAPORU.md",
+    "title": "Alt fuaye taş tavanı / R144",
+    "image": "R144_after_ceiling.png",
+    "description": "Alt fuayenin yaklaşık 321m² tavan altı ve kavisli alın yüzeyinde 155 yüze taş tane malzemesi ve metrik UV uygulandı.",
+    "limits": "051/055 taş tavan ailesini destekler. 2m tane tekrarı görsel adaydır; fotoğraftaki tekil plak derzleri yeniden kurulmadı. R06 mevcut geometri, açıklık ve kotları birebir korundu. Ara push yok."
+  },
+  {
+    "id": "R145",
+    "checks": [
+      "R145_verification.json",
+      "R145_global_audit.json",
+      "R145_inherited_verification.json",
+      "R145_visual_verification.json"
+    ],
+    "tasks": [
+      "P13",
+      "P19"
+    ],
+    "report": "R145_KONTROL_RAPORU.md",
+    "title": "Kuzey ve batı taş yüzeyleri / R145",
+    "image": "R145_after_north.png",
+    "description": "Kuzey cam çatı doğu taş alın/alt duvarı ve batı uç duvarındaki üç mevcut nesnenin 19 nötr yüzüne taş tane/derz malzemesi ve metrik UV uygulandı.",
+    "limits": "087/119 kuzey alın taşını, 093/097 batı uç taşını destekler. 2m tane ve 3.2x2.4m derz tekrarları mevcut görünüm adayıdır; ölçülmüş plak çizelgesi veya fiziksel renk değildir. Geometri ve açıklıklar birebir korundu. Ara push yok."
+  },
+  {
+    "id": "R146",
+    "checks": [
+      "R146_verification.json",
+      "R146_global_audit.json",
+      "R146_inherited_verification.json",
+      "R146_visual_verification.json"
+    ],
+    "tasks": [
+      "P13",
+      "P19"
+    ],
+    "report": "R146_KONTROL_RAPORU.md",
+    "title": "Batı kavisli taş bant / R146",
+    "image": "R146_after_curve.png",
+    "description": "Batı kavisli cam cephenin altındaki 18 mevcut taş duvar parçasının 144 yüzüne taş malzemesi ve kavis boyunca sürekli metrik UV uygulandı.",
+    "limits": "093 fotoğrafı taş bandı destekler. 2m tane ve 3.2x2.4m derz tekrarı görünüm adayıdır; ölçülmüş taş modülü değildir. 34 ortak kenarda UV farkı en fazla 0.000000954. Geometri ve açıklıklar aynı; gün ışığında doku kontrastı düşük, fiziksel renk/ışık kalibrasyonu açık. Ara push yok."
+  },
+  {
+    "id": "R147",
+    "checks": [
+      "R147_verification.json",
+      "R147_global_audit.json",
+      "R147_inherited_verification.json",
+      "R147_visual_verification.json"
+    ],
+    "tasks": [
+      "P13",
+      "P19"
+    ],
+    "report": "R147_KONTROL_RAPORU.md",
+    "title": "Batı dönüşü ve alt fuaye taşı / R147",
+    "image": "R147_after_blade.png",
+    "description": "Batı dönüşündeki beş mevcut taş duvar ve alt fuaye merdiven perdesinin toplam 36 nötr yüzüne taş malzemesi ve metrik UV uygulandı.",
+    "limits": "051/052 merdiven perdesini, 097 batı taş kabuğunu destekler. 2m tane ve 3.2x2.4m derz tekrarı görsel aday; ölçülmüş plak çizelgesi değildir. Geometri ve açıklıklar aynı. Perde dokusu mevcut ışıkta düşük kontrastlı; fiziksel renk/ışık kabulü açık. Ara push yok."
+  },
+  {
+    "id": "R148",
+    "checks": [
+      "R148_verification.json",
+      "R148_global_audit.json",
+      "R148_inherited_verification.json",
+      "R148_visual_verification.json"
+    ],
+    "tasks": [
+      "P13",
+      "P19"
+    ],
+    "report": "R148_KONTROL_RAPORU.md",
+    "title": "Kafe taş döşemesi / R148",
+    "image": "R148_after_cafe.png",
+    "description": "Batı kafenin yaklaşık 288m² mevcut döşemesindeki 33 üst yüze taş malzemesi ve metrik UV uygulandı.",
+    "limits": "Resmî Mudam kafe fotoğrafları CF01/CF02 eklendi; CF01 açık taş zemini ve derzleri gösterir. 3.6m doku tekrarı ve yaklaşık 0.9m modül mevcut görsel adaydır, rölöve değildir. Mobilya/eser üretilmedi; geometri ve açıklıklar birebir aynı."
   }
 ]

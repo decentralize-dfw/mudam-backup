@@ -1,0 +1,63 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R139_GRAND_HALL_TAS_DUVARLAR_v001.blend",
+  "images": [
+    {
+      "image": "12_Blender_Model/renders/qa/R139_before_hall.png",
+      "phase": "before",
+      "eye": [
+        4.987781524658203,
+        12.953409194946289,
+        1.7000000476837158
+      ],
+      "target": [
+        13.756406784057617,
+        11.373883247375488,
+        8.0
+      ]
+    },
+    {
+      "image": "12_Blender_Model/renders/qa/R139_before_gallery.png",
+      "phase": "before",
+      "eye": [
+        7.84511661529541,
+        8.310469627380371,
+        6.5
+      ],
+      "target": [
+        17.45635986328125,
+        2.161221742630005,
+        6.0
+      ]
+    },
+    {
+      "image": "12_Blender_Model/renders/qa/R139_after_hall.png",
+      "phase": "after",
+      "eye": [
+        4.987781524658203,
+        12.953409194946289,
+        1.7000000476837158
+      ],
+      "target": [
+        13.756406784057617,
+        11.373883247375488,
+        8.0
+      ]
+    },
+    {
+      "image": "12_Blender_Model/renders/qa/R139_after_gallery.png",
+      "phase": "after",
+      "eye": [
+        7.84511661529541,
+        8.310469627380371,
+        6.5
+      ],
+      "target": [
+        17.45635986328125,
+        2.161221742630005,
+        6.0
+      ]
+    }
+  ],
+  "all_active_surroundings": true,
+  "lighting_unchanged": true
+}

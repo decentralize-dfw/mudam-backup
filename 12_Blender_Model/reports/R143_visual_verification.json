@@ -1,0 +1,15 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R143_ALT_FUAYE_TAS_DUVAR_v001.blend",
+  "reviewed_images": [
+    {
+      "path": "12_Blender_Model/renders/qa/R143_before_wall.png",
+      "sha256": "e5bfdd5435a1338cc9fa96e958fb05b2b26a4436412c1944270a40caacd5cd05"
+    },
+    {
+      "path": "12_Blender_Model/renders/qa/R143_after_wall.png",
+      "sha256": "327ca1e00fbb8df2ddcd90695b7d814431cdbbd032a43a413367b7e8ed1afb88"
+    }
+  ],
+  "failures": [],
+  "scope": "Same-camera before/after wall views examined. Identical temporary inspection light in both renders, not saved to scene. Stone family continuity only; no physical colour calibration."
+}

@@ -1,0 +1,65 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R141_GIRIS_KAFE_TAS_DUVARLAR_v001.blend",
+  "evaluated_geometry_objects_checked": 9365,
+  "geometry_identical": true,
+  "uv_checks": [
+    {
+      "name": "R82_ENTRY_INNER_WALL",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.3370586488417757
+    },
+    {
+      "name": "R83_CAFE_BACK_WALL",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.37394995987415314
+    },
+    {
+      "name": "R83_CAFE_ENTRY_HEAD",
+      "faces": 6,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.17010442200171383
+    }
+  ],
+  "packed_images": [
+    {
+      "material": "R141_GRAIN_STONE_CANDIDATE",
+      "image": "R46_stone_grain_candidate_basecolor.png",
+      "packed": true,
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "material": "R141_GRAIN_STONE_CANDIDATE",
+      "image": "R46_stone_grain_candidate_normal.png",
+      "packed": true,
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "material": "R141_JOINT_STONE_CANDIDATE",
+      "image": "R32_limestone_candidate_basecolor.png",
+      "packed": true,
+      "size": [
+        2048,
+        1536
+      ]
+    },
+    {
+      "material": "R141_JOINT_STONE_CANDIDATE",
+      "image": "R32_limestone_candidate_normal.png",
+      "packed": true,
+      "size": [
+        2048,
+        1536
+      ]
+    }
+  ],
+  "failures": [],
+  "construction_acceptance": false
+}

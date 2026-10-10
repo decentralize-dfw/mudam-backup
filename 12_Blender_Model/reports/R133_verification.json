@@ -1,0 +1,35 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R133_PARK_YOL_KAPLAMALARI_v004.blend",
+  "evaluated_geometry_objects_checked": 9365,
+  "geometry_identical": true,
+  "uv_checks": [
+    {
+      "name": "R38_PARK_APPROACH_GROUND",
+      "faces": 2,
+      "max_uv_error": 0.0,
+      "min_uv_area": 0.007307508601826163
+    }
+  ],
+  "packed_images": [
+    {
+      "material": "R133_PARK_ROUTE_ATLAS_CANDIDATE",
+      "image": "R133_park_routes_basecolor.png",
+      "packed": true,
+      "size": [
+        4096,
+        4096
+      ]
+    },
+    {
+      "material": "R133_PARK_ROUTE_ATLAS_CANDIDATE",
+      "image": "R133_park_routes_normal.png",
+      "packed": true,
+      "size": [
+        4096,
+        4096
+      ]
+    }
+  ],
+  "failures": [],
+  "construction_acceptance": false
+}

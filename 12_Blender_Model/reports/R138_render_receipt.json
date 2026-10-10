@@ -1,0 +1,91 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R138_GIRIS_DOLASIM_TAS_ZEMIN_v002.blend",
+  "images": [
+    {
+      "image": "12_Blender_Model/renders/qa/R138_before_entry.png",
+      "phase": "before",
+      "eye": [
+        23.18895149230957,
+        27.574535369873047,
+        2.0
+      ],
+      "target": [
+        26.118234634399414,
+        30.298376083374023,
+        0.10000000149011612
+      ]
+    },
+    {
+      "image": "12_Blender_Model/renders/qa/R138_before_east.png",
+      "phase": "before",
+      "eye": [
+        15.61721420288086,
+        0.12662380933761597,
+        1.649999976158142
+      ],
+      "target": [
+        21.09804344177246,
+        5.223058700561523,
+        0.30000001192092896
+      ]
+    },
+    {
+      "image": "12_Blender_Model/renders/qa/R138_before_west.png",
+      "phase": "before",
+      "eye": [
+        -4.780728816986084,
+        21.71415138244629,
+        1.649999976158142
+      ],
+      "target": [
+        0.8740944266319275,
+        26.97237777709961,
+        0.30000001192092896
+      ]
+    },
+    {
+      "image": "12_Blender_Model/renders/qa/R138_after_entry.png",
+      "phase": "after",
+      "eye": [
+        23.18895149230957,
+        27.574535369873047,
+        2.0
+      ],
+      "target": [
+        26.118234634399414,
+        30.298376083374023,
+        0.10000000149011612
+      ]
+    },
+    {
+      "image": "12_Blender_Model/renders/qa/R138_after_east.png",
+      "phase": "after",
+      "eye": [
+        15.61721420288086,
+        0.12662380933761597,
+        1.649999976158142
+      ],
+      "target": [
+        21.09804344177246,
+        5.223058700561523,
+        0.30000001192092896
+      ]
+    },
+    {
+      "image": "12_Blender_Model/renders/qa/R138_after_west.png",
+      "phase": "after",
+      "eye": [
+        -4.780728816986084,
+        21.71415138244629,
+        1.649999976158142
+      ],
+      "target": [
+        0.8740944266319275,
+        26.97237777709961,
+        0.30000001192092896
+      ]
+    }
+  ],
+  "all_active_surroundings": true,
+  "lighting_unchanged": true
+}

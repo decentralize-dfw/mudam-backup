@@ -1,0 +1,37 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R131_KABUK_MALZEME_SUREKLILIGI_v001.blend",
+  "base_scene": "12_Blender_Model/scenes/MUDAM_R130_PARK_IGNE_YAPRAKLI_AGACLAR_v002.blend",
+  "inherited_objects_checked": 9364,
+  "changed_inherited_objects": [
+    "R94_EAST_HIGH_WALL_JOIN",
+    "R95_EAST_OUTER_END_ABOVE_GLASS",
+    "R116_LOWER_FACADE_BACKING",
+    "R116_BRIDGE_NORTH_WEST",
+    "R116_BRIDGE_NORTH_EAST",
+    "R116_STAIR_PORTAL_JAMB_JOIN",
+    "R116_AUD_ENTRY_FLOOR_L",
+    "R116_AUD_ENTRY_FLOOR_R",
+    "R117_LOWER_FACADE_CORNER_RETURN",
+    "R117_E_BRIDGE_FLOOR_JOIN",
+    "R117_W_BRIDGE_FLOOR_JOIN",
+    "R117_E_BRIDGE_WALL_END"
+  ],
+  "allowed_changes": [
+    "R116_AUD_ENTRY_FLOOR_L",
+    "R116_AUD_ENTRY_FLOOR_R",
+    "R116_BRIDGE_NORTH_EAST",
+    "R116_BRIDGE_NORTH_WEST",
+    "R116_LOWER_FACADE_BACKING",
+    "R116_STAIR_PORTAL_JAMB_JOIN",
+    "R117_E_BRIDGE_FLOOR_JOIN",
+    "R117_E_BRIDGE_WALL_END",
+    "R117_LOWER_FACADE_CORNER_RETURN",
+    "R117_W_BRIDGE_FLOOR_JOIN",
+    "R94_EAST_HIGH_WALL_JOIN",
+    "R95_EAST_OUTER_END_ABOVE_GLASS"
+  ],
+  "allowed_but_unchanged": [],
+  "new_objects": [],
+  "failures": [],
+  "construction_acceptance": false
+}

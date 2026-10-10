@@ -1,0 +1,15 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R148_KAFE_TAS_DOSEME_v001.blend",
+  "reviewed_images": [
+    {
+      "path": "12_Blender_Model/renders/qa/R148_before_cafe.png",
+      "sha256": "3b3c2b5efde08d5e4406ef50b392b8c7736c6c288cba5fabfb426be7a919e3e6"
+    },
+    {
+      "path": "12_Blender_Model/renders/qa/R148_after_cafe.png",
+      "sha256": "da5a6f8c5bd59bf7ad1ed6128bd61a6c94d43a87f5d43a00e6244d37e9396bba"
+    }
+  ],
+  "failures": [],
+  "scope": "Full scene matched cafe camera; pale stone floor and orthogonal joints supported by official CF01. Module, exact joint placement and physical colour remain candidates. Furniture and commissioned artwork excluded. Existing floor extent and openings unchanged."
+}

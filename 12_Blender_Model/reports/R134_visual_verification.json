@@ -1,0 +1,23 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R134_OKUMA_TAVANI_DOGU_MERDIVEN_TASI_v001.blend",
+  "reviewed_images": [
+    {
+      "path": "12_Blender_Model/renders/qa/R134_before_reading.png",
+      "sha256": "2cb7dbeb5088eddb7dcaf8711042595aaece51f8f47ba70cc160cef66c6b4569"
+    },
+    {
+      "path": "12_Blender_Model/renders/qa/R134_before_spiral.png",
+      "sha256": "218d468bec193933401ebc04a8db4247215a67fe604e13a3000ad95e569ecb8c"
+    },
+    {
+      "path": "12_Blender_Model/renders/qa/R134_after_reading.png",
+      "sha256": "81fadac0f10babf9c527091bb24dc8b8b685c67a7b649cd8ce4913137219c06d"
+    },
+    {
+      "path": "12_Blender_Model/renders/qa/R134_after_spiral.png",
+      "sha256": "494fea32982a987be52ba29c4af2fc9b7be7f2bbce14309f710e7137a0f3bc16"
+    }
+  ],
+  "failures": [],
+  "scope": "Four before/after images examined. Reading ceiling joints and spiral wall stone visible; tread/core grain subtle at this distance. Lighting unchanged, no photometric calibration claim."
+}
