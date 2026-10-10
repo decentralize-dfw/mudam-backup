@@ -601,3 +601,7 @@ P21 aktarım: R128 geometrisi ve 8.477 parça değişmeden yinelenen buffer blok
 
 R129: 28 mevcut parçada tarihî taş ve hendek çimi için altı gömülü doku yenilendi. Kabul v002: geometri/UV/konum değişmedi; dört önce-sonra görünüş incelendi. v001 çim tekrar sınırları nedeniyle kabul edilmedi. Kullanıcı malzeme ve yakın çevre önceliği verdi; sohbet heartbeat otomasyonu kaldırıldı. Genel oran %73; mimari tamamlanma iddiası yok.
 
+
+
+2026-10-10 06:38:23 UTC — 2286b119a355fb81d579ea25d80d73c1cd0a072f origin/main normal push doğrulandı. Pano, renderlar, raporlar ve üretim betikleri gönderildi; Blender ve arşiv GLB dosyaları yerelde; tek güncel sıkıştırılmış web GLB gönderildi.
+
