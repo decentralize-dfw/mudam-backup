@@ -126,9 +126,14 @@ button:focus-visible, select:focus-visible, input:focus-visible, a:focus-visible
 .marker-layername i { width: 12px; height: 12px; margin: 9px; border-radius: 3px; background: var(--c); border: 2px solid #fff; }
 .marker-layername span { max-width: 320px; opacity: 1; font-size: 12.5px; font-weight: 700; padding: 5px 11px; }
 .marker.flip { flex-direction: row-reverse; }
-/* room names on the storeys' arrows: the pill sits on the arrow's tip */
-.marker-roomtag i { width: 8px; height: 8px; margin: 11px; background: #1d2421; border: 0; box-shadow: none; }
-.marker-roomtag span { max-width: 320px; opacity: 1; font-size: 12px; font-weight: 650; padding: 4px 10px; }
+/* room names on the storeys' arrows: a small pill centred above the tip */
+.marker-roomtag { margin: 0; overflow: visible; }
+.marker-roomtag::after { content: ''; position: absolute; left: 50%; top: 100%; width: 1px; height: var(--lead, 0px); background: rgba(29, 36, 33, 0.55); pointer-events: none; }
+.marker-roomtag.coloured span { border-left: 3px solid var(--room); }
+.marker-roomtag.dim { opacity: 0.6 !important; }
+#app[data-wire='on'] .marker-roomtag::after { background: rgba(255, 255, 255, 0.6); }
+.marker-roomtag i { display: none; }
+.marker-roomtag span { max-width: 240px; opacity: 1; font-size: 7.5px; line-height: 1.2; font-weight: 650; letter-spacing: 0.01em; padding: 1px 5px; border-radius: 6px; background: rgba(255, 255, 255, 0.4); box-shadow: none; -webkit-backdrop-filter: none; backdrop-filter: none; }
 
 /* -------------------------------------------------------------- cards */
 .card { position: absolute; z-index: 28; right: var(--gap); top: 84px; width: min(380px, calc(100vw - 2 * var(--gap))); max-height: calc(100% - 84px - 150px); overflow: auto; border-radius: 22px; padding: 20px 22px 18px; background: var(--panel); }
@@ -211,6 +216,15 @@ button:focus-visible, select:focus-visible, input:focus-visible, a:focus-visible
 #app[data-ready='true'] .boot-bar, #app[data-ready='true'] .boot-status { display: none; }
 #retry { margin-top: 14px; min-height: 40px; padding: 0 18px; border-radius: 999px; background: var(--ink); color: #fff; }
 
+/* line drawing toggle: only in the exploded views, top left */
+.wire-toggle { position: absolute; z-index: 24; left: var(--gap); top: calc(max(var(--gap), env(safe-area-inset-top)) + 62px); display: none; align-items: center; gap: 8px; min-height: 34px; padding: 0 13px 0 10px; border-radius: 999px; font-size: 12.5px; font-weight: 650; }
+.wire-toggle i { width: 14px; height: 14px; border-radius: 3px; background: linear-gradient(#fff, #fff) 50% 0 / 1px 100% no-repeat, linear-gradient(#fff, #fff) 0 50% / 100% 1px no-repeat, #1d2421; box-shadow: inset 0 0 0 1px #fff, 0 0 0 1px #1d2421; }
+#app[data-exploded='on'] .wire-toggle { display: inline-flex; }
+.wire-toggle[aria-pressed='true'] { background: #fff; color: #111; }
+/* on the black drawing, labels turn dark */
+#app[data-wire='on'] .marker-layername span, #app[data-wire='on'] .marker-roomtag span { background: rgba(0, 0, 0, 0.4); color: #f2f2ef; }
+#app[data-wire='on'] .hint { color: #cfd6d3; background: rgba(0, 0, 0, 0.35); }
+
 /* the dock reaches the light panel below ~1280 px: lift the panel above it */
 @media (min-width: 761px) and (max-width: 1280px) {
   .light-panel { bottom: calc(max(var(--gap), env(safe-area-inset-bottom)) + 62px); }
@@ -224,6 +238,7 @@ button:focus-visible, select:focus-visible, input:focus-visible, a:focus-visible
   .brand { font-size: 11px; letter-spacing: 0.22em; }
   #open-about { display: none; }
   .lang-flag { min-width: 32px; min-height: 32px; padding: 0 4px; letter-spacing: 0.04em; }
+  .wire-toggle { top: calc(max(var(--gap), env(safe-area-inset-top)) + 108px); }
   .mode-picker { top: calc(max(var(--gap), env(safe-area-inset-top)) + 56px); }
   .mode-picker button { padding: 0 14px; min-height: 36px; font-size: 13px; }
   .dock { bottom: calc(max(var(--gap), env(safe-area-inset-bottom)) + 104px); max-width: calc(100vw - 2 * var(--gap)); overflow-x: auto; }
@@ -246,5 +261,5 @@ button:focus-visible, select:focus-visible, input:focus-visible, a:focus-visible
   #app[data-card='true'] .sheet { display: none; }
   .marker span { font-size: 11.5px; }
   /* the layer list below names the colours; on a phone the 3D labels would cover the parts */
-  .marker-layername span, .marker-roomtag span { display: none; }
+  .marker-layername span { display: none; }
 }

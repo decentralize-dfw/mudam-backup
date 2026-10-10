@@ -9,6 +9,7 @@ import { EXHIBITIONS, OTHER_ROOMS } from './content/exhibitions.js';
 import './content/translations.js';
 import { i18n, t, pick } from './i18n.js';
 import { MaterialExplode, LAYERS, LAYER_COLOURS } from './engine/explode.js';
+import { WireMode } from './engine/wire.js';
 
 const BASE = './demo/';
 const $ = (s, r = document) => r.querySelector(s);
@@ -44,7 +45,7 @@ class App {
   constructor() {
     this.app = $('#app');
     this.stage = new Stage($('#viewport'), BASE);
-    this.s = { mode: 'building', floor: 'all', explode: false, plan: false, hotspot: null, exhibition: null, room: null, artwork: null, visit: false, mat: 'off', cevre: 1, hour: 13.5, day: 283, lights: false, lightsAuto: true };
+    this.s = { mode: 'building', floor: 'all', explode: false, plan: false, hotspot: null, exhibition: null, room: null, artwork: null, visit: false, mat: 'off', wire: false, cevre: 1, hour: 13.5, day: 283, lights: false, lightsAuto: true };
     this.pointer = { x: 0, y: 0, down: null };
     window.__mudam = this; // QA hook
     window.THREE = THREE;
@@ -74,6 +75,9 @@ class App {
     // material layers: patch the visible building band, then the trails
     this.mx = new MaterialExplode(this.stage.scene);
     this.stage.building.addHook(this.mx.hook);
+    this.wire = new WireMode(this.stage);
+    this.mx.wire = this.wire.uWire;
+    this.stage.onDaylight = () => { if (this.wire.amount > 0) this.wire.apply(); };
     for (const b of this.stage.building.sources[1]) this.mx.attach(b.group);
     this.mx.onChange = () => {
       this.stage.dirty = true;
@@ -111,6 +115,36 @@ class App {
     });
   }
 
+  // ------------------------------------------------------- line drawing
+  // White edges on black, hidden lines removed, for the exploded views.
+  async setWire(on) {
+    if (on && !(this.s.explode || this.s.mat !== 'off')) return;
+    if (this.s.wire === on) return;
+    this.s.wire = on;
+    this.syncControls();
+    if (on) this.buildWire();
+    this.applyVisibility();
+    await this.wire.set(on);
+  }
+
+  // Lines for whatever is loaded; the edges arrive from a worker, so the
+  // drawing fills in over the first moments.
+  buildWire() {
+    const st = this.stage, w = this.wire;
+    for (const bands of Object.values(st.building.sources)) w.buildBuilding(bands);
+    for (const root of [st.site, st.trees, st.cevre2?.site, st.cevre2?.trees, st.cevre2?.near, st.cevre2?.far]) w.buildRoot(root);
+    const c = st.context;
+    if (c.massing && !w.done.has(c.massing)) { w.done.add(c.massing); w.patchFill(c.massing.material); w.addExisting(c.edges, 0.2); }
+    if (c.ground) w.buildRoot(c.ground, { lines: false });
+    for (const g of Object.values(st.building.floorGroups)) w.buildRoot(g, { cos: Math.cos(Math.PI / 6), material: w.full ??= w.makeFull() });
+    for (const cap of Object.values(st.building.caps)) {
+      const lines = cap.group.children.find((o) => o.isLineSegments && !o.userData.wire);
+      if (lines && !w.done.has(lines)) { w.done.add(lines); w.addExisting(lines, 1); }
+    }
+    w.tint(st.arrows.material);
+    if (this.mx.arcLines) for (const line of [...Object.values(this.mx.arcLines), this.mx.baseLine]) w.tint(line.material);
+  }
+
   // ------------------------------------------------ Çevre 1 / Çevre 2
   // Çevre 1 is the model built from current.glb.gz (R149) with the model
   // site, trees and OSM massing; Çevre 2 the delivered R151 web set
@@ -129,13 +163,14 @@ class App {
       if (!this.cevre2Loading) {
         this.app.dataset.cevre2 = 'loading';
         button.setAttribute('aria-busy', 'true');
-        this.cevre2Loading = this.stage.loadCevre2(this.cevre2, (p) => button.style.setProperty('--p', `${Math.round(p * 100)}%`), () => this.applyVisibility())
+        this.cevre2Loading = this.stage.loadCevre2(this.cevre2, (p) => button.style.setProperty('--p', `${Math.round(p * 100)}%`), () => { this.applyVisibility(); if (this.s.wire) this.buildWire(); })
           .then(async () => {
             const bands = this.stage.building.sources[2];
             if (bands && this.mx) for (const b of bands) this.mx.attach(b.group);
             // interior lights already on reach the new building too
             this.stage.building.setLamps(this.stage.building.lampLevel);
             this.tuneSite(this.stage.cevre2.site, this.stage.cevre2.trees);
+            if (this.s.wire) this.buildWire();
             const pieces = await fetch(`${BASE}${this.cevre2.pieces}`).then((r) => (r.ok ? r.json() : null)).catch(() => null);
             if (pieces && this.mx) this.mx.build(pieces, 2);
             this.app.dataset.cevre2 = 'ready';
@@ -193,6 +228,7 @@ class App {
     $('#toggle-materials').addEventListener('click', () => this.setMaterials(this.s.mat === 'off' ? 'vertical' : 'off'));
     $$('#layer-panel [data-mat]').forEach((b) => b.addEventListener('click', () => this.setMaterials(b.dataset.mat)));
     $$('[data-cevre]').forEach((b) => b.addEventListener('click', () => this.setCevre(Number(b.dataset.cevre))));
+    $('#toggle-wire').addEventListener('click', () => this.setWire(!this.s.wire));
     $('#zoom-in').addEventListener('click', () => this.zoomBy(1.35));
     $('#zoom-out').addEventListener('click', () => this.zoomBy(1 / 1.35));
     $('#recentre').addEventListener('click', () => this.recentre());
@@ -415,6 +451,9 @@ class App {
     $$('#layer-panel [data-mat]').forEach((b) => b.setAttribute('aria-pressed', String(b.dataset.mat === this.s.mat)));
     this.app.dataset.materials = this.s.mat === 'off' ? 'off' : 'on';
     $('#toggle-explode').setAttribute('aria-pressed', String(this.s.explode));
+    $('#toggle-wire').setAttribute('aria-pressed', String(this.s.wire));
+    this.app.dataset.exploded = this.s.explode || this.s.mat !== 'off' ? 'on' : 'off';
+    this.app.dataset.wire = this.s.wire ? 'on' : 'off';
     $$('[data-cevre]').forEach((b) => b.setAttribute('aria-pressed', String(Number(b.dataset.cevre) === this.s.cevre)));
     $('#toggle-plan').setAttribute('aria-pressed', String(this.s.plan));
     this.app.dataset.visit = String(this.s.visit);
@@ -427,7 +466,10 @@ class App {
     // while the building is taken apart (floors or materials) the whole
     // surroundings model stays in place at 20 % opacity
     const exploded = this.s.explode || this.s.mat !== 'off';
-    st.setContextFade(exploded ? 0.2 : 1);
+    // the line drawing belongs to the exploded views
+    if (!exploded && this.s.wire) { this.s.wire = false; this.wire.set(false); this.syncControls(); }
+    // line drawing: the surroundings are solid black, their lines at 20 %
+    st.setContextFade(exploded ? (this.s.wire ? 1 : 0.2) : 1);
     const c2 = this.s.cevre === 2 && Boolean(st.cevre2);
     const treesOn = exploded || (!cut && !this.s.visit);
     // Çevre 1: model site, trees, OSM massing and ground drawing
@@ -450,7 +492,7 @@ class App {
     st.rooms.selected = this.s.room;
     st.rooms.refresh({ show: showRooms, exhibitionRooms: ex ? new Set(ex.rooms.map((r) => r.id)) : (this.s.mode === 'exhibitions' ? new Set(this.exhibitionOfRoom.keys()) : null) });
     st.artworks.setPlanMarkers(this.s.plan && !this.s.visit);
-    st.arrows.setVisible(this.s.explode && this.s.mode === 'building' && !this.s.visit);
+    st.arrows.setVisible(this.s.explode && !this.s.visit && this.s.mode !== 'surroundings');
     st.building.visitFloor = this.s.visit ? this.roomsById.get(this.s.room)?.floor : null;
     st.building.roofVisible = this.s.mode !== 'exhibitions';
     st.building.apply();
@@ -458,6 +500,7 @@ class App {
     if (this.s.visit) { st.scene.background = new THREE.Color(0xdfe3e1); }
     // rooms under glass are bright at midday: expose for the walls, not the sky
     st.renderer.toneMappingExposure = this.s.visit ? 0.8 : 1.0;
+    if (this.wire?.amount > 0) this.wire.apply();
     st.dirty = true;
   }
 
@@ -482,16 +525,6 @@ class App {
     }
     if (this.s.mode === 'surroundings') {
       SURROUNDING_HOTSPOTS.forEach((h, i) => m.add({ id: h.id, position: h.at, label: pick(h).title, index: i + 1, onClick: () => this.openHotspot(h.id) }).el.classList.add('labelled'));
-    } else if (this.s.mode === 'building' && this.s.explode) {
-      // storeys apart: every room's arrow carries its name from the plans
-      for (const r of this.data.rooms.rooms) {
-        m.add({
-          id: `tag:${r.id}`, kind: 'roomtag', position: this.stage.arrows.tip(r), label: r.label, lang: 'fr',
-          lift: () => this.stage.building.lift(r.floor),
-          visible: () => this.s.explode && this.s.mat === 'off' && this.stage.building.state === 'explode',
-          onClick: () => this.openRoom(r.id),
-        });
-      }
     } else if (this.s.mode === 'building' && !this.s.plan) {
       BUILDING_HOTSPOTS.forEach((h, i) => m.add({
         id: h.id, position: h.at, normal: h.n, label: pick(h).title, index: i + 1, kind: h.kind,
@@ -499,19 +532,26 @@ class App {
         onClick: () => this.openHotspot(h.id),
       }));
     }
-    if (this.s.mode === 'exhibitions' && !this.s.exhibition && this.s.explode) {
-      // overview: one pin per exhibition, on its first room
-      const pinRoom = { kaiho: 'galerie-est-1', vktrs: 'galerie-ouest-m1', forever: 'pavillon' };
-      for (const ex of EXHIBITIONS) {
-        const r = this.roomsById.get(pinRoom[ex.id] ?? ex.rooms[0].id);
+    if (this.s.explode && (this.s.mode === 'building' || this.s.mode === 'exhibitions')) {
+      // storeys apart: an upright arrow from the middle of every room, its
+      // name from the plans written on top (in the exhibitions, in the colour
+      // of the exhibition shown there)
+      const ex = EXHIBITIONS.find((e) => e.id === this.s.exhibition);
+      for (const r of this.data.rooms.rooms) {
+        const exOf = this.exhibitionOfRoom.get(r.id);
         const item = m.add({
-          id: `ex:${ex.id}`, kind: 'exhibition', position: [r.anchor[0], r.y + 3.4, r.anchor[1]],
-          label: `${ex.title} · ${pick(ex.subtitle)}`,
+          id: `room:${r.id}`, kind: 'roomtag', position: this.stage.arrows.tip(r), label: r.label, lang: 'fr',
           lift: () => this.stage.building.lift(r.floor),
-          onClick: () => this.openExhibition(ex.id),
+          visible: () => this.s.explode && this.s.mat === 'off' && this.stage.building.state === 'explode' && !this.stage.building.moving,
+          onClick: () => this.openRoom(r.id),
         });
-        item.el.style.setProperty('--room', ex.css);
+        if (this.s.mode === 'exhibitions') {
+          item.el.style.setProperty('--room', exOf?.css ?? '#8f948f');
+          item.el.classList.add('coloured');
+          if (ex ? exOf !== ex : !exOf) item.el.classList.add('dim');
+        }
       }
+      m.setActive(this.s.room ? `room:${this.s.room}` : null);
       return;
     }
     if (this.s.mode === 'exhibitions' || this.s.plan) {

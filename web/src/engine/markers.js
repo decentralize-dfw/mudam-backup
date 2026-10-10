@@ -69,7 +69,29 @@ export class Markers {
       it.el.style.opacity = it.el.classList.contains('active') ? 1 : (0.25 + 0.75 * facing).toFixed(2);
       it.el.classList.toggle('behind', facing < 0.5);
     }
-    for (const kind of ['layername', 'roomtag']) this.placeLabels(labels.filter((it) => it.kind === kind), width);
+    this.placeLabels(labels.filter((it) => it.kind === 'layername'), width);
+    this.placeTags(labels.filter((it) => it.kind === 'roomtag'));
+  }
+
+  // Room names: a small pill centred just above its arrow's tip. Where two
+  // would overlap, the later one moves up until it is clear of every pill
+  // already placed, so no name ever covers another.
+  placeTags(tags) {
+    tags.sort((a, b) => b.sy - a.sy);
+    const placed = [];
+    for (const it of tags) {
+      if (!it.w) { it.w = it.el.offsetWidth; it.h = it.el.offsetHeight; }
+      let y = it.sy - 3;
+      for (let pass = 0; pass < 60; pass++) {
+        const hit = placed.find((o) => Math.abs(o.x - it.sx) < (o.w + it.w) / 2 + 3 && Math.abs(o.y - y) < (o.h + it.h) / 2 + 2);
+        if (!hit) break;
+        y = hit.y - (hit.h + it.h) / 2 - 2;
+      }
+      placed.push({ x: it.sx, y, w: it.w, h: it.h });
+      // a thin leader joins a lifted name to its arrow
+      it.el.style.setProperty('--lead', `${Math.max(0, it.sy - 3 - y).toFixed(0)}px`);
+      it.el.style.transform = `translate3d(${it.sx.toFixed(1)}px, ${y.toFixed(1)}px, 0) translate(-50%, -100%)`;
+    }
   }
 
   // Layer names: no two pills on top of each other (pushed apart down the

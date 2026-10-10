@@ -69,7 +69,8 @@ export class Pipeline {
     renderer.clear();
     renderer.render(scene, camera);
     let source = this.sceneTarget;
-    if (this.ao && this.aoEnabled) {
+    // (off in the line drawing: it would grey the white edges at corners)
+    if (this.ao && this.aoEnabled && !this.aoOff) {
       this.ao.render(renderer, this.aoTarget, this.sceneTarget);
       source = this.aoTarget;
     }

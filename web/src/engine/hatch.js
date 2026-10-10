@@ -7,6 +7,8 @@ import * as THREE from 'three';
 export const SECTION_POCHE = { pitch: 0.16, duty: 0.07, ground: [0.055, 0.052, 0.05], ink: [0.42, 0.40, 0.37], strength: 0.6 };
 
 const HATCHES = new Set();
+// line drawing (wire mode): the poché fades to black with the rest
+export const hatchWire = { value: 0 };
 export function setHatchLight(level) {
   for (const m of HATCHES) m.uniforms.uLight.value = 0.55 + 0.45 * level;
 }
@@ -16,7 +18,7 @@ export function createHatchMaterial({ pitch, duty, ground, ink, strength }) {
   const material = new THREE.ShaderMaterial({
     side: THREE.DoubleSide,
     polygonOffset: true, polygonOffsetFactor: -2, polygonOffsetUnits: -2,
-    uniforms: { uLight: { value: 1 } },
+    uniforms: { uLight: { value: 1 }, uWire: hatchWire },
     vertexShader: /* glsl */`varying vec3 vWorld;
       void main() {
         vec4 world = modelMatrix * vec4(position, 1.0);
@@ -25,6 +27,7 @@ export function createHatchMaterial({ pitch, duty, ground, ink, strength }) {
       }`,
     fragmentShader: /* glsl */`varying vec3 vWorld;
       uniform float uLight;
+      uniform float uWire;
       const float INK = ${(2 * duty).toFixed(5)};
       float ruled(float x) { return floor(x) * INK + min(fract(x), INK); }
       void main() {
@@ -32,7 +35,7 @@ export function createHatchMaterial({ pitch, duty, ground, ink, strength }) {
         float w = max(fwidth(v), 1e-5);
         float hatch = clamp((ruled(v + 0.5 * w) - ruled(v - 0.5 * w)) / w, 0.0, 1.0);
         vec3 c = mix(vec3(${f(ground)}), vec3(${f(ink)}), hatch * ${strength.toFixed(2)});
-        gl_FragColor = vec4(c * uLight, 1.0);
+        gl_FragColor = vec4(c * uLight * (1.0 - uWire), 1.0);
       }`,
   });
   HATCHES.add(material);

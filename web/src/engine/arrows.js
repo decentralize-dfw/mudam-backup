@@ -20,6 +20,7 @@ export class RoomArrows {
 
   init(rooms) {
     const material = new THREE.MeshBasicMaterial({ color: new THREE.Color(0x1d2421) });
+    this.material = material;
     const shaft = new THREE.CylinderGeometry(0.16, 0.16, ARROW_HEIGHT - 1.4, 10).translate(0, (ARROW_HEIGHT - 1.4) / 2, 0);
     const head = new THREE.ConeGeometry(0.62, 1.6, 20).translate(0, ARROW_HEIGHT - 0.8, 0);
     const foot = new THREE.CircleGeometry(0.7, 28).rotateX(-Math.PI / 2).translate(0, 0.02, 0);
@@ -28,7 +29,12 @@ export class RoomArrows {
       if (!g) continue;
       const arrow = new THREE.Group();
       arrow.position.set(r.anchor[0], r.y + 0.05, r.anchor[1]);
-      for (const geo of [shaft, head, foot]) arrow.add(new THREE.Mesh(geo, material));
+      for (const geo of [shaft, head, foot]) {
+        const m = new THREE.Mesh(geo, material);
+        // white in the line drawing, not a black fill
+        m.userData.wire = true;
+        arrow.add(m);
+      }
       g.add(arrow);
     }
   }

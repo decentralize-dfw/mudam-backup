@@ -160,7 +160,7 @@ export class MaterialExplode {
     g.setAttribute('aEnd', new THREE.BufferAttribute(end, 1));
     g.setAttribute('color', new THREE.BufferAttribute(col, 3));
     const material = new THREE.ShaderMaterial({
-      uniforms: { ...this.uniforms, uHidden: { value: LAYERS.map((l) => (this.hidden.has(l) ? 1 : 0)) } },
+      uniforms: { ...this.uniforms, uWire: this.wire ?? { value: 0 }, uHidden: { value: LAYERS.map((l) => (this.hidden.has(l) ? 1 : 0)) } },
       transparent: true,
       depthWrite: false,
       vertexShader: /* glsl */`${GLSL}
@@ -180,6 +180,7 @@ export class MaterialExplode {
       fragmentShader: /* glsl */`
         uniform float uVert;
         uniform float uRad;
+        uniform float uWire;
         varying float vDist;
         varying vec3 vColour;
         varying float vHide;
@@ -187,7 +188,8 @@ export class MaterialExplode {
           if (vHide > 0.5) discard;
           if (mod(vDist, 3.4) > 2.0) discard;
           float a = smoothstep(0.05, 0.6, max(uVert, uRad));
-          gl_FragColor = vec4(vColour, 0.6 * a);
+          // white in the line drawing
+          gl_FragColor = vec4(mix(vColour, vec3(0.92), uWire), mix(0.6, 0.75, uWire) * a);
         }`,
     });
     const trails = new THREE.LineSegments(g, material);

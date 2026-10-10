@@ -147,7 +147,7 @@ export class Building {
     material.onBeforeCompile = (shader, renderer) => {
       prev?.call(material, shader, renderer);
       Object.assign(shader.uniforms, band.uniforms);
-      for (const hook of this.hooks) hook(shader);
+      for (const hook of this.hooks) hook(shader, material, kind);
       shader.vertexShader = shader.vertexShader
         .replace('#include <common>', '#include <common>\nuniform float uBandDy;\nvarying float vBandY;')
         // height before the band's lift and before the hooks move the part

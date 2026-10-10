@@ -122,10 +122,10 @@ function orientation(triangles) {
   return { flat: total ? flat / total : 0, upright: total ? upright / total : 0 };
 }
 
-function* nodeTriangles(node) {
+function* nodeTriangles(node, prims = node.getMesh().listPrimitives()) {
   const M = node.getWorldMatrix();
   const w = (a, i) => [M[0] * a[i] + M[4] * a[i + 1] + M[8] * a[i + 2] + M[12], M[1] * a[i] + M[5] * a[i + 1] + M[9] * a[i + 2] + M[13], M[2] * a[i] + M[6] * a[i + 1] + M[10] * a[i + 2] + M[14]];
-  for (const prim of node.getMesh().listPrimitives()) {
+  for (const prim of prims) {
     const a = prim.getAttribute('POSITION').getArray();
     const idx = prim.getIndices()?.getArray();
     const n = idx ? idx.length : a.length / 3;
@@ -167,11 +167,26 @@ function classify(part) {
   return 'walls';
 }
 
+// What one surface's own material says when that is decisive: glass, steel,
+// or a floor finish lying at a storey's floor level. A part that mixes them
+// (the foyer ceiling volume whose top is the ground floor's finish) is split
+// along its materials. null: the part's own layer stands.
+const FRAME_METAL = /DARK_COATING|FRAME_PREVIEW|TENSION_ROD|GREY_METAL|MULLION|GLAZING_SEAL/;
+function materialLayer(material, part) {
+  const m = material.toUpperCase();
+  if (/GLASS|GLAZING/.test(m) && !/FRAME|SEAL|BEAD/.test(m)) return 'glass';
+  const plate = part.flat >= 0.8 && part.hi[1] - part.lo[1] <= 0.6;
+  // steel is frames, unless it is a plate walked on (a grating, a tread)
+  if (FRAME_METAL.test(m)) return plate && WALKED.test(`${part.name} ${part.type ?? ''}`.toUpperCase()) ? 'floors' : 'frames';
+  if (/FLOOR/.test(m) && plate && FLOOR_LEVELS.some((f) => Math.abs(part.hi[1] - f) <= 0.3)) return 'floors';
+  return null;
+}
+
 // World-space box of a node's mesh (root-level nodes: local = world).
-function nodeBox(node) {
+function nodeBox(node, prims = node.getMesh().listPrimitives()) {
   const m = node.getWorldMatrix();
   const lo = [Infinity, Infinity, Infinity], hi = [-Infinity, -Infinity, -Infinity];
-  for (const prim of node.getMesh().listPrimitives()) {
+  for (const prim of prims) {
     const a = prim.getAttribute('POSITION');
     const mn = a.getMin([]), mx = a.getMax([]);
     for (const x of [mn[0], mx[0]]) for (const y of [mn[1], mx[1]]) for (const z of [mn[2], mx[2]]) {
@@ -210,7 +225,7 @@ function smoothNormals(doc, prim) {
 // layer so a layer can be hidden.
 const CELL = 8;
 const storeyOf = (y) => (y < -0.4 ? 0 : y < 4.5 ? 1 : y < 9.6 ? 2 : 3);
-const audit = [];
+const audit = [], audit2 = [];
 function bakePieces(doc, group, piecesFile) {
   const buffer = doc.getRoot().listBuffers()[0];
   const layerNodes = Object.fromEntries(LAYERS.map((l) => {
@@ -223,17 +238,36 @@ function bakePieces(doc, group, piecesFile) {
     if (node.getName().startsWith('LAYER_')) continue;
     const mesh = node.getMesh();
     if (!mesh) continue;
-    const materials = mesh.listPrimitives().map((p) => p.getMaterial()?.getName() ?? '');
+    const prims = mesh.listPrimitives();
+    const materials = prims.map((p) => p.getMaterial()?.getName() ?? '');
     const { lo, hi } = nodeBox(node);
     const info = { name: node.getName(), type: node.getExtras()?.element_type, materials, lo, hi, ...orientation(nodeTriangles(node)) };
     const layer = classify(info);
-    // AUDIT=file.tsv: one row per part, to check the classification
-    if (process.env.AUDIT) audit.push([info.name, info.type, materials.join('|'), ...lo.map((v) => v.toFixed(2)), ...hi.map((v) => v.toFixed(2)), info.flat.toFixed(2), info.upright.toFixed(2), layer].join('\t'));
-    const c = lo.map((v, k) => (v + hi[k]) / 2);
-    const diag = Math.hypot(hi[0] - lo[0], hi[1] - lo[1], hi[2] - lo[2]);
-    const li = LAYERS.indexOf(layer);
-    const key = diag > 2 * CELL ? `own:${parts.length}` : `${li}:${Math.floor(c[0] / CELL)}:${Math.floor(c[2] / CELL)}:${storeyOf(c[1])}`;
-    parts.push({ node, mesh, layer, li, lo, hi, c, w: Math.max(diag, 0.05), key });
+    // a surface of a mixed part whose own material says otherwise is a part
+    // of its own (checked overrides keep the whole part together)
+    const byLayer = new Map([[layer, []]]);
+    const named = NAMED.some(([re]) => re.test(info.name));
+    prims.forEach((prim, i) => {
+      let l = layer;
+      if (prims.length > 1 && !named) {
+        const box = nodeBox(node, [prim]);
+        l = materialLayer(materials[i], { name: info.name, type: info.type, ...box, ...orientation(nodeTriangles(node, [prim])) }) ?? layer;
+      }
+      if (!byLayer.has(l)) byLayer.set(l, []);
+      byLayer.get(l).push(prim);
+    });
+    for (const [l, list] of byLayer) {
+      if (!list.length) continue;
+      const target = l === layer ? node : doc.createNode(`${node.getName()}#${l}`).setMatrix(node.getMatrix());
+      const box = list.length === prims.length ? { lo, hi } : nodeBox(node, list);
+      // AUDIT=file.tsv: one row per part, to check the classification
+      if (process.env.AUDIT) audit.push([target.getName(), info.type, list.map((p) => p.getMaterial()?.getName() ?? '').join('|'), ...box.lo.map((v) => v.toFixed(2)), ...box.hi.map((v) => v.toFixed(2)), info.flat.toFixed(2), info.upright.toFixed(2), l].join('\t'));
+      const c = box.lo.map((v, k) => (v + box.hi[k]) / 2);
+      const diag = Math.hypot(box.hi[0] - box.lo[0], box.hi[1] - box.lo[1], box.hi[2] - box.lo[2]);
+      const li = LAYERS.indexOf(l);
+      const key = diag > 2 * CELL ? `own:${parts.length}` : `${li}:${Math.floor(c[0] / CELL)}:${Math.floor(c[2] / CELL)}:${storeyOf(c[1])}`;
+      parts.push({ node: target, own: target === node, prims: list, mesh, layer: l, li, lo: box.lo, hi: box.hi, c, w: Math.max(diag, 0.05), key });
+    }
   }
   // fragments: weighted centre of their parts, size = diagonal of their box
   const frags = new Map();
@@ -250,7 +284,7 @@ function bakePieces(doc, group, piecesFile) {
     const f = frags.get(p.key);
     // meshes reused by several nodes get their own copy before tagging
     const unique = doc.createMesh(p.mesh.getName());
-    for (const prim of p.mesh.listPrimitives()) {
+    for (const prim of p.prims) {
       const q = prim.clone();
       const n = q.getAttribute('POSITION').getCount();
       const data = new Float32Array(n * 4);
@@ -259,7 +293,7 @@ function bakePieces(doc, group, piecesFile) {
       unique.addPrimitive(q);
     }
     p.node.setMesh(unique);
-    group.removeChild(p.node);
+    if (p.own) group.removeChild(p.node);
     layerNodes[p.layer].addChild(p.node);
     counts[p.layer]++;
   }
@@ -354,7 +388,8 @@ async function buildR151Building(source, piecesFile) {
     const materials = mesh.listPrimitives().map((p) => p.getMaterial()?.getName() ?? '');
     const { lo, hi } = nodeBox(n);
     const layer = classify({ name: n.getName(), type: n.getExtras()?.element_type, materials, lo, hi, ...orientation(nodeTriangles(n)) });
-    return { chunk: chunkOf(n.getName(), n.getExtras()), layer, lo, hi, vol: (hi[0] - lo[0]) * (hi[1] - lo[1]) * (hi[2] - lo[2]) };
+    const named = NAMED.some(([re]) => re.test(n.getName()));
+    return { name: n.getName(), type: n.getExtras()?.element_type, materials, named, chunk: chunkOf(n.getName(), n.getExtras()), layer, lo, hi, vol: (hi[0] - lo[0]) * (hi[1] - lo[1]) * (hi[2] - lo[2]) };
   });
   const containing = (c) => {
     let best = -1;
@@ -414,16 +449,35 @@ async function buildR151Building(source, piecesFile) {
     for (const [r, c] of comps) {
       let ni = -1, best = 0;
       for (const [n, k] of c.votes) if (k > best) { best = k; ni = n; }
-      let id, chunk, layer;
+      let id, chunk, layer, how;
+      const own = orientation(c.tris);
+      const piece = { lo: c.lo, hi: c.hi, ...own };
       if (ni >= 0 && best >= 0.3 * c.n) {
-        id = `n${ni}`; ({ chunk, layer } = refParts[ni]);
+        // the R149 part it came from; a mixed part splits along materials
+        // exactly as in Çevre 1
+        const ref = refParts[ni];
+        id = `n${ni}`; ({ chunk, layer } = ref); how = `match:${ref.name}`;
+        const m = ref.materials.length > 1 && !ref.named ? materialLayer(material, { name: ref.name, type: ref.type, ...piece }) : null;
+        if (m && m !== layer) { layer = m; id += `#${m}`; how += `#${m}`; }
       } else {
+        // changed after R149: the R149 part around it lends its layer only
+        // when it is the same material (a re-tessellated rod inside its own
+        // rod); otherwise its own material and shape decide
         const centre = c.lo.map((v, k) => (v + c.hi[k]) / 2);
         const hold = /ACT_GROUND/.test(material) ? -1 : containing(centre);
-        id = hold >= 0 ? `n${hold}` : `p${pi}:${r}`;
-        chunk = hold >= 0 ? refParts[hold].chunk : /GROUND|TURF|MOAT|TERRAIN/.test(material) ? 'site' : 'building';
-        layer = hold >= 0 ? refParts[hold].layer : classify({ name: '', type: '', materials: [material], lo: c.lo, hi: c.hi, ...orientation(c.tris) });
+        const ref = hold >= 0 ? refParts[hold] : null;
+        chunk = ref ? ref.chunk : /GROUND|TURF|MOAT|TERRAIN/.test(material) ? 'site' : 'building';
+        if (ref && ref.materials.includes(material)) {
+          id = `n${hold}`; layer = ref.layer; how = `inside:${ref.name}`;
+        } else {
+          // inside a stair (or anything walked on): part of it
+          const walked = ref && WALKED.test(`${ref.name} ${ref.type ?? ''}`.toUpperCase()) && ref.layer === 'floors';
+          layer = materialLayer(material, { name: ref?.name ?? '', type: ref?.type ?? '', ...piece })
+            ?? (walked ? 'floors' : classify({ name: '', type: '', materials: [material], ...piece }));
+          id = `p${pi}:${r}`; how = `own${ref ? `(in ${ref.name})` : ''}`;
+        }
       }
+      if (process.env.AUDIT2) audit2.push([how, material, ...c.lo.map((v) => v.toFixed(2)), ...c.hi.map((v) => v.toFixed(2)), own.flat.toFixed(2), own.upright.toFixed(2), c.tris.length, chunk, layer].join('\t'));
       c.id = id;
       c.tris = null;
       let part = parts.get(id);
@@ -439,6 +493,7 @@ async function buildR151Building(source, piecesFile) {
     triPart[pi] = tp;
   });
   console.log(`R151 building: ${prims.length} primitives, ${totalTris} triangles, ${parts.size} parts, ${(100 * matchedTris / totalTris).toFixed(1)} % of triangles matched to R149 parts by vertex`);
+  if (process.env.AUDIT2) fs.writeFileSync(process.env.AUDIT2, ['how\tmaterial\tx0\ty0\tz0\tx1\ty1\tz1\tflat\tupright\ttris\tchunk\tlayer', ...audit2].join('\n'));
 
   // --- fragments for the exploded views, as bakePieces does for Çevre 1
   const frags = new Map();

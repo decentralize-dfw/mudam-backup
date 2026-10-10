@@ -19,7 +19,7 @@ export class Tweens {
   get active() { return this.items.size > 0; }
   update(now) {
     for (const item of [...this.items]) {
-      const t = Math.min(1, (now - item.start) / item.ms);
+      const t = Math.max(0, Math.min(1, (now - item.start) / item.ms));
       item.fn(item.curve(t));
       if (t >= 1) { this.items.delete(item); item.resolve(true); }
     }

@@ -62,9 +62,15 @@ export class Stage {
     this.raycaster = new THREE.Raycaster();
     this.frameHooks = new Set();
     this.dirty = true;
+    // the ACT surroundings are photo meshes without lighting of their own:
+    // they take the daylight as a colour (dark blue night, warm low sun)
+    this.dayTint = { value: new THREE.Color(1, 1, 1) };
     this.daylight.onChange = (d) => {
       setHatchLight(d.level);
       if (this.rig.mode === 'ortho') this.scene.background = d.backgroundColor(new THREE.Color());
+      const warm = new THREE.Color(1, 1, 1).lerp(d.sun.color, 0.45 * Math.sin(Math.PI * Math.min(1, d.level)));
+      this.dayTint.value.setRGB(0.07, 0.085, 0.14).lerp(new THREE.Color(1, 1, 1), d.level).multiply(warm);
+      this.onDaylight?.(d);
       this.dirty = true;
     };
     this.resize();
@@ -136,6 +142,7 @@ export class Stage {
         // the far context is too large to cast into the sun's shadow map
         o.castShadow = key !== 'far';
         o.material.side = THREE.DoubleSide;
+        if (o.material.isMeshBasicMaterial) this.daylit(o.material);
       });
       root.visible = false;
       this.scene.add(root);
@@ -159,6 +166,20 @@ export class Stage {
       }).catch((e) => console.warn('Çevre 2 far context', e));
     }
     return set;
+  }
+
+  // An unlit (photo) material follows the daylight.
+  daylit(material) {
+    if (material.userData.daylit) return;
+    material.userData.daylit = true;
+    material.onBeforeCompile = (shader) => {
+      shader.uniforms.uDayTint = this.dayTint;
+      shader.fragmentShader = shader.fragmentShader
+        .replace('#include <common>', '#include <common>\nuniform vec3 uDayTint;')
+        .replace('#include <opaque_fragment>', 'outgoingLight *= uDayTint;\n#include <opaque_fragment>');
+    };
+    material.customProgramCacheKey = () => 'act-daylit';
+    material.needsUpdate = true;
   }
 
   // Everything around the building, both model sets, loaded or not yet.
