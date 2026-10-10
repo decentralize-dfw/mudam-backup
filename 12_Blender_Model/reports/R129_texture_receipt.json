@@ -1,0 +1,43 @@
+{
+  "files": [
+    {
+      "path": "12_Blender_Model/textures/R129_historic_masonry_basecolor.png",
+      "sha256": "ab65ad98a27a42184b6a07c0dbfec3040670cb07e2b213f1119d2a8fa145721d"
+    },
+    {
+      "path": "12_Blender_Model/textures/R129_historic_masonry_normal.png",
+      "sha256": "d5145f1e5463d14543dd60eb33fae83b8920ffded37e5a20aa8fc414be993c7d"
+    },
+    {
+      "path": "12_Blender_Model/textures/R129_historic_masonry_roughness.png",
+      "sha256": "6eea749863cd65f2bdd97814d0f8c5b5ecdb1a0e0f104f23dcecca65d266c088"
+    },
+    {
+      "path": "12_Blender_Model/textures/R129_moat_turf_basecolor.png",
+      "sha256": "079ce0a2d3cb20beea32090845b8afe80b9c063185a90a0afabe797721bd3ab3"
+    },
+    {
+      "path": "12_Blender_Model/textures/R129_moat_turf_normal.png",
+      "sha256": "c59342ec1f54e2a6491c4e5d4cad7a3720194ea3c4490e5a79577726a7964b5e"
+    },
+    {
+      "path": "12_Blender_Model/textures/R129_moat_turf_roughness.png",
+      "sha256": "9f5cde9aeed427b1fa88333f39c2c3b682b6839ced24f4b31f3cf02b3bdcfbfb"
+    }
+  ],
+  "source_ids": [
+    "063",
+    "065",
+    "116"
+  ],
+  "repeat_m": [
+    4.0,
+    3.0
+  ],
+  "resolution": [
+    2048,
+    1536
+  ],
+  "measured": false,
+  "limits": "Procedural appearance only. No reconstructed individual stone, material product, vegetation species, surveyed colour or geometric relief."
+}

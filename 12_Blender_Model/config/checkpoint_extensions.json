@@ -1753,5 +1753,24 @@
     "image": "R128_after_upper_join.png",
     "description": "Okuma odasının eğimli örtüsü ile doğu odasının düz örtüsü arasındaki yinelenen hacim ayrıldı.",
     "limits": "Bir mevcut örtü değişti; yeni nesne veya mimari boyut yok. Birleşik dış sınır korunumu örneklendi; bütün bina kabulü değildir."
+  },
+  {
+    "id": "R129",
+    "checks": [
+      "R129_verification.json",
+      "R129_global_audit.json",
+      "R129_inherited_verification.json",
+      "R129_visual_verification.json"
+    ],
+    "tasks": [
+      "P13",
+      "P18",
+      "P19"
+    ],
+    "report": "R129_KONTROL_RAPORU.md",
+    "title": "Tarihî taş ve hendek malzemeleri / R129",
+    "image": "R129_after_context.png",
+    "description": "28 mevcut çevre parçasında tarihî taş ve hendek çimi için renk, normal ve pürüzlülük dokuları yenilendi.",
+    "limits": "Geometri ve UV değişmedi. 4x3m tekrar önceki aday ölçüdür; tekil taş, bitki türü ve fiziksel renk doğrulaması yok. Bina veya tüm çevre tamamlanmış değildir."
   }
 ]

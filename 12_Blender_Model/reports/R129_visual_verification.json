@@ -1,0 +1,23 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R129_TARIHI_TAS_VE_HENDEK_MALZEME_v002.blend",
+  "reviewed_images": [
+    {
+      "path": "12_Blender_Model/renders/qa/R129_before_context.png",
+      "sha256": "7db7ae3e679f6180ada45d87c8543971e687902b2855f0f1c5b976e01ef7f003"
+    },
+    {
+      "path": "12_Blender_Model/renders/qa/R129_before_detail.png",
+      "sha256": "717b276bddf74d5ac30a6b2055e2b0c3f0fdab42515d5781eeea88ac44728cfa"
+    },
+    {
+      "path": "12_Blender_Model/renders/qa/R129_after_context.png",
+      "sha256": "999323cec7547aeb7f83d55433620a282f6e1e83b91bfa53fd6f999d5bd73fb5"
+    },
+    {
+      "path": "12_Blender_Model/renders/qa/R129_after_detail.png",
+      "sha256": "63a4559fea16fc49b8e55852746cdb240b369bb358f833dd93e64f944e4d896f"
+    }
+  ],
+  "failures": [],
+  "scope": "Four same-camera images opened and compared with source063; v001 turf repetition rejected; v002 wrap continuity improved. Surface candidate, not photographic colour calibration."
+}

@@ -1,6 +1,6 @@
 {
-  "source_scene": "12_Blender_Model/scenes/MUDAM_R128_OKUMA_DOGU_ODA_ORTU_BIRLESIM_v001.blend",
-  "file": "12_Blender_Model/exports/MUDAM_R128_OKUMA_DOGU_ODA_ORTU_BIRLESIM_v001_preview_compact.glb",
+  "source_scene": "12_Blender_Model/scenes/MUDAM_R129_TARIHI_TAS_VE_HENDEK_MALZEME_v002.blend",
+  "file": "12_Blender_Model/exports/MUDAM_R129_TARIHI_TAS_VE_HENDEK_MALZEME_v002_preview_compact.glb",
   "selected_mesh_count": 8477,
   "selected_names": [
     "R37_GH_EAST_PORTAL_METAL_HEAD",
@@ -8499,7 +8499,5 @@
     "Generic sky lighting is not embedded in GLB. Material response depends on viewer support for transmission.",
     "Element IDs retained; optimization and target engine review remain open."
   ],
-  "construction_acceptance": false,
-  "uncompacted_file": "12_Blender_Model/exports/MUDAM_R128_OKUMA_DOGU_ODA_ORTU_BIRLESIM_v001_preview.glb",
-  "buffer_optimization": "12_Blender_Model/reports/P21_buffer_optimization.json"
+  "construction_acceptance": false
 }

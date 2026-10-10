@@ -473,7 +473,7 @@
       "updated": "2026-10-08",
       "dependency_mode": "regional_study_only_no_global_acceptance",
       "artifacts": [
-        "12_Blender_Model/scenes/MUDAM_R128_OKUMA_DOGU_ODA_ORTU_BIRLESIM_v001.blend",
+        "12_Blender_Model/scenes/MUDAM_R129_TARIHI_TAS_VE_HENDEK_MALZEME_v002.blend",
         "12_Blender_Model/reports/R12_BATI_DUZ_CAM_RAPORU.md",
         "12_Blender_Model/reports/R13_PAVYON_CAM_RAPORU.md",
         "12_Blender_Model/reports/R26_DOGU_CATI_BAGLANTI_RAPORU.md",
@@ -572,11 +572,12 @@
         "Taş modülü, derz, renk, yön ve0,65m bant genişliği ölçülmemiş görünüm adayları.",
         "Renk, derz, malzeme bileşimi ve çizgisel yüzey derinliği ölçülmedi; saçak kotu koşullu.",
         "Örgü tipi fotoğraftan;200×50mm modül,derz,renk ve yön aday.",
-        "900mm hücre,1,2mm derz,yön ve desen aday; fotoğraf dizimi birebir izlenmedi."
+        "900mm hücre,1,2mm derz,yön ve desen aday; fotoğraf dizimi birebir izlenmedi.",
+        "Geometri ve UV değişmedi. 4x3m tekrar önceki aday ölçüdür; tekil taş, bitki türü ve fiziksel renk doğrulaması yok. Bina veya tüm çevre tamamlanmış değildir."
       ],
       "artifacts": [
-        "12_Blender_Model/scenes/MUDAM_R67_GECIT_TAS_DOSEME_v001.blend",
-        "12_Blender_Model/reports/R67_KONTROL_RAPORU.md",
+        "12_Blender_Model/scenes/MUDAM_R129_TARIHI_TAS_VE_HENDEK_MALZEME_v002.blend",
+        "12_Blender_Model/reports/R129_KONTROL_RAPORU.md",
         "12_Blender_Model/reports/R32_TAS_AHSAP_RAPORU.md",
         "12_Blender_Model/reports/R43_KONTROL_RAPORU.md",
         "12_Blender_Model/reports/R46_KONTROL_RAPORU.md",
@@ -585,14 +586,16 @@
         "12_Blender_Model/reports/R55_KONTROL_RAPORU.md",
         "12_Blender_Model/reports/R59_KONTROL_RAPORU.md",
         "12_Blender_Model/reports/R60_KONTROL_RAPORU.md",
-        "12_Blender_Model/reports/R62_KONTROL_RAPORU.md"
+        "12_Blender_Model/reports/R62_KONTROL_RAPORU.md",
+        "12_Blender_Model/reports/R67_KONTROL_RAPORU.md"
       ],
       "completed_scope": [
         "Taş cephe/zemin, iki ana merdiven mineral yüzeyleri, galeri nişi ve tarihî örgü UV adayları işlendi.",
         "Mevcut döşemede50 yüz: koyu taş ve açık kenar bandı. Yüzey/hacim karşılaştırması ve204 yaklaşım örneği geçti.",
         "20 nesne ve175 yüzün malzeme/UV adayı;7.942 nesnenin hesaplanan geometrisi değişmedi.",
         "013 yakın çekimiyle R59 şaşırtmalı örgüsü değiştirildi;17 yüz ve bütün sahnede geometri eşitliği kontrolü geçti.",
-        "067 ile iki üst yüzün taş görünümü işlendi. Bütün sahnede hesaplanan geometri aynı; UV ve doku kontrolleri geçti."
+        "067 ile iki üst yüzün taş görünümü işlendi. Bütün sahnede hesaplanan geometri aynı; UV ve doku kontrolleri geçti.",
+        "28 mevcut çevre parçasında tarihî taş ve hendek çimi için renk, normal ve pürüzlülük dokuları yenilendi."
       ],
       "coverage_as_of": "R55"
     },
@@ -637,7 +640,7 @@
       "updated": "2026-10-08",
       "dependency_mode": "regional_checkpoint_no_global_acceptance",
       "artifacts": [
-        "12_Blender_Model/scenes/MUDAM_R128_OKUMA_DOGU_ODA_ORTU_BIRLESIM_v001.blend",
+        "12_Blender_Model/scenes/MUDAM_R129_TARIHI_TAS_VE_HENDEK_MALZEME_v002.blend",
         "12_Blender_Model/reports/P19_P21_ONIZLEME_RAPORU.md",
         "12_Blender_Model/reports/R34_GIRIS_KOPRULERI_RAPORU.md",
         "12_Blender_Model/reports/R48_KONTROL_RAPORU.md",
@@ -790,7 +793,7 @@
       "updated": "2026-10-08",
       "dependency_mode": "regional_checkpoint_no_global_acceptance",
       "artifacts": [
-        "12_Blender_Model/scenes/MUDAM_R128_OKUMA_DOGU_ODA_ORTU_BIRLESIM_v001.blend",
+        "12_Blender_Model/scenes/MUDAM_R129_TARIHI_TAS_VE_HENDEK_MALZEME_v002.blend",
         "12_Blender_Model/reports/P19_P21_ONIZLEME_RAPORU.md",
         "12_Blender_Model/reports/R08_OKUMA_TAVANI_RAPORU.md",
         "12_Blender_Model/reports/R09_OKUMA_MEKANI_RAPORU.md",
@@ -855,11 +858,12 @@
         "İç uçlar kolon yüzüne bağlı yerel aday;1,055/1,534m OSM farkı kaydedildi. Çap, aralık, kalınlık ve montaj ölçülmedi.",
         "Taş modülü, derz, renk, yön ve0,65m bant genişliği ölçülmemiş görünüm adayları.",
         "Örgü tipi fotoğraftan;200×50mm modül,derz,renk ve yön aday.",
-        "Genişlik ve düz kotlar R35 adayı; arazi ölçümü değil. Diğer kollar ve tarihî ayrıntılar açık."
+        "Genişlik ve düz kotlar R35 adayı; arazi ölçümü değil. Diğer kollar ve tarihî ayrıntılar açık.",
+        "Geometri ve UV değişmedi. 4x3m tekrar önceki aday ölçüdür; tekil taş, bitki türü ve fiziksel renk doğrulaması yok. Bina veya tüm çevre tamamlanmış değildir."
       ],
       "artifacts": [
-        "12_Blender_Model/scenes/MUDAM_R68_PAVYON_HENDEK_KOLU_v001.blend",
-        "12_Blender_Model/reports/R68_KONTROL_RAPORU.md",
+        "12_Blender_Model/scenes/MUDAM_R129_TARIHI_TAS_VE_HENDEK_MALZEME_v002.blend",
+        "12_Blender_Model/reports/R129_KONTROL_RAPORU.md",
         "12_Blender_Model/reports/R34_GIRIS_KOPRULERI_RAPORU.md",
         "12_Blender_Model/reports/R35_HENDEK_CEVRE_RAPORU.md",
         "12_Blender_Model/reports/R38_KONTROL_RAPORU.md",
@@ -867,7 +871,8 @@
         "12_Blender_Model/reports/R56_KONTROL_RAPORU.md",
         "12_Blender_Model/reports/R58_KONTROL_RAPORU.md",
         "12_Blender_Model/reports/R59_KONTROL_RAPORU.md",
-        "12_Blender_Model/reports/R62_KONTROL_RAPORU.md"
+        "12_Blender_Model/reports/R62_KONTROL_RAPORU.md",
+        "12_Blender_Model/reports/R68_KONTROL_RAPORU.md"
       ],
       "completed_scope": [
         "İlk hendek/tarihî duvar sınırları, köprü/yaklaşım yolları,19 OSM ağaç konumu ve tarihî taş/çim görünümü mevcut.",
@@ -875,7 +880,8 @@
         "008/011/012 ile ince üç çubuk adayı değiştirildi:62 kapalı boru/levha/cam/kanal;160 taban desteği ve204 yaklaşım örneği geçti.",
         "Mevcut döşemede50 yüz: koyu taş ve açık kenar bandı. Yüzey/hacim karşılaştırması ve204 yaklaşım örneği geçti.",
         "013 yakın çekimiyle R59 şaşırtmalı örgüsü değiştirildi;17 yüz ve bütün sahnede geometri eşitliği kontrolü geçti.",
-        "İki OSM duvar zinciri: altı duvar ve zemin.30 duvar/440 zemin ışını ve pavyon kesişim kontrolü geçti."
+        "İki OSM duvar zinciri: altı duvar ve zemin.30 duvar/440 zemin ışını ve pavyon kesişim kontrolü geçti.",
+        "28 mevcut çevre parçasında tarihî taş ve hendek çimi için renk, normal ve pürüzlülük dokuları yenilendi."
       ],
       "coverage_as_of": "R55"
     },
@@ -901,13 +907,14 @@
         "32 adet sekiz göze uygulanan tekrar adayı; çap, kot, ürün ve fotometri doğrulanmadı.",
         "900mm hücre,1,2mm derz,yön ve desen aday; fotoğraf dizimi birebir izlenmedi.",
         "Yedi konum ve180mm çap kısmi aday; tam yerleşim,ürün ve fotometri doğrulanmadı.",
-        "Sayı, konum, ürün kesiti ve20 derece yönlenme kısmi aday; tam aydınlatma planı ve fotometri açık."
+        "Sayı, konum, ürün kesiti ve20 derece yönlenme kısmi aday; tam aydınlatma planı ve fotometri açık.",
+        "Geometri ve UV değişmedi. 4x3m tekrar önceki aday ölçüdür; tekil taş, bitki türü ve fiziksel renk doğrulaması yok. Bina veya tüm çevre tamamlanmış değildir."
       ],
       "updated": "2026-10-08",
       "dependency_mode": "regional_checkpoint_no_global_acceptance",
       "artifacts": [
-        "12_Blender_Model/scenes/MUDAM_R128_OKUMA_DOGU_ODA_ORTU_BIRLESIM_v001.blend",
-        "12_Blender_Model/reports/P19_P21_ONIZLEME_RAPORU.md",
+        "12_Blender_Model/scenes/MUDAM_R129_TARIHI_TAS_VE_HENDEK_MALZEME_v002.blend",
+        "12_Blender_Model/reports/R129_KONTROL_RAPORU.md",
         "12_Blender_Model/reports/R32_TAS_AHSAP_RAPORU.md",
         "12_Blender_Model/reports/R43_KONTROL_RAPORU.md",
         "12_Blender_Model/reports/R46_KONTROL_RAPORU.md",
@@ -935,7 +942,8 @@
         "067/068 ile 130 yeni parça; 146 bağlantı ve 32 lens açıklığı kontrolü geçti. 7.634 görünür mesh.",
         "067 ile iki üst yüzün taş görünümü işlendi. Bütün sahnede hesaplanan geometri aynı; UV ve doku kontrolleri geçti.",
         "28 yeni parça ve yedi yuva;29 hacim,119 ışın ve genel geometri kontrolü geçti.",
-        "İki ray, sekiz başlık ve86 kapalı parça;194 ışın/80 bağlantı ve genel geometri kontrolü geçti."
+        "İki ray, sekiz başlık ve86 kapalı parça;194 ışın/80 bağlantı ve genel geometri kontrolü geçti.",
+        "28 mevcut çevre parçasında tarihî taş ve hendek çimi için renk, normal ve pürüzlülük dokuları yenilendi."
       ],
       "coverage_as_of": "R55"
     },
@@ -975,7 +983,7 @@
       "updated": "2026-10-08",
       "dependency_mode": "regional_checkpoint_no_global_acceptance",
       "artifacts": [
-        "12_Blender_Model/scenes/MUDAM_R128_OKUMA_DOGU_ODA_ORTU_BIRLESIM_v001.blend",
+        "12_Blender_Model/scenes/MUDAM_R129_TARIHI_TAS_VE_HENDEK_MALZEME_v002.blend",
         "12_Blender_Model/reports/P19_P21_ONIZLEME_RAPORU.md"
       ]
     },
@@ -1027,7 +1035,7 @@
     "P21",
     "P22"
   ],
-  "latest_scene": "12_Blender_Model/scenes/MUDAM_R128_OKUMA_DOGU_ODA_ORTU_BIRLESIM_v001.blend",
+  "latest_scene": "12_Blender_Model/scenes/MUDAM_R129_TARIHI_TAS_VE_HENDEK_MALZEME_v002.blend",
   "scope_constraints": {
     "priority": "Bina ve kalıcı mimari sistemler",
     "excluded": [

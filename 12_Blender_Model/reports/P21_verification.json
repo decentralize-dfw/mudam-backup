@@ -1,6 +1,6 @@
 {
-  "file": "12_Blender_Model/exports/MUDAM_R128_OKUMA_DOGU_ODA_ORTU_BIRLESIM_v001_preview_compact.glb",
-  "size_bytes": 81686612,
+  "file": "12_Blender_Model/exports/MUDAM_R129_TARIHI_TAS_VE_HENDEK_MALZEME_v002_preview_compact.glb",
+  "size_bytes": 84738868,
   "mesh_nodes": 8477,
   "triangles": 2489610,
   "world_bounds_glTF": [
@@ -99,23 +99,33 @@
       "mime": "image/png"
     },
     {
-      "name": "R55_moat_turf_candidate_normal",
-      "embedded_bytes": 4477536,
+      "name": "R129_moat_turf_normal",
+      "embedded_bytes": 2876435,
       "mime": "image/png"
     },
     {
-      "name": "R55_moat_turf_candidate_basecolor",
-      "embedded_bytes": 2930674,
+      "name": "R129_moat_turf_basecolor",
+      "embedded_bytes": 2396783,
       "mime": "image/png"
     },
     {
-      "name": "R55_historic_masonry_candidate_normal",
-      "embedded_bytes": 1549682,
+      "name": "R129_moat_turf_roughness",
+      "embedded_bytes": 755420,
       "mime": "image/png"
     },
     {
-      "name": "R55_historic_masonry_candidate_basecolor",
-      "embedded_bytes": 1000182,
+      "name": "R129_historic_masonry_normal",
+      "embedded_bytes": 4383859,
+      "mime": "image/png"
+    },
+    {
+      "name": "R129_historic_masonry_basecolor",
+      "embedded_bytes": 1885150,
+      "mime": "image/png"
+    },
+    {
+      "name": "R129_historic_masonry_roughness",
+      "embedded_bytes": 711953,
       "mime": "image/png"
     }
   ],

@@ -1,0 +1,49 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R129_TARIHI_TAS_VE_HENDEK_MALZEME_v002.blend",
+  "base_scene": "MUDAM_R128_OKUMA_DOGU_ODA_ORTU_BIRLESIM_v001.blend",
+  "closed_objects": [],
+  "changed_inherited_objects": [
+    "R35_MOAT_GROUND",
+    "R35_WALL_51946353_00_0",
+    "R35_WALL_51946353_01_0",
+    "R35_WALL_51946353_02_0",
+    "R35_WALL_51946353_03_0",
+    "R35_WALL_51946353_04_0",
+    "R35_WALL_49911001_00_0",
+    "R35_WALL_49911001_01_0",
+    "R35_WALL_49911001_01_1",
+    "R35_WALL_49911001_01_2",
+    "R35_WALL_49911001_02_0",
+    "R35_WALL_49911001_03_0",
+    "R35_WALL_49911001_04_0",
+    "R35_WALL_49911001_05_0",
+    "R35_WALL_49911001_06_0",
+    "R35_WALL_49911001_07_0",
+    "R35_WALL_49911001_07_1",
+    "R35_WALL_49911001_07_2",
+    "R35_WALL_453755312_00_0",
+    "R35_WALL_759680909_00_0",
+    "R35_WALL_759680909_01_0",
+    "R68_MOAT_GROUND",
+    "R68_WALL_00",
+    "R68_WALL_01",
+    "R68_WALL_02",
+    "R68_WALL_03",
+    "R68_WALL_04",
+    "R68_WALL_05"
+  ],
+  "materials": [
+    "R129_HISTORIC_MASONRY_APPEARANCE_CANDIDATE",
+    "R129_MOAT_TURF_APPEARANCE_CANDIDATE"
+  ],
+  "textures": [
+    "R129_historic_masonry_basecolor.png",
+    "R129_historic_masonry_normal.png",
+    "R129_historic_masonry_roughness.png",
+    "R129_moat_turf_basecolor.png",
+    "R129_moat_turf_normal.png",
+    "R129_moat_turf_roughness.png"
+  ],
+  "geometry_changed": false,
+  "construction_acceptance": false
+}

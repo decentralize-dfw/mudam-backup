@@ -1,5 +1,5 @@
 {
-  "as_of_revision": "R128",
+  "as_of_revision": "R129",
   "basis": "Beş eşit iş adımı: tamam 20, kısmi 10, bekleyen 0 puan. Yaklaşık kapsam ilerlemesidir; ölçü doğruluğu veya harcanan süre oranı değildir. Yeni paket kabulünde ilgili adımlar yeniden değerlendirilir.",
   "tasks": {
     "P00": {
@@ -555,19 +555,19 @@
       ]
     }
   },
-  "last_reviewed_checkpoint": "R128",
-  "last_review_note": "Okuma odasının eğimli örtüsü ile doğu odasının düz örtüsü arasındaki yinelenen hacim ayrıldı.",
+  "last_reviewed_checkpoint": "R129",
+  "last_review_note": "Kullanıcı önceliği malzeme ve yakın çevre. R129 28 parçanın yüzeylerini yeniledi; kapsam adımları ve %73 değişmedi.",
   "execution_order": [
+    "Malzeme ve yüzey detayları",
+    "Yakın çevre düzenlemesi",
     "Bina kabuğu: tüm duvarlar, zeminler, çatılar ve birleşimler",
     "Merdivenler ve sahanlıklar",
     "Pencereler ve kapılar",
     "Korkuluklar",
     "Diğer kalıcı mimari elemanlar",
-    "Bütünleşik plan–kesit uyumu ve gerekli ölçek düzeltmeleri",
-    "Malzeme ve yüzey detayları",
-    "Çevre düzenlemesi"
+    "Bütünleşik plan–kesit uyumu ve gerekli ölçek düzeltmeleri"
   ],
-  "current_priority": "Kullanıcının işaretlediği duvar/döşeme/çatı bütünlüğü ve kalan büyük mimari geometri eksikleri; paket kontrolleri bütün bina kabulü değildir.",
-  "review_note": "Okuma odasının eğimli örtüsü ile doğu odasının düz örtüsü arasındaki yinelenen hacim ayrıldı.",
-  "last_reviewed_revision": "R128"
+  "current_priority": "Kullanıcının son talimatı: malzeme ve yakın çevre. Otomatik heartbeat kullanıcı isteğiyle kaldırıldı.",
+  "review_note": "R129 malzeme paketi; geometri ilerlemesi değildir.",
+  "last_reviewed_revision": "R129"
 }
