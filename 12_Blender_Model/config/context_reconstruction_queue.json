@@ -1,8 +1,14 @@
 {
-  "active": "Building facade relief and road edge geometry",
-  "production_context": "R168 source-registered boulevard surface on R167 authored buildings; detailed kerbs, remaining roads and vegetation incomplete",
+  "active": "Building reconstruction remains priority: coherent R169 roof boundaries and source-visible facade details; unresolved details must not be invented",
+  "production_context": "R170: R168 context plus one western planted-island curb; section provisional. R169 building candidates remain excluded.",
   "automatic_continuation": true,
   "next_actions": [
+    "R170 v002 accepted for one western planted-island curb only: closed mesh, 940 ground samples, 14896 parent meshes unchanged, GLB126664 triangles/zero degenerate, Draco/WebP11,757,656 bytes. Curb .18m width/.12m height are assumptions, not source measurements. R169 remains unaccepted; no progress percentage increase. Do not repeatedly recheck this completed island.",
+    "R169 v019 applies source-plane correction to roof 164179202, confined to its OSM polygon; first building v017 retained. Four fitted patch RMSE values 0.056-0.065m; unmatched points retained and movement capped at 0.13m. v018 rejected: one degenerate triangle. v019 restores affected original vertices and passes GLB roundtrip: 29884 triangles, zero degenerate, zero bounds drift. Source/candidate R169_row_roof_source.png and _v019.png show roof shape retained but facade projection and patch transitions remain poor; NOT ACCEPTED/PUBLISHED. Next rebuild coherent roof plane boundaries and source-visible facade openings on this row building.",
+    "First building right balcony remains unresolved: new separate elevation bands in balcony_face_samples_33.npy mix vegetation depths 2.7-3.9m with facade points -0.3..0.9m. No right balcony was invented. Source chimney top trace also lacked coherent height; not built. Avoid repeating these same fits as progress.",
+    "R169 v017 adds four traced rear-right facade openings, recesses and frames to previously plain wall. Source R169_33_facade_1_source.png; upper-left of these four is partly occluded and uncertain. Initial render blocked by adjacent building; review render now isolates first building only AFTER saving complete scene. GLB passed 29884 triangles / zero degenerate / zero bounds drift. Recess 0.12m and frame 0.055m remain assumptions. NOT ACCEPTED/PUBLISHED: rear left/middle, right balcony, entrances, rough mansard and roof details remain. Do not claim whole rear facade complete.",
+    "R169 v016 rebuilt central upper hip roof from four source-fitted planes, replacing 2792 fragmented faces in local x=8..23,y=271.7..278. Retained raised chimney/source-feature regions. v015 had visible seam gaps; v016 joins retained boundary elevations to fitted surface. Reopened and GLB roundtrip passed: 29712 triangles, zero degenerate, zero bounds drift. Still NOT ACCEPTED / NOT PUBLISHED: mansard and retained roof features remain visibly rough; roof needs full source comparison and inheritance check before acceptance. Next coherent mansard and roof details, front dormers, right balcony, rear facade and entrances. v014 four rear dormer fronts remain; broad balcony fields provisional.",
+    "Front three roof-cap traces mix slope surfaces (0.37-0.94m fitted height variation); excluded. Do not reuse as flat dormer caps. R169_33_roof_elevation_1_source.png and _3_source.png now show full roof depth (old facade crop excluded roof parts). v012/v013 GLB roundtrip is technical evidence only, not visual acceptance. Additional isolated rear mansard fits between dormers still yield p90 residual 0.26-0.64m and were NOT applied. Do not reuse as verified roof slopes.",
     "R168 source color now registers main boulevard and northern approaches; reconstruct independent kerbs and remaining road connections from source, not arbitrary widths.",
     "R167 remaining ground-level facade occlusion and internal party walls; building placement/roof coverage now published.",
     "Correct remaining dark/missing facade projection regions on eastern complex; inspect source before accepting close-up quality.",
@@ -13,5 +19,6 @@
   ],
   "completion_claim": false,
   "push_policy": "Normal origin/main push for verified changes, no force/reset, no unrelated files",
-  "last_candidate": "MUDAM_R168_DOGU_KAVSAK_ADAY_v002.blend"
+  "last_candidate": "MUDAM_R169_SIRA_CATI_ADAY_v019.blend (partial review only; production remains R168)",
+  "last_accepted": "MUDAM_R170_KAYNAK_ADA_BORDUR_ADAY_v002.blend (limited road-island curb only)"
 }

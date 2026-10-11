@@ -1,0 +1,49 @@
+{
+  "parent": "MUDAM_R168_DOGU_KAVSAK_ADAY_v002.blend",
+  "scene": "MUDAM_R170_KAYNAK_ADA_BORDUR_ADAY_v002.blend",
+  "inherited_meshes_unchanged": 14896,
+  "added_meshes": [
+    "R170_SOURCE_ISLAND_CURB"
+  ],
+  "closed_manifold": true,
+  "volume_m3": 10.444987693677364,
+  "ground_samples": 940,
+  "bottom_offset_m": -0.005,
+  "top_offset_m": 0.12,
+  "width_m": 0.18,
+  "section_is_assumed": true,
+  "before": {
+    "triangles": 126664,
+    "degenerate": 0,
+    "min": [
+      -493.4591369628906,
+      -442.8431396484375,
+      -76.1373062133789
+    ],
+    "max": [
+      408.544921875,
+      545.1168823242188,
+      95.75955963134766
+    ]
+  },
+  "after": {
+    "triangles": 126664,
+    "degenerate": 0,
+    "min": [
+      -493.4591369628906,
+      -442.8431396484375,
+      -76.1373062133789
+    ],
+    "max": [
+      408.544921875,
+      545.1168823242188,
+      95.75955963134766
+    ]
+  },
+  "max_bounds_drift_m": 0.0,
+  "glb_bytes": 69175496,
+  "glb_sha256": "bef4d72e62251b707d78453a79b38e1b5d2e56e521011009b22c42847e5019ba",
+  "technical_pass": true,
+  "visual_acceptance": true,
+  "visual_acceptance_scope": "Limited curb plan trace; 0.18m width and 0.12m height are assumptions"
+}

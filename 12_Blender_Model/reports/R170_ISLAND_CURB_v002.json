@@ -1,0 +1,60 @@
+{
+  "scene": "MUDAM_R170_KAYNAK_ADA_BORDUR_ADAY_v002.blend",
+  "reopened": true,
+  "accepted": true,
+  "published": false,
+  "boundary_samples": 235,
+  "ground_samples": 470,
+  "source_pixels": [
+    [
+      201,
+      738
+    ],
+    [
+      735,
+      669
+    ],
+    [
+      743,
+      672
+    ],
+    [
+      749,
+      679
+    ],
+    [
+      747,
+      687
+    ],
+    [
+      739,
+      697
+    ],
+    [
+      719,
+      708
+    ],
+    [
+      211,
+      759
+    ]
+  ],
+  "source_display_size": [
+    2048,
+    887
+  ],
+  "source_image": "R168_junction_source.png",
+  "curb_height_m": 0.12,
+  "curb_width_m": 0.18,
+  "limits": [
+    "Curb section is assumed; only plan boundary is source traced",
+    "Only western island boundary is modeled, no entire road completion",
+    "Source color still contains tree shadows and vehicles",
+    "R169 candidates not integrated; parent is accepted R168"
+  ],
+  "acceptance_scope": "One manually source-traced western road-island curb only; section remains provisional",
+  "visual_review": [
+    "R168_junction_source.png boundary compared with R170_island_curb_v002.png",
+    "No entire-road or exact-survey acceptance"
+  ]
+}

@@ -39,7 +39,8 @@ function stats(doc) {
     textures: r.listTextures().map(t=>({size:t.getSize(),mime:t.getMimeType()})) };
 }
 const candidate = process.argv.includes('--r162-candidate');
-const roadRelease = process.argv.includes('--r168-roads');
+const curbRelease = process.argv.includes('--r170-curb');
+const roadRelease = curbRelease || process.argv.includes('--r168-roads');
 const southRelease = process.argv.includes('--r167-buildings');
 const eastRelease = process.argv.includes('--r166-buildings');
 const buildingRelease = roadRelease || southRelease || eastRelease || process.argv.includes('--r165-buildings');
@@ -50,11 +51,12 @@ if(buildingRelease) Object.assign(manifest,{revision:'R165-seven-source-derived-
 if(eastRelease) Object.assign(manifest,{revision:'R166-eastern-complex-and-curved-roof',source:'Authored source-derived buildings including eastern triangular complex and its tower, curved glass-roof building, seven earlier envelopes. Roof levels and facade colors follow ACT reference. Manual outer traces and fine facade relief remain approximate; roads and vegetation incomplete.'});
 if(southRelease) Object.assign(manifest,{revision:'R167-southern-roof-rows',source:'Authored source-derived environment: R166 buildings plus ten southern houses with sampled pitched roofs and source facade color. OSM party-wall footprint gaps corrected. Fine facade relief, occluded source regions, roads and vegetation remain incomplete.'});
 if(roadRelease) Object.assign(manifest,{revision:'R168-source-registered-boulevard',source:'R167 authored buildings plus terrain-conforming source-registered main boulevard and two northern approaches. Road markings and sidewalks are source color, not separately reconstructed kerbs. Manual outlines and source coverage limit accuracy; vegetation and remaining roads incomplete.'});
+if(curbRelease) Object.assign(manifest,{revision:'R170-source-traced-island-curb',source:'R168 authored context plus a closed terrain-following curb around one western planted road island, traced from registered ACT imagery. Curb width 0.18m and height 0.12m are modeling assumptions. R169 candidates excluded; remaining buildings, roads and vegetation incomplete.'});
 if(surfaceRelease) Object.assign(manifest,{revision:'R163-authored-source-surface',source:'Authored environment with ACT registered overhead surface colors on retained terrain; R161 buildings and R159 vegetation remain approximate.'});
 if(candidate) Object.assign(manifest,{name:'R162 review candidate',revision:'R162-v002-review-only',source:'Authored roof segmentation and facade projection from ACT reference; incomplete, not accepted as full context.',accepted:false});
 fs.mkdirSync(path.join(repo,outputDir),{recursive:true});
 for (const [key,sourceName] of (candidate ? [['candidate','r162_measured_candidate']] : [['near','near_site'],['far','philharmonie'],['melia','melia'],['schuman','schuman'],['vegetation','vegetation'],['district','r161_additions']])) {
-  const buildingFile=buildingRelease && key==='district' ? (roadRelease?'r168_district':southRelease?'r167_district':eastRelease?'r166_district':'r165_district') : null;
+  const buildingFile=buildingRelease && key==='district' ? (curbRelease?'r170_district':roadRelease?'r168_district':southRelease?'r167_district':eastRelease?'r166_district':'r165_district') : null;
   const surfaceFile=surfaceRelease && (key==='near'||key==='district') ? `r163_${key}` : null;
   const source = buildingFile ? fs.readFileSync(path.join(repo,`12_Blender_Model/exports/r152_clean/${buildingFile}.glb`)) : surfaceFile ? fs.readFileSync(path.join(repo,`12_Blender_Model/exports/r152_clean/${surfaceFile}.glb`)) : candidate ? fs.readFileSync(path.join(repo,'12_Blender_Model/exports/r152_clean/r162_measured_candidate.glb')) : key==='district' ? fs.readFileSync(path.join(repo,'12_Blender_Model/exports/r152_clean/r161_additions.glb')) : zlib.gunzipSync(fs.readFileSync(path.join(repo,`12_Blender_Model/exports/r152_clean/${sourceName}_web.glb.gz`)));
   const doc = await io.readBinary(source);
