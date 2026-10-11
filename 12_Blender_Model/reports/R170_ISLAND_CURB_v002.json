@@ -2,7 +2,7 @@
   "scene": "MUDAM_R170_KAYNAK_ADA_BORDUR_ADAY_v002.blend",
   "reopened": true,
   "accepted": true,
-  "published": false,
+  "published": true,
   "boundary_samples": 235,
   "ground_samples": 470,
   "source_pixels": [
@@ -56,5 +56,7 @@
   "visual_review": [
     "R168_junction_source.png boundary compared with R170_island_curb_v002.png",
     "No entire-road or exact-survey acceptance"
-  ]
+  ],
+  "push_utc": "2026-10-11T01:53:47.905103+00:00",
+  "pushed_content_commit": "8a85dfd4fe2f7c5fccb27c99572a358b9f85de41"
 }
