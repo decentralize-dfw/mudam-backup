@@ -1,0 +1,76 @@
+{
+  "reviewOnly": true,
+  "fullScopeAccepted": false,
+  "sourceScene": "MUDAM_R213_PALAIS_GIRIS_ZEMINLERI_v002.blend",
+  "files": {
+    "near": {
+      "file": "12_Blender_Model/exports/r152_clean/r213_near_draco_webp_REVIEW.glb",
+      "bytes": 3365248,
+      "sha256": "6c148102ab9e7dd3b31e247f7c16ed926d8fc4a0e0f62859330d5271e00029e4",
+      "triangles": 210067,
+      "zero": 0,
+      "removedDegenerates": 0,
+      "preservedRowNodes": 0,
+      "bounds": {
+        "min": [
+          -500,
+          -78.04438781738281,
+          -650
+        ],
+        "max": [
+          650.0001220703125,
+          16.323516845703125,
+          450.0001220703125
+        ]
+      },
+      "decoded": true,
+      "textures": 16
+    },
+    "district": {
+      "file": "12_Blender_Model/exports/r152_clean/r213_district_draco_webp_REVIEW.glb",
+      "bytes": 15073308,
+      "sha256": "8169f14a7ea669bcda5ab71900d32ab5c130b3b219d5f210e2816133fbd7945e",
+      "triangles": 372686,
+      "zero": 0,
+      "removedDegenerates": 9,
+      "preservedRowNodes": 322,
+      "bounds": {
+        "min": [
+          -600,
+          -82.54031372070312,
+          -800
+        ],
+        "max": [
+          800,
+          95.75955963134766,
+          600
+        ]
+      },
+      "decoded": true,
+      "textures": 11
+    },
+    "vegetation": {
+      "file": "12_Blender_Model/exports/r152_clean/r213_vegetation_draco_webp_REVIEW.glb",
+      "bytes": 287204,
+      "sha256": "78fb329fc8f696fc5eb3764c083e4d25c9e7d6c488f1b87270246b02eb2425a1",
+      "triangles": 7368,
+      "zero": 0,
+      "removedDegenerates": 0,
+      "preservedRowNodes": 0,
+      "bounds": {
+        "min": [
+          -0.6124610900878906,
+          -0.0006836694083176553,
+          -0.5949069261550903
+        ],
+        "max": [
+          0.6344858407974243,
+          1.161109447479248,
+          0.5961781740188599
+        ]
+      },
+      "decoded": true,
+      "textures": 1
+    }
+  }
+}

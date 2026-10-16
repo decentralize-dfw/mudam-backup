@@ -1,33 +1,28 @@
 {
   "name": "Context 3",
-  "revision": "R185-R188-road9-background-masses",
-  "source": "Existing Context3 and134 abstract lower-district masses preserved. Region9 copied overhang replaced with independently modeled OSM road/footway/marking geometry. Added7 closed, source-footprint simple outside-scan masses with OSM tagged heights as requested for regions7-8. Full11-region work remains incomplete; detailed fort, northern buildings, station and courtyard candidates are excluded.",
+  "revision": "R213-current-model-user-review",
+  "source": "Current independent modeling work through R213, published at explicit user request for review. Full eleven-region acceptance remains false. Existing ARCH row preserved. Inherited scan-derived older buildings/road patches still require replacement; this is not a fully authored or 90 percent matching completion.",
   "compression": "Draco 24-bit positions; WebP quality 92; original texture resolution",
   "files": {
     "near": {
-      "file": "model/cevre3/authored-near.glb",
-      "bytes": 3247816,
-      "sha256": "65a83aaa76eeaf715687341217714174c5842d399080a452a992e075441f4b1b",
-      "sourceSha256": "b03c95ceb3d035e30765f1c86955de4b2087b92a54204749b29ae8731978a00c",
-      "triangles": 208212,
-      "sourceTriangles": 208212,
-      "degenerateRemoved": 0,
+      "file": "model/cevre3/authored-near.glb?v=6c148102ab9e",
+      "bytes": 3365248,
+      "sha256": "6c148102ab9e7dd3b31e247f7c16ed926d8fc4a0e0f62859330d5271e00029e4",
+      "triangles": 210067,
       "bounds": {
         "min": [
           -500,
-          -78.5203628540039,
+          -78.04438781738281,
           -650
         ],
         "max": [
           650.0001220703125,
-          16.323532104492188,
+          16.323516845703125,
           450.0001220703125
         ]
       },
-      "boundsError": 0.0001220703125,
       "textures": 16,
-      "instanceTransformsPreserved": true,
-      "instances": []
+      "reviewOnly": true
     },
     "far": {
       "file": "model/cevre3/authored-far.glb",
@@ -105,13 +100,10 @@
       "instances": []
     },
     "vegetation": {
-      "file": "model/cevre3/authored-vegetation.glb",
-      "bytes": 287472,
-      "sha256": "5c1883e575f5114e05bb2d623792413d7272d02ca4d03d14e5297f64b8c8abd3",
-      "sourceSha256": "d47a5a5835a723bba059073f84a4a999788bcc325b57a95a2557681aa51b9279",
+      "file": "model/cevre3/authored-vegetation.glb?v=78fb329fc8f6",
+      "bytes": 287204,
+      "sha256": "78fb329fc8f696fc5eb3764c083e4d25c9e7d6c488f1b87270246b02eb2425a1",
       "triangles": 7368,
-      "sourceTriangles": 7368,
-      "degenerateRemoved": 0,
       "bounds": {
         "min": [
           -0.6124610900878906,
@@ -124,144 +116,18 @@
           0.5961781740188599
         ]
       },
-      "boundsError": 1.7881393432617188e-07,
       "textures": 1,
-      "instanceTransformsPreserved": true,
-      "instances": [
-        {
-          "semantic": "TRANSLATION",
-          "count": 236,
-          "hash": "c4e8aa61d58a44abe0ee849c0ef1526dc88d908e856afd6496ef2ca9574f781d"
-        },
-        {
-          "semantic": "SCALE",
-          "count": 236,
-          "hash": "f6cdf15b04a12fedf59b0bb98b165920cbc79757efd1b01ea9d64b8697fed696"
-        },
-        {
-          "semantic": "TRANSLATION",
-          "count": 851,
-          "hash": "6a7f1d761c06be5c17652648c1ab32615f4b701200557e03271d189249f19979"
-        },
-        {
-          "semantic": "SCALE",
-          "count": 851,
-          "hash": "dbe59af38902a3a9c7e94bb5642812f0691d8e031e1cd6443db0933d6f7d7e37"
-        },
-        {
-          "semantic": "TRANSLATION",
-          "count": 219,
-          "hash": "716071f5e6f19db8b65685dfeadf71cd3bf038e62e639a222d583729900acbde"
-        },
-        {
-          "semantic": "SCALE",
-          "count": 219,
-          "hash": "f8876f9511e0bf5add275d3d91073f11216ca7c5b32beaef98310ee6908b0419"
-        },
-        {
-          "semantic": "TRANSLATION",
-          "count": 237,
-          "hash": "c905e0bd9f8286ca40bf68067c08d859ba32d505e623b5c52b4577c1c6cdd8aa"
-        },
-        {
-          "semantic": "SCALE",
-          "count": 237,
-          "hash": "a4708c45579f811814a018f43de0bbb0de15de02229f6a4c8feda8ae6e0d92fb"
-        },
-        {
-          "semantic": "TRANSLATION",
-          "count": 248,
-          "hash": "ef84eade94403cdb5d6eb1e6283be0d9c657e5e51e1546147d8395f0ac6e67ff"
-        },
-        {
-          "semantic": "SCALE",
-          "count": 248,
-          "hash": "35f3b05a8c01182ca6247cc960808f816ed229cd6c23a937087c0462db27fa06"
-        },
-        {
-          "semantic": "TRANSLATION",
-          "count": 226,
-          "hash": "cfa67572fd92216a68531166c7b854995b04f080eac477ab98cd028810cadb48"
-        },
-        {
-          "semantic": "SCALE",
-          "count": 226,
-          "hash": "c0d6e51f75d71cd0922df6659e6fc592895e5637e40400173946d64d9bb15b48"
-        },
-        {
-          "semantic": "TRANSLATION",
-          "count": 820,
-          "hash": "79fffb90899dd2c1ae403a8d1e768c31425401c570b8d69ae20ba1c609add7de"
-        },
-        {
-          "semantic": "SCALE",
-          "count": 820,
-          "hash": "4576cf14a2e8232df22edbf8644f91a95449644eaa784ade87768ab418ae3a43"
-        },
-        {
-          "semantic": "TRANSLATION",
-          "count": 205,
-          "hash": "9011f8f6ab91b449799dac8d751b48fe999ae362e28d5c708b6d9deda9a0069e"
-        },
-        {
-          "semantic": "SCALE",
-          "count": 205,
-          "hash": "bc63ddee9910f4105c51b465f88806e96608b9e173232e49036f674527edf868"
-        },
-        {
-          "semantic": "TRANSLATION",
-          "count": 836,
-          "hash": "78c7b3182f6c0d9fb7102a8b4a5c67a8bbc7b5d4ce9fddf5f5328a4e01b09ab4"
-        },
-        {
-          "semantic": "SCALE",
-          "count": 836,
-          "hash": "c5df5d1e9d4970b1cae9d96551fbee6b29dac2936d3aeadea261f9e8c8507944"
-        },
-        {
-          "semantic": "TRANSLATION",
-          "count": 808,
-          "hash": "53ceb084df24d7cb1e4d8be3d902098d629ca4e9a7a5256d5c6aff8992affb09"
-        },
-        {
-          "semantic": "SCALE",
-          "count": 808,
-          "hash": "6b0153d06c96016fafe46d46677f969f6735062ada37ae8cc90e8462394477e0"
-        },
-        {
-          "semantic": "TRANSLATION",
-          "count": 829,
-          "hash": "587b8acd8269dcecc4d5a16e9e925d585930837a5f05dcfbcdd1965f74966ec7"
-        },
-        {
-          "semantic": "SCALE",
-          "count": 829,
-          "hash": "76b50cf1b41598e4f234afeb167bdc7b60a609ad41008faf9df63f90091d7b95"
-        },
-        {
-          "semantic": "TRANSLATION",
-          "count": 819,
-          "hash": "af62e0ada205196555a601eb025001aef27bff12846a9d251c4ae55a7bacc501"
-        },
-        {
-          "semantic": "SCALE",
-          "count": 819,
-          "hash": "f2c8c6b796476cb39831c09470e273613e56e7695b7f7052f1300e41a555b0d7"
-        }
-      ]
+      "reviewOnly": true
     },
     "district": {
-      "file": "model/cevre3/authored-district.glb",
-      "bytes": 13107808,
-      "sha256": "3b896ce05fd35205b97958f77ceaf57a0f3b7105432e599010d9e60b3e3deb70",
-      "sourceSha256": "3b896ce05fd35205b97958f77ceaf57a0f3b7105432e599010d9e60b3e3deb70",
-      "triangles": 233650,
-      "sourceTriangles": 233650,
-      "degenerateRemoved": 4,
+      "file": "model/cevre3/authored-district.glb?v=8169f14a7ea6",
+      "bytes": 15073308,
+      "sha256": "8169f14a7ea669bcda5ab71900d32ab5c130b3b219d5f210e2816133fbd7945e",
+      "triangles": 372686,
       "bounds": {
         "min": [
           -600,
-          -81.07743072509766,
+          -82.54031372070312,
           -800
         ],
         "max": [
@@ -270,10 +136,9 @@
           600
         ]
       },
-      "boundsError": 6.103515625e-05,
-      "textures": 7,
-      "instanceTransformsPreserved": true,
-      "instances": []
+      "textures": 11,
+      "reviewOnly": true
     }
-  }
+  },
+  "reviewOnly": true
 }
