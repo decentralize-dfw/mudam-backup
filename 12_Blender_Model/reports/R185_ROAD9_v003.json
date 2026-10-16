@@ -1,0 +1,26 @@
+{
+  "accepted": false,
+  "trimmed_inherited_triangles": 2188,
+  "reconstruction": [
+    {
+      "id": "asphalt",
+      "triangles": 15231,
+      "ground_misses": 0
+    },
+    {
+      "id": "footway",
+      "triangles": 3732,
+      "ground_misses": 0
+    },
+    {
+      "id": "MARKINGS",
+      "triangles": 1055,
+      "ground_misses": 0
+    }
+  ],
+  "limits": [
+    "OSM lane counts retained",
+    "Untagged lane widths3.25m provisional",
+    "Marked northern overhang region only"
+  ]
+}

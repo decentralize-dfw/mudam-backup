@@ -1,0 +1,85 @@
+{
+  "updatedUTC": "2026-10-16T20:20:48.682958+00:00",
+  "fullScopeAccepted": false,
+  "similarityPercent": null,
+  "productionCommit": "1164890",
+  "productionRevision": "R185-R188-road9-background-masses (local checkpoint; push pending)",
+  "localMaster": "MUDAM_R195_KALE_BATI_BAGLANTI_v001.blend",
+  "regions": [
+    {
+      "id": 1,
+      "state": "local_candidate_incomplete",
+      "implemented": "Independent75wall segments, whole outer bastion surfaces, connected moat, boundary faces, southwest graded court and two source-traced walks",
+      "remaining": "Southwest perimeter joins, ruin, inner access connections and complete source visual agreement; no fort publication"
+    },
+    {
+      "id": 2,
+      "state": "partial_published",
+      "implemented": "Part of134 source-footprint abstract lower-district masses",
+      "remaining": "Coverage comparison against all marked parcels and hardscape; unknown heights explicitly provisional"
+    },
+    {
+      "id": 3,
+      "state": "partial_published",
+      "implemented": "Shared lower-district massing and extended DEM terrain",
+      "remaining": "Remaining boundary footprints, street/parcel connections"
+    },
+    {
+      "id": 4,
+      "state": "local_candidate_incomplete",
+      "implemented": "Independent arched railway viaduct on mapped double-track alignment",
+      "remaining": "Abutments, end rail continuity and source visual acceptance"
+    },
+    {
+      "id": 5,
+      "state": "local_candidate_incomplete",
+      "implemented": "Anneau and Palais courtyard volumes, facade openings and columns",
+      "remaining": "Palais raised roof, facade source accuracy, remaining adjacent complex and ground relations"
+    },
+    {
+      "id": 6,
+      "state": "local_candidate_incomplete",
+      "implemented": "Novotel high/low volumes, Novotel Suites, staggered Mama Shelter facade, measured technical roof blocks and terrace candidate",
+      "remaining": "Complete roof architecture, terrace level discrepancy, facade module verification, source-complete ground surfaces"
+    },
+    {
+      "id": 7,
+      "state": "verified_simple_massing_candidate",
+      "implemented": "Part of7 closed OSM-footprint outside-scan masses with tagged heights",
+      "remaining": "Publish verified subset; outside-scan landscape coverage remains simple and incomplete"
+    },
+    {
+      "id": 8,
+      "state": "verified_simple_massing_candidate",
+      "implemented": "Western EKI and other outside-scan source-footprint masses on expanded terrain",
+      "remaining": "Publish verified subset; connecting landscape and roads remain incomplete"
+    },
+    {
+      "id": 9,
+      "state": "verified_local_candidate",
+      "implemented": "Overhanging inherited road segment clipped and replaced by independent mapped road/footway/markings; GLB reopen zero degenerate faces and zero ground misses",
+      "remaining": "Publish scoped correction; untagged lane widths remain provisional, full network not accepted"
+    },
+    {
+      "id": 10,
+      "state": "local_candidate_incomplete",
+      "implemented": "Independent upper funicular station roofs, glazing, measured rail grades and1.8m gauge, forecourt and terrain cut",
+      "remaining": "Vegetation crossing rail corridors, edge connections and source visual acceptance"
+    },
+    {
+      "id": 11,
+      "state": "partial_published_and_local_candidates",
+      "implemented": "10 lower-district mapped hardscapes published;3 northern mapped paved areas,2 measured courtyard planes and constructed terrain transitions local",
+      "remaining": "Complete all building aprons and continuous grade relations, verify courtyard source discrepancies and remaining seam artifacts"
+    }
+  ],
+  "nextPublicationCandidate": {
+    "file": "exports/r152_clean/r185_r188_district_draco_webp_REVIEW.glb",
+    "bytes": 13107808,
+    "triangles": 233650,
+    "sha256": "3b896ce05fd35205b97958f77ceaf57a0f3b7105432e599010d9e60b3e3deb70",
+    "scope": "Region9 correction and7 simple outside-scan masses only",
+    "compressedReopenDegenerates": 0,
+    "excluded": "All unaccepted fort, detailed northern buildings, station, viaduct and courtyard candidates"
+  }
+}

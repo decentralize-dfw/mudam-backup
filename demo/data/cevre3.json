@@ -1,7 +1,7 @@
 {
   "name": "Context 3",
-  "revision": "R182-lower-district-footprints-review",
-  "source": "Existing Context3 including R169 v088 preserved. Added134 independently modeled abstract lower-district masses on OSM footprints,10 mapped hardscape polygons and ACT LiDAR terrain extension. Untagged heights are explicit8m abstract assumptions. Fort, northern facade fidelity and remaining11-region work are not accepted as complete.",
+  "revision": "R185-R188-road9-background-masses",
+  "source": "Existing Context3 and134 abstract lower-district masses preserved. Region9 copied overhang replaced with independently modeled OSM road/footway/marking geometry. Added7 closed, source-footprint simple outside-scan masses with OSM tagged heights as requested for regions7-8. Full11-region work remains incomplete; detailed fort, northern buildings, station and courtyard candidates are excluded.",
   "compression": "Draco 24-bit positions; WebP quality 92; original texture resolution",
   "files": {
     "near": {
@@ -49,7 +49,7 @@
           -111.07141876220703
         ]
       },
-      "boundsError": 0.00000762939453125,
+      "boundsError": 7.62939453125e-06,
       "textures": 0,
       "instanceTransformsPreserved": true,
       "instances": []
@@ -74,7 +74,7 @@
           -26.334129333496094
         ]
       },
-      "boundsError": 0.0000019073486328125,
+      "boundsError": 1.9073486328125e-06,
       "textures": 0,
       "instanceTransformsPreserved": true,
       "instances": []
@@ -99,7 +99,7 @@
           -89.2112045288086
         ]
       },
-      "boundsError": 0.00000762939453125,
+      "boundsError": 7.62939453125e-06,
       "textures": 0,
       "instanceTransformsPreserved": true,
       "instances": []
@@ -124,7 +124,7 @@
           0.5961781740188599
         ]
       },
-      "boundsError": 1.7881393432617188e-7,
+      "boundsError": 1.7881393432617188e-07,
       "textures": 1,
       "instanceTransformsPreserved": true,
       "instances": [
@@ -252,12 +252,12 @@
     },
     "district": {
       "file": "model/cevre3/authored-district.glb",
-      "bytes": 13006704,
-      "sha256": "9a19c1f34fa7c204dcc9a17954af4fd5f0fd98708eab124fd1e96847e50fb46e",
-      "sourceSha256": "1f1edef0d289a348bdf4631983bd8bee3edd39b274a6bd1d60659c26363a1e35",
-      "triangles": 215262,
-      "sourceTriangles": 215262,
-      "degenerateRemoved": 0,
+      "bytes": 13107808,
+      "sha256": "3b896ce05fd35205b97958f77ceaf57a0f3b7105432e599010d9e60b3e3deb70",
+      "sourceSha256": "3b896ce05fd35205b97958f77ceaf57a0f3b7105432e599010d9e60b3e3deb70",
+      "triangles": 233650,
+      "sourceTriangles": 233650,
+      "degenerateRemoved": 4,
       "bounds": {
         "min": [
           -600,
@@ -270,7 +270,7 @@
           600
         ]
       },
-      "boundsError": 0.00006103515625,
+      "boundsError": 6.103515625e-05,
       "textures": 7,
       "instanceTransformsPreserved": true,
       "instances": []

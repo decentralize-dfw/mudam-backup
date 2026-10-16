@@ -1,0 +1,37 @@
+{
+  "reopened": true,
+  "objects": [
+    {
+      "name": "R168_SOURCE_JUNCTION",
+      "triangles": 36648,
+      "degenerate": 0,
+      "finite": true
+    },
+    {
+      "name": "R177_ROAD_asphalt",
+      "triangles": 15231,
+      "degenerate": 0,
+      "finite": true
+    },
+    {
+      "name": "R177_ROAD_footway",
+      "triangles": 3732,
+      "degenerate": 0,
+      "finite": true
+    },
+    {
+      "name": "R177_ROAD_MARKINGS",
+      "triangles": 1055,
+      "degenerate": 0,
+      "finite": true
+    },
+    {
+      "name": "R161_ROAD_CONNECTIONS",
+      "triangles": 2685,
+      "degenerate": 0,
+      "finite": true
+    }
+  ],
+  "accepted": false,
+  "scope": "Road9 only; full road network acceptance not implied"
+}

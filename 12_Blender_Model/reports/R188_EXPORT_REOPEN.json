@@ -1,0 +1,65 @@
+{
+  "reopened": true,
+  "buildings": [
+    {
+      "id": "133301875",
+      "boundary_edges": 0,
+      "degenerate": 0,
+      "maximum_footprint_error": 2.9479972459269286e-05,
+      "height_source": 60.0,
+      "representation": "Simple outside-scan massing, explicitly requested"
+    },
+    {
+      "id": "133301876",
+      "boundary_edges": 0,
+      "degenerate": 0,
+      "maximum_footprint_error": 2.4230431968572843e-05,
+      "height_source": 60.0,
+      "representation": "Simple outside-scan massing, explicitly requested"
+    },
+    {
+      "id": "659961054",
+      "boundary_edges": 0,
+      "degenerate": 0,
+      "maximum_footprint_error": 2.7331426282156817e-05,
+      "height_source": 80.0,
+      "representation": "Simple outside-scan massing, explicitly requested"
+    },
+    {
+      "id": "788248912",
+      "boundary_edges": 0,
+      "degenerate": 0,
+      "maximum_footprint_error": 1.588272642732348e-05,
+      "height_source": 15.0,
+      "representation": "Simple outside-scan massing, explicitly requested"
+    },
+    {
+      "id": "rel4283127",
+      "boundary_edges": 0,
+      "degenerate": 0,
+      "maximum_footprint_error": 3.947599355996315e-05,
+      "height_source": 25.0,
+      "representation": "Simple outside-scan massing, explicitly requested"
+    },
+    {
+      "id": "51071558",
+      "boundary_edges": 0,
+      "degenerate": 0,
+      "maximum_footprint_error": 3.0406342334008217e-05,
+      "height_source": 24.0,
+      "representation": "Simple outside-scan massing, explicitly requested"
+    },
+    {
+      "id": "rel18163400",
+      "boundary_edges": 0,
+      "degenerate": 0,
+      "maximum_footprint_error": 3.945936874648606e-05,
+      "height_source": 20.0,
+      "representation": "Simple outside-scan massing, explicitly requested"
+    }
+  ],
+  "triangles": 640,
+  "degenerate": 0,
+  "accepted_scope": "Closed source-footprint geometry for user-authorized simple outside-scan masses; not detailed architectural fidelity",
+  "full11regions_complete": false
+}

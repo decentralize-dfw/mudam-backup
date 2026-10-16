@@ -1,0 +1,36 @@
+{
+  "acceptedForPublication": false,
+  "scope": "Region9 overhang replacement and7 source-footprint simple outside-scan masses; full11regions not complete",
+  "baseSha256": "9a19c1f34fa7c204dcc9a17954af4fd5f0fd98708eab124fd1e96847e50fb46e",
+  "sha256": "3b896ce05fd35205b97958f77ceaf57a0f3b7105432e599010d9e60b3e3deb70",
+  "bytes": 13107808,
+  "triangles": 233650,
+  "replaced": [
+    "R161_ROAD_CONNECTIONS",
+    "R168_SOURCE_JUNCTION"
+  ],
+  "removedDegenerates": [
+    {
+      "mesh": "R182_EXTENSION_GROUND",
+      "zeroAreaTriangles": 4
+    }
+  ],
+  "bounds": {
+    "min": [
+      -600,
+      -81.07743072509766,
+      -800
+    ],
+    "max": [
+      800,
+      95.75955963134766,
+      600
+    ]
+  },
+  "compressedDecodePassed": true,
+  "limitations": [
+    "OSM lane counts retained",
+    "Untagged lane widths3.25m provisional",
+    "Marked northern overhang region only"
+  ]
+}
