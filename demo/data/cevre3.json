@@ -1,7 +1,7 @@
 {
   "name": "Context 3",
-  "revision": "R170-source-traced-island-curb",
-  "source": "R168 authored context plus a closed terrain-following curb around one western planted road island, traced from registered ACT imagery. Curb width 0.18m and height 0.12m are modeling assumptions. R169 candidates excluded; remaining buildings, roads and vegetation incomplete.",
+  "revision": "R170-plus-R169-v088-user-review",
+  "source": "Authored R170 context plus independently modeled R169 v088 four-house row, published for user review. Shell sampling passed; rear dormers, balcony, chimneys and material detailing remain incomplete. No full source-fidelity acceptance.",
   "compression": "Draco 24-bit positions; WebP quality 92; original texture resolution",
   "files": {
     "near": {
@@ -252,11 +252,11 @@
     },
     "district": {
       "file": "model/cevre3/authored-district.glb",
-      "bytes": 11757656,
-      "sha256": "ed27b6b101a47c12a71f6b69236f46cd04b61e03bd6eeb30f07d51aaef4546ca",
-      "sourceSha256": "bef4d72e62251b707d78453a79b38e1b5d2e56e521011009b22c42847e5019ba",
-      "triangles": 126664,
-      "sourceTriangles": 126664,
+      "bytes": 12025984,
+      "sha256": "f296ed5cc4f918669d1ece3f213eaf20108e634136b81b2b253764b764e384d5",
+      "sourceSha256": "78bb67e0ca937573240711a62f9f78ee37ab65c77f147f676416cbe774cdee4c",
+      "triangles": 128860,
+      "sourceTriangles": 128860,
       "degenerateRemoved": 0,
       "bounds": {
         "min": [
@@ -265,9 +265,9 @@
           -545.1168823242188
         ],
         "max": [
-          408.54486083984375,
+          408.544921875,
           95.75955963134766,
-          442.84320068359375
+          442.84326171875
         ]
       },
       "boundsError": 0.00006103515625,
