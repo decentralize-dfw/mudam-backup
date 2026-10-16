@@ -1,6 +1,6 @@
 {
   "active": "User 11-region correction supersedes small R169 detail priority: fortifications, lower district footprint masses, bridges, missing buildings and source-traced hardscape.",
-  "production_context": "R185-R188-road9-background-masses; districtGLB13107808bytes233650triangles,Draco24/WebP92. Verified scope road9 and7 simple background masses. Commit/push pending; see publication receipt.",
+  "production_context": "R185-R188-road9-background-masses; normalorigin/main 509c3ce49fadd31d7fcc00066a47aab430b2fb32 at 2026-10-16T20:22:50.500568+00:00;13.107808MB,233650triangles,Draco24/WebP92. Scope road9 plus7simple outside-scan masses;134prior masses preserved. Full11regions incomplete.",
   "automatic_continuation": true,
   "next_actions": [
     "LATEST: R195 master contains R193 southwest fort court/R194 source-traced walks/R195 west boundary joins, R192 courtyard grade blends, R190 measured roof blocks, R188 verified7simple masses. Fort still lacks ruin and complete source agreement, courts still show small seam artifacts; do not publish these candidates. Verified R185+R188 combineddistrict13.107808MB ready for hourlypush after20:21UTC, zero degenerates after compressed Blender reopen. R196 rectangular ACTlower-area audit:68eligible OSMfootprints covered,zero missing; this does not prove all11regions. R185 rebuild deleted staleprimitive references beforeprune to avoid6MBunusedbuffers; 4zero-area triangles inherited fromR182terrain removed. Continue regions1,4,5,6,10,11, noR169micropatches.",
@@ -95,5 +95,10 @@
     ],
     "critical_datum": "Existing model MNT datum316.1510257594697; NOT364.0838687173091. R182v001 rejected47.932843m vertical mismatch; fixedv002 and boundarymatchedv003."
   },
-  "latest_local_master": "MUDAM_R195_KALE_BATI_BAGLANTI_v001.blend; full fort and northern architecture candidates NOT accepted"
+  "latest_local_master": "MUDAM_R195_KALE_BATI_BAGLANTI_v001.blend; full fort and northern architecture candidates NOT accepted",
+  "last_verified_push": {
+    "commit": "509c3ce49fadd31d7fcc00066a47aab430b2fb32",
+    "utc": "2026-10-16T20:22:50.500568+00:00",
+    "revision": "R185-R188-road9-background-masses"
+  }
 }

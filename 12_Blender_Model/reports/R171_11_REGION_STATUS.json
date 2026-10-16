@@ -1,9 +1,9 @@
 {
-  "updatedUTC": "2026-10-16T20:20:48.682958+00:00",
+  "updatedUTC": "2026-10-16T20:22:50.500568+00:00",
   "fullScopeAccepted": false,
   "similarityPercent": null,
-  "productionCommit": "1164890",
-  "productionRevision": "R185-R188-road9-background-masses (local checkpoint; push pending)",
+  "productionCommit": "509c3ce49fadd31d7fcc00066a47aab430b2fb32",
+  "productionRevision": "R185-R188-road9-background-masses",
   "localMaster": "MUDAM_R195_KALE_BATI_BAGLANTI_v001.blend",
   "regions": [
     {
@@ -44,21 +44,21 @@
     },
     {
       "id": 7,
-      "state": "verified_simple_massing_candidate",
+      "state": "simple_massing_published",
       "implemented": "Part of7 closed OSM-footprint outside-scan masses with tagged heights",
       "remaining": "Publish verified subset; outside-scan landscape coverage remains simple and incomplete"
     },
     {
       "id": 8,
-      "state": "verified_simple_massing_candidate",
+      "state": "simple_massing_published",
       "implemented": "Western EKI and other outside-scan source-footprint masses on expanded terrain",
       "remaining": "Publish verified subset; connecting landscape and roads remain incomplete"
     },
     {
       "id": 9,
-      "state": "verified_local_candidate",
+      "state": "scoped_correction_published",
       "implemented": "Overhanging inherited road segment clipped and replaced by independent mapped road/footway/markings; GLB reopen zero degenerate faces and zero ground misses",
-      "remaining": "Publish scoped correction; untagged lane widths remain provisional, full network not accepted"
+      "remaining": "Full road network widths and connectivity outside region9 not accepted"
     },
     {
       "id": 10,
@@ -80,6 +80,7 @@
     "sha256": "3b896ce05fd35205b97958f77ceaf57a0f3b7105432e599010d9e60b3e3deb70",
     "scope": "Region9 correction and7 simple outside-scan masses only",
     "compressedReopenDegenerates": 0,
-    "excluded": "All unaccepted fort, detailed northern buildings, station, viaduct and courtyard candidates"
+    "excluded": "All unaccepted fort, detailed northern buildings, station, viaduct and courtyard candidates",
+    "published": true
   }
 }
