@@ -1,7 +1,7 @@
 {
   "name": "Context 3",
-  "revision": "R170-plus-R169-v088-user-review",
-  "source": "Authored R170 context plus independently modeled R169 v088 four-house row, published for user review. Shell sampling passed; rear dormers, balcony, chimneys and material detailing remain incomplete. No full source-fidelity acceptance.",
+  "revision": "R182-lower-district-footprints-review",
+  "source": "Existing Context3 including R169 v088 preserved. Added134 independently modeled abstract lower-district masses on OSM footprints,10 mapped hardscape polygons and ACT LiDAR terrain extension. Untagged heights are explicit8m abstract assumptions. Fort, northern facade fidelity and remaining11-region work are not accepted as complete.",
   "compression": "Draco 24-bit positions; WebP quality 92; original texture resolution",
   "files": {
     "near": {
@@ -252,22 +252,22 @@
     },
     "district": {
       "file": "model/cevre3/authored-district.glb",
-      "bytes": 12025984,
-      "sha256": "f296ed5cc4f918669d1ece3f213eaf20108e634136b81b2b253764b764e384d5",
-      "sourceSha256": "78bb67e0ca937573240711a62f9f78ee37ab65c77f147f676416cbe774cdee4c",
-      "triangles": 128860,
-      "sourceTriangles": 128860,
+      "bytes": 13006704,
+      "sha256": "9a19c1f34fa7c204dcc9a17954af4fd5f0fd98708eab124fd1e96847e50fb46e",
+      "sourceSha256": "1f1edef0d289a348bdf4631983bd8bee3edd39b274a6bd1d60659c26363a1e35",
+      "triangles": 215262,
+      "sourceTriangles": 215262,
       "degenerateRemoved": 0,
       "bounds": {
         "min": [
-          -493.4591369628906,
-          -76.1373062133789,
-          -545.1168823242188
+          -600,
+          -81.07743072509766,
+          -800
         ],
         "max": [
-          408.544921875,
+          800,
           95.75955963134766,
-          442.84326171875
+          600
         ]
       },
       "boundsError": 0.00006103515625,

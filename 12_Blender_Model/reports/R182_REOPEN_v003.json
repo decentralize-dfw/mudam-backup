@@ -1,0 +1,546 @@
+{
+  "glb_reopened": true,
+  "triangles": 86402,
+  "degenerate": 0,
+  "buildings": [
+    {
+      "id": "48993285",
+      "maximum_footprint_vertex_error": 1.1920945479590644e-05
+    },
+    {
+      "id": "52091728",
+      "maximum_footprint_vertex_error": 1.3728385516015061e-05
+    },
+    {
+      "id": "58609208",
+      "maximum_footprint_vertex_error": 3.204528238359723e-05
+    },
+    {
+      "id": "58609209",
+      "maximum_footprint_vertex_error": 2.862036123607037e-05
+    },
+    {
+      "id": "83179078",
+      "maximum_footprint_vertex_error": 3.0373861069210697e-05
+    },
+    {
+      "id": "92711481",
+      "maximum_footprint_vertex_error": 3.00146894985869e-05
+    },
+    {
+      "id": "143863776",
+      "maximum_footprint_vertex_error": 2.829473181288314e-05
+    },
+    {
+      "id": "143863777",
+      "maximum_footprint_vertex_error": 2.8278472211734473e-05
+    },
+    {
+      "id": "145323073",
+      "maximum_footprint_vertex_error": 3.104660433289697e-05
+    },
+    {
+      "id": "145323089",
+      "maximum_footprint_vertex_error": 2.5249403382332187e-05
+    },
+    {
+      "id": "153344889",
+      "maximum_footprint_vertex_error": 2.5135505754181437e-05
+    },
+    {
+      "id": "153379126",
+      "maximum_footprint_vertex_error": 3.1344704642391626e-05
+    },
+    {
+      "id": "153379133",
+      "maximum_footprint_vertex_error": 3.1887599875219514e-05
+    },
+    {
+      "id": "155639263",
+      "maximum_footprint_vertex_error": 2.5782845197609544e-05
+    },
+    {
+      "id": "155639270",
+      "maximum_footprint_vertex_error": 1.4740407194104697e-05
+    },
+    {
+      "id": "155639276",
+      "maximum_footprint_vertex_error": 1.520209868376926e-05
+    },
+    {
+      "id": "162041599",
+      "maximum_footprint_vertex_error": 1.7842628550444223e-05
+    },
+    {
+      "id": "162041608",
+      "maximum_footprint_vertex_error": 1.908341054556002e-05
+    },
+    {
+      "id": "163103029",
+      "maximum_footprint_vertex_error": 2.0765242042625802e-05
+    },
+    {
+      "id": "164179247",
+      "maximum_footprint_vertex_error": 1.3892032137088326e-05
+    },
+    {
+      "id": "164179266",
+      "maximum_footprint_vertex_error": 1.1437180439716124e-05
+    },
+    {
+      "id": "164179276",
+      "maximum_footprint_vertex_error": 1.1437180439716124e-05
+    },
+    {
+      "id": "164179296",
+      "maximum_footprint_vertex_error": 1.1617381894610887e-05
+    },
+    {
+      "id": "164179321",
+      "maximum_footprint_vertex_error": 1.4448540720650117e-05
+    },
+    {
+      "id": "164180258",
+      "maximum_footprint_vertex_error": 1.497622689962789e-05
+    },
+    {
+      "id": "164184496",
+      "maximum_footprint_vertex_error": 1.42335812604094e-05
+    },
+    {
+      "id": "164184528",
+      "maximum_footprint_vertex_error": 1.1818872287718596e-05
+    },
+    {
+      "id": "164184549",
+      "maximum_footprint_vertex_error": 1.761734005108752e-05
+    },
+    {
+      "id": "164184564",
+      "maximum_footprint_vertex_error": 1.5036395331079279e-05
+    },
+    {
+      "id": "164184565",
+      "maximum_footprint_vertex_error": 1.34404324597041e-05
+    },
+    {
+      "id": "165232667",
+      "maximum_footprint_vertex_error": 3.0401459634403867e-05
+    },
+    {
+      "id": "166956469",
+      "maximum_footprint_vertex_error": 1.8318033361788128e-05
+    },
+    {
+      "id": "166956476",
+      "maximum_footprint_vertex_error": 3.0240327782532706e-05
+    },
+    {
+      "id": "166956477",
+      "maximum_footprint_vertex_error": 1.5612798729961314e-05
+    },
+    {
+      "id": "171495669",
+      "maximum_footprint_vertex_error": 2.947982986763288e-05
+    },
+    {
+      "id": "171495678",
+      "maximum_footprint_vertex_error": 2.6255657773998943e-05
+    },
+    {
+      "id": "171495682",
+      "maximum_footprint_vertex_error": 3.1544269381013245e-05
+    },
+    {
+      "id": "171495694",
+      "maximum_footprint_vertex_error": 3.131214955009261e-05
+    },
+    {
+      "id": "171495716",
+      "maximum_footprint_vertex_error": 3.1950576516925925e-05
+    },
+    {
+      "id": "171674237",
+      "maximum_footprint_vertex_error": 3.1950576516925925e-05
+    },
+    {
+      "id": "197552941",
+      "maximum_footprint_vertex_error": 3.771379027545794e-05
+    },
+    {
+      "id": "216534891",
+      "maximum_footprint_vertex_error": 2.0293855220376437e-05
+    },
+    {
+      "id": "301836561",
+      "maximum_footprint_vertex_error": 3.204528238359723e-05
+    },
+    {
+      "id": "453737278",
+      "maximum_footprint_vertex_error": 2.0174720285270414e-05
+    },
+    {
+      "id": "453737281",
+      "maximum_footprint_vertex_error": 1.929574083584636e-05
+    },
+    {
+      "id": "453745328",
+      "maximum_footprint_vertex_error": 2.9203489508982836e-05
+    },
+    {
+      "id": "546346007",
+      "maximum_footprint_vertex_error": 2.8267680527577953e-05
+    },
+    {
+      "id": "546351307",
+      "maximum_footprint_vertex_error": 1.4457846221943542e-05
+    },
+    {
+      "id": "582803240",
+      "maximum_footprint_vertex_error": 1.5014992445359616e-05
+    },
+    {
+      "id": "582803241",
+      "maximum_footprint_vertex_error": 1.3934816610826207e-05
+    },
+    {
+      "id": "831196268",
+      "maximum_footprint_vertex_error": 1.6120117120939024e-05
+    },
+    {
+      "id": "831196269",
+      "maximum_footprint_vertex_error": 1.846881925739819e-05
+    },
+    {
+      "id": "832920701",
+      "maximum_footprint_vertex_error": 2.8307763676281292e-05
+    },
+    {
+      "id": "832920704",
+      "maximum_footprint_vertex_error": 1.713841962178163e-05
+    },
+    {
+      "id": "927885562",
+      "maximum_footprint_vertex_error": 2.7019363686027904e-05
+    },
+    {
+      "id": "927885563",
+      "maximum_footprint_vertex_error": 3.1344704642391626e-05
+    },
+    {
+      "id": "930614758",
+      "maximum_footprint_vertex_error": 1.749596207007737e-05
+    },
+    {
+      "id": "930614763",
+      "maximum_footprint_vertex_error": 1.580396402082988e-05
+    },
+    {
+      "id": "930614764",
+      "maximum_footprint_vertex_error": 1.5134959352224715e-05
+    },
+    {
+      "id": "996462637",
+      "maximum_footprint_vertex_error": 1.0917404848053948e-05
+    },
+    {
+      "id": "1337806173",
+      "maximum_footprint_vertex_error": 1.4048082627376297e-05
+    },
+    {
+      "id": "1337806174",
+      "maximum_footprint_vertex_error": 1.4448540720650117e-05
+    },
+    {
+      "id": "1337806175",
+      "maximum_footprint_vertex_error": 1.520209868376926e-05
+    },
+    {
+      "id": "1337806192",
+      "maximum_footprint_vertex_error": 1.1917070472388622e-05
+    },
+    {
+      "id": "1337806196",
+      "maximum_footprint_vertex_error": 1.4338817219353133e-05
+    },
+    {
+      "id": "1337806197",
+      "maximum_footprint_vertex_error": 1.8294038184888755e-05
+    },
+    {
+      "id": "1337806198",
+      "maximum_footprint_vertex_error": 2.7769422133525863e-05
+    },
+    {
+      "id": "1467794790",
+      "maximum_footprint_vertex_error": 1.6079141845412995e-05
+    },
+    {
+      "id": "155639257",
+      "maximum_footprint_vertex_error": 1.4556424318240586e-05
+    },
+    {
+      "id": "164179114",
+      "maximum_footprint_vertex_error": 1.232221864055994e-05
+    },
+    {
+      "id": "164179122",
+      "maximum_footprint_vertex_error": 1.4395838990271048e-05
+    },
+    {
+      "id": "164179134",
+      "maximum_footprint_vertex_error": 1.394263786030792e-05
+    },
+    {
+      "id": "164179136",
+      "maximum_footprint_vertex_error": 1.5198157307149268e-05
+    },
+    {
+      "id": "164179146",
+      "maximum_footprint_vertex_error": 1.3931168762826258e-05
+    },
+    {
+      "id": "164179151",
+      "maximum_footprint_vertex_error": 1.4719599961432925e-05
+    },
+    {
+      "id": "164179172",
+      "maximum_footprint_vertex_error": 1.1204165948224902e-05
+    },
+    {
+      "id": "164179175",
+      "maximum_footprint_vertex_error": 1.1435715648724354e-05
+    },
+    {
+      "id": "164179187",
+      "maximum_footprint_vertex_error": 1.5293313302232083e-05
+    },
+    {
+      "id": "164179230",
+      "maximum_footprint_vertex_error": 1.1701346265343232e-05
+    },
+    {
+      "id": "164179236",
+      "maximum_footprint_vertex_error": 1.2933141551060105e-05
+    },
+    {
+      "id": "164179239",
+      "maximum_footprint_vertex_error": 7.834185412821217e-06
+    },
+    {
+      "id": "164179243",
+      "maximum_footprint_vertex_error": 1.3713873070156892e-05
+    },
+    {
+      "id": "164179251",
+      "maximum_footprint_vertex_error": 1.485038771267263e-05
+    },
+    {
+      "id": "164179257",
+      "maximum_footprint_vertex_error": 1.3389344810601643e-05
+    },
+    {
+      "id": "164179267",
+      "maximum_footprint_vertex_error": 1.3551773801595763e-05
+    },
+    {
+      "id": "164179284",
+      "maximum_footprint_vertex_error": 1.3257796608769236e-05
+    },
+    {
+      "id": "164179295",
+      "maximum_footprint_vertex_error": 1.3296024331479346e-05
+    },
+    {
+      "id": "164184497",
+      "maximum_footprint_vertex_error": 1.796755391934465e-05
+    },
+    {
+      "id": "164184498",
+      "maximum_footprint_vertex_error": 1.8240342590199195e-05
+    },
+    {
+      "id": "164184504",
+      "maximum_footprint_vertex_error": 1.3557358729289134e-05
+    },
+    {
+      "id": "164184511",
+      "maximum_footprint_vertex_error": 1.5180583979320805e-05
+    },
+    {
+      "id": "164184515",
+      "maximum_footprint_vertex_error": 1.5611666023528355e-05
+    },
+    {
+      "id": "164184527",
+      "maximum_footprint_vertex_error": 1.7424488934576536e-05
+    },
+    {
+      "id": "164184542",
+      "maximum_footprint_vertex_error": 1.7934777145225578e-05
+    },
+    {
+      "id": "164184548",
+      "maximum_footprint_vertex_error": 1.5181695679821673e-05
+    },
+    {
+      "id": "164184558",
+      "maximum_footprint_vertex_error": 2.013504981024772e-05
+    },
+    {
+      "id": "216535733",
+      "maximum_footprint_vertex_error": 7.050809733053479e-06
+    },
+    {
+      "id": "274961867",
+      "maximum_footprint_vertex_error": 1.1510948573502147e-05
+    },
+    {
+      "id": "274961874",
+      "maximum_footprint_vertex_error": 1.1510948573502147e-05
+    },
+    {
+      "id": "306842711",
+      "maximum_footprint_vertex_error": 1.8682628960267953e-05
+    },
+    {
+      "id": "306842712",
+      "maximum_footprint_vertex_error": 1.8682628960267953e-05
+    },
+    {
+      "id": "453756109",
+      "maximum_footprint_vertex_error": 1.5658325118010647e-05
+    },
+    {
+      "id": "458475576",
+      "maximum_footprint_vertex_error": 1.4700830518479811e-05
+    },
+    {
+      "id": "458475578",
+      "maximum_footprint_vertex_error": 1.3035260907162858e-05
+    },
+    {
+      "id": "546345955",
+      "maximum_footprint_vertex_error": 1.5005855689004458e-05
+    },
+    {
+      "id": "582801089",
+      "maximum_footprint_vertex_error": 1.3020270273676524e-05
+    },
+    {
+      "id": "582801091",
+      "maximum_footprint_vertex_error": 4.9408860710285e-06
+    },
+    {
+      "id": "582801093",
+      "maximum_footprint_vertex_error": 1.4394874978883679e-05
+    },
+    {
+      "id": "582801094",
+      "maximum_footprint_vertex_error": 1.0385504634217513e-05
+    },
+    {
+      "id": "645101127",
+      "maximum_footprint_vertex_error": 1.0232317586264237e-05
+    },
+    {
+      "id": "645101128",
+      "maximum_footprint_vertex_error": 5.000427413027795e-06
+    },
+    {
+      "id": "1337806183",
+      "maximum_footprint_vertex_error": 1.5114718062521943e-05
+    },
+    {
+      "id": "1337806200",
+      "maximum_footprint_vertex_error": 6.846602294368295e-06
+    },
+    {
+      "id": "1337806201",
+      "maximum_footprint_vertex_error": 5.185314779541053e-06
+    },
+    {
+      "id": "1337806205",
+      "maximum_footprint_vertex_error": 1.4737749570443749e-05
+    },
+    {
+      "id": "1337806216",
+      "maximum_footprint_vertex_error": 8.179733590230112e-06
+    },
+    {
+      "id": "1337806217",
+      "maximum_footprint_vertex_error": 1.4213329654754823e-05
+    },
+    {
+      "id": "1337806227",
+      "maximum_footprint_vertex_error": 8.919779256938252e-06
+    },
+    {
+      "id": "1337806228",
+      "maximum_footprint_vertex_error": 1.284772703859143e-05
+    },
+    {
+      "id": "1337806229",
+      "maximum_footprint_vertex_error": 1.3553816737179814e-05
+    },
+    {
+      "id": "155639279",
+      "maximum_footprint_vertex_error": 1.5106763603982879e-05
+    },
+    {
+      "id": "164179124",
+      "maximum_footprint_vertex_error": 1.3739858417918376e-05
+    },
+    {
+      "id": "164179149",
+      "maximum_footprint_vertex_error": 1.4384022448222582e-05
+    },
+    {
+      "id": "164179193",
+      "maximum_footprint_vertex_error": 1.0628701305888015e-05
+    },
+    {
+      "id": "164179322",
+      "maximum_footprint_vertex_error": 1.5101563062203875e-05
+    },
+    {
+      "id": "164179329",
+      "maximum_footprint_vertex_error": 1.498235027297826e-05
+    },
+    {
+      "id": "164184509",
+      "maximum_footprint_vertex_error": 1.482864601395133e-05
+    },
+    {
+      "id": "164184514",
+      "maximum_footprint_vertex_error": 1.2908016167112314e-05
+    },
+    {
+      "id": "216534872",
+      "maximum_footprint_vertex_error": 1.1443800489593558e-05
+    },
+    {
+      "id": "216534873",
+      "maximum_footprint_vertex_error": 1.341849568737945e-05
+    },
+    {
+      "id": "777812550",
+      "maximum_footprint_vertex_error": 1.4863136516476188e-05
+    },
+    {
+      "id": "1337806190",
+      "maximum_footprint_vertex_error": 1.4385182602394367e-05
+    },
+    {
+      "id": "1337806194",
+      "maximum_footprint_vertex_error": 1.680218500428203e-05
+    },
+    {
+      "id": "1337806195",
+      "maximum_footprint_vertex_error": 1.2908016167112314e-05
+    }
+  ],
+  "maximum_footprint_error": 3.771379027545794e-05,
+  "scope": "134 user-authorized abstract masses on OSM footprints plus10 mapped hardscape polygons and exterior measured terrain extension; unknown heights remain explicit neutral8m assumptions",
+  "accepted_scope": "Technical/source-footprint checks only; full11-region completion NOT claimed"
+}

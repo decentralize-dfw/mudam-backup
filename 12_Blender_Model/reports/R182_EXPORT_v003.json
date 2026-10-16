@@ -1,0 +1,1037 @@
+{
+  "accepted": false,
+  "source_scene": "MUDAM_R182_GENIS_ARAZI_MAHALLE_v003.blend",
+  "objects": [
+    {
+      "name": "R171_HARDSCAPE_777812548",
+      "triangles": 242,
+      "degenerate": 0,
+      "building": false,
+      "boundary_edges": 0
+    },
+    {
+      "name": "R171_HARDSCAPE_127664295",
+      "triangles": 726,
+      "degenerate": 0,
+      "building": false,
+      "boundary_edges": 0
+    },
+    {
+      "name": "R171_HARDSCAPE_547913345",
+      "triangles": 363,
+      "degenerate": 0,
+      "building": false,
+      "boundary_edges": 0
+    },
+    {
+      "name": "R171_HARDSCAPE_547913348",
+      "triangles": 363,
+      "degenerate": 0,
+      "building": false,
+      "boundary_edges": 0
+    },
+    {
+      "name": "R171_HARDSCAPE_574571071",
+      "triangles": 484,
+      "degenerate": 0,
+      "building": false,
+      "boundary_edges": 0
+    },
+    {
+      "name": "R171_HARDSCAPE_730162258",
+      "triangles": 484,
+      "degenerate": 0,
+      "building": false,
+      "boundary_edges": 0
+    },
+    {
+      "name": "R171_HARDSCAPE_996462636",
+      "triangles": 847,
+      "degenerate": 0,
+      "building": false,
+      "boundary_edges": 0
+    },
+    {
+      "name": "R171_HARDSCAPE_1420370348",
+      "triangles": 2057,
+      "degenerate": 0,
+      "building": false,
+      "boundary_edges": 0
+    },
+    {
+      "name": "R171_HARDSCAPE_1482548915",
+      "triangles": 242,
+      "degenerate": 0,
+      "building": false,
+      "boundary_edges": 0
+    },
+    {
+      "name": "R171_HARDSCAPE_1482548916",
+      "triangles": 242,
+      "degenerate": 0,
+      "building": false,
+      "boundary_edges": 0
+    },
+    {
+      "name": "R182_EXTENSION_GROUND",
+      "triangles": 61905,
+      "degenerate": 0,
+      "building": false,
+      "boundary_edges": 0
+    },
+    {
+      "name": "R182_EXTENSION_ROADS",
+      "triangles": 15143,
+      "degenerate": 0,
+      "building": false,
+      "boundary_edges": 0
+    },
+    {
+      "name": "R182_DISTRICT_48993285",
+      "triangles": 12,
+      "degenerate": 0,
+      "building": true,
+      "boundary_edges": 0
+    },
+    {
+      "name": "R182_DISTRICT_52091728",
+      "triangles": 84,
+      "degenerate": 0,
+      "building": true,
+      "boundary_edges": 0
+    },
+    {
+      "name": "R182_DISTRICT_58609208",
+      "triangles": 40,
+      "degenerate": 0,
+      "building": true,
+      "boundary_edges": 0
+    },
+    {
+      "name": "R182_DISTRICT_58609209",
+      "triangles": 16,
+      "degenerate": 0,
+      "building": true,
+      "boundary_edges": 0
+    },
+    {
+      "name": "R182_DISTRICT_83179078",
+      "triangles": 52,
+      "degenerate": 0,
+      "building": true,
+      "boundary_edges": 0
+    },
+    {
+      "name": "R182_DISTRICT_92711481",
+      "triangles": 20,
+      "degenerate": 0,
+      "building": true,
+      "boundary_edges": 0
+    },
+    {
+      "name": "R182_DISTRICT_143863776",
+      "triangles": 12,
+      "degenerate": 0,
+      "building": true,
+      "boundary_edges": 0
+    },
+    {
+      "name": "R182_DISTRICT_143863777",
+      "triangles": 12,
+      "degenerate": 0,
+      "building": true,
+      "boundary_edges": 0
+    },
+    {
+      "name": "R182_DISTRICT_145323073",
+      "triangles": 40,
+      "degenerate": 0,
+      "building": true,
+      "boundary_edges": 0
+    },
+    {
+      "name": "R182_DISTRICT_145323089",
+      "triangles": 20,
+      "degenerate": 0,
+      "building": true,
+      "boundary_edges": 0
+    },
+    {
+      "name": "R182_DISTRICT_153344889",
+      "triangles": 12,
+      "degenerate": 0,
+      "building": true,
+      "boundary_edges": 0
+    },
+    {
+      "name": "R182_DISTRICT_153379126",
+      "triangles": 12,
+      "degenerate": 0,
+      "building": true,
+      "boundary_edges": 0
+    },
+    {
+      "name": "R182_DISTRICT_153379133",
+      "triangles": 16,
+      "degenerate": 0,
+      "building": true,
+      "boundary_edges": 0
+    },
+    {
+      "name": "R182_DISTRICT_155639263",
+      "triangles": 12,
+      "degenerate": 0,
+      "building": true,
+      "boundary_edges": 0
+    },
+    {
+      "name": "R182_DISTRICT_155639270",
+      "triangles": 20,
+      "degenerate": 0,
+      "building": true,
+      "boundary_edges": 0
+    },
+    {
+      "name": "R182_DISTRICT_155639276",
+      "triangles": 36,
+      "degenerate": 0,
+      "building": true,
+      "boundary_edges": 0
+    },
+    {
+      "name": "R182_DISTRICT_162041599",
+      "triangles": 28,
+      "degenerate": 0,
+      "building": true,
+      "boundary_edges": 0
+    },
+    {
+      "name": "R182_DISTRICT_162041608",
+      "triangles": 28,
+      "degenerate": 0,
+      "building": true,
+      "boundary_edges": 0
+    },
+    {
+      "name": "R182_DISTRICT_163103029",
+      "triangles": 176,
+      "degenerate": 0,
+      "building": true,
+      "boundary_edges": 0
+    },
+    {
+      "name": "R182_DISTRICT_164179247",
+      "triangles": 16,
+      "degenerate": 0,
+      "building": true,
+      "boundary_edges": 0
+    },
+    {
+      "name": "R182_DISTRICT_164179266",
+      "triangles": 12,
+      "degenerate": 0,
+      "building": true,
+      "boundary_edges": 0
+    },
+    {
+      "name": "R182_DISTRICT_164179276",
+      "triangles": 20,
+      "degenerate": 0,
+      "building": true,
+      "boundary_edges": 0
+    },
+    {
+      "name": "R182_DISTRICT_164179296",
+      "triangles": 20,
+      "degenerate": 0,
+      "building": true,
+      "boundary_edges": 0
+    },
+    {
+      "name": "R182_DISTRICT_164179321",
+      "triangles": 16,
+      "degenerate": 0,
+      "building": true,
+      "boundary_edges": 0
+    },
+    {
+      "name": "R182_DISTRICT_164180258",
+      "triangles": 12,
+      "degenerate": 0,
+      "building": true,
+      "boundary_edges": 0
+    },
+    {
+      "name": "R182_DISTRICT_164184496",
+      "triangles": 32,
+      "degenerate": 0,
+      "building": true,
+      "boundary_edges": 0
+    },
+    {
+      "name": "R182_DISTRICT_164184528",
+      "triangles": 16,
+      "degenerate": 0,
+      "building": true,
+      "boundary_edges": 0
+    },
+    {
+      "name": "R182_DISTRICT_164184549",
+      "triangles": 12,
+      "degenerate": 0,
+      "building": true,
+      "boundary_edges": 0
+    },
+    {
+      "name": "R182_DISTRICT_164184564",
+      "triangles": 72,
+      "degenerate": 0,
+      "building": true,
+      "boundary_edges": 0
+    },
+    {
+      "name": "R182_DISTRICT_164184565",
+      "triangles": 36,
+      "degenerate": 0,
+      "building": true,
+      "boundary_edges": 0
+    },
+    {
+      "name": "R182_DISTRICT_165232667",
+      "triangles": 32,
+      "degenerate": 0,
+      "building": true,
+      "boundary_edges": 0
+    },
+    {
+      "name": "R182_DISTRICT_166956469",
+      "triangles": 12,
+      "degenerate": 0,
+      "building": true,
+      "boundary_edges": 0
+    },
+    {
+      "name": "R182_DISTRICT_166956476",
+      "triangles": 12,
+      "degenerate": 0,
+      "building": true,
+      "boundary_edges": 0
+    },
+    {
+      "name": "R182_DISTRICT_166956477",
+      "triangles": 12,
+      "degenerate": 0,
+      "building": true,
+      "boundary_edges": 0
+    },
+    {
+      "name": "R182_DISTRICT_171495669",
+      "triangles": 36,
+      "degenerate": 0,
+      "building": true,
+      "boundary_edges": 0
+    },
+    {
+      "name": "R182_DISTRICT_171495678",
+      "triangles": 20,
+      "degenerate": 0,
+      "building": true,
+      "boundary_edges": 0
+    },
+    {
+      "name": "R182_DISTRICT_171495682",
+      "triangles": 40,
+      "degenerate": 0,
+      "building": true,
+      "boundary_edges": 0
+    },
+    {
+      "name": "R182_DISTRICT_171495694",
+      "triangles": 16,
+      "degenerate": 0,
+      "building": true,
+      "boundary_edges": 0
+    },
+    {
+      "name": "R182_DISTRICT_171495716",
+      "triangles": 28,
+      "degenerate": 0,
+      "building": true,
+      "boundary_edges": 0
+    },
+    {
+      "name": "R182_DISTRICT_171674237",
+      "triangles": 28,
+      "degenerate": 0,
+      "building": true,
+      "boundary_edges": 0
+    },
+    {
+      "name": "R182_DISTRICT_197552941",
+      "triangles": 132,
+      "degenerate": 0,
+      "building": true,
+      "boundary_edges": 0
+    },
+    {
+      "name": "R182_DISTRICT_216534891",
+      "triangles": 12,
+      "degenerate": 0,
+      "building": true,
+      "boundary_edges": 0
+    },
+    {
+      "name": "R182_DISTRICT_301836561",
+      "triangles": 36,
+      "degenerate": 0,
+      "building": true,
+      "boundary_edges": 0
+    },
+    {
+      "name": "R182_DISTRICT_453737278",
+      "triangles": 72,
+      "degenerate": 0,
+      "building": true,
+      "boundary_edges": 0
+    },
+    {
+      "name": "R182_DISTRICT_453737281",
+      "triangles": 72,
+      "degenerate": 0,
+      "building": true,
+      "boundary_edges": 0
+    },
+    {
+      "name": "R182_DISTRICT_453745328",
+      "triangles": 72,
+      "degenerate": 0,
+      "building": true,
+      "boundary_edges": 0
+    },
+    {
+      "name": "R182_DISTRICT_546346007",
+      "triangles": 12,
+      "degenerate": 0,
+      "building": true,
+      "boundary_edges": 0
+    },
+    {
+      "name": "R182_DISTRICT_546351307",
+      "triangles": 12,
+      "degenerate": 0,
+      "building": true,
+      "boundary_edges": 0
+    },
+    {
+      "name": "R182_DISTRICT_582803240",
+      "triangles": 12,
+      "degenerate": 0,
+      "building": true,
+      "boundary_edges": 0
+    },
+    {
+      "name": "R182_DISTRICT_582803241",
+      "triangles": 12,
+      "degenerate": 0,
+      "building": true,
+      "boundary_edges": 0
+    },
+    {
+      "name": "R182_DISTRICT_831196268",
+      "triangles": 12,
+      "degenerate": 0,
+      "building": true,
+      "boundary_edges": 0
+    },
+    {
+      "name": "R182_DISTRICT_831196269",
+      "triangles": 20,
+      "degenerate": 0,
+      "building": true,
+      "boundary_edges": 0
+    },
+    {
+      "name": "R182_DISTRICT_832920701",
+      "triangles": 24,
+      "degenerate": 0,
+      "building": true,
+      "boundary_edges": 0
+    },
+    {
+      "name": "R182_DISTRICT_832920704",
+      "triangles": 20,
+      "degenerate": 0,
+      "building": true,
+      "boundary_edges": 0
+    },
+    {
+      "name": "R182_DISTRICT_927885562",
+      "triangles": 24,
+      "degenerate": 0,
+      "building": true,
+      "boundary_edges": 0
+    },
+    {
+      "name": "R182_DISTRICT_927885563",
+      "triangles": 12,
+      "degenerate": 0,
+      "building": true,
+      "boundary_edges": 0
+    },
+    {
+      "name": "R182_DISTRICT_930614758",
+      "triangles": 28,
+      "degenerate": 0,
+      "building": true,
+      "boundary_edges": 0
+    },
+    {
+      "name": "R182_DISTRICT_930614763",
+      "triangles": 12,
+      "degenerate": 0,
+      "building": true,
+      "boundary_edges": 0
+    },
+    {
+      "name": "R182_DISTRICT_930614764",
+      "triangles": 24,
+      "degenerate": 0,
+      "building": true,
+      "boundary_edges": 0
+    },
+    {
+      "name": "R182_DISTRICT_996462637",
+      "triangles": 20,
+      "degenerate": 0,
+      "building": true,
+      "boundary_edges": 0
+    },
+    {
+      "name": "R182_DISTRICT_1337806173",
+      "triangles": 12,
+      "degenerate": 0,
+      "building": true,
+      "boundary_edges": 0
+    },
+    {
+      "name": "R182_DISTRICT_1337806174",
+      "triangles": 16,
+      "degenerate": 0,
+      "building": true,
+      "boundary_edges": 0
+    },
+    {
+      "name": "R182_DISTRICT_1337806175",
+      "triangles": 20,
+      "degenerate": 0,
+      "building": true,
+      "boundary_edges": 0
+    },
+    {
+      "name": "R182_DISTRICT_1337806192",
+      "triangles": 12,
+      "degenerate": 0,
+      "building": true,
+      "boundary_edges": 0
+    },
+    {
+      "name": "R182_DISTRICT_1337806196",
+      "triangles": 12,
+      "degenerate": 0,
+      "building": true,
+      "boundary_edges": 0
+    },
+    {
+      "name": "R182_DISTRICT_1337806197",
+      "triangles": 20,
+      "degenerate": 0,
+      "building": true,
+      "boundary_edges": 0
+    },
+    {
+      "name": "R182_DISTRICT_1337806198",
+      "triangles": 12,
+      "degenerate": 0,
+      "building": true,
+      "boundary_edges": 0
+    },
+    {
+      "name": "R182_DISTRICT_1467794790",
+      "triangles": 24,
+      "degenerate": 0,
+      "building": true,
+      "boundary_edges": 0
+    },
+    {
+      "name": "R171_155639257",
+      "triangles": 100,
+      "degenerate": 0,
+      "building": true,
+      "boundary_edges": 0
+    },
+    {
+      "name": "R171_164179114",
+      "triangles": 44,
+      "degenerate": 0,
+      "building": true,
+      "boundary_edges": 0
+    },
+    {
+      "name": "R171_164179122",
+      "triangles": 56,
+      "degenerate": 0,
+      "building": true,
+      "boundary_edges": 0
+    },
+    {
+      "name": "R171_164179134",
+      "triangles": 12,
+      "degenerate": 0,
+      "building": true,
+      "boundary_edges": 0
+    },
+    {
+      "name": "R171_164179136",
+      "triangles": 12,
+      "degenerate": 0,
+      "building": true,
+      "boundary_edges": 0
+    },
+    {
+      "name": "R171_164179146",
+      "triangles": 12,
+      "degenerate": 0,
+      "building": true,
+      "boundary_edges": 0
+    },
+    {
+      "name": "R171_164179151",
+      "triangles": 36,
+      "degenerate": 0,
+      "building": true,
+      "boundary_edges": 0
+    },
+    {
+      "name": "R171_164179172",
+      "triangles": 12,
+      "degenerate": 0,
+      "building": true,
+      "boundary_edges": 0
+    },
+    {
+      "name": "R171_164179175",
+      "triangles": 12,
+      "degenerate": 0,
+      "building": true,
+      "boundary_edges": 0
+    },
+    {
+      "name": "R171_164179187",
+      "triangles": 36,
+      "degenerate": 0,
+      "building": true,
+      "boundary_edges": 0
+    },
+    {
+      "name": "R171_164179230",
+      "triangles": 12,
+      "degenerate": 0,
+      "building": true,
+      "boundary_edges": 0
+    },
+    {
+      "name": "R171_164179236",
+      "triangles": 32,
+      "degenerate": 0,
+      "building": true,
+      "boundary_edges": 0
+    },
+    {
+      "name": "R171_164179239",
+      "triangles": 12,
+      "degenerate": 0,
+      "building": true,
+      "boundary_edges": 0
+    },
+    {
+      "name": "R171_164179243",
+      "triangles": 12,
+      "degenerate": 0,
+      "building": true,
+      "boundary_edges": 0
+    },
+    {
+      "name": "R171_164179251",
+      "triangles": 12,
+      "degenerate": 0,
+      "building": true,
+      "boundary_edges": 0
+    },
+    {
+      "name": "R171_164179257",
+      "triangles": 12,
+      "degenerate": 0,
+      "building": true,
+      "boundary_edges": 0
+    },
+    {
+      "name": "R171_164179267",
+      "triangles": 12,
+      "degenerate": 0,
+      "building": true,
+      "boundary_edges": 0
+    },
+    {
+      "name": "R171_164179284",
+      "triangles": 28,
+      "degenerate": 0,
+      "building": true,
+      "boundary_edges": 0
+    },
+    {
+      "name": "R171_164179295",
+      "triangles": 12,
+      "degenerate": 0,
+      "building": true,
+      "boundary_edges": 0
+    },
+    {
+      "name": "R171_164184497",
+      "triangles": 36,
+      "degenerate": 0,
+      "building": true,
+      "boundary_edges": 0
+    },
+    {
+      "name": "R171_164184498",
+      "triangles": 44,
+      "degenerate": 0,
+      "building": true,
+      "boundary_edges": 0
+    },
+    {
+      "name": "R171_164184504",
+      "triangles": 12,
+      "degenerate": 0,
+      "building": true,
+      "boundary_edges": 0
+    },
+    {
+      "name": "R171_164184511",
+      "triangles": 16,
+      "degenerate": 0,
+      "building": true,
+      "boundary_edges": 0
+    },
+    {
+      "name": "R171_164184515",
+      "triangles": 12,
+      "degenerate": 0,
+      "building": true,
+      "boundary_edges": 0
+    },
+    {
+      "name": "R171_164184527",
+      "triangles": 28,
+      "degenerate": 0,
+      "building": true,
+      "boundary_edges": 0
+    },
+    {
+      "name": "R171_164184542",
+      "triangles": 12,
+      "degenerate": 0,
+      "building": true,
+      "boundary_edges": 0
+    },
+    {
+      "name": "R171_164184548",
+      "triangles": 12,
+      "degenerate": 0,
+      "building": true,
+      "boundary_edges": 0
+    },
+    {
+      "name": "R171_164184558",
+      "triangles": 28,
+      "degenerate": 0,
+      "building": true,
+      "boundary_edges": 0
+    },
+    {
+      "name": "R171_216535733",
+      "triangles": 12,
+      "degenerate": 0,
+      "building": true,
+      "boundary_edges": 0
+    },
+    {
+      "name": "R171_274961867",
+      "triangles": 12,
+      "degenerate": 0,
+      "building": true,
+      "boundary_edges": 0
+    },
+    {
+      "name": "R171_274961874",
+      "triangles": 12,
+      "degenerate": 0,
+      "building": true,
+      "boundary_edges": 0
+    },
+    {
+      "name": "R171_306842711",
+      "triangles": 48,
+      "degenerate": 0,
+      "building": true,
+      "boundary_edges": 0
+    },
+    {
+      "name": "R171_306842712",
+      "triangles": 12,
+      "degenerate": 0,
+      "building": true,
+      "boundary_edges": 0
+    },
+    {
+      "name": "R171_453756109",
+      "triangles": 72,
+      "degenerate": 0,
+      "building": true,
+      "boundary_edges": 0
+    },
+    {
+      "name": "R171_458475576",
+      "triangles": 16,
+      "degenerate": 0,
+      "building": true,
+      "boundary_edges": 0
+    },
+    {
+      "name": "R171_458475578",
+      "triangles": 12,
+      "degenerate": 0,
+      "building": true,
+      "boundary_edges": 0
+    },
+    {
+      "name": "R171_546345955",
+      "triangles": 28,
+      "degenerate": 0,
+      "building": true,
+      "boundary_edges": 0
+    },
+    {
+      "name": "R171_582801089",
+      "triangles": 16,
+      "degenerate": 0,
+      "building": true,
+      "boundary_edges": 0
+    },
+    {
+      "name": "R171_582801091",
+      "triangles": 12,
+      "degenerate": 0,
+      "building": true,
+      "boundary_edges": 0
+    },
+    {
+      "name": "R171_582801093",
+      "triangles": 12,
+      "degenerate": 0,
+      "building": true,
+      "boundary_edges": 0
+    },
+    {
+      "name": "R171_582801094",
+      "triangles": 12,
+      "degenerate": 0,
+      "building": true,
+      "boundary_edges": 0
+    },
+    {
+      "name": "R171_645101127",
+      "triangles": 28,
+      "degenerate": 0,
+      "building": true,
+      "boundary_edges": 0
+    },
+    {
+      "name": "R171_645101128",
+      "triangles": 12,
+      "degenerate": 0,
+      "building": true,
+      "boundary_edges": 0
+    },
+    {
+      "name": "R171_1337806183",
+      "triangles": 20,
+      "degenerate": 0,
+      "building": true,
+      "boundary_edges": 0
+    },
+    {
+      "name": "R171_1337806200",
+      "triangles": 16,
+      "degenerate": 0,
+      "building": true,
+      "boundary_edges": 0
+    },
+    {
+      "name": "R171_1337806201",
+      "triangles": 16,
+      "degenerate": 0,
+      "building": true,
+      "boundary_edges": 0
+    },
+    {
+      "name": "R171_1337806205",
+      "triangles": 12,
+      "degenerate": 0,
+      "building": true,
+      "boundary_edges": 0
+    },
+    {
+      "name": "R171_1337806216",
+      "triangles": 12,
+      "degenerate": 0,
+      "building": true,
+      "boundary_edges": 0
+    },
+    {
+      "name": "R171_1337806217",
+      "triangles": 12,
+      "degenerate": 0,
+      "building": true,
+      "boundary_edges": 0
+    },
+    {
+      "name": "R171_1337806227",
+      "triangles": 12,
+      "degenerate": 0,
+      "building": true,
+      "boundary_edges": 0
+    },
+    {
+      "name": "R171_1337806228",
+      "triangles": 12,
+      "degenerate": 0,
+      "building": true,
+      "boundary_edges": 0
+    },
+    {
+      "name": "R171_1337806229",
+      "triangles": 12,
+      "degenerate": 0,
+      "building": true,
+      "boundary_edges": 0
+    },
+    {
+      "name": "R174_155639279",
+      "triangles": 36,
+      "degenerate": 0,
+      "building": true,
+      "boundary_edges": 0
+    },
+    {
+      "name": "R174_164179124",
+      "triangles": 28,
+      "degenerate": 0,
+      "building": true,
+      "boundary_edges": 0
+    },
+    {
+      "name": "R174_164179149",
+      "triangles": 12,
+      "degenerate": 0,
+      "building": true,
+      "boundary_edges": 0
+    },
+    {
+      "name": "R174_164179193",
+      "triangles": 12,
+      "degenerate": 0,
+      "building": true,
+      "boundary_edges": 0
+    },
+    {
+      "name": "R174_164179322",
+      "triangles": 28,
+      "degenerate": 0,
+      "building": true,
+      "boundary_edges": 0
+    },
+    {
+      "name": "R174_164179329",
+      "triangles": 36,
+      "degenerate": 0,
+      "building": true,
+      "boundary_edges": 0
+    },
+    {
+      "name": "R174_164184509",
+      "triangles": 12,
+      "degenerate": 0,
+      "building": true,
+      "boundary_edges": 0
+    },
+    {
+      "name": "R174_164184514",
+      "triangles": 12,
+      "degenerate": 0,
+      "building": true,
+      "boundary_edges": 0
+    },
+    {
+      "name": "R174_216534872",
+      "triangles": 12,
+      "degenerate": 0,
+      "building": true,
+      "boundary_edges": 0
+    },
+    {
+      "name": "R174_216534873",
+      "triangles": 12,
+      "degenerate": 0,
+      "building": true,
+      "boundary_edges": 0
+    },
+    {
+      "name": "R174_777812550",
+      "triangles": 20,
+      "degenerate": 0,
+      "building": true,
+      "boundary_edges": 0
+    },
+    {
+      "name": "R174_1337806190",
+      "triangles": 28,
+      "degenerate": 0,
+      "building": true,
+      "boundary_edges": 0
+    },
+    {
+      "name": "R174_1337806194",
+      "triangles": 12,
+      "degenerate": 0,
+      "building": true,
+      "boundary_edges": 0
+    },
+    {
+      "name": "R174_1337806195",
+      "triangles": 12,
+      "degenerate": 0,
+      "building": true,
+      "boundary_edges": 0
+    }
+  ],
+  "buildings": 134,
+  "boundary_adjustments": 559,
+  "maximum_boundary_correction": 0.7196159362792969,
+  "bytes": 3492552,
+  "pending": [
+    "GLB reopen and compression",
+    "Source footprint verification",
+    "No acceptance of unrelated fort/northern architecture candidates"
+  ]
+}

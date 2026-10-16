@@ -1,0 +1,42 @@
+{
+  "revision": "R182-lower-district-footprints-review",
+  "dateUTC": "2026-10-16T19:17:41.550Z",
+  "bytes": 13006704,
+  "triangles": 215262,
+  "addedTriangles": 86402,
+  "buildings": 134,
+  "maximumFootprintError": 0.00003771379027545794,
+  "sha256": "9a19c1f34fa7c204dcc9a17954af4fd5f0fd98708eab124fd1e96847e50fb46e",
+  "sourceBounds": {
+    "min": [
+      -600,
+      -81.07743072509766,
+      -800
+    ],
+    "max": [
+      800,
+      22.67420768737793,
+      600
+    ]
+  },
+  "textures": [
+    "image/webp",
+    "image/webp",
+    "image/webp",
+    "image/webp",
+    "image/webp",
+    "image/webp",
+    "image/webp",
+    "image/webp",
+    "image/webp"
+  ],
+  "scopeAcceptance": "User-authorized abstract footprint massing and terrain extension only; not full11-region completion",
+  "excludedCandidates": [
+    "R172/R181 fort",
+    "R175 viaduct",
+    "R176 northern architecture",
+    "R177 road replacement",
+    "R178/R180 station",
+    "R179 background masses"
+  ]
+}
