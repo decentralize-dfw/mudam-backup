@@ -1,0 +1,30 @@
+{
+  "reviewOnly": true,
+  "fullScopeAccepted": false,
+  "sourceScene": "MUDAM_R418_KALE_OLCULU_KULE_CATILARI_ADAY_v001.blend",
+  "files": {
+    "near": {
+      "file": "12_Blender_Model/exports/r152_clean/r418_near_draco_webp_REVIEW.glb",
+      "bytes": 8310648,
+      "sha256": "8ce6269e267ec44abac4a7ca2dcf03c35f8cfa5e4a048fb3aa2edfe81a532a3a",
+      "triangles": 348013,
+      "zero": 0,
+      "removedDegenerates": 265,
+      "preservedRowNodes": 0,
+      "bounds": {
+        "min": [
+          -500,
+          -78.04438781738281,
+          -650
+        ],
+        "max": [
+          650.000244140625,
+          16.323524475097656,
+          450.000244140625
+        ]
+      },
+      "decoded": true,
+      "textures": 17
+    }
+  }
+}

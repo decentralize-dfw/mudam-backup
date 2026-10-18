@@ -1,14 +1,13 @@
 {
   "name": "Context 3",
-  "revision": "R314-current-model-user-review",
-  "source": "Latest local R314 model published at explicit user request for review. First six and full eleven regions remain incomplete. Existing authored row included once; no scan merged into this release. Inherited older scan-derived surfaces still remain in the scene and need replacement. ECCL rounded canopy silhouette, facade accuracy, fort continuity, bridge approaches and hardscape are unresolved.",
+  "revision": "R418-museum-fortifications-user-review",
+  "source": "R418 immediate museum fortifications and ground connections published at explicit user request for review. Includes independent earth-cover reconstruction, measured conical tower roofs, timber terrace transition and east moat continuation. Outer tower facades, some wall copings and ground interfaces remain incomplete. Full source-fidelity acceptance is false. Other Context 3 layers remain at their prior published revisions.",
   "compression": "Draco 24-bit positions; WebP quality 92; original texture resolution",
   "files": {
     "near": {
-      "file": "model/cevre3/authored-near.glb?v=f94a54fc78f5",
-      "bytes": 7556948,
-      "sha256": "f94a54fc78f5077c59598604ff1e0510a58262478d74449c1c20ade137f23b40",
-      "triangles": 308579,
+      "bytes": 8310648,
+      "sha256": "8ce6269e267ec44abac4a7ca2dcf03c35f8cfa5e4a048fb3aa2edfe81a532a3a",
+      "triangles": 348013,
       "bounds": {
         "min": [
           -500,
@@ -21,7 +20,8 @@
           450.000244140625
         ]
       },
-      "textures": 16,
+      "textures": 17,
+      "file": "model/cevre3/authored-near.glb?v=8ce6269e267e",
       "reviewOnly": true
     },
     "far": {
@@ -140,5 +140,6 @@
       "reviewOnly": true
     }
   },
-  "reviewOnly": true
+  "reviewOnly": true,
+  "fullScopeAccepted": false
 }

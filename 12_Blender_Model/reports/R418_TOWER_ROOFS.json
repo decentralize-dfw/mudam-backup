@@ -1,0 +1,82 @@
+{
+  "scene": "MUDAM_R418_KALE_OLCULU_KULE_CATILARI_ADAY_v001.blend",
+  "accepted": false,
+  "published": false,
+  "changes": [
+    {
+      "tower": "WEST",
+      "cap": "R418_TOWER_CONICAL_ROOF_WEST",
+      "eave": 5.125725821505486,
+      "oldEave": 5.2963275671005245,
+      "corniceDelta": -0.1706017455950386,
+      "corniceVertices": 256,
+      "fit": {
+        "coef": [
+          6.078584186338154,
+          -0.202735822304823
+        ],
+        "heldout": 80,
+        "rms": 0.07018917661990774,
+        "max": 0.1369460792421684,
+        "valid": true
+      }
+    },
+    {
+      "tower": "CENTRE",
+      "cap": "R418_TOWER_CONICAL_ROOF_CENTRE",
+      "eave": 5.015980895273602,
+      "oldEave": 5.076397705078125,
+      "corniceDelta": -0.06041680980452302,
+      "corniceVertices": 288,
+      "fit": {
+        "coef": [
+          5.89793162332168,
+          -0.2939835760160261
+        ],
+        "heldout": 24,
+        "rms": 0.02355511849788468,
+        "max": 0.04641004155486961,
+        "valid": true
+      }
+    },
+    {
+      "tower": "SOUTH",
+      "cap": "R418_TOWER_CONICAL_ROOF_SOUTH",
+      "eave": 4.941059958954094,
+      "oldEave": 5.07807092666626,
+      "corniceDelta": -0.1370109677121656,
+      "corniceVertices": 192,
+      "fit": {
+        "coef": [
+          5.998018002686897,
+          -0.2248846901559156
+        ],
+        "heldout": 80,
+        "rms": 0.04625434420189512,
+        "max": 0.12279177056212731,
+        "valid": true
+      }
+    }
+  ],
+  "checks": [
+    {
+      "name": "R418_TOWER_CONICAL_ROOF_WEST",
+      "nonManifold": 0,
+      "zeroArea": 0
+    },
+    {
+      "name": "R418_TOWER_CONICAL_ROOF_CENTRE",
+      "nonManifold": 0,
+      "zeroArea": 0
+    },
+    {
+      "name": "R418_TOWER_CONICAL_ROOF_SOUTH",
+      "nonManifold": 0,
+      "zeroArea": 0
+    }
+  ],
+  "limits": [
+    "Conical profile supported by held-out classified returns; decorative acorn shape remains inherited and not measured.",
+    "Whole museum ring remains incomplete."
+  ]
+}
