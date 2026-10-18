@@ -1,46 +1,46 @@
 {
-  "updatedUTC": "2026-10-16T23:51:22.094962+02:00",
+  "updatedUTC": "2026-10-18T12:28:46.779676+00:00",
   "fullScopeAccepted": false,
   "similarityPercent": null,
-  "productionCommit": "5788408ad1a580ce6134e028f74f9682d4781c0a",
-  "productionRevision": "R213-current-model-user-review",
-  "localMaster": "MUDAM_R213_PALAIS_GIRIS_ZEMINLERI_v002.blend",
+  "productionCommit": "pending explicit review publication",
+  "productionRevision": "R314-current-model-user-review",
+  "localMaster": "MUDAM_R314_ECCL_GUNEY_KOSE_OTURUM_ADAY_v001.blend",
   "regions": [
     {
       "id": 1,
       "state": "published_review_incomplete",
-      "implemented": "Independent75wall segments, whole outer bastion surfaces, connected moat, boundary faces, southwest graded court and two source-traced walks; closed southwest ruin walls/floor and central connecting masonry",
-      "remaining": "Whole fort source agreement, terrace/wall/ground continuity and GLB/reopen acceptance"
+      "implemented": "R303/R304 eastern terrace and northern court/bank added to prior independent fort",
+      "remaining": "Full fort boundaries, retaining contacts and source fidelity incomplete"
     },
     {
       "id": 2,
-      "state": "abstract_massing_published_ground_incomplete",
-      "implemented": "Part of134 source-footprint abstract lower-district masses",
-      "remaining": "Coverage comparison against all marked parcels and hardscape; unknown heights explicitly provisional"
+      "state": "published_review_incomplete",
+      "implemented": "151 mapped footprint IDs accounted within audited lower-district rectangle:147 abstract masses and4 preserved detailed row buildings",
+      "remaining": "One ground boundary miss, marked-area extent and hardscape remain unresolved"
     },
     {
       "id": 3,
-      "state": "abstract_massing_published_ground_incomplete",
-      "implemented": "Shared lower-district massing and extended DEM terrain",
-      "remaining": "Remaining boundary footprints, street/parcel connections"
+      "state": "published_review_incomplete",
+      "implemented": "Same lower-district massing coverage;13 missing masses added and detailed row preserved once",
+      "remaining": "Full plot/road/ground relations incomplete"
     },
     {
       "id": 4,
       "state": "published_review_incomplete",
-      "implemented": "Independent273.717m curved mapped railway viaduct, paired tracks, mapped lower roadbridge; source-supported grade forfirst164.83m only",
-      "remaining": "Railapproaches, outside-source grade/arch rhythm uncertainty, roadbridge approach connections and visual/export acceptance"
+      "implemented": "Mapped north railway approach extended to166m; original mapped viaduct retained",
+      "remaining": "Adjacent northviaduct, southapproach, arch rhythm and terrain adjustment up to5.219m need correction"
     },
     {
       "id": 5,
       "state": "published_review_incomplete",
-      "implemented": "Anneau and Palais courtyard volumes, facade openings and columns",
-      "remaining": "Erasmus and other missing coverage; source-accurate facades, openings, roof details and hardscape. Six independent building shells technically closed; full source fidelity not accepted."
+      "implemented": "Independent Erasmus roof/facade/courtyard candidates added to prior building groups",
+      "remaining": "Hidden facades, source fidelity and ground connections incomplete"
     },
     {
       "id": 6,
       "state": "published_review_incomplete",
-      "implemented": "Novotel high/low volumes, Novotel Suites, staggered Mama Shelter facade, measured technical roof blocks and terrace candidate; Novotel main roof planes corrected to29.616/16.150m, closed parapets and Suites roof, source-traced raised roof divisions",
-      "remaining": "Erasmus and other missing coverage; source-accurate facades, openings, roof details and hardscape. Six independent building shells technically closed; full source fidelity not accepted."
+      "implemented": "Independent towers, oval building, rooflights, ECCL road/forest facade and corner candidates included",
+      "remaining": "Rounded ECCL canopy silhouette mismatch, provisional facade subdivisions, remaining older inherited surfaces and hardscape incomplete"
     },
     {
       "id": 7,
@@ -83,5 +83,5 @@
     "excluded": "All unaccepted fort, detailed northern buildings, station, viaduct and courtyard candidates",
     "published": true
   },
-  "technicalValidation": "Current three GLB payloads decoded after Draco/WebP, finite positions and zero degenerate triangles. Source fidelity acceptance is separate and incomplete."
+  "technicalValidation": "All three Draco/WebP GLBs decoded, finite positions, zero degenerate triangles after collapsed-triangle cleanup;322 ARCH nodes included exactly once. Visual/source acceptance remains false."
 }

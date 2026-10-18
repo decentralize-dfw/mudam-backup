@@ -1,0 +1,76 @@
+{
+  "reviewOnly": true,
+  "fullScopeAccepted": false,
+  "sourceScene": "MUDAM_R314_ECCL_GUNEY_KOSE_OTURUM_ADAY_v001.blend",
+  "files": {
+    "near": {
+      "file": "12_Blender_Model/exports/r152_clean/r314_near_draco_webp_REVIEW.glb",
+      "bytes": 7556948,
+      "sha256": "f94a54fc78f5077c59598604ff1e0510a58262478d74449c1c20ade137f23b40",
+      "triangles": 308579,
+      "zero": 0,
+      "removedDegenerates": 216,
+      "preservedRowNodes": 0,
+      "bounds": {
+        "min": [
+          -500,
+          -78.04438781738281,
+          -650
+        ],
+        "max": [
+          650.000244140625,
+          16.323524475097656,
+          450.000244140625
+        ]
+      },
+      "decoded": true,
+      "textures": 16
+    },
+    "district": {
+      "file": "12_Blender_Model/exports/r152_clean/r314_district_draco_webp_REVIEW.glb",
+      "bytes": 15716356,
+      "sha256": "f13d2fc363623e7bf2620e92ffc486eb9cd16c1367692ae9aec94b973ef39246",
+      "triangles": 525369,
+      "zero": 0,
+      "removedDegenerates": 1,
+      "preservedRowNodes": 322,
+      "bounds": {
+        "min": [
+          -627.9898071289062,
+          -82.54031372070312,
+          -800
+        ],
+        "max": [
+          800,
+          99.01801300048828,
+          600
+        ]
+      },
+      "decoded": true,
+      "textures": 15
+    },
+    "vegetation": {
+      "file": "12_Blender_Model/exports/r152_clean/r314_vegetation_draco_webp_REVIEW.glb",
+      "bytes": 286964,
+      "sha256": "6601c2ff5f540ea5cd4ec189e9f8502ebd4f10ed1b0e600f7800661ccfc31928",
+      "triangles": 7368,
+      "zero": 0,
+      "removedDegenerates": 0,
+      "preservedRowNodes": 0,
+      "bounds": {
+        "min": [
+          -0.6124610900878906,
+          -0.0006836694083176553,
+          -0.5949069261550903
+        ],
+        "max": [
+          0.6344858407974243,
+          1.161109447479248,
+          0.5961781740188599
+        ]
+      },
+      "decoded": true,
+      "textures": 1
+    }
+  }
+}

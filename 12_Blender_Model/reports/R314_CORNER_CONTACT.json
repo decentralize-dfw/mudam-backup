@@ -1,0 +1,104 @@
+{
+  "accepted": false,
+  "published": false,
+  "scene": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R314_ECCL_GUNEY_KOSE_OTURUM_ADAY_v001.blend",
+  "contacts": [
+    {
+      "name": "RETURN",
+      "samples": 41,
+      "base": -0.291815185546875,
+      "minGround": -0.141815185546875,
+      "maxGround": 5.895263671875
+    },
+    {
+      "name": "CORNER",
+      "samples": 41,
+      "base": -0.291815185546875,
+      "minGround": -0.141815185546875,
+      "maxGround": 1.6750640869140625
+    }
+  ],
+  "checks": [
+    {
+      "name": "R314_RETURN_BASE",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R314_CORNER_BASE",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R314_CORNER_GLASS",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R314_TRANSOM_7",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R314_TRANSOM_9.5",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R314_TRANSOM_12",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R314_TRANSOM_14.5",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R314_TRANSOM_17",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R314_TRANSOM_19.5",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R314_TRANSOM_22.45",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R314_MULLION_0",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R314_MULLION_1",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R314_MULLION_2",
+      "boundary": 0,
+      "zero": 0
+    }
+  ],
+  "limits": [
+    "Architectural closure between existing independent facade endpoints only",
+    "Corner subdivisions and underground support depth provisional",
+    "Whole ECCL and first-six acceptance remain incomplete"
+  ],
+  "visualComparison": {
+    "source": "renders/qa/R314_south_corner_source.png",
+    "candidate": "renders/qa/R314_south_corner.png",
+    "sameCamera": true,
+    "accepted": false,
+    "findings": [
+      "Source canopy southern tip is rounded; current long canopy/end return remains angular and must be reconstructed to measured curved plan boundary",
+      "Forest screen visible in source is lighter than candidate; exact lower openings obscured by trees",
+      "82 foundation samples supported; geometric closure does not establish source fidelity"
+    ]
+  }
+}
