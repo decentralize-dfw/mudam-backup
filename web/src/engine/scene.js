@@ -198,7 +198,7 @@ export class Stage {
 
   // Everything around the building, both model sets, loaded or not yet.
   contextRoots() {
-    return [this.site, this.trees, this.context.group, this.cevre2?.site, this.cevre2?.trees, this.cevre2?.near, this.cevre2?.far, ...Object.values(this.cevre3 ?? {})].filter(Boolean);
+    return [this.site, this.trees, this.context.group, this.cevre2?.site, this.cevre2?.trees, this.cevre2?.near, this.cevre2?.far, ...Object.entries(this.cevre3 ?? {}).filter(([key]) => key !== 'building').map(([, root]) => root)].filter(Boolean);
   }
 
   start() {

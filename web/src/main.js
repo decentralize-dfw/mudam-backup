@@ -409,7 +409,18 @@ class App {
         this.app.dataset.cevre3 = 'loading';
         button.setAttribute('aria-busy', 'true');
         this.cevre3Loading = this.stage.loadCevre2(this.cevre3, p => button.style.setProperty('--p', `${Math.round(p * 100)}%`), () => this.applyVisibility(), 3)
-          .then(() => { this.app.dataset.cevre3 = 'ready'; this.focus.patchRoots(this.stage.contextRoots()); if (this.s.wire) this.buildWire(); })
+          .then(async () => {
+            const bands = this.stage.building.sources[3];
+            if (bands && this.mx) for (const b of bands) this.mx.attach(b.group);
+            this.stage.building.setLamps(this.stage.building.lampLevel);
+            if (this.cevre3.pieces) {
+              const pieces = await fetch(`${BASE}${this.cevre3.pieces}`).then(r => { if (!r.ok) throw Error('Context 3 pieces unavailable'); return r.json(); });
+              if (this.mx) this.mx.build(pieces, 3);
+            }
+            this.app.dataset.cevre3 = 'ready';
+            this.focus.patchRoots(this.stage.contextRoots());
+            if (this.s.wire) this.buildWire();
+          })
           .catch(e => { console.error('Çevre 3', e); this.app.dataset.cevre3 = 'error'; this.cevre3Loading = null; throw e; })
           .finally(() => { button.removeAttribute('aria-busy'); button.style.removeProperty('--p'); });
       }
