@@ -1,13 +1,13 @@
 {
   "name": "Context 3",
-  "revision": "R418-museum-fortifications-user-review",
-  "source": "R418 immediate museum fortifications and ground connections published at explicit user request for review. Includes independent earth-cover reconstruction, measured conical tower roofs, timber terrace transition and east moat continuation. Outer tower facades, some wall copings and ground interfaces remain incomplete. Full source-fidelity acceptance is false. Other Context 3 layers remain at their prior published revisions.",
+  "revision": "R584-museum-ring-ground-and-materials-review",
+  "source": "Independent museum-ring wall and floor reconstruction, source-controlled levels, closed fort shell, metric CC0 stone/dry-ground materials and contact AO. Includes corrected southern wall/return and removal of overlapping east-moat paving. Review checkpoint; full source fidelity remains unaccepted. Main building AO remains local, other Context3 layers unchanged.",
   "compression": "Draco 24-bit positions; WebP quality 92; original texture resolution",
   "files": {
     "near": {
-      "bytes": 8310648,
-      "sha256": "8ce6269e267ec44abac4a7ca2dcf03c35f8cfa5e4a048fb3aa2edfe81a532a3a",
-      "triangles": 348013,
+      "bytes": 33277732,
+      "sha256": "4a8054840c93c23d0567ca1d9f1fe5bb41b26ee3e4774630ee674c298108878e",
+      "triangles": 399956,
       "bounds": {
         "min": [
           -500,
@@ -20,8 +20,8 @@
           450.000244140625
         ]
       },
-      "textures": 17,
-      "file": "model/cevre3/authored-near.glb?v=8ce6269e267e",
+      "textures": 23,
+      "file": "model/cevre3/authored-near.glb?v=4a8054840c93",
       "reviewOnly": true
     },
     "far": {

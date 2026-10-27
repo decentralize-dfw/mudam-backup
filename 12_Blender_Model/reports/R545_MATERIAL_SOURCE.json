@@ -1,0 +1,27 @@
+{
+  "source": "https://polyhaven.com/a/withered_grass",
+  "author": "Charlotte Baglioni",
+  "license": "CC0",
+  "physicalWidthMetres": 2,
+  "files": [
+    {
+      "file": "textures\\polyhaven_withered_grass\\withered_grass_diff_2k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/withered_grass/withered_grass_diff_2k.jpg",
+      "bytes": 4632786,
+      "sha256": "0cf0fca68cbf4277199a2b9b7b3a8013357e4087247b1367f86d4a53b4fafa7e"
+    },
+    {
+      "file": "textures\\polyhaven_withered_grass\\withered_grass_nor_gl_2k.png",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/2k/withered_grass/withered_grass_nor_gl_2k.png",
+      "bytes": 24597734,
+      "sha256": "5b4be863674ec322952cc3e0aa2a33980b194ad65d83ff012e348ae4bd38849f"
+    },
+    {
+      "file": "textures\\polyhaven_withered_grass\\withered_grass_rough_2k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/withered_grass/withered_grass_rough_2k.jpg",
+      "bytes": 3666367,
+      "sha256": "86adb8d6f24d0a38eb96c6b625f2dd027b805f59af46fe2a05ffe29f633e33c8"
+    }
+  ],
+  "role": "Generic dry sparse grass PBR matching observed landcover class; not a museum photograph or exact blade pattern"
+}

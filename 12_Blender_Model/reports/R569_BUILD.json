@@ -1,0 +1,29 @@
+{
+  "checks": [
+    {
+      "name": "R494_SOUTH_PAVILION_OUTER_RETAINING_WALL",
+      "nonManifold": 0,
+      "zeroArea": 0,
+      "signedVolume": 548.322867679244
+    },
+    {
+      "name": "R495_SOUTH_OUTER_WALL_EAST_RETURN",
+      "nonManifold": 0,
+      "zeroArea": 0,
+      "signedVolume": 235.4843698404111
+    },
+    {
+      "name": "R569_SOUTH_CAP_INNER_PAVED_FLOOR",
+      "nonManifold": 0,
+      "zeroArea": 0,
+      "signedVolume": 1.0894488700269385
+    }
+  ],
+  "reopened": true,
+  "sharedEastJunctionGap": 0.0,
+  "accepted": false,
+  "published": false,
+  "aoNeedsRebakeForChangedWalls": true,
+  "restoredPavedArea": 6.052495948477251,
+  "source": "R569_WALL_DESIGN.json"
+}

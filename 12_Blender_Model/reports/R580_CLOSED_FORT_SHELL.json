@@ -1,0 +1,20 @@
+{
+  "reopened": true,
+  "check": {
+    "boundary": 0,
+    "nonManifold": 0,
+    "zeroArea": 0
+  },
+  "originalOuterVertices": 1138,
+  "outerVertexMaxMovement": 0,
+  "oldFaces": 2204,
+  "newFaces": 4478,
+  "documentedRecessRays": 11,
+  "recessDepthMaxChange": 0.0,
+  "roofOpeningCapped": false,
+  "innerThicknessAssumption": 0.2,
+  "maxInnerDisplacement": 0.20000369802802134,
+  "supersedes": "R577 rejected: even-offset corner amplification",
+  "accepted": false,
+  "published": false
+}

@@ -1,0 +1,184 @@
+{
+  "reopened": true,
+  "targets": [
+    {
+      "name": "R152_HISTORIC_WALL_453755312",
+      "loops": 1426
+    },
+    {
+      "name": "R152_HISTORIC_WALL_453755316",
+      "loops": 1144
+    },
+    {
+      "name": "R152_HISTORIC_WALL_49911001",
+      "loops": 3416
+    },
+    {
+      "name": "R152_HISTORIC_WALL_51768377",
+      "loops": 1688
+    },
+    {
+      "name": "R152_HISTORIC_WALL_51946350",
+      "loops": 88
+    },
+    {
+      "name": "R152_HISTORIC_WALL_51946351",
+      "loops": 40
+    },
+    {
+      "name": "R152_HISTORIC_WALL_563325236",
+      "loops": 248
+    },
+    {
+      "name": "R152_HISTORIC_WALL_563325237",
+      "loops": 344
+    },
+    {
+      "name": "R152_HISTORIC_WALL_563433144",
+      "loops": 328
+    },
+    {
+      "name": "R152_HISTORIC_WALL_759551378",
+      "loops": 744
+    },
+    {
+      "name": "R152_HISTORIC_WALL_759551379",
+      "loops": 812
+    },
+    {
+      "name": "R152_HISTORIC_WALL_759680904",
+      "loops": 264
+    },
+    {
+      "name": "R152_HISTORIC_WALL_759680906",
+      "loops": 72
+    },
+    {
+      "name": "R152_HISTORIC_WALL_759680907",
+      "loops": 168
+    },
+    {
+      "name": "R152_HISTORIC_WALL_759680912",
+      "loops": 184
+    },
+    {
+      "name": "R152_HISTORIC_WALL_759811368",
+      "loops": 56
+    },
+    {
+      "name": "R152_HISTORIC_WALL_824216706",
+      "loops": 56
+    },
+    {
+      "name": "R152_HISTORIC_WALL_869105673",
+      "loops": 552
+    },
+    {
+      "name": "R152_HISTORIC_WALL_869145008",
+      "loops": 312
+    },
+    {
+      "name": "R152_HISTORIC_WALL_869145009",
+      "loops": 424
+    },
+    {
+      "name": "R152_HISTORIC_WALL_903866846",
+      "loops": 280
+    },
+    {
+      "name": "R152_HISTORIC_WALL_92711484",
+      "loops": 1160
+    },
+    {
+      "name": "R152_RUIN_PARTITION_00",
+      "loops": 168
+    },
+    {
+      "name": "R152_RUIN_PARTITION_10",
+      "loops": 104
+    },
+    {
+      "name": "R321_MUSEUM_WEST_MOAT_RETAINING",
+      "loops": 1016
+    },
+    {
+      "name": "R322_WEST_MUSEUM_TERRACE",
+      "loops": 10214
+    },
+    {
+      "name": "R325_NORTH_RUIN_RAISED_PLATFORM",
+      "loops": 204
+    },
+    {
+      "name": "R326_NORTH_RUIN_CROSSWALL_00",
+      "loops": 24
+    },
+    {
+      "name": "R326_NORTH_RUIN_CROSSWALL_01",
+      "loops": 24
+    },
+    {
+      "name": "R326_NORTH_RUIN_CROSSWALL_02",
+      "loops": 24
+    },
+    {
+      "name": "R326_NORTH_RUIN_CROSSWALL_03",
+      "loops": 24
+    },
+    {
+      "name": "R327_EAST_RUIN_CROSSWALL_00",
+      "loops": 24
+    },
+    {
+      "name": "R327_EAST_RUIN_RAISED_PLATFORM",
+      "loops": 246
+    },
+    {
+      "name": "R348_MOAT_INNER_ARM_RUIN_FLOOR",
+      "loops": 24
+    },
+    {
+      "name": "R361_PAVILION_INNER_RETAINING",
+      "loops": 40
+    },
+    {
+      "name": "R417_FORT_OPEN_END_EARTH_COVER",
+      "loops": 51102
+    },
+    {
+      "name": "R485_NW_HISTORIC_RETAINING_WALL",
+      "loops": 72
+    },
+    {
+      "name": "R494_SOUTH_PAVILION_OUTER_RETAINING_WALL",
+      "loops": 88
+    },
+    {
+      "name": "R495_SOUTH_OUTER_WALL_EAST_RETURN",
+      "loops": 88
+    },
+    {
+      "name": "R523_WEST_DIAGONAL_SLOPING_MASONRY",
+      "loops": 84
+    },
+    {
+      "name": "R549_WEST_GLASS_EXTERNAL_GROUND_0",
+      "loops": 78
+    },
+    {
+      "name": "R549_WEST_GLASS_EXTERNAL_GROUND_1",
+      "loops": 318
+    },
+    {
+      "name": "R552_WEST_SLOPING_MASONRY_PLINTH",
+      "loops": 128
+    }
+  ],
+  "occluders": 8621,
+  "image": "textures/R561_museum_ring_contact_ao.png",
+  "aoDistanceMetres": 2,
+  "geometryChanged": false,
+  "lighting": "Contact ambient occlusion only; dynamic sun lighting remains live.",
+  "accepted": false,
+  "published": false
+}

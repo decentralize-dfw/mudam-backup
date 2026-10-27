@@ -1,0 +1,34 @@
+{
+  "reopened": true,
+  "changed": [
+    {
+      "name": "R152_FORECOURT_2",
+      "cutTriangles": 74
+    }
+  ],
+  "removedOverlapArea": 41.585460764938034,
+  "retainedArea": 111.88009168300778,
+  "checks": [
+    {
+      "x": 50,
+      "y": 20,
+      "object": "R378_EAST_LONG_MOAT_RUIN_FLOOR",
+      "z": -3.8793606758117676
+    },
+    {
+      "x": 52,
+      "y": 20,
+      "object": "R378_EAST_LONG_MOAT_RUIN_FLOOR",
+      "z": -3.8708558082580566
+    },
+    {
+      "x": 52,
+      "y": 10,
+      "object": "R378_EAST_LONG_MOAT_RUIN_FLOOR",
+      "z": -3.9976601600646973
+    }
+  ],
+  "source": "R378 independent classified-ground floor footprint; R541 source overhead confirms grass moat, no paving overlay.",
+  "accepted": false,
+  "published": false
+}

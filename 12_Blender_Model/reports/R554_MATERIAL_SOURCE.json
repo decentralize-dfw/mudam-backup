@@ -1,0 +1,27 @@
+{
+  "source": "https://polyhaven.com/a/castle_wall_slates",
+  "author": "Rob Tuytel",
+  "license": "CC0",
+  "physicalWidthMetres": 2.5,
+  "files": [
+    {
+      "file": "textures\\polyhaven_castle_wall_slates\\castle_wall_slates_diff_2k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/castle_wall_slates/castle_wall_slates_diff_2k.jpg",
+      "bytes": 2381426,
+      "sha256": "89e1dce61cf53decf586bd123b9280365e447019ebedaf3b8e48663ab37eab30"
+    },
+    {
+      "file": "textures\\polyhaven_castle_wall_slates\\castle_wall_slates_nor_gl_2k.png",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/2k/castle_wall_slates/castle_wall_slates_nor_gl_2k.png",
+      "bytes": 25772651,
+      "sha256": "99b1c3eac84ef4108e75f136d9d064b3d226b30a0518e874394e3d175d4f0088"
+    },
+    {
+      "file": "textures\\polyhaven_castle_wall_slates\\castle_wall_slates_rough_2k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/castle_wall_slates/castle_wall_slates_rough_2k.jpg",
+      "bytes": 2005253,
+      "sha256": "84fe81f77d25e4dc37be41174b0a1fa85e8aece244eabe54ed48c542cb5bed08"
+    }
+  ],
+  "role": "Generic CC0 coursed weathered stone PBR; actual museum photo063 is visual reference only, exact joint layout not surveyed"
+}
