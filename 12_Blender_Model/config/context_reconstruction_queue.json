@@ -1,6 +1,6 @@
 {
   "active": "Main museum facade-to-ground, terrace, moat and retaining-wall junctions. Remote surroundings remain deferred.",
-  "production_context": "R588-west-facade-ground-and-contact-AO-review; local publication preparation, complete source fidelity unaccepted.",
+  "production_context": "R588-west-facade-ground-and-contact-AO-review; normal main push and live manifest verified; full museum-ring source fidelity remains unaccepted.",
   "automatic_continuation": true,
   "next_actions": [
     "Continue the remaining main-museum facade/ground and retaining-wall interfaces using source/photo evidence.",
@@ -51,15 +51,21 @@
   },
   "latest_local_master": "scenes/R588_BATI_TERAS_TEMAS_AO_ADAY_v004.blend",
   "last_verified_push": {
-    "commit": "922c46dea0b95636a96026634bdb7ab9cedf221e",
-    "utc": "2026-10-18T12:31:56.198102+00:00",
-    "revision": "R314-current-model-user-review",
-    "acceptance": false,
-    "basis": "Explicit current-state publication request"
+    "commit": "fd3265f89a0d9fe36f68cc6ef7d0425b164944c4",
+    "utc": "2026-11-04T09:26:36.0768373Z",
+    "timestampMeaning": "Normal push success verified by ls-remote; observed completion time",
+    "branch": "origin/main",
+    "revision": "R588-west-facade-ground-and-contact-AO-review",
+    "assetSHA256": "d18e00faeee7d502513301b8146dc515cb286c8bf211c085d535c33b639a7aaf",
+    "liveVerifiedUTC": "2026-11-04T09:30:31.4741967Z",
+    "liveManifestHTTP": 200,
+    "workflow": "https://github.com/decentralize-dfw/mudam/actions/runs/41807388535",
+    "deploymentConclusion": "success",
+    "fullScopeAccepted": false
   },
   "current_local_master": "scenes/R588_BATI_TERAS_TEMAS_AO_ADAY_v004.blend",
   "local_candidate_accepted": false,
-  "updatedUTC": "2026-11-04T09:22:54.700659+00:00",
+  "updatedUTC": "2026-11-04T09:30:31.4741967Z",
   "priority_order": [
     "museum_ring_wall_outlines_heights_and_moat_depths",
     "museum_bridge_and_terrace_ground_connections",
@@ -106,7 +112,7 @@
     "report": "reports/R588_WORK_STATE.json",
     "accepted": false,
     "package_checks_passed": true,
-    "published": false,
+    "published": true,
     "museum_geometry_preserved": true,
     "authored_row_already_in_master": true
   },
@@ -117,9 +123,17 @@
     "full_source_fidelity_pending": true
   },
   "live_publication_verified": {
-    "revision": "R314-current-model-user-review",
-    "checkedUTC": "2026-10-18T12:55:38.758374+00:00",
-    "url": "https://xrweb.studio/mudam/demo/data/cevre3.json"
+    "commit": "fd3265f89a0d9fe36f68cc6ef7d0425b164944c4",
+    "utc": "2026-11-04T09:26:36.0768373Z",
+    "timestampMeaning": "Normal push success verified by ls-remote; observed completion time",
+    "branch": "origin/main",
+    "revision": "R588-west-facade-ground-and-contact-AO-review",
+    "assetSHA256": "d18e00faeee7d502513301b8146dc515cb286c8bf211c085d535c33b639a7aaf",
+    "liveVerifiedUTC": "2026-11-04T09:30:31.4741967Z",
+    "liveManifestHTTP": 200,
+    "workflow": "https://github.com/decentralize-dfw/mudam/actions/runs/41807388535",
+    "deploymentConclusion": "success",
+    "fullScopeAccepted": false
   },
   "active_scope": {
     "request": "Only immediate museum fortifications, moat, bridges, ruins, terraces and elevation relationships in green annotations",

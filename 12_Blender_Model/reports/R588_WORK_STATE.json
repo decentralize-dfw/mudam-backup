@@ -7,7 +7,7 @@
   "firstSixComplete": false,
   "allElevenComplete": false,
   "completionClaim": false,
-  "published": false,
+  "published": true,
   "publishedAsset": "demo/model/cevre3/authored-near.glb",
   "sha256": "d18e00faeee7d502513301b8146dc515cb286c8bf211c085d535c33b639a7aaf",
   "bytes": 42954216,
@@ -72,7 +72,26 @@
       "Right and left unsupported terrace drops removed; glass corner ground contacts continuous in final Draco/WebP view.",
       "Source-supported steep diagonal bank remains a closed surface; coarse simple bank material is not certified as final appearance."
     ],
-    "fullMuseumRingAccepted": false
+    "fullMuseumRingAccepted": false,
+    "actualApplication": {
+      "url": "http://127.0.0.1:8876/?cevre=3#cevre/moat",
+      "context3Selected": true,
+      "loaded": true,
+      "consoleErrors": []
+    }
   },
-  "publicationHeld": false
+  "publicationHeld": false,
+  "publication": {
+    "commit": "fd3265f89a0d9fe36f68cc6ef7d0425b164944c4",
+    "utc": "2026-11-04T09:26:36.0768373Z",
+    "timestampMeaning": "Normal push success verified by ls-remote; observed completion time",
+    "branch": "origin/main",
+    "revision": "R588-west-facade-ground-and-contact-AO-review",
+    "assetSHA256": "d18e00faeee7d502513301b8146dc515cb286c8bf211c085d535c33b639a7aaf",
+    "liveVerifiedUTC": "2026-11-04T09:30:31.4741967Z",
+    "liveManifestHTTP": 200,
+    "workflow": "https://github.com/decentralize-dfw/mudam/actions/runs/41807388535",
+    "deploymentConclusion": "success",
+    "fullScopeAccepted": false
+  }
 }
