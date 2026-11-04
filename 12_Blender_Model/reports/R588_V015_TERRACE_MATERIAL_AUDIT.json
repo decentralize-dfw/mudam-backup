@@ -1,0 +1,562 @@
+{
+  "R322_WEST_MUSEUM_TERRACE": {
+    "smoothFaces": 0,
+    "faces": 3084,
+    "customNormals": true,
+    "materials": [
+      {
+        "name": "R545_DRY_EARTH_PATCHY_TURF_R561_AO",
+        "nodes": [
+          {
+            "name": "Principled BSDF",
+            "type": "BSDF_PRINCIPLED",
+            "image": null,
+            "uv": null,
+            "inputs": {
+              "Metallic": "0.0",
+              "IOR": "1.5",
+              "Alpha": "1.0",
+              "Weight": "0.0",
+              "Subsurface Weight": "0.0",
+              "Subsurface Radius": "<bpy_float[3], NodeSocketVector.default_value>",
+              "Subsurface Scale": "0.05000000074505806",
+              "Subsurface IOR": "1.399999976158142",
+              "Subsurface Anisotropy": "0.0",
+              "Specular IOR Level": "0.5",
+              "Specular Tint": "<bpy_float[4], NodeSocketColor.default_value>",
+              "Anisotropic": "0.0",
+              "Anisotropic Rotation": "0.0",
+              "Tangent": "<bpy_float[3], NodeSocketVector.default_value>",
+              "Transmission Weight": "0.0",
+              "Coat Weight": "0.0",
+              "Coat Roughness": "0.029999999329447746",
+              "Coat IOR": "1.5",
+              "Coat Tint": "<bpy_float[4], NodeSocketColor.default_value>",
+              "Coat Normal": "<bpy_float[3], NodeSocketVector.default_value>",
+              "Sheen Weight": "0.0",
+              "Sheen Roughness": "0.5",
+              "Sheen Tint": "<bpy_float[4], NodeSocketColor.default_value>",
+              "Emission Color": "<bpy_float[4], NodeSocketColor.default_value>",
+              "Emission Strength": "0.0",
+              "Thin Film Thickness": "0.0",
+              "Thin Film IOR": "1.3300000429153442"
+            }
+          },
+          {
+            "name": "Material Output",
+            "type": "OUTPUT_MATERIAL",
+            "image": null,
+            "uv": null,
+            "inputs": {
+              "Displacement": "<bpy_float[3], NodeSocketVector.default_value>",
+              "Thickness": "0.0"
+            }
+          },
+          {
+            "name": "UV Map",
+            "type": "UVMAP",
+            "image": null,
+            "uv": "R545_GROUND_ATLAS",
+            "inputs": {}
+          },
+          {
+            "name": "Image Texture",
+            "type": "TEX_IMAGE",
+            "image": "R545_dry_ground_atlas.png",
+            "uv": null,
+            "inputs": {}
+          },
+          {
+            "name": "UV Map.001",
+            "type": "UVMAP",
+            "image": null,
+            "uv": "R545_MICRO_2M",
+            "inputs": {}
+          },
+          {
+            "name": "Image Texture.001",
+            "type": "TEX_IMAGE",
+            "image": "withered_grass_nor_gl_2k.png",
+            "uv": null,
+            "inputs": {}
+          },
+          {
+            "name": "Normal Map",
+            "type": "NORMAL_MAP",
+            "image": null,
+            "uv": null,
+            "inputs": {
+              "Strength": "0.30000001192092896"
+            }
+          },
+          {
+            "name": "UV Map.002",
+            "type": "UVMAP",
+            "image": null,
+            "uv": "R545_MICRO_2M",
+            "inputs": {}
+          },
+          {
+            "name": "Image Texture.002",
+            "type": "TEX_IMAGE",
+            "image": "withered_grass_rough_2k.jpg",
+            "uv": null,
+            "inputs": {}
+          },
+          {
+            "name": "UV Map.003",
+            "type": "UVMAP",
+            "image": null,
+            "uv": "R561_AO_ATLAS",
+            "inputs": {}
+          },
+          {
+            "name": "Image Texture.003",
+            "type": "TEX_IMAGE",
+            "image": "R561_MUSEUM_RING_CONTACT_AO",
+            "uv": null,
+            "inputs": {}
+          },
+          {
+            "name": "Group",
+            "type": "GROUP",
+            "image": null,
+            "uv": null,
+            "inputs": {}
+          }
+        ],
+        "links": [
+          [
+            "Principled BSDF",
+            "BSDF",
+            "Material Output",
+            "Surface"
+          ],
+          [
+            "UV Map",
+            "UV",
+            "Image Texture",
+            "Vector"
+          ],
+          [
+            "Image Texture",
+            "Color",
+            "Principled BSDF",
+            "Base Color"
+          ],
+          [
+            "UV Map.001",
+            "UV",
+            "Image Texture.001",
+            "Vector"
+          ],
+          [
+            "Image Texture.001",
+            "Color",
+            "Normal Map",
+            "Color"
+          ],
+          [
+            "Normal Map",
+            "Normal",
+            "Principled BSDF",
+            "Normal"
+          ],
+          [
+            "UV Map.002",
+            "UV",
+            "Image Texture.002",
+            "Vector"
+          ],
+          [
+            "Image Texture.002",
+            "Color",
+            "Principled BSDF",
+            "Roughness"
+          ],
+          [
+            "UV Map.003",
+            "UV",
+            "Image Texture.003",
+            "Vector"
+          ],
+          [
+            "Image Texture.003",
+            "Color",
+            "Group",
+            "Occlusion"
+          ]
+        ]
+      }
+    ]
+  },
+  "R549_WEST_GLASS_EXTERNAL_GROUND_0": {
+    "smoothFaces": 0,
+    "faces": 52,
+    "customNormals": false,
+    "materials": [
+      {
+        "name": "R545_DRY_EARTH_PATCHY_TURF_R561_AO",
+        "nodes": [
+          {
+            "name": "Principled BSDF",
+            "type": "BSDF_PRINCIPLED",
+            "image": null,
+            "uv": null,
+            "inputs": {
+              "Metallic": "0.0",
+              "IOR": "1.5",
+              "Alpha": "1.0",
+              "Weight": "0.0",
+              "Subsurface Weight": "0.0",
+              "Subsurface Radius": "<bpy_float[3], NodeSocketVector.default_value>",
+              "Subsurface Scale": "0.05000000074505806",
+              "Subsurface IOR": "1.399999976158142",
+              "Subsurface Anisotropy": "0.0",
+              "Specular IOR Level": "0.5",
+              "Specular Tint": "<bpy_float[4], NodeSocketColor.default_value>",
+              "Anisotropic": "0.0",
+              "Anisotropic Rotation": "0.0",
+              "Tangent": "<bpy_float[3], NodeSocketVector.default_value>",
+              "Transmission Weight": "0.0",
+              "Coat Weight": "0.0",
+              "Coat Roughness": "0.029999999329447746",
+              "Coat IOR": "1.5",
+              "Coat Tint": "<bpy_float[4], NodeSocketColor.default_value>",
+              "Coat Normal": "<bpy_float[3], NodeSocketVector.default_value>",
+              "Sheen Weight": "0.0",
+              "Sheen Roughness": "0.5",
+              "Sheen Tint": "<bpy_float[4], NodeSocketColor.default_value>",
+              "Emission Color": "<bpy_float[4], NodeSocketColor.default_value>",
+              "Emission Strength": "0.0",
+              "Thin Film Thickness": "0.0",
+              "Thin Film IOR": "1.3300000429153442"
+            }
+          },
+          {
+            "name": "Material Output",
+            "type": "OUTPUT_MATERIAL",
+            "image": null,
+            "uv": null,
+            "inputs": {
+              "Displacement": "<bpy_float[3], NodeSocketVector.default_value>",
+              "Thickness": "0.0"
+            }
+          },
+          {
+            "name": "UV Map",
+            "type": "UVMAP",
+            "image": null,
+            "uv": "R545_GROUND_ATLAS",
+            "inputs": {}
+          },
+          {
+            "name": "Image Texture",
+            "type": "TEX_IMAGE",
+            "image": "R545_dry_ground_atlas.png",
+            "uv": null,
+            "inputs": {}
+          },
+          {
+            "name": "UV Map.001",
+            "type": "UVMAP",
+            "image": null,
+            "uv": "R545_MICRO_2M",
+            "inputs": {}
+          },
+          {
+            "name": "Image Texture.001",
+            "type": "TEX_IMAGE",
+            "image": "withered_grass_nor_gl_2k.png",
+            "uv": null,
+            "inputs": {}
+          },
+          {
+            "name": "Normal Map",
+            "type": "NORMAL_MAP",
+            "image": null,
+            "uv": null,
+            "inputs": {
+              "Strength": "0.30000001192092896"
+            }
+          },
+          {
+            "name": "UV Map.002",
+            "type": "UVMAP",
+            "image": null,
+            "uv": "R545_MICRO_2M",
+            "inputs": {}
+          },
+          {
+            "name": "Image Texture.002",
+            "type": "TEX_IMAGE",
+            "image": "withered_grass_rough_2k.jpg",
+            "uv": null,
+            "inputs": {}
+          },
+          {
+            "name": "UV Map.003",
+            "type": "UVMAP",
+            "image": null,
+            "uv": "R561_AO_ATLAS",
+            "inputs": {}
+          },
+          {
+            "name": "Image Texture.003",
+            "type": "TEX_IMAGE",
+            "image": "R561_MUSEUM_RING_CONTACT_AO",
+            "uv": null,
+            "inputs": {}
+          },
+          {
+            "name": "Group",
+            "type": "GROUP",
+            "image": null,
+            "uv": null,
+            "inputs": {}
+          }
+        ],
+        "links": [
+          [
+            "Principled BSDF",
+            "BSDF",
+            "Material Output",
+            "Surface"
+          ],
+          [
+            "UV Map",
+            "UV",
+            "Image Texture",
+            "Vector"
+          ],
+          [
+            "Image Texture",
+            "Color",
+            "Principled BSDF",
+            "Base Color"
+          ],
+          [
+            "UV Map.001",
+            "UV",
+            "Image Texture.001",
+            "Vector"
+          ],
+          [
+            "Image Texture.001",
+            "Color",
+            "Normal Map",
+            "Color"
+          ],
+          [
+            "Normal Map",
+            "Normal",
+            "Principled BSDF",
+            "Normal"
+          ],
+          [
+            "UV Map.002",
+            "UV",
+            "Image Texture.002",
+            "Vector"
+          ],
+          [
+            "Image Texture.002",
+            "Color",
+            "Principled BSDF",
+            "Roughness"
+          ],
+          [
+            "UV Map.003",
+            "UV",
+            "Image Texture.003",
+            "Vector"
+          ],
+          [
+            "Image Texture.003",
+            "Color",
+            "Group",
+            "Occlusion"
+          ]
+        ]
+      }
+    ]
+  },
+  "R588_WEST_GLASS_CORNER_GROUND": {
+    "smoothFaces": 0,
+    "faces": 77,
+    "customNormals": false,
+    "materials": [
+      {
+        "name": "R588_WEST_EARTH_NO_STALE_AO",
+        "nodes": [
+          {
+            "name": "Principled BSDF",
+            "type": "BSDF_PRINCIPLED",
+            "image": null,
+            "uv": null,
+            "inputs": {
+              "Metallic": "0.0",
+              "IOR": "1.5",
+              "Alpha": "1.0",
+              "Weight": "0.0",
+              "Subsurface Weight": "0.0",
+              "Subsurface Radius": "<bpy_float[3], NodeSocketVector.default_value>",
+              "Subsurface Scale": "0.05000000074505806",
+              "Subsurface IOR": "1.399999976158142",
+              "Subsurface Anisotropy": "0.0",
+              "Specular IOR Level": "0.5",
+              "Specular Tint": "<bpy_float[4], NodeSocketColor.default_value>",
+              "Anisotropic": "0.0",
+              "Anisotropic Rotation": "0.0",
+              "Tangent": "<bpy_float[3], NodeSocketVector.default_value>",
+              "Transmission Weight": "0.0",
+              "Coat Weight": "0.0",
+              "Coat Roughness": "0.029999999329447746",
+              "Coat IOR": "1.5",
+              "Coat Tint": "<bpy_float[4], NodeSocketColor.default_value>",
+              "Coat Normal": "<bpy_float[3], NodeSocketVector.default_value>",
+              "Sheen Weight": "0.0",
+              "Sheen Roughness": "0.5",
+              "Sheen Tint": "<bpy_float[4], NodeSocketColor.default_value>",
+              "Emission Color": "<bpy_float[4], NodeSocketColor.default_value>",
+              "Emission Strength": "0.0",
+              "Thin Film Thickness": "0.0",
+              "Thin Film IOR": "1.3300000429153442"
+            }
+          },
+          {
+            "name": "Material Output",
+            "type": "OUTPUT_MATERIAL",
+            "image": null,
+            "uv": null,
+            "inputs": {
+              "Displacement": "<bpy_float[3], NodeSocketVector.default_value>",
+              "Thickness": "0.0"
+            }
+          },
+          {
+            "name": "UV Map",
+            "type": "UVMAP",
+            "image": null,
+            "uv": "R545_GROUND_ATLAS",
+            "inputs": {}
+          },
+          {
+            "name": "Image Texture",
+            "type": "TEX_IMAGE",
+            "image": "R545_dry_ground_atlas.png",
+            "uv": null,
+            "inputs": {}
+          },
+          {
+            "name": "UV Map.001",
+            "type": "UVMAP",
+            "image": null,
+            "uv": "R545_MICRO_2M",
+            "inputs": {}
+          },
+          {
+            "name": "Image Texture.001",
+            "type": "TEX_IMAGE",
+            "image": "withered_grass_nor_gl_2k.png",
+            "uv": null,
+            "inputs": {}
+          },
+          {
+            "name": "Normal Map",
+            "type": "NORMAL_MAP",
+            "image": null,
+            "uv": null,
+            "inputs": {
+              "Strength": "0.30000001192092896"
+            }
+          },
+          {
+            "name": "UV Map.002",
+            "type": "UVMAP",
+            "image": null,
+            "uv": "R545_MICRO_2M",
+            "inputs": {}
+          },
+          {
+            "name": "Image Texture.002",
+            "type": "TEX_IMAGE",
+            "image": "withered_grass_rough_2k.jpg",
+            "uv": null,
+            "inputs": {}
+          },
+          {
+            "name": "UV Map.003",
+            "type": "UVMAP",
+            "image": null,
+            "uv": "R561_AO_ATLAS",
+            "inputs": {}
+          },
+          {
+            "name": "Image Texture.003",
+            "type": "TEX_IMAGE",
+            "image": "R561_MUSEUM_RING_CONTACT_AO",
+            "uv": null,
+            "inputs": {}
+          }
+        ],
+        "links": [
+          [
+            "Principled BSDF",
+            "BSDF",
+            "Material Output",
+            "Surface"
+          ],
+          [
+            "UV Map",
+            "UV",
+            "Image Texture",
+            "Vector"
+          ],
+          [
+            "Image Texture",
+            "Color",
+            "Principled BSDF",
+            "Base Color"
+          ],
+          [
+            "UV Map.001",
+            "UV",
+            "Image Texture.001",
+            "Vector"
+          ],
+          [
+            "Image Texture.001",
+            "Color",
+            "Normal Map",
+            "Color"
+          ],
+          [
+            "Normal Map",
+            "Normal",
+            "Principled BSDF",
+            "Normal"
+          ],
+          [
+            "UV Map.002",
+            "UV",
+            "Image Texture.002",
+            "Vector"
+          ],
+          [
+            "Image Texture.002",
+            "Color",
+            "Principled BSDF",
+            "Roughness"
+          ],
+          [
+            "UV Map.003",
+            "UV",
+            "Image Texture.003",
+            "Vector"
+          ]
+        ]
+      }
+    ]
+  }
+}

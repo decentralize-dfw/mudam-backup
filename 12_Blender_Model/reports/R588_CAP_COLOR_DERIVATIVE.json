@@ -1,0 +1,12 @@
+{
+  "source": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\textures\\polyhaven_sandstone_blocks_04\\sandstone_blocks_04_diff_2k.jpg",
+  "license": "CC0",
+  "author": "Rob Tuytel / Poly Haven",
+  "source_record": "reports/R506_MATERIAL_SOURCE.json",
+  "source_sha256": "4571ff357e041bacb75ab06ad1958e74a0b396e0f3d8b9dc9d4717f704996304",
+  "derived_png": "R588_cap_sandstone_pale_basecolor.png",
+  "derived_sha256": "d1d563f2d4dac14f4c3ea065bd4f7331de57c256420fc6f04be85c8126e04ac6",
+  "operation": "sRGB decode to linearRGB;HSV saturation factor0.25/value factor1.02 with hue unchanged via 1.02*(0.25*RGB+0.75*maxRGB);linearRGB encode to sRGB;8-bit PNG",
+  "source_scan_content": false,
+  "geometry_change": false
+}

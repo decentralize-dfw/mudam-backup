@@ -1,0 +1,3190 @@
+{
+  "file": "exports\\r152_clean\\r588_near_draco_webp_REVIEW.glb",
+  "sha256": "d18e00faeee7d502513301b8146dc515cb286c8bf211c085d535c33b639a7aaf",
+  "bytes": 42954216,
+  "compressedGLBReimported": true,
+  "sceneSaved": false,
+  "criteria": {
+    "areaBelow": 1e-10,
+    "altitudeBelow": 1e-05,
+    "exactCollapseRejected": true
+  },
+  "triangleCount": 403980,
+  "objects": [
+    {
+      "name": "R321_MUSEUM_WEST_MOAT_RETAINING",
+      "triangles": 486,
+      "uvLayers": [
+        "UVMap",
+        "UVMap.001",
+        "UVMap.002"
+      ],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R322_WEST_MUSEUM_TERRACE",
+      "triangles": 4120,
+      "uvLayers": [
+        "UVMap",
+        "UVMap.001",
+        "UVMap.002"
+      ],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R325_NORTH_RUIN_RAISED_PLATFORM",
+      "triangles": 128,
+      "uvLayers": [
+        "UVMap",
+        "UVMap.001",
+        "UVMap.002"
+      ],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R326_NORTH_RUIN_CROSSWALL_00",
+      "triangles": 12,
+      "uvLayers": [
+        "UVMap",
+        "UVMap.001",
+        "UVMap.002"
+      ],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R326_NORTH_RUIN_CROSSWALL_01",
+      "triangles": 12,
+      "uvLayers": [
+        "UVMap",
+        "UVMap.001",
+        "UVMap.002"
+      ],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R326_NORTH_RUIN_CROSSWALL_02",
+      "triangles": 12,
+      "uvLayers": [
+        "UVMap",
+        "UVMap.001",
+        "UVMap.002"
+      ],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R326_NORTH_RUIN_CROSSWALL_03",
+      "triangles": 12,
+      "uvLayers": [
+        "UVMap",
+        "UVMap.001",
+        "UVMap.002"
+      ],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R325_NORTH_RUIN_CENTRAL_COURT",
+      "triangles": 28,
+      "uvLayers": [
+        "UVMap",
+        "UVMap.001"
+      ],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R327_EAST_RUIN_RAISED_PLATFORM",
+      "triangles": 156,
+      "uvLayers": [
+        "UVMap",
+        "UVMap.001",
+        "UVMap.002"
+      ],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R327_EAST_RUIN_CROSSWALL_00",
+      "triangles": 12,
+      "uvLayers": [
+        "UVMap",
+        "UVMap.001",
+        "UVMap.002"
+      ],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R327_EAST_RUIN_CENTRAL_COURT",
+      "triangles": 24,
+      "uvLayers": [
+        "UVMap",
+        "UVMap.001"
+      ],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R328_NORTH_RUIN_FLOOR",
+      "triangles": 12,
+      "uvLayers": [
+        "UVMap"
+      ],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R328_EAST_RUIN_FLOOR",
+      "triangles": 12,
+      "uvLayers": [
+        "UVMap"
+      ],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R331_NORTH_NW_RUIN_FLOOR",
+      "triangles": 12,
+      "uvLayers": [
+        "UVMap"
+      ],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R331_NORTH_NE_RUIN_FLOOR",
+      "triangles": 12,
+      "uvLayers": [
+        "UVMap"
+      ],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R331_EAST_NORTH_RUIN_FLOOR",
+      "triangles": 12,
+      "uvLayers": [
+        "UVMap"
+      ],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R331_EAST_SIDE_UPPER_RUIN_FLOOR",
+      "triangles": 12,
+      "uvLayers": [
+        "UVMap"
+      ],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R348_PAVILION_WEST_RUIN_FLOOR",
+      "triangles": 24,
+      "uvLayers": [
+        "UVMap",
+        "UVMap.001"
+      ],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R348_MOAT_INNER_ARM_RUIN_FLOOR",
+      "triangles": 12,
+      "uvLayers": [
+        "UVMap",
+        "UVMap.001",
+        "UVMap.002"
+      ],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R361_PAVILION_INNER_RETAINING",
+      "triangles": 20,
+      "uvLayers": [
+        "UVMap",
+        "UVMap.001",
+        "UVMap.002"
+      ],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R363_PAVILION_EAST_0_RUIN_FLOOR",
+      "triangles": 28,
+      "uvLayers": [
+        "UVMap",
+        "UVMap.001"
+      ],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R363_PAVILION_EAST_1_RUIN_FLOOR",
+      "triangles": 16,
+      "uvLayers": [
+        "UVMap",
+        "UVMap.001"
+      ],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R378_EAST_LONG_MOAT_RUIN_FLOOR",
+      "triangles": 16,
+      "uvLayers": [
+        "UVMap",
+        "UVMap.001"
+      ],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R378_EAST_WALL_LOWER_BAND_RUIN_FLOOR",
+      "triangles": 12,
+      "uvLayers": [
+        "UVMap"
+      ],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R389_FORT_LOWER_METAL_ROOF",
+      "triangles": 100,
+      "uvLayers": [
+        "UVMap"
+      ],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R389_FORT_RAISED_METAL_ROOF",
+      "triangles": 24,
+      "uvLayers": [
+        "UVMap"
+      ],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R397_PAVILION_GROUND_CUT_CONTACT",
+      "triangles": 456,
+      "uvLayers": [
+        "UVMap",
+        "UVMap.001"
+      ],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R400_TIMBER_DECK_JOINTS",
+      "triangles": 5760,
+      "uvLayers": [],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R400_SLOPED_PERIMETER_FASCIA",
+      "triangles": 260,
+      "uvLayers": [],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R400_PERIMETER_CLERESTORY_GLASS",
+      "triangles": 252,
+      "uvLayers": [],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R400_PERIMETER_WINDOW_FRAMES",
+      "triangles": 1884,
+      "uvLayers": [],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R400_PERIMETER_HORIZONTAL_LOUVERS",
+      "triangles": 1764,
+      "uvLayers": [],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R401_FORT_OPEN_END_TIMBER_DECK",
+      "triangles": 28,
+      "uvLayers": [
+        "UVMap"
+      ],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R402_FORT_TOWER_LOW_COURT",
+      "triangles": 28,
+      "uvLayers": [],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R403_FORT_ROOF_ACCESS_GUARD",
+      "triangles": 1344,
+      "uvLayers": [],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R406_FORT_EAST_OPENING_STONEWORK",
+      "triangles": 2340,
+      "uvLayers": [],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R415_EAST_SIDE_MIDDLE_RUIN_FLOOR",
+      "triangles": 12,
+      "uvLayers": [
+        "UVMap"
+      ],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R416_FORT_TIMBER_PERIMETER_LEDGE",
+      "triangles": 252,
+      "uvLayers": [
+        "UVMap"
+      ],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R416_FORT_SLOPED_DECK_RISER",
+      "triangles": 252,
+      "uvLayers": [],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R417_FORT_OPEN_END_EARTH_COVER",
+      "triangles": 17976,
+      "uvLayers": [
+        "UVMap",
+        "UVMap.001",
+        "UVMap.002"
+      ],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R418_TOWER_CONICAL_ROOF_WEST",
+      "triangles": 1024,
+      "uvLayers": [
+        "UVMap"
+      ],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R418_TOWER_CONICAL_ROOF_CENTRE",
+      "triangles": 1024,
+      "uvLayers": [
+        "UVMap"
+      ],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R418_TOWER_CONICAL_ROOF_SOUTH",
+      "triangles": 1024,
+      "uvLayers": [
+        "UVMap"
+      ],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R420_CENTRE_LOW_COURT_CONTACT",
+      "triangles": 1536,
+      "uvLayers": [],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R420_SOUTH_LOW_COURT_CONTACT",
+      "triangles": 2064,
+      "uvLayers": [],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R424_WEST_TOWER_BODY",
+      "triangles": 2444,
+      "uvLayers": [
+        "UVMap"
+      ],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R424_WEST_BLIND_ARCADES",
+      "triangles": 4320,
+      "uvLayers": [],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R424_CENTRE_TOWER_BODY",
+      "triangles": 2264,
+      "uvLayers": [
+        "UVMap"
+      ],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R424_CENTRE_BLIND_ARCADES",
+      "triangles": 2160,
+      "uvLayers": [],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R424_CENTRE_EXTERIOR_BASE_COPING",
+      "triangles": 1152,
+      "uvLayers": [],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R424_SOUTH_TOWER_BODY",
+      "triangles": 2380,
+      "uvLayers": [
+        "UVMap"
+      ],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R424_SOUTH_BLIND_ARCADES",
+      "triangles": 3840,
+      "uvLayers": [],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R424_SOUTH_RECESSED_DOOR",
+      "triangles": 12,
+      "uvLayers": [],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R425_WEST_ACORN_FINIAL",
+      "triangles": 3260,
+      "uvLayers": [],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R425_CENTRE_ACORN_FINIAL",
+      "triangles": 3260,
+      "uvLayers": [],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R425_SOUTH_ACORN_FINIAL",
+      "triangles": 3260,
+      "uvLayers": [],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R430_FRONT_APPROACH_PAVING",
+      "triangles": 80,
+      "uvLayers": [],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R431_FORT_BRIDGE_STEEL",
+      "triangles": 5076,
+      "uvLayers": [],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R431_FORT_BRIDGE_TIMBER",
+      "triangles": 1080,
+      "uvLayers": [],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R434_SUPERSEDED_WINDOW_MASONRY",
+      "triangles": 56,
+      "uvLayers": [
+        "UVMap"
+      ],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R434_ENTRANCE_RECESSED",
+      "triangles": 88,
+      "uvLayers": [],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R434_ENTRANCE_ARCH_00",
+      "triangles": 12,
+      "uvLayers": [],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R434_ENTRANCE_ARCH_01",
+      "triangles": 12,
+      "uvLayers": [],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R434_ENTRANCE_ARCH_02",
+      "triangles": 12,
+      "uvLayers": [],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R434_ENTRANCE_ARCH_03",
+      "triangles": 12,
+      "uvLayers": [],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R434_ENTRANCE_ARCH_04",
+      "triangles": 12,
+      "uvLayers": [],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R434_ENTRANCE_ARCH_05",
+      "triangles": 12,
+      "uvLayers": [],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R434_ENTRANCE_ARCH_06",
+      "triangles": 12,
+      "uvLayers": [],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R434_ENTRANCE_ARCH_07",
+      "triangles": 12,
+      "uvLayers": [],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R434_ENTRANCE_ARCH_08",
+      "triangles": 12,
+      "uvLayers": [],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R434_ENTRANCE_ARCH_09",
+      "triangles": 12,
+      "uvLayers": [],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R434_ENTRANCE_ARCH_10",
+      "triangles": 12,
+      "uvLayers": [],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R434_ENTRANCE_ARCH_11",
+      "triangles": 12,
+      "uvLayers": [],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R434_ENTRANCE_ARCH_12",
+      "triangles": 12,
+      "uvLayers": [],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R434_ENTRANCE_ARCH_13",
+      "triangles": 12,
+      "uvLayers": [],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R434_ENTRANCE_ARCH_14",
+      "triangles": 12,
+      "uvLayers": [],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R434_ENTRANCE_ARCH_15",
+      "triangles": 12,
+      "uvLayers": [],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R434_ENTRANCE_ARCH_16",
+      "triangles": 12,
+      "uvLayers": [],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R434_ENTRANCE_ARCH_17",
+      "triangles": 12,
+      "uvLayers": [],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R434_ENTRANCE_ARCH_18",
+      "triangles": 12,
+      "uvLayers": [],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R434_ENTRANCE_ARCH_19",
+      "triangles": 12,
+      "uvLayers": [],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R434_ENTRANCE_JAMB_-1",
+      "triangles": 12,
+      "uvLayers": [],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R434_ENTRANCE_JAMB_1",
+      "triangles": 12,
+      "uvLayers": [],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R434_WINDOW_RECESSED",
+      "triangles": 88,
+      "uvLayers": [],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R434_WINDOW_ARCH_00",
+      "triangles": 12,
+      "uvLayers": [],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R434_WINDOW_ARCH_01",
+      "triangles": 12,
+      "uvLayers": [],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R434_WINDOW_ARCH_02",
+      "triangles": 12,
+      "uvLayers": [],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R434_WINDOW_ARCH_03",
+      "triangles": 12,
+      "uvLayers": [],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R434_WINDOW_ARCH_04",
+      "triangles": 12,
+      "uvLayers": [],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R434_WINDOW_ARCH_05",
+      "triangles": 12,
+      "uvLayers": [],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R434_WINDOW_ARCH_06",
+      "triangles": 12,
+      "uvLayers": [],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R434_WINDOW_ARCH_07",
+      "triangles": 12,
+      "uvLayers": [],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R434_WINDOW_ARCH_08",
+      "triangles": 12,
+      "uvLayers": [],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R434_WINDOW_ARCH_09",
+      "triangles": 12,
+      "uvLayers": [],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R434_WINDOW_ARCH_10",
+      "triangles": 12,
+      "uvLayers": [],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R434_WINDOW_ARCH_11",
+      "triangles": 12,
+      "uvLayers": [],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R434_WINDOW_ARCH_12",
+      "triangles": 12,
+      "uvLayers": [],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R434_WINDOW_ARCH_13",
+      "triangles": 12,
+      "uvLayers": [],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R434_WINDOW_ARCH_14",
+      "triangles": 12,
+      "uvLayers": [],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R434_WINDOW_ARCH_15",
+      "triangles": 12,
+      "uvLayers": [],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R434_WINDOW_ARCH_16",
+      "triangles": 12,
+      "uvLayers": [],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R434_WINDOW_ARCH_17",
+      "triangles": 12,
+      "uvLayers": [],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R434_WINDOW_ARCH_18",
+      "triangles": 12,
+      "uvLayers": [],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R434_WINDOW_ARCH_19",
+      "triangles": 12,
+      "uvLayers": [],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R434_WINDOW_JAMB_-1",
+      "triangles": 12,
+      "uvLayers": [],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R434_WINDOW_JAMB_1",
+      "triangles": 12,
+      "uvLayers": [],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R434_WINDOW_MULLION",
+      "triangles": 12,
+      "uvLayers": [],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R434_WINDOW_TRANSOM",
+      "triangles": 12,
+      "uvLayers": [],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R434_WINDOW_LOWER_FRAME",
+      "triangles": 12,
+      "uvLayers": [],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R434_WINDOW_STONE_SILL",
+      "triangles": 12,
+      "uvLayers": [],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R439_BRIDGE_APPROACH_LANDING",
+      "triangles": 16,
+      "uvLayers": [],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R446_WEST_CORBEL_BELT",
+      "triangles": 772,
+      "uvLayers": [],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R446_SOUTH_CORBEL_BELT",
+      "triangles": 772,
+      "uvLayers": [],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R448_WEST_ROUND_RECESS",
+      "triangles": 156,
+      "uvLayers": [],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R448_WEST_ROUND_STONE_RING",
+      "triangles": 320,
+      "uvLayers": [],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R448_WEST_ROUND_CROSSBAR",
+      "triangles": 12,
+      "uvLayers": [],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R448_WEST_ROUND_VERTICALBAR",
+      "triangles": 12,
+      "uvLayers": [],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R448_SOUTH_ROUND_RECESS",
+      "triangles": 156,
+      "uvLayers": [],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R448_SOUTH_ROUND_STONE_RING",
+      "triangles": 320,
+      "uvLayers": [],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R448_SOUTH_ROUND_CROSSBAR",
+      "triangles": 12,
+      "uvLayers": [],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R448_SOUTH_ROUND_VERTICALBAR",
+      "triangles": 12,
+      "uvLayers": [],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R448_WEST_SLIT_A_RECESS",
+      "triangles": 12,
+      "uvLayers": [],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R448_WEST_SLIT_A_LINTEL",
+      "triangles": 12,
+      "uvLayers": [],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R448_WEST_SLIT_B_RECESS",
+      "triangles": 12,
+      "uvLayers": [],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R448_WEST_SLIT_B_LINTEL",
+      "triangles": 12,
+      "uvLayers": [],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R448_WEST_SLIT_C_RECESS",
+      "triangles": 12,
+      "uvLayers": [],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R448_WEST_SLIT_C_LINTEL",
+      "triangles": 12,
+      "uvLayers": [],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R448_SOUTH_SLIT_A_RECESS",
+      "triangles": 12,
+      "uvLayers": [],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R448_SOUTH_SLIT_A_LINTEL",
+      "triangles": 12,
+      "uvLayers": [],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R448_SOUTH_SLIT_B_RECESS",
+      "triangles": 12,
+      "uvLayers": [],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R448_SOUTH_SLIT_B_LINTEL",
+      "triangles": 12,
+      "uvLayers": [],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R448_SOUTH_SLIT_C_RECESS",
+      "triangles": 12,
+      "uvLayers": [],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R448_SOUTH_SLIT_C_LINTEL",
+      "triangles": 12,
+      "uvLayers": [],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R448_SOUTH_SLIT_D_RECESS",
+      "triangles": 12,
+      "uvLayers": [],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R448_SOUTH_SLIT_D_LINTEL",
+      "triangles": 12,
+      "uvLayers": [],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R448_CURTAIN_HIGH_RECESS",
+      "triangles": 12,
+      "uvLayers": [],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R448_CURTAIN_HIGH_LINTEL",
+      "triangles": 12,
+      "uvLayers": [],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R448_CURTAIN_LOW_RECESS",
+      "triangles": 12,
+      "uvLayers": [],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R448_CURTAIN_LOW_LINTEL",
+      "triangles": 12,
+      "uvLayers": [],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R453_NORTH_MOAT_MINERAL_FLOOR",
+      "triangles": 20,
+      "uvLayers": [],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R457_NORTH_LOADING_COURT",
+      "triangles": 5676,
+      "uvLayers": [
+        "UVMap"
+      ],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R458_WEST_SERVICE_PLAZA",
+      "triangles": 2704,
+      "uvLayers": [],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R463_NW_COURT_GLAZING",
+      "triangles": 12,
+      "uvLayers": [],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R463_NW_COURT_BORDER_0",
+      "triangles": 12,
+      "uvLayers": [],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R463_NW_COURT_BORDER_1",
+      "triangles": 12,
+      "uvLayers": [],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R463_NW_COURT_BORDER_2",
+      "triangles": 12,
+      "uvLayers": [],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R463_NW_COURT_BORDER_3",
+      "triangles": 12,
+      "uvLayers": [],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R463_NW_COURT_MULLION_A_1",
+      "triangles": 12,
+      "uvLayers": [],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R463_NW_COURT_MULLION_A_2",
+      "triangles": 12,
+      "uvLayers": [],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R463_NW_COURT_MULLION_A_3",
+      "triangles": 12,
+      "uvLayers": [],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R463_NW_COURT_MULLION_A_4",
+      "triangles": 12,
+      "uvLayers": [],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R463_NW_COURT_MULLION_A_5",
+      "triangles": 12,
+      "uvLayers": [],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R463_NW_COURT_MULLION_A_6",
+      "triangles": 12,
+      "uvLayers": [],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R463_NW_COURT_MULLION_B_1",
+      "triangles": 12,
+      "uvLayers": [],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R463_NW_COURT_MULLION_B_2",
+      "triangles": 12,
+      "uvLayers": [],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R463_NW_COURT_MULLION_B_3",
+      "triangles": 12,
+      "uvLayers": [],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R463_NW_COURT_MULLION_B_4",
+      "triangles": 12,
+      "uvLayers": [],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R463_NW_COURT_MULLION_B_5",
+      "triangles": 12,
+      "uvLayers": [],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R463_NW_COURT_MULLION_B_6",
+      "triangles": 12,
+      "uvLayers": [],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R463_NW_COURT_MULLION_B_7",
+      "triangles": 12,
+      "uvLayers": [],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R485_NW_LAWN",
+      "triangles": 4272,
+      "uvLayers": [
+        "UVMap",
+        "UVMap.001"
+      ],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R485_NW_PATH",
+      "triangles": 1472,
+      "uvLayers": [
+        "UVMap"
+      ],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R485_NW_CONNECTOR",
+      "triangles": 380,
+      "uvLayers": [
+        "UVMap"
+      ],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R485_NW_HISTORIC_RETAINING_WALL",
+      "triangles": 36,
+      "uvLayers": [
+        "UVMap",
+        "UVMap.001",
+        "UVMap.002"
+      ],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R486_NW_COURT_RETAINING_EDGE",
+      "triangles": 724,
+      "uvLayers": [
+        "UVMap"
+      ],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R489_NW_DARK_HORIZONTAL_INSET",
+      "triangles": 12,
+      "uvLayers": [],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R489_INSET_STONE_BORDER_0",
+      "triangles": 12,
+      "uvLayers": [
+        "UVMap"
+      ],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R489_INSET_STONE_BORDER_1",
+      "triangles": 12,
+      "uvLayers": [
+        "UVMap"
+      ],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R489_INSET_STONE_BORDER_2",
+      "triangles": 12,
+      "uvLayers": [
+        "UVMap"
+      ],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R489_INSET_STONE_BORDER_3",
+      "triangles": 12,
+      "uvLayers": [
+        "UVMap"
+      ],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R490_NW_MINERAL_PASSAGE",
+      "triangles": 200,
+      "uvLayers": [
+        "UVMap",
+        "UVMap.001"
+      ],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R491_EAST_SIDE_LOWER_RUIN_FLOOR",
+      "triangles": 12,
+      "uvLayers": [
+        "UVMap"
+      ],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R494_SOUTH_PAVILION_OUTER_RETAINING_WALL",
+      "triangles": 48,
+      "uvLayers": [
+        "UVMap",
+        "UVMap.001",
+        "UVMap.002"
+      ],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R495_SOUTH_OUTER_WALL_EAST_RETURN",
+      "triangles": 44,
+      "uvLayers": [
+        "UVMap",
+        "UVMap.001",
+        "UVMap.002"
+      ],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R508_WEST_COURT_CONTACT_0",
+      "triangles": 1656,
+      "uvLayers": [],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R515_SOUTH_MOAT_LOWER_GROUND_0",
+      "triangles": 444,
+      "uvLayers": [],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R523_WEST_MOAT_LOWER_GROUND_0",
+      "triangles": 1004,
+      "uvLayers": [
+        "UVMap",
+        "UVMap.001",
+        "UVMap.002"
+      ],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R523_WEST_DIAGONAL_SLOPING_MASONRY",
+      "triangles": 52,
+      "uvLayers": [
+        "UVMap",
+        "UVMap.001",
+        "UVMap.002"
+      ],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R532_SOUTH_PAVED_APPROACH_0",
+      "triangles": 28,
+      "uvLayers": [
+        "UVMap"
+      ],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R532_SOUTH_PAVED_APPROACH_1",
+      "triangles": 20,
+      "uvLayers": [
+        "UVMap"
+      ],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R532_SOUTH_PAVED_APPROACH_2",
+      "triangles": 12,
+      "uvLayers": [
+        "UVMap"
+      ],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R532_SOUTH_PAVED_APPROACH_3",
+      "triangles": 28,
+      "uvLayers": [
+        "UVMap"
+      ],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R532_SOUTH_PAVED_APPROACH_4",
+      "triangles": 20,
+      "uvLayers": [
+        "UVMap"
+      ],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R536_EAST_RUIN_OUTER_MOAT_FLOOR",
+      "triangles": 36,
+      "uvLayers": [
+        "UVMap"
+      ],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R540_NORTH_RUIN_OUTER_MOAT_FLOOR",
+      "triangles": 52,
+      "uvLayers": [
+        "UVMap"
+      ],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R544_WEST_MOAT_MISSING_SLOPED_GROUND",
+      "triangles": 56,
+      "uvLayers": [
+        "UVMap",
+        "UVMap.001"
+      ],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R546_WEST_MOAT_EDGE_0",
+      "triangles": 16,
+      "uvLayers": [
+        "UVMap",
+        "UVMap.001"
+      ],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R546_WEST_MOAT_EDGE_1",
+      "triangles": 28,
+      "uvLayers": [
+        "UVMap",
+        "UVMap.001",
+        "UVMap.002"
+      ],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R546_WEST_MOAT_EDGE_2",
+      "triangles": 40,
+      "uvLayers": [
+        "UVMap",
+        "UVMap.001"
+      ],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R549_WEST_GLASS_EXTERNAL_GROUND_0",
+      "triangles": 52,
+      "uvLayers": [
+        "UVMap",
+        "UVMap.001",
+        "UVMap.002"
+      ],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R549_WEST_GLASS_EXTERNAL_GROUND_1",
+      "triangles": 239,
+      "uvLayers": [
+        "UVMap",
+        "UVMap.001",
+        "UVMap.002"
+      ],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R552_WEST_SLOPING_MASONRY_PLINTH",
+      "triangles": 195,
+      "uvLayers": [
+        "UVMap",
+        "UVMap.001",
+        "UVMap.002"
+      ],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R557_NW_WOODED_EDGE_0",
+      "triangles": 68,
+      "uvLayers": [
+        "UVMap",
+        "UVMap.001"
+      ],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R557_NORTH_COURT_0",
+      "triangles": 52,
+      "uvLayers": [
+        "UVMap"
+      ],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R557_ENTRY_BRIDGE_0",
+      "triangles": 40,
+      "uvLayers": [
+        "UVMap"
+      ],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R569_SOUTH_CAP_INNER_PAVED_FLOOR",
+      "triangles": 40,
+      "uvLayers": [
+        "UVMap"
+      ],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R588_WEST_APRON_AND_RETAINING_BODY",
+      "triangles": 496,
+      "uvLayers": [
+        "UVMap",
+        "UVMap.001",
+        "UVMap.002"
+      ],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R588_WEST_CLASS2_GROUND_RESTORATION",
+      "triangles": 440,
+      "uvLayers": [
+        "UVMap",
+        "UVMap.001",
+        "UVMap.002"
+      ],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R588_WEST_GLASS_CORNER_GROUND",
+      "triangles": 104,
+      "uvLayers": [
+        "UVMap",
+        "UVMap.001",
+        "UVMap.002"
+      ],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R34_APPROACH_CONTINUOUS_DECK",
+      "triangles": 164,
+      "uvLayers": [
+        "UVMap",
+        "UVMap.001"
+      ],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R34_STONE_PARAPET_759554469",
+      "triangles": 12,
+      "uvLayers": [
+        "UVMap",
+        "UVMap.001"
+      ],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R34_STONE_PARAPET_759554471",
+      "triangles": 12,
+      "uvLayers": [
+        "UVMap",
+        "UVMap.001"
+      ],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R58_POST_759554470_01",
+      "triangles": 56,
+      "uvLayers": [],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R58_POST_759554470_02",
+      "triangles": 56,
+      "uvLayers": [],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R58_POST_759554470_03",
+      "triangles": 56,
+      "uvLayers": [],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R58_POST_759554470_04",
+      "triangles": 56,
+      "uvLayers": [],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R58_POST_759554470_05",
+      "triangles": 56,
+      "uvLayers": [],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R58_POST_759554470_06",
+      "triangles": 56,
+      "uvLayers": [],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R58_POST_759554470_07",
+      "triangles": 56,
+      "uvLayers": [],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R58_POST_759554470_08",
+      "triangles": 56,
+      "uvLayers": [],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R58_POST_759554470_09",
+      "triangles": 56,
+      "uvLayers": [],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R58_POST_759554470_10",
+      "triangles": 56,
+      "uvLayers": [],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R58_TUBE_759554470",
+      "triangles": 188,
+      "uvLayers": [],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R58_GLASS_759554470_00",
+      "triangles": 12,
+      "uvLayers": [],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R58_BASE_CHANNEL_759554470_00",
+      "triangles": 12,
+      "uvLayers": [],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R58_GLASS_759554470_01",
+      "triangles": 12,
+      "uvLayers": [],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R58_BASE_CHANNEL_759554470_01",
+      "triangles": 12,
+      "uvLayers": [],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R58_GLASS_759554470_02",
+      "triangles": 12,
+      "uvLayers": [],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R58_BASE_CHANNEL_759554470_02",
+      "triangles": 12,
+      "uvLayers": [],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R58_GLASS_759554470_03",
+      "triangles": 12,
+      "uvLayers": [],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R58_BASE_CHANNEL_759554470_03",
+      "triangles": 12,
+      "uvLayers": [],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R58_GLASS_759554470_04",
+      "triangles": 12,
+      "uvLayers": [],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R58_BASE_CHANNEL_759554470_04",
+      "triangles": 12,
+      "uvLayers": [],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R58_GLASS_759554470_05",
+      "triangles": 12,
+      "uvLayers": [],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R58_BASE_CHANNEL_759554470_05",
+      "triangles": 12,
+      "uvLayers": [],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R58_GLASS_759554470_06",
+      "triangles": 12,
+      "uvLayers": [],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R58_BASE_CHANNEL_759554470_06",
+      "triangles": 12,
+      "uvLayers": [],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R58_GLASS_759554470_07",
+      "triangles": 12,
+      "uvLayers": [],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R58_BASE_CHANNEL_759554470_07",
+      "triangles": 12,
+      "uvLayers": [],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R58_GLASS_759554470_08",
+      "triangles": 12,
+      "uvLayers": [],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R58_BASE_CHANNEL_759554470_08",
+      "triangles": 12,
+      "uvLayers": [],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R58_GLASS_759554470_09",
+      "triangles": 12,
+      "uvLayers": [],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R58_BASE_CHANNEL_759554470_09",
+      "triangles": 12,
+      "uvLayers": [],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R58_POST_759554472_01",
+      "triangles": 56,
+      "uvLayers": [],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R58_POST_759554472_02",
+      "triangles": 56,
+      "uvLayers": [],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R58_POST_759554472_03",
+      "triangles": 56,
+      "uvLayers": [],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R58_POST_759554472_04",
+      "triangles": 56,
+      "uvLayers": [],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R58_POST_759554472_05",
+      "triangles": 56,
+      "uvLayers": [],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R58_POST_759554472_06",
+      "triangles": 56,
+      "uvLayers": [],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R58_POST_759554472_07",
+      "triangles": 56,
+      "uvLayers": [],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R58_POST_759554472_08",
+      "triangles": 56,
+      "uvLayers": [],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R58_POST_759554472_09",
+      "triangles": 56,
+      "uvLayers": [],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R58_POST_759554472_10",
+      "triangles": 56,
+      "uvLayers": [],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R58_TUBE_759554472",
+      "triangles": 188,
+      "uvLayers": [],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R58_GLASS_759554472_00",
+      "triangles": 12,
+      "uvLayers": [],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R58_BASE_CHANNEL_759554472_00",
+      "triangles": 12,
+      "uvLayers": [],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R58_GLASS_759554472_01",
+      "triangles": 12,
+      "uvLayers": [],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R58_BASE_CHANNEL_759554472_01",
+      "triangles": 12,
+      "uvLayers": [],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R58_GLASS_759554472_02",
+      "triangles": 12,
+      "uvLayers": [],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R58_BASE_CHANNEL_759554472_02",
+      "triangles": 12,
+      "uvLayers": [],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R58_GLASS_759554472_03",
+      "triangles": 12,
+      "uvLayers": [],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R58_BASE_CHANNEL_759554472_03",
+      "triangles": 12,
+      "uvLayers": [],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R58_GLASS_759554472_04",
+      "triangles": 12,
+      "uvLayers": [],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R58_BASE_CHANNEL_759554472_04",
+      "triangles": 12,
+      "uvLayers": [],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R58_GLASS_759554472_05",
+      "triangles": 12,
+      "uvLayers": [],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R58_BASE_CHANNEL_759554472_05",
+      "triangles": 12,
+      "uvLayers": [],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R58_GLASS_759554472_06",
+      "triangles": 12,
+      "uvLayers": [],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R58_BASE_CHANNEL_759554472_06",
+      "triangles": 12,
+      "uvLayers": [],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R58_GLASS_759554472_07",
+      "triangles": 12,
+      "uvLayers": [],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R58_BASE_CHANNEL_759554472_07",
+      "triangles": 12,
+      "uvLayers": [],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R58_GLASS_759554472_08",
+      "triangles": 12,
+      "uvLayers": [],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R58_BASE_CHANNEL_759554472_08",
+      "triangles": 12,
+      "uvLayers": [],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R58_GLASS_759554472_09",
+      "triangles": 12,
+      "uvLayers": [],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R58_BASE_CHANNEL_759554472_09",
+      "triangles": 12,
+      "uvLayers": [],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R152_PATH_34122543",
+      "triangles": 215,
+      "uvLayers": [
+        "UVMap"
+      ],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R152_PATH_37862401",
+      "triangles": 72,
+      "uvLayers": [
+        "UVMap"
+      ],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R152_PATH_49908630",
+      "triangles": 104,
+      "uvLayers": [
+        "UVMap"
+      ],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R152_PATH_49910981",
+      "triangles": 55,
+      "uvLayers": [
+        "UVMap"
+      ],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R152_PATH_49910983",
+      "triangles": 89,
+      "uvLayers": [
+        "UVMap"
+      ],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R152_PATH_50643005",
+      "triangles": 57,
+      "uvLayers": [
+        "UVMap"
+      ],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R152_PATH_51768373",
+      "triangles": 52,
+      "uvLayers": [
+        "UVMap"
+      ],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R152_PATH_51768375",
+      "triangles": 24,
+      "uvLayers": [
+        "UVMap"
+      ],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R152_PATH_83345376",
+      "triangles": 512,
+      "uvLayers": [
+        "UVMap"
+      ],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R152_PATH_83345387",
+      "triangles": 85,
+      "uvLayers": [
+        "UVMap"
+      ],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R152_PATH_83345393",
+      "triangles": 1633,
+      "uvLayers": [
+        "UVMap"
+      ],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R152_PATH_151551525",
+      "triangles": 187,
+      "uvLayers": [
+        "UVMap"
+      ],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R152_PATH_173271133",
+      "triangles": 49,
+      "uvLayers": [
+        "UVMap"
+      ],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R152_PATH_192104187",
+      "triangles": 135,
+      "uvLayers": [
+        "UVMap"
+      ],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R152_PATH_454636393",
+      "triangles": 150,
+      "uvLayers": [
+        "UVMap"
+      ],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R152_PATH_542470958",
+      "triangles": 68,
+      "uvLayers": [
+        "UVMap"
+      ],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R152_PATH_542470959",
+      "triangles": 144,
+      "uvLayers": [
+        "UVMap"
+      ],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R152_PATH_759551377",
+      "triangles": 196,
+      "uvLayers": [
+        "UVMap"
+      ],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R152_PATH_759680911",
+      "triangles": 78,
+      "uvLayers": [
+        "UVMap"
+      ],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R152_PATH_759680913",
+      "triangles": 250,
+      "uvLayers": [
+        "UVMap"
+      ],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R152_PATH_759683796",
+      "triangles": 198,
+      "uvLayers": [
+        "UVMap"
+      ],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R152_PATH_824216705",
+      "triangles": 122,
+      "uvLayers": [
+        "UVMap"
+      ],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R152_PATH_824216707",
+      "triangles": 19,
+      "uvLayers": [
+        "UVMap"
+      ],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R152_PATH_903866847",
+      "triangles": 85,
+      "uvLayers": [
+        "UVMap"
+      ],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R152_PATH_1276584237",
+      "triangles": 5,
+      "uvLayers": [
+        "UVMap"
+      ],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R152_PATH_1420370347",
+      "triangles": 111,
+      "uvLayers": [
+        "UVMap"
+      ],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R152_PATH_1420370349",
+      "triangles": 107,
+      "uvLayers": [
+        "UVMap"
+      ],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R152_FORECOURT_0",
+      "triangles": 497,
+      "uvLayers": [
+        "UVMap"
+      ],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R152_FORECOURT_1",
+      "triangles": 514,
+      "uvLayers": [
+        "UVMap"
+      ],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R152_FORECOURT_2",
+      "triangles": 150,
+      "uvLayers": [
+        "UVMap"
+      ],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R152_CLASS2_TERRAIN",
+      "triangles": 31425,
+      "uvLayers": [
+        "UVMap",
+        "UVMap.001"
+      ],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R152_HISTORIC_WALL_49911001",
+      "triangles": 1708,
+      "uvLayers": [
+        "UVMap",
+        "UVMap.001",
+        "UVMap.002"
+      ],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R152_HISTORIC_WALL_51768377",
+      "triangles": 844,
+      "uvLayers": [
+        "UVMap",
+        "UVMap.001",
+        "UVMap.002"
+      ],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R152_HISTORIC_WALL_51946350",
+      "triangles": 44,
+      "uvLayers": [
+        "UVMap",
+        "UVMap.001",
+        "UVMap.002"
+      ],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R152_HISTORIC_WALL_51946351",
+      "triangles": 20,
+      "uvLayers": [
+        "UVMap",
+        "UVMap.001",
+        "UVMap.002"
+      ],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R152_HISTORIC_WALL_92711484",
+      "triangles": 580,
+      "uvLayers": [
+        "UVMap",
+        "UVMap.001",
+        "UVMap.002"
+      ],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R152_HISTORIC_WALL_453755312",
+      "triangles": 761,
+      "uvLayers": [
+        "UVMap",
+        "UVMap.001",
+        "UVMap.002"
+      ],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R152_HISTORIC_WALL_453755316",
+      "triangles": 572,
+      "uvLayers": [
+        "UVMap",
+        "UVMap.001",
+        "UVMap.002"
+      ],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R152_HISTORIC_WALL_563325236",
+      "triangles": 124,
+      "uvLayers": [
+        "UVMap",
+        "UVMap.001",
+        "UVMap.002"
+      ],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R152_HISTORIC_WALL_563325237",
+      "triangles": 172,
+      "uvLayers": [
+        "UVMap",
+        "UVMap.001",
+        "UVMap.002"
+      ],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R152_HISTORIC_WALL_563433144",
+      "triangles": 164,
+      "uvLayers": [
+        "UVMap",
+        "UVMap.001",
+        "UVMap.002"
+      ],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R152_HISTORIC_WALL_759551378",
+      "triangles": 372,
+      "uvLayers": [
+        "UVMap",
+        "UVMap.001",
+        "UVMap.002"
+      ],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R152_HISTORIC_WALL_759551379",
+      "triangles": 434,
+      "uvLayers": [
+        "UVMap",
+        "UVMap.001",
+        "UVMap.002"
+      ],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R152_HISTORIC_WALL_759680904",
+      "triangles": 8,
+      "uvLayers": [
+        "UVMap",
+        "UVMap.001",
+        "UVMap.002"
+      ],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R152_HISTORIC_WALL_759680906",
+      "triangles": 36,
+      "uvLayers": [
+        "UVMap",
+        "UVMap.001",
+        "UVMap.002"
+      ],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R152_HISTORIC_WALL_759680907",
+      "triangles": 84,
+      "uvLayers": [
+        "UVMap",
+        "UVMap.001",
+        "UVMap.002"
+      ],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R152_HISTORIC_WALL_759680912",
+      "triangles": 92,
+      "uvLayers": [
+        "UVMap",
+        "UVMap.001",
+        "UVMap.002"
+      ],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R152_HISTORIC_WALL_759811368",
+      "triangles": 28,
+      "uvLayers": [
+        "UVMap",
+        "UVMap.001",
+        "UVMap.002"
+      ],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R152_HISTORIC_WALL_824216706",
+      "triangles": 28,
+      "uvLayers": [
+        "UVMap",
+        "UVMap.001",
+        "UVMap.002"
+      ],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R152_HISTORIC_WALL_869105673",
+      "triangles": 276,
+      "uvLayers": [
+        "UVMap",
+        "UVMap.001",
+        "UVMap.002"
+      ],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R152_HISTORIC_WALL_869145008",
+      "triangles": 156,
+      "uvLayers": [
+        "UVMap",
+        "UVMap.001",
+        "UVMap.002"
+      ],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R152_HISTORIC_WALL_869145009",
+      "triangles": 212,
+      "uvLayers": [
+        "UVMap",
+        "UVMap.001",
+        "UVMap.002"
+      ],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R152_HISTORIC_WALL_903866846",
+      "triangles": 140,
+      "uvLayers": [
+        "UVMap",
+        "UVMap.001",
+        "UVMap.002"
+      ],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R152_RUIN_PARTITION_00",
+      "triangles": 84,
+      "uvLayers": [
+        "UVMap",
+        "UVMap.001",
+        "UVMap.002"
+      ],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R152_RUIN_PARTITION_10",
+      "triangles": 52,
+      "uvLayers": [
+        "UVMap",
+        "UVMap.001",
+        "UVMap.002"
+      ],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R154_FAR_GROUND",
+      "triangles": 208495,
+      "uvLayers": [
+        "UVMap"
+      ],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R154_FAR_ROADS",
+      "triangles": 40534,
+      "uvLayers": [
+        "UVMap"
+      ],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    },
+    {
+      "name": "R154_FORT_MASONRY_BODY",
+      "triangles": 4548,
+      "uvLayers": [
+        "UVMap"
+      ],
+      "badTriangles": 0,
+      "blenderPolygonAreaBelow1e10": 0
+    }
+  ],
+  "images": [
+    {
+      "name": "castle_wall_slates_nor_gl_2k",
+      "size": [
+        2048,
+        2048
+      ],
+      "channels": 4,
+      "finitePixelSamples": true,
+      "packedBytes": 1849320,
+      "packedSHA256": "63d4ea5f8c3c50c3e38f8585afcff190ba49e21886fffddb7112161c783dd8bc"
+    },
+    {
+      "name": "castle_wall_slates_rough_2k",
+      "size": [
+        2048,
+        2048
+      ],
+      "channels": 4,
+      "finitePixelSamples": true,
+      "packedBytes": 1531366,
+      "packedSHA256": "7e08a132bef89999c787a5bd054dbacfb33b294327a7c7cb094598b8922fd232"
+    },
+    {
+      "name": "image_0854",
+      "size": [
+        1024,
+        768
+      ],
+      "channels": 4,
+      "finitePixelSamples": true,
+      "packedBytes": 5626,
+      "packedSHA256": "0f7dc9535d3c1fabbda90b50a2f25648074ebaf0092ff4bede82eb1dbb90ef2f"
+    },
+    {
+      "name": "image_0855",
+      "size": [
+        512,
+        384
+      ],
+      "channels": 4,
+      "finitePixelSamples": true,
+      "packedBytes": 694,
+      "packedSHA256": "39009b36245140b6a96e6ba1e292ad0b0bad5551553c2b63bb9b0ba4328593f3"
+    },
+    {
+      "name": "image_0858",
+      "size": [
+        1024,
+        1024
+      ],
+      "channels": 4,
+      "finitePixelSamples": true,
+      "packedBytes": 6974,
+      "packedSHA256": "f05a82d6ca22f819d427bcd6703a11c552dd998c5de9b7d8fa23e45712c97b56"
+    },
+    {
+      "name": "image_0859",
+      "size": [
+        512,
+        512
+      ],
+      "channels": 4,
+      "finitePixelSamples": true,
+      "packedBytes": 706,
+      "packedSHA256": "abc648b1a3aff8d633437934c3dc9e4dd2e286bc39883bd151775d35b2a58c0e"
+    },
+    {
+      "name": "image_0867",
+      "size": [
+        1024,
+        1024
+      ],
+      "channels": 4,
+      "finitePixelSamples": true,
+      "packedBytes": 62710,
+      "packedSHA256": "6e7f318fafb0624f3345516789bfa8aa2322b3b4b1c1dec63623cb5cd559211a"
+    },
+    {
+      "name": "image_0868",
+      "size": [
+        512,
+        512
+      ],
+      "channels": 4,
+      "finitePixelSamples": true,
+      "packedBytes": 23348,
+      "packedSHA256": "372765d2143079662c6b4bc3165593e9a49bdc6bcf7b91bb6075f7514fedb926"
+    },
+    {
+      "name": "R129_historic_masonry_basecolor",
+      "size": [
+        2048,
+        1536
+      ],
+      "channels": 4,
+      "finitePixelSamples": true,
+      "packedBytes": 161070,
+      "packedSHA256": "ceb1fe1509840d9c43bf282148d122a4d7633a467e9a8d95eca94263b6dba761"
+    },
+    {
+      "name": "R129_historic_masonry_normal",
+      "size": [
+        2048,
+        1536
+      ],
+      "channels": 4,
+      "finitePixelSamples": true,
+      "packedBytes": 276436,
+      "packedSHA256": "ea9cdcdc29048c509ad45ad5a636793b1b280fa0226b3f476ec0cf23451027aa"
+    },
+    {
+      "name": "R129_historic_masonry_roughness",
+      "size": [
+        2048,
+        1536
+      ],
+      "channels": 4,
+      "finitePixelSamples": true,
+      "packedBytes": 49268,
+      "packedSHA256": "7c52819e2d7b716c9eb89b0649b27a3f01f8b65c0b252dc3dd1ae1672d7ec016"
+    },
+    {
+      "name": "R157_ground_micro_normal",
+      "size": [
+        512,
+        512
+      ],
+      "channels": 4,
+      "finitePixelSamples": true,
+      "packedBytes": 41408,
+      "packedSHA256": "e98ed7b09eb11a5299740e350d138649ef8beff094eee4b733de751399786c53"
+    },
+    {
+      "name": "R157_landcover_atlas",
+      "size": [
+        2048,
+        2048
+      ],
+      "channels": 4,
+      "finitePixelSamples": true,
+      "packedBytes": 133542,
+      "packedSHA256": "eb602249cc93358dbf2649a1e4692d0c277d650fc624073defe63d0fa920c340"
+    },
+    {
+      "name": "R32_wood_candidate_normal",
+      "size": [
+        2048,
+        1536
+      ],
+      "channels": 4,
+      "finitePixelSamples": true,
+      "packedBytes": 16732,
+      "packedSHA256": "929bcbac35a9335c3242aa35892c6cec039d923f3afe11c43b3b57cc5ff610cf"
+    },
+    {
+      "name": "R545_dry_ground_atlas",
+      "size": [
+        4096,
+        4096
+      ],
+      "channels": 4,
+      "finitePixelSamples": true,
+      "packedBytes": 8038110,
+      "packedSHA256": "7eb9e4025c4dffb35021fb105b26e6745b2f66579185b3ed98778c0c6fb9c7ce"
+    },
+    {
+      "name": "R556_weathered_stone_albedo_atlas",
+      "size": [
+        4096,
+        2048
+      ],
+      "channels": 4,
+      "finitePixelSamples": true,
+      "packedBytes": 3879784,
+      "packedSHA256": "4a6ab86d7ed4c5f4e13a626b2fe3ceea916d96d9cd6680df1acc51af3d56b3df"
+    },
+    {
+      "name": "R561_MUSEUM_RING_CONTACT_AO-castle_wall_slates_rough_2k",
+      "size": [
+        2048,
+        2048
+      ],
+      "channels": 4,
+      "finitePixelSamples": true,
+      "packedBytes": 1723238,
+      "packedSHA256": "0d66d84005c2ca80ea8eb4dcc2836efbb37bbfce59b549cc100df1f71553ed36"
+    },
+    {
+      "name": "R561_MUSEUM_RING_CONTACT_AO-withered_grass_rough_2k",
+      "size": [
+        2048,
+        2048
+      ],
+      "channels": 4,
+      "finitePixelSamples": true,
+      "packedBytes": 1979824,
+      "packedSHA256": "69d3b46857c6c55a7a94ae079b300a37699a109e26051898a8c061ffa1d16ff8"
+    },
+    {
+      "name": "R571_museum_ring_contact_ao",
+      "size": [
+        1024,
+        1024
+      ],
+      "channels": 4,
+      "finitePixelSamples": true,
+      "packedBytes": 35552,
+      "packedSHA256": "5ba5242cdd34bd3e1ab8a75daf7f70e4c7bbd2e74e9f0b87c0d697825a92d79e"
+    },
+    {
+      "name": "R581_building_contact_ao",
+      "size": [
+        4096,
+        4096
+      ],
+      "channels": 4,
+      "finitePixelSamples": true,
+      "packedBytes": 3330212,
+      "packedSHA256": "4371b9979b5075d7267472866c05a771d1d24ef5e70aec3016d5786e84ee5281"
+    },
+    {
+      "name": "R588_cap_sandstone_pale_basecolor",
+      "size": [
+        2048,
+        2048
+      ],
+      "channels": 4,
+      "finitePixelSamples": true,
+      "packedBytes": 1216328,
+      "packedSHA256": "8b82ebabfdd06a9c8a16656f10e45ef1dcbb10c42d444ec6c7c4be86dcc682ba"
+    },
+    {
+      "name": "R588_west_terrace_contact_ao",
+      "size": [
+        2048,
+        2048
+      ],
+      "channels": 4,
+      "finitePixelSamples": true,
+      "packedBytes": 277374,
+      "packedSHA256": "e2c504ee3b35aa523a9401663ff91544169363d17831edf86596dd8aebfe9a81"
+    },
+    {
+      "name": "R588_WEST_TERRACE_CONTACT_AO-castle_wall_slates_rough_2k",
+      "size": [
+        2048,
+        2048
+      ],
+      "channels": 4,
+      "finitePixelSamples": true,
+      "packedBytes": 1591932,
+      "packedSHA256": "5687b57122ee1c8f6dc81af84f42854e71be22c5896a173832aced5d0df6ad94"
+    },
+    {
+      "name": "R588_WEST_TERRACE_CONTACT_AO-sandstone_blocks_04_rough_2k",
+      "size": [
+        2048,
+        2048
+      ],
+      "channels": 4,
+      "finitePixelSamples": true,
+      "packedBytes": 1259960,
+      "packedSHA256": "dc0714843324e33d4cebe6fab9a070b1bfd24cb45bef30220587369e5fbfea3e"
+    },
+    {
+      "name": "R588_WEST_TERRACE_CONTACT_AO-withered_grass_rough_2k.jpg",
+      "size": [
+        2048,
+        2048
+      ],
+      "channels": 4,
+      "finitePixelSamples": true,
+      "packedBytes": 1898132,
+      "packedSHA256": "deb4eba785086f3de51f2f70f36bb6a33400b1b12ad0e505cf6f97d5af263548"
+    },
+    {
+      "name": "sandstone_blocks_04_diff_2k",
+      "size": [
+        2048,
+        2048
+      ],
+      "channels": 4,
+      "finitePixelSamples": true,
+      "packedBytes": 1327536,
+      "packedSHA256": "c9d700bd6d1a71d2523f1447647cf84361a44b27dd1c108993d8116cf22a753e"
+    },
+    {
+      "name": "sandstone_blocks_04_nor_gl_2k",
+      "size": [
+        2048,
+        2048
+      ],
+      "channels": 4,
+      "finitePixelSamples": true,
+      "packedBytes": 901424,
+      "packedSHA256": "486653f03f6cda1ef9f9e1ddb08fa96a253bc73f426cc9295abbaf1642e30a04"
+    },
+    {
+      "name": "sandstone_blocks_04_rough_2k",
+      "size": [
+        2048,
+        2048
+      ],
+      "channels": 4,
+      "finitePixelSamples": true,
+      "packedBytes": 1203780,
+      "packedSHA256": "7c4e88156bb5558e696716f7f6d0d98a1cb9a0ea9306d0551aa761af5466eead"
+    },
+    {
+      "name": "withered_grass_nor_gl_2k",
+      "size": [
+        2048,
+        2048
+      ],
+      "channels": 4,
+      "finitePixelSamples": true,
+      "packedBytes": 2967672,
+      "packedSHA256": "0d61c1a63e8ccba02e0930d8a7cd47142caf17007d496ede573fe4c4e32c7801"
+    }
+  ],
+  "embeddedImages": [
+    {
+      "index": 0,
+      "name": "castle_wall_slates_nor_gl_2k",
+      "bytes": 1849320,
+      "sha256": "63d4ea5f8c3c50c3e38f8585afcff190ba49e21886fffddb7112161c783dd8bc",
+      "embeddedWebP": true
+    },
+    {
+      "index": 1,
+      "name": "R588_WEST_TERRACE_CONTACT_AO-castle_wall_slates_rough_2k",
+      "bytes": 1591932,
+      "sha256": "5687b57122ee1c8f6dc81af84f42854e71be22c5896a173832aced5d0df6ad94",
+      "embeddedWebP": true
+    },
+    {
+      "index": 2,
+      "name": "R556_weathered_stone_albedo_atlas",
+      "bytes": 3879784,
+      "sha256": "4a6ab86d7ed4c5f4e13a626b2fe3ceea916d96d9cd6680df1acc51af3d56b3df",
+      "embeddedWebP": true
+    },
+    {
+      "index": 3,
+      "name": "withered_grass_nor_gl_2k",
+      "bytes": 2967672,
+      "sha256": "0d61c1a63e8ccba02e0930d8a7cd47142caf17007d496ede573fe4c4e32c7801",
+      "embeddedWebP": true
+    },
+    {
+      "index": 4,
+      "name": "R588_WEST_TERRACE_CONTACT_AO-withered_grass_rough_2k.jpg",
+      "bytes": 1898132,
+      "sha256": "deb4eba785086f3de51f2f70f36bb6a33400b1b12ad0e505cf6f97d5af263548",
+      "embeddedWebP": true
+    },
+    {
+      "index": 5,
+      "name": "R545_dry_ground_atlas",
+      "bytes": 8038110,
+      "sha256": "7eb9e4025c4dffb35021fb105b26e6745b2f66579185b3ed98778c0c6fb9c7ce",
+      "embeddedWebP": true
+    },
+    {
+      "index": 6,
+      "name": "R561_MUSEUM_RING_CONTACT_AO-castle_wall_slates_rough_2k",
+      "bytes": 1723238,
+      "sha256": "0d66d84005c2ca80ea8eb4dcc2836efbb37bbfce59b549cc100df1f71553ed36",
+      "embeddedWebP": true
+    },
+    {
+      "index": 7,
+      "name": "R157_ground_micro_normal",
+      "bytes": 41408,
+      "sha256": "e98ed7b09eb11a5299740e350d138649ef8beff094eee4b733de751399786c53",
+      "embeddedWebP": true
+    },
+    {
+      "index": 8,
+      "name": "R157_landcover_atlas",
+      "bytes": 133542,
+      "sha256": "eb602249cc93358dbf2649a1e4692d0c277d650fc624073defe63d0fa920c340",
+      "embeddedWebP": true
+    },
+    {
+      "index": 9,
+      "name": "R32_wood_candidate_normal",
+      "bytes": 16732,
+      "sha256": "929bcbac35a9335c3242aa35892c6cec039d923f3afe11c43b3b57cc5ff610cf",
+      "embeddedWebP": true
+    },
+    {
+      "index": 10,
+      "name": "R561_MUSEUM_RING_CONTACT_AO-withered_grass_rough_2k",
+      "bytes": 1979824,
+      "sha256": "69d3b46857c6c55a7a94ae079b300a37699a109e26051898a8c061ffa1d16ff8",
+      "embeddedWebP": true
+    },
+    {
+      "index": 11,
+      "name": "sandstone_blocks_04_nor_gl_2k",
+      "bytes": 901424,
+      "sha256": "486653f03f6cda1ef9f9e1ddb08fa96a253bc73f426cc9295abbaf1642e30a04",
+      "embeddedWebP": true
+    },
+    {
+      "index": 12,
+      "name": "sandstone_blocks_04_diff_2k",
+      "bytes": 1327536,
+      "sha256": "c9d700bd6d1a71d2523f1447647cf84361a44b27dd1c108993d8116cf22a753e",
+      "embeddedWebP": true
+    },
+    {
+      "index": 13,
+      "name": "sandstone_blocks_04_rough_2k",
+      "bytes": 1203780,
+      "sha256": "7c4e88156bb5558e696716f7f6d0d98a1cb9a0ea9306d0551aa761af5466eead",
+      "embeddedWebP": true
+    },
+    {
+      "index": 14,
+      "name": "R129_historic_masonry_normal",
+      "bytes": 276436,
+      "sha256": "ea9cdcdc29048c509ad45ad5a636793b1b280fa0226b3f476ec0cf23451027aa",
+      "embeddedWebP": true
+    },
+    {
+      "index": 15,
+      "name": "R129_historic_masonry_basecolor",
+      "bytes": 161070,
+      "sha256": "ceb1fe1509840d9c43bf282148d122a4d7633a467e9a8d95eca94263b6dba761",
+      "embeddedWebP": true
+    },
+    {
+      "index": 16,
+      "name": "R129_historic_masonry_roughness",
+      "bytes": 49268,
+      "sha256": "7c52819e2d7b716c9eb89b0649b27a3f01f8b65c0b252dc3dd1ae1672d7ec016",
+      "embeddedWebP": true
+    },
+    {
+      "index": 17,
+      "name": "R588_west_terrace_contact_ao",
+      "bytes": 277374,
+      "sha256": "e2c504ee3b35aa523a9401663ff91544169363d17831edf86596dd8aebfe9a81",
+      "embeddedWebP": true
+    },
+    {
+      "index": 18,
+      "name": "R571_museum_ring_contact_ao",
+      "bytes": 35552,
+      "sha256": "5ba5242cdd34bd3e1ab8a75daf7f70e4c7bbd2e74e9f0b87c0d697825a92d79e",
+      "embeddedWebP": true
+    },
+    {
+      "index": 19,
+      "name": "castle_wall_slates_rough_2k",
+      "bytes": 1531366,
+      "sha256": "7e08a132bef89999c787a5bd054dbacfb33b294327a7c7cb094598b8922fd232",
+      "embeddedWebP": true
+    },
+    {
+      "index": 20,
+      "name": "R588_WEST_TERRACE_CONTACT_AO-sandstone_blocks_04_rough_2k",
+      "bytes": 1259960,
+      "sha256": "dc0714843324e33d4cebe6fab9a070b1bfd24cb45bef30220587369e5fbfea3e",
+      "embeddedWebP": true
+    },
+    {
+      "index": 21,
+      "name": "R588_cap_sandstone_pale_basecolor",
+      "bytes": 1216328,
+      "sha256": "8b82ebabfdd06a9c8a16656f10e45ef1dcbb10c42d444ec6c7c4be86dcc682ba",
+      "embeddedWebP": true
+    },
+    {
+      "index": 22,
+      "name": "R581_building_contact_ao",
+      "bytes": 3330212,
+      "sha256": "4371b9979b5075d7267472866c05a771d1d24ef5e70aec3016d5786e84ee5281",
+      "embeddedWebP": true
+    },
+    {
+      "index": 23,
+      "name": "image_0868",
+      "bytes": 23348,
+      "sha256": "372765d2143079662c6b4bc3165593e9a49bdc6bcf7b91bb6075f7514fedb926",
+      "embeddedWebP": true
+    },
+    {
+      "index": 24,
+      "name": "image_0867",
+      "bytes": 62710,
+      "sha256": "6e7f318fafb0624f3345516789bfa8aa2322b3b4b1c1dec63623cb5cd559211a",
+      "embeddedWebP": true
+    },
+    {
+      "index": 25,
+      "name": "image_0859",
+      "bytes": 706,
+      "sha256": "abc648b1a3aff8d633437934c3dc9e4dd2e286bc39883bd151775d35b2a58c0e",
+      "embeddedWebP": true
+    },
+    {
+      "index": 26,
+      "name": "image_0858",
+      "bytes": 6974,
+      "sha256": "f05a82d6ca22f819d427bcd6703a11c552dd998c5de9b7d8fa23e45712c97b56",
+      "embeddedWebP": true
+    },
+    {
+      "index": 27,
+      "name": "image_0855",
+      "bytes": 694,
+      "sha256": "39009b36245140b6a96e6ba1e292ad0b0bad5551553c2b63bb9b0ba4328593f3",
+      "embeddedWebP": true
+    },
+    {
+      "index": 28,
+      "name": "image_0854",
+      "bytes": 5626,
+      "sha256": "0f7dc9535d3c1fabbda90b50a2f25648074ebaf0092ff4bede82eb1dbb90ef2f",
+      "embeddedWebP": true
+    }
+  ],
+  "textureBindingsChecked": 336,
+  "occlusionPrimitives": 60,
+  "requiredExtensions": [
+    "EXT_texture_webp",
+    "KHR_draco_mesh_compression"
+  ],
+  "errors": [],
+  "passed": true,
+  "accepted": false,
+  "published": false
+}

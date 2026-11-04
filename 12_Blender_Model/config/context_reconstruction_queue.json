@@ -1,18 +1,15 @@
 {
-  "active": "Only green-marked immediate museum fortifications, moats, bridges, ruins and ground levels. Remote surroundings deferred by user.",
-  "production_context": "R418 explicitly requested user-review publication; immediate museum ring incomplete, source-fidelity acceptance false.",
+  "active": "Main museum facade-to-ground, terrace, moat and retaining-wall junctions. Remote surroundings remain deferred.",
+  "production_context": "R588-west-facade-ground-and-contact-AO-review; local publication preparation, complete source fidelity unaccepted.",
   "automatic_continuation": true,
   "next_actions": [
-    "Current local master R408. Completed local changes and unaccepted limits: reports/R408_MUSEUM_RING_WORK_STATE.json. Main museum preserved; public R314 unchanged.",
-    "Fort tower-end vegetated shoulders, exact courtyard edge transitions and outer tower court-facing architectural details still need source comparison. R408 closes their foot gaps but does not complete their architecture.",
-    "Only the five visible east wall bays are reconstructed. Other historic wall openings, coping and source-photo material fidelity remain incomplete.",
-    "Roof access opening/guard is modeled; unseen interior stair depth/landing are not verified. Do not invent a skylight or seal this genuine opening.",
-    "Pavilion retaining continuation, west terrace grade contacts, museum base interfaces and north/east ruin coping require remaining source acceptance. R397 closes artificial terrain-cut gaps only.",
-    "R408 full scene includes R401â€“R408. R407 close render precedes only the two R408 outer foot additions. Public remains R314; do not silently use rejected/older candidates."
+    "Continue the remaining main-museum facade/ground and retaining-wall interfaces using source/photo evidence.",
+    "Do not rescan the completed R588 repair as new production or mark the full museum ring identical.",
+    "Keep distant-context tasks deferred until the museum perimeter priority is resolved."
   ],
   "completion_claim": false,
   "push_policy": "Normal origin/main push for verified changes, no force/reset, no unrelated files",
-  "last_candidate": "MUDAM_R169_MIMARI_KABUK_v088.blend - independent authored architecture, local GLB REVIEW only, NOT source-fidelity accepted/published",
+  "last_candidate": "scenes/MUDAM_R588_BATI_CEPHE_TERAS_KADEMELI_BIRLESIM_ADAY_v020.blend",
   "last_accepted": "MUDAM_R170_KAYNAK_ADA_BORDUR_ADAY_v002.blend (limited road-island curb only)",
   "method_correction": "Latest direct user instruction overrides historical next_actions: v045-v074 resampling/baking candidates are rejected as final modeling method. Preserve as research only; do not publish.",
   "user_regions_2026_10_16": {
@@ -52,7 +49,7 @@
     ],
     "critical_datum": "Existing model MNT datum316.1510257594697; NOT364.0838687173091. R182v001 rejected47.932843m vertical mismatch; fixedv002 and boundarymatchedv003."
   },
-  "latest_local_master": "MUDAM_R195_KALE_BATI_BAGLANTI_v001.blend; full fort and northern architecture candidates NOT accepted",
+  "latest_local_master": "scenes/R588_BATI_TERAS_TEMAS_AO_ADAY_v004.blend",
   "last_verified_push": {
     "commit": "922c46dea0b95636a96026634bdb7ab9cedf221e",
     "utc": "2026-10-18T12:31:56.198102+00:00",
@@ -60,9 +57,9 @@
     "acceptance": false,
     "basis": "Explicit current-state publication request"
   },
-  "current_local_master": "MUDAM_R209_NOVOTEL_CATILAR_v001.blend",
+  "current_local_master": "scenes/R588_BATI_TERAS_TEMAS_AO_ADAY_v004.blend",
   "local_candidate_accepted": false,
-  "updatedUTC": "2026-10-16T23:19:29.468096+02:00",
+  "updatedUTC": "2026-11-04T09:22:54.700659+00:00",
   "priority_order": [
     "museum_ring_wall_outlines_heights_and_moat_depths",
     "museum_bridge_and_terrace_ground_connections",
@@ -105,20 +102,19 @@
     }
   ],
   "current_local_checkpoint": {
-    "scene": "scenes/MUDAM_R418_KALE_OLCULU_KULE_CATILARI_ADAY_v001.blend",
-    "report": "reports/R418_MUSEUM_RING_WORK_STATE.json",
+    "scene": "scenes/R588_BATI_TERAS_TEMAS_AO_ADAY_v004.blend",
+    "report": "reports/R588_WORK_STATE.json",
     "accepted": false,
-    "published": true,
+    "package_checks_passed": true,
+    "published": false,
     "museum_geometry_preserved": true,
-    "authored_row_already_in_master": true,
-    "next_geometry": "Photo-supported outer tower court-facing architecture, courtyard edge transitions, remaining marked museum retaining interfaces and ruin coping. Preserve R417 open terminal corridor and R418 measured conical roofs.",
-    "publication_basis": "Explicit user request: yayinla; review only, not geometric acceptance."
+    "authored_row_already_in_master": true
   },
   "latest_unaccepted_candidate": {
-    "scene": "scenes/MUDAM_R315_ECCL_KAYNAK_SACAK_UCU_ADAY_v002.blend",
-    "report": "reports/R315_CANOPY_TRACE.json",
+    "scene": "scenes/R588_BATI_TERAS_TEMAS_AO_ADAY_v004.blend",
+    "report": "reports/R588_WORK_STATE.json",
     "accepted": false,
-    "published": false
+    "full_source_fidelity_pending": true
   },
   "live_publication_verified": {
     "revision": "R314-current-model-user-review",
@@ -237,20 +233,15 @@
     "After building placement, restore source-matched canopy density and terrain quality."
   ],
   "previous_public_checkpoint": {
-    "scene": "scenes/MUDAM_R314_ECCL_GUNEY_KOSE_OTURUM_ADAY_v001.blend",
-    "report": "reports/R314_CORNER_CONTACT.json",
-    "accepted": false,
-    "published": true,
-    "first_six_complete": false,
-    "authored_row_already_in_master": true,
-    "next_geometry": "R316 immediate museum ring source survey; do not continue ECCL/R315 or distant surroundings.",
-    "last_visual_result": "R314 published at explicit request; source fidelity incomplete. R315v002 remains separate rejected candidate due roof/canopy gaps.",
-    "publication_basis": "Explicit user request: son halini yayinla; review only, not geometric acceptance"
+    "revision": "R585-building-AO-and-R584-museum-ring-review",
+    "commit": "927e570a5a580381f0b4897a4f98b5d1bd7231a3"
   },
   "roof_branch_candidate": {
     "scene": "scenes/MUDAM_R340_KALE_METAL_CATI_ADAY_v001.blend",
     "report": "reports/R340_FORT_ROOF.json",
     "accepted": false,
     "published": false
-  }
+  },
+  "current_local_candidate": "scenes/MUDAM_R588_BATI_CEPHE_TERAS_KADEMELI_BIRLESIM_ADAY_v020.blend",
+  "current_work_state": "reports/R588_WORK_STATE.json"
 }

@@ -1,0 +1,135 @@
+{
+  "status": "manually traced material-domain draft, not a grade change",
+  "source_image": "12_Blender_Model/renders/qa/R586_west_top_source.png",
+  "image_world_transform": "x=-59+.038*u; y=27-.038*v",
+  "north_masonry_boundary_xy": [
+    [
+      -27.25,
+      1.654
+    ],
+    [
+      -26.7,
+      1.806
+    ],
+    [
+      -25.75,
+      1.844
+    ],
+    [
+      -24.8,
+      1.806
+    ],
+    [
+      -23.85,
+      1.844
+    ],
+    [
+      -22.9,
+      1.882
+    ],
+    [
+      -21.95,
+      1.882
+    ],
+    [
+      -21,
+      1.92
+    ]
+  ],
+  "earth_polygon_xy": [
+    [
+      -27.25,
+      1.654
+    ],
+    [
+      -26.7,
+      1.806
+    ],
+    [
+      -25.75,
+      1.844
+    ],
+    [
+      -24.8,
+      1.806
+    ],
+    [
+      -23.85,
+      1.844
+    ],
+    [
+      -22.9,
+      1.882
+    ],
+    [
+      -21.95,
+      1.882
+    ],
+    [
+      -21,
+      1.92
+    ],
+    [
+      -21,
+      4.01
+    ],
+    [
+      -27.25,
+      4.01
+    ]
+  ],
+  "interpretation": "Within R552 top surfaces west of x=-21, area north of boundary is earth; narrow strip south and all masonry vertical faces retain stone material.",
+  "visual_trace_uncertainty_m": 0.076,
+  "height_evidence": [
+    {
+      "x": -26,
+      "y": 3,
+      "model_z": -5.9216,
+      "source_z": -5.9098
+    },
+    {
+      "x": -26,
+      "y": 2,
+      "model_z": -5.9916,
+      "source_z": -5.9874
+    }
+  ],
+  "preserve": "All existing surface elevations, sidewall planes, UV values and unrelated objects. Split faces only where necessary to assign material. No source mesh or image texture imported.",
+  "upper_right_void": {
+    "region": "x approximately[-13.5,-11.5], y[7,9]",
+    "source_exposed_grade_m": -3.34,
+    "current_void_reveals_terrain_m": -5.6763,
+    "objects": [
+      "R549_WEST_GLASS_EXTERNAL_GROUND_0",
+      "R322_WEST_MUSEUM_TERRACE",
+      "R152_CLASS2_TERRAIN"
+    ],
+    "excluded_from_script": true
+  },
+  "east_boundary_closure": {
+    "existing_rear_edge": [
+      [
+        -24.7268610872,
+        4
+      ],
+      [
+        -20.7142857143,
+        1.2257142857
+      ]
+    ],
+    "approx_boundary_intersection_x": -21.666,
+    "explanation": "The existing cap narrows south of the traced boundary at aboutx=-21.67. Entire connected eastern strip remains stone. No earth face reaches x=-21, so no material cutoff seam occurs there."
+  },
+  "horizontal_cap_material": {
+    "name": "R588_WEST_HORIZONTAL_SANDSTONE_CC0",
+    "base": "R506_TOWER_SANDSTONE_CC0",
+    "source_record": "reports/R506_MATERIAL_SOURCE.json",
+    "repeat_m": 3,
+    "normal_strength": 0.25,
+    "saturation": 0.25,
+    "value": 1.02,
+    "scope": "R588 stone top faces and R552 remaining stone top faces only; vertical masonry and earth remain distinct.",
+    "caveat": "Generic compatible worn sandstone, not exact slab layout. Base color is a persistent CC0-only derived PNG with direct glTF PBR texture connection; no color-node baking required.",
+    "color_derivative_metadata": "R588_CAP_COLOR_DERIVATIVE.json"
+  }
+}

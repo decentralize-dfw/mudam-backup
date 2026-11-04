@@ -1,0 +1,78 @@
+{
+  "updatedUTC": "2026-11-04T09:22:54.700659+00:00",
+  "geometryScene": "scenes/MUDAM_R588_BATI_CEPHE_TERAS_KADEMELI_BIRLESIM_ADAY_v020.blend",
+  "selectedMaster": "scenes/R588_BATI_TERAS_TEMAS_AO_ADAY_v004.blend",
+  "packageReadyForReview": true,
+  "fullMuseumRingAccepted": false,
+  "firstSixComplete": false,
+  "allElevenComplete": false,
+  "completionClaim": false,
+  "published": false,
+  "publishedAsset": "demo/model/cevre3/authored-near.glb",
+  "sha256": "d18e00faeee7d502513301b8146dc515cb286c8bf211c085d535c33b639a7aaf",
+  "bytes": 42954216,
+  "buildingAssetPreservedSHA256": "837132a0c949dba592ec6b4de5717144d01da41b9c2a5ac839a1b0e070d57253",
+  "changes": [
+    "Whole western glass-facade apron and retaining body reconstructed as one closed body with source-fitted grades and exposed wall batter.",
+    "8.19282 m2 missing classified-ground coverage restored and matched to current boundary heights/normals.",
+    "False rectangular moat contact replaced by the source-supported diagonal level break; lower-grade11 heldout controls RMS0.01584m, max0.03325m.",
+    "14.68160m2 missing upper ground at glass facade corner reconstructed;50 heldout controls RMS0.02516m,max0.05324m. Adjacent graded surfaces meet the new boundary.",
+    "Source-traced stone/earth domains restored; horizontal caps use separate local CC0 sandstone PBR.",
+    "Contact AO rebaked for changed objects;18300 mesh geometries and all connected-material UV coordinates preserved. Draco/WebP decoded and browser checked.",
+    "Whole 9.01m left R549/R322 contact rebuilt as an independent source-controlled grading plane, removing the unsupported approximately0.5m drop.25controls all-fitRMS19.623mm;19/6 train-heldoutRMS33.000mm,max60.632mm.296 interior/edge probes have no misses;0.822mm maximum is internal construction error only.",
+    "Full 12.33m inherited R322/R549 terrace junction corrected from independent source controls, removing an unsupported 0.14–0.44m interior level drop.",
+    "Overlapping 1.3163m2 northern R546 wing removed; necessary southern connection remains closed and source-controlled.",
+    "Technical side-wall normals removed from top-surface shading; shared terrace-edge shading corrected without changing mesh geometry or UV coordinates."
+  ],
+  "limits": [
+    "ACT reference is not a measured survey. Occluded retaining-wall continuations/batter and technical foundation closure remain inferred.",
+    "The source-plane continuation beneath the glass corner and short hidden edge is an architectural inference; visible controls are recorded.",
+    "Cap texture repeat3m is a material choice, not surveyed paving-joint layout.",
+    "Whole museum-ring likeness, other facade/ground interfaces, full lighting bake and interiors remain incomplete. Original11 remote-region scope remains deferred.",
+    "The westernmost part of the left contact is partly hidden by the source facade; continuity is inferred from adjacent visible ground, not directly surveyed."
+  ],
+  "evidence": [
+    "R588_BUILD.json",
+    "R588_GROUND_BUILD.json",
+    "R588_GROUND_V010_BUILD.json",
+    "R588_V010_CONTACT_CHECK.json",
+    "R588_R552_MATERIAL_DOMAIN_BUILD.json",
+    "R588_FACADE_CORNER_BUILD.json",
+    "R588_PACKAGE_INHERITANCE.json",
+    "R588_AO_BUILD.json",
+    "R588_RELEASE_VALIDATION.json",
+    "R588_BROWSER_QA.json",
+    "R588_LEFT_JUNCTION_V020.json",
+    "R588_TERRACE_STRIP_V019.json",
+    "R588_FINAL_GLB_ROUNDTRIP.json",
+    "R588_GEOMETRY_HANDOFF.json"
+  ],
+  "next": [
+    "Continue the remaining main-museum facade/ground and retaining-wall interfaces using source/photo evidence.",
+    "Do not rescan the completed R588 repair as new production or mark the full museum ring identical.",
+    "Keep distant-context tasks deferred until the museum perimeter priority is resolved."
+  ],
+  "localVisualReview": {
+    "checkedUTC": "2026-11-04T09:22:32.641488+00:00",
+    "sha256": "d18e00faeee7d502513301b8146dc515cb286c8bf211c085d535c33b639a7aaf",
+    "loaded": true,
+    "aoMeshes": 60,
+    "missingUV": 0,
+    "newPrimitives": 5,
+    "visualChecked": true,
+    "localVisualAcceptance": true,
+    "publicationHeld": false,
+    "views": [
+      "West junction",
+      "Glass corner"
+    ],
+    "consoleErrors": [],
+    "scope": "Completed R588 local western terrace/facade contact repair only",
+    "findings": [
+      "Right and left unsupported terrace drops removed; glass corner ground contacts continuous in final Draco/WebP view.",
+      "Source-supported steep diagonal bank remains a closed surface; coarse simple bank material is not certified as final appearance."
+    ],
+    "fullMuseumRingAccepted": false
+  },
+  "publicationHeld": false
+}

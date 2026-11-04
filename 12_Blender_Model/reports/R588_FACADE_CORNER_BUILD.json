@@ -1,0 +1,80 @@
+{
+  "scene": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R588_BATI_CEPHE_TERAS_KADEMELI_BIRLESIM_ADAY_v012.blend",
+  "sourceScene": "MUDAM_R588_BATI_CEPHE_TERAS_KADEMELI_BIRLESIM_ADAY_v011.blend",
+  "reopened": true,
+  "checks": [
+    {
+      "name": "R588_WEST_GLASS_CORNER_GROUND",
+      "vertices": 54,
+      "faces": 77,
+      "nonManifold": 0,
+      "zeroArea": 0
+    },
+    {
+      "name": "R322_WEST_MUSEUM_TERRACE",
+      "vertices": 1544,
+      "faces": 3084,
+      "nonManifold": 0,
+      "zeroArea": 0
+    },
+    {
+      "name": "R549_WEST_GLASS_EXTERNAL_GROUND_0",
+      "vertices": 38,
+      "faces": 67,
+      "nonManifold": 0,
+      "zeroArea": 0
+    },
+    {
+      "name": "R549_WEST_GLASS_EXTERNAL_GROUND_1",
+      "vertices": 132,
+      "faces": 249,
+      "nonManifold": 0,
+      "zeroArea": 0
+    }
+  ],
+  "changed": [
+    "R322_WEST_MUSEUM_TERRACE",
+    "R549_WEST_GLASS_EXTERNAL_GROUND_0",
+    "R549_WEST_GLASS_EXTERNAL_GROUND_1",
+    "R152_CLASS2_TERRAIN"
+  ],
+  "unchanged": 18295,
+  "adjustments": [
+    {
+      "name": "R322_WEST_MUSEUM_TERRACE",
+      "changedVertices": 3,
+      "maximumVerticalAdjustment": 0.19343945689873027
+    },
+    {
+      "name": "R549_WEST_GLASS_EXTERNAL_GROUND_0",
+      "changedVertices": 10,
+      "maximumVerticalAdjustment": 0.0202058494991637
+    },
+    {
+      "name": "R549_WEST_GLASS_EXTERNAL_GROUND_1",
+      "changedVertices": 32,
+      "maximumVerticalAdjustment": 0.06976570833560597
+    },
+    {
+      "name": "R322_WEST_MUSEUM_TERRACE",
+      "postCutBoundaryVertices": 12,
+      "maximumVerticalAdjustment": 0.5475377524682408
+    },
+    {
+      "name": "R549_WEST_GLASS_EXTERNAL_GROUND_0",
+      "postCutBoundaryVertices": 35,
+      "maximumVerticalAdjustment": 0.008204213655590199
+    },
+    {
+      "name": "R549_WEST_GLASS_EXTERNAL_GROUND_1",
+      "postCutBoundaryVertices": 116,
+      "maximumVerticalAdjustment": 0.058232872415986646
+    }
+  ],
+  "area": 14.681598905091967,
+  "sourceHeldout": 50,
+  "heldoutRMS": 0.025155701282495804,
+  "heldoutMax": 0.05323179318532123,
+  "accepted": false,
+  "published": false
+}

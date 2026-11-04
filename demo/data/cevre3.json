@@ -1,13 +1,13 @@
 {
   "name": "Context 3",
-  "revision": "R585-building-AO-and-R584-museum-ring-review",
-  "source": "Independent museum-ring wall and floor reconstruction, source-controlled levels, closed fort shell, metric CC0 stone/dry-ground materials and contact AO. Includes corrected southern wall/return and removal of overlapping east-moat paving. Review checkpoint; full source fidelity remains unaccepted. R585 main building contact AO now included; floor sections and material separation preserved. Other Context3 layers unchanged.",
+  "revision": "R588-west-facade-ground-and-contact-AO-review",
+  "source": "Independent western glass-facade terrace and retaining body, source-supported ground grades and diagonal moat bank, restored facade-corner substrate, separate masonry/cap/earth materials and rebaked contact AO. Main museum building and other Context 3 layers preserved. Review checkpoint; complete museum-ring source fidelity is not accepted.",
   "compression": "Draco 24-bit positions; WebP quality 92; original texture resolution",
   "files": {
     "near": {
-      "bytes": 33277732,
-      "sha256": "4a8054840c93c23d0567ca1d9f1fe5bb41b26ee3e4774630ee674c298108878e",
-      "triangles": 399956,
+      "bytes": 42954216,
+      "sha256": "d18e00faeee7d502513301b8146dc515cb286c8bf211c085d535c33b639a7aaf",
+      "triangles": 403980,
       "bounds": {
         "min": [
           -500,
@@ -15,14 +15,15 @@
           -650
         ],
         "max": [
-          650.000244140625,
-          16.323524475097656,
-          450.000244140625
+          650.00048828125,
+          16.32353973388672,
+          450.00048828125
         ]
       },
-      "textures": 23,
-      "file": "model/cevre3/authored-near.glb?v=4a8054840c93",
-      "reviewOnly": true
+      "textures": 29,
+      "file": "model/cevre3/authored-near.glb?v=d18e00faeee7",
+      "reviewOnly": true,
+      "bake": "Local contact ambient occlusion, not full lighting bake"
     },
     "far": {
       "file": "model/cevre3/authored-far.glb",
@@ -44,7 +45,7 @@
           -111.07141876220703
         ]
       },
-      "boundsError": 0.00000762939453125,
+      "boundsError": 7.62939453125e-06,
       "textures": 0,
       "instanceTransformsPreserved": true,
       "instances": []
@@ -69,7 +70,7 @@
           -26.334129333496094
         ]
       },
-      "boundsError": 0.0000019073486328125,
+      "boundsError": 1.9073486328125e-06,
       "textures": 0,
       "instanceTransformsPreserved": true,
       "instances": []
@@ -94,7 +95,7 @@
           -89.2112045288086
         ]
       },
-      "boundsError": 0.00000762939453125,
+      "boundsError": 7.62939453125e-06,
       "textures": 0,
       "instanceTransformsPreserved": true,
       "instances": []

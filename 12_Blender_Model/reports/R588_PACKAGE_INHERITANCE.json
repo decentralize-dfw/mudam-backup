@@ -1,0 +1,135 @@
+{
+  "base": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R585_DOGU_HENDEK_CIFT_ZEMIN_TEMIZ_ADAY_v001.blend",
+  "final": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\R588_BATI_TERAS_TEMAS_AO_ADAY_v004.blend",
+  "passed": true,
+  "method": "Every bpy.data.object: local float32 mesh positions, vertex-loop topology + polygon starts/counts, float64 world transform, hide_render. Materials, normals, UV/AO excluded intentionally.",
+  "baselineObjects": 18474,
+  "finalObjects": 18477,
+  "changed": [
+    {
+      "name": "R523_WEST_MOAT_LOWER_GROUND_0",
+      "fields": [
+        "position_hash",
+        "topology_hash",
+        "vertices",
+        "faces",
+        "loops"
+      ]
+    },
+    {
+      "name": "R552_WEST_SLOPING_MASONRY_PLINTH",
+      "fields": [
+        "position_hash",
+        "topology_hash",
+        "vertices",
+        "faces",
+        "loops"
+      ]
+    },
+    {
+      "name": "R549_WEST_GLASS_EXTERNAL_GROUND_0",
+      "fields": [
+        "position_hash",
+        "topology_hash",
+        "vertices",
+        "faces",
+        "loops"
+      ]
+    },
+    {
+      "name": "R549_WEST_GLASS_EXTERNAL_GROUND_1",
+      "fields": [
+        "position_hash",
+        "topology_hash",
+        "vertices",
+        "faces",
+        "loops"
+      ]
+    },
+    {
+      "name": "R490_NW_MINERAL_PASSAGE",
+      "fields": [
+        "position_hash",
+        "topology_hash",
+        "vertices",
+        "faces",
+        "loops"
+      ]
+    },
+    {
+      "name": "R152_CLASS2_TERRAIN",
+      "fields": [
+        "position_hash",
+        "topology_hash",
+        "vertices",
+        "faces",
+        "loops"
+      ]
+    },
+    {
+      "name": "R152_HISTORIC_WALL_759680904",
+      "fields": [
+        "position_hash",
+        "topology_hash",
+        "vertices",
+        "faces",
+        "loops"
+      ]
+    },
+    {
+      "name": "R557_WEST_APPROACH_0",
+      "fields": [
+        "hide_render"
+      ]
+    },
+    {
+      "name": "R321_MUSEUM_WEST_MOAT_RETAINING",
+      "fields": [
+        "position_hash",
+        "topology_hash",
+        "vertices",
+        "faces",
+        "loops"
+      ]
+    },
+    {
+      "name": "R546_WEST_MOAT_EDGE_1",
+      "fields": [
+        "position_hash",
+        "topology_hash",
+        "vertices",
+        "faces",
+        "loops"
+      ]
+    },
+    {
+      "name": "R322_WEST_MUSEUM_TERRACE",
+      "fields": [
+        "position_hash",
+        "topology_hash",
+        "vertices",
+        "faces",
+        "loops"
+      ]
+    },
+    {
+      "name": "R557_WEST_APPROACH_1",
+      "fields": [
+        "hide_render"
+      ]
+    }
+  ],
+  "added": [
+    "R588_WEST_APRON_AND_RETAINING_BODY",
+    "R588_WEST_CLASS2_GROUND_RESTORATION",
+    "R588_WEST_GLASS_CORNER_GROUND"
+  ],
+  "removed": [],
+  "unexpectedChanges": [],
+  "unexpectedAdditions": [],
+  "protectedBaselineMeshes": 18285,
+  "protectedChanged": [],
+  "unchangedExistingObjects": 18462,
+  "museumGeometryUnchanged": true,
+  "elapsedSeconds": 10.0
+}

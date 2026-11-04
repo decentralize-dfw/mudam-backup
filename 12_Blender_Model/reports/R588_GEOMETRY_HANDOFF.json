@@ -1,0 +1,16 @@
+{
+  "scene": "MUDAM_R588_BATI_CEPHE_TERAS_KADEMELI_BIRLESIM_ADAY_v020.blend",
+  "sha256": "f0afb8eff89572e49ab849f9cbcfef8d5d05985a953da7d135f8d9a1e746a4e1",
+  "geometryChecksPassed": true,
+  "localVisualReviewPassed": true,
+  "reviewScope": "R588 western apron, closed source-graded left/right terrace contacts and removed duplicate ground. Local review checkpoint only.",
+  "remaining": [
+    "Left independent plane: 25 controls all-fit RMS19.623mm; 19/6 train-heldout RMS33.000mm,max60.632mm. Occluded western endpoint is inferred from adjacent visible controls.",
+    "Right source plane RMS38.936mm/max101.245mm. Submillimetre internal probe errors describe constructed continuity, not survey accuracy.",
+    "Full museum ring, precise material boundaries and hidden wall levels remain unaccepted."
+  ],
+  "fullMuseumRingAccepted": false,
+  "checkedUTC": "2026-11-04T09:18:22.613872+00:00",
+  "subsequentWebReviewBlocked": false,
+  "browserReviewRequired": true
+}

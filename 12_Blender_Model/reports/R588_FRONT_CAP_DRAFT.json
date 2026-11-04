@@ -1,0 +1,146 @@
+{
+  "status": "source-fit draft; final visual and closed-body checks required",
+  "formula": "z=a*x+b*y+c",
+  "front_plane": [
+    0.003963429422321973,
+    0.05416053391168085,
+    -3.3064917917179493
+  ],
+  "front_bounds": [
+    -41.5,
+    -36,
+    2,
+    3.5
+  ],
+  "front_sample_count": 47,
+  "front_normal_z_min": 0.98,
+  "front_leave_row_rms_m": 0.03689997115,
+  "front_leave_row_max_m": 0.09908137216,
+  "west_transition_plane": [
+    0.1519512,
+    -0.2069625,
+    3.675716783333
+  ],
+  "west_bounds": [
+    -43,
+    -41.5,
+    3,
+    4
+  ],
+  "west_sample_count": 12,
+  "west_normal_z_min": 0.93,
+  "west_leave_row_rms_m": 0.0331768672,
+  "west_leave_row_max_m": 0.06308165,
+  "construction": "Within retained front footprint use min(front_plane,west_transition_plane); north transition blends this front grade to existing independent grade over y3.5..5.0. Preserve topological continuity; no internal vertical riser.",
+  "controls": [
+    [
+      -42,
+      2,
+      -3.325905,
+      0.98802
+    ],
+    [
+      -41.5,
+      2,
+      -3.333874,
+      0.99448
+    ],
+    [
+      -40,
+      2,
+      -3.360935,
+      0.98899
+    ],
+    [
+      -38,
+      2,
+      -3.400169,
+      0.98992
+    ],
+    [
+      -36,
+      2,
+      -3.36895,
+      0.98176
+    ],
+    [
+      -43,
+      3,
+      -3.475269,
+      0.95075
+    ],
+    [
+      -42,
+      3,
+      -3.319405,
+      0.99456
+    ],
+    [
+      -41,
+      3,
+      -3.300266,
+      0.99987
+    ],
+    [
+      -39,
+      3,
+      -3.287132,
+      0.99956
+    ],
+    [
+      -37,
+      3,
+      -3.272873,
+      0.99973
+    ],
+    [
+      -36,
+      3,
+      -3.286037,
+      0.99799
+    ],
+    [
+      -43,
+      4,
+      -3.681652,
+      0.99567
+    ],
+    [
+      -42,
+      4,
+      -3.532269,
+      0.97949
+    ],
+    [
+      -41.5,
+      4,
+      -3.448238,
+      0.97949
+    ],
+    [
+      -40,
+      4,
+      -3.30352,
+      0.9952
+    ],
+    [
+      -38,
+      4,
+      -3.254227,
+      0.99973
+    ],
+    [
+      -36,
+      4,
+      -3.274246,
+      0.99524
+    ]
+  ],
+  "limits": [
+    "Fit applies to bare stone top only, not forest or surrounding void.",
+    "y1..2 contains rounded edge/coping and low-normal face hits; no reliable planar top fit there. Extending front plane to crest at y~1.1 is reconstruction inference, not measurement.",
+    "At source midpoint(-41.71,1.92) z=-3.3171; front plane gives about-3.3681, a5cm residual.",
+    "Never extend these planes beyond existing corrected perimeter.",
+    "Material dogleg is independent of elevation grading."
+  ]
+}

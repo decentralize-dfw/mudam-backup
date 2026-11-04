@@ -1,0 +1,23 @@
+{
+  "scene": "MUDAM_R588_BATI_CEPHE_TERAS_KADEMELI_BIRLESIM_ADAY_v018.blend",
+  "sourceScene": "MUDAM_R588_BATI_CEPHE_TERAS_KADEMELI_BIRLESIM_ADAY_v017.blend",
+  "method": "One common top-surface normal field along connected R322/R549/new-corner boundary;600mm interpolation to interior normals. Positions/UVs/materials unchanged.",
+  "geometryUVUnchanged": 18300,
+  "reopened": true,
+  "objects": [
+    {
+      "name": "R322_WEST_MUSEUM_TERRACE",
+      "updatedLoops": 80
+    },
+    {
+      "name": "R549_WEST_GLASS_EXTERNAL_GROUND_0",
+      "updatedLoops": 23
+    },
+    {
+      "name": "R549_WEST_GLASS_EXTERNAL_GROUND_1",
+      "updatedLoops": 127
+    }
+  ],
+  "accepted": false,
+  "published": false
+}

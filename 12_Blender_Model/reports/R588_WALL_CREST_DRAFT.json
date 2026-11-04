@@ -1,0 +1,614 @@
+{
+  "schema": "R588_wall_crest_draft_v1",
+  "status": "draft; requires parent integration and visual/geometry validation",
+  "height_source": "C:\\Users\\yigit\\.codex\\visualizations\\2026\\10\\08\\01a11ba5-8154-7c93-a983-6497a51ee03b\\r588_build_v005.py",
+  "height_uses_old_seam_blend": false,
+  "cap_grades": {
+    "southOuter": [
+      0.04628314972,
+      0.04389286041,
+      -1.877754577
+    ],
+    "southBand": [
+      0.09469593593,
+      0.05798040118,
+      0.12225905827
+    ],
+    "southInner": [
+      -0.00397646355,
+      -0.01485598786,
+      -3.33364000417
+    ],
+    "northOuter": [
+      0.0841461037,
+      -0.0361999358,
+      0.8584501282
+    ],
+    "northBand": [
+      0.255334359628,
+      -0.069513172864,
+      9.572348589343
+    ],
+    "northWest": [
+      0.0461455041,
+      0.0450293766,
+      -1.6896565071
+    ],
+    "northEast": [
+      -0.0702826333,
+      0.0450293766,
+      -7.0744578647
+    ]
+  },
+  "cap_northeast_plane": [
+    0.156928000000003,
+    -0.1227200000000009,
+    5.290962000000146
+  ],
+  "original_outer_polyline": [
+    [
+      -51.21,
+      13.852
+    ],
+    [
+      -50.26,
+      11.040000000000001
+    ],
+    [
+      -48.36,
+      9.52
+    ],
+    [
+      -45.928,
+      5.34
+    ],
+    [
+      -43.230000000000004,
+      3.3260000000000005
+    ],
+    [
+      -42.66,
+      2.6799999999999997
+    ],
+    [
+      -40.760000000000005,
+      1.1600000000000001
+    ],
+    [
+      -38.86,
+      1.3500000000000014
+    ],
+    [
+      -36.96,
+      0.7800000000000011
+    ],
+    [
+      -35.06,
+      3.0600000000000023
+    ],
+    [
+      -34.17142868041992,
+      3.5605233
+    ]
+  ],
+  "adjusted_outer_polyline": [
+    [
+      -51.21,
+      13.852
+    ],
+    [
+      -49.91949999999943,
+      11.330000000000116
+    ],
+    [
+      -48.313249999999556,
+      9.55875000000009
+    ],
+    [
+      -45.928,
+      5.34
+    ],
+    [
+      -43.230000000000004,
+      3.3260000000000005
+    ],
+    [
+      -42.82624999999961,
+      2.478499999999986
+    ],
+    [
+      -41.11474999999973,
+      1.0990000000000038
+    ],
+    [
+      -39.21424999999994,
+      1.1642500000000047
+    ],
+    [
+      -36.733249999999465,
+      1.069750000000004
+    ],
+    [
+      -34.965999999999504,
+      2.9694999999999805
+    ],
+    [
+      -34.17142868041992,
+      3.5605233
+    ]
+  ],
+  "vertices": [
+    {
+      "index": 0,
+      "original_xy": [
+        -51.21,
+        13.852
+      ],
+      "adjusted_xy": [
+        -51.21,
+        13.852
+      ],
+      "analytic_cap_z": -3.9521133529786003,
+      "movement_m": 0.0,
+      "method": "fixed endpoint",
+      "source_plane_residuals_m": {},
+      "within_fit_residuals": {}
+    },
+    {
+      "index": 1,
+      "original_xy": [
+        -50.26,
+        11.040000000000001
+      ],
+      "adjusted_xy": [
+        -49.91949999999943,
+        11.330000000000116
+      ],
+      "analytic_cap_z": -3.7357857309729847,
+      "movement_m": 0.4472585941046328,
+      "method": "bounded closest-point fit within adjacent plane residual bounds",
+      "source_plane_residuals_m": {
+        "1": 0.14635506875148635
+      },
+      "within_fit_residuals": {
+        "1": true
+      }
+    },
+    {
+      "index": 2,
+      "original_xy": [
+        -48.36,
+        9.52
+      ],
+      "adjusted_xy": [
+        -48.313249999999556,
+        9.55875000000009
+      ],
+      "analytic_cap_z": -3.6894512022605523,
+      "movement_m": 0.060721701228214194,
+      "method": "bounded closest-point fit within adjacent plane residual bounds",
+      "source_plane_residuals_m": {
+        "1": 0.1464544612778438
+      },
+      "within_fit_residuals": {
+        "1": true
+      }
+    },
+    {
+      "index": 3,
+      "original_xy": [
+        -45.928,
+        5.34
+      ],
+      "adjusted_xy": [
+        -45.928,
+        5.34
+      ],
+      "analytic_cap_z": -3.7690592027507597,
+      "movement_m": 0.0,
+      "method": "photo trace retained",
+      "source_plane_residuals_m": {},
+      "within_fit_residuals": {}
+    },
+    {
+      "index": 4,
+      "original_xy": [
+        -43.230000000000004,
+        3.3260000000000005
+      ],
+      "adjusted_xy": [
+        -43.230000000000004,
+        3.3260000000000005
+      ],
+      "analytic_cap_z": -3.7325874856719405,
+      "movement_m": 0.0,
+      "method": "photo trace retained",
+      "source_plane_residuals_m": {},
+      "within_fit_residuals": {}
+    },
+    {
+      "index": 5,
+      "original_xy": [
+        -42.66,
+        2.6799999999999997
+      ],
+      "adjusted_xy": [
+        -42.82624999999961,
+        2.478499999999986
+      ],
+      "analytic_cap_z": -3.7510998631699475,
+      "movement_m": 0.261230382038302,
+      "method": "bounded closest-point fit within adjacent plane residual bounds",
+      "source_plane_residuals_m": {
+        "5": -0.1521241837304146
+      },
+      "within_fit_residuals": {
+        "5": true
+      }
+    },
+    {
+      "index": 6,
+      "original_xy": [
+        -40.760000000000005,
+        1.1600000000000001
+      ],
+      "adjusted_xy": [
+        -41.11474999999973,
+        1.0990000000000038
+      ],
+      "analytic_cap_z": -3.707420212611122,
+      "movement_m": 0.35995633415708206,
+      "method": "bounded closest-point fit within adjacent plane residual bounds",
+      "source_plane_residuals_m": {
+        "5": -0.1521099286532702,
+        "6": 0.04157432521633719
+      },
+      "within_fit_residuals": {
+        "5": true,
+        "6": true
+      }
+    },
+    {
+      "index": 7,
+      "original_xy": [
+        -38.86,
+        1.3500000000000014
+      ],
+      "adjusted_xy": [
+        -39.21424999999994,
+        1.1642500000000047
+      ],
+      "analytic_cap_z": -3.523667365199182,
+      "movement_m": 0.39999515622062076,
+      "method": "bounded least-squares nearparallel continuation; no remote miter",
+      "source_plane_residuals_m": {
+        "6": 0.052471352474274216,
+        "7": -0.01758025825246521
+      },
+      "within_fit_residuals": {
+        "6": false,
+        "7": true
+      }
+    },
+    {
+      "index": 8,
+      "original_xy": [
+        -36.96,
+        0.7800000000000011
+      ],
+      "adjusted_xy": [
+        -36.733249999999465,
+        1.069750000000004
+      ],
+      "analytic_cap_z": -3.2942058960683167,
+      "movement_m": 0.3679274724728293,
+      "method": "bounded closest-point fit within adjacent plane residual bounds",
+      "source_plane_residuals_m": {
+        "7": 0.023423487966441624,
+        "8": -0.07643284905308928
+      },
+      "within_fit_residuals": {
+        "7": true,
+        "8": true
+      }
+    },
+    {
+      "index": 9,
+      "original_xy": [
+        -35.06,
+        3.0600000000000023
+      ],
+      "adjusted_xy": [
+        -34.965999999999504,
+        2.9694999999999805
+      ],
+      "analytic_cap_z": -3.2387138356309717,
+      "movement_m": 0.13048467342986178,
+      "method": "bounded closest-point fit within adjacent plane residual bounds",
+      "source_plane_residuals_m": {
+        "8": -0.07657908175665584
+      },
+      "within_fit_residuals": {
+        "8": true
+      }
+    },
+    {
+      "index": 10,
+      "original_xy": [
+        -34.17142868041992,
+        3.5605233
+      ],
+      "adjusted_xy": [
+        -34.17142868041992,
+        3.5605233
+      ],
+      "analytic_cap_z": -3.2506536544909324,
+      "movement_m": 0.0,
+      "method": "fixed endpoint",
+      "source_plane_residuals_m": {},
+      "within_fit_residuals": {}
+    }
+  ],
+  "segments": [
+    {
+      "index": 0,
+      "vertices": [
+        0,
+        1
+      ],
+      "outward_horizontal_per_vertical_drop": 0.0,
+      "source_fit": null,
+      "basis": "fixed endpoint/seam protection; no measured batter claim",
+      "fit_valid_z_range": null
+    },
+    {
+      "index": 1,
+      "vertices": [
+        1,
+        2
+      ],
+      "outward_horizontal_per_vertical_drop": 0.33512703505352126,
+      "source_fit": {
+        "midpoint": [
+          -49.31,
+          10.280000000000001
+        ],
+        "tangent": [
+          0.7808688094430297,
+          -0.6246950475544248
+        ],
+        "outward": [
+          -0.6246950475544248,
+          -0.7808688094430297
+        ],
+        "coeff_s_equals_A_t_plus_B_z_plus_C": [
+          0.16737167871688316,
+          -0.33512703505352126,
+          -1.6500713952972683
+        ],
+        "fit_rms_m": 0.07109046,
+        "fit_max_m": 0.14646723,
+        "face_normal_xy": [
+          -0.7553903710485587,
+          -0.6763125506477224
+        ]
+      },
+      "basis": "measured wall plane",
+      "fit_valid_z_range": [
+        -6.5,
+        -4.5
+      ]
+    },
+    {
+      "index": 2,
+      "vertices": [
+        2,
+        3
+      ],
+      "outward_horizontal_per_vertical_drop": 0.33512703505352126,
+      "source_fit": null,
+      "basis": "inferred continuity from measured edge1; photo-traced crest remains provisional",
+      "fit_valid_z_range": null
+    },
+    {
+      "index": 3,
+      "vertices": [
+        3,
+        4
+      ],
+      "outward_horizontal_per_vertical_drop": 0.33512703505352126,
+      "source_fit": null,
+      "basis": "inferred continuity from measured edge1; photo-traced crest remains provisional",
+      "fit_valid_z_range": null
+    },
+    {
+      "index": 4,
+      "vertices": [
+        4,
+        5
+      ],
+      "outward_horizontal_per_vertical_drop": 0.24690410231286583,
+      "source_fit": null,
+      "basis": "inferred short transition between measured west and southwest batter",
+      "fit_valid_z_range": null
+    },
+    {
+      "index": 5,
+      "vertices": [
+        5,
+        6
+      ],
+      "outward_horizontal_per_vertical_drop": 0.1586811695722104,
+      "source_fit": {
+        "midpoint": [
+          -41.71,
+          1.92
+        ],
+        "tangent": [
+          0.7808688094430292,
+          -0.624695047554426
+        ],
+        "outward": [
+          -0.624695047554426,
+          -0.7808688094430292
+        ],
+        "coeff_s_equals_A_t_plus_B_z_plus_C": [
+          0.006805417840616084,
+          -0.1586811695722104,
+          -0.1735943260794893
+        ],
+        "fit_rms_m": 0.08720569,
+        "fit_max_m": 0.15212952,
+        "face_normal_xy": [
+          -0.6300091860813902,
+          -0.7766174986214578
+        ]
+      },
+      "basis": "measured wall plane",
+      "fit_valid_z_range": [
+        -6.5,
+        -4.5
+      ]
+    },
+    {
+      "index": 6,
+      "vertices": [
+        6,
+        7
+      ],
+      "outward_horizontal_per_vertical_drop": 0.05974883527414934,
+      "source_fit": {
+        "midpoint": [
+          -39.81,
+          1.2550000000000008
+        ],
+        "tangent": [
+          0.9950371902099892,
+          0.09950371902099928
+        ],
+        "outward": [
+          0.09950371902099928,
+          -0.9950371902099892
+        ],
+        "coeff_s_equals_A_t_plus_B_z_plus_C": [
+          0.0654731598004836,
+          -0.05974883527414934,
+          -0.15176059015928223
+        ],
+        "fit_rms_m": 0.02066469,
+        "fit_max_m": 0.04165508,
+        "face_normal_xy": [
+          0.03435549005895647,
+          -1.0015520131061935
+        ]
+      },
+      "basis": "measured wall plane",
+      "fit_valid_z_range": [
+        -6.5,
+        -4.5
+      ]
+    },
+    {
+      "index": 7,
+      "vertices": [
+        7,
+        8
+      ],
+      "outward_horizontal_per_vertical_drop": 0.04169015136129701,
+      "source_fit": {
+        "midpoint": [
+          -37.91,
+          1.0650000000000013
+        ],
+        "tangent": [
+          0.9578262852211512,
+          -0.2873478855663457
+        ],
+        "outward": [
+          -0.2873478855663457,
+          -0.9578262852211512
+        ],
+        "coeff_s_equals_A_t_plus_B_z_plus_C": [
+          -0.2726540235250364,
+          -0.04169015136129701,
+          -0.1973585526323275
+        ],
+        "fit_rms_m": 0.01280135,
+        "fit_max_m": 0.02356098,
+        "face_normal_xy": [
+          -0.02619269506275973,
+          -1.0361728423722272
+        ]
+      },
+      "basis": "measured wall plane",
+      "fit_valid_z_range": [
+        -6.5,
+        -4.5
+      ]
+    },
+    {
+      "index": 8,
+      "vertices": [
+        8,
+        9
+      ],
+      "outward_horizontal_per_vertical_drop": 0.0,
+      "source_fit": {
+        "midpoint": [
+          -36.010000000000005,
+          1.9200000000000017
+        ],
+        "tangent": [
+          0.6401843996644795,
+          0.7682212795973763
+        ],
+        "outward": [
+          0.7682212795973763,
+          -0.6401843996644795
+        ],
+        "coeff_s_equals_A_t_plus_B_z_plus_C": [
+          0.054123908698153984,
+          0.024711247868116404,
+          0.20706215768310757
+        ],
+        "fit_rms_m": 0.03523836,
+        "fit_max_m": 0.07659171,
+        "face_normal_xy": [
+          0.7335719975999535,
+          -0.6817635380613869
+        ]
+      },
+      "basis": "nearvertical; tiny reverse batter suppressed within scan fit residual",
+      "fit_valid_z_range": [
+        -6.5,
+        -4.5
+      ]
+    },
+    {
+      "index": 9,
+      "vertices": [
+        9,
+        10
+      ],
+      "outward_horizontal_per_vertical_drop": 0.0,
+      "source_fit": null,
+      "basis": "fixed endpoint/seam protection; no measured batter claim",
+      "fit_valid_z_range": null
+    }
+  ],
+  "endpoint_constraints": {
+    "fixed_vertex_indices": [
+      0,
+      10
+    ],
+    "reason": "preserve R490 recess and x cut seam"
+  },
+  "notes": [
+    "No internal riser; material boundaries independent of surface grading.",
+    "Edges2/3 trace provisional; upward hits outside bare stone may be shadow/forest. No3m apron expansion.",
+    "Wall fits use z[-6.5,-4.5]; upward intersection to analytic cap extrapolates about1m and is an explicit reconstruction inference.",
+    "Nearly parallel edges6/7 use bounded local closest-point fit within0.4m, never an unlimited miter.",
+    "Do not extend measured batter blindly to -10.5m closure base. Below -6.5m toe/substrate is unmeasured; use vertical buried closure unless terrain/source supports otherwise.",
+    "All source fits are measurements only; no mesh/texture copied."
+  ]
+}

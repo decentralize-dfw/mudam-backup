@@ -1,0 +1,574 @@
+{
+  "base": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R588_BATI_CEPHE_TERAS_KADEMELI_BIRLESIM_ADAY_v013.blend",
+  "scene": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R588_BATI_CEPHE_TERAS_KADEMELI_BIRLESIM_ADAY_v014.blend",
+  "method": "Five ACT ground height controls define one independent fitted straight shared edge; original neighboring vertices and topology preserved. No scan mesh copied.",
+  "source_controls_xy_z": [
+    [
+      -32.0,
+      3.2,
+      -6.799160957336426
+    ],
+    [
+      -31.6,
+      3.2,
+      -6.769585609436035
+    ],
+    [
+      -31.3,
+      3.2,
+      -6.749593734741211
+    ],
+    [
+      -31.0,
+      3.2,
+      -6.741000175476074
+    ],
+    [
+      -30.8,
+      3.2,
+      -6.736425399780273
+    ]
+  ],
+  "source": "museum_ring_reference.blend vertical ray controls, normal.z .8587-.9519",
+  "plane_line_z_mx_b": [
+    0.05257123395016473,
+    -5.1115707033558415
+  ],
+  "sourceFitRMS": 0.005027890236458998,
+  "sourceFitMax": 0.007456591254786815,
+  "objects": {
+    "R546_WEST_MOAT_EDGE_1": {
+      "movedVertices": 6,
+      "changedFaces": 24,
+      "nonManifold": 0,
+      "zeroArea": 0,
+      "maxVertexDelta": 0.1589126570431142,
+      "changedFaceBounds": [
+        [
+          -32.602699279785156,
+          -30.799999237060547
+        ],
+        [
+          2.704699993133545,
+          3.8894450664520264
+        ],
+        [
+          -7.03054666519165,
+          -6.075470447540283
+        ]
+      ],
+      "sharedEdge": [
+        {
+          "x": -30.8,
+          "y": 3.2,
+          "before": -6.88967752456665,
+          "after": -6.730764865875244,
+          "target": -6.7307647090209155
+        },
+        {
+          "x": -31.6,
+          "y": 3.2,
+          "before": -6.750696182250977,
+          "after": -6.77282190322876,
+          "target": -6.7728216961810475
+        },
+        {
+          "x": -32.08921,
+          "y": 3.2,
+          "before": -6.752535820007324,
+          "after": -6.798540115356445,
+          "target": -6.798540069541807
+        }
+      ],
+      "uvsUnchanged": true,
+      "topologyUnchanged": true,
+      "materialsUnchanged": true,
+      "sharedNormalCorners": 14
+    },
+    "R588_WEST_CLASS2_GROUND_RESTORATION": {
+      "movedVertices": 14,
+      "changedFaces": 40,
+      "nonManifold": 0,
+      "zeroArea": 0,
+      "maxVertexDelta": 0.13745212723991154,
+      "changedFaceBounds": [
+        [
+          -32.5,
+          -30.799999237060547
+        ],
+        [
+          3.200000047683716,
+          3.450000047683716
+        ],
+        [
+          -6.998539447784424,
+          -6.53631067276001
+        ]
+      ],
+      "sharedEdge": [
+        {
+          "x": -31.5,
+          "y": 3.2,
+          "before": -6.636695861816406,
+          "after": -6.76756477355957,
+          "target": -6.76756457278603
+        },
+        {
+          "x": -32.0892,
+          "y": 3.2,
+          "before": -6.722379207611084,
+          "after": -6.798539638519287,
+          "target": -6.798539543829468
+        },
+        {
+          "x": -32.0,
+          "y": 3.2,
+          "before": -6.709343433380127,
+          "after": -6.793850421905518,
+          "target": -6.7938501897611125
+        },
+        {
+          "x": -31.6,
+          "y": 3.2,
+          "before": -6.6508870124816895,
+          "after": -6.77282190322876,
+          "target": -6.7728216961810475
+        },
+        {
+          "x": -31.3,
+          "y": 3.2,
+          "before": -6.619598388671875,
+          "after": -6.757050514221191,
+          "target": -6.757050325995998
+        },
+        {
+          "x": -31.0,
+          "y": 3.2,
+          "before": -6.607896327972412,
+          "after": -6.741279125213623,
+          "target": -6.741278955810948
+        },
+        {
+          "x": -30.8,
+          "y": 3.2,
+          "before": -6.597622871398926,
+          "after": -6.730764865875244,
+          "target": -6.7307647090209155
+        }
+      ],
+      "uvsUnchanged": true,
+      "topologyUnchanged": true,
+      "materialsUnchanged": true,
+      "sharedNormalCorners": 22
+    }
+  },
+  "aoTargets": [
+    "R546_WEST_MOAT_EDGE_1",
+    "R588_WEST_CLASS2_GROUND_RESTORATION"
+  ],
+  "accepted": false,
+  "published": false,
+  "sharedEdgeNormalMethod": "Same linearly varying normal at both meshes, fitted to average neighboring authored grade normals; only shared-join corner normals and touching R546 top smooth flags adjusted.",
+  "sharedEdgeOriginalGradeAnglesDegrees": [
+    36.627616839339986,
+    39.86557046822208,
+    48.35373683283665,
+    40.45772396360009,
+    48.411052365256815,
+    48.411052365256815
+  ],
+  "materialContinuity": {
+    "R546_WEST_MOAT_EDGE_1": {
+      "materials": [
+        "R157_CONTINUOUS_LANDCOVER"
+      ],
+      "explicitUVMaps": [
+        "MicroUV"
+      ],
+      "uvLayers": [
+        "UVMap",
+        "MicroUV"
+      ],
+      "activeUV": "UVMap"
+    },
+    "R588_WEST_CLASS2_GROUND_RESTORATION": {
+      "materials": [
+        "R157_CONTINUOUS_LANDCOVER"
+      ],
+      "explicitUVMaps": [
+        "MicroUV"
+      ],
+      "uvLayers": [
+        "UVMap",
+        "MicroUV"
+      ],
+      "activeUV": "UVMap"
+    }
+  },
+  "changedMeshes": [
+    "R546_WEST_MOAT_EDGE_1",
+    "R588_WEST_CLASS2_GROUND_RESTORATION"
+  ],
+  "unchangedOtherMeshes": 18298,
+  "sharedEdgeRaySamples": [
+    {
+      "x": -32.08,
+      "y": 3.2,
+      "z": {
+        "R546_WEST_MOAT_EDGE_1": -6.798054218292236,
+        "R588_WEST_CLASS2_GROUND_RESTORATION": -6.7980546951293945
+      },
+      "delta": 4.76837158203125e-07
+    },
+    {
+      "x": -32.036206896551725,
+      "y": 3.2,
+      "z": {
+        "R546_WEST_MOAT_EDGE_1": -6.795752048492432,
+        "R588_WEST_CLASS2_GROUND_RESTORATION": -6.795753002166748
+      },
+      "delta": 9.5367431640625e-07
+    },
+    {
+      "x": -31.992413793103445,
+      "y": 3.2,
+      "z": {
+        "R546_WEST_MOAT_EDGE_1": -6.793449878692627,
+        "R588_WEST_CLASS2_GROUND_RESTORATION": -6.79345178604126
+      },
+      "delta": 1.9073486328125e-06
+    },
+    {
+      "x": -31.948620689655172,
+      "y": 3.2,
+      "z": {
+        "R546_WEST_MOAT_EDGE_1": -6.7911481857299805,
+        "R588_WEST_CLASS2_GROUND_RESTORATION": -6.791149139404297
+      },
+      "delta": 9.5367431640625e-07
+    },
+    {
+      "x": -31.904827586206896,
+      "y": 3.2,
+      "z": {
+        "R546_WEST_MOAT_EDGE_1": -6.788846015930176,
+        "R588_WEST_CLASS2_GROUND_RESTORATION": -6.78884744644165
+      },
+      "delta": 1.430511474609375e-06
+    },
+    {
+      "x": -31.86103448275862,
+      "y": 3.2,
+      "z": {
+        "R546_WEST_MOAT_EDGE_1": -6.786544322967529,
+        "R588_WEST_CLASS2_GROUND_RESTORATION": -6.7865447998046875
+      },
+      "delta": 4.76837158203125e-07
+    },
+    {
+      "x": -31.817241379310342,
+      "y": 3.2,
+      "z": {
+        "R546_WEST_MOAT_EDGE_1": -6.784241199493408,
+        "R588_WEST_CLASS2_GROUND_RESTORATION": -6.784243106842041
+      },
+      "delta": 1.9073486328125e-06
+    },
+    {
+      "x": -31.773448275862066,
+      "y": 3.2,
+      "z": {
+        "R546_WEST_MOAT_EDGE_1": -6.781939506530762,
+        "R588_WEST_CLASS2_GROUND_RESTORATION": -6.781940460205078
+      },
+      "delta": 9.5367431640625e-07
+    },
+    {
+      "x": -31.729655172413793,
+      "y": 3.2,
+      "z": {
+        "R546_WEST_MOAT_EDGE_1": -6.779636383056641,
+        "R588_WEST_CLASS2_GROUND_RESTORATION": -6.779638290405273
+      },
+      "delta": 1.9073486328125e-06
+    },
+    {
+      "x": -31.685862068965516,
+      "y": 3.2,
+      "z": {
+        "R546_WEST_MOAT_EDGE_1": -6.777334690093994,
+        "R588_WEST_CLASS2_GROUND_RESTORATION": -6.777336120605469
+      },
+      "delta": 1.430511474609375e-06
+    },
+    {
+      "x": -31.64206896551724,
+      "y": 3.2,
+      "z": {
+        "R546_WEST_MOAT_EDGE_1": -6.7750325202941895,
+        "R588_WEST_CLASS2_GROUND_RESTORATION": -6.775033473968506
+      },
+      "delta": 9.5367431640625e-07
+    },
+    {
+      "x": -31.598275862068963,
+      "y": 3.2,
+      "z": {
+        "R546_WEST_MOAT_EDGE_1": -6.772731304168701,
+        "R588_WEST_CLASS2_GROUND_RESTORATION": -6.772730827331543
+      },
+      "delta": 4.76837158203125e-07
+    },
+    {
+      "x": -31.554482758620686,
+      "y": 3.2,
+      "z": {
+        "R546_WEST_MOAT_EDGE_1": -6.7704291343688965,
+        "R588_WEST_CLASS2_GROUND_RESTORATION": -6.77042818069458
+      },
+      "delta": 9.5367431640625e-07
+    },
+    {
+      "x": -31.510689655172413,
+      "y": 3.2,
+      "z": {
+        "R546_WEST_MOAT_EDGE_1": -6.768126010894775,
+        "R588_WEST_CLASS2_GROUND_RESTORATION": -6.768126487731934
+      },
+      "delta": 4.76837158203125e-07
+    },
+    {
+      "x": -31.466896551724137,
+      "y": 3.2,
+      "z": {
+        "R546_WEST_MOAT_EDGE_1": -6.765823841094971,
+        "R588_WEST_CLASS2_GROUND_RESTORATION": -6.765823841094971
+      },
+      "delta": 0.0
+    },
+    {
+      "x": -31.42310344827586,
+      "y": 3.2,
+      "z": {
+        "R546_WEST_MOAT_EDGE_1": -6.763521671295166,
+        "R588_WEST_CLASS2_GROUND_RESTORATION": -6.763521671295166
+      },
+      "delta": 0.0
+    },
+    {
+      "x": -31.379310344827584,
+      "y": 3.2,
+      "z": {
+        "R546_WEST_MOAT_EDGE_1": -6.761219501495361,
+        "R588_WEST_CLASS2_GROUND_RESTORATION": -6.761219501495361
+      },
+      "delta": 0.0
+    },
+    {
+      "x": -31.33551724137931,
+      "y": 3.2,
+      "z": {
+        "R546_WEST_MOAT_EDGE_1": -6.758917331695557,
+        "R588_WEST_CLASS2_GROUND_RESTORATION": -6.758916854858398
+      },
+      "delta": 4.76837158203125e-07
+    },
+    {
+      "x": -31.291724137931034,
+      "y": 3.2,
+      "z": {
+        "R546_WEST_MOAT_EDGE_1": -6.756615161895752,
+        "R588_WEST_CLASS2_GROUND_RESTORATION": -6.7566142082214355
+      },
+      "delta": 9.5367431640625e-07
+    },
+    {
+      "x": -31.247931034482757,
+      "y": 3.2,
+      "z": {
+        "R546_WEST_MOAT_EDGE_1": -6.754312515258789,
+        "R588_WEST_CLASS2_GROUND_RESTORATION": -6.754312038421631
+      },
+      "delta": 4.76837158203125e-07
+    },
+    {
+      "x": -31.20413793103448,
+      "y": 3.2,
+      "z": {
+        "R546_WEST_MOAT_EDGE_1": -6.752010345458984,
+        "R588_WEST_CLASS2_GROUND_RESTORATION": -6.752009868621826
+      },
+      "delta": 4.76837158203125e-07
+    },
+    {
+      "x": -31.160344827586204,
+      "y": 3.2,
+      "z": {
+        "R546_WEST_MOAT_EDGE_1": -6.74970817565918,
+        "R588_WEST_CLASS2_GROUND_RESTORATION": -6.7497076988220215
+      },
+      "delta": 4.76837158203125e-07
+    },
+    {
+      "x": -31.11655172413793,
+      "y": 3.2,
+      "z": {
+        "R546_WEST_MOAT_EDGE_1": -6.747406005859375,
+        "R588_WEST_CLASS2_GROUND_RESTORATION": -6.747405529022217
+      },
+      "delta": 4.76837158203125e-07
+    },
+    {
+      "x": -31.072758620689655,
+      "y": 3.2,
+      "z": {
+        "R546_WEST_MOAT_EDGE_1": -6.745103359222412,
+        "R588_WEST_CLASS2_GROUND_RESTORATION": -6.745103359222412
+      },
+      "delta": 0.0
+    },
+    {
+      "x": -31.028965517241378,
+      "y": 3.2,
+      "z": {
+        "R546_WEST_MOAT_EDGE_1": -6.742801666259766,
+        "R588_WEST_CLASS2_GROUND_RESTORATION": -6.742801666259766
+      },
+      "delta": 0.0
+    },
+    {
+      "x": -30.9851724137931,
+      "y": 3.2,
+      "z": {
+        "R546_WEST_MOAT_EDGE_1": -6.740499496459961,
+        "R588_WEST_CLASS2_GROUND_RESTORATION": -6.740499019622803
+      },
+      "delta": 4.76837158203125e-07
+    },
+    {
+      "x": -30.941379310344825,
+      "y": 3.2,
+      "z": {
+        "R546_WEST_MOAT_EDGE_1": -6.738196849822998,
+        "R588_WEST_CLASS2_GROUND_RESTORATION": -6.73819637298584
+      },
+      "delta": 4.76837158203125e-07
+    },
+    {
+      "x": -30.897586206896552,
+      "y": 3.2,
+      "z": {
+        "R546_WEST_MOAT_EDGE_1": -6.735894680023193,
+        "R588_WEST_CLASS2_GROUND_RESTORATION": -6.735894203186035
+      },
+      "delta": 4.76837158203125e-07
+    },
+    {
+      "x": -30.853793103448275,
+      "y": 3.2,
+      "z": {
+        "R546_WEST_MOAT_EDGE_1": -6.733592510223389,
+        "R588_WEST_CLASS2_GROUND_RESTORATION": -6.7335920333862305
+      },
+      "delta": 4.76837158203125e-07
+    },
+    {
+      "x": -30.81,
+      "y": 3.2,
+      "z": {
+        "R546_WEST_MOAT_EDGE_1": -6.731290817260742,
+        "R588_WEST_CLASS2_GROUND_RESTORATION": -6.731289386749268
+      },
+      "delta": 1.430511474609375e-06
+    }
+  ],
+  "sharedEdgeMaxSeparation": 1.9073486328125e-06,
+  "limits": [
+    "ACT control-line fit is source-supported within scan resolution, not a surveyed elevation certificate.",
+    "Existing neighbors remain fixed: R588 first north row y=3.45 (local 0.25 m transition); R546 own adjacent boundaries y=2.7047..3.88945 remain unchanged.",
+    "Real steep diagonal R152 bank is unchanged. Its dark shading is not repaired by flattening or smoothing.",
+    "Affected surfaces need fresh AO bake before final publication."
+  ],
+  "reopened": true,
+  "continuityQA": {
+    "sharedEdgeNormalAngleMaxDegrees": 0.01978234059262607,
+    "sharedEdgeUVMaxDifference": {
+      "UVMap": 1.362663615278592e-08,
+      "MicroUV": 2.431334191754786e-07
+    },
+    "residualDarkPixels": [
+      {
+        "pixel": [
+          600,
+          438
+        ],
+        "object": "R588_WEST_CLASS2_GROUND_RESTORATION",
+        "world": [
+          -32.79262161254883,
+          3.556406021118164,
+          -6.769779205322266
+        ],
+        "normal": [
+          -0.12513074278831482,
+          -0.2025521844625473,
+          0.9712440371513367
+        ],
+        "face": 66
+      },
+      {
+        "pixel": [
+          594,
+          435
+        ],
+        "object": "R546_WEST_MOAT_EDGE_1",
+        "world": [
+          -33.140533447265625,
+          3.6558399200439453,
+          -6.310050964355469
+        ],
+        "normal": [
+          -0.0026867142878472805,
+          -0.699699342250824,
+          0.7144323587417603
+        ],
+        "face": 9
+      },
+      {
+        "pixel": [
+          608,
+          436
+        ],
+        "object": "R546_WEST_MOAT_EDGE_1",
+        "world": [
+          -32.4322624206543,
+          3.3318138122558594,
+          -6.753303527832031
+        ],
+        "normal": [
+          -0.3586714565753937,
+          -0.9334639310836792,
+          0.0
+        ],
+        "face": 39
+      },
+      {
+        "pixel": [
+          700,
+          470
+        ],
+        "object": "R152_CLASS2_TERRAIN",
+        "world": [
+          -30.852087020874023,
+          -1.5300769805908203,
+          -7.0254364013671875
+        ],
+        "normal": [
+          -0.5989128947257996,
+          -0.08324231207370758,
+          0.7964760065078735
+        ],
+        "face": 9558
+      }
+    ]
+  }
+}

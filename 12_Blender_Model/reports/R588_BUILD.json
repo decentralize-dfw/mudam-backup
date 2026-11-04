@@ -1,0 +1,123 @@
+{
+  "sourceScene": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R588_BATI_CEPHE_TERAS_KADEMELI_BIRLESIM_ADAY_v008.blend",
+  "reopened": true,
+  "checks": [
+    {
+      "name": "R588_WEST_APRON_AND_RETAINING_BODY",
+      "vertices": 249,
+      "faces": 495,
+      "nonManifold": 0,
+      "zeroArea": 0
+    },
+    {
+      "name": "R322_WEST_MUSEUM_TERRACE",
+      "vertices": 1526,
+      "faces": 3048,
+      "nonManifold": 0,
+      "zeroArea": 0
+    },
+    {
+      "name": "R321_MUSEUM_WEST_MOAT_RETAINING",
+      "vertices": 245,
+      "faces": 486,
+      "nonManifold": 0,
+      "zeroArea": 0
+    },
+    {
+      "name": "R152_HISTORIC_WALL_759680904",
+      "vertices": 6,
+      "faces": 8,
+      "nonManifold": 0,
+      "zeroArea": 0
+    },
+    {
+      "name": "R490_NW_MINERAL_PASSAGE",
+      "vertices": 102,
+      "faces": 199,
+      "nonManifold": 0,
+      "zeroArea": 0
+    }
+  ],
+  "changed": [
+    "R321_MUSEUM_WEST_MOAT_RETAINING",
+    "R322_WEST_MUSEUM_TERRACE",
+    "R490_NW_MINERAL_PASSAGE",
+    "R557_WEST_APPROACH_0",
+    "R557_WEST_APPROACH_1",
+    "R152_HISTORIC_WALL_759680904"
+  ],
+  "unchanged": 18291,
+  "added": [
+    "R588_WEST_APRON_AND_RETAINING_BODY"
+  ],
+  "probes": [
+    {
+      "x": -50,
+      "y": 12,
+      "z": -3.783254623413086,
+      "obj": "R588_WEST_APRON_AND_RETAINING_BODY"
+    },
+    {
+      "x": -49,
+      "y": 13,
+      "z": -3.7353076934814453,
+      "obj": "R588_WEST_APRON_AND_RETAINING_BODY"
+    },
+    {
+      "x": -47,
+      "y": 14,
+      "z": -3.228086471557617,
+      "obj": "R588_WEST_APRON_AND_RETAINING_BODY"
+    },
+    {
+      "x": -49,
+      "y": 15,
+      "z": -5.018510818481445,
+      "obj": "R490_NW_MINERAL_PASSAGE"
+    },
+    {
+      "x": -45.7,
+      "y": 8,
+      "z": -3.6415157318115234,
+      "obj": "R588_WEST_APRON_AND_RETAINING_BODY"
+    },
+    {
+      "x": -43.8,
+      "y": 6.48,
+      "z": -3.6205291748046875,
+      "obj": "R588_WEST_APRON_AND_RETAINING_BODY"
+    },
+    {
+      "x": -38.86,
+      "y": 4.96,
+      "z": -3.266551971435547,
+      "obj": "R588_WEST_APRON_AND_RETAINING_BODY"
+    },
+    {
+      "x": -47,
+      "y": 12,
+      "z": -3.318143844604492,
+      "obj": "R588_WEST_APRON_AND_RETAINING_BODY"
+    },
+    {
+      "x": -44,
+      "y": 14,
+      "z": -3.351612091064453,
+      "obj": "R588_WEST_APRON_AND_RETAINING_BODY"
+    },
+    {
+      "x": -43.25,
+      "y": 16,
+      "z": -3.4596939086914062,
+      "obj": "R588_WEST_APRON_AND_RETAINING_BODY"
+    },
+    {
+      "x": -43,
+      "y": 17,
+      "z": -3.543182373046875,
+      "obj": "R588_WEST_APRON_AND_RETAINING_BODY"
+    }
+  ],
+  "accepted": false,
+  "published": false
+}

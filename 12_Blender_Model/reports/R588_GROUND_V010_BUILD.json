@@ -1,0 +1,267 @@
+{
+  "scene": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R588_BATI_CEPHE_TERAS_KADEMELI_BIRLESIM_ADAY_v010.blend",
+  "base": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R588_BATI_CEPHE_TERAS_KADEMELI_BIRLESIM_ADAY_v009.blend",
+  "reopened": true,
+  "changed": [
+    "R523_WEST_MOAT_LOWER_GROUND_0",
+    "R588_WEST_CLASS2_GROUND_RESTORATION",
+    "R152_CLASS2_TERRAIN"
+  ],
+  "unchangedOtherMeshes": 18296,
+  "objects": {
+    "R152_CLASS2_TERRAIN": {
+      "vertices": 94461,
+      "faces": 31487,
+      "nonManifold": 94461,
+      "badEdges": [
+        {
+          "v": [
+            [
+              -88.5,
+              -97.5,
+              -5.895358562469482
+            ],
+            [
+              -89.0,
+              -98.0,
+              -5.8940510749816895
+            ]
+          ],
+          "faces": 1
+        },
+        {
+          "v": [
+            [
+              -88.5,
+              -97.5,
+              -5.895358562469482
+            ],
+            [
+              -89.0,
+              -97.5,
+              -5.891455173492432
+            ]
+          ],
+          "faces": 1
+        },
+        {
+          "v": [
+            [
+              -88.5,
+              -98.0,
+              -5.898263931274414
+            ],
+            [
+              -88.5,
+              -97.5,
+              -5.895358562469482
+            ]
+          ],
+          "faces": 1
+        },
+        {
+          "v": [
+            [
+              -88.5,
+              -96.0,
+              -5.893513202667236
+            ],
+            [
+              -89.0,
+              -94.5,
+              -5.895862579345703
+            ]
+          ],
+          "faces": 1
+        },
+        {
+          "v": [
+            [
+              -88.5,
+              -96.0,
+              -5.893513202667236
+            ],
+            [
+              -88.5,
+              -94.5,
+              -5.8968939781188965
+            ]
+          ],
+          "faces": 1
+        },
+        {
+          "v": [
+            [
+              -89.0,
+              -96.0,
+              -5.891046524047852
+            ],
+            [
+              -88.5,
+              -96.0,
+              -5.893513202667236
+            ]
+          ],
+          "faces": 1
+        },
+        {
+          "v": [
+            [
+              -88.5,
+              -93.0,
+              -5.90572452545166
+            ],
+            [
+              -89.0,
+              -91.5,
+              -5.91689920425415
+            ]
+          ],
+          "faces": 1
+        },
+        {
+          "v": [
+            [
+              -88.5,
+              -93.0,
+              -5.90572452545166
+            ],
+            [
+              -88.5,
+              -91.5,
+              -5.91793155670166
+            ]
+          ],
+          "faces": 1
+        },
+        {
+          "v": [
+            [
+              -89.0,
+              -93.0,
+              -5.904898166656494
+            ],
+            [
+              -88.5,
+              -93.0,
+              -5.90572452545166
+            ]
+          ],
+          "faces": 1
+        },
+        {
+          "v": [
+            [
+              -88.5,
+              -90.0,
+              -5.928962707519531
+            ],
+            [
+              -89.0,
+              -88.5,
+              -5.936910152435303
+            ]
+          ],
+          "faces": 1
+        },
+        {
+          "v": [
+            [
+              -88.5,
+              -90.0,
+              -5.928962707519531
+            ],
+            [
+              -88.5,
+              -88.5,
+              -5.937893867492676
+            ]
+          ],
+          "faces": 1
+        },
+        {
+          "v": [
+            [
+              -89.0,
+              -90.0,
+              -5.928025722503662
+            ],
+            [
+              -88.5,
+              -90.0,
+              -5.928962707519531
+            ]
+          ],
+          "faces": 1
+        }
+      ],
+      "zeroArea": 0,
+      "customNormals": true,
+      "uvLayers": [
+        "UVMap",
+        "MicroUV"
+      ],
+      "volume": null,
+      "removedFloat32DegenerateSlivers": 24
+    },
+    "R523_WEST_MOAT_LOWER_GROUND_0": {
+      "vertices": 504,
+      "faces": 939,
+      "nonManifold": 0,
+      "badEdges": [],
+      "zeroArea": 0,
+      "customNormals": true,
+      "uvLayers": [
+        "UVMap",
+        "R55_CONTEXT_METRIC_UV",
+        "METRIC_UV_4x3m",
+        "R497_MINERAL_METRIC",
+        "MicroUV"
+      ],
+      "volume": 67.78160488225818,
+      "removedFloat32DegenerateSlivers": 1
+    },
+    "R588_WEST_CLASS2_GROUND_RESTORATION": {
+      "vertices": 230,
+      "faces": 356,
+      "nonManifold": 0,
+      "badEdges": [],
+      "zeroArea": 0,
+      "customNormals": true,
+      "uvLayers": [
+        "UVMap",
+        "MicroUV"
+      ],
+      "volume": 1.638562729917076,
+      "removedFloat32DegenerateSlivers": 0
+    }
+  },
+  "gradeChanges": {
+    "R152_CLASS2_TERRAIN": {
+      "changedOriginalTriangles": 89,
+      "maxGradeDelta": 0.8911799662537323,
+      "topTriangles": 31511
+    },
+    "R523_WEST_MOAT_LOWER_GROUND_0": {
+      "changedOriginalTriangles": 2,
+      "maxGradeDelta": 1.9305629559652804,
+      "topTriangles": 415
+    },
+    "R588_WEST_CLASS2_GROUND_RESTORATION": {
+      "changedOriginalTriangles": 11,
+      "maxGradeDelta": 0.04439837550885173,
+      "topTriangles": 134
+    }
+  },
+  "source": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\reports\\R588_R523_SOURCE_GRADE_AUDIT.json",
+  "limitations": [
+    "Class2 is a ground classification, not a survey-guaranteed facade or retaining-wall classification. Near-edge points provide level brackets; steep connector material/type should follow visible source.",
+    "ACT corroborates a near-vertical break at x=-28..-27; its absolute floor is 0.2\u20130.5m above class2 locally, and western x=-30/-31 scan is smeared into a ramp. Use class2 for elevation and ACT only for edge topology.",
+    "Upper slope plane controls lie y1.2..3.8; extending to a diagonal edge south of y1.2 is not independently validated by the quoted heldout test. Raw near-edge upper points support the existence and levels, with local curvature.",
+    "Do not use all northern mixed-height points in a single smooth fit.",
+    "No production scene was changed."
+  ],
+  "sourceSurfaceCopied": false,
+  "accepted": false,
+  "published": false
+}

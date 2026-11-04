@@ -1,0 +1,60 @@
+{
+  "scene": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R588_BATI_CEPHE_TERAS_KADEMELI_BIRLESIM_ADAY_v009.blend",
+  "baseScene": "MUDAM_R588_BATI_CEPHE_TERAS_KADEMELI_BIRLESIM_ADAY_v008.blend",
+  "reopened": true,
+  "checks": {
+    "vertices": 162,
+    "faces": 304,
+    "nonManifold": 0,
+    "zeroArea": 0,
+    "volume": 1.638564469557344
+  },
+  "added": "R588_WEST_CLASS2_GROUND_RESTORATION",
+  "inheritedMeshesUnchanged": 18298,
+  "changed": [],
+  "restoredArea": 8.192822474999996,
+  "UV": [
+    {
+      "name": "UVMap",
+      "maximumFitResidual": 3.889784438992905e-08,
+      "transform": [
+        [
+          0.0008695652237831553,
+          8.218682839937679e-13
+        ],
+        [
+          3.148509231110097e-12,
+          0.0009090909137968728
+        ],
+        [
+          0.43478260896263565,
+          0.4090909089371418
+        ]
+      ]
+    },
+    {
+      "name": "MicroUV",
+      "maximumFitResidual": 1.2728772400549815e-06,
+      "transform": [
+        [
+          0.16666666673171077,
+          2.5903531587964135e-12
+        ],
+        [
+          -5.710670031189569e-11,
+          0.16666666675336378
+        ],
+        [
+          3.990771674184433e-09,
+          -5.726500648672861e-09
+        ]
+      ]
+    }
+  ],
+  "source": "Our independently authored R154 classified-ground refinement, vertices from .local_source_cache/r154/terrain.json; topology from r152/clean_site.json, not ACT scan mesh.",
+  "sourceLimits": "Original R154 smoothing was limited to 0.5m outside protected contacts; current boundary adjustments are explicitly recorded. This is continuity restoration, not a new absolute survey verification.",
+  "maxBoundaryAdjustment": 0.16138980453044205,
+  "neighborDisagreement": 1.8064180551391473e-07,
+  "accepted": false,
+  "published": false
+}

@@ -1,0 +1,52 @@
+{
+  "status": "READY for parent final visual validation and new AO bake",
+  "source": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R588_BATI_CEPHE_TERAS_KADEMELI_BIRLESIM_ADAY_v010.blend",
+  "output": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R588_BATI_CEPHE_TERAS_KADEMELI_BIRLESIM_ADAY_v011.blend",
+  "reopened": true,
+  "changed_objects": [
+    "R552_WEST_SLOPING_MASONRY_PLINTH",
+    "R588_WEST_APRON_AND_RETAINING_BODY"
+  ],
+  "unchanged_mesh_objects": 18297,
+  "r588_geometry_unchanged": true,
+  "volume_before": 67.49989083795225,
+  "volume_after": 67.49988738291174,
+  "max_vertex_to_original_surface_distance_m": 5.960464477539062e-07,
+  "checks": {
+    "nonmanifold": 0,
+    "zero_area": 0
+  },
+  "uv_layers": {
+    "R552_WEST_SLOPING_MASONRY_PLINTH": [
+      "R554_STONE_METRIC_2_5M",
+      "R556_STONE_ATLAS_20x10",
+      "R545_GROUND_ATLAS",
+      "R545_MICRO_2M",
+      "R588_CAP_SANDSTONE_3M"
+    ],
+    "R588_WEST_APRON_AND_RETAINING_BODY": [
+      "UVMap",
+      "R554_STONE_METRIC_2_5M",
+      "R556_STONE_ATLAS_20x10",
+      "R545_GROUND_ATLAS",
+      "R545_MICRO_2M",
+      "R588_CAP_SANDSTONE_3M"
+    ]
+  },
+  "removed_unused_r552_uv_layers": [
+    "UVMap",
+    "R55_CONTEXT_METRIC_UV",
+    "METRIC_UV_4x3m",
+    "R561_AO_ATLAS"
+  ],
+  "used_uv_coordinates_preserved_by_builder_compaction_assert": true,
+  "final_AO_slot_reserved": true,
+  "basecolor_image": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\textures\\R588_cap_sandstone_pale_basecolor.png",
+  "basecolor_packed": true,
+  "basecolor_direct_image_connection": true,
+  "normal_and_roughness_standard_PBR": true,
+  "original_shared_materials_not_edited": true,
+  "report_recovered_after_saved_scene_reopen_RNA_reference_error": true,
+  "accepted": false,
+  "published": false
+}
