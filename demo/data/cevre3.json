@@ -1,0 +1,169 @@
+{
+  "name": "Context 3",
+  "revision": "R588-west-facade-ground-and-contact-AO-review",
+  "source": "Independent western glass-facade terrace and retaining body, source-supported ground grades and diagonal moat bank, restored facade-corner substrate, separate masonry/cap/earth materials and rebaked contact AO. Main museum building and other Context 3 layers preserved. Review checkpoint; complete museum-ring source fidelity is not accepted.",
+  "compression": "Draco 24-bit positions; WebP quality 92; original texture resolution",
+  "files": {
+    "near": {
+      "bytes": 42954216,
+      "sha256": "d18e00faeee7d502513301b8146dc515cb286c8bf211c085d535c33b639a7aaf",
+      "triangles": 403980,
+      "bounds": {
+        "min": [
+          -500,
+          -78.04438781738281,
+          -650
+        ],
+        "max": [
+          650.00048828125,
+          16.32353973388672,
+          450.00048828125
+        ]
+      },
+      "textures": 29,
+      "file": "model/cevre3/authored-near.glb?v=d18e00faeee7",
+      "reviewOnly": true,
+      "bake": "Local contact ambient occlusion, not full lighting bake"
+    },
+    "far": {
+      "file": "model/cevre3/authored-far.glb",
+      "bytes": 483284,
+      "sha256": "ba4bafb03e38391fe83e9c175370b92133bd93fad4d63162537bdb38360496d5",
+      "sourceSha256": "9c8e77d0e79020bd7160c03f6ae6459e5e2d31e1519bf47715b131dd955225df",
+      "triangles": 82021,
+      "sourceTriangles": 82021,
+      "degenerateRemoved": 0,
+      "bounds": {
+        "min": [
+          134.42857360839844,
+          7.304701328277588,
+          -237.2857208251953
+        ],
+        "max": [
+          239.64285278320312,
+          30.80748176574707,
+          -111.07141876220703
+        ]
+      },
+      "boundsError": 7.62939453125e-06,
+      "textures": 0,
+      "instanceTransformsPreserved": true,
+      "instances": []
+    },
+    "melia": {
+      "file": "model/cevre3/authored-melia.glb",
+      "bytes": 195724,
+      "sha256": "16b0448c9cd211ab480853bc4d3b8fbc01b648af141a1c224e4e549d34298096",
+      "sourceSha256": "1fb395eacd1575aa473f60f9d1372dbebc4f096a5d9458e5ced43e7fb46842e7",
+      "triangles": 32144,
+      "sourceTriangles": 32144,
+      "degenerateRemoved": 0,
+      "bounds": {
+        "min": [
+          105.1493911743164,
+          -0.885083019733429,
+          -70.41024780273438
+        ],
+        "max": [
+          149.4720001220703,
+          33.79798126220703,
+          -26.334129333496094
+        ]
+      },
+      "boundsError": 1.9073486328125e-06,
+      "textures": 0,
+      "instanceTransformsPreserved": true,
+      "instances": []
+    },
+    "schuman": {
+      "file": "model/cevre3/authored-schuman.glb",
+      "bytes": 1554144,
+      "sha256": "a8c56659d673933ba80869329903d7db4b1c68bdaf18f01ed7a019390ef16841",
+      "sourceSha256": "4b0238251dfb07bd1885e63f4105fcd5f8030e1dda06a9683106bb1ae12af0ba",
+      "triangles": 285203,
+      "sourceTriangles": 285203,
+      "degenerateRemoved": 0,
+      "bounds": {
+        "min": [
+          54.418392181396484,
+          0.7334136962890625,
+          -194.1062469482422
+        ],
+        "max": [
+          126.22212219238281,
+          37.615692138671875,
+          -89.2112045288086
+        ]
+      },
+      "boundsError": 7.62939453125e-06,
+      "textures": 0,
+      "instanceTransformsPreserved": true,
+      "instances": []
+    },
+    "vegetation": {
+      "file": "model/cevre3/authored-vegetation.glb?v=6601c2ff5f54",
+      "bytes": 286964,
+      "sha256": "6601c2ff5f540ea5cd4ec189e9f8502ebd4f10ed1b0e600f7800661ccfc31928",
+      "triangles": 7368,
+      "bounds": {
+        "min": [
+          -0.6124610900878906,
+          -0.0006836694083176553,
+          -0.5949069261550903
+        ],
+        "max": [
+          0.6344858407974243,
+          1.161109447479248,
+          0.5961781740188599
+        ]
+      },
+      "textures": 1,
+      "reviewOnly": true
+    },
+    "district": {
+      "file": "model/cevre3/authored-district.glb?v=f13d2fc36362",
+      "bytes": 15716356,
+      "sha256": "f13d2fc363623e7bf2620e92ffc486eb9cd16c1367692ae9aec94b973ef39246",
+      "triangles": 525369,
+      "bounds": {
+        "min": [
+          -627.9898071289062,
+          -82.54031372070312,
+          -800
+        ],
+        "max": [
+          800,
+          99.01801300048828,
+          600
+        ]
+      },
+      "textures": 15,
+      "reviewOnly": true
+    },
+    "building": {
+      "file": "model/cevre3/building.glb?v=837132a0c949",
+      "bytes": 8414068,
+      "prims": 96,
+      "tris": 902234,
+      "textures": 16,
+      "bounds": {
+        "min": [
+          -42.6,
+          -13.4,
+          -44.5
+        ],
+        "max": [
+          38.5,
+          30.4,
+          50.1
+        ]
+      },
+      "sha256": "837132a0c949dba592ec6b4de5717144d01da41b9c2a5ac839a1b0e070d57253",
+      "bake": "Contact ambient occlusion only; not full lighting bake",
+      "reviewOnly": true
+    }
+  },
+  "reviewOnly": true,
+  "fullScopeAccepted": false,
+  "pieces": "data/pieces-cevre3.json?v=837132a0c949"
+}

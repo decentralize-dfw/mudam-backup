@@ -1,0 +1,84 @@
+{
+ "name": "Çevre 2",
+ "source": "12_Blender_Model/exports/web_current",
+ "revision": "R151 WEB CLEAN v002",
+ "pieces": "data/pieces-cevre2.json",
+ "files": {
+  "building": {
+   "file": "model/cevre2/building.glb",
+   "bytes": 3025620,
+   "prims": 83,
+   "tris": 901928,
+   "textures": 13,
+   "bounds": {
+    "min": [
+     -42.6,
+     -9.3,
+     -43.5
+    ],
+    "max": [
+     38.2,
+     30.4,
+     50.1
+    ]
+   }
+  },
+  "site": {
+   "file": "model/cevre2/site.glb",
+   "bytes": 114100,
+   "prims": 12,
+   "tris": 3308,
+   "textures": 9,
+   "bounds": {
+    "min": [
+     -26.8,
+     -12,
+     -66.2
+    ],
+    "max": [
+     61.9,
+     5.4,
+     51
+    ]
+   }
+  },
+  "near": {
+   "file": "model/cevre2/near.glb",
+   "bytes": 19456788,
+   "prims": 162,
+   "tris": 982430,
+   "textures": 162,
+   "bounds": {
+    "min": [
+     -214,
+     -74.2,
+     -217.3
+    ],
+    "max": [
+     209.1,
+     39,
+     206.1
+    ]
+   }
+  },
+  "far": {
+   "file": "model/cevre2/far.glb",
+   "bytes": 22431872,
+   "prims": 687,
+   "tris": 1369252,
+   "textures": 687,
+   "bounds": {
+    "min": [
+     -415.4,
+     -79.3,
+     -500.7
+    ],
+    "max": [
+     414.9,
+     99.4,
+     408.5
+    ]
+   }
+  }
+ }
+}

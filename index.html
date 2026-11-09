@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#e7ebe8" />
+  <title>Mudam Luxembourg — Building, surroundings and current exhibitions · 3D</title>
+  <meta name="description" content="I. M. Pei’s Mudam building, its surroundings and current exhibitions in one 3D model: floor-by-floor sections, plan and isometric views, a walk work by work." />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cpath d='M4 26 16 6l12 20z' fill='%23161d1a'/%3E%3C/svg%3E" />
+  <script type="module" crossorigin src="./demo/app/index-k-JKAQC-.js"></script>
+  <link rel="stylesheet" crossorigin href="./demo/app/index-CmjrnBlJ.css">
+</head>
+<body>
+<main id="app" data-mode="building" data-booting="true">
+  <div id="viewport" aria-label="Interactive 3D model of the Mudam building" data-i18n-label="viewportLabel"></div>
+
+  <header class="topbar">
+    <div class="identity glass">
+      <span class="brand">MUDAM</span>
+      <span class="brand-divider"></span>
+      <span class="identity-text"><strong>Luxembourg</strong><small data-i18n="placeShort">Virtual Experience · demo</small></span>
+    </div>
+    <div class="top-actions">
+      <div class="lang-switch glass" role="group" aria-label="Language" data-i18n-label="langLabel">
+        <button type="button" class="lang-flag" data-lang="en" aria-pressed="true" lang="en" title="English">EN</button>
+        <button type="button" class="lang-flag" data-lang="fr" aria-pressed="false" lang="fr" title="Français">FR</button>
+        <button type="button" class="lang-flag" data-lang="de" aria-pressed="false" lang="de" title="Deutsch">DE</button>
+        <button type="button" class="lang-flag" data-lang="lb" aria-pressed="false" lang="lb" title="Lëtzebuergesch">LB</button>
+      </div>
+      <button id="open-about" class="quiet-button glass" data-i18n="about">About</button>
+    </div>
+  </header>
+
+  <div class="view-toggles">
+    <button id="toggle-captions" class="captions-toggle glass" type="button" aria-pressed="true" data-i18n-title="captionsTitle" title="Show or hide the names and pins on the model"><i aria-hidden="true">Aa</i><span data-i18n="captions">Captions</span></button>
+    <button id="toggle-wire" class="wire-toggle glass" type="button" aria-pressed="false" data-i18n-title="wireTitle" title="White lines on black, hidden edges stay hidden"><i aria-hidden="true"></i><span data-i18n="wire">Wireframe</span></button>
+  </div>
+
+  <nav class="mode-picker glass" aria-label="View" data-i18n-label="viewLabel">
+    <button data-mode="surroundings" aria-pressed="false" data-i18n="modeSurroundings">Surroundings</button>
+    <button data-mode="building" aria-pressed="true" data-i18n="modeBuilding">Building</button>
+    <button data-mode="exhibitions" aria-pressed="false" data-i18n="modeExhibitions">Exhibitions</button>
+  </nav>
+
+  <!-- left sheet: exhibitions -->
+  <aside id="sheet" class="sheet glass" hidden>
+    <div id="sheet-body"></div>
+  </aside>
+
+  <!-- right card: hotspot, room or work -->
+  <section id="card" class="card glass" hidden aria-live="polite">
+    <button class="card-close" id="card-close" aria-label="Close" data-i18n-label="close">×</button>
+    <div id="card-body"></div>
+  </section>
+
+  <footer class="dock glass">
+    <nav class="floor-row" aria-label="Floors" data-i18n-label="floorsLabel">
+      <button data-floor="all" aria-pressed="true" data-i18n="floorAll" data-i18n-title="floorAllTitle">Building</button>
+      <button data-floor="LM1" aria-pressed="false" data-i18n="floorLM1">−1</button>
+      <button data-floor="L00" aria-pressed="false" data-i18n="floorL00">0</button>
+      <button data-floor="LP1" aria-pressed="false" data-i18n="floorLP1">+1</button>
+    </nav>
+    <span class="dock-divider"></span>
+    <div class="dock-actions">
+    <button id="toggle-explode" class="pill" aria-pressed="false" data-i18n="explode">Separate floors</button>
+    <button id="toggle-materials" class="pill" aria-pressed="false" aria-controls="layer-panel" data-i18n="materials">Separate materials</button>
+    <button id="toggle-plan" class="pill" aria-pressed="false" data-i18n="plan">Plan</button>
+    <button id="walk-pegman" class="pill pegman" type="button" aria-label="Walk inside" data-i18n-label="walk" data-i18n-title="walkTitle" title="Drag the figure onto a floor of the building, or click it to start in the Grand Hall"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="4.6" r="2.7"/><path d="M8.7 8.6h6.6c.9 0 1.6.7 1.6 1.6v4.8c0 .5-.4.9-.9.9h-.8l-.6 5.4c-.1.5-.5.9-1 .9h-2.2c-.5 0-.9-.4-1-.9l-.6-5.4h-.8c-.5 0-.9-.4-.9-.9v-4.8c0-.9.7-1.6 1.6-1.6z"/></svg><span data-i18n="walk">Walk inside</span></button>
+    </div>
+    <span class="dock-divider"></span>
+    <div class="camera-tools">
+      <button id="zoom-out" class="icon" data-i18n-label="zoomOut" aria-label="Zoom out">−</button>
+      <button id="zoom-in" class="icon" data-i18n-label="zoomIn" aria-label="Zoom in">+</button>
+      <button id="recentre" class="icon" data-i18n-label="recentre" aria-label="Ortala"><svg viewBox="0 0 20 20" aria-hidden="true"><circle cx="10" cy="10" r="3"/><path d="M10 1.5v4M10 14.5v4M1.5 10h4M14.5 10h4"/></svg></button>
+    </div>
+  </footer>
+
+  <section id="layer-panel" class="layer-panel glass" hidden aria-label="Material layers" data-i18n-label="layers">
+    <div class="layer-modes" role="group" data-i18n-label="materials">
+      <button data-mat="vertical" aria-pressed="false" data-i18n="matVertical">Vertical</button>
+      <button data-mat="radial" aria-pressed="false" data-i18n="matRadial">Hemisphere</button>
+    </div>
+    <div class="layer-list" id="layer-list"></div>
+  </section>
+
+  <!-- phone: the light panel opens from here (on a wider screen it is always out) -->
+  <button id="toggle-light-panel" class="light-toggle glass" type="button" aria-expanded="false" aria-controls="light-panel" aria-label="Light" data-i18n-label="light"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.5v2.6M12 18.9v2.6M2.5 12h2.6M18.9 12h2.6M5.3 5.3l1.8 1.8M16.9 16.9l1.8 1.8M5.3 18.7l1.8-1.8M16.9 7.1l1.8-1.8"/></svg></button>
+  <section id="light-panel" class="light-panel glass" aria-label="Light" data-i18n-label="light">
+    <div class="light-row context-row">
+      <span data-i18n="contextModel">Model</span>
+      <div class="context-switch" role="group" data-i18n-label="contextModel">
+        <button type="button" data-cevre="1" aria-pressed="true" data-i18n="cevre1" data-i18n-title="cevre1Title">Context 1</button>
+        <button type="button" data-cevre="2" aria-pressed="false" data-i18n="cevre2" data-i18n-title="cevre2Title">Context 2</button>
+        <button type="button" data-cevre="3" aria-pressed="false" data-i18n="cevre3" data-i18n-title="cevre3Title">Context 3</button>
+      </div>
+    </div>
+    <div class="light-row daylight-row">
+      <label for="hour" data-i18n="daylight">Daylight</label>
+      <output id="hour-out">13:30</output>
+    </div>
+    <input id="hour" type="range" min="5" max="22" step="0.05" value="13.5" />
+    <div class="light-row">
+      <select id="day" aria-label="Date" data-i18n-label="dateLabel">
+        <option value="283" data-i18n="dateToday">Today · 10 October</option>
+        <option value="172" data-i18n="dateJune">21 June</option>
+        <option value="80" data-i18n="dateMarch">21 March</option>
+        <option value="355" data-i18n="dateDec">21 December</option>
+      </select>
+      <button id="toggle-lights" class="pill small" aria-pressed="false" data-i18n="interior">Interior lights</button>
+    </div>
+  </section>
+  <p id="notice" class="notice glass" role="status" aria-live="polite" hidden></p>
+
+  <!-- walking inside: where you are, the way out, arrows for touch -->
+  <section id="walk-ui" class="walk-ui" hidden>
+    <div class="walk-bar glass">
+      <span class="walk-figure"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="4.6" r="2.7"/><path d="M8.7 8.6h6.6c.9 0 1.6.7 1.6 1.6v4.8c0 .5-.4.9-.9.9h-.8l-.6 5.4c-.1.5-.5.9-1 .9h-2.2c-.5 0-.9-.4-1-.9l-.6-5.4h-.8c-.5 0-.9-.4-.9-.9v-4.8c0-.9.7-1.6 1.6-1.6z"/></svg></span>
+      <span id="walk-where" class="walk-where" aria-live="polite"></span>
+      <button id="walk-exit" class="pill" type="button" data-i18n="walkExit">Leave the walk</button>
+    </div>
+    <div class="walk-pad" role="group" aria-label="Walking directions" data-i18n-label="walkPad">
+      <button class="glass" type="button" data-walk-direction="forward" aria-label="Forward" data-i18n-label="walkForward"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M5 12.5 10 7l5 5.5"/></svg></button>
+      <button class="glass" type="button" data-walk-direction="left" aria-label="Left" data-i18n-label="walkLeft"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M12.5 5 7 10l5.5 5"/></svg></button>
+      <button class="glass" type="button" data-walk-direction="back" aria-label="Back" data-i18n-label="walkBack"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M5 7.5 10 13l5-5.5"/></svg></button>
+      <button class="glass" type="button" data-walk-direction="right" aria-label="Right" data-i18n-label="walkRight"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M7.5 5 13 10l-5.5 5"/></svg></button>
+    </div>
+  </section>
+
+  <p id="hint" class="hint"></p>
+
+  <div id="lightbox" class="lightbox" hidden>
+    <button class="card-close" id="lightbox-close" aria-label="Close" data-i18n-label="close">×</button>
+    <img id="lightbox-img" alt="" />
+  </div>
+
+  <section id="about" class="about glass" hidden role="dialog" aria-labelledby="about-title">
+    <button class="card-close" data-close="about" aria-label="Close" data-i18n-label="close">×</button>
+    <h2 id="about-title" data-i18n="aboutTitle">Mudam Virtual Experience · demo</h2>
+    <div id="about-body"></div>
+  </section>
+
+  <div id="boot" class="boot">
+    <div class="boot-inner">
+      <p class="boot-brand">MUDAM</p>
+      <h1 class="boot-title">Musée d’Art Moderne<br/>Grand-Duc Jean</h1>
+      <p class="boot-place" data-i18n="place">Luxembourg-Kirchberg · I. M. Pei · 2006</p>
+      <div class="boot-bar"><i id="boot-fill"></i></div>
+      <p class="boot-status" id="boot-status" data-i18n="loading">Loading the model</p>
+      <div class="boot-actions" id="boot-actions" hidden>
+        <p class="boot-lead" data-i18n="welcomeLead">I. M. Pei’s building, its surroundings and the current exhibitions in one model. Open the floors, move through the section, walk work by work.</p>
+        <div class="boot-buttons">
+          <button data-start="building" class="primary" data-i18n="welcomeBuilding">Building</button>
+          <button data-start="surroundings" data-i18n="welcomeSurroundings">Surroundings</button>
+          <button data-start="exhibitions" data-i18n="welcomeExhibitions">Current exhibitions</button>
+        </div>
+        <p class="boot-note" data-i18n="welcomeNote">The model is a working model built from documented sources, not a measured survey.</p>
+      </div>
+      <button id="retry" hidden data-i18n="retry">Try again</button>
+    </div>
+  </div>
+</main>
+</body>
+</html>
