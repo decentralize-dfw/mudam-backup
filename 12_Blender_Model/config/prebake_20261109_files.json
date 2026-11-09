@@ -1,0 +1,252 @@
+{
+  "branch": "codex/2026-11-09-demo-bake-oncesi",
+  "baseCommit": "38171a734de66c3bf5c9f201605fac73ba6a8371",
+  "sourceScene": {
+    "path": "12_Blender_Model/scenes/MUDAM_R588_BATI_CEPHE_TERAS_KADEMELI_BIRLESIM_ADAY_v020.blend",
+    "bytes": 65378734,
+    "sha256": "f0afb8eff89572e49ab849f9cbcfef8d5d05985a953da7d135f8d9a1e746a4e1",
+    "gitBlob": "bc1e1e6210dc31479cc1c64aab1a3b3ae7883ac7"
+  },
+  "packedImages": 51,
+  "linkedLibraries": 0,
+  "externalFiles": [
+    {
+      "path": "12_Blender_Model/textures/R129_historic_masonry_basecolor.png",
+      "bytes": 1885150,
+      "sha256": "ab65ad98a27a42184b6a07c0dbfec3040670cb07e2b213f1119d2a8fa145721d",
+      "gitBlob": "4999cb86f4f3f64ede31664598152b7f82473431",
+      "imageDatablocks": [
+        "R129_historic_masonry_basecolor.png.001"
+      ]
+    },
+    {
+      "path": "12_Blender_Model/textures/R129_historic_masonry_normal.png",
+      "bytes": 4383859,
+      "sha256": "d5145f1e5463d14543dd60eb33fae83b8920ffded37e5a20aa8fc414be993c7d",
+      "gitBlob": "1139de642dc410cff34faa01d9d22f42c1546d93",
+      "imageDatablocks": [
+        "R129_historic_masonry_normal.png.001"
+      ]
+    },
+    {
+      "path": "12_Blender_Model/textures/R129_historic_masonry_roughness.png",
+      "bytes": 324276,
+      "sha256": "6eea749863cd65f2bdd97814d0f8c5b5ecdb1a0e0f104f23dcecca65d266c088",
+      "gitBlob": "f039655100d27d6aeee4ae72c0386370c7443260",
+      "imageDatablocks": [
+        "R129_historic_masonry_roughness.png.001"
+      ]
+    },
+    {
+      "path": "12_Blender_Model/textures/R157_ground_micro_normal.png",
+      "bytes": 348066,
+      "sha256": "71c8972eb8d3c49b08307c816bb417db56204b68d36acb71eec3a79e406bfd55",
+      "gitBlob": "b5d36f6af6d14300e947091d1e5361756ba395de",
+      "imageDatablocks": [
+        "R157_ground_micro_normal.png"
+      ]
+    },
+    {
+      "path": "12_Blender_Model/textures/R157_landcover_atlas.jpg",
+      "bytes": 295188,
+      "sha256": "324b85ea967f2c76db3be07307755f44441f90e6568501e1b801fb603272cf34",
+      "gitBlob": "9cea70e04038f70b936ea92068c8aa9a764a0c85",
+      "imageDatablocks": [
+        "R157_landcover_atlas.jpg"
+      ]
+    },
+    {
+      "path": "12_Blender_Model/textures/R158_leafy_twig.png",
+      "bytes": 18213,
+      "sha256": "9fb51d9defd7ff523a8b0f1a444a7c9ee58bd89ef04f3eb49b741e99a9bcf8c7",
+      "gitBlob": "41b9c5e7fb81cc16c8aec8babc0a694e62e3ea14",
+      "imageDatablocks": [
+        "R158_leafy_twig.png"
+      ]
+    },
+    {
+      "path": "12_Blender_Model/textures/R162_source_color.png",
+      "bytes": 9009398,
+      "sha256": "371c3395069cf4c53864358db0fbf4c96772d3d637b8b9eed6d08be1e709e777",
+      "gitBlob": "dfa8983ebf2fa76b5e96ce925e1b1988f701f6b7",
+      "imageDatablocks": [
+        "R162_SOURCE_COLOR"
+      ]
+    },
+    {
+      "path": "12_Blender_Model/textures/R164_source_color.png",
+      "bytes": 10238308,
+      "sha256": "029e1c15bd278c51d838f69454bb8d039025c204c67f1561fdc8ed96e9cb9748",
+      "gitBlob": "28503484ed870cff292841fbdefa94d65cd02ecd",
+      "imageDatablocks": [
+        "R164_SOURCE_COLOR"
+      ]
+    },
+    {
+      "path": "12_Blender_Model/textures/R166_source_color.png",
+      "bytes": 7656931,
+      "sha256": "3d77adaea9ee807150275e5896128ac0806daf31e19365beac8f03d3aa0d64c1",
+      "gitBlob": "3e2a309555fa8c12f06467d8d7b46d4684488628",
+      "imageDatablocks": [
+        "R166_SOURCE_COLOR"
+      ]
+    },
+    {
+      "path": "12_Blender_Model/textures/R167_source_color.png",
+      "bytes": 9778432,
+      "sha256": "4bae2fbc055815e101f5a0dbee1b1bfea9f6283cd4418edbf819558483800374",
+      "gitBlob": "335ed3a8342a0127730b8e95309ee5c99ddbfa19",
+      "imageDatablocks": [
+        "R167_SOURCE_COLOR"
+      ]
+    },
+    {
+      "path": "12_Blender_Model/textures/R168_junction_source.png",
+      "bytes": 8248618,
+      "sha256": "76e2b84e94485458b0851b2a3d1811ed3f08a4724ee02669b9a2e2439dc8e49e",
+      "gitBlob": "ef56bbb562bb228ddb3dbccce5a56cf08cb10b08",
+      "imageDatablocks": [
+        "R168_junction_source.png"
+      ]
+    },
+    {
+      "path": "12_Blender_Model/textures/R32_wood_candidate_normal.png",
+      "bytes": 81414,
+      "sha256": "cab58be1474553de0628635ba6244e08bd96fbe22f6419d41d590477fa7f46a9",
+      "gitBlob": "cb0675d551a65540be402b996a529543ce623522",
+      "imageDatablocks": [
+        "R32_wood_candidate_normal.png.001"
+      ]
+    },
+    {
+      "path": "12_Blender_Model/textures/R545_dry_ground_atlas.png",
+      "bytes": 36638637,
+      "sha256": "c8f720ef35fbc504c2a093157ffc66b024592d71f876ab8610a631a4449b8856",
+      "gitBlob": "eb63a0db8a5de59d2d31f6d5f52b42c5f48cbca3",
+      "imageDatablocks": [
+        "R545_dry_ground_atlas.png",
+        "R545_dry_ground_atlas.png.001"
+      ]
+    },
+    {
+      "path": "12_Blender_Model/textures/R556_weathered_stone_albedo_atlas.png",
+      "bytes": 16127008,
+      "sha256": "0cc0b1616cd392999c78c978822aa6ab54d3ecb03550ad9efe252141ac284bf4",
+      "gitBlob": "a85da3011f75b47f4c9d08f675c9513da6d994f4",
+      "imageDatablocks": [
+        "R556_weathered_stone_albedo_atlas.png"
+      ]
+    },
+    {
+      "path": "12_Blender_Model/textures/R561_museum_ring_contact_ao.png",
+      "bytes": 2068405,
+      "sha256": "ecec8d020a9e7d4123e467a41ff05692159b347d671421bd1b04b7d71b532587",
+      "gitBlob": "54840a3cb0777fd8129cc8330283d875006327a7",
+      "imageDatablocks": [
+        "R561_MUSEUM_RING_CONTACT_AO",
+        "R561_MUSEUM_RING_CONTACT_AO.001"
+      ]
+    },
+    {
+      "path": "12_Blender_Model/textures/R571_museum_ring_contact_ao.png",
+      "bytes": 278881,
+      "sha256": "b13204ca3eae235dee119722ee367c70112decaf2d00a0b890ef8e48d76cfecf",
+      "gitBlob": "05f4e0ed736459a65a2b4b502c4d639f2baea556",
+      "imageDatablocks": [
+        "R571_MUSEUM_RING_CONTACT_AO"
+      ]
+    },
+    {
+      "path": "12_Blender_Model/textures/R581_building_contact_ao.png",
+      "bytes": 8534878,
+      "sha256": "8795db2a418960a8f445e33d5ab0a7547abb794b0f7cb510fc0a4200cd516ae7",
+      "gitBlob": "f51ffbef28c9980699d32dbbb7b753b62a4c5c2e",
+      "imageDatablocks": [
+        "R581_BUILDING_CONTACT_AO"
+      ]
+    },
+    {
+      "path": "12_Blender_Model/textures/R59_paving_candidate_basecolor.png",
+      "bytes": 1549588,
+      "sha256": "78ba257178127aa87322132945032161bb2d9f35bcd97ec5e2f3e66769edaf15",
+      "gitBlob": "b7c3cdd7e9146401ccd2694633fd093b2cee91d8",
+      "imageDatablocks": [
+        "R59_paving_candidate_basecolor.png"
+      ]
+    },
+    {
+      "path": "12_Blender_Model/textures/R59_paving_candidate_normal.png",
+      "bytes": 3385494,
+      "sha256": "43f039d771626c2dfe31ae821bfe8336bd729118b085d7f761fb1888838200af",
+      "gitBlob": "abe91b5102af71b7fef05e29eb46c01b4133cb2b",
+      "imageDatablocks": [
+        "R59_paving_candidate_normal.png"
+      ]
+    },
+    {
+      "path": "12_Blender_Model/textures/polyhaven_castle_wall_slates/castle_wall_slates_nor_gl_2k.png",
+      "bytes": 25772651,
+      "sha256": "99b1c3eac84ef4108e75f136d9d064b3d226b30a0518e874394e3d175d4f0088",
+      "gitBlob": "d3e32c41d680dfc7efa8e13cb53f6c31864a052e",
+      "imageDatablocks": [
+        "castle_wall_slates_nor_gl_2k.png"
+      ]
+    },
+    {
+      "path": "12_Blender_Model/textures/polyhaven_castle_wall_slates/castle_wall_slates_rough_2k.jpg",
+      "bytes": 2005253,
+      "sha256": "84fe81f77d25e4dc37be41174b0a1fa85e8aece244eabe54ed48c542cb5bed08",
+      "gitBlob": "4840febba2c859a14f703cb27326d8b986f9787d",
+      "imageDatablocks": [
+        "castle_wall_slates_rough_2k.jpg"
+      ]
+    },
+    {
+      "path": "12_Blender_Model/textures/polyhaven_sandstone_blocks_04/sandstone_blocks_04_diff_2k.jpg",
+      "bytes": 2066659,
+      "sha256": "4571ff357e041bacb75ab06ad1958e74a0b396e0f3d8b9dc9d4717f704996304",
+      "gitBlob": "7a158d137739e3c58e3bec2e450abe39704ae694",
+      "imageDatablocks": [
+        "sandstone_blocks_04_diff_2k.jpg"
+      ]
+    },
+    {
+      "path": "12_Blender_Model/textures/polyhaven_sandstone_blocks_04/sandstone_blocks_04_nor_gl_2k.png",
+      "bytes": 6086672,
+      "sha256": "bcecbeb0ce57280cf25e27125ab364e6399426ad00112839bd2e69229bb04bf2",
+      "gitBlob": "5b8999e4ccb19f2a1665355c07844b5360fc7d7f",
+      "imageDatablocks": [
+        "sandstone_blocks_04_nor_gl_2k.png"
+      ]
+    },
+    {
+      "path": "12_Blender_Model/textures/polyhaven_sandstone_blocks_04/sandstone_blocks_04_rough_2k.jpg",
+      "bytes": 1607004,
+      "sha256": "98495e70e919ea892f2119100e64d8d5a5accb9982703fdd923477e7f2a346fb",
+      "gitBlob": "d4e2fdfbf1c74f9501acd8ca38ba66c3a8af3f39",
+      "imageDatablocks": [
+        "sandstone_blocks_04_rough_2k.jpg"
+      ]
+    },
+    {
+      "path": "12_Blender_Model/textures/polyhaven_withered_grass/withered_grass_nor_gl_2k.png",
+      "bytes": 24597734,
+      "sha256": "5b4be863674ec322952cc3e0aa2a33980b194ad65d83ff012e348ae4bd38849f",
+      "gitBlob": "d64a2f384a7858bb8ec8831e1272900fcffc8c1f",
+      "imageDatablocks": [
+        "withered_grass_nor_gl_2k.png",
+        "withered_grass_nor_gl_2k.png.001"
+      ]
+    },
+    {
+      "path": "12_Blender_Model/textures/polyhaven_withered_grass/withered_grass_rough_2k.jpg",
+      "bytes": 3666367,
+      "sha256": "86adb8d6f24d0a38eb96c6b625f2dd027b805f59af46fe2a05ffe29f633e33c8",
+      "gitBlob": "52d454d31685e407d6995917da5ab3582e50d69a",
+      "imageDatablocks": [
+        "withered_grass_rough_2k.jpg",
+        "withered_grass_rough_2k.jpg.001"
+      ]
+    }
+  ]
+}
