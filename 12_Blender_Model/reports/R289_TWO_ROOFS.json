@@ -1,0 +1,201 @@
+{
+  "accepted": false,
+  "published": false,
+  "sourceFits": [
+    {
+      "name": "black_roof",
+      "polygon": [
+        [
+          354.3333333333333,
+          213.625
+        ],
+        [
+          386.875,
+          194.375
+        ],
+        [
+          368.81666666666666,
+          162.75
+        ],
+        [
+          334.625,
+          182.45833333333331
+        ]
+      ],
+      "origin": [
+        367.40625,
+        187.6875
+      ],
+      "plane": [
+        -0.00043768136562820283,
+        -0.00015510944637386892,
+        20.26841300674162
+      ],
+      "cornerRoofs": [
+        20.27011162749571,
+        20.25885460323192,
+        20.271663735467797,
+        20.283571842155283
+      ],
+      "samples": 625,
+      "support": 0.9903846153846154,
+      "p90": 0.11425672515414029,
+      "sourceImage": "R288_east_roofs_source.png",
+      "sourcePixels": [
+        [
+          320,
+          615
+        ],
+        [
+          675,
+          825
+        ],
+        [
+          478,
+          1170
+        ],
+        [
+          105,
+          955
+        ]
+      ],
+      "unresolvedCropEdges": [],
+      "fitScope": "R287 interior height samples only; revised boundary independently traced, not yet accepted"
+    },
+    {
+      "name": "white_roof",
+      "polygon": [
+        [
+          379.0833333333333,
+          255.33333333333334
+        ],
+        [
+          405.94166666666666,
+          239.475
+        ],
+        [
+          405.2083333333333,
+          218.11666666666667
+        ],
+        [
+          393.2916666666667,
+          203.54166666666669
+        ],
+        [
+          360.2916666666667,
+          224.16666666666666
+        ]
+      ],
+      "origin": [
+        391.21875,
+        230.578125
+      ],
+      "plane": [
+        -9.435546836706787e-05,
+        -0.0008368806455930078,
+        19.13767601806919
+      ],
+      "cornerRoofs": [
+        19.118103906260814,
+        19.128841207877617,
+        19.146784777676544,
+        19.160106715750768,
+        19.145959782891527
+      ],
+      "samples": 624,
+      "support": 1.0,
+      "p90": 0.017401360690761793,
+      "sourceImage": "R288_east_roofs_source.png",
+      "sourcePixels": [
+        [
+          590,
+          160
+        ],
+        [
+          883,
+          333
+        ],
+        [
+          875,
+          566
+        ],
+        [
+          745,
+          725
+        ],
+        [
+          385,
+          500
+        ]
+      ],
+      "unresolvedCropEdges": [
+        1
+      ],
+      "fitScope": "R287 interior height samples only; revised boundary independently traced, not yet accepted"
+    }
+  ],
+  "clipping": [
+    {
+      "name": "R166_MEASURED_ENVELOPE",
+      "cutTriangles": 339
+    }
+  ],
+  "checks": [
+    {
+      "name": "R289_ROOF_SLAB_0",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R289_COPING_0_0",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R289_COPING_0_1",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R289_COPING_0_2",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R289_COPING_0_3",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R289_ROOF_SLAB_1",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R289_COPING_1_0",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R289_COPING_1_2",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R289_COPING_1_3",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R289_COPING_1_4",
+      "boundary": 0,
+      "zero": 0
+    }
+  ],
+  "limits": [
+    "Boundary corrected from matched R288 source view; white roof source crop unresolved and no coping added there",
+    "Coping section and slab thickness provisional",
+    "Existing lower facade retained until independent reconstruction",
+    "Whole first-six scope incomplete"
+  ]
+}

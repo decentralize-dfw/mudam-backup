@@ -1,0 +1,22 @@
+{
+  "scene": "MUDAM_R169_CEPHE_BALKON_ADAY_v008.blend",
+  "accepted": false,
+  "published": false,
+  "reopened": true,
+  "curve_sample_count": 13,
+  "curve_fit_rmse_m": 0.07748696169445986,
+  "balcony_levels_relative_m": [
+    2.3,
+    5.35
+  ],
+  "assumptions": [
+    "Slab thickness 0.12m, railing band dimensions are modeling assumptions",
+    "Lower balcony depth repeats upper sampled curve pending verification"
+  ],
+  "remaining": [
+    "Right balcony and entrances",
+    "Other facades",
+    "Roof dormers and junctions",
+    "Full source comparison and GLB validation before publication"
+  ]
+}

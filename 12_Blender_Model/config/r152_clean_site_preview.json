@@ -1,0 +1,78 @@
+{
+  "scene": "MUDAM_R159_KAYNAK_ORTU_OLCEGI_v001.blend",
+  "status": "review_candidate",
+  "layers": [
+    {
+      "key": "building",
+      "url": "../exports/r152_clean/building_web.glb.gz",
+      "bytes": 21338720,
+      "gzip_bytes": 8724117,
+      "sha256": "5145a1a13bcfd7581d69be99f35e4f5707816a6f72b6a8322e02e36b0bf5947f",
+      "triangles": 902234,
+      "source_instanced_triangles": 902234,
+      "bounds_error_m": 0,
+      "gpu_instances": 0,
+      "draw_primitives_after": 101
+    },
+    {
+      "key": "near_context",
+      "url": "../exports/r152_clean/near_site_web.glb.gz",
+      "bytes": 18096292,
+      "gzip_bytes": 17149000,
+      "sha256": "b03c95ceb3d035e30765f1c86955de4b2087b92a54204749b29ae8731978a00c",
+      "triangles": 208212,
+      "source_instanced_triangles": 208212,
+      "bounds_error_m": 0,
+      "gpu_instances": 0,
+      "draw_primitives_after": 17
+    },
+    {
+      "key": "far_context",
+      "url": "../exports/r152_clean/philharmonie_web.glb.gz",
+      "bytes": 1257312,
+      "gzip_bytes": 356255,
+      "sha256": "9c8e77d0e79020bd7160c03f6ae6459e5e2d31e1519bf47715b131dd955225df",
+      "triangles": 82021,
+      "source_instanced_triangles": 82021,
+      "bounds_error_m": 0,
+      "gpu_instances": 0,
+      "draw_primitives_after": 5
+    },
+    {
+      "key": "melia",
+      "url": "../exports/r152_clean/melia_web.glb.gz",
+      "bytes": 776380,
+      "gzip_bytes": 67727,
+      "sha256": "1fb395eacd1575aa473f60f9d1372dbebc4f096a5d9458e5ced43e7fb46842e7",
+      "triangles": 32144,
+      "source_instanced_triangles": 32144,
+      "bounds_error_m": 0,
+      "gpu_instances": 0,
+      "draw_primitives_after": 7
+    },
+    {
+      "key": "schuman",
+      "url": "../exports/r152_clean/schuman_web.glb.gz",
+      "bytes": 6570640,
+      "gzip_bytes": 263313,
+      "sha256": "4b0238251dfb07bd1885e63f4105fcd5f8030e1dda06a9683106bb1ae12af0ba",
+      "triangles": 285203,
+      "source_instanced_triangles": 285203,
+      "bounds_error_m": 0,
+      "gpu_instances": 0,
+      "draw_primitives_after": 4
+    },
+    {
+      "key": "vegetation",
+      "url": "../exports/r152_clean/vegetation_web.glb.gz",
+      "bytes": 365884,
+      "gzip_bytes": 290163,
+      "sha256": "d47a5a5835a723bba059073f84a4a999788bcc325b57a95a2557681aa51b9279",
+      "triangles": 3472404,
+      "source_instanced_triangles": 3472404,
+      "bounds_error_m": null,
+      "gpu_instances": 6334,
+      "draw_primitives_after": 24
+    }
+  ]
+}

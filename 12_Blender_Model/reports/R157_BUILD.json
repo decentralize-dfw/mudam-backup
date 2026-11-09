@@ -1,0 +1,212 @@
+{
+  "scene": "MUDAM_R157_ARAZI_YOLLAR_AGACLAR_v004.blend",
+  "terrain_changes": [
+    {
+      "name": "R152_PATH_34122543",
+      "changed": 155,
+      "max_delta": 0.4686767268480505
+    },
+    {
+      "name": "R152_PATH_37862401",
+      "changed": 52,
+      "max_delta": 0.044192829496742025
+    },
+    {
+      "name": "R152_PATH_49908630",
+      "changed": 42,
+      "max_delta": 0.11466178630769686
+    },
+    {
+      "name": "R152_PATH_49910981",
+      "changed": 33,
+      "max_delta": 0.11163234201342831
+    },
+    {
+      "name": "R152_PATH_49910983",
+      "changed": 67,
+      "max_delta": 0.1395389939604712
+    },
+    {
+      "name": "R152_PATH_50643005",
+      "changed": 43,
+      "max_delta": 0.14786369924271014
+    },
+    {
+      "name": "R152_PATH_51768373",
+      "changed": 22,
+      "max_delta": 0.34932954269732175
+    },
+    {
+      "name": "R152_PATH_51768375",
+      "changed": 21,
+      "max_delta": 0.7
+    },
+    {
+      "name": "R152_PATH_51768376",
+      "changed": 64,
+      "max_delta": 0.06412846792618243
+    },
+    {
+      "name": "R152_PATH_83345376",
+      "changed": 466,
+      "max_delta": 0.213381215147864
+    },
+    {
+      "name": "R152_PATH_83345387",
+      "changed": 108,
+      "max_delta": 0.1923272101522535
+    },
+    {
+      "name": "R152_PATH_83345393",
+      "changed": 1147,
+      "max_delta": 0.2123837841636096
+    },
+    {
+      "name": "R152_PATH_151551525",
+      "changed": 85,
+      "max_delta": 0.51295180191509
+    },
+    {
+      "name": "R152_PATH_173271133",
+      "changed": 38,
+      "max_delta": 0.027563777261475852
+    },
+    {
+      "name": "R152_PATH_192104187",
+      "changed": 87,
+      "max_delta": 0.47444895920391517
+    },
+    {
+      "name": "R152_PATH_454636393",
+      "changed": 115,
+      "max_delta": 0.08827974605976507
+    },
+    {
+      "name": "R152_PATH_542470958",
+      "changed": 51,
+      "max_delta": 0.07838472282760965
+    },
+    {
+      "name": "R152_PATH_542470959",
+      "changed": 103,
+      "max_delta": 0.04656099082671719
+    },
+    {
+      "name": "R152_PATH_759551377",
+      "changed": 62,
+      "max_delta": 0.28518730387130997
+    },
+    {
+      "name": "R152_PATH_759680911",
+      "changed": 67,
+      "max_delta": 0.29055808216986634
+    },
+    {
+      "name": "R152_PATH_759680913",
+      "changed": 0,
+      "max_delta": 0.0
+    },
+    {
+      "name": "R152_PATH_759683796",
+      "changed": 120,
+      "max_delta": 0.6978088255718724
+    },
+    {
+      "name": "R152_PATH_824216705",
+      "changed": 47,
+      "max_delta": 0.151518078919457
+    },
+    {
+      "name": "R152_PATH_824216707",
+      "changed": 13,
+      "max_delta": 0.1892497327481042
+    },
+    {
+      "name": "R152_PATH_903866847",
+      "changed": 14,
+      "max_delta": 0.038781028233453474
+    },
+    {
+      "name": "R152_PATH_1276584237",
+      "changed": 9,
+      "max_delta": 0.025396152537988104
+    },
+    {
+      "name": "R152_PATH_1420370347",
+      "changed": 81,
+      "max_delta": 0.09053361176383679
+    },
+    {
+      "name": "R152_PATH_1420370349",
+      "changed": 80,
+      "max_delta": 0.26565769289683683
+    },
+    {
+      "name": "R152_FORECOURT_0",
+      "changed": 219,
+      "max_delta": 0.7
+    },
+    {
+      "name": "R152_FORECOURT_1",
+      "changed": 256,
+      "max_delta": 0.5460108348142927
+    },
+    {
+      "name": "R152_FORECOURT_2",
+      "changed": 0,
+      "max_delta": 0.0
+    },
+    {
+      "name": "R152_CLASS2_TERRAIN",
+      "changed": 9400,
+      "max_delta": 0.7
+    },
+    {
+      "name": "R154_FAR_GROUND",
+      "changed": 58263,
+      "max_delta": 0.7
+    },
+    {
+      "name": "R154_FAR_ROADS",
+      "changed": 29922,
+      "max_delta": 0.7
+    }
+  ],
+  "tree_instances": 907,
+  "lidar_trees": 97,
+  "prototypes": 8,
+  "atlas_repeat": false,
+  "limits": [
+    "Building, historic wall and mapped cliff contact zones held fixed.",
+    "Terrain height changes capped at 0.7m outside protected zones.",
+    "Far woodland tree placement is representative; near peaks follow LiDAR."
+  ],
+  "accepted": false,
+  "preview_lighting": "Neutral sky fill and sun; previous excessive environment illumination replaced",
+  "tree_root_samples": 907,
+  "tree_roots_without_ground": [],
+  "max_root_correction_m": 2.5953445434570312,
+  "far_leaf_optimization": [
+    {
+      "prototype": "R157_TREE_PROTOTYPE_False_0",
+      "instances": 202,
+      "leaves": 420
+    },
+    {
+      "prototype": "R157_TREE_PROTOTYPE_False_1",
+      "instances": 203,
+      "leaves": 420
+    },
+    {
+      "prototype": "R157_TREE_PROTOTYPE_False_2",
+      "instances": 203,
+      "leaves": 420
+    },
+    {
+      "prototype": "R157_TREE_PROTOTYPE_False_3",
+      "instances": 202,
+      "leaves": 420
+    }
+  ],
+  "near_tree_geometry_unchanged": true
+}

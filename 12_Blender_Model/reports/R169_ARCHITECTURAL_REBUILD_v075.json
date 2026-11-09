@@ -1,0 +1,36 @@
+{
+  "accepted": false,
+  "method": "Independent four planar hip-roof polygons and measured facade planes. No scan mesh or scan texture imported.",
+  "hip_plane_evidence": [
+    {
+      "points": 547,
+      "support": 253,
+      "coeff": [
+        1.4507437311652724,
+        0.284658198899443,
+        -39.166060063228684
+      ]
+    },
+    {
+      "points": 488,
+      "support": 445,
+      "coeff": [
+        -1.1302738809368045,
+        -0.2932899829440849,
+        -44.00161899719413
+      ]
+    }
+  ],
+  "roof_polygon_sizes": [
+    6,
+    5,
+    4,
+    3
+  ],
+  "pending": [
+    "Source-traced openings and frames",
+    "Roof extensions, rooflights, chimneys",
+    "Ground contact",
+    "Visual and export acceptance"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "scene": "MUDAM_R474_TAM_AVLU_SEVLERI_ADAY_v001.blend",
+  "topology": {
+    "nonManifold": 0,
+    "zeroArea": 0
+  },
+  "boundaryContacts": 0,
+  "maxBoundaryGap": null,
+  "uvFitRms": 9.575568877099499e-09,
+  "cuts": [
+    {
+      "name": "R152_FORECOURT_0",
+      "cutTriangles": 219
+    },
+    {
+      "name": "R152_CLASS2_TERRAIN",
+      "cutTriangles": 243
+    }
+  ],
+  "source": {
+    "heldout": 65,
+    "training": 194,
+    "rms": 0.12367316256543914,
+    "max": 0.7405806873343233
+  },
+  "accepted": false,
+  "published": false,
+  "limits": [
+    "Full traced lawn replaces interior patch; grade model diagnostic RMS .124m, max .741m, not accepted.",
+    "Adjacent narrow glazing and retaining faces still pending."
+  ]
+}

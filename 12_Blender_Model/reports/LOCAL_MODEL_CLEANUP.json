@@ -1,0 +1,2925 @@
+{
+  "created_utc": "2026-10-10T14:30:19.2783577Z",
+  "scope": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model",
+  "protected": [
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R151_WEB_CLEAN_v002.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R151_ACT_CEVRE_ADAY_v011.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_ACT2020_DOKUNULMAMIS.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R149_UST_DOLASIM_TAS_DOSEME_v001.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R149_UST_DOLASIM_TAS_DOSEME_v001_preview_compact.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\current.glb.gz",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\r151_web_v002\\building.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\r151_web_clean\\near_context.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\r151_web_v002\\far_context.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\web_current\\building.glb.gz",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\web_current\\near_context.glb.gz",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\web_current\\far_context.glb.gz"
+  ],
+  "count": 580,
+  "bytes": 48223659164.0,
+  "files": [
+    {
+      "bytes": 2482776,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\.local_source_cache\\act_context\\clipped_glb_v002\\Tile-125-98-1-1_m-00085.glb"
+    },
+    {
+      "bytes": 3378924,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\.local_source_cache\\act_context\\clipped_glb_v002\\Tile-125-98-1-1_m-00102.glb"
+    },
+    {
+      "bytes": 1616112,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\.local_source_cache\\act_context\\clipped_glb_v002\\Tile-125-98-1-1_m-00106.glb"
+    },
+    {
+      "bytes": 1613808,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\.local_source_cache\\act_context\\clipped_glb_v002\\Tile-125-98-1-1_m-00107.glb"
+    },
+    {
+      "bytes": 1675148,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\.local_source_cache\\act_context\\clipped_glb_v002\\Tile-125-98-1-1_m-00108.glb"
+    },
+    {
+      "bytes": 1662800,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\.local_source_cache\\act_context\\clipped_glb_v002\\Tile-125-98-1-1_m-00109.glb"
+    },
+    {
+      "bytes": 3596380,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\.local_source_cache\\act_context\\clipped_glb_v002\\Tile-125-98-1-1_m-00113.glb"
+    },
+    {
+      "bytes": 1751260,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\.local_source_cache\\act_context\\clipped_glb_v002\\Tile-125-99-1-1_m-00009.glb"
+    },
+    {
+      "bytes": 96772,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\.local_source_cache\\act_context\\clipped_glb_v002\\Tile-125-99-1-1_m-00013.glb"
+    },
+    {
+      "bytes": 1566284,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\.local_source_cache\\act_context\\clipped_glb_v002\\Tile-125-99-1-1_m-00030.glb"
+    },
+    {
+      "bytes": 1497448,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\.local_source_cache\\act_context\\clipped_glb_v002\\Tile-125-99-1-1_m-00031.glb"
+    },
+    {
+      "bytes": 3058320,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\.local_source_cache\\act_context\\clipped_glb_v002\\Tile-125-99-1-1_m-00033.glb"
+    },
+    {
+      "bytes": 1077216,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\.local_source_cache\\act_context\\clipped_glb_v002\\Tile-125-99-1-1_m-00034.glb"
+    },
+    {
+      "bytes": 241368,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\.local_source_cache\\act_context\\clipped_glb_v002\\Tile-125-99-1-1_m-00035.glb"
+    },
+    {
+      "bytes": 4197016,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\.local_source_cache\\act_context\\clipped_glb_v002\\Tile-125-99-1-1_m-00038.glb"
+    },
+    {
+      "bytes": 2474076,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\.local_source_cache\\act_context\\clipped_glb_v003\\Tile-125-98-1-1_m-00085.glb"
+    },
+    {
+      "bytes": 3376500,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\.local_source_cache\\act_context\\clipped_glb_v003\\Tile-125-98-1-1_m-00102.glb"
+    },
+    {
+      "bytes": 1602264,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\.local_source_cache\\act_context\\clipped_glb_v003\\Tile-125-98-1-1_m-00106.glb"
+    },
+    {
+      "bytes": 1581384,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\.local_source_cache\\act_context\\clipped_glb_v003\\Tile-125-98-1-1_m-00107.glb"
+    },
+    {
+      "bytes": 1664408,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\.local_source_cache\\act_context\\clipped_glb_v003\\Tile-125-98-1-1_m-00108.glb"
+    },
+    {
+      "bytes": 1657160,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\.local_source_cache\\act_context\\clipped_glb_v003\\Tile-125-98-1-1_m-00109.glb"
+    },
+    {
+      "bytes": 3596380,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\.local_source_cache\\act_context\\clipped_glb_v003\\Tile-125-98-1-1_m-00113.glb"
+    },
+    {
+      "bytes": 1741024,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\.local_source_cache\\act_context\\clipped_glb_v003\\Tile-125-99-1-1_m-00009.glb"
+    },
+    {
+      "bytes": 96772,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\.local_source_cache\\act_context\\clipped_glb_v003\\Tile-125-99-1-1_m-00013.glb"
+    },
+    {
+      "bytes": 1552124,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\.local_source_cache\\act_context\\clipped_glb_v003\\Tile-125-99-1-1_m-00030.glb"
+    },
+    {
+      "bytes": 1509496,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\.local_source_cache\\act_context\\clipped_glb_v003\\Tile-125-99-1-1_m-00031.glb"
+    },
+    {
+      "bytes": 3058320,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\.local_source_cache\\act_context\\clipped_glb_v003\\Tile-125-99-1-1_m-00033.glb"
+    },
+    {
+      "bytes": 1077216,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\.local_source_cache\\act_context\\clipped_glb_v003\\Tile-125-99-1-1_m-00034.glb"
+    },
+    {
+      "bytes": 241368,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\.local_source_cache\\act_context\\clipped_glb_v003\\Tile-125-99-1-1_m-00035.glb"
+    },
+    {
+      "bytes": 4197016,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\.local_source_cache\\act_context\\clipped_glb_v003\\Tile-125-99-1-1_m-00038.glb"
+    },
+    {
+      "bytes": 2482776,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\.local_source_cache\\act_context\\clipped_glb_v004\\Tile-125-98-1-1_m-00085.glb"
+    },
+    {
+      "bytes": 3378924,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\.local_source_cache\\act_context\\clipped_glb_v004\\Tile-125-98-1-1_m-00102.glb"
+    },
+    {
+      "bytes": 1616112,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\.local_source_cache\\act_context\\clipped_glb_v004\\Tile-125-98-1-1_m-00106.glb"
+    },
+    {
+      "bytes": 1607496,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\.local_source_cache\\act_context\\clipped_glb_v004\\Tile-125-98-1-1_m-00107.glb"
+    },
+    {
+      "bytes": 1675148,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\.local_source_cache\\act_context\\clipped_glb_v004\\Tile-125-98-1-1_m-00108.glb"
+    },
+    {
+      "bytes": 1654676,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\.local_source_cache\\act_context\\clipped_glb_v004\\Tile-125-98-1-1_m-00109.glb"
+    },
+    {
+      "bytes": 3596380,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\.local_source_cache\\act_context\\clipped_glb_v004\\Tile-125-98-1-1_m-00113.glb"
+    },
+    {
+      "bytes": 1750864,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\.local_source_cache\\act_context\\clipped_glb_v004\\Tile-125-99-1-1_m-00009.glb"
+    },
+    {
+      "bytes": 96772,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\.local_source_cache\\act_context\\clipped_glb_v004\\Tile-125-99-1-1_m-00013.glb"
+    },
+    {
+      "bytes": 1565012,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\.local_source_cache\\act_context\\clipped_glb_v004\\Tile-125-99-1-1_m-00030.glb"
+    },
+    {
+      "bytes": 1505332,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\.local_source_cache\\act_context\\clipped_glb_v004\\Tile-125-99-1-1_m-00031.glb"
+    },
+    {
+      "bytes": 3058356,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\.local_source_cache\\act_context\\clipped_glb_v004\\Tile-125-99-1-1_m-00033.glb"
+    },
+    {
+      "bytes": 1077216,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\.local_source_cache\\act_context\\clipped_glb_v004\\Tile-125-99-1-1_m-00034.glb"
+    },
+    {
+      "bytes": 241368,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\.local_source_cache\\act_context\\clipped_glb_v004\\Tile-125-99-1-1_m-00035.glb"
+    },
+    {
+      "bytes": 4196332,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\.local_source_cache\\act_context\\clipped_glb_v004\\Tile-125-99-1-1_m-00038.glb"
+    },
+    {
+      "bytes": 2482776,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\.local_source_cache\\act_context\\clipped_glb_v005\\Tile-125-98-1-1_m-00085.glb"
+    },
+    {
+      "bytes": 3378924,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\.local_source_cache\\act_context\\clipped_glb_v005\\Tile-125-98-1-1_m-00102.glb"
+    },
+    {
+      "bytes": 1616112,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\.local_source_cache\\act_context\\clipped_glb_v005\\Tile-125-98-1-1_m-00106.glb"
+    },
+    {
+      "bytes": 1607496,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\.local_source_cache\\act_context\\clipped_glb_v005\\Tile-125-98-1-1_m-00107.glb"
+    },
+    {
+      "bytes": 1675148,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\.local_source_cache\\act_context\\clipped_glb_v005\\Tile-125-98-1-1_m-00108.glb"
+    },
+    {
+      "bytes": 1654676,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\.local_source_cache\\act_context\\clipped_glb_v005\\Tile-125-98-1-1_m-00109.glb"
+    },
+    {
+      "bytes": 3596524,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\.local_source_cache\\act_context\\clipped_glb_v005\\Tile-125-98-1-1_m-00113.glb"
+    },
+    {
+      "bytes": 1750864,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\.local_source_cache\\act_context\\clipped_glb_v005\\Tile-125-99-1-1_m-00009.glb"
+    },
+    {
+      "bytes": 96772,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\.local_source_cache\\act_context\\clipped_glb_v005\\Tile-125-99-1-1_m-00013.glb"
+    },
+    {
+      "bytes": 1565012,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\.local_source_cache\\act_context\\clipped_glb_v005\\Tile-125-99-1-1_m-00030.glb"
+    },
+    {
+      "bytes": 1547948,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\.local_source_cache\\act_context\\clipped_glb_v005\\Tile-125-99-1-1_m-00031.glb"
+    },
+    {
+      "bytes": 3060156,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\.local_source_cache\\act_context\\clipped_glb_v005\\Tile-125-99-1-1_m-00033.glb"
+    },
+    {
+      "bytes": 1077216,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\.local_source_cache\\act_context\\clipped_glb_v005\\Tile-125-99-1-1_m-00034.glb"
+    },
+    {
+      "bytes": 241368,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\.local_source_cache\\act_context\\clipped_glb_v005\\Tile-125-99-1-1_m-00035.glb"
+    },
+    {
+      "bytes": 4199884,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\.local_source_cache\\act_context\\clipped_glb_v005\\Tile-125-99-1-1_m-00038.glb"
+    },
+    {
+      "bytes": 2482776,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\.local_source_cache\\act_context\\clipped_glb_v006\\Tile-125-98-1-1_m-00085.glb"
+    },
+    {
+      "bytes": 3378924,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\.local_source_cache\\act_context\\clipped_glb_v006\\Tile-125-98-1-1_m-00102.glb"
+    },
+    {
+      "bytes": 1616112,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\.local_source_cache\\act_context\\clipped_glb_v006\\Tile-125-98-1-1_m-00106.glb"
+    },
+    {
+      "bytes": 1623892,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\.local_source_cache\\act_context\\clipped_glb_v006\\Tile-125-98-1-1_m-00107.glb"
+    },
+    {
+      "bytes": 1675148,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\.local_source_cache\\act_context\\clipped_glb_v006\\Tile-125-98-1-1_m-00108.glb"
+    },
+    {
+      "bytes": 1654676,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\.local_source_cache\\act_context\\clipped_glb_v006\\Tile-125-98-1-1_m-00109.glb"
+    },
+    {
+      "bytes": 3596524,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\.local_source_cache\\act_context\\clipped_glb_v006\\Tile-125-98-1-1_m-00113.glb"
+    },
+    {
+      "bytes": 1750864,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\.local_source_cache\\act_context\\clipped_glb_v006\\Tile-125-99-1-1_m-00009.glb"
+    },
+    {
+      "bytes": 96772,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\.local_source_cache\\act_context\\clipped_glb_v006\\Tile-125-99-1-1_m-00013.glb"
+    },
+    {
+      "bytes": 1565012,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\.local_source_cache\\act_context\\clipped_glb_v006\\Tile-125-99-1-1_m-00030.glb"
+    },
+    {
+      "bytes": 1547948,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\.local_source_cache\\act_context\\clipped_glb_v006\\Tile-125-99-1-1_m-00031.glb"
+    },
+    {
+      "bytes": 3060156,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\.local_source_cache\\act_context\\clipped_glb_v006\\Tile-125-99-1-1_m-00033.glb"
+    },
+    {
+      "bytes": 1077216,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\.local_source_cache\\act_context\\clipped_glb_v006\\Tile-125-99-1-1_m-00034.glb"
+    },
+    {
+      "bytes": 241368,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\.local_source_cache\\act_context\\clipped_glb_v006\\Tile-125-99-1-1_m-00035.glb"
+    },
+    {
+      "bytes": 4199884,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\.local_source_cache\\act_context\\clipped_glb_v006\\Tile-125-99-1-1_m-00038.glb"
+    },
+    {
+      "bytes": 2483856,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\.local_source_cache\\act_context\\clipped_glb\\Tile-125-98-1-1_m-00085.glb"
+    },
+    {
+      "bytes": 1621164,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\.local_source_cache\\act_context\\clipped_glb\\Tile-125-98-1-1_m-00106.glb"
+    },
+    {
+      "bytes": 1641684,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\.local_source_cache\\act_context\\clipped_glb\\Tile-125-98-1-1_m-00107.glb"
+    },
+    {
+      "bytes": 1708772,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\.local_source_cache\\act_context\\clipped_glb\\Tile-125-98-1-1_m-00108.glb"
+    },
+    {
+      "bytes": 1689572,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\.local_source_cache\\act_context\\clipped_glb\\Tile-125-98-1-1_m-00109.glb"
+    },
+    {
+      "bytes": 1760092,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\.local_source_cache\\act_context\\clipped_glb\\Tile-125-99-1-1_m-00009.glb"
+    },
+    {
+      "bytes": 97096,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\.local_source_cache\\act_context\\clipped_glb\\Tile-125-99-1-1_m-00013.glb"
+    },
+    {
+      "bytes": 1602404,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\.local_source_cache\\act_context\\clipped_glb\\Tile-125-99-1-1_m-00030.glb"
+    },
+    {
+      "bytes": 1683992,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\.local_source_cache\\act_context\\clipped_glb\\Tile-125-99-1-1_m-00031.glb"
+    },
+    {
+      "bytes": 1081140,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\.local_source_cache\\act_context\\clipped_glb\\Tile-125-99-1-1_m-00034.glb"
+    },
+    {
+      "bytes": 271728,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\.local_source_cache\\act_context\\clipped_glb\\Tile-125-99-1-1_m-00035.glb"
+    },
+    {
+      "bytes": 456724,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\.local_source_cache\\act_context\\inner_ground_glb\\Tile-125-98-1-1_m-00085.glb"
+    },
+    {
+      "bytes": 460872,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\.local_source_cache\\act_context\\inner_ground_glb\\Tile-125-98-1-1_m-00102.glb"
+    },
+    {
+      "bytes": 386776,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\.local_source_cache\\act_context\\inner_ground_glb\\Tile-125-98-1-1_m-00106.glb"
+    },
+    {
+      "bytes": 438104,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\.local_source_cache\\act_context\\inner_ground_glb\\Tile-125-98-1-1_m-00107.glb"
+    },
+    {
+      "bytes": 418720,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\.local_source_cache\\act_context\\inner_ground_glb\\Tile-125-98-1-1_m-00108.glb"
+    },
+    {
+      "bytes": 430624,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\.local_source_cache\\act_context\\inner_ground_glb\\Tile-125-98-1-1_m-00109.glb"
+    },
+    {
+      "bytes": 473132,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\.local_source_cache\\act_context\\inner_ground_glb\\Tile-125-98-1-1_m-00113.glb"
+    },
+    {
+      "bytes": 330652,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\.local_source_cache\\act_context\\inner_ground_glb\\Tile-125-99-1-1_m-00009.glb"
+    },
+    {
+      "bytes": 23548,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\.local_source_cache\\act_context\\inner_ground_glb\\Tile-125-99-1-1_m-00013.glb"
+    },
+    {
+      "bytes": 281580,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\.local_source_cache\\act_context\\inner_ground_glb\\Tile-125-99-1-1_m-00030.glb"
+    },
+    {
+      "bytes": 344488,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\.local_source_cache\\act_context\\inner_ground_glb\\Tile-125-99-1-1_m-00031.glb"
+    },
+    {
+      "bytes": 421912,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\.local_source_cache\\act_context\\inner_ground_glb\\Tile-125-99-1-1_m-00033.glb"
+    },
+    {
+      "bytes": 145652,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\.local_source_cache\\act_context\\inner_ground_glb\\Tile-125-99-1-1_m-00034.glb"
+    },
+    {
+      "bytes": 54220,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\.local_source_cache\\act_context\\inner_ground_glb\\Tile-125-99-1-1_m-00035.glb"
+    },
+    {
+      "bytes": 499476,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\.local_source_cache\\act_context\\inner_ground_glb\\Tile-125-99-1-1_m-00038.glb"
+    },
+    {
+      "bytes": 70871664,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\.local_source_cache\\r151_web_lod\\batch_test.glb"
+    },
+    {
+      "bytes": 33864590,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\.local_source_cache\\r151_web_lod\\batch_test.glb.gz"
+    },
+    {
+      "bytes": 6601264,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_P19_MALZEME_ISIK_v001_preview.glb"
+    },
+    {
+      "bytes": 6609192,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R02_GH_GECISI_v003_preview.glb"
+    },
+    {
+      "bytes": 7325788,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R03_MERDIVEN_CAM_DONUSU_v003_preview.glb"
+    },
+    {
+      "bytes": 7599600,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R04_UST_MERDIVEN_v003_preview.glb"
+    },
+    {
+      "bytes": 9062736,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R05_ALT_MERDIVEN_v004_preview.glb"
+    },
+    {
+      "bytes": 9090364,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R06_ALT_FUAYE_v002_preview.glb"
+    },
+    {
+      "bytes": 9091888,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R07_MERDIVEN_BOSLUGU_v001_preview.glb"
+    },
+    {
+      "bytes": 9465080,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R08_OKUMA_TAVANI_v002_preview.glb"
+    },
+    {
+      "bytes": 9516968,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R09_OKUMA_MEKANI_v001_preview.glb"
+    },
+    {
+      "bytes": 10791052,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R10_DOGU_SPIRAL_v004_preview.glb"
+    },
+    {
+      "bytes": 91178592,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R100_GALERI_TAVAN_DUVAR_TEMASI_v001_preview.glb"
+    },
+    {
+      "bytes": 91181668,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R101_OKUMA_SERVIS_GECIDI_YAN_DUVARLAR_v001_preview.glb"
+    },
+    {
+      "bytes": 91183904,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R102_UST_SERVIS_DUVAR_KOSELERI_v001_preview.glb"
+    },
+    {
+      "bytes": 91185240,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R103_UST_GALERI_IC_YUZ_BIRLESIMLERI_v003_preview.glb"
+    },
+    {
+      "bytes": 91185416,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R104_ALT_MERDIVEN_DUVAR_DEVAMI_v001_preview.glb"
+    },
+    {
+      "bytes": 91187740,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R105_BATI_GALERI_DOSEME_TAVAN_TEMASI_v002_preview.glb"
+    },
+    {
+      "bytes": 91187920,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R107_OKUMA_DOSEME_DUVAR_TEMASI_v001_preview.glb"
+    },
+    {
+      "bytes": 91190128,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R108_ZEMIN_SERVIS_DUVAR_KOSELERI_v001_preview.glb"
+    },
+    {
+      "bytes": 91190576,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R109_SERVIS_MERDIVEN_ALTI_KOSELERI_v001_preview.glb"
+    },
+    {
+      "bytes": 11047800,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R11_DOGU_UC_CAM_v001_preview.glb"
+    },
+    {
+      "bytes": 91193260,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R111_KAFE_GECIT_UST_ORTUSU_v002_preview.glb"
+    },
+    {
+      "bytes": 91195936,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R112_DOGU_GALERI_GECIT_ORTUSU_v001_preview.glb"
+    },
+    {
+      "bytes": 91198920,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R113_GALERI_SERVIS_UZUN_DUVARLARI_v001_preview.glb"
+    },
+    {
+      "bytes": 91200800,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R114_ALT_MERDIVEN_SAHANLIK_PERDESI_v001_preview.glb"
+    },
+    {
+      "bytes": 91363712,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R115_PAVYON_KAPI_CAM_TUTUCULARI_v001_preview.glb"
+    },
+    {
+      "bytes": 91380144,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R116_SEKIZ_ISARET_KABUK_v007_preview.glb"
+    },
+    {
+      "bytes": 91399088,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R117_CEPHE_KOSE_KOPRU_BIRLESIM_v004_preview.glb"
+    },
+    {
+      "bytes": 91401412,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R118_KOPRU_ESIK_CAKISMA_v001_preview.glb"
+    },
+    {
+      "bytes": 91402040,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R119_GALERI_ESIK_YUZEYLERI_v002_preview.glb"
+    },
+    {
+      "bytes": 11044512,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R12_BATI_DUZ_CAM_v001_preview.glb"
+    },
+    {
+      "bytes": 91401120,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R120_ALT_KAT_DOSEME_BIRLESIM_v001_preview.glb"
+    },
+    {
+      "bytes": 91406164,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R121_ZEMIN_KAT_DOSEME_YUZEYLERI_v003_preview.glb"
+    },
+    {
+      "bytes": 91405332,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R122_UST_ORTU_YUZEY_BIRLESIM_v001_preview.glb"
+    },
+    {
+      "bytes": 91403364,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R123_CATI_YINELENEN_PROFILLER_v001_preview.glb"
+    },
+    {
+      "bytes": 91406364,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R124_DUVAR_YUZEY_BIRLESIM_v005_preview.glb"
+    },
+    {
+      "bytes": 91410000,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R125_ALT_KAT_VE_SERVIS_DUVAR_BIRLESIM_v002_preview.glb"
+    },
+    {
+      "bytes": 91411176,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R126_UST_KAT_DOSEME_SINIRLARI_v002_preview.glb"
+    },
+    {
+      "bytes": 91414224,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R127_ALT_KAT_ORTU_BIRLESIM_v001_preview.glb"
+    },
+    {
+      "bytes": 81686612,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R128_OKUMA_DOGU_ODA_ORTU_BIRLESIM_v001_preview_compact.glb"
+    },
+    {
+      "bytes": 91415240,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R128_OKUMA_DOGU_ODA_ORTU_BIRLESIM_v001_preview.glb"
+    },
+    {
+      "bytes": 84738868,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R129_TARIHI_TAS_VE_HENDEK_MALZEME_v002_preview_compact.glb"
+    },
+    {
+      "bytes": 94467496,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R129_TARIHI_TAS_VE_HENDEK_MALZEME_v002_preview.glb"
+    },
+    {
+      "bytes": 11642640,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R13_PAVYON_CAM_v001_preview.glb"
+    },
+    {
+      "bytes": 113297712,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R130_PARK_IGNE_YAPRAKLI_AGACLAR_v002_preview_compact.glb"
+    },
+    {
+      "bytes": 123026364,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R130_PARK_IGNE_YAPRAKLI_AGACLAR_v002_preview.glb"
+    },
+    {
+      "bytes": 113322236,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R131_KABUK_MALZEME_SUREKLILIGI_v001_preview_compact.glb"
+    },
+    {
+      "bytes": 123051832,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R131_KABUK_MALZEME_SUREKLILIGI_v001_preview.glb"
+    },
+    {
+      "bytes": 113325528,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R132_HARITALI_PARK_ZEMIN_AYRIMI_v003_preview_compact.glb"
+    },
+    {
+      "bytes": 123055124,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R132_HARITALI_PARK_ZEMIN_AYRIMI_v003_preview.glb"
+    },
+    {
+      "bytes": 114908868,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R133_PARK_YOL_KAPLAMALARI_v004_preview_compact.glb"
+    },
+    {
+      "bytes": 124638972,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R133_PARK_YOL_KAPLAMALARI_v004_preview.glb"
+    },
+    {
+      "bytes": 115032244,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R134_OKUMA_TAVANI_DOGU_MERDIVEN_TASI_v001_preview_compact.glb"
+    },
+    {
+      "bytes": 124791292,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R134_OKUMA_TAVANI_DOGU_MERDIVEN_TASI_v001_preview.glb"
+    },
+    {
+      "bytes": 121049908,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R135_ODITORYUM_AHSAP_DAMAR_v001_preview_compact.glb"
+    },
+    {
+      "bytes": 134242580,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R135_ODITORYUM_AHSAP_DAMAR_v001_preview.glb"
+    },
+    {
+      "bytes": 121088772,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R136_ODITORYUM_TAS_YUZEYLERI_v001_preview_compact.glb"
+    },
+    {
+      "bytes": 134293044,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R136_ODITORYUM_TAS_YUZEYLERI_v001_preview.glb"
+    },
+    {
+      "bytes": 121130512,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R137_BATI_MERDIVEN_TAS_YUZEYLERI_v001_preview_compact.glb"
+    },
+    {
+      "bytes": 134351524,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R137_BATI_MERDIVEN_TAS_YUZEYLERI_v001_preview.glb"
+    },
+    {
+      "bytes": 121135792,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R138_GIRIS_DOLASIM_TAS_ZEMIN_v002_preview_compact.glb"
+    },
+    {
+      "bytes": 134358884,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R138_GIRIS_DOLASIM_TAS_ZEMIN_v002_preview.glb"
+    },
+    {
+      "bytes": 121149300,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R139_GRAND_HALL_TAS_DUVARLAR_v001_preview_compact.glb"
+    },
+    {
+      "bytes": 134371744,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R139_GRAND_HALL_TAS_DUVARLAR_v001_preview.glb"
+    },
+    {
+      "bytes": 11911648,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R14_BATI_CAM_MERDIVEN_v003_preview.glb"
+    },
+    {
+      "bytes": 121151036,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R140_DOGU_BAHCE_TAS_ZEMIN_v001_preview_compact.glb"
+    },
+    {
+      "bytes": 134373964,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R140_DOGU_BAHCE_TAS_ZEMIN_v001_preview.glb"
+    },
+    {
+      "bytes": 121156384,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R141_GIRIS_KAFE_TAS_DUVARLAR_v001_preview_compact.glb"
+    },
+    {
+      "bytes": 134378924,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R141_GIRIS_KAFE_TAS_DUVARLAR_v001_preview.glb"
+    },
+    {
+      "bytes": 121158664,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R143_ALT_FUAYE_TAS_DUVAR_v001_preview_compact.glb"
+    },
+    {
+      "bytes": 134381012,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R143_ALT_FUAYE_TAS_DUVAR_v001_preview.glb"
+    },
+    {
+      "bytes": 121184364,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R144_ALT_FUAYE_TAS_TAVAN_v001_preview_compact.glb"
+    },
+    {
+      "bytes": 134406604,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R144_ALT_FUAYE_TAS_TAVAN_v001_preview.glb"
+    },
+    {
+      "bytes": 121189528,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R145_KUZEY_BATI_TAS_YUZEYLER_v001_preview_compact.glb"
+    },
+    {
+      "bytes": 134411772,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R145_KUZEY_BATI_TAS_YUZEYLER_v001_preview.glb"
+    },
+    {
+      "bytes": 121211540,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R146_BATI_KAVIS_TAS_KAPLAMA_v001_preview_compact.glb"
+    },
+    {
+      "bytes": 134433768,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R146_BATI_KAVIS_TAS_KAPLAMA_v001_preview.glb"
+    },
+    {
+      "bytes": 121219428,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R147_BATI_DONUS_ALT_FUAYE_TAS_v001_preview_compact.glb"
+    },
+    {
+      "bytes": 134441316,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R147_BATI_DONUS_ALT_FUAYE_TAS_v001_preview.glb"
+    },
+    {
+      "bytes": 121223148,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R148_KAFE_TAS_DOSEME_v001_preview_compact.glb"
+    },
+    {
+      "bytes": 134445452,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R148_KAFE_TAS_DOSEME_v001_preview.glb"
+    },
+    {
+      "bytes": 134449288,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R149_UST_DOLASIM_TAS_DOSEME_v001_preview.glb"
+    },
+    {
+      "bytes": 68607324,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R151_v010_candidate.glb"
+    },
+    {
+      "bytes": 31666973,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R151_v010_candidate.glb.gz"
+    },
+    {
+      "bytes": 68608336,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R151_v011_candidate.glb"
+    },
+    {
+      "bytes": 31667360,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R151_v011_candidate.glb.gz"
+    },
+    {
+      "bytes": 12363248,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R16_DIS_PROFIL_MALZEME_v002_preview.glb"
+    },
+    {
+      "bytes": 12413412,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R17_PAVYON_MEKAN_v001_preview.glb"
+    },
+    {
+      "bytes": 12546692,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R18_PAVYON_GECIT_DETAY_v002_preview.glb"
+    },
+    {
+      "bytes": 22708452,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R20_ODITORYUM_KOLTUK_v002_preview.glb"
+    },
+    {
+      "bytes": 31386052,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R21_ODITORYUM_PANEL_v001_preview.glb"
+    },
+    {
+      "bytes": 31961452,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R22_ODITORYUM_DONATI_v001_preview.glb"
+    },
+    {
+      "bytes": 32193984,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R24_GALERI_ISIKLIK_v001_preview.glb"
+    },
+    {
+      "bytes": 33052120,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R26_DOGU_CATI_BAGLANTI_v001_preview.glb"
+    },
+    {
+      "bytes": 33100872,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R27_GALERI_NIS_REVIZYON_v001_preview.glb"
+    },
+    {
+      "bytes": 33118812,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R28_ZEMIN_GALERI_GIRIS_v002_preview.glb"
+    },
+    {
+      "bytes": 33192576,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R29_ALT_GALERI_MEKAN_v001_preview.glb"
+    },
+    {
+      "bytes": 34197476,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R32_TAS_AHSAP_YUZEY_v002_preview.glb"
+    },
+    {
+      "bytes": 34241496,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R33_ZEMIN_SERVIS_MEKAN_v002_preview.glb"
+    },
+    {
+      "bytes": 34379304,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R34_GIRIS_KOPRULERI_v003_preview.glb"
+    },
+    {
+      "bytes": 34416996,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R35_HENDEK_CEVRE_ETUDU_v001_preview.glb"
+    },
+    {
+      "bytes": 34425736,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R37_UST_GECIT_BASLIGI_v001_preview.glb"
+    },
+    {
+      "bytes": 34622312,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R39_GIRIS_TAVAN_BUTUNLUGU_v001_preview.glb"
+    },
+    {
+      "bytes": 27142168,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R41_MESH_PAYLASIMI_v001_preview.glb"
+    },
+    {
+      "bytes": 27711324,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R42_CATI_GUNES_KIRICI_v002_preview.glb"
+    },
+    {
+      "bytes": 29790956,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R43_TAS_DOSEME_YUZEYI_v001_preview.glb"
+    },
+    {
+      "bytes": 29811560,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R44_KAPALI_KABUKLAR_v004_preview.glb"
+    },
+    {
+      "bytes": 29939332,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R45_TAS_TUTAMAK_v005_preview.glb"
+    },
+    {
+      "bytes": 30532204,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R46_MERDIVEN_TAS_YUZEY_v002_preview.glb"
+    },
+    {
+      "bytes": 30603316,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R47_OKUMA_ISIKLIGI_v002_preview.glb"
+    },
+    {
+      "bytes": 30454632,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R48_KUPESTE_BIRLESIMI_v002_preview.glb"
+    },
+    {
+      "bytes": 30546168,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R49_ALT_MERDIVEN_YUZEY_v001_preview.glb"
+    },
+    {
+      "bytes": 31367960,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R50_GRAND_HALL_ARMATUR_v001_preview.glb"
+    },
+    {
+      "bytes": 33842004,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R51_ANA_CATI_GOLGELIK_v001_preview.glb"
+    },
+    {
+      "bytes": 33862164,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R52_GALERI_CAM_HIZA_v009_preview.glb"
+    },
+    {
+      "bytes": 33959800,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R53_GALERI_NIS_YUZEY_v002_preview.glb"
+    },
+    {
+      "bytes": 34056012,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R54_TARIHI_DUVAR_ALT_CAM_v002_preview.glb"
+    },
+    {
+      "bytes": 44029800,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R55_TARIHI_DUVAR_YUZEY_v002_preview.glb"
+    },
+    {
+      "bytes": 79104716,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R56_PARK_AGAC_TACI_v002_preview.glb"
+    },
+    {
+      "bytes": 79203944,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R57_GIRIS_PASPAS_IZGARA_v001_preview.glb"
+    },
+    {
+      "bytes": 79321764,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R58_KOPRU_CAM_KORKULUK_v005_preview.glb"
+    },
+    {
+      "bytes": 84266104,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R59_KOPRU_TAS_DOSEME_v001_preview.glb"
+    },
+    {
+      "bytes": 84411468,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R60_GIRIS_TAS_TAVAN_YUZEY_v002_preview.glb"
+    },
+    {
+      "bytes": 84707696,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R61_SACAK_GOMME_ISIK_v002_preview.glb"
+    },
+    {
+      "bytes": 84684824,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R62_BALIKSIRTI_DOSEME_v001_preview.glb"
+    },
+    {
+      "bytes": 84784428,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R63_GIRIS_PANEL_LEVHA_v002_preview.glb"
+    },
+    {
+      "bytes": 84786896,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R64_GIRIS_ESIK_GECIS_v001_preview.glb"
+    },
+    {
+      "bytes": 85585816,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R65_GECIT_CAPRAZ_GERGI_v002_preview.glb"
+    },
+    {
+      "bytes": 86418260,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R66_GECIT_YAN_ARMATUR_v001_preview.glb"
+    },
+    {
+      "bytes": 88881108,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R67_GECIT_TAS_DOSEME_v001_preview.glb"
+    },
+    {
+      "bytes": 88896000,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R68_PAVYON_HENDEK_KOLU_v001_preview.glb"
+    },
+    {
+      "bytes": 89195432,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R69_ALT_FUAYE_GOMME_ISIK_v001_preview.glb"
+    },
+    {
+      "bytes": 89651624,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R70_GALERI_RAY_SPOT_v003_preview.glb"
+    },
+    {
+      "bytes": 89659708,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R72_ATRIUM_DUVAR_SUREKLILIGI_v004_preview.glb"
+    },
+    {
+      "bytes": 89657556,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R74_STUDIO_DUVAR_BIRLESIMLERI_v002_preview.glb"
+    },
+    {
+      "bytes": 89657412,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R74_STUDIO_DUVAR_BIRLESIMLERI_v003_preview.glb"
+    },
+    {
+      "bytes": 89658140,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R76_MERDIVEN_DUVAR_UCLARI_v001_preview.glb"
+    },
+    {
+      "bytes": 89658576,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R77_BATI_UC_DUVAR_BAGLANTISI_v001_preview.glb"
+    },
+    {
+      "bytes": 89662944,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R78_ZEMIN_GALERI_DUVAR_GOVDELERI_v001_preview.glb"
+    },
+    {
+      "bytes": 89663452,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R79_CATIDA_EKSIK_KOSELER_v001_preview.glb"
+    },
+    {
+      "bytes": 89675752,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R80_KUZEY_CAM_ALT_KAPANIS_v001_preview.glb"
+    },
+    {
+      "bytes": 89728444,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R81_ALT_FUAYE_YAN_KABUK_v001_preview.glb"
+    },
+    {
+      "bytes": 89744444,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R82_BATI_MERDIVEN_GIRIS_KABUK_v001_preview.glb"
+    },
+    {
+      "bytes": 89757432,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R83_CATI_KENAR_KAPANISLARI_v001_preview.glb"
+    },
+    {
+      "bytes": 89765292,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R84_GIRIS_ALT_CAM_KAPANISI_v001_preview.glb"
+    },
+    {
+      "bytes": 89777052,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R85_BATI_UST_SAHANLIK_KABUK_v001_preview.glb"
+    },
+    {
+      "bytes": 89795164,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R86_PAVYON_CAM_KENAR_KAPANISI_v001_preview.glb"
+    },
+    {
+      "bytes": 89822496,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R87_KUCUK_BATI_GALERISI_KABUK_v003_preview.glb"
+    },
+    {
+      "bytes": 89831504,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R88_BATI_MERDIVEN_CAM_KENAR_v002_preview.glb"
+    },
+    {
+      "bytes": 89836436,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R89_ALT_KAT_DOSEME_BIRLESIMI_v001_preview.glb"
+    },
+    {
+      "bytes": 89868884,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R90_GUNEY_ATRIUM_CAM_CERCEVE_v001_preview.glb"
+    },
+    {
+      "bytes": 89863852,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R92_GALERI_GEREKSIZ_BOLME_KALDIRMA_v001_preview.glb"
+    },
+    {
+      "bytes": 89819676,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R93_KUZEY_CAM_PROFIL_HIZALAMA_v001_preview.glb"
+    },
+    {
+      "bytes": 89843660,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R94_ISARETLI_KABUK_BIRLESIMLERI_v003_preview.glb"
+    },
+    {
+      "bytes": 89966712,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R95_BES_ISARET_KABUK_DUZELTME_v001_preview.glb"
+    },
+    {
+      "bytes": 91142660,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R96_UST_KAT_DUVAR_AYRIMI_v004_preview.glb"
+    },
+    {
+      "bytes": 91196068,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R97_SERVIS_MERDIVENI_v003_preview.glb"
+    },
+    {
+      "bytes": 91177480,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R98_UST_KOPRU_DUVAR_SINIRI_v001_preview.glb"
+    },
+    {
+      "bytes": 91178176,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R99_BATI_GALERI_GIRIS_DUVARI_v002_preview.glb"
+    },
+    {
+      "bytes": 45920850,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\r151_web_clean\\near_context.glb.gz"
+    },
+    {
+      "bytes": 41412108,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\r151_web_v002\\building_unbatched.glb"
+    },
+    {
+      "bytes": 14633246,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\r151_web_v002\\building.glb.gz"
+    },
+    {
+      "bytes": 176155632,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\r151_web_v002\\far_context_unbatched.glb"
+    },
+    {
+      "bytes": 56590671,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\r151_web_v002\\far_context.glb.gz"
+    },
+    {
+      "bytes": 126150880,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\r151_web_v002\\near_context_unbatched.glb"
+    },
+    {
+      "bytes": 61254920,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\r151_web_v002\\near_context.glb"
+    },
+    {
+      "bytes": 46001671,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\r151_web_v002\\near_context.glb.gz"
+    },
+    {
+      "bytes": 41412108,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\r151_web\\building_unbatched.glb"
+    },
+    {
+      "bytes": 48955664,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\r151_web\\building.glb"
+    },
+    {
+      "bytes": 13369547,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\r151_web\\building.glb.gz"
+    },
+    {
+      "bytes": 151276996,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\r151_web\\far_context_unbatched.glb"
+    },
+    {
+      "bytes": 159061536,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\r151_web\\far_context.glb"
+    },
+    {
+      "bytes": 75694416,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\r151_web\\far_context.glb.gz"
+    },
+    {
+      "bytes": 116617756,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\r151_web\\near_context_unbatched.glb"
+    },
+    {
+      "bytes": 122360128,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\r151_web\\near_context.glb"
+    },
+    {
+      "bytes": 61952927,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\r151_web\\near_context.glb.gz"
+    },
+    {
+      "bytes": 12293920,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\archive\\local_trials_20261008\\MUDAM_P10_CAM_CATI_v001.blend"
+    },
+    {
+      "bytes": 13172062,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\archive\\local_trials_20261008\\MUDAM_P11_YAN_ORTULER_v001.blend"
+    },
+    {
+      "bytes": 13173387,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\archive\\local_trials_20261008\\MUDAM_P11_YAN_ORTULER_v002.blend"
+    },
+    {
+      "bytes": 13185236,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\archive\\local_trials_20261008\\MUDAM_P11_YAN_ORTULER_v003.blend"
+    },
+    {
+      "bytes": 13192577,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\archive\\local_trials_20261008\\MUDAM_P12_GIRIS_DETAY_v001.blend"
+    },
+    {
+      "bytes": 13192807,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\archive\\local_trials_20261008\\MUDAM_P12_GIRIS_DETAY_v002.blend"
+    },
+    {
+      "bytes": 13221243,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\archive\\local_trials_20261008\\MUDAM_P17_OKUMA_BOSLUGU_v001.blend"
+    },
+    {
+      "bytes": 13223878,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\archive\\local_trials_20261008\\MUDAM_R02_GH_GECISI_v001.blend"
+    },
+    {
+      "bytes": 13228867,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\archive\\local_trials_20261008\\MUDAM_R02_GH_GECISI_v002.blend"
+    },
+    {
+      "bytes": 13337335,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\archive\\local_trials_20261008\\MUDAM_R03_MERDIVEN_CAM_DONUSU_v001.blend"
+    },
+    {
+      "bytes": 13345717,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\archive\\local_trials_20261008\\MUDAM_R03_MERDIVEN_CAM_DONUSU_v002.blend"
+    },
+    {
+      "bytes": 13437245,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\archive\\local_trials_20261008\\MUDAM_R04_UST_MERDIVEN_v001.blend"
+    },
+    {
+      "bytes": 13439903,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\archive\\local_trials_20261008\\MUDAM_R04_UST_MERDIVEN_v002.blend"
+    },
+    {
+      "bytes": 13679240,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\archive\\local_trials_20261008\\MUDAM_R05_ALT_MERDIVEN_v001.blend"
+    },
+    {
+      "bytes": 13700906,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\archive\\local_trials_20261008\\MUDAM_R05_ALT_MERDIVEN_v002.blend"
+    },
+    {
+      "bytes": 8529576,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\archive\\local_trials_20261008\\MUDAM_R05_ALT_MERDIVEN_v003_preview.glb"
+    },
+    {
+      "bytes": 13695598,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\archive\\local_trials_20261008\\MUDAM_R05_ALT_MERDIVEN_v003.blend"
+    },
+    {
+      "bytes": 13776928,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\archive\\local_trials_20261008\\MUDAM_R06_ALT_FUAYE_v001.blend"
+    },
+    {
+      "bytes": 13879793,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\archive\\local_trials_20261008\\MUDAM_R08_OKUMA_TAVANI_v001.blend"
+    },
+    {
+      "bytes": 14340160,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\archive\\local_trials_20261008\\MUDAM_R10_DOGU_SPIRAL_v001.blend"
+    },
+    {
+      "bytes": 14337294,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\archive\\local_trials_20261008\\MUDAM_R10_DOGU_SPIRAL_v002.blend"
+    },
+    {
+      "bytes": 14336571,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\archive\\local_trials_20261008\\MUDAM_R10_DOGU_SPIRAL_v003.blend"
+    },
+    {
+      "bytes": 14620421,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\archive\\local_trials_20261008\\MUDAM_R14_BATI_CAM_MERDIVEN_v001.blend"
+    },
+    {
+      "bytes": 14617507,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\archive\\local_trials_20261008\\MUDAM_R14_BATI_CAM_MERDIVEN_v002.blend"
+    },
+    {
+      "bytes": 14636935,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\archive\\local_trials_20261008\\MUDAM_R15_GALERI_CEPHE_v001.blend"
+    },
+    {
+      "bytes": 14635755,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\archive\\local_trials_20261008\\MUDAM_R15_GALERI_CEPHE_v002.blend"
+    },
+    {
+      "bytes": 14690625,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\archive\\local_trials_20261008\\MUDAM_R16_DIS_PROFIL_MALZEME_v001.blend"
+    },
+    {
+      "bytes": 14732417,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\archive\\local_trials_20261008\\MUDAM_R18_PAVYON_GECIT_DETAY_v001.blend"
+    },
+    {
+      "bytes": 14791789,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\archive\\local_trials_20261008\\MUDAM_R19_ODITORYUM_MEKAN_v001.blend"
+    },
+    {
+      "bytes": 15029560,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\archive\\local_trials_20261008\\MUDAM_R20_ODITORYUM_KOLTUK_v001.blend"
+    },
+    {
+      "bytes": 15815799,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\archive\\local_trials_20261008\\MUDAM_R23_UST_GALERI_MEKAN_v001.blend"
+    },
+    {
+      "bytes": 16022246,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\archive\\local_trials_20261008\\MUDAM_R25_PAVYON_MERDIVEN_v001.blend"
+    },
+    {
+      "bytes": 16138087,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\archive\\local_trials_20261008\\MUDAM_R28_ZEMIN_GALERI_GIRIS_v001.blend"
+    },
+    {
+      "bytes": 16994987,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\archive\\local_trials_20261008\\MUDAM_R32_TAS_AHSAP_YUZEY_v001.blend"
+    },
+    {
+      "bytes": 17010578,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\archive\\local_trials_20261008\\MUDAM_R33_ZEMIN_SERVIS_MEKAN_v001.blend"
+    },
+    {
+      "bytes": 17047674,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\archive\\local_trials_20261008\\MUDAM_R34_GIRIS_KOPRULERI_v001.blend"
+    },
+    {
+      "bytes": 17049524,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\archive\\local_trials_20261008\\MUDAM_R34_GIRIS_KOPRULERI_v002.blend"
+    },
+    {
+      "bytes": 17058998,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\archive\\local_trials_20261008\\MUDAM_R36_CEPHE_BASLIK_KONTROL_v001.blend"
+    },
+    {
+      "bytes": 17057523,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\archive\\local_trials_20261008\\MUDAM_R36_CEPHE_BASLIK_KONTROL_v002.blend"
+    },
+    {
+      "bytes": 17109457,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\archive\\local_trials_20261008\\MUDAM_R38_PARK_YAKLASIM_v001.blend"
+    },
+    {
+      "bytes": 17104953,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\archive\\local_trials_20261008\\MUDAM_R38_PARK_YAKLASIM_v002.blend"
+    },
+    {
+      "bytes": 17150631,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\archive\\local_trials_20261008\\MUDAM_R40_ALT_CEPHE_PENCERELERI_v001.blend"
+    },
+    {
+      "bytes": 16432936,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\archive\\local_trials_20261008\\MUDAM_R42_CATI_GUNES_KIRICI_v001.blend"
+    },
+    {
+      "bytes": 18503471,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\archive\\local_trials_20261008\\MUDAM_R44_KAPALI_KABUKLAR_v001.blend"
+    },
+    {
+      "bytes": 18505446,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\archive\\local_trials_20261008\\MUDAM_R44_KAPALI_KABUKLAR_v002.blend"
+    },
+    {
+      "bytes": 18502586,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\archive\\local_trials_20261008\\MUDAM_R44_KAPALI_KABUKLAR_v003.blend"
+    },
+    {
+      "bytes": 18614590,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\archive\\local_trials_20261008\\MUDAM_R45_TAS_TUTAMAK_v001.blend"
+    },
+    {
+      "bytes": 18589603,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\archive\\local_trials_20261008\\MUDAM_R45_TAS_TUTAMAK_v002.blend"
+    },
+    {
+      "bytes": 18594563,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\archive\\local_trials_20261008\\MUDAM_R45_TAS_TUTAMAK_v003.blend"
+    },
+    {
+      "bytes": 18595641,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\archive\\local_trials_20261008\\MUDAM_R45_TAS_TUTAMAK_v004.blend"
+    },
+    {
+      "bytes": 19134986,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\archive\\local_trials_20261008\\MUDAM_R46_MERDIVEN_TAS_YUZEY_v001.blend"
+    },
+    {
+      "bytes": 19197350,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\archive\\local_trials_20261008\\MUDAM_R47_OKUMA_ISIKLIGI_v001.blend"
+    },
+    {
+      "bytes": 19368765,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\archive\\local_trials_20261008\\MUDAM_R48_KUPESTE_BIRLESIMI_v001.blend"
+    },
+    {
+      "bytes": 19949460,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\archive\\local_trials_20261008\\MUDAM_R52_GALERI_CAM_HIZA_v001.blend"
+    },
+    {
+      "bytes": 19950520,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\archive\\local_trials_20261008\\MUDAM_R52_GALERI_CAM_HIZA_v002.blend"
+    },
+    {
+      "bytes": 19949702,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\archive\\local_trials_20261008\\MUDAM_R52_GALERI_CAM_HIZA_v003.blend"
+    },
+    {
+      "bytes": 19952191,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\archive\\local_trials_20261008\\MUDAM_R52_GALERI_CAM_HIZA_v004.blend"
+    },
+    {
+      "bytes": 19953003,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\archive\\local_trials_20261008\\MUDAM_R52_GALERI_CAM_HIZA_v005.blend"
+    },
+    {
+      "bytes": 19948459,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\archive\\local_trials_20261008\\MUDAM_R52_GALERI_CAM_HIZA_v006.blend"
+    },
+    {
+      "bytes": 19951305,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\archive\\local_trials_20261008\\MUDAM_R52_GALERI_CAM_HIZA_v007.blend"
+    },
+    {
+      "bytes": 19947916,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\archive\\local_trials_20261008\\MUDAM_R52_GALERI_CAM_HIZA_v008.blend"
+    },
+    {
+      "bytes": 20064316,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\archive\\local_trials_20261008\\MUDAM_R53_GALERI_NIS_YUZEY_v001.blend"
+    },
+    {
+      "bytes": 20086627,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\archive\\local_trials_20261008\\MUDAM_R54_TARIHI_DUVAR_ALT_CAM_v001.blend"
+    },
+    {
+      "bytes": 29339173,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\archive\\local_trials_20261008\\MUDAM_R55_TARIHI_DUVAR_YUZEY_v001.blend"
+    },
+    {
+      "bytes": 48362537,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\archive\\local_trials_20261008\\MUDAM_R56_PARK_AGAC_TACI_v001.blend"
+    },
+    {
+      "bytes": 66077882,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\archive\\local_trials_20261008\\MUDAM_R58_KOPRU_CAM_KORKULUK_v001.blend"
+    },
+    {
+      "bytes": 66079145,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\archive\\local_trials_20261008\\MUDAM_R58_KOPRU_CAM_KORKULUK_v002.blend"
+    },
+    {
+      "bytes": 66074937,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\archive\\local_trials_20261008\\MUDAM_R58_KOPRU_CAM_KORKULUK_v003.blend"
+    },
+    {
+      "bytes": 66076502,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\archive\\local_trials_20261008\\MUDAM_R58_KOPRU_CAM_KORKULUK_v004.blend"
+    },
+    {
+      "bytes": 71018888,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\archive\\local_trials_20261008\\MUDAM_R60_GIRIS_TAS_TAVAN_YUZEY_v001.blend"
+    },
+    {
+      "bytes": 71190775,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\archive\\local_trials_20261008\\MUDAM_R61_SACAK_GOMME_ISIK_v001.blend"
+    },
+    {
+      "bytes": 76125659,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\archive\\local_trials_20261008\\MUDAM_R63_GIRIS_PANEL_LEVHA_v001.blend"
+    },
+    {
+      "bytes": 71314062,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\archive\\local_trials_20261008\\MUDAM_R65_GECIT_CAPRAZ_GERGI_v001.blend"
+    },
+    {
+      "bytes": 5598894,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\archive\\MUDAM_P03_REFERANS_v001.blend"
+    },
+    {
+      "bytes": 6139655,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\archive\\MUDAM_P04_KOT_ETUDU_v001.blend"
+    },
+    {
+      "bytes": 6857346,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\archive\\MUDAM_P05_KABUK_v001.blend"
+    },
+    {
+      "bytes": 351236144,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_ACT2020_SOURCE_REVIEW_v001.blend"
+    },
+    {
+      "bytes": 1581180280,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_ACT2020_SOURCE_REVIEW_v002.blend"
+    },
+    {
+      "bytes": 5600508,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_P03_REFERANS_v002.blend"
+    },
+    {
+      "bytes": 6145623,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_P04_KOT_ETUDU_v002.blend"
+    },
+    {
+      "bytes": 6869689,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_P05_KABUK_v002.blend"
+    },
+    {
+      "bytes": 6939785,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_P06_CATI_KONTROL_v001.blend"
+    },
+    {
+      "bytes": 6939075,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_P06_CATI_KONTROL_v002.blend"
+    },
+    {
+      "bytes": 7793450,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_P07_GIRIS_v001.blend"
+    },
+    {
+      "bytes": 7799755,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_P07_GIRIS_v002.blend"
+    },
+    {
+      "bytes": 7795738,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_P09_MERDIVEN_v001.blend"
+    },
+    {
+      "bytes": 11673781,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_P09_MERDIVEN_v002.blend"
+    },
+    {
+      "bytes": 11674838,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_P09_MERDIVEN_v003.blend"
+    },
+    {
+      "bytes": 11675421,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_P09_MERDIVEN_v004.blend"
+    },
+    {
+      "bytes": 12293694,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_P10_CAM_CATI_v002.blend"
+    },
+    {
+      "bytes": 13187560,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_P11_YAN_ORTULER_v004.blend"
+    },
+    {
+      "bytes": 13198980,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_P12_GIRIS_DETAY_v003.blend"
+    },
+    {
+      "bytes": 13223005,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_P17_OKUMA_BOSLUGU_v002.blend"
+    },
+    {
+      "bytes": 13224102,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_P19_MALZEME_ISIK_v001.blend"
+    },
+    {
+      "bytes": 13231451,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R02_GH_GECISI_v003.blend"
+    },
+    {
+      "bytes": 13360386,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R03_MERDIVEN_CAM_DONUSU_v003.blend"
+    },
+    {
+      "bytes": 13435986,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R04_UST_MERDIVEN_v003.blend"
+    },
+    {
+      "bytes": 13774205,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R05_ALT_MERDIVEN_v004.blend"
+    },
+    {
+      "bytes": 13783508,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R06_ALT_FUAYE_v002.blend"
+    },
+    {
+      "bytes": 13787288,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R07_MERDIVEN_BOSLUGU_v001.blend"
+    },
+    {
+      "bytes": 13878412,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R08_OKUMA_TAVANI_v002.blend"
+    },
+    {
+      "bytes": 13888917,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R09_OKUMA_MEKANI_v001.blend"
+    },
+    {
+      "bytes": 14335740,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R10_DOGU_SPIRAL_v004.blend"
+    },
+    {
+      "bytes": 74775635,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R100_GALERI_TAVAN_DUVAR_TEMASI_v001.blend"
+    },
+    {
+      "bytes": 74776347,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R101_OKUMA_SERVIS_GECIDI_YAN_DUVARLAR_v001.blend"
+    },
+    {
+      "bytes": 74778611,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R102_UST_SERVIS_DUVAR_KOSELERI_v001.blend"
+    },
+    {
+      "bytes": 74779837,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R103_UST_GALERI_IC_YUZ_BIRLESIMLERI_v001.blend"
+    },
+    {
+      "bytes": 74777271,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R103_UST_GALERI_IC_YUZ_BIRLESIMLERI_v002.blend"
+    },
+    {
+      "bytes": 74775413,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R103_UST_GALERI_IC_YUZ_BIRLESIMLERI_v003.blend"
+    },
+    {
+      "bytes": 74776285,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R104_ALT_MERDIVEN_DUVAR_DEVAMI_v001.blend"
+    },
+    {
+      "bytes": 74776872,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R105_BATI_GALERI_DOSEME_TAVAN_TEMASI_v001.blend"
+    },
+    {
+      "bytes": 74777227,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R105_BATI_GALERI_DOSEME_TAVAN_TEMASI_v002.blend"
+    },
+    {
+      "bytes": 74778528,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R106_STUDIO_DUVAR_KOSELERI_v001.blend"
+    },
+    {
+      "bytes": 74781647,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R107_OKUMA_DOSEME_DUVAR_TEMASI_v001.blend"
+    },
+    {
+      "bytes": 74780345,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R108_ZEMIN_SERVIS_DUVAR_KOSELERI_v001.blend"
+    },
+    {
+      "bytes": 74775276,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R109_SERVIS_MERDIVEN_ALTI_KOSELERI_v001.blend"
+    },
+    {
+      "bytes": 14397080,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R11_DOGU_UC_CAM_v001.blend"
+    },
+    {
+      "bytes": 74781340,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R111_KAFE_GECIT_UST_ORTUSU_v001.blend"
+    },
+    {
+      "bytes": 74780785,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R111_KAFE_GECIT_UST_ORTUSU_v002.blend"
+    },
+    {
+      "bytes": 74781406,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R112_DOGU_GALERI_GECIT_ORTUSU_v001.blend"
+    },
+    {
+      "bytes": 74763100,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R113_GALERI_SERVIS_UZUN_DUVARLARI_v001.blend"
+    },
+    {
+      "bytes": 74758691,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R114_ALT_MERDIVEN_SAHANLIK_PERDESI_v001.blend"
+    },
+    {
+      "bytes": 74850523,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R115_PAVYON_KAPI_CAM_TUTUCULARI_v001.blend"
+    },
+    {
+      "bytes": 74885069,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R116_SEKIZ_ISARET_KABUK_v001.blend"
+    },
+    {
+      "bytes": 74888835,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R116_SEKIZ_ISARET_KABUK_v002.blend"
+    },
+    {
+      "bytes": 74888763,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R116_SEKIZ_ISARET_KABUK_v003.blend"
+    },
+    {
+      "bytes": 74867729,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R116_SEKIZ_ISARET_KABUK_v004.blend"
+    },
+    {
+      "bytes": 74863763,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R116_SEKIZ_ISARET_KABUK_v005.blend"
+    },
+    {
+      "bytes": 74890520,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R116_SEKIZ_ISARET_KABUK_v006.blend"
+    },
+    {
+      "bytes": 74887901,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R116_SEKIZ_ISARET_KABUK_v007.blend"
+    },
+    {
+      "bytes": 74878411,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R117_CEPHE_KOSE_KOPRU_BIRLESIM_v001.blend"
+    },
+    {
+      "bytes": 74881902,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R117_CEPHE_KOSE_KOPRU_BIRLESIM_v002.blend"
+    },
+    {
+      "bytes": 74883413,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R117_CEPHE_KOSE_KOPRU_BIRLESIM_v003.blend"
+    },
+    {
+      "bytes": 74880714,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R117_CEPHE_KOSE_KOPRU_BIRLESIM_v004.blend"
+    },
+    {
+      "bytes": 74880284,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R118_KOPRU_ESIK_CAKISMA_v001.blend"
+    },
+    {
+      "bytes": 74886153,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R119_GALERI_ESIK_YUZEYLERI_v001.blend"
+    },
+    {
+      "bytes": 74876033,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R119_GALERI_ESIK_YUZEYLERI_v002.blend"
+    },
+    {
+      "bytes": 14396870,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R12_BATI_DUZ_CAM_v001.blend"
+    },
+    {
+      "bytes": 74884444,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R120_ALT_KAT_DOSEME_BIRLESIM_v001.blend"
+    },
+    {
+      "bytes": 74872001,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R121_ZEMIN_KAT_DOSEME_YUZEYLERI_v001.blend"
+    },
+    {
+      "bytes": 74895359,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R121_ZEMIN_KAT_DOSEME_YUZEYLERI_v002.blend"
+    },
+    {
+      "bytes": 74898805,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R121_ZEMIN_KAT_DOSEME_YUZEYLERI_v003.blend"
+    },
+    {
+      "bytes": 74892007,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R122_UST_ORTU_YUZEY_BIRLESIM_v001.blend"
+    },
+    {
+      "bytes": 74895883,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R123_CATI_YINELENEN_PROFILLER_v001.blend"
+    },
+    {
+      "bytes": 74898148,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R124_DUVAR_YUZEY_BIRLESIM_v001.blend"
+    },
+    {
+      "bytes": 74896669,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R124_DUVAR_YUZEY_BIRLESIM_v002.blend"
+    },
+    {
+      "bytes": 74899281,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R124_DUVAR_YUZEY_BIRLESIM_v004.blend"
+    },
+    {
+      "bytes": 74899891,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R124_DUVAR_YUZEY_BIRLESIM_v005.blend"
+    },
+    {
+      "bytes": 74905406,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R125_ALT_KAT_VE_SERVIS_DUVAR_BIRLESIM_v001.blend"
+    },
+    {
+      "bytes": 74902039,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R125_ALT_KAT_VE_SERVIS_DUVAR_BIRLESIM_v002.blend"
+    },
+    {
+      "bytes": 74906734,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R126_UST_KAT_DOSEME_SINIRLARI_v001.blend"
+    },
+    {
+      "bytes": 74899753,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R126_UST_KAT_DOSEME_SINIRLARI_v002.blend"
+    },
+    {
+      "bytes": 74910575,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R127_ALT_KAT_ORTU_BIRLESIM_v001.blend"
+    },
+    {
+      "bytes": 74915233,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R128_OKUMA_DOGU_ODA_ORTU_BIRLESIM_v001.blend"
+    },
+    {
+      "bytes": 87132351,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R129_TARIHI_TAS_VE_HENDEK_MALZEME_v001.blend"
+    },
+    {
+      "bytes": 87140495,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R129_TARIHI_TAS_VE_HENDEK_MALZEME_v002.blend"
+    },
+    {
+      "bytes": 14558342,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R13_PAVYON_CAM_v001.blend"
+    },
+    {
+      "bytes": 114936749,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R130_PARK_IGNE_YAPRAKLI_AGACLAR_v001.blend"
+    },
+    {
+      "bytes": 127434389,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R130_PARK_IGNE_YAPRAKLI_AGACLAR_v002.blend"
+    },
+    {
+      "bytes": 117420047,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R131_KABUK_MALZEME_SUREKLILIGI_v001.blend"
+    },
+    {
+      "bytes": 117423153,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R132_HARITALI_PARK_ZEMIN_AYRIMI_v001.blend"
+    },
+    {
+      "bytes": 117420423,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R132_HARITALI_PARK_ZEMIN_AYRIMI_v002.blend"
+    },
+    {
+      "bytes": 117435784,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R132_HARITALI_PARK_ZEMIN_AYRIMI_v003.blend"
+    },
+    {
+      "bytes": 117438190,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R133_PARK_YOL_KAPLAMALARI_v001.blend"
+    },
+    {
+      "bytes": 117436444,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R133_PARK_YOL_KAPLAMALARI_v002.blend"
+    },
+    {
+      "bytes": 117430673,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R133_PARK_YOL_KAPLAMALARI_v003.blend"
+    },
+    {
+      "bytes": 118906668,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R133_PARK_YOL_KAPLAMALARI_v004.blend"
+    },
+    {
+      "bytes": 118930607,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R134_OKUMA_TAVANI_DOGU_MERDIVEN_TASI_v001.blend"
+    },
+    {
+      "bytes": 120849719,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R135_ODITORYUM_AHSAP_DAMAR_v001.blend"
+    },
+    {
+      "bytes": 120865061,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R136_ODITORYUM_TAS_YUZEYLERI_v001.blend"
+    },
+    {
+      "bytes": 120898792,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R137_BATI_MERDIVEN_TAS_YUZEYLERI_v001.blend"
+    },
+    {
+      "bytes": 120885117,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R138_GIRIS_DOLASIM_TAS_ZEMIN_v001.blend"
+    },
+    {
+      "bytes": 120885887,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R138_GIRIS_DOLASIM_TAS_ZEMIN_v002.blend"
+    },
+    {
+      "bytes": 120886149,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R139_GRAND_HALL_TAS_DUVARLAR_v001.blend"
+    },
+    {
+      "bytes": 14625903,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R14_BATI_CAM_MERDIVEN_v003.blend"
+    },
+    {
+      "bytes": 120887235,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R140_DOGU_BAHCE_TAS_ZEMIN_v001.blend"
+    },
+    {
+      "bytes": 120895613,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R141_GIRIS_KAFE_TAS_DUVARLAR_v001.blend"
+    },
+    {
+      "bytes": 123063673,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R142_KOPRU_YOL_KAPLAMA_DEVAMI_v001.blend"
+    },
+    {
+      "bytes": 120905491,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R143_ALT_FUAYE_TAS_DUVAR_v001.blend"
+    },
+    {
+      "bytes": 120909261,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R144_ALT_FUAYE_TAS_TAVAN_v001.blend"
+    },
+    {
+      "bytes": 120912305,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R145_KUZEY_BATI_TAS_YUZEYLER_v001.blend"
+    },
+    {
+      "bytes": 120919914,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R146_BATI_KAVIS_TAS_KAPLAMA_v001.blend"
+    },
+    {
+      "bytes": 120926136,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R147_BATI_DONUS_ALT_FUAYE_TAS_v001.blend"
+    },
+    {
+      "bytes": 120922390,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R148_KAFE_TAS_DOSEME_v001.blend"
+    },
+    {
+      "bytes": 121173596,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R150_LIDAR_HENDEK_ADAY_v001.blend"
+    },
+    {
+      "bytes": 121167852,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R150_LIDAR_HENDEK_ADAY_v002.blend"
+    },
+    {
+      "bytes": 1899983144,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R151_ACT_CEVRE_ADAY_v001.blend"
+    },
+    {
+      "bytes": 1899435064,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R151_ACT_CEVRE_ADAY_v002.blend"
+    },
+    {
+      "bytes": 1904303308,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R151_ACT_CEVRE_ADAY_v003.blend"
+    },
+    {
+      "bytes": 1904481352,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R151_ACT_CEVRE_ADAY_v005.blend"
+    },
+    {
+      "bytes": 1899752964,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R151_ACT_CEVRE_ADAY_v006.blend"
+    },
+    {
+      "bytes": 1898972872,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R151_ACT_CEVRE_ADAY_v007.blend"
+    },
+    {
+      "bytes": 1894268532,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R151_ACT_CEVRE_ADAY_v008.blend"
+    },
+    {
+      "bytes": 1894318064,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R151_ACT_CEVRE_ADAY_v009.blend"
+    },
+    {
+      "bytes": 1894316156,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R151_ACT_CEVRE_ADAY_v010.blend"
+    },
+    {
+      "bytes": 204590248,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R151_WEB_CLEAN_v001.blend"
+    },
+    {
+      "bytes": 197159667,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R151_WEB_LOD_v001.blend"
+    },
+    {
+      "bytes": 207157862,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R151_WEB_LOD_v002.blend"
+    },
+    {
+      "bytes": 14694286,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R16_DIS_PROFIL_MALZEME_v002.blend"
+    },
+    {
+      "bytes": 14705906,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R17_PAVYON_MEKAN_v001.blend"
+    },
+    {
+      "bytes": 14736517,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R18_PAVYON_GECIT_DETAY_v002.blend"
+    },
+    {
+      "bytes": 14795712,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R19_ODITORYUM_MEKAN_v002.blend"
+    },
+    {
+      "bytes": 15030391,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R20_ODITORYUM_KOLTUK_v002.blend"
+    },
+    {
+      "bytes": 15737921,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R21_ODITORYUM_PANEL_v001.blend"
+    },
+    {
+      "bytes": 15807978,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R22_ODITORYUM_DONATI_v001.blend"
+    },
+    {
+      "bytes": 15821189,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R23_UST_GALERI_MEKAN_v002.blend"
+    },
+    {
+      "bytes": 15915677,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R24_GALERI_ISIKLIK_v001.blend"
+    },
+    {
+      "bytes": 16021995,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R25_PAVYON_MERDIVEN_v002.blend"
+    },
+    {
+      "bytes": 16111731,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R26_DOGU_CATI_BAGLANTI_v001.blend"
+    },
+    {
+      "bytes": 16119628,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R27_GALERI_NIS_REVIZYON_v001.blend"
+    },
+    {
+      "bytes": 16141153,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R28_ZEMIN_GALERI_GIRIS_v002.blend"
+    },
+    {
+      "bytes": 16162054,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R29_ALT_GALERI_MEKAN_v001.blend"
+    },
+    {
+      "bytes": 16175371,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R30_UST_ASANSOR_SAHANLIK_v001.blend"
+    },
+    {
+      "bytes": 16176627,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R31_UST_STUDIO_v001.blend"
+    },
+    {
+      "bytes": 16996943,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R32_TAS_AHSAP_YUZEY_v002.blend"
+    },
+    {
+      "bytes": 17017692,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R33_ZEMIN_SERVIS_MEKAN_v002.blend"
+    },
+    {
+      "bytes": 17045733,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R34_GIRIS_KOPRULERI_v003.blend"
+    },
+    {
+      "bytes": 17059169,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R35_HENDEK_CEVRE_ETUDU_v001.blend"
+    },
+    {
+      "bytes": 17055043,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R36_CEPHE_BASLIK_KONTROL_v003.blend"
+    },
+    {
+      "bytes": 17054920,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R37_UST_GECIT_BASLIGI_v001.blend"
+    },
+    {
+      "bytes": 17106851,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R38_PARK_YAKLASIM_v003.blend"
+    },
+    {
+      "bytes": 17123104,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R39_GIRIS_TAVAN_BUTUNLUGU_v001.blend"
+    },
+    {
+      "bytes": 16380541,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R41_MESH_PAYLASIMI_v001.blend"
+    },
+    {
+      "bytes": 16439329,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R42_CATI_GUNES_KIRICI_v002.blend"
+    },
+    {
+      "bytes": 18492496,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R43_TAS_DOSEME_YUZEYI_v001.blend"
+    },
+    {
+      "bytes": 18507546,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R44_KAPALI_KABUKLAR_v004.blend"
+    },
+    {
+      "bytes": 18605483,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R45_TAS_TUTAMAK_v005.blend"
+    },
+    {
+      "bytes": 19149659,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R46_MERDIVEN_TAS_YUZEY_v002.blend"
+    },
+    {
+      "bytes": 19184967,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R47_OKUMA_ISIKLIGI_v002.blend"
+    },
+    {
+      "bytes": 19473562,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R48_KUPESTE_BIRLESIMI_v002.blend"
+    },
+    {
+      "bytes": 19529893,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R49_ALT_MERDIVEN_YUZEY_v001.blend"
+    },
+    {
+      "bytes": 19644599,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R50_GRAND_HALL_ARMATUR_v001.blend"
+    },
+    {
+      "bytes": 19944759,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R51_ANA_CATI_GOLGELIK_v001.blend"
+    },
+    {
+      "bytes": 19948111,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R52_GALERI_CAM_HIZA_v009.blend"
+    },
+    {
+      "bytes": 20066011,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R53_GALERI_NIS_YUZEY_v002.blend"
+    },
+    {
+      "bytes": 20088406,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R54_TARIHI_DUVAR_ALT_CAM_v002.blend"
+    },
+    {
+      "bytes": 30057470,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R55_TARIHI_DUVAR_YUZEY_v002.blend"
+    },
+    {
+      "bytes": 66008929,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R56_PARK_AGAC_TACI_v002.blend"
+    },
+    {
+      "bytes": 66033344,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R57_GIRIS_PASPAS_IZGARA_v001.blend"
+    },
+    {
+      "bytes": 66068936,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R58_KOPRU_CAM_KORKULUK_v005.blend"
+    },
+    {
+      "bytes": 71006592,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R59_KOPRU_TAS_DOSEME_v001.blend"
+    },
+    {
+      "bytes": 71147783,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R60_GIRIS_TAS_TAVAN_YUZEY_v002.blend"
+    },
+    {
+      "bytes": 71185386,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R61_SACAK_GOMME_ISIK_v002.blend"
+    },
+    {
+      "bytes": 76101837,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R62_BALIKSIRTI_DOSEME_v001.blend"
+    },
+    {
+      "bytes": 76124154,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R63_GIRIS_PANEL_LEVHA_v002.blend"
+    },
+    {
+      "bytes": 71183705,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R64_GIRIS_ESIK_GECIS_v001.blend"
+    },
+    {
+      "bytes": 71337646,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R65_GECIT_CAPRAZ_GERGI_v002.blend"
+    },
+    {
+      "bytes": 71435194,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R66_GECIT_YAN_ARMATUR_v001.blend"
+    },
+    {
+      "bytes": 73865144,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R67_GECIT_TAS_DOSEME_v001.blend"
+    },
+    {
+      "bytes": 73874095,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R68_PAVYON_HENDEK_KOLU_v001.blend"
+    },
+    {
+      "bytes": 73920259,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R69_ALT_FUAYE_GOMME_ISIK_v001.blend"
+    },
+    {
+      "bytes": 73998078,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R70_GALERI_RAY_SPOT_v001.blend"
+    },
+    {
+      "bytes": 73999784,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R70_GALERI_RAY_SPOT_v002.blend"
+    },
+    {
+      "bytes": 74000654,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R70_GALERI_RAY_SPOT_v003.blend"
+    },
+    {
+      "bytes": 74039747,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R71_GALERI_DUVAR_BIRLESIMLERI_v001.blend"
+    },
+    {
+      "bytes": 74037554,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R72_ATRIUM_DUVAR_SUREKLILIGI_v001.blend"
+    },
+    {
+      "bytes": 74044942,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R72_ATRIUM_DUVAR_SUREKLILIGI_v002.blend"
+    },
+    {
+      "bytes": 74043416,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R72_ATRIUM_DUVAR_SUREKLILIGI_v003.blend"
+    },
+    {
+      "bytes": 74041910,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R72_ATRIUM_DUVAR_SUREKLILIGI_v004.blend"
+    },
+    {
+      "bytes": 74050644,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R73_GALERI_DUVAR_GOVDELERI_v001.blend"
+    },
+    {
+      "bytes": 74046763,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R73_GALERI_DUVAR_GOVDELERI_v002.blend"
+    },
+    {
+      "bytes": 74051288,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R73_GALERI_DUVAR_GOVDELERI_v003.blend"
+    },
+    {
+      "bytes": 74053136,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R73_GALERI_DUVAR_GOVDELERI_v004.blend"
+    },
+    {
+      "bytes": 74051061,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R74_STUDIO_DUVAR_BIRLESIMLERI_v001.blend"
+    },
+    {
+      "bytes": 74052845,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R74_STUDIO_DUVAR_BIRLESIMLERI_v002.blend"
+    },
+    {
+      "bytes": 74052153,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R74_STUDIO_DUVAR_BIRLESIMLERI_v003.blend"
+    },
+    {
+      "bytes": 74054930,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R75_ODITORYUM_DUVAR_BIRLESIMLERI_v001.blend"
+    },
+    {
+      "bytes": 74060855,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R76_MERDIVEN_DUVAR_UCLARI_v001.blend"
+    },
+    {
+      "bytes": 74066569,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R77_BATI_UC_DUVAR_BAGLANTISI_v001.blend"
+    },
+    {
+      "bytes": 74074942,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R78_ZEMIN_GALERI_DUVAR_GOVDELERI_v001.blend"
+    },
+    {
+      "bytes": 74073830,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R79_CATIDA_EKSIK_KOSELER_v001.blend"
+    },
+    {
+      "bytes": 74083959,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R80_KUZEY_CAM_ALT_KAPANIS_v001.blend"
+    },
+    {
+      "bytes": 74097716,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R81_ALT_FUAYE_YAN_KABUK_v001.blend"
+    },
+    {
+      "bytes": 74106487,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R82_BATI_MERDIVEN_GIRIS_KABUK_v001.blend"
+    },
+    {
+      "bytes": 74113756,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R83_CATI_KENAR_KAPANISLARI_v001.blend"
+    },
+    {
+      "bytes": 74122873,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R84_GIRIS_ALT_CAM_KAPANISI_v001.blend"
+    },
+    {
+      "bytes": 74123395,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R85_BATI_UST_SAHANLIK_KABUK_v001.blend"
+    },
+    {
+      "bytes": 74186693,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R86_PAVYON_CAM_KENAR_KAPANISI_v001.blend"
+    },
+    {
+      "bytes": 74196528,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R87_KUCUK_BATI_GALERISI_KABUK_v001.blend"
+    },
+    {
+      "bytes": 74201214,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R87_KUCUK_BATI_GALERISI_KABUK_v002.blend"
+    },
+    {
+      "bytes": 74196713,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R87_KUCUK_BATI_GALERISI_KABUK_v003.blend"
+    },
+    {
+      "bytes": 74224244,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R88_BATI_MERDIVEN_CAM_KENAR_v001.blend"
+    },
+    {
+      "bytes": 74221485,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R88_BATI_MERDIVEN_CAM_KENAR_v002.blend"
+    },
+    {
+      "bytes": 74258292,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R89_ALT_KAT_DOSEME_BIRLESIMI_v001.blend"
+    },
+    {
+      "bytes": 74265919,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R90_GUNEY_ATRIUM_CAM_CERCEVE_v001.blend"
+    },
+    {
+      "bytes": 74274847,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R91_BATI_UC_DUVAR_CATI_v001.blend"
+    },
+    {
+      "bytes": 74277006,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R92_GALERI_GEREKSIZ_BOLME_KALDIRMA_v001.blend"
+    },
+    {
+      "bytes": 74315847,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R93_KUZEY_CAM_PROFIL_HIZALAMA_v001.blend"
+    },
+    {
+      "bytes": 74324966,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R94_ISARETLI_KABUK_BIRLESIMLERI_v001.blend"
+    },
+    {
+      "bytes": 74331018,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R94_ISARETLI_KABUK_BIRLESIMLERI_v002.blend"
+    },
+    {
+      "bytes": 74326431,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R94_ISARETLI_KABUK_BIRLESIMLERI_v003.blend"
+    },
+    {
+      "bytes": 74381285,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R95_BES_ISARET_KABUK_DUZELTME_v001.blend"
+    },
+    {
+      "bytes": 74737155,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R96_UST_KAT_DUVAR_AYRIMI_v001.blend"
+    },
+    {
+      "bytes": 74737199,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R96_UST_KAT_DUVAR_AYRIMI_v002.blend"
+    },
+    {
+      "bytes": 74751916,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R96_UST_KAT_DUVAR_AYRIMI_v003.blend"
+    },
+    {
+      "bytes": 74748058,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R96_UST_KAT_DUVAR_AYRIMI_v004.blend"
+    },
+    {
+      "bytes": 74776860,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R97_SERVIS_MERDIVENI_v001.blend"
+    },
+    {
+      "bytes": 74781074,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R97_SERVIS_MERDIVENI_v002.blend"
+    },
+    {
+      "bytes": 74780296,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R97_SERVIS_MERDIVENI_v003.blend"
+    },
+    {
+      "bytes": 74775294,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R98_UST_KOPRU_DUVAR_SINIRI_v001.blend"
+    },
+    {
+      "bytes": 74777674,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R99_BATI_GALERI_GIRIS_DUVARI_v001.blend"
+    },
+    {
+      "bytes": 74777875,
+      "path": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R99_BATI_GALERI_GIRIS_DUVARI_v002.blend"
+    }
+  ],
+  "deleted": [
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\.local_source_cache\\act_context\\clipped_glb_v002\\Tile-125-98-1-1_m-00085.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\.local_source_cache\\act_context\\clipped_glb_v002\\Tile-125-98-1-1_m-00102.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\.local_source_cache\\act_context\\clipped_glb_v002\\Tile-125-98-1-1_m-00106.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\.local_source_cache\\act_context\\clipped_glb_v002\\Tile-125-98-1-1_m-00107.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\.local_source_cache\\act_context\\clipped_glb_v002\\Tile-125-98-1-1_m-00108.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\.local_source_cache\\act_context\\clipped_glb_v002\\Tile-125-98-1-1_m-00109.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\.local_source_cache\\act_context\\clipped_glb_v002\\Tile-125-98-1-1_m-00113.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\.local_source_cache\\act_context\\clipped_glb_v002\\Tile-125-99-1-1_m-00009.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\.local_source_cache\\act_context\\clipped_glb_v002\\Tile-125-99-1-1_m-00013.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\.local_source_cache\\act_context\\clipped_glb_v002\\Tile-125-99-1-1_m-00030.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\.local_source_cache\\act_context\\clipped_glb_v002\\Tile-125-99-1-1_m-00031.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\.local_source_cache\\act_context\\clipped_glb_v002\\Tile-125-99-1-1_m-00033.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\.local_source_cache\\act_context\\clipped_glb_v002\\Tile-125-99-1-1_m-00034.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\.local_source_cache\\act_context\\clipped_glb_v002\\Tile-125-99-1-1_m-00035.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\.local_source_cache\\act_context\\clipped_glb_v002\\Tile-125-99-1-1_m-00038.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\.local_source_cache\\act_context\\clipped_glb_v003\\Tile-125-98-1-1_m-00085.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\.local_source_cache\\act_context\\clipped_glb_v003\\Tile-125-98-1-1_m-00102.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\.local_source_cache\\act_context\\clipped_glb_v003\\Tile-125-98-1-1_m-00106.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\.local_source_cache\\act_context\\clipped_glb_v003\\Tile-125-98-1-1_m-00107.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\.local_source_cache\\act_context\\clipped_glb_v003\\Tile-125-98-1-1_m-00108.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\.local_source_cache\\act_context\\clipped_glb_v003\\Tile-125-98-1-1_m-00109.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\.local_source_cache\\act_context\\clipped_glb_v003\\Tile-125-98-1-1_m-00113.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\.local_source_cache\\act_context\\clipped_glb_v003\\Tile-125-99-1-1_m-00009.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\.local_source_cache\\act_context\\clipped_glb_v003\\Tile-125-99-1-1_m-00013.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\.local_source_cache\\act_context\\clipped_glb_v003\\Tile-125-99-1-1_m-00030.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\.local_source_cache\\act_context\\clipped_glb_v003\\Tile-125-99-1-1_m-00031.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\.local_source_cache\\act_context\\clipped_glb_v003\\Tile-125-99-1-1_m-00033.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\.local_source_cache\\act_context\\clipped_glb_v003\\Tile-125-99-1-1_m-00034.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\.local_source_cache\\act_context\\clipped_glb_v003\\Tile-125-99-1-1_m-00035.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\.local_source_cache\\act_context\\clipped_glb_v003\\Tile-125-99-1-1_m-00038.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\.local_source_cache\\act_context\\clipped_glb_v004\\Tile-125-98-1-1_m-00085.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\.local_source_cache\\act_context\\clipped_glb_v004\\Tile-125-98-1-1_m-00102.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\.local_source_cache\\act_context\\clipped_glb_v004\\Tile-125-98-1-1_m-00106.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\.local_source_cache\\act_context\\clipped_glb_v004\\Tile-125-98-1-1_m-00107.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\.local_source_cache\\act_context\\clipped_glb_v004\\Tile-125-98-1-1_m-00108.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\.local_source_cache\\act_context\\clipped_glb_v004\\Tile-125-98-1-1_m-00109.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\.local_source_cache\\act_context\\clipped_glb_v004\\Tile-125-98-1-1_m-00113.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\.local_source_cache\\act_context\\clipped_glb_v004\\Tile-125-99-1-1_m-00009.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\.local_source_cache\\act_context\\clipped_glb_v004\\Tile-125-99-1-1_m-00013.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\.local_source_cache\\act_context\\clipped_glb_v004\\Tile-125-99-1-1_m-00030.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\.local_source_cache\\act_context\\clipped_glb_v004\\Tile-125-99-1-1_m-00031.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\.local_source_cache\\act_context\\clipped_glb_v004\\Tile-125-99-1-1_m-00033.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\.local_source_cache\\act_context\\clipped_glb_v004\\Tile-125-99-1-1_m-00034.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\.local_source_cache\\act_context\\clipped_glb_v004\\Tile-125-99-1-1_m-00035.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\.local_source_cache\\act_context\\clipped_glb_v004\\Tile-125-99-1-1_m-00038.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\.local_source_cache\\act_context\\clipped_glb_v005\\Tile-125-98-1-1_m-00085.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\.local_source_cache\\act_context\\clipped_glb_v005\\Tile-125-98-1-1_m-00102.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\.local_source_cache\\act_context\\clipped_glb_v005\\Tile-125-98-1-1_m-00106.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\.local_source_cache\\act_context\\clipped_glb_v005\\Tile-125-98-1-1_m-00107.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\.local_source_cache\\act_context\\clipped_glb_v005\\Tile-125-98-1-1_m-00108.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\.local_source_cache\\act_context\\clipped_glb_v005\\Tile-125-98-1-1_m-00109.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\.local_source_cache\\act_context\\clipped_glb_v005\\Tile-125-98-1-1_m-00113.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\.local_source_cache\\act_context\\clipped_glb_v005\\Tile-125-99-1-1_m-00009.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\.local_source_cache\\act_context\\clipped_glb_v005\\Tile-125-99-1-1_m-00013.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\.local_source_cache\\act_context\\clipped_glb_v005\\Tile-125-99-1-1_m-00030.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\.local_source_cache\\act_context\\clipped_glb_v005\\Tile-125-99-1-1_m-00031.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\.local_source_cache\\act_context\\clipped_glb_v005\\Tile-125-99-1-1_m-00033.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\.local_source_cache\\act_context\\clipped_glb_v005\\Tile-125-99-1-1_m-00034.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\.local_source_cache\\act_context\\clipped_glb_v005\\Tile-125-99-1-1_m-00035.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\.local_source_cache\\act_context\\clipped_glb_v005\\Tile-125-99-1-1_m-00038.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\.local_source_cache\\act_context\\clipped_glb_v006\\Tile-125-98-1-1_m-00085.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\.local_source_cache\\act_context\\clipped_glb_v006\\Tile-125-98-1-1_m-00102.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\.local_source_cache\\act_context\\clipped_glb_v006\\Tile-125-98-1-1_m-00106.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\.local_source_cache\\act_context\\clipped_glb_v006\\Tile-125-98-1-1_m-00107.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\.local_source_cache\\act_context\\clipped_glb_v006\\Tile-125-98-1-1_m-00108.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\.local_source_cache\\act_context\\clipped_glb_v006\\Tile-125-98-1-1_m-00109.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\.local_source_cache\\act_context\\clipped_glb_v006\\Tile-125-98-1-1_m-00113.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\.local_source_cache\\act_context\\clipped_glb_v006\\Tile-125-99-1-1_m-00009.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\.local_source_cache\\act_context\\clipped_glb_v006\\Tile-125-99-1-1_m-00013.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\.local_source_cache\\act_context\\clipped_glb_v006\\Tile-125-99-1-1_m-00030.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\.local_source_cache\\act_context\\clipped_glb_v006\\Tile-125-99-1-1_m-00031.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\.local_source_cache\\act_context\\clipped_glb_v006\\Tile-125-99-1-1_m-00033.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\.local_source_cache\\act_context\\clipped_glb_v006\\Tile-125-99-1-1_m-00034.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\.local_source_cache\\act_context\\clipped_glb_v006\\Tile-125-99-1-1_m-00035.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\.local_source_cache\\act_context\\clipped_glb_v006\\Tile-125-99-1-1_m-00038.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\.local_source_cache\\act_context\\clipped_glb\\Tile-125-98-1-1_m-00085.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\.local_source_cache\\act_context\\clipped_glb\\Tile-125-98-1-1_m-00106.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\.local_source_cache\\act_context\\clipped_glb\\Tile-125-98-1-1_m-00107.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\.local_source_cache\\act_context\\clipped_glb\\Tile-125-98-1-1_m-00108.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\.local_source_cache\\act_context\\clipped_glb\\Tile-125-98-1-1_m-00109.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\.local_source_cache\\act_context\\clipped_glb\\Tile-125-99-1-1_m-00009.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\.local_source_cache\\act_context\\clipped_glb\\Tile-125-99-1-1_m-00013.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\.local_source_cache\\act_context\\clipped_glb\\Tile-125-99-1-1_m-00030.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\.local_source_cache\\act_context\\clipped_glb\\Tile-125-99-1-1_m-00031.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\.local_source_cache\\act_context\\clipped_glb\\Tile-125-99-1-1_m-00034.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\.local_source_cache\\act_context\\clipped_glb\\Tile-125-99-1-1_m-00035.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\.local_source_cache\\act_context\\inner_ground_glb\\Tile-125-98-1-1_m-00085.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\.local_source_cache\\act_context\\inner_ground_glb\\Tile-125-98-1-1_m-00102.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\.local_source_cache\\act_context\\inner_ground_glb\\Tile-125-98-1-1_m-00106.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\.local_source_cache\\act_context\\inner_ground_glb\\Tile-125-98-1-1_m-00107.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\.local_source_cache\\act_context\\inner_ground_glb\\Tile-125-98-1-1_m-00108.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\.local_source_cache\\act_context\\inner_ground_glb\\Tile-125-98-1-1_m-00109.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\.local_source_cache\\act_context\\inner_ground_glb\\Tile-125-98-1-1_m-00113.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\.local_source_cache\\act_context\\inner_ground_glb\\Tile-125-99-1-1_m-00009.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\.local_source_cache\\act_context\\inner_ground_glb\\Tile-125-99-1-1_m-00013.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\.local_source_cache\\act_context\\inner_ground_glb\\Tile-125-99-1-1_m-00030.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\.local_source_cache\\act_context\\inner_ground_glb\\Tile-125-99-1-1_m-00031.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\.local_source_cache\\act_context\\inner_ground_glb\\Tile-125-99-1-1_m-00033.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\.local_source_cache\\act_context\\inner_ground_glb\\Tile-125-99-1-1_m-00034.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\.local_source_cache\\act_context\\inner_ground_glb\\Tile-125-99-1-1_m-00035.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\.local_source_cache\\act_context\\inner_ground_glb\\Tile-125-99-1-1_m-00038.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\.local_source_cache\\r151_web_lod\\batch_test.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\.local_source_cache\\r151_web_lod\\batch_test.glb.gz",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_P19_MALZEME_ISIK_v001_preview.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R02_GH_GECISI_v003_preview.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R03_MERDIVEN_CAM_DONUSU_v003_preview.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R04_UST_MERDIVEN_v003_preview.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R05_ALT_MERDIVEN_v004_preview.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R06_ALT_FUAYE_v002_preview.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R07_MERDIVEN_BOSLUGU_v001_preview.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R08_OKUMA_TAVANI_v002_preview.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R09_OKUMA_MEKANI_v001_preview.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R10_DOGU_SPIRAL_v004_preview.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R100_GALERI_TAVAN_DUVAR_TEMASI_v001_preview.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R101_OKUMA_SERVIS_GECIDI_YAN_DUVARLAR_v001_preview.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R102_UST_SERVIS_DUVAR_KOSELERI_v001_preview.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R103_UST_GALERI_IC_YUZ_BIRLESIMLERI_v003_preview.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R104_ALT_MERDIVEN_DUVAR_DEVAMI_v001_preview.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R105_BATI_GALERI_DOSEME_TAVAN_TEMASI_v002_preview.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R107_OKUMA_DOSEME_DUVAR_TEMASI_v001_preview.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R108_ZEMIN_SERVIS_DUVAR_KOSELERI_v001_preview.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R109_SERVIS_MERDIVEN_ALTI_KOSELERI_v001_preview.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R11_DOGU_UC_CAM_v001_preview.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R111_KAFE_GECIT_UST_ORTUSU_v002_preview.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R112_DOGU_GALERI_GECIT_ORTUSU_v001_preview.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R113_GALERI_SERVIS_UZUN_DUVARLARI_v001_preview.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R114_ALT_MERDIVEN_SAHANLIK_PERDESI_v001_preview.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R115_PAVYON_KAPI_CAM_TUTUCULARI_v001_preview.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R116_SEKIZ_ISARET_KABUK_v007_preview.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R117_CEPHE_KOSE_KOPRU_BIRLESIM_v004_preview.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R118_KOPRU_ESIK_CAKISMA_v001_preview.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R119_GALERI_ESIK_YUZEYLERI_v002_preview.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R12_BATI_DUZ_CAM_v001_preview.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R120_ALT_KAT_DOSEME_BIRLESIM_v001_preview.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R121_ZEMIN_KAT_DOSEME_YUZEYLERI_v003_preview.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R122_UST_ORTU_YUZEY_BIRLESIM_v001_preview.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R123_CATI_YINELENEN_PROFILLER_v001_preview.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R124_DUVAR_YUZEY_BIRLESIM_v005_preview.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R125_ALT_KAT_VE_SERVIS_DUVAR_BIRLESIM_v002_preview.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R126_UST_KAT_DOSEME_SINIRLARI_v002_preview.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R127_ALT_KAT_ORTU_BIRLESIM_v001_preview.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R128_OKUMA_DOGU_ODA_ORTU_BIRLESIM_v001_preview_compact.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R128_OKUMA_DOGU_ODA_ORTU_BIRLESIM_v001_preview.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R129_TARIHI_TAS_VE_HENDEK_MALZEME_v002_preview_compact.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R129_TARIHI_TAS_VE_HENDEK_MALZEME_v002_preview.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R13_PAVYON_CAM_v001_preview.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R130_PARK_IGNE_YAPRAKLI_AGACLAR_v002_preview_compact.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R130_PARK_IGNE_YAPRAKLI_AGACLAR_v002_preview.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R131_KABUK_MALZEME_SUREKLILIGI_v001_preview_compact.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R131_KABUK_MALZEME_SUREKLILIGI_v001_preview.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R132_HARITALI_PARK_ZEMIN_AYRIMI_v003_preview_compact.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R132_HARITALI_PARK_ZEMIN_AYRIMI_v003_preview.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R133_PARK_YOL_KAPLAMALARI_v004_preview_compact.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R133_PARK_YOL_KAPLAMALARI_v004_preview.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R134_OKUMA_TAVANI_DOGU_MERDIVEN_TASI_v001_preview_compact.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R134_OKUMA_TAVANI_DOGU_MERDIVEN_TASI_v001_preview.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R135_ODITORYUM_AHSAP_DAMAR_v001_preview_compact.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R135_ODITORYUM_AHSAP_DAMAR_v001_preview.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R136_ODITORYUM_TAS_YUZEYLERI_v001_preview_compact.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R136_ODITORYUM_TAS_YUZEYLERI_v001_preview.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R137_BATI_MERDIVEN_TAS_YUZEYLERI_v001_preview_compact.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R137_BATI_MERDIVEN_TAS_YUZEYLERI_v001_preview.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R138_GIRIS_DOLASIM_TAS_ZEMIN_v002_preview_compact.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R138_GIRIS_DOLASIM_TAS_ZEMIN_v002_preview.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R139_GRAND_HALL_TAS_DUVARLAR_v001_preview_compact.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R139_GRAND_HALL_TAS_DUVARLAR_v001_preview.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R14_BATI_CAM_MERDIVEN_v003_preview.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R140_DOGU_BAHCE_TAS_ZEMIN_v001_preview_compact.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R140_DOGU_BAHCE_TAS_ZEMIN_v001_preview.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R141_GIRIS_KAFE_TAS_DUVARLAR_v001_preview_compact.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R141_GIRIS_KAFE_TAS_DUVARLAR_v001_preview.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R143_ALT_FUAYE_TAS_DUVAR_v001_preview_compact.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R143_ALT_FUAYE_TAS_DUVAR_v001_preview.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R144_ALT_FUAYE_TAS_TAVAN_v001_preview_compact.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R144_ALT_FUAYE_TAS_TAVAN_v001_preview.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R145_KUZEY_BATI_TAS_YUZEYLER_v001_preview_compact.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R145_KUZEY_BATI_TAS_YUZEYLER_v001_preview.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R146_BATI_KAVIS_TAS_KAPLAMA_v001_preview_compact.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R146_BATI_KAVIS_TAS_KAPLAMA_v001_preview.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R147_BATI_DONUS_ALT_FUAYE_TAS_v001_preview_compact.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R147_BATI_DONUS_ALT_FUAYE_TAS_v001_preview.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R148_KAFE_TAS_DOSEME_v001_preview_compact.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R148_KAFE_TAS_DOSEME_v001_preview.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R149_UST_DOLASIM_TAS_DOSEME_v001_preview.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R151_v010_candidate.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R151_v010_candidate.glb.gz",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R151_v011_candidate.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R151_v011_candidate.glb.gz",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R16_DIS_PROFIL_MALZEME_v002_preview.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R17_PAVYON_MEKAN_v001_preview.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R18_PAVYON_GECIT_DETAY_v002_preview.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R20_ODITORYUM_KOLTUK_v002_preview.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R21_ODITORYUM_PANEL_v001_preview.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R22_ODITORYUM_DONATI_v001_preview.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R24_GALERI_ISIKLIK_v001_preview.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R26_DOGU_CATI_BAGLANTI_v001_preview.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R27_GALERI_NIS_REVIZYON_v001_preview.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R28_ZEMIN_GALERI_GIRIS_v002_preview.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R29_ALT_GALERI_MEKAN_v001_preview.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R32_TAS_AHSAP_YUZEY_v002_preview.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R33_ZEMIN_SERVIS_MEKAN_v002_preview.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R34_GIRIS_KOPRULERI_v003_preview.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R35_HENDEK_CEVRE_ETUDU_v001_preview.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R37_UST_GECIT_BASLIGI_v001_preview.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R39_GIRIS_TAVAN_BUTUNLUGU_v001_preview.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R41_MESH_PAYLASIMI_v001_preview.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R42_CATI_GUNES_KIRICI_v002_preview.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R43_TAS_DOSEME_YUZEYI_v001_preview.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R44_KAPALI_KABUKLAR_v004_preview.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R45_TAS_TUTAMAK_v005_preview.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R46_MERDIVEN_TAS_YUZEY_v002_preview.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R47_OKUMA_ISIKLIGI_v002_preview.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R48_KUPESTE_BIRLESIMI_v002_preview.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R49_ALT_MERDIVEN_YUZEY_v001_preview.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R50_GRAND_HALL_ARMATUR_v001_preview.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R51_ANA_CATI_GOLGELIK_v001_preview.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R52_GALERI_CAM_HIZA_v009_preview.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R53_GALERI_NIS_YUZEY_v002_preview.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R54_TARIHI_DUVAR_ALT_CAM_v002_preview.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R55_TARIHI_DUVAR_YUZEY_v002_preview.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R56_PARK_AGAC_TACI_v002_preview.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R57_GIRIS_PASPAS_IZGARA_v001_preview.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R58_KOPRU_CAM_KORKULUK_v005_preview.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R59_KOPRU_TAS_DOSEME_v001_preview.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R60_GIRIS_TAS_TAVAN_YUZEY_v002_preview.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R61_SACAK_GOMME_ISIK_v002_preview.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R62_BALIKSIRTI_DOSEME_v001_preview.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R63_GIRIS_PANEL_LEVHA_v002_preview.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R64_GIRIS_ESIK_GECIS_v001_preview.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R65_GECIT_CAPRAZ_GERGI_v002_preview.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R66_GECIT_YAN_ARMATUR_v001_preview.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R67_GECIT_TAS_DOSEME_v001_preview.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R68_PAVYON_HENDEK_KOLU_v001_preview.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R69_ALT_FUAYE_GOMME_ISIK_v001_preview.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R70_GALERI_RAY_SPOT_v003_preview.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R72_ATRIUM_DUVAR_SUREKLILIGI_v004_preview.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R74_STUDIO_DUVAR_BIRLESIMLERI_v002_preview.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R74_STUDIO_DUVAR_BIRLESIMLERI_v003_preview.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R76_MERDIVEN_DUVAR_UCLARI_v001_preview.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R77_BATI_UC_DUVAR_BAGLANTISI_v001_preview.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R78_ZEMIN_GALERI_DUVAR_GOVDELERI_v001_preview.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R79_CATIDA_EKSIK_KOSELER_v001_preview.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R80_KUZEY_CAM_ALT_KAPANIS_v001_preview.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R81_ALT_FUAYE_YAN_KABUK_v001_preview.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R82_BATI_MERDIVEN_GIRIS_KABUK_v001_preview.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R83_CATI_KENAR_KAPANISLARI_v001_preview.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R84_GIRIS_ALT_CAM_KAPANISI_v001_preview.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R85_BATI_UST_SAHANLIK_KABUK_v001_preview.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R86_PAVYON_CAM_KENAR_KAPANISI_v001_preview.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R87_KUCUK_BATI_GALERISI_KABUK_v003_preview.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R88_BATI_MERDIVEN_CAM_KENAR_v002_preview.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R89_ALT_KAT_DOSEME_BIRLESIMI_v001_preview.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R90_GUNEY_ATRIUM_CAM_CERCEVE_v001_preview.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R92_GALERI_GEREKSIZ_BOLME_KALDIRMA_v001_preview.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R93_KUZEY_CAM_PROFIL_HIZALAMA_v001_preview.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R94_ISARETLI_KABUK_BIRLESIMLERI_v003_preview.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R95_BES_ISARET_KABUK_DUZELTME_v001_preview.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R96_UST_KAT_DUVAR_AYRIMI_v004_preview.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R97_SERVIS_MERDIVENI_v003_preview.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R98_UST_KOPRU_DUVAR_SINIRI_v001_preview.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\MUDAM_R99_BATI_GALERI_GIRIS_DUVARI_v002_preview.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\r151_web_clean\\near_context.glb.gz",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\r151_web_v002\\building_unbatched.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\r151_web_v002\\building.glb.gz",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\r151_web_v002\\far_context_unbatched.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\r151_web_v002\\far_context.glb.gz",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\r151_web_v002\\near_context_unbatched.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\r151_web_v002\\near_context.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\r151_web_v002\\near_context.glb.gz",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\r151_web\\building_unbatched.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\r151_web\\building.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\r151_web\\building.glb.gz",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\r151_web\\far_context_unbatched.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\r151_web\\far_context.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\r151_web\\far_context.glb.gz",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\r151_web\\near_context_unbatched.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\r151_web\\near_context.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\r151_web\\near_context.glb.gz",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\archive\\local_trials_20261008\\MUDAM_P10_CAM_CATI_v001.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\archive\\local_trials_20261008\\MUDAM_P11_YAN_ORTULER_v001.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\archive\\local_trials_20261008\\MUDAM_P11_YAN_ORTULER_v002.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\archive\\local_trials_20261008\\MUDAM_P11_YAN_ORTULER_v003.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\archive\\local_trials_20261008\\MUDAM_P12_GIRIS_DETAY_v001.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\archive\\local_trials_20261008\\MUDAM_P12_GIRIS_DETAY_v002.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\archive\\local_trials_20261008\\MUDAM_P17_OKUMA_BOSLUGU_v001.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\archive\\local_trials_20261008\\MUDAM_R02_GH_GECISI_v001.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\archive\\local_trials_20261008\\MUDAM_R02_GH_GECISI_v002.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\archive\\local_trials_20261008\\MUDAM_R03_MERDIVEN_CAM_DONUSU_v001.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\archive\\local_trials_20261008\\MUDAM_R03_MERDIVEN_CAM_DONUSU_v002.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\archive\\local_trials_20261008\\MUDAM_R04_UST_MERDIVEN_v001.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\archive\\local_trials_20261008\\MUDAM_R04_UST_MERDIVEN_v002.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\archive\\local_trials_20261008\\MUDAM_R05_ALT_MERDIVEN_v001.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\archive\\local_trials_20261008\\MUDAM_R05_ALT_MERDIVEN_v002.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\archive\\local_trials_20261008\\MUDAM_R05_ALT_MERDIVEN_v003_preview.glb",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\archive\\local_trials_20261008\\MUDAM_R05_ALT_MERDIVEN_v003.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\archive\\local_trials_20261008\\MUDAM_R06_ALT_FUAYE_v001.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\archive\\local_trials_20261008\\MUDAM_R08_OKUMA_TAVANI_v001.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\archive\\local_trials_20261008\\MUDAM_R10_DOGU_SPIRAL_v001.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\archive\\local_trials_20261008\\MUDAM_R10_DOGU_SPIRAL_v002.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\archive\\local_trials_20261008\\MUDAM_R10_DOGU_SPIRAL_v003.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\archive\\local_trials_20261008\\MUDAM_R14_BATI_CAM_MERDIVEN_v001.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\archive\\local_trials_20261008\\MUDAM_R14_BATI_CAM_MERDIVEN_v002.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\archive\\local_trials_20261008\\MUDAM_R15_GALERI_CEPHE_v001.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\archive\\local_trials_20261008\\MUDAM_R15_GALERI_CEPHE_v002.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\archive\\local_trials_20261008\\MUDAM_R16_DIS_PROFIL_MALZEME_v001.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\archive\\local_trials_20261008\\MUDAM_R18_PAVYON_GECIT_DETAY_v001.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\archive\\local_trials_20261008\\MUDAM_R19_ODITORYUM_MEKAN_v001.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\archive\\local_trials_20261008\\MUDAM_R20_ODITORYUM_KOLTUK_v001.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\archive\\local_trials_20261008\\MUDAM_R23_UST_GALERI_MEKAN_v001.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\archive\\local_trials_20261008\\MUDAM_R25_PAVYON_MERDIVEN_v001.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\archive\\local_trials_20261008\\MUDAM_R28_ZEMIN_GALERI_GIRIS_v001.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\archive\\local_trials_20261008\\MUDAM_R32_TAS_AHSAP_YUZEY_v001.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\archive\\local_trials_20261008\\MUDAM_R33_ZEMIN_SERVIS_MEKAN_v001.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\archive\\local_trials_20261008\\MUDAM_R34_GIRIS_KOPRULERI_v001.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\archive\\local_trials_20261008\\MUDAM_R34_GIRIS_KOPRULERI_v002.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\archive\\local_trials_20261008\\MUDAM_R36_CEPHE_BASLIK_KONTROL_v001.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\archive\\local_trials_20261008\\MUDAM_R36_CEPHE_BASLIK_KONTROL_v002.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\archive\\local_trials_20261008\\MUDAM_R38_PARK_YAKLASIM_v001.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\archive\\local_trials_20261008\\MUDAM_R38_PARK_YAKLASIM_v002.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\archive\\local_trials_20261008\\MUDAM_R40_ALT_CEPHE_PENCERELERI_v001.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\archive\\local_trials_20261008\\MUDAM_R42_CATI_GUNES_KIRICI_v001.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\archive\\local_trials_20261008\\MUDAM_R44_KAPALI_KABUKLAR_v001.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\archive\\local_trials_20261008\\MUDAM_R44_KAPALI_KABUKLAR_v002.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\archive\\local_trials_20261008\\MUDAM_R44_KAPALI_KABUKLAR_v003.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\archive\\local_trials_20261008\\MUDAM_R45_TAS_TUTAMAK_v001.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\archive\\local_trials_20261008\\MUDAM_R45_TAS_TUTAMAK_v002.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\archive\\local_trials_20261008\\MUDAM_R45_TAS_TUTAMAK_v003.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\archive\\local_trials_20261008\\MUDAM_R45_TAS_TUTAMAK_v004.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\archive\\local_trials_20261008\\MUDAM_R46_MERDIVEN_TAS_YUZEY_v001.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\archive\\local_trials_20261008\\MUDAM_R47_OKUMA_ISIKLIGI_v001.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\archive\\local_trials_20261008\\MUDAM_R48_KUPESTE_BIRLESIMI_v001.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\archive\\local_trials_20261008\\MUDAM_R52_GALERI_CAM_HIZA_v001.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\archive\\local_trials_20261008\\MUDAM_R52_GALERI_CAM_HIZA_v002.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\archive\\local_trials_20261008\\MUDAM_R52_GALERI_CAM_HIZA_v003.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\archive\\local_trials_20261008\\MUDAM_R52_GALERI_CAM_HIZA_v004.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\archive\\local_trials_20261008\\MUDAM_R52_GALERI_CAM_HIZA_v005.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\archive\\local_trials_20261008\\MUDAM_R52_GALERI_CAM_HIZA_v006.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\archive\\local_trials_20261008\\MUDAM_R52_GALERI_CAM_HIZA_v007.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\archive\\local_trials_20261008\\MUDAM_R52_GALERI_CAM_HIZA_v008.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\archive\\local_trials_20261008\\MUDAM_R53_GALERI_NIS_YUZEY_v001.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\archive\\local_trials_20261008\\MUDAM_R54_TARIHI_DUVAR_ALT_CAM_v001.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\archive\\local_trials_20261008\\MUDAM_R55_TARIHI_DUVAR_YUZEY_v001.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\archive\\local_trials_20261008\\MUDAM_R56_PARK_AGAC_TACI_v001.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\archive\\local_trials_20261008\\MUDAM_R58_KOPRU_CAM_KORKULUK_v001.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\archive\\local_trials_20261008\\MUDAM_R58_KOPRU_CAM_KORKULUK_v002.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\archive\\local_trials_20261008\\MUDAM_R58_KOPRU_CAM_KORKULUK_v003.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\archive\\local_trials_20261008\\MUDAM_R58_KOPRU_CAM_KORKULUK_v004.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\archive\\local_trials_20261008\\MUDAM_R60_GIRIS_TAS_TAVAN_YUZEY_v001.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\archive\\local_trials_20261008\\MUDAM_R61_SACAK_GOMME_ISIK_v001.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\archive\\local_trials_20261008\\MUDAM_R63_GIRIS_PANEL_LEVHA_v001.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\archive\\local_trials_20261008\\MUDAM_R65_GECIT_CAPRAZ_GERGI_v001.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\archive\\MUDAM_P03_REFERANS_v001.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\archive\\MUDAM_P04_KOT_ETUDU_v001.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\archive\\MUDAM_P05_KABUK_v001.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_ACT2020_SOURCE_REVIEW_v001.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_ACT2020_SOURCE_REVIEW_v002.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_P03_REFERANS_v002.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_P04_KOT_ETUDU_v002.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_P05_KABUK_v002.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_P06_CATI_KONTROL_v001.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_P06_CATI_KONTROL_v002.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_P07_GIRIS_v001.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_P07_GIRIS_v002.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_P09_MERDIVEN_v001.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_P09_MERDIVEN_v002.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_P09_MERDIVEN_v003.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_P09_MERDIVEN_v004.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_P10_CAM_CATI_v002.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_P11_YAN_ORTULER_v004.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_P12_GIRIS_DETAY_v003.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_P17_OKUMA_BOSLUGU_v002.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_P19_MALZEME_ISIK_v001.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R02_GH_GECISI_v003.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R03_MERDIVEN_CAM_DONUSU_v003.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R04_UST_MERDIVEN_v003.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R05_ALT_MERDIVEN_v004.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R06_ALT_FUAYE_v002.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R07_MERDIVEN_BOSLUGU_v001.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R08_OKUMA_TAVANI_v002.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R09_OKUMA_MEKANI_v001.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R10_DOGU_SPIRAL_v004.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R100_GALERI_TAVAN_DUVAR_TEMASI_v001.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R101_OKUMA_SERVIS_GECIDI_YAN_DUVARLAR_v001.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R102_UST_SERVIS_DUVAR_KOSELERI_v001.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R103_UST_GALERI_IC_YUZ_BIRLESIMLERI_v001.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R103_UST_GALERI_IC_YUZ_BIRLESIMLERI_v002.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R103_UST_GALERI_IC_YUZ_BIRLESIMLERI_v003.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R104_ALT_MERDIVEN_DUVAR_DEVAMI_v001.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R105_BATI_GALERI_DOSEME_TAVAN_TEMASI_v001.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R105_BATI_GALERI_DOSEME_TAVAN_TEMASI_v002.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R106_STUDIO_DUVAR_KOSELERI_v001.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R107_OKUMA_DOSEME_DUVAR_TEMASI_v001.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R108_ZEMIN_SERVIS_DUVAR_KOSELERI_v001.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R109_SERVIS_MERDIVEN_ALTI_KOSELERI_v001.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R11_DOGU_UC_CAM_v001.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R111_KAFE_GECIT_UST_ORTUSU_v001.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R111_KAFE_GECIT_UST_ORTUSU_v002.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R112_DOGU_GALERI_GECIT_ORTUSU_v001.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R113_GALERI_SERVIS_UZUN_DUVARLARI_v001.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R114_ALT_MERDIVEN_SAHANLIK_PERDESI_v001.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R115_PAVYON_KAPI_CAM_TUTUCULARI_v001.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R116_SEKIZ_ISARET_KABUK_v001.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R116_SEKIZ_ISARET_KABUK_v002.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R116_SEKIZ_ISARET_KABUK_v003.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R116_SEKIZ_ISARET_KABUK_v004.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R116_SEKIZ_ISARET_KABUK_v005.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R116_SEKIZ_ISARET_KABUK_v006.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R116_SEKIZ_ISARET_KABUK_v007.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R117_CEPHE_KOSE_KOPRU_BIRLESIM_v001.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R117_CEPHE_KOSE_KOPRU_BIRLESIM_v002.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R117_CEPHE_KOSE_KOPRU_BIRLESIM_v003.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R117_CEPHE_KOSE_KOPRU_BIRLESIM_v004.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R118_KOPRU_ESIK_CAKISMA_v001.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R119_GALERI_ESIK_YUZEYLERI_v001.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R119_GALERI_ESIK_YUZEYLERI_v002.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R12_BATI_DUZ_CAM_v001.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R120_ALT_KAT_DOSEME_BIRLESIM_v001.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R121_ZEMIN_KAT_DOSEME_YUZEYLERI_v001.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R121_ZEMIN_KAT_DOSEME_YUZEYLERI_v002.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R121_ZEMIN_KAT_DOSEME_YUZEYLERI_v003.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R122_UST_ORTU_YUZEY_BIRLESIM_v001.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R123_CATI_YINELENEN_PROFILLER_v001.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R124_DUVAR_YUZEY_BIRLESIM_v001.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R124_DUVAR_YUZEY_BIRLESIM_v002.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R124_DUVAR_YUZEY_BIRLESIM_v004.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R124_DUVAR_YUZEY_BIRLESIM_v005.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R125_ALT_KAT_VE_SERVIS_DUVAR_BIRLESIM_v001.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R125_ALT_KAT_VE_SERVIS_DUVAR_BIRLESIM_v002.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R126_UST_KAT_DOSEME_SINIRLARI_v001.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R126_UST_KAT_DOSEME_SINIRLARI_v002.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R127_ALT_KAT_ORTU_BIRLESIM_v001.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R128_OKUMA_DOGU_ODA_ORTU_BIRLESIM_v001.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R129_TARIHI_TAS_VE_HENDEK_MALZEME_v001.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R129_TARIHI_TAS_VE_HENDEK_MALZEME_v002.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R13_PAVYON_CAM_v001.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R130_PARK_IGNE_YAPRAKLI_AGACLAR_v001.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R130_PARK_IGNE_YAPRAKLI_AGACLAR_v002.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R131_KABUK_MALZEME_SUREKLILIGI_v001.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R132_HARITALI_PARK_ZEMIN_AYRIMI_v001.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R132_HARITALI_PARK_ZEMIN_AYRIMI_v002.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R132_HARITALI_PARK_ZEMIN_AYRIMI_v003.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R133_PARK_YOL_KAPLAMALARI_v001.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R133_PARK_YOL_KAPLAMALARI_v002.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R133_PARK_YOL_KAPLAMALARI_v003.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R133_PARK_YOL_KAPLAMALARI_v004.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R134_OKUMA_TAVANI_DOGU_MERDIVEN_TASI_v001.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R135_ODITORYUM_AHSAP_DAMAR_v001.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R136_ODITORYUM_TAS_YUZEYLERI_v001.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R137_BATI_MERDIVEN_TAS_YUZEYLERI_v001.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R138_GIRIS_DOLASIM_TAS_ZEMIN_v001.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R138_GIRIS_DOLASIM_TAS_ZEMIN_v002.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R139_GRAND_HALL_TAS_DUVARLAR_v001.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R14_BATI_CAM_MERDIVEN_v003.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R140_DOGU_BAHCE_TAS_ZEMIN_v001.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R141_GIRIS_KAFE_TAS_DUVARLAR_v001.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R142_KOPRU_YOL_KAPLAMA_DEVAMI_v001.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R143_ALT_FUAYE_TAS_DUVAR_v001.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R144_ALT_FUAYE_TAS_TAVAN_v001.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R145_KUZEY_BATI_TAS_YUZEYLER_v001.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R146_BATI_KAVIS_TAS_KAPLAMA_v001.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R147_BATI_DONUS_ALT_FUAYE_TAS_v001.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R148_KAFE_TAS_DOSEME_v001.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R150_LIDAR_HENDEK_ADAY_v001.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R150_LIDAR_HENDEK_ADAY_v002.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R151_ACT_CEVRE_ADAY_v001.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R151_ACT_CEVRE_ADAY_v002.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R151_ACT_CEVRE_ADAY_v003.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R151_ACT_CEVRE_ADAY_v005.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R151_ACT_CEVRE_ADAY_v006.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R151_ACT_CEVRE_ADAY_v007.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R151_ACT_CEVRE_ADAY_v008.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R151_ACT_CEVRE_ADAY_v009.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R151_ACT_CEVRE_ADAY_v010.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R151_WEB_CLEAN_v001.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R151_WEB_LOD_v001.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R151_WEB_LOD_v002.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R16_DIS_PROFIL_MALZEME_v002.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R17_PAVYON_MEKAN_v001.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R18_PAVYON_GECIT_DETAY_v002.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R19_ODITORYUM_MEKAN_v002.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R20_ODITORYUM_KOLTUK_v002.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R21_ODITORYUM_PANEL_v001.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R22_ODITORYUM_DONATI_v001.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R23_UST_GALERI_MEKAN_v002.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R24_GALERI_ISIKLIK_v001.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R25_PAVYON_MERDIVEN_v002.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R26_DOGU_CATI_BAGLANTI_v001.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R27_GALERI_NIS_REVIZYON_v001.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R28_ZEMIN_GALERI_GIRIS_v002.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R29_ALT_GALERI_MEKAN_v001.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R30_UST_ASANSOR_SAHANLIK_v001.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R31_UST_STUDIO_v001.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R32_TAS_AHSAP_YUZEY_v002.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R33_ZEMIN_SERVIS_MEKAN_v002.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R34_GIRIS_KOPRULERI_v003.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R35_HENDEK_CEVRE_ETUDU_v001.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R36_CEPHE_BASLIK_KONTROL_v003.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R37_UST_GECIT_BASLIGI_v001.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R38_PARK_YAKLASIM_v003.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R39_GIRIS_TAVAN_BUTUNLUGU_v001.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R41_MESH_PAYLASIMI_v001.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R42_CATI_GUNES_KIRICI_v002.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R43_TAS_DOSEME_YUZEYI_v001.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R44_KAPALI_KABUKLAR_v004.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R45_TAS_TUTAMAK_v005.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R46_MERDIVEN_TAS_YUZEY_v002.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R47_OKUMA_ISIKLIGI_v002.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R48_KUPESTE_BIRLESIMI_v002.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R49_ALT_MERDIVEN_YUZEY_v001.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R50_GRAND_HALL_ARMATUR_v001.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R51_ANA_CATI_GOLGELIK_v001.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R52_GALERI_CAM_HIZA_v009.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R53_GALERI_NIS_YUZEY_v002.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R54_TARIHI_DUVAR_ALT_CAM_v002.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R55_TARIHI_DUVAR_YUZEY_v002.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R56_PARK_AGAC_TACI_v002.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R57_GIRIS_PASPAS_IZGARA_v001.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R58_KOPRU_CAM_KORKULUK_v005.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R59_KOPRU_TAS_DOSEME_v001.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R60_GIRIS_TAS_TAVAN_YUZEY_v002.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R61_SACAK_GOMME_ISIK_v002.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R62_BALIKSIRTI_DOSEME_v001.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R63_GIRIS_PANEL_LEVHA_v002.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R64_GIRIS_ESIK_GECIS_v001.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R65_GECIT_CAPRAZ_GERGI_v002.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R66_GECIT_YAN_ARMATUR_v001.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R67_GECIT_TAS_DOSEME_v001.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R68_PAVYON_HENDEK_KOLU_v001.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R69_ALT_FUAYE_GOMME_ISIK_v001.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R70_GALERI_RAY_SPOT_v001.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R70_GALERI_RAY_SPOT_v002.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R70_GALERI_RAY_SPOT_v003.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R71_GALERI_DUVAR_BIRLESIMLERI_v001.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R72_ATRIUM_DUVAR_SUREKLILIGI_v001.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R72_ATRIUM_DUVAR_SUREKLILIGI_v002.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R72_ATRIUM_DUVAR_SUREKLILIGI_v003.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R72_ATRIUM_DUVAR_SUREKLILIGI_v004.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R73_GALERI_DUVAR_GOVDELERI_v001.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R73_GALERI_DUVAR_GOVDELERI_v002.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R73_GALERI_DUVAR_GOVDELERI_v003.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R73_GALERI_DUVAR_GOVDELERI_v004.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R74_STUDIO_DUVAR_BIRLESIMLERI_v001.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R74_STUDIO_DUVAR_BIRLESIMLERI_v002.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R74_STUDIO_DUVAR_BIRLESIMLERI_v003.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R75_ODITORYUM_DUVAR_BIRLESIMLERI_v001.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R76_MERDIVEN_DUVAR_UCLARI_v001.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R77_BATI_UC_DUVAR_BAGLANTISI_v001.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R78_ZEMIN_GALERI_DUVAR_GOVDELERI_v001.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R79_CATIDA_EKSIK_KOSELER_v001.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R80_KUZEY_CAM_ALT_KAPANIS_v001.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R81_ALT_FUAYE_YAN_KABUK_v001.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R82_BATI_MERDIVEN_GIRIS_KABUK_v001.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R83_CATI_KENAR_KAPANISLARI_v001.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R84_GIRIS_ALT_CAM_KAPANISI_v001.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R85_BATI_UST_SAHANLIK_KABUK_v001.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R86_PAVYON_CAM_KENAR_KAPANISI_v001.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R87_KUCUK_BATI_GALERISI_KABUK_v001.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R87_KUCUK_BATI_GALERISI_KABUK_v002.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R87_KUCUK_BATI_GALERISI_KABUK_v003.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R88_BATI_MERDIVEN_CAM_KENAR_v001.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R88_BATI_MERDIVEN_CAM_KENAR_v002.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R89_ALT_KAT_DOSEME_BIRLESIMI_v001.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R90_GUNEY_ATRIUM_CAM_CERCEVE_v001.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R91_BATI_UC_DUVAR_CATI_v001.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R92_GALERI_GEREKSIZ_BOLME_KALDIRMA_v001.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R93_KUZEY_CAM_PROFIL_HIZALAMA_v001.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R94_ISARETLI_KABUK_BIRLESIMLERI_v001.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R94_ISARETLI_KABUK_BIRLESIMLERI_v002.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R94_ISARETLI_KABUK_BIRLESIMLERI_v003.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R95_BES_ISARET_KABUK_DUZELTME_v001.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R96_UST_KAT_DUVAR_AYRIMI_v001.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R96_UST_KAT_DUVAR_AYRIMI_v002.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R96_UST_KAT_DUVAR_AYRIMI_v003.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R96_UST_KAT_DUVAR_AYRIMI_v004.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R97_SERVIS_MERDIVENI_v001.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R97_SERVIS_MERDIVENI_v002.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R97_SERVIS_MERDIVENI_v003.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R98_UST_KOPRU_DUVAR_SINIRI_v001.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R99_BATI_GALERI_GIRIS_DUVARI_v001.blend",
+    "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R99_BATI_GALERI_GIRIS_DUVARI_v002.blend"
+  ],
+  "errors": []
+}

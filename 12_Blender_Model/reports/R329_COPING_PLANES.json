@@ -1,0 +1,30 @@
+{
+  "north": {
+    "plane": [
+      0.008360876314417119,
+      0.023660543114083752,
+      -1.2073874001280405
+    ],
+    "controls": 109,
+    "training": 62,
+    "heldOut": 21,
+    "rms": 0.13208704601961951,
+    "maxAbsolute": 0.3447469211743821,
+    "validSinglePlane": false,
+    "method": "Architectural plane from classified stable coping cells; held-out cells not fitted; no cloud faces used."
+  },
+  "east": {
+    "plane": [
+      0.0004938817320322537,
+      -0.00034138462547206923,
+      0.043475697410871386
+    ],
+    "controls": 147,
+    "training": 78,
+    "heldOut": 33,
+    "rms": 0.21418033365301128,
+    "maxAbsolute": 0.6601176231150299,
+    "validSinglePlane": false,
+    "method": "Architectural plane from classified stable coping cells; held-out cells not fitted; no cloud faces used."
+  }
+}

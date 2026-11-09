@@ -1,0 +1,7 @@
+import numpy as np,json
+from pathlib import Path
+from PIL import Image,ImageFilter
+R=Path(__file__).resolve().parents[1];src=Image.open(R/'textures/polyhaven_castle_wall_slates/castle_wall_slates_diff_2k.jpg').convert('RGB').resize((512,512),Image.Resampling.LANCZOS);rgb=np.asarray(src,dtype=np.float32)/255;low=np.asarray(src.filter(ImageFilter.GaussianBlur(10)),dtype=np.float32)/255;mean=rgb.mean(axis=(0,1));flat=np.clip(rgb/(low+.025)*(mean+.025),0,1);rgb=.2*rgb+.8*flat;atlas=np.tile(rgb,(4,8,1));rng=np.random.default_rng(556)
+def field(w,h,blur):
+ im=Image.fromarray(rng.integers(0,256,(h,w),dtype=np.uint8));im=im.resize((4096,2048),Image.Resampling.BICUBIC).filter(ImageFilter.GaussianBlur(blur));v=np.asarray(im,dtype=np.float32)/255;return v
+macro=field(32,16,20);streak=field(160,8,4);shade=.76+.25*macro+.12*streak;atlas=np.clip(atlas*shade[:,:,None],0,1);Image.fromarray((atlas*255+.5).astype('uint8')).save(R/'textures/R556_weathered_stone_albedo_atlas.png');(R/'reports/R556_TEXTURE_PROCESS.json').write_text(json.dumps(dict(source='R554_MATERIAL_SOURCE.json',method='Technical albedo low-frequency normalization at 2.5m tile scale, then independent20x10m broad weathering field baked to4096x2048. Original normal/roughness retained. No museum photograph or scan pixel used.',seed=556,physicalWidthMetres=20,physicalHeightMetres=10,exactMuseumJointLayout=False),indent=2));print('ATLAS_READY')

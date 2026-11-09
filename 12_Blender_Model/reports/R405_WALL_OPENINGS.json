@@ -1,0 +1,283 @@
+{
+  "scene": "MUDAM_R405_KALE_DOGU_DUVAR_ACIKLIKLARI_ADAY_v001.blend",
+  "accepted": false,
+  "published": false,
+  "openings": [
+    {
+      "kind": "round_opening",
+      "pixel": [
+        233,
+        444
+      ],
+      "center": [
+        -51.32000732421875,
+        -57.74533462524414,
+        -2.012500047683716
+      ],
+      "wallSegment": 48,
+      "radius": 0.34
+    },
+    {
+      "kind": "round_opening",
+      "pixel": [
+        448,
+        447
+      ],
+      "center": [
+        -46.86390686035156,
+        -51.509647369384766,
+        -2.1156249046325684
+      ],
+      "wallSegment": 48,
+      "radius": 0.34
+    },
+    {
+      "kind": "round_opening",
+      "pixel": [
+        656,
+        449
+      ],
+      "center": [
+        -42.18247985839844,
+        -45.932865142822266,
+        -2.184375047683716
+      ],
+      "wallSegment": 47,
+      "radius": 0.34
+    },
+    {
+      "kind": "round_opening",
+      "pixel": [
+        861,
+        447
+      ],
+      "center": [
+        -37.1546745300293,
+        -40.945919036865234,
+        -2.1156249046325684
+      ],
+      "wallSegment": 46,
+      "radius": 0.34
+    },
+    {
+      "kind": "round_opening",
+      "pixel": [
+        1063,
+        446
+      ],
+      "center": [
+        -31.800628662109375,
+        -36.524051666259766,
+        -2.081249952316284
+      ],
+      "wallSegment": 45,
+      "radius": 0.34
+    },
+    {
+      "kind": "segmental_arch_recess",
+      "pixel": [
+        241,
+        526
+      ],
+      "center": [
+        -51.15420150756836,
+        -57.513309478759766,
+        -4.831250190734863
+      ],
+      "wallSegment": 48,
+      "width": 1.15
+    },
+    {
+      "kind": "segmental_arch_recess",
+      "pixel": [
+        451,
+        526
+      ],
+      "center": [
+        -46.801727294921875,
+        -51.42263412475586,
+        -4.831250190734863
+      ],
+      "wallSegment": 48,
+      "width": 1.15
+    },
+    {
+      "kind": "segmental_arch_recess",
+      "pixel": [
+        656,
+        526
+      ],
+      "center": [
+        -42.18247985839844,
+        -45.932865142822266,
+        -4.831250190734863
+      ],
+      "wallSegment": 47,
+      "width": 1.15
+    },
+    {
+      "kind": "segmental_arch_recess",
+      "pixel": [
+        860,
+        526
+      ],
+      "center": [
+        -37.1794319152832,
+        -40.96996307373047,
+        -4.831250190734863
+      ],
+      "wallSegment": 46,
+      "width": 1.15
+    },
+    {
+      "kind": "segmental_arch_recess",
+      "pixel": [
+        1061,
+        526
+      ],
+      "center": [
+        -31.854114532470703,
+        -36.56724166870117,
+        -4.831250190734863
+      ],
+      "wallSegment": 45,
+      "width": 1.15
+    },
+    {
+      "kind": "narrow_recess",
+      "pixel": [
+        183,
+        532
+      ],
+      "center": [
+        -52.031314849853516,
+        -59.59549331665039,
+        -5.037499904632568
+      ],
+      "wallSegment": 49,
+      "width": 0.38
+    },
+    {
+      "kind": "narrow_recess",
+      "pixel": [
+        309,
+        532
+      ],
+      "center": [
+        -49.74482727050781,
+        -55.54109191894531,
+        -5.037499904632568
+      ],
+      "wallSegment": 48,
+      "width": 0.38
+    },
+    {
+      "kind": "narrow_recess",
+      "pixel": [
+        392,
+        532
+      ],
+      "center": [
+        -48.024566650390625,
+        -53.133827209472656,
+        -5.037499904632568
+      ],
+      "wallSegment": 48,
+      "width": 0.38
+    },
+    {
+      "kind": "narrow_recess",
+      "pixel": [
+        509,
+        532
+      ],
+      "center": [
+        -45.59437561035156,
+        -49.74690246582031,
+        -5.037499904632568
+      ],
+      "wallSegment": 47,
+      "width": 0.38
+    },
+    {
+      "kind": "narrow_recess",
+      "pixel": [
+        596,
+        532
+      ],
+      "center": [
+        -43.57508850097656,
+        -47.4896125793457,
+        -5.037499904632568
+      ],
+      "wallSegment": 47,
+      "width": 0.38
+    },
+    {
+      "kind": "narrow_recess",
+      "pixel": [
+        714,
+        532
+      ],
+      "center": [
+        -40.79383850097656,
+        -44.480247497558594,
+        -5.037499904632568
+      ],
+      "wallSegment": 46,
+      "width": 0.38
+    },
+    {
+      "kind": "narrow_recess",
+      "pixel": [
+        797,
+        532
+      ],
+      "center": [
+        -38.73907470703125,
+        -42.484676361083984,
+        -5.037499904632568
+      ],
+      "wallSegment": 46,
+      "width": 0.38
+    },
+    {
+      "kind": "narrow_recess",
+      "pixel": [
+        924,
+        532
+      ],
+      "center": [
+        -35.51801300048828,
+        -39.5260009765625,
+        -5.037499904632568
+      ],
+      "wallSegment": 45,
+      "width": 0.38
+    },
+    {
+      "kind": "narrow_recess",
+      "pixel": [
+        1000,
+        532
+      ],
+      "center": [
+        -33.4854850769043,
+        -37.884647369384766,
+        -5.037499904632568
+      ],
+      "wallSegment": 45,
+      "width": 0.38
+    }
+  ],
+  "check": {
+    "boundaryEdges": 70,
+    "otherNonManifold": 0,
+    "zeroArea": 0,
+    "baselineBoundary": 70
+  },
+  "limits": [
+    "Opening centers from low-resolution scan visual reference, forms from photo086. Dimensions have visual uncertainty; rear depth 0.55m is not surveyed.",
+    "Only the visible five bays reconstructed; adjoining wall and tower details remain incomplete."
+  ]
+}

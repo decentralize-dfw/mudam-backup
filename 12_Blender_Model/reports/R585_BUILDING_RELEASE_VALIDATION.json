@@ -1,0 +1,250 @@
+{
+  "reviewOnly": true,
+  "fullScopeAccepted": false,
+  "sourceScene": "MUDAM_R585_DOGU_HENDEK_CIFT_ZEMIN_TEMIZ_ADAY_v001.blend",
+  "files": {
+    "building": {
+      "file": "12_Blender_Model/exports/r152_clean/r585_building_draco_webp_REVIEW.glb",
+      "bytes": 13718500,
+      "sha256": "313e48d724778e3a645daefe68ef4d1d5f180bf6bf2bb9986bbf436c1db676f2",
+      "triangles": 850454,
+      "zero": 0,
+      "removedDegenerates": 0,
+      "preservedRowNodes": 0,
+      "bounds": {
+        "min": [
+          -42.61722946166992,
+          -13.39102554321289,
+          -44.472713470458984
+        ],
+        "max": [
+          38.46318054199219,
+          30.409473419189453,
+          50.106529265642166
+        ]
+      },
+      "decoded": true,
+      "occlusionMaterials": [
+        {
+          "name": "R17_PAVILION_WHITE_FINISH_CANDIDATE_R581_AO",
+          "uv": 0
+        },
+        {
+          "name": "P05_NEUTRAL_ENVELOPE_R581_AO",
+          "uv": 0
+        },
+        {
+          "name": "R147_GRAIN_STONE_CANDIDATE_R581_AO",
+          "uv": 1
+        },
+        {
+          "name": "R46_STONE_GRAIN_APPEARANCE_CANDIDATE_R581_AO",
+          "uv": 1
+        },
+        {
+          "name": "R46_STONE_GRAIN_APPEARANCE_CANDIDATE_R581_AO",
+          "uv": 1
+        },
+        {
+          "name": "R46_STONE_JOINT_APPEARANCE_CANDIDATE_R581_AO",
+          "uv": 1
+        },
+        {
+          "name": "P05_FLOOR_REFERENCE_R581_AO",
+          "uv": 0
+        },
+        {
+          "name": "R144_GRAIN_STONE_CANDIDATE_R581_AO",
+          "uv": 1
+        },
+        {
+          "name": "P05_NEUTRAL_ENVELOPE_R581_AO",
+          "uv": 0
+        },
+        {
+          "name": "R32_LIMESTONE_APPEARANCE_CANDIDATE_R581_AO",
+          "uv": 1
+        },
+        {
+          "name": "R134_JOINT_STONE_CANDIDATE_R581_AO",
+          "uv": 1
+        },
+        {
+          "name": "R134_GRAIN_STONE_CANDIDATE_R581_AO",
+          "uv": 1
+        },
+        {
+          "name": "R137_GRAIN_STONE_CANDIDATE_R581_AO",
+          "uv": 1
+        },
+        {
+          "name": "R137_JOINT_STONE_CANDIDATE_R581_AO",
+          "uv": 1
+        },
+        {
+          "name": "R137_GRAIN_STONE_CANDIDATE_R581_AO",
+          "uv": 1
+        },
+        {
+          "name": "R137_JOINT_STONE_CANDIDATE_R581_AO",
+          "uv": 1
+        },
+        {
+          "name": "R17_PAVILION_WHITE_FINISH_CANDIDATE_R581_AO",
+          "uv": 0
+        },
+        {
+          "name": "P05_FLOOR_REFERENCE_R581_AO",
+          "uv": 0
+        },
+        {
+          "name": "R136_GRAIN_STONE_CANDIDATE_R581_AO",
+          "uv": 1
+        },
+        {
+          "name": "R136_GRAIN_STONE_CANDIDATE_R581_AO",
+          "uv": 1
+        },
+        {
+          "name": "R135_AUDITORIUM_WOOD_GRAIN_CANDIDATE_R581_AO",
+          "uv": 1
+        },
+        {
+          "name": "R19_CEILING_WHITE_CANDIDATE_R581_AO",
+          "uv": 0
+        },
+        {
+          "name": "R19_CEILING_WHITE_CANDIDATE_R581_AO_R581_AO_R581_AO_R581_AO.002",
+          "uv": 0
+        },
+        {
+          "name": "R19_CEILING_WHITE_CANDIDATE_R581_AO_R581_AO_R581_AO",
+          "uv": 0
+        },
+        {
+          "name": "R19_CEILING_WHITE_CANDIDATE_R581_AO_R581_AO_R581_AO_R581_AO.001",
+          "uv": 0
+        },
+        {
+          "name": "R16_EXTERIOR_DARK_COATING_CANDIDATE_R581_AO",
+          "uv": 0
+        },
+        {
+          "name": "R53_REVEAL_LIMESTONE_CANDIDATE_R581_AO",
+          "uv": 1
+        },
+        {
+          "name": "R53_LINEAR_MINERAL_SOFFIT_CANDIDATE_R581_AO",
+          "uv": 1
+        },
+        {
+          "name": "R53_REVEAL_LIMESTONE_CANDIDATE_R581_AO",
+          "uv": 1
+        },
+        {
+          "name": "P05_NEUTRAL_ENVELOPE_R581_AO",
+          "uv": 0
+        },
+        {
+          "name": "R138_FLOOR_CONTINUITY_CANDIDATE_R581_AO",
+          "uv": 1
+        },
+        {
+          "name": "P05_NEUTRAL_ENVELOPE_R581_AO",
+          "uv": 0
+        },
+        {
+          "name": "R138_FLOOR_CONTINUITY_CANDIDATE_R581_AO",
+          "uv": 1
+        },
+        {
+          "name": "R23_GALLERY_WOOD_FLOOR_CANDIDATE_R581_AO",
+          "uv": 0
+        },
+        {
+          "name": "R32_WOOD_APPEARANCE_CANDIDATE_R581_AO",
+          "uv": 1
+        },
+        {
+          "name": "R43_STONE_FLOOR_APPEARANCE_CANDIDATE_R581_AO",
+          "uv": 1
+        },
+        {
+          "name": "R32_LIMESTONE_APPEARANCE_CANDIDATE_R581_AO",
+          "uv": 1
+        },
+        {
+          "name": "R43_STONE_FLOOR_APPEARANCE_CANDIDATE_R581_AO",
+          "uv": 1
+        },
+        {
+          "name": "R35_HISTORIC_WALL_UNTEXTURED_CONTEXT_R581_AO",
+          "uv": 0
+        },
+        {
+          "name": "R129_HISTORIC_MASONRY_APPEARANCE_CANDIDATE_R581_AO",
+          "uv": 1
+        },
+        {
+          "name": "R129_HISTORIC_MASONRY_APPEARANCE_CANDIDATE_R581_AO",
+          "uv": 1
+        },
+        {
+          "name": "R32_LIMESTONE_APPEARANCE_CANDIDATE_R581_AO",
+          "uv": 1
+        },
+        {
+          "name": "R53_REVEAL_LIMESTONE_CANDIDATE_R581_AO",
+          "uv": 1
+        },
+        {
+          "name": "R143_GRAIN_STONE_CANDIDATE_R581_AO",
+          "uv": 1
+        },
+        {
+          "name": "R143_JOINT_STONE_CANDIDATE_R581_AO",
+          "uv": 1
+        },
+        {
+          "name": "R139_GRAIN_STONE_CANDIDATE_R581_AO",
+          "uv": 1
+        },
+        {
+          "name": "R139_JOINT_STONE_CANDIDATE_R581_AO",
+          "uv": 1
+        },
+        {
+          "name": "R141_GRAIN_STONE_CANDIDATE_R581_AO",
+          "uv": 1
+        },
+        {
+          "name": "R141_JOINT_STONE_CANDIDATE_R581_AO",
+          "uv": 1
+        },
+        {
+          "name": "R147_JOINT_STONE_CANDIDATE_R581_AO",
+          "uv": 1
+        },
+        {
+          "name": "R131_WALL_CONTINUITY_CANDIDATE_R581_AO",
+          "uv": 1
+        },
+        {
+          "name": "R131_WALL_CONTINUITY_CANDIDATE_R581_AO",
+          "uv": 1
+        },
+        {
+          "name": "R131_WALL_CONTINUITY_CANDIDATE_R581_AO",
+          "uv": 1
+        }
+      ],
+      "textures": 19
+    }
+  },
+  "uvCompaction": {
+    "stripped": 1255,
+    "reboundAttributes": 1086,
+    "maxChannel": 1,
+    "losslessCoordinateArrays": true
+  }
+}

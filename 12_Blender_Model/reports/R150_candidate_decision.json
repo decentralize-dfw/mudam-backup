@@ -1,0 +1,45 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R150_LIDAR_HENDEK_ADAY_v001.blend",
+  "base_scene": "MUDAM_R149_UST_DOLASIM_TAS_DOSEME_v001.blend",
+  "changed_inherited_objects": [
+    "R35_MOAT_GROUND",
+    "R68_MOAT_GROUND"
+  ],
+  "closed_objects": [],
+  "checks": [
+    {
+      "name": "R35_MOAT_GROUND",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "volume": 687.5973306380546,
+      "min_z": -5.701862428857908,
+      "max_z": 0.27385859126979994,
+      "xy_area": 2750.3893010824795
+    },
+    {
+      "name": "R68_MOAT_GROUND",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "volume": 64.47363530203035,
+      "min_z": -11.10573369051059,
+      "max_z": -3.1480799335257643,
+      "xy_area": 257.89454038177536
+    }
+  ],
+  "source": "12_Blender_Model/references/terrain_lidar2024/mudam_mnt_2024_crop.tif",
+  "source_sha256": "a92b72e3ba84e8d671ea4b00c444a3dbc19e13a81722497d1eb5578b2d38ad35",
+  "datum_national_m": 316.1510257594697,
+  "datum_spread_m": 0.18612297738707184,
+  "accepted": false,
+  "construction_acceptance": false,
+  "remaining": [
+    "Historic wall base integration, especially R68 where source terrain is below existing base.",
+    "Bridge and facade terrain interface checks",
+    "Source visual comparison and local boundary verification before production export."
+  ],
+  "candidate_decision": "rejected_v001",
+  "rejection_reasons": [
+    "DTM elevation surface breaches bridge deck in north-east render.",
+    "Pavilion terrain drops below historic wall bases."
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "sides": [
+    {
+      "side": 0,
+      "measured": 3796,
+      "interpolated": 5044
+    },
+    {
+      "side": 1,
+      "measured": 2298,
+      "interpolated": 942
+    },
+    {
+      "side": 2,
+      "measured": 5948,
+      "interpolated": 2892
+    },
+    {
+      "side": 3,
+      "measured": 1966,
+      "interpolated": 1274
+    }
+  ],
+  "accepted": false,
+  "limits": "Interpolated hidden facade samples; 3x3 isolated offset spike rejection; four-side corner joining still requires check."
+}

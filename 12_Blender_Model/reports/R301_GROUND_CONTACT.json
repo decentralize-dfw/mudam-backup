@@ -1,0 +1,1732 @@
+{
+  "accepted": false,
+  "published": false,
+  "patchArea": 9.457724326863802,
+  "contacts": [
+    {
+      "name": "R182_DISTRICT_164184549",
+      "samples": 112,
+      "missing": 0,
+      "extension": 0,
+      "waterUsedAsLowerSupport": true
+    },
+    {
+      "name": "R182_DISTRICT_930614764",
+      "samples": 195,
+      "missing": 0,
+      "extension": 0,
+      "waterUsedAsLowerSupport": true
+    },
+    {
+      "name": "R171_546345955",
+      "samples": 920,
+      "missing": 0,
+      "extension": 1.893834228515625,
+      "waterUsedAsLowerSupport": true
+    }
+  ],
+  "checks": [
+    {
+      "name": "R182_DISTRICT_164184549",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R182_DISTRICT_930614764",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_MAIN_ROOF_0",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_MAIN_ROOF_1",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_MAIN_ROOF_2",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_MAIN_ROOF_3",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_WALL_MASS_1",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_WALL_MASS_2",
+      "boundary": 168,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_WALL_MASS_3",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_GLASS_0",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_FRAME_VERTICAL_0",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_FRAME_VERTICAL_0.001",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_FRAME_VERTICAL_0.002",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_FRAME_VERTICAL_0.003",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_FRAME_HORIZONTAL_0",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_FRAME_HORIZONTAL_0.001",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_SILL_0",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_GLASS_1",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_FRAME_VERTICAL_1",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_FRAME_VERTICAL_1.001",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_FRAME_VERTICAL_1.002",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_FRAME_VERTICAL_1.003",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_FRAME_HORIZONTAL_1",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_FRAME_HORIZONTAL_1.001",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_SILL_1",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_GLASS_2",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_FRAME_VERTICAL_2",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_FRAME_VERTICAL_2.001",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_FRAME_VERTICAL_2.002",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_FRAME_VERTICAL_2.003",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_FRAME_HORIZONTAL_2",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_FRAME_HORIZONTAL_2.001",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_SILL_2",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_GLASS_3",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_FRAME_VERTICAL_3",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_FRAME_VERTICAL_3.001",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_FRAME_VERTICAL_3.002",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_FRAME_VERTICAL_3.003",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_FRAME_HORIZONTAL_3",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_FRAME_HORIZONTAL_3.001",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_SILL_3",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_GLASS_4",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_FRAME_VERTICAL_4",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_FRAME_VERTICAL_4.001",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_FRAME_VERTICAL_4.002",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_FRAME_VERTICAL_4.003",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_FRAME_HORIZONTAL_4",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_FRAME_HORIZONTAL_4.001",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_SILL_4",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_GLASS_5",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_FRAME_VERTICAL_5",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_FRAME_VERTICAL_5.001",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_FRAME_VERTICAL_5.002",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_FRAME_VERTICAL_5.003",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_FRAME_HORIZONTAL_5",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_FRAME_HORIZONTAL_5.001",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_SILL_5",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_GLASS_6",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_FRAME_VERTICAL_6",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_FRAME_VERTICAL_6.001",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_FRAME_VERTICAL_6.002",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_FRAME_VERTICAL_6.003",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_FRAME_HORIZONTAL_6",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_FRAME_HORIZONTAL_6.001",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_SILL_6",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_ROOFLIGHT_GLASS_0",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_ROOFLIGHT_FRAME_0_0",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_ROOFLIGHT_FRAME_0_1",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_ROOFLIGHT_FRAME_0_2",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_ROOFLIGHT_FRAME_0_3",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_ROOFLIGHT_GLASS_1",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_ROOFLIGHT_FRAME_1_0",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_ROOFLIGHT_FRAME_1_1",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_ROOFLIGHT_FRAME_1_2",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_ROOFLIGHT_FRAME_1_3",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_ROOFLIGHT_GLASS_2",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_ROOFLIGHT_FRAME_2_0",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_ROOFLIGHT_FRAME_2_1",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_ROOFLIGHT_FRAME_2_2",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_ROOFLIGHT_FRAME_2_3",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_ROOFLIGHT_GLASS_3",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_ROOFLIGHT_FRAME_3_0",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_ROOFLIGHT_FRAME_3_1",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_ROOFLIGHT_FRAME_3_2",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_ROOFLIGHT_FRAME_3_3",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_ROOFLIGHT_GLASS_4",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_ROOFLIGHT_FRAME_4_0",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_ROOFLIGHT_FRAME_4_1",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_ROOFLIGHT_FRAME_4_2",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_ROOFLIGHT_FRAME_4_3",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_FRONT_MANSARD_BAND",
+      "boundary": 62,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_DORMER_FRONT_0",
+      "boundary": 16,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_DORMER_CAP_0",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_DORMER_CHEEK_0_110",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_DORMER_CHEEK_0_215",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_DORMER_GLASS_0",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_DORMER_MULLION_0_0",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_DORMER_MULLION_0_1",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_DORMER_MULLION_0_2",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_DORMER_FRAME_0_112",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_DORMER_FRAME_0_160",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_DORMER_FRONT_1",
+      "boundary": 16,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_DORMER_CAP_1",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_DORMER_CHEEK_1_330",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_DORMER_CHEEK_1_490",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_DORMER_GLASS_1",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_DORMER_MULLION_1_0",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_DORMER_MULLION_1_1",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_DORMER_MULLION_1_2",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_DORMER_MULLION_1_3",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_DORMER_FRAME_1_105",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_DORMER_FRAME_1_160",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_DORMER_FRONT_2",
+      "boundary": 16,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_DORMER_CAP_2",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_DORMER_CHEEK_2_850",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_DORMER_CHEEK_2_982",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_DORMER_GLASS_2",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_DORMER_MULLION_2_0",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_DORMER_MULLION_2_1",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_DORMER_MULLION_2_2",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_DORMER_MULLION_2_3",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_DORMER_FRAME_2_111",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_DORMER_FRAME_2_160",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_DORMER_FRONT_3",
+      "boundary": 16,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_DORMER_CAP_3",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_DORMER_CHEEK_3_1080",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_DORMER_CHEEK_3_1250",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_DORMER_GLASS_3",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_DORMER_MULLION_3_0",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_DORMER_MULLION_3_1",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_DORMER_MULLION_3_2",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_DORMER_MULLION_3_3",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_DORMER_FRAME_3_117",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_DORMER_FRAME_3_175",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_DORMER_FRONT_4",
+      "boundary": 16,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_DORMER_CAP_4",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_DORMER_CHEEK_4_1290",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_DORMER_CHEEK_4_1440",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_DORMER_GLASS_4",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_DORMER_MULLION_4_0",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_DORMER_MULLION_4_1",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_DORMER_MULLION_4_2",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_DORMER_MULLION_4_3",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_DORMER_FRAME_4_115",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_DORMER_FRAME_4_175",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_DORMER_FRONT_5",
+      "boundary": 16,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_DORMER_CAP_5",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_DORMER_CHEEK_5_1580",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_DORMER_CHEEK_5_1700",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_DORMER_GLASS_5",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_DORMER_MULLION_5_0",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_DORMER_MULLION_5_1",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_DORMER_MULLION_5_2",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_DORMER_FRAME_5_108",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_DORMER_FRAME_5_160",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_DORMER_FRONT_6",
+      "boundary": 16,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_DORMER_CAP_6",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_DORMER_CHEEK_6_1790",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_DORMER_CHEEK_6_1925",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_DORMER_GLASS_6",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_DORMER_MULLION_6_0",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_DORMER_MULLION_6_1",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_DORMER_MULLION_6_2",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_DORMER_MULLION_6_3",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_DORMER_FRAME_6_110",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_DORMER_FRAME_6_165",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_REAR_PROJECTING_ROOF",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_REAR_PROJECTION_WALL_1",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_REAR_PROJECTION_WALL_3",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_REAR_ROOF_COPING_0",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_REAR_ROOF_COPING_2",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_REAR_GLAZING_4",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_REAR_FRAME_4_0",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_REAR_FRAME_4_1",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_REAR_FRAME_4_2",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_REAR_FRAME_H_4_-65.2446796875",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_REAR_FRAME_H_4_-63.979054687499996",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_REAR_GLAZING_5",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_REAR_FRAME_5_0",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_REAR_FRAME_5_1",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_REAR_FRAME_5_2",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_REAR_FRAME_5_3",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_REAR_FRAME_H_5_-68.1978046875",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_REAR_FRAME_H_5_-66.9673359375",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_REAR_GLAZING_6",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_REAR_FRAME_6_0",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_REAR_FRAME_6_1",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_REAR_FRAME_6_2",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_REAR_FRAME_H_6_-68.4614765625",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_REAR_FRAME_H_6_-66.8442890625",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_REAR_GLAZING_7",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_REAR_FRAME_7_0",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_REAR_FRAME_7_1",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_REAR_FRAME_7_2",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_REAR_FRAME_7_3",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_REAR_FRAME_H_7_-71.3618671875",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_REAR_FRAME_H_7_-70.2192890625",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_EAVE_CLOSURE_SIDE_1",
+      "boundary": 10,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_EAVE_CLOSURE_SIDE_3",
+      "boundary": 8,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_REAR_CORNER_RETURN_0",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_REAR_CORNER_RETURN_1",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_REAR_ROOF_FLASHING_0",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_REAR_ROOF_FLASHING_1",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_FRONT_BAND_FOOT",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_DORMER_GLASS_0_REVEAL_0",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_DORMER_GLASS_0_REVEAL_1",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_DORMER_GLASS_0_REVEAL_2",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_DORMER_GLASS_0_REVEAL_3",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_DORMER_GLASS_1_REVEAL_0",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_DORMER_GLASS_1_REVEAL_1",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_DORMER_GLASS_1_REVEAL_2",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_DORMER_GLASS_1_REVEAL_3",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_DORMER_GLASS_2_REVEAL_0",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_DORMER_GLASS_2_REVEAL_1",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_DORMER_GLASS_2_REVEAL_2",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_DORMER_GLASS_2_REVEAL_3",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_DORMER_GLASS_3_REVEAL_0",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_DORMER_GLASS_3_REVEAL_1",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_DORMER_GLASS_3_REVEAL_2",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_DORMER_GLASS_3_REVEAL_3",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_DORMER_GLASS_4_REVEAL_0",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_DORMER_GLASS_4_REVEAL_1",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_DORMER_GLASS_4_REVEAL_2",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_DORMER_GLASS_4_REVEAL_3",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_DORMER_GLASS_5_REVEAL_0",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_DORMER_GLASS_5_REVEAL_1",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_DORMER_GLASS_5_REVEAL_2",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_DORMER_GLASS_5_REVEAL_3",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_DORMER_GLASS_6_REVEAL_0",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_DORMER_GLASS_6_REVEAL_1",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_DORMER_GLASS_6_REVEAL_2",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_DORMER_GLASS_6_REVEAL_3",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_ROOFLIGHT_GLASS_0_UPSTAND_0",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_ROOFLIGHT_GLASS_0_UPSTAND_1",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_ROOFLIGHT_GLASS_0_UPSTAND_2",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_ROOFLIGHT_GLASS_0_UPSTAND_3",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_ROOFLIGHT_GLASS_1_UPSTAND_0",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_ROOFLIGHT_GLASS_1_UPSTAND_1",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_ROOFLIGHT_GLASS_1_UPSTAND_2",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_ROOFLIGHT_GLASS_1_UPSTAND_3",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_ROOFLIGHT_GLASS_2_UPSTAND_0",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_ROOFLIGHT_GLASS_2_UPSTAND_1",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_ROOFLIGHT_GLASS_2_UPSTAND_2",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_ROOFLIGHT_GLASS_2_UPSTAND_3",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_ROOFLIGHT_GLASS_3_UPSTAND_0",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_ROOFLIGHT_GLASS_3_UPSTAND_1",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_ROOFLIGHT_GLASS_3_UPSTAND_2",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_ROOFLIGHT_GLASS_3_UPSTAND_3",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_ROOFLIGHT_GLASS_4_UPSTAND_0",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_ROOFLIGHT_GLASS_4_UPSTAND_1",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_ROOFLIGHT_GLASS_4_UPSTAND_2",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_ROOFLIGHT_GLASS_4_UPSTAND_3",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_REAR_GLAZING_0_REVEAL_JOINT_0",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_REAR_GLAZING_0_REVEAL_JOINT_1",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_REAR_GLAZING_0_REVEAL_JOINT_2",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_REAR_GLAZING_0_REVEAL_JOINT_3",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_REAR_GLAZING_1_REVEAL_JOINT_0",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_REAR_GLAZING_1_REVEAL_JOINT_1",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_REAR_GLAZING_1_REVEAL_JOINT_2",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_REAR_GLAZING_1_REVEAL_JOINT_3",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_REAR_GLAZING_2_REVEAL_JOINT_0",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_REAR_GLAZING_2_REVEAL_JOINT_1",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_REAR_GLAZING_2_REVEAL_JOINT_2",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_REAR_GLAZING_2_REVEAL_JOINT_3",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_REAR_GLAZING_3_REVEAL_JOINT_0",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_REAR_GLAZING_3_REVEAL_JOINT_1",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_REAR_GLAZING_3_REVEAL_JOINT_2",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_REAR_GLAZING_3_REVEAL_JOINT_3",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_REAR_GLAZING_4_REVEAL_JOINT_0",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_REAR_GLAZING_4_REVEAL_JOINT_1",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_REAR_GLAZING_4_REVEAL_JOINT_2",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_REAR_GLAZING_4_REVEAL_JOINT_3",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_REAR_GLAZING_5_REVEAL_JOINT_0",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_REAR_GLAZING_5_REVEAL_JOINT_1",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_REAR_GLAZING_5_REVEAL_JOINT_2",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_REAR_GLAZING_5_REVEAL_JOINT_3",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_REAR_GLAZING_6_REVEAL_JOINT_0",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_REAR_GLAZING_6_REVEAL_JOINT_1",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_REAR_GLAZING_6_REVEAL_JOINT_2",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_REAR_GLAZING_6_REVEAL_JOINT_3",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_REAR_GLAZING_7_REVEAL_JOINT_0",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_REAR_GLAZING_7_REVEAL_JOINT_1",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_REAR_GLAZING_7_REVEAL_JOINT_2",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_REAR_GLAZING_7_REVEAL_JOINT_3",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_BURIED_BASE_SLAB",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_REAR_PROJECTION_BASE",
+      "boundary": 12,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_FRONT_BAND_EXACT_RETURN",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_FRONT_CORNER_CLOSURE_0",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_FRONT_CORNER_CLOSURE_1",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_WALL_MASS_0",
+      "boundary": 128,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_REAR_GLAZING_0",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_REAR_FRAME_0_0",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_REAR_FRAME_0_1",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_REAR_FRAME_0_2",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_REAR_FRAME_H_0_-68.1099140625",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_REAR_FRAME_H_0_-66.5806171875",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_REAR_GLAZING_1",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_REAR_FRAME_1_0",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_REAR_FRAME_1_1",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_REAR_FRAME_1_2",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_REAR_FRAME_1_3",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_REAR_FRAME_H_1_-68.1626484375",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_REAR_FRAME_H_1_-66.9673359375",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_REAR_GLAZING_2",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_REAR_FRAME_2_0",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_REAR_FRAME_2_1",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_REAR_FRAME_2_2",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_REAR_FRAME_H_2_-68.1450703125",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_REAR_FRAME_H_2_-66.5454609375",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_REAR_GLAZING_3",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_REAR_FRAME_3_0",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_REAR_FRAME_3_1",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_REAR_FRAME_H_3_-68.1099140625",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_REAR_FRAME_H_3_-66.6157734375",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_REAR_EAVE_CLOSURE_0",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_REAR_EAVE_CLOSURE_1",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_REAR_EAVE_CLOSURE_2",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_REAR_EAVE_CLOSURE_3",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_REAR_EAVE_CLOSURE_6",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_REAR_EAVE_CLOSURE_7",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_REAR_EAVE_CLOSURE_8",
+      "boundary": 4,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_EAVE_STEP_END_0",
+      "boundary": 3,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_EAVE_STEP_END_1",
+      "boundary": 3,
+      "zero": 0
+    },
+    {
+      "name": "ARCH_REAR_PROJECTION_WALL_0",
+      "boundary": 76,
+      "zero": 0
+    },
+    {
+      "name": "R300_DISTRICT_58609207",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R300_DISTRICT_164179140",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R300_DISTRICT_164179154",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R300_DISTRICT_164179194",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R300_DISTRICT_164179211",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R300_DISTRICT_164179244",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R300_DISTRICT_301836559",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R300_DISTRICT_301836562",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R300_DISTRICT_1337806222",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R300_DISTRICT_1337806223",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R300_DISTRICT_1337806224",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R300_DISTRICT_1337806225",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R300_DISTRICT_1337806226",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R300_DISTRICT_EDGE_GROUND",
+      "boundary": 310,
+      "zero": 0
+    },
+    {
+      "name": "R301_GROUND_GAP_REPAIR",
+      "boundary": 102,
+      "zero": 0
+    },
+    {
+      "name": "R171_546345955",
+      "boundary": 0,
+      "zero": 0
+    }
+  ],
+  "waterChannelPreserved": true,
+  "scope": "Local ground coverage and minimum foundation closure only; full district hardscape acceptance pending"
+}

@@ -1,0 +1,116 @@
+[
+  {
+    "name": "R322_WEST_MUSEUM_TERRACE",
+    "missing": [],
+    "grass": true,
+    "uv": [
+      "UVMap",
+      "MicroUV"
+    ]
+  },
+  {
+    "name": "R325_NORTH_RUIN_CENTRAL_COURT",
+    "missing": [],
+    "grass": true,
+    "uv": [
+      "UVMap",
+      "MicroUV"
+    ]
+  },
+  {
+    "name": "R327_EAST_RUIN_CENTRAL_COURT",
+    "missing": [],
+    "grass": true,
+    "uv": [
+      "UVMap",
+      "MicroUV"
+    ]
+  },
+  {
+    "name": "R348_PAVILION_WEST_RUIN_FLOOR",
+    "missing": [
+      [
+        "R157_CONTINUOUS_LANDCOVER",
+        "MicroUV"
+      ]
+    ],
+    "grass": true,
+    "uv": [
+      "UVMap"
+    ]
+  },
+  {
+    "name": "R363_PAVILION_EAST_0_RUIN_FLOOR",
+    "missing": [
+      [
+        "R157_CONTINUOUS_LANDCOVER",
+        "MicroUV"
+      ]
+    ],
+    "grass": true,
+    "uv": [
+      "UVMap"
+    ]
+  },
+  {
+    "name": "R363_PAVILION_EAST_1_RUIN_FLOOR",
+    "missing": [
+      [
+        "R157_CONTINUOUS_LANDCOVER",
+        "MicroUV"
+      ]
+    ],
+    "grass": true,
+    "uv": [
+      "UVMap"
+    ]
+  },
+  {
+    "name": "R378_EAST_LONG_MOAT_RUIN_FLOOR",
+    "missing": [
+      [
+        "R157_CONTINUOUS_LANDCOVER",
+        "MicroUV"
+      ]
+    ],
+    "grass": true,
+    "uv": [
+      "UVMap"
+    ]
+  },
+  {
+    "name": "R397_PAVILION_GROUND_CUT_CONTACT",
+    "missing": [
+      [
+        "R157_CONTINUOUS_LANDCOVER",
+        "MicroUV"
+      ]
+    ],
+    "grass": true,
+    "uv": [
+      "UVMap"
+    ]
+  },
+  {
+    "name": "R417_FORT_OPEN_END_EARTH_COVER",
+    "missing": [
+      [
+        "R413_FORT_DRY_EARTH_COVER.002",
+        "MicroUV"
+      ]
+    ],
+    "grass": false,
+    "uv": [
+      "UVMap"
+    ]
+  },
+  {
+    "name": "R485_NW_LAWN",
+    "missing": [],
+    "grass": true,
+    "uv": [
+      "UVMap",
+      "MicroUV"
+    ]
+  }
+]

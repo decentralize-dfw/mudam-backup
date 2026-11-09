@@ -1,0 +1,19 @@
+{
+  "accepted": false,
+  "building": "Novotel Suites92711489",
+  "roof": 31.35,
+  "parapet": 32.1,
+  "raisedRoof": 34.475128173828125,
+  "facadeRows": 5,
+  "groundFloor": "glazed",
+  "methods": [
+    "Independent polygon walls, recessed window openings, paired glazing, parapet and raised roof volume",
+    "Mama facade corrected to exterior ACT8.8m",
+    "Anneau lower facade break corrected to ACT20.5m"
+  ],
+  "limits": [
+    "Window pitch3.2m candidate counted approximately from source image",
+    "Raised roof box is fitted to sparse horizontal source observations, precise outline unverified",
+    "Foundation/terrain interface and roof component closures require further check"
+  ]
+}

@@ -1,0 +1,381 @@
+{
+  "accepted": false,
+  "published": false,
+  "records": [
+    {
+      "replaced": "R268_SEED_FRONT_8",
+      "newWidth": 16.799547910690308,
+      "openings": [
+        {
+          "pixel": [
+            45,
+            58,
+            391,
+            443
+          ],
+          "u": [
+            -10.571332454681396,
+            -9.301616668701172
+          ],
+          "z": [
+            1.4395694732666016,
+            6.899810791015625
+          ]
+        },
+        {
+          "pixel": [
+            69,
+            82,
+            391,
+            443
+          ],
+          "u": [
+            -8.22719407081604,
+            -6.957484245300293
+          ],
+          "z": [
+            1.4563140869140625,
+            6.916559219360352
+          ]
+        },
+        {
+          "pixel": [
+            93,
+            106,
+            391,
+            443
+          ],
+          "u": [
+            -5.883080720901489,
+            -4.613364934921265
+          ],
+          "z": [
+            1.473062515258789,
+            6.933307647705078
+          ]
+        },
+        {
+          "pixel": [
+            117,
+            130,
+            391,
+            443
+          ],
+          "u": [
+            -3.538961410522461,
+            -2.269226372241974
+          ],
+          "z": [
+            1.4898109436035156,
+            6.950054168701172
+          ]
+        },
+        {
+          "pixel": [
+            141,
+            154,
+            391,
+            443
+          ],
+          "u": [
+            -1.1948229372501373,
+            0.07488681934773922
+          ],
+          "z": [
+            1.5065593719482422,
+            6.966802597045898
+          ]
+        },
+        {
+          "pixel": [
+            165,
+            178,
+            391,
+            443
+          ],
+          "u": [
+            1.1492902636528015,
+            2.418999969959259
+          ],
+          "z": [
+            1.523305892944336,
+            6.983551025390625
+          ]
+        },
+        {
+          "pixel": [
+            189,
+            202,
+            391,
+            443
+          ],
+          "u": [
+            3.4933918714523315,
+            4.76313853263855
+          ],
+          "z": [
+            1.5400543212890625,
+            7.000286102294922
+          ]
+        }
+      ]
+    }
+  ],
+  "checks": [
+    {
+      "name": "R268_FRONT_SHELL_0",
+      "boundary": 0,
+      "zero": 1
+    },
+    {
+      "name": "R268_GLASS_0_0",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R268_FRAME_0_0_L",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R268_FRAME_0_0_R",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R268_FRAME_0_0_B",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R268_FRAME_0_0_T",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R268_FRAME_0_0_M",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R268_TRANSOM_0_0",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R268_GLASS_0_1",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R268_FRAME_0_1_L",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R268_FRAME_0_1_R",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R268_FRAME_0_1_B",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R268_FRAME_0_1_T",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R268_FRAME_0_1_M",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R268_TRANSOM_0_1",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R268_GLASS_0_2",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R268_FRAME_0_2_L",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R268_FRAME_0_2_R",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R268_FRAME_0_2_B",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R268_FRAME_0_2_T",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R268_FRAME_0_2_M",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R268_TRANSOM_0_2",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R268_GLASS_0_3",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R268_FRAME_0_3_L",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R268_FRAME_0_3_R",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R268_FRAME_0_3_B",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R268_FRAME_0_3_T",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R268_FRAME_0_3_M",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R268_TRANSOM_0_3",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R268_GLASS_0_4",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R268_FRAME_0_4_L",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R268_FRAME_0_4_R",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R268_FRAME_0_4_B",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R268_FRAME_0_4_T",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R268_FRAME_0_4_M",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R268_TRANSOM_0_4",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R268_GLASS_0_5",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R268_FRAME_0_5_L",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R268_FRAME_0_5_R",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R268_FRAME_0_5_B",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R268_FRAME_0_5_T",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R268_FRAME_0_5_M",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R268_TRANSOM_0_5",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R268_GLASS_0_6",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R268_FRAME_0_6_L",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R268_FRAME_0_6_R",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R268_FRAME_0_6_B",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R268_FRAME_0_6_T",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R268_FRAME_0_6_M",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R268_TRANSOM_0_6",
+      "boundary": 0,
+      "zero": 0
+    }
+  ],
+  "limits": [
+    "Manual source projection, not surveyed",
+    "Roof plane extrapolation over widened fronts needs comparison",
+    "R219 id8 plane has p90 residual0.212m and88.3percent within0.2m; remains unaccepted, explicit source uncertainty. Missing whole volume reconstructed for visual review instead of leaving gap"
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "scene": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R515_GUNEY_HENDEK_ALT_ZEMIN_ADAY_v001.blend",
+  "objects": [
+    "R515_SOUTH_MOAT_LOWER_GROUND_0"
+  ],
+  "checks": [
+    {
+      "nonManifold": 0,
+      "zeroArea": 0
+    }
+  ],
+  "reopened": true,
+  "targetContacts": [
+    {
+      "x": -61.765616,
+      "y": -65.813892,
+      "hit": "R515_SOUTH_MOAT_LOWER_GROUND_0",
+      "error": -0.04154617407226624
+    },
+    {
+      "x": -59.726354,
+      "y": -67.794421,
+      "hit": "R515_SOUTH_MOAT_LOWER_GROUND_0",
+      "error": -0.025673371337891382
+    }
+  ],
+  "accepted": false,
+  "published": false
+}

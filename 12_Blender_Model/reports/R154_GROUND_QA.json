@@ -1,0 +1,34 @@
+{
+  "reopened": true,
+  "source_scene": "R151_WEB_CLEAN_v002",
+  "candidate": "R154_GENIS_ARAZI_KALE_v003",
+  "inherited_visible": 8397,
+  "changed": [
+    "P05_FRONT_9",
+    "R17_WALL_2",
+    "R17_WINDOW_RIGHT",
+    "R17_WALL_4",
+    "P05_FRONT_10",
+    "R17_WINDOW_SILL",
+    "R17_WALL_0",
+    "R17_WALL_1",
+    "R17_WINDOW_LEFT",
+    "R17_WALL_6",
+    "R35_WALL_51946353_00_0",
+    "R35_WALL_51946353_04_0",
+    "R17_WALL_5"
+  ],
+  "removed": [
+    "R151_PAV_GROUND_JOIN"
+  ],
+  "added_count": 136,
+  "unexpected_inherited_changes": [],
+  "new_triangles": 288069,
+  "zero_area_objects": [],
+  "floor_centroid_samples": 392,
+  "terrain_above_floor_cap": [],
+  "scope": "Targeted geometry/inheritance check; not a complete site or building acceptance.",
+  "foundation_vertex_samples": 684,
+  "floating_tested_bases": [],
+  "changes_above_base_or_horizontal": []
+}

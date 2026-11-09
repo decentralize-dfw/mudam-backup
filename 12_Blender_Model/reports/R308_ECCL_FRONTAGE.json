@@ -1,0 +1,57 @@
+{
+  "accepted": false,
+  "published": false,
+  "length": 298.60103503671917,
+  "bays": 120,
+  "glassPanels": 720,
+  "removedInherited": [
+    {
+      "name": "R166_MEASURED_ENVELOPE",
+      "intersectedFaces": 1299
+    }
+  ],
+  "checks": [
+    {
+      "name": "R308_FRONT_GLASS",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R308_VERTICAL_FRAMES",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R308_HORIZONTAL_FRAMES",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R308_WING_CANOPY",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R308_FRONT_FLOOR_7",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R308_FRONT_FLOOR_12",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R308_FRONT_FLOOR_17",
+      "boundary": 0,
+      "zero": 0
+    }
+  ],
+  "sourceUrl": "https://swaa.lu/projekt/european-convention-center-luxemburg/",
+  "evidence": "Architect describes a glazed hall under projecting metallic wing,300m glazed plaza facade; official photos show vertical glass and horizontal bands. Scan dark underside must not be treated as inclined glazed wall.",
+  "assumptions": [
+    "1.5m glass setback,2.5m approximate bays,7/12/17floorlevels and canopy underside section provisional",
+    "Forest side, end returns, innerBelvedere and ground connections still need completion",
+    "R306/R307 general facade fits rejected due canopy/occlusion contamination"
+  ]
+}

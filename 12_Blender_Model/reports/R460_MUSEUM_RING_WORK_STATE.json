@@ -1,0 +1,146 @@
+{
+  "scene": "scenes/MUDAM_R460_KUZEY_AVLU_GECIS_ADAY_v001.blend",
+  "accepted": false,
+  "published": false,
+  "publicRevision": "R418-museum-fortifications-user-review",
+  "museumGeometryPreserved": true,
+  "changes": [
+    "Corrected Fort metal-roof outline using R336 visual boundary and classified transverse sections R385/R386; independently authored two metal planes, ledge, inner parapet and coping.",
+    "Independent four-zone analytic earth cover replaces inherited sampled surface above x+y=-100; 225 held-out classified controls, RMS 0.055868m, max 0.226968m. Regular architectural tessellation, no scan vertices/faces/photo texture transferred.",
+    "29 inherited fort exterior masonry eave vertices joined to the new analytic roof profile.",
+    "38 closed contact wedges join the previously cut pavilion terrain boundary to R363 floor. All five former gap rays now hit geometry; surrounding terrain and measured floors remain unchanged.",
+    "118 independent standing-seam strips on metal roof. Spacing 0.55m is visual estimate, not surveyed.",
+    "R398 metal-deck/stone-parapet assumption is wrong. Zinneke rooftop view 2 directly shows timber boards, horizontal perimeter louvers and sloping metal fascia. INPA independently states vertical perimeter glazing. R400 hides the wrong parapet, coping and metal seams; rebuilds glazing, frames, seven horizontal louver rows, sloped fascia and timber joints. Lower/upper measured planes retained; old METAL object names only retained for traceability.",
+    "R401: removed false transverse roof-end glazing/fascia/ledge; capped remaining band ends and extended measured timber deck to its footprint.",
+    "R402: traced low tower court and built R399 classified plane. 28 held-out controls RMS .01906m, max .03755m. Inherited open-top masonry has 70 boundary edges before and after; no claim of single-mesh watertight body.",
+    "R403: true source-visible roof access opening and independent metal guard; internal staircase not modeled without visible geometry.",
+    "R405/R406: five source-positioned circular recesses, five segmental arch recesses and nine narrow recesses on east fort wall; stone collars/lintels/jambs. All 19 center rays confirm .55m modeled recess depth, not surveyed depth.",
+    "R407/R408: continuous middle tower reaches low court; three photo-proportioned court-facing blind arcades and windows. Outer two tower feet close court-side gaps while existing caps and exterior fort wall remain.",
+    "R413/R414: independent analytic tower-end earth shoulders, 26 held-out controls RMS 0.05706m, max 0.17929m. Rebuilt as one continuous closed cover to remove artificial cross-domain seam. No source faces or texture transferred.",
+    "R415: east middle moat floor continuation from R335 validated plane, four held-out controls RMS 0.01843m, max 0.02906m; local covering terrain/path faces clipped.",
+    "R416: photo-supported sloping zinc riser and separate upper timber ledge replace vertical ledge lip. Projection 0.34m is a visual estimate.",
+    "R417: visual QA detected a false transverse earth beam closing the photo-visible open roof end. Removed only the terminal corridor from cover domain; zero classified end-profile controls fall in removed corridor. New roof-eye render confirms beam absent.",
+    "R418: all three tower roofs independently rebuilt as conical architecture from classified controls. West 80 held-out controls RMS 0.07019m, max 0.13695m; centre 24 RMS 0.02356m, max 0.04641m; south 80 RMS 0.04625m, max 0.12279m. Cornices meet new eaves and inherited acorns repositioned to cap.",
+    "R419 local south-tower court facade: independent continuous body, five photo-proportioned blind-arch bays, four narrow recesses, one recessed door, jambs/sills. R418 conical roof unchanged. No source surface/photo texture copied. Refined cornice avoids clipping arch crowns.",
+    "R420/R422: removed superseded R154 earth surface cutting tower doors at z2.90; independent narrow court contacts added.",
+    "R423/R424: new independent source photographs and EXIF-constrained image fit support west18/south16/centre9 arcade bays; independent closed upper tower bodies rebuilt. World phases, masonry and hidden details remain provisional.",
+    "R425: independently modeled photo-proportioned acorn finials replace angular inherited ornaments; measured R418 conical roofs preserved.",
+    "R428: 138 existing counterwall crest columns raised using analytic elevation model;30 cell-disjoint held-out controls RMS0.02618m max0.07634m. Plan and bottoms unchanged.",
+    "R430/R433: independently traced mineral approach path, analytic ground plane;79 cell-disjoint heldout controls RMS0.01793m max0.03999m. Exact local terrain and legacy-path clipping removes duplicate surfaces.",
+    "R431: bridge footprint/elevation preserved; independent timber boards and steel guards replace stone slab appearance. Guard sizes/infill are photographic estimates.",
+    "R432/R434: same-camera ACT projection exposes undersized entrance arch and misplaced/small window; independent arches, recess and window frame/sill rebuilt. Dimensions remain blurred-source candidates.",
+    "R437: resolved five degenerate GLB triangles from R434 boolean export; analytic closed replacement masonry infill. Existing fort body70 intentional eave boundary edges unchanged.",
+    "R439: bridgehead had0.58834m missing ground contact. Closed land-side landing connects source-traced approach to existing bridge, no moat-side extension; three seam rays now match deck within0.000003m.",
+    "R446: independently authored battered bastion fronts and closed corbel transitions. R445 robust classified profiles used as candidate only; maximum residuals .446/.472m exceed acceptance threshold.",
+    "R448: 2 round ports, 7 lower slots and 2 curtain-wall slots rebuilt as actual recesses with stone collars/lintels. Photo-registered camera RMS8.58px; sizes and recess depths remain estimates.",
+    "R451: analytic curved-wall split normals remove spurious shading streaks at new apertures; geometry unchanged.",
+    "R453/R456: north lower-moat mineral floor uses independent plane,35 held-out cells RMS.03017m max.05225m. Legacy path overlap clipped to source-traced domain.",
+    "R457: source-traced service court with independently fitted six-coefficient grade,113 held-out cells RMS.04838m max.21275m; no scan faces transferred.",
+    "R458: west service plaza grade,28 held-out cells RMS.01941m max.03889m. Wrong straight path51768376 retired.",
+    "R460: 2m architectural ramp transition closes the .23-.26m join between the two fitted court patches; transition diagnostics not independent holdout. Residual approximate forecourt retained as provisional grass support, not accepted elevations."
+  ],
+  "verification": {
+    "inheritance": "reports/R460_INHERITANCE.json",
+    "unchangedInheritedMeshObjects": 18121,
+    "unexpectedGeometryChanges": [],
+    "rawRoundtrip": "reports/R460_GLB_ROUNDTRIP.json",
+    "rawInheritedDegenerates": "R154_FAR_GROUND and R154_FAR_ROADS; export cleanup removes exact collapsed triangles only",
+    "compressedValidation": "reports/R460_RELEASE_VALIDATION.json",
+    "compressed": {
+      "file": "12_Blender_Model/exports/r152_clean/r460_near_draco_webp_REVIEW.glb",
+      "bytes": 7910112,
+      "sha256": "19f536380203d277d47df5aea8ae7e699f4b0a4ed19365293445aea9103017fd",
+      "triangles": 387377,
+      "zero": 0,
+      "removedDegenerates": 218,
+      "preservedRowNodes": 0,
+      "bounds": {
+        "min": [
+          -500,
+          -78.04438781738281,
+          -650
+        ],
+        "max": [
+          650.000244140625,
+          16.323524475097656,
+          450.000244140625
+        ]
+      },
+      "decoded": true,
+      "textures": 15
+    },
+    "visuals": [
+      "renders/qa/R451_front_candidate.png",
+      "renders/qa/R460_service_plaza.png"
+    ],
+    "note": "Technical validation is not full source-fidelity acceptance."
+  },
+  "rejected": [
+    "R388 whole-earth cubic field failed; not applied.",
+    "R394 whole tower-end shoulder failed; not applied.",
+    "R396 all-edge terrain blend worsened independent grade RMS .268 to .363m; not inherited by R397/R398.",
+    "R398 raised standing metal seams and R389 stone inner parapet are hidden and superseded by R400 photo-supported architectural elements.",
+    "R409-R411 east tower-end eave fits fail independent controls (RMS .34-.41m, maximum .92-.95m). None applied to R408. Do not repeat smooth single-profile fits; source shows distinct structural levels. West-only fitted candidates also not applied.",
+    "R421 radial source sampling cannot locate tower windows reliably in distorted scan.",
+    "R436 lower bastion cone fits rejected:westRMS0.2596m/max1.5243m; southRMS0.0889m/max0.4497m. No geometry applied.",
+    "R434 initial GLB failed5 degenerate triangles. Superseded byR437 corrected analytical infill and mesh cleanup;R439 roundtrip passes."
+  ],
+  "remaining": [
+    "South edge of north service court: source-visible breaklines, retaining faces and grass grades. R459 single quadratic rejected RMS.446m max1.227m; no rejected grade applied.",
+    "Tower roof-edge radii/centres and lower bastion maxima need source reconciliation; R444 shows nominal southern eave radius may be too large.",
+    "Eastern lower moat, pavilion outer retaining continuation and remaining marked ruin/ground junctions need final source comparison.",
+    "Materials and unobserved source details are not fully verified. Whole marked museum ring remains incomplete."
+  ],
+  "sourceViews": [
+    "renders/qa/R336_fort_roof_source.png",
+    "renders/qa/R368_pavilion_oblique_source.png",
+    "renders/qa/R404_fort_east_wall_source_clipped.png",
+    "renders/qa/R419_south_tower_north_source.png",
+    "renders/qa/R419_south_tower_west_source.png",
+    "renders/qa/R429_front_source.png",
+    "references/fort_inpa/R423_68151060.jpg",
+    "references/fort_inpa/R423_68151068_full.jpg",
+    "references/fort_inpa/R423_68151083_full.jpg"
+  ],
+  "candidateViews": [
+    "renders/qa/R424_court_candidate.png",
+    "renders/qa/R434_front_candidate.png",
+    "renders/qa/R439_approach_candidate.png"
+  ],
+  "photo": "05_Dis_Mekan/Tarihi_Duvarlarla_Iliski/086_Muze_ve_tarihi_sur_duvarlari_ArchEyes.jpg",
+  "localGLB": "exports/r152_clean/r439_fort_pavilion_REVIEW.glb",
+  "correction": "R398 metal-deck/stone-parapet assumption is wrong. Zinneke rooftop view 2 directly shows timber boards, horizontal perimeter louvers and sloping metal fascia. INPA independently states vertical perimeter glazing. R400 hides the wrong parapet, coping and metal seams; rebuilds glazing, frames, seven horizontal louver rows, sloped fascia and timber joints. Lower/upper measured planes retained; old METAL object names only retained for traceability.",
+  "sources": [
+    {
+      "file": "references/fort_inpa/rooftop_view_1_Zinneke_CC_BY_SA_3.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Fort_ThÃƒÂ¼ngen_-_MusÃƒÂ©e_DrÃƒÂ¤i_Eechelen_Luxembourg_rooftop_view_1.JPG",
+      "author": "Zinneke",
+      "license": "CC BY-SA 3.0",
+      "use": "Visual reference only; not mapped or baked into model",
+      "sha256": "6cb81bc6331c39cf1c5b1001276bc48b61f6918bfa818d600c01bd47f1910b86"
+    },
+    {
+      "file": "references/fort_inpa/rooftop_view_2_Zinneke_CC_BY_SA_3.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Fort_ThÃƒÂ¼ngen_-_MusÃƒÂ©e_DrÃƒÂ¤i_Eechelen_Luxembourg_rooftop_view_2.JPG",
+      "author": "Zinneke",
+      "license": "CC BY-SA 3.0",
+      "metadata": "references/fort_inpa/rooftop_view_2_metadata.json",
+      "use": "Visual reference only; independently modeled features",
+      "sha256": "2d1c816e4fdfa91329fdd1fe2ae95f03eb1cd6e4f912ca1a138374291869ecca"
+    },
+    {
+      "url": "https://inpa.public.lu/fr/patrimoine/feodal_fortifie/forteresse_luxembourg/musee_forteresse/partie_authentique_reconstruite.html",
+      "use": "Official construction description: high vegetated perimeter shell linked to central slab by vertical window band."
+    }
+  ],
+  "publicationBasis": "Explicit user request: yayinla; review only.",
+  "publicGLB": "demo/model/cevre3/authored-near.glb",
+  "newPhotoMetadata": "references/fort_inpa/R423_photo_candidates_metadata.json",
+  "newSourceAnalysis": {
+    "fullFrontPhoto": "references/fort_inpa/R440_front_full.jpg",
+    "camera": "reports/R440_FRONT_PHOTO_CAMERA.json",
+    "silhouette": "reports/R441_PHOTO_BASTION_TAPER.json",
+    "finding": "EXIF39mm equivalent focal. Approximate three-rim camera fit RMS8.58px; photo silhouette slopes west-0.18734/south-0.15848m radius per metre height corroborate tapered bastions. Radius/center and upper-body transitions need joint registration; geometry not yet applied."
+  },
+  "updatedUTC": "2026-10-26T12:21:40.302165+00:00"
+}

@@ -1,0 +1,26 @@
+{
+  "scene": "MUDAM_R417_KALE_ACIK_UC_ORTU_ADAY_v001.blend",
+  "accepted": false,
+  "published": false,
+  "meshCheck": {
+    "nonManifold": 0,
+    "zeroArea": 0
+  },
+  "heldout": {
+    "rms": 0.05705596210557102,
+    "max": 0.17928664534736516,
+    "heldout": 26,
+    "valid": true
+  },
+  "bodyEaveVerticesChanged": 0,
+  "clipped": [
+    {
+      "name": "R154_FORT_ROUNDED_EARTH_ROOF",
+      "cutTriangles": 1321
+    }
+  ],
+  "limits": [
+    "Boundary tracing and hidden tower junctions remain subject to visual verification.",
+    "Whole museum ring remains unaccepted. Exterior wall windows and tower-end junction still require matching."
+  ]
+}

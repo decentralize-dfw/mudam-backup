@@ -1,0 +1,1999 @@
+{
+  "accepted": false,
+  "published": false,
+  "sourcePolygonsPixels": [
+    [
+      [
+        415,
+        452
+      ],
+      [
+        453,
+        420
+      ],
+      [
+        670,
+        674
+      ],
+      [
+        632,
+        706
+      ]
+    ],
+    [
+      [
+        640,
+        736
+      ],
+      [
+        680,
+        702
+      ],
+      [
+        855,
+        959
+      ],
+      [
+        815,
+        993
+      ]
+    ]
+  ],
+  "booleanOperations": 4,
+  "checks": [
+    {
+      "name": "R255_A_BASE",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R255_A_FLOOR_BANDS",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R255_A_RECESSED_GLAZING",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R255_A_VERTICAL_MULLIONS",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R255_A_PARAPET",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R255_A_ROOF",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R255_A_FLOOR",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R256_B_BASE",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R256_B_FLOOR_BANDS",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R256_B_RECESSED_GLAZING",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R256_B_MULLIONS",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R256_B_ROOF_DECK",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R256_B_FLOOR",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_CONTINUOUS_PITCHED_ROOF_0",
+      "boundary": 0,
+      "zero": 1
+    },
+    {
+      "name": "R257_UPPER_FACADE_0_0_0",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_MULLION_0_0_0",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_FACADE_0_0_1",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_MULLION_0_0_1",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_FACADE_0_0_2",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_MULLION_0_0_2",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_FACADE_0_0_3",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_MULLION_0_0_3",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_FACADE_0_0_4",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_MULLION_0_0_4",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_FACADE_0_0_5",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_MULLION_0_0_5",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_FACADE_0_0_6",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_MULLION_0_0_6",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_FACADE_0_0_7",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_MULLION_0_0_7",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_FACADE_0_0_8",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_MULLION_0_0_8",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_FACADE_0_0_9",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_MULLION_0_0_9",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_FACADE_0_0_10",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_MULLION_0_0_10",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_FACADE_0_0_11",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_MULLION_0_0_11",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_FACADE_0_0_12",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_MULLION_0_0_12",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_FACADE_0_0_13",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_MULLION_0_0_13",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_FACADE_0_0_14",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_MULLION_0_0_14",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_FACADE_0_0_15",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_MULLION_0_0_15",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_FACADE_0_0_16",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_MULLION_0_0_16",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_FACADE_0_0_17",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_MULLION_0_0_17",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_FACADE_0_0_18",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_MULLION_0_0_18",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_FACADE_0_0_19",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_FACADE_0_1_0",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_FACADE_0_1_1",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_MULLION_0_1_1",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_FACADE_0_1_2",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_MULLION_0_1_2",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_FACADE_0_1_3",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_MULLION_0_1_3",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_FACADE_0_1_4",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_MULLION_0_1_4",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_FACADE_0_1_5",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_MULLION_0_1_5",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_FACADE_0_1_6",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_MULLION_0_1_6",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_FACADE_0_1_7",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_MULLION_0_1_7",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_FACADE_0_1_8",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_MULLION_0_1_8",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_FACADE_0_1_9",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_MULLION_0_1_9",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_FACADE_0_1_10",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_MULLION_0_1_10",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_FACADE_0_1_11",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_MULLION_0_1_11",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_FACADE_0_1_12",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_MULLION_0_1_12",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_FACADE_0_1_13",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_MULLION_0_1_13",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_FACADE_0_1_14",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_MULLION_0_1_14",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_FACADE_0_2_0",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_MULLION_0_2_0",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_FACADE_0_2_1",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_MULLION_0_2_1",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_FACADE_0_2_2",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_MULLION_0_2_2",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_FACADE_0_2_3",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_MULLION_0_2_3",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_FACADE_0_2_4",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_MULLION_0_2_4",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_FACADE_0_2_5",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_MULLION_0_2_5",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_FACADE_0_2_6",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_MULLION_0_2_6",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_FACADE_0_2_7",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_MULLION_0_2_7",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_FACADE_0_2_8",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_MULLION_0_2_8",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_FACADE_0_2_9",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_MULLION_0_2_9",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_FACADE_0_2_10",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_MULLION_0_2_10",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_FACADE_0_2_11",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_MULLION_0_2_11",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_FACADE_0_2_12",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_MULLION_0_2_12",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_FACADE_0_2_13",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_MULLION_0_2_13",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_FACADE_0_2_14",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_MULLION_0_2_14",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_FACADE_0_2_15",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_MULLION_0_2_15",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_FACADE_0_2_16",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_MULLION_0_2_16",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_FACADE_0_2_17",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_MULLION_0_2_17",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_FACADE_0_3_0",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_MULLION_0_3_0",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_FACADE_0_3_1",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_MULLION_0_3_1",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_FACADE_0_3_2",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_MULLION_0_3_2",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_FACADE_0_3_3",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_MULLION_0_3_3",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_FACADE_0_3_4",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_MULLION_0_3_4",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_FACADE_0_3_5",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_MULLION_0_3_5",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_FACADE_0_3_6",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_MULLION_0_3_6",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_FACADE_0_3_7",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_MULLION_0_3_7",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_FACADE_0_3_8",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_MULLION_0_3_8",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_FACADE_0_3_9",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_MULLION_0_3_9",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_FACADE_0_3_10",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_MULLION_0_3_10",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_FACADE_0_3_11",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_MULLION_0_3_11",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_FACADE_0_3_12",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_MULLION_0_3_12",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_FACADE_0_3_13",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_MULLION_0_3_13",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_FACADE_0_3_14",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_MULLION_0_3_14",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_ROOF_FRAME_0_0_0",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_ROOF_FRAME_0_0_1",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_ROOF_FRAME_0_0_2",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_ROOF_FRAME_0_0_3",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_ROOF_FRAME_0_0_4",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_ROOF_FRAME_0_0_5",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_ROOF_FRAME_0_0_6",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_ROOF_FRAME_0_0_7",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_ROOF_FRAME_0_0_8",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_ROOF_FRAME_0_0_9",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_ROOF_FRAME_0_0_10",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_ROOF_FRAME_0_0_11",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_ROOF_FRAME_0_0_12",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_ROOF_FRAME_0_0_13",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_ROOF_FRAME_0_0_14",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_ROOF_FRAME_0_0_15",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_ROOF_FRAME_0_0_16",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_ROOF_FRAME_0_0_17",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_ROOF_FRAME_0_0_18",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_ROOF_FRAME_0_0_19",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_ROOF_FRAME_0_0_20",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_ROOF_FRAME_0_0_21",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_ROOF_FRAME_0_0_22",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_ROOF_FRAME_0_0_23",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_ROOF_FRAME_0_0_24",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_ROOF_FRAME_0_0_25",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_ROOF_FRAME_0_0_26",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_ROOF_FRAME_0_0_27",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_ROOF_FRAME_0_1_0",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_ROOF_FRAME_0_1_1",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_ROOF_FRAME_0_1_2",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_ROOF_FRAME_0_1_3",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_ROOF_FRAME_0_1_4",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_ROOF_FRAME_0_1_5",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_ROOF_FRAME_0_1_6",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_ROOF_FRAME_0_1_7",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_ROOF_FRAME_0_1_8",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_ROOF_FRAME_0_1_9",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_ROOF_FRAME_0_1_10",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_ROOF_FRAME_0_1_11",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_ROOF_FRAME_0_1_12",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_ROOF_FRAME_0_1_13",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_ROOF_FRAME_0_1_14",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_ROOF_FRAME_0_1_15",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_ROOF_FRAME_0_1_16",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_ROOF_FRAME_0_1_17",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_ROOF_FRAME_0_1_18",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_CONTINUOUS_PITCHED_ROOF_1",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_FACADE_1_0_0",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_MULLION_1_0_0",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_FACADE_1_0_1",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_MULLION_1_0_1",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_FACADE_1_0_2",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_MULLION_1_0_2",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_FACADE_1_0_3",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_MULLION_1_0_3",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_FACADE_1_0_4",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_MULLION_1_0_4",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_FACADE_1_0_5",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_MULLION_1_0_5",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_FACADE_1_0_6",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_MULLION_1_0_6",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_FACADE_1_0_7",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_MULLION_1_0_7",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_FACADE_1_0_8",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_MULLION_1_0_8",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_FACADE_1_0_9",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_MULLION_1_0_9",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_FACADE_1_0_10",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_MULLION_1_0_10",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_FACADE_1_0_11",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_MULLION_1_0_11",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_FACADE_1_0_12",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_MULLION_1_0_12",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_FACADE_1_0_13",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_MULLION_1_0_13",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_FACADE_1_0_14",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_MULLION_1_0_14",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_FACADE_1_0_15",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_MULLION_1_0_15",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_FACADE_1_0_16",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_MULLION_1_0_16",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_FACADE_1_0_17",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_MULLION_1_0_17",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_FACADE_1_1_0",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_MULLION_1_1_0",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_FACADE_1_1_1",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_MULLION_1_1_1",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_FACADE_1_1_2",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_MULLION_1_1_2",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_FACADE_1_1_3",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_MULLION_1_1_3",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_FACADE_1_1_4",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_MULLION_1_1_4",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_FACADE_1_1_5",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_MULLION_1_1_5",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_FACADE_1_1_6",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_MULLION_1_1_6",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_FACADE_1_1_7",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_MULLION_1_1_7",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_FACADE_1_1_8",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_MULLION_1_1_8",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_FACADE_1_1_9",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_MULLION_1_1_9",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_FACADE_1_1_10",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_MULLION_1_1_10",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_FACADE_1_1_11",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_MULLION_1_1_11",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_FACADE_1_1_12",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_MULLION_1_1_12",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_FACADE_1_1_13",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_MULLION_1_1_13",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_FACADE_1_1_14",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_MULLION_1_1_14",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_FACADE_1_2_0",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_MULLION_1_2_0",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_FACADE_1_2_1",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_MULLION_1_2_1",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_FACADE_1_2_2",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_MULLION_1_2_2",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_FACADE_1_2_3",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_MULLION_1_2_3",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_FACADE_1_2_4",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_MULLION_1_2_4",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_FACADE_1_2_5",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_MULLION_1_2_5",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_FACADE_1_2_6",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_MULLION_1_2_6",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_FACADE_1_2_7",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_MULLION_1_2_7",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_FACADE_1_2_8",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_MULLION_1_2_8",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_FACADE_1_2_9",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_MULLION_1_2_9",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_FACADE_1_2_10",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_MULLION_1_2_10",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_FACADE_1_2_11",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_MULLION_1_2_11",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_FACADE_1_2_12",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_MULLION_1_2_12",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_FACADE_1_2_13",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_MULLION_1_2_13",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_FACADE_1_2_14",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_MULLION_1_2_14",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_FACADE_1_2_15",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_MULLION_1_2_15",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_FACADE_1_3_0",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_MULLION_1_3_0",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_FACADE_1_3_1",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_MULLION_1_3_1",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_FACADE_1_3_2",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_MULLION_1_3_2",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_FACADE_1_3_3",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_MULLION_1_3_3",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_FACADE_1_3_4",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_MULLION_1_3_4",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_FACADE_1_3_5",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_MULLION_1_3_5",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_FACADE_1_3_6",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_MULLION_1_3_6",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_FACADE_1_3_7",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_MULLION_1_3_7",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_FACADE_1_3_8",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_MULLION_1_3_8",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_FACADE_1_3_9",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_MULLION_1_3_9",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_FACADE_1_3_10",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_MULLION_1_3_10",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_FACADE_1_3_11",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_MULLION_1_3_11",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_FACADE_1_3_12",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_MULLION_1_3_12",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_FACADE_1_3_13",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_MULLION_1_3_13",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_FACADE_1_3_14",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_UPPER_MULLION_1_3_14",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_ROOF_FRAME_1_0_0",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_ROOF_FRAME_1_0_1",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_ROOF_FRAME_1_0_2",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_ROOF_FRAME_1_0_3",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_ROOF_FRAME_1_0_4",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_ROOF_FRAME_1_0_5",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_ROOF_FRAME_1_0_6",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_ROOF_FRAME_1_0_7",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_ROOF_FRAME_1_0_8",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_ROOF_FRAME_1_0_9",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_ROOF_FRAME_1_0_10",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_ROOF_FRAME_1_0_11",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_ROOF_FRAME_1_0_12",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_ROOF_FRAME_1_0_13",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_ROOF_FRAME_1_0_14",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_ROOF_FRAME_1_0_15",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_ROOF_FRAME_1_0_16",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_ROOF_FRAME_1_0_17",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_ROOF_FRAME_1_0_18",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_ROOF_FRAME_1_0_19",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_ROOF_FRAME_1_0_20",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_ROOF_FRAME_1_0_21",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_ROOF_FRAME_1_0_22",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_ROOF_FRAME_1_0_23",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_ROOF_FRAME_1_0_24",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_ROOF_FRAME_1_0_25",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_ROOF_FRAME_1_0_26",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_ROOF_FRAME_1_0_27",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_ROOF_FRAME_1_1_0",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_ROOF_FRAME_1_1_1",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_ROOF_FRAME_1_1_2",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_ROOF_FRAME_1_1_3",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_ROOF_FRAME_1_1_4",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_ROOF_FRAME_1_1_5",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_ROOF_FRAME_1_1_6",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_ROOF_FRAME_1_1_7",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_ROOF_FRAME_1_1_8",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_ROOF_FRAME_1_1_9",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_ROOF_FRAME_1_1_10",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_ROOF_FRAME_1_1_11",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_ROOF_FRAME_1_1_12",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_ROOF_FRAME_1_1_13",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_ROOF_FRAME_1_1_14",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_ROOF_FRAME_1_1_15",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_ROOF_FRAME_1_1_16",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_ROOF_FRAME_1_1_17",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R257_ROOF_FRAME_1_1_18",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R258_CROWN_EDGE_0_0",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R258_CROWN_TRANSOM_0_0_91.8",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R258_CROWN_TRANSOM_0_0_95.45",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R258_CROWN_EDGE_0_1",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R258_CROWN_EDGE_0_2",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R258_CROWN_TRANSOM_0_2_91.8",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R258_CROWN_TRANSOM_0_2_95.45",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R258_CROWN_EDGE_0_3",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R258_CROWN_TRANSOM_0_3_91.8",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R258_CROWN_TRANSOM_0_3_95.45",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R258_CROWN_EDGE_1_0",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R258_CROWN_TRANSOM_1_0_91.8",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R258_CROWN_TRANSOM_1_0_95.45",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R258_CROWN_EDGE_1_1",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R258_CROWN_TRANSOM_1_1_91.8",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R258_CROWN_TRANSOM_1_1_95.45",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R258_CROWN_EDGE_1_2",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R258_CROWN_TRANSOM_1_2_91.8",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R258_CROWN_EDGE_1_3",
+      "boundary": 0,
+      "zero": 0
+    }
+  ],
+  "limits": [
+    "Service pit side linings and equipment unresolved",
+    "Compare roof outline and all facades before acceptance"
+  ]
+}

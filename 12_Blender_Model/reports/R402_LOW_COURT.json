@@ -1,0 +1,83 @@
+{
+  "scene": "MUDAM_R402_KALE_ALCAK_KULE_AVLUSU_ADAY_v001.blend",
+  "accepted": false,
+  "published": false,
+  "sourcePixels": [
+    [
+      137,
+      760
+    ],
+    [
+      180,
+      785
+    ],
+    [
+      232,
+      765
+    ],
+    [
+      326,
+      847
+    ],
+    [
+      307,
+      894
+    ],
+    [
+      343,
+      952
+    ],
+    [
+      276,
+      978
+    ],
+    [
+      128,
+      840
+    ]
+  ],
+  "planeCheck": {
+    "plane": [
+      0.0016409591247270763,
+      0.00165304218855954,
+      1.7049732036742022
+    ],
+    "rms": 0.019055568510130867,
+    "max": 0.037551458372329094,
+    "heldout": 28,
+    "valid": true,
+    "bounds": [
+      [
+        -67.16599518922158,
+        -58.275073821656406
+      ],
+      [
+        -55.60046137799509,
+        -45.56246809754521
+      ]
+    ]
+  },
+  "meshChecks": [
+    {
+      "name": "R402_FORT_TOWER_LOW_COURT",
+      "nonManifold": 0,
+      "zeroArea": 0
+    },
+    {
+      "name": "R154_FORT_MASONRY_BODY",
+      "nonManifold": 70,
+      "zeroArea": 0
+    }
+  ],
+  "inheritedOpenBodyEdges": 70,
+  "clipped": [
+    {
+      "name": "R154_FORT_ROUNDED_EARTH_ROOF",
+      "cutTriangles": 347
+    }
+  ],
+  "limits": [
+    "Court boundary visually traced; edge uncertainty not surveyed. Tower-end shoulder and stairs still incomplete.",
+    "Inherited masonry body has an intentionally removed top cap (70 boundary edges); separate roof closes the assembly. No new body boundary edges introduced, not claimed as a watertight single mesh."
+  ]
+}

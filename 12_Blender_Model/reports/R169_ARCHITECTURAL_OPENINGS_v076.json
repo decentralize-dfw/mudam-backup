@@ -1,0 +1,65 @@
+{
+  "accepted": false,
+  "source": "R169_arch_front_reference_v075.png",
+  "trace_space": [
+    2048,
+    791.2727
+  ],
+  "rectangles": [
+    [
+      112,
+      253,
+      205,
+      356
+    ],
+    [
+      352,
+      249,
+      465,
+      356
+    ],
+    [
+      1095,
+      250,
+      1238,
+      365
+    ],
+    [
+      1323,
+      259,
+      1418,
+      365
+    ],
+    [
+      1805,
+      247,
+      1930,
+      351
+    ],
+    [
+      345,
+      458,
+      466,
+      540
+    ],
+    [
+      1280,
+      472,
+      1416,
+      543
+    ]
+  ],
+  "window_groups": 7,
+  "method": "Actual holes in independent wall mesh, reveals, separate frames, sill and glazing. No scan mesh/texture.",
+  "assumptions": {
+    "reveal_depth": 0.16,
+    "frame_width": 0.07
+  },
+  "remaining": [
+    "Other visible and obscured openings",
+    "Mansard/dormer band",
+    "Roof features",
+    "Roof overhang/body interface",
+    "Ground and GLB validation"
+  ]
+}

@@ -1,0 +1,580 @@
+{
+  "scene": "MUDAM_R319_SUR_ZEMIN_TEMAS_ADAY_v001.blend",
+  "accepted": false,
+  "published": false,
+  "changes": [
+    {
+      "name": "R152_HISTORIC_WALL_51946351",
+      "edits": [
+        {
+          "vertex": 1,
+          "before": -7.024343490600586,
+          "after": -7.233778476715088,
+          "visibleGapBefore": 0.05943489074707031
+        }
+      ],
+      "geometry": {
+        "boundary": 0,
+        "zeroArea": 0
+      }
+    },
+    {
+      "name": "R152_HISTORIC_WALL_453755312",
+      "edits": [
+        {
+          "vertex": 192,
+          "before": -3.2911598682403564,
+          "after": -3.6106934547424316,
+          "visibleGapBefore": 0.16953349113464355
+        },
+        {
+          "vertex": 193,
+          "before": -3.2911598682403564,
+          "after": -3.6986374855041504,
+          "visibleGapBefore": 0.2574775218963623
+        }
+      ],
+      "geometry": {
+        "boundary": 0,
+        "zeroArea": 0
+      }
+    },
+    {
+      "name": "R152_HISTORIC_WALL_563325236",
+      "edits": [
+        {
+          "vertex": 16,
+          "before": -11.79805850982666,
+          "after": -12.278104782104492,
+          "visibleGapBefore": 0.3300466537475586
+        },
+        {
+          "vertex": 48,
+          "before": -13.621720314025879,
+          "after": -13.924558639526367,
+          "visibleGapBefore": 0.15283870697021484
+        },
+        {
+          "vertex": 49,
+          "before": -13.621720314025879,
+          "after": -13.871854782104492,
+          "visibleGapBefore": 0.10013484954833984
+        },
+        {
+          "vertex": 52,
+          "before": -12.927223205566406,
+          "after": -13.130186080932617,
+          "visibleGapBefore": 0.0529632568359375
+        },
+        {
+          "vertex": 53,
+          "before": -12.927223205566406,
+          "after": -13.21571159362793,
+          "visibleGapBefore": 0.13848876953125
+        }
+      ],
+      "geometry": {
+        "boundary": 0,
+        "zeroArea": 0
+      }
+    },
+    {
+      "name": "R152_HISTORIC_WALL_563325237",
+      "edits": [
+        {
+          "vertex": 0,
+          "before": -10.264939308166504,
+          "after": -10.579442977905273,
+          "visibleGapBefore": 0.1645040512084961
+        },
+        {
+          "vertex": 1,
+          "before": -10.264939308166504,
+          "after": -11.566396713256836,
+          "visibleGapBefore": 1.1514577865600586
+        },
+        {
+          "vertex": 13,
+          "before": -8.75208568572998,
+          "after": -9.083066940307617,
+          "visibleGapBefore": 0.18098163604736328
+        },
+        {
+          "vertex": 17,
+          "before": -8.040298461914062,
+          "after": -8.484823226928711,
+          "visibleGapBefore": 0.294525146484375
+        },
+        {
+          "vertex": 25,
+          "before": -8.948979377746582,
+          "after": -9.728902816772461,
+          "visibleGapBefore": 0.6299238204956055
+        },
+        {
+          "vertex": 33,
+          "before": -8.353259086608887,
+          "after": -8.891729354858398,
+          "visibleGapBefore": 0.3884706497192383
+        },
+        {
+          "vertex": 37,
+          "before": -8.63416576385498,
+          "after": -9.41010856628418,
+          "visibleGapBefore": 0.6259431838989258
+        },
+        {
+          "vertex": 49,
+          "before": -7.597091197967529,
+          "after": -7.889456272125244,
+          "visibleGapBefore": 0.1423649787902832
+        }
+      ],
+      "geometry": {
+        "boundary": 0,
+        "zeroArea": 0
+      }
+    },
+    {
+      "name": "R152_HISTORIC_WALL_759551379",
+      "edits": [
+        {
+          "vertex": 184,
+          "before": -5.318671703338623,
+          "after": -5.641981601715088,
+          "visibleGapBefore": 0.1733098030090332
+        },
+        {
+          "vertex": 185,
+          "before": -5.318671703338623,
+          "after": -5.573561191558838,
+          "visibleGapBefore": 0.1048893928527832
+        }
+      ],
+      "geometry": {
+        "boundary": 0,
+        "zeroArea": 0
+      }
+    },
+    {
+      "name": "R152_HISTORIC_WALL_759811368",
+      "edits": [
+        {
+          "vertex": 13,
+          "before": -9.641641616821289,
+          "after": -9.930692672729492,
+          "visibleGapBefore": 0.1390514373779297
+        }
+      ],
+      "geometry": {
+        "boundary": 0,
+        "zeroArea": 0
+      }
+    },
+    {
+      "name": "R152_HISTORIC_WALL_869145009",
+      "edits": [
+        {
+          "vertex": 93,
+          "before": -6.056483268737793,
+          "after": -6.543554782867432,
+          "visibleGapBefore": 0.33707141876220703
+        },
+        {
+          "vertex": 105,
+          "before": -5.236278057098389,
+          "after": -5.495069980621338,
+          "visibleGapBefore": 0.10879182815551758
+        }
+      ],
+      "geometry": {
+        "boundary": 0,
+        "zeroArea": 0
+      }
+    },
+    {
+      "name": "R152_RUIN_PARTITION_09",
+      "edits": [
+        {
+          "vertex": 1,
+          "before": -3.4196717739105225,
+          "after": -4.388258457183838,
+          "visibleGapBefore": 0.8185865879058838
+        }
+      ],
+      "geometry": {
+        "boundary": 0,
+        "zeroArea": 0
+      }
+    },
+    {
+      "name": "R152_RUIN_PARTITION_10",
+      "edits": [
+        {
+          "vertex": 9,
+          "before": -1.8787089586257935,
+          "after": -2.129141330718994,
+          "visibleGapBefore": 0.10043227672576904
+        }
+      ],
+      "geometry": {
+        "boundary": 0,
+        "zeroArea": 0
+      }
+    },
+    {
+      "name": "R152_RUIN_PARTITION_18",
+      "edits": [
+        {
+          "vertex": 1,
+          "before": -2.238373279571533,
+          "after": -2.532064914703369,
+          "visibleGapBefore": 0.1436915397644043
+        }
+      ],
+      "geometry": {
+        "boundary": 0,
+        "zeroArea": 0
+      }
+    }
+  ],
+  "unresolved": [
+    {
+      "object": "R152_HISTORIC_WALL_49911001",
+      "vertex": 556,
+      "reason": "No ground coverage"
+    },
+    {
+      "object": "R152_HISTORIC_WALL_49911001",
+      "vertex": 557,
+      "reason": "No ground coverage"
+    },
+    {
+      "object": "R152_HISTORIC_WALL_49911001",
+      "vertex": 560,
+      "reason": "No ground coverage"
+    },
+    {
+      "object": "R152_HISTORIC_WALL_49911001",
+      "vertex": 561,
+      "reason": "No ground coverage"
+    },
+    {
+      "object": "R152_HISTORIC_WALL_49911001",
+      "vertex": 564,
+      "reason": "No ground coverage"
+    },
+    {
+      "object": "R152_HISTORIC_WALL_49911001",
+      "vertex": 565,
+      "reason": "No ground coverage"
+    },
+    {
+      "object": "R152_HISTORIC_WALL_49911001",
+      "vertex": 568,
+      "reason": "No ground coverage"
+    },
+    {
+      "object": "R152_HISTORIC_WALL_49911001",
+      "vertex": 569,
+      "reason": "No ground coverage"
+    },
+    {
+      "object": "R152_HISTORIC_WALL_49911001",
+      "vertex": 572,
+      "reason": "No ground coverage"
+    },
+    {
+      "object": "R152_HISTORIC_WALL_49911001",
+      "vertex": 573,
+      "reason": "No ground coverage"
+    },
+    {
+      "object": "R152_HISTORIC_WALL_49911001",
+      "vertex": 576,
+      "reason": "No ground coverage"
+    },
+    {
+      "object": "R152_HISTORIC_WALL_49911001",
+      "vertex": 577,
+      "reason": "No ground coverage"
+    },
+    {
+      "object": "R152_HISTORIC_WALL_49911001",
+      "vertex": 580,
+      "reason": "No ground coverage"
+    },
+    {
+      "object": "R152_HISTORIC_WALL_49911001",
+      "vertex": 581,
+      "reason": "No ground coverage"
+    },
+    {
+      "object": "R152_HISTORIC_WALL_49911001",
+      "vertex": 584,
+      "reason": "No ground coverage"
+    },
+    {
+      "object": "R152_HISTORIC_WALL_49911001",
+      "vertex": 585,
+      "reason": "No ground coverage"
+    },
+    {
+      "object": "R152_HISTORIC_WALL_49911001",
+      "vertex": 588,
+      "reason": "No ground coverage"
+    },
+    {
+      "object": "R152_HISTORIC_WALL_49911001",
+      "vertex": 589,
+      "reason": "No ground coverage"
+    },
+    {
+      "object": "R152_HISTORIC_WALL_49911001",
+      "vertex": 592,
+      "reason": "No ground coverage"
+    },
+    {
+      "object": "R152_HISTORIC_WALL_49911001",
+      "vertex": 593,
+      "reason": "No ground coverage"
+    },
+    {
+      "object": "R152_HISTORIC_WALL_49911001",
+      "vertex": 596,
+      "reason": "No ground coverage"
+    },
+    {
+      "object": "R152_HISTORIC_WALL_49911001",
+      "vertex": 597,
+      "reason": "No ground coverage"
+    },
+    {
+      "object": "R152_HISTORIC_WALL_49911001",
+      "vertex": 601,
+      "reason": "No ground coverage"
+    },
+    {
+      "object": "R152_HISTORIC_WALL_49911001",
+      "vertex": 773,
+      "reason": "No ground coverage"
+    },
+    {
+      "object": "R152_HISTORIC_WALL_49911001",
+      "vertex": 777,
+      "reason": "No ground coverage"
+    },
+    {
+      "object": "R152_HISTORIC_WALL_51768377",
+      "vertex": 272,
+      "reason": "No ground coverage"
+    },
+    {
+      "object": "R152_HISTORIC_WALL_51768377",
+      "vertex": 273,
+      "reason": "No ground coverage"
+    },
+    {
+      "object": "R152_HISTORIC_WALL_51768377",
+      "vertex": 276,
+      "reason": "No ground coverage"
+    },
+    {
+      "object": "R152_HISTORIC_WALL_51768377",
+      "vertex": 277,
+      "reason": "No ground coverage"
+    },
+    {
+      "object": "R152_HISTORIC_WALL_453755312",
+      "vertex": 45,
+      "reason": "No ground coverage"
+    },
+    {
+      "object": "R152_HISTORIC_WALL_453755312",
+      "vertex": 49,
+      "reason": "No ground coverage"
+    },
+    {
+      "object": "R152_HISTORIC_WALL_453755312",
+      "vertex": 269,
+      "reason": "No ground coverage"
+    },
+    {
+      "object": "R152_HISTORIC_WALL_453755312",
+      "vertex": 273,
+      "reason": "No ground coverage"
+    },
+    {
+      "object": "R152_HISTORIC_WALL_759551378",
+      "vertex": 92,
+      "reason": "No ground coverage"
+    },
+    {
+      "object": "R152_HISTORIC_WALL_759551378",
+      "vertex": 184,
+      "reason": "No ground coverage"
+    },
+    {
+      "object": "R152_HISTORIC_WALL_759551379",
+      "vertex": 77,
+      "reason": "No ground coverage"
+    },
+    {
+      "object": "R152_HISTORIC_WALL_824216706",
+      "vertex": 0,
+      "reason": "No ground coverage"
+    },
+    {
+      "object": "R152_HISTORIC_WALL_824216706",
+      "vertex": 4,
+      "reason": "No ground coverage"
+    },
+    {
+      "object": "R152_HISTORIC_WALL_824216706",
+      "vertex": 8,
+      "reason": "No ground coverage"
+    },
+    {
+      "object": "R152_RUIN_PARTITION_02",
+      "vertex": 0,
+      "reason": "No ground coverage"
+    },
+    {
+      "object": "R152_RUIN_PARTITION_02",
+      "vertex": 1,
+      "reason": "No ground coverage"
+    },
+    {
+      "object": "R152_RUIN_PARTITION_03",
+      "vertex": 0,
+      "reason": "No ground coverage"
+    },
+    {
+      "object": "R152_RUIN_PARTITION_03",
+      "vertex": 1,
+      "reason": "No ground coverage"
+    },
+    {
+      "object": "R152_RUIN_PARTITION_04",
+      "vertex": 0,
+      "reason": "No ground coverage"
+    },
+    {
+      "object": "R152_RUIN_PARTITION_04",
+      "vertex": 1,
+      "reason": "No ground coverage"
+    },
+    {
+      "object": "R152_RUIN_PARTITION_06",
+      "vertex": 4,
+      "reason": "No ground coverage"
+    },
+    {
+      "object": "R152_RUIN_PARTITION_06",
+      "vertex": 5,
+      "reason": "No ground coverage"
+    },
+    {
+      "object": "R152_RUIN_PARTITION_07",
+      "vertex": 4,
+      "reason": "No ground coverage"
+    },
+    {
+      "object": "R152_RUIN_PARTITION_07",
+      "vertex": 5,
+      "reason": "No ground coverage"
+    },
+    {
+      "object": "R152_RUIN_PARTITION_08",
+      "vertex": 4,
+      "reason": "No ground coverage"
+    },
+    {
+      "object": "R152_RUIN_PARTITION_08",
+      "vertex": 5,
+      "reason": "No ground coverage"
+    },
+    {
+      "object": "R152_RUIN_PARTITION_10",
+      "vertex": 4,
+      "reason": "No ground coverage"
+    },
+    {
+      "object": "R152_RUIN_PARTITION_10",
+      "vertex": 5,
+      "reason": "No ground coverage"
+    },
+    {
+      "object": "R152_RUIN_PARTITION_10",
+      "vertex": 12,
+      "reason": "No ground coverage"
+    },
+    {
+      "object": "R152_RUIN_PARTITION_10",
+      "vertex": 13,
+      "reason": "No ground coverage"
+    },
+    {
+      "object": "R152_RUIN_PARTITION_11",
+      "vertex": 8,
+      "reason": "No ground coverage"
+    }
+  ],
+  "glb": [
+    {
+      "name": "R152_HISTORIC_WALL_51946351",
+      "boundary": 0,
+      "zeroArea": 0
+    },
+    {
+      "name": "R152_HISTORIC_WALL_453755312",
+      "boundary": 0,
+      "zeroArea": 0
+    },
+    {
+      "name": "R152_HISTORIC_WALL_563325236",
+      "boundary": 0,
+      "zeroArea": 0
+    },
+    {
+      "name": "R152_HISTORIC_WALL_563325237",
+      "boundary": 0,
+      "zeroArea": 0
+    },
+    {
+      "name": "R152_HISTORIC_WALL_759551379",
+      "boundary": 0,
+      "zeroArea": 0
+    },
+    {
+      "name": "R152_HISTORIC_WALL_759811368",
+      "boundary": 0,
+      "zeroArea": 0
+    },
+    {
+      "name": "R152_HISTORIC_WALL_869145009",
+      "boundary": 0,
+      "zeroArea": 0
+    },
+    {
+      "name": "R152_RUIN_PARTITION_09",
+      "boundary": 0,
+      "zeroArea": 0
+    },
+    {
+      "name": "R152_RUIN_PARTITION_10",
+      "boundary": 0,
+      "zeroArea": 0
+    },
+    {
+      "name": "R152_RUIN_PARTITION_18",
+      "boundary": 0,
+      "zeroArea": 0
+    }
+  ],
+  "limits": [
+    "Local model-contact correction, not surveyed heights",
+    "Large gaps excluded pending source validation",
+    "Entire marked museum ring still requires silhouette and level acceptance"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "accepted": false,
+  "terrainChanges": [
+    {
+      "name": "R177_ROAD_asphalt",
+      "changed_triangles": 3521
+    },
+    {
+      "name": "R177_ROAD_footway",
+      "changed_triangles": 2
+    },
+    {
+      "name": "R154_FAR_GROUND",
+      "changed_triangles": 136
+    },
+    {
+      "name": "R154_FAR_ROADS",
+      "changed_triangles": 33
+    }
+  ],
+  "surfaces": [
+    {
+      "name": "R213_UPPER_ENTRANCE",
+      "area": 630.0799999999991,
+      "sourceSupport": 0.855363321799308,
+      "sourceTolerance": 0.22
+    },
+    {
+      "name": "R213_DIAGONAL_ACCESS",
+      "area": 117.74500000000002,
+      "sourceSupport": 0.916030534351145,
+      "sourceTolerance": 0.22
+    },
+    {
+      "name": "R213_SOUTH_LOOP",
+      "area": 96.17543478260889,
+      "sourceSupport": 0.9764150943396226,
+      "sourceTolerance": 0.22
+    }
+  ],
+  "method": "Independent traced road domains and fitted low-parameter grades; original source mesh not transferred",
+  "remaining": [
+    "Southern concrete terrace contains unresolved separate levels and is not fabricated",
+    "Edge retaining treatment provisional",
+    "Whole11region acceptance outstanding"
+  ]
+}

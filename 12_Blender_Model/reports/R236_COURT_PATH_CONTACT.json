@@ -1,0 +1,80 @@
+{
+  "accepted": false,
+  "published": false,
+  "changes": [
+    {
+      "name": "R194_SOUTHWEST_WALK",
+      "changedVertices": 981,
+      "maxShift": 2.4627342224121094
+    }
+  ],
+  "reopen": [
+    {
+      "name": "R193_SOUTHWEST_COURT_0",
+      "finite": true,
+      "zero": 0
+    },
+    {
+      "name": "R193_SOUTHWEST_COURT_1",
+      "finite": true,
+      "zero": 0
+    },
+    {
+      "name": "R193_SOUTHWEST_COURT_2",
+      "finite": true,
+      "zero": 0
+    },
+    {
+      "name": "R193_SOUTHWEST_COURT_3",
+      "finite": true,
+      "zero": 0
+    },
+    {
+      "name": "R193_SOUTHWEST_COURT_4",
+      "finite": true,
+      "zero": 0
+    },
+    {
+      "name": "R193_SOUTHWEST_COURT_5",
+      "finite": true,
+      "zero": 0
+    },
+    {
+      "name": "R193_SOUTHWEST_COURT_6",
+      "finite": true,
+      "zero": 0
+    },
+    {
+      "name": "R193_SOUTHWEST_COURT_7",
+      "finite": true,
+      "zero": 0
+    },
+    {
+      "name": "R194_UPPER_RAMPART_WALK",
+      "finite": true,
+      "zero": 0
+    },
+    {
+      "name": "R194_SOUTHWEST_WALK",
+      "finite": true,
+      "zero": 0
+    }
+  ],
+  "method": "Retained source-traced XY footprints; independent court-grade contact, subdivisions only on existing authored path mesh",
+  "limits": [
+    "Inherited R235 court fit not finally accepted",
+    "Path outside court unchanged; border crossings and stone boundary need visual review",
+    "No full fort or region11 acceptance"
+  ],
+  "visualReview": {
+    "source": "R234_fort_source.png",
+    "before": "R235_fort_candidate.png",
+    "candidate": "R236_fort_candidate.png",
+    "accepted": false,
+    "findings": [
+      "Southern source-traced walk now follows the candidate court instead of floating above it.",
+      "Initial subdivision produced degenerate faces; cleaned and GLB rechecked successfully.",
+      "Retaining boundary, ruin green island and whole court source accuracy remain unresolved."
+    ]
+  }
+}

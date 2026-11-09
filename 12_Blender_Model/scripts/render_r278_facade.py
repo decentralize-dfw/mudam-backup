@@ -1,0 +1,4 @@
+import bpy
+from pathlib import Path
+from mathutils import Vector
+R=Path('C:/Users/yigit/Desktop/WORK/MUDAM/12_Blender_Model');bpy.ops.wm.open_mainfile(filepath=str(R/'.local_source_cache/r166/source.blend'));s=bpy.context.scene;bpy.ops.object.camera_add();s.camera=bpy.context.object;s.render.engine='CYCLES';s.world=bpy.data.worlds.new('Reference world');s.world.use_nodes=True;s.world.node_tree.nodes['Background'].inputs[0].default_value=(1,1,1,1);s.world.node_tree.nodes['Background'].inputs[1].default_value=.8;s.camera.data.type='ORTHO';s.camera.data.ortho_scale=110;s.camera.location=(417.2,77.8,55);s.camera.rotation_euler=(Vector((289.9,157.3,55))-s.camera.location).to_track_quat('-Z','Y').to_euler();s.render.resolution_x=1600;s.render.resolution_y=1600;s.render.resolution_percentage=100;s.cycles.samples=8;s.render.filepath=str(R/'renders/qa/R278_east_tower_facade_source.png');bpy.ops.render.render(write_still=True)

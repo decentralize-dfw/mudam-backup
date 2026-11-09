@@ -1,0 +1,1933 @@
+{
+  "accepted": false,
+  "published": false,
+  "sourceFits": [
+    {
+      "source": "R277_east_source_top.png",
+      "pixels": [
+        [
+          210,
+          1470
+        ],
+        [
+          812,
+          1092
+        ],
+        [
+          666,
+          935
+        ],
+        [
+          605,
+          907
+        ],
+        [
+          560,
+          926
+        ]
+      ],
+      "polygon": [
+        [
+          189.375,
+          24.375
+        ],
+        [
+          302.25,
+          95.25
+        ],
+        [
+          274.875,
+          124.6875
+        ],
+        [
+          263.4375,
+          129.9375
+        ],
+        [
+          255.0,
+          126.375
+        ]
+      ],
+      "origin": [
+        256.9875,
+        100.125
+      ],
+      "plane": [
+        0.0009195388252696312,
+        -0.0006377292313465982,
+        22.59339378993886
+      ],
+      "samples": 2235,
+      "support": 0.7502238137869293,
+      "p90": 1.028048185088528,
+      "maximum": 2.0374025072552406,
+      "cornerRoofs": [
+        22.579529460389825,
+        22.638123346020443,
+        22.59417781643092,
+        22.58031251265233,
+        22.57482581420079
+      ],
+      "unresolvedCropEdges": []
+    }
+  ],
+  "rooflights": [
+    {
+      "sourcePixel": [
+        379,
+        1360
+      ],
+      "polygon": [
+        [
+          220.9062042236328,
+          47.554100036621094
+        ],
+        [
+          218.8378448486328,
+          46.26441192626953
+        ],
+        [
+          221.2187957763672,
+          42.445899963378906
+        ],
+        [
+          223.2871551513672,
+          43.73558807373047
+        ]
+      ]
+    },
+    {
+      "sourcePixel": [
+        424,
+        1332
+      ],
+      "polygon": [
+        [
+          229.393310546875,
+          52.72454833984375
+        ],
+        [
+          227.324951171875,
+          51.43486022949219
+        ],
+        [
+          229.606689453125,
+          47.77545166015625
+        ],
+        [
+          231.675048828125,
+          49.06513977050781
+        ]
+      ]
+    },
+    {
+      "sourcePixel": [
+        456,
+        1310
+      ],
+      "polygon": [
+        [
+          235.44290161132812,
+          56.769996643066406
+        ],
+        [
+          233.37454223632812,
+          55.480308532714844
+        ],
+        [
+          235.55709838867188,
+          51.980003356933594
+        ],
+        [
+          237.62545776367188,
+          53.269691467285156
+        ]
+      ]
+    },
+    {
+      "sourcePixel": [
+        488,
+        1288
+      ],
+      "polygon": [
+        [
+          241.44290161132812,
+          60.894996643066406
+        ],
+        [
+          239.37454223632812,
+          59.605308532714844
+        ],
+        [
+          241.55709838867188,
+          56.105003356933594
+        ],
+        [
+          243.62545776367188,
+          57.394691467285156
+        ]
+      ]
+    },
+    {
+      "sourcePixel": [
+        366,
+        1269
+      ],
+      "polygon": [
+        [
+          218.56790161132812,
+          59.667503356933594
+        ],
+        [
+          220.75045776367188,
+          63.167808532714844
+        ],
+        [
+          218.68209838867188,
+          64.4574966430664
+        ],
+        [
+          216.49954223632812,
+          60.957191467285156
+        ]
+      ]
+    },
+    {
+      "sourcePixel": [
+        377,
+        1245
+      ],
+      "polygon": [
+        [
+          220.63040161132812,
+          64.1675033569336
+        ],
+        [
+          222.81295776367188,
+          67.66780853271484
+        ],
+        [
+          220.74459838867188,
+          68.9574966430664
+        ],
+        [
+          218.56204223632812,
+          65.45719146728516
+        ]
+      ]
+    },
+    {
+      "sourcePixel": [
+        390,
+        1220
+      ],
+      "polygon": [
+        [
+          223.06790161132812,
+          68.8550033569336
+        ],
+        [
+          225.25045776367188,
+          72.35530853271484
+        ],
+        [
+          223.18209838867188,
+          73.6449966430664
+        ],
+        [
+          220.99954223632812,
+          70.14469146728516
+        ]
+      ]
+    },
+    {
+      "sourcePixel": [
+        402,
+        1197
+      ],
+      "polygon": [
+        [
+          225.31790161132812,
+          73.1675033569336
+        ],
+        [
+          227.50045776367188,
+          76.66780853271484
+        ],
+        [
+          225.43209838867188,
+          77.9574966430664
+        ],
+        [
+          223.24954223632812,
+          74.45719146728516
+        ]
+      ]
+    },
+    {
+      "sourcePixel": [
+        428,
+        1131
+      ],
+      "polygon": [
+        [
+          230.2724609375,
+          85.49290466308594
+        ],
+        [
+          232.45501708984375,
+          88.99320983886719
+        ],
+        [
+          230.2275390625,
+          90.38209533691406
+        ],
+        [
+          228.04498291015625,
+          86.88179016113281
+        ]
+      ]
+    },
+    {
+      "sourcePixel": [
+        447,
+        1103
+      ],
+      "polygon": [
+        [
+          233.8349609375,
+          90.74290466308594
+        ],
+        [
+          236.01751708984375,
+          94.24320983886719
+        ],
+        [
+          233.7900390625,
+          95.63209533691406
+        ],
+        [
+          231.60748291015625,
+          92.13179016113281
+        ]
+      ]
+    },
+    {
+      "sourcePixel": [
+        468,
+        1082
+      ],
+      "polygon": [
+        [
+          237.7724609375,
+          94.68040466308594
+        ],
+        [
+          239.95501708984375,
+          98.18070983886719
+        ],
+        [
+          237.7275390625,
+          99.56959533691406
+        ],
+        [
+          235.54498291015625,
+          96.06929016113281
+        ]
+      ]
+    },
+    {
+      "sourcePixel": [
+        492,
+        1045
+      ],
+      "polygon": [
+        [
+          242.2724609375,
+          101.61790466308594
+        ],
+        [
+          244.45501708984375,
+          105.11820983886719
+        ],
+        [
+          242.2275390625,
+          106.50709533691406
+        ],
+        [
+          240.04498291015625,
+          103.00679016113281
+        ]
+      ]
+    },
+    {
+      "sourcePixel": [
+        505,
+        1027
+      ],
+      "polygon": [
+        [
+          244.7099609375,
+          104.99290466308594
+        ],
+        [
+          246.89251708984375,
+          108.49320983886719
+        ],
+        [
+          244.6650390625,
+          109.88209533691406
+        ],
+        [
+          242.48248291015625,
+          106.38179016113281
+        ]
+      ]
+    },
+    {
+      "sourcePixel": [
+        529,
+        998
+      ],
+      "polygon": [
+        [
+          249.2099609375,
+          110.43040466308594
+        ],
+        [
+          251.39251708984375,
+          113.93070983886719
+        ],
+        [
+          249.1650390625,
+          115.31959533691406
+        ],
+        [
+          246.98248291015625,
+          111.81929016113281
+        ]
+      ]
+    },
+    {
+      "sourcePixel": [
+        543,
+        974
+      ],
+      "polygon": [
+        [
+          251.8349609375,
+          114.93040466308594
+        ],
+        [
+          254.01751708984375,
+          118.43070983886719
+        ],
+        [
+          251.7900390625,
+          119.81959533691406
+        ],
+        [
+          249.60748291015625,
+          116.31929016113281
+        ]
+      ]
+    },
+    {
+      "sourcePixel": [
+        554,
+        954
+      ],
+      "polygon": [
+        [
+          253.8974609375,
+          118.68040466308594
+        ],
+        [
+          256.08001708984375,
+          122.18070983886719
+        ],
+        [
+          253.8525390625,
+          123.56959533691406
+        ],
+        [
+          251.66998291015625,
+          120.06929016113281
+        ]
+      ]
+    },
+    {
+      "sourcePixel": [
+        566,
+        932
+      ],
+      "polygon": [
+        [
+          256.1474609375,
+          122.80540466308594
+        ],
+        [
+          258.33001708984375,
+          126.30570983886719
+        ],
+        [
+          256.1025390625,
+          127.69459533691406
+        ],
+        [
+          253.91998291015625,
+          124.19429016113281
+        ]
+      ]
+    },
+    {
+      "sourcePixel": [
+        580,
+        914
+      ],
+      "polygon": [
+        [
+          258.7724609375,
+          126.18040466308594
+        ],
+        [
+          260.95501708984375,
+          129.6807098388672
+        ],
+        [
+          258.7275390625,
+          131.06959533691406
+        ],
+        [
+          256.54498291015625,
+          127.56929016113281
+        ]
+      ]
+    },
+    {
+      "sourcePixel": [
+        578,
+        938
+      ],
+      "polygon": [
+        [
+          258.3974609375,
+          121.68040466308594
+        ],
+        [
+          260.58001708984375,
+          125.18070983886719
+        ],
+        [
+          258.3525390625,
+          126.56959533691406
+        ],
+        [
+          256.16998291015625,
+          123.06929016113281
+        ]
+      ]
+    },
+    {
+      "sourcePixel": [
+        600,
+        952
+      ],
+      "polygon": [
+        [
+          262.5224609375,
+          119.05540466308594
+        ],
+        [
+          264.70501708984375,
+          122.55570983886719
+        ],
+        [
+          262.4775390625,
+          123.94459533691406
+        ],
+        [
+          260.29498291015625,
+          120.44429016113281
+        ]
+      ]
+    },
+    {
+      "sourcePixel": [
+        564,
+        964
+      ],
+      "polygon": [
+        [
+          255.7724609375,
+          116.80540466308594
+        ],
+        [
+          257.95501708984375,
+          120.30570983886719
+        ],
+        [
+          255.7275390625,
+          121.69459533691406
+        ],
+        [
+          253.54498291015625,
+          118.19429016113281
+        ]
+      ]
+    },
+    {
+      "sourcePixel": [
+        588,
+        976
+      ],
+      "polygon": [
+        [
+          260.2724609375,
+          114.55540466308594
+        ],
+        [
+          262.45501708984375,
+          118.05570983886719
+        ],
+        [
+          260.2275390625,
+          119.44459533691406
+        ],
+        [
+          258.04498291015625,
+          115.94429016113281
+        ]
+      ]
+    },
+    {
+      "sourcePixel": [
+        558,
+        1004
+      ],
+      "polygon": [
+        [
+          254.6474609375,
+          109.30540466308594
+        ],
+        [
+          256.83001708984375,
+          112.80570983886719
+        ],
+        [
+          254.6025390625,
+          114.19459533691406
+        ],
+        [
+          252.41998291015625,
+          110.69429016113281
+        ]
+      ]
+    },
+    {
+      "sourcePixel": [
+        632,
+        985
+      ],
+      "polygon": [
+        [
+          268.5224609375,
+          112.86790466308594
+        ],
+        [
+          270.70501708984375,
+          116.36820983886719
+        ],
+        [
+          268.4775390625,
+          117.75709533691406
+        ],
+        [
+          266.29498291015625,
+          114.25679016113281
+        ]
+      ]
+    },
+    {
+      "sourcePixel": [
+        641,
+        971
+      ],
+      "polygon": [
+        [
+          270.2099609375,
+          115.49290466308594
+        ],
+        [
+          272.39251708984375,
+          118.99320983886719
+        ],
+        [
+          270.1650390625,
+          120.38209533691406
+        ],
+        [
+          267.98248291015625,
+          116.88179016113281
+        ]
+      ]
+    },
+    {
+      "sourcePixel": [
+        674,
+        974
+      ],
+      "polygon": [
+        [
+          276.3974609375,
+          114.93040466308594
+        ],
+        [
+          278.58001708984375,
+          118.43070983886719
+        ],
+        [
+          276.3525390625,
+          119.81959533691406
+        ],
+        [
+          274.16998291015625,
+          116.31929016113281
+        ]
+      ]
+    },
+    {
+      "sourcePixel": [
+        682,
+        961
+      ],
+      "polygon": [
+        [
+          277.8974609375,
+          117.36790466308594
+        ],
+        [
+          280.08001708984375,
+          120.86820983886719
+        ],
+        [
+          277.8525390625,
+          122.25709533691406
+        ],
+        [
+          275.66998291015625,
+          118.75679016113281
+        ]
+      ]
+    },
+    {
+      "sourcePixel": [
+        708,
+        1008
+      ],
+      "polygon": [
+        [
+          282.7724609375,
+          108.55540466308594
+        ],
+        [
+          284.95501708984375,
+          112.05570983886719
+        ],
+        [
+          282.7275390625,
+          113.44459533691406
+        ],
+        [
+          280.54498291015625,
+          109.94429016113281
+        ]
+      ]
+    },
+    {
+      "sourcePixel": [
+        718,
+        1028
+      ],
+      "polygon": [
+        [
+          284.6474609375,
+          104.80540466308594
+        ],
+        [
+          286.83001708984375,
+          108.30570983886719
+        ],
+        [
+          284.6025390625,
+          109.69459533691406
+        ],
+        [
+          282.41998291015625,
+          106.19429016113281
+        ]
+      ]
+    },
+    {
+      "sourcePixel": [
+        728,
+        1052
+      ],
+      "polygon": [
+        [
+          286.5224609375,
+          100.30540466308594
+        ],
+        [
+          288.70501708984375,
+          103.80570983886719
+        ],
+        [
+          286.4775390625,
+          105.19459533691406
+        ],
+        [
+          284.29498291015625,
+          101.69429016113281
+        ]
+      ]
+    },
+    {
+      "sourcePixel": [
+        747,
+        1054
+      ],
+      "polygon": [
+        [
+          290.0849609375,
+          99.93040466308594
+        ],
+        [
+          292.26751708984375,
+          103.43070983886719
+        ],
+        [
+          290.0400390625,
+          104.81959533691406
+        ],
+        [
+          287.85748291015625,
+          101.31929016113281
+        ]
+      ]
+    },
+    {
+      "sourcePixel": [
+        729,
+        1076
+      ],
+      "polygon": [
+        [
+          286.7099609375,
+          95.80540466308594
+        ],
+        [
+          288.89251708984375,
+          99.30570983886719
+        ],
+        [
+          286.6650390625,
+          100.69459533691406
+        ],
+        [
+          284.48248291015625,
+          97.19429016113281
+        ]
+      ]
+    },
+    {
+      "sourcePixel": [
+        753,
+        1074
+      ],
+      "polygon": [
+        [
+          291.2099609375,
+          96.18040466308594
+        ],
+        [
+          293.39251708984375,
+          99.68070983886719
+        ],
+        [
+          291.1650390625,
+          101.06959533691406
+        ],
+        [
+          288.98248291015625,
+          97.56929016113281
+        ]
+      ]
+    },
+    {
+      "sourcePixel": [
+        771,
+        1086
+      ],
+      "polygon": [
+        [
+          294.5849609375,
+          93.93040466308594
+        ],
+        [
+          296.76751708984375,
+          97.43070983886719
+        ],
+        [
+          294.5400390625,
+          98.81959533691406
+        ],
+        [
+          292.35748291015625,
+          95.31929016113281
+        ]
+      ]
+    },
+    {
+      "sourcePixel": [
+        745,
+        1102
+      ],
+      "polygon": [
+        [
+          289.7099609375,
+          90.93040466308594
+        ],
+        [
+          291.89251708984375,
+          94.43070983886719
+        ],
+        [
+          289.6650390625,
+          95.81959533691406
+        ],
+        [
+          287.48248291015625,
+          92.31929016113281
+        ]
+      ]
+    },
+    {
+      "sourcePixel": [
+        730,
+        1110
+      ],
+      "polygon": [
+        [
+          286.8974609375,
+          89.43040466308594
+        ],
+        [
+          289.08001708984375,
+          92.93070983886719
+        ],
+        [
+          286.8525390625,
+          94.31959533691406
+        ],
+        [
+          284.66998291015625,
+          90.81929016113281
+        ]
+      ]
+    },
+    {
+      "sourcePixel": [
+        706,
+        1130
+      ],
+      "polygon": [
+        [
+          282.3974609375,
+          85.68040466308594
+        ],
+        [
+          284.58001708984375,
+          89.18070983886719
+        ],
+        [
+          282.3525390625,
+          90.56959533691406
+        ],
+        [
+          280.16998291015625,
+          87.06929016113281
+        ]
+      ]
+    }
+  ],
+  "clipping": [
+    {
+      "name": "R166_MEASURED_ENVELOPE",
+      "cutTriangles": 187
+    }
+  ],
+  "checks": [
+    {
+      "name": "R291_ROOF_SLAB_0",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R291_COPING_0_0",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R291_COPING_0_1",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R291_COPING_0_2",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R291_COPING_0_3",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R291_COPING_0_4",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R291_ROOFLIGHT_GLASS_00",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R291_ROOFLIGHT_REVEAL_00_0",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R291_ROOFLIGHT_REVEAL_00_1",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R291_ROOFLIGHT_REVEAL_00_2",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R291_ROOFLIGHT_REVEAL_00_3",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R291_ROOFLIGHT_GLASS_01",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R291_ROOFLIGHT_REVEAL_01_0",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R291_ROOFLIGHT_REVEAL_01_1",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R291_ROOFLIGHT_REVEAL_01_2",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R291_ROOFLIGHT_REVEAL_01_3",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R291_ROOFLIGHT_GLASS_02",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R291_ROOFLIGHT_REVEAL_02_0",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R291_ROOFLIGHT_REVEAL_02_1",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R291_ROOFLIGHT_REVEAL_02_2",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R291_ROOFLIGHT_REVEAL_02_3",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R291_ROOFLIGHT_GLASS_03",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R291_ROOFLIGHT_REVEAL_03_0",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R291_ROOFLIGHT_REVEAL_03_1",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R291_ROOFLIGHT_REVEAL_03_2",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R291_ROOFLIGHT_REVEAL_03_3",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R291_ROOFLIGHT_GLASS_04",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R291_ROOFLIGHT_REVEAL_04_0",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R291_ROOFLIGHT_REVEAL_04_1",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R291_ROOFLIGHT_REVEAL_04_2",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R291_ROOFLIGHT_REVEAL_04_3",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R291_ROOFLIGHT_GLASS_05",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R291_ROOFLIGHT_REVEAL_05_0",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R291_ROOFLIGHT_REVEAL_05_1",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R291_ROOFLIGHT_REVEAL_05_2",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R291_ROOFLIGHT_REVEAL_05_3",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R291_ROOFLIGHT_GLASS_06",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R291_ROOFLIGHT_REVEAL_06_0",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R291_ROOFLIGHT_REVEAL_06_1",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R291_ROOFLIGHT_REVEAL_06_2",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R291_ROOFLIGHT_REVEAL_06_3",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R291_ROOFLIGHT_GLASS_07",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R291_ROOFLIGHT_REVEAL_07_0",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R291_ROOFLIGHT_REVEAL_07_1",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R291_ROOFLIGHT_REVEAL_07_2",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R291_ROOFLIGHT_REVEAL_07_3",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R291_ROOFLIGHT_GLASS_08",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R291_ROOFLIGHT_REVEAL_08_0",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R291_ROOFLIGHT_REVEAL_08_1",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R291_ROOFLIGHT_REVEAL_08_2",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R291_ROOFLIGHT_REVEAL_08_3",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R291_ROOFLIGHT_GLASS_09",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R291_ROOFLIGHT_REVEAL_09_0",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R291_ROOFLIGHT_REVEAL_09_1",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R291_ROOFLIGHT_REVEAL_09_2",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R291_ROOFLIGHT_REVEAL_09_3",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R291_ROOFLIGHT_GLASS_10",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R291_ROOFLIGHT_REVEAL_10_0",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R291_ROOFLIGHT_REVEAL_10_1",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R291_ROOFLIGHT_REVEAL_10_2",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R291_ROOFLIGHT_REVEAL_10_3",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R291_ROOFLIGHT_GLASS_11",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R291_ROOFLIGHT_REVEAL_11_0",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R291_ROOFLIGHT_REVEAL_11_1",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R291_ROOFLIGHT_REVEAL_11_2",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R291_ROOFLIGHT_REVEAL_11_3",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R291_ROOFLIGHT_GLASS_12",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R291_ROOFLIGHT_REVEAL_12_0",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R291_ROOFLIGHT_REVEAL_12_1",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R291_ROOFLIGHT_REVEAL_12_2",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R291_ROOFLIGHT_REVEAL_12_3",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R291_ROOFLIGHT_GLASS_13",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R291_ROOFLIGHT_REVEAL_13_0",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R291_ROOFLIGHT_REVEAL_13_1",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R291_ROOFLIGHT_REVEAL_13_2",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R291_ROOFLIGHT_REVEAL_13_3",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R291_ROOFLIGHT_GLASS_14",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R291_ROOFLIGHT_REVEAL_14_0",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R291_ROOFLIGHT_REVEAL_14_1",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R291_ROOFLIGHT_REVEAL_14_2",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R291_ROOFLIGHT_REVEAL_14_3",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R291_ROOFLIGHT_GLASS_15",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R291_ROOFLIGHT_REVEAL_15_0",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R291_ROOFLIGHT_REVEAL_15_1",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R291_ROOFLIGHT_REVEAL_15_2",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R291_ROOFLIGHT_REVEAL_15_3",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R291_ROOFLIGHT_GLASS_16",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R291_ROOFLIGHT_REVEAL_16_0",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R291_ROOFLIGHT_REVEAL_16_1",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R291_ROOFLIGHT_REVEAL_16_2",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R291_ROOFLIGHT_REVEAL_16_3",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R291_ROOFLIGHT_GLASS_17",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R291_ROOFLIGHT_REVEAL_17_0",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R291_ROOFLIGHT_REVEAL_17_1",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R291_ROOFLIGHT_REVEAL_17_2",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R291_ROOFLIGHT_REVEAL_17_3",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R291_ROOFLIGHT_GLASS_18",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R291_ROOFLIGHT_REVEAL_18_0",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R291_ROOFLIGHT_REVEAL_18_1",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R291_ROOFLIGHT_REVEAL_18_2",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R291_ROOFLIGHT_REVEAL_18_3",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R291_ROOFLIGHT_GLASS_19",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R291_ROOFLIGHT_REVEAL_19_0",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R291_ROOFLIGHT_REVEAL_19_1",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R291_ROOFLIGHT_REVEAL_19_2",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R291_ROOFLIGHT_REVEAL_19_3",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R291_ROOFLIGHT_GLASS_20",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R291_ROOFLIGHT_REVEAL_20_0",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R291_ROOFLIGHT_REVEAL_20_1",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R291_ROOFLIGHT_REVEAL_20_2",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R291_ROOFLIGHT_REVEAL_20_3",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R291_ROOFLIGHT_GLASS_21",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R291_ROOFLIGHT_REVEAL_21_0",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R291_ROOFLIGHT_REVEAL_21_1",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R291_ROOFLIGHT_REVEAL_21_2",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R291_ROOFLIGHT_REVEAL_21_3",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R291_ROOFLIGHT_GLASS_22",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R291_ROOFLIGHT_REVEAL_22_0",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R291_ROOFLIGHT_REVEAL_22_1",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R291_ROOFLIGHT_REVEAL_22_2",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R291_ROOFLIGHT_REVEAL_22_3",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R291_ROOFLIGHT_GLASS_23",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R291_ROOFLIGHT_REVEAL_23_0",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R291_ROOFLIGHT_REVEAL_23_1",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R291_ROOFLIGHT_REVEAL_23_2",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R291_ROOFLIGHT_REVEAL_23_3",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R291_ROOFLIGHT_GLASS_24",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R291_ROOFLIGHT_REVEAL_24_0",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R291_ROOFLIGHT_REVEAL_24_1",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R291_ROOFLIGHT_REVEAL_24_2",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R291_ROOFLIGHT_REVEAL_24_3",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R291_ROOFLIGHT_GLASS_25",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R291_ROOFLIGHT_REVEAL_25_0",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R291_ROOFLIGHT_REVEAL_25_1",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R291_ROOFLIGHT_REVEAL_25_2",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R291_ROOFLIGHT_REVEAL_25_3",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R291_ROOFLIGHT_GLASS_26",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R291_ROOFLIGHT_REVEAL_26_0",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R291_ROOFLIGHT_REVEAL_26_1",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R291_ROOFLIGHT_REVEAL_26_2",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R291_ROOFLIGHT_REVEAL_26_3",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R291_ROOFLIGHT_GLASS_27",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R291_ROOFLIGHT_REVEAL_27_0",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R291_ROOFLIGHT_REVEAL_27_1",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R291_ROOFLIGHT_REVEAL_27_2",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R291_ROOFLIGHT_REVEAL_27_3",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R291_ROOFLIGHT_GLASS_28",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R291_ROOFLIGHT_REVEAL_28_0",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R291_ROOFLIGHT_REVEAL_28_1",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R291_ROOFLIGHT_REVEAL_28_2",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R291_ROOFLIGHT_REVEAL_28_3",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R291_ROOFLIGHT_GLASS_29",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R291_ROOFLIGHT_REVEAL_29_0",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R291_ROOFLIGHT_REVEAL_29_1",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R291_ROOFLIGHT_REVEAL_29_2",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R291_ROOFLIGHT_REVEAL_29_3",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R291_ROOFLIGHT_GLASS_30",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R291_ROOFLIGHT_REVEAL_30_0",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R291_ROOFLIGHT_REVEAL_30_1",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R291_ROOFLIGHT_REVEAL_30_2",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R291_ROOFLIGHT_REVEAL_30_3",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R291_ROOFLIGHT_GLASS_31",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R291_ROOFLIGHT_REVEAL_31_0",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R291_ROOFLIGHT_REVEAL_31_1",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R291_ROOFLIGHT_REVEAL_31_2",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R291_ROOFLIGHT_REVEAL_31_3",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R291_ROOFLIGHT_GLASS_32",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R291_ROOFLIGHT_REVEAL_32_0",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R291_ROOFLIGHT_REVEAL_32_1",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R291_ROOFLIGHT_REVEAL_32_2",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R291_ROOFLIGHT_REVEAL_32_3",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R291_ROOFLIGHT_GLASS_33",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R291_ROOFLIGHT_REVEAL_33_0",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R291_ROOFLIGHT_REVEAL_33_1",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R291_ROOFLIGHT_REVEAL_33_2",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R291_ROOFLIGHT_REVEAL_33_3",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R291_ROOFLIGHT_GLASS_34",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R291_ROOFLIGHT_REVEAL_34_0",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R291_ROOFLIGHT_REVEAL_34_1",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R291_ROOFLIGHT_REVEAL_34_2",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R291_ROOFLIGHT_REVEAL_34_3",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R291_ROOFLIGHT_GLASS_35",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R291_ROOFLIGHT_REVEAL_35_0",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R291_ROOFLIGHT_REVEAL_35_1",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R291_ROOFLIGHT_REVEAL_35_2",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R291_ROOFLIGHT_REVEAL_35_3",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R291_ROOFLIGHT_GLASS_36",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R291_ROOFLIGHT_REVEAL_36_0",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R291_ROOFLIGHT_REVEAL_36_1",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R291_ROOFLIGHT_REVEAL_36_2",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R291_ROOFLIGHT_REVEAL_36_3",
+      "boundary": 0,
+      "zero": 0
+    }
+  ],
+  "limits": [
+    "South roof traced from R277; 37 rectangular rooflights modeled; round lights and remaining perimeter openings unresolved; whole roof source p90 1.028m so not accepted",
+    "Coping section and slab thickness provisional",
+    "Existing lower facade retained until independent reconstruction",
+    "Whole first-six scope incomplete"
+  ]
+}

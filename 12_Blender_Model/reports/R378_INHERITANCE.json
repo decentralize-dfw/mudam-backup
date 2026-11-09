@@ -1,0 +1,24 @@
+{
+  "changed": [
+    "R152_CLASS2_TERRAIN",
+    "R152_PATH_759551377",
+    "R152_PATH_759680911",
+    "R152_PATH_824216707",
+    "R321_MUSEUM_WEST_MOAT_RETAINING",
+    "R322_WEST_MUSEUM_TERRACE"
+  ],
+  "added": [
+    "R348_MOAT_INNER_ARM_RUIN_FLOOR",
+    "R348_PAVILION_WEST_RUIN_FLOOR",
+    "R361_PAVILION_INNER_RETAINING",
+    "R363_PAVILION_EAST_0_RUIN_FLOOR",
+    "R363_PAVILION_EAST_1_RUIN_FLOOR",
+    "R378_EAST_LONG_MOAT_RUIN_FLOOR",
+    "R378_EAST_WALL_LOWER_BAND_RUIN_FLOOR"
+  ],
+  "removed": [],
+  "unexpected": [],
+  "unchanged": 18093,
+  "museumGeometryPreserved": true,
+  "scope": "Geometry positions, face loop indices and object matrices; not a source-fidelity acceptance"
+}

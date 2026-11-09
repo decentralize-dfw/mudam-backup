@@ -1,0 +1,350 @@
+{
+  "patches": [
+    {
+      "name": "R557_WEST_APPROACH_0",
+      "area": 0.23488335162983276,
+      "overlap": 0.23488335162983276,
+      "outside": 0.0,
+      "bounds": [
+        -44.9203987121582,
+        10.975099563598633,
+        -42.23249816894531,
+        13.06470012664795
+      ]
+    },
+    {
+      "name": "R557_WEST_APPROACH_1",
+      "area": 0.1389426850473683,
+      "overlap": 0.10485522679628709,
+      "outside": 0.03408745825108167,
+      "bounds": [
+        -49.82899856567383,
+        7.28380012512207,
+        -45.6067008972168,
+        10.474900245666504
+      ]
+    }
+  ],
+  "facade": [
+    {
+      "name": "R29_W_BOUNDARY_23",
+      "x": -35.011482,
+      "y": 10.847943,
+      "baseZ": -5.326293468475342,
+      "distanceToApron": 0.0,
+      "inside": true
+    },
+    {
+      "name": "R29_W_BOUNDARY_23",
+      "x": -34.957764,
+      "y": 11.092118,
+      "baseZ": -5.326293468475342,
+      "distanceToApron": 0.0,
+      "inside": true
+    },
+    {
+      "name": "R29_W_BOUNDARY_23",
+      "x": -34.101665,
+      "y": 10.658035,
+      "baseZ": -5.326293468475342,
+      "distanceToApron": 0.06976368041992487,
+      "inside": false
+    },
+    {
+      "name": "R29_W_BOUNDARY_23",
+      "x": -34.0532,
+      "y": 10.903307,
+      "baseZ": -5.326293468475342,
+      "distanceToApron": 0.11822868041992507,
+      "inside": false
+    },
+    {
+      "name": "R29_W_BOUNDARY_24",
+      "x": -35.92012,
+      "y": 11.057922,
+      "baseZ": -5.326293468475342,
+      "distanceToApron": 0.0,
+      "inside": true
+    },
+    {
+      "name": "R29_W_BOUNDARY_24",
+      "x": -35.861237,
+      "y": 11.300904,
+      "baseZ": -5.326293468475342,
+      "distanceToApron": 0.0,
+      "inside": true
+    },
+    {
+      "name": "R29_W_BOUNDARY_24",
+      "x": -35.011482,
+      "y": 10.847943,
+      "baseZ": -5.326293468475342,
+      "distanceToApron": 0.0,
+      "inside": true
+    },
+    {
+      "name": "R29_W_BOUNDARY_24",
+      "x": -34.957764,
+      "y": 11.092118,
+      "baseZ": -5.326293468475342,
+      "distanceToApron": 0.0,
+      "inside": true
+    },
+    {
+      "name": "R29_W_BOUNDARY_25",
+      "x": -36.827568,
+      "y": 11.28797,
+      "baseZ": -5.326293468475342,
+      "distanceToApron": 0.0,
+      "inside": true
+    },
+    {
+      "name": "R29_W_BOUNDARY_25",
+      "x": -36.763618,
+      "y": 11.529667,
+      "baseZ": -5.326293468475342,
+      "distanceToApron": 0.0,
+      "inside": true
+    },
+    {
+      "name": "R29_W_BOUNDARY_25",
+      "x": -35.92012,
+      "y": 11.057922,
+      "baseZ": -5.326293468475342,
+      "distanceToApron": 0.0,
+      "inside": true
+    },
+    {
+      "name": "R29_W_BOUNDARY_25",
+      "x": -35.861237,
+      "y": 11.300904,
+      "baseZ": -5.326293468475342,
+      "distanceToApron": 0.0,
+      "inside": true
+    },
+    {
+      "name": "R29_W_BOUNDARY_26",
+      "x": -37.733929,
+      "y": 11.538106,
+      "baseZ": -5.326293468475342,
+      "distanceToApron": 0.0,
+      "inside": true
+    },
+    {
+      "name": "R29_W_BOUNDARY_26",
+      "x": -37.664913,
+      "y": 11.778405,
+      "baseZ": -5.326293468475342,
+      "distanceToApron": 0.0,
+      "inside": true
+    },
+    {
+      "name": "R29_W_BOUNDARY_26",
+      "x": -36.827568,
+      "y": 11.28797,
+      "baseZ": -5.326293468475342,
+      "distanceToApron": 0.0,
+      "inside": true
+    },
+    {
+      "name": "R29_W_BOUNDARY_26",
+      "x": -36.763618,
+      "y": 11.529667,
+      "baseZ": -5.326293468475342,
+      "distanceToApron": 0.0,
+      "inside": true
+    },
+    {
+      "name": "R29_W_BOUNDARY_27",
+      "x": -38.639107,
+      "y": 11.808304,
+      "baseZ": -5.326293468475342,
+      "distanceToApron": 0.0,
+      "inside": true
+    },
+    {
+      "name": "R29_W_BOUNDARY_27",
+      "x": -38.565117,
+      "y": 12.047118,
+      "baseZ": -5.326293468475342,
+      "distanceToApron": 0.0,
+      "inside": true
+    },
+    {
+      "name": "R29_W_BOUNDARY_27",
+      "x": -37.733929,
+      "y": 11.538106,
+      "baseZ": -5.326293468475342,
+      "distanceToApron": 0.0,
+      "inside": true
+    },
+    {
+      "name": "R29_W_BOUNDARY_27",
+      "x": -37.664913,
+      "y": 11.778405,
+      "baseZ": -5.326293468475342,
+      "distanceToApron": 0.0,
+      "inside": true
+    },
+    {
+      "name": "R29_W_BOUNDARY_28",
+      "x": -39.543118,
+      "y": 12.098565,
+      "baseZ": -5.326293468475342,
+      "distanceToApron": 0.0,
+      "inside": true
+    },
+    {
+      "name": "R29_W_BOUNDARY_28",
+      "x": -39.464233,
+      "y": 12.335808,
+      "baseZ": -5.326293468475342,
+      "distanceToApron": 0.0,
+      "inside": true
+    },
+    {
+      "name": "R29_W_BOUNDARY_28",
+      "x": -38.639107,
+      "y": 11.808304,
+      "baseZ": -5.326293468475342,
+      "distanceToApron": 0.0,
+      "inside": true
+    },
+    {
+      "name": "R29_W_BOUNDARY_28",
+      "x": -38.565117,
+      "y": 12.047118,
+      "baseZ": -5.326293468475342,
+      "distanceToApron": 0.0,
+      "inside": true
+    },
+    {
+      "name": "R29_W_BOUNDARY_29",
+      "x": -40.445889,
+      "y": 12.408861,
+      "baseZ": -5.326293468475342,
+      "distanceToApron": 0.0,
+      "inside": true
+    },
+    {
+      "name": "R29_W_BOUNDARY_29",
+      "x": -40.362259,
+      "y": 12.644473,
+      "baseZ": -5.326293468475342,
+      "distanceToApron": 0.0,
+      "inside": true
+    },
+    {
+      "name": "R29_W_BOUNDARY_29",
+      "x": -39.543118,
+      "y": 12.098565,
+      "baseZ": -5.326293468475342,
+      "distanceToApron": 0.0,
+      "inside": true
+    },
+    {
+      "name": "R29_W_BOUNDARY_29",
+      "x": -39.464233,
+      "y": 12.335808,
+      "baseZ": -5.326293468475342,
+      "distanceToApron": 0.0,
+      "inside": true
+    },
+    {
+      "name": "R29_W_BOUNDARY_30",
+      "x": -41.347511,
+      "y": 12.739221,
+      "baseZ": -5.326293468475342,
+      "distanceToApron": 0.0,
+      "inside": true
+    },
+    {
+      "name": "R29_W_BOUNDARY_30",
+      "x": -41.259193,
+      "y": 12.973114,
+      "baseZ": -5.326293468475342,
+      "distanceToApron": 0.16303730469874966,
+      "inside": false
+    },
+    {
+      "name": "R29_W_BOUNDARY_30",
+      "x": -40.445889,
+      "y": 12.408861,
+      "baseZ": -5.326293468475342,
+      "distanceToApron": 0.0,
+      "inside": true
+    },
+    {
+      "name": "R29_W_BOUNDARY_30",
+      "x": -40.362259,
+      "y": 12.644473,
+      "baseZ": -5.326293468475342,
+      "distanceToApron": 0.0,
+      "inside": true
+    },
+    {
+      "name": "R29_W_BOUNDARY_31",
+      "x": -42.617229,
+      "y": 13.233331,
+      "baseZ": -5.326293468475342,
+      "distanceToApron": 0.0,
+      "inside": true
+    },
+    {
+      "name": "R29_W_BOUNDARY_31",
+      "x": -42.155037,
+      "y": 13.321731,
+      "baseZ": -5.326293468475342,
+      "distanceToApron": 0.11547579505542364,
+      "inside": false
+    },
+    {
+      "name": "R29_W_BOUNDARY_31",
+      "x": -41.347511,
+      "y": 12.739221,
+      "baseZ": -5.326293468475342,
+      "distanceToApron": 0.0,
+      "inside": true
+    },
+    {
+      "name": "R29_W_BOUNDARY_31",
+      "x": -41.259193,
+      "y": 12.973114,
+      "baseZ": -5.326293468475342,
+      "distanceToApron": 0.16303730469874966,
+      "inside": false
+    },
+    {
+      "name": "R29_W_BOUNDARY_32",
+      "x": -42.617229,
+      "y": 13.233331,
+      "baseZ": -5.326293468475342,
+      "distanceToApron": 0.0,
+      "inside": true
+    },
+    {
+      "name": "R29_W_BOUNDARY_32",
+      "x": -42.155037,
+      "y": 13.321731,
+      "baseZ": -5.326293468475342,
+      "distanceToApron": 0.11547579505542364,
+      "inside": false
+    },
+    {
+      "name": "R29_W_BOUNDARY_32",
+      "x": -31.450338,
+      "y": 23.617046,
+      "baseZ": -5.326293468475342,
+      "distanceToApron": 12.328437029393386,
+      "inside": false
+    },
+    {
+      "name": "R29_W_BOUNDARY_32",
+      "x": -31.355932,
+      "y": 23.363449,
+      "baseZ": -5.326293468475342,
+      "distanceToApron": 12.102836781094078,
+      "inside": false
+    }
+  ]
+}

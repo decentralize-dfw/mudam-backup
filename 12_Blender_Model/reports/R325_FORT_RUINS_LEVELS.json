@@ -1,0 +1,398 @@
+{
+  "source": [
+    {
+      "name": "fort_metal_north",
+      "sourcePixel": [
+        560,
+        720
+      ],
+      "xy": [
+        -32.0,
+        -18.14285714285714
+      ],
+      "medianZ": 1.9457626342773438,
+      "spread": 0.0537872314453125,
+      "hits": 9,
+      "objects": [
+        "Mesh_0.018"
+      ]
+    },
+    {
+      "name": "fort_metal_mid",
+      "sourcePixel": [
+        495,
+        790
+      ],
+      "xy": [
+        -42.21428571428571,
+        -29.14285714285714
+      ],
+      "medianZ": 3.0473556518554688,
+      "spread": 0.9011001586914062,
+      "hits": 9,
+      "objects": [
+        "Mesh_0.018"
+      ]
+    },
+    {
+      "name": "fort_earth_north",
+      "sourcePixel": [
+        485,
+        684
+      ],
+      "xy": [
+        -43.78571428571429,
+        -12.48571428571428
+      ],
+      "medianZ": 3.0578765869140625,
+      "spread": 0.12181854248046875,
+      "hits": 9,
+      "objects": [
+        "Mesh_0.018"
+      ]
+    },
+    {
+      "name": "fort_earth_east",
+      "sourcePixel": [
+        612,
+        805
+      ],
+      "xy": [
+        -23.828571428571422,
+        -31.5
+      ],
+      "medianZ": 3.1856842041015625,
+      "spread": 0.31175994873046875,
+      "hits": 9,
+      "objects": [
+        "Mesh_0.018"
+      ]
+    },
+    {
+      "name": "tower_west_top",
+      "sourcePixel": [
+        309,
+        903
+      ],
+      "xy": [
+        -71.44285714285715,
+        -46.900000000000006
+      ],
+      "medianZ": 5.363395690917969,
+      "spread": 1.408721923828125,
+      "hits": 9,
+      "objects": [
+        "Mesh_0.013",
+        "Mesh_0.017"
+      ]
+    },
+    {
+      "name": "tower_south_top",
+      "sourcePixel": [
+        398,
+        1007
+      ],
+      "xy": [
+        -57.457142857142856,
+        -63.24285714285713
+      ],
+      "medianZ": 6.52508544921875,
+      "spread": 1.554473876953125,
+      "hits": 9,
+      "objects": [
+        "Mesh_0.014"
+      ]
+    },
+    {
+      "name": "moat_east",
+      "sourcePixel": [
+        680,
+        770
+      ],
+      "xy": [
+        -13.142857142857139,
+        -26.0
+      ],
+      "medianZ": -8.09783935546875,
+      "spread": 0.010650634765625,
+      "hits": 9,
+      "objects": [
+        "Mesh_0.040"
+      ]
+    },
+    {
+      "name": "north_ruin_floor_a",
+      "sourcePixel": [
+        555,
+        165
+      ],
+      "xy": [
+        -32.78571428571429,
+        69.07142857142857
+      ],
+      "medianZ": 0.03319549560546875,
+      "spread": 0.06268310546875,
+      "hits": 9,
+      "objects": [
+        "Mesh_0.056"
+      ]
+    },
+    {
+      "name": "north_ruin_floor_b",
+      "sourcePixel": [
+        540,
+        177
+      ],
+      "xy": [
+        -35.14285714285714,
+        67.18571428571428
+      ],
+      "medianZ": 0.002197265625,
+      "spread": 0.02315521240234375,
+      "hits": 9,
+      "objects": [
+        "Mesh_0.056"
+      ]
+    },
+    {
+      "name": "east_ruin_floor_a",
+      "sourcePixel": [
+        1155,
+        795
+      ],
+      "xy": [
+        61.5,
+        -29.92857142857143
+      ],
+      "medianZ": -0.6979598999023438,
+      "spread": 0.15953826904296875,
+      "hits": 9,
+      "objects": [
+        "Mesh_0.045"
+      ]
+    },
+    {
+      "name": "east_ruin_floor_b",
+      "sourcePixel": [
+        1129,
+        837
+      ],
+      "xy": [
+        57.41428571428571,
+        -36.52857142857144
+      ],
+      "medianZ": -0.11429595947265625,
+      "spread": 0.47211456298828125,
+      "hits": 9,
+      "objects": [
+        "Mesh_0.045"
+      ]
+    }
+  ],
+  "model": [
+    {
+      "name": "fort_metal_north",
+      "sourcePixel": [
+        560,
+        720
+      ],
+      "xy": [
+        -32.0,
+        -18.14285714285714
+      ],
+      "medianZ": 3.079986572265625,
+      "spread": 1.52587890625e-05,
+      "hits": 9,
+      "objects": [
+        "R154_FORT_METAL_ROOF"
+      ],
+      "modelMinusSource": 1.1342239379882812
+    },
+    {
+      "name": "fort_metal_mid",
+      "sourcePixel": [
+        495,
+        790
+      ],
+      "xy": [
+        -42.21428571428571,
+        -29.14285714285714
+      ],
+      "medianZ": 3.1129837036132812,
+      "spread": 0.29694366455078125,
+      "hits": 9,
+      "objects": [
+        "R154_FORT_METAL_ROOF",
+        "R154_FORT_ROUNDED_EARTH_ROOF"
+      ],
+      "modelMinusSource": 0.0656280517578125
+    },
+    {
+      "name": "fort_earth_north",
+      "sourcePixel": [
+        485,
+        684
+      ],
+      "xy": [
+        -43.78571428571429,
+        -12.48571428571428
+      ],
+      "medianZ": 2.9439926147460938,
+      "spread": 0.043731689453125,
+      "hits": 9,
+      "objects": [
+        "R154_FORT_ROUNDED_EARTH_ROOF"
+      ],
+      "modelMinusSource": -0.11388397216796875
+    },
+    {
+      "name": "fort_earth_east",
+      "sourcePixel": [
+        612,
+        805
+      ],
+      "xy": [
+        -23.828571428571422,
+        -31.5
+      ],
+      "medianZ": 3.08001708984375,
+      "spread": 0.02545166015625,
+      "hits": 9,
+      "objects": [
+        "R154_FORT_METAL_ROOF",
+        "R154_FORT_ROUNDED_EARTH_ROOF"
+      ],
+      "modelMinusSource": -0.1056671142578125
+    },
+    {
+      "name": "tower_west_top",
+      "sourcePixel": [
+        309,
+        903
+      ],
+      "xy": [
+        -71.44285714285715,
+        -46.900000000000006
+      ],
+      "medianZ": 5.536140441894531,
+      "spread": 0.02597808837890625,
+      "hits": 9,
+      "objects": [
+        "R154_TOWER_CAP_WEST"
+      ],
+      "modelMinusSource": 0.1727447509765625
+    },
+    {
+      "name": "tower_south_top",
+      "sourcePixel": [
+        398,
+        1007
+      ],
+      "xy": [
+        -57.457142857142856,
+        -63.24285714285713
+      ],
+      "medianZ": 5.33197021484375,
+      "spread": 0.7122344970703125,
+      "hits": 9,
+      "objects": [
+        "R154_ACORN_SOUTH",
+        "R154_TOWER_CAP_SOUTH"
+      ],
+      "modelMinusSource": -1.193115234375
+    },
+    {
+      "name": "moat_east",
+      "sourcePixel": [
+        680,
+        770
+      ],
+      "xy": [
+        -13.142857142857139,
+        -26.0
+      ],
+      "medianZ": -7.876441955566406,
+      "spread": 0.00691986083984375,
+      "hits": 9,
+      "objects": [
+        "R152_CLASS2_TERRAIN"
+      ],
+      "modelMinusSource": 0.22139739990234375
+    },
+    {
+      "name": "north_ruin_floor_a",
+      "sourcePixel": [
+        555,
+        165
+      ],
+      "xy": [
+        -32.78571428571429,
+        69.07142857142857
+      ],
+      "medianZ": 0.86505126953125,
+      "spread": 5.364799499511719,
+      "hits": 9,
+      "objects": [
+        "R152_CLASS2_TERRAIN",
+        "R158_TREE_05356"
+      ],
+      "modelMinusSource": 0.8318557739257812
+    },
+    {
+      "name": "north_ruin_floor_b",
+      "sourcePixel": [
+        540,
+        177
+      ],
+      "xy": [
+        -35.14285714285714,
+        67.18571428571428
+      ],
+      "medianZ": 0.9167938232421875,
+      "spread": 1.4773025512695312,
+      "hits": 9,
+      "objects": [
+        "R158_TREE_05356"
+      ],
+      "modelMinusSource": 0.9145965576171875
+    },
+    {
+      "name": "east_ruin_floor_a",
+      "sourcePixel": [
+        1155,
+        795
+      ],
+      "xy": [
+        61.5,
+        -29.92857142857143
+      ],
+      "medianZ": -3.0483245849609375,
+      "spread": 0.02597808837890625,
+      "hits": 9,
+      "objects": [
+        "R152_CLASS2_TERRAIN"
+      ],
+      "modelMinusSource": -2.3503646850585938
+    },
+    {
+      "name": "east_ruin_floor_b",
+      "sourcePixel": [
+        1129,
+        837
+      ],
+      "xy": [
+        57.41428571428571,
+        -36.52857142857144
+      ],
+      "medianZ": -3.0360260009765625,
+      "spread": 0.09123992919921875,
+      "hits": 9,
+      "objects": [
+        "R152_CLASS2_TERRAIN"
+      ],
+      "modelMinusSource": -2.9217300415039062
+    }
+  ],
+  "accepted": false,
+  "method": "9 vertical samples in0.6m square at manually selected visible source ground locations; vegetation and vertical surfaces may contaminate samples; not global accuracy proof"
+}

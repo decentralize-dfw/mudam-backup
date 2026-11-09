@@ -1,0 +1,113 @@
+{
+  "scene": "MUDAM_R463_KUZEYBATI_AVLU_CAM_DUZLEMI_ADAY_v001.blend",
+  "checks": [
+    {
+      "name": "R457_NORTH_LOADING_COURT",
+      "nonManifold": 0,
+      "zeroArea": 0
+    },
+    {
+      "name": "R463_NW_COURT_GLAZING",
+      "nonManifold": 0,
+      "zeroArea": 0
+    },
+    {
+      "name": "R463_NW_COURT_BORDER_0",
+      "nonManifold": 0,
+      "zeroArea": 0
+    },
+    {
+      "name": "R463_NW_COURT_BORDER_1",
+      "nonManifold": 0,
+      "zeroArea": 0
+    },
+    {
+      "name": "R463_NW_COURT_BORDER_2",
+      "nonManifold": 0,
+      "zeroArea": 0
+    },
+    {
+      "name": "R463_NW_COURT_BORDER_3",
+      "nonManifold": 0,
+      "zeroArea": 0
+    },
+    {
+      "name": "R463_NW_COURT_MULLION_A_1",
+      "nonManifold": 0,
+      "zeroArea": 0
+    },
+    {
+      "name": "R463_NW_COURT_MULLION_A_2",
+      "nonManifold": 0,
+      "zeroArea": 0
+    },
+    {
+      "name": "R463_NW_COURT_MULLION_A_3",
+      "nonManifold": 0,
+      "zeroArea": 0
+    },
+    {
+      "name": "R463_NW_COURT_MULLION_A_4",
+      "nonManifold": 0,
+      "zeroArea": 0
+    },
+    {
+      "name": "R463_NW_COURT_MULLION_A_5",
+      "nonManifold": 0,
+      "zeroArea": 0
+    },
+    {
+      "name": "R463_NW_COURT_MULLION_A_6",
+      "nonManifold": 0,
+      "zeroArea": 0
+    },
+    {
+      "name": "R463_NW_COURT_MULLION_B_1",
+      "nonManifold": 0,
+      "zeroArea": 0
+    },
+    {
+      "name": "R463_NW_COURT_MULLION_B_2",
+      "nonManifold": 0,
+      "zeroArea": 0
+    },
+    {
+      "name": "R463_NW_COURT_MULLION_B_3",
+      "nonManifold": 0,
+      "zeroArea": 0
+    },
+    {
+      "name": "R463_NW_COURT_MULLION_B_4",
+      "nonManifold": 0,
+      "zeroArea": 0
+    },
+    {
+      "name": "R463_NW_COURT_MULLION_B_5",
+      "nonManifold": 0,
+      "zeroArea": 0
+    },
+    {
+      "name": "R463_NW_COURT_MULLION_B_6",
+      "nonManifold": 0,
+      "zeroArea": 0
+    },
+    {
+      "name": "R463_NW_COURT_MULLION_B_7",
+      "nonManifold": 0,
+      "zeroArea": 0
+    }
+  ],
+  "source": {
+    "heldout": 22,
+    "training": 56,
+    "rms": 0.0180705604353181,
+    "max": 0.03601988500093434
+  },
+  "accepted": false,
+  "published": false,
+  "limits": [
+    "Source image determines visible main glazing outline. Adjacent narrow glazed strip remains pending.",
+    "Frame grid counts and section sizes are photographic candidates; hidden interior is not modeled.",
+    "Whole museum-ring grade and roof-edge verification incomplete."
+  ]
+}

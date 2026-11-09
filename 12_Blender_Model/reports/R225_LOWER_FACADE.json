@@ -1,0 +1,202 @@
+{
+  "accepted": false,
+  "published": false,
+  "observedOpenings": 7,
+  "terrainSamples": 615,
+  "terrainMin": 0.8731155395507812,
+  "terrainMax": 1.3721389770507812,
+  "base": 0.8231155395507812,
+  "roofPlane": [
+    0.055573384525620176,
+    0.020161155222963127,
+    8.228253272403077
+  ],
+  "oldWidth": 11.35694575931313,
+  "correctedWidth": 16.879114270210266,
+  "source": "R221_erasmus_front_source.png",
+  "reopen": [
+    {
+      "name": "R225_ERASMUS_FRONT_1",
+      "boundary": 0
+    },
+    {
+      "name": "R225_GLASS_0",
+      "boundary": 0
+    },
+    {
+      "name": "R225_FRAME_0L",
+      "boundary": 0
+    },
+    {
+      "name": "R225_FRAME_0R",
+      "boundary": 0
+    },
+    {
+      "name": "R225_FRAME_0B",
+      "boundary": 0
+    },
+    {
+      "name": "R225_FRAME_0T",
+      "boundary": 0
+    },
+    {
+      "name": "R225_FRAME_0M",
+      "boundary": 0
+    },
+    {
+      "name": "R225_GLASS_1",
+      "boundary": 0
+    },
+    {
+      "name": "R225_FRAME_1L",
+      "boundary": 0
+    },
+    {
+      "name": "R225_FRAME_1R",
+      "boundary": 0
+    },
+    {
+      "name": "R225_FRAME_1B",
+      "boundary": 0
+    },
+    {
+      "name": "R225_FRAME_1T",
+      "boundary": 0
+    },
+    {
+      "name": "R225_FRAME_1M",
+      "boundary": 0
+    },
+    {
+      "name": "R225_GLASS_2",
+      "boundary": 0
+    },
+    {
+      "name": "R225_FRAME_2L",
+      "boundary": 0
+    },
+    {
+      "name": "R225_FRAME_2R",
+      "boundary": 0
+    },
+    {
+      "name": "R225_FRAME_2B",
+      "boundary": 0
+    },
+    {
+      "name": "R225_FRAME_2T",
+      "boundary": 0
+    },
+    {
+      "name": "R225_FRAME_2M",
+      "boundary": 0
+    },
+    {
+      "name": "R225_GLASS_3",
+      "boundary": 0
+    },
+    {
+      "name": "R225_FRAME_3L",
+      "boundary": 0
+    },
+    {
+      "name": "R225_FRAME_3R",
+      "boundary": 0
+    },
+    {
+      "name": "R225_FRAME_3B",
+      "boundary": 0
+    },
+    {
+      "name": "R225_FRAME_3T",
+      "boundary": 0
+    },
+    {
+      "name": "R225_FRAME_3M",
+      "boundary": 0
+    },
+    {
+      "name": "R225_GLASS_4",
+      "boundary": 0
+    },
+    {
+      "name": "R225_FRAME_4L",
+      "boundary": 0
+    },
+    {
+      "name": "R225_FRAME_4R",
+      "boundary": 0
+    },
+    {
+      "name": "R225_FRAME_4B",
+      "boundary": 0
+    },
+    {
+      "name": "R225_FRAME_4T",
+      "boundary": 0
+    },
+    {
+      "name": "R225_FRAME_4M",
+      "boundary": 0
+    },
+    {
+      "name": "R225_GLASS_5",
+      "boundary": 0
+    },
+    {
+      "name": "R225_FRAME_5L",
+      "boundary": 0
+    },
+    {
+      "name": "R225_FRAME_5R",
+      "boundary": 0
+    },
+    {
+      "name": "R225_FRAME_5B",
+      "boundary": 0
+    },
+    {
+      "name": "R225_FRAME_5T",
+      "boundary": 0
+    },
+    {
+      "name": "R225_FRAME_5M",
+      "boundary": 0
+    },
+    {
+      "name": "R225_GLASS_6",
+      "boundary": 0
+    },
+    {
+      "name": "R225_FRAME_6L",
+      "boundary": 0
+    },
+    {
+      "name": "R225_FRAME_6R",
+      "boundary": 0
+    },
+    {
+      "name": "R225_FRAME_6B",
+      "boundary": 0
+    },
+    {
+      "name": "R225_FRAME_6T",
+      "boundary": 0
+    },
+    {
+      "name": "R225_FRAME_6M",
+      "boundary": 0
+    }
+  ],
+  "limits": [
+    "Widened frontage traced visually on model facade plane; not surveyed",
+    "Roof plane extrapolated over widened bounds; source edge validation pending",
+    "Rear depth and wall/frame thickness provisional",
+    "Other facades and upper footprint correction remain"
+  ],
+  "visualReview": {
+    "source": "renders/qa/R221_erasmus_front_source.png",
+    "candidate": "renders/qa/R225_erasmus_front_authored.png",
+    "result": "Seven lower apertures align approximately with observed source positions. Whole architecture remains incomplete: missing curved glazed link, rear raised structures, courtyard facades and roof/material character. Not accepted for production."
+  }
+}

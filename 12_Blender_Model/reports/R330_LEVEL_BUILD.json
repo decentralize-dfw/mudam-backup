@@ -1,0 +1,51 @@
+{
+  "scene": "MUDAM_R330_KALINTI_KOTLARI_ADAY_v001.blend",
+  "accepted": false,
+  "published": false,
+  "changes": [
+    {
+      "name": "R326_NORTH_RUIN_CROSSWALL_02",
+      "vertices": 4,
+      "previousTop": -0.07999999821186066,
+      "newMin": -4.800000190734863,
+      "newMax": -0.31157568097114563,
+      "heldOutRMS": 0.01976283995111421
+    },
+    {
+      "name": "R327_EAST_RUIN_CENTRAL_COURT",
+      "vertices": 7,
+      "previousTop": -0.07500000298023224,
+      "newMin": -0.12999999523162842,
+      "newMax": 0.3806840777397156,
+      "heldOutRMS": 0.05612514921366661
+    }
+  ],
+  "meshChecks": [
+    {
+      "name": "R326_NORTH_RUIN_CROSSWALL_02",
+      "nonManifold": 0,
+      "zeroArea": 0
+    },
+    {
+      "name": "R327_EAST_RUIN_CENTRAL_COURT",
+      "nonManifold": 0,
+      "zeroArea": 0
+    }
+  ],
+  "glbChecks": [
+    {
+      "name": "R326_NORTH_RUIN_CROSSWALL_02",
+      "nonFinite": 0,
+      "zeroArea": 0
+    },
+    {
+      "name": "R327_EAST_RUIN_CENTRAL_COURT",
+      "nonFinite": 0,
+      "zeroArea": 0
+    }
+  ],
+  "limits": [
+    "Only two locally supported plane fits applied; remaining coping and moat domains unresolved.",
+    "Raised court boundary must be reconciled with surrounding coping before acceptance."
+  ]
+}

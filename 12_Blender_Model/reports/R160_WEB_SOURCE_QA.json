@@ -1,0 +1,25 @@
+{
+  "layers": [
+    {
+      "layer": "building",
+      "sha256": "5145a1a13bcfd7581d69be99f35e4f5707816a6f72b6a8322e02e36b0bf5947f",
+      "bytes": 21338720,
+      "verified": true
+    },
+    {
+      "layer": "near_context",
+      "sha256": "79a7c0f5f7bcd8d970a41041f024d37eac608651261a4b41313258518722de3c",
+      "bytes": 61203040,
+      "verified": true
+    },
+    {
+      "layer": "far_context",
+      "sha256": "088c922072bda2ce41a199906aad9bb2d484facaaf738f6ca4531a262520a274",
+      "bytes": 77232676,
+      "verified": true
+    }
+  ],
+  "procedural_context_loaded": false,
+  "original_museum_clip_retained": true,
+  "whole_project_complete": false
+}

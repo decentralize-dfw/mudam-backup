@@ -1,0 +1,106 @@
+{
+  "accepted": false,
+  "mask": "{\"type\":\"Polygon\",\"coordinates\":[[[24.829526993329637,-49.381747090257704],[22.40265315346187,-46.77182875107974],[22.701625835732557,-38.54506819229573],[23.037849339526097,-38.23242545033157],[14.63380846241489,-29.253525154665112],[4.763133093132637,-37.950181351043284],[3.851783206919208,-37.381185409612954],[4.254408132983372,-6.083320281468332],[-11.727758846303914,11.066431771963835],[-19.73752132069785,9.267385575920343],[-27.464179792790674,9.01600061263889],[-35.125205219723284,10.1090526599437],[-42.47631145257037,12.503849023021758],[-32.751891259569675,21.918408597819507],[-32.07503363135038,34.5715446351096],[-19.8121067887987,34.48330382630229],[-10.613216539029963,43.583950825966895],[19.6571396891959,42.699214863590896],[28.62502982915612,33.185551876202226],[37.49522693583276,23.76467559672892],[36.93873877672013,-6.069088357500732],[17.660139307030477,-25.940146954730153],[26.815145301632583,-35.861661647446454],[35.08150116720935,-36.25409882608801],[38.06345502543263,-39.239503391087055],[37.852884254883975,-47.43547622580081],[34.71142468310427,-50.73335360363126],[27.073794920463115,-50.35370768979192],[26.075178595353744,-49.43961950094063],[24.829526993329637,-49.381747090257704]]]}",
+  "mask_area": 3522.1221439495007,
+  "changes": [
+    {
+      "file": "Tile-125-98-1-1_m-00085.glb",
+      "before": 31004,
+      "after": 21533,
+      "removed_faces": 9628,
+      "boundary_faces_split": 280,
+      "empty": false
+    },
+    {
+      "file": "Tile-125-98-1-1_m-00106.glb",
+      "before": 19291,
+      "after": 13642,
+      "removed_faces": 5855,
+      "boundary_faces_split": 397,
+      "empty": false
+    },
+    {
+      "file": "Tile-125-98-1-1_m-00107.glb",
+      "before": 20039,
+      "after": 12546,
+      "removed_faces": 8117,
+      "boundary_faces_split": 1159,
+      "empty": false
+    },
+    {
+      "file": "Tile-125-98-1-1_m-00108.glb",
+      "before": 22069,
+      "after": 5644,
+      "removed_faces": 16637,
+      "boundary_faces_split": 425,
+      "empty": false
+    },
+    {
+      "file": "Tile-125-98-1-1_m-00109.glb",
+      "before": 21165,
+      "after": 8195,
+      "removed_faces": 13405,
+      "boundary_faces_split": 854,
+      "empty": false
+    },
+    {
+      "file": "Tile-125-98-1-1_m-00110.glb",
+      "before": 622,
+      "after": 0,
+      "removed_faces": 622,
+      "boundary_faces_split": 0,
+      "empty": true
+    },
+    {
+      "file": "Tile-125-99-1-1_m-00009.glb",
+      "before": 22508,
+      "after": 20556,
+      "removed_faces": 2131,
+      "boundary_faces_split": 343,
+      "empty": false
+    },
+    {
+      "file": "Tile-125-99-1-1_m-00013.glb",
+      "before": 1350,
+      "after": 94,
+      "removed_faces": 1268,
+      "boundary_faces_split": 22,
+      "empty": false
+    },
+    {
+      "file": "Tile-125-99-1-1_m-00030.glb",
+      "before": 20720,
+      "after": 19083,
+      "removed_faces": 1950,
+      "boundary_faces_split": 620,
+      "empty": false
+    },
+    {
+      "file": "Tile-125-99-1-1_m-00031.glb",
+      "before": 21607,
+      "after": 21349,
+      "removed_faces": 363,
+      "boundary_faces_split": 198,
+      "empty": false
+    },
+    {
+      "file": "Tile-125-99-1-1_m-00034.glb",
+      "before": 13959,
+      "after": 1880,
+      "removed_faces": 12219,
+      "boundary_faces_split": 236,
+      "empty": false
+    },
+    {
+      "file": "Tile-125-99-1-1_m-00035.glb",
+      "before": 3864,
+      "after": 2091,
+      "removed_faces": 1821,
+      "boundary_faces_split": 73,
+      "empty": false
+    }
+  ],
+  "source_meshes_unchanged_on_disk": true,
+  "cut_method": "Exact XY polygon difference; boundary elevation and UV barycentrically interpolated; no invented terrain cap",
+  "remaining": "Visual and local seam checks, own-building integration"
+}

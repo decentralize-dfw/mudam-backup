@@ -1,0 +1,731 @@
+{
+  "accepted": false,
+  "changes": [
+    {
+      "name": "R177_ROAD_asphalt",
+      "flipped_faces": 15222,
+      "downward_after": 0,
+      "restoredMicroUV": true,
+      "landcoverUVCorrected": false
+    },
+    {
+      "name": "R177_ROAD_footway",
+      "flipped_faces": 3575,
+      "downward_after": 0,
+      "restoredMicroUV": true,
+      "landcoverUVCorrected": false
+    },
+    {
+      "name": "R177_ROAD_MARKINGS.001",
+      "flipped_faces": 1055,
+      "downward_after": 0,
+      "restoredMicroUV": true,
+      "landcoverUVCorrected": false
+    },
+    {
+      "name": "R178_APRON_EAST_ENTRANCE",
+      "flipped_faces": 0,
+      "downward_after": 0,
+      "restoredMicroUV": true,
+      "landcoverUVCorrected": false
+    },
+    {
+      "name": "R178_APRON_EAST_UPPER",
+      "flipped_faces": 0,
+      "downward_after": 0,
+      "restoredMicroUV": true,
+      "landcoverUVCorrected": false
+    },
+    {
+      "name": "R178_APRON_SOUTH_WALK",
+      "flipped_faces": 0,
+      "downward_after": 0,
+      "restoredMicroUV": true,
+      "landcoverUVCorrected": false
+    },
+    {
+      "name": "R178_APRON_WEST_APRON",
+      "flipped_faces": 0,
+      "downward_after": 0,
+      "restoredMicroUV": true,
+      "landcoverUVCorrected": false
+    },
+    {
+      "name": "R182_EXTENSION_GROUND",
+      "flipped_faces": 26599,
+      "downward_after": 0,
+      "restoredMicroUV": true,
+      "landcoverUVCorrected": true
+    },
+    {
+      "name": "R182_EXTENSION_ROADS",
+      "flipped_faces": 7548,
+      "downward_after": 0,
+      "restoredMicroUV": true,
+      "landcoverUVCorrected": false
+    },
+    {
+      "name": "R187_OUTER_BASTIONS",
+      "flipped_faces": 0,
+      "downward_after": 0,
+      "restoredMicroUV": true,
+      "landcoverUVCorrected": true
+    },
+    {
+      "name": "R187_OUTER_BASTIONS.001",
+      "flipped_faces": 0,
+      "downward_after": 0,
+      "restoredMicroUV": true,
+      "landcoverUVCorrected": true
+    },
+    {
+      "name": "R187_OUTER_BASTIONS.002",
+      "flipped_faces": 0,
+      "downward_after": 0,
+      "restoredMicroUV": true,
+      "landcoverUVCorrected": true
+    },
+    {
+      "name": "R187_OUTER_BASTIONS.003",
+      "flipped_faces": 0,
+      "downward_after": 0,
+      "restoredMicroUV": true,
+      "landcoverUVCorrected": true
+    },
+    {
+      "name": "R187_OUTER_BASTIONS.004",
+      "flipped_faces": 0,
+      "downward_after": 0,
+      "restoredMicroUV": true,
+      "landcoverUVCorrected": true
+    },
+    {
+      "name": "R187_OUTER_BASTIONS.005",
+      "flipped_faces": 0,
+      "downward_after": 0,
+      "restoredMicroUV": true,
+      "landcoverUVCorrected": true
+    },
+    {
+      "name": "R187_OUTER_BASTIONS.006",
+      "flipped_faces": 0,
+      "downward_after": 0,
+      "restoredMicroUV": true,
+      "landcoverUVCorrected": true
+    },
+    {
+      "name": "R187_OUTER_BASTIONS.007",
+      "flipped_faces": 0,
+      "downward_after": 0,
+      "restoredMicroUV": true,
+      "landcoverUVCorrected": true
+    },
+    {
+      "name": "R187_OUTER_BASTIONS.008",
+      "flipped_faces": 0,
+      "downward_after": 0,
+      "restoredMicroUV": true,
+      "landcoverUVCorrected": true
+    },
+    {
+      "name": "R187_OUTER_BASTIONS.009",
+      "flipped_faces": 0,
+      "downward_after": 0,
+      "restoredMicroUV": true,
+      "landcoverUVCorrected": true
+    },
+    {
+      "name": "R187_OUTER_BASTIONS.010",
+      "flipped_faces": 0,
+      "downward_after": 0,
+      "restoredMicroUV": true,
+      "landcoverUVCorrected": true
+    },
+    {
+      "name": "R187_OUTER_BASTIONS.011",
+      "flipped_faces": 0,
+      "downward_after": 0,
+      "restoredMicroUV": true,
+      "landcoverUVCorrected": true
+    },
+    {
+      "name": "R187_CONNECTED_MOAT",
+      "flipped_faces": 0,
+      "downward_after": 0,
+      "restoredMicroUV": true,
+      "landcoverUVCorrected": true
+    },
+    {
+      "name": "R187_CONNECTED_MOAT.001",
+      "flipped_faces": 0,
+      "downward_after": 0,
+      "restoredMicroUV": true,
+      "landcoverUVCorrected": true
+    },
+    {
+      "name": "R187_CONNECTED_MOAT.002",
+      "flipped_faces": 0,
+      "downward_after": 0,
+      "restoredMicroUV": true,
+      "landcoverUVCorrected": true
+    },
+    {
+      "name": "R187_CONNECTED_MOAT.003",
+      "flipped_faces": 0,
+      "downward_after": 0,
+      "restoredMicroUV": true,
+      "landcoverUVCorrected": true
+    },
+    {
+      "name": "R187_CONNECTED_MOAT.004",
+      "flipped_faces": 0,
+      "downward_after": 0,
+      "restoredMicroUV": true,
+      "landcoverUVCorrected": true
+    },
+    {
+      "name": "R187_CONNECTED_MOAT.005",
+      "flipped_faces": 0,
+      "downward_after": 0,
+      "restoredMicroUV": true,
+      "landcoverUVCorrected": true
+    },
+    {
+      "name": "R187_CONNECTED_MOAT.006",
+      "flipped_faces": 0,
+      "downward_after": 0,
+      "restoredMicroUV": true,
+      "landcoverUVCorrected": true
+    },
+    {
+      "name": "R187_CONNECTED_MOAT.007",
+      "flipped_faces": 0,
+      "downward_after": 0,
+      "restoredMicroUV": true,
+      "landcoverUVCorrected": true
+    },
+    {
+      "name": "R187_CONNECTED_MOAT.008",
+      "flipped_faces": 0,
+      "downward_after": 0,
+      "restoredMicroUV": true,
+      "landcoverUVCorrected": true
+    },
+    {
+      "name": "R187_CONNECTED_MOAT.009",
+      "flipped_faces": 0,
+      "downward_after": 0,
+      "restoredMicroUV": true,
+      "landcoverUVCorrected": true
+    },
+    {
+      "name": "R187_CONNECTED_MOAT.010",
+      "flipped_faces": 0,
+      "downward_after": 0,
+      "restoredMicroUV": true,
+      "landcoverUVCorrected": true
+    },
+    {
+      "name": "R187_CONNECTED_MOAT.011",
+      "flipped_faces": 0,
+      "downward_after": 0,
+      "restoredMicroUV": true,
+      "landcoverUVCorrected": true
+    },
+    {
+      "name": "R187_CONNECTED_MOAT.012",
+      "flipped_faces": 0,
+      "downward_after": 0,
+      "restoredMicroUV": true,
+      "landcoverUVCorrected": true
+    },
+    {
+      "name": "R187_CONNECTED_MOAT.013",
+      "flipped_faces": 0,
+      "downward_after": 0,
+      "restoredMicroUV": true,
+      "landcoverUVCorrected": true
+    },
+    {
+      "name": "R187_CONNECTED_MOAT.014",
+      "flipped_faces": 0,
+      "downward_after": 0,
+      "restoredMicroUV": true,
+      "landcoverUVCorrected": true
+    },
+    {
+      "name": "R187_CONNECTED_MOAT.015",
+      "flipped_faces": 0,
+      "downward_after": 0,
+      "restoredMicroUV": true,
+      "landcoverUVCorrected": true
+    },
+    {
+      "name": "R187_CONNECTED_MOAT.016",
+      "flipped_faces": 0,
+      "downward_after": 0,
+      "restoredMicroUV": true,
+      "landcoverUVCorrected": true
+    },
+    {
+      "name": "R187_CONNECTED_MOAT.017",
+      "flipped_faces": 0,
+      "downward_after": 0,
+      "restoredMicroUV": true,
+      "landcoverUVCorrected": true
+    },
+    {
+      "name": "R187_CONNECTED_MOAT.018",
+      "flipped_faces": 0,
+      "downward_after": 0,
+      "restoredMicroUV": true,
+      "landcoverUVCorrected": true
+    },
+    {
+      "name": "R187_CONNECTED_MOAT.019",
+      "flipped_faces": 0,
+      "downward_after": 0,
+      "restoredMicroUV": true,
+      "landcoverUVCorrected": true
+    },
+    {
+      "name": "R187_CONNECTED_MOAT.020",
+      "flipped_faces": 0,
+      "downward_after": 0,
+      "restoredMicroUV": true,
+      "landcoverUVCorrected": true
+    },
+    {
+      "name": "R187_CONNECTED_MOAT.021",
+      "flipped_faces": 0,
+      "downward_after": 0,
+      "restoredMicroUV": true,
+      "landcoverUVCorrected": true
+    },
+    {
+      "name": "R189_HARDSCAPE_374875704",
+      "flipped_faces": 1815,
+      "downward_after": 0,
+      "restoredMicroUV": true,
+      "landcoverUVCorrected": false
+    },
+    {
+      "name": "R189_HARDSCAPE_1218595873",
+      "flipped_faces": 968,
+      "downward_after": 0,
+      "restoredMicroUV": true,
+      "landcoverUVCorrected": false
+    },
+    {
+      "name": "R191_MAMA_FORECOURT_0",
+      "flipped_faces": 0,
+      "downward_after": 0,
+      "restoredMicroUV": true,
+      "landcoverUVCorrected": false
+    },
+    {
+      "name": "R191_MAMA_FORECOURT_1",
+      "flipped_faces": 0,
+      "downward_after": 0,
+      "restoredMicroUV": true,
+      "landcoverUVCorrected": false
+    },
+    {
+      "name": "R191_MAMA_FORECOURT_2",
+      "flipped_faces": 0,
+      "downward_after": 0,
+      "restoredMicroUV": true,
+      "landcoverUVCorrected": false
+    },
+    {
+      "name": "R191_MAMA_FORECOURT_3",
+      "flipped_faces": 0,
+      "downward_after": 0,
+      "restoredMicroUV": true,
+      "landcoverUVCorrected": false
+    },
+    {
+      "name": "R191_MAMA_FORECOURT_4",
+      "flipped_faces": 0,
+      "downward_after": 0,
+      "restoredMicroUV": true,
+      "landcoverUVCorrected": false
+    },
+    {
+      "name": "R191_MAMA_FORECOURT_5",
+      "flipped_faces": 0,
+      "downward_after": 0,
+      "restoredMicroUV": true,
+      "landcoverUVCorrected": false
+    },
+    {
+      "name": "R191_MAMA_FORECOURT_6",
+      "flipped_faces": 0,
+      "downward_after": 0,
+      "restoredMicroUV": true,
+      "landcoverUVCorrected": false
+    },
+    {
+      "name": "R191_MAMA_FORECOURT_7",
+      "flipped_faces": 0,
+      "downward_after": 0,
+      "restoredMicroUV": true,
+      "landcoverUVCorrected": false
+    },
+    {
+      "name": "R191_MAMA_FORECOURT_8",
+      "flipped_faces": 0,
+      "downward_after": 0,
+      "restoredMicroUV": true,
+      "landcoverUVCorrected": false
+    },
+    {
+      "name": "R191_MAMA_FORECOURT_9",
+      "flipped_faces": 0,
+      "downward_after": 0,
+      "restoredMicroUV": true,
+      "landcoverUVCorrected": false
+    },
+    {
+      "name": "R191_MAMA_FORECOURT_10",
+      "flipped_faces": 0,
+      "downward_after": 0,
+      "restoredMicroUV": true,
+      "landcoverUVCorrected": false
+    },
+    {
+      "name": "R191_MAMA_FORECOURT_11",
+      "flipped_faces": 0,
+      "downward_after": 0,
+      "restoredMicroUV": true,
+      "landcoverUVCorrected": false
+    },
+    {
+      "name": "R191_MAMA_FORECOURT_12",
+      "flipped_faces": 0,
+      "downward_after": 0,
+      "restoredMicroUV": true,
+      "landcoverUVCorrected": false
+    },
+    {
+      "name": "R191_MAMA_FORECOURT_13",
+      "flipped_faces": 0,
+      "downward_after": 0,
+      "restoredMicroUV": true,
+      "landcoverUVCorrected": false
+    },
+    {
+      "name": "R191_MAMA_FORECOURT_14",
+      "flipped_faces": 0,
+      "downward_after": 0,
+      "restoredMicroUV": true,
+      "landcoverUVCorrected": false
+    },
+    {
+      "name": "R191_MAMA_FORECOURT_15",
+      "flipped_faces": 0,
+      "downward_after": 0,
+      "restoredMicroUV": true,
+      "landcoverUVCorrected": false
+    },
+    {
+      "name": "R191_MAMA_FORECOURT_16",
+      "flipped_faces": 0,
+      "downward_after": 0,
+      "restoredMicroUV": true,
+      "landcoverUVCorrected": false
+    },
+    {
+      "name": "R191_MAMA_FORECOURT_17",
+      "flipped_faces": 0,
+      "downward_after": 0,
+      "restoredMicroUV": true,
+      "landcoverUVCorrected": false
+    },
+    {
+      "name": "R191_MAMA_FORECOURT_18",
+      "flipped_faces": 0,
+      "downward_after": 0,
+      "restoredMicroUV": true,
+      "landcoverUVCorrected": false
+    },
+    {
+      "name": "R191_MAMA_FORECOURT_19",
+      "flipped_faces": 0,
+      "downward_after": 0,
+      "restoredMicroUV": true,
+      "landcoverUVCorrected": false
+    },
+    {
+      "name": "R191_MAMA_FORECOURT_20",
+      "flipped_faces": 0,
+      "downward_after": 0,
+      "restoredMicroUV": true,
+      "landcoverUVCorrected": false
+    },
+    {
+      "name": "R191_MAMA_FORECOURT_21",
+      "flipped_faces": 0,
+      "downward_after": 0,
+      "restoredMicroUV": true,
+      "landcoverUVCorrected": false
+    },
+    {
+      "name": "R191_NOVOTEL_WEST_COURT_0",
+      "flipped_faces": 0,
+      "downward_after": 0,
+      "restoredMicroUV": true,
+      "landcoverUVCorrected": false
+    },
+    {
+      "name": "R191_NOVOTEL_WEST_COURT_1",
+      "flipped_faces": 0,
+      "downward_after": 0,
+      "restoredMicroUV": true,
+      "landcoverUVCorrected": false
+    },
+    {
+      "name": "R191_NOVOTEL_WEST_COURT_2",
+      "flipped_faces": 0,
+      "downward_after": 0,
+      "restoredMicroUV": true,
+      "landcoverUVCorrected": false
+    },
+    {
+      "name": "R191_NOVOTEL_WEST_COURT_3",
+      "flipped_faces": 0,
+      "downward_after": 0,
+      "restoredMicroUV": true,
+      "landcoverUVCorrected": false
+    },
+    {
+      "name": "R191_NOVOTEL_WEST_COURT_4",
+      "flipped_faces": 0,
+      "downward_after": 0,
+      "restoredMicroUV": true,
+      "landcoverUVCorrected": false
+    },
+    {
+      "name": "R191_NOVOTEL_WEST_COURT_5",
+      "flipped_faces": 0,
+      "downward_after": 0,
+      "restoredMicroUV": true,
+      "landcoverUVCorrected": false
+    },
+    {
+      "name": "R191_NOVOTEL_WEST_COURT_6",
+      "flipped_faces": 0,
+      "downward_after": 0,
+      "restoredMicroUV": true,
+      "landcoverUVCorrected": false
+    },
+    {
+      "name": "R191_NOVOTEL_WEST_COURT_7",
+      "flipped_faces": 0,
+      "downward_after": 0,
+      "restoredMicroUV": true,
+      "landcoverUVCorrected": false
+    },
+    {
+      "name": "R191_NOVOTEL_WEST_COURT_8",
+      "flipped_faces": 0,
+      "downward_after": 0,
+      "restoredMicroUV": true,
+      "landcoverUVCorrected": false
+    },
+    {
+      "name": "R191_NOVOTEL_WEST_COURT_9",
+      "flipped_faces": 0,
+      "downward_after": 0,
+      "restoredMicroUV": true,
+      "landcoverUVCorrected": false
+    },
+    {
+      "name": "R191_NOVOTEL_WEST_COURT_10",
+      "flipped_faces": 0,
+      "downward_after": 0,
+      "restoredMicroUV": true,
+      "landcoverUVCorrected": false
+    },
+    {
+      "name": "R191_NOVOTEL_WEST_COURT_11",
+      "flipped_faces": 0,
+      "downward_after": 0,
+      "restoredMicroUV": true,
+      "landcoverUVCorrected": false
+    },
+    {
+      "name": "R191_NOVOTEL_WEST_COURT_12",
+      "flipped_faces": 0,
+      "downward_after": 0,
+      "restoredMicroUV": true,
+      "landcoverUVCorrected": false
+    },
+    {
+      "name": "R191_NOVOTEL_WEST_COURT_13",
+      "flipped_faces": 0,
+      "downward_after": 0,
+      "restoredMicroUV": true,
+      "landcoverUVCorrected": false
+    },
+    {
+      "name": "R191_NOVOTEL_WEST_COURT_14",
+      "flipped_faces": 0,
+      "downward_after": 0,
+      "restoredMicroUV": true,
+      "landcoverUVCorrected": false
+    },
+    {
+      "name": "R191_NOVOTEL_WEST_COURT_15",
+      "flipped_faces": 0,
+      "downward_after": 0,
+      "restoredMicroUV": true,
+      "landcoverUVCorrected": false
+    },
+    {
+      "name": "R191_NOVOTEL_WEST_COURT_16",
+      "flipped_faces": 0,
+      "downward_after": 0,
+      "restoredMicroUV": true,
+      "landcoverUVCorrected": false
+    },
+    {
+      "name": "R191_NOVOTEL_WEST_COURT_17",
+      "flipped_faces": 0,
+      "downward_after": 0,
+      "restoredMicroUV": true,
+      "landcoverUVCorrected": false
+    },
+    {
+      "name": "R191_NOVOTEL_WEST_COURT_18",
+      "flipped_faces": 0,
+      "downward_after": 0,
+      "restoredMicroUV": true,
+      "landcoverUVCorrected": false
+    },
+    {
+      "name": "R191_NOVOTEL_WEST_COURT_19",
+      "flipped_faces": 0,
+      "downward_after": 0,
+      "restoredMicroUV": true,
+      "landcoverUVCorrected": false
+    },
+    {
+      "name": "R191_NOVOTEL_WEST_COURT_20",
+      "flipped_faces": 0,
+      "downward_after": 0,
+      "restoredMicroUV": true,
+      "landcoverUVCorrected": false
+    },
+    {
+      "name": "R192_GRADE_MAMA_FORECOURT",
+      "flipped_faces": 740,
+      "downward_after": 0,
+      "restoredMicroUV": true,
+      "landcoverUVCorrected": true
+    },
+    {
+      "name": "R192_GRADE_NOVOTEL_WEST_COURT",
+      "flipped_faces": 696,
+      "downward_after": 0,
+      "restoredMicroUV": true,
+      "landcoverUVCorrected": true
+    },
+    {
+      "name": "R193_SOUTHWEST_COURT_0",
+      "flipped_faces": 0,
+      "downward_after": 0,
+      "restoredMicroUV": true,
+      "landcoverUVCorrected": true
+    },
+    {
+      "name": "R193_SOUTHWEST_COURT_1",
+      "flipped_faces": 0,
+      "downward_after": 0,
+      "restoredMicroUV": true,
+      "landcoverUVCorrected": true
+    },
+    {
+      "name": "R193_SOUTHWEST_COURT_2",
+      "flipped_faces": 0,
+      "downward_after": 0,
+      "restoredMicroUV": true,
+      "landcoverUVCorrected": true
+    },
+    {
+      "name": "R193_SOUTHWEST_COURT_3",
+      "flipped_faces": 0,
+      "downward_after": 0,
+      "restoredMicroUV": true,
+      "landcoverUVCorrected": true
+    },
+    {
+      "name": "R193_SOUTHWEST_COURT_4",
+      "flipped_faces": 0,
+      "downward_after": 0,
+      "restoredMicroUV": true,
+      "landcoverUVCorrected": true
+    },
+    {
+      "name": "R193_SOUTHWEST_COURT_5",
+      "flipped_faces": 0,
+      "downward_after": 0,
+      "restoredMicroUV": true,
+      "landcoverUVCorrected": true
+    },
+    {
+      "name": "R193_SOUTHWEST_COURT_6",
+      "flipped_faces": 0,
+      "downward_after": 0,
+      "restoredMicroUV": true,
+      "landcoverUVCorrected": true
+    },
+    {
+      "name": "R193_SOUTHWEST_COURT_7",
+      "flipped_faces": 0,
+      "downward_after": 0,
+      "restoredMicroUV": true,
+      "landcoverUVCorrected": true
+    },
+    {
+      "name": "R152_CLASS2_TERRAIN",
+      "flipped_faces": 2993,
+      "downward_after": 0,
+      "restoredMicroUV": true,
+      "landcoverUVCorrected": true
+    },
+    {
+      "name": "R154_FAR_GROUND",
+      "flipped_faces": 86961,
+      "downward_after": 0,
+      "restoredMicroUV": true,
+      "landcoverUVCorrected": true
+    },
+    {
+      "name": "R154_FAR_ROADS",
+      "flipped_faces": 5450,
+      "downward_after": 0,
+      "restoredMicroUV": true,
+      "landcoverUVCorrected": false
+    },
+    {
+      "name": "R154_FORT_ROUNDED_EARTH_ROOF",
+      "flipped_faces": 0,
+      "downward_after": 0,
+      "restoredMicroUV": true,
+      "landcoverUVCorrected": true
+    },
+    {
+      "name": "R161_ROAD_CONNECTIONS",
+      "flipped_faces": 1825,
+      "downward_after": 0,
+      "restoredMicroUV": true,
+      "landcoverUVCorrected": false
+    }
+  ],
+  "method": "Orient 2.5D authored ground upward; restore MicroUV at6m and global landcover atlas coordinates without changing vertex elevations",
+  "limits": [
+    "This repairs local candidate render/export defects; source geometry acceptance remains separate",
+    "Outside atlas extent landcover still extrapolated"
+  ]
+}

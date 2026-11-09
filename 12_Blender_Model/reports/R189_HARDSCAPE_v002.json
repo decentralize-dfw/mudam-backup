@@ -1,0 +1,23 @@
+{
+  "accepted": false,
+  "hardscape": [
+    {
+      "id": "374875704",
+      "vertices": 1002,
+      "footprintSource": "OSM mapped parking/pedestrian area"
+    },
+    {
+      "id": "1197277141",
+      "skippedGroundMisses": 354
+    },
+    {
+      "id": "1218595873",
+      "vertices": 540,
+      "footprintSource": "OSM mapped parking/pedestrian area"
+    }
+  ],
+  "limits": [
+    "Three mapped surface areas only; building apron coverage incomplete",
+    "Terrain drape needs source level comparison"
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "accepted": false,
+  "published": false,
+  "removedReferenceVertices": 931,
+  "levels": [
+    24.0625,
+    27.225,
+    30.3875,
+    33.55,
+    36.7125,
+    39.875,
+    43.0375,
+    46.2,
+    49.3625,
+    52.525,
+    55.6875,
+    58.85,
+    62.0125,
+    65.175,
+    68.3375,
+    71.5,
+    74.6625,
+    77.825,
+    80.9875,
+    84.15,
+    87.3125
+  ],
+  "source": "R277_east_source_top.png and R278_east_tower_facade_source.png; 21 observed floor lines, 51 long-facade modules",
+  "checks": [
+    {
+      "name": "R278_A_BASE",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R278_A_FLOOR_BANDS",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R278_A_RECESSED_GLAZING",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R278_A_VERTICAL_MULLIONS",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R278_A_PARAPET",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R278_A_ROOF",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R278_A_FLOOR",
+      "boundary": 0,
+      "zero": 0
+    }
+  ],
+  "limits": [
+    "Rear facade cadence needs independent source elevation",
+    "Upper roof plant volume and facade shutter states not yet reconstructed",
+    "Base terrain contact not verified",
+    "Materials visual approximation; no scan texture",
+    "No region completion claim"
+  ]
+}

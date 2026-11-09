@@ -1,0 +1,55 @@
+{
+  "records": [
+    {
+      "name": "R152_CLASS2_TERRAIN",
+      "vertices": 92157,
+      "faces": 30719,
+      "change": "area-weighted shared-position custom normals only; vertex coordinates, topology and UVs unchanged; lawn top/bottom/side normal groups separated"
+    },
+    {
+      "name": "R485_NW_LAWN",
+      "vertices": 2138,
+      "faces": 4076,
+      "change": "area-weighted shared-position custom normals only; vertex coordinates, topology and UVs unchanged; lawn top/bottom/side normal groups separated"
+    },
+    {
+      "name": "R457_NORTH_LOADING_COURT",
+      "change": "mineral surface micro-normal coordinates added"
+    },
+    {
+      "name": "R485_NW_PATH",
+      "change": "mineral surface micro-normal coordinates added"
+    },
+    {
+      "name": "R485_NW_CONNECTOR",
+      "change": "mineral surface micro-normal coordinates added"
+    },
+    {
+      "name": "R486_NW_COURT_RETAINING_EDGE",
+      "change": "mineral surface micro-normal coordinates added"
+    },
+    {
+      "name": "R489_INSET_STONE_BORDER_0",
+      "change": "mineral surface micro-normal coordinates added"
+    },
+    {
+      "name": "R489_INSET_STONE_BORDER_1",
+      "change": "mineral surface micro-normal coordinates added"
+    },
+    {
+      "name": "R489_INSET_STONE_BORDER_2",
+      "change": "mineral surface micro-normal coordinates added"
+    },
+    {
+      "name": "R489_INSET_STONE_BORDER_3",
+      "change": "mineral surface micro-normal coordinates added"
+    },
+    {
+      "name": "R490_NW_MINERAL_PASSAGE",
+      "change": "mineral surface micro-normal coordinates added"
+    }
+  ],
+  "reopened": true,
+  "accepted": false,
+  "published": false
+}

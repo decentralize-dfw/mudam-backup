@@ -1,0 +1,30 @@
+{
+  "reviewOnly": true,
+  "fullScopeAccepted": false,
+  "sourceScene": "MUDAM_R546_BATI_HENDEK_KENAR_BUTUNLUGU_ADAY_v001.blend",
+  "files": {
+    "near": {
+      "file": "12_Blender_Model/exports/r152_clean/r546_near_draco_webp_REVIEW.glb",
+      "bytes": 24268540,
+      "sha256": "8af2a5b072f4a5ec057ecf9a25ac25cf6fbae3e27b1c98de4e2a146c9baaf44e",
+      "triangles": 397371,
+      "zero": 0,
+      "removedDegenerates": 309,
+      "preservedRowNodes": 0,
+      "bounds": {
+        "min": [
+          -500,
+          -78.04438781738281,
+          -650
+        ],
+        "max": [
+          650.000244140625,
+          16.323524475097656,
+          450.000244140625
+        ]
+      },
+      "decoded": true,
+      "textures": 21
+    }
+  }
+}

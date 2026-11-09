@@ -1,0 +1,260 @@
+{
+  "method": "Fit projected uniformly spaced circular facade openings to manually identified source image centers and cylinder silhouettes. Focal scale fixed from original EXIF 133 mm equivalent, source preview 1280px. No source mesh used.",
+  "samples": [
+    {
+      "tower": "west",
+      "bayCount": 14,
+      "pixelRMS": 25.610184092415256,
+      "parameters": [
+        612.8507930364882,
+        11.484751611841993,
+        -1.4149070902554017
+      ]
+    },
+    {
+      "tower": "west",
+      "bayCount": 15,
+      "pixelRMS": 18.923506067443753,
+      "parameters": [
+        614.1352784863479,
+        11.232726154084249,
+        -1.3246817783588365
+      ]
+    },
+    {
+      "tower": "west",
+      "bayCount": 16,
+      "pixelRMS": 12.488176518866998,
+      "parameters": [
+        614.9901787848469,
+        10.985571928843955,
+        -1.2443581476354406
+      ]
+    },
+    {
+      "tower": "west",
+      "bayCount": 17,
+      "pixelRMS": 6.293000887363289,
+      "parameters": [
+        615.5034280016898,
+        10.748195476663598,
+        -1.172519446517867
+      ]
+    },
+    {
+      "tower": "west",
+      "bayCount": 18,
+      "pixelRMS": 1.6339911348514824,
+      "parameters": [
+        615.766651937316,
+        10.523352829670406,
+        -1.1080448518598278
+      ]
+    },
+    {
+      "tower": "west",
+      "bayCount": 19,
+      "pixelRMS": 6.33263505913405,
+      "parameters": [
+        615.8572524553912,
+        10.312409498614668,
+        -1.0499914186366348
+      ]
+    },
+    {
+      "tower": "west",
+      "bayCount": 20,
+      "pixelRMS": 12.134312244521158,
+      "parameters": [
+        615.8342858527445,
+        10.115838724377854,
+        -0.9975470145220664
+      ]
+    },
+    {
+      "tower": "west",
+      "bayCount": 21,
+      "pixelRMS": 17.873806821224406,
+      "parameters": [
+        615.740097787548,
+        9.933548921559622,
+        -0.9500083269582427
+      ]
+    },
+    {
+      "tower": "west",
+      "bayCount": 22,
+      "pixelRMS": 23.497255152542976,
+      "parameters": [
+        615.6033839221307,
+        9.765100506077497,
+        -0.9067659111458706
+      ]
+    },
+    {
+      "tower": "south",
+      "bayCount": 14,
+      "pixelRMS": 12.870758466822005,
+      "parameters": [
+        642.071852007705,
+        12.236152939691644,
+        -1.0631720621549254
+      ]
+    },
+    {
+      "tower": "south",
+      "bayCount": 15,
+      "pixelRMS": 6.4234315965731446,
+      "parameters": [
+        642.0404726541383,
+        11.941504696817486,
+        -0.9925182478311372
+      ]
+    },
+    {
+      "tower": "south",
+      "bayCount": 16,
+      "pixelRMS": 2.609219683401884,
+      "parameters": [
+        642.1685480827578,
+        11.668190210006319,
+        -0.9310304002009775
+      ]
+    },
+    {
+      "tower": "south",
+      "bayCount": 17,
+      "pixelRMS": 7.490816866397113,
+      "parameters": [
+        642.3770471783448,
+        11.417385695558906,
+        -0.8768668331500264
+      ]
+    },
+    {
+      "tower": "south",
+      "bayCount": 18,
+      "pixelRMS": 13.515648404231216,
+      "parameters": [
+        642.6185358509011,
+        11.188913995029816,
+        -0.8286910823982593
+      ]
+    },
+    {
+      "tower": "south",
+      "bayCount": 19,
+      "pixelRMS": 19.485146817154828,
+      "parameters": [
+        642.8663396216042,
+        10.981835359028727,
+        -0.7855038238291696
+      ]
+    },
+    {
+      "tower": "south",
+      "bayCount": 20,
+      "pixelRMS": 25.300826592277545,
+      "parameters": [
+        643.1059115109807,
+        10.794813977040473,
+        -0.7465340728284192
+      ]
+    },
+    {
+      "tower": "south",
+      "bayCount": 21,
+      "pixelRMS": 30.937177625130154,
+      "parameters": [
+        643.3302018753445,
+        10.626342324189437,
+        -0.7111735582491668
+      ]
+    },
+    {
+      "tower": "south",
+      "bayCount": 22,
+      "pixelRMS": 36.38466667321518,
+      "parameters": [
+        643.5376012867824,
+        10.474875092881044,
+        -0.6789361080650309
+      ]
+    },
+    {
+      "tower": "centre",
+      "bayCount": 7,
+      "pixelRMS": 23.47631169053791,
+      "parameters": [
+        644.4567440498809,
+        21.127516974157245,
+        -1.0374082972823901
+      ]
+    },
+    {
+      "tower": "centre",
+      "bayCount": 8,
+      "pixelRMS": 13.574282528661168,
+      "parameters": [
+        644.1366516510382,
+        20.342156592411484,
+        -0.9073603910659673
+      ]
+    },
+    {
+      "tower": "centre",
+      "bayCount": 9,
+      "pixelRMS": 7.927197001593394,
+      "parameters": [
+        643.7492285584843,
+        19.721524981695275,
+        -0.8076861865926179
+      ]
+    },
+    {
+      "tower": "centre",
+      "bayCount": 10,
+      "pixelRMS": 11.689433598394928,
+      "parameters": [
+        643.4379466845836,
+        19.241388439882385,
+        -0.729335161553505
+      ]
+    },
+    {
+      "tower": "centre",
+      "bayCount": 11,
+      "pixelRMS": 18.832598626099216,
+      "parameters": [
+        643.2103563983579,
+        18.873494385643372,
+        -0.666235844113562
+      ]
+    },
+    {
+      "tower": "centre",
+      "bayCount": 12,
+      "pixelRMS": 25.952271378326973,
+      "parameters": [
+        643.050463506249,
+        18.593065902717232,
+        -0.6143653722078272
+      ]
+    },
+    {
+      "tower": "centre",
+      "bayCount": 13,
+      "pixelRMS": 32.543907901210915,
+      "parameters": [
+        642.941882133071,
+        18.38023111451718,
+        -0.570990230059039
+      ]
+    }
+  ],
+  "decision": "Independent EXIF-constrained best fits: west 18 bays (RMS 1.63px), south 16 bays (RMS 2.61px). Do not assume equal tower bay counts. Absolute world phase remains provisional.",
+  "sourcePhotos": [
+    "R423_68151068_full.jpg",
+    "R423_68151083_full.jpg"
+  ]
+}

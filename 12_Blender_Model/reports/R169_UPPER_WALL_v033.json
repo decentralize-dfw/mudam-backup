@@ -1,0 +1,61 @@
+{
+  "scene": "MUDAM_R169_UST_DUVAR_ADAY_v033.blend",
+  "accepted": false,
+  "published": false,
+  "source_plane_offset": 1.7989055514335632,
+  "plane_coefficients": [
+    0.03639873890024838,
+    0.0755140278488402,
+    1.8419113662093884
+  ],
+  "plane_sample_rmse_m": 0.007860774153692808,
+  "aligned_roof_boundary_vertices": 11,
+  "removed_wall_faces": 80,
+  "source_fields": [
+    [
+      375,
+      440,
+      502,
+      580
+    ],
+    [
+      745,
+      425,
+      880,
+      578
+    ],
+    [
+      552,
+      473,
+      609,
+      532
+    ],
+    [
+      620,
+      473,
+      674,
+      532
+    ],
+    [
+      928,
+      473,
+      983,
+      532
+    ],
+    [
+      997,
+      473,
+      1057,
+      532
+    ]
+  ],
+  "limits": [
+    "Source appearance blurred; field boundaries approximate",
+    "0.08m recess assumed",
+    "Upper wall only; occluded right field excluded",
+    "Roof boundary and upper wall use one fitted source plane; inherited lower facade registration unresolved",
+    "Leftmost tall field clipped at source roof scope",
+    "Roof intersections and inherited facade transition require review"
+  ],
+  "visual_review": "Roof edge and upper wall now use one fitted source plane, sample RMSE0.007861m.11 roof boundary vertices aligned. v033 face splitting uses polygon extent intersection instead of center-only selection; hanging old facade triangles visibly removed. Upper-to-lower facade transition and raised roof fragments still unfinished; no whole building acceptance."
+}

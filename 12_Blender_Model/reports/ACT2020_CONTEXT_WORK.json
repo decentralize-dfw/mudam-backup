@@ -1,0 +1,57 @@
+{
+  "status": "candidate_not_accepted",
+  "source_url": "https://data.public.lu/en/datasets/maquette-3d-du-grand-duche-de-luxembourg/",
+  "license": "CC0",
+  "capture_year": 2020,
+  "selected_full_detail_tiles": 852,
+  "downloaded_tiles_at_record": 852,
+  "downloaded_bytes_at_record": 845745632,
+  "current_download_session": null,
+  "review_scene": "scenes/MUDAM_ACT2020_SOURCE_REVIEW_v002.blend",
+  "review_images": [
+    "renders/qa/ACT2020_source_full_overview.png",
+    "renders/qa/ACT2020_source_full_facades.png"
+  ],
+  "visual_findings": [
+    "Full downloaded context rendered: neighbouring facades, Philharmonie, roads, woodland, forts and terrain visible",
+    "Previous partial-download gap is absent in the full overview",
+    "Photogrammetric facade warping and baked illumination remain visible in the close view",
+    "Google Earth parity at matched scale remains unverified; no production acceptance"
+  ],
+  "remaining": [
+    "Validate modified pavilion link endpoints and floor/stair scope after rigid placement; exclude any duplicate terrain faces.",
+    "Export building plus necessary inner ground patches separately from full streamed environment; update and verify candidate viewer.",
+    "Accept scene only after required local gates; then normal publication/push and honest task-scope reassessment."
+  ],
+  "production_scene_unchanged": "R149",
+  "overall_progress_unchanged": 73.913043,
+  "recorded_utc": "2026-10-10T11:15:56.060775+00:00",
+  "conversion_check": "All 852 tiles, 15596236 triangle indices and 853 embedded image payloads verified; UV accessor values preserved, including shared source bufferViews.",
+  "download_recovery": "Two terminal connection timeouts recovered; final source manifest contains 852/852 tiles and no failures",
+  "download_complete": true,
+  "converted_triangles": 15596236,
+  "full_preview_session": null,
+  "reopened": true,
+  "preview_tiles": 852,
+  "preview_triangles": 15596236,
+  "missing_images": 0,
+  "image_sha256": {
+    "renders/qa/ACT2020_source_full_overview.png": "70258f83915c3edd220df3e31155ccc5c15c5b035032e29dc5d92bf33a82c1d3",
+    "renders/qa/ACT2020_source_full_facades.png": "489122f687892a60253ed9cb88d65449f7d4309a5f18a711b086911db1f117db"
+  },
+  "working_hybrid_scene": "scenes/MUDAM_R151_ACT_CEVRE_ADAY_v009.blend",
+  "preserved_uncut_scene": "scenes/MUDAM_ACT2020_DOKUNULMAMIS.blend",
+  "hybrid_revision": "R151_v009",
+  "hybrid_local_verification": "R151_v009_inherited_verification.json",
+  "latest_geometry_change": "Rigid pavilion shift +1.5801740961m east / -0.2937927484m north using eight OSM corner correspondences; 396 pavilion objects moved, 527 link objects receive a continuous endpoint transition. Ten lower wall bases extended to ground candidate. Added 66.254668m2 interpolated seam from LiDAR outside source footprint and blended to adjacent ACT source geometry/photo colours.",
+  "latest_visual_findings": [
+    "Large pavilion-base void closed in close view; bright initial terrain material replaced by interpolated neighbouring ACT photo-ground colours.",
+    "Corner fit RMS improved from 1.7327m to 0.6474m, not surveyed accuracy.",
+    "Independent reopen/inheritance passed: 9236 meshes unchanged outside declared scope; no missing images.",
+    "Whole-building acceptance, link circulation revalidation, terrain duplicate-surface check and candidate viewer update remain."
+  ],
+  "review_images_latest": [
+    "renders/qa/R151_v009_museum.png",
+    "renders/qa/R151_v009_ground_seam.png"
+  ]
+}

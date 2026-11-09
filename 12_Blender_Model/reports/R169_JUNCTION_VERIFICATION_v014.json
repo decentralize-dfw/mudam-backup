@@ -1,0 +1,28 @@
+{
+  "results": [
+    {
+      "version": 13,
+      "roof_occlusions_per_35_rays": [
+        35,
+        35,
+        30,
+        17
+      ],
+      "other_buildings_hash": "9c09e5f265726c0f510dafaefad6e52c30b04983512f57401528cc1cb74867ba",
+      "other_faces": 15806
+    },
+    {
+      "version": 14,
+      "roof_occlusions_per_35_rays": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "other_buildings_hash": "9c09e5f265726c0f510dafaefad6e52c30b04983512f57401528cc1cb74867ba",
+      "other_faces": 15806
+    }
+  ],
+  "accepted": false,
+  "scope": "140 dormer-front sightlines and unchanged other-building geometry; not whole-building acceptance"
+}

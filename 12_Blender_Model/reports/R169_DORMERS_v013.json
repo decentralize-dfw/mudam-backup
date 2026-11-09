@@ -1,0 +1,25 @@
+{
+  "scene": "MUDAM_R169_CATI_CIKMALARI_ADAY_v013.blend",
+  "accepted": false,
+  "published": false,
+  "reopened": true,
+  "removed_faces": [
+    0,
+    0,
+    1,
+    7
+  ],
+  "source": "Top cap footprints + R169_33_roof_elevation_1_source.png bottom pixels 401,399,397,395",
+  "assumptions": [
+    "0.10m frame section",
+    "Opaque glazing proxy material"
+  ],
+  "remaining": [
+    "Dormer-to-mansard junction needs correction",
+    "Front roof dormers",
+    "Right balcony",
+    "Rear lower facade and entrances",
+    "Other six buildings"
+  ],
+  "visual_review": "Not accepted: old sampled mansard faces visibly intersect/occlude new dormer fronts. Must resolve skirt topology; no Context 3 deployment."
+}

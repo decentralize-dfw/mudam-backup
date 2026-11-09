@@ -1,0 +1,12 @@
+{
+  "accepted": false,
+  "published": false,
+  "baseline": "R242",
+  "candidate": "R244",
+  "errors": [
+    "GLB reimport4zero-area faces",
+    "Visual seam and southeast transition remain unresolved"
+  ],
+  "method": "Shared authored terrain/court clipping; source only provides analytic grade coefficients",
+  "next": "Global conforming triangulation and explicit shared-edge geometric checks"
+}

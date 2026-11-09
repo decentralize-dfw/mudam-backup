@@ -1,0 +1,325 @@
+{
+  "source": [
+    {
+      "name": "walk_00",
+      "sourcePixel": [
+        490,
+        550
+      ],
+      "xy": [
+        -43.0,
+        8.57142857142857
+      ],
+      "medianZ": -3.4949493408203125,
+      "spread": 0.05902099609375,
+      "hits": 9,
+      "objects": [
+        "Mesh_0.020"
+      ]
+    },
+    {
+      "name": "walk_01",
+      "sourcePixel": [
+        530,
+        560
+      ],
+      "xy": [
+        -36.71428571428571,
+        7.0
+      ],
+      "medianZ": -3.2515411376953125,
+      "spread": 0.0313720703125,
+      "hits": 9,
+      "objects": [
+        "Mesh_0.020"
+      ]
+    },
+    {
+      "name": "walk_02",
+      "sourcePixel": [
+        600,
+        563
+      ],
+      "xy": [
+        -25.714285714285708,
+        6.528571428571425
+      ],
+      "medianZ": -3.3080215454101562,
+      "spread": 0.01978302001953125,
+      "hits": 9,
+      "objects": [
+        "Mesh_0.020"
+      ]
+    },
+    {
+      "name": "walk_03",
+      "sourcePixel": [
+        670,
+        576
+      ],
+      "xy": [
+        -14.714285714285708,
+        4.48571428571428
+      ],
+      "medianZ": -3.59906005859375,
+      "spread": 0.10266876220703125,
+      "hits": 9,
+      "objects": [
+        "Mesh_0.042"
+      ]
+    },
+    {
+      "name": "walk_04",
+      "sourcePixel": [
+        725,
+        620
+      ],
+      "xy": [
+        -6.071428571428569,
+        -2.4285714285714306
+      ],
+      "medianZ": -3.4543304443359375,
+      "spread": 0.10158538818359375,
+      "hits": 9,
+      "objects": [
+        "Mesh_0.042"
+      ]
+    },
+    {
+      "name": "walk_05",
+      "sourcePixel": [
+        758,
+        690
+      ],
+      "xy": [
+        -0.8857142857142861,
+        -13.42857142857143
+      ],
+      "medianZ": -3.34124755859375,
+      "spread": 0.01982879638671875,
+      "hits": 9,
+      "objects": [
+        "Mesh_0.040"
+      ]
+    },
+    {
+      "name": "walk_06",
+      "sourcePixel": [
+        758,
+        770
+      ],
+      "xy": [
+        -0.8857142857142861,
+        -26.0
+      ],
+      "medianZ": -3.405242919921875,
+      "spread": 0.0057830810546875,
+      "hits": 9,
+      "objects": [
+        "Mesh_0.040"
+      ]
+    },
+    {
+      "name": "walk_07",
+      "sourcePixel": [
+        763,
+        830
+      ],
+      "xy": [
+        -0.09999999999999432,
+        -35.428571428571416
+      ],
+      "medianZ": -3.2359771728515625,
+      "spread": 0.27402496337890625,
+      "hits": 9,
+      "objects": [
+        "Mesh_0.040"
+      ]
+    },
+    {
+      "name": "walk_08",
+      "sourcePixel": [
+        803,
+        876
+      ],
+      "xy": [
+        6.185714285714283,
+        -42.657142857142844
+      ],
+      "medianZ": -1.9689483642578125,
+      "spread": 0.18658447265625,
+      "hits": 9,
+      "objects": [
+        "Mesh_0.040"
+      ]
+    }
+  ],
+  "model": [
+    {
+      "name": "walk_00",
+      "sourcePixel": [
+        490,
+        550
+      ],
+      "xy": [
+        -43.0,
+        8.57142857142857
+      ],
+      "medianZ": -6.461158752441406,
+      "spread": 3.11883544921875,
+      "hits": 9,
+      "objects": [
+        "R152_CLASS2_TERRAIN",
+        "R152_HISTORIC_WALL_759680904"
+      ],
+      "modelMinusSource": -2.9662094116210938
+    },
+    {
+      "name": "walk_01",
+      "sourcePixel": [
+        530,
+        560
+      ],
+      "xy": [
+        -36.71428571428571,
+        7.0
+      ],
+      "medianZ": -3.34442138671875,
+      "spread": 2.910888671875,
+      "hits": 9,
+      "objects": [
+        "R152_CLASS2_TERRAIN",
+        "R152_HISTORIC_WALL_759680904"
+      ],
+      "modelMinusSource": -0.0928802490234375
+    },
+    {
+      "name": "walk_02",
+      "sourcePixel": [
+        600,
+        563
+      ],
+      "xy": [
+        -25.714285714285708,
+        6.528571428571425
+      ],
+      "medianZ": -5.361518859863281,
+      "spread": 0.1988067626953125,
+      "hits": 9,
+      "objects": [
+        "R152_CLASS2_TERRAIN"
+      ],
+      "modelMinusSource": -2.053497314453125
+    },
+    {
+      "name": "walk_03",
+      "sourcePixel": [
+        670,
+        576
+      ],
+      "xy": [
+        -14.714285714285708,
+        4.48571428571428
+      ],
+      "medianZ": -4.1446533203125,
+      "spread": 0.3523406982421875,
+      "hits": 9,
+      "objects": [
+        "R152_CLASS2_TERRAIN"
+      ],
+      "modelMinusSource": -0.54559326171875
+    },
+    {
+      "name": "walk_04",
+      "sourcePixel": [
+        725,
+        620
+      ],
+      "xy": [
+        -6.071428571428569,
+        -2.4285714285714306
+      ],
+      "medianZ": -7.365425109863281,
+      "spread": 0.1135101318359375,
+      "hits": 9,
+      "objects": [
+        "R152_CLASS2_TERRAIN"
+      ],
+      "modelMinusSource": -3.9110946655273438
+    },
+    {
+      "name": "walk_05",
+      "sourcePixel": [
+        758,
+        690
+      ],
+      "xy": [
+        -0.8857142857142861,
+        -13.42857142857143
+      ],
+      "medianZ": -7.082374572753906,
+      "spread": 0.0819244384765625,
+      "hits": 9,
+      "objects": [
+        "R152_CLASS2_TERRAIN"
+      ],
+      "modelMinusSource": -3.7411270141601562
+    },
+    {
+      "name": "walk_06",
+      "sourcePixel": [
+        758,
+        770
+      ],
+      "xy": [
+        -0.8857142857142861,
+        -26.0
+      ],
+      "medianZ": -8.05322265625,
+      "spread": 0.1198577880859375,
+      "hits": 9,
+      "objects": [
+        "R152_CLASS2_TERRAIN"
+      ],
+      "modelMinusSource": -4.647979736328125
+    },
+    {
+      "name": "walk_07",
+      "sourcePixel": [
+        763,
+        830
+      ],
+      "xy": [
+        -0.09999999999999432,
+        -35.428571428571416
+      ],
+      "medianZ": -7.363311767578125,
+      "spread": 0.10181427001953125,
+      "hits": 9,
+      "objects": [
+        "R152_CLASS2_TERRAIN"
+      ],
+      "modelMinusSource": -4.1273345947265625
+    },
+    {
+      "name": "walk_08",
+      "sourcePixel": [
+        803,
+        876
+      ],
+      "xy": [
+        6.185714285714283,
+        -42.657142857142844
+      ],
+      "medianZ": -6.847328186035156,
+      "spread": 0.04264068603515625,
+      "hits": 9,
+      "objects": [
+        "R152_CLASS2_TERRAIN"
+      ],
+      "modelMinusSource": -4.878379821777344
+    }
+  ],
+  "accepted": false,
+  "method": "9 vertical samples in0.6m square at manually selected visible source ground locations; vegetation and vertical surfaces may contaminate samples; not global accuracy proof"
+}

@@ -1,0 +1,201 @@
+{
+  "scene": "MUDAM_R326_KUZEY_KALINTI_PLAN_ADAY_v001.blend",
+  "accepted": false,
+  "published": false,
+  "changedWallVertices": 80,
+  "previousWallTop": 6.633193492889404,
+  "revisedWallTop": -0.08,
+  "outline": [
+    [
+      250,
+      479
+    ],
+    [
+      778,
+      167
+    ],
+    [
+      1045,
+      631
+    ],
+    [
+      306,
+      616
+    ]
+  ],
+  "recesses": [
+    [
+      [
+        292,
+        478
+      ],
+      [
+        750,
+        220
+      ],
+      [
+        799,
+        296
+      ],
+      [
+        344,
+        568
+      ]
+    ],
+    [
+      [
+        748,
+        384
+      ],
+      [
+        826,
+        337
+      ],
+      [
+        850,
+        378
+      ],
+      [
+        774,
+        421
+      ]
+    ],
+    [
+      [
+        790,
+        474
+      ],
+      [
+        880,
+        430
+      ],
+      [
+        900,
+        472
+      ],
+      [
+        811,
+        518
+      ]
+    ],
+    [
+      [
+        841,
+        557
+      ],
+      [
+        932,
+        530
+      ],
+      [
+        962,
+        574
+      ],
+      [
+        863,
+        600
+      ]
+    ],
+    [
+      [
+        462,
+        565
+      ],
+      [
+        505,
+        501
+      ],
+      [
+        580,
+        520
+      ],
+      [
+        592,
+        550
+      ],
+      [
+        524,
+        529
+      ],
+      [
+        484,
+        579
+      ]
+    ]
+  ],
+  "meshChecks": [
+    {
+      "name": "R325_NORTH_RUIN_RAISED_PLATFORM",
+      "nonManifold": 0,
+      "zeroArea": 0
+    },
+    {
+      "name": "R325_NORTH_RUIN_CENTRAL_COURT",
+      "nonManifold": 0,
+      "zeroArea": 0
+    },
+    {
+      "name": "R326_NORTH_RUIN_CROSSWALL_00",
+      "nonManifold": 0,
+      "zeroArea": 0
+    },
+    {
+      "name": "R326_NORTH_RUIN_CROSSWALL_01",
+      "nonManifold": 0,
+      "zeroArea": 0
+    },
+    {
+      "name": "R326_NORTH_RUIN_CROSSWALL_02",
+      "nonManifold": 0,
+      "zeroArea": 0
+    },
+    {
+      "name": "R326_NORTH_RUIN_CROSSWALL_03",
+      "nonManifold": 0,
+      "zeroArea": 0
+    }
+  ],
+  "glbChecks": [
+    {
+      "name": "R325_NORTH_RUIN_RAISED_PLATFORM",
+      "nonFinite": 0,
+      "zeroArea": 0
+    },
+    {
+      "name": "R326_NORTH_RUIN_CROSSWALL_00",
+      "nonFinite": 0,
+      "zeroArea": 0
+    },
+    {
+      "name": "R326_NORTH_RUIN_CROSSWALL_01",
+      "nonFinite": 0,
+      "zeroArea": 0
+    },
+    {
+      "name": "R326_NORTH_RUIN_CROSSWALL_02",
+      "nonFinite": 0,
+      "zeroArea": 0
+    },
+    {
+      "name": "R326_NORTH_RUIN_CROSSWALL_03",
+      "nonFinite": 0,
+      "zeroArea": 0
+    },
+    {
+      "name": "R325_NORTH_RUIN_CENTRAL_COURT",
+      "nonFinite": 0,
+      "zeroArea": 0
+    }
+  ],
+  "sourceCourtTreesHidden": [
+    "R158_TREE_05356",
+    "R158_TREE_05753",
+    "R158_TREE_05911",
+    "R158_TREE_06116"
+  ],
+  "limits": [
+    "Chamber floors and outer moat still need source checks",
+    "Platform material and perimeter alignment require matched-view review",
+    "Not a whole-ring acceptance"
+  ]
+}

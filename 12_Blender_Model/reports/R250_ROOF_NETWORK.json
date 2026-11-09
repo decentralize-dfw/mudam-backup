@@ -1,0 +1,86 @@
+{
+  "accepted": false,
+  "published": false,
+  "created": [
+    "R250_ROOF_NETWORK_00",
+    "R250_ROOF_NETWORK_01",
+    "R250_ROOF_NETWORK_02",
+    "R250_ROOF_NETWORK_03",
+    "R250_ROOF_NETWORK_05",
+    "R250_ROOF_NETWORK_06",
+    "R250_ROOF_NETWORK_07",
+    "R250_ROOF_NETWORK_08",
+    "R250_ROOF_NETWORK_09",
+    "R250_ROOF_NETWORK_10",
+    "R250_ROOF_NETWORK_11"
+  ],
+  "reopen": [
+    {
+      "name": "R250_ROOF_NETWORK_00",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R250_ROOF_NETWORK_01",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R250_ROOF_NETWORK_02",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R250_ROOF_NETWORK_03",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R250_ROOF_NETWORK_05",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R250_ROOF_NETWORK_06",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R250_ROOF_NETWORK_07",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R250_ROOF_NETWORK_08",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R250_ROOF_NETWORK_09",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R250_ROOF_NETWORK_10",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R250_ROOF_NETWORK_11",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R176_NOVOTEL_LOW",
+      "boundary": 0,
+      "zero": 0
+    }
+  ],
+  "source": "R250_lowroof_source_top.png; independent traced planar paths and scalar source elevations",
+  "limits": [
+    "Roof members have approximate0.45m widths",
+    "Path4 insufficient sample support omitted",
+    "Uniform cap heights simplify unresolved slopes",
+    "Source has incomplete east boundary coverage; fullbuilding not accepted"
+  ]
+}

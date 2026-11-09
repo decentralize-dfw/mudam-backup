@@ -1,0 +1,28 @@
+{
+  "check": {
+    "nonManifold": 0,
+    "zeroArea": 0
+  },
+  "reopened": true,
+  "tests": [
+    {
+      "x": -27,
+      "y": 2,
+      "object": "R548_WEST_MOAT_CONTINUOUS_SLOPE",
+      "error": -0.03033447265625
+    },
+    {
+      "x": -26,
+      "y": 2,
+      "object": "R548_WEST_MOAT_CONTINUOUS_SLOPE",
+      "error": -0.004199981689453125
+    },
+    {
+      "x": -24,
+      "y": 2,
+      "object": "R548_WEST_MOAT_CONTINUOUS_SLOPE",
+      "error": 0.01499176025390625
+    }
+  ],
+  "accepted": false
+}

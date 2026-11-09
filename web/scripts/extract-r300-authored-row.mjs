@@ -1,0 +1,11 @@
+import fs from 'node:fs';
+import {NodeIO,getBounds} from '@gltf-transform/core';
+import {ALL_EXTENSIONS} from '@gltf-transform/extensions';
+import {prune,unpartition} from '@gltf-transform/functions';
+import draco3d from 'draco3dgltf';
+const io=new NodeIO().registerExtensions(ALL_EXTENSIONS).registerDependencies({'draco3d.decoder':await draco3d.createDecoderModule()});
+const d=await io.read('demo/model/cevre3/authored-district.glb');let count=0;
+for(const n of [...d.getRoot().listNodes()])if(n.getName().startsWith('ARCH_'))count++;else n.dispose();
+if(count!==322)throw Error('Unexpected authored row node count '+count);
+await d.transform(prune(),unpartition());for(const e of d.getRoot().listExtensionsUsed())if(e.extensionName==='KHR_draco_mesh_compression')e.dispose();
+const path='12_Blender_Model/exports/r152_clean/r300_preserved_authored_row.glb';await io.write(path,d);fs.writeFileSync('12_Blender_Model/reports/R300_PRESERVED_ROW.json',JSON.stringify({path,nodes:count,source:'Published R213 authored-district ARCH_ nodes only',bounds:getBounds(d.getRoot().listScenes()[0])},null,2));console.log('Preserved',count,'authored nodes');

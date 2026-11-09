@@ -1,0 +1,36 @@
+{
+  "points": [
+    [
+      -235.34059143066406,
+      -189.41024780273438,
+      -17.74919319152832
+    ],
+    [
+      -228.36981201171875,
+      -196.57447814941406,
+      -17.795787811279297
+    ],
+    [
+      -224.4619598388672,
+      -191.43499755859375,
+      -17.39202308654785
+    ]
+  ],
+  "pixels": [
+    [
+      440,
+      348
+    ],
+    [
+      463,
+      477
+    ],
+    [
+      593,
+      449
+    ]
+  ],
+  "source": "R239_ruin_source.png",
+  "method": "Three source ray measurements define two independent straight partition walls; no scan mesh transfer",
+  "accepted": false
+}

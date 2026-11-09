@@ -1,0 +1,30 @@
+{
+  "reviewOnly": true,
+  "fullScopeAccepted": false,
+  "sourceScene": "MUDAM_R492_SUR_CEVRE_UV_DUZELTME_ADAY_v001.blend",
+  "files": {
+    "near": {
+      "file": "12_Blender_Model/exports/r152_clean/r492_near_draco_webp_REVIEW.glb",
+      "bytes": 7997784,
+      "sha256": "c15f907e282d8c4fdcac5c55d50fc23eecf1720c414165f18f75effabe5c8da4",
+      "triangles": 394265,
+      "zero": 0,
+      "removedDegenerates": 244,
+      "preservedRowNodes": 0,
+      "bounds": {
+        "min": [
+          -500,
+          -78.04438781738281,
+          -650
+        ],
+        "max": [
+          650.000244140625,
+          16.323524475097656,
+          450.000244140625
+        ]
+      },
+      "decoded": true,
+      "textures": 15
+    }
+  }
+}

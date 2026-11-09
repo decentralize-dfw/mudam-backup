@@ -1,0 +1,28 @@
+{
+  "changes": [
+    "Historic wall UV name now matches material explicit UV node.",
+    "Lawn uses same georeferenced landcover atlas UV and 6m micro normal UV as surrounding terrain; recovered affine residual <1e-6.",
+    "Passage underside extended below adjacent ground as hidden structural closure, not claimed surveyed foundation."
+  ],
+  "checks": {
+    "R485_NW_LAWN": {
+      "nonManifold": 0,
+      "zeroArea": 0
+    },
+    "R485_NW_HISTORIC_RETAINING_WALL": {
+      "nonManifold": 0,
+      "zeroArea": 0
+    },
+    "R486_NW_COURT_RETAINING_EDGE": {
+      "nonManifold": 0,
+      "zeroArea": 0
+    },
+    "R487_NW_MINERAL_PASSAGE": {
+      "nonManifold": 0,
+      "zeroArea": 0
+    }
+  },
+  "reopened": true,
+  "accepted": false,
+  "published": false
+}

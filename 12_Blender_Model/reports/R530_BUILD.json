@@ -1,0 +1,28 @@
+{
+  "checks": [
+    {
+      "name": "R494_SOUTH_PAVILION_OUTER_RETAINING_WALL",
+      "nonManifold": 0,
+      "zeroArea": 0
+    },
+    {
+      "name": "R495_SOUTH_OUTER_WALL_EAST_RETURN",
+      "nonManifold": 0,
+      "zeroArea": 0
+    }
+  ],
+  "cuts": [
+    {
+      "name": "R152_CLASS2_TERRAIN",
+      "cutTriangles": 658
+    }
+  ],
+  "reopened": true,
+  "sharedJunctionGap": 0.0,
+  "accepted": false,
+  "published": false,
+  "remaining": [
+    "Road surface behind cap not yet rebuilt",
+    "Obscured return and western termination require photo comparison"
+  ]
+}

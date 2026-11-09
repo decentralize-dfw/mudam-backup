@@ -1,0 +1,31 @@
+{
+  "accepted": false,
+  "buildings": [
+    {
+      "id": "51071558",
+      "base": -2.3030975341796873,
+      "top": 31.96057891845703,
+      "height_tag": 24.0,
+      "terrain_range": [
+        -2.0030975341796875,
+        14.48321533203125
+      ]
+    },
+    {
+      "id": "rel18163400",
+      "base": 10.784030151367187,
+      "top": 32.150489807128906,
+      "height_tag": 20.0,
+      "terrain_range": [
+        11.084030151367188,
+        15.872711181640625
+      ]
+    }
+  ],
+  "limits": [
+    "Simple mass representation explicitly allowed for outside-scan regions",
+    "Current OSM footprint dates may differ from ACT",
+    "No detailed facade claim",
+    "Two outer-scan buildings added on expanded terrain; detailed facade representation not claimed"
+  ]
+}

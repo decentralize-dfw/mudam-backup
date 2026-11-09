@@ -1,0 +1,106 @@
+{
+  "accepted": false,
+  "published": false,
+  "scope": "Two independently traced rear connection envelopes with fitted planar roofs; whole architecture incomplete",
+  "records": [
+    {
+      "name": "R226_ERASMUS_REAR_0",
+      "roof": 11.925181180113821,
+      "groundContactBases": [
+        4.402919006347656,
+        4.402919006347656,
+        4.402919006347656,
+        4.402919006347656
+      ],
+      "closed": true,
+      "openingsModeled": false
+    },
+    {
+      "name": "R226_ERASMUS_REAR_1",
+      "roof": 11.722833044615019,
+      "groundContactBases": [
+        5.530322265625,
+        5.530322265625,
+        5.530322265625,
+        5.530322265625
+      ],
+      "closed": true,
+      "openingsModeled": false
+    }
+  ],
+  "reopen": [
+    {
+      "name": "R226_ERASMUS_REAR_0",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R226_ERASMUS_REAR_1",
+      "boundary": 0,
+      "zero": 0
+    }
+  ],
+  "method": "Independently constructed planar closed volumes; scalar measured roofs and current terrain contact",
+  "limits": [
+    "Blank facade envelopes are study only; actual windows doors and frames still missing",
+    "Remaining wings rear circulation and courtyard construction missing",
+    "Ground contact follows current modeled terrain, not surveyed facade base heights",
+    "Do not publish as accepted architecture or replace R213 production"
+  ],
+  "visualReview": {
+    "source": "R214_erasmus_module_reference.png and R221_erasmus_front_source.png",
+    "candidate": "R226_erasmus_front_authored.png",
+    "accepted": false,
+    "findings": [
+      "Two rear-band volumes now present at source-traced positions.",
+      "Blank courtyard facades, raised rear roof structures, curved glass link and remaining junction gaps remain.",
+      "Only envelope study; do not publish as complete architecture."
+    ]
+  },
+  "sourceTracePixels": [
+    [
+      [
+        96,
+        702
+      ],
+      [
+        280,
+        550
+      ],
+      [
+        348,
+        645
+      ],
+      [
+        163,
+        796
+      ]
+    ],
+    [
+      [
+        445,
+        395
+      ],
+      [
+        626,
+        244
+      ],
+      [
+        689,
+        335
+      ],
+      [
+        514,
+        482
+      ]
+    ]
+  ],
+  "fitHeldOutP90": [
+    0.1334731295,
+    0.0732147415
+  ],
+  "fitSupport": [
+    0.96261682,
+    0.98148148
+  ]
+}

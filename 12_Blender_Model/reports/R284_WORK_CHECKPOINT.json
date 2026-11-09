@@ -1,0 +1,54 @@
+{
+  "local_master": "MUDAM_R284_DOGU_UZUN_CATI_ADAY_v001.blend",
+  "delivery_groups": [
+    [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    [
+      7,
+      8,
+      9,
+      10,
+      11
+    ]
+  ],
+  "first_group_complete": false,
+  "public_release": "R213",
+  "pushed": false,
+  "validation": {
+    "R275_COURT_GROUND": {
+      "mesh_groups": 33,
+      "boundary_edges": 0,
+      "zero_area_faces": 0,
+      "accepted": false,
+      "published": false
+    },
+    "R280_TOWER": {
+      "mesh_groups": 8,
+      "boundary_edges": 0,
+      "zero_area_faces": 0,
+      "accepted": false,
+      "published": false
+    },
+    "R284_NORTH_ROOF": {
+      "mesh_groups": 61,
+      "boundary_edges": 0,
+      "zero_area_faces": 0,
+      "accepted": false,
+      "published": false
+    }
+  },
+  "remaining_primary_work": [
+    "Eastern complex low podium and facades independently rebuilt",
+    "Seven weak roof bay fits and roof plant",
+    "Other first-six building source fidelity and ground interfaces",
+    "Fort/low district/bridge source and contact acceptance"
+  ],
+  "automation_status": "ACTIVE",
+  "automation_interval_minutes": 30
+}

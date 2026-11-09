@@ -1,0 +1,34 @@
+{
+  "file": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R151_ACT_CEVRE_ADAY_v008.blend",
+  "accepted": false,
+  "changed_walls": [
+    "R17_WALL_0",
+    "R17_WALL_1",
+    "R17_WALL_2",
+    "R17_PORTAL_BELOW",
+    "R17_WALL_4",
+    "R17_WALL_5",
+    "R17_WALL_6",
+    "R17_WINDOW_LEFT",
+    "R17_WINDOW_RIGHT",
+    "R17_WINDOW_SILL"
+  ],
+  "new_mesh": "R151_PAV_GROUND_JOIN",
+  "ground_area": 66.25466828973168,
+  "source_distances": [
+    0.002806499839756199,
+    0.6165748402788342,
+    2.178355041096345,
+    4.064633922402605
+  ],
+  "limits": [
+    "Interpolated presentation seam, not a surveyed terrain surface beneath the original building.",
+    "Both source height datums are tied to the same road anchor; uncertainty retained."
+  ],
+  "remaining": [
+    "Local visual seam acceptance",
+    "Duplicate source-surface exclusion",
+    "Independent reopen and inheritance check",
+    "Publish only after complete scene and viewer acceptance"
+  ]
+}

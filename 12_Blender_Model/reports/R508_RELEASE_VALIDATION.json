@@ -1,0 +1,30 @@
+{
+  "reviewOnly": true,
+  "fullScopeAccepted": false,
+  "sourceScene": "MUDAM_R508_BATI_KULE_EKSEN_ZEMIN_ADAY_v001.blend",
+  "files": {
+    "near": {
+      "file": "12_Blender_Model/exports/r152_clean/r508_near_draco_webp_REVIEW.glb",
+      "bytes": 11331820,
+      "sha256": "e0ac071fb33eb14b761b1241ac5eb7d1cc5b4cb7fe9927d23227f1d712232869",
+      "triangles": 395514,
+      "zero": 0,
+      "removedDegenerates": 246,
+      "preservedRowNodes": 0,
+      "bounds": {
+        "min": [
+          -500,
+          -78.04438781738281,
+          -650
+        ],
+        "max": [
+          650.000244140625,
+          16.323524475097656,
+          450.000244140625
+        ]
+      },
+      "decoded": true,
+      "textures": 18
+    }
+  }
+}

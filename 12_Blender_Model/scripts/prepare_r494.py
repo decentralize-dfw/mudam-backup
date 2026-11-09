@@ -1,0 +1,2 @@
+from pathlib import Path
+R=Path('12_Blender_Model');s=(R/'scripts/render_r491_east.py').read_text().replace('MUDAM_R490_TAM_KUZEYBATI_GECIT_ADAY_v001.blend','MUDAM_R492_SUR_CEVRE_UV_DUZELTME_ADAY_v001.blend').replace('(60,-35,70)','(35,-60,90)').replace('(60,-35,0)','(35,-60,0)').replace('ortho_scale=32','ortho_scale=55').replace('R491_east_','R494_pavilion_outer_');(R/'scripts/render_r494_outer.py').write_text(s)

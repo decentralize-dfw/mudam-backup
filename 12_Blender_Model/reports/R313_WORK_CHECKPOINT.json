@@ -1,0 +1,25 @@
+{
+  "scene": "scenes/MUDAM_R311_ECCL_ORMAN_CEPHE_ADAY_v002.blend",
+  "accepted": false,
+  "published": false,
+  "firstSixComplete": false,
+  "changes": [
+    "R308 independent 298.601m ECCL road glass facade and metallic wing canopy; roof and facade dimensions partly provisional",
+    "R309 closed end returns, front floor junctions, local supporting plinth; GLB components boundary/zero=0; whole building closure still incomplete",
+    "R310 north approach extended to entire166m mapped way172705752,8 obstructing tree objects removed; replaces R305 without duplicate; terrain changes up to5.219m require review",
+    "R311v002 independent135m forest curtain wall on traced roof edge; inherited frontage strip removed, source-photo facade textures not used for new meshes; v001 visual overlap superseded",
+    "R313151 eligible mapped footprint IDs accounted in rectangle:147 abstract masses plus4 preserved detailed row IDs;147 mesh shells closed/nozero and footprint vertex error maximum0.000038m;17179ground samples one missing at1337806190 after tolerance0.0001; rowSupport stored in audit"
+  ],
+  "remaining": [
+    "Firstsix remain incomplete; no similarity percentage asserted",
+    "ECCL facade exact bay positions, entrances, end junctions and ground apron still provisional/incomplete; remaining inherited surfaces elsewhere unchanged",
+    "Region1 entirefort boundary continuity/remnants unresolved",
+    "Region4 adjacent northviaduct/southrailapproach and source arch rhythm unresolved",
+    "Region5/6 other building hidden facades/grounds and roof plant pending",
+    "R310 abrupt terrain adjustment max5.219m not accepted",
+    "One lower district ground boundary miss at(-397.212799,-237.212753) and marked-region extent beyond rectangle not accepted"
+  ],
+  "publicRevision": "R213 unchanged",
+  "noPushThisTurn": true,
+  "rowAlreadyInMaster": true
+}

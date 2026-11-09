@@ -1,0 +1,10 @@
+import bpy,bmesh,json,math
+from pathlib import Path
+R=Path(__file__).resolve().parents[1];bpy.ops.wm.open_mainfile(filepath=str(R/'scenes/MUDAM_R407_KALE_ORTA_KULE_AVLU_BAGLANTISI_ADAY_v001.blend'));raw=json.loads((R/'.local_source_cache/r154/fort.json').read_text());c=json.loads((R/'reports/R399_FRONT_COURT_PLANES.json').read_text())['tower_forecourt']['plane'];checks=[]
+for row in raw['towers']:
+ if row['name']=='CENTRE':continue
+ x,y=row['center'];r=row['radius']+.25;z=c[0]*x+c[1]*y+c[2]-.08;n=96;vs=[(x+r*math.cos(math.tau*i/n),y+r*math.sin(math.tau*i/n),zz) for zz in [z,2.75] for i in range(n)];fs=[list(range(n-1,-1,-1)),list(range(n,2*n))]+[(i,(i+1)%n,(i+1)%n+n,i+n) for i in range(n)];name='R408_'+row['name']+'_TOWER_COURT_FOOT';me=bpy.data.meshes.new(name);me.from_pydata(vs,[],fs);me.update();ob=bpy.data.objects.new(name,me);bpy.context.scene.collection.objects.link(ob);me.materials.append(bpy.data.materials['R154_FORT_STONE_PBR']);bm=bmesh.new();bm.from_mesh(me);bmesh.ops.recalc_face_normals(bm,faces=list(bm.faces));bm.to_mesh(me);checks.append(dict(name=name,nonManifold=sum(not e.is_manifold for e in bm.edges),zeroArea=sum(f.calc_area()<1e-10 for f in bm.faces),bottom=z,top=2.75));bm.free();uv=me.uv_layers.new(name='UVMap')
+ for l in me.loops:
+  p=me.vertices[l.vertex_index].co;uv.data[l.index].uv=(math.atan2(p.y-y,p.x-x)*r/4,p.z/4)
+ ob['level_id']='SITE';ob['source']='Continuous cylindrical masonry foot between source-measured low court plane and inherited tower base ring. Existing cap, windows and outer fort retaining wall unchanged.'
+out=R/'scenes/MUDAM_R408_KALE_UC_KULE_ZEMIN_BAGLANTISI_ADAY_v001.blend';bpy.ops.wm.save_as_mainfile(filepath=str(out),compress=True);bpy.ops.wm.open_mainfile(filepath=str(out));assert not any(x['nonManifold'] or x['zeroArea'] for x in checks),checks;(R/'reports/R408_TOWER_FEET.json').write_text(json.dumps(dict(scene=out.name,accepted=False,published=False,checks=checks,limits=['Closes inherited unsupported tower bases exposed by corrected courtyard. Whole fort and museum ring still require source acceptance.']),indent=2));print('R408_READY')

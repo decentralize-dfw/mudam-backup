@@ -1,0 +1,28 @@
+{
+  "check": {
+    "nonManifold": 0,
+    "zeroArea": 0
+  },
+  "reopened": true,
+  "tests": [
+    {
+      "x": -29,
+      "y": 3,
+      "object": "R544_WEST_MOAT_MISSING_SLOPED_GROUND",
+      "error": -0.0051727294921875
+    },
+    {
+      "x": -28,
+      "y": 3,
+      "object": "R544_WEST_MOAT_MISSING_SLOPED_GROUND",
+      "error": -0.009738922119140625
+    },
+    {
+      "x": -30,
+      "y": 4,
+      "object": "R544_WEST_MOAT_MISSING_SLOPED_GROUND",
+      "error": 0.035312652587890625
+    }
+  ],
+  "accepted": false
+}

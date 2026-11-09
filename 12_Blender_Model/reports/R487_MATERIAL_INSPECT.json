@@ -1,0 +1,166 @@
+{
+  "R485_NW_HISTORIC_RETAINING_WALL": [
+    {
+      "name": "R129_HISTORIC_MASONRY_APPEARANCE_CANDIDATE",
+      "nodes": [
+        [
+          "BSDF_PRINCIPLED",
+          ""
+        ],
+        [
+          "OUTPUT_MATERIAL",
+          ""
+        ],
+        [
+          "UVMAP",
+          ""
+        ],
+        [
+          "TEX_IMAGE",
+          "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\.local_source_cache\\r151_web_lod\\image_0869.png"
+        ],
+        [
+          "TEX_IMAGE",
+          "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\.local_source_cache\\r151_web_lod\\image_0870.png"
+        ],
+        [
+          "NORMAL_MAP",
+          ""
+        ],
+        [
+          "TEX_IMAGE",
+          "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\.local_source_cache\\r151_web_lod\\image_0871.png"
+        ]
+      ]
+    }
+  ],
+  "R152_HISTORIC_WALL_49911001": [
+    {
+      "name": "R129_HISTORIC_MASONRY_APPEARANCE_CANDIDATE",
+      "nodes": [
+        [
+          "BSDF_PRINCIPLED",
+          ""
+        ],
+        [
+          "OUTPUT_MATERIAL",
+          ""
+        ],
+        [
+          "UVMAP",
+          ""
+        ],
+        [
+          "TEX_IMAGE",
+          "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\.local_source_cache\\r151_web_lod\\image_0869.png"
+        ],
+        [
+          "TEX_IMAGE",
+          "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\.local_source_cache\\r151_web_lod\\image_0870.png"
+        ],
+        [
+          "NORMAL_MAP",
+          ""
+        ],
+        [
+          "TEX_IMAGE",
+          "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\.local_source_cache\\r151_web_lod\\image_0871.png"
+        ]
+      ]
+    }
+  ],
+  "R35_WALL_51946353_04_0": [
+    {
+      "name": "R35_HISTORIC_WALL_UNTEXTURED_CONTEXT",
+      "nodes": [
+        [
+          "BSDF_PRINCIPLED",
+          ""
+        ],
+        [
+          "OUTPUT_MATERIAL",
+          ""
+        ]
+      ]
+    },
+    {
+      "name": "R129_HISTORIC_MASONRY_APPEARANCE_CANDIDATE",
+      "nodes": [
+        [
+          "BSDF_PRINCIPLED",
+          ""
+        ],
+        [
+          "OUTPUT_MATERIAL",
+          ""
+        ],
+        [
+          "UVMAP",
+          ""
+        ],
+        [
+          "TEX_IMAGE",
+          "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\.local_source_cache\\r151_web_lod\\image_0869.png"
+        ],
+        [
+          "TEX_IMAGE",
+          "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\.local_source_cache\\r151_web_lod\\image_0870.png"
+        ],
+        [
+          "NORMAL_MAP",
+          ""
+        ],
+        [
+          "TEX_IMAGE",
+          "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\.local_source_cache\\r151_web_lod\\image_0871.png"
+        ]
+      ]
+    }
+  ],
+  "R457_NORTH_LOADING_COURT": [
+    {
+      "name": "R457_LOADING_COURT_MINERAL",
+      "nodes": [
+        [
+          "BSDF_PRINCIPLED",
+          ""
+        ],
+        [
+          "OUTPUT_MATERIAL",
+          ""
+        ]
+      ]
+    }
+  ],
+  "R152_CLASS2_TERRAIN": [
+    {
+      "name": "R157_CONTINUOUS_LANDCOVER",
+      "nodes": [
+        [
+          "BSDF_PRINCIPLED",
+          ""
+        ],
+        [
+          "OUTPUT_MATERIAL",
+          ""
+        ],
+        [
+          "TEX_IMAGE",
+          "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\textures\\R157_landcover_atlas.jpg"
+        ],
+        [
+          "TEX_IMAGE",
+          "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\textures\\R157_ground_micro_normal.png"
+        ],
+        [
+          "UVMAP",
+          ""
+        ],
+        [
+          "NORMAL_MAP",
+          ""
+        ]
+      ]
+    }
+  ]
+}

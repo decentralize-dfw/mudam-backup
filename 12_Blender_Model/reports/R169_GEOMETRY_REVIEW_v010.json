@@ -1,0 +1,29 @@
+{
+  "scene": "MUDAM_R169_CEPHE_GEOMETRI_ADAY_v010.blend",
+  "reopened": true,
+  "objects": [
+    {
+      "name": "R169_MEASURED_ENVELOPE",
+      "vertices": 10086,
+      "faces": 19618,
+      "zero_area_faces": 0
+    },
+    {
+      "name": "R169_33_FRONT_REBUILT.001",
+      "vertices": 1288,
+      "faces": 322,
+      "zero_area_faces": 0
+    },
+    {
+      "name": "R169_33_LEFT_BALCONIES",
+      "vertices": 1376,
+      "faces": 344,
+      "zero_area_faces": 0
+    }
+  ],
+  "balcony_normal_corrections": 96,
+  "accepted": false,
+  "published": false,
+  "export": "exports/r152_clean/r169_geometry_review_v010.glb",
+  "scope": "Partial reconstruction review only. Source-visible central/side openings and two left balconies; four broad balcony glazing fields provisional. Unfinished right balconies, rear facade and roof dormers prevent production acceptance."
+}

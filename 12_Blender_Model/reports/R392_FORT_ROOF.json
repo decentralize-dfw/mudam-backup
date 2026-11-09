@@ -1,0 +1,28 @@
+{
+  "scene": "MUDAM_R392_KALE_BAGIMSIZ_TOPRAK_ORTU_ADAY_v001.blend",
+  "accepted": false,
+  "published": false,
+  "meshCheck": {
+    "nonManifold": 0,
+    "zeroArea": 0
+  },
+  "heldout": {
+    "rms": 0.055868423682131234,
+    "max": 0.22696808621718967,
+    "heldout": 225,
+    "valid": true
+  },
+  "bodyEaveVerticesChanged": 29,
+  "clipped": [
+    {
+      "name": "R154_FORT_ROUNDED_EARTH_ROOF",
+      "cutTriangles": 1761
+    }
+  ],
+  "limits": [
+    "Tower-end cover below x+y=-100 retained pending independent junction reconstruction",
+    "Seam spacing is visual estimate, not measured survey",
+    "Whole museum ring remains unaccepted. Exterior wall windows and tower-end junction still require matching."
+  ],
+  "glbErrors": []
+}

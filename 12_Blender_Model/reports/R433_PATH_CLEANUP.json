@@ -1,0 +1,32 @@
+{
+  "scene": "MUDAM_R433_ON_YOL_CAKISMA_TEMIZLIGI_ADAY_v001.blend",
+  "accepted": false,
+  "published": false,
+  "cuts": [
+    {
+      "name": "R152_PATH_49910983",
+      "cutTriangles": 32
+    },
+    {
+      "name": "R152_PATH_51768373",
+      "cutTriangles": 26
+    },
+    {
+      "name": "R152_PATH_83345376",
+      "cutTriangles": 29
+    },
+    {
+      "name": "R152_PATH_83345387",
+      "cutTriangles": 200
+    },
+    {
+      "name": "R152_PATH_83345393",
+      "cutTriangles": 117
+    },
+    {
+      "name": "R152_PATH_151551525",
+      "cutTriangles": 32
+    }
+  ],
+  "scope": "Only legacy path surfaces inside R430 source-traced approach polygon removed; source-defined moat and bridge preserved."
+}

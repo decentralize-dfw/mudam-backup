@@ -1,0 +1,63 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R150_LIDAR_HENDEK_ADAY_v002.blend",
+  "images": [
+    {
+      "image": "12_Blender_Model/renders/qa/R150_v002_before_north_east.png",
+      "eye": [
+        82,
+        83,
+        48
+      ],
+      "target": [
+        25,
+        25,
+        -2
+      ],
+      "stage": "before"
+    },
+    {
+      "image": "12_Blender_Model/renders/qa/R150_v002_before_pavilion.png",
+      "eye": [
+        58,
+        -74,
+        23
+      ],
+      "target": [
+        17,
+        -36,
+        -4
+      ],
+      "stage": "before"
+    },
+    {
+      "image": "12_Blender_Model/renders/qa/R150_v002_after_north_east.png",
+      "eye": [
+        82,
+        83,
+        48
+      ],
+      "target": [
+        25,
+        25,
+        -2
+      ],
+      "stage": "after"
+    },
+    {
+      "image": "12_Blender_Model/renders/qa/R150_v002_after_pavilion.png",
+      "eye": [
+        58,
+        -74,
+        23
+      ],
+      "target": [
+        17,
+        -36,
+        -4
+      ],
+      "stage": "after"
+    }
+  ],
+  "all_active_surroundings": true,
+  "lighting_unchanged": true
+}

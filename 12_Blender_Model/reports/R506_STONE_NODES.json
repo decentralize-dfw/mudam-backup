@@ -1,0 +1,207 @@
+{
+  "R154_FORT_STONE_PBR": {
+    "nodes": [
+      {
+        "name": "Principled BSDF",
+        "type": "BSDF_PRINCIPLED",
+        "values": {
+          "Base Color": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            1.0
+          ],
+          "Metallic": 0.0,
+          "Roughness": 0.8799999952316284
+        }
+      },
+      {
+        "name": "Material Output",
+        "type": "OUTPUT_MATERIAL"
+      },
+      {
+        "name": "Image Texture",
+        "type": "TEX_IMAGE",
+        "image": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\textures\\R129_historic_masonry_basecolor.png",
+        "colorSpace": "sRGB"
+      },
+      {
+        "name": "Image Texture.001",
+        "type": "TEX_IMAGE",
+        "image": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\textures\\R129_historic_masonry_normal.png",
+        "colorSpace": "Non-Color"
+      },
+      {
+        "name": "Normal Map",
+        "type": "NORMAL_MAP"
+      },
+      {
+        "name": "Image Texture.002",
+        "type": "TEX_IMAGE",
+        "image": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\textures\\R129_historic_masonry_roughness.png",
+        "colorSpace": "Non-Color"
+      }
+    ],
+    "links": [
+      [
+        "Principled BSDF",
+        "BSDF",
+        "Material Output",
+        "Surface"
+      ],
+      [
+        "Image Texture",
+        "Color",
+        "Principled BSDF",
+        "Base Color"
+      ],
+      [
+        "Image Texture.001",
+        "Color",
+        "Normal Map",
+        "Color"
+      ],
+      [
+        "Normal Map",
+        "Normal",
+        "Principled BSDF",
+        "Normal"
+      ],
+      [
+        "Image Texture.002",
+        "Color",
+        "Principled BSDF",
+        "Roughness"
+      ]
+    ]
+  },
+  "R406_FORT_DRESSED_SANDSTONE": {
+    "nodes": [
+      {
+        "name": "Principled BSDF",
+        "type": "BSDF_PRINCIPLED",
+        "values": {
+          "Base Color": [
+            0.41999998688697815,
+            0.36500000953674316,
+            0.2750000059604645,
+            1.0
+          ],
+          "Metallic": 0.0,
+          "Roughness": 0.8600000143051147
+        }
+      },
+      {
+        "name": "Material Output",
+        "type": "OUTPUT_MATERIAL"
+      }
+    ],
+    "links": [
+      [
+        "Principled BSDF",
+        "BSDF",
+        "Material Output",
+        "Surface"
+      ]
+    ]
+  },
+  "R129_HISTORIC_MASONRY_APPEARANCE_CANDIDATE": {
+    "nodes": [
+      {
+        "name": "Principled BSDF",
+        "type": "BSDF_PRINCIPLED",
+        "values": {
+          "Base Color": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            1.0
+          ],
+          "Metallic": 0.0,
+          "Roughness": 0.8600000143051147
+        }
+      },
+      {
+        "name": "Material Output",
+        "type": "OUTPUT_MATERIAL"
+      },
+      {
+        "name": "UV Map",
+        "type": "UVMAP",
+        "uv": "R55_CONTEXT_METRIC_UV"
+      },
+      {
+        "name": "Image Texture",
+        "type": "TEX_IMAGE",
+        "image": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\.local_source_cache\\r151_web_lod\\image_0869.png",
+        "colorSpace": "sRGB"
+      },
+      {
+        "name": "Image Texture.001",
+        "type": "TEX_IMAGE",
+        "image": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\.local_source_cache\\r151_web_lod\\image_0870.png",
+        "colorSpace": "Non-Color"
+      },
+      {
+        "name": "Normal Map",
+        "type": "NORMAL_MAP"
+      },
+      {
+        "name": "Image Texture.002",
+        "type": "TEX_IMAGE",
+        "image": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\.local_source_cache\\r151_web_lod\\image_0871.png",
+        "colorSpace": "Non-Color"
+      }
+    ],
+    "links": [
+      [
+        "Principled BSDF",
+        "BSDF",
+        "Material Output",
+        "Surface"
+      ],
+      [
+        "UV Map",
+        "UV",
+        "Image Texture",
+        "Vector"
+      ],
+      [
+        "Image Texture",
+        "Color",
+        "Principled BSDF",
+        "Base Color"
+      ],
+      [
+        "UV Map",
+        "UV",
+        "Image Texture.001",
+        "Vector"
+      ],
+      [
+        "Image Texture.001",
+        "Color",
+        "Normal Map",
+        "Color"
+      ],
+      [
+        "Normal Map",
+        "Normal",
+        "Principled BSDF",
+        "Normal"
+      ],
+      [
+        "UV Map",
+        "UV",
+        "Image Texture.002",
+        "Vector"
+      ],
+      [
+        "Image Texture.002",
+        "Color",
+        "Principled BSDF",
+        "Roughness"
+      ]
+    ]
+  }
+}

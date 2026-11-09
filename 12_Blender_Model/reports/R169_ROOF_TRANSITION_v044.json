@@ -1,0 +1,33 @@
+{
+  "scene": "MUDAM_R169_KESITLI_CATI_GECISI_ADAY_v044.blend",
+  "accepted": false,
+  "published": false,
+  "source_samples": 81,
+  "independent_checks": 128,
+  "p90_m": 0.06682612101236741,
+  "max_error_m": 0.13393402099609375,
+  "changes": [
+    {
+      "object": "R169_MEASURED_ENVELOPE",
+      "removed_faces": 27,
+      "outside_faces_preserved": 27919
+    },
+    {
+      "object": "R169_ROW_CONTINUOUS_HIP",
+      "removed_faces": 72,
+      "outside_faces_preserved": 1967
+    },
+    {
+      "object": "R169_ROW_REAR_ROOF_EXTENT",
+      "removed_faces": 0,
+      "outside_faces_preserved": 14
+    }
+  ],
+  "limits": [
+    "Section-derived roof surface; not imported scan mesh",
+    "Perimeter joins and inherited fragments need visual resolution",
+    "No whole roof or building acceptance"
+  ],
+  "visual_review": "Not accepted: surrounding roof perimeter and raised retained fragments remain visibly inconsistent. Local clipping repair is not a completed roof.",
+  "scope_validation": "Original faces outside target XY bounds preserved exactly in coordinates, material indices and UV values. Faces crossing target boundary can be split; selected faces separated before cutting to prevent propagation into adjacent faces. Coincident split boundary vertices are not a watertightness acceptance."
+}

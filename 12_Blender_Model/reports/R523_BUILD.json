@@ -1,0 +1,125 @@
+{
+  "checks": [
+    {
+      "name": "R321_MUSEUM_WEST_MOAT_RETAINING",
+      "nonManifold": 0,
+      "zeroArea": 0
+    },
+    {
+      "name": "R322_WEST_MUSEUM_TERRACE",
+      "nonManifold": 0,
+      "zeroArea": 0
+    },
+    {
+      "name": "R523_WEST_MOAT_LOWER_GROUND_0",
+      "nonManifold": 0,
+      "zeroArea": 0
+    },
+    {
+      "name": "R523_WEST_DIAGONAL_SLOPING_MASONRY",
+      "nonManifold": 0,
+      "zeroArea": 0
+    }
+  ],
+  "reopened": true,
+  "cut": [
+    {
+      "name": "R152_CLASS2_TERRAIN",
+      "cutTriangles": 262933
+    }
+  ],
+  "targetControls": [
+    {
+      "x": -21.460536192986183,
+      "y": -0.45154907228425145,
+      "object": "R523_WEST_MOAT_LOWER_GROUND_0",
+      "error": -0.023311558459909065
+    },
+    {
+      "x": -20.512152298528235,
+      "y": -0.5840627225115895,
+      "object": "R523_WEST_MOAT_LOWER_GROUND_0",
+      "error": -0.030867399883931057
+    },
+    {
+      "x": -19.487482778844424,
+      "y": -0.4802318727597594,
+      "object": "R523_WEST_MOAT_LOWER_GROUND_0",
+      "error": -0.046714245445116376
+    },
+    {
+      "x": -18.54028270629351,
+      "y": -0.544470511842519,
+      "object": "R523_WEST_MOAT_LOWER_GROUND_0",
+      "error": -0.03373605222768106
+    },
+    {
+      "x": -17.46772626065649,
+      "y": -0.4671316286548972,
+      "object": "R523_WEST_MOAT_LOWER_GROUND_0",
+      "error": -0.0398651968743593
+    },
+    {
+      "x": -12.56867664528545,
+      "y": -2.6105294367298484,
+      "object": "R523_WEST_MOAT_LOWER_GROUND_0",
+      "error": -0.02440897144936116
+    },
+    {
+      "x": -14.498132816981524,
+      "y": -1.4663772331550717,
+      "object": "R523_WEST_MOAT_LOWER_GROUND_0",
+      "error": -0.012404119154439286
+    },
+    {
+      "x": -14.473382293828763,
+      "y": -0.488011191599071,
+      "object": "R523_WEST_MOAT_LOWER_GROUND_0",
+      "error": -0.08484336443802931
+    },
+    {
+      "x": -13.501539033954032,
+      "y": -1.4876491352915764,
+      "object": "R523_WEST_MOAT_LOWER_GROUND_0",
+      "error": -0.04418176720014344
+    },
+    {
+      "x": -12.567846412712242,
+      "y": -1.5717990663833916,
+      "object": "R523_WEST_MOAT_LOWER_GROUND_0",
+      "error": -0.07132942983275825
+    },
+    {
+      "x": -6.688869305187836,
+      "y": -8.42059907503426,
+      "object": "R523_WEST_MOAT_LOWER_GROUND_0",
+      "error": 0.010991263947460084
+    },
+    {
+      "x": -7.577258175588213,
+      "y": -7.637870902195573,
+      "object": "R523_WEST_MOAT_LOWER_GROUND_0",
+      "error": 0.018506217560741334
+    },
+    {
+      "x": -6.474042962712701,
+      "y": -7.518483948893845,
+      "object": "R523_WEST_MOAT_LOWER_GROUND_0",
+      "error": -0.022340632864256804
+    },
+    {
+      "x": -7.443591340910643,
+      "y": -6.482925039716065,
+      "object": "R523_WEST_MOAT_LOWER_GROUND_0",
+      "error": -0.0027352366373065706
+    },
+    {
+      "x": -6.4878387743083294,
+      "y": -6.509170814417303,
+      "object": "R523_WEST_MOAT_LOWER_GROUND_0",
+      "error": -0.039474731966379295
+    }
+  ],
+  "accepted": false,
+  "published": false
+}

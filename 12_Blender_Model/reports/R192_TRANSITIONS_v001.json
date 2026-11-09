@@ -1,0 +1,22 @@
+{
+  "accepted": false,
+  "terrain_changes": [
+    {
+      "name": "R154_FAR_GROUND",
+      "intersections": 1732
+    },
+    {
+      "name": "R154_FAR_ROADS",
+      "intersections": 0
+    },
+    {
+      "name": "R161_ROAD_CONNECTIONS",
+      "intersections": 0
+    }
+  ],
+  "limits": [
+    "Constructed2m grade blends, not measured retaining walls",
+    "Source courtyard fit support remains73.6/69.2percent; hidden edges require comparison",
+    "Full11regions remain incomplete"
+  ]
+}

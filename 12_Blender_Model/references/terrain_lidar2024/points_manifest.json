@@ -1,0 +1,48 @@
+{
+  "url": "https://download.data.public.lu/resources/bd-l-lidar2024-releve-3d-du-territoire-luxembourgeois/20241130-225035/lidar2024-c020-r013.zip",
+  "resource_id": "9bc4df35-4c5a-4d79-8a05-a2faadd6dab1",
+  "archive_size": 1700086212,
+  "downloaded_range_bytes": 0,
+  "query_bounds_luref": [
+    77877,
+    75700,
+    78075,
+    75917
+  ],
+  "tiles": [
+    {
+      "member": "77500_76000.laz",
+      "points": 1348792,
+      "classes": {
+        "1": 90188,
+        "2": 648138,
+        "3": 13087,
+        "4": 39050,
+        "5": 306662,
+        "6": 240240,
+        "7": 8784,
+        "13": 2643
+      },
+      "crs": "PROJCS[\"LUREF / Luxembourg TM\",GEOGCS[\"LUREF\",DATUM[\"Luxembourg_Reference_Frame\",SPHEROID[\"International 1924\",6378388,297,AUTHORITY[\"EPSG\",\"7022\"]],AUTHORITY[\"EPSG\",\"6181\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4181\"]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"latitude_of_origin\",49.8333333333333],PARAMETER[\"central_meridian\",6.16666666666667],PARAMETER[\"scale_factor\",1],PARAMETER[\"false_easting\",80000],PARAMETER[\"false_northing\",100000],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AUTHORITY[\"EPSG\",\"2169\"]]"
+    },
+    {
+      "member": "78000_76000.laz",
+      "points": 880673,
+      "classes": {
+        "1": 76593,
+        "2": 420370,
+        "3": 17554,
+        "4": 79533,
+        "5": 223179,
+        "6": 62352,
+        "7": 1092
+      },
+      "crs": "PROJCS[\"LUREF / Luxembourg TM\",GEOGCS[\"LUREF\",DATUM[\"Luxembourg_Reference_Frame\",SPHEROID[\"International 1924\",6378388,297,AUTHORITY[\"EPSG\",\"7022\"]],AUTHORITY[\"EPSG\",\"6181\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4181\"]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"latitude_of_origin\",49.8333333333333],PARAMETER[\"central_meridian\",6.16666666666667],PARAMETER[\"scale_factor\",1],PARAMETER[\"false_easting\",80000],PARAMETER[\"false_northing\",100000],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AUTHORITY[\"EPSG\",\"2169\"]]"
+    }
+  ],
+  "sha256": "6719a6ac25a68f92fd62dd12dde98ff0decbd1a39a4a901d6b267724bb5566ff",
+  "retrieved_utc": "2026-10-10T09:45:31.143671+00:00",
+  "license": "cc-zero",
+  "classification_source": "ACT dataset description: class2 ground, class13 bridge",
+  "full_archive_checksum_verified": false
+}

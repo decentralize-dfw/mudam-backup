@@ -1,0 +1,86 @@
+{
+  "source_scene": "MUDAM_R151_WEB_LOD_v002.blend",
+  "revision": "R151 WEB CLEAN v001",
+  "layers": [
+    {
+      "triangles": 905236,
+      "draw_primitives_before": 8564,
+      "draw_primitives_after": 111,
+      "bytes": 48734804,
+      "gzip_bytes": 14633246,
+      "sha256": "a184c10f31fa49a692243891f9da31574496f44ff9bc995c40c853cca2201a74",
+      "bounds": [
+        [
+          -42.61722946166992,
+          -11.990371704101562,
+          -66.24008178710938
+        ],
+        [
+          61.901092529296875,
+          30.409473419189453,
+          50.988731384277344
+        ]
+      ],
+      "images": 20,
+      "material_and_image_payloads_preserved": true,
+      "url": "../exports/r151_web_v002/building.glb.gz",
+      "key": "building"
+    },
+    {
+      "triangles": 1051504,
+      "draw_primitives_before": 164,
+      "draw_primitives_after": 164,
+      "bytes": 61503692,
+      "gzip_bytes": 46083343,
+      "sha256": "cc86059fb781d5f3eecee79a1366a3be3b87dcb3d4c5b7a31fecabbda6f07b54",
+      "bounds": [
+        [
+          -214.0393524169922,
+          -74.20135498046875,
+          -217.2596435546875
+        ],
+        [
+          209.12091064453125,
+          38.99373245239258,
+          206.12071228027344
+        ]
+      ],
+      "images": 164,
+      "material_and_image_payloads_preserved": true,
+      "url": "../exports/r151_web_clean/near_context.glb.gz",
+      "key": "near_context",
+      "image_payloads_preserved": true,
+      "context_emission_converted_to_unlit": true,
+      "position_rounding_m": 0.001
+    },
+    {
+      "triangles": 1548050,
+      "draw_primitives_before": 688,
+      "draw_primitives_after": 688,
+      "bytes": 77232676,
+      "gzip_bytes": 56590671,
+      "sha256": "088c922072bda2ce41a199906aad9bb2d484facaaf738f6ca4531a262520a274",
+      "bounds": [
+        [
+          -415.39874267578125,
+          -79.25067138671875,
+          -500.7282409667969
+        ],
+        [
+          414.9180908203125,
+          99.3697509765625,
+          408.52301025390625
+        ]
+      ],
+      "images": 688,
+      "material_and_image_payloads_preserved": true,
+      "url": "../exports/r151_web_v002/far_context.glb.gz",
+      "key": "far_context",
+      "image_payloads_preserved": true,
+      "context_emission_converted_to_unlit": true,
+      "position_rounding_m": 0.001
+    }
+  ],
+  "scope": "Separate local web LOD; original v011 preserved. Not architectural acceptance.",
+  "accepted": false
+}

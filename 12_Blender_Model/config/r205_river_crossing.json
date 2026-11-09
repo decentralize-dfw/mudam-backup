@@ -1,0 +1,73 @@
+{
+  "footprint": [
+    [
+      -177.7907559327432,
+      -372.4851352907717
+    ],
+    [
+      -176.448654429405,
+      -375.4193333135918
+    ],
+    [
+      -182.8218214470544,
+      -379.0504300650209
+    ],
+    [
+      -183.11574878531974,
+      -376.51235975231975
+    ],
+    [
+      -183.8626822978258,
+      -370.10549849644303
+    ],
+    [
+      -192.319990811171,
+      -353.44219659641385
+    ],
+    [
+      -186.85954134934582,
+      -355.1640548016876
+    ]
+  ],
+  "source": "1289754033",
+  "tags": {
+    "bridge:structure": "arch",
+    "layer": "1",
+    "man_made": "bridge"
+  },
+  "ways": [
+    {
+      "id": "26621044",
+      "tags": {
+        "bridge": "yes",
+        "cycleway:both": "no",
+        "highway": "residential",
+        "layer": "1",
+        "maxspeed": "30",
+        "maxweight": "3.5",
+        "name": "Rue du Fort Olisy",
+        "name:etymology:wikidata": "Q13102620",
+        "name:lb": "Hondhausbr\u00e9ck",
+        "sidewalk": "both",
+        "surface": "asphalt",
+        "wikidata": "Q140235679",
+        "wikimedia_commons": "Category:Hondshausbr\u00e9ck"
+      }
+    },
+    {
+      "id": "173687504",
+      "tags": {
+        "cycleway:both": "no",
+        "highway": "unclassified",
+        "lane_markings": "no",
+        "maxspeed": "30",
+        "name": "Rue du Fort Olisy",
+        "name:etymology:wikidata": "Q13102620",
+        "surface": "asphalt",
+        "width": "5",
+        "wikidata": "Q25583485",
+        "wikimedia_commons": "Category:Rue du Fort Olisy"
+      }
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "scene": "MUDAM_R169_SIRA_CATI_ADAY_v018.blend",
+  "accepted": false,
+  "published": false,
+  "changed_roof_vertices": 375,
+  "max_change_m": 0.12677205641008982,
+  "roof_plane_sample_rmse_m": [
+    0.056164449884567993,
+    0.06300642774604792,
+    0.062480449959538234,
+    0.06539373892532531
+  ],
+  "reopened": true,
+  "scope": "Supported roof vertices constrained to locally sampled planes; unmatched dormer and edge points retained. First building v017 retained. Not full building acceptance.",
+  "rejected_reason": "One degenerate triangle after plane projection; superseded by v019 target-limited projection with original vertex restoration."
+}

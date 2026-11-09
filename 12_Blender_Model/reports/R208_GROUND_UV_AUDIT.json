@@ -1,0 +1,142 @@
+[
+  {
+    "name": "R154_FAR_GROUND",
+    "uv": [
+      "UVMap"
+    ],
+    "materials": [
+      {
+        "name": "R157_CONTINUOUS_LANDCOVER",
+        "nodes": [
+          {
+            "type": "BSDF_PRINCIPLED",
+            "uv": null,
+            "image": null
+          },
+          {
+            "type": "OUTPUT_MATERIAL",
+            "uv": null,
+            "image": null
+          },
+          {
+            "type": "TEX_IMAGE",
+            "uv": null,
+            "image": "R157_landcover_atlas.jpg"
+          },
+          {
+            "type": "TEX_IMAGE",
+            "uv": null,
+            "image": "R157_ground_micro_normal.png"
+          },
+          {
+            "type": "UVMAP",
+            "uv": "MicroUV",
+            "image": null
+          },
+          {
+            "type": "NORMAL_MAP",
+            "uv": null,
+            "image": null
+          }
+        ]
+      }
+    ],
+    "down": 86961,
+    "faces": 109909
+  },
+  {
+    "name": "R154_FAR_ROADS",
+    "uv": [
+      "UVMap"
+    ],
+    "materials": [
+      {
+        "name": "R157_COMPACTED_MINERAL_PATH",
+        "nodes": [
+          {
+            "type": "BSDF_PRINCIPLED",
+            "uv": null,
+            "image": null
+          },
+          {
+            "type": "OUTPUT_MATERIAL",
+            "uv": null,
+            "image": null
+          },
+          {
+            "type": "TEX_IMAGE",
+            "uv": null,
+            "image": "R157_ground_micro_normal.png"
+          },
+          {
+            "type": "NORMAL_MAP",
+            "uv": null,
+            "image": null
+          }
+        ]
+      },
+      {
+        "name": "R157_MATTE_ASPHALT",
+        "nodes": [
+          {
+            "type": "BSDF_PRINCIPLED",
+            "uv": null,
+            "image": null
+          },
+          {
+            "type": "OUTPUT_MATERIAL",
+            "uv": null,
+            "image": null
+          },
+          {
+            "type": "TEX_IMAGE",
+            "uv": null,
+            "image": "R157_ground_micro_normal.png"
+          },
+          {
+            "type": "NORMAL_MAP",
+            "uv": null,
+            "image": null
+          }
+        ]
+      }
+    ],
+    "down": 5450,
+    "faces": 40549
+  },
+  {
+    "name": "R161_ROAD_CONNECTIONS",
+    "uv": [
+      "UVMap"
+    ],
+    "materials": [
+      {
+        "name": "R157_COMPACTED_MINERAL_PATH",
+        "nodes": [
+          {
+            "type": "BSDF_PRINCIPLED",
+            "uv": null,
+            "image": null
+          },
+          {
+            "type": "OUTPUT_MATERIAL",
+            "uv": null,
+            "image": null
+          },
+          {
+            "type": "TEX_IMAGE",
+            "uv": null,
+            "image": "R157_ground_micro_normal.png"
+          },
+          {
+            "type": "NORMAL_MAP",
+            "uv": null,
+            "image": null
+          }
+        ]
+      }
+    ],
+    "down": 1825,
+    "faces": 2465
+  }
+]

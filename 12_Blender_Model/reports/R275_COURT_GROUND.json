@@ -1,0 +1,182 @@
+{
+  "accepted": false,
+  "published": false,
+  "terrainCuts": [
+    {
+      "name": "R154_FAR_GROUND",
+      "cutTriangles": 48
+    }
+  ],
+  "checks": [
+    {
+      "name": "R273_COURT_HALL",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R273_COURT_ROOF",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R273_GLAZING_0",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R273_UPSTAND_0_0",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R273_UPSTAND_0_1",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R273_UPSTAND_0_2",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R273_UPSTAND_0_3",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R273_FRAME_0_0",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R273_FRAME_0_1",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R273_FRAME_0_2",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R273_FRAME_0_3",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R273_FRAME_0_4",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R273_FRAME_0_5",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R273_FRAME_0_6",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R273_FRAME_0_7",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R273_FRAME_0_8",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R273_GLAZING_1",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R273_UPSTAND_1_0",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R273_UPSTAND_1_1",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R273_UPSTAND_1_2",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R273_UPSTAND_1_3",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R273_FRAME_1_0",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R273_FRAME_1_1",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R273_FRAME_1_2",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R273_FRAME_1_3",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R273_FRAME_1_4",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R273_FRAME_1_5",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R273_FRAME_1_6",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R273_FRAME_1_7",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R273_FRAME_1_8",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R275_LEFT_COURT_HALL",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R275_LEFT_COURT_ROOF",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R275_LEFT_GREEN_ROOF",
+      "boundary": 0,
+      "zero": 0
+    }
+  ],
+  "limits": [
+    "Left vegetation height fitting is not sufficiently planar: provisional 5.9m envelope",
+    "Hall footprints traced visually, concealed lower walls provisional",
+    "Whole first-six-region acceptance incomplete"
+  ]
+}

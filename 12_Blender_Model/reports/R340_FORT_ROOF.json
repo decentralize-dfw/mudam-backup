@@ -1,0 +1,47 @@
+{
+  "scene": "MUDAM_R340_KALE_METAL_CATI_ADAY_v001.blend",
+  "accepted": false,
+  "published": false,
+  "meshChecks": [
+    {
+      "name": "R340_FORT_LOWER_METAL_ROOF",
+      "nonManifold": 0,
+      "zeroArea": 0
+    },
+    {
+      "name": "R340_FORT_RAISED_METAL_ROOF",
+      "nonManifold": 0,
+      "zeroArea": 0
+    }
+  ],
+  "glbErrors": [],
+  "clipped": [
+    {
+      "name": "R154_FORT_ROUNDED_EARTH_ROOF",
+      "cutTriangles": 246
+    },
+    {
+      "name": "R154_FORT_METAL_ROOF",
+      "cutTriangles": 270
+    }
+  ],
+  "limits": [
+    "Corrected metal planes only; inherited surround grading, old upstand, earth roof and tower interfaces unresolved.",
+    "Source outline is visual reconstruction; not survey identity."
+  ],
+  "visualReview": {
+    "source": "renders/qa/R336_fort_roof_source.png",
+    "candidate": "renders/qa/R340_fort_roof_candidate.png",
+    "decision": "not accepted for publication",
+    "findings": [
+      "Metal footprint now follows source-visible inset, replacing misplaced old footprint.",
+      "Roof seam pattern absent; existing earth surround has angular grading and green material inconsistent with photograph.",
+      "Old metal upstand remains on previous footprint; surrounding grade and tower interfaces must be rebuilt before publication."
+    ]
+  },
+  "followupMeasurements": {
+    "R341": "Single surrounding edge plane rejected; no geometry applied.",
+    "R342": "Upper edge local plane fits; lower edge remains nonplanar/noisy. No geometry applied.",
+    "next": "Resolve surround as distinct architectural sections; do not flatten all edges or publish this candidate."
+  }
+}

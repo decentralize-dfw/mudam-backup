@@ -1,0 +1,23 @@
+{
+  "accepted": false,
+  "reopened": true,
+  "coverage_rays": 10860,
+  "misses": 1,
+  "worst": [
+    {
+      "origin": [
+        -78.5250015258789,
+        -300.1520080566406,
+        -64.5
+      ],
+      "direction": [
+        -0.8191520571708679,
+        0.5735764503479004,
+        0.0
+      ],
+      "elevation": 0,
+      "azimuth": 145
+    }
+  ],
+  "scope": "Finite interior directional sampling detects gaps; not proof of complete watertight manifold or source fidelity. No scan geometry imported."
+}

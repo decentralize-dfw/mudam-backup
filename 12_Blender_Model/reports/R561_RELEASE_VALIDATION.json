@@ -1,0 +1,60 @@
+{
+  "reviewOnly": true,
+  "fullScopeAccepted": false,
+  "sourceScene": "MUDAM_R561_SUR_ZEMIN_TEMAS_AO_BAKE_ADAY_v001.blend",
+  "files": {
+    "near": {
+      "file": "12_Blender_Model/exports/r152_clean/r561_near_draco_webp_REVIEW.glb",
+      "bytes": 31901692,
+      "sha256": "33700ae6702cdb1da6889f3496a436ed01539972626b4a4b39fe8a9e8b652ea7",
+      "triangles": 397591,
+      "zero": 0,
+      "removedDegenerates": 309,
+      "preservedRowNodes": 0,
+      "bounds": {
+        "min": [
+          -500,
+          -78.04438781738281,
+          -650
+        ],
+        "max": [
+          650.000244140625,
+          16.323524475097656,
+          450.000244140625
+        ]
+      },
+      "decoded": true,
+      "occlusionMaterials": [
+        {
+          "name": "R554_WEATHERED_COURSED_STONE_CC0_R561_AO",
+          "uv": 7
+        },
+        {
+          "name": "R545_DRY_EARTH_PATCHY_TURF_R561_AO",
+          "uv": 7
+        },
+        {
+          "name": "R554_WEATHERED_COURSED_STONE_CC0_R561_AO",
+          "uv": 4
+        },
+        {
+          "name": "R545_DRY_EARTH_PATCHY_TURF_R561_AO",
+          "uv": 4
+        },
+        {
+          "name": "R554_WEATHERED_COURSED_STONE_CC0_R561_AO",
+          "uv": 3
+        },
+        {
+          "name": "R545_DRY_EARTH_PATCHY_TURF_R561_AO",
+          "uv": 2
+        },
+        {
+          "name": "R554_WEATHERED_COURSED_STONE_CC0_R561_AO",
+          "uv": 5
+        }
+      ],
+      "textures": 21
+    }
+  }
+}

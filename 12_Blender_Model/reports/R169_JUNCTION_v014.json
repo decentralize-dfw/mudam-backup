@@ -1,0 +1,20 @@
+{
+  "scene": "MUDAM_R169_CATI_BIRLESIM_ADAY_v014.blend",
+  "reopened": true,
+  "accepted": false,
+  "published": false,
+  "removed_interfering_faces": [
+    49,
+    68,
+    39,
+    55
+  ],
+  "limits": [
+    "Subtraction uses traced dormer width and elevation, outward extent is cleanup volume not building dimension",
+    "Mansard outer surface and junction visual review pending",
+    "Front dormers, right balcony and lower rear facade unfinished"
+  ],
+  "visual_review": "Four rear dormer fronts are now unobstructed; remaining mansard surface is visibly jagged and cannot pass building-wide visual acceptance.",
+  "validation_report": "R169_JUNCTION_VERIFICATION_v014.json",
+  "glb_report": "R169_GLB_ROUNDTRIP_v014.json"
+}

@@ -1,0 +1,27 @@
+{
+  "scene": "MUDAM_R420_KULE_AVLU_ESKI_ORTU_TEMIZLIGI_ADAY_v001.blend",
+  "clipped": [
+    {
+      "name": "R154_FORT_ROUNDED_EARTH_ROOF",
+      "cutTriangles": 2113
+    }
+  ],
+  "checks": [
+    {
+      "name": "R420_CENTRE_LOW_COURT_CONTACT",
+      "nonManifold": 0,
+      "zeroArea": 0
+    },
+    {
+      "name": "R420_SOUTH_LOW_COURT_CONTACT",
+      "nonManifold": 0,
+      "zeroArea": 0
+    }
+  ],
+  "accepted": false,
+  "published": false,
+  "limits": [
+    "Removes demonstrated false legacy surface crossing south door. Does not establish source fidelity of provisional tower facade.",
+    "West tower architecture and other immediate ring tasks remain."
+  ]
+}

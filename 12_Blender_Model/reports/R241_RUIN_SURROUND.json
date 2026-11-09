@@ -1,0 +1,68 @@
+{
+  "accepted": false,
+  "published": false,
+  "measurement": {
+    "polygon": [
+      [
+        -237.625,
+        -186.2125
+      ],
+      [
+        -238.6,
+        -196.2875
+      ],
+      [
+        -226.25,
+        -202.625
+      ],
+      [
+        -215.3625,
+        -194.5
+      ]
+    ],
+    "origin": [
+      -225.78825887044272,
+      -196.93803448147244
+    ],
+    "plane": [
+      0.024767092518723,
+      0.009220978975520211,
+      -18.95071805088132
+    ],
+    "samples": 36,
+    "p90": 0.30163326641845184,
+    "support": 0.8888888888888888,
+    "accepted": false
+  },
+  "cut": [
+    {
+      "name": "R241_RUIN_SURROUND",
+      "beforeArea": 213.7016683369875,
+      "afterArea": 93.39414457655221
+    },
+    {
+      "name": "R154_FAR_GROUND",
+      "beforeArea": 1190963.7595958076,
+      "afterArea": 1190879.6775542297
+    }
+  ],
+  "reopen": [
+    {
+      "name": "R241_RUIN_SURROUND",
+      "finite": true,
+      "zero": 0
+    },
+    {
+      "name": "R154_FAR_GROUND",
+      "finite": true,
+      "zero": 0
+    }
+  ],
+  "limits": [
+    "1.5m exclusion removes stone-wall contamination from measurements",
+    "Boundary blend and ruin contact require visual acceptance",
+    "Two-metre fourth-edge transition uses existing authored terrain, not new source fidelity",
+    "Uphill apron and whole fort remain incomplete"
+  ],
+  "visualReview": "Two R240 pale uphill-edge gaps resolved in matched render. Uphill dry-ground domain and southern retaining-base gap remain incomplete. No source fidelity acceptance."
+}

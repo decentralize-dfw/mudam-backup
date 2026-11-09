@@ -1,0 +1,23 @@
+{
+  "scene": "MUDAM_R169_YAN_DUVAR_ADAY_v036.blend",
+  "accepted": false,
+  "published": false,
+  "source_plane_offset": 0.19120619678869843,
+  "plane_coefficients": [
+    0.02802436964752799,
+    -0.04137257540908947,
+    0.19026570033927728
+  ],
+  "plane_sample_rmse_m": 0.022349966967333032,
+  "aligned_roof_boundary_vertices": 25,
+  "removed_wall_faces": 85,
+  "source_fields": [],
+  "limits": [
+    "Source appearance blurred; field boundaries approximate",
+    "0.08m recess assumed",
+    "Upper wall only; occluded right field excluded",
+    "Roof boundary and upper wall use one fitted source plane; inherited lower facade registration unresolved",
+    "Leftmost tall field clipped at source roof scope",
+    "Roof intersections and inherited facade transition require review"
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "status": "production_in_progress",
+  "current_scene": "MUDAM_R159_KAYNAK_ORTU_OLCEGI_v001.blend",
+  "in_progress_scene": null,
+  "completed_local_packages": [
+    "R152 museum base extensions and clean near context",
+    "R154 expanded DTM terrain and reconstructed fort",
+    "R155 Melia context candidate",
+    "R157 continuous terrain atlas, separated road materials, 907 branching tree instances"
+  ],
+  "pending": [
+    "Visual refinement of terrain/path transitions and woodland density",
+    "Detailed road junctions, curbs and steps using source evidence",
+    "Buildings deferred by user; Melia facade remains rejected"
+  ],
+  "overall_complete": false,
+  "percentage_changed": false,
+  "active_priority": "Source-based woodland coverage and landscape visual quality",
+  "building_work": "Paused by direct user steering; R155 Melia appearance rejected, not accepted",
+  "vegetation_source": "852 downloaded ACT mesh tiles: elevated green surface canopy mask; inferred stems and crown geometry, not exact tree inventory",
+  "vegetation_tree_count": 6335,
+  "vegetation_report": "reports/R158_QA.json",
+  "active_web_manifest": "config/r160_source_context.json",
+  "active_web_context": "Original ACT near/far GLB layers, R151 museum clipping retained. Procedural R152-R159 surroundings excluded from active web view.",
+  "rejected_procedural_preview_archive": "R159_TEMSILI_CEVRE_ARSIV.html"
+}

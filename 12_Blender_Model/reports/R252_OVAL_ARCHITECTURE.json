@@ -1,0 +1,486 @@
+{
+  "accepted": false,
+  "published": false,
+  "removedReferenceVertices": 13974,
+  "roofLevel": 28.181480407714844,
+  "ridgeCoefficients": [
+    -1.746765681675499,
+    0.08446230207170977,
+    32.01666841052827
+  ],
+  "ribs": 29,
+  "checks": [
+    {
+      "name": "R252_OVAL_MAIN_BODY",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R252_OVAL_ROOF_DECK",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R252_PITCHED_ATRIUM_GLASS",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R252_ATRIUM_EAVE_L_0",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R252_ATRIUM_EAVE_L_1",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R252_ATRIUM_EAVE_L_2",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R252_ATRIUM_EAVE_L_3",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R252_ATRIUM_EAVE_L_4",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R252_ATRIUM_EAVE_L_5",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R252_ATRIUM_EAVE_R_0",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R252_ATRIUM_EAVE_R_1",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R252_ATRIUM_EAVE_R_2",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R252_ATRIUM_EAVE_R_3",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R252_ATRIUM_EAVE_R_4",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R252_ATRIUM_EAVE_R_5",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R252_ATRIUM_END_0",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R252_ATRIUM_END_6",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R252_RIB_0_L",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R252_RIB_0_R",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R252_RIB_1_L",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R252_RIB_1_R",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R252_RIB_2_L",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R252_RIB_2_R",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R252_RIB_3_L",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R252_RIB_3_R",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R252_RIB_4_L",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R252_RIB_4_R",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R252_RIB_5_L",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R252_RIB_5_R",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R252_RIB_6_L",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R252_RIB_6_R",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R252_RIB_7_L",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R252_RIB_7_R",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R252_RIB_8_L",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R252_RIB_8_R",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R252_RIB_9_L",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R252_RIB_9_R",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R252_RIB_10_L",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R252_RIB_10_R",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R252_RIB_11_L",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R252_RIB_11_R",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R252_RIB_12_L",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R252_RIB_12_R",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R252_RIB_13_L",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R252_RIB_13_R",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R252_RIB_14_L",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R252_RIB_14_R",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R252_RIB_15_L",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R252_RIB_15_R",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R252_RIB_16_L",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R252_RIB_16_R",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R252_RIB_17_L",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R252_RIB_17_R",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R252_RIB_18_L",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R252_RIB_18_R",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R252_RIB_19_L",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R252_RIB_19_R",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R252_RIB_20_L",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R252_RIB_20_R",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R252_RIB_21_L",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R252_RIB_21_R",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R252_RIB_22_L",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R252_RIB_22_R",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R252_RIB_23_L",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R252_RIB_23_R",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R252_RIB_24_L",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R252_RIB_24_R",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R252_RIB_25_L",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R252_RIB_25_R",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R252_RIB_26_L",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R252_RIB_26_R",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R252_RIB_27_L",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R252_RIB_27_R",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R252_RIB_28_L",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R252_RIB_28_R",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R252_RAIL_L_0",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R252_RAIL_L_1",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R252_RAIL_L_2",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R252_RAIL_L_3",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R252_RAIL_L_4",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R252_RAIL_L_5",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R252_RAIL_C_0",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R252_RAIL_C_1",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R252_RAIL_C_2",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R252_RAIL_C_3",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R252_RAIL_C_4",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R252_RAIL_C_5",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R252_RAIL_R_0",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R252_RAIL_R_1",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R252_RAIL_R_2",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R252_RAIL_R_3",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R252_RAIL_R_4",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R252_RAIL_R_5",
+      "boundary": 0,
+      "zero": 0
+    }
+  ],
+  "limits": [
+    "Independent traced volume, roof annulus and fitted pitched glazed roof only",
+    "Facade openings and floor bands still required before any publication",
+    "Outer outline curvature and end pavilion profiles require refinement",
+    "1.8m rib spacing and70mm sections approximate",
+    "Foundation8.5m provisional"
+  ]
+}

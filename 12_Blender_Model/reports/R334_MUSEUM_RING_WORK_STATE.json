@@ -1,0 +1,357 @@
+{
+  "scene": "scenes/MUDAM_R334_HENDEK_CAKISMA_TEMIZLIK_ADAY_v001.blend",
+  "accepted": false,
+  "published": false,
+  "scope": "Only museum perimeter walls, moats, bridges, terraces and ruins in R316 user green marks. Distant surroundings deferred.",
+  "changes": [
+    "R323: west ramp differentiated from upper terrace; three retaining controls relocated to outer ramp edge using source sections.",
+    "R324: 84 of 100 terrace-edge stations matched to existing museum exterior walls; 25mm contact overlap; 16 unmatched preserved for follow-up. Museum untouched.",
+    "R326: north ruin raised masonry platform, five-bay connected corridor, three side chambers, central recess and court independently rebuilt from matched orthographic reference; old partitions 01-09 replaced.",
+    "R326: four false trees inside the source-visible open court hidden; tree source meshes and local transforms preserved.",
+    "R327: east ruin raised masonry platform, three-bay connected corridor, three side chambers, central recess, lower masonry remnant and court independently reconstructed; old partitions 11-18 replaced.",
+    "R328: two independent planar chamber floors fitted to classified ACT2024 LiDAR; old terrain and path faces clipped inside ruin outlines. Reopened and GLB round-trip checked.",
+    "R330: east central court and one northern crosswall corrected using independently held-out LiDAR plane fits; court bottom retained to avoid floating slab.",
+    "R331: four outer moat floor domains reconstructed as independent planes; cut interfering terrain/path faces.",
+    "R334: cleared four legacy wall intrusions inside measured moat corridors; resolved one zero-width solid corner contact with 20mm clearance."
+  ],
+  "rejected": [
+    "R325 platform v001: one nonmanifold edge and visually misaligned chambers; replaced by R326. Do not use.",
+    "R329 common coping planes: held-out RMS 0.132m north and 0.214m east; maximum errors 0.345m and 0.660m. Not applied. Segment-specific coping profiles required."
+  ],
+  "checks": {
+    "inheritance": {
+      "changed": [
+        "R152_CLASS2_TERRAIN",
+        "R152_HISTORIC_WALL_453755312",
+        "R152_HISTORIC_WALL_49911001",
+        "R152_HISTORIC_WALL_51946351",
+        "R152_HISTORIC_WALL_563325236",
+        "R152_HISTORIC_WALL_563325237",
+        "R152_HISTORIC_WALL_759551379",
+        "R152_HISTORIC_WALL_759811368",
+        "R152_HISTORIC_WALL_869145009",
+        "R152_RUIN_PARTITION_10"
+      ],
+      "added": [
+        "R321_MUSEUM_WEST_MOAT_RETAINING",
+        "R322_WEST_MUSEUM_TERRACE",
+        "R325_NORTH_RUIN_CENTRAL_COURT",
+        "R325_NORTH_RUIN_RAISED_PLATFORM",
+        "R326_NORTH_RUIN_CROSSWALL_00",
+        "R326_NORTH_RUIN_CROSSWALL_01",
+        "R326_NORTH_RUIN_CROSSWALL_02",
+        "R326_NORTH_RUIN_CROSSWALL_03",
+        "R327_EAST_RUIN_CENTRAL_COURT",
+        "R327_EAST_RUIN_CROSSWALL_00",
+        "R327_EAST_RUIN_RAISED_PLATFORM"
+      ],
+      "removed": [
+        "R152_RUIN_PARTITION_01",
+        "R152_RUIN_PARTITION_02",
+        "R152_RUIN_PARTITION_03",
+        "R152_RUIN_PARTITION_04",
+        "R152_RUIN_PARTITION_05",
+        "R152_RUIN_PARTITION_06",
+        "R152_RUIN_PARTITION_07",
+        "R152_RUIN_PARTITION_08",
+        "R152_RUIN_PARTITION_09",
+        "R152_RUIN_PARTITION_11",
+        "R152_RUIN_PARTITION_12",
+        "R152_RUIN_PARTITION_13",
+        "R152_RUIN_PARTITION_14",
+        "R152_RUIN_PARTITION_15",
+        "R152_RUIN_PARTITION_16",
+        "R152_RUIN_PARTITION_17",
+        "R152_RUIN_PARTITION_18"
+      ],
+      "unexpected": [],
+      "unchanged": 18072,
+      "museumGeometryPreserved": true,
+      "scope": "Geometry positions, face loop indices and object matrices; not a source-fidelity acceptance"
+    },
+    "northMesh": [
+      {
+        "name": "R325_NORTH_RUIN_RAISED_PLATFORM",
+        "nonManifold": 0,
+        "zeroArea": 0
+      },
+      {
+        "name": "R325_NORTH_RUIN_CENTRAL_COURT",
+        "nonManifold": 0,
+        "zeroArea": 0
+      },
+      {
+        "name": "R326_NORTH_RUIN_CROSSWALL_00",
+        "nonManifold": 0,
+        "zeroArea": 0
+      },
+      {
+        "name": "R326_NORTH_RUIN_CROSSWALL_01",
+        "nonManifold": 0,
+        "zeroArea": 0
+      },
+      {
+        "name": "R326_NORTH_RUIN_CROSSWALL_02",
+        "nonManifold": 0,
+        "zeroArea": 0
+      },
+      {
+        "name": "R326_NORTH_RUIN_CROSSWALL_03",
+        "nonManifold": 0,
+        "zeroArea": 0
+      }
+    ],
+    "eastMesh": [
+      {
+        "name": "R327_EAST_RUIN_RAISED_PLATFORM",
+        "nonManifold": 0,
+        "zeroArea": 0
+      },
+      {
+        "name": "R327_EAST_RUIN_CENTRAL_COURT",
+        "nonManifold": 0,
+        "zeroArea": 0
+      },
+      {
+        "name": "R327_EAST_RUIN_CROSSWALL_00",
+        "nonManifold": 0,
+        "zeroArea": 0
+      }
+    ],
+    "northGlb": [
+      {
+        "name": "R325_NORTH_RUIN_RAISED_PLATFORM",
+        "nonFinite": 0,
+        "zeroArea": 0
+      },
+      {
+        "name": "R326_NORTH_RUIN_CROSSWALL_00",
+        "nonFinite": 0,
+        "zeroArea": 0
+      },
+      {
+        "name": "R326_NORTH_RUIN_CROSSWALL_01",
+        "nonFinite": 0,
+        "zeroArea": 0
+      },
+      {
+        "name": "R326_NORTH_RUIN_CROSSWALL_02",
+        "nonFinite": 0,
+        "zeroArea": 0
+      },
+      {
+        "name": "R326_NORTH_RUIN_CROSSWALL_03",
+        "nonFinite": 0,
+        "zeroArea": 0
+      },
+      {
+        "name": "R325_NORTH_RUIN_CENTRAL_COURT",
+        "nonFinite": 0,
+        "zeroArea": 0
+      }
+    ],
+    "eastGlb": [
+      {
+        "name": "R327_EAST_RUIN_RAISED_PLATFORM",
+        "nonFinite": 0,
+        "zeroArea": 0
+      },
+      {
+        "name": "R327_EAST_RUIN_CROSSWALL_00",
+        "nonFinite": 0,
+        "zeroArea": 0
+      },
+      {
+        "name": "R327_EAST_RUIN_CENTRAL_COURT",
+        "nonFinite": 0,
+        "zeroArea": 0
+      }
+    ],
+    "floorMesh": [
+      {
+        "name": "R328_NORTH_RUIN_FLOOR",
+        "nonManifold": 0,
+        "zeroArea": 0
+      },
+      {
+        "name": "R328_EAST_RUIN_FLOOR",
+        "nonManifold": 0,
+        "zeroArea": 0
+      }
+    ],
+    "floorGlb": [
+      {
+        "name": "R328_NORTH_RUIN_FLOOR",
+        "nonFinite": 0,
+        "zeroArea": 0
+      },
+      {
+        "name": "R328_EAST_RUIN_FLOOR",
+        "nonFinite": 0,
+        "zeroArea": 0
+      },
+      {
+        "name": "R152_PATH_824216705",
+        "nonFinite": 0,
+        "zeroArea": 0
+      },
+      {
+        "name": "R152_PATH_824216707",
+        "nonFinite": 0,
+        "zeroArea": 0
+      },
+      {
+        "name": "R152_CLASS2_TERRAIN",
+        "nonFinite": 0,
+        "zeroArea": 0
+      }
+    ],
+    "floorHeldOut": {
+      "north": {
+        "count": 24,
+        "rms": 0.050981604143936675,
+        "maxAbsolute": 0.12659568509163188,
+        "usedInFit": false
+      },
+      "east": {
+        "count": 18,
+        "rms": 0.06577140325145055,
+        "maxAbsolute": 0.1666879794647036,
+        "usedInFit": false
+      }
+    },
+    "R334": {
+      "scene": "MUDAM_R334_HENDEK_CAKISMA_TEMIZLIK_ADAY_v001.blend",
+      "accepted": false,
+      "published": false,
+      "changes": [
+        {
+          "name": "R152_RUIN_PARTITION_00",
+          "region": "north_nw",
+          "beforeFaces": 10,
+          "afterFaces": 14
+        },
+        {
+          "name": "R152_HISTORIC_WALL_759551379",
+          "region": "north_nw",
+          "beforeFaces": 186,
+          "afterFaces": 189
+        },
+        {
+          "name": "R152_RUIN_PARTITION_00",
+          "region": "north_ne",
+          "beforeFaces": 14,
+          "afterFaces": 14
+        },
+        {
+          "name": "R152_HISTORIC_WALL_453755312",
+          "region": "east_north",
+          "beforeFaces": 314,
+          "afterFaces": 321
+        },
+        {
+          "name": "R152_RUIN_PARTITION_10",
+          "region": "east_north",
+          "beforeFaces": 14,
+          "afterFaces": 14
+        },
+        {
+          "name": "R152_HISTORIC_WALL_453755312",
+          "region": "east_side_upper",
+          "beforeFaces": 321,
+          "afterFaces": 327
+        },
+        {
+          "name": "R152_RUIN_PARTITION_10",
+          "region": "east_side_upper",
+          "beforeFaces": 14,
+          "afterFaces": 18
+        }
+      ],
+      "meshChecks": [
+        {
+          "name": "R152_HISTORIC_WALL_453755312",
+          "nonManifold": 0,
+          "zeroArea": 0
+        },
+        {
+          "name": "R152_HISTORIC_WALL_759551379",
+          "nonManifold": 0,
+          "zeroArea": 0
+        },
+        {
+          "name": "R152_RUIN_PARTITION_00",
+          "nonManifold": 0,
+          "zeroArea": 0
+        },
+        {
+          "name": "R152_RUIN_PARTITION_10",
+          "nonManifold": 0,
+          "zeroArea": 0
+        }
+      ],
+      "limits": [
+        "Clearance only; outer coping layout and wall widths still require source refinement."
+      ],
+      "glbRoundtripErrors": [],
+      "glb": "exports\\r152_clean\\r334_moat_clearance_REVIEW.glb",
+      "reopened": true
+    },
+    "R334Inheritance": {
+      "changed": [
+        "R152_CLASS2_TERRAIN",
+        "R152_HISTORIC_WALL_453755312",
+        "R152_HISTORIC_WALL_759551379",
+        "R152_PATH_759680913",
+        "R152_PATH_824216705",
+        "R152_RUIN_PARTITION_00",
+        "R152_RUIN_PARTITION_10",
+        "R326_NORTH_RUIN_CROSSWALL_02",
+        "R327_EAST_RUIN_CENTRAL_COURT"
+      ],
+      "added": [
+        "R331_EAST_NORTH_RUIN_FLOOR",
+        "R331_EAST_SIDE_UPPER_RUIN_FLOOR",
+        "R331_NORTH_NE_RUIN_FLOOR",
+        "R331_NORTH_NW_RUIN_FLOOR"
+      ],
+      "removed": [],
+      "unexpected": [],
+      "unchanged": 18086,
+      "museumGeometryPreserved": true,
+      "scope": "Geometry positions, face loop indices and object matrices; not a source-fidelity acceptance"
+    },
+    "R334FloorVisibility": {
+      "samples": 36,
+      "floorHits": 36
+    }
+  },
+  "matchedViews": [
+    "renders/qa/R325_north_ruin_source.png",
+    "renders/qa/R326_north_ruin_candidate.png",
+    "renders/qa/R327_east_ruin_source.png",
+    "renders/qa/R327_east_ruin_candidate.png"
+  ],
+  "limitations": [
+    "Matched-view plan reconstruction is not survey-grade height acceptance. Sparse scan chamber hits frequently lie on walls or noisy surfaces.",
+    "Ruin platform coping and courts remain provisional. Chamber floors now independently measured; central small recess depth not separately resolved.",
+    "West ramp grade transitions, remaining 16 terrace contact points, pavilion stepped moat floors, fort roof/curved walls and eastern historic facade still unresolved.",
+    "Court and wall materials remain visibly different from reference; no full-ring fidelity or 100 percent claim.",
+    "Four verified moat domains cleared locally; not all perimeter moat/retaining domains complete.",
+    "R333 proposed outer wall lines have insufficient stable LiDAR controls; no wall replacement applied.",
+    "R332 one-plane fort roof rejected: held-out RMS 0.167m, max 0.441m; no roof modification applied."
+  ],
+  "nextGeometry": "Use R334 master. East side lower moat and coping remain unresolved. R335 middle segment measured but not built. Fort metal roof is not a single plane (R332 rejected); compare R336 source close view before rebuilding independent roof planes. Pavilion steps and curved fort masonry still pending.",
+  "exportReminder": "Include R321, R322, R325, R326, R327, R328, R331 SITE objects in near-site GLB; skip hide_render and replaced old partitions. Existing R314 exporter excludes these new prefixes.",
+  "photoReferencePolicy": "User explicitly directs use of site photographs wherever model reference is insufficient. Photos guide visible form, openings, materials and intersections; do not assume exact scale from uncalibrated photographs.",
+  "inspectedPhotographs": [
+    {
+      "path": "../05_Dis_Mekan/Havadan_Gorunum/116_Muze_havadan_genel_gorunum_Mudam.webp",
+      "evidence": "Pavilion-side stepped ruins, near facade wall, bridges and sunken planted strips; visible discontinuous historic wall tops."
+    },
+    {
+      "path": "../05_Dis_Mekan/Tarihi_Duvarlarla_Iliski/086_Muze_ve_tarihi_sur_duvarlari_ArchEyes.jpg",
+      "evidence": "Fort curved masonry wall, continuous dark coping, round upper apertures and lower rectangular openings, curved opposite retaining wall, grass moat floor. No exact dimensions inferred."
+    }
+  ]
+}

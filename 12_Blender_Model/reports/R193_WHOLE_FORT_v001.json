@@ -1,0 +1,294 @@
+{
+  "accepted": false,
+  "changes": [
+    {
+      "object": "R154_FAR_GROUND",
+      "intersected_triangles": 20,
+      "faces": 111550
+    },
+    {
+      "object": "R154_FAR_GROUND",
+      "intersected_triangles": 22,
+      "faces": 111581
+    },
+    {
+      "object": "R154_FAR_ROADS",
+      "intersected_triangles": 15,
+      "faces": 40492
+    },
+    {
+      "object": "R154_FAR_GROUND",
+      "intersected_triangles": 51,
+      "faces": 111594
+    },
+    {
+      "object": "R154_FAR_ROADS",
+      "intersected_triangles": 50,
+      "faces": 40484
+    },
+    {
+      "object": "R154_FAR_GROUND",
+      "intersected_triangles": 69,
+      "faces": 111602
+    },
+    {
+      "object": "R154_FAR_ROADS",
+      "intersected_triangles": 48,
+      "faces": 40482
+    },
+    {
+      "object": "R154_FAR_GROUND",
+      "intersected_triangles": 78,
+      "faces": 111633
+    },
+    {
+      "object": "R154_FAR_ROADS",
+      "intersected_triangles": 6,
+      "faces": 40485
+    },
+    {
+      "object": "R154_FAR_GROUND",
+      "intersected_triangles": 42,
+      "faces": 111661
+    },
+    {
+      "object": "R154_FAR_ROADS",
+      "intersected_triangles": 46,
+      "faces": 40474
+    },
+    {
+      "object": "R154_FAR_GROUND",
+      "intersected_triangles": 99,
+      "faces": 111638
+    },
+    {
+      "object": "R154_FAR_ROADS",
+      "intersected_triangles": 61,
+      "faces": 40444
+    },
+    {
+      "object": "R154_FAR_GROUND",
+      "intersected_triangles": 60,
+      "faces": 111656
+    },
+    {
+      "object": "R154_FAR_ROADS",
+      "intersected_triangles": 17,
+      "faces": 40441
+    }
+  ],
+  "source_planes": [
+    {
+      "name": "SOUTHWEST_COURT_0",
+      "xy": [
+        [
+          -237.625,
+          -186.2125
+        ],
+        [
+          -249.65,
+          -174.675
+        ],
+        [
+          -238.6,
+          -196.2875
+        ]
+      ],
+      "plane": [
+        0.12382241297537637,
+        0.17956222182182502,
+        -21.441635990237305
+      ],
+      "origin": [
+        -245.36641156462588,
+        -204.22346938775522
+      ]
+    },
+    {
+      "name": "SOUTHWEST_COURT_1",
+      "xy": [
+        [
+          -208.8625,
+          -199.8625
+        ],
+        [
+          -215.3625,
+          -194.5
+        ],
+        [
+          -226.25,
+          -202.625
+        ]
+      ],
+      "plane": [
+        0.12382241297537637,
+        0.17956222182182502,
+        -21.441635990237305
+      ],
+      "origin": [
+        -245.36641156462588,
+        -204.22346938775522
+      ]
+    },
+    {
+      "name": "SOUTHWEST_COURT_2",
+      "xy": [
+        [
+          -249.325,
+          -228.3
+        ],
+        [
+          -228.2,
+          -220.9875
+        ],
+        [
+          -238.6,
+          -196.2875
+        ]
+      ],
+      "plane": [
+        0.12382241297537637,
+        0.17956222182182502,
+        -21.441635990237305
+      ],
+      "origin": [
+        -245.36641156462588,
+        -204.22346938775522
+      ]
+    },
+    {
+      "name": "SOUTHWEST_COURT_3",
+      "xy": [
+        [
+          -276.7875,
+          -185.725
+        ],
+        [
+          -266.225,
+          -210.75
+        ],
+        [
+          -249.65,
+          -174.675
+        ]
+      ],
+      "plane": [
+        0.12382241297537637,
+        0.17956222182182502,
+        -21.441635990237305
+      ],
+      "origin": [
+        -245.36641156462588,
+        -204.22346938775522
+      ]
+    },
+    {
+      "name": "SOUTHWEST_COURT_4",
+      "xy": [
+        [
+          -238.6,
+          -196.2875
+        ],
+        [
+          -249.65,
+          -174.675
+        ],
+        [
+          -266.225,
+          -210.75
+        ]
+      ],
+      "plane": [
+        0.12382241297537637,
+        0.17956222182182502,
+        -21.441635990237305
+      ],
+      "origin": [
+        -245.36641156462588,
+        -204.22346938775522
+      ]
+    },
+    {
+      "name": "SOUTHWEST_COURT_5",
+      "xy": [
+        [
+          -208.8625,
+          -199.8625
+        ],
+        [
+          -226.25,
+          -202.625
+        ],
+        [
+          -228.2,
+          -220.9875
+        ]
+      ],
+      "plane": [
+        0.12382241297537637,
+        0.17956222182182502,
+        -21.441635990237305
+      ],
+      "origin": [
+        -245.36641156462588,
+        -204.22346938775522
+      ]
+    },
+    {
+      "name": "SOUTHWEST_COURT_6",
+      "xy": [
+        [
+          -249.325,
+          -228.3
+        ],
+        [
+          -238.6,
+          -196.2875
+        ],
+        [
+          -266.225,
+          -210.75
+        ]
+      ],
+      "plane": [
+        0.12382241297537637,
+        0.17956222182182502,
+        -21.441635990237305
+      ],
+      "origin": [
+        -245.36641156462588,
+        -204.22346938775522
+      ]
+    },
+    {
+      "name": "SOUTHWEST_COURT_7",
+      "xy": [
+        [
+          -226.25,
+          -202.625
+        ],
+        [
+          -238.6,
+          -196.2875
+        ],
+        [
+          -228.2,
+          -220.9875
+        ]
+      ],
+      "plane": [
+        0.12382241297537637,
+        0.17956222182182502,
+        -21.441635990237305
+      ],
+      "origin": [
+        -245.36641156462588,
+        -204.22346938775522
+      ]
+    }
+  ],
+  "limits": [
+    "Boundary terrain transitions require visual check",
+    "West apron source contaminated by small objects"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "reviewOnly": true,
+  "fullScopeAccepted": false,
+  "sourceScene": "MUDAM_R501_BATI_SUR_AGAC_KOTU_DUZELTME_ADAY_v001.blend",
+  "files": {
+    "near": {
+      "file": "12_Blender_Model/exports/r152_clean/r501_near_draco_webp_REVIEW.glb",
+      "bytes": 7857016,
+      "sha256": "9a04f8202fca82e3fe848aba01e7e5e987552321d51a1632cc151b0b7b4b7da5",
+      "triangles": 394490,
+      "zero": 0,
+      "removedDegenerates": 246,
+      "preservedRowNodes": 0,
+      "bounds": {
+        "min": [
+          -500,
+          -78.04438781738281,
+          -650
+        ],
+        "max": [
+          650.000244140625,
+          16.323524475097656,
+          450.000244140625
+        ]
+      },
+      "decoded": true,
+      "textures": 15
+    }
+  }
+}

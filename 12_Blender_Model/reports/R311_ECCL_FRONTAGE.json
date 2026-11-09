@@ -1,0 +1,42 @@
+{
+  "accepted": false,
+  "published": false,
+  "length": 135.00491889186853,
+  "bays": 55,
+  "glassPanels": 220,
+  "removedInherited": [
+    {
+      "name": "R166_MEASURED_ENVELOPE",
+      "intersectedFaces": 3241
+    }
+  ],
+  "checks": [
+    {
+      "name": "R311_FOREST_GLAZING",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R311_FOREST_MULLIONS",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R311_FOREST_TRANSOMS",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R311_FOREST_ROOF_JUNCTION",
+      "boundary": 0,
+      "zero": 0
+    }
+  ],
+  "sourceUrl": "https://swaa.lu/projekt/european-convention-center-luxemburg/",
+  "evidence": "Architect describes frosted glass adjustable screens on forest side. Source roof trace controls the 135m outer edge. No scan mesh or scan pixels used for new facade.",
+  "assumptions": [
+    "0.2m setback,2.5m bay module,2.226974base and intermediate floor bands are provisional; not a surveyed facade or source-fidelity acceptance",
+    "Forest side, end returns, innerBelvedere and ground connections still need completion",
+    "R306/R307 general facade fits rejected due canopy/occlusion contamination"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "reopened": true,
+  "targets": [
+    {
+      "name": "R494_SOUTH_PAVILION_OUTER_RETAINING_WALL",
+      "loops": 118
+    },
+    {
+      "name": "R495_SOUTH_OUTER_WALL_EAST_RETURN",
+      "loops": 88
+    }
+  ],
+  "occluders": 8662,
+  "image": "textures/R566_museum_ring_contact_ao.png",
+  "aoDistanceMetres": 2,
+  "geometryChanged": false,
+  "lighting": "Contact ambient occlusion only; dynamic sun lighting remains live.",
+  "accepted": false,
+  "published": false
+}

@@ -1,0 +1,38 @@
+{
+  "samples": [
+    {
+      "pixel": [
+        520,
+        650
+      ],
+      "along": 0.008354964200407267,
+      "z": 9.601430892944336
+    },
+    {
+      "pixel": [
+        600,
+        660
+      ],
+      "along": 1.5513415336608887,
+      "z": 9.37090015411377
+    },
+    {
+      "pixel": [
+        850,
+        650
+      ],
+      "along": 6.3731849193573,
+      "z": 9.555768966674805
+    },
+    {
+      "pixel": [
+        940,
+        625
+      ],
+      "along": 8.109055042266846,
+      "z": 10.091938018798828
+    }
+  ],
+  "source": "R231_lower_court_source.png",
+  "limits": "Visible bottom edge projected onto cross-link front plane; approximate, occluded central join excluded"
+}

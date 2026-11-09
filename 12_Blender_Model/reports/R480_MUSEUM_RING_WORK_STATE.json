@@ -1,0 +1,27 @@
+{
+  "updatedUTC": "2026-10-26T15:27:34.566458+00:00",
+  "selectedMaster": "scenes/MUDAM_R464_AVLU_CAMI_ZEMIN_KESISI_ADAY_v001.blend",
+  "latestResearchCandidate": "scenes/MUDAM_R480_TAM_AVLU_SEVLERI_ADAY_v001.blend",
+  "published": false,
+  "accepted": false,
+  "fullScopeAccepted": false,
+  "work": [
+    "Traced complete northwest lawn outline from R461 reference, not interior patch.",
+    "Built closed independent four-zone bank geometry with classified LiDAR controls; denser slope cells retained.",
+    "New source oblique R475 confirms sunken lawn and high historic retaining edge; existing field omits their full relationship."
+  ],
+  "validation": {
+    "newLawnNonManifoldEdges": 0,
+    "newLawnZeroAreaFaces": 0,
+    "gradeDiagnosticRmsM": 0.08568268494266357,
+    "gradeDiagnosticMaxM": 0.307072295837056,
+    "warning": "Diagnostic values precede separately fitted west crest cap; no final whole-mesh source certification."
+  },
+  "unresolved": [
+    "North mineral-court/lawn boundary and grade junction remain mismatched.",
+    "Adjacent narrow dark strip identity/details not verified; do not call it confirmed glazing.",
+    "Diagonal historic retaining wall and lower passage need source-defined complete geometry.",
+    "Other previously listed museum-ring deficits remain."
+  ],
+  "next": "Rebuild court edge, narrow-strip assembly and retaining-wall section together, using R475 oblique reference and photographs. Do not promote R480 or repeat core-only patches."
+}

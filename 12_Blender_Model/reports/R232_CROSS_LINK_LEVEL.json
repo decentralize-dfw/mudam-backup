@@ -1,0 +1,126 @@
+{
+  "accepted": false,
+  "published": false,
+  "changes": [
+    {
+      "name": "R231_GLAZED_SIDE_0",
+      "oldBase": 1.1438095569610596,
+      "newBase": 9.555768966674805
+    },
+    {
+      "name": "R231_GLAZED_SIDE_1",
+      "oldBase": 1.1438095569610596,
+      "newBase": 9.555768966674805
+    },
+    {
+      "name": "R231_GLAZED_END_0",
+      "oldBase": 1.1438095569610596,
+      "newBase": 9.555768966674805
+    },
+    {
+      "name": "R231_GLAZED_END_1",
+      "oldBase": 1.1438095569610596,
+      "newBase": 9.555768966674805
+    }
+  ],
+  "source": {
+    "samples": [
+      {
+        "pixel": [
+          520,
+          650
+        ],
+        "along": 0.008354964200407267,
+        "z": 9.601430892944336
+      },
+      {
+        "pixel": [
+          600,
+          660
+        ],
+        "along": 1.5513415336608887,
+        "z": 9.37090015411377
+      },
+      {
+        "pixel": [
+          850,
+          650
+        ],
+        "along": 6.3731849193573,
+        "z": 9.555768966674805
+      },
+      {
+        "pixel": [
+          940,
+          625
+        ],
+        "along": 8.109055042266846,
+        "z": 10.091938018798828
+      }
+    ],
+    "source": "R231_lower_court_source.png",
+    "limits": "Visible bottom edge projected onto cross-link front plane; approximate, occluded central join excluded"
+  },
+  "reopen": [
+    {
+      "name": "R232_T_GLAZED_ROOF",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R228_GLAZED_SIDE_0",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R228_GLAZED_SIDE_1",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R228_GLAZED_END_0",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R228_GLAZED_END_1",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R231_GLAZED_SIDE_0",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R231_GLAZED_SIDE_1",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R231_GLAZED_END_0",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R231_GLAZED_END_1",
+      "boundary": 0,
+      "zero": 0
+    }
+  ],
+  "limits": [
+    "Three visible projected underside observations only; fourth excluded above roof",
+    "Transverse member now shallow canopy; exact structural/glazing classification still unresolved",
+    "Longitudinal link side/base/end geometry and junction fascia overlaps remain provisional"
+  ],
+  "visualReview": {
+    "source": "R231_lower_court_source.png",
+    "candidate": "R232_erasmus_front_authored.png",
+    "accepted": false,
+    "findings": [
+      "Removed unsupported full-height transverse glazing; underside now9.556m from three projected source observations.",
+      "Roof solids united; nine reopened components closed with no zero-area faces.",
+      "Left connection remains visibly unsupported because courtyard structure/junction is incomplete; do not publish."
+    ]
+  }
+}

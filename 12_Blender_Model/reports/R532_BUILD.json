@@ -1,0 +1,62 @@
+{
+  "checks": [
+    {
+      "name": "R532_SOUTH_PAVED_APPROACH_0",
+      "nonManifold": 0,
+      "zeroArea": 0
+    },
+    {
+      "name": "R532_SOUTH_PAVED_APPROACH_1",
+      "nonManifold": 0,
+      "zeroArea": 0
+    },
+    {
+      "name": "R532_SOUTH_PAVED_APPROACH_2",
+      "nonManifold": 0,
+      "zeroArea": 0
+    },
+    {
+      "name": "R532_SOUTH_PAVED_APPROACH_3",
+      "nonManifold": 0,
+      "zeroArea": 0
+    },
+    {
+      "name": "R532_SOUTH_PAVED_APPROACH_4",
+      "nonManifold": 0,
+      "zeroArea": 0
+    }
+  ],
+  "cuts": [
+    {
+      "name": "R152_PATH_83345376",
+      "cutTriangles": 890
+    },
+    {
+      "name": "R152_PATH_542470959",
+      "cutTriangles": 13
+    },
+    {
+      "name": "R152_PATH_759551377",
+      "cutTriangles": 17
+    },
+    {
+      "name": "R152_PATH_759680913",
+      "cutTriangles": 71
+    },
+    {
+      "name": "R152_CLASS2_TERRAIN",
+      "cutTriangles": 1270
+    }
+  ],
+  "reopened": true,
+  "edgeBlendVertices": 478,
+  "edgeBlendMax": 0.39638903674004383,
+  "sourceControlValidation": {
+    "count": 342,
+    "rms": 0.03920854047144744,
+    "max": 0.1630587044200671,
+    "p95": 0.07497614286029233
+  },
+  "accepted": false,
+  "published": false
+}

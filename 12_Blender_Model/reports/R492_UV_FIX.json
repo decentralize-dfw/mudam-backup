@@ -1,0 +1,62 @@
+{
+  "changes": [
+    {
+      "name": "R348_PAVILION_WEST_RUIN_FLOOR",
+      "fix": "georeferenced albedo UV restored",
+      "previousMaxUvError": 37.500662055335965
+    },
+    {
+      "name": "R348_PAVILION_WEST_RUIN_FLOOR",
+      "fix": "missing metric micro normal UV restored"
+    },
+    {
+      "name": "R363_PAVILION_EAST_0_RUIN_FLOOR",
+      "fix": "georeferenced albedo UV restored",
+      "previousMaxUvError": 44.27776021211044
+    },
+    {
+      "name": "R363_PAVILION_EAST_0_RUIN_FLOOR",
+      "fix": "missing metric micro normal UV restored"
+    },
+    {
+      "name": "R363_PAVILION_EAST_1_RUIN_FLOOR",
+      "fix": "georeferenced albedo UV restored",
+      "previousMaxUvError": 46.95320652173913
+    },
+    {
+      "name": "R363_PAVILION_EAST_1_RUIN_FLOOR",
+      "fix": "missing metric micro normal UV restored"
+    },
+    {
+      "name": "R378_EAST_LONG_MOAT_RUIN_FLOOR",
+      "fix": "georeferenced albedo UV restored",
+      "previousMaxUvError": 39.25474064054225
+    },
+    {
+      "name": "R378_EAST_LONG_MOAT_RUIN_FLOOR",
+      "fix": "missing metric micro normal UV restored"
+    },
+    {
+      "name": "R397_PAVILION_GROUND_CUT_CONTACT",
+      "fix": "georeferenced albedo UV restored",
+      "previousMaxUvError": 13.732740158186598
+    },
+    {
+      "name": "R397_PAVILION_GROUND_CUT_CONTACT",
+      "fix": "missing metric micro normal UV restored"
+    },
+    {
+      "name": "R417_FORT_OPEN_END_EARTH_COVER",
+      "fix": "missing metric micro normal UV restored"
+    },
+    {
+      "name": "R485_NW_LAWN",
+      "fix": "georeferenced albedo UV restored",
+      "previousMaxUvError": 5.056374718586918
+    }
+  ],
+  "reopenedMissingUv": [],
+  "geometryChanged": false,
+  "accepted": false,
+  "published": false
+}

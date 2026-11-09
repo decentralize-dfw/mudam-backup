@@ -1,0 +1,406 @@
+{
+  "accepted": false,
+  "published": false,
+  "records": [
+    {
+      "measurement": {
+        "shift": -48.4,
+        "offset": 0.6,
+        "start": [
+          96.464925750723,
+          383.63374989652976
+        ],
+        "end": [
+          105.63992575072301,
+          372.13374989652976
+        ],
+        "axis": [
+          0.623658313749625,
+          -0.7816970690049786
+        ],
+        "trans": [
+          0.7816970690049786,
+          0.623658313749625
+        ],
+        "length": 14.71158132221007,
+        "width": 2.685671592744396,
+        "fit": [
+          10.07440581108996,
+          -0.012698087507093385,
+          -0.12436862874481502,
+          -0.39550541550156604
+        ],
+        "samples": 273,
+        "heldOutP90": 0.19448455469184722,
+        "support": 0.9485294117647058
+      },
+      "base": 0.6574462890625,
+      "groundMissing": 0,
+      "groundMin": 0.7574462890625,
+      "groundMax": 1.2212295532226562
+    },
+    {
+      "measurement": {
+        "shift": 48.4,
+        "start": [
+          169.20409249067998,
+          446.59044509172
+        ],
+        "end": [
+          178.37909249068,
+          435.09044509172
+        ],
+        "axis": [
+          0.623658313749625,
+          -0.7816970690049786
+        ],
+        "trans": [
+          0.7816970690049786,
+          0.623658313749625
+        ],
+        "length": 14.71158132221007,
+        "width": 2.685671592744396,
+        "fit": [
+          10.028841409018991,
+          -0.01586326596477762,
+          -0.2502828564130532,
+          -0.3454386956372726
+        ],
+        "samples": 273,
+        "heldOutP90": 0.1861486107461232,
+        "support": 0.9338235294117647
+      },
+      "base": 0.6952728271484375,
+      "groundMissing": 0,
+      "groundMin": 0.7952728271484375,
+      "groundMax": 3.2261123657226562
+    }
+  ],
+  "checks": [
+    {
+      "name": "R268_FRONT_SHELL_0",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R268_GLASS_0_0",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R268_FRAME_0_0_L",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R268_FRAME_0_0_R",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R268_FRAME_0_0_B",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R268_FRAME_0_0_T",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R268_FRAME_0_0_M",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R268_TRANSOM_0_0",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R268_GLASS_0_1",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R268_FRAME_0_1_L",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R268_FRAME_0_1_R",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R268_FRAME_0_1_B",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R268_FRAME_0_1_T",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R268_FRAME_0_1_M",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R268_TRANSOM_0_1",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R268_GLASS_0_2",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R268_FRAME_0_2_L",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R268_FRAME_0_2_R",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R268_FRAME_0_2_B",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R268_FRAME_0_2_T",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R268_FRAME_0_2_M",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R268_TRANSOM_0_2",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R268_GLASS_0_3",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R268_FRAME_0_3_L",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R268_FRAME_0_3_R",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R268_FRAME_0_3_B",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R268_FRAME_0_3_T",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R268_FRAME_0_3_M",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R268_TRANSOM_0_3",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R268_GLASS_0_4",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R268_FRAME_0_4_L",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R268_FRAME_0_4_R",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R268_FRAME_0_4_B",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R268_FRAME_0_4_T",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R268_FRAME_0_4_M",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R268_TRANSOM_0_4",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R268_GLASS_0_5",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R268_FRAME_0_5_L",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R268_FRAME_0_5_R",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R268_FRAME_0_5_B",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R268_FRAME_0_5_T",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R268_FRAME_0_5_M",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R268_TRANSOM_0_5",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R268_GLASS_0_6",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R268_FRAME_0_6_L",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R268_FRAME_0_6_R",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R268_FRAME_0_6_B",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R268_FRAME_0_6_T",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R268_FRAME_0_6_M",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R268_TRANSOM_0_6",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R270_ROOF_0",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R270_SIDE_0_0",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R270_SIDE_0_1",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R270_END_0_0",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R270_END_0_1",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R270_FLOOR_0",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R270_FRAMES_0",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R270_ROOF_1",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R270_SIDE_1_0",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R270_SIDE_1_1",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R270_END_1_0",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R270_END_1_1",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R270_FLOOR_1",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R270_FRAMES_1",
+      "boundary": 0,
+      "zero": 0
+    }
+  ],
+  "limits": [
+    "Cross links and adjoining courtyard halls not yet added",
+    "Glazing frames spacing0.7m approximate",
+    "Foundation follows current terrain, not surveyed interior floor"
+  ]
+}

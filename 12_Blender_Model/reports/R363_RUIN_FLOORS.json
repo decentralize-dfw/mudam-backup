@@ -1,0 +1,174 @@
+{
+  "scene": "MUDAM_R363_PAVYON_DOGU_ZEMIN_ADAY_v001.blend",
+  "accepted": false,
+  "published": false,
+  "planes": {
+    "pavilion_east_0": {
+      "outline": [
+        [
+          37.625,
+          -45.93277296004952
+        ],
+        [
+          37.625,
+          -38.125
+        ],
+        [
+          31.375,
+          -35.625
+        ],
+        [
+          29.6875,
+          -33.125
+        ],
+        [
+          32.25,
+          -30.5
+        ],
+        [
+          37.0,
+          -30.0
+        ],
+        [
+          50.0625,
+          -30.625
+        ],
+        [
+          49.8746661994217,
+          -38.889687225445
+        ]
+      ],
+      "plane": [
+        0.0007452934045466215,
+        0.006898870557798307,
+        -5.067812452908375
+      ],
+      "valid": true,
+      "validation": {
+        "planes": [
+          [
+            0.0007452934045466215,
+            0.006898870557798307,
+            -5.067812452908375
+          ],
+          [
+            0.06978418214393138,
+            -0.11317681412133547,
+            -13.180809804116878
+          ]
+        ],
+        "rms": 0.055893551794239986,
+        "max": 0.17454334838428842,
+        "heldout": 158,
+        "valid": true,
+        "method": "Two independent architectural planes with continuous intersection crease. Fit only training spatial cells; held-out cells untouched; no source surface triangulation."
+      }
+    },
+    "pavilion_east_1": {
+      "outline": [
+        [
+          49.8746661994217,
+          -38.889687225445
+        ],
+        [
+          49.75,
+          -44.375
+        ],
+        [
+          45.75,
+          -46.875
+        ],
+        [
+          37.625,
+          -49.375
+        ],
+        [
+          37.625,
+          -45.93277296004952
+        ]
+      ],
+      "plane": [
+        0.06978418214393138,
+        -0.11317681412133547,
+        -13.180809804116878
+      ],
+      "valid": true,
+      "validation": {
+        "planes": [
+          [
+            0.0007452934045466215,
+            0.006898870557798307,
+            -5.067812452908375
+          ],
+          [
+            0.06978418214393138,
+            -0.11317681412133547,
+            -13.180809804116878
+          ]
+        ],
+        "rms": 0.055893551794239986,
+        "max": 0.17454334838428842,
+        "heldout": 158,
+        "valid": true,
+        "method": "Two independent architectural planes with continuous intersection crease. Fit only training spatial cells; held-out cells untouched; no source surface triangulation."
+      }
+    }
+  },
+  "clipped": [
+    {
+      "name": "R152_PATH_759551377",
+      "cutTriangles": 128
+    },
+    {
+      "name": "R152_PATH_824216707",
+      "cutTriangles": 24
+    },
+    {
+      "name": "R152_CLASS2_TERRAIN",
+      "cutTriangles": 452
+    }
+  ],
+  "meshChecks": [
+    {
+      "name": "R363_PAVILION_EAST_0_RUIN_FLOOR",
+      "nonManifold": 0,
+      "zeroArea": 0
+    },
+    {
+      "name": "R363_PAVILION_EAST_1_RUIN_FLOOR",
+      "nonManifold": 0,
+      "zeroArea": 0
+    }
+  ],
+  "glbChecks": [
+    {
+      "name": "R363_PAVILION_EAST_0_RUIN_FLOOR",
+      "nonFinite": 0,
+      "zeroArea": 0
+    },
+    {
+      "name": "R363_PAVILION_EAST_1_RUIN_FLOOR",
+      "nonFinite": 0,
+      "zeroArea": 0
+    },
+    {
+      "name": "R152_PATH_759551377",
+      "nonFinite": 0,
+      "zeroArea": 0
+    },
+    {
+      "name": "R152_PATH_824216707",
+      "nonFinite": 0,
+      "zeroArea": 0
+    },
+    {
+      "name": "R152_CLASS2_TERRAIN",
+      "nonFinite": 0,
+      "zeroArea": 0
+    }
+  ],
+  "limits": [
+    "Pavilion east lawn: two independently fitted planes with continuous crease, held-out RMS 0.056m and max 0.175m.",
+    "Coping, court boundary and pavilion remain unresolved; not whole-ring acceptance."
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "accepted": false,
+  "terraces": [
+    {
+      "name": "WEST_BASTION",
+      "boundary_edges": 0,
+      "top_range": [
+        -11.610231021005696,
+        -11.26225741827835
+      ],
+      "source_support": 0.6330275229357798
+    },
+    {
+      "name": "WEST_RAMPART",
+      "boundary_edges": 0,
+      "top_range": [
+        -11.538928046709952,
+        -11.465523380667143
+      ],
+      "source_support": 0.8823529411764706
+    },
+    {
+      "name": "TRIANGLE_COURT",
+      "boundary_edges": 0,
+      "top_range": [
+        -13.266571765249326,
+        -13.109769897929615
+      ],
+      "source_support": 0.5568181818181818
+    },
+    {
+      "name": "NORTH_COURT",
+      "boundary_edges": 0,
+      "top_range": [
+        -13.28954522284366,
+        -12.385837871359675
+      ],
+      "source_support": 0.8295454545454546
+    },
+    {
+      "name": "CENTRAL_COURT",
+      "boundary_edges": 0,
+      "top_range": [
+        -20.278415407032877,
+        -20.18140885373041
+      ],
+      "source_support": 0.9519230769230769
+    }
+  ],
+  "limits": [
+    "Closed foundation joins to previous DEM terrain; not surveyed wall thickness",
+    "Source residual clusters include ruins and earth slopes; full fort still needs remaining southern/northern connections"
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "accepted": false,
+  "source": "ACT top/elevation and OSM tracks26435587/840229558, gauge1435mm",
+  "roof_fit": [
+    0.013351251074864717,
+    -47.53948141144711
+  ],
+  "deck_fit_samples": 1031,
+  "arches": [
+    {
+      "center": 0.0,
+      "radius": 7.15,
+      "spring": -56.389481411447115,
+      "method": "Analytic semicircle from visible source elevation; repeated obscured spans inferred"
+    },
+    {
+      "center": 17.65,
+      "radius": 7.15,
+      "spring": -56.15383182997575,
+      "method": "Analytic semicircle from visible source elevation; repeated obscured spans inferred"
+    },
+    {
+      "center": 35.3,
+      "radius": 7.15,
+      "spring": -55.91818224850439,
+      "method": "Analytic semicircle from visible source elevation; repeated obscured spans inferred"
+    },
+    {
+      "center": 52.95,
+      "radius": 7.15,
+      "spring": -55.68253266703303,
+      "method": "Analytic semicircle from visible source elevation; repeated obscured spans inferred"
+    },
+    {
+      "center": 70.6,
+      "radius": 7.15,
+      "spring": -55.446883085561666,
+      "method": "Analytic semicircle from visible source elevation; repeated obscured spans inferred"
+    },
+    {
+      "center": 88.25,
+      "radius": 7.15,
+      "spring": -55.2112335040903,
+      "method": "Analytic semicircle from visible source elevation; repeated obscured spans inferred"
+    },
+    {
+      "center": 105.9,
+      "radius": 7.15,
+      "spring": -54.97558392261894,
+      "method": "Analytic semicircle from visible source elevation; repeated obscured spans inferred"
+    }
+  ],
+  "limitations": [
+    "Occluded first spans extrapolate visible repeat rhythm",
+    "Arch dimensions manually measured from registered elevation, not survey",
+    "Parapet section and sleeper sections provisional",
+    "Full reference comparison pending"
+  ]
+}

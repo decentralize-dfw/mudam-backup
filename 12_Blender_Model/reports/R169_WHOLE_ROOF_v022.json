@@ -1,0 +1,14 @@
+{
+  "scene": "MUDAM_R169_SIRA_BUTUN_CATI_ADAY_v022.blend",
+  "accepted": false,
+  "published": false,
+  "removed_fragments": 871,
+  "retained_raised_faces": 128,
+  "new_roof_faces": 3,
+  "limits": [
+    "Source fitted three slopes clipped to OSM footprint; eave offset not yet verified",
+    "Raised source features retained; joins require review",
+    "Slate color provisional"
+  ],
+  "rejected_reason": "OSM wall footprint does not match source roof eave; visible excessive overhang. Rejected."
+}

@@ -1,0 +1,30 @@
+{
+  "reviewOnly": true,
+  "fullScopeAccepted": false,
+  "sourceScene": "MUDAM_R469_CIM_KOT_SUREKLILIGI_ADAY_v001.blend",
+  "files": {
+    "near": {
+      "file": "12_Blender_Model/exports/r152_clean/r469_near_draco_webp_REVIEW.glb",
+      "bytes": 7933716,
+      "sha256": "2568962d667520706a0fc89075b91e1ea27ef71b1161560f7ec28317fc75a45b",
+      "triangles": 388257,
+      "zero": 0,
+      "removedDegenerates": 222,
+      "preservedRowNodes": 0,
+      "bounds": {
+        "min": [
+          -500,
+          -78.04438781738281,
+          -650
+        ],
+        "max": [
+          650.000244140625,
+          16.323524475097656,
+          450.000244140625
+        ]
+      },
+      "decoded": true,
+      "textures": 15
+    }
+  }
+}

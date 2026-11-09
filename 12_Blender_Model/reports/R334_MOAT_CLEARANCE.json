@@ -1,0 +1,77 @@
+{
+  "scene": "MUDAM_R334_HENDEK_CAKISMA_TEMIZLIK_ADAY_v001.blend",
+  "accepted": false,
+  "published": false,
+  "changes": [
+    {
+      "name": "R152_RUIN_PARTITION_00",
+      "region": "north_nw",
+      "beforeFaces": 10,
+      "afterFaces": 14
+    },
+    {
+      "name": "R152_HISTORIC_WALL_759551379",
+      "region": "north_nw",
+      "beforeFaces": 186,
+      "afterFaces": 189
+    },
+    {
+      "name": "R152_RUIN_PARTITION_00",
+      "region": "north_ne",
+      "beforeFaces": 14,
+      "afterFaces": 14
+    },
+    {
+      "name": "R152_HISTORIC_WALL_453755312",
+      "region": "east_north",
+      "beforeFaces": 314,
+      "afterFaces": 321
+    },
+    {
+      "name": "R152_RUIN_PARTITION_10",
+      "region": "east_north",
+      "beforeFaces": 14,
+      "afterFaces": 14
+    },
+    {
+      "name": "R152_HISTORIC_WALL_453755312",
+      "region": "east_side_upper",
+      "beforeFaces": 321,
+      "afterFaces": 327
+    },
+    {
+      "name": "R152_RUIN_PARTITION_10",
+      "region": "east_side_upper",
+      "beforeFaces": 14,
+      "afterFaces": 18
+    }
+  ],
+  "meshChecks": [
+    {
+      "name": "R152_HISTORIC_WALL_453755312",
+      "nonManifold": 0,
+      "zeroArea": 0
+    },
+    {
+      "name": "R152_HISTORIC_WALL_759551379",
+      "nonManifold": 0,
+      "zeroArea": 0
+    },
+    {
+      "name": "R152_RUIN_PARTITION_00",
+      "nonManifold": 0,
+      "zeroArea": 0
+    },
+    {
+      "name": "R152_RUIN_PARTITION_10",
+      "nonManifold": 0,
+      "zeroArea": 0
+    }
+  ],
+  "limits": [
+    "Clearance only; outer coping layout and wall widths still require source refinement."
+  ],
+  "glbRoundtripErrors": [],
+  "glb": "exports\\r152_clean\\r334_moat_clearance_REVIEW.glb",
+  "reopened": true
+}

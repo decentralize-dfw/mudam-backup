@@ -1,0 +1,60 @@
+{
+  "accepted": false,
+  "buildings": [
+    {
+      "name": "ANNEAU",
+      "base": 3.4456146240234373,
+      "wall_bottom": 17.970138549804688,
+      "roof": 34.85,
+      "glazed_panels": 1268,
+      "source": "OSM way34122546",
+      "accepted": false
+    },
+    {
+      "name": "ANCIEN_PALAIS",
+      "base": 13.489743041992188,
+      "wall_bottom": 13.489743041992188,
+      "roof": 38.1,
+      "glazed_panels": 640,
+      "source": "OSM way24457478",
+      "accepted": false
+    },
+    {
+      "name": "NOVOTEL_HIGH",
+      "base": 9.286618041992188,
+      "wall_bottom": 9.286618041992188,
+      "roof": 30.2,
+      "glazed_panels": 888,
+      "source": "OSM 51768388",
+      "accepted": false
+    },
+    {
+      "name": "NOVOTEL_LOW",
+      "base": 9.957684326171876,
+      "wall_bottom": 9.957684326171876,
+      "roof": 17.9,
+      "glazed_panels": 304,
+      "source": "OSM 51768388",
+      "accepted": false
+    },
+    {
+      "name": "MAMA_SHELTER",
+      "base": 2.0525634765625,
+      "wall_bottom": 2.0525634765625,
+      "roof": 34.0,
+      "glazed_panels": 318,
+      "source": "OSM 788248913",
+      "accepted": false
+    }
+  ],
+  "limitations": [
+    "Only source roof modes and mapped footprint constraints established",
+    "Opening rhythm is candidate, not measured module acceptance",
+    "Ring116columns and10m clearance supported by Curia; exact column placement not established",
+    "Partial source coverage; no whole11region acceptance"
+  ],
+  "sources": [
+    "https://curia.europa.eu/site/jcms/qua3_6433/es/el-anillo",
+    "https://curia.europa.eu/site/upload/docs/application/pdf/2022-06/qd-ar-22-001-en-n.pdf"
+  ]
+}

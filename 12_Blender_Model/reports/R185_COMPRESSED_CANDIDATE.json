@@ -1,0 +1,36 @@
+{
+  "acceptedForPublication": false,
+  "scope": "Region9 overhang replacement only; full road network not accepted",
+  "baseSha256": "9a19c1f34fa7c204dcc9a17954af4fd5f0fd98708eab124fd1e96847e50fb46e",
+  "sha256": "48e5f1349ad770b83ee28efe52552b0ba90166d09d520601c2493543a2ef9f98",
+  "bytes": 19253396,
+  "triangles": 233010,
+  "replaced": [
+    "R161_ROAD_CONNECTIONS",
+    "R168_SOURCE_JUNCTION"
+  ],
+  "removedDegenerates": [
+    {
+      "mesh": "R182_EXTENSION_GROUND",
+      "zeroAreaTriangles": 4
+    }
+  ],
+  "bounds": {
+    "min": [
+      -600,
+      -81.07743072509766,
+      -800
+    ],
+    "max": [
+      800,
+      95.75955963134766,
+      600
+    ]
+  },
+  "compressedDecodePassed": true,
+  "limitations": [
+    "OSM lane counts retained",
+    "Untagged lane widths3.25m provisional",
+    "Marked northern overhang region only"
+  ]
+}

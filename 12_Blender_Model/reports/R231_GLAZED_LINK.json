@@ -1,0 +1,97 @@
+{
+  "accepted": false,
+  "published": false,
+  "measurement": {
+    "pixels": [
+      [
+        728,
+        674
+      ],
+      [
+        753,
+        708
+      ],
+      [
+        903,
+        586
+      ],
+      [
+        879,
+        553
+      ]
+    ],
+    "start": [
+      129.525,
+      411.95000000000005
+    ],
+    "end": [
+      137.05,
+      418.025
+    ],
+    "axis": [
+      0.7780869564048543,
+      0.6281565794231805
+    ],
+    "trans": [
+      -0.6281565794231805,
+      0.7780869564048543
+    ],
+    "length": 9.67115556694231,
+    "width": 2.075157680455632,
+    "fit": [
+      9.989258913084239,
+      -0.0009194070290136025,
+      0.046395902095095545,
+      0.02161146428351047
+    ],
+    "samples": 273,
+    "heldOutP90": 0.04851543032062011,
+    "support": 0.9852941176470589,
+    "limits": "Independent analytic barrel approximation from scalar source measurements; footprint visually traced, no mesh copied"
+  },
+  "base": 1.1438095092773437,
+  "terrainSamples": 155,
+  "reopen": [
+    {
+      "name": "R231_CURVED_GLAZED_ROOF",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R231_GLAZED_SIDE_0",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R231_GLAZED_SIDE_1",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R231_GLAZED_END_0",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R231_GLAZED_END_1",
+      "boundary": 0,
+      "zero": 0
+    }
+  ],
+  "limits": [
+    "Measured near-planar cross connector envelope; frames/doors/interior floor and T-junction overlap unresolved",
+    "Side and end enclosure base follows modeled terrain; source level relationship needs further review",
+    "Glass material and .05/.06 thickness provisional",
+    "Whole complex and junctions not accepted"
+  ],
+  "visualReview": {
+    "source": "R231_lower_court_source.png and R221_erasmus_front_source.png",
+    "candidate": "R231_erasmus_front_authored.png",
+    "accepted": false,
+    "findings": [
+      "Previously missing transverse connection added using scalar source roof measurements.",
+      "Source suggests elevated connection/terrace relationship: full-height glass sides remain provisional and must not be accepted.",
+      "T-junction overlaps, end geometry, frames and courtyard levels remain unresolved."
+    ]
+  }
+}

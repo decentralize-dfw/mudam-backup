@@ -1,0 +1,42 @@
+[
+  {
+    "tower": "WEST",
+    "fit": [
+      -71.5,
+      -47.6,
+      3.885344371339411,
+      -0.15520961991699556
+    ],
+    "training": 83,
+    "heldout": 10,
+    "rms": 0.1713861876009943,
+    "max": 0.49653574966872505,
+    "quantiles": [
+      0.07727497771509473,
+      0.16912798308392304,
+      0.3328318663763237
+    ],
+    "scope": "Narrow front15degree solid masonry strip; exclude middle opening band before fitting; not whole circumference acceptance",
+    "valid": false
+  },
+  {
+    "tower": "SOUTH",
+    "fit": [
+      -57.4,
+      -63.1,
+      3.418918963004477,
+      -0.16290197499645562
+    ],
+    "training": 77,
+    "heldout": 16,
+    "rms": 0.06827901342364955,
+    "max": 0.15608134922457229,
+    "quantiles": [
+      0.03947161767362317,
+      0.12090381383803006,
+      0.13064060892350238
+    ],
+    "scope": "Narrow front15degree solid masonry strip; exclude middle opening band before fitting; not whole circumference acceptance",
+    "valid": true
+  }
+]

@@ -1,0 +1,20 @@
+{
+  "accepted": false,
+  "boundaries": [
+    {
+      "name": "R187_BOUNDARY_OUTER_BASTIONS",
+      "triangles": 1068,
+      "shared_boundary_segments": 105
+    },
+    {
+      "name": "R187_BOUNDARY_CONNECTED_MOAT",
+      "triangles": 810,
+      "shared_boundary_segments": 0
+    }
+  ],
+  "limits": [
+    "Architectural grade interpolation between measured source levels",
+    "Boundary faces join original DEM; masonry face alignment and material require source comparison",
+    "No full fort acceptance"
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "changed": [
+    "R424_SOUTH_TOWER_BODY",
+    "R424_SOUTH_BLIND_ARCADES",
+    "R424_SOUTH_RECESSED_DOOR",
+    "R446_SOUTH_CORBEL_BELT",
+    "R418_TOWER_CONICAL_ROOF_SOUTH",
+    "R425_SOUTH_ACORN_FINIAL"
+  ],
+  "checks": [
+    {
+      "name": "R424_SOUTH_TOWER_BODY",
+      "nonManifold": 0,
+      "zeroArea": 0
+    },
+    {
+      "name": "R424_SOUTH_BLIND_ARCADES",
+      "nonManifold": 0,
+      "zeroArea": 0
+    },
+    {
+      "name": "R424_SOUTH_RECESSED_DOOR",
+      "nonManifold": 0,
+      "zeroArea": 0
+    },
+    {
+      "name": "R446_SOUTH_CORBEL_BELT",
+      "nonManifold": 0,
+      "zeroArea": 0
+    },
+    {
+      "name": "R418_TOWER_CONICAL_ROOF_SOUTH",
+      "nonManifold": 0,
+      "zeroArea": 0
+    },
+    {
+      "name": "R425_SOUTH_ACORN_FINIAL",
+      "nonManifold": 0,
+      "zeroArea": 0
+    }
+  ],
+  "reopened": true,
+  "eave": 5.040273122886934,
+  "bodyTop": 5.040273189544678,
+  "roofBodyVerticalGap": 6.665774332503815e-08,
+  "oldRadius": 4.7,
+  "newRadius": 4.263669540042431,
+  "accepted": false,
+  "published": false,
+  "parameters": "R504_SOUTH_ROOF_PARAMETERS.json"
+}

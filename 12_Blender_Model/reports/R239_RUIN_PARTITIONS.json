@@ -1,0 +1,55 @@
+{
+  "accepted": false,
+  "published": false,
+  "measurement": {
+    "points": [
+      [
+        -235.34059143066406,
+        -189.41024780273438,
+        -17.74919319152832
+      ],
+      [
+        -228.36981201171875,
+        -196.57447814941406,
+        -17.795787811279297
+      ],
+      [
+        -224.4619598388672,
+        -191.43499755859375,
+        -17.39202308654785
+      ]
+    ],
+    "pixels": [
+      [
+        440,
+        348
+      ],
+      [
+        463,
+        477
+      ],
+      [
+        593,
+        449
+      ]
+    ],
+    "source": "R239_ruin_source.png",
+    "method": "Three source ray measurements define two independent straight partition walls; no scan mesh transfer",
+    "accepted": false
+  },
+  "reopen": [
+    {
+      "name": "R239_RUIN_INNER_PARTITIONS",
+      "boundary": 0,
+      "zero": 0,
+      "finite": true
+    }
+  ],
+  "wallThickness": 0.65,
+  "limits": [
+    "Thickness follows existing approximate ruin walls; not surveyed",
+    "Broken stone profiles and end connections pending",
+    "Court grade and source agreement not accepted"
+  ],
+  "visualReview": "Matched source/candidate reviewed: internal chamber restored; weathering, broken profiles and boundary/ground fidelity incomplete. Not accepted."
+}

@@ -1,0 +1,100 @@
+{
+  "accepted": false,
+  "published": false,
+  "scope": "Seven Erasmus wing envelopes; source edge and facade agreement still incomplete",
+  "records": [
+    {
+      "name": "R217_ERASMUS_WING_8",
+      "roof": 11.426948547363281,
+      "groundContactBases": [
+        2.174273681640625,
+        5.514163208007813,
+        0.9494964599609375,
+        0.98179931640625
+      ],
+      "closed": true,
+      "openingsModeled": false
+    },
+    {
+      "name": "R217_ERASMUS_WING_12",
+      "roof": 11.408683776855469,
+      "groundContactBases": [
+        7.287890625,
+        7.413905334472656,
+        1.9048187255859375,
+        1.4829360961914062
+      ],
+      "closed": true,
+      "openingsModeled": false
+    },
+    {
+      "name": "R217_ERASMUS_WING_13",
+      "roof": 11.4061279296875,
+      "groundContactBases": [
+        5.499278259277344,
+        4.189570617675781,
+        0.9365570068359375,
+        1.0697357177734375
+      ],
+      "closed": true,
+      "openingsModeled": false
+    },
+    {
+      "name": "R217_ERASMUS_WING_14",
+      "roof": 11.436748504638672,
+      "groundContactBases": [
+        4.131739807128906,
+        3.582011413574219,
+        0.863787841796875,
+        0.9650375366210937
+      ],
+      "closed": true,
+      "openingsModeled": false
+    }
+  ],
+  "reopen": [
+    {
+      "name": "R216_ERASMUS_WING_0",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R216_ERASMUS_WING_1",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R216_ERASMUS_WING_2",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R217_ERASMUS_WING_8",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R217_ERASMUS_WING_12",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R217_ERASMUS_WING_13",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R217_ERASMUS_WING_14",
+      "boundary": 0,
+      "zero": 0
+    }
+  ],
+  "method": "Independently constructed planar closed volumes; scalar measured roofs and current terrain contact",
+  "limits": [
+    "Blank facade envelopes are study only; actual windows doors and frames still missing",
+    "Remaining wings rear circulation and courtyard construction missing",
+    "Ground contact follows current modeled terrain, not surveyed facade base heights",
+    "Do not publish as accepted architecture or replace R213 production"
+  ],
+  "visualReview": "Same-camera render inspected. Seven roof-wing positions are present, but the complex reads as disconnected plain boxes: rear circulation strip, lower front volumes, courtyard surfaces, real facade openings and materials remain absent. Rejected for publication as finished architecture."
+}

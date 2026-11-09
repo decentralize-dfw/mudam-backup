@@ -1,0 +1,63 @@
+{
+  "scene": "MUDAM_R482_AVLU_YOL_SEV_BIRLESIM_ADAY_v002.blend",
+  "checks": [
+    {
+      "name": "R482_NW_LAWN",
+      "nonManifold": 0,
+      "zeroArea": 0
+    },
+    {
+      "name": "R482_NW_PATH",
+      "nonManifold": 0,
+      "zeroArea": 0
+    },
+    {
+      "name": "R482_NW_CONNECTOR",
+      "nonManifold": 0,
+      "zeroArea": 0
+    }
+  ],
+  "reopened": [
+    {
+      "name": "R482_NW_LAWN",
+      "nonManifold": 0,
+      "zeroArea": 0
+    },
+    {
+      "name": "R482_NW_PATH",
+      "nonManifold": 0,
+      "zeroArea": 0
+    },
+    {
+      "name": "R482_NW_CONNECTOR",
+      "nonManifold": 0,
+      "zeroArea": 0
+    }
+  ],
+  "cuts": [
+    {
+      "name": "R152_PATH_83345393",
+      "cutTriangles": 180
+    },
+    {
+      "name": "R152_FORECOURT_0",
+      "cutTriangles": 271
+    },
+    {
+      "name": "R152_CLASS2_TERRAIN",
+      "cutTriangles": 256
+    }
+  ],
+  "pathControls": {
+    "heldout": 63,
+    "training": 185,
+    "rms": 0.016890275737792934,
+    "max": 0.037094245318977315
+  },
+  "accepted": false,
+  "published": false,
+  "limits": [
+    "Bank widths3.5m/2.5m require visual source reconciliation.",
+    "Historic retaining edge and adjacent dark strip still incomplete."
+  ]
+}

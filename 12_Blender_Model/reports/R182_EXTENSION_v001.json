@@ -1,0 +1,502 @@
+{
+  "accepted": false,
+  "terrain": [
+    {
+      "name": "R182_EXTENSION_GROUND",
+      "triangles": 61905
+    },
+    {
+      "name": "R182_EXTENSION_ROADS",
+      "triangles": 15143
+    }
+  ],
+  "buildings": [
+    {
+      "id": "48993285",
+      "height": 8,
+      "height_basis": "User-authorized abstract mass; unmeasured neutral8m height",
+      "base": -120.33302612304688,
+      "top": -112.071044921875
+    },
+    {
+      "id": "52091728",
+      "height": 8,
+      "height_basis": "User-authorized abstract mass; unmeasured neutral8m height",
+      "base": -119.48720092773438,
+      "top": -62.141082763671875
+    },
+    {
+      "id": "58609208",
+      "height": 8,
+      "height_basis": "User-authorized abstract mass; unmeasured neutral8m height",
+      "base": -57.73616333007813,
+      "top": -48.1317138671875
+    },
+    {
+      "id": "58609209",
+      "height": 8,
+      "height_basis": "User-authorized abstract mass; unmeasured neutral8m height",
+      "base": -59.59128112792969,
+      "top": -49.66796875
+    },
+    {
+      "id": "83179078",
+      "height": 8,
+      "height_basis": "User-authorized abstract mass; unmeasured neutral8m height",
+      "base": -120.63423461914063,
+      "top": -111.48077392578125
+    },
+    {
+      "id": "92711481",
+      "height": 8,
+      "height_basis": "User-authorized abstract mass; unmeasured neutral8m height",
+      "base": -117.28779907226563,
+      "top": -108.26531982421875
+    },
+    {
+      "id": "143863776",
+      "height": 8,
+      "height_basis": "User-authorized abstract mass; unmeasured neutral8m height",
+      "base": -116.9960205078125,
+      "top": -104.13504028320312
+    },
+    {
+      "id": "143863777",
+      "height": 8,
+      "height_basis": "User-authorized abstract mass; unmeasured neutral8m height",
+      "base": -119.00844116210938,
+      "top": -103.12594604492188
+    },
+    {
+      "id": "145323073",
+      "height": 8,
+      "height_basis": "User-authorized abstract mass; unmeasured neutral8m height",
+      "base": -58.608584594726565,
+      "top": -47.9765625
+    },
+    {
+      "id": "145323089",
+      "height": 8,
+      "height_basis": "User-authorized abstract mass; unmeasured neutral8m height",
+      "base": -67.71298522949219,
+      "top": -52.54743957519531
+    },
+    {
+      "id": "153344889",
+      "height": 8,
+      "height_basis": "User-authorized abstract mass; unmeasured neutral8m height",
+      "base": -59.59128112792969,
+      "top": -49.49504089355469
+    },
+    {
+      "id": "153379126",
+      "height": 8,
+      "height_basis": "User-authorized abstract mass; unmeasured neutral8m height",
+      "base": -58.674685668945315,
+      "top": -49.7587890625
+    },
+    {
+      "id": "153379133",
+      "height": 8,
+      "height_basis": "User-authorized abstract mass; unmeasured neutral8m height",
+      "base": -58.329150390625,
+      "top": -49.51496887207031
+    },
+    {
+      "id": "155639263",
+      "height": 8,
+      "height_basis": "User-authorized abstract mass; unmeasured neutral8m height",
+      "base": -102.3761474609375,
+      "top": -93.64802551269531
+    },
+    {
+      "id": "155639270",
+      "height": 8,
+      "height_basis": "User-authorized abstract mass; unmeasured neutral8m height",
+      "base": -100.79977722167969,
+      "top": -86.41036987304688
+    },
+    {
+      "id": "155639276",
+      "height": 8,
+      "height_basis": "User-authorized abstract mass; unmeasured neutral8m height",
+      "base": -104.69313354492188,
+      "top": -87.46041870117188
+    },
+    {
+      "id": "162041599",
+      "height": 8,
+      "height_basis": "User-authorized abstract mass; unmeasured neutral8m height",
+      "base": -76.79501647949219,
+      "top": -66.37918090820312
+    },
+    {
+      "id": "162041608",
+      "height": 8,
+      "height_basis": "User-authorized abstract mass; unmeasured neutral8m height",
+      "base": -122.393603515625,
+      "top": -112.37261962890625
+    },
+    {
+      "id": "163103029",
+      "height": 8,
+      "height_basis": "User-authorized abstract mass; unmeasured neutral8m height",
+      "base": -79.92747802734375,
+      "top": -61.194305419921875
+    },
+    {
+      "id": "164179247",
+      "height": 8,
+      "height_basis": "User-authorized abstract mass; unmeasured neutral8m height",
+      "base": -103.2018310546875,
+      "top": -85.15545654296875
+    },
+    {
+      "id": "164179266",
+      "height": 8,
+      "height_basis": "User-authorized abstract mass; unmeasured neutral8m height",
+      "base": -111.85380859375,
+      "top": -100.7261962890625
+    },
+    {
+      "id": "164179276",
+      "height": 8,
+      "height_basis": "User-authorized abstract mass; unmeasured neutral8m height",
+      "base": -113.41478271484375,
+      "top": -98.86190795898438
+    },
+    {
+      "id": "164179296",
+      "height": 8,
+      "height_basis": "User-authorized abstract mass; unmeasured neutral8m height",
+      "base": -98.31062622070313,
+      "top": -37.998504638671875
+    },
+    {
+      "id": "164179321",
+      "height": 8,
+      "height_basis": "User-authorized abstract mass; unmeasured neutral8m height",
+      "base": -97.28575439453125,
+      "top": -86.74043273925781
+    },
+    {
+      "id": "164180258",
+      "height": 8,
+      "height_basis": "User-authorized abstract mass; unmeasured neutral8m height",
+      "base": -100.28135986328125,
+      "top": -86.83154296875
+    },
+    {
+      "id": "164184496",
+      "height": 8,
+      "height_basis": "User-authorized abstract mass; unmeasured neutral8m height",
+      "base": -75.482958984375,
+      "top": -66.72804260253906
+    },
+    {
+      "id": "164184528",
+      "height": 8,
+      "height_basis": "User-authorized abstract mass; unmeasured neutral8m height",
+      "base": -75.04039306640625,
+      "top": -64.85975646972656
+    },
+    {
+      "id": "164184549",
+      "height": 8,
+      "height_basis": "User-authorized abstract mass; unmeasured neutral8m height",
+      "base": -123.21437377929688,
+      "top": -114.3995361328125
+    },
+    {
+      "id": "164184564",
+      "height": 8,
+      "height_basis": "User-authorized abstract mass; unmeasured neutral8m height",
+      "base": -72.56871337890625,
+      "top": -60.83964538574219
+    },
+    {
+      "id": "164184565",
+      "height": 8,
+      "height_basis": "User-authorized abstract mass; unmeasured neutral8m height",
+      "base": -75.57318420410157,
+      "top": -66.66435241699219
+    },
+    {
+      "id": "165232667",
+      "height": 8,
+      "height_basis": "User-authorized abstract mass; unmeasured neutral8m height",
+      "base": -104.70398254394532,
+      "top": -80.08737182617188
+    },
+    {
+      "id": "166956469",
+      "height": 8,
+      "height_basis": "User-authorized abstract mass; unmeasured neutral8m height",
+      "base": -74.03905029296875,
+      "top": -63.14396667480469
+    },
+    {
+      "id": "166956476",
+      "height": 8,
+      "height_basis": "User-authorized abstract mass; unmeasured neutral8m height",
+      "base": -121.51982421875,
+      "top": -110.7576904296875
+    },
+    {
+      "id": "166956477",
+      "height": 8,
+      "height_basis": "User-authorized abstract mass; unmeasured neutral8m height",
+      "base": -73.90663452148438,
+      "top": -60.05427551269531
+    },
+    {
+      "id": "171495669",
+      "height": 8,
+      "height_basis": "User-authorized abstract mass; unmeasured neutral8m height",
+      "base": -61.43211669921875,
+      "top": -49.74224853515625
+    },
+    {
+      "id": "171495678",
+      "height": 8,
+      "height_basis": "User-authorized abstract mass; unmeasured neutral8m height",
+      "base": -61.25142211914063,
+      "top": -51.73600769042969
+    },
+    {
+      "id": "171495682",
+      "height": 9.600000000000001,
+      "height_basis": "OSM levels x3.2m provisional",
+      "base": -69.57193298339844,
+      "top": -58.261083984375
+    },
+    {
+      "id": "171495694",
+      "height": 8,
+      "height_basis": "User-authorized abstract mass; unmeasured neutral8m height",
+      "base": -59.95387573242188,
+      "top": -49.9375
+    },
+    {
+      "id": "171495716",
+      "height": 12.8,
+      "height_basis": "OSM levels x3.2m provisional",
+      "base": -59.51521606445313,
+      "top": -44.931826782226565
+    },
+    {
+      "id": "171674237",
+      "height": 12.8,
+      "height_basis": "OSM levels x3.2m provisional",
+      "base": -60.22854919433594,
+      "top": -45.22960205078125
+    },
+    {
+      "id": "197552941",
+      "height": 8,
+      "height_basis": "User-authorized abstract mass; unmeasured neutral8m height",
+      "base": -70.68524475097657,
+      "top": -49.73211669921875
+    },
+    {
+      "id": "216534891",
+      "height": 8,
+      "height_basis": "User-authorized abstract mass; unmeasured neutral8m height",
+      "base": -119.56715698242188,
+      "top": -109.35186767578125
+    },
+    {
+      "id": "301836561",
+      "height": 9.600000000000001,
+      "height_basis": "OSM levels x3.2m provisional",
+      "base": -58.74148864746094,
+      "top": -46.49523010253906
+    },
+    {
+      "id": "453737278",
+      "height": 2.5,
+      "height_basis": "OSM height",
+      "base": -94.41612548828125,
+      "top": -82.80726623535156
+    },
+    {
+      "id": "453737281",
+      "height": 2.5,
+      "height_basis": "OSM height",
+      "base": -50.41600341796875,
+      "top": -41.472381591796875
+    },
+    {
+      "id": "453745328",
+      "height": 2.5,
+      "height_basis": "OSM height",
+      "base": -80.70677490234375,
+      "top": -71.49275207519531
+    },
+    {
+      "id": "546346007",
+      "height": 8,
+      "height_basis": "User-authorized abstract mass; unmeasured neutral8m height",
+      "base": -101.28889770507813,
+      "top": -80.55722045898438
+    },
+    {
+      "id": "546351307",
+      "height": 8,
+      "height_basis": "User-authorized abstract mass; unmeasured neutral8m height",
+      "base": -118.03209228515625,
+      "top": -108.15914916992188
+    },
+    {
+      "id": "582803240",
+      "height": 8,
+      "height_basis": "User-authorized abstract mass; unmeasured neutral8m height",
+      "base": -68.55853576660157,
+      "top": -58.287139892578125
+    },
+    {
+      "id": "582803241",
+      "height": 8,
+      "height_basis": "User-authorized abstract mass; unmeasured neutral8m height",
+      "base": -66.50548095703125,
+      "top": -57.842132568359375
+    },
+    {
+      "id": "831196268",
+      "height": 8,
+      "height_basis": "User-authorized abstract mass; unmeasured neutral8m height",
+      "base": -74.03621215820313,
+      "top": -61.277557373046875
+    },
+    {
+      "id": "831196269",
+      "height": 8,
+      "height_basis": "User-authorized abstract mass; unmeasured neutral8m height",
+      "base": -121.8348876953125,
+      "top": -62.62608337402344
+    },
+    {
+      "id": "832920701",
+      "height": 8,
+      "height_basis": "User-authorized abstract mass; unmeasured neutral8m height",
+      "base": -67.31007690429688,
+      "top": -58.24720764160156
+    },
+    {
+      "id": "832920704",
+      "height": 8,
+      "height_basis": "User-authorized abstract mass; unmeasured neutral8m height",
+      "base": -74.66711730957032,
+      "top": -61.74725341796875
+    },
+    {
+      "id": "927885562",
+      "height": 8,
+      "height_basis": "User-authorized abstract mass; unmeasured neutral8m height",
+      "base": -60.29776306152344,
+      "top": -50.40858459472656
+    },
+    {
+      "id": "927885563",
+      "height": 8,
+      "height_basis": "User-authorized abstract mass; unmeasured neutral8m height",
+      "base": -59.09146423339844,
+      "top": -49.73750305175781
+    },
+    {
+      "id": "930614758",
+      "height": 8,
+      "height_basis": "User-authorized abstract mass; unmeasured neutral8m height",
+      "base": -75.49573059082032,
+      "top": -66.79147338867188
+    },
+    {
+      "id": "930614763",
+      "height": 8,
+      "height_basis": "User-authorized abstract mass; unmeasured neutral8m height",
+      "base": -122.73082275390625,
+      "top": -66.66435241699219
+    },
+    {
+      "id": "930614764",
+      "height": 8,
+      "height_basis": "User-authorized abstract mass; unmeasured neutral8m height",
+      "base": -123.2445556640625,
+      "top": -67.09222412109375
+    },
+    {
+      "id": "996462637",
+      "height": 8,
+      "height_basis": "User-authorized abstract mass; unmeasured neutral8m height",
+      "base": -72.25915832519532,
+      "top": -62.141082763671875
+    },
+    {
+      "id": "1337806173",
+      "height": 8,
+      "height_basis": "User-authorized abstract mass; unmeasured neutral8m height",
+      "base": -106.12245483398438,
+      "top": -92.23355102539062
+    },
+    {
+      "id": "1337806174",
+      "height": 8,
+      "height_basis": "User-authorized abstract mass; unmeasured neutral8m height",
+      "base": -97.28724975585938,
+      "top": -85.75837707519531
+    },
+    {
+      "id": "1337806175",
+      "height": 8,
+      "height_basis": "User-authorized abstract mass; unmeasured neutral8m height",
+      "base": -98.19421691894532,
+      "top": -87.59379577636719
+    },
+    {
+      "id": "1337806192",
+      "height": 8,
+      "height_basis": "User-authorized abstract mass; unmeasured neutral8m height",
+      "base": -74.14808959960938,
+      "top": -60.059844970703125
+    },
+    {
+      "id": "1337806196",
+      "height": 8,
+      "height_basis": "User-authorized abstract mass; unmeasured neutral8m height",
+      "base": -75.19198913574219,
+      "top": -66.53399658203125
+    },
+    {
+      "id": "1337806197",
+      "height": 8,
+      "height_basis": "User-authorized abstract mass; unmeasured neutral8m height",
+      "base": -75.17088623046875,
+      "top": -66.53399658203125
+    },
+    {
+      "id": "1337806198",
+      "height": 8,
+      "height_basis": "User-authorized abstract mass; unmeasured neutral8m height",
+      "base": -123.24483032226563,
+      "top": -114.39151000976562
+    },
+    {
+      "id": "1467794790",
+      "height": 8,
+      "height_basis": "User-authorized abstract mass; unmeasured neutral8m height",
+      "base": -120.43468017578125,
+      "top": -104.21853637695312
+    }
+  ],
+  "skipped": [
+    "58609207",
+    "301836559",
+    "301836562"
+  ],
+  "limits": [
+    "Road widths without tags are provisional",
+    "Only exterior ring; current museum and internal terrain untouched",
+    "8m unknown-height masses are abstract, never surveyed-height acceptance",
+    "Terrain boundary seam and district source visual review pending"
+  ]
+}

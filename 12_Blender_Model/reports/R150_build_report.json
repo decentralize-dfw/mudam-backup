@@ -1,0 +1,123 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R150_LIDAR_HENDEK_ADAY_v002.blend",
+  "base_scene": "MUDAM_R149_UST_DOLASIM_TAS_DOSEME_v001.blend",
+  "changed_inherited_objects": [
+    "R35_MOAT_GROUND",
+    "R68_MOAT_GROUND",
+    "R68_WALL_00",
+    "R68_WALL_01",
+    "R68_WALL_03",
+    "R68_WALL_04",
+    "R68_WALL_05"
+  ],
+  "wall_base_extensions": [
+    {
+      "name": "R68_WALL_00",
+      "old_base": -5.7762932777404785,
+      "new_base": -8.267307564496821,
+      "samples": 220,
+      "terrain_min": -8.017307564496821,
+      "nearest_surface_max_distance": 0.6745691536312433,
+      "method": "Only extend existing lowest vertices below minimum adjacent candidate terrain; preserve heads/openings; base embed depth .25m inherited surface thickness, not surveyed foundation."
+    },
+    {
+      "name": "R68_WALL_01",
+      "old_base": -5.7762932777404785,
+      "new_base": -11.271044632840633,
+      "samples": 572,
+      "terrain_min": -11.021044632840633,
+      "nearest_surface_max_distance": 0.7785272210814237,
+      "method": "Only extend existing lowest vertices below minimum adjacent candidate terrain; preserve heads/openings; base embed depth .25m inherited surface thickness, not surveyed foundation."
+    },
+    {
+      "name": "R68_WALL_03",
+      "old_base": -5.7762932777404785,
+      "new_base": -9.585410638637734,
+      "samples": 508,
+      "terrain_min": -9.335410638637734,
+      "nearest_surface_max_distance": 0.7324272224614247,
+      "method": "Only extend existing lowest vertices below minimum adjacent candidate terrain; preserve heads/openings; base embed depth .25m inherited surface thickness, not surveyed foundation."
+    },
+    {
+      "name": "R68_WALL_04",
+      "old_base": -5.7762932777404785,
+      "new_base": -8.751749125187198,
+      "samples": 118,
+      "terrain_min": -8.501749125187198,
+      "nearest_surface_max_distance": 0.686312929649725,
+      "method": "Only extend existing lowest vertices below minimum adjacent candidate terrain; preserve heads/openings; base embed depth .25m inherited surface thickness, not surveyed foundation."
+    },
+    {
+      "name": "R68_WALL_05",
+      "old_base": -5.7762932777404785,
+      "new_base": -8.674929593525855,
+      "samples": 92,
+      "terrain_min": -8.424929593525855,
+      "nearest_surface_max_distance": 0.6745691536312433,
+      "method": "Only extend existing lowest vertices below minimum adjacent candidate terrain; preserve heads/openings; base embed depth .25m inherited surface thickness, not surveyed foundation."
+    }
+  ],
+  "coverage": [
+    {
+      "name": "R35_MOAT_GROUND",
+      "vertices": 3134,
+      "nearest_distance_quantiles": [
+        0.007040171336494593,
+        0.16506521591183743,
+        5.0688901846787395,
+        8.613672789305124,
+        9.267112688089336
+      ],
+      "outside_convex_hull": 4,
+      "under_bridge": 760,
+      "under_bridge_zmax": -0.7108069315667649
+    },
+    {
+      "name": "R68_MOAT_GROUND",
+      "vertices": 399,
+      "nearest_distance_quantiles": [
+        0.04524416938980438,
+        2.521418946052116,
+        5.828211019887847,
+        6.938757732641999,
+        7.023875736924408
+      ],
+      "outside_convex_hull": 0,
+      "under_bridge": 0,
+      "under_bridge_zmax": null
+    }
+  ],
+  "terrain_method": "Class2 points; bridge footprint +0.8m and z>datum-1m removed; .25m median cells; linear TIN interpolation",
+  "closed_objects": [],
+  "checks": [
+    {
+      "name": "R35_MOAT_GROUND",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "volume": 687.5973292123001,
+      "min_z": -5.777929250319062,
+      "max_z": 0.2748870258240572,
+      "xy_area": 2750.3893010824795
+    },
+    {
+      "name": "R68_MOAT_GROUND",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "volume": 64.47363676013163,
+      "min_z": -11.141528947256859,
+      "max_z": -3.176040052117628,
+      "xy_area": 257.89454038177536
+    }
+  ],
+  "source": "12_Blender_Model/references/terrain_lidar2024/mudam_classified_points.npz",
+  "source_sha256": "6719a6ac25a68f92fd62dd12dde98ff0decbd1a39a4a901d6b267724bb5566ff",
+  "datum_national_m": 316.1510257594697,
+  "datum_spread_m": 0.18612297738707184,
+  "accepted": false,
+  "construction_acceptance": false,
+  "remaining": [
+    "Historic wall base integration, especially R68 where source terrain is below existing base.",
+    "Bridge and facade terrain interface checks",
+    "Source visual comparison and local boundary verification before production export."
+  ]
+}

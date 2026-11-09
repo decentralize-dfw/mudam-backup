@@ -1,0 +1,142 @@
+{
+  "scene": "MUDAM_R325_KUZEY_KALINTI_PLATFORM_ADAY_v001.blend",
+  "accepted": false,
+  "published": false,
+  "changedWallVertices": 2,
+  "previousWallTop": 6.633193492889404,
+  "revisedWallTop": -0.22,
+  "outline": [
+    [
+      452,
+      181
+    ],
+    [
+      577,
+      108
+    ],
+    [
+      635,
+      212
+    ],
+    [
+      468,
+      211
+    ]
+  ],
+  "recesses": [
+    [
+      [
+        467,
+        181
+      ],
+      [
+        575,
+        121
+      ],
+      [
+        587,
+        143
+      ],
+      [
+        482,
+        195
+      ]
+    ],
+    [
+      [
+        587,
+        143
+      ],
+      [
+        600,
+        157
+      ],
+      [
+        623,
+        202
+      ],
+      [
+        600,
+        206
+      ],
+      [
+        580,
+        165
+      ]
+    ],
+    [
+      [
+        511,
+        185
+      ],
+      [
+        519,
+        174
+      ],
+      [
+        534,
+        181
+      ],
+      [
+        536,
+        187
+      ],
+      [
+        520,
+        182
+      ],
+      [
+        514,
+        191
+      ]
+    ]
+  ],
+  "meshChecks": [
+    {
+      "name": "R325_NORTH_RUIN_RAISED_PLATFORM",
+      "nonManifold": 1,
+      "zeroArea": 0
+    },
+    {
+      "name": "R325_NORTH_RUIN_CENTRAL_COURT",
+      "nonManifold": 0,
+      "zeroArea": 0
+    },
+    {
+      "name": "R152_RUIN_PARTITION_02",
+      "nonManifold": 0,
+      "zeroArea": 0
+    }
+  ],
+  "glbChecks": [
+    {
+      "name": "R325_NORTH_RUIN_RAISED_PLATFORM",
+      "nonFinite": 0,
+      "zeroArea": 0
+    },
+    {
+      "name": "R325_NORTH_RUIN_CENTRAL_COURT",
+      "nonFinite": 0,
+      "zeroArea": 0
+    },
+    {
+      "name": "R152_RUIN_PARTITION_02",
+      "nonFinite": 0,
+      "zeroArea": 0
+    }
+  ],
+  "treesForInspection": [
+    "R158_TREE_01526",
+    "R158_TREE_02542",
+    "R158_TREE_04116",
+    "R158_TREE_05356",
+    "R158_TREE_05753",
+    "R158_TREE_05911",
+    "R158_TREE_06116"
+  ],
+  "limits": [
+    "Chamber floors and outer moat still need source checks",
+    "Platform material and perimeter alignment require matched-view review",
+    "Not a whole-ring acceptance"
+  ]
+}

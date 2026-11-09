@@ -1,0 +1,30 @@
+{
+  "reviewOnly": true,
+  "fullScopeAccepted": false,
+  "sourceScene": "MUDAM_R540_KUZEY_KALINTI_SUR_HENDEK_ADAY_v001.blend",
+  "files": {
+    "near": {
+      "file": "12_Blender_Model/exports/r152_clean/r540_near_draco_webp_REVIEW.glb",
+      "bytes": 11354920,
+      "sha256": "e457aa74c4d9789fa40520673d10813c0ecc45856ad7e0e49505e737048b0a8b",
+      "triangles": 397203,
+      "zero": 0,
+      "removedDegenerates": 309,
+      "preservedRowNodes": 0,
+      "bounds": {
+        "min": [
+          -500,
+          -78.04438781738281,
+          -650
+        ],
+        "max": [
+          650.000244140625,
+          16.323524475097656,
+          450.000244140625
+        ]
+      },
+      "decoded": true,
+      "textures": 18
+    }
+  }
+}

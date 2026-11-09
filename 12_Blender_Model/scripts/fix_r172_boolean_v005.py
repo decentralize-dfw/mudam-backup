@@ -1,0 +1,4 @@
+from pathlib import Path
+import bpy,bmesh,json
+R=Path(__file__).resolve().parents[1];bpy.ops.wm.open_mainfile(filepath=str(R/'scenes/MUDAM_R172_ON_KALE_HENDEK_ADAY_v004.blend'));o=bpy.data.objects['R154_FAR_GROUND'];bm=bmesh.new();bm.from_mesh(o.data);bad=[f for f in bm.faces if any(v.co.z>20 for v in f.verts)];bmesh.ops.delete(bm,geom=bad,context='FACES');loose=[v for v in bm.verts if not v.link_faces];bmesh.ops.delete(bm,geom=loose,context='VERTS');bm.to_mesh(o.data);bm.free();bpy.ops.wm.save_as_mainfile(filepath=str(R/'scenes/MUDAM_R172_ON_KALE_HENDEK_ADAY_v005.blend'),compress=True);print('INVALID_BOOLEAN_FACES_REMOVED',len(bad))
+report={'accepted':False,'v004Rejected':'Open terrain boolean included cutter walls up to160m; visual rejection','v005RemovedInvalidFaces':len(bad),'pending':['Validate terrain opening and retaining junctions before any publication']};(R/'reports/R172_MOAT_v005.json').write_text(json.dumps(report,indent=2))

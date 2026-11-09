@@ -1,0 +1,20 @@
+{
+  "accepted": false,
+  "objects": [
+    "R209_ROOF_DIVISION_00",
+    "R209_ROOF_DIVISION_01",
+    "R209_ROOF_DIVISION_02",
+    "R209_ROOF_DIVISION_03",
+    "R209_ROOF_DIVISION_04",
+    "R209_ROOF_DIVISION_05",
+    "R209_ROOF_DIVISION_06",
+    "R209_ROOF_DIVISION_07"
+  ],
+  "source": "R190_roofs_source_top.png",
+  "method": "Independent rectangular architectural members, scalar source height measurements; no source geometry or facade photo transfer",
+  "limitations": [
+    "Width approximate",
+    "Height samples include partial source support",
+    "Full roof equipment and facade acceptance pending"
+  ]
+}

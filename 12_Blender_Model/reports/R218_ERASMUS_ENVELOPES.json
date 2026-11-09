@@ -1,0 +1,103 @@
+{
+  "accepted": false,
+  "published": false,
+  "scope": "Seven upper wings and three source-supported lower street-facing volumes; incomplete architecture",
+  "records": [
+    {
+      "name": "R218_ERASMUS_FRONT_0",
+      "roof": 7.993721008300781,
+      "groundContactBases": [
+        0.9766952514648437,
+        0.9287673950195312,
+        0.9114181518554687,
+        0.8979217529296875
+      ],
+      "closed": true,
+      "openingsModeled": false
+    },
+    {
+      "name": "R218_ERASMUS_FRONT_13",
+      "roof": 8.027374267578125,
+      "groundContactBases": [
+        1.0697357177734375,
+        0.9365570068359375,
+        0.7403213500976562,
+        0.7357742309570312
+      ],
+      "closed": true,
+      "openingsModeled": false
+    },
+    {
+      "name": "R218_ERASMUS_FRONT_14",
+      "roof": 8.08292007446289,
+      "groundContactBases": [
+        0.9650375366210937,
+        0.863787841796875,
+        0.8407394409179687,
+        0.8436920166015625
+      ],
+      "closed": true,
+      "openingsModeled": false
+    }
+  ],
+  "reopen": [
+    {
+      "name": "R216_ERASMUS_WING_0",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R216_ERASMUS_WING_1",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R216_ERASMUS_WING_2",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R217_ERASMUS_WING_8",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R217_ERASMUS_WING_12",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R217_ERASMUS_WING_13",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R217_ERASMUS_WING_14",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R218_ERASMUS_FRONT_0",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R218_ERASMUS_FRONT_13",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R218_ERASMUS_FRONT_14",
+      "boundary": 0,
+      "zero": 0
+    }
+  ],
+  "method": "Independently constructed planar closed volumes; scalar measured roofs and current terrain contact",
+  "limits": [
+    "Blank facade envelopes are study only; actual windows doors and frames still missing",
+    "Remaining wings rear circulation and courtyard construction missing",
+    "Ground contact follows current modeled terrain, not surveyed facade base heights",
+    "Do not publish as accepted architecture or replace R213 production"
+  ],
+  "visualReview": "Same-camera R218 render inspected: three lower street-facing volumes meet their upper wings; four front volumes, rear connecting strip, courtyards and all real facade openings remain absent. Plain envelopes do not meet architectural fidelity acceptance. Keep local only."
+}

@@ -1,0 +1,13 @@
+{
+  "scene": "MUDAM_R169_SACAK_DUVAR_BAG_ADAY_v027.blend",
+  "accepted": false,
+  "published": false,
+  "joined_edges": 22,
+  "max_connector_length_m": 0.5685613575318554,
+  "scope": "Only outward-facing near-eave wall boundary edges connected to source-derived roof; inherited meshes unchanged; no roof feature snapping",
+  "limits": [
+    "Connection geometry between modeled surfaces, not measured cornice section",
+    "Remaining source fragments and roof feature seams require review"
+  ],
+  "visual_review": "Textured and clay before/after views inspected.22 outward-facing open wall edges bridged to roof, max0.569m; inherited roof features not moved. However a substantial uneven shaded seam remains, and upper roof retained fragments visibly intersect/open. This is NOT full seam repair or visual acceptance."
+}

@@ -1,0 +1,20 @@
+{
+  "accepted": false,
+  "findings": [
+    "Large pavilion-base void closed in close view; bright initial terrain material replaced by interpolated neighbouring ACT photo-ground colours.",
+    "Corner fit RMS improved from 1.7327m to 0.6474m, not surveyed accuracy.",
+    "Independent reopen/inheritance passed: 9236 meshes unchanged outside declared scope; no missing images.",
+    "Whole-building acceptance, link circulation revalidation, terrain duplicate-surface check and candidate viewer update remain."
+  ],
+  "remaining": [
+    "Validate modified pavilion link endpoints and floor/stair scope after rigid placement; exclude any duplicate terrain faces.",
+    "Export building plus necessary inner ground patches separately from full streamed environment; update and verify candidate viewer.",
+    "Accept scene only after required local gates; then normal publication/push and honest task-scope reassessment."
+  ],
+  "images": {
+    "renders/qa/R151_v009_museum.png": "f9cae97b954e1c2c48a370e839858240669bf65f6e8ec0d0b19c93636c271974",
+    "renders/qa/R151_v009_ground_seam.png": "2c4246f982f9f3f4aa856447f3f454b40f22e7d7d34dee8f7754397040ec64e1"
+  },
+  "production_release": "R149",
+  "score_unchanged": 73.913043
+}

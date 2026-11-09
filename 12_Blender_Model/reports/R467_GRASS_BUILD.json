@@ -1,0 +1,28 @@
+{
+  "scene": "MUDAM_R467_KUZEYBATI_CIM_KOT_ADAY_v001.blend",
+  "check": {
+    "nonManifold": 0,
+    "zeroArea": 0
+  },
+  "cuts": [
+    {
+      "name": "R152_FORECOURT_0",
+      "cutTriangles": 92
+    },
+    {
+      "name": "R152_CLASS2_TERRAIN",
+      "cutTriangles": 217
+    }
+  ],
+  "source": {
+    "heldout": 32,
+    "training": 93,
+    "rms": 0.07581980832393578,
+    "max": 0.19398412208517257
+  },
+  "accepted": false,
+  "published": false,
+  "limits": [
+    "Only measured lower grass core; edge grade continuity and retaining interfaces still need source-based completion."
+  ]
+}

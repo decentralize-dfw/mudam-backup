@@ -1,0 +1,51 @@
+{
+  "changed": [
+    "R424_WEST_TOWER_BODY",
+    "R424_WEST_BLIND_ARCADES",
+    "R446_WEST_CORBEL_BELT",
+    "R418_TOWER_CONICAL_ROOF_WEST",
+    "R425_WEST_ACORN_FINIAL",
+    "R508_WEST_COURT_CONTACT_0"
+  ],
+  "checks": [
+    {
+      "name": "R424_WEST_TOWER_BODY",
+      "nonManifold": 0,
+      "zeroArea": 0
+    },
+    {
+      "name": "R424_WEST_BLIND_ARCADES",
+      "nonManifold": 0,
+      "zeroArea": 0
+    },
+    {
+      "name": "R446_WEST_CORBEL_BELT",
+      "nonManifold": 0,
+      "zeroArea": 0
+    },
+    {
+      "name": "R418_TOWER_CONICAL_ROOF_WEST",
+      "nonManifold": 0,
+      "zeroArea": 0
+    },
+    {
+      "name": "R425_WEST_ACORN_FINIAL",
+      "nonManifold": 0,
+      "zeroArea": 0
+    },
+    {
+      "name": "R508_WEST_COURT_CONTACT_0",
+      "nonManifold": 0,
+      "zeroArea": 0
+    }
+  ],
+  "reopened": true,
+  "eave": 5.091488865491236,
+  "bodyTop": 5.091488838195801,
+  "roofBodyVerticalGap": 2.729543524537803e-08,
+  "oldRadius": 4.7,
+  "newRadius": 4.7,
+  "accepted": false,
+  "published": false,
+  "parameters": "R508_WEST_TOWER_PARAMETERS.json"
+}

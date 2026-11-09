@@ -1,0 +1,21 @@
+{
+  "scene": "MUDAM_R416_KALE_TERAS_KADEME_GECISI_ADAY_v001.blend",
+  "accepted": false,
+  "published": false,
+  "checks": [
+    {
+      "name": "R416_FORT_TIMBER_PERIMETER_LEDGE",
+      "nonManifold": 0,
+      "zeroArea": 0
+    },
+    {
+      "name": "R416_FORT_SLOPED_DECK_RISER",
+      "nonManifold": 0,
+      "zeroArea": 0
+    }
+  ],
+  "source": "references/fort_inpa/rooftop_view_2_Zinneke_CC_BY_SA_3.jpg",
+  "limits": [
+    "Riser projection visually estimated, not surveyed. Whole ring incomplete."
+  ]
+}

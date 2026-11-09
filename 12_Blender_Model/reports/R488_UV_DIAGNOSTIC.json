@@ -1,0 +1,62 @@
+{
+  "R152_HISTORIC_WALL_49911001": {
+    "uvLayers": [
+      "METRIC_UV_4x3m",
+      "R55_CONTEXT_METRIC_UV"
+    ],
+    "materialUv": [
+      [
+        "R129_HISTORIC_MASONRY_APPEARANCE_CANDIDATE",
+        "R55_CONTEXT_METRIC_UV"
+      ]
+    ]
+  },
+  "R152_CLASS2_TERRAIN": {
+    "uvLayers": [
+      "UVMap",
+      "MicroUV"
+    ],
+    "materialUv": [
+      [
+        "R157_CONTINUOUS_LANDCOVER",
+        "MicroUV"
+      ]
+    ],
+    "fits": {
+      "UVMap": {
+        "coefficients": [
+          [
+            0.0008695652227255128,
+            2.647228472946655e-12
+          ],
+          [
+            -1.5096202066189335e-11,
+            0.0009090909151286963
+          ],
+          [
+            0.4347826091835338,
+            0.4090909088036946
+          ]
+        ],
+        "max": 3.238133439165125e-08
+      },
+      "MicroUV": {
+        "coefficients": [
+          [
+            0.16666666661356597,
+            3.0273476372717194e-12
+          ],
+          [
+            3.341486122616573e-11,
+            0.1666666667409738
+          ],
+          [
+            2.7525826825412303e-09,
+            -2.415607630590344e-09
+          ]
+        ],
+        "max": 9.52046127267181e-07
+      }
+    }
+  }
+}

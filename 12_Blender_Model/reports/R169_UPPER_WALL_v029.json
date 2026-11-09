@@ -1,0 +1,54 @@
+{
+  "scene": "MUDAM_R169_UST_DUVAR_ADAY_v029.blend",
+  "accepted": false,
+  "published": false,
+  "source_plane_offset": 1.7989055514335632,
+  "removed_wall_faces": 67,
+  "source_fields": [
+    [
+      375,
+      440,
+      502,
+      580
+    ],
+    [
+      745,
+      425,
+      880,
+      578
+    ],
+    [
+      552,
+      473,
+      609,
+      532
+    ],
+    [
+      620,
+      473,
+      674,
+      532
+    ],
+    [
+      928,
+      473,
+      983,
+      532
+    ],
+    [
+      997,
+      473,
+      1057,
+      532
+    ]
+  ],
+  "limits": [
+    "Source appearance blurred; field boundaries approximate",
+    "0.08m recess assumed",
+    "Upper wall only; occluded right field excluded",
+    "Roof edge sampled up to0.3m inward where source wall plane lies outside manual roof outline; registration unresolved",
+    "Leftmost tall field clipped at source roof scope",
+    "Roof intersections and inherited facade transition require review"
+  ],
+  "rejected_reason": "GLB precheck found14 degenerate triangles; superseded by v030 technical cleanup."
+}

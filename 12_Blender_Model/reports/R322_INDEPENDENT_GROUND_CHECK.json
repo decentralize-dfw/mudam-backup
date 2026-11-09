@@ -1,0 +1,324 @@
+{
+  "source": [
+    {
+      "name": "holdout_00",
+      "sourcePixel": [
+        505,
+        550
+      ],
+      "xy": [
+        -40.64285714285714,
+        8.57142857142857
+      ],
+      "medianZ": -3.2697525024414062,
+      "spread": 0.069244384765625,
+      "hits": 9,
+      "objects": [
+        "Mesh_0.020"
+      ]
+    },
+    {
+      "name": "holdout_01",
+      "sourcePixel": [
+        560,
+        560
+      ],
+      "xy": [
+        -32.0,
+        7.0
+      ],
+      "medianZ": -3.2798004150390625,
+      "spread": 0.01569366455078125,
+      "hits": 9,
+      "objects": [
+        "Mesh_0.020"
+      ]
+    },
+    {
+      "name": "holdout_02",
+      "sourcePixel": [
+        635,
+        560
+      ],
+      "xy": [
+        -20.214285714285708,
+        7.0
+      ],
+      "medianZ": -3.30364990234375,
+      "spread": 0.022247314453125,
+      "hits": 9,
+      "objects": [
+        "Mesh_0.042"
+      ]
+    },
+    {
+      "name": "holdout_03",
+      "sourcePixel": [
+        700,
+        600
+      ],
+      "xy": [
+        -10.0,
+        0.7142857142857082
+      ],
+      "medianZ": -3.3322372436523438,
+      "spread": 0.0474090576171875,
+      "hits": 9,
+      "objects": [
+        "Mesh_0.042"
+      ]
+    },
+    {
+      "name": "holdout_04",
+      "sourcePixel": [
+        750,
+        660
+      ],
+      "xy": [
+        -2.142857142857139,
+        -8.714285714285708
+      ],
+      "medianZ": -3.3288497924804688,
+      "spread": 0.02896881103515625,
+      "hits": 9,
+      "objects": [
+        "Mesh_0.042"
+      ]
+    },
+    {
+      "name": "holdout_05",
+      "sourcePixel": [
+        760,
+        730
+      ],
+      "xy": [
+        -0.5714285714285694,
+        -19.714285714285708
+      ],
+      "medianZ": -3.3432388305664062,
+      "spread": 0.00911712646484375,
+      "hits": 9,
+      "objects": [
+        "Mesh_0.040"
+      ]
+    },
+    {
+      "name": "holdout_06",
+      "sourcePixel": [
+        760,
+        790
+      ],
+      "xy": [
+        -0.5714285714285694,
+        -29.14285714285714
+      ],
+      "medianZ": -3.422882080078125,
+      "spread": 0.00945281982421875,
+      "hits": 9,
+      "objects": [
+        "Mesh_0.040"
+      ]
+    },
+    {
+      "name": "holdout_07",
+      "sourcePixel": [
+        780,
+        850
+      ],
+      "xy": [
+        2.5714285714285694,
+        -38.571428571428584
+      ],
+      "medianZ": -3.4154891967773438,
+      "spread": 0.01598358154296875,
+      "hits": 9,
+      "objects": [
+        "Mesh_0.040"
+      ]
+    },
+    {
+      "name": "holdout_08",
+      "sourcePixel": [
+        825,
+        880
+      ],
+      "xy": [
+        9.642857142857139,
+        -43.28571428571428
+      ],
+      "medianZ": -3.867279052734375,
+      "spread": 0.11867523193359375,
+      "hits": 9,
+      "objects": [
+        "Mesh_0.040"
+      ]
+    }
+  ],
+  "model": [
+    {
+      "name": "holdout_00",
+      "sourcePixel": [
+        505,
+        550
+      ],
+      "xy": [
+        -40.64285714285714,
+        8.57142857142857
+      ],
+      "medianZ": -3.3845977783203125,
+      "spread": 0.0254058837890625,
+      "hits": 9,
+      "objects": [
+        "R152_HISTORIC_WALL_759680904",
+        "R322_WEST_MUSEUM_TERRACE"
+      ],
+      "modelMinusSource": -0.11484527587890625
+    },
+    {
+      "name": "holdout_01",
+      "sourcePixel": [
+        560,
+        560
+      ],
+      "xy": [
+        -32.0,
+        7.0
+      ],
+      "medianZ": -3.2757034301757812,
+      "spread": 0.003204345703125,
+      "hits": 9,
+      "objects": [
+        "R322_WEST_MUSEUM_TERRACE"
+      ],
+      "modelMinusSource": 0.00409698486328125
+    },
+    {
+      "name": "holdout_02",
+      "sourcePixel": [
+        635,
+        560
+      ],
+      "xy": [
+        -20.214285714285708,
+        7.0
+      ],
+      "medianZ": -3.4464492797851562,
+      "spread": 0.0182037353515625,
+      "hits": 9,
+      "objects": [
+        "R322_WEST_MUSEUM_TERRACE"
+      ],
+      "modelMinusSource": -0.14279937744140625
+    },
+    {
+      "name": "holdout_03",
+      "sourcePixel": [
+        700,
+        600
+      ],
+      "xy": [
+        -10.0,
+        0.7142857142857082
+      ],
+      "medianZ": -3.520111083984375,
+      "spread": 0.011016845703125,
+      "hits": 9,
+      "objects": [
+        "R322_WEST_MUSEUM_TERRACE"
+      ],
+      "modelMinusSource": -0.18787384033203125
+    },
+    {
+      "name": "holdout_04",
+      "sourcePixel": [
+        750,
+        660
+      ],
+      "xy": [
+        -2.142857142857139,
+        -8.714285714285708
+      ],
+      "medianZ": -3.3858795166015625,
+      "spread": 0.00743865966796875,
+      "hits": 9,
+      "objects": [
+        "R322_WEST_MUSEUM_TERRACE"
+      ],
+      "modelMinusSource": -0.05702972412109375
+    },
+    {
+      "name": "holdout_05",
+      "sourcePixel": [
+        760,
+        730
+      ],
+      "xy": [
+        -0.5714285714285694,
+        -19.714285714285708
+      ],
+      "medianZ": -3.3732452392578125,
+      "spread": 0.0030670166015625,
+      "hits": 9,
+      "objects": [
+        "R322_WEST_MUSEUM_TERRACE"
+      ],
+      "modelMinusSource": -0.03000640869140625
+    },
+    {
+      "name": "holdout_06",
+      "sourcePixel": [
+        760,
+        790
+      ],
+      "xy": [
+        -0.5714285714285694,
+        -29.14285714285714
+      ],
+      "medianZ": -3.3487396240234375,
+      "spread": 0.0115966796875,
+      "hits": 9,
+      "objects": [
+        "R322_WEST_MUSEUM_TERRACE"
+      ],
+      "modelMinusSource": 0.0741424560546875
+    },
+    {
+      "name": "holdout_07",
+      "sourcePixel": [
+        780,
+        850
+      ],
+      "xy": [
+        2.5714285714285694,
+        -38.571428571428584
+      ],
+      "medianZ": -3.418426513671875,
+      "spread": 0.03998565673828125,
+      "hits": 9,
+      "objects": [
+        "R322_WEST_MUSEUM_TERRACE"
+      ],
+      "modelMinusSource": -0.00293731689453125
+    },
+    {
+      "name": "holdout_08",
+      "sourcePixel": [
+        825,
+        880
+      ],
+      "xy": [
+        9.642857142857139,
+        -43.28571428571428
+      ],
+      "medianZ": -3.8541107177734375,
+      "spread": 0.0225372314453125,
+      "hits": 9,
+      "objects": [
+        "R322_WEST_MUSEUM_TERRACE"
+      ],
+      "modelMinusSource": 0.0131683349609375
+    }
+  ],
+  "accepted": false,
+  "method": "9 vertical samples in0.6m square at manually selected visible source ground locations; vegetation and vertical surfaces may contaminate samples; not global accuracy proof"
+}

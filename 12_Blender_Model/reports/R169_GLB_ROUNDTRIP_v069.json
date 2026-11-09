@@ -1,0 +1,37 @@
+{
+  "source": "MUDAM_R169_BUTUN_CATI_DOKULU_ADAY_v069.blend",
+  "export": "r169_geometry_review_v069.glb",
+  "bytes": 8831708,
+  "before": {
+    "triangles": 83516,
+    "degenerate": 0,
+    "min": [
+      -98.74039459228516,
+      -310.3660888671875,
+      -74.90278625488281
+    ],
+    "max": [
+      -61.43485641479492,
+      -289.1831970214844,
+      -59.13825225830078
+    ]
+  },
+  "after": {
+    "triangles": 83516,
+    "degenerate": 0,
+    "min": [
+      -98.74039459228516,
+      -310.3660888671875,
+      -74.90278625488281
+    ],
+    "max": [
+      -61.43485641479492,
+      -289.1831970214844,
+      -59.13825225830078
+    ]
+  },
+  "max_bounds_drift_m": 0.0,
+  "accepted": false,
+  "published": false,
+  "validation_scope": "GLB technical round trip only; visual reconstruction incomplete"
+}

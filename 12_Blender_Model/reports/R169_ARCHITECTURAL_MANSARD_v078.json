@@ -1,0 +1,114 @@
+{
+  "accepted": false,
+  "source_measurements": 84,
+  "fit": [
+    -0.08203844642221726,
+    -0.03556373741106182
+  ],
+  "fit_p90": 0.09542539844858906,
+  "source_fronts": [
+    [
+      110,
+      90,
+      215,
+      190
+    ],
+    [
+      330,
+      90,
+      490,
+      190
+    ],
+    [
+      850,
+      90,
+      982,
+      190
+    ],
+    [
+      1080,
+      90,
+      1250,
+      190
+    ],
+    [
+      1290,
+      90,
+      1440,
+      190
+    ],
+    [
+      1580,
+      90,
+      1700,
+      190
+    ],
+    [
+      1790,
+      90,
+      1925,
+      190
+    ]
+  ],
+  "source_windows": [
+    [
+      125,
+      112,
+      199,
+      160,
+      2
+    ],
+    [
+      344,
+      105,
+      474,
+      160,
+      3
+    ],
+    [
+      862,
+      111,
+      970,
+      160,
+      3
+    ],
+    [
+      1120,
+      117,
+      1238,
+      175,
+      3
+    ],
+    [
+      1310,
+      115,
+      1418,
+      175,
+      3
+    ],
+    [
+      1600,
+      108,
+      1680,
+      160,
+      2
+    ],
+    [
+      1807,
+      110,
+      1910,
+      165,
+      3
+    ]
+  ],
+  "assumptions": [
+    "Frame depth",
+    "Dormer cap return inferred between measured front and roof"
+  ],
+  "pending": [
+    "Cap planarity and source comparison",
+    "End and rear band",
+    "Chimneys and rear projections",
+    "Ground contact and export"
+  ]
+}

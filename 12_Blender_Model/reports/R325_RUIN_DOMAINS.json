@@ -1,0 +1,541 @@
+{
+  "source": [
+    {
+      "name": "north_grass_a",
+      "sourcePixel": [
+        550,
+        180
+      ],
+      "xy": [
+        -33.57142857142857,
+        66.71428571428572
+      ],
+      "medianZ": 0.08495330810546875,
+      "spread": 0.0509033203125,
+      "hits": 9,
+      "objects": [
+        "Mesh_0.054",
+        "Mesh_0.056"
+      ]
+    },
+    {
+      "name": "north_grass_b",
+      "sourcePixel": [
+        575,
+        190
+      ],
+      "xy": [
+        -29.64285714285714,
+        65.14285714285714
+      ],
+      "medianZ": 0.03281402587890625,
+      "spread": 0.028717041015625,
+      "hits": 9,
+      "objects": [
+        "Mesh_0.054"
+      ]
+    },
+    {
+      "name": "north_grass_c",
+      "sourcePixel": [
+        605,
+        197
+      ],
+      "xy": [
+        -24.92857142857143,
+        64.04285714285714
+      ],
+      "medianZ": -0.35296630859375,
+      "spread": 0.12786102294921875,
+      "hits": 9,
+      "objects": [
+        "Mesh_0.054"
+      ]
+    },
+    {
+      "name": "north_grass_d",
+      "sourcePixel": [
+        530,
+        183
+      ],
+      "xy": [
+        -36.71428571428571,
+        66.24285714285715
+      ],
+      "medianZ": -0.077911376953125,
+      "spread": 0.07595062255859375,
+      "hits": 9,
+      "objects": [
+        "Mesh_0.054"
+      ]
+    },
+    {
+      "name": "north_chamber_a",
+      "sourcePixel": [
+        491,
+        150
+      ],
+      "xy": [
+        -42.84285714285714,
+        71.42857142857143
+      ],
+      "medianZ": -0.6472702026367188,
+      "spread": 0.7936019897460938,
+      "hits": 9,
+      "objects": [
+        "Mesh_0.056"
+      ]
+    },
+    {
+      "name": "north_chamber_b",
+      "sourcePixel": [
+        540,
+        130
+      ],
+      "xy": [
+        -35.14285714285714,
+        74.57142857142857
+      ],
+      "medianZ": -0.05753326416015625,
+      "spread": 0.358062744140625,
+      "hits": 9,
+      "objects": [
+        "Mesh_0.056"
+      ]
+    },
+    {
+      "name": "north_chamber_c",
+      "sourcePixel": [
+        587,
+        142
+      ],
+      "xy": [
+        -27.757142857142853,
+        72.68571428571428
+      ],
+      "medianZ": 0.150115966796875,
+      "spread": 0.14127349853515625,
+      "hits": 9,
+      "objects": [
+        "Mesh_0.056"
+      ]
+    },
+    {
+      "name": "north_chamber_d",
+      "sourcePixel": [
+        611,
+        180
+      ],
+      "xy": [
+        -23.98571428571428,
+        66.71428571428572
+      ],
+      "medianZ": -0.23012542724609375,
+      "spread": 0.273590087890625,
+      "hits": 9,
+      "objects": [
+        "Mesh_0.056"
+      ]
+    },
+    {
+      "name": "east_grass_a",
+      "sourcePixel": [
+        1115,
+        765
+      ],
+      "xy": [
+        55.21428571428572,
+        -25.214285714285708
+      ],
+      "medianZ": 0.05596923828125,
+      "spread": 0.03218841552734375,
+      "hits": 9,
+      "objects": [
+        "Mesh_0.045"
+      ]
+    },
+    {
+      "name": "east_grass_b",
+      "sourcePixel": [
+        1109,
+        811
+      ],
+      "xy": [
+        54.27142857142857,
+        -32.442857142857136
+      ],
+      "medianZ": -0.065673828125,
+      "spread": 0.0236053466796875,
+      "hits": 9,
+      "objects": [
+        "Mesh_0.045"
+      ]
+    },
+    {
+      "name": "east_grass_c",
+      "sourcePixel": [
+        1111,
+        852
+      ],
+      "xy": [
+        54.58571428571429,
+        -38.88571428571427
+      ],
+      "medianZ": 1.4866867065429688,
+      "spread": 2.1116714477539062,
+      "hits": 9,
+      "objects": [
+        "Mesh_0.045"
+      ]
+    },
+    {
+      "name": "east_chamber_a",
+      "sourcePixel": [
+        1140,
+        721
+      ],
+      "xy": [
+        59.14285714285714,
+        -18.299999999999997
+      ],
+      "medianZ": -0.25246429443359375,
+      "spread": 0.09723663330078125,
+      "hits": 9,
+      "objects": [
+        "Mesh_0.045"
+      ]
+    },
+    {
+      "name": "east_chamber_b",
+      "sourcePixel": [
+        1174,
+        745
+      ],
+      "xy": [
+        64.4857142857143,
+        -22.07142857142857
+      ],
+      "medianZ": -0.7575607299804688,
+      "spread": 0.40538787841796875,
+      "hits": 9,
+      "objects": [
+        "Mesh_0.045"
+      ]
+    },
+    {
+      "name": "east_chamber_c",
+      "sourcePixel": [
+        1176,
+        788
+      ],
+      "xy": [
+        64.80000000000001,
+        -28.828571428571422
+      ],
+      "medianZ": -0.16439056396484375,
+      "spread": 0.168853759765625,
+      "hits": 9,
+      "objects": [
+        "Mesh_0.045"
+      ]
+    },
+    {
+      "name": "east_chamber_d",
+      "sourcePixel": [
+        1148,
+        825
+      ],
+      "xy": [
+        60.400000000000006,
+        -34.64285714285714
+      ],
+      "medianZ": -1.0217819213867188,
+      "spread": 0.0370941162109375,
+      "hits": 9,
+      "objects": [
+        "Mesh_0.045"
+      ]
+    }
+  ],
+  "model": [
+    {
+      "name": "north_grass_a",
+      "sourcePixel": [
+        550,
+        180
+      ],
+      "xy": [
+        -33.57142857142857,
+        66.71428571428572
+      ],
+      "medianZ": 1.6272659301757812,
+      "spread": 0.8343658447265625,
+      "hits": 9,
+      "objects": [
+        "R158_TREE_05356"
+      ],
+      "modelMinusSource": 1.5423126220703125
+    },
+    {
+      "name": "north_grass_b",
+      "sourcePixel": [
+        575,
+        190
+      ],
+      "xy": [
+        -29.64285714285714,
+        65.14285714285714
+      ],
+      "medianZ": 1.7761077880859375,
+      "spread": 1.1084823608398438,
+      "hits": 9,
+      "objects": [
+        "R158_TREE_05911"
+      ],
+      "modelMinusSource": 1.7432937622070312
+    },
+    {
+      "name": "north_grass_c",
+      "sourcePixel": [
+        605,
+        197
+      ],
+      "xy": [
+        -24.92857142857143,
+        64.04285714285714
+      ],
+      "medianZ": -3.8564987182617188,
+      "spread": 0.305511474609375,
+      "hits": 9,
+      "objects": [
+        "R152_CLASS2_TERRAIN"
+      ],
+      "modelMinusSource": -3.5035324096679688
+    },
+    {
+      "name": "north_grass_d",
+      "sourcePixel": [
+        530,
+        183
+      ],
+      "xy": [
+        -36.71428571428571,
+        66.24285714285715
+      ],
+      "medianZ": -4.232521057128906,
+      "spread": 0.16304779052734375,
+      "hits": 9,
+      "objects": [
+        "R152_CLASS2_TERRAIN"
+      ],
+      "modelMinusSource": -4.154609680175781
+    },
+    {
+      "name": "north_chamber_a",
+      "sourcePixel": [
+        491,
+        150
+      ],
+      "xy": [
+        -42.84285714285714,
+        71.42857142857143
+      ],
+      "medianZ": -0.9262008666992188,
+      "spread": 1.9195480346679688,
+      "hits": 9,
+      "objects": [
+        "R152_PATH_824216705",
+        "R152_RUIN_PARTITION_00"
+      ],
+      "modelMinusSource": -0.2789306640625
+    },
+    {
+      "name": "north_chamber_b",
+      "sourcePixel": [
+        540,
+        130
+      ],
+      "xy": [
+        -35.14285714285714,
+        74.57142857142857
+      ],
+      "medianZ": -0.14159393310546875,
+      "spread": 0.15689849853515625,
+      "hits": 9,
+      "objects": [
+        "R152_HISTORIC_WALL_759551379",
+        "R152_RUIN_PARTITION_00"
+      ],
+      "modelMinusSource": -0.0840606689453125
+    },
+    {
+      "name": "north_chamber_c",
+      "sourcePixel": [
+        587,
+        142
+      ],
+      "xy": [
+        -27.757142857142853,
+        72.68571428571428
+      ],
+      "medianZ": -2.531524658203125,
+      "spread": 3.0254287719726562,
+      "hits": 9,
+      "objects": [
+        "R152_CLASS2_TERRAIN",
+        "R152_RUIN_PARTITION_01",
+        "R152_RUIN_PARTITION_06"
+      ],
+      "modelMinusSource": -2.681640625
+    },
+    {
+      "name": "north_chamber_d",
+      "sourcePixel": [
+        611,
+        180
+      ],
+      "xy": [
+        -23.98571428571428,
+        66.71428571428572
+      ],
+      "medianZ": -2.9455718994140625,
+      "spread": 3.2050857543945312,
+      "hits": 9,
+      "objects": [
+        "R152_CLASS2_TERRAIN",
+        "R152_RUIN_PARTITION_01"
+      ],
+      "modelMinusSource": -2.7154464721679688
+    },
+    {
+      "name": "east_grass_a",
+      "sourcePixel": [
+        1115,
+        765
+      ],
+      "xy": [
+        55.21428571428572,
+        -25.214285714285708
+      ],
+      "medianZ": -3.5570755004882812,
+      "spread": 0.13179779052734375,
+      "hits": 9,
+      "objects": [
+        "R152_CLASS2_TERRAIN"
+      ],
+      "modelMinusSource": -3.6130447387695312
+    },
+    {
+      "name": "east_grass_b",
+      "sourcePixel": [
+        1109,
+        811
+      ],
+      "xy": [
+        54.27142857142857,
+        -32.442857142857136
+      ],
+      "medianZ": -3.858428955078125,
+      "spread": 0.2455291748046875,
+      "hits": 9,
+      "objects": [
+        "R152_CLASS2_TERRAIN"
+      ],
+      "modelMinusSource": -3.792755126953125
+    },
+    {
+      "name": "east_grass_c",
+      "sourcePixel": [
+        1111,
+        852
+      ],
+      "xy": [
+        54.58571428571429,
+        -38.88571428571427
+      ],
+      "medianZ": -2.7751312255859375,
+      "spread": 0.4535064697265625,
+      "hits": 9,
+      "objects": [
+        "R152_CLASS2_TERRAIN"
+      ],
+      "modelMinusSource": -4.261817932128906
+    },
+    {
+      "name": "east_chamber_a",
+      "sourcePixel": [
+        1140,
+        721
+      ],
+      "xy": [
+        59.14285714285714,
+        -18.299999999999997
+      ],
+      "medianZ": -2.8989639282226562,
+      "spread": 2.3787307739257812,
+      "hits": 9,
+      "objects": [
+        "R152_CLASS2_TERRAIN",
+        "R152_RUIN_PARTITION_10"
+      ],
+      "modelMinusSource": -2.6464996337890625
+    },
+    {
+      "name": "east_chamber_b",
+      "sourcePixel": [
+        1174,
+        745
+      ],
+      "xy": [
+        64.4857142857143,
+        -22.07142857142857
+      ],
+      "medianZ": -3.0714950561523438,
+      "spread": 0.07122802734375,
+      "hits": 9,
+      "objects": [
+        "R152_CLASS2_TERRAIN"
+      ],
+      "modelMinusSource": -2.313934326171875
+    },
+    {
+      "name": "east_chamber_c",
+      "sourcePixel": [
+        1176,
+        788
+      ],
+      "xy": [
+        64.80000000000001,
+        -28.828571428571422
+      ],
+      "medianZ": -2.861480712890625,
+      "spread": 0.11334228515625,
+      "hits": 9,
+      "objects": [
+        "R152_CLASS2_TERRAIN"
+      ],
+      "modelMinusSource": -2.6970901489257812
+    },
+    {
+      "name": "east_chamber_d",
+      "sourcePixel": [
+        1148,
+        825
+      ],
+      "xy": [
+        60.400000000000006,
+        -34.64285714285714
+      ],
+      "medianZ": -3.0175094604492188,
+      "spread": 2.6179885864257812,
+      "hits": 9,
+      "objects": [
+        "R152_CLASS2_TERRAIN",
+        "R152_RUIN_PARTITION_17"
+      ],
+      "modelMinusSource": -1.9957275390625
+    }
+  ],
+  "accepted": false,
+  "method": "9 vertical samples in0.6m square at manually selected visible source ground locations; vegetation and vertical surfaces may contaminate samples; not global accuracy proof"
+}

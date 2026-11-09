@@ -1,0 +1,30 @@
+{
+  "reviewOnly": true,
+  "fullScopeAccepted": false,
+  "sourceScene": "MUDAM_R534_DOGU_KALINTI_DIS_DUVAR_ADAY_v001.blend",
+  "files": {
+    "near": {
+      "file": "12_Blender_Model/exports/r152_clean/r534_near_draco_webp_REVIEW.glb",
+      "bytes": 11352124,
+      "sha256": "63eef76159d5bc0359e72e06604a7e8e47c45a8a9dfc538e3ab529fd6d34148a",
+      "triangles": 397326,
+      "zero": 0,
+      "removedDegenerates": 276,
+      "preservedRowNodes": 0,
+      "bounds": {
+        "min": [
+          -500,
+          -78.04438781738281,
+          -650
+        ],
+        "max": [
+          650.000244140625,
+          16.323524475097656,
+          450.000244140625
+        ]
+      },
+      "decoded": true,
+      "textures": 18
+    }
+  }
+}

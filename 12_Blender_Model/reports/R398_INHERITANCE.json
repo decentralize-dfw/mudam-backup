@@ -1,0 +1,21 @@
+{
+  "changed": [
+    "R154_FORT_MASONRY_BODY",
+    "R154_FORT_ROUNDED_EARTH_ROOF"
+  ],
+  "added": [
+    "R389_FORT_INNER_COPING",
+    "R389_FORT_INNER_PARAPET",
+    "R389_FORT_LOWER_METAL_ROOF",
+    "R389_FORT_PERIMETER_LEDGE",
+    "R389_FORT_RAISED_METAL_ROOF",
+    "R392_FORT_ARCHITECTURAL_EARTH_COVER",
+    "R397_PAVILION_GROUND_CUT_CONTACT",
+    "R398_FORT_STANDING_SEAMS"
+  ],
+  "removed": [],
+  "unexpected": [],
+  "unchanged": 18104,
+  "museumGeometryPreserved": true,
+  "scope": "Geometry positions, face loop indices and object matrices; not a source-fidelity acceptance"
+}

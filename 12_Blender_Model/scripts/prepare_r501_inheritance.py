@@ -1,0 +1,2 @@
+from pathlib import Path
+R=Path(__file__).resolve().parents[1];s=(R/'scripts/verify_r492_inheritance.py').read_text().replace('MUDAM_R492_SUR_CEVRE_UV_DUZELTME_ADAY_v001.blend','MUDAM_R501_BATI_SUR_AGAC_KOTU_DUZELTME_ADAY_v001.blend').replace("'R457_NORTH_LOADING_COURT']","'R457_NORTH_LOADING_COURT','R152_HISTORIC_WALL_563325237']").replace('R492_INHERITANCE_AND_UV','R501_INHERITANCE_AND_UV');(R/'scripts/verify_r501_inheritance.py').write_text(s)

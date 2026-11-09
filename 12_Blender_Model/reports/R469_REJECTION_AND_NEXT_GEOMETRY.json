@@ -1,0 +1,13 @@
+{
+  "updatedUTC": "2026-10-26T15:02:30.394259+00:00",
+  "master": "scenes/MUDAM_R464_AVLU_CAMI_ZEMIN_KESISI_ADAY_v001.blend",
+  "published": false,
+  "fullScopeAccepted": false,
+  "newMeasurements": "R466 lower-grass controls:32 held-out RMS.07582m max.19398m; only core.",
+  "candidateDisposition": {
+    "R467": "Local core only; visible boundary step.",
+    "R469": "Artificial elongated depression at source-unsupported core transition boundary. Not accepted; keep R464 master.",
+    "R465_R468": "Narrow strip plane unstable. Leave-one-cell-out RMS .16289m max .38651m. No geometry applied."
+  },
+  "next": "Reconstruct complete source-outlined northwest grass/retaining assembly as one connected site feature. Do not repeat small interior patch with inherited boundary blend; R469 visually rejected. Confirm adjacent narrow strip from photographs before assigning glazing or stairs."
+}

@@ -1,0 +1,128 @@
+{
+  "accepted": false,
+  "published": false,
+  "scene": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R315_ECCL_KAYNAK_SACAK_UCU_ADAY_v002.blend",
+  "source": "renders/qa/R315_tip_top_source.png",
+  "sourcePixels": [
+    [
+      244,
+      548
+    ],
+    [
+      235,
+      567
+    ],
+    [
+      230,
+      585
+    ],
+    [
+      230,
+      605
+    ],
+    [
+      234,
+      625
+    ],
+    [
+      243,
+      646
+    ],
+    [
+      256,
+      666
+    ],
+    [
+      278,
+      692
+    ],
+    [
+      475,
+      828
+    ]
+  ],
+  "polygon": [
+    [
+      178.47999572753906,
+      27.84000015258789
+    ],
+    [
+      178.0749969482422,
+      26.985000610351562
+    ],
+    [
+      177.85000610351562,
+      26.174999237060547
+    ],
+    [
+      177.85000610351562,
+      25.274999618530273
+    ],
+    [
+      178.02999877929688,
+      24.375
+    ],
+    [
+      178.43499755859375,
+      23.43000030517578
+    ],
+    [
+      179.02000427246094,
+      22.530000686645508
+    ],
+    [
+      180.00999450683594,
+      21.360000610351562
+    ],
+    [
+      188.875,
+      15.239999771118164
+    ],
+    [
+      302.25,
+      86.44499969482422
+    ],
+    [
+      302.25,
+      95.25
+    ],
+    [
+      191.30499267578125,
+      20.549999237060547
+    ],
+    [
+      185.27499389648438,
+      24.735000610351562
+    ],
+    [
+      342.7154235839844,
+      276.1811218261719
+    ],
+    [
+      332.4375,
+      282.375
+    ]
+  ],
+  "checks": [
+    {
+      "name": "R315_SOURCE_TRACED_WING",
+      "boundary": 0,
+      "zero": 0
+    }
+  ],
+  "limits": [
+    "Manual45mm-per-pixel outer boundary trace, not surveyed",
+    "Inner edge and22.45/21.9 roof levels retained from prior candidate",
+    "End facade and soffit must be reconciled to revised outline before acceptance"
+  ],
+  "sameCameraComparison": {
+    "source": "renders/qa/R315_tip_top_source.png",
+    "candidate": "renders/qa/R315_tip_top_rebuilt_v002.png",
+    "accepted": false,
+    "findings": [
+      "Rounded outer tip and forest-side return now traced from source",
+      "Existing R295 roof perimeter does not meet newly traced inner canopy edges: visible gaps remain",
+      "Do not publish candidate; rebuild main roof perimeter and fascia/soffit junction as a whole before acceptance"
+    ]
+  }
+}

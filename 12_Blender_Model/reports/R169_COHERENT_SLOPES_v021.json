@@ -1,0 +1,19 @@
+{
+  "scene": "MUDAM_R169_SIRA_DUZLEM_ADAY_v021.blend",
+  "accepted": false,
+  "published": false,
+  "supported_faces": 426,
+  "projected_vertices": 294,
+  "max_vertex_move_m": 0.21990482272155987,
+  "faces_before": 23135,
+  "faces_after": 22851,
+  "removed_coplanar_diagonals": 559,
+  "removed_zero_area": 0,
+  "limits": [
+    "Only source-supported major roof slopes; convex support excludes unmeasured eaves",
+    "Retained dormers and source features remain rough",
+    "Supported slopes use provisional slate color; source atlas UVs are not stretched over dissolved faces",
+    "No complete building acceptance or publication"
+  ],
+  "visual_review": "Source and candidate compared. Main supported slope is smoother; patch border, retained dormers, roof edge and facade still visibly incomplete. Not accepted."
+}

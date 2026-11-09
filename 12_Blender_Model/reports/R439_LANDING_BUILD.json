@@ -1,0 +1,24 @@
+{
+  "scene": "MUDAM_R439_KOPRU_BASI_ZEMIN_BAGLANTISI_ADAY_v001.blend",
+  "accepted": false,
+  "published": false,
+  "check": {
+    "nonManifold": 0,
+    "zeroArea": 0
+  },
+  "localCuts": [
+    {
+      "name": "R152_PATH_51768373",
+      "cutTriangles": 26
+    },
+    {
+      "name": "R152_CLASS2_TERRAIN",
+      "cutTriangles": 16
+    }
+  ],
+  "previousBridgeheadGap": 0.58834,
+  "limits": [
+    "Approach plane and deck join within1cm; footprint joins independently modeled bridge to traced path.",
+    "Buried slab thickness construction estimate, not surveyed."
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "reviewOnly": true,
+  "fullScopeAccepted": false,
+  "sourceScene": "MUDAM_R464_AVLU_CAMI_ZEMIN_KESISI_ADAY_v001.blend",
+  "files": {
+    "near": {
+      "file": "12_Blender_Model/exports/r152_clean/r464_near_draco_webp_REVIEW.glb",
+      "bytes": 7925320,
+      "sha256": "1e882e46aa9236962b18a2ef269c4918209226266c552739115b41e22294b5ed",
+      "triangles": 387382,
+      "zero": 0,
+      "removedDegenerates": 218,
+      "preservedRowNodes": 0,
+      "bounds": {
+        "min": [
+          -500,
+          -78.04438781738281,
+          -650
+        ],
+        "max": [
+          650.000244140625,
+          16.323524475097656,
+          450.000244140625
+        ]
+      },
+      "decoded": true,
+      "textures": 15
+    }
+  }
+}

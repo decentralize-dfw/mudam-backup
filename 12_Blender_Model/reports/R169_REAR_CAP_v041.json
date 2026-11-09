@@ -1,0 +1,41 @@
+{
+  "scene": "MUDAM_R169_ARKA_PENCERE_ORTUSU_ADAY_v041.blend",
+  "accepted": false,
+  "published": false,
+  "removed_faces": 34,
+  "source": {
+    "pixels": [
+      [
+        170,
+        815
+      ],
+      [
+        510,
+        730
+      ],
+      [
+        550,
+        890
+      ],
+      [
+        210,
+        975
+      ]
+    ],
+    "plane": [
+      0.06321768731684478,
+      -0.3036713830769532,
+      -148.3096413872999
+    ],
+    "samples": 36,
+    "rmse": 0.009574228006213529,
+    "p90": 0.015093708177580822
+  },
+  "limits": [
+    "One shallow source-supported cap only; outline manually traced and approximate",
+    "Second proposed cap has steep slope and is excluded as potentially main roof",
+    "Glazed front and side joints not reconstructed; no whole dormer acceptance",
+    "Cap thickness unknown; no invented solid section"
+  ],
+  "later_source_review": "56 surrounding section rays show shallow surface extends beyond both proposed cap sides. Individual dormer identity unconfirmed; do not infer side cheeks or glazing from this trace. See row_cap_surrounding_sections.json."
+}

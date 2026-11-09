@@ -1,0 +1,28 @@
+{
+  "scene": "MUDAM_R169_KESITLI_CATI_GECISI_ADAY_v043.blend",
+  "accepted": false,
+  "published": false,
+  "source_samples": 81,
+  "independent_checks": 128,
+  "p90_m": 0.06682612101236741,
+  "max_error_m": 0.13393402099609375,
+  "changes": [
+    {
+      "object": "R169_MEASURED_ENVELOPE",
+      "removed_faces": 27
+    },
+    {
+      "object": "R169_ROW_CONTINUOUS_HIP",
+      "removed_faces": 72
+    },
+    {
+      "object": "R169_ROW_REAR_ROOF_EXTENT",
+      "removed_faces": 0
+    }
+  ],
+  "limits": [
+    "Section-derived roof surface; not imported scan mesh",
+    "Perimeter joins and inherited fragments need visual resolution",
+    "No whole roof or building acceptance"
+  ]
+}

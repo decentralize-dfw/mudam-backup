@@ -1,0 +1,220 @@
+{
+  "accepted": false,
+  "published": false,
+  "records": [
+    {
+      "part": 0,
+      "windows": [
+        {
+          "u0": -0.22459547221660614,
+          "u1": 2.0997822284698486,
+          "z0": 11.404825210571289,
+          "z1": 13.48908805847168,
+          "pixels": [
+            447,
+            270,
+            497,
+            312
+          ]
+        },
+        {
+          "u0": 7.864217042922974,
+          "u1": 10.281599044799805,
+          "z0": 11.38859748840332,
+          "z1": 13.474361419677734,
+          "pixels": [
+            621,
+            273,
+            673,
+            315
+          ]
+        }
+      ],
+      "sourceFacadeBounds": [
+        -1.15433469414711,
+        11.350805282592773
+      ],
+      "oldFacadeBounds": [
+        0.0,
+        11.139557361602783
+      ]
+    },
+    {
+      "part": 1,
+      "windows": [
+        {
+          "u0": 0.08001264557242393,
+          "u1": 2.2651761770248413,
+          "z0": 11.452091217041016,
+          "z1": 13.438152313232422,
+          "pixels": [
+            974,
+            279,
+            1021,
+            319
+          ]
+        },
+        {
+          "u0": 8.076740503311157,
+          "u1": 9.98296308517456,
+          "z0": 11.48859977722168,
+          "z1": 13.421241760253906,
+          "pixels": [
+            1146,
+            282,
+            1187,
+            321
+          ]
+        }
+      ],
+      "sourceFacadeBounds": [
+        -1.1753003597259521,
+        10.959300518035889
+      ],
+      "oldFacadeBounds": [
+        -0.02257847785949707,
+        10.857718467712402
+      ]
+    }
+  ],
+  "reopen": [
+    {
+      "name": "R246_GLASS_0_0",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R246_FRAME_0_0_L",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R246_FRAME_0_0_R",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R246_FRAME_0_0_B",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R246_FRAME_0_0_T",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R246_FRAME_0_0_M",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R246_GLASS_0_1",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R246_FRAME_0_1_L",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R246_FRAME_0_1_R",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R246_FRAME_0_1_B",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R246_FRAME_0_1_T",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R246_FRAME_0_1_M",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R246_GLASS_1_0",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R246_FRAME_1_0_L",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R246_FRAME_1_0_R",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R246_FRAME_1_0_B",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R246_FRAME_1_0_T",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R246_FRAME_1_0_M",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R246_GLASS_1_1",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R246_FRAME_1_1_L",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R246_FRAME_1_1_R",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R246_FRAME_1_1_B",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R246_FRAME_1_1_T",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R246_FRAME_1_1_M",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R227_ERASMUS_REAR_0",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R227_ERASMUS_REAR_1",
+      "boundary": 0,
+      "zero": 0
+    }
+  ],
+  "limits": [
+    "Projected visible source rectangles; not surveyed dimensions",
+    "Recess .32m and frame .045m provisional; hidden interiors not modeled",
+    "Whole Erasmus still incomplete"
+  ],
+  "visualReview": "Matched source/front render reviewed: four upper glazed apertures now present and facade widths follow projected visible boundaries. Remaining roof details, other wings and courtyard construction not accepted.",
+  "reopenWeldToleranceMetres": 0.0001,
+  "precisionNote": "GLB splits coincident vertices at hard normals;0.1mm weld used for topology validation at400m scene coordinates."
+}

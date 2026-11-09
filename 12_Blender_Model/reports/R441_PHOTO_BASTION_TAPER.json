@@ -1,0 +1,68 @@
+[
+  {
+    "tower": "WEST",
+    "radiusAtZ0": 4.582803951149305,
+    "radiusSlope": -0.18733852896148526,
+    "observations": [
+      [
+        138,
+        370
+      ],
+      [
+        128,
+        420
+      ],
+      [
+        118,
+        470
+      ],
+      [
+        110,
+        520
+      ],
+      [
+        101,
+        570
+      ],
+      [
+        96,
+        600
+      ]
+    ],
+    "rmsPixels": 0.5846897621658158,
+    "limits": "Single photo silhouette fit conditioned on approximate R440 camera and inherited tower centers. Not accepted geometry; independent LiDAR comparison required."
+  },
+  {
+    "tower": "SOUTH",
+    "radiusAtZ0": 3.801203849835574,
+    "radiusSlope": -0.15848470491799613,
+    "observations": [
+      [
+        1130,
+        370
+      ],
+      [
+        1140,
+        420
+      ],
+      [
+        1150,
+        470
+      ],
+      [
+        1160,
+        520
+      ],
+      [
+        1170,
+        570
+      ],
+      [
+        1175,
+        600
+      ]
+    ],
+    "rmsPixels": 0.298062924148534,
+    "limits": "Single photo silhouette fit conditioned on approximate R440 camera and inherited tower centers. Not accepted geometry; independent LiDAR comparison required."
+  }
+]

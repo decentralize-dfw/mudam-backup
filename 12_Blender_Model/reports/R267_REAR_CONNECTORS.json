@@ -1,0 +1,1367 @@
+{
+  "accepted": false,
+  "published": false,
+  "records": [
+    {
+      "id": 0,
+      "roofPlane": {
+        "id": 0,
+        "polygon": [
+          [
+            69.10565034353502,
+            386.379232860065
+          ],
+          [
+            77.60627016988303,
+            393.732943662357
+          ],
+          [
+            81.27004067636301,
+            389.497759407237
+          ],
+          [
+            72.769420850015,
+            382.144048604945
+          ]
+        ],
+        "origin": [
+          75.18784550994901,
+          387.93849613365103
+        ],
+        "plane": [
+          -0.007395252642109539,
+          0.0027713529731752673,
+          14.358592105530844
+        ],
+        "cornerRoofs": [
+          14.399250206495877,
+          14.356765703561312,
+          14.31793400456581,
+          14.360418507500377
+        ],
+        "samples": 225,
+        "heldOutP90": 0.127581477840449,
+        "heldOutSupport": 0.9821428571428571,
+        "supported": true
+      },
+      "openings": [
+        {
+          "pixel": [
+            43,
+            66,
+            221,
+            239
+          ],
+          "u": [
+            0.39061442017555237,
+            2.6367275714874268
+          ],
+          "z": [
+            11.830772399902344,
+            13.723987579345703
+          ]
+        },
+        {
+          "pixel": [
+            137,
+            158,
+            221,
+            239
+          ],
+          "u": [
+            9.570302486419678,
+            11.621105194091797
+          ],
+          "z": [
+            11.83076286315918,
+            13.723981857299805
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "roofPlane": {
+        "id": 1,
+        "polygon": [
+          [
+            88.53455811389802,
+            403.186780058542
+          ],
+          [
+            96.46040293419401,
+            410.043264863526
+          ],
+          [
+            100.12417344067399,
+            405.80808060840604
+          ],
+          [
+            92.19832862037799,
+            398.95159580342204
+          ]
+        ],
+        "origin": [
+          94.329365777286,
+          404.4974303334741
+        ],
+        "plane": [
+          0.003417195312243674,
+          -0.0003472178656842573,
+          14.343433585447903
+        ],
+        "cornerRoofs": [
+          14.32408667705634,
+          14.348790142801743,
+          14.362780493839466,
+          14.338077028094062
+        ],
+        "samples": 210,
+        "heldOutP90": 0.14524452827043674,
+        "heldOutSupport": 0.9333333333333333,
+        "supported": true
+      },
+      "openings": [
+        {
+          "pixel": [
+            289,
+            312,
+            221,
+            239
+          ],
+          "u": [
+            0.6836040019989014,
+            2.9296997785568237
+          ],
+          "z": [
+            11.830768585205078,
+            13.72398567199707
+          ]
+        },
+        {
+          "pixel": [
+            385,
+            406,
+            221,
+            239
+          ],
+          "u": [
+            10.058613300323486,
+            12.109385013580322
+          ],
+          "z": [
+            11.830772399902344,
+            13.723991394042969
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "roofPlane": {
+        "id": 2,
+        "polygon": [
+          [
+            142.35921229905705,
+            449.749377727503
+          ],
+          [
+            150.85983212540498,
+            457.10308852979495
+          ],
+          [
+            154.52360263188496,
+            452.86790427467497
+          ],
+          [
+            146.02298280553703,
+            445.514193472383
+          ]
+        ],
+        "origin": [
+          148.441407465471,
+          451.308641001089
+        ],
+        "plane": [
+          -0.014254987698040594,
+          0.005005547873416985,
+          14.322490746067023
+        ],
+        "cornerRoofs": [
+          14.40138739637814,
+          14.317020516795967,
+          14.243594095755906,
+          14.32796097533808
+        ],
+        "samples": 224,
+        "heldOutP90": 0.060246681080488786,
+        "heldOutSupport": 0.9821428571428571,
+        "supported": true
+      },
+      "openings": [
+        {
+          "pixel": [
+            1028,
+            1051,
+            221,
+            239
+          ],
+          "u": [
+            0.683598130941391,
+            2.9297168254852295
+          ],
+          "z": [
+            11.83076286315918,
+            13.723974227905273
+          ]
+        },
+        {
+          "pixel": [
+            1121,
+            1144,
+            221,
+            239
+          ],
+          "u": [
+            9.765640258789062,
+            12.011735916137695
+          ],
+          "z": [
+            11.830766677856445,
+            13.723981857299805
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "roofPlane": {
+        "id": 3,
+        "polygon": [
+          [
+            159.731030574076,
+            464.777379251404
+          ],
+          [
+            168.23165040042403,
+            472.13109005369597
+          ],
+          [
+            171.895420906904,
+            467.895905798576
+          ],
+          [
+            163.39480108055596,
+            460.542194996284
+          ]
+        ],
+        "origin": [
+          165.81322574049,
+          466.33664252499
+        ],
+        "plane": [
+          -0.0183170557970116,
+          0.0018744556959621088,
+          14.243612175611577
+        ],
+        "cornerRoofs": [
+          14.352097313918419,
+          14.210175191349833,
+          14.135127037304736,
+          14.277049159873322
+        ],
+        "samples": 222,
+        "heldOutP90": 0.06490333967209594,
+        "heldOutSupport": 1.0,
+        "supported": true
+      },
+      "openings": [
+        {
+          "pixel": [
+            1270,
+            1293,
+            221,
+            239
+          ],
+          "u": [
+            0.6835981905460358,
+            2.9297170639038086
+          ],
+          "z": [
+            11.830760955810547,
+            13.723970413208008
+          ]
+        },
+        {
+          "pixel": [
+            1366,
+            1388,
+            221,
+            239
+          ],
+          "u": [
+            10.058596134185791,
+            12.207040786743164
+          ],
+          "z": [
+            11.830757141113281,
+            13.723974227905273
+          ]
+        }
+      ]
+    }
+  ],
+  "checks": [
+    {
+      "name": "R265_GLASS_R216_ERASMUS_WING_2_0",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R265_FRAME_R216_ERASMUS_WING_2_0_L",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R265_FRAME_R216_ERASMUS_WING_2_0_R",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R265_FRAME_R216_ERASMUS_WING_2_0_B",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R265_FRAME_R216_ERASMUS_WING_2_0_T",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R265_FRAME_R216_ERASMUS_WING_2_0_M",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R265_GLASS_R216_ERASMUS_WING_2_1",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R265_FRAME_R216_ERASMUS_WING_2_1_L",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R265_FRAME_R216_ERASMUS_WING_2_1_R",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R265_FRAME_R216_ERASMUS_WING_2_1_B",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R265_FRAME_R216_ERASMUS_WING_2_1_T",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R265_FRAME_R216_ERASMUS_WING_2_1_M",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R265_GLASS_R216_ERASMUS_WING_2_2",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R265_FRAME_R216_ERASMUS_WING_2_2_L",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R265_FRAME_R216_ERASMUS_WING_2_2_R",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R265_FRAME_R216_ERASMUS_WING_2_2_B",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R265_FRAME_R216_ERASMUS_WING_2_2_T",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R265_FRAME_R216_ERASMUS_WING_2_2_M",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R265_GLASS_R216_ERASMUS_WING_2_3",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R265_FRAME_R216_ERASMUS_WING_2_3_L",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R265_FRAME_R216_ERASMUS_WING_2_3_R",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R265_FRAME_R216_ERASMUS_WING_2_3_B",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R265_FRAME_R216_ERASMUS_WING_2_3_T",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R265_FRAME_R216_ERASMUS_WING_2_3_M",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R265_GLASS_R216_ERASMUS_WING_2_4",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R265_FRAME_R216_ERASMUS_WING_2_4_L",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R265_FRAME_R216_ERASMUS_WING_2_4_R",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R265_FRAME_R216_ERASMUS_WING_2_4_B",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R265_FRAME_R216_ERASMUS_WING_2_4_T",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R265_FRAME_R216_ERASMUS_WING_2_4_M",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R265_GLASS_R217_ERASMUS_WING_8_0",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R265_FRAME_R217_ERASMUS_WING_8_0_L",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R265_FRAME_R217_ERASMUS_WING_8_0_R",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R265_FRAME_R217_ERASMUS_WING_8_0_B",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R265_FRAME_R217_ERASMUS_WING_8_0_T",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R265_FRAME_R217_ERASMUS_WING_8_0_M",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R265_GLASS_R217_ERASMUS_WING_8_1",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R265_FRAME_R217_ERASMUS_WING_8_1_L",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R265_FRAME_R217_ERASMUS_WING_8_1_R",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R265_FRAME_R217_ERASMUS_WING_8_1_B",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R265_FRAME_R217_ERASMUS_WING_8_1_T",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R265_FRAME_R217_ERASMUS_WING_8_1_M",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R265_GLASS_R217_ERASMUS_WING_8_2",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R265_FRAME_R217_ERASMUS_WING_8_2_L",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R265_FRAME_R217_ERASMUS_WING_8_2_R",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R265_FRAME_R217_ERASMUS_WING_8_2_B",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R265_FRAME_R217_ERASMUS_WING_8_2_T",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R265_FRAME_R217_ERASMUS_WING_8_2_M",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R265_GLASS_R217_ERASMUS_WING_8_3",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R265_FRAME_R217_ERASMUS_WING_8_3_L",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R265_FRAME_R217_ERASMUS_WING_8_3_R",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R265_FRAME_R217_ERASMUS_WING_8_3_B",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R265_FRAME_R217_ERASMUS_WING_8_3_T",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R265_FRAME_R217_ERASMUS_WING_8_3_M",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R265_GLASS_R217_ERASMUS_WING_8_4",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R265_FRAME_R217_ERASMUS_WING_8_4_L",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R265_FRAME_R217_ERASMUS_WING_8_4_R",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R265_FRAME_R217_ERASMUS_WING_8_4_B",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R265_FRAME_R217_ERASMUS_WING_8_4_T",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R265_FRAME_R217_ERASMUS_WING_8_4_M",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R265_GLASS_R217_ERASMUS_WING_12_0",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R265_FRAME_R217_ERASMUS_WING_12_0_L",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R265_FRAME_R217_ERASMUS_WING_12_0_R",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R265_FRAME_R217_ERASMUS_WING_12_0_B",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R265_FRAME_R217_ERASMUS_WING_12_0_T",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R265_FRAME_R217_ERASMUS_WING_12_0_M",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R265_GLASS_R217_ERASMUS_WING_12_1",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R265_FRAME_R217_ERASMUS_WING_12_1_L",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R265_FRAME_R217_ERASMUS_WING_12_1_R",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R265_FRAME_R217_ERASMUS_WING_12_1_B",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R265_FRAME_R217_ERASMUS_WING_12_1_T",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R265_FRAME_R217_ERASMUS_WING_12_1_M",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R265_GLASS_R217_ERASMUS_WING_12_2",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R265_FRAME_R217_ERASMUS_WING_12_2_L",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R265_FRAME_R217_ERASMUS_WING_12_2_R",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R265_FRAME_R217_ERASMUS_WING_12_2_B",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R265_FRAME_R217_ERASMUS_WING_12_2_T",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R265_FRAME_R217_ERASMUS_WING_12_2_M",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R265_GLASS_R217_ERASMUS_WING_12_3",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R265_FRAME_R217_ERASMUS_WING_12_3_L",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R265_FRAME_R217_ERASMUS_WING_12_3_R",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R265_FRAME_R217_ERASMUS_WING_12_3_B",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R265_FRAME_R217_ERASMUS_WING_12_3_T",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R265_FRAME_R217_ERASMUS_WING_12_3_M",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R265_GLASS_R217_ERASMUS_WING_12_4",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R265_FRAME_R217_ERASMUS_WING_12_4_L",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R265_FRAME_R217_ERASMUS_WING_12_4_R",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R265_FRAME_R217_ERASMUS_WING_12_4_B",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R265_FRAME_R217_ERASMUS_WING_12_4_T",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R265_FRAME_R217_ERASMUS_WING_12_4_M",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R265_GLASS_R217_ERASMUS_WING_13_0",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R265_FRAME_R217_ERASMUS_WING_13_0_L",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R265_FRAME_R217_ERASMUS_WING_13_0_R",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R265_FRAME_R217_ERASMUS_WING_13_0_B",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R265_FRAME_R217_ERASMUS_WING_13_0_T",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R265_FRAME_R217_ERASMUS_WING_13_0_M",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R265_GLASS_R217_ERASMUS_WING_13_1",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R265_FRAME_R217_ERASMUS_WING_13_1_L",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R265_FRAME_R217_ERASMUS_WING_13_1_R",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R265_FRAME_R217_ERASMUS_WING_13_1_B",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R265_FRAME_R217_ERASMUS_WING_13_1_T",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R265_FRAME_R217_ERASMUS_WING_13_1_M",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R265_GLASS_R217_ERASMUS_WING_13_2",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R265_FRAME_R217_ERASMUS_WING_13_2_L",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R265_FRAME_R217_ERASMUS_WING_13_2_R",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R265_FRAME_R217_ERASMUS_WING_13_2_B",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R265_FRAME_R217_ERASMUS_WING_13_2_T",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R265_FRAME_R217_ERASMUS_WING_13_2_M",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R265_GLASS_R217_ERASMUS_WING_13_3",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R265_FRAME_R217_ERASMUS_WING_13_3_L",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R265_FRAME_R217_ERASMUS_WING_13_3_R",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R265_FRAME_R217_ERASMUS_WING_13_3_B",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R265_FRAME_R217_ERASMUS_WING_13_3_T",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R265_FRAME_R217_ERASMUS_WING_13_3_M",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R265_GLASS_R217_ERASMUS_WING_13_4",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R265_FRAME_R217_ERASMUS_WING_13_4_L",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R265_FRAME_R217_ERASMUS_WING_13_4_R",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R265_FRAME_R217_ERASMUS_WING_13_4_B",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R265_FRAME_R217_ERASMUS_WING_13_4_T",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R265_FRAME_R217_ERASMUS_WING_13_4_M",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R265_GLASS_R217_ERASMUS_WING_14_0",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R265_FRAME_R217_ERASMUS_WING_14_0_L",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R265_FRAME_R217_ERASMUS_WING_14_0_R",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R265_FRAME_R217_ERASMUS_WING_14_0_B",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R265_FRAME_R217_ERASMUS_WING_14_0_T",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R265_FRAME_R217_ERASMUS_WING_14_0_M",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R265_GLASS_R217_ERASMUS_WING_14_1",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R265_FRAME_R217_ERASMUS_WING_14_1_L",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R265_FRAME_R217_ERASMUS_WING_14_1_R",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R265_FRAME_R217_ERASMUS_WING_14_1_B",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R265_FRAME_R217_ERASMUS_WING_14_1_T",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R265_FRAME_R217_ERASMUS_WING_14_1_M",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R265_GLASS_R217_ERASMUS_WING_14_2",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R265_FRAME_R217_ERASMUS_WING_14_2_L",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R265_FRAME_R217_ERASMUS_WING_14_2_R",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R265_FRAME_R217_ERASMUS_WING_14_2_B",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R265_FRAME_R217_ERASMUS_WING_14_2_T",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R265_FRAME_R217_ERASMUS_WING_14_2_M",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R265_GLASS_R217_ERASMUS_WING_14_3",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R265_FRAME_R217_ERASMUS_WING_14_3_L",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R265_FRAME_R217_ERASMUS_WING_14_3_R",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R265_FRAME_R217_ERASMUS_WING_14_3_B",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R265_FRAME_R217_ERASMUS_WING_14_3_T",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R265_FRAME_R217_ERASMUS_WING_14_3_M",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R265_GLASS_R217_ERASMUS_WING_14_4",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R265_FRAME_R217_ERASMUS_WING_14_4_L",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R265_FRAME_R217_ERASMUS_WING_14_4_R",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R265_FRAME_R217_ERASMUS_WING_14_4_B",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R265_FRAME_R217_ERASMUS_WING_14_4_T",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R265_FRAME_R217_ERASMUS_WING_14_4_M",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R267_REAR_CONNECTOR_0",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R267_GLASS_0_0",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R267_FRAME_0_0_L",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R267_FRAME_0_0_R",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R267_FRAME_0_0_B",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R267_FRAME_0_0_T",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R267_FRAME_0_0_M",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R267_GLASS_0_1",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R267_FRAME_0_1_L",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R267_FRAME_0_1_R",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R267_FRAME_0_1_B",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R267_FRAME_0_1_T",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R267_FRAME_0_1_M",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R267_REAR_CONNECTOR_1",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R267_GLASS_1_0",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R267_FRAME_1_0_L",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R267_FRAME_1_0_R",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R267_FRAME_1_0_B",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R267_FRAME_1_0_T",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R267_FRAME_1_0_M",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R267_GLASS_1_1",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R267_FRAME_1_1_L",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R267_FRAME_1_1_R",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R267_FRAME_1_1_B",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R267_FRAME_1_1_T",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R267_FRAME_1_1_M",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R267_REAR_CONNECTOR_2",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R267_GLASS_2_0",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R267_FRAME_2_0_L",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R267_FRAME_2_0_R",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R267_FRAME_2_0_B",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R267_FRAME_2_0_T",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R267_FRAME_2_0_M",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R267_GLASS_2_1",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R267_FRAME_2_1_L",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R267_FRAME_2_1_R",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R267_FRAME_2_1_B",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R267_FRAME_2_1_T",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R267_FRAME_2_1_M",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R267_REAR_CONNECTOR_3",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R267_GLASS_3_0",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R267_FRAME_3_0_L",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R267_FRAME_3_0_R",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R267_FRAME_3_0_B",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R267_FRAME_3_0_T",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R267_FRAME_3_0_M",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R267_GLASS_3_1",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R267_FRAME_3_1_L",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R267_FRAME_3_1_R",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R267_FRAME_3_1_B",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R267_FRAME_3_1_T",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R267_FRAME_3_1_M",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R216_ERASMUS_WING_0",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R216_ERASMUS_WING_1",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R216_ERASMUS_WING_2",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R217_ERASMUS_WING_8",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R217_ERASMUS_WING_12",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R217_ERASMUS_WING_13",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R217_ERASMUS_WING_14",
+      "boundary": 0,
+      "zero": 0
+    }
+  ],
+  "limits": [
+    "Foundation lower extent provisional",
+    "Source window projection and independent roof planes; no source triangles",
+    "Fifth raised volume rejected: only9source samples; cannot extrapolate entire roof",
+    "Courtyards and side connections remain to be constructed"
+  ]
+}

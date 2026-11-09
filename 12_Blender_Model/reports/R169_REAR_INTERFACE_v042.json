@@ -1,0 +1,22 @@
+{
+  "scene": "MUDAM_R169_ARKA_ORTU_BIRLESIM_ADAY_v042.blend",
+  "accepted": false,
+  "published": false,
+  "changes": [
+    {
+      "object": "R169_ROW_CONTINUOUS_HIP",
+      "removed_faces": 6,
+      "interface_edges": 8
+    },
+    {
+      "object": "R169_ROW_REAR_ROOF_EXTENT",
+      "removed_faces": 8,
+      "interface_edges": 4
+    }
+  ],
+  "limits": [
+    "Interfaces connect existing authored roof to measured cap; not measured construction details",
+    "Source-visible front glazing remains unbuilt",
+    "Whole roof geometry remains unaccepted"
+  ]
+}

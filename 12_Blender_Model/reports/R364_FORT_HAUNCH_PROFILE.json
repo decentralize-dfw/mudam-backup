@@ -1,0 +1,16 @@
+{
+  "coef": [
+    3.4038192602530755,
+    -0.06284249002106349,
+    0.28838306579831524,
+    1.6437212637809244,
+    1.511592313474863,
+    2.483374736126572,
+    1.1884098611248675
+  ],
+  "rms": 0.28451468184241363,
+  "max": 1.1057477459362541,
+  "p95": 0.5786936853344725,
+  "heldout": 297,
+  "method": "Independent smooth shoulder earth-cover section, seven design parameters; trained spatial cells only, held-out unchanged; no mesh transfer."
+}

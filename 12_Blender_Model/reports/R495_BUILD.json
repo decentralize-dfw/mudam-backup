@@ -1,0 +1,20 @@
+{
+  "check": {
+    "nonManifold": 0,
+    "zeroArea": 0
+  },
+  "cuts": [
+    {
+      "name": "R152_CLASS2_TERRAIN",
+      "cutTriangles": 142
+    }
+  ],
+  "reopened": true,
+  "sharedEndRingMaxGap": 0.0,
+  "accepted": false,
+  "published": false,
+  "limits": [
+    "Measured road-backed crest is not whole wall source-fidelity proof.",
+    "West termination and terrain-to-foot visual acceptance remain pending."
+  ]
+}

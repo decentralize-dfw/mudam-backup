@@ -1,0 +1,33 @@
+{
+  "scene": "MUDAM_R419_GUNEY_KULE_AVLU_CEPHESI_ADAY_v001.blend",
+  "accepted": false,
+  "published": false,
+  "base": 1.446475187816761,
+  "checks": [
+    {
+      "name": "R419_SOUTH_TOWER_BODY",
+      "nonManifold": 0,
+      "zeroArea": 0
+    },
+    {
+      "name": "R419_SOUTH_TOWER_BLIND_ARCADES",
+      "nonManifold": 0,
+      "zeroArea": 0
+    },
+    {
+      "name": "R419_SOUTH_RECESSED_DOOR",
+      "nonManifold": 0,
+      "zeroArea": 0
+    },
+    {
+      "name": "R419_SOUTH_OPENING_JAMBS",
+      "nonManifold": 0,
+      "zeroArea": 0
+    }
+  ],
+  "source": "Zinneke rooftop views 1 and 2; classified court plane R399; inherited tower footprint and cap level.",
+  "limits": [
+    "Five court-facing bays and door follow visible photographic typology. Angular positions 48/72/96/120/144 degrees and opening dimensions are provisional visual estimates; scan is torn/occluded. NOT source-position accepted.",
+    "West tower architecture, south bay alignment, material fidelity and other marked boundaries remain incomplete. R418 measured south roof is unchanged; no scan mesh or photo texture transferred."
+  ]
+}

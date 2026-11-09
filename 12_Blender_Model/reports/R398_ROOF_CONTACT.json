@@ -1,0 +1,54 @@
+{
+  "scene": "MUDAM_R398_KALE_CATI_VE_PAVYON_BAGLANTI_ADAY_v001.blend",
+  "accepted": false,
+  "published": false,
+  "seamCount": 118,
+  "meshChecks": [
+    {
+      "name": "R389_FORT_LOWER_METAL_ROOF",
+      "nonManifold": 0,
+      "zeroArea": 0
+    },
+    {
+      "name": "R389_FORT_RAISED_METAL_ROOF",
+      "nonManifold": 0,
+      "zeroArea": 0
+    },
+    {
+      "name": "R389_FORT_PERIMETER_LEDGE",
+      "nonManifold": 0,
+      "zeroArea": 0
+    },
+    {
+      "name": "R389_FORT_INNER_PARAPET",
+      "nonManifold": 0,
+      "zeroArea": 0
+    },
+    {
+      "name": "R389_FORT_INNER_COPING",
+      "nonManifold": 0,
+      "zeroArea": 0
+    },
+    {
+      "name": "R392_FORT_ARCHITECTURAL_EARTH_COVER",
+      "nonManifold": 0,
+      "zeroArea": 0
+    },
+    {
+      "name": "R397_PAVILION_GROUND_CUT_CONTACT",
+      "nonManifold": 0,
+      "zeroArea": 0
+    },
+    {
+      "name": "R398_FORT_STANDING_SEAMS",
+      "nonManifold": 0,
+      "zeroArea": 0
+    }
+  ],
+  "limits": [
+    "Metal seam spacing is visual estimate, not surveyed.",
+    "Tower-end earth cover remains inherited. Whole marked perimeter remains unaccepted.",
+    "Pavilion contact geometry closes artificial cuts without altering adjacent measured floor levels."
+  ],
+  "glbErrors": []
+}

@@ -1,0 +1,279 @@
+{
+  "accepted": false,
+  "published": false,
+  "records": [
+    {
+      "replaced": "R218_ERASMUS_FRONT_14",
+      "newWidth": 12.80204850435257,
+      "openings": [
+        {
+          "pixel": [
+            483,
+            567,
+            345,
+            635
+          ],
+          "u": [
+            -10.732632160186768,
+            -9.052354335784912
+          ],
+          "z": [
+            1.0907394289970398,
+            7.01291561126709
+          ]
+        },
+        {
+          "pixel": [
+            605,
+            686,
+            345,
+            635
+          ],
+          "u": [
+            -8.292252779006958,
+            -6.6719810962677
+          ],
+          "z": [
+            1.0907394289970398,
+            7.022876739501953
+          ]
+        },
+        {
+          "pixel": [
+            723,
+            807,
+            345,
+            635
+          ],
+          "u": [
+            -5.9318578243255615,
+            -4.251580715179443
+          ],
+          "z": [
+            1.0907394289970398,
+            7.0325164794921875
+          ]
+        },
+        {
+          "pixel": [
+            843,
+            927,
+            345,
+            635
+          ],
+          "u": [
+            -3.531498074531555,
+            -1.8511974811553955
+          ],
+          "z": [
+            1.099595069885254,
+            7.042311668395996
+          ]
+        },
+        {
+          "pixel": [
+            966,
+            1048,
+            345,
+            635
+          ],
+          "u": [
+            -1.0710977017879486,
+            0.5691718012094498
+          ],
+          "z": [
+            1.1094732284545898,
+            7.052359580993652
+          ]
+        }
+      ]
+    }
+  ],
+  "checks": [
+    {
+      "name": "R264_FRONT_SHELL_0",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R264_GLASS_0_0",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R264_FRAME_0_0_L",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R264_FRAME_0_0_R",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R264_FRAME_0_0_B",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R264_FRAME_0_0_T",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R264_FRAME_0_0_M",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R264_TRANSOM_0_0",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R264_GLASS_0_1",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R264_FRAME_0_1_L",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R264_FRAME_0_1_R",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R264_FRAME_0_1_B",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R264_FRAME_0_1_T",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R264_FRAME_0_1_M",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R264_TRANSOM_0_1",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R264_GLASS_0_2",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R264_FRAME_0_2_L",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R264_FRAME_0_2_R",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R264_FRAME_0_2_B",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R264_FRAME_0_2_T",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R264_FRAME_0_2_M",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R264_TRANSOM_0_2",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R264_GLASS_0_3",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R264_FRAME_0_3_L",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R264_FRAME_0_3_R",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R264_FRAME_0_3_B",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R264_FRAME_0_3_T",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R264_FRAME_0_3_M",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R264_TRANSOM_0_3",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R264_GLASS_0_4",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R264_FRAME_0_4_L",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R264_FRAME_0_4_R",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R264_FRAME_0_4_B",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R264_FRAME_0_4_T",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R264_FRAME_0_4_M",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R264_TRANSOM_0_4",
+      "boundary": 0,
+      "zero": 0
+    }
+  ],
+  "limits": [
+    "Manual source projection, not surveyed",
+    "Roof plane extrapolation over widened fronts needs comparison",
+    "Isolated source front14: five visible openings, no repeated seven-window assumption"
+  ]
+}

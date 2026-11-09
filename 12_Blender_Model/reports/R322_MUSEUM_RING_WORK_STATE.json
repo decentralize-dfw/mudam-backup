@@ -1,0 +1,90 @@
+{
+  "scene": "scenes/MUDAM_R322_BATI_MUZE_TERAS_KOT_ADAY_v004.blend",
+  "accepted": false,
+  "published": false,
+  "northCrestVerticesChanged": 58,
+  "northGrassPlaneSamples": 20,
+  "northGrassPlaneMaxResidual": 0.07880239316836057,
+  "existingWallPartsGrounded": 10,
+  "westNewRetainingLengthM": 106.12485351846348,
+  "independentWestGroundChecks": [
+    {
+      "name": "holdout_00",
+      "difference": -0.11484527587890625,
+      "sourceRange": 0.069244384765625
+    },
+    {
+      "name": "holdout_01",
+      "difference": 0.00409698486328125,
+      "sourceRange": 0.01569366455078125
+    },
+    {
+      "name": "holdout_02",
+      "difference": -0.14279937744140625,
+      "sourceRange": 0.022247314453125
+    },
+    {
+      "name": "holdout_03",
+      "difference": -0.18787384033203125,
+      "sourceRange": 0.0474090576171875
+    },
+    {
+      "name": "holdout_04",
+      "difference": -0.05702972412109375,
+      "sourceRange": 0.02896881103515625
+    },
+    {
+      "name": "holdout_05",
+      "difference": -0.03000640869140625,
+      "sourceRange": 0.00911712646484375
+    },
+    {
+      "name": "holdout_06",
+      "difference": 0.0741424560546875,
+      "sourceRange": 0.00945281982421875
+    }
+  ],
+  "southChecksNowUsedAsControls": [
+    "holdout_07",
+    "holdout_08"
+  ],
+  "inheritance": {
+    "changed": [
+      "R152_CLASS2_TERRAIN",
+      "R152_HISTORIC_WALL_453755312",
+      "R152_HISTORIC_WALL_49911001",
+      "R152_HISTORIC_WALL_51946351",
+      "R152_HISTORIC_WALL_563325236",
+      "R152_HISTORIC_WALL_563325237",
+      "R152_HISTORIC_WALL_759551379",
+      "R152_HISTORIC_WALL_759811368",
+      "R152_HISTORIC_WALL_869145009",
+      "R152_RUIN_PARTITION_09",
+      "R152_RUIN_PARTITION_10",
+      "R152_RUIN_PARTITION_18"
+    ],
+    "added": [
+      "R321_MUSEUM_WEST_MOAT_RETAINING",
+      "R322_WEST_MUSEUM_TERRACE"
+    ],
+    "removed": [],
+    "unexpected": [],
+    "unchanged": 18087,
+    "museumGeometryPreserved": true,
+    "scope": "Geometry positions, face loop indices and object matrices; not a source-fidelity acceptance"
+  },
+  "visualStatus": "Incomplete. Remaining source silhouette, height, boundary and material discrepancies. Not 100 percent and not full ring accepted.",
+  "remaining": [
+    "Resolve western retaining station6 low crest and residual museum-footprint boundary gaps using source sections, not arbitrary offsets.",
+    "Complete pavilion moat stepped floor domains and adjoining walls; the old high walk_08 sample was a structure hit, not ground.",
+    "Match eastern terrace/ruin outlines and historical five-window wall in source elevations; preserve real openings.",
+    "Match immediate Fort Thungen curved walls, moat bases, entry bridge and north ruin details.",
+    "Only after same-camera visual/source checks, publish full new SITE objects R321/R322 with terrain; old R314 near-layer selection would omit them."
+  ],
+  "rejectedCandidates": [
+    "R318v001: slab edge and shading seams",
+    "R320v001: visible perimeter seams",
+    "R322v001: jagged terrain edges",
+    "R322v002-v003: southern high structure sample incorrectly used for ground"
+  ]
+}

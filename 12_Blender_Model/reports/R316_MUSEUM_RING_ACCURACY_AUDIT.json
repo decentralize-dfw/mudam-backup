@@ -1,0 +1,752 @@
+{
+  "scope": "Immediate museum walls, moats, ruins, terraces, bridges only",
+  "scene": "MUDAM_R314_ECCL_GUNEY_KOSE_OTURUM_ADAY_v001.blend",
+  "sourceScene": ".local_source_cache/r316/museum_ring_reference.blend",
+  "sourceType": "ACT photogrammetry; not geodetic ground truth",
+  "samples": [
+    {
+      "name": "north_moat_floor",
+      "xy": [
+        -2.9285714285714306,
+        50.214285714285715
+      ],
+      "sourceZ": -3.8368988037109375,
+      "modelZ": -4.7679443359375,
+      "deltaZ": -0.9310455322265625,
+      "sourceLocalRange": 0.266265869140625,
+      "modelLocalRange": 0.055633544921875,
+      "modelHitObjects": [
+        "R152_CLASS2_TERRAIN",
+        "R152_PATH_759551377"
+      ],
+      "interpretation": "pointwise surface discrepancy only; not a surveyed structural dimension",
+      "sourceStableWithin20cm": false
+    },
+    {
+      "name": "northeast_grass",
+      "xy": [
+        48.14285714285714,
+        51.785714285714285
+      ],
+      "sourceZ": -3.3601760864257812,
+      "modelZ": -3.2199249267578125,
+      "deltaZ": 0.14025115966796875,
+      "sourceLocalRange": 0.01859283447265625,
+      "modelLocalRange": 0.01107025146484375,
+      "modelHitObjects": [
+        "R152_CLASS2_TERRAIN"
+      ],
+      "interpretation": "pointwise surface discrepancy only; not a surveyed structural dimension",
+      "sourceStableWithin20cm": true
+    },
+    {
+      "name": "east_terrace",
+      "xy": [
+        43.428571428571416,
+        -4.0
+      ],
+      "sourceZ": -4.3736724853515625,
+      "modelZ": -4.28656005859375,
+      "deltaZ": 0.0871124267578125,
+      "sourceLocalRange": 0.00853729248046875,
+      "modelLocalRange": 0.0299224853515625,
+      "modelHitObjects": [
+        "R152_CLASS2_TERRAIN"
+      ],
+      "interpretation": "pointwise surface discrepancy only; not a surveyed structural dimension",
+      "sourceStableWithin20cm": true
+    },
+    {
+      "name": "pavilion_south_moat",
+      "xy": [
+        1.0,
+        -51.14285714285714
+      ],
+      "sourceZ": -0.4848175048828125,
+      "modelZ": -6.831092834472656,
+      "deltaZ": -6.346275329589844,
+      "sourceLocalRange": 6.351539611816406,
+      "modelLocalRange": 0.0825347900390625,
+      "modelHitObjects": [
+        "R152_CLASS2_TERRAIN"
+      ],
+      "interpretation": "pointwise surface discrepancy only; not a surveyed structural dimension",
+      "sourceStableWithin20cm": false
+    },
+    {
+      "name": "fort_inner_terrace",
+      "xy": [
+        -12.357142857142861,
+        -24.42857142857143
+      ],
+      "sourceZ": -8.0794677734375,
+      "modelZ": -7.8765869140625,
+      "deltaZ": 0.202880859375,
+      "sourceLocalRange": 0.014495849609375,
+      "modelLocalRange": 0.0066070556640625,
+      "modelHitObjects": [
+        "R152_CLASS2_TERRAIN"
+      ],
+      "interpretation": "pointwise surface discrepancy only; not a surveyed structural dimension",
+      "sourceStableWithin20cm": true
+    },
+    {
+      "name": "fort_north_moat",
+      "xy": [
+        -46.92857142857143,
+        -5.571428571428569
+      ],
+      "sourceZ": -6.281730651855469,
+      "modelZ": -7.771583557128906,
+      "deltaZ": -1.4898529052734375,
+      "sourceLocalRange": 1.1654891967773438,
+      "modelLocalRange": 0.01419830322265625,
+      "modelHitObjects": [
+        "R152_CLASS2_TERRAIN",
+        "R152_PATH_759683796"
+      ],
+      "interpretation": "pointwise surface discrepancy only; not a surveyed structural dimension",
+      "sourceStableWithin20cm": false
+    },
+    {
+      "name": "front_round_moat",
+      "xy": [
+        -77.57142857142857,
+        -40.928571428571416
+      ],
+      "sourceZ": -9.519027709960938,
+      "modelZ": -9.348403930664062,
+      "deltaZ": 0.170623779296875,
+      "sourceLocalRange": 0.021636962890625,
+      "modelLocalRange": 0.0438232421875,
+      "modelHitObjects": [
+        "R152_CLASS2_TERRAIN"
+      ],
+      "interpretation": "pointwise surface discrepancy only; not a surveyed structural dimension",
+      "sourceStableWithin20cm": true
+    },
+    {
+      "name": "north_ruin",
+      "xy": [
+        -32.78571428571429,
+        69.85714285714286
+      ],
+      "sourceZ": 0.00319671630859375,
+      "modelZ": -3.6063613891601562,
+      "deltaZ": -3.60955810546875,
+      "sourceLocalRange": 0.13594818115234375,
+      "modelLocalRange": 0.17508697509765625,
+      "modelHitObjects": [
+        "R152_CLASS2_TERRAIN"
+      ],
+      "interpretation": "pointwise surface discrepancy only; not a surveyed structural dimension",
+      "sourceStableWithin20cm": true
+    },
+    {
+      "name": "east_ruin",
+      "xy": [
+        63.85714285714286,
+        -29.92857142857143
+      ],
+      "sourceZ": -0.28623199462890625,
+      "modelZ": -2.9441299438476562,
+      "deltaZ": -2.65789794921875,
+      "sourceLocalRange": 0.30135345458984375,
+      "modelLocalRange": 0.0865325927734375,
+      "modelHitObjects": [
+        "R152_CLASS2_TERRAIN"
+      ],
+      "interpretation": "pointwise surface discrepancy only; not a surveyed structural dimension",
+      "sourceStableWithin20cm": false
+    },
+    {
+      "name": "south_path",
+      "xy": [
+        38.71428571428572,
+        -54.28571428571428
+      ],
+      "sourceZ": -3.000152587890625,
+      "modelZ": -3.2271575927734375,
+      "deltaZ": -0.2270050048828125,
+      "sourceLocalRange": 0.28235626220703125,
+      "modelLocalRange": 0.09741973876953125,
+      "modelHitObjects": [
+        "R152_PATH_83345376"
+      ],
+      "interpretation": "pointwise surface discrepancy only; not a surveyed structural dimension",
+      "sourceStableWithin20cm": false
+    },
+    {
+      "name": "west_moat",
+      "xy": [
+        -44.57142857142857,
+        24.285714285714292
+      ],
+      "sourceZ": -3.8755874633789062,
+      "modelZ": -5.4446868896484375,
+      "deltaZ": -1.5690994262695312,
+      "sourceLocalRange": 0.0465087890625,
+      "modelLocalRange": 0.17626953125,
+      "modelHitObjects": [
+        "R152_CLASS2_TERRAIN"
+      ],
+      "interpretation": "pointwise surface discrepancy only; not a surveyed structural dimension",
+      "sourceStableWithin20cm": true
+    },
+    {
+      "name": "north_wall_A",
+      "xy": [
+        -6.857142857142861,
+        62.0
+      ],
+      "sourceZ": 0.18647003173828125,
+      "modelZ": 0.3216400146484375,
+      "deltaZ": 0.13516998291015625,
+      "sourceLocalRange": 0.100921630859375,
+      "modelLocalRange": 0.05597686767578125,
+      "modelHitObjects": [
+        "R152_CLASS2_TERRAIN"
+      ],
+      "interpretation": "pointwise surface discrepancy only; not a surveyed structural dimension",
+      "sourceStableWithin20cm": true
+    },
+    {
+      "name": "north_wall_B",
+      "xy": [
+        5.714285714285708,
+        61.84285714285714
+      ],
+      "sourceZ": -0.5142364501953125,
+      "modelZ": -0.8865280151367188,
+      "deltaZ": -0.37229156494140625,
+      "sourceLocalRange": 0.29241943359375,
+      "modelLocalRange": 0.10297393798828125,
+      "modelHitObjects": [
+        "R152_CLASS2_TERRAIN"
+      ],
+      "interpretation": "pointwise surface discrepancy only; not a surveyed structural dimension",
+      "sourceStableWithin20cm": false
+    },
+    {
+      "name": "north_wall_C",
+      "xy": [
+        15.142857142857139,
+        61.68571428571428
+      ],
+      "sourceZ": -0.5854873657226562,
+      "modelZ": -0.7969589233398438,
+      "deltaZ": -0.2114715576171875,
+      "sourceLocalRange": 0.30088043212890625,
+      "modelLocalRange": 0.204437255859375,
+      "modelHitObjects": [
+        "R152_CLASS2_TERRAIN"
+      ],
+      "interpretation": "pointwise surface discrepancy only; not a surveyed structural dimension",
+      "sourceStableWithin20cm": false
+    },
+    {
+      "name": "east_curve_A",
+      "xy": [
+        48.14285714285714,
+        59.32857142857143
+      ],
+      "sourceZ": -0.3131103515625,
+      "modelZ": -0.32530975341796875,
+      "deltaZ": -0.01219940185546875,
+      "sourceLocalRange": 0.576568603515625,
+      "modelLocalRange": 0.0271759033203125,
+      "modelHitObjects": [
+        "R152_HISTORIC_WALL_49911001"
+      ],
+      "interpretation": "pointwise surface discrepancy only; not a surveyed structural dimension",
+      "sourceStableWithin20cm": false
+    },
+    {
+      "name": "east_curve_B",
+      "xy": [
+        57.099999999999994,
+        47.857142857142854
+      ],
+      "sourceZ": -0.70733642578125,
+      "modelZ": -0.31497955322265625,
+      "deltaZ": 0.39235687255859375,
+      "sourceLocalRange": 0.48863983154296875,
+      "modelLocalRange": 0.77935791015625,
+      "modelHitObjects": [
+        "R152_CLASS2_TERRAIN",
+        "R152_HISTORIC_WALL_49911001"
+      ],
+      "interpretation": "pointwise surface discrepancy only; not a surveyed structural dimension",
+      "sourceStableWithin20cm": false
+    },
+    {
+      "name": "east_wall_A",
+      "xy": [
+        55.05714285714285,
+        18.0
+      ],
+      "sourceZ": -0.09259796142578125,
+      "modelZ": -0.14588165283203125,
+      "deltaZ": -0.05328369140625,
+      "sourceLocalRange": 0.13318634033203125,
+      "modelLocalRange": 2.54827880859375,
+      "modelHitObjects": [
+        "R152_FORECOURT_2",
+        "R152_HISTORIC_WALL_49911001"
+      ],
+      "interpretation": "pointwise surface discrepancy only; not a surveyed structural dimension",
+      "sourceStableWithin20cm": true
+    },
+    {
+      "name": "east_wall_B",
+      "xy": [
+        53.80000000000001,
+        3.857142857142861
+      ],
+      "sourceZ": -0.2342529296875,
+      "modelZ": -2.714111328125,
+      "deltaZ": -2.4798583984375,
+      "sourceLocalRange": 2.6125564575195312,
+      "modelLocalRange": 2.8785476684570312,
+      "modelHitObjects": [
+        "R152_CLASS2_TERRAIN",
+        "R152_HISTORIC_WALL_49911001"
+      ],
+      "interpretation": "pointwise surface discrepancy only; not a surveyed structural dimension",
+      "sourceStableWithin20cm": false
+    },
+    {
+      "name": "east_wall_C",
+      "xy": [
+        52.542857142857144,
+        -8.871428571428567
+      ],
+      "sourceZ": -0.998046875,
+      "modelZ": -3.8250579833984375,
+      "deltaZ": -2.8270111083984375,
+      "sourceLocalRange": 3.346771240234375,
+      "modelLocalRange": 0.8784332275390625,
+      "modelHitObjects": [
+        "R152_CLASS2_TERRAIN"
+      ],
+      "interpretation": "pointwise surface discrepancy only; not a surveyed structural dimension",
+      "sourceStableWithin20cm": false
+    },
+    {
+      "name": "north_bridge_center",
+      "xy": [
+        27.714285714285722,
+        52.57142857142857
+      ],
+      "sourceZ": 0.12216949462890625,
+      "modelZ": 7.62939453125e-06,
+      "deltaZ": -0.122161865234375,
+      "sourceLocalRange": 0.131072998046875,
+      "modelLocalRange": 0.0,
+      "modelHitObjects": [
+        "R34_APPROACH_CONTINUOUS_DECK"
+      ],
+      "interpretation": "pointwise surface discrepancy only; not a surveyed structural dimension",
+      "sourceStableWithin20cm": true
+    },
+    {
+      "name": "east_bridge_center",
+      "xy": [
+        48.14285714285714,
+        32.142857142857146
+      ],
+      "sourceZ": -0.12526702880859375,
+      "modelZ": 0.0,
+      "deltaZ": 0.12526702880859375,
+      "sourceLocalRange": 0.017303466796875,
+      "modelLocalRange": 2.288818359375e-05,
+      "modelHitObjects": [
+        "R34_APPROACH_CONTINUOUS_DECK"
+      ],
+      "interpretation": "pointwise surface discrepancy only; not a surveyed structural dimension",
+      "sourceStableWithin20cm": true
+    },
+    {
+      "name": "fort_front_bridge",
+      "xy": [
+        -74.11428571428571,
+        -59.78571428571428
+      ],
+      "sourceZ": -6.135581970214844,
+      "modelZ": -6.073097229003906,
+      "deltaZ": 0.0624847412109375,
+      "sourceLocalRange": 0.07442474365234375,
+      "modelLocalRange": 2.288818359375e-05,
+      "modelHitObjects": [
+        "R154_FORT_ENTRANCE_BRIDGE"
+      ],
+      "interpretation": "pointwise surface discrepancy only; not a surveyed structural dimension",
+      "sourceStableWithin20cm": true
+    },
+    {
+      "name": "north_ruin_outer",
+      "xy": [
+        -29.799999999999997,
+        77.55714285714285
+      ],
+      "sourceZ": 0.33606719970703125,
+      "modelZ": 0.45703125,
+      "deltaZ": 0.12096405029296875,
+      "sourceLocalRange": 0.19083404541015625,
+      "modelLocalRange": 0.34336090087890625,
+      "modelHitObjects": [
+        "R152_HISTORIC_WALL_759551379",
+        "R152_RUIN_PARTITION_00"
+      ],
+      "interpretation": "pointwise surface discrepancy only; not a surveyed structural dimension",
+      "sourceStableWithin20cm": true
+    },
+    {
+      "name": "north_ruin_outer2",
+      "xy": [
+        -20.685714285714283,
+        66.24285714285715
+      ],
+      "sourceZ": -0.9579391479492188,
+      "modelZ": -2.4190292358398438,
+      "deltaZ": -1.461090087890625,
+      "sourceLocalRange": 1.301605224609375,
+      "modelLocalRange": 1.622833251953125,
+      "modelHitObjects": [
+        "R152_PATH_824216705",
+        "R152_RUIN_PARTITION_08"
+      ],
+      "interpretation": "pointwise surface discrepancy only; not a surveyed structural dimension",
+      "sourceStableWithin20cm": false
+    },
+    {
+      "name": "east_ruin_outer",
+      "xy": [
+        69.82857142857142,
+        -22.07142857142857
+      ],
+      "sourceZ": -2.191680908203125,
+      "modelZ": -2.6537017822265625,
+      "deltaZ": -0.4620208740234375,
+      "sourceLocalRange": 0.49166107177734375,
+      "modelLocalRange": 0.03836822509765625,
+      "modelHitObjects": [
+        "R152_CLASS2_TERRAIN",
+        "R152_PATH_759680913"
+      ],
+      "interpretation": "pointwise surface discrepancy only; not a surveyed structural dimension",
+      "sourceStableWithin20cm": false
+    },
+    {
+      "name": "pavilion_outer_wall",
+      "xy": [
+        3.671428571428578,
+        -49.41428571428571
+      ],
+      "sourceZ": -3.3731842041015625,
+      "modelZ": -6.880455017089844,
+      "deltaZ": -3.5072708129882812,
+      "sourceLocalRange": 2.9388580322265625,
+      "modelLocalRange": 0.082763671875,
+      "modelHitObjects": [
+        "R152_CLASS2_TERRAIN"
+      ],
+      "interpretation": "pointwise surface discrepancy only; not a surveyed structural dimension",
+      "sourceStableWithin20cm": false
+    },
+    {
+      "name": "south_outer_wall",
+      "xy": [
+        55.21428571428572,
+        -60.25714285714287
+      ],
+      "sourceZ": -5.829933166503906,
+      "modelZ": -6.140785217285156,
+      "deltaZ": -0.31085205078125,
+      "sourceLocalRange": 1.31787109375,
+      "modelLocalRange": 1.0398941040039062,
+      "modelHitObjects": [
+        "R152_CLASS2_TERRAIN"
+      ],
+      "interpretation": "pointwise surface discrepancy only; not a surveyed structural dimension",
+      "sourceStableWithin20cm": false
+    },
+    {
+      "name": "north_floor_710_280",
+      "xy": [
+        -8.42857142857143,
+        51.0
+      ],
+      "sourceZ": -5.378448486328125,
+      "modelZ": -4.8774261474609375,
+      "deltaZ": 0.5010223388671875,
+      "sourceLocalRange": 0.12249755859375,
+      "modelLocalRange": 0.0102386474609375,
+      "modelHitObjects": [
+        "R152_PATH_759551377"
+      ],
+      "interpretation": "pointwise surface discrepancy only; not a surveyed structural dimension",
+      "sourceStableWithin20cm": true
+    },
+    {
+      "name": "north_floor_710_295",
+      "xy": [
+        -8.42857142857143,
+        48.642857142857146
+      ],
+      "sourceZ": -5.3457183837890625,
+      "modelZ": -4.936088562011719,
+      "deltaZ": 0.40962982177734375,
+      "sourceLocalRange": 0.183929443359375,
+      "modelLocalRange": 0.0352783203125,
+      "modelHitObjects": [
+        "R152_CLASS2_TERRAIN"
+      ],
+      "interpretation": "pointwise surface discrepancy only; not a surveyed structural dimension",
+      "sourceStableWithin20cm": true
+    },
+    {
+      "name": "north_floor_710_310",
+      "xy": [
+        -8.42857142857143,
+        46.285714285714285
+      ],
+      "sourceZ": -4.96063232421875,
+      "modelZ": -4.9919586181640625,
+      "deltaZ": -0.0313262939453125,
+      "sourceLocalRange": 0.09453582763671875,
+      "modelLocalRange": 0.1221466064453125,
+      "modelHitObjects": [
+        "R152_CLASS2_TERRAIN"
+      ],
+      "interpretation": "pointwise surface discrepancy only; not a surveyed structural dimension",
+      "sourceStableWithin20cm": true
+    },
+    {
+      "name": "north_floor_750_280",
+      "xy": [
+        -2.142857142857139,
+        51.0
+      ],
+      "sourceZ": -3.514556884765625,
+      "modelZ": -4.744071960449219,
+      "deltaZ": -1.2295150756835938,
+      "sourceLocalRange": 0.20246124267578125,
+      "modelLocalRange": 0.02542877197265625,
+      "modelHitObjects": [
+        "R152_PATH_759551377"
+      ],
+      "interpretation": "pointwise surface discrepancy only; not a surveyed structural dimension",
+      "sourceStableWithin20cm": false
+    },
+    {
+      "name": "north_floor_750_295",
+      "xy": [
+        -2.142857142857139,
+        48.642857142857146
+      ],
+      "sourceZ": -3.902435302734375,
+      "modelZ": -4.777183532714844,
+      "deltaZ": -0.8747482299804688,
+      "sourceLocalRange": 0.1307830810546875,
+      "modelLocalRange": 0.04582977294921875,
+      "modelHitObjects": [
+        "R152_CLASS2_TERRAIN"
+      ],
+      "interpretation": "pointwise surface discrepancy only; not a surveyed structural dimension",
+      "sourceStableWithin20cm": true
+    },
+    {
+      "name": "north_floor_750_310",
+      "xy": [
+        -2.142857142857139,
+        46.285714285714285
+      ],
+      "sourceZ": -3.9527587890625,
+      "modelZ": -4.895668029785156,
+      "deltaZ": -0.9429092407226562,
+      "sourceLocalRange": 0.05907440185546875,
+      "modelLocalRange": 0.16632080078125,
+      "modelHitObjects": [
+        "R152_CLASS2_TERRAIN"
+      ],
+      "interpretation": "pointwise surface discrepancy only; not a surveyed structural dimension",
+      "sourceStableWithin20cm": true
+    },
+    {
+      "name": "north_floor_790_280",
+      "xy": [
+        4.142857142857139,
+        51.0
+      ],
+      "sourceZ": -4.0727081298828125,
+      "modelZ": -4.526557922363281,
+      "deltaZ": -0.45384979248046875,
+      "sourceLocalRange": 0.2167205810546875,
+      "modelLocalRange": 0.028839111328125,
+      "modelHitObjects": [
+        "R152_PATH_759551377"
+      ],
+      "interpretation": "pointwise surface discrepancy only; not a surveyed structural dimension",
+      "sourceStableWithin20cm": false
+    },
+    {
+      "name": "north_floor_790_295",
+      "xy": [
+        4.142857142857139,
+        48.642857142857146
+      ],
+      "sourceZ": -4.111488342285156,
+      "modelZ": -4.553550720214844,
+      "deltaZ": -0.4420623779296875,
+      "sourceLocalRange": 0.12535858154296875,
+      "modelLocalRange": 0.05094146728515625,
+      "modelHitObjects": [
+        "R152_CLASS2_TERRAIN"
+      ],
+      "interpretation": "pointwise surface discrepancy only; not a surveyed structural dimension",
+      "sourceStableWithin20cm": true
+    },
+    {
+      "name": "north_floor_790_310",
+      "xy": [
+        4.142857142857139,
+        46.285714285714285
+      ],
+      "sourceZ": -4.310569763183594,
+      "modelZ": -4.682075500488281,
+      "deltaZ": -0.3715057373046875,
+      "sourceLocalRange": 0.17430877685546875,
+      "modelLocalRange": 0.155670166015625,
+      "modelHitObjects": [
+        "R152_CLASS2_TERRAIN"
+      ],
+      "interpretation": "pointwise surface discrepancy only; not a surveyed structural dimension",
+      "sourceStableWithin20cm": true
+    },
+    {
+      "name": "north_floor_830_280",
+      "xy": [
+        10.428571428571416,
+        51.0
+      ],
+      "sourceZ": -4.324188232421875,
+      "modelZ": -4.326240539550781,
+      "deltaZ": -0.00205230712890625,
+      "sourceLocalRange": 0.140228271484375,
+      "modelLocalRange": 0.0145721435546875,
+      "modelHitObjects": [
+        "R152_PATH_759551377"
+      ],
+      "interpretation": "pointwise surface discrepancy only; not a surveyed structural dimension",
+      "sourceStableWithin20cm": true
+    },
+    {
+      "name": "north_floor_830_295",
+      "xy": [
+        10.428571428571416,
+        48.642857142857146
+      ],
+      "sourceZ": -3.9723052978515625,
+      "modelZ": -4.395606994628906,
+      "deltaZ": -0.42330169677734375,
+      "sourceLocalRange": 0.18029022216796875,
+      "modelLocalRange": 0.03459930419921875,
+      "modelHitObjects": [
+        "R152_CLASS2_TERRAIN"
+      ],
+      "interpretation": "pointwise surface discrepancy only; not a surveyed structural dimension",
+      "sourceStableWithin20cm": true
+    },
+    {
+      "name": "north_floor_830_310",
+      "xy": [
+        10.428571428571416,
+        46.285714285714285
+      ],
+      "sourceZ": -3.3830184936523438,
+      "modelZ": -4.444000244140625,
+      "deltaZ": -1.0609817504882812,
+      "sourceLocalRange": 0.7366867065429688,
+      "modelLocalRange": 0.1052398681640625,
+      "modelHitObjects": [
+        "R152_CLASS2_TERRAIN"
+      ],
+      "interpretation": "pointwise surface discrepancy only; not a surveyed structural dimension",
+      "sourceStableWithin20cm": false
+    },
+    {
+      "name": "north_floor_860_280",
+      "xy": [
+        15.142857142857139,
+        51.0
+      ],
+      "sourceZ": -3.0311508178710938,
+      "modelZ": -4.198310852050781,
+      "deltaZ": -1.1671600341796875,
+      "sourceLocalRange": 0.6988677978515625,
+      "modelLocalRange": 0.0202484130859375,
+      "modelHitObjects": [
+        "R152_PATH_759551377"
+      ],
+      "interpretation": "pointwise surface discrepancy only; not a surveyed structural dimension",
+      "sourceStableWithin20cm": false
+    },
+    {
+      "name": "north_floor_860_295",
+      "xy": [
+        15.142857142857139,
+        48.642857142857146
+      ],
+      "sourceZ": -2.4918060302734375,
+      "modelZ": -4.217842102050781,
+      "deltaZ": -1.7260360717773438,
+      "sourceLocalRange": 0.48138427734375,
+      "modelLocalRange": 0.0313720703125,
+      "modelHitObjects": [
+        "R152_CLASS2_TERRAIN"
+      ],
+      "interpretation": "pointwise surface discrepancy only; not a surveyed structural dimension",
+      "sourceStableWithin20cm": false
+    },
+    {
+      "name": "north_floor_860_310",
+      "xy": [
+        15.142857142857139,
+        46.285714285714285
+      ],
+      "sourceZ": -1.7441864013671875,
+      "modelZ": -4.256538391113281,
+      "deltaZ": -2.5123519897460938,
+      "sourceLocalRange": 1.051239013671875,
+      "modelLocalRange": 0.06925201416015625,
+      "modelHitObjects": [
+        "R152_CLASS2_TERRAIN"
+      ],
+      "interpretation": "pointwise surface discrepancy only; not a surveyed structural dimension",
+      "sourceStableWithin20cm": false
+    }
+  ],
+  "independentLocations": 42,
+  "identicalAccepted": false,
+  "geometryModified": false,
+  "published": false,
+  "limitations": [
+    "First-hit vertical rays do not measure wall thickness, hidden foundations, soffits or concealed terrain.",
+    "Low spread alone does not establish semantic ground correspondence or absolute accuracy.",
+    "Source and model may hit different objects because plan outlines differ. Such values must not become automatic vertical offsets.",
+    "Local reference registration and scan accuracy are not independently certified.",
+    "North moat scan has irregular heights, so a single-plane replacement is not justified.",
+    "Green appearance does not prove terrain is too high: sampled model surfaces are often lower than scan.",
+    "site_moat.json and pavilion_moat.json explicitly retain candidate heights/thicknesses and map-registration uncertainty."
+  ],
+  "requiredCorrectionsOrValidation": [
+    "Source-trace north apron and moat limits, distinguish walls from adjacent ground.",
+    "Reconcile west moat wall and path outline, then determine consistent floor profile.",
+    "Measure east retaining wall top/base sections and terrace boundaries.",
+    "Reconstruct pavilion-side stepped walls and match southeast ruin outline.",
+    "Validate north ruin partition outlines and heights without tree contamination.",
+    "Validate full bridge deck slopes, abutments and undersides; three center samples alone are insufficient.",
+    "Validate fort rounded walls, inner/outer moats and ground contacts in oblique source views."
+  ]
+}

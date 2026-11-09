@@ -1,0 +1,15 @@
+{
+  "scene": "MUDAM_R169_YAN_SACAK_ADAY_v035.blend",
+  "accepted": false,
+  "published": false,
+  "source": "row_eave_normal_samples.json",
+  "moved_vertices": 119,
+  "max_drop_m": 0.3730274082535948,
+  "limits": [
+    "Interpolated source samples measured perpendicular to eave; source noise and manual trace uncertainty remain",
+    "Retained source fragments can overlap eave and need review",
+    "Raised details not flattened",
+    "Only edge1 t0.1-0.6 supported section; fade to zero outside. Source noisy end and raised area excluded. No whole-roof acceptance."
+  ],
+  "visual_result": "REJECTED: faceted correction band; side facade gap remains. Use v034 parent for coherent side-wall and eave reconstruction, not v035."
+}

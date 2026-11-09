@@ -1,0 +1,26 @@
+{
+  "sides": [
+    {
+      "side": 0,
+      "source_hits": 380,
+      "fallback_points": 1580
+    },
+    {
+      "side": 1,
+      "source_hits": 2428,
+      "fallback_points": 812
+    },
+    {
+      "side": 2,
+      "source_hits": 1316,
+      "fallback_points": 644
+    },
+    {
+      "side": 3,
+      "source_hits": 16,
+      "fallback_points": 3224
+    }
+  ],
+  "accepted": false,
+  "limits": "Ray surface resampling; source-hidden points retain vertical boundary. Facade detail not fully reconstructed."
+}

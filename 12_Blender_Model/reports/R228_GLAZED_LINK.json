@@ -1,0 +1,97 @@
+{
+  "accepted": false,
+  "published": false,
+  "measurement": {
+    "pixels": [
+      [
+        780,
+        645
+      ],
+      [
+        824,
+        618
+      ],
+      [
+        1008,
+        845
+      ],
+      [
+        963,
+        878
+      ]
+    ],
+    "start": [
+      132.6,
+      414.925
+    ],
+    "end": [
+      141.775,
+      403.425
+    ],
+    "axis": [
+      0.623658313749625,
+      -0.7816970690049786
+    ],
+    "trans": [
+      0.7816970690049786,
+      0.623658313749625
+    ],
+    "length": 14.71158132221007,
+    "width": 2.685671592744396,
+    "fit": [
+      10.109481278504827,
+      -0.020262595659784263,
+      -0.018260374454945882,
+      -0.32252867798340973
+    ],
+    "samples": 273,
+    "heldOutP90": 0.13394499933730142,
+    "support": 0.9705882352941176,
+    "limits": "Independent analytic barrel approximation from scalar source measurements; footprint visually traced, no mesh copied"
+  },
+  "base": 0.8738510131835937,
+  "terrainSamples": 155,
+  "reopen": [
+    {
+      "name": "R228_CURVED_GLAZED_ROOF",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R228_GLAZED_SIDE_0",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R228_GLAZED_SIDE_1",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R228_GLAZED_END_0",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R228_GLAZED_END_1",
+      "boundary": 0,
+      "zero": 0
+    }
+  ],
+  "limits": [
+    "Analytic curved envelope only; frames/doors/interior floor not complete",
+    "Side and end enclosure base follows modeled terrain; source level relationship needs further review",
+    "Glass material and .05/.06 thickness provisional",
+    "Whole complex and junctions not accepted"
+  ],
+  "visualReview": {
+    "source": "R221_erasmus_front_source.png; R214_erasmus_module_reference.png",
+    "candidate": "R228_erasmus_front_authored.png",
+    "accepted": false,
+    "findings": [
+      "Missing central curved glazed envelope now occupies source-traced corridor.",
+      "Flat end panel differs from source rounded termination; doors, observed glazing ribs and adjoining courtyard connection remain.",
+      "Whole complex still incomplete; no architectural acceptance."
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "updatedUTC": "2026-10-27T13:17:05.861038+00:00",
+  "selectedMaster": "scenes/MUDAM_R464_AVLU_CAMI_ZEMIN_KESISI_ADAY_v001.blend",
+  "latestCandidate": "scenes/MUDAM_R484_KUZEYBATI_ISTINAT_DUVARI_ADAY_v002.blend",
+  "accepted": false,
+  "published": false,
+  "work": [
+    "Source-traced west path rebuilt from classified ground:63 withheld controls RMS.01689m/max.03709m.",
+    "Full lawn, west path and north court connector closed meshes, reopened with zero nonmanifold/zeroarea on added meshes.",
+    "Inherited R457 court slab Boolean cut from source lawn domain.",
+    "Missing diagonal historic wall rebuilt as independent closed piecewise-planar body across y16.5..43.5; source crest diagnostic RMS.04737m/max.08344m."
+  ],
+  "remaining": [
+    "White lines in R484 oblique are actual no-hit boundary gaps: diagnostic rays R484_WHITE_EDGE_RAYS.json. Do not call fixed.",
+    "Lawn southeast footprint originally traced along shade/vegetation, not fully verified wall foot. Needs full foot-domain connection, not small arbitrary blend.",
+    "Wall axis/width/foot profile and end connections remain visual candidates; source scan rounds steep faces. Need photograph reconciliation.",
+    "Adjacent dark strip identity still unverified.",
+    "Full museum-ring acceptance, material/light bake and interiors unfinished."
+  ],
+  "budgetFile": ".local_source_cache/2026-10-27_work_budget.json",
+  "powerRestore": ".local_source_cache/power_restore_status.json"
+}

@@ -1,0 +1,22 @@
+{
+  "scene": "MUDAM_R169_YAN_DUVAR_ADAY_v037.blend",
+  "accepted": false,
+  "published": false,
+  "source_plane_offset": 0.19120619678869843,
+  "plane_coefficients": [
+    0.02802436964752799,
+    -0.04137257540908947,
+    0.19026570033927728
+  ],
+  "plane_sample_rmse_m": 0.022349966967333032,
+  "aligned_roof_boundary_vertices": 0,
+  "removed_wall_faces": 85,
+  "source_fields": [],
+  "limits": [
+    "Partial side-wall top band only, u=-2..4.5m; remaining facade and ends incomplete",
+    "12 rays limited to facade +/-2m to exclude foreground vegetation; plane RMSE0.02235m is fitting residual only",
+    "Original roof overhang retained; soffit connects measured wall plane to existing roof edge",
+    "No source openings in this narrow band; no windows added",
+    "Not visually accepted: terminal joins, inherited fragments and material transitions remain"
+  ]
+}

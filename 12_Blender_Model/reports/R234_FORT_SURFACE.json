@@ -1,0 +1,158 @@
+{
+  "accepted": false,
+  "published": false,
+  "geometryChanged": false,
+  "changes": [
+    {
+      "name": "R187_OUTER_BASTIONS",
+      "old": [
+        "R157_CONTINUOUS_LANDCOVER"
+      ],
+      "area": 225.37728881835938
+    },
+    {
+      "name": "R187_OUTER_BASTIONS.001",
+      "old": [
+        "R157_CONTINUOUS_LANDCOVER"
+      ],
+      "area": 480.77850341796875
+    },
+    {
+      "name": "R187_OUTER_BASTIONS.002",
+      "old": [
+        "R157_CONTINUOUS_LANDCOVER"
+      ],
+      "area": 124.37348937988281
+    },
+    {
+      "name": "R187_OUTER_BASTIONS.003",
+      "old": [
+        "R157_CONTINUOUS_LANDCOVER"
+      ],
+      "area": 55.268226623535156
+    },
+    {
+      "name": "R187_OUTER_BASTIONS.004",
+      "old": [
+        "R157_CONTINUOUS_LANDCOVER"
+      ],
+      "area": 288.3560791015625
+    },
+    {
+      "name": "R187_OUTER_BASTIONS.005",
+      "old": [
+        "R157_CONTINUOUS_LANDCOVER"
+      ],
+      "area": 499.9230651855469
+    },
+    {
+      "name": "R187_OUTER_BASTIONS.006",
+      "old": [
+        "R157_CONTINUOUS_LANDCOVER"
+      ],
+      "area": 240.79847717285156
+    },
+    {
+      "name": "R187_OUTER_BASTIONS.007",
+      "old": [
+        "R157_CONTINUOUS_LANDCOVER"
+      ],
+      "area": 213.17758178710938
+    },
+    {
+      "name": "R187_OUTER_BASTIONS.008",
+      "old": [
+        "R157_CONTINUOUS_LANDCOVER"
+      ],
+      "area": 519.6358032226562
+    },
+    {
+      "name": "R187_OUTER_BASTIONS.009",
+      "old": [
+        "R157_CONTINUOUS_LANDCOVER"
+      ],
+      "area": 392.5290222167969
+    },
+    {
+      "name": "R187_OUTER_BASTIONS.010",
+      "old": [
+        "R157_CONTINUOUS_LANDCOVER"
+      ],
+      "area": 718.8310546875
+    },
+    {
+      "name": "R187_OUTER_BASTIONS.011",
+      "old": [
+        "R157_CONTINUOUS_LANDCOVER"
+      ],
+      "area": 513.931884765625
+    }
+  ],
+  "reopen": [
+    {
+      "name": "R187_OUTER_BASTIONS",
+      "zero": 0
+    },
+    {
+      "name": "R187_OUTER_BASTIONS.001",
+      "zero": 0
+    },
+    {
+      "name": "R187_OUTER_BASTIONS.002",
+      "zero": 0
+    },
+    {
+      "name": "R187_OUTER_BASTIONS.003",
+      "zero": 0
+    },
+    {
+      "name": "R187_OUTER_BASTIONS.004",
+      "zero": 0
+    },
+    {
+      "name": "R187_OUTER_BASTIONS.005",
+      "zero": 0
+    },
+    {
+      "name": "R187_OUTER_BASTIONS.006",
+      "zero": 0
+    },
+    {
+      "name": "R187_OUTER_BASTIONS.007",
+      "zero": 0
+    },
+    {
+      "name": "R187_OUTER_BASTIONS.008",
+      "zero": 0
+    },
+    {
+      "name": "R187_OUTER_BASTIONS.009",
+      "zero": 0
+    },
+    {
+      "name": "R187_OUTER_BASTIONS.010",
+      "zero": 0
+    },
+    {
+      "name": "R187_OUTER_BASTIONS.011",
+      "zero": 0
+    }
+  ],
+  "scope": "Outer fort earth surfaces only; green moat vegetation retained",
+  "limits": [
+    "Material correction only; geometry and11region acceptance unchanged",
+    "Dry earth colour approximate from source appearance; no scan image copied",
+    "Stone weathering/earth texture, vegetation and boundary geometry remain incomplete"
+  ],
+  "visualReview": {
+    "source": "R234_fort_source.png",
+    "before": "R234_fort_authored.png",
+    "after": "R234_fort_material_candidate.png",
+    "accepted": false,
+    "findings": [
+      "Outer bastion tops no longer use grass landcover, matching dry source appearance at broad material-class level.",
+      "Plain material still lacks source ground variation.",
+      "Southwest court remains green, source berms/slopes and wall-ground continuity unresolved; this is not completion of region1 or11."
+    ]
+  }
+}

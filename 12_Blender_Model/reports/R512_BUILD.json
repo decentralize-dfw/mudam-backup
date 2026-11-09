@@ -1,0 +1,60 @@
+{
+  "records": [
+    {
+      "tower": "WEST",
+      "object": "R417_FORT_OPEN_END_EARTH_COVER",
+      "beforeFaces": 17652,
+      "afterFaces": 17182
+    },
+    {
+      "tower": "WEST",
+      "object": "R420_SOUTH_LOW_COURT_CONTACT",
+      "beforeFaces": 768,
+      "afterFaces": 768
+    },
+    {
+      "tower": "WEST",
+      "object": "R508_WEST_COURT_CONTACT_0",
+      "beforeFaces": 767,
+      "afterFaces": 786
+    },
+    {
+      "tower": "SOUTH",
+      "object": "R417_FORT_OPEN_END_EARTH_COVER",
+      "beforeFaces": 17182,
+      "afterFaces": 16563
+    },
+    {
+      "tower": "SOUTH",
+      "object": "R420_SOUTH_LOW_COURT_CONTACT",
+      "beforeFaces": 768,
+      "afterFaces": 801
+    },
+    {
+      "tower": "SOUTH",
+      "object": "R508_WEST_COURT_CONTACT_0",
+      "beforeFaces": 786,
+      "afterFaces": 786
+    }
+  ],
+  "checks": [
+    {
+      "name": "R417_FORT_OPEN_END_EARTH_COVER",
+      "nonManifold": 0,
+      "zeroArea": 0
+    },
+    {
+      "name": "R420_SOUTH_LOW_COURT_CONTACT",
+      "nonManifold": 0,
+      "zeroArea": 0
+    },
+    {
+      "name": "R508_WEST_COURT_CONTACT_0",
+      "nonManifold": 0,
+      "zeroArea": 0
+    }
+  ],
+  "reopened": true,
+  "accepted": false,
+  "published": false
+}

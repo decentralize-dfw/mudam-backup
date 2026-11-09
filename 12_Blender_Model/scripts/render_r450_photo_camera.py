@@ -1,0 +1,4 @@
+import bpy,json
+from pathlib import Path
+from mathutils import Vector,Matrix
+R=Path(__file__).resolve().parents[1];bpy.ops.wm.open_mainfile(filepath=str(R/'scenes/MUDAM_R448_KALE_FOTOGRAF_MAZGAL_ACIKLIKLARI_ADAY_v001.blend'));d=json.loads((R/'reports/R440_FRONT_PHOTO_CAMERA.json').read_text());right,up,forward=map(Vector,d['basis']);s=bpy.context.scene;bpy.ops.object.camera_add(location=d['cameraParameters'][:3]);s.camera=bpy.context.object;s.camera.rotation_euler=Matrix((right,up,-forward)).transposed().to_euler();s.camera.data.lens=d['focalPixels']/1280*36;s.camera.data.sensor_width=36;s.render.engine='CYCLES';s.cycles.samples=8;s.cycles.use_denoising=True;s.render.resolution_x=1280;s.render.resolution_y=840;s.render.resolution_percentage=100;s.render.filepath=str(R/'renders/qa/R450_front_photo_registered.png');bpy.ops.render.render(write_still=True)

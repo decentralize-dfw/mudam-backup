@@ -1,0 +1,37 @@
+{
+  "source": "MUDAM_R169_YAN_DUVAR_ADAY_v036.blend",
+  "export": "r169_geometry_review_v036.glb",
+  "bytes": 15858748,
+  "before": {
+    "triangles": 31920,
+    "degenerate": 0,
+    "min": [
+      -97.2891616821289,
+      -309.3947448730469,
+      -74.75978088378906
+    ],
+    "max": [
+      49.891292572021484,
+      -230.276123046875,
+      -59.24541091918945
+    ]
+  },
+  "after": {
+    "triangles": 31920,
+    "degenerate": 0,
+    "min": [
+      -97.2891616821289,
+      -309.3947448730469,
+      -74.75978088378906
+    ],
+    "max": [
+      49.891292572021484,
+      -230.276123046875,
+      -59.24541091918945
+    ]
+  },
+  "max_bounds_drift_m": 0.0,
+  "accepted": false,
+  "published": false,
+  "validation_scope": "GLB technical round trip only; visual reconstruction incomplete"
+}

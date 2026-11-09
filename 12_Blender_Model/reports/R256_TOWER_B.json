@@ -1,0 +1,810 @@
+{
+  "accepted": false,
+  "published": false,
+  "levels": [
+    15.448138352357097,
+    18.900369870267866,
+    22.534297783858147,
+    26.168225697448428,
+    29.80215361103871,
+    33.43608152462899,
+    37.07000943821927,
+    40.70393735180956,
+    44.337865265399834,
+    47.97179317899012,
+    51.6057210925804,
+    55.23964900617069,
+    58.873576919760964,
+    62.50750483335125,
+    66.14143274694153,
+    69.77536066053182,
+    73.40928857412209,
+    77.04321648771237,
+    80.67714440130266,
+    84.31107231489294,
+    87.94500022848322
+  ],
+  "checks": [
+    {
+      "name": "R256_B_BASE",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R256_B_FLOOR_BANDS",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R256_B_RECESSED_GLAZING",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R256_B_MULLIONS",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R256_B_COPING",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R256_B_ROOF_DECK",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R256_B_FLOOR",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R256_B_SLOPED_GLASS_0",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R256_B_ROOF_UPSTAND_0_0",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R256_B_ROOF_UPSTAND_0_1",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R256_B_ROOF_UPSTAND_0_2",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R256_B_ROOF_UPSTAND_0_3",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R256_B_ROOF_BAR_0_True_0",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R256_B_ROOF_BAR_0_True_1",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R256_B_ROOF_BAR_0_True_2",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R256_B_ROOF_BAR_0_True_3",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R256_B_ROOF_BAR_0_True_4",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R256_B_ROOF_BAR_0_True_5",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R256_B_ROOF_BAR_0_True_6",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R256_B_ROOF_BAR_0_True_7",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R256_B_ROOF_BAR_0_True_8",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R256_B_ROOF_BAR_0_True_9",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R256_B_ROOF_BAR_0_True_10",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R256_B_ROOF_BAR_0_True_11",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R256_B_ROOF_BAR_0_True_12",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R256_B_ROOF_BAR_0_True_13",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R256_B_ROOF_BAR_0_True_14",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R256_B_ROOF_BAR_0_True_15",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R256_B_ROOF_BAR_0_True_16",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R256_B_ROOF_BAR_0_True_17",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R256_B_ROOF_BAR_0_True_18",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R256_B_ROOF_BAR_0_False_0",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R256_B_ROOF_BAR_0_False_1",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R256_B_ROOF_BAR_0_False_2",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R256_B_ROOF_BAR_0_False_3",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R256_B_ROOF_BAR_0_False_4",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R256_B_ROOF_BAR_0_False_5",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R256_B_ROOF_BAR_0_False_6",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R256_B_ROOF_BAR_0_False_7",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R256_B_ROOF_BAR_0_False_8",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R256_B_ROOF_BAR_0_False_9",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R256_B_ROOF_BAR_0_False_10",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R256_B_ROOF_BAR_0_False_11",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R256_B_ROOF_BAR_0_False_12",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R256_B_SLOPED_GLASS_1",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R256_B_ROOF_UPSTAND_1_0",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R256_B_ROOF_UPSTAND_1_1",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R256_B_ROOF_UPSTAND_1_2",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R256_B_ROOF_UPSTAND_1_3",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R256_B_ROOF_BAR_1_True_0",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R256_B_ROOF_BAR_1_True_1",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R256_B_ROOF_BAR_1_True_2",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R256_B_ROOF_BAR_1_True_3",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R256_B_ROOF_BAR_1_True_4",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R256_B_ROOF_BAR_1_True_5",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R256_B_ROOF_BAR_1_True_6",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R256_B_ROOF_BAR_1_True_7",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R256_B_ROOF_BAR_1_True_8",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R256_B_ROOF_BAR_1_True_9",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R256_B_ROOF_BAR_1_True_10",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R256_B_ROOF_BAR_1_True_11",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R256_B_ROOF_BAR_1_True_12",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R256_B_ROOF_BAR_1_True_13",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R256_B_ROOF_BAR_1_True_14",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R256_B_ROOF_BAR_1_True_15",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R256_B_ROOF_BAR_1_True_16",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R256_B_ROOF_BAR_1_True_17",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R256_B_ROOF_BAR_1_True_18",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R256_B_ROOF_BAR_1_False_0",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R256_B_ROOF_BAR_1_False_1",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R256_B_ROOF_BAR_1_False_2",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R256_B_ROOF_BAR_1_False_3",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R256_B_ROOF_BAR_1_False_4",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R256_B_ROOF_BAR_1_False_5",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R256_B_ROOF_BAR_1_False_6",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R256_B_ROOF_BAR_1_False_7",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R256_B_ROOF_BAR_1_False_8",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R256_B_ROOF_BAR_1_False_9",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R256_B_ROOF_BAR_1_False_10",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R256_B_ROOF_BAR_1_False_11",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R256_B_ROOF_BAR_1_False_12",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R256_B_SLOPED_GLASS_2",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R256_B_ROOF_UPSTAND_2_0",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R256_B_ROOF_UPSTAND_2_1",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R256_B_ROOF_UPSTAND_2_2",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R256_B_ROOF_UPSTAND_2_3",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R256_B_ROOF_BAR_2_True_0",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R256_B_ROOF_BAR_2_True_1",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R256_B_ROOF_BAR_2_True_2",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R256_B_ROOF_BAR_2_True_3",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R256_B_ROOF_BAR_2_True_4",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R256_B_ROOF_BAR_2_True_5",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R256_B_ROOF_BAR_2_True_6",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R256_B_ROOF_BAR_2_True_7",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R256_B_ROOF_BAR_2_True_8",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R256_B_ROOF_BAR_2_True_9",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R256_B_ROOF_BAR_2_True_10",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R256_B_ROOF_BAR_2_True_11",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R256_B_ROOF_BAR_2_True_12",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R256_B_ROOF_BAR_2_True_13",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R256_B_ROOF_BAR_2_True_14",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R256_B_ROOF_BAR_2_True_15",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R256_B_ROOF_BAR_2_True_16",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R256_B_ROOF_BAR_2_True_17",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R256_B_ROOF_BAR_2_True_18",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R256_B_ROOF_BAR_2_False_0",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R256_B_ROOF_BAR_2_False_1",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R256_B_ROOF_BAR_2_False_2",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R256_B_ROOF_BAR_2_False_3",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R256_B_ROOF_BAR_2_False_4",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R256_B_ROOF_BAR_2_False_5",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R256_B_ROOF_BAR_2_False_6",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R256_B_ROOF_BAR_2_False_7",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R256_B_ROOF_BAR_2_False_8",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R256_B_ROOF_BAR_2_False_9",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R256_B_ROOF_BAR_2_False_10",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R256_B_ROOF_BAR_2_False_11",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R256_B_ROOF_BAR_2_False_12",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R256_B_SLOPED_GLASS_3",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R256_B_ROOF_UPSTAND_3_0",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R256_B_ROOF_UPSTAND_3_1",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R256_B_ROOF_UPSTAND_3_2",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R256_B_ROOF_UPSTAND_3_3",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R256_B_ROOF_BAR_3_True_0",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R256_B_ROOF_BAR_3_True_1",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R256_B_ROOF_BAR_3_True_2",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R256_B_ROOF_BAR_3_True_3",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R256_B_ROOF_BAR_3_True_4",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R256_B_ROOF_BAR_3_True_5",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R256_B_ROOF_BAR_3_True_6",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R256_B_ROOF_BAR_3_True_7",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R256_B_ROOF_BAR_3_True_8",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R256_B_ROOF_BAR_3_True_9",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R256_B_ROOF_BAR_3_True_10",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R256_B_ROOF_BAR_3_True_11",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R256_B_ROOF_BAR_3_True_12",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R256_B_ROOF_BAR_3_True_13",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R256_B_ROOF_BAR_3_True_14",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R256_B_ROOF_BAR_3_True_15",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R256_B_ROOF_BAR_3_True_16",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R256_B_ROOF_BAR_3_True_17",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R256_B_ROOF_BAR_3_True_18",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R256_B_ROOF_BAR_3_False_0",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R256_B_ROOF_BAR_3_False_1",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R256_B_ROOF_BAR_3_False_2",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R256_B_ROOF_BAR_3_False_3",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R256_B_ROOF_BAR_3_False_4",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R256_B_ROOF_BAR_3_False_5",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R256_B_ROOF_BAR_3_False_6",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R256_B_ROOF_BAR_3_False_7",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R256_B_ROOF_BAR_3_False_8",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R256_B_ROOF_BAR_3_False_9",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R256_B_ROOF_BAR_3_False_10",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R256_B_ROOF_BAR_3_False_11",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R256_B_ROOF_BAR_3_False_12",
+      "boundary": 0,
+      "zero": 0
+    }
+  ],
+  "limits": [
+    "Four measured planar roof plates; service gap detail unresolved",
+    "Rear facade divisions provisional",
+    "Main footprint simplification and base contacts require verification",
+    "Not a completed region6"
+  ]
+}

@@ -1,0 +1,178 @@
+{
+  "accepted": false,
+  "published": false,
+  "geometryChanged": false,
+  "currentMaster": "MUDAM_R229_ERASMUS_AVLU_CEPHE_ADAY_v001.blend",
+  "outer": {
+    "parts": [
+      {
+        "id": 0,
+        "polygon": [
+          [
+            101.4,
+            406.5
+          ],
+          [
+            109.8,
+            412.6
+          ],
+          [
+            112.2,
+            409.6
+          ],
+          [
+            103.95,
+            403.15
+          ]
+        ],
+        "origin": [
+          106.83749999999999,
+          407.9625
+        ],
+        "plane": [
+          -0.035638183491043696,
+          -0.15203713615605752,
+          5.24060298870595
+        ],
+        "cornerRoofs": [
+          5.656739923066731,
+          4.42995265119001,
+          4.800532419279676,
+          6.075186961287365
+        ],
+        "samples": 151,
+        "heldOutP90": 1.5477243718781166,
+        "heldOutSupport": 0.6266666666666667,
+        "supported": false
+      },
+      {
+        "id": 1,
+        "polygon": [
+          [
+            119.2,
+            421.9
+          ],
+          [
+            127.1,
+            428.4
+          ],
+          [
+            129.55,
+            425.75
+          ],
+          [
+            121.9,
+            419.4
+          ]
+        ],
+        "origin": [
+          124.4375,
+          423.86249999999995
+        ],
+        "plane": [
+          0.16329843459716892,
+          -0.10482787770588141,
+          5.752126119367072
+        ],
+        "cornerRoofs": [
+          5.10257527816219,
+          5.711251706391594,
+          6.389126747075244,
+          5.80555074583925
+        ],
+        "samples": 174,
+        "heldOutP90": 1.5198669257810389,
+        "heldOutSupport": 0.8620689655172413,
+        "supported": false
+      }
+    ],
+    "method": "Independent single roof plane fitted to alternating source samples; held-out samples reported"
+  },
+  "inner": {
+    "parts": [
+      {
+        "id": 0,
+        "polygon": [
+          [
+            101.4,
+            406.5
+          ],
+          [
+            109.8,
+            412.6
+          ],
+          [
+            112.2,
+            409.6
+          ],
+          [
+            103.95,
+            403.15
+          ]
+        ],
+        "origin": [
+          106.83749999999999,
+          407.9625
+        ],
+        "plane": [
+          -0.17938182125259328,
+          -0.3219622767602708,
+          5.520880771493507
+        ],
+        "cornerRoofs": [
+          6.967139254316369,
+          3.4963620675569285,
+          4.031732526831515,
+          7.588289237269171
+        ],
+        "samples": 107,
+        "heldOutP90": 0.7518640289366144,
+        "heldOutSupport": 0.7169811320754716,
+        "supported": false
+      },
+      {
+        "id": 1,
+        "polygon": [
+          [
+            119.2,
+            421.9
+          ],
+          [
+            127.1,
+            428.4
+          ],
+          [
+            129.55,
+            425.75
+          ],
+          [
+            121.9,
+            419.4
+          ]
+        ],
+        "origin": [
+          124.4375,
+          423.86249999999995
+        ],
+        "plane": [
+          0.14690523102569397,
+          -0.1071079031479249,
+          5.754516913231185
+        ],
+        "cornerRoofs": [
+          5.195300025661913,
+          5.659649980303382,
+          6.303403739658334,
+          5.859713907301099
+        ],
+        "samples": 203,
+        "heldOutP90": 0.04112990769485858,
+        "heldOutSupport": 1.0,
+        "supported": true
+      }
+    ],
+    "method": "Independent single roof plane fitted to alternating source samples; held-out samples reported"
+  },
+  "decision": "Do not build either full traced lower roof from these fits. Region0 remains nonplanar/mixed even in interior; region1 interior fits but full footprint fails, so footprint/edge registration must be resolved before extrapolation.",
+  "next": "Use source side/section views of lower courtyard blocks to distinguish roof edges from visible wall/occluded surfaces. Preserve successful region1 interior plane as evidence, not accepted whole roof."
+}

@@ -1,0 +1,52 @@
+{
+  "accepted": false,
+  "terrain": [
+    {
+      "name": "R182_EXTENSION_GROUND",
+      "vertices_before": 185653,
+      "vertices_after": 37417
+    },
+    {
+      "name": "R182_EXTENSION_ROADS",
+      "vertices_before": 45429,
+      "vertices_after": 13058
+    },
+    {
+      "name": "R192_GRADE_MAMA_FORECOURT",
+      "vertices_before": 2223,
+      "vertices_after": 568
+    },
+    {
+      "name": "R192_GRADE_NOVOTEL_WEST_COURT",
+      "vertices_before": 2088,
+      "vertices_after": 519
+    },
+    {
+      "name": "R154_FAR_GROUND",
+      "vertices_before": 342258,
+      "vertices_after": 68403
+    },
+    {
+      "name": "R154_FAR_ROADS",
+      "vertices_before": 122961,
+      "vertices_after": 31455
+    },
+    {
+      "name": "R161_ROAD_CONNECTIONS",
+      "vertices_before": 7488,
+      "vertices_after": 2613
+    }
+  ],
+  "banks": [
+    {
+      "name": "R204_RIVER_BANK_00",
+      "triangles": 5630,
+      "max_join_height": 4.311619881744775
+    }
+  ],
+  "method": "Merge coincident authored terrain vertices after clipping, preserving UV loops; restore smooth shared normals. Join mapped river banks to measured original DEM.",
+  "limits": [
+    "River stone material approximate; source-only partial water-plane fit remains",
+    "Unrelated full11-region source fidelity not accepted"
+  ]
+}

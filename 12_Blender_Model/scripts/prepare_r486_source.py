@@ -1,0 +1,2 @@
+from pathlib import Path
+R=Path('12_Blender_Model');s=(R/'scripts/render_r461_northwest_source.py').read_text().replace('(-48,37,90)','(-40,30,90)').replace('(-48,37,0)','(-40,30,0)').replace('ortho_scale=35','ortho_scale=60').replace('resolution_x=1000','resolution_x=800').replace('resolution_y=1000','resolution_y=800').replace('R461_northwest_grade_source.png','R486_full_court_source.png');(R/'scripts/render_r486_source.py').write_text(s)

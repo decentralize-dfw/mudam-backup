@@ -1,0 +1,26 @@
+{
+  "accepted": false,
+  "method": "Independent planar floor; 2D terrain clipping, UV interpolation, no open-surface boolean",
+  "changes": [
+    {
+      "object": "R154_FAR_GROUND",
+      "intersected_triangles": 34,
+      "faces": 107585
+    },
+    {
+      "object": "R154_FAR_ROADS",
+      "intersected_triangles": 16,
+      "faces": 41121
+    },
+    {
+      "object": "R161_ROAD_CONNECTIONS",
+      "intersected_triangles": 36,
+      "faces": 2784
+    }
+  ],
+  "pending": [
+    "Retaining junctions",
+    "Other moat and terrace regions",
+    "Source visual acceptance"
+  ]
+}

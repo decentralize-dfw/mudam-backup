@@ -1,0 +1,3 @@
+from pathlib import Path
+R=Path('12_Blender_Model');s=(R/'scripts/export_r464_review.py').read_text().replace('MUDAM_R464_AVLU_CAMI_ZEMIN_KESISI_ADAY_v001.blend','MUDAM_R492_SUR_CEVRE_UV_DUZELTME_ADAY_v001.blend').replace('<=464','<=492').replace('r464_','r492_').replace('R464_','R492_');(R/'scripts/export_r492_review.py').write_text(s)
+p=Path('web/scripts/prepare-r464-review.mjs');s=p.read_text().replace('MUDAM_R464_AVLU_CAMI_ZEMIN_KESISI_ADAY_v001.blend','MUDAM_R492_SUR_CEVRE_UV_DUZELTME_ADAY_v001.blend').replace('r464_','r492_').replace('R464_','R492_');Path('web/scripts/prepare-r492-review.mjs').write_text(s)

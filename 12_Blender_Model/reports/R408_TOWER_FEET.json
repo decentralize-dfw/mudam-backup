@@ -1,0 +1,24 @@
+{
+  "scene": "MUDAM_R408_KALE_UC_KULE_ZEMIN_BAGLANTISI_ADAY_v001.blend",
+  "accepted": false,
+  "published": false,
+  "checks": [
+    {
+      "name": "R408_WEST_TOWER_COURT_FOOT",
+      "nonManifold": 0,
+      "zeroArea": 0,
+      "bottom": 1.428959818080782,
+      "top": 2.75
+    },
+    {
+      "name": "R408_SOUTH_TOWER_COURT_FOOT",
+      "nonManifold": 0,
+      "zeroArea": 0,
+      "bottom": 1.426475187816761,
+      "top": 2.75
+    }
+  ],
+  "limits": [
+    "Closes inherited unsupported tower bases exposed by corrected courtyard. Whole fort and museum ring still require source acceptance."
+  ]
+}

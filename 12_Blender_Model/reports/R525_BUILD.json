@@ -1,0 +1,23 @@
+{
+  "check": {
+    "nonManifold": 0,
+    "zeroArea": 0
+  },
+  "reopened": true,
+  "probes": [
+    {
+      "x": -22.375,
+      "y": 1.5,
+      "object": "R525_WEST_TERRACE_EXISTING_SLOPING_EDGES",
+      "error": -0.022018454589844083
+    },
+    {
+      "x": -14.25,
+      "y": 0.0375,
+      "object": "R525_WEST_TERRACE_EXISTING_SLOPING_EDGES",
+      "error": 0.0156596552734376
+    }
+  ],
+  "accepted": false,
+  "published": false
+}

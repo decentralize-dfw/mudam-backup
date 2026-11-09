@@ -1,0 +1,30 @@
+{
+  "reviewOnly": true,
+  "fullScopeAccepted": false,
+  "sourceScene": "MUDAM_R525_BATI_TERAS_EGIMLI_KENAR_ADAY_v001.blend",
+  "files": {
+    "near": {
+      "file": "12_Blender_Model/exports/r152_clean/r525_near_draco_webp_REVIEW.glb",
+      "bytes": 11348852,
+      "sha256": "1164a6d9cf93563ff56c75f1398de643937346e8d4aed449238046b3e297c075",
+      "triangles": 397705,
+      "zero": 0,
+      "removedDegenerates": 245,
+      "preservedRowNodes": 0,
+      "bounds": {
+        "min": [
+          -500,
+          -78.04438781738281,
+          -650
+        ],
+        "max": [
+          650.000244140625,
+          16.323524475097656,
+          450.000244140625
+        ]
+      },
+      "decoded": true,
+      "textures": 18
+    }
+  }
+}

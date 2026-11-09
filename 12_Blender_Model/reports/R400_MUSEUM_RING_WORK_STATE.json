@@ -1,0 +1,72 @@
+{
+  "scene": "scenes/MUDAM_R400_KALE_CAM_BANT_AHSAP_TERAS_ADAY_v001.blend",
+  "accepted": false,
+  "published": false,
+  "publicRevision": "R314 unchanged",
+  "museumGeometryPreserved": true,
+  "changes": [
+    "Corrected Fort metal-roof outline using R336 visual boundary and classified transverse sections R385/R386; independently authored two metal planes, ledge, inner parapet and coping.",
+    "Independent four-zone analytic earth cover replaces inherited sampled surface above x+y=-100; 225 held-out classified controls, RMS 0.055868m, max 0.226968m. Regular architectural tessellation, no scan vertices/faces/photo texture transferred.",
+    "29 inherited fort exterior masonry eave vertices joined to the new analytic roof profile.",
+    "38 closed contact wedges join the previously cut pavilion terrain boundary to R363 floor. All five former gap rays now hit geometry; surrounding terrain and measured floors remain unchanged.",
+    "118 independent standing-seam strips on metal roof. Spacing 0.55m is visual estimate, not surveyed.",
+    "R398 metal-deck/stone-parapet assumption is wrong. Zinneke rooftop view 2 directly shows timber boards, horizontal perimeter louvers and sloping metal fascia. INPA independently states vertical perimeter glazing. R400 hides the wrong parapet, coping and metal seams; rebuilds glazing, frames, seven horizontal louver rows, sloped fascia and timber joints. Lower/upper measured planes retained; old METAL object names only retained for traceability."
+  ],
+  "verification": {
+    "inheritance": "reports/R400_INHERITANCE.json",
+    "unchangedInheritedMeshes": 18104,
+    "unexpectedChanges": [],
+    "meshAndGLB": "reports/R400_FORT_ROOF.json",
+    "newClosedMeshObjects": 8,
+    "glbErrors": [],
+    "gapRays": "reports/R397_GRADE_CONTACT.json"
+  },
+  "rejected": [
+    "R388 whole-earth cubic field failed; not applied.",
+    "R394 whole tower-end shoulder failed; not applied.",
+    "R396 all-edge terrain blend worsened independent grade RMS .268 to .363m; not inherited by R397/R398.",
+    "R398 raised standing metal seams and R389 stone inner parapet are hidden and superseded by R400 photo-supported architectural elements."
+  ],
+  "remaining": [
+    "Use R400, not R398: its photo-supported timber/glazing/louver correction is mandatory. Roof access feature near the end is a stair/railing feature visible in rooftop view 2; do not invent a skylight. Forecourt/shoulder interface still incomplete.",
+    "Tower-end earth cover below x+y=-100 is still inherited. R399 shows a separate approximately 1.5m forecourt plane (28 held-out controls RMS .0191m/max .0376m); its exact outline and transition to the raised shoulders must be traced before replacement. Do not fit the whole end as one continuous shoulder: distinct levels exist.",
+    "Historic fort side-wall round/arched openings and coping forms visible in photo086 remain missing or simplified. Independent architectural reconstruction still required.",
+    "Pavilion inner retaining continuation, west terrace grade contact, museum base interfaces, northern/eastern ruin coping and all marked perimeter not yet source-accepted.",
+    "R397 closes artificial terrain-cut gaps only; it is not proof that all adjacent terrain elevations are correct.",
+    "Material fidelity, end junction, source views and whole-ring visual acceptance remain incomplete. No full/birebir/100% claim."
+  ],
+  "sourceViews": [
+    "renders/qa/R336_fort_roof_source.png",
+    "renders/qa/R368_pavilion_oblique_source.png"
+  ],
+  "candidateViews": [
+    "renders/qa/R400_fort_roof_candidate.png",
+    "renders/qa/R400_rooftop_eye_candidate.png"
+  ],
+  "photo": "05_Dis_Mekan/Tarihi_Duvarlarla_Iliski/086_Muze_ve_tarihi_sur_duvarlari_ArchEyes.jpg",
+  "localGLB": "exports/r152_clean/r400_fort_pavilion_REVIEW.glb",
+  "correction": "R398 metal-deck/stone-parapet assumption is wrong. Zinneke rooftop view 2 directly shows timber boards, horizontal perimeter louvers and sloping metal fascia. INPA independently states vertical perimeter glazing. R400 hides the wrong parapet, coping and metal seams; rebuilds glazing, frames, seven horizontal louver rows, sloped fascia and timber joints. Lower/upper measured planes retained; old METAL object names only retained for traceability.",
+  "sources": [
+    {
+      "file": "references/fort_inpa/rooftop_view_1_Zinneke_CC_BY_SA_3.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Fort_Thüngen_-_Musée_Dräi_Eechelen_Luxembourg_rooftop_view_1.JPG",
+      "author": "Zinneke",
+      "license": "CC BY-SA 3.0",
+      "use": "Visual reference only; not mapped or baked into model",
+      "sha256": "6cb81bc6331c39cf1c5b1001276bc48b61f6918bfa818d600c01bd47f1910b86"
+    },
+    {
+      "file": "references/fort_inpa/rooftop_view_2_Zinneke_CC_BY_SA_3.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Fort_Thüngen_-_Musée_Dräi_Eechelen_Luxembourg_rooftop_view_2.JPG",
+      "author": "Zinneke",
+      "license": "CC BY-SA 3.0",
+      "metadata": "references/fort_inpa/rooftop_view_2_metadata.json",
+      "use": "Visual reference only; independently modeled features",
+      "sha256": "2d1c816e4fdfa91329fdd1fe2ae95f03eb1cd6e4f912ca1a138374291869ecca"
+    },
+    {
+      "url": "https://inpa.public.lu/fr/patrimoine/feodal_fortifie/forteresse_luxembourg/musee_forteresse/partie_authentique_reconstruite.html",
+      "use": "Official construction description: high vegetated perimeter shell linked to central slab by vertical window band."
+    }
+  ]
+}

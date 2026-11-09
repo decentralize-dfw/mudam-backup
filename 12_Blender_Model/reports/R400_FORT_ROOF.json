@@ -1,0 +1,40 @@
+{
+  "scene": "MUDAM_R400_KALE_CAM_BANT_AHSAP_TERAS_ADAY_v001.blend",
+  "accepted": false,
+  "published": false,
+  "meshChecks": [
+    {
+      "name": "R400_TIMBER_DECK_JOINTS",
+      "nonManifold": 0,
+      "zeroArea": 0
+    },
+    {
+      "name": "R400_SLOPED_PERIMETER_FASCIA",
+      "nonManifold": 0,
+      "zeroArea": 0
+    },
+    {
+      "name": "R400_PERIMETER_CLERESTORY_GLASS",
+      "nonManifold": 0,
+      "zeroArea": 0
+    },
+    {
+      "name": "R400_PERIMETER_WINDOW_FRAMES",
+      "nonManifold": 0,
+      "zeroArea": 0
+    },
+    {
+      "name": "R400_PERIMETER_HORIZONTAL_LOUVERS",
+      "nonManifold": 0,
+      "zeroArea": 0
+    }
+  ],
+  "sourceDocument": "https://inpa.public.lu/fr/patrimoine/feodal_fortifie/forteresse_luxembourg/musee_forteresse/partie_authentique_reconstruite.html",
+  "sourcePhoto": "references/fort_inpa/rooftop_view_2_Zinneke_CC_BY_SA_3.jpg",
+  "correction": "Prior metal-deck/stone-parapet interpretation rejected; timber terrace, continuous glazing, horizontal louvers and sloping metal fascia independently modeled.",
+  "limits": [
+    "Board, frame and louver spacing are visual estimates, not survey dimensions.",
+    "Tower-end court and shoulder junction remain incomplete. Whole green-marked perimeter not accepted."
+  ],
+  "glbErrors": []
+}

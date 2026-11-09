@@ -1,0 +1,25 @@
+{
+  "changed": [
+    "R152_CLASS2_TERRAIN",
+    "R152_HISTORIC_WALL_453755312",
+    "R152_HISTORIC_WALL_49911001",
+    "R152_HISTORIC_WALL_51946351",
+    "R152_HISTORIC_WALL_563325236",
+    "R152_HISTORIC_WALL_563325237",
+    "R152_HISTORIC_WALL_759551379",
+    "R152_HISTORIC_WALL_759811368",
+    "R152_HISTORIC_WALL_869145009",
+    "R152_RUIN_PARTITION_09",
+    "R152_RUIN_PARTITION_10",
+    "R152_RUIN_PARTITION_18"
+  ],
+  "added": [
+    "R321_MUSEUM_WEST_MOAT_RETAINING",
+    "R322_WEST_MUSEUM_TERRACE"
+  ],
+  "removed": [],
+  "unexpected": [],
+  "unchanged": 18087,
+  "museumGeometryPreserved": true,
+  "scope": "Geometry positions, face loop indices and object matrices; not a source-fidelity acceptance"
+}

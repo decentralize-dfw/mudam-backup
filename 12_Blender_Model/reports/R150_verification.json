@@ -1,0 +1,59 @@
+{
+  "file": "12_Blender_Model/scenes/MUDAM_R150_LIDAR_HENDEK_ADAY_v002.blend",
+  "solids": [
+    {
+      "name": "R35_MOAT_GROUND",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "volume": 687.5973292123001
+    },
+    {
+      "name": "R68_MOAT_GROUND",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "volume": 64.47363676013163
+    },
+    {
+      "name": "R68_WALL_00",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "volume": 86.05624812076368
+    },
+    {
+      "name": "R68_WALL_01",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "volume": 327.40475257913636
+    },
+    {
+      "name": "R68_WALL_03",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "volume": 243.84081168518506
+    },
+    {
+      "name": "R68_WALL_04",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "volume": 45.567431993771244
+    },
+    {
+      "name": "R68_WALL_05",
+      "nonmanifold": 0,
+      "zero_faces": 0,
+      "volume": 32.49597878677159
+    }
+  ],
+  "source_vertex_failures": [],
+  "wall_preservation_failures": [],
+  "bridge_plan_samples": 16935,
+  "terrain_below_bridge_samples": 10823,
+  "bridge_penetrations": [],
+  "failures": [],
+  "construction_acceptance": false,
+  "limits": [
+    "Regional source-based terrain candidate; up to 9.27m source gaps interpolated.",
+    "National-to-model datum conditional, historic wall foundations unmeasured.",
+    "This does not certify whole-site terrain or all building intersections."
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "accepted": false,
+  "findings": [
+    "Large black gap beside curved retaining wall closed in the same-camera overview.",
+    "Close pavilion view still exposes a substantial open base/terrain seam and some source facade fragments; candidate cannot be accepted.",
+    "Inherited architecture geometry/transforms/material slots/render visibility remained unchanged; 15 source tiles differ."
+  ],
+  "remaining": [
+    "Resolve pavilion base seam using source terrain and actual building lower boundary; inspect local source facade fragments.",
+    "Transfer local terrain preservation to streamed viewer; current viewer only has corrected XY mask.",
+    "Complete source placement, visual and delivery acceptance before publication or scope credit."
+  ],
+  "render_sha256": "00fe43d3218e77f03561318cb0ca469ae13e950782eb3d603695399de653646f",
+  "no_progress_credit": true
+}

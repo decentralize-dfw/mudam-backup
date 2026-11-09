@@ -1,0 +1,112 @@
+{
+  "pavilion_east_0": {
+    "outline": [
+      [
+        37.625,
+        -45.93277296004952
+      ],
+      [
+        37.625,
+        -38.125
+      ],
+      [
+        31.375,
+        -35.625
+      ],
+      [
+        29.6875,
+        -33.125
+      ],
+      [
+        32.25,
+        -30.5
+      ],
+      [
+        37.0,
+        -30.0
+      ],
+      [
+        50.0625,
+        -30.625
+      ],
+      [
+        49.8746661994217,
+        -38.889687225445
+      ]
+    ],
+    "plane": [
+      0.0007452934045466215,
+      0.006898870557798307,
+      -5.067812452908375
+    ],
+    "valid": true,
+    "validation": {
+      "planes": [
+        [
+          0.0007452934045466215,
+          0.006898870557798307,
+          -5.067812452908375
+        ],
+        [
+          0.06978418214393138,
+          -0.11317681412133547,
+          -13.180809804116878
+        ]
+      ],
+      "rms": 0.055893551794239986,
+      "max": 0.17454334838428842,
+      "heldout": 158,
+      "valid": true,
+      "method": "Two independent architectural planes with continuous intersection crease. Fit only training spatial cells; held-out cells untouched; no source surface triangulation."
+    }
+  },
+  "pavilion_east_1": {
+    "outline": [
+      [
+        49.8746661994217,
+        -38.889687225445
+      ],
+      [
+        49.75,
+        -44.375
+      ],
+      [
+        45.75,
+        -46.875
+      ],
+      [
+        37.625,
+        -49.375
+      ],
+      [
+        37.625,
+        -45.93277296004952
+      ]
+    ],
+    "plane": [
+      0.06978418214393138,
+      -0.11317681412133547,
+      -13.180809804116878
+    ],
+    "valid": true,
+    "validation": {
+      "planes": [
+        [
+          0.0007452934045466215,
+          0.006898870557798307,
+          -5.067812452908375
+        ],
+        [
+          0.06978418214393138,
+          -0.11317681412133547,
+          -13.180809804116878
+        ]
+      ],
+      "rms": 0.055893551794239986,
+      "max": 0.17454334838428842,
+      "heldout": 158,
+      "valid": true,
+      "method": "Two independent architectural planes with continuous intersection crease. Fit only training spatial cells; held-out cells untouched; no source surface triangulation."
+    }
+  }
+}

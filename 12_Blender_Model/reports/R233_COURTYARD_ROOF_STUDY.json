@@ -1,0 +1,12 @@
+{
+  "accepted": false,
+  "published": false,
+  "geometryChanged": false,
+  "currentMaster": "MUDAM_R232_ERASMUS_ENINE_CAM_KOT_ADAY_v001.blend",
+  "findings": [
+    "First glazed roof strip supports an independent plane: full-domain p90 .083m,100%within .2m.",
+    "Second strip fails full and interior planar fit (.419/.424m); transverse scalar section changes from7.185m to6.500m with lengthwise spread up to .78m.",
+    "Whole lower hall roof fails single plane; no entire roof or support volume inferred from one successful strip."
+  ],
+  "next": "Preserve these measurements. Do not repeat same plane fitting or create isolated floating glass. Move to another major unresolved 11-region scope while this hall awaits coherent multi-view interpretation."
+}

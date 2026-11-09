@@ -1,0 +1,39 @@
+{
+  "accepted": false,
+  "fit": {
+    "origin": [
+      -80.49012459132982,
+      -295.3363990319294
+    ],
+    "coeff": [
+      0.16190872972163256,
+      -0.9305069873559013,
+      -62.337861632633384
+    ],
+    "points": 575,
+    "support": 342,
+    "p90": 0.2747765734361637,
+    "corners": [
+      [
+        -85.2,
+        -295.0
+      ],
+      [
+        -76.4,
+        -292.6
+      ],
+      [
+        -80.0,
+        -298.32
+      ]
+    ]
+  },
+  "method": "Independent roof triangle, wall planes and coping solids; no source mesh/texture.",
+  "remaining": [
+    "Rear openings",
+    "Side and rear roof band",
+    "Chimneys",
+    "Ground contact",
+    "Full visual/GLB acceptance"
+  ]
+}

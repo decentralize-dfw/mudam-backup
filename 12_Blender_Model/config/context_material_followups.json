@@ -1,0 +1,13 @@
+{
+  "status": "implemented_pending_visual_acceptance",
+  "items": [
+    {
+      "surface": "terrain",
+      "issue": "Visible repeated tile/grid pattern across adjacent ground areas",
+      "required_result": "Continuous natural ground appearance without recognizable repeated squares; preserve web-sized PBR normal and roughness maps",
+      "user_instruction": "User reprioritized ground/topography/roads/trees; building work explicitly set aside.",
+      "done": false,
+      "implementation": "R157 single world-sized land-cover atlas, EXTEND sampling, no repeated grass color tile"
+    }
+  ]
+}

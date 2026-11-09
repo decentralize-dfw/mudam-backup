@@ -1,0 +1,12 @@
+{
+  "accepted": false,
+  "published": false,
+  "baseline": "R242",
+  "candidate": "R243",
+  "reasons": [
+    "Matched render exposes triangular seam gaps and southeast notch distortion",
+    "Changed GLB zero-area assertion failed"
+  ],
+  "measurement": "config/r243_uphill_apron.json",
+  "next": "Shared constrained boundary triangulation, retaining archaeological exclusion; do not publish current candidate"
+}

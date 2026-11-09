@@ -1,0 +1,289 @@
+{
+  "candidate": "MUDAM_R169_BUTUN_CATI_DOKULU_ADAY_v073.blend",
+  "accepted": false,
+  "published": false,
+  "production": "R170 / af1ee36",
+  "scope": "Four contiguous houses 164179202,1337806219,1337806220,1337806221: complete shared main-roof domain and exterior shell candidate.",
+  "new_geometry": "17901 independently source-sampled roof vertices, coherent facade sampling with explicit interpolated hidden portions, continuous corner interfaces and ground contact.",
+  "visual": {
+    "views": [
+      {
+        "view": "rear",
+        "pixels": 181212,
+        "ssim": 0.8798112617017841,
+        "mae": 0.02274216354974544
+      },
+      {
+        "view": "front",
+        "pixels": 186190,
+        "ssim": 0.8874237066254321,
+        "mae": 0.021357998558644325
+      },
+      {
+        "view": "top",
+        "pixels": 155004,
+        "ssim": 0.9603829297863923,
+        "mae": 0.006141026425967838
+      }
+    ],
+    "scope": "Projected visible model surface only; missing source coverage and hidden facades are not certified; not overall context similarity.",
+    "accepted": false
+  },
+  "geometry": {
+    "scope": "Whole four-house roof only; independent cell-centre source rays. Not facade or entire environment similarity.",
+    "checks": 17600,
+    "worst": [
+      [
+        6.284431457519531,
+        [
+          -82.14814758300781,
+          -294.4232482910156,
+          -70.06806945800781
+        ],
+        [
+          -82.14814758300781,
+          -294.4232482910156,
+          -63.78363800048828
+        ]
+      ],
+      [
+        2.1573028564453125,
+        [
+          -82.60350799560547,
+          -306.7642822265625,
+          -61.57275390625
+        ],
+        [
+          -82.60350799560547,
+          -306.7642822265625,
+          -63.73005676269531
+        ]
+      ],
+      [
+        1.3985824584960938,
+        [
+          -65.29090881347656,
+          -291.9347839355469,
+          -65.74312591552734
+        ],
+        [
+          -65.29090881347656,
+          -291.9347839355469,
+          -64.34454345703125
+        ]
+      ],
+      [
+        1.170562744140625,
+        [
+          -76.25408935546875,
+          -305.3008117675781,
+          -63.501983642578125
+        ],
+        [
+          -76.25408935546875,
+          -305.3008117675781,
+          -64.67254638671875
+        ]
+      ],
+      [
+        1.167449951171875,
+        [
+          -79.45896911621094,
+          -303.8735046386719,
+          -60.676841735839844
+        ],
+        [
+          -79.45896911621094,
+          -303.8735046386719,
+          -61.84429168701172
+        ]
+      ],
+      [
+        1.1653366088867188,
+        [
+          -84.96849060058594,
+          -307.29766845703125,
+          -63.4647216796875
+        ],
+        [
+          -84.96849060058594,
+          -307.29766845703125,
+          -64.63005828857422
+        ]
+      ],
+      [
+        1.1580886840820312,
+        [
+          -75.96305084228516,
+          -305.2127990722656,
+          -63.48320770263672
+        ],
+        [
+          -75.96305084228516,
+          -305.2127990722656,
+          -64.64129638671875
+        ]
+      ],
+      [
+        1.1567840576171875,
+        [
+          -76.10858154296875,
+          -305.2567138671875,
+          -63.49225616455078
+        ],
+        [
+          -76.10858154296875,
+          -305.2567138671875,
+          -64.64904022216797
+        ]
+      ],
+      [
+        1.13232421875,
+        [
+          -84.52914428710938,
+          -307.1786193847656,
+          -63.362022399902344
+        ],
+        [
+          -84.52914428710938,
+          -307.1786193847656,
+          -64.49434661865234
+        ]
+      ],
+      [
+        1.1243133544921875,
+        [
+          -76.40216064453125,
+          -305.3329162597656,
+          -63.503326416015625
+        ],
+        [
+          -76.40216064453125,
+          -305.3329162597656,
+          -64.62763977050781
+        ]
+      ],
+      [
+        1.0821609497070312,
+        [
+          -86.29692077636719,
+          -307.60638427734375,
+          -63.60167694091797
+        ],
+        [
+          -86.29692077636719,
+          -307.60638427734375,
+          -64.683837890625
+        ]
+      ],
+      [
+        1.0708847045898438,
+        [
+          -76.55027770996094,
+          -305.3648681640625,
+          -63.50459289550781
+        ],
+        [
+          -76.55027770996094,
+          -305.3648681640625,
+          -64.57547760009766
+        ]
+      ]
+    ],
+    "missing": 0,
+    "within10cm_percent": 98.17045454545455,
+    "p90_m": 0.014940643310546883,
+    "p95_m": 0.03170623779296866,
+    "max_m": 6.284431457519531,
+    "accepted": false,
+    "published": false
+  },
+  "ground": {
+    "boundary_edges": 604,
+    "bottom_points": 604,
+    "missing_ground": 0,
+    "maximum_air_gap_m": -0.1434478759765625,
+    "minimum_clearance_m": -0.4402923583984375,
+    "floating_points": 0,
+    "scope": "Existing R170 terrain at actual bottom boundary coordinates; open underground bottom is not a facade opening."
+  },
+  "web": {
+    "source": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\r152_clean\\r169_geometry_review_v073.glb",
+    "output": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\r152_clean\\r169_whole_row_v073_draco_webp_REVIEW.glb",
+    "rawBytes": 13040592,
+    "bytes": 1833336,
+    "sha256": "703185c4320e28bfba83b7962184f38a1a21a8c6da510559f83e7546a9ff9694",
+    "before": {
+      "triangles": 83516,
+      "bounds": {
+        "min": [
+          -98.74039459228516,
+          -74.90278625488281,
+          289.1831970214844
+        ],
+        "max": [
+          -61.43485641479492,
+          -59.13825225830078,
+          310.3660888671875
+        ]
+      },
+      "textures": [
+        {
+          "size": [
+            4096,
+            4096
+          ],
+          "mime": "image/png"
+        },
+        {
+          "size": [
+            4096,
+            4096
+          ],
+          "mime": "image/png"
+        }
+      ]
+    },
+    "after": {
+      "triangles": 83516,
+      "bounds": {
+        "min": [
+          -98.74039459228516,
+          -74.90278625488281,
+          289.1831970214844
+        ],
+        "max": [
+          -61.434852600097656,
+          -59.13825225830078,
+          310.3660888671875
+        ]
+      },
+      "textures": [
+        {
+          "size": [
+            4096,
+            4096
+          ],
+          "mime": "image/webp"
+        },
+        {
+          "size": [
+            4096,
+            4096
+          ],
+          "mime": "image/webp"
+        }
+      ]
+    },
+    "boundsDrift": 3.814697265625e-06,
+    "accepted": false,
+    "published": false,
+    "scope": "Local review only. Compression pass does not certify visual/source similarity."
+  },
+  "remaining": [
+    "Front/rear visual fidelity below .90 SSIM; metric is not total context completion.",
+    "Raised thin roof feature and eave discontinuity errors need geometric correction; one large source depth gap requires classification.",
+    "Occluded facade points and distant color matches remain uncertain; fine facade relief is not fully authored."
+  ],
+  "next": "Correct source-supported feature domains across the whole roof; do not repeat texture densification or publish merely because GLB checks pass."
+}

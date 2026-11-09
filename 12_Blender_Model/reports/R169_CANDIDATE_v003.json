@@ -1,0 +1,64 @@
+{
+  "limitations": [
+    "Clipped grid covers exact OSM outline; OSM/ACT survey alignment not guaranteed.",
+    "Roof interpolation from 0.4m ACT samples; missing edge samples use nearest valid roof sample.",
+    "Separate party-wall surfaces and fine facade relief remain unresolved."
+  ],
+  "scene": "MUDAM_R169_GUNEY_CATILAR_ADAY_v003.blend",
+  "vertices": 10079,
+  "accepted": false,
+  "published": false,
+  "ground_contacts": 2040,
+  "ground_min_overlap": 0.0799999999999983,
+  "wall_stats": [
+    {
+      "id": "164179154",
+      "roof_triangles": 3996,
+      "wall_spans": 182,
+      "footprint_uncovered_m2": 0.0,
+      "footprint_area_m2": 303.8447234294024
+    },
+    {
+      "id": "164179194",
+      "roof_triangles": 3996,
+      "wall_spans": 182,
+      "footprint_uncovered_m2": 0.0,
+      "footprint_area_m2": 303.0376375474928
+    },
+    {
+      "id": "164179202",
+      "roof_triangles": 1364,
+      "wall_spans": 106,
+      "footprint_uncovered_m2": 0.0,
+      "footprint_area_m2": 101.59031635012875
+    },
+    {
+      "id": "164179244",
+      "roof_triangles": 5846,
+      "wall_spans": 232,
+      "footprint_uncovered_m2": 0.0,
+      "footprint_area_m2": 454.6955473178191
+    },
+    {
+      "id": "1337806219",
+      "roof_triangles": 1364,
+      "wall_spans": 106,
+      "footprint_uncovered_m2": 0.0,
+      "footprint_area_m2": 101.60387184890612
+    },
+    {
+      "id": "1337806220",
+      "roof_triangles": 1364,
+      "wall_spans": 106,
+      "footprint_uncovered_m2": 0.0,
+      "footprint_area_m2": 101.6152051106244
+    },
+    {
+      "id": "1337806221",
+      "roof_triangles": 1364,
+      "wall_spans": 106,
+      "footprint_uncovered_m2": 0.0,
+      "footprint_area_m2": 101.65093895045115
+    }
+  ]
+}

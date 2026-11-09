@@ -1,0 +1,102 @@
+{
+  "accepted": false,
+  "published": false,
+  "scope": "Two source-traced raised rear roof volumes with independently fitted planar roofs; whole architecture incomplete",
+  "records": [
+    {
+      "name": "R227_ERASMUS_REAR_0",
+      "roof": 14.465732257634627,
+      "groundContactBases": [
+        4.673312377929688,
+        4.673312377929688,
+        4.673312377929688,
+        4.673312377929688
+      ],
+      "closed": true,
+      "openingsModeled": false
+    },
+    {
+      "name": "R227_ERASMUS_REAR_1",
+      "roof": 14.532740552747937,
+      "groundContactBases": [
+        7.005458068847656,
+        7.005458068847656,
+        7.005458068847656,
+        7.005458068847656
+      ],
+      "closed": true,
+      "openingsModeled": false
+    }
+  ],
+  "reopen": [
+    {
+      "name": "R227_ERASMUS_REAR_0",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R227_ERASMUS_REAR_1",
+      "boundary": 0,
+      "zero": 0
+    }
+  ],
+  "method": "Independently constructed planar closed volumes; scalar measured roofs and current terrain contact",
+  "limits": [
+    "Blank facade envelopes are study only; actual windows doors and frames still missing",
+    "Remaining wings rear circulation and courtyard construction missing",
+    "Ground contact follows current modeled terrain, not surveyed facade base heights",
+    "Do not publish as accepted architecture or replace R213 production"
+  ],
+  "visualReview": {
+    "source": "R214_erasmus_module_reference.png and R221_erasmus_front_source.png",
+    "candidate": "R227_erasmus_front_authored.png",
+    "accepted": false,
+    "findings": [
+      "Raised rear silhouette restored for two wings at source-measured elevations about14.1\u201314.5m.",
+      "Source has roof-edge and facade relief absent from these envelopes; left extent appears narrower than source close view.",
+      "Actual courtyard openings, curved glass link, terrace construction and junction gaps remain; no production acceptance."
+    ]
+  },
+  "sourceTracePixels": [
+    [
+      [
+        278,
+        551
+      ],
+      [
+        449,
+        421
+      ],
+      [
+        511,
+        492
+      ],
+      [
+        341,
+        636
+      ]
+    ],
+    [
+      [
+        647,
+        249
+      ],
+      [
+        807,
+        113
+      ],
+      [
+        876,
+        183
+      ],
+      [
+        710,
+        323
+      ]
+    ]
+  ],
+  "heldOutP90": [
+    0.11366207385725959,
+    0.09740622617653402
+  ]
+}

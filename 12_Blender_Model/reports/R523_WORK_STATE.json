@@ -1,0 +1,41 @@
+{
+  "updatedUTC": "2026-10-27T15:36:34.495068+00:00",
+  "selectedMaster": "scenes/MUDAM_R464_AVLU_CAMI_ZEMIN_KESISI_ADAY_v001.blend",
+  "latestCandidate": "scenes/MUDAM_R523_BATI_SUR_TERAS_HENDEK_ADAY_v001.blend",
+  "accepted": false,
+  "published": false,
+  "changes": [
+    "Extended NW lawn to retaining wall foot candidate, source section references R485.",
+    "Closed lawn/court vertical backing: formerly no-hit oblique rays now hit R486 retaining faces.",
+    "Restored wall explicit UV layer and lawn atlas/micro UV coordinates; affine mapping verified against original terrain.",
+    "Authored full southern mineral passage with independently fitted three planar grades:89 withheld ground cells RMS.0419m,max.2279m.",
+    "Extended passage through north roof-occluded section using visible floor levels at both ends. Occluded continuation is inference, not direct source measurement.",
+    "Added source-visible dark horizontal inset and stone perimeter;10 heldout source rays RMS.0351m,max.0678m. Function unconfirmed, no invented grid.",
+    "R491 eastern lower moat: independently authored continuous planar floor; four withheld controls RMS 0.04266m/max 0.05595m. Closed slab, reopen and local GLB checks passed.",
+    "R492 corrected six grass surfaces atlas coordinates and missing micro-normal UVs. Reopened coordinates verified against existing geographic affine mapping.",
+    "R494 missing southern pavilion retaining wall authored as an independent closed masonry body. Source face fit RMS 0.2214m/max 0.3787m is provisional, not fidelity acceptance.",
+    "R495 eastern wall return closes exactly against R494. Inner road grade 20 withheld controls RMS 0.01774m/max 0.03315m; wall thickness/batter/cap remain construction estimates.",
+    "R497 area-weighted terrain normals and mineral micro-normal UVs. Positions and topology unchanged; reopened and rendered.",
+    "R501 old west pavilion wall canopy-height error replaced with independent cap profiles; withheld RMS 0.021-0.038m.",
+    "R504 south tower roof/body/cornice coordinated to measured 4.26367m radius; source edge uncertainty retained.",
+    "R505 analytic roof normals and photo-supported matte finish; R506 CC0 sandstone PBR on three towers with metric UVs.",
+    "R507/R508 tower court connections; west tower axis shifted to independently measured centre. Main museum unchanged.",
+    "R512 cut unsupported front fort grass projecting over lower moat.",
+    "R515 independent lower moat ground closes resulting 4.67m2 missing footprint; closed solid, reopened, two controls error 0.04155/0.02567m.",
+    "R515 closed lower southern moat floor, source control errors 0.0257/0.0415m.",
+    "R519/R522/R523 rebuild wrong central western retaining bend as independent circular wall, close terrace as solid and restore contiguous lower moat floor. R523 forty withheld ground controls RMS0.0358m,max0.1031m.",
+    "Separate diagonal sloping masonry candidate: five withheld source controls RMS0.112m,max0.183m. Function/edges provisional. No copied scan geometry.",
+    "R523 preserves clipped terrain area-weighted normals, mineral terrace uses exportable normal-map shader."
+  ],
+  "remaining": [
+    "R523 visual/source review and GLB validation pending; diagonal masonry perimeter and full bay contacts need examination.",
+    "Northern part of western retaining wall and terrace elevations remain provisional; central bend corrected but not whole-wall acceptance.",
+    "Southern pavilion west return, wall crest/batter and local ground contacts remain provisional.",
+    "NW wall/end joins and lower bastion residuals require final review.",
+    "Whole marked ring acceptance, baking and interiors incomplete."
+  ],
+  "budgetStopUsedPercent": 86,
+  "latestObservedUsedPercent": 55,
+  "powerRestoreStatus": ".local_source_cache/power_restore_status.json",
+  "latestTechnicalGLB": "exports/r152_clean/r522_near_draco_webp_REVIEW.glb (R523 not yet exported)"
+}

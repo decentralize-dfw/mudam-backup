@@ -1,0 +1,45 @@
+{
+  "scene": "MUDAM_R169_ARKA_CEPHE_ADAY_v017.blend",
+  "reopened": true,
+  "accepted": false,
+  "published": false,
+  "openings": 4,
+  "source": "R169_33_facade_1_source.png",
+  "source_pixels": [
+    [
+      1150,
+      516,
+      1212,
+      633
+    ],
+    [
+      1300,
+      513,
+      1378,
+      636
+    ],
+    [
+      1150,
+      686,
+      1224,
+      807
+    ],
+    [
+      1300,
+      687,
+      1380,
+      808
+    ]
+  ],
+  "removed_plain_wall_faces": 1,
+  "assumptions": [
+    "0.12m recess, 0.055m frame are model assumptions",
+    "Upper left traced opening partly occluded in scan; extent needs independent validation",
+    "Existing rear wall depth retained; source facade camera depth offset does not affect orthographic lateral registration"
+  ],
+  "remaining": [
+    "Occluded left and middle rear facade",
+    "Roof/mansard and front dormers",
+    "Right balcony and entrances"
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "accepted": false,
+  "published": false,
+  "scope": "Seven upper wings and six lower street-facing volumes; incomplete architecture",
+  "records": [
+    {
+      "name": "R219_ERASMUS_FRONT_1",
+      "roof": 7.838950883873325,
+      "groundContactBases": [
+        1.0341903686523437,
+        1.3215133666992187,
+        0.8297378540039062,
+        0.8588592529296875
+      ],
+      "closed": true,
+      "openingsModeled": false
+    },
+    {
+      "name": "R219_ERASMUS_FRONT_2",
+      "roof": 7.821865106154394,
+      "groundContactBases": [
+        1.0544235229492187,
+        0.9837677001953125,
+        0.86912841796875,
+        0.833453369140625
+      ],
+      "closed": true,
+      "openingsModeled": false
+    },
+    {
+      "name": "R219_ERASMUS_FRONT_12",
+      "roof": 7.832598212731831,
+      "groundContactBases": [
+        1.4829360961914062,
+        1.9048187255859375,
+        0.856524658203125,
+        0.7948638916015625
+      ],
+      "closed": true,
+      "openingsModeled": false
+    }
+  ],
+  "reopen": [
+    {
+      "name": "R216_ERASMUS_WING_0",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R216_ERASMUS_WING_1",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R216_ERASMUS_WING_2",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R217_ERASMUS_WING_8",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R217_ERASMUS_WING_12",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R217_ERASMUS_WING_13",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R217_ERASMUS_WING_14",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R218_ERASMUS_FRONT_0",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R218_ERASMUS_FRONT_13",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R218_ERASMUS_FRONT_14",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R219_ERASMUS_FRONT_1",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R219_ERASMUS_FRONT_2",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R219_ERASMUS_FRONT_12",
+      "boundary": 0,
+      "zero": 0
+    }
+  ],
+  "method": "Independently constructed planar closed volumes; scalar measured roofs and current terrain contact",
+  "limits": [
+    "Blank facade envelopes are study only; actual windows doors and frames still missing",
+    "Remaining wings rear circulation and courtyard construction missing",
+    "Ground contact follows current modeled terrain, not surveyed facade base heights",
+    "Do not publish as accepted architecture or replace R213 production"
+  ],
+  "visualReview": "Same-camera R219 image inspected: six lower volumes attached to seven wing envelopes. One front volume remains missing. Rear circulation, courts, actual facade openings and materials still absent; not acceptable as final architecture. No publication."
+}

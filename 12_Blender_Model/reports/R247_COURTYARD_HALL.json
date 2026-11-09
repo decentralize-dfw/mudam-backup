@@ -1,0 +1,47 @@
+{
+  "accepted": false,
+  "published": false,
+  "checks": [
+    {
+      "name": "R247_COURT_HALL",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R247_COURT_ROOF",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R247_SOURCE_SLOPED_GLAZING",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R247_LIGHTWELL_UPSTAND_0",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R247_LIGHTWELL_UPSTAND_1",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R247_LIGHTWELL_UPSTAND_2",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R247_LIGHTWELL_UPSTAND_3",
+      "boundary": 0,
+      "zero": 0
+    }
+  ],
+  "source": "R214 top trace; R233 supported first light plane; R247 edge measurements",
+  "limits": [
+    "Second light and crosslink support unresolved",
+    "Hidden interior cavity and foundation depth provisional",
+    "Roof 7.18 supported by central transverse edge measurements; whole roof not surveyed"
+  ]
+}

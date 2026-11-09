@@ -1,0 +1,74 @@
+{
+  "limitations": [
+    "Clipped grid covers exact OSM outline; OSM/ACT survey alignment not guaranteed.",
+    "Roof interpolation from 0.4m ACT samples; missing edge samples use nearest valid roof sample.",
+    "Separate party-wall surfaces and fine facade relief remain unresolved."
+  ],
+  "scene": "MUDAM_R169_GUNEY_CATILAR_ADAY_v001.blend",
+  "vertices": 10079,
+  "accepted": false,
+  "published": false,
+  "ground_contacts": 2040,
+  "ground_min_overlap": 0.0799999999999983,
+  "wall_stats": [
+    {
+      "id": "164179154",
+      "roof_triangles": 3996,
+      "wall_spans": 182,
+      "footprint_uncovered_m2": 0.0,
+      "footprint_area_m2": 303.8447234294024
+    },
+    {
+      "id": "164179194",
+      "roof_triangles": 3996,
+      "wall_spans": 182,
+      "footprint_uncovered_m2": 0.0,
+      "footprint_area_m2": 303.0376375474928
+    },
+    {
+      "id": "164179202",
+      "roof_triangles": 1364,
+      "wall_spans": 106,
+      "footprint_uncovered_m2": 0.0,
+      "footprint_area_m2": 101.59031635012875
+    },
+    {
+      "id": "164179244",
+      "roof_triangles": 5846,
+      "wall_spans": 232,
+      "footprint_uncovered_m2": 0.0,
+      "footprint_area_m2": 454.6955473178191
+    },
+    {
+      "id": "1337806219",
+      "roof_triangles": 1364,
+      "wall_spans": 106,
+      "footprint_uncovered_m2": 0.0,
+      "footprint_area_m2": 101.60387184890612
+    },
+    {
+      "id": "1337806220",
+      "roof_triangles": 1364,
+      "wall_spans": 106,
+      "footprint_uncovered_m2": 0.0,
+      "footprint_area_m2": 101.6152051106244
+    },
+    {
+      "id": "1337806221",
+      "roof_triangles": 1364,
+      "wall_spans": 106,
+      "footprint_uncovered_m2": 0.0,
+      "footprint_area_m2": 101.65093895045115
+    }
+  ],
+  "status": "rejected_for_publication_facade_projection",
+  "review": {
+    "roof_placement": "Source comparison supports roof grouping and OSM outline coverage, not survey accuracy.",
+    "facades": "Visible foreground vegetation transfer, dark gaps and distortion remain. Not suitable for production acceptance.",
+    "v002": "Splitting bake edges after UV assignment did not resolve visible facade errors.",
+    "v003": "Shorter 0.35m cage / 1.2m ray distance worsened missing facade coverage; rejected.",
+    "next": "Fit facade planes using coherent source patches and profile samples; do not apply raw per-edge medians or publish any R169 version yet.",
+    "source_plane_measurements": ".local_source_cache/r169/facade_plane_samples.json",
+    "measurement_limit": "Facade offset samples contain multi-plane/vegetation dispersion; sparse party-wall samples are not valid facade constraints."
+  }
+}

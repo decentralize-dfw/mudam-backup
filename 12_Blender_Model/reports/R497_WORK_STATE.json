@@ -1,0 +1,31 @@
+{
+  "updatedUTC": "2026-10-27T14:24:55.278513+00:00",
+  "selectedMaster": "scenes/MUDAM_R464_AVLU_CAMI_ZEMIN_KESISI_ADAY_v001.blend",
+  "latestCandidate": "scenes/MUDAM_R497_ARAZI_YUZEY_NORMAL_ADAY_v001.blend",
+  "accepted": false,
+  "published": false,
+  "changes": [
+    "Extended NW lawn to retaining wall foot candidate, source section references R485.",
+    "Closed lawn/court vertical backing: formerly no-hit oblique rays now hit R486 retaining faces.",
+    "Restored wall explicit UV layer and lawn atlas/micro UV coordinates; affine mapping verified against original terrain.",
+    "Authored full southern mineral passage with independently fitted three planar grades:89 withheld ground cells RMS.0419m,max.2279m.",
+    "Extended passage through north roof-occluded section using visible floor levels at both ends. Occluded continuation is inference, not direct source measurement.",
+    "Added source-visible dark horizontal inset and stone perimeter;10 heldout source rays RMS.0351m,max.0678m. Function unconfirmed, no invented grid.",
+    "R491 eastern lower moat: independently authored continuous planar floor; four withheld controls RMS 0.04266m/max 0.05595m. Closed slab, reopen and local GLB checks passed.",
+    "R492 corrected six grass surfaces atlas coordinates and missing micro-normal UVs. Reopened coordinates verified against existing geographic affine mapping.",
+    "R494 missing southern pavilion retaining wall authored as an independent closed masonry body. Source face fit RMS 0.2214m/max 0.3787m is provisional, not fidelity acceptance.",
+    "R495 eastern wall return closes exactly against R494. Inner road grade 20 withheld controls RMS 0.01774m/max 0.03315m; wall thickness/batter/cap remain construction estimates.",
+    "R497 area-weighted terrain normals and mineral micro-normal UVs. Positions and topology unchanged; reopened and rendered."
+  ],
+  "remaining": [
+    "NW wall batter/axis/end joins and north passage termination need final source/contact verification.",
+    "Southern pavilion wall west return remains missing; seven LiDAR controls insufficient for reliable grade acceptance. R498 focused source/model comparison underway.",
+    "Southern wall crest, batter, visible face residuals and terrain-foot junctions remain provisional.",
+    "Fort tower roof edges and lower bastion residuals remain unresolved.",
+    "Whole marked ring source-fidelity acceptance, baking and interiors remain incomplete."
+  ],
+  "budgetStopUsedPercent": 86,
+  "latestObservedUsedPercent": 46,
+  "powerRestoreStatus": ".local_source_cache/power_restore_status.json",
+  "latestTechnicalGLB": "exports/r152_clean/r492_near_draco_webp_REVIEW.glb (does not contain R494/R495/R497)"
+}

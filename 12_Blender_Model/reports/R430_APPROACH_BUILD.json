@@ -1,0 +1,30 @@
+{
+  "scene": "MUDAM_R430_ON_HENDEK_YAKLASIM_ZEMINI_ADAY_v001.blend",
+  "accepted": false,
+  "published": false,
+  "check": {
+    "nonManifold": 0,
+    "zeroArea": 0
+  },
+  "terrainCuts": [
+    {
+      "name": "R303_EAST_UPPER_TERRACE",
+      "cutTriangles": 64
+    },
+    {
+      "name": "R152_CLASS2_TERRAIN",
+      "cutTriangles": 285
+    }
+  ],
+  "source": {
+    "heldout": 79,
+    "training": 221,
+    "rms": 0.01792807215198118,
+    "max": 0.03998555297769801
+  },
+  "limits": [
+    "Boundary traced from ACT top view, not cadastral survey.",
+    "Mineral finish photo-estimated; procedural bump requires texture bake for GLB.",
+    "Adjacent moat and bridge connections require visual review."
+  ]
+}

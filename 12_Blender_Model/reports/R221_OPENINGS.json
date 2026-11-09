@@ -1,0 +1,124 @@
+{
+  "accepted": false,
+  "published": false,
+  "observedOpeningsBuilt": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "rejected": [
+    {
+      "id": 0,
+      "reason": "Projected aperture crosses current footprint edge; footprint correction needed, not clipped"
+    }
+  ],
+  "reopen": [
+    {
+      "name": "R221_GLASS_1",
+      "boundary": 0
+    },
+    {
+      "name": "R221_FRAME_1L",
+      "boundary": 0
+    },
+    {
+      "name": "R221_FRAME_1R",
+      "boundary": 0
+    },
+    {
+      "name": "R221_FRAME_1B",
+      "boundary": 0
+    },
+    {
+      "name": "R221_FRAME_1T",
+      "boundary": 0
+    },
+    {
+      "name": "R221_FRAME_1M",
+      "boundary": 0
+    },
+    {
+      "name": "R221_GLASS_2",
+      "boundary": 0
+    },
+    {
+      "name": "R221_FRAME_2L",
+      "boundary": 0
+    },
+    {
+      "name": "R221_FRAME_2R",
+      "boundary": 0
+    },
+    {
+      "name": "R221_FRAME_2B",
+      "boundary": 0
+    },
+    {
+      "name": "R221_FRAME_2T",
+      "boundary": 0
+    },
+    {
+      "name": "R221_FRAME_2M",
+      "boundary": 0
+    },
+    {
+      "name": "R221_GLASS_3",
+      "boundary": 0
+    },
+    {
+      "name": "R221_FRAME_3L",
+      "boundary": 0
+    },
+    {
+      "name": "R221_FRAME_3R",
+      "boundary": 0
+    },
+    {
+      "name": "R221_FRAME_3B",
+      "boundary": 0
+    },
+    {
+      "name": "R221_FRAME_3T",
+      "boundary": 0
+    },
+    {
+      "name": "R221_FRAME_3M",
+      "boundary": 0
+    },
+    {
+      "name": "R221_GLASS_4",
+      "boundary": 0
+    },
+    {
+      "name": "R221_FRAME_4L",
+      "boundary": 0
+    },
+    {
+      "name": "R221_FRAME_4R",
+      "boundary": 0
+    },
+    {
+      "name": "R221_FRAME_4B",
+      "boundary": 0
+    },
+    {
+      "name": "R221_FRAME_4T",
+      "boundary": 0
+    },
+    {
+      "name": "R221_FRAME_4M",
+      "boundary": 0
+    },
+    {
+      "name": "R216_ERASMUS_WING_0",
+      "boundary": 0
+    }
+  ],
+  "limits": [
+    "Four actual observed upper apertures only; first reveals footprint mismatch",
+    "Inner wall thickness and frame .045m dimensions provisional",
+    "Remaining facades and connecting architecture incomplete"
+  ],
+  "visualReview": "Source/authored front views inspected. Four upper window positions align with observed source image. Missing first aperture exposes left footprint mismatch. Lower facade, courtyard wings, rooftop structures and materials remain absent; whole architecture not accepted."
+}

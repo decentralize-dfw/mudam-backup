@@ -1,0 +1,44 @@
+{
+  "checks": [
+    {
+      "name": "R152_RUIN_PARTITION_00",
+      "nonManifold": 0,
+      "zeroArea": 0
+    },
+    {
+      "name": "R540_NORTH_RUIN_OUTER_MOAT_FLOOR",
+      "nonManifold": 0,
+      "zeroArea": 0
+    }
+  ],
+  "cuts": [
+    {
+      "name": "R152_PATH_824216705",
+      "cutTriangles": 697
+    },
+    {
+      "name": "R152_CLASS2_TERRAIN",
+      "cutTriangles": 251
+    }
+  ],
+  "reopened": true,
+  "capChecks": [
+    {
+      "count": 16,
+      "rms": 0.028732522132726604,
+      "max": 0.050539258675700305
+    },
+    {
+      "count": 12,
+      "rms": 0.052067274087072644,
+      "max": 0.09737675539060907
+    }
+  ],
+  "floorChecks": {
+    "count": 85,
+    "rms": 0.03756554293636789,
+    "max": 0.10047973092625151
+  },
+  "accepted": false,
+  "published": false
+}

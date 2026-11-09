@@ -1,0 +1,70 @@
+{
+  "accepted": false,
+  "records": [
+    {
+      "index": 0,
+      "sourceRectangle": [
+        110,
+        108,
+        180,
+        170
+      ],
+      "measuredFrontOffset": -1.3309849053621292,
+      "measurementCount": 9,
+      "roofReturnDepth": 0.37,
+      "status": "candidate; roof aperture integration pending"
+    },
+    {
+      "index": 1,
+      "sourceRectangle": [
+        325,
+        105,
+        415,
+        177
+      ],
+      "measuredFrontOffset": -1.0497173070907593,
+      "measurementCount": 9,
+      "roofReturnDepth": 0.3865041256695986,
+      "status": "candidate; roof aperture integration pending"
+    },
+    {
+      "index": 2,
+      "sourceRectangle": [
+        1295,
+        97,
+        1380,
+        180
+      ],
+      "measuredFrontOffset": -0.8584701307117939,
+      "measurementCount": 9,
+      "roofReturnDepth": 0.37,
+      "status": "candidate; roof aperture integration pending"
+    },
+    {
+      "index": 3,
+      "sourceRectangle": [
+        1555,
+        110,
+        1640,
+        180
+      ],
+      "measuredFrontOffset": -0.5259195920079947,
+      "measurementCount": 9,
+      "roofReturnDepth": 0.37,
+      "status": "candidate; roof aperture integration pending"
+    },
+    {
+      "index": 4,
+      "pending": "No planar roof intersection",
+      "back": [
+        null,
+        null
+      ]
+    }
+  ],
+  "pending": [
+    "Roof aperture integration",
+    "Source visual comparison",
+    "Remaining central upper opening, balcony and chimneys"
+  ]
+}

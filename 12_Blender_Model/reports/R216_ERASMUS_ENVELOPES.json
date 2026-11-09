@@ -1,0 +1,67 @@
+{
+  "accepted": false,
+  "published": false,
+  "scope": "Three Erasmus wing envelopes; entire complex remains incomplete",
+  "records": [
+    {
+      "name": "R216_ERASMUS_WING_0",
+      "roof": 11.411735534667969,
+      "groundContactBases": [
+        4.245509338378906,
+        5.079623413085938,
+        0.9287673950195312,
+        0.9766952514648437
+      ],
+      "closed": true,
+      "openingsModeled": false
+    },
+    {
+      "name": "R216_ERASMUS_WING_1",
+      "roof": 11.454849243164062,
+      "groundContactBases": [
+        6.728083801269531,
+        7.243739318847656,
+        1.3215133666992187,
+        1.0341903686523437
+      ],
+      "closed": true,
+      "openingsModeled": false
+    },
+    {
+      "name": "R216_ERASMUS_WING_2",
+      "roof": 11.379295349121094,
+      "groundContactBases": [
+        4.906008911132813,
+        4.242884826660156,
+        0.9837677001953125,
+        1.0544235229492187
+      ],
+      "closed": true,
+      "openingsModeled": false
+    }
+  ],
+  "reopen": [
+    {
+      "name": "R216_ERASMUS_WING_0",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R216_ERASMUS_WING_1",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R216_ERASMUS_WING_2",
+      "boundary": 0,
+      "zero": 0
+    }
+  ],
+  "method": "Independently constructed planar closed volumes; scalar measured roofs and current terrain contact",
+  "limits": [
+    "Blank facade envelopes are study only; actual windows doors and frames still missing",
+    "Remaining wings rear circulation and courtyard construction missing",
+    "Ground contact follows current modeled terrain, not surveyed facade base heights",
+    "Do not publish as accepted architecture or replace R213 production"
+  ]
+}

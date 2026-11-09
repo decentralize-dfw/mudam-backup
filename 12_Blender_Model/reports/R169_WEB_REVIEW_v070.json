@@ -1,0 +1,73 @@
+{
+  "source": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\r152_clean\\r169_geometry_review_v070.glb",
+  "output": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\r152_clean\\r169_whole_row_v070_draco_webp_REVIEW.glb",
+  "rawBytes": 12924180,
+  "bytes": 1808012,
+  "sha256": "885d0b137e478b9f845981d1835812d6c973a173e812e12941d31bcb28f43f3d",
+  "before": {
+    "triangles": 83516,
+    "bounds": {
+      "min": [
+        -98.74039459228516,
+        -74.90278625488281,
+        289.1831970214844
+      ],
+      "max": [
+        -61.43485641479492,
+        -59.13825225830078,
+        310.3660888671875
+      ]
+    },
+    "textures": [
+      {
+        "size": [
+          4096,
+          4096
+        ],
+        "mime": "image/png"
+      },
+      {
+        "size": [
+          4096,
+          4096
+        ],
+        "mime": "image/png"
+      }
+    ]
+  },
+  "after": {
+    "triangles": 83516,
+    "bounds": {
+      "min": [
+        -98.74039459228516,
+        -74.90278625488281,
+        289.1831970214844
+      ],
+      "max": [
+        -61.434852600097656,
+        -59.13825225830078,
+        310.3660888671875
+      ]
+    },
+    "textures": [
+      {
+        "size": [
+          4096,
+          4096
+        ],
+        "mime": "image/webp"
+      },
+      {
+        "size": [
+          4096,
+          4096
+        ],
+        "mime": "image/webp"
+      }
+    ]
+  },
+  "boundsDrift": 0.000003814697265625,
+  "accepted": false,
+  "published": false,
+  "scope": "Local review only. Compression pass does not certify visual/source similarity."
+}

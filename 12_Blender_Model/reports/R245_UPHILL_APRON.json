@@ -1,0 +1,114 @@
+{
+  "accepted": false,
+  "published": false,
+  "changes": [
+    {
+      "name": "R193_SOUTHWEST_COURT_0",
+      "vertices": 341,
+      "maxShift": 0.43162641433448456
+    },
+    {
+      "name": "R193_SOUTHWEST_COURT_1",
+      "vertices": 52,
+      "maxShift": 3.0105298501605446
+    },
+    {
+      "name": "R193_SOUTHWEST_COURT_2",
+      "vertices": 0,
+      "maxShift": 0
+    },
+    {
+      "name": "R193_SOUTHWEST_COURT_3",
+      "vertices": 0,
+      "maxShift": 0
+    },
+    {
+      "name": "R193_SOUTHWEST_COURT_4",
+      "vertices": 2,
+      "maxShift": 0.004129345165523546
+    },
+    {
+      "name": "R193_SOUTHWEST_COURT_5",
+      "vertices": 0,
+      "maxShift": 0
+    },
+    {
+      "name": "R193_SOUTHWEST_COURT_6",
+      "vertices": 0,
+      "maxShift": 0
+    },
+    {
+      "name": "R193_SOUTHWEST_COURT_7",
+      "vertices": 0,
+      "maxShift": 0
+    },
+    {
+      "name": "R241_RUIN_SURROUND",
+      "vertices": 237,
+      "maxShift": 3.0095575246452917
+    },
+    {
+      "name": "R154_FAR_GROUND",
+      "vertices": 2142,
+      "maxShift": 0.790137049894998
+    }
+  ],
+  "reopen": [
+    {
+      "name": "R193_SOUTHWEST_COURT_0",
+      "finite": true,
+      "zero": 0
+    },
+    {
+      "name": "R193_SOUTHWEST_COURT_1",
+      "finite": true,
+      "zero": 0
+    },
+    {
+      "name": "R193_SOUTHWEST_COURT_2",
+      "finite": true,
+      "zero": 0
+    },
+    {
+      "name": "R193_SOUTHWEST_COURT_3",
+      "finite": true,
+      "zero": 0
+    },
+    {
+      "name": "R193_SOUTHWEST_COURT_4",
+      "finite": true,
+      "zero": 0
+    },
+    {
+      "name": "R193_SOUTHWEST_COURT_5",
+      "finite": true,
+      "zero": 0
+    },
+    {
+      "name": "R193_SOUTHWEST_COURT_6",
+      "finite": true,
+      "zero": 0
+    },
+    {
+      "name": "R193_SOUTHWEST_COURT_7",
+      "finite": true,
+      "zero": 0
+    },
+    {
+      "name": "R241_RUIN_SURROUND",
+      "finite": true,
+      "zero": 0
+    },
+    {
+      "name": "R154_FAR_GROUND",
+      "finite": true,
+      "zero": 0
+    }
+  ],
+  "method": "Deform/refine existing authored terrain continuously inside source-traced apron; no scan mesh transfer, no separate surface cuts",
+  "limits": [
+    "Material boundary approximated by refined faces",
+    "Shared object boundaries and source fidelity need review"
+  ],
+  "visualReview": "Compared with source/R244: triangular cut holes removed, but bastion seam, southeast notch and stepped material boundary unresolved. No publication acceptance."
+}

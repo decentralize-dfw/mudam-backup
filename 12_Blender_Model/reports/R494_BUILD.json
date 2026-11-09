@@ -1,0 +1,20 @@
+{
+  "check": {
+    "nonManifold": 0,
+    "zeroArea": 0
+  },
+  "cuts": [
+    {
+      "name": "R152_CLASS2_TERRAIN",
+      "cutTriangles": 104
+    }
+  ],
+  "reopened": true,
+  "accepted": false,
+  "published": false,
+  "limits": [
+    "Source-face planar residual RMS.221m,max.379m; not source-fidelity accepted.",
+    "Crest transition and unseen base remain candidates.",
+    "Eastern return and western end connection incomplete."
+  ]
+}

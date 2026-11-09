@@ -1,0 +1,8 @@
+from pathlib import Path
+R=Path(__file__).resolve().parents[1];scene='MUDAM_R508_BATI_KULE_EKSEN_ZEMIN_ADAY_v001.blend'
+s=(R/'scripts/export_r501_review.py').read_text().replace('MUDAM_R501_BATI_SUR_AGAC_KOTU_DUZELTME_ADAY_v001.blend',scene).replace('<=501','<=508').replace('R501','R508').replace('r501','r508');(R/'scripts/export_r508_review.py').write_text(s)
+p=R.parent/'web/scripts/prepare-r501-review.mjs';s=p.read_text().replace('MUDAM_R501_BATI_SUR_AGAC_KOTU_DUZELTME_ADAY_v001.blend',scene).replace('R501','R508').replace('r501','r508');(p.parent/'prepare-r508-review.mjs').write_text(s)
+s=(R/'scripts/verify_r501_inheritance.py').read_text().replace('MUDAM_R464_AVLU_CAMI_ZEMIN_KESISI_ADAY_v001.blend','MUDAM_R501_BATI_SUR_AGAC_KOTU_DUZELTME_ADAY_v001.blend').replace('MUDAM_R501_BATI_SUR_AGAC_KOTU_DUZELTME_ADAY_v001.blend',scene,1)
+# Set comparison explicitly; the source string contains two scene expressions.
+s=s[:s.index('old=snapshot(')]+s[s.index('old=snapshot('):].replace("old=snapshot('scenes/"+scene+"')","old=snapshot('scenes/MUDAM_R501_BATI_SUR_AGAC_KOTU_DUZELTME_ADAY_v001.blend')").replace("new=snapshot('scenes/MUDAM_R501_BATI_SUR_AGAC_KOTU_DUZELTME_ADAY_v001.blend')","new=snapshot('scenes/"+scene+"')")
+start=s.index('unexpected=');end=s.index(';report=',start);s=s[:start]+"unexpected=[k for k in changed if not any(k.startswith(p) for p in ['R424_SOUTH_','R424_WEST_','R418_TOWER_CONICAL_ROOF_','R425_SOUTH_','R425_WEST_','R446_SOUTH_','R446_WEST_','R420_SOUTH_'])]"+s[end:];s=s.replace('R501_INHERITANCE_AND_UV','R508_INHERITANCE_AND_UV');(R/'scripts/verify_r508_inheritance.py').write_text(s)

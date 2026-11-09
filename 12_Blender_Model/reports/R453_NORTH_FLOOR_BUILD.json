@@ -1,0 +1,30 @@
+{
+  "scene": "MUDAM_R453_KUZEY_ALT_HENDEK_ZEMINI_ADAY_v001.blend",
+  "accepted": false,
+  "published": false,
+  "check": {
+    "nonManifold": 0,
+    "zeroArea": 0
+  },
+  "terrainCuts": [
+    {
+      "name": "R152_PATH_759551377",
+      "cutTriangles": 108
+    },
+    {
+      "name": "R152_CLASS2_TERRAIN",
+      "cutTriangles": 207
+    }
+  ],
+  "source": {
+    "heldout": 35,
+    "training": 114,
+    "rms": 0.030168723449695883,
+    "max": 0.05224835019500329
+  },
+  "limits": [
+    "Boundary traced from ACT top view, not cadastral survey.",
+    "Mineral finish photo-estimated; procedural bump requires texture bake for GLB.",
+    "Only lower north moat floor; loading court and perimeter transitions remain unaccepted."
+  ]
+}

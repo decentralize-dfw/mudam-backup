@@ -1,0 +1,54 @@
+{
+  "accepted": false,
+  "buildings": [
+    {
+      "name": "R201_NOVOTEL_SUITES",
+      "before": 5400,
+      "after": 0,
+      "inserted_edge_vertices": 2784,
+      "zero_faces": 0,
+      "method": "Conform existing coplanar T-junction edges; no holes capped and no openings removed"
+    },
+    {
+      "name": "R176_ANNEAU",
+      "before": 11434,
+      "after": 0,
+      "inserted_edge_vertices": 6318,
+      "zero_faces": 0,
+      "method": "Conform existing coplanar T-junction edges; no holes capped and no openings removed"
+    },
+    {
+      "name": "R176_ANCIEN_PALAIS",
+      "before": 5450,
+      "after": 0,
+      "inserted_edge_vertices": 2870,
+      "zero_faces": 0,
+      "method": "Conform existing coplanar T-junction edges; no holes capped and no openings removed"
+    },
+    {
+      "name": "R176_NOVOTEL_HIGH",
+      "before": 7420,
+      "after": 0,
+      "inserted_edge_vertices": 3828,
+      "zero_faces": 0,
+      "method": "Conform existing coplanar T-junction edges; no holes capped and no openings removed"
+    },
+    {
+      "name": "R176_NOVOTEL_LOW",
+      "before": 2776,
+      "after": 0,
+      "inserted_edge_vertices": 1476,
+      "zero_faces": 0,
+      "method": "Conform existing coplanar T-junction edges; no holes capped and no openings removed"
+    },
+    {
+      "name": "R176_MAMA_SHELTER.001",
+      "before": 2708,
+      "after": 0,
+      "inserted_edge_vertices": 1384,
+      "zero_faces": 0,
+      "method": "Conform existing coplanar T-junction edges; no holes capped and no openings removed"
+    }
+  ],
+  "fullScopeAccepted": false
+}

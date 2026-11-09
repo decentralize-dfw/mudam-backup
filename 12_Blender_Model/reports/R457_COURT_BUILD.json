@@ -1,0 +1,36 @@
+{
+  "scene": "MUDAM_R457_KUZEY_SERVIS_AVLUSU_ADAY_v001.blend",
+  "check": {
+    "nonManifold": 0,
+    "zeroArea": 0
+  },
+  "cuts": [
+    {
+      "name": "R152_PATH_51768376",
+      "cutTriangles": 282
+    },
+    {
+      "name": "R152_PATH_759551377",
+      "cutTriangles": 16
+    },
+    {
+      "name": "R152_FORECOURT_0",
+      "cutTriangles": 625
+    },
+    {
+      "name": "R152_CLASS2_TERRAIN",
+      "cutTriangles": 258
+    }
+  ],
+  "source": {
+    "heldout": 113,
+    "training": 368,
+    "rms": 0.04838179552536401,
+    "max": 0.21275397974691757
+  },
+  "accepted": false,
+  "published": false,
+  "limits": [
+    "West ramp and upper plaza remain uncorrected; source outline manually traced."
+  ]
+}

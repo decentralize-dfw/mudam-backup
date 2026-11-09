@@ -1,0 +1,743 @@
+{
+  "source": [
+    {
+      "name": "grass_730_245",
+      "sourcePixel": [
+        730,
+        245
+      ],
+      "xy": [
+        -5.285714285714292,
+        56.5
+      ],
+      "medianZ": -4.880470275878906,
+      "spread": 0.0579681396484375,
+      "hits": 9,
+      "objects": [
+        "Mesh_0.061"
+      ]
+    },
+    {
+      "name": "grass_730_252",
+      "sourcePixel": [
+        730,
+        252
+      ],
+      "xy": [
+        -5.285714285714292,
+        55.4
+      ],
+      "medianZ": -4.940826416015625,
+      "spread": 0.0523681640625,
+      "hits": 9,
+      "objects": [
+        "Mesh_0.061"
+      ]
+    },
+    {
+      "name": "grass_730_260",
+      "sourcePixel": [
+        730,
+        260
+      ],
+      "xy": [
+        -5.285714285714292,
+        54.142857142857146
+      ],
+      "medianZ": -5.045188903808594,
+      "spread": 0.1181182861328125,
+      "hits": 9,
+      "objects": [
+        "Mesh_0.061"
+      ]
+    },
+    {
+      "name": "grass_750_245",
+      "sourcePixel": [
+        750,
+        245
+      ],
+      "xy": [
+        -2.142857142857139,
+        56.5
+      ],
+      "medianZ": -4.799324035644531,
+      "spread": 0.07392120361328125,
+      "hits": 9,
+      "objects": [
+        "Mesh_0.061"
+      ]
+    },
+    {
+      "name": "grass_750_252",
+      "sourcePixel": [
+        750,
+        252
+      ],
+      "xy": [
+        -2.142857142857139,
+        55.4
+      ],
+      "medianZ": -4.8704376220703125,
+      "spread": 0.05756378173828125,
+      "hits": 9,
+      "objects": [
+        "Mesh_0.061"
+      ]
+    },
+    {
+      "name": "grass_750_260",
+      "sourcePixel": [
+        750,
+        260
+      ],
+      "xy": [
+        -2.142857142857139,
+        54.142857142857146
+      ],
+      "medianZ": -4.8839263916015625,
+      "spread": 0.1197357177734375,
+      "hits": 9,
+      "objects": [
+        "Mesh_0.061"
+      ]
+    },
+    {
+      "name": "grass_770_245",
+      "sourcePixel": [
+        770,
+        245
+      ],
+      "xy": [
+        1.0,
+        56.5
+      ],
+      "medianZ": -4.676994323730469,
+      "spread": 0.04009246826171875,
+      "hits": 9,
+      "objects": [
+        "Mesh_0.061"
+      ]
+    },
+    {
+      "name": "grass_770_252",
+      "sourcePixel": [
+        770,
+        252
+      ],
+      "xy": [
+        1.0,
+        55.4
+      ],
+      "medianZ": -4.7007904052734375,
+      "spread": 0.0471038818359375,
+      "hits": 9,
+      "objects": [
+        "Mesh_0.061"
+      ]
+    },
+    {
+      "name": "grass_770_260",
+      "sourcePixel": [
+        770,
+        260
+      ],
+      "xy": [
+        1.0,
+        54.142857142857146
+      ],
+      "medianZ": -4.735008239746094,
+      "spread": 0.7527008056640625,
+      "hits": 9,
+      "objects": [
+        "Mesh_0.061"
+      ]
+    },
+    {
+      "name": "grass_790_245",
+      "sourcePixel": [
+        790,
+        245
+      ],
+      "xy": [
+        4.142857142857139,
+        56.5
+      ],
+      "medianZ": -4.584327697753906,
+      "spread": 0.00440216064453125,
+      "hits": 9,
+      "objects": [
+        "Mesh_0.061"
+      ]
+    },
+    {
+      "name": "grass_790_252",
+      "sourcePixel": [
+        790,
+        252
+      ],
+      "xy": [
+        4.142857142857139,
+        55.4
+      ],
+      "medianZ": -4.6015472412109375,
+      "spread": 0.03894805908203125,
+      "hits": 9,
+      "objects": [
+        "Mesh_0.061"
+      ]
+    },
+    {
+      "name": "grass_790_260",
+      "sourcePixel": [
+        790,
+        260
+      ],
+      "xy": [
+        4.142857142857139,
+        54.142857142857146
+      ],
+      "medianZ": -4.681732177734375,
+      "spread": 0.02443695068359375,
+      "hits": 9,
+      "objects": [
+        "Mesh_0.061"
+      ]
+    },
+    {
+      "name": "grass_810_245",
+      "sourcePixel": [
+        810,
+        245
+      ],
+      "xy": [
+        7.285714285714292,
+        56.5
+      ],
+      "medianZ": -4.540565490722656,
+      "spread": 0.03165435791015625,
+      "hits": 9,
+      "objects": [
+        "Mesh_0.061"
+      ]
+    },
+    {
+      "name": "grass_810_252",
+      "sourcePixel": [
+        810,
+        252
+      ],
+      "xy": [
+        7.285714285714292,
+        55.4
+      ],
+      "medianZ": -4.55609130859375,
+      "spread": 0.03676605224609375,
+      "hits": 9,
+      "objects": [
+        "Mesh_0.061"
+      ]
+    },
+    {
+      "name": "grass_810_260",
+      "sourcePixel": [
+        810,
+        260
+      ],
+      "xy": [
+        7.285714285714292,
+        54.142857142857146
+      ],
+      "medianZ": -4.5619964599609375,
+      "spread": 0.0462646484375,
+      "hits": 9,
+      "objects": [
+        "Mesh_0.061"
+      ]
+    },
+    {
+      "name": "grass_830_245",
+      "sourcePixel": [
+        830,
+        245
+      ],
+      "xy": [
+        10.428571428571416,
+        56.5
+      ],
+      "medianZ": -4.475425720214844,
+      "spread": 0.0217132568359375,
+      "hits": 9,
+      "objects": [
+        "Mesh_0.061"
+      ]
+    },
+    {
+      "name": "grass_830_252",
+      "sourcePixel": [
+        830,
+        252
+      ],
+      "xy": [
+        10.428571428571416,
+        55.4
+      ],
+      "medianZ": -4.505073547363281,
+      "spread": 0.0164031982421875,
+      "hits": 9,
+      "objects": [
+        "Mesh_0.061"
+      ]
+    },
+    {
+      "name": "grass_830_260",
+      "sourcePixel": [
+        830,
+        260
+      ],
+      "xy": [
+        10.428571428571416,
+        54.142857142857146
+      ],
+      "medianZ": -4.517250061035156,
+      "spread": 0.01177978515625,
+      "hits": 9,
+      "objects": [
+        "Mesh_0.061"
+      ]
+    },
+    {
+      "name": "grass_850_245",
+      "sourcePixel": [
+        850,
+        245
+      ],
+      "xy": [
+        13.571428571428584,
+        56.5
+      ],
+      "medianZ": -4.409187316894531,
+      "spread": 0.0504608154296875,
+      "hits": 9,
+      "objects": [
+        "Mesh_0.061"
+      ]
+    },
+    {
+      "name": "grass_850_252",
+      "sourcePixel": [
+        850,
+        252
+      ],
+      "xy": [
+        13.571428571428584,
+        55.4
+      ],
+      "medianZ": -4.4268951416015625,
+      "spread": 0.02637481689453125,
+      "hits": 9,
+      "objects": [
+        "Mesh_0.061"
+      ]
+    },
+    {
+      "name": "grass_850_260",
+      "sourcePixel": [
+        850,
+        260
+      ],
+      "xy": [
+        13.571428571428584,
+        54.142857142857146
+      ],
+      "medianZ": -4.45819091796875,
+      "spread": 0.040618896484375,
+      "hits": 9,
+      "objects": [
+        "Mesh_0.061"
+      ]
+    }
+  ],
+  "model": [
+    {
+      "name": "grass_730_245",
+      "sourcePixel": [
+        730,
+        245
+      ],
+      "xy": [
+        -5.285714285714292,
+        56.5
+      ],
+      "medianZ": -4.801460266113281,
+      "spread": 0.03055572509765625,
+      "hits": 9,
+      "objects": [
+        "R152_CLASS2_TERRAIN"
+      ],
+      "modelMinusSource": 0.079010009765625
+    },
+    {
+      "name": "grass_730_252",
+      "sourcePixel": [
+        730,
+        252
+      ],
+      "xy": [
+        -5.285714285714292,
+        55.4
+      ],
+      "medianZ": -4.807563781738281,
+      "spread": 0.03484344482421875,
+      "hits": 9,
+      "objects": [
+        "R152_CLASS2_TERRAIN"
+      ],
+      "modelMinusSource": 0.13326263427734375
+    },
+    {
+      "name": "grass_730_260",
+      "sourcePixel": [
+        730,
+        260
+      ],
+      "xy": [
+        -5.285714285714292,
+        54.142857142857146
+      ],
+      "medianZ": -4.8320465087890625,
+      "spread": 0.03839111328125,
+      "hits": 9,
+      "objects": [
+        "R152_CLASS2_TERRAIN"
+      ],
+      "modelMinusSource": 0.21314239501953125
+    },
+    {
+      "name": "grass_750_245",
+      "sourcePixel": [
+        750,
+        245
+      ],
+      "xy": [
+        -2.142857142857139,
+        56.5
+      ],
+      "medianZ": -4.704383850097656,
+      "spread": 0.02719879150390625,
+      "hits": 9,
+      "objects": [
+        "R152_CLASS2_TERRAIN"
+      ],
+      "modelMinusSource": 0.094940185546875
+    },
+    {
+      "name": "grass_750_252",
+      "sourcePixel": [
+        750,
+        252
+      ],
+      "xy": [
+        -2.142857142857139,
+        55.4
+      ],
+      "medianZ": -4.701240539550781,
+      "spread": 0.0308685302734375,
+      "hits": 9,
+      "objects": [
+        "R152_CLASS2_TERRAIN"
+      ],
+      "modelMinusSource": 0.16919708251953125
+    },
+    {
+      "name": "grass_750_260",
+      "sourcePixel": [
+        750,
+        260
+      ],
+      "xy": [
+        -2.142857142857139,
+        54.142857142857146
+      ],
+      "medianZ": -4.717918395996094,
+      "spread": 0.0267486572265625,
+      "hits": 9,
+      "objects": [
+        "R152_CLASS2_TERRAIN"
+      ],
+      "modelMinusSource": 0.16600799560546875
+    },
+    {
+      "name": "grass_770_245",
+      "sourcePixel": [
+        770,
+        245
+      ],
+      "xy": [
+        1.0,
+        56.5
+      ],
+      "medianZ": -4.5660552978515625,
+      "spread": 0.01996612548828125,
+      "hits": 9,
+      "objects": [
+        "R152_CLASS2_TERRAIN"
+      ],
+      "modelMinusSource": 0.11093902587890625
+    },
+    {
+      "name": "grass_770_252",
+      "sourcePixel": [
+        770,
+        252
+      ],
+      "xy": [
+        1.0,
+        55.4
+      ],
+      "medianZ": -4.581016540527344,
+      "spread": 0.02678680419921875,
+      "hits": 9,
+      "objects": [
+        "R152_CLASS2_TERRAIN"
+      ],
+      "modelMinusSource": 0.11977386474609375
+    },
+    {
+      "name": "grass_770_260",
+      "sourcePixel": [
+        770,
+        260
+      ],
+      "xy": [
+        1.0,
+        54.142857142857146
+      ],
+      "medianZ": -4.6081390380859375,
+      "spread": 0.03392791748046875,
+      "hits": 9,
+      "objects": [
+        "R152_CLASS2_TERRAIN"
+      ],
+      "modelMinusSource": 0.12686920166015625
+    },
+    {
+      "name": "grass_790_245",
+      "sourcePixel": [
+        790,
+        245
+      ],
+      "xy": [
+        4.142857142857139,
+        56.5
+      ],
+      "medianZ": -4.491432189941406,
+      "spread": 0.02472686767578125,
+      "hits": 9,
+      "objects": [
+        "R152_CLASS2_TERRAIN"
+      ],
+      "modelMinusSource": 0.0928955078125
+    },
+    {
+      "name": "grass_790_252",
+      "sourcePixel": [
+        790,
+        252
+      ],
+      "xy": [
+        4.142857142857139,
+        55.4
+      ],
+      "medianZ": -4.5113372802734375,
+      "spread": 0.01779937744140625,
+      "hits": 9,
+      "objects": [
+        "R152_CLASS2_TERRAIN"
+      ],
+      "modelMinusSource": 0.0902099609375
+    },
+    {
+      "name": "grass_790_260",
+      "sourcePixel": [
+        790,
+        260
+      ],
+      "xy": [
+        4.142857142857139,
+        54.142857142857146
+      ],
+      "medianZ": -4.542724609375,
+      "spread": 0.026336669921875,
+      "hits": 9,
+      "objects": [
+        "R152_CLASS2_TERRAIN"
+      ],
+      "modelMinusSource": 0.139007568359375
+    },
+    {
+      "name": "grass_810_245",
+      "sourcePixel": [
+        810,
+        245
+      ],
+      "xy": [
+        7.285714285714292,
+        56.5
+      ],
+      "medianZ": -4.436073303222656,
+      "spread": 0.02044677734375,
+      "hits": 9,
+      "objects": [
+        "R152_CLASS2_TERRAIN"
+      ],
+      "modelMinusSource": 0.1044921875
+    },
+    {
+      "name": "grass_810_252",
+      "sourcePixel": [
+        810,
+        252
+      ],
+      "xy": [
+        7.285714285714292,
+        55.4
+      ],
+      "medianZ": -4.461128234863281,
+      "spread": 0.01947784423828125,
+      "hits": 9,
+      "objects": [
+        "R152_CLASS2_TERRAIN"
+      ],
+      "modelMinusSource": 0.09496307373046875
+    },
+    {
+      "name": "grass_810_260",
+      "sourcePixel": [
+        810,
+        260
+      ],
+      "xy": [
+        7.285714285714292,
+        54.142857142857146
+      ],
+      "medianZ": -4.483154296875,
+      "spread": 0.01711273193359375,
+      "hits": 9,
+      "objects": [
+        "R152_CLASS2_TERRAIN"
+      ],
+      "modelMinusSource": 0.0788421630859375
+    },
+    {
+      "name": "grass_830_245",
+      "sourcePixel": [
+        830,
+        245
+      ],
+      "xy": [
+        10.428571428571416,
+        56.5
+      ],
+      "medianZ": -4.3632659912109375,
+      "spread": 0.0215911865234375,
+      "hits": 9,
+      "objects": [
+        "R152_CLASS2_TERRAIN"
+      ],
+      "modelMinusSource": 0.11215972900390625
+    },
+    {
+      "name": "grass_830_252",
+      "sourcePixel": [
+        830,
+        252
+      ],
+      "xy": [
+        10.428571428571416,
+        55.4
+      ],
+      "medianZ": -4.383628845214844,
+      "spread": 0.02611541748046875,
+      "hits": 9,
+      "objects": [
+        "R152_CLASS2_TERRAIN"
+      ],
+      "modelMinusSource": 0.1214447021484375
+    },
+    {
+      "name": "grass_830_260",
+      "sourcePixel": [
+        830,
+        260
+      ],
+      "xy": [
+        10.428571428571416,
+        54.142857142857146
+      ],
+      "medianZ": -4.403999328613281,
+      "spread": 0.02471160888671875,
+      "hits": 9,
+      "objects": [
+        "R152_CLASS2_TERRAIN"
+      ],
+      "modelMinusSource": 0.113250732421875
+    },
+    {
+      "name": "grass_850_245",
+      "sourcePixel": [
+        850,
+        245
+      ],
+      "xy": [
+        13.571428571428584,
+        56.5
+      ],
+      "medianZ": -4.274986267089844,
+      "spread": 0.022674560546875,
+      "hits": 9,
+      "objects": [
+        "R152_CLASS2_TERRAIN"
+      ],
+      "modelMinusSource": 0.1342010498046875
+    },
+    {
+      "name": "grass_850_252",
+      "sourcePixel": [
+        850,
+        252
+      ],
+      "xy": [
+        13.571428571428584,
+        55.4
+      ],
+      "medianZ": -4.2776947021484375,
+      "spread": 0.0306549072265625,
+      "hits": 9,
+      "objects": [
+        "R152_CLASS2_TERRAIN"
+      ],
+      "modelMinusSource": 0.149200439453125
+    },
+    {
+      "name": "grass_850_260",
+      "sourcePixel": [
+        850,
+        260
+      ],
+      "xy": [
+        13.571428571428584,
+        54.142857142857146
+      ],
+      "medianZ": -4.3094329833984375,
+      "spread": 0.02611541748046875,
+      "hits": 9,
+      "objects": [
+        "R152_CLASS2_TERRAIN"
+      ],
+      "modelMinusSource": 0.1487579345703125
+    }
+  ],
+  "accepted": false,
+  "method": "9 vertical samples in0.6m square at manually selected visible source ground locations; vegetation and vertical surfaces may contaminate samples; not global accuracy proof"
+}

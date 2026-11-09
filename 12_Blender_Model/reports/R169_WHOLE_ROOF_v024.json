@@ -1,0 +1,33 @@
+{
+  "scene": "MUDAM_R169_SIRA_BUTUN_CATI_ADAY_v024.blend",
+  "accepted": false,
+  "published": false,
+  "removed_fragments": 829,
+  "seam_vertices_joined": 212,
+  "retained_raised_faces": 117,
+  "new_roof_faces": 3,
+  "source_pixels": [
+    [
+      350,
+      242
+    ],
+    [
+      857,
+      120
+    ],
+    [
+      1014,
+      778
+    ],
+    [
+      450,
+      903
+    ]
+  ],
+  "limits": [
+    "Source fitted three slopes clipped to manually traced source roof outline; party boundary is uncertain",
+    "Raised source features retained; joins require review",
+    "Slate color provisional"
+  ],
+  "rejected_reason": "Boundary snapping flattened a raised roof feature and left facade/eave gap; rejected. Do not continue from this scene."
+}

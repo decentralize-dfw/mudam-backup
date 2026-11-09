@@ -1,0 +1,23 @@
+{
+  "scene": "MUDAM_R407_KALE_ORTA_KULE_AVLU_BAGLANTISI_ADAY_v001.blend",
+  "accepted": false,
+  "published": false,
+  "base": 1.4560309292690747,
+  "checks": [
+    {
+      "name": "R407_CENTRAL_TOWER_BODY",
+      "nonManifold": 0,
+      "zeroArea": 0
+    },
+    {
+      "name": "R407_CENTRAL_TOWER_BLIND_ARCADES",
+      "nonManifold": 0,
+      "zeroArea": 0
+    }
+  ],
+  "source": "Zinneke rooftop views 1 and 2; classified court plane R399; inherited tower footprint and cap level.",
+  "limits": [
+    "Court-facing three bays are photo-proportioned, not surveyed. Other sides remain provisional; no complete tower or ring acceptance.",
+    "Outer towers, end shoulders and other marked museum boundaries remain incomplete."
+  ]
+}

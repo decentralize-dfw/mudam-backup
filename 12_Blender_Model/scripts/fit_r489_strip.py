@@ -1,0 +1,4 @@
+import json,sys
+from pathlib import Path
+R=Path('12_Blender_Model');sys.path.insert(0,str(R/'.local_source_cache/gis_runtime'));import numpy as np
+rows=json.loads((R/'reports/R489_STRIP_RAYS.json').read_text());rows=[p for p in rows if p['v']>=.25];q=np.array([p['position'] for p in rows]);A=np.c_[q[:,:2],np.ones(len(q))];test=np.arange(len(q))%3==0;c=np.linalg.lstsq(A[~test],q[~test,2],rcond=None)[0];e=A[test]@c-q[test,2];d=dict(coefficients=c.tolist(),heldout=int(test.sum()),rms=float(np.sqrt(np.mean(e*e))),max=float(abs(e).max()),outline=json.loads((R/'reports/R468_STRIP_CROSS_VALIDATION.json').read_text())['outline'],interpretation='Source visibly shows a dark horizontal inset beside main courtyard glazing. Function/material subtype not confirmed; no invented window grid.',accepted=False);(R/'reports/R489_DARK_INSET_PLANE.json').write_text(json.dumps(d,indent=2));print(d)

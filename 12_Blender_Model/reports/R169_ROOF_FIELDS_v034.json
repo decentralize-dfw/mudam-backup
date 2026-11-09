@@ -1,0 +1,81 @@
+{
+  "scene": "MUDAM_R169_CATI_ALANLARI_ADAY_v034.blend",
+  "accepted": false,
+  "published": false,
+  "source_samples": 72,
+  "fields": [
+    {
+      "pixels": [
+        [
+          799,
+          408
+        ],
+        [
+          842,
+          392
+        ],
+        [
+          866,
+          440
+        ],
+        [
+          821,
+          457
+        ]
+      ],
+      "plane": [
+        -1.058033000979837,
+        -0.1967945556464217,
+        -189.39508714825652
+      ],
+      "samples": 36,
+      "rmse": 0.010009642492237765,
+      "p90": 0.015282141187881848
+    },
+    {
+      "pixels": [
+        [
+          820,
+          479
+        ],
+        [
+          864,
+          460
+        ],
+        [
+          896,
+          517
+        ],
+        [
+          849,
+          537
+        ]
+      ],
+      "plane": [
+        -1.1613313493348356,
+        -0.3820759719194048,
+        -251.26951815041645
+      ],
+      "samples": 36,
+      "rmse": 0.00796535360417043,
+      "p90": 0.011428167034509329
+    }
+  ],
+  "removed_roof_faces": 7,
+  "limits": [
+    "Two visible rectangular roof fields; precise component type unconfirmed",
+    "Frame inset10percent and lip15mm are modeling assumptions",
+    "Remaining raised fragments and lower facade are incomplete"
+  ],
+  "matched_camera_review": {
+    "source": "renders/qa/R169_roof_fields_source_oblique.png",
+    "candidate": "renders/qa/R169_roof_fields_v034.png",
+    "accepted": false,
+    "findings": [
+      "Matched camera exposes retained jagged roof strips and discontinuous side eave in candidate.",
+      "Source shows distinct lighter front slope and darker side slope; candidate uniform material does not reproduce this distinction.",
+      "Two rectangular roof fields are visible in source; this does not validate the whole roof or facade."
+    ],
+    "next": "Replace remaining discontinuous side eave and retained roof strips using source sections; preserve real raised details. No release."
+  }
+}

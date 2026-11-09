@@ -1,0 +1,5 @@
+import bpy
+from pathlib import Path
+from mathutils import Vector
+R=Path('C:/Users/yigit/Desktop/WORK/MUDAM/12_Blender_Model');bpy.ops.wm.open_mainfile(filepath=str(R/'.local_source_cache/r166/source.blend'));s=bpy.context.scene;bpy.ops.object.camera_add();s.camera=bpy.context.object;s.render.engine='CYCLES';s.world=bpy.data.worlds.new('Reference world');s.world.use_nodes=True;s.world.node_tree.nodes['Background'].inputs[0].default_value=(1,1,1,1);s.world.node_tree.nodes['Background'].inputs[1].default_value=.8;s.camera.data.type='ORTHO';s.camera.data.ortho_scale=300;s.camera.location=(300,150,300);s.camera.rotation_euler=(0,0,0);s.render.resolution_x=1600;s.render.resolution_y=1600;s.render.resolution_percentage=100;s.cycles.samples=8;s.render.filepath=str(R/'renders/qa/R277_east_source_top.png');bpy.ops.render.render(write_still=True)
+s.camera.location=(540,-70,150);s.camera.rotation_euler=(Vector((300,150,20))-s.camera.location).to_track_quat('-Z','Y').to_euler();s.render.resolution_y=1100;s.render.filepath=str(R/'renders/qa/R277_east_source_oblique.png');bpy.ops.render.render(write_still=True)

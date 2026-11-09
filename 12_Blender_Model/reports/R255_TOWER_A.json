@@ -1,0 +1,72 @@
+{
+  "accepted": false,
+  "published": false,
+  "removedReferenceVertices": 1579,
+  "levels": [
+    12.46478664800403,
+    15.917018165914797,
+    19.369249683825565,
+    22.821481201736333,
+    26.2737127196471,
+    29.72594423755787,
+    33.17817575546864,
+    36.630407273379404,
+    40.08263879129017,
+    43.53487030920094,
+    46.98710182711171,
+    50.439333345022476,
+    53.891564862933244,
+    57.34379638084401,
+    60.79602789875478,
+    64.24825941666555,
+    67.70049093457632,
+    71.15272245248708,
+    74.60495397039784,
+    78.05718548830862
+  ],
+  "source": "R255_towers_source.png; planar source footprint and visible facade lines",
+  "checks": [
+    {
+      "name": "R255_A_BASE",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R255_A_FLOOR_BANDS",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R255_A_RECESSED_GLAZING",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R255_A_VERTICAL_MULLIONS",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R255_A_PARAPET",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R255_A_ROOF",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R255_A_FLOOR",
+      "boundary": 0,
+      "zero": 0
+    }
+  ],
+  "limits": [
+    "Rear facade cadence needs independent source elevation",
+    "Roof equipment not yet reconstructed",
+    "Base terrain contact not verified",
+    "Materials visual approximation; no scan texture",
+    "No region completion claim"
+  ]
+}

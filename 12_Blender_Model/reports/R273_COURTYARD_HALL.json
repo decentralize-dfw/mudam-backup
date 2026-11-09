@@ -1,0 +1,162 @@
+{
+  "accepted": false,
+  "published": false,
+  "checks": [
+    {
+      "name": "R273_COURT_HALL",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R273_COURT_ROOF",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R273_GLAZING_0",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R273_UPSTAND_0_0",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R273_UPSTAND_0_1",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R273_UPSTAND_0_2",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R273_UPSTAND_0_3",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R273_FRAME_0_0",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R273_FRAME_0_1",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R273_FRAME_0_2",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R273_FRAME_0_3",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R273_FRAME_0_4",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R273_FRAME_0_5",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R273_FRAME_0_6",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R273_FRAME_0_7",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R273_FRAME_0_8",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R273_GLAZING_1",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R273_UPSTAND_1_0",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R273_UPSTAND_1_1",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R273_UPSTAND_1_2",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R273_UPSTAND_1_3",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R273_FRAME_1_0",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R273_FRAME_1_1",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R273_FRAME_1_2",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R273_FRAME_1_3",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R273_FRAME_1_4",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R273_FRAME_1_5",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R273_FRAME_1_6",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R273_FRAME_1_7",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R273_FRAME_1_8",
+      "boundary": 0,
+      "zero": 0
+    }
+  ],
+  "source": "R272 direct top traces and R273 independent scalar plane fits",
+  "limits": [
+    "Source comparison pending; both lights independently fitted",
+    "Hidden interior cavity and foundation depth provisional",
+    "Surround roof 5.85 inferred from rear strip; complete perimeter needs independent check"
+  ]
+}

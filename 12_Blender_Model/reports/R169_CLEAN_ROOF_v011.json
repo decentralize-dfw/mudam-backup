@@ -1,0 +1,30 @@
+{
+  "scene": "MUDAM_R169_TEMIZ_CATI_ADAY_v011.blend",
+  "reopened": true,
+  "accepted": false,
+  "published": false,
+  "changed_vertices": 976,
+  "max_displacement_m": 0.34947382883188993,
+  "upper_roof_fit": {
+    "parameters": [
+      -61.98443467899551,
+      275.776072118726,
+      10.861322545432087,
+      20.7510673547344,
+      0.21265113553652637,
+      0.19798523480122737,
+      0.21456723036859565,
+      0.16400181577276868
+    ],
+    "sample_count": 984,
+    "median_abs_residual_m": 0.10041963355218897,
+    "p90_abs_residual_m": 0.32168592940178303,
+    "accepted": false,
+    "limits": "Upper-roof fit only. Dormers, mansard skirt and eaves excluded. Must compare before using."
+  },
+  "limits": [
+    "Roof tone is a provisional material",
+    "Dormers and skirt remain unresolved",
+    "Right balcony, rear facade and entrances incomplete"
+  ]
+}

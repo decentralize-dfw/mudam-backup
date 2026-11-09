@@ -1,0 +1,31 @@
+{
+  "accepted": false,
+  "source": "OSM banks and ACT2024 MNT independent water plane",
+  "terrain_changes": [
+    {
+      "name": "R182_EXTENSION_GROUND",
+      "intersections": 0
+    },
+    {
+      "name": "R182_EXTENSION_ROADS",
+      "intersections": 0
+    },
+    {
+      "name": "R154_FAR_GROUND",
+      "intersections": 3124
+    },
+    {
+      "name": "R154_FAR_ROADS",
+      "intersections": 0
+    },
+    {
+      "name": "R161_ROAD_CONNECTIONS",
+      "intersections": 0
+    }
+  ],
+  "removed_tree_roots": [],
+  "limits": [
+    "Water plane fit has partial support; shoreline height comparison pending",
+    "Road crossings require independently modeled bridge decks; not all crossings accepted"
+  ]
+}

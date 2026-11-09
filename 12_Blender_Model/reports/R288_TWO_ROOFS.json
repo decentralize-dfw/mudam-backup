@@ -1,0 +1,148 @@
+{
+  "accepted": false,
+  "published": false,
+  "sourceFits": [
+    {
+      "name": "black_roof",
+      "polygon": [
+        [
+          356.25,
+          208.125
+        ],
+        [
+          387.1875,
+          196.875
+        ],
+        [
+          378.1875,
+          166.875
+        ],
+        [
+          348.0,
+          178.875
+        ]
+      ],
+      "origin": [
+        367.40625,
+        187.6875
+      ],
+      "plane": [
+        -0.00043768136562820283,
+        -0.00015510944637386892,
+        20.26841300674162
+      ],
+      "cornerRoofs": [
+        20.270125840166646,
+        20.25833005418923,
+        20.266922469871098,
+        20.27827366273951
+      ],
+      "samples": 625,
+      "support": 0.9903846153846154,
+      "p90": 0.11425672515414029
+    },
+    {
+      "name": "white_roof",
+      "polygon": [
+        [
+          379.6875,
+          255.5625
+        ],
+        [
+          407.0625,
+          240.375
+        ],
+        [
+          405.9375,
+          208.875
+        ],
+        [
+          372.1875,
+          217.5
+        ]
+      ],
+      "origin": [
+        391.21875,
+        230.578125
+      ],
+      "plane": [
+        -9.435546836706787e-05,
+        -0.0008368806455930078,
+        19.13767601806919
+      ],
+      "cornerRoofs": [
+        19.11785511468406,
+        19.127982258542456,
+        19.154450148780548,
+        19.150416550269696
+      ],
+      "samples": 624,
+      "support": 1.0,
+      "p90": 0.017401360690761793
+    }
+  ],
+  "clipping": [
+    {
+      "name": "R166_MEASURED_ENVELOPE",
+      "cutTriangles": 293
+    }
+  ],
+  "checks": [
+    {
+      "name": "R288_ROOF_SLAB_0",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R288_COPING_0_0",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R288_COPING_0_1",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R288_COPING_0_2",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R288_COPING_0_3",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R288_ROOF_SLAB_1",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R288_COPING_1_0",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R288_COPING_1_1",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R288_COPING_1_2",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R288_COPING_1_3",
+      "boundary": 0,
+      "zero": 0
+    }
+  ],
+  "limits": [
+    "Source visible slab boundary manually traced",
+    "Coping section and slab thickness provisional",
+    "Existing lower facade retained until independent reconstruction",
+    "Whole first-six scope incomplete"
+  ]
+}

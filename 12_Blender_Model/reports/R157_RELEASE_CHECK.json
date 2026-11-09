@@ -1,0 +1,16 @@
+{
+  "scene": "MUDAM_R157_ARAZI_YOLLAR_AGACLAR_v004.blend",
+  "reopened": true,
+  "unexpected_changes": [],
+  "near_trees_terrain_roads_building_geometry_preserved": true,
+  "all_tree_transforms_preserved": true,
+  "prior_ground_contact_report": "R157_GROUND_QA.json",
+  "web_test_fps_before": 17.2,
+  "web_test_fps_after": 18.8,
+  "performance_scope": "Same device, five layers, 12 second viewer camera test; not a general performance guarantee.",
+  "remaining": [
+    "Road junction and path-edge detailing",
+    "Vegetation visual refinement and rendering performance"
+  ],
+  "whole_site_accepted": false
+}

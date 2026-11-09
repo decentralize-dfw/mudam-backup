@@ -1,0 +1,182 @@
+{
+  "scene": "scenes/MUDAM_R327_DOGU_KALINTI_PLAN_ADAY_v001.blend",
+  "accepted": false,
+  "published": false,
+  "scope": "Only museum perimeter walls, moats, bridges, terraces and ruins in R316 user green marks. Distant surroundings deferred.",
+  "changes": [
+    "R323: west ramp differentiated from upper terrace; three retaining controls relocated to outer ramp edge using source sections.",
+    "R324: 84 of 100 terrace-edge stations matched to existing museum exterior walls; 25mm contact overlap; 16 unmatched preserved for follow-up. Museum untouched.",
+    "R326: north ruin raised masonry platform, five-bay connected corridor, three side chambers, central recess and court independently rebuilt from matched orthographic reference; old partitions 01-09 replaced.",
+    "R326: four false trees inside the source-visible open court hidden; tree source meshes and local transforms preserved.",
+    "R327: east ruin raised masonry platform, three-bay connected corridor, three side chambers, central recess, lower masonry remnant and court independently reconstructed; old partitions 11-18 replaced."
+  ],
+  "rejected": [
+    "R325 platform v001: one nonmanifold edge and visually misaligned chambers; replaced by R326. Do not use."
+  ],
+  "checks": {
+    "inheritance": {
+      "changed": [
+        "R152_CLASS2_TERRAIN",
+        "R152_HISTORIC_WALL_453755312",
+        "R152_HISTORIC_WALL_49911001",
+        "R152_HISTORIC_WALL_51946351",
+        "R152_HISTORIC_WALL_563325236",
+        "R152_HISTORIC_WALL_563325237",
+        "R152_HISTORIC_WALL_759551379",
+        "R152_HISTORIC_WALL_759811368",
+        "R152_HISTORIC_WALL_869145009",
+        "R152_RUIN_PARTITION_10"
+      ],
+      "added": [
+        "R321_MUSEUM_WEST_MOAT_RETAINING",
+        "R322_WEST_MUSEUM_TERRACE",
+        "R325_NORTH_RUIN_CENTRAL_COURT",
+        "R325_NORTH_RUIN_RAISED_PLATFORM",
+        "R326_NORTH_RUIN_CROSSWALL_00",
+        "R326_NORTH_RUIN_CROSSWALL_01",
+        "R326_NORTH_RUIN_CROSSWALL_02",
+        "R326_NORTH_RUIN_CROSSWALL_03",
+        "R327_EAST_RUIN_CENTRAL_COURT",
+        "R327_EAST_RUIN_CROSSWALL_00",
+        "R327_EAST_RUIN_RAISED_PLATFORM"
+      ],
+      "removed": [
+        "R152_RUIN_PARTITION_01",
+        "R152_RUIN_PARTITION_02",
+        "R152_RUIN_PARTITION_03",
+        "R152_RUIN_PARTITION_04",
+        "R152_RUIN_PARTITION_05",
+        "R152_RUIN_PARTITION_06",
+        "R152_RUIN_PARTITION_07",
+        "R152_RUIN_PARTITION_08",
+        "R152_RUIN_PARTITION_09",
+        "R152_RUIN_PARTITION_11",
+        "R152_RUIN_PARTITION_12",
+        "R152_RUIN_PARTITION_13",
+        "R152_RUIN_PARTITION_14",
+        "R152_RUIN_PARTITION_15",
+        "R152_RUIN_PARTITION_16",
+        "R152_RUIN_PARTITION_17",
+        "R152_RUIN_PARTITION_18"
+      ],
+      "unexpected": [],
+      "unchanged": 18072,
+      "museumGeometryPreserved": true,
+      "scope": "Geometry positions, face loop indices and object matrices; not a source-fidelity acceptance"
+    },
+    "northMesh": [
+      {
+        "name": "R325_NORTH_RUIN_RAISED_PLATFORM",
+        "nonManifold": 0,
+        "zeroArea": 0
+      },
+      {
+        "name": "R325_NORTH_RUIN_CENTRAL_COURT",
+        "nonManifold": 0,
+        "zeroArea": 0
+      },
+      {
+        "name": "R326_NORTH_RUIN_CROSSWALL_00",
+        "nonManifold": 0,
+        "zeroArea": 0
+      },
+      {
+        "name": "R326_NORTH_RUIN_CROSSWALL_01",
+        "nonManifold": 0,
+        "zeroArea": 0
+      },
+      {
+        "name": "R326_NORTH_RUIN_CROSSWALL_02",
+        "nonManifold": 0,
+        "zeroArea": 0
+      },
+      {
+        "name": "R326_NORTH_RUIN_CROSSWALL_03",
+        "nonManifold": 0,
+        "zeroArea": 0
+      }
+    ],
+    "eastMesh": [
+      {
+        "name": "R327_EAST_RUIN_RAISED_PLATFORM",
+        "nonManifold": 0,
+        "zeroArea": 0
+      },
+      {
+        "name": "R327_EAST_RUIN_CENTRAL_COURT",
+        "nonManifold": 0,
+        "zeroArea": 0
+      },
+      {
+        "name": "R327_EAST_RUIN_CROSSWALL_00",
+        "nonManifold": 0,
+        "zeroArea": 0
+      }
+    ],
+    "northGlb": [
+      {
+        "name": "R325_NORTH_RUIN_RAISED_PLATFORM",
+        "nonFinite": 0,
+        "zeroArea": 0
+      },
+      {
+        "name": "R326_NORTH_RUIN_CROSSWALL_00",
+        "nonFinite": 0,
+        "zeroArea": 0
+      },
+      {
+        "name": "R326_NORTH_RUIN_CROSSWALL_01",
+        "nonFinite": 0,
+        "zeroArea": 0
+      },
+      {
+        "name": "R326_NORTH_RUIN_CROSSWALL_02",
+        "nonFinite": 0,
+        "zeroArea": 0
+      },
+      {
+        "name": "R326_NORTH_RUIN_CROSSWALL_03",
+        "nonFinite": 0,
+        "zeroArea": 0
+      },
+      {
+        "name": "R325_NORTH_RUIN_CENTRAL_COURT",
+        "nonFinite": 0,
+        "zeroArea": 0
+      }
+    ],
+    "eastGlb": [
+      {
+        "name": "R327_EAST_RUIN_RAISED_PLATFORM",
+        "nonFinite": 0,
+        "zeroArea": 0
+      },
+      {
+        "name": "R327_EAST_RUIN_CROSSWALL_00",
+        "nonFinite": 0,
+        "zeroArea": 0
+      },
+      {
+        "name": "R327_EAST_RUIN_CENTRAL_COURT",
+        "nonFinite": 0,
+        "zeroArea": 0
+      }
+    ]
+  },
+  "matchedViews": [
+    "renders/qa/R325_north_ruin_source.png",
+    "renders/qa/R326_north_ruin_candidate.png",
+    "renders/qa/R327_east_ruin_source.png",
+    "renders/qa/R327_east_ruin_candidate.png"
+  ],
+  "limitations": [
+    "Matched-view plan reconstruction is not survey-grade height acceptance. Sparse scan chamber hits frequently lie on walls or noisy surfaces.",
+    "New ruin platform top -0.08m and deep buried foundations remain candidates; chamber floors still inherit prior terrain. Do not claim measured chamber depths.",
+    "Outer moat road R152_PATH_824216705 is visually too broad/bright around ruins; first-hit tests do not by themselves prove the correct moat floor. Resolve its footprint/material and source sections before publication.",
+    "North old outer partition00 and east partition10 remain; their outlines/levels need comparison with newly reconstructed inner works.",
+    "West ramp grade transitions, remaining 16 terrace contact points, pavilion stepped moat floors, fort roof/curved walls and eastern historic facade still unresolved.",
+    "Court and wall materials remain visibly different from reference; no full-ring fidelity or 100 percent claim."
+  ],
+  "nextGeometry": "Resolve outer ruin moat/path overlaps and levels; then pavilion stepped moat domains and fort curved-wall/coping boundaries. Use R327 master. Do not repeat northern/eastern chamber plan reconstruction.",
+  "exportReminder": "Include R321, R322, R325, R326, R327 SITE objects in near-site GLB; skip hide_render and replaced old partitions. Existing R314 exporter excludes these new prefixes."
+}

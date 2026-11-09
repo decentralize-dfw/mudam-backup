@@ -1,0 +1,2 @@
+from pathlib import Path
+R=Path('12_Blender_Model');s=(R/'scripts/measure_r481_path.py').read_text();a=s.index('pixels=');b=s.index(';poly=Polygon',a);s=s[:a]+"pixels=[];xy=[(49.3,-58.8),(49.3,-52.7),(50.4,-52.7),(50.4,-58.8)]"+s[b:];s=s.replace('poly.buffer(-.5)','poly.buffer(-.1)').replace('np.c_[np.ones(len(q)),x,y,x*x,x*y,y*y]','np.c_[np.ones(len(q)),x,y]').replace('R481_WEST_PATH_GRADE.json','R496_WEST_TURN_GROUND.json');(R/'scripts/measure_r496_turn.py').write_text(s)

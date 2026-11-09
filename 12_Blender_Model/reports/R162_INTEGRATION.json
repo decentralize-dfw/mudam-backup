@@ -1,0 +1,30 @@
+{
+  "scene": "MUDAM_R162_CEVRE_BINA_ENTEGRE_v004.blend",
+  "replaced_objects": [
+    "R161_24457411_BANDS",
+    "R161_24457411_PIERS",
+    "R161_24457411_GLASS",
+    "R161_24457411_FRAMES",
+    "R161_24457411_FOUNDATION",
+    "R161_24457411_ROOF",
+    "R161_24457411_PARAPET",
+    "R161_24457411_BASE",
+    "R161_24457477_BANDS",
+    "R161_24457477_PIERS",
+    "R161_24457477_GLASS",
+    "R161_24457477_FRAMES",
+    "R161_24457477_FOUNDATION",
+    "R161_24457477_ROOF",
+    "R161_24457477_PARAPET",
+    "R161_24457477_BASE"
+  ],
+  "preserved_objects": 8556,
+  "preserved_geometry_hashes": true,
+  "reopened": true,
+  "status": "work_in_progress_review_release",
+  "whole_context_complete": false,
+  "limits": [
+    "Source-derived roof and facade candidate; fine window recesses and scan-boundary artifacts still open.",
+    "Museum, other buildings, roads and tree geometry retained."
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "scene": "MUDAM_R169_KAYNAK_SACAK_ADAY_v026.blend",
+  "accepted": false,
+  "published": false,
+  "source": "row_eave_normal_samples.json",
+  "moved_vertices": 45,
+  "max_drop_m": 1.066675753873568,
+  "limits": [
+    "Interpolated source samples measured perpendicular to eave; source noise and manual trace uncertainty remain",
+    "Retained source fragments can overlap eave and need review",
+    "Raised details not flattened"
+  ],
+  "visual_review": "Source shows eave edge mostly0.6-0.8m below extrapolated main slope; inset1m is close to slope. v026 applies perpendicular measured sections without flattening raised features. Roof-to-wall dark gap, source fragment overlaps and rough feature seams still visible; NOT ACCEPTED/PUBLISHED."
+}

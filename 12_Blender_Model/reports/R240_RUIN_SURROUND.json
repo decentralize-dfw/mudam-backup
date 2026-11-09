@@ -1,0 +1,62 @@
+{
+  "accepted": false,
+  "published": false,
+  "measurement": {
+    "polygon": [
+      [
+        -237.625,
+        -186.2125
+      ],
+      [
+        -238.6,
+        -196.2875
+      ],
+      [
+        -226.25,
+        -202.625
+      ],
+      [
+        -215.3625,
+        -194.5
+      ]
+    ],
+    "origin": [
+      -225.78825887044272,
+      -196.93803448147244
+    ],
+    "plane": [
+      0.024767092518723,
+      0.009220978975520211,
+      -18.95071805088132
+    ],
+    "samples": 36,
+    "p90": 0.30163326641845184,
+    "support": 0.8888888888888888,
+    "accepted": false
+  },
+  "cut": [
+    {
+      "name": "R240_RUIN_SURROUND",
+      "beforeArea": 212.67293003201485,
+      "afterArea": 93.66921994397126
+    },
+    {
+      "name": "R154_FAR_GROUND",
+      "beforeArea": 1190963.7595958076,
+      "afterArea": 1190879.6775542297
+    }
+  ],
+  "reopen": [
+    {
+      "name": "R240_RUIN_SURROUND",
+      "finite": true,
+      "zero": 0
+    }
+  ],
+  "limits": [
+    "1.5m exclusion removes stone-wall contamination from measurements",
+    "Boundary blend and ruin contact require visual acceptance",
+    "Uphill apron and whole fort remain incomplete"
+  ],
+  "visualReview": "Rejected for publication: overlap removed locally but uphill cut boundary exposes gaps. Full modified terrain export validation pending. R239 remains baseline."
+}

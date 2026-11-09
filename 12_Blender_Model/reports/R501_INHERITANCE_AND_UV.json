@@ -1,0 +1,69 @@
+{
+  "unchanged": 18253,
+  "changed": [
+    "R457_NORTH_LOADING_COURT",
+    "R152_PATH_83345393",
+    "R152_PATH_759680913",
+    "R152_FORECOURT_0",
+    "R152_CLASS2_TERRAIN",
+    "R152_HISTORIC_WALL_563325237"
+  ],
+  "removed": [],
+  "added": [
+    "R485_NW_CONNECTOR",
+    "R485_NW_HISTORIC_RETAINING_WALL",
+    "R485_NW_LAWN",
+    "R485_NW_PATH",
+    "R486_NW_COURT_RETAINING_EDGE",
+    "R489_INSET_STONE_BORDER_0",
+    "R489_INSET_STONE_BORDER_1",
+    "R489_INSET_STONE_BORDER_2",
+    "R489_INSET_STONE_BORDER_3",
+    "R489_NW_DARK_HORIZONTAL_INSET",
+    "R490_NW_MINERAL_PASSAGE",
+    "R491_EAST_SIDE_LOWER_RUIN_FLOOR",
+    "R494_SOUTH_PAVILION_OUTER_RETAINING_WALL",
+    "R495_SOUTH_OUTER_WALL_EAST_RETURN"
+  ],
+  "unexpected": [],
+  "accepted": false,
+  "published": false,
+  "grassUvReopen": [
+    {
+      "name": "R322_WEST_MUSEUM_TERRACE",
+      "maxUvError": 5.0661592143619316e-08
+    },
+    {
+      "name": "R325_NORTH_RUIN_CENTRAL_COURT",
+      "maxUvError": 2.46522925961834e-08
+    },
+    {
+      "name": "R327_EAST_RUIN_CENTRAL_COURT",
+      "maxUvError": 2.2126751930695576e-08
+    },
+    {
+      "name": "R348_PAVILION_WEST_RUIN_FLOOR",
+      "maxUvError": 2.6094112481889198e-08
+    },
+    {
+      "name": "R363_PAVILION_EAST_0_RUIN_FLOOR",
+      "maxUvError": 1.9855650013056447e-08
+    },
+    {
+      "name": "R363_PAVILION_EAST_1_RUIN_FLOOR",
+      "maxUvError": 1.756098905181247e-08
+    },
+    {
+      "name": "R378_EAST_LONG_MOAT_RUIN_FLOOR",
+      "maxUvError": 2.3639249280282826e-08
+    },
+    {
+      "name": "R397_PAVILION_GROUND_CUT_CONTACT",
+      "maxUvError": 2.741342475243158e-08
+    },
+    {
+      "name": "R485_NW_LAWN",
+      "maxUvError": 2.8002403451576896e-08
+    }
+  ]
+}

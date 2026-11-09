@@ -1,0 +1,23 @@
+{
+  "file": "exports\\r152_clean\\r588_near_REVIEW.glb",
+  "bytes": 214164504,
+  "errors": [
+    {
+      "name": "R549_WEST_GLASS_EXTERNAL_GROUND_1",
+      "nonFinite": 0,
+      "zeroArea": 1
+    },
+    {
+      "name": "R154_FAR_GROUND",
+      "nonFinite": 0,
+      "zeroArea": 1
+    },
+    {
+      "name": "R154_FAR_ROADS",
+      "nonFinite": 0,
+      "zeroArea": 58
+    }
+  ],
+  "accepted": false,
+  "published": false
+}

@@ -1,0 +1,1354 @@
+{
+  "technicalOnly": true,
+  "sourceFidelityAccepted": false,
+  "file": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\exports\\r152_clean\\r211_north_architecture_REVIEW.glb",
+  "bytes": 5411852,
+  "triangles": 93288,
+  "zeroTriangles": 0,
+  "finite": true,
+  "blendReopen": [
+    {
+      "name": "R190_MAMA_TERRACE",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R190_MAMA_WARM_ROOF",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R190_MAMA_TECHNICAL",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R190_NOVOTEL_TECHNICAL",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R190_TERRACE_LONG_0",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R190_TERRACE_LONG_1",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R190_TERRACE_LONG_2",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R190_TERRACE_LONG_3",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R190_TERRACE_LONG_4",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R190_TERRACE_CROSS_0",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R190_TERRACE_CROSS_1",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R190_TERRACE_CROSS_2",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R190_TERRACE_CROSS_3",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R190_TERRACE_EDGE_0",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R190_TERRACE_EDGE_1",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R190_TERRACE_EDGE_2",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R190_TERRACE_EDGE_3",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R201_NOVOTEL_SUITES",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R206_PARAPET_NOVOTEL_HIGH",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R206_PARAPET_NOVOTEL_LOW",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R209_ROOF_DIVISION_00",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R209_ROOF_DIVISION_01",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R209_ROOF_DIVISION_02",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R209_ROOF_DIVISION_03",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R209_ROOF_DIVISION_04",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R209_ROOF_DIVISION_05",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R209_ROOF_DIVISION_06",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R209_ROOF_DIVISION_07",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R176_ANNEAU",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_000",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_001",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_002",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_003",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_004",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_005",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_006",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_007",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_008",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_009",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_010",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_011",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_012",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_013",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_014",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_015",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_016",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_017",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_018",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_019",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_020",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_021",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_022",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_023",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_024",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_025",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_026",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_027",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_028",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_029",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_030",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_031",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_032",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_033",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_034",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_035",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_036",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_037",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_038",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_039",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_040",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_041",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_042",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_043",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_044",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_045",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_046",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_047",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_048",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_049",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_050",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_051",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_052",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_053",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_054",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_055",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_056",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_057",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_058",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_059",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_060",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_061",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_062",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_063",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_064",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_065",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_066",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_067",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_068",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_069",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_070",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_071",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_072",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_073",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_074",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_075",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_076",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_077",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_078",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_079",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_080",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_081",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_082",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_083",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_084",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_085",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_086",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_087",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_088",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_089",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_090",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_091",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_092",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_093",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_094",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_095",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_096",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_097",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_098",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_099",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_100",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_101",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_102",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_103",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_104",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_105",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_106",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_107",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_108",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_109",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_110",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_111",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_112",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_113",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_114",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_115",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R176_ANCIEN_PALAIS",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R176_NOVOTEL_HIGH",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R176_NOVOTEL_LOW",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R176_MAMA_SHELTER.001",
+      "boundary": 0,
+      "zero": 0
+    }
+  ],
+  "glbReopen": [
+    {
+      "name": "R190_MAMA_TERRACE",
+      "boundary": 0
+    },
+    {
+      "name": "R190_MAMA_WARM_ROOF",
+      "boundary": 0
+    },
+    {
+      "name": "R190_MAMA_TECHNICAL",
+      "boundary": 0
+    },
+    {
+      "name": "R190_NOVOTEL_TECHNICAL",
+      "boundary": 0
+    },
+    {
+      "name": "R190_TERRACE_LONG_0",
+      "boundary": 0
+    },
+    {
+      "name": "R190_TERRACE_LONG_1",
+      "boundary": 0
+    },
+    {
+      "name": "R190_TERRACE_LONG_2",
+      "boundary": 0
+    },
+    {
+      "name": "R190_TERRACE_LONG_3",
+      "boundary": 0
+    },
+    {
+      "name": "R190_TERRACE_LONG_4",
+      "boundary": 0
+    },
+    {
+      "name": "R190_TERRACE_CROSS_0",
+      "boundary": 0
+    },
+    {
+      "name": "R190_TERRACE_CROSS_1",
+      "boundary": 0
+    },
+    {
+      "name": "R190_TERRACE_CROSS_2",
+      "boundary": 0
+    },
+    {
+      "name": "R190_TERRACE_CROSS_3",
+      "boundary": 0
+    },
+    {
+      "name": "R190_TERRACE_EDGE_0",
+      "boundary": 0
+    },
+    {
+      "name": "R190_TERRACE_EDGE_1",
+      "boundary": 0
+    },
+    {
+      "name": "R190_TERRACE_EDGE_2",
+      "boundary": 0
+    },
+    {
+      "name": "R190_TERRACE_EDGE_3",
+      "boundary": 0
+    },
+    {
+      "name": "R201_NOVOTEL_SUITES",
+      "boundary": 0
+    },
+    {
+      "name": "R206_PARAPET_NOVOTEL_HIGH",
+      "boundary": 0
+    },
+    {
+      "name": "R206_PARAPET_NOVOTEL_LOW",
+      "boundary": 0
+    },
+    {
+      "name": "R209_ROOF_DIVISION_00",
+      "boundary": 0
+    },
+    {
+      "name": "R209_ROOF_DIVISION_01",
+      "boundary": 0
+    },
+    {
+      "name": "R209_ROOF_DIVISION_02",
+      "boundary": 0
+    },
+    {
+      "name": "R209_ROOF_DIVISION_03",
+      "boundary": 0
+    },
+    {
+      "name": "R209_ROOF_DIVISION_04",
+      "boundary": 0
+    },
+    {
+      "name": "R209_ROOF_DIVISION_05",
+      "boundary": 0
+    },
+    {
+      "name": "R209_ROOF_DIVISION_06",
+      "boundary": 0
+    },
+    {
+      "name": "R209_ROOF_DIVISION_07",
+      "boundary": 0
+    },
+    {
+      "name": "R176_ANNEAU",
+      "boundary": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_000",
+      "boundary": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_001",
+      "boundary": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_002",
+      "boundary": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_003",
+      "boundary": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_004",
+      "boundary": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_005",
+      "boundary": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_006",
+      "boundary": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_007",
+      "boundary": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_008",
+      "boundary": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_009",
+      "boundary": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_010",
+      "boundary": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_011",
+      "boundary": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_012",
+      "boundary": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_013",
+      "boundary": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_014",
+      "boundary": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_015",
+      "boundary": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_016",
+      "boundary": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_017",
+      "boundary": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_018",
+      "boundary": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_019",
+      "boundary": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_020",
+      "boundary": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_021",
+      "boundary": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_022",
+      "boundary": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_023",
+      "boundary": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_024",
+      "boundary": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_025",
+      "boundary": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_026",
+      "boundary": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_027",
+      "boundary": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_028",
+      "boundary": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_029",
+      "boundary": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_030",
+      "boundary": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_031",
+      "boundary": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_032",
+      "boundary": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_033",
+      "boundary": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_034",
+      "boundary": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_035",
+      "boundary": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_036",
+      "boundary": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_037",
+      "boundary": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_038",
+      "boundary": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_039",
+      "boundary": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_040",
+      "boundary": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_041",
+      "boundary": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_042",
+      "boundary": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_043",
+      "boundary": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_044",
+      "boundary": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_045",
+      "boundary": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_046",
+      "boundary": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_047",
+      "boundary": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_048",
+      "boundary": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_049",
+      "boundary": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_050",
+      "boundary": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_051",
+      "boundary": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_052",
+      "boundary": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_053",
+      "boundary": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_054",
+      "boundary": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_055",
+      "boundary": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_056",
+      "boundary": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_057",
+      "boundary": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_058",
+      "boundary": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_059",
+      "boundary": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_060",
+      "boundary": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_061",
+      "boundary": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_062",
+      "boundary": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_063",
+      "boundary": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_064",
+      "boundary": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_065",
+      "boundary": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_066",
+      "boundary": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_067",
+      "boundary": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_068",
+      "boundary": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_069",
+      "boundary": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_070",
+      "boundary": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_071",
+      "boundary": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_072",
+      "boundary": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_073",
+      "boundary": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_074",
+      "boundary": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_075",
+      "boundary": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_076",
+      "boundary": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_077",
+      "boundary": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_078",
+      "boundary": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_079",
+      "boundary": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_080",
+      "boundary": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_081",
+      "boundary": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_082",
+      "boundary": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_083",
+      "boundary": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_084",
+      "boundary": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_085",
+      "boundary": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_086",
+      "boundary": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_087",
+      "boundary": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_088",
+      "boundary": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_089",
+      "boundary": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_090",
+      "boundary": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_091",
+      "boundary": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_092",
+      "boundary": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_093",
+      "boundary": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_094",
+      "boundary": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_095",
+      "boundary": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_096",
+      "boundary": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_097",
+      "boundary": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_098",
+      "boundary": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_099",
+      "boundary": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_100",
+      "boundary": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_101",
+      "boundary": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_102",
+      "boundary": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_103",
+      "boundary": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_104",
+      "boundary": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_105",
+      "boundary": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_106",
+      "boundary": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_107",
+      "boundary": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_108",
+      "boundary": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_109",
+      "boundary": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_110",
+      "boundary": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_111",
+      "boundary": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_112",
+      "boundary": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_113",
+      "boundary": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_114",
+      "boundary": 0
+    },
+    {
+      "name": "R176_ANNEAU_COLUMN_115",
+      "boundary": 0
+    },
+    {
+      "name": "R176_ANCIEN_PALAIS",
+      "boundary": 0
+    },
+    {
+      "name": "R176_NOVOTEL_HIGH",
+      "boundary": 0
+    },
+    {
+      "name": "R176_NOVOTEL_LOW",
+      "boundary": 0
+    },
+    {
+      "name": "R176_MAMA_SHELTER.001",
+      "boundary": 0
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "scene": "MUDAM_R389_KALE_KADEMELI_CATI_ADAY_v001.blend",
+  "accepted": false,
+  "published": false,
+  "meshChecks": [
+    {
+      "name": "R389_FORT_LOWER_METAL_ROOF",
+      "nonManifold": 0,
+      "zeroArea": 0
+    },
+    {
+      "name": "R389_FORT_RAISED_METAL_ROOF",
+      "nonManifold": 0,
+      "zeroArea": 0
+    },
+    {
+      "name": "R389_FORT_PERIMETER_LEDGE",
+      "nonManifold": 0,
+      "zeroArea": 0
+    },
+    {
+      "name": "R389_FORT_INNER_PARAPET",
+      "nonManifold": 0,
+      "zeroArea": 0
+    },
+    {
+      "name": "R389_FORT_INNER_COPING",
+      "nonManifold": 0,
+      "zeroArea": 0
+    }
+  ],
+  "clipped": [
+    {
+      "name": "R154_FORT_ROUNDED_EARTH_ROOF",
+      "cutTriangles": 541
+    }
+  ],
+  "limits": [
+    "Earth cover outside corrected opening remains inherited and requires reconstruction",
+    "End junction and upper roof/ledge transition require visual acceptance",
+    "Parapet crest nominal 3.49m from classified sections; local crest variation unresolved",
+    "No whole-ring acceptance"
+  ],
+  "glbErrors": []
+}

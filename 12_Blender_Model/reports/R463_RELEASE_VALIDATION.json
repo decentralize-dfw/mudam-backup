@@ -1,0 +1,30 @@
+{
+  "reviewOnly": true,
+  "fullScopeAccepted": false,
+  "sourceScene": "MUDAM_R463_KUZEYBATI_AVLU_CAM_DUZLEMI_ADAY_v001.blend",
+  "files": {
+    "near": {
+      "file": "12_Blender_Model/exports/r152_clean/r463_near_draco_webp_REVIEW.glb",
+      "bytes": 7925132,
+      "sha256": "9ce1f61581fc84a63a81a4e6103dc6a5a90a7428efb87a3ec71f862fdb782ece",
+      "triangles": 387377,
+      "zero": 0,
+      "removedDegenerates": 218,
+      "preservedRowNodes": 0,
+      "bounds": {
+        "min": [
+          -500,
+          -78.04438781738281,
+          -650
+        ],
+        "max": [
+          650.000244140625,
+          16.323524475097656,
+          450.000244140625
+        ]
+      },
+      "decoded": true,
+      "textures": 15
+    }
+  }
+}

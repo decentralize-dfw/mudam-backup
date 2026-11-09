@@ -1,0 +1,117 @@
+[
+  {
+    "id": "466675114",
+    "tags": {
+      "capacity": "168",
+      "electrified": "no",
+      "fee": "no",
+      "gauge": "1800",
+      "incline": "19.7%",
+      "name": "B",
+      "network": "CFL",
+      "note:opening_hours": "From the first train or tram to the last one.",
+      "opening_hours": "Mo-Su 04:45-00:30",
+      "operator": "CFL",
+      "passenger": "yes",
+      "railway": "funicular",
+      "ref": "B"
+    },
+    "xy": [
+      [
+        -355.8959779263241,
+        236.6226174933836
+      ],
+      [
+        -309.10852750280173,
+        232.88000757992268
+      ]
+    ]
+  },
+  {
+    "id": "466675116",
+    "tags": {
+      "capacity": "168",
+      "electrified": "no",
+      "fee": "no",
+      "gauge": "1800",
+      "incline": "19.7%",
+      "name": "A",
+      "network": "CFL",
+      "note:opening_hours": "From the first train or tram to the last one.",
+      "opening_hours": "Mo-Su 04:45-00:30",
+      "operator": "CFL",
+      "passenger": "yes",
+      "railway": "funicular",
+      "ref": "A"
+    },
+    "xy": [
+      [
+        -355.6441184361465,
+        246.07492058631033
+      ],
+      [
+        -310.9107126663439,
+        242.52191143855453
+      ]
+    ]
+  },
+  {
+    "id": "682347529",
+    "tags": {
+      "capacity": "168",
+      "electrified": "no",
+      "fee": "no",
+      "gauge": "1800",
+      "incline": "19.7%",
+      "layer": "-1",
+      "name": "A",
+      "network": "CFL",
+      "note:opening_hours": "From the first train or tram to the last one.",
+      "opening_hours": "Mo-Su 04:45-00:30",
+      "operator": "CFL",
+      "passenger": "yes",
+      "railway": "funicular",
+      "ref": "A",
+      "tunnel": "yes"
+    },
+    "xy": [
+      [
+        -310.9107126663439,
+        242.52191143855453
+      ],
+      [
+        -291.7462193063111,
+        240.97889933828264
+      ]
+    ]
+  },
+  {
+    "id": "682347530",
+    "tags": {
+      "capacity": "168",
+      "electrified": "no",
+      "fee": "no",
+      "gauge": "1800",
+      "incline": "19.7%",
+      "layer": "-1",
+      "name": "B",
+      "network": "CFL",
+      "note:opening_hours": "From the first train or tram to the last one.",
+      "opening_hours": "Mo-Su 04:45-00:30",
+      "operator": "CFL",
+      "passenger": "yes",
+      "railway": "funicular",
+      "tunnel": "yes"
+    },
+    "xy": [
+      [
+        -309.10852750280173,
+        232.88000757992268
+      ],
+      [
+        -292.589707973646,
+        231.37104160059243
+      ]
+    ]
+  }
+]

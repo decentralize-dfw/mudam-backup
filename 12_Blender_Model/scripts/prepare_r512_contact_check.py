@@ -1,0 +1,3 @@
+import json
+from pathlib import Path
+R=Path(__file__).resolve().parents[1];d=json.loads((R/'reports/R511_GROUND_CONTACT_AUDIT.json').read_text());q=[[r['x'],r['y'],r['ground']]for r in d['rows'] if r['object']=='R417_FORT_OPEN_END_EARTH_COVER' and abs(r['error'])>1];(R/'reports/R512_TARGET_CONTROLS.json').write_text(json.dumps(q));s=(R/'scripts/verify_r511_ground_contacts.py').read_text().replace('R511_STABLE_GROUND_CONTROLS','R512_TARGET_CONTROLS').replace('MUDAM_R508_BATI_KULE_EKSEN_ZEMIN_ADAY_v001.blend','MUDAM_R512_KALE_DIS_TASAN_TOPRAK_KESIM_ADAY_v001.blend').replace('<=508','<=512').replace('R511_GROUND_CONTACT_AUDIT','R512_TARGET_CONTACT_CHECK');(R/'scripts/verify_r512_contacts.py').write_text(s)

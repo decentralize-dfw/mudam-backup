@@ -1,0 +1,94 @@
+{
+  "candidate_only": true,
+  "method": "Near-vertical ACT faces within 3m of existing wall, middle 70 percent length; area-weighted median normal-plane offset; no scene edit",
+  "walls": [
+    {
+      "wall": 0,
+      "normal": [
+        -0.04640948803064251,
+        -0.9989224992063868
+      ],
+      "current_plane": 48.1762125827745,
+      "source_offset_m": 1.018177458561246,
+      "face_count": 4,
+      "area": 0.22160765109583735
+    },
+    {
+      "wall": 1,
+      "normal": [
+        -0.732320660894797,
+        -0.6809599471529937
+      ],
+      "current_plane": 15.443816271444021,
+      "source_offset_m": 0.015486272110373189,
+      "face_count": 36,
+      "area": 11.301407422870398
+    },
+    {
+      "wall": 2,
+      "normal": [
+        -0.9993403016697057,
+        0.03631750898260631
+      ],
+      "current_plane": -24.08651047138263,
+      "source_offset_m": -0.13246978593216532,
+      "face_count": 64,
+      "area": 18.559167977422476
+    },
+    {
+      "wall": 3,
+      "normal": [
+        -0.6809599472236804,
+        0.7323206608290678
+      ],
+      "current_plane": -43.686247741275665,
+      "source_offset_m": null,
+      "face_count": 0,
+      "area": 0.0
+    },
+    {
+      "wall": 4,
+      "normal": [
+        0.026221824813202732,
+        0.999656148834921
+      ],
+      "current_plane": -35.44206019158797,
+      "source_offset_m": 0.3337082545615479,
+      "face_count": 104,
+      "area": 17.19948672130704
+    },
+    {
+      "wall": 5,
+      "normal": [
+        0.7323206608866522,
+        0.6809599471617527
+      ],
+      "current_plane": -0.11904195114086491,
+      "source_offset_m": 1.0593528711460185,
+      "face_count": 30,
+      "area": 2.2930564116686583
+    },
+    {
+      "wall": 6,
+      "normal": [
+        0.9993403016698766,
+        -0.036317508977899336
+      ],
+      "current_plane": 37.442820881648665,
+      "source_offset_m": 1.5903676039320607,
+      "face_count": 105,
+      "area": 21.652543026953936
+    },
+    {
+      "wall": 7,
+      "normal": [
+        0.6809599472155355,
+        -0.7323206608366413
+      ],
+      "current_plane": 59.01102206240886,
+      "source_offset_m": 1.9198633005241437,
+      "face_count": 24,
+      "area": 1.6401704465970397
+    }
+  ]
+}

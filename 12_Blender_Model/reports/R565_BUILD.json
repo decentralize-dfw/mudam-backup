@@ -1,0 +1,22 @@
+{
+  "checks": [
+    {
+      "name": "R494_SOUTH_PAVILION_OUTER_RETAINING_WALL",
+      "nonManifold": 0,
+      "zeroArea": 0,
+      "signedVolume": 597.7209960340269
+    },
+    {
+      "name": "R495_SOUTH_OUTER_WALL_EAST_RETURN",
+      "nonManifold": 0,
+      "zeroArea": 0,
+      "signedVolume": 235.4826402783474
+    }
+  ],
+  "reopened": true,
+  "sharedEastJunctionGap": 0.0,
+  "accepted": false,
+  "published": false,
+  "aoNeedsRebakeForChangedWalls": true,
+  "source": "R565_WALL_DESIGN.json"
+}

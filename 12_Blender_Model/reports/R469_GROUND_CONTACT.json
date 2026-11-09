@@ -1,0 +1,34 @@
+{
+  "scene": "MUDAM_R469_CIM_KOT_SUREKLILIGI_ADAY_v001.blend",
+  "topology": {
+    "nonManifold": 0,
+    "zeroArea": 0
+  },
+  "boundaryContacts": 76,
+  "maxBoundaryGap": 4.440892098500626e-15,
+  "uvFitRms": 9.575568877099499e-09,
+  "cuts": [
+    {
+      "name": "R152_FORECOURT_0",
+      "cutTriangles": 120
+    },
+    {
+      "name": "R152_CLASS2_TERRAIN",
+      "cutTriangles": 324
+    }
+  ],
+  "source": {
+    "heldout": 32,
+    "training": 93,
+    "rms": 0.07581980832393578,
+    "max": 0.19398412208517257
+  },
+  "accepted": false,
+  "published": false,
+  "limits": [
+    "Only source-measured grass core;1m transition follows inherited terrain whose whole source accuracy is unaccepted.",
+    "Adjacent narrow glazing and retaining faces still pending."
+  ],
+  "visualAccepted": false,
+  "rejection": "Same-camera view shows an artificial elongated depression with faceted transition bands. Boundary closure and lower-core measured fit do not establish correct whole lawn geometry. Do not promote R467/R469 over R464."
+}

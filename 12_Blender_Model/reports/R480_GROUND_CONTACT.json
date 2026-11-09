@@ -1,0 +1,39 @@
+{
+  "scene": "MUDAM_R480_TAM_AVLU_SEVLERI_ADAY_v001.blend",
+  "topology": {
+    "nonManifold": 0,
+    "zeroArea": 0
+  },
+  "boundaryContacts": 0,
+  "maxBoundaryGap": null,
+  "uvFitRms": 9.575568877099499e-09,
+  "cuts": [
+    {
+      "name": "R152_FORECOURT_0",
+      "cutTriangles": 219
+    },
+    {
+      "name": "R152_CLASS2_TERRAIN",
+      "cutTriangles": 243
+    }
+  ],
+  "source": {
+    "heldout": 352,
+    "training": 1022,
+    "rms": 0.08568268494266357,
+    "max": 0.307072295837056,
+    "classification": "Model-selection diagnostic, not an independent accuracy certificate"
+  },
+  "accepted": false,
+  "published": false,
+  "limits": [
+    "Full traced lawn replaces interior patch; grade model diagnostic RMS .086m, max .307m; west crest cap separately fitted, not accepted.",
+    "Adjacent narrow glazing and retaining faces still pending."
+  ],
+  "visualAccepted": false,
+  "visualFindings": [
+    "Full source-traced lawn and independently authored banks replace artificial interior-core patch.",
+    "Source comparison still shows unmatched north lawn/court edge, missing narrow dark-strip assembly and historical diagonal retaining-wall relationship.",
+    "No publication or master promotion."
+  ]
+}

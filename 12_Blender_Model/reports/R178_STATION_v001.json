@@ -1,0 +1,23 @@
+{
+  "accepted": false,
+  "source": "ACT traced independent roof domains; no source mesh or facade textures",
+  "roof_plane_residuals": [
+    {
+      "name": "NORTH_CANOPY",
+      "p90": 0.05870252827276823
+    },
+    {
+      "name": "SOUTH_CANOPY",
+      "p90": 0.035768207231663574
+    },
+    {
+      "name": "CENTRAL_GLAZING",
+      "p90": 0.11922501174793806
+    }
+  ],
+  "limits": [
+    "Facade base interpolated from exterior ground reference endpoints; requires section comparison",
+    "Facade module spacing is provisional; exact opening count not yet accepted",
+    "Forecourt and terrain cut still required; station not accepted as complete"
+  ]
+}

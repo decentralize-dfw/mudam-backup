@@ -1,0 +1,24 @@
+{
+  "changed": [
+    "R152_CLASS2_TERRAIN",
+    "R152_HISTORIC_WALL_453755312",
+    "R152_HISTORIC_WALL_759551379",
+    "R152_PATH_759680913",
+    "R152_PATH_824216705",
+    "R152_RUIN_PARTITION_00",
+    "R152_RUIN_PARTITION_10",
+    "R326_NORTH_RUIN_CROSSWALL_02",
+    "R327_EAST_RUIN_CENTRAL_COURT"
+  ],
+  "added": [
+    "R331_EAST_NORTH_RUIN_FLOOR",
+    "R331_EAST_SIDE_UPPER_RUIN_FLOOR",
+    "R331_NORTH_NE_RUIN_FLOOR",
+    "R331_NORTH_NW_RUIN_FLOOR"
+  ],
+  "removed": [],
+  "unexpected": [],
+  "unchanged": 18086,
+  "museumGeometryPreserved": true,
+  "scope": "Geometry positions, face loop indices and object matrices; not a source-fidelity acceptance"
+}

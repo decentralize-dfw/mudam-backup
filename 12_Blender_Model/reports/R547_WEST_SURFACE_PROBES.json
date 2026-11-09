@@ -1,0 +1,174 @@
+{
+  "source": [
+    {
+      "x": -20.5,
+      "y": 10.5,
+      "z": 2.3313674926757812,
+      "object": "Mesh_0.042",
+      "material": "ACT_2020_PHOTOTEXTURE.042"
+    },
+    {
+      "x": -17,
+      "y": 10,
+      "z": -3.2033119201660156,
+      "object": "Mesh_0.042",
+      "material": "ACT_2020_PHOTOTEXTURE.042"
+    },
+    {
+      "x": -15,
+      "y": 9,
+      "z": -3.302875518798828,
+      "object": "Mesh_0.042",
+      "material": "ACT_2020_PHOTOTEXTURE.042"
+    },
+    {
+      "x": -23,
+      "y": 10.5,
+      "z": 4.707927703857422,
+      "object": "Mesh_0.020",
+      "material": "ACT_2020_PHOTOTEXTURE.020"
+    },
+    {
+      "x": -25,
+      "y": 10,
+      "z": 1.8921737670898438,
+      "object": "Mesh_0.020",
+      "material": "ACT_2020_PHOTOTEXTURE.020"
+    },
+    {
+      "x": -26,
+      "y": 1.5,
+      "z": -6.04608154296875,
+      "object": "Mesh_0.020",
+      "material": "ACT_2020_PHOTOTEXTURE.020"
+    },
+    {
+      "x": -26,
+      "y": 2,
+      "z": -5.987377166748047,
+      "object": "Mesh_0.020",
+      "material": "ACT_2020_PHOTOTEXTURE.020"
+    },
+    {
+      "x": -26,
+      "y": 3,
+      "z": -5.909828186035156,
+      "object": "Mesh_0.020",
+      "material": "ACT_2020_PHOTOTEXTURE.020"
+    },
+    {
+      "x": -25,
+      "y": 3,
+      "z": -5.722454071044922,
+      "object": "Mesh_0.020",
+      "material": "ACT_2020_PHOTOTEXTURE.020"
+    },
+    {
+      "x": -24,
+      "y": 2,
+      "z": -5.5789947509765625,
+      "object": "Mesh_0.020",
+      "material": "ACT_2020_PHOTOTEXTURE.020"
+    },
+    {
+      "x": -27,
+      "y": 2,
+      "z": -6.175029754638672,
+      "object": "Mesh_0.020",
+      "material": "ACT_2020_PHOTOTEXTURE.020"
+    },
+    {
+      "x": -32,
+      "y": 2.8,
+      "z": -6.974571228027344,
+      "object": "Mesh_0.020",
+      "material": "ACT_2020_PHOTOTEXTURE.020"
+    }
+  ],
+  "candidate": [
+    {
+      "x": -20.5,
+      "y": 10.5,
+      "z": 2.9529190063476562,
+      "object": "P11_WEST_4_00_00_FRAME_0",
+      "material": "R16_EXTERIOR_DARK_COATING_CANDIDATE"
+    },
+    {
+      "x": -17,
+      "y": 10,
+      "z": null,
+      "object": null,
+      "material": null
+    },
+    {
+      "x": -15,
+      "y": 9,
+      "z": null,
+      "object": null,
+      "material": null
+    },
+    {
+      "x": -23,
+      "y": 10.5,
+      "z": 3.151470184326172,
+      "object": "P11_WEST_6_00_00",
+      "material": "P10_GLASS_PREVIEW"
+    },
+    {
+      "x": -25,
+      "y": 10,
+      "z": 2.9155502319335938,
+      "object": "P11_WEST_STONE_BASE_7",
+      "material": "R146_GRAIN_STONE_CANDIDATE"
+    },
+    {
+      "x": -26,
+      "y": 1.5,
+      "z": -5.8541717529296875,
+      "object": "R525_WEST_TERRACE_EXISTING_SLOPING_EDGES",
+      "material": "R523_WEST_TERRACE_MINERAL"
+    },
+    {
+      "x": -26,
+      "y": 2,
+      "z": -6.014137268066406,
+      "object": "R525_WEST_TERRACE_EXISTING_SLOPING_EDGES",
+      "material": "R523_WEST_TERRACE_MINERAL"
+    },
+    {
+      "x": -26,
+      "y": 3,
+      "z": -6.014133453369141,
+      "object": "R525_WEST_TERRACE_EXISTING_SLOPING_EDGES",
+      "material": "R523_WEST_TERRACE_MINERAL"
+    },
+    {
+      "x": -25,
+      "y": 3,
+      "z": -5.808887481689453,
+      "object": "R525_WEST_TERRACE_EXISTING_SLOPING_EDGES",
+      "material": "R523_WEST_TERRACE_MINERAL"
+    },
+    {
+      "x": -24,
+      "y": 2,
+      "z": -5.6036376953125,
+      "object": "R525_WEST_TERRACE_EXISTING_SLOPING_EDGES",
+      "material": "R523_WEST_TERRACE_MINERAL"
+    },
+    {
+      "x": -27,
+      "y": 2,
+      "z": -5.030067443847656,
+      "object": "R525_WEST_TERRACE_EXISTING_SLOPING_EDGES",
+      "material": "R523_WEST_TERRACE_MINERAL"
+    },
+    {
+      "x": -32,
+      "y": 2.8,
+      "z": -6.747425079345703,
+      "object": "R152_CLASS2_TERRAIN",
+      "material": "R157_CONTINUOUS_LANDCOVER"
+    }
+  ]
+}

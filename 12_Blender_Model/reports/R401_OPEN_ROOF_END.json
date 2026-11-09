@@ -1,0 +1,49 @@
+{
+  "scene": "MUDAM_R401_KALE_ACIK_TERAS_UCU_ADAY_v001.blend",
+  "accepted": false,
+  "published": false,
+  "source": "references/fort_inpa/rooftop_view_2_Zinneke_CC_BY_SA_3.jpg",
+  "changes": [
+    "R400_SLOPED_PERIMETER_FASCIA",
+    "R400_PERIMETER_CLERESTORY_GLASS",
+    "R400_PERIMETER_WINDOW_FRAMES",
+    "R400_PERIMETER_HORIZONTAL_LOUVERS",
+    "R389_FORT_PERIMETER_LEDGE",
+    "R401_FORT_OPEN_END_TIMBER_DECK"
+  ],
+  "checks": [
+    {
+      "name": "R400_SLOPED_PERIMETER_FASCIA",
+      "nonManifold": 0,
+      "zeroArea": 0
+    },
+    {
+      "name": "R400_PERIMETER_CLERESTORY_GLASS",
+      "nonManifold": 0,
+      "zeroArea": 0
+    },
+    {
+      "name": "R400_PERIMETER_WINDOW_FRAMES",
+      "nonManifold": 0,
+      "zeroArea": 0
+    },
+    {
+      "name": "R400_PERIMETER_HORIZONTAL_LOUVERS",
+      "nonManifold": 0,
+      "zeroArea": 0
+    },
+    {
+      "name": "R389_FORT_PERIMETER_LEDGE",
+      "nonManifold": 0,
+      "zeroArea": 0
+    },
+    {
+      "name": "R401_FORT_OPEN_END_TIMBER_DECK",
+      "nonManifold": 0,
+      "zeroArea": 0
+    }
+  ],
+  "limits": [
+    "Open roof-end is corrected; tower court, staircase and historic wall detailing still incomplete. No whole-ring acceptance."
+  ]
+}

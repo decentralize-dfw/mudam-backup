@@ -1,0 +1,143 @@
+{
+  "limitations": [
+    "Selected coherent ACT wall planes adjust starting OSM footprint. Roof samples are interpolated on corrected outline; candidate only.",
+    "Roof interpolation from 0.4m ACT samples; missing edge samples use nearest valid roof sample.",
+    "Separate party-wall surfaces and fine facade relief remain unresolved."
+  ],
+  "scene": "MUDAM_R169_GUNEY_CATILAR_ADAY_v004.blend",
+  "vertices": 10113,
+  "accepted": false,
+  "published": false,
+  "ground_contacts": 2036,
+  "ground_min_overlap": 0.0799999999999983,
+  "wall_stats": [
+    {
+      "id": "164179154",
+      "roof_triangles": 4180,
+      "wall_spans": 186,
+      "footprint_uncovered_m2": 0.0,
+      "footprint_area_m2": 318.53319309562124
+    },
+    {
+      "id": "164179194",
+      "roof_triangles": 4104,
+      "wall_spans": 184,
+      "footprint_uncovered_m2": 0.0,
+      "footprint_area_m2": 312.61774351733527
+    },
+    {
+      "id": "164179202",
+      "roof_triangles": 1364,
+      "wall_spans": 106,
+      "footprint_uncovered_m2": 0.0,
+      "footprint_area_m2": 101.59031635012884
+    },
+    {
+      "id": "164179244",
+      "roof_triangles": 5698,
+      "wall_spans": 228,
+      "footprint_uncovered_m2": 0.0,
+      "footprint_area_m2": 442.3212559051364
+    },
+    {
+      "id": "1337806219",
+      "roof_triangles": 1232,
+      "wall_spans": 100,
+      "footprint_uncovered_m2": 0.0,
+      "footprint_area_m2": 93.17862508450015
+    },
+    {
+      "id": "1337806220",
+      "roof_triangles": 1232,
+      "wall_spans": 100,
+      "footprint_uncovered_m2": 0.0,
+      "footprint_area_m2": 91.0918475661689
+    },
+    {
+      "id": "1337806221",
+      "roof_triangles": 1540,
+      "wall_spans": 114,
+      "footprint_uncovered_m2": 0.0,
+      "footprint_area_m2": 113.0248027720437
+    }
+  ],
+  "status": "rejected_for_publication",
+  "geometry_changes": [
+    {
+      "id": "164179154",
+      "applied": [
+        {
+          "edge": 0,
+          "offset": -0.34999999999999676,
+          "support": 0.7515204769318515
+        },
+        {
+          "edge": 3,
+          "offset": -0.44999999999999685,
+          "support": 0.8422827046020658
+        }
+      ]
+    },
+    {
+      "id": "164179194",
+      "applied": [
+        {
+          "edge": 2,
+          "offset": -0.44999999999999685,
+          "support": 0.7892865222457706
+        }
+      ]
+    },
+    {
+      "id": "164179202",
+      "applied": []
+    },
+    {
+      "id": "164179244",
+      "applied": [
+        {
+          "edge": 3,
+          "offset": 0.8500000000000041,
+          "support": 0.753666460891522
+        }
+      ]
+    },
+    {
+      "id": "1337806219",
+      "applied": [
+        {
+          "edge": 0,
+          "offset": 1.0500000000000047,
+          "support": 0.8893317487271729
+        },
+        {
+          "edge": 2,
+          "offset": -0.04999999999999649,
+          "support": 0.960686380555762
+        }
+      ]
+    },
+    {
+      "id": "1337806220",
+      "applied": [
+        {
+          "edge": 0,
+          "offset": 1.2500000000000044,
+          "support": 0.7522271960610107
+        }
+      ]
+    },
+    {
+      "id": "1337806221",
+      "applied": [
+        {
+          "edge": 2,
+          "offset": -1.3499999999999976,
+          "support": 0.7457636158332801
+        }
+      ]
+    }
+  ],
+  "review": "Eight source-supported wall plane corrections generated and reopened. Same-camera comparison still shows facade vegetation transfer, black gaps and texture stretching. This is not a publishable improvement. Further arbitrary cage or global plane tuning is not justified.",
+  "next_action": "Reconstruct visible facade openings and setbacks per building from source facade views; separate facade material from vegetation occlusion. Preserve roof reference and original OSM targets. Do not publish v001-v004."
+}

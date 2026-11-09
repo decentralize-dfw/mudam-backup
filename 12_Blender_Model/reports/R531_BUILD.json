@@ -1,0 +1,20 @@
+{
+  "check": {
+    "nonManifold": 0,
+    "zeroArea": 0
+  },
+  "cut": [
+    {
+      "name": "R152_CLASS2_TERRAIN",
+      "cutTriangles": 449
+    }
+  ],
+  "reopened": true,
+  "planeValidation": {
+    "count": 99,
+    "rms": 0.03673249115327459,
+    "max": 0.12211584360635364
+  },
+  "accepted": false,
+  "published": false
+}

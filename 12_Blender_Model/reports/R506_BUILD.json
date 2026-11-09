@@ -1,0 +1,30 @@
+{
+  "rows": [
+    {
+      "name": "R424_WEST_TOWER_BODY",
+      "oldMaterials": [
+        "R154_FORT_STONE_PBR"
+      ],
+      "newMaterial": "R506_TOWER_SANDSTONE_CC0"
+    },
+    {
+      "name": "R424_CENTRE_TOWER_BODY",
+      "oldMaterials": [
+        "R154_FORT_STONE_PBR"
+      ],
+      "newMaterial": "R506_TOWER_SANDSTONE_CC0"
+    },
+    {
+      "name": "R424_SOUTH_TOWER_BODY",
+      "oldMaterials": [
+        "R154_FORT_STONE_PBR"
+      ],
+      "newMaterial": "R506_TOWER_SANDSTONE_CC0"
+    }
+  ],
+  "reopened": true,
+  "accepted": false,
+  "published": false,
+  "geometryChanged": false,
+  "source": "R506_MATERIAL_SOURCE.json"
+}

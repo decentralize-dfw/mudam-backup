@@ -1,0 +1,49 @@
+{
+  "scene": "MUDAM_R403_KALE_CATI_ERISIM_ACIKLIGI_ADAY_v001.blend",
+  "accepted": false,
+  "published": false,
+  "sourcePixels": [
+    [
+      273,
+      787
+    ],
+    [
+      336,
+      735
+    ],
+    [
+      353,
+      752
+    ],
+    [
+      291,
+      804
+    ]
+  ],
+  "checks": [
+    {
+      "name": "R389_FORT_LOWER_METAL_ROOF",
+      "nonManifold": 0,
+      "zeroArea": 0
+    },
+    {
+      "name": "R401_FORT_OPEN_END_TIMBER_DECK",
+      "nonManifold": 0,
+      "zeroArea": 0
+    },
+    {
+      "name": "R400_TIMBER_DECK_JOINTS",
+      "nonManifold": 0,
+      "zeroArea": 0
+    },
+    {
+      "name": "R403_FORT_ROOF_ACCESS_GUARD",
+      "nonManifold": 0,
+      "zeroArea": 0
+    }
+  ],
+  "limits": [
+    "Only source-visible roof opening and guard reconstructed. Interior staircase depth and lower landing are not visible in these sources and are not claimed complete.",
+    "Railing dimensions are photo-derived nominal modeling values. Whole marked perimeter remains incomplete."
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "scene": "MUDAM_R458_BATI_SERVIS_AVLU_KOTU_ADAY_v001.blend",
+  "check": {
+    "nonManifold": 0,
+    "zeroArea": 0
+  },
+  "cuts": [
+    {
+      "name": "R152_PATH_51768376",
+      "cutTriangles": 105
+    },
+    {
+      "name": "R152_FORECOURT_0",
+      "cutTriangles": 124
+    },
+    {
+      "name": "R152_CLASS2_TERRAIN",
+      "cutTriangles": 132
+    }
+  ],
+  "retired": [
+    "R152_FORECOURT_0",
+    "R152_PATH_51768376"
+  ],
+  "source": {
+    "heldout": 28,
+    "training": 98,
+    "rms": 0.01940680620468704,
+    "max": 0.038894666475615125
+  },
+  "accepted": false,
+  "published": false,
+  "limits": [
+    "Perimeter terrain transitions and west entry path need visual verification; source boundary not cadastral survey."
+  ]
+}

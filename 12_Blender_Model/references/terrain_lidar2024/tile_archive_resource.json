@@ -1,0 +1,36 @@
+{
+  "checksum": {
+    "type": "sha1",
+    "value": "f8650c5eee38d941921199a0c6e1f64b985c9b34"
+  },
+  "created_at": "2024-11-30T22:52:28.070000+00:00",
+  "description": null,
+  "extras": {
+    "analysis:error": "File too large to download",
+    "analysis:last-modified-at": "2024-11-30T21:51:47+00:00",
+    "analysis:last-modified-detection": "last-modified-header",
+    "check:date": "2025-07-23T13:17:39.100203+00:00",
+    "check:headers:content-length": 1700086212,
+    "check:headers:content-type": "application/zip",
+    "check:status": 200,
+    "check:timeout": false
+  },
+  "filesize": 1700086212,
+  "filetype": "file",
+  "format": "zip",
+  "harvest": null,
+  "id": "9bc4df35-4c5a-4d79-8a05-a2faadd6dab1",
+  "internal": {
+    "created_at_internal": "2024-11-30T22:52:28.070000+00:00",
+    "last_modified_internal": "2024-11-30T22:51:46+00:00"
+  },
+  "last_modified": "2024-11-30T22:51:46+00:00",
+  "latest": "https://data.public.lu/fr/datasets/r/9bc4df35-4c5a-4d79-8a05-a2faadd6dab1",
+  "metrics": {},
+  "mime": "application/zip",
+  "preview_url": null,
+  "schema": null,
+  "title": "lidar2024-c020-r013.zip",
+  "type": "other",
+  "url": "https://download.data.public.lu/resources/bd-l-lidar2024-releve-3d-du-territoire-luxembourgeois/20241130-225035/lidar2024-c020-r013.zip"
+}

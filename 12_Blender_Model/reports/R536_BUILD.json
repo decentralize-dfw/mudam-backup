@@ -1,0 +1,24 @@
+{
+  "check": {
+    "nonManifold": 0,
+    "zeroArea": 0
+  },
+  "reopened": true,
+  "cuts": [
+    {
+      "name": "R152_PATH_759680913",
+      "cutTriangles": 311
+    },
+    {
+      "name": "R152_CLASS2_TERRAIN",
+      "cutTriangles": 329
+    }
+  ],
+  "sourceControls": {
+    "count": 41,
+    "rms": 0.0476562640919727,
+    "max": 0.17017718052170094
+  },
+  "accepted": false,
+  "published": false
+}

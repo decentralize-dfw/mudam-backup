@@ -1,0 +1,70 @@
+{
+  "reviewOnly": true,
+  "fullScopeAccepted": false,
+  "sourceScene": "MUDAM_R577_KALE_DUVAR_KAPALI_KABUK_ADAY_v001.blend",
+  "files": {
+    "near": {
+      "file": "12_Blender_Model/exports/r152_clean/r577_near_draco_webp_REVIEW.glb",
+      "bytes": 33310192,
+      "sha256": "2e3865ec4360772307341880f3e85182eae55491196e5f2c1ab3e5112b013fe9",
+      "triangles": 399959,
+      "zero": 0,
+      "removedDegenerates": 329,
+      "preservedRowNodes": 0,
+      "bounds": {
+        "min": [
+          -500,
+          -78.04438781738281,
+          -650
+        ],
+        "max": [
+          804508.9375,
+          16.32353973388672,
+          98290.734375
+        ]
+      },
+      "decoded": true,
+      "occlusionMaterials": [
+        {
+          "name": "R554_WEATHERED_COURSED_STONE_CC0_R561_AO",
+          "uv": 2
+        },
+        {
+          "name": "R545_DRY_EARTH_PATCHY_TURF_R561_AO",
+          "uv": 2
+        },
+        {
+          "name": "R554_WEATHERED_COURSED_STONE_CC0_R561_AO",
+          "uv": 2
+        },
+        {
+          "name": "R545_DRY_EARTH_PATCHY_TURF_R561_AO",
+          "uv": 2
+        },
+        {
+          "name": "R554_WEATHERED_COURSED_STONE_CC0_R561_AO",
+          "uv": 2
+        },
+        {
+          "name": "R554_WEATHERED_COURSED_STONE_CC0_R571_AO",
+          "uv": 2
+        },
+        {
+          "name": "R545_DRY_EARTH_PATCHY_TURF_R561_AO",
+          "uv": 2
+        },
+        {
+          "name": "R554_WEATHERED_COURSED_STONE_CC0_R561_AO",
+          "uv": 2
+        }
+      ],
+      "textures": 23
+    }
+  },
+  "uvCompaction": {
+    "stripped": 440,
+    "reboundAttributes": 240,
+    "maxChannel": 2,
+    "losslessCoordinateArrays": true
+  }
+}

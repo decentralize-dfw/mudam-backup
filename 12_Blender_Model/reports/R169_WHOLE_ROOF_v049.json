@@ -1,0 +1,24 @@
+{
+  "scene": "MUDAM_R169_BUTUN_KAYNAK_CATI_ADAY_v049.blend",
+  "accepted": false,
+  "published": false,
+  "source_samples": 3577,
+  "removed_faces": 1055,
+  "maximum_smoothing_m": 0.06781090630425979,
+  "limits": [
+    "Whole surface rebuilt from source sections, no source mesh copied",
+    "Roof outline manually traced; boundary and facade joins need visual acceptance",
+    "No claim of exact construction details or complete building",
+    "Frame width 0.055m and 0.035m face offset are assumptions",
+    "Roof fields use source XY trace but are placed on analytic slope, not their independently measured planes",
+    "Ridge feature rectangular extents do not establish exact architectural shape"
+  ],
+  "roof_polygons": 3,
+  "visual_acceptance": false,
+  "source_comparison": "3337 independent vertical rays: p50 0.05408m, p90 0.36806m, p95 0.47485m, maximum 1.17950m; fails source fidelity.",
+  "rejected_details": [
+    "Third source-height cluster was converted into a rectangular raised volume, but source visual does not justify this box; do not accept this geometry.",
+    "Rear window panels lie on inferred fascia, not verified recess geometry. Their source-derived locations do not establish correct eave/front relationship.",
+    "Three-plane analytic envelope is visually cleaner but still misses central rear slope domain; whole reconstruction remains incomplete."
+  ]
+}

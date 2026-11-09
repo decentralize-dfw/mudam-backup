@@ -1,0 +1,153 @@
+{
+  "accepted": false,
+  "source": "R169_arch_rear_reference_v079.png",
+  "window_groups": 8,
+  "assigned": {
+    "ARCH_WALL_MASS_0": [
+      [
+        1.060875365510583e-05,
+        "ARCH_WALL_MASS_0",
+        27.70386375432496,
+        29.110113350829433,
+        -68.1099140625,
+        -66.5806171875,
+        -65.08047492831855,
+        2
+      ],
+      [
+        1.060875365510583e-05,
+        "ARCH_WALL_MASS_0",
+        23.291753433959737,
+        25.278080351252573,
+        -68.1626484375,
+        -66.9673359375,
+        -65.09323056840918,
+        3
+      ],
+      [
+        1.060875365510583e-05,
+        "ARCH_WALL_MASS_0",
+        6.082773972894384,
+        7.489024433666252,
+        -68.1450703125,
+        -66.5454609375,
+        -65.14298262182433,
+        2
+      ],
+      [
+        1.060875365510583e-05,
+        "ARCH_WALL_MASS_0",
+        4.237066996540643,
+        4.940189619223232,
+        -68.1099140625,
+        -66.6157734375,
+        -65.14831865655457,
+        1
+      ]
+    ],
+    "ARCH_REAR_PROJECTION_WALL_0": [
+      [
+        0.5012473464012146,
+        "ARCH_REAR_PROJECTION_WALL_0",
+        1.5288003628023425,
+        3.0251762707712273,
+        -65.2446796875,
+        -63.979054687499996,
+        -63.68156981634174,
+        2
+      ],
+      [
+        0.5012473464012146,
+        "ARCH_REAR_PROJECTION_WALL_0",
+        5.41937129300964,
+        7.6023204954771275,
+        -68.1978046875,
+        -66.9673359375,
+        -64.08723650328712,
+        3
+      ],
+      [
+        0.5012473464012146,
+        "ARCH_REAR_PROJECTION_WALL_0",
+        1.6168228217864054,
+        2.8491315859819064,
+        -68.4614765625,
+        -66.8442890625,
+        -63.66596719153317,
+        2
+      ],
+      [
+        0.5012473464012146,
+        "ARCH_REAR_PROJECTION_WALL_0",
+        5.472186075880271,
+        7.514297936692537,
+        -71.3618671875,
+        -70.2192890625,
+        -64.07943517170446,
+        3
+      ]
+    ]
+  },
+  "pending": [
+    {
+      "rect": [
+        110,
+        108,
+        180,
+        170,
+        2
+      ],
+      "reason": "Above actual current wall boundary; requires dormer/roof detail, do not force hole."
+    },
+    {
+      "rect": [
+        325,
+        105,
+        415,
+        177,
+        2
+      ],
+      "reason": "Above actual current wall boundary; requires dormer/roof detail, do not force hole."
+    },
+    {
+      "rect": [
+        795,
+        108,
+        892,
+        180,
+        3
+      ],
+      "reason": "Above actual current wall boundary; requires dormer/roof detail, do not force hole."
+    },
+    {
+      "rect": [
+        1295,
+        97,
+        1380,
+        180,
+        2
+      ],
+      "reason": "Above actual current wall boundary; requires dormer/roof detail, do not force hole."
+    },
+    {
+      "rect": [
+        1555,
+        110,
+        1640,
+        180,
+        2
+      ],
+      "reason": "Above actual current wall boundary; requires dormer/roof detail, do not force hole."
+    },
+    {
+      "rect": [
+        1710,
+        110,
+        1775,
+        180,
+        2
+      ],
+      "reason": "Above actual current wall boundary; requires dormer/roof detail, do not force hole."
+    }
+  ]
+}

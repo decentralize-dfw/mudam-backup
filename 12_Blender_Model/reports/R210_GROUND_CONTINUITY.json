@@ -1,0 +1,92 @@
+{
+  "accepted": false,
+  "missing_domains": [
+    {
+      "name": "R210_GROUND_CONTINUITY_00",
+      "area": 0.6694243303657833,
+      "maximum_boundary_adjustment": 0.0052890777587890625,
+      "triangles": 1
+    },
+    {
+      "name": "R210_GROUND_CONTINUITY_01",
+      "area": 0.6502148200000121,
+      "maximum_boundary_adjustment": 1.0967254638671875e-05,
+      "triangles": 3
+    },
+    {
+      "name": "R210_GROUND_CONTINUITY_02",
+      "area": 0.07115905500001565,
+      "maximum_boundary_adjustment": 0.02237415313720703,
+      "triangles": 6
+    },
+    {
+      "name": "R210_GROUND_CONTINUITY_03",
+      "area": 0.16965410000001857,
+      "maximum_boundary_adjustment": 0.009943008422851562,
+      "triangles": 6
+    },
+    {
+      "name": "R210_GROUND_CONTINUITY_04",
+      "area": 0.45449226500000145,
+      "maximum_boundary_adjustment": 0.0033979415893554688,
+      "triangles": 6
+    },
+    {
+      "name": "R210_GROUND_CONTINUITY_05",
+      "area": 0.05276452542455797,
+      "maximum_boundary_adjustment": 7.62939453125e-06,
+      "triangles": 1
+    },
+    {
+      "name": "R210_GROUND_CONTINUITY_06",
+      "area": 0.011570158042501402,
+      "maximum_boundary_adjustment": 0.052725791931152344,
+      "triangles": 2
+    },
+    {
+      "name": "R210_GROUND_CONTINUITY_07",
+      "area": 0.7767563550000052,
+      "maximum_boundary_adjustment": 0.0150299072265625,
+      "triangles": 6
+    },
+    {
+      "name": "R210_GROUND_CONTINUITY_08",
+      "area": 0.003842259999998571,
+      "maximum_boundary_adjustment": 0.0006856918334960938,
+      "triangles": 1
+    },
+    {
+      "name": "R210_GROUND_CONTINUITY_09",
+      "area": 1.7471550235668443,
+      "maximum_boundary_adjustment": 1.33514404296875e-05,
+      "triangles": 7
+    },
+    {
+      "name": "R210_GROUND_CONTINUITY_10",
+      "area": 0.1028028050000008,
+      "maximum_boundary_adjustment": 1.239776611328125e-05,
+      "triangles": 1
+    },
+    {
+      "name": "R210_GROUND_CONTINUITY_11",
+      "area": 1.718492454999977,
+      "maximum_boundary_adjustment": 0.00372314453125,
+      "triangles": 4
+    },
+    {
+      "name": "R210_GROUND_CONTINUITY_12",
+      "area": 0.2185209450000154,
+      "maximum_boundary_adjustment": 8.58306884765625e-06,
+      "triangles": 3
+    },
+    {
+      "name": "R210_GROUND_CONTINUITY_13",
+      "area": 2.716639715000059,
+      "maximum_boundary_adjustment": 0.05930805206298828,
+      "triangles": 10
+    }
+  ],
+  "area": 9.36348881239979,
+  "scope": "Only bounded accidental terrain coverage gaps outside mapped building footprints; original DEM and adjoining boundary heights",
+  "full11RegionsAccepted": false
+}

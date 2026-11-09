@@ -1,0 +1,197 @@
+{
+  "scene": "MUDAM_R327_DOGU_KALINTI_PLAN_ADAY_v001.blend",
+  "accepted": false,
+  "published": false,
+  "changedWallVertices": 72,
+  "previousWallTop": 0.3027256429195404,
+  "revisedWallTop": -0.08,
+  "outline": [
+    [
+      389,
+      12
+    ],
+    [
+      858,
+      194
+    ],
+    [
+      600,
+      719
+    ],
+    [
+      343,
+      650
+    ]
+  ],
+  "recesses": [
+    [
+      [
+        414,
+        151
+      ],
+      [
+        505,
+        173
+      ],
+      [
+        532,
+        97
+      ],
+      [
+        574,
+        113
+      ],
+      [
+        547,
+        191
+      ],
+      [
+        610,
+        216
+      ],
+      [
+        638,
+        139
+      ],
+      [
+        682,
+        157
+      ],
+      [
+        654,
+        235
+      ],
+      [
+        703,
+        254
+      ],
+      [
+        727,
+        185
+      ],
+      [
+        812,
+        211
+      ],
+      [
+        780,
+        292
+      ]
+    ],
+    [
+      [
+        659,
+        309
+      ],
+      [
+        763,
+        346
+      ],
+      [
+        737,
+        392
+      ],
+      [
+        632,
+        353
+      ]
+    ],
+    [
+      [
+        616,
+        411
+      ],
+      [
+        721,
+        449
+      ],
+      [
+        696,
+        496
+      ],
+      [
+        590,
+        455
+      ]
+    ],
+    [
+      [
+        568,
+        518
+      ],
+      [
+        671,
+        553
+      ],
+      [
+        608,
+        684
+      ],
+      [
+        505,
+        642
+      ]
+    ],
+    [
+      [
+        448,
+        515
+      ],
+      [
+        466,
+        480
+      ],
+      [
+        539,
+        529
+      ],
+      [
+        525,
+        560
+      ]
+    ]
+  ],
+  "meshChecks": [
+    {
+      "name": "R327_EAST_RUIN_RAISED_PLATFORM",
+      "nonManifold": 0,
+      "zeroArea": 0
+    },
+    {
+      "name": "R327_EAST_RUIN_CENTRAL_COURT",
+      "nonManifold": 0,
+      "zeroArea": 0
+    },
+    {
+      "name": "R327_EAST_RUIN_CROSSWALL_00",
+      "nonManifold": 0,
+      "zeroArea": 0
+    }
+  ],
+  "glbChecks": [
+    {
+      "name": "R327_EAST_RUIN_RAISED_PLATFORM",
+      "nonFinite": 0,
+      "zeroArea": 0
+    },
+    {
+      "name": "R327_EAST_RUIN_CROSSWALL_00",
+      "nonFinite": 0,
+      "zeroArea": 0
+    },
+    {
+      "name": "R327_EAST_RUIN_CENTRAL_COURT",
+      "nonFinite": 0,
+      "zeroArea": 0
+    }
+  ],
+  "sourceCourtTreesHidden": [
+    "R158_TREE_06134",
+    "R158_TREE_06303"
+  ],
+  "limits": [
+    "Chamber floors and outer moat still need source checks",
+    "Platform material and perimeter alignment require matched-view review",
+    "Not a whole-ring acceptance"
+  ]
+}

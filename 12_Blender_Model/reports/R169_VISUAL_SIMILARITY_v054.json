@@ -1,0 +1,28 @@
+{
+  "method": "Unlit source and authored model, identical orthographic cameras, visible reconstructed roof mask only. Local luminance SSIM 7x7 uniform window; mask eroded3px for window support. Not whole environment or overall similarity percentage.",
+  "views": [
+    {
+      "view": "rear",
+      "visible_roof_pixels": 120548,
+      "ssim_7x7": 0.9421314294080151,
+      "rgb_mae": 0.011352340650896851,
+      "pixels_with_max_channel_error_below_10percent": 96.84358098019047
+    },
+    {
+      "view": "front",
+      "visible_roof_pixels": 162719,
+      "ssim_7x7": 0.9628067566008786,
+      "rgb_mae": 0.008539907624543968,
+      "pixels_with_max_channel_error_below_10percent": 97.86871846557563
+    },
+    {
+      "view": "top",
+      "visible_roof_pixels": 178008,
+      "ssim_7x7": 0.9795712158621452,
+      "rgb_mae": 0.0037942188395439676,
+      "pixels_with_max_channel_error_below_10percent": 99.44721585546718
+    }
+  ],
+  "accepted": false,
+  "published": false
+}

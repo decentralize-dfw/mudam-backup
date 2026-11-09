@@ -1,0 +1,200 @@
+[
+  {
+    "face": 82762,
+    "normal": [
+      0.03086746111512184,
+      -0.0048940712586045265,
+      -0.9995114803314209
+    ],
+    "material": "R157_CONTINUOUS_LANDCOVER",
+    "vertices": [
+      [
+        345.0,
+        429.6567077636719,
+        10.129199981689453
+      ],
+      [
+        345.0,
+        425.0,
+        10.15200138092041
+      ],
+      [
+        344.1383361816406,
+        425.0,
+        10.125391006469727
+      ]
+    ],
+    "uv": [
+      [
+        0.7347826361656189,
+        0.799687922000885
+      ],
+      [
+        0.7347826361656189,
+        0.7954545617103577
+      ],
+      [
+        0.7340333461761475,
+        0.7954545617103577
+      ]
+    ],
+    "nodes": [
+      {
+        "type": "BSDF_PRINCIPLED",
+        "image": null
+      },
+      {
+        "type": "OUTPUT_MATERIAL",
+        "image": null
+      },
+      {
+        "type": "TEX_IMAGE",
+        "image": "R157_landcover_atlas.jpg"
+      },
+      {
+        "type": "TEX_IMAGE",
+        "image": "R157_ground_micro_normal.png"
+      },
+      {
+        "type": "UVMAP",
+        "image": null
+      },
+      {
+        "type": "NORMAL_MAP",
+        "image": null
+      }
+    ]
+  },
+  {
+    "face": 79793,
+    "normal": [
+      0.04503816366195679,
+      -0.007374700624495745,
+      -0.9989579916000366
+    ],
+    "material": "R157_CONTINUOUS_LANDCOVER",
+    "vertices": [
+      [
+        310.0,
+        450.0,
+        8.89645767211914
+      ],
+      [
+        310.0,
+        455.0,
+        8.859545707702637
+      ],
+      [
+        315.0,
+        455.0,
+        9.08497142791748
+      ]
+    ],
+    "uv": [
+      [
+        0.7043478488922119,
+        0.8181818127632141
+      ],
+      [
+        0.7043478488922119,
+        0.8227272629737854
+      ],
+      [
+        0.708695650100708,
+        0.8227272629737854
+      ]
+    ],
+    "nodes": [
+      {
+        "type": "BSDF_PRINCIPLED",
+        "image": null
+      },
+      {
+        "type": "OUTPUT_MATERIAL",
+        "image": null
+      },
+      {
+        "type": "TEX_IMAGE",
+        "image": "R157_landcover_atlas.jpg"
+      },
+      {
+        "type": "TEX_IMAGE",
+        "image": "R157_ground_micro_normal.png"
+      },
+      {
+        "type": "UVMAP",
+        "image": null
+      },
+      {
+        "type": "NORMAL_MAP",
+        "image": null
+      }
+    ]
+  },
+  {
+    "face": 83700,
+    "normal": [
+      0.014449993148446083,
+      -0.01634323224425316,
+      -0.9997620582580566
+    ],
+    "material": "R157_CONTINUOUS_LANDCOVER",
+    "vertices": [
+      [
+        355.0,
+        420.0,
+        10.20976448059082
+      ],
+      [
+        355.0,
+        415.0,
+        10.291500091552734
+      ],
+      [
+        350.6983337402344,
+        415.0,
+        10.229326248168945
+      ]
+    ],
+    "uv": [
+      [
+        0.7434782385826111,
+        0.7909091114997864
+      ],
+      [
+        0.7434782385826111,
+        0.7863636612892151
+      ],
+      [
+        0.7397376894950867,
+        0.7863636612892151
+      ]
+    ],
+    "nodes": [
+      {
+        "type": "BSDF_PRINCIPLED",
+        "image": null
+      },
+      {
+        "type": "OUTPUT_MATERIAL",
+        "image": null
+      },
+      {
+        "type": "TEX_IMAGE",
+        "image": "R157_landcover_atlas.jpg"
+      },
+      {
+        "type": "TEX_IMAGE",
+        "image": "R157_ground_micro_normal.png"
+      },
+      {
+        "type": "UVMAP",
+        "image": null
+      },
+      {
+        "type": "NORMAL_MAP",
+        "image": null
+      }
+    ]
+  }
+]

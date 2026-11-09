@@ -1,0 +1,576 @@
+{
+  "source": [
+    {
+      "name": "north_wall_A",
+      "sourcePixel": [
+        720,
+        210
+      ],
+      "xy": [
+        -6.857142857142861,
+        62.0
+      ],
+      "medianZ": 0.18647003173828125,
+      "spread": 0.100921630859375,
+      "hits": 9,
+      "objects": [
+        "Mesh_0.061"
+      ]
+    },
+    {
+      "name": "north_wall_B",
+      "sourcePixel": [
+        800,
+        211
+      ],
+      "xy": [
+        5.714285714285708,
+        61.84285714285714
+      ],
+      "medianZ": -0.5142364501953125,
+      "spread": 0.29241943359375,
+      "hits": 9,
+      "objects": [
+        "Mesh_0.061"
+      ]
+    },
+    {
+      "name": "north_wall_C",
+      "sourcePixel": [
+        860,
+        212
+      ],
+      "xy": [
+        15.142857142857139,
+        61.68571428571428
+      ],
+      "medianZ": -0.5854873657226562,
+      "spread": 0.30088043212890625,
+      "hits": 9,
+      "objects": [
+        "Mesh_0.061"
+      ]
+    },
+    {
+      "name": "east_curve_A",
+      "sourcePixel": [
+        1070,
+        227
+      ],
+      "xy": [
+        48.14285714285714,
+        59.32857142857143
+      ],
+      "medianZ": -0.3131103515625,
+      "spread": 0.576568603515625,
+      "hits": 9,
+      "objects": [
+        "Mesh_0.062"
+      ]
+    },
+    {
+      "name": "east_curve_B",
+      "sourcePixel": [
+        1127,
+        300
+      ],
+      "xy": [
+        57.099999999999994,
+        47.857142857142854
+      ],
+      "medianZ": -0.70733642578125,
+      "spread": 0.48863983154296875,
+      "hits": 9,
+      "objects": [
+        "Mesh_0.069"
+      ]
+    },
+    {
+      "name": "east_wall_A",
+      "sourcePixel": [
+        1114,
+        490
+      ],
+      "xy": [
+        55.05714285714285,
+        18.0
+      ],
+      "medianZ": -0.09259796142578125,
+      "spread": 0.13318634033203125,
+      "hits": 9,
+      "objects": [
+        "Mesh_0.043"
+      ]
+    },
+    {
+      "name": "east_wall_B",
+      "sourcePixel": [
+        1106,
+        580
+      ],
+      "xy": [
+        53.80000000000001,
+        3.857142857142861
+      ],
+      "medianZ": -0.2342529296875,
+      "spread": 2.6125564575195312,
+      "hits": 9,
+      "objects": [
+        "Mesh_0.043"
+      ]
+    },
+    {
+      "name": "east_wall_C",
+      "sourcePixel": [
+        1098,
+        661
+      ],
+      "xy": [
+        52.542857142857144,
+        -8.871428571428567
+      ],
+      "medianZ": -0.998046875,
+      "spread": 3.346771240234375,
+      "hits": 9,
+      "objects": [
+        "Mesh_0.043"
+      ]
+    },
+    {
+      "name": "north_bridge_center",
+      "sourcePixel": [
+        940,
+        270
+      ],
+      "xy": [
+        27.714285714285722,
+        52.57142857142857
+      ],
+      "medianZ": 0.12216949462890625,
+      "spread": 0.131072998046875,
+      "hits": 9,
+      "objects": [
+        "Mesh_0.062"
+      ]
+    },
+    {
+      "name": "east_bridge_center",
+      "sourcePixel": [
+        1070,
+        400
+      ],
+      "xy": [
+        48.14285714285714,
+        32.142857142857146
+      ],
+      "medianZ": -0.12526702880859375,
+      "spread": 0.017303466796875,
+      "hits": 9,
+      "objects": [
+        "Mesh_0.062"
+      ]
+    },
+    {
+      "name": "fort_front_bridge",
+      "sourcePixel": [
+        292,
+        985
+      ],
+      "xy": [
+        -74.11428571428571,
+        -59.78571428571428
+      ],
+      "medianZ": -6.135581970214844,
+      "spread": 0.07442474365234375,
+      "hits": 9,
+      "objects": [
+        "Mesh_0.013"
+      ]
+    },
+    {
+      "name": "north_ruin_outer",
+      "sourcePixel": [
+        574,
+        111
+      ],
+      "xy": [
+        -29.799999999999997,
+        77.55714285714285
+      ],
+      "medianZ": 0.33606719970703125,
+      "spread": 0.19083404541015625,
+      "hits": 9,
+      "objects": [
+        "Mesh_0.056"
+      ]
+    },
+    {
+      "name": "north_ruin_outer2",
+      "sourcePixel": [
+        632,
+        183
+      ],
+      "xy": [
+        -20.685714285714283,
+        66.24285714285715
+      ],
+      "medianZ": -0.9579391479492188,
+      "spread": 1.301605224609375,
+      "hits": 9,
+      "objects": [
+        "Mesh_0.054",
+        "Mesh_0.056"
+      ]
+    },
+    {
+      "name": "east_ruin_outer",
+      "sourcePixel": [
+        1208,
+        745
+      ],
+      "xy": [
+        69.82857142857142,
+        -22.07142857142857
+      ],
+      "medianZ": -2.191680908203125,
+      "spread": 0.49166107177734375,
+      "hits": 9,
+      "objects": [
+        "Mesh_0.045"
+      ]
+    },
+    {
+      "name": "pavilion_outer_wall",
+      "sourcePixel": [
+        787,
+        919
+      ],
+      "xy": [
+        3.671428571428578,
+        -49.41428571428571
+      ],
+      "medianZ": -3.3731842041015625,
+      "spread": 2.9388580322265625,
+      "hits": 9,
+      "objects": [
+        "Mesh_0.035",
+        "Mesh_0.040"
+      ]
+    },
+    {
+      "name": "south_outer_wall",
+      "sourcePixel": [
+        1115,
+        988
+      ],
+      "xy": [
+        55.21428571428572,
+        -60.25714285714287
+      ],
+      "medianZ": -5.829933166503906,
+      "spread": 1.31787109375,
+      "hits": 9,
+      "objects": [
+        "Mesh_0.038"
+      ]
+    }
+  ],
+  "model": [
+    {
+      "name": "north_wall_A",
+      "sourcePixel": [
+        720,
+        210
+      ],
+      "xy": [
+        -6.857142857142861,
+        62.0
+      ],
+      "medianZ": 0.3216400146484375,
+      "spread": 0.05597686767578125,
+      "hits": 9,
+      "objects": [
+        "R152_CLASS2_TERRAIN"
+      ],
+      "modelMinusSource": 0.13516998291015625
+    },
+    {
+      "name": "north_wall_B",
+      "sourcePixel": [
+        800,
+        211
+      ],
+      "xy": [
+        5.714285714285708,
+        61.84285714285714
+      ],
+      "medianZ": -0.8865280151367188,
+      "spread": 0.10297393798828125,
+      "hits": 9,
+      "objects": [
+        "R152_CLASS2_TERRAIN"
+      ],
+      "modelMinusSource": -0.37229156494140625
+    },
+    {
+      "name": "north_wall_C",
+      "sourcePixel": [
+        860,
+        212
+      ],
+      "xy": [
+        15.142857142857139,
+        61.68571428571428
+      ],
+      "medianZ": -0.7969589233398438,
+      "spread": 0.204437255859375,
+      "hits": 9,
+      "objects": [
+        "R152_CLASS2_TERRAIN"
+      ],
+      "modelMinusSource": -0.2114715576171875
+    },
+    {
+      "name": "east_curve_A",
+      "sourcePixel": [
+        1070,
+        227
+      ],
+      "xy": [
+        48.14285714285714,
+        59.32857142857143
+      ],
+      "medianZ": -0.32530975341796875,
+      "spread": 0.0271759033203125,
+      "hits": 9,
+      "objects": [
+        "R152_HISTORIC_WALL_49911001"
+      ],
+      "modelMinusSource": -0.01219940185546875
+    },
+    {
+      "name": "east_curve_B",
+      "sourcePixel": [
+        1127,
+        300
+      ],
+      "xy": [
+        57.099999999999994,
+        47.857142857142854
+      ],
+      "medianZ": -0.31497955322265625,
+      "spread": 0.77935791015625,
+      "hits": 9,
+      "objects": [
+        "R152_CLASS2_TERRAIN",
+        "R152_HISTORIC_WALL_49911001"
+      ],
+      "modelMinusSource": 0.39235687255859375
+    },
+    {
+      "name": "east_wall_A",
+      "sourcePixel": [
+        1114,
+        490
+      ],
+      "xy": [
+        55.05714285714285,
+        18.0
+      ],
+      "medianZ": -0.14588165283203125,
+      "spread": 2.54827880859375,
+      "hits": 9,
+      "objects": [
+        "R152_FORECOURT_2",
+        "R152_HISTORIC_WALL_49911001"
+      ],
+      "modelMinusSource": -0.05328369140625
+    },
+    {
+      "name": "east_wall_B",
+      "sourcePixel": [
+        1106,
+        580
+      ],
+      "xy": [
+        53.80000000000001,
+        3.857142857142861
+      ],
+      "medianZ": -2.714111328125,
+      "spread": 2.8785476684570312,
+      "hits": 9,
+      "objects": [
+        "R152_CLASS2_TERRAIN",
+        "R152_HISTORIC_WALL_49911001"
+      ],
+      "modelMinusSource": -2.4798583984375
+    },
+    {
+      "name": "east_wall_C",
+      "sourcePixel": [
+        1098,
+        661
+      ],
+      "xy": [
+        52.542857142857144,
+        -8.871428571428567
+      ],
+      "medianZ": -3.8250579833984375,
+      "spread": 0.8784332275390625,
+      "hits": 9,
+      "objects": [
+        "R152_CLASS2_TERRAIN"
+      ],
+      "modelMinusSource": -2.8270111083984375
+    },
+    {
+      "name": "north_bridge_center",
+      "sourcePixel": [
+        940,
+        270
+      ],
+      "xy": [
+        27.714285714285722,
+        52.57142857142857
+      ],
+      "medianZ": 7.62939453125e-06,
+      "spread": 0.0,
+      "hits": 9,
+      "objects": [
+        "R34_APPROACH_CONTINUOUS_DECK"
+      ],
+      "modelMinusSource": -0.122161865234375
+    },
+    {
+      "name": "east_bridge_center",
+      "sourcePixel": [
+        1070,
+        400
+      ],
+      "xy": [
+        48.14285714285714,
+        32.142857142857146
+      ],
+      "medianZ": 0.0,
+      "spread": 2.288818359375e-05,
+      "hits": 9,
+      "objects": [
+        "R34_APPROACH_CONTINUOUS_DECK"
+      ],
+      "modelMinusSource": 0.12526702880859375
+    },
+    {
+      "name": "fort_front_bridge",
+      "sourcePixel": [
+        292,
+        985
+      ],
+      "xy": [
+        -74.11428571428571,
+        -59.78571428571428
+      ],
+      "medianZ": -6.073097229003906,
+      "spread": 2.288818359375e-05,
+      "hits": 9,
+      "objects": [
+        "R154_FORT_ENTRANCE_BRIDGE"
+      ],
+      "modelMinusSource": 0.0624847412109375
+    },
+    {
+      "name": "north_ruin_outer",
+      "sourcePixel": [
+        574,
+        111
+      ],
+      "xy": [
+        -29.799999999999997,
+        77.55714285714285
+      ],
+      "medianZ": 0.45703125,
+      "spread": 0.34336090087890625,
+      "hits": 9,
+      "objects": [
+        "R152_HISTORIC_WALL_759551379",
+        "R152_RUIN_PARTITION_00"
+      ],
+      "modelMinusSource": 0.12096405029296875
+    },
+    {
+      "name": "north_ruin_outer2",
+      "sourcePixel": [
+        632,
+        183
+      ],
+      "xy": [
+        -20.685714285714283,
+        66.24285714285715
+      ],
+      "medianZ": -2.4190292358398438,
+      "spread": 1.622833251953125,
+      "hits": 9,
+      "objects": [
+        "R152_PATH_824216705",
+        "R152_RUIN_PARTITION_08"
+      ],
+      "modelMinusSource": -1.461090087890625
+    },
+    {
+      "name": "east_ruin_outer",
+      "sourcePixel": [
+        1208,
+        745
+      ],
+      "xy": [
+        69.82857142857142,
+        -22.07142857142857
+      ],
+      "medianZ": -2.6537017822265625,
+      "spread": 0.03836822509765625,
+      "hits": 9,
+      "objects": [
+        "R152_CLASS2_TERRAIN",
+        "R152_PATH_759680913"
+      ],
+      "modelMinusSource": -0.4620208740234375
+    },
+    {
+      "name": "pavilion_outer_wall",
+      "sourcePixel": [
+        787,
+        919
+      ],
+      "xy": [
+        3.671428571428578,
+        -49.41428571428571
+      ],
+      "medianZ": -6.880455017089844,
+      "spread": 0.082763671875,
+      "hits": 9,
+      "objects": [
+        "R152_CLASS2_TERRAIN"
+      ],
+      "modelMinusSource": -3.5072708129882812
+    },
+    {
+      "name": "south_outer_wall",
+      "sourcePixel": [
+        1115,
+        988
+      ],
+      "xy": [
+        55.21428571428572,
+        -60.25714285714287
+      ],
+      "medianZ": -6.140785217285156,
+      "spread": 1.0398941040039062,
+      "hits": 9,
+      "objects": [
+        "R152_CLASS2_TERRAIN"
+      ],
+      "modelMinusSource": -0.31085205078125
+    }
+  ],
+  "accepted": false,
+  "method": "9 vertical samples in0.6m square at manually selected visible source ground locations; vegetation and vertical surfaces may contaminate samples; not global accuracy proof"
+}

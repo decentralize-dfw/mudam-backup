@@ -1,0 +1,188 @@
+{
+  "scene": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R154_GENIS_ARAZI_KALE_v003.blend",
+  "terrain_extent": [
+    -500,
+    -450,
+    650,
+    650
+  ],
+  "terrain_updates": [
+    {
+      "name": "R152_PATH_34122543",
+      "max_change": 0.44256551527190524,
+      "changed": 155
+    },
+    {
+      "name": "R152_PATH_37862401",
+      "max_change": 0.08159152540859105,
+      "changed": 52
+    },
+    {
+      "name": "R152_PATH_49908630",
+      "max_change": 0.06684048302159251,
+      "changed": 42
+    },
+    {
+      "name": "R152_PATH_49910981",
+      "max_change": 0.19880407312955328,
+      "changed": 33
+    },
+    {
+      "name": "R152_PATH_49910983",
+      "max_change": 0.24551240335031377,
+      "changed": 67
+    },
+    {
+      "name": "R152_PATH_50643005",
+      "max_change": 0.21187743494829164,
+      "changed": 43
+    },
+    {
+      "name": "R152_PATH_51768373",
+      "max_change": 0.46061180291147164,
+      "changed": 22
+    },
+    {
+      "name": "R152_PATH_51768375",
+      "max_change": 0.5,
+      "changed": 21
+    },
+    {
+      "name": "R152_PATH_51768376",
+      "max_change": 0.08685179423590039,
+      "changed": 64
+    },
+    {
+      "name": "R152_PATH_83345376",
+      "max_change": 0.13937478805405323,
+      "changed": 487
+    },
+    {
+      "name": "R152_PATH_83345387",
+      "max_change": 0.08225205116890599,
+      "changed": 108
+    },
+    {
+      "name": "R152_PATH_83345393",
+      "max_change": 0.0922315588034443,
+      "changed": 1147
+    },
+    {
+      "name": "R152_PATH_151551525",
+      "max_change": 0.3056323784036117,
+      "changed": 85
+    },
+    {
+      "name": "R152_PATH_173271133",
+      "max_change": 0.035484520129581476,
+      "changed": 38
+    },
+    {
+      "name": "R152_PATH_192104187",
+      "max_change": 0.5,
+      "changed": 105
+    },
+    {
+      "name": "R152_PATH_454636393",
+      "max_change": 0.09552552823748606,
+      "changed": 115
+    },
+    {
+      "name": "R152_PATH_542470958",
+      "max_change": 0.09664278984364823,
+      "changed": 51
+    },
+    {
+      "name": "R152_PATH_542470959",
+      "max_change": 0.11195679595343393,
+      "changed": 103
+    },
+    {
+      "name": "R152_PATH_759551377",
+      "max_change": 0.47456664349602473,
+      "changed": 82
+    },
+    {
+      "name": "R152_PATH_759680911",
+      "max_change": 0.5,
+      "changed": 74
+    },
+    {
+      "name": "R152_PATH_759680913",
+      "max_change": 0.0,
+      "changed": 0
+    },
+    {
+      "name": "R152_PATH_759683796",
+      "max_change": 0.5,
+      "changed": 120
+    },
+    {
+      "name": "R152_PATH_824216705",
+      "max_change": 0.20450359823367448,
+      "changed": 47
+    },
+    {
+      "name": "R152_PATH_824216707",
+      "max_change": 0.11762888523268078,
+      "changed": 13
+    },
+    {
+      "name": "R152_PATH_903866847",
+      "max_change": 0.0452308674372538,
+      "changed": 14
+    },
+    {
+      "name": "R152_PATH_1276584237",
+      "max_change": 0.02752004862602131,
+      "changed": 9
+    },
+    {
+      "name": "R152_PATH_1420370347",
+      "max_change": 0.12050863041439797,
+      "changed": 81
+    },
+    {
+      "name": "R152_PATH_1420370349",
+      "max_change": 0.5,
+      "changed": 80
+    },
+    {
+      "name": "R152_FORECOURT_0",
+      "max_change": 0.5,
+      "changed": 229
+    },
+    {
+      "name": "R152_FORECOURT_1",
+      "max_change": 0.4255526256133723,
+      "changed": 256
+    },
+    {
+      "name": "R152_FORECOURT_2",
+      "max_change": 0.0,
+      "changed": 0
+    },
+    {
+      "name": "R152_CLASS2_TERRAIN",
+      "max_change": 0.5,
+      "changed": 10592
+    }
+  ],
+  "new_objects": 49,
+  "normal_mapped_materials": [
+    "R154_TURF_PBR",
+    "R154_FORT_STONE_PBR",
+    "R154_PATH_PBR",
+    "R154_ROAD_PBR",
+    "R154_FORT_EARTH_ROOF"
+  ],
+  "limits": [
+    "Near contact/wall zones locked; other near elevations adjusted at most 0.5m to suppress acquisition noise.",
+    "Far terrain smoothed over 1m; inherited vertical datum candidate.",
+    "Untagged OSM road widths estimated; detailed junction and stair geometry remains separate.",
+    "Fort footprint from OSM; portal positions follow ACT bridge trace.",
+    "Opening widths, cornice offsets and acorn profiles are visual reconstruction candidates, not measured details.",
+    "Roof samples restricted to 1.8-4.5m to reject tree canopies."
+  ],
+  "accepted": false
+}

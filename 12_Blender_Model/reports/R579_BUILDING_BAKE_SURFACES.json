@@ -1,0 +1,3009 @@
+[
+  {
+    "name": "R99_W_GROUND_GALLERY_ENTRY_WALL",
+    "area": 178.88907128572464,
+    "faces": 20,
+    "materials": [
+      "R17_PAVILION_WHITE_FINISH_CANDIDATE"
+    ],
+    "level": "L00"
+  },
+  {
+    "name": "R111_W_GALLERY_APPROACH_SOFFIT",
+    "area": 242.16158625483513,
+    "faces": 23,
+    "materials": [
+      "P05_NEUTRAL_ENVELOPE"
+    ],
+    "level": "L00"
+  },
+  {
+    "name": "R112_E_GALLERY_APPROACH_SOFFIT",
+    "area": 110.16074949502945,
+    "faces": 23,
+    "materials": [
+      "P05_NEUTRAL_ENVELOPE"
+    ],
+    "level": "L00"
+  },
+  {
+    "name": "R113_E_GALLERY_SERVICE_BOUNDARY",
+    "area": 79.40367221832275,
+    "faces": 6,
+    "materials": [
+      "R17_PAVILION_WHITE_FINISH_CANDIDATE"
+    ],
+    "level": "L00"
+  },
+  {
+    "name": "R113_W_GALLERY_SERVICE_BOUNDARY",
+    "area": 89.64128065109253,
+    "faces": 6,
+    "materials": [
+      "R17_PAVILION_WHITE_FINISH_CANDIDATE"
+    ],
+    "level": "L00"
+  },
+  {
+    "name": "R114_LOWER_STAIR_LANDING_STONE_BLADE",
+    "area": 22.0427787899971,
+    "faces": 6,
+    "materials": [
+      "P05_NEUTRAL_ENVELOPE",
+      "R147_GRAIN_STONE_CANDIDATE",
+      "R147_JOINT_STONE_CANDIDATE"
+    ],
+    "level": "LM1_L00"
+  },
+  {
+    "name": "R03_PODIUM_1_REPAIRED",
+    "area": 71.361824283842,
+    "faces": 593,
+    "materials": [
+      "R46_STONE_GRAIN_APPEARANCE_CANDIDATE",
+      "R46_STONE_JOINT_APPEARANCE_CANDIDATE"
+    ],
+    "level": "L00"
+  },
+  {
+    "name": "R03_PODIUM_2_REPAIRED",
+    "area": 52.23282778216526,
+    "faces": 500,
+    "materials": [
+      "R46_STONE_GRAIN_APPEARANCE_CANDIDATE",
+      "R46_STONE_JOINT_APPEARANCE_CANDIDATE"
+    ],
+    "level": "L00"
+  },
+  {
+    "name": "R03_PODIUM_3_WITH_RECESS",
+    "area": 34.94272433966398,
+    "faces": 404,
+    "materials": [
+      "R46_STONE_GRAIN_APPEARANCE_CANDIDATE",
+      "R46_STONE_JOINT_APPEARANCE_CANDIDATE"
+    ],
+    "level": "L00"
+  },
+  {
+    "name": "R04_TREAD_ENVELOPE_12",
+    "area": 15.95555514082298,
+    "faces": 29,
+    "materials": [
+      "R46_STONE_GRAIN_APPEARANCE_CANDIDATE",
+      "R46_STONE_JOINT_APPEARANCE_CANDIDATE"
+    ],
+    "level": "MULTI"
+  },
+  {
+    "name": "R04_TREAD_ENVELOPE_13",
+    "area": 17.03528854822798,
+    "faces": 29,
+    "materials": [
+      "R46_STONE_GRAIN_APPEARANCE_CANDIDATE",
+      "R46_STONE_JOINT_APPEARANCE_CANDIDATE"
+    ],
+    "level": "MULTI"
+  },
+  {
+    "name": "R04_TREAD_ENVELOPE_14",
+    "area": 18.06561379013874,
+    "faces": 29,
+    "materials": [
+      "R46_STONE_GRAIN_APPEARANCE_CANDIDATE",
+      "R46_STONE_JOINT_APPEARANCE_CANDIDATE"
+    ],
+    "level": "MULTI"
+  },
+  {
+    "name": "R04_TREAD_ENVELOPE_15",
+    "area": 19.038624593158602,
+    "faces": 29,
+    "materials": [
+      "R46_STONE_GRAIN_APPEARANCE_CANDIDATE",
+      "R46_STONE_JOINT_APPEARANCE_CANDIDATE"
+    ],
+    "level": "MULTI"
+  },
+  {
+    "name": "R04_TREAD_ENVELOPE_16",
+    "area": 19.946242399222683,
+    "faces": 29,
+    "materials": [
+      "R46_STONE_GRAIN_APPEARANCE_CANDIDATE",
+      "R46_STONE_JOINT_APPEARANCE_CANDIDATE"
+    ],
+    "level": "MULTI"
+  },
+  {
+    "name": "R04_TREAD_ENVELOPE_17",
+    "area": 20.780263551772805,
+    "faces": 29,
+    "materials": [
+      "R46_STONE_GRAIN_APPEARANCE_CANDIDATE",
+      "R46_STONE_JOINT_APPEARANCE_CANDIDATE"
+    ],
+    "level": "MULTI"
+  },
+  {
+    "name": "R04_TREAD_ENVELOPE_18",
+    "area": 21.537761737738037,
+    "faces": 17,
+    "materials": [
+      "R46_STONE_GRAIN_APPEARANCE_CANDIDATE",
+      "R46_STONE_JOINT_APPEARANCE_CANDIDATE"
+    ],
+    "level": "MULTI"
+  },
+  {
+    "name": "R04_TREAD_ENVELOPE_19",
+    "area": 22.236479222774506,
+    "faces": 8,
+    "materials": [
+      "R46_STONE_GRAIN_APPEARANCE_CANDIDATE",
+      "R46_STONE_JOINT_APPEARANCE_CANDIDATE"
+    ],
+    "level": "MULTI"
+  },
+  {
+    "name": "R04_TREAD_ENVELOPE_20",
+    "area": 22.89721792936325,
+    "faces": 8,
+    "materials": [
+      "R46_STONE_GRAIN_APPEARANCE_CANDIDATE",
+      "R46_STONE_JOINT_APPEARANCE_CANDIDATE"
+    ],
+    "level": "MULTI"
+  },
+  {
+    "name": "R04_TREAD_ENVELOPE_21",
+    "area": 23.52106875181198,
+    "faces": 8,
+    "materials": [
+      "R46_STONE_GRAIN_APPEARANCE_CANDIDATE",
+      "R46_STONE_JOINT_APPEARANCE_CANDIDATE"
+    ],
+    "level": "MULTI"
+  },
+  {
+    "name": "R04_TREAD_ENVELOPE_22",
+    "area": 24.1080304980278,
+    "faces": 8,
+    "materials": [
+      "R46_STONE_GRAIN_APPEARANCE_CANDIDATE",
+      "R46_STONE_JOINT_APPEARANCE_CANDIDATE"
+    ],
+    "level": "MULTI"
+  },
+  {
+    "name": "R04_TREAD_ENVELOPE_23",
+    "area": 24.658085584640503,
+    "faces": 8,
+    "materials": [
+      "R46_STONE_GRAIN_APPEARANCE_CANDIDATE",
+      "R46_STONE_JOINT_APPEARANCE_CANDIDATE"
+    ],
+    "level": "MULTI"
+  },
+  {
+    "name": "R04_TREAD_ENVELOPE_24",
+    "area": 25.1712629199028,
+    "faces": 8,
+    "materials": [
+      "R46_STONE_GRAIN_APPEARANCE_CANDIDATE",
+      "R46_STONE_JOINT_APPEARANCE_CANDIDATE"
+    ],
+    "level": "MULTI"
+  },
+  {
+    "name": "R04_TREAD_ENVELOPE_25",
+    "area": 25.64753806591034,
+    "faces": 8,
+    "materials": [
+      "R46_STONE_GRAIN_APPEARANCE_CANDIDATE",
+      "R46_STONE_JOINT_APPEARANCE_CANDIDATE"
+    ],
+    "level": "MULTI"
+  },
+  {
+    "name": "R04_TREAD_ENVELOPE_26",
+    "area": 26.08694100379944,
+    "faces": 8,
+    "materials": [
+      "R46_STONE_GRAIN_APPEARANCE_CANDIDATE",
+      "R46_STONE_JOINT_APPEARANCE_CANDIDATE"
+    ],
+    "level": "MULTI"
+  },
+  {
+    "name": "R04_TREAD_ENVELOPE_27",
+    "area": 26.489431977272034,
+    "faces": 8,
+    "materials": [
+      "R46_STONE_GRAIN_APPEARANCE_CANDIDATE",
+      "R46_STONE_JOINT_APPEARANCE_CANDIDATE"
+    ],
+    "level": "MULTI"
+  },
+  {
+    "name": "R04_TREAD_ENVELOPE_28",
+    "area": 36.87775278091431,
+    "faces": 8,
+    "materials": [
+      "R46_STONE_GRAIN_APPEARANCE_CANDIDATE",
+      "R46_STONE_JOINT_APPEARANCE_CANDIDATE"
+    ],
+    "level": "MULTI"
+  },
+  {
+    "name": "R04_STONE_SIDE_ENVELOPE",
+    "area": 53.887964621186256,
+    "faces": 6,
+    "materials": [
+      "R46_STONE_GRAIN_APPEARANCE_CANDIDATE",
+      "R46_STONE_JOINT_APPEARANCE_CANDIDATE"
+    ],
+    "level": "MULTI"
+  },
+  {
+    "name": "R04_RECESS_JAMB_FOOT",
+    "area": 22.726406700909138,
+    "faces": 8,
+    "materials": [
+      "R46_STONE_GRAIN_APPEARANCE_CANDIDATE",
+      "R46_STONE_JOINT_APPEARANCE_CANDIDATE"
+    ],
+    "level": "MULTI"
+  },
+  {
+    "name": "R04_RECESS_TOP_BELOW_LANDING",
+    "area": 27.982526943087578,
+    "faces": 8,
+    "materials": [
+      "R46_STONE_GRAIN_APPEARANCE_CANDIDATE",
+      "R46_STONE_JOINT_APPEARANCE_CANDIDATE"
+    ],
+    "level": "MULTI"
+  },
+  {
+    "name": "R04_RECESS_HEAD",
+    "area": 88.78752092085779,
+    "faces": 147,
+    "materials": [
+      "R46_STONE_GRAIN_APPEARANCE_CANDIDATE",
+      "R46_STONE_JOINT_APPEARANCE_CANDIDATE"
+    ],
+    "level": "MULTI"
+  },
+  {
+    "name": "R06_FOYER_CEILING_AND_CURVED_FASCIA",
+    "area": 683.530568510294,
+    "faces": 160,
+    "materials": [
+      "P05_FLOOR_REFERENCE",
+      "R144_GRAIN_STONE_CANDIDATE"
+    ],
+    "level": "LM1_L00"
+  },
+  {
+    "name": "R07_STAIRWELL_STONE_NORTH",
+    "area": 284.6924567222595,
+    "faces": 6,
+    "materials": [
+      "P05_NEUTRAL_ENVELOPE",
+      "R32_LIMESTONE_APPEARANCE_CANDIDATE"
+    ],
+    "level": "LM1_L00"
+  },
+  {
+    "name": "R07_STAIRWELL_STONE_WEST",
+    "area": 284.6924753189087,
+    "faces": 6,
+    "materials": [
+      "P05_NEUTRAL_ENVELOPE",
+      "R32_LIMESTONE_APPEARANCE_CANDIDATE"
+    ],
+    "level": "LM1_L00"
+  },
+  {
+    "name": "R08_STONE_CEILING_0",
+    "area": 26.712234169244766,
+    "faces": 5,
+    "materials": [
+      "P05_NEUTRAL_ENVELOPE",
+      "R134_GRAIN_STONE_CANDIDATE",
+      "R134_JOINT_STONE_CANDIDATE"
+    ],
+    "level": "LP1"
+  },
+  {
+    "name": "R08_STONE_CEILING_1",
+    "area": 39.473931044340134,
+    "faces": 6,
+    "materials": [
+      "P05_NEUTRAL_ENVELOPE",
+      "R134_GRAIN_STONE_CANDIDATE",
+      "R134_JOINT_STONE_CANDIDATE"
+    ],
+    "level": "LP1"
+  },
+  {
+    "name": "R08_STONE_CEILING_2",
+    "area": 26.84479659795761,
+    "faces": 5,
+    "materials": [
+      "P05_NEUTRAL_ENVELOPE",
+      "R134_GRAIN_STONE_CANDIDATE",
+      "R134_JOINT_STONE_CANDIDATE"
+    ],
+    "level": "LP1"
+  },
+  {
+    "name": "R08_STONE_CEILING_3",
+    "area": 39.09184393286705,
+    "faces": 6,
+    "materials": [
+      "P05_NEUTRAL_ENVELOPE",
+      "R134_GRAIN_STONE_CANDIDATE",
+      "R134_JOINT_STONE_CANDIDATE"
+    ],
+    "level": "LP1"
+  },
+  {
+    "name": "R08_STONE_CEILING_4",
+    "area": 26.393392592668533,
+    "faces": 5,
+    "materials": [
+      "P05_NEUTRAL_ENVELOPE",
+      "R134_GRAIN_STONE_CANDIDATE",
+      "R134_JOINT_STONE_CANDIDATE"
+    ],
+    "level": "LP1"
+  },
+  {
+    "name": "R08_STONE_CEILING_5",
+    "area": 38.42820918560028,
+    "faces": 6,
+    "materials": [
+      "P05_NEUTRAL_ENVELOPE",
+      "R134_GRAIN_STONE_CANDIDATE",
+      "R134_JOINT_STONE_CANDIDATE"
+    ],
+    "level": "LP1"
+  },
+  {
+    "name": "R08_STONE_CEILING_6",
+    "area": 26.27042704820633,
+    "faces": 5,
+    "materials": [
+      "P05_NEUTRAL_ENVELOPE",
+      "R134_GRAIN_STONE_CANDIDATE",
+      "R134_JOINT_STONE_CANDIDATE"
+    ],
+    "level": "LP1"
+  },
+  {
+    "name": "R08_STONE_CEILING_7",
+    "area": 38.792507618665695,
+    "faces": 6,
+    "materials": [
+      "P05_NEUTRAL_ENVELOPE",
+      "R134_GRAIN_STONE_CANDIDATE",
+      "R134_JOINT_STONE_CANDIDATE"
+    ],
+    "level": "LP1"
+  },
+  {
+    "name": "R09_READING_WALL_1_FULL",
+    "area": 21.595042765140533,
+    "faces": 6,
+    "materials": [
+      "P05_NEUTRAL_ENVELOPE",
+      "R32_LIMESTONE_APPEARANCE_CANDIDATE"
+    ],
+    "level": "LP1"
+  },
+  {
+    "name": "R09_READING_WALL_3_FULL",
+    "area": 21.595043420791626,
+    "faces": 6,
+    "materials": [
+      "P05_NEUTRAL_ENVELOPE",
+      "R32_LIMESTONE_APPEARANCE_CANDIDATE"
+    ],
+    "level": "LP1"
+  },
+  {
+    "name": "R09_READING_WALL_4_FULL",
+    "area": 25.849952340126038,
+    "faces": 6,
+    "materials": [
+      "P05_NEUTRAL_ENVELOPE",
+      "R32_LIMESTONE_APPEARANCE_CANDIDATE"
+    ],
+    "level": "LP1"
+  },
+  {
+    "name": "R09_READING_WALL_5_FULL",
+    "area": 21.595050752162933,
+    "faces": 6,
+    "materials": [
+      "P05_NEUTRAL_ENVELOPE",
+      "R32_LIMESTONE_APPEARANCE_CANDIDATE"
+    ],
+    "level": "LP1"
+  },
+  {
+    "name": "R09_READING_WALL_7_FULL",
+    "area": 21.595030665397644,
+    "faces": 6,
+    "materials": [
+      "P05_NEUTRAL_ENVELOPE",
+      "R32_LIMESTONE_APPEARANCE_CANDIDATE"
+    ],
+    "level": "LP1"
+  },
+  {
+    "name": "R10_GALLERY_GROUND_WALL",
+    "area": 71.55439394712448,
+    "faces": 6,
+    "materials": [
+      "P05_NEUTRAL_ENVELOPE",
+      "R134_GRAIN_STONE_CANDIDATE",
+      "R134_JOINT_STONE_CANDIDATE"
+    ],
+    "level": "L00_LP1"
+  },
+  {
+    "name": "R10_UPPER_DIAGONAL_WALL",
+    "area": 60.53716278076172,
+    "faces": 8,
+    "materials": [
+      "P05_NEUTRAL_ENVELOPE",
+      "R134_GRAIN_STONE_CANDIDATE",
+      "R134_JOINT_STONE_CANDIDATE"
+    ],
+    "level": "L00_LP1"
+  },
+  {
+    "name": "R10_CORE_BODY",
+    "area": 23.32266441306274,
+    "faces": 380,
+    "materials": [
+      "P05_NEUTRAL_ENVELOPE",
+      "R134_GRAIN_STONE_CANDIDATE",
+      "R134_JOINT_STONE_CANDIDATE"
+    ],
+    "level": "L00_LP1"
+  },
+  {
+    "name": "R11_STONE_END",
+    "area": 169.3885708451271,
+    "faces": 6,
+    "materials": [
+      "P05_NEUTRAL_ENVELOPE",
+      "R32_LIMESTONE_APPEARANCE_CANDIDATE"
+    ],
+    "level": "MULTI"
+  },
+  {
+    "name": "R14_INNER_WALL_A",
+    "area": 195.9326663017273,
+    "faces": 6,
+    "materials": [
+      "P05_NEUTRAL_ENVELOPE",
+      "R137_GRAIN_STONE_CANDIDATE",
+      "R137_JOINT_STONE_CANDIDATE"
+    ],
+    "level": "L00_LP1"
+  },
+  {
+    "name": "R14_INNER_WALL_B",
+    "area": 188.5840743780136,
+    "faces": 7,
+    "materials": [
+      "P05_NEUTRAL_ENVELOPE",
+      "R137_GRAIN_STONE_CANDIDATE",
+      "R137_JOINT_STONE_CANDIDATE"
+    ],
+    "level": "L00_LP1"
+  },
+  {
+    "name": "R14_GROUND_ENTRY",
+    "area": 24.705136001110077,
+    "faces": 6,
+    "materials": [
+      "P05_FLOOR_REFERENCE",
+      "R137_GRAIN_STONE_CANDIDATE",
+      "R137_JOINT_STONE_CANDIDATE"
+    ],
+    "level": "L00_LP1"
+  },
+  {
+    "name": "R14_GALLERY_WALL_RETAINED",
+    "area": 42.78372122347355,
+    "faces": 8,
+    "materials": [
+      "P05_NEUTRAL_ENVELOPE",
+      "R137_GRAIN_STONE_CANDIDATE",
+      "R137_JOINT_STONE_CANDIDATE"
+    ],
+    "level": "L00_LP1"
+  },
+  {
+    "name": "R14_GALLERY_WALL_BELOW",
+    "area": 34.78526258468628,
+    "faces": 6,
+    "materials": [
+      "P05_NEUTRAL_ENVELOPE",
+      "R137_GRAIN_STONE_CANDIDATE",
+      "R137_JOINT_STONE_CANDIDATE"
+    ],
+    "level": "L00_LP1"
+  },
+  {
+    "name": "R14_GALLERY_WALL_HEAD",
+    "area": 41.59639024734497,
+    "faces": 6,
+    "materials": [
+      "P05_NEUTRAL_ENVELOPE",
+      "R137_GRAIN_STONE_CANDIDATE",
+      "R137_JOINT_STONE_CANDIDATE"
+    ],
+    "level": "L00_LP1"
+  },
+  {
+    "name": "R14_GLASS_023",
+    "area": 27.059552311897278,
+    "faces": 6,
+    "materials": [
+      "P10_GLASS_PREVIEW"
+    ],
+    "level": "L00_LP1"
+  },
+  {
+    "name": "R14_GLASS_024",
+    "area": 16.317186653614044,
+    "faces": 6,
+    "materials": [
+      "P10_GLASS_PREVIEW"
+    ],
+    "level": "L00_LP1"
+  },
+  {
+    "name": "R17_WALL_0",
+    "area": 204.01686191558838,
+    "faces": 6,
+    "materials": [
+      "P05_NEUTRAL_ENVELOPE",
+      "R17_PAVILION_WHITE_FINISH_CANDIDATE",
+      "R32_LIMESTONE_APPEARANCE_CANDIDATE"
+    ],
+    "level": "MULTI"
+  },
+  {
+    "name": "R17_WALL_1",
+    "area": 100.03357696533203,
+    "faces": 6,
+    "materials": [
+      "P05_NEUTRAL_ENVELOPE",
+      "R17_PAVILION_WHITE_FINISH_CANDIDATE",
+      "R32_LIMESTONE_APPEARANCE_CANDIDATE"
+    ],
+    "level": "MULTI"
+  },
+  {
+    "name": "R17_WALL_2",
+    "area": 323.2291555404663,
+    "faces": 6,
+    "materials": [
+      "P05_NEUTRAL_ENVELOPE",
+      "R17_PAVILION_WHITE_FINISH_CANDIDATE",
+      "R32_LIMESTONE_APPEARANCE_CANDIDATE"
+    ],
+    "level": "MULTI"
+  },
+  {
+    "name": "R17_PORTAL_BELOW",
+    "area": 56.04815316200256,
+    "faces": 6,
+    "materials": [
+      "P05_NEUTRAL_ENVELOPE",
+      "R17_PAVILION_WHITE_FINISH_CANDIDATE",
+      "R32_LIMESTONE_APPEARANCE_CANDIDATE"
+    ],
+    "level": "MULTI"
+  },
+  {
+    "name": "R17_WALL_4",
+    "area": 216.82977533340454,
+    "faces": 6,
+    "materials": [
+      "P05_NEUTRAL_ENVELOPE",
+      "R17_PAVILION_WHITE_FINISH_CANDIDATE",
+      "R32_LIMESTONE_APPEARANCE_CANDIDATE"
+    ],
+    "level": "MULTI"
+  },
+  {
+    "name": "R17_WALL_5",
+    "area": 86.68522214889526,
+    "faces": 6,
+    "materials": [
+      "P05_NEUTRAL_ENVELOPE",
+      "R17_PAVILION_WHITE_FINISH_CANDIDATE",
+      "R32_LIMESTONE_APPEARANCE_CANDIDATE"
+    ],
+    "level": "MULTI"
+  },
+  {
+    "name": "R17_WALL_6",
+    "area": 197.94968509674072,
+    "faces": 6,
+    "materials": [
+      "P05_NEUTRAL_ENVELOPE",
+      "R17_PAVILION_WHITE_FINISH_CANDIDATE",
+      "R32_LIMESTONE_APPEARANCE_CANDIDATE"
+    ],
+    "level": "MULTI"
+  },
+  {
+    "name": "R17_WINDOW_SILL",
+    "area": 46.855074882507324,
+    "faces": 6,
+    "materials": [
+      "P05_NEUTRAL_ENVELOPE",
+      "R17_PAVILION_WHITE_FINISH_CANDIDATE",
+      "R32_LIMESTONE_APPEARANCE_CANDIDATE"
+    ],
+    "level": "MULTI"
+  },
+  {
+    "name": "R17_WINDOW_GLASS",
+    "area": 16.81422048807144,
+    "faces": 6,
+    "materials": [
+      "P10_GLASS_PREVIEW"
+    ],
+    "level": "MULTI"
+  },
+  {
+    "name": "R17_GROUND_FLOOR",
+    "area": 323.31025360524654,
+    "faces": 108,
+    "materials": [
+      "P05_FLOOR_REFERENCE"
+    ],
+    "level": "MULTI"
+  },
+  {
+    "name": "R19_ROOM_FLOOR",
+    "area": 447.9461305215955,
+    "faces": 14,
+    "materials": [
+      "P05_NEUTRAL_ENVELOPE",
+      "R136_GRAIN_STONE_CANDIDATE",
+      "R136_JOINT_STONE_CANDIDATE"
+    ],
+    "level": "LM1"
+  },
+  {
+    "name": "R19_STAGE",
+    "area": 78.4143578261137,
+    "faces": 10,
+    "materials": [
+      "P05_NEUTRAL_ENVELOPE",
+      "R136_GRAIN_STONE_CANDIDATE",
+      "R136_JOINT_STONE_CANDIDATE"
+    ],
+    "level": "LM1"
+  },
+  {
+    "name": "R19_TIER_01",
+    "area": 24.68584644794464,
+    "faces": 6,
+    "materials": [
+      "P05_NEUTRAL_ENVELOPE",
+      "R136_GRAIN_STONE_CANDIDATE",
+      "R136_JOINT_STONE_CANDIDATE"
+    ],
+    "level": "LM1"
+  },
+  {
+    "name": "R19_TIER_02",
+    "area": 29.67858999967575,
+    "faces": 6,
+    "materials": [
+      "P05_NEUTRAL_ENVELOPE",
+      "R136_GRAIN_STONE_CANDIDATE",
+      "R136_JOINT_STONE_CANDIDATE"
+    ],
+    "level": "LM1"
+  },
+  {
+    "name": "R19_TIER_03",
+    "area": 34.67126423120499,
+    "faces": 6,
+    "materials": [
+      "P05_NEUTRAL_ENVELOPE",
+      "R136_GRAIN_STONE_CANDIDATE",
+      "R136_JOINT_STONE_CANDIDATE"
+    ],
+    "level": "LM1"
+  },
+  {
+    "name": "R19_TIER_04",
+    "area": 39.66403388977051,
+    "faces": 6,
+    "materials": [
+      "P05_NEUTRAL_ENVELOPE",
+      "R136_GRAIN_STONE_CANDIDATE",
+      "R136_JOINT_STONE_CANDIDATE"
+    ],
+    "level": "LM1"
+  },
+  {
+    "name": "R19_TIER_05",
+    "area": 44.65672981739044,
+    "faces": 6,
+    "materials": [
+      "P05_NEUTRAL_ENVELOPE",
+      "R136_GRAIN_STONE_CANDIDATE",
+      "R136_JOINT_STONE_CANDIDATE"
+    ],
+    "level": "LM1"
+  },
+  {
+    "name": "R19_TIER_06",
+    "area": 49.64946258068085,
+    "faces": 6,
+    "materials": [
+      "P05_NEUTRAL_ENVELOPE",
+      "R136_GRAIN_STONE_CANDIDATE",
+      "R136_JOINT_STONE_CANDIDATE"
+    ],
+    "level": "LM1"
+  },
+  {
+    "name": "R19_TIER_07",
+    "area": 54.64214587211609,
+    "faces": 6,
+    "materials": [
+      "P05_NEUTRAL_ENVELOPE",
+      "R136_GRAIN_STONE_CANDIDATE",
+      "R136_JOINT_STONE_CANDIDATE"
+    ],
+    "level": "LM1"
+  },
+  {
+    "name": "R19_TIER_08",
+    "area": 59.63488054275513,
+    "faces": 6,
+    "materials": [
+      "P05_NEUTRAL_ENVELOPE",
+      "R136_GRAIN_STONE_CANDIDATE",
+      "R136_JOINT_STONE_CANDIDATE"
+    ],
+    "level": "LM1"
+  },
+  {
+    "name": "R19_AISLE_L_15",
+    "area": 15.68118566274643,
+    "faces": 6,
+    "materials": [
+      "P05_NEUTRAL_ENVELOPE",
+      "R136_GRAIN_STONE_CANDIDATE",
+      "R136_JOINT_STONE_CANDIDATE"
+    ],
+    "level": "LM1"
+  },
+  {
+    "name": "R19_AISLE_L_16",
+    "area": 16.518556714057922,
+    "faces": 6,
+    "materials": [
+      "P05_NEUTRAL_ENVELOPE",
+      "R136_GRAIN_STONE_CANDIDATE",
+      "R136_JOINT_STONE_CANDIDATE"
+    ],
+    "level": "LM1"
+  },
+  {
+    "name": "R19_AISLE_R_15",
+    "area": 15.68118566274643,
+    "faces": 6,
+    "materials": [
+      "P05_NEUTRAL_ENVELOPE",
+      "R136_GRAIN_STONE_CANDIDATE",
+      "R136_JOINT_STONE_CANDIDATE"
+    ],
+    "level": "LM1"
+  },
+  {
+    "name": "R19_AISLE_R_16",
+    "area": 16.518556714057922,
+    "faces": 6,
+    "materials": [
+      "P05_NEUTRAL_ENVELOPE",
+      "R136_GRAIN_STONE_CANDIDATE",
+      "R136_JOINT_STONE_CANDIDATE"
+    ],
+    "level": "LM1"
+  },
+  {
+    "name": "R19_REAR_LANDING",
+    "area": 171.8344144821167,
+    "faces": 6,
+    "materials": [
+      "P05_NEUTRAL_ENVELOPE",
+      "R136_GRAIN_STONE_CANDIDATE",
+      "R136_JOINT_STONE_CANDIDATE"
+    ],
+    "level": "LM1"
+  },
+  {
+    "name": "R19_WALL_L",
+    "area": 131.6480075120926,
+    "faces": 6,
+    "materials": [
+      "R19_WOOD_FINISH_CANDIDATE",
+      "R135_AUDITORIUM_WOOD_GRAIN_CANDIDATE"
+    ],
+    "level": "LM1"
+  },
+  {
+    "name": "R19_WALL_R",
+    "area": 131.6480075120926,
+    "faces": 6,
+    "materials": [
+      "R19_WOOD_FINISH_CANDIDATE",
+      "R135_AUDITORIUM_WOOD_GRAIN_CANDIDATE"
+    ],
+    "level": "LM1"
+  },
+  {
+    "name": "R19_WALL_REAR",
+    "area": 143.61236554384232,
+    "faces": 6,
+    "materials": [
+      "R19_WOOD_FINISH_CANDIDATE",
+      "R135_AUDITORIUM_WOOD_GRAIN_CANDIDATE"
+    ],
+    "level": "LM1"
+  },
+  {
+    "name": "R19_STAGE_BACK_2",
+    "area": 28.84278756380081,
+    "faces": 6,
+    "materials": [
+      "R19_WOOD_FINISH_CANDIDATE",
+      "R135_AUDITORIUM_WOOD_GRAIN_CANDIDATE"
+    ],
+    "level": "LM1"
+  },
+  {
+    "name": "R19_STAGE_BACK_3",
+    "area": 45.58099818229675,
+    "faces": 6,
+    "materials": [
+      "R19_WOOD_FINISH_CANDIDATE",
+      "R135_AUDITORIUM_WOOD_GRAIN_CANDIDATE"
+    ],
+    "level": "LM1"
+  },
+  {
+    "name": "R19_STAGE_BACK_4",
+    "area": 27.24057799577713,
+    "faces": 6,
+    "materials": [
+      "R19_WOOD_FINISH_CANDIDATE",
+      "R135_AUDITORIUM_WOOD_GRAIN_CANDIDATE"
+    ],
+    "level": "LM1"
+  },
+  {
+    "name": "R19_BOOTH_SIDE_L",
+    "area": 18.120322823524475,
+    "faces": 6,
+    "materials": [
+      "R19_WOOD_FINISH_CANDIDATE",
+      "R135_AUDITORIUM_WOOD_GRAIN_CANDIDATE"
+    ],
+    "level": "LM1"
+  },
+  {
+    "name": "R19_BOOTH_SIDE_R",
+    "area": 18.120322823524475,
+    "faces": 6,
+    "materials": [
+      "R19_WOOD_FINISH_CANDIDATE",
+      "R135_AUDITORIUM_WOOD_GRAIN_CANDIDATE"
+    ],
+    "level": "LM1"
+  },
+  {
+    "name": "R19_CEILING_LEFT",
+    "area": 101.79676731303334,
+    "faces": 214,
+    "materials": [
+      "R19_CEILING_WHITE_CANDIDATE"
+    ],
+    "level": "LM1"
+  },
+  {
+    "name": "R19_CEILING_RIGHT",
+    "area": 101.79682261729613,
+    "faces": 215,
+    "materials": [
+      "R19_CEILING_WHITE_CANDIDATE"
+    ],
+    "level": "LM1"
+  },
+  {
+    "name": "R19_CEILING_FRONT",
+    "area": 37.66970533132553,
+    "faces": 6,
+    "materials": [
+      "R19_CEILING_WHITE_CANDIDATE"
+    ],
+    "level": "LM1"
+  },
+  {
+    "name": "R19_CEILING_REAR",
+    "area": 85.82216024398804,
+    "faces": 6,
+    "materials": [
+      "R19_CEILING_WHITE_CANDIDATE"
+    ],
+    "level": "LM1"
+  },
+  {
+    "name": "R19_STAGE_SOFFIT",
+    "area": 62.73940648138523,
+    "faces": 10,
+    "materials": [
+      "R19_CEILING_WHITE_CANDIDATE"
+    ],
+    "level": "LM1"
+  },
+  {
+    "name": "R19_COFFER_0_0",
+    "area": 16.45264047384262,
+    "faces": 14,
+    "materials": [
+      "R19_CEILING_WHITE_CANDIDATE"
+    ],
+    "level": "LM1"
+  },
+  {
+    "name": "R19_COFFER_0_1",
+    "area": 16.45264905691147,
+    "faces": 14,
+    "materials": [
+      "R19_CEILING_WHITE_CANDIDATE"
+    ],
+    "level": "LM1"
+  },
+  {
+    "name": "R19_COFFER_0_2",
+    "area": 16.45264047384262,
+    "faces": 14,
+    "materials": [
+      "R19_CEILING_WHITE_CANDIDATE"
+    ],
+    "level": "LM1"
+  },
+  {
+    "name": "R19_COFFER_0_3",
+    "area": 16.452654719352722,
+    "faces": 14,
+    "materials": [
+      "R19_CEILING_WHITE_CANDIDATE"
+    ],
+    "level": "LM1"
+  },
+  {
+    "name": "R19_COFFER_0_4",
+    "area": 16.45264905691147,
+    "faces": 14,
+    "materials": [
+      "R19_CEILING_WHITE_CANDIDATE"
+    ],
+    "level": "LM1"
+  },
+  {
+    "name": "R19_COFFER_1_0",
+    "area": 16.452649354934692,
+    "faces": 14,
+    "materials": [
+      "R19_CEILING_WHITE_CANDIDATE"
+    ],
+    "level": "LM1"
+  },
+  {
+    "name": "R19_COFFER_1_1",
+    "area": 16.452643990516663,
+    "faces": 14,
+    "materials": [
+      "R19_CEILING_WHITE_CANDIDATE"
+    ],
+    "level": "LM1"
+  },
+  {
+    "name": "R19_COFFER_1_2",
+    "area": 16.452649354934692,
+    "faces": 14,
+    "materials": [
+      "R19_CEILING_WHITE_CANDIDATE"
+    ],
+    "level": "LM1"
+  },
+  {
+    "name": "R19_COFFER_1_3",
+    "area": 16.4526447057724,
+    "faces": 14,
+    "materials": [
+      "R19_CEILING_WHITE_CANDIDATE"
+    ],
+    "level": "LM1"
+  },
+  {
+    "name": "R19_COFFER_1_4",
+    "area": 16.452651858329773,
+    "faces": 14,
+    "materials": [
+      "R19_CEILING_WHITE_CANDIDATE"
+    ],
+    "level": "LM1"
+  },
+  {
+    "name": "R19_COFFER_2_0",
+    "area": 16.45264905691147,
+    "faces": 14,
+    "materials": [
+      "R19_CEILING_WHITE_CANDIDATE"
+    ],
+    "level": "LM1"
+  },
+  {
+    "name": "R19_COFFER_2_1",
+    "area": 16.45264047384262,
+    "faces": 14,
+    "materials": [
+      "R19_CEILING_WHITE_CANDIDATE"
+    ],
+    "level": "LM1"
+  },
+  {
+    "name": "R19_COFFER_2_2",
+    "area": 16.452643156051636,
+    "faces": 14,
+    "materials": [
+      "R19_CEILING_WHITE_CANDIDATE"
+    ],
+    "level": "LM1"
+  },
+  {
+    "name": "R19_COFFER_2_3",
+    "area": 16.452649354934692,
+    "faces": 14,
+    "materials": [
+      "R19_CEILING_WHITE_CANDIDATE"
+    ],
+    "level": "LM1"
+  },
+  {
+    "name": "R19_COFFER_2_4",
+    "area": 16.45264047384262,
+    "faces": 14,
+    "materials": [
+      "R19_CEILING_WHITE_CANDIDATE"
+    ],
+    "level": "LM1"
+  },
+  {
+    "name": "R19_COFFER_3_0",
+    "area": 16.4526447057724,
+    "faces": 14,
+    "materials": [
+      "R19_CEILING_WHITE_CANDIDATE"
+    ],
+    "level": "LM1"
+  },
+  {
+    "name": "R19_COFFER_3_1",
+    "area": 16.4526447057724,
+    "faces": 14,
+    "materials": [
+      "R19_CEILING_WHITE_CANDIDATE"
+    ],
+    "level": "LM1"
+  },
+  {
+    "name": "R19_COFFER_3_2",
+    "area": 16.4526447057724,
+    "faces": 14,
+    "materials": [
+      "R19_CEILING_WHITE_CANDIDATE"
+    ],
+    "level": "LM1"
+  },
+  {
+    "name": "R19_COFFER_3_3",
+    "area": 16.452645540237427,
+    "faces": 14,
+    "materials": [
+      "R19_CEILING_WHITE_CANDIDATE"
+    ],
+    "level": "LM1"
+  },
+  {
+    "name": "R19_COFFER_3_4",
+    "area": 16.45264047384262,
+    "faces": 14,
+    "materials": [
+      "R19_CEILING_WHITE_CANDIDATE"
+    ],
+    "level": "LM1"
+  },
+  {
+    "name": "R19_COFFER_4_0",
+    "area": 16.45264047384262,
+    "faces": 14,
+    "materials": [
+      "R19_CEILING_WHITE_CANDIDATE"
+    ],
+    "level": "LM1"
+  },
+  {
+    "name": "R19_COFFER_4_1",
+    "area": 16.45264047384262,
+    "faces": 14,
+    "materials": [
+      "R19_CEILING_WHITE_CANDIDATE"
+    ],
+    "level": "LM1"
+  },
+  {
+    "name": "R19_COFFER_4_2",
+    "area": 16.4526447057724,
+    "faces": 14,
+    "materials": [
+      "R19_CEILING_WHITE_CANDIDATE"
+    ],
+    "level": "LM1"
+  },
+  {
+    "name": "R19_COFFER_4_3",
+    "area": 16.4526447057724,
+    "faces": 14,
+    "materials": [
+      "R19_CEILING_WHITE_CANDIDATE"
+    ],
+    "level": "LM1"
+  },
+  {
+    "name": "R19_COFFER_4_4",
+    "area": 16.452643632888794,
+    "faces": 14,
+    "materials": [
+      "R19_CEILING_WHITE_CANDIDATE"
+    ],
+    "level": "LM1"
+  },
+  {
+    "name": "R22_PROJECTION_SURFACE",
+    "area": 26.2950137257576,
+    "faces": 6,
+    "materials": [
+      "R19_CEILING_WHITE_CANDIDATE"
+    ],
+    "level": "LM1"
+  },
+  {
+    "name": "R23_E_0_WALL",
+    "area": 260.09348797798157,
+    "faces": 6,
+    "materials": [
+      "R17_PAVILION_WHITE_FINISH_CANDIDATE"
+    ],
+    "level": "LP1"
+  },
+  {
+    "name": "R23_E_1_JAMB_A",
+    "area": 56.91350865364075,
+    "faces": 6,
+    "materials": [
+      "R17_PAVILION_WHITE_FINISH_CANDIDATE"
+    ],
+    "level": "LP1"
+  },
+  {
+    "name": "R23_E_1_JAMB_B",
+    "area": 44.5969455242157,
+    "faces": 6,
+    "materials": [
+      "R17_PAVILION_WHITE_FINISH_CANDIDATE"
+    ],
+    "level": "LP1"
+  },
+  {
+    "name": "R23_E_1_HEAD",
+    "area": 44.991132736206055,
+    "faces": 6,
+    "materials": [
+      "R17_PAVILION_WHITE_FINISH_CANDIDATE"
+    ],
+    "level": "LP1"
+  },
+  {
+    "name": "R23_E_3_JAMB_A",
+    "area": 212.17048501968384,
+    "faces": 6,
+    "materials": [
+      "R17_PAVILION_WHITE_FINISH_CANDIDATE"
+    ],
+    "level": "LP1"
+  },
+  {
+    "name": "R23_E_3_HEAD",
+    "area": 46.00489115715027,
+    "faces": 6,
+    "materials": [
+      "R17_PAVILION_WHITE_FINISH_CANDIDATE"
+    ],
+    "level": "LP1"
+  },
+  {
+    "name": "R23_E_4_WALL",
+    "area": 140.6716649532318,
+    "faces": 6,
+    "materials": [
+      "R17_PAVILION_WHITE_FINISH_CANDIDATE"
+    ],
+    "level": "LP1"
+  },
+  {
+    "name": "R23_E_5_WALL",
+    "area": 342.47377586364746,
+    "faces": 6,
+    "materials": [
+      "R17_PAVILION_WHITE_FINISH_CANDIDATE"
+    ],
+    "level": "LP1"
+  },
+  {
+    "name": "R23_W_0_JAMB_A",
+    "area": 19.742991983890533,
+    "faces": 6,
+    "materials": [
+      "R17_PAVILION_WHITE_FINISH_CANDIDATE"
+    ],
+    "level": "LP1"
+  },
+  {
+    "name": "R23_W_0_JAMB_B",
+    "area": 102.37644028663635,
+    "faces": 6,
+    "materials": [
+      "R17_PAVILION_WHITE_FINISH_CANDIDATE"
+    ],
+    "level": "LP1"
+  },
+  {
+    "name": "R23_W_0_HEAD",
+    "area": 38.39093089103699,
+    "faces": 6,
+    "materials": [
+      "R17_PAVILION_WHITE_FINISH_CANDIDATE"
+    ],
+    "level": "LP1"
+  },
+  {
+    "name": "R23_W_1_WALL",
+    "area": 242.82841801643372,
+    "faces": 6,
+    "materials": [
+      "R17_PAVILION_WHITE_FINISH_CANDIDATE"
+    ],
+    "level": "LP1"
+  },
+  {
+    "name": "R23_W_2_WALL",
+    "area": 342.9832384586334,
+    "faces": 6,
+    "materials": [
+      "R17_PAVILION_WHITE_FINISH_CANDIDATE"
+    ],
+    "level": "LP1"
+  },
+  {
+    "name": "R23_W_3_WALL",
+    "area": 140.0777726173401,
+    "faces": 6,
+    "materials": [
+      "R17_PAVILION_WHITE_FINISH_CANDIDATE"
+    ],
+    "level": "LP1"
+  },
+  {
+    "name": "R23_W_4_JAMB_B",
+    "area": 209.52577590942383,
+    "faces": 6,
+    "materials": [
+      "R17_PAVILION_WHITE_FINISH_CANDIDATE"
+    ],
+    "level": "LP1"
+  },
+  {
+    "name": "R23_W_4_HEAD",
+    "area": 46.00489151477814,
+    "faces": 6,
+    "materials": [
+      "R17_PAVILION_WHITE_FINISH_CANDIDATE"
+    ],
+    "level": "LP1"
+  },
+  {
+    "name": "R23_WEST_RETURN_FLOOR_0",
+    "area": 41.70847419742495,
+    "faces": 11,
+    "materials": [
+      "P05_NEUTRAL_ENVELOPE"
+    ],
+    "level": "LP1"
+  },
+  {
+    "name": "R24_SHELL_E_00",
+    "area": 114.10845702094957,
+    "faces": 133,
+    "materials": [
+      "R17_PAVILION_WHITE_FINISH_CANDIDATE"
+    ],
+    "level": "LP1_ROOF"
+  },
+  {
+    "name": "R24_SHELL_E_01",
+    "area": 183.46530322171748,
+    "faces": 130,
+    "materials": [
+      "R17_PAVILION_WHITE_FINISH_CANDIDATE"
+    ],
+    "level": "LP1_ROOF"
+  },
+  {
+    "name": "R24_SHELL_E_02",
+    "area": 218.40177672356367,
+    "faces": 134,
+    "materials": [
+      "R17_PAVILION_WHITE_FINISH_CANDIDATE"
+    ],
+    "level": "LP1_ROOF"
+  },
+  {
+    "name": "R24_SHELL_E_03",
+    "area": 216.94677529926412,
+    "faces": 134,
+    "materials": [
+      "R17_PAVILION_WHITE_FINISH_CANDIDATE"
+    ],
+    "level": "LP1_ROOF"
+  },
+  {
+    "name": "R24_SHELL_E_04",
+    "area": 179.91216278634965,
+    "faces": 130,
+    "materials": [
+      "R17_PAVILION_WHITE_FINISH_CANDIDATE"
+    ],
+    "level": "LP1_ROOF"
+  },
+  {
+    "name": "R24_SHELL_E_05",
+    "area": 120.46356532070786,
+    "faces": 133,
+    "materials": [
+      "R17_PAVILION_WHITE_FINISH_CANDIDATE"
+    ],
+    "level": "LP1_ROOF"
+  },
+  {
+    "name": "R24_SHELL_W_00",
+    "area": 189.86617362173274,
+    "faces": 133,
+    "materials": [
+      "R17_PAVILION_WHITE_FINISH_CANDIDATE"
+    ],
+    "level": "LP1_ROOF"
+  },
+  {
+    "name": "R24_VALLEY_BEAM_W_0",
+    "area": 15.077522277832031,
+    "faces": 6,
+    "materials": [
+      "R16_EXTERIOR_DARK_COATING_CANDIDATE"
+    ],
+    "level": "LP1_ROOF"
+  },
+  {
+    "name": "R24_SHELL_W_01",
+    "area": 279.2626766283065,
+    "faces": 130,
+    "materials": [
+      "R17_PAVILION_WHITE_FINISH_CANDIDATE"
+    ],
+    "level": "LP1_ROOF"
+  },
+  {
+    "name": "R24_VALLEY_BEAM_W_1",
+    "area": 18.394143104553223,
+    "faces": 6,
+    "materials": [
+      "R16_EXTERIOR_DARK_COATING_CANDIDATE"
+    ],
+    "level": "LP1_ROOF"
+  },
+  {
+    "name": "R24_SHELL_W_02",
+    "area": 302.36489360639825,
+    "faces": 138,
+    "materials": [
+      "R17_PAVILION_WHITE_FINISH_CANDIDATE"
+    ],
+    "level": "LP1_ROOF"
+  },
+  {
+    "name": "R24_VALLEY_BEAM_W_2",
+    "area": 16.172409772872925,
+    "faces": 6,
+    "materials": [
+      "R16_EXTERIOR_DARK_COATING_CANDIDATE"
+    ],
+    "level": "LP1_ROOF"
+  },
+  {
+    "name": "R24_SHELL_W_03",
+    "area": 237.93620650970843,
+    "faces": 133,
+    "materials": [
+      "R17_PAVILION_WHITE_FINISH_CANDIDATE"
+    ],
+    "level": "LP1_ROOF"
+  },
+  {
+    "name": "R25_LOWER_PAVILION_FLOOR",
+    "area": 339.17657321691513,
+    "faces": 10,
+    "materials": [
+      "P05_FLOOR_REFERENCE"
+    ],
+    "level": "L00_LM1_PAV"
+  },
+  {
+    "name": "R25_STONE_CORE",
+    "area": 18.418981462717056,
+    "faces": 98,
+    "materials": [
+      "P05_NEUTRAL_ENVELOPE"
+    ],
+    "level": "L00_LM1_PAV"
+  },
+  {
+    "name": "R25_HELICAL_OUTER_GUARD",
+    "area": 30.66793055459857,
+    "faces": 770,
+    "materials": [
+      "P05_NEUTRAL_ENVELOPE"
+    ],
+    "level": "L00_LM1_PAV"
+  },
+  {
+    "name": "R27_CONTINUOUS_HEAD",
+    "area": 794.1370315551758,
+    "faces": 6,
+    "materials": [
+      "R53_REVEAL_LIMESTONE_CANDIDATE",
+      "R53_REVEAL_SILL_STONE_CANDIDATE",
+      "R53_LINEAR_MINERAL_SOFFIT_CANDIDATE"
+    ],
+    "level": "L00"
+  },
+  {
+    "name": "R27_BAY_1_END_RETURN",
+    "area": 24.263180375099182,
+    "faces": 6,
+    "materials": [
+      "R53_REVEAL_LIMESTONE_CANDIDATE",
+      "R53_REVEAL_SILL_STONE_CANDIDATE",
+      "R53_LINEAR_MINERAL_SOFFIT_CANDIDATE"
+    ],
+    "level": "L00"
+  },
+  {
+    "name": "R27_BAY_1_BLIND_BACK",
+    "area": 37.90563939185813,
+    "faces": 10,
+    "materials": [
+      "R53_REVEAL_LIMESTONE_CANDIDATE",
+      "R53_REVEAL_SILL_STONE_CANDIDATE",
+      "R53_LINEAR_MINERAL_SOFFIT_CANDIDATE"
+    ],
+    "level": "L00"
+  },
+  {
+    "name": "R27_BAY_3_BLIND_BACK",
+    "area": 37.89162810193375,
+    "faces": 8,
+    "materials": [
+      "R53_REVEAL_LIMESTONE_CANDIDATE",
+      "R53_REVEAL_SILL_STONE_CANDIDATE",
+      "R53_LINEAR_MINERAL_SOFFIT_CANDIDATE"
+    ],
+    "level": "L00"
+  },
+  {
+    "name": "R27_BAY_5_BLIND_BACK",
+    "area": 37.85806126939133,
+    "faces": 9,
+    "materials": [
+      "R53_REVEAL_LIMESTONE_CANDIDATE",
+      "R53_REVEAL_SILL_STONE_CANDIDATE",
+      "R53_LINEAR_MINERAL_SOFFIT_CANDIDATE"
+    ],
+    "level": "L00"
+  },
+  {
+    "name": "R27_END_PIER",
+    "area": 93.46391201019287,
+    "faces": 6,
+    "materials": [
+      "R53_REVEAL_LIMESTONE_CANDIDATE",
+      "R53_REVEAL_SILL_STONE_CANDIDATE",
+      "R53_LINEAR_MINERAL_SOFFIT_CANDIDATE"
+    ],
+    "level": "L00"
+  },
+  {
+    "name": "R28_E_CIRCULATION_FLOOR",
+    "area": 64.63189978525043,
+    "faces": 16,
+    "materials": [
+      "P05_NEUTRAL_ENVELOPE",
+      "R138_FLOOR_CONTINUITY_CANDIDATE"
+    ],
+    "level": "L00"
+  },
+  {
+    "name": "R28_E_FLAT_CEILING",
+    "area": 825.6887088567019,
+    "faces": 18,
+    "materials": [
+      "R17_PAVILION_WHITE_FINISH_CANDIDATE"
+    ],
+    "level": "L00"
+  },
+  {
+    "name": "R28_W_CIRCULATION_FLOOR",
+    "area": 171.3176082454156,
+    "faces": 24,
+    "materials": [
+      "P05_NEUTRAL_ENVELOPE",
+      "R138_FLOOR_CONTINUITY_CANDIDATE"
+    ],
+    "level": "L00"
+  },
+  {
+    "name": "R28_W_FLAT_CEILING",
+    "area": 826.6596355435004,
+    "faces": 24,
+    "materials": [
+      "R17_PAVILION_WHITE_FINISH_CANDIDATE"
+    ],
+    "level": "L00"
+  },
+  {
+    "name": "R29_E_FLOOR",
+    "area": 636.7422335147858,
+    "faces": 6,
+    "materials": [
+      "R23_GALLERY_WOOD_FLOOR_CANDIDATE",
+      "R32_WOOD_APPEARANCE_CANDIDATE"
+    ],
+    "level": "LM1"
+  },
+  {
+    "name": "R29_E_CEILING",
+    "area": 635.5144013669342,
+    "faces": 10,
+    "materials": [
+      "R17_PAVILION_WHITE_FINISH_CANDIDATE"
+    ],
+    "level": "LM1"
+  },
+  {
+    "name": "R29_E_BOUNDARY_00",
+    "area": 320.87290811538696,
+    "faces": 6,
+    "materials": [
+      "R17_PAVILION_WHITE_FINISH_CANDIDATE"
+    ],
+    "level": "LM1"
+  },
+  {
+    "name": "R29_E_FOYER_DIVIDER",
+    "area": 119.54269433021545,
+    "faces": 6,
+    "materials": [
+      "P05_NEUTRAL_ENVELOPE",
+      "R32_LIMESTONE_APPEARANCE_CANDIDATE"
+    ],
+    "level": "LM1"
+  },
+  {
+    "name": "R29_E_BOUNDARY_02",
+    "area": 304.7898705005646,
+    "faces": 6,
+    "materials": [
+      "R17_PAVILION_WHITE_FINISH_CANDIDATE"
+    ],
+    "level": "LM1"
+  },
+  {
+    "name": "R29_E_BOUNDARY_03",
+    "area": 178.4655294418335,
+    "faces": 6,
+    "materials": [
+      "R17_PAVILION_WHITE_FINISH_CANDIDATE"
+    ],
+    "level": "LM1"
+  },
+  {
+    "name": "R29_W_FLOOR",
+    "area": 736.5250112116337,
+    "faces": 37,
+    "materials": [
+      "R23_GALLERY_WOOD_FLOOR_CANDIDATE",
+      "R32_WOOD_APPEARANCE_CANDIDATE"
+    ],
+    "level": "LM1"
+  },
+  {
+    "name": "R29_W_CEILING",
+    "area": 736.0547451935709,
+    "faces": 39,
+    "materials": [
+      "R17_PAVILION_WHITE_FINISH_CANDIDATE"
+    ],
+    "level": "LM1"
+  },
+  {
+    "name": "R29_W_BOUNDARY_31",
+    "area": 16.187103033065796,
+    "faces": 6,
+    "materials": [
+      "R17_PAVILION_WHITE_FINISH_CANDIDATE"
+    ],
+    "level": "LM1"
+  },
+  {
+    "name": "R29_W_BOUNDARY_32",
+    "area": 165.06162571907043,
+    "faces": 6,
+    "materials": [
+      "R17_PAVILION_WHITE_FINISH_CANDIDATE"
+    ],
+    "level": "LM1"
+  },
+  {
+    "name": "R29_W_BOUNDARY_33",
+    "area": 319.5650647878647,
+    "faces": 6,
+    "materials": [
+      "R17_PAVILION_WHITE_FINISH_CANDIDATE"
+    ],
+    "level": "LM1"
+  },
+  {
+    "name": "R29_FOYER_FLOOR",
+    "area": 800.0002030581236,
+    "faces": 24,
+    "materials": [
+      "P05_NEUTRAL_ENVELOPE",
+      "R43_STONE_FLOOR_APPEARANCE_CANDIDATE"
+    ],
+    "level": "LM1"
+  },
+  {
+    "name": "R30_LANDING_WEST",
+    "area": 22.601472556591034,
+    "faces": 6,
+    "materials": [
+      "P05_NEUTRAL_ENVELOPE",
+      "R32_LIMESTONE_APPEARANCE_CANDIDATE"
+    ],
+    "level": "LP1"
+  },
+  {
+    "name": "R30_LANDING_EAST",
+    "area": 22.60145455598831,
+    "faces": 6,
+    "materials": [
+      "P05_NEUTRAL_ENVELOPE",
+      "R32_LIMESTONE_APPEARANCE_CANDIDATE"
+    ],
+    "level": "LP1"
+  },
+  {
+    "name": "R30_LANDING_FLOOR",
+    "area": 32.507476449012756,
+    "faces": 6,
+    "materials": [
+      "P05_NEUTRAL_ENVELOPE",
+      "R32_LIMESTONE_APPEARANCE_CANDIDATE",
+      "R43_STONE_FLOOR_APPEARANCE_CANDIDATE"
+    ],
+    "level": "LP1"
+  },
+  {
+    "name": "R30_LANDING_CEILING",
+    "area": 36.70632779598236,
+    "faces": 6,
+    "materials": [
+      "P05_NEUTRAL_ENVELOPE",
+      "R32_LIMESTONE_APPEARANCE_CANDIDATE"
+    ],
+    "level": "LP1"
+  },
+  {
+    "name": "R31_STUDIO_WALL_0",
+    "area": 44.26366925239563,
+    "faces": 6,
+    "materials": [
+      "R17_PAVILION_WHITE_FINISH_CANDIDATE"
+    ],
+    "level": "LP1"
+  },
+  {
+    "name": "R31_EAST_JAMB_A",
+    "area": 21.88559490442276,
+    "faces": 6,
+    "materials": [
+      "R17_PAVILION_WHITE_FINISH_CANDIDATE"
+    ],
+    "level": "LP1"
+  },
+  {
+    "name": "R31_EAST_JAMB_B",
+    "area": 39.02908784151077,
+    "faces": 6,
+    "materials": [
+      "R17_PAVILION_WHITE_FINISH_CANDIDATE"
+    ],
+    "level": "LP1"
+  },
+  {
+    "name": "R31_STUDIO_WALL_2",
+    "area": 44.24872028827667,
+    "faces": 6,
+    "materials": [
+      "R17_PAVILION_WHITE_FINISH_CANDIDATE"
+    ],
+    "level": "LP1"
+  },
+  {
+    "name": "R31_STUDIO_WALL_3",
+    "area": 70.16573202610016,
+    "faces": 6,
+    "materials": [
+      "R17_PAVILION_WHITE_FINISH_CANDIDATE"
+    ],
+    "level": "LP1"
+  },
+  {
+    "name": "R31_STUDIO_CEILING",
+    "area": 153.81337547302246,
+    "faces": 6,
+    "materials": [
+      "R17_PAVILION_WHITE_FINISH_CANDIDATE"
+    ],
+    "level": "LP1"
+  },
+  {
+    "name": "R33_WALL_WC_E_N",
+    "area": 64.23385894298553,
+    "faces": 6,
+    "materials": [
+      "R17_PAVILION_WHITE_FINISH_CANDIDATE",
+      "R32_LIMESTONE_APPEARANCE_CANDIDATE"
+    ],
+    "level": "L00"
+  },
+  {
+    "name": "R33_WALL_WC_E_W",
+    "area": 41.07707726955414,
+    "faces": 6,
+    "materials": [
+      "R17_PAVILION_WHITE_FINISH_CANDIDATE",
+      "R32_LIMESTONE_APPEARANCE_CANDIDATE"
+    ],
+    "level": "L00"
+  },
+  {
+    "name": "R33_WALL_WC_E_S",
+    "area": 94.51899123191833,
+    "faces": 6,
+    "materials": [
+      "R17_PAVILION_WHITE_FINISH_CANDIDATE",
+      "R32_LIMESTONE_APPEARANCE_CANDIDATE"
+    ],
+    "level": "L00"
+  },
+  {
+    "name": "R33_WALL_WC_W_N",
+    "area": 96.79226231575012,
+    "faces": 6,
+    "materials": [
+      "R17_PAVILION_WHITE_FINISH_CANDIDATE",
+      "R32_LIMESTONE_APPEARANCE_CANDIDATE"
+    ],
+    "level": "L00"
+  },
+  {
+    "name": "R33_WALL_WC_W_E",
+    "area": 41.07707333564758,
+    "faces": 6,
+    "materials": [
+      "R17_PAVILION_WHITE_FINISH_CANDIDATE",
+      "R32_LIMESTONE_APPEARANCE_CANDIDATE"
+    ],
+    "level": "L00"
+  },
+  {
+    "name": "R33_WALL_WC_W_S",
+    "area": 96.79227256774902,
+    "faces": 6,
+    "materials": [
+      "R17_PAVILION_WHITE_FINISH_CANDIDATE",
+      "R32_LIMESTONE_APPEARANCE_CANDIDATE"
+    ],
+    "level": "L00"
+  },
+  {
+    "name": "R33_WALL_CLOAK_N",
+    "area": 59.525723576545715,
+    "faces": 6,
+    "materials": [
+      "R17_PAVILION_WHITE_FINISH_CANDIDATE"
+    ],
+    "level": "L00"
+  },
+  {
+    "name": "R33_WALL_CLOAK_W",
+    "area": 24.38787007331848,
+    "faces": 6,
+    "materials": [
+      "R17_PAVILION_WHITE_FINISH_CANDIDATE"
+    ],
+    "level": "L00"
+  },
+  {
+    "name": "R33_WALL_CLOAK_SW",
+    "area": 53.74654221534729,
+    "faces": 6,
+    "materials": [
+      "R17_PAVILION_WHITE_FINISH_CANDIDATE"
+    ],
+    "level": "L00"
+  },
+  {
+    "name": "R33_WALL_CLOAK_S",
+    "area": 22.956091284751892,
+    "faces": 6,
+    "materials": [
+      "R17_PAVILION_WHITE_FINISH_CANDIDATE"
+    ],
+    "level": "L00"
+  },
+  {
+    "name": "R33_WALL_CLOAK_S_RETURN",
+    "area": 18.549456119537354,
+    "faces": 6,
+    "materials": [
+      "R17_PAVILION_WHITE_FINISH_CANDIDATE"
+    ],
+    "level": "L00"
+  },
+  {
+    "name": "R33_WALL_SHOP_W",
+    "area": 52.28820741176605,
+    "faces": 6,
+    "materials": [
+      "R17_PAVILION_WHITE_FINISH_CANDIDATE"
+    ],
+    "level": "L00"
+  },
+  {
+    "name": "R33_WALL_SHOP_S",
+    "area": 63.83191955089569,
+    "faces": 6,
+    "materials": [
+      "R17_PAVILION_WHITE_FINISH_CANDIDATE"
+    ],
+    "level": "L00"
+  },
+  {
+    "name": "R33_WALL_SHOP_E",
+    "area": 52.288169503211975,
+    "faces": 6,
+    "materials": [
+      "R17_PAVILION_WHITE_FINISH_CANDIDATE"
+    ],
+    "level": "L00"
+  },
+  {
+    "name": "R33_WALL_LOBBY_E_NIB",
+    "area": 24.361437559127808,
+    "faces": 6,
+    "materials": [
+      "R17_PAVILION_WHITE_FINISH_CANDIDATE"
+    ],
+    "level": "L00"
+  },
+  {
+    "name": "R33_WALL_LOBBY_W_NIB",
+    "area": 24.361450791358948,
+    "faces": 6,
+    "materials": [
+      "R17_PAVILION_WHITE_FINISH_CANDIDATE"
+    ],
+    "level": "L00"
+  },
+  {
+    "name": "R33_WALL_SERVICE_W_N",
+    "area": 64.68685102462769,
+    "faces": 11,
+    "materials": [
+      "R17_PAVILION_WHITE_FINISH_CANDIDATE"
+    ],
+    "level": "L00"
+  },
+  {
+    "name": "R33_WALL_SERVICE_W_E",
+    "area": 63.621918082237244,
+    "faces": 6,
+    "materials": [
+      "R17_PAVILION_WHITE_FINISH_CANDIDATE"
+    ],
+    "level": "L00"
+  },
+  {
+    "name": "R33_WALL_SERVICE_W_W",
+    "area": 52.50678563117981,
+    "faces": 6,
+    "materials": [
+      "R17_PAVILION_WHITE_FINISH_CANDIDATE"
+    ],
+    "level": "L00"
+  },
+  {
+    "name": "R33_WALL_GALLERY_E_S",
+    "area": 87.49239659309387,
+    "faces": 6,
+    "materials": [
+      "R17_PAVILION_WHITE_FINISH_CANDIDATE"
+    ],
+    "level": "L00"
+  },
+  {
+    "name": "R33_WALL_GALLERY_W_S",
+    "area": 77.65495097637177,
+    "faces": 6,
+    "materials": [
+      "R17_PAVILION_WHITE_FINISH_CANDIDATE"
+    ],
+    "level": "L00"
+  },
+  {
+    "name": "R33_CEILING_WC_E",
+    "area": 82.97199496533722,
+    "faces": 9,
+    "materials": [
+      "R17_PAVILION_WHITE_FINISH_CANDIDATE"
+    ],
+    "level": "L00"
+  },
+  {
+    "name": "R33_CEILING_WC_W",
+    "area": 88.86670994758606,
+    "faces": 6,
+    "materials": [
+      "R17_PAVILION_WHITE_FINISH_CANDIDATE"
+    ],
+    "level": "L00"
+  },
+  {
+    "name": "R33_CEILING_CLOAK",
+    "area": 65.34902366995811,
+    "faces": 7,
+    "materials": [
+      "R17_PAVILION_WHITE_FINISH_CANDIDATE"
+    ],
+    "level": "L00"
+  },
+  {
+    "name": "R33_CEILING_SHOP",
+    "area": 74.8980040550232,
+    "faces": 6,
+    "materials": [
+      "R17_PAVILION_WHITE_FINISH_CANDIDATE"
+    ],
+    "level": "L00"
+  },
+  {
+    "name": "R33_FLOOR_CLOAK",
+    "area": 63.665728479623795,
+    "faces": 7,
+    "materials": [
+      "P05_NEUTRAL_ENVELOPE"
+    ],
+    "level": "L00"
+  },
+  {
+    "name": "R34_APPROACH_CONTINUOUS_DECK",
+    "area": 2180.964907186106,
+    "faces": 71,
+    "materials": [
+      "P05_FLOOR_REFERENCE",
+      "R62_HERRINGBONE_STONE_CANDIDATE",
+      "R59_PALE_STONE_EDGE_CANDIDATE"
+    ],
+    "level": "L00_APPROACH"
+  },
+  {
+    "name": "R34_STONE_PARAPET_759554469",
+    "area": 66.67454862594604,
+    "faces": 6,
+    "materials": [
+      "P05_NEUTRAL_ENVELOPE",
+      "R32_LIMESTONE_APPEARANCE_CANDIDATE"
+    ],
+    "level": "L00_APPROACH"
+  },
+  {
+    "name": "R34_STONE_PARAPET_759554471",
+    "area": 67.63974314928055,
+    "faces": 6,
+    "materials": [
+      "P05_NEUTRAL_ENVELOPE",
+      "R32_LIMESTONE_APPEARANCE_CANDIDATE"
+    ],
+    "level": "L00_APPROACH"
+  },
+  {
+    "name": "R35_WALL_51946353_00_0",
+    "area": 625.815425992012,
+    "faces": 26,
+    "materials": [
+      "R35_HISTORIC_WALL_UNTEXTURED_CONTEXT",
+      "R129_HISTORIC_MASONRY_APPEARANCE_CANDIDATE"
+    ],
+    "level": "SITE"
+  },
+  {
+    "name": "R35_WALL_51946353_01_0",
+    "area": 227.44645023345947,
+    "faces": 6,
+    "materials": [
+      "R35_HISTORIC_WALL_UNTEXTURED_CONTEXT",
+      "R129_HISTORIC_MASONRY_APPEARANCE_CANDIDATE"
+    ],
+    "level": "SITE"
+  },
+  {
+    "name": "R35_WALL_51946353_02_0",
+    "area": 226.4821138381958,
+    "faces": 6,
+    "materials": [
+      "R35_HISTORIC_WALL_UNTEXTURED_CONTEXT",
+      "R129_HISTORIC_MASONRY_APPEARANCE_CANDIDATE"
+    ],
+    "level": "SITE"
+  },
+  {
+    "name": "R35_WALL_51946353_03_0",
+    "area": 364.8638195991516,
+    "faces": 6,
+    "materials": [
+      "R35_HISTORIC_WALL_UNTEXTURED_CONTEXT",
+      "R129_HISTORIC_MASONRY_APPEARANCE_CANDIDATE"
+    ],
+    "level": "SITE"
+  },
+  {
+    "name": "R35_WALL_51946353_04_0",
+    "area": 209.4191575050354,
+    "faces": 6,
+    "materials": [
+      "R35_HISTORIC_WALL_UNTEXTURED_CONTEXT",
+      "R129_HISTORIC_MASONRY_APPEARANCE_CANDIDATE"
+    ],
+    "level": "SITE"
+  },
+  {
+    "name": "R39_PUBLIC_CEILING_02",
+    "area": 23.669910833239555,
+    "faces": 6,
+    "materials": [
+      "R32_LIMESTONE_APPEARANCE_CANDIDATE"
+    ],
+    "level": "L00"
+  },
+  {
+    "name": "R39_PUBLIC_CEILING_06",
+    "area": 101.7604341506958,
+    "faces": 6,
+    "materials": [
+      "R32_LIMESTONE_APPEARANCE_CANDIDATE"
+    ],
+    "level": "L00"
+  },
+  {
+    "name": "R39_PUBLIC_CEILING_09",
+    "area": 38.2902929186821,
+    "faces": 6,
+    "materials": [
+      "R32_LIMESTONE_APPEARANCE_CANDIDATE"
+    ],
+    "level": "L00"
+  },
+  {
+    "name": "R39_PUBLIC_CEILING_11",
+    "area": 57.857698410749435,
+    "faces": 6,
+    "materials": [
+      "R32_LIMESTONE_APPEARANCE_CANDIDATE"
+    ],
+    "level": "L00"
+  },
+  {
+    "name": "R39_PUBLIC_CEILING_12",
+    "area": 15.894226290285587,
+    "faces": 6,
+    "materials": [
+      "R32_LIMESTONE_APPEARANCE_CANDIDATE"
+    ],
+    "level": "L00"
+  },
+  {
+    "name": "R39_PUBLIC_CEILING_13",
+    "area": 142.09961880929768,
+    "faces": 8,
+    "materials": [
+      "R32_LIMESTONE_APPEARANCE_CANDIDATE"
+    ],
+    "level": "L00"
+  },
+  {
+    "name": "R39_PUBLIC_CEILING_16",
+    "area": 68.1000489294529,
+    "faces": 6,
+    "materials": [
+      "R32_LIMESTONE_APPEARANCE_CANDIDATE"
+    ],
+    "level": "L00"
+  },
+  {
+    "name": "R39_PUBLIC_CEILING_18",
+    "area": 176.22379118204117,
+    "faces": 16,
+    "materials": [
+      "R32_LIMESTONE_APPEARANCE_CANDIDATE"
+    ],
+    "level": "L00"
+  },
+  {
+    "name": "R39_PUBLIC_CEILING_19",
+    "area": 42.74837609799579,
+    "faces": 10,
+    "materials": [
+      "R32_LIMESTONE_APPEARANCE_CANDIDATE"
+    ],
+    "level": "L00"
+  },
+  {
+    "name": "R45_STAIR_RECESS_CONTINUOUS",
+    "area": 243.5419722654715,
+    "faces": 722,
+    "materials": [
+      "R46_STONE_GRAIN_APPEARANCE_CANDIDATE",
+      "R46_STONE_JOINT_APPEARANCE_CANDIDATE"
+    ],
+    "level": null
+  },
+  {
+    "name": "R52_BAY_2_GLASS",
+    "area": 16.140179060399532,
+    "faces": 6,
+    "materials": [
+      "P10_GLASS_PREVIEW"
+    ],
+    "level": "L00"
+  },
+  {
+    "name": "R52_BAY_2_RETURN_RIGHT",
+    "area": 21.882896900177002,
+    "faces": 6,
+    "materials": [
+      "R53_REVEAL_LIMESTONE_CANDIDATE",
+      "R53_REVEAL_SILL_STONE_CANDIDATE",
+      "R53_LINEAR_MINERAL_SOFFIT_CANDIDATE"
+    ],
+    "level": "L00"
+  },
+  {
+    "name": "R52_BAY_4_GLASS",
+    "area": 16.140188291668892,
+    "faces": 6,
+    "materials": [
+      "P10_GLASS_PREVIEW"
+    ],
+    "level": "L00"
+  },
+  {
+    "name": "R52_BAY_4_RETURN_RIGHT",
+    "area": 30.01800000667572,
+    "faces": 6,
+    "materials": [
+      "R53_REVEAL_LIMESTONE_CANDIDATE",
+      "R53_REVEAL_SILL_STONE_CANDIDATE",
+      "R53_LINEAR_MINERAL_SOFFIT_CANDIDATE"
+    ],
+    "level": "L00"
+  },
+  {
+    "name": "R52_GALLERY_FRONT_LINER_0",
+    "area": 40.22892904281616,
+    "faces": 6,
+    "materials": [
+      "R17_PAVILION_WHITE_FINISH_CANDIDATE"
+    ],
+    "level": "L00"
+  },
+  {
+    "name": "R52_GALLERY_FRONT_LINER_1",
+    "area": 25.457008481025696,
+    "faces": 6,
+    "materials": [
+      "R17_PAVILION_WHITE_FINISH_CANDIDATE"
+    ],
+    "level": "L00"
+  },
+  {
+    "name": "R52_GALLERY_FRONT_LINER_2",
+    "area": 46.5691756606102,
+    "faces": 6,
+    "materials": [
+      "R17_PAVILION_WHITE_FINISH_CANDIDATE"
+    ],
+    "level": "L00"
+  },
+  {
+    "name": "R58_TUBE_759554470",
+    "area": 24.76462372392416,
+    "faces": 50,
+    "materials": [
+      "R58_PALE_METAL_GUARD_CANDIDATE"
+    ],
+    "level": "L00_APPROACH"
+  },
+  {
+    "name": "R58_TUBE_759554472",
+    "area": 24.17261941730976,
+    "faces": 50,
+    "materials": [
+      "R58_PALE_METAL_GUARD_CANDIDATE"
+    ],
+    "level": "L00_APPROACH"
+  },
+  {
+    "name": "R72_LOWER_FOYER_NORTH_WALL",
+    "area": 183.20686388015747,
+    "faces": 6,
+    "materials": [
+      "P05_NEUTRAL_ENVELOPE",
+      "R143_GRAIN_STONE_CANDIDATE",
+      "R143_JOINT_STONE_CANDIDATE"
+    ],
+    "level": "LM1"
+  },
+  {
+    "name": "R72_HIGH_ATRIUM_WALL_3",
+    "area": 194.91451168060303,
+    "faces": 6,
+    "materials": [
+      "P05_NEUTRAL_ENVELOPE",
+      "R139_GRAIN_STONE_CANDIDATE",
+      "R139_JOINT_STONE_CANDIDATE"
+    ],
+    "level": "MULTI"
+  },
+  {
+    "name": "R72_HIGH_ATRIUM_WALL_5",
+    "area": 200.86879539489746,
+    "faces": 6,
+    "materials": [
+      "P05_NEUTRAL_ENVELOPE",
+      "R139_GRAIN_STONE_CANDIDATE",
+      "R139_JOINT_STONE_CANDIDATE"
+    ],
+    "level": "MULTI"
+  },
+  {
+    "name": "R73_E_CONTINUOUS_GALLERY_WALL",
+    "area": 433.76620960235596,
+    "faces": 10,
+    "materials": [
+      "P05_NEUTRAL_ENVELOPE",
+      "R17_PAVILION_WHITE_FINISH_CANDIDATE",
+      "R139_GRAIN_STONE_CANDIDATE",
+      "R139_JOINT_STONE_CANDIDATE"
+    ],
+    "level": "MULTI"
+  },
+  {
+    "name": "R73_W_CONTINUOUS_GALLERY_WALL",
+    "area": 393.04288625717163,
+    "faces": 8,
+    "materials": [
+      "P05_NEUTRAL_ENVELOPE",
+      "R17_PAVILION_WHITE_FINISH_CANDIDATE",
+      "R139_GRAIN_STONE_CANDIDATE",
+      "R139_JOINT_STONE_CANDIDATE"
+    ],
+    "level": "MULTI"
+  },
+  {
+    "name": "R78_E_GROUND_GALLERY_WALL_BODY",
+    "area": 310.61220836639404,
+    "faces": 6,
+    "materials": [
+      "R17_PAVILION_WHITE_FINISH_CANDIDATE"
+    ],
+    "level": "L00"
+  },
+  {
+    "name": "R78_W_GROUND_GALLERY_WALL_BODY",
+    "area": 483.93213272094727,
+    "faces": 11,
+    "materials": [
+      "R17_PAVILION_WHITE_FINISH_CANDIDATE"
+    ],
+    "level": "L00"
+  },
+  {
+    "name": "R81_E_RETURN_00",
+    "area": 26.604601562023163,
+    "faces": 6,
+    "materials": [
+      "P05_NEUTRAL_ENVELOPE"
+    ],
+    "level": "LM1"
+  },
+  {
+    "name": "R81_E_RETURN_04",
+    "area": 35.98446083068848,
+    "faces": 6,
+    "materials": [
+      "P05_NEUTRAL_ENVELOPE"
+    ],
+    "level": "LM1"
+  },
+  {
+    "name": "R81_E_RETURN_05",
+    "area": 15.46585988998413,
+    "faces": 6,
+    "materials": [
+      "P05_NEUTRAL_ENVELOPE"
+    ],
+    "level": "LM1"
+  },
+  {
+    "name": "R81_E_RETURN_09",
+    "area": 16.74827003479004,
+    "faces": 6,
+    "materials": [
+      "P05_NEUTRAL_ENVELOPE"
+    ],
+    "level": "LM1"
+  },
+  {
+    "name": "R81_E_RETURN_10",
+    "area": 16.748273372650146,
+    "faces": 6,
+    "materials": [
+      "P05_NEUTRAL_ENVELOPE"
+    ],
+    "level": "LM1"
+  },
+  {
+    "name": "R81_E_SIDE_FLOOR",
+    "area": 16.50932689756155,
+    "faces": 10,
+    "materials": [
+      "P05_NEUTRAL_ENVELOPE"
+    ],
+    "level": "LM1"
+  },
+  {
+    "name": "R81_E_SIDE_CEILING",
+    "area": 19.449276447296143,
+    "faces": 10,
+    "materials": [
+      "P05_NEUTRAL_ENVELOPE"
+    ],
+    "level": "LM1"
+  },
+  {
+    "name": "R81_W_RETURN_02",
+    "area": 18.03070032596588,
+    "faces": 6,
+    "materials": [
+      "P05_NEUTRAL_ENVELOPE"
+    ],
+    "level": "LM1"
+  },
+  {
+    "name": "R81_W_RETURN_03",
+    "area": 16.748279809951782,
+    "faces": 6,
+    "materials": [
+      "P05_NEUTRAL_ENVELOPE"
+    ],
+    "level": "LM1"
+  },
+  {
+    "name": "R81_W_RETURN_07",
+    "area": 37.09729862213135,
+    "faces": 6,
+    "materials": [
+      "P05_NEUTRAL_ENVELOPE"
+    ],
+    "level": "LM1"
+  },
+  {
+    "name": "R81_W_RETURN_08",
+    "area": 37.26686429977417,
+    "faces": 6,
+    "materials": [
+      "P05_NEUTRAL_ENVELOPE"
+    ],
+    "level": "LM1"
+  },
+  {
+    "name": "R81_W_RETURN_09",
+    "area": 37.097304821014404,
+    "faces": 6,
+    "materials": [
+      "P05_NEUTRAL_ENVELOPE"
+    ],
+    "level": "LM1"
+  },
+  {
+    "name": "R81_W_SIDE_FLOOR",
+    "area": 35.20585639774799,
+    "faces": 10,
+    "materials": [
+      "P05_NEUTRAL_ENVELOPE"
+    ],
+    "level": "LM1"
+  },
+  {
+    "name": "R81_W_SIDE_CEILING",
+    "area": 39.40115761756897,
+    "faces": 10,
+    "materials": [
+      "P05_NEUTRAL_ENVELOPE"
+    ],
+    "level": "LM1"
+  },
+  {
+    "name": "R82_ENTRY_GLASS_0",
+    "area": 29.039221830666065,
+    "faces": 6,
+    "materials": [
+      "P10_GLASS_PREVIEW"
+    ],
+    "level": "L00"
+  },
+  {
+    "name": "R82_ENTRY_GLASS_1",
+    "area": 19.871119134128094,
+    "faces": 6,
+    "materials": [
+      "P10_GLASS_PREVIEW"
+    ],
+    "level": "L00"
+  },
+  {
+    "name": "R82_ENTRY_INNER_WALL",
+    "area": 136.19423294067383,
+    "faces": 6,
+    "materials": [
+      "P05_NEUTRAL_ENVELOPE",
+      "R141_GRAIN_STONE_CANDIDATE",
+      "R141_JOINT_STONE_CANDIDATE"
+    ],
+    "level": "L00"
+  },
+  {
+    "name": "R83_CAFE_BACK_WALL",
+    "area": 533.9286382198334,
+    "faces": 6,
+    "materials": [
+      "P05_NEUTRAL_ENVELOPE",
+      "R141_GRAIN_STONE_CANDIDATE",
+      "R141_JOINT_STONE_CANDIDATE"
+    ],
+    "level": "MULTI"
+  },
+  {
+    "name": "R83_CAFE_ENTRY_HEAD",
+    "area": 56.43593740463257,
+    "faces": 6,
+    "materials": [
+      "P05_NEUTRAL_ENVELOPE",
+      "R141_GRAIN_STONE_CANDIDATE",
+      "R141_JOINT_STONE_CANDIDATE"
+    ],
+    "level": "MULTI"
+  },
+  {
+    "name": "R83_ATRIUM_TRANSITION_GLASS_2",
+    "area": 15.336131811141968,
+    "faces": 5,
+    "materials": [
+      "P10_GLASS_PREVIEW"
+    ],
+    "level": "MULTI"
+  },
+  {
+    "name": "R83_ATRIUM_TRANSITION_GLASS_6",
+    "area": 15.33613357692957,
+    "faces": 5,
+    "materials": [
+      "P10_GLASS_PREVIEW"
+    ],
+    "level": "MULTI"
+  },
+  {
+    "name": "R85_UPPER_LANDING_FLOOR",
+    "area": 18.86152446269989,
+    "faces": 6,
+    "materials": [
+      "P05_NEUTRAL_ENVELOPE"
+    ],
+    "level": "LP1"
+  },
+  {
+    "name": "R85_RETURN_CEILING_0",
+    "area": 40.498571157455444,
+    "faces": 6,
+    "materials": [
+      "R17_PAVILION_WHITE_FINISH_CANDIDATE"
+    ],
+    "level": "LP1"
+  },
+  {
+    "name": "R85_LANDING_INNER_WALL",
+    "area": 32.97562599182129,
+    "faces": 6,
+    "materials": [
+      "P05_NEUTRAL_ENVELOPE"
+    ],
+    "level": "LP1"
+  },
+  {
+    "name": "R85_RETURN_END_WALL",
+    "area": 18.872118949890137,
+    "faces": 6,
+    "materials": [
+      "P05_NEUTRAL_ENVELOPE"
+    ],
+    "level": "LP1"
+  },
+  {
+    "name": "R85_RETURN_FAR_WALL",
+    "area": 18.872115969657898,
+    "faces": 6,
+    "materials": [
+      "P05_NEUTRAL_ENVELOPE"
+    ],
+    "level": "LP1"
+  },
+  {
+    "name": "R87_BASE_FLOOR",
+    "area": 222.80404347507283,
+    "faces": 12,
+    "materials": [
+      "P05_NEUTRAL_ENVELOPE"
+    ],
+    "level": "LP1"
+  },
+  {
+    "name": "R87_UPPER_FLOOR",
+    "area": 169.81366574764252,
+    "faces": 6,
+    "materials": [
+      "P05_NEUTRAL_ENVELOPE"
+    ],
+    "level": "LP1"
+  },
+  {
+    "name": "R87_OPAQUE_ROOF",
+    "area": 243.39071106910706,
+    "faces": 6,
+    "materials": [
+      "P05_NEUTRAL_ENVELOPE"
+    ],
+    "level": "LP1"
+  },
+  {
+    "name": "R87_RETURN_INNER_RETAINED",
+    "area": 31.89640784263611,
+    "faces": 6,
+    "materials": [
+      "P05_NEUTRAL_ENVELOPE",
+      "R147_GRAIN_STONE_CANDIDATE",
+      "R147_JOINT_STONE_CANDIDATE"
+    ],
+    "level": "LP1"
+  },
+  {
+    "name": "R87_VOLUME_FRONT_HIGH",
+    "area": 136.79513883590698,
+    "faces": 6,
+    "materials": [
+      "P05_NEUTRAL_ENVELOPE",
+      "R147_GRAIN_STONE_CANDIDATE",
+      "R147_JOINT_STONE_CANDIDATE"
+    ],
+    "level": "LP1"
+  },
+  {
+    "name": "R87_LANDING_SIDE_LOW",
+    "area": 46.68401098251343,
+    "faces": 6,
+    "materials": [
+      "P05_NEUTRAL_ENVELOPE",
+      "R147_GRAIN_STONE_CANDIDATE",
+      "R147_JOINT_STONE_CANDIDATE"
+    ],
+    "level": "LP1"
+  },
+  {
+    "name": "R87_LANDING_SIDE_HIGH",
+    "area": 54.45050811767578,
+    "faces": 6,
+    "materials": [
+      "P05_NEUTRAL_ENVELOPE",
+      "R147_GRAIN_STONE_CANDIDATE",
+      "R147_JOINT_STONE_CANDIDATE"
+    ],
+    "level": "LP1"
+  },
+  {
+    "name": "R94_WEST_INTERSTITIAL_ROOF",
+    "area": 116.65571135282516,
+    "faces": 6,
+    "materials": [
+      "P05_NEUTRAL_ENVELOPE"
+    ],
+    "level": null
+  },
+  {
+    "name": "R94_EAST_HIGH_WALL_JOIN",
+    "area": 107.71487602591515,
+    "faces": 9,
+    "materials": [
+      "P05_NEUTRAL_ENVELOPE",
+      "R131_WALL_CONTINUITY_CANDIDATE"
+    ],
+    "level": null
+  },
+  {
+    "name": "R95_EAST_OUTER_END_ABOVE_GLASS",
+    "area": 65.07527470588684,
+    "faces": 6,
+    "materials": [
+      "P05_NEUTRAL_ENVELOPE",
+      "R131_WALL_CONTINUITY_CANDIDATE"
+    ],
+    "level": null
+  },
+  {
+    "name": "R95_E_GROUND_GALLERY_ENTRY_WALL",
+    "area": 174.97910356521606,
+    "faces": 10,
+    "materials": [
+      "R17_PAVILION_WHITE_FINISH_CANDIDATE"
+    ],
+    "level": null
+  },
+  {
+    "name": "R96_PETITE_BACK_TO_STAIR",
+    "area": 25.16158026456833,
+    "faces": 6,
+    "materials": [
+      "P05_NEUTRAL_ENVELOPE"
+    ],
+    "level": "MULTI"
+  },
+  {
+    "name": "R96_SHAFT_NORTH",
+    "area": 32.6460679769516,
+    "faces": 6,
+    "materials": [
+      "P05_NEUTRAL_ENVELOPE"
+    ],
+    "level": "LP1"
+  },
+  {
+    "name": "R96_SHAFT_WEST",
+    "area": 25.764442086219788,
+    "faces": 6,
+    "materials": [
+      "P05_NEUTRAL_ENVELOPE"
+    ],
+    "level": "LP1"
+  },
+  {
+    "name": "R96_SHAFT_EAST",
+    "area": 25.764401078224182,
+    "faces": 6,
+    "materials": [
+      "P05_NEUTRAL_ENVELOPE"
+    ],
+    "level": "LP1"
+  },
+  {
+    "name": "R96_DOCUMENTATION_EAST_FLOOR",
+    "area": 141.94515591669187,
+    "faces": 33,
+    "materials": [
+      "P05_NEUTRAL_ENVELOPE"
+    ],
+    "level": "MULTI"
+  },
+  {
+    "name": "R96_DOCUMENTATION_EAST_CEILING",
+    "area": 147.47490807366557,
+    "faces": 42,
+    "materials": [
+      "P05_NEUTRAL_ENVELOPE"
+    ],
+    "level": "MULTI"
+  },
+  {
+    "name": "R96_DOCUMENTATION_EAST_WALL_0",
+    "area": 43.32719272375107,
+    "faces": 6,
+    "materials": [
+      "P05_NEUTRAL_ENVELOPE"
+    ],
+    "level": "MULTI"
+  },
+  {
+    "name": "R96_DOCUMENTATION_EAST_WALL_3",
+    "area": 40.632089734077454,
+    "faces": 6,
+    "materials": [
+      "P05_NEUTRAL_ENVELOPE"
+    ],
+    "level": "MULTI"
+  },
+  {
+    "name": "R96_DOCUMENTATION_EAST_WALL_4",
+    "area": 38.671294808387756,
+    "faces": 6,
+    "materials": [
+      "P05_NEUTRAL_ENVELOPE"
+    ],
+    "level": "MULTI"
+  },
+  {
+    "name": "R96_SERVICE_PORTAL_RIGHT",
+    "area": 20.537189543247223,
+    "faces": 6,
+    "materials": [
+      "P05_NEUTRAL_ENVELOPE"
+    ],
+    "level": "MULTI"
+  },
+  {
+    "name": "R96_SERVICE_PORTAL_LEFT",
+    "area": 15.747285962104797,
+    "faces": 6,
+    "materials": [
+      "P05_NEUTRAL_ENVELOPE"
+    ],
+    "level": "MULTI"
+  },
+  {
+    "name": "R96_DOCUMENTATION_EAST_WALL_12",
+    "area": 20.65162968635559,
+    "faces": 6,
+    "materials": [
+      "P05_NEUTRAL_ENVELOPE"
+    ],
+    "level": "MULTI"
+  },
+  {
+    "name": "R96_DOCUMENTATION_NORTH_JOIN",
+    "area": 88.89923286437988,
+    "faces": 14,
+    "materials": [
+      "P05_NEUTRAL_ENVELOPE"
+    ],
+    "level": "MULTI"
+  },
+  {
+    "name": "R96_DOCUMENTATION_GALLERY_JOIN",
+    "area": 63.16641306877136,
+    "faces": 8,
+    "materials": [
+      "P05_NEUTRAL_ENVELOPE"
+    ],
+    "level": "MULTI"
+  },
+  {
+    "name": "R96_SERVICE_STAIR_BOUNDARY_0",
+    "area": 39.18562197685242,
+    "faces": 6,
+    "materials": [
+      "P05_NEUTRAL_ENVELOPE"
+    ],
+    "level": "MULTI"
+  },
+  {
+    "name": "R96_SERVICE_STAIR_BOUNDARY_1",
+    "area": 34.99969244003296,
+    "faces": 6,
+    "materials": [
+      "P05_NEUTRAL_ENVELOPE"
+    ],
+    "level": "MULTI"
+  },
+  {
+    "name": "R96_SERVICE_STAIR_BOUNDARY_2",
+    "area": 35.002110958099365,
+    "faces": 6,
+    "materials": [
+      "P05_NEUTRAL_ENVELOPE"
+    ],
+    "level": "MULTI"
+  },
+  {
+    "name": "R96_SERVICE_STAIR_BOUNDARY_3",
+    "area": 34.999411821365356,
+    "faces": 6,
+    "materials": [
+      "P05_NEUTRAL_ENVELOPE"
+    ],
+    "level": "MULTI"
+  },
+  {
+    "name": "R96_SERVICE_STAIR_BOUNDARY_4",
+    "area": 35.00211191177368,
+    "faces": 6,
+    "materials": [
+      "P05_NEUTRAL_ENVELOPE"
+    ],
+    "level": "MULTI"
+  },
+  {
+    "name": "R96_SERVICE_STAIR_BOUNDARY_5",
+    "area": 34.99945783615112,
+    "faces": 6,
+    "materials": [
+      "P05_NEUTRAL_ENVELOPE"
+    ],
+    "level": "MULTI"
+  },
+  {
+    "name": "R96_SERVICE_STAIR_BOUNDARY_6",
+    "area": 38.85527276992798,
+    "faces": 6,
+    "materials": [
+      "P05_NEUTRAL_ENVELOPE"
+    ],
+    "level": "MULTI"
+  },
+  {
+    "name": "R116_PETITE_CAFE_BOUNDARY",
+    "area": 193.80673360824585,
+    "faces": 8,
+    "materials": [
+      "P05_NEUTRAL_ENVELOPE"
+    ],
+    "level": null
+  },
+  {
+    "name": "R116_LOWER_FACADE_BACKING",
+    "area": 312.3543528020382,
+    "faces": 104,
+    "materials": [
+      "P05_NEUTRAL_ENVELOPE",
+      "R131_WALL_CONTINUITY_CANDIDATE"
+    ],
+    "level": null
+  },
+  {
+    "name": "R116_BRIDGE_NORTH_WEST",
+    "area": 110.85402190685272,
+    "faces": 8,
+    "materials": [
+      "P05_NEUTRAL_ENVELOPE",
+      "R131_WALL_CONTINUITY_CANDIDATE"
+    ],
+    "level": null
+  },
+  {
+    "name": "R116_BRIDGE_NORTH_EAST",
+    "area": 98.63501501083374,
+    "faces": 8,
+    "materials": [
+      "P05_NEUTRAL_ENVELOPE",
+      "R131_WALL_CONTINUITY_CANDIDATE"
+    ],
+    "level": null
+  },
+  {
+    "name": "R116_STAIR_PORTAL_JAMB_JOIN",
+    "area": 23.582414887845516,
+    "faces": 8,
+    "materials": [
+      "P05_NEUTRAL_ENVELOPE",
+      "R131_WALL_CONTINUITY_CANDIDATE"
+    ],
+    "level": null
+  },
+  {
+    "name": "R116_E_GALLERY_END_RETURN",
+    "area": 45.84890294075012,
+    "faces": 8,
+    "materials": [
+      "P05_NEUTRAL_ENVELOPE"
+    ],
+    "level": null
+  },
+  {
+    "name": "R117_LOWER_FACADE_CORNER_RETURN",
+    "area": 24.85445547103882,
+    "faces": 6,
+    "materials": [
+      "P05_NEUTRAL_ENVELOPE",
+      "R131_WALL_CONTINUITY_CANDIDATE"
+    ],
+    "level": "L00"
+  }
+]

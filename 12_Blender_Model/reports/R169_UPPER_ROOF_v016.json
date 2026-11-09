@@ -1,0 +1,41 @@
+{
+  "scene": "MUDAM_R169_UST_CATI_YENIDEN_ADAY_v016.blend",
+  "accepted": false,
+  "published": false,
+  "reopened": true,
+  "removed_faces": 2792,
+  "new_faces": 69,
+  "protected_features": [
+    [
+      11.1,
+      12.7,
+      274.3,
+      275.6
+    ],
+    [
+      14.7,
+      16.3,
+      274.0,
+      275.6
+    ],
+    [
+      18.7,
+      20.3,
+      275.2,
+      276.8
+    ],
+    [
+      19.9,
+      22.7,
+      276.4,
+      278
+    ]
+  ],
+  "limits": [
+    "Central upper roof only; retained chimney/penetration envelopes and mansard are still rough",
+    "Fitted source roof planes are model estimates, not survey",
+    "Boundary seams require visual review"
+  ],
+  "visual_review": "Central roof is continuous and retained source-feature seam gaps reduced; jagged mansard and crude retained features still prevent building acceptance.",
+  "glb_report": "R169_GLB_ROUNDTRIP_v016.json"
+}

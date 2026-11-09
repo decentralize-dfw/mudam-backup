@@ -1,0 +1,19 @@
+{
+  "accepted": false,
+  "gauge": 1.8,
+  "source": "OSM gauge1800 and ACT five exposed rail levels per track",
+  "fits": {
+    "B": [
+      0.20109525518756066,
+      52.75020150373688
+    ],
+    "A": [
+      0.19647404304492386,
+      51.04386207993286
+    ]
+  },
+  "limits": [
+    "Terrain corridor cut pending",
+    "Station level capped at -6m exterior apron datum"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "diagonal": {
+    "plane": [
+      -0.31647746341190863,
+      0.39124148990423335,
+      -5.327310149561316
+    ],
+    "training": 8,
+    "heldout": 5,
+    "rms": 0.1119772252894287,
+    "max": 0.1825706677283332,
+    "excluded": "First probe lies on existing fort body, outside sloping face",
+    "limitations": "Function not confirmed. Face and footprint remain source-model candidate."
+  },
+  "curve": {
+    "center": [
+      -14.526382945350887,
+      -8.588578579262467
+    ],
+    "radius": 9.722182680583362,
+    "traceResiduals": [
+      -0.003574936195091638,
+      -0.04450145100151204,
+      0.14927403796687422,
+      -0.12960278910921907,
+      -0.022871158960333204,
+      0.04901352372613843
+    ],
+    "max": 0.14927403796687422,
+    "limitations": "Six traced plan controls, fit residuals not independent survey accuracy."
+  },
+  "fullAcceptance": false
+}

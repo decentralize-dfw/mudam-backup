@@ -1,0 +1,17 @@
+{
+  "bytes": 39673664,
+  "errors": [
+    {
+      "name": "R154_FAR_GROUND",
+      "nonFinite": 0,
+      "zeroArea": 1
+    },
+    {
+      "name": "R154_FAR_ROADS",
+      "nonFinite": 0,
+      "zeroArea": 58
+    }
+  ],
+  "accepted": false,
+  "published": false
+}

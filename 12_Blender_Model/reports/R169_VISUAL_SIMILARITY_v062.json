@@ -1,0 +1,24 @@
+{
+  "views": [
+    {
+      "view": "rear",
+      "pixels": 181579,
+      "ssim": 0.7036251770478749,
+      "mae": 0.04736204594791507
+    },
+    {
+      "view": "front",
+      "pixels": 184659,
+      "ssim": 0.6883483086337667,
+      "mae": 0.0650787547738143
+    },
+    {
+      "view": "top",
+      "pixels": 141740,
+      "ssim": 0.9422971814847244,
+      "mae": 0.00801615034800901
+    }
+  ],
+  "scope": "Projected visible model surface only; missing source coverage and hidden facades are not certified; not overall context similarity.",
+  "accepted": false
+}

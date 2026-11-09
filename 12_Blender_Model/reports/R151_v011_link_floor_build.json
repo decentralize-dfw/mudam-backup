@@ -1,0 +1,14 @@
+{
+  "file": "C:\\Users\\yigit\\Desktop\\WORK\\MUDAM\\12_Blender_Model\\scenes\\MUDAM_R151_ACT_CEVRE_ADAY_v011.blend",
+  "changed": [
+    "P05_LINK_FLOOR"
+  ],
+  "new_objects": [],
+  "reason": "Floor lacked PAV_LINK zone metadata. Split at transition clamp planes, then apply identical endpoint displacement; retain original Z and thickness. v010 failed endpoint sample.",
+  "translation": [
+    1.5801740884780884,
+    -0.2937927544116974,
+    0.0
+  ],
+  "accepted": false
+}

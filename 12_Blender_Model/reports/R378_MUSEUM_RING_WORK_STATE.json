@@ -1,0 +1,64 @@
+{
+  "scene": "scenes/MUDAM_R378_DOGU_UZUN_HENDEK_ZEMIN_ADAY_v001.blend",
+  "accepted": false,
+  "published": false,
+  "publicRevision": "R314 unchanged",
+  "museumGeometryPreservedThroughR363": "reports/R363_INHERITANCE.json; 18093 inherited meshes unchanged, no unexpected changes. Repeat only for later delta.",
+  "changes": [
+    "R348/R347 independent west pavilion ground and inner terrace floor planes",
+    "R355 revised existing western retaining return from 8 classified crest stations; no duplicate wall",
+    "R361/R365 expanded measured inner terrace and added source-visible inner retaining segment; clipped covering R322 terrace",
+    "R363 independent two-plane eastern pavilion lawn with continuous crease; held-out RMS .0559m/max .1745m",
+    "R378 independent eastern long lawn and lower facade band; source outlines and classified ground; held-out RMS .0374m/max .1118m for lawn"
+  ],
+  "remaining": [
+    "Current candidates are not whole-ring accepted. White grade seams and abrupt polygon transitions visible in R368 must be resolved.",
+    "Pavilion inner wall bridge-obscured continuation and retaining width remain uncertain.",
+    "Fort earth cover global fits R343/R344/R364 rejected; no new earth roof geometry applied. R340 metal roof remains separate branch.",
+    "Whole pavilion garden fits R366/R367/R369 rejected; existing successful local planes retained.",
+    "Eastern lower band-to-lawn shared-plane constraints R376/R377 failed band RMS threshold; unmodified independent R374/R375 fits used, seam remains candidate.",
+    "Northern/eastern ruin coping profiles, curved fort masonry, bridge interfaces and all green-marked perimeter remain incomplete.",
+    "R35 inner historic wall is visible, not collection-hidden (R371); no arbitrary infill was added beneath modern facade. Do not seal genuine basement openings."
+  ],
+  "reports": [
+    "R355_PAVILION_RETURN.json",
+    "R361_INNER_TERRACE.json",
+    "R365_INNER_TERRACE.json",
+    "R363_RUIN_FLOORS.json",
+    "R378_RUIN_FLOORS.json"
+  ],
+  "photos": [
+    "05_Dis_Mekan/Tarihi_Duvarlarla_Iliski/088_Muze_ve_tarihi_sur_duvarlari_ArchEyes.jpg"
+  ],
+  "referenceViews": [
+    "renders/qa/R345_pavilion_source.png",
+    "renders/qa/R368_pavilion_oblique_source.png"
+  ],
+  "noCompletionPercentage": true,
+  "inheritance": {
+    "changed": [
+      "R152_CLASS2_TERRAIN",
+      "R152_PATH_759551377",
+      "R152_PATH_759680911",
+      "R152_PATH_824216707",
+      "R321_MUSEUM_WEST_MOAT_RETAINING",
+      "R322_WEST_MUSEUM_TERRACE"
+    ],
+    "added": [
+      "R348_MOAT_INNER_ARM_RUIN_FLOOR",
+      "R348_PAVILION_WEST_RUIN_FLOOR",
+      "R361_PAVILION_INNER_RETAINING",
+      "R363_PAVILION_EAST_0_RUIN_FLOOR",
+      "R363_PAVILION_EAST_1_RUIN_FLOOR",
+      "R378_EAST_LONG_MOAT_RUIN_FLOOR",
+      "R378_EAST_WALL_LOWER_BAND_RUIN_FLOOR"
+    ],
+    "removed": [],
+    "unexpected": [],
+    "unchanged": 18093,
+    "museumGeometryPreserved": true,
+    "scope": "Geometry positions, face loop indices and object matrices; not a source-fidelity acceptance"
+  },
+  "sourceSpotChecks": "R379_EAST_GROUND_SOURCE_COMPARE.json: 8 new floor rays all hit intended floor; source vs classified-data differences about 0.06-0.20m; not exact identity.",
+  "roofInvestigation": "R383 classified cross-section shows LOW metal at ~1.98m, separate ~2.2m edge ledge, abrupt raised inner parapet at ~3.45m, then outer cover descending toward ~1.4m. Previous smooth-haunch fits were structurally wrong and rejected (R343/R344/R364/R382/R384). R340 lower roof outline also appears too narrow by about1m at the tested stem section: polygon intersection t~-1.46..1.52 versus classified metal region~-2.5..1.5. Recheck edge positions against reference before adopting R340; do not keep fitting one global smooth haunch."
+}

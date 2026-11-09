@@ -1,0 +1,45 @@
+{
+  "scene": "MUDAM_R425_KULE_FOTOGRAF_TEPelikleri_ADAY_v001.blend",
+  "accepted": false,
+  "published": false,
+  "records": [
+    {
+      "tower": "WEST",
+      "base": 6.0169549472080455,
+      "heightEstimate": 1.15,
+      "radiusEstimate": 0.24
+    },
+    {
+      "tower": "CENTRE",
+      "base": 5.815315400837995,
+      "heightEstimate": 1.15,
+      "radiusEstimate": 0.2
+    },
+    {
+      "tower": "SOUTH",
+      "base": 5.931294523951037,
+      "heightEstimate": 1.35,
+      "radiusEstimate": 0.28
+    }
+  ],
+  "checks": [
+    {
+      "name": "R425_WEST_ACORN_FINIAL",
+      "nonManifold": 0,
+      "zeroArea": 0
+    },
+    {
+      "name": "R425_CENTRE_ACORN_FINIAL",
+      "nonManifold": 0,
+      "zeroArea": 0
+    },
+    {
+      "name": "R425_SOUTH_ACORN_FINIAL",
+      "nonManifold": 0,
+      "zeroArea": 0
+    }
+  ],
+  "limits": [
+    "Photo-proportioned silhouette, not exact decoration or surveyed dimensions. Ring remains incomplete."
+  ]
+}

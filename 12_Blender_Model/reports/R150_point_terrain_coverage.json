@@ -1,0 +1,106 @@
+{
+  "source": "12_Blender_Model/references/terrain_lidar2024/mudam_classified_points.npz",
+  "source_sha256": "6719a6ac25a68f92fd62dd12dde98ff0decbd1a39a4a901d6b267724bb5566ff",
+  "grid_spacing_m": 1,
+  "source_resolution_m": 0.5,
+  "datum_national_m": 316.1510257594697,
+  "datum_method": "Median DTM at 12 existing approach-road points mapped to scene z=0; conditional building tie",
+  "datum_anchors": [
+    {
+      "x": 27,
+      "y": 69,
+      "national_z": 316.10337305184214
+    },
+    {
+      "x": 27,
+      "y": 71,
+      "national_z": 316.1417068391012
+    },
+    {
+      "x": 27,
+      "y": 73,
+      "national_z": 316.26622766716986
+    },
+    {
+      "x": 29,
+      "y": 69,
+      "national_z": 316.1246200566797
+    },
+    {
+      "x": 29,
+      "y": 71,
+      "national_z": 316.1699092757384
+    },
+    {
+      "x": 29,
+      "y": 73,
+      "national_z": 316.23184945170647
+    },
+    {
+      "x": 31,
+      "y": 69,
+      "national_z": 316.12707682327925
+    },
+    {
+      "x": 31,
+      "y": 71,
+      "national_z": 316.16034467983826
+    },
+    {
+      "x": 31,
+      "y": 73,
+      "national_z": 316.2604778282861
+    },
+    {
+      "x": 33,
+      "y": 69,
+      "national_z": 316.0801046897828
+    },
+    {
+      "x": 33,
+      "y": 71,
+      "national_z": 316.1086004131773
+    },
+    {
+      "x": 33,
+      "y": 73,
+      "national_z": 316.2493078500204
+    }
+  ],
+  "datum_spread_m": 0.18612297738707184,
+  "crs": "EPSG:2169 -> EPSG:32632",
+  "construction_acceptance": false,
+  "terrain_method": "Class2 points; bridge footprint +0.8m and z>datum-1m removed; .25m median cells; linear TIN interpolation",
+  "excluded_deck_points": 21608,
+  "interpolation_samples": 33681,
+  "coverage": [
+    {
+      "name": "R35_MOAT_GROUND",
+      "vertices": 3134,
+      "nearest_distance_quantiles": [
+        0.007040171336494593,
+        0.16506521591183743,
+        5.0688901846787395,
+        8.613672789305124,
+        9.267112688089336
+      ],
+      "outside_convex_hull": 4,
+      "under_bridge": 760,
+      "under_bridge_zmax": -0.7108069315667649
+    },
+    {
+      "name": "R68_MOAT_GROUND",
+      "vertices": 399,
+      "nearest_distance_quantiles": [
+        0.04524416938980438,
+        2.521418946052116,
+        5.828211019887847,
+        6.938757732641999,
+        7.023875736924408
+      ],
+      "outside_convex_hull": 0,
+      "under_bridge": 0,
+      "under_bridge_zmax": null
+    }
+  ]
+}

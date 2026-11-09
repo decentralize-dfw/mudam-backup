@@ -1,0 +1,3838 @@
+{
+  "before": [
+    {
+      "name": "R162_MEASURED_ENVELOPE",
+      "triangles": 15001
+    },
+    {
+      "name": "R164_MEASURED_ENVELOPE",
+      "triangles": 8529
+    },
+    {
+      "name": "R165_MEASURED_ENVELOPE",
+      "triangles": 6916
+    },
+    {
+      "name": "R166_MEASURED_ENVELOPE",
+      "triangles": 42280
+    },
+    {
+      "name": "R167_MEASURED_ENVELOPE",
+      "triangles": 10459
+    },
+    {
+      "name": "R170_SOURCE_ISLAND_CURB",
+      "triangles": 1880
+    },
+    {
+      "name": "ARCH_MAIN_ROOF_0",
+      "triangles": 56
+    },
+    {
+      "name": "ARCH_MAIN_ROOF_1",
+      "triangles": 62
+    },
+    {
+      "name": "ARCH_MAIN_ROOF_2",
+      "triangles": 12
+    },
+    {
+      "name": "ARCH_MAIN_ROOF_3",
+      "triangles": 28
+    },
+    {
+      "name": "ARCH_WALL_MASS_1",
+      "triangles": 2
+    },
+    {
+      "name": "Architectural wall with traced openings",
+      "triangles": 378
+    },
+    {
+      "name": "ARCH_WALL_MASS_3",
+      "triangles": 2
+    },
+    {
+      "name": "Cube",
+      "triangles": 12
+    },
+    {
+      "name": "Cube.001",
+      "triangles": 12
+    },
+    {
+      "name": "Cube.002",
+      "triangles": 12
+    },
+    {
+      "name": "Cube.003",
+      "triangles": 12
+    },
+    {
+      "name": "Cube.004",
+      "triangles": 12
+    },
+    {
+      "name": "Cube.005",
+      "triangles": 12
+    },
+    {
+      "name": "Cube.006",
+      "triangles": 12
+    },
+    {
+      "name": "Cube.007",
+      "triangles": 12
+    },
+    {
+      "name": "Cube.008",
+      "triangles": 12
+    },
+    {
+      "name": "Cube.009",
+      "triangles": 12
+    },
+    {
+      "name": "Cube.010",
+      "triangles": 12
+    },
+    {
+      "name": "Cube.011",
+      "triangles": 12
+    },
+    {
+      "name": "Cube.012",
+      "triangles": 12
+    },
+    {
+      "name": "Cube.013",
+      "triangles": 12
+    },
+    {
+      "name": "Cube.014",
+      "triangles": 12
+    },
+    {
+      "name": "Cube.015",
+      "triangles": 12
+    },
+    {
+      "name": "Cube.016",
+      "triangles": 12
+    },
+    {
+      "name": "Cube.017",
+      "triangles": 12
+    },
+    {
+      "name": "Cube.018",
+      "triangles": 12
+    },
+    {
+      "name": "Cube.019",
+      "triangles": 12
+    },
+    {
+      "name": "Cube.020",
+      "triangles": 12
+    },
+    {
+      "name": "Cube.021",
+      "triangles": 12
+    },
+    {
+      "name": "Cube.022",
+      "triangles": 12
+    },
+    {
+      "name": "Cube.023",
+      "triangles": 12
+    },
+    {
+      "name": "Cube.024",
+      "triangles": 12
+    },
+    {
+      "name": "Cube.025",
+      "triangles": 12
+    },
+    {
+      "name": "Cube.026",
+      "triangles": 12
+    },
+    {
+      "name": "Cube.027",
+      "triangles": 12
+    },
+    {
+      "name": "Cube.028",
+      "triangles": 12
+    },
+    {
+      "name": "Cube.029",
+      "triangles": 12
+    },
+    {
+      "name": "Cube.030",
+      "triangles": 12
+    },
+    {
+      "name": "Cube.031",
+      "triangles": 12
+    },
+    {
+      "name": "Cube.032",
+      "triangles": 12
+    },
+    {
+      "name": "Cube.033",
+      "triangles": 12
+    },
+    {
+      "name": "Cube.034",
+      "triangles": 12
+    },
+    {
+      "name": "Cube.035",
+      "triangles": 12
+    },
+    {
+      "name": "Cube.036",
+      "triangles": 12
+    },
+    {
+      "name": "Cube.037",
+      "triangles": 12
+    },
+    {
+      "name": "Cube.038",
+      "triangles": 12
+    },
+    {
+      "name": "Cube.039",
+      "triangles": 12
+    },
+    {
+      "name": "Cube.040",
+      "triangles": 12
+    },
+    {
+      "name": "Cube.041",
+      "triangles": 12
+    },
+    {
+      "name": "Cube.042",
+      "triangles": 12
+    },
+    {
+      "name": "Cube.043",
+      "triangles": 12
+    },
+    {
+      "name": "Cube.044",
+      "triangles": 12
+    },
+    {
+      "name": "Cube.045",
+      "triangles": 12
+    },
+    {
+      "name": "Cube.046",
+      "triangles": 12
+    },
+    {
+      "name": "Cube.047",
+      "triangles": 12
+    },
+    {
+      "name": "Cube.048",
+      "triangles": 12
+    },
+    {
+      "name": "Cube.049",
+      "triangles": 12
+    },
+    {
+      "name": "Cube.050",
+      "triangles": 12
+    },
+    {
+      "name": "Cube.051",
+      "triangles": 12
+    },
+    {
+      "name": "Cube.052",
+      "triangles": 12
+    },
+    {
+      "name": "Cube.053",
+      "triangles": 12
+    },
+    {
+      "name": "Cube.054",
+      "triangles": 12
+    },
+    {
+      "name": "Cube.055",
+      "triangles": 12
+    },
+    {
+      "name": "ARCH_ROOFLIGHT_GLASS_0",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_ROOFLIGHT_FRAME_0_0",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_ROOFLIGHT_FRAME_0_1",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_ROOFLIGHT_FRAME_0_2",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_ROOFLIGHT_FRAME_0_3",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_ROOFLIGHT_GLASS_1",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_ROOFLIGHT_FRAME_1_0",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_ROOFLIGHT_FRAME_1_1",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_ROOFLIGHT_FRAME_1_2",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_ROOFLIGHT_FRAME_1_3",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_ROOFLIGHT_GLASS_2",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_ROOFLIGHT_FRAME_2_0",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_ROOFLIGHT_FRAME_2_1",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_ROOFLIGHT_FRAME_2_2",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_ROOFLIGHT_FRAME_2_3",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_ROOFLIGHT_GLASS_3",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_ROOFLIGHT_FRAME_3_0",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_ROOFLIGHT_FRAME_3_1",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_ROOFLIGHT_FRAME_3_2",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_ROOFLIGHT_FRAME_3_3",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_ROOFLIGHT_GLASS_4",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_ROOFLIGHT_FRAME_4_0",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_ROOFLIGHT_FRAME_4_1",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_ROOFLIGHT_FRAME_4_2",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_ROOFLIGHT_FRAME_4_3",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_FRONT_MANSARD_BAND_continuous",
+      "triangles": 32
+    },
+    {
+      "name": "ARCH_DORMER_FRONT_0",
+      "triangles": 8
+    },
+    {
+      "name": "ARCH_DORMER_CAP_0",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_DORMER_CHEEK_0_110",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_DORMER_CHEEK_0_215",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_DORMER_GLASS_0",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_DORMER_MULLION_0_0",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_DORMER_MULLION_0_1",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_DORMER_MULLION_0_2",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_DORMER_FRAME_0_112",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_DORMER_FRAME_0_160",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_DORMER_FRONT_1",
+      "triangles": 8
+    },
+    {
+      "name": "ARCH_DORMER_CAP_1",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_DORMER_CHEEK_1_330",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_DORMER_CHEEK_1_490",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_DORMER_GLASS_1",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_DORMER_MULLION_1_0",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_DORMER_MULLION_1_1",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_DORMER_MULLION_1_2",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_DORMER_MULLION_1_3",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_DORMER_FRAME_1_105",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_DORMER_FRAME_1_160",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_DORMER_FRONT_2",
+      "triangles": 8
+    },
+    {
+      "name": "ARCH_DORMER_CAP_2",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_DORMER_CHEEK_2_850",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_DORMER_CHEEK_2_982",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_DORMER_GLASS_2",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_DORMER_MULLION_2_0",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_DORMER_MULLION_2_1",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_DORMER_MULLION_2_2",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_DORMER_MULLION_2_3",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_DORMER_FRAME_2_111",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_DORMER_FRAME_2_160",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_DORMER_FRONT_3",
+      "triangles": 8
+    },
+    {
+      "name": "ARCH_DORMER_CAP_3",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_DORMER_CHEEK_3_1080",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_DORMER_CHEEK_3_1250",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_DORMER_GLASS_3",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_DORMER_MULLION_3_0",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_DORMER_MULLION_3_1",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_DORMER_MULLION_3_2",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_DORMER_MULLION_3_3",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_DORMER_FRAME_3_117",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_DORMER_FRAME_3_175",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_DORMER_FRONT_4",
+      "triangles": 8
+    },
+    {
+      "name": "ARCH_DORMER_CAP_4",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_DORMER_CHEEK_4_1290",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_DORMER_CHEEK_4_1440",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_DORMER_GLASS_4",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_DORMER_MULLION_4_0",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_DORMER_MULLION_4_1",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_DORMER_MULLION_4_2",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_DORMER_MULLION_4_3",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_DORMER_FRAME_4_115",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_DORMER_FRAME_4_175",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_DORMER_FRONT_5",
+      "triangles": 8
+    },
+    {
+      "name": "ARCH_DORMER_CAP_5",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_DORMER_CHEEK_5_1580",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_DORMER_CHEEK_5_1700",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_DORMER_GLASS_5",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_DORMER_MULLION_5_0",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_DORMER_MULLION_5_1",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_DORMER_MULLION_5_2",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_DORMER_FRAME_5_108",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_DORMER_FRAME_5_160",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_DORMER_FRONT_6",
+      "triangles": 8
+    },
+    {
+      "name": "ARCH_DORMER_CAP_6",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_DORMER_CHEEK_6_1790",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_DORMER_CHEEK_6_1925",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_DORMER_GLASS_6",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_DORMER_MULLION_6_0",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_DORMER_MULLION_6_1",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_DORMER_MULLION_6_2",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_DORMER_MULLION_6_3",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_DORMER_FRAME_6_110",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_DORMER_FRAME_6_165",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_REAR_PROJECTING_ROOF",
+      "triangles": 8
+    },
+    {
+      "name": "ARCH_REAR_PROJECTION_WALL_1",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_REAR_PROJECTION_WALL_3",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_REAR_ROOF_COPING_0",
+      "triangles": 12
+    },
+    {
+      "name": "ARCH_REAR_ROOF_COPING_2",
+      "triangles": 12
+    },
+    {
+      "name": "ARCH_REAR_GLAZING_4",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_REAR_FRAME_4_0",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_REAR_FRAME_4_1",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_REAR_FRAME_4_2",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_REAR_FRAME_H_4_-65.2446796875",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_REAR_FRAME_H_4_-63.979054687499996",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_REAR_GLAZING_5",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_REAR_FRAME_5_0",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_REAR_FRAME_5_1",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_REAR_FRAME_5_2",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_REAR_FRAME_5_3",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_REAR_FRAME_H_5_-68.1978046875",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_REAR_FRAME_H_5_-66.9673359375",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_REAR_GLAZING_6",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_REAR_FRAME_6_0",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_REAR_FRAME_6_1",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_REAR_FRAME_6_2",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_REAR_FRAME_H_6_-68.4614765625",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_REAR_FRAME_H_6_-66.8442890625",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_REAR_GLAZING_7",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_REAR_FRAME_7_0",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_REAR_FRAME_7_1",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_REAR_FRAME_7_2",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_REAR_FRAME_7_3",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_REAR_FRAME_H_7_-71.3618671875",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_REAR_FRAME_H_7_-70.2192890625",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_EAVE_CLOSURE_SIDE_1_continuous",
+      "triangles": 8
+    },
+    {
+      "name": "ARCH_EAVE_CLOSURE_SIDE_3_continuous",
+      "triangles": 6
+    },
+    {
+      "name": "ARCH_REAR_CORNER_RETURN_0",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_REAR_CORNER_RETURN_1",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_REAR_ROOF_FLASHING_0",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_REAR_ROOF_FLASHING_1",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_FRONT_BAND_FOOT",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_DORMER_GLASS_0_REVEAL_0",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_DORMER_GLASS_0_REVEAL_1",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_DORMER_GLASS_0_REVEAL_2",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_DORMER_GLASS_0_REVEAL_3",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_DORMER_GLASS_1_REVEAL_0",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_DORMER_GLASS_1_REVEAL_1",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_DORMER_GLASS_1_REVEAL_2",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_DORMER_GLASS_1_REVEAL_3",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_DORMER_GLASS_2_REVEAL_0",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_DORMER_GLASS_2_REVEAL_1",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_DORMER_GLASS_2_REVEAL_2",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_DORMER_GLASS_2_REVEAL_3",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_DORMER_GLASS_3_REVEAL_0",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_DORMER_GLASS_3_REVEAL_1",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_DORMER_GLASS_3_REVEAL_2",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_DORMER_GLASS_3_REVEAL_3",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_DORMER_GLASS_4_REVEAL_0",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_DORMER_GLASS_4_REVEAL_1",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_DORMER_GLASS_4_REVEAL_2",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_DORMER_GLASS_4_REVEAL_3",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_DORMER_GLASS_5_REVEAL_0",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_DORMER_GLASS_5_REVEAL_1",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_DORMER_GLASS_5_REVEAL_2",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_DORMER_GLASS_5_REVEAL_3",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_DORMER_GLASS_6_REVEAL_0",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_DORMER_GLASS_6_REVEAL_1",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_DORMER_GLASS_6_REVEAL_2",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_DORMER_GLASS_6_REVEAL_3",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_ROOFLIGHT_GLASS_0_UPSTAND_0",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_ROOFLIGHT_GLASS_0_UPSTAND_1",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_ROOFLIGHT_GLASS_0_UPSTAND_2",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_ROOFLIGHT_GLASS_0_UPSTAND_3",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_ROOFLIGHT_GLASS_1_UPSTAND_0",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_ROOFLIGHT_GLASS_1_UPSTAND_1",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_ROOFLIGHT_GLASS_1_UPSTAND_2",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_ROOFLIGHT_GLASS_1_UPSTAND_3",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_ROOFLIGHT_GLASS_2_UPSTAND_0",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_ROOFLIGHT_GLASS_2_UPSTAND_1",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_ROOFLIGHT_GLASS_2_UPSTAND_2",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_ROOFLIGHT_GLASS_2_UPSTAND_3",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_ROOFLIGHT_GLASS_3_UPSTAND_0",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_ROOFLIGHT_GLASS_3_UPSTAND_1",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_ROOFLIGHT_GLASS_3_UPSTAND_2",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_ROOFLIGHT_GLASS_3_UPSTAND_3",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_ROOFLIGHT_GLASS_4_UPSTAND_0",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_ROOFLIGHT_GLASS_4_UPSTAND_1",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_ROOFLIGHT_GLASS_4_UPSTAND_2",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_ROOFLIGHT_GLASS_4_UPSTAND_3",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_REAR_GLAZING_0_REVEAL_JOINT_0",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_REAR_GLAZING_0_REVEAL_JOINT_1",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_REAR_GLAZING_0_REVEAL_JOINT_2",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_REAR_GLAZING_0_REVEAL_JOINT_3",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_REAR_GLAZING_1_REVEAL_JOINT_0",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_REAR_GLAZING_1_REVEAL_JOINT_1",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_REAR_GLAZING_1_REVEAL_JOINT_2",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_REAR_GLAZING_1_REVEAL_JOINT_3",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_REAR_GLAZING_2_REVEAL_JOINT_0",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_REAR_GLAZING_2_REVEAL_JOINT_1",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_REAR_GLAZING_2_REVEAL_JOINT_2",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_REAR_GLAZING_2_REVEAL_JOINT_3",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_REAR_GLAZING_3_REVEAL_JOINT_0",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_REAR_GLAZING_3_REVEAL_JOINT_1",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_REAR_GLAZING_3_REVEAL_JOINT_2",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_REAR_GLAZING_3_REVEAL_JOINT_3",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_REAR_GLAZING_4_REVEAL_JOINT_0",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_REAR_GLAZING_4_REVEAL_JOINT_1",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_REAR_GLAZING_4_REVEAL_JOINT_2",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_REAR_GLAZING_4_REVEAL_JOINT_3",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_REAR_GLAZING_5_REVEAL_JOINT_0",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_REAR_GLAZING_5_REVEAL_JOINT_1",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_REAR_GLAZING_5_REVEAL_JOINT_2",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_REAR_GLAZING_5_REVEAL_JOINT_3",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_REAR_GLAZING_6_REVEAL_JOINT_0",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_REAR_GLAZING_6_REVEAL_JOINT_1",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_REAR_GLAZING_6_REVEAL_JOINT_2",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_REAR_GLAZING_6_REVEAL_JOINT_3",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_REAR_GLAZING_7_REVEAL_JOINT_0",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_REAR_GLAZING_7_REVEAL_JOINT_1",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_REAR_GLAZING_7_REVEAL_JOINT_2",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_REAR_GLAZING_7_REVEAL_JOINT_3",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_BURIED_BASE_SLAB",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_REAR_PROJECTION_BASE",
+      "triangles": 10
+    },
+    {
+      "name": "ARCH_FRONT_BAND_EXACT_RETURN",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_FRONT_CORNER_CLOSURE_0",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_FRONT_CORNER_CLOSURE_1",
+      "triangles": 2
+    },
+    {
+      "name": "Measured stepped rear facade.001",
+      "triangles": 186
+    },
+    {
+      "name": "ARCH_REAR_GLAZING_0.001",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_REAR_FRAME_0_0.001",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_REAR_FRAME_0_1.001",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_REAR_FRAME_0_2.001",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_REAR_FRAME_H_0_-68.001",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_REAR_FRAME_H_0_-66.001",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_REAR_GLAZING_1.001",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_REAR_FRAME_1_0.001",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_REAR_FRAME_1_1.001",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_REAR_FRAME_1_2.001",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_REAR_FRAME_1_3.001",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_REAR_FRAME_H_1_-68.001",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_REAR_FRAME_H_1_-66.001",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_REAR_GLAZING_2.001",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_REAR_FRAME_2_0.001",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_REAR_FRAME_2_1.001",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_REAR_FRAME_2_2.001",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_REAR_FRAME_H_2_-68.001",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_REAR_FRAME_H_2_-66.001",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_REAR_GLAZING_3.001",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_REAR_FRAME_3_0.001",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_REAR_FRAME_3_1.001",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_REAR_FRAME_H_3_-68.001",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_REAR_FRAME_H_3_-66.001",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_REAR_EAVE_CLOSURE_0.001",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_REAR_EAVE_CLOSURE_1.001",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_REAR_EAVE_CLOSURE_2.001",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_REAR_EAVE_CLOSURE_3.001",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_REAR_EAVE_CLOSURE_6.001",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_REAR_EAVE_CLOSURE_7.001",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_REAR_EAVE_CLOSURE_8.001",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_EAVE_STEP_END_0",
+      "triangles": 1
+    },
+    {
+      "name": "ARCH_EAVE_STEP_END_1",
+      "triangles": 1
+    },
+    {
+      "name": "ARCH_REAR_PROJECTION_WALL_0_openings.001",
+      "triangles": 170
+    },
+    {
+      "name": "R171_HARDSCAPE_777812548",
+      "triangles": 242
+    },
+    {
+      "name": "R171_HARDSCAPE_127664295",
+      "triangles": 726
+    },
+    {
+      "name": "R171_HARDSCAPE_547913345",
+      "triangles": 363
+    },
+    {
+      "name": "R171_HARDSCAPE_547913348",
+      "triangles": 363
+    },
+    {
+      "name": "R171_HARDSCAPE_574571071",
+      "triangles": 484
+    },
+    {
+      "name": "R171_HARDSCAPE_730162258",
+      "triangles": 484
+    },
+    {
+      "name": "R171_HARDSCAPE_996462636",
+      "triangles": 847
+    },
+    {
+      "name": "R171_HARDSCAPE_1420370348",
+      "triangles": 2057
+    },
+    {
+      "name": "R171_HARDSCAPE_1482548915",
+      "triangles": 242
+    },
+    {
+      "name": "R171_HARDSCAPE_1482548916",
+      "triangles": 242
+    },
+    {
+      "name": "R182_EXTENSION_GROUND",
+      "triangles": 61905
+    },
+    {
+      "name": "R182_EXTENSION_ROADS",
+      "triangles": 15143
+    },
+    {
+      "name": "R182_DISTRICT_48993285",
+      "triangles": 12
+    },
+    {
+      "name": "R182_DISTRICT_52091728",
+      "triangles": 84
+    },
+    {
+      "name": "R182_DISTRICT_58609208",
+      "triangles": 40
+    },
+    {
+      "name": "R182_DISTRICT_58609209",
+      "triangles": 16
+    },
+    {
+      "name": "R182_DISTRICT_83179078",
+      "triangles": 52
+    },
+    {
+      "name": "R182_DISTRICT_92711481",
+      "triangles": 20
+    },
+    {
+      "name": "R182_DISTRICT_143863776",
+      "triangles": 12
+    },
+    {
+      "name": "R182_DISTRICT_143863777",
+      "triangles": 12
+    },
+    {
+      "name": "R182_DISTRICT_145323073",
+      "triangles": 40
+    },
+    {
+      "name": "R182_DISTRICT_145323089",
+      "triangles": 20
+    },
+    {
+      "name": "R182_DISTRICT_153344889",
+      "triangles": 12
+    },
+    {
+      "name": "R182_DISTRICT_153379126",
+      "triangles": 12
+    },
+    {
+      "name": "R182_DISTRICT_153379133",
+      "triangles": 16
+    },
+    {
+      "name": "R182_DISTRICT_155639263",
+      "triangles": 12
+    },
+    {
+      "name": "R182_DISTRICT_155639270",
+      "triangles": 20
+    },
+    {
+      "name": "R182_DISTRICT_155639276",
+      "triangles": 36
+    },
+    {
+      "name": "R182_DISTRICT_162041599",
+      "triangles": 28
+    },
+    {
+      "name": "R182_DISTRICT_162041608",
+      "triangles": 28
+    },
+    {
+      "name": "R182_DISTRICT_163103029",
+      "triangles": 176
+    },
+    {
+      "name": "R182_DISTRICT_164179247",
+      "triangles": 16
+    },
+    {
+      "name": "R182_DISTRICT_164179266",
+      "triangles": 12
+    },
+    {
+      "name": "R182_DISTRICT_164179276",
+      "triangles": 20
+    },
+    {
+      "name": "R182_DISTRICT_164179296",
+      "triangles": 20
+    },
+    {
+      "name": "R182_DISTRICT_164179321",
+      "triangles": 16
+    },
+    {
+      "name": "R182_DISTRICT_164180258",
+      "triangles": 12
+    },
+    {
+      "name": "R182_DISTRICT_164184496",
+      "triangles": 32
+    },
+    {
+      "name": "R182_DISTRICT_164184528",
+      "triangles": 16
+    },
+    {
+      "name": "R182_DISTRICT_164184549",
+      "triangles": 12
+    },
+    {
+      "name": "R182_DISTRICT_164184564",
+      "triangles": 72
+    },
+    {
+      "name": "R182_DISTRICT_164184565",
+      "triangles": 36
+    },
+    {
+      "name": "R182_DISTRICT_165232667",
+      "triangles": 32
+    },
+    {
+      "name": "R182_DISTRICT_166956469",
+      "triangles": 12
+    },
+    {
+      "name": "R182_DISTRICT_166956476",
+      "triangles": 12
+    },
+    {
+      "name": "R182_DISTRICT_166956477",
+      "triangles": 12
+    },
+    {
+      "name": "R182_DISTRICT_171495669",
+      "triangles": 36
+    },
+    {
+      "name": "R182_DISTRICT_171495678",
+      "triangles": 20
+    },
+    {
+      "name": "R182_DISTRICT_171495682",
+      "triangles": 40
+    },
+    {
+      "name": "R182_DISTRICT_171495694",
+      "triangles": 16
+    },
+    {
+      "name": "R182_DISTRICT_171495716",
+      "triangles": 28
+    },
+    {
+      "name": "R182_DISTRICT_171674237",
+      "triangles": 28
+    },
+    {
+      "name": "R182_DISTRICT_197552941",
+      "triangles": 132
+    },
+    {
+      "name": "R182_DISTRICT_216534891",
+      "triangles": 12
+    },
+    {
+      "name": "R182_DISTRICT_301836561",
+      "triangles": 36
+    },
+    {
+      "name": "R182_DISTRICT_453737278",
+      "triangles": 72
+    },
+    {
+      "name": "R182_DISTRICT_453737281",
+      "triangles": 72
+    },
+    {
+      "name": "R182_DISTRICT_453745328",
+      "triangles": 72
+    },
+    {
+      "name": "R182_DISTRICT_546346007",
+      "triangles": 12
+    },
+    {
+      "name": "R182_DISTRICT_546351307",
+      "triangles": 12
+    },
+    {
+      "name": "R182_DISTRICT_582803240",
+      "triangles": 12
+    },
+    {
+      "name": "R182_DISTRICT_582803241",
+      "triangles": 12
+    },
+    {
+      "name": "R182_DISTRICT_831196268",
+      "triangles": 12
+    },
+    {
+      "name": "R182_DISTRICT_831196269",
+      "triangles": 20
+    },
+    {
+      "name": "R182_DISTRICT_832920701",
+      "triangles": 24
+    },
+    {
+      "name": "R182_DISTRICT_832920704",
+      "triangles": 20
+    },
+    {
+      "name": "R182_DISTRICT_927885562",
+      "triangles": 24
+    },
+    {
+      "name": "R182_DISTRICT_927885563",
+      "triangles": 12
+    },
+    {
+      "name": "R182_DISTRICT_930614758",
+      "triangles": 28
+    },
+    {
+      "name": "R182_DISTRICT_930614763",
+      "triangles": 12
+    },
+    {
+      "name": "R182_DISTRICT_930614764",
+      "triangles": 24
+    },
+    {
+      "name": "R182_DISTRICT_996462637",
+      "triangles": 20
+    },
+    {
+      "name": "R182_DISTRICT_1337806173",
+      "triangles": 12
+    },
+    {
+      "name": "R182_DISTRICT_1337806174",
+      "triangles": 16
+    },
+    {
+      "name": "R182_DISTRICT_1337806175",
+      "triangles": 20
+    },
+    {
+      "name": "R182_DISTRICT_1337806192",
+      "triangles": 12
+    },
+    {
+      "name": "R182_DISTRICT_1337806196",
+      "triangles": 12
+    },
+    {
+      "name": "R182_DISTRICT_1337806197",
+      "triangles": 20
+    },
+    {
+      "name": "R182_DISTRICT_1337806198",
+      "triangles": 12
+    },
+    {
+      "name": "R182_DISTRICT_1467794790",
+      "triangles": 24
+    },
+    {
+      "name": "R171_155639257",
+      "triangles": 100
+    },
+    {
+      "name": "R171_164179114",
+      "triangles": 44
+    },
+    {
+      "name": "R171_164179122",
+      "triangles": 56
+    },
+    {
+      "name": "R171_164179134",
+      "triangles": 12
+    },
+    {
+      "name": "R171_164179136",
+      "triangles": 12
+    },
+    {
+      "name": "R171_164179146",
+      "triangles": 12
+    },
+    {
+      "name": "R171_164179151",
+      "triangles": 36
+    },
+    {
+      "name": "R171_164179172",
+      "triangles": 12
+    },
+    {
+      "name": "R171_164179175",
+      "triangles": 12
+    },
+    {
+      "name": "R171_164179187",
+      "triangles": 36
+    },
+    {
+      "name": "R171_164179230",
+      "triangles": 12
+    },
+    {
+      "name": "R171_164179236",
+      "triangles": 32
+    },
+    {
+      "name": "R171_164179239",
+      "triangles": 12
+    },
+    {
+      "name": "R171_164179243",
+      "triangles": 12
+    },
+    {
+      "name": "R171_164179251",
+      "triangles": 12
+    },
+    {
+      "name": "R171_164179257",
+      "triangles": 12
+    },
+    {
+      "name": "R171_164179267",
+      "triangles": 12
+    },
+    {
+      "name": "R171_164179284",
+      "triangles": 28
+    },
+    {
+      "name": "R171_164179295",
+      "triangles": 12
+    },
+    {
+      "name": "R171_164184497",
+      "triangles": 36
+    },
+    {
+      "name": "R171_164184498",
+      "triangles": 44
+    },
+    {
+      "name": "R171_164184504",
+      "triangles": 12
+    },
+    {
+      "name": "R171_164184511",
+      "triangles": 16
+    },
+    {
+      "name": "R171_164184515",
+      "triangles": 12
+    },
+    {
+      "name": "R171_164184527",
+      "triangles": 28
+    },
+    {
+      "name": "R171_164184542",
+      "triangles": 12
+    },
+    {
+      "name": "R171_164184548",
+      "triangles": 12
+    },
+    {
+      "name": "R171_164184558",
+      "triangles": 28
+    },
+    {
+      "name": "R171_216535733",
+      "triangles": 12
+    },
+    {
+      "name": "R171_274961867",
+      "triangles": 12
+    },
+    {
+      "name": "R171_274961874",
+      "triangles": 12
+    },
+    {
+      "name": "R171_306842711",
+      "triangles": 48
+    },
+    {
+      "name": "R171_306842712",
+      "triangles": 12
+    },
+    {
+      "name": "R171_453756109",
+      "triangles": 72
+    },
+    {
+      "name": "R171_458475576",
+      "triangles": 16
+    },
+    {
+      "name": "R171_458475578",
+      "triangles": 12
+    },
+    {
+      "name": "R171_546345955",
+      "triangles": 28
+    },
+    {
+      "name": "R171_582801089",
+      "triangles": 16
+    },
+    {
+      "name": "R171_582801091",
+      "triangles": 12
+    },
+    {
+      "name": "R171_582801093",
+      "triangles": 12
+    },
+    {
+      "name": "R171_582801094",
+      "triangles": 12
+    },
+    {
+      "name": "R171_645101127",
+      "triangles": 28
+    },
+    {
+      "name": "R171_645101128",
+      "triangles": 12
+    },
+    {
+      "name": "R171_1337806183",
+      "triangles": 20
+    },
+    {
+      "name": "R171_1337806200",
+      "triangles": 16
+    },
+    {
+      "name": "R171_1337806201",
+      "triangles": 16
+    },
+    {
+      "name": "R171_1337806205",
+      "triangles": 12
+    },
+    {
+      "name": "R171_1337806216",
+      "triangles": 12
+    },
+    {
+      "name": "R171_1337806217",
+      "triangles": 12
+    },
+    {
+      "name": "R171_1337806227",
+      "triangles": 12
+    },
+    {
+      "name": "R171_1337806228",
+      "triangles": 12
+    },
+    {
+      "name": "R171_1337806229",
+      "triangles": 12
+    },
+    {
+      "name": "R174_155639279",
+      "triangles": 36
+    },
+    {
+      "name": "R174_164179124",
+      "triangles": 28
+    },
+    {
+      "name": "R174_164179149",
+      "triangles": 12
+    },
+    {
+      "name": "R174_164179193",
+      "triangles": 12
+    },
+    {
+      "name": "R174_164179322",
+      "triangles": 28
+    },
+    {
+      "name": "R174_164179329",
+      "triangles": 36
+    },
+    {
+      "name": "R174_164184509",
+      "triangles": 12
+    },
+    {
+      "name": "R174_164184514",
+      "triangles": 12
+    },
+    {
+      "name": "R174_216534872",
+      "triangles": 12
+    },
+    {
+      "name": "R174_216534873",
+      "triangles": 12
+    },
+    {
+      "name": "R174_777812550",
+      "triangles": 20
+    },
+    {
+      "name": "R174_1337806190",
+      "triangles": 28
+    },
+    {
+      "name": "R174_1337806194",
+      "triangles": 12
+    },
+    {
+      "name": "R174_1337806195",
+      "triangles": 12
+    },
+    {
+      "name": "R177_TRIMMED_INHERITED_ROAD.001",
+      "triangles": 36648
+    },
+    {
+      "name": "R177_ROAD_asphalt",
+      "triangles": 15231
+    },
+    {
+      "name": "R177_ROAD_footway",
+      "triangles": 3732
+    },
+    {
+      "name": "R177_ROAD_MARKINGS",
+      "triangles": 1055
+    },
+    {
+      "name": "R177_TRIMMED_INHERITED_ROAD",
+      "triangles": 2685
+    }
+  ],
+  "after": [
+    {
+      "name": "R162_MEASURED_ENVELOPE",
+      "triangles": 15001
+    },
+    {
+      "name": "R164_MEASURED_ENVELOPE",
+      "triangles": 8529
+    },
+    {
+      "name": "R165_MEASURED_ENVELOPE",
+      "triangles": 6916
+    },
+    {
+      "name": "R166_MEASURED_ENVELOPE",
+      "triangles": 42280
+    },
+    {
+      "name": "R167_MEASURED_ENVELOPE",
+      "triangles": 10459
+    },
+    {
+      "name": "R170_SOURCE_ISLAND_CURB",
+      "triangles": 1880
+    },
+    {
+      "name": "ARCH_MAIN_ROOF_0",
+      "triangles": 56
+    },
+    {
+      "name": "ARCH_MAIN_ROOF_1",
+      "triangles": 62
+    },
+    {
+      "name": "ARCH_MAIN_ROOF_2",
+      "triangles": 12
+    },
+    {
+      "name": "ARCH_MAIN_ROOF_3",
+      "triangles": 28
+    },
+    {
+      "name": "ARCH_WALL_MASS_1",
+      "triangles": 2
+    },
+    {
+      "name": "Architectural wall with traced openings",
+      "triangles": 378
+    },
+    {
+      "name": "ARCH_WALL_MASS_3",
+      "triangles": 2
+    },
+    {
+      "name": "Cube",
+      "triangles": 12
+    },
+    {
+      "name": "Cube.001",
+      "triangles": 12
+    },
+    {
+      "name": "Cube.002",
+      "triangles": 12
+    },
+    {
+      "name": "Cube.003",
+      "triangles": 12
+    },
+    {
+      "name": "Cube.004",
+      "triangles": 12
+    },
+    {
+      "name": "Cube.005",
+      "triangles": 12
+    },
+    {
+      "name": "Cube.006",
+      "triangles": 12
+    },
+    {
+      "name": "Cube.007",
+      "triangles": 12
+    },
+    {
+      "name": "Cube.008",
+      "triangles": 12
+    },
+    {
+      "name": "Cube.009",
+      "triangles": 12
+    },
+    {
+      "name": "Cube.010",
+      "triangles": 12
+    },
+    {
+      "name": "Cube.011",
+      "triangles": 12
+    },
+    {
+      "name": "Cube.012",
+      "triangles": 12
+    },
+    {
+      "name": "Cube.013",
+      "triangles": 12
+    },
+    {
+      "name": "Cube.014",
+      "triangles": 12
+    },
+    {
+      "name": "Cube.015",
+      "triangles": 12
+    },
+    {
+      "name": "Cube.016",
+      "triangles": 12
+    },
+    {
+      "name": "Cube.017",
+      "triangles": 12
+    },
+    {
+      "name": "Cube.018",
+      "triangles": 12
+    },
+    {
+      "name": "Cube.019",
+      "triangles": 12
+    },
+    {
+      "name": "Cube.020",
+      "triangles": 12
+    },
+    {
+      "name": "Cube.021",
+      "triangles": 12
+    },
+    {
+      "name": "Cube.022",
+      "triangles": 12
+    },
+    {
+      "name": "Cube.023",
+      "triangles": 12
+    },
+    {
+      "name": "Cube.024",
+      "triangles": 12
+    },
+    {
+      "name": "Cube.025",
+      "triangles": 12
+    },
+    {
+      "name": "Cube.026",
+      "triangles": 12
+    },
+    {
+      "name": "Cube.027",
+      "triangles": 12
+    },
+    {
+      "name": "Cube.028",
+      "triangles": 12
+    },
+    {
+      "name": "Cube.029",
+      "triangles": 12
+    },
+    {
+      "name": "Cube.030",
+      "triangles": 12
+    },
+    {
+      "name": "Cube.031",
+      "triangles": 12
+    },
+    {
+      "name": "Cube.032",
+      "triangles": 12
+    },
+    {
+      "name": "Cube.033",
+      "triangles": 12
+    },
+    {
+      "name": "Cube.034",
+      "triangles": 12
+    },
+    {
+      "name": "Cube.035",
+      "triangles": 12
+    },
+    {
+      "name": "Cube.036",
+      "triangles": 12
+    },
+    {
+      "name": "Cube.037",
+      "triangles": 12
+    },
+    {
+      "name": "Cube.038",
+      "triangles": 12
+    },
+    {
+      "name": "Cube.039",
+      "triangles": 12
+    },
+    {
+      "name": "Cube.040",
+      "triangles": 12
+    },
+    {
+      "name": "Cube.041",
+      "triangles": 12
+    },
+    {
+      "name": "Cube.042",
+      "triangles": 12
+    },
+    {
+      "name": "Cube.043",
+      "triangles": 12
+    },
+    {
+      "name": "Cube.044",
+      "triangles": 12
+    },
+    {
+      "name": "Cube.045",
+      "triangles": 12
+    },
+    {
+      "name": "Cube.046",
+      "triangles": 12
+    },
+    {
+      "name": "Cube.047",
+      "triangles": 12
+    },
+    {
+      "name": "Cube.048",
+      "triangles": 12
+    },
+    {
+      "name": "Cube.049",
+      "triangles": 12
+    },
+    {
+      "name": "Cube.050",
+      "triangles": 12
+    },
+    {
+      "name": "Cube.051",
+      "triangles": 12
+    },
+    {
+      "name": "Cube.052",
+      "triangles": 12
+    },
+    {
+      "name": "Cube.053",
+      "triangles": 12
+    },
+    {
+      "name": "Cube.054",
+      "triangles": 12
+    },
+    {
+      "name": "Cube.055",
+      "triangles": 12
+    },
+    {
+      "name": "ARCH_ROOFLIGHT_GLASS_0",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_ROOFLIGHT_FRAME_0_0",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_ROOFLIGHT_FRAME_0_1",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_ROOFLIGHT_FRAME_0_2",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_ROOFLIGHT_FRAME_0_3",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_ROOFLIGHT_GLASS_1",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_ROOFLIGHT_FRAME_1_0",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_ROOFLIGHT_FRAME_1_1",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_ROOFLIGHT_FRAME_1_2",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_ROOFLIGHT_FRAME_1_3",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_ROOFLIGHT_GLASS_2",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_ROOFLIGHT_FRAME_2_0",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_ROOFLIGHT_FRAME_2_1",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_ROOFLIGHT_FRAME_2_2",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_ROOFLIGHT_FRAME_2_3",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_ROOFLIGHT_GLASS_3",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_ROOFLIGHT_FRAME_3_0",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_ROOFLIGHT_FRAME_3_1",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_ROOFLIGHT_FRAME_3_2",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_ROOFLIGHT_FRAME_3_3",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_ROOFLIGHT_GLASS_4",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_ROOFLIGHT_FRAME_4_0",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_ROOFLIGHT_FRAME_4_1",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_ROOFLIGHT_FRAME_4_2",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_ROOFLIGHT_FRAME_4_3",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_FRONT_MANSARD_BAND_continuous",
+      "triangles": 32
+    },
+    {
+      "name": "ARCH_DORMER_FRONT_0",
+      "triangles": 8
+    },
+    {
+      "name": "ARCH_DORMER_CAP_0",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_DORMER_CHEEK_0_110",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_DORMER_CHEEK_0_215",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_DORMER_GLASS_0",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_DORMER_MULLION_0_0",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_DORMER_MULLION_0_1",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_DORMER_MULLION_0_2",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_DORMER_FRAME_0_112",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_DORMER_FRAME_0_160",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_DORMER_FRONT_1",
+      "triangles": 8
+    },
+    {
+      "name": "ARCH_DORMER_CAP_1",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_DORMER_CHEEK_1_330",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_DORMER_CHEEK_1_490",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_DORMER_GLASS_1",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_DORMER_MULLION_1_0",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_DORMER_MULLION_1_1",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_DORMER_MULLION_1_2",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_DORMER_MULLION_1_3",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_DORMER_FRAME_1_105",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_DORMER_FRAME_1_160",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_DORMER_FRONT_2",
+      "triangles": 8
+    },
+    {
+      "name": "ARCH_DORMER_CAP_2",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_DORMER_CHEEK_2_850",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_DORMER_CHEEK_2_982",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_DORMER_GLASS_2",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_DORMER_MULLION_2_0",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_DORMER_MULLION_2_1",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_DORMER_MULLION_2_2",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_DORMER_MULLION_2_3",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_DORMER_FRAME_2_111",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_DORMER_FRAME_2_160",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_DORMER_FRONT_3",
+      "triangles": 8
+    },
+    {
+      "name": "ARCH_DORMER_CAP_3",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_DORMER_CHEEK_3_1080",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_DORMER_CHEEK_3_1250",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_DORMER_GLASS_3",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_DORMER_MULLION_3_0",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_DORMER_MULLION_3_1",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_DORMER_MULLION_3_2",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_DORMER_MULLION_3_3",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_DORMER_FRAME_3_117",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_DORMER_FRAME_3_175",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_DORMER_FRONT_4",
+      "triangles": 8
+    },
+    {
+      "name": "ARCH_DORMER_CAP_4",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_DORMER_CHEEK_4_1290",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_DORMER_CHEEK_4_1440",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_DORMER_GLASS_4",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_DORMER_MULLION_4_0",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_DORMER_MULLION_4_1",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_DORMER_MULLION_4_2",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_DORMER_MULLION_4_3",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_DORMER_FRAME_4_115",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_DORMER_FRAME_4_175",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_DORMER_FRONT_5",
+      "triangles": 8
+    },
+    {
+      "name": "ARCH_DORMER_CAP_5",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_DORMER_CHEEK_5_1580",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_DORMER_CHEEK_5_1700",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_DORMER_GLASS_5",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_DORMER_MULLION_5_0",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_DORMER_MULLION_5_1",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_DORMER_MULLION_5_2",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_DORMER_FRAME_5_108",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_DORMER_FRAME_5_160",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_DORMER_FRONT_6",
+      "triangles": 8
+    },
+    {
+      "name": "ARCH_DORMER_CAP_6",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_DORMER_CHEEK_6_1790",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_DORMER_CHEEK_6_1925",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_DORMER_GLASS_6",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_DORMER_MULLION_6_0",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_DORMER_MULLION_6_1",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_DORMER_MULLION_6_2",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_DORMER_MULLION_6_3",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_DORMER_FRAME_6_110",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_DORMER_FRAME_6_165",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_REAR_PROJECTING_ROOF",
+      "triangles": 8
+    },
+    {
+      "name": "ARCH_REAR_PROJECTION_WALL_1",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_REAR_PROJECTION_WALL_3",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_REAR_ROOF_COPING_0",
+      "triangles": 12
+    },
+    {
+      "name": "ARCH_REAR_ROOF_COPING_2",
+      "triangles": 12
+    },
+    {
+      "name": "ARCH_REAR_GLAZING_4",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_REAR_FRAME_4_0",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_REAR_FRAME_4_1",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_REAR_FRAME_4_2",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_REAR_FRAME_H_4_-65.2446796875",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_REAR_FRAME_H_4_-63.979054687499996",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_REAR_GLAZING_5",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_REAR_FRAME_5_0",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_REAR_FRAME_5_1",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_REAR_FRAME_5_2",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_REAR_FRAME_5_3",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_REAR_FRAME_H_5_-68.1978046875",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_REAR_FRAME_H_5_-66.9673359375",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_REAR_GLAZING_6",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_REAR_FRAME_6_0",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_REAR_FRAME_6_1",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_REAR_FRAME_6_2",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_REAR_FRAME_H_6_-68.4614765625",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_REAR_FRAME_H_6_-66.8442890625",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_REAR_GLAZING_7",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_REAR_FRAME_7_0",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_REAR_FRAME_7_1",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_REAR_FRAME_7_2",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_REAR_FRAME_7_3",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_REAR_FRAME_H_7_-71.3618671875",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_REAR_FRAME_H_7_-70.2192890625",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_EAVE_CLOSURE_SIDE_1_continuous",
+      "triangles": 8
+    },
+    {
+      "name": "ARCH_EAVE_CLOSURE_SIDE_3_continuous",
+      "triangles": 6
+    },
+    {
+      "name": "ARCH_REAR_CORNER_RETURN_0",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_REAR_CORNER_RETURN_1",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_REAR_ROOF_FLASHING_0",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_REAR_ROOF_FLASHING_1",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_FRONT_BAND_FOOT",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_DORMER_GLASS_0_REVEAL_0",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_DORMER_GLASS_0_REVEAL_1",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_DORMER_GLASS_0_REVEAL_2",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_DORMER_GLASS_0_REVEAL_3",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_DORMER_GLASS_1_REVEAL_0",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_DORMER_GLASS_1_REVEAL_1",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_DORMER_GLASS_1_REVEAL_2",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_DORMER_GLASS_1_REVEAL_3",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_DORMER_GLASS_2_REVEAL_0",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_DORMER_GLASS_2_REVEAL_1",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_DORMER_GLASS_2_REVEAL_2",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_DORMER_GLASS_2_REVEAL_3",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_DORMER_GLASS_3_REVEAL_0",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_DORMER_GLASS_3_REVEAL_1",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_DORMER_GLASS_3_REVEAL_2",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_DORMER_GLASS_3_REVEAL_3",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_DORMER_GLASS_4_REVEAL_0",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_DORMER_GLASS_4_REVEAL_1",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_DORMER_GLASS_4_REVEAL_2",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_DORMER_GLASS_4_REVEAL_3",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_DORMER_GLASS_5_REVEAL_0",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_DORMER_GLASS_5_REVEAL_1",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_DORMER_GLASS_5_REVEAL_2",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_DORMER_GLASS_5_REVEAL_3",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_DORMER_GLASS_6_REVEAL_0",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_DORMER_GLASS_6_REVEAL_1",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_DORMER_GLASS_6_REVEAL_2",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_DORMER_GLASS_6_REVEAL_3",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_ROOFLIGHT_GLASS_0_UPSTAND_0",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_ROOFLIGHT_GLASS_0_UPSTAND_1",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_ROOFLIGHT_GLASS_0_UPSTAND_2",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_ROOFLIGHT_GLASS_0_UPSTAND_3",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_ROOFLIGHT_GLASS_1_UPSTAND_0",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_ROOFLIGHT_GLASS_1_UPSTAND_1",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_ROOFLIGHT_GLASS_1_UPSTAND_2",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_ROOFLIGHT_GLASS_1_UPSTAND_3",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_ROOFLIGHT_GLASS_2_UPSTAND_0",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_ROOFLIGHT_GLASS_2_UPSTAND_1",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_ROOFLIGHT_GLASS_2_UPSTAND_2",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_ROOFLIGHT_GLASS_2_UPSTAND_3",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_ROOFLIGHT_GLASS_3_UPSTAND_0",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_ROOFLIGHT_GLASS_3_UPSTAND_1",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_ROOFLIGHT_GLASS_3_UPSTAND_2",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_ROOFLIGHT_GLASS_3_UPSTAND_3",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_ROOFLIGHT_GLASS_4_UPSTAND_0",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_ROOFLIGHT_GLASS_4_UPSTAND_1",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_ROOFLIGHT_GLASS_4_UPSTAND_2",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_ROOFLIGHT_GLASS_4_UPSTAND_3",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_REAR_GLAZING_0_REVEAL_JOINT_0",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_REAR_GLAZING_0_REVEAL_JOINT_1",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_REAR_GLAZING_0_REVEAL_JOINT_2",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_REAR_GLAZING_0_REVEAL_JOINT_3",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_REAR_GLAZING_1_REVEAL_JOINT_0",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_REAR_GLAZING_1_REVEAL_JOINT_1",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_REAR_GLAZING_1_REVEAL_JOINT_2",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_REAR_GLAZING_1_REVEAL_JOINT_3",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_REAR_GLAZING_2_REVEAL_JOINT_0",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_REAR_GLAZING_2_REVEAL_JOINT_1",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_REAR_GLAZING_2_REVEAL_JOINT_2",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_REAR_GLAZING_2_REVEAL_JOINT_3",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_REAR_GLAZING_3_REVEAL_JOINT_0",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_REAR_GLAZING_3_REVEAL_JOINT_1",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_REAR_GLAZING_3_REVEAL_JOINT_2",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_REAR_GLAZING_3_REVEAL_JOINT_3",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_REAR_GLAZING_4_REVEAL_JOINT_0",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_REAR_GLAZING_4_REVEAL_JOINT_1",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_REAR_GLAZING_4_REVEAL_JOINT_2",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_REAR_GLAZING_4_REVEAL_JOINT_3",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_REAR_GLAZING_5_REVEAL_JOINT_0",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_REAR_GLAZING_5_REVEAL_JOINT_1",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_REAR_GLAZING_5_REVEAL_JOINT_2",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_REAR_GLAZING_5_REVEAL_JOINT_3",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_REAR_GLAZING_6_REVEAL_JOINT_0",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_REAR_GLAZING_6_REVEAL_JOINT_1",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_REAR_GLAZING_6_REVEAL_JOINT_2",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_REAR_GLAZING_6_REVEAL_JOINT_3",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_REAR_GLAZING_7_REVEAL_JOINT_0",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_REAR_GLAZING_7_REVEAL_JOINT_1",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_REAR_GLAZING_7_REVEAL_JOINT_2",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_REAR_GLAZING_7_REVEAL_JOINT_3",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_BURIED_BASE_SLAB",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_REAR_PROJECTION_BASE",
+      "triangles": 10
+    },
+    {
+      "name": "ARCH_FRONT_BAND_EXACT_RETURN",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_FRONT_CORNER_CLOSURE_0",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_FRONT_CORNER_CLOSURE_1",
+      "triangles": 2
+    },
+    {
+      "name": "Measured stepped rear facade.001",
+      "triangles": 186
+    },
+    {
+      "name": "ARCH_REAR_GLAZING_0.001",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_REAR_FRAME_0_0.001",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_REAR_FRAME_0_1.001",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_REAR_FRAME_0_2.001",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_REAR_FRAME_H_0_-68.001",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_REAR_FRAME_H_0_-66.001",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_REAR_GLAZING_1.001",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_REAR_FRAME_1_0.001",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_REAR_FRAME_1_1.001",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_REAR_FRAME_1_2.001",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_REAR_FRAME_1_3.001",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_REAR_FRAME_H_1_-68.001",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_REAR_FRAME_H_1_-66.001",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_REAR_GLAZING_2.001",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_REAR_FRAME_2_0.001",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_REAR_FRAME_2_1.001",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_REAR_FRAME_2_2.001",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_REAR_FRAME_H_2_-68.001",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_REAR_FRAME_H_2_-66.001",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_REAR_GLAZING_3.001",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_REAR_FRAME_3_0.001",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_REAR_FRAME_3_1.001",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_REAR_FRAME_H_3_-68.001",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_REAR_FRAME_H_3_-66.001",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_REAR_EAVE_CLOSURE_0.001",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_REAR_EAVE_CLOSURE_1.001",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_REAR_EAVE_CLOSURE_2.001",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_REAR_EAVE_CLOSURE_3.001",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_REAR_EAVE_CLOSURE_6.001",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_REAR_EAVE_CLOSURE_7.001",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_REAR_EAVE_CLOSURE_8.001",
+      "triangles": 2
+    },
+    {
+      "name": "ARCH_EAVE_STEP_END_0",
+      "triangles": 1
+    },
+    {
+      "name": "ARCH_EAVE_STEP_END_1",
+      "triangles": 1
+    },
+    {
+      "name": "ARCH_REAR_PROJECTION_WALL_0_openings.001",
+      "triangles": 170
+    },
+    {
+      "name": "R171_HARDSCAPE_777812548",
+      "triangles": 242
+    },
+    {
+      "name": "R171_HARDSCAPE_127664295",
+      "triangles": 726
+    },
+    {
+      "name": "R171_HARDSCAPE_547913345",
+      "triangles": 363
+    },
+    {
+      "name": "R171_HARDSCAPE_547913348",
+      "triangles": 363
+    },
+    {
+      "name": "R171_HARDSCAPE_574571071",
+      "triangles": 484
+    },
+    {
+      "name": "R171_HARDSCAPE_730162258",
+      "triangles": 484
+    },
+    {
+      "name": "R171_HARDSCAPE_996462636",
+      "triangles": 847
+    },
+    {
+      "name": "R171_HARDSCAPE_1420370348",
+      "triangles": 2057
+    },
+    {
+      "name": "R171_HARDSCAPE_1482548915",
+      "triangles": 242
+    },
+    {
+      "name": "R171_HARDSCAPE_1482548916",
+      "triangles": 242
+    },
+    {
+      "name": "R182_EXTENSION_GROUND",
+      "triangles": 61901
+    },
+    {
+      "name": "R182_EXTENSION_ROADS",
+      "triangles": 15143
+    },
+    {
+      "name": "R182_DISTRICT_48993285",
+      "triangles": 12
+    },
+    {
+      "name": "R182_DISTRICT_52091728",
+      "triangles": 84
+    },
+    {
+      "name": "R182_DISTRICT_58609208",
+      "triangles": 40
+    },
+    {
+      "name": "R182_DISTRICT_58609209",
+      "triangles": 16
+    },
+    {
+      "name": "R182_DISTRICT_83179078",
+      "triangles": 52
+    },
+    {
+      "name": "R182_DISTRICT_92711481",
+      "triangles": 20
+    },
+    {
+      "name": "R182_DISTRICT_143863776",
+      "triangles": 12
+    },
+    {
+      "name": "R182_DISTRICT_143863777",
+      "triangles": 12
+    },
+    {
+      "name": "R182_DISTRICT_145323073",
+      "triangles": 40
+    },
+    {
+      "name": "R182_DISTRICT_145323089",
+      "triangles": 20
+    },
+    {
+      "name": "R182_DISTRICT_153344889",
+      "triangles": 12
+    },
+    {
+      "name": "R182_DISTRICT_153379126",
+      "triangles": 12
+    },
+    {
+      "name": "R182_DISTRICT_153379133",
+      "triangles": 16
+    },
+    {
+      "name": "R182_DISTRICT_155639263",
+      "triangles": 12
+    },
+    {
+      "name": "R182_DISTRICT_155639270",
+      "triangles": 20
+    },
+    {
+      "name": "R182_DISTRICT_155639276",
+      "triangles": 36
+    },
+    {
+      "name": "R182_DISTRICT_162041599",
+      "triangles": 28
+    },
+    {
+      "name": "R182_DISTRICT_162041608",
+      "triangles": 28
+    },
+    {
+      "name": "R182_DISTRICT_163103029",
+      "triangles": 176
+    },
+    {
+      "name": "R182_DISTRICT_164179247",
+      "triangles": 16
+    },
+    {
+      "name": "R182_DISTRICT_164179266",
+      "triangles": 12
+    },
+    {
+      "name": "R182_DISTRICT_164179276",
+      "triangles": 20
+    },
+    {
+      "name": "R182_DISTRICT_164179296",
+      "triangles": 20
+    },
+    {
+      "name": "R182_DISTRICT_164179321",
+      "triangles": 16
+    },
+    {
+      "name": "R182_DISTRICT_164180258",
+      "triangles": 12
+    },
+    {
+      "name": "R182_DISTRICT_164184496",
+      "triangles": 32
+    },
+    {
+      "name": "R182_DISTRICT_164184528",
+      "triangles": 16
+    },
+    {
+      "name": "R182_DISTRICT_164184549",
+      "triangles": 12
+    },
+    {
+      "name": "R182_DISTRICT_164184564",
+      "triangles": 72
+    },
+    {
+      "name": "R182_DISTRICT_164184565",
+      "triangles": 36
+    },
+    {
+      "name": "R182_DISTRICT_165232667",
+      "triangles": 32
+    },
+    {
+      "name": "R182_DISTRICT_166956469",
+      "triangles": 12
+    },
+    {
+      "name": "R182_DISTRICT_166956476",
+      "triangles": 12
+    },
+    {
+      "name": "R182_DISTRICT_166956477",
+      "triangles": 12
+    },
+    {
+      "name": "R182_DISTRICT_171495669",
+      "triangles": 36
+    },
+    {
+      "name": "R182_DISTRICT_171495678",
+      "triangles": 20
+    },
+    {
+      "name": "R182_DISTRICT_171495682",
+      "triangles": 40
+    },
+    {
+      "name": "R182_DISTRICT_171495694",
+      "triangles": 16
+    },
+    {
+      "name": "R182_DISTRICT_171495716",
+      "triangles": 28
+    },
+    {
+      "name": "R182_DISTRICT_171674237",
+      "triangles": 28
+    },
+    {
+      "name": "R182_DISTRICT_197552941",
+      "triangles": 132
+    },
+    {
+      "name": "R182_DISTRICT_216534891",
+      "triangles": 12
+    },
+    {
+      "name": "R182_DISTRICT_301836561",
+      "triangles": 36
+    },
+    {
+      "name": "R182_DISTRICT_453737278",
+      "triangles": 72
+    },
+    {
+      "name": "R182_DISTRICT_453737281",
+      "triangles": 72
+    },
+    {
+      "name": "R182_DISTRICT_453745328",
+      "triangles": 72
+    },
+    {
+      "name": "R182_DISTRICT_546346007",
+      "triangles": 12
+    },
+    {
+      "name": "R182_DISTRICT_546351307",
+      "triangles": 12
+    },
+    {
+      "name": "R182_DISTRICT_582803240",
+      "triangles": 12
+    },
+    {
+      "name": "R182_DISTRICT_582803241",
+      "triangles": 12
+    },
+    {
+      "name": "R182_DISTRICT_831196268",
+      "triangles": 12
+    },
+    {
+      "name": "R182_DISTRICT_831196269",
+      "triangles": 20
+    },
+    {
+      "name": "R182_DISTRICT_832920701",
+      "triangles": 24
+    },
+    {
+      "name": "R182_DISTRICT_832920704",
+      "triangles": 20
+    },
+    {
+      "name": "R182_DISTRICT_927885562",
+      "triangles": 24
+    },
+    {
+      "name": "R182_DISTRICT_927885563",
+      "triangles": 12
+    },
+    {
+      "name": "R182_DISTRICT_930614758",
+      "triangles": 28
+    },
+    {
+      "name": "R182_DISTRICT_930614763",
+      "triangles": 12
+    },
+    {
+      "name": "R182_DISTRICT_930614764",
+      "triangles": 24
+    },
+    {
+      "name": "R182_DISTRICT_996462637",
+      "triangles": 20
+    },
+    {
+      "name": "R182_DISTRICT_1337806173",
+      "triangles": 12
+    },
+    {
+      "name": "R182_DISTRICT_1337806174",
+      "triangles": 16
+    },
+    {
+      "name": "R182_DISTRICT_1337806175",
+      "triangles": 20
+    },
+    {
+      "name": "R182_DISTRICT_1337806192",
+      "triangles": 12
+    },
+    {
+      "name": "R182_DISTRICT_1337806196",
+      "triangles": 12
+    },
+    {
+      "name": "R182_DISTRICT_1337806197",
+      "triangles": 20
+    },
+    {
+      "name": "R182_DISTRICT_1337806198",
+      "triangles": 12
+    },
+    {
+      "name": "R182_DISTRICT_1467794790",
+      "triangles": 24
+    },
+    {
+      "name": "R171_155639257",
+      "triangles": 100
+    },
+    {
+      "name": "R171_164179114",
+      "triangles": 44
+    },
+    {
+      "name": "R171_164179122",
+      "triangles": 56
+    },
+    {
+      "name": "R171_164179134",
+      "triangles": 12
+    },
+    {
+      "name": "R171_164179136",
+      "triangles": 12
+    },
+    {
+      "name": "R171_164179146",
+      "triangles": 12
+    },
+    {
+      "name": "R171_164179151",
+      "triangles": 36
+    },
+    {
+      "name": "R171_164179172",
+      "triangles": 12
+    },
+    {
+      "name": "R171_164179175",
+      "triangles": 12
+    },
+    {
+      "name": "R171_164179187",
+      "triangles": 36
+    },
+    {
+      "name": "R171_164179230",
+      "triangles": 12
+    },
+    {
+      "name": "R171_164179236",
+      "triangles": 32
+    },
+    {
+      "name": "R171_164179239",
+      "triangles": 12
+    },
+    {
+      "name": "R171_164179243",
+      "triangles": 12
+    },
+    {
+      "name": "R171_164179251",
+      "triangles": 12
+    },
+    {
+      "name": "R171_164179257",
+      "triangles": 12
+    },
+    {
+      "name": "R171_164179267",
+      "triangles": 12
+    },
+    {
+      "name": "R171_164179284",
+      "triangles": 28
+    },
+    {
+      "name": "R171_164179295",
+      "triangles": 12
+    },
+    {
+      "name": "R171_164184497",
+      "triangles": 36
+    },
+    {
+      "name": "R171_164184498",
+      "triangles": 44
+    },
+    {
+      "name": "R171_164184504",
+      "triangles": 12
+    },
+    {
+      "name": "R171_164184511",
+      "triangles": 16
+    },
+    {
+      "name": "R171_164184515",
+      "triangles": 12
+    },
+    {
+      "name": "R171_164184527",
+      "triangles": 28
+    },
+    {
+      "name": "R171_164184542",
+      "triangles": 12
+    },
+    {
+      "name": "R171_164184548",
+      "triangles": 12
+    },
+    {
+      "name": "R171_164184558",
+      "triangles": 28
+    },
+    {
+      "name": "R171_216535733",
+      "triangles": 12
+    },
+    {
+      "name": "R171_274961867",
+      "triangles": 12
+    },
+    {
+      "name": "R171_274961874",
+      "triangles": 12
+    },
+    {
+      "name": "R171_306842711",
+      "triangles": 48
+    },
+    {
+      "name": "R171_306842712",
+      "triangles": 12
+    },
+    {
+      "name": "R171_453756109",
+      "triangles": 72
+    },
+    {
+      "name": "R171_458475576",
+      "triangles": 16
+    },
+    {
+      "name": "R171_458475578",
+      "triangles": 12
+    },
+    {
+      "name": "R171_546345955",
+      "triangles": 28
+    },
+    {
+      "name": "R171_582801089",
+      "triangles": 16
+    },
+    {
+      "name": "R171_582801091",
+      "triangles": 12
+    },
+    {
+      "name": "R171_582801093",
+      "triangles": 12
+    },
+    {
+      "name": "R171_582801094",
+      "triangles": 12
+    },
+    {
+      "name": "R171_645101127",
+      "triangles": 28
+    },
+    {
+      "name": "R171_645101128",
+      "triangles": 12
+    },
+    {
+      "name": "R171_1337806183",
+      "triangles": 20
+    },
+    {
+      "name": "R171_1337806200",
+      "triangles": 16
+    },
+    {
+      "name": "R171_1337806201",
+      "triangles": 16
+    },
+    {
+      "name": "R171_1337806205",
+      "triangles": 12
+    },
+    {
+      "name": "R171_1337806216",
+      "triangles": 12
+    },
+    {
+      "name": "R171_1337806217",
+      "triangles": 12
+    },
+    {
+      "name": "R171_1337806227",
+      "triangles": 12
+    },
+    {
+      "name": "R171_1337806228",
+      "triangles": 12
+    },
+    {
+      "name": "R171_1337806229",
+      "triangles": 12
+    },
+    {
+      "name": "R174_155639279",
+      "triangles": 36
+    },
+    {
+      "name": "R174_164179124",
+      "triangles": 28
+    },
+    {
+      "name": "R174_164179149",
+      "triangles": 12
+    },
+    {
+      "name": "R174_164179193",
+      "triangles": 12
+    },
+    {
+      "name": "R174_164179322",
+      "triangles": 28
+    },
+    {
+      "name": "R174_164179329",
+      "triangles": 36
+    },
+    {
+      "name": "R174_164184509",
+      "triangles": 12
+    },
+    {
+      "name": "R174_164184514",
+      "triangles": 12
+    },
+    {
+      "name": "R174_216534872",
+      "triangles": 12
+    },
+    {
+      "name": "R174_216534873",
+      "triangles": 12
+    },
+    {
+      "name": "R174_777812550",
+      "triangles": 20
+    },
+    {
+      "name": "R174_1337806190",
+      "triangles": 28
+    },
+    {
+      "name": "R174_1337806194",
+      "triangles": 12
+    },
+    {
+      "name": "R174_1337806195",
+      "triangles": 12
+    },
+    {
+      "name": "R177_TRIMMED_INHERITED_ROAD.001",
+      "triangles": 36648
+    },
+    {
+      "name": "R177_ROAD_asphalt",
+      "triangles": 15231
+    },
+    {
+      "name": "R177_ROAD_footway",
+      "triangles": 3732
+    },
+    {
+      "name": "R177_ROAD_MARKINGS",
+      "triangles": 1055
+    },
+    {
+      "name": "R177_TRIMMED_INHERITED_ROAD",
+      "triangles": 2685
+    }
+  ]
+}

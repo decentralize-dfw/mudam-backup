@@ -1,0 +1,20 @@
+{
+  "scene": "MUDAM_R169_CEPHE_CATI_ADAY_v007.blend",
+  "accepted": false,
+  "published": false,
+  "changed_roof_vertices": 1520,
+  "max_change_m": 0.1798080976080314,
+  "roof_plane_sample_rmse_m": [
+    0.0622475645865721,
+    0.06919313392468882,
+    0.07052433307599308,
+    0.07069714261855069,
+    0.07749131034705155,
+    0.059759675615598244,
+    0.06836179303331981,
+    0.06805498280903086,
+    0.04060865619885671
+  ],
+  "reopened": true,
+  "scope": "Supported roof vertices constrained to locally sampled planes; unmatched dormer and edge points retained. Six front openings retained. Not full building acceptance."
+}

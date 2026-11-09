@@ -1,0 +1,25 @@
+{
+  "scene": "MUDAM_R431_KALE_KOPRUSU_AHSAP_KORKULUK_ADAY_v001.blend",
+  "accepted": false,
+  "published": false,
+  "checks": [
+    {
+      "name": "R431_FORT_BRIDGE_STEEL",
+      "nonManifold": 0,
+      "zeroArea": 0
+    },
+    {
+      "name": "R431_FORT_BRIDGE_TIMBER",
+      "nonManifold": 0,
+      "zeroArea": 0
+    }
+  ],
+  "deckElevation": -6.073106975714547,
+  "length": 17.962137879907193,
+  "width": 2.4,
+  "source": "references/fort_inpa/R423_68151060.jpg",
+  "limitations": [
+    "Photograph supports timber/metal system; exact rail height, spacing, infill construction not surveyed.",
+    "Geometry remains candidate until same-camera visual comparison."
+  ]
+}

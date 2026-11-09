@@ -1,0 +1,18 @@
+{
+  "check": {
+    "nonManifold": 0,
+    "zeroArea": 0
+  },
+  "cuts": [
+    {
+      "name": "R152_FORECOURT_0",
+      "cutTriangles": 14
+    },
+    {
+      "name": "R152_CLASS2_TERRAIN",
+      "cutTriangles": 290
+    }
+  ],
+  "accepted": false,
+  "published": false
+}

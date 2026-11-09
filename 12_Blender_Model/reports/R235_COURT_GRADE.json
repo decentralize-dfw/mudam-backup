@@ -1,0 +1,124 @@
+{
+  "accepted": false,
+  "published": false,
+  "measurement": {
+    "samples": 623,
+    "origin": [
+      -237.57530497592296,
+      -203.74897993579458
+    ],
+    "scale": 25,
+    "fit": [
+      -20.56736955250407,
+      1.9290996245013468,
+      4.242719553996817,
+      -1.3381626784266718,
+      -0.6174540181284266,
+      0.3923985782017767
+    ],
+    "p90": 0.7238980110717712,
+    "support": 0.684887459807074,
+    "priorP90": 2.505342694189224,
+    "source": "fort_reference.blend",
+    "method": "Independent six-parameter smooth grade, alternating held-out samples; no source mesh transferred"
+  },
+  "changes": [
+    {
+      "name": "R193_SOUTHWEST_COURT_0",
+      "maxShift": 0.24590234676739442,
+      "vertices": 325
+    },
+    {
+      "name": "R193_SOUTHWEST_COURT_1",
+      "maxShift": 2.492911940908158,
+      "vertices": 325
+    },
+    {
+      "name": "R193_SOUTHWEST_COURT_2",
+      "maxShift": 0.3338722244416239,
+      "vertices": 325
+    },
+    {
+      "name": "R193_SOUTHWEST_COURT_3",
+      "maxShift": 0.5708691331210289,
+      "vertices": 325
+    },
+    {
+      "name": "R193_SOUTHWEST_COURT_4",
+      "maxShift": 0.5029701805837163,
+      "vertices": 325
+    },
+    {
+      "name": "R193_SOUTHWEST_COURT_5",
+      "maxShift": 2.4080022796920453,
+      "vertices": 325
+    },
+    {
+      "name": "R193_SOUTHWEST_COURT_6",
+      "maxShift": 0.41542460789697344,
+      "vertices": 325
+    },
+    {
+      "name": "R193_SOUTHWEST_COURT_7",
+      "maxShift": 0.8762765179899326,
+      "vertices": 325
+    }
+  ],
+  "reopen": [
+    {
+      "name": "R193_SOUTHWEST_COURT_0",
+      "finite": true,
+      "zero": 0
+    },
+    {
+      "name": "R193_SOUTHWEST_COURT_1",
+      "finite": true,
+      "zero": 0
+    },
+    {
+      "name": "R193_SOUTHWEST_COURT_2",
+      "finite": true,
+      "zero": 0
+    },
+    {
+      "name": "R193_SOUTHWEST_COURT_3",
+      "finite": true,
+      "zero": 0
+    },
+    {
+      "name": "R193_SOUTHWEST_COURT_4",
+      "finite": true,
+      "zero": 0
+    },
+    {
+      "name": "R193_SOUTHWEST_COURT_5",
+      "finite": true,
+      "zero": 0
+    },
+    {
+      "name": "R193_SOUTHWEST_COURT_6",
+      "finite": true,
+      "zero": 0
+    },
+    {
+      "name": "R193_SOUTHWEST_COURT_7",
+      "finite": true,
+      "zero": 0
+    }
+  ],
+  "limits": [
+    "Whole-fit held-out p90 .724m; not final accuracy acceptance",
+    "Outer boundary fixed with4m transition; actual blended surface error not measured",
+    "Existing walls/paths/ruin ground contact must be reconciled before production"
+  ],
+  "visualReview": {
+    "source": "R234_fort_source.png",
+    "candidate": "R235_fort_candidate.png",
+    "accepted": false,
+    "findings": [
+      "Broad southwest court grade changed using independent smooth fit, not copied scan geometry.",
+      "Existing southern path/boundary floats above new surface; ruin surroundings retain uncorrected green ground.",
+      "Candidate cannot be released until associated paths/walls/terrain are reconciled."
+    ]
+  }
+}

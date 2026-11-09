@@ -1,0 +1,27 @@
+{
+  "source": "https://polyhaven.com/a/sandstone_blocks_04",
+  "author": "Rob Tuytel",
+  "license": "CC0",
+  "physicalWidthMetres": 3,
+  "files": [
+    {
+      "file": "textures\\polyhaven_sandstone_blocks_04\\sandstone_blocks_04_diff_2k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/sandstone_blocks_04/sandstone_blocks_04_diff_2k.jpg",
+      "bytes": 2066659,
+      "sha256": "4571ff357e041bacb75ab06ad1958e74a0b396e0f3d8b9dc9d4717f704996304"
+    },
+    {
+      "file": "textures\\polyhaven_sandstone_blocks_04\\sandstone_blocks_04_nor_gl_2k.png",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/2k/sandstone_blocks_04/sandstone_blocks_04_nor_gl_2k.png",
+      "bytes": 6086672,
+      "sha256": "bcecbeb0ce57280cf25e27125ab364e6399426ad00112839bd2e69229bb04bf2"
+    },
+    {
+      "file": "textures\\polyhaven_sandstone_blocks_04\\sandstone_blocks_04_rough_2k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/sandstone_blocks_04/sandstone_blocks_04_rough_2k.jpg",
+      "bytes": 1607004,
+      "sha256": "98495e70e919ea892f2119100e64d8d5a5accb9982703fdd923477e7f2a346fb"
+    }
+  ],
+  "role": "Generic compatible stone material, NOT a measured reproduction of museum masonry joints or a facade photograph"
+}

@@ -1,0 +1,45 @@
+{
+  "accepted": false,
+  "buildings": [
+    {
+      "name": "NOVOTEL_HIGH",
+      "base": 9.28661823272705,
+      "old_roof": 30.2,
+      "new_plane": [
+        -0.002715827253048415,
+        0.0040692838858334135,
+        29.616134142344144
+      ],
+      "parapet": 30.386692810058594,
+      "plane_inliers": 670,
+      "plane_samples": 1091,
+      "source_edge_coverage": [
+        9,
+        10
+      ]
+    },
+    {
+      "name": "NOVOTEL_LOW",
+      "base": 9.957684516906738,
+      "old_roof": 17.9,
+      "new_plane": [
+        -0.002823828628706298,
+        0.004268083745249063,
+        16.149557473219293
+      ],
+      "parapet": 16.935626983642578,
+      "plane_inliers": 616,
+      "plane_samples": 1118,
+      "source_edge_coverage": [
+        16,
+        22
+      ]
+    }
+  ],
+  "method": "Whole facade upper limits and planar roofs rebuilt to dominant ACT roof observations; independent closed parapets; technical block base reconnected",
+  "limits": [
+    "Coping width0.24m assumed",
+    "Unobserved perimeter edge tops use median of observed edges",
+    "Low roof technical curb/duct grid and facade cadence remain pending"
+  ]
+}

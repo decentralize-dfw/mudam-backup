@@ -1,0 +1,19 @@
+{
+  "planes": [
+    [
+      0.0007452934045466215,
+      0.006898870557798307,
+      -5.067812452908375
+    ],
+    [
+      0.06978418214393138,
+      -0.11317681412133547,
+      -13.180809804116878
+    ]
+  ],
+  "rms": 0.055893551794239986,
+  "max": 0.17454334838428842,
+  "heldout": 158,
+  "valid": true,
+  "method": "Two independent architectural planes with continuous intersection crease. Fit only training spatial cells; held-out cells untouched; no source surface triangulation."
+}

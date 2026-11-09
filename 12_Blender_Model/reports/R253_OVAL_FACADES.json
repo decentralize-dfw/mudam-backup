@@ -1,0 +1,26 @@
+{
+  "accepted": false,
+  "published": false,
+  "glazedSegments": 404,
+  "sectionCount": 160,
+  "checks": [
+    {
+      "name": "R253_OVAL_ARCHITECTURAL_FACADES",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R253_OVAL_FLOOR",
+      "boundary": 0,
+      "zero": 0
+    }
+  ],
+  "source": "Isolated ACT front elevation R253, four observed glazing bands projected via orthographic scale",
+  "limits": [
+    "Unseen rear and lower facade not inferred",
+    "Band edge elevations approximate from image",
+    "Curve interpolation independent, source footprint not surveyed",
+    "Roof perimeter must be reconciled to smoothed outline before publication"
+  ],
+  "weldToleranceMeters": 0.0001
+}

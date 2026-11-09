@@ -1,0 +1,82 @@
+{
+  "scene": "MUDAM_R169_CEPHE_GEOMETRI_ADAY_v010.blend",
+  "accepted": false,
+  "published": false,
+  "removed_facade_faces": 4211,
+  "modeled_facade_fields": 16,
+  "provisional_balcony_glazing_fields": 4,
+  "source_pixels": [
+    [
+      160,
+      485,
+      395,
+      616
+    ],
+    [
+      160,
+      662,
+      395,
+      803
+    ],
+    [
+      1070,
+      485,
+      1350,
+      616
+    ],
+    [
+      1070,
+      662,
+      1350,
+      803
+    ],
+    [
+      565,
+      482,
+      635,
+      604
+    ],
+    [
+      714,
+      481,
+      784,
+      603
+    ],
+    [
+      857,
+      483,
+      929,
+      604
+    ],
+    [
+      564,
+      646,
+      636,
+      780
+    ],
+    [
+      714,
+      647,
+      784,
+      782
+    ],
+    [
+      857,
+      647,
+      930,
+      782
+    ]
+  ],
+  "source_image": "R169_33_facade_3_source.png",
+  "reopened": true,
+  "assumptions": {
+    "recess_m": 0.12,
+    "frame_width_m": 0.055,
+    "wall_top_relative_m": 8.5
+  },
+  "remaining": [
+    "Right balcony and lower entrances remain unresolved; four broad balcony glazing fields provisional",
+    "Side and rear facade still need separate reconstruction",
+    "Roof-to-wall junction must be verified before acceptance"
+  ]
+}

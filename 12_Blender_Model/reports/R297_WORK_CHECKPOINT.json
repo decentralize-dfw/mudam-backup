@@ -1,0 +1,42 @@
+{
+  "status": "local architectural candidate only",
+  "accepted": false,
+  "published": false,
+  "firstSixComplete": false,
+  "note": "R297 current local master MUDAM_R297_DOGU_GUNEY_CATI_MALZEME_ADAY_v001.blend. R286 whole north-roof architectural profile: independent1035points p90 .881->.432m, median .0617->.0810m (not uniform improvement or whole-scope similarity). R289 corrected two adjacent roof footprints from matchedsource; white roof cropped edge unresolved, no coping there. R295/R296/R297 independently rebuild south triangular roof,41 rectangular and6 round actual apertures/glazing/reveals;46 glazing heights scalar-measured fromsource, newly added upperlight height provisional.360 GLBgroups reopened closed/nozero;6346triangles retained in Draco24/losslessWebP,2004032bytes. Authored mineral material/normal/roughness uses no scanpixels and unique nonrepeatingUV. This is roof-only CANDIDATE, NOT wholebuilding accepted/published; source whole-roof p90 1.028m unresolved, roof edge and remaining features/source fidelity need review. R294 forest-facade measurement contaminated/occluded: inclinedfit p90 .313m,88%within.25m, DO NOT extrude its extrapolated plane. Lowerpodium facades/ground/hardscape remain inherited and incomplete. Firstsix NOT complete. PublicR213 unchanged; no commit/push this work period. Next major task independent whole east podium facades/ground-supported shell using reliable source portions, then remaining firstsix regions. Do not resume R169 minor details or repeat finished roof closure tests.",
+  "validation": {
+    "accepted": false,
+    "published": false,
+    "file": "12_Blender_Model/exports/r152_clean/r297_south_roof_draco_webp_REVIEW.glb",
+    "bytes": 2004032,
+    "sha256": "cd6dcb7d862303e838586d594ad6d6330685716811971dc8cb978d3164716a8d",
+    "before": {
+      "triangles": 6346,
+      "zero": 0
+    },
+    "after": {
+      "triangles": 6346,
+      "zero": 0
+    },
+    "textures": 3,
+    "losslessWebP": true,
+    "decoded": true
+  },
+  "geometryGroups": 360,
+  "sourceComparisons": [
+    "R286_SOURCE_COMPARISON.json",
+    "R289_BOUNDARY_SOURCE.json",
+    "R290_measure.log",
+    "R296_SOUTH_ROOF.json"
+  ],
+  "images": [
+    "R291_south_roof_source.png",
+    "R297_south_roof_authored.png"
+  ],
+  "unresolved": [
+    "Whole east podium lowerfacades and groundconnection",
+    "Source-cropped white roof extent",
+    "Whole roof source residual and details outside rebuilt south slab",
+    "Remaining firstsix fort, lowerdistrict, bridge and other building source acceptance"
+  ]
+}

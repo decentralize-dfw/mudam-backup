@@ -1,0 +1,395 @@
+{
+  "source": [
+    {
+      "name": "north_moat_floor",
+      "sourcePixel": [
+        745,
+        285
+      ],
+      "xy": [
+        -2.9285714285714306,
+        50.214285714285715
+      ],
+      "medianZ": -3.8368988037109375,
+      "spread": 0.266265869140625,
+      "hits": 9,
+      "objects": [
+        "Mesh_0.061"
+      ]
+    },
+    {
+      "name": "northeast_grass",
+      "sourcePixel": [
+        1070,
+        275
+      ],
+      "xy": [
+        48.14285714285714,
+        51.785714285714285
+      ],
+      "medianZ": -3.3601760864257812,
+      "spread": 0.01859283447265625,
+      "hits": 9,
+      "objects": [
+        "Mesh_0.062"
+      ]
+    },
+    {
+      "name": "east_terrace",
+      "sourcePixel": [
+        1040,
+        630
+      ],
+      "xy": [
+        43.428571428571416,
+        -4.0
+      ],
+      "medianZ": -4.3736724853515625,
+      "spread": 0.00853729248046875,
+      "hits": 9,
+      "objects": [
+        "Mesh_0.043"
+      ]
+    },
+    {
+      "name": "pavilion_south_moat",
+      "sourcePixel": [
+        770,
+        930
+      ],
+      "xy": [
+        1.0,
+        -51.14285714285714
+      ],
+      "medianZ": -0.4848175048828125,
+      "spread": 6.351539611816406,
+      "hits": 9,
+      "objects": [
+        "Mesh_0.035"
+      ]
+    },
+    {
+      "name": "fort_inner_terrace",
+      "sourcePixel": [
+        685,
+        760
+      ],
+      "xy": [
+        -12.357142857142861,
+        -24.42857142857143
+      ],
+      "medianZ": -8.0794677734375,
+      "spread": 0.014495849609375,
+      "hits": 9,
+      "objects": [
+        "Mesh_0.040"
+      ]
+    },
+    {
+      "name": "fort_north_moat",
+      "sourcePixel": [
+        465,
+        640
+      ],
+      "xy": [
+        -46.92857142857143,
+        -5.571428571428569
+      ],
+      "medianZ": -6.281730651855469,
+      "spread": 1.1654891967773438,
+      "hits": 9,
+      "objects": [
+        "Mesh_0.020"
+      ]
+    },
+    {
+      "name": "front_round_moat",
+      "sourcePixel": [
+        270,
+        865
+      ],
+      "xy": [
+        -77.57142857142857,
+        -40.928571428571416
+      ],
+      "medianZ": -9.519027709960938,
+      "spread": 0.021636962890625,
+      "hits": 9,
+      "objects": [
+        "Mesh_0.017"
+      ]
+    },
+    {
+      "name": "north_ruin",
+      "sourcePixel": [
+        555,
+        160
+      ],
+      "xy": [
+        -32.78571428571429,
+        69.85714285714286
+      ],
+      "medianZ": 0.00319671630859375,
+      "spread": 0.13594818115234375,
+      "hits": 9,
+      "objects": [
+        "Mesh_0.056"
+      ]
+    },
+    {
+      "name": "east_ruin",
+      "sourcePixel": [
+        1170,
+        795
+      ],
+      "xy": [
+        63.85714285714286,
+        -29.92857142857143
+      ],
+      "medianZ": -0.28623199462890625,
+      "spread": 0.30135345458984375,
+      "hits": 9,
+      "objects": [
+        "Mesh_0.045"
+      ]
+    },
+    {
+      "name": "south_path",
+      "sourcePixel": [
+        1010,
+        950
+      ],
+      "xy": [
+        38.71428571428572,
+        -54.28571428571428
+      ],
+      "medianZ": -3.000152587890625,
+      "spread": 0.28235626220703125,
+      "hits": 9,
+      "objects": [
+        "Mesh_0.036"
+      ]
+    },
+    {
+      "name": "west_moat",
+      "sourcePixel": [
+        480,
+        450
+      ],
+      "xy": [
+        -44.57142857142857,
+        24.285714285714292
+      ],
+      "medianZ": -3.8755874633789062,
+      "spread": 0.0465087890625,
+      "hits": 9,
+      "objects": [
+        "Mesh_0.020"
+      ]
+    }
+  ],
+  "model": [
+    {
+      "name": "north_moat_floor",
+      "sourcePixel": [
+        745,
+        285
+      ],
+      "xy": [
+        -2.9285714285714306,
+        50.214285714285715
+      ],
+      "medianZ": -4.7679443359375,
+      "spread": 0.055633544921875,
+      "hits": 9,
+      "objects": [
+        "R152_CLASS2_TERRAIN",
+        "R152_PATH_759551377"
+      ],
+      "modelMinusSource": -0.9310455322265625
+    },
+    {
+      "name": "northeast_grass",
+      "sourcePixel": [
+        1070,
+        275
+      ],
+      "xy": [
+        48.14285714285714,
+        51.785714285714285
+      ],
+      "medianZ": -3.2199249267578125,
+      "spread": 0.01107025146484375,
+      "hits": 9,
+      "objects": [
+        "R152_CLASS2_TERRAIN"
+      ],
+      "modelMinusSource": 0.14025115966796875
+    },
+    {
+      "name": "east_terrace",
+      "sourcePixel": [
+        1040,
+        630
+      ],
+      "xy": [
+        43.428571428571416,
+        -4.0
+      ],
+      "medianZ": -4.28656005859375,
+      "spread": 0.0299224853515625,
+      "hits": 9,
+      "objects": [
+        "R152_CLASS2_TERRAIN"
+      ],
+      "modelMinusSource": 0.0871124267578125
+    },
+    {
+      "name": "pavilion_south_moat",
+      "sourcePixel": [
+        770,
+        930
+      ],
+      "xy": [
+        1.0,
+        -51.14285714285714
+      ],
+      "medianZ": -6.831092834472656,
+      "spread": 0.0825347900390625,
+      "hits": 9,
+      "objects": [
+        "R152_CLASS2_TERRAIN"
+      ],
+      "modelMinusSource": -6.346275329589844
+    },
+    {
+      "name": "fort_inner_terrace",
+      "sourcePixel": [
+        685,
+        760
+      ],
+      "xy": [
+        -12.357142857142861,
+        -24.42857142857143
+      ],
+      "medianZ": -7.8765869140625,
+      "spread": 0.0066070556640625,
+      "hits": 9,
+      "objects": [
+        "R152_CLASS2_TERRAIN"
+      ],
+      "modelMinusSource": 0.202880859375
+    },
+    {
+      "name": "fort_north_moat",
+      "sourcePixel": [
+        465,
+        640
+      ],
+      "xy": [
+        -46.92857142857143,
+        -5.571428571428569
+      ],
+      "medianZ": -7.771583557128906,
+      "spread": 0.01419830322265625,
+      "hits": 9,
+      "objects": [
+        "R152_CLASS2_TERRAIN",
+        "R152_PATH_759683796"
+      ],
+      "modelMinusSource": -1.4898529052734375
+    },
+    {
+      "name": "front_round_moat",
+      "sourcePixel": [
+        270,
+        865
+      ],
+      "xy": [
+        -77.57142857142857,
+        -40.928571428571416
+      ],
+      "medianZ": -9.348403930664062,
+      "spread": 0.0438232421875,
+      "hits": 9,
+      "objects": [
+        "R152_CLASS2_TERRAIN"
+      ],
+      "modelMinusSource": 0.170623779296875
+    },
+    {
+      "name": "north_ruin",
+      "sourcePixel": [
+        555,
+        160
+      ],
+      "xy": [
+        -32.78571428571429,
+        69.85714285714286
+      ],
+      "medianZ": -3.6063613891601562,
+      "spread": 0.17508697509765625,
+      "hits": 9,
+      "objects": [
+        "R152_CLASS2_TERRAIN"
+      ],
+      "modelMinusSource": -3.60955810546875
+    },
+    {
+      "name": "east_ruin",
+      "sourcePixel": [
+        1170,
+        795
+      ],
+      "xy": [
+        63.85714285714286,
+        -29.92857142857143
+      ],
+      "medianZ": -2.9441299438476562,
+      "spread": 0.0865325927734375,
+      "hits": 9,
+      "objects": [
+        "R152_CLASS2_TERRAIN"
+      ],
+      "modelMinusSource": -2.65789794921875
+    },
+    {
+      "name": "south_path",
+      "sourcePixel": [
+        1010,
+        950
+      ],
+      "xy": [
+        38.71428571428572,
+        -54.28571428571428
+      ],
+      "medianZ": -3.2271575927734375,
+      "spread": 0.09741973876953125,
+      "hits": 9,
+      "objects": [
+        "R152_PATH_83345376"
+      ],
+      "modelMinusSource": -0.2270050048828125
+    },
+    {
+      "name": "west_moat",
+      "sourcePixel": [
+        480,
+        450
+      ],
+      "xy": [
+        -44.57142857142857,
+        24.285714285714292
+      ],
+      "medianZ": -5.4446868896484375,
+      "spread": 0.17626953125,
+      "hits": 9,
+      "objects": [
+        "R152_CLASS2_TERRAIN"
+      ],
+      "modelMinusSource": -1.5690994262695312
+    }
+  ],
+  "accepted": false,
+  "method": "9 vertical samples in0.6m square at manually selected visible source ground locations; vegetation and vertical surfaces may contaminate samples; not global accuracy proof"
+}

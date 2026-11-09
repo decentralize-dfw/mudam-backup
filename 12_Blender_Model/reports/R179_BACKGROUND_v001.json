@@ -1,0 +1,61 @@
+{
+  "accepted": false,
+  "buildings": [
+    {
+      "id": "133301875",
+      "base": 0.74339599609375,
+      "top": 66.78861999511719,
+      "height_tag": 60.0,
+      "terrain_range": [
+        1.04339599609375,
+        9.485946655273438
+      ]
+    },
+    {
+      "id": "133301876",
+      "base": 0.7240478515625,
+      "top": 67.83949279785156,
+      "height_tag": 60.0,
+      "terrain_range": [
+        1.0240478515625,
+        9.718948364257812
+      ]
+    },
+    {
+      "id": "659961054",
+      "base": 5.015444946289063,
+      "top": 92.53855895996094,
+      "height_tag": 80.0,
+      "terrain_range": [
+        5.3154449462890625,
+        12.704879760742188
+      ]
+    },
+    {
+      "id": "788248912",
+      "base": 5.30723876953125,
+      "top": 24.670700073242188,
+      "height_tag": 15.0,
+      "terrain_range": [
+        5.60723876953125,
+        9.943328857421875
+      ]
+    },
+    {
+      "id": "rel4283127",
+      "base": 10.799578857421874,
+      "top": 36.51226806640625,
+      "height_tag": 25.0,
+      "terrain_range": [
+        11.099578857421875,
+        11.994293212890625
+      ]
+    }
+  ],
+  "limits": [
+    "Simple mass representation explicitly allowed for outside-scan regions",
+    "Current OSM footprint dates may differ from ACT",
+    "No detailed facade claim",
+    "Western EIB exceeds current terrain extent and remains pending"
+  ]
+}

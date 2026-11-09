@@ -1,0 +1,369 @@
+{
+  "accepted": false,
+  "published": false,
+  "greenRoofs": [
+    {
+      "name": "R216_ERASMUS_WING_0",
+      "top": 11.411735534667969,
+      "ring": [
+        [
+          109.3089370727539,
+          413.32342529296875
+        ],
+        [
+          122.75892639160156,
+          398.0234375
+        ],
+        [
+          131.89999389648438,
+          405.6499938964844
+        ],
+        [
+          118.5,
+          421.25
+        ]
+      ]
+    },
+    {
+      "name": "R216_ERASMUS_WING_1",
+      "top": 11.454849243164062,
+      "ring": [
+        [
+          127.69036102294922,
+          429.164306640625
+        ],
+        [
+          141.24037170410156,
+          413.5143127441406
+        ],
+        [
+          150.39999389648438,
+          421.20001220703125
+        ],
+        [
+          136.60000610351562,
+          436.79998779296875
+        ]
+      ]
+    },
+    {
+      "name": "R216_ERASMUS_WING_2",
+      "top": 11.379295349121094,
+      "ring": [
+        [
+          92.5,
+          398.6000061035156
+        ],
+        [
+          105.1500015258789,
+          382.75
+        ],
+        [
+          113.75,
+          389.95001220703125
+        ],
+        [
+          100.30000305175781,
+          405.6000061035156
+        ]
+      ]
+    },
+    {
+      "name": "R217_ERASMUS_WING_8",
+      "top": 11.426948547363281,
+      "ring": [
+        [
+          72.9437484741211,
+          381.9479064941406
+        ],
+        [
+          86.39375305175781,
+          366.6479187011719
+        ],
+        [
+          94.84375,
+          373.6979064941406
+        ],
+        [
+          81.4437484741211,
+          389.29791259765625
+        ]
+      ]
+    },
+    {
+      "name": "R217_ERASMUS_WING_12",
+      "top": 11.408683776855469,
+      "ring": [
+        [
+          146.3000030517578,
+          445.20001220703125
+        ],
+        [
+          159.75,
+          429.8999938964844
+        ],
+        [
+          168.1999969482422,
+          436.95001220703125
+        ],
+        [
+          154.8000030517578,
+          452.54998779296875
+        ]
+      ]
+    },
+    {
+      "name": "R217_ERASMUS_WING_13",
+      "top": 11.4061279296875,
+      "ring": [
+        [
+          163.69375610351562,
+          460.1979064941406
+        ],
+        [
+          177.1437530517578,
+          444.8979187011719
+        ],
+        [
+          185.59375,
+          451.9479064941406
+        ],
+        [
+          172.19375610351562,
+          467.54791259765625
+        ]
+      ]
+    },
+    {
+      "name": "R217_ERASMUS_WING_14",
+      "top": 11.436748504638672,
+      "ring": [
+        [
+          182.03280639648438,
+          476.01092529296875
+        ],
+        [
+          195.48281860351562,
+          460.7109375
+        ],
+        [
+          203.9328155517578,
+          467.76092529296875
+        ],
+        [
+          190.53280639648438,
+          483.3609313964844
+        ]
+      ]
+    }
+  ],
+  "lowerRoofs": [
+    {
+      "name": "R222_ERASMUS_FRONT_0",
+      "faces": 9
+    },
+    {
+      "name": "R225_ERASMUS_FRONT_1",
+      "faces": 9
+    },
+    {
+      "name": "R218_ERASMUS_FRONT_13",
+      "faces": 1
+    },
+    {
+      "name": "R218_ERASMUS_FRONT_14",
+      "faces": 1
+    },
+    {
+      "name": "R219_ERASMUS_FRONT_2",
+      "faces": 1
+    },
+    {
+      "name": "R219_ERASMUS_FRONT_12",
+      "faces": 1
+    }
+  ],
+  "checks": [
+    {
+      "name": "R262_SEDUM_R216_ERASMUS_WING_0",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R262_COPING_R216_ERASMUS_WING_0_0",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R262_COPING_R216_ERASMUS_WING_0_1",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R262_COPING_R216_ERASMUS_WING_0_2",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R262_COPING_R216_ERASMUS_WING_0_3",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R262_SEDUM_R216_ERASMUS_WING_1",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R262_COPING_R216_ERASMUS_WING_1_0",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R262_COPING_R216_ERASMUS_WING_1_1",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R262_COPING_R216_ERASMUS_WING_1_2",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R262_COPING_R216_ERASMUS_WING_1_3",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R262_SEDUM_R216_ERASMUS_WING_2",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R262_COPING_R216_ERASMUS_WING_2_0",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R262_COPING_R216_ERASMUS_WING_2_1",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R262_COPING_R216_ERASMUS_WING_2_2",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R262_COPING_R216_ERASMUS_WING_2_3",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R262_SEDUM_R217_ERASMUS_WING_8",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R262_COPING_R217_ERASMUS_WING_8_0",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R262_COPING_R217_ERASMUS_WING_8_1",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R262_COPING_R217_ERASMUS_WING_8_2",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R262_COPING_R217_ERASMUS_WING_8_3",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R262_SEDUM_R217_ERASMUS_WING_12",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R262_COPING_R217_ERASMUS_WING_12_0",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R262_COPING_R217_ERASMUS_WING_12_1",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R262_COPING_R217_ERASMUS_WING_12_2",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R262_COPING_R217_ERASMUS_WING_12_3",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R262_SEDUM_R217_ERASMUS_WING_13",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R262_COPING_R217_ERASMUS_WING_13_0",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R262_COPING_R217_ERASMUS_WING_13_1",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R262_COPING_R217_ERASMUS_WING_13_2",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R262_COPING_R217_ERASMUS_WING_13_3",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R262_SEDUM_R217_ERASMUS_WING_14",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R262_COPING_R217_ERASMUS_WING_14_0",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R262_COPING_R217_ERASMUS_WING_14_1",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R262_COPING_R217_ERASMUS_WING_14_2",
+      "boundary": 0,
+      "zero": 0
+    },
+    {
+      "name": "R262_COPING_R217_ERASMUS_WING_14_3",
+      "boundary": 0,
+      "zero": 0
+    }
+  ],
+  "source": "R214_erasmus_source_top.png; authored planar wings",
+  "limits": [
+    "Sedum material generated procedurally; patch locations not claimed measured",
+    "Coping thickness320mm and height270mm approximate",
+    "Remaining facades/courtyard links still incomplete"
+  ]
+}

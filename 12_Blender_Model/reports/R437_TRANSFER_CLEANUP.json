@@ -1,0 +1,19 @@
+{
+  "scene": "MUDAM_R437_KALE_ON_CEPHE_AKTARIM_TEMIZLIGI_ADAY_v001.blend",
+  "checks": [
+    {
+      "name": "R154_FORT_MASONRY_BODY",
+      "boundaryBefore": 70,
+      "boundaryAfter": 70,
+      "removedZeroAreaTriangles": 0,
+      "zeroArea": 0
+    },
+    {
+      "name": "R434_SUPERSEDED_WINDOW_MASONRY",
+      "boundaryAfter": 0,
+      "zeroArea": 0
+    }
+  ],
+  "accepted": false,
+  "published": false
+}

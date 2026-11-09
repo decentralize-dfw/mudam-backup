@@ -1,0 +1,13 @@
+{
+  "scene": "MUDAM_R169_YAN_BAGLANTI_ADAY_v038.blend",
+  "accepted": false,
+  "published": false,
+  "joined_edges": 39,
+  "maximum_join_m": 0.3079761711418681,
+  "scope": "Only inherited cut edges at side band ends and lower boundary; no roof or source geometry displaced",
+  "limits": [
+    "Inherited scan noise remains",
+    "Joins greater than0.35m excluded",
+    "Whole facade and roof remain unaccepted"
+  ]
+}

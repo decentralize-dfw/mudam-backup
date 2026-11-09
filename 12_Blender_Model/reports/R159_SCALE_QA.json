@@ -1,0 +1,16 @@
+{
+  "scene": "MUDAM_R159_KAYNAK_ORTU_OLCEGI_v001.blend",
+  "removed_low_surface_false_positives": [
+    {
+      "name": "R158_TREE_05522",
+      "source_top": 7.822616100311279,
+      "ground": 7.778594970703125
+    }
+  ],
+  "source_patch_count": 6334,
+  "max_source_patch_envelope_error_m": 1.52587890625e-05,
+  "source_raster_resolution_m": 2,
+  "individual_tree_identity_verified": false,
+  "roads_buildings_modified": false,
+  "whole_context_complete": false
+}

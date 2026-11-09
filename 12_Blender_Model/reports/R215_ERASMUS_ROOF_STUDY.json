@@ -1,0 +1,33 @@
+{
+  "accepted": false,
+  "published": false,
+  "standaloneStudyOnly": true,
+  "masterUnchanged": "R213",
+  "geometry": [
+    {
+      "name": "R215_PARAMETRIC_ROOF_0",
+      "boundary": 0,
+      "roof": 11.411735534667969,
+      "sourceResidualP90": 0.05487518310546877
+    },
+    {
+      "name": "R215_PARAMETRIC_ROOF_1",
+      "boundary": 0,
+      "roof": 11.454849243164062,
+      "sourceResidualP90": 0.03743133544921876
+    },
+    {
+      "name": "R215_PARAMETRIC_ROOF_2",
+      "boundary": 0,
+      "roof": 11.379295349121094,
+      "sourceResidualP90": 0.04547042846679688
+    }
+  ],
+  "glbReopened": true,
+  "method": "Independent planar quadrilateral solids; source only scalar height observations",
+  "limitations": [
+    "Three visible wings only, not whole building",
+    "Slab thickness .22m provisional",
+    "Walls openings rear strip courtyard and terrain connections still unbuilt; standalone study must not be connected to Context3"
+  ]
+}
